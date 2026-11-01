@@ -91,3 +91,20 @@ Not covered (no verifiable official source retrieved): Crash-cart drug list and 
 ## Second pass: still not covered (owner approved)
 
 Still not covered: crash-cart list and upkeep (PMC systematic review blocked; StatPearls not found); prescription-audit method (WHO IRIS record returned 403; not read).
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| p3-clinical-services-042 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| p3-clinical-services-043 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| p3-clinical-services-044 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| p3-clinical-services-045 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| p3-clinical-services-046 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| p3-clinical-services-047 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| p3-clinical-services-048 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| p3-clinical-services-049 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| p3-clinical-services-050 | web | https://europepmc.org/article/PMC/PMC13312064 |

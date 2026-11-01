@@ -86,3 +86,19 @@ Still uncovered: sample-size formula for a trial; correlation coefficient concep
 | rf-p3-research-biostats-0147 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
 | rf-p3-research-biostats-0148 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
 | rf-p3-research-biostats-0149 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-research-biostats-0150 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| rf-p3-research-biostats-0151 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| rf-p3-research-biostats-0152 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| rf-p3-research-biostats-0153 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| rf-p3-research-biostats-0154 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| rf-p3-research-biostats-0155 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| rf-p3-research-biostats-0156 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| rf-p3-research-biostats-0157 | web | https://europepmc.org/article/PMC/PMC13562950 |

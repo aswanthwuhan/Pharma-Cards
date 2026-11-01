@@ -91,3 +91,21 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | rf-p2-herbal-0348 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
 | rf-p2-herbal-0349 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
 | rf-p2-herbal-0350 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| rf-p2-herbal-0351 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0352 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0353 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0354 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0355 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0356 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0357 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0358 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0359 | web | https://europepmc.org/article/PMC/PMC13226798 |
+| rf-p2-herbal-0360 | web | https://europepmc.org/article/PMC/PMC13226798 |

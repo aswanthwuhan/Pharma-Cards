@@ -53,3 +53,27 @@ Skipped or handled elsewhere:
 | rf-p3-clinical-services-0222 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
 | rf-p3-clinical-services-0223 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
 | rf-p3-clinical-services-0224 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-clinical-services-0225 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| rf-p3-clinical-services-0226 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| rf-p3-clinical-services-0227 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| rf-p3-clinical-services-0228 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| rf-p3-clinical-services-0229 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| rf-p3-clinical-services-0230 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| rf-p3-clinical-services-0231 | web | https://europepmc.org/article/PMC/PMC13254943 |
+| rf-p3-clinical-services-0232 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| rf-p3-clinical-services-0233 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| rf-p3-clinical-services-0234 | web | https://europepmc.org/article/PMC/PMC12392430 |
+| rf-p3-clinical-services-0235 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| rf-p3-clinical-services-0236 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| rf-p3-clinical-services-0237 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| rf-p3-clinical-services-0238 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| rf-p3-clinical-services-0239 | web | https://europepmc.org/article/PMC/PMC13312064 |
+| rf-p3-clinical-services-0240 | web | https://europepmc.org/article/PMC/PMC13312064 |

@@ -99,3 +99,18 @@ Not covered (no verifiable official source retrieved): Cost-of-illness method (n
 ## Second pass: still not covered (owner approved)
 
 Still not covered: cost-of-illness method (no StatPearls or WHO page found).
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| p3-pv-economics-043 | web | https://europepmc.org/article/PMC/PMC13662043 |
+| p3-pv-economics-044 | web | https://europepmc.org/article/PMC/PMC13704798 |
+| p3-pv-economics-045 | web | https://europepmc.org/article/PMC/PMC13662043 |
+| p3-pv-economics-046 | web | https://europepmc.org/article/PMC/PMC13704798 |
+| p3-pv-economics-047 | web | https://europepmc.org/article/PMC/PMC13662043 |
+| p3-pv-economics-048 | web | https://europepmc.org/article/PMC/PMC13662043 |
+| p3-pv-economics-049 | web | https://europepmc.org/article/PMC/PMC13662043 |

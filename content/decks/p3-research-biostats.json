@@ -1137,6 +1137,117 @@
       "tags": [
         "uses"
       ]
+    },
+    {
+      "id": "p3-research-biostats-058",
+      "type": "basic",
+      "front": "What inputs set the sample size of a study?",
+      "back": "Research question, study design, expected effect size, significance level, statistical power, unit of analysis and analytical approach.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-059",
+      "type": "basic",
+      "front": "Is there one universal sample-size formula?",
+      "back": "No. Requirements depend on the design and inputs, so formulas are design-specific.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-060",
+      "type": "basic",
+      "front": "Per-group sample size for d = 0.5, alpha 0.05, power 0.80 in the guide's worked example?",
+      "back": "63 per group.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-061",
+      "type": "basic",
+      "front": "Per-group sample size for proportions 0.50 vs 0.65, alpha 0.05, power 0.80 in the guide's worked example?",
+      "back": "167 per group.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-062",
+      "type": "basic",
+      "front": "Why is a post hoc power calculation uninformative?",
+      "back": "It is done after data collection and adds nothing beyond the p-value.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-063",
+      "type": "shortnote",
+      "front": "Short note: sample size",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "A key design decision that determines whether real effects can be detected",
+            "Per-group closed-form formulas use Z values for significance level and power"
+          ]
+        },
+        {
+          "h": "Consequences",
+          "points": [
+            "Underpowered studies miss real effects",
+            "Overpowered studies waste participants and resources"
+          ]
+        },
+        {
+          "h": "Reporting",
+          "points": [
+            "State effect size and assumptions, not a single bare number"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
     }
   ]
 }

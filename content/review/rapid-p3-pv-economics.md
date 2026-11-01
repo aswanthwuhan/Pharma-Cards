@@ -89,3 +89,18 @@ Still uncovered: DALY / disability-adjusted life year (no text in the books).
 | rf-p3-pv-economics-0242 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
 | rf-p3-pv-economics-0243 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
 | rf-p3-pv-economics-0244 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-pv-economics-0245 | web | https://europepmc.org/article/PMC/PMC13662043 |
+| rf-p3-pv-economics-0246 | web | https://europepmc.org/article/PMC/PMC13704798 |
+| rf-p3-pv-economics-0247 | web | https://europepmc.org/article/PMC/PMC13704798 |
+| rf-p3-pv-economics-0248 | web | https://europepmc.org/article/PMC/PMC13662043 |
+| rf-p3-pv-economics-0249 | web | https://europepmc.org/article/PMC/PMC13662043 |
+| rf-p3-pv-economics-0250 | web | https://europepmc.org/article/PMC/PMC13662043 |
+| rf-p3-pv-economics-0251 | web | https://europepmc.org/article/PMC/PMC13704798 |

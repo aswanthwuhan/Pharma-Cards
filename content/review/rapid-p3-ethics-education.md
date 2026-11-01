@@ -73,3 +73,17 @@ Skipped or handled elsewhere:
 | rf-p3-ethics-education-0122 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
 | rf-p3-ethics-education-0123 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
 | rf-p3-ethics-education-0124 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-ethics-education-0125 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| rf-p3-ethics-education-0126 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| rf-p3-ethics-education-0127 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| rf-p3-ethics-education-0128 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| rf-p3-ethics-education-0129 | web | https://europepmc.org/article/PMC/PMC13655584 |
+| rf-p3-ethics-education-0130 | web | https://europepmc.org/article/PMC/PMC13388170 |

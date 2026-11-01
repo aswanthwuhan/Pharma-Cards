@@ -67,3 +67,26 @@ Skipped or handled elsewhere:
 | rf-p3-national-programmes-0141 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
 | rf-p3-national-programmes-0142 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
 | rf-p3-national-programmes-0143 | web | https://www.who.int/news-room/fact-sheets/detail/malaria |
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-national-programmes-0144 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| rf-p3-national-programmes-0145 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| rf-p3-national-programmes-0146 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| rf-p3-national-programmes-0147 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| rf-p3-national-programmes-0148 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| rf-p3-national-programmes-0149 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| rf-p3-national-programmes-0150 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| rf-p3-national-programmes-0151 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| rf-p3-national-programmes-0152 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| rf-p3-national-programmes-0153 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| rf-p3-national-programmes-0154 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| rf-p3-national-programmes-0155 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| rf-p3-national-programmes-0156 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| rf-p3-national-programmes-0157 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| rf-p3-national-programmes-0158 | web | https://europepmc.org/article/PMC/PMC12853776 |

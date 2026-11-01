@@ -70,3 +70,20 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | rf-p1-special-populations-0271 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
 | rf-p1-special-populations-0272 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
 | rf-p1-special-populations-0273 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| rf-p1-special-populations-0274 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| rf-p1-special-populations-0275 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| rf-p1-special-populations-0276 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| rf-p1-special-populations-0277 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| rf-p1-special-populations-0278 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| rf-p1-special-populations-0279 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| rf-p1-special-populations-0280 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| rf-p1-special-populations-0281 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| rf-p1-special-populations-0282 | web | https://europepmc.org/article/PMC/PMC12999791 |

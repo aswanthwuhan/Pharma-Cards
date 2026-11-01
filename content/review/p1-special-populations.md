@@ -100,3 +100,18 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | p1-special-populations-058 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
 | p1-special-populations-059 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
 | p1-special-populations-060 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| p1-special-populations-061 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| p1-special-populations-062 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| p1-special-populations-063 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| p1-special-populations-064 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| p1-special-populations-065 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| p1-special-populations-066 | web | https://europepmc.org/article/PMC/PMC12999791 |
+| p1-special-populations-067 | web | https://europepmc.org/article/PMC/PMC12999791 |

@@ -103,3 +103,22 @@ Note: the NTEP cards add the withdrawal of the Category II retreatment regimen a
 | p3-national-programmes-040 | web | https://www.who.int/news-room/fact-sheets/detail/malaria |
 
 Still not covered: NACO current ART regimen (official PDF over the fetch size limit; only secondary sources, including TLD); NCVBDC malaria regimen (certificate error; 2022 policy not found); NVHCP regimens (certificate error); typhoid treatment drug choice (WHO page names no drugs).
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| p3-national-programmes-041 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| p3-national-programmes-042 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| p3-national-programmes-043 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| p3-national-programmes-044 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| p3-national-programmes-045 | web | https://europepmc.org/article/PMC/PMC13429048 |
+| p3-national-programmes-046 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| p3-national-programmes-047 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| p3-national-programmes-048 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| p3-national-programmes-049 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| p3-national-programmes-050 | web | https://europepmc.org/article/PMC/PMC12853776 |
+| p3-national-programmes-051 | web | https://europepmc.org/article/PMC/PMC12853776 |

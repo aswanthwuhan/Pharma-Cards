@@ -133,3 +133,17 @@ Not covered (no verifiable official source retrieved): Sample-size formula; Pear
 | p3-research-biostats-057 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
 
 Still not covered: sample-size formula (no StatPearls or official page found; PMC pages blocked); regression beyond the variable types above (the StatPearls article gave no equation).
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| p3-research-biostats-058 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| p3-research-biostats-059 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| p3-research-biostats-060 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| p3-research-biostats-061 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| p3-research-biostats-062 | web | https://europepmc.org/article/PMC/PMC13562950 |
+| p3-research-biostats-063 | web | https://europepmc.org/article/PMC/PMC13562950 |

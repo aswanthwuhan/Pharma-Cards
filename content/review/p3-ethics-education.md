@@ -102,3 +102,18 @@ Not covered (no verifiable official source retrieved): Miller's pyramid (no NMC 
 ## Second pass: still not covered (owner approved)
 
 Still not covered: Miller's pyramid (PMC blocked; no NCBI Bookshelf or official page read).
+
+
+## Gap closure: web-sourced cards (owner approved, 2026-11-01)
+
+Cards written from official or authoritative web sources (Europe PMC open-access articles) under the GROUNDING-RULES exception. Status `web` for owner review; all `draft`.
+
+| id | status | source |
+|---|---|---|
+| p3-ethics-education-046 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| p3-ethics-education-047 | web | https://europepmc.org/article/PMC/PMC13655584 |
+| p3-ethics-education-048 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| p3-ethics-education-049 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| p3-ethics-education-050 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| p3-ethics-education-051 | web | https://europepmc.org/article/PMC/PMC13388170 |
+| p3-ethics-education-052 | web | https://europepmc.org/article/PMC/PMC13388170 |
