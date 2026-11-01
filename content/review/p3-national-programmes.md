@@ -62,3 +62,16 @@ Overlap note: p3-tb-leprosy holds the drug-level TB and leprosy regimen cards (R
 | p3-national-programmes-027 | ok | Katzung16 appendix 2 |
 | p3-national-programmes-028 | ok | KDT8 ch56, Katzung16 appendix 2 |
 | p3-national-programmes-029 | ok | KDT8 ch61, KDT8 ch62, KDT8 ch63, Katzung16 appendix 2 |
+
+## Completion pass (Haiku)
+
+Added 1 card (030), draft. Deck now 30 cards.
+
+| Gap / sub-point | Status | Cards or source |
+|---|---|---|
+| Dengue | Partly covered: named under NVBDCP (011) and dengue vaccine added; programme detail still a gap | 030 Dengvaxia indication and limits (Sarkar p576-580). No book gives dengue programme detail (checked Katzung16 appendix 2, KDT8 chapters) |
+| Current regimens after 2016-2017 (NTEP updates, shorter all-oral MDR-TB, dolutegravir first line, NVBDCP updates) | Still a gap | Indian programme updates not in any book in the library. Not carded |
+| Viral hepatitis, typhoid and other programmes | Still a gap | Books give drug-level text only (KDT8 ch51-53, ch59); no programme content. Not carded here |
+| NACP and NTEP collaboration | Already covered | 024 (Katzung16 appendix 2) |
+
+Checked: Katzung16 appendix 2 (NVBDCP, NACP, NTEP, NDCP, UIP, NLEP), KDT8 ch56-63 and ch70. The NTEP 4-drug intensive phase conflict (Katzung vs KDT8) is still unresolved, as logged above.

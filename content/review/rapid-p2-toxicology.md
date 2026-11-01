@@ -68,3 +68,32 @@ Added only where absent from p2-cholinergic: OP intermediate syndrome, OPIDP mec
 | **total** | **688 (71 class)** |
 
 Brief validation check: `ok 688 71 class`. Two answers are 16 words (within the "where possible" limit).
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 21 (rf-p2-toxicology-0689 to rf-p2-toxicology-0709).
+
+- rf-p2-toxicology-0689: Datura (dhatura) poisoning: other name | Sarkar p6-10; Prep p96-100; Prep p101-105
+- rf-p2-toxicology-0690: Datura: phytochemicals of the atropine-source plant | Sarkar p6-10; Prep p96-100; Prep p101-105
+- rf-p2-toxicology-0691: Datura poisoning: toxicity type and antidote | Sarkar p6-10; Prep p96-100; Prep p101-105
+- rf-p2-toxicology-0692: Scorpion venom: receptor stimulated and haemodynamic result | Prep p131-135; Prep p136-140; RR5 p11-15
+- rf-p2-toxicology-0693: Scorpion sting: drug of choice for the hypertension | Prep p131-135; Prep p136-140; RR5 p11-15
+- rf-p2-toxicology-0694: Prazosin in scorpion sting: first-dose precaution | Prep p131-135; Prep p136-140; RR5 p11-15
+- rf-p2-toxicology-0695: Scorpion sting: drug for seizures | Prep p136-140
+- rf-p2-toxicology-0696: Scorpion sting: drug for muscle spasm and pain | Prep p136-140
+- rf-p2-toxicology-0697: Scorpion sting: intramuscular adrenaline is given for | Prep p136-140
+- rf-p2-toxicology-0698: Cobra and krait venom: mechanism of paralysis | Prep p91-95
+- rf-p2-toxicology-0699: Cobra and krait bite: drug of choice | Prep p91-95
+- rf-p2-toxicology-0700: Neostigmine added for paralysis after cobra or krait bite: why | Prep p91-95
+- rf-p2-toxicology-0701: Atropine added with neostigmine for snake paralysis: why | Prep p91-95
+- rf-p2-toxicology-0702: US rattlesnake bite: field remedies to avoid: list all | Katzung16 ch58
+- rf-p2-toxicology-0703: Rattlesnake bite: how to limit spread of venom | Katzung16 ch58
+- rf-p2-toxicology-0704: Rattlesnake bite: definitive treatment | Katzung16 ch58
+- rf-p2-toxicology-0705: Bedside clue: corrosive poisoning | Katzung16 ch58
+- rf-p2-toxicology-0706: Bedside clue: hydrocarbon solvent poisoning | Katzung16 ch58
+- rf-p2-toxicology-0707: Chest radiograph finding after hydrocarbon poisoning | Katzung16 ch58
+- rf-p2-toxicology-0708: Halogenated hydrocarbon solvents: organs injured | Katzung16 ch56
+- rf-p2-toxicology-0709: PFOA: persistence and endocrine effect | Katzung16 ch56
+
+Skipped or handled elsewhere:
+- p2-toxicology-055 (iron-containing prenatal multivitamins, 10-12 tablets) already covered by an existing card. Not repeated.

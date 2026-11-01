@@ -51,3 +51,18 @@ NMC syllabus item 24 (Drug delivery systems); also the OSPE station 'Various dru
 
 - Liposome size: the KDT8 ch3 unit is garbled in the PDF text; RangDale9 ch9 gives 0.1-1 micrometre. The card avoids the KDT number.
 - Routes and basic dosage forms are already in p1-intro-routes. This deck covers delivery systems only.
+
+## Completion pass (Haiku)
+
+Added 10 cards (026-035), all draft. Deck now 35 cards.
+
+| GAP from the first pass | Status | Card ids and source |
+|---|---|---|
+| Osmotic pumps (OROS) | Still a gap | Searched Prep, Sarkar, RR OCR; KDT8 ch1-6, GG14, Rang & Dale 9e, Katzung: no hits |
+| Ocular inserts | Covered | 032 (Prep p91-95; GG14 ch2) |
+| Mucoadhesive and gastroretentive systems | Still a gap | No hits in any source |
+| Insulin pumps | Covered | 031 (Prep p426-430) |
+| Inhaler device types | Covered | 033 (GG14 ch11: metered-dose, dry-powder, nebuliser; RangDale9 ch29); 034 particle size (Prep p16-20) |
+| Formulation technology (polymers, release kinetics) | Partly covered | 026 (KDT8 ch3, semipermeable membrane release); 027 (KDT8 ch1, polymer reservoir and rate-controlling membrane); 035 (Sarkar p46-50, prodrug esters). Release-kinetics theory is still a gap |
+
+Extra cards from Prep p16-20 (Norplant, transdermal site and area dependence): 028, 029, 030.

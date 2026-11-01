@@ -57,3 +57,19 @@ Overlap note: p4-clinical-trials covers GCP in outline (019), the four principle
 | p3-ethics-education-026 | ok | Sarkar p156-160, Sarkar p226-230, Sarkar p186-190, RangDale9 ch8 |
 
 - Orchestrator: 022 trailing Maslach/"compassion fatigue" sentence removed (not in Sarkar p586-590).
+
+## Completion pass (Haiku)
+
+Added 3 cards (027-029), draft. Deck now 29 cards.
+
+| Gap / sub-point | Status | Cards or source |
+|---|---|---|
+| Belmont Report | Partly covered: the justice principle is quoted in GG14; the three principles are not named in any book | 027 justice principle and foreign trials (GG14 ch1). Sarkar p156-160 gives only the origin |
+| Wider professionalism (integrity, communication, AETCOM, respect in interactions) | Still a gap | Books silent |
+| PG medical education curriculum and guidelines | Still a gap | Books silent |
+| Teaching-learning methods and technology | Still a gap | Books silent (searched Sarkar, Katzung, Rang & Dale, GG14) |
+| Assessment principles (formative, summative, OSPE, MCQ, blueprinting) | Still a gap | Books silent |
+| CBME undergraduate curriculum | Covered (partly) | 025 (Katzung16 appendix 3 competency numbering); 028 WHO curricular intervention (Sarkar p56-60) |
+| Pharmacologist's role in education | Covered | 024; 029 essential medicines list identifies the must-know drugs for teaching (Sarkar p61-65) |
+
+Cross-references: placebo ethics and GCP in p4-clinical-trials (019, 022, 023) and p4-experimental (animal ethics).

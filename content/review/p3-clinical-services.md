@@ -62,3 +62,16 @@ Book issues noted: Sarkar's medication-error section has OCR-garbled lines (IV e
 | p3-clinical-services-034 | ok | Katzung16 ch66 |
 | p3-clinical-services-035 | ok | Katzung16 ch66 |
 | p3-clinical-services-036 | ok | Sarkar p506-510, Sarkar p76-80, Sarkar p86-90, Sarkar p71-75, Katzung16 appendix 2, Katzung16 ch66 |
+
+## Completion pass (Haiku)
+
+Added 2 cards (037-038), all draft. Deck now 38 cards.
+
+| Gap / sub-point | Status | Cards or source |
+|---|---|---|
+| Hospital formulary: selection and review criteria | Partly covered; criteria and step-by-step process still a gap | 037 uses pharmacoeconomic methods for formulary and drug prices (Katzung16 appendix 2); pv-economics 027-028 |
+| Antibiogram preparation and use (competency 17) | Use covered; preparation still a gap | 038 empiric choice depends on local antibiogram and severity (Katzung16 ch51). Preparation not in any book |
+| Prescription audit method (indicators, sampling, scoring) | Still a gap | Purpose, WHO audit and feedback, drug utilisation and quality indicators already in 033 and 002 |
+| Crash cart contents and resuscitation drug set | Still a gap | No book lists a crash-cart set. Adrenaline 1:10,000 IV/IO in cardiac arrest (Prep p116-120) is already in p2-adrenergic-018 and not repeated |
+
+Cross-references: pharmacoeconomics in p3-pv-economics (024, 027, 028); antibiotic stewardship and rational use in p4-rational-use; NABH/JCI and DTC convener already in 001 (not duplicated).

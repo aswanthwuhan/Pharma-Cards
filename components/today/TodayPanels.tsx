@@ -168,7 +168,7 @@ export function ExamCountdown({
       ) : (
         <div className="space-y-3">
           <p className="text-sm text-ink-soft">No exam date set. Add one and the daily new-card plan will adjust.</p>
-          <Link href="/stats#planner" className="btn-ghost w-full">
+          <Link href="/settings#exam" className="btn-ghost w-full">
             Set exam date
           </Link>
         </div>

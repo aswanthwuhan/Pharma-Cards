@@ -60,3 +60,17 @@ None. No card was corrected from another book. No statement was found to be wron
 | p3-pv-economics-pharmacoeconomics | 40 |
 | p3-pv-economics-pharmacoepi | 30 |
 | **total** | **233** (59 class) |
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 6 (rf-p3-pv-economics-0234 to rf-p3-pv-economics-0239).
+
+- rf-p3-pv-economics-0234: Drug utilisation study: what it investigates | Sarkar p506-510
+- rf-p3-pv-economics-0235: Who conducts drug utilisation studies (Sarkar) | Sarkar p506-510
+- rf-p3-pv-economics-0236: PSUR frequency in the first 2 years of post-marketing surveillance | Sarkar p221-225
+- rf-p3-pv-economics-0237: PSUR frequency for the next 2 years | Sarkar p221-225
+- rf-p3-pv-economics-0238: Post-marketing surveillance of a new drug: mandatory? | Sarkar p221-225
+- rf-p3-pv-economics-0239: Study designs for observing drug safety after marketing: list all | Sarkar p221-225
+
+Skipped or handled elsewhere:
+- p3-pv-economics-034 (WHO Drug Dictionary, ATC, WHO-ART, MedDRA) already covered by an existing card. Not repeated.

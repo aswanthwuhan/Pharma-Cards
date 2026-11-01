@@ -7,7 +7,7 @@
    - Goodman & Gilman 12e or 14e
    - Katzung
    - Rang & Dale 9e
-   - Pharma Rapid Revision 5e, Pharmacology Prep, PG Pharma Sarkar: these are scanned, so read the MinerU OCR text in `C:\Pharmacology Book\ocr\<rapid-revision|sarkar|prep>\pNNNN-NNNN.md` (one file per 5 PDF pages; grep it). Cite them as `"RR5 p<PDF page>"`, `"Sarkar p<N>"`, `"Prep p<N>"`. They are review books, so a standard textbook (KDT8, GG, Katzung, Rang & Dale) wins whenever they disagree. OCR can garble numbers, so drop any number that is not clearly legible. If a book's OCR folder does not exist yet, skip that book.
+   - Pharma Rapid Revision 5e, Pharmacology Prep, PG Pharma Sarkar: these are scanned, so read the MinerU OCR text in `C:\Pharmacology Book\ocr\<rapid-revision|sarkar|prep>\pNNNN-NNNN.md` (one file per 5 PDF pages; grep it). Cite them by the OCR file's 5-page range, e.g. `"Sarkar p221-225"` (files have no page markers, so never guess a single page). They are review books, so a standard textbook (KDT8, GG, Katzung, Rang & Dale) wins whenever they disagree. OCR can garble numbers, so drop any number that is not clearly legible. If a book's OCR folder does not exist yet, skip that book.
 2. **`refs` is mandatory and must be precise:** `"<book> <edition> ch<N>"`, e.g. `"KDT8 ch52"`, `"GG14 ch7"`, `"Katzung16 ch36"`, `"RangDale9 ch8"`. Never use `"refs": []`.
 3. **General knowledge is NOT allowed**, even if you are confident. If no book supports a fact, remove that fact from the card. If nothing remains, delete the card from the deck.
 4. **When the books disagree or are dated:**
@@ -20,3 +20,5 @@
 8. **Review log:** `content/review/<topicId>.md` lists every card's grounding status. Keep it as a compact table: `id | ok / corrected / deleted | source`.
 
 How to check a fact: extract the cited chapter with `pdftotext "<file>" -`. For the single-file big books, use `pdftotext -f <first> -l <last> "<file>" -`; locate pages first via the contents and `grep -n`. GG14 PDF page ≈ book page + 17.
+
+- Orchestrator: single-page OCR refs (Sarkar/Prep/RR5 pN) converted to the 5-page file range that contains them (OCR files have no page markers).

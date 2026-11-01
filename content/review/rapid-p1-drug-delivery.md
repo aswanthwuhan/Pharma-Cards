@@ -22,3 +22,28 @@ Cards per subtopic: rationale 14, oral-modified 18, parenteral-depot 12, transde
 - General absorption and distribution physics (membrane permeation, pKa and ion trapping, bioavailability definitions, bioequivalence) that belong to p1-pk-absorption and p1-pk-elimination.
 - Mucosal vaccination (GG14 ch2) and intravitreal monoclonal antibody details (RangDale9 ch9): outside the delivery-system subtopics.
 - KDT8 ch3 interaction and metabolism passages (P-gp, enterohepatic cycling): covered by other topics.
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 16 (rf-p1-drug-delivery-0101 to rf-p1-drug-delivery-0116).
+
+- rf-p1-drug-delivery-0101: Transdermal patch dose depends on | Prep p16-20
+- rf-p1-drug-delivery-0102: Transdermal absorption by skin site, greatest first (first three) | Prep p16-20
+- rf-p1-drug-delivery-0103: Skin with least transdermal absorption | Prep p16-20
+- rf-p1-drug-delivery-0104: Nicotine patch indication | Prep p16-20; KDT8 ch1
+- rf-p1-drug-delivery-0105: Nitrate patch indication | Prep p16-20; KDT8 ch1
+- rf-p1-drug-delivery-0106: Motion sickness patch: drug (scopolamine or diphenhydramine) | Prep p16-20; KDT8 ch1
+- rf-p1-drug-delivery-0107: Norplant: form and duration | Prep p16-20
+- rf-p1-drug-delivery-0108: Continuous subcutaneous insulin by pump: advantage | Prep p426-430
+- rf-p1-drug-delivery-0109: Ocusert: what it is | Prep p91-95; GG14 ch2
+- rf-p1-drug-delivery-0110: Drug-loaded contact lenses and ocular inserts: purpose (GG14) | GG14 ch2
+- rf-p1-drug-delivery-0111: Ipratropium, tiotropium and aclidinium: inhaler devices (dosing frequency for ipratropium) | GG14 ch11; RangDale9 ch29
+- rf-p1-drug-delivery-0112: Inhaled corticosteroids: inhaler types | GG14 ch11; RangDale9 ch29
+- rf-p1-drug-delivery-0113: Inhaled particle size for local bronchial action | Prep p16-20
+- rf-p1-drug-delivery-0114: Inhaled particle size for systemic action | Prep p16-20
+- rf-p1-drug-delivery-0115: Long-chain aliphatic ester prodrugs: why they act for long | Sarkar p46-50
+- rf-p1-drug-delivery-0116: Injectable long-acting ester prodrug example | Sarkar p46-50
+
+Skipped or handled elsewhere:
+- p1-drug-delivery-026 (semipermeable membrane, 30% at once, 70% over 4-8 h) already covered by rf-p1-drug-delivery-0016, -0018, -0019.
+- p1-drug-delivery-027 (TTS layers, 5-20 cm2, 1-3 day wear) already covered by rf-p1-drug-delivery-0045 to -0050.

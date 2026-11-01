@@ -43,6 +43,7 @@ function Study() {
   const [cards, setCards] = useState<FlashCard[]>();
 
   useEffect(() => {
+    let live = true;
     setCards(undefined);
     buildQueue({
       mode,
@@ -53,7 +54,10 @@ function Study() {
       types,
       pyqOnly,
       direction,
-    }).then(setCards);
+    }).then((c) => live && setCards(c), () => live && setCards([]));
+    return () => {
+      live = false;
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params.toString()]);
 

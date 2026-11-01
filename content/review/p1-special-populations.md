@@ -66,3 +66,17 @@ NMC syllabus item 21 (Use of drugs in special population); competency A4 (medici
 - Neonatal GFR: KDT8 ch5 says adult filtration by about 5 months; Katzung16 ch59 says 6-12 months. The card states the Katzung value and cites it.
 - Neonatal ampicillin and gentamicin regimens printed in Katzung were not carded. The digoxin per-kg figures are kept, with the KDT citation.
 - p1-drug-dev already has cards on gray baby syndrome and on dosing children and the elderly. These cards go deeper on kinetics and use different wording.
+
+## Completion pass (Haiku)
+
+Added 12 cards (036-047), all draft. Deck now 47 cards.
+
+| GAP from the first pass | Status | Card ids and source |
+|---|---|---|
+| Indian guidance (ICMR/CDSCO for pregnancy, Indian paediatric formulary) | Still a gap | OCR search for ICMR and pregnancy finds only unrelated text (reverse pharmacology, GCP guidelines) |
+| Beers criteria / STOPP-START | Covered | 036, 037, 038 (Sarkar p71-75) |
+| Child-Pugh based dose adjustment in liver disease | Partly covered | 039 (GG14 ch62, score and classes); 040 (GG14 ch39, ponesimod not recommended in Child-Pugh B or C); 041 (Sarkar p576-580, obeticholic acid start dose by stage). A general Child-Pugh dose rule is still a gap |
+| Dosing in dialysis | Partly covered | 046 (GG14 ch58, vancomycin with dialysis). A general dialysis dosing rule is still a gap. Prep p26-30 covers dialysis for poisoning only, not carded |
+| Dosing in obesity | Covered | 045 (KDT8 ch5, dose on body weight; BSA noted as alternative) |
+| Hepatic disease (only 1 card in first pass) | Expanded | 027 plus 042 (Prep p31-35, succinylcholine), 043 (Prep p371-375, TB drugs), 044 (Prep p336-340, fluoroquinolones) |
+| Paediatric dosage forms (extra) | Added | 047 (KDT8 ch5, metered-dose inhalers and solid forms in young children) |

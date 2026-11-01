@@ -125,7 +125,7 @@ export default function Admin() {
         {filter === "draft" && list.length > 0 && (
           <button
             className="btn-ghost"
-            onClick={() => confirm(`Approve all ${list.length} cards shown?`) && Promise.all(list.map((c) => patchOverride({ id: c.id, status: "approved" })))}
+            onClick={() => confirm(`Approve all ${Math.min(list.length, 50)} cards shown?`) && Promise.all(list.slice(0, 50).map((c) => patchOverride({ id: c.id, status: "approved" })))}
           >
             Approve all on this page
           </button>
@@ -134,7 +134,11 @@ export default function Admin() {
         <div className="flex flex-wrap items-center gap-2 border-t border-rule pt-4">
           <label className="btn-ghost cursor-pointer">
             Import deck JSON
-            <input type="file" accept=".json" className="hidden" onChange={(e) => e.target.files?.[0] && importDeck(e.target.files[0])} />
+            <input type="file" accept=".json" className="hidden" onChange={(e) => {
+                const file = e.target.files?.[0];
+                if (file) importDeck(file);
+                e.target.value = "";
+              }} />
           </label>
           <button className="btn-ghost" onClick={exportOverrides}>
             Export approvals and edits
@@ -207,7 +211,7 @@ function Editor({ card, onClose }: { card: FlashCard; onClose: () => void }) {
           className="btn-primary"
           onClick={async () => {
             try {
-              await patchOverride({ id: card.id, ...JSON.parse(json) });
+              await patchOverride({ ...JSON.parse(json), id: card.id });
               onClose();
             } catch (e) {
               setErr((e as Error).message);

@@ -1,6 +1,6 @@
 # Review log: p2-toxicology
 
-New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 48, all status draft. Deleted: 0.
+New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 57, all status draft. Deleted: 0.
 
 ## NMC coverage
 
@@ -76,3 +76,25 @@ Overlap note: chelator pharmacology cards exist in p3-misc (chelators); OP cards
 | p2-toxicology-046 | ok | Katzung16 ch56 |
 | p2-toxicology-047 | ok | Katzung16 ch56 |
 | p2-toxicology-048 | ok | Katzung16 ch56 |
+
+## Completion pass (Haiku)
+
+Added 9 cards (049-057) from the review books and textbooks. Each card cites its source and OCR page range.
+
+| Gap | Status | Ids and source |
+|---|---|---|
+| Snake envenomation and ASV | Covered | Cross-ref p3-misc polyvalent antisnake venom card (KDT8 ch70, existing, not duplicated); p2-toxicology-052 (cobra and krait, neurotoxic, neostigmine with atropine; Prep p91-95); p2-toxicology-053 (US rattlesnake; Katzung16 ch58) |
+| Aluminium or zinc phosphide | Still a gap | No hit in OCR (Prep, Sarkar, Rapid Revision) or Katzung ch56-58, KDT8 ch68 |
+| Kerosene and hydrocarbon poisoning | Partly covered | p2-toxicology-054 (hydrocarbon odour and hydrocarbon pneumonia; Katzung16 ch58). Specific management is not in the books: still a gap |
+| Corrosive poisoning | Partly covered | p2-toxicology-054 (burns around the mouth; Katzung16 ch58). Corrosive ingestion management is not in the books: still a gap |
+| Datura | Covered | p2-toxicology-049 (Sarkar p6-10, Prep p96-100). Physostigmine and anticholinergic toxidrome already in p2-toxicology-020 and -027; belladonna antidote in p2-cholinergic (cross-ref) |
+| Scorpion sting | Covered (added) | p2-toxicology-050 (prazosin; Prep p131-140, Prep p136-140, RR5 p11-15); p2-toxicology-051 (diazepam, lignocaine, adrenaline; Prep p136-140) |
+| Organophosphate poisoning | Covered (existing) | p2-toxicology-030; pralidoxime timing and ageing are in p2-cholinergic (cross-ref) |
+| Paracetamol | Covered (existing) | p2-toxicology-021 |
+| Iron poisoning in detail | Covered | p2-toxicology-055 (iron multivitamins; Katzung16 ch58). Acute iron poisoning and chelation are in p2-blood (cross-ref, not duplicated) |
+| Halogenated solvents (Katzung ch56 "not carded") | Covered (added) | p2-toxicology-056 (Katzung16 ch56) |
+| Perfluoro compounds (not carded) | Covered (added) | p2-toxicology-057 (Katzung16 ch56) |
+| Nanomaterials, dioxins (not carded) | Still a gap | Katzung16 ch56 names them, but the chapter text gives no treatment or clinical point that is worth carding |
+| Poison control services (Indian) | Still a gap | Books silent |
+| Insecticides Act and pesticide bans | Still a gap | Books silent |
+| Oleander | Still a gap | No hit in the books searched |

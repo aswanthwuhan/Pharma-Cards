@@ -20,3 +20,26 @@ Cards per subtopic: early 22, founders 17, 20th-century 13, regulation 14, targe
 - RangDale9 ch3 G-protein and effector pages (pp. 30-45, second messengers): belong to p1-pd, not this deck.
 - KDT8 ch1 routes, nomenclature, compendia and essential medicines: belong to p1-intro-routes.
 - Gap items from the study log, not carded: history of medicine in general (e.g. Ayurveda) and Indian regulatory history beyond Schedule H.
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 15 (rf-p1-history-molecular-0205 to rf-p1-history-molecular-0219).
+
+- rf-p1-history-molecular-0205: Meaning of 'ayurveda' | Sarkar p6-10
+- rf-p1-history-molecular-0206: Ayurvedic texts describing plant pharmacology: names and plant count | Sarkar p6-10
+- rf-p1-history-molecular-0207: Contribution of Indian Ayurveda and Chinese plant systems to new medicines | Sarkar p6-10
+- rf-p1-history-molecular-0208: Sir Ram Nath Chopra: known as | Sarkar p16-20; Sarkar p496-500
+- rf-p1-history-molecular-0209: First centre for pharmacology study and research in India: where | Sarkar p16-20; Sarkar p496-500
+- rf-p1-history-molecular-0210: Chair Chopra held at that centre | Sarkar p16-20; Sarkar p496-500
+- rf-p1-history-molecular-0211: Reverse pharmacology: starting point | Sarkar p16-20
+- rf-p1-history-molecular-0212: Who introduced reverse pharmacology for Ayurvedic drugs in India | Sarkar p16-20
+- rf-p1-history-molecular-0213: Sen and Bose 1931: Rauwolfia serpentina finding | Sarkar p16-20
+- rf-p1-history-molecular-0214: Indian Act regulating import, manufacture and distribution of drugs | Sarkar p31-35
+- rf-p1-history-molecular-0215: Drugs and Cosmetics Act section 17B: what it empowers | Sarkar p31-35
+- rf-p1-history-molecular-0216: Body authorising import or manufacture of a new drug, orphan drugs included | Sarkar p36-40; Sarkar p91-95
+- rf-p1-history-molecular-0217: Year India joined the WHO Programme for International Drug Monitoring | Sarkar p91-95
+- rf-p1-history-molecular-0218: Body that manages the WHO drug monitoring programme | Sarkar p91-95
+- rf-p1-history-molecular-0219: India's national centre for WHO drug monitoring | Sarkar p91-95
+
+Skipped or handled elsewhere:
+- None skipped: all six new study cards (033-038) carded.

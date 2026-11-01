@@ -84,11 +84,16 @@ export function RapidFireSession({
   const undoLast = useCallback(async () => {
     const last = log.at(-1);
     if (!last || busy.current) return;
-    await undoReview(last.undo);
-    setLog((l) => l.slice(0, -1));
-    setStreak(0);
-    setI((n) => n - 1);
-    setFlipped(true);
+    busy.current = true;
+    try {
+      await undoReview(last.undo);
+      setLog((l) => l.slice(0, -1));
+      setStreak(0);
+      setI((n) => n - 1);
+      setFlipped(true);
+    } finally {
+      busy.current = false;
+    }
   }, [log]);
 
   useEffect(() => {

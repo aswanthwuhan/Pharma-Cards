@@ -110,12 +110,12 @@ export default function Today() {
           {examDate ? (
             <>
               <span>{examName}</span>
-              <Link href="/stats#planner" className="btn-chip min-h-9 text-ink">
+              <Link href="/settings#exam" className="btn-chip min-h-9 text-ink">
                 {examChip}
               </Link>
             </>
           ) : (
-            <Link href="/stats#planner" className="btn-chip min-h-9 text-ink">
+            <Link href="/settings#exam" className="btn-chip min-h-9 text-ink">
               Set exam date
             </Link>
           )}

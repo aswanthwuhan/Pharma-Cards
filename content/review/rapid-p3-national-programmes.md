@@ -35,3 +35,14 @@ Antifungal and antiviral ART drug facts (p3-antifungal-viral) were not repeated;
 ## Node check
 
 `ok 129 32 class` (brief check run on `content/rapid/p3-national-programmes.json`).
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 3 (rf-p3-national-programmes-0130 to rf-p3-national-programmes-0132).
+
+- rf-p3-national-programmes-0130: Live tetravalent dengue vaccine: name and serotypes | Sarkar p576-580
+- rf-p3-national-programmes-0131: Dengvaxia: approved for whom | Sarkar p576-580
+- rf-p3-national-programmes-0132: Dengvaxia: why not given to people never infected | Sarkar p576-580
+
+Skipped or handled elsewhere:
+- None skipped.

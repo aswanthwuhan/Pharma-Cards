@@ -34,3 +34,14 @@ Coverage limits: the protocol and control-group cards (p181-210) were checked ag
 ## Node check
 
 `ok 122 15 class` (brief check run on `content/rapid/p3-research-biostats.json`).
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 3 (rf-p3-research-biostats-0123 to rf-p3-research-biostats-0125).
+
+- rf-p3-research-biostats-0123: Central value and spread pairs reported in results: list all | Sarkar p511-515
+- rf-p3-research-biostats-0124: Kaplan-Meier plot: axes in the rizatriptan example | RangDale9 ch16
+- rf-p3-research-biostats-0125: Kaplan-Meier rizatriptan example: groups compared | RangDale9 ch16
+
+Skipped or handled elsewhere:
+- None skipped.

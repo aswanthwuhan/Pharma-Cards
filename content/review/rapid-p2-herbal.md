@@ -60,3 +60,13 @@ No card contradicts a book. Changes from the study deck:
 | p2-herbal-purified | 64 |
 | p2-herbal-traditional | 75 |
 | **total** | **334** (51 class) |
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 2 (rf-p2-herbal-0335 to rf-p2-herbal-0336).
+
+- rf-p2-herbal-0335: Withanone (ashwagandha): SARS-CoV-2 target reported in a study | Sarkar p611-615
+- rf-p2-herbal-0336: Ashwagandha as a Covid-19 candidate: evidence status | Sarkar p611-615
+
+Skipped or handled elsewhere:
+- None skipped.

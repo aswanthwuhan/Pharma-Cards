@@ -33,3 +33,14 @@ No card in `content/rapid/p3-tb-leprosy.json`, `content/rapid/p3-antiparasitic.j
 ## Node check
 
 `ok 217 53 class` (brief check run on `content/rapid/p3-clinical-services.json`).
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 3 (rf-p3-clinical-services-0218 to rf-p3-clinical-services-0220).
+
+- rf-p3-clinical-services-0218: Pharmacoeconomic analysis in a hospital formulary: also used for | Katzung16 appendix 2
+- rf-p3-clinical-services-0219: Empirical antibiotic choice in adult hospital-acquired infection depends on | Katzung16 ch51
+- rf-p3-clinical-services-0220: Katzung: when vancomycin or linezolid is added to the empirical HAI regimen | Katzung16 ch51
+
+Skipped or handled elsewhere:
+- p3-clinical-services-037: the pharmacoeconomic method names are already on existing pv-economics cards; only the formulary use is carded.

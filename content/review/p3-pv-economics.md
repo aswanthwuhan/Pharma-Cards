@@ -1,6 +1,6 @@
 # Review log: p3-pv-economics
 
-New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 33, all status draft. Deleted: 0.
+New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 37, all status draft. Deleted: 0.
 
 ## NMC coverage
 
@@ -59,3 +59,19 @@ Overlap note: p1-adr and p4-clinical-trials already hold basic PV, causality and
 | p3-pv-economics-031 | ok | GG14 ch8 |
 | p3-pv-economics-032 | ok | GG14 ch8 |
 | p3-pv-economics-033 | ok | GG14 ch8, KDT8 ch6, Sarkar p86-90, Sarkar p91-95 |
+
+## Completion pass (Haiku)
+
+Added 4 cards (034-037).
+
+| Gap | Status | Ids and source |
+|---|---|---|
+| Drug utilisation studies: methods | Partly covered | p3-pv-economics-035 (Sarkar p506-510: what DU studies investigate); p3-pv-economics-037 (Sarkar p221-225: DU studies among post-marketing designs) |
+| DU90% and WHO prescribing indicators | Still a gap | Sarkar p56-60 cites prescribing indicators in a reference only; Sarkar p71-75 covers START and Beers tools, which are not DU90% |
+| ATC and DDD | Partly covered | p3-pv-economics-034 (Sarkar p91-95: WHO Drug Dictionary based on ATC). DDD definition: still a gap |
+| Current PvPI specifics (AMC count, consumer route, helpline, materiovigilance) | Still a gap | Sarkar data dated to 2017; no newer book source |
+| Cost-of-illness, discounting, sensitivity analysis, DALY, willingness-to-pay | Still a gap | Sarkar p81-85 names cost-of-illness only; no method text |
+| PSUR | Partly covered | p3-pv-economics-036 (Sarkar p221-225: filing frequency during PMS). PSUR format and content: still a gap |
+| Risk management plans under Indian rules | Still a gap | Books silent. GG14 REMS is covered in p3-pv-economics-018 (not the same thing) |
+
+Cross-references (not duplicated): basic PV and PvPI cards are in p1-adr and p4-clinical-trials.

@@ -61,3 +61,14 @@ NMC syllabus items 1 (History of Pharmacology and medicine) and 2 (Basic and mol
 - Ehrlich's arsenical: GG14 ch1 dates arsphenamine to 1907; RangDale9 ch1 says 1909. The card follows GG14 (newest).
 - The constitutive-activity card omits the opioid receptor subtype, because the Greek letter was lost in the PDF text.
 - No timescale is given for kinase-linked receptors, because the extracted text does not state one.
+
+## Completion pass (Haiku)
+
+Added 6 cards (033-038), all draft. Deck now 38 cards.
+
+| GAP from the first pass | Status | Card ids and source |
+|---|---|---|
+| History of medicine in general (Ayurveda, Indian contributions) | Covered | 033 (Sarkar p6-10); 034 and 035 (Sarkar p16-20, p496-500) |
+| Indian regulatory history (Drugs and Cosmetics Act, CDSCO) | Covered | 036 (Sarkar p31-35); 037 (Sarkar p36-40, p91-95); 038 (Sarkar p91-95, WHO monitoring 1997) |
+
+Searched: full Prep, Sarkar and RR OCR (ayurved, charaka, sushrut, chopra, drugs and cosmetics, CDSCO, 1997). KDT8 ch1 mentions traditional systems only in general terms, so nothing carded from it.

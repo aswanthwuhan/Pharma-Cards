@@ -57,7 +57,7 @@ export default function SettingsPage() {
               title="Exam date"
               description="Spreads new cards across the days you have left. Leave empty if you have no date."
               control={
-                <div className="flex flex-wrap items-center gap-3">
+                <div id="exam" className="flex flex-wrap items-center gap-3">
                   <DraftInput
                     type="date"
                     aria-label="Exam date"

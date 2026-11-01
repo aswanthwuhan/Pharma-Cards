@@ -202,7 +202,8 @@ export async function dailyNewTarget(cards: FlashCard[], seenCount: number): Pro
   const fallback = await getSetting<number>("newPerDay", 20);
   if (!examDate) return fallback;
   const unseen = Math.max(0, cards.length - seenCount);
-  const days = Math.ceil((new Date(examDate).getTime() - Date.now()) / 86_400_000) - 10;
+  const [y, m, d] = examDate.split("-").map(Number);
+  const days = Math.ceil((new Date(y, m - 1, d).getTime() - Date.now()) / 86_400_000) - 10;
   if (days <= 0) return 0;
   return Math.max(5, Math.ceil(unseen / days));
 }

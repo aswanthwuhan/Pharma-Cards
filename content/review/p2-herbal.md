@@ -1,6 +1,6 @@
 # Review log: p2-herbal
 
-New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 24, all status draft. Deleted: 0.
+New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 25, all status draft. Deleted: 0.
 
 ## NMC coverage
 
@@ -48,3 +48,14 @@ NMC syllabus item 31 (Dietary supplements and herbal medicines).
 | p2-herbal-022 | ok | Sarkar p11-15, Sarkar p16-20 |
 | p2-herbal-023 | ok | Sarkar p11-15 |
 | p2-herbal-024 | ok | Katzung16 ch65, Sarkar p6-20 |
+
+## Completion pass (Haiku)
+
+Added 1 card (025).
+
+| Gap | Status | Ids and source |
+|---|---|---|
+| Indian AYUSH regulation | Still a gap | Books silent. Sarkar p6-20 discusses Ayurveda and phytopharmaceuticals only; no AYUSH licensing or pharmacovigilance text |
+| Nutraceuticals and FSSAI | Still a gap | Books silent (Sarkar p506-510 cites nutraceuticals in a reference only) |
+| Probiotics, vitamins and minerals as supplements | Still a gap | Not in Katzung16 ch65; vitamins are in p3-misc |
+| Ayurvedic drug efficacy evidence (ashwagandha, curcumin) | Partly covered | p2-herbal-025 (Sarkar p611-615): ashwagandha compound reported as a possible Covid-19 drug candidate, with no clinical data. Curcumin trial data: still a gap (Sarkar lists its activity only) |

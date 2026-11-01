@@ -37,3 +37,17 @@ Not repeated from p1-drug-dev (checked): the four principles of medical ethics (
 ## Node check
 
 `ok 101 21 class` (brief check run on `content/rapid/p3-ethics-education.json`).
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 6 (rf-p3-ethics-education-0102 to rf-p3-ethics-education-0107).
+
+- rf-p3-ethics-education-0102: Belmont Report justice principle: what it says | GG14 ch1
+- rf-p3-ethics-education-0103: Argument that foreign drug trials breach the justice principle | GG14 ch1
+- rf-p3-ethics-education-0104: Defenders' reply on foreign drug trials | GG14 ch1
+- rf-p3-ethics-education-0105: WHO rational-use intervention: undergraduate teaching | Sarkar p56-60
+- rf-p3-ethics-education-0106: WHO rational-use intervention: in-service education | Sarkar p56-60
+- rf-p3-ethics-education-0107: Essential medicines 'must know' drugs are for | Sarkar p61-65
+
+Skipped or handled elsewhere:
+- None skipped.

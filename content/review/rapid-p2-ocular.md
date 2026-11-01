@@ -54,3 +54,19 @@ Cards in this deck that overlap these topics but add a new angle: Rho kinase inh
 - p2-ocular-anti-infective (study 032-034): agreed; antifungal and antibacterial dose columns omitted (see above).
 - p2-ocular-retina (study 035): agreed. Verteporfin, ocriplasmin and anti-VEGF cards added.
 - p2-ocular-toxicity (study 036-039): agreed.
+
+## Completion pass
+
+New study cards (not in HEAD) were checked against their cited sources. Rapid cards added: 7 (rf-p2-ocular-0267 to rf-p2-ocular-0273).
+
+- rf-p2-ocular-0267: Cenegermin: what it is | Sarkar p561-565
+- rf-p2-ocular-0268: Cenegermin: receptors it acts through | Sarkar p561-565
+- rf-p2-ocular-0269: Cenegermin: indication | Sarkar p561-565
+- rf-p2-ocular-0270: Cenegermin: dosing | Sarkar p561-565
+- rf-p2-ocular-0271: Macular oedema treated with bevacizumab, besides neovascular AMD: list all | Sarkar p31-35
+- rf-p2-ocular-0272: Miotic with the greatest cataract risk | Prep p141-145
+- rf-p2-ocular-0273: Miotic side effects: list all | Prep p141-145; Prep p91-95
+
+Skipped or handled elsewhere:
+- p2-ocular-042 (chloroquine bull's-eye maculopathy) already covered by an existing card ("Bull's-eye maculopathy with fall in visual acuity"). Not repeated.
+- p2-ocular-043 Ocusert fact carded in p1-drug-delivery (rf-p1-drug-delivery) to avoid repeating it here.

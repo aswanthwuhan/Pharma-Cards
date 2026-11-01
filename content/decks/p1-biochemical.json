@@ -184,6 +184,268 @@
       "tags": [
         "uses"
       ]
+    },
+    {
+      "id": "p1-biochemical-011",
+      "type": "basic",
+      "front": "What is the principle of ELISA?",
+      "back": "Antigen-antibody binding gives specificity. A labelled enzyme produces a coloured or fluorescent product from a substrate, and the signal read by a plate reader is proportional to the amount of antigen or antibody, giving sensitivity.",
+      "refs": [
+        "Sarkar p386-390"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-012",
+      "type": "shortnote",
+      "front": "Short note: Types of ELISA",
+      "sections": [
+        {
+          "h": "Direct",
+          "points": [
+            "Labelled primary antibody binds antigen on the plate",
+            "Fastest, fewest steps",
+            "Lower sensitivity; each primary antibody must be labelled"
+          ]
+        },
+        {
+          "h": "Indirect",
+          "points": [
+            "Unlabelled primary antibody, then labelled secondary antibody",
+            "High sensitivity; one secondary serves many primary antibodies",
+            "Risk of cross-reaction by the secondary antibody"
+          ]
+        },
+        {
+          "h": "Sandwich",
+          "points": [
+            "Capture antibody on the plate, then antigen, then detection antibody",
+            "Highly sensitive for antigen detection"
+          ]
+        },
+        {
+          "h": "Competitive",
+          "points": [
+            "Sample antigen competes with labelled antigen for antibody sites",
+            "Higher sample antigen gives a weaker signal",
+            "Works with crude or impure samples"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p391-395"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-biochemical-013",
+      "type": "basic",
+      "front": "State the Beer-Lambert law as applied in spectrophotometry.",
+      "back": "Absorbance equals the molar absorption coefficient times the molar concentration times the path length of the solution. At a fixed wavelength, absorbance is directly proportional to concentration, so an unknown concentration is found from its absorbance.",
+      "refs": [
+        "Sarkar p421-425"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-014",
+      "type": "basic",
+      "front": "What are the uses of UV-visible spectrophotometry?",
+      "back": "Measuring concentration, identifying compounds by their absorption maximum (lambda max), colour determination in the 380-700 nm range, quantifying DNA, RNA and proteins, and following reaction kinetics.",
+      "refs": [
+        "Sarkar p426-430"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-015",
+      "type": "basic",
+      "front": "What is HPLC and how does it differ from column chromatography?",
+      "back": "A separation technique in which solvent is forced through a column under high pressure (up to about 400 atmospheres) instead of dripping under gravity, so separation is much faster and uses much smaller particles. Components are identified by retention time and quantified from peak area.",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-016",
+      "type": "basic",
+      "front": "How is HPLC used for detection, and what is reversed-phase HPLC?",
+      "back": "A UV detector after the column measures absorbance of eluting compounds, giving peaks. Reversed-phase HPLC, the most common form, uses a nonpolar hydrocarbon-bonded silica column with a polar solvent such as water and methanol. Coupling to mass spectrometry adds identification from fragmentation patterns.",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-017",
+      "type": "basic",
+      "front": "What is the principle of colorimetry?",
+      "back": "Colour development is linked to the concentration of a substance in solution. The concentration can therefore be measured from the extent of light absorption at the appropriate wavelength.",
+      "refs": [
+        "Sarkar p421-425",
+        "Sarkar p256-260"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-018",
+      "type": "basic",
+      "front": "How was potassium measured in the Langendorff heart method for cardiac glycosides?",
+      "back": "By flame photometry of the coronary outflow. An increase in potassium outflow correlated well with the positive inotropic effect of the glycoside.",
+      "refs": [
+        "Sarkar p291-295"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-019",
+      "type": "basic",
+      "front": "What are the five steps of a general ELISA?",
+      "back": "Coat the microtitre wells with antigen. Block unbound sites to prevent false positives. Add the primary antibody. Add an enzyme-linked secondary antibody. Add the substrate, which forms a coloured product. With HRP and TMB, acid turns the colour yellow, which is read at 450 nm.",
+      "refs": [
+        "Sarkar p386-395"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-020",
+      "type": "basic",
+      "front": "How does fluorescence polarization immunoassay (FPIA) measure a drug in serum?",
+      "back": "A fluorescein-labelled drug competes with the patient's own drug for a limited number of antibody sites. Bound tracer tumbles slowly and emits more polarised light. More drug in the sample means less labelled drug bound and a lower reading. Used for drugs of abuse such as amphetamines, barbiturates, benzodiazepines, cocaine and opiates.",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-021",
+      "type": "basic",
+      "front": "What is thin-layer chromatography used for?",
+      "back": "It is a planar chromatography technique that separates the components of a mixture, such as alkaloids or phospholipids. It is cheap and quick for qualitative checks of purity, and only semi-quantitative.",
+      "refs": [
+        "Sarkar p396-405"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-022",
+      "type": "basic",
+      "front": "Which analytical methods identify toxins qualitatively, and which quantify them?",
+      "back": "Colorimetric and UV-visible spectrophotometric analysis can be used for qualitative analysis of toxins. Infrared spectroscopy, gas chromatography, HPLC and immunoassay are used to quantify toxins.",
+      "refs": [
+        "Sarkar p256-260"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "poisoning"
+      ]
+    },
+    {
+      "id": "p1-biochemical-023",
+      "type": "basic",
+      "front": "Why has radioimmunoassay largely been replaced by ELISA?",
+      "back": "RIA uses antigens labelled with radioisotopes. It is highly sensitive and specific, but the radioisotopes need special safety measures. ELISA replaces the radioisotope with an enzyme, so RIA is now rarely used in clinical laboratories.",
+      "refs": [
+        "Sarkar p391-400"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-024",
+      "type": "shortnote",
+      "front": "Short note: UV-visible spectrophotometry",
+      "sections": [
+        {
+          "h": "Instrument",
+          "points": [
+            "Light source: tungsten, hydrogen or deuterium lamp, or xenon flash lamp",
+            "Monochromator (entrance slit, exit slit, dispersion device) gives one wavelength",
+            "Cuvette of plastic, glass or optical-grade quartz, in a darkened chamber",
+            "Photodetector converts light intensity to current; read on a meter, LCD or computer"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Concentration of a solution, and quantification of DNA, RNA and proteins",
+            "Identify organic compounds by the absorption maximum (lambda max)",
+            "Colour determination in the 380-700 nm range",
+            "Detect impurities, follow reaction kinetics, measure enzyme activity and protein concentration"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p421-430"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "uses"
+      ]
     }
   ]
 }

@@ -69,3 +69,22 @@ Overlap note: p4-clinical-trials already covers trial phases, why randomisation 
 | p3-research-biostats-035 | ok | Sarkar p196-200, Sarkar p201-205 |
 | p3-research-biostats-036 | ok | Sarkar p196-200 |
 | p3-research-biostats-037 | ok | Sarkar p181-185 |
+
+## Completion pass (Haiku)
+
+Added 2 cards (038-039), draft. Deck now 39 cards.
+
+| Gap / sub-point | Status | Cards or source |
+|---|---|---|
+| Literature search tools | Closed | 026 (PICO(T), MEDLINE, EMBASE, theses, congress abstracts; Sarkar p386-390) |
+| Good publication practice: authorship, plagiarism, duplicate publication | Still a gap | Books silent (searched Sarkar p511-515, p506-515). Publication bias already in 027 |
+| Correlation and regression | Still a gap | No definition in Sarkar, Rang & Dale, GG14, Katzung or KDT8 |
+| Named non-parametric tests (Mann-Whitney, Wilcoxon, Kruskal-Wallis) | Still a gap | Not named in the books. Parametric vs non-parametric covered by 024 |
+| Sample-size formulae | Still a gap | Determinants covered by p4-clinical-trials-014 (KDT8 ch5); Rang & Dale also gives these determinants (not repeated). No formula in books |
+| Sensitivity, specificity, predictive values | Still a gap | Only passing use in Katzung (diagnostic tests), no definition |
+| Survival analysis | Partly covered | 039 Kaplan-Meier plot (Rang & Dale fig 16.2). Survival-analysis method not in books |
+| Statistical software | Still a gap | Books silent |
+| Results reporting (median with IQR) | Added | 038 (Sarkar p511-515) |
+| Study designs | Covered elsewhere | Observational designs in 031 and p4-clinical-trials-039 |
+
+Cross-references: sample size determinants and non-inferiority (p4-clinical-trials-014, 017, 018); bias types in p4-clinical-trials and p1-drug-dev-021.

@@ -1,6 +1,6 @@
 # Review log: p2-ocular
 
-New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 39, all status draft. Deleted: 0.
+New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 43, all status draft. Deleted: 0.
 
 ## NMC coverage
 
@@ -64,3 +64,22 @@ Overlap note: p2-adrenergic and p2-cholinergic already hold glaucoma and atropin
 | p2-ocular-037 | ok | GG14 ch74 |
 | p2-ocular-038 | ok | GG14 ch74 |
 | p2-ocular-039 | ok | GG14 ch74 |
+
+## Completion pass (Haiku)
+
+Added 4 cards (040-043) from the review books. Each card cites its OCR page range.
+
+| Gap | Status | Ids and source |
+|---|---|---|
+| Ocular anti-infectives (full antibiotic and antiviral tables) | Still a gap | OCR has no eye antibiotic or antiviral table; only ganciclovir, already in p2-ocular-033 |
+| Neurotrophic cornea (not carded) | Covered | p2-ocular-040 (Sarkar p561-565) |
+| Ocular toxicity of systemic drugs: chloroquine retinopathy | Covered (added) | p2-ocular-042 (Prep p26-30); steroids, phenothiazines and isotretinoin remain in p2-ocular-037 |
+| Miotic side effects; ocular implant (Ocusert) | Covered (added) | p2-ocular-043 (Prep p141-145, Prep p91-95) |
+| Anti-VEGF beyond wet AMD (macular oedema) | Covered (added) | p2-ocular-041 (Sarkar p31-35); wet AMD already in p2-ocular-035 |
+| Ocular protozoal infection (toxoplasmosis) | Still a gap | Not in the OCR; the only toxoplasmosis mention is an ELISA diagnostic line (Sarkar p391-395) |
+| Vitamin A and visual cycle | Still a gap | No OCR hit |
+| Viscoelastics | Still a gap | No OCR hit |
+| Indian ophthalmic formulary and National Programme for Control of Blindness | Still a gap | Books silent; OCR grep for blindness, NPCB and cataract programme terms found nothing relevant |
+| Ocular delivery devices beyond those named (inserts, iontophoresis) | Still a gap | Ocusert is covered in p2-ocular-043; the rest is not in the books used |
+
+Cross-references (not duplicated): glaucoma drugs are in p2-adrenergic and p2-cholinergic; atropine is in p2-cholinergic.

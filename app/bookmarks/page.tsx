@@ -37,7 +37,7 @@ export default function Saved() {
         )}
       </div>
 
-      {!groups.length && (
+      {bookmarks !== undefined && cards !== undefined && !groups.length && (
         <div className="sheet p-6 text-center">
           <h2 className="font-serif text-xl font-semibold">Nothing saved yet</h2>
           <p className="mt-2 text-sm text-ink-soft">
