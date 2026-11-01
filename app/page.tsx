@@ -71,10 +71,10 @@ export default function Today() {
       <div className="grid grid-cols-2 gap-3 lg:gap-4">
         {PAPERS.map((p) => {
           const s = summaries.get(p.id)!;
-          if (!mastery) return <div key={p.id} className="sheet min-h-36 lg:min-h-48" aria-hidden />;
+          if (!mastery) return <div key={p.id} className="glass rounded-xl min-h-36 lg:min-h-48" aria-hidden />;
           if (!s.cards) {
             return (
-              <div key={p.id} className="sheet col-span-2 flex items-center justify-between gap-3 px-4 py-3">
+              <div key={p.id} className="glass rounded-xl col-span-2 flex items-center justify-between gap-3 px-4 py-3">
                 <span className="min-w-0">
                   <span className="eyebrow block">{paperLabel(p)}</span>
                   <span className="block truncate text-sm">{p.title.split("—")[1]?.trim()}</span>

@@ -64,6 +64,46 @@
   background-image: radial-gradient(rgba(13, 59, 66, 0.05) 1px, transparent 1px);
 }
 
+/* ---- Glass. Derived from the active palette's surface and ink with color-mix,
+   so every palette carries over. Light and dark differ in highlight and shadow. ---- */
+:root {
+  --glass-blur: 16px;
+  --glass-bg: color-mix(in srgb, var(--color-sheet) 72%, transparent);
+  --glass-bg-strong: color-mix(in srgb, var(--color-sheet) 88%, transparent);
+  --glass-border: color-mix(in srgb, var(--color-ink) 14%, transparent);
+  --glass-highlight: color-mix(in srgb, var(--color-ink) 12%, transparent);
+  --glass-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 12px 32px -12px rgba(0, 0, 0, 0.55);
+}
+:root[data-theme="light"] {
+  --glass-bg: color-mix(in srgb, var(--color-sheet) 80%, transparent);
+  --glass-bg-strong: color-mix(in srgb, var(--color-sheet) 94%, transparent);
+  --glass-border: color-mix(in srgb, var(--color-rule) 90%, transparent);
+  --glass-highlight: rgba(255, 255, 255, 0.85);
+  --glass-shadow: 0 1px 2px rgba(9, 31, 33, 0.06), 0 10px 28px -14px rgba(9, 31, 33, 0.22);
+}
+/* No backdrop-filter support: use near-opaque panels instead. */
+@supports not (backdrop-filter: blur(1px)) {
+  :root,
+  :root[data-theme="light"] {
+    --glass-bg: color-mix(in srgb, var(--color-sheet) 97%, transparent);
+    --glass-bg-strong: var(--color-sheet);
+  }
+}
+
+/* Ambient backdrop: three static, soft accent glows behind the whole app.
+   Painted once: no animation and no filter, so scrolling stays cheap. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 45% at 8% 0%, color-mix(in srgb, var(--color-teal) 16%, transparent), transparent 70%),
+    radial-gradient(50% 40% at 100% 35%, color-mix(in srgb, var(--color-teal-deep) 12%, transparent), transparent 70%),
+    radial-gradient(60% 45% at 35% 100%, color-mix(in srgb, var(--color-teal) 10%, transparent), transparent 70%);
+}
+
 
 /* ---- Colour palettes (Settings > Appearance). Each has a night and a day variant.
    Only chassis + accent change; mastery colours stay constant so labels keep their meaning. ---- */
@@ -146,10 +186,18 @@ button,
   border-radius: 6px;
 }
 
+/* Motion setting: "reduced" always cuts CSS motion; "system" follows the OS / battery-saver flag; "full" never does. */
+:root[data-motion="reduced"] *,
+:root[data-motion="reduced"] *::before,
+:root[data-motion="reduced"] *::after {
+  transition-duration: 0.01ms !important;
+  animation-duration: 0.01ms !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
+  :root[data-motion="system"] *,
+  :root[data-motion="system"] *::before,
+  :root[data-motion="system"] *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
   }
@@ -166,14 +214,57 @@ button,
   animation: reveal-in 180ms var(--ease-out);
 }
 
+/* page entry: light fade + 8px rise. Transform and opacity only. Disabled by data-motion="reduced". */
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+.page-enter {
+  animation: page-enter 220ms var(--ease-out) backwards;
+}
+
+/* mastery capsule: cells fill left to right on mount (scaleX, not width) */
+@keyframes cell-fill {
+  from {
+    transform: scaleX(0);
+  }
+}
+.cell-fill {
+  transform-origin: left center;
+  animation: cell-fill 360ms var(--ease-out) backwards;
+}
+
 /* ---- primitives ---- */
 
+/* Panels: translucent so the ambient glow shows through. Add `glass` for the blurred version. */
 @utility sheet {
-  @apply rounded-xl border border-rule bg-sheet;
+  @apply rounded-xl border border-rule;
+  background-color: var(--glass-bg);
 }
 
 @utility card-surface {
   @apply sheet p-5;
+}
+
+/* Frosted surface: translucent fill, backdrop blur, 1px edge, inset top highlight, soft shadow.
+   Use on fixed or sticky chrome and on static panels. Never on a card that moves during a drag. */
+@utility glass {
+  background-color: var(--glass-bg);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight), var(--glass-shadow);
+}
+
+/* Stronger frost for sheets and modals. */
+@utility glass-strong {
+  background-color: var(--glass-bg-strong);
+  -webkit-backdrop-filter: blur(calc(var(--glass-blur) * 1.5)) saturate(160%);
+  backdrop-filter: blur(calc(var(--glass-blur) * 1.5)) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight), var(--glass-shadow);
 }
 
 /* small mono label, e.g. "PAPER II", "DUE NOW" */
@@ -182,7 +273,7 @@ button,
 }
 
 @utility btn {
-  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-sm font-semibold transition-[background-color,border-color,color,transform] duration-150 active:scale-[0.97] disabled:opacity-50;
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-sm font-semibold transition-[background-color,border-color,color,transform] duration-[120ms] active:scale-[0.97] disabled:opacity-50;
   transition-timing-function: var(--ease-out);
 }
 
@@ -195,18 +286,24 @@ button,
 }
 
 @utility btn-chip {
-  @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-rule bg-sheet px-3 text-sm text-ink-soft transition-colors hover:border-teal;
+  @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-rule px-3 text-sm text-ink-soft transition-[background-color,border-color,color,transform] duration-[120ms] hover:border-teal active:scale-[0.97];
+  background-color: var(--glass-bg);
+  transition-timing-function: var(--ease-out);
 }
 
 @utility btn-chip-on {
-  @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-teal bg-teal px-3 text-sm font-semibold text-on-teal;
+  @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-teal bg-teal px-3 text-sm font-semibold text-on-teal transition-transform duration-[120ms] active:scale-[0.97];
+  transition-timing-function: var(--ease-out);
 }
 
-/* the porcelain study card */
+/* the porcelain study card: stays solid (no backdrop blur, it moves while dragged).
+   A faint top sheen and a layered shadow give depth instead. */
 @utility porcelain {
   @apply rounded-2xl bg-porcelain text-porcelain-ink;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 38%);
   box-shadow:
-    0 2px 4px rgba(0, 10, 12, 0.35),
-    0 16px 36px -4px rgba(0, 8, 10, 0.55),
+    0 1px 1px rgba(0, 10, 12, 0.3),
+    0 4px 10px -2px rgba(0, 8, 10, 0.4),
+    0 18px 40px -6px rgba(0, 8, 10, 0.6),
     0 0 0 1px rgba(246, 243, 235, 0.15);
 }

@@ -1,11 +1,11 @@
 "use client";
 
-import { animate, LazyMotion, domAnimation, m, useMotionValue, useReducedMotion, useTransform } from "motion/react";
+import { animate, LazyMotion, domAnimation, m, useMotionValue, useTransform } from "motion/react";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Grade } from "ts-fsrs";
 import { recordReview, undoReview, type ReviewUndo } from "@/lib/srs";
-import { useSettings } from "@/lib/settings";
+import { useReduceMotion, useSettings } from "@/lib/settings";
 import type { RapidDirection } from "@/lib/store";
 import { subtopicById, topicById } from "@/lib/syllabus";
 import type { FlashCard } from "@/lib/types";
@@ -31,7 +31,7 @@ export function RapidFireSession({
   fullCardsHref: string;
 }) {
   const settings = useSettings();
-  const reduce = useReducedMotion();
+  const reduce = useReduceMotion();
   const [cards, setCards] = useState(initial);
   const [i, setI] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -62,8 +62,8 @@ export function RapidFireSession({
       try {
         if (settings.haptics && navigator.vibrate) navigator.vibrate(knew ? 6 : [6, 40, 6]);
         if (!reduce) {
-          const fly = animate(x, (knew ? 1 : -1) * 480, { duration: 0.16, ease: [0.23, 1, 0.32, 1] });
-          await Promise.race([fly, new Promise((r) => setTimeout(r, 200))]);
+          const fly = animate(x, (knew ? 1 : -1) * 480, { type: "spring", stiffness: 500, damping: 44, velocity: x.getVelocity() });
+          await Promise.race([fly, new Promise((r) => setTimeout(r, 320))]);
         }
         const undo = await recordReview(card, knew ? KNEW : MISSED, Date.now() - shownAt.current, "rapid");
         setLog((l) => [...l, { card, knew, undo }]);
@@ -125,7 +125,7 @@ export function RapidFireSession({
     const dx = x.get();
     if (!d.moved) return setFlipped((f) => !f);
     if (flipped && settings.swipe && Math.abs(dx) > 90) return void grade(dx > 0);
-    animate(x, 0, { type: "spring", duration: 0.35, bounce: 0.2 });
+    animate(x, 0, { type: "spring", stiffness: 400, damping: 32, velocity: x.getVelocity() });
   };
 
   const knewCount = log.filter((l) => l.knew).length;
@@ -152,7 +152,7 @@ export function RapidFireSession({
   );
 
   const directionPicker = (
-    <div className="flex rounded-full border border-rule bg-well p-0.5 text-xs" role="radiogroup" aria-label="Direction">
+    <div className="glass flex rounded-full p-0.5 text-xs" role="radiogroup" aria-label="Direction">
       {(
         [
           ["forward", "Q → A"],
@@ -261,10 +261,15 @@ export function RapidFireSession({
               </span>
               <span>{isReverse ? "Reversed" : isList ? "List all" : "Recall"}</span>
             </div>
-            <div className="flex min-h-0 flex-1 flex-col justify-center overflow-y-auto px-6 py-6 text-center">
+            <div className="flex min-h-0 flex-1 flex-col justify-center overflow-y-auto px-6 py-6 text-center" style={{ touchAction: "pan-y" }}>
               <p className="font-serif text-[1.7rem] leading-snug">{card.front}</p>
               {flipped ? (
-                <div className="reveal-in mt-6 border-t border-porcelain-rule pt-5">
+                <m.div
+                  className="mt-6 border-t border-porcelain-rule pt-5"
+                  initial={reduce ? { opacity: 0 } : { opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={reduce ? { duration: 0.15 } : { type: "spring", stiffness: 400, damping: 32 }}
+                >
                   {answerItems && !isReverse ? (
                     <ul className="flex flex-wrap justify-center gap-1.5">
                       {answerItems.map((a, k) => (
@@ -277,7 +282,7 @@ export function RapidFireSession({
                     <p className="text-xl font-semibold text-[#1f5c48]">{card.back}</p>
                   )}
                   <p className="mt-4 font-mono text-[10px] text-porcelain-soft">{card.refs?.join(", ")}</p>
-                </div>
+                </m.div>
               ) : (
                 <p className="mt-6 font-mono text-xs text-porcelain-soft">Tap to flip</p>
               )}
@@ -304,7 +309,7 @@ export function RapidFireSession({
         )}
       </div>
 
-      <div className="grid grid-cols-2 gap-2 rounded-2xl border border-rule bg-well p-2">
+      <div className="glass grid grid-cols-2 gap-2 rounded-2xl p-2">
         {flipped ? (
           <>
             <button onClick={() => grade(false)} className="flex min-h-14 flex-col items-center justify-center rounded-xl border bg-sheet font-semibold" style={{ borderColor: "color-mix(in srgb, var(--color-weak) 45%, transparent)" }}>

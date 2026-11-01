@@ -36,3 +36,6 @@ NMC syllabus item 40 (Biochemical pharmacology): principles and applications of 
 
 - The deck is small (10 cards), because no owner book teaches the principles of analytical methods. A practical pharmacology or biochemistry text would be needed.
 - Full-text search of GG14, GG12, Katzung, Rang & Dale 9e and KDT8 ch1-6 for colorimetr*, spectrophotomet*, flame photomet*, HPLC, ELISA, immunoassay and chromatograph*. The RR5 OCR has no hits either.
+
+- Rapid deck agent could not verify refs GG14 ch46 (ELISA) and RangDale9 ch59 (doping) used by some study cards; recheck.
+- Orchestrator verified: GG14 ch46 (pituitary chapter) prints ELISA kits for urinary LH and LH/FSH; RangDale9 ch59 is "drugs in sport". Refs stand.

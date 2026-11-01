@@ -55,3 +55,5 @@ Overlap note: p4-clinical-trials covers GCP in outline (019), the four principle
 | p3-ethics-education-024 | ok | Sarkar p506-510 |
 | p3-ethics-education-025 | ok | Katzung16 appendix 3, Katzung16 appendix 2 |
 | p3-ethics-education-026 | ok | Sarkar p156-160, Sarkar p226-230, Sarkar p186-190, RangDale9 ch8 |
+
+- Orchestrator: 022 trailing Maslach/"compassion fatigue" sentence removed (not in Sarkar p586-590).

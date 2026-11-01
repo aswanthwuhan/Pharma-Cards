@@ -48,7 +48,7 @@ export function RankedTable({
     });
 
   return (
-    <section id="ranked" aria-labelledby="ranked-heading" className="sheet scroll-mt-6 overflow-hidden">
+    <section id="ranked" aria-labelledby="ranked-heading" className="glass rounded-xl scroll-mt-6 overflow-hidden">
       <div className="flex flex-wrap items-start justify-between gap-3 p-4 sm:p-5">
         <div>
           <h2 id="ranked-heading" className="font-serif text-xl">

@@ -177,7 +177,7 @@ export default function MasteryMap() {
           <p className="mt-2 text-sm text-ink-soft">Find a weak area. Practise it. Track what changes.</p>
         </div>
 
-        <div className="sheet flex flex-wrap items-center justify-between gap-4 p-4">
+        <div className="glass rounded-xl flex flex-wrap items-center justify-between gap-4 p-4">
           <div role="group" aria-label="Filter by status" className="flex flex-wrap gap-2">
             {FILTERS.map((f) => (
               <button
@@ -206,7 +206,7 @@ export default function MasteryMap() {
         </div>
 
         {report !== undefined && overall === null && (
-          <div className="sheet flex flex-wrap items-center justify-between gap-4 p-5">
+          <div className="glass rounded-xl flex flex-wrap items-center justify-between gap-4 p-5">
             <p className="max-w-prose text-sm text-ink-soft">
               Nothing is rated yet. A topic gets a score after 3 answers. Practise a few cards and your map will start to fill in.
             </p>
@@ -311,7 +311,7 @@ export default function MasteryMap() {
             );
           })}
           {report !== undefined && sections.length === 0 && (
-            <div className="sheet p-5 text-sm text-ink-soft">
+            <div className="glass rounded-xl p-5 text-sm text-ink-soft">
               No topics match these filters.{" "}
               <button
                 type="button"
@@ -331,7 +331,7 @@ export default function MasteryMap() {
         {/* Desktop inspector */}
         {selectedRow && (
           <aside id="inspector" className="hidden scroll-mt-6 lg:sticky lg:top-6 lg:block">
-            <div className="sheet overflow-hidden">
+            <div className="glass rounded-xl overflow-hidden">
               <TopicInspector
                 topic={selectedRow.topic}
                 paper={selectedRow.paper}
@@ -360,7 +360,7 @@ export default function MasteryMap() {
 
       {/* By question type */}
       {report !== undefined && (
-        <section aria-labelledby="tags-heading" className="sheet p-4 sm:p-5">
+        <section aria-labelledby="tags-heading" className="glass rounded-xl p-4 sm:p-5">
           <h2 id="tags-heading" className="font-serif text-xl">
             By question type
           </h2>

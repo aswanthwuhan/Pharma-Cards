@@ -1,0 +1,62 @@
+# Rapid Fire review: p2-herbal
+
+Deck: `content/rapid/p2-herbal.json` (334 cards, 51 class cards).
+Sources (read in full or by relevant section via `pdftotext` / OCR text):
+- Katzung 16e ch65 "Dietary Supplements & Herbal Medications" (both parts, pp. 1-17). Title matches the study deck. Cross-checked ch57 (Heavy Metal Intoxication) and ch58 (Management of the Poisoned Patient) for the card on lead, mercury and stimulant sources.
+- Sarkar OCR: `ocr/sarkar/p0006-0010.md`, `p0011-0015.md`, `p0016-0020.md`. Cited as Sarkar p6-10, p11-15, p16-20. Tables 1.1 (p6-10) and 1.2 (p11-15) and the reverse-pharmacology sections were read in full.
+- Not used: KDT8, GG14, Rang & Dale, RR5, Prep (the study deck does not cite them). No web search, since no statement looked wrong.
+
+## Corrected cases
+
+No card contradicts a book. Changes from the study deck:
+- Study deck p2-herbal-002: "about a third" of DNA-barcoded samples. Rapid card uses the printed figure, 32% (44 botanicals, 30 species).
+- Study deck p2-herbal-003: "placebo effects 30-50%" is not in the chapter text. Dropped.
+- Study deck p2-herbal-005 and -020: the NDCT definition and golden-triangle text sit on Sarkar p11-15 as well as p16-20. Both cited.
+- Study deck p2-herbal-007 refs ch57/ch58: verified (ch57 lead in azarcon, greta, Ayurvedic preparations and kohl; mercury in skin-lightening creams and folk remedies; ch58 caffeine in "fat burner" supplements and ephedrine in ma-huang). Carded as three facts.
+
+## Notation and reading decisions
+
+- Table 65-1 is garbled in the extract. The first eight herbs (aconite to ephedra) map cleanly, one toxicity and one use each. Toxicity alone is carded for the next ten entries (germander to sassafras). Their use column is misaligned, so no uses are carded for them. The "Comments / Avoid" column is misaligned, so it is not carded.
+- Jin Bu Huan: named in the class list only. Its toxicity (hepatotoxicity) is not assigned to it, because the row order is ambiguous.
+- Greek letters are lost in the extract. "Alpha-1" for saw palmetto is read from the context. Ginkgo receptor list: "muscarinic, 2, and 5-HT1a" read as muscarinic and 5-HT1A (the subtype number lost).
+- Garlic and ginseng WMD values: the minus sign prints as a garbled glyph. Read as reductions, as the text describes.
+- Ginseng glucose subgroup threshold ("FPG 126 mg/dL") is garbled. Not carded.
+- Printed dates and numbers kept as printed and may be dated: DSHEA 1994, 2006 reporting law, 2007 GMP rule, 1931 Rauwolfia, 1986 guggulipid approval, 1986 ayahuasca patent, 1995/1997/1998 Hoodia events, NDCT 2019.
+- Sarkar Table 1.2: the Tinospora (guduchi) uses cell is garbled, so only "skin infection" from the lead-molecule list is carded. The piperidine plant names are garbled, so the card gives the role only (bioavailability enhancers).
+- Sarkar p16-20 says "Gananath Sen established ... reverse pharmacology"; card attributes the introduction to Chopra and Sen as the book states.
+- Sarkar "Vaccine adjuvant" sentence contradicts itself ("herbal vaccine adjuvant, i.e. Alum salts"). Omitted.
+- Sarkar NMITLI osteoarthritis cost ("US S 2 million") is garbled. Only the 16 institutes and 5-year span are carded.
+- Study deck style: "Sarkar p6-20" was split into the three OCR files and cited by the page range actually read.
+
+## Omitted
+
+- Review-log GAP rows (no cards written): AYUSH and Ayurvedic/Unani/Siddha licensing and pharmacovigilance; nutraceuticals and FSSAI; probiotics, vitamins and minerals; Ayurvedic trial efficacy (only uses are carded). Sarkar's "900 licensed manufacturing units" falls under the AYUSH licensing GAP and is not carded.
+- Katzung case study, answer and references: no new facts beyond the cards.
+- Melatonin "insomnia from [garbled] blockers" phrase: the drug name is lost. Not carded.
+- Katzung ephedrine (ma-huang): the chapter says ephedrine is covered in ch9. Left to the adrenergic deck.
+- Mercury chelation and general metal toxicology in ch57: outside the herbal scope. Not carded.
+
+## Cross-references to other Rapid decks (not duplicated)
+
+- `p2-opioids` rf-0589 to rf-0593 (ginkgo constituents, PAF mechanism, Cochrane 2007, side effects, dose): overlap with Katzung ginkgo cards. Constituents and PAF mechanism not repeated. Conflict flagged, not edited: `p2-opioids` rf-0591 gives the 2007 Cochrane review as "minor overall cognitive improvement". Katzung16 ch65 (Cochrane review of 36 trials) says the effects are "unpredictable and unlikely to be clinically relevant". The Katzung card is in this deck. `p2-opioids` rf-0593 (40-80 mg TDS, KDT8) is a different regimen from the Katzung dose (240 mg/day EGb761). Both are printed in their books.
+- `p2-adrenergic` rf-0098 to rf-0105 and rf-0099 (ephedrine and its source plant "Ephedra vulgaris"): Katzung says "Ephedra" species. Not repeated here.
+- `p2-arrhythmia-angina-htn`: Rauwolfia and reserpine (Table 1.2 hypertension entry). Not repeated.
+- `p2-nsaids`: colchicine from Colchicum autumnale. Not repeated.
+- `p2-cholinergic`: atropine/Atropa belladonna, tubocurarine, physostigmine, pilocarpine (Table 1.1). Not repeated, except the Calabar bean (eseroline) card, which is absent from the other decks.
+- `p2-opioids`: morphine and poppy (Table 1.1). Not repeated.
+- `p3-cancer-immuno`: vinca alkaloids and taxanes (Table 1.1). Not repeated.
+- `p3-antiparasitic`: quinine (Cinchona) and artemisinin (Artemisia) (Table 1.1). Not repeated.
+- `p3-misc`: psoralens from Ammi majus (PUVA). Different context from babchi psoralens (Ayurvedic). Both kept.
+- `p2-autacoids` rf-0264: serotonin as melatonin precursor (KDT8 ch12). Complementary, not repeated.
+- `p1-special-populations` rf-0191: herbal ginkgo with aspirin in elderly (Katzung16 ch60). Consistent with the antiplatelet class card here.
+- No existing Rapid card covers coenzyme Q10, glucosamine, echinacea, garlic, milk thistle, saw palmetto, St John's wort, Ayurvedic plants or reverse pharmacology. `p2-blood` and `p2-ras-hf` "coenzyme" hits are folate and NOS cofactors, not CoQ10.
+
+## Count by subtopic
+
+| subtopic | cards |
+|---|---|
+| p2-herbal-regulation | 51 |
+| p2-herbal-botanicals | 144 |
+| p2-herbal-purified | 64 |
+| p2-herbal-traditional | 75 |
+| **total** | **334** (51 class) |

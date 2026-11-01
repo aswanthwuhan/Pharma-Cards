@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { LazyMotion, domAnimation, m } from "motion/react";
+import { useReduceMotion } from "@/lib/settings";
 import { subtopicById, topicById } from "@/lib/syllabus";
 import type { FlashCard, Section } from "@/lib/types";
 
@@ -58,7 +60,7 @@ export function CardView({
       {card.type === "cloze" ? (
         <Cloze text={card.text ?? ""} revealed={revealed} />
       ) : revealed ? (
-        <div className="reveal-in mt-5 border-t border-porcelain-rule pt-5">
+        <Reveal className="mt-5 border-t border-porcelain-rule pt-5">
           {card.type === "basic" ? (
             <p className="whitespace-pre-line text-[17px] leading-relaxed">{card.back}</p>
           ) : card.type === "essay" ? (
@@ -66,7 +68,7 @@ export function CardView({
           ) : (
             <Sections sections={card.sections ?? []} />
           )}
-        </div>
+        </Reveal>
       ) : null}
 
       {revealed && (card.refs?.length || history) ? (
@@ -79,6 +81,23 @@ export function CardView({
   );
   if (bare) return body;
   return <article className="porcelain overflow-hidden">{body}</article>;
+}
+
+/** The answer block slides up on a spring when revealed (opacity and transform only). */
+function Reveal({ className, children }: { className: string; children: React.ReactNode }) {
+  const reduce = useReduceMotion();
+  return (
+    <LazyMotion features={domAnimation}>
+      <m.div
+        className={className}
+        initial={reduce ? { opacity: 0 } : { opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={reduce ? { duration: 0.15 } : { type: "spring", stiffness: 400, damping: 32 }}
+      >
+        {children}
+      </m.div>
+    </LazyMotion>
+  );
 }
 
 function Sections({ sections }: { sections: Section[] }) {

@@ -26,8 +26,8 @@ export function CapsuleMeter({ m, cells = 5 }: { m?: TopicMastery; cells?: numbe
       {Array.from({ length: cells }, (_, i) => (
         <span
           key={i}
-          className={`h-3 w-[7px] ${i === 0 ? "rounded-l-full" : ""} ${i === cells - 1 ? "rounded-r-full" : ""}`}
-          style={{ background: i < filled ? LABEL_COLOR[label] : "var(--color-unseen)" }}
+          className={`h-3 w-[7px] ${i === 0 ? "rounded-l-full" : ""} ${i === cells - 1 ? "rounded-r-full" : ""} ${i < filled ? "cell-fill" : ""}`}
+          style={{ background: i < filled ? LABEL_COLOR[label] : "var(--color-unseen)", animationDelay: `${i * 40}ms` }}
         />
       ))}
     </span>

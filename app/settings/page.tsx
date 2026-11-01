@@ -169,6 +169,22 @@ export default function SettingsPage() {
                 />
               }
             />
+            <Row
+              title="Motion"
+              description="Full keeps swipe animations even if your phone's battery saver turns animations off."
+              control={
+                <Segmented
+                  label="Motion"
+                  value={s.motion}
+                  options={[
+                    { value: "full", label: "Full" },
+                    { value: "system", label: "Follow system" },
+                    { value: "reduced", label: "Reduced" },
+                  ]}
+                  onChange={(v) => updateSetting("motion", v)}
+                />
+              }
+            />
             <div className="px-4 pb-4 sm:px-5">
               <p className="mb-1 font-semibold">Colour theme</p>
               <p className="mb-3 text-sm text-ink-soft">Mastery colours (weak, moderate, strong) stay the same in every theme.</p>

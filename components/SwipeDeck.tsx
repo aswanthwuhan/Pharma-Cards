@@ -1,8 +1,9 @@
 "use client";
 
-import { animate, LazyMotion, domAnimation, m, useMotionValue, useReducedMotion, useTransform } from "motion/react";
+import { animate, LazyMotion, domAnimation, m, useMotionValue, useTransform } from "motion/react";
 import { memo, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { AXIS_LOCK_PX, classifySwipe, swipeIntent, type SwipeGrade } from "@/lib/swipe";
+import { useReduceMotion } from "@/lib/settings";
 import type { FlashCard } from "@/lib/types";
 import { CardView } from "./CardView";
 
@@ -55,13 +56,17 @@ export function SwipeDeck({
   onRate: (g: SwipeGrade) => void;
   intervals: Record<number, string>;
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReduceMotion();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const strength = useMotionValue(0); // 0–1, how close the drag is to committing
   const rotate = useTransform(x, [-320, 320], reduce ? [0, 0] : [-7, 7]);
   const labelOpacity = useTransform(strength, [0, 0.4, 1], [0, 0.55, 1]);
   const ringOpacity = useTransform(strength, [0, 1], [0, 1]);
+  // 0 → 1 as the top card leaves; the card behind rises from 0.96 to 1 and fades in.
+  const lift = useTransform([x, y], ([a, b]) => Math.min(1, Math.hypot(a as number, b as number) / 160));
+  const peekTransform = useTransform(lift, (p) => `translateY(${(1 - p) * 12}px) scale(${0.96 + 0.04 * p})`);
+  const peekOpacity = useTransform(lift, [0, 1], [0.6, 1]);
   const frame = useRef<HTMLDivElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
   const gesture = useRef<Gesture | null>(null);
@@ -98,8 +103,11 @@ export function SwipeDeck({
     }
   }
 
-  /** Fly the card out in the grade's direction, then hand the grade up. Also used by buttons and keys. */
-  async function commit(g: SwipeGrade) {
+  /**
+   * Fly the card out in the grade's direction, then hand the grade up. Also used by buttons and keys.
+   * `release` is the finger's velocity (px/s) at release, carried into the spring so a flick keeps its speed.
+   */
+  async function commit(g: SwipeGrade, release = { x: 0, y: 0 }) {
     if (leaving.current) return;
     leaving.current = true;
     momentum.current?.stop();
@@ -110,21 +118,21 @@ export function SwipeDeck({
     }
     const { width, height } = size();
     setIntent(g, 1);
-    const ease = [0.23, 1, 0.32, 1] as const;
-    const fly =
-      g === 1 || g === 3
-        ? animate(x, (g === 1 ? -1 : 1) * width * 1.3, { duration: 0.22, ease })
-        : animate(y, (g === 4 ? -1 : 1) * height * 1.1, { duration: 0.22, ease });
+    const horizontal = g === 1 || g === 3;
+    const value = horizontal ? x : y;
+    const target = horizontal ? (g === 1 ? -1 : 1) * width * 1.3 : (g === 4 ? -1 : 1) * height * 1.1;
+    const fly = animate(value, target, { type: "spring", stiffness: 500, damping: 44, velocity: horizontal ? release.x : release.y });
     // Never let the grade depend on the animation finishing: browsers pause animation
     // frames in background tabs and battery-saver modes.
-    await Promise.race([fly, new Promise((r) => setTimeout(r, 300))]);
+    await Promise.race([fly, new Promise((r) => setTimeout(r, 320))]);
     onRate(g);
   }
 
   function springBack() {
     setIntent(null, 0);
-    animate(x, 0, { type: "spring", duration: 0.4, bounce: 0.2 });
-    animate(y, 0, { type: "spring", duration: 0.4, bounce: 0.2 });
+    const spring = { type: "spring" as const, stiffness: 400, damping: 32 };
+    animate(x, 0, { ...spring, velocity: x.getVelocity() });
+    animate(y, 0, { ...spring, velocity: y.getVelocity() });
   }
 
   /** Coast a fast scroll flick to a stop, like native scrolling. */
@@ -220,7 +228,7 @@ export function SwipeDeck({
         ? classifySwipe({ dx: x.get(), dy: y.get(), vx: v.x, vy: v.y, width, height, allowVertical: true })
         : null;
     if (grade) {
-      commit(grade);
+      commit(grade, { x: v.x, y: v.y });
       return;
     }
     springBack();
@@ -240,7 +248,7 @@ export function SwipeDeck({
         onPointerCancel={onPointerUp}
       >
         {/* next card peeking from behind */}
-        {next && <div aria-hidden className="porcelain pointer-events-none absolute inset-0 origin-top translate-y-3 scale-[0.95] opacity-60" />}
+        {next && <m.div aria-hidden className="porcelain pointer-events-none absolute inset-0 origin-top" style={{ transform: peekTransform, opacity: peekOpacity }} />}
 
         <m.div
           key={card.id}

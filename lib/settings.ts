@@ -1,6 +1,7 @@
 "use client";
 
 import { useLiveQuery } from "dexie-react-hooks";
+import { useReducedMotion } from "motion/react";
 import { db, setSetting } from "./db";
 
 /** Every user-adjustable setting, with its default. Stored in the Dexie `settings` table. */
@@ -13,8 +14,11 @@ export interface Settings {
   swipe: boolean; // swipe-to-grade on the study card
   haptics: boolean; // vibrate on grade (where supported)
   theme: "dark" | "light" | "auto"; // Night mode / Day mode / follow the device
+  motion: MotionSetting; // full = always animate, system = follow the phone, reduced = never
   palette: Palette;
 }
+
+export type MotionSetting = "full" | "system" | "reduced";
 
 export type Palette = "petrol" | "ocean" | "plum" | "graphite" | "sepia";
 
@@ -36,6 +40,7 @@ export const DEFAULT_SETTINGS: Settings = {
   swipe: true,
   haptics: true,
   theme: "dark",
+  motion: "full",
   palette: "petrol",
 };
 
@@ -49,6 +54,18 @@ export async function loadSettings(): Promise<Settings> {
 /** Live settings (defaults while loading). */
 export function useSettings(): Settings {
   return useLiveQuery(loadSettings, [], DEFAULT_SETTINGS) ?? DEFAULT_SETTINGS;
+}
+
+/**
+ * Whether to skip motion. "full" always animates (even when the phone's battery saver or
+ * "Remove animations" asks for less), "reduced" never does, "system" follows the OS setting.
+ */
+export function useReduceMotion(): boolean {
+  const { motion } = useSettings();
+  const system = useReducedMotion() ?? false;
+  if (motion === "reduced") return true;
+  if (motion === "full") return false;
+  return system;
 }
 
 export function updateSetting<K extends keyof Settings>(key: K, value: Settings[K]) {

@@ -1,7 +1,8 @@
 "use client";
 
-import { AnimatePresence, LazyMotion, domAnimation, m, useReducedMotion } from "motion/react";
-import { useEffect, useRef } from "react";
+import { AnimatePresence, LazyMotion, domAnimation, m } from "motion/react";
+import { useEffect, useRef, useState } from "react";
+import { useReduceMotion } from "@/lib/settings";
 
 /**
  * Bottom sheet (drawer from the bottom on phones, centred panel on desktop).
@@ -18,8 +19,10 @@ export function BottomSheet({
   title: string;
   children: React.ReactNode;
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReduceMotion();
   const panel = useRef<HTMLDivElement>(null);
+  // While the sheet is dragged, drop its backdrop blur: blur under a moving layer stutters on Android.
+  const [dragging, setDragging] = useState(false);
 
   useEffect(() => {
     if (!open) return;
@@ -48,15 +51,20 @@ export function BottomSheet({
               aria-modal="true"
               aria-label={title}
               tabIndex={-1}
-              className="relative max-h-[85dvh] w-full overflow-hidden rounded-t-2xl border border-rule bg-sheet outline-none sm:max-w-lg sm:rounded-2xl"
+              className="glass-strong relative max-h-[85dvh] w-full overflow-hidden rounded-t-2xl outline-none sm:max-w-lg sm:rounded-2xl"
+              style={dragging ? { backdropFilter: "none", WebkitBackdropFilter: "none" } : undefined}
               initial={reduce ? { opacity: 0 } : { transform: "translateY(100%)" }}
               animate={reduce ? { opacity: 1 } : { transform: "translateY(0%)" }}
               exit={reduce ? { opacity: 0 } : { transform: "translateY(100%)" }}
-              transition={{ duration: 0.32, ease: [0.32, 0.72, 0, 1] }}
+              transition={reduce ? { duration: 0.2 } : { type: "spring", stiffness: 380, damping: 38 }}
               drag={reduce ? false : "y"}
               dragConstraints={{ top: 0, bottom: 0 }}
               dragElastic={{ top: 0, bottom: 0.6 }}
-              onDragEnd={(_, info) => (info.offset.y > 120 || info.velocity.y > 600) && onClose()}
+              onDragStart={() => setDragging(true)}
+              onDragEnd={(_, info) => {
+                setDragging(false);
+                if (info.offset.y > 120 || info.velocity.y > 600) onClose();
+              }}
             >
               <div className="flex justify-center pt-2.5 pb-1" aria-hidden>
                 <span className="h-1 w-10 rounded-full bg-rule" />

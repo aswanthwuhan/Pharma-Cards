@@ -1,0 +1,1226 @@
+{
+  "topicId": "p3-research-biostats",
+  "cards": [
+    {
+      "id": "rf-p3-research-biostats-0001",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "class",
+      "q": "Four scales of measurement: list all",
+      "a": "Nominal; ordinal; interval; ratio",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0002",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Nominal data: summary measure allowed",
+      "a": "Mode only",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0003",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Ordinal data: why the mean is not used",
+      "a": "Ranks cannot be added; use median or mode",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0004",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Interval scale: why ratios are not valid",
+      "a": "No true zero",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0005",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Ratio scale: what it adds to interval scale",
+      "a": "True zero; ratios and coefficient of variation are valid",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0006",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Scale that is parametric (with interval and ratio data)",
+      "a": "Interval and ratio; nominal and ordinal are non-parametric",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0007",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Example of ratio data",
+      "a": "Weight or height",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0008",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Continuous variable: definition and example",
+      "a": "Any value on a scale, subdivided indefinitely (e.g. litres of fuel, temperature)",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0009",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Discrete variable: definition and example",
+      "a": "Fixed countable values (e.g. number of heads in 100 flips)",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0010",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Quantitative data",
+      "a": "Measured numerically; calculations can be performed",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0011",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Qualitative data",
+      "a": "Describe attributes; observed, not computed; more exploratory",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0012",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Mean: definition",
+      "a": "Sum of values divided by their number",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0013",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Median: definition",
+      "a": "Middle value of ordered data",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0014",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Mode: definition",
+      "a": "Most frequent value",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0015",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "When the median is the better summary",
+      "a": "When outliers are present (median resists them)",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0016",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Mode in a normal distribution",
+      "a": "Equal to the mean and median",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0017",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Standard deviation: what it measures",
+      "a": "Spread of values around the mean",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0018",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "class",
+      "q": "Steps to calculate SD: list in order",
+      "a": "Find mean; find deviations; square and sum them; divide by n - 1 (variance); take square root",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0019",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Why sample variance is divided by n - 1",
+      "a": "Average of sample variances over all samples then equals the population variance (unbiased estimate)",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0020",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Normal distribution: mean plus or minus 1 SD covers",
+      "a": "68% of values",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0021",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Normal distribution: mean plus or minus 2 SD covers",
+      "a": "95% of values",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0022",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Standard error of the mean (SEM): what it is",
+      "a": "SD of the sampling distribution of means",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0023",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "SEM formula",
+      "a": "SD divided by the square root of n",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0024",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Effect of larger sample size on SEM",
+      "a": "SEM falls",
+      "refs": [
+        "Sarkar p356-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0025",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Prevalence: definition",
+      "a": "Proportion of a population with a condition at a given time: old and new cases over population",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0026",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Prevalence design",
+      "a": "Cross-sectional; old and new cases both counted in the numerator",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0027",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Point prevalence: denominator",
+      "a": "Population size at one point in time",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0028",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Period prevalence: denominator",
+      "a": "Average population over the period, or the mid-period population",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0029",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Incidence: what it counts",
+      "a": "New cases only, over a period, in those initially disease-free",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0030",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Incidence proportion (cumulative incidence): meaning",
+      "a": "Risk of becoming a case in a stated period; ranges 0 to 1",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0031",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Incidence proportion can be measured in which study group",
+      "a": "Closed cohort only, with the follow-up time stated",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0032",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Incidence rate (incidence density): denominator",
+      "a": "Person-time at risk; unit of time must be stated",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0033",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Incidence rate: range",
+      "a": "0 to infinity",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0034",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Odds ratio: definition",
+      "a": "Odds of exposure in cases divided by odds of exposure in controls",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0035",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Odds ratio from a 2x2 table (a, b = cases; c, d = controls)",
+      "a": "OR = ad / bc",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0036",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Odds ratio of 1 means",
+      "a": "No association between exposure and outcome",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0037",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Odds ratio above 1 means",
+      "a": "Exposure is positively associated with the outcome",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0038",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "When the odds ratio approximates relative risk",
+      "a": "When the outcome occurs in less than 10% of the non-exposed population",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0039",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "When the odds ratio overestimates relative risk",
+      "a": "When the outcome is more than 10% in the non-exposed",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0040",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Relative risk (risk ratio): formula",
+      "a": "Risk in exposed divided by risk in unexposed",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0041",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Study design from which relative risk is directly determined",
+      "a": "Cohort study",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0042",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Number needed to treat (NNT): meaning",
+      "a": "Number of patients to treat for one to show a defined effect, beneficial or harmful",
+      "refs": [
+        "RangDale9 ch8"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0043",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Why NNT is more informative than relative risk reduction",
+      "a": "It depends on baseline risk; the same relative reduction gives different NNTs",
+      "refs": [
+        "RangDale9 ch8"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0044",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "P value: definition",
+      "a": "Probability of the observed result, or more extreme, if the null hypothesis is true",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0045",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Conventional significance levels (alpha)",
+      "a": "5%, 1% and 0.1%",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0046",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Decision rule for the null hypothesis",
+      "a": "Reject H0 if P is less than the chosen significance level",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0047",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "P greater than 0.10 means",
+      "a": "No evidence against the null hypothesis",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0048",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "P between 0.05 and 0.10 means",
+      "a": "Weak evidence against the null hypothesis",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0049",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "P between 0.01 and 0.05 means",
+      "a": "Moderate evidence against the null hypothesis",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0050",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "P below 0.001 means",
+      "a": "Very strong evidence against the null hypothesis",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0051",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Null hypothesis (H0): what it states",
+      "a": "No difference between sample and population, or between samples; can be rejected, never proved",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0052",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Alternative hypothesis (H1): what it states",
+      "a": "A difference exists (greater, smaller or simply different)",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0053",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "class",
+      "q": "Steps of hypothesis testing: list in order",
+      "a": "Set H0 and H1; check assumptions; fix alpha (usually 5%); apply test statistic; decide (P 0.05 or less rejects H0)",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0054",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "95% confidence interval for a large sample",
+      "a": "Mean plus or minus 1.96 standard errors",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0055",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Advantage of a confidence interval over a P value alone",
+      "a": "Shows direction, size and precision of the effect",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0056",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "class",
+      "q": "Four outcomes of a hypothesis test: list all",
+      "a": "Correct retention (1 - alpha); type I error, false positive (alpha); type II error, false negative (beta); correct rejection (power, 1 - beta)",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0057",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Type II error: probability symbol",
+      "a": "Beta",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0058",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Way to minimise hypothesis-test error",
+      "a": "Use as large a random sample as possible; interpret at the pre-set significance level",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0059",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Which error Sarkar calls more serious in medical research",
+      "a": "Type I error (false positive)",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0060",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Sample size below which the t test replaces the Z test",
+      "a": "Less than 30",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0061",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Who first described the t distribution",
+      "a": "Gosset (pen-name 'Student')",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0062",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "class",
+      "q": "Types of t test: list all",
+      "a": "Unpaired (independent samples); paired (same group at two times); one-sample (group mean against known mean)",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0063",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Degrees of freedom: unpaired t test",
+      "a": "n1 + n2 - 2",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0064",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Degrees of freedom: paired t test",
+      "a": "n - 1",
+      "refs": [
+        "Sarkar p376-380"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0065",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "ANOVA: when it is used",
+      "a": "Comparing means of more than two groups; repeated t tests are unreliable",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0066",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "class",
+      "q": "Types of ANOVA: list all",
+      "a": "One-way; two-way; factorial; repeated measures",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0067",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Two-way ANOVA: how many factors and what they must be",
+      "a": "Two categorical independent variables; one continuous dependent variable",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0068",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Two-way ANOVA advantage over one-way",
+      "a": "Tests two factors at the same time, and their independence if each cell has more than one observation",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0069",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Factorial ANOVA: what it gives beyond the main effects",
+      "a": "Information on interaction (dependence or independence of the factors)",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0070",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "2 x 2 factorial design: number of treatment groups",
+      "a": "Four",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0071",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Repeated measures ANOVA: equivalent of which test",
+      "a": "One-way ANOVA for related groups; extension of the dependent t test",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0072",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "ANOVA test statistic",
+      "a": "F ratio: between-group mean square divided by within-group mean square",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0073",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "class",
+      "q": "Assumptions of ANOVA: list all",
+      "a": "Each group from a normal population; equal variances; independent samples; random observations",
+      "refs": [
+        "Sarkar p376-380",
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0074",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Chi-square test: type of test",
+      "a": "Non-parametric test for categorical (frequency) data; developed by Karl Pearson",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0075",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "class",
+      "q": "Chi-square uses: list all",
+      "a": "Test of proportion; test of association between attributes; goodness of fit",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0076",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Chi-square degrees of freedom",
+      "a": "(rows - 1) x (columns - 1)",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0077",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Parametric tests: distribution assumed and measure used",
+      "a": "Normal distribution; use the mean",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0078",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Non-parametric tests: data and measure used",
+      "a": "Ordinal or ranked data; use the median; no distribution assumed",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0079",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Power of parametric versus non-parametric tests",
+      "a": "Parametric tests have more statistical power",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0080",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Sample size for a one-sample t test to tolerate skewed data (Sarkar)",
+      "a": "More than 20",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0081",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Sample size per group for a two-sample t test to tolerate skewed data (Sarkar)",
+      "a": "More than 15 per group",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0082",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Non-parametric tests: main disadvantage",
+      "a": "Lower power, so higher risk of type II error",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0083",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Choose a parametric test when",
+      "a": "The mean is the better measure and the sample is large",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0084",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Choose a non-parametric test when",
+      "a": "The median is the better measure, whatever the sample size",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0085",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Meta-analysis: definition",
+      "a": "Statistical analysis integrating findings of many studies (Glass, 1976)",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0086",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "class",
+      "q": "Steps of a meta-analysis: list in order",
+      "a": "Define the question as PICO(T); search databases and grey literature; screen abstracts and full papers; extract data; pool and analyse",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0087",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "PICO(T) stands for",
+      "a": "Population, Intervention, Comparator, Outcome, Time",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0088",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "class",
+      "q": "Strengths of meta-analysis: list all",
+      "a": "Greater statistical power and precision from large pooled data; resolves conflicting results; analyses harms and subgroups; considered evidence-based",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0089",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "class",
+      "q": "Meta-analysis: disadvantages (list all)",
+      "a": "Hard to find appropriate studies; needs experienced reviewers and quality rating; published articles may lack data; advanced statistics; heterogeneity can bias results",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0090",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Forest plot: what the horizontal axis shows",
+      "a": "Effect measure (OR, RR, risk difference, SMD)",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0091",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Forest plot: box size shows",
+      "a": "Study weight",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0092",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Forest plot: diamond shows",
+      "a": "Pooled estimate (centre) and its 95% CI (width)",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0093",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Forest plot: a result is non-significant when",
+      "a": "The diamond or a study's CI crosses the line of no effect",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0094",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Evidence-based medicine: definition",
+      "a": "Best research evidence, critically appraised, combined with clinical skill and patient preference",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0095",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "EBM aims",
+      "a": "Better outcomes, less harm, better cost-effectiveness and shared decisions",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0096",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Search engine named for evidence in EBM",
+      "a": "TRIP (Turning Research Into Practice) database",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0097",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "class",
+      "q": "Five steps of critical appraisal: list in order",
+      "a": "Ask an answerable (PICO) question; search for evidence; appraise methodology and design; appraise results; judge significance and impact",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0098",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "CONSORT: reporting guideline for",
+      "a": "Randomised controlled trials (25-item checklist)",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0099",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "PRISMA: reporting guideline for",
+      "a": "Systematic reviews and meta-analyses (27 items)",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0100",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "STROBE: reporting guideline for",
+      "a": "Observational studies: cohort, case-control and cross-sectional",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0101",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "MOOSE: reporting guideline for",
+      "a": "Meta-analyses of observational studies (35-item checklist)",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0102",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "STARD: reporting guideline for",
+      "a": "Diagnostic or prognostic accuracy studies (25 items)",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0103",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "SPIRIT: reporting guideline for",
+      "a": "Trial protocols (Standard Protocol Items: Recommendations for Interventional Trials)",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0104",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "class",
+      "q": "Components of a research protocol, Part A (science): list all",
+      "a": "Summary; rationale and objectives; design, population and criteria; methodology with randomisation, blinding and stopping rules",
+      "refs": [
+        "Sarkar p201-210"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0105",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "class",
+      "q": "Components of a research protocol, Part A (conduct): list all",
+      "a": "Safety and adverse-event reporting; data management and sample size; quality assurance; expected outcomes and publication; timeline and team; ethics",
+      "refs": [
+        "Sarkar p201-210"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0106",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "class",
+      "q": "Common types of randomisation: list all",
+      "a": "Simple; systematic; stratified; multistage; cluster; multiphase; block; unequal; minimisation",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0107",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "What randomisation achieves",
+      "a": "Removes selection bias (with allocation concealment); balances known and unknown factors between groups",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0108",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Criteria of a good randomisation method",
+      "a": "Unpredictable; produces balanced groups; simple to use",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0109",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Block randomisation: purpose",
+      "a": "Equalises numbers in each arm; balance holds even if the trial stops early",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0110",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Block randomisation: problem with fixed blocks",
+      "a": "Staff may predict the next assignment",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0111",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Minimisation: type of method",
+      "a": "Adaptive stratified allocation (Pocock and Simon) that reduces imbalance between arms",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0112",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Cluster randomisation: units used",
+      "a": "Natural groups such as villages, wards, schools or factories",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0113",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Cluster sampling for immunisation coverage: number of clusters and children",
+      "a": "30 clusters; 7 children each; 210 children",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0114",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Cluster sampling: advantage",
+      "a": "Less expensive than other methods",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0115",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Cluster sampling: disadvantage",
+      "a": "Higher sampling error than other techniques",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0116",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Placebo control: what it measures",
+      "a": "Absolute efficacy of the test drug (identical dummy treatment)",
+      "refs": [
+        "Sarkar p181-185"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0117",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Placebo control: when not to use it",
+      "a": "When an available treatment is known to prevent serious harm such as death or irreversible morbidity",
+      "refs": [
+        "Sarkar p181-185"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0118",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "No-treatment concurrent control: when used",
+      "a": "Where blinding is not feasible; cannot be fully blinded",
+      "refs": [
+        "Sarkar p181-185"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0119",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Active control trial: why it poses fewer ethical problems",
+      "a": "All subjects receive active treatment",
+      "refs": [
+        "Sarkar p181-185"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0120",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Very small study (about 50 participants), single centre: randomisation method",
+      "a": "Adaptive minimisation",
+      "refs": [
+        "Sarkar p201-205"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0121",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Trial funding risk noted in Sarkar",
+      "a": "Industry funding of RCTs can create conflict of interest that may influence results",
+      "refs": [
+        "Sarkar p201-205"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0122",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "CONSORT 2010 checklist items for parallel-group randomised trials",
+      "a": "25 items",
+      "refs": [
+        "Sarkar p201-205"
+      ]
+    }
+  ]
+}

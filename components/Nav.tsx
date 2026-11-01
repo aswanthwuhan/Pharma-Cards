@@ -41,7 +41,7 @@ export function Nav() {
   return (
     <>
       {/* phone / tablet header */}
-      <header className="pt-[env(safe-area-inset-top)] lg:hidden">
+      <header className="glass sticky top-0 z-20 border-x-0 border-t-0 pt-[env(safe-area-inset-top)] lg:hidden">
         <div className="mx-auto flex max-w-3xl items-center px-5 py-3">
           <Link href="/" className="flex items-center gap-2 font-serif text-xl">
             <Capsule />
@@ -51,7 +51,7 @@ export function Nav() {
       </header>
 
       {/* desktop rail */}
-      <aside className="fixed inset-y-0 left-0 z-20 hidden w-64 flex-col border-r border-rule bg-well/60 px-3 py-6 lg:flex" aria-label="Main">
+      <aside className="glass fixed inset-y-0 left-0 z-20 hidden w-64 flex-col rounded-none border-y-0 border-l-0 px-3 py-6 lg:flex" aria-label="Main">
         <Link href="/" className="mb-8 flex items-center gap-2 px-3 font-mono text-sm font-semibold tracking-[0.12em] uppercase">
           <Capsule />
           Pharmacards
@@ -76,7 +76,7 @@ export function Nav() {
       {/* phone dock */}
       <nav
         aria-label="Main"
-        className="fixed inset-x-0 bottom-0 z-20 flex border-t border-rule bg-well/95 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden"
+        className="glass fixed inset-x-0 bottom-0 z-20 flex border-x-0 border-b-0 pb-[env(safe-area-inset-bottom)] lg:hidden"
       >
         {TABS.map((l) => (
           <Link

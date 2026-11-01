@@ -25,7 +25,7 @@ p1-history-molecular, p1-special-populations, p1-drug-delivery, p1-biochemical, 
 p2-herbal, p3-pv-economics, p3-clinical-services, p3-national-programmes, p3-research-biostats, p3-ethics-education
 
 ## Then
-- Rapid Fire decks for the 12 new NMC topics (not started)
+- [x] Rapid Fire decks for the 12 new NMC topics
 - [x] Reconciled 16 early Rapid decks with GG14 study-deck corrections
 - Functional check of every screen, fixing issues one by one
 - MD practicals: SKIPPED by owner for now; placeholder paper "PR" (4 empty topics) in lib/syllabus.ts. Owner will add content.

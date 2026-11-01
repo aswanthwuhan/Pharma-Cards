@@ -36,7 +36,7 @@ export function SessionSparkline({ points }: { points: SessionPoint[] }) {
 export function SessionTrend({ points }: { points?: SessionPoint[] }) {
   if (!points || points.length < 2) return null;
   return (
-    <section aria-labelledby="trend" className="sheet space-y-3 p-5">
+    <section aria-labelledby="trend" className="glass rounded-xl space-y-3 p-5">
       <p id="trend" className="eyebrow">
         Average score per session
       </p>

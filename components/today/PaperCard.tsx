@@ -55,7 +55,8 @@ export function PaperCard({
 
   return (
     <div
-      className={`sheet flex flex-col p-4 transition-colors lg:p-5 ${selected ? "border-teal bg-teal-wash" : "hover:border-teal"}`}
+      className={`glass rounded-xl flex flex-col p-4 transition-colors lg:p-5 ${selected ? "" : "hover:border-teal"}`}
+      style={selected ? { borderColor: "var(--color-teal)", background: "var(--color-teal-wash)" } : undefined}
     >
       <button
         type="button"

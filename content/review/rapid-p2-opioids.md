@@ -23,3 +23,5 @@ Items not carded because the table text is garbled or conflicts with the chapter
 | rf-p2-opioids-0490 | methylphenidate mechanism: NET/DAT inhibitor, not a releaser (study card 048) | KDT8 ch35, RangDale9 ch49 |
 | rf-p2-opioids-0596 | added: codeine in CYP2D6 ultra-rapid metabolisers (study card 028) | KDT8 ch34, GG14 ch23, Katzung16 ch31 |
 | rf-p2-opioids-0597 | added: naloxone IM, SC and 4 mg nasal spray (study card 022) | KDT8 ch34, GG14 ch23, GG14 ch28 |
+
+- Orchestrator: rf-p2-opioids-0591 now adds Katzung16 ch65 prevention trials (GEM, GuidAge: no benefit).
