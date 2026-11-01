@@ -70,3 +70,24 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - None skipped.
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| rf-p2-herbal-0337 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0338 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0339 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0340 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0341 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0342 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0343 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0344 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0345 | web | https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| rf-p2-herbal-0346 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| rf-p2-herbal-0347 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| rf-p2-herbal-0348 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| rf-p2-herbal-0349 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| rf-p2-herbal-0350 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |

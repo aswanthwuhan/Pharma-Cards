@@ -987,6 +987,156 @@
       "tags": [
         "classification"
       ]
+    },
+    {
+      "id": "p3-research-biostats-048",
+      "type": "basic",
+      "front": "Define sensitivity and give its formula (A = true positives, B = false positives, C = false negatives, D = true negatives).",
+      "back": "Proportion of people with the condition who test positive: A ÷ (A + C).",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-049",
+      "type": "basic",
+      "front": "Define specificity and give its formula.",
+      "back": "Proportion of people without the condition who test negative: D ÷ (D + B).",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-050",
+      "type": "basic",
+      "front": "Define positive predictive value and give its formula.",
+      "back": "Of all positive test results, the proportion that are true positives: A ÷ (A + B).",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-051",
+      "type": "basic",
+      "front": "Define negative predictive value and give its formula.",
+      "back": "Of all negative test results, the proportion that are true negatives: D ÷ (D + C).",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-052",
+      "type": "basic",
+      "front": "Give the formulas for the positive and negative likelihood ratios.",
+      "back": "LR+ = sensitivity ÷ (1 − specificity); LR− = (1 − sensitivity) ÷ specificity.",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-053",
+      "type": "cloze",
+      "front": "Complete: predictive values are {{affected}} by disease prevalence, whereas likelihood ratios are {{not affected}} by it.",
+      "text": "Complete: predictive values are {{affected}} by disease prevalence, whereas likelihood ratios are {{not affected}} by it.",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-054",
+      "type": "basic",
+      "front": "Worked example: 1,000 people tested, 384 with the disease; TP 369, FP 58, FN 15, TN 558. Find sensitivity, specificity, PPV, NPV, LR+ and LR−.",
+      "back": "Sensitivity 96.1%; specificity 90.6%; PPV 86.4%; NPV 97.4%; LR+ 10.22; LR− 0.043.",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-055",
+      "type": "basic",
+      "front": "What range does Pearson's correlation coefficient r take, and what do its extremes and zero mean?",
+      "back": "Between −1 and +1. Values nearer −1 or +1 indicate a stronger linear relationship (negative or positive); 0 indicates no linear relationship.",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-056",
+      "type": "cloze",
+      "front": "Complete: Pearson's r lies between {{-1}} and {{+1}}, and a value of {{0}} indicates no linear relationship.",
+      "text": "Complete: Pearson's r lies between {{-1}} and {{+1}}, and a value of {{0}} indicates no linear relationship.",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-057",
+      "type": "basic",
+      "front": "What type of variables does simple linear regression involve?",
+      "back": "One continuous dependent variable and one continuous independent variable.",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "uses"
+      ]
     }
   ]
 }

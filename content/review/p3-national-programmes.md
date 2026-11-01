@@ -75,3 +75,31 @@ Added 1 card (030), draft. Deck now 30 cards.
 | NACP and NTEP collaboration | Already covered | 024 (Katzung16 appendix 2) |
 
 Checked: Katzung16 appendix 2 (NVBDCP, NACP, NTEP, NDCP, UIP, NLEP), KDT8 ch56-63 and ch70. The NTEP 4-drug intensive phase conflict (Katzung vs KDT8) is still unresolved, as logged above.
+
+## Web-sourced cards (owner approved)
+
+Written under the GROUNDING-RULES exception for SOURCE-GAPS items. Status `web` for owner review; all `draft`.
+
+| id | status | source URL |
+|---|---|---|
+| p3-national-programmes-031 | web | https://ntep.in/node/507 |
+| p3-national-programmes-032 | web | https://ntep.in/node/507 |
+| p3-national-programmes-033 | web | https://ntep.in/node/507 |
+| p3-national-programmes-034 | web | https://ntep.in/node/507 |
+| p3-national-programmes-035 | web | https://ntep.in/node/507 |
+| p3-national-programmes-036 | web | https://ntep.in/node/507 |
+
+Not covered (no verifiable official source retrieved): NACO current ART regimen (only secondary sources; the NACO guideline was not retrieved); NCVBDC current malaria regimen (only partial text of 2013 document); NVHCP regimens (NVHCP PDF failed with a certificate error, so not read); typhoid (no official page found).
+
+Note: the NTEP cards add the withdrawal of the Category II retreatment regimen and the 10-month neuro/spinal continuation phase. Existing book-based cards on the 2016 regimen are unchanged; they agree with the NTEP page.
+
+## Web-sourced cards, second pass (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| p3-national-programmes-037 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
+| p3-national-programmes-038 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
+| p3-national-programmes-039 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
+| p3-national-programmes-040 | web | https://www.who.int/news-room/fact-sheets/detail/malaria |
+
+Still not covered: NACO current ART regimen (official PDF over the fetch size limit; only secondary sources, including TLD); NCVBDC malaria regimen (certificate error; 2022 policy not found); NVHCP regimens (certificate error); typhoid treatment drug choice (WHO page names no drugs).

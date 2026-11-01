@@ -73,3 +73,32 @@ Added 3 cards (027-029), draft. Deck now 29 cards.
 | Pharmacologist's role in education | Covered | 024; 029 essential medicines list identifies the must-know drugs for teaching (Sarkar p61-65) |
 
 Cross-references: placebo ethics and GCP in p4-clinical-trials (019, 022, 023) and p4-experimental (animal ethics).
+
+## Web-sourced cards (owner approved)
+
+Written under the GROUNDING-RULES exception for SOURCE-GAPS items. Status `web` for owner review; all `draft`.
+
+| id | status | source URL |
+|---|---|---|
+| p3-ethics-education-030 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| p3-ethics-education-031 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| p3-ethics-education-032 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| p3-ethics-education-033 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| p3-ethics-education-034 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| p3-ethics-education-035 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| p3-ethics-education-036 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| p3-ethics-education-037 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| p3-ethics-education-038 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| p3-ethics-education-039 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| p3-ethics-education-040 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| p3-ethics-education-041 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| p3-ethics-education-042 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| p3-ethics-education-043 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| p3-ethics-education-044 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| p3-ethics-education-045 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+
+Not covered (no verifiable official source retrieved): Miller's pyramid (no NMC or NCBI page retrieved; NCBI PMC pages returned a verification screen).
+
+## Second pass: still not covered (owner approved)
+
+Still not covered: Miller's pyramid (PMC blocked; no NCBI Bookshelf or official page read).

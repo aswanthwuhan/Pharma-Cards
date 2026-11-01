@@ -66,3 +66,21 @@ Added 10 cards (026-035), all draft. Deck now 35 cards.
 | Formulation technology (polymers, release kinetics) | Partly covered | 026 (KDT8 ch3, semipermeable membrane release); 027 (KDT8 ch1, polymer reservoir and rate-controlling membrane); 035 (Sarkar p46-50, prodrug esters). Release-kinetics theory is still a gap |
 
 Extra cards from Prep p16-20 (Norplant, transdermal site and area dependence): 028, 029, 030.
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| p1-drug-delivery-036 | web | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| p1-drug-delivery-037 | web | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| p1-drug-delivery-038 | web | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| p1-drug-delivery-039 | web | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| p1-drug-delivery-040 | web | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| p1-drug-delivery-041 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| p1-drug-delivery-042 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| p1-drug-delivery-043 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| p1-drug-delivery-044 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| p1-drug-delivery-045 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| p1-drug-delivery-046 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |

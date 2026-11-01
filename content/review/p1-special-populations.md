@@ -80,3 +80,23 @@ Added 12 cards (036-047), all draft. Deck now 47 cards.
 | Dosing in obesity | Covered | 045 (KDT8 ch5, dose on body weight; BSA noted as alternative) |
 | Hepatic disease (only 1 card in first pass) | Expanded | 027 plus 042 (Prep p31-35, succinylcholine), 043 (Prep p371-375, TB drugs), 044 (Prep p336-340, fluoroquinolones) |
 | Paediatric dosage forms (extra) | Added | 047 (KDT8 ch5, metered-dose inhalers and solid forms in young children) |
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| p1-special-populations-048 | web | WEB NCBI StatPearls Use of the Child Pugh Score in Liver Disease (2023) https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| p1-special-populations-049 | web | WEB NCBI StatPearls Use of the Child Pugh Score in Liver Disease (2023) https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| p1-special-populations-050 | web | WEB NCBI StatPearls Use of the Child Pugh Score in Liver Disease (2023) https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| p1-special-populations-051 | web | https://www.ncbi.nlm.nih.gov/books/NBK560512/ |
+| p1-special-populations-052 | web | https://www.ncbi.nlm.nih.gov/books/NBK560512/ |
+| p1-special-populations-053 | web | https://www.ncbi.nlm.nih.gov/books/NBK560512/ |
+| p1-special-populations-054 | web | https://www.ncbi.nlm.nih.gov/books/NBK560512/ |
+| p1-special-populations-055 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+| p1-special-populations-056 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+| p1-special-populations-057 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+| p1-special-populations-058 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+| p1-special-populations-059 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+| p1-special-populations-060 | web | WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |

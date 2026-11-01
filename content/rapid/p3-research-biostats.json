@@ -1222,22 +1222,275 @@
         "Sarkar p201-205"
       ]
     },
-    { "id": "rf-p3-research-biostats-0123", "subtopic": "p3-research-biostats-descriptive", "kind": "class", "q": "Central value and spread pairs reported in results: list all", "a": "Mean with SD or SEM; median with interquartile range", "refs": ["Sarkar p511-515"] },
-    { "id": "rf-p3-research-biostats-0124", "subtopic": "p3-research-biostats-evidence", "kind": "fact", "q": "Kaplan-Meier plot: axes in the rizatriptan example", "a": "Probability of migraine pain relief against hours after dosing", "refs": ["RangDale9 ch16"] },
-    { "id": "rf-p3-research-biostats-0125", "subtopic": "p3-research-biostats-evidence", "kind": "fact", "q": "Kaplan-Meier rizatriptan example: groups compared", "a": "10 mg rizatriptan vs placebo", "refs": ["RangDale9 ch16"] },
-    { "id": "rf-p3-research-biostats-0126", "subtopic": "p3-research-biostats-inference", "kind": "fact", "q": "Standard error of the mean as sample size rises", "a": "Falls; SE = SD divided by the square root of n", "refs": ["Sarkar p361-365"] },
-    { "id": "rf-p3-research-biostats-0127", "subtopic": "p3-research-biostats-protocol", "kind": "fact", "q": "Where the sample size calculation is stated in a trial report", "a": "Methods section", "refs": ["Sarkar p511-515"] },
-    { "id": "rf-p3-research-biostats-0128", "subtopic": "p3-research-biostats-protocol", "kind": "fact", "q": "Result of an inadequate sample size calculation", "a": "False-negative results", "refs": ["Sarkar p511-515"] },
-    { "id": "rf-p3-research-biostats-0129", "subtopic": "p3-research-biostats-inference", "kind": "fact", "q": "Power usually accepted for a clinical trial", "a": "0.8 to 0.9 (80-90% chance of detecting a real effect)", "refs": ["RangDale9 ch8"] },
-    { "id": "rf-p3-research-biostats-0130", "subtopic": "p3-research-biostats-inference", "kind": "fact", "q": "Relative seriousness of type II vs type I error", "a": "Type II is regarded more leniently", "refs": ["RangDale9 ch8"] },
-    { "id": "rf-p3-research-biostats-0131", "subtopic": "p3-research-biostats-inference", "kind": "fact", "q": "Subjects needed to detect a 50% to 40% mortality fall (p<0.05, power 0.9)", "a": "About 850", "refs": ["RangDale9 ch8"] },
-    { "id": "rf-p3-research-biostats-0132", "subtopic": "p3-research-biostats-evidence", "kind": "fact", "q": "Patients exposed before the first case of a 1-in-10,000 toxicity", "a": "Several hundred thousand", "refs": ["Katzung16 ch1"] },
-    { "id": "rf-p3-research-biostats-0133", "subtopic": "p3-research-biostats-evidence", "kind": "fact", "q": "Where rare drug toxicities are first detected", "a": "Phase 4, after marketing", "refs": ["Katzung16 ch1"] },
-    { "id": "rf-p3-research-biostats-0134", "subtopic": "p3-research-biostats-inference", "kind": "fact", "q": "Effect of a larger trial on the smallest detectable relative risk", "a": "A smaller relative risk becomes detectable", "refs": ["GG14 ch8"] },
-    { "id": "rf-p3-research-biostats-0135", "subtopic": "p3-research-biostats-tests", "kind": "fact", "q": "Non-parametric test for two independent groups (replaces independent t test)", "a": "Mann-Whitney test", "refs": ["Sarkar p381-385"] },
-    { "id": "rf-p3-research-biostats-0136", "subtopic": "p3-research-biostats-tests", "kind": "fact", "q": "Non-parametric test for more than two independent groups (replaces one-way ANOVA)", "a": "Kruskal-Wallis test", "refs": ["Sarkar p381-385"] },
-    { "id": "rf-p3-research-biostats-0137", "subtopic": "p3-research-biostats-tests", "kind": "fact", "q": "Non-parametric test for two repeated conditions (replaces matched-pair t test)", "a": "Wilcoxon test", "refs": ["Sarkar p381-385"] },
-    { "id": "rf-p3-research-biostats-0138", "subtopic": "p3-research-biostats-tests", "kind": "fact", "q": "Non-parametric test for more than two repeated conditions (replaces repeated-measures ANOVA)", "a": "Friedman's test", "refs": ["Sarkar p381-385"] },
-    { "id": "rf-p3-research-biostats-0139", "subtopic": "p3-research-biostats-tests", "kind": "fact", "q": "Non-parametric correlation test (parametric counterpart: Pearson)", "a": "Spearman correlation", "refs": ["Sarkar p381-385"] }
+    {
+      "id": "rf-p3-research-biostats-0123",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "class",
+      "q": "Central value and spread pairs reported in results: list all",
+      "a": "Mean with SD or SEM; median with interquartile range",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0124",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Kaplan-Meier plot: axes in the rizatriptan example",
+      "a": "Probability of migraine pain relief against hours after dosing",
+      "refs": [
+        "RangDale9 ch16"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0125",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Kaplan-Meier rizatriptan example: groups compared",
+      "a": "10 mg rizatriptan vs placebo",
+      "refs": [
+        "RangDale9 ch16"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0126",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Standard error of the mean as sample size rises",
+      "a": "Falls; SE = SD divided by the square root of n",
+      "refs": [
+        "Sarkar p361-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0127",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Where the sample size calculation is stated in a trial report",
+      "a": "Methods section",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0128",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Result of an inadequate sample size calculation",
+      "a": "False-negative results",
+      "refs": [
+        "Sarkar p511-515"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0129",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Power usually accepted for a clinical trial",
+      "a": "0.8 to 0.9 (80-90% chance of detecting a real effect)",
+      "refs": [
+        "RangDale9 ch8"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0130",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Relative seriousness of type II vs type I error",
+      "a": "Type II is regarded more leniently",
+      "refs": [
+        "RangDale9 ch8"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0131",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Subjects needed to detect a 50% to 40% mortality fall (p<0.05, power 0.9)",
+      "a": "About 850",
+      "refs": [
+        "RangDale9 ch8"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0132",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Patients exposed before the first case of a 1-in-10,000 toxicity",
+      "a": "Several hundred thousand",
+      "refs": [
+        "Katzung16 ch1"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0133",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Where rare drug toxicities are first detected",
+      "a": "Phase 4, after marketing",
+      "refs": [
+        "Katzung16 ch1"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0134",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Effect of a larger trial on the smallest detectable relative risk",
+      "a": "A smaller relative risk becomes detectable",
+      "refs": [
+        "GG14 ch8"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0135",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Non-parametric test for two independent groups (replaces independent t test)",
+      "a": "Mann-Whitney test",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0136",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Non-parametric test for more than two independent groups (replaces one-way ANOVA)",
+      "a": "Kruskal-Wallis test",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0137",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Non-parametric test for two repeated conditions (replaces matched-pair t test)",
+      "a": "Wilcoxon test",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0138",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Non-parametric test for more than two repeated conditions (replaces repeated-measures ANOVA)",
+      "a": "Friedman's test",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0139",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Non-parametric correlation test (parametric counterpart: Pearson)",
+      "a": "Spearman correlation",
+      "refs": [
+        "Sarkar p381-385"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0140",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Sensitivity formula in a 2x2 table (A = TP, C = FN)",
+      "a": "A ÷ (A + C)",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0141",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Specificity formula (B = FP, D = TN)",
+      "a": "D ÷ (D + B)",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0142",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Positive predictive value formula",
+      "a": "A ÷ (A + B)",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0143",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Negative predictive value formula",
+      "a": "D ÷ (D + C)",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0144",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Positive likelihood ratio formula",
+      "a": "Sensitivity ÷ (1 − specificity)",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0145",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Negative likelihood ratio formula",
+      "a": "(1 − sensitivity) ÷ specificity",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0146",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Diagnostic measure affected by prevalence",
+      "a": "PPV and NPV (likelihood ratios are not)",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0147",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Pearson r: range",
+      "a": "−1 to +1",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0148",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Pearson r of 0 means",
+      "a": "No linear relationship",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0149",
+      "subtopic": "p3-research-biostats-tests",
+      "kind": "fact",
+      "q": "Simple linear regression: variable types",
+      "a": "One continuous dependent and one continuous independent variable",
+      "refs": [
+        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
+      ]
+    }
   ]
 }

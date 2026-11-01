@@ -51,3 +51,25 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - None skipped.
+
+## Web-sourced cards (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| rf-p3-ethics-education-0108 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| rf-p3-ethics-education-0109 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| rf-p3-ethics-education-0110 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| rf-p3-ethics-education-0111 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| rf-p3-ethics-education-0112 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| rf-p3-ethics-education-0113 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| rf-p3-ethics-education-0114 | web | https://nmc.org.in/storage/new/AETCOM_book.pdf |
+| rf-p3-ethics-education-0115 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0116 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0117 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0118 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0119 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0120 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0121 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0122 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0123 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |
+| rf-p3-ethics-education-0124 | web | https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf |

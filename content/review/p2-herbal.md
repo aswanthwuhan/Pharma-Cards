@@ -59,3 +59,31 @@ Added 1 card (025).
 | Nutraceuticals and FSSAI | Still a gap | Books silent (Sarkar p506-510 cites nutraceuticals in a reference only) |
 | Probiotics, vitamins and minerals as supplements | Still a gap | Not in Katzung16 ch65; vitamins are in p3-misc |
 | Ayurvedic drug efficacy evidence (ashwagandha, curcumin) | Partly covered | p2-herbal-025 (Sarkar p611-615): ashwagandha compound reported as a possible Covid-19 drug candidate, with no clinical data. Curcumin trial data: still a gap (Sarkar lists its activity only) |
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| p2-herbal-026 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-027 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-028 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-029 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-030 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-031 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-032 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-033 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-034 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-035 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-036 | web | WEB Govt of India Drugs and Cosmetics Act 1940, Chapter IVA https://ayush.delhi.gov.in/sites/default/files/ayush/custom/drugs_cosmetics_act.pdf |
+| p2-herbal-037 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-038 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-039 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-040 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-041 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-042 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-043 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-044 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-045 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |
+| p2-herbal-046 | web | https://www.fssai.gov.in/upload/uploadfiles/files/FAQs_Nutraceutical_Regulations_06_10_2020.pdf |

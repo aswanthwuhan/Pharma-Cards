@@ -108,3 +108,41 @@ Added 9 cards (049-057) from the review books and textbooks. Each card cites its
 | Hydrocarbon poison: charcoal does not adsorb hydrocarbons | Closed | 059 (KDT8 ch6) |
 | Hydrocarbon poison: inhalant abuse of aliphatic and aromatic hydrocarbons | Closed | 061 (Katzung16 ch32). Bedside clues and halogenated solvents already in 054 and 056 |
 | Aluminium phosphide | Still a gap | Confirmed absent from all books; no card written |
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| p2-toxicology-062 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-063 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-064 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-065 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-066 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-067 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-068 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-069 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-070 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-071 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-072 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-073 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-074 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-075 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-076 | web | WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| p2-toxicology-077 | web | https://www.aiims.edu/index.php/en/npic_intro |
+| p2-toxicology-078 | web | https://www.aiims.edu/index.php/en/npic_intro |
+| p2-toxicology-079 | web | https://www.aiims.edu/index.php/en/npic_intro |
+| p2-toxicology-080 | web | https://www.aiims.edu/index.php/en/npic_intro |
+| p2-toxicology-081 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-082 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-083 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-084 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-085 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-086 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-087 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-088 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-089 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-090 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-091 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| p2-toxicology-092 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |

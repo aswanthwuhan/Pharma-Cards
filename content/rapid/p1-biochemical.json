@@ -1,50 +1,502 @@
 {
   "topicId": "p1-biochemical",
   "cards": [
-    { "id": "rf-p1-biochemical-0001", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Pregnancy test kits: antibody target and what they detect", "a": "Antibodies to the unique subunit of hCG; qualitative detection within a few days of a missed period", "refs": ["GG14 ch46"] },
-    { "id": "rf-p1-biochemical-0002", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Quantitative plasma hCG: method and uses", "a": "Radioimmunoassay; checks normal pregnancy progress, ectopic pregnancy, mole, choriocarcinoma", "refs": ["GG12 ch38", "GG14 ch46"] },
-    { "id": "rf-p1-biochemical-0003", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Thyroid function assays: methods (GG12)", "a": "Radioimmunoassays, then chemiluminescent and enzyme-linked immunoassays for T4, T3 and TSH", "refs": ["GG12 ch39"] },
-    { "id": "rf-p1-biochemical-0004", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Free T4 gold-standard method and its limit", "a": "Equilibrium dialysis with radioimmunoassay of the dialysate; costly, rarely in routine labs", "refs": ["GG14 ch47"] },
-    { "id": "rf-p1-biochemical-0005", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Routine free T4 and T3 assays: principle", "a": "Labelled iodothyronine analogues in chemiluminescent or enzyme-linked assays; affected by binding proteins and illness", "refs": ["GG14 ch47"] },
-    { "id": "rf-p1-biochemical-0006", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Serum TSH: role in thyroid testing with normal pituitary", "a": "Thyroid function test of choice", "refs": ["GG14 ch47"] },
-    { "id": "rf-p1-biochemical-0007", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Digoxin levels: method", "a": "Radioimmunoassay of serum digoxin", "refs": ["GG14 ch33"] },
-    { "id": "rf-p1-biochemical-0008", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Digoxin: concentration range with therapeutic efficacy", "a": "0.5-0.8 ng/mL", "refs": ["GG14 ch33"] },
-    { "id": "rf-p1-biochemical-0009", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Digoxin: concentration linked to increased mortality", "a": "Above 1.2 ng/mL", "refs": ["GG14 ch33"] },
-    { "id": "rf-p1-biochemical-0011", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Urine toxicology screen: how fast it gives results", "a": "Immunoassay; turnaround about 1 hour", "refs": ["GG14 ch9"] },
-    { "id": "rf-p1-biochemical-0012", "subtopic": "p1-biochemical-immunoassays", "kind": "class", "q": "Drugs of abuse detected by urine immunoassay screens: list", "a": "Amphetamines, barbiturates, benzodiazepines, cannabis, cocaine, opiates", "refs": ["GG14 ch9"] },
-    { "id": "rf-p1-biochemical-0013", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Limits of urine immunoassay screens", "a": "False positives from cross-reactivity; long detection windows can mislead about acute toxicity", "refs": ["GG14 ch9"] },
-
-    { "id": "rf-p1-biochemical-0014", "subtopic": "p1-biochemical-chromatography", "kind": "fact", "q": "Pharmacokinetics became possible in the 20th century because of", "a": "Sensitive methods such as high-performance chromatography and mass spectrometry", "refs": ["RangDale9 ch11"] },
-    { "id": "rf-p1-biochemical-0015", "subtopic": "p1-biochemical-chromatography", "kind": "fact", "q": "Peptide purification and synthesis advance from the 1970s", "a": "High-performance liquid chromatography with solid-phase peptide synthesis", "refs": ["RangDale9 ch19"] },
-    { "id": "rf-p1-biochemical-0016", "subtopic": "p1-biochemical-chromatography", "kind": "class", "q": "Metabolomics platforms: list", "a": "1H-NMR; liquid or gas chromatography coupled to mass spectrometry, with chemometric and multivariate analysis", "refs": ["GG12 ch6", "GG14 ch5"] },
-    { "id": "rf-p1-biochemical-0017", "subtopic": "p1-biochemical-chromatography", "kind": "fact", "q": "Metabolomics: definition", "a": "Systematic identification and quantification of all metabolites in a sample", "refs": ["GG12 ch6", "GG14 ch5"] },
-    { "id": "rf-p1-biochemical-0018", "subtopic": "p1-biochemical-chromatography", "kind": "fact", "q": "Metabolomics output in drug development", "a": "Simultaneous measurement of thousands of chemicals in serum, urine, cells or tissues", "refs": ["GG14 ch5"] },
-    { "id": "rf-p1-biochemical-0019", "subtopic": "p1-biochemical-chromatography", "kind": "fact", "q": "Metabolites in urine identified by", "a": "Liquid chromatography-mass spectrometry", "refs": ["GG14 ch5"] },
-
-    { "id": "rf-p1-biochemical-0020", "subtopic": "p1-biochemical-drug-levels", "kind": "class", "q": "Drugs with low safety margin where TDM is useful: list", "a": "Digoxin, anticonvulsants, antiarrhythmics, theophylline, aminoglycosides, lithium, tricyclic antidepressants", "refs": ["KDT8 ch3"] },
-    { "id": "rf-p1-biochemical-0021", "subtopic": "p1-biochemical-drug-levels", "kind": "class", "q": "TDM is particularly useful in these situations: list", "a": "Low safety margin; large individual variation; toxic drug with renal failure; poisoning; unexplained failure; compliance checks", "refs": ["KDT8 ch3"] },
-    { "id": "rf-p1-biochemical-0022", "subtopic": "p1-biochemical-drug-levels", "kind": "fact", "q": "TDM for long-acting drugs: sample timing for dose adjustment", "a": "Trough steady-state level, just before the next dose", "refs": ["KDT8 ch3"] },
-    { "id": "rf-p1-biochemical-0023", "subtopic": "p1-biochemical-drug-levels", "kind": "fact", "q": "TDM for short-acting drugs (e.g. ampicillin, gentamicin): sample timing", "a": "Immediate post-absorptive phase, about 1-2 h after oral or i.m. dose, to reflect peak", "refs": ["KDT8 ch3"] },
-    { "id": "rf-p1-biochemical-0024", "subtopic": "p1-biochemical-drug-levels", "kind": "fact", "q": "Blood level in poisoning: when to sample and why repeat", "a": "Earliest sample to confirm poisoning; repeat to estimate clearance and need to hasten elimination (e.g. haemodialysis)", "refs": ["KDT8 ch3"] },
-    { "id": "rf-p1-biochemical-0025", "subtopic": "p1-biochemical-drug-levels", "kind": "fact", "q": "Random drug level sampling: use", "a": "Informative for checking compliance", "refs": ["KDT8 ch3"] },
-    { "id": "rf-p1-biochemical-0026", "subtopic": "p1-biochemical-drug-levels", "kind": "class", "q": "Drugs where plasma level monitoring is of no value: list", "a": "Antihypertensives, hypoglycaemics, diuretics, oral anticoagulants, inhalational anaesthetics (response measurable); levodopa (activated in body); reserpine, guanethidine, MAO inhibitors, omeprazole (hit and run); organophosphates, phenoxybenzamine (irreversible)", "refs": ["KDT8 ch3"] },
-
-    { "id": "rf-p1-biochemical-0028", "subtopic": "p1-biochemical-doping", "kind": "fact", "q": "Doping detection: androgen other than testosterone", "a": "Gas chromatography and mass spectrometry, if still taken at testing", "refs": ["GG12 ch41", "GG14 ch49"] },
-    { "id": "rf-p1-biochemical-0029", "subtopic": "p1-biochemical-doping", "kind": "fact", "q": "Exogenous testosterone: first detection method", "a": "T/E ratio: urinary testosterone glucuronide to epitestosterone glucuronide", "refs": ["GG12 ch41", "GG14 ch49"] },
-    { "id": "rf-p1-biochemical-0030", "subtopic": "p1-biochemical-doping", "kind": "fact", "q": "Why the T/E ratio rises with exogenous testosterone", "a": "Exogenous testosterone suppresses epitestosterone, so only testosterone is raised", "refs": ["GG14 ch49"] },
-    { "id": "rf-p1-biochemical-0031", "subtopic": "p1-biochemical-doping", "kind": "fact", "q": "Exogenous testosterone: second detection method", "a": "Gas chromatography-combustion-isotope ratio mass spectrometry of 13C/12C in urinary steroids", "refs": ["GG12 ch41", "GG14 ch49"] },
-    { "id": "rf-p1-biochemical-0032", "subtopic": "p1-biochemical-doping", "kind": "fact", "q": "Isotope ratio result: what a low 13C/12C ratio means", "a": "Steroid probably from a pharmaceutical source, not endogenous", "refs": ["GG14 ch49"] },
-    { "id": "rf-p1-biochemical-0033", "subtopic": "p1-biochemical-doping", "kind": "fact", "q": "Doping with newer designer androgen: why hard to detect", "a": "Tetrahydrogestrinone (THG) designed to avoid antidoping detection by structure and rapid catabolism", "refs": ["GG12 ch41"] },
-    { "id": "rf-p1-biochemical-0034", "subtopic": "p1-biochemical-spectrophotometry", "kind": "fact", "q": "Principle of colorimetry", "a": "Colour intensity tracks concentration; read from light absorbed at the right wavelength", "refs": ["Sarkar p421-425", "Sarkar p256-260"] },
-    { "id": "rf-p1-biochemical-0035", "subtopic": "p1-biochemical-drug-levels", "kind": "fact", "q": "Langendorff cardiac glycoside test: potassium measured by", "a": "Flame photometry of the coronary outflow", "refs": ["Sarkar p291-295"] },
-    { "id": "rf-p1-biochemical-0036", "subtopic": "p1-biochemical-drug-levels", "kind": "fact", "q": "Langendorff glycoside test: rise in potassium outflow indicates", "a": "Positive inotropic effect (correlates well)", "refs": ["Sarkar p291-295"] },
-    { "id": "rf-p1-biochemical-0037", "subtopic": "p1-biochemical-immunoassays", "kind": "class", "q": "General ELISA steps in order: list all", "a": "Coat wells with antigen; block unbound sites; add primary antibody; add enzyme-linked secondary antibody; add substrate forming coloured product", "refs": ["Sarkar p386-395"] },
-    { "id": "rf-p1-biochemical-0038", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Purpose of the blocking step in ELISA", "a": "Blocks unbound sites to prevent false positives", "refs": ["Sarkar p386-395"] },
-    { "id": "rf-p1-biochemical-0039", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "HRP and TMB ELISA: colour after acid and wavelength read", "a": "Yellow; read at 450 nm", "refs": ["Sarkar p386-395"] },
-    { "id": "rf-p1-biochemical-0040", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Fluorescence polarisation immunoassay (FPIA): principle", "a": "Fluorescein-labelled drug competes with patient's drug for antibody; more drug means less polarised light", "refs": ["Sarkar p396-400"] },
-    { "id": "rf-p1-biochemical-0041", "subtopic": "p1-biochemical-chromatography", "kind": "fact", "q": "Thin-layer chromatography: use and limitation", "a": "Cheap, quick qualitative purity checks (e.g. alkaloids); only semi-quantitative", "refs": ["Sarkar p396-405"] },
-    { "id": "rf-p1-biochemical-0042", "subtopic": "p1-biochemical-drug-levels", "kind": "fact", "q": "Toxin analysis methods used qualitatively", "a": "Colorimetric and UV-visible spectrophotometry", "refs": ["Sarkar p256-260"] },
-    { "id": "rf-p1-biochemical-0043", "subtopic": "p1-biochemical-drug-levels", "kind": "class", "q": "Toxin analysis methods used quantitatively: list all", "a": "Infrared spectroscopy, gas chromatography, HPLC, immunoassay", "refs": ["Sarkar p256-260"] },
-    { "id": "rf-p1-biochemical-0044", "subtopic": "p1-biochemical-immunoassays", "kind": "fact", "q": "Why radioimmunoassay is now rarely used in clinical labs", "a": "Radioisotope safety needs; ELISA replaces the radioisotope with an enzyme", "refs": ["Sarkar p391-400"] }
+    {
+      "id": "rf-p1-biochemical-0001",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Pregnancy test kits: antibody target and what they detect",
+      "a": "Antibodies to the unique subunit of hCG; qualitative detection within a few days of a missed period",
+      "refs": [
+        "GG14 ch46"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0002",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Quantitative plasma hCG: method and uses",
+      "a": "Radioimmunoassay; checks normal pregnancy progress, ectopic pregnancy, mole, choriocarcinoma",
+      "refs": [
+        "GG12 ch38",
+        "GG14 ch46"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0003",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Thyroid function assays: methods (GG12)",
+      "a": "Radioimmunoassays, then chemiluminescent and enzyme-linked immunoassays for T4, T3 and TSH",
+      "refs": [
+        "GG12 ch39"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0004",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Free T4 gold-standard method and its limit",
+      "a": "Equilibrium dialysis with radioimmunoassay of the dialysate; costly, rarely in routine labs",
+      "refs": [
+        "GG14 ch47"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0005",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Routine free T4 and T3 assays: principle",
+      "a": "Labelled iodothyronine analogues in chemiluminescent or enzyme-linked assays; affected by binding proteins and illness",
+      "refs": [
+        "GG14 ch47"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0006",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Serum TSH: role in thyroid testing with normal pituitary",
+      "a": "Thyroid function test of choice",
+      "refs": [
+        "GG14 ch47"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0007",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Digoxin levels: method",
+      "a": "Radioimmunoassay of serum digoxin",
+      "refs": [
+        "GG14 ch33"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0008",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Digoxin: concentration range with therapeutic efficacy",
+      "a": "0.5-0.8 ng/mL",
+      "refs": [
+        "GG14 ch33"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0009",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Digoxin: concentration linked to increased mortality",
+      "a": "Above 1.2 ng/mL",
+      "refs": [
+        "GG14 ch33"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0011",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Urine toxicology screen: how fast it gives results",
+      "a": "Immunoassay; turnaround about 1 hour",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0012",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "class",
+      "q": "Drugs of abuse detected by urine immunoassay screens: list",
+      "a": "Amphetamines, barbiturates, benzodiazepines, cannabis, cocaine, opiates",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0013",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Limits of urine immunoassay screens",
+      "a": "False positives from cross-reactivity; long detection windows can mislead about acute toxicity",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0014",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Pharmacokinetics became possible in the 20th century because of",
+      "a": "Sensitive methods such as high-performance chromatography and mass spectrometry",
+      "refs": [
+        "RangDale9 ch11"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0015",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Peptide purification and synthesis advance from the 1970s",
+      "a": "High-performance liquid chromatography with solid-phase peptide synthesis",
+      "refs": [
+        "RangDale9 ch19"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0016",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "class",
+      "q": "Metabolomics platforms: list",
+      "a": "1H-NMR; liquid or gas chromatography coupled to mass spectrometry, with chemometric and multivariate analysis",
+      "refs": [
+        "GG12 ch6",
+        "GG14 ch5"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0017",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Metabolomics: definition",
+      "a": "Systematic identification and quantification of all metabolites in a sample",
+      "refs": [
+        "GG12 ch6",
+        "GG14 ch5"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0018",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Metabolomics output in drug development",
+      "a": "Simultaneous measurement of thousands of chemicals in serum, urine, cells or tissues",
+      "refs": [
+        "GG14 ch5"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0019",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Metabolites in urine identified by",
+      "a": "Liquid chromatography-mass spectrometry",
+      "refs": [
+        "GG14 ch5"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0020",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "class",
+      "q": "Drugs with low safety margin where TDM is useful: list",
+      "a": "Digoxin, anticonvulsants, antiarrhythmics, theophylline, aminoglycosides, lithium, tricyclic antidepressants",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0021",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "class",
+      "q": "TDM is particularly useful in these situations: list",
+      "a": "Low safety margin; large individual variation; toxic drug with renal failure; poisoning; unexplained failure; compliance checks",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0022",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "TDM for long-acting drugs: sample timing for dose adjustment",
+      "a": "Trough steady-state level, just before the next dose",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0023",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "TDM for short-acting drugs (e.g. ampicillin, gentamicin): sample timing",
+      "a": "Immediate post-absorptive phase, about 1-2 h after oral or i.m. dose, to reflect peak",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0024",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Blood level in poisoning: when to sample and why repeat",
+      "a": "Earliest sample to confirm poisoning; repeat to estimate clearance and need to hasten elimination (e.g. haemodialysis)",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0025",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Random drug level sampling: use",
+      "a": "Informative for checking compliance",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0026",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "class",
+      "q": "Drugs where plasma level monitoring is of no value: list",
+      "a": "Antihypertensives, hypoglycaemics, diuretics, oral anticoagulants, inhalational anaesthetics (response measurable); levodopa (activated in body); reserpine, guanethidine, MAO inhibitors, omeprazole (hit and run); organophosphates, phenoxybenzamine (irreversible)",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0028",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Doping detection: androgen other than testosterone",
+      "a": "Gas chromatography and mass spectrometry, if still taken at testing",
+      "refs": [
+        "GG12 ch41",
+        "GG14 ch49"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0029",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Exogenous testosterone: first detection method",
+      "a": "T/E ratio: urinary testosterone glucuronide to epitestosterone glucuronide",
+      "refs": [
+        "GG12 ch41",
+        "GG14 ch49"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0030",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Why the T/E ratio rises with exogenous testosterone",
+      "a": "Exogenous testosterone suppresses epitestosterone, so only testosterone is raised",
+      "refs": [
+        "GG14 ch49"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0031",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Exogenous testosterone: second detection method",
+      "a": "Gas chromatography-combustion-isotope ratio mass spectrometry of 13C/12C in urinary steroids",
+      "refs": [
+        "GG12 ch41",
+        "GG14 ch49"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0032",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Isotope ratio result: what a low 13C/12C ratio means",
+      "a": "Steroid probably from a pharmaceutical source, not endogenous",
+      "refs": [
+        "GG14 ch49"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0033",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Doping with newer designer androgen: why hard to detect",
+      "a": "Tetrahydrogestrinone (THG) designed to avoid antidoping detection by structure and rapid catabolism",
+      "refs": [
+        "GG12 ch41"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0034",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Principle of colorimetry",
+      "a": "Colour intensity tracks concentration; read from light absorbed at the right wavelength",
+      "refs": [
+        "Sarkar p421-425",
+        "Sarkar p256-260"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0035",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Langendorff cardiac glycoside test: potassium measured by",
+      "a": "Flame photometry of the coronary outflow",
+      "refs": [
+        "Sarkar p291-295"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0036",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Langendorff glycoside test: rise in potassium outflow indicates",
+      "a": "Positive inotropic effect (correlates well)",
+      "refs": [
+        "Sarkar p291-295"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0037",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "class",
+      "q": "General ELISA steps in order: list all",
+      "a": "Coat wells with antigen; block unbound sites; add primary antibody; add enzyme-linked secondary antibody; add substrate forming coloured product",
+      "refs": [
+        "Sarkar p386-395"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0038",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Purpose of the blocking step in ELISA",
+      "a": "Blocks unbound sites to prevent false positives",
+      "refs": [
+        "Sarkar p386-395"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0039",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "HRP and TMB ELISA: colour after acid and wavelength read",
+      "a": "Yellow; read at 450 nm",
+      "refs": [
+        "Sarkar p386-395"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0040",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Fluorescence polarisation immunoassay (FPIA): principle",
+      "a": "Fluorescein-labelled drug competes with patient's drug for antibody; more drug means less polarised light",
+      "refs": [
+        "Sarkar p396-400"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0041",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Thin-layer chromatography: use and limitation",
+      "a": "Cheap, quick qualitative purity checks (e.g. alkaloids); only semi-quantitative",
+      "refs": [
+        "Sarkar p396-405"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0042",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Toxin analysis methods used qualitatively",
+      "a": "Colorimetric and UV-visible spectrophotometry",
+      "refs": [
+        "Sarkar p256-260"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0043",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "class",
+      "q": "Toxin analysis methods used quantitatively: list all",
+      "a": "Infrared spectroscopy, gas chromatography, HPLC, immunoassay",
+      "refs": [
+        "Sarkar p256-260"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0044",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Why radioimmunoassay is now rarely used in clinical labs",
+      "a": "Radioisotope safety needs; ELISA replaces the radioisotope with an enzyme",
+      "refs": [
+        "Sarkar p391-400"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0045",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Flame photometry: emitting species in the flame",
+      "a": "Excited metal atoms returning to ground state",
+      "refs": [
+        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0046",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Flame photometry: wavelength identifies",
+      "a": "The element (characteristic wavelength, isolated by a filter)",
+      "refs": [
+        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0047",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Flame photometer: component that feeds the sample into the flame",
+      "a": "Nebuliser",
+      "refs": [
+        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0048",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Flame photometer: detector",
+      "a": "Photodetector (signal proportional to intensity)",
+      "refs": [
+        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0049",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Flame photometry: how concentration is found",
+      "a": "Calibration graph of galvanometer reading vs concentration",
+      "refs": [
+        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0050",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Flame temperature depends on",
+      "a": "Fuel to oxidant ratio",
+      "refs": [
+        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0051",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Clinical analytes measured by flame photometry",
+      "a": "Sodium and potassium in serum",
+      "refs": [
+        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+      ]
+    }
   ]
 }

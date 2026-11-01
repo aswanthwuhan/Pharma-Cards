@@ -50,3 +50,23 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - p1-special-populations-036 to -038 (Beers, START, STOPP, Medication Appropriateness Index) already covered in p3-clinical-services by rf-p3-clinical-services-0158, -0159, -0160, -0162. Not repeated.
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| rf-p1-special-populations-0261 | web | https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| rf-p1-special-populations-0262 | web | https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| rf-p1-special-populations-0263 | web | https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| rf-p1-special-populations-0264 | web | https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| rf-p1-special-populations-0265 | web | https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| rf-p1-special-populations-0266 | web | https://www.ncbi.nlm.nih.gov/books/NBK542308/ |
+| rf-p1-special-populations-0267 | web | https://www.ncbi.nlm.nih.gov/books/NBK560512/ |
+| rf-p1-special-populations-0268 | web | https://www.ncbi.nlm.nih.gov/books/NBK560512/ |
+| rf-p1-special-populations-0269 | web | https://www.ncbi.nlm.nih.gov/books/NBK560512/ |
+| rf-p1-special-populations-0270 | web | https://www.ncbi.nlm.nih.gov/books/NBK560512/ |
+| rf-p1-special-populations-0271 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+| rf-p1-special-populations-0272 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |
+| rf-p1-special-populations-0273 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/ |

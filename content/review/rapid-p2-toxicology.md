@@ -110,3 +110,25 @@ Rapid cards added: 6, rf-p2-toxicology-0710 to rf-p2-toxicology-0715.
 - rf-p2-toxicology-0715: Inhalant overdose treatment | Katzung16 ch32
 
 Still uncovered: aluminium phosphide (absent from books).
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| rf-p2-toxicology-0716 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0717 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0718 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0719 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0720 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0721 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0722 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0723 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0724 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/ |
+| rf-p2-toxicology-0725 | web | https://www.aiims.edu/index.php/en/npic_intro |
+| rf-p2-toxicology-0726 | web | https://www.aiims.edu/index.php/en/npic_intro |
+| rf-p2-toxicology-0727 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| rf-p2-toxicology-0728 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| rf-p2-toxicology-0729 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+| rf-p2-toxicology-0730 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |

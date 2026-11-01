@@ -1,19 +1,17 @@
-# Syllabus points with no source in the owner's books
+# Syllabus points still without cards
 
-Every card must come from the books in `C:\Pharmacology Book\` (see `GROUNDING-RULES.md`). A full-text search of KDT8, GG14, Katzung16, Rang & Dale 9, and the OCR of Sarkar, Rapid Revision and Prep found nothing on the points below, so they have no cards. Add a book (PDF) that covers them and the agents can write the cards.
+Cards come from the owner's books (see `GROUNDING-RULES.md`). For points no book covers, the owner approved official web sources (2026-11-01); those cards cite `WEB …` refs and are flagged in each review log. The points below are still uncovered: no book covers them, and no official page could be read (the page was blocked, too large, or had a certificate error).
 
-| Topic | Missing point | Suggested source |
+| Topic | Still missing | Why |
 |---|---|---|
-| Practical exam (placeholder paper "PR") | Long and short exercises, OSPE stations, teaching skills | Owner will add (practical manual) |
-| p2-toxicology | Aluminium/zinc phosphide poisoning; Indian poison-control services; Insecticides Act | Indian toxicology text (e.g. forensic medicine) |
-| p3-clinical-services | Crash-cart / emergency drug list; prescription-audit method; formulary selection criteria | Hospital pharmacology / clinical pharmacology manual |
-| p3-ethics-education | AETCOM modules; PG curriculum, teaching-learning methods and assessment | NMC AETCOM booklet; medical-education text |
-| p2-herbal | AYUSH regulation; FSSAI nutraceutical rules | AYUSH / FSSAI documents |
-| p3-national-programmes | Programme regimens after 2016–17 (NTEP, NACP updates); viral hepatitis and typhoid programmes | Current national programme guidelines |
-| p1-special-populations | Indian (ICMR/CDSCO) pregnancy guidance; general Child-Pugh and dialysis dosing rules | Clinical pharmacology text |
-| p1-drug-delivery | OROS osmotic pumps; mucoadhesive / gastroretentive systems | Pharmaceutics text |
-| p1-biochemical | Flame photometry principle | Biochemistry / instrumentation text |
-| p3-research-biostats | Sample-size formula; correlation coefficient and regression concepts; diagnostic sensitivity/specificity | Biostatistics text (e.g. Mahajan) |
-| p3-pv-economics | DALY and cost-of-illness methods | Pharmacoeconomics text |
+| Practical exam (placeholder paper "PR") | Long/short exercises, OSPE, teaching skills | Owner will add later |
+| p3-clinical-services | Crash-cart drug list and upkeep; prescription-audit method (WHO prescribing indicators) | Source pages blocked (captcha / 403) |
+| p3-ethics-education | Miller's pyramid | Source pages blocked (captcha) |
+| p3-national-programmes | Current NACO ART regimen; NCVBDC malaria drug policy; NVHCP regimens | Official PDFs too large or certificate errors |
+| p3-research-biostats | Sample-size formula | No official page found |
+| p3-pv-economics | Cost-of-illness method | Source pages blocked (captcha) |
+| p1-special-populations | General Child-Pugh dose-adjustment rule | Not stated in the source read |
+| p2-herbal | AYUSH pharmacopoeia rules | ayush.gov.in unreachable |
 
-Per-topic details are in each `content/review/<topicId>.md` ("Completion pass" and "Gap closure" sections).
+To fill these, put the document (PDF) in `C:\Pharmacology Book\` and the agents can write the cards from it.
+Per-topic details: `content/review/<topicId>.md` ("Completion pass", "Gap closure", "Web-sourced cards" sections).

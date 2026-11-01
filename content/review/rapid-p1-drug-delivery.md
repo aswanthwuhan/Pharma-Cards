@@ -47,3 +47,21 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 Skipped or handled elsewhere:
 - p1-drug-delivery-026 (semipermeable membrane, 30% at once, 70% over 4-8 h) already covered by rf-p1-drug-delivery-0016, -0018, -0019.
 - p1-drug-delivery-027 (TTS layers, 5-20 cm2, 1-3 day wear) already covered by rf-p1-drug-delivery-0045 to -0050.
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| rf-p1-drug-delivery-0117 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| rf-p1-drug-delivery-0118 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| rf-p1-drug-delivery-0119 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| rf-p1-drug-delivery-0120 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/ |
+| rf-p1-drug-delivery-0121 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| rf-p1-drug-delivery-0122 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| rf-p1-drug-delivery-0123 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| rf-p1-drug-delivery-0124 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| rf-p1-drug-delivery-0125 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| rf-p1-drug-delivery-0126 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+| rf-p1-drug-delivery-0127 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |

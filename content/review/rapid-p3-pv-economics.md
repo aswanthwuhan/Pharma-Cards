@@ -80,3 +80,12 @@ Skipped or handled elsewhere:
 - rf-p3-pv-economics-0240: Similar biologic: safety and efficacy trials waived only if (comparable quality, preclinical and clinical PK-PD; post-marketing risk management plan provided) | Sarkar p541-545
 
 Still uncovered: DALY / disability-adjusted life year (no text in the books).
+
+## Web-sourced cards (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| rf-p3-pv-economics-0241 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
+| rf-p3-pv-economics-0242 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
+| rf-p3-pv-economics-0243 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
+| rf-p3-pv-economics-0244 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |

@@ -44,3 +44,12 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - p3-clinical-services-037: the pharmacoeconomic method names are already on existing pv-economics cards; only the formulary use is carded.
+
+## Web-sourced cards (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| rf-p3-clinical-services-0221 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
+| rf-p3-clinical-services-0222 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
+| rf-p3-clinical-services-0223 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
+| rf-p3-clinical-services-0224 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |

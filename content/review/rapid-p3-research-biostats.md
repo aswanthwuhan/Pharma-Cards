@@ -66,3 +66,23 @@ Rapid cards added (reversible pairs): 14, rf-p3-research-biostats-0126 to rf-p3-
 - rf-p3-research-biostats-0139: Spearman correlation (parametric: Pearson) | Sarkar p381-385
 
 Still uncovered: sample-size formula for a trial; correlation coefficient concept and regression; diagnostic sensitivity and specificity (see study log).
+
+## Web-sourced cards (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| rf-p3-research-biostats-0140 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| rf-p3-research-biostats-0141 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| rf-p3-research-biostats-0142 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| rf-p3-research-biostats-0143 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| rf-p3-research-biostats-0144 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| rf-p3-research-biostats-0145 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| rf-p3-research-biostats-0146 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+
+## Web-sourced cards, second pass (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| rf-p3-research-biostats-0147 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
+| rf-p3-research-biostats-0148 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
+| rf-p3-research-biostats-0149 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |

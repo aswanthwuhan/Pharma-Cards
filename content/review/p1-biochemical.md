@@ -67,3 +67,16 @@ Note: at the start of this pass another writer had already added cards 011-016 a
 | Drug immunoassays (FPIA, RIA) | Added | 020 FPIA (Sarkar p396-400); 023 RIA versus ELISA (Sarkar p391-400) |
 
 Not rechecked in this pass: the earlier note on GG14 ch46 and RangDale9 ch59 refs.
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| p1-biochemical-025 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| p1-biochemical-026 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| p1-biochemical-027 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| p1-biochemical-028 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| p1-biochemical-029 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| p1-biochemical-030 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |

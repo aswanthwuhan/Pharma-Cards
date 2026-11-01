@@ -82,3 +82,20 @@ Cross-references (not duplicated): basic PV and PvPI cards are in p1-adr and p4-
 |---|---|---|
 | Risk management plan | Closed | 038 (Sarkar p541-545: a similar biologic may skip safety and efficacy trials only if quality, preclinical and clinical PK-PD are comparable and a post-marketing risk management plan is provided). Supersedes the earlier "Still a gap" row for Indian rules |
 | DALY / disability-adjusted life year | Still a gap | No disability-adjusted life-year text in GG14, Katzung, KDT8 or Rang and Dale. The hits are author names (Daly AK, Daly et al.) and the word "disability" in general use |
+
+## Web-sourced cards (owner approved)
+
+Written under the GROUNDING-RULES exception for SOURCE-GAPS items. Status `web` for owner review; all `draft`.
+
+| id | status | source URL |
+|---|---|---|
+| p3-pv-economics-039 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
+| p3-pv-economics-040 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
+| p3-pv-economics-041 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
+| p3-pv-economics-042 | web | https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds |
+
+Not covered (no verifiable official source retrieved): Cost-of-illness method (no WHO page found; only secondary articles).
+
+## Second pass: still not covered (owner approved)
+
+Still not covered: cost-of-illness method (no StatPearls or WHO page found).

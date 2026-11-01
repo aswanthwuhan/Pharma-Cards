@@ -19,3 +19,17 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 Skipped or handled elsewhere:
 - p1-biochemical-024 ("Short note: UV-visible spectrophotometry") has the back text "undefined" in the study deck, so no grounded fact to card. Not carded; study card needs fixing.
 - FPIA drug-of-abuse list (p1-biochemical-020) not repeated: same drugs already on rf-p1-biochemical-0012 (urine immunoassay screens).
+
+## Web-sourced cards (owner approved)
+
+Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner review: web.
+
+| id | status | source |
+|---|---|---|
+| rf-p1-biochemical-0045 | web | http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| rf-p1-biochemical-0046 | web | http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| rf-p1-biochemical-0047 | web | http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| rf-p1-biochemical-0048 | web | http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| rf-p1-biochemical-0049 | web | http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| rf-p1-biochemical-0050 | web | http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+| rf-p1-biochemical-0051 | web | http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |

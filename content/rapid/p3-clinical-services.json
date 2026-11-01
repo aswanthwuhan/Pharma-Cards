@@ -1,225 +1,2248 @@
 {
   "topicId": "p3-clinical-services",
   "cards": [
-    {"id": "rf-p3-clinical-services-0001", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Hospital committee that sets medication-use policies and procedures", "a": "Drugs and therapeutics committee (DTC)", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0002", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Who convenes the DTC", "a": "Clinical pharmacologist", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0003", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Accreditation standards requiring a clinical pharmacologist for medication management", "a": "NABH and JCI", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0004", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "WHO: DTCs to be established in these settings", "a": "Districts and hospitals", "refs": ["Sarkar p56-60"]},
-    {"id": "rf-p3-clinical-services-0005", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "class", "q": "WHO key interventions to promote rational drug use: list all", "a": "Multidisciplinary national body; clinical guidelines; national essential medicines list; DTCs in districts and hospitals; problem-based pharmacotherapy training; in-service education as licensure requirement; supervision, audit and feedback; independent medicines information; public education; no perverse financial incentives; enforced regulation; sufficient government expenditure", "refs": ["Sarkar p56-60"]},
-    {"id": "rf-p3-clinical-services-0006", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "class", "q": "Policy areas a hospital DTC formulates: list all", "a": "Formulary; storage of medicines; prescribing and safe dispensing; medication administration; narcotic and psychotropic use; chemotherapeutic and radioactive drugs; implantable prostheses", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0007", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "DTC duty on pharmacovigilance", "a": "Develop ADE reporting, management and monitoring system", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0008", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "DTC duty on medication errors", "a": "Set up medication error detection and mitigation system", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0009", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "DTC duty on quality", "a": "Develop quality indicators for safe medication use and pharmacy", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0010", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "How evidence-based therapeutics is enforced in hospital", "a": "Prescription audits", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0011", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Hospital antibiotic policy is formulated with which two colleagues", "a": "Clinical microbiologist and head of critical care medicine", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0012", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Pharmacologist's role in the essential drug list", "a": "Formulates it and helps implement it", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0013", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "class", "q": "Roles of a pharmacologist: list all", "a": "Medical education; research; regulatory affairs; community pharmacology; social responsibility; clinical pharmacologist in health care system", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0014", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "class", "q": "Major roles of a hospital pharmacologist: list all", "a": "Ensure rational drug use; teach rational use at all levels; assist regulatory needs; monitor ADRs and drug-drug interactions in hospital", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0015", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "class", "q": "Topics pharmacologists educate physicians on: list all", "a": "Rational drug use; unbiased information on new drugs; ADR recognition and reporting; value of drug audit; role of generic prescribing; promotional literature", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0016", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "class", "q": "Social pharmacology roles: list all", "a": "Investigate reasons for prescription, delivery, consumption and self-medication; analyse non-clinical factors; educate on FDC and OTC safety; audit unethical drug advertising", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0017", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Pharmacopoeia: how drugs are classified and for whom", "a": "Physicochemical standards (boiling/melting point, shelf life); mainly for manufacturers", "refs": ["Prep p71-75"]},
-    {"id": "rf-p3-clinical-services-0018", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Formulary: how drugs are compiled and for whom", "a": "By use, indications, side effects, dose, route; useful for doctors", "refs": ["Prep p71-75"]},
-    {"id": "rf-p3-clinical-services-0019", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Indian Pharmacopoeia", "a": "IP", "refs": ["Prep p71-75"]},
-    {"id": "rf-p3-clinical-services-0020", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "National Formulary of India", "a": "NFI", "refs": ["Prep p71-75"]},
-    {"id": "rf-p3-clinical-services-0021", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Pharmacopoeias of UK and USA", "a": "BP (British Pharmacopoeia) and USP (United States Pharmacopoeia)", "refs": ["Prep p71-75"]},
-    {"id": "rf-p3-clinical-services-0022", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Best-practice step in selection and procurement to reduce errors (formulary size)", "a": "Limit the number of medications on formulary", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0023", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Best-practice step in selection and procurement to reduce errors (strengths)", "a": "Use standard concentrations", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0024", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Managed-care formulary: what the prescriber chooses and what the pharmacist dispenses", "a": "Prescriber picks drug group; pharmacist dispenses the single formulary member of that group", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0025", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Generic substitution", "a": "Dispensing the cheapest generically equivalent product in inventory", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0026", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Therapeutic substitution", "a": "Dispensing a different drug of the same class; private pharmacists need prescriber permission", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0027", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Example of therapeutic substitution needing prescriber permission", "a": "Trichlormethiazide for hydrochlorothiazide", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0028", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Written instruction that blocks generic substitution", "a": "Dispense as written", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0029", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "FDA list of therapeutically equivalent drug products", "a": "Orange Book", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0030", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Orange Book code A", "a": "Bioequivalent to the reference standard", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0031", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Orange Book code B", "a": "Not considered bioequivalent", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0032", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "FDA list of biological products, biosimilars and interchangeables", "a": "Purple Book", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0033", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "class", "q": "Drug features in which one manufacturer's product may give more consistent results", "a": "Low therapeutic index; poor solubility; high ratio of inert ingredient to active drug", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0034", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Life-threatening disease and generic substitution", "a": "Urgency can outweigh substitution; fill as written", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0035", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Share of US drugs dispensed that are generic", "a": "90% of drugs dispensed (about 10% of expense)", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0036", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Drug information: definition", "a": "Written or verbal information on safe and effective drug use, given on request", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0037", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "PAHO definition of a drug information centre (DIC)", "a": "Operational unit giving objective, timely technical and scientific drug information", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0038", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "PAHO definition of drug information services (DIS)", "a": "Part of a health institution's pharmaceutical services; information only within that institution", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0039", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "WHO view of independent DICs", "a": "Core component of national programmes for rational drug use", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0040", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "DIC objectives: list all", "a": "Organised database for practitioners; educate pharmacy students; accurate unbiased information to professionals; promote patient care through rational use", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0041", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "Types of DIC: list all", "a": "Hospital-based; industry-based; community-based", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0042", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "Hospital-based DIC activities: list all", "a": "Answer queries; help formulary decisions; drug evaluation; coordinate ADR reporting; publish newsletter; in-service education; assist P&T committee; monitor investigational drug activity", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0043", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Advantage of an industry-based DIC", "a": "Access to all knowledge since drug development, unpublished documents and experts", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0044", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Community-based DIC role", "a": "Inform on national drug programmes; create public awareness", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0045", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Primary function of a DIC", "a": "Respond to enquiries on therapeutic drug use", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0046", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "DIC functions: list all", "a": "Drug evaluation; therapeutic advice; pharmaceutical advice; education and training; research; pharmacovigilance; toxicology", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0047", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Therapeutic advice from a DIC covers", "a": "Efficacy, optimum dose, interactions, adverse effects, administration, other diseases, adherence strategies", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0048", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Pharmaceutical advice from a DIC covers", "a": "Availability, formulation, cost, storage and stability", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0049", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Where toxicology services are best located", "a": "Within hospitals", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0050", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "What determines the number of DIC staff", "a": "Range of activities and hours of service", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0051", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "DIC manager's responsibilities: list all", "a": "Staff recruitment and coordination; training; promoting the service; maintaining resources; data management and reporting; quality assurance; liaison; strategic development", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0052", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "DIC library: what it holds", "a": "Its own library of commonly used resources; other sources accessible externally", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0053", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "Basic DIC facilities: list all", "a": "Desks, chairs, shelving; telephones, fax, internet, computers with external backup, word-processing and database software; photocopier; textbooks and electronic resources", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0054", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "DIC funding requirement", "a": "Independent, stable income guaranteeing objectivity", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0055", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "When external funding is acceptable to a DIC", "a": "Only if the centre's neutrality is guaranteed", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0056", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Charging for DIC services", "a": "Free to the enquirer; separate charges only for reports not related to individual patient care", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0057", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "Skills DIC practitioners need: list all", "a": "Communication; knowledge of resources; literature searching; critical analysis; writing; summarising complex or conflicting data", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0058", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "DIC quality assurance: list all methods", "a": "Assess staff; review calls and answers; review resources and procedures; peer review of random enquiries with external expert; enquirer feedback", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0059", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "Benefits of DIC networking: list all", "a": "Share resources and experience; set SOPs; quality assurance with external review; inter-site training", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0060", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "First DIC in the world: year and place", "a": "1962, University of Kentucky Medical Centre", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0061", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "First formal US survey (1973): number of DICs identified", "a": "54", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0062", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "Pharmacist-operated DICs in the US in a 1995 report", "a": "About 120", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0063", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "WHO first alerted to counterfeit drugs at which 1985 meeting", "a": "Conference of Experts on the Rational Use of Drugs, Nairobi", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0064", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "WHO resolution of May 1988", "a": "Prevent export, import and smuggling of falsely labelled, spurious, counterfeit or substandard drugs", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0065", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "First independent DIC in India", "a": "Karnataka State Pharmacy Council DIC, August 1997", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0066", "subtopic": "p3-clinical-services-drug-info", "kind": "fact", "q": "International register of drug information services", "a": "IRDIS", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0067", "subtopic": "p3-clinical-services-drug-info", "kind": "class", "q": "WHO and KSPC supported DICs (five): city and state", "a": "Sirsa (Haryana); Raipur (Chhattisgarh); Jaipur (Rajasthan); Dibrugarh (Assam); Panaji (Goa)", "refs": ["Sarkar p76-80"]},
-    {"id": "rf-p3-clinical-services-0068", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "NCC MERP definition of a medication error", "a": "Preventable event causing or leading to inappropriate use or patient harm while medication is under professional, patient or consumer control", "refs": ["Sarkar p86-90", "GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0069", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Most medication errors are described as", "a": "Latent errors: accidents waiting to happen", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0070", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Latent error causes: can they be fixed?", "a": "Usually identifiable and correctable before recurrence", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0071", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Medication errors compared with adverse drug events", "a": "50 to 100 times more common", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0072", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "ISMP areas of medication error: list all", "a": "Prescribing (physicians); dispensing (pharmacists, nurses); administration (nurses, carers, consumers)", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0073", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Prescribing error types: list all", "a": "Wrong dose, quantity, indication or contraindicated drug; incomplete history; wrong or outdated diagnosis or information; dose miscalculation; miscommunication (handwriting, similar names, zeros and decimals, units, abbreviations, verbal orders); noise and interruptions", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0074", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Dispensing error of commission", "a": "Wrong drug, dose, strength or dosage form dispensed", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0075", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Dispensing error of omission", "a": "Required drug or dose missed", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0076", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Causes of dispensing errors by pharmacist: list all", "a": "Too many calls and customers; overload; lack of concentration; staff shortage; no one to double-check; similar drug names; no time to counsel; misread prescription; poor distribution; job stress; complex technology; access by non-pharmacy staff", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0077", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Administration error", "a": "Drug received by patient differs from the drug the prescriber intended", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0078", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Most common type of administration error", "a": "Omission (drug not given)", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0079", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "The five rights of drug administration", "a": "Right dose, drug, patient, time and route", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0080", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "IV error that caused deaths", "a": "Cytotoxic drugs given intrathecally instead of intravenously", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0081", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Error rate in one study of IV drug preparation or administration", "a": "50%", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0082", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Most common IV error identified", "a": "Bolus injected faster than the recommended 3-5 minutes", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0083", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Failure to shake a suspension ('shake well')", "a": "Under- or overdose, depending on suspending ability and time since last shake", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0084", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Insulin suspensions should be", "a": "Rolled, not shaken", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0085", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Crushing error", "a": "Crushing tablets labelled 'do not crush' (e.g. sustained-release, coated)", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0086", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "NSAIDs taken without food or antacids cause", "a": "Severe GI irritation", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0087", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Sublingual tablet swallowed (e.g. nitroglycerin): effect", "a": "Absorption greatly reduced; less symptom relief", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0088", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Abbreviation 'U' (units): possible misreading", "a": "0 or 4", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0089", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "'ug' (microgram): misread as", "a": "mg (1000-fold error)", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0090", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "QD (every day): misread as", "a": "QID", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0091", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "QOD (every alternate day): misread as", "a": "QID", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0092", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "HS intended as half strength: misread as", "a": "Bedtime", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0093", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Hs intended as bedtime: misread as", "a": "Half strength", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0094", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "sc (subcutaneous): misread as", "a": "Sublingual", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0095", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "im (intramuscular): misread as", "a": "Intravenous", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0096", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Trailing zero '1.0': misread as", "a": "10", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0097", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Leading point '.5' (no zero): misread as", "a": "5", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0098", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "AZT (zidovudine): misread as", "a": "Azathioprine or aztreonam", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0099", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "MXT (methotrexate): misread as", "a": "Mitoxantrone", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0100", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Norflox (norfloxacin): misread as", "a": "Norflex", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0101", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Lasix and Losec: which is which", "a": "Lasix is furosemide; Losec is omeprazole", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0102", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Medication error rate: numerator", "a": "Total number of errors observed", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0103", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Medication error rate: denominator", "a": "Opportunities for error: doses observed given plus doses ordered but not given", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0104", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Medication error rate that signals systemic problems in the drug distribution system", "a": "5% or above", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0105", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Decimal rule for orders", "a": "Leading zero before a decimal below one; never a trailing zero", "refs": ["Sarkar p86-90", "Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0106", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Units: how to write them", "a": "Spell out 'units'; never 'U'", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0107", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Microgram: how to write it and why", "a": "Write 'microgram' in full; 'g' is misread as mg (1000-fold overdose)", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0108", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Overdose factor when '.1' is misread as '1'", "a": "10-fold", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0109", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Slash used as a decimal point: why abandon it", "a": "Misread as the numeral 1", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0110", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "'One ampule of furosemide' order: why unacceptable", "a": "Ampules come in 20, 40 and 100 mg; order the total dose", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0111", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "'OD' abbreviation: what it should mean, if used", "a": "Right eye only", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0112", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Why 'QD' should not be written", "a": "Often read as QID (four doses instead of one)", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0113", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Drug-name abbreviations to avoid (examples)", "a": "ASA, 5-ASA, 6MP: write drug names in full", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0114", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Comma used in US doses when the dose exceeds", "a": "999", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0115", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Look-alike names: apixaban is confused with", "a": "Aripiprazole", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0116", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Look-alike names: methotrexate is confused with", "a": "Metolazone", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0117", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Safeguard against look-alike errors", "a": "Write the indication in the prescription (e.g. acetazolamide, for glaucoma)", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0118", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Omission errors in hospital orders: examples", "a": "'Resume pre-op meds'; 'continue present IV fluids' (no fluid, volume or rate); 'continue eye drops' (no eye or drug); failure to stop a prior drug; regular vs long-acting not stated; 'as needed' without indication", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0119", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Insulin preparations: physicochemical incompatibility", "a": "Certain insulin preparations should not be mixed", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0120", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Antacids or metal-containing products: effect on drug absorption", "a": "Reduce intestinal absorption of many drugs, e.g. tetracyclines", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0121", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Causes of inappropriate drug prescriptions: list all", "a": "Unrecognised contraindications from other diseases; unknown other drugs including OTC; physicochemical incompatibility", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0122", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Source of the high-alert medication list", "a": "ISMP", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0123", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Prescribing error-reduction approaches: list all", "a": "State the purpose on the order; spell out units; include age and weight; forcing function; drug name, exact strength and dosage form; leading zero, no trailing zero; no abbreviations; double check", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0124", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Dispensing error-reduction approaches: list all", "a": "Safe dispensing procedure; separate look-alike drugs; minimise interruptions; workload kept manageable; awareness of high-risk drugs (e.g. potassium chloride, cytotoxics); safe systematic procedures; double check; forcing function", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0125", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Administration error-reduction approaches: list all", "a": "Check patient identity; independent check of dose calculations; keep prescription, drug and patient together; give at correct time; minimise interruptions in drug rounds", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0126", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Forcing function", "a": "System that demands extra patient data (e.g. age, weight) before an order or dispensing completes", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0127", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Double check system", "a": "One person independently checks another's work", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0128", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Error reduction at the planning stage (GG14): list all", "a": "Develop system for reporting and reviewing errors; form a multidisciplinary medication safety team", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0129", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Storage stage error reduction (GG14): list all", "a": "Barcode scanning; separate areas per dosage form; segregate high-alert and look-alike, sound-alike drugs; rotate stock; automated dispensing cabinets on units; concentrated electrolytes, oral concentrated opioids and U-500 insulin stored in pharmacy only", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0130", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Ordering error reduction (GG14): list all", "a": "Avoid unapproved abbreviations; limit as-needed orders; avoid frequency ranges; specify strengths; use generic names; paediatric doses in units/weight and total dose; leading zero, no trailing zero; maximise computerised order entry; use standard order sets", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0131", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Transcribing error reduction (GG14): list all", "a": "Minimise error-prone abbreviations; leading zero; check administration record against active orders; second check system", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0132", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Reviewing and preparing error reduction (GG14): list all", "a": "Prospective pharmacist review before dispensing; prepare under proper conditions; independent pharmacist double check; unit-of-use packaging; oral syringes for oral preparations only", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0133", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Administration error reduction (GG14): list all", "a": "Barcode-assisted administration; standard IV concentrations; independent double checks of high-alert drugs", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0134", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Monitoring error reduction (GG14): list all", "a": "Standard times for lab tests; train staff to report adverse reactions; monitoring parameters built into order sets", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0135", "subtopic": "p3-clinical-services-med-errors", "kind": "class", "q": "Discharge and evaluation steps against errors (GG14): list all", "a": "Medication reconciliation; patient education and counselling; root cause analysis; medication-use evaluation; quality improvement; event detection", "refs": ["GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0136", "subtopic": "p3-clinical-services-med-errors", "kind": "fact", "q": "Medication error rate formula", "a": "Errors observed divided by opportunities for error, times 100", "refs": ["Sarkar p86-90"]},
-    {"id": "rf-p3-clinical-services-0137", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "WHO definition of polypharmacy", "a": "Administration of many drugs at the same time, or an excessive number of drugs", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0138", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Polypharmacy by number of medicines per day", "a": "Five or more (some authors: six or more)", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0139", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Predictors of polypharmacy: list all", "a": "Number of drugs at start; patient age; comorbidities such as diabetes or ischaemic heart disease; medicines without clear indication", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0140", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Causes of polypharmacy: list all", "a": "Multiple diseases; prescriber skill; multiple prescribers; elderly population; transition of care; prescribing cascade; OTC and self-prescribing", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0141", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Prescriber approach linked to more polypharmacy", "a": "Symptom-based management rather than diagnosis-based treatment", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0142", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Extra new medicines at hospital discharge, on average", "a": "About one and a half more than at admission", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0143", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Prescribing cascade", "a": "An ADR misread as a new illness and treated with another drug", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0144", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Other name for prescribing cascade in the text", "a": "Reflex prescribing", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0145", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Sources that add to polypharmacy beyond prescriptions", "a": "OTC treatments and dietary supplements", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0146", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Example of a risky self-taken supplement", "a": "Mineral supplement in renal failure", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0147", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Appropriate polypharmacy: four criteria", "a": "Medicines serve agreed therapeutic goals; goals met or likely; therapy optimised to minimise ADRs; patient motivated and able to take all", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0148", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Inappropriate polypharmacy: four criteria", "a": "Drugs not needed or without evidence; goals not achieved; drugs causing or risking ADRs; patient unwilling or unable to take them", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0149", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Consequences of inappropriate polypharmacy: list all", "a": "Duplication of therapy; adverse drug events; drug interactions; poor adherence; impaired quality of life and function; cost burden; worse doctor-patient relationship", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0150", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "ADR share in outpatients on polypharmacy", "a": "Up to 35%", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0151", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "ADR share in hospitalised elderly", "a": "Up to 44%", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0152", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "ADRs as a share of emergency room visits", "a": "About 10%", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0153", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "ADR risk with two drugs", "a": "13%", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0154", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "ADR risk with five drugs", "a": "58%", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0155", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "ADR risk with seven or more drugs", "a": "82%", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0156", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Patients dispensed 15 or more medicines with potentially serious interaction risk", "a": "80%", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0157", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Drug classes most associated with ADRs in polypharmacy: list all", "a": "Cardiovascular drugs; diuretics; anticoagulants; NSAIDs; antibiotics; hypoglycaemics", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0158", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Beers criteria", "a": "Lists potentially inappropriate medicines in older persons, by body system", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0159", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "START tool", "a": "Screening tool alerting doctors to right treatment; evidence-based prescribing indicators", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0160", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Medication Appropriateness Index (MAI): what it asks", "a": "Indicated; effective; right dose; cost-effective; not duplicating therapy", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0161", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Anticholinergic Cognitive Burden (ACB) scales measure", "a": "Cumulative burden of anticholinergic drugs", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0162", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "STOPP tool", "a": "Screening tool of older person's prescriptions: identifies potentially inappropriate medicines for medication review", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0163", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "ARMOR acronym", "a": "Assess, Review, Minimize, Optimize, Reassess", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0164", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Medstopper: how drugs are sequenced", "a": "From more likely to stop to less likely to stop", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0165", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Deprescribing.org offers", "a": "Evidence-based deprescribing guidelines and algorithms for many drugs", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0166", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "SAIL: S", "a": "Simple regimen; once or twice daily drugs preferred; fixed-dose combinations once titrated", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0167", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "SAIL: A", "a": "Know adverse effects; treat adverse effects of other drugs; stop the causative drug if possible", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0168", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "SAIL: I", "a": "Every drug has an indication and a defined, realistic goal", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0169", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "SAIL: L", "a": "Name and dose of each drug written in chart and shared with patient", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0170", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "TIDE: T", "a": "Time: give appropriate time to discuss medication issues", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0171", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "TIDE: I", "a": "Individualise dose; adjust for renal or hepatic function; start low, go slow", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0172", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "TIDE: D", "a": "Consider and avoid drug-drug and drug-disease interactions", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0173", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "TIDE: E", "a": "Educate patient and caregiver on drug and non-drug treatment, effects, interactions and monitoring", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0174", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Medication reconciliation: definition", "a": "Comparing a patient's medication orders with all medicines the patient has been taking", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0175", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Medication reconciliation is done at", "a": "Every transition of care where new medicines are ordered alongside existing ones", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0176", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Errors that reconciliation prevents", "a": "Commission, omission, duplication, dosing errors and drug interactions", "refs": ["Sarkar p71-75", "GG14 ch9"]},
-    {"id": "rf-p3-clinical-services-0177", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Medication reconciliation: five steps, in order", "a": "List current medicines and check adherence; list medicines to be prescribed; compare the two lists; make clinical decisions with justification; communicate new prescription with counselling", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0178", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "BPMH", "a": "Best Possible Medication History", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0179", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Brown bag technique", "a": "Patient brings all medicines to the visit; confirm with relatives or caregivers", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0180", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Deprescribing: definition", "a": "Systematic identification and discontinuation of drugs whose harms outweigh benefits for that patient", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0181", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Deprescribing: five steps, in order", "a": "Comprehensive medication reconciliation; consider overall risk of drug-induced harm; assess each drug for eligibility to stop; prioritise drugs for discontinuation; implement plan and monitor withdrawal effects", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0182", "subtopic": "p3-clinical-services-polypharmacy", "kind": "class", "q": "Clinical pharmacologist's role against polypharmacy: list all", "a": "Medication reconciliation; prescription review; advice on deprescribing; dose adjustment for individual patients", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0183", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Pioneer of medication reconciliation OPD services in India", "a": "Prof Santanu Kumar Tripathi, School of Tropical Medicine, Kolkata", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0184", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "Role of artificial intelligence against polypharmacy", "a": "Detects possible drug interactions and risks in prescriptions", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0185", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "OPERAM stands for", "a": "OPtimising thERapy to prevent Avoidable hospital admissions in the Multimorbid elderly", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0186", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "PRIMA-eDS stands for", "a": "Reduction of Inappropriate Medication and Adverse drug events in older populations by electronic Decision Support", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0187", "subtopic": "p3-clinical-services-polypharmacy", "kind": "fact", "q": "SIMPATHY stands for", "a": "Stimulating Innovation Management of Polypharmacy and Adherence in The Elderly", "refs": ["Sarkar p71-75"]},
-    {"id": "rf-p3-clinical-services-0188", "subtopic": "p3-clinical-services-stewardship", "kind": "fact", "q": "Antimicrobial stewardship: definition", "a": "Optimal selection of drug, dose and duration for best clinical outcome, minimal toxicity, lowest resistance risk", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0189", "subtopic": "p3-clinical-services-stewardship", "kind": "fact", "q": "Antimicrobial stewardship programme (ASP): purpose", "a": "Ongoing effort to optimise antimicrobial use in hospitalised patients", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0190", "subtopic": "p3-clinical-services-stewardship", "kind": "class", "q": "ASP goals: list all", "a": "Clinical outcomes with less toxicity and resistance; optimise drug, dose, duration, route and de-escalation; reduce costs without lower quality", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0191", "subtopic": "p3-clinical-services-stewardship", "kind": "fact", "q": "How ASP goals are achieved", "a": "Appropriate prescribing and educating patients and fellow physicians", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0192", "subtopic": "p3-clinical-services-stewardship", "kind": "class", "q": "ASP team members: list all", "a": "Infectious disease physician; clinical microbiologist; clinical pharmacist trained in infectious disease; infection control professional; hospital epidemiologist; IT specialist", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0193", "subtopic": "p3-clinical-services-stewardship", "kind": "fact", "q": "Antibiotic 'time out'", "a": "Reassess need and choice 48 hours after starting", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0194", "subtopic": "p3-clinical-services-stewardship", "kind": "class", "q": "Pharmacy-based ASP interventions: list all", "a": "Dose optimisation; IV-to-oral switch; dose adjustment for renal or hepatic impairment; avoid drug interactions; avoid unnecessary drugs with analogous spectrum", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0195", "subtopic": "p3-clinical-services-stewardship", "kind": "class", "q": "Three infections that most hospital antibiotics are prescribed for", "a": "Community-acquired pneumonia; urinary tract infection; skin and soft tissue infection", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0196", "subtopic": "p3-clinical-services-stewardship", "kind": "class", "q": "Infection-specific ASP strategies: list all", "a": "Establish the diagnosis; individualise treatment by culture results; avoid broad-spectrum antibiotics; optimise duration", "refs": ["Katzung16 appendix 2"]},
-    {"id": "rf-p3-clinical-services-0197", "subtopic": "p3-clinical-services-stewardship", "kind": "fact", "q": "Pharmacologist's role in antibiotic policy", "a": "Core member in national drug policy and hospital antibiotic policy", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0198", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Prescription audit: definition", "a": "Regular review of physicians' prescriptions to ensure safe, cheap and effective therapy", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0199", "subtopic": "p3-clinical-services-audit-counselling", "kind": "class", "q": "Aims of prescription audit: list all", "a": "Decrease polypharmacy; decrease medication errors; decrease patient cost burden", "refs": ["Sarkar p506-510"]},
-    {"id": "rf-p3-clinical-services-0200", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "WHO intervention that includes audit", "a": "Supervision, audit and feedback", "refs": ["Sarkar p56-60"]},
-    {"id": "rf-p3-clinical-services-0201", "subtopic": "p3-clinical-services-audit-counselling", "kind": "class", "q": "Four aims of rational prescribing", "a": "Maximise effectiveness; minimise risks; minimise costs; respect patient's choices", "refs": ["Sarkar p56-60"]},
-    {"id": "rf-p3-clinical-services-0202", "subtopic": "p3-clinical-services-audit-counselling", "kind": "class", "q": "WHO criteria for rational use: list all", "a": "Appropriate indication; appropriate medicine (efficacy, safety, suitability, cost); appropriate dosage, route and duration; appropriate patient; correct dispensing with patient information; patient adherence", "refs": ["Sarkar p56-60"]},
-    {"id": "rf-p3-clinical-services-0203", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Compliance (adherence)", "a": "Extent to which patients follow treatment instructions", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0204", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Noncompliance type 1", "a": "Prescription never obtained or filled", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0205", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Noncompliance type 2", "a": "Drug taken wrongly: dose, frequency, timing, route, duplication or wrong purpose", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0206", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Noncompliance type 3", "a": "Drug stopped early, e.g. when symptoms improve or the bottle is empty", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0207", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Noncompliance type 4", "a": "Drug taken inappropriately, e.g. shared with others", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0208", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Share of patients who never have prescriptions filled (some studies)", "a": "About one-third", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0209", "subtopic": "p3-clinical-services-audit-counselling", "kind": "class", "q": "Factors that encourage noncompliance: list all", "a": "Symptomless disease; drug taken many times a day; living alone; hard-to-open packaging; lack of transport; cultural or personal beliefs; cost not covered", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0210", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Once-daily vs four-times-daily dosing for adherence", "a": "Once daily is followed much better", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0211", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Who explains how, when and why to take a drug", "a": "Both prescriber and pharmacist; neither should assume the other did", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0212", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "What each drug label should show", "a": "Drug name, purpose and duration of therapy", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0213", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Direction that leads to noncompliance and errors", "a": "'Take as directed'", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0214", "subtopic": "p3-clinical-services-audit-counselling", "kind": "class", "q": "Adherence strategies: list all", "a": "Better communication; assess social and economic situation; link doses to meals; pill organisers and alarms; compliance packaging; refill reminders; teach patient to monitor effects; active patient involvement", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0215", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Compliance packaging examples", "a": "'Bingo cards' or strip packs organised by date and time", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0216", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Who mails refill reminders to chronic patients", "a": "The pharmacist", "refs": ["Katzung16 ch66"]},
-    {"id": "rf-p3-clinical-services-0217", "subtopic": "p3-clinical-services-audit-counselling", "kind": "fact", "q": "Patient who may stop a drug because of a perceived problem should be taught", "a": "How to monitor and understand the drug's effects", "refs": ["Katzung16 ch66"]},
-    { "id": "rf-p3-clinical-services-0218", "subtopic": "p3-clinical-services-dtc-formulary", "kind": "fact", "q": "Pharmacoeconomic analysis in a hospital formulary: also used for", "a": "Setting prices of old and new drugs; supports reimbursement", "refs": ["Katzung16 appendix 2"] },
-    { "id": "rf-p3-clinical-services-0219", "subtopic": "p3-clinical-services-stewardship", "kind": "fact", "q": "Empirical antibiotic choice in adult hospital-acquired infection depends on", "a": "Local antibiogram and severity of illness", "refs": ["Katzung16 ch51"] },
-    { "id": "rf-p3-clinical-services-0220", "subtopic": "p3-clinical-services-stewardship", "kind": "fact", "q": "Katzung: when vancomycin or linezolid is added to the empirical HAI regimen", "a": "Only when MRSA is a concern", "refs": ["Katzung16 ch51"] }
+    {
+      "id": "rf-p3-clinical-services-0001",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Hospital committee that sets medication-use policies and procedures",
+      "a": "Drugs and therapeutics committee (DTC)",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0002",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Who convenes the DTC",
+      "a": "Clinical pharmacologist",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0003",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Accreditation standards requiring a clinical pharmacologist for medication management",
+      "a": "NABH and JCI",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0004",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "WHO: DTCs to be established in these settings",
+      "a": "Districts and hospitals",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0005",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "WHO key interventions to promote rational drug use: list all",
+      "a": "Multidisciplinary national body; clinical guidelines; national essential medicines list; DTCs in districts and hospitals; problem-based pharmacotherapy training; in-service education as licensure requirement; supervision, audit and feedback; independent medicines information; public education; no perverse financial incentives; enforced regulation; sufficient government expenditure",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0006",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "Policy areas a hospital DTC formulates: list all",
+      "a": "Formulary; storage of medicines; prescribing and safe dispensing; medication administration; narcotic and psychotropic use; chemotherapeutic and radioactive drugs; implantable prostheses",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0007",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "DTC duty on pharmacovigilance",
+      "a": "Develop ADE reporting, management and monitoring system",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0008",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "DTC duty on medication errors",
+      "a": "Set up medication error detection and mitigation system",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0009",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "DTC duty on quality",
+      "a": "Develop quality indicators for safe medication use and pharmacy",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0010",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "How evidence-based therapeutics is enforced in hospital",
+      "a": "Prescription audits",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0011",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Hospital antibiotic policy is formulated with which two colleagues",
+      "a": "Clinical microbiologist and head of critical care medicine",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0012",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Pharmacologist's role in the essential drug list",
+      "a": "Formulates it and helps implement it",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0013",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "Roles of a pharmacologist: list all",
+      "a": "Medical education; research; regulatory affairs; community pharmacology; social responsibility; clinical pharmacologist in health care system",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0014",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "Major roles of a hospital pharmacologist: list all",
+      "a": "Ensure rational drug use; teach rational use at all levels; assist regulatory needs; monitor ADRs and drug-drug interactions in hospital",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0015",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "Topics pharmacologists educate physicians on: list all",
+      "a": "Rational drug use; unbiased information on new drugs; ADR recognition and reporting; value of drug audit; role of generic prescribing; promotional literature",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0016",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "Social pharmacology roles: list all",
+      "a": "Investigate reasons for prescription, delivery, consumption and self-medication; analyse non-clinical factors; educate on FDC and OTC safety; audit unethical drug advertising",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0017",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Pharmacopoeia: how drugs are classified and for whom",
+      "a": "Physicochemical standards (boiling/melting point, shelf life); mainly for manufacturers",
+      "refs": [
+        "Prep p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0018",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Formulary: how drugs are compiled and for whom",
+      "a": "By use, indications, side effects, dose, route; useful for doctors",
+      "refs": [
+        "Prep p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0019",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Indian Pharmacopoeia",
+      "a": "IP",
+      "refs": [
+        "Prep p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0020",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "National Formulary of India",
+      "a": "NFI",
+      "refs": [
+        "Prep p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0021",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Pharmacopoeias of UK and USA",
+      "a": "BP (British Pharmacopoeia) and USP (United States Pharmacopoeia)",
+      "refs": [
+        "Prep p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0022",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Best-practice step in selection and procurement to reduce errors (formulary size)",
+      "a": "Limit the number of medications on formulary",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0023",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Best-practice step in selection and procurement to reduce errors (strengths)",
+      "a": "Use standard concentrations",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0024",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Managed-care formulary: what the prescriber chooses and what the pharmacist dispenses",
+      "a": "Prescriber picks drug group; pharmacist dispenses the single formulary member of that group",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0025",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Generic substitution",
+      "a": "Dispensing the cheapest generically equivalent product in inventory",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0026",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Therapeutic substitution",
+      "a": "Dispensing a different drug of the same class; private pharmacists need prescriber permission",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0027",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Example of therapeutic substitution needing prescriber permission",
+      "a": "Trichlormethiazide for hydrochlorothiazide",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0028",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Written instruction that blocks generic substitution",
+      "a": "Dispense as written",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0029",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "FDA list of therapeutically equivalent drug products",
+      "a": "Orange Book",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0030",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Orange Book code A",
+      "a": "Bioequivalent to the reference standard",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0031",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Orange Book code B",
+      "a": "Not considered bioequivalent",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0032",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "FDA list of biological products, biosimilars and interchangeables",
+      "a": "Purple Book",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0033",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "Drug features in which one manufacturer's product may give more consistent results",
+      "a": "Low therapeutic index; poor solubility; high ratio of inert ingredient to active drug",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0034",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Life-threatening disease and generic substitution",
+      "a": "Urgency can outweigh substitution; fill as written",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0035",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Share of US drugs dispensed that are generic",
+      "a": "90% of drugs dispensed (about 10% of expense)",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0036",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Drug information: definition",
+      "a": "Written or verbal information on safe and effective drug use, given on request",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0037",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "PAHO definition of a drug information centre (DIC)",
+      "a": "Operational unit giving objective, timely technical and scientific drug information",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0038",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "PAHO definition of drug information services (DIS)",
+      "a": "Part of a health institution's pharmaceutical services; information only within that institution",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0039",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "WHO view of independent DICs",
+      "a": "Core component of national programmes for rational drug use",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0040",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "DIC objectives: list all",
+      "a": "Organised database for practitioners; educate pharmacy students; accurate unbiased information to professionals; promote patient care through rational use",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0041",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "Types of DIC: list all",
+      "a": "Hospital-based; industry-based; community-based",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0042",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "Hospital-based DIC activities: list all",
+      "a": "Answer queries; help formulary decisions; drug evaluation; coordinate ADR reporting; publish newsletter; in-service education; assist P&T committee; monitor investigational drug activity",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0043",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Advantage of an industry-based DIC",
+      "a": "Access to all knowledge since drug development, unpublished documents and experts",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0044",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Community-based DIC role",
+      "a": "Inform on national drug programmes; create public awareness",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0045",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Primary function of a DIC",
+      "a": "Respond to enquiries on therapeutic drug use",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0046",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "DIC functions: list all",
+      "a": "Drug evaluation; therapeutic advice; pharmaceutical advice; education and training; research; pharmacovigilance; toxicology",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0047",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Therapeutic advice from a DIC covers",
+      "a": "Efficacy, optimum dose, interactions, adverse effects, administration, other diseases, adherence strategies",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0048",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Pharmaceutical advice from a DIC covers",
+      "a": "Availability, formulation, cost, storage and stability",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0049",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Where toxicology services are best located",
+      "a": "Within hospitals",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0050",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "What determines the number of DIC staff",
+      "a": "Range of activities and hours of service",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0051",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "DIC manager's responsibilities: list all",
+      "a": "Staff recruitment and coordination; training; promoting the service; maintaining resources; data management and reporting; quality assurance; liaison; strategic development",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0052",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "DIC library: what it holds",
+      "a": "Its own library of commonly used resources; other sources accessible externally",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0053",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "Basic DIC facilities: list all",
+      "a": "Desks, chairs, shelving; telephones, fax, internet, computers with external backup, word-processing and database software; photocopier; textbooks and electronic resources",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0054",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "DIC funding requirement",
+      "a": "Independent, stable income guaranteeing objectivity",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0055",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "When external funding is acceptable to a DIC",
+      "a": "Only if the centre's neutrality is guaranteed",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0056",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Charging for DIC services",
+      "a": "Free to the enquirer; separate charges only for reports not related to individual patient care",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0057",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "Skills DIC practitioners need: list all",
+      "a": "Communication; knowledge of resources; literature searching; critical analysis; writing; summarising complex or conflicting data",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0058",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "DIC quality assurance: list all methods",
+      "a": "Assess staff; review calls and answers; review resources and procedures; peer review of random enquiries with external expert; enquirer feedback",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0059",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "Benefits of DIC networking: list all",
+      "a": "Share resources and experience; set SOPs; quality assurance with external review; inter-site training",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0060",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "First DIC in the world: year and place",
+      "a": "1962, University of Kentucky Medical Centre",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0061",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "First formal US survey (1973): number of DICs identified",
+      "a": "54",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0062",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "Pharmacist-operated DICs in the US in a 1995 report",
+      "a": "About 120",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0063",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "WHO first alerted to counterfeit drugs at which 1985 meeting",
+      "a": "Conference of Experts on the Rational Use of Drugs, Nairobi",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0064",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "WHO resolution of May 1988",
+      "a": "Prevent export, import and smuggling of falsely labelled, spurious, counterfeit or substandard drugs",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0065",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "First independent DIC in India",
+      "a": "Karnataka State Pharmacy Council DIC, August 1997",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0066",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "fact",
+      "q": "International register of drug information services",
+      "a": "IRDIS",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0067",
+      "subtopic": "p3-clinical-services-drug-info",
+      "kind": "class",
+      "q": "WHO and KSPC supported DICs (five): city and state",
+      "a": "Sirsa (Haryana); Raipur (Chhattisgarh); Jaipur (Rajasthan); Dibrugarh (Assam); Panaji (Goa)",
+      "refs": [
+        "Sarkar p76-80"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0068",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "NCC MERP definition of a medication error",
+      "a": "Preventable event causing or leading to inappropriate use or patient harm while medication is under professional, patient or consumer control",
+      "refs": [
+        "Sarkar p86-90",
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0069",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Most medication errors are described as",
+      "a": "Latent errors: accidents waiting to happen",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0070",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Latent error causes: can they be fixed?",
+      "a": "Usually identifiable and correctable before recurrence",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0071",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Medication errors compared with adverse drug events",
+      "a": "50 to 100 times more common",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0072",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "ISMP areas of medication error: list all",
+      "a": "Prescribing (physicians); dispensing (pharmacists, nurses); administration (nurses, carers, consumers)",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0073",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Prescribing error types: list all",
+      "a": "Wrong dose, quantity, indication or contraindicated drug; incomplete history; wrong or outdated diagnosis or information; dose miscalculation; miscommunication (handwriting, similar names, zeros and decimals, units, abbreviations, verbal orders); noise and interruptions",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0074",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Dispensing error of commission",
+      "a": "Wrong drug, dose, strength or dosage form dispensed",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0075",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Dispensing error of omission",
+      "a": "Required drug or dose missed",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0076",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Causes of dispensing errors by pharmacist: list all",
+      "a": "Too many calls and customers; overload; lack of concentration; staff shortage; no one to double-check; similar drug names; no time to counsel; misread prescription; poor distribution; job stress; complex technology; access by non-pharmacy staff",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0077",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Administration error",
+      "a": "Drug received by patient differs from the drug the prescriber intended",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0078",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Most common type of administration error",
+      "a": "Omission (drug not given)",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0079",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "The five rights of drug administration",
+      "a": "Right dose, drug, patient, time and route",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0080",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "IV error that caused deaths",
+      "a": "Cytotoxic drugs given intrathecally instead of intravenously",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0081",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Error rate in one study of IV drug preparation or administration",
+      "a": "50%",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0082",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Most common IV error identified",
+      "a": "Bolus injected faster than the recommended 3-5 minutes",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0083",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Failure to shake a suspension ('shake well')",
+      "a": "Under- or overdose, depending on suspending ability and time since last shake",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0084",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Insulin suspensions should be",
+      "a": "Rolled, not shaken",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0085",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Crushing error",
+      "a": "Crushing tablets labelled 'do not crush' (e.g. sustained-release, coated)",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0086",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "NSAIDs taken without food or antacids cause",
+      "a": "Severe GI irritation",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0087",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Sublingual tablet swallowed (e.g. nitroglycerin): effect",
+      "a": "Absorption greatly reduced; less symptom relief",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0088",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Abbreviation 'U' (units): possible misreading",
+      "a": "0 or 4",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0089",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "'ug' (microgram): misread as",
+      "a": "mg (1000-fold error)",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0090",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "QD (every day): misread as",
+      "a": "QID",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0091",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "QOD (every alternate day): misread as",
+      "a": "QID",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0092",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "HS intended as half strength: misread as",
+      "a": "Bedtime",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0093",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Hs intended as bedtime: misread as",
+      "a": "Half strength",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0094",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "sc (subcutaneous): misread as",
+      "a": "Sublingual",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0095",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "im (intramuscular): misread as",
+      "a": "Intravenous",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0096",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Trailing zero '1.0': misread as",
+      "a": "10",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0097",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Leading point '.5' (no zero): misread as",
+      "a": "5",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0098",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "AZT (zidovudine): misread as",
+      "a": "Azathioprine or aztreonam",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0099",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "MXT (methotrexate): misread as",
+      "a": "Mitoxantrone",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0100",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Norflox (norfloxacin): misread as",
+      "a": "Norflex",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0101",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Lasix and Losec: which is which",
+      "a": "Lasix is furosemide; Losec is omeprazole",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0102",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Medication error rate: numerator",
+      "a": "Total number of errors observed",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0103",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Medication error rate: denominator",
+      "a": "Opportunities for error: doses observed given plus doses ordered but not given",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0104",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Medication error rate that signals systemic problems in the drug distribution system",
+      "a": "5% or above",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0105",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Decimal rule for orders",
+      "a": "Leading zero before a decimal below one; never a trailing zero",
+      "refs": [
+        "Sarkar p86-90",
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0106",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Units: how to write them",
+      "a": "Spell out 'units'; never 'U'",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0107",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Microgram: how to write it and why",
+      "a": "Write 'microgram' in full; 'g' is misread as mg (1000-fold overdose)",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0108",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Overdose factor when '.1' is misread as '1'",
+      "a": "10-fold",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0109",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Slash used as a decimal point: why abandon it",
+      "a": "Misread as the numeral 1",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0110",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "'One ampule of furosemide' order: why unacceptable",
+      "a": "Ampules come in 20, 40 and 100 mg; order the total dose",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0111",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "'OD' abbreviation: what it should mean, if used",
+      "a": "Right eye only",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0112",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Why 'QD' should not be written",
+      "a": "Often read as QID (four doses instead of one)",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0113",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Drug-name abbreviations to avoid (examples)",
+      "a": "ASA, 5-ASA, 6MP: write drug names in full",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0114",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Comma used in US doses when the dose exceeds",
+      "a": "999",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0115",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Look-alike names: apixaban is confused with",
+      "a": "Aripiprazole",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0116",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Look-alike names: methotrexate is confused with",
+      "a": "Metolazone",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0117",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Safeguard against look-alike errors",
+      "a": "Write the indication in the prescription (e.g. acetazolamide, for glaucoma)",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0118",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Omission errors in hospital orders: examples",
+      "a": "'Resume pre-op meds'; 'continue present IV fluids' (no fluid, volume or rate); 'continue eye drops' (no eye or drug); failure to stop a prior drug; regular vs long-acting not stated; 'as needed' without indication",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0119",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Insulin preparations: physicochemical incompatibility",
+      "a": "Certain insulin preparations should not be mixed",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0120",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Antacids or metal-containing products: effect on drug absorption",
+      "a": "Reduce intestinal absorption of many drugs, e.g. tetracyclines",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0121",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Causes of inappropriate drug prescriptions: list all",
+      "a": "Unrecognised contraindications from other diseases; unknown other drugs including OTC; physicochemical incompatibility",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0122",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Source of the high-alert medication list",
+      "a": "ISMP",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0123",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Prescribing error-reduction approaches: list all",
+      "a": "State the purpose on the order; spell out units; include age and weight; forcing function; drug name, exact strength and dosage form; leading zero, no trailing zero; no abbreviations; double check",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0124",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Dispensing error-reduction approaches: list all",
+      "a": "Safe dispensing procedure; separate look-alike drugs; minimise interruptions; workload kept manageable; awareness of high-risk drugs (e.g. potassium chloride, cytotoxics); safe systematic procedures; double check; forcing function",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0125",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Administration error-reduction approaches: list all",
+      "a": "Check patient identity; independent check of dose calculations; keep prescription, drug and patient together; give at correct time; minimise interruptions in drug rounds",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0126",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Forcing function",
+      "a": "System that demands extra patient data (e.g. age, weight) before an order or dispensing completes",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0127",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Double check system",
+      "a": "One person independently checks another's work",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0128",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Error reduction at the planning stage (GG14): list all",
+      "a": "Develop system for reporting and reviewing errors; form a multidisciplinary medication safety team",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0129",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Storage stage error reduction (GG14): list all",
+      "a": "Barcode scanning; separate areas per dosage form; segregate high-alert and look-alike, sound-alike drugs; rotate stock; automated dispensing cabinets on units; concentrated electrolytes, oral concentrated opioids and U-500 insulin stored in pharmacy only",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0130",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Ordering error reduction (GG14): list all",
+      "a": "Avoid unapproved abbreviations; limit as-needed orders; avoid frequency ranges; specify strengths; use generic names; paediatric doses in units/weight and total dose; leading zero, no trailing zero; maximise computerised order entry; use standard order sets",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0131",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Transcribing error reduction (GG14): list all",
+      "a": "Minimise error-prone abbreviations; leading zero; check administration record against active orders; second check system",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0132",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Reviewing and preparing error reduction (GG14): list all",
+      "a": "Prospective pharmacist review before dispensing; prepare under proper conditions; independent pharmacist double check; unit-of-use packaging; oral syringes for oral preparations only",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0133",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Administration error reduction (GG14): list all",
+      "a": "Barcode-assisted administration; standard IV concentrations; independent double checks of high-alert drugs",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0134",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Monitoring error reduction (GG14): list all",
+      "a": "Standard times for lab tests; train staff to report adverse reactions; monitoring parameters built into order sets",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0135",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "class",
+      "q": "Discharge and evaluation steps against errors (GG14): list all",
+      "a": "Medication reconciliation; patient education and counselling; root cause analysis; medication-use evaluation; quality improvement; event detection",
+      "refs": [
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0136",
+      "subtopic": "p3-clinical-services-med-errors",
+      "kind": "fact",
+      "q": "Medication error rate formula",
+      "a": "Errors observed divided by opportunities for error, times 100",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0137",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "WHO definition of polypharmacy",
+      "a": "Administration of many drugs at the same time, or an excessive number of drugs",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0138",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Polypharmacy by number of medicines per day",
+      "a": "Five or more (some authors: six or more)",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0139",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Predictors of polypharmacy: list all",
+      "a": "Number of drugs at start; patient age; comorbidities such as diabetes or ischaemic heart disease; medicines without clear indication",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0140",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Causes of polypharmacy: list all",
+      "a": "Multiple diseases; prescriber skill; multiple prescribers; elderly population; transition of care; prescribing cascade; OTC and self-prescribing",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0141",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Prescriber approach linked to more polypharmacy",
+      "a": "Symptom-based management rather than diagnosis-based treatment",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0142",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Extra new medicines at hospital discharge, on average",
+      "a": "About one and a half more than at admission",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0143",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Prescribing cascade",
+      "a": "An ADR misread as a new illness and treated with another drug",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0144",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Other name for prescribing cascade in the text",
+      "a": "Reflex prescribing",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0145",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Sources that add to polypharmacy beyond prescriptions",
+      "a": "OTC treatments and dietary supplements",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0146",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Example of a risky self-taken supplement",
+      "a": "Mineral supplement in renal failure",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0147",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Appropriate polypharmacy: four criteria",
+      "a": "Medicines serve agreed therapeutic goals; goals met or likely; therapy optimised to minimise ADRs; patient motivated and able to take all",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0148",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Inappropriate polypharmacy: four criteria",
+      "a": "Drugs not needed or without evidence; goals not achieved; drugs causing or risking ADRs; patient unwilling or unable to take them",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0149",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Consequences of inappropriate polypharmacy: list all",
+      "a": "Duplication of therapy; adverse drug events; drug interactions; poor adherence; impaired quality of life and function; cost burden; worse doctor-patient relationship",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0150",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "ADR share in outpatients on polypharmacy",
+      "a": "Up to 35%",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0151",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "ADR share in hospitalised elderly",
+      "a": "Up to 44%",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0152",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "ADRs as a share of emergency room visits",
+      "a": "About 10%",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0153",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "ADR risk with two drugs",
+      "a": "13%",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0154",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "ADR risk with five drugs",
+      "a": "58%",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0155",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "ADR risk with seven or more drugs",
+      "a": "82%",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0156",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Patients dispensed 15 or more medicines with potentially serious interaction risk",
+      "a": "80%",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0157",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Drug classes most associated with ADRs in polypharmacy: list all",
+      "a": "Cardiovascular drugs; diuretics; anticoagulants; NSAIDs; antibiotics; hypoglycaemics",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0158",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Beers criteria",
+      "a": "Lists potentially inappropriate medicines in older persons, by body system",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0159",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "START tool",
+      "a": "Screening tool alerting doctors to right treatment; evidence-based prescribing indicators",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0160",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Medication Appropriateness Index (MAI): what it asks",
+      "a": "Indicated; effective; right dose; cost-effective; not duplicating therapy",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0161",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Anticholinergic Cognitive Burden (ACB) scales measure",
+      "a": "Cumulative burden of anticholinergic drugs",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0162",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "STOPP tool",
+      "a": "Screening tool of older person's prescriptions: identifies potentially inappropriate medicines for medication review",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0163",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "ARMOR acronym",
+      "a": "Assess, Review, Minimize, Optimize, Reassess",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0164",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Medstopper: how drugs are sequenced",
+      "a": "From more likely to stop to less likely to stop",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0165",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Deprescribing.org offers",
+      "a": "Evidence-based deprescribing guidelines and algorithms for many drugs",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0166",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "SAIL: S",
+      "a": "Simple regimen; once or twice daily drugs preferred; fixed-dose combinations once titrated",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0167",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "SAIL: A",
+      "a": "Know adverse effects; treat adverse effects of other drugs; stop the causative drug if possible",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0168",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "SAIL: I",
+      "a": "Every drug has an indication and a defined, realistic goal",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0169",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "SAIL: L",
+      "a": "Name and dose of each drug written in chart and shared with patient",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0170",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "TIDE: T",
+      "a": "Time: give appropriate time to discuss medication issues",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0171",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "TIDE: I",
+      "a": "Individualise dose; adjust for renal or hepatic function; start low, go slow",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0172",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "TIDE: D",
+      "a": "Consider and avoid drug-drug and drug-disease interactions",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0173",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "TIDE: E",
+      "a": "Educate patient and caregiver on drug and non-drug treatment, effects, interactions and monitoring",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0174",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Medication reconciliation: definition",
+      "a": "Comparing a patient's medication orders with all medicines the patient has been taking",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0175",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Medication reconciliation is done at",
+      "a": "Every transition of care where new medicines are ordered alongside existing ones",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0176",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Errors that reconciliation prevents",
+      "a": "Commission, omission, duplication, dosing errors and drug interactions",
+      "refs": [
+        "Sarkar p71-75",
+        "GG14 ch9"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0177",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Medication reconciliation: five steps, in order",
+      "a": "List current medicines and check adherence; list medicines to be prescribed; compare the two lists; make clinical decisions with justification; communicate new prescription with counselling",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0178",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "BPMH",
+      "a": "Best Possible Medication History",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0179",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Brown bag technique",
+      "a": "Patient brings all medicines to the visit; confirm with relatives or caregivers",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0180",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Deprescribing: definition",
+      "a": "Systematic identification and discontinuation of drugs whose harms outweigh benefits for that patient",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0181",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Deprescribing: five steps, in order",
+      "a": "Comprehensive medication reconciliation; consider overall risk of drug-induced harm; assess each drug for eligibility to stop; prioritise drugs for discontinuation; implement plan and monitor withdrawal effects",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0182",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "class",
+      "q": "Clinical pharmacologist's role against polypharmacy: list all",
+      "a": "Medication reconciliation; prescription review; advice on deprescribing; dose adjustment for individual patients",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0183",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Pioneer of medication reconciliation OPD services in India",
+      "a": "Prof Santanu Kumar Tripathi, School of Tropical Medicine, Kolkata",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0184",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "Role of artificial intelligence against polypharmacy",
+      "a": "Detects possible drug interactions and risks in prescriptions",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0185",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "OPERAM stands for",
+      "a": "OPtimising thERapy to prevent Avoidable hospital admissions in the Multimorbid elderly",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0186",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "PRIMA-eDS stands for",
+      "a": "Reduction of Inappropriate Medication and Adverse drug events in older populations by electronic Decision Support",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0187",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "kind": "fact",
+      "q": "SIMPATHY stands for",
+      "a": "Stimulating Innovation Management of Polypharmacy and Adherence in The Elderly",
+      "refs": [
+        "Sarkar p71-75"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0188",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "fact",
+      "q": "Antimicrobial stewardship: definition",
+      "a": "Optimal selection of drug, dose and duration for best clinical outcome, minimal toxicity, lowest resistance risk",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0189",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "fact",
+      "q": "Antimicrobial stewardship programme (ASP): purpose",
+      "a": "Ongoing effort to optimise antimicrobial use in hospitalised patients",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0190",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "class",
+      "q": "ASP goals: list all",
+      "a": "Clinical outcomes with less toxicity and resistance; optimise drug, dose, duration, route and de-escalation; reduce costs without lower quality",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0191",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "fact",
+      "q": "How ASP goals are achieved",
+      "a": "Appropriate prescribing and educating patients and fellow physicians",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0192",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "class",
+      "q": "ASP team members: list all",
+      "a": "Infectious disease physician; clinical microbiologist; clinical pharmacist trained in infectious disease; infection control professional; hospital epidemiologist; IT specialist",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0193",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "fact",
+      "q": "Antibiotic 'time out'",
+      "a": "Reassess need and choice 48 hours after starting",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0194",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "class",
+      "q": "Pharmacy-based ASP interventions: list all",
+      "a": "Dose optimisation; IV-to-oral switch; dose adjustment for renal or hepatic impairment; avoid drug interactions; avoid unnecessary drugs with analogous spectrum",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0195",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "class",
+      "q": "Three infections that most hospital antibiotics are prescribed for",
+      "a": "Community-acquired pneumonia; urinary tract infection; skin and soft tissue infection",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0196",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "class",
+      "q": "Infection-specific ASP strategies: list all",
+      "a": "Establish the diagnosis; individualise treatment by culture results; avoid broad-spectrum antibiotics; optimise duration",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0197",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "fact",
+      "q": "Pharmacologist's role in antibiotic policy",
+      "a": "Core member in national drug policy and hospital antibiotic policy",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0198",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Prescription audit: definition",
+      "a": "Regular review of physicians' prescriptions to ensure safe, cheap and effective therapy",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0199",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "class",
+      "q": "Aims of prescription audit: list all",
+      "a": "Decrease polypharmacy; decrease medication errors; decrease patient cost burden",
+      "refs": [
+        "Sarkar p506-510"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0200",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "WHO intervention that includes audit",
+      "a": "Supervision, audit and feedback",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0201",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "class",
+      "q": "Four aims of rational prescribing",
+      "a": "Maximise effectiveness; minimise risks; minimise costs; respect patient's choices",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0202",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "class",
+      "q": "WHO criteria for rational use: list all",
+      "a": "Appropriate indication; appropriate medicine (efficacy, safety, suitability, cost); appropriate dosage, route and duration; appropriate patient; correct dispensing with patient information; patient adherence",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0203",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Compliance (adherence)",
+      "a": "Extent to which patients follow treatment instructions",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0204",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Noncompliance type 1",
+      "a": "Prescription never obtained or filled",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0205",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Noncompliance type 2",
+      "a": "Drug taken wrongly: dose, frequency, timing, route, duplication or wrong purpose",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0206",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Noncompliance type 3",
+      "a": "Drug stopped early, e.g. when symptoms improve or the bottle is empty",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0207",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Noncompliance type 4",
+      "a": "Drug taken inappropriately, e.g. shared with others",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0208",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Share of patients who never have prescriptions filled (some studies)",
+      "a": "About one-third",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0209",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "class",
+      "q": "Factors that encourage noncompliance: list all",
+      "a": "Symptomless disease; drug taken many times a day; living alone; hard-to-open packaging; lack of transport; cultural or personal beliefs; cost not covered",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0210",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Once-daily vs four-times-daily dosing for adherence",
+      "a": "Once daily is followed much better",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0211",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Who explains how, when and why to take a drug",
+      "a": "Both prescriber and pharmacist; neither should assume the other did",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0212",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "What each drug label should show",
+      "a": "Drug name, purpose and duration of therapy",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0213",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Direction that leads to noncompliance and errors",
+      "a": "'Take as directed'",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0214",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "class",
+      "q": "Adherence strategies: list all",
+      "a": "Better communication; assess social and economic situation; link doses to meals; pill organisers and alarms; compliance packaging; refill reminders; teach patient to monitor effects; active patient involvement",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0215",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Compliance packaging examples",
+      "a": "'Bingo cards' or strip packs organised by date and time",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0216",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Who mails refill reminders to chronic patients",
+      "a": "The pharmacist",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0217",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "kind": "fact",
+      "q": "Patient who may stop a drug because of a perceived problem should be taught",
+      "a": "How to monitor and understand the drug's effects",
+      "refs": [
+        "Katzung16 ch66"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0218",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Pharmacoeconomic analysis in a hospital formulary: also used for",
+      "a": "Setting prices of old and new drugs; supports reimbursement",
+      "refs": [
+        "Katzung16 appendix 2"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0219",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "fact",
+      "q": "Empirical antibiotic choice in adult hospital-acquired infection depends on",
+      "a": "Local antibiogram and severity of illness",
+      "refs": [
+        "Katzung16 ch51"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0220",
+      "subtopic": "p3-clinical-services-stewardship",
+      "kind": "fact",
+      "q": "Katzung: when vancomycin or linezolid is added to the empirical HAI regimen",
+      "a": "Only when MRSA is a concern",
+      "refs": [
+        "Katzung16 ch51"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0221",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "NFI 2011 criteria for including a drug: list all",
+      "a": "Drugs in NLEM 2011; drugs in National Health Programmes; drugs in Indian Pharmacopoeia; expert-panel recommended drugs; any drug IPC finds appropriate",
+      "refs": [
+        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0222",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "Cost measure when comparing drugs for a formulary (NFI)",
+      "a": "Cost of the total treatment, not only the unit cost of the medicine",
+      "refs": [
+        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0223",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "class",
+      "q": "Factors weighed when selecting a medicine (NFI): list all",
+      "a": "Efficacy for the indication; safety (minimum adverse effects); cost",
+      "refs": [
+        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
+      ]
+    },
+    {
+      "id": "rf-p3-clinical-services-0224",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "kind": "fact",
+      "q": "NFI 2011: regulatory status",
+      "a": "Guidance document, not a regulatory document",
+      "refs": [
+        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
+      ]
+    }
   ]
 }

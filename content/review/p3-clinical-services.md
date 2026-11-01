@@ -75,3 +75,19 @@ Added 2 cards (037-038), all draft. Deck now 38 cards.
 | Crash cart contents and resuscitation drug set | Still a gap | No book lists a crash-cart set. Adrenaline 1:10,000 IV/IO in cardiac arrest (Prep p116-120) is already in p2-adrenergic-018 and not repeated |
 
 Cross-references: pharmacoeconomics in p3-pv-economics (024, 027, 028); antibiotic stewardship and rational use in p4-rational-use; NABH/JCI and DTC convener already in 001 (not duplicated).
+
+## Web-sourced cards (owner approved)
+
+Written under the GROUNDING-RULES exception for SOURCE-GAPS items. Status `web` for owner review; all `draft`.
+
+| id | status | source URL |
+|---|---|---|
+| p3-clinical-services-039 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
+| p3-clinical-services-040 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
+| p3-clinical-services-041 | web | https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf |
+
+Not covered (no verifiable official source retrieved): Crash-cart drug list and its upkeep (no official NHSRC/MoHFW/WHO page retrieved); prescription-audit method (WHO/INRUD manual not retrieved, only secondary studies); hospital-level formulary committee criteria beyond NFI 2011.
+
+## Second pass: still not covered (owner approved)
+
+Still not covered: crash-cart list and upkeep (PMC systematic review blocked; StatPearls not found); prescription-audit method (WHO IRIS record returned 403; not read).

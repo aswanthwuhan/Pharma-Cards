@@ -107,3 +107,29 @@ Source scan: sample size, Kruskal/Mann-Whitney/Wilcoxon, correlation/regression,
 | Correlation tests (Pearson, Spearman) | Closed | 047 (cloze), rapid 0139 (Sarkar p381-385) |
 | Correlation coefficient as a concept, regression | Still a gap | No teaching text in the books. Only a reference title (Sarkar OCR) and a regression footnote in a GG14 pharmacokinetic table (amphotericin B clearance vs age), which is drug-specific and not carded |
 | Sensitivity and specificity (diagnostic-test sense) | Still a gap | Katzung mentions an assay with "high sensitivity and specificity" for Parkinson disease (preliminary research claim, no definition). Not carded. Sarkar ELISA/RIA "specificity" is assay technique, not the diagnostic-test sense. Receptor specificity ignored |
+
+## Web-sourced cards (owner approved)
+
+Written under the GROUNDING-RULES exception for SOURCE-GAPS items. Status `web` for owner review; all `draft`.
+
+| id | status | source URL |
+|---|---|---|
+| p3-research-biostats-048 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| p3-research-biostats-049 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| p3-research-biostats-050 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| p3-research-biostats-051 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| p3-research-biostats-052 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| p3-research-biostats-053 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+| p3-research-biostats-054 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/ |
+
+Not covered (no verifiable official source retrieved): Sample-size formula; Pearson correlation and regression (NCBI PMC pages returned a verification screen; no official text read).
+
+## Web-sourced cards, second pass (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| p3-research-biostats-055 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
+| p3-research-biostats-056 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
+| p3-research-biostats-057 | web | https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/ |
+
+Still not covered: sample-size formula (no StatPearls or official page found; PMC pages blocked); regression beyond the variable types above (the StatPearls article gave no equation).

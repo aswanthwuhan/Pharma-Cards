@@ -939,6 +939,227 @@
       "tags": [
         "dosing"
       ]
+    },
+    {
+      "id": "p1-special-populations-048",
+      "type": "shortnote",
+      "front": "Short note: Child-Pugh score",
+      "sections": [
+        {
+          "h": "Parameters (1 / 2 / 3 points)",
+          "points": [
+            "Encephalopathy: none / grade 1-2 / grade 3-4",
+            "Ascites: none / slight / moderate",
+            "Bilirubin: below 2 / 2 to 3 / above 3",
+            "Albumin: above 3.5 / 2.8 to 3.5 / below 2.8",
+            "Prothrombin time: under 4 s / 4 to 6 s / over 6 s (INR often used: below 1.7 / 1.7 to 2.2 / above 2.2)"
+          ]
+        },
+        {
+          "h": "Classes",
+          "points": [
+            "Class A: 5 to 6 points",
+            "Class B: 7 to 9 points",
+            "Class C: 10 to 15 points"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Estimates mortality in cirrhosis",
+            "Elective surgery contraindicated in class C"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB NCBI StatPearls Use of the Child Pugh Score in Liver Disease (2023) https://www.ncbi.nlm.nih.gov/books/NBK542308/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-special-populations-049",
+      "type": "basic",
+      "front": "Does a Child-Pugh class alone decide the dose of a drug?",
+      "back": "No. Dosing decisions rely on the drug's prescribing information, not the score alone. Reassess the score when the patient's condition changes.",
+      "refs": [
+        "WEB NCBI StatPearls Use of the Child Pugh Score in Liver Disease (2023) https://www.ncbi.nlm.nih.gov/books/NBK542308/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-050",
+      "type": "basic",
+      "front": "One cited study: one-year mortality by Child-Pugh class?",
+      "back": "Class A 0%, class B 20%, class C 55%.",
+      "refs": [
+        "WEB NCBI StatPearls Use of the Child Pugh Score in Liver Disease (2023) https://www.ncbi.nlm.nih.gov/books/NBK542308/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-special-populations-051",
+      "type": "basic",
+      "front": "In renal impairment, how should the dose change relate to clearance?",
+      "back": "Reduce the dose in proportion to the calculated fall in drug clearance.",
+      "refs": [
+        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-052",
+      "type": "basic",
+      "front": "Why are renal dose changes usually coarse, and when is more care needed?",
+      "back": "Changes are often halving or doubling, since a 20% change is usually impractical. Drugs with a narrow therapeutic index need more careful adjustment.",
+      "refs": [
+        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-053",
+      "type": "basic",
+      "front": "Which CKD stage requires renal replacement therapy, and what GFR defines it?",
+      "back": "Stage 5, with a GFR of 14 to 0 mL/min.",
+      "refs": [
+        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-special-populations-054",
+      "type": "basic",
+      "front": "Which creatinine equation has largely replaced older methods for estimating kidney function?",
+      "back": "The CKD-EPI creatinine equation, recommended by the NKF and ASN task force; older methods were Cockcroft-Gault and MDRD.",
+      "refs": [
+        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-055",
+      "type": "basic",
+      "front": "Why does protein binding limit how much drug dialysis removes?",
+      "back": "Only unbound drug crosses the dialysis membrane, so the bound fraction is not available for removal.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-056",
+      "type": "basic",
+      "front": "Which drugs are mainly removed by diffusion during dialysis?",
+      "back": "Small molecules; drugs under about 1000 daltons are mainly removed this way.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-057",
+      "type": "basic",
+      "front": "Why must dialysis dosing be reviewed as residual kidney function changes?",
+      "back": "Residual renal function clears renally excreted drugs, and it can change daily, so dosing should be reassessed as it improves or declines.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-058",
+      "type": "basic",
+      "front": "For intermittent drugs in dialysis, what timing point matters?",
+      "back": "Exposure depends on the dose timing relative to the start and length of the session, so these doses are planned around dialysis.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-059",
+      "type": "basic",
+      "front": "In extended dialysis (SLED), what do studies suggest to replace drug removed during a session?",
+      "back": "Giving a dose after the session, or both before and after it.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-060",
+      "type": "basic",
+      "front": "Can intermittent haemodialysis dosing advice be applied straight to SLED?",
+      "back": "Not safely: it may underdose and risk treatment failure, and the evidence base for SLED is small.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ]
     }
   ]
 }

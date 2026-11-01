@@ -22,3 +22,11 @@
 How to check a fact: extract the cited chapter with `pdftotext "<file>" -`. For the single-file big books, use `pdftotext -f <first> -l <last> "<file>" -`; locate pages first via the contents and `grep -n`. GG14 PDF page ≈ book page + 17.
 
 - Orchestrator: single-page OCR refs (Sarkar/Prep/RR5 pN) converted to the 5-page file range that contains them (OCR files have no page markers).
+
+## Exception: web sources for SOURCE-GAPS items (owner approved, 2026-11-01)
+Only for the points listed in `content/SOURCE-GAPS.md` (no owner book covers them), cards may be written from official or authoritative web sources:
+NMC (nmc.org.in), WHO, ICMR, CDSCO, Ministry of AYUSH, FSSAI, NTEP/NACO/NCVBDC (MoHFW), AIIMS/National Poisons Information Centre, NCBI Bookshelf (StatPearls). No blogs, forums or commercial sites.
+- Paraphrase; never copy. Use only what the page states.
+- `refs` format: `"WEB <org> <doc title or topic> <year if shown> <url>"`, e.g. `"WEB NMC AETCOM module 2018 https://..."`.
+- Add the tag set as usual; keep `status: "draft"`; the review log marks these rows `web` for the owner's review.
+- Everything else still follows the books-only rules above.

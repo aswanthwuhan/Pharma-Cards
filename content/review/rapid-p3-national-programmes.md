@@ -46,3 +46,24 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - None skipped.
+
+## Web-sourced cards (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| rf-p3-national-programmes-0133 | web | https://ntep.in/node/507 |
+| rf-p3-national-programmes-0134 | web | https://ntep.in/node/507 |
+| rf-p3-national-programmes-0135 | web | https://ntep.in/node/507 |
+| rf-p3-national-programmes-0136 | web | https://ntep.in/node/507 |
+| rf-p3-national-programmes-0137 | web | https://ntep.in/node/507 |
+| rf-p3-national-programmes-0138 | web | https://ntep.in/node/507 |
+
+## Web-sourced cards, second pass (owner approved)
+
+| id | status | source URL |
+|---|---|---|
+| rf-p3-national-programmes-0139 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
+| rf-p3-national-programmes-0140 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
+| rf-p3-national-programmes-0141 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
+| rf-p3-national-programmes-0142 | web | https://www.who.int/news-room/fact-sheets/detail/typhoid |
+| rf-p3-national-programmes-0143 | web | https://www.who.int/news-room/fact-sheets/detail/malaria |
