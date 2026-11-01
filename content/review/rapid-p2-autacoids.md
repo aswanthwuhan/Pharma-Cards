@@ -12,3 +12,12 @@ Source: KD Tripathi 8e chapters 11, 12 and 13 (`pdftotext -layout`). No card was
 | Triptan comparison table (KDT8 ch12, p.195) | numbers omitted | Row labels misaligned in extraction. Only figures stated in the running text are used. Sumatriptan 24 h maximum dropped for this reason. |
 | Erenumab approval | kept as printed | KDT8 ch12 says FDA-approved; no date given in the book. |
 | Ergotamine maximum | kept as printed | Preparation list (KDT8 ch12): max 6 mg in a day. |
+
+## Reconciled with study deck
+
+- rf-p2-autacoids-0079 -> "no clinical use of H3 antagonists" updated: pitolisant (H3 inverse agonist) for narcolepsy -> KDT8 ch11, GG14 ch16
+- rf-p2-autacoids-0241 -> cisapride restricted (QT); prucalopride added -> KDT8 ch12, GG14 ch54
+- rf-p2-autacoids-0354 -> sumatriptan contraindications replaced with GG14 list (epilepsy, renal impairment, pregnancy removed) -> KDT8 ch12, GG14 ch15
+- rf-p2-autacoids-0549 -> medical abortion window: KDT 49 days, Katzung 70 days -> KDT8 ch13, GG14 ch48, Katzung16 ch40
+- rf-p2-autacoids-0550 -> misoprostol route: Katzung recommends oral (vaginal linked to sepsis); KDT preference noted -> KDT8 ch13, Katzung16 ch40
+- rf-p2-autacoids-0632 -> added: lasmiditan 5-HT1F agonist -> KDT8 ch12, GG14 ch15

@@ -27,3 +27,7 @@ Sources: KD Tripathi 8e ch29 (Sedative-Hypnotics) and ch30 (Antiepileptic Drugs)
 ## Card status
 
 All 395 cards are sourced to KDT8 ch29 or ch30, except 0300 (KDT8 ch30 + GG14 ch20) and 0320 (GG14 ch20). Ids run rf-p2-sedatives-aed-0001 to 0395, with no renumbering.
+
+## Reconciled with study deck
+
+None found. `review/p2-sedatives-aed.md` lists no GG14/Katzung/Rang & Dale correction or KDT misprint fix; its only correction (card 041, seizure-type choice from KDT Table 30.1) already matches Rapid cards 0193-0196.

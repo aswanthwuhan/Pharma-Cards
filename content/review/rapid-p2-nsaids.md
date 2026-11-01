@@ -34,3 +34,12 @@ None.
 | p2-nsaids-dmards | 48 |
 | p2-nsaids-biologic-dmards | 24 |
 | p2-nsaids-gout | 78 |
+
+## Reconciled with study deck
+
+- rf-p2-nsaids-0235 -> induced vomiting/lavage removed; activated charcoal within 4 h, lavage not recommended -> KDT8 ch14, GG14 ch42, GG12 ch34
+- rf-p2-nsaids-0237 -> IV NAC: standard 3-bag regimen (GG12) added beside KDT scheme -> KDT8 ch14, GG12 ch34, GG14 ch42
+- rf-p2-nsaids-0238 -> oral NAC: standard 140/70 mg/kg x17 regimen added beside KDT scheme -> KDT8 ch14, GG12 ch34, GG14 ch42
+- rf-p2-nsaids-0459 -> colchicine: GG14 low-dose regimen (1.2 mg then 0.6 mg) as current, KDT as older -> KDT8 ch15, GG14 ch42
+- rf-p2-nsaids-0508 -> febuxostat: GG14 boxed CV-death warning added -> KDT8 ch15, GG14 ch42
+- rf-p2-nsaids-0519 -> added: JAK inhibitors for RA list -> KDT8 ch15, GG14 ch39, GG14 ch55

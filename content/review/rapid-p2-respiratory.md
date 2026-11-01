@@ -55,3 +55,17 @@ Checked and kept as printed:
 | p2-respiratory-preventers | 64 |
 | p2-respiratory-acute-delivery | 21 |
 | **total** | **307** (17 class) |
+
+## Reconciled with study deck
+
+Checked against the GG14/Katzung corrections in `review/p2-respiratory.md`. Deck now 308 cards (17 class).
+
+| id | change | ref |
+|---|---|---|
+| rf-p2-respiratory-0194 | Theophylline range now GG14 5-15 mg/L; KDT 5-20 noted as older figure | KDT8 ch16, GG14 ch44 |
+| rf-p2-respiratory-0305 | Routine bicarbonate/lactate removed; correct dehydration and acidosis, watch hypokalaemia (study card 015) | KDT8 ch16, GG14 ch44, Katzung16 ch20 |
+| rf-p2-respiratory-0301 | IV hydrocortisone dose now GG14 4 mg/kg then 3 mg/kg 6-hourly; oral prednisolone 40-60 mg equivalent | KDT8 ch16, GG14 ch44, Katzung16 ch20 |
+| rf-p2-respiratory-0307 | Aminophylline dose now GG14 6 mg/kg then 0.5 mg/kg/h, halved if on theophylline | KDT8 ch16, GG14 ch44, Katzung16 ch20 |
+| rf-p2-respiratory-0103 | Step 1 marked as KDT/BTS 2012 scheme; GINA ICS with every reliever, ICS-formoterol preferred | KDT8 ch16, Katzung16 ch20, GG14 ch44 |
+| rf-p2-respiratory-0244 | ICS in COPD: frequent exacerbators with eosinophils >300/µL; pneumonia risk | KDT8 ch16, GG14 ch44 |
+| rf-p2-respiratory-0308 | Added: ICS-formoterol is the reliever of choice (study card 032) | GG14 ch44, Katzung16 ch20 |

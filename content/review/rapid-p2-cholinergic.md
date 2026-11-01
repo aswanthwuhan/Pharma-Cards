@@ -37,3 +37,12 @@ None omitted for grounding. Items not carded because the extracted text is garbl
 | p2-cholinergic-substitutes | 51 |
 | p2-cholinergic-ganglionic | 36 |
 | total | 350 (25 class) |
+
+## Reconciled with study deck
+
+- rf-p2-cholinergic-0073 -> "only route: eye drops" replaced; oral pilocarpine for xerostomia/Sjogren added -> KDT8 ch7, GG14 ch11
+- rf-p2-cholinergic-0164 -> atropine regimen now GG14 (2-4 mg then 2 mg every 5-10 min) with KDT schedule -> KDT8 ch7, GG14 ch12, Katzung16 ch7
+- rf-p2-cholinergic-0166 -> pralidoxime in carbamate poisoning: "not recommended" (GG14), KDT "contraindicated" kept -> KDT8 ch7, GG14 ch12
+- rf-p2-cholinergic-0335 -> varenicline 0.25 mg BD start replaced by GG14 titration (0.5 mg OD x3 d, BD, 1 mg BD from day 8); KDT 12-week limit kept -> KDT8 ch8, GG14 ch13, RangDale9 ch50
+- rf-p2-cholinergic-0337 -> suicidal-thought warning marked as revised down in 2016 -> KDT8 ch8, GG14 ch13, RangDale9 ch50
+- rf-p2-cholinergic-0351 -> added: intermediate syndrome (study card 051) -> GG14 ch12, Katzung16 ch7, Katzung16 ch56

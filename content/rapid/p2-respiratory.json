@@ -1026,9 +1026,11 @@
       "subtopic": "p2-respiratory-asthma-overview",
       "kind": "fact",
       "q": "Step 1: mild episodic asthma",
-      "a": "Inhaled short-acting b2 agonist at onset of each episode; no prophylaxis",
+      "a": "KDT (BTS 2012): inhaled SABA at each episode only; GINA now gives ICS with every reliever, ICS-formoterol preferred",
       "refs": [
-        "KDT8 ch16"
+        "KDT8 ch16",
+        "Katzung16 ch20",
+        "GG14 ch44"
       ]
     },
     {
@@ -1937,9 +1939,10 @@
       "subtopic": "p2-respiratory-theophylline",
       "kind": "fact",
       "q": "Theophylline therapeutic plasma range",
-      "a": "5-20 µg/ml",
+      "a": "5-15 mg/L per GG14 (KDT gives the older 5-20 µg/ml)",
       "refs": [
-        "KDT8 ch16"
+        "KDT8 ch16",
+        "GG14 ch44"
       ]
     },
     {
@@ -2437,9 +2440,10 @@
       "subtopic": "p2-respiratory-preventers",
       "kind": "fact",
       "q": "ICS use in COPD",
-      "a": "Only high-dose ICS in advanced COPD with frequent exacerbations; no proof of slowing progression",
+      "a": "Frequent exacerbators with blood eosinophils above 300/µL; raises pneumonia risk; no proof of slowing progression",
       "refs": [
-        "KDT8 ch16"
+        "KDT8 ch16",
+        "GG14 ch44"
       ]
     },
     {
@@ -3008,9 +3012,11 @@
       "subtopic": "p2-respiratory-acute-delivery",
       "kind": "fact",
       "q": "Acute attack: i.v. steroid",
-      "a": "Hydrocortisone hemisuccinate 100 mg i.v. stat, then 100-200 mg every 4-8 hours",
+      "a": "IV hydrocortisone (GG14: 4 mg/kg, then 3 mg/kg 6-hourly) or methylprednisolone; oral prednisolone 40-60 mg about as effective",
       "refs": [
-        "KDT8 ch16"
+        "KDT8 ch16",
+        "GG14 ch44",
+        "Katzung16 ch20"
       ]
     },
     {
@@ -3048,9 +3054,11 @@
       "subtopic": "p2-respiratory-acute-delivery",
       "kind": "fact",
       "q": "Acute attack: fluid and acid-base",
-      "a": "Correct dehydration and acidosis with saline plus sodium bicarbonate or lactate",
+      "a": "Correct dehydration and acidosis; watch for hypokalaemia from b2 agonists",
       "refs": [
-        "KDT8 ch16"
+        "KDT8 ch16",
+        "GG14 ch44",
+        "Katzung16 ch20"
       ]
     },
     {
@@ -3068,9 +3076,22 @@
       "subtopic": "p2-respiratory-acute-delivery",
       "kind": "fact",
       "q": "Acute attack: aminophylline dose",
-      "a": "250-500 mg in 20-50 ml glucose 5% i.v. over 20-30 min; now restricted to resistant cases",
+      "a": "GG14: 6 mg/kg over 20-30 min, then 0.5 mg/kg/h, halved if already on theophylline; KDT: resistant cases only",
       "refs": [
-        "KDT8 ch16"
+        "KDT8 ch16",
+        "GG14 ch44",
+        "Katzung16 ch20"
+      ]
+    },
+    {
+      "id": "rf-p2-respiratory-0308",
+      "subtopic": "p2-respiratory-asthma-overview",
+      "kind": "fact",
+      "q": "Rescue (reliever) inhaler of choice in asthma per GG14",
+      "a": "ICS-formoterol; avoids the dangers of SABA overuse",
+      "refs": [
+        "GG14 ch44",
+        "Katzung16 ch20"
       ]
     }
   ]

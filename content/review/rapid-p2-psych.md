@@ -38,3 +38,14 @@ Each statement was checked by web search. The owner books searched (Goodman & Gi
 
 Chapter refs: ch31 119 cards, ch32 207 cards, ch33 177 cards.
 Hallucinogens and cannabinoids (ch32 section) are filed under `p2-psych-typical-antipsychotics`, since no subtopic covers them directly.
+
+## Reconciled with study deck
+
+Checked against the GG14/Katzung corrections in `review/p2-psych.md`. Deck now 504 cards (32 class).
+
+| id | change | ref |
+|---|---|---|
+| rf-p2-psych-0394 | Lithium maintenance level now GG14 0.6-1.0 mEq/L; KDT 0.5-0.8 noted as older | KDT8 ch32, GG14 ch19 |
+| rf-p2-psych-0395 | Lithium acute mania level now GG14 1.0-1.5 mEq/L; KDT 0.8-1.2 noted as older | KDT8 ch32, GG14 ch19 |
+| rf-p2-psych-0166 | Clozapine neutropenia just under 1%, peak months 2-3; regular counts (KDT weekly) | KDT8 ch32, GG14 ch19, Katzung16 ch29 |
+| rf-p2-psych-0504 | Added: MAOI washout, fluoxetine 4+ weeks, most others about 2 weeks | KDT8 ch33, Katzung16 ch30, Katzung16 ch16, GG14 ch18 |

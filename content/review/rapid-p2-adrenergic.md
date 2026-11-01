@@ -36,3 +36,11 @@ None omitted for grounding beyond the garbled cells listed above.
 | p2-adrenergic-beta-blockers | 100 |
 | p2-adrenergic-glaucoma | 62 |
 | **total** | **457** |
+
+## Reconciled with study deck
+
+- rf-p2-adrenergic-0039 -> methyldopa: alpha-methyl NA acts as alpha-2 agonist, not just a false transmitter -> KDT8 ch9, GG14 ch10
+- rf-p2-adrenergic-0151 -> dopamine infusion: GG14 2-5 up to 20-50 µg/kg/min added beside KDT 0.2-1 mg/min -> KDT8 ch9, GG14 ch14
+- rf-p2-adrenergic-0241 -> phentolamine test now rarely used; diagnosis by catecholamines/metanephrines -> KDT8 ch10, Katzung16 ch10
+- rf-p2-adrenergic-0282 -> preoperative phenoxybenzamine 1-2 weeks changed to 1-3 weeks, titrated -> KDT8 ch10, Katzung16 ch10, GG14 ch14
+- rf-p2-adrenergic-0458 -> added: alpha-1 blockers not as hypertension monotherapy (ALLHAT doxazosin) -> KDT8 ch10, GG14 ch32

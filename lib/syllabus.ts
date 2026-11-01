@@ -74,6 +74,13 @@ export const PAPERS: Paper[] = [
     ["p4-recent", "Recent advances & newer drugs", [], ["GG14"]],
     ["p4-biologics", "Biologics, biosimilars, gene & cell therapy", [], ["GG14", "Katzung16"]],
   ]),
+  // Placeholder: owner will add practical-exam content later (no cards yet).
+  p("PR", "Practical examination — coming soon", [
+    ["pr-long-exercise", "Long exercises (experimental & clinical pharmacology)", [], []],
+    ["pr-short-exercise", "Short exercises", [], []],
+    ["pr-ospe", "OSPE stations", [], []],
+    ["pr-teaching", "Teaching skills assessment", [], []],
+  ]),
 ];
 
 /** NMC syllabus items (2022), numbered as in the official document. */
