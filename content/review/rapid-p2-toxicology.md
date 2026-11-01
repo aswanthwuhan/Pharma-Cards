@@ -97,3 +97,16 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - p2-toxicology-055 (iron-containing prenatal multivitamins, 10-12 tablets) already covered by an existing card. Not repeated.
+
+## Gap closure (term scan)
+
+Rapid cards added: 6, rf-p2-toxicology-0710 to rf-p2-toxicology-0715.
+
+- rf-p2-toxicology-0710: Induced emesis contraindicated in: list all | KDT8 ch6; Prep p586-590
+- rf-p2-toxicology-0711: Hydrocarbons and organic solvents: bound by activated charcoal? | KDT8 ch6
+- rf-p2-toxicology-0712: Plants with digoxin-like cardiac glycosides: list all | Katzung16 ch13
+- rf-p2-toxicology-0713: Inhalant abuse substances: list all | Katzung16 ch32
+- rf-p2-toxicology-0714: Chronic aromatic hydrocarbon exposure: CNS lesion | Katzung16 ch32
+- rf-p2-toxicology-0715: Inhalant overdose treatment | Katzung16 ch32
+
+Still uncovered: aluminium phosphide (absent from books).

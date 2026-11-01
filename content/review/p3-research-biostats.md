@@ -88,3 +88,22 @@ Added 2 cards (038-039), draft. Deck now 39 cards.
 | Study designs | Covered elsewhere | Observational designs in 031 and p4-clinical-trials-039 |
 
 Cross-references: sample size determinants and non-inferiority (p4-clinical-trials-014, 017, 018); bias types in p4-clinical-trials and p1-drug-dev-021.
+
+## Gap closure (term scan, study cards 040-047)
+
+Source scan: sample size, Kruskal/Mann-Whitney/Wilcoxon, correlation/regression, sensitivity and specificity. The earlier rows above that said "Named non-parametric tests ... not in the books" and "Sample-size formulae ... no formula in books" are superseded by the rows below.
+
+| Gap / term | Status | Cards or source |
+|---|---|---|
+| Sample size: effect of n on standard error | Closed | 040 (Sarkar p361-365: SE = SD / square root of n) |
+| Sample size: statement in methods and protocol review; false-negative risk | Closed | 041 (Sarkar p511-515; Sarkar p226-230) |
+| Sample size: power accepted, type II leniency, larger n gives more power | Closed | 042 (RangDale9 ch8) |
+| Sample size: worked example (50% to 40% mortality, about 850 subjects) | Closed | 043 (RangDale9 ch8) |
+| Sample size: rare toxicity needs very large exposure, detected in phase 4 | Closed | 044 (Katzung16 ch1) |
+| Sample size: trial size vs smallest detectable relative risk | Closed | 045 (GG14 ch8, Table 8-2, qualitative only; numbers not carded because column order is garbled in the extract) |
+| Sample size: determinants (significance, power, difference, variability) | Already covered | p4-clinical-trials-014 (KDT8 ch5); not repeated |
+| Sample-size formula for a trial | Still a gap | Books give no trial sample-size formula; SE formula only (040) |
+| Kruskal-Wallis, Mann-Whitney, Wilcoxon | Closed | 046 (cloze), rapid 0135-0138 (Sarkar p381-385, Table 92.1: Mann-Whitney, Kruskal-Wallis, Wilcoxon, Friedman's test) |
+| Correlation tests (Pearson, Spearman) | Closed | 047 (cloze), rapid 0139 (Sarkar p381-385) |
+| Correlation coefficient as a concept, regression | Still a gap | No teaching text in the books. Only a reference title (Sarkar OCR) and a regression footnote in a GG14 pharmacokinetic table (amphotericin B clearance vs age), which is drug-specific and not carded |
+| Sensitivity and specificity (diagnostic-test sense) | Still a gap | Katzung mentions an assay with "high sensitivity and specificity" for Parkinson disease (preliminary research claim, no definition). Not carded. Sarkar ELISA/RIA "specificity" is assay technique, not the diagnostic-test sense. Receptor specificity ignored |

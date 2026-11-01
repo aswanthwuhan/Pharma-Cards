@@ -866,6 +866,127 @@
       "tags": [
         "uses"
       ]
+    },
+    {
+      "id": "p3-research-biostats-040",
+      "type": "basic",
+      "front": "How does sample size affect the standard error of the mean?",
+      "back": "The standard error of the mean is the standard deviation divided by the square root of n, so it falls as the sample grows. The variance of the sampling distribution of the mean is the population variance divided by n, so larger samples give means that cluster more tightly around the population mean.",
+      "refs": [
+        "Sarkar p361-365"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-041",
+      "type": "basic",
+      "front": "Where must a trial report state its sample size calculation, and what can an inadequate calculation cause?",
+      "back": "It must be clearly defined in the methods section, and protocol review checks the statistical methodology including the sample size calculation. An inadequate calculation can lead to false-negative results.",
+      "refs": [
+        "Sarkar p511-515",
+        "Sarkar p226-230"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-042",
+      "type": "basic",
+      "front": "What power is usually accepted for a clinical trial, and why?",
+      "back": "Power of 0.8 to 0.9, an 80-90% chance of detecting a real effect, is often acceptable. Type II errors are regarded more leniently than type I errors, and a larger sample size gives greater power.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-043",
+      "type": "basic",
+      "front": "In the Rang and Dale example, how many subjects are needed to detect a fall in mortality from 50% to 40%?",
+      "back": "About 850 subjects, at p < 0.05 with a power of 0.9.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-044",
+      "type": "basic",
+      "front": "Why are rare drug toxicities usually missed before marketing?",
+      "back": "Some toxicities occur in about 1 in 10,000 patients or fewer, and several hundred thousand patients may need exposure before the first case appears. Trials are too small to detect them, so such effects usually surface only in phase 4, after marketing.",
+      "refs": [
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-045",
+      "type": "basic",
+      "front": "How does trial size change the smallest relative risk a trial can detect?",
+      "back": "For the same control event rate, a larger trial can detect a smaller relative risk. Rarer outcomes need a larger relative risk to be detected at the same trial size.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-046",
+      "type": "cloze",
+      "front": "Classify: non-parametric counterparts of parametric tests",
+      "text": "Two independent groups: {{Mann-Whitney}} test (for the independent-measures t test); more than two independent groups: {{Kruskal-Wallis}} test (for one-way ANOVA); two repeated conditions: {{Wilcoxon}} test (for the matched-pair t test); more than two repeated conditions: {{Friedman's}} test (for repeated-measures ANOVA).",
+      "refs": [
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-047",
+      "type": "cloze",
+      "front": "Classify: correlation tests",
+      "text": "Correlation: parametric {{Pearson}} test; non-parametric {{Spearman}} test.",
+      "refs": [
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ]
     }
   ]
 }

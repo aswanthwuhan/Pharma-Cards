@@ -45,3 +45,24 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - None skipped.
+
+## Gap closure (term scan)
+
+Rapid cards added (reversible pairs): 14, rf-p3-research-biostats-0126 to rf-p3-research-biostats-0139. Study cards 040-047 cover the same facts.
+
+- rf-p3-research-biostats-0126: Standard error of the mean as sample size rises | Sarkar p361-365
+- rf-p3-research-biostats-0127: Where the sample size calculation is stated in a trial report | Sarkar p511-515
+- rf-p3-research-biostats-0128: Result of an inadequate sample size calculation | Sarkar p511-515
+- rf-p3-research-biostats-0129: Power usually accepted for a clinical trial | RangDale9 ch8
+- rf-p3-research-biostats-0130: Relative seriousness of type II vs type I error | RangDale9 ch8
+- rf-p3-research-biostats-0131: Subjects needed to detect a 50% to 40% mortality fall | RangDale9 ch8
+- rf-p3-research-biostats-0132: Patients exposed before the first case of a 1-in-10,000 toxicity | Katzung16 ch1
+- rf-p3-research-biostats-0133: Where rare drug toxicities are first detected | Katzung16 ch1
+- rf-p3-research-biostats-0134: Effect of a larger trial on the smallest detectable relative risk | GG14 ch8
+- rf-p3-research-biostats-0135: Mann-Whitney test (two independent groups) | Sarkar p381-385
+- rf-p3-research-biostats-0136: Kruskal-Wallis test (more than two independent groups) | Sarkar p381-385
+- rf-p3-research-biostats-0137: Wilcoxon test (two repeated conditions) | Sarkar p381-385
+- rf-p3-research-biostats-0138: Friedman's test (more than two repeated conditions) | Sarkar p381-385
+- rf-p3-research-biostats-0139: Spearman correlation (parametric: Pearson) | Sarkar p381-385
+
+Still uncovered: sample-size formula for a trial; correlation coefficient concept and regression; diagnostic sensitivity and specificity (see study log).

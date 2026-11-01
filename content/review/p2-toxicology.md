@@ -98,3 +98,13 @@ Added 9 cards (049-057) from the review books and textbooks. Each card cites its
 | Poison control services (Indian) | Still a gap | Books silent |
 | Insecticides Act and pesticide bans | Still a gap | Books silent |
 | Oleander | Still a gap | No hit in the books searched |
+
+## Gap closure (term scan, study cards 058-061)
+
+| Gap / term | Status | Cards or source |
+|---|---|---|
+| Oleander (Katzung, 3 hits) | Closed | 060 (Katzung16 ch13: oleander among plants with digoxin-like glycosides). Digoxin antibodies in oleander poisoning already in p2-toxicology-028 (Katzung16 ch58). The third hit is a reference-list title (Katzung16), not teaching |
+| Kerosene poisoning: emesis contraindicated | Closed | 058 (KDT8 ch6; Prep p586-590). p1-adr also carries a kerosene emesis point (ADR topic); kept here because this gap targets p2-toxicology |
+| Hydrocarbon poison: charcoal does not adsorb hydrocarbons | Closed | 059 (KDT8 ch6) |
+| Hydrocarbon poison: inhalant abuse of aliphatic and aromatic hydrocarbons | Closed | 061 (Katzung16 ch32). Bedside clues and halogenated solvents already in 054 and 056 |
+| Aluminium phosphide | Still a gap | Confirmed absent from all books; no card written |

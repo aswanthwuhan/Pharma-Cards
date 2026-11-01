@@ -74,3 +74,9 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - p3-pv-economics-034 (WHO Drug Dictionary, ATC, WHO-ART, MedDRA) already covered by an existing card. Not repeated.
+
+## Gap closure (term scan)
+
+- rf-p3-pv-economics-0240: Similar biologic: safety and efficacy trials waived only if (comparable quality, preclinical and clinical PK-PD; post-marketing risk management plan provided) | Sarkar p541-545
+
+Still uncovered: DALY / disability-adjusted life year (no text in the books).

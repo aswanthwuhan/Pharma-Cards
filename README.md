@@ -30,7 +30,8 @@ npm run validate:content
 ## Content and sources
 
 - Each card is written in our own words and points to a chapter in a standard textbook (for example `KDT8 ch52`). No book text is included in this repository.
-- Review books (Rapid Revision, Sarkar, Prep) are cited by page.
+- Review books (Rapid Revision, Sarkar, Prep) are cited by 5-page range of their OCR text (e.g. `Sarkar p221-225`).
+- Syllabus points that no book covers have no cards; they are listed in `content/SOURCE-GAPS.md` (practical exam is a placeholder for now).
 - Layout of `content/`:
   - `decks/` - study cards, one JSON file per topic.
   - `rapid/` - Rapid Fire cards, one JSON file per topic.

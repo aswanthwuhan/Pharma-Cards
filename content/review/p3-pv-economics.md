@@ -75,3 +75,10 @@ Added 4 cards (034-037).
 | Risk management plans under Indian rules | Still a gap | Books silent. GG14 REMS is covered in p3-pv-economics-018 (not the same thing) |
 
 Cross-references (not duplicated): basic PV and PvPI cards are in p1-adr and p4-clinical-trials.
+
+## Gap closure (term scan, study card 038)
+
+| Gap / term | Status | Cards or source |
+|---|---|---|
+| Risk management plan | Closed | 038 (Sarkar p541-545: a similar biologic may skip safety and efficacy trials only if quality, preclinical and clinical PK-PD are comparable and a post-marketing risk management plan is provided). Supersedes the earlier "Still a gap" row for Indian rules |
+| DALY / disability-adjusted life year | Still a gap | No disability-adjusted life-year text in GG14, Katzung, KDT8 or Rang and Dale. The hits are author names (Daly AK, Daly et al.) and the word "disability" in general use |
