@@ -1,0 +1,764 @@
+{
+  "topicId": "p1-special-populations",
+  "source": "KDT8 ch5; Katzung16 ch59-60",
+  "cards": [
+    {
+      "id": "p1-special-populations-001",
+      "type": "shortnote",
+      "front": "Short note: Pharmacokinetic changes in pregnancy",
+      "sections": [
+        {
+          "h": "Absorption",
+          "points": [
+            "Reduced gastrointestinal motility delays absorption of oral drugs"
+          ]
+        },
+        {
+          "h": "Distribution",
+          "points": [
+            "Plasma and extracellular fluid volume expand: volume of distribution may rise",
+            "Albumin falls but alpha-1 acid glycoprotein rises: free fraction of acidic drugs increases, of basic drugs decreases"
+          ]
+        },
+        {
+          "h": "Elimination",
+          "points": [
+            "Marked rise in renal blood flow: polar drugs cleared faster",
+            "Hepatic microsomal enzymes induced: many drugs metabolised faster"
+          ]
+        },
+        {
+          "h": "Net effect",
+          "points": [
+            "Changes are greatest in the third trimester",
+            "Overall effect is complex and hard to predict"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-002",
+      "type": "basic",
+      "front": "Which drug properties govern transfer across the placenta?",
+      "back": "Lipid solubility (thiopental crosses almost at once and can sedate the newborn), degree of ionisation (succinylcholine and tubocurarine cross slowly), molecular weight (250-500 cross readily, 500-1000 with difficulty, above 1000 very poorly), placental transporters such as P-glycoprotein, and protein binding. Basic drugs with pKa above 7.4 are ion-trapped in the slightly more acidic fetal blood (pH 7.3).",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-003",
+      "type": "basic",
+      "front": "Why is heparin preferred to warfarin for anticoagulation in pregnancy?",
+      "back": "Heparin (including low-molecular-weight heparins) is a large polar molecule that does not cross the placenta, whereas warfarin crosses and is teratogenic; warfarin should be avoided in the first trimester and beyond, because the fetal brain keeps developing.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk",
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-special-populations-004",
+      "type": "basic",
+      "front": "How do placental transporters limit fetal drug exposure? Give examples.",
+      "back": "P-glycoprotein (MDR1) pumps drugs such as vinblastine, doxorubicin and HIV protease inhibitors back into the maternal blood (for protease inhibitors this may raise the risk of vertical HIV transmission). Glyburide is effluxed by BCRP and MRP3 and is also more than 98.8% protein bound, so fetal levels stay lower than maternal.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-005",
+      "type": "basic",
+      "front": "Why can prednisolone be used in a pregnant woman with little fetal corticosteroid exposure?",
+      "back": "The placenta converts prednisolone to the inactive prednisone, so the fetus is largely spared active steroid. The placenta also oxidises some drugs (e.g. pentobarbital), but may create toxic metabolites (e.g. from ethanol, benzpyrenes).",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk",
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-special-populations-006",
+      "type": "basic",
+      "front": "Do large protein drugs such as monoclonal antibodies reach the fetus?",
+      "back": "Yes. From the second trimester the placenta develops transporters that carry immunoglobulins to the fetus. Biological drugs such as anti-TNF agents have been found in cord blood, with reports of neonatal neutropenia, anaemia, thrombocytopenia and disseminated BCG infection.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-special-populations-007",
+      "type": "basic",
+      "front": "What are the three stages at which drugs can affect the foetus?",
+      "back": "Fertilisation and implantation (conception to day 17): pregnancy fails, often unnoticed. Organogenesis (days 18-55): most vulnerable, structural deformities. Growth and development (day 56 onwards): functional and developmental defects, e.g. organ hypoplasia with ACE inhibitors, ductus closure with NSAIDs, masculinisation by androgens and progestins, foetal goitre with antithyroid drugs and lithium.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-special-populations-008",
+      "type": "cloze",
+      "front": "Match: human teratogens and their defects",
+      "text": "Thalidomide: {{phocomelia}}; warfarin: {{depressed nose}}, eye and hand defects; phenytoin: hypoplastic phalanges, {{cleft lip/palate}}; valproate and carbamazepine: {{neural tube defects}}; stilboestrol: {{vaginal carcinoma}} in teenage daughters; tetracyclines: {{discoloured teeth}}; ACE inhibitors: {{organ hypoplasia}}; lithium: {{heart}} and other defects; isotretinoin: craniofacial, heart and CNS defects; alcohol: {{foetal alcohol syndrome}}; indomethacin/aspirin: premature closure of {{ductus arteriosus}}.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr",
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-special-populations-009",
+      "type": "basic",
+      "front": "What three criteria define a drug as a teratogen?",
+      "back": "It produces a characteristic set of malformations (selectivity for target organs); it acts at a particular stage of development, such as the organogenesis window of those organs; and its incidence is dose-dependent. Teratogenic effects also include growth restriction, miscarriage, stillbirth and neurocognitive delay.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-special-populations-010",
+      "type": "basic",
+      "front": "How has the US FDA changed pregnancy labelling, and why?",
+      "back": "The old A, B, C, D, X letter categories were removed under rules effective 30 June 2015. Labels now carry narrative sections (Risk Summary, Clinical Considerations, Data) including pregnancy-registry data, and cover lactation and people of reproductive potential. The letters were dropped because about three-quarters of drugs fell into category C, and the grading had become outdated.",
+      "refs": [
+        "Katzung16 ch59",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p1-special-populations-011",
+      "type": "basic",
+      "front": "What points should be covered when counselling a pregnant woman about drug exposure?",
+      "back": "Fewer than 30 drugs are proven human teratogens and hundreds are known to be safe. The baseline risk of a neonatal abnormality without any exposure is about 3%. The risk of leaving the maternal condition untreated must be weighed (stopping SSRIs for depression has caused serious maternal morbidity). Good counselling has been shown to prevent unnecessary abortions.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-special-populations-012",
+      "type": "basic",
+      "front": "Which supplement reduces neural tube defects, and by how much?",
+      "back": "Folic acid taken before and during early pregnancy; Katzung cites a reduction in neural tube defects of up to 75%.",
+      "refs": [
+        "Katzung16 ch59",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-special-populations-013",
+      "type": "shortnote",
+      "front": "Short note: Drug use during lactation",
+      "sections": [
+        {
+          "h": "General",
+          "points": [
+            "Most drugs appear in milk, usually in low amounts",
+            "Infant dose below 10% of the maternal weight-corrected dose: toxicity unlikely",
+            "Formula feeding carries higher infant morbidity, so avoid needless stopping of breastfeeding"
+          ]
+        },
+        {
+          "h": "Timing",
+          "points": [
+            "Take a relatively safe drug 30-60 min after a feed and 3-4 h before the next"
+          ]
+        },
+        {
+          "h": "Drugs of concern",
+          "points": [
+            "Lithium: milk level equals maternal serum",
+            "Amiodarone, atenolol: clinically meaningful exposure",
+            "Tetracycline: milk about 70% of serum, tooth staining",
+            "Isoniazid: pyridoxine deficiency unless mother supplemented",
+            "Barbiturates, chloral hydrate, diazepam: sedation; diazepam accumulates"
+          ]
+        },
+        {
+          "h": "Opioids",
+          "points": [
+            "Methadone: breastfeeding possible with care; taper slowly",
+            "Codeine in CYP2D6 ultra-rapid metaboliser mothers: neonatal opioid death; FDA warning"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-lactation",
+      "tags": [
+        "adr",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-014",
+      "type": "basic",
+      "front": "Why is codeine risky for breastfeeding mothers?",
+      "back": "Mothers who are CYP2D6 ultra-rapid metabolisers make much more morphine, which passes into milk; a neonatal death from opioid toxicity was traced to this. Neonates are also extra sensitive because their blood-brain barrier has little P-glycoprotein, so more morphine enters the brain. The FDA issued a warning on codeine-containing painkillers in lactation.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-lactation",
+      "tags": [
+        "adr",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-015",
+      "type": "shortnote",
+      "front": "Short note: Pharmacokinetics in the neonate",
+      "sections": [
+        {
+          "h": "Absorption",
+          "points": [
+            "Low gastric acid (slower rise in preterm) and gastric emptying up to 6-8 h",
+            "Irregular peristalsis; low bile acids and lipase",
+            "Thin skin: faster transdermal absorption; rectal absorption fast and reliable",
+            "Erratic i.m. absorption in sick preterm infants with poor perfusion"
+          ]
+        },
+        {
+          "h": "Distribution",
+          "points": [
+            "Body water 70-75% (preterm 85%) vs adult 50-60%; extracellular water 40% vs 20%",
+            "Larger volume for water-soluble drugs (aminoglycosides)",
+            "Lower protein binding: more free drug",
+            "Leaky blood-brain barrier"
+          ]
+        },
+        {
+          "h": "Metabolism",
+          "points": [
+            "CYP and conjugation activity 50-70% of adult",
+            "Glucuronidation matures by 3-4 years",
+            "Chloramphenicol gray baby syndrome"
+          ]
+        },
+        {
+          "h": "Excretion",
+          "points": [
+            "GFR 30-40% of adult at birth; reaches adult values by 6-12 months (Katzung)",
+            "Half-life of gentamicin and penicillin prolonged 3-5 times (KDT)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-016",
+      "type": "basic",
+      "front": "How can drugs cause kernicterus in a neonate, and which drug is avoided for this reason?",
+      "back": "Some drugs displace bilirubin from albumin; because the neonatal blood-brain barrier is permeable, free bilirubin enters the brain. This happened when sulfonamides were given to preterm neonates. Ceftriaxone is avoided completely in infants under 2 months. Conversely, rising bilirubin can displace drugs such as phenytoin and raise their free level.",
+      "refs": [
+        "Katzung16 ch59",
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "adr",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p1-special-populations-017",
+      "type": "basic",
+      "front": "Why do toddlers and young children often need a higher mg/kg dose than adults?",
+      "back": "After the first year, drug metabolism and renal elimination often exceed adult rates. The half-lives of theophylline, phenytoin and carbamazepine are shorter than in adults, and the daily per-kg digoxin dose is higher in children (KDT: about 8-12 microgram/kg vs 3-5 microgram/kg in adults).",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "pk",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-018",
+      "type": "basic",
+      "front": "How should a child's dose be calculated, and why not with old age-based formulae?",
+      "back": "Preferably by body weight (mg/kg), as most manufacturers recommend. Age-based formulae are no longer used. Infant doses must be learnt as such, because infants differ physiologically from adults and cannot be dosed from a formula.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-019",
+      "type": "basic",
+      "front": "Name four adverse effects that occur particularly in growing children.",
+      "back": "Growth suppression with corticosteroids; early epiphyseal fusion and stunting with androgens; tetracycline deposition in growing teeth causing discolouration and deformity; dystonic reactions to phenothiazines are more frequent.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-special-populations-020",
+      "type": "basic",
+      "front": "What practical problems with dosage forms and adherence occur in paediatric practice?",
+      "back": "Suspensions (e.g. phenytoin) must be shaken each time or early doses are weak and late doses toxic; elixirs need no shaking. Household teaspoons vary from 2.5 to 7.8 mL, so a calibrated spoon or syringe should be used. Parents often stop antibiotics once the child feels well. Weight-based calculations risk tenfold decimal errors (e.g. digoxin): use a leading zero, avoid trailing zeros and double-check high-risk drugs.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-021",
+      "type": "shortnote",
+      "front": "Short note: Pharmacokinetic changes in the elderly",
+      "sections": [
+        {
+          "h": "Absorption",
+          "points": [
+            "Little real change; slower gastric emptying and reduced gut motility and blood flow may slow it"
+          ]
+        },
+        {
+          "h": "Distribution",
+          "points": [
+            "Less lean mass and body water, more fat",
+            "Volume of distribution rises for lipophilic and falls for hydrophilic drugs",
+            "Albumin falls; alpha-1 acid glycoprotein may rise"
+          ]
+        },
+        {
+          "h": "Metabolism",
+          "points": [
+            "Hepatic blood flow falls to about 55-60% of young adult",
+            "Phase I (CYP) affected more than phase II conjugation",
+            "Lower clearance of e.g. diazepam, imipramine, propranolol, theophylline; not of lorazepam, oxazepam, warfarin"
+          ]
+        },
+        {
+          "h": "Excretion",
+          "points": [
+            "GFR about 75% at 50 years and 50% at 75 years (KDT)",
+            "Serum creatinine misleads because muscle mass falls; estimate creatinine clearance from age, weight and serum creatinine"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-022",
+      "type": "basic",
+      "front": "Write the formula used to estimate creatinine clearance in an elderly patient.",
+      "back": "CLcr (mL/min) = (140 - age) x weight (kg) / (72 x serum creatinine in mg/dL); multiply by 0.85 for women. It is only a population estimate; up to a third of elderly people have normal renal function, and a timed 12- or 24-h clearance is needed for precision.",
+      "refs": [
+        "Katzung16 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-023",
+      "type": "basic",
+      "front": "Give examples of altered drug sensitivity in the elderly.",
+      "back": "More sensitive to sedative-hypnotics and to respiratory depression by opioids; relatively intolerant to digitalis; reduced responsiveness to beta-adrenoceptor agonists and antagonists; even mild anticholinergic action worsens voiding in men with prostatism; phenothiazines cause more orthostatic hypotension. Benzodiazepine and barbiturate half-lives rise by 50-150% between 30 and 70 years.",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "adr",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-024",
+      "type": "basic",
+      "front": "Why are adverse drug reactions so common in the elderly, and what is a 'brown bag' review?",
+      "back": "ADR incidence is at least twice that of younger people, rising from about 10% with one drug to nearly 100% with ten. Causes: altered kinetics, several prescribers, OTC and herbal products, interactions (e.g. cimetidine inhibiting metabolism of phenytoin, warfarin, beta blockers) and nonadherence. In a brown bag review the patient brings every medicine and supplement; duplicates and unnecessary drugs are removed, often cutting the total by 30-50%.",
+      "refs": [
+        "Katzung16 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "adr",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-special-populations-025",
+      "type": "basic",
+      "front": "State the principles of prescribing for geriatric patients.",
+      "back": "Take a careful drug history; prescribe only for a specific rational indication; define the goal, start low and titrate, waiting at least three (age-adjusted) half-lives before increasing; check blood levels if the usual dose fails; keep a high suspicion for reactions and interactions, including OTC and herbal products; simplify the regimen and reduce the number of drugs.",
+      "refs": [
+        "Katzung16 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-026",
+      "type": "basic",
+      "front": "How should digoxin loading and maintenance doses be adjusted in an elderly patient?",
+      "back": "Reduce the loading dose because the apparent volume of distribution is smaller (less lean mass and water), and reduce the maintenance dose because renal clearance is lower.",
+      "refs": [
+        "Katzung16 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "dosing",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-027",
+      "type": "shortnote",
+      "front": "Short note: Drug therapy in liver disease",
+      "sections": [
+        {
+          "h": "Kinetic changes",
+          "points": [
+            "Bioavailability of high first-pass drugs rises (loss of hepatocytes, portocaval shunting)",
+            "Low albumin: more free acidic drugs (diclofenac, warfarin)",
+            "Reduced clearance of morphine, lidocaine, propranolol: lower doses",
+            "Prodrugs needing hepatic activation (bacampicillin) less effective"
+          ]
+        },
+        {
+          "h": "Preferred alternatives",
+          "points": [
+            "Oxazepam or lorazepam instead of diazepam",
+            "Atenolol as the beta blocker"
+          ]
+        },
+        {
+          "h": "Altered drug action",
+          "points": [
+            "Morphine and barbiturates may cause coma in cirrhotics",
+            "Brisk diuresis: hypokalaemic alkalosis, more NH3, hepatic encephalopathy",
+            "Oral anticoagulants markedly prolong prothrombin time",
+            "NSAID fluid retention and metformin lactic acidosis worsen"
+          ]
+        },
+        {
+          "h": "Limitation",
+          "points": [
+            "No simple test (unlike creatinine clearance) predicts the change",
+            "Avoid hepatotoxic drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "pk",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p1-special-populations-028",
+      "type": "basic",
+      "front": "How are doses of renally excreted drugs adjusted in kidney disease?",
+      "back": "Clearance of drugs excreted unchanged (aminoglycosides, digoxin, phenobarbitone) falls in parallel with creatinine clearance. Loading dose is unchanged (unless oedema), but maintenance dose is cut or interval lengthened. KDT guide: CLcr 50-70 mL/min, 70% of the dose rate; 30-50, 50%; 10-30, 30%; 5-10, 20%. Steady state is reached later if half-life is prolonged.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-029",
+      "type": "cloze",
+      "front": "Classify: antimicrobials needing dose reduction in renal failure",
+      "text": "Even in mild failure: {{aminoglycosides}}, {{cephalexin}}, {{ethambutol}}, {{vancomycin}}, {{amphotericin B}}, {{acyclovir}}. Only in severe failure: {{cotrimoxazole}}, {{carbenicillin}}, {{cefotaxime}}, {{norfloxacin}}, {{ciprofloxacin}}, {{metronidazole}}.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing",
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-special-populations-030",
+      "type": "basic",
+      "front": "Which drugs should be avoided or used with care in renal failure, and why?",
+      "back": "Nephrotoxic drugs: aminoglycosides, tetracyclines (except doxycycline; also anti-anabolic, worsen uraemia), sulfonamides (crystalluria), vancomycin, nitrofurantoin, cyclosporine, amphotericin B. Thiazides are ineffective and reduce GFR (use furosemide). Potassium-sparing diuretics cause hyperkalaemia. Pethidine: norpethidine accumulates and causes seizures. Urinary antiseptics fail to reach urinary levels and cause systemic toxicity. NSAIDs increase fluid retention.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "contraindications",
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-special-populations-031",
+      "type": "basic",
+      "front": "How does renal failure alter drug distribution and sensitivity?",
+      "back": "Albumin is low or altered, so binding of acidic drugs falls (basic drugs little changed). The blood-brain barrier becomes more permeable, so opiates, barbiturates, phenothiazines and benzodiazepines cause more CNS depression. Antihypertensives cause more postural hypotension.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-special-populations-032",
+      "type": "basic",
+      "front": "How does congestive heart failure alter drug kinetics?",
+      "back": "Absorption falls from mucosal oedema and splanchnic vasoconstriction (procainamide, hydrochlorothiazide); volume of distribution may change, so loading doses of lidocaine and procainamide should be lowered; elimination slows from hepatic congestion and low GFR, so dosing rates of lidocaine, procainamide and theophylline may need cutting; the failing heart is more sensitive to digitalis.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "pk",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-special-populations-033",
+      "type": "basic",
+      "front": "How does thyroid status alter drug response?",
+      "back": "Hypothyroid patients are more sensitive to digoxin, morphine and CNS depressants. Hyperthyroid patients resist the inotropic action of digoxin but are more prone to its arrhythmias. Digoxin clearance roughly follows thyroid function.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-special-populations-034",
+      "type": "basic",
+      "front": "Give examples of gastrointestinal disease altering drug absorption.",
+      "back": "In coeliac disease amoxicillin absorption falls but cephalexin and cotrimoxazole absorption rises, so malabsorption does not reduce all drugs. Gastric stasis in a migraine attack delays absorption. Achlorhydria reduces aspirin absorption by increasing its ionisation.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-special-populations-035",
+      "type": "essay",
+      "front": "Essay: Drug therapy in special populations",
+      "sections": [
+        {
+          "h": "Pregnancy",
+          "points": [
+            "Kinetic changes: larger Vd, altered binding, faster renal and hepatic clearance",
+            "Placental transfer: lipid solubility, ionisation, size, transporters",
+            "Teratogenic stages; known teratogens; FDA narrative labelling since 2015",
+            "Avoid drugs unless compelling; folate supplementation"
+          ]
+        },
+        {
+          "h": "Lactation",
+          "points": [
+            "Most drugs low in milk; under 10% infant dose is safe",
+            "Concern: lithium, amiodarone, atenolol, tetracycline, sedatives, codeine"
+          ]
+        },
+        {
+          "h": "Neonates and children",
+          "points": [
+            "Immature metabolism and GFR; more body water; leaky BBB",
+            "Gray baby, kernicterus",
+            "Faster clearance in toddlers; weight-based dosing; dosage-form errors"
+          ]
+        },
+        {
+          "h": "Elderly",
+          "points": [
+            "Reduced renal clearance; estimated creatinine clearance",
+            "Altered Vd and phase I metabolism; more sensitivity to CNS drugs",
+            "Polypharmacy, ADRs, brown bag review; start low, go slow"
+          ]
+        },
+        {
+          "h": "Liver disease",
+          "points": [
+            "Higher bioavailability, low albumin, reduced clearance",
+            "Prefer oxazepam/lorazepam; avoid hepatotoxins"
+          ]
+        },
+        {
+          "h": "Kidney disease",
+          "points": [
+            "Reduce maintenance dose by CLcr; loading dose unchanged",
+            "Avoid nephrotoxins, pethidine, K-sparing diuretics, thiazides"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "KDT8 ch6",
+        "Katzung16 ch59",
+        "Katzung16 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "pk",
+        "dosing"
+      ]
+    }
+  ]
+}

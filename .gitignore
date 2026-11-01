@@ -1,0 +1,26 @@
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+.env*
+*.log
+.DS_Store
+.claude/settings.local.json
+tmp/
+.tmp*/
+scratch/
+# stray empty files from shell redirects
+/10
+/12
+/24
+/4
+/50%
+/70
+/90%
+# never commit book files
+*.pdf
+*.epub
+/content/100
+/content/80

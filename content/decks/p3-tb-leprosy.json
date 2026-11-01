@@ -1,0 +1,1154 @@
+{
+  "topicId": "p3-tb-leprosy",
+  "source": "KDT8 ch56-57",
+  "cards": [
+    {
+      "id": "p3-tb-leprosy-001",
+      "type": "basic",
+      "front": "How does isoniazid act, and why is it selective for mycobacteria?",
+      "back": "It is a prodrug activated inside the bacillus by the catalase-peroxidase KatG. The activated form binds NAD and blocks InhA and KasA, stopping mycolic acid synthesis in the cell wall. Human cells lack this activation step, so the drug is selective. A second adduct inhibits mycobacterial DHFR and disrupts DNA synthesis.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-002",
+      "type": "basic",
+      "front": "How does rifampicin kill mycobacteria, and why is it selective?",
+      "back": "It binds the beta subunit of the bacterial DNA-dependent RNA polymerase (the rpoB gene product) and blocks chain elongation. Mammalian RNA polymerase binds it poorly, which gives selectivity. Resistance is almost always an rpoB mutation.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-003",
+      "type": "basic",
+      "front": "Why is pyrazinamide useful despite being a weak drug, and how does it act?",
+      "back": "Bacterial pyrazinamidase (pncA) converts it to pyrazinoic acid, which accumulates in an acidic environment. Its activity at acidic pH suits intracellular bacilli and inflamed sites, so it gives sterilising activity and allows the course to be shortened. It is most useful in the first 2 months.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-004",
+      "type": "basic",
+      "front": "What does ethambutol inhibit, which gene mutation causes resistance, and why is it given?",
+      "back": "It inhibits arabinosyl transferases (embAB) that make arabinogalactan, so mycolic acids cannot be incorporated into the cell wall. Resistance develops slowly, mostly through embB mutation. It is bacteriostatic; its main role is to prevent resistance when added to RHZ.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-005",
+      "type": "cloze",
+      "front": "Classify: the five first-line anti-TB drugs and their activity.",
+      "text": "The first-line drugs are {{isoniazid}}, {{rifampicin}}, {{pyrazinamide}}, {{ethambutol}} and {{streptomycin}}. Isoniazid and rifampicin are the most potent {{bactericidal}} drugs, {{ethambutol}} is {{bacteriostatic}}, and streptomycin acts only on {{extracellular}} bacilli.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-006",
+      "type": "shortnote",
+      "front": "Short note: Isoniazid (INH)",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Prodrug activated by KatG inside the bacillus",
+            "Blocks mycolic acid synthesis (InhA, KasA)",
+            "Selective: no activity against other organisms"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Completely absorbed; penetrates cavities, placenta and meninges",
+            "Cleared by NAT2 acetylation; fast and slow acetylators",
+            "Half-life about 1 hour in fast and 3 hours in slow acetylators"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Peripheral neuritis: dose-related, from pyridoxine deficiency",
+            "Hepatitis: dose-related, commoner in older people and alcoholics",
+            "Lethargy, rashes, arthralgia, mild anaemia"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Inhibits CYP2C19 and CYP3A4, raising phenytoin, carbamazepine, warfarin and theophylline",
+            "Aluminium hydroxide reduces absorption",
+            "PAS prolongs its half-life"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "mechanism",
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-007",
+      "type": "basic",
+      "front": "Why does isoniazid acetylator status matter?",
+      "back": "INH is acetylated by NAT2. Fast acetylators (about 30 to 40 percent of Indians) clear it in about 1 hour; slow acetylators (60 to 70 percent) take about 3 hours. Daily dosing works in both groups, but twice-weekly regimens are less effective in fast acetylators. Slow acetylators get peripheral neuritis more often.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-008",
+      "type": "basic",
+      "front": "Isoniazid neurotoxicity: cause, prophylaxis and treatment?",
+      "back": "It interferes with formation of active pyridoxal phosphate and increases urinary loss of pyridoxine. Prophylaxis is pyridoxine 10 mg/day, and it is essential in diabetics, alcoholics, malnourished, pregnant, lactating and HIV-infected patients and with high-dose INH. Treatment is pyridoxine 100 mg/day.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-009",
+      "type": "basic",
+      "front": "Rifampicin: main adverse effects and the harmless finding patients notice first",
+      "back": "Orange-red urine, sweat, tears and secretions, which is harmless. Flushing, pruritus, rash, flu-like symptoms and GI upset, commoner with intermittent dosing. Hepatitis is dose-related, rare below 600 mg/day, and worse in pre-existing liver disease. Rarely purpura, haemolysis, shock or renal failure.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-010",
+      "type": "basic",
+      "front": "Why does rifampicin lower the levels of other drugs?",
+      "back": "It induces microsomal CYP450 enzymes (CYP3A4, CYP2C, CYP2D6, CYP1A2), speeding up its own metabolism (AUC down about 35 percent) and that of warfarin, oral contraceptives, corticosteroids, sulfonylureas, HIV protease inhibitors, NNRTIs, theophylline, metoprolol, azoles, clarithromycin and phenytoin. Contraceptive failure has occurred; use a pill with 50 mcg estrogen or another method.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-011",
+      "type": "basic",
+      "front": "Which drugs' levels rise with isoniazid, and what lowers isoniazid levels?",
+      "back": "INH inhibits CYP2C19 and CYP3A4, raising phenytoin, carbamazepine, diazepam, theophylline and warfarin. Aluminium hydroxide reduces its absorption. PAS competes for acetylation and prolongs its half-life. Rifampicin counteracts INH's inhibition, but the net effect on many drugs is unpredictable.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-012",
+      "type": "basic",
+      "front": "Ethambutol: main toxicity, monitoring and what to do",
+      "back": "Retrobulbar neuritis: loss of visual acuity and colour vision, and central field defects. It is dose- and duration-dependent and largely reversible if stopped early. Patients must report any visual change at once; young children may not report it, so monitor them carefully. Stop at the first sign of optic neuritis, and use with caution in renal disease.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-013",
+      "type": "basic",
+      "front": "Pyrazinamide: main toxicities, contraindication and dose limit",
+      "back": "Dose-related hepatotoxicity, so the daily dose is limited to 25 to 30 mg/kg (less common in Indians than in Western patients). Contraindicated in liver disease. Hyperuricaemia from reduced renal urate secretion can cause gout. Also abdominal upset, arthralgia, and it can disturb glucose control in diabetics. It is now considered safe in pregnancy.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-first-line",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-014",
+      "type": "basic",
+      "front": "Which fluoroquinolone is most active against M. tuberculosis, and why is its use restricted?",
+      "back": "Moxifloxacin is most active, followed by levofloxacin, ofloxacin and ciprofloxacin. They are oral bactericidal drugs that also kill bacilli inside macrophages. Use is restricted to drug-resistant TB to preserve them. Used alone they select resistance quickly by gyrase mutation, although resistance to moxifloxacin develops more slowly.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-second-line",
+      "tags": [
+        "classification",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-015",
+      "type": "basic",
+      "front": "Cycloserine: mechanism and main toxicity",
+      "back": "A D-alanine analogue. It blocks the enzymes that make D-alanine and join two D-alanine residues, so cell wall peptide cross-linking fails. Toxicity is mainly neuropsychiatric (sleepiness, headache, tremor, psychosis, with seizures less often). Give pyridoxine 100 mg/day. Contraindicated in mental illness or seizure disorders.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-second-line",
+      "tags": [
+        "mechanism",
+        "adr",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-016",
+      "type": "cloze",
+      "front": "Classify: WHO grouping of drugs for MDR/RR-TB regimens (GG14), and the older grouping",
+      "text": "Group A (include all three): {{levofloxacin or moxifloxacin}}, {{bedaquiline}} and {{linezolid}}. Group B (add both): {{clofazimine}} and {{cycloserine or terizidone}}. Group C (to complete the regimen when A and B drugs cannot be used): {{ethambutol}}, {{delamanid}}, {{pyrazinamide}}, meropenem with amoxicillin-clavulanate, {{amikacin}}, ethionamide or prothionamide, and PAS. The older RNTCP grouping in KDT put first-line oral drugs in group I, {{injectables}} in group II, fluoroquinolones in group III and bacteriostatic oral drugs in group IV.",
+      "refs": [
+        "GG14 ch65",
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-second-line",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-017",
+      "type": "basic",
+      "front": "Bedaquiline: mechanism and why it is selective",
+      "back": "A diarylquinoline that inhibits subunit c of mycobacterial ATP synthase, cutting the bacillus's energy supply. Human ATP synthase is far less sensitive, which gives selectivity. It kills both multiplying and dormant bacilli. Resistance arises from ATP synthase mutation or from efflux pump mutations; GG14 notes that efflux-based resistance gives cross-resistance with clofazimine. WHO now classes it as a Group A drug for MDR-TB.",
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-second-line",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-018",
+      "type": "basic",
+      "front": "Bedaquiline: adverse effects and why background drugs must continue after it stops",
+      "back": "Nausea, headache, arthralgia, QTc prolongation (caution with other QT-prolonging drugs) and potential hepatotoxicity. It accumulates in tissues and has a terminal half-life of about 5.5 months, so it persists for months after stopping. KDT therefore stresses continuing the background drugs to the end of the course, so that surviving bacilli are not left exposed to bedaquiline alone.",
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-second-line",
+      "tags": [
+        "adr",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-019",
+      "type": "cloze",
+      "front": "Bedaquiline dosing in pulmonary MDR-TB (as licensed)",
+      "text": "400 mg daily for {{2 weeks}}, then 200 mg {{three times a week}} for {{22 weeks}}. Maximum course {{24 weeks}}, with each tablet swallowed whole with meals. Use only in adults over 18 who are not pregnant, with at least 3 active background drugs.",
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-second-line",
+      "tags": [
+        "dosing",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-020",
+      "type": "basic",
+      "front": "Linezolid in drug-resistant TB: role, dose in the book regimen and key toxicities",
+      "back": "The RNTCP XDR-TB regimen in KDT lists linezolid 600 mg daily for adults of 46 to 70 kg. GG14 states that WHO now classes linezolid as a Group A drug for MDR-TB and that it is part of the 6-month bedaquiline + pretomanid + linezolid regimen approved for XDR-TB, although adverse effects are frequent. It inhibits bacterial protein synthesis at the 50S ribosome. Main toxicities are bone marrow suppression, peripheral and optic neuropathy and lactic acidosis, so blood counts and vision are monitored.",
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-second-line",
+      "tags": [
+        "dosing",
+        "newer-drugs",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-021",
+      "type": "cloze",
+      "front": "Regimen for new drug-sensitive pulmonary TB (RNTCP 2016 in KDT, and GG14)",
+      "text": "Intensive phase: {{2 months}} of daily HRZE. Continuation phase: {{4 months}} of daily HRE under RNTCP 2016 (GG14 gives daily HR). Total duration: {{6 months}}. GG14 notes that {{daily}} dosing is preferred over intermittent dosing because it gives the best chance of cure without relapse.",
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-022",
+      "type": "cloze",
+      "front": "Regimen for previously treated pulmonary TB, presumed drug-sensitive (RNTCP 2016).",
+      "text": "Intensive phase: {{2 months}} of daily HRZES, then streptomycin is stopped and HRZE is given for {{1 more month}}. Continuation phase: {{5 months}} of daily HRE. Total duration: {{8 months}}.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-023",
+      "type": "shortnote",
+      "front": "Short note: categories of drug-resistant TB (RNTCP 2016)",
+      "sections": [
+        {
+          "h": "Drug-sensitive",
+          "points": [
+            "Susceptible to all five first-line drugs",
+            "New patients, or those with under one month of prior treatment"
+          ]
+        },
+        {
+          "h": "MDR-TB",
+          "points": [
+            "Resistant to both rifampicin and isoniazid, with or without others"
+          ]
+        },
+        {
+          "h": "RR-TB",
+          "points": [
+            "Rifampicin resistant but isoniazid sensitive",
+            "Managed as MDR-TB"
+          ]
+        },
+        {
+          "h": "Mono- and poly-drug resistant",
+          "points": [
+            "Mono: resistant to one first-line drug other than rifampicin",
+            "Poly: resistant to more than one first-line drug, but not to both rifampicin and isoniazid"
+          ]
+        },
+        {
+          "h": "XDR-TB",
+          "points": [
+            "MDR-TB plus resistance to a fluoroquinolone and one injectable second-line drug"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-024",
+      "type": "cloze",
+      "front": "Standard RNTCP regimen for MDR-TB (2016), and how WHO practice has changed",
+      "text": "RNTCP 2016 intensive phase (6 to 9 months): {{kanamycin}}, {{levofloxacin}}, {{ethionamide}}, {{cycloserine}}, {{pyrazinamide}} and {{ethambutol}}. Continuation phase ({{18 months}}): levofloxacin, ethionamide, cycloserine and ethambutol, with {{pyridoxine}} throughout. GG14: injectable agents (kanamycin, amikacin, capreomycin) have now largely been {{phased out}}, and WHO builds MDR-TB regimens from Group A, B and C drugs given for 18 to 20 months.",
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-025",
+      "type": "shortnote",
+      "front": "Short note: principles of MDR-TB regimen design",
+      "sections": [
+        {
+          "h": "Basic principles",
+          "points": [
+            "At least 4 drugs certain to work, often 6",
+            "Choose drugs using DST results and the drugs used before"
+          ]
+        },
+        {
+          "h": "Avoid cross-resistant pairs",
+          "points": [
+            "Two fluoroquinolones",
+            "Kanamycin with amikacin",
+            "Ethionamide with prothionamide",
+            "Cycloserine with terizidone"
+          ]
+        },
+        {
+          "h": "Hierarchy",
+          "points": [
+            "Group I: pyrazinamide and ethambutol",
+            "One injectable (group II)",
+            "One fluoroquinolone (group III)",
+            "Two group IV drugs"
+          ]
+        },
+        {
+          "h": "Duration",
+          "points": [
+            "Intensive phase extended by 1 month (to a maximum of 9) if cultures stay positive at months 4, 5 and 6"
+          ]
+        },
+        {
+          "h": "Current WHO approach (GG14)",
+          "points": [
+            "All three Group A drugs (a fluoroquinolone, bedaquiline, linezolid) plus one or both Group B drugs (clofazimine, cycloserine or terizidone)",
+            "Group C drugs only to complete the regimen; at least 4 to 5 active drugs in total; 18 to 20 months",
+            "If resistance or intolerance: at least four drugs to which the isolate is susceptible"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "classification",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-026",
+      "type": "basic",
+      "front": "Rifampicin-resistant TB with isoniazid sensitivity: how is it treated?",
+      "back": "It is managed as MDR-TB, with isoniazid added to both phases without changing the duration or the other drugs. The intensive phase (6 months) has seven drugs: kanamycin, levofloxacin, ethionamide, cycloserine, pyrazinamide, ethambutol and isoniazid. The continuation phase (18 months) has five: levofloxacin, ethionamide, cycloserine, ethambutol and isoniazid.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "dosing",
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-027",
+      "type": "basic",
+      "front": "Low-level versus high-level isoniazid resistance: when is high-dose INH used?",
+      "back": "Low-level resistance (on LC-DST) or inhA mutation can be overcome with high-dose INH: 900 mg/day for 46 to 70 kg body weight, with pyridoxine. High-level resistance, or resistance from a katG mutation, makes INH ineffective, so it must not be given.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "mechanism",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-028",
+      "type": "basic",
+      "front": "Initial regimens for mono-drug and poly-drug resistant TB (RNTCP 2016)",
+      "back": "Mono-resistant (not rifampicin): rifampicin, two susceptible first-line drugs, one injectable second-line drug and one fluoroquinolone, daily for 3 to 6 months. Poly-resistant: rifampicin, an injectable, a fluoroquinolone, a susceptible first-line drug and one oral second-line drug (ethionamide, cycloserine or PAS). Both: stop the injectable after the intensive phase and give four oral drugs for 6 more months, for a total of 9 to 12 months.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "dosing",
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-029",
+      "type": "essay",
+      "front": "Essay: Management of XDR-TB",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "MDR-TB plus resistance to a fluoroquinolone and to one of kanamycin, amikacin or capreomycin",
+            "About 9.7 percent of MDR-TB patients had XDR-TB in WHO's 2015 estimate"
+          ]
+        },
+        {
+          "h": "Immediate steps",
+          "points": [
+            "Stop the standard MDR regimen as soon as XDR-TB is detected or suspected",
+            "Continuing it would further amplify resistance"
+          ]
+        },
+        {
+          "h": "Expert decision",
+          "points": [
+            "Group V drugs are difficult to tolerate and expensive",
+            "An expert panel decides on an individual regimen"
+          ]
+        },
+        {
+          "h": "RNTCP 2016 regimen",
+          "points": [
+            "Intensive phase of 6 to 12 months with seven drugs: capreomycin 1000 mg, moxifloxacin 400 mg, high-dose isoniazid 900 mg, PAS 12 g, clofazimine 200 mg, linezolid 600 mg and amoxicillin-clavulanate 875/125 mg (two tablets in the morning, one in the evening)",
+            "Continuation phase of 18 months: capreomycin is stopped and six drugs continue"
+          ]
+        },
+        {
+          "h": "Newer all-oral option (GG14)",
+          "points": [
+            "A 6-month regimen of bedaquiline + pretomanid + linezolid was highly effective in XDR-TB and is FDA-approved for it",
+            "Pretomanid is a nitroimidazole prodrug; linezolid toxicity is frequent"
+          ]
+        },
+        {
+          "h": "Outcome",
+          "points": [
+            "Rapid course with high mortality",
+            "Expanding second-line drug susceptibility testing is expected to identify more cases"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-regimens",
+      "tags": [
+        "dosing",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-030",
+      "type": "cloze",
+      "front": "TB in pregnancy: which drugs are safe and what supplement is needed?",
+      "text": "{{Isoniazid}}, {{rifampicin}}, {{ethambutol}} and {{pyrazinamide}} are considered safe, so the standard 6-month regimen is given in full and treatment is not delayed. {{Streptomycin}} is contraindicated because it is ototoxic to the foetus. Pregnant women on INH take {{pyridoxine 10 to 25 mg/day}}.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-special",
+      "tags": [
+        "contraindications",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-031",
+      "type": "shortnote",
+      "front": "Short note: TB in HIV-positive patients",
+      "sections": [
+        {
+          "h": "Risk",
+          "points": [
+            "Risk of TB about 8 times higher",
+            "More extrapulmonary, severe and lethal disease; extrapulmonary and dual TB are commoner when CD4 is below 150 cells/uL",
+            "Antiretroviral therapy lowers TB incidence"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "At least 4 drugs: daily HRZE for 2 months, then HRE for 4 to 7 months",
+            "Thrice-weekly dosing is avoided because relapse and failure are 2 to 3 times higher",
+            "MDR-TB is treated for 24 months, as in non-HIV patients"
+          ]
+        },
+        {
+          "h": "Supportive care",
+          "points": [
+            "Pyridoxine 25 to 50 mg/day with INH",
+            "Cotrimoxazole preventive therapy through the whole anti-TB course reduces mortality"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Rifampicin strongly induces protease inhibitors and nevirapine, making them ineffective; substitute rifabutin for 9 to 12 months",
+            "Rifabutin dose must be reduced when given with a protease inhibitor",
+            "NRTIs are not affected; KDT names efavirenz as the preferred NNRTI with rifampicin",
+            "Dolutegravir: GG14 advises increasing the dose from 50 mg once daily to 50 mg twice daily with rifampicin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch64"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-special",
+      "tags": [
+        "interactions",
+        "uses",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-032",
+      "type": "cloze",
+      "front": "Treatment of MAC infection in AIDS (intensive phase, then maintenance).",
+      "text": "A {{macrolide}} (clarithromycin 500 mg twice daily or azithromycin 500 mg once daily) with {{ethambutol}} 1000 mg per day and {{rifabutin}} 300 mg per day; a {{fluoroquinolone}} may be added, though its benefit is unclear. Maintenance continues for at least {{12 months}}, together with antiretroviral therapy.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-special",
+      "tags": [
+        "dosing",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-033",
+      "type": "shortnote",
+      "front": "Short note: chemoprophylaxis for latent TB",
+      "sections": [
+        {
+          "h": "Who",
+          "points": [
+            "Recent Mantoux converters among contacts of an open case",
+            "Children living with a sputum-positive case; neonates of TB mothers",
+            "Patients with leukaemia, diabetes, silicosis, immunosuppression or long-term steroids; HIV-infected contacts of sputum-positive cases"
+          ]
+        },
+        {
+          "h": "Standard regimen",
+          "points": [
+            "KDT: isoniazid 300 mg daily for 6 months (10 mg/kg in children); extending beyond 6 months adds little",
+            "GG14 (WHO options): daily isoniazid for 6 to 9 months; daily rifampicin for 3 to 4 months; daily isoniazid plus rifampicin for 3 to 4 months; weekly rifapentine plus isoniazid for 3 months (12 doses)"
+          ]
+        },
+        {
+          "h": "Contacts of MDR-TB",
+          "points": [
+            "WHO (2014): no prophylaxis; watch closely and treat promptly if disease appears",
+            "Experts may tailor a regimen to the susceptibility profile of the index case"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-special",
+      "tags": [
+        "uses",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-034",
+      "type": "basic",
+      "front": "When are corticosteroids used in TB, and when are they contraindicated?",
+      "back": "Not routinely. Used only under effective chemotherapy cover: in severe or miliary TB (to buy time), for drug hypersensitivity, and in meningeal, renal or pericardial TB or pleural effusion (to reduce exudation and adhesions). GG14 calls steroids standard care in TB meningitis; in TB pericarditis a large trial showed no overall benefit on the main outcome, though constrictive pericarditis was reduced. Contraindicated in intestinal TB because of the risk of silent perforation. Taper once the patient improves.",
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-special",
+      "tags": [
+        "uses",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-035",
+      "type": "basic",
+      "front": "Anti-TB drug hepatitis: what is the first step?",
+      "back": "Stop all anti-TB drugs and let the reaction subside. Isoniazid, rifampicin or pyrazinamide (one or more) are the usual culprits, and combination therapy raises the risk. If TB is severe, start streptomycin, ethambutol and one fluoroquinolone (all non-hepatotoxic) while the liver recovers.",
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-adr",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-036",
+      "type": "shortnote",
+      "front": "Short note: re-introducing anti-TB drugs after hepatitis or severe reactions",
+      "sections": [
+        {
+          "h": "Method",
+          "points": [
+            "Re-introduce one drug at a time: rifampicin first, then isoniazid 7 days later",
+            "If both are tolerated, do not restart pyrazinamide; prolong rifampicin, isoniazid and ethambutol to 9 months"
+          ]
+        },
+        {
+          "h": "If rifampicin is the culprit",
+          "points": [
+            "HES for 2 months, then HE for 10 months"
+          ]
+        },
+        {
+          "h": "If isoniazid is the culprit",
+          "points": [
+            "REZ for 9 months"
+          ]
+        },
+        {
+          "h": "Recurrence",
+          "points": [
+            "Stop the last-added drug permanently and rebuild the regimen"
+          ]
+        },
+        {
+          "h": "Severe or skin reactions",
+          "points": [
+            "Never re-introduce rifampicin after haemolysis, thrombocytopenia or renal failure",
+            "For rashes or itching: stop all drugs, then challenge one drug at a time with small doses, increasing every 3 days"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-adr",
+      "tags": [
+        "adr",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-037",
+      "type": "basic",
+      "front": "Dapsone: mechanism and why it is selective for M. leprae",
+      "back": "It is a sulfone that blocks folate synthase, so PABA cannot be used to make folic acid; PABA reverses its action. The folate synthase of M. leprae binds dapsone with much higher affinity than that of most other bacteria, so it works at very low leprostatic levels. Doses needed for pyogenic infections are too toxic to use.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-dapsone",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-038",
+      "type": "basic",
+      "front": "Dapsone resistance: primary versus secondary, and why dapsone still works",
+      "back": "Primary resistance is found in a patient never treated with dapsone, meaning the infection came from a resistant source. Secondary resistance develops during monotherapy, in up to about 20 percent of patients. Mutated folate synthase has lower affinity. Peak serum levels still exceed the MIC by about 500 times, so relapse from resistance is only about 2 to 3 percent. Dormant persisters are a separate problem.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-dapsone",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-039",
+      "type": "basic",
+      "front": "Dapsone adverse effects: which are dose-related and which depend on G6PD status?",
+      "back": "Mild haemolytic anaemia is common and dose-related, from its oxidising action. G6PD-deficient patients haemolyse at doses above 50 mg/day. Also methaemoglobinaemia, early nausea and anorexia, headache, paraesthesia, drug fever, rashes, fixed drug eruption, hypermelanosis and phototoxicity. Hepatitis and agranulocytosis are rare.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-dapsone",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-040",
+      "type": "basic",
+      "front": "Sulfone syndrome: timing, features and treatment",
+      "back": "It starts 4 to 6 weeks after dapsone is begun: fever, malaise, lymph node enlargement, skin desquamation, jaundice and anaemia. It is commoner in malnourished patients and has become more frequent since MDT was introduced. Treatment: stop dapsone, give corticosteroids and supportive care.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-dapsone",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-041",
+      "type": "basic",
+      "front": "Dapsone: contraindications and uses beyond leprosy",
+      "back": "Avoid in severe anaemia (Hb below 7 g/dL), G6PD deficiency and hypersensitivity. KDT lists its combination with pyrimethamine for chloroquine-resistant malaria, toxoplasmosis and Pneumocystis jirovecii infection; GG14 states that dapsone is no longer used for malaria, but it is used for Pneumocystis treatment and prophylaxis, Toxoplasma prophylaxis, and for its anti-inflammatory action in conditions such as pemphigoid.",
+      "refs": [
+        "KDT8 ch57",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-dapsone",
+      "tags": [
+        "contraindications",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-042",
+      "type": "basic",
+      "front": "Clofazimine: proposed mechanisms, absorption and why it can be given intermittently",
+      "back": "A dye with leprostatic and anti-inflammatory action. Proposed actions: interference with DNA template function, disruption of membrane structure and transport, and disruption of the mitochondrial electron transport chain. About 40 to 70 percent is absorbed orally. It accumulates in macrophages as crystals in fat and other tissues, with a half-life of about 70 days, which allows intermittent dosing.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-clofazimine",
+      "tags": [
+        "mechanism",
+        "pk"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-043",
+      "type": "basic",
+      "front": "Clofazimine: adverse effects and contraindications",
+      "back": "The main problem is reddish-black skin discolouration, especially on exposed areas. Hair, body secretions and the conjunctiva may also be pigmented. Dryness, itching, acneiform eruptions and phototoxicity occur. GI upset, weight loss and enteritis are seen mainly at higher doses. Avoid in early pregnancy and in liver or kidney damage.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-clofazimine",
+      "tags": [
+        "adr",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-044",
+      "type": "basic",
+      "front": "Rifampicin in leprosy: why a monthly dose is used and when it must be withheld",
+      "back": "A 600 mg dose kills up to 99.99 percent of M. leprae within 3 to 7 days, so patients become non-infectious quickly. The monthly MDT dose is nearly non-toxic and causes no significant enzyme induction. Withhold it in hepatic or renal dysfunction, and during erythema nodosum leprosum or reversal reactions, because rapid killing releases large amounts of antigen.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-clofazimine",
+      "tags": [
+        "dosing",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-045",
+      "type": "shortnote",
+      "front": "Short note: other antileprotic agents",
+      "sections": [
+        {
+          "h": "Fluoroquinolones",
+          "points": [
+            "Ofloxacin is the most used: 400 mg daily, cidal, hastens response",
+            "Moxifloxacin is the most potent; ciprofloxacin is weak",
+            "Used mainly as alternatives when rifampicin cannot be given"
+          ]
+        },
+        {
+          "h": "Minocycline",
+          "points": [
+            "Lipophilic, so it enters M. leprae; 100 mg daily",
+            "Vertigo is the main serious problem with long-term use"
+          ]
+        },
+        {
+          "h": "Clarithromycin",
+          "points": [
+            "The only macrolide with significant antileprotic activity; 500 mg daily",
+            "Synergistic with minocycline"
+          ]
+        },
+        {
+          "h": "Ethionamide",
+          "points": [
+            "Poorly tolerated; hepatotoxicity in about 10 percent",
+            "Reserve only: 250 mg/day, and only when absolutely necessary"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-clofazimine",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-046",
+      "type": "cloze",
+      "front": "NLEP 2009 classification of leprosy for treatment.",
+      "text": "Paucibacillary (PB): {{1 to 5}} skin lesions, with no nerve or only {{one}} nerve involved, and skin smear {{negative}} at all sites. Multibacillary (MB): {{6 or more}} skin lesions, more than one nerve involved, or skin smear {{positive}} at any site.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-mdt-reactions",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-047",
+      "type": "cloze",
+      "front": "NLEP multidrug therapy (MDT) regimens for leprosy, by type.",
+      "text": "Multibacillary: rifampicin {{600 mg}} once a month (supervised), dapsone {{100 mg}} daily (self-administered), and clofazimine {{300 mg}} once a month (supervised) plus {{50 mg}} daily (self-administered), for {{12 months}}. Paucibacillary: rifampicin {{600 mg}} monthly plus dapsone {{100 mg}} daily, for {{6 months}}.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-mdt-reactions",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-048",
+      "type": "basic",
+      "front": "Why was multibacillary leprosy treatment shortened to 12 months?",
+      "back": "Dapsone monotherapy had caused resistance and relapse in up to 20 percent of patients. Fixed-duration therapy of 24 months gave relapse rates similar to standard MDT, and a WHO committee (1997) found 12 months gave similar relapse rates over 3 to 5 years. So mass programmes use 12 months for MB and 6 months for PB. Private or institutional care may treat longer, up to 4 years in highly bacillated patients.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-mdt-reactions",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-049",
+      "type": "basic",
+      "front": "Leprosy relapse and leprosy-TB coinfection: what is the management?",
+      "back": "Relapse: restart the same MDT (12 months for MB, 6 months for PB), because dormant bacilli remain sensitive to these drugs. Coinfection with TB: continue the leprosy MDT but give rifampicin daily, as for TB. HIV: there is no association with leprosy, and MDT can be given safely to HIV-positive patients and those on antiretroviral therapy.",
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-mdt-reactions",
+      "tags": [
+        "dosing",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-050",
+      "type": "shortnote",
+      "front": "Short note: lepra reactions",
+      "sections": [
+        {
+          "h": "Erythema nodosum leprosum (ENL)",
+          "points": [
+            "Occurs in lepromatous leprosy, often starting with chemotherapy or an intercurrent infection",
+            "Abrupt onset: lesions enlarge, redden and ache; fever and malaise; can be life-threatening",
+            "Immune-complex (Arthus-type) reaction to antigen released from killed bacilli"
+          ]
+        },
+        {
+          "h": "ENL management",
+          "points": [
+            "Stop dapsone only in severe cases",
+            "Clofazimine 200 mg daily for most reactions",
+            "Severe: prednisolone 40 to 60 mg/day, tapered over 2 to 3 months",
+            "Thalidomide 100 to 300 mg at bedtime as an alternative; it is teratogenic and was withdrawn in 1961 before being reintroduced"
+          ]
+        },
+        {
+          "h": "Reversal reaction",
+          "points": [
+            "Seen in TT and BL leprosy; delayed hypersensitivity to M. leprae antigens",
+            "Sudden nerve swelling and pain, skin ulceration; can occur after treatment ends",
+            "Treat with clofazimine or corticosteroids; thalidomide is ineffective"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-mdt-reactions",
+      "tags": [
+        "adr",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-tb-leprosy-051",
+      "type": "essay",
+      "front": "Essay: Multidrug therapy (MDT) for leprosy",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "M. leprae causes a chronic granulomatous infection of skin, mucosa and nerves",
+            "Leprosy is classified as paucibacillary or multibacillary to guide treatment"
+          ]
+        },
+        {
+          "h": "Why MDT",
+          "points": [
+            "Dapsone monotherapy led to resistance and relapse",
+            "MDT (rifampicin, dapsone, clofazimine) treats resistant bacilli and persisters",
+            "Adopted by WHO in 1981 and under NLEP India in 1982"
+          ]
+        },
+        {
+          "h": "Role of each drug",
+          "points": [
+            "Rifampicin: rapid cidal action; quickly makes patients non-infectious",
+            "Dapsone: leprostatic, cheap, self-administered daily",
+            "Clofazimine: anti-inflammatory and slow-acting; also used in reactions"
+          ]
+        },
+        {
+          "h": "Regimens",
+          "points": [
+            "MB: 12 months; PB: 6 months",
+            "Rifampicin and clofazimine are given monthly under supervision; dapsone and daily clofazimine are self-administered"
+          ]
+        },
+        {
+          "h": "Follow-up and relapse",
+          "points": [
+            "Relapse is treated by repeating the same MDT",
+            "Persisting bacilli explain late relapse, commoner when the bacillary index is above 4+"
+          ]
+        },
+        {
+          "h": "Reactions",
+          "points": [
+            "ENL: clofazimine, then prednisolone for severe cases; thalidomide as an alternative",
+            "Reversal reaction: clofazimine or corticosteroids"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-tb-leprosy-mdt-reactions",
+      "tags": [
+        "uses",
+        "dosing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "topicId": "p1-pk-elimination",
+  "source": "KDT8 ch3",
+  "cards": [
+    {
+      "id": "p1-pk-elimination-001",
+      "type": "basic",
+      "front": "Why is biotransformation needed for drug elimination?",
+      "back": "Most drugs are lipid soluble and would be reabsorbed in renal tubules and persist for a long time. Metabolism converts them into polar, ionised products that kidney and bile can clear.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-biotransformation",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-002",
+      "type": "basic",
+      "front": "Where does drug metabolism mainly occur, and which other organs contribute?",
+      "back": "Liver is the main site. Kidney, intestinal wall, lungs and plasma also metabolise drugs.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-biotransformation",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-003",
+      "type": "basic",
+      "front": "Compare phase I and phase II drug metabolism.",
+      "back": "Phase I (functionalisation: oxidation, reduction, hydrolysis) adds or exposes a polar group; the product may be active or inactive. Phase II (conjugation) attaches an endogenous polar molecule, usually giving an inactive, excretable product. Morphine-6-glucuronide is a notable active conjugate.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-biotransformation",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-004",
+      "type": "basic",
+      "front": "Which CYP450 isoform metabolises the largest share of drugs, and name two inhibitors of it.",
+      "back": "CYP3A4/5, which handles roughly half of all drugs. Inhibitors include erythromycin, clarithromycin, ketoconazole, itraconazole, ritonavir and grapefruit juice.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-cyp450",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-005",
+      "type": "basic",
+      "front": "Which CYP isoform forms the toxic metabolite of paracetamol, and what induces it?",
+      "back": "CYP2E1 converts paracetamol to the reactive metabolite NAPQI. Chronic alcohol use and isoniazid induce CYP2E1. Glutathione conjugation normally detoxifies NAPQI; depletion leads to hepatotoxicity.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-cyp450",
+      "tags": [
+        "mechanism",
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-006",
+      "type": "basic",
+      "front": "What is the most important conjugation pathway in drug metabolism?",
+      "back": "Glucuronidation by UDP-glucuronosyl transferases (UGTs), acting on -OH and -COOH groups. Glucuronides excreted in bile can be cleaved by gut bacteria and reabsorbed, causing enterohepatic cycling.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-conjugation",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-007",
+      "type": "basic",
+      "front": "Describe the time course of microsomal enzyme induction.",
+      "back": "Metabolic rate rises about 2 to 4 fold as enzyme synthesis increases. The peak develops over about 4 to 14 days while the inducer is given, and activity returns to baseline over roughly 1 to 3 weeks after withdrawal.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-induction",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-008",
+      "type": "basic",
+      "front": "Define first-pass metabolism and give the formula for oral bioavailability.",
+      "back": "First-pass (presystemic) metabolism is metabolism of an orally given drug in the gut wall (CYP3A4 is expressed in intestine) and liver before it reaches the systemic circulation. Oral F = fraction absorbed x (1 - hepatic extraction ratio). Sublingual, transdermal and parenteral routes avoid it; rectal avoids it only partly.",
+      "refs": [
+        "KDT8 ch3",
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-clearance",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-009",
+      "type": "basic",
+      "front": "How does urine pH affect renal excretion of weak acids and weak bases?",
+      "back": "Only un-ionised drug is reabsorbed from the tubule. Weak acids are excreted faster in alkaline urine and weak bases in acidic urine. Urine is alkalinised in barbiturate and salicylate poisoning. Acidifying urine could speed excretion of bases (morphine, amphetamine) but is not practised, because acidosis can cause rhabdomyolysis and cardiotoxicity.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-excretion",
+      "tags": [
+        "pk",
+        "poisoning"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-010",
+      "type": "basic",
+      "front": "Define clearance and give its formula.",
+      "back": "Clearance is the theoretical volume of plasma completely cleared of drug per unit time. CL = rate of elimination / plasma concentration.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-clearance",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-011",
+      "type": "basic",
+      "front": "Give the formula for elimination half-life and state how many half-lives are needed for near-complete elimination.",
+      "back": "t1/2 = 0.693 x V / CL. It is a derived value and is constant only for first-order elimination. About 4 to 5 half-lives are needed for nearly complete elimination (about 94 percent after four).",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-clearance",
+      "tags": [
+        "pk",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-012",
+      "type": "basic",
+      "front": "Write the formula for a loading dose and say what it depends on.",
+      "back": "Loading dose = target plasma concentration x V / F. It depends on volume of distribution and bioavailability, not on clearance or half-life.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-kinetics-dosing",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-pk-elimination-013",
+      "type": "shortnote",
+      "front": "Short note: Microsomal enzyme induction",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Drugs, chemicals and some dietary agents increase synthesis of microsomal enzymes, mainly CYP450 and UGT",
+            "Metabolic rate rises about 2 to 4 fold"
+          ]
+        },
+        {
+          "h": "Time course",
+          "points": [
+            "Peak develops over about 4 to 14 days",
+            "Reverses over about 1 to 3 weeks after withdrawal"
+          ]
+        },
+        {
+          "h": "Common inducers",
+          "points": [
+            "Phenobarbitone, phenytoin, carbamazepine (CYP3A)",
+            "Rifampin (broad induction)",
+            "Chronic alcohol and isoniazid (CYP2E1)",
+            "Cigarette smoke and charbroiled meat (CYP1A)"
+          ]
+        },
+        {
+          "h": "Clinical consequences",
+          "points": [
+            "Oral contraceptive failure with rifampin",
+            "Loss of nevirapine effect with rifampin; autoinduction by carbamazepine",
+            "Increased paracetamol hepatotoxicity",
+            "Precipitation of acute intermittent porphyria"
+          ]
+        },
+        {
+          "h": "Therapeutic uses",
+          "points": [
+            "Phenobarbitone for congenital non-haemolytic jaundice",
+            "Phenytoin in some cases of Cushing syndrome"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-induction",
+      "tags": [
+        "interactions"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-014",
+      "type": "shortnote",
+      "front": "Short note: First-pass (presystemic) metabolism",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Metabolism of an orally given drug in gut wall and liver before it enters systemic circulation"
+          ]
+        },
+        {
+          "h": "Determinants",
+          "points": [
+            "Hepatic extraction ratio; for high-extraction drugs, hepatic blood flow",
+            "Gut-wall CYP3A4 and liver enzyme activity",
+            "Genetic variation, enzyme induction or inhibition"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "High first-pass: propranolol, verapamil, morphine, pethidine, lidocaine, glyceryl trinitrate",
+            "Low first-pass: phenobarbitone, tolbutamide, theophylline, diazepam, isosorbide mononitrate"
+          ]
+        },
+        {
+          "h": "Clinical implications",
+          "points": [
+            "Oral dose much higher than sublingual or parenteral dose",
+            "Marked individual variation in oral bioavailability",
+            "Bioavailability rises in severe liver disease or with enzyme inhibitors",
+            "Sublingual, transdermal or parenteral routes bypass it"
+          ]
+        },
+        {
+          "h": "Formula",
+          "points": [
+            "F = fraction absorbed x (1 - hepatic extraction ratio)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-clearance",
+      "tags": [
+        "pk"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-015",
+      "type": "shortnote",
+      "front": "Short note: CYP450 inhibition and drug interactions",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Azole antifungals and macrolides bind the haem iron of CYP450",
+            "Competitive inhibition when two drugs use the same isoenzyme or cofactor",
+            "Acts quickly, unlike induction"
+          ]
+        },
+        {
+          "h": "Key inhibitors (by isoform)",
+          "points": [
+            "CYP3A4: erythromycin, clarithromycin, ketoconazole, itraconazole, verapamil, ritonavir, fluoxetine, grapefruit juice",
+            "CYP2D6: quinidine, fluoxetine, paroxetine",
+            "CYP2C9: fluvoxamine, fluconazole, gemfibrozil, trimethoprim; CYP2C19: omeprazole, fluconazole",
+            "CYP1A2: fluvoxamine, fluoxetine; CYP2E1: disulfiram, fomepizole"
+          ]
+        },
+        {
+          "h": "Effects",
+          "points": [
+            "Higher plasma level of the object drug",
+            "Higher oral bioavailability of high first-pass drugs",
+            "Longer half-life when clearance falls",
+            "Toxicity with narrow-margin drugs such as warfarin and phenytoin"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Quinidine is a CYP3A4 substrate but inhibits CYP2D6",
+            "Low-dose ritonavir boosts other HIV protease inhibitors through CYP3A4 inhibition",
+            "Erythromycin or ketoconazole with terfenadine, astemizole or cisapride caused dangerous arrhythmias"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-cyp450",
+      "tags": [
+        "interactions"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-016",
+      "type": "shortnote",
+      "front": "Short note: Therapeutic drug monitoring (TDM)",
+      "sections": [
+        {
+          "h": "Indications",
+          "points": [
+            "Narrow-margin drugs: digoxin, lithium, aminoglycosides, anticonvulsants, theophylline",
+            "Large individual variation: antidepressants, lithium",
+            "Toxic drugs in renal failure",
+            "Suspected poisoning",
+            "Unexplained treatment failure or adherence check"
+          ]
+        },
+        {
+          "h": "Sampling time",
+          "points": [
+            "Long-acting drugs: trough steady-state level, just before the next dose",
+            "Short-acting drugs: post-absorptive peak, about 1 to 2 h after oral or IM dose",
+            "Poisoning: early sample, then repeated to track clearance"
+          ]
+        },
+        {
+          "h": "Not useful for",
+          "points": [
+            "Drugs with easily measured effect: antihypertensives, oral anticoagulants, diuretics",
+            "Prodrugs such as levodopa",
+            "Hit-and-run drugs: reserpine, MAO inhibitors, omeprazole",
+            "Irreversible drugs such as organophosphates"
+          ]
+        },
+        {
+          "h": "Dose adjustment (first order)",
+          "points": [
+            "Revised dose rate = previous dose rate x target Css / measured Css"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-kinetics-dosing",
+      "tags": [
+        "dosing"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-017",
+      "type": "shortnote",
+      "front": "Short note: Prolongation of drug action",
+      "sections": [
+        {
+          "h": "Why",
+          "points": [
+            "Less frequent dosing and better adherence",
+            "Smoother plasma levels with fewer peak-related side effects",
+            "Round-the-clock control (e.g. overnight)"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Slow absorption: sustained or controlled-release oral forms, depot i.m. or s.c. injections, implants, transdermal patches",
+            "Highly protein-bound congeners released slowly (e.g. sulfadoxine)",
+            "Slower metabolism: chemical change (ethinyl estradiol vs estradiol) or enzyme inhibition (allopurinol with 6-mercaptopurine; ritonavir boosting)",
+            "Reduced tubular secretion: probenecid with penicillin"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Controlled-release forms suit drugs with half-life under 4 h",
+            "Not needed for drugs with half-life over 12 h (doxycycline, amlodipine) or for brief-effect drugs (hypnotics)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-kinetics-dosing",
+      "tags": [
+        "dosing"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-018",
+      "type": "essay",
+      "front": "Essay: Zero-order (saturable) versus first-order elimination",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Elimination = metabolism + excretion",
+            "Clearance: volume of plasma cleared of drug per unit time"
+          ]
+        },
+        {
+          "h": "First-order kinetics",
+          "points": [
+            "Constant fraction eliminated per unit time; rate proportional to concentration",
+            "Clearance and half-life constant; plasma level falls exponentially",
+            "Applies to most drugs in the therapeutic range; dose rate and steady-state level linearly related"
+          ]
+        },
+        {
+          "h": "Zero-order (capacity-limited, Michaelis-Menten) kinetics",
+          "points": [
+            "Constant amount eliminated per unit time once enzymes are saturated (ethyl alcohol)",
+            "Rate = Vmax x C / (Km + C)",
+            "Clearance falls and half-life lengthens as dose rises",
+            "Phenytoin, tolbutamide, theophylline and warfarin shift from first to zero order at higher doses"
+          ]
+        },
+        {
+          "h": "Clinical implications",
+          "points": [
+            "Plasma concentration rises disproportionately with dose (nonlinear elimination)",
+            "Small dose increments can cause toxicity; increase in small steps",
+            "Monitor plasma levels (TDM)"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Know whether a drug's elimination is saturable before adjusting its dose"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-kinetics-dosing",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-019",
+      "type": "essay",
+      "front": "Essay: Renal excretion of drugs",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Kidney excretes water-soluble drugs and metabolites",
+            "Net excretion = (filtration + secretion) - reabsorption"
+          ]
+        },
+        {
+          "h": "Glomerular filtration",
+          "points": [
+            "All non-protein-bound drug is filtered",
+            "Depends on plasma protein binding and renal blood flow",
+            "GFR is about 120 mL/min and falls after age 50"
+          ]
+        },
+        {
+          "h": "Tubular reabsorption",
+          "points": [
+            "Passive diffusion of lipid-soluble, un-ionised drug",
+            "Ionised drugs stay in the lumen, so urine pH matters",
+            "Used for ion trapping in poisoning"
+          ]
+        },
+        {
+          "h": "Tubular secretion",
+          "points": [
+            "Active, through OAT (acids such as penicillin, probenecid, methotrexate) and OCT (bases such as procainamide, cimetidine)",
+            "Efflux pumps P-gp and MRP2 on the luminal membrane",
+            "Clearance above GFR indicates secretion",
+            "Drugs compete for the same carrier (probenecid and penicillin)"
+          ]
+        },
+        {
+          "h": "Special populations",
+          "points": [
+            "Neonates: immature tubular transport, so penicillins and cephalosporins last longer",
+            "Elderly and renal failure: lower clearance, so doses need adjustment"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Creatinine clearance guides dosing in renal disease",
+            "Competition for secretion explains many drug interactions"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-excretion",
+      "tags": [
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-020",
+      "type": "essay",
+      "front": "Essay: Factors affecting drug metabolism",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Biotransformation by microsomal (CYP450, UGT) and nonmicrosomal enzymes",
+            "Amount and activity of enzymes vary widely between people"
+          ]
+        },
+        {
+          "h": "Genetic factors",
+          "points": [
+            "CYP2D6 poor and extensive metabolisers; ultrarapid genotype",
+            "N-acetyl transferase slow and fast acetylators",
+            "Up to about 6-fold variation in metabolic rate among healthy adults"
+          ]
+        },
+        {
+          "h": "Age",
+          "points": [
+            "Newborns, especially premature, have low enzyme activity; phase I matures within months",
+            "Conjugation takes 3 months or more to reach adult levels",
+            "Hepatic function and clearance decline in the elderly"
+          ]
+        },
+        {
+          "h": "Drug interactions",
+          "points": [
+            "Inhibition: azoles, macrolides, cimetidine, isoniazid",
+            "Induction: phenobarbitone, phenytoin, carbamazepine, rifampin"
+          ]
+        },
+        {
+          "h": "Disease and environment",
+          "points": [
+            "Liver disease reduces metabolism and raises oral bioavailability",
+            "Smoking, charcoal-grilled food and chronic alcohol alter CYP1A and CYP2E1",
+            "Diet can change enzyme levels"
+          ]
+        },
+        {
+          "h": "Species differences",
+          "points": [
+            "Marked interspecies differences in CYP and UGT activity, for example in cats and dogs"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-conjugation",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-021",
+      "type": "cloze",
+      "front": "Phase I and phase II biotransformation reactions",
+      "text": "Phase I reactions include {{oxidation}}, {{reduction}} and {{hydrolysis}}; phase II (synthetic) reactions include {{glucuronidation}}, {{acetylation}}, {{methylation}} and {{sulfation}}.",
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-biotransformation",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-022",
+      "type": "cloze",
+      "front": "CYP450 inducers by isoform",
+      "text": "Phenobarbitone, phenytoin and carbamazepine induce {{CYP3A}}; rifampin induces {{CYP3A}} and {{CYP2C}}; chronic alcohol and {{isoniazid}} induce {{CYP2E1}}; cigarette smoke induces {{CYP1A}}.",
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-induction",
+      "tags": [
+        "interactions"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-023",
+      "type": "cloze",
+      "front": "Routes of drug excretion",
+      "text": "Major routes are {{urine}} (kidney), {{bile into faeces}}, {{exhaled air}} for gases and volatile agents, {{saliva and sweat}} (minor), and {{breast milk}}.",
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-excretion",
+      "tags": [
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-024",
+      "type": "cloze",
+      "front": "Renal tubular transport systems",
+      "text": "The proximal tubule secretes organic {{acids}} through the OAT system and organic {{bases}} through the OCT system; efflux pumps {{P-gp}} and {{MRP2}} sit on the luminal membrane.",
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-excretion",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-elimination-025",
+      "type": "cloze",
+      "front": "Acetylation polymorphism",
+      "text": "N-acetyltransferase 2 (NAT2) polymorphism gives {{slow}} and {{fast}} acetylator phenotypes. Acetylated drugs include {{isoniazid}}, {{hydralazine}}, procainamide, dapsone and sulfonamides; isoniazid neuropathy and hydralazine or procainamide {{lupus}} occur mainly in slow acetylators.",
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-conjugation",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch3",
+        "KDT8 ch5"
+      ],
+      "pyq": []
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-pk-elimination-026",
+      "type": "shortnote",
+      "front": "Short note: Prodrugs",
+      "subtopic": "p1-pk-elimination-biotransformation",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch3",
+        "KDT8 ch5"
+      ],
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Inactive compound converted in the body to one or more active metabolites"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "Greater stability or better bioavailability",
+            "Better pharmacokinetic properties, fewer side effects",
+            "Selective activation at the site of action (e.g. levodopa crosses the BBB, then forms dopamine in brain)"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Levodopa, enalapril, alpha-methyldopa, dipivefrine",
+            "Proguanil, prednisone, clopidogrel, bacampicillin, sulfasalazine",
+            "Cyclophosphamide, fluorouracil, mercaptopurine, acyclovir"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Activation depends on metabolising enzymes, e.g. clopidogrel is a CYP2C19 substrate; codeine needs CYP2D6 to form morphine"
+          ]
+        }
+      ]
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-pk-elimination-027",
+      "type": "basic",
+      "front": "Maintenance dose and steady state: what is the formula, and how long does steady state take?",
+      "back": "Maintenance dose rate = target Css x CL / F; it depends on clearance (or half-life). With repeated dosing at a fixed rate, drug accumulates until intake equals elimination (plateau principle); steady state is reached in about 4 to 5 half-lives. A loading dose is used when waiting this long is unacceptable (digoxin, chloroquine, amiodarone).",
+      "subtopic": "p1-pk-elimination-kinetics-dosing",
+      "tags": [
+        "dosing",
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-pk-elimination-028",
+      "type": "basic",
+      "front": "Microsomal vs non-microsomal drug-metabolising enzymes: how do they differ?",
+      "back": "Microsomal enzymes sit on the smooth endoplasmic reticulum, mainly of liver (also kidney, gut mucosa, lungs): CYP450 monooxygenases, UGTs, epoxide hydrolases. They carry out most oxidations, reductions, hydrolyses and glucuronidation, and are inducible. Non-microsomal enzymes lie in cytoplasm, mitochondria and plasma (esterases, amidases, some flavoprotein oxidases, most conjugases); they carry out all conjugations except glucuronidation, are not inducible, but many show genetic polymorphism (acetyltransferase, pseudocholinesterase). Hofmann elimination (atracurium) is spontaneous, non-enzymatic breakdown in body fluids.",
+      "subtopic": "p1-pk-elimination-biotransformation",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ]
+    }
+  ]
+}

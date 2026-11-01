@@ -1,0 +1,1601 @@
+{
+  "topicId": "p3-git",
+  "source": "KDT8 ch47-49",
+  "cards": [
+    {
+      "id": "p3-git-001",
+      "type": "basic",
+      "front": "Which receptor does histamine use to switch on acid secretion by the parietal cell, and what does it do?",
+      "back": "H2 receptors on the basolateral membrane. Activation raises cAMP, which switches on the H+/K+ ATPase proton pump, the final step of acid secretion. Histamine is the dominant physiological stimulus; gastrin and acetylcholine act partly by releasing histamine from ECL cells.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-002",
+      "type": "basic",
+      "front": "Why do H2 blockers also reduce acid responses to gastrin and acetylcholine?",
+      "back": "Histamine plays a permissive role. The cAMP made by H2 activation is needed for a full secretory response to gastrin and cholinergic agonists, so H2 blockade weakens the response to almost every secretagogue.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-003",
+      "type": "basic",
+      "front": "Compare cimetidine, ranitidine and famotidine on potency and antiandrogen effects.",
+      "back": "Ranitidine is about 5 times as potent as cimetidine, and famotidine about 5 to 8 times as potent as ranitidine. Only cimetidine has antiandrogenic effects (gynaecomastia, loss of libido), raises prolactin and slows hepatic breakdown of estradiol. GG14 notes that some ranitidine and nizatidine preparations have been withdrawn because of contamination.",
+      "refs": [
+        "KDT8 ch47",
+        "GG14 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "classification",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-004",
+      "type": "cloze",
+      "front": "Mechanism: omeprazole",
+      "text": "Omeprazole irreversibly inhibits the {{H+/K+ ATPase}} proton pump, and it is converted to its reactive form only in the acidic {{canaliculus}} of the parietal cell.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-005",
+      "type": "basic",
+      "front": "Why are PPIs swallowed whole and taken before a meal?",
+      "back": "They are acid labile, so they are given as enteric-coated forms that must not be crushed or chewed. Taken on an empty stomach, the drug is in the blood when a meal switches the pumps on, and food lowers bioavailability.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p3-git-006",
+      "type": "basic",
+      "front": "Why does a PPI take 3 to 4 days to reach full acid suppression?",
+      "back": "Each dose blocks only the pumps that are actively secreting, and the drug is cleared within 1 to 2 hours. Repeated dosing blocks more pumps until a plateau is reached at about 3 to 4 days, with 80 to 98 percent of 24-hour acid output suppressed. Secretion takes 3 to 4 days to return after stopping.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p3-git-007",
+      "type": "basic",
+      "front": "What are the main concerns with long-term high-dose PPI therapy?",
+      "back": "Compensatory hypergastrinaemia with ECL-cell hyperplasia, fundic gland polyps and atrophic gastritis (tumour risk appears very low), and rebound acid hypersecretion on stopping. Loss of the acid barrier raises the risk of infections such as hospital-acquired pneumonia, community-acquired Clostridium difficile and spontaneous bacterial peritonitis. Reduced vitamin B12 absorption, hypomagnesaemia, and osteoporosis-related fractures are also reported, as are interstitial nephritis and, with omeprazole, gynaecomastia and erectile dysfunction.",
+      "refs": [
+        "KDT8 ch47",
+        "GG14 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-008",
+      "type": "basic",
+      "front": "Why does omeprazole matter with clopidogrel, and which PPI has the fewest interactions?",
+      "back": "Omeprazole inhibits CYP2C19, the enzyme that activates clopidogrel, which can blunt its antiplatelet effect. Omeprazole also raises levels of warfarin, diazepam and phenytoin. Pantoprazole has the lowest affinity for cytochrome P450 and the least interaction risk.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p3-git-009",
+      "type": "shortnote",
+      "front": "Short note: Proton pump inhibitors",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Acid suppressants; omeprazole is the prototype",
+            "Benzimidazole derivatives given as enteric-coated forms"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Covalent, irreversible block of H+/K+ ATPase in the acidic canaliculus",
+            "Acid returns only when new pump molecules are made (half-time about 18 hours)"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Plasma half-life 1 to 2 hours, but acid suppression lasts 2 to 3 days",
+            "Food reduces absorption; take before a meal",
+            "Metabolised by CYP2C19 and CYP3A4; omeprazole needs no dose change in the elderly or in renal or hepatic impairment"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Peptic, NSAID-induced and bleeding ulcers; Zollinger-Ellison syndrome",
+            "GERD (drugs of choice), H. pylori eradication, stress ulcer prophylaxis"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Mild: headache, loose stools, abdominal pain",
+            "Long-term: hypergastrinaemia, atrophic gastritis, infections, osteoporosis"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-010",
+      "type": "essay",
+      "front": "Essay: Proton pump inhibitors, pharmacology and safety",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Class, prototype and site of action in the parietal cell",
+            "Why they have replaced H2 blockers as first-line acid suppressants"
+          ]
+        },
+        {
+          "h": "Mechanism and selectivity",
+          "points": [
+            "Activated only at low pH, then binds covalently to H+/K+ ATPase",
+            "Trapped in the canaliculus, so the action is confined to acid-secreting cells"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Enteric-coated, taken before meals",
+            "Hepatic CYP metabolism creates interaction risk (CYP2C19 and CYP3A4)"
+          ]
+        },
+        {
+          "h": "Clinical uses",
+          "points": [
+            "Peptic, NSAID-induced and bleeding ulcers",
+            "GERD, Zollinger-Ellison syndrome, H. pylori therapy, IV for stress ulcers"
+          ]
+        },
+        {
+          "h": "Safety",
+          "points": [
+            "Hypergastrinaemia, atrophic gastritis and enteric or respiratory infection",
+            "Osteoporosis; avoid long-term use where it can be avoided"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "mechanism",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-011",
+      "type": "basic",
+      "front": "Why is misoprostol seldom used for ulcers now?",
+      "back": "It is a synthetic PGE1 analogue that lowers acid output, but the effect lasts only about 3 hours, it relieves ulcer pain poorly, and it needs four times daily dosing. Diarrhoea, cramps and uterine bleeding are common, and it can cause abortion. Its main remaining role is preventing NSAID-induced ulcers.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "adr",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-012",
+      "type": "basic",
+      "front": "How does sucralfate protect an ulcer without neutralising acid?",
+      "back": "Below pH 4 it polymerises into a sticky gel that binds to the ulcer base and forms a physical shield against acid, pepsin and bile. It has no acid-neutralising action and is barely absorbed. Antacids must not be given with it, because they stop it polymerising.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-013",
+      "type": "basic",
+      "front": "What is colloidal bismuth subcitrate, and why is it not an antacid?",
+      "back": "A colloidal bismuth compound that heals ulcers without raising gastric pH. It precipitates below pH 5. Its benefit may come from protecting the ulcer base, raising mucosal prostaglandin, mucus and bicarbonate, and acting directly on H. pylori. It causes black tongue and stools, and milk or antacids must be avoided with it.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "mechanism",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-014",
+      "type": "basic",
+      "front": "Why should every H. pylori-positive ulcer patient be offered eradication?",
+      "back": "Eradication is standard care in every H. pylori-positive gastric or duodenal ulcer: unless the patient keeps taking NSAIDs, it almost abolishes recurrence. H. pylori also drives chronic gastritis and contributes to gastric adenocarcinoma and gastric MALT lymphoma, which can regress after eradication. KDT adds that where testing is unavailable, failed or relapsing ulcers should still receive eradication therapy.",
+      "refs": [
+        "KDT8 ch47",
+        "GG14 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-015",
+      "type": "basic",
+      "front": "Which H. pylori eradication regimens are listed in the textbooks?",
+      "back": "GG14 (newest): triple therapy for 10 to 14 days, a PPI twice daily with clarithromycin 500 mg and amoxicillin 1 g twice daily (metronidazole 500 mg can replace amoxicillin); bismuth quadruple therapy for 10 to 14 days, a PPI with bismuth, tetracycline and metronidazole four times daily; sequential therapy (PPI + amoxicillin for 5 days, then PPI + clarithromycin + tinidazole or metronidazole for 5 days); or PPI + amoxicillin + levofloxacin for 10 days. Where resistance to clarithromycin and metronidazole is common, a 14-day quadruple regimen is advised. KDT cites the older US-FDA regimen: lansoprazole 30 mg + amoxicillin 1 g + clarithromycin 500 mg, all twice daily for 2 weeks (86 to 92 percent eradication).",
+      "refs": [
+        "GG14 ch53",
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "dosing",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-016",
+      "type": "shortnote",
+      "front": "Short note: H. pylori eradication therapy",
+      "sections": [
+        {
+          "h": "Why treat",
+          "points": [
+            "Heals ulcers and almost abolishes recurrence",
+            "Linked to gastric adenocarcinoma and MALT lymphoma"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "A PPI raises gastric pH and enhances amoxicillin and clarithromycin activity",
+            "Amoxicillin, clarithromycin, metronidazole or tinidazole, tetracycline, levofloxacin",
+            "Bismuth: active against H. pylori and resistance does not develop to it"
+          ]
+        },
+        {
+          "h": "Principles",
+          "points": [
+            "Single antibiotics fail and breed resistance; use two or three antibiotics with a PPI",
+            "10 to 14 days is better than shorter courses (GG14); KDT notes 1-week triple therapy gives about 85 percent",
+            "Resistance to clarithromycin and metronidazole is a major cause of failure; in tropical countries metronidazole resistance is commoner"
+          ]
+        },
+        {
+          "h": "Regimens",
+          "points": [
+            "Triple: PPI + clarithromycin + amoxicillin (or metronidazole) twice daily",
+            "Bismuth quadruple: PPI + bismuth + tetracycline + metronidazole for 10 to 14 days, used first where resistance is high and for treatment failures",
+            "Alternatives: sequential therapy; PPI + amoxicillin + levofloxacin"
+          ]
+        },
+        {
+          "h": "Choosing antibiotics",
+          "points": [
+            "Recent nitroimidazole use: PPI + amoxicillin + clarithromycin",
+            "Recent macrolide use: PPI + metronidazole or tinidazole + amoxicillin"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch53",
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "uses",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-git-017",
+      "type": "essay",
+      "front": "Essay: Drug management of peptic ulcer disease",
+      "sections": [
+        {
+          "h": "Pathogenesis",
+          "points": [
+            "Imbalance between aggressive factors (acid, pepsin, H. pylori, NSAIDs) and defensive factors (mucus, bicarbonate, prostaglandins)"
+          ]
+        },
+        {
+          "h": "Goals of therapy",
+          "points": [
+            "Pain relief, ulcer healing, prevention of bleeding and perforation, prevention of relapse"
+          ]
+        },
+        {
+          "h": "Drug classes",
+          "points": [
+            "PPIs: first choice, faster and more complete healing",
+            "H2 blockers: alternative in uncomplicated cases, slower healing",
+            "Sucralfate, bismuth and misoprostol as protectives"
+          ]
+        },
+        {
+          "h": "H. pylori",
+          "points": [
+            "Eradicate with a PPI plus two or three antibiotics for 10 to 14 days (triple or bismuth quadruple therapy)",
+            "Eradication almost abolishes relapse unless NSAIDs continue"
+          ]
+        },
+        {
+          "h": "Special situations",
+          "points": [
+            "NSAID ulcer: stop the NSAID if possible; PPIs heal and prevent NSAID ulcers better than H2 blockers or misoprostol",
+            "Bleeding ulcer: high-dose IV PPI, then oral PPI",
+            "Zollinger-Ellison syndrome: PPI at about twice the usual dose"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch47",
+        "GG14 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-018",
+      "type": "cloze",
+      "front": "Classify: ulcer protectives",
+      "text": "{{Sucralfate}} forms a protective gel below pH {{4}}, and {{misoprostol}} is a synthetic {{PGE1}} analogue that lowers acid output.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-git-019",
+      "type": "cloze",
+      "front": "H. pylori regimen after a recent macrolide",
+      "text": "After recent macrolide use, the H. pylori regimen is a PPI with amoxicillin and {{metronidazole}} or {{tinidazole}}, and {{clarithromycin}} is left out.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-git-020",
+      "type": "shortnote",
+      "front": "Short note: Antacids",
+      "sections": [
+        {
+          "h": "Action",
+          "points": [
+            "Basic salts that neutralise HCl; potency given as acid neutralising capacity",
+            "Do not reduce acid production; acid rebound follows",
+            "Act for 30 to 60 minutes on an empty stomach, 2 to 3 hours after meals"
+          ]
+        },
+        {
+          "h": "Systemic",
+          "points": [
+            "Sodium bicarbonate: fast but gives CO2 (distension), alkalosis and a sodium load",
+            "Sodium citrate: similar, but no CO2"
+          ]
+        },
+        {
+          "h": "Non-systemic",
+          "points": [
+            "Magnesium salts: laxative; accumulate in renal failure",
+            "Aluminium hydroxide: constipating, binds phosphate, toxicity in renal failure",
+            "Calcium carbonate: stimulates gastrin and rebound; milk-alkali syndrome"
+          ]
+        },
+        {
+          "h": "Combinations",
+          "points": [
+            "Fast plus slow acting components; laxative and constipating salts balance bowel effects"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Reduce absorption of tetracyclines, fluoroquinolones, iron and ketoconazole; separate doses by 2 hours"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "classification",
+        "adr",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p3-git-021",
+      "type": "shortnote",
+      "front": "Short note: Drug therapy of gastro-oesophageal reflux disease",
+      "sections": [
+        {
+          "h": "Physiology",
+          "points": [
+            "Lower oesophageal sphincter tone is the main barrier",
+            "Fats, alcohol, smoking, anticholinergics, nitrates and calcium channel blockers lower LES tone",
+            "Acid is the key aggressive factor"
+          ]
+        },
+        {
+          "h": "Staging",
+          "points": [
+            "Stage 1: occasional heartburn, no lesions: lifestyle, then on-demand antacid or H2 blocker",
+            "Stage 2 and 3: PPI, often twice daily, usually long term"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "PPI: most effective; heals 80 to 90 percent of lesions in 4 to 8 weeks",
+            "H2 blocker: mild disease; healing in 50 to 70 percent",
+            "Alginate: floating raft over gastric contents, no effect on LES",
+            "Prokinetics: adjuncts only, weaker than acid suppression"
+          ]
+        },
+        {
+          "h": "Lifestyle",
+          "points": [
+            "Light early dinner, raised head of bed, weight loss, avoid triggers"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-022",
+      "type": "cloze",
+      "front": "Classify: antacid salts",
+      "text": "Magnesium hydroxide is {{fast-acting}} and laxative, aluminium hydroxide is {{slow-acting}} and {{constipating}}, so combining them balances the effect on the bowel.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-git-023",
+      "type": "basic",
+      "front": "Where is the chemoreceptor trigger zone, and why can blood-borne drugs act on it?",
+      "back": "In the area postrema, which lies outside the blood-brain barrier, so circulating drugs, toxins and hormones can act on it directly. It relays signals to the nucleus tractus solitarius, which drives the vomiting centre in the medulla.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-024",
+      "type": "basic",
+      "front": "How do cytotoxic drugs and radiation trigger vomiting through serotonin?",
+      "back": "Gut cell damage releases 5-HT from enterochromaffin cells. It activates 5-HT3 receptors on vagal afferents, which carry the signal to the nucleus tractus solitarius and the chemoreceptor trigger zone. Substance P acting on NK1 receptors adds to the signal.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-025",
+      "type": "basic",
+      "front": "What is an effective IV ondansetron schedule for highly emetogenic cisplatin?",
+      "back": "KDT: 8 mg IV given slowly over about 15 minutes, starting about 30 minutes before the cisplatin infusion, then two more 8 mg doses 4 hours apart; a single 24 mg dose on day 1 has also been used, and 8 mg orally twice daily for 3 to 5 days for delayed vomiting. GG14 gives the adult dose as 8 to 16 mg IV or 16 to 24 mg orally. Ondansetron alone is weak against delayed vomiting, so it is combined with dexamethasone and an NK1 antagonist.",
+      "refs": [
+        "KDT8 ch48",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-git-026",
+      "type": "basic",
+      "front": "Why is palonosetron preferred for delayed chemotherapy-induced vomiting?",
+      "back": "It has the highest 5-HT3 receptor affinity and the longest half-life in its class (about 40 hours), so it controls delayed vomiting (days 2 to 5) better than ondansetron and keeps its efficacy in repeat cycles. Dose: 250 microgram (0.25 mg) by slow IV injection 30 minutes before chemotherapy, not repeated within 7 days. GG14 notes that, unlike first-generation 5-HT3 antagonists, it does not appear to prolong the QT interval.",
+      "refs": [
+        "KDT8 ch48",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "newer-drugs",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-git-027",
+      "type": "basic",
+      "front": "What does aprepitant add to a standard antiemetic regimen, and what are its key interactions?",
+      "back": "It is a selective NK1 antagonist that blocks substance P in the brain. Added to ondansetron and dexamethasone for cisplatin, it mainly improves protection against delayed vomiting. It is metabolised by CYP3A4, so it can raise dexamethasone levels and alter warfarin effect, and those doses need adjusting.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "newer-drugs",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p3-git-028",
+      "type": "basic",
+      "front": "Which receptors does metoclopramide use in the gut to speed gastric emptying?",
+      "back": "It is a 5-HT4 agonist on myenteric neurones, which increases acetylcholine release and so improves propulsive contraction and lower oesophageal sphincter tone. Its D2 blockade in the gut and weak 5-HT3 block add to this at higher doses. Atropine blocks the 5-HT4 effect.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-029",
+      "type": "basic",
+      "front": "What are the adverse effects of metoclopramide, and which are most important in children?",
+      "back": "Sedation, dizziness, loose stools and extrapyramidal effects: acute dystonias (more common in children and young adults, often after IV use and possibly after a single dose) and parkinsonism after weeks of use. Tardive dyskinesia can follow chronic use and may be irreversible. Hyperprolactinaemia causes galactorrhoea and gynaecomastia; QT prolongation and methaemoglobinaemia in neonates are also reported.",
+      "refs": [
+        "KDT8 ch48",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-030",
+      "type": "basic",
+      "front": "How does domperidone differ from metoclopramide?",
+      "back": "Domperidone is a D2 antagonist that barely crosses the blood-brain barrier, so extrapyramidal effects are rare and it does not oppose levodopa in Parkinson disease. Its prokinetic action is not reversed by atropine. It still acts on brain areas outside the barrier: the chemoreceptor trigger zone (antiemetic) and prolactin control (galactorrhoea, gynaecomastia). It carries a risk of serious ventricular arrhythmia and sudden cardiac death, especially above 60 years and at doses over 30 mg/day.",
+      "refs": [
+        "KDT8 ch48",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "classification",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-031",
+      "type": "basic",
+      "front": "Why was cisapride withdrawn from most markets?",
+      "back": "It blocks cardiac delayed-rectifier potassium channels, which prolongs the QT interval and risks torsades de pointes. The risk rises with CYP3A4 inhibitors such as azole antifungals and macrolides. It was banned in India in 2011.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "adr",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p3-git-032",
+      "type": "basic",
+      "front": "Which antiemetic class is first choice for motion sickness, and when should it be taken?",
+      "back": "Drugs with anticholinergic and antihistaminic action: hyoscine (the most effective, but short acting, so suited to short journeys) and H1 antihistamines such as promethazine, dimenhydrinate and meclozine. They work best when taken about 1 hour before the journey. Dopamine blockers and 5-HT3 antagonists are less effective.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-033",
+      "type": "shortnote",
+      "front": "Short note: Metoclopramide",
+      "sections": [
+        {
+          "h": "Class and actions",
+          "points": [
+            "Substituted benzamide; antiemetic and gastrokinetic",
+            "5-HT4 agonist in the gut; D2 antagonist in the chemoreceptor trigger zone",
+            "Weak 5-HT3 blockade at high doses"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Postoperative, drug-induced and migraine-associated vomiting",
+            "Adjunct to ondansetron or dexamethasone in cisplatin chemotherapy",
+            "Emptying the stomach before emergency anaesthesia; diabetic or postvagotomy gastroparesis",
+            "Hiccups; mild GERD (less effective than PPIs)"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Oral onset within about 1 hour, IV within minutes; action lasts 4 to 6 hours",
+            "Half-life 3 to 6 hours; excreted in urine"
+          ]
+        },
+        {
+          "h": "Adverse effects and interactions",
+          "points": [
+            "Sedation, dystonia (children), parkinsonism with long use, hyperprolactinaemia",
+            "Blocks the action of levodopa; alters absorption of aspirin, diazepam and digoxin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-034",
+      "type": "shortnote",
+      "front": "Short note: Chemotherapy-induced nausea and vomiting (CINV)",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Chemotherapy releases 5-HT from gut cells; substance P acts on NK1 receptors in the brain",
+            "Acute phase (first 24 hours) and delayed phase (days 2 to 5)"
+          ]
+        },
+        {
+          "h": "Prophylaxis for highly emetogenic drugs",
+          "points": [
+            "NK1 antagonist (aprepitant, fosaprepitant, rolapitant) + 5-HT3 antagonist + dexamethasone, or netupitant-palonosetron + dexamethasone",
+            "Delayed phase: dexamethasone, with aprepitant on days 2 and 3; olanzapine is another option"
+          ]
+        },
+        {
+          "h": "Choice of 5-HT3 antagonist",
+          "points": [
+            "Granisetron: about 10 times more potent, half-life 8 to 12 hours",
+            "Palonosetron: best for delayed vomiting"
+          ]
+        },
+        {
+          "h": "Adjuvants",
+          "points": [
+            "Dexamethasone: improves acute and delayed control",
+            "Benzodiazepines: relieve anticipatory vomiting",
+            "Dronabinol: for resistant cases; central effects limit use"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Headache, constipation or diarrhoea, dizziness with 5-HT3 antagonists",
+            "QT prolongation with first-generation 5-HT3 antagonists; palonosetron does not appear to prolong QT",
+            "Serotonin syndrome risk with SSRIs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch48",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p3-git-035",
+      "type": "shortnote",
+      "front": "Short note: Antiemetics for motion sickness and postoperative vomiting",
+      "sections": [
+        {
+          "h": "Physiology",
+          "points": [
+            "Vestibular input reaches the vomiting centre through the cerebellum, using muscarinic and H1 pathways"
+          ]
+        },
+        {
+          "h": "Drug classes",
+          "points": [
+            "Anticholinergic antihistamines: hyoscine, promethazine, diphenhydramine, dimenhydrinate, meclozine",
+            "Cinnarizine: blocks calcium entry into vestibular cells",
+            "Phenothiazines and butyrophenones: less effective in motion sickness",
+            "5-HT3 antagonists: good for postoperative vomiting, poor for motion sickness"
+          ]
+        },
+        {
+          "h": "Choice",
+          "points": [
+            "Hyoscine transdermal patch, behind the ear, releases over 3 days",
+            "Meclozine lasts about 24 hours with less sedation"
+          ]
+        },
+        {
+          "h": "Postoperative vomiting",
+          "points": [
+            "Ondansetron is preferred; metoclopramide, dexamethasone and a single aprepitant dose are alternatives"
+          ]
+        },
+        {
+          "h": "Precautions",
+          "points": [
+            "Sedation: avoid driving",
+            "Neuroleptics: diagnose the cause first so that obstruction or appendicitis is not masked"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "classification",
+        "uses",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-036",
+      "type": "shortnote",
+      "front": "Short note: Prokinetic drugs, classes and safety",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Drugs that speed coordinated gut propulsion, unlike cholinomimetics that cause tonic contraction"
+          ]
+        },
+        {
+          "h": "Classes",
+          "points": [
+            "D2 antagonists: metoclopramide, domperidone, levosulpiride",
+            "5-HT4 agonists: cisapride, mosapride, prucalopride",
+            "Itopride: D2 blocker with anticholinesterase activity",
+            "Cinitapride: 5-HT4 agonist that also blocks D2 and 5-HT2"
+          ]
+        },
+        {
+          "h": "Cardiac safety",
+          "points": [
+            "Cisapride: QT prolongation and torsades; CYP3A4 inhibitors raise the risk",
+            "Mosapride: later reports of QT prolongation",
+            "Itopride: not metabolised by CYP enzymes, so no CYP3A4 interaction"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "Functional dyspepsia, diabetic gastroparesis, GERD as an adjunct to PPIs",
+            "Efficacy often modest; PPIs are better for reflux"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "classification",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-037",
+      "type": "essay",
+      "front": "Essay: Management of chemotherapy-induced nausea and vomiting",
+      "sections": [
+        {
+          "h": "Pathophysiology",
+          "points": [
+            "Gut release of 5-HT acting on vagal afferents",
+            "Central substance P and dopamine D2 pathways",
+            "Acute and delayed phases"
+          ]
+        },
+        {
+          "h": "Risk-based prophylaxis",
+          "points": [
+            "Highly emetogenic (e.g. cisplatin): NK1 antagonist + 5-HT3 antagonist + dexamethasone",
+            "Moderately emetogenic: 5-HT3 antagonist + dexamethasone, with an NK1 antagonist, or olanzapine + palonosetron + dexamethasone",
+            "Low risk: dexamethasone, metoclopramide or prochlorperazine"
+          ]
+        },
+        {
+          "h": "Adjuvant and rescue drugs",
+          "points": [
+            "Benzodiazepines for anticipatory vomiting",
+            "Cannabinoids for resistant cases",
+            "Metoclopramide or prochlorperazine as rescue, with antidystonic cover"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Constipation and headache with 5-HT3 antagonists; QT prolongation with first-generation agents",
+            "Dystonia and sedation with dopamine blockers"
+          ]
+        },
+        {
+          "h": "Monitoring",
+          "points": [
+            "Assess the response and adjust the regimen in later cycles"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch48",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-038",
+      "type": "essay",
+      "front": "Essay: Prokinetic drugs and their place in gastrointestinal disorders",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Coordinated propulsion rather than tonic contraction",
+            "Effects on gastric emptying and LES tone"
+          ]
+        },
+        {
+          "h": "Dopamine antagonists",
+          "points": [
+            "Metoclopramide: central and peripheral action; extrapyramidal effects and prolactin rise",
+            "Domperidone: peripheral; fewer CNS effects; arrhythmia on rapid IV injection"
+          ]
+        },
+        {
+          "h": "5-HT4 agonists",
+          "points": [
+            "Cisapride: effective, but withdrawn for QT prolongation and arrhythmia",
+            "Mosapride: 5-HT4 agonist with minor 5-HT3 block; no extrapyramidal effects; later reports of QT prolongation with CYP3A4 inhibitors"
+          ]
+        },
+        {
+          "h": "Clinical uses",
+          "points": [
+            "Gastroparesis, functional dyspepsia, adjunct in GERD",
+            "Prokinetics do not heal oesophagitis and are inferior to PPIs"
+          ]
+        },
+        {
+          "h": "Safety principles",
+          "points": [
+            "Check interacting drugs and QT-prolonging co-medication",
+            "Use for symptom control with a clear review point"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "classification",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-039",
+      "type": "cloze",
+      "front": "Metoclopramide: receptor actions",
+      "text": "Metoclopramide acts as a {{5-HT4}} agonist in the gut and as a {{D2}} antagonist in the chemoreceptor trigger zone.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-040",
+      "type": "cloze",
+      "front": "Classify: dopamine-blocking antiemetics",
+      "text": "Phenothiazines such as {{prochlorperazine}} and butyrophenones such as {{haloperidol}} block {{D2}} receptors in the chemoreceptor trigger zone.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-git-041",
+      "type": "cloze",
+      "front": "Classify: CINV drugs",
+      "text": "The NK1 antagonist {{aprepitant}} blocks the action of {{substance P}}, while the 5-HT3 antagonist {{ondansetron}} blocks {{5-HT}} signals on vagal afferents.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p3-git-042",
+      "type": "cloze",
+      "front": "Ursodiol and gallstones",
+      "text": "Ursodiol dissolves small cholesterol gallstones by {{lowering}} the cholesterol content of bile; its plasma half-life is about {{4 days}} because of enterohepatic cycling.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-043",
+      "type": "basic",
+      "front": "Why must bulk-forming laxatives be taken with plenty of water, and what do they not do?",
+      "back": "They swell by absorbing water, which softens stool and speeds transit. Without enough fluid they can cause impaction, and ispaghula must never be swallowed dry. They take several days for full effect and do not soften stool already in the rectum, so they prevent constipation rather than treat it.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "mechanism",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-044",
+      "type": "basic",
+      "front": "Why are stimulant laxatives such as bisacodyl and senna contraindicated in pregnancy and in bowel obstruction?",
+      "back": "They can stimulate the gravid uterus reflexly, and they increase propulsion and fluid secretion, which is dangerous with an obstruction. Regular use causes hypokalaemia and colonic atony, and senna can cause melanosis of the colon.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "contraindications",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-045",
+      "type": "basic",
+      "front": "How does lactulose lower blood ammonia in hepatic encephalopathy?",
+      "back": "Colonic bacteria break lactulose down into acidic, osmotically active products. The lower stool pH turns ammonia into the ionised, non-absorbable ammonium form, and the laxative effect clears it. Blood ammonia can fall by 25 to 50 percent. Lactitol works similarly.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "mechanism",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-046",
+      "type": "basic",
+      "front": "What are prucalopride and lubiprostone, and what is the key safety point for each?",
+      "back": "Prucalopride is a 5-HT4 agonist that boosts colonic propulsion. It is used for chronic constipation in women when other laxatives fail, and appears to lack the cardiovascular risk that ended tegaserod. Lubiprostone is a prostaglandin analogue that opens chloride channels to draw fluid into the gut; nausea is its commonest side effect, and it is reserved for patients who have failed at least two other laxative classes.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-047",
+      "type": "basic",
+      "front": "What are the components and total osmolarity of the WHO low-osmolarity oral rehydration solution?",
+      "back": "Sodium 75 mmol/L, glucose 75 mmol/L, potassium 20 mmol/L, chloride 65 mmol/L and citrate 10 mmol/L, with a total osmolarity of 245 mOsm/L. The older standard formula (310 mOsm/L, higher sodium) caused periorbital oedema in children and produced more stool and vomiting.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-git-048",
+      "type": "basic",
+      "front": "What is the role of zinc in acute childhood diarrhoea, and how is it given?",
+      "back": "Given with low-osmolarity ORS, zinc shortens and reduces the severity of the episode and lowers recurrence for 2 to 3 months. It is given for 10 to 14 days: 20 mg per day for children aged 6 to 60 months and 10 mg per day under 6 months.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "dosing",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-049",
+      "type": "basic",
+      "front": "Why does loperamide cause few central effects, and when must it be avoided?",
+      "back": "It is a peripheral mu-opioid agonist (40 to 50 times as potent as morphine as an antidiarrhoeal) that is poorly absorbed and barely enters the brain, so at normal doses it has no analgesic action and little abuse liability. GG14 warns that exceeding the recommended dose can cause torsades de pointes, cardiac arrest and death. Avoid it in invasive diarrhoea (fever, blood or mucus; risk of toxic megacolon and systemic spread), in severe colitis, and in young children (KDT: under 4 years; GG14: not recommended under 2 years).",
+      "refs": [
+        "KDT8 ch49",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p3-git-050",
+      "type": "basic",
+      "front": "How does racecadotril reduce diarrhoea without slowing the gut?",
+      "back": "It is a prodrug converted to thiorphan, an enkephalinase inhibitor. By protecting natural enkephalins it lowers mucosal cAMP and cuts intestinal secretion, but leaves motility alone. It is not contraindicated in children; the usual dose is 100 mg three times daily for up to 7 days.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p3-git-051",
+      "type": "basic",
+      "front": "In acute diarrhoea, which features suggest an invasive cause that needs an antibiotic?",
+      "back": "Blood and mucus in the stool, fever, urgency and cramps, with only mild dehydration, point to colonic invasion (for example Shigella, EPEC, Campylobacter or Salmonella typhimurium). Watery diarrhoea with vomiting and little fever points to a noninvasive cause, where oral rehydration is the mainstay.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-052",
+      "type": "shortnote",
+      "front": "Short note: Classification of laxatives",
+      "sections": [
+        {
+          "h": "Types",
+          "points": [
+            "Laxative: soft formed stool; purgative: stronger, more fluid evacuation"
+          ]
+        },
+        {
+          "h": "Bulk agents",
+          "points": [
+            "Ispaghula, methylcellulose, bran: water-holding, fermentable fibre"
+          ]
+        },
+        {
+          "h": "Stool softeners and lubricants",
+          "points": [
+            "Docusate: anionic detergent that draws water into stool",
+            "Liquid paraffin: lubricant; avoid regular use (granulomas, lipid pneumonia, fat-soluble vitamin loss)"
+          ]
+        },
+        {
+          "h": "Stimulants",
+          "points": [
+            "Bisacodyl and sodium picosulfate: act on colonic mucosa and enteric neurones",
+            "Senna and cascara: anthraquinone glycosides activated by colonic bacteria; act in 6 to 8 hours"
+          ]
+        },
+        {
+          "h": "Osmotic",
+          "points": [
+            "Magnesium and sodium salts: bowel preparation, poisoning, tapeworm clearance",
+            "Lactulose and lactitol: fermented to acidic osmotic products"
+          ]
+        },
+        {
+          "h": "Newer",
+          "points": [
+            "Prucalopride (5-HT4 agonist), lubiprostone (chloride channel activator)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "classification",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-053",
+      "type": "shortnote",
+      "front": "Short note: Constipation, rational treatment and purgative abuse",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "A symptom: infrequent hard stool, straining or incomplete evacuation",
+            "Normal frequency varies from once every 2 days to 3 times daily"
+          ]
+        },
+        {
+          "h": "Causes",
+          "points": [
+            "Functional: spastic (hard stool, irritable bowel) or atonic (age, debility, laxative abuse)",
+            "Secondary: obstruction, hypothyroidism, hypercalcaemia, opioids, anticholinergics, oral iron, clonidine, verapamil"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Diet, fluids, exercise and regular habits first",
+            "Spastic: soluble fibre; atonic: bulk or osmotic agent; stimulants last",
+            "Enema preferred to treat impaction"
+          ]
+        },
+        {
+          "h": "Special situations",
+          "points": [
+            "Keep stool soft in hernia, cardiovascular disease and perianal surgery",
+            "Bowel preparation: saline purgative, bisacodyl or senna"
+          ]
+        },
+        {
+          "h": "Purgative abuse",
+          "points": [
+            "Hypokalaemia, steatorrhoea, protein-losing enteropathy, spastic colitis"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "uses",
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-054",
+      "type": "shortnote",
+      "front": "Short note: Management of acute infectious diarrhoea",
+      "sections": [
+        {
+          "h": "Principles",
+          "points": [
+            "Rehydration first, then nutrition; drugs only when indicated",
+            "Most acute diarrhoea is self-limiting"
+          ]
+        },
+        {
+          "h": "Rehydration",
+          "points": [
+            "Oral route for mild to moderate loss",
+            "IV if loss exceeds 10 percent of body weight, stool loss exceeds 10 ml per kg per hour, or oral intake is impossible",
+            "Ringer lactate or a sodium, potassium and bicarbonate solution as IV fluid"
+          ]
+        },
+        {
+          "h": "Nutrition",
+          "points": [
+            "Do not starve; continue breast milk, rice, banana, soup and fruit juice"
+          ]
+        },
+        {
+          "h": "Antimicrobials",
+          "points": [
+            "Noninvasive: no routine antibiotic",
+            "Invasive: ciprofloxacin or another fluoroquinolone, cotrimoxazole or doxycycline (KDT); fluoroquinolones are first line for traveller's diarrhoea in adults (GG14)",
+            "Cholera: tetracycline halves stool volume",
+            "C. difficile: stop the offending antibiotic; oral vancomycin or fidaxomicin are now preferred, metronidazole only for nonsevere disease",
+            "Avoid antibiotics in enterohaemorrhagic E. coli (haemolytic uraemic syndrome)"
+          ]
+        },
+        {
+          "h": "Adjuncts",
+          "points": [
+            "Zinc in children; probiotics have weak evidence for routine use"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch49",
+        "GG14 ch54",
+        "GG14 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p3-git-055",
+      "type": "shortnote",
+      "front": "Short note: Antidiarrhoeal drugs",
+      "sections": [
+        {
+          "h": "Absorbents",
+          "points": [
+            "Bulking colloids such as ispaghula; kaolin and pectin adsorbents are banned in India"
+          ]
+        },
+        {
+          "h": "Antisecretory",
+          "points": [
+            "Racecadotril: enkephalinase inhibitor",
+            "Bismuth subsalicylate: reduces prostaglandin-driven chloride secretion; used for travellers' diarrhoea",
+            "Octreotide: somatostatin analogue for carcinoid or VIP tumour diarrhoea; given subcutaneously"
+          ]
+        },
+        {
+          "h": "Antimotility",
+          "points": [
+            "Loperamide: potent peripheral opioid, most suitable antimotility drug for adults",
+            "Diphenoxylate with atropine: CNS effects; contraindicated under 6 years",
+            "Codeine: not used for diarrhoea because of dependence"
+          ]
+        },
+        {
+          "h": "Restrictions",
+          "points": [
+            "Avoid antimotility drugs in invasive diarrhoea, severe colitis and young children"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "classification",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p3-git-056",
+      "type": "essay",
+      "front": "Essay: Drug therapy of inflammatory bowel disease",
+      "sections": [
+        {
+          "h": "Disease",
+          "points": [
+            "Ulcerative colitis: continuous mucosal disease of the colon, spreading up from the rectum",
+            "Crohn's disease: patchy transmural disease anywhere in the gut",
+            "Extraintestinal features in up to half of patients"
+          ]
+        },
+        {
+          "h": "Aminosalicylates",
+          "points": [
+            "Sulfasalazine: releases 5-ASA in the colon; sulfapyridine causes most side effects; give folic acid",
+            "Mesalazine, olsalazine, balsalazide: deliver 5-ASA to the colon with fewer side effects; 5-ASA not useful in Crohn's"
+          ]
+        },
+        {
+          "h": "Corticosteroids",
+          "points": [
+            "Prednisolone to induce remission, then taper; not for long-term maintenance",
+            "Budesonide (delayed-release) targets ileal or colonic disease with fewer systemic effects"
+          ]
+        },
+        {
+          "h": "Immunosuppressants",
+          "points": [
+            "Azathioprine or 6-mercaptopurine for steroid-dependent or resistant disease; check TPMT status",
+            "Methotrexate for severe Crohn's disease, given parenterally",
+            "Cyclosporine as a short bridge in severe ulcerative colitis"
+          ]
+        },
+        {
+          "h": "Biologics and small molecules",
+          "points": [
+            "Anti-TNF: infliximab (closes fistulas; better with azathioprine) or adalimumab for moderate to severe disease",
+            "Vedolizumab: blocks lymphocyte homing to gut mucosa (MAdCAM-1 binding); Crohn disease and UC",
+            "Ustekinumab: anti-IL-12/IL-23 (p40); Crohn disease",
+            "Tofacitinib: oral JAK inhibitor"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch49",
+        "GG14 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-git-057",
+      "type": "essay",
+      "front": "Essay: Oral rehydration therapy in acute diarrhoea",
+      "sections": [
+        {
+          "h": "Rationale",
+          "points": [
+            "Sodium absorption coupled to glucose by the sodium-glucose cotransporter survives in diarrhoea",
+            "Secreted fluid contains no glucose, so it cannot be reabsorbed"
+          ]
+        },
+        {
+          "h": "Formula principles",
+          "points": [
+            "Isotonic or slightly hypotonic: osmolarity 200 to 310 mOsm/L",
+            "Glucose equal to or slightly above sodium, not above 110 mM",
+            "Potassium 15 to 25 mM and a base such as citrate 8 to 12 mM"
+          ]
+        },
+        {
+          "h": "Current formula",
+          "points": [
+            "WHO low-osmolarity formula: 245 mOsm/L; less stool output and vomiting than the older formula"
+          ]
+        },
+        {
+          "h": "Administration",
+          "points": [
+            "Frequent drinks; replace stool losses; aim to restore hydration within about 6 hours",
+            "Nasogastric drip if a weak child refuses"
+          ]
+        },
+        {
+          "h": "Limits and adjuncts",
+          "points": [
+            "ORS does not stop diarrhoea; zinc is added in children; food should not be withheld"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "dosing",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-058",
+      "type": "cloze",
+      "front": "Sulfasalazine: how it works",
+      "text": "Colonic bacteria split the {{azo}} bond of sulfasalazine to release {{5-aminosalicylic acid}}, the active anti-inflammatory part, and {{sulfapyridine}}, which causes most side effects.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p3-git-059",
+      "type": "cloze",
+      "front": "Azathioprine: a dangerous genetic interaction",
+      "text": "Azathioprine is converted to {{6-mercaptopurine}}; patients deficient in the enzyme {{TPMT}} are at high risk of severe bone marrow toxicity.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-git-060",
+      "type": "cloze",
+      "front": "Diphenoxylate: classification and limits",
+      "text": "Diphenoxylate is a synthetic {{opioid}} given with {{atropine}} to discourage abuse, and it is contraindicated below {{6}} years of age.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "classification",
+        "contraindications"
+      ]
+    }
+  ]
+}

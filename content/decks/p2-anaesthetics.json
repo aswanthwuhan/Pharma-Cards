@@ -1,0 +1,1711 @@
+{
+  "topicId": "p2-anaesthetics",
+  "source": "KDT8 ch25-27",
+  "cards": [
+    {
+      "id": "p2-anaesthetics-001",
+      "type": "basic",
+      "front": "How do competitive and depolarising neuromuscular blockers differ at the end plate?",
+      "back": "Competitive blockers occupy the nicotinic receptor without activating it, so ACh cannot open the channel. Depolarising blockers (succinylcholine, decamethonium) activate the receptor like ACh, but they resist acetylcholinesterase and keep the end plate depolarised until it becomes inexcitable.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-principles",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-002",
+      "type": "basic",
+      "front": "Phase I and phase II depolarising block: how do they differ?",
+      "back": "Phase I (classical) block: rapid onset, fasciculation then flaccid paralysis, no fade on train-of-four. Phase II (desensitisation) block: slow recovery, fade present, partly reversed by anticholinesterases. Phase II appears with high or infused doses, after fluorinated anaesthetics, or in atypical pseudocholinesterase.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-principles",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-003",
+      "type": "basic",
+      "front": "How is train-of-four monitoring done, and what does the ratio tell you?",
+      "back": "Four supramaximal stimuli at 2 Hz are applied to the ulnar nerve and adductor pollicis responses recorded. The TOF ratio is the fourth response divided by the first. Competitive block shows fade, with the ratio falling in proportion to the depth of block; depolarising (phase I) block reduces all four twitches equally, without fade. During recovery from competitive block the ratio climbs back towards 1.0: a ratio above 0.7 usually allows spontaneous breathing, but full clinical recovery needs a ratio above 0.9 (Katzung).",
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-principles",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-004",
+      "type": "basic",
+      "front": "Succinylcholine: dose, onset, duration and how it is terminated.",
+      "back": "IV dose: Katzung gives 0.75 to 1.5 mg/kg (KDT quotes a lower range); fasciculations over the chest and abdomen appear within about 30 s, followed by paralysis lasting about 5 to 10 min. It is hydrolysed rapidly by plasma pseudocholinesterase (butyrylcholinesterase) to succinylmonocholine and then succinic acid and choline, so recovery is spontaneous. Neostigmine does not reverse the block and may worsen it.",
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-agents",
+      "tags": [
+        "pk",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-005",
+      "type": "basic",
+      "front": "What happens to succinylcholine in atypical (deficient) pseudocholinesterase?",
+      "back": "An abnormal genetic variant of plasma cholinesterase hydrolyses succinylcholine poorly. Homozygotes (roughly 1 in 3000) develop prolonged block (phase II) with apnoea lasting hours, which needs continued mechanical ventilation. The dibucaine number identifies the variant: dibucaine inhibits the normal enzyme by about 80% but the abnormal one by only about 20%. Testing is not routine but is indicated with a family history. Mivacurium is also prolonged, but that block can be reversed by neostigmine, unlike succinylcholine paralysis.",
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-agents",
+      "tags": [
+        "adr",
+        "pk"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-006",
+      "type": "basic",
+      "front": "Sugammadex: what does it bind, how does it reverse block, and what is its advantage?",
+      "back": "A modified gamma-cyclodextrin that encapsulates (chelates) rocuronium and, less so, vecuronium into an inactive complex excreted unchanged by the kidney, so it should be avoided in severe renal impairment. It does not inhibit acetylcholinesterase, so there are no muscarinic effects. Katzung doses: 2 mg/kg for shallow block (second twitch has returned), 4 mg/kg for deep block, 16 mg/kg for immediate reversal after a single 1.2 mg/kg dose of rocuronium. Adverse effects: altered taste, nausea, hypersensitivity and occasional anaphylaxis (about 0.3% with the 16 mg/kg dose). It can also bind progesterone-based contraceptives, reducing their effect.",
+      "refs": [
+        "KDT8 ch25",
+        "GG14 ch13",
+        "Katzung16 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-agents",
+      "tags": [
+        "mechanism",
+        "newer-drugs",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-007",
+      "type": "basic",
+      "front": "Dantrolene: mechanism of action.",
+      "back": "It blocks RyR1 calcium-release channels in the sarcoplasmic reticulum of skeletal muscle and prevents calcium-induced calcium release. Excitation-contraction coupling fails although the membrane still depolarises, so end-plate transmission is unaffected. Cardiac and smooth muscle channels (RyR2) are only weakly affected. Fast twitch fibres are affected more than slow antigravity fibres.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-dantrolene-central-relaxants",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-008",
+      "type": "basic",
+      "front": "Dantrolene in malignant hyperthermia: why it works, the dose, and what limits its oral use",
+      "back": "Malignant hyperthermia is persistent calcium release from the sarcoplasmic reticulum in genetically susceptible people, triggered by fluorinated anaesthetics and succinylcholine. Dantrolene blocks the RyR1 calcium-release channel, so IV dantrolene is the drug of choice. Dose in the owner's books: 1 mg/kg IV, repeated as needed up to a maximum of 10 mg/kg (KDT, Katzung). Oral use for spasticity is limited because the muscle weakness it causes offsets the benefit, and long-term use causes dose-related hepatotoxicity (a black-box warning).",
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-dantrolene-central-relaxants",
+      "tags": [
+        "uses",
+        "adr",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-009",
+      "type": "basic",
+      "front": "Why can rocuronium replace succinylcholine for rapid tracheal intubation?",
+      "back": "Rocuronium is a non-depolarising aminosteroid blocker with the fastest onset in its class, so it is the alternative to succinylcholine for tracheal intubation. It causes no fasciculation and no potassium release, has minimal cardiovascular effects, and is used for maintenance as well. Even profound block can be reversed by sugammadex (16 mg/kg reverses a 1.2 mg/kg dose within a few minutes). It depends on liver and biliary elimination, so its action is prolonged in liver disease.",
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-agents",
+      "tags": [
+        "uses",
+        "pk"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-010",
+      "type": "basic",
+      "front": "Atracurium versus cisatracurium: elimination and side effects.",
+      "back": "Atracurium undergoes spontaneous Hofmann elimination as well as ester hydrolysis, so its action is not prolonged in hepatic or renal failure. It releases histamine in a dose-related way, causing hypotension. Its breakdown product laudanosine has a long half-life, crosses the blood-brain barrier and at high levels can cause seizures, a concern during long ICU infusions. Cisatracurium, its potent stereoisomer, depends less on hepatic inactivation, forms less laudanosine and is much less likely to release histamine; it is preferred in liver or kidney disease and the elderly and has largely replaced atracurium.",
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-agents",
+      "tags": [
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-011",
+      "type": "shortnote",
+      "front": "Short note: Competitive versus depolarising neuromuscular block",
+      "sections": [
+        {
+          "h": "Site",
+          "points": [
+            "Motor end-plate nicotinic (NM) receptor for both types",
+            "Competitive: receptor occupied, no activation",
+            "Depolarising: receptor activated, channel opens persistently"
+          ]
+        },
+        {
+          "h": "Clinical features",
+          "points": [
+            "Competitive: flaccid paralysis; fade on tetanus and train-of-four; post-tetanic potentiation present",
+            "Depolarising phase I: fasciculation then flaccid paralysis; no fade",
+            "Depolarising phase II looks like competitive block"
+          ]
+        },
+        {
+          "h": "Reversal",
+          "points": [
+            "Competitive: reversed by anticholinesterases such as neostigmine",
+            "Depolarising phase I: neostigmine does not reverse it and may worsen it",
+            "Phase II: partly reversed by anticholinesterases"
+          ]
+        },
+        {
+          "h": "Other differences",
+          "points": [
+            "Competitive blockers also block prejunctional receptors, causing fade",
+            "Depolarising agents release potassium and can cause hyperkalaemia",
+            "Dual block can occur with high-dose or infused depolarising agents"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-principles",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-012",
+      "type": "shortnote",
+      "front": "Short note: Succinylcholine",
+      "sections": [
+        {
+          "h": "Pharmacology",
+          "points": [
+            "Depolarising blocker with the quickest onset and shortest action; IV dose 0.75 to 1.5 mg/kg (Katzung)",
+            "Paralysis lasts about 5 to 10 min",
+            "Hydrolysed by plasma pseudocholinesterase"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Tracheal intubation and other brief procedures",
+            "Reduction of fractures and dislocations; laryngospasm",
+            "Modifying the muscular component of ECT"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Fasciculations; postoperative myalgia, more in muscular patients and with doses above 1.5 mg/kg",
+            "Bradycardia, then tachycardia and BP rise; arrhythmias",
+            "Potassium rises about 0.5 mEq/L; dangerous hyperkalaemia and cardiac arrest in burns, nerve damage or neuromuscular disease, closed head injury and major trauma (extrajunctional receptor proliferation)",
+            "Raised intraocular and intragastric pressure; regurgitation risk",
+            "Malignant hyperthermia with volatile anaesthetics",
+            "Histamine release: listed by KDT, but flushing is mainly a feature of d-tubocurarine, atracurium and mivacurium and is rare with other blockers; true anaphylaxis is rare"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Avoid in young children unless essential",
+            "Open globe eye injury (otherwise eye surgery is not a contraindication)",
+            "Atypical or deficient pseudocholinesterase: prolonged apnoea"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27",
+        "GG14 ch13"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-agents",
+      "tags": [
+        "uses",
+        "adr",
+        "contraindications"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-013",
+      "type": "shortnote",
+      "front": "Short note: Malignant hyperthermia",
+      "sections": [
+        {
+          "h": "Cause",
+          "points": [
+            "Inherited (autosomal dominant) susceptibility, linked to the skeletal muscle RyR1 calcium-release channel and to myopathies such as central core disease",
+            "Triggered by fluorinated anaesthetics (halothane, isoflurane), especially with succinylcholine",
+            "Persistent calcium release causes contracture, rigidity and heat production"
+          ]
+        },
+        {
+          "h": "Presentation",
+          "points": [
+            "Rising temperature, tachycardia and muscle rigidity",
+            "Acidosis and hyperkalaemia develop as the reaction progresses",
+            "Usually no signs until an anaesthetic is given"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Stop all triggering agents at once",
+            "IV dantrolene is the drug of choice: 1 mg/kg, repeated up to 10 mg/kg (KDT, Katzung)",
+            "100% oxygen, rapid cooling and correction of acidosis"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Identify susceptible patients and avoid triggering agents",
+            "Use a non-triggering anaesthetic technique for them"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch25",
+        "KDT8 ch27",
+        "GG14 ch13",
+        "Katzung16 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-dantrolene-central-relaxants",
+      "tags": [
+        "mechanism",
+        "adr",
+        "uses"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-014",
+      "type": "shortnote",
+      "front": "Short note: Baclofen",
+      "sections": [
+        {
+          "h": "Pharmacology",
+          "points": [
+            "GABA analogue; selective GABA-B receptor agonist",
+            "Acts mainly in the spinal cord, reducing release of excitatory transmitters",
+            "Depresses mono- and polysynaptic reflexes"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Spasticity in multiple sclerosis, ALS, spinal injury and flexor spasms",
+            "Intrathecal catheter delivery controls severe spasticity not responding to other routes",
+            "Relatively ineffective in stroke, cerebral palsy, rheumatic or traumatic spasm, and parkinsonism"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Well absorbed orally",
+            "Mostly excreted unchanged in urine; half-life 3 to 4 h"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Drowsiness, confusion, weakness and ataxia; transaminase rise",
+            "High doses: excessive somnolence, respiratory depression, coma",
+            "Abrupt withdrawal (including interruption of intrathecal delivery) can cause hallucinations, tachycardia and seizures"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-dantrolene-central-relaxants",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-015",
+      "type": "essay",
+      "front": "Essay: Neuromuscular blocking agents - classification, pharmacology and clinical use",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Peripheral relaxants act at the end plate or muscle fibre",
+            "Used mainly as adjuncts to general anaesthesia for intubation and surgery",
+            "All are quaternary and given IV"
+          ]
+        },
+        {
+          "h": "Classification",
+          "points": [
+            "Competitive: long acting (d-tubocurarine, pancuronium, doxacurium, pipecuronium)",
+            "Competitive: intermediate (vecuronium, atracurium, cisatracurium, rocuronium)",
+            "Competitive: short (mivacurium); depolarising: succinylcholine"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Not absorbed orally; do not cross the BBB or placenta",
+            "Plasma or hepatic breakdown (vecuronium, atracurium, mivacurium) gives short action",
+            "Mainly renal excretion (pancuronium, d-tubocurarine) gives long action; redistribution ends surgical block"
+          ]
+        },
+        {
+          "h": "Adverse effects and interactions",
+          "points": [
+            "Respiratory paralysis is the main hazard",
+            "Histamine release causes flushing, hypotension and bronchospasm",
+            "Inhalational agents potentiate; ether most, nitrous oxide least",
+            "Aminoglycosides, tetracyclines, verapamil and hypokalaemia from diuretics also potentiate"
+          ]
+        },
+        {
+          "h": "Monitoring and reversal",
+          "points": [
+            "Train-of-four and double-burst stimulation",
+            "Neostigmine with atropine or glycopyrrolate for competitive block",
+            "Sugammadex for rocuronium and vecuronium"
+          ]
+        },
+        {
+          "h": "Choice of agent",
+          "points": [
+            "Vecuronium, cisatracurium and rocuronium for routine surgery and ICU",
+            "Succinylcholine for brief procedures; competitive agents for ocular surgery"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-principles",
+      "tags": [
+        "classification"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-016",
+      "type": "essay",
+      "front": "Essay: Centrally acting muscle relaxants",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Reduce muscle tone through action in the spinal cord and brain",
+            "No effect on neuromuscular transmission or muscle fibre",
+            "Selectively depress polysynaptic reflexes; monosynaptic stretch reflex largely spared",
+            "Mild sedation is common"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Mephenesin: historical; gastric irritation and thrombophlebitis rule out use",
+            "Carisoprodol, chlorzoxazone, methocarbamol, chlormezanone: efficacy in acute spasm is not well established",
+            "Diazepam (GABA-A enhancement); baclofen (GABA-B agonist); tizanidine (alpha-2 agonist)"
+          ]
+        },
+        {
+          "h": "Spasticity",
+          "points": [
+            "Baclofen is preferred in multiple sclerosis, spinal injury and ALS",
+            "Tizanidine reduces spasticity with less weakness; avoid with clonidine or antihypertensives",
+            "Dantrolene acts on muscle rather than the CNS"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Acute painful spasm, backache, torticollis and lumbago",
+            "Spastic neurological disease; tetanus (diazepam infusion)",
+            "Adjuncts in ECT and orthopaedic manipulation"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Sedation, dizziness, weakness and gastric upset",
+            "Tizanidine: dry mouth, raised liver enzymes; CYP1A2 inhibitors raise its plasma levels",
+            "Carisoprodol is metabolised to meprobamate; stopping either after heavy use causes a withdrawal syndrome"
+          ]
+        },
+        {
+          "h": "Versus neuromuscular blockers",
+          "points": [
+            "Centrally acting: oral or parenteral, CNS depression, no paralysis of voluntary movement",
+            "Neuromuscular blockers: IV only, flaccid paralysis, no central effect"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch25",
+        "Katzung16 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-dantrolene-central-relaxants",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-017",
+      "type": "cloze",
+      "front": "Classify: competitive blocker features",
+      "text": "Competitive blockers bind the {{NM}} receptor at the {{motor end plate}} without any {{intrinsic activity}}; their fade on train-of-four stimulation is reversed by {{anticholinesterases}}.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-018",
+      "type": "cloze",
+      "front": "Classify: neuromuscular blockers by duration",
+      "text": "Long-acting competitive blockers: {{d-tubocurarine}}, {{pancuronium}}, {{doxacurium}} and {{pipecuronium}}. Intermediate-acting: {{vecuronium}}, {{atracurium}}, {{cisatracurium}} and {{rocuronium}}. Short-acting competitive: {{mivacurium}}. Depolarising (ultrashort): {{succinylcholine}}.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-agents",
+      "tags": [
+        "classification",
+        "dosing"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-019",
+      "type": "cloze",
+      "front": "Classify: neuromuscular blockers by route of elimination",
+      "text": "Agents broken down mainly in the {{liver or plasma}} (e.g. {{vecuronium}}, {{atracurium}}, {{mivacurium}}) act briefly, whereas agents excreted mainly by the {{kidney}} (e.g. {{pancuronium}}, {{doxacurium}}) act longer.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-nmb-agents",
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-020",
+      "type": "cloze",
+      "front": "Classify: centrally acting muscle relaxants",
+      "text": "Centrally acting relaxants include {{baclofen}} (GABA-B agonist), {{tizanidine}} (alpha-2 agonist), {{diazepam}} and {{methocarbamol}}; {{mephenesin}} is no longer used because of gastric irritation and thrombophlebitis.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-dantrolene-central-relaxants",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-021",
+      "type": "basic",
+      "front": "How do local anaesthetics block the axonal Na+ channel?",
+      "back": "The unionised base crosses the membrane and re-ionises inside the axon. The cation binds a receptor in the inner pore of the Na+ channel (segment S6 of domain IV), stabilises the inactivated state, and so raises the threshold and stops conduction. Blockade is use-dependent: it builds faster at higher firing frequencies, and higher extracellular Ca2+ reduces it.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-principles",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-022",
+      "type": "basic",
+      "front": "Why does the pKa of a local anaesthetic determine its onset?",
+      "back": "Only the unionised base crosses the nerve membrane. Lidocaine (pKa about 7.6 to 7.8) has 30 to 40% unionised at pH 7.4, so onset is fast. Bupivacaine, tetracaine and procaine (pKa 8.1 to 8.9) have 15% or less unionised, so onset is slow. Chloroprocaine is an exception: rapid onset despite a high pKa.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-principles",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-023",
+      "type": "basic",
+      "front": "Why is epidural bupivacaine popular for labour analgesia?",
+      "back": "At low concentration (0.25%), bupivacaine blocks sensory fibres more readily than motor fibres, giving pain relief with little leg weakness. The mother can push during contractions. In postoperative continuous epidural analgesia, the same separation allows early walking and exercise. Ropivacaine gives a similar sensory-motor separation.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-agents",
+      "tags": [
+        "uses",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-024",
+      "type": "basic",
+      "front": "Ester-linked versus amide-linked local anaesthetics.",
+      "back": "Ester types (procaine, chloroprocaine, tetracaine, benzocaine) are hydrolysed by plasma pseudocholinesterase, act for shorter periods and cause more hypersensitivity; allergy cross-reacts among esters. Amide types (lidocaine, bupivacaine, ropivacaine, prilocaine) are broken down in the liver, act longer and more intensely, rarely cause allergy, and do not cross-react with esters. Methylparaben preservative is a common allergen.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-principles",
+      "tags": [
+        "classification",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-025",
+      "type": "basic",
+      "front": "Why is adrenaline added to local anaesthetic solutions, and where should it be avoided?",
+      "back": "Adrenaline (1 in 50,000 to 1 in 200,000) slows absorption from the injection site: the block lasts longer and is more intense, systemic toxicity falls and the field is less bloody. Classical teaching avoids it in ring blocks of fingers, toes, penis and pinna, where collateral flow is poor; Katzung notes some now question this rule. Use with caution in ischaemic heart disease, arrhythmia, uncontrolled hypertension, thyrotoxicosis, and with beta-blockers (unopposed alpha effect) or tricyclic antidepressants.",
+      "refs": [
+        "KDT8 ch26",
+        "Katzung16 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-principles",
+      "tags": [
+        "uses",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-026",
+      "type": "basic",
+      "front": "Local anaesthetic systemic toxicity: CNS and cardiovascular features and management",
+      "back": "CNS: early circumoral numbness, tongue tingling, dizziness, tinnitus; then restlessness, twitching, convulsions, coma and respiratory arrest. Cardiovascular: bradycardia, hypotension, arrhythmias, asystole and vascular collapse; bupivacaine is the most cardiotoxic. Management: stop injection, secure airway, give oxygen and ventilate, treat convulsions with diazepam or midazolam, support circulation, and give IV lipid emulsion, which has been shown to resuscitate bupivacaine cardiotoxicity.",
+      "refs": [
+        "KDT8 ch26",
+        "Katzung16 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-principles",
+      "tags": [
+        "adr",
+        "poisoning"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-027",
+      "type": "basic",
+      "front": "Lidocaine versus bupivacaine: how do they compare?",
+      "back": "Lidocaine: relative potency 1, fast onset, duration about 60 to 120 min, relatively low cardiotoxicity; also used as an antiarrhythmic. Bupivacaine: about 4 to 5 times as potent, slower onset, long duration (about 120 to 360 min), markedly more cardiotoxic, and avoided in IV regional block. Its sensory-selective epidural use at low concentration is its main advantage. Levobupivacaine is less cardiotoxic.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-agents",
+      "tags": [
+        "pk",
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-028",
+      "type": "basic",
+      "front": "What is EMLA and how is it used?",
+      "back": "A eutectic mixture of local anaesthetics: lidocaine 2.5% and prilocaine 2.5% form a mixture with a lower melting point, made into a 5% cream that can penetrate keratinised skin. Applied under an occlusive dressing for about 1 hour, it numbs intact skin to about 5 mm, lasting 1 to 2 hours after removal. Used before venepuncture or IV cannulation (especially in children), skin graft harvest and superficial procedures. A prilocaine metabolite can cause methaemoglobinaemia.",
+      "refs": [
+        "KDT8 ch26",
+        "Katzung16 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-agents",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-029",
+      "type": "basic",
+      "front": "Why is cocaine no longer used as a local anaesthetic?",
+      "back": "Its only classical indication was ocular surface anaesthesia, but it constricts conjunctival vessels and can cloud and even slough the cornea, so even this use is not justified. It blocks reuptake of noradrenaline and adrenaline, causing vasoconstriction, hypertension, tachycardia and mydriasis. It is a powerful CNS stimulant with high abuse potential. It must never be injected, because it is a protoplasmic poison that causes tissue necrosis.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-agents",
+      "tags": [
+        "adr",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-030",
+      "type": "basic",
+      "front": "Spinal anaesthesia: injection site, site of action and level of block.",
+      "back": "The drug is injected into the subarachnoid space at L2-3 or L3-4, below the end of the cord, so it acts mainly on cauda equina nerve roots. Spread depends on dose, volume, specific gravity and posture; hyperbaric (glucose) solutions move to the dependent part. Sympathetic block is about 2 segments higher than the sensory level and motor block about 2 segments lower. The level becomes fixed about 10 min after injection.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-regional-blocks",
+      "tags": [
+        "uses",
+        "pk"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-031",
+      "type": "shortnote",
+      "front": "Short note: Spinal anaesthesia",
+      "sections": [
+        {
+          "h": "Technique and solutions",
+          "points": [
+            "Subarachnoid injection at L2-3 or L3-4",
+            "Hyperbaric (10% glucose) or isobaric solutions; level depends on dose, volume, speed, specific gravity and posture"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Lidocaine 1.5 to 5% heavy solution; bupivacaine 0.5% heavy, lasting about 90 to 150 min",
+            "Ropivacaine 0.75% for spinal use"
+          ]
+        },
+        {
+          "h": "Adjuncts",
+          "points": [
+            "Adrenaline prolongs the block",
+            "Intrathecal clonidine gives analgesia by itself"
+          ]
+        },
+        {
+          "h": "Pregnancy",
+          "points": [
+            "Late pregnancy needs less drug, because engorged epidural veins reduce subarachnoid volume"
+          ]
+        },
+        {
+          "h": "Complications",
+          "points": [
+            "Hypotension from sympathetic block and venous pooling; manage with leg elevation and ephedrine or mephentermine",
+            "Headache from CSF leak; less with a fine-bore needle",
+            "Transient neurological symptoms (back and leg pain), more common with lidocaine; cauda equina syndrome is very rare",
+            "Respiratory failure is rare; intercostal paralysis is usually compensated by the diaphragm"
+          ]
+        },
+        {
+          "h": "Contraindications",
+          "points": [
+            "Hypotension, hypovolaemia, bleeding diathesis, raised intracranial pressure",
+            "Uncooperative patients, infants, vertebral deformity, sepsis at the site"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch26",
+        "Katzung16 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-regional-blocks",
+      "tags": [
+        "dosing",
+        "uses",
+        "adr"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-032",
+      "type": "shortnote",
+      "front": "Short note: Epidural and caudal anaesthesia",
+      "sections": [
+        {
+          "h": "Site and action",
+          "points": [
+            "Drug acts mainly on nerve roots in the epidural and subarachnoid spaces",
+            "Some drug passes through the foramina, giving paravertebral blocks"
+          ]
+        },
+        {
+          "h": "Routes",
+          "points": [
+            "Thoracic: narrow space, small volume; thoracic or upper abdominal surgery and catheter analgesia",
+            "Lumbar: large volume; lower abdomen, pelvis and legs",
+            "Caudal (sacral hiatus): perineal block for vaginal delivery, anorectal and genitourinary surgery"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Lidocaine 1 to 2%; bupivacaine 0.25 to 0.5%",
+            "Continuous epidural bupivacaine 0.125%; ropivacaine for labour and postoperative pain"
+          ]
+        },
+        {
+          "h": "Compared with spinal",
+          "points": [
+            "Headache and neurological complications less likely",
+            "Larger volumes give higher plasma levels",
+            "Motor block extends 4 to 5 segments caudal to the sensory level, especially at low concentration",
+            "Greatest sensory-motor separation with 0.25% bupivacaine or ropivacaine"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-regional-blocks",
+      "tags": [
+        "uses"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-033",
+      "type": "shortnote",
+      "front": "Short note: Bupivacaine",
+      "sections": [
+        {
+          "h": "Properties",
+          "points": [
+            "Lipophilic, long-acting amide; about 4 to 5 times as potent as lidocaine",
+            "Slower onset than lidocaine; long duration"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Infiltration, nerve block, epidural and spinal anaesthesia",
+            "Labour analgesia and postoperative continuous epidural infusion"
+          ]
+        },
+        {
+          "h": "Concentrations",
+          "points": [
+            "Peripheral nerve block 0.25 to 0.5%; epidural 0.25 to 0.5%; spinal 0.5% (hyperbaric)",
+            "Continuous epidural analgesia 0.125%"
+          ]
+        },
+        {
+          "h": "Cardiotoxicity",
+          "points": [
+            "Prolongs QTc; can cause ventricular tachycardia, fibrillation and arrest",
+            "0.75% epidural in labour has caused deaths; contraindicated",
+            "Limits total dose (KDT maximum 150 mg for nerve block); IV lipid emulsion helps in toxicity"
+          ]
+        },
+        {
+          "h": "Related drugs",
+          "points": [
+            "Levobupivacaine (S-enantiomer): equally potent, less cardiotoxic, fewer seizures",
+            "Ropivacaine: similar duration, less cardiotoxic; blocks sensory fibres more than motor fibres"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-agents",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-034",
+      "type": "shortnote",
+      "front": "Short note: Surface anaesthesia",
+      "sections": [
+        {
+          "h": "Purpose",
+          "points": [
+            "Topical application to mucous membranes or abraded skin",
+            "Anaesthetises only the superficial layer; motor function preserved"
+          ]
+        },
+        {
+          "h": "Agents by site",
+          "points": [
+            "Eye: proparacaine (most used, faster and less irritant than tetracaine), tetracaine",
+            "Mouth, throat and airway: lidocaine spray (10% acts in 2 to 5 min for 30 to 45 min), benzocaine",
+            "Anal canal: dibucaine, lidocaine, benzocaine",
+            "Abraded skin and ulcers: tetracaine, benzocaine, butamben",
+            "Intact skin: eutectic lidocaine and prilocaine cream",
+            "Stomach and oesophagus: oxethazaine, which ionises very little even in acid"
+          ]
+        },
+        {
+          "h": "Precautions",
+          "points": [
+            "Tetracaine sprayed on the airway is absorbed rapidly; avoid it for bronchoscopy",
+            "Phenylephrine adds mucosal vasoconstriction and prolongs topical block",
+            "Benzocaine can cause methaemoglobinaemia"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-regional-blocks",
+      "tags": [
+        "uses"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-035",
+      "type": "essay",
+      "front": "Essay: Local anaesthetics - chemistry, mechanism and classification",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Reversible block of impulse generation and conduction, without structural damage",
+            "Applied to a mixed nerve, blocks sensory and motor fibres together"
+          ]
+        },
+        {
+          "h": "Chemistry",
+          "points": [
+            "Weak base with amphiphilic structure",
+            "Hydrophilic amine and lipophilic aromatic ring joined by an ester or amide link"
+          ]
+        },
+        {
+          "h": "Classification",
+          "points": [
+            "Ester: procaine, chloroprocaine, tetracaine, benzocaine",
+            "Amide: lidocaine, bupivacaine, ropivacaine, prilocaine, levobupivacaine",
+            "Cocaine is an ester alkaloid, used only for ocular anaesthesia"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Reduce Na+ entry during the action potential upstroke; threshold rises",
+            "Cationic form binds the inner channel receptor; affinity higher in activated and inactivated states"
+          ]
+        },
+        {
+          "h": "Factors governing block",
+          "points": [
+            "pKa governs onset; lipid solubility governs potency",
+            "Small myelinated fibres are blocked first; pain before temperature, touch and pressure",
+            "Fibre position in the nerve and local inflammation (low pH) reduce efficacy"
+          ]
+        },
+        {
+          "h": "Techniques",
+          "points": [
+            "Surface, infiltration, field block, nerve block, spinal, epidural and IV regional block"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-principles",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-036",
+      "type": "essay",
+      "front": "Essay: Toxicity and precautions with local anaesthetics",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Systemic effects depend on plasma concentration after absorption",
+            "Absorption depends on the site and its blood flow (intercostal faster than sciatic)"
+          ]
+        },
+        {
+          "h": "CNS toxicity",
+          "points": [
+            "Stimulation followed by depression; early numbness, tinnitus and dizziness, then convulsions and coma",
+            "Cocaine is the most potent in this respect; synthetic agents cause little CNS effect at safe doses",
+            "Diazepam or midazolam for convulsions"
+          ]
+        },
+        {
+          "h": "Cardiovascular toxicity",
+          "points": [
+            "High levels depress automaticity, conduction and contractility, and prolong refractoriness and QTc",
+            "Bupivacaine is most cardiotoxic",
+            "Hypotension from sympathetic block and direct arteriolar relaxation; collapse at toxic levels"
+          ]
+        },
+        {
+          "h": "Local tissue and hypersensitivity",
+          "points": [
+            "Injection pain; bupivacaine is the most irritant",
+            "Adrenaline increases the risk of necrosis; wound healing may be delayed",
+            "Rashes, angioedema, asthma; esters cause more allergy than amides"
+          ]
+        },
+        {
+          "h": "Precautions",
+          "points": [
+            "Aspirate before injection; inject slowly; keep within maximum safe dose, especially in children",
+            "Hepatic disease and the elderly reduce clearance of amide agents",
+            "Propranolol may reduce lidocaine metabolism"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Stop injection; secure airway, give oxygen and ventilate",
+            "Treat convulsions; support circulation",
+            "IV lipid emulsion for bupivacaine cardiotoxicity"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch26",
+        "Katzung16 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-principles",
+      "tags": [
+        "adr",
+        "poisoning"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-037",
+      "type": "cloze",
+      "front": "Classify: ester-linked and amide-linked local anaesthetics",
+      "text": "Ester-linked local anaesthetics include {{procaine}}, {{chloroprocaine}}, {{tetracaine}} and {{benzocaine}}; amide-linked ones include {{lidocaine}}, {{bupivacaine}}, {{prilocaine}} and {{ropivacaine}}.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-principles",
+      "tags": [
+        "classification"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-038",
+      "type": "cloze",
+      "front": "Classify: relative potency and duration",
+      "text": "Relative to lidocaine (potency 1), {{bupivacaine}} is about {{4 to 5}} times as potent and {{ropivacaine}} about {{3 to 4}} times; lidocaine has a {{fast}} onset and bupivacaine a {{long}} duration.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-agents",
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-039",
+      "type": "cloze",
+      "front": "Classify: special-purpose local anaesthetics",
+      "text": "The most potent and most toxic local anaesthetic is {{dibucaine}}; the eutectic lidocaine and prilocaine cream anaesthetises {{intact skin}}; {{proparacaine}} is the commonly used ophthalmic surface anaesthetic; {{oxethazaine}} can act on gastric mucosa.",
+      "refs": [
+        "KDT8 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-agents",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-040",
+      "type": "cloze",
+      "front": "Recall: maximum doses of local anaesthetics for nerve block (KDT)",
+      "text": "Maximum doses for nerve block are about {{300 mg}} for lidocaine, {{150 mg}} for bupivacaine and {{200 mg}} for ropivacaine; the highest peak blood levels follow {{intercostal}} block, so limits are respected most carefully there.",
+      "refs": [
+        "KDT8 ch26",
+        "Katzung16 ch26"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-la-agents",
+      "tags": [
+        "dosing"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-041",
+      "type": "basic",
+      "front": "What are the four cardinal features of general anaesthesia?",
+      "back": "Loss of all sensation, especially pain; unconsciousness with amnesia; immobility with muscle relaxation; and abolition of somatic and autonomic reflexes.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-042",
+      "type": "basic",
+      "front": "What is MAC, and what changes it?",
+      "back": "MAC is the minimum alveolar concentration that prevents movement in response to a surgical incision in 50% of patients. It is the standard measure of inhalational potency (the lower the MAC, the more potent the agent). It declines progressively beyond about 50 years of age, is lowered by sedative or opioid premedication, and is additive when two agents are combined (for example, 0.5 MAC of nitrous oxide plus 0.5 MAC of isoflurane gives about the effect of 1 MAC isoflurane).",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-043",
+      "type": "basic",
+      "front": "Second gas effect and diffusion hypoxia.",
+      "back": "Second gas effect: a high-concentration gas such as nitrous oxide (70 to 80%) draws in extra gas volume, so a simultaneously given potent agent such as halothane reaches blood faster. Diffusion hypoxia: when nitrous oxide is stopped, its rapid outflow dilutes alveolar oxygen. It is prevented by giving 100% oxygen for a few minutes after stopping nitrous oxide.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-044",
+      "type": "basic",
+      "front": "Describe Guedel's four stages of anaesthesia.",
+      "back": "Stage I, analgesia: from start of inhalation to loss of consciousness. Stage II, delirium: excitement until regular breathing returns; no stimulus should be given. Stage III, surgical anaesthesia: regular breathing to cessation of spontaneous breathing, with four planes. Stage IV, medullary paralysis: breathing and circulation fail. These stages are blurred in modern practice.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-045",
+      "type": "basic",
+      "front": "Which receptors do nitrous oxide and ketamine act on, and how does this differ from volatile agents?",
+      "back": "Nitrous oxide and ketamine mainly inhibit NMDA glutamate receptors, which gate Ca2+ channels. Volatile agents, barbiturates, propofol and benzodiazepines potentiate GABA-A chloride currents; some volatile agents and barbiturates also inhibit neuronal nicotinic channels. General anaesthetics mainly depress synaptic transmission, unlike local anaesthetics, which block axonal conduction.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-046",
+      "type": "basic",
+      "front": "Thiopentone: why is its action short, and what are its main risks?",
+      "back": "It is highly lipid-soluble, so it reaches the brain within one arm-to-brain circulation time (about 15 to 20 s). Redistribution into muscle and fat ends the effect in 6 to 10 min, while slow hepatic metabolism (half-life 8 to 12 h) leaves residual sedation for over 12 h. Risks: apnoea, hypotension, laryngospasm, poor analgesia; contraindicated in porphyria. Extravasation or inadvertent intra-arterial injection causes intense pain, necrosis and gangrene. It must not be mixed with succinylcholine in the same syringe.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-047",
+      "type": "basic",
+      "front": "Propofol: advantages and adverse effects.",
+      "back": "A 1% emulsion; induction 2 mg/kg IV, maintenance 100 to 200 µg/kg/min. Recovery is fast with little nausea (it has antiemetic activity), so it suits day-case surgery; it is also used in asthmatics. Drawbacks: pain on injection (reduced by lidocaine or an opioid), induction apnoea, dose-related hypotension from vasodilatation and dose-dependent respiratory depression. Prolonged high-dose infusion can cause metabolic acidosis, lipaemia and heart failure (propofol infusion syndrome); unexplained tachycardia during propofol anaesthesia should prompt a check for acidosis.",
+      "refs": [
+        "KDT8 ch27",
+        "Katzung16 ch25"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-048",
+      "type": "basic",
+      "front": "Ketamine: dissociative anaesthesia and when to avoid it.",
+      "back": "It blocks NMDA receptors, giving dissociative anaesthesia: profound analgesia and amnesia while the eyes stay open and airway reflexes persist. It preserves respiration and dilates bronchi, but raises heart rate, BP, cerebral blood flow and oxygen demand. Emergence delirium and hallucinations are common. Avoid in hypertension, ischaemic heart disease and heart failure; it suits hypovolaemic patients and asthmatics. It has traditionally been avoided with raised intracranial pressure, though Katzung notes the cerebral effects may be blunted by keeping CO2 normal. Its S-isomer, esketamine, is given intranasally for depression.",
+      "refs": [
+        "KDT8 ch27",
+        "Katzung16 ch25",
+        "GG14 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "mechanism",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-049",
+      "type": "basic",
+      "front": "Remifentanil: why does its effect end so quickly?",
+      "back": "It is hydrolysed rapidly by plasma and tissue esterases rather than by the liver or kidney, so its effect fades within about 10 to 15 min even after prolonged infusion. This titratability and quick recovery suit short, intensely painful procedures and infusion techniques. It still causes respiratory depression and can cause chest wall rigidity.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-050",
+      "type": "basic",
+      "front": "Halothane: main adverse effects and why it has declined.",
+      "back": "It causes dose-related depression of myocardial contractility and a fall in BP, and sensitises the heart to adrenaline, which can cause arrhythmias. It depresses respiration and reduces urine output by lowering GFR. About 20% is metabolised; immune reactions against trifluoroacetylated liver proteins can cause halothane hepatitis (about 1 in 10,000 exposures, about 50% fatal), presenting days after surgery with fever, nausea, rash and eosinophilia. It triggers malignant hyperthermia. Low cost keeps it in use in developing countries, but newer agents have replaced it elsewhere.",
+      "refs": [
+        "KDT8 ch27",
+        "GG14 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-anaesthetics-051",
+      "type": "shortnote",
+      "front": "Short note: Pharmacokinetics of inhalational anaesthetics",
+      "sections": [
+        {
+          "h": "Transfer",
+          "points": [
+            "Inspired partial pressure drives delivery; brain partial pressure determines depth",
+            "Induction and recovery depend on the rate of change of brain partial pressure"
+          ]
+        },
+        {
+          "h": "Determinants",
+          "points": [
+            "Higher inspired concentration gives faster induction",
+            "Ventilation speeds the process but does not change the final depth",
+            "Alveolar-blood mismatch (as in emphysema) slows both induction and recovery"
+          ]
+        },
+        {
+          "h": "Blood solubility",
+          "points": [
+            "Most important factor for induction and recovery",
+            "Low solubility (nitrous oxide, sevoflurane, desflurane) gives rapid change; ether is slow"
+          ]
+        },
+        {
+          "h": "Tissue and flow",
+          "points": [
+            "Lipophilic agents (halothane, isoflurane) accumulate in fat and slow recovery",
+            "Brain and well-perfused tissues take up drug quickly; CO2 speeds this by vasodilatation"
+          ]
+        },
+        {
+          "h": "Elimination",
+          "points": [
+            "Mainly through the lungs; most agents are not metabolised",
+            "About 20% of halothane is metabolised in the liver"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "pk"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-052",
+      "type": "shortnote",
+      "front": "Short note: Isoflurane, desflurane and sevoflurane",
+      "sections": [
+        {
+          "h": "Isoflurane",
+          "points": [
+            "Introduced 1981; replaced enflurane; routine maintenance agent",
+            "BP fall from vasodilatation with preserved cardiac output; dilates coronaries",
+            "Pungent, so not used for induction; no seizure tendency; suits neurosurgery"
+          ]
+        },
+        {
+          "h": "Desflurane",
+          "points": [
+            "About five times less potent than isoflurane; very low blood and tissue solubility, so very fast",
+            "Pungent, irritates the airway and is unsuitable for induction",
+            "Needs a heated special vaporiser; fresh, well-hydrated soda lime avoids carbon monoxide"
+          ]
+        },
+        {
+          "h": "Sevoflurane",
+          "points": [
+            "Intermediate properties; non-pungent, so good for induction, including in children",
+            "Fast emergence; modest cardiac depression; epileptiform EEG patterns reported",
+            "Reacts with soda lime to form compound A, nephrotoxic in rats though no human renal injury is reported; not used in a fully closed circuit; costly"
+          ]
+        },
+        {
+          "h": "Common features",
+          "points": [
+            "All are non-inflammable",
+            "Metabolism is negligible, and renal and hepatic toxicity are rare"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch27",
+        "Katzung16 ch25"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-053",
+      "type": "shortnote",
+      "front": "Short note: Stages and signs of depth of anaesthesia",
+      "sections": [
+        {
+          "h": "Guedel's stages",
+          "points": [
+            "Stage I analgesia; stage II delirium; stage III surgical anaesthesia; stage IV medullary paralysis"
+          ]
+        },
+        {
+          "h": "Planes of stage III",
+          "points": [
+            "Plane 1: roving eyeballs, ending when the eyes become fixed",
+            "Plane 2: loss of corneal and laryngeal reflexes",
+            "Plane 3: pupil dilates and light reflex is lost",
+            "Plane 4: intercostal paralysis and shallow abdominal breathing"
+          ]
+        },
+        {
+          "h": "Modern signs",
+          "points": [
+            "Eyelash reflex present with swallowing: stage II not yet reached",
+            "No response to pressure on the upper orbital margin: stage III reached",
+            "Coughing, tears, BP rise and laryngospasm during incision: light anaesthesia",
+            "BP fall with cardiorespiratory depression: deep anaesthesia"
+          ]
+        },
+        {
+          "h": "Stage IV",
+          "points": [
+            "Breathing stops, circulation fails, pupils are widely dilated, pulse is thready and muscles are flaccid"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "classification"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-054",
+      "type": "shortnote",
+      "front": "Short note: Preanaesthetic medication",
+      "sections": [
+        {
+          "h": "Aims",
+          "points": [
+            "Relieve anxiety and ensure smooth induction; produce amnesia",
+            "Supplement analgesia and reduce the anaesthetic needed",
+            "Reduce secretions and vagal reflexes; prevent vomiting",
+            "Reduce gastric acidity and volume to limit damage if aspirated"
+          ]
+        },
+        {
+          "h": "Sedatives",
+          "points": [
+            "Diazepam 5 to 10 mg orally; lorazepam 2 mg orally or 0.05 mg/kg IM one hour before",
+            "Midazolam: potent, short-acting amnesic, water-soluble",
+            "Promethazine 50 mg IM: sedative, antiemetic and anticholinergic"
+          ]
+        },
+        {
+          "h": "Opioids",
+          "points": [
+            "Morphine 10 mg or pethidine 50 to 100 mg IM",
+            "Disadvantages: respiratory depression, masked pupillary signs, delayed gastric emptying, biliary spasm, postoperative nausea and urinary retention",
+            "Now mostly restricted to patients with preoperative pain"
+          ]
+        },
+        {
+          "h": "Antimuscarinics",
+          "points": [
+            "Glycopyrrolate: about twice as potent as atropine, longer acting, no central effects, quick when given IV",
+            "Its main use now is to prevent vagal bradycardia and laryngospasm",
+            "Hyoscine causes amnesia but delays recovery and can cause emergence delirium"
+          ]
+        },
+        {
+          "h": "Gastric and antiemetic",
+          "points": [
+            "H2 blockers (ranitidine 150 mg, famotidine 20 mg) or PPIs (omeprazole 20 mg, pantoprazole 40 mg) for aspiration risk",
+            "Metoclopramide 10 to 20 mg IM; ondansetron 4 to 8 mg IV (5-HT3 blocker, antiemetic of choice)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-055",
+      "type": "essay",
+      "front": "Essay: Intravenous anaesthetics - classification, actions and uses",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "IV agents cause loss of consciousness within one arm-to-brain circulation time",
+            "Mainly used for induction; maintenance is usually inhalational, or total IV technique"
+          ]
+        },
+        {
+          "h": "Fast-acting barbiturates and propofol",
+          "points": [
+            "Thiopentone: ultrashort thiobarbiturate, 3 to 5 mg/kg; largely replaced by propofol",
+            "Methohexitone: about 3 times as potent, action 5 to 8 min, more excitement",
+            "Propofol: 1% emulsion, rapid recovery, antiemetic"
+          ]
+        },
+        {
+          "h": "Etomidate and benzodiazepines",
+          "points": [
+            "Etomidate: 0.2 to 0.5 mg/kg, lasts 4 to 8 min, little cardiovascular depression, poor analgesia, myoclonus; inhibits 11-beta-hydroxylase, suppressing cortisol synthesis for 4 to 8 hours after an induction dose",
+            "Midazolam, diazepam and lorazepam: sedation and amnesia; poor analgesics",
+            "Benzodiazepine effects are reversed by flumazenil"
+          ]
+        },
+        {
+          "h": "Ketamine",
+          "points": [
+            "Dissociative anaesthesia via NMDA blockade; raises heart rate, BP and intracranial pressure",
+            "Preserves breathing and airway reflexes; useful in asthma and hypovolaemia"
+          ]
+        },
+        {
+          "h": "Opioids and alpha-2 agonists",
+          "points": [
+            "Fentanyl: short-acting (30 to 50 min) analgesic adjunct; causes chest wall rigidity",
+            "Remifentanil: esterase-metabolised, very short acting",
+            "Dexmedetomidine: alpha-2A agonist giving sedation with little respiratory depression; half-life 2 to 3 h"
+          ]
+        },
+        {
+          "h": "Precautions",
+          "points": [
+            "Thiopentone: hypotension, laryngospasm, residual sedation, contraindicated in porphyria",
+            "Propofol: induction apnoea, pain on injection, dose-related respiratory depression",
+            "Ketamine: avoid in hypertension, ischaemic heart disease and raised ICP"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch27",
+        "Katzung16 ch25"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-056",
+      "type": "essay",
+      "front": "Essay: Complications of general anaesthesia and drug interactions",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Risks arise from the drugs and the patient's physiology",
+            "Close monitoring and skilled airway management reduce them"
+          ]
+        },
+        {
+          "h": "Intraoperative complications",
+          "points": [
+            "Respiratory depression and hypercarbia (more with isoflurane); airway secretions and laryngospasm",
+            "Aspiration of acidic gastric contents",
+            "Arrhythmia, asystole and hypotension; awareness under light anaesthesia",
+            "Excitation and convulsions, mainly with IV agents"
+          ]
+        },
+        {
+          "h": "Postoperative complications",
+          "points": [
+            "Nausea and vomiting; persisting sedation and impaired psychomotor function",
+            "Atelectasis and pneumonia after prolonged anaesthesia; mucus plugging",
+            "Liver and kidney damage; nerve palsies from faulty positioning; emergence delirium",
+            "Cognitive decline, especially in the elderly after long operations"
+          ]
+        },
+        {
+          "h": "Drug interactions",
+          "points": [
+            "Antihypertensives: BP may fall markedly",
+            "Neuroleptics, opioids and clonidine potentiate anaesthetics",
+            "Halothane sensitises the heart to adrenaline"
+          ]
+        },
+        {
+          "h": "Special patients",
+          "points": [
+            "Patients on corticosteroids: give hydrocortisone 100 mg IV intraoperatively to prevent adrenal crisis",
+            "Diabetics: switch to plain insulin even if on oral agents; insulin requirement rises under anaesthesia"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Preanaesthetic assessment and aspiration prophylaxis",
+            "Avoid light anaesthesia; assist ventilation when needed"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-057",
+      "type": "cloze",
+      "front": "Classify: inhalational agents by MAC",
+      "text": "Nitrous oxide has a MAC of about {{105%}} and so cannot produce surgical anaesthesia alone; {{halothane}} has a MAC of about {{0.75%}}, {{isoflurane}} about {{1.2%}} and {{desflurane}} about {{6%}}.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "pk",
+        "classification"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-058",
+      "type": "cloze",
+      "front": "Classify: Guedel's stages of anaesthesia",
+      "text": "Stage I is {{analgesia}}, stage II is {{delirium}}, stage III is {{surgical anaesthesia}} with four planes, and stage IV is {{medullary paralysis}}.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-general-inhalational",
+      "tags": [
+        "classification"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-059",
+      "type": "cloze",
+      "front": "Classify: intravenous induction agents",
+      "text": "{{Thiopentone}} is an ultrashort {{thiobarbiturate}}; {{propofol}} is given as a {{1%}} emulsion; {{etomidate}} is a briefly acting inducing agent with little cardiovascular depression; {{midazolam}} is the water-soluble benzodiazepine.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "classification",
+        "dosing"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-060",
+      "type": "cloze",
+      "front": "Classify: premedication drugs",
+      "text": "{{Glycopyrrolate}} is about {{twice}} as potent as atropine with no central effects; {{ondansetron}} is the {{5-HT3}} blocker used as antiemetic of choice; {{ranitidine}} is an H2 blocker that raises gastric pH.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p2-anaesthetics-061",
+      "type": "basic",
+      "subtopic": "p2-anaesthetics-iv-premedication",
+      "tags": [
+        "mechanism",
+        "uses",
+        "newer-drugs"
+      ],
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "front": "Dexmedetomidine: mechanism, advantages and adverse effects",
+      "back": "The active S-enantiomer of medetomidine, a centrally acting selective alpha-2A agonist (clonidine-like action). Given by IV infusion, it produces sedation and analgesia with little respiratory depression, amnesia or anaesthesia, and blunts the sympathetic response to stress. Uses: sedation of ventilated ICU patients, sedation during endoscopy and regional anaesthesia, and as an adjunct that lowers the dose of inhalational anaesthetic. Rapid hepatic metabolism, half-life 2 to 3 h. Side effects resemble clonidine: hypotension, bradycardia and dry mouth.",
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-anaesthetics-062",
+      "type": "basic",
+      "subtopic": "p2-anaesthetics-nmb-principles",
+      "tags": [
+        "mechanism",
+        "dosing",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch25",
+        "KDT8 ch7"
+      ],
+      "front": "Neostigmine reversal of competitive neuromuscular block: how it works and its limits",
+      "back": "Neostigmine inhibits cholinesterase, so acetylcholine builds up at the end plate and overcomes the competitive blocker. KDT dose: 0.5 to 2 mg (30 to 50 µg/kg) IV, given almost routinely after long- and intermediate-acting blockers, preceded by atropine or glycopyrrolate (about 10 µg/kg) to block muscarinic effects such as bradycardia, hypotension and bronchospasm. Reversing residual block matters because residual weakness causes hypoventilation and hypoxia in recovery. It does not reverse depolarising (phase I) succinylcholine block; it worsens it. Sugammadex is an alternative for rocuronium.",
+      "pyq": [],
+      "status": "draft"
+    }
+  ]
+}

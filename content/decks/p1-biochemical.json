@@ -1,0 +1,189 @@
+{
+  "topicId": "p1-biochemical",
+  "source": "GG14 ch5, ch9, ch46; GG12 ch39, ch41; RangDale9 ch19, ch59; KDT8 ch3",
+  "cards": [
+    {
+      "id": "p1-biochemical-001",
+      "type": "basic",
+      "front": "Give clinical uses of ELISA kits for gonadotropins.",
+      "back": "Over-the-counter urinary LH ELISA kits detect the LH surge (tested every 12-24 h from about day 10-12 of a 28-day cycle) to predict ovulation, which occurs about 36 h after the surge begins. Beta-subunit-specific ELISA of plasma LH and FSH helps localise reproductive disease: low levels point to hypothalamic or pituitary disease, high levels to primary gonadal failure; raised FSH also confirms menopause.",
+      "refs": [
+        "GG14 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-002",
+      "type": "basic",
+      "front": "How are immunoassays for hCG used?",
+      "back": "Home pregnancy kits use antibodies specific for the unique beta subunit of hCG to detect pregnancy qualitatively within a few days of a missed period. Quantitative plasma hCG by radioimmunoassay shows whether pregnancy is progressing normally, helps detect ectopic pregnancy, hydatidiform mole and choriocarcinoma, and follows hCG-secreting germ cell tumours.",
+      "refs": [
+        "GG14 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-003",
+      "type": "basic",
+      "front": "Which immunoassays are used for thyroid function tests, and what is the gold standard for free T4?",
+      "back": "Radioimmunoassays and, more recently, chemiluminescent and enzyme-linked immunoassays for T4, T3 and TSH; routine free T4 and T3 assays use labelled hormone analogues. The gold standard for free T4 is equilibrium dialysis of undiluted serum followed by radioimmunoassay of the dialysate, which is rarely available routinely.",
+      "refs": [
+        "GG12 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-004",
+      "type": "basic",
+      "front": "How did monoclonal antibodies help quantitative peptide pharmacology?",
+      "back": "They made radioimmunoassay and immunocytochemistry of peptides possible, solving many measurement problems; sensitive assays for mRNA and in situ hybridisation also map precursor synthesis.",
+      "refs": [
+        "RangDale9 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-005",
+      "type": "basic",
+      "front": "What role did HPLC play in peptide pharmacology?",
+      "back": "From the 1970s, techniques to purify, sequence and synthesise peptides were developed; high-performance liquid chromatography together with solid-phase peptide synthesis greatly accelerated the field.",
+      "refs": [
+        "RangDale9 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-006",
+      "type": "basic",
+      "front": "Which analytical platforms underlie metabolomics in drug development?",
+      "back": "Proton NMR and liquid or gas chromatography coupled to mass spectrometry, with chemometric and multivariate analysis. They measure thousands of chemicals in serum, urine, cells or tissue at once and can screen for drug toxicity in whole animals during preclinical development.",
+      "refs": [
+        "GG14 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-biochemical-007",
+      "type": "basic",
+      "front": "What are the uses and pitfalls of urine toxicology immunoassay screens?",
+      "back": "They rapidly (about 1 h) detect common drugs of abuse: amphetamines, barbiturates, benzodiazepines, cannabis, cocaine and opiates. Results must be read with caution: cross-reactivity gives false positives and long detection windows may not reflect acute toxicity, so further tests should be tailored to the case.",
+      "refs": [
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "poisoning"
+      ]
+    },
+    {
+      "id": "p1-biochemical-008",
+      "type": "shortnote",
+      "front": "Short note: Therapeutic drug monitoring (application of drug estimation)",
+      "sections": [
+        {
+          "h": "Why",
+          "points": [
+            "Steady-state level may be 1/3 to 3 times the predicted value",
+            "Measured level allows dose correction: revised dose rate = previous rate x target/measured Css (first-order drugs)"
+          ]
+        },
+        {
+          "h": "Useful for",
+          "points": [
+            "Low safety margin: digoxin, anticonvulsants, antiarrhythmics, theophylline, aminoglycosides, lithium, tricyclics",
+            "Large individual variation",
+            "Toxic drugs in renal failure (aminoglycosides, vancomycin)",
+            "Poisoning; unexplained failure; checking compliance"
+          ]
+        },
+        {
+          "h": "Sampling",
+          "points": [
+            "Trough for continuously acting drugs",
+            "Peak 1-2 h after dose for intermittently acting drugs (ampicillin, gentamicin)",
+            "Early and repeated samples in poisoning"
+          ]
+        },
+        {
+          "h": "Not useful",
+          "points": [
+            "Easily measured response (antihypertensives, hypoglycaemics)",
+            "Prodrugs (levodopa); hit-and-run drugs; irreversible drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "dosing",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-biochemical-009",
+      "type": "basic",
+      "front": "Which analytical techniques are used for drug testing in sport?",
+      "back": "Blood or urine samples are analysed under strict protocols in approved laboratories, mainly by gas chromatography/mass spectrometry or immunoassay.",
+      "refs": [
+        "RangDale9 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-doping",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-010",
+      "type": "basic",
+      "front": "How is misuse of exogenous testosterone detected?",
+      "back": "Other androgens are found by gas chromatography and mass spectrometry if still being taken. Testosterone itself is detected by a raised urinary testosterone/epitestosterone glucuronide (T/E) ratio, limited by UDP-glucuronosyl transferase polymorphism, or by gas chromatography-combustion-isotope ratio mass spectrometry: a low 13C/12C ratio indicates a pharmaceutical source.",
+      "refs": [
+        "GG12 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-doping",
+      "tags": [
+        "uses"
+      ]
+    }
+  ]
+}

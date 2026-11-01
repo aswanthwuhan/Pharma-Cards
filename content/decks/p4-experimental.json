@@ -1,0 +1,677 @@
+{
+  "topicId": "p4-experimental",
+  "source": "RangDale9 ch2, ch8; KDT8 ch4-5, ch8, ch30; GG14 ch3, ch9; cards with refs [] are standard practical knowledge for owner review",
+  "cards": [
+    {
+      "id": "p4-experimental-001",
+      "type": "basic",
+      "front": "Define bioassay and explain why a standard is run alongside the unknown.",
+      "back": "Bioassay measures the potency of a drug or unknown mediator from the size of the biological effect it produces. The unknown (U) is compared with a standard (S) on the same test system, because absolute 'units' (e.g. pigeon or mouse units) differ between laboratories, whereas the relative potency of U and S can be agreed. The assay estimates the dose of U that gives the same effect as a known dose of S.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-bioassay",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-003",
+      "type": "basic",
+      "front": "What is a 2 + 2 (parallel-line) bioassay, and why is it used?",
+      "back": "The minimal parallel-line design: two doses of standard (S1, S2) and two of unknown (U1, U2), chosen to fall on the linear part of the log dose-response curve. Doses are given repeatedly in random order, which measures the variability of the test system and lets the confidence limits of the potency ratio be calculated. Example: a modified 2 + 2 assay in patients showed morphine to be about 13 times as potent an analgesic as codeine.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-bioassay",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-004",
+      "type": "shortnote",
+      "front": "Short note: Requirements of a valid bioassay",
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "Compare unknown with a standard on the same preparation",
+            "Compare equi-effective doses from dose-response curves, not responses to equal doses"
+          ]
+        },
+        {
+          "h": "Validity",
+          "points": [
+            "Log dose-response lines of standard and unknown must be parallel",
+            "Maximal responses must be similar; differing mechanisms or a partial agonist invalidate a simple potency ratio"
+          ]
+        },
+        {
+          "h": "Error control",
+          "points": [
+            "Biological variation is the main problem",
+            "Minimise variation, avoid systematic error, and estimate limits of error",
+            "Randomised order of doses; observer (and subject) unaware of the dose"
+          ]
+        },
+        {
+          "h": "Response type",
+          "points": [
+            "Graded or quantal responses need different statistics"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-bioassay",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-005",
+      "type": "cloze",
+      "front": "Parallel-line assay: how is potency read?",
+      "text": "In a parallel-line assay the potency ratio is read from the {{horizontal distance}} between the standard and unknown log dose-response lines. A simple ratio is invalid if the lines are not {{parallel}} or the maximal responses differ.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-bioassay",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-006",
+      "type": "basic",
+      "front": "Graded vs quantal dose-response: how do they differ?",
+      "back": "Graded responses are continuous (e.g. fall in BP, strength of contraction) and are measured in each individual, giving a sigmoidal curve of response against log dose. Quantal responses are all-or-none (e.g. death, convulsion). The proportion of a population responding is plotted against dose, giving a cumulative curve from which median doses (ED50, LD50) are read.",
+      "refs": [
+        "KDT8 ch4",
+        "GG14 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-dose-response",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-007",
+      "type": "basic",
+      "front": "Define ED50, TD50 and LD50.",
+      "back": "ED50: the dose producing the specified therapeutic effect in 50% of subjects. TD50: the dose producing a defined toxic effect in 50% of subjects. LD50: the dose that kills 50% of the test animals.",
+      "refs": [
+        "RangDale9 ch8",
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-dose-response",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-008",
+      "type": "basic",
+      "front": "Potency vs efficacy: define each and give one example.",
+      "back": "Potency is the dose or concentration needed for a given effect (its position on the dose axis). Efficacy is the maximal effect a drug can produce (the height of the plateau). Morphine is more efficacious than aspirin as an analgesic; pethidine is less potent than morphine but equally efficacious.",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-dose-response",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p4-experimental-009",
+      "type": "basic",
+      "front": "What is the dose ratio, and how does a Schild plot measure competitive antagonist affinity?",
+      "back": "Dose ratio (r): the factor by which agonist concentration must be raised in the presence of an antagonist to restore a given response. With a reversible competitive antagonist the log concentration-effect curve shifts right without change in slope or maximum, and r increases linearly with antagonist concentration. A Schild plot of log(r - 1) against log antagonist concentration gives the antagonist's equilibrium dissociation constant (KB) from the abscissal intercept, e.g. propranolol on isolated guinea-pig atria. Antagonist affinity measured this way is used to classify receptors.",
+      "refs": [
+        "RangDale9 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-dose-response",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p4-experimental-010",
+      "type": "shortnote",
+      "front": "Short note: Therapeutic index and margin of safety",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Gap between therapeutic and adverse-effect dose-response curves = safety margin or therapeutic index",
+            "Animals: TI = LD50 / ED50",
+            "Humans: TI = TD50 / ED50"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Measurable only in animals (LD50 form)",
+            "LD50 does not reflect adverse effects at therapeutic doses",
+            "ED50 depends on the effect chosen (aspirin for headache vs as antirheumatic)",
+            "Individual variation in efficacy and toxicity is not captured"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "Clinically the therapeutic window (minimal therapeutic dose to maximal acceptable dose) is more relevant",
+            "Narrow-margin drugs need individualised dosing and monitoring"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4",
+        "RangDale9 ch8",
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-dose-response",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-011",
+      "type": "cloze",
+      "front": "Therapeutic index formulae",
+      "text": "Therapeutic index in animals = {{LD50}} / {{ED50}}. In humans the index uses {{TD50}} in place of LD50, because TD50 is the dose producing a defined toxic effect in 50% of people.",
+      "refs": [
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-dose-response",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-012",
+      "type": "basic",
+      "front": "Frog rectus abdominis: what phenomenon does it demonstrate?",
+      "back": "Repeated or high doses of acetylcholine produce progressively smaller contractions; shortly after a high (100-fold) dose the response is markedly reduced and returns only after time is allowed. This illustrates receptor desensitisation at the nicotinic end plate. The preparation is also a classical system for studying acetylcholine responses at nicotinic receptors.",
+      "refs": [
+        "KDT8 ch4",
+        "RangDale9 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-tissues",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p4-experimental-013",
+      "type": "cloze",
+      "front": "Classify: isolated tissues and what each tests",
+      "text": "Guinea pig ileum is used to show {{muscarinic}} actions of acetylcholine blocked by atropine, and its contraction is a standard bioassay for {{histamine}} (H1). Frog rectus abdominis shows {{nicotinic}} end-plate desensitisation. Isolated guinea pig {{atria}} are used to measure competitive antagonism of isoprenaline by propranolol.",
+      "refs": [
+        "KDT8 ch8",
+        "KDT8 ch4",
+        "Katzung16 ch16",
+        "RangDale9 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-tissues",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-015",
+      "type": "shortnote",
+      "front": "Short note: Isolated organ bath preparations",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "A strip of smooth muscle or other tissue is held in an organ bath, and contraction or relaxation is recorded",
+            "Response is plotted against concentration as a concentration-effect curve"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Estimate maximal response and potency of agonists",
+            "Detect specific activity early in screening (e.g. antihistaminic, vasodilator)",
+            "Measure antagonist affinity by dose ratio and Schild analysis"
+          ]
+        },
+        {
+          "h": "Place in pharmacology",
+          "points": [
+            "The classical technique of pharmacology, still widely used alongside molecular and cellular assays"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 ch2",
+        "RangDale9 ch4",
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-tissues",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-016",
+      "type": "basic",
+      "front": "Rat paw oedema: what does it screen, and what are its limits?",
+      "back": "Irritant chemicals injected into a rat's paw make it swollen and tender. Drugs that reduce this swelling predict well the symptomatic relief of inflammatory conditions such as rheumatoid arthritis, so it is used to screen anti-inflammatory drugs. Limit: it lacks construct validity for rheumatoid arthritis, which is an autoimmune disease.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-017",
+      "type": "basic",
+      "front": "MES vs PTZ anticonvulsant screens: what does each predict?",
+      "back": "MES: a brief high-intensity shock to the rodent head gives tonic flexion, tonic extension and clonic convulsions. Drugs that abolish the tonic (extensor) phase (e.g. phenytoin, carbamazepine) are effective in GTCS and complex partial seizures; activity reflects action on seizure spread. PTZ: injection produces clonic seizures, prevented by drugs effective in absence and myoclonic seizures (e.g. ethosuximide, valproate, clonazepam); activity reflects action on the seizure focus. Other models: chronic focal seizures (alumina cream on monkey cortex) and kindling.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-018",
+      "type": "basic",
+      "front": "Animal models of depression: principle and limitations.",
+      "back": "Mild stress procedures, such as the forced swim test or inescapable foot shock, produce behavioural states (social withdrawal, loss of appetite, reduced motor activity) that mimic aspects of human depression and are used to test antidepressants. Limitation: no known animal condition corresponds to inherited human depression, and no clear brain pathology is defined, so face and construct validity are poor; models selected on response to known drugs may miss new mechanisms.",
+      "refs": [
+        "RangDale9 ch48",
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-019",
+      "type": "basic",
+      "front": "What makes a good animal model of human disease?",
+      "back": "It should resemble the human disease in pathophysiological phenotype (face validity), causation (construct validity) and response to treatment (predictive validity). Difficulties: many psychiatric diseases cannot be observed in animals; causes of degenerative diseases are complex; selecting models by response to known drugs may miss new mechanisms; transgenic models can mislead (cystic fibrosis gene defect affects mainly the intestine in mice).",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-020",
+      "type": "cloze",
+      "front": "Classify: animal models of human disease used in drug screening",
+      "text": "Examples include {{kindled}} seizures in rats, {{spontaneously hypertensive}} rats (genetic model), experimental tuberculosis in mice, and {{alloxan}}-induced diabetes in rats or dogs.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-022",
+      "type": "essay",
+      "front": "Essay: Preclinical pharmacological screening of a new analgesic and anti-inflammatory drug",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Animal tests expose the whole pharmacological profile before human use",
+            "Rodent first, then a larger animal; unfavourable compounds are rejected at each step"
+          ]
+        },
+        {
+          "h": "Screening",
+          "points": [
+            "Simple rapid screening tests for the sought activity (e.g. analgesic activity)",
+            "Isolated organ tests for specific activities"
+          ]
+        },
+        {
+          "h": "Disease models",
+          "points": [
+            "Rat paw oedema from irritant chemicals predicts anti-inflammatory benefit",
+            "Models need face, construct and predictive validity"
+          ]
+        },
+        {
+          "h": "Confirmatory and related activity",
+          "points": [
+            "Detailed confirmatory tests; related activities such as antipyretic and anti-inflammatory action of an analgesic",
+            "Systemic pharmacology on major organ systems; mechanism of action"
+          ]
+        },
+        {
+          "h": "Quantitative work",
+          "points": [
+            "Dose-response relationship, maximal effect, potency and efficacy compared with existing drugs",
+            "Pharmacokinetics, then toxicity testing"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Animal efficacy may not translate (e.g. substance P antagonists were analgesic in animals but inactive in humans)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-023",
+      "type": "basic",
+      "front": "Acute toxicity study: design and endpoint.",
+      "back": "Single escalating doses are given to small groups of animals (usually two species, two routes) and observed for overt effects and mortality for 1 to 3 days. Goals: the no-effect dose, the maximum tolerated dose and, where needed, the LD50, now estimated with the smallest possible number of animals. Organ toxicity is examined by histopathology.",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-024",
+      "type": "basic",
+      "front": "Subacute and chronic toxicity studies: duration and parameters.",
+      "back": "Subacute (subchronic): repeated doses for about 2 to 12 weeks (Katzung: 2 weeks to 3 months), usually three doses in two species; the longer the intended human use, the longer the test. Doses are chosen from ED50 and LD50. Chronic: a rodent and at least one non-rodent for 6 to 12 months, required when the drug will be used long term, and usually run alongside early clinical trials. Both record overt effects, food intake, body weight, haematology, biochemistry and organ histopathology.",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p4-experimental-025",
+      "type": "shortnote",
+      "front": "Short note: Preclinical toxicity studies",
+      "sections": [
+        {
+          "h": "Routine toxicity",
+          "points": [
+            "At least two species, one rodent and one non-rodent, by oral and parenteral routes",
+            "Acute, subacute and chronic studies"
+          ]
+        },
+        {
+          "h": "Reproductive toxicity",
+          "points": [
+            "Effects on spermatogenesis, ovulation, fertility, mating, parturition and the developing foetus (teratogenicity)",
+            "Two species, usually one rodent and rabbits"
+          ]
+        },
+        {
+          "h": "Long-term effects",
+          "points": [
+            "Carcinogenicity: dosing for 2 years or the whole life of the animal, required for drugs used long term",
+            "Mutagenicity: bacteria (Ames test), mammalian cells and intact rodents"
+          ]
+        },
+        {
+          "h": "Regulation",
+          "points": [
+            "Conducted under Good Laboratory Practice (GLP)",
+            "Thalidomide disaster led to more extensive teratogenicity testing"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p4-experimental-026",
+      "type": "shortnote",
+      "front": "Short note: Genotoxicity testing",
+      "sections": [
+        {
+          "h": "Bacterial test",
+          "points": [
+            "Ames test: detects mutations in bacteria"
+          ]
+        },
+        {
+          "h": "Mammalian tests",
+          "points": [
+            "Mutations and genetic stability in mammalian cells in culture",
+            "Intact rodents: dominant lethal test and clastogenicity (chromosome damage) in mice"
+          ]
+        },
+        {
+          "h": "Interpretation",
+          "points": [
+            "Part of the preclinical safety package with carcinogenicity testing",
+            "Rare effects may still be missed for statistical reasons"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p4-experimental-027",
+      "type": "cloze",
+      "front": "Classify: species and routes in toxicity testing",
+      "text": "Toxicity testing uses at least {{two}} species, one {{rodent}} and one {{non-rodent}}, dosed by the {{oral}} and {{parenteral}} routes.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p4-experimental-028",
+      "type": "essay",
+      "front": "Essay: Preclinical safety evaluation of a new drug candidate",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Aim: identify likely human toxicities and those to monitor in trials",
+            "Two species, two routes"
+          ]
+        },
+        {
+          "h": "Acute and repeated dose studies",
+          "points": [
+            "No-effect dose, maximum tolerated dose, LD50 if needed",
+            "Subacute and chronic designs with haematology, biochemistry and histopathology"
+          ]
+        },
+        {
+          "h": "Special studies",
+          "points": [
+            "Reproduction and teratogenicity",
+            "Mutagenicity (Ames, mammalian cells, rodents)",
+            "Carcinogenicity where long-term use is planned"
+          ]
+        },
+        {
+          "h": "Link to clinical dosing",
+          "points": [
+            "First human dose usually 1/100 to 1/10 of the no-effect (non-toxic) dose in animals"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Time-consuming and expensive (2 to 6 years)",
+            "Large numbers of animals",
+            "Extrapolation to humans imperfect; rare effects missed"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "GLP-compliant data package before human trials"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p4-experimental-030",
+      "type": "cloze",
+      "front": "How is the use of animals in preclinical testing being reduced?",
+      "text": "Progress has been made in {{reducing the number}} of animals needed while keeping data valid; {{cell and tissue culture}} in vitro methods and {{computer modelling}} are increasingly used, though their {{predictive value}} is still limited.",
+      "refs": [
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-ethics",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-031",
+      "type": "essay",
+      "front": "Essay: Use of animals in pharmacological research: value, limits and alternatives",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Animal studies expose the pharmacological and toxicological profile before human use"
+          ]
+        },
+        {
+          "h": "Value",
+          "points": [
+            "Simple models often predict human efficacy (ferret motion-sickness model, rat paw oedema)",
+            "Safety testing in two species is required before trials"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Many human diseases have no animal counterpart",
+            "Validity (face, construct, predictive) often incomplete",
+            "Animal-to-human extrapolation imperfect; rare effects missed; large numbers of animals"
+          ]
+        },
+        {
+          "h": "Alternatives",
+          "points": [
+            "Isolated organ, cell and tissue culture methods",
+            "Computer modelling",
+            "Human microdosing (phase 0) studies give early human PK"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Reduce animal numbers while keeping data valid; Good Laboratory Practice standards"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 ch8",
+        "Katzung16 ch1",
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-ethics",
+      "tags": [
+        "uses"
+      ]
+    }
+  ]
+}

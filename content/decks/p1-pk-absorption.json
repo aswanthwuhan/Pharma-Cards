@@ -1,0 +1,696 @@
+{
+  "topicId": "p1-pk-absorption",
+  "source": "KDT8 ch2",
+  "cards": [
+    {
+      "id": "p1-pk-absorption-001",
+      "type": "basic",
+      "front": "Why is oral bioavailability usually less than 100%?",
+      "back": "Incomplete absorption from the gut, plus loss from first-pass metabolism in the gut wall or liver, or excretion in bile. IV dosing gives 100% by definition.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-002",
+      "type": "basic",
+      "front": "What is bioequivalence?",
+      "back": "Pharmaceutical equivalents contain the same active ingredient in the same strength, dosage form and route. Two such products are bioequivalent when the rate and extent of bioavailability of the active drug do not differ significantly under suitable, identical test conditions. Equal drug content alone does not guarantee this (formulation affects dissolution), which matters for narrow-margin drugs such as digoxin.",
+      "refs": [
+        "KDT8 ch2",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-003",
+      "type": "basic",
+      "front": "At what pH is a weak acid 50% ionised, and what does a 1-unit change in pH do?",
+      "back": "At pH equal to pKa. Each 1-unit change in pH alters the ionised to unionised ratio tenfold.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-ionisation",
+      "tags": [
+        "mechanism",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-004",
+      "type": "basic",
+      "front": "What is ion trapping?",
+      "back": "A weak electrolyte crossing a membrane becomes ionised on the far side, cannot diffuse back, and so accumulates there. Example: unionised aspirin enters gastric mucosal cells (pH about 7) and is trapped.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-ionisation",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-005",
+      "type": "basic",
+      "front": "Why are acidic drugs excreted faster in alkaline urine?",
+      "back": "They stay ionised in alkaline urine and cannot back-diffuse across the renal tubular epithelium. Acidifying urine speeds the excretion of basic drugs by the same logic.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-ionisation",
+      "tags": [
+        "mechanism",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-006",
+      "type": "basic",
+      "front": "How do facilitated diffusion and primary active transport differ?",
+      "back": "Facilitated diffusion is passive, follows the concentration gradient and needs no energy. Primary active transport uses ATP hydrolysis (ABC transporters) to move the solute against its gradient, usually out of the cell.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-007",
+      "type": "basic",
+      "front": "Which efflux transporter is encoded by MDR1, and where does it limit drug entry?",
+      "back": "P-glycoprotein (ABCB1). It limits absorption from the gut and entry into the brain, testes and foetus, and promotes biliary and renal elimination.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-efflux",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-008",
+      "type": "basic",
+      "front": "Why can quinidine or verapamil raise digoxin levels?",
+      "back": "Both inhibit the efflux pump P-glycoprotein. Less P-gp efflux in the gut epithelium raises digoxin's oral bioavailability. Quinidine also cuts digoxin's renal and biliary clearance (again via P-gp) and displaces it from tissue binding sites, nearly doubling its plasma level.",
+      "refs": [
+        "KDT8 ch2",
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-efflux",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-009",
+      "type": "basic",
+      "front": "Define apparent volume of distribution and give its formula.",
+      "back": "The hypothetical volume into which the total amount of drug in the body would have to be dispersed to give the measured plasma concentration. Vd = amount of drug in body / plasma concentration.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-010",
+      "type": "basic",
+      "front": "Why does a large volume of distribution make haemodialysis ineffective?",
+      "back": "Most of the drug sits in tissues, so very little is in plasma at any time to be cleared by dialysis. Highly protein-bound drugs are also poorly removed.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-011",
+      "type": "basic",
+      "front": "What is redistribution, and why does a single dose of thiopentone act only briefly?",
+      "back": "Highly lipid-soluble drugs first enter well-perfused organs such as brain, then move to muscle and fat as plasma levels fall. Brain levels drop, so the action ends within minutes.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-tissue-barriers",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-012",
+      "type": "basic",
+      "front": "What makes the blood-brain barrier, and where is it deficient?",
+      "back": "Tight junctions between capillary endothelial cells plus a glial investment, with lipoidal limits on entry and efflux pumps. It is deficient at the chemoreceptor trigger zone and some periventricular sites, which is why emetics can act there.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-tissue-barriers",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-013",
+      "type": "shortnote",
+      "front": "Short note: Bioavailability and factors affecting it",
+      "sections": [
+        {
+          "h": "Definition and measurement",
+          "points": [
+            "Fraction of the dose reaching systemic circulation unchanged",
+            "Estimated from the plasma concentration-time curve (area under curve) or urinary excretion",
+            "IV dose gives F = 1"
+          ]
+        },
+        {
+          "h": "Formulation factors",
+          "points": [
+            "Disintegration and dissolution rate",
+            "Particle size, crystal form and excipients",
+            "Manufacturing process (e.g. compression force)"
+          ]
+        },
+        {
+          "h": "Patient and drug factors",
+          "points": [
+            "Incomplete absorption; first-pass metabolism in gut wall and liver",
+            "P-glycoprotein efflux",
+            "Food, gastric emptying, drug interactions"
+          ]
+        },
+        {
+          "h": "Clinical significance",
+          "points": [
+            "Matters most for poorly soluble drugs and those with narrow safety margins (digoxin, oral anticoagulants)",
+            "Bioequivalence required when switching brands or generics"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch2",
+        "Katzung16 ch3"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-014",
+      "type": "shortnote",
+      "front": "Short note: Apparent volume of distribution (Vd)",
+      "sections": [
+        {
+          "h": "Definition and formula",
+          "points": [
+            "Vd = amount of drug in body / plasma concentration",
+            "A calculated, not anatomical, volume"
+          ]
+        },
+        {
+          "h": "Interpretation",
+          "points": [
+            "Small Vd: drug confined to plasma (e.g. highly protein-bound warfarin)",
+            "Vd near extracellular water: poorly lipid-soluble drugs (e.g. aminoglycosides)",
+            "Large Vd: extensive tissue binding or sequestration (e.g. digoxin)"
+          ]
+        },
+        {
+          "h": "Determinants",
+          "points": [
+            "Lipid solubility, pKa, plasma protein binding, tissue affinity",
+            "Fat to lean mass ratio, age, sex",
+            "Disease: heart failure, uraemia, cirrhosis"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "Loading dose = Vd x target concentration",
+            "Estimating total drug amount in body",
+            "Dialysis removes little when Vd is large"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch2",
+        "Katzung16 ch3"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "pk"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-015",
+      "type": "shortnote",
+      "front": "Short note: Plasma protein binding",
+      "sections": [
+        {
+          "h": "Proteins involved",
+          "points": [
+            "Albumin binds mainly acidic drugs and is the more important site",
+            "Alpha-1 acid glycoprotein binds mainly basic drugs"
+          ]
+        },
+        {
+          "h": "Consequences",
+          "points": [
+            "Bound drug stays in vessels, so Vd is small",
+            "Bound fraction acts as a reservoir; only free drug is active and eliminated",
+            "Long duration when clearance depends on free fraction"
+          ]
+        },
+        {
+          "h": "Displacement interactions",
+          "points": [
+            "Drugs competing for the same binding site can displace each other",
+            "Usually transient and clinically minor unless tissue binding or clearance also changes",
+            "Drugs with different binding sites do not displace each other"
+          ]
+        },
+        {
+          "h": "Altered binding",
+          "points": [
+            "Hypoalbuminaemia raises free fraction (phenytoin)",
+            "Uraemia reduces binding; pregnancy and inflammation alter alpha-1 acid glycoprotein"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch2",
+        "GG14 ch2"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-016",
+      "type": "shortnote",
+      "front": "Short note: Blood-brain barrier",
+      "sections": [
+        {
+          "h": "Structure",
+          "points": [
+            "Capillary endothelium with tight junctions and no large paracellular gaps",
+            "Glial investment; blood-CSF barrier at the choroid plexus"
+          ]
+        },
+        {
+          "h": "Entry rules",
+          "points": [
+            "Lipid-soluble drugs cross; nonlipid drugs (e.g. streptomycin) are excluded",
+            "Efflux transporters (P-gp, OATP) actively expel many drugs",
+            "Enzymes such as MAO limit entry of monoamines"
+          ]
+        },
+        {
+          "h": "Exceptions",
+          "points": [
+            "Chemoreceptor trigger zone and periventricular regions (anterior hypothalamus)",
+            "Inflamed meninges or brain are more permeable"
+          ]
+        },
+        {
+          "h": "Exit and clinical examples",
+          "points": [
+            "Exit from CNS depends on CSF bulk flow, not lipid solubility",
+            "Levodopa crosses the barrier, dopamine does not (Parkinsonism)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-tissue-barriers",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-017",
+      "type": "shortnote",
+      "front": "Short note: Factors affecting oral absorption",
+      "sections": [
+        {
+          "h": "Drug properties",
+          "points": [
+            "Aqueous solubility, dissolution rate and particle size",
+            "Ionisation (pKa) and lipid solubility; highly ionised drugs (gentamicin, neostigmine) are poorly absorbed",
+            "Stability in gastric acid or digestive enzymes"
+          ]
+        },
+        {
+          "h": "Gastrointestinal factors",
+          "points": [
+            "Gastric emptying; food usually dilutes the drug and delays absorption (exception: fatty food increases lumefantrine absorption)",
+            "Large absorptive surface of the small intestine",
+            "Motility changes (anticholinergics slow, metoclopramide speeds)"
+          ]
+        },
+        {
+          "h": "Efflux and gut metabolism",
+          "points": [
+            "P-glycoprotein pumps absorbed drug back into the lumen (digoxin, ciclosporin); inhibitors raise and inducers lower bioavailability",
+            "First-pass loss in the gut wall"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Complex formation (tetracyclines with calcium in milk, iron, antacids)",
+            "Mucosal damage by some drugs (neomycin, methotrexate)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-018",
+      "type": "essay",
+      "front": "Essay: Mechanisms of drug transport across biological membranes",
+      "sections": [
+        {
+          "h": "Membrane structure",
+          "points": [
+            "Phospholipid bilayer with cholesterol; embedded proteins",
+            "Aqueous pores and paracellular channels"
+          ]
+        },
+        {
+          "h": "Passive diffusion",
+          "points": [
+            "Driven by concentration gradient; no energy",
+            "Rate proportional to lipid:water partition coefficient",
+            "pH partition for weak acids and bases; ion trapping"
+          ]
+        },
+        {
+          "h": "Filtration",
+          "points": [
+            "Passage through aqueous pores; size-limited",
+            "Capillaries have large gaps, so flow rather than lipid solubility decides transfer"
+          ]
+        },
+        {
+          "h": "Carrier-mediated transport",
+          "points": [
+            "Facilitated diffusion (SLC transporters) and primary active transport (ABC transporters, e.g. P-gp)",
+            "Secondary active symport and antiport using Na+ gradient (e.g. SGLT, NET, SERT)",
+            "Saturable, competitively inhibited, Michaelis-Menten kinetics"
+          ]
+        },
+        {
+          "h": "Vesicular transport",
+          "points": [
+            "Endocytosis and exocytosis for large molecules",
+            "Important for hormones and neurotransmitters; vitamin B12 via intrinsic factor"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Drug interactions at transporters",
+            "Genetic polymorphism altering transporter density or affinity",
+            "Tissue-specific distribution via specialised transporters"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-019",
+      "type": "essay",
+      "front": "Essay: Factors affecting drug absorption",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Absorption: movement of drug from site of administration into circulation",
+            "Both extent and rate matter"
+          ]
+        },
+        {
+          "h": "General factors",
+          "points": [
+            "Aqueous solubility and dissolution",
+            "Concentration at the site and area of absorbing surface",
+            "Vascularity and blood flow at the absorbing site",
+            "Lipid solubility and ionisation (pH-partition)"
+          ]
+        },
+        {
+          "h": "Oral route",
+          "points": [
+            "Weak acids are unionised in gastric acid and can be absorbed from the stomach; weak bases (morphine, quinine) only after reaching the duodenum",
+            "Small intestine is the main site for nearly all drugs because of its large surface area",
+            "Particle size, gastric emptying, food effects, P-gp efflux, gut-wall metabolism"
+          ]
+        },
+        {
+          "h": "Parenteral and topical routes",
+          "points": [
+            "Most drugs pass capillary pores readily from s.c. and i.m. sites; heat and muscular exercise increase absorption",
+            "Vasoconstrictors such as adrenaline slow it; hyaluronidase speeds it",
+            "Topical absorption depends on lipid solubility; rubbing, an oily base and occlusion increase it"
+          ]
+        },
+        {
+          "h": "Formulation and bioavailability",
+          "points": [
+            "Disintegration, dissolution and excipients",
+            "Bioequivalence between brands"
+          ]
+        },
+        {
+          "h": "Drug interactions",
+          "points": [
+            "Complex formation, altered gut motility, mucosal damage"
+          ]
+        },
+        {
+          "h": "Summary",
+          "points": [
+            "Absorption is governed by physicochemical properties of the drug and physiology of the site"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-020",
+      "type": "essay",
+      "front": "Essay: Distribution of drugs in the body",
+      "sections": [
+        {
+          "h": "Concept and determinants",
+          "points": [
+            "Movement from plasma to tissues until equilibrium",
+            "Lipid solubility, pKa, protein binding, tissue transporters, regional blood flow"
+          ]
+        },
+        {
+          "h": "Apparent volume of distribution",
+          "points": [
+            "Definition and formula",
+            "Small, intermediate and large Vd and their meanings"
+          ]
+        },
+        {
+          "h": "Plasma protein binding",
+          "points": [
+            "Albumin (acidic) and alpha-1 acid glycoprotein (basic)",
+            "Consequences: restricted distribution, reservoir, displacement"
+          ]
+        },
+        {
+          "h": "Tissue binding and sequestration",
+          "points": [
+            "Storage in fat, bone, melanin-rich tissue, liver, muscle",
+            "Consequences: longer action and local toxicity"
+          ]
+        },
+        {
+          "h": "Barriers",
+          "points": [
+            "Blood-brain and blood-CSF barriers",
+            "Placenta: lipophilic drugs cross; efflux transporters limit foetal exposure but the barrier is incomplete"
+          ]
+        },
+        {
+          "h": "Redistribution",
+          "points": [
+            "Early uptake by high-perfusion organs, later by muscle and fat",
+            "Explains short action of thiopentone and diazepam after single doses"
+          ]
+        },
+        {
+          "h": "Clinical implications",
+          "points": [
+            "Loading dose and dosing interval",
+            "Effect of disease (heart failure, uraemia, cirrhosis) and dialysis"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-tissue-barriers",
+      "tags": [
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-021",
+      "type": "cloze",
+      "front": "Passive diffusion: what decides its rate?",
+      "text": "Lipid-soluble drugs cross membranes by passive diffusion, at a rate proportional to their {{lipid:water partition coefficient}} and the concentration gradient.",
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-022",
+      "type": "cloze",
+      "front": "Classify: carrier-mediated transport",
+      "text": "Facilitated diffusion needs {{no energy}}; primary active transport uses {{ATP}} through ABC transporters; symport and antiport use a {{Na+}} gradient and are secondary active.",
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-023",
+      "type": "cloze",
+      "front": "Plasma protein binding",
+      "text": "Acidic drugs mainly bind {{albumin}}; basic drugs mainly bind {{alpha-1 acid glycoprotein}}.",
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-024",
+      "type": "cloze",
+      "front": "Tissue storage of drugs",
+      "text": "Tetracyclines accumulate in {{bone and teeth}}, digoxin in {{skeletal muscle}}, and iodine in the {{thyroid}}.",
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-tissue-barriers",
+      "tags": [
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-025",
+      "type": "cloze",
+      "front": "Site of absorption by ionisation",
+      "text": "Weak acids such as {{aspirin}} are largely unionised in gastric acid and can be absorbed from the {{stomach}}; weak bases such as {{morphine}} are ionised there and are absorbed only on reaching the {{duodenum}}. Even so, the {{small intestine}} is the main site of absorption for both because of its large surface area.",
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-ionisation",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": []
+    }
+  ]
+}

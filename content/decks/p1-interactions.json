@@ -1,0 +1,703 @@
+{
+  "topicId": "p1-interactions",
+  "source": "KDT8 ch71",
+  "cards": [
+    {
+      "id": "p1-interactions-001",
+      "type": "basic",
+      "front": "What is a drug-drug interaction, and when is it most likely?",
+      "back": "Modification of one drug's response by another given together or in quick succession. The change is usually quantitative (more or less effect) and sometimes qualitative (a different or abnormal response). Risk rises with the number of drugs, so it is highest in polypharmacy.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-classification",
+      "tags": [
+        "classification",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-002",
+      "type": "basic",
+      "front": "What is a pharmaceutical (in-vitro) interaction?",
+      "back": "Physical or chemical incompatibility between drugs mixed before administration, for example in one syringe or infusion bottle, leading to inactivation or precipitation. Examples: penicillin or ampicillin with an aminoglycoside, thiopentone with succinylcholine or morphine, heparin with penicillin, noradrenaline in bicarbonate solution. Avoid mixing parenteral drugs.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-classification",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-interactions-003",
+      "type": "shortnote",
+      "front": "Short note: Classification of drug interactions",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Modification of one drug's effect by another",
+            "Quantitative (more or less effect) or qualitative (abnormal response)"
+          ]
+        },
+        {
+          "h": "Pharmacokinetic",
+          "points": [
+            "Changes the concentration of the object drug at its site of action",
+            "Sites: absorption, protein binding, metabolism, excretion"
+          ]
+        },
+        {
+          "h": "Pharmacodynamic",
+          "points": [
+            "Changes the response at the target site, concentration unchanged",
+            "Synergism, antagonism or an abnormal response"
+          ]
+        },
+        {
+          "h": "Pharmaceutical",
+          "points": [
+            "Incompatibility before administration (same syringe or bottle)"
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "points": [
+            "Narrow safety margin drugs: aminoglycosides, digoxin, lithium",
+            "Saturation-kinetic drugs: phenytoin, theophylline"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-classification",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-interactions-004",
+      "type": "basic",
+      "front": "Why are tetracyclines poorly absorbed when taken with iron, calcium or antacids?",
+      "back": "They form insoluble chelate complexes in the gut lumen, so less drug is absorbed and treatment can fail. Separate the doses by 2 to 3 hours so they do not meet in the gut.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "pk",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-005",
+      "type": "basic",
+      "front": "How can broad-spectrum antibiotics reduce the efficacy of oral contraceptives?",
+      "back": "Normal gut flora deconjugate steroid glucuronides excreted in bile, which allows enterohepatic recycling. Ampicillin, tetracyclines and cotrimoxazole reduce this flora, so less steroid is recycled and contraceptive levels fall. Advise alternative contraception.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "pk",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-006",
+      "type": "basic",
+      "front": "When does protein-binding displacement become clinically important?",
+      "back": "Only when the displaced drug is highly bound with a small volume of distribution, and the displacer binds the same site with higher affinity. The rise in free drug is usually brief because free drug is quickly cleared. It matters most when tissue binding is also displaced or when metabolism or excretion is inhibited, as with quinidine raising digoxin levels.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-interactions-007",
+      "type": "shortnote",
+      "front": "Short note: Protein-binding displacement interactions",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Displacer competes for the same plasma protein site with higher affinity",
+            "Free fraction of the object drug rises transiently"
+          ]
+        },
+        {
+          "h": "Vulnerable drugs",
+          "points": [
+            "Highly bound, small volume of distribution",
+            "Coumarin anticoagulants, sulfonylureas, some NSAIDs, antiepileptics"
+          ]
+        },
+        {
+          "h": "Why usually transient",
+          "points": [
+            "Free drug is distributed, metabolised and excreted",
+            "Steady-state levels rise only marginally"
+          ]
+        },
+        {
+          "h": "When it matters",
+          "points": [
+            "Tissue binding is also displaced",
+            "Metabolism or excretion is also inhibited"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Sulfonamides with phenytoin, warfarin and sulfonylureas",
+            "Quinidine with digoxin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-interactions-008",
+      "type": "cloze",
+      "front": "Drugs prone to displacement interactions",
+      "text": "Highly {{protein-bound}} drugs with a small {{volume of distribution}} are most at risk, e.g. {{coumarin anticoagulants}}, {{sulfonylureas}}, certain {{NSAIDs}} and {{antiepileptics}}.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-interactions-009",
+      "type": "basic",
+      "front": "How do enzyme inhibition and enzyme induction differ in onset and offset?",
+      "back": "Inhibition develops quickly and wears off soon after the inhibitor is stopped. Induction takes about 1 to 2 weeks to reach full effect and regresses over 1 to 3 weeks after withdrawal. Inhibition matters most for drugs cleared by saturation kinetics.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-interactions-010",
+      "type": "cloze",
+      "front": "Microsomal enzyme inducers and inhibitors",
+      "text": "Enzyme inducers include {{rifampicin}}, {{carbamazepine}}, {{phenytoin}} and {{phenobarbitone}}, plus chronic {{alcohol}} and {{cigarette smoking}}. Enzyme inhibitors include {{erythromycin}}, {{ketoconazole}}, {{cimetidine}} and {{ciprofloxacin}}.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-011",
+      "type": "essay",
+      "front": "Essay: Enzyme induction versus enzyme inhibition",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Hepatic microsomal (CYP450) metabolism is the main route of many interactions",
+            "Two opposite effects: loss of effect (induction) and toxicity (inhibition)"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Inhibition: competition for the same isoenzyme or cofactor, rapid onset",
+            "Induction: gene-mediated increase in enzyme synthesis, slow onset"
+          ]
+        },
+        {
+          "h": "Inducers",
+          "points": [
+            "Rifampicin, carbamazepine, phenytoin, phenobarbitone, smoking, chronic alcohol",
+            "Lower levels of oral contraceptives, warfarin, corticosteroids, sulfonylureas"
+          ]
+        },
+        {
+          "h": "Inhibitors",
+          "points": [
+            "Macrolides, azole antifungals, cimetidine, ciprofloxacin, metronidazole, HIV protease inhibitors",
+            "Raise levels of phenytoin, carbamazepine, warfarin, theophylline, cyclosporine"
+          ]
+        },
+        {
+          "h": "Clinical significance",
+          "points": [
+            "Greatest for saturation-kinetic drugs such as phenytoin and theophylline",
+            "Narrow-margin drugs need level or response monitoring"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Check inducer or inhibitor status before adding or stopping a drug",
+            "Adjust dose and monitor; induction fades slowly after withdrawal"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-012",
+      "type": "basic",
+      "front": "What is P-glycoprotein, and how do its inhibitors cause interactions?",
+      "back": "P-glycoprotein is an ATP-dependent efflux transporter that pumps drugs out of cells. Inhibitors such as quinidine reduce renal and biliary clearance of substrates like digoxin and also reduce tissue binding, so digoxin blood levels can nearly double with toxicity.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-interactions-013",
+      "type": "basic",
+      "front": "Why does grapefruit juice interact with some oral drugs?",
+      "back": "Grapefruit juice constituents (e.g. naringin, furanocoumarins) inhibit CYP3A4, especially in the intestinal wall. Less first-pass metabolism raises the bioavailability of oral CYP3A4 substrates, so some drug labels advise avoiding grapefruit juice. Terfenadine was withdrawn partly because erythromycin or grapefruit juice blocked its CYP3A4 metabolism and the accumulated parent drug caused arrhythmias.",
+      "refs": [
+        "GG14 ch5",
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-014",
+      "type": "basic",
+      "front": "Give two excretion interactions and their clinical use.",
+      "back": "Probenecid blocks tubular secretion of penicillins and cephalosporins and prolongs their half-life; this is used deliberately for single-dose treatment of gonorrhoea. Diuretics (and to a lesser extent tetracyclines, ACE inhibitors and some NSAIDs) raise steady-state lithium levels by increasing its tubular reabsorption; monitor lithium levels and reduce the dose.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-015",
+      "type": "shortnote",
+      "front": "Short note: Renal excretion interactions",
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "Mostly drugs actively secreted by renal tubular transport",
+            "Urine pH changes ionisation and excretion of weak acids and bases"
+          ]
+        },
+        {
+          "h": "Probenecid",
+          "points": [
+            "Blocks secretion of penicillins and cephalosporins",
+            "Used deliberately in single-dose gonorrhoea therapy"
+          ]
+        },
+        {
+          "h": "Aspirin",
+          "points": [
+            "Blocks the uricosuric action of probenecid",
+            "Reduces tubular secretion of methotrexate",
+            "Reduces secretion of canrenone, blunting spironolactone's K+-sparing action"
+          ]
+        },
+        {
+          "h": "Lithium",
+          "points": [
+            "Diuretics (including furosemide), tetracyclines, ACE inhibitors, some NSAIDs and metronidazole raise levels",
+            "Monitor level and reduce dose"
+          ]
+        },
+        {
+          "h": "Urine pH",
+          "points": [
+            "Altering urine pH has been used to hasten excretion in poisoning"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-interactions-016",
+      "type": "basic",
+      "front": "Why should a bactericidal beta-lactam not be combined with a bacteriostatic antibiotic?",
+      "back": "Bacteriostatic drugs halt bacterial growth, while beta-lactams kill mainly dividing bacteria, so the bactericidal effect is antagonized. Tetracycline with penicillin is the classic pair to avoid.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-017",
+      "type": "shortnote",
+      "front": "Short note: Pharmacodynamic interactions in practice",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Change in response at the target site without a change in concentration",
+            "Synergism (enhanced), antagonism (blunted) or an abnormal response"
+          ]
+        },
+        {
+          "h": "Additive CNS depression",
+          "points": [
+            "Benzodiazepine, sedating antihistamine, neuroleptic, opioid or alcohol",
+            "Sedation, respiratory depression, motor incoordination"
+          ]
+        },
+        {
+          "h": "Falls in blood pressure",
+          "points": [
+            "Alpha blockers, vasodilators, ACE inhibitors, high-ceiling diuretics, cardiac depressants",
+            "Postural hypotension and fainting"
+          ]
+        },
+        {
+          "h": "Hypoglycaemia masking",
+          "points": [
+            "Propranolol blocks recovery from hypoglycaemia and some warning symptoms",
+            "Hypoglycaemia can be silent with insulin or sulfonylureas"
+          ]
+        },
+        {
+          "h": "Antagonism",
+          "points": [
+            "Levodopa blocked by neuroleptics and metoclopramide (dopamine blockade)",
+            "Macrolides, clindamycin and chloramphenicol block each other at the 50S ribosome"
+          ]
+        },
+        {
+          "h": "Hyperkalaemia",
+          "points": [
+            "ACE inhibitors with potassium-sparing diuretics",
+            "Monitor potassium"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-018",
+      "type": "cloze",
+      "front": "Pharmacodynamic pairs and their effect",
+      "text": "Benzodiazepines with opioids cause additive {{CNS depression}} and {{respiratory depression}}; {{ACE inhibitors}} with potassium-sparing diuretics cause {{hyperkalaemia}}; propranolol with insulin can cause {{hypoglycaemia}} that is silent.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-019",
+      "type": "basic",
+      "front": "List the main ways other drugs raise the bleeding risk with warfarin.",
+      "back": "Displacement plus inhibited metabolism (sulfonamides, cotrimoxazole; some NSAIDs); inhibited metabolism (metronidazole, ciprofloxacin, macrolides, azole antifungals, chloramphenicol, allopurinol); less vitamin K from gut flora (ampicillin, amoxicillin, sulfonamides); additive hypoprothrombinaemia (ceftriaxone, cefoperazone); added antiplatelet effect (aspirin, clopidogrel, carbenicillin). Inducers (rifampin, barbiturates, phenytoin, carbamazepine) do the opposite and reduce warfarin effect. Monitor INR and adjust the dose.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-interactions-020",
+      "type": "basic",
+      "front": "Why are MAO inhibitors dangerous when combined with other drugs?",
+      "back": "Non-selective MAO inhibitors stop breakdown of monoamines. Tyramine-rich foods (cheese, beer, wine, yeast extract) or ephedrine-containing cold remedies release large amounts of noradrenaline: hypertensive crisis ('cheese reaction'). Interactions also occur with TCAs, SSRIs, SNRIs and levodopa; SSRIs combined with serotonergic drugs (MAOIs, tramadol, pethidine) can cause serotonin syndrome. Pethidine with an MAOI causes excitation, fever, convulsions and respiratory depression (excess norpethidine). CNS depressants are potentiated. Moclobemide (reversible MAO-A inhibitor) carries little tyramine risk.",
+      "refs": [
+        "KDT8 ch33"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p1-interactions-021",
+      "type": "shortnote",
+      "front": "Short note: Digoxin and QT-prolonging combinations",
+      "sections": [
+        {
+          "h": "Digoxin toxicity",
+          "points": [
+            "Quinidine reduces tissue binding and P-gp-mediated renal and biliary clearance of digoxin, nearly doubling levels",
+            "Diuretic-induced hypokalaemia increases toxicity: give a K+-sparing diuretic or K+ supplement",
+            "Propranolol in digitalised patients: marked bradycardia"
+          ]
+        },
+        {
+          "h": "Monitoring digoxin",
+          "points": [
+            "Serum digoxin and potassium levels",
+            "Heart rate and rhythm"
+          ]
+        },
+        {
+          "h": "QT-prolonging drugs (risk of torsades de pointes)",
+          "points": [
+            "Antiarrhythmics: quinidine, procainamide, disopyramide, propafenone, amiodarone",
+            "Antimalarials: quinine, mefloquine, artemisinin, halofantrine",
+            "Antibacterials: sparfloxacin, moxifloxacin; antihistamines: terfenadine, astemizole, ebastine",
+            "Tricyclic antidepressants; antipsychotics (thioridazine, pimozide, aripiprazole, ziprasidone); cisapride"
+          ]
+        },
+        {
+          "h": "Interaction risk",
+          "points": [
+            "Hypokalaemia and hypomagnesaemia predispose to torsades",
+            "Diuretic-induced hypokalaemia raises the torsades risk with quinidine",
+            "CYP3A4 inhibitors (erythromycin, ketoconazole) raised terfenadine, astemizole and cisapride levels, causing arrhythmias"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch71",
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-interactions-022",
+      "type": "cloze",
+      "front": "Interacting pairs with theophylline and statins",
+      "text": "Theophylline is metabolised by {{saturation}} kinetics and has a narrow margin, so enzyme inhibitors such as {{ciprofloxacin}}, erythromycin or allopurinol can cause toxicity. Statin myopathy risk rises with fibrates such as {{gemfibrozil}}, {{niacin}}, {{erythromycin}}, {{azole antifungals}} and {{HIV protease inhibitors}}.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "pk"
+      ]
+    },
+    {
+      "id": "p1-interactions-023",
+      "type": "basic",
+      "front": "What are the practical steps to prevent or manage a drug interaction?",
+      "back": "Take a detailed history of every drug the patient is already taking, especially regular medication (antidiabetics, antihypertensives, anticoagulants, antiepileptics, oral contraceptives). Consider interactions whenever a drug is added. Stagger doses of complex-forming drugs by 2 to 3 hours. Adjust the dose and monitor levels or effects (INR, lithium, digoxin), or avoid the combination if the interaction is serious. A possible interaction does not always forbid concurrent use.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-024",
+      "type": "essay",
+      "front": "Essay: Preventing and managing drug interactions in a patient on several drugs",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Risk rises with the number of drugs, especially regular medication for chronic disease",
+            "Some combinations are deliberate and useful"
+          ]
+        },
+        {
+          "h": "High-risk drugs",
+          "points": [
+            "Narrow safety margin: aminoglycosides, digoxin, lithium",
+            "Closely regulated functions: antihypertensives, antidiabetics, anticoagulants",
+            "Highly protein-bound: NSAIDs, oral anticoagulants, sulfonylureas",
+            "Saturation kinetics: phenytoin, theophylline"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Detailed drug history of all current medication",
+            "Consider interactions whenever a drug is added or stopped",
+            "Avoid mixing parenteral drugs in one syringe or bottle"
+          ]
+        },
+        {
+          "h": "Monitoring",
+          "points": [
+            "Laboratory: INR, lithium, digoxin, potassium",
+            "Clinical: bleeding, bradycardia, sedation, hypotension, hypoglycaemia"
+          ]
+        },
+        {
+          "h": "Corrective measures",
+          "points": [
+            "Dose adjustment",
+            "Staggered administration (2-3 h gap)",
+            "Substitution, e.g. paracetamol instead of an NSAID"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "A possible interaction is not always a contraindication",
+            "Knowing the mechanism allows safe concurrent use with appropriate adjustments"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-interactions-025",
+      "type": "cloze",
+      "front": "Beneficial (deliberate) drug interactions",
+      "text": "ACE inhibitors with diuretics treat {{hypertension}}; {{sulfamethoxazole}} with {{trimethoprim}} is a synergistic antibacterial pair; {{furosemide}} with {{amiloride}} prevents {{hypokalaemia}}; adrenaline is added to {{lidocaine}} for local anaesthesia.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions",
+        "uses"
+      ]
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-interactions-026",
+      "type": "basic",
+      "front": "Which important interactions occur with aspirin and other NSAIDs?",
+      "back": "They reduce the effect of ACE inhibitors, beta-blockers and diuretics (thiazides, furosemide) by inhibiting renal prostaglandin synthesis. They displace and/or reduce elimination of sulfonylureas, phenytoin, valproate and methotrexate (toxicity; paracetamol is the safer substitute). With warfarin or heparin they add bleeding risk (antiplatelet action plus gastric damage). With fluoroquinolones they increase CNS toxicity and seizures. With alcohol or corticosteroids they raise gastric mucosal damage and bleeding. Aspirin also blunts spironolactone by reducing tubular secretion of canrenone.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "adr"
+      ]
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-interactions-027",
+      "type": "basic",
+      "front": "Why is sildenafil (or tadalafil) contraindicated with organic nitrates?",
+      "back": "Nitrates increase generation of cGMP, while sildenafil inhibits PDE5, which breaks cGMP down. Together they cause marked potentiation: a precipitous fall in BP and myocardial ischaemia. Concurrent use is contraindicated.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "interactions",
+        "contraindications"
+      ]
+    }
+  ]
+}

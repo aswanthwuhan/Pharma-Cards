@@ -1,0 +1,212 @@
+@import "tailwindcss";
+
+/*
+ * Pharmacards design system (from the Stitch "Clinical Pharmacometrics Instrument" export).
+ * Night-petrol chassis, warm porcelain study card, pale-mint accent.
+ * Mastery colours are reserved for weak / moderate / strong only.
+ * Full brief: design/SYSTEM.md
+ */
+@theme {
+  /* chassis (dark app shell) */
+  --color-paper: #091a1d; /* page background */
+  --color-sheet: #112b30; /* panels, rows, trays */
+  --color-well: #0b2024; /* recessed wells, dock */
+  --color-rule: #1a3b42; /* hairlines, borders */
+  --color-ink: #d3e6ea; /* main text on dark */
+  --color-ink-soft: #8fb0b5; /* secondary text on dark */
+
+  /* accent */
+  --color-teal: #b7f5d8; /* primary action (pale mint) */
+  --color-teal-deep: #7ee0b5; /* hover / pressed */
+  --color-teal-wash: #133a37; /* selected background */
+  --color-on-teal: #08221e; /* text on mint */
+
+  /* porcelain study card */
+  --color-porcelain: #f6f3eb;
+  --color-porcelain-2: #eae5d8;
+  --color-porcelain-ink: #152b2e;
+  --color-porcelain-soft: #456368;
+  --color-porcelain-rule: #d8d2c2;
+
+  /* mastery */
+  --color-weak: #f87171;
+  --color-moderate: #fbbf24;
+  --color-strong: #34d399;
+  --color-unseen: #2b4a50;
+
+  --font-sans: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), ui-serif, Georgia, serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+/* Light "workspace" theme from the Stitch mastery-map and settings screens. */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-paper: #ecfcff;
+  --color-sheet: #ffffff;
+  --color-well: #e1f8fc;
+  --color-rule: #c8dee2;
+  --color-ink: #091f21;
+  --color-ink-soft: #41595c;
+  --color-teal: #0d3b42;
+  --color-teal-deep: #00242a;
+  --color-teal-wash: #d6ecf0;
+  --color-on-teal: #ffffff;
+  --color-unseen: #d0e7ea;
+  --color-weak: #c0392b;
+  --color-moderate: #b7791f;
+  --color-strong: #1b8a5a;
+}
+:root[data-theme="light"] body {
+  background-image: radial-gradient(rgba(13, 59, 66, 0.05) 1px, transparent 1px);
+}
+
+
+/* ---- Colour palettes (Settings > Appearance). Each has a night and a day variant.
+   Only chassis + accent change; mastery colours stay constant so labels keep their meaning. ---- */
+:root[data-theme="dark"][data-palette="ocean"] {
+  --color-paper: #0a1424; --color-sheet: #13213a; --color-well: #0d1a2e; --color-rule: #1f3354;
+  --color-ink: #dbe6f5; --color-ink-soft: #93a9c6;
+  --color-teal: #9ccaff; --color-teal-deep: #6fb0ff; --color-teal-wash: #17304f; --color-on-teal: #061a33; --color-unseen: #24385a;
+}
+:root[data-theme="light"][data-palette="ocean"] {
+  --color-paper: #eef5ff; --color-sheet: #ffffff; --color-well: #e3eefc; --color-rule: #c9d8ee;
+  --color-ink: #0c1b30; --color-ink-soft: #4a5d78;
+  --color-teal: #1d4f91; --color-teal-deep: #143a6e; --color-teal-wash: #dbe7f8; --color-on-teal: #ffffff; --color-unseen: #d3e0f2;
+}
+:root[data-theme="dark"][data-palette="plum"] {
+  --color-paper: #160f1c; --color-sheet: #22182b; --color-well: #1b1322; --color-rule: #3a2a48;
+  --color-ink: #ece3f2; --color-ink-soft: #b09fc0;
+  --color-teal: #e3c2ff; --color-teal-deep: #cfa0f5; --color-teal-wash: #2e2040; --color-on-teal: #23102f; --color-unseen: #3b2c4a;
+}
+:root[data-theme="light"][data-palette="plum"] {
+  --color-paper: #fbf5ff; --color-sheet: #ffffff; --color-well: #f3e9fb; --color-rule: #e2d2ee;
+  --color-ink: #24132f; --color-ink-soft: #6a5578;
+  --color-teal: #5b2a86; --color-teal-deep: #44206a; --color-teal-wash: #efe2f8; --color-on-teal: #ffffff; --color-unseen: #eadcf3;
+}
+:root[data-theme="dark"][data-palette="graphite"] {
+  --color-paper: #111214; --color-sheet: #1b1d21; --color-well: #15171a; --color-rule: #2c2f35;
+  --color-ink: #e6e8eb; --color-ink-soft: #9a9fa8;
+  --color-teal: #e6e8eb; --color-teal-deep: #c9ccd1; --color-teal-wash: #25282d; --color-on-teal: #111214; --color-unseen: #30343a;
+}
+:root[data-theme="light"][data-palette="graphite"] {
+  --color-paper: #f6f6f4; --color-sheet: #ffffff; --color-well: #eeeeeb; --color-rule: #dcdcd8;
+  --color-ink: #1f2328; --color-ink-soft: #5f646b;
+  --color-teal: #1f2328; --color-teal-deep: #000000; --color-teal-wash: #e9e9e6; --color-on-teal: #ffffff; --color-unseen: #e2e2df;
+}
+:root[data-theme="dark"][data-palette="sepia"] {
+  --color-paper: #1a1510; --color-sheet: #261f17; --color-well: #1f1912; --color-rule: #3d3224;
+  --color-ink: #efe4d0; --color-ink-soft: #b7a385;
+  --color-teal: #f1d39c; --color-teal-deep: #e2bb72; --color-teal-wash: #33291c; --color-on-teal: #2a1d0a; --color-unseen: #3e3326;
+}
+:root[data-theme="light"][data-palette="sepia"] {
+  --color-paper: #f7f1e3; --color-sheet: #fffaf0; --color-well: #efe6d2; --color-rule: #dfd2b5;
+  --color-ink: #2e2213; --color-ink-soft: #6d5a3f;
+  --color-teal: #7a4b12; --color-teal-deep: #5c380c; --color-teal-wash: #efe2c6; --color-on-teal: #ffffff; --color-unseen: #e8dcc2;
+}
+
+html {
+  color-scheme: dark;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+}
+
+body {
+  @apply bg-paper font-sans text-ink;
+  -webkit-font-smoothing: antialiased;
+  /* faint instrument dot grid */
+  background-image: radial-gradient(rgba(183, 245, 216, 0.035) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+input,
+textarea,
+select {
+  font-size: 16px; /* stops iOS zooming into inputs */
+}
+
+button,
+a,
+[role="button"] {
+  touch-action: manipulation;
+}
+button,
+[role="button"] {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* answer reveal: crisp slide-up, no bounce (frequent action, so short) */
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+.reveal-in {
+  animation: reveal-in 180ms var(--ease-out);
+}
+
+/* ---- primitives ---- */
+
+@utility sheet {
+  @apply rounded-xl border border-rule bg-sheet;
+}
+
+@utility card-surface {
+  @apply sheet p-5;
+}
+
+/* small mono label, e.g. "PAPER II", "DUE NOW" */
+@utility eyebrow {
+  @apply font-mono text-[11px] font-medium tracking-[0.06em] text-ink-soft uppercase;
+}
+
+@utility btn {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-sm font-semibold transition-[background-color,border-color,color,transform] duration-150 active:scale-[0.97] disabled:opacity-50;
+  transition-timing-function: var(--ease-out);
+}
+
+@utility btn-primary {
+  @apply btn bg-teal text-on-teal hover:bg-teal-deep;
+}
+
+@utility btn-ghost {
+  @apply btn border border-rule bg-sheet text-ink hover:border-teal hover:text-teal;
+}
+
+@utility btn-chip {
+  @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-rule bg-sheet px-3 text-sm text-ink-soft transition-colors hover:border-teal;
+}
+
+@utility btn-chip-on {
+  @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-teal bg-teal px-3 text-sm font-semibold text-on-teal;
+}
+
+/* the porcelain study card */
+@utility porcelain {
+  @apply rounded-2xl bg-porcelain text-porcelain-ink;
+  box-shadow:
+    0 2px 4px rgba(0, 10, 12, 0.35),
+    0 16px 36px -4px rgba(0, 8, 10, 0.55),
+    0 0 0 1px rgba(246, 243, 235, 0.15);
+}
