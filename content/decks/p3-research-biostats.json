@@ -1,0 +1,841 @@
+{
+  "topicId": "p3-research-biostats",
+  "source": "Sarkar p181-210, p356-390, p506-515; RangDale9 ch8; Katzung16 appendix 2",
+  "cards": [
+    {
+      "id": "p3-research-biostats-001",
+      "type": "cloze",
+      "front": "Classify: the four scales of measurement",
+      "text": "{{Nominal}} data are labels without order (e.g. sex, hair colour; a two-category nominal variable is dichotomous); {{ordinal}} data are ranked but the gaps are unknown (e.g. satisfaction scores, visual analogue scale); {{interval}} data have equal known gaps but no true zero (e.g. temperature in Celsius); {{ratio}} data have equal gaps and a true zero (e.g. weight, height).",
+      "refs": [
+        "Sarkar p356-360",
+        "Sarkar p361-365"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-002",
+      "type": "basic",
+      "front": "Which summary measures can be used on each scale of data?",
+      "back": "Nominal: mode only. Ordinal: mode or median, not the mean, because ranks cannot be added. Interval: mode, median, mean and SD (addition and subtraction allowed, ratios not, since there is no true zero). Ratio: all of these plus ratios and the coefficient of variation. Interval and ratio data suit parametric tests; nominal and ordinal data need non-parametric tests.",
+      "refs": [
+        "Sarkar p356-360",
+        "Sarkar p361-365",
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-003",
+      "type": "basic",
+      "front": "Distinguish discrete from continuous, and qualitative from quantitative data.",
+      "back": "Continuous variables can take any value on a scale and be subdivided indefinitely (e.g. temperature, litres of fuel); discrete variables take fixed countable values (e.g. number of heads in 100 tosses). Quantitative data are measured numerically and can be computed; qualitative data describe attributes (e.g. honesty, creativity) that are observed but not calculated.",
+      "refs": [
+        "Sarkar p361-365"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-004",
+      "type": "basic",
+      "front": "Define mean, median and mode. When is the median the better summary?",
+      "back": "Mean: sum of values divided by their number. Median: middle value of ordered data (average of the two middle values when n is even). Mode: most frequent value. The median is better when outliers are present, e.g. for 1, 2, 3, 4 and 10,000 the mean is 2002 but the median is 3. In a normal distribution mean, median and mode are equal and half the values lie on each side of the mean.",
+      "refs": [
+        "Sarkar p361-365"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-005",
+      "type": "basic",
+      "front": "What is standard deviation and how is it calculated?",
+      "back": "A measure of how widely values are spread around the mean; a small SD means values cluster near the mean. Steps: find the mean; find each deviation from it; square and sum the deviations; divide by n - 1 to get the variance; take the square root. In a normal distribution, mean plus or minus 1 SD covers about 68% and plus or minus 2 SD about 95% of values. SD is also used to derive the standard error and to plan sample size.",
+      "refs": [
+        "Sarkar p361-365",
+        "Sarkar p371-375"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-006",
+      "type": "basic",
+      "front": "Why is the sample variance divided by n - 1 rather than n?",
+      "back": "Dividing by n - 1 makes the sample variance an unbiased estimate of the population variance: averaged over all possible samples it equals the population value, whereas dividing by n underestimates it.",
+      "refs": [
+        "Sarkar p361-365"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-007",
+      "type": "basic",
+      "front": "Distinguish standard deviation from standard error of the mean.",
+      "back": "SD describes the spread of individual observations in one sample. The standard error of the mean (SEM) is the SD of the sampling distribution of means, i.e. how much sample means scatter around the population mean. SEM = SD divided by the square root of n, so it shrinks as sample size grows.",
+      "refs": [
+        "Sarkar p361-365"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-008",
+      "type": "basic",
+      "front": "Define prevalence. How do point and period prevalence differ?",
+      "back": "Prevalence is the proportion of a population with a condition at a given time: all existing cases (old and new) divided by the population. It is cross-sectional. Point prevalence uses the population at one moment; period prevalence uses the average or mid-period population over a defined interval and is mainly used for chronic disease, insurance and hospital statistics.",
+      "refs": [
+        "Sarkar p366-370"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-009",
+      "type": "basic",
+      "front": "Distinguish incidence proportion (cumulative incidence) from incidence rate (incidence density).",
+      "back": "Both count only new cases. Incidence proportion = new cases during a stated period divided by the number initially at risk; it is a risk (0 to 1), needs a closed cohort and a stated follow-up time. Incidence rate = new cases divided by person-time at risk (e.g. per 1000 person-years); it is a rate (0 to infinity) and can be measured in an open population.",
+      "refs": [
+        "Sarkar p366-370"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-010",
+      "type": "basic",
+      "front": "What is an odds ratio, how is it calculated and interpreted?",
+      "back": "The odds of exposure among cases divided by the odds of exposure among controls; from a 2x2 table (a, b = exposed cases, controls; c, d = unexposed cases, controls), OR = (a/c)/(b/d) = ad/bc. It is the measure of association in case-control studies. OR = 1: no association; above 1: exposure linked to the outcome; below 1: possibly protective. It needs no population denominator, but association does not prove causation.",
+      "refs": [
+        "Sarkar p366-370"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-011",
+      "type": "basic",
+      "front": "What is relative risk and from which study design is it obtained?",
+      "back": "Risk of the outcome in the exposed divided by risk in the unexposed: [a/(a+b)] / [c/(c+d)]. It needs incidence, so it comes from cohort studies, not case-control studies. RR = 1: no effect; above 1: exposure raises risk; below 1: exposure lowers risk. It is a descriptive measure and does not by itself test significance.",
+      "refs": [
+        "Sarkar p366-370"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-012",
+      "type": "cloze",
+      "front": "Complete: when the odds ratio approximates relative risk",
+      "text": "In case-control and cohort studies the odds ratio approximates the relative risk when the outcome occurs in less than {{10%}} of the unexposed (i.e. a {{rare}} outcome); when the outcome is commoner, the OR {{overestimates}} the RR.",
+      "refs": [
+        "Sarkar p366-370"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-013",
+      "type": "basic",
+      "front": "What is the number needed to treat (NNT), and why is it more informative than relative risk reduction?",
+      "back": "The number of patients who must be treated for one to show a defined effect, beneficial or harmful. It reflects baseline severity: a drug that halves mortality from 50% to 25% has an NNT of 4, while one that halves mortality from 5% to 2.5% has an NNT of 40, so 40 patients face adverse-effect risk for each life saved. NNTs for benefit and for minor or major harm can be set side by side to guide choice.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-014",
+      "type": "basic",
+      "front": "What is a P value, and how are P values conventionally interpreted?",
+      "back": "The probability, calculated from the test statistic, of getting the observed result if the null hypothesis were true. It is compared with a significance level (alpha) chosen in advance, usually 5% (also 1% or 0.1%); P below alpha leads to rejecting the null hypothesis. Rough guide: P > 0.10 no evidence against the null; 0.05-0.10 weak; 0.01-0.05 moderate; 0.001-0.01 strong; < 0.001 very strong.",
+      "refs": [
+        "Sarkar p371-375"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-015",
+      "type": "basic",
+      "front": "Distinguish the null hypothesis, alternative hypothesis and research hypothesis.",
+      "back": "Null hypothesis (H0): no difference between a sample and the population, or between samples; it can be rejected but never proved. Alternative hypothesis (H1): there is a difference (greater, smaller or simply different). Research hypothesis: a specific, clear, predictive and testable statement about the expected outcome based on background knowledge.",
+      "refs": [
+        "Sarkar p371-375"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-016",
+      "type": "shortnote",
+      "front": "Short note: Steps of hypothesis testing",
+      "sections": [
+        {
+          "h": "1. Set hypotheses",
+          "points": [
+            "State H0 and H1"
+          ]
+        },
+        {
+          "h": "2. Check assumptions",
+          "points": [
+            "Data type, sample size, sampling technique, distribution of data"
+          ]
+        },
+        {
+          "h": "3. Fix decision criterion",
+          "points": [
+            "Significance level alpha, usually 5%"
+          ]
+        },
+        {
+          "h": "4. Apply test statistic",
+          "points": [
+            "Shows how many standard errors the sample result lies from the value stated in H0"
+          ]
+        },
+        {
+          "h": "5. Decide",
+          "points": [
+            "P <= 0.05: reject H0 (significant)",
+            "P > 0.05: retain H0"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p371-375"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-017",
+      "type": "basic",
+      "front": "What does a 95% confidence interval mean, and why is it reported alongside the P value?",
+      "back": "For a large sample, mean plus or minus 1.96 SE gives a range expected to contain the population mean in 95% of samples; values outside it would occur by chance only 5% of the time. Unlike a P value alone, a CI shows the direction and size of the effect and its precision. In a forest plot a study whose CI crosses the line of no effect is not statistically significant.",
+      "refs": [
+        "Sarkar p371-375",
+        "Sarkar p511-515",
+        "Sarkar p386-390"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-018",
+      "type": "shortnote",
+      "front": "Short note: Possible decisions in hypothesis testing",
+      "sections": [
+        {
+          "h": "H0 true, retained",
+          "points": [
+            "Correct decision (probability 1 - alpha)"
+          ]
+        },
+        {
+          "h": "H0 true, rejected",
+          "points": [
+            "Type I error, false positive (alpha)"
+          ]
+        },
+        {
+          "h": "H0 false, retained",
+          "points": [
+            "Type II error, false negative (beta)"
+          ]
+        },
+        {
+          "h": "H0 false, rejected",
+          "points": [
+            "Correct decision; probability 1 - beta = power"
+          ]
+        },
+        {
+          "h": "Reducing error",
+          "points": [
+            "Use as large a random sample as possible; pre-specify the significance level"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p376-380"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-019",
+      "type": "basic",
+      "front": "When is the t test used instead of the Z test, and what are its requirements?",
+      "back": "Both test whether two means differ more than chance allows. For small samples (n < 30) Z values do not follow the normal distribution, so Student's t test (W.S. Gosset, pen-name \"Student\") is used, with probability read from the t table at the right degrees of freedom. Requirements: random sample, quantitative data, normally distributed variable.",
+      "refs": [
+        "Sarkar p376-380"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-020",
+      "type": "cloze",
+      "front": "Classify: types of t test",
+      "text": "The {{unpaired}} (independent) t test compares means of two separate groups, df = {{n1 + n2 - 2}}; the {{paired}} t test compares before-and-after values in the same subjects, df = {{n - 1}}; the {{one-sample}} t test compares a sample mean with a known or hypothesised population mean.",
+      "refs": [
+        "Sarkar p376-380"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-021",
+      "type": "basic",
+      "front": "When is ANOVA used, what are its assumptions, and what statistic does it give?",
+      "back": "To compare means of more than two groups, where repeated t tests become unreliable (for two groups it gives the same result as the t test). Assumptions: each group from a normal population, equal variances, independent samples, random independent observations. It splits total sum of squares into between- and within-group parts and gives the F ratio (between-group mean square divided by within-group mean square), read from the F table.",
+      "refs": [
+        "Sarkar p376-380",
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-022",
+      "type": "cloze",
+      "front": "Classify: types of ANOVA",
+      "text": "{{One-way}} ANOVA tests one factor with three or more levels; {{two-way}} ANOVA tests two factors and their interaction (equal numbers per cell needed); {{factorial}} ANOVA (e.g. 2x2 design) studies several factors and their interactions in one experiment; {{repeated measures}} ANOVA compares related means, e.g. the same patients at three time points, extending the paired t test.",
+      "refs": [
+        "Sarkar p376-380",
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-023",
+      "type": "shortnote",
+      "front": "Short note: Chi-square test",
+      "sections": [
+        {
+          "h": "Nature",
+          "points": [
+            "Non-parametric test for categorical (frequency) data; developed by Karl Pearson"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Test of proportion: compare incidence of an event between groups",
+            "Test of association (independence) between two attributes",
+            "Goodness of fit: observed vs expected distribution"
+          ]
+        },
+        {
+          "h": "Method",
+          "points": [
+            "Build a contingency table of observed frequencies (O)",
+            "Derive expected frequencies (E) from row and column totals; compare O with E cell by cell and sum",
+            "df = (rows - 1)(columns - 1); compare with table value at chosen alpha"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Unreliable if any expected value in a 2x2 table is < 5 (or > 20% of cells in larger tables); Yates correction for 2x2 only",
+            "Shows association, not its strength or causation"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-024",
+      "type": "basic",
+      "front": "Compare parametric and non-parametric tests.",
+      "back": "Parametric tests assume a normal distribution, equal variances, interval or ratio data and independence, and use the mean; they have more power. Non-parametric (distribution-free) tests suit ordinal or nominal data, small samples or non-normal data, use the median and resist outliers, but have lower power, so type II error is more likely. Data that violate normality should be analysed non-parametrically.",
+      "refs": [
+        "Sarkar p381-385",
+        "Sarkar p386-390",
+        "Sarkar p511-515"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-025",
+      "type": "essay",
+      "front": "Essay: Choosing and applying tests of significance in a drug study",
+      "sections": [
+        {
+          "h": "Define question and hypotheses",
+          "points": [
+            "H0, H1; alpha fixed beforehand"
+          ]
+        },
+        {
+          "h": "Identify data type",
+          "points": [
+            "Nominal/ordinal vs interval/ratio; normality; paired or independent"
+          ]
+        },
+        {
+          "h": "Two means",
+          "points": [
+            "Z test (large n) or t test: unpaired, paired, one-sample"
+          ]
+        },
+        {
+          "h": "More than two means",
+          "points": [
+            "ANOVA: one-way, two-way, factorial, repeated measures"
+          ]
+        },
+        {
+          "h": "Proportions and categories",
+          "points": [
+            "Chi-square: proportion, association, goodness of fit"
+          ]
+        },
+        {
+          "h": "Non-normal or ranked data",
+          "points": [
+            "Non-parametric tests; lower power"
+          ]
+        },
+        {
+          "h": "Reporting",
+          "points": [
+            "P value with 95% CI; type I and II errors; power"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p371-375",
+        "Sarkar p376-380",
+        "Sarkar p381-385",
+        "Sarkar p386-390"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-026",
+      "type": "basic",
+      "front": "Define meta-analysis and outline how one is done.",
+      "back": "Statistical analysis of results from many studies to integrate their findings (Glass, 1976); a quantitative alternative to a narrative review. Steps: frame the question as PICO(T); search databases and grey literature (e.g. MEDLINE, EMBASE, theses, congress abstracts); screen abstracts and full papers against inclusion criteria; extract data and assess study quality; compute effect sizes; examine their spread and moderators; interpret and report.",
+      "refs": [
+        "Sarkar p386-390",
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-027",
+      "type": "basic",
+      "front": "What are the strengths and weaknesses of meta-analysis?",
+      "back": "Strengths: greater power and precision from pooled data, resolves conflicting trials, quantifies inconsistency, allows subgroup analysis, and pooled RCTs give the highest level of evidence. Weaknesses: selective reporting and publication bias (negative studies are less often published), double counting of the same data, heterogeneity of populations, time-consuming search and complex statistics.",
+      "refs": [
+        "Sarkar p386-390",
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-028",
+      "type": "shortnote",
+      "front": "Short note: Reading a forest plot",
+      "sections": [
+        {
+          "h": "Axes",
+          "points": [
+            "Horizontal: effect measure (OR, RR, risk difference, SMD)",
+            "Vertical line of no effect: 1 for ratios, 0 for differences"
+          ]
+        },
+        {
+          "h": "Each study",
+          "points": [
+            "Box = point estimate; box size = study weight (size)",
+            "Horizontal line = 95% CI; crossing the no-effect line = not significant"
+          ]
+        },
+        {
+          "h": "Pooled result",
+          "points": [
+            "Diamond: centre = pooled estimate, width = its 95% CI; touching the no-effect line = overall result not significant"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p386-390"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-029",
+      "type": "basic",
+      "front": "What is evidence-based medicine (EBM), and how is the evidence obtained?",
+      "back": "Using the best available research evidence, after critical appraisal, together with the doctor's clinical skill and the patient's preferences to make care decisions. It aims to improve outcomes, reduce harm, improve cost-effectiveness and support shared decisions. Evidence is found by literature search (e.g. the TRIP database) and synthesised by systematic reviews and meta-analysis.",
+      "refs": [
+        "Katzung16 appendix 2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-030",
+      "type": "shortnote",
+      "front": "Short note: Critical appraisal of a journal article",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Systematic judgement of a paper's validity, completeness of reporting, methods, conclusions and ethics"
+          ]
+        },
+        {
+          "h": "Five steps",
+          "points": [
+            "Ask an answerable question (PICO)",
+            "Search for evidence",
+            "Appraise methods and design",
+            "Appraise results",
+            "Judge significance and impact"
+          ]
+        },
+        {
+          "h": "Methods checks",
+          "points": [
+            "Inclusion/exclusion and end points fixed in advance",
+            "Design, randomisation, blinding, bias",
+            "Sample size, significance level, test chosen for data distribution"
+          ]
+        },
+        {
+          "h": "Results and discussion",
+          "points": [
+            "All dropouts accounted for (CONSORT flowchart)",
+            "Effect with CI, not P alone",
+            "Limitations and external validity"
+          ]
+        },
+        {
+          "h": "Conflict of interest",
+          "points": [
+            "Funding source declared and managed"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p506-510",
+        "Sarkar p511-515"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-031",
+      "type": "cloze",
+      "front": "Classify: reporting guidelines by study type",
+      "text": "{{CONSORT}} for randomised trials (25-item checklist plus flow diagram); {{PRISMA}} for systematic reviews and meta-analyses (27 items); {{STROBE}} for observational cohort, case-control and cross-sectional studies (22 items); {{MOOSE}} for meta-analyses of observational studies; {{STARD}} for diagnostic accuracy studies; {{SPIRIT}} for trial protocols.",
+      "refs": [
+        "Sarkar p511-515"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-032",
+      "type": "shortnote",
+      "front": "Short note: Components of a research protocol",
+      "sections": [
+        {
+          "h": "Part A: science",
+          "points": [
+            "Summary (up to 300 words), general information",
+            "Rationale and background; goals and specific objectives",
+            "Design: type of study, population, inclusion/exclusion/withdrawal criteria",
+            "Methodology: interventions, randomisation, blinding, stopping rules, flowchart, evaluation tools"
+          ]
+        },
+        {
+          "h": "Part A: conduct",
+          "points": [
+            "Safety and adverse-event reporting; follow-up",
+            "Data management, sample size and statistics",
+            "Quality assurance (GCP, monitors, DSMB)",
+            "Expected outcomes; dissemination and publication policy",
+            "Timeline, anticipated problems, team roles",
+            "Ethics; informed consent forms in English and local language; references; appendices"
+          ]
+        },
+        {
+          "h": "Part B: administration",
+          "points": [
+            "Budget with justification; other funding",
+            "Collaborations; CVs; other projects of investigators",
+            "Financing, insurance, conflict of interest"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p201-205",
+        "Sarkar p206-210"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-033",
+      "type": "cloze",
+      "front": "Classify: methods of random allocation and sampling",
+      "text": "Methods include {{simple}} (lottery or random numbers), {{systematic}} (every kth unit), {{stratified}} (random within homogeneous strata), {{multistage}} (random at successive levels, e.g. district then village), {{cluster}} (natural groups such as villages), {{multiphase}} (sub-samples of a sample), {{block}} (equal numbers per block), unequal and {{minimisation}}.",
+      "refs": [
+        "Sarkar p196-200"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-034",
+      "type": "basic",
+      "front": "What does randomisation achieve, and what are the criteria of a good method?",
+      "back": "It removes selection bias (with allocation concealment), balances known and unknown covariates between arms, and provides the basis for statistical tests. A good method is unpredictable (each participant has the same chance of any arm), produces balanced groups, and is simple to use.",
+      "refs": [
+        "Sarkar p196-200"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-035",
+      "type": "basic",
+      "front": "How do block randomisation and minimisation keep groups balanced?",
+      "back": "Block randomisation assigns equal numbers to each arm within small blocks (e.g. AABB, ABAB in blocks of 4), so groups stay equal in size even if the trial stops early; with fixed blocks, staff may predict the next allocation. Minimisation assigns each new patient to the arm that best reduces imbalance in key factors (e.g. sex, age, disease stage) and suits very small trials (about 50 patients).",
+      "refs": [
+        "Sarkar p196-200",
+        "Sarkar p201-205"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-036",
+      "type": "basic",
+      "front": "How is cluster sampling used to estimate immunisation coverage?",
+      "back": "Natural groups such as villages are listed with their populations; 30 clusters are chosen systematically by a sampling interval and random start. In each, houses are surveyed from a random first house until 7 eligible children are found, giving 210 children. Cluster sampling is cheaper and quicker but has higher sampling error and may miss diversity.",
+      "refs": [
+        "Sarkar p196-200"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-037",
+      "type": "shortnote",
+      "front": "Short note: Types of control groups in clinical trials",
+      "sections": [
+        {
+          "h": "Placebo",
+          "points": [
+            "Identical dummy; measures absolute efficacy; ethically limited when effective treatment prevents serious harm"
+          ]
+        },
+        {
+          "h": "No-treatment concurrent",
+          "points": [
+            "Used when blinding is not feasible; cannot be blinded"
+          ]
+        },
+        {
+          "h": "Dose-response",
+          "points": [
+            "Randomised to fixed doses, may include placebo; blinding easier to keep"
+          ]
+        },
+        {
+          "h": "Active (positive)",
+          "points": [
+            "Standard treatment; fewer ethical problems; needs sound reason to expect the new drug is at least as good"
+          ]
+        },
+        {
+          "h": "External/historical",
+          "points": [
+            "Patients outside the trial; all get the new drug; prone to bias, no randomisation or blinding"
+          ]
+        },
+        {
+          "h": "Multiple",
+          "points": [
+            "e.g. active plus placebo; helps when the active control's efficacy is uncertain"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p181-185"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ]
+    }
+  ]
+}

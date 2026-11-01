@@ -1,0 +1,50 @@
+# Review log: p2-herbal
+
+New deck drafted from the owner's books under GROUNDING-RULES.md. Cards: 24, all status draft. Deleted: 0.
+
+## NMC coverage
+
+NMC syllabus item 31 (Dietary supplements and herbal medicines).
+
+| NMC sub-point | Book coverage | Source |
+|---|---|---|
+| Definition and US regulation of dietary supplements (DSHEA, GMP, adverse event reporting) | Covered | Katzung16 ch65 |
+| Safety problems: toxic herbs, adulteration, contamination | Covered | Katzung16 ch65, ch57, ch58 |
+| Common botanicals: St. John's wort, garlic, ginkgo, ginseng, echinacea, milk thistle, saw palmetto | Covered | Katzung16 ch65 |
+| Purified supplements: coenzyme Q10, glucosamine, melatonin | Covered | Katzung16 ch65 |
+| Herb-drug interactions | Covered | Katzung16 ch65 |
+| Quality assurance (WHO GACP, GMP, GSP) | Covered | Sarkar p6-10 |
+| Phytopharmaceutical drugs (NDCT Rules 2019), reverse pharmacology, Ayurvedic leads | Covered (review book only; no standard textbook covers it) | Sarkar p11-20 |
+| Indian AYUSH regulation (Drugs and Cosmetics Act provisions for Ayurveda, Siddha, Unani; AYUSH licensing, pharmacovigilance of ASU drugs) | GAP: books silent | none; no card written |
+| Nutraceuticals and FSSAI regulation in India | GAP: books silent | none |
+| Probiotics, vitamins and minerals as supplements | Not in Katzung16 ch65; vitamins handled in p3-misc | none |
+| Specific Ayurvedic drug efficacy evidence (ashwagandha, curcumin trials) | GAP: books give only uses, no trial data | none |
+
+## Cards
+
+| id | status | source |
+|---|---|---|
+| p2-herbal-001 | ok | Katzung16 ch65 |
+| p2-herbal-002 | ok | Katzung16 ch65 |
+| p2-herbal-003 | ok | Katzung16 ch65 |
+| p2-herbal-004 | ok | Sarkar p6-10 |
+| p2-herbal-005 | ok | Sarkar p11-20 |
+| p2-herbal-006 | ok | Katzung16 ch65 |
+| p2-herbal-007 | ok | Katzung16 ch57, Katzung16 ch58 |
+| p2-herbal-008 | ok | Katzung16 ch65 |
+| p2-herbal-009 | ok | Katzung16 ch65 |
+| p2-herbal-010 | ok | Katzung16 ch65 |
+| p2-herbal-011 | ok | Katzung16 ch65 |
+| p2-herbal-012 | ok | Katzung16 ch65 |
+| p2-herbal-013 | ok | Katzung16 ch65 |
+| p2-herbal-014 | ok | Katzung16 ch65 |
+| p2-herbal-015 | ok | Katzung16 ch65 |
+| p2-herbal-016 | ok | Katzung16 ch65 |
+| p2-herbal-017 | ok | Katzung16 ch65 |
+| p2-herbal-018 | ok | Katzung16 ch65 |
+| p2-herbal-019 | ok | Katzung16 ch65 |
+| p2-herbal-020 | ok | Sarkar p16-20 |
+| p2-herbal-021 | ok | Sarkar p16-20 |
+| p2-herbal-022 | ok | Sarkar p11-15, Sarkar p16-20 |
+| p2-herbal-023 | ok | Sarkar p11-15 |
+| p2-herbal-024 | ok | Katzung16 ch65, Sarkar p6-20 |

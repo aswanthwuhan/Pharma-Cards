@@ -48,3 +48,18 @@ Checked 42; corrected 22; deleted 12; added and kept 0. Cards now in deck: 30.
 | p4-clinical-trials-040 | corrected | GG14 ch8, KDT8 ch6 (PvPI line replaced with KDT text) |
 | p4-clinical-trials-041 | deleted | added card (SAE timelines) ungrounded |
 | p4-clinical-trials-042 | deleted | added card (academic trial) ungrounded |
+
+## Added from Sarkar/Prep OCR (second pass)
+
+Cards now in deck: 38. Not re-added: no OCR page covers audio-video consent, and CTRI appears only as a protocol field (Sarkar p212).
+
+| id | status | source |
+|---|---|---|
+| p4-clinical-trials-043 | added | Sarkar p224, p225, p226, p17 (NDCT Rules 2019; replaced Schedule Y) |
+| p4-clinical-trials-044 | added | Sarkar p226 (academic trial) |
+| p4-clinical-trials-045 | added | Sarkar p248 (SAE definition) |
+| p4-clinical-trials-046 | added | Sarkar p248, p226 (SAE timelines) |
+| p4-clinical-trials-047 | added | Sarkar p248, p226, p158 (medical management, compensation) |
+| p4-clinical-trials-048 | added | Sarkar p227, p228, p158, p247 (ethics committee under NDCT) |
+| p4-clinical-trials-049 | added | Sarkar p37 (orphan drug under NDCT) |
+| p4-clinical-trials-050 | added | Sarkar p91, p92, p94; Prep p77; KDT8 ch6 (PvPI) |

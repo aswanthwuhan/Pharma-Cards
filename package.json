@@ -1,6 +1,9 @@
 {
   "name": "md-pharma-flashcards",
   "version": "0.1.0",
+  "main": "electron/main.cjs",
+  "productName": "Pharmacards",
+  "description": "Pharmacards: MD Pharmacology flashcards (study decks and Rapid Fire), desktop app.",
   "private": true,
   "scripts": {
     "predev": "node scripts/validate-content.mjs",
@@ -10,9 +13,16 @@
     "pretest": "node scripts/validate-content.mjs",
     "start": "next start",
     "test": "vitest run",
-    "validate:content": "node scripts/validate-content.mjs"
+    "validate:content": "node scripts/validate-content.mjs",
+    "desktop:build": "next build",
+    "desktop:dev": "electron .",
+    "dist:win": "next build && electron-builder --win nsis",
+    "dist:mac": "next build && electron-builder --mac dmg",
+    "android:sync": "next build && cap sync android",
+    "android:apk": "next build && cap sync android && node scripts/android-apk.mjs"
   },
   "dependencies": {
+    "@capacitor/core": "^8.6.0",
     "dexie": "^4.4.7",
     "dexie-react-hooks": "^4.4.0",
     "motion": "^14.9.0",
@@ -22,14 +32,49 @@
     "ts-fsrs": "^5.4.2"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "electron": "^45.2.1",
+    "electron-builder": "^26.18.0",
     "fake-indexeddb": "^6.2.7",
     "postcss": "^8.5.32",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
     "vitest": "^5.0.5"
+  },
+  "build": {
+    "appId": "com.aurapharmlab.pharmacards",
+    "files": [
+      "electron/**",
+      "out/**",
+      "package.json",
+      "!node_modules/**/*"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "artifactName": "Pharmacards-Setup-${version}.${ext}"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.education",
+      "artifactName": "Pharmacards-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "publish": null,
+    "icon": "public/icons/icon-512.png"
   }
 }

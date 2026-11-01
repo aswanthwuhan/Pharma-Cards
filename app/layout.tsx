@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Hanken_Grotesk, JetBrains_Mono, Newsreader } from "next/font/google";
 import { Nav } from "@/components/Nav";
 import { ThemeApplier } from "@/components/ThemeApplier";
+import { RegisterSW } from "@/components/RegisterSW";
 import "./globals.css";
 
 const hanken = Hanken_Grotesk({ subsets: ["latin"], variable: "--font-hanken" });
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${hanken.variable} ${newsreader.variable} ${jetbrains.variable}`}>
       <body className="min-h-dvh">
         <ThemeApplier />
+        <RegisterSW />
         <Nav />
         {/* Phones: one column. Desktop: content beside the 16rem rail, up to 72rem wide. */}
         <div className="lg:pl-64">

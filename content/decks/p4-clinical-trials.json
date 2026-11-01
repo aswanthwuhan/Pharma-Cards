@@ -724,6 +724,277 @@
       "tags": [
         "adr"
       ]
+    },
+    {
+      "id": "p4-clinical-trials-043",
+      "type": "shortnote",
+      "front": "Short note: New Drugs and Clinical Trials (NDCT) Rules, 2019",
+      "sections": [
+        {
+          "h": "Status",
+          "points": [
+            "In force from 25 March 2019 (the chapter on ethics committees for biomedical and health research from 21 September 2019)",
+            "Replaced Part XA and Schedule Y of the Drugs and Cosmetics Rules, 1945 (older texts, e.g. KDT8, still describe Schedule Y)",
+            "Apply to new drugs, investigational drugs, ethics committees, BA/BE studies and clinical trials"
+          ]
+        },
+        {
+          "h": "New drug (definition)",
+          "points": [
+            "Not used in India to any significant extent and not approved by the Central Licensing Authority (CLA) for its claims",
+            "Also: approved drug with new claims (indication, route, dose, dosage form); new fixed-dose combination or changed ratio; modified-release or novel delivery form",
+            "Also: vaccines, rDNA products, monoclonal antibodies, stem-cell products, gene therapy products, xenografts; phytopharmaceutical drugs added"
+          ]
+        },
+        {
+          "h": "Trial approval",
+          "points": [
+            "Decision within 90 days for drugs developed outside India, 30 days for new drugs developed in India; no reply means deemed approval",
+            "Trial permission valid 2 years",
+            "Rejected applicant may seek reconsideration within 60 days"
+          ]
+        },
+        {
+          "h": "Ethics committees",
+          "points": [
+            "Two types: for clinical trials and BA/BE studies, and for biomedical and health research",
+            "Registration valid 5 years",
+            "CLA (DCGI) informed of EC approval within 15 working days"
+          ]
+        },
+        {
+          "h": "Conduct and reporting",
+          "points": [
+            "6-monthly trial status report to DCGI through the SUGAM portal; enrolment status every 3 months",
+            "Termination notified to CLA within 30 days with reasons",
+            "Post-trial access to the drug free of cost, on investigator recommendation and EC approval",
+            "Academic trials need EC approval only"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p224",
+        "Sarkar p225",
+        "Sarkar p226",
+        "Sarkar p17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-044",
+      "type": "basic",
+      "front": "What is an academic clinical trial under the NDCT Rules 2019?",
+      "back": "A trial intended solely for academic research. It needs only Ethics Committee approval; no permission from the DCGI is required. Its results must not be used for promotional purposes or to seek regulatory approval.",
+      "refs": [
+        "Sarkar p226"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-045",
+      "type": "basic",
+      "front": "How do the NDCT Rules 2019 define a serious adverse event (SAE) in a clinical trial?",
+      "back": "An untoward medical occurrence during a clinical trial that results in death; in-patient hospitalisation (if the study was on out-patients) or prolonged hospitalisation (if on in-patients); persistent or significant disability or incapacity; a congenital anomaly or birth defect; or is otherwise life-threatening. The NDCT Rules amended the earlier Schedule Y rule (Rule 122DAB).",
+      "refs": [
+        "Sarkar p248"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-046",
+      "type": "cloze",
+      "front": "Recall: SAE reporting timelines under the NDCT Rules 2019",
+      "text": "The investigator reports every SAE to the CLA, the sponsor and the EC within {{24 hours}}. For SAE of death, the sponsor and investigator send analysed reports to the CLA and head of institution within {{14 days}}; the EC sends its report with an opinion on compensation within {{30 days}}; the expert committee recommends cause and compensation within {{60 days}}; the CLA decides compensation within {{90 days}}; the sponsor pays within {{30 days}} of the order.",
+      "refs": [
+        "Sarkar p248",
+        "Sarkar p226"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-047",
+      "type": "shortnote",
+      "front": "Short note: Medical management and compensation for trial injury under the NDCT Rules 2019",
+      "sections": [
+        {
+          "h": "Medical management",
+          "points": [
+            "Sponsor gives free medical management for as long as required in the investigator's opinion, or until the injury is shown to be unrelated to the trial or BA/BE study"
+          ]
+        },
+        {
+          "h": "Financial compensation",
+          "points": [
+            "Payable for clinical trial-related injury or death",
+            "Quantum determined by the CLA using the formula in the Seventh Schedule",
+            "Paid by the sponsor or its representative"
+          ]
+        },
+        {
+          "h": "Procedure",
+          "points": [
+            "Investigator reports the SAE within 24 hours",
+            "EC forwards its analysed report with an opinion on compensation",
+            "CLA may constitute an independent expert committee, which recommends cause and quantum within 60 days",
+            "CLA passes the order within 90 days of the SAE report",
+            "Sponsor pays within 30 days of the order and submits payment details to the CLA"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p248",
+        "Sarkar p226",
+        "Sarkar p158"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-048",
+      "type": "shortnote",
+      "front": "Short note: Ethics committee for clinical trials under the NDCT Rules 2019",
+      "sections": [
+        {
+          "h": "Composition",
+          "points": [
+            "At least 7 members from medical, non-medical, scientific and non-scientific areas",
+            "At least one lay person, one woman, one legal expert, and one independent member (social scientist, NGO representative, philosopher, ethicist or theologian)",
+            "At least half not associated with the institution; chairperson unaffiliated; member secretary from the institution",
+            "Medical scientists and clinicians need postgraduate qualification; all members trained in GCP"
+          ]
+        },
+        {
+          "h": "Registration",
+          "points": [
+            "Registered by the CLA; valid 5 years",
+            "Renewal applied for 90 days before expiry",
+            "Changes in membership intimated to the CLA within 30 days"
+          ]
+        },
+        {
+          "h": "Quorum",
+          "points": [
+            "At least 5 members, including a medical scientist (preferably a pharmacologist), a clinician, a legal expert, and a social scientist, NGO representative or lay person",
+            "Invited subject experts cannot vote"
+          ]
+        },
+        {
+          "h": "Duties",
+          "points": [
+            "Protect rights, safety and well-being of subjects, with extra care for vulnerable groups (e.g. prisoners, students, the impoverished, minors)",
+            "Ongoing review; may revoke approval with recorded reasons",
+            "Report on SAEs with opinion on compensation"
+          ]
+        },
+        {
+          "h": "Change from Schedule Y",
+          "points": [
+            "Schedule Y also required at least 7 members, but without the detailed composition rules"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p227",
+        "Sarkar p228",
+        "Sarkar p158",
+        "Sarkar p247"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-049",
+      "type": "basic",
+      "front": "How do the NDCT Rules 2019 define an orphan drug, and what concessions do they give?",
+      "back": "An orphan drug is one intended to treat a condition affecting not more than five lakh (500,000) persons in India. Concessions: fast-track approval and special status, including a complete fee waiver for clinical trial filing; expedited review where safety and efficacy evidence is established even before all trial phases are complete (post-marketing trials may then be required); and waiver of the local clinical study and phase IV if the CLA is satisfied. Marketing still needs CDSCO authorisation to import or manufacture.",
+      "refs": [
+        "Sarkar p37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-050",
+      "type": "shortnote",
+      "front": "Short note: Pharmacovigilance Programme of India (PvPI)",
+      "sections": [
+        {
+          "h": "History",
+          "points": [
+            "1989: six regional ADR centres",
+            "1997: India joined the WHO Programme for International Drug Monitoring (Uppsala Monitoring Centre)",
+            "2004: National Pharmacovigilance Programme",
+            "14 July 2010: PvPI launched with AIIMS, New Delhi as National Coordination Centre (NCC)",
+            "15 April 2011: NCC shifted to the Indian Pharmacopoeia Commission (IPC), Ghaziabad"
+          ]
+        },
+        {
+          "h": "Organisation",
+          "points": [
+            "Conducted by CDSCO (Directorate General of Health Services, Ministry of Health and Family Welfare); coordinated by IPC as NCC",
+            "ADR Monitoring Centres (AMCs), mostly in medical colleges, send reports to the NCC through VigiFlow",
+            "Data go to the WHO-UMC global database; CDSCO takes regulatory decisions on NCC recommendations"
+          ]
+        },
+        {
+          "h": "Reporting",
+          "points": [
+            "Suspected ADR reporting form (voluntary, by healthcare professionals)",
+            "Report all suspected reactions to new drugs, all suspected interactions, and serious reactions (death, life-threatening, hospitalisation, disability, congenital anomaly)"
+          ]
+        },
+        {
+          "h": "Note",
+          "points": [
+            "KDT8 describes the older CDSCO-coordinated programme with peripheral, regional and zonal centres"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p91",
+        "Sarkar p92",
+        "Sarkar p94",
+        "Prep p77",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ]
     }
   ]
 }

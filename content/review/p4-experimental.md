@@ -37,3 +37,13 @@ Checked 31; corrected 21; deleted 4; added and kept 0. Cards now in deck: 27.
 | p4-experimental-029 | deleted | CPCSEA/IAEC not in books |
 | p4-experimental-030 | corrected | Katzung16 ch1 (3Rs not in books: rewritten to Katzung alternatives) |
 | p4-experimental-031 | corrected | RangDale9 ch8, Katzung16 ch1, KDT8 ch5 (CPCSEA/IAEC/3Rs removed) |
+
+## Added from Sarkar OCR (second pass)
+
+Cards now in deck: 30. Not re-added: De Jalon solution and the LD1/ED99 margin of safety do not appear in any OCR page.
+
+| id | status | source |
+|---|---|---|
+| p4-experimental-032 | added | Sarkar p258 (CPCSEA) |
+| p4-experimental-033 | added | Sarkar p254, p258, p261 (IAEC) |
+| p4-experimental-034 | added | Sarkar p282, p283 (3Rs, 4th R) |
