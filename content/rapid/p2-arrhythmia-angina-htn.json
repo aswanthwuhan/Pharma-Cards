@@ -366,9 +366,10 @@
       "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
       "kind": "fact",
       "q": "Antiarrhythmics shown to cut long-term cardiac mortality",
-      "a": "Beta blockers and amiodarone",
+      "a": "Beta blockers; amiodarone reduced sudden death in some studies, but its benefit in heart failure was not confirmed in SCD-HeFT",
       "refs": [
-        "KDT8 ch39"
+        "KDT8 ch39",
+        "GG14 ch34"
       ]
     },
     {
@@ -1596,9 +1597,10 @@
       "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
       "kind": "fact",
       "q": "Amiodarone: long-term benefit",
-      "a": "Reduces sudden cardiac death (with propranolol, the only such drugs)",
+      "a": "Reduces sudden cardiac death (KDT: with propranolol, the only such drugs); heart-failure mortality benefit not confirmed in SCD-HeFT",
       "refs": [
-        "KDT8 ch39"
+        "KDT8 ch39",
+        "GG14 ch34"
       ]
     },
     {
@@ -2676,9 +2678,10 @@
       "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
       "kind": "fact",
       "q": "Beta blockers and survival in CAD",
-      "a": "Only antianginals that prolong life expectancy; first line in stable angina",
+      "a": "Reduce mortality after recent MI and in heart failure; first line in stable angina",
       "refs": [
-        "KDT8 ch40"
+        "KDT8 ch40",
+        "Katzung16 ch12"
       ]
     },
     {
@@ -3716,9 +3719,10 @@
       "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
       "kind": "fact",
       "q": "Nicorandil: nitrate-like tolerance",
-      "a": "Does not occur; interacts with sildenafil",
+      "a": "Does not occur; concurrent PDE-5 inhibitors contraindicated",
       "refs": [
-        "KDT8 ch40"
+        "KDT8 ch40",
+        "GG14 ch31"
       ]
     },
     {
@@ -3836,9 +3840,10 @@
       "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
       "kind": "fact",
       "q": "Trimetazidine availability",
-      "a": "Used in Europe and India, not in UK or USA",
+      "a": "Used in Europe (EMA: second-line add-on only) and India; not in UK or USA",
       "refs": [
-        "KDT8 ch40"
+        "KDT8 ch40",
+        "GG14 ch31"
       ]
     },
     {
@@ -4365,20 +4370,22 @@
       "id": "rf-p2-arrhythmia-angina-htn-0437",
       "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "kind": "fact",
-      "q": "Stage I hypertension (systolic / diastolic)",
+      "q": "Stage I hypertension, NICE 2011 (systolic / diastolic)",
       "a": "140-159 / 90-99 mm Hg",
       "refs": [
-        "KDT8 ch41"
+        "KDT8 ch41",
+        "GG14 ch32"
       ]
     },
     {
       "id": "rf-p2-arrhythmia-angina-htn-0438",
       "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "kind": "fact",
-      "q": "Stage II hypertension (systolic / diastolic)",
+      "q": "Stage II hypertension, NICE 2011 (systolic / diastolic)",
       "a": "160-179 / 100-109 mm Hg",
       "refs": [
-        "KDT8 ch41"
+        "KDT8 ch41",
+        "GG14 ch32"
       ]
     },
     {
@@ -4656,9 +4663,10 @@
       "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "kind": "fact",
       "q": "Stepped care step 4: resistant hypertension, fourth drug",
-      "a": "Aldosterone antagonist (K+ below 4.5), higher-dose thiazide (K+ above 4.5), beta blocker or alpha1 blocker",
+      "a": "NICE 2011: aldosterone antagonist (K+ below 4.5) or higher-dose thiazide (K+ above 4.5); ESC 2018: spironolactone 25-50 mg/day, or another diuretic, alpha-1 or beta blocker",
       "refs": [
-        "KDT8 ch41"
+        "KDT8 ch41",
+        "GG14 ch32"
       ]
     },
     {
@@ -5866,9 +5874,11 @@
       "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "kind": "fact",
       "q": "Aspirin dose in pregnancy to reduce pre-eclampsia",
-      "a": "80-100 mg/day from 12th week of gestation",
+      "a": "KDT: 80-100 mg/day from 12th week to delivery; GG14: 81 or 100 mg started early (reduces preterm pre-eclampsia)",
       "refs": [
-        "KDT8 ch41"
+        "KDT8 ch41",
+        "GG14 ch32",
+        "GG14 ch42"
       ]
     },
     {
@@ -6419,6 +6429,39 @@
       "a": "Hyperadrenergic state; reduced plasma volume (despite oedema); raised vascular resistance",
       "refs": [
         "KDT8 ch41"
+      ]
+    },
+    {
+      "id": "rf-p2-arrhythmia-angina-htn-0643",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "kind": "fact",
+      "q": "IV drug that prevents torsades recurrence even with normal serum magnesium",
+      "a": "Magnesium sulfate 1-2 g IV",
+      "refs": [
+        "KDT8 ch39",
+        "GG14 ch34"
+      ]
+    },
+    {
+      "id": "rf-p2-arrhythmia-angina-htn-0644",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "kind": "fact",
+      "q": "ACC/AHA 2017 threshold and target for hypertension",
+      "a": "Hypertension from 130/80 mm Hg; target below 130/80 (stage 1: 130-139/80-89)",
+      "refs": [
+        "KDT8 ch41",
+        "GG14 ch32"
+      ]
+    },
+    {
+      "id": "rf-p2-arrhythmia-angina-htn-0645",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "kind": "fact",
+      "q": "ESC 2018 initial drug therapy for most hypertensives",
+      "a": "Single-pill two-drug combination: ACE inhibitor or ARB plus CCB or diuretic",
+      "refs": [
+        "KDT8 ch41",
+        "GG14 ch32"
       ]
     }
   ]

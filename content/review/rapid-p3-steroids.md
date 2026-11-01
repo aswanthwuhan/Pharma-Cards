@@ -48,3 +48,17 @@ None corrected.
 | **total** | **464 (25 class)** |
 
 Refs: gc-pharmacology and gc-clinical cite `KDT8 ch20`; androgens and ed cite `KDT8 ch21`; estrogen-progestin, modulators and contraception cite `KDT8 ch22`; uterine cites `KDT8 ch23`.
+
+## Reconciled with study deck
+
+Rapid cards aligned with corrections in content/review/p3-steroids.md (newest book wins, GROUNDING-RULES rule 4).
+
+| id | change | ref |
+|---|---|---|
+| rf-p3-steroids-0084 | updated: Corticoid given to mother to mature fetal lungs => Betamethasone 12 mg i.m., two doses 18-24 hours apart, when delivery is expected before 34 weeks | KDT8 ch20, Katzung16 ch39 |
+| rf-p3-steroids-0348 | updated: Mifepristone-misoprostol kit for medical abortion (up to 49 days): how it is taken => Day 1: mifepristone three 200 mg tablets (600 mg); day 3: misoprostol two 200 microgram tablets (400 micrograms) | KDT8 ch22, GG14 ch48, Katzung16 ch40 |
+| rf-p3-steroids-0427 | updated: Oxytocin dose for postpartum haemorrhage and caesarean => KDT: 5 IU i.m. or by i.v. infusion; GG14: 10 units i.m. after delivery | KDT8 ch23, KDT8 ch13, GG14 ch46 |
+| rf-p3-steroids-0458 | updated: Indomethacin (COX inhibitor) as a tocolytic => Used off-label (GG14); avoid beyond 32 weeks (ductus closure); courses under 72 hours safer | KDT8 ch23, GG14 ch48, GG14 ch46 |
+| rf-p3-steroids-0465 | added: Ovulation induction in PCOS: drug with higher pregnancy and live-birth rate than clomiphene (GG14) => Letrozole (KDT: India banned it for ovulation induction in 2011) | KDT8 ch22, GG14 ch48 |
+| rf-p3-steroids-0466 | added: Gap before nitrates after a PDE-5 inhibitor => 24 hours after sildenafil; up to 3 days after tadalafil (GG14: over 24 hours, especially tadalafil) | KDT8 ch21, GG14 ch31 |
+| rf-p3-steroids-0467 | added: Second-generation nonsteroidal androgen receptor antagonists for prostate cancer: list => Enzalutamide, apalutamide, darolutamide | GG14 ch73, GG14 ch50 |

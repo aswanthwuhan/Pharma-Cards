@@ -282,3 +282,17 @@ rf-p3-calcium-0267 | ok | KDT8 ch24
 rf-p3-calcium-0268 | ok | KDT8 ch24
 
 - Orchestrator: added rf-p3-calcium-0269 (teriparatide 20 µg s.c. daily) from GG14 ch52, already confirmed by the study-deck validator (KDT8 misprints mg).
+
+## Reconciled with study deck
+
+Rapid cards aligned with corrections in content/review/p3-calcium.md (newest book wins, GROUNDING-RULES rule 4).
+
+| id | change | ref |
+|---|---|---|
+| rf-p3-calcium-0134 | updated: Cinacalcet dosing in secondary hyperparathyroidism => Start 30 mg once daily; titrate to a maximum of 180 mg/day | KDT8 ch24, GG14 ch52, Katzung16 ch42 |
+| rf-p3-calcium-0137 | updated: Teriparatide: how it differs from antiresorptive osteoporosis drugs => Stimulates new bone formation (antiresorptives only check resorption) | KDT8 ch24, GG14 ch52, Katzung16 ch42 |
+| rf-p3-calcium-0249 | updated: Diuretic added after volume repletion in hypercalcaemia => Furosemide, to enhance calcium excretion; benefit not proven | KDT8 ch24, Katzung16 ch42 |
+| rf-p3-calcium-0262 | updated: Paget's disease: oral bisphosphonate course length => Not longer than 6 months; courses may be repeated after a gap | KDT8 ch24, GG14 ch52 |
+| rf-p3-calcium-0270 | added: Zoledronate regimen in Paget's disease => Single 5 mg i.v. infusion; high, long-lasting response | KDT8 ch24, GG14 ch52 |
+| rf-p3-calcium-0271 | added: Denosumab: effect of stopping it => Surge (rebound) of bone resorption | KDT8 ch24, Katzung16 ch42 |
+| rf-p3-calcium-0272 | added: Atypical femoral fracture with long-term bisphosphonates: site, and suggested response => Low-trauma subtrochanteric fracture; drug holiday after about 5 years if possible | Katzung16 ch42 |

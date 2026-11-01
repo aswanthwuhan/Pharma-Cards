@@ -1,0 +1,156 @@
+# Rapid review log: p1-interactions
+
+Grounded against the owner books per GROUNDING-RULES.md. Source chapter: KDT8 ch71 (syllabus refs). OCR review books (Prep, RR5, Sarkar) used only for added exam points; KDT8 wins on conflict. Cross-check against GG14 ch5 and KDT8 ch3 done for grapefruit/terfenadine (study deck card p1-interactions-013 refs kept). No WebSearch needed: no statement was found to be wrong.
+
+Totals: 133 cards, 27 class cards. Corrected: 1. Deleted: 0.
+
+## Corrections and omissions
+- rf-p1-interactions-0106: allopurinol dose cut. Prep p606-610 (75%) conflicts with KDT8 ch71 (1/3). KDT8 used.
+- Omitted: Prep p31-35 says enzyme induction from chronic alcohol takes about 1 week. KDT8 ch71 says 1-2 weeks. KDT8 used; the Prep figure is not on a card.
+- Omitted: Prep p31-35 CYP inhibitor mnemonic COKE IVC GAR (OCR garbled, not legible).
+- Omitted: Prep p476-480 OCP interaction table and Prep p296-300 lithium section (OCR garbled).
+- Omitted: study-deck points not in ch71 (herbal products, sedating antihistamine examples beyond ch71 text).
+- Table 71.1 rows 13-15, 21 and 29 are split across columns in the PDF. Cards 0097, 0109 and 0113 follow the printed pairing as closely as the layout allows.
+
+## Card status
+
+| id | status | source |
+|---|---|---|
+| rf-p1-interactions-0001 | ok | KDT8 ch71 |
+| rf-p1-interactions-0002 | ok | KDT8 ch71 |
+| rf-p1-interactions-0003 | ok | KDT8 ch71 |
+| rf-p1-interactions-0004 | ok | KDT8 ch71 |
+| rf-p1-interactions-0005 | ok | KDT8 ch71 |
+| rf-p1-interactions-0006 | ok | KDT8 ch71 |
+| rf-p1-interactions-0007 | ok | KDT8 ch71 |
+| rf-p1-interactions-0008 | ok | KDT8 ch71 |
+| rf-p1-interactions-0009 | ok | KDT8 ch71 |
+| rf-p1-interactions-0010 | ok | KDT8 ch71 |
+| rf-p1-interactions-0011 | ok | KDT8 ch71 |
+| rf-p1-interactions-0012 | ok | KDT8 ch71 |
+| rf-p1-interactions-0013 | ok | KDT8 ch71 |
+| rf-p1-interactions-0014 | ok | KDT8 ch71 |
+| rf-p1-interactions-0015 | ok | KDT8 ch71 |
+| rf-p1-interactions-0016 | ok | KDT8 ch71 |
+| rf-p1-interactions-0017 | ok | KDT8 ch71 |
+| rf-p1-interactions-0018 | ok | KDT8 ch71 |
+| rf-p1-interactions-0019 | ok | KDT8 ch71 |
+| rf-p1-interactions-0020 | ok | Sarkar p71-75 |
+| rf-p1-interactions-0021 | ok | Sarkar p111-115 |
+| rf-p1-interactions-0022 | ok | Sarkar p111-115 |
+| rf-p1-interactions-0023 | ok | KDT8 ch71 |
+| rf-p1-interactions-0024 | ok | KDT8 ch71 |
+| rf-p1-interactions-0025 | ok | KDT8 ch71 |
+| rf-p1-interactions-0026 | ok | KDT8 ch71 |
+| rf-p1-interactions-0027 | ok | KDT8 ch71 |
+| rf-p1-interactions-0028 | ok | KDT8 ch71 |
+| rf-p1-interactions-0029 | ok | KDT8 ch71 |
+| rf-p1-interactions-0030 | ok | KDT8 ch71 |
+| rf-p1-interactions-0031 | ok | KDT8 ch71 |
+| rf-p1-interactions-0032 | ok | KDT8 ch71 |
+| rf-p1-interactions-0033 | ok | KDT8 ch71 |
+| rf-p1-interactions-0034 | ok | KDT8 ch71 |
+| rf-p1-interactions-0035 | ok | KDT8 ch71 |
+| rf-p1-interactions-0036 | ok | KDT8 ch71 |
+| rf-p1-interactions-0037 | ok | KDT8 ch71 |
+| rf-p1-interactions-0038 | ok | Prep p21-25 |
+| rf-p1-interactions-0039 | ok | Prep p26-30 |
+| rf-p1-interactions-0040 | ok | Prep p26-30 |
+| rf-p1-interactions-0041 | ok | RR5 p26-30 |
+| rf-p1-interactions-0042 | ok | KDT8 ch71 |
+| rf-p1-interactions-0043 | ok | KDT8 ch71 |
+| rf-p1-interactions-0044 | ok | KDT8 ch71 |
+| rf-p1-interactions-0045 | ok | KDT8 ch71 |
+| rf-p1-interactions-0046 | ok | KDT8 ch71 |
+| rf-p1-interactions-0047 | ok | KDT8 ch71 |
+| rf-p1-interactions-0048 | ok | KDT8 ch71 |
+| rf-p1-interactions-0049 | ok | KDT8 ch71 |
+| rf-p1-interactions-0050 | ok | KDT8 ch71 |
+| rf-p1-interactions-0051 | ok | KDT8 ch71 |
+| rf-p1-interactions-0052 | ok | RR5 p1-5 |
+| rf-p1-interactions-0053 | ok | KDT8 ch71 |
+| rf-p1-interactions-0054 | ok | KDT8 ch71 |
+| rf-p1-interactions-0055 | ok | KDT8 ch71 |
+| rf-p1-interactions-0056 | ok | KDT8 ch71 |
+| rf-p1-interactions-0057 | ok | KDT8 ch71 |
+| rf-p1-interactions-0058 | ok | KDT8 ch71 |
+| rf-p1-interactions-0059 | ok | KDT8 ch71 |
+| rf-p1-interactions-0060 | ok | KDT8 ch71 |
+| rf-p1-interactions-0061 | ok | KDT8 ch71 |
+| rf-p1-interactions-0062 | ok | KDT8 ch71 |
+| rf-p1-interactions-0063 | ok | Prep p6-10 |
+| rf-p1-interactions-0064 | ok | Prep p6-10 |
+| rf-p1-interactions-0065 | ok | Prep p6-10 |
+| rf-p1-interactions-0066 | ok | Prep p6-10 |
+| rf-p1-interactions-0067 | ok | KDT8 ch71 |
+| rf-p1-interactions-0068 | ok | KDT8 ch71 |
+| rf-p1-interactions-0069 | ok | Prep p31-35 |
+| rf-p1-interactions-0070 | ok | Prep p366-370 |
+| rf-p1-interactions-0071 | ok | Prep p366-370 |
+| rf-p1-interactions-0072 | ok | Prep p366-370 |
+| rf-p1-interactions-0073 | ok | Prep p396-400 |
+| rf-p1-interactions-0074 | ok | Prep p396-400 |
+| rf-p1-interactions-0075 | ok | Prep p261-265 |
+| rf-p1-interactions-0076 | ok | Prep p261-265 |
+| rf-p1-interactions-0077 | ok | KDT8 ch71 |
+| rf-p1-interactions-0078 | ok | KDT8 ch71 |
+| rf-p1-interactions-0079 | ok | KDT8 ch71 |
+| rf-p1-interactions-0080 | ok | KDT8 ch71 |
+| rf-p1-interactions-0081 | ok | KDT8 ch71 |
+| rf-p1-interactions-0082 | ok | KDT8 ch71 |
+| rf-p1-interactions-0083 | ok | KDT8 ch71 |
+| rf-p1-interactions-0084 | ok | KDT8 ch71 |
+| rf-p1-interactions-0085 | ok | KDT8 ch71 |
+| rf-p1-interactions-0086 | ok | KDT8 ch71 |
+| rf-p1-interactions-0087 | ok | KDT8 ch71 |
+| rf-p1-interactions-0088 | ok | KDT8 ch71 |
+| rf-p1-interactions-0089 | ok | KDT8 ch71 |
+| rf-p1-interactions-0090 | ok | KDT8 ch71 |
+| rf-p1-interactions-0091 | ok | KDT8 ch71 |
+| rf-p1-interactions-0092 | ok | KDT8 ch71 |
+| rf-p1-interactions-0093 | ok | KDT8 ch71 |
+| rf-p1-interactions-0094 | ok | KDT8 ch71 |
+| rf-p1-interactions-0095 | ok | KDT8 ch71 |
+| rf-p1-interactions-0096 | ok | KDT8 ch71 |
+| rf-p1-interactions-0097 | ok | KDT8 ch71 |
+| rf-p1-interactions-0098 | ok | KDT8 ch71 |
+| rf-p1-interactions-0099 | ok | KDT8 ch71 |
+| rf-p1-interactions-0100 | ok | KDT8 ch71 |
+| rf-p1-interactions-0101 | ok | KDT8 ch71 |
+| rf-p1-interactions-0102 | ok | KDT8 ch71 |
+| rf-p1-interactions-0103 | ok | KDT8 ch71 |
+| rf-p1-interactions-0104 | ok | KDT8 ch71 |
+| rf-p1-interactions-0105 | ok | KDT8 ch71 |
+| rf-p1-interactions-0106 | corrected | KDT8 ch71 |
+| rf-p1-interactions-0107 | ok | KDT8 ch71 |
+| rf-p1-interactions-0108 | ok | KDT8 ch71 |
+| rf-p1-interactions-0109 | ok | KDT8 ch71 |
+| rf-p1-interactions-0110 | ok | KDT8 ch71 |
+| rf-p1-interactions-0111 | ok | KDT8 ch71 |
+| rf-p1-interactions-0112 | ok | KDT8 ch71 |
+| rf-p1-interactions-0113 | ok | KDT8 ch71 |
+| rf-p1-interactions-0114 | ok | Prep p491-495 |
+| rf-p1-interactions-0115 | ok | KDT8 ch33 |
+| rf-p1-interactions-0116 | ok | Prep p306-310 |
+| rf-p1-interactions-0117 | ok | Prep p306-310 |
+| rf-p1-interactions-0118 | ok | Prep p306-310 |
+| rf-p1-interactions-0119 | ok | Prep p306-310 |
+| rf-p1-interactions-0120 | ok | KDT8 ch33 |
+| rf-p1-interactions-0121 | ok | Prep p31-35 |
+| rf-p1-interactions-0122 | ok | GG14 ch5, KDT8 ch3 |
+| rf-p1-interactions-0123 | ok | GG14 ch5, KDT8 ch3 |
+| rf-p1-interactions-0124 | ok | KDT8 ch71 |
+| rf-p1-interactions-0125 | ok | KDT8 ch71 |
+| rf-p1-interactions-0126 | ok | KDT8 ch71 |
+| rf-p1-interactions-0127 | ok | KDT8 ch71 |
+| rf-p1-interactions-0128 | ok | KDT8 ch71 |
+| rf-p1-interactions-0129 | ok | KDT8 ch71 |
+| rf-p1-interactions-0130 | ok | KDT8 ch71 |
+| rf-p1-interactions-0131 | ok | KDT8 ch71 |
+| rf-p1-interactions-0132 | ok | KDT8 ch71 |
+| rf-p1-interactions-0133 | ok | Sarkar p436-440 |
+
+## Still needs a human check
+- None blocking. Verify rows 0097, 0109, 0113 against the printed Table 71.1 if exactness matters.
+
+- Orchestrator spot-check vs KDT8 Table 71.1: 0097 (row 29), 0109, 0113 (NSAID + alcohol/corticosteroid: "Concurrent use contraindicated") match the printed rows.

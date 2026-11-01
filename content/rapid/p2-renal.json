@@ -33,7 +33,7 @@
     {"id":"rf-p2-renal-0030","subtopic":"p2-renal-overview","kind":"fact","q":"Groups needing K+ monitoring on diuretics","a":"Cirrhotics, post-MI patients, those on digoxin, antiarrhythmics or tricyclics, elderly","refs":["KDT8 ch42"]},
     {"id":"rf-p2-renal-0031","subtopic":"p2-renal-overview","kind":"fact","q":"Acute saline depletion from over-enthusiastic diuresis","a":"Dehydration and postural fall in BP; Na+ and Cl- normal; treat with saline infusion","refs":["KDT8 ch42"]},
     {"id":"rf-p2-renal-0032","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic haemoconcentration risk","a":"Peripheral venous thrombosis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0033","subtopic":"p2-renal-overview","kind":"fact","q":"Dilutional hyponatraemia with high ceiling diuretics","a":"Water retained, ECF diluted, oedema persists; rare with thiazides","refs":["KDT8 ch42"]},
+    {"id":"rf-p2-renal-0033","subtopic":"p2-renal-overview","kind":"fact","q":"Dilutional hyponatraemia with high ceiling diuretics","a":"Water retained, ECF diluted, oedema persists (heart failure); hyponatraemia overall is more common with thiazides","refs":["KDT8 ch42","Katzung16 ch15","GG14 ch29"]},
     {"id":"rf-p2-renal-0034","subtopic":"p2-renal-overview","kind":"fact","q":"Treatment of dilutional hyponatraemia","a":"Withhold diuretic, restrict water, give glucocorticoid, correct hypokalaemia","refs":["KDT8 ch42"]},
     {"id":"rf-p2-renal-0035","subtopic":"p2-renal-overview","kind":"fact","q":"Hypocalcaemia with diuretics","a":"Chronic high ceiling use; thiazides tend to raise serum Ca2+","refs":["KDT8 ch42"]},
     {"id":"rf-p2-renal-0036","subtopic":"p2-renal-overview","kind":"fact","q":"Magnesium depletion with diuretics","a":"After prolonged thiazide or loop use; raises arrhythmia risk; K+-sparing diuretics minimise it","refs":["KDT8 ch42"]},
@@ -109,7 +109,7 @@
     {"id":"rf-p2-renal-0106","subtopic":"p2-renal-loop","kind":"fact","q":"Torasemide doses","a":"2.5-5 mg OD in hypertension; 5-20 mg/day in oedema; up to 100 mg BD in renal failure","refs":["KDT8 ch42"]},
     {"id":"rf-p2-renal-0107","subtopic":"p2-renal-loop","kind":"fact","q":"Drug of choice for resistant nephrotic and other oedema","a":"High ceiling (loop) diuretics","refs":["KDT8 ch42"]},
     {"id":"rf-p2-renal-0108","subtopic":"p2-renal-loop","kind":"fact","q":"Loop diuretics in chronic renal failure","a":"Massive doses needed, but effective when thiazides are not","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0109","subtopic":"p2-renal-loop","kind":"fact","q":"Loop diuretics in impending acute renal failure","a":"May decrease the need for dialysis","refs":["KDT8 ch42"]},
+    {"id":"rf-p2-renal-0109","subtopic":"p2-renal-loop","kind":"fact","q":"Loop diuretics in impending acute renal failure","a":"Help short-term fluid management but do not change long-term outcome","refs":["KDT8 ch42","Katzung16 ch15","GG14 ch29"]},
     {"id":"rf-p2-renal-0110","subtopic":"p2-renal-loop","kind":"fact","q":"Drug of choice for acute pulmonary oedema","a":"Intravenous furosemide or congeners; venodilatation acts before saluresis","refs":["KDT8 ch42"]},
     {"id":"rf-p2-renal-0111","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide with an osmotic diuretic in cerebral oedema","a":"Furosemide may be combined with osmotic diuretics to improve efficacy","refs":["KDT8 ch42"]},
     {"id":"rf-p2-renal-0112","subtopic":"p2-renal-loop","kind":"fact","q":"Hypertension indications for high ceiling diuretics","a":"Renal insufficiency, heart failure, resistant cases, hypertensive emergencies","refs":["KDT8 ch42"]},
@@ -377,6 +377,9 @@
     {"id":"rf-p2-renal-0374","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Most frequent adverse effect of tolvaptan","a":"Thirst and dry mouth; also fever, GI upset, hyperglycaemia","refs":["KDT8 ch43"]},
     {"id":"rf-p2-renal-0375","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Risk of rapid hyponatraemia correction with tolvaptan","a":"Thrombotic complications from haemoconcentration; correct slowly","refs":["KDT8 ch43"]},
     {"id":"rf-p2-renal-0376","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Metabolism and interactions of tolvaptan","a":"CYP3A4; should not be given with CYP3A4 inhibitors","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0377","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Half-life and dosing of tolvaptan","a":"6-8 hours; given once daily","refs":["KDT8 ch43"]}
+    {"id":"rf-p2-renal-0377","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Half-life and dosing of tolvaptan","a":"6-8 hours; given once daily","refs":["KDT8 ch43"]},
+    {"id":"rf-p2-renal-0378","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Renal adverse effects of acetazolamide","a":"Calcium phosphate stones; rarely acute kidney injury from crystals in alkaline urine","refs":["KDT8 ch42","Katzung16 ch15"]},
+    {"id":"rf-p2-renal-0379","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Tolvaptan use in autosomal dominant polycystic kidney disease, and its risk at those doses","a":"Slows kidney enlargement and loss of function; liver test abnormalities in about 9%","refs":["KDT8 ch43","Katzung16 ch15"]},
+    {"id":"rf-p2-renal-0380","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Nonsteroidal MR antagonist with minimal hormonal effects, used in CKD with type 2 diabetes","a":"Finerenone (main risk hyperkalaemia)","refs":["GG14 ch29"]}
   ]
 }

@@ -3,10 +3,11 @@ import { beforeEach, describe, expect, it } from "vitest";
 import bundled from "../content/all.json";
 import { db } from "../lib/db";
 import { recordReview, undoReview } from "../lib/srs";
-import { buildQueue, computeMastery } from "../lib/store";
+import { buildQueue, computeMastery, isRapid } from "../lib/store";
 import type { FlashCard } from "../lib/types";
 
-const CARDS = bundled as FlashCard[];
+// Study cards only: Rapid Fire cards never enter normal sessions or mastery.
+const CARDS = (bundled as FlashCard[]).filter((c) => !isRapid(c));
 const card = CARDS[0];
 
 beforeEach(async () => {
