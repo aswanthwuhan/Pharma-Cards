@@ -108,3 +108,14 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | p3-clinical-services-048 | web | https://europepmc.org/article/PMC/PMC13312064 |
 | p3-clinical-services-049 | web | https://europepmc.org/article/PMC/PMC13312064 |
 | p3-clinical-services-050 | web | https://europepmc.org/article/PMC/PMC13312064 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: Prescription-audit method (planning, sampling, scoring, feedback, re-audit). Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check; rows marked `ok` are fully book-sourced.
+
+| id | status | source |
+|---|---|---|
+| p3-clinical-services-051 | unsourced | UNSOURCED - owner must verify |
+| p3-clinical-services-052 | unsourced | UNSOURCED - owner must verify |
+| p3-clinical-services-053 | unsourced | UNSOURCED - owner must verify |
+| p3-clinical-services-054 | unsourced | UNSOURCED - owner must verify |

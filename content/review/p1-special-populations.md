@@ -115,3 +115,13 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | p1-special-populations-065 | web | https://europepmc.org/article/PMC/PMC12999791 |
 | p1-special-populations-066 | web | https://europepmc.org/article/PMC/PMC12999791 |
 | p1-special-populations-067 | web | https://europepmc.org/article/PMC/PMC12999791 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: General Child-Pugh dose-adjustment approach (no percentages); liver-disease points also in KDT8 ch5. Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check; rows marked `ok` are fully book-sourced.
+
+| id | status | source |
+|---|---|---|
+| p1-special-populations-068 | unsourced | UNSOURCED - owner must verify; KDT8 ch5 |
+| p1-special-populations-069 | unsourced | UNSOURCED - owner must verify; KDT8 ch5 |
+| p1-special-populations-070 | unsourced | UNSOURCED - owner must verify |

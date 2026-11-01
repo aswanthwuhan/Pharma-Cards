@@ -109,3 +109,17 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | rf-p2-herbal-0358 | web | https://europepmc.org/article/PMC/PMC13226798 |
 | rf-p2-herbal-0359 | web | https://europepmc.org/article/PMC/PMC13226798 |
 | rf-p2-herbal-0360 | web | https://europepmc.org/article/PMC/PMC13226798 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: AYUSH pharmacopoeia rules (API, UPI, SPI: scope and monograph content). No book in the OCR covers it (only the Indian Pharmacopoeia Commission appears). Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check.
+
+| id | status | source |
+|---|---|---|
+| rf-p2-herbal-0361 | unsourced | UNSOURCED - owner must verify |
+| rf-p2-herbal-0362 | unsourced | UNSOURCED - owner must verify |
+| rf-p2-herbal-0363 | unsourced | UNSOURCED - owner must verify |
+| rf-p2-herbal-0364 | unsourced | UNSOURCED - owner must verify |
+| rf-p2-herbal-0365 | unsourced | UNSOURCED - owner must verify |
+| rf-p2-herbal-0366 | unsourced | UNSOURCED - owner must verify |
+| rf-p2-herbal-0367 | unsourced | UNSOURCED - owner must verify |

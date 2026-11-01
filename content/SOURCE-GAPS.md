@@ -1,15 +1,19 @@
-# Syllabus points still without cards
+# Syllabus coverage notes
 
-Cards come from the owner's books (see `GROUNDING-RULES.md`). For points no book covers, the owner approved official web sources (2026-11-01); those cards cite `WEB …` refs and are flagged in each review log. The points below are still uncovered or only partly covered: no book covers them, and no official page could be read (the page was blocked, too large, or had a certificate error), or no open-access article stated the point.
+Every NMC syllabus topic, including the practical exam, now has cards. Sources, in order of preference (see `GROUNDING-RULES.md`):
 
-| Topic | Still missing | Why |
-|---|---|---|
-| Practical exam (placeholder paper "PR") | Long/short exercises, OSPE, teaching skills | Owner will add later |
-| p3-clinical-services | Prescription-audit sampling and scoring method | Not stated in the open-access articles read; WHO core indicators and crash-cart list/upkeep now covered (WEB, see review log) |
-| p3-national-programmes | NVHCP regimens; NCVBDC malaria drug policy text | NVHCP articles describe one centre's regimens, not the programme's; no NCVBDC policy PDF found (only procurement PDFs); malaria covered only from an Indian review. NACO ART covered via a 2026 cohort stating the NACO regimen; naco.gov.in did not respond, so the NACO PDF was not read |
-| p3-research-biostats | Explicit sample-size formula with worked symbols | Factors and worked examples now covered (WEB, see review log); the guide's closed-form expression was not extracted intact |
-| p1-special-populations | General Child-Pugh dose-adjustment rule | Not stated in the source read: the 2026 expert panel gives stage-wise agreement only, not a general rule |
-| p2-herbal | AYUSH pharmacopoeia rules (API, UPI, SPI: scope and monograph content) | Pharmacopoeia names and monograph types covered from a 2026 review; the review does not state the rules of each pharmacopoeia, and ayush.gov.in was unreachable earlier |
+1. The owner's books (KDT8, GG14, Katzung16, Rang & Dale 9; Sarkar, Rapid Revision and Prep via OCR, cited by 5-page range).
+2. Official web sources where no book covers a point (owner approved 2026-11-01): refs start with `WEB`.
+3. Standard textbook knowledge where neither exists (owner approved 2026-11-02): refs are `UNSOURCED - owner must verify`.
 
-To fill these, put the document (PDF) in `C:\Pharmacology Book\` and the agents can write the cards from it.
-Per-topic details: `content/review/<topicId>.md` ("Completion pass", "Gap closure", "Web-sourced cards" sections).
+Cards in groups 2 and 3 are `draft` and listed in each topic's review log ("Web-sourced cards" and "Unsourced cards (owner approved)" sections) for the owner to check.
+
+Areas that rely mainly on group 3:
+- Practical exam: teaching-skills topic, parts of OSPE and bioassay methods (`pr-*`)
+- Prescription-audit method (p3-clinical-services)
+- NVHCP programme details (p3-national-programmes; malaria and hepatitis drug facts cite KDT8 ch61 and ch59)
+- Sample-size formulas and Z values (p3-research-biostats)
+- General Child-Pugh dosing approach (p1-special-populations)
+- AYUSH pharmacopoeias (p2-herbal)
+
+To replace an unsourced card with a sourced one, put the relevant PDF in `C:\Pharmacology Book\` and ask for the card to be re-grounded.

@@ -30,3 +30,9 @@ NMC (nmc.org.in), WHO, ICMR, CDSCO, Ministry of AYUSH, FSSAI, NTEP/NACO/NCVBDC (
 - `refs` format: `"WEB <org> <doc title or topic> <year if shown> <url>"`, e.g. `"WEB NMC AETCOM module 2018 https://..."`.
 - Add the tag set as usual; keep `status: "draft"`; the review log marks these rows `web` for the owner's review.
 - Everything else still follows the books-only rules above.
+
+## Exception: unsourced cards for the last gaps and the practical exam (owner approved, 2026-11-02)
+For the items still listed in `SOURCE-GAPS.md` and for the practical-exam topics (`pr-*`), the owner approved cards written from standard, well-established pharmacology knowledge.
+- `refs` must be exactly `["UNSOURCED - owner must verify"]` (plus any real book/WEB ref that supports part of the card).
+- Only uncontroversial, textbook-standard facts. No doses or numbers you are not certain of; prefer principles and steps.
+- `status: "draft"`; the review log lists every such id under "Unsourced cards (owner approved)".

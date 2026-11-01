@@ -147,3 +147,14 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | p3-research-biostats-061 | web | https://europepmc.org/article/PMC/PMC13562950 |
 | p3-research-biostats-062 | web | https://europepmc.org/article/PMC/PMC13562950 |
 | p3-research-biostats-063 | web | https://europepmc.org/article/PMC/PMC13562950 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: Sample-size formulas (two means, two proportions, single proportion) and Z values. Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check; rows marked `ok` are fully book-sourced.
+
+| id | status | source |
+|---|---|---|
+| p3-research-biostats-064 | unsourced | UNSOURCED - owner must verify |
+| p3-research-biostats-065 | unsourced | UNSOURCED - owner must verify |
+| p3-research-biostats-066 | unsourced | UNSOURCED - owner must verify |
+| p3-research-biostats-067 | unsourced | UNSOURCED - owner must verify |

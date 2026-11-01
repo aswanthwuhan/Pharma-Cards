@@ -1248,6 +1248,96 @@
       "tags": [
         "uses"
       ]
+    },
+    {
+      "id": "p3-research-biostats-064",
+      "type": "shortnote",
+      "front": "Short note: Sample-size formulas for comparing two groups",
+      "sections": [
+        {
+          "h": "Two means (per group)",
+          "points": [
+            "n = 2 (Zα/2 + Zβ)² σ² / d²",
+            "σ = standard deviation of the outcome; d = smallest clinically important difference in means"
+          ]
+        },
+        {
+          "h": "Two proportions (per group)",
+          "points": [
+            "n = (Zα/2 + Zβ)² [p1(1 − p1) + p2(1 − p2)] / (p1 − p2)²",
+            "p1, p2 = expected proportions in the two groups"
+          ]
+        },
+        {
+          "h": "Symbols",
+          "points": [
+            "Zα/2: standard normal value for the significance level (1.96 for two-sided α = 0.05)",
+            "Zβ: value for power (0.84 for 80%, 1.28 for 90%)",
+            "Effect size: difference to detect; standardised effect = d / σ"
+          ]
+        },
+        {
+          "h": "Adjustments",
+          "points": [
+            "Inflate for expected dropouts: n / (1 − dropout rate)",
+            "Formulas differ by design; use the one matching the study"
+          ]
+        }
+      ],
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-065",
+      "type": "basic",
+      "front": "How does each input change the required sample size?",
+      "back": "Larger SD raises n (n rises with σ²). Smaller difference to detect raises n (n rises with 1/d², so halving d quadruples n). Stricter significance level (smaller α) raises n. Higher power raises n. A one-sided test needs fewer subjects than a two-sided test. Expected dropouts require a larger starting sample.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-066",
+      "type": "cloze",
+      "front": "Complete: Z values in sample-size formulas",
+      "text": "For a two-sided α of 0.05, Zα/2 = {{1.96}}; for α of 0.01, Zα/2 = {{2.58}}. For 80% power, Zβ = {{0.84}}; for 90% power, Zβ = {{1.28}}.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-067",
+      "type": "basic",
+      "front": "Give the sample-size formula for estimating a single proportion (prevalence).",
+      "back": "n = Z² p (1 − p) / L², where Z = 1.96 for 95% confidence, p = expected prevalence and L = allowable absolute error (precision).",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ]
     }
   ]
 }

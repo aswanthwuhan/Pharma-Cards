@@ -77,3 +77,18 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | rf-p3-clinical-services-0238 | web | https://europepmc.org/article/PMC/PMC13312064 |
 | rf-p3-clinical-services-0239 | web | https://europepmc.org/article/PMC/PMC13312064 |
 | rf-p3-clinical-services-0240 | web | https://europepmc.org/article/PMC/PMC13312064 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: Prescription-audit method (planning, sampling, scoring, feedback, re-audit). Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check; rows marked `ok` are fully book-sourced.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-clinical-services-0241 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-clinical-services-0242 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-clinical-services-0243 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-clinical-services-0244 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-clinical-services-0245 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-clinical-services-0246 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-clinical-services-0247 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-clinical-services-0248 | unsourced | UNSOURCED - owner must verify |

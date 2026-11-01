@@ -87,3 +87,18 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | rf-p1-special-populations-0280 | web | https://europepmc.org/article/PMC/PMC12999791 |
 | rf-p1-special-populations-0281 | web | https://europepmc.org/article/PMC/PMC12999791 |
 | rf-p1-special-populations-0282 | web | https://europepmc.org/article/PMC/PMC12999791 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: General Child-Pugh dose-adjustment approach (no percentages); liver-disease points also in KDT8 ch5. Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check; rows marked `ok` are fully book-sourced.
+
+| id | status | source |
+|---|---|---|
+| rf-p1-special-populations-0283 | unsourced | UNSOURCED - owner must verify |
+| rf-p1-special-populations-0284 | unsourced | UNSOURCED - owner must verify |
+| rf-p1-special-populations-0285 | unsourced | UNSOURCED - owner must verify |
+| rf-p1-special-populations-0286 | unsourced | UNSOURCED - owner must verify |
+| rf-p1-special-populations-0287 | unsourced | UNSOURCED - owner must verify |
+| rf-p1-special-populations-0288 | unsourced | UNSOURCED - owner must verify |
+| rf-p1-special-populations-0289 | unsourced | UNSOURCED - owner must verify |
+| rf-p1-special-populations-0290 | unsourced | UNSOURCED - owner must verify |

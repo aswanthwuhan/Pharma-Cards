@@ -102,3 +102,22 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | rf-p3-research-biostats-0155 | web | https://europepmc.org/article/PMC/PMC13562950 |
 | rf-p3-research-biostats-0156 | web | https://europepmc.org/article/PMC/PMC13562950 |
 | rf-p3-research-biostats-0157 | web | https://europepmc.org/article/PMC/PMC13562950 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: Sample-size formulas (two means, two proportions, single proportion) and Z values. Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check; rows marked `ok` are fully book-sourced.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-research-biostats-0158 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0159 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0160 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0161 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0162 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0163 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0164 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0165 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0166 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0167 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0168 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0169 | unsourced | UNSOURCED - owner must verify |

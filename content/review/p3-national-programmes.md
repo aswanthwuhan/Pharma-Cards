@@ -122,3 +122,16 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | p3-national-programmes-049 | web | https://europepmc.org/article/PMC/PMC12853776 |
 | p3-national-programmes-050 | web | https://europepmc.org/article/PMC/PMC12853776 |
 | p3-national-programmes-051 | web | https://europepmc.org/article/PMC/PMC12853776 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: NVHCP aims and structure (drug facts from KDT8 ch59) and the national malaria drug policy (from KDT8 ch61; the NCVBDC name is unsourced). Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check; rows marked `ok` are fully book-sourced.
+
+| id | status | source |
+|---|---|---|
+| p3-national-programmes-052 | unsourced | UNSOURCED - owner must verify; KDT8 ch59 |
+| p3-national-programmes-053 | unsourced | UNSOURCED - owner must verify; KDT8 ch59 |
+| p3-national-programmes-054 | unsourced | KDT8 ch59; UNSOURCED - owner must verify |
+| p3-national-programmes-055 | ok | KDT8 ch61 |
+| p3-national-programmes-056 | ok | KDT8 ch61 |
+| p3-national-programmes-057 | unsourced | KDT8 ch61; UNSOURCED - owner must verify |

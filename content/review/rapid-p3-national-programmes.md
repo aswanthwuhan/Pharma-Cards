@@ -90,3 +90,26 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | rf-p3-national-programmes-0156 | web | https://europepmc.org/article/PMC/PMC12853776 |
 | rf-p3-national-programmes-0157 | web | https://europepmc.org/article/PMC/PMC12853776 |
 | rf-p3-national-programmes-0158 | web | https://europepmc.org/article/PMC/PMC12853776 |
+
+## Unsourced cards (owner approved, 2026-11-02)
+
+Gap from SOURCE-GAPS.md: NVHCP aims and structure (drug facts from KDT8 ch59) and the national malaria drug policy (from KDT8 ch61; the NCVBDC name is unsourced). Written under the GROUNDING-RULES "unsourced" exception; all `draft`. Rows marked `unsourced` cite "UNSOURCED - owner must verify" and need the owner's check; rows marked `ok` are fully book-sourced.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-national-programmes-0159 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-national-programmes-0160 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-national-programmes-0161 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-national-programmes-0162 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-national-programmes-0163 | unsourced | UNSOURCED - owner must verify; KDT8 ch59 |
+| rf-p3-national-programmes-0164 | ok | KDT8 ch59 |
+| rf-p3-national-programmes-0165 | ok | KDT8 ch59 |
+| rf-p3-national-programmes-0166 | unsourced | UNSOURCED - owner must verify |
+| rf-p3-national-programmes-0167 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0168 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0169 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0170 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0171 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0172 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0173 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0174 | ok | KDT8 ch61 |
