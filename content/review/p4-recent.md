@@ -36,3 +36,5 @@ Checked 30; corrected 27; deleted 0; added and kept 0. Cards now in deck: 30.
 | p4-recent-028 | corrected | GG14 ch39, Katzung16 ch36 (boxed warning per GG14 ch39; selectivity per GG14) |
 | p4-recent-029 | ok | GG14 ch72 |
 | p4-recent-030 | corrected | Katzung16 ch55, GG14 ch72 (secondary T-cell malignancy removed) |
+
+- Orchestrator: p4-recent-033 RapidRev5 ref removed (PrepLadder ban); re-grounded in KDT8 ch40 (PDF p612-613) and GG14 PDF p638; dropped unsupported "after MI" point.
