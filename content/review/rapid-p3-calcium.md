@@ -304,3 +304,11 @@ rf-p3-calcium-0145 | regrounded | GG14 PDF p1086 | -
 rf-p3-calcium-0203 | corrected | GG14 PDF p1086; GG14 PDF p166 | intertrochanteric and over-5-years wording not in books
 rf-p3-calcium-0243 | regrounded | KDT8 ch24; GG14 PDF p1083 | -
 rf-p3-calcium-0244 | corrected | KDT8 ch24; KDT8 PDF p385; GG14 PDF p1086 | book lists these uses; "drug of choice" wording dropped
+
+## Expansion pass (2026-11-02)
+
+Study deck: +27 cards (p3-calcium-029 to 055), mixed shortnote, basic, cloze and essay. Refs: KDT8 ch24 only.
+
+Rapid deck: +73 cards (rf-p3-calcium-0275 to 0347). Refs: KDT8 ch24 only. 58 candidate pairs were dropped as duplicates or near-duplicates of cards already in the deck.
+
+Sources: KDT8 ch24 was read in full. Katzung16 ch42 and GG14 ch52 were not re-read in this pass, so their points are not added. No book conflicts found within KDT8 ch24.

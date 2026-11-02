@@ -155,3 +155,17 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | p2-toxicology-051 | unsourced | none | Diazepam, lignocaine and IM adrenaline for scorpion sting not found in allowed books |
 | p2-toxicology-052 | corrected | KDT8 PDF p138; GG14 PDF p254; KDT8 PDF p132; KDT8 PDF p148; Satoskar PDF p472 | Neostigmine+atropine limited to cobra; krait paralysis is presynaptic (Satoskar p472); "drug of choice" changed to specific antivenom |
 | p2-toxicology-058 | corrected | KDT8 PDF p722; KDT8 PDF p112; Satoskar PDF p117 | Removed unsupported examples (cocaine, amphetamine) and aspiration claim; kerosene per Satoskar p117 |
+
+## Expansion pass (2026-11-02)
+
+Study deck: +29 cards (p2-toxicology-093 to 121): 12 shortnote, 9 basic, 4 cloze, 4 essay. Refs: Katzung16 ch57, Katzung16 ch58, KDT8 ch68. No WEB or UNSOURCED refs added.
+
+| id | status | source | note |
+| p2-toxicology-093 to 098 | ok | KDT8 ch68, Katzung16 ch57 | chelator shortnotes: dimercaprol, succimer, CaNa2EDTA, penicillamine, desferrioxamine, deferiprone and deferasirox |
+| p2-toxicology-099 to 104 | ok | Katzung16 ch57, KDT8 ch68 | chelator route, contraindications, timing, cloze and essay on chelation |
+| p2-toxicology-105 to 107 | ok | Katzung16 ch58 | pralidoxime, cyanide basic and shortnote |
+| p2-toxicology-108 to 121 | ok | Katzung16 ch58 | irritant gases, anticholinergic, dextrose and naloxone, toxidrome essay, focal seizure, haemodialysis, enhanced elimination, stimulants, serotonin, theophylline, rattlesnake, TCA cloze, fomepizole, opioid haemodialysis |
+
+Book conflicts: none found between Katzung16 and KDT8 ch68 on chelator doses. KDT8 ch68 is older and gives CaNa2EDTA 1 g twice daily for 3-5 days; the Katzung16 text gives no lead dose, so the KDT8 figure is used.
+
+> Note (2026-11-02): Prep/RR5 page refs mentioned above are historical. PrepLadder sources are banned; those refs were removed from the cards and re-grounded elsewhere or marked UNSOURCED.

@@ -75,3 +75,75 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 56 original, corrected: 
 ## Still needs a human check
 - Visceral leishmaniasis: KDT and GG14 both describe miltefosine as first line in India; the switch to single-dose liposomal amphotericin B is not printed in the books, so cards 038/040/042 keep the book position.
 - Severe malaria artesunate: GG14 defers to CDC guidelines without doses; KDT dosing kept.
+
+## Expansion pass (2026-11-02, Katzung16 ch52-53 added)
+
+Study +31 (ids 059-089, all draft). New subtopic `p3-antiparasitic-other-protozoa` (trypanosomiasis, Chagas, toxoplasmosis, Pneumocystis, other protozoa) added to `content/subtopics/p3-antiparasitic.json`. Five cards carry PYQ tags (UHSR 2025; RGUHS 2016, 2021, 2022; KNRUHS 2025) from `content/pyq/questions.json`. Q bank entries have no year, so they are not tagged.
+
+Sources: KDT8 ch61-63 (already checked), Katzung16 ch52 and ch53 (newly read). Refs are KDT8 ch61/ch62/ch63 and Katzung16 ch52/ch53.
+
+### Book conflicts (owner to decide; newest book is Katzung16 unless noted)
+- Praziquantel, schistosomiasis: KDT8 40-75 mg/kg (rapid 0464) vs Katzung16 20 mg/kg per dose, 2-3 doses. Katzung16 version added as a rapid card.
+- Praziquantel, neurocysticercosis: KDT8 50 mg/kg/day in 3 doses for 15-30 days (rapid 0465) vs Katzung16 100 mg/kg/day for 1 day, then 50 mg/kg/day.
+- Praziquantel, Hymenolepis nana: KDT8 15-25 mg/kg single dose (rapid 0463) vs Katzung16 25 mg/kg, repeated after 1 week.
+- Albendazole, taeniasis: KDT8 400 mg BD for 3 days (rapid 0412) vs Katzung16 400 mg daily for 3 days.
+- Albendazole, hookworm and trichuriasis: KDT8 single 400 mg dose (rapid 0411) vs Katzung16 400 mg daily for 3 days.
+- Albendazole, trichinosis: KDT8 400 mg BD for 3 days (rapid 0423) vs Katzung16 400 mg BD for 1-2 weeks. Candidate was dropped as a near-duplicate of 0423; not added.
+- Piperazine, ascariasis: KDT8 4 g daily for 2 days (rapid 0435) vs Katzung16 75 mg/kg daily for 2 days, maximum 3.5 g.
+- Ivermectin, onchocerciasis: rapid 0475 gives 0.2 mg/kg as the standard dose; Katzung16 gives 150 mcg/kg single dose for onchocerciasis. Katzung16 card added separately; 0475 left unchanged.
+- Sodium stibogluconate, visceral: KDT8 30 days (rapid 0360) vs Katzung16 28 days.
+- Tafenoquine: KDT8 (2017) "awaiting approval" (rapid 0134) vs Katzung16 approved 2018 for prophylaxis. Card added.
+- Artesunate, severe malaria: KDT8 IV for 7 days (rapid 0240) vs Katzung16 2.4 mg/kg q12h on day 1, then daily for 2 more days, then an oral course. Card added.
+- Quinine, uncomplicated falciparum: KDT8 600 mg 8-hourly for 7 days (rapid 0233) vs Katzung16 650 mg TID for 3 days with doxycycline 100 mg BD for 7 days. Card added.
+- Iodoquinol: KDT8 maximum 2 g/day for 14 days (rapid 0321) vs Katzung16 650 mg TID for 21 days. Card added.
+- Tinidazole, hepatic abscess: KDT8 3-6 days (rapid 0293) vs Katzung16 2 g daily for 5 days. Card added.
+- Metronidazole, liver abscess: KDT8 800 mg TDS for 7-10 days (rapid 0282) vs Katzung16 750 mg TID for 10 days. Card added.
+- Chloroquine, hepatic amoebiasis: KDT8 600 mg base then 300 mg daily for 2-3 weeks (rapid 0309) vs Katzung16 500 mg BD for 2 days, then 500 mg daily for 21 days. The extracted Katzung text does not state the salt basis; card written as printed.
+- Chloroquine 3-day course: Katzung16 1 g phosphate, then 500 mg at 6, 24 and 48 hours, gives the same total as KDT8 base dosing. Not a conflict; card added.
+- Intermittent preventive treatment in pregnancy: KDT8 one dose each in 2nd and 3rd trimesters vs Katzung16 three or more monthly doses after the first trimester in Africa. Both stated on the SP study card.
+- Dracunculus (guinea worm): rapid 0346 says no drug is effective (Harrison21, from the earlier correction). Katzung16 ch53 table lists metronidazole and thiabendazole or mebendazole. Not carded. Owner to check Harrison21 against Katzung16.
+
+### Not carded (layout unclear in extracted text)
+- Katzung16 table 52-6: which drugs apply to Balantidium, Cryptosporidium, Cyclospora and Dientamoeba (tetracycline, paromomycin, TMP-SMX, iodoquinol). Not carded.
+- Isospora belli mapped to TMP-SMX from the table row layout (inferred). Please check against the printed table.
+
+### Still needs a human check
+- Chloroquine salt basis in Katzung16 hepatic amoebiasis regimen.
+- Isospora mapping above.
+- Dracunculus conflict above.
+
+Study review rows for the new cards follow.
+
+| id | status | source |
+|---|---|---|
+| p3-antiparasitic-059 | ok | Katzung16 ch52 |
+| p3-antiparasitic-060 | ok | Katzung16 ch52 |
+| p3-antiparasitic-061 | ok | Katzung16 ch52 |
+| p3-antiparasitic-062 | ok | Katzung16 ch52 |
+| p3-antiparasitic-063 | ok | Katzung16 ch52 |
+| p3-antiparasitic-064 | ok | Katzung16 ch52, KDT8 ch61 |
+| p3-antiparasitic-065 | ok | Katzung16 ch52, Katzung16 ch53 |
+| p3-antiparasitic-066 | ok | Katzung16 ch52 |
+| p3-antiparasitic-067 | ok | Katzung16 ch52 |
+| p3-antiparasitic-068 | ok | Katzung16 ch52, KDT8 ch62 |
+| p3-antiparasitic-069 | ok | Katzung16 ch52, KDT8 ch62 |
+| p3-antiparasitic-070 | ok | Katzung16 ch52 |
+| p3-antiparasitic-071 | ok | KDT8 ch62 |
+| p3-antiparasitic-072 | ok | Katzung16 ch52, KDT8 ch62 |
+| p3-antiparasitic-073 | ok | Katzung16 ch52, KDT8 ch61 |
+| p3-antiparasitic-074 | ok | KDT8 ch61, Katzung16 ch52 |
+| p3-antiparasitic-075 | ok | KDT8 ch61 |
+| p3-antiparasitic-076 | ok | KDT8 ch61, Katzung16 ch52 |
+| p3-antiparasitic-077 | ok | KDT8 ch61, Katzung16 ch52 |
+| p3-antiparasitic-078 | ok | Katzung16 ch52 |
+| p3-antiparasitic-079 | ok | Katzung16 ch52 |
+| p3-antiparasitic-080 | ok | Katzung16 ch53, KDT8 ch63 |
+| p3-antiparasitic-081 | ok | Katzung16 ch53 |
+| p3-antiparasitic-082 | ok | Katzung16 ch53 |
+| p3-antiparasitic-083 | ok | Katzung16 ch53 |
+| p3-antiparasitic-084 | ok | Katzung16 ch53 |
+| p3-antiparasitic-085 | ok | Katzung16 ch53 |
+| p3-antiparasitic-086 | ok | Katzung16 ch53 |
+| p3-antiparasitic-087 | ok | Katzung16 ch53 |
+| p3-antiparasitic-088 | ok | Katzung16 ch53 |
+| p3-antiparasitic-089 | ok | Katzung16 ch53, KDT8 ch63 |

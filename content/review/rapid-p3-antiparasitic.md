@@ -82,3 +82,34 @@ rf-p3-antiparasitic-0391 | regrounded | KDT8 PDF p914; GG14 PDF p1331 | miltefos
 rf-p3-antiparasitic-0453 | regrounded | KDT8 ch63; KDT8 PDF p920; Katzung16 PDF p1007; GG14 PDF p1348 | albendazole DOC; ivermectin alternative
 rf-p3-antiparasitic-0454 | unsourced | UNSOURCED - owner must verify | no allowed book states albendazole for visceral larva migrans
 rf-p3-antiparasitic-0509 | corrected | Katzung16 PDF p1006 | dropped drug-of-choice wording; table lists albendazole or mebendazole by parasite
+
+## Expansion pass (2026-11-02, Katzung16 ch52-53 added)
+
+- Rapid +177: ids rf-p3-antiparasitic-0518 to 0694 (177 cards). Deck now 694 cards.
+- New subtopic `p3-antiparasitic-other-protozoa` (trypanosomiasis, Chagas, toxoplasmosis, Pneumocystis, babesiosis, isosporiasis, cryptosporidiosis, microsporidiosis). Subtopic list updated.
+- Sources: Katzung16 ch52 (antiprotozoal) and ch53 (anthelmintic) read in full for the gap topics; KDT8 ch62 and ch63 used for the rest. Five candidates were dropped as near-duplicates.
+- Existing cards were left as written. Where Katzung16 differs from KDT8, a Katzung16 card was added beside the KDT8 card. The owner should decide which value to keep.
+
+### Book conflicts (existing card id, then the other book)
+- 0464 praziquantel schistosomiasis (KDT8 40-75 mg/kg) vs Katzung16 20 mg/kg per dose (new card).
+- 0465 praziquantel neurocysticercosis vs Katzung16 100 mg/kg/day for 1 day, then 50 mg/kg/day (new card).
+- 0463 praziquantel H nana vs Katzung16 25 mg/kg repeated after 1 week (new card).
+- 0412 albendazole tapeworm (BD x3 d) vs Katzung16 daily x3 d (new card).
+- 0411 albendazole hookworm and whipworm (single dose) vs Katzung16 daily x3 d (new card).
+- 0423 albendazole trichinosis (3 d) vs Katzung16 1-2 weeks (not added; near-duplicate).
+- 0435 piperazine ascariasis (4 g/day x2 d) vs Katzung16 75 mg/kg/day x2 d, max 3.5 g (new card).
+- 0475 ivermectin standard 0.2 mg/kg vs Katzung16 onchocerciasis 150 mcg/kg (new card).
+- 0360 sodium stibogluconate 30 days (KDT8) vs Katzung16 28 days (Katzung16 card added).
+- 0134 tafenoquine awaiting approval (KDT8) vs Katzung16 approved 2018 (new card).
+- 0240 artesunate severe malaria 7 days (KDT8) vs Katzung16 3 days IV then oral (new card).
+- 0233 quinine 7-day course (KDT8) vs Katzung16 3-day quinine plus doxycycline 7 days (new card).
+- 0321 iodoquinol max 14 days (KDT8) vs Katzung16 650 mg TID 21 days (new card).
+- 0293 tinidazole hepatic abscess 3-6 days (KDT8) vs Katzung16 5 days (new card).
+- 0282 metronidazole liver abscess 800 mg TDS (KDT8) vs Katzung16 750 mg TID 10 days (new card).
+- 0309 chloroquine hepatic amoebiasis (KDT8 base dose, 2-3 weeks) vs Katzung16 500 mg BD x2 then daily x21 (new card; salt basis not printed in extract).
+- 0346 dracunculus: no effective drug (Harrison21, from earlier correction) vs Katzung16 ch53 table listing metronidazole and thiabendazole or mebendazole. Not carded; unresolved.
+
+### Not carded
+- Katzung16 table 52-6 drug-to-organism mapping for Balantidium, Cryptosporidium, Cyclospora, Dientamoeba: layout unclear in extract.
+- Isospora belli TMP-SMX row (inferred from layout): carded, owner to check.
+

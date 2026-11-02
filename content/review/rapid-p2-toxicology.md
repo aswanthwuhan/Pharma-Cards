@@ -150,3 +150,11 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | rf-p2-toxicology-0700 | corrected | KDT8 PDF p138; KDT8 PDF p132 | Limited to cobra; krait not covered |
 | rf-p2-toxicology-0701 | regrounded | KDT8 PDF p148; KDT8 PDF p138 | Limited to cobra |
 | rf-p2-toxicology-0710 | regrounded | KDT8 PDF p722; KDT8 PDF p112; Satoskar PDF p117 | KDT8 ch6 kept |
+
+## Expansion pass (2026-11-02)
+
+Rapid deck: +123 cards (rf-p2-toxicology-0731 to 0853). Refs: Katzung16 ch57, Katzung16 ch58, KDT8 ch68. No WEB or UNSOURCED refs added. 51 candidate pairs were dropped as duplicates or near-duplicates of cards already in the deck.
+
+Book conflicts: none found. KDT8 ch68 chelator doses are used only for the chelator cards, and Katzung16 ch57 and ch58 are used for the rest.
+
+> Note (2026-11-02): Prep/RR5 page refs mentioned above are historical. PrepLadder sources are banned; those refs were removed from the cards and re-grounded elsewhere or marked UNSOURCED.
