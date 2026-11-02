@@ -65,6 +65,11 @@ jobs:
         with: { distribution: temurin, java-version: 21 }
       - run: npm ci
       - run: npm run validate:content
+      # Same signing key as installs made from the dev PC, so the APK updates them in place.
+      - name: Restore signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_DEBUG_KEYSTORE_B64 }}
+        run: mkdir -p ~/.android && printf '%s' "$KEYSTORE_B64" | base64 -d > ~/.android/debug.keystore
       - run: npx next build && npx cap sync android
       - run: cd android && chmod +x gradlew && ./gradlew assembleDebug
       - run: mkdir -p release && cp android/app/build/outputs/apk/debug/app-debug.apk "release/Pharmacards-${GITHUB_REF_NAME#v}.apk"
