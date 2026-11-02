@@ -64,3 +64,7 @@ Checked against the GG14/Katzung corrections in `review/p2-psych.md`. Deck now 5
 ## Expansion pass (2026-11-02)
 - Rapid: +2 (last two ids in rapid deck). Refs KDT8 ch33.
 - Target NOT met: deck already covers the chapter; only name-level gaps added.
+
+## Expansion pass 2 (2026-11-02)
+- Rapid: +128 (rf-p2-psych-0525 onward): levodopa PK and actions, dopamine receptor families, carbidopa and benserazide, dopamine agonist data, selegiline and MAO-B, antipsychotic dates and receptor profile, per-drug potency and dose, clozapine monitoring, atypical dose ranges, MAO inhibitor and TCA facts, moclobemide, TCA overdose management, SSRI and serotonin syndrome, antidepressant classes. Deck now 651.
+- Target (+120) met: +128 added.

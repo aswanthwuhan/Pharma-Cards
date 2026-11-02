@@ -507,3 +507,10 @@ rf-p3-misc-0367 | corrected | KDT8 PDF p683 | stippled epiphyses not in books; f
 - rf-p3-misc-0494 → Adjuvant in the recombinant zoster vaccine → rapid pair for the new study card
 - rf-p3-misc-0495 → Recombinant zoster vaccine: doses and age → rapid pair for the new study card
 - rf-p3-misc-0496 → Virus targeted by the cervical cancer vaccine → rapid pair for the new study card
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 68 -> 74 (+6). Rapid cards: 495 -> 550 (+55). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: No conflicts logged. Vitamin E antioxidant trials (KDT8 ch69) show no benefit, and this is kept.
+- Unsourced cards in this pass: none.

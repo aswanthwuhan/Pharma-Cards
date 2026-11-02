@@ -66,3 +66,10 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 50 original, corrected: 
 - Checked: drug names in KDT8 ch29-30 against the deck (phenobarbitone, zolpidem, zaleplon, pentobarbitone, ethosuximide, PTZ model all present). Remaining names not carded (brivaracetam, felbamate, buspirone, meprobamate, cenobamate, etc.) do not appear in KDT8 ch29-30 text.
 - Target NOT met: chapters already carded; no grounded gap found. No cards added (no padding).
 - Book conflicts: none checked.
+
+## Expansion pass 2 (2026-11-02)
+- Study: +31 (p2-sedatives-aed-055 onward): sleep stages and drug effects, barbiturate actions and mechanism, barbiturate poisoning and dialysis, enzyme induction, BZD receptor and subtypes, BZD pharmacokinetics and hypnotic choice, triazolam and midazolam, BZD adverse effects, diazepam, epilepsy classification and drug choice, experimental models, phenytoin (mechanism, PK, toxicity, interactions, fosphenytoin), carbamazepine and its interactions, oxcarbazepine and eslicarbazepine, valproate, phenobarbitone, ethosuximide, clonazepam and clobazam, primidone, diazepam in emergencies. Deck now 85.
+- Sources: KDT8 ch29 and ch30 (text read in full).
+- PYQ questions: none matched individually this pass.
+- Target (+30) met for study (+31).
+- Book conflicts: none found.

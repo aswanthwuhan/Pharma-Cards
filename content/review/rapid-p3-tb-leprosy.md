@@ -412,3 +412,10 @@ Totals: 385 cards; 31 class cards.
 ## PrepLadder removal and PDF re-grounding (2026-11-02)
 
 rf-p3-tb-leprosy-0042 | unsourced | UNSOURCED - owner must verify | pyridoxine as isoniazid antidote not found in allowed books
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 54 -> 65 (+11). Rapid cards: 401 -> 458 (+57). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: No conflicts. RNTCP 2016 regimens (KDT8 ch56) added for RR-TB, mono- and poly-drug resistance.
+- Unsourced cards in this pass: none.

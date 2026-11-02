@@ -74,3 +74,10 @@ Grounding re-check under GROUNDING-RULES.md. Cards now in deck: 57. Corrected: 2
 ## PYQ tagging and new cards (2026-11-02)
 - p3-cancer-immuno-060 → PYQ tags added (Immunostimulants) → existing refs
 - p3-cancer-immuno-033 → PYQ tags added (Monoclonal antibodies in cancer chemotherapy) → existing refs
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 61 -> 68 (+7). Rapid cards: 382 -> 427 (+45). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: Levamisole: KDT8 ch63 says repeated doses cause severe reactions; used for immunomodulation only historically. Immunomodulators card cites KDT8 ch63, ch65 and GG14 p87 (JAK inhibitors).
+- Unsourced cards in this pass: none.

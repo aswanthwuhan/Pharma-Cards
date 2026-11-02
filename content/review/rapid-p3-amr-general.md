@@ -534,3 +534,10 @@ rf-p3-amr-general-0510 | ok | KDT8 ch52
 
 rf-p3-amr-general-0064 | unsourced | KDT8 ch50; UNSOURCED - owner must verify | pregnancy safety list not found in allowed books
 rf-p3-amr-general-0080 | regrounded | KDT8 ch51; Satoskar PDF p1077 | ciprofloxacin 750 mg bd for 28 days for carriers
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 66 -> 77 (+11). Rapid cards: 512 -> 556 (+44). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: C. difficile first choice: KDT8 ch55 places oral vancomycin second to metronidazole; the existing card 'C. difficile colitis: drugs of choice' (oral vancomycin or fidaxomicin preferred) is kept from the newer source. Logged, not reconciled.
+- Unsourced cards in this pass: none.

@@ -70,3 +70,11 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 30 original, corrected: 
 ## PYQ tagging and new cards (2026-11-02)
 - p2-respiratory-018 → PYQ tags added (Pharmacotherapy of cough) → existing refs
 - p2-respiratory-022 → PYQ tags added (Anti-inflammatory agents in bronchial asthma) → existing refs
+
+## Expansion pass
+
+Added 4 study cards (ids 035-038): leukotriene modifiers, bronchodilators in COPD, anti-inflammatory agents in asthma, inhaled delivery devices. Added 41 rapid cards (rf-p2-respiratory-0309 to 0349), mainly GG14 ch44 formulary doses (inhaled, nebulised, combination and biologic regimens) that were absent from the deck. Attached 30 PYQ references to existing cards (cough, GINA, bronchodilators, mucolytics, ICS, theophylline, biologics, COPD).
+
+Book conflicts noted: tiotropium HandiHaler dose 18 microg (KDT8 ch16, card rf-p2-respiratory-0157) vs Respimat 2.5 microg (GG14 ch44). Both kept, device named. Glycopyrronium 50 microg (rf-p2-respiratory-0154) vs GG14 DPI 15.6 microg twice daily: both kept, GG14 added as separate card; owner to confirm.
+
+Target (30 study, 120 rapid) not met: chapter 16 is already near saturation; remaining gaps are device-specific doses.

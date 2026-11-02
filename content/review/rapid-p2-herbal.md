@@ -123,3 +123,9 @@ Gap from SOURCE-GAPS.md: AYUSH pharmacopoeia rules (API, UPI, SPI: scope and mon
 | rf-p2-herbal-0365 | unsourced | UNSOURCED - owner must verify |
 | rf-p2-herbal-0366 | unsourced | UNSOURCED - owner must verify |
 | rf-p2-herbal-0367 | unsourced | UNSOURCED - owner must verify |
+
+## Expansion pass
+
+Added 0 rapid cards. Katzung16 ch65 herb names are all present; remaining gaps were attributes already carded.
+
+Book conflicts noted: none.

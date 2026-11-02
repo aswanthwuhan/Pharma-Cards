@@ -87,3 +87,10 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 65 original, corrected: 
 ## PYQ tagging and new cards (2026-11-02)
 - p3-antifungal-viral-071 → Echinocandins → KDT8 ch58; KDT8 PDF p852; KDT8 PDF p853 (new card)
 - p3-antifungal-viral-072 → Protease inhibitors in HIV therapy → KDT8 ch60; KDT8 PDF p876; KDT8 PDF p877 (new card)
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 72 -> 79 (+7). Rapid cards: 354 -> 449 (+95). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: ART start: KDT8 ch60 describes earlier delay of ART; WHO 2016 (also in KDT8 ch60) recommends immediate ART for all. Cards use WHO 2016 and note the older practice.
+- Unsourced cards in this pass: none.

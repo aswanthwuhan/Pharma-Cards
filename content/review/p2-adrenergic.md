@@ -88,3 +88,9 @@ Grounded against the owner's books (GROUNDING-RULES.md). Cards checked: 50. Corr
 - Checked: drug names in KDT8 ch9-10 against the deck (isoprenaline, timolol, betaxolol, levobunolol, dipivefrin, apraclonidine, brimonidine, latanoprost, dorzolamide and others all present). Glaucoma section checked (timolol, carteolol, dipivefrine, apraclonidine, brimonidine, latanoprost, pilocarpine present).
 - Target NOT met: chapter already carded. No grounded gap found, so nothing added.
 - Book conflicts: none checked.
+
+## Expansion pass 2 (2026-11-02)
+- Study: +22 (p2-adrenergic-053 onward): PYQ-linked shortnotes on non-cardiovascular beta-blocker uses (WBUHS 2020, KNRUHS 2025), beta-blockers in heart failure and after MI (RGUHS 2010, WBUHS 2020), cardioselective vs non-selective (RGUHS 2010), clonidine (KNRUHS 2025), prazosin and alpha-1 blockers (KNRUHS 2025, 2026), phentolamine and phenoxybenzamine, direct vs indirect sympathomimetics (RGUHS 2022), adrenaline uses (UHSR 2025), biased and newer beta-blockers, nasal decongestant rebound, pheochromocytoma. Plus comparison and why cards and cloze. Deck now 74.
+- Sources: KDT8 ch9-10 (ch10 uses 1-13 for beta-blockers, alpha-blocker pages); GG14 PDF p214, p216, p219-221, p274, p277-279, p283, p286-288, p291, p294.
+- Target (+30) NOT met: 22 added; rest of the topic was checked and largely carded already.
+- Book conflicts: none found.

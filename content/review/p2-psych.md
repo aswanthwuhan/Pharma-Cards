@@ -87,3 +87,10 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 60 original, corrected: 
 - Rapid: +2 (last two ids in rapid deck): antidepressants marketed mainly in other countries (protriptyline, maprotiline, nafazodone); fluoxamine -> KDT8 ch33.
 - Target NOT met: KDT8 ch31-33 already carded (rapid 523). Name-level gap search found only the above; antipsychotic and antiparkinsonian names missing from the deck (e.g. benztropine, pergolide, cabergoline, lurasidone) are absent from KDT8 ch31-33 text, so not added.
 - Book conflicts: none.
+
+## Expansion pass 2 (2026-11-02)
+- Study: +41 (p2-psych-065 onward): Parkinson pathophysiology, levodopa with carbidopa and its interactions and adverse effects, dopamine receptor families, D2 agonists (bromocriptine, ropinirole, pramipexole), RLS, selegiline, antimuscarinics in PD; antipsychotics (CPZ actions, DA hypothesis, EPS by potency, neuroleptic endocrine and metabolic effects, CPZ PK, haloperidol, depot and long-acting drugs, clozapine, atypicals, levosulpiride, tardive dyskinesia); antidepressants (MAO inhibitors and cheese reaction, MAO-A vs B, moclobemide, imipramine, delayed effect hypotheses, TCA adverse effects and overdose, TCA interactions, SSRIs, serotonin syndrome, SNRIs and mirtazapine, antidepressant adverse effects). Deck now 105.
+- PYQ questions covered: RGUHS 2006 (central dopaminergic receptors, 20 marks) and a few Q-bank items on levodopa and dopamine agonists; antipsychotic and antidepressant PYQs still to do as dedicated cards.
+- Sources: KDT8 ch31, ch32, ch33 (text read in large part); KDT8 ch8 (antihistamine comparison, cross-check).
+- Target (+30) met for study (+41).
+- Book conflicts: none found.

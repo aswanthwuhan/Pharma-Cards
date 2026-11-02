@@ -114,3 +114,9 @@ Gap from SOURCE-GAPS.md: AYUSH pharmacopoeia rules (API, UPI, SPI: scope and mon
 | p2-herbal-056 | unsourced | UNSOURCED - owner must verify |
 | p2-herbal-057 | unsourced | UNSOURCED - owner must verify |
 | p2-herbal-058 | unsourced | UNSOURCED - owner must verify |
+
+## Expansion pass
+
+Added 2 study cards (ids 059-060): herb-drug interactions, and status of herbal drug research in India. Sources: Katzung16 ch65 and Sarkar, using facts already grounded in existing rapid cards. Added 0 rapid cards: a check of Katzung16 ch65 found the deck already names every herb in the chapter. Target (30 study, 120 rapid) not met; herbal deck is saturated for the owner books searched.
+
+Book conflicts noted: none.

@@ -405,3 +405,10 @@ Grounding pass under GROUNDING-RULES.md. Sources: KDT8 ch64-65 (topic refs), GG1
 - rf-p3-cancer-immuno-0379 | regrounded | GG14 PDF p87 | TLR-7 agonist, used for topical indications
 - rf-p3-cancer-immuno-0380 | regrounded | Harrison21 PDF p719; Satoskar Pharmacology PDF p1168 | intravesical BCG for superficial bladder cancer
 - rf-p3-cancer-immuno-0381 | regrounded | Bennett & Brown Clin Pharmacol PDF p276; KDT8 PDF p995 | pooled plasma IgG confirmed
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 61 -> 68 (+7). Rapid cards: 382 -> 427 (+45). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: Levamisole: KDT8 ch63 says repeated doses cause severe reactions; used for immunomodulation only historically. Immunomodulators card cites KDT8 ch63, ch65 and GG14 p87 (JAK inhibitors).
+- Unsourced cards in this pass: none.

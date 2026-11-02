@@ -51,3 +51,7 @@ None omitted for grounding. Items not carded because the extracted text is garbl
 - Rapid: +7 (rf-p2-cholinergic-0361 to 0367). Refs: GG14 PDF p232-238, p1483; GG12 PDF p252, p1070; Katzung16 PDF p143.
 - Target (+120 to +180) NOT met: deck already covers the chapters; grep of the deck for the candidate names showed no gap beyond the 7 above.
 - Study card paired: p2-cholinergic-054.
+
+## Expansion pass 2 (2026-11-02)
+- Rapid: +71 (rf-p2-cholinergic-0368 onward) from GG14 PDF p230-233 and p1483 attribute cards (bethanechol, carbachol, methacholine, pilocarpine, arecoline, muscarine, atropine dose and organ effects, cardiac and ocular atropine actions, antimuscarinic selectivity, quaternary agents, ACh receptor location). Deck now 438.
+- Target (+120) NOT met: +71 added; see study log for the reason.

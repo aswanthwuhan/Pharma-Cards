@@ -75,3 +75,9 @@ Skipped or handled elsewhere:
 
 - rf-p2-ocular-0272 | corrected | GG14 PDF p1481 | source lists cataract as a risk for echothiophate but does not rank it as greatest; question reworded
 - rf-p2-ocular-0273 | unsourced | - | ciliary spasm and tearing/punctal stenosis not found; retinal tears only in GG12 PDF p1812
+
+## Expansion pass
+
+Added 21 rapid cards (rf-p2-ocular-0276 to 0296) from KDT8 ch10. Corrected kind to fact on rf-p2-ocular-0121, 0122, 0123.
+
+Book conflicts noted: none.

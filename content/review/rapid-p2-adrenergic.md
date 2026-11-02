@@ -48,3 +48,7 @@ None omitted for grounding beyond the garbled cells listed above.
 ## Expansion pass (2026-11-02)
 - Rapid: +0 (deck count unchanged at 470). KDT8 ch9-10 drug names and glaucoma section checked against the deck; no grounded gap found.
 - Target NOT met: nothing added.
+
+## Expansion pass 2 (2026-11-02)
+- Rapid: +68 (rf-p2-adrenergic-0471 onward): alpha blockers (phentolamine, phenoxybenzamine, prazosin, terazosin, alfuzosin, labetalol, carvedilol, ergot alkaloids), beta-blocker classes (cardioselective, membrane-stabilising, partial agonists, newer), beta-blocker uses (migraine, tremor, thyrotoxicosis, HF, post-MI, HOCM), mirabegron CYP2D6, beta-3 receptor, sympathomimetic classes, adrenaline cautions, receptor potency, pheochromocytoma markers. Deck now 538.
+- Target (+120) NOT met: +68 added.

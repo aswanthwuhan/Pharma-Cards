@@ -111,3 +111,10 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 60 original, corrected: 
 - Rapid: +5 (see deck): lignocaine, amethocaine, cinchocaine as synonyms; other LAs (mepivacaine, etidocaine, articaine, dyclonine); procainamide -> KDT8 ch26.
 - Target (+30 to +40 study, +120 to +180 rapid) NOT met: KDT8 ch25-27 and GG14 already fully carded (rapid 508 cards). Gap search by drug name against KDT8 ch25-27 found no further chapter drugs missing from the deck (thiopental, methohexital, suxamethonium, orphenadrine, xenon not in KDT8 ch25-27 text).
 - Book conflicts: none.
+
+## Expansion pass 2 (2026-11-02)
+- Study: +24 (p2-anaesthetics-065 onward): local anaesthetic mechanism, pKa and onset, differential nerve block, adrenaline adjunct, systemic toxicity, bupivacaine and levobupivacaine and ropivacaine, lidocaine and EMLA, surface anaesthetics, cocaine, dibucaine; general anaesthetics: MAC, blood solubility and induction, second-gas effect and diffusion hypoxia, N2O, halothane (including malignant hyperthermia), isoflurane, desflurane, ether. Deck now 88.
+- Sources: KDT8 ch26 and ch27 (chapter text read in full); KDT8 ch25 (malignant hyperthermia cross-reference).
+- PYQ questions covered: none matched individually this pass; PYQ-driven cards for LA and GA are still to do.
+- Target (+30) NOT met: 24 added. Neuromuscular blockers (KDT8 ch25) not read this pass.
+- Book conflicts: none found.

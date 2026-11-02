@@ -35,3 +35,7 @@ None found. `review/p2-sedatives-aed.md` lists no GG14/Katzung/Rang & Dale corre
 ## Expansion pass (2026-11-02)
 - Rapid: +0 (deck count unchanged at 412). KDT8 ch29-30 names checked against the deck; all chapter drugs already carded.
 - Target NOT met: no grounded gap; nothing added.
+
+## Expansion pass 2 (2026-11-02)
+- Rapid: +116 (rf-p2-sedatives-aed-0413 onward; four duplicates removed): sleep stages, historic hypnotics dates, barbiturate facts (PK, enzyme induction, poisoning and dialysis), BZD receptor and subtype, BZD PK and per-drug data, AED seizure classification, models, phenytoin, carbamazepine, oxcarbazepine, eslicarbazepine, valproate, phenobarbitone, primidone, ethosuximide, clonazepam, clobazam. Deck now 528.
+- Target (+120) almost met: +116 added.

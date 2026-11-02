@@ -48,3 +48,8 @@ Items not carded because the table text is garbled or conflicts with the chapter
 ## Expansion pass (2026-11-02)
 - Rapid: +2 (last two ids in rapid deck). Refs KDT8 ch34, ch35.
 - Fixes: rf-p2-opioids-0004 (class -> fact), rf-p2-opioids-0006 (list separator). Target NOT met.
+
+## Expansion pass 2 (2026-11-02)
+- Rapid: +145 (rf-p2-opioids-0633 onward; three duplicates removed): morphine actions and pharmacokinetics, opioid synthetic agents, codeine, heroin, pethidine, fentanyl, methadone, dextropropoxyphene, tramadol, convulsants, analeptics, stimulants, cognition enhancers, alcohol content and mechanisms, disulfiram, acamprosate, naltrexone, methanol. Deck now 776.
+- Target (+120) met: +145 added.
+- Not done: ethylene glycol facts (chapter section not read this pass); Katzung16 and Satoskar newer-drug cross-checks not run.

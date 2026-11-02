@@ -34,3 +34,7 @@ Checked against the GG14/Katzung corrections in `review/p2-anaesthetics.md`. Dec
 ## Expansion pass (2026-11-02)
 - Rapid: +5 (see deck). Refs KDT8 ch26.
 - Target (+120 to +180) NOT met: chapter already carded; only name-level gaps found were added.
+
+## Expansion pass 2 (2026-11-02)
+- Rapid: +117 (rf-p2-anaesthetics-0511 onward; three duplicates removed): LA receptor and kinetics, pKa and onset, fibre sensitivity, adrenaline adjunct, systemic toxicity, amide vs ester, drug-specific synonyms and doses (lignocaine, amethocaine, cinchocaine, proparacaine, EMLA, bupivacaine, levobupivacaine, ropivacaine, cocaine), MAC and stages, inhalational agent properties, N2O, halothane, isoflurane, desflurane, ether, malignant hyperthermia treatment. Deck now 625.
+- Target (+120) almost met: +117 added.

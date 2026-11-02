@@ -69,3 +69,9 @@ Checked against the GG14/Katzung corrections in `review/p2-respiratory.md`. Deck
 | rf-p2-respiratory-0103 | Step 1 marked as KDT/BTS 2012 scheme; GINA ICS with every reliever, ICS-formoterol preferred | KDT8 ch16, Katzung16 ch20, GG14 ch44 |
 | rf-p2-respiratory-0244 | ICS in COPD: frequent exacerbators with eosinophils >300/µL; pneumonia risk | KDT8 ch16, GG14 ch44 |
 | rf-p2-respiratory-0308 | Added: ICS-formoterol is the reliever of choice (study card 032) | GG14 ch44, Katzung16 ch20 |
+
+## Expansion pass
+
+Added 41 rapid cards (rf-p2-respiratory-0309 to 0349) from GG14 ch44 formulary and biologic sections, plus KDT8 ch16 gaps. Each has one tag.
+
+Book conflicts noted: tiotropium 18 microg (KDT8) vs 2.5 microg Respimat (GG14). Glycopyrronium 50 microg vs 15.6 microg DPI (GG14).

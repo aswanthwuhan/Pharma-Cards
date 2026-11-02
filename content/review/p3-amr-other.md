@@ -80,3 +80,10 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 61 original, corrected: 
 
 ## Still needs a human check
 - Teicoplanin half-life: KDT prints 2-3 days; kept as printed.
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 64 -> 75 (+11). Rapid cards: 408 -> 478 (+70). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: C. difficile first choice: KDT8 ch55 (metronidazole first, vancomycin second) versus newer practice cited in p3-amr-general (oral vancomycin or fidaxomicin preferred). The KDT8 card was dropped; conflict logged.
+- Unsourced cards in this pass: none.

@@ -89,3 +89,13 @@ Cross-references (not duplicated): glaucoma drugs are in p2-adrenergic and p2-ch
 | id | status | new refs | note
 | p2-ocular-042 | corrected | GG14 PDF p1477 | Chloroquine accumulates in RPE; bull's-eye maculopathy with decreased acuity; "concentric rings" and "permanent blindness" not printed |
 | p2-ocular-043 | corrected | GG14 PDF p1481; GG14 PDF p1482 | Echothiophate cataract and retinal detachment per Table 74-7; "greatest risk", retinal tears and Ocusert pilocarpine not printed, removed |
+
+## Expansion pass
+
+Added 4 study cards (ids 045-048): prostaglandin analogues, alpha-2 agonists, acute angle-closure emergency measures, recent advances in glaucoma. Added 21 rapid cards (rf-p2-ocular-0276 to 0296): eye-drop strengths and frequencies (dipivefrine, dorzolamide, latanoprost, travoprost, bimatoprost, brimonidine, apraclonidine), IOP thresholds, IOP fall and duration, emergency doses (mannitol, glycerine, pilocarpine, acetazolamide). Source KDT8 ch10. Attached PYQ references to existing glaucoma and ocular-toxicity cards.
+
+Corrected kind to fact on rf-p2-ocular-0121, 0122, 0123 (single receptor-response answers, previously kind class).
+
+Book conflicts noted: none in this pass.
+
+Target (30 study, 120 rapid) not met: KDT8 ch8 is systemic anticholinergics, so ocular material is limited to ch10. Other ocular pharmacology lives in Padmaja, Satoskar and Golan, which were not searched in this pass.

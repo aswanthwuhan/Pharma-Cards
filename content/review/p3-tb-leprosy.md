@@ -68,3 +68,10 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 51 original, corrected: 
 ## Still needs a human check
 - GG14 ch65 gives MB-MDT clofazimine as 300 mg daily, which conflicts with KDT (300 mg monthly + 50 mg daily); card 047 keeps the KDT doses.
 - Card 044 and 050 keep the book position that rifampicin is withheld during lepra reactions (KDT ch57, GG14 ch65).
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 54 -> 65 (+11). Rapid cards: 401 -> 458 (+57). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: No conflicts. RNTCP 2016 regimens (KDT8 ch56) added for RR-TB, mono- and poly-drug resistance.
+- Unsourced cards in this pass: none.

@@ -434,3 +434,10 @@ Sources: KDT8 ch53-55 (full text read). GG14 facts reused from the validated stu
 ## PrepLadder removal and PDF re-grounding (2026-11-02)
 
 rf-p3-amr-other-0346 | regrounded | GG14 PDF p1196 | -
+
+## Expansion pass (2026-11-02)
+
+- Study cards: 64 -> 75 (+11). Rapid cards: 408 -> 478 (+70). Target of +30 study and +120 rapid not reached: the books were already largely covered by existing cards (dedupe removed the rest).
+- New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
+- Book conflicts: C. difficile first choice: KDT8 ch55 (metronidazole first, vancomycin second) versus newer practice cited in p3-amr-general (oral vancomycin or fidaxomicin preferred). The KDT8 card was dropped; conflict logged.
+- Unsourced cards in this pass: none.

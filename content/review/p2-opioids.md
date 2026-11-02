@@ -90,3 +90,10 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 - Fixes to existing rapid cards (check failures, not content changes): rf-p2-opioids-0004 changed from class to fact (single item, q reworded); rf-p2-opioids-0006 a reworded to "Claret, cider (...)" so the app splits it into two items.
 - Target NOT met: KDT8 ch28, ch34, ch35 already carded. Name-level gap search found only the two above.
 - Book conflicts: none.
+
+## Expansion pass 2 (2026-11-02)
+- Study: +42 (p2-opioids-066 onward): morphine (CNS, suffering vs perception, euphoria, toxicity and naloxone, tolerance and withdrawal, pharmacokinetics, precautions in head injury and asthma), pethidine vs morphine, methadone, codeine (CYP2D6), fentanyl, tramadol, heroin and dextropropoxyphene, opium alkaloids, CNS convulsants, doxapram, methylphenidate, atomoxetine, modafinil, caffeine, cognition enhancers (AD, rivastigmine, donepezil, galantamine, memantine, piracetam, tacrine), alcohol (CNS concentrations, mechanisms, PK, disulfiram, acamprosate, naltrexone, methanol, liver, intoxication, foetal alcohol). Deck now 107.
+- PYQ questions: alcohol-related and CNS-stimulant PYQs (UHSR 2025 cholinesterase and cognition items) not matched individually this pass.
+- Sources: KDT8 ch28, ch34, ch35 (text read in large part).
+- Target (+30) met for study (+42).
+- Book conflicts: none found.

@@ -89,3 +89,11 @@ Grounded against the owner's books (GROUNDING-RULES.md). Cards checked: 50. Corr
 - Target (+30 to +40 study, +120 to +180 rapid) NOT met: chapters KDT8 ch7-8 and GG14 ch11-12 are already carded in full (rapid deck at 367). Only gaps found by index search were added. No padding.
 - Book conflicts: none found in the new cards.
 - Not added: cevimeline, demecarium, umeclidinium-specific facts, fesoterodine (named in owner books' indexes only, no chapter text found for these in the cholinergic pages checked).
+
+## Expansion pass 2 (2026-11-02)
+- Study: +18 (p2-cholinergic-055 onward): PYQ-linked shortnotes on therapeutic uses of agonists (RGUHS 2024), SAR of anticholinergics (RGUHS 2023), non-ocular anticholinergic uses (RGUHS 2025), muscarinic subtypes (RGUHS 2008), cognition and CNS muscarinic action (UHSR 2025); per-drug and comparison cards (atropine vs scopolamine, cevimeline vs pilocarpine, methacholine test, natural alkaloids, paradoxical antagonist effects, quaternary ganglion block) plus cloze. Deck now 72.
+- PYQ questions covered: about 8 distinct examined topics.
+- Sources: KDT8 ch7-8; GG14 PDF p230-233, p238, p1483; GG12 PDF p252, p1070; Katzung16 PDF p143.
+- Target (+30 study) NOT met: 18 added. Rapid +71 vs target +120: remaining cholinergic facts are either already carded or not in the pages read (GG14 p234-241 and Katzung16 ch7-8 not fully read this pass).
+- Book conflicts: none found.
+- Not done: cevimeline, umeclidinium facts beyond the index mentions.
