@@ -36,6 +36,30 @@ function historyLine(state: { fsrs: { reps: number; lapses: number }; lastRating
   return `Reviewed ${r} time${r > 1 ? "s" : ""}${state.fsrs.lapses ? `, forgot ${state.fsrs.lapses}x` : ""}, last: ${GRADE_WORD[state.lastRating]}`;
 }
 
+/** Round session progress: a teal arc that fills as cards are answered. */
+function ProgressRing({ value, max }: { value: number; max: number }) {
+  const r = 15;
+  const len = 2 * Math.PI * r;
+  const frac = max ? value / max : 0;
+  return (
+    <svg width="40" height="40" viewBox="0 0 40 40" role="progressbar" aria-valuenow={value} aria-valuemin={0} aria-valuemax={max} aria-label="Session progress" className="shrink-0 -rotate-90">
+      <circle cx="20" cy="20" r={r} fill="none" stroke="var(--color-rule)" strokeWidth="4" />
+      <circle
+        cx="20"
+        cy="20"
+        r={r}
+        fill="none"
+        stroke="var(--color-teal)"
+        strokeWidth="4"
+        strokeLinecap="round"
+        strokeDasharray={len}
+        strokeDashoffset={len * (1 - frac)}
+        className="transition-[stroke-dashoffset] duration-300"
+      />
+    </svg>
+  );
+}
+
 /** mm:ss on the card. Reads the same start time as the recorded answer time, so hidden time is left out of both. */
 function CardTimer({ started }: { started: { current: number } }) {
   const [now, setNow] = useState(Date.now());
@@ -199,6 +223,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
             <path d="M6 6l12 12M18 6L6 18" />
           </svg>
         </Link>
+        <ProgressRing value={i} max={cards.length} />
         <div className="min-w-0 flex-1">
           <p className="truncate font-serif text-lg leading-tight">{title}</p>
           <p className="font-mono text-[11px] text-ink-soft">
@@ -237,15 +262,6 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
         >
           {bookmarked ? "Saved" : "Save"}
         </button>
-      </div>
-      <div
-        className="mt-3 h-1 overflow-hidden rounded-full bg-rule"
-        role="progressbar"
-        aria-valuenow={i}
-        aria-valuemax={cards.length}
-        aria-label="Session progress"
-      >
-        <div className="h-full bg-teal transition-[width] duration-300" style={{ width: `${progress}%` }} />
       </div>
 
       {/* card stack */}

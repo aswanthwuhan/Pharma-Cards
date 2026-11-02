@@ -1,18 +1,23 @@
 apply plugin: 'com.android.application'
 
-// Version comes from package.json. versionCode grows with every release (0.5.3 -> 503), so an installed app always accepts the next APK.
-def appVersion = new groovy.json.JsonSlurper().parse(file("../../package.json")).version as String
-def (appMajor, appMinor, appPatch) = appVersion.tokenize('.').collect { it.toInteger() }
-
 android {
     namespace = "com.aurapharmlab.pharmacards"
     compileSdk = rootProject.ext.compileSdkVersion
+    // Debug builds use the install key. CI points ANDROID_DEBUG_KEYSTORE at the restored copy, so APKs match installs made here.
+    signingConfigs {
+        debug {
+            storeFile file(System.getenv("ANDROID_DEBUG_KEYSTORE") ?: "${System.getProperty('user.home')}/.android/debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
     defaultConfig {
         applicationId "com.aurapharmlab.pharmacards"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode appMajor * 10000 + appMinor * 100 + appPatch
-        versionName appVersion
+        versionCode 11
+        versionName "0.5.3"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

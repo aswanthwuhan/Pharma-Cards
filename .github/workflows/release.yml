@@ -70,6 +70,8 @@ jobs:
         env:
           KEYSTORE_B64: ${{ secrets.ANDROID_DEBUG_KEYSTORE_B64 }}
         run: mkdir -p ~/.android && printf '%s' "$KEYSTORE_B64" | base64 -d > ~/.android/debug.keystore
+      - name: Point Gradle at the restored key
+        run: echo "ANDROID_DEBUG_KEYSTORE=$HOME/.android/debug.keystore" >> "$GITHUB_ENV"
       - name: Check signing key fingerprint
         run: keytool -list -v -keystore ~/.android/debug.keystore -storepass android | grep SHA256
       - run: npx next build && npx cap sync android
