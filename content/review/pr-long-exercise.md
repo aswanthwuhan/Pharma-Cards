@@ -92,3 +92,29 @@ Still UNSOURCED (searched RangDale9, GG14, KDT8 full text):
 - 021: RangDale9 ch8 supports design, random order, variability, potency ratio from horizontal distance, confidence limits; "more reliable than matching/bracketing/3-point" is unsupported.
 - 022: RangDale9 ch8 supports biological variation, design aims, randomisation, blinding; fixed contact time/time cycle/washing and tissue fatigue are unsupported.
 - 029: causality exercise steps beyond KDT8 ch6 content.
+
+## PDF grounding pass (2026-11-02, direct check)
+Sources parsed with pdftotext: `Rang and Dale - Pharmacology 9e.pdf` (762 pp, ch8 PDF p112-121), `Goodman and Gilman - ... 14e.pdf` (1665 pp), `Katzungs Basic and Clinical Pharmacology (Vanderah) (Z-Library).pdf` (full text), `KD Tripathi - Essentials 8e.pdf` (no bioassay hits). Printed page numbers not read; cited by PDF page.
+- 015 -> RangDale9 ch8 (PDF p112, p115): standard preparation / matching doses.
+- 023 -> RangDale9 ch8 (PDF p115): potency ratio valid only when log dose-response curves are parallel.
+- 016-020 (matching, bracketing, graphical, 3-point designs): no hits for bracketing, single-point assay, 3-point or graphical interpolation in any of the four PDFs. Stay UNSOURCED.
+- Drip-rate / C1V1 / organ-bath concentration (pr-ospe-018, 019, 021): no hits for drip rate, drops per min, C1V1 or dilution formula in any PDF. Stay UNSOURCED.
+- Practical PDFs in Downloads: none found beyond general textbooks. PrepLadder files excluded.
+
+## PDF grounding pass (2026-11-02, practical PDFs)
+Source: Medhi Practical Manual (PDF p73-77; printed = PDF - 16). Ghosh PDF p92-93 for matching/bracketing.
+- 016 classification of designs: Medhi PDF p73.
+- 018 bracketing: Medhi PDF p75; Ghosh PDF p92-93.
+- 019 interpolation: Medhi PDF p75-76.
+- 020 three-point: Medhi PDF p76-77.
+- 017 matching: still UNSOURCED (merit/drawback not stated clearly on the pages checked).
+- 021-023 (2+2 parallel-line, errors, potency ratio): earlier RangDale9 ch8 refs; not re-checked here.
+
+## PDF grounding pass (2026-11-02, practical PDFs)
+Source: Medhi Practical Manual (PDF p73-77; printed = PDF - 16). Ghosh PDF p92-93 for matching/bracketing.
+- 016 design classification: Medhi PDF p73.
+- 018 bracketing: Medhi PDF p75; Ghosh PDF p92-93.
+- 019 interpolation: Medhi PDF p75-76.
+- 020 three-point: Medhi PDF p76-77.
+- 017 matching: still UNSOURCED (merit and drawback not clearly stated on the pages checked).
+- 021-023 (2+2 parallel-line, errors, potency ratio): earlier RangDale9 ch8 refs, not re-checked here.

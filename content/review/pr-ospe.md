@@ -99,3 +99,17 @@ Still UNSOURCED (searched RangDale9, GG14, KDT8, Katzung16 ch66):
 - 018 (C1V1 = C2V2), 019 (organ-bath final concentration), 021 (i.v. drip rate formula): no book gives these formulas. Katzung16 ch66 only gives 20 drops = 1 mL.
 - 025: Katzung16 ch66 supports drug name, purpose, duration, warning labels and expiry date on the label; patient name, quantity, batch number and mfg date are unsupported.
 - 005, 006, 013, 014, 022, 023, 024, 026, 030: OSPE technique/form/document content not covered in full by any book.
+
+## PDF grounding pass (2026-11-02, practical PDFs)
+Parsed from `Database PDFs, Guidelines/`: `Practical pharmacology/Dosage Calculations (Pickar) (Z-Library).pdf` (722 pp), `Experimental & Clinical pharmacology/Bikash Medhi ... Experimental Pharmacology.pdf` (390 pp), `Experimental & Clinical pharmacology/(268) M. N. Ghosh - Fundamentals of experimental pharmacology (2019).pdf` (275 pp). Practical Pharmacology - 0.pdf and S K Kulkarni: no extractable text (scanned; not yet OCR'd).
+Printed page = PDF page minus 16 for Medhi (verified from running headers).
+- 018 (stock dilution): Ghosh PDF p11. Generic procedure not stated verbatim; kept UNSOURCED.
+- 019 (organ-bath concentration): Ghosh PDF p11 (0.2 mg in 10 mL = 20 ug/mL); Medhi PDF p87.
+- 021 (IV drip rate): Pickar PDF p2, IV flow rate formula, checked visually.
+
+## PDF grounding pass (2026-11-02, practical PDFs)
+Parsed from `Database PDFs, Guidelines/`: `Practical pharmacology/Dosage Calculations (Pickar) (Z-Library).pdf` (722 pp), `Experimental & Clinical pharmacology/Bikash Medhi ... Experimental Pharmacology.pdf` (390 pp), `Experimental & Clinical pharmacology/(268) M. N. Ghosh - Fundamentals of experimental pharmacology (2019).pdf` (275 pp). `Practical Pharmacology - 0.pdf` and `S K Kulkarni practical-pharmacology.pdf` gave no extractable text (scanned; not OCR'd).
+Medhi printed page = PDF page minus 16 (from running headers).
+- 018 stock dilution: Ghosh PDF p11. Generic procedure not stated verbatim; kept UNSOURCED.
+- 019 organ-bath concentration: Ghosh PDF p11 (0.2 mg in 10 mL = 20 ug/mL); Medhi PDF p87.
+- 021 IV drip rate: Pickar PDF p2, IV flow rate formula, checked visually.
