@@ -78,3 +78,6 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 
 ## Still needs a human check
 - None beyond normal read-through.
+
+## PYQ tagging and new cards (2026-11-02)
+- p2-ras-hf-031 → PYQ tags added (Nitric oxide) → existing refs

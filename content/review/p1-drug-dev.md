@@ -46,3 +46,8 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 
 ## Still needs a human check
 - ICMR guideline year and Indian trial rules: current versions (ICMR 2017, NDCT Rules 2019) are not in the owner's books; add only if the owner supplies a source.
+
+## Unmatched PYQ pass (2026-11-02)
+p1-drug-dev-029 → DRUG REPOSITIONING → GG14 PDF p159, p33 (new card)
+p1-drug-dev-030 → Chronopharmacology. → KDT8 PDF p94, p315, p449 (new card)
+p1-drug-dev-031 → Off label uses of drugs. → GG14 PDF p33, p166 (new card)

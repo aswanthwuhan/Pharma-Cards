@@ -62,3 +62,12 @@ Rapid cards aligned with corrections in content/review/p3-steroids.md (newest bo
 | rf-p3-steroids-0465 | added: Ovulation induction in PCOS: drug with higher pregnancy and live-birth rate than clomiphene (GG14) => Letrozole (KDT: India banned it for ovulation induction in 2011) | KDT8 ch22, GG14 ch48 |
 | rf-p3-steroids-0466 | added: Gap before nitrates after a PDE-5 inhibitor => 24 hours after sildenafil; up to 3 days after tadalafil (GG14: over 24 hours, especially tadalafil) | KDT8 ch21, GG14 ch31 |
 | rf-p3-steroids-0467 | added: Second-generation nonsteroidal androgen receptor antagonists for prostate cancer: list => Enzalutamide, apalutamide, darolutamide | GG14 ch73, GG14 ch50 |
+
+## PYQ tagging and new cards (2026-11-02)
+- rf-p3-steroids-0473 → Anabolic steroids: list the drugs → rapid pair for the new study card
+- rf-p3-steroids-0474 → Anabolic versus androgenic activity of anabolic steroids → rapid pair for the new study card
+- rf-p3-steroids-0475 → Anabolic steroids causing cholestatic jaundice → rapid pair for the new study card
+- rf-p3-steroids-0476 → Parenteral testosterone esters and cholestatic jaundice → rapid pair for the new study card
+- rf-p3-steroids-0477 → Androgen effect on nitrogen balance in muscle → rapid pair for the new study card
+- rf-p3-steroids-0478 → Group with the greater muscle-building effect of androgens → rapid pair for the new study card
+- rf-p3-steroids-0479 → Androgen used for AIDS-related muscle wasting → rapid pair for the new study card

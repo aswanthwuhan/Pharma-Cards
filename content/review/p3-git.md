@@ -77,3 +77,8 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16). Cards 
 
 ## Still needs a human check
 - H. pylori first-line choice for India (resistance-based) is not stated in any owner book.
+
+## PYQ tagging and new cards (2026-11-02)
+- p3-git-009 → PYQ tags added (Proton pump inhibitors) → existing refs
+- p3-git-010 → PYQ tags added (Proton pump inhibitors) → existing refs
+- p3-git-056 → PYQ tags added (Pharmacotherapy of inflammatory bowel disease) → existing refs

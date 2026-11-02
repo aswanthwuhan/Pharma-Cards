@@ -36,3 +36,33 @@ rf-p3-antifungal-viral-0077 | regrounded | KDT8 ch58; KDT8 PDF p854 | -
 rf-p3-antifungal-viral-0081 | regrounded | KDT8 ch58; KDT8 PDF p854 | -
 rf-p3-antifungal-viral-0094 | regrounded | KDT8 ch58; KDT8 PDF p858 | -
 rf-p3-antifungal-viral-0101 | regrounded | KDT8 ch58; KDT8 PDF p859; GG14 PDF p1214 | -
+
+## PYQ tagging and new cards (2026-11-02)
+- rf-p3-antifungal-viral-0328 → Enzyme inhibited by HIV protease inhibitors → rapid pair for the new study card
+- rf-p3-antifungal-viral-0329 → Stage of HIV replication blocked by PIs → rapid pair for the new study card
+- rf-p3-antifungal-viral-0330 → Progeny released from PI-treated cells → rapid pair for the new study card
+- rf-p3-antifungal-viral-0331 → HIV protease inhibitors: list all eight → rapid pair for the new study card
+- rf-p3-antifungal-viral-0332 → Protease inhibitor that is not boosted with ritonavir → rapid pair for the new study card
+- rf-p3-antifungal-viral-0333 → Purpose of low-dose ritonavir with a PI → rapid pair for the new study card
+- rf-p3-antifungal-viral-0334 → Main enzyme metabolising protease inhibitors → rapid pair for the new study card
+- rf-p3-antifungal-viral-0335 → Why PIs are never used alone → rapid pair for the new study card
+- rf-p3-antifungal-viral-0336 → Drugs given with a PI in standard regimens → rapid pair for the new study card
+- rf-p3-antifungal-viral-0337 → Why PIs are kept out of first-line regimens → rapid pair for the new study card
+- rf-p3-antifungal-viral-0338 → PI that crystallises in urine → rapid pair for the new study card
+- rf-p3-antifungal-viral-0339 → Enzyme inducer that makes PIs ineffective → rapid pair for the new study card
+- rf-p3-antifungal-viral-0340 → Metabolic adverse effects of PIs → rapid pair for the new study card
+- rf-p3-antifungal-viral-0341 → Darunavir: booster it must be given with → rapid pair for the new study card
+- rf-p3-antifungal-viral-0342 → Lopinavir: only available in combination with → rapid pair for the new study card
+- rf-p3-antifungal-viral-0343 → Fungal enzyme inhibited by echinocandins → rapid pair for the new study card
+- rf-p3-antifungal-viral-0344 → Main advantage of echinocandins over amphotericin B → rapid pair for the new study card
+- rf-p3-antifungal-viral-0345 → Prototype echinocandin → rapid pair for the new study card
+- rf-p3-antifungal-viral-0346 → Route of caspofungin → rapid pair for the new study card
+- rf-p3-antifungal-viral-0347 → Plasma half-life of caspofungin → rapid pair for the new study card
+- rf-p3-antifungal-viral-0348 → Echinocandin with the longest half-life → rapid pair for the new study card
+- rf-p3-antifungal-viral-0349 → Plasma half-life of micafungin → rapid pair for the new study card
+- rf-p3-antifungal-viral-0350 → Echinocandin not used for aspergillosis → rapid pair for the new study card
+- rf-p3-antifungal-viral-0351 → Drug of choice for deep, invasive candidiasis → rapid pair for the new study card
+- rf-p3-antifungal-viral-0352 → Salvage drug for non-responding invasive aspergillosis → rapid pair for the new study card
+- rf-p3-antifungal-viral-0353 → Infusion reactions with caspofungin → rapid pair for the new study card
+- rf-p3-antifungal-viral-0354 → Organ toxicity with caspofungin → rapid pair for the new study card
+- rf-p3-antifungal-viral-0355 → Echinocandin used when fever persists in neutropenia → rapid pair for the new study card

@@ -47,3 +47,8 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 
 ## Still needs a human check
 - 027: oliceridine is described in GG14 only as "recently approved"; no year given.
+
+## Unmatched PYQ pass (2026-11-02)
+p1-pd-029 → G-protein coupled receptors. → KDT8 PDF (existing card p1-pd-029, pyq tags added)
+p1-pd-033 → Drug Enantiomers → KDT8 PDF p105, p141, p407, p181 (new card)
+p1-pd-034 → PHARMACOPHORES. → GG12 PDF p69, GG14 PDF p27 (new card)

@@ -158,3 +158,9 @@ Gap from SOURCE-GAPS.md: Sample-size formulas (two means, two proportions, singl
 | p3-research-biostats-065 | unsourced | UNSOURCED - owner must verify |
 | p3-research-biostats-066 | unsourced | UNSOURCED - owner must verify |
 | p3-research-biostats-067 | unsourced | UNSOURCED - owner must verify |
+
+## PYQ coverage pass (2026-11-02)
+
+"Q bank" entries (no year) are not tagged. Format: id → question → source.
+
+- p3-research-biostats-023 → Chi-square test (7 entries) → Sarkar p381-385 (existing card, pyq tags added)

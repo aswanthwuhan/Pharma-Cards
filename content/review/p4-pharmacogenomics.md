@@ -39,3 +39,6 @@ Checked 33; corrected 16; deleted 0; added and kept 3. Cards now in deck: 33.
 | p4-pharmacogenomics-031 | added | KDT8 ch5, KDT8 ch25, Katzung16 ch4 |
 | p4-pharmacogenomics-032 | added | GG14 ch7, KDT8 ch5, KDT8 ch27, KDT8 ch25 |
 | p4-pharmacogenomics-033 | added | GG14 ch7, Katzung16 ch5, KDT8 ch5 |
+
+## Unmatched PYQ pass (2026-11-02)
+p4-pharmacogenomics-035 → Precision Medicine → KDT8 PDF p93, GG14 PDF p71 (new card)

@@ -79,3 +79,6 @@ Grounded against the owner's books (GROUNDING-RULES.md). Cards checked: 50. Corr
 ## Still needs a human check
 - 013: two atropine schedules (KDT and GG14) are both printed; check you are happy with showing both.
 - 041: varenicline course length (KDT: not more than 12 weeks) vs GG14 dosing only; no book gives the extension option.
+
+## PYQ tagging and new cards (2026-11-02)
+- p2-cholinergic-018 → PYQ tags added (Cholinesterase inhibitors in therapeutics) → existing refs

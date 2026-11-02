@@ -497,3 +497,13 @@ rf-p3-misc-0472 | ok | KDT8 ch70
 
 rf-p3-misc-0233 | corrected | KDT8 PDF p973 | "only oral drug" not supported by allowed books
 rf-p3-misc-0367 | corrected | KDT8 PDF p683 | stippled epiphyses not in books; first-trimester timing not stated
+
+## PYQ tagging and new cards (2026-11-02)
+- rf-p3-misc-0489 → Vaccine containing only a component of the organism → rapid pair for the new study card
+- rf-p3-misc-0490 → Subunit vaccine response compared with live vaccines → rapid pair for the new study card
+- rf-p3-misc-0491 → Hib vaccine type → rapid pair for the new study card
+- rf-p3-misc-0492 → Antigen in the Hib conjugate vaccine → rapid pair for the new study card
+- rf-p3-misc-0493 → Antigen in recombinant hepatitis B vaccine → rapid pair for the new study card
+- rf-p3-misc-0494 → Adjuvant in the recombinant zoster vaccine → rapid pair for the new study card
+- rf-p3-misc-0495 → Recombinant zoster vaccine: doses and age → rapid pair for the new study card
+- rf-p3-misc-0496 → Virus targeted by the cervical cancer vaccine → rapid pair for the new study card

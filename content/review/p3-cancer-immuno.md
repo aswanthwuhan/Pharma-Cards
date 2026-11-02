@@ -70,3 +70,7 @@ Grounding re-check under GROUNDING-RULES.md. Cards now in deck: 57. Corrected: 2
 ## PrepLadder removal and PDF re-grounding (2026-11-02)
 
 - p3-cancer-immuno-060 | corrected | KDT8 ch63; GG14 PDF p87, p1509; Harrison21 PDF p719; Satoskar Pharmacology PDF p1168; Bennett & Brown Clin Pharmacol PDF p276 | levamisole high-dose/bone-marrow claim and nephrotic syndrome not in books; removed. IL-2/TNF/IL-1 detail not found; removed. Imiquimod uses and BCG/IVIg verified.
+
+## PYQ tagging and new cards (2026-11-02)
+- p3-cancer-immuno-060 → PYQ tags added (Immunostimulants) → existing refs
+- p3-cancer-immuno-033 → PYQ tags added (Monoclonal antibodies in cancer chemotherapy) → existing refs

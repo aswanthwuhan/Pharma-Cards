@@ -21,3 +21,13 @@ Source: KD Tripathi 8e chapters 11, 12 and 13 (`pdftotext -layout`). No card was
 - rf-p2-autacoids-0549 -> medical abortion window: KDT 49 days, Katzung 70 days -> KDT8 ch13, GG14 ch48, Katzung16 ch40
 - rf-p2-autacoids-0550 -> misoprostol route: Katzung recommends oral (vaginal linked to sepsis); KDT preference noted -> KDT8 ch13, Katzung16 ch40
 - rf-p2-autacoids-0632 -> added: lasmiditan 5-HT1F agonist -> KDT8 ch12, GG14 ch15
+
+## PYQ tagging and new cards (2026-11-02)
+- rf-p2-autacoids-0644 → Endothelium-derived relaxing factor → rapid pair for the new study card
+- rf-p2-autacoids-0645 → Endogenous gaseous free radical signal molecule → rapid pair for the new study card
+- rf-p2-autacoids-0646 → Endothelial enzyme that makes NO (Ca2+-calmodulin dependent) → rapid pair for the new study card
+- rf-p2-autacoids-0647 → Muscarinic receptor on endothelium that triggers NO release → rapid pair for the new study card
+- rf-p2-autacoids-0648 → Cells that make prostacyclin → rapid pair for the new study card
+- rf-p2-autacoids-0649 → Condition with reduced PGI2 synthesis → rapid pair for the new study card
+- rf-p2-autacoids-0650 → Potent endothelium-derived constrictor → rapid pair for the new study card
+- rf-p2-autacoids-0651 → Key risk of endothelin receptor antagonists → rapid pair for the new study card

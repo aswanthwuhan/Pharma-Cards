@@ -66,3 +66,7 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 30 original, corrected: 
 ## Still needs a human check
 - GINA two-track step numbers are NOT in the owner's books, so card 017 gives only the book-printed GINA principles; owner may want a newer source added.
 - Theophylline range: KDT 5-20 vs GG14 5-15 mg/L; cards state GG14 as current.
+
+## PYQ tagging and new cards (2026-11-02)
+- p2-respiratory-018 → PYQ tags added (Pharmacotherapy of cough) → existing refs
+- p2-respiratory-022 → PYQ tags added (Anti-inflammatory agents in bronchial asthma) → existing refs

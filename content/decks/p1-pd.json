@@ -850,6 +850,11 @@
           "university": "KNRUHS",
           "year": 2026,
           "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
         }
       ],
       "tags": [
@@ -1071,6 +1076,119 @@
           "year": 2025,
           "marks": 10
         }
+      ]
+    },
+    {
+      "id": "p1-pd-033",
+      "type": "shortnote",
+      "front": "Short note: Drug enantiomers (chiral drugs)",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Chiral drugs exist as enantiomers: R and S forms (or d and l isomers)",
+            "Activity depends on the 3D fit with the target, so enantiomers can differ in action and in metabolic breakdown",
+            "Often only one enantiomer is active"
+          ]
+        },
+        {
+          "h": "Racemate vs single enantiomer",
+          "points": [
+            "The second enantiomer may be a silent passenger, add side effects or toxicity, load metabolism, or antagonise the active form",
+            "A single-enantiomer product can be superior to the racemate"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Levo-isomer of atropine is much more active than the dextro-isomer",
+            "S(-) bupivacaine (levobupivacaine) is equally potent but less cardiotoxic and less prone to seizures",
+            "Labetalol has four diastereomers with different alpha and beta profiles"
+          ]
+        },
+        {
+          "h": "Regulation",
+          "points": [
+            "Regulators such as the US-FDA require separate study of the enantiomers of a new chiral drug",
+            "Approval is withheld unless the pure enantiomers are shown to be no better than the racemate"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p105",
+        "KDT8 PDF p141",
+        "KDT8 PDF p407",
+        "KDT8 PDF p181"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-drug-targets",
+      "tags": [
+        "classification",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pd-034",
+      "type": "shortnote",
+      "front": "Short note: Pharmacophore and structure-activity relationships",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Pharmacophore: the chemical features a drug needs for optimal action at its receptor",
+            "Features include size, shape, position and orientation of charged groups, and hydrogen-bond donors"
+          ]
+        },
+        {
+          "h": "Finding it",
+          "points": [
+            "Worked out from the structures and activities of a group of related compounds, using computer analysis",
+            "Structure-activity relationships (SAR) guide the synthesis of many analogues"
+          ]
+        },
+        {
+          "h": "Effect of structure",
+          "points": [
+            "Chemical structure determines both affinity and intrinsic activity",
+            "Small structural changes can alter receptor binding and the pharmacological profile"
+          ]
+        },
+        {
+          "h": "Drug design",
+          "points": [
+            "Early lead compounds are optimised towards a clinical candidate",
+            "Therapeutic antagonists can be made by chemically modifying the physiological agonist"
+          ]
+        }
+      ],
+      "refs": [
+        "GG12 PDF p69",
+        "GG14 PDF p27"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-theory",
+      "tags": [
+        "mechanism",
+        "classification"
       ]
     }
   ]

@@ -49,3 +49,14 @@ Checked against the GG14/Katzung corrections in `review/p2-psych.md`. Deck now 5
 | rf-p2-psych-0395 | Lithium acute mania level now GG14 1.0-1.5 mEq/L; KDT 0.8-1.2 noted as older | KDT8 ch32, GG14 ch19 |
 | rf-p2-psych-0166 | Clozapine neutropenia just under 1%, peak months 2-3; regular counts (KDT weekly) | KDT8 ch32, GG14 ch19, Katzung16 ch29 |
 | rf-p2-psych-0504 | Added: MAOI washout, fluoxetine 4+ weeks, most others about 2 weeks | KDT8 ch33, Katzung16 ch30, Katzung16 ch16, GG14 ch18 |
+
+## PYQ tagging and new cards (2026-11-02)
+- rf-p2-psych-0514 → Neurosteroid that is the basis of brexanolone → rapid pair for the new study card
+- rf-p2-psych-0515 → GABA-A action of brexanolone → rapid pair for the new study card
+- rf-p2-psych-0516 → Brexanolone binding site relative to benzodiazepines → rapid pair for the new study card
+- rf-p2-psych-0517 → Approved indication of brexanolone → rapid pair for the new study card
+- rf-p2-psych-0518 → Route of brexanolone → rapid pair for the new study card
+- rf-p2-psych-0519 → Plasma half-life of brexanolone → rapid pair for the new study card
+- rf-p2-psych-0520 → Serious risk with brexanolone → rapid pair for the new study card
+- rf-p2-psych-0521 → Renal caution with brexanolone → rapid pair for the new study card
+- rf-p2-psych-0522 → Pharmacokinetic interactions of brexanolone → rapid pair for the new study card

@@ -79,3 +79,7 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16). Cards 
 
 ## Still needs a human check
 - None
+
+## PYQ tagging and new cards (2026-11-02)
+- p3-amr-general-015 → PYQ tags added (Resistance to antibiotics) → existing refs
+- p3-amr-general-066 → PYQ tags added (Anti pseudomonal agents) → existing refs

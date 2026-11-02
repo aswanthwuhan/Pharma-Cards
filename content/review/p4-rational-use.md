@@ -38,3 +38,11 @@ Grounding re-check under GROUNDING-RULES.md. Cards now in deck: 26. Corrected: 9
 ## Still needs a human check
 - NLEM 2022 and later WHO lists are not in the owner books; the deck states the KDT editions only.
 - P-drug concept and WHO/INRUD indicators deleted because no book prints them; re-add only if a book source is found (Prep/Sarkar OCR not yet available).
+
+## PYQ coverage pass (2026-11-02)
+
+"Q bank" entries (no year) are not tagged. Format: id → question → source.
+
+- p4-rational-use-030 → Rational use of antibiotics (2 entries) → KDT8 ch50, KDT8 ch5, GG14 ch56 (existing essay, pyq tags added)
+- p4-rational-use-033 → 'P' drug concept (2 entries) → Satoskar Pharmacology PDF p126; Padmaja Medical Pharmacology 7e PDF p98-99; Sarkar p56-60 (new shortnote)
+- rf-p4-rational-use-0166 to 0174 → P-drug rapid pairs → Satoskar Pharmacology PDF p126; Padmaja PDF p98-99; Sarkar p56-60 (new)

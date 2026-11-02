@@ -63,3 +63,6 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, Rang & 
 
 ## Still needs a human check
 - 040/036: renal concentration test with vasopressin/desmopressin kept as in KDT; water deprivation test not described in the books searched
+
+## PYQ tagging and new cards (2026-11-02)
+- p2-renal-047 → PYQ tags added (Potassium sparing diuretics) → existing refs

@@ -97,3 +97,6 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, Rang & 
 - 044: CYP1A2 for R-warfarin is not printed in any owner book; card keeps KDT wording CYP1A
 - 042: KDT factor VIII dose 5-10 U/kg kept as printed; not confirmed in another book
 - Andexanet availability in India is not covered by the books
+
+## PYQ tagging and new cards (2026-11-02)
+- p2-blood-071 → PYQ tags added (Pleiotropic effects of statins) → existing refs

@@ -74,3 +74,6 @@ Grounding re-check under GROUNDING-RULES.md. Cards now in deck: 64. Corrected: 6
 - National immunisation schedule: only the old schedule in KDT ch70 is printed; no UIP card was added.
 - ASV dosing (054) follows KDT (20 ml repeated, local infiltration); no newer book source found.
 - Chelator doses (031 dimercaprol, 029 penicillamine) verified against KDT ch68; no change.
+
+## PYQ tagging and new cards (2026-11-02)
+- p3-misc-068 → Newer vaccines → GG14 PDF p815; GG14 PDF p823; GG14 PDF p824 (new card)

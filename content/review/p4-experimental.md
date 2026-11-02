@@ -81,3 +81,10 @@ Not added or changed:
 - Medhi PDF p85-87 (dose and bath concentration): the worked dilution example is internally inconsistent; not used. Card 054 uses Ghosh PDF p11 instead.
 - Source conflicts, noted for the owner: Medhi Table 2.1 gives De Jalon bicarbonate 5 g vs Ringer-Locke 2 g per 10 L, while Ghosh says De Jalon differs only in CaCl2 and glucose. Mg/PO4 statement: Ghosh names Ringer, Frog-Ringer, De Jalon; Medhi names De Jalon, Frog-Ringer, Ringer-Locke.
 - Page correction: the De Jalon composition statement is on Ghosh PDF p9, not p11 as the brief said.
+
+## PYQ coverage pass (2026-11-02)
+
+"Q bank" entries (no year) are not tagged. Format: id → question → source.
+
+- p4-experimental-001 → General principles of bioassay (6 entries) → RangDale9 ch8; Medhi PMECP PDF p61-62 (existing card, pyq tags added)
+- p4-experimental-042 → Transgenic animals (9 entries) → Sarkar p266-275 (existing card, pyq tags added)

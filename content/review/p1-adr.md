@@ -44,3 +44,7 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 
 ## Still needs a human check
 - 018/026: Katzung source is the appendix "Additional pharmacology competencies" of the owner's Katzung PDF; ref written as "Katzung16 appendix 2".
+
+## Unmatched PYQ pass (2026-11-02)
+p1-adr-030 → Toxicokinetics → GG14 PDF p175, p185 (new card)
+p1-adr-031 → Designer Drugs → GG14 PDF p557 (new card)

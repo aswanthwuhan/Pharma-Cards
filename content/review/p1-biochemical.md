@@ -80,3 +80,11 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | p1-biochemical-028 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
 | p1-biochemical-029 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
 | p1-biochemical-030 | web | WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf |
+
+## PYQ coverage pass (2026-11-02)
+
+"Q bank" entries (no year) are not tagged. Format: id → question → source.
+
+- p1-biochemical-015 → Principles of HPLC (+ 4 HPLC entries) → Sarkar PDF p401-405 (existing card, pyq tags added)
+- p1-biochemical-031 → Radioimmunoassay / Radio immunoassay (7 entries) → Satoskar Pharmacology PDF p159-160 (new shortnote)
+- rf-p1-biochemical-0052 to 0058 → Radioimmunoassay rapid pairs → Satoskar Pharmacology PDF p159-160 (new)

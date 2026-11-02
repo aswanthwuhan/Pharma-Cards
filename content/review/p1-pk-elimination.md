@@ -45,3 +45,6 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 
 ## Still needs a human check
 - None.
+
+## Unmatched PYQ pass (2026-11-02)
+p1-pk-elimination-031 → Pharmacometrics. → Katzung16 PDF p71 (new card)

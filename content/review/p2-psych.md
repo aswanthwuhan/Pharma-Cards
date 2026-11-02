@@ -76,3 +76,8 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 60 original, corrected: 
 
 ## Still needs a human check
 - Lithium: KDT and GG14 ranges differ; cards give GG14 as current and KDT as older.
+
+## PYQ tagging and new cards (2026-11-02)
+- p2-psych-033 → PYQ tags added (Lithium carbonate) → existing refs
+- p2-psych-036 → PYQ tags added (Lithium carbonate) → existing refs
+- p2-psych-063 → Neurosteroids and brexanolone → GG14 PDF p335; GG14 PDF p367; GG14 PDF p369; GG14 PDF p371; Katzung16 PDF p594 (new card)

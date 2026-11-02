@@ -80,3 +80,7 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 ## Still needs a human check
 - 060: GG14 (2023) covers only aducanumab; newer anti-amyloid antibodies are not in any of the owner's books.
 - 006: fomepizole availability in India is as of KDT8; may have changed.
+
+## PYQ tagging and new cards (2026-11-02)
+- p2-opioids-064 → Treatment of opium (opioid) addiction → KDT8 ch34; KDT8 PDF p517; KDT8 PDF p524; KDT8 PDF p525; GG14 PDF p562 (new card)
+- p2-opioids-065 → Recent advances in pain therapy → KDT8 PDF p235; KDT8 PDF p505; KDT8 PDF p519; GG14 PDF p487 (new card)

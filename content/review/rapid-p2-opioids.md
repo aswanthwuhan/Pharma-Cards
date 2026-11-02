@@ -25,3 +25,22 @@ Items not carded because the table text is garbled or conflicts with the chapter
 | rf-p2-opioids-0597 | added: naloxone IM, SC and 4 mg nasal spray (study card 022) | KDT8 ch34, GG14 ch23, GG14 ch28 |
 
 - Orchestrator: rf-p2-opioids-0591 now adds Katzung16 ch65 prevention trials (GEM, GuidAge: no benefit).
+
+## PYQ tagging and new cards (2026-11-02)
+- rf-p2-opioids-0614 → Oral substitution drug in opioid dependence → rapid pair for the new study card
+- rf-p2-opioids-0615 → Typical oral methadone maintenance dose → rapid pair for the new study card
+- rf-p2-opioids-0616 → Effect of methadone maintenance on extra injected opioid → rapid pair for the new study card
+- rf-p2-opioids-0617 → Partial agonist used sublingually in opioid dependence → rapid pair for the new study card
+- rf-p2-opioids-0618 → Dependence liability of buprenorphine versus morphine → rapid pair for the new study card
+- rf-p2-opioids-0619 → Oral opioid antagonist for post-addicts → rapid pair for the new study card
+- rf-p2-opioids-0620 → Naltrexone effect if the user takes an opioid → rapid pair for the new study card
+- rf-p2-opioids-0621 → Alpha-2 agonist that relieves opioid withdrawal symptoms → rapid pair for the new study card
+- rf-p2-opioids-0622 → Withdrawal features clonidine does not relieve → rapid pair for the new study card
+- rf-p2-opioids-0623 → Methadone withdrawal compared with morphine → rapid pair for the new study card
+- rf-p2-opioids-0624 → Preferential COX-2 inhibitor NSAID → rapid pair for the new study card
+- rf-p2-opioids-0625 → Tramadol: opioid and monoamine actions → rapid pair for the new study card
+- rf-p2-opioids-0626 → Serious adverse effects of tramadol → rapid pair for the new study card
+- rf-p2-opioids-0627 → First-line drug for diabetic neuropathy and fibromyalgia → rapid pair for the new study card
+- rf-p2-opioids-0628 → Other drugs for neuropathic pain → rapid pair for the new study card
+- rf-p2-opioids-0629 → Transdermal fentanyl patch change interval → rapid pair for the new study card
+- rf-p2-opioids-0630 → Buprenorphine forms used in chronic cancer pain → rapid pair for the new study card

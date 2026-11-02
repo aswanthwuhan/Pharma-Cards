@@ -928,6 +928,70 @@
           "marks": 10
         }
       ]
+    },
+    {
+      "id": "p1-pk-elimination-031",
+      "type": "shortnote",
+      "front": "Short note: Pharmacometrics in individual dosing",
+      "sections": [
+        {
+          "h": "Population models",
+          "points": [
+            "Dosing tools use pharmacokinetic models built from representative patient populations",
+            "Such tools predict an individual's dose from that patient's measured response"
+          ]
+        },
+        {
+          "h": "Revising an individual estimate",
+          "points": [
+            "Compare predicted pharmacokinetic parameters with the measured concentration",
+            "Example: expected clearance 5.5 L/h; a higher measured level gives a revised clearance of 3.5 L/h, so the daily dose is halved"
+          ]
+        },
+        {
+          "h": "Limit",
+          "points": [
+            "The implicit method is misleading before steady state",
+            "At least a week of regular dosing (four half-lives) must pass first"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 PDF p71"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-elimination-kinetics-dosing",
+      "tags": [
+        "pk",
+        "dosing"
+      ]
     }
   ]
 }

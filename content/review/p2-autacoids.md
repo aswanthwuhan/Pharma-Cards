@@ -98,3 +98,8 @@ Grounded against the owner's books (GROUNDING-RULES.md). Cards checked: 60. Corr
 ## Still needs a human check
 - 051: the books print only the 600 mg mifepristone + 400 mcg misoprostol regimen; the 200 mg/800 mcg regimen used in Indian practice is not in any owner book, so it is not on the card.
 - 051: KDT and Katzung disagree on oral vs vaginal misoprostol; both are shown.
+
+## PYQ tagging and new cards (2026-11-02)
+- p2-autacoids-051 → PYQ tags added (Therapeutic uses of prostaglandins) → existing refs
+- p2-autacoids-052 → PYQ tags added (Therapeutic uses of prostaglandins) → existing refs
+- p2-autacoids-063 → Biological vasodilators → KDT8 PDF p553; GG14 PDF p228; GG14 PDF p719; GG14 PDF p721 (new card)

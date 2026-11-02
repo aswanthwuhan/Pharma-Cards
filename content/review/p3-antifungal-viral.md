@@ -83,3 +83,7 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 65 original, corrected: 
 
 ## Still needs a human check
 - NACO PMTCT infant prophylaxis and current NACO PEP regimen are not in the books; cards keep the KDT (NACO 2013 / WHO 2016) versions.
+
+## PYQ tagging and new cards (2026-11-02)
+- p3-antifungal-viral-071 → Echinocandins → KDT8 ch58; KDT8 PDF p852; KDT8 PDF p853 (new card)
+- p3-antifungal-viral-072 → Protease inhibitors in HIV therapy → KDT8 ch60; KDT8 PDF p876; KDT8 PDF p877 (new card)

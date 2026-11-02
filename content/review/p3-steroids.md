@@ -95,3 +95,7 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16). Cards 
 - Atosiban availability in India: KDT says not approved; check current status before approving 064.
 - Tadalafil-nitrate interval: books say up to 3 days (KDT) / >24 h (GG14); owner to decide whether to state the 48 h label figure (no book source).
 - Medical abortion regimen: cards give the book regimen (600 mg + 400 microgram, 49 days); current Indian MTP practice differs but is not in the books.
+
+## PYQ tagging and new cards (2026-11-02)
+- p3-steroids-051 → PYQ tags added (Hormone replacement therapy) → existing refs
+- p3-steroids-078 → Anabolic steroids → KDT8 ch21; KDT8 PDF p336; KDT8 PDF p337-338 (new card)

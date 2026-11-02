@@ -114,3 +114,11 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | p3-pv-economics-047 | web | https://europepmc.org/article/PMC/PMC13662043 |
 | p3-pv-economics-048 | web | https://europepmc.org/article/PMC/PMC13662043 |
 | p3-pv-economics-049 | web | https://europepmc.org/article/PMC/PMC13662043 |
+
+## PYQ coverage pass (2026-11-02)
+
+"Q bank" entries (no year) are not tagged. Format: id → question → source.
+
+- p3-pv-economics-028 → Pharmacoeconomics (6 entries) → Sarkar p81-85; RangDale9 ch1 (existing essay, pyq tags added)
+- p3-pv-economics-053 → Pharmacoepidemiology (7 entries) → Katzung16 PDF p1278, p1281; RangDale9 PDF p11 (new shortnote)
+- rf-p3-pv-economics-0271 to 0277 → Pharmacoepidemiology rapid pairs → Katzung16 PDF p1278, p1281; RangDale9 PDF p11 (new)

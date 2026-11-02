@@ -72,3 +72,6 @@ Added 6 cards (033-038), all draft. Deck now 38 cards.
 | Indian regulatory history (Drugs and Cosmetics Act, CDSCO) | Covered | 036 (Sarkar p31-35); 037 (Sarkar p36-40, p91-95); 038 (Sarkar p91-95, WHO monitoring 1997) |
 
 Searched: full Prep, Sarkar and RR OCR (ayurved, charaka, sushrut, chopra, drugs and cosmetics, CDSCO, 1997). KDT8 ch1 mentions traditional systems only in general terms, so nothing carded from it.
+
+## Unmatched PYQ pass (2026-11-02)
+p1-history-molecular-035 → Reverse pharmacology. → Sarkar p16-20 (existing card, pyq tags added)
