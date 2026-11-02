@@ -117,39 +117,72 @@ function Sections({ sections }: { sections: Section[] }) {
   );
 }
 
-/** Essay answers open one heading at a time, so you try to recall each part before seeing it. */
+/**
+ * Essay answers as a heading ladder: every heading is a mini flashcard. Recall its points, tap to open,
+ * then mark it recalled or missed; the tally at the bottom guides the grade for the whole card.
+ */
 function EssayOutline({ sections }: { sections: Section[] }) {
-  const [shown, setShown] = useState(1);
+  const [open, setOpen] = useState<Set<number>>(() => new Set());
+  const [marks, setMarks] = useState<Record<number, boolean>>({});
+  const recalled = Object.values(marks).filter(Boolean).length;
+  const marked = Object.keys(marks).length;
+  const stop = (fn: () => void) => (e: React.MouseEvent) => {
+    e.stopPropagation(); // a tap here must not flip the card
+    fn();
+  };
   return (
-    <div>
-      <ol className="mb-4 flex gap-1" aria-label={`Heading ${shown} of ${sections.length}`}>
-        {sections.map((_, i) => (
-          <li key={i} className={`h-1 flex-1 rounded-full ${i < shown ? "bg-[#1f7a5c]" : "bg-porcelain-rule"}`} />
-        ))}
-      </ol>
-      <Sections sections={sections.slice(0, shown)} />
-      {shown < sections.length && (
-        <div className="mt-4 flex gap-2">
-          <button
-            className="btn min-h-11 bg-porcelain-ink text-porcelain"
-            onClick={(e) => {
-              e.stopPropagation();
-              setShown(shown + 1);
-            }}
-          >
-            Show next heading
-          </button>
-          <button
-            className="btn min-h-11 text-porcelain-soft"
-            onClick={(e) => {
-              e.stopPropagation();
-              setShown(sections.length);
-            }}
-          >
-            Show all
-          </button>
-        </div>
-      )}
+    <div className="space-y-2">
+      {sections.map((s, i) => {
+        const isOpen = open.has(i);
+        const mark = marks[i];
+        return (
+          <section key={i} className="overflow-hidden rounded-lg border border-porcelain-rule bg-porcelain-2/60">
+            <button
+              type="button"
+              aria-expanded={isOpen}
+              onClick={stop(() => setOpen((o) => new Set(o).add(i)))}
+              className="flex min-h-12 w-full items-center gap-3 px-4 py-2 text-left"
+            >
+              <span
+                aria-hidden
+                className="h-2.5 w-2.5 shrink-0 rounded-full border border-porcelain-rule"
+                style={{ background: mark === undefined ? "transparent" : mark ? "var(--color-strong)" : "var(--color-weak)" }}
+              />
+              <span className="flex-1 font-mono text-xs font-semibold tracking-wide text-[#1f5c48] uppercase">{s.h}</span>
+              {!isOpen && <span className="rounded-full bg-[#d9efe4] px-2 py-0.5 font-mono text-[10px] text-[#1f5c48]">recall, then tap</span>}
+            </button>
+            {isOpen && (
+              <div className="px-4 pb-3">
+                <ul className="ml-4 list-disc space-y-1 text-[16px] leading-snug marker:text-porcelain-soft">
+                  {s.points.map((p, j) => (
+                    <li key={j}>{p}</li>
+                  ))}
+                </ul>
+                <div className="mt-3 flex gap-2">
+                  {([true, false] as const).map((ok) => (
+                    <button
+                      key={String(ok)}
+                      type="button"
+                      aria-pressed={mark === ok}
+                      onClick={stop(() => setMarks((m) => ({ ...m, [i]: ok })))}
+                      className="min-h-9 flex-1 rounded-full border px-3 font-mono text-xs"
+                      style={{
+                        borderColor: ok ? "var(--color-strong)" : "var(--color-weak)",
+                        background: mark === ok ? `color-mix(in srgb, ${ok ? "var(--color-strong)" : "var(--color-weak)"} 18%, transparent)` : "transparent",
+                      }}
+                    >
+                      {ok ? "✓ Recalled" : "✗ Missed"}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </section>
+        );
+      })}
+      <p className="pt-1 text-center font-mono text-[11px] text-porcelain-soft">
+        {marked ? `Recalled ${recalled} of ${sections.length} headings` : `${sections.length} headings · open each after recalling it`}
+      </p>
     </div>
   );
 }
