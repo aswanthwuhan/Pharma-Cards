@@ -101,12 +101,22 @@ for (const file of readdirSync(rapidDir).filter((f) => f.endsWith(".json")).sort
   const subIds = new Set((subtopics[deck.topicId] ?? []).map((s) => s.id));
   if (!subIds.size) errors.push(`rapid/${file}: unknown topic ${deck.topicId}`);
   if (!TOPIC_IDS.has(deck.topicId)) errors.push(`rapid/${file}: topic ${deck.topicId} not in lib/syllabus.ts`);
+  const seenQ = new Map();
   for (const c of deck.cards ?? []) {
     const where = `rapid/${file}:${c.id ?? "?"}`;
     if (!c.id?.startsWith(`rf-${deck.topicId}-`)) errors.push(`${where}: id must start with rf-${deck.topicId}-`);
     else if (ids.has(c.id)) errors.push(`${where}: duplicate id`);
     ids.add(c.id);
     if (blank(c.q) || blank(c.a)) errors.push(`${where}: needs q and a`);
+    else {
+      const q = c.q.trim().toLowerCase().replace(/[:\s]+/g, " ");
+      if (q === c.a.trim().toLowerCase()) errors.push(`${where}: q and a are the same`);
+      if (seenQ.has(q)) errors.push(`${where}: same q as ${seenQ.get(q)}`);
+      else seenQ.set(q, c.id);
+      // A class card is a list; with one item it renders as a single chip and reverses badly.
+      if (c.kind === "class" && c.a.replace(/\([^)]*\)/g, "").split(/\s*;\s*|,\s*|\s+and\s+|\s+or\s+/).filter((s) => s.trim()).length < 2)
+        errors.push(`${where}: class card needs at least 2 items (or kind "fact")`);
+    }
     errors.push(...commonErrors(c, where));
     if (!subIds.has(c.subtopic)) errors.push(`${where}: unknown subtopic ${c.subtopic}`);
     if (!Array.isArray(c.refs) || !c.refs.length) errors.push(`${where}: refs required`);

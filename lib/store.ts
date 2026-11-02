@@ -2,6 +2,7 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import bundled from "@/content/all.json";
+import { cardError } from "./cardCheck";
 import { db, getSetting } from "./db";
 import { groupMastery, groupWeight, rollupMastery, type TopicMastery } from "./mastery";
 import { recallProbability } from "./srs";
@@ -15,10 +16,13 @@ const BUNDLED = bundled as FlashCard[];
 export async function loadAllCards(): Promise<FlashCard[]> {
   const [custom, overrides] = await Promise.all([db.customCards.toArray(), db.overrides.toArray()]);
   const byId = new Map<string, FlashCard>();
-  for (const c of [...BUNDLED, ...custom]) byId.set(c.id, { ...c, status: c.status ?? "draft" });
+  for (const c of BUNDLED) byId.set(c.id, { ...c, status: c.status ?? "draft" });
+  // Imported cards and edits are skipped if they would leave a card that cannot render.
+  for (const c of custom) if (!cardError(c)) byId.set(c.id, { ...c, status: c.status ?? "draft" });
   for (const o of overrides) {
     const c = byId.get(o.id);
-    if (c) byId.set(o.id, { ...c, ...o });
+    const merged = c && { ...c, ...o };
+    if (merged && !cardError(merged)) byId.set(o.id, merged);
   }
   return [...byId.values()];
 }
@@ -180,9 +184,11 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       const due = cards
         .filter((c) => (states.get(c.id)?.due ?? Infinity) <= now.getTime())
         .sort((a, b) => states.get(a.id)!.due - states.get(b.id)!.due);
-      const newLimit = await dailyNewTarget(cards, states);
       const reviewedToday = await db.reviews.where("at").aboveOrEqual(startOfDay()).toArray();
-      const newDoneToday = new Set(reviewedToday.filter((r) => r.mode === "daily-new").map((r) => r.cardId)).size;
+      const doneToday = new Set(reviewedToday.filter((r) => r.mode === "daily-new").map((r) => r.cardId));
+      const newDoneToday = doneToday.size;
+      // Plan today's quota from the start-of-day count, so reopening a session does not shrink it.
+      const newLimit = await dailyNewTarget(cards, { has: (id) => states.has(id) && !doneToday.has(id) });
       const { subtopic } = await computeMastery(cards);
       const fresh = stratifiedSample(
         cards.filter((c) => !states.has(c.id)).map(bySubtopic),
@@ -209,6 +215,7 @@ export async function dailyNewTarget(cards: FlashCard[], seen: { has(id: string)
   const unseen = cards.filter((c) => !seen.has(c.id)).length;
   const [y, m, d] = examDate.split("-").map(Number);
   const days = Math.ceil((new Date(y, m - 1, d).getTime() - Date.now()) / 86_400_000) - 10;
+  if (!Number.isFinite(days)) return fallback; // malformed date
   // Revision window (or exam passed): fall back to the normal daily limit instead of 0 forever.
   if (days <= 0) return Math.min(fallback, unseen);
   return Math.max(5, Math.ceil(unseen / days));

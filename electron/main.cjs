@@ -159,8 +159,10 @@ function createWindow() {
     }, 10000);
     wc.once('did-finish-load', () => {
       clearTimeout(smokeTimer);
-      console.log(`SMOKE OK ${wc.getTitle()}`);
-      app.exit(0);
+      // The app:// 404 page also "finishes loading", so require the app's own title.
+      const ok = wc.getTitle().startsWith('Pharmacards');
+      console[ok ? 'log' : 'error'](`SMOKE ${ok ? 'OK' : 'FAIL'} ${wc.getTitle()}`);
+      app.exit(ok ? 0 : 1);
     });
     wc.on('did-fail-load', (_event, code, desc, url, isMainFrame) => {
       if (!isMainFrame) return;
@@ -175,7 +177,8 @@ function createWindow() {
 
 const gotLock = app.requestSingleInstanceLock();
 if (!gotLock) {
-  app.quit();
+  if (SMOKE) console.error('SMOKE FAIL another instance is running');
+  SMOKE ? app.exit(1) : app.quit();
 } else {
   app.on('second-instance', () => {
     if (mainWindow) {

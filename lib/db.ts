@@ -76,9 +76,12 @@ export async function pruneSnapshots() {
 db.on("ready", () => pruneSnapshots().catch(() => {}));
 
 /** Merge an admin edit/approval into any existing override for the card. */
-export async function patchOverride(patch: CardOverride) {
-  const prev = await db.overrides.get(patch.id);
-  return db.overrides.put({ ...prev, ...patch });
+export function patchOverride(patch: CardOverride) {
+  // One transaction, so two quick edits (or two tabs) cannot drop each other's fields.
+  return db.transaction("rw", db.overrides, async () => {
+    const prev = await db.overrides.get(patch.id);
+    return db.overrides.put({ ...prev, ...patch });
+  });
 }
 
 export async function getSetting<T>(key: string, fallback: T): Promise<T> {
@@ -104,6 +107,12 @@ const str = (v: unknown) => typeof v === "string" && v.trim().length > 0;
 const num = (v: unknown) => typeof v === "number" && Number.isFinite(v);
 const time = (v: unknown) => (typeof v === "string" || typeof v === "number") && Number.isFinite(new Date(v).getTime());
 const obj = (v: unknown): v is Record<string, any> => !!v && typeof v === "object" && !Array.isArray(v);
+/** Known settings with a constrained value; other keys pass through. */
+const SETTING_OK: Record<string, (v: unknown) => boolean> = {
+  examDate: (v) => v == null || v === "" || (typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v) && time(v)),
+  newPerDay: (v) => Number.isInteger(v) && (v as number) >= 0 && (v as number) <= 500,
+  retention: (v) => num(v) && (v as number) >= 0.8 && (v as number) <= 0.97,
+};
 const FSRS_NUMS = ["stability", "difficulty", "scheduled_days", "reps", "lapses", "state"];
 
 /** Row shape checks: a bad row is skipped, never imported. */
@@ -114,7 +123,7 @@ const VALID: Record<BackupTable, (r: any) => boolean> = {
   reviews: (r) => obj(r) && str(r.cardId) && str(r.topicId) && [1, 2, 3, 4].includes(r.rating) && num(r.at) && num(r.ms) && typeof r.mode === "string",
   bookmarks: (r) => obj(r) && str(r.cardId) && num(r.at),
   notes: (r) => obj(r) && str(r.cardId) && typeof r.text === "string",
-  settings: (r) => obj(r) && str(r.key),
+  settings: (r) => obj(r) && str(r.key) && (SETTING_OK[r.key]?.(r.value) ?? true),
   snapshots: (r) => obj(r) && num(r.at) && typeof r.label === "string" && obj(r.scores),
   overrides: (r) => obj(r) && str(r.id),
   customCards: (r) => obj(r) && str(r.id) && !r.id.includes("~") && str(r.topicId) && typeof r.type === "string" && str(r.front),

@@ -1,5 +1,6 @@
 "use client";
 
+import { cardError } from "@/lib/cardCheck";
 import { useState } from "react";
 import { CardView } from "@/components/CardView";
 import { db, patchOverride } from "@/lib/db";
@@ -16,25 +17,6 @@ const chipOn = `${chip} border-teal bg-teal font-semibold text-on-teal`;
 const field =
   "min-h-11 w-full min-w-0 rounded-xl border border-rule bg-well px-4 text-base text-ink disabled:opacity-50 sm:w-auto";
 const mono = "rounded-full border border-rule bg-well px-2 py-0.5 font-mono text-[11px] text-ink-soft";
-
-const blank = (v: unknown) => typeof v !== "string" || !v.trim();
-
-/** Small copy of scripts/validate-content.mjs card checks (that script uses node:fs, so it cannot be bundled). */
-function deckCardError(c: Partial<FlashCard>): string | null {
-  if (blank(c.id)) return "missing id";
-  if (c.id!.includes("~")) return "id must not contain ~";
-  if (!["basic", "shortnote", "essay", "cloze"].includes(c.type as string)) return `bad type ${c.type}`;
-  if (blank(c.front)) return "missing front";
-  if (c.type === "basic" && blank(c.back)) return "basic needs back";
-  if ((c.type === "shortnote" || c.type === "essay") && !c.sections?.length) return `${c.type} needs sections`;
-  if (c.sections?.some((s) => !Array.isArray(s?.points))) return "every section needs a points array";
-  if (c.type === "cloze" && !/\{\{.+?\}\}/.test(c.text ?? "")) return "cloze needs {{blanks}}";
-  if (c.status !== undefined && c.status !== "draft" && c.status !== "approved") return `bad status ${c.status}`;
-  if (c.refs !== undefined && (!Array.isArray(c.refs) || !c.refs.length || c.refs.some(blank))) return "refs must be non-empty strings";
-  if (c.pyq !== undefined && (!Array.isArray(c.pyq) || c.pyq.some((q) => blank(q?.university) || typeof q.year !== "number" || (q.marks !== undefined && typeof q.marks !== "number"))))
-    return "bad pyq";
-  return null;
-}
 
 export default function Admin() {
   const cards = useAllCards();
@@ -62,8 +44,8 @@ export default function Admin() {
       const deck = JSON.parse(await file.text()) as Deck;
       if (!topicById.has(deck.topicId)) throw new Error(`Unknown topicId ${deck.topicId}`);
       if (!Array.isArray(deck.cards)) throw new Error("Deck has no cards array");
-      const bad = deck.cards.find((c) => deckCardError(c));
-      if (bad) throw new Error(`Card ${bad.id ?? "?"}: ${deckCardError(bad)}`);
+      const bad = deck.cards.find((c) => cardError(c));
+      if (bad) throw new Error(`Card ${bad.id ?? "?"}: ${cardError(bad)}`);
       await db.customCards.bulkPut(deck.cards.map((c) => ({ ...c, topicId: deck.topicId, status: c.status ?? "draft" }) as FlashCard));
       setMsg(`Imported ${deck.cards.length} cards into ${deck.topicId}`);
     } catch (e) {
@@ -236,7 +218,10 @@ function Editor({ card, onClose }: { card: FlashCard; onClose: () => void }) {
           className="btn-primary"
           onClick={async () => {
             try {
-              await patchOverride({ ...JSON.parse(json), id: card.id });
+              const patch = { ...JSON.parse(json), id: card.id };
+              const bad = cardError({ ...card, ...patch });
+              if (bad) throw new Error(bad);
+              await patchOverride(patch);
               onClose();
             } catch (e) {
               setErr((e as Error).message);

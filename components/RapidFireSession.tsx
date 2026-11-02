@@ -36,12 +36,17 @@ export function RapidFireSession({
   const [i, setI] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [log, setLog] = useState<{ card: FlashCard; knew: boolean; undo: ReviewUndo }[]>([]);
-  const [streak, setStreak] = useState(0);
-  const [best, setBest] = useState(0);
   const shownAt = useRef(Date.now());
   const busy = useRef(false);
   const card = cards[i];
   const done = i >= cards.length;
+  // Streaks come from the log, so Undo and "drill missed" keep them right.
+  let streak = 0;
+  let best = 0;
+  for (const e of log) {
+    streak = e.knew ? streak + 1 : 0;
+    best = Math.max(best, streak);
+  }
 
   const x = useMotionValue(0);
   const rotate = useTransform(x, [-300, 300], reduce ? [0, 0] : [-6, 6]);
@@ -67,11 +72,6 @@ export function RapidFireSession({
         }
         const undo = await recordReview(card, knew ? KNEW : MISSED, Date.now() - shownAt.current, "rapid");
         setLog((l) => [...l, { card, knew, undo }]);
-        setStreak((s) => {
-          const n = knew ? s + 1 : 0;
-          setBest((b) => Math.max(b, n));
-          return n;
-        });
         setFlipped(false);
         setI((n) => n + 1);
       } finally {
@@ -88,7 +88,6 @@ export function RapidFireSession({
     try {
       await undoReview(last.undo);
       setLog((l) => l.slice(0, -1));
-      setStreak(0);
       setI((n) => n - 1);
       setFlipped(true);
     } finally {
@@ -226,7 +225,6 @@ export function RapidFireSession({
               onClick={() => {
                 setCards(missed);
                 setLog([]);
-                setStreak(0);
                 setI(0);
               }}
             >
@@ -244,7 +242,7 @@ export function RapidFireSession({
     );
 
   const isList = card.kind === "class";
-  const answerItems = isList && card.back ? card.back.split(/,\s*/) : null;
+  const answerItems = isList && card.back ? card.back.split(/\s*;\s*|,\s+(?![^()]*\))/) : null;
   const sub = card.subtopic ? subtopicById.get(card.subtopic)?.title : undefined;
   const isReverse = card.id.endsWith("~r");
 

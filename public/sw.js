@@ -1,6 +1,6 @@
 // Pharmacards service worker. Plain JS, no dependencies.
-// Bump CACHE_VERSION when the shell changes so old caches are dropped on activate.
-const CACHE_VERSION = "v1";
+// The app registers /sw.js?v=<app version>, so each release installs a fresh cache and prunes the old one.
+const CACHE_VERSION = new URL(self.location.href).searchParams.get("v") || "dev";
 const CACHE_NAME = `pharmacards-${CACHE_VERSION}`;
 const ROUTES = ["/", "/browse", "/stats", "/bookmarks", "/settings", "/admin", "/study"];
 const PRECACHE_URLS = [...ROUTES, "/manifest.webmanifest"];
@@ -22,7 +22,7 @@ async function pruneStatic() {
   for (const route of ROUTES) {
     const res = await cache.match(route);
     if (!res) return; // shortcut: if a page is missing we cannot tell what is used, so prune nothing
-    for (const m of (await res.text()).matchAll(/\/_next\/static\/[^"'\s)\]+/g)) used.add(m[0]);
+    for (const m of (await res.text()).matchAll(/\/_next\/static\/[^"'\s)\]]+/g)) used.add(m[0]);
   }
   // shortcut: lazily imported chunks not named in any page HTML are pruned too; they re-download online.
   for (const req of await cache.keys()) {
@@ -85,7 +85,7 @@ self.addEventListener("fetch", (event) => {
           }
           return response;
         })
-        .catch(() => caches.match(request).then((cached) => cached || caches.match("/"))),
+        .catch(() => caches.match(request, { ignoreSearch: true }).then((cached) => cached || caches.match("/"))),
     );
   }
 });

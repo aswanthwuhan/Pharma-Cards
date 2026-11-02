@@ -36,14 +36,14 @@ function historyLine(state: { fsrs: { reps: number; lapses: number }; lastRating
   return `Reviewed ${r} time${r > 1 ? "s" : ""}${state.fsrs.lapses ? `, forgot ${state.fsrs.lapses}x` : ""}, last: ${GRADE_WORD[state.lastRating]}`;
 }
 
-/** mm:ss on the card, counting from when the card appeared. Re-renders only itself. */
-function CardTimer({ since }: { since: number }) {
+/** mm:ss on the card. Reads the same start time as the recorded answer time, so hidden time is left out of both. */
+function CardTimer({ started }: { started: { current: number } }) {
   const [now, setNow] = useState(Date.now());
   useEffect(() => {
     const t = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(t);
-  }, [since]);
-  const sec = Math.max(0, Math.floor((now - since) / 1000));
+  }, []);
+  const sec = Math.max(0, Math.floor((now - started.current) / 1000));
   return (
     <span className="font-mono text-[11px] text-porcelain-soft tabular-nums" aria-label="Time on this card">
       {String(Math.floor(sec / 60)).padStart(2, "0")}:{String(sec % 60).padStart(2, "0")}
@@ -75,8 +75,6 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
   const note = useLiveQuery(() => (card ? db.notes.get(card.id) : undefined), [card?.id]);
   const settings = useSettings();
   const intervals = previewIntervals(state, settings.retention);
-  const [shownAt, setShownAt] = useState(Date.now());
-  useEffect(() => setShownAt(Date.now()), [card?.id]);
 
   useEffect(() => {
     computeMastery().then(setBefore);
@@ -95,7 +93,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
 
   // Answer time leaves out time the app spent hidden (switched away, screen off).
   useEffect(() => {
-    let hiddenAt = 0;
+    let hiddenAt = document.hidden ? Date.now() : 0;
     const onVis = () => {
       if (document.hidden) hiddenAt = Date.now();
       else if (hiddenAt) started.current += Date.now() - hiddenAt;
@@ -261,7 +259,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
           intervals={intervals}
           swipe={settings.swipe}
           haptics={settings.haptics}
-          aside={<CardTimer since={shownAt} />}
+          aside={<CardTimer key={card.id} started={started} />}
           history={historyLine(state)}
         />
       </div>

@@ -32,11 +32,14 @@ function scopeHref(params: URLSearchParams, mode: StudyMode, extra: Record<strin
 function Study() {
   const params = useSearchParams();
   const router = useRouter();
-  const mode = (params.get("mode") ?? "daily") as StudyMode;
+  const rawMode = params.get("mode") as StudyMode | null;
+  const mode: StudyMode = rawMode && rawMode in TITLES ? rawMode : "daily";
   const topic = params.get("topic");
   const subtopic = params.get("subtopic");
-  const tag = params.get("tag") as Tag | null;
-  const size = params.get("n") ? Number(params.get("n")) : undefined;
+  const rawTag = params.get("tag") as Tag | null;
+  const tag = rawTag && rawTag in TAG_LABEL ? rawTag : null;
+  const n = Number(params.get("n"));
+  const size = Number.isInteger(n) && n > 0 ? n : undefined;
   const types = params.get("types")?.split(",").filter(Boolean);
   const pyqOnly = params.get("pyq") === "1";
   const direction = (params.get("dir") ?? "forward") as RapidDirection;

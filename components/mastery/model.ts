@@ -28,6 +28,7 @@ export const PAPER_TAB: Record<string, string> = {
   P2: "II: Systemic",
   P3: "III: Clinical & research",
   P4: "IV: Recent advances",
+  PR: "Practical exam",
 };
 
 /** "Paper I — General Pharmacology" -> "Paper I: General Pharmacology". */

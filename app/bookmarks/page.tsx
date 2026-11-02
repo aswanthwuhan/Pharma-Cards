@@ -22,20 +22,32 @@ export default function Saved() {
     topic: t,
     cards: ids.map((id) => byId.get(id)).filter((c): c is FlashCard => !!c && c.topicId === t.id),
   })).filter((g) => g.cards.length);
+  const savedCount = (bookmarks ?? []).filter((b) => byId.has(b.cardId)).length;
+  // Saved items whose card was removed from the content: count them out and let the user clear them.
+  const orphans = cards ? ids.filter((id) => !byId.has(id)) : [];
 
   return (
     <div className="space-y-6">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h1 className="font-serif text-3xl font-semibold tracking-tight">Saved</h1>
-          {!!bookmarks?.length && <p className="eyebrow mt-1">{bookmarks.length} saved</p>}
+          {!!savedCount && <p className="eyebrow mt-1">{savedCount} saved</p>}
         </div>
-        {!!bookmarks?.length && (
+        {!!savedCount && (
           <Link href="/study?mode=bookmarks" className="btn-primary">
             Study saved cards
           </Link>
         )}
       </div>
+
+      {!!orphans.length && (
+        <button
+          className="btn-ghost text-sm"
+          onClick={() => Promise.all([db.bookmarks.where("cardId").anyOf(orphans).delete(), db.notes.where("cardId").anyOf(orphans).delete()])}
+        >
+          Remove {orphans.length} saved item{orphans.length > 1 ? "s" : ""} for cards that no longer exist
+        </button>
+      )}
 
       {bookmarks !== undefined && cards !== undefined && !groups.length && (
         <div className="sheet p-6 text-center">

@@ -68,7 +68,7 @@ export function DataPanel() {
     }
     if (
       !window.confirm(
-        `Import ${total} records from "${file.name}"? Review history is merged (duplicates skipped). Schedules, notes, bookmarks and settings with the same ID are replaced. Everything else on this device is kept.`,
+        `Import ${total} records from "${file.name}"? Review history is merged (duplicates skipped). Schedules, notes, bookmarks, settings, card approvals/edits and imported cards with the same ID are replaced by the file's version. Everything else on this device is kept.`,
       )
     ) {
       setStatus("Import cancelled.");

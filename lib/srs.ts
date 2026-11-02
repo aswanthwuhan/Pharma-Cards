@@ -66,8 +66,13 @@ export async function undoReview(u: ReviewUndo) {
 /** Human-readable next interval for each button, e.g. "10m", "3d". */
 export function previewIntervals(state: CardState | undefined, retention = 0.9): Record<number, string> {
   const now = new Date();
-  const preview = schedulerFor(retention).repeat(state?.fsrs ?? (createEmptyCard(now) as FsrsCard), now);
   const out: Record<number, string> = {};
+  let preview;
+  try {
+    preview = schedulerFor(retention).repeat(state?.fsrs ?? (createEmptyCard(now) as FsrsCard), now);
+  } catch {
+    return out; // damaged stored state: show no intervals rather than crash the session
+  }
   for (const g of [Rating.Again, Rating.Hard, Rating.Good, Rating.Easy] as Grade[]) {
     const mins = (new Date(preview[g].card.due).getTime() - now.getTime()) / 60000;
     out[g] = mins < 60 ? `${Math.max(1, Math.round(mins))}m` : mins < 1440 ? `${Math.round(mins / 60)}h` : `${Math.round(mins / 1440)}d`;
