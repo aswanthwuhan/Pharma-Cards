@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.view.View;
 import android.webkit.JavascriptInterface;
+import androidx.activity.OnBackPressedCallback;
 import android.webkit.ServiceWorkerClient;
 import android.webkit.ServiceWorkerController;
 import android.webkit.WebResourceRequest;
@@ -42,12 +43,18 @@ public class MainActivity extends BridgeActivity {
             (v, l, t, r, b, ol, ot, or, ob) -> updateGestureExclusion(v)
         );
         bridge.getWebView().addJavascriptInterface(new ExitBridge(), "PharmaNative");
+        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                handleBack();
+            }
+        });
     }
 
     // The web app decides what Back does (history step, or the close-app prompt on home).
     // It returns false when it is not ready, and then the WebView or the activity handles it.
-    @Override
-    public void onBackPressed() {
+    // Android 13+ routes Back through the dispatcher and never calls onBackPressed(), so register a callback.
+    private void handleBack() {
         bridge.getWebView().evaluateJavascript("window.__nativeBack ? window.__nativeBack() : false", result -> {
             if ("true".equals(result)) return;
             if (bridge.getWebView().canGoBack()) bridge.getWebView().goBack();
@@ -80,7 +87,18 @@ public class MainActivity extends BridgeActivity {
     private WebResourceRequest toRouteAsset(WebResourceRequest request) {
         Uri url = request.getUrl();
         String path = url.getPath();
-        if (!isPageRequest(request) || !"GET".equals(request.getMethod()) || path == null) return request;
+        if (path == null || !"GET".equals(request.getMethod())) return request;
+        // Next prefetches /browse/__next.browse.__PAGE__.txt; the export writes /browse/__next.browse/__PAGE__.txt.
+        // Without this every in-app navigation misses and falls back to a full page reload.
+        int slash = path.lastIndexOf('/');
+        if (path.endsWith(".txt") && path.startsWith("__next.", slash + 1) && !assetExists("public" + path)) {
+            String name = path.substring(0, path.length() - 4);
+            int dot = name.lastIndexOf('.');
+            String mapped = name.substring(0, dot) + "/" + name.substring(dot + 1) + ".txt";
+            if (dot > slash + 7 && assetExists("public" + mapped)) return withUrl(request, url.buildUpon().path(mapped).build());
+            return request;
+        }
+        if (!isPageRequest(request)) return request;
         String route = path.replaceAll("/+$", "");
         if (!ROUTE.matcher(route).matches() || !assetExists("public" + route + ".html")) return request;
         return withUrl(request, url.buildUpon().path(route + ".html").build());

@@ -13,6 +13,7 @@ import type { SwipeGrade } from "@/lib/swipe";
 import type { FlashCard } from "@/lib/types";
 import { BottomSheet } from "./BottomSheet";
 import { NavBack } from "./NavBack";
+import { ProgressRing } from "./ProgressRing";
 import { SessionSummary } from "./SessionSummary";
 import { MasteryPill } from "./MasteryPill";
 import { GRADE_META, gradeCurrentCard, SwipeDeck } from "./SwipeDeck";
@@ -35,30 +36,6 @@ function historyLine(state: { fsrs: { reps: number; lapses: number }; lastRating
   if (!state || !state.fsrs.reps) return "First time";
   const r = state.fsrs.reps;
   return `Reviewed ${r} time${r > 1 ? "s" : ""}${state.fsrs.lapses ? `, forgot ${state.fsrs.lapses}x` : ""}, last: ${GRADE_WORD[state.lastRating]}`;
-}
-
-/** Round session progress: a teal arc that fills as cards are answered. */
-function ProgressRing({ value, max }: { value: number; max: number }) {
-  const r = 15;
-  const len = 2 * Math.PI * r;
-  const frac = max ? value / max : 0;
-  return (
-    <svg width="40" height="40" viewBox="0 0 40 40" role="progressbar" aria-valuenow={value} aria-valuemin={0} aria-valuemax={max} aria-label="Session progress" className="shrink-0 -rotate-90">
-      <circle cx="20" cy="20" r={r} fill="none" stroke="var(--color-rule)" strokeWidth="4" />
-      <circle
-        cx="20"
-        cy="20"
-        r={r}
-        fill="none"
-        stroke="var(--color-teal)"
-        strokeWidth="4"
-        strokeLinecap="round"
-        strokeDasharray={len}
-        strokeDashoffset={len * (1 - frac)}
-        className="transition-[stroke-dashoffset] duration-300"
-      />
-    </svg>
-  );
 }
 
 /** mm:ss on the card. Reads the same start time as the recorded answer time, so hidden time is left out of both. */
@@ -320,9 +297,8 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
             </div>
           </>
         ) : (
-          <button onClick={() => setRevealed(true)} className="btn-primary min-h-14 w-full text-base">
-            Show answer
-          </button>
+          // Same height as the grade row, so the card does not resize when the answer appears.
+          <p className="flex min-h-14 items-center justify-center font-mono text-xs text-ink-soft">Tap the card to see the answer</p>
         )}
       </div>
 

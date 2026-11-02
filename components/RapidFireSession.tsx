@@ -9,6 +9,8 @@ import { useReduceMotion, useSettings } from "@/lib/settings";
 import type { RapidDirection } from "@/lib/store";
 import { subtopicById, topicById } from "@/lib/syllabus";
 import type { FlashCard } from "@/lib/types";
+import { NavBack } from "./NavBack";
+import { ProgressRing } from "./ProgressRing";
 
 const KNEW: Grade = 3;
 const MISSED: Grade = 1;
@@ -105,7 +107,7 @@ export function RapidFireSession({
         // Enter/Space on a focused control belongs to that control.
         if (el.closest?.("button, a, [role=radio]")) return;
         e.preventDefault();
-        setFlipped((f) => !f);
+        setFlipped(true);
       } else if (flipped && (e.key === "ArrowRight" || e.key === "3")) grade(true);
       else if (flipped && (e.key === "ArrowLeft" || e.key === "1")) grade(false);
     };
@@ -132,7 +134,7 @@ export function RapidFireSession({
     if (!d || d.id !== e.pointerId) return;
     drag.current = null;
     const dx = x.get();
-    if (!d.moved) return setFlipped((f) => !f);
+    if (!d.moved) return setFlipped(true); // a tap only reveals; it never flips back to the question
     if (flipped && settings.swipe && Math.abs(dx) > 90) return void grade(dx > 0);
     animate(x, 0, { type: "spring", stiffness: 400, damping: 32, velocity: x.getVelocity() });
   };
@@ -142,16 +144,13 @@ export function RapidFireSession({
 
   const header = (
     <div className="flex items-center gap-2">
-      <Link href="/" aria-label="End session" className="btn min-h-11 w-11 border border-rule bg-sheet px-0 text-ink-soft">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
-          <path d="M6 6l12 12M18 6L6 18" />
-        </svg>
-      </Link>
+      <NavBack />
+      <ProgressRing value={i} max={Math.max(1, cards.length)} />
       <div className="min-w-0 flex-1">
         <p className="eyebrow text-teal">Rapid fire</p>
         <p className="truncate font-serif text-lg leading-tight">{title}</p>
       </div>
-      <Link href={fullCardsHref} role="switch" aria-checked="true" aria-label="Rapid fire mode on; switch to full cards" className="flex min-h-11 items-center gap-2 rounded-full border border-teal bg-teal-wash px-3 text-xs font-semibold text-teal">
+      <Link href={fullCardsHref} role="switch" aria-checked="true" aria-label="Rapid fire mode on; switch to full cards" className="flex min-h-10 items-center gap-2 rounded-full border border-teal bg-teal-wash px-3 text-xs font-semibold text-teal">
         <span className="relative h-4 w-7 rounded-full bg-teal">
           <span className="absolute top-0.5 right-0.5 h-3 w-3 rounded-full bg-on-teal" />
         </span>
@@ -161,7 +160,7 @@ export function RapidFireSession({
   );
 
   const directionPicker = (
-    <div className="glass flex rounded-full p-0.5 text-xs" role="radiogroup" aria-label="Direction">
+    <div className="flex rounded-full border border-rule bg-sheet p-0.5 text-xs" role="radiogroup" aria-label="Direction">
       {(
         [
           ["forward", "Q → A"],
@@ -248,15 +247,15 @@ export function RapidFireSession({
 
   return (
     <div className="fixed inset-0 z-10 mx-auto flex max-w-2xl flex-col bg-paper px-4 pt-[calc(0.5rem+env(safe-area-inset-top))] pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
-      {header}
-      <div className="mt-3 flex items-center justify-between gap-2">
-        {directionPicker}
-        <span className="font-mono text-xs text-ink-soft tabular-nums">
-          {i + 1}/{cards.length} · streak <b className="text-teal">{streak}</b>
-        </span>
-      </div>
-      <div className="mt-2 h-1 overflow-hidden rounded-full bg-rule">
-        <div className="h-full bg-teal transition-[width] duration-200" style={{ width: `${(i / cards.length) * 100}%` }} />
+      {/* same two-row header as full cards: back, ring and title; then direction and count */}
+      <div className="glass space-y-1.5 rounded-2xl p-1.5">
+        {header}
+        <div className="flex items-center justify-between gap-2">
+          {directionPicker}
+          <span className="pr-1 font-mono text-xs text-ink-soft tabular-nums">
+            {i + 1}/{cards.length} · streak <b className="text-teal">{streak}</b>
+          </span>
+        </div>
       </div>
 
       <LazyMotion features={domAnimation}>
@@ -330,9 +329,8 @@ export function RapidFireSession({
             </button>
           </>
         ) : (
-          <button onClick={() => setFlipped(true)} className="btn-primary col-span-2 min-h-14 text-base">
-            Flip
-          </button>
+          // Same height as the grade row, so the card does not resize on flip.
+          <p className="col-span-2 flex min-h-14 items-center justify-center font-mono text-xs text-ink-soft">Tap the card to see the answer</p>
         )}
       </div>
     </div>
