@@ -871,6 +871,190 @@
       "tags": [
         "uses"
       ]
+    },
+    {
+      "id": "pr-long-exercise-039",
+      "type": "basic",
+      "front": "What are the three main classes of bioassay?",
+      "back": "Direct end-point assay, quantal (all-or-none) assay and graded assay. Graded assays include bracketing, matching, interpolation and multiple-point designs.",
+      "refs": [
+        "Medhi Practical Manual PDF p73 (printed p57)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-bioassay",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-040",
+      "type": "basic",
+      "front": "What does an analytical dilution assay measure?",
+      "back": "The potency of an unknown agonist as the factor by which it is diluted or concentrated relative to a standard of the same drug. Because both are the same drug, results are similar whatever tissue, species or method is used.",
+      "refs": [
+        "Ghosh PDF p92"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-bioassay",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-041",
+      "type": "basic",
+      "front": "How is a 3-point bioassay set up?",
+      "back": "Pick three graded responses: two of the standard (S1, S2) and one of the test (T), each between 25% and 75% of maximal. Arrange them in a Latin square. Relative potency comes from the sideways displacement of the parallel log dose-response lines.",
+      "refs": [
+        "Medhi Practical Manual PDF p76-77 (printed p60-61)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-bioassay",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-042",
+      "type": "basic",
+      "front": "How does a 4-point assay differ from a 3-point assay?",
+      "back": "It uses two standard and two test responses, all taken from the dose-response curves and arranged in a Latin square. It is more sensitive than the 3-point design and reduces variability.",
+      "refs": [
+        "Medhi Practical Manual PDF p78 (printed p62)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-bioassay",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-043",
+      "type": "basic",
+      "front": "What is pA2?",
+      "back": "The negative log10 of the molar antagonist concentration that gives a dose ratio of 2, i.e. a two-fold shift of the agonist dose-response curve. pA10 uses the same idea at a dose ratio of 10.",
+      "refs": [
+        "Medhi Practical Manual PDF p80 (printed p64)",
+        "Medhi Practical Manual PDF p81 (printed p65)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-drc",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-044",
+      "type": "basic",
+      "front": "How do pA2 and pA10 values show competitive antagonism?",
+      "back": "For competitive antagonism, pA2 minus pA10 should be about 0.95 (Medhi accepts 0.8 to 1.20). In Ghosh's rat seminal vesicle example, values of 0.99 and 1.19 were judged in good agreement with 0.95.",
+      "refs": [
+        "Medhi Practical Manual PDF p81 (printed p65)",
+        "Ghosh PDF p110"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-drc",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-045",
+      "type": "basic",
+      "front": "What are the steps to build a Schild plot?",
+      "back": "1) Plot log dose-response curves without and with antagonist. 2) Get the dose ratio (DR) at each antagonist concentration. 3) Plot log(DR minus 1) against log molar antagonist concentration (or its negative). The x-intercept gives pA2; a slope near 1 fits competitive antagonism.",
+      "refs": [
+        "Ghosh PDF p112",
+        "Medhi Practical Manual PDF p81 (printed p65)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-drc",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-046",
+      "type": "basic",
+      "front": "What does a pA2 pattern across histamine and acetylcholine tell you?",
+      "back": "Each antagonist is scored on guinea-pig ileum against both agonists. A high value means high specificity. A nearly flat line means the antagonist does not tell them apart (pethidine); a steep line means sharp discrimination (mepyramine, atropine).",
+      "refs": [
+        "Ghosh PDF p112"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-drc",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-047",
+      "type": "basic",
+      "front": "Why is guinea-pig ileum used to assay histamine?",
+      "back": "It is highly sensitive to histamine, which acts mainly on H1 receptors in the ileum. Atropine is added to the bath to improve specificity for histamine; mepyramine is added when assaying ACh.",
+      "refs": [
+        "Medhi Practical Manual PDF p168 (printed p152)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-isolated-tissue",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-048",
+      "type": "basic",
+      "front": "How is the guinea-pig ileum prepared for the bath?",
+      "back": "Fast the animal 24-48 hours and stun it. Open the abdomen and find the ileum about 10 cm before the caecum. Cut 2-3 cm, trim the mesentery, and tie it to the hook and lever in the direction it lies in the body. Relax it in Tyrode before use (Medhi gives 30-45 min for rat ileum, changing the solution 3-4 times).",
+      "refs": [
+        "Medhi Practical Manual PDF p168-169 (printed p152-153)",
+        "Medhi Practical Manual PDF p86 (printed p70)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-isolated-tissue",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-049",
+      "type": "basic",
+      "front": "How do you scale a drug concentration to the organ bath volume?",
+      "back": "The tissue sees the stock concentration scaled down to the bath volume (10, 20, 50 or 100 ml). Example: 0.2 x 10^-7 M in a 10 ml bath reaches the tissue as 0.2 x 10^-8 M. Apply the same scaling to every concentration in the set.",
+      "refs": [
+        "Medhi Practical Manual PDF p85 (printed p69)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-isolated-tissue",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-050",
+      "type": "basic",
+      "front": "Why avoid very high doses of a drug on one tissue preparation?",
+      "back": "High drug concentrations can cause tachyphylaxis: the tissue loses sensitivity and may stay contracted, so later responses are unreliable.",
+      "refs": [
+        "Medhi Practical Manual PDF p168 (printed p152)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-isolated-tissue",
+      "tags": [
+        "mechanism"
+      ]
     }
   ]
 }

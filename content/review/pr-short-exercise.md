@@ -79,3 +79,30 @@ Still UNSOURCED:
 - 001: Katzung16 ch66 supports prescriber, date, patient, body, directions, refills, warning labels; the Latin layout (superscription, inscription, subscription, signa) is in no book.
 - 011: FDC exam approach goes beyond KDT8 ch5.
 - 033: tracing-reading checklist; no book describes it.
+
+## PDF grounding pass 2 (2026-11-02, Pickar)
+
+New cards from Pickar Dosage Calculations, subtopic pk-calc. Pages as printed in the PDF.
+
+- pr-short-exercise-038: p2
+- pr-short-exercise-039: p2, p7
+- pr-short-exercise-040: p10
+- pr-short-exercise-041: p2
+- pr-short-exercise-042: p2
+- pr-short-exercise-043: p2
+- pr-short-exercise-044: p2, p37
+- pr-short-exercise-045: p37
+- pr-short-exercise-046: p36
+- pr-short-exercise-047: p37
+
+## Opus verification (2026-11-02)
+- 038 verified: Pickar PDF p2 (formula method D/H x Q = X).
+- 039 verified: Pickar PDF p2 (ratio-proportion).
+- 040 verified: Pickar PDF p10 (three-step approach, preface).
+- 041 verified: Pickar PDF p2 (IV flow rate formulas).
+- 042 verified: Pickar PDF p2 (drop factor constant shortcut).
+- 043 verified: Pickar PDF p2 (temperature conversions).
+- 044 deleted: p2 prints only 1 kg = 2.2 lb; the 110 lb = 50 kg worked answer is writer-derived, not printed.
+- 045 verified: Pickar PDF p37 (acetaminophen 10-15 mg/kg q4h, max 5 doses/day).
+- 046 verified: Pickar PDF p36 (label 20-40 mg/kg/day q8h; Q33 40 mg/kg/day).
+- 047 deleted: p37 prints the cimetidine range only; the single-dose method is writer-derived, not printed.

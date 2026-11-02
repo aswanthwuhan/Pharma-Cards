@@ -118,3 +118,34 @@ Source: Medhi Practical Manual (PDF p73-77; printed = PDF - 16). Ghosh PDF p92-9
 - 020 three-point: Medhi PDF p76-77.
 - 017 matching: still UNSOURCED (merit and drawback not clearly stated on the pages checked).
 - 021-023 (2+2 parallel-line, errors, potency ratio): earlier RangDale9 ch8 refs, not re-checked here.
+
+## PDF grounding pass 2 (2026-11-02, Medhi + Ghosh)
+Sources: Medhi Practical Manual (PDF p73-78, 80-81, 85, 168-169, 86; printed = PDF - 16) and Ghosh PDF p92, p110, p112.
+- 039 classification of bioassay: Medhi PDF p73 (printed p57).
+- 040 analytical dilution assay: Ghosh PDF p92.
+- 041 3-point assay: Medhi PDF p76-77 (printed p60-61).
+- 042 4-point assay: Medhi PDF p78 (printed p62).
+- 043 pA2 definition: Medhi PDF p80 (printed p64).
+- 044 pA2 minus pA10 check: Medhi PDF p81 (printed p65); Ghosh PDF p110.
+- 045 Schild plot steps: Ghosh PDF p112; slope 1.0 rule from Medhi PDF p81.
+- 046 pA2 specificity pattern (histamine vs ACh): Ghosh PDF p112.
+- 047 guinea-pig ileum for histamine: Medhi PDF p168 (printed p152).
+- 048 ileum preparation: Medhi PDF p168-169 (printed p152-153); 30-45 min relaxation from Medhi PDF p86 (printed p70, rat ileum).
+- 049 scaling drug to bath volume: Medhi PDF p85 (printed p69).
+- 050 tachyphylaxis at high dose: Medhi PDF p168 (printed p152).
+- Skipped: matching, bracketing, interpolation (Medhi PDF p75) and error limit <10% (Medhi PDF p78) were not added; these are already covered by earlier passes or left out to keep the batch to 12. Ghosh PDF p92 matching text is partly garbled in the OCR. Rat uterus stilbestrol priming differs between the Medhi text (IM vs subcutaneous), so it was not used.
+
+## Opus verification (2026-11-02)
+- 039 verified: Medhi PDF p73.
+- 040 verified: Ghosh 2019 PDF p92.
+- 041 verified: Medhi PDF p76-77.
+- 042 verified: Medhi PDF p78.
+- 043 corrected: definition on Medhi PDF p80; pA10 (dose ratio 10) is on p81, ref added.
+- 044 verified: Medhi PDF p81 (0.95, 0.8-1.20); Ghosh 2019 PDF p110 (0.99, 1.19).
+- 045 verified: Ghosh 2019 PDF p112; Medhi PDF p81 (slope 1).
+- 046 verified: Ghosh 2019 PDF p112 (guinea pig ileum, pethidine flat, mepyramine/atropine steep).
+- 047 verified: Medhi PDF p168.
+- 048 verified: Medhi PDF p168-169; p86 (30-45 min, PSS changed 3-4 times).
+- 049 verified: Medhi PDF p85.
+- 050 verified: Medhi PDF p168.
+- Note: "Ghosh PDF" refers to "(268) M. N. Ghosh - Fundamentals of experimental pharmacology (2019).pdf"; the other Ghosh file has different pagination.
