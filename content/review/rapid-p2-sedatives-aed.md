@@ -31,3 +31,7 @@ All 395 cards are sourced to KDT8 ch29 or ch30, except 0300 (KDT8 ch30 + GG14 ch
 ## Reconciled with study deck
 
 None found. `review/p2-sedatives-aed.md` lists no GG14/Katzung/Rang & Dale correction or KDT misprint fix; its only correction (card 041, seizure-type choice from KDT Table 30.1) already matches Rapid cards 0193-0196.
+
+## Expansion pass (2026-11-02)
+- Rapid: +0 (deck count unchanged at 412). KDT8 ch29-30 names checked against the deck; all chapter drugs already carded.
+- Target NOT met: no grounded gap; nothing added.

@@ -44,3 +44,7 @@ None omitted for grounding beyond the garbled cells listed above.
 - rf-p2-adrenergic-0241 -> phentolamine test now rarely used; diagnosis by catecholamines/metanephrines -> KDT8 ch10, Katzung16 ch10
 - rf-p2-adrenergic-0282 -> preoperative phenoxybenzamine 1-2 weeks changed to 1-3 weeks, titrated -> KDT8 ch10, Katzung16 ch10, GG14 ch14
 - rf-p2-adrenergic-0458 -> added: alpha-1 blockers not as hypertension monotherapy (ALLHAT doxazosin) -> KDT8 ch10, GG14 ch32
+
+## Expansion pass (2026-11-02)
+- Rapid: +0 (deck count unchanged at 470). KDT8 ch9-10 drug names and glaucoma section checked against the deck; no grounded gap found.
+- Target NOT met: nothing added.

@@ -29,3 +29,15 @@ None triggered. No statement in the three chapters looked wrong on reading, so n
 | rf-p2-ras-hf-0607 | sacubitril-valsartan: symptomatic HFrEF, replaces ACEi/ARB; was "advanced HF" (study card 030) | KDT8 ch37, GG14 ch30, GG14 ch33, Katzung16 ch17 |
 | rf-p2-ras-hf-0611 | added: SGLT2 inhibitors in HFrEF with or without diabetes (study card 046) | GG14 ch33, Katzung16 ch13, Katzung16 ch41 |
 | rf-p2-ras-hf-0612 | added: thiosulfate or hydroxocobalamin for nitroprusside cyanide (study card 027) | KDT8 ch37, Katzung16 ch11 |
+
+## Expansion pass (2026-11-02)
+
+- Source read: KDT8 ch36 (RAS), ch37 (NO and vasoactive peptides), ch38 (cardiac glycosides and heart failure) in full. No other book was searched in this pass.
+- Coverage check: see p2-ras-hf.md.
+- Rapid: +2 cards (rf-p2-ras-hf-0613 to rf-p2-ras-hf-0614). Target of +120 to +180 not reached: the existing 612 cards already cover the chapters.
+- Book conflicts: none in KDT8 ch36-38.
+
+| id | status | source |
+|---|---|---|
+| p2-ras-hf-061 to p2-ras-hf-080 | added | KDT8 ch36, ch37, ch38 |
+| rf-p2-ras-hf-0613 to rf-p2-ras-hf-0614 | added | KDT8 ch36 |

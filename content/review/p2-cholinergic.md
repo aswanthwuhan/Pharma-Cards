@@ -82,3 +82,10 @@ Grounded against the owner's books (GROUNDING-RULES.md). Cards checked: 50. Corr
 
 ## PYQ tagging and new cards (2026-11-02)
 - p2-cholinergic-018 → PYQ tags added (Cholinesterase inhibitors in therapeutics) → existing refs
+
+## Expansion pass (2026-11-02)
+- Study: +1 (p2-cholinergic-054, basic, quaternary antimuscarinics in COPD) -> GG14 PDF p232-233. Deck now 54.
+- Rapid: +7 (rf-p2-cholinergic-0361 to 0367): quaternary COPD antimuscarinics (aclidinium, umeclidinium), oxitropium (GG12 PDF p252, p1070), glycopyrrolate CNS point, IBS antispasmodics (GG14 PDF p238), intraocular carbachol and acetylcholine (GG14 PDF p1483, Katzung16 PDF p143).
+- Target (+30 to +40 study, +120 to +180 rapid) NOT met: chapters KDT8 ch7-8 and GG14 ch11-12 are already carded in full (rapid deck at 367). Only gaps found by index search were added. No padding.
+- Book conflicts: none found in the new cards.
+- Not added: cevimeline, demecarium, umeclidinium-specific facts, fesoterodine (named in owner books' indexes only, no chapter text found for these in the cholinergic pages checked).

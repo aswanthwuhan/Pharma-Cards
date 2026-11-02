@@ -71,3 +71,9 @@ Rapid cards aligned with corrections in content/review/p3-steroids.md (newest bo
 - rf-p3-steroids-0477 → Androgen effect on nitrogen balance in muscle → rapid pair for the new study card
 - rf-p3-steroids-0478 → Group with the greater muscle-building effect of androgens → rapid pair for the new study card
 - rf-p3-steroids-0479 → Androgen used for AIDS-related muscle wasting → rapid pair for the new study card
+
+## Expansion pass
+
+Added 16 rapid cards (ids rf-p3-steroids-0480 to 0495) from KDT8 ch20-23: clomiphene regimen and adjuncts, letrozole pk, oral and vaginal estrogen doses, WHI harms, progesterone and hydroxyprogesterone i.m. doses, fosfestrol i.v. dose, testosterone protein binding. Each has one tag.
+
+Book conflicts noted: none in this pass.

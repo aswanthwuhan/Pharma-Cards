@@ -46,3 +46,8 @@ None omitted for grounding. Items not carded because the extracted text is garbl
 - rf-p2-cholinergic-0335 -> varenicline 0.25 mg BD start replaced by GG14 titration (0.5 mg OD x3 d, BD, 1 mg BD from day 8); KDT 12-week limit kept -> KDT8 ch8, GG14 ch13, RangDale9 ch50
 - rf-p2-cholinergic-0337 -> suicidal-thought warning marked as revised down in 2016 -> KDT8 ch8, GG14 ch13, RangDale9 ch50
 - rf-p2-cholinergic-0351 -> added: intermediate syndrome (study card 051) -> GG14 ch12, Katzung16 ch7, Katzung16 ch56
+
+## Expansion pass (2026-11-02)
+- Rapid: +7 (rf-p2-cholinergic-0361 to 0367). Refs: GG14 PDF p232-238, p1483; GG12 PDF p252, p1070; Katzung16 PDF p143.
+- Target (+120 to +180) NOT met: deck already covers the chapters; grep of the deck for the candidate names showed no gap beyond the 7 above.
+- Study card paired: p2-cholinergic-054.

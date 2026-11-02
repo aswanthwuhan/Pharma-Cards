@@ -82,3 +82,9 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16). Cards 
 - p3-git-009 → PYQ tags added (Proton pump inhibitors) → existing refs
 - p3-git-010 → PYQ tags added (Proton pump inhibitors) → existing refs
 - p3-git-056 → PYQ tags added (Pharmacotherapy of inflammatory bowel disease) → existing refs
+
+## Expansion pass
+
+Added 0 study cards and 2 rapid cards (rf-p3-git-0520, 0521) from KDT8 ch47-49. Chapter scan of drug names, doses and numbers against the deck found it already covers nearly every named drug, dose and half-life in ch47-49, so no further study cards were added. Target of +30-40 study and +120-180 rapid is not met; the deck is saturated for this chapter set.
+
+Book conflicts noted: none in this pass.

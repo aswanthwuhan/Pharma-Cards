@@ -81,3 +81,16 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 
 ## PYQ tagging and new cards (2026-11-02)
 - p2-ras-hf-031 → PYQ tags added (Nitric oxide) → existing refs
+
+## Expansion pass (2026-11-02)
+
+- Source read: KDT8 ch36 (RAS), ch37 (NO and vasoactive peptides), ch38 (cardiac glycosides and heart failure) in full. No other book was searched in this pass.
+- Coverage check first: almost every fact in the three chapters already had a rapid card (keyword probe of the rapid deck). Rapid gaps were therefore very small.
+- Study: +20 cards (p2-ras-hf-061 to p2-ras-hf-080). Covers peptides not yet carded (kinins, icatibant, substance P and aprepitant, CGRP and erenumab, NPY, VIP, urotensin II, adrenomedullin), Ang 1-7, Ang IV, Ang III, prorenin and PRR, PDE-5 inhibitors, digoxin interactions and dosing, hydralazine with isosorbide dinitrate, sacubitril PK, captopril dosing, losartan uricosuric effect, amyl nitrite.
+- Rapid: +2 cards (rf-p2-ras-hf-0613 to rf-p2-ras-hf-0614). Target of +120 to +180 not reached: the existing 612 cards already cover the chapters.
+- Book conflicts: none in KDT8 ch36-38.
+
+| id | status | source |
+|---|---|---|
+| p2-ras-hf-061 to p2-ras-hf-080 | added | KDT8 ch36, ch37, ch38 |
+| rf-p2-ras-hf-0613 to rf-p2-ras-hf-0614 | added | KDT8 ch36 |

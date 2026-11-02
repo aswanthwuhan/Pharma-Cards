@@ -44,3 +44,7 @@ Items not carded because the table text is garbled or conflicts with the chapter
 - rf-p2-opioids-0628 → Other drugs for neuropathic pain → rapid pair for the new study card
 - rf-p2-opioids-0629 → Transdermal fentanyl patch change interval → rapid pair for the new study card
 - rf-p2-opioids-0630 → Buprenorphine forms used in chronic cancer pain → rapid pair for the new study card
+
+## Expansion pass (2026-11-02)
+- Rapid: +2 (last two ids in rapid deck). Refs KDT8 ch34, ch35.
+- Fixes: rf-p2-opioids-0004 (class -> fact), rf-p2-opioids-0006 (list separator). Target NOT met.

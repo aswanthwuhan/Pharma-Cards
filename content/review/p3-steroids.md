@@ -99,3 +99,12 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16). Cards 
 ## PYQ tagging and new cards (2026-11-02)
 - p3-steroids-051 → PYQ tags added (Hormone replacement therapy) → existing refs
 - p3-steroids-078 → Anabolic steroids → KDT8 ch21; KDT8 PDF p336; KDT8 PDF p337-338 (new card)
+
+
+## Expansion pass
+
+Added 3 study cards (ids 079-081): clomiphene and ovulation induction, estrogen preparations by route, testosterone preparations and routes. Sources KDT8 ch20-23. Status draft. Adds pyq tags where a stored question matched.
+
+Gap scan: drug names and most numeric facts in KDT8 ch20-23 were already carded. Added 16 rapid cards (ids rf-p3-steroids-0480 to 0495) for dose and pharmacokinetic figures that were missing (clomiphene regimen, letrozole, oral and vaginal estrogen doses, WHI harms, progesterone and hydroxyprogesterone i.m. doses, fosfestrol, testosterone protein binding). Study expansion is below the 30-40 target because the deck is close to saturation.
+
+Book conflicts noted: none new in this pass.

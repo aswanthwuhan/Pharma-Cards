@@ -60,3 +60,7 @@ Checked against the GG14/Katzung corrections in `review/p2-psych.md`. Deck now 5
 - rf-p2-psych-0520 → Serious risk with brexanolone → rapid pair for the new study card
 - rf-p2-psych-0521 → Renal caution with brexanolone → rapid pair for the new study card
 - rf-p2-psych-0522 → Pharmacokinetic interactions of brexanolone → rapid pair for the new study card
+
+## Expansion pass (2026-11-02)
+- Rapid: +2 (last two ids in rapid deck). Refs KDT8 ch33.
+- Target NOT met: deck already covers the chapter; only name-level gaps added.

@@ -60,3 +60,9 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 50 original, corrected: 
 
 ## Still needs a human check
 - GG14 ch20 gives no seizure-type choice table, so card 041 follows KDT 8e.
+
+## Expansion pass (2026-11-02)
+- Study: +0. Rapid: +0. Deck counts unchanged: study 54, rapid 412.
+- Checked: drug names in KDT8 ch29-30 against the deck (phenobarbitone, zolpidem, zaleplon, pentobarbitone, ethosuximide, PTZ model all present). Remaining names not carded (brivaracetam, felbamate, buspirone, meprobamate, cenobamate, etc.) do not appear in KDT8 ch29-30 text.
+- Target NOT met: chapters already carded; no grounded gap found. No cards added (no padding).
+- Book conflicts: none checked.

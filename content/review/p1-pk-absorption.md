@@ -42,3 +42,15 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 
 ## Still needs a human check
 - None.
+
+## Graded levels (2026-11-02)
+Every card has `level` 1 (basic), 2 (applied) or 3 (advanced). Heuristic: basic=1, interactions=2, shortnote=2, essay=3, unless set by hand.
+
+| id | status | source |
+|---|---|---|
+| 030 | ok (new, L2) | KDT8 ch2 |
+| 031 | ok (new, L2) | KDT8 ch2 |
+| 032 | ok (new, L2) | KDT8 ch2 |
+| 033 | ok (new, L2) | KDT8 ch2 |
+| 034 | ok (new, L3) | KDT8 ch2 |
+| 035 | ok (new, L3) | KDT8 ch2 |

@@ -84,3 +84,9 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 ## PYQ tagging and new cards (2026-11-02)
 - p2-opioids-064 → Treatment of opium (opioid) addiction → KDT8 ch34; KDT8 PDF p517; KDT8 PDF p524; KDT8 PDF p525; GG14 PDF p562 (new card)
 - p2-opioids-065 → Recent advances in pain therapy → KDT8 PDF p235; KDT8 PDF p505; KDT8 PDF p519; GG14 PDF p487 (new card)
+
+## Expansion pass (2026-11-02)
+- Study: +0. Rapid: +2 (last two ids in rapid deck): US name of pethidine (meperidine) -> KDT8 ch34; doxapram as respiratory analeptic -> KDT8 ch35. Deck counts: study 65, rapid 631.
+- Fixes to existing rapid cards (check failures, not content changes): rf-p2-opioids-0004 changed from class to fact (single item, q reworded); rf-p2-opioids-0006 a reworded to "Claret, cider (...)" so the app splits it into two items.
+- Target NOT met: KDT8 ch28, ch34, ch35 already carded. Name-level gap search found only the two above.
+- Book conflicts: none.

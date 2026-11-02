@@ -105,3 +105,9 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 60 original, corrected: 
 - Card 054/060 still mention ranitidine (as printed in KDT).
 - Card 056 diabetic advice ("switch to plain insulin") and card 054 glycopyrrolate "prevents laryngospasm" are as printed in KDT but look dated.
 - Max LA doses (040): only KDT prints figures; no per-kg values in the books.
+
+## Expansion pass (2026-11-02)
+- Study: +1 (p2-anaesthetics-064, basic, dibucaine surface use vs spinal) -> KDT8 ch26. Deck now 64.
+- Rapid: +5 (see deck): lignocaine, amethocaine, cinchocaine as synonyms; other LAs (mepivacaine, etidocaine, articaine, dyclonine); procainamide -> KDT8 ch26.
+- Target (+30 to +40 study, +120 to +180 rapid) NOT met: KDT8 ch25-27 and GG14 already fully carded (rapid 508 cards). Gap search by drug name against KDT8 ch25-27 found no further chapter drugs missing from the deck (thiopental, methohexital, suxamethonium, orphenadrine, xenon not in KDT8 ch25-27 text).
+- Book conflicts: none.

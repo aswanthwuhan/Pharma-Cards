@@ -82,3 +82,9 @@ Grounded against the owner's books (GROUNDING-RULES.md). Cards checked: 50. Corr
 ## Still needs a human check
 - 014: KDT (0.2-1 mg/min) and GG14 (2-5 up to 20-50 mcg/kg/min) dopamine infusion rates are both shown.
 - No owner book covers current septic-shock vasopressor order or scorpion-sting prazosin; both cards were dropped.
+
+## Expansion pass (2026-11-02)
+- Study: +0. Rapid: +0. Deck counts unchanged: study 52, rapid 470.
+- Checked: drug names in KDT8 ch9-10 against the deck (isoprenaline, timolol, betaxolol, levobunolol, dipivefrin, apraclonidine, brimonidine, latanoprost, dorzolamide and others all present). Glaucoma section checked (timolol, carteolol, dipivefrine, apraclonidine, brimonidine, latanoprost, pilocarpine present).
+- Target NOT met: chapter already carded. No grounded gap found, so nothing added.
+- Book conflicts: none checked.

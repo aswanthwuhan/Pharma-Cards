@@ -81,3 +81,9 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 60 original, corrected: 
 - p2-psych-033 → PYQ tags added (Lithium carbonate) → existing refs
 - p2-psych-036 → PYQ tags added (Lithium carbonate) → existing refs
 - p2-psych-063 → Neurosteroids and brexanolone → GG14 PDF p335; GG14 PDF p367; GG14 PDF p369; GG14 PDF p371; Katzung16 PDF p594 (new card)
+
+## Expansion pass (2026-11-02)
+- Study: +1 (p2-psych-064, basic, fluoxamine as OCD drug of choice) -> KDT8 ch33. Deck now 64.
+- Rapid: +2 (last two ids in rapid deck): antidepressants marketed mainly in other countries (protriptyline, maprotiline, nafazodone); fluoxamine -> KDT8 ch33.
+- Target NOT met: KDT8 ch31-33 already carded (rapid 523). Name-level gap search found only the above; antipsychotic and antiparkinsonian names missing from the deck (e.g. benztropine, pergolide, cabergoline, lurasidone) are absent from KDT8 ch31-33 text, so not added.
+- Book conflicts: none.

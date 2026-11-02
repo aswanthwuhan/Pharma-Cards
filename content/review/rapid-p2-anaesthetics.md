@@ -30,3 +30,7 @@ Checked against the GG14/Katzung corrections in `review/p2-anaesthetics.md`. Dec
 | rf-p2-anaesthetics-0380 | Halothane hepatitis about 1 in 10,000, about 50% fatal (GG14); KDT range noted | KDT8 ch27, GG14 ch24 |
 | rf-p2-anaesthetics-0192 | Ring-block adrenaline ban marked as classical teaching, now questioned (Katzung) | KDT8 ch26, Katzung16 ch26 |
 | rf-p2-anaesthetics-0497 | Added: etomidate 11-beta-hydroxylase inhibition, cortisol suppressed 4-8 h | KDT8 ch27, Katzung16 ch25 |
+
+## Expansion pass (2026-11-02)
+- Rapid: +5 (see deck). Refs KDT8 ch26.
+- Target (+120 to +180) NOT met: chapter already carded; only name-level gaps found were added.

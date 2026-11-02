@@ -40,3 +40,9 @@ None corrected.
 | Trade-name lists and small brand-product dose lines | KDT8 chapters | Not exam content. |
 
 - Orchestrator: rf-p3-git-0445 updated to GG14 ch57 (oral vancomycin or fidaxomicin preferred), per rule 4 newest book; matches study decks p3-git and p3-amr-general.
+
+## Expansion pass
+
+Added 2 rapid cards (rf-p3-git-0520, 0521) from KDT8 ch47: lafutidine dose, and the stress-erosion mechanism (mucosal ischaemia with acid). Each has one tag. Deck is near saturation for ch47-49.
+
+Book conflicts noted: none in this pass.

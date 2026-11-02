@@ -66,3 +66,18 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, Rang & 
 
 ## PYQ tagging and new cards (2026-11-02)
 - p2-renal-047 → PYQ tags added (Potassium sparing diuretics) → existing refs
+
+## Expansion pass (2026-11-02)
+
+- Source read: KDT8 ch42 (diuretics) and ch43 (antidiuretics) in full. GG14, Katzung16, Rang & Dale and the other owner books were not searched in this pass.
+- Study: +39 cards (p2-renal-049 to p2-renal-087). Types: 25 basic, 12 shortnote (2 with pyq tags, KNRUHS 2025 / RGUHS 2007, 2010, 2011, 2018, 2019, 2021).
+- Rapid: +13 cards (rf-p2-renal-0392 to rf-p2-renal-0404). The existing deck (390 cards) already covers almost every fact in the two chapters, so the target of +120 to +180 was not reached without duplicating existing pairs.
+- Corrections to existing rapid cards: rf-p2-renal-0019 and 0020 class answers changed to comma lists (were a single item with "and").
+- Book conflicts: none found in KDT8 ch42-43 for the new cards.
+- Ungrounded items not added: no dose or regimen outside KDT8 ch42-43 was used.
+
+| id | status | source |
+|---|---|---|
+| p2-renal-049 to p2-renal-087 | added | KDT8 ch42, ch43 |
+| rf-p2-renal-0392 to rf-p2-renal-0404 | added | KDT8 ch42, ch43 |
+| rf-p2-renal-0019, 0020 | corrected (class list format) | KDT8 ch42 |

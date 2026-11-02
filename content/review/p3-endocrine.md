@@ -86,3 +86,15 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, Rang & 
 
 ## Still needs a human check
 - Weekly insulin icodec and teplizumab availability in India not covered by the books
+
+
+## Expansion pass
+
+Added 5 study cards (ids 067-071): cabergoline, gonadotropins in infertility and male hypogonadism, glucagon, iodine in thyroid disease, octreotide. Sources KDT8 ch17-19 only; refs and pyq tags set. Status draft.
+
+Gap scan: drug names in KDT8 ch17-19 were already all carded; the pass added numeric and dosing facts (tablet strengths, dose intervals, iodide doses, premix ratios, HbA1c window). Deck is near saturation, so the expansion is below the 30-40 study target.
+
+Book conflicts noted (no card changed):
+- Thyroid storm PTU dose: KDT8 ch18 says 200-300 mg 6-hourly; Katzung16 ch38 says 250 mg 4-hourly (card rf-p3-endocrine-0296 keeps Katzung, newest book wins).
+- Thioamide potency: already logged above (Katzung 10x vs KDT 5x).
+- hCG MW 38000 (KDT8 ch17) is hCG, not FSH; deck card on FSH ~33 kDa agrees with KDT8. No change.

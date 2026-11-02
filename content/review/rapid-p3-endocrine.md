@@ -67,3 +67,11 @@ Rapid cards aligned with corrections in content/review/p3-endocrine.md (newest b
 | rf-p3-endocrine-0550 | added: Oral non-peptide GnRH antagonists (endometriosis, fibroids): list all => Elagolix, relugolix, linzagolix | KDT8 ch17, Katzung16 ch37 |
 | rf-p3-endocrine-0551 | added: Add-on to metformin in type 2 diabetes with heart failure, CVD or nephropathy => SGLT-2 inhibitor early (heart failure and kidney benefit); GLP-1 agonists also give CV benefit | KDT8 ch19, GG14 ch51, Katzung16 ch41 |
 | rf-p3-endocrine-0552 | added: Tirzepatide: class and dosing => Dual GIP and GLP-1 receptor agonist; once-weekly s.c. (2.5 mg up to 15 mg) | Katzung16 ch41 |
+
+
+## Expansion pass
+
+Added 29 rapid cards (ids rf-p3-endocrine-0561 to 0589), all from KDT8 ch17-19: thyroid iodine and binding figures, levothyroxine titration interval, iodide and radioiodine timing, tablet strengths, octreotide and nafarelin dosing, GnRH agonist timing, gonadotropin half-life, hCG and FSH+LH regimens in male hypogonadism, premixed insulin ratios, HbA1c window, OGTT cut-off, severe hypoglycaemia glucose volume. Each new card has one tag.
+
+Book conflicts noted:
+- Thyroid storm PTU: KDT8 ch18 200-300 mg 6-hourly vs Katzung16 ch38 250 mg 4-hourly (Katzung kept, see rf-p3-endocrine-0296).

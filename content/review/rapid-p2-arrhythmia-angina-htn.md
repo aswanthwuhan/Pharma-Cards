@@ -37,3 +37,15 @@ Card 0178 (sotalol type) keeps the KDT8 wording and does not restate the channel
 | rf-p2-arrhythmia-angina-htn-0643 | added: IV magnesium sulfate 1-2 g for torsades (study card 013) | KDT8 ch39, GG14 ch34 |
 | rf-p2-arrhythmia-angina-htn-0644 | added: ACC/AHA 2017 threshold and target 130/80 (study card 045) | KDT8 ch41, GG14 ch32 |
 | rf-p2-arrhythmia-angina-htn-0645 | added: ESC 2018 single-pill two-drug start (study card 058) | KDT8 ch41, GG14 ch32 |
+
+## Expansion pass (2026-11-02)
+
+- Source read: KDT8 ch39 (antiarrhythmics), ch40 (antianginals), ch41 (antihypertensives) in full. No other book searched in this pass.
+- Coverage check: see p2-arrhythmia-angina-htn.md.
+- Rapid: +4 cards (rf-p2-arrhythmia-angina-htn-0679 to rf-p2-arrhythmia-angina-htn-0682). Target of +120 to +180 not reached: the existing 677 cards already cover the chapters.
+- Book conflicts: none found in KDT8 ch39-41.
+
+| id | status | source |
+|---|---|---|
+| p2-arrhythmia-angina-htn-074 to p2-arrhythmia-angina-htn-086 | added | KDT8 ch39, ch40, ch41 |
+| rf-p2-arrhythmia-angina-htn-0679 to rf-p2-arrhythmia-angina-htn-0682 | added | KDT8 ch40, ch41 |
