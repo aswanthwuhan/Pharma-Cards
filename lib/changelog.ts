@@ -5,6 +5,13 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.4",
+    changes: [
+      "Update check on launch: shows a dialog when a newer release is on GitHub",
+      "Android builds use the same signing key, so installs update in place",
+    ],
+  },
+  {
     version: "0.5.3",
     changes: [
       "48 new cards for frequently asked past-paper questions (with Rapid Fire cards)",
