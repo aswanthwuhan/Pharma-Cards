@@ -5,6 +5,13 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.3",
+    changes: [
+      "48 new cards for frequently asked past-paper questions (with Rapid Fire cards)",
+      "All PrepLadder-derived references removed; cards re-grounded in your textbooks",
+    ],
+  },
+  {
     version: "0.5.2",
     changes: [
       "Practicals: rabbit eye (mydriatics and miotics) and Snellen chart cards",
