@@ -32,7 +32,11 @@ export interface ReviewUndo {
 }
 
 /** Record one answer: update FSRS state and append to the review log. Returns an undo token. */
-export async function recordReview(card: FlashCard, rating: Grade, ms: number, mode: string): Promise<ReviewUndo> {
+/** Longest answer time stored; anything longer is idle time (app left open), not thinking time. */
+export const MAX_ANSWER_MS = 120_000;
+
+export async function recordReview(card: FlashCard, rating: Grade, rawMs: number, mode: string): Promise<ReviewUndo> {
+  const ms = Math.min(MAX_ANSWER_MS, Math.max(0, rawMs));
   const now = new Date();
   const existing = await db.cardStates.get(card.id);
   const base: FsrsCard = existing?.fsrs ?? (createEmptyCard(now) as FsrsCard);

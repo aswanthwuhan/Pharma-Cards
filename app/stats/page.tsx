@@ -26,6 +26,7 @@ import { labelFor, type TopicMastery } from "@/lib/mastery";
 import { isRapid, loadStudyCards, useMastery, useStudyCards, weakest } from "@/lib/store";
 import { PAPERS } from "@/lib/syllabus";
 import { TAGS, TAG_LABEL, type FlashCard } from "@/lib/types";
+import { MAX_ANSWER_MS } from "@/lib/srs";
 
 type Sizing = "equal" | "cards";
 type View = "map" | "ranked";
@@ -54,7 +55,7 @@ export default function MasteryMap() {
       for (const r of reviews) {
         if (!ids.has(r.cardId)) continue;
         const x = ms.get(r.topicId) ?? { n: 0, sum: 0 };
-        ms.set(r.topicId, { n: x.n + 1, sum: x.sum + r.ms });
+        ms.set(r.topicId, { n: x.n + 1, sum: x.sum + Math.min(MAX_ANSWER_MS, r.ms) });
       }
       return { due, ms };
     },

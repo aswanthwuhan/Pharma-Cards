@@ -3,6 +3,7 @@
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "@/lib/db";
 import { dailyNewTarget, isRapid, loadStudyCards, startOfDay } from "@/lib/store";
+import { MAX_ANSWER_MS } from "@/lib/srs";
 
 export interface SessionPoint {
   at: number;
@@ -58,7 +59,8 @@ export function useTodayData(): TodayData | undefined {
 
       const studyWeek = weekReviews.filter((r) => studyIds.has(r.cardId));
       const n = studyWeek.length;
-      const avgSeconds = n ? studyWeek.reduce((a, r) => a + r.ms, 0) / n / 1000 : null;
+      // Older records were stored uncapped, so cap here too.
+      const avgSeconds = n ? studyWeek.reduce((a, r) => a + Math.min(MAX_ANSWER_MS, r.ms), 0) / n / 1000 : null;
       const accuracy = n ? studyWeek.filter((r) => r.rating >= 3).length / n : null;
 
       const sessions = snapshots.flatMap((s) => {

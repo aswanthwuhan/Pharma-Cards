@@ -118,7 +118,7 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
       busy.current = true;
       try {
         const isNew = !state;
-        const ms = Math.min(120_000, Date.now() - started.current); // cap idle time
+        const ms = Date.now() - started.current; // recordReview caps idle time
         const undo = await recordReview(card, g as Grade, ms, isNew && mode === "daily" ? "daily-new" : mode);
         setHistory((h) => [...h, { undo, grade: g, ms }]);
         setToast(g);
