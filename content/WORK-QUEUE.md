@@ -28,7 +28,7 @@ p2-herbal, p3-pv-economics, p3-clinical-services, p3-national-programmes, p3-res
 - [x] Rapid Fire decks for the 12 new NMC topics
 - [x] Reconciled 16 early Rapid decks with GG14 study-deck corrections
 - Functional check of every screen, fixing issues one by one
-- MD practicals: SKIPPED by owner for now; placeholder paper "PR" (4 empty topics) in lib/syllabus.ts. Owner will add content.
+- [x] MD practicals: 4 pr-* topics written (v0.4.2), many cards unsourced for owner review
 - Book images: needs the owner's decision (copyright, since the app is public)
 
 ## Scanned books (OCR)
