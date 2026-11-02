@@ -3,6 +3,7 @@
 import { animate, LazyMotion, domAnimation, m, useMotionValue, useTransform } from "motion/react";
 import { memo, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { AXIS_LOCK_PX, classifySwipe, swipeIntent, type SwipeGrade } from "@/lib/swipe";
+import { useTaps } from "@/lib/doubleTap";
 import { useReduceMotion } from "@/lib/settings";
 import type { FlashCard } from "@/lib/types";
 import { CardView } from "./CardView";
@@ -30,36 +31,46 @@ interface Gesture {
 /**
  * The study card stack. Touch handling is our own (touch-action: none) so a swipe can start
  * anywhere on the card, in any direction:
- * - Before the answer is shown: tap to reveal. Vertical drags scroll a long question.
+ * - A tap flips the card between question and answer; a double tap skips it. Vertical drags scroll long text.
  * - After: left = Forgot, right = Good, anywhere on the card. Up = Easy and down = Hard only from
- *   the swipe zones at the card's top and bottom edges (height set by the user); elsewhere up/down scrolls.
+ *   the swipe zone at the card's edge (bottom by default; edge, height and visibility set by the user);
+ *   elsewhere up/down scrolls.
  */
 export function SwipeDeck({
   card,
   next,
   revealed,
-  onReveal,
+  onFlip,
+  onSkip,
   onRate,
   intervals,
   swipe = true,
   haptics = true,
   band = 72,
+  edge = "bottom",
+  showZone = false,
   aside,
   history,
+  render,
 }: {
   swipe?: boolean;
   haptics?: boolean;
   band?: number;
+  edge?: "bottom" | "top" | "both";
+  showZone?: boolean;
   aside?: React.ReactNode;
   history?: string;
+  render?: (revealed: boolean) => React.ReactNode; // custom card face (Rapid Fire); default is CardView
   card: FlashCard;
   next?: FlashCard;
   revealed: boolean;
-  onReveal: () => void;
+  onFlip: () => void; // tap: question <-> answer
+  onSkip: () => void; // double tap: skip to the next card without grading
   onRate: (g: SwipeGrade) => void;
   intervals: Record<number, string>;
 }) {
   const reduce = useReduceMotion();
+  const tap = useTaps(onFlip, onSkip);
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const strength = useMotionValue(0); // 0–1, how close the drag is to committing
@@ -176,7 +187,7 @@ export function SwipeDeck({
       y0: e.clientY,
       scroll0: scroller.current?.scrollTop ?? 0,
       axis: null,
-      inBand: local < band || local > size().height - band,
+      inBand: (edge !== "bottom" && local < band) || (edge !== "top" && local > size().height - band),
       samples: [{ t: e.timeStamp, x: 0, y: 0 }],
       scrollSamples: [{ t: e.timeStamp, s: scroller.current?.scrollTop ?? 0 }],
     };
@@ -223,9 +234,9 @@ export function SwipeDeck({
     const g = gesture.current;
     if (!g || e.pointerId !== g.id) return;
     gesture.current = null;
-    // A tap (no axis chosen) reveals the answer.
+    // A tap (no axis chosen) flips the card; a double tap skips it.
     if (!g.axis) {
-      if (!revealed && e.type === "pointerup") onReveal();
+      if (e.type === "pointerup") tap();
       return;
     }
     const v = velocity(g.samples);
@@ -262,11 +273,20 @@ export function SwipeDeck({
           key={card.id}
           className={`porcelain absolute inset-0 flex flex-col overflow-hidden ${revealed ? "cursor-grab select-none active:cursor-grabbing" : "cursor-pointer"}`}
           style={{ x, y, rotate, touchAction: "none" }}
-          onKeyDown={(e) => !revealed && (e.key === "Enter" || e.key === " ") && onReveal()}
-          role={revealed ? undefined : "button"}
-          tabIndex={revealed ? -1 : 0}
-          aria-label={revealed ? undefined : "Show answer"}
+          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onFlip())}
+          role="button"
+          tabIndex={0}
+          aria-label={revealed ? "Flip back to the question" : "Show answer"}
         >
+          {/* Each side turns in on the Y axis when the card flips. */}
+          <m.div
+            key={revealed ? "back" : "front"}
+            className="flex min-h-0 flex-1 flex-col"
+            initial={reduce ? { opacity: 0 } : { rotateY: revealed ? -90 : 90, opacity: 0.4 }}
+            animate={reduce ? { opacity: 1 } : { rotateY: 0, opacity: 1 }}
+            transition={reduce ? { duration: 0.12 } : { duration: 0.34, ease: [0.2, 0.8, 0.2, 1] }}
+            style={{ transformPerspective: 1000 }}
+          >
           <div className="flex shrink-0 justify-center pt-2.5 pb-1" aria-hidden>
             <span className="h-1 w-10 rounded-full bg-porcelain-rule" />
           </div>
@@ -276,30 +296,34 @@ export function SwipeDeck({
             ref={scroller}
             className="min-h-0 flex-1 overflow-y-auto overscroll-contain"
             // Room below the answer so its last lines can scroll clear of the bottom swipe zone.
-            style={{ touchAction: "none", paddingBottom: revealed && swipe ? band : 0 }}
+            style={{ touchAction: "none", paddingBottom: revealed && swipe && edge !== "top" ? band : 0 }}
           >
-            <MemoCard card={card} revealed={revealed} bare aside={aside} history={history} />
+            {/* Question side sits centred on the card; the answer side reads from the top. */}
+            <div className={revealed ? "" : "flex min-h-full flex-col justify-center"}>
+              {render ? render(revealed) : <MemoCard card={card} revealed={revealed} bare aside={aside} history={history} />}
+            </div>
             {!revealed && <p className="pb-6 text-center font-mono text-xs text-porcelain-soft">Tap the card to see the answer</p>}
           </div>
+          </m.div>
 
-          {/* up/down swipe zones, shown once the answer is up */}
-          {revealed && swipe && (
-            <>
-              <div
-                aria-hidden
-                className="pointer-events-none absolute inset-x-0 top-0 flex items-start justify-center rounded-t-2xl border-b border-dashed border-porcelain-rule bg-gradient-to-b from-porcelain-2 to-transparent pt-1.5"
-                style={{ height: band }}
-              >
-                <span className="font-mono text-[10px] text-porcelain-soft">↑ Easy · ↓ Hard</span>
-              </div>
-              <div
-                aria-hidden
-                className="pointer-events-none absolute inset-x-0 bottom-0 flex items-end justify-center rounded-b-2xl border-t border-dashed border-porcelain-rule bg-gradient-to-t from-porcelain-2 to-transparent pb-1.5"
-                style={{ height: band }}
-              >
-                <span className="font-mono text-[10px] text-porcelain-soft">↑ Easy · ↓ Hard</span>
-              </div>
-            </>
+          {/* up/down swipe zones: invisible unless the user turns the outline on */}
+          {revealed && swipe && showZone && edge !== "bottom" && (
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-x-0 top-0 flex items-start justify-center rounded-t-2xl border-b border-dashed border-porcelain-rule bg-gradient-to-b from-porcelain-2 to-transparent pt-1.5"
+              style={{ height: band }}
+            >
+              <span className="font-mono text-[10px] whitespace-pre text-porcelain-soft">{`↑ Easy${intervals[4] ? ` · ${intervals[4]}` : ""}   ↓ Hard${intervals[2] ? ` · ${intervals[2]}` : ""}`}</span>
+            </div>
+          )}
+          {revealed && swipe && showZone && edge !== "top" && (
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-x-0 bottom-0 flex items-end justify-center rounded-b-2xl border-t border-dashed border-porcelain-rule bg-gradient-to-t from-porcelain-2 to-transparent pb-1.5"
+              style={{ height: band }}
+            >
+              <span className="font-mono text-[10px] whitespace-pre text-porcelain-soft">{`↑ Easy${intervals[4] ? ` · ${intervals[4]}` : ""}   ↓ Hard${intervals[2] ? ` · ${intervals[2]}` : ""}`}</span>
+            </div>
           )}
 
           {/* live grade feedback while dragging (opacity driven by motion values, no re-render per frame) */}
@@ -313,7 +337,8 @@ export function SwipeDeck({
                 className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full px-4 py-2 font-mono text-sm font-semibold whitespace-nowrap text-on-teal"
                 style={{ background: GRADE_META[intentGrade].color, opacity: labelOpacity }}
               >
-                {GRADE_META[intentGrade].label} · {intervals[intentGrade]}
+                {GRADE_META[intentGrade].label}
+                {intervals[intentGrade] ? ` · ${intervals[intentGrade]}` : ""}
               </m.span>
             </>
           )}
@@ -336,6 +361,36 @@ function scrollVelocity(samples: Gesture["scrollSamples"]) {
   const first = samples.find((s) => last.t - s.t <= 100) ?? samples[0];
   const dt = (last.t - first.t) / 1000;
   return dt > 0 ? (last.s - first.s) / dt : 0;
+}
+
+/** The four grade buttons under the card: tinted by grade, interval on top, a colour bar under the label. */
+export function GradeDock({ intervals }: { intervals?: Record<number, string> }) {
+  return (
+    <div className="grid grid-cols-4 gap-1.5">
+      {([1, 2, 3, 4] as SwipeGrade[]).map((g) => {
+        const meta = GRADE_META[g];
+        return (
+          <button
+            key={g}
+            onClick={() => gradeCurrentCard(g)}
+            className="flex h-16 flex-col items-center justify-center gap-0.5 rounded-xl border transition-[transform,background-color] duration-100 active:scale-[0.97]"
+            style={{
+              borderColor: `color-mix(in srgb, ${meta.color} 45%, transparent)`,
+              background: `color-mix(in srgb, ${meta.color} 14%, var(--color-sheet))`,
+            }}
+          >
+            {intervals?.[g] ? (
+              <span className="font-mono text-[11px]" style={{ color: meta.color }}>
+                {intervals[g]}
+              </span>
+            ) : null}
+            <span className="text-sm font-semibold">{meta.label}</span>
+            <span aria-hidden className="h-0.5 w-5 rounded-full" style={{ background: meta.color }} />
+          </button>
+        );
+      })}
+    </div>
+  );
 }
 
 /** Ask the deck to fly the current card out with this grade (used by buttons and keys). */

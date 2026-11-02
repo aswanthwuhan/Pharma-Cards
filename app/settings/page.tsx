@@ -152,7 +152,7 @@ export default function SettingsPage() {
                     Up / down swipe zone
                   </p>
                   <p className="text-sm leading-relaxed text-ink-soft">
-                    Up (Easy) and down (Hard) swipes count only when they start in the marked strip at the card&apos;s top or bottom edge. Anywhere else, up and down scrolls the answer.
+                    Up (Easy) and down (Hard) swipes count only when they start in this strip at the card&apos;s edge. Anywhere else, up and down scrolls the answer, so a scroll never grades by accident.
                   </p>
                 </div>
                 <p className="shrink-0 font-mono text-2xl tabular-nums text-ink">{s.swipeBand}px</p>
@@ -170,6 +170,27 @@ export default function SettingsPage() {
                 className="min-h-11 w-full cursor-pointer accent-teal disabled:opacity-40"
               />
             </div>
+            <Row
+              title="Swipe zone edge"
+              description="Where on the card up/down swipes start."
+              control={
+                <Segmented
+                  label="Swipe zone edge"
+                  value={s.swipeEdge}
+                  options={[
+                    { value: "bottom", label: "Bottom" },
+                    { value: "top", label: "Top" },
+                    { value: "both", label: "Both" },
+                  ]}
+                  onChange={(v) => updateSetting("swipeEdge", v)}
+                />
+              }
+            />
+            <Row
+              title="Show swipe zone"
+              description="Draw a dashed outline around the zone. Off keeps it invisible."
+              control={<Toggle label="Show swipe zone" checked={s.swipeZoneVisible} onChange={(v) => updateSetting("swipeZoneVisible", v)} />}
+            />
             <Row
               title="Haptic feedback"
               description="Short vibration when you grade a card, on devices that support it."

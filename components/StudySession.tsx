@@ -16,11 +16,10 @@ import { NavBack } from "./NavBack";
 import { ProgressRing } from "./ProgressRing";
 import { SessionSummary } from "./SessionSummary";
 import { MasteryPill } from "./MasteryPill";
-import { GRADE_META, gradeCurrentCard, SwipeDeck } from "./SwipeDeck";
+import { GRADE_META, GradeDock, gradeCurrentCard, SwipeDeck } from "./SwipeDeck";
 import { useSettings } from "@/lib/settings";
 
 // Rating dock order matches Anki: Forgot, Hard, Good, Easy.
-const DOCK: SwipeGrade[] = [1, 2, 3, 4];
 const ARROW: Record<string, SwipeGrade> = { ArrowLeft: 1, ArrowDown: 2, ArrowRight: 3, ArrowUp: 4 };
 
 interface Done {
@@ -53,7 +52,9 @@ function CardTimer({ started }: { started: { current: number } }) {
   );
 }
 
-export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCard[]; mode: string; title: string; rapidHref?: string }) {
+export function StudySession({ cards: initial, mode, title, rapidHref }: { cards: FlashCard[]; mode: string; title: string; rapidHref?: string }) {
+  // Skipped cards move to the end of the queue, so the order is state.
+  const [cards, setCards] = useState(initial);
   const [i, setI] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [history, setHistory] = useState<Done[]>([]);
@@ -200,7 +201,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
           <NavBack />
           <ProgressRing value={i} max={cards.length} />
           <div className="min-w-0 flex-1">
-            <p className="truncate font-serif text-lg leading-tight">{title}</p>
+            <p className="font-serif text-base leading-snug">{title}</p>
             <p className="font-mono text-[11px] text-ink-soft">
               Card {i + 1} of {cards.length} · {Math.round(progress)}%
             </p>
@@ -248,11 +249,17 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
           card={card}
           next={cards[i + 1]}
           revealed={revealed}
-          onReveal={() => setRevealed(true)}
+          onFlip={() => setRevealed((r) => !r)}
+          onSkip={() => {
+            setRevealed(false);
+            setCards((c) => [...c.slice(0, i), ...c.slice(i + 1), c[i]]);
+          }}
           onRate={rate}
           intervals={intervals}
           swipe={settings.swipe}
           band={settings.swipeBand}
+          edge={settings.swipeEdge}
+          showZone={settings.swipeZoneVisible}
           haptics={settings.haptics}
           aside={<CardTimer key={card.id} started={started} />}
           history={historyLine(state)}
@@ -269,36 +276,17 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
             </button>
           </span>
         ) : revealed && settings.swipe ? (
-          <span className="font-mono text-[10px] text-ink-soft">Swipe ← Forgot · → Good · edge strips ↑ Easy ↓ Hard</span>
+          <span className="font-mono text-[10px] text-ink-soft">Swipe ← Forgot · → Good · from the edge ↑ Easy ↓ Hard</span>
         ) : null}
       </div>
 
       {/* rating dock, at thumb level */}
       <div className="glass rounded-2xl p-2">
         {revealed ? (
-          <>
-            <div className="grid grid-cols-4 gap-1.5">
-              {DOCK.map((g) => {
-                const meta = GRADE_META[g];
-                return (
-                  <button
-                    key={g}
-                    onClick={() => gradeCurrentCard(g)}
-                    className="flex min-h-14 flex-col items-center justify-center rounded-xl border bg-sheet transition-[transform,background-color] duration-100 active:scale-[0.97]"
-                    style={{ borderColor: `color-mix(in srgb, ${meta.color} 40%, transparent)` }}
-                  >
-                    <span className="font-mono text-[11px]" style={{ color: meta.color }}>
-                      {intervals[g]}
-                    </span>
-                    <span className="text-sm font-semibold">{meta.label}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </>
+          <GradeDock intervals={intervals} />
         ) : (
           // Same height as the grade row, so the card does not resize when the answer appears.
-          <p className="flex min-h-14 items-center justify-center font-mono text-xs text-ink-soft">Tap the card to see the answer</p>
+          <p className="flex h-16 items-center justify-center font-mono text-xs text-ink-soft">Tap card to flip · double tap to skip</p>
         )}
       </div>
 

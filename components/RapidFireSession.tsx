@@ -1,23 +1,25 @@
 "use client";
 
-import { animate, LazyMotion, domAnimation, m, useMotionValue, useTransform } from "motion/react";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Grade } from "ts-fsrs";
+import type { SwipeGrade } from "@/lib/swipe";
 import { recordReview, undoReview, type ReviewUndo } from "@/lib/srs";
-import { useReduceMotion, useSettings } from "@/lib/settings";
+import { useSettings } from "@/lib/settings";
 import type { RapidDirection } from "@/lib/store";
 import { subtopicById, topicById } from "@/lib/syllabus";
 import type { FlashCard } from "@/lib/types";
+import { GradeDock, gradeCurrentCard, SwipeDeck } from "./SwipeDeck";
 import { NavBack } from "./NavBack";
 import { ProgressRing } from "./ProgressRing";
 
-const KNEW: Grade = 3;
-const MISSED: Grade = 1;
+const NO_INTERVALS: Record<number, string> = { 1: "", 2: "", 3: "", 4: "" };
+const ARROW: Record<string, SwipeGrade> = { ArrowLeft: 1, ArrowDown: 2, ArrowRight: 3, ArrowUp: 4 };
 
 /**
- * Rapid Fire: short reversible q/a pairs, two-way grading, built for speed.
- * Tap / Space flips. Swipe right or → = knew it; swipe left or ← = didn't know.
+ * Rapid Fire: short reversible q/a pairs on the same card engine as full cards.
+ * Tap / Space flips, double tap skips. Swipe or arrows: ← Forgot, ↓ Hard, → Good, ↑ Easy.
+ * Hard, Good and Easy count as "knew it" for the streak.
  */
 export function RapidFireSession({
   cards: initial,
@@ -33,7 +35,6 @@ export function RapidFireSession({
   fullCardsHref: string;
 }) {
   const settings = useSettings();
-  const reduce = useReduceMotion();
   const [cards, setCards] = useState(initial);
   const [i, setI] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -50,37 +51,26 @@ export function RapidFireSession({
     best = Math.max(best, streak);
   }
 
-  const x = useMotionValue(0);
-  const rotate = useTransform(x, [-300, 300], reduce ? [0, 0] : [-6, 6]);
-  const knewOpacity = useTransform(x, [20, 110], [0, 1]);
-  const missOpacity = useTransform(x, [-110, -20], [1, 0]);
-  const drag = useRef<{ id: number; x0: number; y0: number; moved: boolean } | null>(null);
-
   useEffect(() => setCards(initial), [initial]);
   useEffect(() => {
-    x.jump(0);
     shownAt.current = Date.now();
-  }, [i, x]);
+  }, [i]);
 
+  // The deck flies the card out, then hands the grade here.
   const grade = useCallback(
-    async (knew: boolean) => {
+    async (g: SwipeGrade) => {
       if (!card || busy.current) return;
       busy.current = true;
       try {
-        if (settings.haptics && navigator.vibrate) navigator.vibrate(knew ? 6 : [6, 40, 6]);
-        if (!reduce) {
-          const fly = animate(x, (knew ? 1 : -1) * 480, { type: "spring", stiffness: 500, damping: 44, velocity: x.getVelocity() });
-          await Promise.race([fly, new Promise((r) => setTimeout(r, 320))]);
-        }
-        const undo = await recordReview(card, knew ? KNEW : MISSED, Date.now() - shownAt.current, "rapid");
-        setLog((l) => [...l, { card, knew, undo }]);
+        const undo = await recordReview(card, g as Grade, Date.now() - shownAt.current, "rapid");
+        setLog((l) => [...l, { card, knew: g > 1, undo }]);
         setFlipped(false);
         setI((n) => n + 1);
       } finally {
         busy.current = false;
       }
     },
-    [card, reduce, settings.haptics, x],
+    [card],
   );
 
   const undoLast = useCallback(async () => {
@@ -107,37 +97,16 @@ export function RapidFireSession({
         // Enter/Space on a focused control belongs to that control.
         if (el.closest?.("button, a, [role=radio]")) return;
         e.preventDefault();
-        setFlipped(true);
-      } else if (flipped && (e.key === "ArrowRight" || e.key === "3")) grade(true);
-      else if (flipped && (e.key === "ArrowLeft" || e.key === "1")) grade(false);
+        setFlipped((f) => !f);
+      } else if (flipped && ["1", "2", "3", "4"].includes(e.key)) gradeCurrentCard(Number(e.key) as SwipeGrade);
+      else if (flipped && ARROW[e.key]) {
+        e.preventDefault();
+        gradeCurrentCard(ARROW[e.key]);
+      }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [flipped, grade, undoLast, done]);
-
-  // Horizontal swipe from anywhere on the card; a tap flips.
-  const onDown = (e: React.PointerEvent) => {
-    drag.current = { id: e.pointerId, x0: e.clientX, y0: e.clientY, moved: false };
-    try {
-      (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
-    } catch {}
-  };
-  const onMove = (e: React.PointerEvent) => {
-    const d = drag.current;
-    if (!d || d.id !== e.pointerId) return;
-    const dx = e.clientX - d.x0;
-    if (Math.abs(dx) > 8 || Math.abs(e.clientY - d.y0) > 8) d.moved = true;
-    if (flipped && settings.swipe) x.set(dx);
-  };
-  const onUp = (e: React.PointerEvent) => {
-    const d = drag.current;
-    if (!d || d.id !== e.pointerId) return;
-    drag.current = null;
-    const dx = x.get();
-    if (!d.moved) return setFlipped(true); // a tap only reveals; it never flips back to the question
-    if (flipped && settings.swipe && Math.abs(dx) > 90) return void grade(dx > 0);
-    animate(x, 0, { type: "spring", stiffness: 400, damping: 32, velocity: x.getVelocity() });
-  };
+  }, [flipped, undoLast, done]);
 
   const knewCount = log.filter((l) => l.knew).length;
   const missed = log.filter((l) => !l.knew).map((l) => l.card);
@@ -148,7 +117,7 @@ export function RapidFireSession({
       <ProgressRing value={i} max={Math.max(1, cards.length)} />
       <div className="min-w-0 flex-1">
         <p className="eyebrow text-teal">Rapid fire</p>
-        <p className="truncate font-serif text-lg leading-tight">{title}</p>
+        <p className="font-serif text-base leading-snug">{title}</p>
       </div>
       <Link href={fullCardsHref} role="switch" aria-checked="true" aria-label="Rapid fire mode on; switch to full cards" className="flex min-h-10 items-center gap-2 rounded-full border border-teal bg-teal-wash px-3 text-xs font-semibold text-teal">
         <span className="relative h-4 w-7 rounded-full bg-teal">
@@ -258,52 +227,57 @@ export function RapidFireSession({
         </div>
       </div>
 
-      <LazyMotion features={domAnimation}>
-        <div className="relative mt-4 min-h-0 flex-1" style={{ touchAction: "none" }} onPointerDown={onDown} onPointerMove={onMove} onPointerUp={onUp} onPointerCancel={onUp}>
-          <m.div key={card.id} style={{ x, rotate }} className="porcelain absolute inset-0 flex cursor-pointer flex-col overflow-hidden select-none">
-            <div className="flex items-center justify-between px-5 pt-4 font-mono text-[10px] tracking-wide text-porcelain-soft uppercase">
-              <span className="truncate">
-                {topicById.get(card.topicId)?.title}
-                {sub ? ` / ${sub}` : ""}
-              </span>
-              <span>{isReverse ? "Reversed" : isList ? "List all" : "Recall"}</span>
+      <div className="relative mt-4 min-h-0 flex-1">
+        <SwipeDeck
+          card={card}
+          next={cards[i + 1]}
+          revealed={flipped}
+          onFlip={() => setFlipped((f) => !f)}
+          onSkip={() => {
+            setFlipped(false);
+            setCards((c) => [...c.slice(0, i), ...c.slice(i + 1), c[i]]);
+          }}
+          onRate={grade}
+          intervals={NO_INTERVALS}
+          swipe={settings.swipe}
+          haptics={settings.haptics}
+          band={settings.swipeBand}
+          edge={settings.swipeEdge}
+          showZone={settings.swipeZoneVisible}
+          render={(revealed) => (
+            <div className="flex min-h-full flex-col">
+              <div className="flex items-center justify-between gap-3 px-5 pt-2 font-mono text-[10px] tracking-wide text-porcelain-soft uppercase">
+                <span>
+                  {topicById.get(card.topicId)?.title}
+                  {sub ? ` / ${sub}` : ""}
+                </span>
+                <span className="shrink-0">{isReverse ? "Reversed" : isList ? "List all" : "Recall"}</span>
+              </div>
+              <div className="flex flex-1 flex-col justify-center px-6 py-6 text-center">
+                <p className="font-serif text-[1.7rem] leading-snug">{card.front}</p>
+                {revealed ? (
+                  <div className="mt-6 border-t border-porcelain-rule pt-5">
+                    {answerItems && !isReverse ? (
+                      <ul className="flex flex-wrap justify-center gap-1.5">
+                        {answerItems.map((a, k) => (
+                          <li key={k} className="rounded-full bg-porcelain-2 px-3 py-1 text-[15px]">
+                            {a}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="text-xl font-semibold text-[#1f5c48]">{card.back}</p>
+                    )}
+                    <p className="mt-4 font-mono text-[10px] text-porcelain-soft">{card.refs?.join(", ")}</p>
+                  </div>
+                ) : (
+                  <p className="mt-6 font-mono text-xs text-porcelain-soft">Tap to flip</p>
+                )}
+              </div>
             </div>
-            <div className="flex min-h-0 flex-1 flex-col justify-center overflow-y-auto px-6 py-6 text-center" style={{ touchAction: "pan-y" }}>
-              <p className="font-serif text-[1.7rem] leading-snug">{card.front}</p>
-              {flipped ? (
-                <m.div
-                  className="mt-6 border-t border-porcelain-rule pt-5"
-                  initial={reduce ? { opacity: 0 } : { opacity: 0, y: 8 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={reduce ? { duration: 0.15 } : { type: "spring", stiffness: 400, damping: 32 }}
-                >
-                  {answerItems && !isReverse ? (
-                    <ul className="flex flex-wrap justify-center gap-1.5">
-                      {answerItems.map((a, k) => (
-                        <li key={k} className="rounded-full bg-porcelain-2 px-3 py-1 text-[15px]">
-                          {a}
-                        </li>
-                      ))}
-                    </ul>
-                  ) : (
-                    <p className="text-xl font-semibold text-[#1f5c48]">{card.back}</p>
-                  )}
-                  <p className="mt-4 font-mono text-[10px] text-porcelain-soft">{card.refs?.join(", ")}</p>
-                </m.div>
-              ) : (
-                <p className="mt-6 font-mono text-xs text-porcelain-soft">Tap to flip</p>
-              )}
-            </div>
-            {/* swipe feedback */}
-            <m.span style={{ opacity: knewOpacity }} className="pointer-events-none absolute top-4 right-4 rounded-full bg-strong px-3 py-1 font-mono text-xs font-bold text-on-teal">
-              Knew it
-            </m.span>
-            <m.span style={{ opacity: missOpacity }} className="pointer-events-none absolute top-4 left-4 rounded-full bg-weak px-3 py-1 font-mono text-xs font-bold text-on-teal">
-              Didn&apos;t know
-            </m.span>
-          </m.div>
-        </div>
-      </LazyMotion>
+          )}
+        />
+      </div>
 
       <div className="flex h-9 shrink-0 items-center justify-center" role="status" aria-live="polite">
         {log.length > 0 && (
@@ -316,21 +290,11 @@ export function RapidFireSession({
         )}
       </div>
 
-      <div className="glass grid grid-cols-2 gap-2 rounded-2xl p-2">
+      <div className="glass rounded-2xl p-2">
         {flipped ? (
-          <>
-            <button onClick={() => grade(false)} className="flex min-h-14 flex-col items-center justify-center rounded-xl border bg-sheet font-semibold" style={{ borderColor: "color-mix(in srgb, var(--color-weak) 45%, transparent)" }}>
-              <span>Didn&apos;t know</span>
-              <span className="font-mono text-[10px] font-normal text-ink-soft">← swipe left</span>
-            </button>
-            <button onClick={() => grade(true)} className="flex min-h-14 flex-col items-center justify-center rounded-xl border bg-sheet font-semibold" style={{ borderColor: "color-mix(in srgb, var(--color-strong) 45%, transparent)" }}>
-              <span>Knew it</span>
-              <span className="font-mono text-[10px] font-normal text-ink-soft">swipe right →</span>
-            </button>
-          </>
+          <GradeDock />
         ) : (
-          // Same height as the grade row, so the card does not resize on flip.
-          <p className="col-span-2 flex min-h-14 items-center justify-center font-mono text-xs text-ink-soft">Tap the card to see the answer</p>
+          <p className="flex h-16 items-center justify-center font-mono text-xs text-ink-soft">Tap card to flip · double tap to skip</p>
         )}
       </div>
     </div>

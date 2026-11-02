@@ -12,7 +12,9 @@ export interface Settings {
   retention: number; // FSRS target recall probability, 0.80–0.97
   showDrafts: boolean; // include unreviewed draft cards in study
   swipe: boolean; // swipe-to-grade on the study card
-  swipeBand: number; // px strip at the card's top and bottom edges where up/down swipes grade; elsewhere up/down scrolls
+  swipeBand: number; // px height of the up/down swipe zone; elsewhere up/down scrolls
+  swipeEdge: "bottom" | "top" | "both"; // which card edge(s) hold the up/down swipe zone
+  swipeZoneVisible: boolean; // draw the zone outline (off: invisible)
   haptics: boolean; // vibrate on grade (where supported)
   theme: "dark" | "light" | "auto"; // Night mode / Day mode / follow the device
   motion: MotionSetting; // full = always animate, system = follow the phone, reduced = never
@@ -40,6 +42,8 @@ export const DEFAULT_SETTINGS: Settings = {
   showDrafts: true,
   swipe: true,
   swipeBand: 72,
+  swipeEdge: "bottom",
+  swipeZoneVisible: false,
   haptics: true,
   theme: "dark",
   motion: "full",
