@@ -45,3 +45,31 @@ Source: official KNRUHS previous-question-papers page https://www.knruhs.telanga
 - Dr NTR UHS: no official PDF found; FirstRanker/andhrastudy listings only (not used).
 - KUHS (kuhs.ac.in): homepage reachable, no PG QP archive found; /question-papers returns 404.
 - AIIMS, JIPMER, PGIMER: no MD Pharmacology papers found on official pages during this search.
+
+## Owner question bank (MD pharmacology Q banks folder, 2026-11)
+
+Question wording only; the files stay in the gitignored folder. Source for each row is `owner-qbank: <path>`. Duplicates across papers were removed on university+year+paper+normalised question. Year 0 = topic-wise or multi-year bank with no per-question year (not tagged to cards).
+
+| University | Year | Questions |
+|---|---|---|
+| Q bank | 0 | 861 |
+| RGUHS | 2006 | 57 |
+| RGUHS | 2007 | 63 |
+| RGUHS | 2008 | 46 |
+| RGUHS | 2009 | 76 |
+| RGUHS | 2010 | 111 |
+| RGUHS | 2011 | 59 |
+| RGUHS | 2016 | 61 |
+| RGUHS | 2017 | 37 |
+| RGUHS | 2018 | 75 |
+| RGUHS | 2019 | 74 |
+| RGUHS | 2020 | 74 |
+| RGUHS | 2021 | 76 |
+| RGUHS | 2022 | 74 |
+| RGUHS | 2023 | 39 |
+| RGUHS | 2024 | 40 |
+| RGUHS | 2025 | 72 |
+| SRMC (model) | 2025 | 11 |
+| UHSR | 2025 | 440 |
+
+Not processed (see report): RGUHS .doc from 2008 Oct and 2009 May (antiword could not open 8 files), Delhi University 1990-2012 compilation, NTR compilation, WBUHS 10-year compilation, KNRUHS 2023 notes, SRMC model Paper 1-3, scanned papers (AIIMS Nagpur, AIPR, AIIMS Bhubaneswar, manipal qp, OUHS, IGIMS, Delhi/West Bengal images) until OCR finished, and answer booklets (skipped by rule).

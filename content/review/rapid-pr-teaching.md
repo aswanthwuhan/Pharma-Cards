@@ -84,3 +84,15 @@ Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-gr
 | rf-pr-teaching-0030 | rapid, re-grounded | Cureus 2026 Joseph-RATA feedback (PMC13589777) |
 
 Still unsourced after this pass (10): rf-pr-teaching-0002, rf-pr-teaching-0003, rf-pr-teaching-0004, rf-pr-teaching-0006, rf-pr-teaching-0007, rf-pr-teaching-0008, rf-pr-teaching-0019, rf-pr-teaching-0025, rf-pr-teaching-0026, rf-pr-teaching-0027
+
+## Owner practical books pass
+
+Mirrors the deck (see review/pr-teaching.md). Refs aligned to NMC or PGMER for: 0001, 0004, 0005, 0008 (q reworded to name the domain), 0014, 0015, 0016, 0017, 0018, 0021, 0022, 0028, 0031, 0032.
+
+New cards for deck 031-043: rf-pr-teaching-0033 to 0045. Mirrors added for deck cards that had none: 0046 (deck 008), 0047 (013), 0048 (019), 0049 (024), 0050 (028), 0051 (030). Deck 007 and 012 not mirrored (example and step-wise tasks, not recall facts).
+
+0020 (deck 018) kept UNSOURCED, with its web ref.
+
+Still unsourced: 0002, 0003, 0006, 0007, 0019, 0025, 0026, 0027, 0046, 0049.
+
+WEB refs kept (not in owner books): 0009-0013, 0020, 0023, 0024, 0029, 0030, 0050, 0051.

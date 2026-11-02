@@ -244,3 +244,13 @@ rf-p1-adr-0212 | ok | KDT8 ch6
 rf-p1-adr-0213 | ok | KDT8 ch6
 rf-p1-adr-0214 | ok (review book) | Prep p71-75
 rf-p1-adr-0215 | ok (review book) | Prep p71-75
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+id | status | new refs | note
+--- | --- | --- | ---
+rf-p1-adr-0059 | regrounded | KDT8 PDF p110, Padmaja Medical Pharmacology 7e PDF p89 | Books name the WHO scale (not WHO-UMC)
+rf-p1-adr-0156 | corrected | KDT8 PDF p462 | 4 mg folic acid dose not printed in books; kept supplementation in 2nd and 3rd trimesters
+rf-p1-adr-0157 | unsourced | - | ACE inhibitor/ARB renal agenesis not found in books
+rf-p1-adr-0214 | regrounded | KDT8 PDF p109 | Q narrowed to Type A
+rf-p1-adr-0215 | corrected | KDT8 PDF p109 | Books define Type B only; types C, D, E not found, dropped

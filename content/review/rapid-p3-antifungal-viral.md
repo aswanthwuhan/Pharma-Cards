@@ -27,3 +27,12 @@ Omitted (not printed in the chapters read, or not verified in the owner's text):
 - Pregnancy/PEP paediatric age cut-off (OCR garbled, "10 years") and all unreadable OCR numbers.
 
 Deletions: none. Id 0284 was removed during drafting as a duplicate of 0282; ids are not renumbered, so the sequence has one gap.
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p3-antifungal-viral-0018 | corrected | GG14 ch61; KDT8 PDF p852 | isavuconazole not in allowed books; KDT8 table lists AMB then POSA
+rf-p3-antifungal-viral-0067 | corrected | KDT8 ch58; KDT8 PDF p855 | Cushing use not printed in allowed book text found
+rf-p3-antifungal-viral-0077 | regrounded | KDT8 ch58; KDT8 PDF p854 | -
+rf-p3-antifungal-viral-0081 | regrounded | KDT8 ch58; KDT8 PDF p854 | -
+rf-p3-antifungal-viral-0094 | regrounded | KDT8 ch58; KDT8 PDF p858 | -
+rf-p3-antifungal-viral-0101 | regrounded | KDT8 ch58; KDT8 PDF p859; GG14 PDF p1214 | -

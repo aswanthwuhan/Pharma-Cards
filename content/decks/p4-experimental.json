@@ -431,6 +431,21 @@
           "university": "WBUHS",
           "year": 2020,
           "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
         }
       ],
       "status": "draft",
@@ -620,7 +635,13 @@
         "KDT8 ch5",
         "Katzung16 ch1"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-experimental-toxicity",
       "tags": [
@@ -699,6 +720,21 @@
           "university": "WBUHS",
           "year": 2022,
           "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
         }
       ],
       "status": "draft",
@@ -715,7 +751,13 @@
       "refs": [
         "Sarkar p256-260"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-experimental-ethics",
       "tags": [
@@ -764,6 +806,11 @@
         },
         {
           "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
           "year": 2025,
           "marks": 10
         }
@@ -923,6 +970,11 @@
           "university": "WBUHS",
           "year": 2022,
           "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
         }
       ],
       "status": "draft",
@@ -972,6 +1024,16 @@
         {
           "university": "WBUHS",
           "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
           "marks": 10
         }
       ],
@@ -1026,6 +1088,21 @@
         {
           "university": "WBUHS",
           "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
           "marks": 10
         }
       ],
@@ -1129,6 +1206,16 @@
           "university": "KNRUHS",
           "year": 2025,
           "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
         }
       ],
       "status": "draft",
@@ -1179,6 +1266,16 @@
         {
           "university": "KNRUHS",
           "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
           "marks": 10
         }
       ],
@@ -1234,12 +1331,244 @@
           "university": "KNRUHS",
           "year": 2026,
           "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
         }
       ],
       "status": "draft",
       "subtopic": "p4-experimental-animal-models",
       "tags": [
         "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-043",
+      "type": "basic",
+      "front": "De Jalon solution: how does it differ from Ringer-Locke?",
+      "back": "Same salts as Ringer-Locke, but one-quarter the CaCl2 and half the glucose. Medhi's table also gives bicarbonate 5 g vs 2 g per 10 L, which Ghosh does not mention.",
+      "refs": [
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p9",
+        "Medhi Practical Manual PDF p68 (printed 52)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-044",
+      "type": "basic",
+      "front": "Which salt solutions contain no magnesium or phosphate ions?",
+      "back": "De Jalon, Frog-Ringer and Ringer-Locke (Medhi). Ghosh names Ringer, Frog-Ringer and De Jalon.",
+      "refs": [
+        "Medhi Practical Manual PDF p69 (printed 53)",
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-045",
+      "type": "basic",
+      "front": "Which PSS suits non-innervated muscle, and which suits nerve-muscle preparations?",
+      "back": "Tyrode for non-innervated muscle; Krebs for nerve-muscle preparations. Krebs may be used for any tissue.",
+      "refs": [
+        "Medhi Practical Manual PDF p69 (printed 53)",
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-046",
+      "type": "basic",
+      "front": "Which gas aerates each common PSS?",
+      "back": "Air: Tyrode and Frog-Ringer. Oxygen alone: Ringer-Locke. 95% O2 + 5% CO2: Krebs, De Jalon and McEwen.",
+      "refs": [
+        "Medhi Practical Manual PDF p68 (printed 52)",
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-047",
+      "type": "basic",
+      "front": "Why is carbogen, not pure oxygen, used with a bicarbonate PSS?",
+      "back": "Pure O2 drives off CO2 from the bicarbonate buffer, so the PSS becomes alkaline. Adding 5% CO2 prevents this.",
+      "refs": [
+        "Medhi Practical Manual PDF p69 (printed 53)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p4-experimental-048",
+      "type": "basic",
+      "front": "Why is CaCl2 added last when making a PSS?",
+      "back": "Calcium with bicarbonate precipitates and makes the solution turbid. Medhi says add CaCl2 last; Ghosh says add the bicarbonate only at set-up.",
+      "refs": [
+        "Medhi Practical Manual PDF p69 (printed 53)",
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-049",
+      "type": "basic",
+      "front": "How long may a prepared PSS be kept?",
+      "back": "Prepare it fresh. Medhi allows up to 24 h in a fridge; longer storage invites microbial growth from glucose. Ghosh says prepare fresh on the day of the experiment.",
+      "refs": [
+        "Medhi Practical Manual PDF p69 (printed 53)",
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-050",
+      "type": "basic",
+      "front": "What is the maximum acceptable error when preparing a PSS?",
+      "back": "1%. Hygroscopic CaCl2 and MgCl2 are best added from stock solution.",
+      "refs": [
+        "Medhi Practical Manual PDF p69 (printed 53)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-051",
+      "type": "basic",
+      "front": "What pH range should a PSS be kept in, and what does a low pH do?",
+      "back": "pH 7.3 to 7.4. At lower pH the tonus of the tissue tends to fall, altering drug effects.",
+      "refs": [
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p8",
+        "Medhi Practical Manual PDF p69 (printed 53)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p4-experimental-052",
+      "type": "basic",
+      "front": "What happens to isolated intestine when the bath is cooled below 37 C?",
+      "back": "Tonus rises, contractions become smaller, and contraction and relaxation times increase.",
+      "refs": [
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p4-experimental-053",
+      "type": "basic",
+      "front": "How do you weigh a hydrated salt in place of an anhydrous one?",
+      "back": "Scale the weight by the molar mass ratio: 0.2 g anhydrous CaCl2 needs 0.26 g CaCl2.2H2O (147/111).",
+      "refs": [
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-054",
+      "type": "basic",
+      "front": "Histamine stock 1 mg/mL: 0.2 mL added to a 10 mL bath gives what final concentration?",
+      "back": "20 µg/mL (2.0 x 10^-5 g/mL).",
+      "refs": [
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-055",
+      "type": "basic",
+      "front": "First human dose from acute animal toxicity data: what rule do rat and dog tests give?",
+      "back": "Start from the minimum effective dose in the acute test. Rat test: one two-hundredth as the single starting dose; dog test: one-tenth. Same route.",
+      "refs": [
+        "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p160"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p4-experimental-056",
+      "type": "basic",
+      "front": "Which non-hygroscopic magnesium salt replaces MgCl2 in a PSS?",
+      "back": "MgSO4. MgCl2 is hygroscopic and hard to weigh; the sulphate ion has no harmful effect.",
+      "refs": [
+        "Medhi Practical Manual PDF p69 (printed 53)"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-salt-solutions",
+      "tags": [
+        "classification"
       ]
     }
   ]

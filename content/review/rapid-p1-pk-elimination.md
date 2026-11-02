@@ -285,3 +285,13 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards written: 264; c
 | rf-p1-pk-elimination-0262 | ok | KDT8 ch3 |
 | rf-p1-pk-elimination-0263 | ok | KDT8 ch3 |
 | rf-p1-pk-elimination-0264 | ok | KDT8 ch3 |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p1-pk-elimination-0112 | corrected | KDT8 PDF p432 | time course (about 1 day / 1 week) not found; dropped
+rf-p1-pk-elimination-0172 | corrected | KDT8 PDF p56 | route/bioavailability claim not stated; replaced with t1/2 = 0.693 x V/CL
+rf-p1-pk-elimination-0213 | corrected | KDT8 PDF p38 | oestrogen changed to oral contraceptives, as printed
+rf-p1-pk-elimination-0220 | corrected | GG14 PDF p49 | "all doses" changed to usual concentrations
+rf-p1-pk-elimination-0223 | corrected | KDT8 PDF p56 | "pseudo-zero-order" term not in books; renamed to saturation over therapeutic range
+rf-p1-pk-elimination-0234 | corrected | GG14 PDF p58; GG14 PDF p60; KDT8 PDF p58 | 90% at 3.3 half-lives not found; books say steady state after 4-5 half-lives
+rf-p1-pk-elimination-0260 | corrected | Katzung16 PDF p566; Bennett & Brown Clin Pharmacol PDF p360 | 1 day changed to about 20 h (15-30 h chronic); 4-5 day effect duration not found

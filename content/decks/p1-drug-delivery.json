@@ -122,6 +122,11 @@
           "university": "KNRUHS",
           "year": 2025,
           "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
         }
       ],
       "status": "draft",
@@ -527,7 +532,13 @@
       "refs": [
         "RangDale9 ch9"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p1-drug-delivery-targeted",
       "tags": [
@@ -567,10 +578,12 @@
     {
       "id": "p1-drug-delivery-028",
       "type": "basic",
-      "front": "On what does the dose from a transdermal patch depend, and which skin sites absorb best and least?",
-      "back": "The dose depends on the patch area, not its thickness. Absorption is greatest from the posterior auricular area behind the pinna, then the scrotum, then the face and neck. Palms and soles absorb least because their skin is thick.",
+      "front": "On what does the dose from a transdermal patch depend, and does the skin site matter?",
+      "back": "The dose depends on the patch area: 10, 20 and 30 cm2 nicotine patches release 7, 14 and 21 mg per 24 hours. A transdermal system releases at a constant rate whatever the skin site, because its membrane sets the rate.",
       "refs": [
-        "Prep p16-20"
+        "KDT8 PDF p150",
+        "KDT8 PDF p29",
+        "GG14 PDF p47"
       ],
       "pyq": [],
       "status": "draft",
@@ -583,9 +596,10 @@
       "id": "p1-drug-delivery-029",
       "type": "basic",
       "front": "Name three drugs given by transdermal patch and their indications.",
-      "back": "Nicotine for smoking withdrawal; a nitrate for chronic angina; scopolamine (hyoscine) or diphenhydramine for motion sickness.",
+      "back": "Nicotine for smoking withdrawal; a nitrate (glyceryl trinitrate) for chronic angina; scopolamine (hyoscine) for motion sickness.",
       "refs": [
-        "Prep p16-20",
+        "GG14 PDF p47",
+        "KDT8 PDF p148",
         "KDT8 ch1"
       ],
       "pyq": [],
@@ -599,9 +613,9 @@
       "id": "p1-drug-delivery-030",
       "type": "basic",
       "front": "What is Norplant, and how long does it provide contraception?",
-      "back": "A subcutaneous implant of six rods coated with levonorgestrel. It provides contraception for up to 5 years.",
+      "back": "A subcutaneous implant of six capsules, each containing 36 mg levonorgestrel. It provides contraception for up to 5 years.",
       "refs": [
-        "Prep p16-20"
+        "KDT8 PDF p363"
       ],
       "pyq": [],
       "status": "draft",
@@ -614,9 +628,9 @@
       "id": "p1-drug-delivery-031",
       "type": "basic",
       "front": "What does continuous subcutaneous insulin infusion by pump offer compared with injections?",
-      "back": "It gives continuous insulin delivery and is said to give better compliance. Insulin is also given as subcutaneous injections by syringe or prefilled pen.",
+      "back": "A constant basal insulin infusion with programmed meal boluses, using short-acting insulin only. Insulin is otherwise given as subcutaneous injections by syringe or prefilled pen.",
       "refs": [
-        "Prep p426-430"
+        "GG14 PDF p1051"
       ],
       "pyq": [],
       "status": "draft",
@@ -629,9 +643,11 @@
       "id": "p1-drug-delivery-032",
       "type": "basic",
       "front": "What is Ocusert, and what do GG14 say about ocular inserts?",
-      "back": "Ocusert is an implant placed in the eye that releases pilocarpine. Prep lists it as the drug of choice for that use as a miotic. GG14 notes that drug-loaded contact lenses and ocular inserts place drugs where they are needed.",
+      "back": "Ocusert is a drug-filled polymer insert placed in the lower conjunctival sac. It releases pilocarpine at a controlled rate. GG14 notes that drug-loaded contact lenses and ocular inserts place drugs where they are needed.",
       "refs": [
-        "Prep p91-95",
+        "Katzung16 PDF p1281",
+        "Katzung16 PDF p143",
+        "GG14 PDF p47",
         "GG14 ch2"
       ],
       "pyq": [],
@@ -660,10 +676,11 @@
     {
       "id": "p1-drug-delivery-034",
       "type": "basic",
-      "front": "How does inhaled particle size decide between local and systemic action?",
-      "back": "Particles of about 2 to 5 micrometres mostly stay in the bronchus, giving local action such as bronchodilators. Particles under about 2 micrometres reach the alveoli and blood, giving systemic action, as with general anaesthetic gases.",
+      "front": "How does inhaled particle size affect where an aerosol deposits?",
+      "back": "Aerosol particles of about 2 to 5 micrometres mostly deposit in the mouth or pharynx (80 to 90% of the dose). Particles under 1 to 2 micrometres stay suspended and may be exhaled. Gases and volatile anaesthetics act systemically after absorption from the alveoli.",
       "refs": [
-        "Prep p16-20"
+        "Katzung16 PDF p382",
+        "KDT8 PDF p30"
       ],
       "pyq": [],
       "status": "draft",

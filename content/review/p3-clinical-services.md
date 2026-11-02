@@ -119,3 +119,7 @@ Gap from SOURCE-GAPS.md: Prescription-audit method (planning, sampling, scoring,
 | p3-clinical-services-052 | unsourced | UNSOURCED - owner must verify |
 | p3-clinical-services-053 | unsourced | UNSOURCED - owner must verify |
 | p3-clinical-services-054 | unsourced | UNSOURCED - owner must verify |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+- p3-clinical-services-003 | corrected | Satoskar Pharmacology PDF p52 | melting/boiling point, shelf life and use-based layout not in books; removed. Prep ref removed.

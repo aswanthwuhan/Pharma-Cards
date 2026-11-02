@@ -84,3 +84,14 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | p1-drug-delivery-044 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
 | p1-drug-delivery-045 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
 | p1-drug-delivery-046 | web | WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+id | regrounded / corrected / unsourced | new refs | note
+--- | --- | --- | ---
+p1-drug-delivery-028 | corrected | KDT8 PDF p150, KDT8 PDF p29, GG14 PDF p47 | Site ranking contradicted: TTS give constant rate irrespective of site (KDT8 p29). Dose-by-area kept.
+p1-drug-delivery-029 | regrounded | GG14 PDF p47, KDT8 PDF p148 | Diphenhydramine patch claim not in books, dropped. Nicotine, GTN, hyoscine confirmed.
+p1-drug-delivery-030 | corrected | KDT8 PDF p363 | Norplant is six capsules of 36 mg levonorgestrel, not rods; up to 5 years confirmed.
+p1-drug-delivery-031 | regrounded | GG14 PDF p1051 | Compliance claim not in books, dropped. Basal infusion plus meal boluses from GG14.
+p1-drug-delivery-032 | regrounded | Katzung16 PDF p1281, Katzung16 PDF p143, GG14 PDF p47 | "Drug of choice as miotic" not in books, dropped.
+p1-drug-delivery-034 | corrected | Katzung16 PDF p382, KDT8 PDF p30 | Books say 2-5 um aerosol deposits mainly in mouth/pharynx, not bronchi. Gases act via alveoli.

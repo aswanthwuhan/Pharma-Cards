@@ -149,3 +149,71 @@ Sources: Medhi Practical Manual (PDF p73-78, 80-81, 85, 168-169, 86; printed = P
 - 049 verified: Medhi PDF p85.
 - 050 verified: Medhi PDF p168.
 - Note: "Ghosh PDF" refers to "(268) M. N. Ghosh - Fundamentals of experimental pharmacology (2019).pdf"; the other Ghosh file has different pagination.
+
+## Owner practical books pass
+Deck status vs the pre-pass commit (ad9a851). Re-grounded: 8; new: 12; still unsourced: 10. NMC cards are cited as `NMC MD Pharmacology 2022 curriculum (practical exam)`; the old `WEB NMC` ref was the same owner curriculum, so it was replaced.
+
+| id | status | source |
+|---|---|---|
+| pr-long-exercise-001 | re-grounded | NMC MD Pharmacology 2022 curriculum (practica |
+| pr-long-exercise-002 | still unsourced | RangDale9 ch2, NMC MD Pharmacology 2022 curriculum (practica, UNSOURCED - owner must verify |
+| pr-long-exercise-003 | ok (unchanged) | KDT8 ch8, RangDale9 ch18 |
+| pr-long-exercise-004 | ok (unchanged) | KDT8 ch4, RangDale9 ch2 |
+| pr-long-exercise-005 | ok (unchanged) | KDT8 ch12 |
+| pr-long-exercise-006 | ok (unchanged) | Sarkar p286-290, Sarkar p291-295 |
+| pr-long-exercise-007 | ok (unchanged) | Sarkar p286-290 |
+| pr-long-exercise-008 | still unsourced | KDT8 ch4, RangDale9 ch2, UNSOURCED - owner must verify |
+| pr-long-exercise-009 | ok (unchanged) | KDT8 ch4 |
+| pr-long-exercise-010 | ok (unchanged) | KDT8 ch4 |
+| pr-long-exercise-011 | still unsourced | RangDale9 ch2, GG14 ch3, NMC MD Pharmacology 2022 curriculum (practica, UNSOURCED - owner must verify |
+| pr-long-exercise-012 | ok (unchanged) | KDT8 ch4 |
+| pr-long-exercise-013 | ok (unchanged) | RangDale9 ch2 |
+| pr-long-exercise-014 | still unsourced | KDT8 ch8, KDT8 ch4, UNSOURCED - owner must verify |
+| pr-long-exercise-015 | re-grounded | RangDale9 ch8 (PDF p112, p115) |
+| pr-long-exercise-016 | re-grounded | Medhi Practical Manual (Bikash Medhi), PDF p7 |
+| pr-long-exercise-017 | still unsourced | UNSOURCED - owner must verify |
+| pr-long-exercise-018 | re-grounded | Medhi Practical Manual (Bikash Medhi), PDF p7, Ghosh Fundamentals of Experimental Pharmacolo |
+| pr-long-exercise-019 | re-grounded | Medhi Practical Manual (Bikash Medhi), PDF p7 |
+| pr-long-exercise-020 | re-grounded | Medhi Practical Manual (Bikash Medhi), PDF p7 |
+| pr-long-exercise-021 | still unsourced | RangDale9 ch8, UNSOURCED - owner must verify |
+| pr-long-exercise-022 | still unsourced | RangDale9 ch8, UNSOURCED - owner must verify |
+| pr-long-exercise-023 | re-grounded | RangDale9 ch8 (PDF p115) |
+| pr-long-exercise-024 | ok (unchanged) | RangDale9 ch8 |
+| pr-long-exercise-025 | ok (unchanged) | RangDale9 ch8 |
+| pr-long-exercise-026 | ok (unchanged) | Sarkar p201-205, Sarkar p206-210 |
+| pr-long-exercise-027 | ok (unchanged) | Sarkar p201-205 |
+| pr-long-exercise-028 | ok (unchanged) | Sarkar p201-205 |
+| pr-long-exercise-029 | still unsourced | KDT8 ch6, Prep p71-75, Sarkar p91-95, UNSOURCED - owner must verify |
+| pr-long-exercise-030 | ok (unchanged) | KDT8 ch6 |
+| pr-long-exercise-031 | still unsourced | Prep p71-75, WEB Indian J Pharmacol Agreement between Nara |
+| pr-long-exercise-032 | re-grounded | Sarkar p56-60, KDT8 ch5, NMC MD Pharmacology 2022 curriculum (practica |
+| pr-long-exercise-033 | ok (unchanged) | Sarkar p506-510 |
+| pr-long-exercise-034 | ok (unchanged) | Sarkar p506-510, Sarkar p511-515 |
+| pr-long-exercise-035 | ok (unchanged) | Sarkar p511-515 |
+| pr-long-exercise-036 | ok (unchanged) | Sarkar p511-515 |
+| pr-long-exercise-037 | still unsourced | WEB Indian J Pharmacol Agreement between Nara |
+| pr-long-exercise-038 | ok (unchanged) | Sarkar p201-205 |
+| pr-long-exercise-039 | new | Medhi Practical Manual PDF p73 (printed p57) |
+| pr-long-exercise-040 | new | Ghosh PDF p92 |
+| pr-long-exercise-041 | new | Medhi Practical Manual PDF p76-77 (printed p6 |
+| pr-long-exercise-042 | new | Medhi Practical Manual PDF p78 (printed p62) |
+| pr-long-exercise-043 | new | Medhi Practical Manual PDF p80 (printed p64), Medhi Practical Manual PDF p81 (printed p65) |
+| pr-long-exercise-044 | new | Medhi Practical Manual PDF p81 (printed p65), Ghosh PDF p110 |
+| pr-long-exercise-045 | new | Ghosh PDF p112, Medhi Practical Manual PDF p81 (printed p65) |
+| pr-long-exercise-046 | new | Ghosh PDF p112 |
+| pr-long-exercise-047 | new | Medhi Practical Manual PDF p168 (printed p152 |
+| pr-long-exercise-048 | new | Medhi Practical Manual PDF p168-169 (printed , Medhi Practical Manual PDF p86 (printed p70) |
+| pr-long-exercise-049 | new | Medhi Practical Manual PDF p85 (printed p69) |
+| pr-long-exercise-050 | new | Medhi Practical Manual PDF p168 (printed p152 |
+
+## PDF grounding pass 3 (2026-11-02)
+Removed Prep/RR5 refs; re-grounded from owner PDFs. Corrections noted per row.
+pr-long-exercise-002 | regrounded | Ghosh FEP PDF p8, p79; Medhi PMECP PDF p70, p72, p80, p174, p194 | dropped unverified NMC equipment claim and screening use
+pr-long-exercise-008 | regrounded | Medhi PMECP PDF p72, p89, p168, p174; Ghosh FEP PDF p79, p80, p95 | dropped unverified approval and reproducibility steps; UNSOURCED removed
+pr-long-exercise-011 | corrected | Ghosh FEP PDF p95; Medhi PMECP PDF p80, p177 | pD2 and pA2 definitions from owner books; dropped unverified NMC expectation
+pr-long-exercise-014 | regrounded | Ghosh FEP PDF p111, p113; Medhi PMECP PDF p80 | UNSOURCED removed
+pr-long-exercise-017 | corrected | Ghosh FEP PDF p92 | merit and drawbacks as printed in Ghosh; UNSOURCED removed
+pr-long-exercise-021 | corrected | Medhi PMECP PDF p76, p78 | dropped unverified confidence-limit and parallelism claims
+pr-long-exercise-022 | corrected | Medhi PMECP PDF p72, p76 | blinding removed (not in owner books); tachyphylaxis and tissue sensitivity error added
+pr-long-exercise-029 | corrected | KDT8 ch6 (PDF p110-111); Padmaja PDF p89; Katzung16 PDF p1281 | Naranjo score cut-offs removed (not in owner books)
+pr-long-exercise-031 | unsourced | WEB PMC3912795 (existing, not re-verified) | WHO-UMC category list not found in owner books; Prep ref removed

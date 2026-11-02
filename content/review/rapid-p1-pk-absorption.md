@@ -228,3 +228,42 @@ Table below: id | status | source. All cards are ok at this review. Refs are per
 | rf-p1-pk-absorption-0202 | ok | KDT8 ch2 |
 | rf-p1-pk-absorption-0203 | ok | KDT8 ch2 |
 | rf-p1-pk-absorption-0204 | ok | KDT8 ch2 |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p1-pk-absorption-0004 | regrounded | Golan PDF p292 | Fick law: inversely proportional to thickness
+rf-p1-pk-absorption-0005 | corrected | KDT8 PDF p38 | permeability coefficient not printed; removed
+rf-p1-pk-absorption-0045 | regrounded | RangDale9 PDF p131 | strong acids/bases fully ionised
+rf-p1-pk-absorption-0046 | unsourced | UNSOURCED - owner must verify | pKa percent values not in allowed books
+rf-p1-pk-absorption-0047 | unsourced | UNSOURCED - owner must verify | pKa percent values not in allowed books
+rf-p1-pk-absorption-0048 | corrected | KDT8 PDF p38 | percentages not printed; qualitative per KDT8
+rf-p1-pk-absorption-0049 | corrected | KDT8 PDF p38 | percentages not printed; qualitative per KDT8
+rf-p1-pk-absorption-0050 | unsourced | UNSOURCED - owner must verify | antacid interaction not found
+rf-p1-pk-absorption-0062 | regrounded | KDT8 PDF p38; GG14 PDF p179; Golan PDF p85 | inhibitor list checked
+rf-p1-pk-absorption-0063 | corrected | KDT8 PDF p38 | rifampicin and phenobarbitone reduce bioavailability
+rf-p1-pk-absorption-0064 | unsourced | UNSOURCED - owner must verify | cyclosporin cholestasis not found
+rf-p1-pk-absorption-0065 | corrected | Golan PDF p85; KDT8 PDF p946 | cancer-specific claim not found; kept P-gp inhibition
+rf-p1-pk-absorption-0068 | corrected | KDT8 PDF p574 | inducer effect not printed; inhibitor effect used
+rf-p1-pk-absorption-0075 | regrounded | GG14 PDF p55 | F is a fraction, 0 < F <= 1
+rf-p1-pk-absorption-0078 | regrounded | Bioequivalence & Statistics PDF p52; PDF p53 | 0.80 to 1.25 ratio
+rf-p1-pk-absorption-0081 | corrected | GG14 PDF p793 | phenytoin and theophylline not found; cyclosporin kept
+rf-p1-pk-absorption-0082 | unsourced | UNSOURCED - owner must verify | phenytoin brand-switch detail not found
+rf-p1-pk-absorption-0103 | regrounded | KDT8 PDF p29 | internal haemorrhoidal drains to portal
+rf-p1-pk-absorption-0104 | corrected | KDT8 PDF p463 | rectal diazepam 0.5 mg/kg; drug-of-choice wording not printed
+rf-p1-pk-absorption-0105 | corrected | KDT8 PDF p176 | Prep list not printed; kept propranolol only
+rf-p1-pk-absorption-0106 | corrected | Katzung16 PDF p64; GG14 PDF p46 | buccal not in books; dropped
+rf-p1-pk-absorption-0108 | regrounded | Katzung16 PDF p63 | Table 3-3
+rf-p1-pk-absorption-0109 | regrounded | Katzung16 PDF p63 | Table 3-3
+rf-p1-pk-absorption-0110 | regrounded | Katzung16 PDF p63 | Table 3-3
+rf-p1-pk-absorption-0111 | regrounded | Katzung16 PDF p63 | Table 3-3
+rf-p1-pk-absorption-0112 | unsourced | UNSOURCED - owner must verify | patch area vs thickness not found
+rf-p1-pk-absorption-0128 | corrected | KDT8 PDF p663 | skin, not subcutaneous fat
+rf-p1-pk-absorption-0129 | corrected | Bennett PDF p520 | optimum about 2 micron; other ranges not printed
+rf-p1-pk-absorption-0130 | corrected | Katzung16 PDF p63 | AUC proportional to dose times F
+rf-p1-pk-absorption-0131 | corrected | Katzung16 PDF p63 | proportionality not printed
+rf-p1-pk-absorption-0134 | regrounded | KDT8 PDF p19; Satoskar PDF p67 | L and L/kg printed
+rf-p1-pk-absorption-0143 | corrected | RangDale9 PDF p135 | most important factor not printed
+rf-p1-pk-absorption-0144 | unsourced | UNSOURCED - owner must verify | chloroquine Vd 13,000 L not found
+rf-p1-pk-absorption-0145 | corrected | RangDale9 PDF p135 | water solubility/ionisation wording not printed
+rf-p1-pk-absorption-0160 | regrounded | KDT8 PDF p454 | valproate displaces protein-bound phenytoin
+rf-p1-pk-absorption-0198 | unsourced | UNSOURCED - owner must verify | haemodialysis not-useful list not found

@@ -10,35 +10,35 @@
         {
           "h": "Prescriber",
           "points": [
-            "Name, qualification, address and phone number",
-            "Signature and registration number"
+            "Prescriber address (letter pad with name and address); signature with registration number"
           ]
         },
         {
-          "h": "Patient and date",
+          "h": "Date and patient",
           "points": [
-            "Date (and time for hospital orders)",
-            "Patient name and address; age or date of birth and sex"
+            "Date of writing",
+            "Patient name, age, sex and address"
           ]
         },
         {
           "h": "Body",
           "points": [
-            "Drug name (preferably generic), strength in metric units, dosage form and quantity",
-            "Clear directions specific to the patient, with purpose and duration; never \"take as directed\"",
-            "Refills and warning labels"
+            "Superscription: Rx",
+            "Inscription: drug name and strength; no abbreviations",
+            "Subscription: instructions to the pharmacist (compounding, quantity to supply)",
+            "Directions to the patient: quantity, frequency, time, route and other relevant instructions"
           ]
         },
         {
-          "h": "Classical Latin layout",
+          "h": "Latin abbreviations",
           "points": [
-            "Superscription (Rx), inscription (drug and strength), subscription (instructions to the pharmacist), signa or transcription (directions to the patient)"
+            "Common abbreviations include o.d., b.d., t.i.d., h.s., stat, s.o.s., p.o. and a.c."
           ]
         }
       ],
       "refs": [
-        "Katzung16 ch66",
-        "UNSOURCED - owner must verify"
+        "Padmaja PDF p100",
+        "Padmaja PDF p101"
       ],
       "pyq": [],
       "status": "draft",
@@ -256,31 +256,23 @@
         {
           "h": "Ingredients",
           "points": [
-            "Is every ingredient needed by most patients with the indication?",
-            "Is any ingredient ineffective, doubtful or banned?"
+            "Is every component actually needed by the patient, in an appropriate amount?",
+            "Is any combination banned in India (listed in KDT8 Appendix-4)?"
           ]
         },
         {
           "h": "Pharmacology",
           "points": [
-            "Do the drugs act by different mechanisms, with additive or synergistic benefit?",
-            "Do side effects add up, or does one counter the other?",
-            "Are half-lives similar enough for the same dosing interval?"
-          ]
-        },
-        {
-          "h": "Dose",
-          "points": [
-            "Is the ratio right, and is each component at its usual effective dose?",
-            "Can the dose be titrated?"
+            "Do the components act by different mechanisms so that benefits add up while side effects do not?",
+            "Does one component counter a side effect of another?",
+            "Is the combination truly synergistic?"
           ]
         },
         {
           "h": "Safety and policy",
           "points": [
-            "Interactions, contraindications, ADR attribution",
-            "Corticosteroids must never be combined with other drugs for internal use; antimicrobial combinations are suspect",
-            "Check the banned list and the essential medicines list"
+            "Antimicrobial combinations should be avoided",
+            "Corticosteroids should never be combined with any other drug meant for internal use"
           ]
         },
         {
@@ -292,7 +284,7 @@
       ],
       "refs": [
         "KDT8 ch5",
-        "UNSOURCED - owner must verify"
+        "KDT8 PDF p89"
       ],
       "pyq": [],
       "status": "draft",
@@ -613,7 +605,7 @@
       "front": "What do the NMC short exercises include?",
       "back": "Interpreting the results of a previous tracing (table exercise) and demonstrating or interpreting drug effects in humans; small-animal experiments are optional, as regulations allow. The exercises are observed and assessed.",
       "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)"
+        "NMC MD Pharmacology 2022 curriculum (practical exam)"
       ],
       "pyq": [],
       "status": "draft",
@@ -626,10 +618,13 @@
       "id": "pr-short-exercise-033",
       "type": "basic",
       "front": "Tracing exercise: what do you look for in a given kymograph or physiograph record?",
-      "back": "Baseline, dose markers and responses; rising responses with dose (graded DRC); a parallel right shift with a competitive antagonist versus a fall in maximum with a noncompetitive one; potentiation or synergy when two drugs are given; and fading responses with repeated doses (desensitisation). Tabulate responses and plot against log dose.",
+      "back": "Baseline, dose cycle and responses; rising responses with dose (graded DRC); a parallel right shift with a competitive antagonist versus a fall in the maximum with a noncompetitive one; and falling responses with repeated doses (tachyphylaxis). Tabulate the responses and plot them against log dose.",
       "refs": [
+        "Medhi PMECP PDF p72",
+        "Medhi PMECP PDF p80",
+        "Medhi PMECP PDF p89",
         "KDT8 ch4",
-        "UNSOURCED - owner must verify"
+        "Katzung16 PDF p39"
       ],
       "pyq": [],
       "status": "draft",
@@ -645,7 +640,7 @@
       "back": "CAL and simulated experiments can replace some live-animal practicals under the 3Rs. They cut cost and animal use, let students repeat an experiment and give clear results. They cannot fully copy real biological variation. The NMC expects DRC and agonist-antagonist experiments on simulations and CAL in teaching.",
       "refs": [
         "Sarkar p281-285",
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
+        "NMC MD Pharmacology 2022 curriculum (practical exam)",
         "WEB Indian J Pharmacol Animal use in pharmacology education and research: the changing scenario 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4071700/",
         "WEB J Nat Sci Biol Med Integrating computer-assisted learning with conventional teaching in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5523525/",
         "WEB Immunohorizons Non-animal models in undergraduate education 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13391161/"
@@ -663,7 +658,7 @@
       "front": "Which human-volunteer test does the NMC list for drugs affecting psychomotor function?",
       "back": "The critical flicker fusion test, done under supervision, along with tests of memory, pain, cardiovascular and respiratory function.",
       "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)"
+        "NMC MD Pharmacology 2022 curriculum (practical exam)"
       ],
       "pyq": [],
       "status": "draft",
@@ -678,7 +673,7 @@
       "front": "What are the 3Rs in animal experimentation, and what fourth R is added?",
       "back": "Replacement, reduction and refinement of animal use. Rehabilitation is the added fourth R, a measure for the care of the animals.",
       "refs": [
-        "WEB Indian J Pharmacol Animal use in pharmacology education and research: the changing scenario 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4071700/"
+        "Medhi Practical Manual PDF p56 (printed 40)"
       ],
       "pyq": [],
       "status": "draft",
@@ -691,9 +686,9 @@
       "id": "pr-short-exercise-037",
       "type": "basic",
       "front": "Who approves experiments on animals in an Indian institution?",
-      "back": "The institutional animal ethics committee (IAEC) can permit experiments on small animals. Experiments on large animals need a separate permission from CPCSEA, per the 2006 guidelines amendment.",
+      "back": "Experiments on animals are approved by the institutional animal ethics committee (IAEC). CPCSEA controls the IAEC under Government of India guidelines.",
       "refs": [
-        "WEB Indian J Pharmacol Animal use in pharmacology education and research: the changing scenario 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4071700/"
+        "Medhi Practical Manual PDF p56 (printed 40)"
       ],
       "pyq": [],
       "status": "draft",

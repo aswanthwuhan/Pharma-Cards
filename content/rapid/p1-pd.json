@@ -766,19 +766,22 @@
       "subtopic": "p1-pd-receptor-theory",
       "kind": "class",
       "q": "Inverse agonists: examples",
-      "a": "Beta-carboline (GABA-A, provokes seizures); tiprolisant or pitolisant (H3); rimonabant (CB1; once an anti-obesity drug, now banned)",
+      "a": "Beta-carboline (GABA-A benzodiazepine site; impedes GABA action); pitolisant (H3 receptor); propranolol (beta receptors; reduces resting heart rate)",
       "refs": [
-        "Prep p46-50"
+        "KDT8 PDF p443",
+        "GG14 PDF p338",
+        "KDT8 PDF p174"
       ]
     },
     {
       "id": "rf-p1-pd-0078",
       "subtopic": "p1-pd-receptor-theory",
       "kind": "fact",
-      "q": "Super agonist: definition and example",
-      "a": "Supramaximal response (over 100%); GnRH agonists histrelin, buserelin",
+      "q": "GnRH superagonist: examples",
+      "a": "Goserelin, leuprolide; sustained receptor stimulation leads to tachyphylaxis",
       "refs": [
-        "Prep p46-50"
+        "Harrison21 PDF p661",
+        "Bennett & Brown Clin Pharmacol PDF p117"
       ]
     },
     {
@@ -915,10 +918,10 @@
       "id": "rf-p1-pd-0092",
       "subtopic": "p1-pd-dose-response",
       "kind": "fact",
-      "q": "Therapeutic index (Prep): formula and meaning",
+      "q": "Therapeutic index: formula and meaning",
       "a": "TD50/ED50 (or LD50/ED50); low index means narrow safety margin needing monitoring",
       "refs": [
-        "Prep p56-60"
+        "GG14 PDF p174"
       ]
     },
     {
@@ -926,9 +929,10 @@
       "subtopic": "p1-pd-dose-response",
       "kind": "class",
       "q": "Drugs needing therapeutic drug monitoring (narrow index)",
-      "a": "Digoxin, aminoglycosides, antiepileptics, theophylline, lithium, antiarrhythmics, antipsychotics, tricyclic antidepressants",
+      "a": "Digoxin, aminoglycosides, anticonvulsants, theophylline, lithium, antiarrhythmics, tricyclic antidepressants",
       "refs": [
-        "Prep p56-60"
+        "KDT8 PDF p59",
+        "GG14 PDF p174"
       ]
     },
     {
@@ -946,19 +950,22 @@
       "subtopic": "p1-pd-dose-response",
       "kind": "class",
       "q": "Toxic effect monitored directly: drug (parameter)",
-      "a": "Insulin (blood glucose); clonidine (blood pressure); warfarin (PT/INR); heparin (aPTT)",
+      "a": "Warfarin (PT/INR); heparin (aPTT)",
       "refs": [
-        "Prep p56-60"
+        "KDT8 PDF p684",
+        "KDT8 PDF p677"
       ]
     },
     {
       "id": "rf-p1-pd-0096",
       "subtopic": "p1-pd-dose-response",
       "kind": "class",
-      "q": "Drugs monitored by plasma level: toxicity not easily observed",
+      "q": "Drugs monitored by plasma level (narrow safety margin)",
       "a": "Lithium, phenytoin, cyclosporine",
       "refs": [
-        "Prep p56-60"
+        "KDT8 PDF p59",
+        "GG14 PDF p411",
+        "Bennett & Brown Clin Pharmacol PDF p103"
       ]
     },
     {
@@ -1006,9 +1013,9 @@
       "subtopic": "p1-pd-dose-response",
       "kind": "fact",
       "q": "Graded dose-response curve measures",
-      "a": "Response in one individual as dose rises; gives efficacy and potency",
+      "a": "Response in one individual; magnitude rises as dose rises",
       "refs": [
-        "Prep p51-55"
+        "GG14 PDF p174"
       ]
     },
     {
@@ -1018,7 +1025,8 @@
       "q": "Quantal dose-response curve measures",
       "a": "All-or-none response across a population; gives ED50 and LD50/TD50",
       "refs": [
-        "Prep p51-55"
+        "GG14 PDF p174",
+        "GG14 PDF p72"
       ]
     },
     {
@@ -1028,7 +1036,7 @@
       "q": "Median toxic dose: species used",
       "a": "TD50 for humans; LD50 for animals",
       "refs": [
-        "Prep p51-55"
+        "GG14 PDF p174"
       ]
     },
     {
@@ -1036,9 +1044,9 @@
       "subtopic": "p1-pd-dose-response",
       "kind": "fact",
       "q": "Therapeutic range (Prep)",
-      "a": "Dose range between ED50 and TD50",
+      "a": "Dose range bounded by minimal therapeutic effect and maximal acceptable adverse effect",
       "refs": [
-        "Prep p51-55"
+        "KDT8 PDF p82"
       ]
     },
     {
@@ -1226,9 +1234,9 @@
       "subtopic": "p1-pd-antagonism",
       "kind": "fact",
       "q": "Heparin antidote",
-      "a": "Protamine sulfate (basic) neutralises heparin (strongly acidic)",
+      "a": "Protamine sulfate neutralises heparin",
       "refs": [
-        "Prep p46-50"
+        "KDT8 PDF p684"
       ]
     },
     {
@@ -1238,7 +1246,7 @@
       "q": "Methotrexate toxicity antidote",
       "a": "Folinic acid",
       "refs": [
-        "Prep p51-55"
+        "KDT8 PDF p670"
       ]
     },
     {
@@ -1346,9 +1354,9 @@
       "subtopic": "p1-pd-antagonism",
       "kind": "fact",
       "q": "Competitive antagonist on Lineweaver-Burk plot",
-      "a": "Vmax unchanged, Km increased; lines cross",
+      "a": "Vmax unchanged, Km increased",
       "refs": [
-        "Prep p51-55"
+        "KDT8 PDF p64"
       ]
     },
     {
@@ -1356,9 +1364,9 @@
       "subtopic": "p1-pd-antagonism",
       "kind": "fact",
       "q": "Noncompetitive antagonist on Lineweaver-Burk plot",
-      "a": "Vmax decreased, Km unchanged; lines do not cross",
+      "a": "Vmax decreased, Km unchanged",
       "refs": [
-        "Prep p51-55"
+        "KDT8 PDF p64"
       ]
     },
     {
@@ -1368,7 +1376,8 @@
       "q": "Test to tell competitive from noncompetitive antagonist",
       "a": "Raise agonist dose: competitive reaches same maximum; noncompetitive does not",
       "refs": [
-        "Prep p51-55"
+        "Katzung16 PDF p39",
+        "Katzung16 PDF p40"
       ]
     },
     {
@@ -1466,10 +1475,10 @@
       "subtopic": "p1-pd-receptor-families",
       "kind": "class",
       "q": "Receptor tyrosine kinase ligands: examples",
-      "a": "Insulin, EGF, NGF, other growth factors; also IGF, PDGF, FGF",
+      "a": "Insulin, EGF, NGF and many other growth factors",
       "refs": [
         "KDT8 ch4",
-        "Prep p61-65"
+        "KDT8 PDF p75"
       ]
     },
     {
@@ -1589,7 +1598,11 @@
       "q": "Nuclear receptor superfamily: members",
       "a": "Vitamins A and D, PPAR, thyroxine, corticosteroids, sex steroids",
       "refs": [
-        "RR5 p1-5"
+        "GG14 PDF p965",
+        "GG14 PDF p106",
+        "GG14 PDF p978",
+        "GG14 PDF p1027",
+        "GG14 PDF p1073"
       ]
     },
     {
@@ -1686,10 +1699,13 @@
       "id": "rf-p1-pd-0169",
       "subtopic": "p1-pd-receptor-families",
       "kind": "class",
-      "q": "GPCR families (Prep): examples",
-      "a": "Muscarinic; 5-HT (except 5-HT3); alpha and beta adrenergic; angiotensin; hypothalamic and pituitary hormones (except GH, prolactin); glucagon; somatostatin",
+      "q": "GPCR families: examples",
+      "a": "Muscarinic; 5-HT (except 5-HT3, an ion channel); alpha and beta adrenergic; angiotensin; glucagon receptor family",
       "refs": [
-        "Prep p61-65"
+        "KDT8 PDF p75",
+        "GG14 PDF p196",
+        "GG14 PDF p605",
+        "GG14 PDF p1058"
       ]
     },
     {
@@ -1697,9 +1713,10 @@
       "subtopic": "p1-pd-receptor-families",
       "kind": "fact",
       "q": "Unique GPCR signalling: olfactory and photoreceptor",
-      "a": "Olfactory: Gs (raises cAMP); photoreceptors: lowers cGMP",
+      "a": "Olfactory: Golf (raises cAMP); photoreceptors: transducin (Gt) activates PDE6",
       "refs": [
-        "Prep p61-65"
+        "Katzung16 PDF p47",
+        "GG14 PDF p332"
       ]
     },
     {
@@ -1709,7 +1726,8 @@
       "q": "Promiscuity of ligands: example",
       "a": "Acetylcholine acts on nicotinic (ionotropic) and muscarinic (GPCR) receptors",
       "refs": [
-        "Prep p61-65"
+        "KDT8 PDF p75",
+        "GG14 PDF p196"
       ]
     },
     {
@@ -1719,7 +1737,11 @@
       "q": "Tyrosine kinase inhibitors: drug (target; use)",
       "a": "Imatinib (BCR-ABL; CML, GIST); sunitinib (VEGF receptor; RCC, GIST); sorafenib (VEGF receptor; RCC, HCC); erlotinib (EGF receptor; lung cancer)",
       "refs": [
-        "Prep p61-65"
+        "KDT8 PDF p940",
+        "KDT8 PDF p941",
+        "KDT8 PDF p942",
+        "GG14 PDF p1358",
+        "GG12 PDF p1695"
       ]
     },
     {
@@ -1729,7 +1751,7 @@
       "q": "Constitutively active BCR-ABL kinase: disease",
       "a": "Chronic myeloid leukaemia (CML)",
       "refs": [
-        "Prep p61-65"
+        "KDT8 PDF p940"
       ]
     },
     {
@@ -2166,10 +2188,11 @@
       "id": "rf-p1-pd-0217",
       "subtopic": "p1-pd-signalling",
       "kind": "fact",
-      "q": "Abrupt beta-blocker withdrawal: consequence (Prep)",
-      "a": "Beta receptor supersensitivity; tachycardia and myocardial infarction",
+      "q": "Abrupt beta-blocker withdrawal: consequence",
+      "a": "Beta receptor supersensitivity; severe angina attacks and myocardial infarction",
       "refs": [
-        "Prep p61-65"
+        "KDT8 PDF p604",
+        "GG14 PDF p70"
       ]
     },
     {

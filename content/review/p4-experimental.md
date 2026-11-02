@@ -47,3 +47,37 @@ Cards now in deck: 30. Not re-added: De Jalon solution and the LD1/ED99 margin o
 | p4-experimental-032 | added | Sarkar p258 (CPCSEA) |
 | p4-experimental-033 | added | Sarkar p254, p258, p261 (IAEC) |
 | p4-experimental-034 | added | Sarkar p282, p283 (3Rs, 4th R) |
+
+## Owner practical books pass
+
+Sources: Ghosh (ghosh.txt, PDF page numbers) and Medhi (PDF page = printed page + 16).
+
+New cards (grounded in the owner's practical books):
+
+| id | status | source |
+|---|---|---|
+| p4-experimental-043 | new (re-adds De Jalon, formerly 014) | Ghosh PDF p9; Medhi PDF p68 (printed 52) |
+| p4-experimental-044 | new | Medhi PDF p69 (printed 53); Ghosh PDF p9 |
+| p4-experimental-045 | new | Medhi PDF p69 (printed 53); Ghosh PDF p11 |
+| p4-experimental-046 | new | Medhi PDF p68 (printed 52); Ghosh PDF p11 |
+| p4-experimental-047 | new | Medhi PDF p69 (printed 53) |
+| p4-experimental-048 | new | Medhi PDF p69 (printed 53); Ghosh PDF p8 |
+| p4-experimental-049 | new | Medhi PDF p69 (printed 53); Ghosh PDF p8 |
+| p4-experimental-050 | new | Medhi PDF p69 (printed 53) |
+| p4-experimental-051 | new | Ghosh PDF p8; Medhi PDF p69 (printed 53) |
+| p4-experimental-052 | new | Ghosh PDF p8 |
+| p4-experimental-053 | new | Ghosh PDF p8 |
+| p4-experimental-054 | new | Ghosh PDF p11 |
+| p4-experimental-055 | new | Ghosh PDF p160 |
+| p4-experimental-056 | new | Medhi PDF p69 (printed 53) |
+
+Existing cards: no changes in this pass. Sarkar refs were not re-checked (no Sarkar text in the extracted owner-book folder).
+
+Not added or changed:
+- LD1 and ED99 margin of safety: NOT added, because the books do not print it (no hits in Ghosh or Medhi).
+- LD10: not printed in ghosh.txt (no hits for LD10 or OCR variants). Card 055 uses the page's own rule instead: minimum effective dose from acute tests, rat one two-hundredth, dog one-tenth.
+- NOAEL: not printed in Ghosh; no card.
+- Ghosh Table 1.1 (PDF p10): OCR garbled; not used.
+- Medhi PDF p85-87 (dose and bath concentration): the worked dilution example is internally inconsistent; not used. Card 054 uses Ghosh PDF p11 instead.
+- Source conflicts, noted for the owner: Medhi Table 2.1 gives De Jalon bicarbonate 5 g vs Ringer-Locke 2 g per 10 L, while Ghosh says De Jalon differs only in CaCl2 and glucose. Mg/PO4 statement: Ghosh names Ringer, Frog-Ringer, De Jalon; Medhi names De Jalon, Frog-Ringer, Ringer-Locke.
+- Page correction: the De Jalon composition statement is on Ghosh PDF p9, not p11 as the brief said.

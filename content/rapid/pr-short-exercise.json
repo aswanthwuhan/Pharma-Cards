@@ -8,6 +8,7 @@
       "q": "Classical parts of a prescription",
       "a": "Superscription, inscription, subscription, signa (transcription)",
       "refs": [
+        "Katzung16 ch66",
         "UNSOURCED - owner must verify"
       ]
     },
@@ -18,6 +19,7 @@
       "q": "Superscription",
       "a": "The symbol Rx",
       "refs": [
+        "Katzung16 ch66",
         "UNSOURCED - owner must verify"
       ]
     },
@@ -28,6 +30,7 @@
       "q": "Inscription",
       "a": "Drug name and strength",
       "refs": [
+        "Katzung16 ch66",
         "UNSOURCED - owner must verify"
       ]
     },
@@ -508,7 +511,7 @@
       "q": "NMC short exercises",
       "a": "Tracing (table) interpretation, drug effects in humans, small animals (optional)",
       "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)"
+        "NMC MD Pharmacology 2022 curriculum (practical exam)"
       ]
     },
     {
@@ -518,7 +521,7 @@
       "q": "Human test for psychomotor function named by NMC",
       "a": "Critical flicker fusion test",
       "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)"
+        "NMC MD Pharmacology 2022 curriculum (practical exam)"
       ]
     },
     {
@@ -539,6 +542,250 @@
       "a": "Competitive antagonism",
       "refs": [
         "KDT8 ch4"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0055",
+      "subtopic": "pr-short-exercise-prescription",
+      "kind": "class",
+      "q": "Prescription criticism checklist",
+      "a": "Legibility and completeness; generic names; each drug justified; right dose, route, duration; no irrational combinations or interactions; cost",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch66",
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0056",
+      "subtopic": "pr-short-exercise-prescription",
+      "kind": "class",
+      "q": "Common irrational prescribing seen in practice",
+      "a": "Antibiotics for viral fever; routine vitamins; unrelated drugs; wrong drug; doubtful cough mixtures; corticosteroids for fever; polypharmacy",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0057",
+      "subtopic": "pr-short-exercise-prescription",
+      "kind": "class",
+      "q": "WHO steps for improving rational prescribing",
+      "a": "Identify problem; diagnose; list and choose treatment; write complete prescription; inform; monitor outcome",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0058",
+      "subtopic": "pr-short-exercise-prescription",
+      "kind": "fact",
+      "q": "P-treatment options beyond drugs",
+      "a": "Advice, non-drug treatment, drug, referral, or a mix",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0059",
+      "subtopic": "pr-short-exercise-fdc",
+      "kind": "class",
+      "q": "Advantages of a rational fixed-dose combination",
+      "a": "Every component needed; convenience, adherence, cost; synergy; additive or offsetting side effects; avoids monotherapy in TB, HIV, malaria",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0060",
+      "subtopic": "pr-short-exercise-fdc",
+      "kind": "class",
+      "q": "Disadvantages of fixed-dose combinations",
+      "a": "Not all components needed; one dose cannot be adjusted; different durations; ADRs hard to attribute; contraindication applies to whole product",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0061",
+      "subtopic": "pr-short-exercise-fdc",
+      "kind": "fact",
+      "q": "How to judge the rationality of a given FDC",
+      "a": "Check each ingredient's need, mechanism, side-effect pattern, half-lives, dose ratio, safety and banned status; give verdict",
+      "refs": [
+        "KDT8 ch5",
+        "UNSOURCED - owner must verify"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0062",
+      "subtopic": "pr-short-exercise-fdc",
+      "kind": "class",
+      "q": "Schedule Y FDC groups 2 and 3",
+      "a": "Group 2: approved drugs combined first time with likely interaction; Group 3: marketed FDC with new ratio or claim",
+      "refs": [
+        "Sarkar p246-250"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0063",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "First-order elimination: definition",
+      "a": "Constant fraction removed per unit time; constant clearance (most drugs)",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0064",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Worked example: 1000 mg i.v. gives 50 mg/L, so V",
+      "a": "20 L (1000 mg / 50 mg/L)",
+      "refs": [
+        "KDT8 ch2"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0065",
+      "subtopic": "pr-short-exercise-stats",
+      "kind": "fact",
+      "q": "Case-control smoking example: odds ratio (50/10 versus 10/50)",
+      "a": "25 (equals ad/bc)",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0066",
+      "subtopic": "pr-short-exercise-stats",
+      "kind": "fact",
+      "q": "What standard error of the mean estimates",
+      "a": "Precision of the sample mean; SD describes spread of individual values",
+      "refs": [
+        "Sarkar p361-365"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0067",
+      "subtopic": "pr-short-exercise-interactions",
+      "kind": "class",
+      "q": "Steps to work through a drug-interaction pair",
+      "a": "Name object and precipitant; classify mechanism; state clinical result; avoid, separate, adjust or monitor",
+      "refs": [
+        "KDT8 ch71"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0068",
+      "subtopic": "pr-short-exercise-tracing-cal",
+      "kind": "class",
+      "q": "Tracing record: features to look for",
+      "a": "Baseline and dose markers; graded responses; parallel right shift versus fall in maximum; potentiation; fading (desensitisation)",
+      "refs": [
+        "KDT8 ch4",
+        "UNSOURCED - owner must verify"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0069",
+      "subtopic": "pr-short-exercise-tracing-cal",
+      "kind": "fact",
+      "q": "Fourth R added to replacement, reduction and refinement",
+      "a": "Rehabilitation (care of animals)",
+      "refs": [
+        "Medhi Practical Manual PDF p56 (printed 40)"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0070",
+      "subtopic": "pr-short-exercise-tracing-cal",
+      "kind": "fact",
+      "q": "Body approving small-animal experiments in an Indian institution",
+      "a": "Institutional animal ethics committee (IAEC), controlled by CPCSEA",
+      "refs": [
+        "Medhi Practical Manual PDF p56 (printed 40)"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0071",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Formula method dose equation",
+      "a": "D/H x Q = X (desired dose, dose on hand, quantity on hand, amount to give)",
+      "refs": [
+        "Pickar Dosage Calculations PDF p2"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0072",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Ratio-proportion dose setup",
+      "a": "Dose on hand / amount on hand = dose desired / X; cross-multiply",
+      "refs": [
+        "Pickar Dosage Calculations PDF p2"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0073",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "class",
+      "q": "Three steps of dosage calculation (Pickar)",
+      "a": "Convert to same units; check dose is reasonable; calculate by formula method",
+      "refs": [
+        "Pickar Dosage Calculations PDF p10"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0074",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "IV drip rate formula in gtt/min",
+      "a": "V (mL) / T (min) x C (gtt/mL) = R (gtt/min)",
+      "refs": [
+        "Pickar Dosage Calculations PDF p2"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0075",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Converting infusion rate mL/h to gtt/min",
+      "a": "Divide the mL/h rate by the drop factor constant",
+      "refs": [
+        "Pickar Dosage Calculations PDF p2"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0076",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Celsius-Fahrenheit conversion formulas",
+      "a": "F = 1.8 x C + 32; C = (F - 32) / 1.8",
+      "refs": [
+        "Pickar Dosage Calculations PDF p2"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0077",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Child acetaminophen dose for fever (Pickar)",
+      "a": "10 to 15 mg/kg orally every 4 hours; maximum 5 doses a day",
+      "refs": [
+        "Pickar Dosage Calculations PDF p37"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0078",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Child amoxicillin dose range on label (Pickar)",
+      "a": "20 to 40 mg/kg/day in divided doses every 8 hours",
+      "refs": [
+        "Pickar Dosage Calculations PDF p36"
       ]
     }
   ]

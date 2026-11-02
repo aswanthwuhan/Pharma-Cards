@@ -146,3 +146,12 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | p2-toxicology-090 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
 | p2-toxicology-091 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
 | p2-toxicology-092 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+| id | status | new refs | note
+| p2-toxicology-049 | corrected | KDT8 PDF p148; GG14 PDF p232; KDT8 PDF p138 | "also called" changed to "a form of" belladonna poisoning (KDT8 p148) |
+| p2-toxicology-050 | corrected | Padmaja Medical Pharmacology 7e PDF p738; KDT8 PDF p171 | Prazosin is for hypertension only (Padmaja p738), not drug of choice; alpha-1 mechanism and night-dose advice not printed, removed |
+| p2-toxicology-051 | unsourced | none | Diazepam, lignocaine and IM adrenaline for scorpion sting not found in allowed books |
+| p2-toxicology-052 | corrected | KDT8 PDF p138; GG14 PDF p254; KDT8 PDF p132; KDT8 PDF p148; Satoskar PDF p472 | Neostigmine+atropine limited to cobra; krait paralysis is presynaptic (Satoskar p472); "drug of choice" changed to specific antivenom |
+| p2-toxicology-058 | corrected | KDT8 PDF p722; KDT8 PDF p112; Satoskar PDF p117 | Removed unsupported examples (cocaine, amphetamine) and aspiration claim; kerosene per Satoskar p117 |

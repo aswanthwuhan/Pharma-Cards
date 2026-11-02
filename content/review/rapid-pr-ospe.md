@@ -86,3 +86,42 @@ Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-gr
 | rf-pr-ospe-0005 | rapid, re-grounded | IJP 2016 Introducing OSPE (PMC5178055); IJP 2017 OSPE standardization and validation (PMC5754933) |
 
 Still unsourced after this pass (13): rf-pr-ospe-0012, rf-pr-ospe-0013, rf-pr-ospe-0015, rf-pr-ospe-0023, rf-pr-ospe-0024, rf-pr-ospe-0025, rf-pr-ospe-0026, rf-pr-ospe-0027, rf-pr-ospe-0028, rf-pr-ospe-0029, rf-pr-ospe-0030, rf-pr-ospe-0031, rf-pr-ospe-0040
+
+## Owner practical books pass
+
+2026-11-02. Matched to the current `content/decks/pr-ospe.json` cards. Re-grounded: refs and q/a copied from the matching deck card (WEB ref dropped where a book ref now exists). New: gap-fill card for a deck card with no rapid counterpart, refs copied from the deck card. Still unsourced: the deck card has no owner-book ref. All other ids are book-sourced and unchanged.
+
+Totals: re-grounded 12, new 12, still unsourced 6.
+
+| id | status | source |
+|---|---|---|
+| rf-pr-ospe-0001 | still unsourced | WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 |
+| rf-pr-ospe-0002 | still unsourced | WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022; WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/; WEB Indian J Pharmacol Introducing OSPE as a method of learning and evaluation for undergraduate pharmacology 2016 https://pmc.ncbi.nlm.nih.gov/articles/PMC5178055/ |
+| rf-pr-ospe-0003 | still unsourced | WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 |
+| rf-pr-ospe-0004 | still unsourced | WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022; WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/; WEB Indian J Pharmacol Introducing OSPE as a method of learning and evaluation for undergraduate pharmacology 2016 https://pmc.ncbi.nlm.nih.gov/articles/PMC5178055/ |
+| rf-pr-ospe-0005 | still unsourced | WEB Indian J Pharmacol Introducing OSPE as a method of learning and evaluation for undergraduate pharmacology 2016 https://pmc.ncbi.nlm.nih.gov/articles/PMC5178055/; WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/ |
+| rf-pr-ospe-0012 | re-grounded (partial; UNSOURCED remains) | Sarkar p91-95; KDT8 ch6; UNSOURCED - owner must verify |
+| rf-pr-ospe-0013 | re-grounded (partial; UNSOURCED remains) | Sarkar p91-95; KDT8 ch6; UNSOURCED - owner must verify |
+| rf-pr-ospe-0015 | re-grounded | Sarkar p246-250 |
+| rf-pr-ospe-0023 | re-grounded | Katzung16 ch66; KDT8 ch6 |
+| rf-pr-ospe-0024 | re-grounded | Katzung16 ch66; KDT8 ch6 |
+| rf-pr-ospe-0025 | re-grounded (partial; UNSOURCED remains) | Ghosh Fundamentals of Experimental Pharmacology PDF p11: stock dilution example; UNSOURCED - owner must verify |
+| rf-pr-ospe-0026 | re-grounded | Ghosh Fundamentals of Experimental Pharmacology PDF p11: 0.2 mg of 1 mg/mL stock in 10 mL bath = 20 ug/mL; Medhi Practical Manual PDF p87 (printed p71): dilution per organ-bath volume |
+| rf-pr-ospe-0027 | re-grounded | Dosage Calculations (Pickar) PDF p2: IV flow rate V(mL)/T(min) x C(gtt/mL) = R(gtt/min); visually checked |
+| rf-pr-ospe-0028 | re-grounded (partial; UNSOURCED remains) | Sarkar p76-80; UNSOURCED - owner must verify |
+| rf-pr-ospe-0029 | re-grounded (partial; UNSOURCED remains) | Sarkar p506-510; UNSOURCED - owner must verify |
+| rf-pr-ospe-0030 | re-grounded (partial; UNSOURCED remains) | Sarkar p506-510; UNSOURCED - owner must verify |
+| rf-pr-ospe-0031 | still unsourced | WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022; UNSOURCED - owner must verify |
+| rf-pr-ospe-0040 | re-grounded (partial; UNSOURCED remains) | Sarkar p201-205; UNSOURCED - owner must verify |
+| rf-pr-ospe-0048 | new | WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/; UNSOURCED - owner must verify |
+| rf-pr-ospe-0049 | new | Sarkar p91-95; KDT8 ch6; UNSOURCED - owner must verify |
+| rf-pr-ospe-0050 | new | Sarkar p241-245 |
+| rf-pr-ospe-0051 | new | Sarkar p246-250 |
+| rf-pr-ospe-0052 | new | Sarkar p206-210; Sarkar p226-230; Sarkar p241-245; UNSOURCED - owner must verify |
+| rf-pr-ospe-0053 | new | KDT8 ch1; UNSOURCED - owner must verify |
+| rf-pr-ospe-0054 | new | KDT8 ch5 |
+| rf-pr-ospe-0055 | new | WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022; UNSOURCED - owner must verify |
+| rf-pr-ospe-0056 | new | Katzung16 ch66; UNSOURCED - owner must verify |
+| rf-pr-ospe-0057 | new | Sarkar p506-510 |
+| rf-pr-ospe-0058 | new | Sarkar p226-230; Sarkar p186-190; UNSOURCED - owner must verify |
+| rf-pr-ospe-0059 | new | WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/ |

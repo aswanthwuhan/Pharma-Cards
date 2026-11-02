@@ -74,12 +74,18 @@ Added 4 cards (040-043) from the review books. Each card cites its OCR page rang
 | Ocular anti-infectives (full antibiotic and antiviral tables) | Still a gap | OCR has no eye antibiotic or antiviral table; only ganciclovir, already in p2-ocular-033 |
 | Neurotrophic cornea (not carded) | Covered | p2-ocular-040 (Sarkar p561-565) |
 | Ocular toxicity of systemic drugs: chloroquine retinopathy | Covered (added) | p2-ocular-042 (Prep p26-30); steroids, phenothiazines and isotretinoin remain in p2-ocular-037 |
-| Miotic side effects; ocular implant (Ocusert) | Covered (added) | p2-ocular-043 (Prep p141-145, Prep p91-95) |
+| Miotic side effects; ocular implant (Ocusert) | Miotic side effects covered; Ocusert not in books | p2-ocular-043 (GG14 PDF p1481-1482) |
 | Anti-VEGF beyond wet AMD (macular oedema) | Covered (added) | p2-ocular-041 (Sarkar p31-35); wet AMD already in p2-ocular-035 |
 | Ocular protozoal infection (toxoplasmosis) | Still a gap | Not in the OCR; the only toxoplasmosis mention is an ELISA diagnostic line (Sarkar p391-395) |
 | Vitamin A and visual cycle | Still a gap | No OCR hit |
 | Viscoelastics | Still a gap | No OCR hit |
 | Indian ophthalmic formulary and National Programme for Control of Blindness | Still a gap | Books silent; OCR grep for blindness, NPCB and cataract programme terms found nothing relevant |
-| Ocular delivery devices beyond those named (inserts, iontophoresis) | Still a gap | Ocusert is covered in p2-ocular-043; the rest is not in the books used |
+| Ocular delivery devices beyond those named (inserts, iontophoresis) | Still a gap | Ocusert line removed from p2-ocular-043 (not in the books used); the rest is not in the books used |
 
 Cross-references (not duplicated): glaucoma drugs are in p2-adrenergic and p2-cholinergic; atropine is in p2-cholinergic.
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+| id | status | new refs | note
+| p2-ocular-042 | corrected | GG14 PDF p1477 | Chloroquine accumulates in RPE; bull's-eye maculopathy with decreased acuity; "concentric rings" and "permanent blindness" not printed |
+| p2-ocular-043 | corrected | GG14 PDF p1481; GG14 PDF p1482 | Echothiophate cataract and retinal detachment per Table 74-7; "greatest risk", retinal tears and Ocusert pilocarpine not printed, removed |

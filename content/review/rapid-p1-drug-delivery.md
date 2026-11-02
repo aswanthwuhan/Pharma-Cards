@@ -65,3 +65,19 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | rf-p1-drug-delivery-0125 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
 | rf-p1-drug-delivery-0126 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
 | rf-p1-drug-delivery-0127 | web | https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/ |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+id | regrounded / corrected / unsourced | new refs | note
+--- | --- | --- | ---
+rf-p1-drug-delivery-0101 | regrounded | GG14 PDF p47, KDT8 PDF p150 | "Not thickness" not in books, dropped.
+rf-p1-drug-delivery-0102 | corrected | KDT8 PDF p29 | Site ranking contradicted for TTS (constant rate at any site). Question rewritten.
+rf-p1-drug-delivery-0103 | unsourced | UNSOURCED - owner must verify | No book on palms/soles absorption found.
+rf-p1-drug-delivery-0104 | regrounded | GG14 PDF p47, KDT8 ch1 | Nicotine for smoking withdrawal confirmed.
+rf-p1-drug-delivery-0105 | regrounded | GG14 PDF p47, KDT8 ch1 | Nitroglycerin patch for angina confirmed.
+rf-p1-drug-delivery-0106 | regrounded | GG14 PDF p47, KDT8 PDF p148 | Diphenhydramine dropped; scopolamine (hyoscine) confirmed.
+rf-p1-drug-delivery-0107 | corrected | KDT8 PDF p363 | Capsules (36 mg each), not rods.
+rf-p1-drug-delivery-0108 | regrounded | GG14 PDF p1051 | Compliance claim dropped.
+rf-p1-drug-delivery-0109 | regrounded | Katzung16 PDF p1281, Katzung16 PDF p143, GG14 ch2 | "Drug of choice" claim dropped.
+rf-p1-drug-delivery-0113 | corrected | Katzung16 PDF p382 | 2-5 um aerosol mostly deposits in mouth/pharynx, not bronchi. Question rewritten.
+rf-p1-drug-delivery-0114 | corrected | KDT8 PDF p30, GG14 PDF p47 | Gases and volatile anaesthetics absorbed from alveoli, not particles.

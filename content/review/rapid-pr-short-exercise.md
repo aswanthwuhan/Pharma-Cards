@@ -79,3 +79,41 @@ Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-gr
 |---|---|---|
 
 Still unsourced after this pass (3): rf-pr-short-exercise-0001, rf-pr-short-exercise-0002, rf-pr-short-exercise-0003
+
+## Owner practical books pass
+
+2026-11-02. Matched to the current `content/decks/pr-short-exercise.json` cards. Re-grounded: refs and q/a copied from the matching deck card (WEB ref dropped where a book ref now exists). New: gap-fill card for a deck card with no rapid counterpart, refs copied from the deck card. Still unsourced: the deck card has no owner-book ref. All other ids are book-sourced and unchanged.
+
+Totals: re-grounded 3, new 24, still unsourced 2.
+
+| id | status | source |
+|---|---|---|
+| rf-pr-short-exercise-0001 | re-grounded (partial; UNSOURCED remains) | Katzung16 ch66; UNSOURCED - owner must verify |
+| rf-pr-short-exercise-0002 | re-grounded (partial; UNSOURCED remains) | Katzung16 ch66; UNSOURCED - owner must verify |
+| rf-pr-short-exercise-0003 | re-grounded (partial; UNSOURCED remains) | Katzung16 ch66; UNSOURCED - owner must verify |
+| rf-pr-short-exercise-0051 | still unsourced | WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 |
+| rf-pr-short-exercise-0052 | still unsourced | WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 |
+| rf-pr-short-exercise-0055 | new | KDT8 ch5; Katzung16 ch66; Sarkar p56-60 |
+| rf-pr-short-exercise-0056 | new | KDT8 ch5 |
+| rf-pr-short-exercise-0057 | new | Sarkar p56-60 |
+| rf-pr-short-exercise-0058 | new | Sarkar p56-60 |
+| rf-pr-short-exercise-0059 | new | KDT8 ch5 |
+| rf-pr-short-exercise-0060 | new | KDT8 ch5 |
+| rf-pr-short-exercise-0061 | new | KDT8 ch5; UNSOURCED - owner must verify |
+| rf-pr-short-exercise-0062 | new | Sarkar p246-250 |
+| rf-pr-short-exercise-0063 | new | KDT8 ch3 |
+| rf-pr-short-exercise-0064 | new | KDT8 ch2 |
+| rf-pr-short-exercise-0065 | new | Sarkar p366-370 |
+| rf-pr-short-exercise-0066 | new | Sarkar p361-365 |
+| rf-pr-short-exercise-0067 | new | KDT8 ch71 |
+| rf-pr-short-exercise-0068 | new | KDT8 ch4; UNSOURCED - owner must verify |
+| rf-pr-short-exercise-0069 | new | WEB Indian J Pharmacol Animal use in pharmacology education and research: the changing scenario 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4071700/ |
+| rf-pr-short-exercise-0070 | new | WEB Indian J Pharmacol Animal use in pharmacology education and research: the changing scenario 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4071700/ |
+| rf-pr-short-exercise-0071 | new | Pickar Dosage Calculations PDF p2 |
+| rf-pr-short-exercise-0072 | new | Pickar Dosage Calculations PDF p2 |
+| rf-pr-short-exercise-0073 | new | Pickar Dosage Calculations PDF p10 |
+| rf-pr-short-exercise-0074 | new | Pickar Dosage Calculations PDF p2 |
+| rf-pr-short-exercise-0075 | new | Pickar Dosage Calculations PDF p2 |
+| rf-pr-short-exercise-0076 | new | Pickar Dosage Calculations PDF p2 |
+| rf-pr-short-exercise-0077 | new | Pickar Dosage Calculations PDF p37 |
+| rf-pr-short-exercise-0078 | new | Pickar Dosage Calculations PDF p36 |

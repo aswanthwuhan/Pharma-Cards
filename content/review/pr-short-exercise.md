@@ -106,3 +106,60 @@ New cards from Pickar Dosage Calculations, subtopic pk-calc. Pages as printed in
 - 045 verified: Pickar PDF p37 (acetaminophen 10-15 mg/kg q4h, max 5 doses/day).
 - 046 verified: Pickar PDF p36 (label 20-40 mg/kg/day q8h; Q33 40 mg/kg/day).
 - 047 deleted: p37 prints the cimetidine range only; the single-dose method is writer-derived, not printed.
+
+## Owner practical books pass
+Deck status vs the pre-pass commit (ad9a851). Re-grounded: 4; new: 8; still unsourced: 4. NMC cards are cited as `NMC MD Pharmacology 2022 curriculum (practical exam)`; the old `WEB NMC` ref was the same owner curriculum, so it was replaced.
+
+| id | status | source |
+|---|---|---|
+| pr-short-exercise-001 | still unsourced | Katzung16 ch66, UNSOURCED - owner must verify |
+| pr-short-exercise-002 | ok (unchanged) | KDT8 ch5, Katzung16 ch66, Sarkar p56-60 |
+| pr-short-exercise-003 | ok (unchanged) | Sarkar p56-60 |
+| pr-short-exercise-004 | ok (unchanged) | KDT8 ch5 |
+| pr-short-exercise-005 | ok (unchanged) | Sarkar p51-55 |
+| pr-short-exercise-006 | ok (unchanged) | Sarkar p51-55, Sarkar p56-60 |
+| pr-short-exercise-007 | ok (unchanged) | Sarkar p56-60 |
+| pr-short-exercise-008 | ok (unchanged) | Sarkar p56-60 |
+| pr-short-exercise-009 | ok (unchanged) | KDT8 ch5 |
+| pr-short-exercise-010 | ok (unchanged) | KDT8 ch5 |
+| pr-short-exercise-011 | still unsourced | KDT8 ch5, UNSOURCED - owner must verify |
+| pr-short-exercise-012 | ok (unchanged) | Sarkar p246-250 |
+| pr-short-exercise-013 | ok (unchanged) | KDT8 ch5 |
+| pr-short-exercise-014 | ok (unchanged) | KDT8 ch2, KDT8 ch3 |
+| pr-short-exercise-015 | ok (unchanged) | KDT8 ch3 |
+| pr-short-exercise-016 | ok (unchanged) | KDT8 ch3 |
+| pr-short-exercise-017 | ok (unchanged) | KDT8 ch3 |
+| pr-short-exercise-018 | ok (unchanged) | KDT8 ch3 |
+| pr-short-exercise-019 | ok (unchanged) | KDT8 ch3 |
+| pr-short-exercise-020 | ok (unchanged) | KDT8 ch3 |
+| pr-short-exercise-021 | ok (unchanged) | KDT8 ch5 |
+| pr-short-exercise-022 | ok (unchanged) | KDT8 ch2 |
+| pr-short-exercise-023 | ok (unchanged) | Sarkar p376-380, Sarkar p381-385 |
+| pr-short-exercise-024 | ok (unchanged) | Sarkar p376-380 |
+| pr-short-exercise-025 | ok (unchanged) | Sarkar p366-370 |
+| pr-short-exercise-026 | ok (unchanged) | RangDale9 ch8 |
+| pr-short-exercise-027 | ok (unchanged) | Sarkar p361-365 |
+| pr-short-exercise-028 | ok (unchanged) | KDT8 ch71 |
+| pr-short-exercise-029 | ok (unchanged) | KDT8 ch71 |
+| pr-short-exercise-030 | ok (unchanged) | KDT8 ch71 |
+| pr-short-exercise-031 | ok (unchanged) | KDT8 ch71 |
+| pr-short-exercise-032 | re-grounded | NMC MD Pharmacology 2022 curriculum (practica |
+| pr-short-exercise-033 | still unsourced | KDT8 ch4, UNSOURCED - owner must verify |
+| pr-short-exercise-034 | still unsourced | Sarkar p281-285, NMC MD Pharmacology 2022 curriculum (practica, WEB Indian J Pharmacol Animal use in pharmaco, WEB J Nat Sci Biol Med Integrating computer-a, WEB Immunohorizons Non-animal models in under |
+| pr-short-exercise-035 | re-grounded | NMC MD Pharmacology 2022 curriculum (practica |
+| pr-short-exercise-036 | re-grounded | Medhi Practical Manual PDF p56 (printed 40) |
+| pr-short-exercise-037 | re-grounded | Medhi Practical Manual PDF p56 (printed 40) |
+| pr-short-exercise-038 | new | Pickar Dosage Calculations PDF p2 |
+| pr-short-exercise-039 | new | Pickar Dosage Calculations PDF p2 |
+| pr-short-exercise-040 | new | Pickar Dosage Calculations PDF p10 |
+| pr-short-exercise-041 | new | Pickar Dosage Calculations PDF p2 |
+| pr-short-exercise-042 | new | Pickar Dosage Calculations PDF p2 |
+| pr-short-exercise-043 | new | Pickar Dosage Calculations PDF p2 |
+| pr-short-exercise-045 | new | Pickar Dosage Calculations PDF p37 |
+| pr-short-exercise-046 | new | Pickar Dosage Calculations PDF p36 |
+
+## PDF grounding pass 3 (2026-11-02)
+Removed Prep/RR5 refs; re-grounded from owner PDFs. Corrections noted per row.
+pr-short-exercise-001 | corrected | Padmaja PDF p100, p101 | signa, refill and warning-label points removed (not in owner books)
+pr-short-exercise-011 | corrected | KDT8 ch5 (PDF p89) | FDC rationale and corticosteroid and antimicrobial rules per KDT8; unverified dose and half-life points removed
+pr-short-exercise-033 | corrected | Medhi PMECP PDF p72, p80, p89; KDT8 ch4; Katzung16 PDF p39 | potentiation point removed (not in owner books)

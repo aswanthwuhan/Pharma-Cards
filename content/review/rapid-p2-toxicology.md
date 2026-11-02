@@ -132,3 +132,21 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 | rf-p2-toxicology-0728 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
 | rf-p2-toxicology-0729 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
 | rf-p2-toxicology-0730 | web | https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+| id | status | new refs | note
+| rf-p2-toxicology-0689 | corrected | KDT8 PDF p148 | Belladonna poisoning is the broader category, not a name |
+| rf-p2-toxicology-0690 | regrounded | GG14 PDF p232 | |
+| rf-p2-toxicology-0691 | regrounded | KDT8 PDF p148; KDT8 PDF p138 | |
+| rf-p2-toxicology-0692 | corrected | Padmaja Medical Pharmacology 7e PDF p738 | Alpha-1 receptor claim not printed; removed |
+| rf-p2-toxicology-0693 | corrected | Padmaja Medical Pharmacology 7e PDF p738; KDT8 PDF p171 | Prazosin or nifedipine (Padmaja p738); not drug of choice |
+| rf-p2-toxicology-0694 | corrected | KDT8 PDF p171 | Night-dose advice not printed; kept early postural hypotension |
+| rf-p2-toxicology-0695 | unsourced | none | Diazepam for scorpion seizures not found |
+| rf-p2-toxicology-0696 | unsourced | none | Lignocaine for scorpion spasm not found |
+| rf-p2-toxicology-0697 | unsourced | none | IM adrenaline for scorpion anaphylaxis not found |
+| rf-p2-toxicology-0698 | regrounded | KDT8 PDF p138; GG14 PDF p254 | Limited to cobra venom |
+| rf-p2-toxicology-0699 | corrected | KDT8 PDF p138 | Specific antivenom serum is primary treatment; "drug of choice" for cobra and krait not supported |
+| rf-p2-toxicology-0700 | corrected | KDT8 PDF p138; KDT8 PDF p132 | Limited to cobra; krait not covered |
+| rf-p2-toxicology-0701 | regrounded | KDT8 PDF p148; KDT8 PDF p138 | Limited to cobra |
+| rf-p2-toxicology-0710 | regrounded | KDT8 PDF p722; KDT8 PDF p112; Satoskar PDF p117 | KDT8 ch6 kept |

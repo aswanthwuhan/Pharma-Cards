@@ -1448,10 +1448,10 @@
       "id": "rf-p1-pk-elimination-0112",
       "subtopic": "p1-pk-elimination-induction",
       "kind": "fact",
-      "q": "Alcohol: acute vs chronic effect on CYPs and time course",
-      "a": "Acute use inhibits (about 1 day); chronic use induces (about 1 week)",
+      "q": "Alcohol: acute vs chronic effect on CYPs",
+      "a": "Acute use inhibits; chronic use induces CYP enzymes (especially CYP2E1)",
       "refs": [
-        "Prep p31-35"
+        "KDT8 PDF p432"
       ],
       "tags": [
         "interactions"
@@ -2228,10 +2228,10 @@
       "id": "rf-p1-pk-elimination-0172",
       "subtopic": "p1-pk-elimination-clearance",
       "kind": "fact",
-      "q": "Half-life does not depend on",
-      "a": "Route of administration or bioavailability",
+      "q": "Half-life is derived from which two parameters",
+      "a": "Volume of distribution and clearance (t1/2 = 0.693 x V/CL)",
       "refs": [
-        "Prep p41-45"
+        "KDT8 PDF p56"
       ],
       "tags": [
         "pk"
@@ -2762,9 +2762,9 @@
       "subtopic": "p1-pk-elimination-excretion",
       "kind": "fact",
       "q": "Antibiotics and oral contraceptive efficacy",
-      "a": "Antibiotics kill gut bacteria, cutting enterohepatic recycling of oestrogen",
+      "a": "Antibiotics alter gut flora, which may disrupt enterohepatic cycling of oral contraceptives",
       "refs": [
-        "Prep p36-40"
+        "KDT8 PDF p38"
       ],
       "tags": [
         "interactions"
@@ -2852,10 +2852,10 @@
       "id": "rf-p1-pk-elimination-0220",
       "subtopic": "p1-pk-elimination-kinetics-dosing",
       "kind": "fact",
-      "q": "Drug showing pure zero-order kinetics at all doses",
+      "q": "Drug with zero-order kinetics at usual concentrations",
       "a": "Alcohol (ethanol)",
       "refs": [
-        "Prep p41-45"
+        "GG14 PDF p49"
       ],
       "tags": [
         "pk"
@@ -2891,10 +2891,10 @@
       "id": "rf-p1-pk-elimination-0223",
       "subtopic": "p1-pk-elimination-kinetics-dosing",
       "kind": "fact",
-      "q": "Pseudo-zero-order kinetics",
-      "a": "Clearance capacity saturates gradually",
+      "q": "Elimination that approaches saturation over the therapeutic range",
+      "a": "Clearance saturates gradually; kinetics shifts from first to zero order",
       "refs": [
-        "Prep p41-45"
+        "KDT8 PDF p56"
       ],
       "tags": [
         "pk"
@@ -3034,10 +3034,11 @@
       "id": "rf-p1-pk-elimination-0234",
       "subtopic": "p1-pk-elimination-kinetics-dosing",
       "kind": "fact",
-      "q": "Steady-state fraction reached at 3.3 half-lives",
-      "a": "90%",
+      "q": "Time to reach steady state with constant dosing",
+      "a": "About 4-5 half-lives",
       "refs": [
-        "RR5 p56-60"
+        "GG14 PDF p58",
+        "KDT8 PDF p58"
       ],
       "tags": [
         "dosing"
@@ -3373,9 +3374,10 @@
       "subtopic": "p1-pk-elimination-kinetics-dosing",
       "kind": "fact",
       "q": "Lithium clearance example",
-      "a": "Half-life 1 day; effect ends 4-5 days after stopping",
+      "a": "Plasma half-life about 20 hours (15-30 hours with chronic use)",
       "refs": [
-        "Prep p41-45"
+        "Katzung16 PDF p566",
+        "Bennett & Brown Clin Pharmacol PDF p360"
       ],
       "tags": [
         "dosing"

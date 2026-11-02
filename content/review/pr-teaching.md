@@ -101,3 +101,38 @@ Still UNSOURCED-only (6): pr-teaching-002, 003, 005, 006, 017, 023. Partly sourc
 ## Opus audit (2026-11-02)
 No ids changed. Medical-education content (SMART, ABCD, Bloom, lesson plan, AV aids, slides, MCQ, essay, feedback) is not in KDT8, GG14, Katzung16 or RangDale9.
 Still UNSOURCED: 002, 003, 004, 005, 006, 007, 008, 012, 016, 017, 018, 022, 023, 024, 025. Reason: no owner book covers teaching methods; WEB refs support only the parts named in their refs.
+
+## Owner practical books pass
+
+Checked against the owner books: NMC MD Pharmacology 2022 curriculum, PGMER 2023, Medhi (Appendix VIII sample practical paper only; no teaching or question-writing rules), Ghosh and Bennett (no teaching or assessment content found). SMART, ABCD, Bloom levels, lesson plan, micro-teaching, AV aids and MCQ writing are not in these books.
+
+Re-grounded (owner book, text aligned): 001 NMC practical exam (d); 004 NMC domains A-C (Bloom wording removed); 013 NMC teaching-learning A.3; 014 NMC method E (back reworded, no DOAP sequence claim); 015 NMC methods B-D; 019 NMC A.5 and animal-experiments note (back: "absolute replacement" removed; Sarkar p281-285 for 3Rs); 020 NMC assessment and PGMER s8.1; 029 NMC methods I and J (back reworded).
+
+Partly re-grounded, UNSOURCED kept: 016 (NMC: lectures used sparingly); 025 (NMC: feedback timely and frequent).
+
+New (owner book): 031 NMC methods I (MEU/DOME); 032 NMC methods I (PG teaches UG, faculty feedback); 033 NMC competency A, T&A 1-2 (curricula); 034 PGMER s1.1(v); 035 PGMER s8.1; 036 NMC summative paper III; 037 NMC formative (quarterly, all domains); 038 NMC summative part 3 (viva); 039 NMC summative part 1 (thesis examiners, six months); 040 PGMER M.D. criteria (dissertation 5%); 041 PGMER s8.3 A(a); 042 NMC psychomotor C.a.6; 043 NMC psychomotor C.a.9. Subtopic added: pr-teaching-training.
+
+Still unsourced (no owner book states the point): 002, 003, 005, 006, 007, 008, 012, 017, 018, 022, 023, 024. Partly sourced, UNSOURCED kept: 016, 025.
+
+WEB refs kept (not in owner books; from earlier pass, not changed): 009, 010, 011, 021, 026, 027, 028, 030.
+
+Totals: 43 deck cards. Re-grounded 8, partly re-grounded 2, new 13, unchanged 20.
+
+## PDF grounding pass 3 (2026-11-02)
+
+Banned PrepLadder refs: none in this deck (earlier pass cleared them). UNSOURCED targets: 002, 003, 005, 006, 007, 008, 012, 017, 018, 022, 023, 024 remain unsourced; 025 partly sourced.
+
+pr-teaching-002 | unsourced | none (UNSOURCED) | SMART not in medhi, cbl, nmc, ndct, sarkar
+pr-teaching-003 | unsourced | none (UNSOURCED) | ABCD not found in owner books
+pr-teaching-005 | unsourced | none (UNSOURCED) | Bloom levels not found in owner books
+pr-teaching-006 | unsourced | none (UNSOURCED) | verb guidance not found; NMC p3 only names domains of learning
+pr-teaching-007 | unsourced | KDT8 ch3 (+ UNSOURCED) | example numbers invented; not printed in books
+pr-teaching-008 | unsourced | WEB Microteaching 2023 (kept), UNSOURCED | lesson-plan parts not in owner books
+pr-teaching-012 | unsourced | WEB Microteaching 2023 (kept), UNSOURCED | micro-lecture steps not in owner books
+pr-teaching-016 | regrounded | NMC MD Pharmacology curriculum PDF p14 | front and back rewritten to NMC lecture and method guidance
+pr-teaching-017 | unsourced | none (UNSOURCED) | audiovisual aid guidance not in owner books
+pr-teaching-018 | unsourced | WEB Microteaching 2023 (kept), UNSOURCED | slide guidance not in owner books
+pr-teaching-022 | unsourced | NMC MD Pharmacology curriculum PDF p22 (+ WEB kept, UNSOURCED) | NMC lists making a question paper; blueprint not found
+pr-teaching-023 | unsourced | none (UNSOURCED) | MCQ construction not found in owner books
+pr-teaching-024 | unsourced | WEB Cureus 2026 (kept), UNSOURCED | structured-essay rules not in owner books
+pr-teaching-025 | unsourced | NMC MD Pharmacology 2022 curriculum (kept), WEB Br J Clin Pharmacol (kept), UNSOURCED | NMC supports timely, frequent feedback only

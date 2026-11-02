@@ -529,3 +529,8 @@ rf-p3-amr-general-0509 | ok | KDT8 ch52
 rf-p3-amr-general-0510 | ok | KDT8 ch52
 
 - Orchestrator: rf-p3-amr-general-0165 updated to GG14 ch57 (rule 4), matching study decks. Typhoid ceftriaxone dose conflict (KDT8 ch51 vs ch52) left for owner check.
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p3-amr-general-0064 | unsourced | KDT8 ch50; UNSOURCED - owner must verify | pregnancy safety list not found in allowed books
+rf-p3-amr-general-0080 | regrounded | KDT8 ch51; Satoskar PDF p1077 | ciprofloxacin 750 mg bd for 28 days for carriers

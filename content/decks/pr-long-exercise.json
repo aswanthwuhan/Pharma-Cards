@@ -8,7 +8,7 @@
       "front": "What does the NMC long exercise in the MD Pharmacology practical exam consist of?",
       "back": "Three kinds of task: designing a protocol for a given scenario, auditing a given case, and performing an experiment or a simulated experiment. The examiner watches the exercise, notes how the candidate responds and assesses it, and may ask questions on it. The practical exam runs over two days and mainly tests the psychomotor domain.",
       "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)"
+        "NMC MD Pharmacology 2022 curriculum (practical exam)"
       ],
       "pyq": [],
       "status": "draft",
@@ -33,30 +33,34 @@
           "h": "Bath conditions",
           "points": [
             "Tissue bathed in a physiological salt solution chosen for the tissue",
-            "Solution aerated (oxygen or air) and held at a constant temperature",
-            "Fixed resting tension and a stabilisation period before dosing"
+            "Solution aerated with gas and kept at a constant temperature",
+            "Fixed load applied and tissue allowed to relax before dosing"
           ]
         },
         {
           "h": "Recording",
           "points": [
             "Tissue tied to a lever or force transducer",
-            "Response written on a kymograph or physiograph (the NMC lists organ bath and physiograph among required equipment)"
+            "Response written on a kymograph or physiograph"
           ]
         },
         {
           "h": "Uses",
           "points": [
             "Agonist potency and maximal response",
-            "Antagonist affinity by dose ratio and Schild analysis",
-            "Screening for specific activity"
+            "Antagonist affinity by dose ratio and Schild analysis"
           ]
         }
       ],
       "refs": [
         "RangDale9 ch2",
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
-        "UNSOURCED - owner must verify"
+        "Ghosh FEP PDF p8",
+        "Ghosh FEP PDF p79",
+        "Medhi PMECP PDF p70",
+        "Medhi PMECP PDF p72",
+        "Medhi PMECP PDF p80",
+        "Medhi PMECP PDF p174",
+        "Medhi PMECP PDF p194"
       ],
       "pyq": [],
       "status": "draft",
@@ -183,26 +187,25 @@
       "front": "Essay: Recording a dose-response curve of acetylcholine on an isolated tissue (step-wise)",
       "sections": [
         {
-          "h": "Aim and approval",
+          "h": "Aim",
           "points": [
-            "State the aim (graded DRC of ACh; effect of an antagonist if asked)",
-            "Animal use approved by the institutional animal ethics committee"
+            "State the aim (graded DRC of ACh; effect of an antagonist if asked)"
           ]
         },
         {
           "h": "Mounting",
           "points": [
-            "Sacrifice humanely, dissect the tissue quickly into aerated salt solution",
-            "Tie the tissue to the bath hook and the lever or transducer; set resting tension",
-            "Let it stabilise with regular washes"
+            "Sacrifice the animal and dissect the tissue into aerated salt solution",
+            "Tie the tissue to the bath hook and the lever or transducer; set the load",
+            "Let it relax before dosing"
           ]
         },
         {
           "h": "Dosing",
           "points": [
-            "Add doses in increasing order on a fixed time cycle",
-            "Keep contact time constant, then wash out and wait before the next dose",
-            "Repeat doses to check reproducibility"
+            "Add increasing doses on a fixed dose cycle",
+            "Wash between doses and let the response return to baseline",
+            "Keep contact time constant; watch for tachyphylaxis"
           ]
         },
         {
@@ -216,16 +219,19 @@
         {
           "h": "Precautions",
           "points": [
-            "Avoid overstretching or touching the tissue",
             "Keep temperature and aeration constant",
-            "Use fresh solutions; avoid air bubbles and spillage"
+            "Avoid exposing the tissue to air; a sudden kick appears as a vertical artefact"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch4",
-        "RangDale9 ch2",
-        "UNSOURCED - owner must verify"
+        "Medhi PMECP PDF p72",
+        "Medhi PMECP PDF p89",
+        "Medhi PMECP PDF p168",
+        "Medhi PMECP PDF p174",
+        "Ghosh FEP PDF p79",
+        "Ghosh FEP PDF p80",
+        "Ghosh FEP PDF p95"
       ],
       "pyq": [],
       "status": "draft",
@@ -268,12 +274,11 @@
       "id": "pr-long-exercise-011",
       "type": "basic",
       "front": "Define pD2 and pA2.",
-      "back": "pD2: the negative log of the molar EC50 of an agonist; a higher pD2 means a more potent agonist. pA2: the negative log of the molar concentration of an antagonist that makes it necessary to double the agonist concentration to get the original response (dose ratio 2). pA2 measures antagonist affinity. The NMC expects candidates to determine EC50, ED50, pD2 and pA2.",
+      "back": "pD2: the negative log of the molar concentration of an agonist that gives 50 per cent of its maximal response; a higher pD2 means a more potent agonist. pA2: the negative log of the molar antagonist concentration that gives a dose ratio of 2, i.e. a two-fold shift of the agonist curve. pA2 measures antagonist affinity.",
       "refs": [
-        "RangDale9 ch2",
-        "GG14 ch3",
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
-        "UNSOURCED - owner must verify"
+        "Ghosh FEP PDF p95",
+        "Medhi PMECP PDF p80",
+        "Medhi PMECP PDF p177"
       ],
       "pyq": [],
       "status": "draft",
@@ -316,11 +321,11 @@
       "id": "pr-long-exercise-014",
       "type": "basic",
       "front": "In a tracing exercise, how do you identify an unknown agonist on guinea pig ileum?",
-      "back": "Compare it with known agonists and test which selective antagonist blocks it. If atropine blocks the response, it acts on muscarinic receptors (an ACh-like drug); if an H1 blocker such as mepyramine blocks it, it is histamine-like. A parallel right shift points to competitive block.",
+      "back": "Compare it with known agonists and test which selective antagonist blocks it. If atropine blocks the response, the agonist acts on muscarinic receptors (ACh-like); if mepyramine, an H1 blocker, blocks it, the agonist is histamine-like. A parallel right shift of the curve points to competitive block.",
       "refs": [
-        "KDT8 ch8",
-        "KDT8 ch4",
-        "UNSOURCED - owner must verify"
+        "Ghosh FEP PDF p111",
+        "Ghosh FEP PDF p113",
+        "Medhi PMECP PDF p80"
       ],
       "pyq": [],
       "status": "draft",
@@ -363,9 +368,9 @@
       "id": "pr-long-exercise-017",
       "type": "basic",
       "front": "Matching (single-point) bioassay: principle, merit and drawback.",
-      "back": "A fixed dose of the test is given, and doses of the standard are tried until one gives an equal response; the two doses are taken as equipotent. Merit: simple and quick. Drawbacks: least accurate, assumes the tissue sensitivity is constant, and gives no estimate of error.",
+      "back": "The standard and the test are matched by trial and error until they give equal responses; the matched doses are taken as equipotent. Merit: no assumption about the dose-response relationship and no statistics needed. Drawbacks: inefficient (earlier responses are not used), subjective matching, no error estimate from the assay itself, and no check that the dose-response curves are parallel.",
       "refs": [
-        "UNSOURCED - owner must verify"
+        "Ghosh FEP PDF p92"
       ],
       "pyq": [],
       "status": "draft",
@@ -455,35 +460,27 @@
         {
           "h": "Design",
           "points": [
-            "Two doses each of standard and unknown (S1, S2, U1, U2) on the linear part of the log DRC",
-            "Simplest parallel-line assay"
-          ]
-        },
-        {
-          "h": "Procedure",
-          "points": [
-            "Doses repeated in random order",
-            "Repetition gives a built-in measure of variability"
+            "Two doses each of standard and test (S1, S2, T1, T2), taken from the linear part of the dose-response curve (25 to 75 per cent of maximum)",
+            "Doses arranged in Latin square randomisation"
           ]
         },
         {
           "h": "Analysis",
           "points": [
-            "Potency ratio from the horizontal distance between the two parallel lines",
-            "Statistics give confidence limits of the estimate"
+            "Relative potency from the displacement of the parallel log-dose lines of standard and test"
           ]
         },
         {
           "h": "Merits",
           "points": [
-            "Checks that the two lines are parallel",
-            "More reliable than matching, bracketing or three-point assays"
+            "Same design as the 3-point assay but more sensitive",
+            "Reduces error and variability compared with the 3-point assay"
           ]
         }
       ],
       "refs": [
-        "RangDale9 ch8",
-        "UNSOURCED - owner must verify"
+        "Medhi PMECP PDF p76",
+        "Medhi PMECP PDF p78"
       ],
       "pyq": [],
       "status": "draft",
@@ -496,10 +493,10 @@
       "id": "pr-long-exercise-022",
       "type": "basic",
       "front": "What are the main sources of error in bioassay, and how does the design control them?",
-      "back": "The main problem is biological variation. Good design minimises variation, avoids systematic error and estimates the limits of error. In practice: randomise the order of doses, keep the observer (and in human assays the subject) unaware of the dose, keep contact time, time cycle and washing fixed, and watch for tissue fatigue or desensitisation.",
+      "back": "The main problem is biological (tissue) variation. Controls: Latin square randomised dose order and repeated responses (these reduce tissue sensitivity error); a fixed dose cycle and contact time with washes; recognising tachyphylaxis (falling response with repeated doses). Accept only about plus or minus 10 per cent biological variability. Temperature and dilution errors also need control.",
       "refs": [
-        "RangDale9 ch8",
-        "UNSOURCED - owner must verify"
+        "Medhi PMECP PDF p72",
+        "Medhi PMECP PDF p76"
       ],
       "pyq": [],
       "status": "draft",
@@ -651,40 +648,39 @@
         {
           "h": "Collect the facts",
           "points": [
-            "Suspected drug(s), dose, dates started and stopped",
-            "Time of onset of the event; other drugs, disease and other possible causes"
+            "Suspected drug, when it was started and stopped, and the time of onset of the event",
+            "Other drugs, the disease and other possible causes"
           ]
         },
         {
           "h": "Apply the criteria",
           "points": [
-            "Temporal relationship to the drug",
+            "Temporal relationship to drug administration",
             "Previous knowledge: is the reaction known for this drug?",
             "Dechallenge: did it subside on stopping?",
-            "Rechallenge: did it recur on re-exposure (often unethical, so rarely done)?"
+            "Rechallenge: did it reappear on re-exposure (often unethical, so rarely done)?"
           ]
         },
         {
-          "h": "Use a scale",
+          "h": "Grade",
           "points": [
-            "Naranjo algorithm: total score of 9 or more definite, 5-8 probable, 1-4 possible, 0 or less doubtful",
-            "WHO-UMC scale categories",
-            "Grade severity with the modified Hartwig scale"
+            "Causality graded as definite, probable, possible or doubtful",
+            "Severity graded with the modified Hartwig scale",
+            "Naranjo algorithm is a standard causality scale (score cut-offs left for the owner to verify)"
           ]
         },
         {
           "h": "Conclude and act",
           "points": [
             "State the causality grade and severity",
-            "Manage the patient; report to the ADR monitoring centre under PvPI"
+            "Report to the ADR monitoring centre for pharmacovigilance (PvPI)"
           ]
         }
       ],
       "refs": [
         "KDT8 ch6",
-        "Prep p71-75",
-        "Sarkar p91-95",
-        "UNSOURCED - owner must verify"
+        "Padmaja PDF p89",
+        "Katzung16 PDF p1281"
       ],
       "pyq": [],
       "status": "draft",
@@ -714,8 +710,8 @@
       "front": "List the WHO-UMC causality categories.",
       "back": "Certain; probable; possible; unlikely; unclassified; unclassifiable.",
       "refs": [
-        "Prep p71-75",
-        "WEB Indian J Pharmacol Agreement between Naranjo algorithm and WHO-UMC criteria for causality assessment 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC3912795/"
+        "WEB Indian J Pharmacol Agreement between Naranjo algorithm and WHO-UMC criteria for causality assessment 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC3912795/",
+        "UNSOURCED - owner must verify"
       ],
       "pyq": [],
       "status": "draft",
@@ -732,7 +728,7 @@
       "refs": [
         "Sarkar p56-60",
         "KDT8 ch5",
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)"
+        "NMC MD Pharmacology 2022 curriculum (practical exam)"
       ],
       "pyq": [],
       "status": "draft",

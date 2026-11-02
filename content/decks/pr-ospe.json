@@ -8,7 +8,7 @@
       "front": "What does the NMC prescribe for the OSPE in the MD Pharmacology practical exam?",
       "back": "An Objective Structured Practical Examination of 10 to 15 stations, mixing observed stations (an examiner present) and unobserved stations (no observer).",
       "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)"
+        "NMC MD Pharmacology 2022 curriculum (practical exam)"
       ],
       "pyq": [],
       "status": "draft",
@@ -23,7 +23,7 @@
       "front": "Classify: example OSPE stations listed by the NMC",
       "text": "Drug {{delivery systems}}; calculating {{pharmacokinetic parameters}}; {{pharmaceutical calculations}}; a statistical exercise; {{pharmacoeconomics}}; critical appraisal and {{abstract writing}} of a published paper; evaluating {{drug promotional literature}}; {{ADR reporting and causality assessment}}; assessing {{preclinical toxicity data}}; rational and irrational formulations; choosing a {{P-drug}} and writing a rational prescription; {{analytical instruments}}; spotting ethics dilemmas or mistakes in clinical trial documents.",
       "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)"
+        "NMC MD Pharmacology 2022 curriculum (practical exam)"
       ],
       "pyq": [],
       "status": "draft",
@@ -38,7 +38,7 @@
       "front": "Observed versus unobserved OSPE stations: what is assessed at each?",
       "back": "Observed: an examiner watches the candidate perform a task (e.g. taking consent, filling an ADR form, preparing a dilution) and scores the process on a fixed checklist. Unobserved: the candidate writes an answer or produces something (a calculation, a critique, an abstract) that is marked later against a key.",
       "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
+        "NMC MD Pharmacology 2022 curriculum (practical exam)",
         "WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/",
         "WEB Indian J Pharmacol Introducing OSPE as a method of learning and evaluation for undergraduate pharmacology 2016 https://pmc.ncbi.nlm.nih.gov/articles/PMC5178055/"
       ],
@@ -72,6 +72,7 @@
       "back": "Read the instruction card fully; note the time allowed; do exactly what is asked (e.g. \"identify and give two uses\" means two); show steps and units in calculations; for observed stations, say what you are doing (introduce yourself, explain, check understanding); leave the station tidy.",
       "refs": [
         "WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/",
+        "NMC MD Pharmacology curriculum PDF p22",
         "UNSOURCED - owner must verify"
       ],
       "pyq": [],
@@ -231,37 +232,37 @@
         {
           "h": "Language",
           "points": [
-            "Not in the participant's own language, or full of jargon",
-            "Consent forms must exist in English and the local language"
+            "Consent form must be in English and in the local language used with participants"
           ]
         },
         {
           "h": "Missing elements",
           "points": [
-            "No statement that participation is voluntary and can be withdrawn without penalty",
-            "Risks, alternatives, compensation for injury or contact details left out",
-            "Confidentiality not addressed"
+            "No statement that participation is voluntary or can be withdrawn at any time",
+            "No contact person for study information; no statement of the participant's rights if injury occurs",
+            "Confidentiality of the participant not addressed"
           ]
         },
         {
-          "h": "Undue pressure",
+          "h": "Compensation",
           "points": [
-            "Coercive wording, excessive payment, or waiving the participant's rights"
+            "No provision for medical management and financial compensation for trial-related injury"
           ]
         },
         {
           "h": "Process faults",
           "points": [
-            "No witness for an illiterate participant; vulnerable people enrolled without justification",
-            "No ethics committee approval"
+            "No prior ethics committee review of the protocol",
+            "Vulnerable groups enrolled without a full review"
           ]
         }
       ],
       "refs": [
         "Sarkar p206-210",
-        "Sarkar p226-230",
         "Sarkar p241-245",
-        "UNSOURCED - owner must verify"
+        "Sarkar p186-190",
+        "Sarkar p156-160",
+        "Sarkar p226-230"
       ],
       "pyq": [],
       "status": "draft",
@@ -364,10 +365,11 @@
       "id": "pr-ospe-018",
       "type": "basic",
       "front": "How do you make a dilution of a stock solution?",
-      "back": "Use C1 x V1 = C2 x V2: the stock concentration times the volume taken equals the final concentration times the final volume. Example: to make 10 mL of 0.1 mg/mL from a 1 mg/mL stock, take 1 mL of stock and add diluent to 10 mL. The NMC expects candidates to prepare drug solutions of the right strength and volume.",
+      "back": "Make the stock solution stronger, then dilute it stepwise to the final strength, using isotonic saline for the final dilution. Book example: 0.2 mL of a 1 mg/mL histamine stock in a 10 mL organ bath gives 20 µg/mL. The NMC expects candidates to prepare drug solutions of the right strength and volume.",
       "refs": [
         "Ghosh Fundamentals of Experimental Pharmacology PDF p11: stock dilution example",
-        "UNSOURCED - owner must verify"
+        "Pickar Dosage Calculations PDF p373",
+        "NMC MD Pharmacology curriculum PDF p8"
       ],
       "pyq": [],
       "status": "draft",
@@ -426,10 +428,9 @@
       "id": "pr-ospe-022",
       "type": "basic",
       "front": "Answering a drug-information query at an OSPE station: what is the approach?",
-      "back": "Find out who is asking and why, and get patient details; restate the question precisely and classify it (dose, interaction, ADR, pregnancy, availability); search tertiary sources first, then secondary and primary; evaluate the evidence; reply clearly with references; document the query and follow up. A drug information centre works this way.",
+      "back": "Answer the enquiry on therapeutic drug use. Use the primary medical and pharmaceutical literature and critically analyse it for clinical relevance before replying. Answers are reviewed regularly, and feedback is taken from the enquirer.",
       "refs": [
-        "Sarkar p76-80",
-        "UNSOURCED - owner must verify"
+        "Sarkar p76-80"
       ],
       "pyq": [],
       "status": "draft",
@@ -446,42 +447,45 @@
         {
           "h": "Claims",
           "points": [
-            "Every claim backed by evidence with verifiable references",
-            "Only approved indications; no \"safest\" or \"best\" without data",
-            "Graphs not distorted (axes, scales)"
+            "Claims must be true, suggestive and backed by scientific references",
+            "Approved therapeutic use only; claims on relative safety, efficacy or population must be supported by current literature"
           ]
         },
         {
           "h": "Balance",
           "points": [
-            "Adverse effects, contraindications and precautions stated",
-            "Generic name shown clearly, not only the brand"
+            "Adverse effects, contraindications, precautions and warnings stated",
+            "Generic name shown, not only the brand"
           ]
         },
         {
           "h": "Details",
           "points": [
-            "Composition, dose, price, manufacturer present",
-            "Evidence from good trials rather than testimonials"
+            "Active ingredients and doses, and the manufacturer's name and address",
+            "Scientific references given, and their quality assessed"
           ]
         },
         {
           "h": "Standard",
           "points": [
-            "Judge against the WHO ethical criteria for medicinal drug promotion"
+            "Judge against the IFPMA Code and the OPPI code of marketing practice in India"
           ]
         },
         {
           "h": "Why it matters",
           "points": [
-            "Doctors must tell real information from promotional claims; the NMC lists evaluating promotional literature as a required skill"
+            "Doctors must separate real information from promotional claims",
+            "The NMC lists evaluating promotional drug literature as a required skill"
           ]
         }
       ],
       "refs": [
-        "Sarkar p506-510",
         "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
-        "UNSOURCED - owner must verify"
+        "Medhi PMECP PDF p359",
+        "Medhi PMECP PDF p360",
+        "Medhi PMECP PDF p361",
+        "Sarkar p506-510",
+        "NMC MD Pharmacology curriculum PDF p9"
       ],
       "pyq": [],
       "status": "draft",
@@ -494,10 +498,13 @@
       "id": "pr-ospe-024",
       "type": "basic",
       "front": "What does a package insert contain?",
-      "back": "Brand and generic names; composition and dosage form; clinical pharmacology; indications; dosage and administration; contraindications; warnings and precautions (including pregnancy, lactation, children, elderly); adverse effects; interactions; overdose and its treatment; storage; presentation; manufacturer. The NMC expects candidates to prepare a package insert.",
+      "back": "Brand and generic names; active ingredients; name and address of the manufacturer; approved indications; dosage and method of use; contraindications, precautions and side effects. Renal dose adjustments are given here. The NMC expects candidates to prepare a package insert.",
       "refs": [
         "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
-        "UNSOURCED - owner must verify"
+        "Medhi PMECP PDF p359",
+        "Medhi PMECP PDF p361",
+        "Sarkar p111-115",
+        "NMC MD Pharmacology curriculum PDF p9"
       ],
       "pyq": [],
       "status": "draft",
@@ -510,10 +517,10 @@
       "id": "pr-ospe-025",
       "type": "basic",
       "front": "What should the label of a dispensed medicine show?",
-      "back": "Patient name; drug name and strength; dose and directions; quantity; date; and warning labels such as \"may cause drowsiness\" or \"avoid alcohol\". A manufacturer's label also carries batch number, manufacturing and expiry dates.",
+      "back": "Drug form, dosage strength and total container volume; administration route; directions for mixing, where needed; drug alerts. A manufacturer's label also shows the lot number, expiry date and NDC (National Drug Code).",
       "refs": [
-        "Katzung16 ch66",
-        "UNSOURCED - owner must verify"
+        "Pickar Dosage Calculations PDF p177",
+        "Pickar Dosage Calculations PDF p183"
       ],
       "pyq": [],
       "status": "draft",
@@ -526,10 +533,9 @@
       "id": "pr-ospe-026",
       "type": "basic",
       "front": "Abstract-writing station: how do you write the abstract of a given paper?",
-      "back": "Use a structured format: background or objective, methods (design, participants, intervention, outcomes), results (main numbers with effect size and confidence interval or P value) and conclusion. Keep to the word limit, make it stand alone, and add no references or claims not in the paper. Sarkar likens a protocol summary of up to 300 words to an abstract.",
+      "back": "Keep to the word limit: no more than 300 words and at most one page (font 12, single spacing), on its own page. Cover the central elements of the study, such as rationale, objectives, methods, population, time frame and expected outcomes. Sarkar gives this same rule for the abstract of a paper.",
       "refs": [
-        "Sarkar p201-205",
-        "UNSOURCED - owner must verify"
+        "Sarkar p201-205"
       ],
       "pyq": [],
       "status": "draft",
@@ -588,11 +594,13 @@
       "id": "pr-ospe-030",
       "type": "basic",
       "front": "Ethics-dilemma station: what faults are typically planted in a trial scenario?",
-      "back": "No ethics committee approval; consent missing, coerced or not in the local language; vulnerable groups enrolled without justification; placebo used when proven treatment exists; no plan for compensation or care after injury; undeclared conflict of interest; confidentiality not protected.",
+      "back": "No ethics committee review before the trial starts; consent not in the local language; vulnerable groups enrolled without a full review; placebo used when a proven effective treatment exists; no provision for compensation for trial-related injury; undeclared conflict of interest (for example, monetary gain); confidentiality not protected.",
       "refs": [
         "Sarkar p226-230",
         "Sarkar p186-190",
-        "UNSOURCED - owner must verify"
+        "Sarkar p156-160",
+        "Sarkar p206-210",
+        "Sarkar p241-245"
       ],
       "pyq": [],
       "status": "draft",

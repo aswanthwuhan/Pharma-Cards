@@ -68,3 +68,17 @@ Validated study deck `content/decks/p3-antiparasitic.json`: its GG14 claims were
 
 - Doses are only those printed in the books. Numbers from OCR were used only where clearly legible.
 - Cards cite GG14 for newer positions only where the same point is verified in the GG14 text.
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p3-antiparasitic-0024 | corrected | GG14 PDF p1318 | corneal deposits and QT prolongation not in GG14 chloroquine text; replaced with GG14 adverse effects
+rf-p3-antiparasitic-0050 | unsourced | UNSOURCED - owner must verify | rank of volume of distribution not printed in allowed books
+rf-p3-antiparasitic-0258 | regrounded | KDT8 PDF p888 | ACT line matches KDT8 treatment footnote
+rf-p3-antiparasitic-0259 | regrounded | KDT8 PDF p894 | IV artesunate preferred over quinine for severe malaria
+rf-p3-antiparasitic-0346 | corrected | Harrison21 PDF p1825 | metronidazole is not a guinea worm drug; Harrison says no drug is effective
+rf-p3-antiparasitic-0347 | corrected | KDT8 PDF p909; KDT8 PDF p910 | diloxanide listed first for asymptomatic cyst passers
+rf-p3-antiparasitic-0390 | corrected | KDT8 PDF p914 | mucocutaneous claim dropped for liposomal AmB; book says conventional AmB is used in mucocutaneous disease
+rf-p3-antiparasitic-0391 | regrounded | KDT8 PDF p914; GG14 PDF p1331 | miltefosine first orally active drug
+rf-p3-antiparasitic-0453 | regrounded | KDT8 ch63; KDT8 PDF p920; Katzung16 PDF p1007; GG14 PDF p1348 | albendazole DOC; ivermectin alternative
+rf-p3-antiparasitic-0454 | unsourced | UNSOURCED - owner must verify | no allowed book states albendazole for visceral larva migrans
+rf-p3-antiparasitic-0509 | corrected | Katzung16 PDF p1006 | dropped drug-of-choice wording; table lists albendazole or mebendazole by parasite

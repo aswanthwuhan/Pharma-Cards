@@ -125,3 +125,9 @@ Gap from SOURCE-GAPS.md: General Child-Pugh dose-adjustment approach (no percent
 | p1-special-populations-068 | unsourced | UNSOURCED - owner must verify; KDT8 ch5 |
 | p1-special-populations-069 | unsourced | UNSOURCED - owner must verify; KDT8 ch5 |
 | p1-special-populations-070 | unsourced | UNSOURCED - owner must verify |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+- p1-special-populations-042 | corrected | Satoskar Pharmacology PDF p509; Padmaja Medical Pharmacology 7e PDF p77 | "liver synthesises" and renal-failure claim not in books; removed
+- p1-special-populations-043 | corrected | KDT8 PDF p1007; Case-Based Learning in Pharmacology PDF p225 | CBL ranks pyrazinamide > rifampicin (not isoniazid); rechallenge order from CBL
+- p1-special-populations-044 | corrected | KDT8 PDF p757; Satoskar Pharmacology PDF p1011; GG14 PDF p1160 | "removed in bile" and moxifloxacin claims not found; trovafloxacin withdrawn from US market, not "banned"; front reworded to match

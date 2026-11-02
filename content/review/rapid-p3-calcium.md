@@ -296,3 +296,11 @@ Rapid cards aligned with corrections in content/review/p3-calcium.md (newest boo
 | rf-p3-calcium-0270 | added: Zoledronate regimen in Paget's disease => Single 5 mg i.v. infusion; high, long-lasting response | KDT8 ch24, GG14 ch52 |
 | rf-p3-calcium-0271 | added: Denosumab: effect of stopping it => Surge (rebound) of bone resorption | KDT8 ch24, Katzung16 ch42 |
 | rf-p3-calcium-0272 | added: Atypical femoral fracture with long-term bisphosphonates: site, and suggested response => Low-trauma subtrochanteric fracture; drug holiday after about 5 years if possible | Katzung16 ch42 |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p3-calcium-0141 | corrected | GG14 PDF p1086 | book gives a 2-year limit, not a risk rise after 2 years
+rf-p3-calcium-0145 | regrounded | GG14 PDF p1086 | -
+rf-p3-calcium-0203 | corrected | GG14 PDF p1086; GG14 PDF p166 | intertrochanteric and over-5-years wording not in books
+rf-p3-calcium-0243 | regrounded | KDT8 ch24; GG14 PDF p1083 | -
+rf-p3-calcium-0244 | corrected | KDT8 ch24; KDT8 PDF p385; GG14 PDF p1086 | book lists these uses; "drug of choice" wording dropped

@@ -113,3 +113,60 @@ Medhi printed page = PDF page minus 16 (from running headers).
 - 018 stock dilution: Ghosh PDF p11. Generic procedure not stated verbatim; kept UNSOURCED.
 - 019 organ-bath concentration: Ghosh PDF p11 (0.2 mg in 10 mL = 20 ug/mL); Medhi PDF p87.
 - 021 IV drip rate: Pickar PDF p2, IV flow rate formula, checked visually.
+
+## Owner practical books pass
+Deck status vs the pre-pass commit (ad9a851). Re-grounded: 4; new: 0; still unsourced: 14. NMC cards are cited as `NMC MD Pharmacology 2022 curriculum (practical exam)`; the old `WEB NMC` ref was the same owner curriculum, so it was replaced.
+
+| id | status | source |
+|---|---|---|
+| pr-ospe-001 | re-grounded | NMC MD Pharmacology 2022 curriculum (practica |
+| pr-ospe-002 | re-grounded | NMC MD Pharmacology 2022 curriculum (practica |
+| pr-ospe-003 | still unsourced | NMC MD Pharmacology 2022 curriculum (practica, WEB Indian J Pharmacol Standardization and va, WEB Indian J Pharmacol Introducing OSPE as a  |
+| pr-ospe-004 | still unsourced | WEB Indian J Pharmacol Introducing OSPE as a , WEB Indian J Pharmacol Standardization and va |
+| pr-ospe-005 | still unsourced | WEB Indian J Pharmacol Standardization and va, UNSOURCED - owner must verify |
+| pr-ospe-006 | still unsourced | Sarkar p91-95, KDT8 ch6, UNSOURCED - owner must verify |
+| pr-ospe-007 | ok (unchanged) | Sarkar p91-95 |
+| pr-ospe-008 | ok (unchanged) | Sarkar p91-95 |
+| pr-ospe-009 | ok (unchanged) | Sarkar p91-95 |
+| pr-ospe-010 | ok (unchanged) | Sarkar p241-245 |
+| pr-ospe-011 | ok (unchanged) | Sarkar p241-245 |
+| pr-ospe-012 | ok (unchanged) | Sarkar p246-250 |
+| pr-ospe-013 | still unsourced | Sarkar p206-210, Sarkar p226-230, Sarkar p241-245, UNSOURCED - owner must verify |
+| pr-ospe-014 | still unsourced | KDT8 ch1, UNSOURCED - owner must verify |
+| pr-ospe-015 | ok (unchanged) | KDT8 ch3 |
+| pr-ospe-016 | ok (unchanged) | KDT8 ch3 |
+| pr-ospe-017 | ok (unchanged) | Katzung16 ch66, KDT8 ch6 |
+| pr-ospe-018 | still unsourced | Ghosh Fundamentals of Experimental Pharmacolo, UNSOURCED - owner must verify |
+| pr-ospe-019 | re-grounded | Ghosh Fundamentals of Experimental Pharmacolo, Medhi Practical Manual PDF p87 (printed p71): |
+| pr-ospe-020 | ok (unchanged) | KDT8 ch5 |
+| pr-ospe-021 | re-grounded | Dosage Calculations (Pickar) PDF p2: IV flow  |
+| pr-ospe-022 | still unsourced | Sarkar p76-80, UNSOURCED - owner must verify |
+| pr-ospe-023 | still unsourced | Sarkar p506-510, NMC MD Pharmacology 2022 curriculum (practica, UNSOURCED - owner must verify |
+| pr-ospe-024 | still unsourced | NMC MD Pharmacology 2022 curriculum (practica, UNSOURCED - owner must verify |
+| pr-ospe-025 | still unsourced | Katzung16 ch66, UNSOURCED - owner must verify |
+| pr-ospe-026 | still unsourced | Sarkar p201-205, UNSOURCED - owner must verify |
+| pr-ospe-027 | ok (unchanged) | Sarkar p81-85 |
+| pr-ospe-028 | ok (unchanged) | KDT8 ch5, Katzung16 ch1 |
+| pr-ospe-029 | ok (unchanged) | Sarkar p506-510 |
+| pr-ospe-030 | still unsourced | Sarkar p226-230, Sarkar p186-190, UNSOURCED - owner must verify |
+| pr-ospe-031 | ok (unchanged) | Sarkar p421-425 |
+| pr-ospe-032 | ok (unchanged) | Sarkar p401-405 |
+| pr-ospe-033 | ok (unchanged) | Sarkar p386-390, Sarkar p391-395 |
+| pr-ospe-034 | ok (unchanged) | Sarkar p396-400 |
+| pr-ospe-035 | still unsourced | WEB Indian J Pharmacol Standardization and va |
+
+## PDF grounding pass 3 (2026-11-02)
+
+Banned PrepLadder refs: none left in this deck. UNSOURCED targets: 005, 006, 014 remain unsourced (partial support noted).
+
+pr-ospe-005 | unsourced | NMC MD Pharmacology curriculum PDF p22 (+ existing WEB, UNSOURCED) | OSPE station format only; procedure advice not in books
+pr-ospe-006 | unsourced | Sarkar p91-95, KDT8 ch6 (+ UNSOURCED) | Sarkar covers confidentiality, seriousness, causality at centres; form fields (initials, batch, dechallenge) not found
+pr-ospe-013 | regrounded | Sarkar p206-210, p241-245, p186-190, p156-160, p226-230 | rewritten to supported points; witness, coercion, alternatives dropped
+pr-ospe-014 | unsourced | KDT8 ch1 (+ UNSOURCED) | general dosage-form content not found in owner books
+pr-ospe-018 | corrected | Ghosh FEP p11, Pickar Dosage Calculations PDF p373, NMC MD Pharmacology curriculum PDF p8 | removed invented example and C1V1=C2V2 formula; book example (histamine 0.2 mL in 10 mL = 20 ug/mL) used
+pr-ospe-022 | regrounded | Sarkar p76-80 | trimmed to drug information centre points printed on page
+pr-ospe-023 | corrected | Medhi PMECP PDF p359-361, Sarkar p506-510, NMC MD Pharmacology curriculum PDF p9 (WEB kept) | WHO criteria replaced by IFPMA/OPPI code per Medhi p360; price and graphs dropped
+pr-ospe-024 | regrounded | Medhi PMECP PDF p359, p361, Sarkar p111-115, NMC MD Pharmacology curriculum PDF p9 (WEB kept) | trimmed to package insert contents printed in Medhi
+pr-ospe-025 | corrected | Pickar Dosage Calculations PDF p177, p183 | Katzung16 ch66 removed (does not support card); card rewritten from Pickar label chapter
+pr-ospe-026 | regrounded | Sarkar p201-205 | word limit and format rule printed; structured headings dropped
+pr-ospe-030 | regrounded | Sarkar p156-160, p186-190, p206-210, p226-230, p241-245 | all faults traced to printed text

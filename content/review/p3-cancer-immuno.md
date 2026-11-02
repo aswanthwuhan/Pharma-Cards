@@ -66,3 +66,7 @@ Grounding re-check under GROUNDING-RULES.md. Cards now in deck: 57. Corrected: 2
 - Folinic acid timing: KDT ch44 (within 1-3 h) vs GG14 (within 24 h); card follows GG14.
 - Anthracycline limits: GG14 550 mg/m2 vs KDT 300 mg/m2; both shown.
 - Daclizumab: GG14 says produced only for MS; its MS licence status after GG14 is not in the books.
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+- p3-cancer-immuno-060 | corrected | KDT8 ch63; GG14 PDF p87, p1509; Harrison21 PDF p719; Satoskar Pharmacology PDF p1168; Bennett & Brown Clin Pharmacol PDF p276 | levamisole high-dose/bone-marrow claim and nephrotic syndrome not in books; removed. IL-2/TNF/IL-1 detail not found; removed. Imiquimod uses and BCG/IVIg verified.

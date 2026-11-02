@@ -1,0 +1,1384 @@
+{
+  "topicId": "p4-pharmacogenomics",
+  "cards": [
+    {
+      "id": "rf-p4-pharmacogenomics-0001",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Pharmacogenetics definition",
+      "a": "Study of the genetic basis of variable drug response; often a few variants with large effects",
+      "refs": [
+        "GG14 ch7",
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0002",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Pharmacogenomics definition",
+      "a": "Use of genetic information to guide choice of drug and dose for an individual",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0003",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Pharmacogenomics vs pharmacogenetics breadth",
+      "a": "Pharmacogenomics studies larger numbers of variants, in individuals or across populations",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0004",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "class",
+      "q": "Monogenic traits with predictable genotype-phenotype link: list all",
+      "a": "G6PD; CYP2D6; TPMT",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0005",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Distribution of drug response for most drugs",
+      "a": "Continuous, bell-shaped (Gaussian) variation",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0006",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Source of discontinuous variation in drug response",
+      "a": "Specific genetic defects, e.g. atypical pseudocholinesterase, G6PD deficiency",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0007",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Single base-pair change found in over 1% of people",
+      "a": "Single-nucleotide polymorphism (SNP)",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0008",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "class",
+      "q": "Types of genetic variant: list all",
+      "a": "Single-nucleotide variants; small insertions and deletions; copy number variants (whole-gene deletion or duplication); promoter variants; splice variants; exon variants that change protein; variants that act only as markers",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0009",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Meaning of *1 in star allele nomenclature",
+      "a": "Functional allele (normal function)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0010",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Star allele meaning",
+      "a": "Gene name, asterisk and haplotype designation, e.g. CYP2C19*2",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0011",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "class",
+      "q": "Standard metaboliser phenotypes, from slowest to fastest: list all",
+      "a": "Poor; intermediate; normal; rapid; ultrarapid",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0012",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Poor metaboliser",
+      "a": "No enzyme activity",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0013",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Ultrarapid metaboliser",
+      "a": "Greatly increased enzyme activity",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0014",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "class",
+      "q": "Scenarios with large effects from one pharmacogene: list all",
+      "a": "Key metabolic or transport step relies on one variable enzyme (e.g. CYP2D6 with codeine); target or off-target protein varies (e.g. aminoglycosides, MT-RNR1); biological setting changes effect (e.g. G6PD with antimalarials, rasburicase)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0015",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Effect of low-function variant on a drug activated by one enzyme",
+      "a": "Parent drug and upstream metabolites rise; downstream metabolites fall",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0016",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Effect of gain-of-function variant on drug action",
+      "a": "Low parent-drug concentration and loss of efficacy",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0017",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Scientist who defined pharmacogenetics as a field",
+      "a": "Arno Motulsky (1957)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0018",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Werner Kalow's pharmacogenetic finding",
+      "a": "Inherited differences in serum cholinesterase affinity, with Mendelian inheritance",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0019",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Garrod's contribution to pharmacogenetics",
+      "a": "Described alkaptonuria as autosomal recessive; coined 'inborn errors of metabolism'",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0020",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "1970s discovery on CYP2D6 variation",
+      "a": "Debrisoquine and sparteine toxicity from decreased CYP2D6 function",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0021",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Association studies vs proof of causation",
+      "a": "Association alone does not prove causation; functional studies needed",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0022",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Why a GWAS variant may fail to replicate across populations",
+      "a": "Linkage disequilibrium patterns are population specific",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0023",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "kind": "fact",
+      "q": "Acute intermittent porphyria trigger",
+      "a": "Barbiturates, due to a genetic defect in repression of porphyrin synthesis",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0024",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "class",
+      "q": "CYP2C19 alleles and function: list all",
+      "a": "CYP2C19*1 normal; *2 and *3 no function; *17 increased expression",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0025",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "CYP3A5*3 effect",
+      "a": "No function (splice variant gives truncated enzyme); predominant in European ancestry",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0026",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "CYP3A5*1 frequency pattern",
+      "a": "Functional *1 is the commonest allele in African ancestry populations",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0027",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Tacrolimus dose with functional CYP3A5",
+      "a": "Higher dose needed to reach therapeutic levels",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0028",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Codeine activation",
+      "a": "Prodrug converted to morphine by CYP2D6",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0029",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Codeine effect in CYP2D6 poor metabolisers",
+      "a": "No analgesia",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0030",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Codeine danger in CYP2D6 ultrarapid metabolisers",
+      "a": "Excess morphine: respiratory depression and death",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0031",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "class",
+      "q": "Drugs with higher toxicity in CYP2D6 deficiency: list all",
+      "a": "Metoprolol; debrisoquine; several antidepressants; several antipsychotics",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0032",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Enzyme that activates tamoxifen",
+      "a": "CYP2D6, forming endoxifen",
+      "refs": [
+        "Katzung16 ch4",
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0033",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Endoxifen property",
+      "a": "High oestrogen-receptor affinity",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0034",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Tamoxifen result in CYP2D6 poor metabolisers",
+      "a": "Higher breast cancer relapse risk",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0035",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Clopidogrel prodrug fractions",
+      "a": "About 85% hydrolysed to inactive acid; about 15% converted, mainly by CYP2C19, to active thiol",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0036",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Clopidogrel risk with no-function CYP2C19 allele",
+      "a": "More serious cardiovascular events and stent thrombosis after ACS with PCI",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0037",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "CYP2C19 poor metaboliser frequency",
+      "a": "About 2 to 3% of European and over 10% of East Asian ancestry",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0038",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Clopidogrel in poor metabolisers",
+      "a": "Use an alternative antiplatelet; a higher dose does not overcome it",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0039",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Clopidogrel in intermediate metabolisers",
+      "a": "May reach adequate effect with a higher dose",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0040",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "CPIC alternative to clopidogrel in ACS with PCI",
+      "a": "Prasugrel or ticagrelor, for poor and intermediate metabolisers",
+      "refs": [
+        "Katzung16 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0041",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "class",
+      "q": "Proton pump inhibitors inactivated by CYP2C19: list all",
+      "a": "Omeprazole; lansoprazole",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0042",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "SLCO1B1 product",
+      "a": "OATP1B1, hepatic uptake transporter for statins, methotrexate and bilirubin",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0043",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Common reduced-function SLCO1B1 variant",
+      "a": "rs4149056 (Val174Ala); lowers hepatic statin uptake",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0044",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Consequence of SLCO1B1 reduced function",
+      "a": "Higher systemic statin exposure and myopathy risk",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0045",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "How the simvastatin-SLCO1B1 link was found",
+      "a": "GWAS of 85 simvastatin myotoxicity cases and 90 controls",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0046",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "CPIC advice for reduced-function SLCO1B1 genotypes",
+      "a": "Lower simvastatin dose or alternative statin (e.g. pravastatin, rosuvastatin), with CK monitoring",
+      "refs": [
+        "Katzung16 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0047",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "Inability to hydroxylate phenytoin",
+      "a": "Toxicity at usual doses",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0048",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "kind": "fact",
+      "q": "CYP2C9 poor metabolisers and phenytoin",
+      "a": "Higher plasma levels and more toxicity",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0049",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "Enzyme that metabolises active S-warfarin",
+      "a": "CYP2C9",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0050",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "CYP2C9 poor and intermediate metabolisers on warfarin",
+      "a": "Lower steady-state dose needed; higher bleeding risk",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0051",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "Warfarin target enzyme",
+      "a": "VKORC1 (vitamin K epoxide reductase)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0052",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "Cause of coumarin resistance (KDT example)",
+      "a": "Abnormal vitamin K epoxide reductase with low affinity for coumarins",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0053",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "Enzyme that removes vitamin K from the cycle",
+      "a": "CYP4F2 (reduced vitamin K to hydroxyvitamin K1)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0054",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "VKORC1 promoter variant with low expression",
+      "a": "Lower warfarin dose needed; more common in Asian ancestry",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0055",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "VKORC1 variant linked to high dose requirement",
+      "a": "About 5% allele frequency in Ashkenazi patients",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0056",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "Aminoglycoside target site in bacteria",
+      "a": "A-site of 16S rRNA, 30S ribosomal subunit",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0057",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "Off-target site of aminoglycoside hearing loss",
+      "a": "Human mitochondrial ribosomes in the inner ear",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0058",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "MT-RNR1 variant mechanism in aminoglycoside ototoxicity",
+      "a": "Mitochondrial rRNA resembles bacterial rRNA, raising aminoglycoside affinity",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0059",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "Source of tumour-response variation",
+      "a": "Somatic (tumour) variants, as well as germline variants",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0060",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "EGFR activating mutation and gefitinib",
+      "a": "Increased response to gefitinib",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0061",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "BRAF V600E and vemurafenib",
+      "a": "Predicts response",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0062",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "HER2 and trastuzumab",
+      "a": "Benefit only in HER2-expressing breast cancer; cardiomyopathy risk",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0063",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "UGT1A1 reduced activity and irinotecan",
+      "a": "Higher SN-38 levels and higher risk of serious toxicity",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0064",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "class",
+      "q": "Irinotecan toxicities linked to UGT1A1*28: list all",
+      "a": "Neutropenia; diarrhoea",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0065",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "P-glycoprotein overexpression in tumours",
+      "a": "Pumps drugs out of tumour cells, causing resistance",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0066",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "kind": "fact",
+      "q": "ABCB1 synonymous variant effect",
+      "a": "Variable digoxin concentrations",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0067",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "UGT1A1 promoter TA-repeat alleles: list all",
+      "a": "Six repeats (common); seven repeats (UGT1A1*28, lower expression)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0068",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "UGT1A1*28 allele frequency",
+      "a": "Up to 30%, with up to 10% homozygous depending on ancestry",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0069",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Gilbert syndrome cause",
+      "a": "Reduced UGT1A1 transcription, causing mild hyperbilirubinaemia",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0070",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Drugs with hyperbilirubinaemia risk from UGT1A1 variants: list all",
+      "a": "Irinotecan (via SN-38 toxicity); atazanavir",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0071",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "TPMT and NUDT15 effect",
+      "a": "Both change active thiopurine metabolite levels and bone marrow toxicity risk",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0072",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Thiopurine drugs affected by TPMT: list all",
+      "a": "Mercaptopurine; azathioprine; thioguanine",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0073",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "TPMT deficiency consequence",
+      "a": "Severe bone marrow toxicity from 6-MP and azathioprine",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0074",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "NUDT15 in East Asian patients",
+      "a": "NUDT15 poor and intermediate metabolisers more frequent; TPMT testing alone can miss risk",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0075",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "DPD role",
+      "a": "Rate-limiting step of pyrimidine catabolism; removes about 80% of a fluorouracil dose",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0076",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Oral prodrugs of 5-fluorouracil: list all",
+      "a": "Capecitabine; tegafur",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0077",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "DPD deficiency effect",
+      "a": "Sharply reduced 5-FU clearance and severe toxicity",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0078",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Clinically recognised DPYD variants: list all",
+      "a": "DPYD*2A and *13 (no function); rs67376798 and HapB3 (reduced function)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0079",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "CPIC dose for DPYD intermediate metabolisers",
+      "a": "Start 50% reduced dose, then titrate by toxicity",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0080",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Complete DPD deficiency action",
+      "a": "Use a non-fluoropyrimidine drug",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0081",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "G6PD deficiency inheritance",
+      "a": "X-linked monogenic trait",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0082",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Populations with more common G6PD deficiency: list all",
+      "a": "Mediterranean; African; Southeast Asian",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0083",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "G6PD haemolysis mechanism with antimalarials",
+      "a": "Reduced glutathione makes red cells fragile",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0084",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Haemolysis severity pattern in G6PD deficiency",
+      "a": "Largely dose related; severe in homozygous deficiency",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0085",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Practical G6PD testing",
+      "a": "Simple spot tests in current use",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0086",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Antimalarial and antibacterial drugs causing haemolysis in G6PD deficiency: list all",
+      "a": "Primaquine; chloroquine; quinine or quinidine; proguanil; pyrimethamine; dapsone; sulfonamides; cotrimoxazole; sulfasalazine; nalidixic acid; fluoroquinolones; chloramphenicol; nitrofurantoin; furazolidone",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0087",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Non-antimicrobial drugs causing haemolysis in G6PD deficiency: list all",
+      "a": "Sulfonylureas; thiazide diuretics; aspirin; menadione; methyldopa; hydralazine; procainamide; probenecid; colchicine; methylene blue",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0088",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Rasburicase in G6PD deficiency",
+      "a": "G6PD deficiency predicts haemolytic and methaemoglobin toxicity",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0089",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Normal duration of succinylcholine action",
+      "a": "5 to 8 minutes, hydrolysed by plasma pseudocholinesterase",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0090",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Homozygous atypical pseudocholinesterase: frequency and effect",
+      "a": "About 1 in more than 3000; paralysis and apnoea lasting 4 to 6 hours",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0091",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Heterozygous atypical pseudocholinesterase: frequency and effect",
+      "a": "About 1 in 50; paralysis only 2 to 3 times longer",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0092",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Block phase in atypical pseudocholinesterase",
+      "a": "Phase II block readily occurs with succinylcholine",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0093",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Management of apnoea from atypical cholinesterase",
+      "a": "Mechanical ventilation",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0094",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "NAT2 acetylator types: list all",
+      "a": "Slow acetylators (less enzyme, autosomal recessive); fast acetylators",
+      "refs": [
+        "KDT8 ch56",
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0095",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Share of Indians who are slow acetylators",
+      "a": "60 to 70%",
+      "refs": [
+        "KDT8 ch56"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0096",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Isoniazid half-life in acetylator types",
+      "a": "Fast about 1 h; slow about 3 h",
+      "refs": [
+        "KDT8 ch56"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0097",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Slow-acetylator toxicities: list all",
+      "a": "Isoniazid peripheral neuropathy; hydralazine- and procainamide-induced lupus; sulfonamide hypersensitivity; amonafide toxicity",
+      "refs": [
+        "GG14 ch7",
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0098",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Isoniazid hepatotoxic metabolite and its enzyme",
+      "a": "Formed from acetylhydrazine by CYP2E1",
+      "refs": [
+        "KDT8 ch56"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0099",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Fast acetylators on biweekly isoniazid",
+      "a": "Biweekly regimens less effective",
+      "refs": [
+        "KDT8 ch56"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0100",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Acetylator status with daily isoniazid",
+      "a": "Does not matter",
+      "refs": [
+        "KDT8 ch56"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0101",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Malignant hyperthermia genes: list all",
+      "a": "RYR1; CACNA1S",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0102",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Ryanodine receptor in malignant hyperthermia",
+      "a": "RYR1 calcium-release channel of skeletal muscle sarcoplasmic reticulum",
+      "refs": [
+        "KDT8 ch27"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0103",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Malignant hyperthermia triggers: list all",
+      "a": "Volatile anaesthetics (halothane, isoflurane, sevoflurane, desflurane, enflurane, methoxyflurane); succinylcholine",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0104",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "class",
+      "q": "Malignant hyperthermia treatment: list all",
+      "a": "Rapid external cooling; bicarbonate infusion; 100% oxygen; IV dantrolene",
+      "refs": [
+        "KDT8 ch27"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0105",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Dantrolene mechanism",
+      "a": "Blocks RyR1, preventing calcium-induced calcium release",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0106",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Dantrolene IV dose for malignant hyperthermia",
+      "a": "1 mg/kg, repeated as required",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0107",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Calcium channel spared by dantrolene",
+      "a": "RyR2 of cardiac and smooth muscle, little affected",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0108",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Dantrolene use outside malignant hyperthermia",
+      "a": "Reverses neuroleptic malignant syndrome (different pathogenesis)",
+      "refs": [
+        "KDT8 ch25"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0109",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "kind": "fact",
+      "q": "Effect of succinylcholine in malignant hyperthermia",
+      "a": "Accentuates the condition",
+      "refs": [
+        "KDT8 ch27"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0110",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "fact",
+      "q": "HLA-B: nature",
+      "a": "Among the most polymorphic genes; part of MHC class I",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0111",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "fact",
+      "q": "HLA-B*57:01 and abacavir",
+      "a": "Carriers at risk of severe skin hypersensitivity (SJS-type); abacavir contraindicated",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0112",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "fact",
+      "q": "Genotyping before abacavir treatment",
+      "a": "Randomised trial showed it eliminated this risk",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0113",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "fact",
+      "q": "Proposed abacavir hypersensitivity mechanism",
+      "a": "Non-covalent binding that alters peptides presented via HLA or TCR",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0114",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "fact",
+      "q": "HLA-B*15:02 and carbamazepine",
+      "a": "Predicts skin reactions in East Asian individuals",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0115",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "fact",
+      "q": "HLA allele for carbamazepine SJS in European ancestry",
+      "a": "HLA-A*31:01 (found by GWAS)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0116",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "fact",
+      "q": "HLA-B*15:02 frequency",
+      "a": "Up to 20% in East and Central/South Asian populations; absent or rare in European and sub-Saharan African",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0117",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "class",
+      "q": "Other HLA-B*15 alleles linked to ADRs in Asian populations: list all",
+      "a": "HLA-B*15:21; HLA-B*15:11; HLA-B*15:08",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0118",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "class",
+      "q": "Drugs with HLA-linked hypersensitivity (clinically actionable): list all",
+      "a": "Abacavir; allopurinol; carbamazepine; fosphenytoin; oxcarbazepine; phenytoin",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0119",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "kind": "fact",
+      "q": "Phenytoin SJS/TEN risk when genotypes combine",
+      "a": "Highest with a CYP2C9 variant plus an HLA-B risk allele such as HLA-B*15:02",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0120",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Why candidate-gene approach worked in pharmacogenetics",
+      "a": "Genes chosen from known drug disposition or action pathways; large effects replicate",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0121",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "GWAS for drug-response ADRs",
+      "a": "No prior hypothesis; clear signals even with small samples when effect is large (e.g. carbamazepine)",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0122",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Warfarin genotyping trials using time in therapeutic range",
+      "a": "Inconsistent results; few bleeding events",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0123",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Warfarin RCT with bleeding as primary endpoint",
+      "a": "Showed significant benefit of genotype-guided dosing",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0124",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Main barrier to routine pharmacogenetic testing",
+      "a": "Each drug needs its own assay",
+      "refs": [
+        "GG14 ch7",
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0125",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Genotyping frequency for one individual",
+      "a": "Done only once",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0126",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Point-of-care genotyping speed",
+      "a": "Platforms often deliver results in under an hour",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0127",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Alternative to single-drug assays",
+      "a": "Genotype multiple loci relevant to drug responses together",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0128",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Polygenic risk score in drug response example",
+      "a": "62 variants predicted QTc prolongation and torsades de pointes",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0129",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Drugs with human genetic support and marketing odds",
+      "a": "About three times more likely to be marketed",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0130",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "PCSK9 variant lesson",
+      "a": "Loss-of-function variants lower LDL and coronary risk; PCSK9 became a drug target",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0131",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Ivacaftor mechanism",
+      "a": "Corrects abnormal gating of certain CFTR variants, e.g. G551D",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0132",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Lumacaftor mechanism",
+      "a": "Improves cell-surface expression of the common F508 CFTR variant",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0133",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Disease whose gene study led to statins",
+      "a": "Familial hypercholesterolaemia, a defect in regulating HMG-CoA reductase",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0134",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "SCN9A loss-of-function effect",
+      "a": "Pain insensitivity; inhibitors might be analgesics",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0135",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "CPIC resource type",
+      "a": "Peer-reviewed, evidence-based, updatable gene and drug clinical practice guidelines",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0136",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Method to test promoter variant effect",
+      "a": "Liver microsomes expressing wild-type or variant promoter sequences",
+      "refs": [
+        "GG14 ch7"
+      ]
+    },
+    {
+      "id": "rf-p4-pharmacogenomics-0137",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "kind": "fact",
+      "q": "Phenome-wide association study (PheWAS)",
+      "a": "Starts from a variant and finds associated human phenotypes",
+      "refs": [
+        "GG14 ch7"
+      ]
+    }
+  ]
+}

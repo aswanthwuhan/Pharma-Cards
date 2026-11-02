@@ -36,3 +36,15 @@ For the items still listed in `SOURCE-GAPS.md` and for the practical-exam topics
 - `refs` must be exactly `["UNSOURCED - owner must verify"]` (plus any real book/WEB ref that supports part of the card).
 - Only uncontroversial, textbook-standard facts. No doses or numbers you are not certain of; prefer principles and steps.
 - `status: "draft"`; the review log lists every such id under "Unsourced cards (owner approved)".
+
+## Owner's added library (2026-11-02)
+These are owner books too (same rules as above; cite as `"<Short title> <chapter/page>"`, e.g. `"Ghosh FEP p45"`, `"Medhi PMECP p120"`):
+- `C:\CLAUDE\A Flashcard App\Database PDFs, Guidelines\` (Experimental & Clinical pharmacology: Ghosh, Medhi, Bennett & Brown, Bioequivalence & Statistics; Core Pharmacology: Golan, Padmaja, Satoskar, Shanbhag, Katzung 16e; Guidelines: national/GINA etc.)
+- `C:\CLAUDE\A Flashcard App\Curriculum-related documents\` (NMC MD Pharmacology revised curriculum, PGMER 2023, RGUHS practical pattern)
+- Question banks: `C:\CLAUDE\A Flashcard App\MD pharmacology Q banks\` (for PYQ tags only; store question wording, never the files).
+These folders are gitignored and must never be committed.
+
+## Excluded sources: PrepLadder (owner, 2026-11-02)
+Never use or cite PrepLadder material: `Pharmacology Prep Xi A4.pdf` (refs `Prep ...`) and `Pharma Rapid Revision 5e.pdf` (refs `RR5 ...`), including their OCR folders `ocr\prep\` and `ocr\rapid-revision\`.
+Cards that cited them were re-grounded in the other owner PDFs. Where no other PDF supports a card, its ref is `UNSOURCED - owner must verify`.
+Searchable page text of the allowed PDFs: `python C:\Users\albit\pharm-tools\search.py "<regex>"` (cite as `<book> PDF p<N>`).

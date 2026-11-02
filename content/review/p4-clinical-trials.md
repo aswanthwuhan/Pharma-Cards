@@ -63,3 +63,7 @@ Cards now in deck: 38. Not re-added: no OCR page covers audio-video consent, and
 | p4-clinical-trials-048 | added | Sarkar p227, p228, p158, p247 (ethics committee under NDCT) |
 | p4-clinical-trials-049 | added | Sarkar p37 (orphan drug under NDCT) |
 | p4-clinical-trials-050 | added | Sarkar p91, p92, p94; Prep p77; KDT8 ch6 (PvPI) |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+- p4-clinical-trials-050 | regrounded | Sarkar p91-95; KDT8 ch6 | all history and organisation facts on Sarkar p91-95; Prep ref removed

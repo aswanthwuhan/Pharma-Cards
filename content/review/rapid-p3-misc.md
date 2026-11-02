@@ -492,3 +492,8 @@ rf-p3-misc-0469 | ok | KDT8 ch70
 rf-p3-misc-0470 | ok | KDT8 ch70
 rf-p3-misc-0471 | ok | KDT8 ch70
 rf-p3-misc-0472 | ok | KDT8 ch70
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p3-misc-0233 | corrected | KDT8 PDF p973 | "only oral drug" not supported by allowed books
+rf-p3-misc-0367 | corrected | KDT8 PDF p683 | stippled epiphyses not in books; first-trimester timing not stated

@@ -408,3 +408,7 @@ Sources: KD Tripathi 8e ch56 (antitubercular) and ch57 (antileprotic); Goodman &
 | rf-p3-tb-leprosy-0385 | ok | KDT8 ch57 |
 
 Totals: 385 cards; 31 class cards.
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p3-tb-leprosy-0042 | unsourced | UNSOURCED - owner must verify | pyridoxine as isoniazid antidote not found in allowed books

@@ -38,7 +38,7 @@
       "q": "Factor that slows diffusion (Fick's law)",
       "a": "Greater membrane thickness",
       "refs": [
-        "Prep p6-10"
+        "Golan PDF p292"
       ]
     },
     {
@@ -46,9 +46,9 @@
       "subtopic": "p1-pk-absorption-membrane-transport",
       "kind": "fact",
       "q": "Passive diffusion rate increases with",
-      "a": "Concentration, membrane area and permeability coefficient",
+      "a": "Concentration gradient and membrane surface area",
       "refs": [
-        "Prep p6-10"
+        "KDT8 PDF p38"
       ]
     },
     {
@@ -448,7 +448,7 @@
       "q": "Strong acids and strong bases: effect of media pH",
       "a": "Always ionised; pH does not change their ionisation",
       "refs": [
-        "Prep p11-15"
+        "RangDale9 PDF p131"
       ]
     },
     {
@@ -458,7 +458,7 @@
       "q": "Aspirin (pKa 3.5) percent unionised at pH 2.5",
       "a": "About 90% unionised, 10% ionised",
       "refs": [
-        "Prep p11-15"
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -468,7 +468,7 @@
       "q": "Aspirin (pKa 3.5) percent unionised at pH 1.5",
       "a": "About 99% unionised, 1% ionised",
       "refs": [
-        "Prep p11-15"
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -476,9 +476,9 @@
       "subtopic": "p1-pk-absorption-ionisation",
       "kind": "fact",
       "q": "Morphine absorbed from stomach and small intestine",
-      "a": "About 1% stomach, 99% small intestine",
+      "a": "Mostly small intestine; morphine is a basic drug, largely ionised in the stomach",
       "refs": [
-        "Prep p11-15"
+        "KDT8 PDF p38"
       ]
     },
     {
@@ -486,9 +486,9 @@
       "subtopic": "p1-pk-absorption-ionisation",
       "kind": "fact",
       "q": "Aspirin absorbed from stomach and small intestine",
-      "a": "About 10% stomach, 90% small intestine",
+      "a": "Absorbed from both; acidic drug is unionised in gastric juice, so the stomach contributes",
       "refs": [
-        "Prep p11-15"
+        "KDT8 PDF p38"
       ]
     },
     {
@@ -498,7 +498,7 @@
       "q": "Effect of antacids on acidic drug absorption",
       "a": "Reduce stomach absorption of acidic drugs by neutralising HCl",
       "refs": [
-        "Prep p11-15"
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -619,7 +619,9 @@
       "a": "Quinidine, verapamil, amiodarone, cyclosporin, ketoconazole, erythromycin or clarithromycin, ritonavir (QVACKER)",
       "refs": [
         "KDT8 ch2",
-        "Prep p6-10"
+        "KDT8 PDF p38",
+        "GG14 PDF p179",
+        "Golan PDF p85"
       ]
     },
     {
@@ -627,10 +629,10 @@
       "subtopic": "p1-pk-absorption-efflux",
       "kind": "fact",
       "q": "P-glycoprotein inducers: examples",
-      "a": "Rifampicin and phenobarbitone; they lower oral bioavailability of P-gp substrates",
+      "a": "Rifampicin and phenobarbitone; they reduce oral bioavailability of P-gp substrates",
       "refs": [
         "KDT8 ch2",
-        "Prep p6-10"
+        "KDT8 PDF p38"
       ]
     },
     {
@@ -640,7 +642,7 @@
       "q": "Cyclosporin effect on bile secretion via P-gp",
       "a": "Reduces biliary secretion, causing bile accumulation and cholestatic jaundice",
       "refs": [
-        "Prep p6-10"
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -648,9 +650,10 @@
       "subtopic": "p1-pk-absorption-efflux",
       "kind": "fact",
       "q": "Verapamil role in cancer chemotherapy",
-      "a": "Blocks P-gp, reversing drug resistance in cancer cells",
+      "a": "Inhibits P-gp, an efflux pump behind multidrug resistance",
       "refs": [
-        "Prep p6-10"
+        "Golan PDF p85",
+        "KDT8 PDF p946"
       ]
     },
     {
@@ -677,10 +680,10 @@
       "id": "rf-p1-pk-absorption-0068",
       "subtopic": "p1-pk-absorption-efflux",
       "kind": "fact",
-      "q": "Effect of P-gp inducers on digoxin urinary excretion",
-      "a": "Increased urinary excretion, reducing digoxin effect",
+      "q": "Effect of P-gp inhibitors on digoxin clearance",
+      "a": "Reduces renal and biliary clearance; plasma digoxin can double",
       "refs": [
-        "Prep p6-10"
+        "KDT8 PDF p574"
       ]
     },
     {
@@ -750,7 +753,7 @@
       "q": "Units of bioavailability",
       "a": "None; it is a fraction, F",
       "refs": [
-        "Prep p21-25"
+        "GG14 PDF p55"
       ]
     },
     {
@@ -780,8 +783,8 @@
       "q": "Acceptable generic bioavailability range (US FDA)",
       "a": "80-125% of the reference product",
       "refs": [
-        "Sarkar p41-45",
-        "Prep p21-25"
+        "Bioequivalence & Statistics PDF p52",
+        "Bioequivalence & Statistics PDF p53"
       ]
     },
     {
@@ -807,11 +810,11 @@
     {
       "id": "rf-p1-pk-absorption-0081",
       "subtopic": "p1-pk-absorption-bioavailability",
-      "kind": "class",
-      "q": "Drugs where brands must never be interchanged: list",
-      "a": "Phenytoin, theophylline, cyclosporin",
+      "kind": "fact",
+      "q": "Drug whose formulations should not be interchanged without monitoring: list",
+      "a": "Cyclosporin",
       "refs": [
-        "Prep p21-25"
+        "GG14 PDF p793"
       ]
     },
     {
@@ -821,7 +824,7 @@
       "q": "Phenytoin brand interchange: why 80-125% is unacceptable",
       "a": "Small rise in absorption causes toxicity; small fall causes rebound seizures",
       "refs": [
-        "Prep p21-25"
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -1032,7 +1035,7 @@
       "q": "Rectal drug draining via internal haemorrhoidal vein goes to",
       "a": "Portal vein, so it undergoes first-pass",
       "refs": [
-        "Prep p16-20"
+        "KDT8 PDF p29"
       ]
     },
     {
@@ -1040,19 +1043,19 @@
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
       "q": "Rectal diazepam: clinical use",
-      "a": "Drug of choice for febrile seizures in children",
+      "a": "Given rectally at onset of febrile seizures in children (0.5 mg/kg)",
       "refs": [
-        "Prep p16-20"
+        "KDT8 PDF p463"
       ]
     },
     {
       "id": "rf-p1-pk-absorption-0105",
       "subtopic": "p1-pk-absorption-bioavailability",
-      "kind": "class",
-      "q": "Drugs with high first-pass metabolism (Prep list)",
-      "a": "Fentanyl, propranolol, lignocaine, morphine, natural steroids, verapamil, aldosterone, pethidine, cortisol, salbutamol, testosterone, imipramine, progesterone, GTN, estrogen",
+      "kind": "fact",
+      "q": "Example of a drug with high first-pass metabolism",
+      "a": "Propranolol",
       "refs": [
-        "Prep p16-20"
+        "KDT8 PDF p176"
       ]
     },
     {
@@ -1060,9 +1063,10 @@
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
       "q": "Oral route first-pass: how to avoid it",
-      "a": "Give by parenteral route, or sublingual or buccal route",
+      "a": "Give parenterally, or sublingually (sublingual absorption bypasses portal circulation)",
       "refs": [
-        "Prep p16-20"
+        "Katzung16 PDF p64",
+        "GG14 PDF p46"
       ]
     },
     {
@@ -1080,40 +1084,40 @@
       "id": "rf-p1-pk-absorption-0108",
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
-      "q": "Route bioavailability ranges (Prep): IV",
+      "q": "Route bioavailability ranges: IV",
       "a": "100 (by definition)",
       "refs": [
-        "Prep p21-25"
+        "Katzung16 PDF p63"
       ]
     },
     {
       "id": "rf-p1-pk-absorption-0109",
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
-      "q": "Route bioavailability ranges (Prep): IM and SC",
+      "q": "Route bioavailability ranges: IM and SC",
       "a": "75 to 100%",
       "refs": [
-        "Prep p21-25"
+        "Katzung16 PDF p63"
       ]
     },
     {
       "id": "rf-p1-pk-absorption-0110",
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
-      "q": "Route bioavailability ranges (Prep): oral and inhalation",
+      "q": "Route bioavailability ranges: oral and inhalation",
       "a": "5 to less than 100%",
       "refs": [
-        "Prep p21-25"
+        "Katzung16 PDF p63"
       ]
     },
     {
       "id": "rf-p1-pk-absorption-0111",
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
-      "q": "Route bioavailability ranges (Prep): rectal and transdermal",
+      "q": "Route bioavailability ranges: rectal and transdermal",
       "a": "Rectal 30 to less than 100%; transdermal 80 to 100%",
       "refs": [
-        "Prep p21-25"
+        "Katzung16 PDF p63"
       ]
     },
     {
@@ -1123,7 +1127,7 @@
       "q": "Transdermal absorption: what determines dose",
       "a": "Area of the patch rather than its thickness",
       "refs": [
-        "Prep p16-20"
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -1282,9 +1286,9 @@
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
       "q": "Z-track (zigzag) injection technique purpose",
-      "a": "Avoids staining of subcutaneous fat by leaking drug (e.g. iron dextran)",
+      "a": "Avoids staining of the skin by leaking drug (e.g. iron dextran)",
       "refs": [
-        "Prep p16-20"
+        "KDT8 PDF p663"
       ]
     },
     {
@@ -1292,9 +1296,9 @@
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
       "q": "Inhalation: particle size for local versus systemic action",
-      "a": "2-5 micron for local action; under 2 micron reaches alveoli for systemic action",
+      "a": "Optimum about 2 micron particles to deposit in the small bronchi",
       "refs": [
-        "Prep p16-20"
+        "Bennett PDF p520"
       ]
     },
     {
@@ -1302,9 +1306,9 @@
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
       "q": "Increase AUC in order to raise bioavailability",
-      "a": "Increase absorption or reduce first-pass metabolism or elimination",
+      "a": "Raise absorption or cut first-pass; AUC is proportional to dose times bioavailability",
       "refs": [
-        "RR5 p51-55"
+        "Katzung16 PDF p63"
       ]
     },
     {
@@ -1312,9 +1316,9 @@
       "subtopic": "p1-pk-absorption-bioavailability",
       "kind": "fact",
       "q": "Bioavailability depends on which two parameters",
-      "a": "Directly proportional to absorption; inversely proportional to first-pass metabolism",
+      "a": "Extent of absorption and first-pass elimination; incomplete absorption or first-pass lowers it",
       "refs": [
-        "RR5 p1-5"
+        "Katzung16 PDF p63"
       ]
     },
     {
@@ -1345,7 +1349,8 @@
       "a": "Litres, or L/kg",
       "refs": [
         "KDT8 ch2",
-        "Prep p21-25"
+        "KDT8 PDF p19",
+        "Satoskar PDF p67"
       ]
     },
     {
@@ -1432,20 +1437,20 @@
       "id": "rf-p1-pk-absorption-0143",
       "subtopic": "p1-pk-absorption-volume-binding",
       "kind": "fact",
-      "q": "Most important factor reducing Vd (Prep)",
-      "a": "Increased plasma protein binding",
+      "q": "Factor that reduces Vd: plasma protein binding",
+      "a": "Increased plasma protein binding, which keeps drug in plasma",
       "refs": [
-        "Prep p21-25"
+        "RangDale9 PDF p135"
       ]
     },
     {
       "id": "rf-p1-pk-absorption-0144",
       "subtopic": "p1-pk-absorption-volume-binding",
       "kind": "fact",
-      "q": "Vd of chloroquine (RR5)",
+      "q": "Vd of chloroquine",
       "a": "About 13,000 L, highest of the listed drugs",
       "refs": [
-        "RR5 p1-5"
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -1453,9 +1458,9 @@
       "subtopic": "p1-pk-absorption-volume-binding",
       "kind": "fact",
       "q": "Features of a low-Vd drug",
-      "a": "Stays in blood, water soluble, ionised, large molecule, highly protein bound",
+      "a": "Large molecule, polar, highly protein bound, so it stays in plasma",
       "refs": [
-        "RR5 p1-5"
+        "RangDale9 PDF p135"
       ]
     },
     {
@@ -1603,9 +1608,9 @@
       "subtopic": "p1-pk-absorption-volume-binding",
       "kind": "fact",
       "q": "Phenytoin and valproate interaction",
-      "a": "Valproate displaces phenytoin from albumin, raising free phenytoin",
+      "a": "Valproate displaces protein-bound phenytoin, raising free phenytoin",
       "refs": [
-        "Prep p21-25"
+        "KDT8 PDF p454"
       ]
     },
     {
@@ -1881,7 +1886,7 @@
     {
       "id": "rf-p1-pk-absorption-0188",
       "subtopic": "p1-pk-absorption-tissue-barriers",
-      "kind": "class",
+      "kind": "fact",
       "q": "Tissues where iodine concentrates",
       "a": "Thyroid",
       "refs": [
@@ -1901,7 +1906,7 @@
     {
       "id": "rf-p1-pk-absorption-0190",
       "subtopic": "p1-pk-absorption-tissue-barriers",
-      "kind": "class",
+      "kind": "fact",
       "q": "Tissue where thiopentone and ether concentrate",
       "a": "Adipose tissue (dissolve in neutral fat)",
       "refs": [
@@ -1911,7 +1916,7 @@
     {
       "id": "rf-p1-pk-absorption-0191",
       "subtopic": "p1-pk-absorption-tissue-barriers",
-      "kind": "class",
+      "kind": "fact",
       "q": "Tissue where bisphosphonates bind",
       "a": "Bone (bound to hydroxyapatite)",
       "refs": [
@@ -1985,7 +1990,7 @@
       "q": "Poisons where haemodialysis is not useful (Better Care AVOID): list",
       "a": "Benzodiazepines, chloroquine, amphetamine, verapamil, opioids, imipramine, digoxin",
       "refs": [
-        "RR5 p1-5"
+        "UNSOURCED - owner must verify"
       ]
     },
     {

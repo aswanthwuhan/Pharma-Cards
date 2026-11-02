@@ -260,3 +260,23 @@ rf-p1-intro-routes-0235 | ok | KDT8 ch1
 rf-p1-intro-routes-0236 | ok | KDT8 ch1
 rf-p1-intro-routes-0237 | ok | KDT8 ch1
 rf-p1-intro-routes-0238 | ok | KDT8 ch1
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+id | regrounded / corrected / unsourced | new refs | note
+--- | --- | --- | ---
+rf-p1-intro-routes-0131 | regrounded | Padmaja Medical Pharmacology 7e PDF p45 | Gut wall before liver confirmed.
+rf-p1-intro-routes-0135 | regrounded | GG14 PDF p46 | Sublingual veins drain to superior vena cava.
+rf-p1-intro-routes-0139 | regrounded | KDT8 PDF p29 | Internal haemorrhoidal veins do not bypass liver.
+rf-p1-intro-routes-0141 | regrounded | KDT8 PDF p29 | Febrile seizure claim not in books, dropped. Rectal diazepam absorption in children confirmed.
+rf-p1-intro-routes-0145 | corrected | KDT8 PDF p337 | Only testosterone is supported (inactive orally, first pass). Other list items not found.
+rf-p1-intro-routes-0146 | unsourced | UNSOURCED - owner must verify | 70% first-pass threshold not found in books.
+rf-p1-intro-routes-0155 | regrounded | GG14 PDF p1051, KDT8 PDF p679 | Insulin and LMWH subcutaneous confirmed.
+rf-p1-intro-routes-0159 | corrected | KDT8 PDF p363 | Capsules (six, 36 mg each), not rods.
+rf-p1-intro-routes-0172 | unsourced | UNSOURCED - owner must verify | Intraosseous use not found in allowed books.
+rf-p1-intro-routes-0173 | unsourced | UNSOURCED - owner must verify | Tibia as the usual site not found in allowed books.
+rf-p1-intro-routes-0174 | regrounded | KDT8 PDF p663, Bennett & Brown Clin Pharmacol PDF p547 | Antipsychotic use dropped; Z-track for iron dextran confirmed.
+rf-p1-intro-routes-0175 | corrected | KDT8 PDF p337 | Longer esters (decanoate, enanthate) slow absorption; undecanoate claim replaced.
+rf-p1-intro-routes-0185 | regrounded | GG14 PDF p47, KDT8 PDF p150 | "Not thickness" not in books, dropped.
+rf-p1-intro-routes-0186 | corrected | KDT8 PDF p29 | Site ranking contradicted for TTS. Question rewritten.
+rf-p1-intro-routes-0187 | unsourced | UNSOURCED - owner must verify | Palms and soles absorption not found in books.

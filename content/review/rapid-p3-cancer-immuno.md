@@ -388,3 +388,20 @@ Grounding pass under GROUNDING-RULES.md. Sources: KDT8 ch64-65 (topic refs), GG1
 | rf-p3-cancer-immuno-0360 | ok | KDT8 ch64 |
 | rf-p3-cancer-immuno-0361 | ok | KDT8 ch64 |
 | rf-p3-cancer-immuno-0362 | ok | KDT8 ch64 |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+- rf-p3-cancer-immuno-0051 | unsourced | UNSOURCED - owner must verify | glucarpidase not in any allowed book; GG14 ch70 ref removed
+- rf-p3-cancer-immuno-0054 | regrounded | KDT8 ch64 | RR5 removed
+- rf-p3-cancer-immuno-0074 | corrected | KDT8 ch64 | "cumulative-dose" and "long-term use" not in book; removed
+- rf-p3-cancer-immuno-0098 | regrounded | KDT8 ch64 | 6-week delay and visceral fibrosis confirmed
+- rf-p3-cancer-immuno-0108 | regrounded | KDT8 ch64 | total-dose renal toxicity confirmed
+- rf-p3-cancer-immuno-0123 | corrected | Katzung16 PDF p704; KDT8 PDF p1011 | book gives dose-related liver enzyme rise; answer reworded to match
+- rf-p3-cancer-immuno-0174 | regrounded | KDT8 ch64 | confirmed
+- rf-p3-cancer-immuno-0214 | regrounded | KDT8 ch64 | confirmed
+- rf-p3-cancer-immuno-0308 | regrounded | KDT8 PDF p953 | confirmed
+- rf-p3-cancer-immuno-0377 | corrected | KDT8 ch63 | "at low dose" not in book; removed from question
+- rf-p3-cancer-immuno-0378 | corrected | KDT8 ch63 | bone-marrow claim not in book; replaced with book statement (repeated doses cause severe reactions, not used now)
+- rf-p3-cancer-immuno-0379 | regrounded | GG14 PDF p87 | TLR-7 agonist, used for topical indications
+- rf-p3-cancer-immuno-0380 | regrounded | Harrison21 PDF p719; Satoskar Pharmacology PDF p1168 | intravesical BCG for superficial bladder cancer
+- rf-p3-cancer-immuno-0381 | regrounded | Bennett & Brown Clin Pharmacol PDF p276; KDT8 PDF p995 | pooled plasma IgG confirmed

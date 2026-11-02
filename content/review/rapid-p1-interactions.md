@@ -154,3 +154,31 @@ Totals: 133 cards, 27 class cards. Corrected: 1. Deleted: 0.
 - None blocking. Verify rows 0097, 0109, 0113 against the printed Table 71.1 if exactness matters.
 
 - Orchestrator spot-check vs KDT8 Table 71.1: 0097 (row 29), 0109, 0113 (NSAID + alcohol/corticosteroid: "Concurrent use contraindicated") match the printed rows.
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+id | status | new refs | note
+--- | --- | --- | ---
+rf-p1-interactions-0038 | corrected | KDT8 PDF p454 | Antiepileptic albumin fact now the valproate-phenytoin displacement stated on the page
+rf-p1-interactions-0039 | corrected | KDT8 PDF p1002 | Aspirin displaces/raises sulfonylurea toxicity; tolbutamide-specific claim not in books
+rf-p1-interactions-0040 | regrounded | KDT8 PDF p756 |
+rf-p1-interactions-0041 | corrected | GG14 PDF p1177 | Books say jaundice in neonates, not kernicterus; "under one month" not printed
+rf-p1-interactions-0052 | corrected | KDT8 PDF p50 | St John's wort not in books, dropped; q no longer says review-book list
+rf-p1-interactions-0063 | corrected | KDT8 PDF p38 | Shortened to quinidine, verapamil, erythromycin; cyclosporin, ketoconazole, ritonavir not found as P-gp inhibitors
+rf-p1-interactions-0064 | regrounded | KDT8 PDF p38 |
+rf-p1-interactions-0065 | corrected | KDT8 PDF p574 | Dropped "arrhythmias"; page states raised levels and toxicity
+rf-p1-interactions-0066 | unsourced | - | Digoxin excretion effect of rifampicin not found in books
+rf-p1-interactions-0069 | corrected | KDT8 PDF p828 | Books: isoniazid inhibits CYP2C19 and CYP3A4 (not "all except CYP2E1"); it induces CYP2E1 per KDT8 p50
+rf-p1-interactions-0070 | regrounded | GG14 PDF p178, KDT8 PDF p47 |
+rf-p1-interactions-0071 | corrected | KDT8 PDF p366 | Books say switch to 50 µg ethinylestradiol or alternative method; "increase estrogen dose" not stated
+rf-p1-interactions-0072 | corrected | KDT8 PDF p683 | "Replace with heparin" not in books, dropped
+rf-p1-interactions-0073 | corrected | KDT8 PDF p876, KDT8 PDF p50 | "Strongest" and "irreversible" not in books; books say potent CYP3A4 inhibitor used as booster
+rf-p1-interactions-0074 | corrected | KDT8 PDF p869 | Books say do not combine (P-gp substrate); "reduces effect" reworded
+rf-p1-interactions-0075 | unsourced | - | Valproate as CYP inhibitor not found in books
+rf-p1-interactions-0076 | regrounded | KDT8 PDF p50 |
+rf-p1-interactions-0114 | regrounded | GG14 PDF p314 |
+rf-p1-interactions-0116 | unsourced | - | Ephedrine with MAOI hypertensive crisis not found in books
+rf-p1-interactions-0117 | corrected | KDT8 PDF p819 | Tramadol not found; linezolid is a weak MAOI causing serotonin syndrome with SSRIs
+rf-p1-interactions-0118 | corrected | GG14 PDF p371 | "Never combine" changed to "avoid combining" (book wording)
+rf-p1-interactions-0119 | corrected | GG14 PDF p371 | Kept 14 days; fluoxetine and SNRI intervals removed (book gives them in the reverse direction or unclear)
+rf-p1-interactions-0121 | corrected | KDT8 PDF p727 | Astemizole and terfenadine not found; cisapride only; banned in India 2011

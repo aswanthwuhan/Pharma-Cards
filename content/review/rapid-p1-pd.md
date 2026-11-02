@@ -237,3 +237,29 @@ rf-p1-pd-0215 | ok | KDT8 ch4
 rf-p1-pd-0216 | ok | KDT8 ch4
 rf-p1-pd-0217 | ok | Prep p61-65
 rf-p1-pd-0218 | ok | KDT8 ch4; GG14 ch3
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p1-pd-0077 | corrected | KDT8 PDF p443; GG14 PDF p338; KDT8 PDF p174 | rimonabant removed (GG14 p342 calls it a CB1 antagonist); tiprolisant and seizure detail dropped
+rf-p1-pd-0078 | corrected | Harrison21 PDF p661; Bennett & Brown Clin Pharmacol PDF p117 | superagonist definition not found in books; q narrowed to GnRH superagonist examples; histrelin, buserelin dropped
+rf-p1-pd-0092 | regrounded | GG14 PDF p174 | Prep label removed from q
+rf-p1-pd-0093 | corrected | KDT8 PDF p59; GG14 PDF p174 | antipsychotics dropped (not in TDM list)
+rf-p1-pd-0095 | corrected | KDT8 PDF p684; KDT8 PDF p677 | insulin and clonidine dropped (no monitoring source found)
+rf-p1-pd-0096 | corrected | KDT8 PDF p59; GG14 PDF p411; Bennett & Brown Clin Pharmacol PDF p103 | "toxicity not easily observed" dropped
+rf-p1-pd-0101 | corrected | GG14 PDF p174 | efficacy and potency clause dropped
+rf-p1-pd-0102 | regrounded | GG14 PDF p174; GG14 PDF p72 |
+rf-p1-pd-0103 | regrounded | GG14 PDF p174 |
+rf-p1-pd-0104 | corrected | KDT8 PDF p82 | book defines therapeutic range by minimal effect and maximal acceptable adverse effect, not ED50/TD50
+rf-p1-pd-0123 | regrounded | KDT8 PDF p684 | chemistry parenthetical dropped
+rf-p1-pd-0124 | regrounded | KDT8 PDF p670 |
+rf-p1-pd-0135 | corrected | KDT8 PDF p64 | "lines cross" dropped (not found)
+rf-p1-pd-0136 | corrected | KDT8 PDF p64 | "lines do not cross" dropped (not found)
+rf-p1-pd-0137 | regrounded | Katzung16 PDF p39; Katzung16 PDF p40 |
+rf-p1-pd-0147 | corrected | KDT8 ch4; KDT8 PDF p75 | IGF, PDGF, FGF dropped (not in listed receptors)
+rf-p1-pd-0159 | regrounded | GG14 PDF p965; GG14 PDF p106; GG14 PDF p978; GG14 PDF p1027; GG14 PDF p1073 | RR5 ref removed; members checked per page
+rf-p1-pd-0169 | corrected | KDT8 PDF p75; GG14 PDF p196; GG14 PDF p605; GG14 PDF p1058 | hypothalamic/pituitary, somatostatin and GH/prolactin items dropped (not found as GPCR statements); glucagon item is the glucagon receptor family
+rf-p1-pd-0170 | corrected | Katzung16 PDF p47; GG14 PDF p332 | "lowers cGMP" dropped; olfactory stated as Golf
+rf-p1-pd-0171 | regrounded | KDT8 PDF p75; GG14 PDF p196 |
+rf-p1-pd-0172 | regrounded | KDT8 PDF p940; KDT8 PDF p941; KDT8 PDF p942; GG14 PDF p1358; GG12 PDF p1695 |
+rf-p1-pd-0173 | regrounded | KDT8 PDF p940 |
+rf-p1-pd-0217 | corrected | KDT8 PDF p604; GG14 PDF p70 | tachycardia dropped (not found); supersensitivity from GG14 general statement

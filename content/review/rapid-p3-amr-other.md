@@ -430,3 +430,7 @@ Sources: KDT8 ch53-55 (full text read). GG14 facts reused from the validated stu
 | rf-p3-amr-other-0406 | ok | KDT8 ch55 |
 | rf-p3-amr-other-0407 | ok | KDT8 ch55 |
 | rf-p3-amr-other-0408 | ok | KDT8 ch55 |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+rf-p3-amr-other-0346 | regrounded | GG14 PDF p1196 | -
