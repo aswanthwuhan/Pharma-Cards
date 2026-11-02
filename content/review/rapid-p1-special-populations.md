@@ -102,3 +102,21 @@ Gap from SOURCE-GAPS.md: General Child-Pugh dose-adjustment approach (no percent
 | rf-p1-special-populations-0288 | unsourced | UNSOURCED - owner must verify |
 | rf-p1-special-populations-0289 | unsourced | UNSOURCED - owner must verify |
 | rf-p1-special-populations-0290 | unsourced | UNSOURCED - owner must verify |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+- rf-p1-special-populations-0248 | regrounded | GG14 PDF p259 | hydrolysis by butyrylcholinesterase; page text cut off before liver, wording kept
+- rf-p1-special-populations-0249 | unsourced | - | no book found stating renal failure as unsafe for succinylcholine
+- rf-p1-special-populations-0250 | regrounded | KDT8 PDF p839, KDT8 PDF p1007 | streptomycin + ethambutol as non-hepatotoxic
+- rf-p1-special-populations-0251 | unsourced | - | hepatotoxicity ranking order not found (books list H, R, Z as hepatotoxic only)
+- rf-p1-special-populations-0252 | regrounded | KDT8 PDF p839, KDT8 PDF p1007 | streptomycin + levofloxacin + ethambutol
+- rf-p1-special-populations-0253 | unsourced | - | reintroduction order not found
+- rf-p1-special-populations-0254 | unsourced | - | liver-disease fluoroquinolone list not found
+- rf-p1-special-populations-0255 | unsourced | - | trovafloxacin withdrawal not found in GG14/GG12 quinolone text
+
+## Opus check of A10 pass (2026-11-02)
+- 0251 corrected: Case-Based Learning p225 ranks pyrazinamide then rifampicin as most hepatotoxic (card had isoniazid second).
+- 0253 re-grounded: rechallenge order rifampicin, isoniazid, pyrazinamide (Case-Based Learning p225).
+- 0254 rewritten: pefloxacin dose cut in liver disease (KDT8 PDF p774); trovafloxacin withdrawn for hepatotoxicity (GG14 PDF p1160). "Removed in bile" claim dropped.
+- 0255 corrected: withdrawn from US market (GG14 PDF p1160), not "banned".
+- 0249 (succinylcholine in renal failure) still unsourced.

@@ -92,3 +92,14 @@ Gap from SOURCE-GAPS.md: Prescription-audit method (planning, sampling, scoring,
 | rf-p3-clinical-services-0246 | unsourced | UNSOURCED - owner must verify |
 | rf-p3-clinical-services-0247 | unsourced | UNSOURCED - owner must verify |
 | rf-p3-clinical-services-0248 | unsourced | UNSOURCED - owner must verify |
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+- rf-p3-clinical-services-0017 | unsourced | - | pharmacopoeia/formulary text not in allowed books (only BNF mentions found)
+- rf-p3-clinical-services-0018 | unsourced | - | pharmacopoeia/formulary text not in allowed books (only BNF mentions found)
+- rf-p3-clinical-services-0019 | unsourced | - | pharmacopoeia/formulary text not in allowed books (only BNF mentions found)
+- rf-p3-clinical-services-0020 | unsourced | - | pharmacopoeia/formulary text not in allowed books (only BNF mentions found)
+- rf-p3-clinical-services-0021 | unsourced | - | pharmacopoeia/formulary text not in allowed books (only BNF mentions found)
+
+## Opus check of A10 pass (2026-11-02)
+- 0017-0021 re-grounded in KDT8 PDF p22 (drug compendia; IP, BP, USP, NFI) and Padmaja PDF p95. 0017 and 0018 answers reworded to what KDT8 prints (melting point and shelf-life details dropped).

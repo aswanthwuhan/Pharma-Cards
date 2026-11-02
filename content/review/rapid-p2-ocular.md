@@ -70,3 +70,8 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 Skipped or handled elsewhere:
 - p2-ocular-042 (chloroquine bull's-eye maculopathy) already covered by an existing card ("Bull's-eye maculopathy with fall in visual acuity"). Not repeated.
 - p2-ocular-043 Ocusert fact carded in p1-drug-delivery (rf-p1-drug-delivery) to avoid repeating it here.
+
+## PrepLadder removal and PDF re-grounding (2026-11-02)
+
+- rf-p2-ocular-0272 | corrected | GG14 PDF p1481 | source lists cataract as a risk for echothiophate but does not rank it as greatest; question reworded
+- rf-p2-ocular-0273 | unsourced | - | ciliary spasm and tearing/punctal stenosis not found; retinal tears only in GG12 PDF p1812
