@@ -86,3 +86,13 @@ Written from standard textbook knowledge under the 2026-11-02 exception. Refs ca
 - rf-pr-long-exercise-0048: Naranjo total score for "definite"
 - rf-pr-long-exercise-0049: Naranjo total score for "probable"
 - rf-pr-long-exercise-0050: WHO-UMC causality categories
+
+## Re-grounding pass (2026-11-02)
+
+Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-grounded cards show their source; cards not listed here keep UNSOURCED.
+
+| id | status | source |
+|---|---|---|
+| rf-pr-long-exercise-0050 | rapid, re-grounded (answer corrected) | IJP 2014 Naranjo vs WHO-UMC (PMC3912795) |
+
+Still unsourced after this pass (11): rf-pr-long-exercise-0007, rf-pr-long-exercise-0008, rf-pr-long-exercise-0021, rf-pr-long-exercise-0022, rf-pr-long-exercise-0029, rf-pr-long-exercise-0030, rf-pr-long-exercise-0031, rf-pr-long-exercise-0032, rf-pr-long-exercise-0035, rf-pr-long-exercise-0048, rf-pr-long-exercise-0049

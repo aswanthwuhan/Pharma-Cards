@@ -49,8 +49,12 @@ export const isRapid = (c: FlashCard) => c.type === "rapid";
 export async function computeMastery(cards?: FlashCard[]): Promise<MasteryReport> {
   // Rapid-fire pairs are thousands of tiny facts; they get their own progress and would swamp coverage here.
   const list = (cards ?? (await loadStudyCards())).filter((c) => !isRapid(c));
-  const [states, reviews] = await Promise.all([db.cardStates.toArray(), db.reviews.toArray()]);
   const now = new Date();
+  // shortcut: only the last year of reviews feeds accuracy (older ones carry ~0 decay weight); widen if exams span longer.
+  const [states, reviews] = await Promise.all([
+    db.cardStates.toArray(),
+    db.reviews.where("at").aboveOrEqual(now.getTime() - 365 * 86_400_000).toArray(),
+  ]);
   // A card whose last answer was "Forgot" is not remembered, even though FSRS reports high
   // recall straight after seeing the answer. Count it as 0 until it is recalled correctly.
   const recall = new Map(states.map((s) => [s.cardId, s.lastRating === 1 ? 0 : recallProbability(s, now)]));
@@ -176,7 +180,7 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       const due = cards
         .filter((c) => (states.get(c.id)?.due ?? Infinity) <= now.getTime())
         .sort((a, b) => states.get(a.id)!.due - states.get(b.id)!.due);
-      const newLimit = await dailyNewTarget(cards, states.size);
+      const newLimit = await dailyNewTarget(cards, states);
       const reviewedToday = await db.reviews.where("at").aboveOrEqual(startOfDay()).toArray();
       const newDoneToday = new Set(reviewedToday.filter((r) => r.mode === "daily-new").map((r) => r.cardId)).size;
       const { subtopic } = await computeMastery(cards);
@@ -197,14 +201,16 @@ export function startOfDay(d = new Date()) {
 }
 
 /** Exam planner: spread unseen cards over the days left, keeping the final 10 days for revision. */
-export async function dailyNewTarget(cards: FlashCard[], seenCount: number): Promise<number> {
+/** `seen` holds the ids that have a state; only those among `cards` count, so Rapid/`~r` states are ignored. */
+export async function dailyNewTarget(cards: FlashCard[], seen: { has(id: string): boolean }): Promise<number> {
   const examDate = await getSetting<string | null>("examDate", null);
   const fallback = await getSetting<number>("newPerDay", 20);
   if (!examDate) return fallback;
-  const unseen = Math.max(0, cards.length - seenCount);
+  const unseen = cards.filter((c) => !seen.has(c.id)).length;
   const [y, m, d] = examDate.split("-").map(Number);
   const days = Math.ceil((new Date(y, m - 1, d).getTime() - Date.now()) / 86_400_000) - 10;
-  if (days <= 0) return 0;
+  // Revision window (or exam passed): fall back to the normal daily limit instead of 0 forever.
+  if (days <= 0) return Math.min(fallback, unseen);
   return Math.max(5, Math.ceil(unseen / days));
 }
 

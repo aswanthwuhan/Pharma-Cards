@@ -24,9 +24,15 @@ export const viewport: Viewport = {
   interactiveWidget: "resizes-content",
 };
 
+const THEME_SCRIPT = `try{var s=JSON.parse(localStorage.getItem("pharmacards:theme")||"{}"),t=s.theme||"dark",r=document.documentElement;r.dataset.theme=t==="auto"?(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"):t;r.dataset.palette=s.palette||"petrol"}catch(e){}`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${hanken.variable} ${newsreader.variable} ${jetbrains.variable}`}>
+    <html lang="en" className={`${hanken.variable} ${newsreader.variable} ${jetbrains.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Apply the saved theme before first paint (settings live in async IndexedDB; ThemeApplier mirrors them here). */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="min-h-dvh">
         <ThemeApplier />
         <RegisterSW />

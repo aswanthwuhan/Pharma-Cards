@@ -101,10 +101,10 @@
     {
       "id": "pr-long-exercise-005",
       "type": "basic",
-      "front": "Rat isolated preparations: which tissues are used and for which agonists?",
-      "back": "Rat uterus (usually from an oestrogen-primed rat) contracts to oxytocin and is the classical tissue for oxytocin assay. The rat stomach fundus strip is very sensitive to 5-HT. These details are textbook-standard but not printed in the owner's books.",
+      "front": "Rat isolated gastric fundus: which 5-HT receptor mediates its contraction?",
+      "back": "5-HT2B receptor. The 5-HT2 receptor subtypes all couple to Gq, activate phospholipase C and generate IP3 and DAG; contraction of the rat gastric fundus is mediated by 5-HT2B.",
       "refs": [
-        "UNSOURCED - owner must verify"
+        "KDT8 ch12"
       ],
       "pyq": [],
       "status": "draft",
@@ -270,6 +270,8 @@
       "front": "Define pD2 and pA2.",
       "back": "pD2: the negative log of the molar EC50 of an agonist; a higher pD2 means a more potent agonist. pA2: the negative log of the molar concentration of an antagonist that makes it necessary to double the agonist concentration to get the original response (dose ratio 2). pA2 measures antagonist affinity. The NMC expects candidates to determine EC50, ED50, pD2 and pA2.",
       "refs": [
+        "RangDale9 ch2",
+        "GG14 ch3",
         "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
         "UNSOURCED - owner must verify"
       ],
@@ -710,10 +712,10 @@
       "id": "pr-long-exercise-031",
       "type": "basic",
       "front": "List the WHO-UMC causality categories.",
-      "back": "Certain; probable/likely; possible; unlikely; conditional/unclassified; unassessable/unclassifiable. Prep names the Naranjo and WHO-UMC scales; the category names here are standard but not printed in the owner's books.",
+      "back": "Certain; probable; possible; unlikely; unclassified; unclassifiable.",
       "refs": [
         "Prep p71-75",
-        "UNSOURCED - owner must verify"
+        "WEB Indian J Pharmacol Agreement between Naranjo algorithm and WHO-UMC criteria for causality assessment 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC3912795/"
       ],
       "pyq": [],
       "status": "draft",
@@ -838,6 +840,36 @@
       "subtopic": "pr-long-exercise-appraisal",
       "tags": [
         "classification"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-037",
+      "type": "basic",
+      "front": "How well do the Naranjo and WHO-UMC causality scales agree?",
+      "back": "Poorly overall, in one Indian comparison. Agreement was highest for the 'possible' category and absent for 'certain'. Both are widely used pharmacovigilance tools.",
+      "refs": [
+        "WEB Indian J Pharmacol Agreement between Naranjo algorithm and WHO-UMC criteria for causality assessment 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC3912795/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-adr-audit",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "pr-long-exercise-038",
+      "type": "basic",
+      "front": "Why are participants randomised in a clinical trial?",
+      "back": "Random allocation gives every participant an equal chance of being put in each group, so the groups are similar at baseline. This removes selection bias and protects against accidental bias that could distort the result.",
+      "refs": [
+        "Sarkar p201-205"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-long-exercise-protocol",
+      "tags": [
+        "uses"
       ]
     }
   ]

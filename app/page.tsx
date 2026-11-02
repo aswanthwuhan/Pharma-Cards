@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useSettings } from "@/lib/settings";
-import { useMastery, weakest } from "@/lib/store";
+import { startOfDay, useMastery, weakest } from "@/lib/store";
 import { PAPERS, subtopicById } from "@/lib/syllabus";
 import { PaperCard, paperLabel } from "@/components/today/PaperCard";
 import { PaperSheet } from "@/components/today/PaperSheet";
@@ -36,7 +36,9 @@ export default function Today() {
   const needsDiagnostic = data ? !data.diagnosed : false;
 
   const { examDate, examName } = settings;
-  const daysLeft = examDate ? Math.ceil((new Date(examDate).getTime() - Date.now()) / DAY_MS) : null;
+  // "YYYY-MM-DD" is a local calendar day; new Date(iso) would read it as UTC midnight.
+  const [ey, em, ed] = (examDate ?? "").split("-").map(Number);
+  const daysLeft = examDate ? Math.round((new Date(ey, em - 1, ed).getTime() - startOfDay()) / DAY_MS) : null;
   const examChip =
     daysLeft === null
       ? null

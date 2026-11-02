@@ -1,15 +1,21 @@
 "use client";
 
 import { useEffect } from "react";
-import { useSettings } from "@/lib/settings";
+import { DEFAULT_SETTINGS, useSettings } from "@/lib/settings";
 
 /**
  * Applies the chosen mode, palette and motion setting to <html data-theme data-palette data-motion>.
  * "auto" follows the device's light/dark setting and updates live when it changes.
  */
 export function ThemeApplier() {
-  const { theme, palette, motion } = useSettings();
+  const settings = useSettings();
+  const { theme, palette, motion } = settings;
+  const loaded = settings !== DEFAULT_SETTINGS; // useSettings hands back the defaults object until Dexie answers
   useEffect(() => {
+    if (!loaded) return; // the inline script in <head> has already applied the saved theme
+    try {
+      localStorage.setItem("pharmacards:theme", JSON.stringify({ theme, palette })); // read by that script on next load
+    } catch {}
     const mq = window.matchMedia("(prefers-color-scheme: light)");
     const apply = () => {
       const mode = theme === "auto" ? (mq.matches ? "light" : "dark") : theme;
@@ -25,6 +31,6 @@ export function ThemeApplier() {
     if (theme !== "auto") return;
     mq.addEventListener("change", apply);
     return () => mq.removeEventListener("change", apply);
-  }, [theme, palette, motion]);
+  }, [loaded, theme, palette, motion]);
   return null;
 }

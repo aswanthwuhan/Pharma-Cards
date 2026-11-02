@@ -14,7 +14,29 @@ const TAGS = new Set([
   "mechanism", "classification", "pk", "uses", "adr",
   "interactions", "contraindications", "poisoning", "newer-drugs", "dosing",
 ]);
+const STATUSES = new Set(["draft", "approved"]);
+const blank = (v) => typeof v !== "string" || !v.trim();
+// Topic ids the app knows (lib/syllabus.ts is TS, so read the ids from its tuple rows).
+const TOPIC_IDS = new Set(
+  [...readFileSync(join(process.cwd(), "lib", "syllabus.ts"), "utf8").matchAll(/^\s*\["([a-z0-9-]+)",/gm)].map((m) => m[1]),
+);
 const errors = [];
+
+/** Checks shared by study and rapid cards. */
+function commonErrors(c, where) {
+  const out = [];
+  if (typeof c.id === "string" && c.id.includes("~")) out.push(`${where}: id must not contain ~ (reserved for reversed rapid cards)`);
+  if (c.status !== undefined && !STATUSES.has(c.status)) out.push(`${where}: bad status ${c.status}`);
+  if (c.refs !== undefined && (!Array.isArray(c.refs) || !c.refs.length || c.refs.some(blank))) out.push(`${where}: refs must be non-empty strings`);
+  if (c.pyq !== undefined) {
+    if (!Array.isArray(c.pyq)) out.push(`${where}: pyq must be an array`);
+    else
+      for (const q of c.pyq)
+        if (blank(q?.university) || typeof q.year !== "number" || (q.marks !== undefined && typeof q.marks !== "number"))
+          out.push(`${where}: pyq needs string university, number year, optional number marks`);
+  }
+  return out;
+}
 const readJson = (file) => {
   try {
     return JSON.parse(readFileSync(file, "utf8"));
@@ -46,6 +68,7 @@ for (const file of readdirSync(deckDir).filter((f) => f.endsWith(".json")).sort(
   const deck = readJson(join(deckDir, file));
   if (!deck) continue;
   if (!deck.topicId) errors.push(`${file}: missing topicId`);
+  else if (!TOPIC_IDS.has(deck.topicId)) errors.push(`${file}: topic ${deck.topicId} not in lib/syllabus.ts`);
   const subIds = new Set((subtopics[deck.topicId] ?? []).map((s) => s.id));
   if (!subIds.size) errors.push(`${file}: no content/subtopics/${deck.topicId}.json`);
   for (const c of deck.cards ?? []) {
@@ -54,10 +77,12 @@ for (const file of readdirSync(deckDir).filter((f) => f.endsWith(".json")).sort(
     else if (ids.has(c.id)) errors.push(`${where}: duplicate id`);
     ids.add(c.id);
     if (!TYPES.has(c.type)) errors.push(`${where}: bad type ${c.type}`);
-    if (!c.front) errors.push(`${where}: missing front`);
-    if (c.type === "basic" && !c.back) errors.push(`${where}: basic needs back`);
+    if (blank(c.front)) errors.push(`${where}: missing front`);
+    if (c.type === "basic" && blank(c.back)) errors.push(`${where}: basic needs back`);
     if ((c.type === "shortnote" || c.type === "essay") && !c.sections?.length)
       errors.push(`${where}: ${c.type} needs sections`);
+    for (const sec of c.sections ?? []) if (!Array.isArray(sec?.points)) errors.push(`${where}: section "${sec?.h}" needs a points array`);
+    errors.push(...commonErrors(c, where));
     if (c.type === "cloze" && !/\{\{.+?\}\}/.test(c.text ?? "")) errors.push(`${where}: cloze needs {{blanks}}`);
     if (subIds.size && !subIds.has(c.subtopic)) errors.push(`${where}: unknown subtopic ${c.subtopic}`);
     if (!Array.isArray(c.tags) || !c.tags.length || c.tags.length > 3) errors.push(`${where}: needs 1-3 tags`);
@@ -75,12 +100,14 @@ for (const file of readdirSync(rapidDir).filter((f) => f.endsWith(".json")).sort
   if (!deck) continue;
   const subIds = new Set((subtopics[deck.topicId] ?? []).map((s) => s.id));
   if (!subIds.size) errors.push(`rapid/${file}: unknown topic ${deck.topicId}`);
+  if (!TOPIC_IDS.has(deck.topicId)) errors.push(`rapid/${file}: topic ${deck.topicId} not in lib/syllabus.ts`);
   for (const c of deck.cards ?? []) {
     const where = `rapid/${file}:${c.id ?? "?"}`;
     if (!c.id?.startsWith(`rf-${deck.topicId}-`)) errors.push(`${where}: id must start with rf-${deck.topicId}-`);
     else if (ids.has(c.id)) errors.push(`${where}: duplicate id`);
     ids.add(c.id);
-    if (!c.q || !c.a) errors.push(`${where}: needs q and a`);
+    if (blank(c.q) || blank(c.a)) errors.push(`${where}: needs q and a`);
+    errors.push(...commonErrors(c, where));
     if (!subIds.has(c.subtopic)) errors.push(`${where}: unknown subtopic ${c.subtopic}`);
     if (!Array.isArray(c.refs) || !c.refs.length) errors.push(`${where}: refs required`);
     for (const t of c.tags ?? []) if (!TAGS.has(t)) errors.push(`${where}: unknown tag ${t}`);

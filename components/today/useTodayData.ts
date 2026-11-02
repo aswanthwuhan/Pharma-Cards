@@ -2,7 +2,7 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "@/lib/db";
-import { dailyNewTarget, loadStudyCards, startOfDay } from "@/lib/store";
+import { dailyNewTarget, isRapid, loadStudyCards, startOfDay } from "@/lib/store";
 
 export interface SessionPoint {
   at: number;
@@ -33,29 +33,33 @@ export function useTodayData(): TodayData | undefined {
     async (): Promise<TodayData> => {
       const now = Date.now();
       const todayStart = startOfDay(new Date(now));
-      const [cards, states, weekReviews, snapshots, diagnosticCount] = await Promise.all([
+      const [allCards, allStates, weekReviews, snapshots, diagnostic] = await Promise.all([
         loadStudyCards(),
         db.cardStates.toArray(),
         db.reviews.where("at").aboveOrEqual(now - 7 * DAY_MS).toArray(),
         db.snapshots.orderBy("at").toArray(),
-        db.reviews.filter((r) => r.mode === "diagnostic").count(),
+        db.reviews.filter((r) => r.mode === "diagnostic").first(), // stops at the first match, no full count
       ]);
 
+      // Rapid cards (and their "~r" reverse states) have their own queue; the daily numbers ignore them.
+      const cards = allCards.filter((c) => !isRapid(c));
       const studyIds = new Set(cards.map((c) => c.id));
+      const states = allStates.filter((s) => studyIds.has(s.cardId));
       const stateIds = new Set(states.map((s) => s.cardId));
 
-      const due = states.filter((s) => studyIds.has(s.cardId) && s.due <= now);
+      const due = states.filter((s) => s.due <= now);
       const overdue = due.filter((s) => s.due < todayStart).length;
       const dueTotal = due.length;
 
-      const newLimit = await dailyNewTarget(cards, states.length);
+      const newLimit = await dailyNewTarget(cards, stateIds);
       const newDone = new Set(weekReviews.filter((r) => r.at >= todayStart && r.mode === "daily-new").map((r) => r.cardId)).size;
       const unseen = cards.filter((c) => !stateIds.has(c.id)).length;
       const newToday = Math.min(Math.max(0, newLimit - newDone), unseen);
 
-      const n = weekReviews.length;
-      const avgSeconds = n ? weekReviews.reduce((a, r) => a + r.ms, 0) / n / 1000 : null;
-      const accuracy = n ? weekReviews.filter((r) => r.rating >= 3).length / n : null;
+      const studyWeek = weekReviews.filter((r) => studyIds.has(r.cardId));
+      const n = studyWeek.length;
+      const avgSeconds = n ? studyWeek.reduce((a, r) => a + r.ms, 0) / n / 1000 : null;
+      const accuracy = n ? studyWeek.filter((r) => r.rating >= 3).length / n : null;
 
       const sessions = snapshots.flatMap((s) => {
         const vals = Object.values(s.scores).filter((v): v is number => v != null);
@@ -74,7 +78,7 @@ export function useTodayData(): TodayData | undefined {
         seen: cards.filter((c) => stateIds.has(c.id)).length,
         total: cards.length,
         sessions,
-        diagnosed: diagnosticCount > 0,
+        diagnosed: diagnostic !== undefined,
       };
     },
     [],

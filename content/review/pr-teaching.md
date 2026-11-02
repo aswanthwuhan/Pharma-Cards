@@ -64,3 +64,40 @@ Written from standard textbook knowledge under the 2026-11-02 exception. Refs ca
 - pr-teaching-026: Describe Pendleton's rules for giving feedback.
 - pr-teaching-027: What is the "sandwich" method of feedback, and its drawback?
 - pr-teaching-028: What do examiners look for in a presentation?
+
+## Re-grounding pass (2026-11-02)
+
+Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-grounded cards show their source; cards not listed here keep UNSOURCED.
+
+| id | status | source |
+|---|---|---|
+| pr-teaching-008 | partly supported (components not all in source), UNSOURCED kept | IJP 2023 Microteaching overview (PMC10657622) |
+| pr-teaching-009 | re-grounded (answer corrected) | IJP 2023 Microteaching overview (PMC10657622) |
+| pr-teaching-010 | re-grounded (cycle corrected) | IJP 2023 Microteaching overview (PMC10657622) |
+| pr-teaching-011 | re-grounded (skill list corrected) | IJP 2023 Microteaching overview (PMC10657622) |
+| pr-teaching-012 | partly supported, UNSOURCED kept | IJP 2023 Microteaching overview (PMC10657622) |
+| pr-teaching-018 | partly supported, UNSOURCED kept | IJP 2023 Microteaching overview (PMC10657622) |
+| pr-teaching-021 | re-grounded (answer corrected to source's criteria) | IJP 2017 OSPE standardization and validation (PMC5754933) |
+| pr-teaching-025 | partly supported, UNSOURCED kept | Br J Clin Pharmacol 2026 formative feedback (PMC13421061), partial |
+| pr-teaching-026 | re-grounded (answer corrected: no action-plan step) | BMC Med Educ 2020 Feedback in the clinical setting (PMC7712594) |
+| pr-teaching-027 | re-grounded (drawback corrected) | Cureus 2026 Joseph-RATA feedback (PMC13589777) |
+| pr-teaching-030 | NEW card | Cureus 2026 structured viva (PMC13279708) |
+
+Still unsourced after this pass (16): pr-teaching-002, pr-teaching-003, pr-teaching-004, pr-teaching-005, pr-teaching-006, pr-teaching-007, pr-teaching-008, pr-teaching-012, pr-teaching-016, pr-teaching-017, pr-teaching-018, pr-teaching-022, pr-teaching-023, pr-teaching-024, pr-teaching-025, pr-teaching-028
+
+## Haiku pass (2026-11-02)
+
+Checked every card with refs exactly `["UNSOURCED - owner must verify"]` (9 cards: 002, 003, 005, 006, 017, 022, 023, 024, 028) against practical-sources 01-08 (INDEX.md). No subtopic under 4 cards (objectives 7, lesson-plan 5, methods-aids 7, assessment 6, feedback 5), so no cards added. Deck: 30 cards before, 30 after. No ids renumbered.
+
+| id | status | source |
+|---|---|---|
+| pr-teaching-028 | re-grounded (front reworded; back cut to the criteria the source lists; eye contact and voice removed as unsupported) | IJP 2023 Microteaching overview (PMC10657622) |
+| pr-teaching-022 | partly supported (blueprint step), UNSOURCED kept | IJP 2017 OSPE standardization and validation (PMC5754933) |
+| pr-teaching-024 | partly supported (predefined scoring, standard questions), UNSOURCED kept | Cureus 2026 structured viva (PMC13279708) |
+| pr-teaching-002, 003, 005, 006, 017, 023 | no support in sources (INDEX.md: Bloom and SMART/ABCD not found), UNSOURCED kept | - |
+
+Still UNSOURCED-only (6): pr-teaching-002, 003, 005, 006, 017, 023. Partly sourced with UNSOURCED kept (2): 022, 024.
+
+## Opus audit (2026-11-02)
+No ids changed. Medical-education content (SMART, ABCD, Bloom, lesson plan, AV aids, slides, MCQ, essay, feedback) is not in KDT8, GG14, Katzung16 or RangDale9.
+Still UNSOURCED: 002, 003, 004, 005, 006, 007, 008, 012, 016, 017, 018, 022, 023, 024, 025. Reason: no owner book covers teaching methods; WEB refs support only the parts named in their refs.

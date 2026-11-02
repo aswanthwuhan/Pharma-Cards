@@ -112,7 +112,18 @@
         "GG14 ch2",
         "RangDale9 ch9"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p1-drug-delivery-rationale",
       "tags": [
@@ -430,7 +441,13 @@
       "refs": [
         "RangDale9 ch9"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p1-drug-delivery-targeted",
       "tags": [
@@ -859,6 +876,118 @@
       "tags": [
         "uses"
       ]
+    },
+    {
+      "id": "p1-drug-delivery-047",
+      "type": "shortnote",
+      "front": "Short note: Chronopharmacology and timing of drug therapy",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Chronopharmacology studies how daily biological rhythms change drug action",
+            "The same dose can act differently depending on the time of day it is given"
+          ]
+        },
+        {
+          "h": "Rhythms that matter",
+          "points": [
+            "Cortisol secretion follows a circadian rhythm, peaking in early morning",
+            "Tissue sensitivity to glucocorticoids runs opposite to cortisol: highest in evening and early night"
+          ]
+        },
+        {
+          "h": "Timing examples",
+          "points": [
+            "A single morning corticosteroid dose causes less pituitary-adrenal suppression",
+            "Hypnotics work more easily when taken at night in quiet surroundings",
+            "Statins inhibit cholesterol synthesis more when taken in the late evening",
+            "Timing relative to meals also changes absorption of some drugs"
+          ]
+        },
+        {
+          "h": "Implications for therapy",
+          "points": [
+            "Choose the dosing time to limit side effects such as adrenal suppression",
+            "Timed-release forms can copy the natural daily pattern, as timed hydrocortisone tablets do in replacement therapy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch39"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "dosing",
+        "pk"
+      ],
+      "subtopic": "p1-drug-delivery-rationale",
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-048",
+      "type": "shortnote",
+      "front": "Short note: Targeted drug delivery in cancer therapy",
+      "sections": [
+        {
+          "h": "Aim",
+          "points": [
+            "Improve selectivity of cytotoxic drugs so they reach tumour cells",
+            "Limit damage to normal tissue"
+          ]
+        },
+        {
+          "h": "Antibody-drug conjugates",
+          "points": [
+            "Cytotoxic drug or toxin linked to an antibody against a tumour-specific antigen",
+            "Ado-trastuzumab emtansine: metastatic breast cancer; brentuximab vedotin: Hodgkin's lymphoma"
+          ]
+        },
+        {
+          "h": "Liposomes",
+          "points": [
+            "Vesicles of about 0.1 to 1 micrometre; carry non-lipid-soluble drugs",
+            "Concentrate in malignant tumours; taken up by reticuloendothelial cells, mainly in liver",
+            "Several liposomal chemotherapy formulations are available"
+          ]
+        },
+        {
+          "h": "Prodrugs and newer systems",
+          "points": [
+            "Cyclophosphamide is active only after hepatic activation, so it can be given orally",
+            "Nanoparticles and biocompatible polymers are recent advances in delivery"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 ch9",
+        "GG14 ch2"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "status": "draft"
     }
   ]
 }

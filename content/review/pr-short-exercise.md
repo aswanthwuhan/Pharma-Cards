@@ -52,3 +52,30 @@ Written from standard textbook knowledge under the 2026-11-02 exception. Refs ca
 - pr-short-exercise-011: Essay: Judging the rationality of a given fixed-dose combination (exam approach)
 - pr-short-exercise-033: Tracing exercise: what do you look for in a given kymograph or physiograph record?
 - pr-short-exercise-034: Computer-assisted learning (CAL) and simulated experiments: why are they used?
+
+## Re-grounding pass (2026-11-02)
+
+Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-grounded cards show their source; cards not listed here keep UNSOURCED.
+
+| id | status | source |
+|---|---|---|
+| pr-short-exercise-034 | re-grounded (wording corrected: 'absolute replacement' removed) | IJP 2014 Animal use in pharmacology education (PMC4071700); JNSBM 2017 CAL vs conventional (PMC5523525); Immunohorizons 2026 non-animal models (PMC13391161) |
+| pr-short-exercise-036 | NEW card | IJP 2014 Animal use in pharmacology education (PMC4071700) |
+| pr-short-exercise-037 | NEW card | IJP 2014 Animal use in pharmacology education (PMC4071700) |
+
+Still unsourced after this pass (3): pr-short-exercise-001, pr-short-exercise-011, pr-short-exercise-033
+
+## Haiku pass (2026-11-02)
+
+- Cards before: 37. Cards after: 37. Deleted: 0. Added: 0 (every subtopic already has 4 or more cards).
+- Re-grounded: 0. No card has refs exactly `["UNSOURCED - owner must verify"]`. 001, 011 and 033 carry the marker with a partial book ref, so they were left unchanged.
+- Changed: pr-short-exercise-018. Maintenance corrected from about 984 to about 987 mg/day (41.14 mg/h x 24). Removed the unverified "KDT suggests 400 mg morning / 600 mg evening" sentence (not found in the KDT8 appendix text). Refs changed from `KDT8 ch3, KDT8 app1` to `KDT8 ch3`.
+- Checked, correct, no change: 014, 015, 016, 017, 019, 020 (KDT8 ch3 lists phenytoin, tolbutamide, theophylline, warfarin as zero-order at high dose), 022, 024, 025 (OR 25), 026 (NNT 4).
+- Still UNSOURCED marker: 001, 011, 033 (3).
+
+## Opus audit (2026-11-02)
+No ids changed.
+Still UNSOURCED:
+- 001: Katzung16 ch66 supports prescriber, date, patient, body, directions, refills, warning labels; the Latin layout (superscription, inscription, subscription, signa) is in no book.
+- 011: FDC exam approach goes beyond KDT8 ch5.
+- 033: tracing-reading checklist; no book describes it.

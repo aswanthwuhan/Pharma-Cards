@@ -63,3 +63,32 @@ Written from standard textbook knowledge under the 2026-11-02 exception. Refs ca
 - pr-long-exercise-022: What are the main sources of error in bioassay, and how does the design control them?
 - pr-long-exercise-029: Essay: ADR causality assessment exercise for a given case
 - pr-long-exercise-031: List the WHO-UMC causality categories.
+
+## Re-grounding pass (2026-11-02)
+
+Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-grounded cards show their source; cards not listed here keep UNSOURCED.
+
+| id | status | source |
+|---|---|---|
+| pr-long-exercise-031 | re-grounded (answer corrected to source) | IJP 2014 Naranjo vs WHO-UMC (PMC3912795) |
+| pr-long-exercise-037 | NEW card | IJP 2014 Naranjo vs WHO-UMC (PMC3912795) |
+
+Still unsourced after this pass (13): pr-long-exercise-002, pr-long-exercise-005, pr-long-exercise-008, pr-long-exercise-011, pr-long-exercise-014, pr-long-exercise-016, pr-long-exercise-017, pr-long-exercise-018, pr-long-exercise-019, pr-long-exercise-020, pr-long-exercise-021, pr-long-exercise-022, pr-long-exercise-029
+
+## Haiku pass (2026-11-02)
+
+- Re-grounded: pr-long-exercise-005. Front and back cut to the one point the books support: rat gastric fundus contraction by 5-HT2B. Rat uterus, oxytocin and "very sensitive" claims dropped (not in books). Source: KDT8 ch12.
+- Added: pr-long-exercise-038 (protocol subtopic had 3 cards). Randomisation purpose. Source: Sarkar p201-205.
+- Checked, still UNSOURCED: pr-long-exercise-017, 018, 019, 020. Matching, bracketing, graphical interpolation and 3-point designs are not in RangDale9 ch8, the KDT8 chapters or Sarkar OCR.
+- Mixed-ref unsourced cards (002, 008, 011, 014, 016, 021, 022, 029) not changed; they are not exact-match candidates.
+
+## Opus audit (2026-11-02)
+Changed:
+- pr-long-exercise-011: added RangDale9 ch2 (pA2 = -log molar antagonist conc. giving dose ratio 2; Schild plot) and GG14 ch3 (competitive antagonism, Schild). Stays UNSOURCED: pD2 definition not found in any book.
+Still UNSOURCED (searched RangDale9, GG14, KDT8 full text):
+- 002, 008: organ-bath set-up and stepwise ACh DRC procedure; books mention organ bath and EC50 only, not the bench steps.
+- 014: identifying unknown agonist by selective antagonists on ileum; no book describes this exercise.
+- 016, 017, 018, 019, 020: matching, bracketing, graphical interpolation and 3-point designs are absent from all books; RangDale9 ch8 covers only parallel-line 2+2.
+- 021: RangDale9 ch8 supports design, random order, variability, potency ratio from horizontal distance, confidence limits; "more reliable than matching/bracketing/3-point" is unsupported.
+- 022: RangDale9 ch8 supports biological variation, design aims, randomisation, blinding; fixed contact time/time cycle/washing and tissue fatigue are unsupported.
+- 029: causality exercise steps beyond KDT8 ch6 content.

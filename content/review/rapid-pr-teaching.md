@@ -65,3 +65,22 @@ Written from standard textbook knowledge under the 2026-11-02 exception. Refs ca
 - rf-pr-teaching-0027: Wrong options in an MCQ
 - rf-pr-teaching-0029: Feedback model where the learner speaks first
 - rf-pr-teaching-0030: Feedback with criticism between two praises
+
+## Re-grounding pass (2026-11-02)
+
+Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-grounded cards show their source; cards not listed here keep UNSOURCED.
+
+| id | status | source |
+|---|---|---|
+| rf-pr-teaching-0009 | rapid, re-grounded | IJP 2023 Microteaching overview (PMC10657622) |
+| rf-pr-teaching-0010 | rapid, re-grounded | IJP 2023 Microteaching overview (PMC10657622) |
+| rf-pr-teaching-0011 | rapid, re-grounded (cycle corrected) | IJP 2023 Microteaching overview (PMC10657622) |
+| rf-pr-teaching-0012 | rapid, re-grounded (list corrected) | IJP 2023 Microteaching overview (PMC10657622) |
+| rf-pr-teaching-0013 | rapid, re-grounded | IJP 2023 Microteaching overview (PMC10657622) |
+| rf-pr-teaching-0020 | rapid, re-grounded (answer corrected) | IJP 2023 Microteaching overview (PMC10657622) |
+| rf-pr-teaching-0023 | rapid, re-grounded | IJP 2017 OSPE standardization and validation (PMC5754933) |
+| rf-pr-teaching-0024 | rapid, re-grounded | IJP 2017 OSPE standardization and validation (PMC5754933) |
+| rf-pr-teaching-0029 | rapid, re-grounded | BMC Med Educ 2020 Feedback in the clinical setting (PMC7712594) |
+| rf-pr-teaching-0030 | rapid, re-grounded | Cureus 2026 Joseph-RATA feedback (PMC13589777) |
+
+Still unsourced after this pass (10): rf-pr-teaching-0002, rf-pr-teaching-0003, rf-pr-teaching-0004, rf-pr-teaching-0006, rf-pr-teaching-0007, rf-pr-teaching-0008, rf-pr-teaching-0019, rf-pr-teaching-0025, rf-pr-teaching-0026, rf-pr-teaching-0027

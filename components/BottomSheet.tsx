@@ -24,13 +24,47 @@ export function BottomSheet({
   // While the sheet is dragged, drop its backdrop blur: blur under a moving layer stutters on Android.
   const [dragging, setDragging] = useState(false);
 
+  // Parents pass a fresh onClose each render; a ref keeps the effect below from re-running (and stealing focus) on every keystroke.
+  const closeRef = useRef(onClose);
+  useEffect(() => {
+    closeRef.current = onClose;
+  });
+
+  // Where focus goes back to on close. Read during render: an autoFocus child takes focus before effects run.
+  const returnTo = useRef<HTMLElement | null>(null);
+  if (open && !returnTo.current && typeof document !== "undefined") returnTo.current = document.activeElement as HTMLElement | null;
+
   useEffect(() => {
     if (!open) return;
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") return closeRef.current();
+      const p = panel.current;
+      if (e.key !== "Tab" || !p) return;
+      // Trap Tab inside the sheet.
+      const items = [...p.querySelectorAll<HTMLElement>('button, a[href], input, textarea, select, [tabindex]:not([tabindex="-1"])')].filter(
+        (el) => !el.hasAttribute("disabled"),
+      );
+      const first = items[0] ?? p;
+      const last = items.at(-1) ?? p;
+      if (e.shiftKey && (document.activeElement === first || document.activeElement === p)) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && (document.activeElement === last || !p.contains(document.activeElement))) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
     window.addEventListener("keydown", onKey);
-    panel.current?.focus();
+    // An autoFocus child keeps its focus; otherwise focus the panel.
+    if (!panel.current?.contains(document.activeElement)) panel.current?.focus();
     return () => window.removeEventListener("keydown", onKey);
-  }, [open, onClose]);
+  }, [open]);
+
+  useEffect(() => {
+    if (open) return;
+    returnTo.current?.focus?.();
+    returnTo.current = null;
+  }, [open]);
 
   return (
     <LazyMotion features={domAnimation}>

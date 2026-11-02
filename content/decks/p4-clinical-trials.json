@@ -40,7 +40,13 @@
       "refs": [
         "KDT8 ch5"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-clinical-trials-phases",
       "tags": [
@@ -450,7 +456,13 @@
       "refs": [
         "KDT8 ch5"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-clinical-trials-gcp-roles",
       "tags": [
@@ -539,7 +551,13 @@
         "Katzung16 ch1",
         "RangDale9 ch8"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-clinical-trials-consent-safety",
       "tags": [
@@ -990,6 +1008,60 @@
       "subtopic": "p4-clinical-trials-pharmacovigilance",
       "tags": [
         "adr"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-051",
+      "type": "shortnote",
+      "front": "Short note: Contract research organisation (CRO)",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Company that takes on sponsor duties under contract as an independent contractor",
+            "Designs, selects, monitors and evaluates studies, and prepares regulatory submissions"
+          ]
+        },
+        {
+          "h": "Why CROs arose",
+          "points": [
+            "After the 1962 Kefauver-Harris amendments, efficacy had to be proven before marketing",
+            "Companies outsourced non-critical studies to cut workload and cost",
+            "Turns fixed development costs into variable costs"
+          ]
+        },
+        {
+          "h": "Departments",
+          "points": [
+            "Medical: trial protocol design and medical input",
+            "Regulatory submission team",
+            "Clinical operations: site selection, monitoring, study close-out",
+            "Data management: databases and clean data for analysis"
+          ]
+        },
+        {
+          "h": "Status in India",
+          "points": [
+            "Grew after the 2005 Schedule Y change allowed trials in India to run alongside other countries",
+            "Sponsors use CROs; India attractive for patient pool, hospitals and stability studies",
+            "Shortage of skilled staff such as CRAs, especially with international GCP experience"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p151-155"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
       ]
     }
   ]

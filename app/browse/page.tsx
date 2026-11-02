@@ -7,7 +7,7 @@ import { OverviewPanel, type OverviewCounts } from "@/components/syllabus/Overvi
 import { EMPTY_MIX, MixPanel, type MixState } from "@/components/syllabus/MixPanel";
 import { TopicCard } from "@/components/syllabus/TopicCard";
 import { db } from "@/lib/db";
-import { useMastery, useStudyCards } from "@/lib/store";
+import { isRapid, useMastery, useStudyCards } from "@/lib/store";
 import { PAPERS } from "@/lib/syllabus";
 import type { Topic } from "@/lib/types";
 
@@ -25,7 +25,9 @@ const matches = (text: string, tokens: string[]) => {
 };
 
 export default function Syllabus() {
-  const cards = useStudyCards();
+  const studyCards = useStudyCards();
+  // Rapid Fire pairs have their own progress; counts here cover study cards only.
+  const cards = useMemo(() => studyCards?.filter((c) => !isRapid(c)), [studyCards]);
   const mastery = useMastery();
   const states = useLiveQuery(() => db.cardStates.toArray(), [], undefined);
 
@@ -50,12 +52,14 @@ export default function Syllabus() {
     const now = Date.now();
     const seen = new Map<string, number>();
     const due = new Map<string, number>();
+    const ids = new Set(cards?.map((c) => c.id));
     for (const s of states ?? []) {
+      if (!ids.has(s.cardId)) continue;
       seen.set(s.topicId, (seen.get(s.topicId) ?? 0) + 1);
       if (s.due <= now) due.set(s.topicId, (due.get(s.topicId) ?? 0) + 1);
     }
     return { seen, due };
-  }, [states]);
+  }, [states, cards]);
 
   const subtopicCounts = useMemo<OverviewCounts>(() => {
     const c: OverviewCounts = { strong: 0, moderate: 0, weak: 0, unassessed: 0 };

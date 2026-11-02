@@ -11,7 +11,7 @@ export const CARD_TYPE: Record<string, { label: string; color: string }> = {
   basic: { label: "Recall", color: "#1f7a5c" },
   shortnote: { label: "Short note, 5 marks", color: "#4c5bd4" },
   essay: { label: "Long essay, 10 marks", color: "#a63d73" },
-  cloze: { label: "Fill the blanks", color: "#a86d0b" },
+  cloze: { label: "Fill the blanks", color: "#8a5a12" },
 };
 
 /**
@@ -31,7 +31,7 @@ export function CardView({
   aside?: React.ReactNode; // top-right slot, e.g. the study timer
   history?: string; // e.g. "Reviewed 3 times, last: Good", shown after reveal
 }) {
-  const t = CARD_TYPE[card.type];
+  const t = CARD_TYPE[card.type] ?? CARD_TYPE.basic;
   const sub = card.subtopic ? subtopicById.get(card.subtopic)?.title : undefined;
   const body = (
     <div className="px-5 pt-5 pb-6 sm:px-7 sm:pt-6">

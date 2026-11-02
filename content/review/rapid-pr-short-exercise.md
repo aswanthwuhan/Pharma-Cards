@@ -70,3 +70,12 @@ Written from standard textbook knowledge under the 2026-11-02 exception. Refs ca
 - rf-pr-short-exercise-0001: Classical parts of a prescription
 - rf-pr-short-exercise-0002: Superscription
 - rf-pr-short-exercise-0003: Inscription
+
+## Re-grounding pass (2026-11-02)
+
+Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-grounded cards show their source; cards not listed here keep UNSOURCED.
+
+| id | status | source |
+|---|---|---|
+
+Still unsourced after this pass (3): rf-pr-short-exercise-0001, rf-pr-short-exercise-0002, rf-pr-short-exercise-0003

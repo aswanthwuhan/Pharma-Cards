@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { db } from "@/lib/db";
 import { labelFor } from "@/lib/mastery";
-import { buildQueue, type MasteryReport } from "@/lib/store";
+import { buildQueue, isRapid, loadStudyCards, type MasteryReport } from "@/lib/store";
 import type { SwipeGrade } from "@/lib/swipe";
 import { subtopicById, topicById } from "@/lib/syllabus";
 import type { FlashCard } from "@/lib/types";
@@ -37,11 +37,12 @@ export function SessionSummary({
   const recallPct = pct(recalled);
   const avgSec = n ? history.reduce((a, h) => a + h.ms, 0) / n / 1000 : 0;
 
-  const dueTomorrow = useLiveQuery(() => {
+  const dueTomorrow = useLiveQuery(async () => {
     const end = new Date();
     end.setDate(end.getDate() + 1);
     end.setHours(23, 59, 59, 999);
-    return db.cardStates.where("due").belowOrEqual(end.getTime()).count();
+    const ids = new Set((await loadStudyCards()).filter((c) => !isRapid(c)).map((c) => c.id));
+    return (await db.cardStates.where("due").belowOrEqual(end.getTime()).toArray()).filter((s) => ids.has(s.cardId)).length;
   }, []);
 
   // How many cards the "work on weak areas" button would give.

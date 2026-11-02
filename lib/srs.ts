@@ -5,7 +5,7 @@ import type { FlashCard } from "./types";
 // One scheduler per target-retention value (the user can change it in Settings).
 const schedulers = new Map<number, ReturnType<typeof fsrs>>();
 export function schedulerFor(retention = 0.9) {
-  const r = Math.min(0.97, Math.max(0.8, Math.round(retention * 100) / 100));
+  const r = Number.isFinite(retention) ? Math.min(0.97, Math.max(0.8, Math.round(retention * 100) / 100)) : 0.9;
   if (!schedulers.has(r)) schedulers.set(r, fsrs(generatorParameters({ enable_fuzz: true, request_retention: r })));
   return schedulers.get(r)!;
 }
@@ -17,7 +17,11 @@ export { Rating };
 export function recallProbability(state: CardState | undefined, now = new Date()): number | null {
   const card = state?.fsrs;
   if (!card || card.reps === 0) return null;
-  return scheduler.get_retrievability(card, now, false);
+  try {
+    return scheduler.get_retrievability(card, now, false);
+  } catch {
+    return null; // one corrupt state must not break mastery or queues
+  }
 }
 
 /** What is needed to take back one answer. */
@@ -43,7 +47,9 @@ export async function recordReview(card: FlashCard, rating: Grade, ms: number, m
       due: new Date(next.due).getTime(),
       lastRating: rating,
     });
-    reviewId = (await db.reviews.add({ cardId: card.id, topicId: card.topicId, rating, at: now.getTime(), ms, mode })) as number;
+    // A first-ever daily answer is a new card, whatever the caller's (possibly stale) view said.
+    const logged = mode === "daily" && !existing ? "daily-new" : mode;
+    reviewId = (await db.reviews.add({ cardId: card.id, topicId: card.topicId, rating, at: now.getTime(), ms, mode: logged })) as number;
   });
   return { cardId: card.id, previous: existing, reviewId };
 }

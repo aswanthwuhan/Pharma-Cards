@@ -2,7 +2,7 @@
 
 import { animate, LazyMotion, domAnimation, m, useMotionValue, useTransform } from "motion/react";
 import { memo, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { AXIS_LOCK_PX, classifySwipe, swipeIntent, type SwipeGrade } from "@/lib/swipe";
+import { AXIS_LOCK_PX, classifySwipe, COMMIT_VELOCITY, swipeIntent, type SwipeGrade } from "@/lib/swipe";
 import { useReduceMotion } from "@/lib/settings";
 import type { FlashCard } from "@/lib/types";
 import { CardView } from "./CardView";
@@ -223,8 +223,13 @@ export function SwipeDeck({
     }
     const v = velocity(g.samples);
     const { width, height } = size();
+    // A fast scroll that runs into the end of a long answer is still a scroll, not Easy/Hard. A fast vertical
+    // release grades only if the gesture started at that edge (top for down = Hard, bottom for up = Easy);
+    // a slow drag on past the edge still hands off to the card, as designed.
+    const fromEdge = y.get() > 0 ? g.scroll0 <= 0 : g.scroll0 >= maxScroll() - 1;
+    const scrollFling = g.axis === "y" && !fromEdge && Math.abs(v.y) >= COMMIT_VELOCITY;
     const grade =
-      revealed && swipe && e.type === "pointerup"
+      revealed && swipe && e.type === "pointerup" && !scrollFling
         ? classifySwipe({ dx: x.get(), dy: y.get(), vx: v.x, vy: v.y, width, height, allowVertical: true })
         : null;
     if (grade) {

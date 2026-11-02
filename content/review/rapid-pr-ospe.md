@@ -75,3 +75,14 @@ Written from standard textbook knowledge under the 2026-11-02 exception. Refs ca
 - rf-pr-ospe-0030: Name that must be clear in promotional literature
 - rf-pr-ospe-0031: Printed leaflet giving full prescribing information
 - rf-pr-ospe-0040: Structured abstract headings
+
+## Re-grounding pass (2026-11-02)
+
+Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-grounded cards show their source; cards not listed here keep UNSOURCED.
+
+| id | status | source |
+|---|---|---|
+| rf-pr-ospe-0004 | rapid, re-grounded | IJP 2017 OSPE standardization and validation (PMC5754933) |
+| rf-pr-ospe-0005 | rapid, re-grounded | IJP 2016 Introducing OSPE (PMC5178055); IJP 2017 OSPE standardization and validation (PMC5754933) |
+
+Still unsourced after this pass (13): rf-pr-ospe-0012, rf-pr-ospe-0013, rf-pr-ospe-0015, rf-pr-ospe-0023, rf-pr-ospe-0024, rf-pr-ospe-0025, rf-pr-ospe-0026, rf-pr-ospe-0027, rf-pr-ospe-0028, rf-pr-ospe-0029, rf-pr-ospe-0030, rf-pr-ospe-0031, rf-pr-ospe-0040

@@ -25,7 +25,7 @@ How to check a fact: extract the cited chapter with `pdftotext "<file>" -`. For 
 
 ## Exception: web sources for SOURCE-GAPS items (owner approved, 2026-11-01)
 Only for the points listed in `content/SOURCE-GAPS.md` (no owner book covers them), cards may be written from official or authoritative web sources:
-NMC (nmc.org.in), WHO, ICMR, CDSCO, Ministry of AYUSH, FSSAI, NTEP/NACO/NCVBDC (MoHFW), AIIMS/National Poisons Information Centre, NCBI Bookshelf (StatPearls). No blogs, forums or commercial sites.
+NMC (nmc.org.in), WHO, ICMR, CDSCO, Ministry of AYUSH, FSSAI, NTEP/NACO/NCVBDC (MoHFW), AIIMS/National Poisons Information Centre, NCBI Bookshelf (StatPearls), and peer-reviewed open-access journal articles via PMC / Europe PMC (e.g. Indian J Pharmacol). No blogs, forums or commercial sites.
 - Paraphrase; never copy. Use only what the page states.
 - `refs` format: `"WEB <org> <doc title or topic> <year if shown> <url>"`, e.g. `"WEB NMC AETCOM module 2018 https://..."`.
 - Add the tag set as usual; keep `status: "draft"`; the review log marks these rows `web` for the owner's review.

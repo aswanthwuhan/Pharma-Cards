@@ -78,6 +78,10 @@ async function resolveOutFile(pathname) {
     clean === ''
       ? ['index.html']
       : [clean, `${clean}.html`, path.posix.join(clean, 'index.html')];
+  // Segment prefetches ask for "__next.study.__PAGE__.txt" (path joined with dots), but the
+  // export writes it as "__next.study/__PAGE__.txt". Try that layout too.
+  const seg = /(^|\/)__next\.(.+)\.txt$/.exec(clean);
+  if (seg) candidates.push(clean.slice(0, seg.index + seg[1].length) + '__next.' + seg[2].replace(/\./g, '/') + '.txt');
 
   for (const rel of candidates) {
     const full = path.resolve(OUT_DIR, rel);

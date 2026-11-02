@@ -732,6 +732,120 @@
         "mechanism",
         "newer-drugs"
       ]
+    },
+    {
+      "id": "p1-pd-028",
+      "type": "shortnote",
+      "front": "Short note: Cell membrane as a system for drug action",
+      "sections": [
+        {
+          "h": "Structure",
+          "points": [
+            "Bilayer of phospholipid and cholesterol with a nonpolar core",
+            "Proteins and glycoproteins sit on or pass through the bilayer",
+            "Membrane is dynamic: lipids and proteins move laterally"
+          ]
+        },
+        {
+          "h": "Barrier role",
+          "points": [
+            "Gives high electrical resistance and low permeability",
+            "Drugs cross by passive diffusion, aqueous pores, carriers or vesicles"
+          ]
+        },
+        {
+          "h": "Protein targets in the membrane",
+          "points": [
+            "Four major drug target classes: enzymes, ion channels, transporters and receptors",
+            "Ion channels, transporters and receptors are typically membrane-bound"
+          ]
+        },
+        {
+          "h": "Receptor signalling",
+          "points": [
+            "Ligand-gated ion channels respond fastest, within milliseconds",
+            "G protein-coupled receptors often act through cAMP",
+            "Receptor tyrosine kinases control cell functions by phosphorylation"
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "points": [
+            "Lipid solubility decides how quickly a drug reaches its target",
+            "pH differences across the membrane can trap weak electrolytes"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch2",
+        "KDT8 ch4"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "mechanism"
+      ],
+      "subtopic": "p1-pd-drug-targets",
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-029",
+      "type": "shortnote",
+      "front": "Short note: G-protein coupled receptors",
+      "sections": [
+        {
+          "h": "Structure",
+          "points": [
+            "Seven membrane-spanning alpha-helices; three extracellular and three intracellular loops",
+            "Agonist site lies between helices on the outer face; G-protein binds the inner face"
+          ]
+        },
+        {
+          "h": "G-proteins",
+          "points": [
+            "Heterotrimeric: alpha, beta and gamma subunits",
+            "On activation GDP on the alpha subunit is replaced by GTP; alpha-GTP dissociates to act on the effector",
+            "Some G-proteins also open or close ion channels directly"
+          ]
+        },
+        {
+          "h": "Effector pathways",
+          "points": [
+            "Gs: adenylyl cyclase up, calcium channel opening",
+            "Gi: adenylyl cyclase down, potassium channel opening",
+            "Go: calcium channel inhibition; Gq: phospholipase C activation"
+          ]
+        },
+        {
+          "h": "Desensitisation",
+          "points": [
+            "Homologous: BARK and beta-arrestin limit response to the same agonist",
+            "Heterologous: PKA and PKC phosphorylation blocks G-protein coupling",
+            "Long-term down-regulation of receptors over weeks"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "subtopic": "p1-pd-receptor-families",
+      "status": "draft"
     }
   ]
 }

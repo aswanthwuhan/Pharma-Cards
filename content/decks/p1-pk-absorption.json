@@ -26,7 +26,13 @@
         "KDT8 ch2",
         "GG14 ch2"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p1-pk-absorption-bioavailability",
       "tags": [
@@ -233,7 +239,13 @@
       "tags": [
         "pk"
       ],
-      "pyq": []
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ]
     },
     {
       "id": "p1-pk-absorption-014",
@@ -281,7 +293,13 @@
       "tags": [
         "pk"
       ],
-      "pyq": []
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ]
     },
     {
       "id": "p1-pk-absorption-015",
@@ -691,6 +709,121 @@
         "KDT8 ch2"
       ],
       "pyq": []
+    },
+    {
+      "id": "p1-pk-absorption-026",
+      "type": "shortnote",
+      "front": "Short note: Clinical significance of body pH in drug pharmacokinetics",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Most drugs are weak acids or weak bases; their ionisation depends on pH relative to pKa",
+            "Only the unionised form crosses lipid membranes readily",
+            "An ionised drug becomes trapped on the side of the membrane where it is ionised"
+          ]
+        },
+        {
+          "h": "Gut absorption",
+          "points": [
+            "Stomach pH is about 1.9 to 3; small intestine pH about 7.5 to 8",
+            "Weak acids such as aspirin stay unionised in the stomach and are absorbed there",
+            "Weak bases such as atropine are ionised in the stomach and absorbed in the intestine"
+          ]
+        },
+        {
+          "h": "Other body fluids",
+          "points": [
+            "Breast milk and aqueous humour can trap drugs because their pH differs from blood",
+            "Basic drugs reach higher concentration inside cells, where pH is slightly lower than plasma"
+          ]
+        },
+        {
+          "h": "Renal excretion",
+          "points": [
+            "Weak acids are excreted faster in alkaline urine",
+            "Weak bases are excreted faster in acidic urine",
+            "Urine pH is changed clinically to speed up excretion in poisoning"
+          ]
+        },
+        {
+          "h": "Clinical example",
+          "points": [
+            "Aspirin overdose: sodium bicarbonate alkalinises urine and so increases clearance",
+            "Acidosis pushes weak acids into tissues, while acidic urine lets them be reabsorbed",
+            "Ion trapping of aspirin may add to gastric mucosal damage"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch2",
+        "Katzung16 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "pk",
+        "poisoning"
+      ],
+      "subtopic": "p1-pk-absorption-ionisation",
+      "status": "draft"
+    },
+    {
+      "id": "p1-pk-absorption-027",
+      "type": "shortnote",
+      "front": "Short note: Physiologically based pharmacokinetic (PBPK) modelling",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Model in which real tissues or organs are compartments linked by blood flow",
+            "Predicts the time course of drug disposition throughout the body"
+          ]
+        },
+        {
+          "h": "What it shows",
+          "points": [
+            "Systemic exposure and tissue distribution of a drug",
+            "Effect of changes in physiological or drug-dependent parameters"
+          ]
+        },
+        {
+          "h": "Example",
+          "points": [
+            "Pravastatin: OATP1B1 activity mainly changes myopathy risk, with little effect on efficacy",
+            "MRP2 and BCRP activity mainly changes efficacy rather than side effects"
+          ]
+        },
+        {
+          "h": "Use in practice",
+          "points": [
+            "Sensitivity analysis shows which parameter most changes efficacy or toxicity",
+            "Concentration-time data are fitted to a model, ideally a physiologically based one",
+            "Fitted parameters are used to adjust the dose to reach a target concentration"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch4",
+        "RangDale9 ch11"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "pk"
+      ],
+      "subtopic": "p1-pk-absorption-tissue-barriers",
+      "status": "draft"
     }
   ]
 }

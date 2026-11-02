@@ -98,8 +98,13 @@ export function RapidFireSession({
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      const el = e.target as HTMLElement;
+      if (el.closest?.("input, textarea, select, [contenteditable]")) return;
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") return void (e.preventDefault(), undoLast());
+      if (done) return;
       if (e.code === "Space" || e.key === "Enter") {
+        // Enter/Space on a focused control belongs to that control.
+        if (el.closest?.("button, a, [role=radio]")) return;
         e.preventDefault();
         setFlipped((f) => !f);
       } else if (flipped && (e.key === "ArrowRight" || e.key === "3")) grade(true);
@@ -107,7 +112,7 @@ export function RapidFireSession({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [flipped, grade, undoLast]);
+  }, [flipped, grade, undoLast, done]);
 
   // Horizontal swipe from anywhere on the card; a tap flips.
   const onDown = (e: React.PointerEvent) => {

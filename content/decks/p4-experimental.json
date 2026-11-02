@@ -10,7 +10,23 @@
       "refs": [
         "RangDale9 ch8"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-experimental-bioassay",
       "tags": [
@@ -410,7 +426,13 @@
         "KDT8 ch5",
         "RangDale9 ch8"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-experimental-animal-models",
       "tags": [
@@ -613,7 +635,13 @@
       "refs": [
         "Katzung16 ch1"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-experimental-ethics",
       "tags": [
@@ -666,7 +694,13 @@
         "Katzung16 ch1",
         "KDT8 ch5"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-experimental-ethics",
       "tags": [
@@ -722,7 +756,18 @@
         "Sarkar p256-260",
         "Sarkar p261-265"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-experimental-ethics",
       "tags": [
@@ -775,6 +820,426 @@
       "subtopic": "p4-experimental-ethics",
       "tags": [
         "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-035",
+      "type": "shortnote",
+      "front": "Short note: Isometric force recording in isolated tissues",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Tissue is held at a fixed length, so contraction appears as force",
+            "Force is recorded by a transducer and drawn on a polygraph"
+          ]
+        },
+        {
+          "h": "Set-up",
+          "points": [
+            "Strip or ring mounted in a small organ bath of physiological salt solution (e.g. Krebs bicarbonate)",
+            "One end fixed to the bath, the other to a strain gauge or force-displacement transducer",
+            "Resting tension applied, e.g. 2 g for spiral strips of bovine coronary artery in a 4 mL bath"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Test relaxant or contractile drugs against standard agonists",
+            "Rabbit aorta rings contracted by KCl or noradrenaline show calcium-channel antagonism as relaxation",
+            "Isolated heart: contractile force measured isometrically by a force transducer"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p331-335",
+        "Sarkar p291-295"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-tissues",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p4-experimental-036",
+      "type": "shortnote",
+      "front": "Short note: Role of the mouse as an experimental animal",
+      "sections": [
+        {
+          "h": "Screening",
+          "points": [
+            "Rodents, including mice, are used first; larger animals follow",
+            "Unfavourable compounds are dropped at each stage, so few reach human trials"
+          ]
+        },
+        {
+          "h": "Genetic models",
+          "points": [
+            "Transgenic mice carry an introduced gene (knock-in) or an inactivated gene (knockout)",
+            "Used to build disease models for drug testing"
+          ]
+        },
+        {
+          "h": "Toxicity testing",
+          "points": [
+            "Rodents preferred for genetic toxicity tests, e.g. mouse-specific locus test and micronucleus test",
+            "Rodents preferred for embryotoxicity and reproductive toxicity studies"
+          ]
+        },
+        {
+          "h": "Skin sensitisation",
+          "points": [
+            "Mouse local lymph node assay: test substance applied to mouse ear for three days",
+            "Lymph node cell proliferation measured; accepted by EPA, OECD and FDA as preferred assay"
+          ]
+        },
+        {
+          "h": "Other uses",
+          "points": [
+            "Mice immunised to raise antibody-producing cells for monoclonal antibody production",
+            "Behaviour tests such as tail suspension and rota-rod"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "RangDale9 ch8",
+        "Sarkar p256-260",
+        "Sarkar p286-290",
+        "Sarkar p261-265",
+        "Sarkar p311-315",
+        "Sarkar p341-345"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-037",
+      "type": "shortnote",
+      "front": "Short note: Animal models for testing learning and memory",
+      "sections": [
+        {
+          "h": "Spatial learning",
+          "points": [
+            "Morris water maze: hidden platform in a circular pool; escape latency recorded over at least 5 days",
+            "Probe test 24 h after training, with platform removed, measures spatial memory"
+          ]
+        },
+        {
+          "h": "Maze tasks",
+          "points": [
+            "Y-maze, T-maze, radial arm maze and Barnes circular maze"
+          ]
+        },
+        {
+          "h": "Avoidance tests",
+          "points": [
+            "Inhibitory (passive) avoidance uses negative reinforcement to test long-term memory",
+            "Step-through and step-down variants"
+          ]
+        },
+        {
+          "h": "Drug-induced amnesia",
+          "points": [
+            "Scopolamine (muscarinic antagonist) impairs learning and memory in rodents and humans",
+            "Dizocilpine (NMDA antagonist) produces memory impairment for testing memory enhancers"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p316-320",
+        "Sarkar p321-325"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-038",
+      "type": "shortnote",
+      "front": "Short note: Guinea pig as an experimental animal",
+      "sections": [
+        {
+          "h": "Isolated tissue bioassays",
+          "points": [
+            "Ileum: acetylcholine contraction blocked by atropine, histamine response unaffected",
+            "Ileum contraction is a standard bioassay for histamine",
+            "Atria: competitive antagonism of isoprenaline by propranolol"
+          ]
+        },
+        {
+          "h": "Histamine sensitivity",
+          "points": [
+            "Guinea pigs are the most sensitive common species to histamine",
+            "Histamine-induced bronchoconstriction is strong; anaphylactic bronchoconstriction is largely prevented by antihistamines"
+          ]
+        },
+        {
+          "h": "Skin and eye safety tests",
+          "points": [
+            "Draize eye and skin irritancy tests use rabbits and guinea pigs",
+            "Guinea pig maximisation test used for skin sensitisation"
+          ]
+        },
+        {
+          "h": "Photosensitivity",
+          "points": [
+            "Armstrong/Harber test in guinea pig when a drug or metabolite may cause photosensitivity"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch8",
+        "KDT8 ch11",
+        "Katzung16 ch16",
+        "RangDale9 ch2",
+        "Sarkar p256-260"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-039",
+      "type": "shortnote",
+      "front": "Short note: Human tissue assays in clinical development",
+      "sections": [
+        {
+          "h": "Phase 0 (exploratory IND)",
+          "points": [
+            "Early human study with limited exposure and no therapeutic intent, to decide go or no-go",
+            "Aims: refine and validate a biomarker assay and test drug effect on its target in human tissue",
+            "Gives human PK-PD data and checks that the mechanism seen in animals occurs in humans"
+          ]
+        },
+        {
+          "h": "Donated human material",
+          "points": [
+            "In vitro pyrogen test using donated human blood",
+            "Human skin from surgery or donated cadavers used for penetration studies",
+            "US National Disease Research Interchange supplies human tissue to researchers"
+          ]
+        },
+        {
+          "h": "Cell assays",
+          "points": [
+            "Human blood monocytes incubated with a glucocorticoid; receptor expression measured by FACS"
+          ]
+        },
+        {
+          "h": "Animal safety data",
+          "points": [
+            "Pre-clinical safety data required for phase 0 are small, so fewer animal studies are needed"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p206-210",
+        "Sarkar p286-290",
+        "RangDale9 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-tissues",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-040",
+      "type": "shortnote",
+      "front": "Short note: Animal models in vaccine development and testing",
+      "sections": [
+        {
+          "h": "Where animals fit",
+          "points": [
+            "Preclinical stage: in vitro work, then in vivo testing in animals, before any human dosing",
+            "Follows the exploratory stage, where candidate antigens are identified and may be modified by recombinant DNA technology"
+          ]
+        },
+        {
+          "h": "What is measured",
+          "points": [
+            "Immunogenicity: the immune response the vaccine provokes",
+            "Safety and toxicity",
+            "Approximate dose range and suitable formulation"
+          ]
+        },
+        {
+          "h": "Species used",
+          "points": [
+            "Non-human primates (monkeys): the oral polio vaccine was first tested here for adverse effects and immunogenicity",
+            "Transgenic animals are now used in preclinical protocols for more accurate prediction of human reactions"
+          ]
+        },
+        {
+          "h": "Next step",
+          "points": [
+            "Satisfactory preclinical data lead to phase I, the first human study in a small group (about 20) of healthy adults"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p176-180"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-041",
+      "type": "shortnote",
+      "front": "Short note: Screening a new molecule for anti-anxiety activity",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Rodents avoid brightly lit or open spaces, so anxiolytics change their exploration and avoidance",
+            "Test drug given about 30 min before testing (i.p. in the plus-maze protocol)"
+          ]
+        },
+        {
+          "h": "Exploration tests",
+          "points": [
+            "Elevated plus maze (Pellow, 1985): anxiolytic effect is more time and entries in the open arms",
+            "Light-dark (black and white) box: anxiolytics increase crossings between the chambers",
+            "Social interaction test: anxiolytics reverse the suppression of social contact in a bright, unfamiliar setting"
+          ]
+        },
+        {
+          "h": "Conflict tests",
+          "points": [
+            "Geller-Seifter operant conflict test: high predictive value for classical anxiolytics",
+            "Vogel lick-conflict test: anxiolytics increase the number of shocks accepted while drinking"
+          ]
+        },
+        {
+          "h": "Reference",
+          "points": [
+            "Diazepam increases time spent in the open arms of the elevated plus maze"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p321-325",
+        "RangDale9 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-042",
+      "type": "shortnote",
+      "front": "Short note: Transgenic animals",
+      "sections": [
+        {
+          "h": "What they are",
+          "points": [
+            "Animal carrying a foreign gene, or an altered gene, deliberately placed in its genome",
+            "The new gene is inherited by offspring in the same way as native genes",
+            "Mice are the usual species: over 80% of mouse genes work like human genes, and they breed quickly"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "DNA microinjection into the male pronucleus of a fertilised ovum: first effective method in mammals; insertion is random",
+            "Embryonic stem cell transfer: targeted by homologous recombination; the method of choice for knockout animals",
+            "Retrovirus-mediated transfer into an early embryo, which is then implanted"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Disease models: mice carrying the human poliovirus receptor can be infected; APP transgenic mice model Alzheimer disease",
+            "Toxicology test animals, drug efficacy testing, production of pharmaceutical proteins, and veterinary uses such as higher milk yield"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Insertional mutation can disrupt important biological processes",
+            "Unregulated gene expression and side effects such as arthritis, dermatitis or cancer",
+            "Animal welfare and ethical objections"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p271-275",
+        "Sarkar p266-270"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
       ]
     }
   ]

@@ -61,8 +61,14 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
   const [after, setAfter] = useState<MasteryReport>();
   const started = useRef(Date.now());
   const busy = useRef(false);
+  const snapshotId = useRef<number | undefined>(undefined);
   const card = cards[i];
   const done = i >= cards.length;
+  // The card on screen now; a fly-out that finishes after an undo must not grade a different card.
+  const currentId = useRef(card?.id);
+  useEffect(() => {
+    currentId.current = card?.id;
+  }, [card?.id]);
 
   const state = useLiveQuery(() => (card ? db.cardStates.get(card.id) : undefined), [card?.id]);
   const bookmarked = useLiveQuery(() => (card ? db.bookmarks.get(card.id) : undefined), [card?.id]);
@@ -76,13 +82,27 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
     computeMastery().then(setBefore);
   }, []);
 
+  // One snapshot per session: an undo from the summary and a re-grade replace it instead of adding another.
   useEffect(() => {
     if (!done || !cards.length) return;
     computeMastery().then(async (m) => {
       setAfter(m);
-      await db.snapshots.add({ at: Date.now(), label: mode, scores: Object.fromEntries([...m.subtopic].map(([k, v]) => [k, v.score])) });
+      const snap = { at: Date.now(), label: mode, scores: Object.fromEntries([...m.subtopic].map(([k, v]) => [k, v.score])) };
+      if (snapshotId.current !== undefined) await db.snapshots.put({ ...snap, id: snapshotId.current });
+      else snapshotId.current = await db.snapshots.add(snap);
     });
   }, [done, cards.length, mode]);
+
+  // Answer time leaves out time the app spent hidden (switched away, screen off).
+  useEffect(() => {
+    let hiddenAt = 0;
+    const onVis = () => {
+      if (document.hidden) hiddenAt = Date.now();
+      else if (hiddenAt) started.current += Date.now() - hiddenAt;
+    };
+    document.addEventListener("visibilitychange", onVis);
+    return () => document.removeEventListener("visibilitychange", onVis);
+  }, []);
 
   // The undo toast disappears after 5 s.
   useEffect(() => {
@@ -93,11 +113,11 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
 
   const rate = useCallback(
     async (g: SwipeGrade) => {
-      if (!card || busy.current) return;
+      if (!card || busy.current || card.id !== currentId.current) return;
       busy.current = true;
       try {
         const isNew = !state;
-        const ms = Date.now() - started.current;
+        const ms = Math.min(120_000, Date.now() - started.current); // cap idle time
         const undo = await recordReview(card, g as Grade, ms, isNew && mode === "daily" ? "daily-new" : mode);
         setHistory((h) => [...h, { undo, grade: g, ms }]);
         setToast(g);
@@ -121,6 +141,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
       setToast(null);
       setI((x) => x - 1);
       setRevealed(true);
+      started.current = Date.now();
     } finally {
       busy.current = false;
     }
@@ -129,12 +150,18 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
   // Keyboard: Space/Enter reveal; 1-4 or arrow keys grade; Ctrl/Cmd+Z undo.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      const tag = (e.target as HTMLElement).tagName;
-      if (tag === "TEXTAREA" || tag === "INPUT" || noteOpen) return;
+      const el = e.target as HTMLElement;
+      if (noteOpen || el.closest?.("input, textarea, select, [contenteditable]")) return;
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") {
         e.preventDefault();
         undoLast();
-      } else if (!revealed && (e.code === "Space" || e.key === "Enter")) {
+        return;
+      }
+      if (done) return;
+      // Enter/Space on a focused control is that control's (e.g. "End session" must follow its link).
+      const activate = e.code === "Space" || e.key === "Enter";
+      if (activate && el.closest?.("button, a, [role=radio]")) return;
+      if (!revealed && activate) {
         e.preventDefault();
         setRevealed(true);
       } else if (revealed && ["1", "2", "3", "4"].includes(e.key)) gradeCurrentCard(Number(e.key) as SwipeGrade);
@@ -145,7 +172,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [revealed, undoLast, noteOpen]);
+  }, [revealed, undoLast, noteOpen, done]);
 
   if (!cards.length)
     return (
@@ -287,7 +314,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
         <div className="space-y-3 px-5">
           <p className="text-sm text-ink-soft">A mnemonic or correction for this card. It saves as you type.</p>
           <textarea
-            key={`${card.id}-${note ? "n" : "e"}`}
+            key={card.id}
             rows={5}
             autoFocus
             defaultValue={note?.text ?? ""}

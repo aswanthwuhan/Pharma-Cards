@@ -33,6 +33,7 @@ function toggle<T>(xs: T[], x: T): T[] {
 export function mixPool(cards: FlashCard[], mix: MixState): FlashCard[] {
   return cards.filter(
     (c) =>
+      c.type !== "rapid" && // Rapid Fire has its own mode
       (!mix.topics.length || mix.topics.includes(c.topicId)) &&
       (!mix.types.length || mix.types.includes(c.type)) &&
       (!mix.tag || !!c.tags?.includes(mix.tag)) &&

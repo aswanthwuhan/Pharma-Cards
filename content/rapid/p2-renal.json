@@ -1,385 +1,3945 @@
 {
   "topicId": "p2-renal",
   "cards": [
-    {"id":"rf-p2-renal-0001","subtopic":"p2-renal-overview","kind":"fact","q":"Definition of diuretics (natriuretics)","a":"Drugs causing a net loss of Na+ and water in urine","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0002","subtopic":"p2-renal-overview","kind":"fact","q":"Na+ balance during regular diuretic use","a":"Restored by homeostatic mechanisms, leaving a Na+ deficit and lower extracellular fluid volume","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0003","subtopic":"p2-renal-overview","kind":"fact","q":"Injected organomercurial diuretics","a":"Introduced in the 1920s and dominated for nearly 40 years","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0004","subtopic":"p2-renal-overview","kind":"fact","q":"Origin of carbonic anhydrase inhibitor diuretics","a":"Early sulfonamides caused acidosis and mild diuresis (1950s)","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0005","subtopic":"p2-renal-overview","kind":"fact","q":"First modern orally active diuretic","a":"Chlorothiazide, 1957","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0006","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretics that revolutionised use in the mid-1960s","a":"Furosemide and ethacrynic acid","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0007","subtopic":"p2-renal-overview","kind":"fact","q":"Aldosterone antagonist diuretic","a":"Spironolactone","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0008","subtopic":"p2-renal-overview","kind":"fact","q":"K+-sparing diuretics developed alongside spironolactone","a":"Triamterene and amiloride","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0009","subtopic":"p2-renal-overview","kind":"fact","q":"Current main driver of diuretic use","a":"Hypertension, which has outstripped their use in oedema","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0010","subtopic":"p2-renal-overview","kind":"class","q":"Diuretic classes by site of action: list all","a":"High ceiling (loop), thiazide and related, carbonic anhydrase inhibitors, potassium-sparing, osmotic","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0011","subtopic":"p2-renal-overview","kind":"fact","q":"Loop diuretic site in the book's figure numbering","a":"Site II: Na+-K+-2Cl- cotransport in TAL","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0012","subtopic":"p2-renal-overview","kind":"fact","q":"Thiazide site in the book's figure numbering","a":"Site III: cortical diluting segment or early DT","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0013","subtopic":"p2-renal-overview","kind":"fact","q":"Maximal filtered Na+ excreted with furosemide","a":"25%","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0014","subtopic":"p2-renal-overview","kind":"fact","q":"Maximal filtered Na+ excreted with mannitol","a":"20%","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0015","subtopic":"p2-renal-overview","kind":"fact","q":"Maximal filtered Na+ excreted with thiazides","a":"8%","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0016","subtopic":"p2-renal-overview","kind":"fact","q":"Maximal filtered Na+ excreted with acetazolamide","a":"5%","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0017","subtopic":"p2-renal-overview","kind":"fact","q":"Maximal filtered Na+ excreted with spironolactone","a":"3%","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0018","subtopic":"p2-renal-overview","kind":"fact","q":"Maximal filtered Na+ excreted with amiloride","a":"3%","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0019","subtopic":"p2-renal-overview","kind":"class","q":"Diuretics of high efficacy: list all","a":"Furosemide and mannitol","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0020","subtopic":"p2-renal-overview","kind":"class","q":"Diuretics of low efficacy: list all","a":"Spironolactone and amiloride","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0021","subtopic":"p2-renal-overview","kind":"fact","q":"Most significant electrolyte problem of diuretic therapy","a":"Hypokalaemia; worse with longer-acting drugs and low dietary K+","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0022","subtopic":"p2-renal-overview","kind":"fact","q":"Symptoms of diuretic hypokalaemia","a":"Weakness, fatigue, muscle cramps; arrhythmias are the serious complication","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0023","subtopic":"p2-renal-overview","kind":"fact","q":"Ways to prevent or treat diuretic hypokalaemia","a":"High dietary K+, KCl 24-72 mEq/day, or a concurrent K+-sparing diuretic","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0024","subtopic":"p2-renal-overview","kind":"fact","q":"Serum K+ level to aim for on diuretics","a":"At or above 3.5 mEq/L","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0025","subtopic":"p2-renal-overview","kind":"fact","q":"Why serum K+ is only a rough guide to depletion","a":"K+ is primarily an intracellular ion","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0026","subtopic":"p2-renal-overview","kind":"fact","q":"Why K+-sparing diuretics are preferred to K+ supplements","a":"More efficacious and more convenient for correcting hypokalaemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0027","subtopic":"p2-renal-overview","kind":"fact","q":"Combined diuretic and KCl tablets","a":"Not recommended; KCl released at one spot can ulcerate the gut","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0028","subtopic":"p2-renal-overview","kind":"fact","q":"ACE inhibitors or AT1 antagonists given with thiazides","a":"Tend to prevent hypokalaemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0029","subtopic":"p2-renal-overview","kind":"fact","q":"Alkalosis mechanism in hypokalaemia","a":"More H+ exchanges for Na+ in the distal tubule when less K+ is available","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0030","subtopic":"p2-renal-overview","kind":"fact","q":"Groups needing K+ monitoring on diuretics","a":"Cirrhotics, post-MI patients, those on digoxin, antiarrhythmics or tricyclics, elderly","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0031","subtopic":"p2-renal-overview","kind":"fact","q":"Acute saline depletion from over-enthusiastic diuresis","a":"Dehydration and postural fall in BP; Na+ and Cl- normal; treat with saline infusion","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0032","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic haemoconcentration risk","a":"Peripheral venous thrombosis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0033","subtopic":"p2-renal-overview","kind":"fact","q":"Dilutional hyponatraemia with high ceiling diuretics","a":"Water retained, ECF diluted, oedema persists (heart failure); hyponatraemia overall is more common with thiazides","refs":["KDT8 ch42","Katzung16 ch15","GG14 ch29"]},
-    {"id":"rf-p2-renal-0034","subtopic":"p2-renal-overview","kind":"fact","q":"Treatment of dilutional hyponatraemia","a":"Withhold diuretic, restrict water, give glucocorticoid, correct hypokalaemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0035","subtopic":"p2-renal-overview","kind":"fact","q":"Hypocalcaemia with diuretics","a":"Chronic high ceiling use; thiazides tend to raise serum Ca2+","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0036","subtopic":"p2-renal-overview","kind":"fact","q":"Magnesium depletion with diuretics","a":"After prolonged thiazide or loop use; raises arrhythmia risk; K+-sparing diuretics minimise it","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0037","subtopic":"p2-renal-overview","kind":"fact","q":"Hyperuricaemia from diuretics","a":"Counteracted by allopurinol","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0038","subtopic":"p2-renal-overview","kind":"fact","q":"Probenecid interaction with diuretics","a":"Competitively blocks tubular secretion, reducing diuretic action","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0039","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic effect on probenecid uricosuria","a":"Diuretics diminish the uricosuric action of probenecid","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0040","subtopic":"p2-renal-overview","kind":"fact","q":"Allergic reactions to diuretics","a":"Rashes and photosensitivity, especially in sulfonamide-hypersensitive patients","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0041","subtopic":"p2-renal-overview","kind":"fact","q":"Blood dyscrasias with diuretics","a":"Rare; any diuretic may be causative","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0042","subtopic":"p2-renal-overview","kind":"fact","q":"Brisk diuresis in cirrhosis","a":"Can precipitate mental disturbance and hepatic coma","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0043","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretics in toxaemia of pregnancy","a":"Avoid: low blood volume despite oedema; risk of miscarriage or foetal death","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0044","subtopic":"p2-renal-overview","kind":"fact","q":"NSAIDs and diuretics","a":"Indomethacin and other NSAIDs blunt loop and thiazide action by blocking renal PG synthesis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0045","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretics and aminoglycosides","a":"Both ototoxic and nephrotoxic; concurrent use needs caution","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0046","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretics and other antihypertensives","a":"Thiazides and high ceiling diuretics potentiate them, used deliberately","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0047","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic-induced hypokalaemia and digoxin","a":"Enhances digoxin toxicity","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0048","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic-induced hypokalaemia and sulfonylureas","a":"Reduces sulfonylurea action","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0049","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic-induced hypokalaemia and QT drugs","a":"Increases risk of polymorphic ventricular tachycardia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0050","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretics and serum lithium","a":"Serum lithium rises, from enhanced PT reabsorption of Li+ and Na+","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0051","subtopic":"p2-renal-overview","kind":"fact","q":"Thiazides and renal insufficiency","a":"Can occasionally aggravate it by reducing GFR","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0052","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic resistance in renal insufficiency","a":"Low GFR and less PT secretion, so less drug reaches its site","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0053","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic resistance in CHF","a":"Impaired oral absorption from bowel congestion, and reduced renal blood flow","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0054","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic resistance in cirrhosis","a":"Raised aldosterone levels","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0055","subtopic":"p2-renal-overview","kind":"fact","q":"Diuretic resistance in nephrotic syndrome","a":"Drug binds urinary protein; raised aldosterone","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0056","subtopic":"p2-renal-overview","kind":"fact","q":"Loop diuretic resistance from long-term use","a":"Distal nephron hypertrophy; adding a distal-acting thiazide restores diuresis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0057","subtopic":"p2-renal-loop","kind":"class","q":"High ceiling (loop) diuretics: list all","a":"Furosemide, bumetanide, torasemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0058","subtopic":"p2-renal-loop","kind":"fact","q":"Prototype loop diuretic","a":"Furosemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0059","subtopic":"p2-renal-loop","kind":"fact","q":"Major site of loop diuretic action","a":"Thick ascending limb of loop of Henle (TAL)","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0060","subtopic":"p2-renal-loop","kind":"fact","q":"Molecular target of furosemide","a":"Na+-K+-2Cl- cotransporter","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0061","subtopic":"p2-renal-loop","kind":"fact","q":"Binding site on the cotransporter used by furosemide","a":"Cl- binding site","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0062","subtopic":"p2-renal-loop","kind":"fact","q":"Structure of the Na+-K+-2Cl- cotransporter","a":"Glycoprotein with 12 membrane-spanning domains","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0063","subtopic":"p2-renal-loop","kind":"fact","q":"Location of the absorptive cotransporter isoform","a":"Luminal membrane of TAL only","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0064","subtopic":"p2-renal-loop","kind":"fact","q":"Location of the secretory cotransporter isoform","a":"Basolateral membrane of glandular and epithelial cells","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0065","subtopic":"p2-renal-loop","kind":"fact","q":"How furosemide reaches its site","a":"Secreted in PT by organic anion transport; acts from the luminal side","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0066","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide natriuretic capacity","a":"Maximal effect much greater than other classes; up to 10 L urine a day","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0067","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide in renal failure","a":"Still works in relatively severe renal failure","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0068","subtopic":"p2-renal-loop","kind":"fact","q":"Onset of furosemide action","a":"i.v. 2-5 min; i.m. 10-20 min; oral 20-40 min","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0069","subtopic":"p2-renal-loop","kind":"fact","q":"Duration of furosemide action","a":"3-6 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0070","subtopic":"p2-renal-loop","kind":"fact","q":"Effect of furosemide on corticomedullary osmotic gradient","a":"Abolished; positive and negative free water clearance blocked","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0071","subtopic":"p2-renal-loop","kind":"fact","q":"Why furosemide increases K+ excretion","a":"High Na+ load reaches the distal tubule","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0072","subtopic":"p2-renal-loop","kind":"fact","q":"Predominant urinary anion with furosemide","a":"Chloride, so acidosis does not develop","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0073","subtopic":"p2-renal-loop","kind":"fact","q":"Acid-base effect of high-dose furosemide","a":"Mild alkalosis from Cl- loss","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0074","subtopic":"p2-renal-loop","kind":"fact","q":"Immediate renal haemodynamic effect of i.v. furosemide","a":"Transient rise in renal blood flow shifted to midcortical zone; GFR largely unchanged","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0075","subtopic":"p2-renal-loop","kind":"fact","q":"Mediator of furosemide's intrarenal haemodynamic changes","a":"Increased local prostaglandin synthesis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0076","subtopic":"p2-renal-loop","kind":"fact","q":"Effect of furosemide on proximal tubular reabsorption","a":"Decreased","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0077","subtopic":"p2-renal-loop","kind":"fact","q":"Compensatory mechanism limiting furosemide diuresis","a":"Renin-angiotensin-aldosterone activation, reinforced by reflex renal sympathetic stimulation","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0078","subtopic":"p2-renal-loop","kind":"fact","q":"Trigger of renin release by furosemide","a":"Reduced Na+ entry into the macula densa","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0079","subtopic":"p2-renal-loop","kind":"fact","q":"Why i.v. furosemide relieves pulmonary oedema quickly","a":"PG-mediated venodilatation lowers LV filling pressure before saluresis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0080","subtopic":"p2-renal-loop","kind":"fact","q":"Effect of loop diuretics on Ca2+ excretion","a":"Increased; thiazides reduce it","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0081","subtopic":"p2-renal-loop","kind":"fact","q":"Mechanism of loop-induced Ca2+ and Mg2+ loss","a":"Abolishes the lumen-positive potential in TAL that drives their reabsorption","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0082","subtopic":"p2-renal-loop","kind":"fact","q":"Effect of furosemide on blood urate","a":"Raised, but less than with thiazides","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0083","subtopic":"p2-renal-loop","kind":"fact","q":"Effect of furosemide on blood sugar","a":"Small rise, less than with thiazides","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0084","subtopic":"p2-renal-loop","kind":"fact","q":"Oral bioavailability of furosemide","a":"About 60%; may fall markedly in severe CHF","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0085","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide absorption time","a":"Over 2-3 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0086","subtopic":"p2-renal-loop","kind":"fact","q":"Plasma half-life of furosemide","a":"1-2 hours; prolonged in pulmonary oedema, renal and hepatic insufficiency","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0087","subtopic":"p2-renal-loop","kind":"fact","q":"Elimination route of furosemide","a":"Mainly unchanged, by glomerular filtration and tubular secretion; some biliary excretion","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0088","subtopic":"p2-renal-loop","kind":"fact","q":"Lipid solubility and protein binding of furosemide","a":"Low lipid solubility; highly bound to plasma proteins","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0089","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide action after a single oral dose","a":"3-4 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0090","subtopic":"p2-renal-loop","kind":"fact","q":"Usual oral furosemide dose","a":"20-80 mg once daily in the morning","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0091","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide i.v. dose in pulmonary oedema","a":"40-80 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0092","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide dose in renal insufficiency","a":"Up to 200 mg 6-hourly by i.m. or i.v.","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0093","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide solution stability","a":"Degrades spontaneously on exposure to light","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0094","subtopic":"p2-renal-loop","kind":"fact","q":"Bumetanide potency","a":"About 40 times furosemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0095","subtopic":"p2-renal-loop","kind":"fact","q":"Why bumetanide is preferred orally in severe CHF","a":"Oral bioavailability 80-100%, unaffected by bowel oedema","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0096","subtopic":"p2-renal-loop","kind":"fact","q":"Bumetanide in furosemide non-responders or allergic patients","a":"May act where furosemide fails and may be tolerated by furosemide-allergic patients","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0097","subtopic":"p2-renal-loop","kind":"fact","q":"Adverse effects said to be less with bumetanide","a":"Hyperuricaemia, K+ loss, glucose intolerance and ototoxicity","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0098","subtopic":"p2-renal-loop","kind":"fact","q":"Rare toxicity of bumetanide","a":"Myopathy","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0099","subtopic":"p2-renal-loop","kind":"fact","q":"Plasma half-life of bumetanide","a":"About 60 min; prolonged in renal and hepatic insufficiency","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0100","subtopic":"p2-renal-loop","kind":"fact","q":"Oral bumetanide dose","a":"1-5 mg once daily in the morning","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0101","subtopic":"p2-renal-loop","kind":"fact","q":"Parenteral bumetanide dose","a":"2-4 mg i.m. or i.v.","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0102","subtopic":"p2-renal-loop","kind":"fact","q":"Maximum bumetanide dose in renal failure","a":"15 mg/day","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0103","subtopic":"p2-renal-loop","kind":"fact","q":"Torasemide potency","a":"2-3 times furosemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0104","subtopic":"p2-renal-loop","kind":"fact","q":"Oral absorption of torasemide","a":"More rapid and complete, even with bowel oedema in CHF","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0105","subtopic":"p2-renal-loop","kind":"fact","q":"Half-life and duration of torasemide","a":"Elimination half-life 3.5 hours; duration 4-8 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0106","subtopic":"p2-renal-loop","kind":"fact","q":"Torasemide doses","a":"2.5-5 mg OD in hypertension; 5-20 mg/day in oedema; up to 100 mg BD in renal failure","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0107","subtopic":"p2-renal-loop","kind":"fact","q":"Drug of choice for resistant nephrotic and other oedema","a":"High ceiling (loop) diuretics","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0108","subtopic":"p2-renal-loop","kind":"fact","q":"Loop diuretics in chronic renal failure","a":"Massive doses needed, but effective when thiazides are not","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0109","subtopic":"p2-renal-loop","kind":"fact","q":"Loop diuretics in impending acute renal failure","a":"Help short-term fluid management but do not change long-term outcome","refs":["KDT8 ch42","Katzung16 ch15","GG14 ch29"]},
-    {"id":"rf-p2-renal-0110","subtopic":"p2-renal-loop","kind":"fact","q":"Drug of choice for acute pulmonary oedema","a":"Intravenous furosemide or congeners; venodilatation acts before saluresis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0111","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide with an osmotic diuretic in cerebral oedema","a":"Furosemide may be combined with osmotic diuretics to improve efficacy","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0112","subtopic":"p2-renal-loop","kind":"fact","q":"Hypertension indications for high ceiling diuretics","a":"Renal insufficiency, heart failure, resistant cases, hypertensive emergencies","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0113","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide with blood transfusion","a":"Prevents volume overload in severely anaemic patients","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0114","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide with hypertonic saline","a":"Helpful in hyponatraemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0115","subtopic":"p2-renal-loop","kind":"fact","q":"First step in hypercalcaemia of malignancy","a":"Rapid, large-volume i.v. saline","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0116","subtopic":"p2-renal-loop","kind":"fact","q":"Furosemide infusion in hypercalcaemia","a":"10-20 mg/hour added after volume replacement","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0117","subtopic":"p2-renal-loop","kind":"fact","q":"Forced diuresis in poisoning","a":"No longer recommended with saline and furosemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0118","subtopic":"p2-renal-loop","kind":"fact","q":"Diuretic class causing hearing loss","a":"High ceiling (loop) diuretics only; risk higher with renal insufficiency","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0119","subtopic":"p2-renal-loop","kind":"fact","q":"Mechanism of loop diuretic ototoxicity","a":"Raised endolymph salt content and direct toxicity to inner ear hair cells","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0120","subtopic":"p2-renal-thiazides","kind":"class","q":"Thiazide and related diuretics: list all","a":"Hydrochlorothiazide, chlorthalidone, metolazone, xipamide, indapamide, clopamide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0121","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide site of action","a":"Early distal tubule (cortical diluting segment), luminal membrane","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0122","subtopic":"p2-renal-thiazides","kind":"fact","q":"Transporter inhibited by thiazides","a":"Luminal Na+-Cl- symporter","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0123","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide binding protein","a":"Glycoprotein with 12 membrane-spanning domains; binds thiazides, not furosemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0124","subtopic":"p2-renal-thiazides","kind":"fact","q":"Effect of thiazides on positive free water clearance","a":"Reduced; negative free water clearance (with ADH) unaffected","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0125","subtopic":"p2-renal-thiazides","kind":"fact","q":"Efficacy category of thiazides","a":"Medium (intermediate); maximal diuresis falls in a narrow range","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0126","subtopic":"p2-renal-thiazides","kind":"fact","q":"Why thiazides are only moderately efficacious","a":"About 90% of filtrate already reabsorbed before reaching them","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0127","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide dose-response shape","a":"Flat; little extra diuresis above hydrochlorothiazide 100 mg or equivalent","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0128","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide effect on acid-base balance","a":"No significant alteration","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0129","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide effect on GFR","a":"Tends to reduce it, so thiazides are ineffective at low GFR","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0130","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide effect on renal Ca2+ excretion","a":"Decreased, by direct distal tubular action","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0131","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide effect on Mg2+ excretion","a":"Increased","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0132","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide effect on urate excretion","a":"Greater reduction than furosemide, by the same mechanism","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0133","subtopic":"p2-renal-thiazides","kind":"fact","q":"Extrarenal BP effect of thiazides","a":"Slowly developing fall in BP in hypertensives","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0134","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide effect on blood sugar","a":"Raised in some patients, probably from hypokalaemia reducing insulin release","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0135","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide onset of action","a":"Within 1 hour","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0136","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide duration of action range","a":"6-48 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0137","subtopic":"p2-renal-thiazides","kind":"fact","q":"Route of thiazide administration","a":"Oral only; no injectable preparations","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0138","subtopic":"p2-renal-thiazides","kind":"fact","q":"Renal handling of thiazides","a":"Filtered and secreted in PT by organic anion transport; reabsorption depends on lipid solubility","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0139","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide dosing time","a":"Once in the morning, so diuresis does not disturb sleep","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0140","subtopic":"p2-renal-thiazides","kind":"fact","q":"Hydrochlorothiazide half-life and action","a":"Half-life 3-4 hours; action persists 6-12 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0141","subtopic":"p2-renal-thiazides","kind":"fact","q":"Hydrochlorothiazide daily dose range","a":"12.5-100 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0142","subtopic":"p2-renal-thiazides","kind":"fact","q":"Chlorthalidone daily dose range","a":"12.5-50 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0143","subtopic":"p2-renal-thiazides","kind":"fact","q":"Metolazone daily dose range","a":"5-20 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0144","subtopic":"p2-renal-thiazides","kind":"fact","q":"Xipamide daily dose range","a":"20-40 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0145","subtopic":"p2-renal-thiazides","kind":"fact","q":"Indapamide daily dose range","a":"2.5-5 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0146","subtopic":"p2-renal-thiazides","kind":"fact","q":"Clopamide daily dose range","a":"10-60 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0147","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide with strongest carbonic anhydrase inhibition","a":"Chlorthalidone (++)","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0148","subtopic":"p2-renal-thiazides","kind":"fact","q":"Chlorthalidone half-life and use","a":"40-50 hours; used exclusively as an antihypertensive","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0149","subtopic":"p2-renal-thiazides","kind":"fact","q":"Indapamide diuretic action at usual doses","a":"Little diuretic effect; antihypertensive action retained","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0150","subtopic":"p2-renal-thiazides","kind":"fact","q":"Indapamide guideline status","a":"Favoured by NICE guidelines (2011) for hypertension","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0151","subtopic":"p2-renal-thiazides","kind":"fact","q":"Metolazone effect at low GFR","a":"Clinically useful even in severe renal failure, GFR about 15 ml/min","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0152","subtopic":"p2-renal-thiazides","kind":"fact","q":"Metolazone additional proximal action","a":"Inhibits PO4 reabsorption in PT","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0153","subtopic":"p2-renal-thiazides","kind":"fact","q":"Metolazone combined with furosemide","a":"Marked additive action","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0154","subtopic":"p2-renal-thiazides","kind":"fact","q":"Metolazone excretion","a":"Unchanged in urine","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0155","subtopic":"p2-renal-thiazides","kind":"fact","q":"Metolazone dose in oedema","a":"5-10 mg/day; rarely 20 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0156","subtopic":"p2-renal-thiazides","kind":"fact","q":"Metolazone dose in hypertension","a":"2.5-5 mg/day","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0157","subtopic":"p2-renal-thiazides","kind":"fact","q":"Xipamide diuretic profile","a":"More pronounced action, similar to low-dose furosemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0158","subtopic":"p2-renal-thiazides","kind":"fact","q":"Xipamide hypokalaemia warning","a":"Severe hypokalaemia with ventricular arrhythmias reported","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0159","subtopic":"p2-renal-thiazides","kind":"fact","q":"Xipamide dose in oedema","a":"40 mg/day; maximum 80 mg/day","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0160","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide use in oedema","a":"Best in cardiac oedema; less effective in hepatic or renal oedema","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0161","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide refractoriness in cirrhosis","a":"Secondary hyperaldosteronism","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0162","subtopic":"p2-renal-thiazides","kind":"fact","q":"First-line thiazide antihypertensives","a":"Chlorthalidone and indapamide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0163","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazide use for hypercalciuria with kidney stones","a":"Reduces Ca2+ excretion in recurrent calcium stones","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0164","subtopic":"p2-renal-thiazides","kind":"fact","q":"Thiazides in renal failure","a":"Powerless in renal failure; metolazone may still act","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0165","subtopic":"p2-renal-thiazides","kind":"fact","q":"Hyperglycaemia and dyslipidaemia from thiazides","a":"Seen with higher past doses; minimal with the low doses used now","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0166","subtopic":"p2-renal-thiazides","kind":"fact","q":"Hyperuricaemia from higher-dose thiazides","a":"Uncommon now, because lower doses are used","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0167","subtopic":"p2-renal-potassium-sparing","kind":"class","q":"Potassium-sparing diuretics: list all","a":"Spironolactone, eplerenone, triamterene, amiloride","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0168","subtopic":"p2-renal-potassium-sparing","kind":"class","q":"Aldosterone antagonists: list all","a":"Spironolactone, eplerenone","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0169","subtopic":"p2-renal-potassium-sparing","kind":"class","q":"Renal epithelial Na+ channel inhibitors: list all","a":"Triamterene, amiloride","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0170","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Chemical class of spironolactone","a":"Steroid, chemically related to aldosterone","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0171","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Receptor and action of spironolactone","a":"Competitive antagonist at intracellular mineralocorticoid receptor; blocks aldosterone-induced proteins","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0172","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Site of spironolactone action","a":"Interstitial side of late DT and collecting duct cells","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0173","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone effect without aldosterone","a":"None on Na+ and K+ transport","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0174","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Natriuretic strength of spironolactone","a":"Mild saluretic, since most Na+ is already reabsorbed proximally","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0175","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Onset of K+ retention with spironolactone","a":"Develops over 3-4 days","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0176","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Effect of spironolactone on Ca2+ excretion","a":"Increased, by direct renal tubular action","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0177","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Oral bioavailability of spironolactone","a":"75% from microfine powder tablet","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0178","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Active metabolite of spironolactone","a":"Canrenone; responsible for 1/2 to 2/3 of action in vivo","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0179","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Half-lives of spironolactone and canrenone","a":"Spironolactone 1-2 hours; canrenone about 18 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0180","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Enterohepatic circulation of spironolactone","a":"Occurs","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0181","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone dose","a":"25-50 mg BD to QID; maximum 400 mg/day","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0182","subtopic":"p2-renal-potassium-sparing","kind":"class","q":"Diuretics combined with spironolactone in fixed-dose tablets: list all","a":"Hydroflumethiazide, furosemide, torasemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0183","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone role as a diuretic","a":"Weak in its own right; used mostly in combination","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0184","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone to counter K+ loss","a":"Loss caused by thiazide and loop diuretics","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0185","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Oedema best suited to spironolactone","a":"Cirrhotic and nephrotic oedema, where aldosterone levels are high","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0186","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone in ascites","a":"Added to thiazide or loop diuretics in cirrhotic ascites","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0187","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Cause of diuretic resistance that spironolactone breaks","a":"Secondary hyperaldosteronism","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0188","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone in resistant hypertension","a":"Augments a thiazide; prevents thiazide hypokalaemia; may attenuate renal fibrosis and hypertrophy","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0189","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone in heart failure","a":"Added in moderate to severe CHF; retards progression and lowers mortality","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0190","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Primary hyperaldosteronism","a":"Conn's syndrome; treated with spironolactone","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0191","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone with K+ supplements","a":"Can produce dangerous hyperkalaemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0192","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Aspirin and spironolactone","a":"Aspirin blocks action by inhibiting tubular secretion of canrenone","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0193","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone with ACE inhibitors or ARBs","a":"More pronounced hyperkalaemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0194","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Effect of spironolactone on digoxin","a":"Increases plasma digoxin concentration","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0195","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"CNS and GI adverse effects of spironolactone","a":"Drowsiness, ataxia, mental confusion, epigastric distress, loose motions","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0196","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Hormonal adverse effects of spironolactone in men","a":"Gynaecomastia, erectile dysfunction, loss of libido","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0197","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Hormonal adverse effects of spironolactone in women","a":"Breast tenderness and menstrual irregularities","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0198","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Most serious adverse effect of spironolactone","a":"Hyperkalaemia, especially with inadequate renal function","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0199","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Acidosis with spironolactone","a":"A risk, particularly in cirrhotics","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0200","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Spironolactone contraindication","a":"Peptic ulcer, which it can aggravate","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0201","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Selectivity of eplerenone","a":"Much lower affinity for androgen and progesterone receptors; fewer hormonal effects","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0202","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Metabolism of eplerenone","a":"Inactivated in liver by CYP3A4","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0203","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Excretion of eplerenone","a":"About 2/3 in urine, 1/3 in faeces","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0204","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Half-life of eplerenone","a":"4-6 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0205","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"CYP3A4 interactions of eplerenone","a":"Inhibitors such as clarithromycin and itraconazole raise levels; inducers such as carbamazepine and rifampin lower efficacy","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0206","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Indications for eplerenone","a":"Moderate to severe CHF, post-infarction LV dysfunction, hypertension; alternative to spironolactone","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0207","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Eplerenone dose","a":"25-50 mg BD","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0208","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Adverse effects of eplerenone","a":"Hyperkalaemia and GI effects like spironolactone; other effects close to placebo","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0209","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Action of triamterene and amiloride on K+","a":"Decreased K+ excretion, independent of aldosterone; urine slightly alkalinised","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0210","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Target of triamterene and amiloride","a":"Amiloride-sensitive renal epithelial Na+ channel of late DT and collecting duct","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0211","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Effect of amiloride on H+ secretion","a":"Decreased, predisposing to acidosis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0212","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Effect of triamterene and amiloride on Ca2+ and Mg2+","a":"Excretion reduced","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0213","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Use of triamterene or amiloride with other diuretics","a":"Prevents hypokalaemia and slightly augments natriuresis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0214","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Most important adverse effect of triamterene and amiloride","a":"Hyperkalaemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0215","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Avoid triamterene or amiloride in","a":"Renal insufficiency, or patients taking K+ supplements","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0216","subtopic":"p2-renal-potassium-sparing","kind":"class","q":"Drugs increasing hyperkalaemia risk with K+-sparing diuretics: list all","a":"ACE inhibitors, ARBs, NSAIDs","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0217","subtopic":"p2-renal-potassium-sparing","kind":"class","q":"Drugs raising plasma digoxin: list all","a":"Spironolactone, amiloride, triamterene","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0218","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Absorption and metabolism of triamterene","a":"Incompletely absorbed; partly protein bound; metabolised in liver to an active metabolite","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0219","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Half-life and duration of triamterene","a":"Half-life 4 hours; single dose acts 6-8 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0220","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Adverse effects of triamterene","a":"Nausea, dizziness, muscle cramps, raised blood urea; impaired glucose tolerance and photosensitivity","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0221","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Urate effect of triamterene","a":"Not increased","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0222","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Triamterene dose","a":"50-100 mg daily","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0223","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Triamterene fixed combinations","a":"With benzthiazide, or with furosemide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0224","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Potency of amiloride relative to triamterene","a":"About 10 times more potent","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0225","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Amiloride dose","a":"5-10 mg once or twice daily","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0226","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Effect of amiloride on urate","a":"Increases urate excretion, partly annulling thiazide hyperuricaemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0227","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Effect of amiloride on thiazide hypercalcaemia","a":"Thiazide hypercalcaemic action is augmented","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0228","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Oral absorption and fate of amiloride","a":"Only a fraction absorbed; not protein bound or metabolised","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0229","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Half-life and duration of amiloride","a":"About 20 hours; longer than triamterene","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0230","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Amiloride fixed combinations","a":"With hydrochlorothiazide 50 mg or furosemide 40 mg, each with amiloride 5 mg","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0231","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Adverse effects of amiloride","a":"Nausea, diarrhoea, headache","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0232","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Amiloride in cystic fibrosis","a":"Aerosol gives symptomatic improvement by increasing fluidity of respiratory secretions","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0233","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Antihypertensive action of amiloride","a":"Mild","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0234","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Reaction catalysed by carbonic anhydrase","a":"H2O and CO2 reversibly form H2CO3, which ionises to H+ and HCO3-","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0235","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Tissues rich in carbonic anhydrase","a":"Renal tubular cells (especially PT), gastric mucosa, exocrine pancreas, ciliary body, brain, RBC","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0236","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Carbonic anhydrase inhibition needed for effect","a":"More than 99%, because the enzyme is in gross excess","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0237","subtopic":"p2-renal-carbonic-osmotic","kind":"class","q":"Systemic carbonic anhydrase inhibitors: list all","a":"Acetazolamide, methazolamide, dichlorphenamide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0238","subtopic":"p2-renal-carbonic-osmotic","kind":"class","q":"Topical carbonic anhydrase inhibitors: list all","a":"Dorzolamide, brinzolamide","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0239","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Chemical class of acetazolamide","a":"Sulfonamide derivative","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0240","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Type of carbonic anhydrase inhibition by acetazolamide","a":"Non-competitive but reversible","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0241","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Main renal site of acetazolamide action","a":"Proximal tubule: blocks HCO3- and Na+ reabsorption","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0242","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Subsidiary site of acetazolamide action","a":"H+ secretion by intercalated cells of DT and collecting duct","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0243","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Strength of acetazolamide diuresis","a":"Mild alkaline diuresis; maximal fractional Na+ loss 5%","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0244","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Why acetazolamide diuresis is mild","a":"Part of the Na+ rejected in PT is reabsorbed in the TAL","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0245","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Kaliuresis with acetazolamide","a":"Most marked of all diuretics for the same natriuresis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0246","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Urine produced by acetazolamide","a":"Alkaline and rich in HCO3-, matched by Na+ and K+","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0247","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Why acetazolamide diuresis is self-limiting","a":"Body HCO3- depleted, causing acidosis; less HCO3- filtered","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0248","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Why acetazolamide is not used as a diuretic","a":"Self-limiting action, acidosis and hypokalaemia","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0249","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Acetazolamide and intraocular pressure","a":"Lowered by decreasing aqueous humour formation, which is rich in HCO3-","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0250","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"CNS effect of acetazolamide","a":"Raised brain CO2 and lower pH cause sedation and raise seizure threshold","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0251","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Pharmacokinetics of acetazolamide","a":"Well absorbed orally; excreted unchanged in urine; single dose lasts 8-12 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0252","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Acetazolamide dose","a":"250 mg OD to BD","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0253","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Acetazolamide use in glaucoma","a":"Adjuvant to other ocular hypotensives","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0254","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Acetazolamide use to alkalinise urine","a":"In urinary tract infection, or to promote excretion of acidic drugs","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0255","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Acetazolamide in epilepsy","a":"Adjuvant in absence seizures; tolerance develops","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0256","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Acetazolamide in mountain sickness","a":"Prophylaxis and relief; start 1-2 days before travel","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0257","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Other use of acetazolamide","a":"Periodic paralysis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0258","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Common adverse effects of acetazolamide","a":"Acidosis, hypokalaemia, drowsiness, paraesthesias, fatigue, abdominal discomfort","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0259","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Serious but rare adverse effect of acetazolamide","a":"Bone marrow depression","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0260","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Acetazolamide contraindication","a":"Liver disease: alkaline urine impairs NH3 excretion, risk of hepatic coma","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0261","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Acetazolamide acidosis risk group","a":"COPD patients","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0262","subtopic":"p2-renal-carbonic-osmotic","kind":"class","q":"Osmotic diuretics: list all","a":"Mannitol, isosorbide, glycerol","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0263","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol nature","a":"Low molecular weight (182), pharmacologically inert non-electrolyte","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0264","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol route of administration","a":"Not absorbed orally; i.v. as 10-20% solution","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0265","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol half-life","a":"0.5-1.5 hours","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0266","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol action in PT and descending limb","a":"Retains water isosmotically, diluting the luminal fluid","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0267","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol action on TAL","a":"Inhibits transport, by an unknown mechanism","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0268","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol effect on ECF volume, GFR and renin","a":"Expands ECF, raises GFR, inhibits renin release","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0269","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol effect on renal blood flow","a":"Increased, especially medullary; washes out medullary hypertonicity","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0270","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol effect on electrolyte excretion","a":"Excretion of all cations and anions increased","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0271","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol use in chronic oedema or as natriuretic","a":"Never used","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0272","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol use for raised intracranial or intraocular tension","a":"1-1.5 g/kg as 20% solution over 1 hour","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0273","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol in impending acute renal failure","a":"500-1000 mL of 10-20% over 24 hours; benefit proven only in cardiac surgery","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0274","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol in established acute renal failure","a":"Contraindicated: kidney cannot respond and plasma expansion risks pulmonary oedema","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0275","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol in dialysis disequilibrium","a":"Counteracts low plasma and ECF osmolality","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0276","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol in poisoning","a":"Forced diuresis not recommended; ineffective and causes electrolyte imbalance","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0277","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Mannitol contraindications","a":"Renal insufficiency, acute tubular necrosis, anuria, pulmonary oedema, acute LV failure, CHF, cerebral haemorrhage","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0278","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Most common adverse effect of mannitol","a":"Headache; nausea and vomiting may occur","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0279","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Serious adverse effect of intravenous glycerol","a":"Haemolysis","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0280","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Oral osmotic diuretic dose","a":"0.5-1.5 g/kg as oral solution","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0281","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Use of isosorbide and glycerol","a":"Reduce intraocular or intracranial tension","refs":["KDT8 ch42"]},
-    {"id":"rf-p2-renal-0282","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Human antidiuretic hormone","a":"8-arginine vasopressin (AVP), a nonapeptide","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0283","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Site of ADH synthesis","a":"Hypothalamic supraoptic and paraventricular nuclei, with neurophysin","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0284","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Site of ADH release","a":"Posterior pituitary (neurohypophysis), together with oxytocin","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0285","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Main stimuli for ADH release","a":"Rise in plasma osmolarity and contraction of ECF volume","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0286","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Volume receptors controlling ADH release","a":"Left atrium, ventricles and pulmonary veins","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0287","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Osmoreceptors sensing ingested salt","a":"Hepatic portal system; ADH released before plasma osmolarity rises","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0288","subtopic":"p2-renal-vasopressin","kind":"class","q":"Agents stimulating ADH release: list all","a":"Angiotensin II, prostaglandins, histamine, neuropeptide Y, acetylcholine, nicotine, imipramine","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0289","subtopic":"p2-renal-vasopressin","kind":"class","q":"Agents inhibiting ADH release: list all","a":"GABA, atrial natriuretic peptide, alcohol, haloperidol, phenytoin, glucocorticoids","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0290","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Opioid effect on ADH release","a":"Low-dose morphine inhibits; high doses enhance","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0291","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Source of lypressin","a":"Found in swine; also synthesised for clinical use","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0292","subtopic":"p2-renal-vasopressin","kind":"fact","q":"ADH receptor family","a":"G-protein coupled receptors: V1 and V2","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0293","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Subtypes of V1 receptor","a":"V1a and V1b","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0294","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Location of V1a receptors","a":"Vascular and visceral smooth muscle, renal medulla, cortical CD cells, platelets, liver, brain, adipose tissue","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0295","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Location of V1b receptors","a":"Anterior pituitary, certain brain areas, pancreas","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0296","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Location of V2 receptors","a":"Principal cells of collecting ducts, TAL cells, and endothelium (vasodilatory)","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0297","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Relative sensitivity of V2 receptors to AVP","a":"More sensitive than V1 receptors","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0298","subtopic":"p2-renal-vasopressin","kind":"fact","q":"V1 signalling pathway","a":"Phospholipase C, IP3 and DAG, releasing intracellular Ca2+","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0299","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Additional V1 pathway","a":"Phospholipase A2 activation, giving prostaglandins and eicosanoids","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0300","subtopic":"p2-renal-vasopressin","kind":"fact","q":"V2 signalling pathway","a":"Adenylyl cyclase and cAMP","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0301","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Long-term effect of persistent V1 stimulation","a":"Hypertrophy of vascular smooth muscle, via proto-oncogene activation","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0302","subtopic":"p2-renal-vasopressin","kind":"class","q":"Vasopressin analogues described: list all","a":"Lypressin, terlipressin, desmopressin","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0303","subtopic":"p2-renal-vasopressin","kind":"class","q":"Non-peptide vasopressin antagonists in clinical use: list all","a":"Tolvaptan, mozavaptan (V2); conivaptan (V1a and V2)","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0304","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Renal action of AVP","a":"Increases water permeability of collecting duct principal cells","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0305","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Maximum urine osmolarity in man","a":"Four times plasma osmolarity","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0306","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Acute V2 mechanism in collecting duct","a":"Exocytosis of aquaporin-2 vesicles into the apical membrane; endocytosis reduced","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0307","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Chronic V2 effect in collecting duct","a":"Increases aquaporin-2 synthesis","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0308","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Other aquaporins","a":"Aquaporin-1 in PT; aquaporin-3 and -4 on basolateral collecting duct membrane","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0309","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Urea transporter activated by AVP","a":"VRUT (UT-1) in inner medullary collecting duct","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0310","subtopic":"p2-renal-vasopressin","kind":"fact","q":"AVP action on TAL","a":"Activates and translocates Na+-K+-2Cl- cotransporter; long term increases its synthesis","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0311","subtopic":"p2-renal-vasopressin","kind":"fact","q":"V1 action on vasa recta","a":"Constriction, limiting washout of medullary hypertonicity","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0312","subtopic":"p2-renal-vasopressin","kind":"fact","q":"V1 action on medullary interstitial cells","a":"Raises PG synthesis, which opposes V2 antidiuresis","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0313","subtopic":"p2-renal-vasopressin","kind":"fact","q":"V1 action on collecting duct at high AVP levels","a":"Activates PKC, reducing V2 responsiveness","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0314","subtopic":"p2-renal-vasopressin","kind":"class","q":"Drugs potentiating AVP antidiuresis: list all","a":"NSAIDs (especially indomethacin), carbamazepine, chlorpropamide","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0315","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Vasoconstriction by AVP","a":"Via V1 receptors, raising peripheral resistance","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0316","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Why AVP does not raise BP at low doses","a":"Reflex fall in cardiac output counterbalances vasoconstriction","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0317","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Vascular beds most constricted by AVP","a":"Cutaneous, mesenteric, skeletal muscle, fat depot, thyroid, coronary","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0318","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Unmasking of V2 vasodilatation","a":"Use of a V1 antagonist, or desmopressin; endothelium-dependent NO","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0319","subtopic":"p2-renal-vasopressin","kind":"fact","q":"AVP effect on bowel","a":"Increases peristalsis, especially large bowel; expels gas and faeces","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0320","subtopic":"p2-renal-vasopressin","kind":"fact","q":"AVP effect on uterus","a":"Contracts via oxytocin receptors; equipotent with oxytocin before term","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0321","subtopic":"p2-renal-vasopressin","kind":"fact","q":"AVP effect on CNS","a":"Does not cross BBB; acts as a peptide neurotransmitter in brain and spinal cord","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0322","subtopic":"p2-renal-vasopressin","kind":"fact","q":"AVP effect on coagulation","a":"Releases factor VIII and von Willebrand factor via V2 receptors","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0323","subtopic":"p2-renal-vasopressin","kind":"fact","q":"AVP effect on platelets and liver","a":"Platelet aggregation and hepatic glycogenolysis","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0324","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Oral activity of AVP","a":"Inactive orally; destroyed by trypsin","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0325","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Plasma half-life of AVP","a":"About 25 minutes; action lasts 3-4 hours","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0326","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Cardiac adverse effects of AVP","a":"Bradycardia, increased afterload, angina from coronary constriction","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0327","subtopic":"p2-renal-vasopressin","kind":"fact","q":"AVP contraindications","a":"Ischaemic heart disease, hypertension, chronic nephritis, psychogenic polydipsia","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0328","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Lypressin receptor action and duration","a":"Acts on V1 and V2; somewhat less potent than AVP; lasts 4-6 hours","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0329","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Lypressin dose","a":"10 IU i.m. or s.c.; or 20 IU diluted and infused i.v. over 10-20 min","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0330","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Terlipressin nature","a":"Synthetic prodrug of vasopressin, longer acting","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0331","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Terlipressin dose","a":"2 mg i.v., then 1-2 mg every 4-6 hours as needed","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0332","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Selectivity of desmopressin","a":"Selective V2 agonist with negligible vasoconstrictor activity","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0333","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Antidiuretic potency of desmopressin","a":"About 12 times AVP","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0334","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Half-life and duration of desmopressin","a":"Half-life 1-2 hours; duration 8-12 hours","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0335","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Preparation of choice for V2 indications","a":"Desmopressin","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0336","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Preferred route of desmopressin","a":"Intranasal; bioavailability 10-20%","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0337","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Oral desmopressin bioavailability","a":"1-2%; oral dose is 10-15 times the intranasal dose","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0338","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Intranasal desmopressin dose","a":"Adults 10-40 µg/day in 2-3 divided doses; children (bedwetting) 5-10 µg at bedtime","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0339","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Oral and parenteral desmopressin doses","a":"Oral 0.1-0.2 mg TDS; s.c. or i.v. 2-4 µg/day in 2-3 divided doses","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0340","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Primary indication of antidiuretics","a":"Diabetes insipidus","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0341","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Better name for antidiuretics","a":"Anti-aquaretics: cut water excretion without affecting salt excretion","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0342","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Vasopressin in neurogenic (pituitary) DI","a":"Most important indication; effective","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0343","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Vasopressin in nephrogenic DI","a":"Ineffective, because the kidney does not respond to ADH","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0344","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Duration of therapy in DI","a":"Life-long, except transient DI after head injury or neurosurgery","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0345","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Basis for individualising desmopressin dose","a":"24-hour urine volume; minimum effective dose avoids hyponatraemia","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0346","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Test separating neurogenic from nephrogenic DI","a":"Vasopressin challenge: urine volume falls and osmolarity rises only if ADH is deficient","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0347","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Renal concentration test dose","a":"5-10 U aqueous vasopressin i.m., or desmopressin 2 µg (now preferred); read as urinary specific gravity","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0348","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Desmopressin for nocturia or bedwetting","a":"Reduces nocturnal voids by nearly half; first sleep period lengthened by about 2 hours","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0349","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Fluid restriction with desmopressin","a":"Restrict intake from 1 hour before to 8 hours after the dose","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0350","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Desmopressin treatment break","a":"Withhold for one week every 3 months for reassessment","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0351","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Desmopressin in haemophilia A and von Willebrand disease","a":"Preferred: 0.3 µg/kg in 50 mL saline i.v. over 30 min","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0352","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Common adverse effects of desmopressin","a":"Transient headache and flushing","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0353","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Local nasal adverse effects of desmopressin","a":"Irritation, congestion, rhinitis, ulceration, epistaxis","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0354","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Systemic adverse effects of vasopressin analogues","a":"Belching, nausea, abdominal cramps, pallor, urge to defecate, backache in women","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0355","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Serious adverse effects of desmopressin","a":"Fluid retention and hyponatraemia","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0356","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Symptoms of hyponatraemia from antidiuretics","a":"Headache, confusion, lassitude, nausea, vomiting, seizures from cerebral oedema; children more susceptible","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0357","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Vasopressin in bleeding oesophageal varices","a":"Constricts mesenteric vessels, reducing liver blood flow to the varices","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0358","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Preferred analogue for variceal bleeding","a":"Terlipressin: stops bleeding in about 80% and improves survival","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0359","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Alternative for variceal bleeding","a":"Octreotide (somatostatin analogue), i.v.","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0360","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Definitive therapy for oesophageal varices","a":"Endoscopic obliteration by sclerotherapy","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0361","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Vasopressin before abdominal radiography","a":"Lypressin or AVP used to drive gas out of bowel","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0362","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Thiazide effect in DI","a":"Paradoxical antidiuretic effect, reducing urine volume in pituitary and renal DI","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0363","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Only drugs effective in nephrogenic DI","a":"Thiazide diuretics","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0364","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Limitation of thiazides in DI","a":"Low efficacy; urine never becomes hypertonic as it can with AVP","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0365","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Proposed mechanism of thiazide antidiuresis","a":"Sustained electrolyte depletion, more isosmotic PT reabsorption, and reduced GFR","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0366","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Hydrochlorothiazide dose in DI","a":"25-50 mg TDS; K+ supplements needed","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0367","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Drug of choice for lithium-induced nephrogenic DI","a":"Amiloride, which also blocks Li+ entry into collecting duct cells","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0368","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Indomethacin in renal DI","a":"Reduces polyuria by lowering renal PG synthesis; can be combined with thiazide and amiloride","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0369","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Chlorpropamide in DI","a":"Reduces urine volume in pituitary DI, not renal DI; sensitises kidney to ADH","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0370","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Carbamazepine in DI","a":"Reduces urine volume in pituitary DI, mechanism unclear; high doses and marked adverse effects, little value","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0371","subtopic":"p2-renal-diabetes-insipidus","kind":"class","q":"Drugs partly antagonising AVP renal action: list all","a":"Lithium, demeclocycline","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0372","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Class of tolvaptan","a":"Orally active non-peptide selective V2 antagonist (aquaretic)","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0373","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Indications for tolvaptan","a":"Hyponatraemia from heart failure, cirrhosis, or SIADH","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0374","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Most frequent adverse effect of tolvaptan","a":"Thirst and dry mouth; also fever, GI upset, hyperglycaemia","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0375","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Risk of rapid hyponatraemia correction with tolvaptan","a":"Thrombotic complications from haemoconcentration; correct slowly","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0376","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Metabolism and interactions of tolvaptan","a":"CYP3A4; should not be given with CYP3A4 inhibitors","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0377","subtopic":"p2-renal-diabetes-insipidus","kind":"fact","q":"Half-life and dosing of tolvaptan","a":"6-8 hours; given once daily","refs":["KDT8 ch43"]},
-    {"id":"rf-p2-renal-0378","subtopic":"p2-renal-carbonic-osmotic","kind":"fact","q":"Renal adverse effects of acetazolamide","a":"Calcium phosphate stones; rarely acute kidney injury from crystals in alkaline urine","refs":["KDT8 ch42","Katzung16 ch15"]},
-    {"id":"rf-p2-renal-0379","subtopic":"p2-renal-vasopressin","kind":"fact","q":"Tolvaptan use in autosomal dominant polycystic kidney disease, and its risk at those doses","a":"Slows kidney enlargement and loss of function; liver test abnormalities in about 9%","refs":["KDT8 ch43","Katzung16 ch15"]},
-    {"id":"rf-p2-renal-0380","subtopic":"p2-renal-potassium-sparing","kind":"fact","q":"Nonsteroidal MR antagonist with minimal hormonal effects, used in CKD with type 2 diabetes","a":"Finerenone (main risk hyperkalaemia)","refs":["GG14 ch29"]}
+    {
+      "id": "rf-p2-renal-0001",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Definition of diuretics (natriuretics)",
+      "a": "Drugs causing a net loss of Na+ and water in urine",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0002",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Na+ balance during regular diuretic use",
+      "a": "Restored by homeostatic mechanisms, leaving a Na+ deficit and lower extracellular fluid volume",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0003",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Injected organomercurial diuretics",
+      "a": "Introduced in the 1920s and dominated for nearly 40 years",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0004",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Origin of carbonic anhydrase inhibitor diuretics",
+      "a": "Early sulfonamides caused acidosis and mild diuresis (1950s)",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0005",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "First modern orally active diuretic",
+      "a": "Chlorothiazide, 1957",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0006",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretics that revolutionised use in the mid-1960s",
+      "a": "Furosemide and ethacrynic acid",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0007",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Aldosterone antagonist diuretic",
+      "a": "Spironolactone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0008",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "K+-sparing diuretics developed alongside spironolactone",
+      "a": "Triamterene and amiloride",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0009",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Current main driver of diuretic use",
+      "a": "Hypertension, which has outstripped their use in oedema",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0010",
+      "subtopic": "p2-renal-overview",
+      "kind": "class",
+      "q": "Diuretic classes by site of action: list all",
+      "a": "High ceiling (loop), thiazide and related, carbonic anhydrase inhibitors, potassium-sparing, osmotic",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0011",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Loop diuretic site in the book's figure numbering",
+      "a": "Site II: Na+-K+-2Cl- cotransport in TAL",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0012",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Thiazide site in the book's figure numbering",
+      "a": "Site III: cortical diluting segment or early DT",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0013",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Maximal filtered Na+ excreted with furosemide",
+      "a": "25%",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0014",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Maximal filtered Na+ excreted with mannitol",
+      "a": "20%",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0015",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Maximal filtered Na+ excreted with thiazides",
+      "a": "8%",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0016",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Maximal filtered Na+ excreted with acetazolamide",
+      "a": "5%",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0017",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Maximal filtered Na+ excreted with spironolactone",
+      "a": "3%",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0018",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Maximal filtered Na+ excreted with amiloride",
+      "a": "3%",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0019",
+      "subtopic": "p2-renal-overview",
+      "kind": "class",
+      "q": "Diuretics of high efficacy: list all",
+      "a": "Furosemide and mannitol",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0020",
+      "subtopic": "p2-renal-overview",
+      "kind": "class",
+      "q": "Diuretics of low efficacy: list all",
+      "a": "Spironolactone and amiloride",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0021",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Most significant electrolyte problem of diuretic therapy",
+      "a": "Hypokalaemia; worse with longer-acting drugs and low dietary K+",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0022",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Symptoms of diuretic hypokalaemia",
+      "a": "Weakness, fatigue, muscle cramps; arrhythmias are the serious complication",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0023",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Ways to prevent or treat diuretic hypokalaemia",
+      "a": "High dietary K+, KCl 24-72 mEq/day, or a concurrent K+-sparing diuretic",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0024",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Serum K+ level to aim for on diuretics",
+      "a": "At or above 3.5 mEq/L",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0025",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Why serum K+ is only a rough guide to depletion",
+      "a": "K+ is primarily an intracellular ion",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0026",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Why K+-sparing diuretics are preferred to K+ supplements",
+      "a": "More efficacious and more convenient for correcting hypokalaemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0027",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Combined diuretic and KCl tablets",
+      "a": "Not recommended; KCl released at one spot can ulcerate the gut",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0028",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "ACE inhibitors or AT1 antagonists given with thiazides",
+      "a": "Tend to prevent hypokalaemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0029",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Alkalosis mechanism in hypokalaemia",
+      "a": "More H+ exchanges for Na+ in the distal tubule when less K+ is available",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0030",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Groups needing K+ monitoring on diuretics",
+      "a": "Cirrhotics, post-MI patients, those on digoxin, antiarrhythmics or tricyclics, elderly",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0031",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Acute saline depletion from over-enthusiastic diuresis",
+      "a": "Dehydration and postural fall in BP; Na+ and Cl- normal; treat with saline infusion",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0032",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic haemoconcentration risk",
+      "a": "Peripheral venous thrombosis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0033",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Dilutional hyponatraemia with high ceiling diuretics",
+      "a": "Water retained, ECF diluted, oedema persists (heart failure); hyponatraemia overall is more common with thiazides",
+      "refs": [
+        "KDT8 ch42",
+        "Katzung16 ch15",
+        "GG14 ch29"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0034",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Treatment of dilutional hyponatraemia",
+      "a": "Withhold diuretic, restrict water, give glucocorticoid, correct hypokalaemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0035",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Hypocalcaemia with diuretics",
+      "a": "Chronic high ceiling use; thiazides tend to raise serum Ca2+",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0036",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Magnesium depletion with diuretics",
+      "a": "After prolonged thiazide or loop use; raises arrhythmia risk; K+-sparing diuretics minimise it",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0037",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Hyperuricaemia from diuretics",
+      "a": "Counteracted by allopurinol",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0038",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Probenecid interaction with diuretics",
+      "a": "Competitively blocks tubular secretion, reducing diuretic action",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0039",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic effect on probenecid uricosuria",
+      "a": "Diuretics diminish the uricosuric action of probenecid",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0040",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Allergic reactions to diuretics",
+      "a": "Rashes and photosensitivity, especially in sulfonamide-hypersensitive patients",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0041",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Blood dyscrasias with diuretics",
+      "a": "Rare; any diuretic may be causative",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0042",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Brisk diuresis in cirrhosis",
+      "a": "Can precipitate mental disturbance and hepatic coma",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0043",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretics in toxaemia of pregnancy",
+      "a": "Avoid: low blood volume despite oedema; risk of miscarriage or foetal death",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0044",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "NSAIDs and diuretics",
+      "a": "Indomethacin and other NSAIDs blunt loop and thiazide action by blocking renal PG synthesis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0045",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretics and aminoglycosides",
+      "a": "Both ototoxic and nephrotoxic; concurrent use needs caution",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0046",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretics and other antihypertensives",
+      "a": "Thiazides and high ceiling diuretics potentiate them, used deliberately",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0047",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic-induced hypokalaemia and digoxin",
+      "a": "Enhances digoxin toxicity",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0048",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic-induced hypokalaemia and sulfonylureas",
+      "a": "Reduces sulfonylurea action",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0049",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic-induced hypokalaemia and QT drugs",
+      "a": "Increases risk of polymorphic ventricular tachycardia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0050",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretics and serum lithium",
+      "a": "Serum lithium rises, from enhanced PT reabsorption of Li+ and Na+",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0051",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Thiazides and renal insufficiency",
+      "a": "Can occasionally aggravate it by reducing GFR",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0052",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic resistance in renal insufficiency",
+      "a": "Low GFR and less PT secretion, so less drug reaches its site",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0053",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic resistance in CHF",
+      "a": "Impaired oral absorption from bowel congestion, and reduced renal blood flow",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0054",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic resistance in cirrhosis",
+      "a": "Raised aldosterone levels",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0055",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Diuretic resistance in nephrotic syndrome",
+      "a": "Drug binds urinary protein; raised aldosterone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0056",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Loop diuretic resistance from long-term use",
+      "a": "Distal nephron hypertrophy; adding a distal-acting thiazide restores diuresis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0057",
+      "subtopic": "p2-renal-loop",
+      "kind": "class",
+      "q": "High ceiling (loop) diuretics: list all",
+      "a": "Furosemide, bumetanide, torasemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0058",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Prototype loop diuretic",
+      "a": "Furosemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0059",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Major site of loop diuretic action",
+      "a": "Thick ascending limb of loop of Henle (TAL)",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0060",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Molecular target of furosemide",
+      "a": "Na+-K+-2Cl- cotransporter",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0061",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Binding site on the cotransporter used by furosemide",
+      "a": "Cl- binding site",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0062",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Structure of the Na+-K+-2Cl- cotransporter",
+      "a": "Glycoprotein with 12 membrane-spanning domains",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0063",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Location of the absorptive cotransporter isoform",
+      "a": "Luminal membrane of TAL only",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0064",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Location of the secretory cotransporter isoform",
+      "a": "Basolateral membrane of glandular and epithelial cells",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0065",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "How furosemide reaches its site",
+      "a": "Secreted in PT by organic anion transport; acts from the luminal side",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0066",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide natriuretic capacity",
+      "a": "Maximal effect much greater than other classes; up to 10 L urine a day",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0067",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide in renal failure",
+      "a": "Still works in relatively severe renal failure",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0068",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Onset of furosemide action",
+      "a": "i.v. 2-5 min; i.m. 10-20 min; oral 20-40 min",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0069",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Duration of furosemide action",
+      "a": "3-6 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0070",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Effect of furosemide on corticomedullary osmotic gradient",
+      "a": "Abolished; positive and negative free water clearance blocked",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0071",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Why furosemide increases K+ excretion",
+      "a": "High Na+ load reaches the distal tubule",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0072",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Predominant urinary anion with furosemide",
+      "a": "Chloride, so acidosis does not develop",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0073",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Acid-base effect of high-dose furosemide",
+      "a": "Mild alkalosis from Cl- loss",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0074",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Immediate renal haemodynamic effect of i.v. furosemide",
+      "a": "Transient rise in renal blood flow shifted to midcortical zone; GFR largely unchanged",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0075",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Mediator of furosemide's intrarenal haemodynamic changes",
+      "a": "Increased local prostaglandin synthesis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0076",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Effect of furosemide on proximal tubular reabsorption",
+      "a": "Decreased",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0077",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Compensatory mechanism limiting furosemide diuresis",
+      "a": "Renin-angiotensin-aldosterone activation, reinforced by reflex renal sympathetic stimulation",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0078",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Trigger of renin release by furosemide",
+      "a": "Reduced Na+ entry into the macula densa",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0079",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Why i.v. furosemide relieves pulmonary oedema quickly",
+      "a": "PG-mediated venodilatation lowers LV filling pressure before saluresis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0080",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Effect of loop diuretics on Ca2+ excretion",
+      "a": "Increased; thiazides reduce it",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0081",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Mechanism of loop-induced Ca2+ and Mg2+ loss",
+      "a": "Abolishes the lumen-positive potential in TAL that drives their reabsorption",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0082",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Effect of furosemide on blood urate",
+      "a": "Raised, but less than with thiazides",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0083",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Effect of furosemide on blood sugar",
+      "a": "Small rise, less than with thiazides",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0084",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Oral bioavailability of furosemide",
+      "a": "About 60%; may fall markedly in severe CHF",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0085",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide absorption time",
+      "a": "Over 2-3 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0086",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Plasma half-life of furosemide",
+      "a": "1-2 hours; prolonged in pulmonary oedema, renal and hepatic insufficiency",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0087",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Elimination route of furosemide",
+      "a": "Mainly unchanged, by glomerular filtration and tubular secretion; some biliary excretion",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0088",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Lipid solubility and protein binding of furosemide",
+      "a": "Low lipid solubility; highly bound to plasma proteins",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0089",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide action after a single oral dose",
+      "a": "3-4 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0090",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Usual oral furosemide dose",
+      "a": "20-80 mg once daily in the morning",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0091",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide i.v. dose in pulmonary oedema",
+      "a": "40-80 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0092",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide dose in renal insufficiency",
+      "a": "Up to 200 mg 6-hourly by i.m. or i.v.",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0093",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide solution stability",
+      "a": "Degrades spontaneously on exposure to light",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0094",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Bumetanide potency",
+      "a": "About 40 times furosemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0095",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Why bumetanide is preferred orally in severe CHF",
+      "a": "Oral bioavailability 80-100%, unaffected by bowel oedema",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0096",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Bumetanide in furosemide non-responders or allergic patients",
+      "a": "May act where furosemide fails and may be tolerated by furosemide-allergic patients",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0097",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Adverse effects said to be less with bumetanide",
+      "a": "Hyperuricaemia, K+ loss, glucose intolerance and ototoxicity",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0098",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Rare toxicity of bumetanide",
+      "a": "Myopathy",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0099",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Plasma half-life of bumetanide",
+      "a": "About 60 min; prolonged in renal and hepatic insufficiency",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0100",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Oral bumetanide dose",
+      "a": "1-5 mg once daily in the morning",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0101",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Parenteral bumetanide dose",
+      "a": "2-4 mg i.m. or i.v.",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0102",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Maximum bumetanide dose in renal failure",
+      "a": "15 mg/day",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0103",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Torasemide potency",
+      "a": "2-3 times furosemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0104",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Oral absorption of torasemide",
+      "a": "More rapid and complete, even with bowel oedema in CHF",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0105",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Half-life and duration of torasemide",
+      "a": "Elimination half-life 3.5 hours; duration 4-8 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0106",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Torasemide doses",
+      "a": "2.5-5 mg OD in hypertension; 5-20 mg/day in oedema; up to 100 mg BD in renal failure",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0107",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Drug of choice for resistant nephrotic and other oedema",
+      "a": "High ceiling (loop) diuretics",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0108",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Loop diuretics in chronic renal failure",
+      "a": "Massive doses needed, but effective when thiazides are not",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0109",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Loop diuretics in impending acute renal failure",
+      "a": "Help short-term fluid management but do not change long-term outcome",
+      "refs": [
+        "KDT8 ch42",
+        "Katzung16 ch15",
+        "GG14 ch29"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0110",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Drug of choice for acute pulmonary oedema",
+      "a": "Intravenous furosemide or congeners; venodilatation acts before saluresis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0111",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide with an osmotic diuretic in cerebral oedema",
+      "a": "Furosemide may be combined with osmotic diuretics to improve efficacy",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0112",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Hypertension indications for high ceiling diuretics",
+      "a": "Renal insufficiency, heart failure, resistant cases, hypertensive emergencies",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0113",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide with blood transfusion",
+      "a": "Prevents volume overload in severely anaemic patients",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0114",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide with hypertonic saline",
+      "a": "Helpful in hyponatraemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0115",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "First step in hypercalcaemia of malignancy",
+      "a": "Rapid, large-volume i.v. saline",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0116",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Furosemide infusion in hypercalcaemia",
+      "a": "10-20 mg/hour added after volume replacement",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0117",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Forced diuresis in poisoning",
+      "a": "No longer recommended with saline and furosemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0118",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Diuretic class causing hearing loss",
+      "a": "High ceiling (loop) diuretics only; risk higher with renal insufficiency",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0119",
+      "subtopic": "p2-renal-loop",
+      "kind": "fact",
+      "q": "Mechanism of loop diuretic ototoxicity",
+      "a": "Raised endolymph salt content and direct toxicity to inner ear hair cells",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0120",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "class",
+      "q": "Thiazide and related diuretics: list all",
+      "a": "Hydrochlorothiazide, chlorthalidone, metolazone, xipamide, indapamide, clopamide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0121",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide site of action",
+      "a": "Early distal tubule (cortical diluting segment), luminal membrane",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0122",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Transporter inhibited by thiazides",
+      "a": "Luminal Na+-Cl- symporter",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0123",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide binding protein",
+      "a": "Glycoprotein with 12 membrane-spanning domains; binds thiazides, not furosemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0124",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Effect of thiazides on positive free water clearance",
+      "a": "Reduced; negative free water clearance (with ADH) unaffected",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0125",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Efficacy category of thiazides",
+      "a": "Medium (intermediate); maximal diuresis falls in a narrow range",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0126",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Why thiazides are only moderately efficacious",
+      "a": "About 90% of filtrate already reabsorbed before reaching them",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0127",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide dose-response shape",
+      "a": "Flat; little extra diuresis above hydrochlorothiazide 100 mg or equivalent",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0128",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide effect on acid-base balance",
+      "a": "No significant alteration",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0129",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide effect on GFR",
+      "a": "Tends to reduce it, so thiazides are ineffective at low GFR",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0130",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide effect on renal Ca2+ excretion",
+      "a": "Decreased, by direct distal tubular action",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0131",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide effect on Mg2+ excretion",
+      "a": "Increased",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0132",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide effect on urate excretion",
+      "a": "Greater reduction than furosemide, by the same mechanism",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0133",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Extrarenal BP effect of thiazides",
+      "a": "Slowly developing fall in BP in hypertensives",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0134",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide effect on blood sugar",
+      "a": "Raised in some patients, probably from hypokalaemia reducing insulin release",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0135",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide onset of action",
+      "a": "Within 1 hour",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0136",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide duration of action range",
+      "a": "6-48 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0137",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Route of thiazide administration",
+      "a": "Oral only; no injectable preparations",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0138",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Renal handling of thiazides",
+      "a": "Filtered and secreted in PT by organic anion transport; reabsorption depends on lipid solubility",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0139",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide dosing time",
+      "a": "Once in the morning, so diuresis does not disturb sleep",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0140",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Hydrochlorothiazide half-life and action",
+      "a": "Half-life 3-4 hours; action persists 6-12 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0141",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Hydrochlorothiazide daily dose range",
+      "a": "12.5-100 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0142",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Chlorthalidone daily dose range",
+      "a": "12.5-50 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0143",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Metolazone daily dose range",
+      "a": "5-20 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0144",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Xipamide daily dose range",
+      "a": "20-40 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0145",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Indapamide daily dose range",
+      "a": "2.5-5 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0146",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Clopamide daily dose range",
+      "a": "10-60 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0147",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide with strongest carbonic anhydrase inhibition",
+      "a": "Chlorthalidone (++)",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0148",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Chlorthalidone half-life and use",
+      "a": "40-50 hours; used exclusively as an antihypertensive",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0149",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Indapamide diuretic action at usual doses",
+      "a": "Little diuretic effect; antihypertensive action retained",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0150",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Indapamide guideline status",
+      "a": "Favoured by NICE guidelines (2011) for hypertension",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0151",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Metolazone effect at low GFR",
+      "a": "Clinically useful even in severe renal failure, GFR about 15 ml/min",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0152",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Metolazone additional proximal action",
+      "a": "Inhibits PO4 reabsorption in PT",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0153",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Metolazone combined with furosemide",
+      "a": "Marked additive action",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0154",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Metolazone excretion",
+      "a": "Unchanged in urine",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0155",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Metolazone dose in oedema",
+      "a": "5-10 mg/day; rarely 20 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0156",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Metolazone dose in hypertension",
+      "a": "2.5-5 mg/day",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0157",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Xipamide diuretic profile",
+      "a": "More pronounced action, similar to low-dose furosemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0158",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Xipamide hypokalaemia warning",
+      "a": "Severe hypokalaemia with ventricular arrhythmias reported",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0159",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Xipamide dose in oedema",
+      "a": "40 mg/day; maximum 80 mg/day",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0160",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide use in oedema",
+      "a": "Best in cardiac oedema; less effective in hepatic or renal oedema",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0161",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide refractoriness in cirrhosis",
+      "a": "Secondary hyperaldosteronism",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0162",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "First-line thiazide antihypertensives",
+      "a": "Chlorthalidone and indapamide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0163",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazide use for hypercalciuria with kidney stones",
+      "a": "Reduces Ca2+ excretion in recurrent calcium stones",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0164",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Thiazides in renal failure",
+      "a": "Powerless in renal failure; metolazone may still act",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0165",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Hyperglycaemia and dyslipidaemia from thiazides",
+      "a": "Seen with higher past doses; minimal with the low doses used now",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0166",
+      "subtopic": "p2-renal-thiazides",
+      "kind": "fact",
+      "q": "Hyperuricaemia from higher-dose thiazides",
+      "a": "Uncommon now, because lower doses are used",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0167",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "class",
+      "q": "Potassium-sparing diuretics: list all",
+      "a": "Spironolactone, eplerenone, triamterene, amiloride",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0168",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "class",
+      "q": "Aldosterone antagonists: list all",
+      "a": "Spironolactone, eplerenone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0169",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "class",
+      "q": "Renal epithelial Na+ channel inhibitors: list all",
+      "a": "Triamterene, amiloride",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0170",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Chemical class of spironolactone",
+      "a": "Steroid, chemically related to aldosterone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0171",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Receptor and action of spironolactone",
+      "a": "Competitive antagonist at intracellular mineralocorticoid receptor; blocks aldosterone-induced proteins",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0172",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Site of spironolactone action",
+      "a": "Interstitial side of late DT and collecting duct cells",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0173",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone effect without aldosterone",
+      "a": "None on Na+ and K+ transport",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0174",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Natriuretic strength of spironolactone",
+      "a": "Mild saluretic, since most Na+ is already reabsorbed proximally",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0175",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Onset of K+ retention with spironolactone",
+      "a": "Develops over 3-4 days",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0176",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Effect of spironolactone on Ca2+ excretion",
+      "a": "Increased, by direct renal tubular action",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0177",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Oral bioavailability of spironolactone",
+      "a": "75% from microfine powder tablet",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0178",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Active metabolite of spironolactone",
+      "a": "Canrenone; responsible for 1/2 to 2/3 of action in vivo",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0179",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Half-lives of spironolactone and canrenone",
+      "a": "Spironolactone 1-2 hours; canrenone about 18 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0180",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Enterohepatic circulation of spironolactone",
+      "a": "Occurs",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0181",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone dose",
+      "a": "25-50 mg BD to QID; maximum 400 mg/day",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0182",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "class",
+      "q": "Diuretics combined with spironolactone in fixed-dose tablets: list all",
+      "a": "Hydroflumethiazide, furosemide, torasemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0183",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone role as a diuretic",
+      "a": "Weak in its own right; used mostly in combination",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0184",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone to counter K+ loss",
+      "a": "Loss caused by thiazide and loop diuretics",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0185",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Oedema best suited to spironolactone",
+      "a": "Cirrhotic and nephrotic oedema, where aldosterone levels are high",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0186",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone in ascites",
+      "a": "Added to thiazide or loop diuretics in cirrhotic ascites",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0187",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Cause of diuretic resistance that spironolactone breaks",
+      "a": "Secondary hyperaldosteronism",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0188",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone in resistant hypertension",
+      "a": "Augments a thiazide; prevents thiazide hypokalaemia; may attenuate renal fibrosis and hypertrophy",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0189",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone in heart failure",
+      "a": "Added in moderate to severe CHF; retards progression and lowers mortality",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0190",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Primary hyperaldosteronism",
+      "a": "Conn's syndrome; treated with spironolactone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0191",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone with K+ supplements",
+      "a": "Can produce dangerous hyperkalaemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0192",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Aspirin and spironolactone",
+      "a": "Aspirin blocks action by inhibiting tubular secretion of canrenone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0193",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone with ACE inhibitors or ARBs",
+      "a": "More pronounced hyperkalaemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0194",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Effect of spironolactone on digoxin",
+      "a": "Increases plasma digoxin concentration",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0195",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "CNS and GI adverse effects of spironolactone",
+      "a": "Drowsiness, ataxia, mental confusion, epigastric distress, loose motions",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0196",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Hormonal adverse effects of spironolactone in men",
+      "a": "Gynaecomastia, erectile dysfunction, loss of libido",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0197",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Hormonal adverse effects of spironolactone in women",
+      "a": "Breast tenderness and menstrual irregularities",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0198",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Most serious adverse effect of spironolactone",
+      "a": "Hyperkalaemia, especially with inadequate renal function",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0199",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Acidosis with spironolactone",
+      "a": "A risk, particularly in cirrhotics",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0200",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Spironolactone contraindication",
+      "a": "Peptic ulcer, which it can aggravate",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0201",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Selectivity of eplerenone",
+      "a": "Much lower affinity for androgen and progesterone receptors; fewer hormonal effects",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0202",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Metabolism of eplerenone",
+      "a": "Inactivated in liver by CYP3A4",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0203",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Excretion of eplerenone",
+      "a": "About 2/3 in urine, 1/3 in faeces",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0204",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Half-life of eplerenone",
+      "a": "4-6 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0205",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "CYP3A4 interactions of eplerenone",
+      "a": "Inhibitors such as clarithromycin and itraconazole raise levels; inducers such as carbamazepine and rifampin lower efficacy",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0206",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Indications for eplerenone",
+      "a": "Moderate to severe CHF, post-infarction LV dysfunction, hypertension; alternative to spironolactone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0207",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Eplerenone dose",
+      "a": "25-50 mg BD",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0208",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Adverse effects of eplerenone",
+      "a": "Hyperkalaemia and GI effects like spironolactone; other effects close to placebo",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0209",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Action of triamterene and amiloride on K+",
+      "a": "Decreased K+ excretion, independent of aldosterone; urine slightly alkalinised",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0210",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Target of triamterene and amiloride",
+      "a": "Amiloride-sensitive renal epithelial Na+ channel of late DT and collecting duct",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0211",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Effect of amiloride on H+ secretion",
+      "a": "Decreased, predisposing to acidosis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0212",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Effect of triamterene and amiloride on Ca2+ and Mg2+",
+      "a": "Excretion reduced",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0213",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Use of triamterene or amiloride with other diuretics",
+      "a": "Prevents hypokalaemia and slightly augments natriuresis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0214",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Most important adverse effect of triamterene and amiloride",
+      "a": "Hyperkalaemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0215",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Avoid triamterene or amiloride in",
+      "a": "Renal insufficiency, or patients taking K+ supplements",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0216",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "class",
+      "q": "Drugs increasing hyperkalaemia risk with K+-sparing diuretics: list all",
+      "a": "ACE inhibitors, ARBs, NSAIDs",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0217",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "class",
+      "q": "Drugs raising plasma digoxin: list all",
+      "a": "Spironolactone, amiloride, triamterene",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0218",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Absorption and metabolism of triamterene",
+      "a": "Incompletely absorbed; partly protein bound; metabolised in liver to an active metabolite",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0219",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Half-life and duration of triamterene",
+      "a": "Half-life 4 hours; single dose acts 6-8 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0220",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Adverse effects of triamterene",
+      "a": "Nausea, dizziness, muscle cramps, raised blood urea; impaired glucose tolerance and photosensitivity",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0221",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Urate effect of triamterene",
+      "a": "Not increased",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0222",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Triamterene dose",
+      "a": "50-100 mg daily",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0223",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Triamterene fixed combinations",
+      "a": "With benzthiazide, or with furosemide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0224",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Potency of amiloride relative to triamterene",
+      "a": "About 10 times more potent",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0225",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Amiloride dose",
+      "a": "5-10 mg once or twice daily",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0226",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Effect of amiloride on urate",
+      "a": "Increases urate excretion, partly annulling thiazide hyperuricaemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0227",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Effect of amiloride on thiazide hypercalcaemia",
+      "a": "Thiazide hypercalcaemic action is augmented",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0228",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Oral absorption and fate of amiloride",
+      "a": "Only a fraction absorbed; not protein bound or metabolised",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0229",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Half-life and duration of amiloride",
+      "a": "About 20 hours; longer than triamterene",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0230",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Amiloride fixed combinations",
+      "a": "With hydrochlorothiazide 50 mg or furosemide 40 mg, each with amiloride 5 mg",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0231",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Adverse effects of amiloride",
+      "a": "Nausea, diarrhoea, headache",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0232",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Amiloride in cystic fibrosis",
+      "a": "Aerosol gives symptomatic improvement by increasing fluidity of respiratory secretions",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0233",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Antihypertensive action of amiloride",
+      "a": "Mild",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0234",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Reaction catalysed by carbonic anhydrase",
+      "a": "H2O and CO2 reversibly form H2CO3, which ionises to H+ and HCO3-",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0235",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Tissues rich in carbonic anhydrase",
+      "a": "Renal tubular cells (especially PT), gastric mucosa, exocrine pancreas, ciliary body, brain, RBC",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0236",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Carbonic anhydrase inhibition needed for effect",
+      "a": "More than 99%, because the enzyme is in gross excess",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0237",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "class",
+      "q": "Systemic carbonic anhydrase inhibitors: list all",
+      "a": "Acetazolamide, methazolamide, dichlorphenamide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0238",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "class",
+      "q": "Topical carbonic anhydrase inhibitors: list all",
+      "a": "Dorzolamide, brinzolamide",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0239",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Chemical class of acetazolamide",
+      "a": "Sulfonamide derivative",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0240",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Type of carbonic anhydrase inhibition by acetazolamide",
+      "a": "Non-competitive but reversible",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0241",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Main renal site of acetazolamide action",
+      "a": "Proximal tubule: blocks HCO3- and Na+ reabsorption",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0242",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Subsidiary site of acetazolamide action",
+      "a": "H+ secretion by intercalated cells of DT and collecting duct",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0243",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Strength of acetazolamide diuresis",
+      "a": "Mild alkaline diuresis; maximal fractional Na+ loss 5%",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0244",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Why acetazolamide diuresis is mild",
+      "a": "Part of the Na+ rejected in PT is reabsorbed in the TAL",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0245",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Kaliuresis with acetazolamide",
+      "a": "Most marked of all diuretics for the same natriuresis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0246",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Urine produced by acetazolamide",
+      "a": "Alkaline and rich in HCO3-, matched by Na+ and K+",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0247",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Why acetazolamide diuresis is self-limiting",
+      "a": "Body HCO3- depleted, causing acidosis; less HCO3- filtered",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0248",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Why acetazolamide is not used as a diuretic",
+      "a": "Self-limiting action, acidosis and hypokalaemia",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0249",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Acetazolamide and intraocular pressure",
+      "a": "Lowered by decreasing aqueous humour formation, which is rich in HCO3-",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0250",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "CNS effect of acetazolamide",
+      "a": "Raised brain CO2 and lower pH cause sedation and raise seizure threshold",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0251",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Pharmacokinetics of acetazolamide",
+      "a": "Well absorbed orally; excreted unchanged in urine; single dose lasts 8-12 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0252",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Acetazolamide dose",
+      "a": "250 mg OD to BD",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0253",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Acetazolamide use in glaucoma",
+      "a": "Adjuvant to other ocular hypotensives",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0254",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Acetazolamide use to alkalinise urine",
+      "a": "In urinary tract infection, or to promote excretion of acidic drugs",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0255",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Acetazolamide in epilepsy",
+      "a": "Adjuvant in absence seizures; tolerance develops",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0256",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Acetazolamide in mountain sickness",
+      "a": "Prophylaxis and relief; start 1-2 days before travel",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0257",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Other use of acetazolamide",
+      "a": "Periodic paralysis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0258",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Common adverse effects of acetazolamide",
+      "a": "Acidosis, hypokalaemia, drowsiness, paraesthesias, fatigue, abdominal discomfort",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0259",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Serious but rare adverse effect of acetazolamide",
+      "a": "Bone marrow depression",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0260",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Acetazolamide contraindication",
+      "a": "Liver disease: alkaline urine impairs NH3 excretion, risk of hepatic coma",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0261",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Acetazolamide acidosis risk group",
+      "a": "COPD patients",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0262",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "class",
+      "q": "Osmotic diuretics: list all",
+      "a": "Mannitol, isosorbide, glycerol",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0263",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol nature",
+      "a": "Low molecular weight (182), pharmacologically inert non-electrolyte",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0264",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol route of administration",
+      "a": "Not absorbed orally; i.v. as 10-20% solution",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0265",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol half-life",
+      "a": "0.5-1.5 hours",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0266",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol action in PT and descending limb",
+      "a": "Retains water isosmotically, diluting the luminal fluid",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0267",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol action on TAL",
+      "a": "Inhibits transport, by an unknown mechanism",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0268",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol effect on ECF volume, GFR and renin",
+      "a": "Expands ECF, raises GFR, inhibits renin release",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0269",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol effect on renal blood flow",
+      "a": "Increased, especially medullary; washes out medullary hypertonicity",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0270",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol effect on electrolyte excretion",
+      "a": "Excretion of all cations and anions increased",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0271",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol use in chronic oedema or as natriuretic",
+      "a": "Never used",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0272",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol use for raised intracranial or intraocular tension",
+      "a": "1-1.5 g/kg as 20% solution over 1 hour",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0273",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol in impending acute renal failure",
+      "a": "500-1000 mL of 10-20% over 24 hours; benefit proven only in cardiac surgery",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0274",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol in established acute renal failure",
+      "a": "Contraindicated: kidney cannot respond and plasma expansion risks pulmonary oedema",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0275",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol in dialysis disequilibrium",
+      "a": "Counteracts low plasma and ECF osmolality",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0276",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol in poisoning",
+      "a": "Forced diuresis not recommended; ineffective and causes electrolyte imbalance",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0277",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Mannitol contraindications",
+      "a": "Renal insufficiency, acute tubular necrosis, anuria, pulmonary oedema, acute LV failure, CHF, cerebral haemorrhage",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0278",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Most common adverse effect of mannitol",
+      "a": "Headache; nausea and vomiting may occur",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0279",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Serious adverse effect of intravenous glycerol",
+      "a": "Haemolysis",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0280",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Oral osmotic diuretic dose",
+      "a": "0.5-1.5 g/kg as oral solution",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0281",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Use of isosorbide and glycerol",
+      "a": "Reduce intraocular or intracranial tension",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0282",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Human antidiuretic hormone",
+      "a": "8-arginine vasopressin (AVP), a nonapeptide",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0283",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Site of ADH synthesis",
+      "a": "Hypothalamic supraoptic and paraventricular nuclei, with neurophysin",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0284",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Site of ADH release",
+      "a": "Posterior pituitary (neurohypophysis), together with oxytocin",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0285",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Main stimuli for ADH release",
+      "a": "Rise in plasma osmolarity and contraction of ECF volume",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0286",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Volume receptors controlling ADH release",
+      "a": "Left atrium, ventricles and pulmonary veins",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0287",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Osmoreceptors sensing ingested salt",
+      "a": "Hepatic portal system; ADH released before plasma osmolarity rises",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0288",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "class",
+      "q": "Agents stimulating ADH release: list all",
+      "a": "Angiotensin II, prostaglandins, histamine, neuropeptide Y, acetylcholine, nicotine, imipramine",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0289",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "class",
+      "q": "Agents inhibiting ADH release: list all",
+      "a": "GABA, atrial natriuretic peptide, alcohol, haloperidol, phenytoin, glucocorticoids",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0290",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Opioid effect on ADH release",
+      "a": "Low-dose morphine inhibits; high doses enhance",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0291",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Source of lypressin",
+      "a": "Found in swine; also synthesised for clinical use",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0292",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "ADH receptor family",
+      "a": "G-protein coupled receptors: V1 and V2",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0293",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Subtypes of V1 receptor",
+      "a": "V1a and V1b",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0294",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Location of V1a receptors",
+      "a": "Vascular and visceral smooth muscle, renal medulla, cortical CD cells, platelets, liver, brain, adipose tissue",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0295",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Location of V1b receptors",
+      "a": "Anterior pituitary, certain brain areas, pancreas",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0296",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Location of V2 receptors",
+      "a": "Principal cells of collecting ducts, TAL cells, and endothelium (vasodilatory)",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0297",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Relative sensitivity of V2 receptors to AVP",
+      "a": "More sensitive than V1 receptors",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0298",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "V1 signalling pathway",
+      "a": "Phospholipase C, IP3 and DAG, releasing intracellular Ca2+",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0299",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Additional V1 pathway",
+      "a": "Phospholipase A2 activation, giving prostaglandins and eicosanoids",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0300",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "V2 signalling pathway",
+      "a": "Adenylyl cyclase and cAMP",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0301",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Long-term effect of persistent V1 stimulation",
+      "a": "Hypertrophy of vascular smooth muscle, via proto-oncogene activation",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0302",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "class",
+      "q": "Vasopressin analogues described: list all",
+      "a": "Lypressin, terlipressin, desmopressin",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0303",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "class",
+      "q": "Non-peptide vasopressin antagonists in clinical use: list all",
+      "a": "Tolvaptan, mozavaptan (V2); conivaptan (V1a and V2)",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0304",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Renal action of AVP",
+      "a": "Increases water permeability of collecting duct principal cells",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0305",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Maximum urine osmolarity in man",
+      "a": "Four times plasma osmolarity",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0306",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Acute V2 mechanism in collecting duct",
+      "a": "Exocytosis of aquaporin-2 vesicles into the apical membrane; endocytosis reduced",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0307",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Chronic V2 effect in collecting duct",
+      "a": "Increases aquaporin-2 synthesis",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0308",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Other aquaporins",
+      "a": "Aquaporin-1 in PT; aquaporin-3 and -4 on basolateral collecting duct membrane",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0309",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Urea transporter activated by AVP",
+      "a": "VRUT (UT-1) in inner medullary collecting duct",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0310",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "AVP action on TAL",
+      "a": "Activates and translocates Na+-K+-2Cl- cotransporter; long term increases its synthesis",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0311",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "V1 action on vasa recta",
+      "a": "Constriction, limiting washout of medullary hypertonicity",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0312",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "V1 action on medullary interstitial cells",
+      "a": "Raises PG synthesis, which opposes V2 antidiuresis",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0313",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "V1 action on collecting duct at high AVP levels",
+      "a": "Activates PKC, reducing V2 responsiveness",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0314",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "class",
+      "q": "Drugs potentiating AVP antidiuresis: list all",
+      "a": "NSAIDs (especially indomethacin), carbamazepine, chlorpropamide",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0315",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Vasoconstriction by AVP",
+      "a": "Via V1 receptors, raising peripheral resistance",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0316",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Why AVP does not raise BP at low doses",
+      "a": "Reflex fall in cardiac output counterbalances vasoconstriction",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0317",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Vascular beds most constricted by AVP",
+      "a": "Cutaneous, mesenteric, skeletal muscle, fat depot, thyroid, coronary",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0318",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Unmasking of V2 vasodilatation",
+      "a": "Use of a V1 antagonist, or desmopressin; endothelium-dependent NO",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0319",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "AVP effect on bowel",
+      "a": "Increases peristalsis, especially large bowel; expels gas and faeces",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0320",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "AVP effect on uterus",
+      "a": "Contracts via oxytocin receptors; equipotent with oxytocin before term",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0321",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "AVP effect on CNS",
+      "a": "Does not cross BBB; acts as a peptide neurotransmitter in brain and spinal cord",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0322",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "AVP effect on coagulation",
+      "a": "Releases factor VIII and von Willebrand factor via V2 receptors",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0323",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "AVP effect on platelets and liver",
+      "a": "Platelet aggregation and hepatic glycogenolysis",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0324",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Oral activity of AVP",
+      "a": "Inactive orally; destroyed by trypsin",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0325",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Plasma half-life of AVP",
+      "a": "About 25 minutes; action lasts 3-4 hours",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0326",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Cardiac adverse effects of AVP",
+      "a": "Bradycardia, increased afterload, angina from coronary constriction",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0327",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "AVP contraindications",
+      "a": "Ischaemic heart disease, hypertension, chronic nephritis, psychogenic polydipsia",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0328",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Lypressin receptor action and duration",
+      "a": "Acts on V1 and V2; somewhat less potent than AVP; lasts 4-6 hours",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0329",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Lypressin dose",
+      "a": "10 IU i.m. or s.c.; or 20 IU diluted and infused i.v. over 10-20 min",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0330",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Terlipressin nature",
+      "a": "Synthetic prodrug of vasopressin, longer acting",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0331",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Terlipressin dose",
+      "a": "2 mg i.v., then 1-2 mg every 4-6 hours as needed",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0332",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Selectivity of desmopressin",
+      "a": "Selective V2 agonist with negligible vasoconstrictor activity",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0333",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Antidiuretic potency of desmopressin",
+      "a": "About 12 times AVP",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0334",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Half-life and duration of desmopressin",
+      "a": "Half-life 1-2 hours; duration 8-12 hours",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0335",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Preparation of choice for V2 indications",
+      "a": "Desmopressin",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0336",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Preferred route of desmopressin",
+      "a": "Intranasal; bioavailability 10-20%",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0337",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Oral desmopressin bioavailability",
+      "a": "1-2%; oral dose is 10-15 times the intranasal dose",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0338",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Intranasal desmopressin dose",
+      "a": "Adults 10-40 µg/day in 2-3 divided doses; children (bedwetting) 5-10 µg at bedtime",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0339",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Oral and parenteral desmopressin doses",
+      "a": "Oral 0.1-0.2 mg TDS; s.c. or i.v. 2-4 µg/day in 2-3 divided doses",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0340",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Primary indication of antidiuretics",
+      "a": "Diabetes insipidus",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0341",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Better name for antidiuretics",
+      "a": "Anti-aquaretics: cut water excretion without affecting salt excretion",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0342",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Vasopressin in neurogenic (pituitary) DI",
+      "a": "Most important indication; effective",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0343",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Vasopressin in nephrogenic DI",
+      "a": "Ineffective, because the kidney does not respond to ADH",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0344",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Duration of therapy in DI",
+      "a": "Life-long, except transient DI after head injury or neurosurgery",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0345",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Basis for individualising desmopressin dose",
+      "a": "24-hour urine volume; minimum effective dose avoids hyponatraemia",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0346",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Test separating neurogenic from nephrogenic DI",
+      "a": "Vasopressin challenge: urine volume falls and osmolarity rises only if ADH is deficient",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0347",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Renal concentration test dose",
+      "a": "5-10 U aqueous vasopressin i.m., or desmopressin 2 µg (now preferred); read as urinary specific gravity",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0348",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Desmopressin for nocturia or bedwetting",
+      "a": "Reduces nocturnal voids by nearly half; first sleep period lengthened by about 2 hours",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0349",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Fluid restriction with desmopressin",
+      "a": "Restrict intake from 1 hour before to 8 hours after the dose",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0350",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Desmopressin treatment break",
+      "a": "Withhold for one week every 3 months for reassessment",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0351",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Desmopressin in haemophilia A and von Willebrand disease",
+      "a": "Preferred: 0.3 µg/kg in 50 mL saline i.v. over 30 min",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0352",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Common adverse effects of desmopressin",
+      "a": "Transient headache and flushing",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0353",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Local nasal adverse effects of desmopressin",
+      "a": "Irritation, congestion, rhinitis, ulceration, epistaxis",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0354",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Systemic adverse effects of vasopressin analogues",
+      "a": "Belching, nausea, abdominal cramps, pallor, urge to defecate, backache in women",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0355",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Serious adverse effects of desmopressin",
+      "a": "Fluid retention and hyponatraemia",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0356",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Symptoms of hyponatraemia from antidiuretics",
+      "a": "Headache, confusion, lassitude, nausea, vomiting, seizures from cerebral oedema; children more susceptible",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0357",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Vasopressin in bleeding oesophageal varices",
+      "a": "Constricts mesenteric vessels, reducing liver blood flow to the varices",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0358",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Preferred analogue for variceal bleeding",
+      "a": "Terlipressin: stops bleeding in about 80% and improves survival",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0359",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Alternative for variceal bleeding",
+      "a": "Octreotide (somatostatin analogue), i.v.",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0360",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Definitive therapy for oesophageal varices",
+      "a": "Endoscopic obliteration by sclerotherapy",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0361",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Vasopressin before abdominal radiography",
+      "a": "Lypressin or AVP used to drive gas out of bowel",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0362",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Thiazide effect in DI",
+      "a": "Paradoxical antidiuretic effect, reducing urine volume in pituitary and renal DI",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0363",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Only drugs effective in nephrogenic DI",
+      "a": "Thiazide diuretics",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0364",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Limitation of thiazides in DI",
+      "a": "Low efficacy; urine never becomes hypertonic as it can with AVP",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0365",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Proposed mechanism of thiazide antidiuresis",
+      "a": "Sustained electrolyte depletion, more isosmotic PT reabsorption, and reduced GFR",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0366",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Hydrochlorothiazide dose in DI",
+      "a": "25-50 mg TDS; K+ supplements needed",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0367",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Drug of choice for lithium-induced nephrogenic DI",
+      "a": "Amiloride, which also blocks Li+ entry into collecting duct cells",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0368",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Indomethacin in renal DI",
+      "a": "Reduces polyuria by lowering renal PG synthesis; can be combined with thiazide and amiloride",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0369",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Chlorpropamide in DI",
+      "a": "Reduces urine volume in pituitary DI, not renal DI; sensitises kidney to ADH",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0370",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Carbamazepine in DI",
+      "a": "Reduces urine volume in pituitary DI, mechanism unclear; high doses and marked adverse effects, little value",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0371",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "class",
+      "q": "Drugs partly antagonising AVP renal action: list all",
+      "a": "Lithium, demeclocycline",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0372",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Class of tolvaptan",
+      "a": "Orally active non-peptide selective V2 antagonist (aquaretic)",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0373",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Indications for tolvaptan",
+      "a": "Hyponatraemia from heart failure, cirrhosis, or SIADH",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0374",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Most frequent adverse effect of tolvaptan",
+      "a": "Thirst and dry mouth; also fever, GI upset, hyperglycaemia",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0375",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Risk of rapid hyponatraemia correction with tolvaptan",
+      "a": "Thrombotic complications from haemoconcentration; correct slowly",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0376",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Metabolism and interactions of tolvaptan",
+      "a": "CYP3A4; should not be given with CYP3A4 inhibitors",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0377",
+      "subtopic": "p2-renal-diabetes-insipidus",
+      "kind": "fact",
+      "q": "Half-life and dosing of tolvaptan",
+      "a": "6-8 hours; given once daily",
+      "refs": [
+        "KDT8 ch43"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0378",
+      "subtopic": "p2-renal-carbonic-osmotic",
+      "kind": "fact",
+      "q": "Renal adverse effects of acetazolamide",
+      "a": "Calcium phosphate stones; rarely acute kidney injury from crystals in alkaline urine",
+      "refs": [
+        "KDT8 ch42",
+        "Katzung16 ch15"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0379",
+      "subtopic": "p2-renal-vasopressin",
+      "kind": "fact",
+      "q": "Tolvaptan use in autosomal dominant polycystic kidney disease, and its risk at those doses",
+      "a": "Slows kidney enlargement and loss of function; liver test abnormalities in about 9%",
+      "refs": [
+        "KDT8 ch43",
+        "Katzung16 ch15"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0380",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Nonsteroidal MR antagonist with minimal hormonal effects, used in CKD with type 2 diabetes",
+      "a": "Finerenone (main risk hyperkalaemia)",
+      "refs": [
+        "GG14 ch29"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0381",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Steroid aldosterone antagonist, K+ sparing, weak diuretic",
+      "a": "Spironolactone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0382",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Active metabolite of spironolactone",
+      "a": "Canrenone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0383",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "ENaC blocker given with thiazides to prevent hypokalaemia",
+      "a": "Amiloride",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0384",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Potassium-sparing diuretic with liver-generated active metabolite",
+      "a": "Triamterene",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0385",
+      "subtopic": "p2-renal-potassium-sparing",
+      "kind": "fact",
+      "q": "Drug whose action aspirin blocks by inhibiting tubular secretion of its metabolite",
+      "a": "Spironolactone",
+      "refs": [
+        "KDT8 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0386",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Antifungal with dose-related long-term nephrotoxicity",
+      "a": "Amphotericin B",
+      "refs": [
+        "KDT8 ch42",
+        "KDT8 ch54",
+        "KDT8 ch58",
+        "KDT8 ch64",
+        "KDT8 ch65"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0387",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Platinum anticancer drug; renal toxicity depends on total dose",
+      "a": "Cisplatin",
+      "refs": [
+        "KDT8 ch42",
+        "KDT8 ch54",
+        "KDT8 ch58",
+        "KDT8 ch64",
+        "KDT8 ch65"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0388",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Measure reducing cisplatin nephrotoxicity",
+      "a": "Vigorous saline hydration around infusion",
+      "refs": [
+        "KDT8 ch42",
+        "KDT8 ch54",
+        "KDT8 ch58",
+        "KDT8 ch64",
+        "KDT8 ch65"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0389",
+      "subtopic": "p2-renal-overview",
+      "kind": "fact",
+      "q": "Immunosuppressant with renal toxicity; MMF combination lowers risk",
+      "a": "Cyclosporine",
+      "refs": [
+        "KDT8 ch42",
+        "KDT8 ch54",
+        "KDT8 ch58",
+        "KDT8 ch64",
+        "KDT8 ch65"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0390",
+      "subtopic": "p2-renal-overview",
+      "kind": "class",
+      "q": "Diuretics ototoxic and nephrotoxic, caution with aminoglycosides",
+      "a": "High-ceiling (loop) diuretics",
+      "refs": [
+        "KDT8 ch42",
+        "KDT8 ch54",
+        "KDT8 ch58",
+        "KDT8 ch64",
+        "KDT8 ch65"
+      ]
+    },
+    {
+      "id": "rf-p2-renal-0391",
+      "subtopic": "p2-renal-overview",
+      "kind": "class",
+      "q": "Drugs that enhance cyclosporine nephrotoxicity",
+      "a": "Aminoglycosides, vancomycin, amphotericin B, NSAIDs",
+      "refs": [
+        "KDT8 ch42",
+        "KDT8 ch54",
+        "KDT8 ch58",
+        "KDT8 ch64",
+        "KDT8 ch65"
+      ]
+    }
   ]
 }

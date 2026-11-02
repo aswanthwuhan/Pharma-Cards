@@ -23,7 +23,7 @@ import { TopicInspector } from "@/components/mastery/TopicInspector";
 import { TopicTile, type TileData } from "@/components/mastery/TopicTile";
 import { db } from "@/lib/db";
 import { labelFor, type TopicMastery } from "@/lib/mastery";
-import { useMastery, useStudyCards, weakest } from "@/lib/store";
+import { isRapid, loadStudyCards, useMastery, useStudyCards, weakest } from "@/lib/store";
 import { PAPERS } from "@/lib/syllabus";
 import { TAGS, TAG_LABEL, type FlashCard } from "@/lib/types";
 
@@ -44,12 +44,15 @@ export default function MasteryMap() {
   const studyCards = useStudyCards();
   const extras = useLiveQuery(
     async () => {
-      const [states, reviews] = await Promise.all([db.cardStates.toArray(), db.reviews.toArray()]);
+      const [states, reviews, cards] = await Promise.all([db.cardStates.toArray(), db.reviews.toArray(), loadStudyCards()]);
+      // Study cards only: Rapid Fire (and its "~r" reverse ids) has its own progress.
+      const ids = new Set(cards.filter((c) => !isRapid(c)).map((c) => c.id));
       const now = Date.now();
       const due = new Map<string, number>();
-      for (const s of states) if (s.due <= now) due.set(s.topicId, (due.get(s.topicId) ?? 0) + 1);
+      for (const s of states) if (ids.has(s.cardId) && s.due <= now) due.set(s.topicId, (due.get(s.topicId) ?? 0) + 1);
       const ms = new Map<string, { n: number; sum: number }>();
       for (const r of reviews) {
+        if (!ids.has(r.cardId)) continue;
         const x = ms.get(r.topicId) ?? { n: 0, sum: 0 };
         ms.set(r.topicId, { n: x.n + 1, sum: x.sum + r.ms });
       }

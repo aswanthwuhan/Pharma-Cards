@@ -1,18 +1,35 @@
 "use client";
 
 import { useState } from "react";
-import { db, type Bookmark, type CardOverride, type CardState, type Note, type MasterySnapshot, type Setting, type StoredReview } from "@/lib/db";
+import { Capacitor } from "@capacitor/core";
+import { Directory, Encoding, Filesystem } from "@capacitor/filesystem";
+import { Share } from "@capacitor/share";
+import { BACKUP_TABLES, db, exportBackup, importBackup } from "@/lib/db";
 import { Panel, Row } from "./controls";
-
-const BACKUP_TABLES = ["cardStates", "reviews", "bookmarks", "notes", "settings", "snapshots", "overrides"] as const;
 
 function localDate(d = new Date()) {
   const p = (n: number) => String(n).padStart(2, "0");
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
 }
 
-function rowsOf<T>(data: Record<string, unknown>, key: string): T[] {
-  return Array.isArray(data[key]) ? (data[key] as T[]) : [];
+/**
+ * Save a text file for the user. In the Android WebView a blob download does nothing, so the
+ * file is written to the app cache and handed to the share sheet. Throws if it was not saved.
+ */
+export async function saveTextFile(name: string, text: string): Promise<void> {
+  if (Capacitor.isNativePlatform()) {
+    const { uri } = await Filesystem.writeFile({ path: name, data: text, directory: Directory.Cache, encoding: Encoding.UTF8 });
+    await Share.share({ title: name, files: [uri] }); // rejects if the user cancels
+    return;
+  }
+  const url = URL.createObjectURL(new Blob([text], { type: "application/json" }));
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = name;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
 /** Your data: backup export, restore, and a scoped reset. */
@@ -23,37 +40,10 @@ export function DataPanel() {
   async function exportProgress() {
     setBusy(true);
     try {
-      const [cardStates, reviews, bookmarks, notes, settings, snapshots, overrides] = await Promise.all([
-        db.cardStates.toArray(),
-        db.reviews.toArray(),
-        db.bookmarks.toArray(),
-        db.notes.toArray(),
-        db.settings.toArray(),
-        db.snapshots.toArray(),
-        db.overrides.toArray(),
-      ]);
-      const payload = {
-        app: "pharmacards",
-        exportedAt: new Date().toISOString(),
-        cardStates,
-        reviews,
-        bookmarks,
-        notes,
-        settings,
-        snapshots,
-        overrides,
-      };
-      const url = URL.createObjectURL(new Blob([JSON.stringify(payload)], { type: "application/json" }));
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `pharmacards-backup-${localDate()}.json`;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      await saveTextFile(`pharmacards-backup-${localDate()}.json`, JSON.stringify(await exportBackup()));
       setStatus("Progress exported.");
-    } catch {
-      setStatus("Export failed. Try again.");
+    } catch (e) {
+      setStatus(/cancel/i.test(String((e as Error)?.message)) ? "Export cancelled." : "Export failed. Try again.");
     } finally {
       setBusy(false);
     }
@@ -71,31 +61,27 @@ export function DataPanel() {
       setStatus("That file is not a valid backup.");
       return;
     }
-    const total = BACKUP_TABLES.reduce((n, t) => n + rowsOf(data, t).length, 0);
+    const total = BACKUP_TABLES.reduce((n, t) => n + (Array.isArray(data[t]) ? (data[t] as unknown[]).length : 0), 0);
     if (!total) {
       setStatus("No Pharmacards progress found in that file.");
       return;
     }
-    if (!window.confirm(`Import ${total} records from "${file.name}"? Records with the same ID are replaced. Everything else on this device is kept.`)) {
+    if (
+      !window.confirm(
+        `Import ${total} records from "${file.name}"? Review history is merged (duplicates skipped). Schedules, notes, bookmarks and settings with the same ID are replaced. Everything else on this device is kept.`,
+      )
+    ) {
       setStatus("Import cancelled.");
       return;
     }
     setBusy(true);
     try {
-      await db.transaction(
-        "rw",
-        [db.cardStates, db.reviews, db.bookmarks, db.notes, db.settings, db.snapshots, db.overrides],
-        async () => {
-          await db.cardStates.bulkPut(rowsOf<CardState>(data, "cardStates"));
-          await db.reviews.bulkPut(rowsOf<StoredReview>(data, "reviews"));
-          await db.bookmarks.bulkPut(rowsOf<Bookmark>(data, "bookmarks"));
-          await db.notes.bulkPut(rowsOf<Note>(data, "notes"));
-          await db.settings.bulkPut(rowsOf<Setting>(data, "settings"));
-          await db.snapshots.bulkPut(rowsOf<MasterySnapshot>(data, "snapshots"));
-          await db.overrides.bulkPut(rowsOf<CardOverride>(data, "overrides"));
-        },
+      const { added, invalid, duplicates } = await importBackup(data);
+      setStatus(
+        `Imported ${added} records.` +
+          (duplicates ? ` ${duplicates} already on this device.` : "") +
+          (invalid ? ` ${invalid} damaged records skipped.` : ""),
       );
-      setStatus(`Imported ${total} records.`);
     } catch {
       setStatus("Import failed. Nothing was changed.");
     } finally {
@@ -129,7 +115,7 @@ export function DataPanel() {
       />
       <Row
         title="Import progress"
-        description="Restore a backup file. Records with the same ID are replaced."
+        description="Restore a backup file. Review history is merged; other records with the same ID are replaced."
         control={
           <label className="btn-ghost cursor-pointer focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-teal">
             Import progress

@@ -2,16 +2,34 @@
 // Bump CACHE_VERSION when the shell changes so old caches are dropped on activate.
 const CACHE_VERSION = "v1";
 const CACHE_NAME = `pharmacards-${CACHE_VERSION}`;
-const PRECACHE_URLS = ["/", "/manifest.webmanifest"];
+const ROUTES = ["/", "/browse", "/stats", "/bookmarks", "/settings", "/admin", "/study"];
+const PRECACHE_URLS = [...ROUTES, "/manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
       .open(CACHE_NAME)
-      .then((cache) => cache.addAll(PRECACHE_URLS))
+      // "reload" bypasses the HTTP cache so every route's HTML matches the new build.
+      .then((cache) => cache.addAll(PRECACHE_URLS.map((u) => new Request(u, { cache: "reload" }))))
       .then(() => self.skipWaiting()),
   );
 });
+
+/** Drop /_next/static entries that no precached page references (chunks from older builds). */
+async function pruneStatic() {
+  const cache = await caches.open(CACHE_NAME);
+  const used = new Set();
+  for (const route of ROUTES) {
+    const res = await cache.match(route);
+    if (!res) return; // shortcut: if a page is missing we cannot tell what is used, so prune nothing
+    for (const m of (await res.text()).matchAll(/\/_next\/static\/[^"'\s)\]+/g)) used.add(m[0]);
+  }
+  // shortcut: lazily imported chunks not named in any page HTML are pruned too; they re-download online.
+  for (const req of await cache.keys()) {
+    const path = new URL(req.url).pathname;
+    if (path.startsWith("/_next/static/") && !used.has(path)) await cache.delete(req);
+  }
+}
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
@@ -22,6 +40,8 @@ self.addEventListener("activate", (event) => {
           keys.filter((key) => key.startsWith("pharmacards-") && key !== CACHE_NAME).map((key) => caches.delete(key)),
         ),
       )
+      .then(pruneStatic)
+      .catch(() => {})
       .then(() => self.clients.claim()),
   );
 });

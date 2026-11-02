@@ -63,3 +63,39 @@ Written from standard textbook knowledge under the 2026-11-02 exception. Refs ca
 - pr-ospe-025: What should the label of a dispensed medicine show?
 - pr-ospe-026: Abstract-writing station: how do you write the abstract of a given paper?
 - pr-ospe-030: Ethics-dilemma station: what faults are typically planted in a trial scenario?
+
+## Re-grounding pass (2026-11-02)
+
+Sources saved in `C:\Pharmacology Book\practical-sources\` (see INDEX.md). Re-grounded cards show their source; cards not listed here keep UNSOURCED.
+
+| id | status | source |
+|---|---|---|
+| pr-ospe-003 | re-grounded | IJP 2017 OSPE standardization and validation (PMC5754933); IJP 2016 Introducing OSPE (PMC5178055) |
+| pr-ospe-004 | re-grounded (wording narrowed to source) | IJP 2016 Introducing OSPE (PMC5178055); IJP 2017 OSPE standardization and validation (PMC5754933) |
+| pr-ospe-035 | NEW card | IJP 2017 OSPE standardization and validation (PMC5754933) |
+
+Still unsourced after this pass (14): pr-ospe-005, pr-ospe-006, pr-ospe-013, pr-ospe-014, pr-ospe-017, pr-ospe-018, pr-ospe-019, pr-ospe-021, pr-ospe-022, pr-ospe-023, pr-ospe-024, pr-ospe-025, pr-ospe-026, pr-ospe-030
+
+## Haiku pass (2026-11-02)
+
+Scope: the 5 cards whose refs were exactly `UNSOURCED - owner must verify` (005, 014, 017, 019, 021). Sources searched: `practical-sources/` (02, 03 and INDEX), KDT8 ch1 text, Sarkar OCR (keyword grep: w/v, drip, dilution, organ bath, dosage form). No subtopic had fewer than 4 cards, so none were added. No factual errors found; no ids or wording changed.
+
+| id | status | source |
+|---|---|---|
+| pr-ospe-005 | partly re-grounded (still carries UNSOURCED marker) | IJP 2017 OSPE standardization and validation (PMC5754933): 5-min station time, clear instructions |
+| pr-ospe-014 | partly re-grounded (still carries UNSOURCED marker) | KDT8 ch1 (dosage forms, routes, advantages) |
+| pr-ospe-017 | still unsourced | no book or practical source states the w/v and ratio definitions |
+| pr-ospe-019 | still unsourced | Sarkar p331-335 mentions a 4 mL organ bath but gives no concentration formula |
+| pr-ospe-021 | still unsourced | no source for drip-rate calculation (INDEX.md also records none found) |
+
+Cards with an UNSOURCED marker plus other refs were out of this pass's scope and were not re-checked: 006, 013, 018, 022, 023, 024, 025, 026, 030.
+
+Totals after pass: 35 cards; 0 fully re-grounded; 2 partly re-grounded; 14 still carry the UNSOURCED marker.
+
+## Opus audit (2026-11-02)
+Changed:
+- pr-ospe-017: grounded, UNSOURCED removed. Katzung16 ch66 (% strength = g per 100 mL, e.g. 20% KCl = 20 g/dL); KDT8 ch6 (adrenaline 0.5 mg = 0.5 mL of 1 in 1000, i.e. 1 mg/mL).
+Still UNSOURCED (searched RangDale9, GG14, KDT8, Katzung16 ch66):
+- 018 (C1V1 = C2V2), 019 (organ-bath final concentration), 021 (i.v. drip rate formula): no book gives these formulas. Katzung16 ch66 only gives 20 drops = 1 mL.
+- 025: Katzung16 ch66 supports drug name, purpose, duration, warning labels and expiry date on the label; patient name, quantity, batch number and mfg date are unsupported.
+- 005, 006, 013, 014, 022, 023, 024, 026, 030: OSPE technique/form/document content not covered in full by any book.

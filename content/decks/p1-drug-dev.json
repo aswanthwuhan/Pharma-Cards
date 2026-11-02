@@ -121,7 +121,18 @@
       "refs": [
         "KDT8 ch5"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p1-drug-dev-tolerance-placebo",
       "tags": [
@@ -245,7 +256,23 @@
       "tags": [
         "classification"
       ],
-      "pyq": []
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ]
     },
     {
       "id": "p1-drug-dev-014",
@@ -295,7 +322,18 @@
         "adr",
         "mechanism"
       ],
-      "pyq": []
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ]
     },
     {
       "id": "p1-drug-dev-015",
@@ -629,7 +667,18 @@
       "tags": [
         "classification"
       ],
-      "pyq": []
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ]
     },
     {
       "id": "p1-drug-dev-023",
@@ -692,6 +741,61 @@
         "pk",
         "classification"
       ]
+    },
+    {
+      "id": "p1-drug-dev-027",
+      "type": "shortnote",
+      "front": "Short note: Fixed dose combinations (FDCs)",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Two or more drugs given in a fixed ratio in one preparation"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "Convenience and better adherence; can be cheaper",
+            "Synergy: sulfamethoxazole with trimethoprim, levodopa with carbidopa, isoniazid with rifampin",
+            "Components with different mechanisms (amlodipine with atenolol) add effect without adding the same side effects",
+            "Avoids giving one drug alone in TB, HIV and falciparum malaria"
+          ]
+        },
+        {
+          "h": "Disadvantages",
+          "points": [
+            "Patient may not need every component; dose of each cannot be adjusted separately",
+            "Components may have different time courses and be differently affected by kidney or liver disease",
+            "Hard to tell which drug caused an adverse effect; allergy to one component bars the whole product",
+            "Fosters false confidence, especially with antimicrobial combinations; corticosteroids should never be combined with other internal-use drugs"
+          ]
+        },
+        {
+          "h": "Rational use",
+          "points": [
+            "Only a handful of FDCs are rational",
+            "Each ingredient must be needed; never justified to give an unneeded drug to supply another",
+            "Many irrational FDCs have been banned in India"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "dosing",
+        "classification"
+      ],
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "status": "draft"
     }
   ]
 }
