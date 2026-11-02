@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { NavBack } from "@/components/NavBack";
 
 const ICONS = {
   today: "M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z",
@@ -42,7 +43,8 @@ export function Nav() {
     <>
       {/* phone / tablet header */}
       <header className="glass sticky top-0 z-20 border-x-0 border-t-0 pt-[env(safe-area-inset-top)] lg:hidden">
-        <div className="mx-auto flex max-w-3xl items-center px-5 py-3">
+        <div className="mx-auto flex max-w-3xl items-center gap-3 px-5 py-3">
+          {path !== "/" && <NavBack />}
           <Link href="/" className="flex items-center gap-2 font-serif text-xl">
             <Capsule />
             Pharmacards
@@ -56,6 +58,7 @@ export function Nav() {
           <Capsule />
           Pharmacards
         </Link>
+        {path !== "/" && <NavBack className="mb-4 ml-3 self-start" />}
         <nav className="flex flex-col gap-1">
           {RAIL.map((l) => (
             <Link

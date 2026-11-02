@@ -4,6 +4,7 @@ import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Build;
 import android.view.View;
+import android.webkit.JavascriptInterface;
 import android.webkit.ServiceWorkerClient;
 import android.webkit.ServiceWorkerController;
 import android.webkit.WebResourceRequest;
@@ -40,6 +41,25 @@ public class MainActivity extends BridgeActivity {
         bridge.getWebView().addOnLayoutChangeListener(
             (v, l, t, r, b, ol, ot, or, ob) -> updateGestureExclusion(v)
         );
+        bridge.getWebView().addJavascriptInterface(new ExitBridge(), "PharmaNative");
+    }
+
+    // The web app decides what Back does (history step, or the close-app prompt on home).
+    // It returns false when it is not ready, and then the WebView or the activity handles it.
+    @Override
+    public void onBackPressed() {
+        bridge.getWebView().evaluateJavascript("window.__nativeBack ? window.__nativeBack() : false", result -> {
+            if ("true".equals(result)) return;
+            if (bridge.getWebView().canGoBack()) bridge.getWebView().goBack();
+            else finish();
+        });
+    }
+
+    private class ExitBridge {
+        @JavascriptInterface
+        public void exit() {
+            runOnUiThread(MainActivity.this::finish);
+        }
     }
 
     // Capacitor serves index.html for every dot-less path, so a full load of /study
