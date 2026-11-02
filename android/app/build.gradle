@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+// Version comes from package.json. versionCode grows with every release (0.5.3 -> 503), so an installed app always accepts the next APK.
+def appVersion = new groovy.json.JsonSlurper().parse(file("../../package.json")).version as String
+def (appMajor, appMinor, appPatch) = appVersion.tokenize('.').collect { it.toInteger() }
+
 android {
     namespace = "com.aurapharmlab.pharmacards"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -7,8 +11,8 @@ android {
         applicationId "com.aurapharmlab.pharmacards"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 11
-        versionName "0.5.3"
+        versionCode appMajor * 10000 + appMinor * 100 + appPatch
+        versionName appVersion
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

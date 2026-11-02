@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Hanken_Grotesk, JetBrains_Mono, Newsreader } from "next/font/google";
 import { ExitGuard } from "@/components/NavBack";
+import { UpdateCheck } from "@/components/UpdateCheck";
 import { WhatsNew } from "@/components/WhatsNew";
 import { Nav } from "@/components/Nav";
 import { PageEnter } from "@/components/PageEnter";
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <ExitGuard />
         <WhatsNew />
+        <UpdateCheck />
         {/* Phones: one column. Desktop: content beside the 16rem rail, up to 72rem wide. */}
         <div className="lg:pl-64">
           <main className="mx-auto max-w-3xl px-5 pt-4 pb-[calc(6rem+env(safe-area-inset-bottom))] lg:max-w-6xl lg:px-10 lg:pt-8 lg:pb-12">
