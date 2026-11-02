@@ -2,7 +2,7 @@
 
 import { animate, LazyMotion, domAnimation, m, useMotionValue, useTransform } from "motion/react";
 import { memo, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { AXIS_LOCK_PX, classifySwipe, COMMIT_VELOCITY, swipeIntent, type SwipeGrade } from "@/lib/swipe";
+import { AXIS_LOCK_PX, classifySwipe, swipeIntent, type SwipeGrade } from "@/lib/swipe";
 import { useReduceMotion } from "@/lib/settings";
 import type { FlashCard } from "@/lib/types";
 import { CardView } from "./CardView";
@@ -22,6 +22,7 @@ interface Gesture {
   y0: number;
   scroll0: number;
   axis: "x" | "y" | null;
+  inBand: boolean; // started in the top or bottom swipe zone: up/down grades instead of scrolling
   samples: { t: number; x: number; y: number }[]; // card offset samples, for release velocity
   scrollSamples: { t: number; s: number }[];
 }
@@ -30,8 +31,8 @@ interface Gesture {
  * The study card stack. Touch handling is our own (touch-action: none) so a swipe can start
  * anywhere on the card, in any direction:
  * - Before the answer is shown: tap to reveal. Vertical drags scroll a long question.
- * - After: left = Forgot, right = Good. Vertical drags first scroll a long answer; once it
- *   reaches its top or bottom, the same drag carries on into the card: up = Easy, down = Hard.
+ * - After: left = Forgot, right = Good, anywhere on the card. Up = Easy and down = Hard only from
+ *   the swipe zones at the card's top and bottom edges (height set by the user); elsewhere up/down scrolls.
  */
 export function SwipeDeck({
   card,
@@ -42,11 +43,13 @@ export function SwipeDeck({
   intervals,
   swipe = true,
   haptics = true,
+  band = 72,
   aside,
   history,
 }: {
   swipe?: boolean;
   haptics?: boolean;
+  band?: number;
   aside?: React.ReactNode;
   history?: string;
   card: FlashCard;
@@ -165,12 +168,15 @@ export function SwipeDeck({
     } catch {
       // some browsers refuse capture for synthetic or already-released pointers; the gesture still works
     }
+    const top = frame.current?.getBoundingClientRect().top ?? 0;
+    const local = e.clientY - top;
     gesture.current = {
       id: e.pointerId,
       x0: e.clientX,
       y0: e.clientY,
       scroll0: scroller.current?.scrollTop ?? 0,
       axis: null,
+      inBand: local < band || local > size().height - band,
       samples: [{ t: e.timeStamp, x: 0, y: 0 }],
       scrollSamples: [{ t: e.timeStamp, s: scroller.current?.scrollTop ?? 0 }],
     };
@@ -191,14 +197,15 @@ export function SwipeDeck({
     const live = revealed && swipe; // with swipe off, drags only scroll / nudge
     if (g.axis === "x") {
       cx = live ? dx : dx * 0.15; // before reveal the card only nudges
+    } else if (live && g.inBand) {
+      cy = dy; // swipe zone: the card itself moves, nothing scrolls
     } else {
-      // Scroll the answer first; whatever is left over moves the card.
+      // Outside the swipe zones up/down only scrolls; at the ends the card gives a small elastic nudge.
       const want = g.scroll0 - dy;
       const max = maxScroll();
       const scrollTo = Math.min(max, Math.max(0, want));
       if (scroller.current) scroller.current.scrollTop = scrollTo;
-      const overflow = want - scrollTo; // >0 pushed past bottom (finger up), <0 pulled past top (finger down)
-      cy = live ? -overflow : -overflow * 0.15;
+      cy = -(want - scrollTo) * 0.15;
       g.scrollSamples.push({ t: e.timeStamp, s: scrollTo });
       if (g.scrollSamples.length > 6) g.scrollSamples.shift();
     }
@@ -207,7 +214,7 @@ export function SwipeDeck({
     g.samples.push({ t: e.timeStamp, x: cx, y: cy });
     if (g.samples.length > 6) g.samples.shift();
     if (live) {
-      const it = swipeIntent({ dx: cx, dy: cy, width, height, allowVertical: true });
+      const it = swipeIntent({ dx: cx, dy: cy, width, height, allowVertical: g.inBand });
       setIntent(it?.grade ?? null, it?.strength ?? 0);
     }
   }
@@ -223,14 +230,10 @@ export function SwipeDeck({
     }
     const v = velocity(g.samples);
     const { width, height } = size();
-    // A fast scroll that runs into the end of a long answer is still a scroll, not Easy/Hard. A fast vertical
-    // release grades only if the gesture started at that edge (top for down = Hard, bottom for up = Easy);
-    // a slow drag on past the edge still hands off to the card, as designed.
-    const fromEdge = y.get() > 0 ? g.scroll0 <= 0 : g.scroll0 >= maxScroll() - 1;
-    const scrollFling = g.axis === "y" && !fromEdge && Math.abs(v.y) >= COMMIT_VELOCITY;
+    // Vertical grades only from the swipe zones, so scrolling a long answer never grades it.
     const grade =
-      revealed && swipe && e.type === "pointerup" && !scrollFling
-        ? classifySwipe({ dx: x.get(), dy: y.get(), vx: v.x, vy: v.y, width, height, allowVertical: true })
+      revealed && swipe && e.type === "pointerup" && (g.axis === "x" || g.inBand)
+        ? classifySwipe({ dx: x.get(), dy: y.get(), vx: v.x, vy: v.y, width, height, allowVertical: g.inBand })
         : null;
     if (grade) {
       commit(grade, { x: v.x, y: v.y });
@@ -269,10 +272,35 @@ export function SwipeDeck({
           </div>
 
           {/* Scrolls by mouse wheel natively; touch scrolling is driven by the gesture handler above. */}
-          <div ref={scroller} className="min-h-0 flex-1 overflow-y-auto overscroll-contain" style={{ touchAction: "none" }}>
+          <div
+            ref={scroller}
+            className="min-h-0 flex-1 overflow-y-auto overscroll-contain"
+            // Room below the answer so its last lines can scroll clear of the bottom swipe zone.
+            style={{ touchAction: "none", paddingBottom: revealed && swipe ? band : 0 }}
+          >
             <MemoCard card={card} revealed={revealed} bare aside={aside} history={history} />
             {!revealed && <p className="pb-6 text-center font-mono text-xs text-porcelain-soft">Tap the card to see the answer</p>}
           </div>
+
+          {/* up/down swipe zones, shown once the answer is up */}
+          {revealed && swipe && (
+            <>
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-x-0 top-0 flex items-start justify-center rounded-t-2xl border-b border-dashed border-porcelain-rule bg-gradient-to-b from-porcelain-2 to-transparent pt-1.5"
+                style={{ height: band }}
+              >
+                <span className="font-mono text-[10px] text-porcelain-soft">↑ Easy · ↓ Hard</span>
+              </div>
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-x-0 bottom-0 flex items-end justify-center rounded-b-2xl border-t border-dashed border-porcelain-rule bg-gradient-to-t from-porcelain-2 to-transparent pb-1.5"
+                style={{ height: band }}
+              >
+                <span className="font-mono text-[10px] text-porcelain-soft">↑ Easy · ↓ Hard</span>
+              </div>
+            </>
+          )}
 
           {/* live grade feedback while dragging (opacity driven by motion values, no re-render per frame) */}
           {intentGrade && (

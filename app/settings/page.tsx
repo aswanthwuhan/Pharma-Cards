@@ -145,6 +145,31 @@ export default function SettingsPage() {
               description="Left Forgot, right Good, up Easy, down Hard"
               control={<Toggle label="Swipe to grade" checked={s.swipe} onChange={(v) => updateSetting("swipe", v)} />}
             />
+            <div className="space-y-2 py-3">
+              <div className="flex items-baseline justify-between gap-4">
+                <div className="min-w-0">
+                  <p id="band-label" className="text-base font-semibold text-ink">
+                    Up / down swipe zone
+                  </p>
+                  <p className="text-sm leading-relaxed text-ink-soft">
+                    Up (Easy) and down (Hard) swipes count only when they start in the marked strip at the card&apos;s top or bottom edge. Anywhere else, up and down scrolls the answer.
+                  </p>
+                </div>
+                <p className="shrink-0 font-mono text-2xl tabular-nums text-ink">{s.swipeBand}px</p>
+              </div>
+              <input
+                type="range"
+                min={40}
+                max={200}
+                step={8}
+                value={s.swipeBand}
+                disabled={!s.swipe}
+                aria-labelledby="band-label"
+                aria-valuetext={`${s.swipeBand} pixels`}
+                onChange={(e) => updateSetting("swipeBand", Number(e.target.value))}
+                className="min-h-11 w-full cursor-pointer accent-teal disabled:opacity-40"
+              />
+            </div>
             <Row
               title="Haptic feedback"
               description="Short vibration when you grade a card, on devices that support it."

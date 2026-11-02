@@ -12,6 +12,7 @@ import { subtopicById, topicById } from "@/lib/syllabus";
 import type { SwipeGrade } from "@/lib/swipe";
 import type { FlashCard } from "@/lib/types";
 import { BottomSheet } from "./BottomSheet";
+import { NavBack } from "./NavBack";
 import { SessionSummary } from "./SessionSummary";
 import { MasteryPill } from "./MasteryPill";
 import { GRADE_META, gradeCurrentCard, SwipeDeck } from "./SwipeDeck";
@@ -216,52 +217,52 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
   const progress = (i / cards.length) * 100;
   return (
     <div className="fixed inset-0 z-10 mx-auto flex max-w-2xl flex-col bg-paper px-4 pt-[calc(0.5rem+env(safe-area-inset-top))] pb-[calc(0.5rem+env(safe-area-inset-bottom))]">
-      {/* header */}
-      <div className="glass flex items-center gap-2 rounded-2xl p-1.5">
-        <Link href="/" aria-label="End session" className="btn min-h-11 w-11 border border-rule bg-sheet px-0 text-ink-soft">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
-            <path d="M6 6l12 12M18 6L6 18" />
-          </svg>
-        </Link>
-        <ProgressRing value={i} max={cards.length} />
-        <div className="min-w-0 flex-1">
-          <p className="truncate font-serif text-lg leading-tight">{title}</p>
-          <p className="font-mono text-[11px] text-ink-soft">
-            Card {i + 1} of {cards.length} · {Math.round(progress)}% complete
-          </p>
+      {/* header: back, progress ring and title on one row; card actions on the next, so nothing squeezes the title */}
+      <div className="glass space-y-1.5 rounded-2xl p-1.5">
+        <div className="flex items-center gap-2">
+          <NavBack />
+          <ProgressRing value={i} max={cards.length} />
+          <div className="min-w-0 flex-1">
+            <p className="truncate font-serif text-lg leading-tight">{title}</p>
+            <p className="font-mono text-[11px] text-ink-soft">
+              Card {i + 1} of {cards.length} · {Math.round(progress)}%
+            </p>
+          </div>
         </div>
-        {rapidHref && (
-          <Link
-            href={rapidHref}
-            role="switch"
-            aria-checked="false"
-            aria-label="Rapid fire mode off; switch to rapid fire"
-            className="flex min-h-11 items-center gap-1.5 rounded-full border border-rule bg-sheet px-2.5 text-xs text-ink-soft"
+        <div className="flex items-center justify-end gap-1.5">
+          {rapidHref && (
+            <Link
+              href={rapidHref}
+              role="switch"
+              aria-checked="false"
+              aria-label="Rapid fire mode off; switch to rapid fire"
+              className="mr-auto flex min-h-10 items-center gap-1.5 rounded-full border border-rule bg-sheet px-2.5 text-xs text-ink-soft"
+            >
+              <span className="relative h-4 w-7 rounded-full bg-rule">
+                <span className="absolute top-0.5 left-0.5 h-3 w-3 rounded-full bg-ink-soft" />
+              </span>
+              Rapid
+            </Link>
+          )}
+          {history.length > 0 && (
+            <button onClick={undoLast} aria-label="Undo last answer" className="btn min-h-10 border border-rule bg-sheet px-3 text-xs text-ink-soft">
+              Undo
+            </button>
+          )}
+          <button
+            onClick={() => setNoteOpen(true)}
+            className={`btn min-h-10 border bg-sheet px-3 text-xs ${note ? "border-moderate text-moderate" : "border-rule text-ink-soft"}`}
           >
-            <span className="relative h-4 w-7 rounded-full bg-rule">
-              <span className="absolute top-0.5 left-0.5 h-3 w-3 rounded-full bg-ink-soft" />
-            </span>
-            Rapid
-          </Link>
-        )}
-        {history.length > 0 && (
-          <button onClick={undoLast} aria-label="Undo last answer" className="btn min-h-11 border border-rule bg-sheet px-3 text-xs text-ink-soft">
-            Undo
+            Note
           </button>
-        )}
-        <button
-          onClick={() => setNoteOpen(true)}
-          className={`btn min-h-11 border bg-sheet px-3 text-xs ${note ? "border-moderate text-moderate" : "border-rule text-ink-soft"}`}
-        >
-          Note
-        </button>
-        <button
-          aria-pressed={!!bookmarked}
-          onClick={() => (bookmarked ? db.bookmarks.delete(card.id) : db.bookmarks.put({ cardId: card.id, at: Date.now() }))}
-          className={`btn min-h-11 border px-3 text-xs ${bookmarked ? "border-teal bg-teal-wash text-teal" : "border-rule bg-sheet text-ink-soft"}`}
-        >
-          {bookmarked ? "Saved" : "Save"}
-        </button>
+          <button
+            aria-pressed={!!bookmarked}
+            onClick={() => (bookmarked ? db.bookmarks.delete(card.id) : db.bookmarks.put({ cardId: card.id, at: Date.now() }))}
+            className={`btn min-h-10 border px-3 text-xs ${bookmarked ? "border-teal bg-teal-wash text-teal" : "border-rule bg-sheet text-ink-soft"}`}
+          >
+            {bookmarked ? "Saved" : "Save"}
+          </button>
+        </div>
       </div>
 
       {/* card stack */}
@@ -274,6 +275,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
           onRate={rate}
           intervals={intervals}
           swipe={settings.swipe}
+          band={settings.swipeBand}
           haptics={settings.haptics}
           aside={<CardTimer key={card.id} started={started} />}
           history={historyLine(state)}
@@ -290,7 +292,7 @@ export function StudySession({ cards, mode, title, rapidHref }: { cards: FlashCa
             </button>
           </span>
         ) : revealed && settings.swipe ? (
-          <span className="font-mono text-[10px] text-ink-soft">Swipe: ← Forgot · ↓ Hard · → Good · ↑ Easy</span>
+          <span className="font-mono text-[10px] text-ink-soft">Swipe ← Forgot · → Good · edge strips ↑ Easy ↓ Hard</span>
         ) : null}
       </div>
 
