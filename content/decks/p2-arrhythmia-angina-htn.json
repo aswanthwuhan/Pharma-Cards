@@ -15,7 +15,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-002",
@@ -36,7 +37,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-003",
@@ -59,7 +61,8 @@
       "tags": [
         "classification",
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-004",
@@ -75,7 +78,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-005",
@@ -91,7 +95,39 @@
       "tags": [
         "classification",
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-019",
+      "type": "cloze",
+      "front": "Classify: Class IB antiarrhythmics",
+      "text": "Class IB drugs such as {{lidocaine}} and {{mexiletine}} preferentially block {{inactivated}} sodium channels and are ineffective in {{atrial}} arrhythmias.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-086",
+      "type": "basic",
+      "front": "Drugs for transient or acute atrioventricular block",
+      "back": "Atropine 0.6-1.2 mg i.m. when block is vagal (e.g. digitalis toxicity, some MIs); sympathomimetics such as isoprenaline in partial or complete block until a pacemaker can be placed. Pacing is the definitive treatment.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-006",
@@ -107,249 +143,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-007",
-      "type": "basic",
-      "front": "Amiodarone: list its main electrophysiological actions and its long-term benefit.",
-      "back": "It prolongs the action potential and QT interval by blocking delayed rectifier potassium channels. It also blocks inactivated sodium channels, partly blocks L-type calcium channels, and has non-competitive adrenergic blocking activity; its torsades risk is low despite QT prolongation. Its half-life is weeks. KDT notes that, apart from propranolol, it is the only antiarrhythmic shown to reduce long-term sudden cardiac death; however, its modest mortality benefit in heart failure seen in a meta-analysis was not confirmed in the SCD-HeFT trial.",
-      "refs": [
-        "KDT8 ch39",
-        "GG14 ch34"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-008",
-      "type": "basic",
-      "front": "Adenosine: dose, route and mechanism in PSVT.",
-      "back": "Given as a rapid intravenous bolus over 1 to 3 seconds, usually 6 to 12 mg of adenosine (or 10 to 20 mg of ATP). It acts on A1 receptors to hyperpolarise SA and AV nodal fibres and reduce calcium current, which interrupts AV-node re-entry. More than 90% of AV-node-dependent PSVT episodes terminate within about 30 seconds. Its half-life in blood is about 10 seconds.",
-      "refs": [
-        "KDT8 ch39"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
-      "tags": [
-        "dosing",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-009",
-      "type": "basic",
-      "front": "Which drugs modify the response to adenosine, and why does it matter clinically?",
-      "back": "Theophylline and caffeine block A1 receptors and blunt its effect, so heavy tea or coffee drinkers may need higher doses. Dipyridamole inhibits its cellular uptake and potentiates it. Patients on carbamazepine have a greater risk of heart block.",
-      "refs": [
-        "KDT8 ch39"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
-      "tags": [
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-010",
-      "type": "basic",
-      "front": "What are the main adverse effects of IV adenosine, and when is verapamil preferred?",
-      "back": "Transient dyspnoea, chest discomfort, flushing and a fall in BP are common. Brief asystole or ventricular fibrillation can occur and usually resolves quickly. It can precipitate bronchospasm, so verapamil is preferred in asthma. Its action is too brief for prophylaxis. Unlike verapamil, it is safe in wide-QRS tachycardia and in patients with hypotension or heart failure.",
-      "refs": [
-        "KDT8 ch39"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-011",
-      "type": "basic",
-      "front": "Verapamil: which cardiac actions make it useful in PSVT, and why is it contraindicated in broad-QRS WPW tachycardia?",
-      "back": "It blocks L-type calcium channels, slows SA nodal firing and markedly prolongs AV nodal refractoriness, which terminates AV-node re-entry. A dose of 5 mg IV is given over 2 to 3 minutes. It is contraindicated in broad-QRS WPW tachycardia, where it can shorten the accessory pathway refractory period and speed conduction. Avoid it with IV beta blockers, in hypotension or heart failure, and in VT, where it may precipitate VF.",
-      "refs": [
-        "KDT8 ch39"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
-      "tags": [
-        "uses",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-012",
-      "type": "shortnote",
-      "front": "Short note: Amiodarone",
-      "sections": [
-        {
-          "h": "Actions",
-          "points": [
-            "Class III (potassium channel block) with class I, II and IV features",
-            "Very long half-life; slow onset on oral dosing, rapid on IV"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Resistant VT and recurrent VF",
-            "Wide range of supraventricular arrhythmias, including AF maintenance",
-            "IV for rapid termination; oral for long-term prophylaxis"
-          ]
-        },
-        {
-          "h": "Dosing",
-          "points": [
-            "Oral loading of 400 to 600 mg/day for a few weeks, then 100 to 200 mg/day",
-            "Slow IV injection of about 5 mg/kg"
-          ]
-        },
-        {
-          "h": "Toxicities",
-          "points": [
-            "Pulmonary alveolitis or fibrosis: most serious, less likely below 200 mg/day",
-            "Corneal microdeposits (reversible), photosensitivity and blue-grey skin pigmentation",
-            "Thyroid dysfunction (hypo- or hyperthyroidism, goitre) because of iodine content",
-            "Peripheral neuropathy; liver injury is uncommon",
-            "IV injection: hypotension and bradycardia"
-          ]
-        },
-        {
-          "h": "Interactions",
-          "points": [
-            "Raises digoxin and warfarin levels",
-            "CYP3A4 inducers lower and inhibitors raise its levels",
-            "Additive AV block with beta blockers or calcium channel blockers"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch39"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-013",
-      "type": "shortnote",
-      "front": "Short note: Torsades de pointes and drug-induced QT prolongation",
-      "sections": [
-        {
-          "h": "Feature",
-          "points": [
-            "Polymorphic VT with QRS complexes twisting around the baseline",
-            "Usually associated with a long QT interval; may degenerate to VF"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Early after-depolarisations after delayed repolarisation",
-            "Favoured by slow heart rates and pauses"
-          ]
-        },
-        {
-          "h": "Predisposing factors",
-          "points": [
-            "Hypokalaemia and hypomagnesaemia (e.g. diuretic use)",
-            "Bradycardia, female sex and structural heart disease",
-            "Use of more than one QT-prolonging drug"
-          ]
-        },
-        {
-          "h": "Culprit drugs",
-          "points": [
-            "Class IA antiarrhythmics, amiodarone, sotalol",
-            "Terfenadine, astemizole, cisapride",
-            "Thioridazine, pimozide, tricyclic antidepressants",
-            "Quinine, halofantrine, sparfloxacin, moxifloxacin"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Stop the culprit drug and correct potassium and magnesium",
-            "IV magnesium sulfate 1 to 2 g prevents recurrences even when serum magnesium is normal",
-            "Pacing or isoprenaline if bradycardia is present",
-            "Propranolol or esmolol IV may terminate the episode (KDT); defibrillate if unstable"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch39",
-        "GG14 ch34"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-014",
-      "type": "shortnote",
-      "front": "Short note: Management of paroxysmal supraventricular tachycardia (PSVT)",
-      "sections": [
-        {
-          "h": "Acute termination",
-          "points": [
-            "Vagal manoeuvres first: Valsalva, cold water to the face, hyperflexion",
-            "IV adenosine if vagal manoeuvres fail; it is the drug of choice",
-            "IV verapamil, diltiazem or esmolol as alternatives"
-          ]
-        },
-        {
-          "h": "Caution with verapamil and diltiazem",
-          "points": [
-            "Avoid with hypotension, heart failure or concurrent beta blockers",
-            "Contraindicated in broad-QRS WPW tachycardia"
-          ]
-        },
-        {
-          "h": "Prevention",
-          "points": [
-            "Oral verapamil, diltiazem or propranolol, alone or with digoxin",
-            "Catheter ablation for an anatomically fixed re-entry circuit or accessory pathway"
-          ]
-        },
-        {
-          "h": "Points to remember",
-          "points": [
-            "Propranolol terminates PSVT less reliably than adenosine or verapamil",
-            "Adenosine's brief action makes it unsuitable for prophylaxis"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch39"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-015",
@@ -397,7 +192,124 @@
       "tags": [
         "classification",
         "mechanism"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-071",
+      "type": "shortnote",
+      "front": "Short note: Drugs acting via potassium channels",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "sections": [
+        {
+          "h": "Potassium channel blockers",
+          "points": [
+            "Sotalol blocks cardiac inward rectifier K+ channels (class III action)",
+            "Amiodarone and dronedarone block several cardiac K+ channels, including the delayed rectifier",
+            "Procainamide's metabolite NAPA blocks K+ channels and prolongs repolarisation"
+          ]
+        },
+        {
+          "h": "Insulin secretagogues",
+          "points": [
+            "Sulfonylureas and meglitinides close beta-cell KATP channels",
+            "Depolarisation then releases insulin"
+          ]
+        },
+        {
+          "h": "Potassium channel openers",
+          "points": [
+            "Nicorandil opens smooth muscle KATP channels and also donates NO",
+            "Glibenclamide partly antagonises nicorandil's vasodilatation",
+            "Minoxidil's active metabolite opens KATP channels; once used for severe hypertension",
+            "Diazoxide opens beta-cell KATP channels, the opposite of sulfonylureas, and causes hyperglycaemia"
+          ]
+        },
+        {
+          "h": "Clinical points",
+          "points": [
+            "Nicorandil does not cause nitrate-type tolerance",
+            "Nicorandil interacts with sildenafil"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch19",
+        "KDT8 ch39",
+        "KDT8 ch40",
+        "KDT8 ch41"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-072",
+      "type": "shortnote",
+      "front": "Short note: Sodium channel blockers",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Block voltage-gated Na+ channels; the block depends on frequency and channel state",
+            "Lidocaine acts mainly on inactivated channels",
+            "Local anaesthetics raise the threshold for channel opening"
+          ]
+        },
+        {
+          "h": "Antiarrhythmic subclasses",
+          "points": [
+            "IA: quinidine, procainamide, disopyramide",
+            "IB: lidocaine, mexiletine; little proarrhythmic potential",
+            "IC: flecainide (prototype), propafenone; markedly delays Na+ channel recovery"
+          ]
+        },
+        {
+          "h": "Antiseizure and local anaesthetic use",
+          "points": [
+            "Phenytoin prolongs the inactivated state of neuronal Na+ channels, limiting high-frequency firing",
+            "Local anaesthetics block axonal Na+ channels; myelinated and small-diameter fibres block first"
+          ]
+        },
+        {
+          "h": "Safety",
+          "points": [
+            "Most antiarrhythmic drugs can cause serious arrhythmia, especially with long-term use"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch26",
+        "KDT8 ch30",
+        "KDT8 ch39"
+      ],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-016",
@@ -457,7 +369,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p2-arrhythmia-angina-htn-017",
@@ -517,35 +430,65 @@
       "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-arrhythmia-angina-htn-018",
-      "type": "cloze",
-      "front": "Classify: Vaughan Williams class IV drugs",
-      "text": "Class IV agents are calcium channel blockers such as {{verapamil}} and {{diltiazem}}, which slow {{AV nodal}} conduction and prolong {{AV nodal refractoriness}}.",
+      "id": "p2-arrhythmia-angina-htn-067",
+      "type": "shortnote",
+      "front": "Short note: Drug management of atrial fibrillation",
+      "sections": [
+        {
+          "h": "Goals",
+          "points": [
+            "Relieve symptoms, prevent thromboembolism and prevent tachycardia-induced heart failure",
+            "Look for treatable causes such as hyperthyroidism"
+          ]
+        },
+        {
+          "h": "Rate control (first objective)",
+          "points": [
+            "Calcium channel blocker (verapamil, diltiazem), alone or with a beta blocker",
+            "Digoxin is useful when heart failure coexists",
+            "Rate control (60 to 80/min) has given a better benefit-risk outcome than rhythm control in several studies"
+          ]
+        },
+        {
+          "h": "Rhythm control",
+          "points": [
+            "DC cardioversion is usual, and preferred in emergencies with hypotension or angina",
+            "Single large oral dose of flecainide or propafenone, once safety is shown under monitoring; IV ibutilide converts promptly",
+            "Maintenance drug chosen by underlying heart disease: flecainide, propafenone, dronedarone or sotalol with little heart disease; amiodarone (or dofetilide) in heart failure",
+            "Ablation if AF recurs or cannot be corrected"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Dronedarone must not be used in permanent AF or advanced heart failure",
+            "Class IC drugs avoided in structural heart disease"
+          ]
+        },
+        {
+          "h": "Anticoagulation",
+          "points": [
+            "Oral anticoagulation is essential for stroke prevention in patients at risk",
+            "Warfarin was standard; factor Xa inhibitors (apixaban, rivaroxaban) and dabigatran are more acceptable alternatives"
+          ]
+        }
+      ],
       "refs": [
+        "Katzung16 ch14",
         "KDT8 ch39"
       ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-019",
-      "type": "cloze",
-      "front": "Classify: Class IB antiarrhythmics",
-      "text": "Class IB drugs such as {{lidocaine}} and {{mexiletine}} preferentially block {{inactivated}} sodium channels and are ineffective in {{atrial}} arrhythmias.",
-      "refs": [
-        "KDT8 ch39"
-      ],
+      "pyq": [],
       "status": "draft",
       "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
       "tags": [
+        "uses",
         "classification"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p2-arrhythmia-angina-htn-020",
@@ -567,22 +510,133 @@
           "year": 2019,
           "marks": 10
         }
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-arrhythmia-angina-htn-021",
-      "type": "cloze",
-      "front": "Classify: Adenosine effects on the heart",
-      "text": "Adenosine acts on {{A1}} receptors to hyperpolarise the {{SA node}} and slow conduction in the {{AV node}}; its half-life in blood is about {{10 seconds}}.",
+      "id": "p2-arrhythmia-angina-htn-087",
+      "type": "basic",
+      "front": "What is amiodarone's drug class and why is it called a multichannel blocker?",
+      "back": "It is an iodine-containing, very lipophilic, long-acting class III drug. It blocks delayed-rectifier K+ channels (prolonging repolarisation), also inactivated Na+ channels, partly Ca2+ channels, and gives non-competitive beta blockade, so it acts across several Vaughan Williams classes.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-088",
+      "type": "basic",
+      "front": "Why does amiodarone rarely cause torsades de pointes despite prolonging the QT?",
+      "back": "Its action-potential prolongation does not depend on heart rate (no reverse use-dependence), so it does not lengthen repolarisation excessively at slow rates, which is the setting that favours early after-depolarisations.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-089",
+      "type": "basic",
+      "front": "Main indications of amiodarone.",
+      "back": "Resistant ventricular tachycardia and recurrent ventricular fibrillation are the key uses. It is also used to maintain sinus rhythm in AF when other drugs fail, and in tachyarrhythmias of WPW syndrome.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-007",
+      "type": "basic",
+      "front": "Amiodarone: list its main electrophysiological actions and its long-term benefit.",
+      "back": "It prolongs the action potential and QT interval by blocking delayed rectifier potassium channels. It also blocks inactivated sodium channels, partly blocks L-type calcium channels, and has non-competitive adrenergic blocking activity; its torsades risk is low despite QT prolongation. Its half-life is weeks. KDT notes that, apart from propranolol, it is the only antiarrhythmic shown to reduce long-term sudden cardiac death; however, its modest mortality benefit in heart failure seen in a meta-analysis was not confirmed in the SCD-HeFT trial.",
+      "refs": [
+        "KDT8 ch39",
+        "GG14 ch34"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-012",
+      "type": "shortnote",
+      "front": "Short note: Amiodarone",
+      "sections": [
+        {
+          "h": "Actions",
+          "points": [
+            "Class III (potassium channel block) with class I, II and IV features",
+            "Very long half-life; slow onset on oral dosing, rapid on IV"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Resistant VT and recurrent VF",
+            "Wide range of supraventricular arrhythmias, including AF maintenance",
+            "IV for rapid termination; oral for long-term prophylaxis"
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "Oral loading of 400 to 600 mg/day for a few weeks, then 100 to 200 mg/day",
+            "Slow IV injection of about 5 mg/kg"
+          ]
+        },
+        {
+          "h": "Toxicities",
+          "points": [
+            "Pulmonary alveolitis or fibrosis: most serious, less likely below 200 mg/day",
+            "Corneal microdeposits (reversible), photosensitivity and blue-grey skin pigmentation",
+            "Thyroid dysfunction (hypo- or hyperthyroidism, goitre) because of iodine content",
+            "Peripheral neuropathy; liver injury is uncommon",
+            "IV injection: hypotension and bradycardia"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Raises digoxin and warfarin levels",
+            "CYP3A4 inducers lower and inhibitors raise its levels",
+            "Additive AV block with beta blockers or calcium channel blockers"
+          ]
+        }
+      ],
       "refs": [
         "KDT8 ch39"
       ],
       "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
       "tags": [
-        "mechanism",
-        "pk"
-      ]
+        "uses",
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-022",
@@ -598,7 +652,233 @@
       "tags": [
         "newer-drugs",
         "classification"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-013",
+      "type": "shortnote",
+      "front": "Short note: Torsades de pointes and drug-induced QT prolongation",
+      "sections": [
+        {
+          "h": "Feature",
+          "points": [
+            "Polymorphic VT with QRS complexes twisting around the baseline",
+            "Usually associated with a long QT interval; may degenerate to VF"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Early after-depolarisations after delayed repolarisation",
+            "Favoured by slow heart rates and pauses"
+          ]
+        },
+        {
+          "h": "Predisposing factors",
+          "points": [
+            "Hypokalaemia and hypomagnesaemia (e.g. diuretic use)",
+            "Bradycardia, female sex and structural heart disease",
+            "Use of more than one QT-prolonging drug"
+          ]
+        },
+        {
+          "h": "Culprit drugs",
+          "points": [
+            "Class IA antiarrhythmics, amiodarone, sotalol",
+            "Terfenadine, astemizole, cisapride",
+            "Thioridazine, pimozide, tricyclic antidepressants",
+            "Quinine, halofantrine, sparfloxacin, moxifloxacin"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Stop the culprit drug and correct potassium and magnesium",
+            "IV magnesium sulfate 1 to 2 g prevents recurrences even when serum magnesium is normal",
+            "Pacing or isoprenaline if bradycardia is present",
+            "Propranolol or esmolol IV may terminate the episode (KDT); defibrillate if unstable"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch39",
+        "GG14 ch34"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-amiodarone-class-iii",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-008",
+      "type": "basic",
+      "front": "Adenosine: dose, route and mechanism in PSVT.",
+      "back": "Given as a rapid intravenous bolus over 1 to 3 seconds, usually 6 to 12 mg of adenosine (or 10 to 20 mg of ATP). It acts on A1 receptors to hyperpolarise SA and AV nodal fibres and reduce calcium current, which interrupts AV-node re-entry. More than 90% of AV-node-dependent PSVT episodes terminate within about 30 seconds. Its half-life in blood is about 10 seconds.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-021",
+      "type": "cloze",
+      "front": "Classify: Adenosine effects on the heart",
+      "text": "Adenosine acts on {{A1}} receptors to hyperpolarise the {{SA node}} and slow conduction in the {{AV node}}; its half-life in blood is about {{10 seconds}}.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-090",
+      "type": "basic",
+      "front": "Why is adenosine given as a rapid IV bolus and why is its effect so short?",
+      "back": "It has a plasma half-life of about 10 s because red cells and endothelium take it up quickly, so a slow infusion would be inactivated before reaching the heart. A fast bolus terminates AV-node-dependent PSVT (over 90% within 30 s), but the brief action makes it unsuitable for preventing recurrences.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-009",
+      "type": "basic",
+      "front": "Which drugs modify the response to adenosine, and why does it matter clinically?",
+      "back": "Theophylline and caffeine block A1 receptors and blunt its effect, so heavy tea or coffee drinkers may need higher doses. Dipyridamole inhibits its cellular uptake and potentiates it. Patients on carbamazepine have a greater risk of heart block.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-010",
+      "type": "basic",
+      "front": "What are the main adverse effects of IV adenosine, and when is verapamil preferred?",
+      "back": "Transient dyspnoea, chest discomfort, flushing and a fall in BP are common. Brief asystole or ventricular fibrillation can occur and usually resolves quickly. It can precipitate bronchospasm, so verapamil is preferred in asthma. Its action is too brief for prophylaxis. Unlike verapamil, it is safe in wide-QRS tachycardia and in patients with hypotension or heart failure.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-011",
+      "type": "basic",
+      "front": "Verapamil: which cardiac actions make it useful in PSVT, and why is it contraindicated in broad-QRS WPW tachycardia?",
+      "back": "It blocks L-type calcium channels, slows SA nodal firing and markedly prolongs AV nodal refractoriness, which terminates AV-node re-entry. A dose of 5 mg IV is given over 2 to 3 minutes. It is contraindicated in broad-QRS WPW tachycardia, where it can shorten the accessory pathway refractory period and speed conduction. Avoid it with IV beta blockers, in hypotension or heart failure, and in VT, where it may precipitate VF.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-014",
+      "type": "shortnote",
+      "front": "Short note: Management of paroxysmal supraventricular tachycardia (PSVT)",
+      "sections": [
+        {
+          "h": "Acute termination",
+          "points": [
+            "Vagal manoeuvres first: Valsalva, cold water to the face, hyperflexion",
+            "IV adenosine if vagal manoeuvres fail; it is the drug of choice",
+            "IV verapamil, diltiazem or esmolol as alternatives"
+          ]
+        },
+        {
+          "h": "Caution with verapamil and diltiazem",
+          "points": [
+            "Avoid with hypotension, heart failure or concurrent beta blockers",
+            "Contraindicated in broad-QRS WPW tachycardia"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Oral verapamil, diltiazem or propranolol, alone or with digoxin",
+            "Catheter ablation for an anatomically fixed re-entry circuit or accessory pathway"
+          ]
+        },
+        {
+          "h": "Points to remember",
+          "points": [
+            "Propranolol terminates PSVT less reliably than adenosine or verapamil",
+            "Adenosine's brief action makes it unsuitable for prophylaxis"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-091",
+      "type": "basic",
+      "front": "Case: PSVT in a patient with hypotension and heart failure on a beta blocker. Choose between adenosine and verapamil and justify.",
+      "back": "Choose adenosine. Its A1-mediated AV-nodal block is so brief that it is safe in hypotension, CHF, beta blockade and wide-QRS tachycardia, whereas verapamil depresses contractility and AV conduction and adds to beta-blocker effects. Reverse the preference in asthma, where adenosine can cause bronchospasm and verapamil is preferred. Doses may need raising in heavy tea or coffee drinkers (A1 antagonism), and be reduced with dipyridamole.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-adenosine-psvt",
+      "tags": [
+        "uses",
+        "interactions"
+      ],
+      "level": 3
     },
     {
       "id": "p2-arrhythmia-angina-htn-023",
@@ -620,7 +900,8 @@
       "tags": [
         "mechanism",
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-024",
@@ -635,7 +916,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-025",
@@ -650,23 +932,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-026",
-      "type": "basic",
-      "front": "Nitrate tolerance: when does it occur, and how is it prevented?",
-      "back": "Continuous exposure, especially with oral, transdermal, infusion or sustained-release therapy, blunts the haemodynamic and anti-ischaemic effects. Tolerance wears off within hours of stopping and is cross-tolerant between nitrates. Oxidative stress from denitration impairs the NO-generating enzyme, and neurohormonal compensation contributes. The main preventive measure is a daily nitrate-free interval. Intermittent sublingual GTN causes no significant tolerance.",
-      "refs": [
-        "KDT8 ch40"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-027",
@@ -682,7 +949,72 @@
       "tags": [
         "pk",
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-040",
+      "type": "cloze",
+      "front": "Classify: Glyceryl trinitrate kinetics",
+      "text": "Sublingual GTN acts within {{1 to 2 minutes}} and has a plasma half-life of about {{2 minutes}}; oral GTN is largely inactivated by {{first-pass metabolism}} in the liver.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-042",
+      "type": "cloze",
+      "front": "Classify: Primary action of antianginal drugs",
+      "text": "Nitrates mainly reduce {{preload}}; calcium channel blockers mainly reduce {{afterload}} and improve {{coronary flow}}; beta blockers reduce cardiac work by lowering {{heart rate}} and contractility.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-080",
+      "type": "basic",
+      "front": "Why is isosorbide mononitrate different from isosorbide dinitrate?",
+      "back": "Mononitrate is the active metabolite of the dinitrate: little first-pass metabolism, high and consistent bioavailability, half-life 4-6 hours. Its last dose is taken in the afternoon.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-026",
+      "type": "basic",
+      "front": "Nitrate tolerance: when does it occur, and how is it prevented?",
+      "back": "Continuous exposure, especially with oral, transdermal, infusion or sustained-release therapy, blunts the haemodynamic and anti-ischaemic effects. Tolerance wears off within hours of stopping and is cross-tolerant between nitrates. Oxidative stress from denitration impairs the NO-generating enzyme, and neurohormonal compensation contributes. The main preventive measure is a daily nitrate-free interval. Intermittent sublingual GTN causes no significant tolerance.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-028",
@@ -697,7 +1029,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
       "tags": [
         "contraindications"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-029",
@@ -713,7 +1046,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-030",
@@ -730,57 +1064,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-031",
-      "type": "basic",
-      "front": "Ranolazine: mechanism, effect on heart rate and BP, and key safety issues.",
-      "back": "It inhibits the late sodium current, which indirectly reduces calcium overload during ischaemia and helps preserve myocardial function. It does not change heart rate or BP, and it prolongs exercise duration. It prolongs the QT interval, so it must not be combined with other QT-prolonging drugs, and CYP3A4 inhibitors should be avoided. It can be used with sildenafil.",
-      "refs": [
-        "KDT8 ch40"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
-      "tags": [
-        "newer-drugs",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-032",
-      "type": "basic",
-      "front": "Trimetazidine: how does it work, and why is it not a haemodynamic drug?",
-      "back": "It inhibits long-chain 3-ketoacyl-CoA thiolase (LC3-KAT), a key enzyme of fatty acid oxidation. Myocardium shifts toward glucose oxidation, which needs less oxygen per unit of ATP. It has no effect on heart rate or BP at rest or on exercise, yet it reduces angina frequency and increases exercise capacity. Side effects include GI upset; it can cause movement disorders such as parkinsonism, especially in elderly patients with reduced renal function, so the EMA restricts it to second-line add-on use in stable angina. It is not approved in the USA.",
-      "refs": [
-        "KDT8 ch40",
-        "GG14 ch31"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
-      "tags": [
-        "newer-drugs",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-033",
-      "type": "basic",
-      "front": "Nicorandil: mechanism and main adverse effects.",
-      "back": "It opens ATP-sensitive potassium channels in smooth muscle, causing hyperpolarisation, and it also acts as a nitric oxide donor that raises cGMP. It lowers preload and afterload and increases coronary flow, with no significant effect on contractility or conduction. Adverse effects include flushing, headache, palpitation and painful oral aphthous ulcers. Concurrent PDE-5 inhibitors are contraindicated, and it does not cause nitrate-type tolerance.",
-      "refs": [
-        "KDT8 ch40",
-        "GG14 ch31"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-034",
@@ -835,163 +1120,24 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-arrhythmia-angina-htn-035",
-      "type": "shortnote",
-      "front": "Short note: Calcium channel blockers in angina",
-      "sections": [
-        {
-          "h": "Classes",
-          "points": [
-            "Dihydropyridines (nifedipine, amlodipine, felodipine and others)",
-            "Phenylalkylamine (verapamil)",
-            "Benzothiazepine (diltiazem)"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Block L-type calcium channels in smooth and cardiac muscle",
-            "Relax coronary and systemic arterioles",
-            "Verapamil and diltiazem also slow SA and AV nodes and reduce contractility"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Effective in classical and variant angina; dihydropyridines suit vasospasm",
-            "Verapamil and diltiazem also used for arrhythmias and hypertrophic cardiomyopathy",
-            "Verapamil and diltiazem should not be combined with beta blockers"
-          ]
-        },
-        {
-          "h": "Choice points",
-          "points": [
-            "Short-acting nifedipine is avoided: reflex tachycardia and higher mortality after MI",
-            "Slow-acting dihydropyridines (amlodipine) are preferred; amlodipine is safe in heart failure",
-            "Not first-line in unstable angina; add to a nitrate when spasm persists"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Dihydropyridines: flushing, headache, palpitation, ankle oedema",
-            "Verapamil: constipation, bradycardia, AV block",
-            "Verapamil and diltiazem raise digoxin levels"
-          ]
-        }
-      ],
+      "id": "p2-arrhythmia-angina-htn-081",
+      "type": "basic",
+      "front": "Cyanide poisoning: which antidotes are used and why?",
+      "back": "Sodium nitrite forms methaemoglobin, which binds cyanide as cyanomethaemoglobin; sodium thiosulfate then converts cyanide to thiocyanate for urinary excretion. Hydroxocobalamin (high dose, i.v.) and dicobalt edetate are alternatives; hydroxocobalamin is preferred in smoke inhalation.",
       "refs": [
         "KDT8 ch40"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
       "tags": [
-        "classification",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-036",
-      "type": "shortnote",
-      "front": "Short note: Ivabradine",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Selective blockade of the funny (If) current in the SA node",
-            "Slows diastolic depolarisation and lowers heart rate without negative inotropy"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Chronic stable angina when beta blockers are contraindicated, not tolerated or insufficiently effective (EMA approval; in the USA it is approved only for heart failure)",
-            "Symptomatic inappropriate sinus tachycardia, when beta blockers and verapamil are unsuitable",
-            "Stable chronic systolic heart failure in sinus rhythm at 70/min or more, added to standard therapy"
-          ]
-        },
-        {
-          "h": "Contraindications",
-          "points": [
-            "Resting heart rate below 60/min, sick sinus syndrome, AF",
-            "Concurrent QT-prolonging drugs or CYP3A4 inhibitors"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Phosphenes: transient brightness in part of the visual field, from block of retinal HCN channels",
-            "Bradycardia, ectopic beats, PR prolongation, headache, dizziness, nausea",
-            "Adding it to beta blockers in chronic angina gave no benefit and more bradycardia, AF and QT prolongation"
-          ]
-        }
+        "poisoning"
       ],
-      "refs": [
-        "KDT8 ch40",
-        "GG14 ch31"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
-      "tags": [
-        "newer-drugs",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-037",
-      "type": "shortnote",
-      "front": "Short note: Drug therapy of acute myocardial infarction",
-      "sections": [
-        {
-          "h": "Pain and anxiety",
-          "points": [
-            "GTN; if pain persists after three doses, IV morphine or diazepam"
-          ]
-        },
-        {
-          "h": "Supportive care",
-          "points": [
-            "Oxygen if hypoxic; correct acidosis with IV bicarbonate if needed",
-            "Avoid volume overload; furosemide if pulmonary wedge pressure is high",
-            "Dopamine or dobutamine for pump failure"
-          ]
-        },
-        {
-          "h": "Rhythm",
-          "points": [
-            "Early beta blocker if no contraindication; reduces infarct size and arrhythmias",
-            "Lidocaine, procainamide or amiodarone for VT; atropine or pacing for bradycardia",
-            "Routine prophylactic lidocaine is no longer recommended"
-          ]
-        },
-        {
-          "h": "Antithrombotic and reperfusion",
-          "points": [
-            "Aspirin 162 to 325 mg chewed at once, then 80 to 160 mg daily",
-            "Clopidogrel, prasugrel or ticagrelor as add-on antiplatelets",
-            "Fibrinolysis for STEMI within 1 to 2 hours of onset, otherwise primary PCI"
-          ]
-        },
-        {
-          "h": "Long term",
-          "points": [
-            "ACE inhibitors or ARBs for remodelling and survival",
-            "Long-term beta blocker, statin and antiplatelet therapy for secondary prevention"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch40"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-038",
@@ -1056,7 +1202,193 @@
           "year": 2023,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-018",
+      "type": "cloze",
+      "front": "Classify: Vaughan Williams class IV drugs",
+      "text": "Class IV agents are calcium channel blockers such as {{verapamil}} and {{diltiazem}}, which slow {{AV nodal}} conduction and prolong {{AV nodal refractoriness}}.",
+      "refs": [
+        "KDT8 ch39"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-041",
+      "type": "cloze",
+      "front": "Classify: Calcium channel blocker chemical classes",
+      "text": "The three CCB classes are {{dihydropyridines}} such as nifedipine, {{phenylalkylamines}} such as verapamil, and {{benzothiazepines}} such as diltiazem.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-049",
+      "type": "basic",
+      "front": "Calcium channel blockers in hypertension: which agents are used, and what are their main advantages?",
+      "back": "Dihydropyridines, mainly amlodipine, are used most; verapamil and diltiazem are equally effective but less used. They lower BP by reducing peripheral resistance without reducing cardiac output or causing fluid retention. Advantages include no CNS effects, no sexual dysfunction, neutral effects on lipids, uric acid and electrolytes, and suitability in asthma, peripheral vascular disease and pregnancy. Short-acting nifedipine is not used for hypertension.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-074",
+      "type": "basic",
+      "front": "Why is nimodipine used after subarachnoid haemorrhage?",
+      "back": "It is a short-acting dihydropyridine that crosses the blood-brain barrier well and acts on cerebral vessels; used to prevent and treat neurological deficit from cerebral vasospasm after subarachnoid haemorrhage or ruptured aneurysm (30-60 mg 4-6 hourly for 3 weeks).",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-075",
+      "type": "basic",
+      "front": "Amlodipine: why does it cause few early vasodilator side effects?",
+      "back": "Slow oral absorption with peak level at 6-9 hours, more consistent bioavailability (less first-pass), and a very long half-life, so the blood level fluctuates little across the day.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-076",
+      "type": "basic",
+      "front": "Felodipine: distinguishing features and approved use",
+      "back": "Greater vascular selectivity and larger tissue distribution than nifedipine with a longer half-life; approved for symptomatic treatment of Raynaud's disease; ER form once daily.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-077",
+      "type": "basic",
+      "front": "Cilnidipine: what makes it different from other dihydropyridines?",
+      "back": "It blocks N-type (neuronal) calcium channels as well as L-type, and is claimed not to cause the reflex tachycardia seen with other DHPs.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-035",
+      "type": "shortnote",
+      "front": "Short note: Calcium channel blockers in angina",
+      "sections": [
+        {
+          "h": "Classes",
+          "points": [
+            "Dihydropyridines (nifedipine, amlodipine, felodipine and others)",
+            "Phenylalkylamine (verapamil)",
+            "Benzothiazepine (diltiazem)"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Block L-type calcium channels in smooth and cardiac muscle",
+            "Relax coronary and systemic arterioles",
+            "Verapamil and diltiazem also slow SA and AV nodes and reduce contractility"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Effective in classical and variant angina; dihydropyridines suit vasospasm",
+            "Verapamil and diltiazem also used for arrhythmias and hypertrophic cardiomyopathy",
+            "Verapamil and diltiazem should not be combined with beta blockers"
+          ]
+        },
+        {
+          "h": "Choice points",
+          "points": [
+            "Short-acting nifedipine is avoided: reflex tachycardia and higher mortality after MI",
+            "Slow-acting dihydropyridines (amlodipine) are preferred; amlodipine is safe in heart failure",
+            "Not first-line in unstable angina; add to a nitrate when spasm persists"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Dihydropyridines: flushing, headache, palpitation, ankle oedema",
+            "Verapamil: constipation, bradycardia, AV block",
+            "Verapamil and diltiazem raise digoxin levels"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-092",
+      "type": "basic",
+      "front": "Compare the cardiac effects of verapamil and nifedipine and explain the mechanism.",
+      "back": "Verapamil (and diltiazem) block L-type channels in a use-dependent way, so blockade grows with heart rate and recovery of the channel is delayed; they slow the SA and AV nodes and depress contractility. Nifedipine's block is independent of rate and it acts mainly on vessels, so it does not slow the node and instead causes reflex tachycardia. Hence verapamil suits PSVT and angina but is avoided with beta blockers, while a slow DHP can be combined with a beta blocker.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-039",
@@ -1116,50 +1448,44 @@
       "tags": [
         "classification",
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-arrhythmia-angina-htn-040",
-      "type": "cloze",
-      "front": "Classify: Glyceryl trinitrate kinetics",
-      "text": "Sublingual GTN acts within {{1 to 2 minutes}} and has a plasma half-life of about {{2 minutes}}; oral GTN is largely inactivated by {{first-pass metabolism}} in the liver.",
+      "id": "p2-arrhythmia-angina-htn-032",
+      "type": "basic",
+      "front": "Trimetazidine: how does it work, and why is it not a haemodynamic drug?",
+      "back": "It inhibits long-chain 3-ketoacyl-CoA thiolase (LC3-KAT), a key enzyme of fatty acid oxidation. Myocardium shifts toward glucose oxidation, which needs less oxygen per unit of ATP. It has no effect on heart rate or BP at rest or on exercise, yet it reduces angina frequency and increases exercise capacity. Side effects include GI upset; it can cause movement disorders such as parkinsonism, especially in elderly patients with reduced renal function, so the EMA restricts it to second-line add-on use in stable angina. It is not approved in the USA.",
       "refs": [
-        "KDT8 ch40"
+        "KDT8 ch40",
+        "GG14 ch31"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
       "tags": [
-        "pk"
-      ]
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-arrhythmia-angina-htn-041",
-      "type": "cloze",
-      "front": "Classify: Calcium channel blocker chemical classes",
-      "text": "The three CCB classes are {{dihydropyridines}} such as nifedipine, {{phenylalkylamines}} such as verapamil, and {{benzothiazepines}} such as diltiazem.",
+      "id": "p2-arrhythmia-angina-htn-033",
+      "type": "basic",
+      "front": "Nicorandil: mechanism and main adverse effects.",
+      "back": "It opens ATP-sensitive potassium channels in smooth muscle, causing hyperpolarisation, and it also acts as a nitric oxide donor that raises cGMP. It lowers preload and afterload and increases coronary flow, with no significant effect on contractility or conduction. Adverse effects include flushing, headache, palpitation and painful oral aphthous ulcers. Concurrent PDE-5 inhibitors are contraindicated, and it does not cause nitrate-type tolerance.",
       "refs": [
-        "KDT8 ch40"
+        "KDT8 ch40",
+        "GG14 ch31"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-042",
-      "type": "cloze",
-      "front": "Classify: Primary action of antianginal drugs",
-      "text": "Nitrates mainly reduce {{preload}}; calcium channel blockers mainly reduce {{afterload}} and improve {{coronary flow}}; beta blockers reduce cardiac work by lowering {{heart rate}} and contractility.",
-      "refs": [
-        "KDT8 ch40"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
       "tags": [
         "mechanism",
-        "classification"
-      ]
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-043",
@@ -1174,7 +1500,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-044",
@@ -1189,7 +1516,160 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-078",
+      "type": "basic",
+      "front": "Cilostazol: mechanism, indication and key cautions",
+      "back": "PDE-3 inhibitor raising cAMP in platelets and vascular smooth muscle; used only for intermittent claudication without rest pain; avoid in heart failure; CYP3A4 and CYP2C19 inhibitors increase toxicity.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-079",
+      "type": "basic",
+      "front": "Pentoxifylline: how does it help intermittent claudication?",
+      "back": "Acts mainly on rheology: lowers whole-blood viscosity and improves red cell flexibility, improving microcirculatory flow without a major change in heart rate, total peripheral resistance or BP.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-031",
+      "type": "basic",
+      "front": "Ranolazine: mechanism, effect on heart rate and BP, and key safety issues.",
+      "back": "It inhibits the late sodium current, which indirectly reduces calcium overload during ischaemia and helps preserve myocardial function. It does not change heart rate or BP, and it prolongs exercise duration. It prolongs the QT interval, so it must not be combined with other QT-prolonging drugs, and CYP3A4 inhibitors should be avoided. It can be used with sildenafil.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-036",
+      "type": "shortnote",
+      "front": "Short note: Ivabradine",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Selective blockade of the funny (If) current in the SA node",
+            "Slows diastolic depolarisation and lowers heart rate without negative inotropy"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Chronic stable angina when beta blockers are contraindicated, not tolerated or insufficiently effective (EMA approval; in the USA it is approved only for heart failure)",
+            "Symptomatic inappropriate sinus tachycardia, when beta blockers and verapamil are unsuitable",
+            "Stable chronic systolic heart failure in sinus rhythm at 70/min or more, added to standard therapy"
+          ]
+        },
+        {
+          "h": "Contraindications",
+          "points": [
+            "Resting heart rate below 60/min, sick sinus syndrome, AF",
+            "Concurrent QT-prolonging drugs or CYP3A4 inhibitors"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Phosphenes: transient brightness in part of the visual field, from block of retinal HCN channels",
+            "Bradycardia, ectopic beats, PR prolongation, headache, dizziness, nausea",
+            "Adding it to beta blockers in chronic angina gave no benefit and more bradycardia, AF and QT prolongation"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch40",
+        "GG14 ch31"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-037",
+      "type": "shortnote",
+      "front": "Short note: Drug therapy of acute myocardial infarction",
+      "sections": [
+        {
+          "h": "Pain and anxiety",
+          "points": [
+            "GTN; if pain persists after three doses, IV morphine or diazepam"
+          ]
+        },
+        {
+          "h": "Supportive care",
+          "points": [
+            "Oxygen if hypoxic; correct acidosis with IV bicarbonate if needed",
+            "Avoid volume overload; furosemide if pulmonary wedge pressure is high",
+            "Dopamine or dobutamine for pump failure"
+          ]
+        },
+        {
+          "h": "Rhythm",
+          "points": [
+            "Early beta blocker if no contraindication; reduces infarct size and arrhythmias",
+            "Lidocaine, procainamide or amiodarone for VT; atropine or pacing for bradycardia",
+            "Routine prophylactic lidocaine is no longer recommended"
+          ]
+        },
+        {
+          "h": "Antithrombotic and reperfusion",
+          "points": [
+            "Aspirin 162 to 325 mg chewed at once, then 80 to 160 mg daily",
+            "Clopidogrel, prasugrel or ticagrelor as add-on antiplatelets",
+            "Fibrinolysis for STEMI within 1 to 2 hours of onset, otherwise primary PCI"
+          ]
+        },
+        {
+          "h": "Long term",
+          "points": [
+            "ACE inhibitors or ARBs for remodelling and survival",
+            "Long-term beta blocker, statin and antiplatelet therapy for secondary prevention"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 3
     },
     {
       "id": "p2-arrhythmia-angina-htn-045",
@@ -1206,7 +1686,8 @@
       "tags": [
         "classification",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-046",
@@ -1221,71 +1702,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "tags": [
         "dosing"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-047",
-      "type": "basic",
-      "front": "ACE inhibitors in hypertension: where are they preferred, and what is the main limiting adverse effect?",
-      "back": "They are first-line in most grades of essential and renovascular hypertension, except bilateral renal artery stenosis. They are preferred with diabetes, nephropathy, left ventricular hypertrophy, heart failure, angina and after MI. Dry, persistent cough, from raised bradykinin, is the most common reason to stop them. They are contraindicated in pregnancy.",
-      "refs": [
-        "KDT8 ch41"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-048",
-      "type": "basic",
-      "front": "ARBs compared with ACE inhibitors: practical advantages, and which combination is discouraged?",
-      "back": "ARBs block the angiotensin receptor without raising kinin levels, so the ACE inhibitor cough is avoided; angioedema and taste disturbance are rare. They share the metabolic and prognostic benefits of ACE inhibitors. JNC 8 and NICE advise against combining an ACE inhibitor with an ARB. ARBs are also avoided in pregnancy.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-049",
-      "type": "basic",
-      "front": "Calcium channel blockers in hypertension: which agents are used, and what are their main advantages?",
-      "back": "Dihydropyridines, mainly amlodipine, are used most; verapamil and diltiazem are equally effective but less used. They lower BP by reducing peripheral resistance without reducing cardiac output or causing fluid retention. Advantages include no CNS effects, no sexual dysfunction, neutral effects on lipids, uric acid and electrolytes, and suitability in asthma, peripheral vascular disease and pregnancy. Short-acting nifedipine is not used for hypertension.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-050",
-      "type": "basic",
-      "front": "Beta blockers in hypertension: why are they no longer first-line?",
-      "back": "They are mild antihypertensives, and in primary prevention they are less effective than diuretics, ACE inhibitors or ARBs for stroke and MI. Nonselective agents raise triglycerides and worsen quality of life, and rebound hypertension and angina can follow abrupt withdrawal. They remain indicated for compelling reasons such as post-MI, stable heart failure or high coronary risk.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "uses",
-        "adr"
-      ]
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-051",
@@ -1301,7 +1719,8 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-052",
@@ -1317,7 +1736,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-053",
@@ -1333,7 +1753,8 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-arrhythmia-angina-htn-054",
@@ -1349,78 +1770,326 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-arrhythmia-angina-htn-055",
+      "id": "p2-arrhythmia-angina-htn-064",
+      "type": "cloze",
+      "front": "Classify: Central and neuronal antihypertensives",
+      "text": "{{Clonidine}} and {{methyldopa}} act as central {{alpha-2}} agonists, while {{reserpine}} depletes monoamines by blocking the {{vesicular monoamine transporter}}.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-065",
+      "type": "cloze",
+      "front": "Classify: Direct vasodilator antihypertensives",
+      "text": "{{Hydralazine}} is a direct arteriolar vasodilator that provokes {{reflex tachycardia}} and fluid retention, while {{minoxidil}} acts by opening {{ATP-sensitive potassium}} channels in smooth muscle.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-066",
+      "type": "cloze",
+      "front": "Classify: Diuretics and aldosterone antagonists",
+      "text": "Low-dose {{hydrochlorothiazide}} (12.5 to 25 mg/day) is first-line; {{spironolactone}} and {{eplerenone}} are aldosterone antagonists that reduce potassium loss but can cause {{hyperkalaemia}} with ACE inhibitors or ARBs.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "classification",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-082",
       "type": "basic",
-      "front": "Sodium nitroprusside: why it suits hypertensive emergencies, and what limits its use.",
-      "back": "It acts within seconds and wears off within minutes, so BP can be titrated by the infusion rate. It dilates both arterioles and veins, and its NO release does not produce nitrate-type tolerance. Cyanide and thiocyanate toxicity, lactic acidosis, and the need for an infusion pump and arterial monitoring limit its use. It should be avoided in stroke and in eclampsia.",
+      "front": "Guanethidine: mechanism and status",
+      "back": "Polar guanidine taken up into adrenergic nerve endings by amine transport, where it blocks impulse-coupled noradrenaline release; out of use now because of marked side effects.",
       "refs": [
         "KDT8 ch41"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "tags": [
-        "mechanism",
-        "uses"
-      ]
+        "mechanism"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-arrhythmia-angina-htn-056",
+      "id": "p2-arrhythmia-angina-htn-084",
+      "type": "basic",
+      "front": "Clonidine: uses other than hypertension",
+      "back": "Opioid withdrawal (suppresses sympathetic overactivity and craving), analgesia (intrathecal or epidural), menopausal vasomotor symptoms, and diarrhoea from diabetic neuropathy.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-085",
+      "type": "basic",
+      "front": "Minoxidil: why is it used topically?",
+      "back": "Oral minoxidil is no longer used because of vasodilator effects and cardiac risk; 2% topical solution applied twice daily promotes hair growth in male pattern baldness and alopecia areata, with a slow, incomplete response that is lost on stopping.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-047",
+      "type": "basic",
+      "front": "ACE inhibitors in hypertension: where are they preferred, and what is the main limiting adverse effect?",
+      "back": "They are first-line in most grades of essential and renovascular hypertension, except bilateral renal artery stenosis. They are preferred with diabetes, nephropathy, left ventricular hypertrophy, heart failure, angina and after MI. Dry, persistent cough, from raised bradykinin, is the most common reason to stop them. They are contraindicated in pregnancy.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-048",
+      "type": "basic",
+      "front": "ARBs compared with ACE inhibitors: practical advantages, and which combination is discouraged?",
+      "back": "ARBs block the angiotensin receptor without raising kinin levels, so the ACE inhibitor cough is avoided; angioedema and taste disturbance are rare. They share the metabolic and prognostic benefits of ACE inhibitors. JNC 8 and NICE advise against combining an ACE inhibitor with an ARB. ARBs are also avoided in pregnancy.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-050",
+      "type": "basic",
+      "front": "Beta blockers in hypertension: why are they no longer first-line?",
+      "back": "They are mild antihypertensives, and in primary prevention they are less effective than diuretics, ACE inhibitors or ARBs for stroke and MI. Nonselective agents raise triglycerides and worsen quality of life, and rebound hypertension and angina can follow abrupt withdrawal. They remain indicated for compelling reasons such as post-MI, stable heart failure or high coronary risk.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-059",
       "type": "shortnote",
-      "front": "Short note: Hypertensive emergency and hypertensive urgency",
+      "front": "Short note: Adverse effects of thiazide diuretics and the low-dose approach",
       "sections": [
         {
-          "h": "Definitions",
+          "h": "Dose-related adverse effects",
           "points": [
-            "Emergency: BP above 220 systolic or 120 diastolic with active target-organ damage",
-            "Urgency: similar BP without acute target-organ damage"
+            "Hypokalaemia with cramps and fatigue",
+            "Impaired glucose tolerance, dyslipidaemia and hyperuricaemia (gout)",
+            "Erectile dysfunction; sudden cardiac death was linked to hypokalaemia at higher doses"
           ]
         },
         {
-          "h": "Emergency conditions",
+          "h": "Evidence at low dose",
           "points": [
-            "Stroke or head injury, hypertensive encephalopathy, acute LVF with pulmonary oedema",
-            "ACS, aortic dissection, acute renal failure, eclampsia",
-            "Pheochromocytoma, cheese reaction, clonidine withdrawal"
+            "12.5 to 25 mg/day causes little hypokalaemia; ECG studies showed no excess arrhythmia",
+            "Metabolic effects are minimal; not contraindicated in diabetes",
+            "Reduces fatal and non-fatal MI and stroke in trials"
           ]
         },
         {
-          "h": "Target",
+          "h": "Practical points",
           "points": [
-            "Lower mean BP by up to 25% over minutes to 1 to 2 hours, then gradually to about 160/100 mm Hg",
-            "Avoid a rapid or excessive fall: risk of ischaemia, infarction and blindness"
-          ]
-        },
-        {
-          "h": "IV drugs",
-          "points": [
-            "Nicardipine: widely used; add a beta blocker in ACS to blunt reflex tachycardia",
-            "Labetalol: useful in hyperadrenergic states; avoid in heart failure and asthma",
-            "Esmolol: aortic dissection; GTN: ACS and acute heart failure",
-            "Nitroprusside: mainly aortic dissection; avoid in stroke",
-            "Other parenteral options: clevidipine, enalaprilat, fenoldopam, hydralazine and phentolamine"
-          ]
-        },
-        {
-          "h": "Urgency (oral)",
-          "points": [
-            "Oral labetalol or amlodipine over hours to days",
-            "Oral clonidine and captopril are not favoured"
+            "Monitor potassium; add a potassium-sparing agent if needed",
+            "NSAIDs weaken the antihypertensive effect",
+            "Ineffective in chronic kidney disease"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch41",
-        "GG14 ch32"
+        "KDT8 ch41"
       ],
       "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-068",
+      "type": "basic",
+      "front": "Resistant hypertension: common causes and drug approach",
+      "back": "Many patients need two, three or four drugs at optimal doses. Common reasons for apparent resistance are inadequate doses, poor adherence, combining drugs that act by the same mechanism, high salt intake and salt retention caused by vasodilators (so diuretic therapy is often inadequate), and interfering drugs: NSAIDs, sympathomimetic decongestants, ciclosporin, erythropoietin, ephedra, liquorice, cocaine and amphetamines. Many resistant patients have primary hyperaldosteronism and respond to adding spironolactone 25 to 50 mg daily; alternatives at this step are another diuretic, an alpha-1 blocker or a beta blocker. Renal denervation may help selected patients with well-defined resistant hypertension.",
+      "refs": [
+        "GG14 ch32",
+        "Katzung16 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "tags": [
         "uses",
-        "classification"
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-070",
+      "type": "shortnote",
+      "front": "Short note: Principles of choosing an antihypertensive for an individual patient",
+      "sections": [
+        {
+          "h": "Assess risk first",
+          "points": [
+            "Decide on BP level plus target-organ damage and total cardiovascular risk",
+            "Risk factors: age over 55 (men) or 65 (women), smoking, dyslipidaemia, diabetes, CKD, obesity",
+            "Lifestyle measures are started together with drugs"
+          ]
+        },
+        {
+          "h": "Compelling indications",
+          "points": [
+            "Heart failure, post-MI, diabetes, CKD and recurrent stroke each favour particular classes",
+            "A compelling indication can justify a drug and a lower BP target even near normal BP"
+          ]
+        },
+        {
+          "h": "Age, race and renin",
+          "points": [
+            "Young non-black patients: thiazide, ACE inhibitor/ARB or CCB as initial drug",
+            "Older patients and blacks of any age: thiazide or CCB first, as renin is lower and ACE inhibitor response weaker",
+            "Add a second drug in steps if target is not reached"
+          ]
+        },
+        {
+          "h": "Combinations to avoid",
+          "points": [
+            "Beta blocker with diuretic (raises diabetes risk)",
+            "ACE inhibitor with ARB",
+            "Verapamil or diltiazem with beta blocker (bradycardia, AV block)",
+            "Alpha or beta blocker with clonidine (blunts clonidine)"
+          ]
+        },
+        {
+          "h": "Patient-specific cautions",
+          "points": [
+            "Pregnancy: avoid ACE inhibitors and ARBs (fetal damage); diuretics can reduce uteroplacental flow",
+            "Lower BP gradually; a sudden fall can reduce perfusion",
+            "CCBs are not contraindicated in asthma, angina or peripheral vascular disease"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-073",
+      "type": "shortnote",
+      "front": "Short note: Clonidine",
+      "sections": [
+        {
+          "h": "Action",
+          "points": [
+            "Imidazoline with partial agonism at alpha-2A receptors, mainly in the brainstem",
+            "Lowers central sympathetic outflow from the medulla: fall in BP and heart rate",
+            "Enhanced vagal tone adds to bradycardia; plasma noradrenaline falls"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Well absorbed orally; peak in 2 to 4 hours",
+            "One-half to two-thirds of an oral dose excreted unchanged in urine",
+            "Plasma half-life 8 to 12 hours; single dose acts for 6 to 24 hours"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Once a popular antihypertensive; now third or fourth choice",
+            "Limited by side effects, withdrawal hypertension and tolerance",
+            "Occasionally added to a diuretic",
+            "Opioid and alcohol withdrawal, smoking cessation, analgesic adjunct, menopausal flushing, diabetic diarrhoea"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Sedation, dry mouth, constipation, impotence, salt and water retention, bradycardia, postural hypotension",
+            "Missed doses for 1 to 2 days can cause rebound hypertension with tachycardia, anxiety, sweating and headache, like phaeochromocytoma",
+            "Treat with alpha plus beta blocker, nitroprusside, or clonidine itself"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Tricyclic antidepressants and chlorpromazine abolish its antihypertensive effect"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch41"
       ],
       "pyq": [
         {
@@ -1428,65 +2097,31 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "tags": [
+        "mechanism",
+        "adr",
+        "uses"
+      ],
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "status": "draft",
+      "level": 2
     },
     {
-      "id": "p2-arrhythmia-angina-htn-057",
-      "type": "shortnote",
-      "front": "Short note: Antihypertensive treatment in pregnancy",
-      "sections": [
-        {
-          "h": "Chronic hypertension",
-          "points": [
-            "Continue existing therapy, or switch a harmful drug to a safer one",
-            "Target systolic below 150 and diastolic 80 to 100 mm Hg; avoid a rapid fall, which can reduce uteroplacental flow"
-          ]
-        },
-        {
-          "h": "Avoid",
-          "points": [
-            "ACE inhibitors and ARBs: fetal damage and growth retardation",
-            "Diuretics: reduce volume and may worsen uteroplacental perfusion",
-            "Nonselective beta blockers such as propranolol: low birth weight, neonatal bradycardia",
-            "Sodium nitroprusside in eclampsia"
-          ]
-        },
-        {
-          "h": "Preferred",
-          "points": [
-            "Labetalol (oral): most widely used",
-            "Methyldopa: longest safety record",
-            "Sustained-release nifedipine: stop before labour as it can weaken contractions",
-            "Hydralazine: safe but not favoured now",
-            "Hydralazine IV is useful in hypertensive emergencies of pre-eclampsia"
-          ]
-        },
-        {
-          "h": "Prevention",
-          "points": [
-            "Low-dose aspirin for women at high risk (diabetes, CKD, chronic hypertension, hypertension in an earlier pregnancy): KDT gives 80 to 100 mg daily from the 12th week until delivery; GG14 cites 81 or 100 mg started early, which reduces preterm pre-eclampsia",
-            "Thought to act by inhibiting TXA2 synthesis; evening dosing may give a larger effect"
-          ]
-        }
-      ],
+      "id": "p2-arrhythmia-angina-htn-083",
+      "type": "basic",
+      "front": "Prazosin: why is the first dose given at bedtime and kept low?",
+      "back": "Starting at 0.5 mg at bedtime limits the first-dose effect of postural hypotension and fainting, which is greatest at the start and with dose increments.",
       "refs": [
-        "KDT8 ch41",
-        "GG14 ch32",
-        "GG14 ch42"
+        "KDT8 ch41"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "tags": [
-        "uses",
-        "contraindications"
+        "adr"
       ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
-      ]
+      "level": 2
     },
     {
       "id": "p2-arrhythmia-angina-htn-058",
@@ -1541,47 +2176,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-059",
-      "type": "shortnote",
-      "front": "Short note: Adverse effects of thiazide diuretics and the low-dose approach",
-      "sections": [
-        {
-          "h": "Dose-related adverse effects",
-          "points": [
-            "Hypokalaemia with cramps and fatigue",
-            "Impaired glucose tolerance, dyslipidaemia and hyperuricaemia (gout)",
-            "Erectile dysfunction; sudden cardiac death was linked to hypokalaemia at higher doses"
-          ]
-        },
-        {
-          "h": "Evidence at low dose",
-          "points": [
-            "12.5 to 25 mg/day causes little hypokalaemia; ECG studies showed no excess arrhythmia",
-            "Metabolic effects are minimal; not contraindicated in diabetes",
-            "Reduces fatal and non-fatal MI and stroke in trials"
-          ]
-        },
-        {
-          "h": "Practical points",
-          "points": [
-            "Monitor potassium; add a potassium-sparing agent if needed",
-            "NSAIDs weaken the antihypertensive effect",
-            "Ineffective in chronic kidney disease"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "adr",
-        "dosing"
-      ]
+      "level": 3
     },
     {
       "id": "p2-arrhythmia-angina-htn-060",
@@ -1653,7 +2249,8 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p2-arrhythmia-angina-htn-061",
@@ -1718,155 +2315,8 @@
       "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-062",
-      "type": "cloze",
-      "front": "Classify: Antihypertensives in pregnancy",
-      "text": "{{Methyldopa}} has the longest safety record in pregnancy, {{labetalol}} is the most widely used oral agent, and {{ACE inhibitors}} and {{ARBs}} must be avoided because of fetal damage.",
-      "refs": [
-        "KDT8 ch41"
       ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
-      "tags": [
-        "uses",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-063",
-      "type": "cloze",
-      "front": "Classify: Intravenous agents in hypertensive emergency",
-      "text": "IV agents used in hypertensive emergency include {{nicardipine}}, {{labetalol}}, {{esmolol}} and {{glyceryl trinitrate}}; {{sodium nitroprusside}} is avoided in stroke and in {{eclampsia}}.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
-      "tags": [
-        "uses",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-064",
-      "type": "cloze",
-      "front": "Classify: Central and neuronal antihypertensives",
-      "text": "{{Clonidine}} and {{methyldopa}} act as central {{alpha-2}} agonists, while {{reserpine}} depletes monoamines by blocking the {{vesicular monoamine transporter}}.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-065",
-      "type": "cloze",
-      "front": "Classify: Direct vasodilator antihypertensives",
-      "text": "{{Hydralazine}} is a direct arteriolar vasodilator that provokes {{reflex tachycardia}} and fluid retention, while {{minoxidil}} acts by opening {{ATP-sensitive potassium}} channels in smooth muscle.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "classification",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-066",
-      "type": "cloze",
-      "front": "Classify: Diuretics and aldosterone antagonists",
-      "text": "Low-dose {{hydrochlorothiazide}} (12.5 to 25 mg/day) is first-line; {{spironolactone}} and {{eplerenone}} are aldosterone antagonists that reduce potassium loss but can cause {{hyperkalaemia}} with ACE inhibitors or ARBs.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "classification",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-067",
-      "type": "shortnote",
-      "front": "Short note: Drug management of atrial fibrillation",
-      "sections": [
-        {
-          "h": "Goals",
-          "points": [
-            "Relieve symptoms, prevent thromboembolism and prevent tachycardia-induced heart failure",
-            "Look for treatable causes such as hyperthyroidism"
-          ]
-        },
-        {
-          "h": "Rate control (first objective)",
-          "points": [
-            "Calcium channel blocker (verapamil, diltiazem), alone or with a beta blocker",
-            "Digoxin is useful when heart failure coexists",
-            "Rate control (60 to 80/min) has given a better benefit-risk outcome than rhythm control in several studies"
-          ]
-        },
-        {
-          "h": "Rhythm control",
-          "points": [
-            "DC cardioversion is usual, and preferred in emergencies with hypotension or angina",
-            "Single large oral dose of flecainide or propafenone, once safety is shown under monitoring; IV ibutilide converts promptly",
-            "Maintenance drug chosen by underlying heart disease: flecainide, propafenone, dronedarone or sotalol with little heart disease; amiodarone (or dofetilide) in heart failure",
-            "Ablation if AF recurs or cannot be corrected"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Dronedarone must not be used in permanent AF or advanced heart failure",
-            "Class IC drugs avoided in structural heart disease"
-          ]
-        },
-        {
-          "h": "Anticoagulation",
-          "points": [
-            "Oral anticoagulation is essential for stroke prevention in patients at risk",
-            "Warfarin was standard; factor Xa inhibitors (apixaban, rivaroxaban) and dabigatran are more acceptable alternatives"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch14",
-        "KDT8 ch39"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
-      "tags": [
-        "uses",
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-068",
-      "type": "basic",
-      "front": "Resistant hypertension: common causes and drug approach",
-      "back": "Many patients need two, three or four drugs at optimal doses. Common reasons for apparent resistance are inadequate doses, poor adherence, combining drugs that act by the same mechanism, high salt intake and salt retention caused by vasodilators (so diuretic therapy is often inadequate), and interfering drugs: NSAIDs, sympathomimetic decongestants, ciclosporin, erythropoietin, ephedra, liquorice, cocaine and amphetamines. Many resistant patients have primary hyperaldosteronism and respond to adding spironolactone 25 to 50 mg daily; alternatives at this step are another diuretic, an alpha-1 blocker or a beta blocker. Renal denervation may help selected patients with well-defined resistant hypertension.",
-      "refs": [
-        "GG14 ch32",
-        "Katzung16 ch11"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "uses",
-        "interactions"
-      ]
+      "level": 3
     },
     {
       "id": "p2-arrhythmia-angina-htn-069",
@@ -1930,232 +2380,128 @@
         "classification"
       ],
       "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "status": "draft"
+      "status": "draft",
+      "level": 3
     },
     {
-      "id": "p2-arrhythmia-angina-htn-070",
-      "type": "shortnote",
-      "front": "Short note: Principles of choosing an antihypertensive for an individual patient",
-      "sections": [
-        {
-          "h": "Assess risk first",
-          "points": [
-            "Decide on BP level plus target-organ damage and total cardiovascular risk",
-            "Risk factors: age over 55 (men) or 65 (women), smoking, dyslipidaemia, diabetes, CKD, obesity",
-            "Lifestyle measures are started together with drugs"
-          ]
-        },
-        {
-          "h": "Compelling indications",
-          "points": [
-            "Heart failure, post-MI, diabetes, CKD and recurrent stroke each favour particular classes",
-            "A compelling indication can justify a drug and a lower BP target even near normal BP"
-          ]
-        },
-        {
-          "h": "Age, race and renin",
-          "points": [
-            "Young non-black patients: thiazide, ACE inhibitor/ARB or CCB as initial drug",
-            "Older patients and blacks of any age: thiazide or CCB first, as renin is lower and ACE inhibitor response weaker",
-            "Add a second drug in steps if target is not reached"
-          ]
-        },
-        {
-          "h": "Combinations to avoid",
-          "points": [
-            "Beta blocker with diuretic (raises diabetes risk)",
-            "ACE inhibitor with ARB",
-            "Verapamil or diltiazem with beta blocker (bradycardia, AV block)",
-            "Alpha or beta blocker with clonidine (blunts clonidine)"
-          ]
-        },
-        {
-          "h": "Patient-specific cautions",
-          "points": [
-            "Pregnancy: avoid ACE inhibitors and ARBs (fetal damage); diuretics can reduce uteroplacental flow",
-            "Lower BP gradually; a sudden fall can reduce perfusion",
-            "CCBs are not contraindicated in asthma, angina or peripheral vascular disease"
-          ]
-        }
-      ],
+      "id": "p2-arrhythmia-angina-htn-062",
+      "type": "cloze",
+      "front": "Classify: Antihypertensives in pregnancy",
+      "text": "{{Methyldopa}} has the longest safety record in pregnancy, {{labetalol}} is the most widely used oral agent, and {{ACE inhibitors}} and {{ARBs}} must be avoided because of fetal damage.",
       "refs": [
         "KDT8 ch41"
       ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
       "tags": [
         "uses",
         "contraindications"
       ],
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "status": "draft"
+      "level": 1
     },
     {
-      "id": "p2-arrhythmia-angina-htn-071",
-      "type": "shortnote",
-      "front": "Short note: Drugs acting via potassium channels",
-      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
-      "tags": [
-        "mechanism",
-        "classification"
-      ],
-      "sections": [
-        {
-          "h": "Potassium channel blockers",
-          "points": [
-            "Sotalol blocks cardiac inward rectifier K+ channels (class III action)",
-            "Amiodarone and dronedarone block several cardiac K+ channels, including the delayed rectifier",
-            "Procainamide's metabolite NAPA blocks K+ channels and prolongs repolarisation"
-          ]
-        },
-        {
-          "h": "Insulin secretagogues",
-          "points": [
-            "Sulfonylureas and meglitinides close beta-cell KATP channels",
-            "Depolarisation then releases insulin"
-          ]
-        },
-        {
-          "h": "Potassium channel openers",
-          "points": [
-            "Nicorandil opens smooth muscle KATP channels and also donates NO",
-            "Glibenclamide partly antagonises nicorandil's vasodilatation",
-            "Minoxidil's active metabolite opens KATP channels; once used for severe hypertension",
-            "Diazoxide opens beta-cell KATP channels, the opposite of sulfonylureas, and causes hyperglycaemia"
-          ]
-        },
-        {
-          "h": "Clinical points",
-          "points": [
-            "Nicorandil does not cause nitrate-type tolerance",
-            "Nicorandil interacts with sildenafil"
-          ]
-        }
-      ],
+      "id": "p2-arrhythmia-angina-htn-063",
+      "type": "cloze",
+      "front": "Classify: Intravenous agents in hypertensive emergency",
+      "text": "IV agents used in hypertensive emergency include {{nicardipine}}, {{labetalol}}, {{esmolol}} and {{glyceryl trinitrate}}; {{sodium nitroprusside}} is avoided in stroke and in {{eclampsia}}.",
       "refs": [
-        "KDT8 ch19",
-        "KDT8 ch39",
-        "KDT8 ch40",
         "KDT8 ch41"
       ],
       "status": "draft",
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2019,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-072",
-      "type": "shortnote",
-      "front": "Short note: Sodium channel blockers",
-      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
       "tags": [
-        "mechanism",
-        "classification"
+        "uses",
+        "contraindications"
       ],
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Block voltage-gated Na+ channels; the block depends on frequency and channel state",
-            "Lidocaine acts mainly on inactivated channels",
-            "Local anaesthetics raise the threshold for channel opening"
-          ]
-        },
-        {
-          "h": "Antiarrhythmic subclasses",
-          "points": [
-            "IA: quinidine, procainamide, disopyramide",
-            "IB: lidocaine, mexiletine; little proarrhythmic potential",
-            "IC: flecainide (prototype), propafenone; markedly delays Na+ channel recovery"
-          ]
-        },
-        {
-          "h": "Antiseizure and local anaesthetic use",
-          "points": [
-            "Phenytoin prolongs the inactivated state of neuronal Na+ channels, limiting high-frequency firing",
-            "Local anaesthetics block axonal Na+ channels; myelinated and small-diameter fibres block first"
-          ]
-        },
-        {
-          "h": "Safety",
-          "points": [
-            "Most antiarrhythmic drugs can cause serious arrhythmia, especially with long-term use"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch26",
-        "KDT8 ch30",
-        "KDT8 ch39"
-      ],
-      "status": "draft"
+      "level": 1
     },
     {
-      "id": "p2-arrhythmia-angina-htn-073",
-      "type": "shortnote",
-      "front": "Short note: Clonidine",
-      "sections": [
-        {
-          "h": "Action",
-          "points": [
-            "Imidazoline with partial agonism at alpha-2A receptors, mainly in the brainstem",
-            "Lowers central sympathetic outflow from the medulla: fall in BP and heart rate",
-            "Enhanced vagal tone adds to bradycardia; plasma noradrenaline falls"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Well absorbed orally; peak in 2 to 4 hours",
-            "One-half to two-thirds of an oral dose excreted unchanged in urine",
-            "Plasma half-life 8 to 12 hours; single dose acts for 6 to 24 hours"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Once a popular antihypertensive; now third or fourth choice",
-            "Limited by side effects, withdrawal hypertension and tolerance",
-            "Occasionally added to a diuretic",
-            "Opioid and alcohol withdrawal, smoking cessation, analgesic adjunct, menopausal flushing, diabetic diarrhoea"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Sedation, dry mouth, constipation, impotence, salt and water retention, bradycardia, postural hypotension",
-            "Missed doses for 1 to 2 days can cause rebound hypertension with tachycardia, anxiety, sweating and headache, like phaeochromocytoma",
-            "Treat with alpha plus beta blocker, nitroprusside, or clonidine itself"
-          ]
-        },
-        {
-          "h": "Interactions",
-          "points": [
-            "Tricyclic antidepressants and chlorpromazine abolish its antihypertensive effect"
-          ]
-        }
-      ],
+      "id": "p2-arrhythmia-angina-htn-093",
+      "type": "basic",
+      "front": "How is a hypertensive emergency defined, and name its major indications.",
+      "back": "BP above about 220 systolic or 120 diastolic with active target-organ damage. Typical settings: stroke or head injury, acute LVF with pulmonary oedema, ACS or MI, aortic dissection, acute renal failure, eclampsia, and pheochromocytoma, cheese reaction or clonidine withdrawal. The organ damage, not the number alone, makes it an emergency needing controlled IV therapy.",
       "refs": [
         "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-055",
+      "type": "basic",
+      "front": "Sodium nitroprusside: why it suits hypertensive emergencies, and what limits its use.",
+      "back": "It acts within seconds and wears off within minutes, so BP can be titrated by the infusion rate. It dilates both arterioles and veins, and its NO release does not produce nitrate-type tolerance. Cyanide and thiocyanate toxicity, lactic acidosis, and the need for an infusion pump and arterial monitoring limit its use. It should be avoided in stroke and in eclampsia.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-056",
+      "type": "shortnote",
+      "front": "Short note: Hypertensive emergency and hypertensive urgency",
+      "sections": [
+        {
+          "h": "Definitions",
+          "points": [
+            "Emergency: BP above 220 systolic or 120 diastolic with active target-organ damage",
+            "Urgency: similar BP without acute target-organ damage"
+          ]
+        },
+        {
+          "h": "Emergency conditions",
+          "points": [
+            "Stroke or head injury, hypertensive encephalopathy, acute LVF with pulmonary oedema",
+            "ACS, aortic dissection, acute renal failure, eclampsia",
+            "Pheochromocytoma, cheese reaction, clonidine withdrawal"
+          ]
+        },
+        {
+          "h": "Target",
+          "points": [
+            "Lower mean BP by up to 25% over minutes to 1 to 2 hours, then gradually to about 160/100 mm Hg",
+            "Avoid a rapid or excessive fall: risk of ischaemia, infarction and blindness"
+          ]
+        },
+        {
+          "h": "IV drugs",
+          "points": [
+            "Nicardipine: widely used; add a beta blocker in ACS to blunt reflex tachycardia",
+            "Labetalol: useful in hyperadrenergic states; avoid in heart failure and asthma",
+            "Esmolol: aortic dissection; GTN: ACS and acute heart failure",
+            "Nitroprusside: mainly aortic dissection; avoid in stroke",
+            "Other parenteral options: clevidipine, enalaprilat, fenoldopam, hydralazine and phentolamine"
+          ]
+        },
+        {
+          "h": "Urgency (oral)",
+          "points": [
+            "Oral labetalol or amlodipine over hours to days",
+            "Oral clonidine and captopril are not favoured"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch41",
+        "GG14 ch32"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
+      "tags": [
+        "uses",
+        "classification"
       ],
       "pyq": [
         {
@@ -2164,209 +2510,83 @@
           "marks": 10
         }
       ],
-      "tags": [
-        "mechanism",
-        "adr",
-        "uses"
-      ],
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "status": "draft"
+      "level": 2
     },
     {
-      "id": "p2-arrhythmia-angina-htn-074",
-      "type": "basic",
-      "front": "Why is nimodipine used after subarachnoid haemorrhage?",
-      "back": "It is a short-acting dihydropyridine that crosses the blood-brain barrier well and acts on cerebral vessels; used to prevent and treat neurological deficit from cerebral vasospasm after subarachnoid haemorrhage or ruptured aneurysm (30-60 mg 4-6 hourly for 3 weeks).",
+      "id": "p2-arrhythmia-angina-htn-057",
+      "type": "shortnote",
+      "front": "Short note: Antihypertensive treatment in pregnancy",
+      "sections": [
+        {
+          "h": "Chronic hypertension",
+          "points": [
+            "Continue existing therapy, or switch a harmful drug to a safer one",
+            "Target systolic below 150 and diastolic 80 to 100 mm Hg; avoid a rapid fall, which can reduce uteroplacental flow"
+          ]
+        },
+        {
+          "h": "Avoid",
+          "points": [
+            "ACE inhibitors and ARBs: fetal damage and growth retardation",
+            "Diuretics: reduce volume and may worsen uteroplacental perfusion",
+            "Nonselective beta blockers such as propranolol: low birth weight, neonatal bradycardia",
+            "Sodium nitroprusside in eclampsia"
+          ]
+        },
+        {
+          "h": "Preferred",
+          "points": [
+            "Labetalol (oral): most widely used",
+            "Methyldopa: longest safety record",
+            "Sustained-release nifedipine: stop before labour as it can weaken contractions",
+            "Hydralazine: safe but not favoured now",
+            "Hydralazine IV is useful in hypertensive emergencies of pre-eclampsia"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Low-dose aspirin for women at high risk (diabetes, CKD, chronic hypertension, hypertension in an earlier pregnancy): KDT gives 80 to 100 mg daily from the 12th week until delivery; GG14 cites 81 or 100 mg started early, which reduces preterm pre-eclampsia",
+            "Thought to act by inhibiting TXA2 synthesis; evening dosing may give a larger effect"
+          ]
+        }
+      ],
       "refs": [
-        "KDT8 ch40"
+        "KDT8 ch41",
+        "GG14 ch32",
+        "GG14 ch42"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-094",
+      "type": "basic",
+      "front": "Case: hypertensive emergency with acute coronary syndrome. Choose an IV agent and explain how to handle its reflex effect.",
+      "back": "Nicardipine IV is a popular choice, now replacing nitroprusside; it is a vasoselective DHP with a half-life of about 45 min and an action lasting 3-4 h, and in a trial matched nitroprusside in reaching target BP within an hour. Its vasodilatation causes reflex tachycardia, which is harmful in ACS or MI, so esmolol or labetalol is co-administered.",
+      "refs": [
+        "KDT8 ch41"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
+      "subtopic": "p2-arrhythmia-angina-htn-hypertension-emergency-pregnancy",
       "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-075",
-      "type": "basic",
-      "front": "Amlodipine: why does it cause few early vasodilator side effects?",
-      "back": "Slow oral absorption with peak level at 6-9 hours, more consistent bioavailability (less first-pass), and a very long half-life, so the blood level fluctuates little across the day.",
-      "refs": [
-        "KDT8 ch40"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-076",
-      "type": "basic",
-      "front": "Felodipine: distinguishing features and approved use",
-      "back": "Greater vascular selectivity and larger tissue distribution than nifedipine with a longer half-life; approved for symptomatic treatment of Raynaud's disease; ER form once daily.",
-      "refs": [
-        "KDT8 ch40"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-077",
-      "type": "basic",
-      "front": "Cilnidipine: what makes it different from other dihydropyridines?",
-      "back": "It blocks N-type (neuronal) calcium channels as well as L-type, and is claimed not to cause the reflex tachycardia seen with other DHPs.",
-      "refs": [
-        "KDT8 ch40"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-calcium-channel-blockers",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-078",
-      "type": "basic",
-      "front": "Cilostazol: mechanism, indication and key cautions",
-      "back": "PDE-3 inhibitor raising cAMP in platelets and vascular smooth muscle; used only for intermittent claudication without rest pain; avoid in heart failure; CYP3A4 and CYP2C19 inhibitors increase toxicity.",
-      "refs": [
-        "KDT8 ch40"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
-      "tags": [
-        "newer-drugs",
+        "uses",
         "adr"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-079",
-      "type": "basic",
-      "front": "Pentoxifylline: how does it help intermittent claudication?",
-      "back": "Acts mainly on rheology: lowers whole-blood viscosity and improves red cell flexibility, improving microcirculatory flow without a major change in heart rate, total peripheral resistance or BP.",
-      "refs": [
-        "KDT8 ch40"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-080",
-      "type": "basic",
-      "front": "Why is isosorbide mononitrate different from isosorbide dinitrate?",
-      "back": "Mononitrate is the active metabolite of the dinitrate: little first-pass metabolism, high and consistent bioavailability, half-life 4-6 hours. Its last dose is taken in the afternoon.",
-      "refs": [
-        "KDT8 ch40"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-081",
-      "type": "basic",
-      "front": "Cyanide poisoning: which antidotes are used and why?",
-      "back": "Sodium nitrite forms methaemoglobin, which binds cyanide as cyanomethaemoglobin; sodium thiosulfate then converts cyanide to thiocyanate for urinary excretion. Hydroxocobalamin (high dose, i.v.) and dicobalt edetate are alternatives; hydroxocobalamin is preferred in smoke inhalation.",
-      "refs": [
-        "KDT8 ch40"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-082",
-      "type": "basic",
-      "front": "Guanethidine: mechanism and status",
-      "back": "Polar guanidine taken up into adrenergic nerve endings by amine transport, where it blocks impulse-coupled noradrenaline release; out of use now because of marked side effects.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-083",
-      "type": "basic",
-      "front": "Prazosin: why is the first dose given at bedtime and kept low?",
-      "back": "Starting at 0.5 mg at bedtime limits the first-dose effect of postural hypotension and fainting, which is greatest at the start and with dose increments.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-084",
-      "type": "basic",
-      "front": "Clonidine: uses other than hypertension",
-      "back": "Opioid withdrawal (suppresses sympathetic overactivity and craving), analgesia (intrathecal or epidural), menopausal vasomotor symptoms, and diarrhoea from diabetic neuropathy.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-085",
-      "type": "basic",
-      "front": "Minoxidil: why is it used topically?",
-      "back": "Oral minoxidil is no longer used because of vasodilator effects and cardiac risk; 2% topical solution applied twice daily promotes hair growth in male pattern baldness and alopecia areata, with a slow, incomplete response that is lost on stopping.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-arrhythmia-angina-htn-086",
-      "type": "basic",
-      "front": "Drugs for transient or acute atrioventricular block",
-      "back": "Atropine 0.6-1.2 mg i.m. when block is vagal (e.g. digitalis toxicity, some MIs); sympathomimetics such as isoprenaline in partial or complete block until a pacemaker can be placed. Pacing is the definitive treatment.",
-      "refs": [
-        "KDT8 ch39"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
-      "tags": [
-        "uses"
-      ]
+      "level": 3
     }
   ]
 }

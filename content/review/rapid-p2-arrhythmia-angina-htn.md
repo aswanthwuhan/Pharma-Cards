@@ -49,3 +49,5 @@ Card 0178 (sotalol type) keeps the KDT8 wording and does not restate the channel
 |---|---|---|
 | p2-arrhythmia-angina-htn-074 to p2-arrhythmia-angina-htn-086 | added | KDT8 ch39, ch40, ch41 |
 | rf-p2-arrhythmia-angina-htn-0679 to rf-p2-arrhythmia-angina-htn-0682 | added | KDT8 ch40, ch41 |
+
+Ladder pass: no rapid cards added; audit of 681 cards found chapter facts already covered (all rows ok).

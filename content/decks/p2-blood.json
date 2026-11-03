@@ -15,7 +15,8 @@
       "subtopic": "p2-blood-iron-haematinics",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-002",
@@ -30,7 +31,8 @@
       "subtopic": "p2-blood-iron-haematinics",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-003",
@@ -46,7 +48,8 @@
       "tags": [
         "interactions",
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-004",
@@ -61,7 +64,8 @@
       "subtopic": "p2-blood-iron-haematinics",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-005",
@@ -78,7 +82,8 @@
       "tags": [
         "dosing",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-006",
@@ -93,7 +98,69 @@
       "subtopic": "p2-blood-iron-haematinics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-016",
+      "type": "cloze",
+      "front": "Classify: oral iron preparations",
+      "text": "Dissociable oral salts include {{ferrous sulfate}}, {{ferrous fumarate}} and {{ferrous gluconate}}; {{carbonyl iron}} is a fine metallic powder with about three-quarters the bioavailability of ferrous sulfate.",
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-017",
+      "type": "cloze",
+      "front": "Classify: intravenous iron products",
+      "text": "Iron {{dextran}} can be given both i.m. and i.v.; {{ferrous sucrose}} is given only i.v., with a single dose of up to {{200 mg}}; {{ferric carboxymaltose}} and {{iron isomaltoside 1000}} allow large single infusions.",
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-018",
+      "type": "cloze",
+      "front": "Classify: maturation factors",
+      "text": "Vitamin B12 is absorbed only when bound to {{intrinsic factor}} made in the {{stomach}}; folate is absorbed mainly in the {{upper intestine}}; the body's folate stores last only {{3 to 4 months}} without a supply.",
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-080",
+      "type": "cloze",
+      "front": "Cloze: iron in haemoglobin and blood loss",
+      "text": "Haemoglobin contains about {{0.33%}} iron; loss of 100 ml blood (15 g Hb) removes about {{50 mg}} elemental iron, and raising blood Hb by 1 g/dl needs about {{200 mg}} iron.",
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-007",
@@ -108,7 +175,8 @@
       "subtopic": "p2-blood-iron-haematinics",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-008",
@@ -124,7 +192,8 @@
       "tags": [
         "newer-drugs",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-009",
@@ -142,7 +211,8 @@
       "tags": [
         "poisoning",
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-010",
@@ -197,7 +267,8 @@
       "subtopic": "p2-blood-iron-haematinics",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-011",
@@ -245,7 +316,8 @@
       "tags": [
         "dosing",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-012",
@@ -295,7 +367,8 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-013",
@@ -342,7 +415,269 @@
       "tags": [
         "adr",
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-072",
+      "type": "shortnote",
+      "front": "Short note: Haemopoietic growth factors",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "sections": [
+        {
+          "h": "Erythropoietin",
+          "points": [
+            "Regulates red cell production",
+            "Used for anaemia of chronic renal failure, chemotherapy, zidovudine therapy, premature infants and autologous blood donation",
+            "Can cause hypertension, iron deficiency and raised blood viscosity"
+          ]
+        },
+        {
+          "h": "Colony-stimulating factors",
+          "points": [
+            "G-CSF (filgrastim, pegfilgrastim, lenograstim) stimulates neutrophil progenitors",
+            "Pegfilgrastim is pegylated and acts longer",
+            "Used to shorten chemotherapy-induced neutropenia and to harvest progenitor cells",
+            "GM-CSF is also a recombinant CSF"
+          ]
+        },
+        {
+          "h": "Thrombopoietin agonists",
+          "points": [
+            "Recombinant thrombopoietin caused neutralising antibodies and prolonged thrombocytopenia",
+            "Eltrombopag (oral) and romiplostim (injected) activate thrombopoietin receptors",
+            "Approved for ITP that has not responded to other treatment such as splenectomy"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "G-CSF: bone pain, fever, myalgia, rash and GI upset"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 ch26",
+        "KDT8 ch64"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-blood-074",
+      "type": "shortnote",
+      "front": "Short note: Drugs abused in sports",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "adr"
+      ],
+      "sections": [
+        {
+          "h": "Erythropoietin",
+          "points": [
+            "Athletes use epoetin to raise haemoglobin (blood doping)",
+            "Misuse has been linked to deaths of several athletes and is strongly discouraged"
+          ]
+        },
+        {
+          "h": "Androgens and anabolic steroids",
+          "points": [
+            "Athletes take androgens, usually secretly, so effects are poorly documented",
+            "Early abuse used 17-alkylated anabolic steroids, which were thought to be more anabolic than androgenic",
+            "Many of these compounds can be detected readily by testing"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch45",
+        "GG14 ch49"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-blood-076",
+      "type": "shortnote",
+      "front": "Short note: Erythropoietin (epoetin)",
+      "sections": [
+        {
+          "h": "Form",
+          "points": [
+            "Recombinant human erythropoietin (epoetin alfa and beta), given i.v. or s.c."
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Stimulates erythropoiesis in a dose-dependent manner",
+            "Has no effect on red cell lifespan"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p670"
+      ],
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-077",
+      "type": "shortnote",
+      "front": "Short note: Parenteral iron preparations",
+      "sections": [
+        {
+          "h": "Indications",
+          "points": [
+            "Oral iron not tolerated, or malabsorption and inflammatory bowel disease",
+            "Non-compliance, or severe deficiency with chronic bleeding",
+            "Alongside erythropoietin in chronic kidney disease when oral iron cannot keep pace"
+          ]
+        },
+        {
+          "h": "Preparations",
+          "points": [
+            "Iron dextran: the only product given both i.m. and i.v.; high-molecular colloid, antigenic",
+            "Ferrous sucrose and ferric carboxymaltose: newer, milder reaction profile",
+            "Iron isomaltoside 1000: full deficit may be given as one short i.v. infusion"
+          ]
+        },
+        {
+          "h": "Dose",
+          "points": [
+            "Total iron (mg) = 4.4 x body weight (kg) x Hb deficit (g/dl)",
+            "Iron dextran given i.m. needs about 25% extra because part stays bound at the site"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Local pain, skin pigmentation and sterile abscess (i.m.)",
+            "Fever, joint pain, flushing; anaphylaxis is commoner with iron dextran",
+            "Ionised iron salts are never injected: protein precipitation and free iron toxicity"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-078",
+      "type": "shortnote",
+      "front": "Short note: Vitamin B12 - absorption, deficiency and replacement",
+      "sections": [
+        {
+          "h": "Absorption",
+          "points": [
+            "Food B12 released by gastric acid and pepsin, then bound by intrinsic factor",
+            "Complex absorbed by active carrier transport in the ileum; without intrinsic factor only a small fraction passes, and only at gross excess"
+          ]
+        },
+        {
+          "h": "Transport and stores",
+          "points": [
+            "Carried in plasma by transcobalamin II",
+            "About two-thirds to four-fifths of the 2-8 mg body store is in liver",
+            "Enterohepatic recycling; stores take 3-5 years of nil intake to deplete"
+          ]
+        },
+        {
+          "h": "Causes of deficiency",
+          "points": [
+            "Pernicious anaemia from autoimmune loss of gastric parietal cells; rare in India",
+            "Gastrectomy, chronic gastritis, malabsorption, fish tapeworm, blind loop; strict vegetarians less often"
+          ]
+        },
+        {
+          "h": "Features",
+          "points": [
+            "Megaloblastic anaemia usually first; glossitis and GI upset",
+            "Neurological damage (cord degeneration, neuropathy) is late and may not fully recover"
+          ]
+        },
+        {
+          "h": "Replacement",
+          "points": [
+            "Injected hydroxocobalamin preferred; oral B12 unreliable when intrinsic factor is absent",
+            "UK-style regimen: 1 mg i.m. every other day for 2 weeks, then 1 mg every 1-3 months"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-014",
@@ -405,7 +740,8 @@
       "tags": [
         "uses",
         "pk"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p2-blood-015",
@@ -471,49 +807,62 @@
           "year": 2007,
           "marks": 20
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-blood-016",
-      "type": "cloze",
-      "front": "Classify: oral iron preparations",
-      "text": "Dissociable oral salts include {{ferrous sulfate}}, {{ferrous fumarate}} and {{ferrous gluconate}}; {{carbonyl iron}} is a fine metallic powder with about three-quarters the bioavailability of ferrous sulfate.",
+      "id": "p2-blood-079",
+      "type": "essay",
+      "front": "Essay: Haematinics - classes, indications and drug choice in anaemia",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Haematinics are substances needed to form blood and treat anaemias",
+            "Anaemia arises from blood loss, impaired formation or increased red cell destruction"
+          ]
+        },
+        {
+          "h": "Iron",
+          "points": [
+            "Oral ferrous salts first; dose judged by elemental iron content",
+            "Parenteral iron when oral fails, malabsorption or non-compliance",
+            "Maximal response: about 200 mg elemental iron daily in three doses; prophylaxis 30 mg daily"
+          ]
+        },
+        {
+          "h": "Vitamin B12 and folic acid",
+          "points": [
+            "B12 replaced by hydroxocobalamin; oral folic acid 2-5 mg/day as adjunct",
+            "Folic acid never given alone in B12 deficiency (neurological worsening)"
+          ]
+        },
+        {
+          "h": "Erythropoietin",
+          "points": [
+            "Chief use: anaemia of chronic renal failure, when Hb is below 8 g/dl",
+            "Aim to keep Hb about 10-11 g/dl; most patients also need iron"
+          ]
+        },
+        {
+          "h": "Adjuncts",
+          "points": [
+            "Copper only when deficiency is shown",
+            "Pyridoxine only for specific sideroblastic anaemias, not routinely"
+          ]
+        }
+      ],
       "refs": [
         "KDT8 ch44"
       ],
+      "pyq": [],
       "status": "draft",
       "subtopic": "p2-blood-iron-haematinics",
       "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-blood-017",
-      "type": "cloze",
-      "front": "Classify: intravenous iron products",
-      "text": "Iron {{dextran}} can be given both i.m. and i.v.; {{ferrous sucrose}} is given only i.v., with a single dose of up to {{200 mg}}; {{ferric carboxymaltose}} and {{iron isomaltoside 1000}} allow large single infusions.",
-      "refs": [
-        "KDT8 ch44"
+        "classification",
+        "uses"
       ],
-      "status": "draft",
-      "subtopic": "p2-blood-iron-haematinics",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-blood-018",
-      "type": "cloze",
-      "front": "Classify: maturation factors",
-      "text": "Vitamin B12 is absorbed only when bound to {{intrinsic factor}} made in the {{stomach}}; folate is absorbed mainly in the {{upper intestine}}; the body's folate stores last only {{3 to 4 months}} without a supply.",
-      "refs": [
-        "KDT8 ch44"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-iron-haematinics",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 3
     },
     {
       "id": "p2-blood-019",
@@ -528,7 +877,8 @@
       "subtopic": "p2-blood-vitamin-k-warfarin",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-020",
@@ -543,7 +893,8 @@
       "subtopic": "p2-blood-vitamin-k-warfarin",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-021",
@@ -558,7 +909,8 @@
       "subtopic": "p2-blood-vitamin-k-warfarin",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-022",
@@ -574,38 +926,8 @@
       "tags": [
         "pk",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-blood-023",
-      "type": "basic",
-      "front": "Which drugs and conditions increase the effect of warfarin, and by what mechanism?",
-      "back": "Broad-spectrum antibiotics reduce gut vitamin K production; ceftriaxone and cefoperazone add a direct hypoprothrombinaemic effect; aspirin adds platelet inhibition and GI bleeding; sulfonamides, phenytoin and indomethacin displace warfarin from albumin; chloramphenicol, erythromycin, metronidazole, amiodarone, cimetidine and allopurinol inhibit its metabolism. Liver disease, malnutrition and hyperthyroidism also increase the effect.",
-      "refs": [
-        "KDT8 ch45"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-vitamin-k-warfarin",
-      "tags": [
-        "interactions",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-blood-024",
-      "type": "basic",
-      "front": "Which drugs reduce the effect of warfarin, and why is stopping them dangerous?",
-      "back": "Barbiturates (not benzodiazepines), carbamazepine, rifampicin and griseofulvin induce warfarin metabolism; oral contraceptives raise clotting factor levels. If an inducer is withdrawn while warfarin continues, the INR can rise sharply, and fatal bleeding has occurred.",
-      "refs": [
-        "KDT8 ch45"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-vitamin-k-warfarin",
-      "tags": [
-        "interactions"
-      ]
+      "level": 1
     },
     {
       "id": "p2-blood-025",
@@ -621,7 +943,103 @@
       "subtopic": "p2-blood-vitamin-k-warfarin",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-043",
+      "type": "cloze",
+      "front": "Classify: vitamin K-dependent proteins",
+      "text": "The vitamin K-dependent clotting factors are {{II}}, {{VII}}, {{IX}} and {{X}}; the anticoagulant proteins {{protein C}} and {{protein S}} are also vitamin K-dependent.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-044",
+      "type": "cloze",
+      "front": "Complete: metabolism of the warfarin enantiomers",
+      "text": "Warfarin is a racemate; the {{S}} enantiomer is 3 to 5 times more potent and is cleared mainly by {{CYP2C9}}, whose polymorphisms (with {{VKORC1}} variants) alter dose needs. KDT states the less potent R enantiomer is degraded by side-chain reduction through CYP1A and CYP3A4.",
+      "refs": [
+        "GG14 ch36",
+        "KDT8 ch45"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-045",
+      "type": "cloze",
+      "front": "Classify: vitamin K antagonist oral anticoagulants",
+      "text": "{{Warfarin}} has a half-life of {{36 to 48 h}}; {{acenocoumarol}} has an overall effective duration of about {{24 h}} through its active metabolite; {{ethyl biscoumacetate}} acts rapidly and briefly; {{bishydroxycoumarin}} is slowly and unpredictably absorbed.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-084",
+      "type": "cloze",
+      "front": "Cloze: clotting factor fall on warfarin",
+      "text": "Factor {{VII}} falls first, with a half-life of about {{6 h}}; factor IX ({{24 h}}), factor X ({{40 h}}) and prothrombin ({{60 h}}) follow.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-023",
+      "type": "basic",
+      "front": "Which drugs and conditions increase the effect of warfarin, and by what mechanism?",
+      "back": "Broad-spectrum antibiotics reduce gut vitamin K production; ceftriaxone and cefoperazone add a direct hypoprothrombinaemic effect; aspirin adds platelet inhibition and GI bleeding; sulfonamides, phenytoin and indomethacin displace warfarin from albumin; chloramphenicol, erythromycin, metronidazole, amiodarone, cimetidine and allopurinol inhibit its metabolism. Liver disease, malnutrition and hyperthyroidism also increase the effect.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "interactions",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-024",
+      "type": "basic",
+      "front": "Which drugs reduce the effect of warfarin, and why is stopping them dangerous?",
+      "back": "Barbiturates (not benzodiazepines), carbamazepine, rifampicin and griseofulvin induce warfarin metabolism; oral contraceptives raise clotting factor levels. If an inducer is withdrawn while warfarin continues, the INR can rise sharply, and fatal bleeding has occurred.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-026",
@@ -637,7 +1055,220 @@
       "subtopic": "p2-blood-vitamin-k-warfarin",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-070",
+      "type": "basic",
+      "front": "Why does warfarin dose requirement vary so much between patients?",
+      "back": "Genetic variation in two genes. CYP2C9 variants alter metabolism of the more potent S-warfarin (pharmacokinetic effect). VKORC1 variants make the target enzyme more sensitive to inhibition (pharmacodynamic effect). About 10% of patients need less than 1.5 mg a day to reach INR 2 to 3, often because they carry these variants. Genotyping both genes can help choose the starting dose. Diet, interacting drugs and illness add further variation.",
+      "refs": [
+        "GG14 ch36",
+        "RangDale9 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-081",
+      "type": "shortnote",
+      "front": "Short note: Vitamin K - role in coagulation and clinical uses",
+      "sections": [
+        {
+          "h": "Chemistry and sources",
+          "points": [
+            "Naphthoquinone: K1 phytonadione (plants), K2 menaquinone (made by gut bacteria), K3 menadione (synthetic)",
+            "Dietary sources: green leafy vegetables and liver"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Cofactor for carboxylation of glutamate residues in factors II, VII, IX and X",
+            "Carboxylation lets these proteins bind calcium and attach to phospholipid surfaces"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Dietary lack, prolonged antibiotics, obstructive jaundice, malabsorption",
+            "Newborn prophylaxis: 1 mg i.m. at birth",
+            "Coumarin overdose: phytonadione is the preferred form because it acts fastest"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Menadione avoided: haemolysis in G6PD deficiency and kernicterus in neonates",
+            "Emulsified phytonadione given i.v. can cause anaphylactoid reactions; use i.m. or oral"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-082",
+      "type": "shortnote",
+      "front": "Short note: Oral anticoagulants (vitamin K antagonists)",
+      "sections": [
+        {
+          "h": "Classification",
+          "points": [
+            "Coumarins: warfarin, acenocoumarol, bishydroxycoumarin, ethyl biscoumacetate",
+            "Newer oral agents act on factor Xa or thrombin (separate cards)"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Inhibit vitamin K epoxide reductase, so reduced vitamin K cannot be regenerated",
+            "Stop synthesis of factors II, VII, IX and X; effective in vivo only",
+            "Effect builds over 1-3 days; a 40-50% fall in factor synthesis is enough"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Warfarin is racemic; the S enantiomer is more potent and cleared by CYP2C9",
+            "Warfarin about 99% protein bound; crosses placenta; small amounts in milk",
+            "Bishydroxycoumarin absorbed erratically; acenocoumarol acts within about 2-3 days"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Bleeding is the main risk and rises when INR is above 4 or interacting drugs are present",
+            "Alopecia, dermatitis, diarrhoea; cutaneous necrosis is rare",
+            "Avoid in pregnancy: foetal warfarin syndrome; CNS defects and foetal haemorrhage if given later"
+          ]
+        },
+        {
+          "h": "Monitoring and choice",
+          "points": [
+            "Dose individualised by repeated prothrombin time (INR), with target set by indication",
+            "Warfarin and acenocoumarol are the best tolerated and most suitable coumarins"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "mechanism",
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-083",
+      "type": "shortnote",
+      "front": "Short note: Management of warfarin overdose and bleeding",
+      "sections": [
+        {
+          "h": "Recognise",
+          "points": [
+            "Haematuria is often the first sign; also GI, intracranial and deep bleeding",
+            "Higher risk when INR exceeds 4, monitoring lapses or interacting drugs are added"
+          ]
+        },
+        {
+          "h": "Immediate steps",
+          "points": [
+            "Withhold the anticoagulant",
+            "Fresh whole blood supplies ready-made clotting factors and replaces lost blood; fresh frozen plasma is an alternative"
+          ]
+        },
+        {
+          "h": "Reversal",
+          "points": [
+            "Vitamin K1 is the specific antidote; it takes 6-24 hours to restore factor levels",
+            "Severe deficiency: 10 mg i.m., then 5 mg every 4 hours; bleeding usually stops in 6-12 hours"
+          ]
+        },
+        {
+          "h": "Avoid overcorrection",
+          "points": [
+            "Large vitamin K doses make the patient resistant to oral anticoagulants for 7-10 days",
+            "Mild excess: simply omit a few doses"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "poisoning",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-111",
+      "type": "basic",
+      "front": "A patient on stable warfarin starts rifampicin for 2 months, then stops it. What happens to the INR, and how do you plan monitoring?",
+      "back": "Rifampicin induces liver enzymes, so warfarin is cleared faster and the INR falls (loss of effect, risk of clots). The dose must be raised with repeat INR checks. When rifampicin is stopped, induction fades over time, the same dose becomes too strong and bleeding risk rises, so the dose must be cut back with close INR monitoring. Target is usually INR 2 to 3. Bleeding with a high INR: hold warfarin, give vitamin K; stopping inducers is as dangerous as starting inhibitors.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-vitamin-k-warfarin",
+      "tags": [
+        "interactions",
+        "dosing"
+      ],
+      "level": 3
     },
     {
       "id": "p2-blood-027",
@@ -652,7 +1283,8 @@
       "subtopic": "p2-blood-heparins",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-028",
@@ -667,7 +1299,8 @@
       "subtopic": "p2-blood-heparins",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-029",
@@ -683,22 +1316,8 @@
       "subtopic": "p2-blood-heparins",
       "tags": [
         "dosing"
-      ]
-    },
-    {
-      "id": "p2-blood-030",
-      "type": "basic",
-      "front": "How is heparin reversed with protamine, and what are its limits and dangers?",
-      "back": "Protamine, a basic protein, neutralises heparin about 1 mg per 100 U. It does not reverse fondaparinux and only partly reverses low molecular weight heparins. Inject it slowly (about 5 mg/min); rapid injection causes flushing and breathlessness. It can itself act as an anticoagulant and can cause hypersensitivity.",
-      "refs": [
-        "KDT8 ch45"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-heparins",
-      "tags": [
-        "adr"
-      ]
+      "level": 1
     },
     {
       "id": "p2-blood-031",
@@ -714,40 +1333,40 @@
       "tags": [
         "classification",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-blood-032",
-      "type": "basic",
-      "front": "How does aspirin inhibit platelets, and why does its effect last for days?",
-      "back": "Aspirin irreversibly acetylates platelet COX-1, which stops thromboxane A2 synthesis. Platelets have no nucleus and cannot make new enzyme, so the effect lasts until new platelets are formed; bleeding time stays prolonged for 5 to 7 days. Low daily doses accumulate. Daily doses of 100 mg or less are used for most indications; higher doses also inhibit vascular prostacyclin and add bleeding without extra benefit.",
+      "id": "p2-blood-089",
+      "type": "cloze",
+      "front": "Cloze: heparin dosing and monitoring numbers",
+      "text": "Infusion is titrated so that aPTT stays at about {{50-80 s}} or {{1.5-2.5}} times control; protamine neutralises heparin at {{1 mg per 100 U}}, and {{1 mg}} of heparin sodium is about {{120-140 U}}.",
       "refs": [
-        "KDT8 ch45",
-        "GG14 ch36"
+        "KDT8 ch45"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-blood-antiplatelets",
+      "subtopic": "p2-blood-heparins",
       "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-blood-033",
-      "type": "basic",
-      "front": "Dabigatran: how is it given, and how is it reversed?",
-      "back": "Dabigatran etexilate is an oral prodrug converted to dabigatran, a reversible direct thrombin inhibitor. About 80% of absorbed drug is excreted unchanged by the kidney, so the dose is reduced in severe renal impairment. It has no CYP3A4 interaction, but it is a P-glycoprotein substrate. Idarucizumab, a humanised antibody fragment, is the specific reversal agent. It must not be used with mechanical heart valves or triple-positive antiphospholipid syndrome.",
-      "refs": [
-        "KDT8 ch45",
-        "GG14 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-doacs",
-      "tags": [
-        "mechanism",
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-030",
+      "type": "basic",
+      "front": "How is heparin reversed with protamine, and what are its limits and dangers?",
+      "back": "Protamine, a basic protein, neutralises heparin about 1 mg per 100 U. It does not reverse fondaparinux and only partly reverses low molecular weight heparins. Inject it slowly (about 5 mg/min); rapid injection causes flushing and breathlessness. It can itself act as an anticoagulant and can cause hypersensitivity.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-heparins",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-034",
@@ -809,7 +1428,8 @@
           "year": 2019,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-035",
@@ -862,7 +1482,926 @@
       "subtopic": "p2-blood-heparins",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-073",
+      "type": "shortnote",
+      "front": "Short note: Direct thrombin inhibitors",
+      "subtopic": "p2-blood-heparins",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Bind thrombin directly, so no antithrombin III is needed",
+            "Used when heparin cannot be used, e.g. heparin-induced thrombocytopenia"
+          ]
+        },
+        {
+          "h": "Bivalirudin",
+          "points": [
+            "Synthetic 20-amino-acid peptide based on hirudin",
+            "Anticoagulant in PCI for STEMI, with aspirin and/or clopidogrel or a GP IIb/IIIa inhibitor",
+            "Useful where HIT risk exists"
+          ]
+        },
+        {
+          "h": "Argatroban",
+          "points": [
+            "Synthetic non-peptide that binds the thrombin catalytic site reversibly",
+            "Given IV as a bolus then infusion; short-lasting; prolongs aPTT",
+            "Used for thrombosis in HIT and for PCI in patients with HIT"
+          ]
+        },
+        {
+          "h": "Dabigatran",
+          "points": [
+            "Oral prodrug converted to a reversible direct thrombin inhibitor",
+            "About 80% is excreted by the kidney",
+            "Reversed by idarucizumab"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-blood-075",
+      "type": "shortnote",
+      "front": "Short note: Direct thrombin inhibitors",
+      "sections": [
+        {
+          "h": "Use",
+          "points": [
+            "Heparin-induced thrombocytopenia: heparin must be stopped; low molecular weight heparins are not safe, so a direct thrombin inhibitor is used"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p678"
+      ],
+      "subtopic": "p2-blood-heparins",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-085",
+      "type": "shortnote",
+      "front": "Short note: Heparin pharmacology",
+      "sections": [
+        {
+          "h": "Source and chemistry",
+          "points": [
+            "Mixed sulfated mucopolysaccharides from ox lung or pig intestinal mucosa",
+            "Standardised by bioassay: 1 mg is about 120-140 U"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Activates antithrombin III; the complex inactivates factor Xa and thrombin, and other intrinsic factors",
+            "Low concentration mainly prolongs aPTT (intrinsic pathway); high concentration also prolongs PT"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Not absorbed orally; i.v. effect immediate, s.c. effect builds over about 60 minutes",
+            "Does not cross placenta or blood-brain barrier; half-life about 1 hour below 100 U/kg"
+          ]
+        },
+        {
+          "h": "Dosing and monitoring",
+          "points": [
+            "i.v. bolus 5000-10000 U, then 750-1000 U/h; aPTT kept at 50-80 s",
+            "Low-dose s.c. 5000 U every 8-12 hours for prophylaxis; i.m. route avoided"
+          ]
+        },
+        {
+          "h": "Adverse effects and reversal",
+          "points": [
+            "Bleeding (haematuria first), heparin-induced thrombocytopenia, transient alopecia, osteoporosis on long use",
+            "Protamine neutralises mg for mg (1 mg per 100 U), given slowly at 5 mg/min"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-heparins",
+      "tags": [
+        "mechanism",
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-086",
+      "type": "shortnote",
+      "front": "Short note: Low molecular weight heparins",
+      "sections": [
+        {
+          "h": "Preparations",
+          "points": [
+            "Fractions of molecular weight 3000-7000",
+            "Enoxaparin, dalteparin, nadroparin, reviparin, parnaparin, ardeparin"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Mainly inhibits factor Xa with little effect on thrombin",
+            "Acts by changing antithrombin III only; no scaffold to bring thrombin in"
+          ]
+        },
+        {
+          "h": "Advantages over UFH",
+          "points": [
+            "Subcutaneous bioavailability 70-90% (UFH 20-30%)",
+            "Half-life 4-6 hours allows once-daily dosing; dose by body weight, no aPTT monitoring",
+            "Less thrombocytopenia, less osteoporosis on long use"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "DVT and PE prophylaxis in high-risk surgery; treatment of established DVT",
+            "Unstable angina and MI; keeping dialysis cannulae and shunts patent"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Cleared by kidney: not for renal failure",
+            "Less reversible by protamine; not safe in HIT"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-heparins",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-087",
+      "type": "basic",
+      "front": "Fondaparinux: mechanism, kidney caveat and monitoring",
+      "back": "Synthetic pentasaccharide that binds antithrombin III and selectively inactivates factor Xa, not thrombin. Given s.c. with 100% bioavailability, half-life about 17 hours, largely excreted unchanged by the kidney, so avoid in renal failure. No aPTT monitoring; little thrombocytopenia or osteoporosis; not reversed by protamine.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-heparins",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-088",
+      "type": "basic",
+      "front": "Bivalirudin: why a direct thrombin inhibitor is chosen",
+      "back": "Synthetic 20-amino-acid analogue of leech hirudin. Binds both catalytic and substrate sites of thrombin directly, so it needs no antithrombin. Short acting (half-life about 25 minutes). No HIT risk, so used in PCI for STEMI with aspirin and clopidogrel or a GP IIb/IIIa inhibitor, and in patients at risk of HIT. Protamine does not reverse it.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-heparins",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-112",
+      "type": "basic",
+      "front": "On day 7 of heparin a patient with renal failure has a falling platelet count and a new leg thrombosis. Name the diagnosis and the anticoagulant plan, with reasons.",
+      "back": "Heparin-induced thrombocytopenia: antibodies to heparin-PF4 complexes activate platelets, causing paradoxical thrombosis. Stop all heparin and avoid LMWH (cross-reacts). Give a non-heparin agent such as argatroban, which is cleared by the liver so suits renal failure; bivalirudin is another option. Fondaparinux is renally excreted, so it is poor in renal failure. Do not start warfarin until platelets recover because it can cause venous limb gangrene.",
+      "refs": [
+        "GG14 ch36",
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-heparins",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-blood-032",
+      "type": "basic",
+      "front": "How does aspirin inhibit platelets, and why does its effect last for days?",
+      "back": "Aspirin irreversibly acetylates platelet COX-1, which stops thromboxane A2 synthesis. Platelets have no nucleus and cannot make new enzyme, so the effect lasts until new platelets are formed; bleeding time stays prolonged for 5 to 7 days. Low daily doses accumulate. Daily doses of 100 mg or less are used for most indications; higher doses also inhibit vascular prostacyclin and add bleeding without extra benefit.",
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-048",
+      "type": "cloze",
+      "front": "Classify: platelet inhibitors by target",
+      "text": "GP IIb/IIIa antagonists include {{abciximab}}, {{eptifibatide}} and {{tirofiban}}; the thienopyridines {{clopidogrel}} and {{prasugrel}} irreversibly block the {{P2Y12}} receptor; {{ticagrelor}} blocks the same receptor reversibly.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-113",
+      "type": "basic",
+      "front": "Which P2Y12 blockers are prodrugs and which are active drugs, and what does this mean for onset and offset?",
+      "back": "Clopidogrel and prasugrel are thienopyridine prodrugs that need hepatic activation and block P2Y12 irreversibly, so platelets recover only as new ones form (about 5 days for clopidogrel, 7 for prasugrel). Ticagrelor is active as given and reversible, so it acts and wears off faster.",
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-114",
+      "type": "basic",
+      "front": "Why are glycoprotein IIb/IIIa antagonists the most potent antiplatelet drugs?",
+      "back": "The GPIIb/IIIa integrin binds fibrinogen and vWF to cross-link platelets, which is the final common step of aggregation. Blocking it stops aggregation whatever the agonist. Agents are abciximab, eptifibatide and tirofiban, given with aspirin and heparin in ACS and PCI. Bleeding and thrombocytopenia are the main hazards.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-037",
+      "type": "shortnote",
+      "front": "Short note: P2Y12 inhibitors - clopidogrel, prasugrel and ticagrelor",
+      "sections": [
+        {
+          "h": "Clopidogrel",
+          "points": [
+            "Thienopyridine prodrug, activated in the liver mainly by CYP2C19",
+            "Irreversible P2Y12 blockade; platelet recovery takes about 5 days",
+            "Slow and variable response: CYP2C19 polymorphism; proton pump inhibitors that inhibit CYP2C19 may reduce activation",
+            "Loading 300 mg (600 mg before PCI), then 75 mg daily; bleeding is the main adverse effect"
+          ]
+        },
+        {
+          "h": "Prasugrel",
+          "points": [
+            "Faster, more complete activation; less affected by CYP2C19 variation and omeprazole",
+            "Irreversible; platelet recovery takes about 7 days",
+            "Loading 60 mg, then 10 mg daily (5 mg if under 60 kg)",
+            "More serious bleeding than clopidogrel; contraindicated after prior stroke or TIA; not for patients over 75"
+          ]
+        },
+        {
+          "h": "Ticagrelor",
+          "points": [
+            "Active drug, no metabolic activation; reversible P2Y12 blocker with faster onset and offset",
+            "Half-life about 12 h, twice-daily dosing; loading dose 180 mg",
+            "Dyspnoea in about 17%; more intracranial bleeding than clopidogrel",
+            "Aspirin above 100 mg a day reduces its effect; metabolised by CYP3A4"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Dual antiplatelet therapy (aspirin plus a P2Y12 inhibitor) for ACS and after stenting"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-092",
+      "type": "shortnote",
+      "front": "Short note: Aspirin - therapeutic uses, dose and intolerance",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Irreversibly acetylates COX-1 and thromboxane synthase in platelets",
+            "Platelets cannot make new enzyme, so the effect lasts 5-7 days; low doses spare prostacyclin"
+          ]
+        },
+        {
+          "h": "Doses",
+          "points": [
+            "Maximal platelet inhibition at 75-150 mg/day",
+            "Even 40 mg/day has some effect; higher doses above 900 mg/day also cut prostacyclin"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Coronary artery disease and high-risk individuals; 325 mg oral soluble aspirin at ACS presentation",
+            "TIA and stroke prevention; atrial fibrillation with stroke history",
+            "With warfarin for prosthetic valves and shunts; claudication in peripheral disease"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "No proven benefit for primary prevention; raises cerebral haemorrhage risk",
+            "GI bleeding (worse with warfarin); some patients are poorly inhibited (aspirin resistance)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "uses",
+        "dosing",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-093",
+      "type": "shortnote",
+      "front": "Short note: Glycoprotein IIb/IIIa antagonists",
+      "sections": [
+        {
+          "h": "Target and effect",
+          "points": [
+            "GPIIb/IIIa integrin binds fibrinogen and vWF to cross-link platelets",
+            "Blocks aggregation from every agonist, so these are the most potent antiplatelets"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Abciximab: Fab fragment of a chimeric monoclonal antibody; inhibition lasts 12-24 hours",
+            "Eptifibatide: synthetic cyclic peptide; half-life about 2.5 hours, effect gone in 6-10 hours",
+            "Tirofiban: non-peptide; half-life about 2 hours"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "ACS and PCI or CABG, given with aspirin and heparin",
+            "Infusion limited to about 72 hours in ACS"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Bleeding and thrombocytopenia; abciximab should not be reused",
+            "Rashes and anaphylaxis are rare"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-094",
+      "type": "shortnote",
+      "front": "Short note: Clopidogrel - activation, interactions and dual therapy",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Thienopyridine prodrug that irreversibly blocks platelet P2Y12 receptors",
+            "Blocks ADP-driven aggregation; platelet effect lasts about 5 days"
+          ]
+        },
+        {
+          "h": "Activation",
+          "points": [
+            "About 50% of dose absorbed; two-step hepatic conversion by CYP2C19 to active thiol",
+            "CYP2C19 polymorphism makes response variable; some patients do not respond"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Omeprazole inhibits CYP2C19 and reduces activation",
+            "Adding aspirin doubled serious bleeding in high-risk stroke patients (MATCH)"
+          ]
+        },
+        {
+          "h": "Uses and dose",
+          "points": [
+            "Alternative to aspirin in symptomatic ischaemia (CAPRIE: slightly better)",
+            "Dual antiplatelet therapy with aspirin after ACS and stenting; 300 mg loading, then 75 mg daily"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-041",
+      "type": "essay",
+      "front": "Essay: Antiplatelet drugs in acute coronary syndrome",
+      "sections": [
+        {
+          "h": "Basis of platelet action",
+          "points": [
+            "Platelet adhesion to von Willebrand factor and collagen; release of thromboxane A2 and ADP",
+            "GPIIb/IIIa binding fibrinogen cross-links platelets into a plug",
+            "Platelets dominate arterial thrombi, so antiplatelets suit arterial disease"
+          ]
+        },
+        {
+          "h": "Aspirin",
+          "points": [
+            "Irreversible COX-1 acetylation blocks thromboxane A2",
+            "Low doses (100 mg a day or less) for long-term use"
+          ]
+        },
+        {
+          "h": "P2Y12 blockers",
+          "points": [
+            "Clopidogrel, prasugrel and ticagrelor, given with aspirin",
+            "Prasugrel or ticagrelor act faster and more predictably than clopidogrel and are commonly chosen for PCI",
+            "Ticagrelor is reversible; avoid aspirin above 100 mg a day with it"
+          ]
+        },
+        {
+          "h": "GP IIb/IIIa antagonists",
+          "points": [
+            "Abciximab, eptifibatide and tirofiban block the final common pathway of aggregation",
+            "Used with aspirin and heparin during high-risk PCI for a limited infusion period",
+            "Main risks: bleeding and thrombocytopenia"
+          ]
+        },
+        {
+          "h": "Dipyridamole",
+          "points": [
+            "Phosphodiesterase inhibitor and adenosine uptake blocker that raises platelet cAMP",
+            "Added to low-dose aspirin for secondary stroke prevention (ESPS-2)"
+          ]
+        },
+        {
+          "h": "Setting-specific regimens",
+          "points": [
+            "Unstable angina and NSTEMI: aspirin plus a P2Y12 inhibitor",
+            "STEMI: primary PCI within 12 h with prasugrel or ticagrelor plus aspirin; dual therapy after stenting",
+            "Stroke and TIA: aspirin or clopidogrel; short-term dual therapy may help, but long-term dual therapy increases haemorrhage"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-blood-095",
+      "type": "essay",
+      "front": "Essay: Recent advances in antiplatelet therapy",
+      "sections": [
+        {
+          "h": "Platelet biology",
+          "points": [
+            "GPIa binds collagen and GPIb binds vWF on damage; GPIIb/IIIa then links platelets",
+            "TXA2, ADP and 5-HT amplify; prostacyclin from intima opposes"
+          ]
+        },
+        {
+          "h": "Classes and targets",
+          "points": [
+            "COX inhibition: aspirin",
+            "P2Y12 blockers: ticlopidine, clopidogrel, prasugrel, ticagrelor",
+            "Phosphodiesterase and adenosine uptake: dipyridamole; GPIIb/IIIa blockers: abciximab, eptifibatide, tirofiban"
+          ]
+        },
+        {
+          "h": "Newer P2Y12 agents",
+          "points": [
+            "Ticlopidine effective but causes neutropenia (about 1%), so superseded",
+            "Prasugrel: faster, more consistent; contraindicated after stroke or TIA",
+            "Ticagrelor: direct and reversible, not a prodrug; twice-daily; dyspnoea and dizziness"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "ACS and PCI: aspirin with prasugrel or ticagrelor preferred around stenting",
+            "Stroke and TIA: aspirin or clopidogrel; aspirin with dipyridamole (ESPS-2) for secondary prevention"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Bleeding is the main risk; prolonged dual therapy raises haemorrhage",
+            "Antiplatelets suit arterial (platelet-rich) thrombi; anticoagulants suit venous (fibrin-rich) thrombi"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "classification",
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-blood-046",
+      "type": "cloze",
+      "front": "Classify: direct oral anticoagulants",
+      "text": "{{Rivaroxaban}} and {{apixaban}} inhibit {{factor Xa}}; {{dabigatran etexilate}}, a prodrug, is converted to a direct inhibitor of {{thrombin}}; dabigatran is mainly cleared by the {{kidney}} and is reversed by {{idarucizumab}}.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-115",
+      "type": "basic",
+      "front": "How do rivaroxaban and apixaban work, and what is their route of use?",
+      "back": "Both are oral direct factor Xa inhibitors, so they block thrombin generation at a key point of the cascade. They work rapidly, are given at fixed doses and need no routine laboratory monitoring. Uses include DVT/PE and stroke prevention in atrial fibrillation; bleeding is the main adverse effect.",
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-116",
+      "type": "basic",
+      "front": "Give the practical advantages of DOACs over warfarin.",
+      "back": "Rapid onset and offset, fixed doses, no INR monitoring and fewer drug interactions. They are comparable or better than warfarin for stroke prevention in non-valvular AF. Limits: avoid with mechanical heart valves and triple-positive antiphospholipid syndrome; bleeding still occurs, so specific reversal agents exist.",
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-033",
+      "type": "basic",
+      "front": "Dabigatran: how is it given, and how is it reversed?",
+      "back": "Dabigatran etexilate is an oral prodrug converted to dabigatran, a reversible direct thrombin inhibitor. About 80% of absorbed drug is excreted unchanged by the kidney, so the dose is reduced in severe renal impairment. It has no CYP3A4 interaction, but it is a P-glycoprotein substrate. Idarucizumab, a humanised antibody fragment, is the specific reversal agent. It must not be used with mechanical heart valves or triple-positive antiphospholipid syndrome.",
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "mechanism",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-069",
+      "type": "basic",
+      "front": "Andexanet alfa: what is it and when is it used?",
+      "back": "A recombinant factor Xa analogue with its active-site serine replaced and its Gla domain removed, so it has no clotting activity. It acts as a decoy that binds circulating rivaroxaban or apixaban and rapidly reverses their anti-Xa effect. Given as an IV bolus then a 2 h infusion, for serious bleeding such as intracranial haemorrhage. It also reverses heparin and LMWH, so it is avoided before procedures that need heparin. It is costly; four-factor prothrombin complex concentrate is used if it is unavailable.",
+      "refs": [
+        "GG14 ch36",
+        "Katzung16 ch34"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-090",
+      "type": "shortnote",
+      "front": "Short note: Direct factor Xa inhibitors - rivaroxaban and apixaban",
+      "sections": [
+        {
+          "h": "Rivaroxaban",
+          "points": [
+            "Oral direct factor Xa inhibitor; onset in 3-4 hours, effect about 24 hours",
+            "Half-life 7-11 hours; no routine lab monitoring",
+            "10 mg daily after knee or hip surgery; 15 mg twice daily for 3 weeks, then 20 mg daily for DVT/PE"
+          ]
+        },
+        {
+          "h": "Apixaban",
+          "points": [
+            "Bioavailability about 85%; peak effect about 3 hours; half-life about 12 hours",
+            "Partly CYP3A4-metabolised; avoid in hepatic or renal impairment",
+            "ARISTOTLE in AF: fewer stroke or systemic emboli and less major bleeding than warfarin"
+          ]
+        },
+        {
+          "h": "Compared with warfarin",
+          "points": [
+            "Rapid onset and offset, fixed dosing, fewer interactions, no INR monitoring",
+            "Bleeding remains the main adverse effect; reversal by andexanet alfa (GG14)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45",
+        "GG14 ch36"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "mechanism",
+        "pk",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-091",
+      "type": "shortnote",
+      "front": "Short note: Edoxaban and reversal agents for DOACs",
+      "sections": [
+        {
+          "h": "Class and uses",
+          "points": [
+            "Oral direct factor Xa inhibitor given once daily at a fixed dose",
+            "Treats acute VTE after at least 5 days of parenteral anticoagulation; secondary VTE prevention; stroke prevention in atrial fibrillation"
+          ]
+        },
+        {
+          "h": "Dose reduction",
+          "points": [
+            "Reduce if CrCl is 15-50 mL/min, body weight under 60 kg, or a potent P-glycoprotein inhibitor is taken",
+            "Not recommended when CrCl is below 15 mL/min"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Use with care after recent bleeding, especially GI bleeding",
+            "GG14 also prints a contraindication when CrCl is above 95 mL/min"
+          ]
+        },
+        {
+          "h": "Reversal",
+          "points": [
+            "Idarucizumab: humanised Fab fragment that reverses dabigatran, given as one i.v. bolus",
+            "Andexanet alfa: factor Xa decoy for rivaroxaban and apixaban; off-label for edoxaban"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "newer-drugs",
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-036",
@@ -931,157 +2470,8 @@
           "year": 2025,
           "marks": 10
         }
-      ]
-    },
-    {
-      "id": "p2-blood-037",
-      "type": "shortnote",
-      "front": "Short note: P2Y12 inhibitors - clopidogrel, prasugrel and ticagrelor",
-      "sections": [
-        {
-          "h": "Clopidogrel",
-          "points": [
-            "Thienopyridine prodrug, activated in the liver mainly by CYP2C19",
-            "Irreversible P2Y12 blockade; platelet recovery takes about 5 days",
-            "Slow and variable response: CYP2C19 polymorphism; proton pump inhibitors that inhibit CYP2C19 may reduce activation",
-            "Loading 300 mg (600 mg before PCI), then 75 mg daily; bleeding is the main adverse effect"
-          ]
-        },
-        {
-          "h": "Prasugrel",
-          "points": [
-            "Faster, more complete activation; less affected by CYP2C19 variation and omeprazole",
-            "Irreversible; platelet recovery takes about 7 days",
-            "Loading 60 mg, then 10 mg daily (5 mg if under 60 kg)",
-            "More serious bleeding than clopidogrel; contraindicated after prior stroke or TIA; not for patients over 75"
-          ]
-        },
-        {
-          "h": "Ticagrelor",
-          "points": [
-            "Active drug, no metabolic activation; reversible P2Y12 blocker with faster onset and offset",
-            "Half-life about 12 h, twice-daily dosing; loading dose 180 mg",
-            "Dyspnoea in about 17%; more intracranial bleeding than clopidogrel",
-            "Aspirin above 100 mg a day reduces its effect; metabolised by CYP3A4"
-          ]
-        },
-        {
-          "h": "Use",
-          "points": [
-            "Dual antiplatelet therapy (aspirin plus a P2Y12 inhibitor) for ACS and after stenting"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch45",
-        "GG14 ch36"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-antiplatelets",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-blood-038",
-      "type": "shortnote",
-      "front": "Short note: Fibrinolytic (thrombolytic) drugs",
-      "sections": [
-        {
-          "h": "Principle",
-          "points": [
-            "Convert plasminogen to plasmin, which digests fibrin",
-            "Work best on fresh venous thrombi; little effect on thrombi older than 3 days",
-            "Main hazard is bleeding, since plasmin also degrades clotting factors"
-          ]
-        },
-        {
-          "h": "Agents",
-          "points": [
-            "Streptokinase: not fibrin-specific, antigenic, cannot be reused, anaphylaxis in 1 to 2%",
-            "Alteplase: fibrin-selective, half-life 4 to 8 min, infused over about 90 min for MI with heparin and aspirin",
-            "Reteplase: deletion mutant, given as two boluses 30 min apart",
-            "Tenecteplase: fibrin-selective, longer acting, resistant to PAI-1, given as a single bolus"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "STEMI as an alternative to primary PCI; benefit is greatest in the first hour",
-            "Ischaemic stroke: alteplase within 3 to 4.5 h when contraindications are excluded",
-            "Large life-threatening PE; DVT; limb arterial occlusion when surgery is not possible"
-          ]
-        },
-        {
-          "h": "Contraindications",
-          "points": [
-            "Previous intracranial haemorrhage, recent ischaemic stroke or head injury, active bleeding, anticoagulation, recent major surgery, uncontrolled hypertension, pregnancy"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch45"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-fibrinolytics",
-      "tags": [
-        "uses",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-blood-039",
-      "type": "shortnote",
-      "front": "Short note: Tranexamic acid and aminocaproic acid (EACA)",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Lysine analogues that block the lysine-binding sites on plasminogen and plasmin, preventing fibrin binding",
-            "Tranexamic acid is about 7 times more potent than EACA"
-          ]
-        },
-        {
-          "h": "EACA",
-          "points": [
-            "Oral or IV; IV loading 4 to 5 g over 1 h, then 1 to 1.25 g/h; no more than 30 g in 24 h",
-            "Rapid IV injection causes hypotension, bradycardia and arrhythmia; rarely myopathy; intravascular thrombosis",
-            "Renally excreted; use cautiously in renal impairment"
-          ]
-        },
-        {
-          "h": "Tranexamic acid uses",
-          "points": [
-            "Bleeding from fibrinolytics, cardiopulmonary bypass and other cardiac surgery, hip or knee arthroplasty",
-            "Tonsillectomy, prostatectomy, dental extraction in haemophilia, menorrhagia, recurrent epistaxis",
-            "Given IV in trauma resuscitation, massive haemorrhage and postpartum haemorrhage"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Nausea and diarrhoea are the main effects",
-            "Thromboembolism, colour vision disturbance and allergy are infrequent; thrombophlebitis at the injected vein"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch45",
-        "GG14 ch36"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-fibrinolytics",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ]
+      "level": 3
     },
     {
       "id": "p2-blood-040",
@@ -1168,57 +2558,122 @@
           "year": 2018,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-blood-041",
-      "type": "essay",
-      "front": "Essay: Antiplatelet drugs in acute coronary syndrome",
+      "id": "p2-blood-038",
+      "type": "shortnote",
+      "front": "Short note: Fibrinolytic (thrombolytic) drugs",
       "sections": [
         {
-          "h": "Basis of platelet action",
+          "h": "Principle",
           "points": [
-            "Platelet adhesion to von Willebrand factor and collagen; release of thromboxane A2 and ADP",
-            "GPIIb/IIIa binding fibrinogen cross-links platelets into a plug",
-            "Platelets dominate arterial thrombi, so antiplatelets suit arterial disease"
+            "Convert plasminogen to plasmin, which digests fibrin",
+            "Work best on fresh venous thrombi; little effect on thrombi older than 3 days",
+            "Main hazard is bleeding, since plasmin also degrades clotting factors"
           ]
         },
         {
-          "h": "Aspirin",
+          "h": "Agents",
           "points": [
-            "Irreversible COX-1 acetylation blocks thromboxane A2",
-            "Low doses (100 mg a day or less) for long-term use"
+            "Streptokinase: not fibrin-specific, antigenic, cannot be reused, anaphylaxis in 1 to 2%",
+            "Alteplase: fibrin-selective, half-life 4 to 8 min, infused over about 90 min for MI with heparin and aspirin",
+            "Reteplase: deletion mutant, given as two boluses 30 min apart",
+            "Tenecteplase: fibrin-selective, longer acting, resistant to PAI-1, given as a single bolus"
           ]
         },
         {
-          "h": "P2Y12 blockers",
+          "h": "Uses",
           "points": [
-            "Clopidogrel, prasugrel and ticagrelor, given with aspirin",
-            "Prasugrel or ticagrelor act faster and more predictably than clopidogrel and are commonly chosen for PCI",
-            "Ticagrelor is reversible; avoid aspirin above 100 mg a day with it"
+            "STEMI as an alternative to primary PCI; benefit is greatest in the first hour",
+            "Ischaemic stroke: alteplase within 3 to 4.5 h when contraindications are excluded",
+            "Large life-threatening PE; DVT; limb arterial occlusion when surgery is not possible"
           ]
         },
         {
-          "h": "GP IIb/IIIa antagonists",
+          "h": "Contraindications",
           "points": [
-            "Abciximab, eptifibatide and tirofiban block the final common pathway of aggregation",
-            "Used with aspirin and heparin during high-risk PCI for a limited infusion period",
-            "Main risks: bleeding and thrombocytopenia"
+            "Previous intracranial haemorrhage, recent ischaemic stroke or head injury, active bleeding, anticoagulation, recent major surgery, uncontrolled hypertension, pregnancy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-047",
+      "type": "cloze",
+      "front": "Classify: fibrinolytic agents",
+      "text": "Fibrin-selective agents include {{alteplase}}, {{reteplase}} and {{tenecteplase}}; {{streptokinase}} is not fibrin-specific and is antigenic; {{urokinase}} has gone out of use.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-117",
+      "type": "basic",
+      "front": "How do fibrinolytic drugs dissolve a clot, and what is their main hazard?",
+      "back": "They convert plasminogen to plasmin, which digests fibrin. They work best on fresh thrombi. Plasmin also degrades clotting factors, so bleeding is the main hazard. Agents include streptokinase, alteplase, reteplase and tenecteplase.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-039",
+      "type": "shortnote",
+      "front": "Short note: Tranexamic acid and aminocaproic acid (EACA)",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Lysine analogues that block the lysine-binding sites on plasminogen and plasmin, preventing fibrin binding",
+            "Tranexamic acid is about 7 times more potent than EACA"
           ]
         },
         {
-          "h": "Dipyridamole",
+          "h": "EACA",
           "points": [
-            "Phosphodiesterase inhibitor and adenosine uptake blocker that raises platelet cAMP",
-            "Added to low-dose aspirin for secondary stroke prevention (ESPS-2)"
+            "Oral or IV; IV loading 4 to 5 g over 1 h, then 1 to 1.25 g/h; no more than 30 g in 24 h",
+            "Rapid IV injection causes hypotension, bradycardia and arrhythmia; rarely myopathy; intravascular thrombosis",
+            "Renally excreted; use cautiously in renal impairment"
           ]
         },
         {
-          "h": "Setting-specific regimens",
+          "h": "Tranexamic acid uses",
           "points": [
-            "Unstable angina and NSTEMI: aspirin plus a P2Y12 inhibitor",
-            "STEMI: primary PCI within 12 h with prasugrel or ticagrelor plus aspirin; dual therapy after stenting",
-            "Stroke and TIA: aspirin or clopidogrel; short-term dual therapy may help, but long-term dual therapy increases haemorrhage"
+            "Bleeding from fibrinolytics, cardiopulmonary bypass and other cardiac surgery, hip or knee arthroplasty",
+            "Tonsillectomy, prostatectomy, dental extraction in haemophilia, menorrhagia, recurrent epistaxis",
+            "Given IV in trauma resuscitation, massive haemorrhage and postpartum haemorrhage"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Nausea and diarrhoea are the main effects",
+            "Thromboembolism, colour vision disturbance and allergy are infrequent; thrombophlebitis at the injected vein"
           ]
         }
       ],
@@ -1227,11 +2682,202 @@
         "GG14 ch36"
       ],
       "status": "draft",
-      "subtopic": "p2-blood-antiplatelets",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-097",
+      "type": "shortnote",
+      "front": "Short note: Newer fibrinolytics - reteplase and tenecteplase",
+      "sections": [
+        {
+          "h": "Reteplase",
+          "points": [
+            "Non-glycosylated deletion mutant of t-PA; less fibrin-selective, longer acting",
+            "Half-life 13-16 minutes; cleared by liver and kidney",
+            "Double bolus of 18 mg (10 U) 30 minutes apart; dose adjust in liver or kidney damage"
+          ]
+        },
+        {
+          "h": "Tenecteplase",
+          "points": [
+            "Substitution mutant of t-PA with higher fibrin selectivity and slower clearance",
+            "Single i.v. bolus over 10 seconds, so lysis can start during transport",
+            "Dose 0.5 mg/kg; less non-cerebral bleeding than alteplase (ASSENT-2)"
+          ]
+        },
+        {
+          "h": "Comparison",
+          "points": [
+            "Recanalisation similar to alteplase; tenecteplase has the simplest regimen",
+            "Hypotension and allergic reactions are comparable across the three"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "newer-drugs",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-098",
+      "type": "shortnote",
+      "front": "Short note: Pharmacotherapy of DVT and pulmonary embolism",
+      "sections": [
+        {
+          "h": "Acute treatment",
+          "points": [
+            "LMW heparins, fondaparinux or UFH first; UFH preferred in kidney disease",
+            "Followed by warfarin or rivaroxaban for maintenance"
+          ]
+        },
+        {
+          "h": "Prophylaxis",
+          "points": [
+            "After knee or hip replacement: rivaroxaban, apixaban, dabigatran, LMW heparin or low-dose UFH",
+            "High-risk bed-ridden patients: fondaparinux, LMW heparin, rivaroxaban or UFH, then warfarin"
+          ]
+        },
+        {
+          "h": "Thrombolysis",
+          "points": [
+            "Fibrinolysis clears up to 60% of DVT and preserves venous valves, but raises bleeding risk",
+            "Indicated in large, life-threatening PE; mortality benefit not established"
+          ]
+        },
+        {
+          "h": "Principle",
+          "points": [
+            "Anticoagulants prevent extension and recurrence; they do not dissolve an existing clot",
+            "Venous (fibrin-rich) thrombi respond best to anticoagulation"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
       "tags": [
         "uses",
-        "mechanism"
-      ]
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-099",
+      "type": "shortnote",
+      "front": "Short note: Anticoagulants in renal failure",
+      "sections": [
+        {
+          "h": "Preferred agent",
+          "points": [
+            "Unfractionated heparin: its clearance is affected least by renal failure",
+            "Argatroban is cleared by liver (half-life about 45 minutes) and can be used in renal disease"
+          ]
+        },
+        {
+          "h": "Avoid",
+          "points": [
+            "LMW heparins are renally cleared and are not used in renal failure",
+            "Fondaparinux is excreted unchanged by kidney and is not used in renal failure"
+          ]
+        },
+        {
+          "h": "Access devices",
+          "points": [
+            "Heparin flushes keep dialysis shunts and cannulae patent; antiplatelets prolong shunt patency"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "contraindications",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-100",
+      "type": "shortnote",
+      "front": "Short note: Newer antifibrinolytics - tranexamic acid versus EACA",
+      "sections": [
+        {
+          "h": "EACA",
+          "points": [
+            "Lysine analogue that blocks lysine sites on plasminogen and plasmin",
+            "Specific antidote for fibrinolytic drugs; can cause thrombosis and ureteric obstruction"
+          ]
+        },
+        {
+          "h": "Tranexamic acid",
+          "points": [
+            "About 7 times as potent as EACA; the preferred agent",
+            "Uses: fibrinolytic bleeding, bypass surgery, prostatic and dental surgery in haemophilia, IUCD menorrhagia, recurrent epistaxis"
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "Tranexamic acid 1-1.5 g three times daily oral, or 0.5-1 g slow i.v.",
+            "EACA 5 g priming, then 1 g hourly (max 30 g in 24 hours)"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Nausea and diarrhoea; rare thromboembolism, colour vision disturbance, allergy",
+            "Use cautiously with renal impairment; myopathy is rare"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-042",
@@ -1284,93 +2930,74 @@
       "subtopic": "p2-blood-fibrinolytics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-blood-043",
-      "type": "cloze",
-      "front": "Classify: vitamin K-dependent proteins",
-      "text": "The vitamin K-dependent clotting factors are {{II}}, {{VII}}, {{IX}} and {{X}}; the anticoagulant proteins {{protein C}} and {{protein S}} are also vitamin K-dependent.",
+      "id": "p2-blood-096",
+      "type": "essay",
+      "front": "Essay: Plasminogen system and thrombolytic drugs",
+      "sections": [
+        {
+          "h": "Physiology",
+          "points": [
+            "Plasmin formed from plasminogen by tissue plasminogen activator (t-PA), mainly from endothelium",
+            "t-PA acts on fibrin-bound plasminogen; PAI-1 and PAI-2 inhibit t-PA"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Streptokinase: not fibrin-specific, antigenic, cannot be reused, needs a loading dose",
+            "Alteplase: fibrin-selective; slow 90-minute infusion; heparin often added",
+            "Reteplase: deletion mutant with longer action; two boluses 30 minutes apart",
+            "Tenecteplase: single 10-second bolus; resists PAI-1; most convenient"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Acute STEMI as alternative to primary PCI; PCI preferred after about 3 hours",
+            "Ischaemic stroke within 3-4.5 hours; large PE; DVT; limb artery occlusion"
+          ]
+        },
+        {
+          "h": "Contraindications",
+          "points": [
+            "Previous intracranial haemorrhage, recent ischaemic stroke or head injury, active bleeding",
+            "Major surgery within 3 weeks, uncontrolled hypertension, pregnancy, anticoagulated patients"
+          ]
+        },
+        {
+          "h": "Adjuncts and complications",
+          "points": [
+            "Aspirin and heparin continued after lysis to prevent reocclusion",
+            "Haemorrhage is the main complication; EACA or tranexamic acid counteracts lytic bleeding"
+          ]
+        }
+      ],
       "refs": [
         "KDT8 ch45"
       ],
-      "status": "draft",
-      "subtopic": "p2-blood-vitamin-k-warfarin",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-blood-044",
-      "type": "cloze",
-      "front": "Complete: metabolism of the warfarin enantiomers",
-      "text": "Warfarin is a racemate; the {{S}} enantiomer is 3 to 5 times more potent and is cleared mainly by {{CYP2C9}}, whose polymorphisms (with {{VKORC1}} variants) alter dose needs. KDT states the less potent R enantiomer is degraded by side-chain reduction through CYP1A and CYP3A4.",
-      "refs": [
-        "GG14 ch36",
-        "KDT8 ch45"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-vitamin-k-warfarin",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-blood-045",
-      "type": "cloze",
-      "front": "Classify: vitamin K antagonist oral anticoagulants",
-      "text": "{{Warfarin}} has a half-life of {{36 to 48 h}}; {{acenocoumarol}} has an overall effective duration of about {{24 h}} through its active metabolite; {{ethyl biscoumacetate}} acts rapidly and briefly; {{bishydroxycoumarin}} is slowly and unpredictably absorbed.",
-      "refs": [
-        "KDT8 ch45"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-vitamin-k-warfarin",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-blood-046",
-      "type": "cloze",
-      "front": "Classify: direct oral anticoagulants",
-      "text": "{{Rivaroxaban}} and {{apixaban}} inhibit {{factor Xa}}; {{dabigatran etexilate}}, a prodrug, is converted to a direct inhibitor of {{thrombin}}; dabigatran is mainly cleared by the {{kidney}} and is reversed by {{idarucizumab}}.",
-      "refs": [
-        "KDT8 ch45"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-doacs",
-      "tags": [
-        "classification",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-blood-047",
-      "type": "cloze",
-      "front": "Classify: fibrinolytic agents",
-      "text": "Fibrin-selective agents include {{alteplase}}, {{reteplase}} and {{tenecteplase}}; {{streptokinase}} is not fibrin-specific and is antigenic; {{urokinase}} has gone out of use.",
-      "refs": [
-        "KDT8 ch45"
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        }
       ],
       "status": "draft",
       "subtopic": "p2-blood-fibrinolytics",
       "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-blood-048",
-      "type": "cloze",
-      "front": "Classify: platelet inhibitors by target",
-      "text": "GP IIb/IIIa antagonists include {{abciximab}}, {{eptifibatide}} and {{tirofiban}}; the thienopyridines {{clopidogrel}} and {{prasugrel}} irreversibly block the {{P2Y12}} receptor; {{ticagrelor}} blocks the same receptor reversibly.",
-      "refs": [
-        "KDT8 ch45"
+        "mechanism",
+        "uses"
       ],
-      "status": "draft",
-      "subtopic": "p2-blood-antiplatelets",
-      "tags": [
-        "classification"
-      ]
+      "level": 3
     },
     {
       "id": "p2-blood-049",
@@ -1385,7 +3012,8 @@
       "subtopic": "p2-blood-lipoproteins-statins",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-050",
@@ -1400,7 +3028,8 @@
       "subtopic": "p2-blood-lipoproteins-statins",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-051",
@@ -1415,7 +3044,86 @@
       "subtopic": "p2-blood-lipoproteins-statins",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-063",
+      "type": "cloze",
+      "front": "Classify: lipoproteins by main lipid",
+      "text": "Chylomicrons carry mainly {{triglyceride}} from the diet; VLDL carries mainly {{triglyceride}} made in the liver; LDL carries mainly {{cholesteryl ester}}; HDL removes {{cholesterol}} from tissues.",
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-064",
+      "type": "cloze",
+      "front": "Classify: statins by efficacy",
+      "text": "Lovastatin, pravastatin and simvastatin are low-to-moderate efficacy; {{atorvastatin}} and {{rosuvastatin}} are high efficacy; {{pitavastatin}} is the most potent dose for dose, but its ceiling dose is {{4 mg}} per day.",
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-066",
+      "type": "cloze",
+      "front": "Classify: statin intensity categories",
+      "text": "High-intensity statins are {{atorvastatin 40 to 80 mg}} and {{rosuvastatin 20 to 40 mg}}; {{simvastatin 20 to 40 mg}} is a moderate-intensity statin; {{simvastatin 80 mg}} carries a higher myopathy risk and is not advised.",
+      "refs": [
+        "KDT8 ch46",
+        "GG14 ch37"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-109",
+      "type": "cloze",
+      "front": "Cloze: statin LDL-CH lowering by dose",
+      "text": "Atorvastatin 80 mg/day lowers LDL-CH by about {{55%}}; rosuvastatin 40 mg/day by about {{53%}}; simvastatin 80 mg/day by about {{42%}}, which is {{not advised}} because of myopathy risk.",
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-110",
+      "type": "cloze",
+      "front": "Cloze: ACC/AHA statin intensity categories",
+      "text": "High-intensity statins lower LDL-CH by about {{50% or more}}; moderate intensity by {{30-50%}}; low intensity by {{under 30%}}. High-intensity atorvastatin is {{40-80 mg}} and rosuvastatin {{20-40 mg}} daily.",
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
     },
     {
       "id": "p2-blood-052",
@@ -1432,92 +3140,8 @@
       "tags": [
         "adr",
         "interactions"
-      ]
-    },
-    {
-      "id": "p2-blood-053",
-      "type": "basic",
-      "front": "Which fibrate is preferred alongside a statin, and why should gemfibrozil be avoided with statins?",
-      "back": "Fenofibrate interferes least with statin handling, so it is preferred when a fibrate must be combined. Gemfibrozil blocks hepatic uptake of the active statin acids through the OATP1B1 transporter (called OATP2 in KDT) and competes for the glucuronidation that clears most statins, nearly doubling statin levels and raising the risk of myopathy; avoid the combination.",
-      "refs": [
-        "KDT8 ch46",
-        "GG14 ch37"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-blood-054",
-      "type": "basic",
-      "front": "How does ezetimibe lower LDL cholesterol, and what is its main role?",
-      "back": "It blocks NPC1L1, the intestinal transporter for dietary and biliary cholesterol and phytosterols, lowering LDL by about 15 to 20%. It is mainly an add-on to a statin, with a synergistic effect. Its extra outcome benefit is small, about 2% in IMPROVE-IT with simvastatin.",
-      "refs": [
-        "KDT8 ch46"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-blood-055",
-      "type": "basic",
-      "front": "Why are bile acid sequestrants seldom used, and what do they do to triglycerides?",
-      "back": "Cholestyramine, colestipol and colesevelam bind bile acids in the gut, which increases hepatic LDL receptor expression and lowers LDL by about 15 to 25%. Triglycerides are not lowered and may rise. They are seldom used because they are unpalatable, need large doses, cause flatulence and GI upset, bind other drugs, and are poorly accepted.",
-      "refs": [
-        "KDT8 ch46"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-blood-056",
-      "type": "basic",
-      "front": "How do fibrates work, and what lipid changes do they produce?",
-      "back": "They activate PPAR-alpha, which increases lipoprotein lipase and fatty acid oxidation and reduces hepatic triglyceride synthesis. Triglycerides fall by 20 to 50%, LDL falls by 5 to 15%, and HDL rises by 10 to 20%. Their main use is severe hypertriglyceridaemia.",
-      "refs": [
-        "KDT8 ch46"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-blood-057",
-      "type": "basic",
-      "front": "Why is nicotinic acid useful, and what limits its use?",
-      "back": "It is the most effective drug for raising HDL, and it also lowers triglycerides, LDL and lipoprotein(a). It inhibits adipocyte lipolysis and hepatic VLDL production. Flushing (mediated by prostaglandin D2) limits use; aspirin before a dose reduces it. Dyspepsia, hyperglycaemia, hyperuricaemia and liver damage are other limits, and doses above 2 g a day are poorly tolerated. Added to statins it gave no outcome benefit (AIM-HIGH, HPS2-THRIVE), and in 2016 the FDA withdrew approval of extended-release niacin as statin add-on therapy.",
-      "refs": [
-        "KDT8 ch46",
-        "GG14 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "uses",
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p2-blood-058",
@@ -1579,53 +3203,8 @@
           "year": 2020,
           "marks": 10
         }
-      ]
-    },
-    {
-      "id": "p2-blood-059",
-      "type": "shortnote",
-      "front": "Short note: Management of hypertriglyceridaemia",
-      "sections": [
-        {
-          "h": "Initial approach",
-          "points": [
-            "Correct reversible causes: obesity, inactivity, high-carbohydrate or high-calorie diet, alcohol, smoking, diabetes, kidney disease, corticosteroids, oestrogens, high-dose beta-blockers, hypothyroidism",
-            "Statin therapy for LDL may itself lower triglycerides"
-          ]
-        },
-        {
-          "h": "Pancreatitis risk",
-          "points": [
-            "Very high triglycerides are a major risk factor for acute pancreatitis",
-            "With triglycerides above 1000 mg/dl, a fibrate or fish oil is recommended to prevent pancreatitis"
-          ]
-        },
-        {
-          "h": "Drugs",
-          "points": [
-            "Fibrates: KDT lists gemfibrozil 600 mg twice daily as first line for markedly raised triglycerides; fenofibrate is preferred when a statin is also used",
-            "Omega-3 fatty acid ethyl esters 3 to 4 g a day with food for severe hypertriglyceridaemia",
-            "Icosapent ethyl (purified EPA) 4 g a day as an add-on to statins",
-            "Nicotinic acid is now little used"
-          ]
-        },
-        {
-          "h": "Limits and cautions",
-          "points": [
-            "Fibrate or niacin added to a statin has not shown outcome benefit; the FDA withdrew these add-on approvals in 2016",
-            "Stop a fibrate after 2 months if triglycerides are not adequately lowered; watch for myopathy with a statin"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch46",
-        "GG14 ch37"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p2-blood-060",
@@ -1673,7 +3252,270 @@
       "tags": [
         "dosing",
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-071",
+      "type": "shortnote",
+      "front": "Short note: Pleiotropic effects of statins",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "sections": [
+        {
+          "h": "Main action",
+          "points": [
+            "Inhibit HMG-CoA reductase, so LDL receptors are upregulated",
+            "Main effect is a fall in LDL; small fall in triglycerides and rise in HDL"
+          ]
+        },
+        {
+          "h": "Pleiotropic actions",
+          "points": [
+            "Statins block mevalonate products that lipidate membrane enzymes such as endothelial NO synthase",
+            "Better endothelial function through more NO",
+            "Less LDL oxidation",
+            "Suppress macrophage-mediated inflammation, stabilising plaques and reducing rupture"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Benefit in raised cholesterol without known coronary disease partly ascribed to these effects",
+            "Rosuvastatin reduces venous thromboembolism after knee surgery",
+            "Some of these actions are undesirable"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46",
+        "RangDale9 ch24"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-blood-101",
+      "type": "shortnote",
+      "front": "Short note: Rosuvastatin in dyslipidaemia",
+      "sections": [
+        {
+          "h": "Potency and dose",
+          "points": [
+            "High-efficacy statin; 10 mg roughly equals 20 mg atorvastatin",
+            "Dose 5-20 mg daily (maximum 40 mg); LDL-CH fall about 38% at 5 mg and 53% at 40 mg"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Half-life 18-24 hours, so bedtime dosing is not needed",
+            "Not metabolised mainly by CYP3A4, unlike most other statins"
+          ]
+        },
+        {
+          "h": "Lipid effects",
+          "points": [
+            "Raises HDL-CH by 10-15% even when TG is raised",
+            "At high dose can lower TG 25-35% when moderately raised, but not when markedly raised"
+          ]
+        },
+        {
+          "h": "Uses and outcome",
+          "points": [
+            "Primary and secondary prevention, with or without raised TG",
+            "JUPITER: 44% fewer combined stroke, MI, unstable angina and CV deaths"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "pk",
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-102",
+      "type": "shortnote",
+      "front": "Short note: Role of statins in dyslipidaemia",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Competitive inhibition of HMG-CoA reductase, the rate-limiting step of cholesterol synthesis",
+            "LDL receptors up-regulated on liver, so IDL and LDL clearance rises"
+          ]
+        },
+        {
+          "h": "Indications",
+          "points": [
+            "All subjects with clinical ASCVD, irrespective of LDL level",
+            "LDL-CH 190 mg/dl or above; diabetics aged 40 or more",
+            "Adults aged 40 or more with estimated 10-year ASCVD risk above 7.5%"
+          ]
+        },
+        {
+          "h": "Outcome",
+          "points": [
+            "Standard therapy (LDL fall 30-40%) cuts CV events by 30-35%",
+            "Intensive therapy (LDL fall about 50%) curtails events by nearly 50%"
+          ]
+        },
+        {
+          "h": "Other effects and limits",
+          "points": [
+            "Plaque stabilisation, better endothelial NO, less LDL oxidation",
+            "Avoid in pregnancy; about 10% higher diabetes risk; myopathy"
+          ]
+        },
+        {
+          "h": "Duration",
+          "points": [
+            "Continued indefinitely unless adverse effects occur"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-103",
+      "type": "shortnote",
+      "front": "Short note: Atorvastatin, simvastatin and pravastatin - differences",
+      "sections": [
+        {
+          "h": "Atorvastatin",
+          "points": [
+            "High efficacy: 55-60% LDL-CH fall at 80 mg/day",
+            "Long half-life 14-18 hours; extra antioxidant property; greater TG fall when TG is high at baseline"
+          ]
+        },
+        {
+          "h": "Simvastatin",
+          "points": [
+            "Nearly twice as potent as lovastatin; given as lactone prodrug",
+            "Half-life 2-3 hours; greater HDL rise when HDL is low; 80 mg carries high myopathy risk"
+          ]
+        },
+        {
+          "h": "Pravastatin",
+          "points": [
+            "Hydrophilic, given as active drug; half-life 1-3 hours",
+            "Potency close to lovastatin; lowers plasma fibrinogen"
+          ]
+        },
+        {
+          "h": "Common points",
+          "points": [
+            "Peak LDL fall after 1-2 weeks; bedtime dosing for statins with short half-life",
+            "CYP3A4 inhibitors and inducers alter levels of most statins"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "pk",
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-104",
+      "type": "shortnote",
+      "front": "Short note: Adverse effects and interactions of statins",
+      "sections": [
+        {
+          "h": "Common effects",
+          "points": [
+            "GI upset and headache, usually mild; rashes and sleep disturbance uncommon",
+            "Muscle aches are the commonest effect (about 10%)"
+          ]
+        },
+        {
+          "h": "Serious effects",
+          "points": [
+            "Myopathy is the only serious reaction but rare (under 1 per 1000); few rhabdomyolysis deaths on record",
+            "Serum transaminase rise can occur; liver function monitoring recommended in the book"
+          ]
+        },
+        {
+          "h": "Interactions that raise myopathy risk",
+          "points": [
+            "Nicotinic acid, gemfibrozil, ketoconazole, erythromycin, cyclosporine, HIV protease inhibitors",
+            "Gemfibrozil blocks OATP2 uptake; fenofibrate interferes least and is preferred with a statin"
+          ]
+        },
+        {
+          "h": "Other",
+          "points": [
+            "Statins should not be used in pregnancy; a lower statin dose is advised with a fibrate"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-lipoproteins-statins",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-061",
@@ -1737,7 +3579,413 @@
       "tags": [
         "uses",
         "classification"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-blood-054",
+      "type": "basic",
+      "front": "How does ezetimibe lower LDL cholesterol, and what is its main role?",
+      "back": "It blocks NPC1L1, the intestinal transporter for dietary and biliary cholesterol and phytosterols, lowering LDL by about 15 to 20%. It is mainly an add-on to a statin, with a synergistic effect. Its extra outcome benefit is small, about 2% in IMPROVE-IT with simvastatin.",
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-055",
+      "type": "basic",
+      "front": "Why are bile acid sequestrants seldom used, and what do they do to triglycerides?",
+      "back": "Cholestyramine, colestipol and colesevelam bind bile acids in the gut, which increases hepatic LDL receptor expression and lowers LDL by about 15 to 25%. Triglycerides are not lowered and may rise. They are seldom used because they are unpalatable, need large doses, cause flatulence and GI upset, bind other drugs, and are poorly accepted.",
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-056",
+      "type": "basic",
+      "front": "How do fibrates work, and what lipid changes do they produce?",
+      "back": "They activate PPAR-alpha, which increases lipoprotein lipase and fatty acid oxidation and reduces hepatic triglyceride synthesis. Triglycerides fall by 20 to 50%, LDL falls by 5 to 15%, and HDL rises by 10 to 20%. Their main use is severe hypertriglyceridaemia.",
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-057",
+      "type": "basic",
+      "front": "Why is nicotinic acid useful, and what limits its use?",
+      "back": "It is the most effective drug for raising HDL, and it also lowers triglycerides, LDL and lipoprotein(a). It inhibits adipocyte lipolysis and hepatic VLDL production. Flushing (mediated by prostaglandin D2) limits use; aspirin before a dose reduces it. Dyspepsia, hyperglycaemia, hyperuricaemia and liver damage are other limits, and doses above 2 g a day are poorly tolerated. Added to statins it gave no outcome benefit (AIM-HIGH, HPS2-THRIVE), and in 2016 the FDA withdrew approval of extended-release niacin as statin add-on therapy.",
+      "refs": [
+        "KDT8 ch46",
+        "GG14 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-065",
+      "type": "cloze",
+      "front": "Classify: hypolipidaemic drugs by target",
+      "text": "Ezetimibe blocks {{NPC1L1}} in the intestine; {{cholestyramine}} binds {{bile acids}} in the gut; nicotinic acid reduces hepatic {{VLDL}} production; fibrates activate {{PPAR-alpha}}.",
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-053",
+      "type": "basic",
+      "front": "Which fibrate is preferred alongside a statin, and why should gemfibrozil be avoided with statins?",
+      "back": "Fenofibrate interferes least with statin handling, so it is preferred when a fibrate must be combined. Gemfibrozil blocks hepatic uptake of the active statin acids through the OATP1B1 transporter (called OATP2 in KDT) and competes for the glucuronidation that clears most statins, nearly doubling statin levels and raising the risk of myopathy; avoid the combination.",
+      "refs": [
+        "KDT8 ch46",
+        "GG14 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-059",
+      "type": "shortnote",
+      "front": "Short note: Management of hypertriglyceridaemia",
+      "sections": [
+        {
+          "h": "Initial approach",
+          "points": [
+            "Correct reversible causes: obesity, inactivity, high-carbohydrate or high-calorie diet, alcohol, smoking, diabetes, kidney disease, corticosteroids, oestrogens, high-dose beta-blockers, hypothyroidism",
+            "Statin therapy for LDL may itself lower triglycerides"
+          ]
+        },
+        {
+          "h": "Pancreatitis risk",
+          "points": [
+            "Very high triglycerides are a major risk factor for acute pancreatitis",
+            "With triglycerides above 1000 mg/dl, a fibrate or fish oil is recommended to prevent pancreatitis"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Fibrates: KDT lists gemfibrozil 600 mg twice daily as first line for markedly raised triglycerides; fenofibrate is preferred when a statin is also used",
+            "Omega-3 fatty acid ethyl esters 3 to 4 g a day with food for severe hypertriglyceridaemia",
+            "Icosapent ethyl (purified EPA) 4 g a day as an add-on to statins",
+            "Nicotinic acid is now little used"
+          ]
+        },
+        {
+          "h": "Limits and cautions",
+          "points": [
+            "Fibrate or niacin added to a statin has not shown outcome benefit; the FDA withdrew these add-on approvals in 2016",
+            "Stop a fibrate after 2 months if triglycerides are not adequately lowered; watch for myopathy with a statin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46",
+        "GG14 ch37"
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-067",
+      "type": "shortnote",
+      "front": "Short note: PCSK9 inhibitors",
+      "sections": [
+        {
+          "h": "Rationale",
+          "points": [
+            "PCSK9 is a protease that binds hepatic LDL receptors and sends them for lysosomal degradation",
+            "Blocking it leaves more LDL receptors on the liver surface, so more LDL is cleared"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Alirocumab and evolocumab: fully human monoclonal antibodies that bind free PCSK9; s.c. every 2 weeks or once monthly",
+            "Inclisiran: siRNA that blocks PCSK9 synthesis; s.c. at start, at 3 months, then every 6 months; LDL down about half at 6 months"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Add-on to maximally tolerated statin (with or without ezetimibe) in clinical ASCVD needing more LDL lowering",
+            "Heterozygous and homozygous familial hypercholesterolaemia",
+            "Antibodies reduce MI and stroke in ASCVD (FOURIER, ODYSSEY OUTCOMES); high cost limits use to very high-risk patients"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Injection-site reactions (most common), nasopharyngitis and other infections",
+            "Possible small neurocognitive risk under study",
+            "No known drug interactions; avoid in pregnancy"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-068",
+      "type": "basic",
+      "front": "Bempedoic acid: mechanism, effect and adverse effects?",
+      "back": "An oral prodrug activated in the liver (by very long-chain acyl-CoA synthetase 1) to bempedoic acid-CoA, which inhibits ATP-citrate lyase upstream of HMG-CoA reductase. Less hepatic cholesterol synthesis upregulates LDL receptors. Alone it lowers LDL by 15 to 25%; with ezetimibe about 30%. Given once daily, also as a fixed combination with ezetimibe. Adverse effects: hyperuricaemia and gout, tendon rupture, raised CK, creatinine and transaminases.",
+      "refs": [
+        "GG14 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-105",
+      "type": "shortnote",
+      "front": "Short note: Fibrates in dyslipidaemia",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Activate lipoprotein lipase via PPAR-alpha, raising fatty acid oxidation",
+            "Reduce hepatic TG synthesis and VLDL secretion; raise apo A-I and A-II"
+          ]
+        },
+        {
+          "h": "Lipid effects",
+          "points": [
+            "TG fall 20-50%, more when baseline TG is high",
+            "LDL-CH fall 5-15% (may rise in hypertriglyceridaemia); HDL-CH rise 10-20%"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Gemfibrozil: first line for markedly raised TG; contraindicated in pregnancy",
+            "Bezafibrate: alternative in mixed hyperlipidaemia; dose reduce in elderly and renal insufficiency",
+            "Fenofibrate: greater HDL and LDL effects; 200 mg daily with meals"
+          ]
+        },
+        {
+          "h": "Adverse effects and cautions",
+          "points": [
+            "GI upset, myalgia, rashes; gallstones; myopathy with statins",
+            "Stop if TG is not adequately lowered after 2 months; may enhance oral anticoagulants"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-106",
+      "type": "shortnote",
+      "front": "Short note: Nicotinic acid in dyslipidaemia",
+      "sections": [
+        {
+          "h": "Lipid effects",
+          "points": [
+            "Lowers TG and VLDL 20-50% and LDL 15-25%; raises HDL 20-35%",
+            "Lowers lipoprotein Lp(a); the most effective HDL-raising drug"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Inhibits adipocyte lipolysis via the GPR109A receptor, cutting free fatty acid flow to liver",
+            "Lipid action unrelated to vitamin activity; nicotinamide lacks it"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Flushing from prostaglandin D2; dyspepsia very common; liver damage the most serious risk",
+            "Hyperglycaemia, hyperuricaemia, arrhythmias; postural hypotension with antihypertensives"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Main role: severe hypertriglyceridaemia to prevent pancreatitis (types IV and V)",
+            "Doses above 2 g/day poorly tolerated; NICE advises against routine add-on to statins"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-107",
+      "type": "shortnote",
+      "front": "Short note: Newer hypolipidaemic agents - inclisiran and saroglitazar",
+      "sections": [
+        {
+          "h": "Inclisiran",
+          "points": [
+            "Small interfering RNA that targets PCSK9 mRNA and so blocks PCSK9 protein synthesis",
+            "FDA-approved in 2021; 284 mg as a single subcutaneous injection",
+            "Adjunct to diet and maximally tolerated statin in HeFH or clinical ASCVD"
+          ]
+        },
+        {
+          "h": "Saroglitazar",
+          "points": [
+            "Dual PPAR-alpha and PPAR-gamma agonist, chemically unlike thiazolidinediones and fibrates",
+            "Approved only in India for diabetic dyslipidaemia with TG not controlled by a statin; 4 mg daily"
+          ]
+        },
+        {
+          "h": "Caution",
+          "points": [
+            "PPAR agonists have many off-target toxicities; full adverse profile of saroglitazar still unknown"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch37",
+        "KDT8 ch46"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-blood-108",
+      "type": "shortnote",
+      "front": "Short note: Bile acid sequestrants and ezetimibe",
+      "sections": [
+        {
+          "h": "Sequestrants",
+          "points": [
+            "Basic ion-exchange resins that bind bile acids in gut, breaking enterohepatic circulation",
+            "Hepatic CH converted to bile acids; more LDL receptors; LDL fall 15-25%; TG not lowered",
+            "Unpalatable, bulky, GI upset; interfere with other drugs; no effect on total mortality"
+          ]
+        },
+        {
+          "h": "Ezetimibe",
+          "points": [
+            "Blocks NPC1L1 in intestinal mucosa, reducing cholesterol and phytosterol absorption",
+            "LDL-CH fall 15-20%; synergistic with statins; reversible hepatic dysfunction"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Ezetimibe mainly as add-on to a statin or when statins are not tolerated",
+            "IMPROVE-IT: only about 2% extra event reduction when added to simvastatin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-other-hypolipidaemics",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p2-blood-062",
@@ -1830,464 +4078,8 @@
           "year": 2025,
           "marks": 10
         }
-      ]
-    },
-    {
-      "id": "p2-blood-063",
-      "type": "cloze",
-      "front": "Classify: lipoproteins by main lipid",
-      "text": "Chylomicrons carry mainly {{triglyceride}} from the diet; VLDL carries mainly {{triglyceride}} made in the liver; LDL carries mainly {{cholesteryl ester}}; HDL removes {{cholesterol}} from tissues.",
-      "refs": [
-        "KDT8 ch46"
       ],
-      "status": "draft",
-      "subtopic": "p2-blood-lipoproteins-statins",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-blood-064",
-      "type": "cloze",
-      "front": "Classify: statins by efficacy",
-      "text": "Lovastatin, pravastatin and simvastatin are low-to-moderate efficacy; {{atorvastatin}} and {{rosuvastatin}} are high efficacy; {{pitavastatin}} is the most potent dose for dose, but its ceiling dose is {{4 mg}} per day.",
-      "refs": [
-        "KDT8 ch46"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-lipoproteins-statins",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-blood-065",
-      "type": "cloze",
-      "front": "Classify: hypolipidaemic drugs by target",
-      "text": "Ezetimibe blocks {{NPC1L1}} in the intestine; {{cholestyramine}} binds {{bile acids}} in the gut; nicotinic acid reduces hepatic {{VLDL}} production; fibrates activate {{PPAR-alpha}}.",
-      "refs": [
-        "KDT8 ch46"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-blood-066",
-      "type": "cloze",
-      "front": "Classify: statin intensity categories",
-      "text": "High-intensity statins are {{atorvastatin 40 to 80 mg}} and {{rosuvastatin 20 to 40 mg}}; {{simvastatin 20 to 40 mg}} is a moderate-intensity statin; {{simvastatin 80 mg}} carries a higher myopathy risk and is not advised.",
-      "refs": [
-        "KDT8 ch46",
-        "GG14 ch37"
-      ],
-      "status": "draft",
-      "subtopic": "p2-blood-lipoproteins-statins",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-blood-067",
-      "type": "shortnote",
-      "front": "Short note: PCSK9 inhibitors",
-      "sections": [
-        {
-          "h": "Rationale",
-          "points": [
-            "PCSK9 is a protease that binds hepatic LDL receptors and sends them for lysosomal degradation",
-            "Blocking it leaves more LDL receptors on the liver surface, so more LDL is cleared"
-          ]
-        },
-        {
-          "h": "Drugs",
-          "points": [
-            "Alirocumab and evolocumab: fully human monoclonal antibodies that bind free PCSK9; s.c. every 2 weeks or once monthly",
-            "Inclisiran: siRNA that blocks PCSK9 synthesis; s.c. at start, at 3 months, then every 6 months; LDL down about half at 6 months"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Add-on to maximally tolerated statin (with or without ezetimibe) in clinical ASCVD needing more LDL lowering",
-            "Heterozygous and homozygous familial hypercholesterolaemia",
-            "Antibodies reduce MI and stroke in ASCVD (FOURIER, ODYSSEY OUTCOMES); high cost limits use to very high-risk patients"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Injection-site reactions (most common), nasopharyngitis and other infections",
-            "Possible small neurocognitive risk under study",
-            "No known drug interactions; avoid in pregnancy"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-blood-068",
-      "type": "basic",
-      "front": "Bempedoic acid: mechanism, effect and adverse effects?",
-      "back": "An oral prodrug activated in the liver (by very long-chain acyl-CoA synthetase 1) to bempedoic acid-CoA, which inhibits ATP-citrate lyase upstream of HMG-CoA reductase. Less hepatic cholesterol synthesis upregulates LDL receptors. Alone it lowers LDL by 15 to 25%; with ezetimibe about 30%. Given once daily, also as a fixed combination with ezetimibe. Adverse effects: hyperuricaemia and gout, tendon rupture, raised CK, creatinine and transaminases.",
-      "refs": [
-        "GG14 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-other-hypolipidaemics",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-blood-069",
-      "type": "basic",
-      "front": "Andexanet alfa: what is it and when is it used?",
-      "back": "A recombinant factor Xa analogue with its active-site serine replaced and its Gla domain removed, so it has no clotting activity. It acts as a decoy that binds circulating rivaroxaban or apixaban and rapidly reverses their anti-Xa effect. Given as an IV bolus then a 2 h infusion, for serious bleeding such as intracranial haemorrhage. It also reverses heparin and LMWH, so it is avoided before procedures that need heparin. It is costly; four-factor prothrombin complex concentrate is used if it is unavailable.",
-      "refs": [
-        "GG14 ch36",
-        "Katzung16 ch34"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-doacs",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-blood-070",
-      "type": "basic",
-      "front": "Why does warfarin dose requirement vary so much between patients?",
-      "back": "Genetic variation in two genes. CYP2C9 variants alter metabolism of the more potent S-warfarin (pharmacokinetic effect). VKORC1 variants make the target enzyme more sensitive to inhibition (pharmacodynamic effect). About 10% of patients need less than 1.5 mg a day to reach INR 2 to 3, often because they carry these variants. Genotyping both genes can help choose the starting dose. Diet, interacting drugs and illness add further variation.",
-      "refs": [
-        "GG14 ch36",
-        "RangDale9 ch12"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-blood-vitamin-k-warfarin",
-      "tags": [
-        "pk",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-blood-071",
-      "type": "shortnote",
-      "front": "Short note: Pleiotropic effects of statins",
-      "subtopic": "p2-blood-lipoproteins-statins",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "sections": [
-        {
-          "h": "Main action",
-          "points": [
-            "Inhibit HMG-CoA reductase, so LDL receptors are upregulated",
-            "Main effect is a fall in LDL; small fall in triglycerides and rise in HDL"
-          ]
-        },
-        {
-          "h": "Pleiotropic actions",
-          "points": [
-            "Statins block mevalonate products that lipidate membrane enzymes such as endothelial NO synthase",
-            "Better endothelial function through more NO",
-            "Less LDL oxidation",
-            "Suppress macrophage-mediated inflammation, stabilising plaques and reducing rupture"
-          ]
-        },
-        {
-          "h": "Clinical relevance",
-          "points": [
-            "Benefit in raised cholesterol without known coronary disease partly ascribed to these effects",
-            "Rosuvastatin reduces venous thromboembolism after knee surgery",
-            "Some of these actions are undesirable"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch46",
-        "RangDale9 ch24"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-blood-072",
-      "type": "shortnote",
-      "front": "Short note: Haemopoietic growth factors",
-      "subtopic": "p2-blood-iron-haematinics",
-      "tags": [
-        "classification",
-        "uses"
-      ],
-      "sections": [
-        {
-          "h": "Erythropoietin",
-          "points": [
-            "Regulates red cell production",
-            "Used for anaemia of chronic renal failure, chemotherapy, zidovudine therapy, premature infants and autologous blood donation",
-            "Can cause hypertension, iron deficiency and raised blood viscosity"
-          ]
-        },
-        {
-          "h": "Colony-stimulating factors",
-          "points": [
-            "G-CSF (filgrastim, pegfilgrastim, lenograstim) stimulates neutrophil progenitors",
-            "Pegfilgrastim is pegylated and acts longer",
-            "Used to shorten chemotherapy-induced neutropenia and to harvest progenitor cells",
-            "GM-CSF is also a recombinant CSF"
-          ]
-        },
-        {
-          "h": "Thrombopoietin agonists",
-          "points": [
-            "Recombinant thrombopoietin caused neutralising antibodies and prolonged thrombocytopenia",
-            "Eltrombopag (oral) and romiplostim (injected) activate thrombopoietin receptors",
-            "Approved for ITP that has not responded to other treatment such as splenectomy"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "G-CSF: bone pain, fever, myalgia, rash and GI upset"
-          ]
-        }
-      ],
-      "refs": [
-        "RangDale9 ch26",
-        "KDT8 ch64"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2017,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-blood-073",
-      "type": "shortnote",
-      "front": "Short note: Direct thrombin inhibitors",
-      "subtopic": "p2-blood-heparins",
-      "tags": [
-        "mechanism",
-        "classification"
-      ],
-      "sections": [
-        {
-          "h": "Concept",
-          "points": [
-            "Bind thrombin directly, so no antithrombin III is needed",
-            "Used when heparin cannot be used, e.g. heparin-induced thrombocytopenia"
-          ]
-        },
-        {
-          "h": "Bivalirudin",
-          "points": [
-            "Synthetic 20-amino-acid peptide based on hirudin",
-            "Anticoagulant in PCI for STEMI, with aspirin and/or clopidogrel or a GP IIb/IIIa inhibitor",
-            "Useful where HIT risk exists"
-          ]
-        },
-        {
-          "h": "Argatroban",
-          "points": [
-            "Synthetic non-peptide that binds the thrombin catalytic site reversibly",
-            "Given IV as a bolus then infusion; short-lasting; prolongs aPTT",
-            "Used for thrombosis in HIT and for PCI in patients with HIT"
-          ]
-        },
-        {
-          "h": "Dabigatran",
-          "points": [
-            "Oral prodrug converted to a reversible direct thrombin inhibitor",
-            "About 80% is excreted by the kidney",
-            "Reversed by idarucizumab"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch45",
-        "GG14 ch36"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-blood-074",
-      "type": "shortnote",
-      "front": "Short note: Drugs abused in sports",
-      "subtopic": "p2-blood-iron-haematinics",
-      "tags": [
-        "adr"
-      ],
-      "sections": [
-        {
-          "h": "Erythropoietin",
-          "points": [
-            "Athletes use epoetin to raise haemoglobin (blood doping)",
-            "Misuse has been linked to deaths of several athletes and is strongly discouraged"
-          ]
-        },
-        {
-          "h": "Androgens and anabolic steroids",
-          "points": [
-            "Athletes take androgens, usually secretly, so effects are poorly documented",
-            "Early abuse used 17-alkylated anabolic steroids, which were thought to be more anabolic than androgenic",
-            "Many of these compounds can be detected readily by testing"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch45",
-        "GG14 ch49"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-blood-075",
-      "type": "shortnote",
-      "front": "Short note: Direct thrombin inhibitors",
-      "sections": [
-        {
-          "h": "Use",
-          "points": [
-            "Heparin-induced thrombocytopenia: heparin must be stopped; low molecular weight heparins are not safe, so a direct thrombin inhibitor is used"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p678"
-      ],
-      "subtopic": "p2-blood-heparins",
-      "tags": [
-        "adr"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p2-blood-076",
-      "type": "shortnote",
-      "front": "Short note: Erythropoietin (epoetin)",
-      "sections": [
-        {
-          "h": "Form",
-          "points": [
-            "Recombinant human erythropoietin (epoetin alfa and beta), given i.v. or s.c."
-          ]
-        },
-        {
-          "h": "Action",
-          "points": [
-            "Stimulates erythropoiesis in a dose-dependent manner",
-            "Has no effect on red cell lifespan"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p670"
-      ],
-      "subtopic": "p2-blood-iron-haematinics",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2007,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2023,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
-      ]
+      "level": 3
     }
   ]
 }

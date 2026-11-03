@@ -99,3 +99,14 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 |---|---|---|
 | p2-arrhythmia-angina-htn-074 to p2-arrhythmia-angina-htn-086 | added | KDT8 ch39, ch40, ch41 |
 | rf-p2-arrhythmia-angina-htn-0679 to rf-p2-arrhythmia-angina-htn-0682 | added | KDT8 ch40, ch41 |
+
+Difficulty ladder pass (levels set on all 86 cards; deck ordered by subtopic then level):
+| id | status | source |
+|---|---|---|
+| p2-arrhythmia-angina-htn-001 to -086 | ok (level added) | KDT8 ch39-41 |
+| p2-arrhythmia-angina-htn-087, 088, 089 | new (L1 amiodarone) | KDT8 ch39 |
+| p2-arrhythmia-angina-htn-090 | new (L1 adenosine) | KDT8 ch39 |
+| p2-arrhythmia-angina-htn-091 | new (L3 adenosine case) | KDT8 ch39 |
+| p2-arrhythmia-angina-htn-092 | new (L2 CCB compare) | KDT8 ch40 |
+| p2-arrhythmia-angina-htn-093 | new (L1 emergency definition) | KDT8 ch41 |
+| p2-arrhythmia-angina-htn-094 | new (L3 emergency + ACS case) | KDT8 ch41 |

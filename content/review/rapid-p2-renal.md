@@ -30,3 +30,5 @@
 | p2-renal-049 to p2-renal-087 | added | KDT8 ch42, ch43 |
 | rf-p2-renal-0392 to rf-p2-renal-0404 | added | KDT8 ch42, ch43 |
 | rf-p2-renal-0019, 0020 | corrected (class list format) | KDT8 ch42 |
+| rf-p2-renal-0405, 0406, 0408, 0409 | new | KDT8 ch42, ch43 |
+| rf-p2-renal-0407 | dropped (duplicate of 0265) | KDT8 ch42 |

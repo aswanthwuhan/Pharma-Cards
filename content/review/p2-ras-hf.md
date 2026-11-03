@@ -94,3 +94,6 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 |---|---|---|
 | p2-ras-hf-061 to p2-ras-hf-080 | added | KDT8 ch36, ch37, ch38 |
 | rf-p2-ras-hf-0613 to rf-p2-ras-hf-0614 | added | KDT8 ch36 |
+
+| p2-ras-hf-001 to p2-ras-hf-080 | level set (1/2/3), deck reordered by level within subtopic | KDT8 ch36-38 |
+| p2-ras-hf-081 to p2-ras-hf-084 | new (level 3 case cards) | KDT8 ch36, ch37, ch38; GG14 ch30, ch33 |

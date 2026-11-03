@@ -43,3 +43,41 @@ None.
 - rf-p2-nsaids-0459 -> colchicine: GG14 low-dose regimen (1.2 mg then 0.6 mg) as current, KDT as older -> KDT8 ch15, GG14 ch42
 - rf-p2-nsaids-0508 -> febuxostat: GG14 boxed CV-death warning added -> KDT8 ch15, GG14 ch42
 - rf-p2-nsaids-0519 -> added: JAK inhibitors for RA list -> KDT8 ch15, GG14 ch39, GG14 ch55
+
+| id | status | source |
+|---|---|---|
+| rf-p2-nsaids-0528 | new | KDT8 ch14-15 |
+| rf-p2-nsaids-0529 | new | KDT8 ch14-15 |
+| rf-p2-nsaids-0530 | new | KDT8 ch14-15 |
+| rf-p2-nsaids-0531 | new | KDT8 ch14-15 |
+| rf-p2-nsaids-0532 | new | KDT8 ch14-15 |
+
+
+## Expansion pass (2026-11-03)
+
+Chapters read: KD Tripathi 8e ch14 and ch15. Existing 532 rapid cards were listed and checked attribute by attribute before writing (a drug name appearing elsewhere was not counted as covered).
+
+Counts: rapid +142, ids rf-p2-nsaids-0533 to rf-p2-nsaids-0674, deck total 674. Study +34 (see study review).
+
+Duplicates: candidate facts already carded were not re-added, for example aspirin in RA, pregnancy and breastfeeding aspirin, aspirin antiplatelet dose, paracetamol antidote regimens, coxib cardiovascular trial results, and the existing NSAID-drug interaction cards.
+
+Book conflicts:
+- Early paracetamol overdose: KDT8 ch14 says induce vomiting or gastric lavage if the patient is brought early. GG14 (gastric lavage section, PDF p184-185) says lavage reduces absorption only about one-third and is not routine. Existing rf-p2-nsaids-0235 follows GG14. New rf-p2-nsaids-0592 keeps the KDT8 wording. The newer GG14 wins, so 0592 should be deleted or corrected by the owner. It was not removed because the helper can only append.
+- Pre-existing, unchanged: IV N-acetylcysteine regimen (rf-0237, KDT8 vs GG12); colchicine acute dose (rf-0459, KDT8 0.5 mg vs GG14 1.2 mg); febuxostat boxed warning (rf-0508, GG14 only, not in KDT8).
+- Not carded: KDT8 ch15 names thiopurine methyltransferase (TPMT) as the enzyme that converts azathioprine to 6-mercaptopurine. Verify in GG14 before adding.
+
+Ranges (id range | status | source):
+
+| id range | status | source |
+|---|---|---|
+| rf-p2-nsaids-0533 to 0555 | draft (ok) | KDT8 ch14 |
+| rf-p2-nsaids-0556 | draft (ok) | KDT8 ch14 and ch15 (naproxen indications) |
+| rf-p2-nsaids-0557 | draft (ok) | KDT8 ch15 |
+| rf-p2-nsaids-0558 to 0580 | draft (ok) | KDT8 ch14 |
+| rf-p2-nsaids-0581 | draft (ok) | KDT8 ch15 (sulfinpyrazone) |
+| rf-p2-nsaids-0582 to 0607 | draft (ok) | KDT8 ch14 |
+| rf-p2-nsaids-0608 to 0674 | draft (ok) | KDT8 ch15 |
+
+Conflict card: rf-p2-nsaids-0592 (see book conflicts above). Status should be "corrected" or "deleted" by the owner.
+
+- Orchestrator: rf-p2-nsaids-0592 deleted (KDT8 lavage/emesis view contradicts rf-p2-nsaids-0235, which follows GG14: activated charcoal, lavage not routine). rf-p2-blood-0579 (TG >1000 mg/dL) kept: matches GG14 PDF p756/p759.

@@ -16,408 +16,90 @@
       "tags": [
         "mechanism",
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-nsaids-002",
-      "type": "basic",
-      "front": "How does aspirin inhibit COX differently from most other NSAIDs?",
-      "back": "Aspirin acetylates a serine residue of COX irreversibly, so activity returns only when new enzyme is synthesised. Most other NSAIDs are competitive and reversible; their effect ends when the drug dissociates from the enzyme.",
+      "id": "p2-nsaids-021",
+      "type": "cloze",
+      "front": "Classify: NSAIDs by chemical class",
+      "text": "Ibuprofen and naproxen are {{propionic acid}} derivatives; ketorolac and indomethacin are {{acetic acid}} derivatives; piroxicam and tenoxicam are {{oxicams}}; mephenamic acid is a {{fenamate}}; paracetamol is a {{para-aminophenol}}; propyphenazone is a {{pyrazolone}}; nefopam is a {{benzoxazocine}}.",
       "refs": [
         "KDT8 ch14"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-aspirin",
+      "subtopic": "p2-nsaids-cox-classification",
       "tags": [
-        "mechanism"
-      ]
+        "classification"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-nsaids-003",
-      "type": "basic",
-      "front": "Why does a low daily dose of aspirin protect platelets for about a week, while ibuprofen's antiplatelet effect is short?",
-      "back": "Aspirin irreversibly blocks platelet COX-1 and hence TXA2 synthesis. Platelets cannot make new enzyme, so the effect lasts about a week, the platelet lifespan. Ibuprofen binds reversibly and its effect is short lived.",
+      "id": "p2-nsaids-024",
+      "type": "cloze",
+      "front": "Classify: NSAID adverse effects by system",
+      "text": "Renal: {{sodium and water retention}} and {{papillary necrosis}}; hepatic: {{raised transaminases}}; CNS: {{tinnitus}} and {{confusion}}; haematological: {{thrombocytopenia}} and {{haemolytic anaemia}}; respiratory: {{asthma}} in aspirin-sensitive patients.",
       "refs": [
         "KDT8 ch14"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-aspirin",
-      "tags": [
-        "mechanism",
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-nsaids-004",
-      "type": "basic",
-      "front": "Why is paracetamol a good antipyretic but a poor anti-inflammatory drug?",
-      "back": "It is a weak inhibitor of peripheral COX. Peroxides generated at inflamed sites block its action there, but no such peroxides are present in the brain, where it inhibits COX well. Action on the brain isoform COX-3 may also contribute.",
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-paracetamol",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-nsaids-005",
-      "type": "basic",
-      "front": "What is the mechanism of paracetamol-induced hepatic injury?",
-      "back": "A minor oxidative metabolite, N-acetyl-p-benzoquinoneimine (NABQI), is normally detoxified by conjugation with glutathione. After a very large dose, glucuronidation saturates, more NABQI forms and hepatic glutathione is depleted. NABQI then binds liver and renal tubular proteins, causing necrosis.",
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-paracetamol",
-      "tags": [
-        "mechanism",
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-nsaids-006",
-      "type": "basic",
-      "front": "What paracetamol dose signals serious toxicity, and when is fatality likely?",
-      "back": "KDT: above about 150 mg/kg (over 10 g in an adult) can cause serious toxicity, and fatality is common above about 250 mg/kg. GG14: hepatotoxicity may follow a single 10 to 15 g (150 to 250 mg/kg) in adults or more than 150 mg/kg in children; 20 to 25 g or more is potentially fatal. Alcoholics and fasting or malnourished patients are at risk at lower doses. Early features are only nausea, vomiting and abdominal pain; centrilobular necrosis develops after 12 to 18 hours, clinical liver damage shows in 2 to 4 days, and transaminases peak at 72 to 96 hours.",
-      "refs": [
-        "KDT8 ch14",
-        "GG14 ch42"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-paracetamol",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-nsaids-007",
-      "type": "basic",
-      "front": "Paracetamol poisoning: antidote, how it works, and the dosing regimen.",
-      "back": "N-acetylcysteine (NAC). It replenishes hepatic glutathione and can also conjugate NAPQI directly, so the toxic metabolite is detoxified instead of binding liver proteins. Standard regimen (GG12): IV 150 mg/kg over 60 min, then 50 mg/kg over 4 h, then 100 mg/kg over 16 h; or oral 140 mg/kg loading, then 70 mg/kg every 4 h for 17 doses. KDT gives a simpler scheme: 150 mg/kg IV over 15 min, then the same dose over 20 h, or 75 mg/kg orally every 4 to 6 h for 2 to 3 days. Start before blood levels return if overdose is suspected; given within 8 to 16 h, mortality falls below 1%, but it is practically ineffective if started 16 h or later. Side effects: rash, nausea, vomiting, rare anaphylactoid reactions.",
-      "refs": [
-        "KDT8 ch14",
-        "GG12 ch34",
-        "GG14 ch42"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-paracetamol",
-      "tags": [
-        "poisoning",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-nsaids-008",
-      "type": "basic",
-      "front": "Which analgesic-antipyretic is safest in pregnancy, and why is aspirin avoided in children with viral infections?",
-      "back": "Paracetamol is the safest choice in pregnancy, with low-dose aspirin probably second best. Aspirin is avoided in children with varicella or influenza because of its link with Reye's syndrome, a rare hepatic encephalopathy; paediatric aspirin formulations are prohibited in India and the UK.",
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-paracetamol",
-      "tags": [
-        "contraindications",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-nsaids-009",
-      "type": "basic",
-      "front": "List the main mechanisms of NSAID-induced gastric mucosal injury.",
-      "back": "Loss of COX-1-derived protective PGE2 and PGI2 reduces mucus and bicarbonate secretion, increases acid secretion and reduces mucosal blood flow. Back-diffusion of H+ ions in the mucosa adds to the damage. Misoprostol, a stable PG analogue, counteracts NSAID gastric toxicity.",
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-gi-special-patients",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-nsaids-010",
-      "type": "basic",
-      "front": "What happens when ibuprofen is taken with low-dose aspirin?",
-      "back": "Ibuprofen occupies the active site of platelet COX-1 reversibly, so aspirin cannot acetylate it. This abolishes aspirin's antiplatelet and cardioprotective effect, so ibuprofen should not be used in patients relying on aspirin for cardioprotection.",
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-aspirin",
-      "tags": [
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-nsaids-011",
-      "type": "basic",
-      "front": "Why were rofecoxib and valdecoxib withdrawn?",
-      "back": "Both were linked to increased myocardial infarction. Rofecoxib was stopped in the APPROVE trial and withdrawn globally in 2004; valdecoxib was withdrawn in 2005 after cardiac events in patients undergoing bypass surgery, and also because of severe skin reactions.",
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-coxibs",
+      "subtopic": "p2-nsaids-cox-classification",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-nsaids-012",
-      "type": "basic",
-      "front": "What are the main safety concerns with nimesulide, and where is it still specifically useful?",
-      "back": "It can cause fulminant hepatic failure and has been withdrawn in several countries; its use in children is banned in India. Its specific value lies in patients with asthma or aspirin intolerance, most of whom do not cross-react with it.",
+      "id": "p2-nsaids-025",
+      "type": "cloze",
+      "front": "Classify: drugs used to close a patent ductus arteriosus",
+      "text": "Ductus arteriosus is kept open by {{PGE2}} made by {{COX-2}}; after birth it closes naturally, but if it does not, small doses of {{indomethacin}} or {{aspirin}} close it by blocking PG synthesis.",
       "refs": [
         "KDT8 ch14"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-coxibs",
-      "tags": [
-        "adr",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-nsaids-013",
-      "type": "shortnote",
-      "front": "Short note: Aspirin as an antiplatelet agent",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Irreversible acetylation of platelet COX-1",
-            "Blocks TXA2 synthesis, so aggregation falls",
-            "Effect lasts about a week (platelet lifespan)"
-          ]
-        },
-        {
-          "h": "Dose",
-          "points": [
-            "Low doses of 75 to 150 mg/day are enough for antiplatelet effect",
-            "High doses also suppress endothelial PGI2, which can cancel the benefit"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Secondary prevention after MI, stroke or TIA",
-            "New-onset or unstable angina",
-            "Pre-eclampsia prevention at 80 to 100 mg/day from the 12th week"
-          ]
-        },
-        {
-          "h": "Hazards",
-          "points": [
-            "Prolonged bleeding time",
-            "Added bleeding risk with anticoagulants",
-            "Stop about one week before elective surgery"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-aspirin",
+      "subtopic": "p2-nsaids-cox-classification",
       "tags": [
         "uses",
-        "dosing"
-      ]
+        "mechanism"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-nsaids-014",
-      "type": "shortnote",
-      "front": "Short note: Acute salicylate poisoning",
-      "sections": [
-        {
-          "h": "Risk",
-          "points": [
-            "Children are more vulnerable",
-            "Fatal dose in adults is estimated at 15 to 30 g",
-            "Elimination becomes saturated, so toxicity rises steeply"
-          ]
-        },
-        {
-          "h": "Clinical features",
-          "points": [
-            "Vomiting, dehydration and electrolyte disturbance",
-            "Mixed acid-base disorder: early respiratory alkalosis, later acidosis",
-            "Hyperpyrexia, delirium, convulsions and coma",
-            "Death from respiratory failure and circulatory collapse"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "Symptomatic and supportive care",
-            "External cooling for hyperpyrexia",
-            "IV fluids with Na+, K+, bicarbonate and glucose, guided by repeated monitoring",
-            "Blood transfusion and vitamin K if bleeding occurs"
-          ]
-        }
-      ],
+      "id": "p2-nsaids-053",
+      "type": "basic",
+      "front": "Why can indomethacin or aspirin close a patent ductus arteriosus, and why should NSAIDs be avoided near term?",
+      "back": "Foetal ductus is held open by PGE2 made by COX-2. Blocking PG synthesis lets it close, so indomethacin or aspirin is used when it fails to shut after birth. The same effect late in pregnancy can close the ductus prematurely and raises post-partum bleeding risk.",
       "refs": [
         "KDT8 ch14"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-aspirin",
+      "subtopic": "p2-nsaids-cox-classification",
       "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-nsaids-015",
-      "type": "shortnote",
-      "front": "Short note: Selective COX-2 inhibitors and cardiovascular risk",
-      "sections": [
-        {
-          "h": "Basis",
-          "points": [
-            "COX-2 inhibitors lower endothelial PGI2 without reducing platelet TXA2",
-            "The imbalance favours thrombosis"
-          ]
-        },
-        {
-          "h": "Key evidence",
-          "points": [
-            "VIGOR: about four-fold more MI with rofecoxib than naproxen",
-            "APPROVE: rofecoxib stopped early and withdrawn in 2004",
-            "APC trial: about 2.5-fold more major CV events with celecoxib",
-            "CLASS trial: no excess CV events with celecoxib"
-          ]
-        },
-        {
-          "h": "Regulatory position",
-          "points": [
-            "Valdecoxib withdrawn in 2005",
-            "Lumiracoxib suspended for hepatotoxicity",
-            "US committee in 2005 favoured a CV warning rather than blanket withdrawal"
-          ]
-        },
-        {
-          "h": "Prescribing",
-          "points": [
-            "Avoid in ischaemic heart disease, hypertension, heart failure and cerebrovascular disease",
-            "Do not combine with low-dose aspirin, as GI injury increases",
-            "Lowest dose for the shortest period"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-coxibs",
-      "tags": [
+        "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-nsaids-016",
-      "type": "shortnote",
-      "front": "Short note: Gastric toxicity of NSAIDs",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Loss of COX-1 PGs (PGE2, PGI2)",
-            "Less mucus and bicarbonate, more acid secretion",
-            "Reduced mucosal blood flow",
-            "Back-diffusion of H+ ions in the mucosa"
-          ]
-        },
-        {
-          "h": "Clinical picture",
-          "points": [
-            "Dyspepsia, erosions and peptic ulcer",
-            "Bleeding and perforation",
-            "Aspirin ion-trapping in mucosal cells adds to injury",
-            "Occult blood loss even after a single aspirin tablet"
-          ]
-        },
-        {
-          "h": "Reducing risk",
-          "points": [
-            "Co-prescribe misoprostol, a stable PG analogue",
-            "Proton pump inhibitor for patients with ulcer history on NSAIDs",
-            "Selective COX-2 inhibitor or paracetamol for intolerant patients",
-            "Buffered or soluble aspirin does not significantly reduce ulcers"
-          ]
-        }
-      ],
+      "id": "p2-nsaids-054",
+      "type": "basic",
+      "front": "Which NSAID suits each situation: mild pain, post-operative pain, renal colic, RA flare?",
+      "back": "Mild pain with little inflammation: paracetamol or low-dose ibuprofen. Short post-operative pain: injectable ketorolac or diclofenac, or oral propionic acid derivative or nimesulide. Parenteral NSAID for renal colic or acute gout: ketorolac, diclofenac or parecoxib. RA or gout flare: naproxen, piroxicam, indomethacin or high-dose aspirin. Reason: pain-to-inflammation ratio and patient risk drive the pick.",
       "refs": [
         "KDT8 ch14"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-gi-special-patients",
+      "subtopic": "p2-nsaids-cox-classification",
       "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-nsaids-017",
-      "type": "shortnote",
-      "front": "Short note: Choosing an NSAID in special patients",
-      "sections": [
-        {
-          "h": "Children",
-          "points": [
-            "Only paracetamol, aspirin, ibuprofen and naproxen are well studied",
-            "Avoid aspirin because of Reye's syndrome"
-          ]
-        },
-        {
-          "h": "Pregnancy",
-          "points": [
-            "Paracetamol is the safest",
-            "Low-dose aspirin is probably second best",
-            "NSAIDs should be avoided near term"
-          ]
-        },
-        {
-          "h": "Asthma or aspirin sensitivity",
-          "points": [
-            "Nimesulide or a selective COX-2 inhibitor",
-            "Most aspirin-sensitive asthmatics do not cross-react with nimesulide"
-          ]
-        },
-        {
-          "h": "Cardiovascular risk",
-          "points": [
-            "Avoid selective COX-2 inhibitors",
-            "Use a propionic acid derivative or aspirin at the lowest dose"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-gi-special-patients",
-      "tags": [
-        "contraindications",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-018",
@@ -483,7 +165,183 @@
       "tags": [
         "classification",
         "adr"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-nsaids-002",
+      "type": "basic",
+      "front": "How does aspirin inhibit COX differently from most other NSAIDs?",
+      "back": "Aspirin acetylates a serine residue of COX irreversibly, so activity returns only when new enzyme is synthesised. Most other NSAIDs are competitive and reversible; their effect ends when the drug dissociates from the enzyme.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-023",
+      "type": "cloze",
+      "front": "Classify: key facts about aspirin",
+      "text": "Aspirin is converted to {{salicylic acid}}; its antiplatelet effect results from {{irreversible}} acetylation of COX-1 and lasts about {{one week}}; low-dose secondary prevention uses {{75 to 150 mg}} daily; analgesic doses are {{0.3 to 0.6 g}} every 6 to 8 hours.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-055",
+      "type": "basic",
+      "front": "What is salicylism and at what aspirin dose does it appear?",
+      "back": "Syndrome from anti-inflammatory doses (3 to 5 g/day): dizziness, tinnitus, vertigo, reversible hearing and vision impairment, excitement, hyperventilation and electrolyte imbalance. Tinnitus is the classic early warning that the dose is too high.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "adr",
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-003",
+      "type": "basic",
+      "front": "Why does a low daily dose of aspirin protect platelets for about a week, while ibuprofen's antiplatelet effect is short?",
+      "back": "Aspirin irreversibly blocks platelet COX-1 and hence TXA2 synthesis. Platelets cannot make new enzyme, so the effect lasts about a week, the platelet lifespan. Ibuprofen binds reversibly and its effect is short lived.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-010",
+      "type": "basic",
+      "front": "What happens when ibuprofen is taken with low-dose aspirin?",
+      "back": "Ibuprofen occupies the active site of platelet COX-1 reversibly, so aspirin cannot acetylate it. This abolishes aspirin's antiplatelet and cardioprotective effect, so ibuprofen should not be used in patients relying on aspirin for cardioprotection.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-013",
+      "type": "shortnote",
+      "front": "Short note: Aspirin as an antiplatelet agent",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Irreversible acetylation of platelet COX-1",
+            "Blocks TXA2 synthesis, so aggregation falls",
+            "Effect lasts about a week (platelet lifespan)"
+          ]
+        },
+        {
+          "h": "Dose",
+          "points": [
+            "Low doses of 75 to 150 mg/day are enough for antiplatelet effect",
+            "High doses also suppress endothelial PGI2, which can cancel the benefit"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Secondary prevention after MI, stroke or TIA",
+            "New-onset or unstable angina",
+            "Pre-eclampsia prevention at 80 to 100 mg/day from the 12th week"
+          ]
+        },
+        {
+          "h": "Hazards",
+          "points": [
+            "Prolonged bleeding time",
+            "Added bleeding risk with anticoagulants",
+            "Stop about one week before elective surgery"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-014",
+      "type": "shortnote",
+      "front": "Short note: Acute salicylate poisoning",
+      "sections": [
+        {
+          "h": "Risk",
+          "points": [
+            "Children are more vulnerable",
+            "Fatal dose in adults is estimated at 15 to 30 g",
+            "Elimination becomes saturated, so toxicity rises steeply"
+          ]
+        },
+        {
+          "h": "Clinical features",
+          "points": [
+            "Vomiting, dehydration and electrolyte disturbance",
+            "Mixed acid-base disorder: early respiratory alkalosis, later acidosis",
+            "Hyperpyrexia, delirium, convulsions and coma",
+            "Death from respiratory failure and circulatory collapse"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Symptomatic and supportive care",
+            "External cooling for hyperpyrexia",
+            "IV fluids with Na+, K+, bicarbonate and glucose, guided by repeated monitoring",
+            "Blood transfusion and vitamin K if bleeding occurs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-019",
@@ -540,7 +398,168 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-nsaids-052",
+      "type": "shortnote",
+      "front": "Short note: Current therapeutic status of aspirin",
+      "sections": [
+        {
+          "h": "Analgesic role has declined",
+          "points": [
+            "Rarely used now as an anti-inflammatory drug",
+            "Paracetamol is generally preferred as the safer analgesic-antipyretic",
+            "Less effective than other NSAIDs in ankylosing spondylitis"
+          ]
+        },
+        {
+          "h": "Main current use: antiplatelet",
+          "points": [
+            "Low daily dose irreversibly inhibits platelet COX-1 for the platelet lifespan",
+            "Secondary prevention after MI, stroke, TIA and unstable angina; also after bypass graft",
+            "Reduces serious vascular events by about 20 to 25% in high-risk patients"
+          ]
+        },
+        {
+          "h": "Primary prevention",
+          "points": [
+            "Recent trials in primary prevention showed no clear benefit",
+            "GI bleeding risk remains and can offset gains"
+          ]
+        },
+        {
+          "h": "Other evidence and cautions",
+          "points": [
+            "Long-term use is linked to lower colorectal cancer risk in epidemiological studies",
+            "Avoid in children with viral infections (Reye syndrome)",
+            "Ibuprofen given concurrently blocks aspirin antiplatelet action"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch42",
+        "Katzung16 ch36",
+        "KDT8 ch14"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses",
+        "interactions"
+      ],
+      "subtopic": "p2-nsaids-aspirin",
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p2-nsaids-006",
+      "type": "basic",
+      "front": "What paracetamol dose signals serious toxicity, and when is fatality likely?",
+      "back": "KDT: above about 150 mg/kg (over 10 g in an adult) can cause serious toxicity, and fatality is common above about 250 mg/kg. GG14: hepatotoxicity may follow a single 10 to 15 g (150 to 250 mg/kg) in adults or more than 150 mg/kg in children; 20 to 25 g or more is potentially fatal. Alcoholics and fasting or malnourished patients are at risk at lower doses. Early features are only nausea, vomiting and abdominal pain; centrilobular necrosis develops after 12 to 18 hours, clinical liver damage shows in 2 to 4 days, and transaminases peak at 72 to 96 hours.",
+      "refs": [
+        "KDT8 ch14",
+        "GG14 ch42"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-paracetamol",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-008",
+      "type": "basic",
+      "front": "Which analgesic-antipyretic is safest in pregnancy, and why is aspirin avoided in children with viral infections?",
+      "back": "Paracetamol is the safest choice in pregnancy, with low-dose aspirin probably second best. Aspirin is avoided in children with varicella or influenza because of its link with Reye's syndrome, a rare hepatic encephalopathy; paediatric aspirin formulations are prohibited in India and the UK.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-paracetamol",
+      "tags": [
+        "contraindications",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-056",
+      "type": "basic",
+      "front": "What does paracetamol lack compared with aspirin, and where is it used?",
+      "back": "It has negligible anti-inflammatory action, does not affect platelets, clotting, gastric mucosa, respiration or acid-base balance, and is not uricosuric. Used for headache, mild migraine, musculoskeletal pain, dysmenorrhoea, first-choice analgesic in osteoarthritis and antipyretic for fever, especially in children (no Reye risk). It is weak where inflammation dominates, e.g. RA.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-paracetamol",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-004",
+      "type": "basic",
+      "front": "Why is paracetamol a good antipyretic but a poor anti-inflammatory drug?",
+      "back": "It is a weak inhibitor of peripheral COX. Peroxides generated at inflamed sites block its action there, but no such peroxides are present in the brain, where it inhibits COX well. Action on the brain isoform COX-3 may also contribute.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-paracetamol",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-005",
+      "type": "basic",
+      "front": "What is the mechanism of paracetamol-induced hepatic injury?",
+      "back": "A minor oxidative metabolite, N-acetyl-p-benzoquinoneimine (NABQI), is normally detoxified by conjugation with glutathione. After a very large dose, glucuronidation saturates, more NABQI forms and hepatic glutathione is depleted. NABQI then binds liver and renal tubular proteins, causing necrosis.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-paracetamol",
+      "tags": [
+        "mechanism",
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-007",
+      "type": "basic",
+      "front": "Paracetamol poisoning: antidote, how it works, and the dosing regimen.",
+      "back": "N-acetylcysteine (NAC). It replenishes hepatic glutathione and can also conjugate NAPQI directly, so the toxic metabolite is detoxified instead of binding liver proteins. Standard regimen (GG12): IV 150 mg/kg over 60 min, then 50 mg/kg over 4 h, then 100 mg/kg over 16 h; or oral 140 mg/kg loading, then 70 mg/kg every 4 h for 17 doses. KDT gives a simpler scheme: 150 mg/kg IV over 15 min, then the same dose over 20 h, or 75 mg/kg orally every 4 to 6 h for 2 to 3 days. Start before blood levels return if overdose is suspected; given within 8 to 16 h, mortality falls below 1%, but it is practically ineffective if started 16 h or later. Side effects: rash, nausea, vomiting, rare anaphylactoid reactions.",
+      "refs": [
+        "KDT8 ch14",
+        "GG12 ch34",
+        "GG14 ch42"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-paracetamol",
+      "tags": [
+        "poisoning",
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-020",
@@ -601,22 +620,8 @@
       "tags": [
         "pk",
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-nsaids-021",
-      "type": "cloze",
-      "front": "Classify: NSAIDs by chemical class",
-      "text": "Ibuprofen and naproxen are {{propionic acid}} derivatives; ketorolac and indomethacin are {{acetic acid}} derivatives; piroxicam and tenoxicam are {{oxicams}}; mephenamic acid is a {{fenamate}}; paracetamol is a {{para-aminophenol}}; propyphenazone is a {{pyrazolone}}; nefopam is a {{benzoxazocine}}.",
-      "refs": [
-        "KDT8 ch14"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-cox-classification",
-      "tags": [
-        "classification"
-      ]
+      "level": 3
     },
     {
       "id": "p2-nsaids-022",
@@ -632,54 +637,314 @@
       "tags": [
         "classification",
         "newer-drugs"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-nsaids-023",
-      "type": "cloze",
-      "front": "Classify: key facts about aspirin",
-      "text": "Aspirin is converted to {{salicylic acid}}; its antiplatelet effect results from {{irreversible}} acetylation of COX-1 and lasts about {{one week}}; low-dose secondary prevention uses {{75 to 150 mg}} daily; analgesic doses are {{0.3 to 0.6 g}} every 6 to 8 hours.",
+      "id": "p2-nsaids-057",
+      "type": "basic",
+      "front": "Compare celecoxib and etoricoxib: COX-2 selectivity and key points.",
+      "back": "Celecoxib is only modestly COX-2 selective (about 10-fold), as effective as naproxen or diclofenac in RA, spares platelet COX-1 and gastric mucosa; side effects are abdominal pain, dyspepsia, rash, oedema and small BP rise. Etoricoxib has the highest selectivity, half-life about 24 h so once daily, and thrombotic CV event rate similar to diclofenac.",
       "refs": [
         "KDT8 ch14"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-aspirin",
+      "subtopic": "p2-nsaids-coxibs",
       "tags": [
-        "pk",
-        "dosing"
-      ]
+        "classification",
+        "pk"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-nsaids-024",
-      "type": "cloze",
-      "front": "Classify: NSAID adverse effects by system",
-      "text": "Renal: {{sodium and water retention}} and {{papillary necrosis}}; hepatic: {{raised transaminases}}; CNS: {{tinnitus}} and {{confusion}}; haematological: {{thrombocytopenia}} and {{haemolytic anaemia}}; respiratory: {{asthma}} in aspirin-sensitive patients.",
+      "id": "p2-nsaids-058",
+      "type": "basic",
+      "front": "What is parecoxib, and what hazard does it share with valdecoxib?",
+      "back": "Parecoxib is an injectable prodrug of valdecoxib for post-operative or similar short-term pain, with efficacy like ketorolac. It shares valdecoxib's risk of serious skin reactions, so stop it at the first rash.",
       "refs": [
         "KDT8 ch14"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-cox-classification",
+      "subtopic": "p2-nsaids-coxibs",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-011",
+      "type": "basic",
+      "front": "Why were rofecoxib and valdecoxib withdrawn?",
+      "back": "Both were linked to increased myocardial infarction. Rofecoxib was stopped in the APPROVE trial and withdrawn globally in 2004; valdecoxib was withdrawn in 2005 after cardiac events in patients undergoing bypass surgery, and also because of severe skin reactions.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-coxibs",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-nsaids-025",
-      "type": "cloze",
-      "front": "Classify: drugs used to close a patent ductus arteriosus",
-      "text": "Ductus arteriosus is kept open by {{PGE2}} made by {{COX-2}}; after birth it closes naturally, but if it does not, small doses of {{indomethacin}} or {{aspirin}} close it by blocking PG synthesis.",
+      "id": "p2-nsaids-012",
+      "type": "basic",
+      "front": "What are the main safety concerns with nimesulide, and where is it still specifically useful?",
+      "back": "It can cause fulminant hepatic failure and has been withdrawn in several countries; its use in children is banned in India. Its specific value lies in patients with asthma or aspirin intolerance, most of whom do not cross-react with it.",
       "refs": [
         "KDT8 ch14"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-cox-classification",
+      "subtopic": "p2-nsaids-coxibs",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-015",
+      "type": "shortnote",
+      "front": "Short note: Selective COX-2 inhibitors and cardiovascular risk",
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "COX-2 inhibitors lower endothelial PGI2 without reducing platelet TXA2",
+            "The imbalance favours thrombosis"
+          ]
+        },
+        {
+          "h": "Key evidence",
+          "points": [
+            "VIGOR: about four-fold more MI with rofecoxib than naproxen",
+            "APPROVE: rofecoxib stopped early and withdrawn in 2004",
+            "APC trial: about 2.5-fold more major CV events with celecoxib",
+            "CLASS trial: no excess CV events with celecoxib"
+          ]
+        },
+        {
+          "h": "Regulatory position",
+          "points": [
+            "Valdecoxib withdrawn in 2005",
+            "Lumiracoxib suspended for hepatotoxicity",
+            "US committee in 2005 favoured a CV warning rather than blanket withdrawal"
+          ]
+        },
+        {
+          "h": "Prescribing",
+          "points": [
+            "Avoid in ischaemic heart disease, hypertension, heart failure and cerebrovascular disease",
+            "Do not combine with low-dose aspirin, as GI injury increases",
+            "Lowest dose for the shortest period"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-coxibs",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-059",
+      "type": "basic",
+      "front": "Case: RA patient with a past peptic ulcer and hypertension needs an NSAID. Reason out the choice.",
+      "back": "Gastric risk argues for a COX-2 selective drug (or paracetamol), or a traditional NSAID with a PPI. But hypertension and CV risk argue against coxibs, which lack antiplatelet action and give a small BP rise. So the lowest dose for the shortest time of a propionic acid derivative such as naproxen (lower thrombotic risk than diclofenac or etoricoxib) plus a PPI is the balanced answer; consider a DMARD to cut NSAID need.",
+      "refs": [
+        "KDT8 ch14",
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-coxibs",
       "tags": [
         "uses",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-nsaids-009",
+      "type": "basic",
+      "front": "List the main mechanisms of NSAID-induced gastric mucosal injury.",
+      "back": "Loss of COX-1-derived protective PGE2 and PGI2 reduces mucus and bicarbonate secretion, increases acid secretion and reduces mucosal blood flow. Back-diffusion of H+ ions in the mucosa adds to the damage. Misoprostol, a stable PG analogue, counteracts NSAID gastric toxicity.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "adr",
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-060",
+      "type": "basic",
+      "front": "Which COX product loss causes NSAID gastric damage?",
+      "back": "Inhibition of COX-1 derived PGE2 and PGI2, the gastroprotective prostaglandins. Without them mucus and bicarbonate fall, acid rises and mucosal blood flow drops, so erosion and ulcer follow.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-061",
+      "type": "basic",
+      "front": "What gastroprotection is used when an NSAID-dependent arthritis patient develops a peptic ulcer?",
+      "back": "Concurrent proton pump inhibitor. Alternatives for gastric intolerance or predisposed patients: a selective COX-2 inhibitor or paracetamol.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-062",
+      "type": "basic",
+      "front": "Which analgesics have been adequately evaluated in children, and which to avoid?",
+      "back": "Only paracetamol, aspirin, ibuprofen and naproxen are well studied in children. Avoid aspirin because of Reye's syndrome, so paracetamol is preferred for fever.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-016",
+      "type": "shortnote",
+      "front": "Short note: Gastric toxicity of NSAIDs",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Loss of COX-1 PGs (PGE2, PGI2)",
+            "Less mucus and bicarbonate, more acid secretion",
+            "Reduced mucosal blood flow",
+            "Back-diffusion of H+ ions in the mucosa"
+          ]
+        },
+        {
+          "h": "Clinical picture",
+          "points": [
+            "Dyspepsia, erosions and peptic ulcer",
+            "Bleeding and perforation",
+            "Aspirin ion-trapping in mucosal cells adds to injury",
+            "Occult blood loss even after a single aspirin tablet"
+          ]
+        },
+        {
+          "h": "Reducing risk",
+          "points": [
+            "Co-prescribe misoprostol, a stable PG analogue",
+            "Proton pump inhibitor for patients with ulcer history on NSAIDs",
+            "Selective COX-2 inhibitor or paracetamol for intolerant patients",
+            "Buffered or soluble aspirin does not significantly reduce ulcers"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-017",
+      "type": "shortnote",
+      "front": "Short note: Choosing an NSAID in special patients",
+      "sections": [
+        {
+          "h": "Children",
+          "points": [
+            "Only paracetamol, aspirin, ibuprofen and naproxen are well studied",
+            "Avoid aspirin because of Reye's syndrome"
+          ]
+        },
+        {
+          "h": "Pregnancy",
+          "points": [
+            "Paracetamol is the safest",
+            "Low-dose aspirin is probably second best",
+            "NSAIDs should be avoided near term"
+          ]
+        },
+        {
+          "h": "Asthma or aspirin sensitivity",
+          "points": [
+            "Nimesulide or a selective COX-2 inhibitor",
+            "Most aspirin-sensitive asthmatics do not cross-react with nimesulide"
+          ]
+        },
+        {
+          "h": "Cardiovascular risk",
+          "points": [
+            "Avoid selective COX-2 inhibitors",
+            "Use a propionic acid derivative or aspirin at the lowest dose"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "contraindications",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-063",
+      "type": "basic",
+      "front": "Case: elderly asthmatic with aspirin sensitivity and gastric intolerance has osteoarthritis pain. Choose analgesia.",
+      "back": "Paracetamol first (first-choice for OA, minimal gastric effect, no aspirin cross-reactivity). If an NSAID is needed, nimesulide or a COX-2 inhibitor suits aspirin-sensitive asthma and gastric risk, at a reduced elderly dose, with PPI cover if ulcer history; note nimesulide hepatotoxicity concerns and ban in children.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 3
     },
     {
       "id": "p2-nsaids-026",
@@ -694,7 +959,40 @@
       "subtopic": "p2-nsaids-dmards",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-030",
+      "type": "basic",
+      "front": "What is sulfasalazine made of, and what is its role in RA?",
+      "back": "It is sulfapyridine linked to 5-aminosalicylic acid. In RA it is a second-line or add-on DMARD of modest efficacy. Neutropenia or thrombocytopenia occurs in about 5 to 10% of patients, so blood counts need monitoring.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-dmards",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-046",
+      "type": "cloze",
+      "front": "Classify: non-biological DMARDs",
+      "text": "Non-biological DMARDs include {{methotrexate}}, {{sulfasalazine}}, {{hydroxychloroquine}}, {{leflunomide}}, {{azathioprine}} and the JAK inhibitor {{tofacitinib}}.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-dmards",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p2-nsaids-027",
@@ -710,7 +1008,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-028",
@@ -726,7 +1025,8 @@
       "tags": [
         "adr",
         "contraindications"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-029",
@@ -741,22 +1041,8 @@
       "subtopic": "p2-nsaids-dmards",
       "tags": [
         "interactions"
-      ]
-    },
-    {
-      "id": "p2-nsaids-030",
-      "type": "basic",
-      "front": "What is sulfasalazine made of, and what is its role in RA?",
-      "back": "It is sulfapyridine linked to 5-aminosalicylic acid. In RA it is a second-line or add-on DMARD of modest efficacy. Neutropenia or thrombocytopenia occurs in about 5 to 10% of patients, so blood counts need monitoring.",
-      "refs": [
-        "KDT8 ch15"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-dmards",
-      "tags": [
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p2-nsaids-031",
@@ -772,7 +1058,8 @@
       "tags": [
         "adr",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-032",
@@ -788,7 +1075,8 @@
       "tags": [
         "mechanism",
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-033",
@@ -804,71 +1092,8 @@
       "tags": [
         "interactions",
         "uses"
-      ]
-    },
-    {
-      "id": "p2-nsaids-034",
-      "type": "basic",
-      "front": "How do TNF inhibitors work, and what is their main hazard?",
-      "back": "They neutralise TNF, either as a soluble receptor or an antibody, reducing macrophage and T-cell activation. They act faster than conventional DMARDs and slow erosions. The main hazard is opportunistic infection, including tuberculosis and Pneumocystis pneumonia, because TNF is needed against granulomatous infection.",
-      "refs": [
-        "KDT8 ch15"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-biologic-dmards",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-nsaids-035",
-      "type": "basic",
-      "front": "How does abatacept act, and with which drug must it not be combined?",
-      "back": "It is a CTLA-4 Fc fusion protein that binds CD80 and CD86, blocking the second costimulatory signal needed for T-cell activation. It is used in active RA not responding to methotrexate. It must not be combined with TNF antagonists because infection risk rises greatly.",
-      "refs": [
-        "KDT8 ch15"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-biologic-dmards",
-      "tags": [
-        "mechanism",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-nsaids-036",
-      "type": "basic",
-      "front": "How does colchicine act in acute gout, and what limits its use?",
-      "back": "It binds tubulin and so blocks granulocyte migration into the joint and the release of chemotactic factors and glycoprotein. It has no general analgesic or anti-inflammatory effect, and it does not change uric acid levels; its action is specific to gouty inflammation. Dose-related GI toxicity limits it, so it is second line to NSAIDs.",
-      "refs": [
-        "KDT8 ch15"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-gout",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-nsaids-037",
-      "type": "basic",
-      "front": "What is the role of allopurinol in chronic gout, and what is its mechanism?",
-      "back": "Its metabolite alloxanthine is a long-acting, noncompetitive inhibitor of xanthine oxidase, reducing uric acid synthesis. It is the first-choice drug for chronic gout, in both over-producers and under-excretors. It must not be started during an acute attack, and NSAID or colchicine cover is needed for 1 to 2 months.",
-      "refs": [
-        "KDT8 ch15"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-gout",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p2-nsaids-038",
@@ -928,170 +1153,8 @@
       "tags": [
         "dosing",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-nsaids-039",
-      "type": "shortnote",
-      "front": "Short note: Biological DMARDs in rheumatoid arthritis",
-      "sections": [
-        {
-          "h": "Principle",
-          "points": [
-            "Recombinant proteins or monoclonal antibodies against TNF, IL-1 or T-cell costimulation",
-            "Reserved for severe or refractory disease because they are expensive"
-          ]
-        },
-        {
-          "h": "Agents",
-          "points": [
-            "Etanercept: TNF receptor-Fc fusion protein, subcutaneous",
-            "Infliximab: chimeric monoclonal antibody, IV every 4 to 8 weeks",
-            "Adalimumab: human anti-TNF antibody, subcutaneous every 2 weeks",
-            "Anakinra: IL-1 receptor antagonist",
-            "Abatacept and rituximab for selected refractory cases"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Opportunistic infections, including tuberculosis and Pneumocystis pneumonia",
-            "Infusion reactions with infliximab",
-            "Worsening heart failure with infliximab",
-            "Injection-site reactions"
-          ]
-        },
-        {
-          "h": "Combination",
-          "points": [
-            "TNF inhibitors are usually given with methotrexate, which reduces antibody formation",
-            "Abatacept is not combined with TNF antagonists"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch15"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-biologic-dmards",
-      "tags": [
-        "classification",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-nsaids-040",
-      "type": "shortnote",
-      "front": "Short note: Colchicine in acute gout",
-      "sections": [
-        {
-          "h": "Source and action",
-          "points": [
-            "Alkaloid of Colchicum autumnale",
-            "Binds tubulin and blocks granulocyte migration into the joint",
-            "Does not affect urate synthesis or excretion"
-          ]
-        },
-        {
-          "h": "Dosing",
-          "points": [
-            "Current regimen (GG14): 1.2 mg at the first sign of a flare, then 0.6 mg 1 hour later; works best within 24 h of onset",
-            "Older regimen (KDT): 0.5 mg every 1 to 3 hours, up to 4 doses a day, maximum 6 mg per course over 3 to 4 days; next course not before 3 to 7 days",
-            "Small doses at the first symptom may abort an attack",
-            "Low-dose prophylaxis while urate-lowering therapy is started"
-          ]
-        },
-        {
-          "h": "Toxicity",
-          "points": [
-            "Diarrhoea, nausea, vomiting and cramps are dose-limiting",
-            "Overdose: renal damage, CNS depression, bleeding, death from paralysis and respiratory failure",
-            "CYP3A4 inhibitors increase toxicity"
-          ]
-        },
-        {
-          "h": "Position",
-          "points": [
-            "Fastest-acting option for an acute attack",
-            "Second-line to NSAIDs because of higher toxicity"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch15",
-        "GG14 ch42"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p2-nsaids-gout",
-      "tags": [
-        "mechanism",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-nsaids-041",
-      "type": "shortnote",
-      "front": "Short note: Urate-lowering drugs in chronic gout",
-      "sections": [
-        {
-          "h": "Xanthine oxidase inhibitors",
-          "points": [
-            "Allopurinol: start 100 mg daily, up to 300 mg/day, maximum 600 mg/day",
-            "Febuxostat: non-purine, 40 mg up to 80 mg daily, maximum 120 mg/day; monitor liver function",
-            "Febuxostat carries a boxed warning of possible higher cardiovascular death than allopurinol (GG14)",
-            "Febuxostat is not combined with allopurinol, nor given with azathioprine or mercaptopurine"
-          ]
-        },
-        {
-          "h": "Uricosurics",
-          "points": [
-            "Probenecid blocks urate reabsorption; start 0.25 g BD, increase to 0.5 g BD",
-            "Needs adequate renal function; avoided in stone formers",
-            "Aspirin blocks its uricosuric action",
-            "Lesinurad is a newer uricosuric"
-          ]
-        },
-        {
-          "h": "Uricase",
-          "points": [
-            "Pegloticase: PEG-coupled recombinant uricase given IV every 2 weeks",
-            "Reserved for refractory gout; carries a risk of anaphylaxis"
-          ]
-        },
-        {
-          "h": "General rules",
-          "points": [
-            "Never start during an acute attack",
-            "Cover with NSAID or colchicine for 1 to 2 months",
-            "Allopurinol is usually long term"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch15",
-        "GG14 ch42"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p2-nsaids-gout",
-      "tags": [
-        "classification",
-        "dosing"
-      ]
+      "level": 2
     },
     {
       "id": "p2-nsaids-042",
@@ -1136,7 +1199,28 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-051",
+      "type": "basic",
+      "front": "JAK inhibitors in rheumatoid arthritis: mechanism, agents and key adverse effects.",
+      "back": "Janus kinases (JAK1, JAK2, JAK3, TYK2) are tyrosine kinases activated by cytokine receptors; they phosphorylate STAT transcription factors that switch on inflammatory genes. Oral JAK inhibitors block this signalling and cytokine production. Tofacitinib (JAK1/JAK3, 5 mg twice daily) is used in severe RA not responding to methotrexate, alone or with methotrexate, but not with azathioprine, cyclosporine or biological DMARDs. Other JAK inhibitors approved for RA include baricitinib (JAK1/JAK2) and upadacitinib (JAK1). Adverse effects: respiratory infections, reactivation of tuberculosis, headache, diarrhoea, hypertension, anaemia and liver damage. GG14: a boxed warning covers serious infections, malignancy, thrombosis, major cardiovascular events and death, and since 2021 the US label limits them to patients who respond poorly to TNF antagonists.",
+      "refs": [
+        "KDT8 ch15",
+        "GG14 ch39",
+        "GG14 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-dmards",
+      "tags": [
+        "mechanism",
+        "newer-drugs",
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-043",
@@ -1192,64 +1276,8 @@
       "subtopic": "p2-nsaids-dmards",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p2-nsaids-044",
-      "type": "essay",
-      "front": "Essay: Gout - acute attack versus chronic hyperuricaemia",
-      "sections": [
-        {
-          "h": "Pathogenesis",
-          "points": [
-            "Normal plasma urate is about 2 to 6 mg/dL",
-            "Urate crystals deposit in joints, kidney and subcutaneous tissue (tophi)",
-            "Most patients under-excrete uric acid; drugs such as thiazides and furosemide can cause secondary hyperuricaemia"
-          ]
-        },
-        {
-          "h": "Acute attack",
-          "points": [
-            "Treat with strong anti-inflammatory drugs without lowering urate",
-            "NSAIDs in high, quickly repeated doses, e.g. naproxen, indomethacin, piroxicam, diclofenac or etoricoxib",
-            "Colchicine is fastest but second-line because of toxicity",
-            "Intra-articular or systemic steroids when NSAIDs and colchicine are unsuitable"
-          ]
-        },
-        {
-          "h": "Transition",
-          "points": [
-            "Continue NSAID at lower dose for 3 to 4 weeks after the attack",
-            "Start urate-lowering therapy once the attack subsides"
-          ]
-        },
-        {
-          "h": "Chronic gout",
-          "points": [
-            "Allopurinol is the first choice for over-producers and under-excretors",
-            "Probenecid is used for under-excretors with good renal function",
-            "Febuxostat as an alternative; pegloticase for refractory cases",
-            "Allopurinol and a uricosuric may be combined when the urate load is large"
-          ]
-        },
-        {
-          "h": "Complications",
-          "points": [
-            "Tophi, nephropathy and deforming chronic arthritis",
-            "Long-term allopurinol can make tophi disappear and halt nephropathy"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch15"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-gout",
-      "tags": [
-        "uses",
-        "mechanism"
-      ]
+      "level": 3
     },
     {
       "id": "p2-nsaids-045",
@@ -1314,22 +1342,25 @@
       "tags": [
         "classification",
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-nsaids-046",
-      "type": "cloze",
-      "front": "Classify: non-biological DMARDs",
-      "text": "Non-biological DMARDs include {{methotrexate}}, {{sulfasalazine}}, {{hydroxychloroquine}}, {{leflunomide}}, {{azathioprine}} and the JAK inhibitor {{tofacitinib}}.",
+      "id": "p2-nsaids-034",
+      "type": "basic",
+      "front": "How do TNF inhibitors work, and what is their main hazard?",
+      "back": "They neutralise TNF, either as a soluble receptor or an antibody, reducing macrophage and T-cell activation. They act faster than conventional DMARDs and slow erosions. The main hazard is opportunistic infection, including tuberculosis and Pneumocystis pneumonia, because TNF is needed against granulomatous infection.",
       "refs": [
         "KDT8 ch15"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-nsaids-dmards",
+      "subtopic": "p2-nsaids-biologic-dmards",
       "tags": [
-        "classification"
-      ]
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p2-nsaids-047",
@@ -1345,7 +1376,109 @@
       "tags": [
         "classification",
         "newer-drugs"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-064",
+      "type": "basic",
+      "front": "Name the TNF inhibitors and their type.",
+      "back": "Etanercept (TNF-receptor/Fc fusion protein), infliximab (chimeric monoclonal antibody), adalimumab (human monoclonal antibody), plus certolizumab and golimumab. They are reserve drugs for severe refractory RA, usually added to methotrexate, which lowers antibody formation against infliximab and adalimumab.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-biologic-dmards",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-035",
+      "type": "basic",
+      "front": "How does abatacept act, and with which drug must it not be combined?",
+      "back": "It is a CTLA-4 Fc fusion protein that binds CD80 and CD86, blocking the second costimulatory signal needed for T-cell activation. It is used in active RA not responding to methotrexate. It must not be combined with TNF antagonists because infection risk rises greatly.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-biologic-dmards",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-039",
+      "type": "shortnote",
+      "front": "Short note: Biological DMARDs in rheumatoid arthritis",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Recombinant proteins or monoclonal antibodies against TNF, IL-1 or T-cell costimulation",
+            "Reserved for severe or refractory disease because they are expensive"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Etanercept: TNF receptor-Fc fusion protein, subcutaneous",
+            "Infliximab: chimeric monoclonal antibody, IV every 4 to 8 weeks",
+            "Adalimumab: human anti-TNF antibody, subcutaneous every 2 weeks",
+            "Anakinra: IL-1 receptor antagonist",
+            "Abatacept and rituximab for selected refractory cases"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Opportunistic infections, including tuberculosis and Pneumocystis pneumonia",
+            "Infusion reactions with infliximab",
+            "Worsening heart failure with infliximab",
+            "Injection-site reactions"
+          ]
+        },
+        {
+          "h": "Combination",
+          "points": [
+            "TNF inhibitors are usually given with methotrexate, which reduces antibody formation",
+            "Abatacept is not combined with TNF antagonists"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-biologic-dmards",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-065",
+      "type": "basic",
+      "front": "Case: RA not controlled by methotrexate plus a TNF inhibitor. What next and what to avoid?",
+      "back": "Options are abatacept (blocks CD80/CD86 costimulation of T cells) or rituximab (B-cell depletion) with methotrexate; anakinra (IL-1 receptor antagonist) is rarely used. Never combine abatacept with a TNF antagonist (very high infection risk). Screen for TB beforehand since TNF blockade flares granulomatous infection.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-biologic-dmards",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 3
     },
     {
       "id": "p2-nsaids-048",
@@ -1360,7 +1493,8 @@
       "subtopic": "p2-nsaids-gout",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-nsaids-049",
@@ -1375,7 +1509,173 @@
       "subtopic": "p2-nsaids-gout",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-066",
+      "type": "basic",
+      "front": "How does probenecid lower blood uric acid, and what are its limits?",
+      "back": "It blocks URAT-1 (an organic acid transporter) so tubular reabsorption of urate falls and excretion rises. Ineffective in renal insufficiency, avoid in stone formers (give fluids), and aspirin blocks its effect. Cover the first 1 to 2 months with NSAID or colchicine to avoid precipitating acute gout.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-nsaids-036",
+      "type": "basic",
+      "front": "How does colchicine act in acute gout, and what limits its use?",
+      "back": "It binds tubulin and so blocks granulocyte migration into the joint and the release of chemotactic factors and glycoprotein. It has no general analgesic or anti-inflammatory effect, and it does not change uric acid levels; its action is specific to gouty inflammation. Dose-related GI toxicity limits it, so it is second line to NSAIDs.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-037",
+      "type": "basic",
+      "front": "What is the role of allopurinol in chronic gout, and what is its mechanism?",
+      "back": "Its metabolite alloxanthine is a long-acting, noncompetitive inhibitor of xanthine oxidase, reducing uric acid synthesis. It is the first-choice drug for chronic gout, in both over-producers and under-excretors. It must not be started during an acute attack, and NSAID or colchicine cover is needed for 1 to 2 months.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-040",
+      "type": "shortnote",
+      "front": "Short note: Colchicine in acute gout",
+      "sections": [
+        {
+          "h": "Source and action",
+          "points": [
+            "Alkaloid of Colchicum autumnale",
+            "Binds tubulin and blocks granulocyte migration into the joint",
+            "Does not affect urate synthesis or excretion"
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "Current regimen (GG14): 1.2 mg at the first sign of a flare, then 0.6 mg 1 hour later; works best within 24 h of onset",
+            "Older regimen (KDT): 0.5 mg every 1 to 3 hours, up to 4 doses a day, maximum 6 mg per course over 3 to 4 days; next course not before 3 to 7 days",
+            "Small doses at the first symptom may abort an attack",
+            "Low-dose prophylaxis while urate-lowering therapy is started"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Diarrhoea, nausea, vomiting and cramps are dose-limiting",
+            "Overdose: renal damage, CNS depression, bleeding, death from paralysis and respiratory failure",
+            "CYP3A4 inhibitors increase toxicity"
+          ]
+        },
+        {
+          "h": "Position",
+          "points": [
+            "Fastest-acting option for an acute attack",
+            "Second-line to NSAIDs because of higher toxicity"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch15",
+        "GG14 ch42"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "mechanism",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-041",
+      "type": "shortnote",
+      "front": "Short note: Urate-lowering drugs in chronic gout",
+      "sections": [
+        {
+          "h": "Xanthine oxidase inhibitors",
+          "points": [
+            "Allopurinol: start 100 mg daily, up to 300 mg/day, maximum 600 mg/day",
+            "Febuxostat: non-purine, 40 mg up to 80 mg daily, maximum 120 mg/day; monitor liver function",
+            "Febuxostat carries a boxed warning of possible higher cardiovascular death than allopurinol (GG14)",
+            "Febuxostat is not combined with allopurinol, nor given with azathioprine or mercaptopurine"
+          ]
+        },
+        {
+          "h": "Uricosurics",
+          "points": [
+            "Probenecid blocks urate reabsorption; start 0.25 g BD, increase to 0.5 g BD",
+            "Needs adequate renal function; avoided in stone formers",
+            "Aspirin blocks its uricosuric action",
+            "Lesinurad is a newer uricosuric"
+          ]
+        },
+        {
+          "h": "Uricase",
+          "points": [
+            "Pegloticase: PEG-coupled recombinant uricase given IV every 2 weeks",
+            "Reserved for refractory gout; carries a risk of anaphylaxis"
+          ]
+        },
+        {
+          "h": "General rules",
+          "points": [
+            "Never start during an acute attack",
+            "Cover with NSAID or colchicine for 1 to 2 months",
+            "Allopurinol is usually long term"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch15",
+        "GG14 ch42"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "classification",
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p2-nsaids-050",
@@ -1390,82 +1690,972 @@
       "subtopic": "p2-nsaids-gout",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-nsaids-051",
+      "id": "p2-nsaids-067",
       "type": "basic",
-      "front": "JAK inhibitors in rheumatoid arthritis: mechanism, agents and key adverse effects.",
-      "back": "Janus kinases (JAK1, JAK2, JAK3, TYK2) are tyrosine kinases activated by cytokine receptors; they phosphorylate STAT transcription factors that switch on inflammatory genes. Oral JAK inhibitors block this signalling and cytokine production. Tofacitinib (JAK1/JAK3, 5 mg twice daily) is used in severe RA not responding to methotrexate, alone or with methotrexate, but not with azathioprine, cyclosporine or biological DMARDs. Other JAK inhibitors approved for RA include baricitinib (JAK1/JAK2) and upadacitinib (JAK1). Adverse effects: respiratory infections, reactivation of tuberculosis, headache, diarrhoea, hypertension, anaemia and liver damage. GG14: a boxed warning covers serious infections, malignancy, thrombosis, major cardiovascular events and death, and since 2021 the US label limits them to patients who respond poorly to TNF antagonists.",
+      "front": "Which drugs interact with allopurinol and how?",
+      "back": "It inhibits xanthine oxidase so azathioprine and 6-mercaptopurine doses must be cut to about a third (not thioguanine); it potentiates warfarin and theophylline; ampicillin rashes are commoner; probenecid and allopurinol alter each other's half-life. Febuxostat has the same azathioprine and theophylline caution.",
       "refs": [
-        "KDT8 ch15",
-        "GG14 ch39",
-        "GG14 ch55"
+        "KDT8 ch15"
       ],
       "pyq": [],
       "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-nsaids-044",
+      "type": "essay",
+      "front": "Essay: Gout - acute attack versus chronic hyperuricaemia",
+      "sections": [
+        {
+          "h": "Pathogenesis",
+          "points": [
+            "Normal plasma urate is about 2 to 6 mg/dL",
+            "Urate crystals deposit in joints, kidney and subcutaneous tissue (tophi)",
+            "Most patients under-excrete uric acid; drugs such as thiazides and furosemide can cause secondary hyperuricaemia"
+          ]
+        },
+        {
+          "h": "Acute attack",
+          "points": [
+            "Treat with strong anti-inflammatory drugs without lowering urate",
+            "NSAIDs in high, quickly repeated doses, e.g. naproxen, indomethacin, piroxicam, diclofenac or etoricoxib",
+            "Colchicine is fastest but second-line because of toxicity",
+            "Intra-articular or systemic steroids when NSAIDs and colchicine are unsuitable"
+          ]
+        },
+        {
+          "h": "Transition",
+          "points": [
+            "Continue NSAID at lower dose for 3 to 4 weeks after the attack",
+            "Start urate-lowering therapy once the attack subsides"
+          ]
+        },
+        {
+          "h": "Chronic gout",
+          "points": [
+            "Allopurinol is the first choice for over-producers and under-excretors",
+            "Probenecid is used for under-excretors with good renal function",
+            "Febuxostat as an alternative; pegloticase for refractory cases",
+            "Allopurinol and a uricosuric may be combined when the urate load is large"
+          ]
+        },
+        {
+          "h": "Complications",
+          "points": [
+            "Tophi, nephropathy and deforming chronic arthritis",
+            "Long-term allopurinol can make tophi disappear and halt nephropathy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-nsaids-068",
+      "type": "basic",
+      "front": "Case: gout patient has recurrent tophi and renal stones. Choose urate-lowering therapy and cover.",
+      "back": "Allopurinol (first choice, works in over-producers and under-excretors, good for tophi and nephropathy); uricosurics are inappropriate with stones or low GFR. Febuxostat is an alternative if allopurinol fails, never combined. Refractory cases: pegloticase (uricase, anaphylaxis risk). Start only after the acute attack and cover 1 to 2 months with NSAID or colchicine.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-nsaids-069",
+      "type": "shortnote",
+      "front": "Short note: Selective COX-2 inhibitors - agents, status and safety",
+      "sections": [
+        {
+          "h": "Rationale",
+          "points": [
+            "COX-2 is induced at inflamed sites; COX-1 keeps housekeeping functions",
+            "Coxibs do not inhibit platelet TXA2, so they do not block aggregation"
+          ]
+        },
+        {
+          "h": "Agents in India",
+          "points": [
+            "Celecoxib, etoricoxib and parecoxib",
+            "Lumiracoxib (Europe only) suspended for hepatotoxicity"
+          ]
+        },
+        {
+          "h": "Withdrawals",
+          "points": [
+            "Rofecoxib withdrawn 2004 after cardiovascular event trials",
+            "Valdecoxib withdrawn 2005: MI after CABG and severe skin reactions"
+          ]
+        },
+        {
+          "h": "Cardiovascular risk",
+          "points": [
+            "Lower endothelial PGI2 with no platelet effect: prothrombotic tilt",
+            "APC trial: about 2.5-fold more major CV events; CLASS trial showed no excess",
+            "2005 US committee: warning label, not full withdrawal"
+          ]
+        },
+        {
+          "h": "Prescribing",
+          "points": [
+            "Only for patients at high risk of ulcer, perforation or bleed; lowest dose, shortest time",
+            "Avoid in ischaemic heart disease, hypertension, heart failure, cerebrovascular disease; do not add low-dose aspirin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-nsaids-coxibs",
+      "tags": [
+        "classification",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-nsaids-070",
+      "type": "shortnote",
+      "front": "Short note: Clinically useful effects of aspirin",
+      "sections": [
+        {
+          "h": "Analgesic",
+          "points": [
+            "Headache, backache, myalgia, toothache, neuralgia, dysmenorrhoea",
+            "Effective at 0.3-0.6 g every 6-8 h; single-dose analgesia peaks near 1 g"
+          ]
+        },
+        {
+          "h": "Antipyretic",
+          "points": [
+            "Works in fever of any cause",
+            "Paracetamol usually preferred because it is safer"
+          ]
+        },
+        {
+          "h": "Rheumatic disease",
+          "points": [
+            "Acute rheumatic fever: first drug given; corticosteroids act faster",
+            "High doses (3-5 g/day) in RA; disease progression is not altered"
+          ]
+        },
+        {
+          "h": "Cardiovascular",
+          "points": [
+            "Low dose (75-150 mg/day) after MI and in unstable angina",
+            "Reduces TIA and stroke; does not cut stroke risk after MI"
+          ]
+        },
+        {
+          "h": "Other",
+          "points": [
+            "Pre-eclampsia prevention: 80-100 mg/day from 12th week",
+            "Familial colonic polyposis; lower colon cancer incidence in regular users"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-071",
+      "type": "shortnote",
+      "front": "Short note: Aspirin intolerance (aspirin-sensitive asthma)",
+      "sections": [
+        {
+          "h": "Clinical picture",
+          "points": [
+            "Susceptible people get asthma, angioneurotic swelling, urticaria or rhinitis after aspirin",
+            "Bronchospasm is the main danger in asthmatics"
+          ]
+        },
+        {
+          "h": "Cross-reactivity",
+          "points": [
+            "Chemically diverse NSAIDs provoke the same reaction",
+            "Cross-reactivity argues against an immune (allergic) basis"
+          ]
+        },
+        {
+          "h": "Proposed mechanism",
+          "points": [
+            "COX inhibition diverts arachidonic acid to the lipoxygenase (LT) pathway",
+            "Unproven"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Avoid aspirin and other traditional NSAIDs",
+            "Nimesulide or a COX-2 inhibitor: most aspirin-sensitive asthmatics do not cross-react with nimesulide"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-nsaids-072",
+      "type": "shortnote",
+      "front": "Short note: Steroid-sparing agents in rheumatoid arthritis",
+      "sections": [
+        {
+          "h": "Why needed",
+          "points": [
+            "Corticosteroids act fast but do not stop joint destruction",
+            "Long-term steroid use causes serious harm, so the dose is kept low"
+          ]
+        },
+        {
+          "h": "Azathioprine (main agent)",
+          "points": [
+            "Suppresses cell-mediated immunity, mainly T-cell and NK-cell function",
+            "Given with corticosteroids to spare steroid dose",
+            "Used mostly where systemic features are present",
+            "Not combined with methotrexate; 50-150 mg/day"
+          ]
+        },
+        {
+          "h": "Other immunosuppressants",
+          "points": [
+            "Cyclosporine, chlorambucil and cyclophosphamide are rarely used in RA",
+            "Reserved for patients not responding to other DMARDs"
+          ]
+        },
+        {
+          "h": "Corticosteroid use",
+          "points": [
+            "Low dose (5-7.5 mg prednisolone) supplements NSAIDs; withdrawal is difficult",
+            "High dose for short periods in organ-threatening disease"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
       "subtopic": "p2-nsaids-dmards",
       "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-073",
+      "type": "essay",
+      "front": "Essay: Recent advances in drug therapy of rheumatoid arthritis",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "RA is an autoimmune, chronic and progressive disease",
+            "NSAIDs relieve symptoms but do not arrest it",
+            "Goals: remission, prevent erosions, preserve joint function"
+          ]
+        },
+        {
+          "h": "Conventional DMARDs",
+          "points": [
+            "Methotrexate is the first-choice DMARD",
+            "Leflunomide, sulfasalazine, antimalarials and azathioprine as alternatives or add-ons",
+            "Advanced RA may need 2-3 DMARDs together"
+          ]
+        },
+        {
+          "h": "Targeted synthetic DMARD",
+          "points": [
+            "Tofacitinib: JAK-1 and JAK-3 inhibitor for severe RA not controlled by methotrexate",
+            "Not combined with azathioprine, cyclosporine or biologics"
+          ]
+        },
+        {
+          "h": "Biologic DMARDs",
+          "points": [
+            "Anti-TNF agents: etanercept, infliximab, adalimumab, certolizumab, golimumab",
+            "Anakinra (IL-1 receptor antagonist) after failure of one or more DMARDs",
+            "Abatacept and rituximab for RA not controlled by methotrexate plus an anti-TNF agent"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Expensive; kept for severe refractory disease",
+            "Opportunistic infections, including TB and pneumocystis, are a major risk"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-nsaids-biologic-dmards",
+      "tags": [
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p2-nsaids-074",
+      "type": "shortnote",
+      "front": "Short note: Management of gout - acute attack and prophylaxis",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Treat the attack with strong anti-inflammatory drugs; do not lower urate during the attack",
+            "Start urate-lowering drug after the attack, with NSAID or colchicine cover"
+          ]
+        },
+        {
+          "h": "Acute attack",
+          "points": [
+            "NSAIDs such as naproxen, piroxicam, diclofenac, indomethacin or etoricoxib; high early dose, lower dose for 3-4 weeks",
+            "Colchicine: fastest acting but more toxic; second-line",
+            "One or few joints: intra-articular triamcinolone",
+            "Systemic prednisolone if NSAIDs and colchicine are not usable"
+          ]
+        },
+        {
+          "h": "Prophylaxis",
+          "points": [
+            "Allopurinol: first choice; for overproducers and under-excretors; tophi and nephropathy regress",
+            "Probenecid: second-line or adjunct; needs creatinine clearance above 50 ml/min and no renal stones",
+            "Febuxostat: alternative to allopurinol; not given together",
+            "Uricosurics with synthesis inhibitors when urate load is large"
+          ]
+        },
+        {
+          "h": "Precautions",
+          "points": [
+            "Attacks become more frequent in the first 1-2 months: cover with NSAID or colchicine",
+            "Liberal fluid intake during allopurinol therapy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-075",
+      "type": "shortnote",
+      "front": "Short note: Pharmacotherapy of osteoarthritis",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Drugs give symptomatic relief of pain and stiffness",
+            "Choice depends on pain severity, risk factors and response"
+          ]
+        },
+        {
+          "h": "First choice",
+          "points": [
+            "Paracetamol: first-choice analgesic for most patients",
+            "Topical NSAIDs for mild to moderate knee or hand OA, as initial or adjunct therapy"
+          ]
+        },
+        {
+          "h": "Oral NSAIDs",
+          "points": [
+            "Aspirin is used infrequently now",
+            "Propionic acid derivatives, diclofenac, aceclofenac, meloxicam or nimesulide are used",
+            "Lowest effective dose; lower dose in the elderly"
+          ]
+        },
+        {
+          "h": "Risk-based choice",
+          "points": [
+            "High GI risk: coxib, or a proton pump inhibitor with the NSAID",
+            "Hypertension or CV risk: avoid coxibs; use a propionic acid derivative or aspirin at the lowest dose"
+          ]
+        },
+        {
+          "h": "Chondroprotection",
+          "points": [
+            "Aceclofenac enhances glycosaminoglycan synthesis (proposed cartilage protection)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gi-special-patients",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-076",
+      "type": "shortnote",
+      "front": "Short note: TNF inhibitors in rheumatoid arthritis",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "TNF acts on TNFR1 and TNFR2 on T-cells and macrophages",
+            "Soluble receptor (etanercept) or antibodies (infliximab, adalimumab) neutralise TNF",
+            "Suppress macrophage and T-cell function; joint inflammation regresses and new erosions slow"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Etanercept: TNF-receptor-Fc fusion protein; 25-50 mg s.c. once or twice weekly",
+            "Infliximab: chimeric monoclonal antibody; 3-5 mg/kg IV every 4-8 weeks",
+            "Adalimumab: human monoclonal antibody; 40 mg s.c. every 2 weeks",
+            "Certolizumab and golimumab are other TNF inhibitors"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Opportunistic infections, including TB and pneumocystis pneumonia",
+            "Infliximab: infusion reactions; can worsen heart failure",
+            "Etanercept: injection-site reactions; more chest infections"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Generally added to methotrexate when response to it is inadequate or disease is progressing fast",
+            "Methotrexate co-therapy improves response and reduces antibody formation"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-biologic-dmards",
+      "tags": [
         "mechanism",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-nsaids-077",
+      "type": "basic",
+      "front": "Why does diclofenac not block low-dose aspirin's cardioprotection, but ibuprofen does?",
+      "back": "Diclofenac spares COX-1 and has no appreciable antiplatelet action. Ibuprofen occupies the active serine of COX-1 reversibly and so blocks aspirin's irreversible acetylation.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-coxibs",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-nsaids-078",
+      "type": "basic",
+      "front": "Why is naproxen suited to acute gout?",
+      "back": "It is a potent anti-inflammatory that inhibits leucocyte migration into the joint. Its long half-life (12-16 h) allows twice-daily dosing. Dose: 750 mg stat, then 250 mg 8-hourly until the attack subsides. With regular use it suppresses platelet function.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "uses",
+        "pk"
+      ]
+    },
+    {
+      "id": "p2-nsaids-079",
+      "type": "basic",
+      "front": "Why have phenylbutazone and oxyphenbutazone gone out of use?",
+      "back": "Both are potent anti-inflammatories with slow onset, but they carry high gastric toxicity, Na+ and water retention, CNS and hypersensitivity reactions, hypothyroidism, and residual risk of bone-marrow depression.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-nsaids-080",
+      "type": "basic",
+      "front": "Piroxicam: why once-daily dosing, and why is it not a first-choice NSAID?",
+      "back": "Its plasma half-life is about 2 days, so steady state takes about a week and once-daily dosing is enough. Its GI and skin toxicity and oedema are relatively high, so it is not a first choice for any condition.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "pk",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-nsaids-081",
+      "type": "basic",
+      "front": "Parenteral ketorolac: where is it used, and what restricts it?",
+      "back": "Used for post-operative, dental and acute musculoskeletal pain, renal colic, migraine and bone-metastasis pain. Not for preanaesthetic or obstetric analgesia, not for OA or RA, and not with anticoagulants. Oral use beyond 5 days is not advised.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "uses",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "p2-nsaids-082",
+      "type": "basic",
+      "front": "How does nabumetone spare the gastric mucosa?",
+      "back": "Nabumetone is a prodrug. Its active COX inhibitor (6-methoxy naphthyl acetic acid) forms in the tissues after absorption, not in the gastric mucosa.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-nsaids-083",
+      "type": "basic",
+      "front": "Mephenamic acid: which pain is it used for, and what is its main adverse effect?",
+      "back": "Muscle, joint and soft-tissue pain, and dysmenorrhoea, where strong anti-inflammatory action is not needed. The main adverse effect is dose-related diarrhoea; haemolytic anaemia is rare but serious.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "uses",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-nsaids-084",
+      "type": "basic",
+      "front": "Which injury and procedural uses are listed for ibuprofen and its congeners?",
+      "back": "Soft-tissue injury, fractures, vasectomy, tooth extraction, and post-operative and post-partum swelling and pain, where inflammation is less prominent than pain.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-085",
+      "type": "basic",
+      "front": "Ketoprofen and flurbiprofen compared with ibuprofen: what is the trade-off?",
+      "back": "Ketoprofen has similar anti-inflammatory efficacy but more side effects. Flurbiprofen is more effective but causes more gastric side effects.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-nsaids-086",
+      "type": "basic",
+      "front": "Why is meloxicam called a preferential COX-2 inhibitor, and is it gentler on the stomach?",
+      "back": "Its COX-2/COX-1 selectivity is about 10:1, yet it still measurably reduces platelet TXA2 at therapeutic doses. GI side effects are milder than piroxicam's, but ulcer complications occur on long use, and there is no convincing evidence it is safer than other NSAIDs.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-coxibs",
+      "tags": [
+        "classification",
+        "pk"
+      ]
+    },
+    {
+      "id": "p2-nsaids-087",
+      "type": "basic",
+      "front": "Etodolac: what sets it apart in clinical use?",
+      "back": "A moderately COX-2-selective indole acetic acid with better GI tolerance at lower doses. Post-operative analgesia lasts 6-8 h. Approved for osteoarthritis, rheumatoid arthritis and acute musculoskeletal pain.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-coxibs",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-088",
+      "type": "basic",
+      "front": "Which diclofenac congener has a proposed cartilage-protective action, and by what mechanism?",
+      "back": "Aceclofenac, which is a moderately COX-2-selective congener of diclofenac. It enhances glycosaminoglycan synthesis, which is the proposed chondroprotective action.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-coxibs",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p2-nsaids-089",
+      "type": "basic",
+      "front": "Acute rheumatic fever: which drug is given first, and when are others added?",
+      "back": "Aspirin is the first drug in all cases. Other drugs are added or substituted only if aspirin fails or the disease is severe. Corticosteroids act faster.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-aspirin",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-090",
+      "type": "basic",
+      "front": "Why does colchicine not lower blood urate, and what does it do?",
+      "back": "It does not inhibit uric acid synthesis or increase its excretion, and it is neither analgesic nor anti-inflammatory in general. It binds tubulin and blocks granulocyte migration into the joint, cutting the release of chemotactic factors and the aggravating glycoprotein.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-nsaids-091",
+      "type": "basic",
+      "front": "Why do acute attacks become more frequent in the first 1-2 months of urate-lowering therapy?",
+      "back": "Fluctuating plasma urate makes crystals repeatedly dissolve and re-form in the joints. Cover with NSAID or colchicine for this period. Urate-lowering drugs are not started during an acute attack.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-092",
+      "type": "basic",
+      "front": "Acute gout when NSAIDs are unsuitable: which steroid options exist?",
+      "back": "One or a few joints: intra-articular triamcinolone (10 mg in small joints, 30 mg in wrist). Systemic: prednisolone 40-60 mg for one day, then tapered over 1-2 weeks, for renal failure or previous peptic ulcer bleed. Colchicine is second-line.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-nsaids-093",
+      "type": "basic",
+      "front": "Febuxostat: class, use and key cautions",
+      "back": "A non-purine xanthine oxidase inhibitor, as effective as or better than allopurinol. Start 40 mg OD, up to 80 mg (max 120 mg/day). Not combined with allopurinol, though they can be given in sequence. Not for malignancy-associated hyperuricaemia. Liver damage is the key adverse effect; avoid with mercaptopurine, azathioprine or theophylline.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
         "newer-drugs",
         "adr"
       ]
     },
     {
-      "id": "p2-nsaids-052",
-      "type": "shortnote",
-      "front": "Short note: Current therapeutic status of aspirin",
-      "sections": [
-        {
-          "h": "Analgesic role has declined",
-          "points": [
-            "Rarely used now as an anti-inflammatory drug",
-            "Paracetamol is generally preferred as the safer analgesic-antipyretic",
-            "Less effective than other NSAIDs in ankylosing spondylitis"
-          ]
-        },
-        {
-          "h": "Main current use: antiplatelet",
-          "points": [
-            "Low daily dose irreversibly inhibits platelet COX-1 for the platelet lifespan",
-            "Secondary prevention after MI, stroke, TIA and unstable angina; also after bypass graft",
-            "Reduces serious vascular events by about 20 to 25% in high-risk patients"
-          ]
-        },
-        {
-          "h": "Primary prevention",
-          "points": [
-            "Recent trials in primary prevention showed no clear benefit",
-            "GI bleeding risk remains and can offset gains"
-          ]
-        },
-        {
-          "h": "Other evidence and cautions",
-          "points": [
-            "Long-term use is linked to lower colorectal cancer risk in epidemiological studies",
-            "Avoid in children with viral infections (Reye syndrome)",
-            "Ibuprofen given concurrently blocks aspirin antiplatelet action"
-          ]
-        }
-      ],
+      "id": "p2-nsaids-094",
+      "type": "basic",
+      "front": "Pegloticase: what is it and when is it used?",
+      "back": "A recombinant uricase, coupled to methoxy-PEG, that converts urate to soluble allantoin. Given IV every 2 weeks, only for rare refractory symptomatic gout. It is immunogenic, causes infusion reactions including anaphylaxis, and the response is lost in many patients.",
       "refs": [
-        "GG14 ch42",
-        "Katzung16 ch36",
-        "KDT8 ch14"
+        "KDT8 ch15"
       ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p2-nsaids-095",
+      "type": "basic",
+      "front": "Lesinurad: what kind of drug is it and how is it used?",
+      "back": "A newer uricosuric with a mechanism similar to probenecid. Approved as a treatment option alone or with a xanthine oxidase inhibitor.",
+      "refs": [
+        "KDT8 ch15"
       ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-nsaids-096",
+      "type": "basic",
+      "front": "How do inflammatory cells worsen an acute gout attack?",
+      "back": "They engulf urate crystals and release chemotactic factors that recruit granulocytes. Lactic acid lowers local pH and promotes more crystal precipitation. Lysosomal enzymes damage joint tissue, and a glycoprotein aggravates inflammation.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-nsaids-097",
+      "type": "basic",
+      "front": "Low-dose corticosteroid in RA: what is its main drawback?",
+      "back": "Prednisolone 5-7.5 mg supplements NSAIDs and gives prompt relief, but it cannot arrest the disease. Withdrawal is hard: flares occur and the patient becomes steroid-dependent.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-dmards",
       "tags": [
         "uses",
-        "interactions"
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-nsaids-098",
+      "type": "cloze",
+      "front": "Aspirin and COX: fill the blanks",
+      "text": "Aspirin inhibits COX by {{acetylating}} a {{serine}} residue; the platelet effect lasts about {{one week}}, which matches platelet turnover time.",
+      "refs": [
+        "KDT8 ch14"
       ],
+      "pyq": [],
+      "status": "draft",
       "subtopic": "p2-nsaids-aspirin",
-      "status": "draft"
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-nsaids-099",
+      "type": "cloze",
+      "front": "Allopurinol: fill the blanks",
+      "text": "Allopurinol inhibits {{xanthine oxidase}}; its long-acting metabolite {{alloxanthine}} is mainly responsible for inhibiting uric acid synthesis in vivo.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-nsaids-100",
+      "type": "cloze",
+      "front": "Probenecid: fill the blanks",
+      "text": "Probenecid blocks {{organic acid}} transport in the renal {{tubule}}, and so inhibits the reabsorption of urate by the transporter {{URAT-1}}.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-nsaids-101",
+      "type": "cloze",
+      "front": "Colchicine: fill the blanks",
+      "text": "Colchicine binds {{tubulin}} and blocks granulocyte migration into the joint; prophylactic maintenance is {{0.5-1 mg/day}} for {{4-8 weeks}}.",
+      "refs": [
+        "KDT8 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-gout",
+      "tags": [
+        "mechanism",
+        "dosing"
+      ]
+    },
+    {
+      "id": "p2-nsaids-102",
+      "type": "cloze",
+      "front": "Indomethacin in patent ductus arteriosus: fill the blanks",
+      "text": "Indomethacin closes the ductus in most cases with {{three}} IV injections, given {{12-hourly}}, each of {{0.1-0.2 mg/kg}}.",
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-nsaids-cox-classification",
+      "tags": [
+        "uses",
+        "dosing"
+      ]
     }
   ]
 }

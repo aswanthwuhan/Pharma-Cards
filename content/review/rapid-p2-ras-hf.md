@@ -41,3 +41,5 @@ None triggered. No statement in the three chapters looked wrong on reading, so n
 |---|---|---|
 | p2-ras-hf-061 to p2-ras-hf-080 | added | KDT8 ch36, ch37, ch38 |
 | rf-p2-ras-hf-0613 to rf-p2-ras-hf-0614 | added | KDT8 ch36 |
+
+| all rapid | no change; coverage audit found no gap (614 cards) | KDT8 ch36-38 |

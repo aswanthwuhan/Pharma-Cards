@@ -17,7 +17,8 @@
       "tags": [
         "classification",
         "newer-drugs"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-002",
@@ -32,7 +33,8 @@
       "subtopic": "p2-autacoids-histamine",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-003",
@@ -47,7 +49,8 @@
       "subtopic": "p2-autacoids-histamine",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-004",
@@ -63,148 +66,24 @@
       "tags": [
         "pk",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-autacoids-005",
-      "type": "basic",
-      "front": "Why are first-generation H1 antihistamines sedating, and which ones are the most sedating?",
-      "back": "They cross the blood-brain barrier and block central H1 receptors that help maintain wakefulness. Diphenhydramine, promethazine, hydroxyzine and dimenhydrinate are the highly sedating members, while chlorpheniramine and clemastine are only mildly sedating.",
-      "refs": [
-        "KDT8 ch11"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-h1-antihistamines",
-      "tags": [
-        "adr",
-        "classification"
-      ]
+      "level": 1
     },
     {
-      "id": "p2-autacoids-006",
-      "type": "basic",
-      "front": "Why were terfenadine and astemizole withdrawn, and how does fexofenadine avoid this problem?",
-      "back": "Both caused torsades de pointes through blockade of cardiac delayed rectifier K+ channels, especially at higher doses or with CYP3A4 inhibitors. Fexofenadine, the active metabolite of terfenadine, blocks these channels only weakly and is minimally metabolised, so it does not prolong the QTc interval.",
-      "refs": [
-        "KDT8 ch11"
-      ],
-      "pyq": [],
+      "id": "p2-autacoids-017",
+      "type": "cloze",
+      "front": "Classify: histamine receptors",
+      "text": "H1 is {{Gq}}-coupled and raises IP3 and Ca2+; H2 is {{Gs}}-coupled and raises {{cAMP}}; H3 is a {{presynaptic autoreceptor}} in the brain; H4 is found on {{eosinophils}}, mast cells and basophils.",
       "status": "draft",
-      "subtopic": "p2-autacoids-h1-antihistamines",
+      "subtopic": "p2-autacoids-histamine",
       "tags": [
-        "adr",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-autacoids-007",
-      "type": "basic",
-      "front": "Why are H1 antihistamines ineffective in bronchial asthma?",
-      "back": "Leukotrienes (LTC4, LTD4) and PAF are more important mediators of human asthma than histamine. Also, the antihistamine may not reach concentrations high enough to block the large amounts of histamine released locally in the bronchi.",
-      "refs": [
-        "KDT8 ch11"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-antihistamine-uses",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-autacoids-008",
-      "type": "basic",
-      "front": "Why is adrenaline, not an antihistamine, the life-saving drug in anaphylactic shock?",
-      "back": "H1 antihistamines act slowly and only block histamine effects. In anaphylaxis, leukotrienes and PAF contribute substantially to the fall in blood pressure, so adrenaline is the first-line drug and antihistamines play a secondary role.",
-      "refs": [
-        "KDT8 ch11"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-antihistamine-uses",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-autacoids-009",
-      "type": "basic",
-      "front": "What is betahistine, what is it used for, and what are its contraindications?",
-      "back": "An orally active histamine analogue with some H1 selectivity, used for vertigo in Meniere's disease, probably by improving blood flow in the inner ear. It is contraindicated in patients with asthma and peptic ulcer.",
-      "refs": [
-        "KDT8 ch11"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-antihistamine-uses",
-      "tags": [
-        "uses",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-autacoids-010",
-      "type": "basic",
-      "front": "What additional actions does cyproheptadine have beyond H1 blockade, and what are its uses?",
-      "back": "It also blocks 5-HT2A receptors and is sedating. Uses include pruritus, appetite stimulation (including off-label use in underweight patients), and control of carcinoid intestinal symptoms and SSRI-induced priapism.",
-      "refs": [
-        "KDT8 ch11",
-        "KDT8 ch12"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-h1-antihistamines",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-autacoids-011",
-      "type": "shortnote",
-      "front": "Short note: Classification of H1 antihistaminics",
-      "sections": [
-        {
-          "h": "Basis",
-          "points": [
-            "Most agents have a substituted ethylamine side chain",
-            "First-generation drugs were introduced from the late 1930s"
-          ]
-        },
-        {
-          "h": "First generation",
-          "points": [
-            "Graded by sedation: highly, moderately and mildly sedative",
-            "Highly sedative: diphenhydramine, dimenhydrinate, promethazine, hydroxyzine",
-            "Moderately sedative: pheniramine, cyproheptadine, cinnarizine",
-            "Mildly sedative: chlorpheniramine, triprolidine, clemastine"
-          ]
-        },
-        {
-          "h": "Second generation",
-          "points": [
-            "Marketed after 1980; largely nonsedating",
-            "Higher H1 selectivity with no anticholinergic effects",
-            "Some also reduce release or action of leukotrienes, PAF and cytokines"
-          ]
-        },
-        {
-          "h": "Examples",
-          "points": [
-            "Fexofenadine, loratadine, desloratadine, cetirizine, levocetirizine",
-            "Azelastine (nasal spray), mizolastine, ebastine, rupatadine (also PAF antagonist)"
-          ]
-        }
+        "classification",
+        "mechanism"
       ],
       "refs": [
         "KDT8 ch11"
       ],
-      "status": "draft",
-      "subtopic": "p2-autacoids-h1-antihistamines",
-      "tags": [
-        "classification"
-      ]
+      "level": 1
     },
     {
       "id": "p2-autacoids-012",
@@ -251,35 +130,283 @@
       "subtopic": "p2-autacoids-histamine",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-autacoids-013",
+      "id": "p2-autacoids-062",
       "type": "shortnote",
-      "front": "Short note: Clinical uses of H1 antihistaminics",
+      "front": "Short note: Pharmacotherapy of peptic ulcer disease",
+      "subtopic": "p2-autacoids-histamine",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
       "sections": [
         {
-          "h": "Allergic disorders",
+          "h": "Proton pump inhibitors",
           "points": [
-            "Control itching, urticaria, seasonal hay fever and allergic conjunctivitis",
-            "Palliative only: they do not block antigen-antibody reaction",
-            "Not useful in asthma, and secondary to adrenaline in anaphylaxis"
+            "Omeprazole is the prototype; it irreversibly inactivates the H+/K+ ATPase",
+            "Preferred over H2 blockers for peptic ulcer; faster healing at 40 mg than 20 mg",
+            "Inhibit CYP2C19, reducing clopidogrel activation and raising levels of some drugs (e.g. warfarin, phenytoin)"
           ]
         },
         {
-          "h": "Motion sickness and vertigo",
+          "h": "H2 blockers",
           "points": [
-            "Promethazine, diphenhydramine, dimenhydrinate, meclozine for prophylaxis",
-            "Give about one hour before travel",
-            "Cinnarizine and dimenhydrinate are common vestibular suppressants"
+            "Cimetidine is the prototype; ranitidine is about 5 times as potent",
+            "Famotidine is longer acting; about 70% excreted unchanged in urine",
+            "Less effective than PPIs for NSAID-induced and H. pylori ulcers",
+            "Antacids reduce their absorption; leave a 2-hour gap"
           ]
         },
         {
-          "h": "Other uses",
+          "h": "Cytoprotection",
           "points": [
-            "Pruritus, insect bites, dermographism",
-            "Sedation and short-term hypnosis, though less dependable than benzodiazepines",
-            "Parkinsonism and drug-induced dystonia through anticholinergic action"
+            "Misoprostol is a PGE1 analogue that reduces acid output and protects against NSAID injury",
+            "Seldom used now because PPIs are more effective and better tolerated"
+          ]
+        },
+        {
+          "h": "Antacids",
+          "points": [
+            "Neutralise acid rather than reducing production",
+            "Acid rebound and increased gastric motility can follow"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-064",
+      "type": "shortnote",
+      "front": "Short note: Histamine releasers and the anaphylactoid reaction",
+      "sections": [
+        {
+          "h": "Immunological release",
+          "points": [
+            "IgE on mast cells: antigen cross-links IgE, Ca2+ enters and granules fuse with the membrane",
+            "Histamine is freed when it exchanges with extracellular Na+ and Ca2+ (it is bound to protein and heparin in the granule)"
+          ]
+        },
+        {
+          "h": "Non-immunological releasers",
+          "points": [
+            "Tissue damage: trauma, stings and venoms, proteolytic enzymes, phospholipase A",
+            "Polymers: dextran and polyvinylpyrrolidone",
+            "Basic drugs (tubocurarine, morphine, atropine, pentamidine, polymyxin B, vancomycin) displace it without exocytosis or Ca2+",
+            "Surface-acting agents: Tween 80 and compound 48/80"
+          ]
+        },
+        {
+          "h": "Reaction",
+          "points": [
+            "Anaphylactoid picture: itching, burning, flushing, urticaria, fall in BP, tachycardia, headache, colic and asthma",
+            "H1 antagonists relieve these symptoms"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-histamine",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-069",
+      "type": "shortnote",
+      "front": "Short note: H2 receptor antagonists",
+      "sections": [
+        {
+          "h": "Receptor action",
+          "points": [
+            "H2 receptors on parietal cells raise cAMP and activate the H+/K+ ATPase proton pump",
+            "H2 blockers suppress acid secretion induced by histamine and also markedly reduce the responses to gastrin and acetylcholine"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Burimamide (Black, 1972) and metiamide were not suitable for clinical use",
+            "Cimetidine introduced 1977; ranitidine, famotidine and roxatidine followed"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Peptic ulcer, gastro-oesophageal reflux and other gastric hypersecretory states",
+            "Described in detail in KDT8 ch47"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-histamine",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-104",
+      "type": "basic",
+      "subtopic": "p2-autacoids-histamine",
+      "level": 2,
+      "tags": [
+        "pk",
+        "mechanism"
+      ],
+      "front": "Why does intradermal histamine give a flare and wheal but oral histamine does no systemic harm?",
+      "back": "Injected locally it acts on H1 receptors of vessels and sensory nerve endings (triple response). Taken orally it is rapidly oxidised and methylated, and the liver degrades what is absorbed from the gut before it reaches the circulation.",
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-autacoids-016",
+      "type": "essay",
+      "front": "Essay: Histamine in physiology and allergy",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Tissue amine, imidazolylethylamine derived from histidine",
+            "Early work by Dale linked its actions to allergic reactions"
+          ]
+        },
+        {
+          "h": "Receptors",
+          "points": [
+            "H1 (Gq), H2 (Gs), H3 (Gi/Go, presynaptic in brain), H4 (immune cells)",
+            "Classification by selective agonists and antagonists"
+          ]
+        },
+        {
+          "h": "Vascular and smooth muscle actions",
+          "points": [
+            "Arteriolar and capillary dilatation with flushing and fall in BP",
+            "Increased capillary permeability and oedema",
+            "Bronchoconstriction, mainly through H1"
+          ]
+        },
+        {
+          "h": "Gastric secretion",
+          "points": [
+            "H2-mediated acid secretion through cAMP and the proton pump",
+            "H2 blockers such as cimetidine and famotidine reduce acid secretion (some ranitidine preparations were withdrawn because of contamination)"
+          ]
+        },
+        {
+          "h": "Allergy and mast cells",
+          "points": [
+            "Released by IgE-mediated degranulation and by histamine releasers",
+            "Urticaria, angioedema and bronchospasm",
+            "Not responsible for delayed reactions"
+          ]
+        },
+        {
+          "h": "Other roles",
+          "points": [
+            "Transmitter for itch and pain",
+            "Regulates wakefulness, body temperature and growth and repair"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch11",
+        "GG14 ch53"
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-histamine",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-autacoids-005",
+      "type": "basic",
+      "front": "Why are first-generation H1 antihistamines sedating, and which ones are the most sedating?",
+      "back": "They cross the blood-brain barrier and block central H1 receptors that help maintain wakefulness. Diphenhydramine, promethazine, hydroxyzine and dimenhydrinate are the highly sedating members, while chlorpheniramine and clemastine are only mildly sedating.",
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-h1-antihistamines",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-011",
+      "type": "shortnote",
+      "front": "Short note: Classification of H1 antihistaminics",
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "Most agents have a substituted ethylamine side chain",
+            "First-generation drugs were introduced from the late 1930s"
+          ]
+        },
+        {
+          "h": "First generation",
+          "points": [
+            "Graded by sedation: highly, moderately and mildly sedative",
+            "Highly sedative: diphenhydramine, dimenhydrinate, promethazine, hydroxyzine",
+            "Moderately sedative: pheniramine, cyproheptadine, cinnarizine",
+            "Mildly sedative: chlorpheniramine, triprolidine, clemastine"
+          ]
+        },
+        {
+          "h": "Second generation",
+          "points": [
+            "Marketed after 1980; largely nonsedating",
+            "Higher H1 selectivity with no anticholinergic effects",
+            "Some also reduce release or action of leukotrienes, PAF and cytokines"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Fexofenadine, loratadine, desloratadine, cetirizine, levocetirizine",
+            "Azelastine (nasal spray), mizolastine, ebastine, rupatadine (also PAF antagonist)"
           ]
         }
       ],
@@ -287,10 +414,77 @@
         "KDT8 ch11"
       ],
       "status": "draft",
-      "subtopic": "p2-autacoids-antihistamine-uses",
+      "subtopic": "p2-autacoids-h1-antihistamines",
       "tags": [
-        "uses"
-      ]
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-018",
+      "type": "cloze",
+      "front": "Classify: first-generation H1 antihistaminics by sedation",
+      "text": "Highly sedative: {{diphenhydramine}}, {{dimenhydrinate}}, {{promethazine}} and {{hydroxyzine}}; moderately sedative: {{pheniramine}}, {{cyproheptadine}} and {{cinnarizine}}; mildly sedative: {{chlorpheniramine}}, {{triprolidine}} and {{clemastine}}.",
+      "status": "draft",
+      "subtopic": "p2-autacoids-h1-antihistamines",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-019",
+      "type": "cloze",
+      "front": "Classify: second-generation H1 antihistaminics",
+      "text": "Second-generation (nonsedating) H1 antihistaminics: {{fexofenadine}}, {{loratadine}}, {{desloratadine}} (active metabolite of loratadine), {{cetirizine}}, {{levocetirizine}} (its active enantiomer), {{azelastine}} (nasal spray), {{mizolastine}}, {{ebastine}} and {{rupatadine}}.",
+      "status": "draft",
+      "subtopic": "p2-autacoids-h1-antihistamines",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-006",
+      "type": "basic",
+      "front": "Why were terfenadine and astemizole withdrawn, and how does fexofenadine avoid this problem?",
+      "back": "Both caused torsades de pointes through blockade of cardiac delayed rectifier K+ channels, especially at higher doses or with CYP3A4 inhibitors. Fexofenadine, the active metabolite of terfenadine, blocks these channels only weakly and is minimally metabolised, so it does not prolong the QTc interval.",
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-h1-antihistamines",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-010",
+      "type": "basic",
+      "front": "What additional actions does cyproheptadine have beyond H1 blockade, and what are its uses?",
+      "back": "It also blocks 5-HT2A receptors and is sedating. Uses include pruritus, appetite stimulation (including off-label use in underweight patients), and control of carcinoid intestinal symptoms and SSRI-induced priapism.",
+      "refs": [
+        "KDT8 ch11",
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-h1-antihistamines",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p2-autacoids-014",
@@ -335,7 +529,24 @@
       "subtopic": "p2-autacoids-h1-antihistamines",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-067",
+      "type": "basic",
+      "front": "Why second-generation antihistaminics have a narrow therapeutic spectrum",
+      "back": "They block only H1 receptors, and histamine is a limited mediator in many diseases. So they have poor antipruritic, antiemetic and antitussive action. Their main uses are allergic rhinitis and conjunctivitis, urticaria, dermographism, atopic eczema and acute drug or food allergy.",
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-h1-antihistamines",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p2-autacoids-015",
@@ -398,111 +609,82 @@
       "tags": [
         "classification",
         "mechanism"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-autacoids-016",
-      "type": "essay",
-      "front": "Essay: Histamine in physiology and allergy",
+      "id": "p2-autacoids-068",
+      "type": "basic",
+      "front": "Why cyproheptadine is given for SSRI-induced priapism or delayed orgasm",
+      "back": "Cyproheptadine blocks 5-HT2A receptors. This reverses the excess serotonergic effect that causes priapism or delayed orgasm with fluoxetine and trazodone. It also has H1 and anticholinergic actions, so it causes drowsiness, dry mouth, confusion and weight gain.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-h1-antihistamines",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-autacoids-009",
+      "type": "basic",
+      "front": "What is betahistine, what is it used for, and what are its contraindications?",
+      "back": "An orally active histamine analogue with some H1 selectivity, used for vertigo in Meniere's disease, probably by improving blood flow in the inner ear. It is contraindicated in patients with asthma and peptic ulcer.",
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-antihistamine-uses",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-013",
+      "type": "shortnote",
+      "front": "Short note: Clinical uses of H1 antihistaminics",
       "sections": [
         {
-          "h": "Introduction",
+          "h": "Allergic disorders",
           "points": [
-            "Tissue amine, imidazolylethylamine derived from histidine",
-            "Early work by Dale linked its actions to allergic reactions"
+            "Control itching, urticaria, seasonal hay fever and allergic conjunctivitis",
+            "Palliative only: they do not block antigen-antibody reaction",
+            "Not useful in asthma, and secondary to adrenaline in anaphylaxis"
           ]
         },
         {
-          "h": "Receptors",
+          "h": "Motion sickness and vertigo",
           "points": [
-            "H1 (Gq), H2 (Gs), H3 (Gi/Go, presynaptic in brain), H4 (immune cells)",
-            "Classification by selective agonists and antagonists"
+            "Promethazine, diphenhydramine, dimenhydrinate, meclozine for prophylaxis",
+            "Give about one hour before travel",
+            "Cinnarizine and dimenhydrinate are common vestibular suppressants"
           ]
         },
         {
-          "h": "Vascular and smooth muscle actions",
+          "h": "Other uses",
           "points": [
-            "Arteriolar and capillary dilatation with flushing and fall in BP",
-            "Increased capillary permeability and oedema",
-            "Bronchoconstriction, mainly through H1"
-          ]
-        },
-        {
-          "h": "Gastric secretion",
-          "points": [
-            "H2-mediated acid secretion through cAMP and the proton pump",
-            "H2 blockers such as cimetidine and famotidine reduce acid secretion (some ranitidine preparations were withdrawn because of contamination)"
-          ]
-        },
-        {
-          "h": "Allergy and mast cells",
-          "points": [
-            "Released by IgE-mediated degranulation and by histamine releasers",
-            "Urticaria, angioedema and bronchospasm",
-            "Not responsible for delayed reactions"
-          ]
-        },
-        {
-          "h": "Other roles",
-          "points": [
-            "Transmitter for itch and pain",
-            "Regulates wakefulness, body temperature and growth and repair"
+            "Pruritus, insect bites, dermographism",
+            "Sedation and short-term hypnosis, though less dependable than benzodiazepines",
+            "Parkinsonism and drug-induced dystonia through anticholinergic action"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch11",
-        "GG14 ch53"
-      ],
-      "status": "draft",
-      "subtopic": "p2-autacoids-histamine",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-autacoids-017",
-      "type": "cloze",
-      "front": "Classify: histamine receptors",
-      "text": "H1 is {{Gq}}-coupled and raises IP3 and Ca2+; H2 is {{Gs}}-coupled and raises {{cAMP}}; H3 is a {{presynaptic autoreceptor}} in the brain; H4 is found on {{eosinophils}}, mast cells and basophils.",
-      "status": "draft",
-      "subtopic": "p2-autacoids-histamine",
-      "tags": [
-        "classification",
-        "mechanism"
-      ],
-      "refs": [
         "KDT8 ch11"
-      ]
-    },
-    {
-      "id": "p2-autacoids-018",
-      "type": "cloze",
-      "front": "Classify: first-generation H1 antihistaminics by sedation",
-      "text": "Highly sedative: {{diphenhydramine}}, {{dimenhydrinate}}, {{promethazine}} and {{hydroxyzine}}; moderately sedative: {{pheniramine}}, {{cyproheptadine}} and {{cinnarizine}}; mildly sedative: {{chlorpheniramine}}, {{triprolidine}} and {{clemastine}}.",
-      "status": "draft",
-      "subtopic": "p2-autacoids-h1-antihistamines",
-      "tags": [
-        "classification",
-        "adr"
       ],
-      "refs": [
-        "KDT8 ch11"
-      ]
-    },
-    {
-      "id": "p2-autacoids-019",
-      "type": "cloze",
-      "front": "Classify: second-generation H1 antihistaminics",
-      "text": "Second-generation (nonsedating) H1 antihistaminics: {{fexofenadine}}, {{loratadine}}, {{desloratadine}} (active metabolite of loratadine), {{cetirizine}}, {{levocetirizine}} (its active enantiomer), {{azelastine}} (nasal spray), {{mizolastine}}, {{ebastine}} and {{rupatadine}}.",
       "status": "draft",
-      "subtopic": "p2-autacoids-h1-antihistamines",
+      "subtopic": "p2-autacoids-antihistamine-uses",
       "tags": [
-        "classification"
+        "uses"
       ],
-      "refs": [
-        "KDT8 ch11"
-      ]
+      "level": 1
     },
     {
       "id": "p2-autacoids-020",
@@ -516,7 +698,143 @@
       ],
       "refs": [
         "KDT8 ch11"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-007",
+      "type": "basic",
+      "front": "Why are H1 antihistamines ineffective in bronchial asthma?",
+      "back": "Leukotrienes (LTC4, LTD4) and PAF are more important mediators of human asthma than histamine. Also, the antihistamine may not reach concentrations high enough to block the large amounts of histamine released locally in the bronchi.",
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-antihistamine-uses",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-008",
+      "type": "basic",
+      "front": "Why is adrenaline, not an antihistamine, the life-saving drug in anaphylactic shock?",
+      "back": "H1 antihistamines act slowly and only block histamine effects. In anaphylaxis, leukotrienes and PAF contribute substantially to the fall in blood pressure, so adrenaline is the first-line drug and antihistamines play a secondary role.",
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-antihistamine-uses",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-065",
+      "type": "shortnote",
+      "front": "Short note: Antihistaminics in vertigo and motion sickness",
+      "sections": [
+        {
+          "h": "Motion sickness",
+          "points": [
+            "Promethazine, diphenhydramine, dimenhydrinate and meclozine prevent milder motion sickness",
+            "Take about one hour before starting the journey",
+            "Mechanism unclear: H1 blockade or antimuscarinic action"
+          ]
+        },
+        {
+          "h": "Vertigo",
+          "points": [
+            "Vestibular suppressants: cinnarizine and dimenhydrinate are the most used",
+            "Prochlorperazine helps short term; parenteral form for violent vertigo and vomiting",
+            "Hyoscine and atropine act through the central cholinergic pathway"
+          ]
+        },
+        {
+          "h": "Meniere disease",
+          "points": [
+            "Betahistine: orally active, H1-selective histamine analogue used for vertigo",
+            "Contraindicated in asthma and peptic ulcer"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-antihistamine-uses",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-066",
+      "type": "shortnote",
+      "front": "Short note: Non-allergic uses of H1 antihistaminics",
+      "sections": [
+        {
+          "h": "Itch",
+          "points": [
+            "Chlorpheniramine, diphenhydramine and cyproheptadine are first-choice older drugs for idiopathic pruritus",
+            "Part of their antipruritic action is independent of H1 blockade"
+          ]
+        },
+        {
+          "h": "Movement and CNS",
+          "points": [
+            "Promethazine gives mild relief of tremor, rigidity and sialorrhoea in early parkinsonism",
+            "Acute antipsychotic-induced dystonia: parenteral promethazine, diphenhydramine or hydroxyzine"
+          ]
+        },
+        {
+          "h": "Sleep and sedation",
+          "points": [
+            "Used as sedatives or hypnotics, especially in children, but less dependable than benzodiazepines",
+            "Promethazine not indicated at 2 years or below because of respiratory depression"
+          ]
+        },
+        {
+          "h": "Other",
+          "points": [
+            "Cough remedies: symptomatic relief through sedation and anticholinergic action",
+            "Cyproheptadine used off label to improve appetite",
+            "Promethazine as preanaesthetic medication"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-antihistamine-uses",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-103",
+      "type": "basic",
+      "subtopic": "p2-autacoids-antihistamine-uses",
+      "level": 3,
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "front": "Case: a lorry driver has seasonal hay fever, and a different patient has hypotension and bronchospasm after a bee sting. Choose the drug for each and justify.",
+      "back": "Driver: a second-generation H1 blocker such as fexofenadine, because it does not cross the blood-brain barrier much, so little sedation, and it avoids the QT risk of terfenadine. It only palliates, as it does not stop the antigen-antibody reaction. Bee-sting anaphylaxis: adrenaline first, because antihistamines act slowly and block only histamine, while leukotrienes and PAF also drive the hypotension and bronchospasm; the antihistamine is only secondary.",
+      "refs": [
+        "KDT8 ch11"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p2-autacoids-021",
@@ -533,7 +851,8 @@
       "tags": [
         "mechanism",
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-022",
@@ -549,23 +868,8 @@
       "tags": [
         "classification",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-autacoids-023",
-      "type": "basic",
-      "front": "Which 5-HT receptor do triptans act on, and what does it do in cranial vessels?",
-      "back": "5-HT1B/1D. Stimulation constricts dilated cranial vessels, including carotid arteriovenous shunts, and reduces release of inflammatory neuropeptides from perivascular nerves. Sumatriptan is the prototype selective agonist.",
-      "refs": [
-        "KDT8 ch12"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
+      "level": 1
     },
     {
       "id": "p2-autacoids-024",
@@ -581,7 +885,8 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-025",
@@ -597,7 +902,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-026",
@@ -612,71 +918,39 @@
       "subtopic": "p2-autacoids-5ht-receptors",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-autacoids-027",
-      "type": "basic",
-      "front": "Why was methysergide withdrawn, and what was it used for?",
-      "back": "It is a potent 5-HT2A/2C antagonist used for migraine prophylaxis, carcinoid and postgastrectomy dumping syndrome. It was withdrawn because it caused fibrosis in the abdomen, lungs and endocardium.",
+      "id": "p2-autacoids-037",
+      "type": "cloze",
+      "front": "Classify: 5-HT receptor families",
+      "text": "5-HT1 receptors {{decrease}} cAMP through Gi; 5-HT2 receptors act through {{Gq}}; 5-HT3 is a {{ligand-gated cation channel}}; 5-HT4, 5-HT6 and 5-HT7 {{increase}} cAMP.",
+      "status": "draft",
+      "subtopic": "p2-autacoids-5ht-receptors",
+      "tags": [
+        "classification"
+      ],
       "refs": [
         "KDT8 ch12"
       ],
-      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-038",
+      "type": "cloze",
+      "front": "Classify: 5-HT receptor subtypes and their drugs",
+      "text": "Buspirone is a partial agonist at {{5-HT1A}}; sumatriptan is an agonist at {{5-HT1B/1D}}; ketanserin blocks {{5-HT2A}}; ondansetron blocks {{5-HT3}}; cisapride is an agonist at {{5-HT4}}.",
       "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
+      "subtopic": "p2-autacoids-5ht-receptors",
       "tags": [
-        "adr",
+        "classification",
         "uses"
-      ]
-    },
-    {
-      "id": "p2-autacoids-028",
-      "type": "basic",
-      "front": "Why are ergot alkaloids poorly suited to oral migraine treatment?",
-      "back": "Oral bioavailability of the amino-acid ergots (ergotamine) and their hydrogenated derivatives is below 1 percent, due to slow and incomplete absorption and high first-pass metabolism. Caffeine improves absorption of ergotamine.",
+      ],
       "refs": [
         "KDT8 ch12"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-autacoids-029",
-      "type": "basic",
-      "front": "Sumatriptan: doses and main contraindications.",
-      "back": "Oral 50 to 100 mg at the onset of an attack; may be repeated once within 24 hours, but not if the first dose failed. SC 6 mg (acts in 10 to 20 min, also repeatable once in 24 h) when oral use is impractical or pain builds quickly; nasal spray is an alternative. Contraindicated in ischaemic or vasospastic coronary disease, stroke or TIA, peripheral vascular disease, hemiplegic or basilar migraine, ischaemic bowel disease and uncontrolled hypertension. Do not give within 24 hours of an ergot or another triptan, or within 2 weeks of an MAO inhibitor; combining with SSRIs or SNRIs risks serotonin syndrome.",
-      "refs": [
-        "KDT8 ch12",
-        "GG14 ch15"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
-      "tags": [
-        "dosing",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-autacoids-030",
-      "type": "basic",
-      "front": "What is the first-line treatment for a mild migraine attack, and what adjunct is useful for nausea?",
-      "back": "Simple analgesics such as paracetamol (0.5 to 1 g) or aspirin (300 to 600 mg) taken at the first sign of an attack. Metoclopramide, given orally or by injection, relieves the nausea and gastric stasis that delay absorption.",
-      "refs": [
-        "KDT8 ch12"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
+      "level": 1
     },
     {
       "id": "p2-autacoids-031",
@@ -725,210 +999,283 @@
       "tags": [
         "classification",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-autacoids-032",
+      "id": "p2-autacoids-070",
       "type": "shortnote",
-      "front": "Short note: Triptans",
+      "front": "Short note: Drugs that alter 5-HT synthesis, storage, uptake and breakdown",
       "sections": [
         {
-          "h": "Class and action",
+          "h": "Synthesis",
           "points": [
-            "Selective 5-HT1B/1D agonists",
-            "Constrict dilated cranial vessels and reduce neurogenic inflammation",
-            "First-line for moderate to severe migraine not relieved by analgesics"
+            "Tryptophan raises brain 5-HT because brain tryptophan hydroxylase is not saturated",
+            "PCPA blocks tryptophan hydroxylase, but its toxicity rules out clinical use"
           ]
         },
         {
-          "h": "Sumatriptan",
+          "h": "Uptake and storage",
           "points": [
-            "Oral bioavailability about 15 percent; faster and more effective by s.c. injection or nasal spray",
-            "Metabolised by MAO-A; half-life about 2 hours",
-            "Tends to relieve the nausea and vomiting of migraine"
+            "TCAs block uptake of 5-HT and noradrenaline; SSRIs (fluoxetine, sertraline) block only 5-HT uptake",
+            "Reserpine blocks VMAT-2 and depletes all monoamines",
+            "Fenfluramine releases 5-HT by reverse transport and then depletes it; anorectic"
           ]
         },
         {
-          "h": "Adverse effects",
+          "h": "Breakdown",
           "points": [
-            "Chest and head tightness, paraesthesias and dizziness",
-            "Serious but rare: coronary vasospasm, bradycardia and myocardial infarction"
+            "Tranylcypromine (non-selective MAO inhibitor) and clorgyline (MAO-A selective) raise 5-HT",
+            "5,6-dihydroxytryptamine selectively destroys 5-HT neurones"
           ]
         },
         {
-          "h": "Other triptans",
+          "h": "Receptor agonists",
           "points": [
-            "Rizatriptan is more potent with higher oral bioavailability",
-            "Naratriptan and frovatriptan have longer half-lives, so fewer recurrences",
-            "Lasmiditan: 5-HT1F agonist (not a triptan) with fewer cardiovascular effects, for patients with cardiovascular risk"
+            "LSD: non-selective agonist and potent hallucinogen",
+            "Azapirones (buspirone, gepirone, ipsapirone): 5-HT1A partial agonists, anxiolytic without sedation",
+            "Triptans (5-HT1B/1D) and cisapride (5-HT4) are selective agonists"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch12",
-        "GG14 ch15"
+        "KDT8 ch12"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
+      "subtopic": "p2-autacoids-5ht-receptors",
       "tags": [
-        "mechanism",
-        "uses"
-      ]
+        "mechanism"
+      ],
+      "level": 2
     },
     {
-      "id": "p2-autacoids-033",
+      "id": "p2-autacoids-071",
       "type": "shortnote",
-      "front": "Short note: Prophylaxis of migraine",
+      "front": "Short note: 5-HT antagonists",
       "sections": [
         {
-          "h": "When to use",
+          "h": "Non-selective agents",
           "points": [
-            "Two or three or more attacks per month",
-            "Attacks disabling despite treatment",
-            "Contraindication to triptans or ergots"
+            "Ergot derivatives (ergotamine, LSD, methysergide), phenoxybenzamine, cyproheptadine, cinnarizine, chlorpromazine and morphine",
+            "Many are partial agonists and mimic some 5-HT actions"
           ]
         },
         {
-          "h": "Beta blockers",
+          "h": "Cyproheptadine",
           "points": [
-            "Propranolol is first choice; starts at 40 mg twice daily, up to 160 mg twice daily",
-            "Effect seen in about 4 weeks; pindolol is not useful"
+            "Blocks 5-HT2A and H1 receptors; used for carcinoid and dumping symptoms and for appetite"
           ]
         },
         {
-          "h": "Antidepressants and calcium channel blockers",
+          "h": "Methysergide",
           "points": [
-            "Amitriptyline 25 to 50 mg at bedtime, more side effects than propranolol",
-            "Flunarizine 10 to 20 mg daily, weak calcium channel blocker"
+            "Potent 5-HT2A/2C antagonist; earlier used for migraine prophylaxis, carcinoid and dumping",
+            "Withdrawn because of abdominal, pulmonary and endocardial fibrosis"
           ]
         },
         {
-          "h": "Others",
+          "h": "Ketanserin and ritanserin",
           "points": [
-            "Valproate and topiramate, mainly for patients refractory to others",
-            "CGRP blockers: monoclonal antibodies erenumab (receptor), fremanezumab and galcanezumab; small-molecule receptor antagonist rimegepant"
+            "Ketanserin: selective 5-HT2 blocker with weak H1 and alpha-1 action; antihypertensive but did not gain popularity",
+            "Ritanserin: more 5-HT2A-selective congener"
+          ]
+        },
+        {
+          "h": "Atypical antipsychotics",
+          "points": [
+            "Clozapine: 5-HT2A/2C blocker with weak dopamine blockade",
+            "Risperidone: combined 5-HT2A and D2 antagonist"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch12",
-        "GG14 ch15"
-      ],
-      "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
-      "tags": [
-        "uses",
-        "newer-drugs"
+        "KDT8 ch12"
       ],
       "pyq": [
         {
-          "university": "WBUHS",
-          "year": 2020,
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
           "marks": 10
         }
-      ]
-    },
-    {
-      "id": "p2-autacoids-034",
-      "type": "shortnote",
-      "front": "Short note: Ergot alkaloids in migraine",
-      "sections": [
-        {
-          "h": "Classification",
-          "points": [
-            "Amine alkaloid: ergometrine",
-            "Amino acid alkaloids: ergotamine and ergotoxine",
-            "Semisynthetic: dihydroergotamine, codergocrine, bromocriptine, methysergide"
-          ]
-        },
-        {
-          "h": "Ergotamine",
-          "points": [
-            "Partial agonist or antagonist at adrenergic and 5-HT1/5-HT2 receptors",
-            "Most effective ergot for migraine if given early in the attack",
-            "Oral or sublingual dose 1 mg every 30 minutes, maximum 6 mg"
-          ]
-        },
-        {
-          "h": "Dihydroergotamine",
-          "points": [
-            "Less vasoconstrictor and less emetic than ergotamine",
-            "Preferred for parenteral use"
-          ]
-        },
-        {
-          "h": "Status",
-          "points": [
-            "Largely replaced by triptans",
-            "No prophylactic value; regular use can cause a rebound headache",
-            "Contraindicated in sepsis, ischaemic heart disease and pregnancy"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch12"
       ],
       "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
+      "subtopic": "p2-autacoids-5ht-receptors",
       "tags": [
         "classification",
-        "adr"
-      ]
+        "uses"
+      ],
+      "level": 2
     },
     {
-      "id": "p2-autacoids-035",
-      "type": "essay",
-      "front": "Essay: Pathogenesis and drug management of migraine",
+      "id": "p2-autacoids-073",
+      "type": "shortnote",
+      "front": "Short note: Serotonin syndrome",
       "sections": [
         {
-          "h": "Clinical features",
+          "h": "Definition",
           "points": [
-            "Unilateral pulsatile headache lasting 4 to 48 hours",
-            "Nausea, vomiting, photophobia, sonophobia and, in some, aura",
-            "Two types: migraine with aura and migraine without aura"
+            "Generalised excess of 5-HT receptor stimulation"
           ]
         },
         {
-          "h": "Pathogenesis",
+          "h": "Receptors",
           "points": [
-            "Vascular theory: initial vasoconstriction and shunting of blood",
-            "Neurogenic theory: spreading cortical depression and neurogenic inflammation",
-            "Mediators include 5-HT, substance P, neurokinin, CGRP and nitric oxide"
+            "Mainly 5-HT2A and 5-HT1A activation"
           ]
         },
         {
-          "h": "Role of 5-HT",
+          "h": "Features",
           "points": [
-            "Blood and urinary 5-HT changes during attacks",
-            "5-HT releasers can precipitate attacks",
-            "Serotonergic drugs prevent, abort or terminate attacks"
+            "Restlessness, confusion, shivering, tachycardia, diarrhoea, muscle twitching or rigidity, fever",
+            "Can progress to seizures and loss of consciousness"
           ]
         },
         {
-          "h": "Acute treatment by severity",
+          "h": "Precipitants",
           "points": [
-            "Mild: simple analgesics or NSAIDs with an antiemetic",
-            "Moderate: NSAID combinations or a triptan or ergot",
-            "Severe: triptan or ergot with antiemetic, sometimes with a longer-acting NSAID"
+            "SSRIs, SNRIs, TCAs and MAO inhibitors, especially combined with triptans or other serotonergic drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p314",
+        "GG14 PDF p312"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-5ht-receptors",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-085",
+      "type": "basic",
+      "front": "Why ergometrine is a uterotonic with little vasoconstrictor action",
+      "back": "Its powerful uterotonic effect is most probably due to partial agonism at 5-HT2 receptors. Its alpha-adrenergic action is very weak, so vasoconstriction is not significant. It has low emetic potential and is used almost only in obstetrics.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-5ht-receptors",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-101",
+      "type": "shortnote",
+      "front": "Short note: 5-HT3 antagonists",
+      "sections": [
+        {
+          "h": "Receptor",
+          "points": [
+            "5-HT3 is a ligand-gated cation channel on nerve endings that gives fast depolarisation"
           ]
         },
         {
-          "h": "Prophylaxis",
+          "h": "Sites in vomiting",
           "points": [
-            "Propranolol, amitriptyline, flunarizine, valproate, topiramate; CGRP receptor antibody erenumab",
-            "Continue 6 months or more, then review whether still needed"
+            "Gut-wall nerve endings, area postrema and nucleus tractus solitarius",
+            "Enterochromaffin 5-HT released by cytotoxic drugs or radiotherapy acts on these receptors"
+          ]
+        },
+        {
+          "h": "Drug",
+          "points": [
+            "Ondansetron: prototypical selective 5-HT3 antagonist; blocks the receptors in the brainstem and gut wall"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "Controls nausea and vomiting after highly emetic anticancer drugs and radiotherapy; further detail in KDT8 ch48"
           ]
         }
       ],
       "refs": [
         "KDT8 ch12"
       ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
       "status": "draft",
-      "subtopic": "p2-autacoids-migraine",
+      "subtopic": "p2-autacoids-5ht-receptors",
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-102",
+      "type": "shortnote",
+      "front": "Short note: Carcinoid syndrome",
+      "sections": [
+        {
+          "h": "Cause",
+          "points": [
+            "Carcinoid tumours secrete large amounts of 5-HT"
+          ]
+        },
+        {
+          "h": "Effects due to 5-HT",
+          "points": [
+            "Bowel hypermotility and bronchoconstriction"
+          ]
+        },
+        {
+          "h": "Effects not due to 5-HT",
+          "points": [
+            "Flushing and hypotension, probably from other mediators"
+          ]
+        },
+        {
+          "h": "Pellagra",
+          "points": [
+            "Tryptophan is diverted into 5-HT synthesis, which can lead to pellagra"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Cyproheptadine (5-HT2A block) controls the intestinal symptoms",
+            "Methysergide was used earlier"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-5ht-receptors",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p2-autacoids-036",
@@ -1000,36 +1347,128 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-autacoids-037",
-      "type": "cloze",
-      "front": "Classify: 5-HT receptor families",
-      "text": "5-HT1 receptors {{decrease}} cAMP through Gi; 5-HT2 receptors act through {{Gq}}; 5-HT3 is a {{ligand-gated cation channel}}; 5-HT4, 5-HT6 and 5-HT7 {{increase}} cAMP.",
+      "id": "p2-autacoids-072",
+      "type": "essay",
+      "front": "Essay: Serotonin receptors, migraine pathogenesis and its drug therapy (20 marks)",
+      "sections": [
+        {
+          "h": "Serotonin receptors",
+          "points": [
+            "Four families: 5-HT1 (Gi, lowers cAMP), 5-HT2 (Gq, IP3/DAG), 5-HT3 (ligand-gated cation channel), 5-HT4-7 (raise cAMP)",
+            "5-HT2A: vasoconstriction, visceral contraction and platelet aggregation; 5-HT3: emesis; 5-HT1B/1D: cranial vessel constriction"
+          ]
+        },
+        {
+          "h": "Pathogenesis of migraine",
+          "points": [
+            "Vascular theory (vasoconstriction or shunting) and neurogenic theory (spreading cortical depression)",
+            "Neurogenic inflammation with 5-HT, CGRP, substance P and nitric oxide causes perivascular oedema and dural pain"
+          ]
+        },
+        {
+          "h": "Acute drugs",
+          "points": [
+            "Triptans (5-HT1B/1D agonists): first line for moderate to severe attacks",
+            "Ergotamine and DHE: less used now because of erratic oral absorption and vasoconstriction"
+          ]
+        },
+        {
+          "h": "Prophylaxis",
+          "points": [
+            "Propranolol first; amitriptyline, flunarizine, valproate or topiramate as alternatives",
+            "Erenumab (anti-CGRP receptor antibody) for severe migraine"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch12",
+        "GG14 PDF p312"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 20
+        }
+      ],
       "status": "draft",
       "subtopic": "p2-autacoids-5ht-receptors",
       "tags": [
+        "mechanism",
         "classification"
       ],
-      "refs": [
-        "KDT8 ch12"
-      ]
+      "level": 3
     },
     {
-      "id": "p2-autacoids-038",
-      "type": "cloze",
-      "front": "Classify: 5-HT receptor subtypes and their drugs",
-      "text": "Buspirone is a partial agonist at {{5-HT1A}}; sumatriptan is an agonist at {{5-HT1B/1D}}; ketanserin blocks {{5-HT2A}}; ondansetron blocks {{5-HT3}}; cisapride is an agonist at {{5-HT4}}.",
-      "status": "draft",
-      "subtopic": "p2-autacoids-5ht-receptors",
-      "tags": [
-        "classification",
-        "uses"
-      ],
+      "id": "p2-autacoids-023",
+      "type": "basic",
+      "front": "Which 5-HT receptor do triptans act on, and what does it do in cranial vessels?",
+      "back": "5-HT1B/1D. Stimulation constricts dilated cranial vessels, including carotid arteriovenous shunts, and reduces release of inflammatory neuropeptides from perivascular nerves. Sumatriptan is the prototype selective agonist.",
       "refs": [
         "KDT8 ch12"
-      ]
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-027",
+      "type": "basic",
+      "front": "Why was methysergide withdrawn, and what was it used for?",
+      "back": "It is a potent 5-HT2A/2C antagonist used for migraine prophylaxis, carcinoid and postgastrectomy dumping syndrome. It was withdrawn because it caused fibrosis in the abdomen, lungs and endocardium.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-028",
+      "type": "basic",
+      "front": "Why are ergot alkaloids poorly suited to oral migraine treatment?",
+      "back": "Oral bioavailability of the amino-acid ergots (ergotamine) and their hydrogenated derivatives is below 1 percent, due to slow and incomplete absorption and high first-pass metabolism. Caffeine improves absorption of ergotamine.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-030",
+      "type": "basic",
+      "front": "What is the first-line treatment for a mild migraine attack, and what adjunct is useful for nausea?",
+      "back": "Simple analgesics such as paracetamol (0.5 to 1 g) or aspirin (300 to 600 mg) taken at the first sign of an attack. Metoclopramide, given orally or by injection, relieves the nausea and gastric stasis that delay absorption.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-039",
@@ -1044,7 +1483,8 @@
       ],
       "refs": [
         "KDT8 ch12"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-040",
@@ -1058,7 +1498,559 @@
       ],
       "refs": [
         "KDT8 ch12"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-086",
+      "type": "cloze",
+      "front": "Classify: ergot alkaloids",
+      "text": "Natural ergot alkaloids are {{amine}} type (ergometrine) and {{amino acid}} type (ergotamine, ergotoxine). Semisynthetic derivatives include {{dihydroergotamine}}, {{bromocriptine}} (a D2 agonist) and {{methysergide}}.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-087",
+      "type": "basic",
+      "front": "Clinical features of ergotism",
+      "back": "Chronic ergot exposure causes vasospastic ischaemia with painful dry gangrene of the hands and feet, which turns black. Miscarriage occurs in women and cattle. Some patients have hallucinations, and a convulsive form is described.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-029",
+      "type": "basic",
+      "front": "Sumatriptan: doses and main contraindications.",
+      "back": "Oral 50 to 100 mg at the onset of an attack; may be repeated once within 24 hours, but not if the first dose failed. SC 6 mg (acts in 10 to 20 min, also repeatable once in 24 h) when oral use is impractical or pain builds quickly; nasal spray is an alternative. Contraindicated in ischaemic or vasospastic coronary disease, stroke or TIA, peripheral vascular disease, hemiplegic or basilar migraine, ischaemic bowel disease and uncontrolled hypertension. Do not give within 24 hours of an ergot or another triptan, or within 2 weeks of an MAO inhibitor; combining with SSRIs or SNRIs risks serotonin syndrome.",
+      "refs": [
+        "KDT8 ch12",
+        "GG14 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "dosing",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-032",
+      "type": "shortnote",
+      "front": "Short note: Triptans",
+      "sections": [
+        {
+          "h": "Class and action",
+          "points": [
+            "Selective 5-HT1B/1D agonists",
+            "Constrict dilated cranial vessels and reduce neurogenic inflammation",
+            "First-line for moderate to severe migraine not relieved by analgesics"
+          ]
+        },
+        {
+          "h": "Sumatriptan",
+          "points": [
+            "Oral bioavailability about 15 percent; faster and more effective by s.c. injection or nasal spray",
+            "Metabolised by MAO-A; half-life about 2 hours",
+            "Tends to relieve the nausea and vomiting of migraine"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Chest and head tightness, paraesthesias and dizziness",
+            "Serious but rare: coronary vasospasm, bradycardia and myocardial infarction"
+          ]
+        },
+        {
+          "h": "Other triptans",
+          "points": [
+            "Rizatriptan is more potent with higher oral bioavailability",
+            "Naratriptan and frovatriptan have longer half-lives, so fewer recurrences",
+            "Lasmiditan: 5-HT1F agonist (not a triptan) with fewer cardiovascular effects, for patients with cardiovascular risk"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch12",
+        "GG14 ch15"
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-033",
+      "type": "shortnote",
+      "front": "Short note: Prophylaxis of migraine",
+      "sections": [
+        {
+          "h": "When to use",
+          "points": [
+            "Two or three or more attacks per month",
+            "Attacks disabling despite treatment",
+            "Contraindication to triptans or ergots"
+          ]
+        },
+        {
+          "h": "Beta blockers",
+          "points": [
+            "Propranolol is first choice; starts at 40 mg twice daily, up to 160 mg twice daily",
+            "Effect seen in about 4 weeks; pindolol is not useful"
+          ]
+        },
+        {
+          "h": "Antidepressants and calcium channel blockers",
+          "points": [
+            "Amitriptyline 25 to 50 mg at bedtime, more side effects than propranolol",
+            "Flunarizine 10 to 20 mg daily, weak calcium channel blocker"
+          ]
+        },
+        {
+          "h": "Others",
+          "points": [
+            "Valproate and topiramate, mainly for patients refractory to others",
+            "CGRP blockers: monoclonal antibodies erenumab (receptor), fremanezumab and galcanezumab; small-molecule receptor antagonist rimegepant"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch12",
+        "GG14 ch15"
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-034",
+      "type": "shortnote",
+      "front": "Short note: Ergot alkaloids in migraine",
+      "sections": [
+        {
+          "h": "Classification",
+          "points": [
+            "Amine alkaloid: ergometrine",
+            "Amino acid alkaloids: ergotamine and ergotoxine",
+            "Semisynthetic: dihydroergotamine, codergocrine, bromocriptine, methysergide"
+          ]
+        },
+        {
+          "h": "Ergotamine",
+          "points": [
+            "Partial agonist or antagonist at adrenergic and 5-HT1/5-HT2 receptors",
+            "Most effective ergot for migraine if given early in the attack",
+            "Oral or sublingual dose 1 mg every 30 minutes, maximum 6 mg"
+          ]
+        },
+        {
+          "h": "Dihydroergotamine",
+          "points": [
+            "Less vasoconstrictor and less emetic than ergotamine",
+            "Preferred for parenteral use"
+          ]
+        },
+        {
+          "h": "Status",
+          "points": [
+            "Largely replaced by triptans",
+            "No prophylactic value; regular use can cause a rebound headache",
+            "Contraindicated in sepsis, ischaemic heart disease and pregnancy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-074",
+      "type": "shortnote",
+      "front": "Short note: Acute migraine: stepwise drug choice",
+      "sections": [
+        {
+          "h": "Mild",
+          "points": [
+            "Paracetamol 0.5-1 g or aspirin 300-600 mg at the first sign of attack, repeated 4-6 hourly",
+            "NSAIDs alone or with paracetamol, codeine or caffeine",
+            "Metoclopramide or domperidone for nausea and gastric stasis"
+          ]
+        },
+        {
+          "h": "Moderate",
+          "points": [
+            "Stronger NSAIDs or their combinations often help",
+            "Triptan or ergot preparation for the rest, plus an antiemetic"
+          ]
+        },
+        {
+          "h": "Severe",
+          "points": [
+            "Analgesics usually inadequate: triptan or ergotamine with antiemetic",
+            "Naproxen with a triptan for prolonged attacks that recur after a triptan alone",
+            "Prophylaxis for 6 months or more"
+          ]
+        },
+        {
+          "h": "Adjuncts",
+          "points": [
+            "Dispersible or effervescent analgesics because gastric stasis hampers absorption",
+            "Diazepam, diphenhydramine or caffeine help some patients"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-076",
+      "type": "basic",
+      "front": "Why triptans must be avoided in ischaemic heart disease",
+      "back": "Triptans constrict coronary and other vessels. Coronary vasospasm, transient ischaemia and MI are rare but serious, mostly in patients with coronary risk factors. They are contraindicated in ischaemic or vasospastic coronary disease, stroke or TIA, peripheral vascular or ischaemic bowel disease, hemiplegic or basilar migraine, and uncontrolled hypertension (they raise BP).",
+      "refs": [
+        "GG14 PDF p312",
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "contraindications",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-077",
+      "type": "basic",
+      "front": "Why sumatriptan has low oral bioavailability",
+      "back": "Oral bioavailability averages about 15%, and sumatriptan is rapidly metabolised by MAO-A. Subcutaneous injection is absorbed rapidly and completely. Nasal spray is absorbed faster, but its bioavailability is about the same. It is the only triptan available for nasal and parenteral use.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-078",
+      "type": "basic",
+      "front": "Why naratriptan and frovatriptan cause fewer headache recurrences",
+      "back": "They have longer plasma half-lives (about 6 h for naratriptan and about 26 h for frovatriptan), so the drug stays present longer. They may be slower to give initial pain relief.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-079",
+      "type": "basic",
+      "front": "Why caffeine is combined with ergotamine",
+      "back": "Caffeine (100 mg) enhances absorption of ergotamine from oral and rectal routes and adds to its cranial vasoconstriction. Ergot alkaloids are otherwise poorly absorbed, with oral bioavailability under 1%.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-080",
+      "type": "basic",
+      "front": "Why dispersible analgesics are preferred in migraine",
+      "back": "Gastric stasis during a migraine attack delays absorption from a regular tablet. Dispersible or effervescent forms of the analgesic are therefore preferred. Antiemetics given by injection work better once the patient has already vomited.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-081",
+      "type": "basic",
+      "front": "Propranolol in migraine prophylaxis: dose, response and mechanism",
+      "back": "Start 40 mg twice daily; increase to up to 160 mg twice daily if needed. It reduces frequency and severity in up to 70% of patients, with effect seen by about 4 weeks and sustained with long therapy. The mechanism is unclear, and beta-blockade is questioned. Timolol, metoprolol and atenolol also work.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "dosing",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-082",
+      "type": "basic",
+      "front": "Why pindolol is not used in migraine prophylaxis",
+      "back": "Pindolol and other beta-blockers with intrinsic sympathomimetic activity are not useful in migraine. KDT8 states the fact without a mechanism, so the card does not give one.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-083",
+      "type": "basic",
+      "front": "Flunarizine in migraine: class, dose and adverse effects",
+      "back": "Relatively weak calcium channel blocker that also inhibits Na+ channels. Adult dose 10-20 mg once daily; children 5 mg once daily. Adverse effects: sedation, constipation, dry mouth, hypotension, flushing, weight gain and rarely extrapyramidal symptoms.",
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "dosing",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-084",
+      "type": "shortnote",
+      "front": "Short note: Anticonvulsants in migraine prophylaxis",
+      "sections": [
+        {
+          "h": "Drugs and doses",
+          "points": [
+            "Valproic acid 400-1200 mg a day",
+            "Gabapentin 300-1200 mg a day",
+            "Topiramate: start 25 mg once daily, increase to 50 mg once or twice daily"
+          ]
+        },
+        {
+          "h": "Efficacy",
+          "points": [
+            "Two randomised trials: about half the patients had 50% fewer attacks with topiramate",
+            "Less effective than beta-blockers"
+          ]
+        },
+        {
+          "h": "When used",
+          "points": [
+            "Patients refractory to other drugs, or when propranolol is contraindicated"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-035",
+      "type": "essay",
+      "front": "Essay: Pathogenesis and drug management of migraine",
+      "sections": [
+        {
+          "h": "Clinical features",
+          "points": [
+            "Unilateral pulsatile headache lasting 4 to 48 hours",
+            "Nausea, vomiting, photophobia, sonophobia and, in some, aura",
+            "Two types: migraine with aura and migraine without aura"
+          ]
+        },
+        {
+          "h": "Pathogenesis",
+          "points": [
+            "Vascular theory: initial vasoconstriction and shunting of blood",
+            "Neurogenic theory: spreading cortical depression and neurogenic inflammation",
+            "Mediators include 5-HT, substance P, neurokinin, CGRP and nitric oxide"
+          ]
+        },
+        {
+          "h": "Role of 5-HT",
+          "points": [
+            "Blood and urinary 5-HT changes during attacks",
+            "5-HT releasers can precipitate attacks",
+            "Serotonergic drugs prevent, abort or terminate attacks"
+          ]
+        },
+        {
+          "h": "Acute treatment by severity",
+          "points": [
+            "Mild: simple analgesics or NSAIDs with an antiemetic",
+            "Moderate: NSAID combinations or a triptan or ergot",
+            "Severe: triptan or ergot with antiemetic, sometimes with a longer-acting NSAID"
+          ]
+        },
+        {
+          "h": "Prophylaxis",
+          "points": [
+            "Propranolol, amitriptyline, flunarizine, valproate, topiramate; CGRP receptor antibody erenumab",
+            "Continue 6 months or more, then review whether still needed"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch12"
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-autacoids-075",
+      "type": "shortnote",
+      "front": "Short note: Newer migraine drugs (lasmiditan, gepants, anti-CGRP antibodies)",
+      "sections": [
+        {
+          "h": "Lasmiditan",
+          "points": [
+            "Selective 5-HT1F agonist; approved for acute migraine",
+            "No vasoconstrictor action, so fewer cardiovascular effects than triptans",
+            "Oral, half-life about 6 h, metabolised by CYP2D6"
+          ]
+        },
+        {
+          "h": "Gepants",
+          "points": [
+            "Rimegepant and ubrogepant: oral small-molecule CGRP receptor antagonists",
+            "Used only for immediate treatment of acute attacks; nausea, fatigue and dry mouth",
+            "Earlier gepants (olcegepant, telcagepant) were limited by liver toxicity"
+          ]
+        },
+        {
+          "h": "Anti-CGRP antibodies",
+          "points": [
+            "Erenumab binds the CGRP receptor; fremanezumab and galcanezumab bind CGRP",
+            "Given subcutaneously once a month; reserved for migraine not controlled by oral drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p312",
+        "GG14 PDF p321",
+        "Katzung16 PDF p317",
+        "Katzung16 PDF p344"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 3
     },
     {
       "id": "p2-autacoids-041",
@@ -1073,7 +2065,8 @@
       "subtopic": "p2-autacoids-eicosanoid-synthesis",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-042",
@@ -1090,7 +2083,8 @@
       "subtopic": "p2-autacoids-eicosanoid-synthesis",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-043",
@@ -1105,7 +2099,39 @@
       "subtopic": "p2-autacoids-eicosanoid-synthesis",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-057",
+      "type": "cloze",
+      "front": "Classify: prostanoid receptors by signalling",
+      "text": "The contractile group (EP1, {{FP}}, {{TP}}) couples through {{Gq}}; the relaxant group (DP1, EP2, EP4, {{IP}}) couples through {{Gs}}; {{EP3}} is the inhibitory receptor coupling through Gi.",
+      "status": "draft",
+      "subtopic": "p2-autacoids-eicosanoid-synthesis",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-060",
+      "type": "cloze",
+      "front": "Classify: eicosanoid sources",
+      "text": "Platelets synthesise {{TXA2}}; endothelium synthesises {{PGI2}}; macrophages make {{LTC4 and LTD4}}; neutrophils make {{LTB4}}.",
+      "status": "draft",
+      "subtopic": "p2-autacoids-eicosanoid-synthesis",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-044",
@@ -1120,7 +2146,86 @@
       "subtopic": "p2-autacoids-eicosanoid-synthesis",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-099",
+      "type": "basic",
+      "front": "Why COX-2 inhibitors can delay ulcer healing",
+      "back": "COX-1 makes the protective gastric prostaglandins normally, but COX-2 is induced during ulcer healing. COX-2 inhibitors are less ulcerogenic, yet by blocking this induced COX-2 they have the potential to delay healing.",
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-eicosanoid-synthesis",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-055",
+      "type": "essay",
+      "front": "Essay: Prostaglandins, thromboxanes and prostacyclin",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Eicosanoids are derived from 20-carbon polyunsaturated fatty acids",
+            "Prostaglandins are made by nearly all cells and act locally"
+          ]
+        },
+        {
+          "h": "Biosynthesis",
+          "points": [
+            "Arachidonic acid released by phospholipase A2",
+            "Cyclooxygenase gives PGG2 and PGH2, then PGE2, PGF2alpha, PGD2, PGI2 and TXA2 by tissue-specific enzymes",
+            "NSAIDs and glucocorticoids inhibit synthesis"
+          ]
+        },
+        {
+          "h": "Cardiovascular and platelet actions",
+          "points": [
+            "PGE2 and PGI2 vasodilate; TXA2 constricts",
+            "PGI2 and TXA2 act as opposing controls on platelet aggregation"
+          ]
+        },
+        {
+          "h": "Smooth muscle and secretory actions",
+          "points": [
+            "Uterine contraction and cervical softening",
+            "Bronchial constriction (PGF2alpha, PGD2) or dilatation (PGE2)",
+            "GI effects: diarrhoea, gastric protection and mucus secretion"
+          ]
+        },
+        {
+          "h": "Renal, neural and thermal actions",
+          "points": [
+            "Natriuresis, renin release and renal vasodilatation through PGE2 and PGI2",
+            "Sensitise nociceptors and cause fever via hypothalamic PGE2"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "Obstetrics, glaucoma, peptic ulcer, neonatal ductus and pulmonary hypertension",
+            "Limited by short action, side effects and cost"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-eicosanoid-synthesis",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "level": 3
     },
     {
       "id": "p2-autacoids-045",
@@ -1136,7 +2241,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-046",
@@ -1152,38 +2258,73 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
-    },
-    {
-      "id": "p2-autacoids-047",
-      "type": "basic",
-      "front": "Which leukotriene receptor antagonists are used in asthma, and what do they block?",
-      "back": "Montelukast and zafirlukast block the cysLT1 receptor, which is mainly on bronchial and intestinal smooth muscle and binds LTD4 more avidly than LTC4. They are useful antiasthmatic drugs.",
-      "refs": [
-        "KDT8 ch13",
-        "KDT8 ch16"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-autacoids-leukotrienes-paf",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 1
     },
     {
-      "id": "p2-autacoids-048",
+      "id": "p2-autacoids-058",
+      "type": "cloze",
+      "front": "Classify: prostaglandin analogues by use",
+      "text": "Latanoprost for {{glaucoma}}; misoprostol for {{peptic ulcer}}; alprostadil to keep the {{ductus arteriosus}} patent; epoprostenol for {{pulmonary hypertension}}; carboprost for {{postpartum haemorrhage}}.",
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-093",
       "type": "basic",
-      "front": "What is platelet activating factor chemically, and how is it made?",
-      "back": "It is acetylglyceryl ether phosphorylcholine, with an ether-linked alkyl chain of 16 or 18 carbons. It is made on demand from membrane phospholipids, with the second step rate-limiting. It is active at subnanomolar concentrations.",
+      "front": "Why prostaglandins cause colic and watery diarrhoea",
+      "back": "PGE2 increases intestinal propulsive activity in man, especially. It also acts on the mucosa to increase water, electrolyte and mucus secretion. Together these produce colic and watery diarrhoea, the important side effects of PGE2.",
       "refs": [
         "KDT8 ch13"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-autacoids-leukotrienes-paf",
+      "subtopic": "p2-autacoids-prostanoid-actions",
       "tags": [
-        "mechanism"
-      ]
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-096",
+      "type": "basic",
+      "front": "Iloprost: class, route and use",
+      "back": "A synthetic PGI2 analogue with a longer half-life than epoprostenol. It is used in pulmonary arterial hypertension, given by inhalation (or intravenously). It may increase bleeding when used with anticoagulants or antiplatelet drugs.",
+      "refs": [
+        "GG14 PDF p843",
+        "GG14 PDF p845"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-097",
+      "type": "basic",
+      "front": "Selexipag: class and role in pulmonary arterial hypertension",
+      "back": "Selexipag is an oral IP receptor agonist. It is added to existing pulmonary vasodilator therapy in most patients with pulmonary arterial hypertension.",
+      "refs": [
+        "GG14 PDF p717",
+        "GG14 PDF p721"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-049",
@@ -1202,7 +2343,8 @@
         "uses",
         "dosing",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-autacoids-050",
@@ -1218,7 +2360,8 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-autacoids-051",
@@ -1285,7 +2428,8 @@
           "year": 2021,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-autacoids-052",
@@ -1354,7 +2498,327 @@
           "year": 2021,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-061",
+      "type": "shortnote",
+      "front": "Short note: Drugs for erectile dysfunction",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "sections": [
+        {
+          "h": "Physiology",
+          "points": [
+            "Nitric oxide from nerves and endothelium relaxes corpus cavernosum through cGMP",
+            "PDE-5 breaks down cGMP; blocking it potentiates NO"
+          ]
+        },
+        {
+          "h": "PDE-5 inhibitors (first line)",
+          "points": [
+            "Sildenafil, tadalafil and vardenafil",
+            "Sildenafil is taken before intercourse; usual 50 mg, 25 mg if over 65 years",
+            "Works only with sexual stimulation",
+            "Tadalafil is longer acting, with half-life about 18 h"
+          ]
+        },
+        {
+          "h": "Other drugs",
+          "points": [
+            "Androgens only when androgen deficiency is proven"
+          ]
+        },
+        {
+          "h": "Adverse effects and contraindication",
+          "points": [
+            "Headache, flushing, nasal congestion, dizziness, fall in BP and dyspepsia",
+            "PDE-6 inhibition can impair colour vision",
+            "Contraindicated with nitrates: sharp fall in BP, with deaths reported",
+            "Priapism risk in leukaemia, sickle cell anaemia and myeloma"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-063",
+      "type": "shortnote",
+      "front": "Short note: Biological vasodilators",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "sections": [
+        {
+          "h": "Nitric oxide",
+          "points": [
+            "Smallest endogenous signal molecule; a gas and free radical",
+            "Called endothelium-derived relaxing factor because it relaxes smooth muscle",
+            "Made by endothelial eNOS, which needs Ca2+-calmodulin; acetylcholine drives it through M3 receptors"
+          ]
+        },
+        {
+          "h": "Prostacyclin (PGI2)",
+          "points": [
+            "Released by vascular endothelium; relaxes vessels and slows smooth muscle proliferation",
+            "Synthesis falls in idiopathic pulmonary arterial hypertension, the rationale for PGI2 analogues"
+          ]
+        },
+        {
+          "h": "Endothelin (vasoconstrictor)",
+          "points": [
+            "Endothelin 1: potent endothelium-derived constrictor acting on ETA receptors",
+            "Endothelin receptor antagonists are potent teratogens; use with caution in women of childbearing age"
+          ]
+        }
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 PDF p553",
+        "GG14 PDF p228",
+        "GG14 PDF p719",
+        "GG14 PDF p721"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-090",
+      "type": "basic",
+      "front": "Ophthalmic prostaglandin analogues: why they lower intraocular pressure",
+      "back": "Latanoprost, travoprost and bimatoprost are FP receptor agonists and first-line in open-angle (wide-angle) glaucoma. They increase uveoscleral and trabecular outflow of aqueous humour. Latanoprost, a stable long-acting PGF2-alpha derivative, was the first prostanoid used for glaucoma. Adverse effects include conjunctival hyperaemia, increased iris pigmentation and eyelash changes.",
+      "refs": [
+        "KDT8 ch13",
+        "GG14 PDF p843",
+        "GG14 PDF p845",
+        "GG14 PDF p1480"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-092",
+      "type": "basic",
+      "front": "Why PGE2 may replace oxytocin in toxaemia or renal failure",
+      "back": "Oxytocin can cause fluid retention, whereas prostaglandins do not, so PGE2 (rarely PGF2) can be used in toxaemia and renal failure. Otherwise prostaglandins are less reliable than oxytocin for induction at term, with wider individual variation.",
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-094",
+      "type": "basic",
+      "front": "Alprostadil in neonates: purpose and risk",
+      "back": "Alprostadil (PGE1) maintains patency of the ductus arteriosus in neonates with congenital heart defects until corrective surgery. Ampoule 0.5 mg in 1 ml is diluted and infused intravenously. Apnoea occurs in a few cases.",
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-095",
+      "type": "basic",
+      "front": "Epoprostenol: uses and a key caution",
+      "back": "Epoprostenol (PGI2) prevents platelet aggregation and damage during haemodialysis or bypass and improves platelet harvest for transfusion. It is infused continuously into a large vein for primary pulmonary hypertension. It is contraindicated in heart failure with reduced ejection fraction, and bleeding and pulmonary oedema risks need care.",
+      "refs": [
+        "KDT8 ch13",
+        "GG14 PDF p720"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-098",
+      "type": "basic",
+      "front": "Medical termination with prostaglandins: precautions and side effects",
+      "back": "Exclude ectopic pregnancy beforehand and confirm complete expulsion afterwards. Common effects are uterine cramps, vaginal bleeding, nausea, vomiting and diarrhoea. Methotrexate with misoprostol is also effective for abortion in the first few weeks of pregnancy.",
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-091",
+      "type": "essay",
+      "front": "Essay: Therapeutic uses of prostaglandins and their analogues",
+      "sections": [
+        {
+          "h": "Obstetrics",
+          "points": [
+            "Abortion: PGE2 pessary before dilatation; PGs with mifepristone for medical termination",
+            "Cervical ripening with low-dose PGE2; induction or augmentation of labour",
+            "Carboprost for postpartum haemorrhage from atony"
+          ]
+        },
+        {
+          "h": "Gastrointestinal",
+          "points": [
+            "Misoprostol heals peptic ulcers in patients who must continue NSAIDs or who smoke"
+          ]
+        },
+        {
+          "h": "Eye",
+          "points": [
+            "FP agonists (latanoprost, travoprost, bimatoprost) for open-angle glaucoma"
+          ]
+        },
+        {
+          "h": "Cardiovascular and pulmonary",
+          "points": [
+            "Alprostadil keeps the ductus arteriosus patent in neonates until surgery",
+            "Epoprostenol for pulmonary hypertension and to protect platelets in dialysis or bypass",
+            "PGI2 or PGE1 infusion for claudication, Raynaud disease and ischaemic ulcers"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Short action, cost and frequent side effects (nausea, vomiting, diarrhoea, uterine cramps, fever, fall in BP)",
+            "Intracavernosal alprostadil for erectile dysfunction; oral agents now preferred"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-autacoids-047",
+      "type": "basic",
+      "front": "Which leukotriene receptor antagonists are used in asthma, and what do they block?",
+      "back": "Montelukast and zafirlukast block the cysLT1 receptor, which is mainly on bronchial and intestinal smooth muscle and binds LTD4 more avidly than LTC4. They are useful antiasthmatic drugs.",
+      "refs": [
+        "KDT8 ch13",
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-leukotrienes-paf",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-048",
+      "type": "basic",
+      "front": "What is platelet activating factor chemically, and how is it made?",
+      "back": "It is acetylglyceryl ether phosphorylcholine, with an ether-linked alkyl chain of 16 or 18 carbons. It is made on demand from membrane phospholipids, with the second step rate-limiting. It is active at subnanomolar concentrations.",
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-leukotrienes-paf",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-053",
@@ -1399,7 +2863,23 @@
       "subtopic": "p2-autacoids-leukotrienes-paf",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-059",
+      "type": "cloze",
+      "front": "Classify: leukotriene receptors",
+      "text": "BLT1 and BLT2 bind {{LTB4}}; cysLT1 binds {{LTD4}} mainly in bronchial and intestinal muscle; cysLT2 is found mainly in {{leukocytes}} and spleen; all signal through {{Gq}}.",
+      "status": "draft",
+      "subtopic": "p2-autacoids-leukotrienes-paf",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "level": 1
     },
     {
       "id": "p2-autacoids-054",
@@ -1446,67 +2926,98 @@
       "subtopic": "p2-autacoids-leukotrienes-paf",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-autacoids-055",
-      "type": "essay",
-      "front": "Essay: Prostaglandins, thromboxanes and prostacyclin",
+      "id": "p2-autacoids-088",
+      "type": "shortnote",
+      "front": "Short note: Leukotriene modifiers in bronchial asthma",
       "sections": [
         {
-          "h": "Introduction",
+          "h": "Role of leukotrienes",
           "points": [
-            "Eicosanoids are derived from 20-carbon polyunsaturated fatty acids",
-            "Prostaglandins are made by nearly all cells and act locally"
+            "Cysteinyl LTs (LTC4, LTD4) are the most important mediators of human allergic asthma",
+            "They contract bronchial muscle, increase airway mucus and act for a long time because they are metabolised slowly in the lung",
+            "They attract eosinophils and T lymphocytes"
           ]
         },
         {
-          "h": "Biosynthesis",
+          "h": "cysLT1 antagonists",
           "points": [
-            "Arachidonic acid released by phospholipase A2",
-            "Cyclooxygenase gives PGG2 and PGH2, then PGE2, PGF2alpha, PGD2, PGI2 and TXA2 by tissue-specific enzymes",
-            "NSAIDs and glucocorticoids inhibit synthesis"
+            "Montelukast and zafirlukast block cysLT1 receptors in bronchial and intestinal muscle; LTD4 is preferred over LTC4",
+            "Now valuable drugs for bronchial asthma"
           ]
         },
         {
-          "h": "Cardiovascular and platelet actions",
+          "h": "5-LOX inhibitor",
           "points": [
-            "PGE2 and PGI2 vasodilate; TXA2 constricts",
-            "PGI2 and TXA2 act as opposing controls on platelet aggregation"
+            "Zileuton inhibits lipoxygenase and reduces LT production",
+            "Used briefly in asthma and then withdrawn"
           ]
         },
         {
-          "h": "Smooth muscle and secretory actions",
+          "h": "Why COX inhibitors do not help",
           "points": [
-            "Uterine contraction and cervical softening",
-            "Bronchial constriction (PGF2alpha, PGD2) or dilatation (PGE2)",
-            "GI effects: diarrhoea, gastric protection and mucus secretion"
-          ]
-        },
-        {
-          "h": "Renal, neural and thermal actions",
-          "points": [
-            "Natriuresis, renin release and renal vasodilatation through PGE2 and PGI2",
-            "Sensitise nociceptors and cause fever via hypothalamic PGE2"
-          ]
-        },
-        {
-          "h": "Clinical use",
-          "points": [
-            "Obstetrics, glaucoma, peptic ulcer, neonatal ductus and pulmonary hypertension",
-            "Limited by short action, side effects and cost"
+            "In allergic human asthma leukotrienes dominate, so COX inhibitors are without effect in most patients"
           ]
         }
       ],
       "refs": [
         "KDT8 ch13"
       ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
       "status": "draft",
-      "subtopic": "p2-autacoids-eicosanoid-synthesis",
+      "subtopic": "p2-autacoids-leukotrienes-paf",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-089",
+      "type": "basic",
+      "front": "Why aspirin-like drugs can trigger asthma",
+      "back": "In a few people, COX blockade diverts arachidonic acid into the lipoxygenase pathway, so excess LTC4 and LTD4 are made and constrict the airway. Selective COX-2 inhibitors do not cause this, which points to suppression of COX-1 in the lung.",
+      "refs": [
+        "KDT8 ch13"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-leukotrienes-paf",
       "tags": [
         "mechanism",
-        "classification"
-      ]
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p2-autacoids-056",
@@ -1567,230 +3078,61 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-autacoids-057",
-      "type": "cloze",
-      "front": "Classify: prostanoid receptors by signalling",
-      "text": "The contractile group (EP1, {{FP}}, {{TP}}) couples through {{Gq}}; the relaxant group (DP1, EP2, EP4, {{IP}}) couples through {{Gs}}; {{EP3}} is the inhibitory receptor coupling through Gi.",
-      "status": "draft",
-      "subtopic": "p2-autacoids-eicosanoid-synthesis",
-      "tags": [
-        "classification",
-        "mechanism"
+      "id": "p2-autacoids-100",
+      "type": "essay",
+      "front": "Essay: Platelet activating factor (10 marks)",
+      "sections": [
+        {
+          "h": "Identity and synthesis",
+          "points": [
+            "Acetylglyceryl ether phosphorylcholine with a 16 or 18 carbon ether chain",
+            "Made from membrane phospholipid; the second step is rate-limiting; Ca2+ dependent; no stores"
+          ]
+        },
+        {
+          "h": "Sources",
+          "points": [
+            "White blood cells, platelets, vascular endothelium and kidney cells"
+          ]
+        },
+        {
+          "h": "Actions",
+          "points": [
+            "Platelets: aggregation, release reaction and TXA2 release",
+            "Leukocytes: chemotaxis, superoxide generation, lysosomal enzyme and LT release",
+            "Vessels: most potent inducer of vascular permeability; fall in BP on IV injection",
+            "Airways: potent bronchoconstriction with prolonged hyper-reactivity"
+          ]
+        },
+        {
+          "h": "Pathology and antagonists",
+          "points": [
+            "Implicated in inflammation, asthma, anaphylactic shock and thrombosis",
+            "Ginkgolide B (natural) and alprazolam or triazolam antagonise some actions; none marketed"
+          ]
+        }
       ],
       "refs": [
         "KDT8 ch13"
-      ]
-    },
-    {
-      "id": "p2-autacoids-058",
-      "type": "cloze",
-      "front": "Classify: prostaglandin analogues by use",
-      "text": "Latanoprost for {{glaucoma}}; misoprostol for {{peptic ulcer}}; alprostadil to keep the {{ductus arteriosus}} patent; epoprostenol for {{pulmonary hypertension}}; carboprost for {{postpartum haemorrhage}}.",
-      "status": "draft",
-      "subtopic": "p2-autacoids-prostanoid-actions",
-      "tags": [
-        "uses"
       ],
-      "refs": [
-        "KDT8 ch13"
-      ]
-    },
-    {
-      "id": "p2-autacoids-059",
-      "type": "cloze",
-      "front": "Classify: leukotriene receptors",
-      "text": "BLT1 and BLT2 bind {{LTB4}}; cysLT1 binds {{LTD4}} mainly in bronchial and intestinal muscle; cysLT2 is found mainly in {{leukocytes}} and spleen; all signal through {{Gq}}.",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p2-autacoids-leukotrienes-paf",
       "tags": [
-        "classification"
-      ],
-      "refs": [
-        "KDT8 ch13"
-      ]
-    },
-    {
-      "id": "p2-autacoids-060",
-      "type": "cloze",
-      "front": "Classify: eicosanoid sources",
-      "text": "Platelets synthesise {{TXA2}}; endothelium synthesises {{PGI2}}; macrophages make {{LTC4 and LTD4}}; neutrophils make {{LTB4}}.",
-      "status": "draft",
-      "subtopic": "p2-autacoids-eicosanoid-synthesis",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch13"
-      ]
-    },
-    {
-      "id": "p2-autacoids-061",
-      "type": "shortnote",
-      "front": "Short note: Drugs for erectile dysfunction",
-      "subtopic": "p2-autacoids-prostanoid-actions",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "sections": [
-        {
-          "h": "Physiology",
-          "points": [
-            "Nitric oxide from nerves and endothelium relaxes corpus cavernosum through cGMP",
-            "PDE-5 breaks down cGMP; blocking it potentiates NO"
-          ]
-        },
-        {
-          "h": "PDE-5 inhibitors (first line)",
-          "points": [
-            "Sildenafil, tadalafil and vardenafil",
-            "Sildenafil is taken before intercourse; usual 50 mg, 25 mg if over 65 years",
-            "Works only with sexual stimulation",
-            "Tadalafil is longer acting, with half-life about 18 h"
-          ]
-        },
-        {
-          "h": "Other drugs",
-          "points": [
-            "Androgens only when androgen deficiency is proven"
-          ]
-        },
-        {
-          "h": "Adverse effects and contraindication",
-          "points": [
-            "Headache, flushing, nasal congestion, dizziness, fall in BP and dyspepsia",
-            "PDE-6 inhibition can impair colour vision",
-            "Contraindicated with nitrates: sharp fall in BP, with deaths reported",
-            "Priapism risk in leukaemia, sickle cell anaemia and myeloma"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch21"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-autacoids-062",
-      "type": "shortnote",
-      "front": "Short note: Pharmacotherapy of peptic ulcer disease",
-      "subtopic": "p2-autacoids-histamine",
-      "tags": [
         "mechanism",
         "uses"
       ],
-      "sections": [
-        {
-          "h": "Proton pump inhibitors",
-          "points": [
-            "Omeprazole is the prototype; it irreversibly inactivates the H+/K+ ATPase",
-            "Preferred over H2 blockers for peptic ulcer; faster healing at 40 mg than 20 mg",
-            "Inhibit CYP2C19, reducing clopidogrel activation and raising levels of some drugs (e.g. warfarin, phenytoin)"
-          ]
-        },
-        {
-          "h": "H2 blockers",
-          "points": [
-            "Cimetidine is the prototype; ranitidine is about 5 times as potent",
-            "Famotidine is longer acting; about 70% excreted unchanged in urine",
-            "Less effective than PPIs for NSAID-induced and H. pylori ulcers",
-            "Antacids reduce their absorption; leave a 2-hour gap"
-          ]
-        },
-        {
-          "h": "Cytoprotection",
-          "points": [
-            "Misoprostol is a PGE1 analogue that reduces acid output and protects against NSAID injury",
-            "Seldom used now because PPIs are more effective and better tolerated"
-          ]
-        },
-        {
-          "h": "Antacids",
-          "points": [
-            "Neutralise acid rather than reducing production",
-            "Acid rebound and increased gastric motility can follow"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch47"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-autacoids-063",
-      "type": "shortnote",
-      "front": "Short note: Biological vasodilators",
-      "subtopic": "p2-autacoids-prostanoid-actions",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "sections": [
-        {
-          "h": "Nitric oxide",
-          "points": [
-            "Smallest endogenous signal molecule; a gas and free radical",
-            "Called endothelium-derived relaxing factor because it relaxes smooth muscle",
-            "Made by endothelial eNOS, which needs Ca2+-calmodulin; acetylcholine drives it through M3 receptors"
-          ]
-        },
-        {
-          "h": "Prostacyclin (PGI2)",
-          "points": [
-            "Released by vascular endothelium; relaxes vessels and slows smooth muscle proliferation",
-            "Synthesis falls in idiopathic pulmonary arterial hypertension, the rationale for PGI2 analogues"
-          ]
-        },
-        {
-          "h": "Endothelin (vasoconstrictor)",
-          "points": [
-            "Endothelin 1: potent endothelium-derived constrictor acting on ETA receptors",
-            "Endothelin receptor antagonists are potent teratogens; use with caution in women of childbearing age"
-          ]
-        }
-      ],
-      "status": "draft",
-      "refs": [
-        "KDT8 PDF p553",
-        "GG14 PDF p228",
-        "GG14 PDF p719",
-        "GG14 PDF p721"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2006,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        }
-      ]
+      "level": 3
     }
   ]
 }

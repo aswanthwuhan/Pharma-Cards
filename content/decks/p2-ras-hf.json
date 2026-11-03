@@ -15,85 +15,87 @@
       "subtopic": "p2-ras-hf-ras-physiology",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-ras-hf-002",
-      "type": "basic",
-      "front": "What is captopril, and what does it block?",
-      "back": "A sulfhydryl-containing dipeptide analogue of proline and the first orally active ACE inhibitor. It blocks conversion of Ang I to Ang II and slows bradykinin breakdown. It does not block AT1 or AT2 receptors.",
+      "id": "p2-ras-hf-022",
+      "type": "cloze",
+      "front": "Classify: sites of renin-angiotensin system inhibition",
+      "text": "{{Beta-blockers}} reduce renin release; {{aliskiren}} blocks renin itself; {{ACE inhibitors}} block Ang I to Ang II conversion; {{ARBs}} block the AT1 receptor; {{spironolactone}} blocks the mineralocorticoid receptor.",
       "refs": [
         "KDT8 ch36"
       ],
-      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "subtopic": "p2-ras-hf-ras-physiology",
       "tags": [
-        "classification",
-        "mechanism"
-      ]
+        "classification"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-ras-hf-003",
+      "id": "p2-ras-hf-066",
       "type": "basic",
-      "front": "Why do ACE inhibitors cause cough, and what is done about it?",
-      "back": "ACE normally degrades bradykinin and substance P, so both accumulate in the lungs of susceptible patients. The dry cough is not dose related and usually appears within weeks of starting. It often needs the drug stopped, though it settles within days of withdrawal. ARBs rarely cause it and serve as a substitute.",
+      "front": "Angiotensin (1-7): how it is formed and what it does",
+      "back": "Formed from Ang I or Ang II by ACE 2; acts on the Mas receptor to cause NO-dependent vasodilatation, antithrombotic and antiproliferative effects. ACE inhibitors raise its level by diverting Ang I.",
       "refs": [
         "KDT8 ch36"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-004",
-      "type": "basic",
-      "front": "How do ARBs differ from ACE inhibitors pharmacologically?",
-      "back": "ARBs block the AT1 receptor directly and do not inhibit ACE, so bradykinin and substance P are not raised and cough is rare. They also block Ang II formed by non-ACE routes, giving more complete AT1 blockade. Ang II rises by feedback, so unblocked AT2 receptors are more stimulated. ARBs raise Ang (1-7) much less than ACE inhibitors do.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "subtopic": "p2-ras-hf-ras-physiology",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-ras-hf-005",
+      "id": "p2-ras-hf-067",
       "type": "basic",
-      "front": "Why are ACE inhibitors and ARBs contraindicated in pregnancy?",
-      "back": "They are fetotoxic. Exposure in the second and third trimesters causes fetal growth retardation, organ hypoplasia and fetal death. First-trimester exposure has been linked to malformations. The drug must be stopped as soon as pregnancy is detected.",
+      "front": "Angiotensin IV: receptor and effect",
+      "back": "Hexapeptide (Ang 3-8) acting on the AT4 receptor, which is insulin-regulated aminopeptidase (IRAP); it prevents breakdown of neuropeptides involved in memory; improves memory in animals.",
       "refs": [
         "KDT8 ch36"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "subtopic": "p2-ras-hf-ras-physiology",
       "tags": [
-        "contraindications"
-      ]
+        "mechanism"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-ras-hf-006",
+      "id": "p2-ras-hf-068",
       "type": "basic",
-      "front": "Which patients are at risk of acute renal failure when an ACE inhibitor is started?",
-      "back": "Patients with bilateral renal artery stenosis, or stenosis of the artery to a solitary kidney, because glomerular filtration in these kidneys depends on angiotensin II constricting the efferent arteriole. The risk rises with NSAIDs, diuretics and volume depletion.",
+      "front": "Angiotensin III: potency compared with Ang II",
+      "back": "Heptapeptide that is 2 to 10 times less potent than Ang II, but equipotent in stimulating aldosterone secretion.",
       "refs": [
-        "KDT8 ch36",
-        "Katzung16 ch11"
+        "KDT8 ch36"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "subtopic": "p2-ras-hf-ras-physiology",
       "tags": [
-        "adr",
-        "contraindications"
-      ]
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-069",
+      "type": "basic",
+      "front": "Prorenin and the (pro)renin receptor: why they matter",
+      "back": "Prorenin circulates at 5 to 10 times renin levels and is active in its own right. Binding to the PRR augments its activity reversibly, and tissue activation drives local RAS effects (Ang II-dependent and independent pathways). Prorenin to renin ratio rises in diabetes.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ras-physiology",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ras-hf-007",
@@ -108,221 +110,8 @@
       "subtopic": "p2-ras-hf-ras-physiology",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-008",
-      "type": "basic",
-      "front": "What is the mortality benefit of ACE inhibitors in heart failure, and how are they dosed?",
-      "back": "They reduce mortality by roughly 20% in symptomatic heart failure and slow remodelling, and they have long been first line for systolic dysfunction at all NYHA grades unless contraindicated. Start low, especially with diuretics, then titrate toward target doses; in the ATLAS trial, higher-dose lisinopril reduced death and heart-failure hospitalisation more than low dose. Sacubitril-valsartan was superior to enalapril (PARADIGM-HF) and is now recommended to replace an ACE inhibitor or ARB in NYHA II to III HFrEF.",
-      "refs": [
-        "KDT8 ch36",
-        "GG14 ch33"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-009",
-      "type": "basic",
-      "front": "What is the rationale and the main risk of combining an ACE inhibitor with an ARB?",
-      "back": "Rationale: angiotensin II is also formed by non-ACE routes that an ARB can block, and ARBs cause a compensatory angiotensin II rise that an ACE inhibitor can limit. In practice the combination increases hyperkalaemia, hypotension and renal impairment, and trial evidence (ONTARGET) does not support combining an ACE inhibitor with an ARB in hypertension, heart failure or nephropathy. Aliskiren should likewise not be added to an ACE inhibitor or ARB in diabetics (ALTITUDE).",
-      "refs": [
-        "KDT8 ch36",
-        "GG14 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "interactions",
-        "adr",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-010",
-      "type": "basic",
-      "front": "Where and how does the direct renin inhibitor aliskiren act?",
-      "back": "It binds selectively to the catalytic site of renin and blocks access of angiotensinogen, so Ang I is not formed. This is the rate-limiting step. Renin concentration rises by feedback, but plasma renin activity falls, and Ang I and Ang II fall in a dose-dependent way.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-011",
-      "type": "basic",
-      "front": "What are the pharmacokinetic and safety features of aliskiren?",
-      "back": "Oral bioavailability is very low because P-glycoprotein pumps the absorbed drug back out. It is mainly eliminated in faeces, has a half-life over 24 hours, and its BP effect persists for days. Adverse effects are mild (dyspepsia, abdominal pain, loose stools, headache, dizziness). It is contraindicated in pregnancy. Adding it to an ACE inhibitor or ARB in type 2 diabetes is not advised.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "pk",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-012",
-      "type": "shortnote",
-      "front": "Short note: Adverse effects and precautions of ACE inhibitors",
-      "sections": [
-        {
-          "h": "Common effects",
-          "points": [
-            "Dry cough from accumulated bradykinin and substance P",
-            "First-dose hypotension, worst in diuretic-treated and heart-failure patients",
-            "Rash, dysgeusia (taste change), headache, dizziness",
-            "Angioedema is uncommon but serious"
-          ]
-        },
-        {
-          "h": "Electrolytes and kidney",
-          "points": [
-            "Hyperkalaemia, especially with renal impairment, K+-sparing diuretics, NSAIDs or potassium supplements",
-            "Acute renal failure in bilateral renal artery stenosis",
-            "Proteinuria and granulocytopenia are rare but need withdrawal"
-          ]
-        },
-        {
-          "h": "Pregnancy",
-          "points": [
-            "Fetotoxic in the second and third trimesters",
-            "Stop as soon as pregnancy is confirmed"
-          ]
-        },
-        {
-          "h": "Interactions",
-          "points": [
-            "NSAIDs blunt the antihypertensive effect and add renal risk",
-            "ACE inhibitors reduce lithium clearance, risking lithium toxicity",
-            "Antacids reduce captopril absorption",
-            "Sacubitril-valsartan must not be combined with an ACE inhibitor, because combined neprilysin and ACE inhibition raises the risk of angioedema"
-          ]
-        },
-        {
-          "h": "Renoprotection",
-          "points": [
-            "Slow diabetic and non-diabetic nephropathy and reduce proteinuria",
-            "Such benefit is independent of the blood pressure fall"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch36",
-        "GG14 ch30"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "adr",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-013",
-      "type": "shortnote",
-      "front": "Short note: Uses of ACE inhibitors",
-      "sections": [
-        {
-          "h": "Hypertension",
-          "points": [
-            "First-line in all grades; ARBs are now prescribed as often",
-            "No postural hypotension, metabolic upset or rebound on withdrawal",
-            "Effective in renovascular and resistant hypertension, and in diabetics"
-          ]
-        },
-        {
-          "h": "Heart failure and MI",
-          "points": [
-            "Reduce mortality, hospitalisation and sudden death in systolic dysfunction",
-            "Start orally within 24 hours of an acute MI and continue for about 6 weeks, avoiding hypotension",
-            "Benefit extends to long-term survival in high-risk and post-MI patients"
-          ]
-        },
-        {
-          "h": "Prophylaxis",
-          "points": [
-            "HOPE trial: ramipril cut cardiac death, MI and stroke in high-risk patients without heart failure",
-            "Benefit is partly independent of blood pressure lowering"
-          ]
-        },
-        {
-          "h": "Other uses",
-          "points": [
-            "Diabetic and non-diabetic nephropathy",
-            "Scleroderma crisis, where they are life-saving",
-            "Captopril test as an adjunct in renovascular hypertension"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-014",
-      "type": "shortnote",
-      "front": "Short note: Pharmacokinetic differences among ACE inhibitors",
-      "sections": [
-        {
-          "h": "Active versus prodrug",
-          "points": [
-            "Captopril and lisinopril are active as given",
-            "Enalapril, ramipril, quinapril, perindopril, trandolapril, benazepril, fosinopril and imidapril are prodrugs",
-            "Enalapril is de-esterified in the liver to enalaprilat, which is not used orally"
-          ]
-        },
-        {
-          "h": "Duration",
-          "points": [
-            "Captopril acts for about 6 to 12 hours and needs several daily doses",
-            "Lisinopril, ramipril, quinapril, trandolapril and perindopril allow once-daily dosing"
-          ]
-        },
-        {
-          "h": "Food",
-          "points": [
-            "Food reduces captopril absorption",
-            "Enalapril absorption is not affected by food"
-          ]
-        },
-        {
-          "h": "Elimination",
-          "points": [
-            "Most are cleared by the kidney",
-            "Fosinopril is cleared by both liver and kidney, so its dose need not change in renal impairment"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "pk",
-        "classification"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ras-hf-015",
@@ -368,7 +157,8 @@
       "subtopic": "p2-ras-hf-ras-physiology",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-016",
@@ -420,7 +210,8 @@
       "subtopic": "p2-ras-hf-ras-physiology",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-017",
@@ -485,7 +276,390 @@
           "year": 2010,
           "marks": 20
         }
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ras-hf-002",
+      "type": "basic",
+      "front": "What is captopril, and what does it block?",
+      "back": "A sulfhydryl-containing dipeptide analogue of proline and the first orally active ACE inhibitor. It blocks conversion of Ang I to Ang II and slows bradykinin breakdown. It does not block AT1 or AT2 receptors.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-010",
+      "type": "basic",
+      "front": "Where and how does the direct renin inhibitor aliskiren act?",
+      "back": "It binds selectively to the catalytic site of renin and blocks access of angiotensinogen, so Ang I is not formed. This is the rate-limiting step. Renin concentration rises by feedback, but plasma renin activity falls, and Ang I and Ang II fall in a dose-dependent way.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-019",
+      "type": "cloze",
+      "front": "Classify: ACE inhibitors by chemical group",
+      "text": "{{Captopril}} is the sulfhydryl-containing ACE inhibitor, {{fosinopril}} is the phosphinate, and {{enalapril}}, {{lisinopril}} and {{ramipril}} are carboxyl compounds.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-020",
+      "type": "cloze",
+      "front": "Classify: active drugs versus prodrugs among ACE inhibitors",
+      "text": "{{Captopril}} and {{lisinopril}} are active without conversion, whereas {{enalapril}} is a prodrug converted in the liver to {{enalaprilat}}.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "pk",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-021",
+      "type": "cloze",
+      "front": "Classify: angiotensin receptor blockers and the renin inhibitor",
+      "text": "Nonpeptide AT1 blockers include {{losartan}}, {{candesartan}}, {{valsartan}}, {{irbesartan}}, {{olmesartan}} and {{telmisartan}}; the direct renin inhibitor is {{aliskiren}}.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-079",
+      "type": "basic",
+      "front": "Captopril: starting dose and timing with food",
+      "back": "Start at 6.25 mg twice daily in patients on diuretics or with CHF, then increase to 25 mg twice daily and up to 50 mg thrice daily by response. Take 1 hour before or 2 hours after a meal.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-003",
+      "type": "basic",
+      "front": "Why do ACE inhibitors cause cough, and what is done about it?",
+      "back": "ACE normally degrades bradykinin and substance P, so both accumulate in the lungs of susceptible patients. The dry cough is not dose related and usually appears within weeks of starting. It often needs the drug stopped, though it settles within days of withdrawal. ARBs rarely cause it and serve as a substitute.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-004",
+      "type": "basic",
+      "front": "How do ARBs differ from ACE inhibitors pharmacologically?",
+      "back": "ARBs block the AT1 receptor directly and do not inhibit ACE, so bradykinin and substance P are not raised and cough is rare. They also block Ang II formed by non-ACE routes, giving more complete AT1 blockade. Ang II rises by feedback, so unblocked AT2 receptors are more stimulated. ARBs raise Ang (1-7) much less than ACE inhibitors do.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-005",
+      "type": "basic",
+      "front": "Why are ACE inhibitors and ARBs contraindicated in pregnancy?",
+      "back": "They are fetotoxic. Exposure in the second and third trimesters causes fetal growth retardation, organ hypoplasia and fetal death. First-trimester exposure has been linked to malformations. The drug must be stopped as soon as pregnancy is detected.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-006",
+      "type": "basic",
+      "front": "Which patients are at risk of acute renal failure when an ACE inhibitor is started?",
+      "back": "Patients with bilateral renal artery stenosis, or stenosis of the artery to a solitary kidney, because glomerular filtration in these kidneys depends on angiotensin II constricting the efferent arteriole. The risk rises with NSAIDs, diuretics and volume depletion.",
+      "refs": [
+        "KDT8 ch36",
+        "Katzung16 ch11"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-008",
+      "type": "basic",
+      "front": "What is the mortality benefit of ACE inhibitors in heart failure, and how are they dosed?",
+      "back": "They reduce mortality by roughly 20% in symptomatic heart failure and slow remodelling, and they have long been first line for systolic dysfunction at all NYHA grades unless contraindicated. Start low, especially with diuretics, then titrate toward target doses; in the ATLAS trial, higher-dose lisinopril reduced death and heart-failure hospitalisation more than low dose. Sacubitril-valsartan was superior to enalapril (PARADIGM-HF) and is now recommended to replace an ACE inhibitor or ARB in NYHA II to III HFrEF.",
+      "refs": [
+        "KDT8 ch36",
+        "GG14 ch33"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-011",
+      "type": "basic",
+      "front": "What are the pharmacokinetic and safety features of aliskiren?",
+      "back": "Oral bioavailability is very low because P-glycoprotein pumps the absorbed drug back out. It is mainly eliminated in faeces, has a half-life over 24 hours, and its BP effect persists for days. Adverse effects are mild (dyspepsia, abdominal pain, loose stools, headache, dizziness). It is contraindicated in pregnancy. Adding it to an ACE inhibitor or ARB in type 2 diabetes is not advised.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-012",
+      "type": "shortnote",
+      "front": "Short note: Adverse effects and precautions of ACE inhibitors",
+      "sections": [
+        {
+          "h": "Common effects",
+          "points": [
+            "Dry cough from accumulated bradykinin and substance P",
+            "First-dose hypotension, worst in diuretic-treated and heart-failure patients",
+            "Rash, dysgeusia (taste change), headache, dizziness",
+            "Angioedema is uncommon but serious"
+          ]
+        },
+        {
+          "h": "Electrolytes and kidney",
+          "points": [
+            "Hyperkalaemia, especially with renal impairment, K+-sparing diuretics, NSAIDs or potassium supplements",
+            "Acute renal failure in bilateral renal artery stenosis",
+            "Proteinuria and granulocytopenia are rare but need withdrawal"
+          ]
+        },
+        {
+          "h": "Pregnancy",
+          "points": [
+            "Fetotoxic in the second and third trimesters",
+            "Stop as soon as pregnancy is confirmed"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "NSAIDs blunt the antihypertensive effect and add renal risk",
+            "ACE inhibitors reduce lithium clearance, risking lithium toxicity",
+            "Antacids reduce captopril absorption",
+            "Sacubitril-valsartan must not be combined with an ACE inhibitor, because combined neprilysin and ACE inhibition raises the risk of angioedema"
+          ]
+        },
+        {
+          "h": "Renoprotection",
+          "points": [
+            "Slow diabetic and non-diabetic nephropathy and reduce proteinuria",
+            "Such benefit is independent of the blood pressure fall"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch36",
+        "GG14 ch30"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-013",
+      "type": "shortnote",
+      "front": "Short note: Uses of ACE inhibitors",
+      "sections": [
+        {
+          "h": "Hypertension",
+          "points": [
+            "First-line in all grades; ARBs are now prescribed as often",
+            "No postural hypotension, metabolic upset or rebound on withdrawal",
+            "Effective in renovascular and resistant hypertension, and in diabetics"
+          ]
+        },
+        {
+          "h": "Heart failure and MI",
+          "points": [
+            "Reduce mortality, hospitalisation and sudden death in systolic dysfunction",
+            "Start orally within 24 hours of an acute MI and continue for about 6 weeks, avoiding hypotension",
+            "Benefit extends to long-term survival in high-risk and post-MI patients"
+          ]
+        },
+        {
+          "h": "Prophylaxis",
+          "points": [
+            "HOPE trial: ramipril cut cardiac death, MI and stroke in high-risk patients without heart failure",
+            "Benefit is partly independent of blood pressure lowering"
+          ]
+        },
+        {
+          "h": "Other uses",
+          "points": [
+            "Diabetic and non-diabetic nephropathy",
+            "Scleroderma crisis, where they are life-saving",
+            "Captopril test as an adjunct in renovascular hypertension"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-014",
+      "type": "shortnote",
+      "front": "Short note: Pharmacokinetic differences among ACE inhibitors",
+      "sections": [
+        {
+          "h": "Active versus prodrug",
+          "points": [
+            "Captopril and lisinopril are active as given",
+            "Enalapril, ramipril, quinapril, perindopril, trandolapril, benazepril, fosinopril and imidapril are prodrugs",
+            "Enalapril is de-esterified in the liver to enalaprilat, which is not used orally"
+          ]
+        },
+        {
+          "h": "Duration",
+          "points": [
+            "Captopril acts for about 6 to 12 hours and needs several daily doses",
+            "Lisinopril, ramipril, quinapril, trandolapril and perindopril allow once-daily dosing"
+          ]
+        },
+        {
+          "h": "Food",
+          "points": [
+            "Food reduces captopril absorption",
+            "Enalapril absorption is not affected by food"
+          ]
+        },
+        {
+          "h": "Elimination",
+          "points": [
+            "Most are cleared by the kidney",
+            "Fosinopril is cleared by both liver and kidney, so its dose need not change in renal impairment"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "pk",
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-080",
+      "type": "basic",
+      "front": "Losartan: effect on uric acid",
+      "back": "Mild probenecid-like uricosuric action; it does not raise blood urate.",
+      "refs": [
+        "KDT8 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-009",
+      "type": "basic",
+      "front": "What is the rationale and the main risk of combining an ACE inhibitor with an ARB?",
+      "back": "Rationale: angiotensin II is also formed by non-ACE routes that an ARB can block, and ARBs cause a compensatory angiotensin II rise that an ACE inhibitor can limit. In practice the combination increases hyperkalaemia, hypotension and renal impairment, and trial evidence (ONTARGET) does not support combining an ACE inhibitor with an ARB in hypertension, heart failure or nephropathy. Aliskiren should likewise not be added to an ACE inhibitor or ARB in diabetics (ALTITUDE).",
+      "refs": [
+        "KDT8 ch36",
+        "GG14 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "interactions",
+        "adr",
+        "contraindications"
+      ],
+      "level": 3
     },
     {
       "id": "p2-ras-hf-018",
@@ -548,64 +722,27 @@
         "classification",
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-ras-hf-019",
-      "type": "cloze",
-      "front": "Classify: ACE inhibitors by chemical group",
-      "text": "{{Captopril}} is the sulfhydryl-containing ACE inhibitor, {{fosinopril}} is the phosphinate, and {{enalapril}}, {{lisinopril}} and {{ramipril}} are carboxyl compounds.",
+      "id": "p2-ras-hf-081",
+      "type": "basic",
+      "front": "Case: a heart-failure patient on an ACE inhibitor develops a dry cough. Would you switch to an ARB, and would you give both?",
+      "back": "Switch to an ARB: cough comes from bradykinin and substance P accumulating when ACE is blocked, and ARBs rarely cause it. Both together is not advised: it adds hyperkalaemia, hypotension and renal impairment, and trials (ONTARGET) do not support the combination. Check for renal artery stenosis, NSAIDs and volume depletion before and after the switch, since renal failure risk is the same with either class.",
       "refs": [
-        "KDT8 ch36"
+        "KDT8 ch36",
+        "GG14 ch30"
       ],
+      "pyq": [],
       "status": "draft",
       "subtopic": "p2-ras-hf-ace-arb-aliskiren",
       "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-020",
-      "type": "cloze",
-      "front": "Classify: active drugs versus prodrugs among ACE inhibitors",
-      "text": "{{Captopril}} and {{lisinopril}} are active without conversion, whereas {{enalapril}} is a prodrug converted in the liver to {{enalaprilat}}.",
-      "refs": [
-        "KDT8 ch36"
+        "mechanism",
+        "adr",
+        "interactions"
       ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "pk",
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-021",
-      "type": "cloze",
-      "front": "Classify: angiotensin receptor blockers and the renin inhibitor",
-      "text": "Nonpeptide AT1 blockers include {{losartan}}, {{candesartan}}, {{valsartan}}, {{irbesartan}}, {{olmesartan}} and {{telmisartan}}; the direct renin inhibitor is {{aliskiren}}.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-022",
-      "type": "cloze",
-      "front": "Classify: sites of renin-angiotensin system inhibition",
-      "text": "{{Beta-blockers}} reduce renin release; {{aliskiren}} blocks renin itself; {{ACE inhibitors}} block Ang I to Ang II conversion; {{ARBs}} block the AT1 receptor; {{spironolactone}} blocks the mineralocorticoid receptor.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ras-physiology",
-      "tags": [
-        "classification"
-      ]
+      "level": 3
     },
     {
       "id": "p2-ras-hf-023",
@@ -620,7 +757,8 @@
       "subtopic": "p2-ras-hf-nitric-oxide",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-ras-hf-024",
@@ -635,7 +773,39 @@
       "subtopic": "p2-ras-hf-nitric-oxide",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-032",
+      "type": "cloze",
+      "front": "Classify: nitric oxide donors",
+      "text": "Clinically useful NO donors include organic {{nitrates}} such as glyceryl trinitrate and isosorbide dinitrate, the organic {{nitrite}} amyl nitrite, and {{sodium nitroprusside}}.",
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-nitric-oxide",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-070",
+      "type": "basic",
+      "front": "Amyl nitrite: uses and tolerance",
+      "back": "The only organic nitrite used for angina; it dilates veins and arteries, causes throbbing headache, and shows no nitrate-like rapid tolerance.",
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-nitric-oxide",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ras-hf-025",
@@ -651,7 +821,8 @@
       "subtopic": "p2-ras-hf-nitric-oxide",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-026",
@@ -667,7 +838,8 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-027",
@@ -685,148 +857,39 @@
         "mechanism",
         "adr",
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-ras-hf-028",
-      "type": "basic",
-      "front": "What are the actions of the natriuretic peptides, and how do they relate to the renin-angiotensin system?",
-      "back": "ANP (mainly atrial) and BNP (mainly ventricular) cause vasodilatation, natriuresis and diuresis. They lower renin release, Ang II and aldosterone, counter-regulating the renin-angiotensin-aldosterone system. CNP acts mainly as a vasodilator with little natriuretic effect.",
+      "id": "p2-ras-hf-071",
+      "type": "shortnote",
+      "front": "Short note: Phosphodiesterase-5 inhibitors and nitric oxide",
+      "sections": [
+        {
+          "h": "Nitric oxide in erection",
+          "points": [
+            "NANC neurones release NO in corpora cavernosa; NO relaxes cavernosal smooth muscle through cGMP",
+            "Sildenafil and other PDE-5 inhibitors block cGMP breakdown and treat erectile dysfunction"
+          ]
+        },
+        {
+          "h": "Pulmonary arterial hypertension",
+          "points": [
+            "Sildenafil potentiates NO and lowers pulmonary artery pressure; drug of choice for PAH",
+            "Inhaled NO is first-line in neonates with severe respiratory distress and raised pulmonary arterial pressure; short-term benefit only in adults"
+          ]
+        }
+      ],
       "refs": [
         "KDT8 ch37"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "subtopic": "p2-ras-hf-nitric-oxide",
       "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-029",
-      "type": "shortnote",
-      "front": "Short note: Endothelin receptor antagonists in pulmonary arterial hypertension",
-      "sections": [
-        {
-          "h": "Rationale",
-          "points": [
-            "ET-1 is a potent pulmonary vasoconstrictor and smooth muscle mitogen",
-            "ETA receptors are richly expressed in pulmonary artery smooth muscle, more so in PAH"
-          ]
-        },
-        {
-          "h": "Agents",
-          "points": [
-            "Dual ETA and ETB antagonists: bosentan, macitentan",
-            "Selective ETA antagonist: ambrisentan",
-            "Sitaxsentan was withdrawn for fatal hepatotoxicity"
-          ]
-        },
-        {
-          "h": "Bosentan",
-          "points": [
-            "Dose-dependent rise in aminotransferases; contraindicated in liver disease",
-            "Monthly liver function tests are mandatory",
-            "Induces CYP2C9 and CYP3A4; interacts with warfarin, oral contraceptives and simvastatin"
-          ]
-        },
-        {
-          "h": "Ambrisentan and macitentan",
-          "points": [
-            "Ambrisentan: once daily, low interaction potential, peripheral oedema common",
-            "Macitentan: higher affinity for ETA; active metabolite with a long half-life; few clinically relevant interactions"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Headache, flushing, nasal congestion, oedema, mild fall in haemoglobin",
-            "Teratogenic in animals; contraindicated in pregnancy"
-          ]
-        },
-        {
-          "h": "Other PAH therapy",
-          "points": [
-            "PDE-5 inhibitors (sildenafil, tadalafil) and prostacyclin analogues such as epoprostenol",
-            "Selexipag: oral selective prostacyclin (IP) receptor agonist",
-            "Riociguat: soluble guanylyl cyclase stimulator; severe hypotension with nitrates or PDE-5 inhibitors; embryo-fetal toxicity"
-          ]
-        }
+        "uses"
       ],
-      "refs": [
-        "KDT8 ch37",
-        "GG14 ch35"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-endothelin-natriuretic",
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p2-ras-hf-030",
-      "type": "shortnote",
-      "front": "Short note: Natriuretic peptides, neprilysin inhibition and sacubitril-valsartan",
-      "sections": [
-        {
-          "h": "Family",
-          "points": [
-            "ANP and BNP are mainly cardiac; CNP is mainly endothelial and neuronal",
-            "ANP is the major circulating natriuretic peptide"
-          ]
-        },
-        {
-          "h": "Actions",
-          "points": [
-            "Arterial and venous dilatation reduces preload and afterload",
-            "Natriuresis and diuresis with reduced renin and aldosterone; no potassium loss"
-          ]
-        },
-        {
-          "h": "Receptors and clearance",
-          "points": [
-            "ANPA and ANPB (NPR1, NPR2) are guanylyl cyclase receptors that raise cGMP",
-            "ANPC (NPR3) is mainly a clearance receptor",
-            "Neprilysin degrades natriuretic peptides, bradykinin and substance P"
-          ]
-        },
-        {
-          "h": "Sacubitril-valsartan",
-          "points": [
-            "Sacubitril, a prodrug, inhibits neprilysin; valsartan blocks AT1 receptors",
-            "PARADIGM-HF: about 20% greater reduction in CV death or HF hospitalisation than enalapril; now recommended to replace an ACE inhibitor or ARB in symptomatic HFrEF",
-            "Main adverse effects: hypotension, hyperkalaemia, renal impairment and angioedema",
-            "Never combine with an ACE inhibitor (angioedema) or another ARB; contraindicated after angioedema on an ACE inhibitor or ARB; avoid with aliskiren in diabetics"
-          ]
-        },
-        {
-          "h": "Nesiritide",
-          "points": [
-            "Recombinant BNP given IV for severely decompensated heart failure",
-            "Risks are hypotension and renal injury"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch37",
-        "GG14 ch30",
-        "GG14 ch33",
-        "Katzung16 ch17"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-endothelin-natriuretic",
-      "tags": [
-        "newer-drugs",
-        "mechanism"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ras-hf-031",
@@ -897,21 +960,42 @@
           "year": 2019,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-ras-hf-032",
-      "type": "cloze",
-      "front": "Classify: nitric oxide donors",
-      "text": "Clinically useful NO donors include organic {{nitrates}} such as glyceryl trinitrate and isosorbide dinitrate, the organic {{nitrite}} amyl nitrite, and {{sodium nitroprusside}}.",
+      "id": "p2-ras-hf-084",
+      "type": "basic",
+      "front": "Why does nitrate tolerance occur, and how do nitrates compare with nitroprusside in toxicity?",
+      "back": "Tolerance with GTN relates to its bioactivation by mitochondrial aldehyde dehydrogenase being inhibited by reactive oxygen species from continuous exposure; it develops within hours and wears off quickly off the drug. Nitroprusside releases NO directly and its main toxicity is cyanide, a different problem from nitrate tolerance.",
       "refs": [
-        "KDT8 ch37"
+        "KDT8 ch36"
       ],
+      "pyq": [],
       "status": "draft",
       "subtopic": "p2-ras-hf-nitric-oxide",
       "tags": [
-        "classification"
-      ]
+        "mechanism",
+        "adr",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ras-hf-028",
+      "type": "basic",
+      "front": "What are the actions of the natriuretic peptides, and how do they relate to the renin-angiotensin system?",
+      "back": "ANP (mainly atrial) and BNP (mainly ventricular) cause vasodilatation, natriuresis and diuresis. They lower renin release, Ang II and aldosterone, counter-regulating the renin-angiotensin-aldosterone system. CNP acts mainly as a vasodilator with little natriuretic effect.",
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ras-hf-033",
@@ -925,7 +1009,8 @@
       "subtopic": "p2-ras-hf-endothelin-natriuretic",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-ras-hf-034",
@@ -940,7 +1025,302 @@
       "tags": [
         "mechanism",
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-061",
+      "type": "shortnote",
+      "front": "Short note: Kinins (bradykinin and kallidin)",
+      "sections": [
+        {
+          "h": "Generation",
+          "points": [
+            "Split from kininogen by kallikreins; contact activation by factor XII and plasmin",
+            "Degraded in lungs within about a minute by ACE (kininase II); kininase I produces des-Arg metabolites",
+            "C1 esterase inhibitor is the main natural kininogenesis inhibitor"
+          ]
+        },
+        {
+          "h": "Actions",
+          "points": [
+            "Potent arteriolar vasodilators via endothelial NO and PGI2; raise capillary permeability",
+            "Contract intestine and airways; stimulate pain fibres; release catecholamines from adrenal medulla"
+          ]
+        },
+        {
+          "h": "Receptors and disease",
+          "points": [
+            "B2 receptors are constitutive; B1 receptors are induced by inflammation",
+            "Hereditary angioedema from C1 esterase inhibitor deficiency; kinins contribute to ACE-inhibitor cough and angioedema"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-062",
+      "type": "basic",
+      "front": "Icatibant: class, duration and main use",
+      "back": "Synthetic decapeptide bradykinin B2 receptor antagonist, resistant to kinin-degrading enzymes; acts for up to 6 hours after s.c. injection; used to reverse swelling in hereditary angioedema.",
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-065",
+      "type": "shortnote",
+      "front": "Short note: Other vasoactive peptides - NPY, VIP, urotensin II and adrenomedullin",
+      "sections": [
+        {
+          "h": "Neuropeptide Y",
+          "points": [
+            "Co-released with noradrenaline from sympathetic nerves; postjunctional vasoconstriction via Y1, prejunctional inhibition of transmitter release via Y2",
+            "Y1 antagonists show it is not needed for normal BP; may contribute to hypertension or heart failure"
+          ]
+        },
+        {
+          "h": "Vasoactive intestinal peptide",
+          "points": [
+            "Potent vasodilator and cardiac stimulant; cotransmitter with acetylcholine; plasma half-life about 2 minutes",
+            "Acts on VPAC1 and VPAC2 receptors via cAMP; watery diarrhoea if overactivated"
+          ]
+        },
+        {
+          "h": "Urotensin II and adrenomedullin",
+          "points": [
+            "Urotensin II: 11-amino-acid peptide; strong arterial constriction via UT receptor; not a major BP regulator in man",
+            "Adrenomedullin: 52-amino-acid calcitonin-family peptide; long-lasting vasodilatation via cAMP and NO; raised in heart failure; no drug based on it"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-029",
+      "type": "shortnote",
+      "front": "Short note: Endothelin receptor antagonists in pulmonary arterial hypertension",
+      "sections": [
+        {
+          "h": "Rationale",
+          "points": [
+            "ET-1 is a potent pulmonary vasoconstrictor and smooth muscle mitogen",
+            "ETA receptors are richly expressed in pulmonary artery smooth muscle, more so in PAH"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Dual ETA and ETB antagonists: bosentan, macitentan",
+            "Selective ETA antagonist: ambrisentan",
+            "Sitaxsentan was withdrawn for fatal hepatotoxicity"
+          ]
+        },
+        {
+          "h": "Bosentan",
+          "points": [
+            "Dose-dependent rise in aminotransferases; contraindicated in liver disease",
+            "Monthly liver function tests are mandatory",
+            "Induces CYP2C9 and CYP3A4; interacts with warfarin, oral contraceptives and simvastatin"
+          ]
+        },
+        {
+          "h": "Ambrisentan and macitentan",
+          "points": [
+            "Ambrisentan: once daily, low interaction potential, peripheral oedema common",
+            "Macitentan: higher affinity for ETA; active metabolite with a long half-life; few clinically relevant interactions"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Headache, flushing, nasal congestion, oedema, mild fall in haemoglobin",
+            "Teratogenic in animals; contraindicated in pregnancy"
+          ]
+        },
+        {
+          "h": "Other PAH therapy",
+          "points": [
+            "PDE-5 inhibitors (sildenafil, tadalafil) and prostacyclin analogues such as epoprostenol",
+            "Selexipag: oral selective prostacyclin (IP) receptor agonist",
+            "Riociguat: soluble guanylyl cyclase stimulator; severe hypotension with nitrates or PDE-5 inhibitors; embryo-fetal toxicity"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch37",
+        "GG14 ch35"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-063",
+      "type": "shortnote",
+      "front": "Short note: Substance P and NK1 receptor antagonists",
+      "sections": [
+        {
+          "h": "Substance P",
+          "points": [
+            "11-amino-acid tachykinin neuropeptide; with neurokinins A and B from one precursor",
+            "Potent arteriolar vasodilator through endothelial NK1 receptors and NO; contracts gut and bronchi",
+            "Released from pain afferents; amplifies inflammation and pain transmission"
+          ]
+        },
+        {
+          "h": "Antiemetic action",
+          "points": [
+            "NK1 receptors in the chemoreceptor trigger zone and nucleus tractus solitarius, outside the blood-brain barrier, trigger vomiting",
+            "Aprepitant (and parenteral fosaprepitant) used as adjuvant in chemotherapy-induced and postoperative vomiting"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-064",
+      "type": "shortnote",
+      "front": "Short note: Calcitonin gene-related peptide (CGRP) in migraine",
+      "sections": [
+        {
+          "h": "Physiology",
+          "points": [
+            "37-amino-acid neuropeptide from the calcitonin gene; receptor is CLR plus RAMP",
+            "Potent vasodilator acting by adenylyl cyclase and cAMP in smooth muscle, not via endothelial NO"
+          ]
+        },
+        {
+          "h": "Migraine",
+          "points": [
+            "Trigeminal sensory neurones release CGRP around meningeal vessels, causing neurogenic inflammation",
+            "Infused CGRP causes headache in susceptible people; sumatriptan normalises raised cranial CGRP"
+          ]
+        },
+        {
+          "h": "Blockers",
+          "points": [
+            "Olcegepant: effective but very low bioavailability; telcagepant: withdrawn after phase III for hepatotoxicity",
+            "Erenumab: monoclonal antibody against the CGRP receptor, 70 mg monthly s.c., approved for migraine prophylaxis; injection-site reaction most common"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-030",
+      "type": "shortnote",
+      "front": "Short note: Natriuretic peptides, neprilysin inhibition and sacubitril-valsartan",
+      "sections": [
+        {
+          "h": "Family",
+          "points": [
+            "ANP and BNP are mainly cardiac; CNP is mainly endothelial and neuronal",
+            "ANP is the major circulating natriuretic peptide"
+          ]
+        },
+        {
+          "h": "Actions",
+          "points": [
+            "Arterial and venous dilatation reduces preload and afterload",
+            "Natriuresis and diuresis with reduced renin and aldosterone; no potassium loss"
+          ]
+        },
+        {
+          "h": "Receptors and clearance",
+          "points": [
+            "ANPA and ANPB (NPR1, NPR2) are guanylyl cyclase receptors that raise cGMP",
+            "ANPC (NPR3) is mainly a clearance receptor",
+            "Neprilysin degrades natriuretic peptides, bradykinin and substance P"
+          ]
+        },
+        {
+          "h": "Sacubitril-valsartan",
+          "points": [
+            "Sacubitril, a prodrug, inhibits neprilysin; valsartan blocks AT1 receptors",
+            "PARADIGM-HF: about 20% greater reduction in CV death or HF hospitalisation than enalapril; now recommended to replace an ACE inhibitor or ARB in symptomatic HFrEF",
+            "Main adverse effects: hypotension, hyperkalaemia, renal impairment and angioedema",
+            "Never combine with an ACE inhibitor (angioedema) or another ARB; contraindicated after angioedema on an ACE inhibitor or ARB; avoid with aliskiren in diabetics"
+          ]
+        },
+        {
+          "h": "Nesiritide",
+          "points": [
+            "Recombinant BNP given IV for severely decompensated heart failure",
+            "Risks are hypotension and renal injury"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch37",
+        "GG14 ch30",
+        "GG14 ch33",
+        "Katzung16 ch17"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 3
     },
     {
       "id": "p2-ras-hf-035",
@@ -955,7 +1335,8 @@
       "subtopic": "p2-ras-hf-cardiac-glycosides",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-ras-hf-036",
@@ -970,22 +1351,8 @@
       "subtopic": "p2-ras-hf-cardiac-glycosides",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-037",
-      "type": "basic",
-      "front": "How does digoxin slow the heart, and why is bradycardia more marked in heart failure?",
-      "back": "Digoxin increases vagal tone and directly depresses the SA and AV nodes, slowing AV conduction and prolonging AV nodal refractoriness. In heart failure, better output withdraws sympathetic overactivity and restores vagal tone, so the bradycardia is greater.",
-      "refs": [
-        "KDT8 ch38"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 1
     },
     {
       "id": "p2-ras-hf-038",
@@ -1000,7 +1367,71 @@
       "subtopic": "p2-ras-hf-cardiac-glycosides",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-041",
+      "type": "basic",
+      "front": "What is digoxin-specific Fab antibody used for?",
+      "back": "Fab fragments bind digoxin and related glycosides and rapidly reverse severe, life-threatening toxicity. They are non-immunogenic because they lack the Fc fragment, and are given by IV infusion.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-055",
+      "type": "cloze",
+      "front": "Classify: digoxin pharmacokinetics",
+      "text": "Digoxin is excreted {{unchanged}} in urine mainly by {{glomerular filtration}}; its half-life is about {{1.5 to 2 days}}, and it is a {{cumulative}} drug.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-074",
+      "type": "basic",
+      "front": "Digoxin and other cardiac glycosides: plant sources and status",
+      "back": "Digoxin comes from Digitalis lanata and is the only glycoside in current use; digitoxin (Digitalis purpurea) and ouabain (Strophanthus gratus) are no longer clinically used; toad skin contains bufotoxin.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-037",
+      "type": "basic",
+      "front": "How does digoxin slow the heart, and why is bradycardia more marked in heart failure?",
+      "back": "Digoxin increases vagal tone and directly depresses the SA and AV nodes, slowing AV conduction and prolonging AV nodal refractoriness. In heart failure, better output withdraws sympathetic overactivity and restores vagal tone, so the bradycardia is greater.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-039",
@@ -1016,7 +1447,8 @@
       "tags": [
         "poisoning",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-040",
@@ -1031,22 +1463,8 @@
       "subtopic": "p2-ras-hf-cardiac-glycosides",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-041",
-      "type": "basic",
-      "front": "What is digoxin-specific Fab antibody used for?",
-      "back": "Fab fragments bind digoxin and related glycosides and rapidly reverse severe, life-threatening toxicity. They are non-immunogenic because they lack the Fc fragment, and are given by IV infusion.",
-      "refs": [
-        "KDT8 ch38"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ras-hf-042",
@@ -1061,7 +1479,8 @@
       "subtopic": "p2-ras-hf-cardiac-glycosides",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-043",
@@ -1076,66 +1495,8 @@
       "subtopic": "p2-ras-hf-cardiac-glycosides",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-044",
-      "type": "basic",
-      "front": "Ivabradine: mechanism, indication and place in heart failure therapy?",
-      "back": "It selectively blocks the hyperpolarisation-activated (HCN) pacemaker channels that carry the funny current in the sinoatrial node, lowering heart rate without a direct inotropic or vasodilator effect. It is indicated in stable NYHA II to IV heart failure with sinus rhythm, heart rate above 70/min and LVEF 35% or less, when a beta-blocker is contraindicated or an adequate beta-blocker dose does not bring the rate down enough. Added to standard therapy, it reduced heart-failure hospitalisation and heart-failure deaths, but not total or cardiovascular mortality (SHIFT), and it lacks the cardioprotective effects of beta-blockers.",
-      "refs": [
-        "KDT8 ch38",
-        "GG14 ch33"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-heart-failure-drugs",
-      "tags": [
-        "mechanism",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-045",
-      "type": "basic",
-      "front": "Which drug classes reduce mortality in systolic heart failure?",
-      "back": "ACE inhibitors or ARBs, or sacubitril-valsartan (which is now recommended in place of them); evidence-based beta-blockers (metoprolol succinate, bisoprolol, carvedilol, nebivolol); mineralocorticoid antagonists (spironolactone, eplerenone); and SGLT2 inhibitors (dapagliflozin, empagliflozin), the most recent addition, which reduce mortality and HF hospitalisation with or without diabetes. Diuretics relieve congestion but do not improve survival; digoxin reduces hospitalisation without reducing overall mortality.",
-      "refs": [
-        "KDT8 ch38",
-        "GG14 ch33",
-        "Katzung16 ch13"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-heart-failure-drugs",
-      "tags": [
-        "uses",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-046",
-      "type": "basic",
-      "front": "Where do SGLT2 inhibitors fit in heart failure with reduced ejection fraction?",
-      "back": "Dapagliflozin and empagliflozin, developed as antidiabetic drugs, reduce mortality and heart-failure hospitalisation in HFrEF whether or not the patient has diabetes, and this appears to be a class effect. Dapagliflozin was the first approved for heart failure (USA, 2020); empagliflozin is approved for both HFrEF and HFpEF, and SGLT2 inhibitors are now considered first-line for HFpEF. They are added to the other prognostic drugs (ACE inhibitor, ARB or sacubitril-valsartan, beta-blocker and MRA). The mechanism is not settled: SGLT2 is absent from the heart, so natriuresis and glycosuria with preload reduction (\"a better diuretic\") is likely, with possible off-target effects such as sodium-hydrogen exchanger inhibition and less myocardial glucose use. They also slow chronic kidney disease. Adverse effects include genital and urinary tract infections and ketoacidosis.",
-      "refs": [
-        "GG14 ch33",
-        "Katzung16 ch13",
-        "Katzung16 ch41"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-heart-failure-drugs",
-      "tags": [
-        "newer-drugs",
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ras-hf-047",
@@ -1190,7 +1551,8 @@
       "tags": [
         "poisoning",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-048",
@@ -1243,7 +1605,265 @@
       "tags": [
         "pk",
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-056",
+      "type": "cloze",
+      "front": "Classify: factors that increase digoxin toxicity",
+      "text": "{{Hypokalaemia}} and high {{calcium}} increase toxicity; {{quinidine}}, {{verapamil}} and {{amiodarone}} raise plasma digoxin levels; {{thyrotoxicosis}} increases susceptibility to arrhythmia.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "interactions",
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-057",
+      "type": "cloze",
+      "front": "Classify: management of digoxin toxicity",
+      "text": "For ventricular arrhythmias give IV {{lidocaine}}; {{quinidine}} and {{procainamide}} are avoided; AV block with bradycardia is treated with a {{temporary pacemaker}}; DC {{cardioversion}} is avoided.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-072",
+      "type": "basic",
+      "front": "Which drugs raise plasma digoxin concentration?",
+      "back": "Quinidine (about doubles it: reduces tissue binding and renal and biliary clearance by inhibiting P-glycoprotein); also verapamil, diltiazem, captopril, propafenone and amiodarone to variable extents.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-073",
+      "type": "basic",
+      "front": "Which drugs change digoxin absorption?",
+      "back": "Reduced by metoclopramide, sucralfate, antacids, neomycin and sulfasalazine; increased by atropinic drugs including tricyclic antidepressants.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-075",
+      "type": "basic",
+      "front": "Digoxin dosing in heart failure: loading and maintenance",
+      "back": "Started without a loading dose at 0.125 to 0.25 mg/day; steady state in 5 to 7 days; increase to 0.375 or 0.5 mg/day at weekly intervals if needed. A loading dose of 0.75 to 1.25 mg over 24 to 48 hours is used only when an early response is needed, with close monitoring.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-053",
+      "type": "essay",
+      "front": "Essay: Cardiac glycosides - pharmacology, toxicity and uses",
+      "sections": [
+        {
+          "h": "Chemistry and source",
+          "points": [
+            "Digoxin from Digitalis lanata",
+            "Steroid-based aglycone with an unsaturated lactone ring and sugar moieties"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Inhibits Na+/K+ ATPase, raising intracellular Na+",
+            "Reduced Na+/Ca2+ exchange leads to Ca2+ loading of the sarcoplasmic reticulum",
+            "Onset is slow, taking hours"
+          ]
+        },
+        {
+          "h": "Actions",
+          "points": [
+            "Heart: positive inotropy, slowed AV conduction, shorter action potential, ectopic automaticity at high doses",
+            "Vessels and kidney: no consistent BP change; diuresis mainly in heart failure",
+            "CNS: nausea through the chemoreceptor trigger zone at higher doses"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Renal elimination, long half-life and cumulative action",
+            "Elderly and renally impaired patients need lower doses"
+          ]
+        },
+        {
+          "h": "Toxicity and management",
+          "points": [
+            "Low therapeutic index; extracardiac features usually come first",
+            "Stop the drug, correct potassium, give lidocaine, pace for AV block, and use Fab for severe toxicity"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Heart failure with low EF, and rate control in AF or flutter",
+            "Not a first-line drug for PSVT"
+          ]
+        },
+        {
+          "h": "Contraindications",
+          "points": [
+            "Ventricular tachycardia and high-grade AV block",
+            "Wolff-Parkinson-White syndrome with AF, because bypass tract conduction can accelerate"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "mechanism",
+        "poisoning"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ras-hf-082",
+      "type": "basic",
+      "front": "Case: an AF patient on digoxin and a loop diuretic starts amiodarone and then develops nausea and ventricular ectopics. Explain and manage.",
+      "back": "Three precipitants stack up: diuretic-induced hypokalaemia, an amiodarone-related rise in plasma digoxin, and possibly renal impairment or age. Stop digoxin, correct potassium (only if low and no high-grade AV block), and treat the ventricular arrhythmia with IV lidocaine, avoiding quinidine, procainamide and propafenone. Digoxin-specific Fab is for life-threatening toxicity.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-cardiac-glycosides",
+      "tags": [
+        "poisoning",
+        "interactions"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ras-hf-045",
+      "type": "basic",
+      "front": "Which drug classes reduce mortality in systolic heart failure?",
+      "back": "ACE inhibitors or ARBs, or sacubitril-valsartan (which is now recommended in place of them); evidence-based beta-blockers (metoprolol succinate, bisoprolol, carvedilol, nebivolol); mineralocorticoid antagonists (spironolactone, eplerenone); and SGLT2 inhibitors (dapagliflozin, empagliflozin), the most recent addition, which reduce mortality and HF hospitalisation with or without diabetes. Diuretics relieve congestion but do not improve survival; digoxin reduces hospitalisation without reducing overall mortality.",
+      "refs": [
+        "KDT8 ch38",
+        "GG14 ch33",
+        "Katzung16 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-058",
+      "type": "cloze",
+      "front": "Classify: drugs in heart failure by purpose",
+      "text": "Positive inotropes include {{digoxin}}, {{dobutamine}} and {{levosimendan}}; loop {{diuretics}} relieve congestion; {{spironolactone}} and {{eplerenone}} are aldosterone antagonists that improve survival.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-059",
+      "type": "cloze",
+      "front": "Classify: vasodilators and the heart-rate-lowering drug",
+      "text": "{{Nitrates}} mainly dilate veins, {{hydralazine}} mainly dilates arterioles, and {{sodium nitroprusside}} dilates both; {{ivabradine}} acts on the {{sinoatrial node}} to slow the heart rate.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-044",
+      "type": "basic",
+      "front": "Ivabradine: mechanism, indication and place in heart failure therapy?",
+      "back": "It selectively blocks the hyperpolarisation-activated (HCN) pacemaker channels that carry the funny current in the sinoatrial node, lowering heart rate without a direct inotropic or vasodilator effect. It is indicated in stable NYHA II to IV heart failure with sinus rhythm, heart rate above 70/min and LVEF 35% or less, when a beta-blocker is contraindicated or an adequate beta-blocker dose does not bring the rate down enough. Added to standard therapy, it reduced heart-failure hospitalisation and heart-failure deaths, but not total or cardiovascular mortality (SHIFT), and it lacks the cardioprotective effects of beta-blockers.",
+      "refs": [
+        "KDT8 ch38",
+        "GG14 ch33"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-046",
+      "type": "basic",
+      "front": "Where do SGLT2 inhibitors fit in heart failure with reduced ejection fraction?",
+      "back": "Dapagliflozin and empagliflozin, developed as antidiabetic drugs, reduce mortality and heart-failure hospitalisation in HFrEF whether or not the patient has diabetes, and this appears to be a class effect. Dapagliflozin was the first approved for heart failure (USA, 2020); empagliflozin is approved for both HFrEF and HFpEF, and SGLT2 inhibitors are now considered first-line for HFpEF. They are added to the other prognostic drugs (ACE inhibitor, ARB or sacubitril-valsartan, beta-blocker and MRA). The mechanism is not settled: SGLT2 is absent from the heart, so natriuresis and glycosuria with preload reduction (\"a better diuretic\") is likely, with possible off-target effects such as sodium-hydrogen exchanger inhibition and less myocardial glucose use. They also slow chronic kidney disease. Adverse effects include genital and urinary tract infections and ketoacidosis.",
+      "refs": [
+        "GG14 ch33",
+        "Katzung16 ch13",
+        "Katzung16 ch41"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "newer-drugs",
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-049",
@@ -1297,7 +1917,8 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-050",
@@ -1340,7 +1961,8 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-051",
@@ -1387,7 +2009,56 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-076",
+      "type": "basic",
+      "front": "Why is hydralazine given with isosorbide dinitrate in heart failure?",
+      "back": "The combination is the only long-term oral vasodilator regimen with survival benefit, though ACE inhibitors and ARBs are superior. It suits patients with renal insufficiency or renal artery stenosis who cannot take ACE inhibitors or ARBs; it added survival benefit in severe African-American patients already on ACE inhibitor, digoxin and diuretic.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-077",
+      "type": "basic",
+      "front": "Hydralazine in heart failure: which patients benefit and what limits it",
+      "back": "Afterload reduction in forward failure when cardiac index is below 2.5 L/min/m2 without a marked rise in CVP (below 18 mm Hg); limited by tachycardia, worsened ischaemia and fluid retention.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ras-hf-078",
+      "type": "basic",
+      "front": "Sacubitril: activation and PARADIGM-HF result",
+      "back": "Oral prodrug activated by esterases to sacubitrilat (neprilysin inhibitor); absolute bioavailability 60%; half-life about 12 hours. Combined with valsartan it gave a 20% greater reduction in death or heart-failure hospitalisation than enalapril in 8442 patients; common adverse effects were hypotension, hyperkalaemia and renal impairment.",
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 2
     },
     {
       "id": "p2-ras-hf-052",
@@ -1460,74 +2131,8 @@
           "year": 2025,
           "marks": 10
         }
-      ]
-    },
-    {
-      "id": "p2-ras-hf-053",
-      "type": "essay",
-      "front": "Essay: Cardiac glycosides - pharmacology, toxicity and uses",
-      "sections": [
-        {
-          "h": "Chemistry and source",
-          "points": [
-            "Digoxin from Digitalis lanata",
-            "Steroid-based aglycone with an unsaturated lactone ring and sugar moieties"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Inhibits Na+/K+ ATPase, raising intracellular Na+",
-            "Reduced Na+/Ca2+ exchange leads to Ca2+ loading of the sarcoplasmic reticulum",
-            "Onset is slow, taking hours"
-          ]
-        },
-        {
-          "h": "Actions",
-          "points": [
-            "Heart: positive inotropy, slowed AV conduction, shorter action potential, ectopic automaticity at high doses",
-            "Vessels and kidney: no consistent BP change; diuresis mainly in heart failure",
-            "CNS: nausea through the chemoreceptor trigger zone at higher doses"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Renal elimination, long half-life and cumulative action",
-            "Elderly and renally impaired patients need lower doses"
-          ]
-        },
-        {
-          "h": "Toxicity and management",
-          "points": [
-            "Low therapeutic index; extracardiac features usually come first",
-            "Stop the drug, correct potassium, give lidocaine, pace for AV block, and use Fab for severe toxicity"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Heart failure with low EF, and rate control in AF or flutter",
-            "Not a first-line drug for PSVT"
-          ]
-        },
-        {
-          "h": "Contraindications",
-          "points": [
-            "Ventricular tachycardia and high-grade AV block",
-            "Wolff-Parkinson-White syndrome with AF, because bypass tract conduction can accelerate"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "mechanism",
-        "poisoning"
-      ]
+      "level": 3
     },
     {
       "id": "p2-ras-hf-054",
@@ -1584,79 +2189,8 @@
       "subtopic": "p2-ras-hf-heart-failure-drugs",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-055",
-      "type": "cloze",
-      "front": "Classify: digoxin pharmacokinetics",
-      "text": "Digoxin is excreted {{unchanged}} in urine mainly by {{glomerular filtration}}; its half-life is about {{1.5 to 2 days}}, and it is a {{cumulative}} drug.",
-      "refs": [
-        "KDT8 ch38"
       ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-056",
-      "type": "cloze",
-      "front": "Classify: factors that increase digoxin toxicity",
-      "text": "{{Hypokalaemia}} and high {{calcium}} increase toxicity; {{quinidine}}, {{verapamil}} and {{amiodarone}} raise plasma digoxin levels; {{thyrotoxicosis}} increases susceptibility to arrhythmia.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "interactions",
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-057",
-      "type": "cloze",
-      "front": "Classify: management of digoxin toxicity",
-      "text": "For ventricular arrhythmias give IV {{lidocaine}}; {{quinidine}} and {{procainamide}} are avoided; AV block with bradycardia is treated with a {{temporary pacemaker}}; DC {{cardioversion}} is avoided.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-058",
-      "type": "cloze",
-      "front": "Classify: drugs in heart failure by purpose",
-      "text": "Positive inotropes include {{digoxin}}, {{dobutamine}} and {{levosimendan}}; loop {{diuretics}} relieve congestion; {{spironolactone}} and {{eplerenone}} are aldosterone antagonists that improve survival.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-heart-failure-drugs",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-059",
-      "type": "cloze",
-      "front": "Classify: vasodilators and the heart-rate-lowering drug",
-      "text": "{{Nitrates}} mainly dilate veins, {{hydralazine}} mainly dilates arterioles, and {{sodium nitroprusside}} dilates both; {{ivabradine}} acts on the {{sinoatrial node}} to slow the heart rate.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-heart-failure-drugs",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
+      "level": 3
     },
     {
       "id": "p2-ras-hf-060",
@@ -1715,408 +2249,27 @@
         "newer-drugs",
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-ras-hf-061",
-      "type": "shortnote",
-      "front": "Short note: Kinins (bradykinin and kallidin)",
-      "sections": [
-        {
-          "h": "Generation",
-          "points": [
-            "Split from kininogen by kallikreins; contact activation by factor XII and plasmin",
-            "Degraded in lungs within about a minute by ACE (kininase II); kininase I produces des-Arg metabolites",
-            "C1 esterase inhibitor is the main natural kininogenesis inhibitor"
-          ]
-        },
-        {
-          "h": "Actions",
-          "points": [
-            "Potent arteriolar vasodilators via endothelial NO and PGI2; raise capillary permeability",
-            "Contract intestine and airways; stimulate pain fibres; release catecholamines from adrenal medulla"
-          ]
-        },
-        {
-          "h": "Receptors and disease",
-          "points": [
-            "B2 receptors are constitutive; B1 receptors are induced by inflammation",
-            "Hereditary angioedema from C1 esterase inhibitor deficiency; kinins contribute to ACE-inhibitor cough and angioedema"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-endothelin-natriuretic",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-062",
+      "id": "p2-ras-hf-083",
       "type": "basic",
-      "front": "Icatibant: class, duration and main use",
-      "back": "Synthetic decapeptide bradykinin B2 receptor antagonist, resistant to kinin-degrading enzymes; acts for up to 6 hours after s.c. injection; used to reverse swelling in hereditary angioedema.",
+      "front": "Why is sacubitril-valsartan preferred to an ACE inhibitor in HFrEF, and what must be watched?",
+      "back": "In PARADIGM-HF sacubitril-valsartan gave about 20% greater reduction in death or HF hospitalisation than enalapril, so it is recommended in place of ACE inhibitor or ARB. Neprilysin inhibition raises natriuretic peptides while valsartan blocks angiotensin II. Hypotension, hyperkalaemia and renal impairment need watching. It adds to beta-blocker, MRA and SGLT2 inhibitor; diuretics treat congestion but do not improve survival.",
       "refs": [
-        "KDT8 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-endothelin-natriuretic",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-063",
-      "type": "shortnote",
-      "front": "Short note: Substance P and NK1 receptor antagonists",
-      "sections": [
-        {
-          "h": "Substance P",
-          "points": [
-            "11-amino-acid tachykinin neuropeptide; with neurokinins A and B from one precursor",
-            "Potent arteriolar vasodilator through endothelial NK1 receptors and NO; contracts gut and bronchi",
-            "Released from pain afferents; amplifies inflammation and pain transmission"
-          ]
-        },
-        {
-          "h": "Antiemetic action",
-          "points": [
-            "NK1 receptors in the chemoreceptor trigger zone and nucleus tractus solitarius, outside the blood-brain barrier, trigger vomiting",
-            "Aprepitant (and parenteral fosaprepitant) used as adjuvant in chemotherapy-induced and postoperative vomiting"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-endothelin-natriuretic",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-064",
-      "type": "shortnote",
-      "front": "Short note: Calcitonin gene-related peptide (CGRP) in migraine",
-      "sections": [
-        {
-          "h": "Physiology",
-          "points": [
-            "37-amino-acid neuropeptide from the calcitonin gene; receptor is CLR plus RAMP",
-            "Potent vasodilator acting by adenylyl cyclase and cAMP in smooth muscle, not via endothelial NO"
-          ]
-        },
-        {
-          "h": "Migraine",
-          "points": [
-            "Trigeminal sensory neurones release CGRP around meningeal vessels, causing neurogenic inflammation",
-            "Infused CGRP causes headache in susceptible people; sumatriptan normalises raised cranial CGRP"
-          ]
-        },
-        {
-          "h": "Blockers",
-          "points": [
-            "Olcegepant: effective but very low bioavailability; telcagepant: withdrawn after phase III for hepatotoxicity",
-            "Erenumab: monoclonal antibody against the CGRP receptor, 70 mg monthly s.c., approved for migraine prophylaxis; injection-site reaction most common"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-endothelin-natriuretic",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-065",
-      "type": "shortnote",
-      "front": "Short note: Other vasoactive peptides - NPY, VIP, urotensin II and adrenomedullin",
-      "sections": [
-        {
-          "h": "Neuropeptide Y",
-          "points": [
-            "Co-released with noradrenaline from sympathetic nerves; postjunctional vasoconstriction via Y1, prejunctional inhibition of transmitter release via Y2",
-            "Y1 antagonists show it is not needed for normal BP; may contribute to hypertension or heart failure"
-          ]
-        },
-        {
-          "h": "Vasoactive intestinal peptide",
-          "points": [
-            "Potent vasodilator and cardiac stimulant; cotransmitter with acetylcholine; plasma half-life about 2 minutes",
-            "Acts on VPAC1 and VPAC2 receptors via cAMP; watery diarrhoea if overactivated"
-          ]
-        },
-        {
-          "h": "Urotensin II and adrenomedullin",
-          "points": [
-            "Urotensin II: 11-amino-acid peptide; strong arterial constriction via UT receptor; not a major BP regulator in man",
-            "Adrenomedullin: 52-amino-acid calcitonin-family peptide; long-lasting vasodilatation via cAMP and NO; raised in heart failure; no drug based on it"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-endothelin-natriuretic",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-066",
-      "type": "basic",
-      "front": "Angiotensin (1-7): how it is formed and what it does",
-      "back": "Formed from Ang I or Ang II by ACE 2; acts on the Mas receptor to cause NO-dependent vasodilatation, antithrombotic and antiproliferative effects. ACE inhibitors raise its level by diverting Ang I.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ras-physiology",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-067",
-      "type": "basic",
-      "front": "Angiotensin IV: receptor and effect",
-      "back": "Hexapeptide (Ang 3-8) acting on the AT4 receptor, which is insulin-regulated aminopeptidase (IRAP); it prevents breakdown of neuropeptides involved in memory; improves memory in animals.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ras-physiology",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-068",
-      "type": "basic",
-      "front": "Angiotensin III: potency compared with Ang II",
-      "back": "Heptapeptide that is 2 to 10 times less potent than Ang II, but equipotent in stimulating aldosterone secretion.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ras-physiology",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-069",
-      "type": "basic",
-      "front": "Prorenin and the (pro)renin receptor: why they matter",
-      "back": "Prorenin circulates at 5 to 10 times renin levels and is active in its own right. Binding to the PRR augments its activity reversibly, and tissue activation drives local RAS effects (Ang II-dependent and independent pathways). Prorenin to renin ratio rises in diabetes.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ras-physiology",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-070",
-      "type": "basic",
-      "front": "Amyl nitrite: uses and tolerance",
-      "back": "The only organic nitrite used for angina; it dilates veins and arteries, causes throbbing headache, and shows no nitrate-like rapid tolerance.",
-      "refs": [
-        "KDT8 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-nitric-oxide",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-071",
-      "type": "shortnote",
-      "front": "Short note: Phosphodiesterase-5 inhibitors and nitric oxide",
-      "sections": [
-        {
-          "h": "Nitric oxide in erection",
-          "points": [
-            "NANC neurones release NO in corpora cavernosa; NO relaxes cavernosal smooth muscle through cGMP",
-            "Sildenafil and other PDE-5 inhibitors block cGMP breakdown and treat erectile dysfunction"
-          ]
-        },
-        {
-          "h": "Pulmonary arterial hypertension",
-          "points": [
-            "Sildenafil potentiates NO and lowers pulmonary artery pressure; drug of choice for PAH",
-            "Inhaled NO is first-line in neonates with severe respiratory distress and raised pulmonary arterial pressure; short-term benefit only in adults"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-nitric-oxide",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-072",
-      "type": "basic",
-      "front": "Which drugs raise plasma digoxin concentration?",
-      "back": "Quinidine (about doubles it: reduces tissue binding and renal and biliary clearance by inhibiting P-glycoprotein); also verapamil, diltiazem, captopril, propafenone and amiodarone to variable extents.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-073",
-      "type": "basic",
-      "front": "Which drugs change digoxin absorption?",
-      "back": "Reduced by metoclopramide, sucralfate, antacids, neomycin and sulfasalazine; increased by atropinic drugs including tricyclic antidepressants.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-074",
-      "type": "basic",
-      "front": "Digoxin and other cardiac glycosides: plant sources and status",
-      "back": "Digoxin comes from Digitalis lanata and is the only glycoside in current use; digitoxin (Digitalis purpurea) and ouabain (Strophanthus gratus) are no longer clinically used; toad skin contains bufotoxin.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-075",
-      "type": "basic",
-      "front": "Digoxin dosing in heart failure: loading and maintenance",
-      "back": "Started without a loading dose at 0.125 to 0.25 mg/day; steady state in 5 to 7 days; increase to 0.375 or 0.5 mg/day at weekly intervals if needed. A loading dose of 0.75 to 1.25 mg over 24 to 48 hours is used only when an early response is needed, with close monitoring.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-cardiac-glycosides",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-076",
-      "type": "basic",
-      "front": "Why is hydralazine given with isosorbide dinitrate in heart failure?",
-      "back": "The combination is the only long-term oral vasodilator regimen with survival benefit, though ACE inhibitors and ARBs are superior. It suits patients with renal insufficiency or renal artery stenosis who cannot take ACE inhibitors or ARBs; it added survival benefit in severe African-American patients already on ACE inhibitor, digoxin and diuretic.",
-      "refs": [
-        "KDT8 ch38"
+        "KDT8 ch37",
+        "KDT8 ch38",
+        "GG14 ch33"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p2-ras-hf-heart-failure-drugs",
       "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-077",
-      "type": "basic",
-      "front": "Hydralazine in heart failure: which patients benefit and what limits it",
-      "back": "Afterload reduction in forward failure when cardiac index is below 2.5 L/min/m2 without a marked rise in CVP (below 18 mm Hg); limited by tachycardia, worsened ischaemia and fluid retention.",
-      "refs": [
-        "KDT8 ch38"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-heart-failure-drugs",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-078",
-      "type": "basic",
-      "front": "Sacubitril: activation and PARADIGM-HF result",
-      "back": "Oral prodrug activated by esterases to sacubitrilat (neprilysin inhibitor); absolute bioavailability 60%; half-life about 12 hours. Combined with valsartan it gave a 20% greater reduction in death or heart-failure hospitalisation than enalapril in 8442 patients; common adverse effects were hypotension, hyperkalaemia and renal impairment.",
-      "refs": [
-        "KDT8 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-heart-failure-drugs",
-      "tags": [
+        "uses",
         "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-079",
-      "type": "basic",
-      "front": "Captopril: starting dose and timing with food",
-      "back": "Start at 6.25 mg twice daily in patients on diuretics or with CHF, then increase to 25 mg twice daily and up to 50 mg thrice daily by response. Take 1 hour before or 2 hours after a meal.",
-      "refs": [
-        "KDT8 ch36"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-ras-hf-080",
-      "type": "basic",
-      "front": "Losartan: effect on uric acid",
-      "back": "Mild probenecid-like uricosuric action; it does not raise blood urate.",
-      "refs": [
-        "KDT8 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 3
     }
   ]
 }

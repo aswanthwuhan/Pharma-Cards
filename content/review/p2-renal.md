@@ -81,3 +81,12 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, Rang & 
 | p2-renal-049 to p2-renal-087 | added | KDT8 ch42, ch43 |
 | rf-p2-renal-0392 to rf-p2-renal-0404 | added | KDT8 ch42, ch43 |
 | rf-p2-renal-0019, 0020 | corrected (class list format) | KDT8 ch42 |
+
+## Level pass (difficulty ladder)
+| id | status | source |
+|---|---|---|
+| p2-renal-001 to 087 | ok (level 1/2/3 set, deck reordered by subtopic and level) | KDT8 ch42, ch43 |
+| p2-renal-088, 089 | new | KDT8 ch42 |
+| p2-renal-090 | new (pyq non-diuretic uses) | KDT8 ch42 |
+| p2-renal-091, 092, 093 | new (L3 essays) | KDT8 ch42 |
+| p2-renal-094, 095, 096 | new | KDT8 ch42, ch43 |

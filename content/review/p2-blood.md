@@ -100,3 +100,73 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, Rang & 
 
 ## PYQ tagging and new cards (2026-11-02)
 - p2-blood-071 → PYQ tags added (Pleiotropic effects of statins) → existing refs
+
+
+## Expansion pass (2026-11-02)
+
+Chapters read: KDT8 ch44 (Haematinics and Erythropoietin), ch45 (Drugs Affecting Coagulation, Bleeding and Thrombosis), ch46 (Hypolipidaemic Drugs). Owner-book checks: GG14 ch36 (edoxaban dosing and reversal agents, PDF p745; factor Xa and andexanet, PDF p738-739) and GG14 ch37 (inclisiran, PDF p759-760), found with search.py. PYQ records from `content/pyq/questions.json` are tagged only when dated (year above 0); undated Q bank entries are not tagged.
+
+Counts: study +34 (p2-blood-077 to p2-blood-110; study total 110). Rapid +171 (see ids in the table; rapid total 825). Duplicates skipped: candidate facts already on a card (for example iron dose tables, B12 stores, aspirin 100 mg, P2Y12 trial results, EACA dosing, statin categories) were not repeated. Rapid q's checked against the 654 existing ones by add.js (no duplicate q accepted).
+
+Book conflicts (newest book wins where a newer owner book covers the point; otherwise both are kept and noted; no existing card was changed):
+1. Folic acid in pregnancy: KDT8 ch44 prints 1 mg/day routine supplementation (new rapid card, KDT8 ch44). Existing rf-p2-blood-0157 says at least 400 µg/day from a month before conception. Both kept; owner to decide. GG14 not checked for this point.
+2. Folinic acid timing after high-dose methotrexate: KDT8 ch44 says within about 1 hour and of no use after 3 hours (new rapid card). Existing rf-p2-blood-0161 says start within 24 hours. Both kept.
+3. INR for DVT/PE treatment: KDT8 ch45 table gives 3-3.5 (new rapid card). Existing rf-p2-blood-0252 gives 2-3 for VTE and AF. Both kept.
+4. Triglyceride level for drug therapy against pancreatitis: KDT8 ch46 says 500 mg/dl (text, no card added). Existing rf-p2-blood-0579 says above 1000 mg/dl. Not changed; owner to check.
+5. Epoetin immunogenicity: KDT8 ch44 calls epoetin non-immunogenic; existing rf-p2-blood-0180 cites rare pure red cell aplasia. No card added.
+6. Statin liver monitoring: KDT8 ch46 recommends liver function monitoring (study card p2-blood-104 states the book view). Existing rf-p2-blood-0549 says routine monitoring is no longer advised. Both kept.
+7. Reversal of oral factor Xa inhibitors and direct thrombin inhibitors: KDT8 ch45 says no specific antidote; GG14 ch36 gives andexanet alfa and idarucizumab. New cards follow GG14 (newer book).
+8. Statin dose ranges: KDT8 Table 46.3 (lovastatin 20-80 mg) differs from its text (10-40 mg). No range card added.
+9. Aspirin long-term dose: KDT8 ch45 quotes 75-162 mg/day (ACC/AHA); existing rf-p2-blood-0388 cites GG14 at 100 mg/day or less. Both kept; new card uses KDT8 maximal inhibition at 75-150 mg/day.
+
+Unsourced cards: none. Web sources: none. PrepLadder sources: none used.
+
+Table of new cards (id | status | source). Status "added" = new this pass, draft.
+
+
+Study ids added this pass: p2-blood-077 to p2-blood-110 (34 cards). Study total now 110.
+
+| id | status | source |
+|---|---|---|
+| p2-blood-077 | added | KDT8 ch44 (PYQ 1) |
+| p2-blood-078 | added | KDT8 ch44 |
+| p2-blood-079 | added | KDT8 ch44 |
+| p2-blood-080 | added | KDT8 ch44 |
+| p2-blood-081 | added | KDT8 ch45 (PYQ 1) |
+| p2-blood-082 | added | KDT8 ch45 (PYQ 4) |
+| p2-blood-083 | added | KDT8 ch45 |
+| p2-blood-084 | added | KDT8 ch45 |
+| p2-blood-085 | added | KDT8 ch45 (PYQ 1) |
+| p2-blood-086 | added | KDT8 ch45 (PYQ 2) |
+| p2-blood-087 | added | KDT8 ch45 |
+| p2-blood-088 | added | KDT8 ch45 (PYQ 4) |
+| p2-blood-089 | added | KDT8 ch45 |
+| p2-blood-090 | added | KDT8 ch45; GG14 ch36 (PYQ 3) |
+| p2-blood-091 | added | GG14 ch36 |
+| p2-blood-092 | added | KDT8 ch45 (PYQ 4) |
+| p2-blood-093 | added | KDT8 ch45 |
+| p2-blood-094 | added | KDT8 ch45 (PYQ 1) |
+| p2-blood-095 | added | KDT8 ch45 (PYQ 4) |
+| p2-blood-096 | added | KDT8 ch45 (PYQ 2) |
+| p2-blood-097 | added | KDT8 ch45 (PYQ 1) |
+| p2-blood-098 | added | KDT8 ch45 |
+| p2-blood-099 | added | KDT8 ch45 |
+| p2-blood-100 | added | KDT8 ch45 (PYQ 1) |
+| p2-blood-101 | added | KDT8 ch46 (PYQ 1) |
+| p2-blood-102 | added | KDT8 ch46 (PYQ 2) |
+| p2-blood-103 | added | KDT8 ch46 |
+| p2-blood-104 | added | KDT8 ch46 |
+| p2-blood-105 | added | KDT8 ch46 (PYQ 1) |
+| p2-blood-106 | added | KDT8 ch46 |
+| p2-blood-107 | added | GG14 ch37; KDT8 ch46 (PYQ 1) |
+| p2-blood-108 | added | KDT8 ch46 |
+| p2-blood-109 | added | KDT8 ch46 |
+| p2-blood-110 | added | KDT8 ch46 |
+| p2-blood-111 | new | KDT8 ch45 |
+| p2-blood-112 | new | GG14 ch36; KDT8 ch45 |
+| p2-blood-113 | new | KDT8 ch45; GG14 ch36 |
+| p2-blood-114 | new | KDT8 ch45 |
+| p2-blood-115 | new | KDT8 ch45; GG14 ch36 |
+| p2-blood-116 | new | KDT8 ch45; GG14 ch36 |
+| p2-blood-117 | new | KDT8 ch45 |
+| p2-blood-001..110 | ok (level 1/2/3 assigned) | unchanged |
