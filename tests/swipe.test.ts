@@ -64,9 +64,10 @@ describe("subtopic roll-up", () => {
     expect(t.cards).toBe(40);
   });
 
-  it("ignores unrated subtopics for the score but counts them for coverage", () => {
+  it("counts unrated subtopics as the prior for the score and coverage", () => {
     const t = rollupMastery("t", [sub(10, 90), sub(10, null, 0)]);
-    expect(t.score).toBe(90);
+    // Unrated subtopics count as the prior (50), so 10 cards at 90 and 10 at 50 gives 70.
+    expect(t.score).toBe(70);
     expect(t.coverage).toBeCloseTo(0.5);
   });
 

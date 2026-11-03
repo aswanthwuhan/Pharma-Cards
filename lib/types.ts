@@ -55,6 +55,7 @@ export interface FlashCard {
   sections?: Section[]; // shortnote, essay
   text?: string; // cloze
   kind?: "fact" | "class"; // rapid-fire cards: a single fact, or a full drug-class list
+  level?: 1 | 2 | 3; // study cards: 1 basic, 2 applied, 3 advanced; default 1
   refs?: string[];
   pyq?: PyqTag[];
   status?: CardStatus;

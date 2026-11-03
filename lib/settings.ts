@@ -18,6 +18,7 @@ export interface Settings {
   haptics: boolean; // vibrate on grade (where supported)
   theme: "dark" | "light" | "auto"; // Night mode / Day mode / follow the device
   motion: MotionSetting; // full = always animate, system = follow the phone, reduced = never
+  essayStyle: "ladder" | "rail"; // long-essay answers: heading ladder (B) or progress rail (A)
   palette: Palette;
 }
 
@@ -47,6 +48,7 @@ export const DEFAULT_SETTINGS: Settings = {
   haptics: true,
   theme: "dark",
   motion: "full",
+  essayStyle: "ladder",
   palette: "petrol",
 };
 

@@ -38,6 +38,13 @@ export interface Setting {
   value: unknown;
 }
 
+/** Per-heading recall marks on a long-essay card (Heading Ladder): heading index -> recalled? */
+export interface EssayMark {
+  cardId: string;
+  marks: Record<number, boolean>;
+  at: number;
+}
+
 export interface MasterySnapshot {
   id?: number;
   at: number;
@@ -54,6 +61,7 @@ export const db = new Dexie("md-pharma-flashcards") as Dexie & {
   overrides: EntityTable<CardOverride, "id">;
   settings: EntityTable<Setting, "key">;
   snapshots: EntityTable<MasterySnapshot, "id">;
+  essayMarks: EntityTable<EssayMark, "cardId">;
 };
 
 db.version(1).stores({
@@ -66,6 +74,7 @@ db.version(1).stores({
   settings: "key",
   snapshots: "++id, at",
 });
+db.version(2).stores({ essayMarks: "cardId" });
 
 // Mastery snapshots are added after every session; keep only the newest ones.
 export const MAX_SNAPSHOTS = 365;
@@ -95,7 +104,7 @@ export function setSetting(key: string, value: unknown) {
 
 // ---- Backup export / import ----
 
-export const BACKUP_TABLES = ["cardStates", "reviews", "bookmarks", "notes", "settings", "snapshots", "overrides", "customCards"] as const;
+export const BACKUP_TABLES = ["cardStates", "reviews", "bookmarks", "notes", "settings", "snapshots", "overrides", "customCards", "essayMarks"] as const;
 type BackupTable = (typeof BACKUP_TABLES)[number];
 
 export async function exportBackup() {
@@ -126,6 +135,7 @@ const VALID: Record<BackupTable, (r: any) => boolean> = {
   settings: (r) => obj(r) && str(r.key) && (SETTING_OK[r.key]?.(r.value) ?? true),
   snapshots: (r) => obj(r) && num(r.at) && typeof r.label === "string" && obj(r.scores),
   overrides: (r) => obj(r) && str(r.id),
+  essayMarks: (r) => obj(r) && str(r.cardId) && obj(r.marks) && Object.values(r.marks).every((v) => typeof v === "boolean") && num(r.at),
   customCards: (r) => obj(r) && str(r.id) && !r.id.includes("~") && str(r.topicId) && typeof r.type === "string" && str(r.front),
 };
 
@@ -168,6 +178,7 @@ export async function importBackup(data: Record<string, unknown>): Promise<{ add
       ["settings", good("settings")],
       ["overrides", good("overrides")],
       ["customCards", good("customCards")],
+      ["essayMarks", good("essayMarks")],
     ] as const) {
       await db.table(t).bulkPut(rows);
       added += rows.length;

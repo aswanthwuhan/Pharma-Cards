@@ -148,6 +148,24 @@ body::before {
   --color-teal: #7a4b12; --color-teal-deep: #5c380c; --color-teal-wash: #efe2c6; --color-on-teal: #ffffff; --color-unseen: #e8dcc2;
 }
 
+/* Faint, thin scrollbars: low-contrast thumb on a transparent track, no layout gutter. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(183, 245, 216, 0.12) transparent;
+}
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(183, 245, 216, 0.12);
+  border-radius: 999px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(183, 245, 216, 0.3);
+}
+
 html {
   color-scheme: dark;
   -webkit-tap-highlight-color: transparent;

@@ -3,10 +3,11 @@
 import { useLiveQuery } from "dexie-react-hooks";
 import bundled from "@/content/all.json";
 import { cardError } from "./cardCheck";
-import { db, getSetting } from "./db";
-import { groupMastery, groupWeight, rollupMastery, type TopicMastery } from "./mastery";
+import { db, getSetting, setSetting, type CardState } from "./db";
+import { groupMastery, groupWeight, HYSTERESIS, LABEL_THRESHOLDS, labelFor, rollupMastery, type MasteryLabel, type TopicMastery } from "./mastery";
 import { recallProbability } from "./srs";
 import { shuffle, stratifiedSample, weakPriority } from "./sampler";
+import { isOpen, levelOrder, reachedTop, unlockedLevels, type LevelSignal } from "./levels";
 import { TOPICS } from "./syllabus";
 import { TAGS, type FlashCard, type Tag } from "./types";
 
@@ -64,8 +65,11 @@ export async function computeMastery(cards?: FlashCard[]): Promise<MasteryReport
   const recall = new Map(states.map((s) => [s.cardId, s.lastRating === 1 ? 0 : recallProbability(s, now)]));
   const reviewsByCard = new Map<string, typeof reviews>();
   for (const r of reviews) reviewsByCard.set(r.cardId, [...(reviewsByCard.get(r.cardId) ?? []), r]);
+  // Last stored labels feed the hysteresis, so a group near a threshold keeps its label.
+  const memory = await getSetting<Record<string, MasteryLabel>>("masteryLabels", {});
+  const signal = new Map<string, LevelSignal>(states.map((s) => [s.cardId, { lastRating: s.lastRating, recall: recall.get(s.cardId) }]));
   const group = (key: string, ids: string[]) =>
-    groupMastery(key, ids, ids.flatMap((id) => reviewsByCard.get(id) ?? []), recall);
+    groupMastery(key, ids, ids.flatMap((id) => reviewsByCard.get(id) ?? []), recall, memory[key]);
 
   const subtopic = new Map<string, TopicMastery>();
   const topic = new Map<string, TopicMastery>();
@@ -73,17 +77,22 @@ export async function computeMastery(cards?: FlashCard[]): Promise<MasteryReport
     const inTopic = list.filter((c) => c.topicId === t.id);
     if (!inTopic.length) continue;
     const children: TopicMastery[] = [];
-    const bySub = new Map<string, string[]>();
+    const bySub = new Map<string, FlashCard[]>();
     for (const c of inTopic) {
       const k = c.subtopic ?? `${t.id}-other`;
-      bySub.set(k, [...(bySub.get(k) ?? []), c.id]);
+      bySub.set(k, [...(bySub.get(k) ?? []), c]);
     }
-    for (const [k, ids] of bySub) {
-      const m = group(k, ids);
+    for (const [k, subCards] of bySub) {
+      let m = group(k, subCards.map((c) => c.id));
+      // Strong needs the top of the ladder: a subtopic known only at basic level is capped at moderate.
+      const strongFloor = LABEL_THRESHOLDS.strong - HYSTERESIS;
+      if (m.score !== null && m.score >= strongFloor && !reachedTop(subCards, signal)) {
+        m = { ...m, score: strongFloor - 1, label: labelFor(strongFloor - 1, memory[k]) };
+      }
       subtopic.set(k, m);
       children.push(m);
     }
-    topic.set(t.id, rollupMastery(t.id, children));
+    topic.set(t.id, rollupMastery(t.id, children, memory[t.id]));
   }
 
   const tag = new Map<Tag, TopicMastery>();
@@ -91,6 +100,10 @@ export async function computeMastery(cards?: FlashCard[]): Promise<MasteryReport
     const ids = list.filter((c) => c.tags?.includes(tg)).map((c) => c.id);
     if (ids.length) tag.set(tg, group(tg, ids));
   }
+  // Merge, so a partial list (e.g. one mode's cards) does not erase other groups' labels.
+  const next: Record<string, MasteryLabel> = { ...memory };
+  for (const m of [...topic.values(), ...subtopic.values(), ...tag.values()]) if (m.label !== "unassessed") next[m.topicId] = m.label;
+  if (JSON.stringify(next) !== JSON.stringify(memory)) setSetting("masteryLabels", next);
   return { topic, subtopic, tag };
 }
 
@@ -168,7 +181,8 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       });
       // Highest priority first; ties go to the weakest subtopic.
       scored.sort((a, b) => b.p - a.p || (subtopic.get(a.c.subtopic!)?.score ?? 50) - (subtopic.get(b.c.subtopic!)?.score ?? 50));
-      return shuffle(scored.slice(0, opts.size ?? 30).map((x) => x.c));
+      // Rebuild foundations first: easier weak cards before the advanced ones.
+      return levelOrder(shuffle(scored.slice(0, opts.size ?? 30).map((x) => x.c)));
     }
 
     case "bookmarks": {
@@ -176,8 +190,14 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       return shuffle(cards.filter((c) => ids.has(c.id)));
     }
 
-    case "topic":
-      return shuffle(cards).slice(0, opts.size ?? cards.length);
+    case "topic": {
+      // Due reviews first, then new cards basic to advanced, then the rest.
+      const nowMs = now.getTime();
+      const due = shuffle(cards.filter((c) => (states.get(c.id)?.due ?? Infinity) <= nowMs));
+      const unseen = levelOrder(shuffle(cards.filter((c) => !states.has(c.id))));
+      const rest = shuffle(cards.filter((c) => states.has(c.id) && states.get(c.id)!.due > nowMs));
+      return [...due, ...unseen, ...rest].slice(0, opts.size ?? cards.length);
+    }
 
     case "daily":
     default: {
@@ -190,14 +210,24 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       // Plan today's quota from the start-of-day count, so reopening a session does not shrink it.
       const newLimit = await dailyNewTarget(cards, { has: (id) => states.has(id) && !doneToday.has(id) });
       const { subtopic } = await computeMastery(cards);
+      // New cards only from levels the student has unlocked in each subtopic.
+      const unlocked = unlockedLevels(cards, levelSignals([...states.values()], now));
       const fresh = stratifiedSample(
-        cards.filter((c) => !states.has(c.id)).map(bySubtopic),
+        cards.filter((c) => !states.has(c.id) && isOpen(c, unlocked)).map(bySubtopic),
         Math.max(0, newLimit - newDoneToday),
         (s) => groupWeight(subtopic.get(s)),
       );
-      return [...due, ...restore(fresh)];
+      // New cards run basic to advanced, so each session has a flow.
+      return [...due, ...levelOrder(restore(fresh))];
     }
   }
+}
+
+/** Per-card pass signal for the level ladder; a last "Forgot" counts as forgotten. */
+export function levelSignals(states: CardState[], now = new Date()): Map<string, LevelSignal> {
+  return new Map(
+    states.map((s) => [s.cardId, { lastRating: s.lastRating, recall: s.lastRating === 1 ? 0 : recallProbability(s, now) }]),
+  );
 }
 
 export function startOfDay(d = new Date()) {

@@ -73,3 +73,41 @@ describe("sampler", () => {
     expect(weakPriority({ recall: null })).toBeGreaterThan(weakPriority({ recall: 0.95 }));
   });
 });
+
+describe("robust weak/strong", () => {
+  it("does not call a group strong when most cards are unseen", () => {
+    const ids = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+    const recall = new Map<string, number | null>([["a", 1], ["b", 1]]);
+    const reviews = [1, 2, 3, 4].map((i) => ({ cardId: "a", topicId: "t", rating: 4 as const, at: Date.now() - i, ms: 5000 }));
+    const m = topicMastery("g", ids, reviews, recall);
+    expect(m.label).not.toBe("strong");
+  });
+
+  it("ignores zero or missing timings when judging speed", () => {
+    const ids = ["a", "b", "c"];
+    const recall = new Map<string, number | null>(ids.map((id) => [id, 0.9]));
+    const reviews = ids.map((id, i) => ({ cardId: id, topicId: "t", rating: 3 as const, at: Date.now() - i, ms: i === 0 ? 0 : NaN }));
+    expect(topicMastery("g", ids, reviews, recall).score).not.toBeNull();
+  });
+
+  it("rollup pulls a topic to the middle when most subtopics are unassessed", () => {
+    const rated = { topicId: "s1", cards: 2, score: 100, label: "strong" as const, coverage: 1, reviews: 9, accuracy: 1, retention: 1 };
+    const unrated = { topicId: "s2", cards: 18, score: null, label: "unassessed" as const, coverage: 0, reviews: 0, accuracy: null, retention: null };
+    const r = rollupMastery("t", [rated, unrated]);
+    expect(r.score).toBeLessThan(60);
+  });
+});
+
+describe("label hysteresis", () => {
+  it("keeps strong until the score drops below 72", () => {
+    expect(labelFor(73, "strong")).toBe("strong");
+    expect(labelFor(71, "strong")).toBe("moderate");
+    expect(labelFor(73)).toBe("moderate");
+    expect(labelFor(75)).toBe("strong");
+  });
+  it("keeps moderate until the score drops below 47", () => {
+    expect(labelFor(48, "moderate")).toBe("moderate");
+    expect(labelFor(46, "moderate")).toBe("weak");
+    expect(labelFor(48, "weak")).toBe("weak");
+  });
+});

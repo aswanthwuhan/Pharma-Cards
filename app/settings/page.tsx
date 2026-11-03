@@ -231,6 +231,21 @@ export default function SettingsPage() {
                 />
               }
             />
+            <Row
+              title="Long essay cards"
+              description="Ladder: all headings as rows; open each after recalling it and mark it ✓ or ✗. Rail: headings appear one by one, with a progress bar."
+              control={
+                <Segmented
+                  label="Long essay cards"
+                  value={s.essayStyle}
+                  options={[
+                    { value: "ladder", label: "Ladder" },
+                    { value: "rail", label: "Rail" },
+                  ]}
+                  onChange={(v) => updateSetting("essayStyle", v)}
+                />
+              }
+            />
             <div className="px-4 pb-4 sm:px-5">
               <p className="mb-1 font-semibold">Colour theme</p>
               <p className="mb-3 text-sm text-ink-soft">Mastery colours (weak, moderate, strong) stay the same in every theme.</p>

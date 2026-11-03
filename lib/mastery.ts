@@ -26,10 +26,16 @@ const TARGET_MS = 20_000; // a comfortable time per card
 
 export const LABEL_THRESHOLDS = { strong: 75, moderate: 50 };
 
-export function labelFor(score: number | null): MasteryLabel {
+// Hysteresis: a group must drop HYSTERESIS points below a threshold before its label falls,
+// so a score hovering on the line does not flip the label every session.
+export const HYSTERESIS = 3;
+
+export function labelFor(score: number | null, prev?: MasteryLabel): MasteryLabel {
   if (score === null) return "unassessed";
-  if (score >= LABEL_THRESHOLDS.strong) return "strong";
-  if (score >= LABEL_THRESHOLDS.moderate) return "moderate";
+  const strongAt = LABEL_THRESHOLDS.strong - (prev === "strong" ? HYSTERESIS : 0);
+  const moderateAt = LABEL_THRESHOLDS.moderate - (prev === "moderate" || prev === "strong" ? HYSTERESIS : 0);
+  if (score >= strongAt) return "strong";
+  if (score >= moderateAt) return "moderate";
   return "weak";
 }
 
@@ -58,53 +64,59 @@ function median(xs: number[]) {
  * @param cardIds    all cards in the topic
  * @param reviews    the topic's review history
  * @param recall     cardId -> current FSRS recall probability (null = never seen)
+ * @param prev       last stored label, for hysteresis
  */
 export function groupMastery(
   topicId: string,
   cardIds: string[],
   reviews: ReviewEvent[],
   recall: Map<string, number | null>,
+  prev?: MasteryLabel,
 ): TopicMastery {
   const seen = cardIds.filter((id) => recall.get(id) != null);
   const coverage = cardIds.length ? seen.length / cardIds.length : 0;
   const accuracy = weightedAccuracy(reviews);
-  const rs = seen.map((id) => recall.get(id) as number);
-  const retention = rs.length ? rs.reduce((a, b) => a + b, 0) / rs.length : null;
+  // Unseen cards count as 0 recall, so a sliver of studied cards cannot make a whole group look strong.
+  const retention = cardIds.length ? cardIds.reduce((a, id) => a + (recall.get(id) ?? 0), 0) / cardIds.length : null;
 
   if (reviews.length < MIN_REVIEWS || accuracy === null) {
     return { topicId, cards: cardIds.length, score: null, label: "unassessed", coverage, reviews: reviews.length, accuracy, retention };
   }
 
   // Slow answers lower the score a little (up to 5 points); fast answers raise it a little.
-  const med = median(reviews.map((r) => r.ms)) ?? TARGET_MS;
+  // Zero or missing timings (bad data) are ignored.
+  const med = median(reviews.map((r) => r.ms).filter((ms) => Number.isFinite(ms) && ms > 0)) ?? TARGET_MS;
   const speedAdj = Math.max(-0.05, Math.min(0.05, ((TARGET_MS - med) / TARGET_MS) * 0.05));
 
   const raw = 0.55 * accuracy + 0.45 * (retention ?? accuracy) + speedAdj;
   const score = Math.round(Math.max(0, Math.min(1, raw)) * 100);
-  return { topicId, cards: cardIds.length, score, label: labelFor(score), coverage, reviews: reviews.length, accuracy, retention };
+  return { topicId, cards: cardIds.length, score, label: labelFor(score, prev), coverage, reviews: reviews.length, accuracy, retention };
 }
 
 /**
  * Roll subtopics up into their topic: the score is the card-weighted mean of
  * the rated subtopics, so a big weak subtopic pulls the topic down more than a small one.
  */
-export function rollupMastery(topicId: string, children: TopicMastery[]): TopicMastery {
+export function rollupMastery(topicId: string, children: TopicMastery[], prev?: MasteryLabel): TopicMastery {
   const cards = children.reduce((a, c) => a + c.cards, 0);
   const seen = children.reduce((a, c) => a + c.coverage * c.cards, 0);
   const reviews = children.reduce((a, c) => a + c.reviews, 0);
   const rated = children.filter((c) => c.score !== null);
-  const w = rated.reduce((a, c) => a + c.cards, 0);
   const wavg = (f: (c: TopicMastery) => number | null) => {
     const xs = rated.filter((c) => f(c) !== null);
     const ww = xs.reduce((a, c) => a + c.cards, 0);
     return ww ? xs.reduce((a, c) => a + f(c)! * c.cards, 0) / ww : null;
   };
-  const score = w ? Math.round(rated.reduce((a, c) => a + c.score! * c.cards, 0) / w) : null;
+  // Unassessed children count as the prior (50), so a big unstudied part pulls the topic to the middle
+  // instead of letting the small rated part decide alone.
+  const score = rated.length
+    ? Math.round(children.reduce((a, c) => a + (c.score ?? LABEL_THRESHOLDS.moderate) * c.cards, 0) / (cards || 1))
+    : null;
   return {
     topicId,
     cards,
     score,
-    label: labelFor(score),
+    label: labelFor(score, prev),
     coverage: cards ? seen / cards : 0,
     reviews,
     accuracy: wavg((c) => c.accuracy),

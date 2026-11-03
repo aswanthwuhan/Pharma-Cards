@@ -51,3 +51,16 @@ describe("audit round 2", () => {
     expect(await db.settings.get("retention")).toMatchObject({ value: 0.9 });
   });
 });
+
+describe("essay heading marks", () => {
+  it("persist per card and round-trip through backup", async () => {
+    const cardId = CARDS.find((c) => c.type === "essay")!.id;
+    await db.essayMarks.put({ cardId, marks: { 0: true, 2: false }, at: 1 });
+    const { exportBackup } = await import("../lib/db");
+    const backup = await exportBackup();
+    await db.essayMarks.clear();
+    const res = await importBackup({ ...backup, essayMarks: [...(backup as any).essayMarks, { cardId: "x", marks: { 0: "yes" }, at: 1 }] });
+    expect(res.invalid).toBe(1);
+    expect((await db.essayMarks.get(cardId))?.marks).toEqual({ 0: true, 2: false });
+  });
+});

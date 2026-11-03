@@ -86,8 +86,11 @@ for (const file of readdirSync(deckDir).filter((f) => f.endsWith(".json")).sort(
     if (c.type === "cloze" && !/\{\{.+?\}\}/.test(c.text ?? "")) errors.push(`${where}: cloze needs {{blanks}}`);
     if (subIds.size && !subIds.has(c.subtopic)) errors.push(`${where}: unknown subtopic ${c.subtopic}`);
     if (!Array.isArray(c.tags) || !c.tags.length || c.tags.length > 3) errors.push(`${where}: needs 1-3 tags`);
+    if (c.level !== undefined && ![1, 2, 3].includes(c.level)) errors.push(`${where}: level must be 1, 2 or 3`);
     for (const t of c.tags ?? []) if (!TAGS.has(t)) errors.push(`${where}: unknown tag ${t}`);
-    cards.push({ ...c, topicId: deck.topicId, status: c.status ?? "draft" });
+    // Levels not set by hand: basic/cloze = 1, interaction cards and shortnotes = 2, essays = 3.
+    const level = c.level ?? (c.type === "essay" ? 3 : c.type === "shortnote" || c.tags?.includes("interactions") ? 2 : 1);
+    cards.push({ ...c, level, topicId: deck.topicId, status: c.status ?? "draft" });
   }
 }
 
@@ -141,6 +144,8 @@ if (errors.length) {
   console.error(`Content errors (${errors.length}):\n` + errors.slice(0, 50).map((e) => "  - " + e).join("\n"));
   process.exit(1);
 }
+// --check validates only, so parallel editors can check their files without rewriting the bundle.
+if (process.argv.includes("--check")) { console.log("check ok"); process.exit(0); }
 writeFileSync(join(root, "all.json"), JSON.stringify(cards));
 writeFileSync(join(root, "subtopics.json"), JSON.stringify(subtopics));
 console.log(`content: ${cards.length - rapidCount} study cards + ${rapidCount} rapid-fire cards, ${Object.values(subtopics).flat().length} subtopics bundled`);

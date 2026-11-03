@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import { LazyMotion, domAnimation, m } from "motion/react";
-import { useReduceMotion } from "@/lib/settings";
+import { useReduceMotion, useSettings } from "@/lib/settings";
+import { EssayLadder, EssayRail } from "./EssayCard";
 import { subtopicById, topicById } from "@/lib/syllabus";
 import type { FlashCard, Section } from "@/lib/types";
 
@@ -10,7 +10,7 @@ import type { FlashCard, Section } from "@/lib/types";
 export const CARD_TYPE: Record<string, { label: string; color: string }> = {
   basic: { label: "Recall", color: "#1f7a5c" },
   shortnote: { label: "Short note, 5 marks", color: "#4c5bd4" },
-  essay: { label: "Long essay, 10 marks", color: "#a63d73" },
+  essay: { label: "Long essay · 10 marks", color: "#a63d73" },
   cloze: { label: "Fill the blanks", color: "#8a5a12" },
 };
 
@@ -32,6 +32,7 @@ export function CardView({
   history?: string; // e.g. "Reviewed 3 times, last: Good", shown after reveal
 }) {
   const t = CARD_TYPE[card.type] ?? CARD_TYPE.basic;
+  const { essayStyle } = useSettings();
   const sub = card.subtopic ? subtopicById.get(card.subtopic)?.title : undefined;
   const body = (
     <div className="px-5 pt-5 pb-6 sm:px-7 sm:pt-6">
@@ -64,7 +65,11 @@ export function CardView({
           {card.type === "basic" ? (
             <p className="whitespace-pre-line text-[17px] leading-relaxed">{card.back}</p>
           ) : card.type === "essay" ? (
-            <EssayOutline key={card.id} sections={card.sections ?? []} />
+            essayStyle === "rail" ? (
+              <EssayRail key={card.id} sections={card.sections ?? []} />
+            ) : (
+              <EssayLadder key={card.id} cardId={card.id} sections={card.sections ?? []} />
+            )
           ) : (
             <Sections sections={card.sections ?? []} />
           )}
@@ -113,76 +118,6 @@ function Sections({ sections }: { sections: Section[] }) {
           </ul>
         </section>
       ))}
-    </div>
-  );
-}
-
-/**
- * Essay answers as a heading ladder: every heading is a mini flashcard. Recall its points, tap to open,
- * then mark it recalled or missed; the tally at the bottom guides the grade for the whole card.
- */
-function EssayOutline({ sections }: { sections: Section[] }) {
-  const [open, setOpen] = useState<Set<number>>(() => new Set());
-  const [marks, setMarks] = useState<Record<number, boolean>>({});
-  const recalled = Object.values(marks).filter(Boolean).length;
-  const marked = Object.keys(marks).length;
-  const stop = (fn: () => void) => (e: React.MouseEvent) => {
-    e.stopPropagation(); // a tap here must not flip the card
-    fn();
-  };
-  return (
-    <div className="space-y-2">
-      {sections.map((s, i) => {
-        const isOpen = open.has(i);
-        const mark = marks[i];
-        return (
-          <section key={i} className="overflow-hidden rounded-lg border border-porcelain-rule bg-porcelain-2/60">
-            <button
-              type="button"
-              aria-expanded={isOpen}
-              onClick={stop(() => setOpen((o) => new Set(o).add(i)))}
-              className="flex min-h-12 w-full items-center gap-3 px-4 py-2 text-left"
-            >
-              <span
-                aria-hidden
-                className="h-2.5 w-2.5 shrink-0 rounded-full border border-porcelain-rule"
-                style={{ background: mark === undefined ? "transparent" : mark ? "var(--color-strong)" : "var(--color-weak)" }}
-              />
-              <span className="flex-1 font-mono text-xs font-semibold tracking-wide text-[#1f5c48] uppercase">{s.h}</span>
-              {!isOpen && <span className="rounded-full bg-[#d9efe4] px-2 py-0.5 font-mono text-[10px] text-[#1f5c48]">recall, then tap</span>}
-            </button>
-            {isOpen && (
-              <div className="px-4 pb-3">
-                <ul className="ml-4 list-disc space-y-1 text-[16px] leading-snug marker:text-porcelain-soft">
-                  {s.points.map((p, j) => (
-                    <li key={j}>{p}</li>
-                  ))}
-                </ul>
-                <div className="mt-3 flex gap-2">
-                  {([true, false] as const).map((ok) => (
-                    <button
-                      key={String(ok)}
-                      type="button"
-                      aria-pressed={mark === ok}
-                      onClick={stop(() => setMarks((m) => ({ ...m, [i]: ok })))}
-                      className="min-h-9 flex-1 rounded-full border px-3 font-mono text-xs"
-                      style={{
-                        borderColor: ok ? "var(--color-strong)" : "var(--color-weak)",
-                        background: mark === ok ? `color-mix(in srgb, ${ok ? "var(--color-strong)" : "var(--color-weak)"} 18%, transparent)` : "transparent",
-                      }}
-                    >
-                      {ok ? "✓ Recalled" : "✗ Missed"}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-          </section>
-        );
-      })}
-      <p className="pt-1 text-center font-mono text-[11px] text-porcelain-soft">
-        {marked ? `Recalled ${recalled} of ${sections.length} headings` : `${sections.length} headings · open each after recalling it`}
-      </p>
     </div>
   );
 }
