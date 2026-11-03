@@ -15,7 +15,56 @@
       "subtopic": "p3-git-acid-control",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-062",
+      "type": "basic",
+      "front": "What imbalance is thought to cause peptic ulcer, and how does acid fit in gastric versus duodenal ulcer?",
+      "back": "Ulcer arises when aggressive factors (acid, pepsin, bile, H. pylori) outweigh defensive ones (mucus, bicarbonate, prostaglandins, NO, mucosal blood flow). Gastric ulcer: acid is normal or low and weak defence matters more. Duodenal ulcer: acid is high in about half. Acid is still an aggressive factor either way, so lowering it is the main treatment.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-063",
+      "type": "basic",
+      "front": "Which stimuli and receptors drive the parietal cell, and which second messengers do they use?",
+      "back": "Histamine (H2, via cAMP), acetylcholine (M3) and gastrin (CCK2) act on the basolateral membrane to switch on the apical H+/K+ ATPase. Muscarinic and gastrin receptors work through PLC-IP3-DAG and raised Ca2+. Gastrin comes from antral G cells; vagal ACh and GRP drive its release, with M1 receptors on enteric ganglion cells.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-064",
+      "type": "basic",
+      "front": "How do prostaglandins protect the gastric mucosa?",
+      "back": "PGE2 and PGI2 from the mucosa lower acid output (PGE2 opposes cAMP in parietal cells and gastrin release from G cells), and raise mucus and bicarbonate secretion and mucosal blood flow. The mucus-bicarbonate layer matters most: the gel traps HCO3- and keeps H+ and pepsin off the epithelium.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p3-git-002",
@@ -30,7 +79,8 @@
       "subtopic": "p3-git-acid-control",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-003",
@@ -47,7 +97,96 @@
       "tags": [
         "classification",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-065",
+      "type": "basic",
+      "front": "Why can cimetidine cause so many drug interactions and endocrine effects, and how do ranitidine and famotidine differ?",
+      "back": "Cimetidine inhibits several CYP450 isoenzymes and cuts hepatic blood flow, so drugs such as theophylline, phenytoin, warfarin and lidocaine accumulate. It also blocks androgen receptors and raises prolactin (gynaecomastia, impotence). Ranitidine and famotidine lack these actions. Antacids reduce H2 blocker absorption, so separate by 2 h.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-066",
+      "type": "basic",
+      "front": "Why have PPIs replaced H2 blockers for ulcer healing, and where do H2 blockers still have a role?",
+      "back": "PPIs heal ulcers faster with better pain relief and a higher healing rate, even in NSAID ulcers and H. pylori ulcers. H2 blockers remain useful for non-ulcer dyspepsia, stress-ulcer bleeding prophylaxis (i.v.), mild stage-1 GERD, prophylaxis of aspiration pneumonia and as adjuvant in urticaria. For ulcer healing a single bedtime dose works as well as split doses because nocturnal acid is the target.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-067",
+      "type": "essay",
+      "front": "Essay: Targets of acid-peptic drugs, from the parietal cell to the mucosa",
+      "sections": [
+        {
+          "h": "Aggressive and defensive factors",
+          "points": [
+            "Acid, pepsin, bile, H. pylori versus mucus, bicarbonate, prostaglandins, blood flow",
+            "Aim of therapy: pain relief, healing, preventing complications and relapse"
+          ]
+        },
+        {
+          "h": "Regulation of acid",
+          "points": [
+            "Histamine (H2, cAMP) dominant; ACh (M3) and gastrin (CCK2) use IP3-Ca2+ and also release histamine from ECL cells",
+            "H+/K+ ATPase is the final common step"
+          ]
+        },
+        {
+          "h": "Drug target at each level",
+          "points": [
+            "H2 blockers: block histamine and, through its permissive role, other stimuli; mainly nocturnal acid",
+            "PPIs: irreversibly inhibit the proton pump, 80-98 percent suppression at steady state",
+            "Anticholinergics and pirenzepine (M1): obsolete because of side effects",
+            "Misoprostol: PGE1 analogue; ulcer protectives sucralfate and bismuth; antacids neutralise"
+          ]
+        },
+        {
+          "h": "Choosing among them",
+          "points": [
+            "PPI first for ulcer, NSAID ulcer, GERD and Zollinger-Ellison",
+            "H2 blockers for milder or intermittent disease; antacids for quick symptom relief",
+            "H. pylori positive ulcers need a PPI plus antibiotics"
+          ]
+        },
+        {
+          "h": "Limits and safety",
+          "points": [
+            "Rebound hypergastrinaemia and long-term PPI concerns; misoprostol diarrhoea and abortion; cimetidine interactions"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-acid-control",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
     },
     {
       "id": "p3-git-004",
@@ -62,7 +201,8 @@
       "subtopic": "p3-git-ppi",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-git-005",
@@ -77,7 +217,24 @@
       "subtopic": "p3-git-ppi",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-068",
+      "type": "basic",
+      "front": "List the PPIs in KDT and the one distinguishing point of each.",
+      "back": "Omeprazole (prototype; inhibits CYP2C19); esomeprazole (S-enantiomer, longer t1/2); lansoprazole (partly reversible binding); pantoprazole (acid stable, i.v. for bleeding, fewest interactions); rabeprazole (faster onset, higher pKa); ilaprazole (about twice as potent as omeprazole). S-pantoprazole and dexrabeprazole are the active single isomers, giving the same effect at about half the dose.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p3-git-006",
@@ -92,7 +249,8 @@
       "subtopic": "p3-git-ppi",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-007",
@@ -108,7 +266,8 @@
       "subtopic": "p3-git-ppi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-008",
@@ -123,7 +282,8 @@
       "subtopic": "p3-git-ppi",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-009",
@@ -198,7 +358,25 @@
         "mechanism",
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-069",
+      "type": "basic",
+      "front": "Which clinical situations call for a PPI as drug of choice, and how is dosing changed?",
+      "back": "Drug of choice for NSAID-induced ulcer (higher or twice-daily dose; healing occurs even if the NSAID continues), GERD (higher or twice-daily dose than for ulcer), Zollinger-Ellison syndrome (60-120 mg/day in 2 doses) and bleeding ulcer (high-dose i.v. PPI so acid does not dissolve the clot). It is also part of every H. pylori regimen, given twice daily to hold pH high.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ppi",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-010",
@@ -271,23 +449,8 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-git-011",
-      "type": "basic",
-      "front": "Why is misoprostol seldom used for ulcers now?",
-      "back": "It is a synthetic PGE1 analogue that lowers acid output, but the effect lasts only about 3 hours, it relieves ulcer pain poorly, and it needs four times daily dosing. Diarrhoea, cramps and uterine bleeding are common, and it can cause abortion. Its main remaining role is preventing NSAID-induced ulcers.",
-      "refs": [
-        "KDT8 ch47"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-ulcer-therapy",
-      "tags": [
-        "adr",
-        "uses"
-      ]
+      "level": 3
     },
     {
       "id": "p3-git-012",
@@ -302,7 +465,8 @@
       "subtopic": "p3-git-ulcer-therapy",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-git-013",
@@ -318,7 +482,41 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-018",
+      "type": "cloze",
+      "front": "Classify: ulcer protectives",
+      "text": "{{Sucralfate}} forms a protective gel below pH {{4}}, and {{misoprostol}} is a synthetic {{PGE1}} analogue that lowers acid output.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-011",
+      "type": "basic",
+      "front": "Why is misoprostol seldom used for ulcers now?",
+      "back": "It is a synthetic PGE1 analogue that lowers acid output, but the effect lasts only about 3 hours, it relieves ulcer pain poorly, and it needs four times daily dosing. Diarrhoea, cramps and uterine bleeding are common, and it can cause abortion. Its main remaining role is preventing NSAID-induced ulcers.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-014",
@@ -334,7 +532,8 @@
       "subtopic": "p3-git-ulcer-therapy",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-015",
@@ -351,7 +550,8 @@
       "tags": [
         "dosing",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-016",
@@ -407,7 +607,24 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-019",
+      "type": "cloze",
+      "front": "H. pylori regimen after a recent macrolide",
+      "text": "After recent macrolide use, the H. pylori regimen is a PPI with amoxicillin and {{metronidazole}} or {{tinidazole}}, and {{clarithromycin}} is left out.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-ulcer-therapy",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-017",
@@ -459,37 +676,8 @@
       "subtopic": "p3-git-ulcer-therapy",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-git-018",
-      "type": "cloze",
-      "front": "Classify: ulcer protectives",
-      "text": "{{Sucralfate}} forms a protective gel below pH {{4}}, and {{misoprostol}} is a synthetic {{PGE1}} analogue that lowers acid output.",
-      "refs": [
-        "KDT8 ch47"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-ulcer-therapy",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-git-019",
-      "type": "cloze",
-      "front": "H. pylori regimen after a recent macrolide",
-      "text": "After recent macrolide use, the H. pylori regimen is a PPI with amoxicillin and {{metronidazole}} or {{tinidazole}}, and {{clarithromycin}} is left out.",
-      "refs": [
-        "KDT8 ch47"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-ulcer-therapy",
-      "tags": [
-        "dosing"
-      ]
+      "level": 3
     },
     {
       "id": "p3-git-020",
@@ -542,7 +730,57 @@
         "classification",
         "adr",
         "interactions"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-022",
+      "type": "cloze",
+      "front": "Classify: antacid salts",
+      "text": "Magnesium hydroxide is {{fast-acting}} and laxative, aluminium hydroxide is {{slow-acting}} and {{constipating}}, so combining them balances the effect on the bowel.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-070",
+      "type": "basic",
+      "front": "How is antacid potency expressed, and why do antacids give only short relief?",
+      "back": "Potency is the acid neutralising capacity: mEq of 1N HCl brought to pH 3.5 in a set time by a unit dose. A dose on an empty stomach acts only 30 to 60 min before emptying into the duodenum; with meals up to 2 to 3 h. Antacids do not reduce acid production.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-071",
+      "type": "basic",
+      "front": "Why is sodium bicarbonate a poor routine antacid despite its quick action?",
+      "back": "It acts instantly but briefly, is absorbed (large doses cause alkalosis), releases CO2 (distension, belching, perforation risk in ulcer), gives a short acid rebound and adds a sodium load that can worsen oedema and heart failure. It is limited to casual heartburn, urine alkalinisation and acidosis.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p3-git-021",
@@ -588,13 +826,14 @@
       "subtopic": "p3-git-antacids-gerd",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-git-022",
-      "type": "cloze",
-      "front": "Classify: antacid salts",
-      "text": "Magnesium hydroxide is {{fast-acting}} and laxative, aluminium hydroxide is {{slow-acting}} and {{constipating}}, so combining them balances the effect on the bowel.",
+      "id": "p3-git-072",
+      "type": "basic",
+      "front": "Why are magnesium and aluminium salts combined, and what goes wrong with calcium carbonate?",
+      "back": "Magnesium salts act fast and are laxative and hasten emptying; aluminium hydroxide acts slowly, constipates and delays emptying, so the mixture balances bowel and emptying effects and allows lower doses, so less systemic toxicity. Calcium carbonate is potent but Ca2+ stimulates parietal cells and gastrin, causing acid rebound; with milk or bicarbonate it can cause milk-alkali syndrome.",
       "refs": [
         "KDT8 ch47"
       ],
@@ -602,8 +841,26 @@
       "status": "draft",
       "subtopic": "p3-git-antacids-gerd",
       "tags": [
+        "adr",
         "classification"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-073",
+      "type": "basic",
+      "front": "A patient has heartburn: how do you choose between antacid, H2 blocker and PPI, and why not antacids for an ulcer?",
+      "back": "Occasional heartburn or mild stage-1 GERD: on-demand antacid (fastest relief but no lasting benefit) or an H2 blocker. Persistent or erosive GERD: a PPI, usually in a higher or twice-daily dose, because it suppresses acid most completely. Antacids are not used to heal ulcers: they need large frequent doses, cause rebound and bowel upset, give little nocturnal cover and are poorly accepted. Stagger antacids from tetracyclines, iron and quinolones by 2 h.",
+      "refs": [
+        "KDT8 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
     },
     {
       "id": "p3-git-023",
@@ -618,7 +875,8 @@
       "subtopic": "p3-git-antiemetics",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-git-024",
@@ -633,7 +891,57 @@
       "subtopic": "p3-git-antiemetics",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-032",
+      "type": "basic",
+      "front": "Which antiemetic class is first choice for motion sickness, and when should it be taken?",
+      "back": "Drugs with anticholinergic and antihistaminic action: hyoscine (the most effective, but short acting, so suited to short journeys) and H1 antihistamines such as promethazine, dimenhydrinate and meclozine. They work best when taken about 1 hour before the journey. Dopamine blockers and 5-HT3 antagonists are less effective.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-040",
+      "type": "cloze",
+      "front": "Classify: dopamine-blocking antiemetics",
+      "text": "Phenothiazines such as {{prochlorperazine}} and butyrophenones such as {{haloperidol}} block {{D2}} receptors in the chemoreceptor trigger zone.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-041",
+      "type": "cloze",
+      "front": "Classify: CINV drugs",
+      "text": "The NK1 antagonist {{aprepitant}} blocks the action of {{substance P}}, while the 5-HT3 antagonist {{ondansetron}} blocks {{5-HT}} signals on vagal afferents.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-antiemetics",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ],
+      "level": 1
     },
     {
       "id": "p3-git-025",
@@ -649,7 +957,8 @@
       "subtopic": "p3-git-antiemetics",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-026",
@@ -666,7 +975,8 @@
       "tags": [
         "newer-drugs",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-027",
@@ -682,135 +992,8 @@
       "tags": [
         "newer-drugs",
         "interactions"
-      ]
-    },
-    {
-      "id": "p3-git-028",
-      "type": "basic",
-      "front": "Which receptors does metoclopramide use in the gut to speed gastric emptying?",
-      "back": "It is a 5-HT4 agonist on myenteric neurones, which increases acetylcholine release and so improves propulsive contraction and lower oesophageal sphincter tone. Its D2 blockade in the gut and weak 5-HT3 block add to this at higher doses. Atropine blocks the 5-HT4 effect.",
-      "refs": [
-        "KDT8 ch48"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-prokinetics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-git-029",
-      "type": "basic",
-      "front": "What are the adverse effects of metoclopramide, and which are most important in children?",
-      "back": "Sedation, dizziness, loose stools and extrapyramidal effects: acute dystonias (more common in children and young adults, often after IV use and possibly after a single dose) and parkinsonism after weeks of use. Tardive dyskinesia can follow chronic use and may be irreversible. Hyperprolactinaemia causes galactorrhoea and gynaecomastia; QT prolongation and methaemoglobinaemia in neonates are also reported.",
-      "refs": [
-        "KDT8 ch48",
-        "GG14 ch54"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-prokinetics",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-git-030",
-      "type": "basic",
-      "front": "How does domperidone differ from metoclopramide?",
-      "back": "Domperidone is a D2 antagonist that barely crosses the blood-brain barrier, so extrapyramidal effects are rare and it does not oppose levodopa in Parkinson disease. Its prokinetic action is not reversed by atropine. It still acts on brain areas outside the barrier: the chemoreceptor trigger zone (antiemetic) and prolactin control (galactorrhoea, gynaecomastia). It carries a risk of serious ventricular arrhythmia and sudden cardiac death, especially above 60 years and at doses over 30 mg/day.",
-      "refs": [
-        "KDT8 ch48",
-        "GG14 ch54"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-prokinetics",
-      "tags": [
-        "classification",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-git-031",
-      "type": "basic",
-      "front": "Why was cisapride withdrawn from most markets?",
-      "back": "It blocks cardiac delayed-rectifier potassium channels, which prolongs the QT interval and risks torsades de pointes. The risk rises with CYP3A4 inhibitors such as azole antifungals and macrolides. It was banned in India in 2011.",
-      "refs": [
-        "KDT8 ch48"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-prokinetics",
-      "tags": [
-        "adr",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p3-git-032",
-      "type": "basic",
-      "front": "Which antiemetic class is first choice for motion sickness, and when should it be taken?",
-      "back": "Drugs with anticholinergic and antihistaminic action: hyoscine (the most effective, but short acting, so suited to short journeys) and H1 antihistamines such as promethazine, dimenhydrinate and meclozine. They work best when taken about 1 hour before the journey. Dopamine blockers and 5-HT3 antagonists are less effective.",
-      "refs": [
-        "KDT8 ch48"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-antiemetics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-git-033",
-      "type": "shortnote",
-      "front": "Short note: Metoclopramide",
-      "sections": [
-        {
-          "h": "Class and actions",
-          "points": [
-            "Substituted benzamide; antiemetic and gastrokinetic",
-            "5-HT4 agonist in the gut; D2 antagonist in the chemoreceptor trigger zone",
-            "Weak 5-HT3 blockade at high doses"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Postoperative, drug-induced and migraine-associated vomiting",
-            "Adjunct to ondansetron or dexamethasone in cisplatin chemotherapy",
-            "Emptying the stomach before emergency anaesthesia; diabetic or postvagotomy gastroparesis",
-            "Hiccups; mild GERD (less effective than PPIs)"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Oral onset within about 1 hour, IV within minutes; action lasts 4 to 6 hours",
-            "Half-life 3 to 6 hours; excreted in urine"
-          ]
-        },
-        {
-          "h": "Adverse effects and interactions",
-          "points": [
-            "Sedation, dystonia (children), parkinsonism with long use, hyperprolactinaemia",
-            "Blocks the action of levodopa; alters absorption of aspirin, diazepam and digoxin"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch48"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-prokinetics",
-      "tags": [
-        "mechanism",
-        "uses",
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p3-git-034",
@@ -865,7 +1048,8 @@
       "tags": [
         "uses",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-035",
@@ -918,54 +1102,8 @@
         "classification",
         "uses",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-git-036",
-      "type": "shortnote",
-      "front": "Short note: Prokinetic drugs, classes and safety",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Drugs that speed coordinated gut propulsion, unlike cholinomimetics that cause tonic contraction"
-          ]
-        },
-        {
-          "h": "Classes",
-          "points": [
-            "D2 antagonists: metoclopramide, domperidone, levosulpiride",
-            "5-HT4 agonists: cisapride, mosapride, prucalopride",
-            "Itopride: D2 blocker with anticholinesterase activity",
-            "Cinitapride: 5-HT4 agonist that also blocks D2 and 5-HT2"
-          ]
-        },
-        {
-          "h": "Cardiac safety",
-          "points": [
-            "Cisapride: QT prolongation and torsades; CYP3A4 inhibitors raise the risk",
-            "Mosapride: later reports of QT prolongation",
-            "Itopride: not metabolised by CYP enzymes, so no CYP3A4 interaction"
-          ]
-        },
-        {
-          "h": "Clinical use",
-          "points": [
-            "Functional dyspepsia, diabetic gastroparesis, GERD as an adjunct to PPIs",
-            "Efficacy often modest; PPIs are better for reflux"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch48"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-prokinetics",
-      "tags": [
-        "classification",
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p3-git-037",
@@ -1019,7 +1157,206 @@
       "subtopic": "p3-git-antiemetics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-git-028",
+      "type": "basic",
+      "front": "Which receptors does metoclopramide use in the gut to speed gastric emptying?",
+      "back": "It is a 5-HT4 agonist on myenteric neurones, which increases acetylcholine release and so improves propulsive contraction and lower oesophageal sphincter tone. Its D2 blockade in the gut and weak 5-HT3 block add to this at higher doses. Atropine blocks the 5-HT4 effect.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-039",
+      "type": "cloze",
+      "front": "Metoclopramide: receptor actions",
+      "text": "Metoclopramide acts as a {{5-HT4}} agonist in the gut and as a {{D2}} antagonist in the chemoreceptor trigger zone.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-042",
+      "type": "cloze",
+      "front": "Ursodiol and gallstones",
+      "text": "Ursodiol dissolves small cholesterol gallstones by {{lowering}} the cholesterol content of bile; its plasma half-life is about {{4 days}} because of enterohepatic cycling.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-029",
+      "type": "basic",
+      "front": "What are the adverse effects of metoclopramide, and which are most important in children?",
+      "back": "Sedation, dizziness, loose stools and extrapyramidal effects: acute dystonias (more common in children and young adults, often after IV use and possibly after a single dose) and parkinsonism after weeks of use. Tardive dyskinesia can follow chronic use and may be irreversible. Hyperprolactinaemia causes galactorrhoea and gynaecomastia; QT prolongation and methaemoglobinaemia in neonates are also reported.",
+      "refs": [
+        "KDT8 ch48",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-030",
+      "type": "basic",
+      "front": "How does domperidone differ from metoclopramide?",
+      "back": "Domperidone is a D2 antagonist that barely crosses the blood-brain barrier, so extrapyramidal effects are rare and it does not oppose levodopa in Parkinson disease. Its prokinetic action is not reversed by atropine. It still acts on brain areas outside the barrier: the chemoreceptor trigger zone (antiemetic) and prolactin control (galactorrhoea, gynaecomastia). It carries a risk of serious ventricular arrhythmia and sudden cardiac death, especially above 60 years and at doses over 30 mg/day.",
+      "refs": [
+        "KDT8 ch48",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-031",
+      "type": "basic",
+      "front": "Why was cisapride withdrawn from most markets?",
+      "back": "It blocks cardiac delayed-rectifier potassium channels, which prolongs the QT interval and risks torsades de pointes. The risk rises with CYP3A4 inhibitors such as azole antifungals and macrolides. It was banned in India in 2011.",
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-033",
+      "type": "shortnote",
+      "front": "Short note: Metoclopramide",
+      "sections": [
+        {
+          "h": "Class and actions",
+          "points": [
+            "Substituted benzamide; antiemetic and gastrokinetic",
+            "5-HT4 agonist in the gut; D2 antagonist in the chemoreceptor trigger zone",
+            "Weak 5-HT3 blockade at high doses"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Postoperative, drug-induced and migraine-associated vomiting",
+            "Adjunct to ondansetron or dexamethasone in cisplatin chemotherapy",
+            "Emptying the stomach before emergency anaesthesia; diabetic or postvagotomy gastroparesis",
+            "Hiccups; mild GERD (less effective than PPIs)"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Oral onset within about 1 hour, IV within minutes; action lasts 4 to 6 hours",
+            "Half-life 3 to 6 hours; excreted in urine"
+          ]
+        },
+        {
+          "h": "Adverse effects and interactions",
+          "points": [
+            "Sedation, dystonia (children), parkinsonism with long use, hyperprolactinaemia",
+            "Blocks the action of levodopa; alters absorption of aspirin, diazepam and digoxin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-036",
+      "type": "shortnote",
+      "front": "Short note: Prokinetic drugs, classes and safety",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Drugs that speed coordinated gut propulsion, unlike cholinomimetics that cause tonic contraction"
+          ]
+        },
+        {
+          "h": "Classes",
+          "points": [
+            "D2 antagonists: metoclopramide, domperidone, levosulpiride",
+            "5-HT4 agonists: cisapride, mosapride, prucalopride",
+            "Itopride: D2 blocker with anticholinesterase activity",
+            "Cinitapride: 5-HT4 agonist that also blocks D2 and 5-HT2"
+          ]
+        },
+        {
+          "h": "Cardiac safety",
+          "points": [
+            "Cisapride: QT prolongation and torsades; CYP3A4 inhibitors raise the risk",
+            "Mosapride: later reports of QT prolongation",
+            "Itopride: not metabolised by CYP enzymes, so no CYP3A4 interaction"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "Functional dyspepsia, diabetic gastroparesis, GERD as an adjunct to PPIs",
+            "Efficacy often modest; PPIs are better for reflux"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-prokinetics",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-038",
@@ -1071,68 +1408,8 @@
       "tags": [
         "classification",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-git-039",
-      "type": "cloze",
-      "front": "Metoclopramide: receptor actions",
-      "text": "Metoclopramide acts as a {{5-HT4}} agonist in the gut and as a {{D2}} antagonist in the chemoreceptor trigger zone.",
-      "refs": [
-        "KDT8 ch48"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-prokinetics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-git-040",
-      "type": "cloze",
-      "front": "Classify: dopamine-blocking antiemetics",
-      "text": "Phenothiazines such as {{prochlorperazine}} and butyrophenones such as {{haloperidol}} block {{D2}} receptors in the chemoreceptor trigger zone.",
-      "refs": [
-        "KDT8 ch48"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-antiemetics",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-git-041",
-      "type": "cloze",
-      "front": "Classify: CINV drugs",
-      "text": "The NK1 antagonist {{aprepitant}} blocks the action of {{substance P}}, while the 5-HT3 antagonist {{ondansetron}} blocks {{5-HT}} signals on vagal afferents.",
-      "refs": [
-        "KDT8 ch48"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-antiemetics",
-      "tags": [
-        "classification",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p3-git-042",
-      "type": "cloze",
-      "front": "Ursodiol and gallstones",
-      "text": "Ursodiol dissolves small cholesterol gallstones by {{lowering}} the cholesterol content of bile; its plasma half-life is about {{4 days}} because of enterohepatic cycling.",
-      "refs": [
-        "KDT8 ch48"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-prokinetics",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 3
     },
     {
       "id": "p3-git-043",
@@ -1148,140 +1425,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
-    },
-    {
-      "id": "p3-git-044",
-      "type": "basic",
-      "front": "Why are stimulant laxatives such as bisacodyl and senna contraindicated in pregnancy and in bowel obstruction?",
-      "back": "They can stimulate the gravid uterus reflexly, and they increase propulsion and fluid secretion, which is dangerous with an obstruction. Regular use causes hypokalaemia and colonic atony, and senna can cause melanosis of the colon.",
-      "refs": [
-        "KDT8 ch49"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-laxatives",
-      "tags": [
-        "contraindications",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-git-045",
-      "type": "basic",
-      "front": "How does lactulose lower blood ammonia in hepatic encephalopathy?",
-      "back": "Colonic bacteria break lactulose down into acidic, osmotically active products. The lower stool pH turns ammonia into the ionised, non-absorbable ammonium form, and the laxative effect clears it. Blood ammonia can fall by 25 to 50 percent. Lactitol works similarly.",
-      "refs": [
-        "KDT8 ch49"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-git-laxatives",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-git-046",
-      "type": "basic",
-      "front": "What are prucalopride and lubiprostone, and what is the key safety point for each?",
-      "back": "Prucalopride is a 5-HT4 agonist that boosts colonic propulsion. It is used for chronic constipation in women when other laxatives fail, and appears to lack the cardiovascular risk that ended tegaserod. Lubiprostone is a prostaglandin analogue that opens chloride channels to draw fluid into the gut; nausea is its commonest side effect, and it is reserved for patients who have failed at least two other laxative classes.",
-      "refs": [
-        "KDT8 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-laxatives",
-      "tags": [
-        "newer-drugs",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-git-047",
-      "type": "basic",
-      "front": "What are the components and total osmolarity of the WHO low-osmolarity oral rehydration solution?",
-      "back": "Sodium 75 mmol/L, glucose 75 mmol/L, potassium 20 mmol/L, chloride 65 mmol/L and citrate 10 mmol/L, with a total osmolarity of 245 mOsm/L. The older standard formula (310 mOsm/L, higher sodium) caused periorbital oedema in children and produced more stool and vomiting.",
-      "refs": [
-        "KDT8 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-diarrhoea-ibd",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p3-git-048",
-      "type": "basic",
-      "front": "What is the role of zinc in acute childhood diarrhoea, and how is it given?",
-      "back": "Given with low-osmolarity ORS, zinc shortens and reduces the severity of the episode and lowers recurrence for 2 to 3 months. It is given for 10 to 14 days: 20 mg per day for children aged 6 to 60 months and 10 mg per day under 6 months.",
-      "refs": [
-        "KDT8 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-diarrhoea-ibd",
-      "tags": [
-        "dosing",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-git-049",
-      "type": "basic",
-      "front": "Why does loperamide cause few central effects, and when must it be avoided?",
-      "back": "It is a peripheral mu-opioid agonist (40 to 50 times as potent as morphine as an antidiarrhoeal) that is poorly absorbed and barely enters the brain, so at normal doses it has no analgesic action and little abuse liability. GG14 warns that exceeding the recommended dose can cause torsades de pointes, cardiac arrest and death. Avoid it in invasive diarrhoea (fever, blood or mucus; risk of toxic megacolon and systemic spread), in severe colitis, and in young children (KDT: under 4 years; GG14: not recommended under 2 years).",
-      "refs": [
-        "KDT8 ch49",
-        "GG14 ch54"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-diarrhoea-ibd",
-      "tags": [
-        "mechanism",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p3-git-050",
-      "type": "basic",
-      "front": "How does racecadotril reduce diarrhoea without slowing the gut?",
-      "back": "It is a prodrug converted to thiorphan, an enkephalinase inhibitor. By protecting natural enkephalins it lowers mucosal cAMP and cuts intestinal secretion, but leaves motility alone. It is not contraindicated in children; the usual dose is 100 mg three times daily for up to 7 days.",
-      "refs": [
-        "KDT8 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-diarrhoea-ibd",
-      "tags": [
-        "mechanism",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p3-git-051",
-      "type": "basic",
-      "front": "In acute diarrhoea, which features suggest an invasive cause that needs an antibiotic?",
-      "back": "Blood and mucus in the stool, fever, urgency and cramps, with only mild dehydration, point to colonic invasion (for example Shigella, EPEC, Campylobacter or Salmonella typhimurium). Watery diarrhoea with vomiting and little fever points to a noninvasive cause, where oral rehydration is the mainstay.",
-      "refs": [
-        "KDT8 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-diarrhoea-ibd",
-      "tags": [
-        "uses"
-      ]
+      "level": 1
     },
     {
       "id": "p3-git-052",
@@ -1337,7 +1482,98 @@
       "tags": [
         "classification",
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-074",
+      "type": "basic",
+      "front": "How does dietary fibre or ispaghula relieve constipation, and what are its limits?",
+      "back": "It absorbs water, swells and softens stool, adds bacterial mass by fermentation and speeds colonic transit. Take with plenty of water; ispaghula is never swallowed dry (oesophageal impaction). Acts in 1 to 3 days; it prevents constipation but does not soften stool already in the rectum. Avoid with ulceration, stenosis or impaction risk; bran may worsen IBS.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-075",
+      "type": "basic",
+      "front": "How do stimulant purgatives (bisacodyl, senna) produce their effect?",
+      "back": "They accumulate water and electrolytes in the lumen by inhibiting Na+K+ATPase in villous cells and raising cAMP and prostaglandins in crypt cells, and also excite myenteric neurones. Bisacodyl is deacetylated in the gut; senna glycosides are freed by colonic bacteria, so bedtime doses act after 6 to 8 h. Overuse causes hypokalaemia and colonic atony.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-044",
+      "type": "basic",
+      "front": "Why are stimulant laxatives such as bisacodyl and senna contraindicated in pregnancy and in bowel obstruction?",
+      "back": "They can stimulate the gravid uterus reflexly, and they increase propulsion and fluid secretion, which is dangerous with an obstruction. Regular use causes hypokalaemia and colonic atony, and senna can cause melanosis of the colon.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "contraindications",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-045",
+      "type": "basic",
+      "front": "How does lactulose lower blood ammonia in hepatic encephalopathy?",
+      "back": "Colonic bacteria break lactulose down into acidic, osmotically active products. The lower stool pH turns ammonia into the ionised, non-absorbable ammonium form, and the laxative effect clears it. Blood ammonia can fall by 25 to 50 percent. Lactitol works similarly.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-046",
+      "type": "basic",
+      "front": "What are prucalopride and lubiprostone, and what is the key safety point for each?",
+      "back": "Prucalopride is a 5-HT4 agonist that boosts colonic propulsion. It is used for chronic constipation in women when other laxatives fail, and appears to lack the cardiovascular risk that ended tegaserod. Lubiprostone is a prostaglandin analogue that opens chloride channels to draw fluid into the gut; nausea is its commonest side effect, and it is reserved for patients who have failed at least two other laxative classes.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-053",
@@ -1395,7 +1631,171 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-076",
+      "type": "basic",
+      "front": "Choose a laxative for each: pregnancy, avoiding straining, colonoscopy preparation, hepatic encephalopathy, impaction. Justify.",
+      "back": "Pregnancy: bulk or osmotic agents, since stimulants can reflexly stimulate the gravid uterus. Avoid straining (hernia, cardiac disease, perianal surgery): bran or docusate to keep stool soft. Colonoscopy: saline purgative such as magnesium citrate with sodium picosulfate, or bisacodyl or senna. Hepatic encephalopathy: lactulose, whose acidic products trap ammonia. Impaction: an enema, not bran. Never use liquid paraffin routinely (granulomas, lipid pneumonia, vitamin loss).",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-git-047",
+      "type": "basic",
+      "front": "What are the components and total osmolarity of the WHO low-osmolarity oral rehydration solution?",
+      "back": "Sodium 75 mmol/L, glucose 75 mmol/L, potassium 20 mmol/L, chloride 65 mmol/L and citrate 10 mmol/L, with a total osmolarity of 245 mOsm/L. The older standard formula (310 mOsm/L, higher sodium) caused periorbital oedema in children and produced more stool and vomiting.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-048",
+      "type": "basic",
+      "front": "What is the role of zinc in acute childhood diarrhoea, and how is it given?",
+      "back": "Given with low-osmolarity ORS, zinc shortens and reduces the severity of the episode and lowers recurrence for 2 to 3 months. It is given for 10 to 14 days: 20 mg per day for children aged 6 to 60 months and 10 mg per day under 6 months.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-055",
+      "type": "shortnote",
+      "front": "Short note: Antidiarrhoeal drugs",
+      "sections": [
+        {
+          "h": "Absorbents",
+          "points": [
+            "Bulking colloids such as ispaghula; kaolin and pectin adsorbents are banned in India"
+          ]
+        },
+        {
+          "h": "Antisecretory",
+          "points": [
+            "Racecadotril: enkephalinase inhibitor",
+            "Bismuth subsalicylate: reduces prostaglandin-driven chloride secretion; used for travellers' diarrhoea",
+            "Octreotide: somatostatin analogue for carcinoid or VIP tumour diarrhoea; given subcutaneously"
+          ]
+        },
+        {
+          "h": "Antimotility",
+          "points": [
+            "Loperamide: potent peripheral opioid, most suitable antimotility drug for adults",
+            "Diphenoxylate with atropine: CNS effects; contraindicated under 6 years",
+            "Codeine: not used for diarrhoea because of dependence"
+          ]
+        },
+        {
+          "h": "Restrictions",
+          "points": [
+            "Avoid antimotility drugs in invasive diarrhoea, severe colitis and young children"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "classification",
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-060",
+      "type": "cloze",
+      "front": "Diphenoxylate: classification and limits",
+      "text": "Diphenoxylate is a synthetic {{opioid}} given with {{atropine}} to discourage abuse, and it is contraindicated below {{6}} years of age.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "classification",
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-git-049",
+      "type": "basic",
+      "front": "Why does loperamide cause few central effects, and when must it be avoided?",
+      "back": "It is a peripheral mu-opioid agonist (40 to 50 times as potent as morphine as an antidiarrhoeal) that is poorly absorbed and barely enters the brain, so at normal doses it has no analgesic action and little abuse liability. GG14 warns that exceeding the recommended dose can cause torsades de pointes, cardiac arrest and death. Avoid it in invasive diarrhoea (fever, blood or mucus; risk of toxic megacolon and systemic spread), in severe colitis, and in young children (KDT: under 4 years; GG14: not recommended under 2 years).",
+      "refs": [
+        "KDT8 ch49",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-050",
+      "type": "basic",
+      "front": "How does racecadotril reduce diarrhoea without slowing the gut?",
+      "back": "It is a prodrug converted to thiorphan, an enkephalinase inhibitor. By protecting natural enkephalins it lowers mucosal cAMP and cuts intestinal secretion, but leaves motility alone. It is not contraindicated in children; the usual dose is 100 mg three times daily for up to 7 days.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-051",
+      "type": "basic",
+      "front": "In acute diarrhoea, which features suggest an invasive cause that needs an antibiotic?",
+      "back": "Blood and mucus in the stool, fever, urgency and cramps, with only mild dehydration, point to colonic invasion (for example Shigella, EPEC, Campylobacter or Salmonella typhimurium). Watery diarrhoea with vomiting and little fever points to a noninvasive cause, where oral rehydration is the mainstay.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p3-git-054",
@@ -1451,42 +1851,14 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-git-055",
-      "type": "shortnote",
-      "front": "Short note: Antidiarrhoeal drugs",
-      "sections": [
-        {
-          "h": "Absorbents",
-          "points": [
-            "Bulking colloids such as ispaghula; kaolin and pectin adsorbents are banned in India"
-          ]
-        },
-        {
-          "h": "Antisecretory",
-          "points": [
-            "Racecadotril: enkephalinase inhibitor",
-            "Bismuth subsalicylate: reduces prostaglandin-driven chloride secretion; used for travellers' diarrhoea",
-            "Octreotide: somatostatin analogue for carcinoid or VIP tumour diarrhoea; given subcutaneously"
-          ]
-        },
-        {
-          "h": "Antimotility",
-          "points": [
-            "Loperamide: potent peripheral opioid, most suitable antimotility drug for adults",
-            "Diphenoxylate with atropine: CNS effects; contraindicated under 6 years",
-            "Codeine: not used for diarrhoea because of dependence"
-          ]
-        },
-        {
-          "h": "Restrictions",
-          "points": [
-            "Avoid antimotility drugs in invasive diarrhoea, severe colitis and young children"
-          ]
-        }
-      ],
+      "id": "p3-git-058",
+      "type": "cloze",
+      "front": "Sulfasalazine: how it works",
+      "text": "Colonic bacteria split the {{azo}} bond of sulfasalazine to release {{5-aminosalicylic acid}}, the active anti-inflammatory part, and {{sulfapyridine}}, which causes most side effects.",
       "refs": [
         "KDT8 ch49"
       ],
@@ -1494,9 +1866,80 @@
       "status": "draft",
       "subtopic": "p3-git-diarrhoea-ibd",
       "tags": [
-        "classification",
-        "contraindications"
-      ]
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-059",
+      "type": "cloze",
+      "front": "Azathioprine: a dangerous genetic interaction",
+      "text": "Azathioprine is converted to {{6-mercaptopurine}}; patients deficient in the enzyme {{TPMT}} are at high risk of severe bone marrow toxicity.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-git-061",
+      "type": "shortnote",
+      "front": "Short note: Prebiotics and probiotics in bowel disorders",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Probiotics are live microbes such as lactobacilli, bifidobacteria and Saccharomyces boulardii",
+            "Prebiotics are poorly digested fibres or oligosaccharides that feed beneficial gut bacteria",
+            "Synbiotics combine both"
+          ]
+        },
+        {
+          "h": "Diarrhoea",
+          "points": [
+            "Some strains shorten acute infectious diarrhoea in children",
+            "Saccharomyces boulardii and Lactobacillus rhamnosus GG reduce antibiotic-associated diarrhoea",
+            "Probiotics aid H. pylori eradication by improving response to antibiotics"
+          ]
+        },
+        {
+          "h": "Inflammatory bowel disease",
+          "points": [
+            "Probiotics help prevent the first attack and relapse of pouchitis",
+            "E. coli Nissle may match mesalazine in maintaining remission of ulcerative colitis",
+            "No proven benefit for maintenance of remission in Crohn's disease"
+          ]
+        },
+        {
+          "h": "Prebiotics and safety",
+          "points": [
+            "Lactulose, a prebiotic disaccharide, is used for constipation and hepatic encephalopathy",
+            "Probiotics are generally safe; caution in immunocompromised patients"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p501-505",
+        "KDT8 ch49"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses"
+      ],
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-git-056",
@@ -1578,7 +2021,8 @@
       "subtopic": "p3-git-diarrhoea-ibd",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-git-057",
@@ -1635,107 +2079,566 @@
       "tags": [
         "dosing",
         "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-git-077",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Magnesium hydroxide as an antacid: how strong is it?",
+      "back": "It reacts promptly with hydrochloric acid, so it is an efficacious antacid: about 1 g neutralises about 30 mEq of acid. Its suspension (milk of magnesia) is only weakly alkaline because the hydroxide is poorly soluble.",
+      "refs": [
+        "KDT8 ch47"
       ]
     },
     {
-      "id": "p3-git-058",
-      "type": "cloze",
-      "front": "Sulfasalazine: how it works",
-      "text": "Colonic bacteria split the {{azo}} bond of sulfasalazine to release {{5-aminosalicylic acid}}, the active anti-inflammatory part, and {{sulfapyridine}}, which causes most side effects.",
-      "refs": [
-        "KDT8 ch49"
+      "id": "p3-git-078",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "uses"
       ],
-      "pyq": [],
       "status": "draft",
-      "subtopic": "p3-git-diarrhoea-ibd",
+      "pyq": [],
+      "front": "Magnesium trisilicate: how much acid does it really neutralise?",
+      "back": "It is poorly soluble and slow to react. Although 1 g can react with about 10 mEq of acid, in clinical use only about 1 mEq is neutralised.",
+      "refs": [
+        "KDT8 ch47"
+      ]
+    },
+    {
+      "id": "p3-git-079",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-laxatives",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Name the magnesium salts used as saline (osmotic) purgatives.",
+      "back": "Magnesium sulfate, magnesium citrate and milk of magnesia (magnesium hydroxide). They act osmotically, holding water in the bowel.",
+      "refs": [
+        "KDT8 ch49",
+        "GG14 ch54"
+      ]
+    },
+    {
+      "id": "p3-git-080",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-laxatives",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-git-059",
-      "type": "cloze",
-      "front": "Azathioprine: a dangerous genetic interaction",
-      "text": "Azathioprine is converted to {{6-mercaptopurine}}; patients deficient in the enzyme {{TPMT}} are at high risk of severe bone marrow toxicity.",
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Besides osmosis, how do magnesium ions produce their purgative action?",
+      "back": "They release cholecystokinin, which augments intestinal motility and secretion. All inorganic saline purgatives act this way and differ only in dose, palatability and the risk of systemic toxicity.",
       "refs": [
         "KDT8 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-diarrhoea-ibd",
-      "tags": [
-        "adr"
       ]
     },
     {
-      "id": "p3-git-060",
-      "type": "cloze",
-      "front": "Diphenoxylate: classification and limits",
-      "text": "Diphenoxylate is a synthetic {{opioid}} given with {{atropine}} to discourage abuse, and it is contraindicated below {{6}} years of age.",
+      "id": "p3-git-081",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Magnesium sulfate in pre-eclampsia: what does it treat, and by what route?",
+      "back": "It is the first-line i.v. drug for preventing and treating seizures in pre-eclampsia and eclampsia. It also acts as a tocolytic by competing with Ca2+ entry into myometrium, but its use to delay premature labour is risky and not recommended.",
       "refs": [
-        "KDT8 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-git-diarrhoea-ibd",
-      "tags": [
-        "classification",
-        "contraindications"
+        "KDT8 ch23"
       ]
     },
     {
-      "id": "p3-git-061",
+      "id": "p3-git-082",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Magnesium sulfate in acute severe asthma: what role does it play?",
+      "back": "It is useful as an additional bronchodilator in children and adults with acute severe asthma, given on top of the standard bronchodilators.",
+      "refs": [
+        "GG14 ch44"
+      ]
+    },
+    {
+      "id": "p3-git-083",
       "type": "shortnote",
-      "front": "Short note: Prebiotics and probiotics in bowel disorders",
+      "level": 2,
+      "subtopic": "p3-git-antacids-gerd",
+      "tags": [
+        "uses",
+        "classification"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "marks": 10,
+          "year": 0
+        }
+      ],
+      "front": "Short note: Therapeutic uses of magnesium",
       "sections": [
         {
-          "h": "Concept",
+          "h": "Antacid",
           "points": [
-            "Probiotics are live microbes such as lactobacilli, bifidobacteria and Saccharomyces boulardii",
-            "Prebiotics are poorly digested fibres or oligosaccharides that feed beneficial gut bacteria",
-            "Synbiotics combine both"
+            "Magnesium hydroxide: prompt, strong acid neutraliser (about 1 g per 30 mEq); milk of magnesia",
+            "Magnesium trisilicate: poorly soluble, only about 1 mEq neutralised in clinical use"
           ]
         },
         {
-          "h": "Diarrhoea",
+          "h": "Osmotic laxative",
           "points": [
-            "Some strains shorten acute infectious diarrhoea in children",
-            "Saccharomyces boulardii and Lactobacillus rhamnosus GG reduce antibiotic-associated diarrhoea",
-            "Probiotics aid H. pylori eradication by improving response to antibiotics"
+            "Magnesium sulfate, magnesium citrate and milk of magnesia",
+            "Acts osmotically and by releasing cholecystokinin, which increases motility and secretion",
+            "Saline purgatives differ only in dose, palatability and risk of systemic toxicity"
           ]
         },
         {
-          "h": "Inflammatory bowel disease",
+          "h": "Obstetrics",
           "points": [
-            "Probiotics help prevent the first attack and relapse of pouchitis",
-            "E. coli Nissle may match mesalazine in maintaining remission of ulcerative colitis",
-            "No proven benefit for maintenance of remission in Crohn's disease"
+            "First-line i.v. drug for seizures in pre-eclampsia and eclampsia",
+            "Tocolytic action, but not recommended for delaying preterm labour"
           ]
         },
         {
-          "h": "Prebiotics and safety",
+          "h": "Respiratory",
           "points": [
-            "Lactulose, a prebiotic disaccharide, is used for constipation and hepatic encephalopathy",
-            "Probiotics are generally safe; caution in immunocompromised patients"
+            "Additional bronchodilator in acute severe asthma, children and adults"
           ]
         }
       ],
       "refs": [
-        "Sarkar p501-505",
-        "KDT8 ch49"
+        "KDT8 ch23",
+        "KDT8 ch47",
+        "KDT8 ch49",
+        "GG14 ch44",
+        "GG14 ch54"
+      ]
+    },
+    {
+      "id": "p3-git-084",
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses",
+        "adr"
       ],
+      "status": "draft",
       "pyq": [
         {
-          "university": "KNRUHS",
+          "university": "Q bank",
+          "marks": 10,
+          "year": 0
+        },
+        {
+          "university": "UHSR",
           "year": 2025,
           "marks": 10
         }
       ],
+      "front": "Short note: Pharmacotherapy of irritable bowel syndrome",
+      "sections": [
+        {
+          "h": "Basis and approach",
+          "points": [
+            "Visceral hypersensitivity plus altered motility; constipation, diarrhoea or both",
+            "Serotonin involved in sensitisation and motility, which guides newer drugs",
+            "Treatment is mainly symptomatic"
+          ]
+        },
+        {
+          "h": "Fibre and diet",
+          "points": [
+            "Soluble ispaghula taken over weeks eases pain, constipation and diarrhoea",
+            "Insoluble bran can worsen symptoms",
+            "Diet limits (FODMAPs, lactose, gluten) help some patients"
+          ]
+        },
+        {
+          "h": "Antispasmodics",
+          "points": [
+            "Dicyclomine and hyoscyamine (muscarinic); glycopyrrolate and methscopolamine cause fewer CNS effects",
+            "Mebeverine acts directly on smooth muscle; used outside the US",
+            "Given as needed or before meals; not for long-term use"
+          ]
+        },
+        {
+          "h": "Diarrhoea-predominant",
+          "points": [
+            "Alosetron (5-HT3 antagonist) for severe IBS-D in women, under restricted distribution",
+            "Eluxadoline (opioid receptor profile) with biliary and pancreatic cautions",
+            "Rifaximin (550 mg three times daily for 2 weeks)"
+          ]
+        },
+        {
+          "h": "Constipation-predominant",
+          "points": [
+            "Ispaghula first; stimulant purgatives contraindicated",
+            "Prucalopride (5-HT4 agonist) and lubiprostone (PG analogue)"
+          ]
+        },
+        {
+          "h": "Neuromodulators",
+          "points": [
+            "Low-dose tricyclic antidepressant for visceral pain, independent of its antidepressant effect",
+            "SSRIs can increase bowel movements or cause diarrhoea, and are probably less effective for visceral pain"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch54",
+        "KDT8 ch48",
+        "KDT8 ch49"
+      ]
+    },
+    {
+      "id": "p3-git-085",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-diarrhoea-ibd",
       "tags": [
         "uses"
       ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Alosetron: what is it, and why is it restricted?",
+      "back": "A 5-HT3 antagonist for severe diarrhoea-predominant IBS in women. It was withdrawn for ischaemic colitis, then re-approved under a limited distribution system.",
+      "refs": [
+        "GG14 ch54"
+      ]
+    },
+    {
+      "id": "p3-git-086",
+      "type": "basic",
+      "level": 1,
       "subtopic": "p3-git-diarrhoea-ibd",
-      "status": "draft"
+      "tags": [
+        "mechanism",
+        "contraindications"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Eluxadoline: receptor profile and main contraindication.",
+      "back": "Mixed mu-opioid agonist, delta-opioid antagonist and kappa-opioid agonist, acting locally to ease pain and diarrhoea. Avoid with biliary duct obstruction, sphincter of Oddi disease or a history of pancreatitis.",
+      "refs": [
+        "GG14 ch54"
+      ]
+    },
+    {
+      "id": "p3-git-087",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Why are low-dose tricyclic antidepressants used in IBS?",
+      "back": "They have neuromodulatory and analgesic effects that reduce visceral pain, separate from their antidepressant action. Amitriptyline, nortriptyline or imipramine are used off-label, with a track record in functional visceral pain.",
+      "refs": [
+        "GG14 ch54"
+      ]
+    },
+    {
+      "id": "p3-git-088",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "dosing"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Rifaximin in IBS: which subtype, and what dose?",
+      "back": "Diarrhoea-predominant IBS: 550 mg three times daily for 2 weeks, re-treated up to twice if symptoms recur. If diarrhoea worsens on treatment, check for infection or C. difficile.",
+      "refs": [
+        "GG14 ch54"
+      ]
+    },
+    {
+      "id": "p3-git-090",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Why are glycopyrrolate and methscopolamine preferred over dicyclomine in IBS?",
+      "back": "They cross the blood-brain barrier poorly, so they carry a lower risk of neurological effects such as drowsiness and light-headedness. All antimuscarinic antispasmodics should be limited to short-term use.",
+      "refs": [
+        "GG14 ch54"
+      ]
+    },
+    {
+      "id": "p3-git-091",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism",
+        "dosing"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Mebeverine: class, mechanism and dose?",
+      "back": "A hydroxybenzamide derivative used outside the US. It acts directly on smooth muscle by blocking K+, Na+ and Ca2+ channels. Dose: 100 to 135 mg three times daily, or 200 mg twice daily, before meals.",
+      "refs": [
+        "GG14 ch54"
+      ]
+    },
+    {
+      "id": "p3-git-092",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Why is bran a poor choice for IBS, while ispaghula helps?",
+      "back": "Insoluble fibres such as bran can worsen IBS symptoms. Soluble ispaghula, used over weeks, reduces rectosigmoid pressure and eases pain, constipation and diarrhoea.",
+      "refs": [
+        "KDT8 ch49"
+      ]
+    },
+    {
+      "id": "p3-git-094",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "What is the gut microbiome, and how does it compare with the human host?",
+      "back": "The genetic repertoire of the microbes (mainly bacteria, plus viruses, archaea and fungi) living in the gut. It carries over 200 million genes against about 20,000 human genes, and microbial cells are roughly equal in number to human cells.",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "p3-git-095",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Sulfasalazine: which bacterial reaction releases the active drug?",
+      "back": "Gut bacteria reduce the azo bond, releasing 5-aminosalicylate (mesalamine), the active part, and sulfapyridine.",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "p3-git-096",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Digoxin: which gut bacterium inactivates it, and how?",
+      "back": "Eggerthella lenta reduces the lactone ring of digoxin to form dihydrodigoxin, an inactive metabolite. In about 10% of patients enough is formed to lower systemic digoxin levels. A high-arginine diet inhibits this reduction.",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "p3-git-097",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "pk"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "How does the gut microbiome prolong a drug's half-life through enterohepatic recycling?",
+      "back": "The liver excretes conjugated drug (glucuronides, sulfates) in bile. Gut microbes hydrolyse the conjugates back to the more lipophilic parent, which is reabsorbed into the portal blood. This cycle prolongs elimination.",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "p3-git-098",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Irinotecan: why do gut bacteria matter for its diarrhoea?",
+      "back": "The liver converts irinotecan to SN-38 and UGT1A1 glucuronidates it. The inactive glucuronide is secreted in bile, and bacterial beta-glucuronidases in the gut remove the glucuronide, releasing active SN-38. High intestinal SN-38 causes the dose-limiting severe diarrhoea.",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "p3-git-099",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "How can antibiotics change drug response through the microbiome?",
+      "back": "Antibiotics change the composition of gut microbes, which can alter how drugs are handled. Many non-antibiotic drugs also inhibit some gut bacteria in vitro (240 drugs in one study).",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "p3-git-100",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "Which microbiome-based therapy treats recurrent C. difficile colitis?",
+      "back": "Faecal microbiota transplantation (FMT), which reshapes the patient's gut microbiome to resemble that of a healthy donor.",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "p3-git-101",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "What is the evidence for probiotics in diarrhoea, and what caution applies?",
+      "back": "Live or freeze-dried microbes (Lactobacillus, Bifidobacterium, Saccharomyces boulardii) help antibiotic-associated, C. difficile and acute infective diarrhoea, and reduce traveller's diarrhoea. Evidence is not yet convincing enough for standard use. Generally safe; caution in immunocompromised patients.",
+      "refs": [
+        "KDT8 ch49"
+      ]
+    },
+    {
+      "id": "p3-git-102",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "front": "How does diet change drug response through the microbiome?",
+      "back": "Food strongly shapes the gut microbiome, and microbes supply vitamins and amino acids back to the host. A high-arginine diet inhibits the bacterial reduction of digoxin.",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "p3-git-103",
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p3-git-diarrhoea-ibd",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Impact of the human gut microbiome on therapeutics",
+      "sections": [
+        {
+          "h": "What it is",
+          "points": [
+            "Genetic repertoire of gut bacteria, viruses and some archaea and fungi",
+            "Over 200 million microbial genes against about 20,000 human genes"
+          ]
+        },
+        {
+          "h": "Direct drug metabolism",
+          "points": [
+            "Sulfasalazine azo reduction releases mesalamine",
+            "Eggerthella lenta reduces digoxin to an inactive metabolite",
+            "Bacterial beta-glucuronidase reactivates irinotecan's SN-38 in the gut"
+          ]
+        },
+        {
+          "h": "Indirect and enterohepatic effects",
+          "points": [
+            "Gut microbes alter CYP, phase II enzyme and transporter (Pgp) activity",
+            "Deconjugation drives enterohepatic recycling and prolongs half-life"
+          ]
+        },
+        {
+          "h": "Drugs altering the microbiome",
+          "points": [
+            "Antibiotics change gut microbial composition, altering drug response",
+            "Many non-antibiotic drugs inhibit some gut bacteria in vitro"
+          ]
+        },
+        {
+          "h": "Therapeutic use",
+          "points": [
+            "FMT for recurrent C. difficile colitis",
+            "Probiotics help antibiotic-associated and infectious diarrhoea, but evidence is not yet convincing for standard use",
+            "Diet shapes the microbiome; a high-arginine diet blocks digoxin reduction"
+          ]
+        },
+        {
+          "h": "Clinical implication",
+          "points": [
+            "Microbiome differences between patients favour individualised therapy"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch6",
+        "KDT8 ch49"
+      ]
     }
   ]
 }

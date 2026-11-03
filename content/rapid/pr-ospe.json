@@ -299,11 +299,10 @@
       "id": "rf-pr-ospe-0029",
       "subtopic": "pr-ospe-drug-info",
       "kind": "fact",
-      "q": "Standard for judging drug promotion",
-      "a": "WHO ethical criteria for medicinal drug promotion",
+      "q": "Drug-information skill: sorting real facts from what in drug literature",
+      "a": "Promotional claims",
       "refs": [
-        "Sarkar p506-510",
-        "UNSOURCED - owner must verify"
+        "Sarkar p506-510"
       ]
     },
     {
@@ -335,7 +334,7 @@
       "q": "Label warning for a sedating drug",
       "a": "\"May cause drowsiness\"",
       "refs": [
-        "Katzung16 ch66"
+        "Bennett and Brown PDF p132"
       ]
     },
     {
@@ -465,7 +464,7 @@
       "id": "rf-pr-ospe-0045",
       "subtopic": "pr-ospe-instruments",
       "kind": "fact",
-      "q": "Most sensitive ELISA type (Sarkar)",
+      "q": "ELISA type where antigen sits between two antibodies (highly sensitive per Sarkar)",
       "a": "Sandwich ELISA",
       "refs": [
         "Sarkar p391-395"
@@ -563,9 +562,10 @@
       "subtopic": "pr-ospe-dosage-calc",
       "kind": "fact",
       "q": "Child dose for 20 kg when adult dose is 500 mg (weight-based)",
-      "a": "About 143 mg (20/70 x 500 mg)",
+      "a": "About 143 mg (weight ratio 20/70 x 500 mg; arithmetic)",
       "refs": [
-        "KDT8 ch5"
+        "Katzung16 ch59",
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -584,10 +584,9 @@
       "subtopic": "pr-ospe-drug-info",
       "kind": "class",
       "q": "Elements on a dispensed-medicine label",
-      "a": "Patient name; drug name and strength; dose and directions; quantity; date; warning labels",
+      "a": "Generic and brand name, dosage strength, total volume, lot and expiry date, NDC, manufacturer, mixing directions, label alerts",
       "refs": [
-        "Katzung16 ch66",
-        "UNSOURCED - owner must verify"
+        "Pickar Dosage Calculations PDF p710"
       ]
     },
     {
@@ -620,6 +619,258 @@
       "a": "Validity and reliability; each station about 5 minutes",
       "refs": [
         "WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0060",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "Primary literature source",
+      "a": "Original reports: journal articles, trials",
+      "refs": [
+        "Sarkar p76-80",
+        "UNSOURCED - owner must verify"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0061",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "Secondary literature source",
+      "a": "Indexing and abstracting services",
+      "refs": [
+        "Sarkar p76-80",
+        "UNSOURCED - owner must verify"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0062",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "Tertiary literature source",
+      "a": "Textbooks and compendia",
+      "refs": [
+        "Sarkar p76-80",
+        "UNSOURCED - owner must verify"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0063",
+      "subtopic": "pr-ospe-research-docs",
+      "kind": "fact",
+      "q": "Word limit of a paper abstract (Sarkar)",
+      "a": "300 words, one page",
+      "refs": [
+        "Sarkar p201-205"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0064",
+      "subtopic": "pr-ospe-research-docs",
+      "kind": "fact",
+      "q": "Outcome unit of cost-utility analysis",
+      "a": "QALY (quality-adjusted life year)",
+      "refs": [
+        "Sarkar p81-85"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0065",
+      "subtopic": "pr-ospe-instruments",
+      "kind": "fact",
+      "q": "Absorbance when concentration doubles (Beer-Lambert)",
+      "a": "Doubles",
+      "refs": [
+        "Sarkar p421-425"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0066",
+      "subtopic": "pr-ospe-instruments",
+      "kind": "fact",
+      "q": "Antibody-antigen assay with enzyme label and colour readout",
+      "a": "ELISA",
+      "refs": [
+        "Sarkar p386-390"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0067",
+      "subtopic": "pr-ospe-instruments",
+      "kind": "fact",
+      "q": "Separation on a coated plate, spots identified afterwards",
+      "a": "Thin layer chromatography",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0068",
+      "subtopic": "pr-ospe-dosage-calc",
+      "kind": "fact",
+      "q": "1 mg/mL stock diluted 1 in 10",
+      "a": "100 microgram/mL",
+      "refs": [
+        "Pickar Dosage Calculations PDF p373",
+        "UNSOURCED - owner must verify"
+      ],
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0069",
+      "subtopic": "pr-ospe-format",
+      "kind": "fact",
+      "q": "OSPE full form",
+      "a": "Objective Structured Practical Examination",
+      "refs": [
+        "NMC MD Pharmacology 2022 curriculum (practical exam)",
+        "UNSOURCED - owner must verify"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0070",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "Two or more drugs in one fixed dose ratio",
+      "a": "Fixed-dose combination (FDC)",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0071",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "Synergistic antibacterial FDC: sulfa plus diaminopyrimidine",
+      "a": "Sulfamethoxazole + trimethoprim",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0072",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "class",
+      "q": "Rational prescribing criteria: list all six",
+      "a": "Indication; drug (efficacy, tolerability, safety, suitability); dose, route and duration; patient; dispensing with instructions; monitoring",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0073",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "FDCs used because a single drug must not be given alone: three diseases",
+      "a": "Tuberculosis, HIV-AIDS, falciparum malaria",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0074",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "Irrational FDCs recently banned in India",
+      "a": "344",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0075",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "FDCs on India NLEM 2015",
+      "a": "20",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0076",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "FDCs on WHO essential medicines list 2017",
+      "a": "25",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0077",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "Drug that must never be combined with any other internal-use drug in an FDC",
+      "a": "Corticosteroids",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-pr-ospe-0078",
+      "subtopic": "pr-ospe-drug-info",
+      "kind": "fact",
+      "q": "Drugs per prescription in polypharmacy (KDT8): average and maximum",
+      "a": "3-4 on average; some up to 10-12",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "tags": [
+        "uses"
       ]
     }
   ]

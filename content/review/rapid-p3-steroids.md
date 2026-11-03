@@ -77,3 +77,35 @@ Rapid cards aligned with corrections in content/review/p3-steroids.md (newest bo
 Added 16 rapid cards (ids rf-p3-steroids-0480 to 0495) from KDT8 ch20-23: clomiphene regimen and adjuncts, letrozole pk, oral and vaginal estrogen doses, WHI harms, progesterone and hydroxyprogesterone i.m. doses, fosfestrol i.v. dose, testosterone protein binding. Each has one tag.
 
 Book conflicts noted: none in this pass.
+
+Level pass: no rapid changes; chapter already saturated (495 cards), coverage audit found no uncovered facts.
+
+## Checker
+- No Prep/RR5 refs found. Levels all present; every subtopic meets 3/2/1. No cards changed or deleted. Spot-checked deflazacort, antenatal betamethasone, septic-shock hydrocortisone against KDT8/GG14/Katzung16: correct.
+
+## Gap-question rapid cards (writer pass, 2026-11-03)
+- Added 45 rapid cards rf-p3-steroids-0496 to 0540 covering the new study cards 087-106.
+- Sources: KDT8 ch17, ch20, ch22; GG14 ch48; Ghosh FEP p136-137, p151.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-steroids-0496 to 0504 | new | KDT8 ch20 |
+| rf-p3-steroids-0505 to 0523 | new | KDT8 ch22; GG14 ch48 |
+| rf-p3-steroids-0524 to 0528 | new | Ghosh FEP p136-137 |
+| rf-p3-steroids-0529 to 0532 | new | Ghosh FEP p151 |
+| rf-p3-steroids-0533 to 0540 | new | KDT8 ch17 |
+
+## Checker (PYQ gap pass)
+- Verified rf-p3-steroids-0496 to 0540 against KDT8 ch17/20/22, GG14 ch48, GG12 ch40, Ghosh FEP p136-151.
+- Deleted rf-p3-steroids-0511 (nomegestrol acetate endometrial action; not in any owner book).
+- Corrected 0509: pairing with 30 µg removed, answer "3 mg".
+- Corrected 0510: source changed to GG12 ch40.
+- Corrected 0522: "off-label menorrhagia" replaced with GG14 ch48 non-contraceptive uses of LNg 20.
+- Corrected 0523: "Estradiol" changed to "Ethinylestradiol".
+- Verified OK: all other new rapid cards.
+
+## PYQ gap pass, entries 38/166/219/295 (2026-11-03)
+- No new Rapid pairs. Key facts for these questions already exist (ulipristal, levonorgestrel regimen, GnRH agonist/antagonist, glucocorticoid adverse effects).
+
+## Checker pass 2
+- Corrected rf-p3-steroids-0539: dose changed to 3.75 mg i.m. monthly; 7.5 mg not in books. Refs KDT8 ch17, GG14 ch46.

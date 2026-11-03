@@ -38,12 +38,19 @@
       "refs": [
         "KDT8 ch5"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p1-special-populations-pregnancy-pk",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-002",
@@ -58,7 +65,40 @@
       "subtopic": "p1-special-populations-pregnancy-pk",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-074",
+      "type": "basic",
+      "front": "What is ion trapping across the placenta, and which drugs does it affect?",
+      "back": "Fetal blood is slightly more acidic than maternal blood (about pH 7.3 versus 7.4). Basic drugs with a pKa above 7.4 therefore tend to accumulate in the fetus, so fetal exposure can exceed what maternal levels suggest.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-075",
+      "type": "basic",
+      "front": "Salicylate is almost fully ionised, so why does it still cross the placenta readily?",
+      "back": "The small unionised fraction is highly lipid-soluble and crosses freely; as it leaves, more drug converts to that form. Ionisation alone does not stop transfer. Contrast succinylcholine and tubocurarine, which are highly ionised and cross slowly.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-003",
@@ -74,7 +114,8 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-004",
@@ -95,7 +136,8 @@
       "subtopic": "p1-special-populations-pregnancy-pk",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-005",
@@ -111,7 +153,8 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-006",
@@ -127,7 +170,73 @@
       "tags": [
         "pk",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-076",
+      "type": "essay",
+      "front": "Essay: Drug transfer across the placenta and fetal exposure",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Placenta is not a strict barrier: any drug crosses to some extent",
+            "Maternal physiology also shifts kinetics (larger fluid volume, lower albumin, faster renal and hepatic clearance)"
+          ]
+        },
+        {
+          "h": "Physicochemical factors",
+          "points": [
+            "Lipid solubility: thiopental crosses almost at once",
+            "Ionisation: succinylcholine and tubocurarine cross slowly; salicylate still crosses via its unionised fraction",
+            "Molecular weight: 250-500 cross readily, 500-1000 with difficulty, above 1000 very poorly (heparin)",
+            "Very lipid-soluble drugs: transfer limited by placental blood flow"
+          ]
+        },
+        {
+          "h": "Binding and pH",
+          "points": [
+            "Maternal binding higher than fetal for sulfonamides, barbiturates, phenytoin, local anaesthetics",
+            "Fetal pH 7.3 vs maternal 7.4: basic drugs trapped in the fetus"
+          ]
+        },
+        {
+          "h": "Transporters and metabolism",
+          "points": [
+            "P-glycoprotein pumps vinblastine, doxorubicin and HIV protease inhibitors back to the mother",
+            "Glyburide effluxed by BCRP and MRP3, plus very high protein binding",
+            "Placenta converts prednisolone to inactive prednisone; may make toxic metabolites from ethanol",
+            "Immunoglobulin transporters from the second trimester carry antibodies and anti-TNF drugs"
+          ]
+        },
+        {
+          "h": "Clinical application",
+          "points": [
+            "Heparin chosen over warfarin",
+            "Prednisolone spares the fetus",
+            "Antiretrovirals and maternal drugs for fetal arrhythmia can be given to treat the fetus"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch59",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk",
+        "mechanism"
+      ],
+      "level": 3
     },
     {
       "id": "p1-special-populations-007",
@@ -142,7 +251,8 @@
       "subtopic": "p1-special-populations-teratogenicity",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-008",
@@ -158,7 +268,8 @@
       "tags": [
         "adr",
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-009",
@@ -173,38 +284,8 @@
       "subtopic": "p1-special-populations-teratogenicity",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p1-special-populations-010",
-      "type": "basic",
-      "front": "How has the US FDA changed pregnancy labelling, and why?",
-      "back": "The old A, B, C, D, X letter categories were removed under rules effective 30 June 2015. Labels now carry narrative sections (Risk Summary, Clinical Considerations, Data) including pregnancy-registry data, and cover lactation and people of reproductive potential. The letters were dropped because about three-quarters of drugs fell into category C, and the grading had become outdated.",
-      "refs": [
-        "Katzung16 ch59",
-        "KDT8 ch6"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-teratogenicity",
-      "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p1-special-populations-011",
-      "type": "basic",
-      "front": "What points should be covered when counselling a pregnant woman about drug exposure?",
-      "back": "Fewer than 30 drugs are proven human teratogens and hundreds are known to be safe. The baseline risk of a neonatal abnormality without any exposure is about 3%. The risk of leaving the maternal condition untreated must be weighed (stopping SSRIs for depression has caused serious maternal morbidity). Good counselling has been shown to prevent unnecessary abortions.",
-      "refs": [
-        "Katzung16 ch59"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-teratogenicity",
-      "tags": [
-        "adr"
-      ]
+      "level": 1
     },
     {
       "id": "p1-special-populations-012",
@@ -220,7 +301,253 @@
       "subtopic": "p1-special-populations-teratogenicity",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-010",
+      "type": "basic",
+      "front": "How has the US FDA changed pregnancy labelling, and why?",
+      "back": "The old A, B, C, D, X letter categories were removed under rules effective 30 June 2015. Labels now carry narrative sections (Risk Summary, Clinical Considerations, Data) including pregnancy-registry data, and cover lactation and people of reproductive potential. The letters were dropped because about three-quarters of drugs fell into category C, and the grading had become outdated.",
+      "refs": [
+        "Katzung16 ch59",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-011",
+      "type": "basic",
+      "front": "What points should be covered when counselling a pregnant woman about drug exposure?",
+      "back": "Fewer than 30 drugs are proven human teratogens and hundreds are known to be safe. The baseline risk of a neonatal abnormality without any exposure is about 3%. The risk of leaving the maternal condition untreated must be weighed (stopping SSRIs for depression has caused serious maternal morbidity). Good counselling has been shown to prevent unnecessary abortions.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-077",
+      "type": "basic",
+      "front": "Why does the stage of exposure change the kind of fetal harm? Give drug examples.",
+      "back": "Before day 17 the outcome is all-or-none (failure of pregnancy). In organogenesis (days 18-55) structural defects arise, e.g. thalidomide limb defects (phocomelia). From day 56 the effects are functional or growth-related: ACE inhibitors cause hypoplasia of lungs and kidneys, NSAIDs in late pregnancy close the ductus arteriosus, androgens and progestins masculinise a female fetus, and antithyroid drugs or lithium cause fetal goitre.",
+      "refs": [
+        "KDT8 ch6",
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-072",
+      "type": "shortnote",
+      "front": "Short note: Teratogenicity",
+      "sections": [
+        {
+          "h": "Determinants",
+          "points": [
+            "Type of malformation depends on the drug and on the stage of exposure",
+            "Foetal exposure depends on maternal blood level and duration of drug in maternal circulation"
+          ]
+        },
+        {
+          "h": "Examples in KDT8",
+          "points": [
+            "Table of human teratogens lists defects such as limb, cardiac and neural tube defects, growth retardation, and foetal alcohol syndrome"
+          ]
+        },
+        {
+          "h": "Assessment",
+          "points": [
+            "Teratogenic potential must be judged against the background risk of congenital abnormality"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p116",
+        "KDT8 PDF p117"
+      ],
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-special-populations-092",
+      "type": "basic",
+      "front": "Why is it wise to avoid all drugs in pregnancy even when a drug has a reassuring FDA category, and what can lower neural tube defects?",
+      "back": "The FDA graded birth-defect risk in five categories (A safe to X contraindicated), but the grading is outdated for many drugs as evidence accumulates. Only a few exposed mothers deliver a deformed baby, so the exact risk is hard to estimate; hence avoid drugs unless compelling. Folate therapy in pregnancy can reduce neural tube defects, spontaneous or drug-induced.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-093",
+      "type": "basic",
+      "front": "How do mutagenicity and carcinogenicity of a drug arise, and which drugs are implicated?",
+      "back": "Oxidation of the drug forms reactive intermediates that bind DNA covalently and cause mutations, which can be heritable. If the altered DNA affects proto-oncogenes or their inhibitors, a tumour can follow, usually after 10-40 years. Implicated: anticancer drugs, radioisotopes, estrogens, tobacco. Such drugs are generally not approved, or are withdrawn, unless needed in life-threatening disease.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-teratogenicity",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-078",
+      "type": "basic",
+      "front": "When is infant exposure through breast milk considered negligible, and why avoid stopping breastfeeding needlessly?",
+      "back": "When the infant receives under 10% of the weight-corrected maternal dose, toxicity is unlikely. Most drugs reach milk only in small amounts, while formula feeding carries higher infant illness and death, so stopping is not free of harm.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-lactation",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-079",
+      "type": "basic",
+      "front": "How can a mother time a relatively safe drug to minimise infant exposure?",
+      "back": "Take it 30-60 minutes after nursing and 3-4 hours before the next feed, so milk levels are lowest when the baby feeds. A drug such as chloral hydrate can sedate the infant if feeding falls at the peak milk concentration.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-lactation",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-080",
+      "type": "basic",
+      "front": "Which drugs reach clinically meaningful levels in breast milk?",
+      "back": "Lithium, amiodarone and atenolol. Lithium reaches a milk concentration equal to the mother's serum level, so infant exposure can be large.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-lactation",
+      "tags": [
+        "pk",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-014",
+      "type": "basic",
+      "front": "Why is codeine risky for breastfeeding mothers?",
+      "back": "Mothers who are CYP2D6 ultra-rapid metabolisers make much more morphine, which passes into milk; a neonatal death from opioid toxicity was traced to this. Neonates are also extra sensitive because their blood-brain barrier has little P-glycoprotein, so more morphine enters the brain. The FDA issued a warning on codeine-containing painkillers in lactation.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-lactation",
+      "tags": [
+        "adr",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-081",
+      "type": "basic",
+      "front": "Why are tetracycline, isoniazid, chloramphenicol and radioiodine a concern during breastfeeding?",
+      "back": "Tetracycline stains the infant's developing teeth permanently. Isoniazid can cause infant pyridoxine deficiency, so the mother should take pyridoxine. Chloramphenicol risks marrow suppression, so it is advised against. Radioiodine suppresses the infant's thyroid and may raise later thyroid cancer risk up to 10-fold; breastfeeding is stopped after large doses and withheld after small ones.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-lactation",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-082",
+      "type": "basic",
+      "front": "How should sedatives and opioids be handled in a breastfeeding mother?",
+      "back": "Hypnotic barbiturates cause infant lethargy and poor suck; diazepam sedates and accumulates because of its long half-life. Chronic maternal opioid use can prolong neonatal dependence. Methadone may be continued under supervision without abrupt stopping, with the infant watched for withdrawal; codeine is risky if the mother is a CYP2D6 ultra-rapid metaboliser.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-lactation",
+      "tags": [
+        "adr",
+        "pk"
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-013",
@@ -267,6 +594,11 @@
           "university": "RGUHS",
           "year": 2025,
           "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
         }
       ],
       "status": "draft",
@@ -274,23 +606,8 @@
       "tags": [
         "adr",
         "pk"
-      ]
-    },
-    {
-      "id": "p1-special-populations-014",
-      "type": "basic",
-      "front": "Why is codeine risky for breastfeeding mothers?",
-      "back": "Mothers who are CYP2D6 ultra-rapid metabolisers make much more morphine, which passes into milk; a neonatal death from opioid toxicity was traced to this. Neonates are also extra sensitive because their blood-brain barrier has little P-glycoprotein, so more morphine enters the brain. The FDA issued a warning on codeine-containing painkillers in lactation.",
-      "refs": [
-        "Katzung16 ch59"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-lactation",
-      "tags": [
-        "adr",
-        "pk"
-      ]
+      "level": 3
     },
     {
       "id": "p1-special-populations-015",
@@ -340,7 +657,56 @@
       "subtopic": "p1-special-populations-paediatric",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-018",
+      "type": "basic",
+      "front": "How should a child's dose be calculated, and why not with old age-based formulae?",
+      "back": "Preferably by body weight (mg/kg), as most manufacturers recommend. Age-based formulae are no longer used. Infant doses must be learnt as such, because infants differ physiologically from adults and cannot be dosed from a formula.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-019",
+      "type": "basic",
+      "front": "Name four adverse effects that occur particularly in growing children.",
+      "back": "Growth suppression with corticosteroids; early epiphyseal fusion and stunting with androgens; tetracycline deposition in growing teeth causing discolouration and deformity; dystonic reactions to phenothiazines are more frequent.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-047",
+      "type": "basic",
+      "front": "Why can metered-dose inhalers and solid dosage forms be a problem in young children?",
+      "back": "Young children find solid dosage forms and metered-dose inhalers difficult to administer.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-016",
@@ -357,7 +723,8 @@
       "tags": [
         "adr",
         "contraindications"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-017",
@@ -374,37 +741,8 @@
       "tags": [
         "pk",
         "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-018",
-      "type": "basic",
-      "front": "How should a child's dose be calculated, and why not with old age-based formulae?",
-      "back": "Preferably by body weight (mg/kg), as most manufacturers recommend. Age-based formulae are no longer used. Infant doses must be learnt as such, because infants differ physiologically from adults and cannot be dosed from a formula.",
-      "refs": [
-        "KDT8 ch5"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-paediatric",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-019",
-      "type": "basic",
-      "front": "Name four adverse effects that occur particularly in growing children.",
-      "back": "Growth suppression with corticosteroids; early epiphyseal fusion and stunting with androgens; tetracycline deposition in growing teeth causing discolouration and deformity; dystonic reactions to phenothiazines are more frequent.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-paediatric",
-      "tags": [
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p1-special-populations-020",
@@ -419,13 +757,135 @@
           "university": "KNRUHS",
           "year": 2025,
           "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 20
         }
       ],
       "status": "draft",
       "subtopic": "p1-special-populations-paediatric",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-091",
+      "type": "basic",
+      "front": "Why is the digoxin dose per kg higher in children, yet it accumulates in neonates?",
+      "back": "Toddlers and older children clear digoxin faster than adults, so the dose per kg is much higher. Neonates and young infants have slow elimination (digoxin half-life 60-70 h at 0-5 days vs 30-60 h in adults) because renal function is immature, so it accumulates.",
+      "refs": [
+        "Katzung16 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-071",
+      "type": "shortnote",
+      "front": "Short note: Drug therapy in neonates",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "sections": [
+        {
+          "h": "Pharmacokinetic differences",
+          "points": [
+            "Infants are not small adults",
+            "Renal clearance is low and tubular transport immature at birth",
+            "Conjugation is inefficient, so drugs such as chloramphenicol accumulate"
+          ]
+        },
+        {
+          "h": "Chloramphenicol",
+          "points": [
+            "Grey baby syndrome occurs after high doses, especially in premature neonates",
+            "Feeding stops, vomiting and hypotonia follow"
+          ]
+        },
+        {
+          "h": "Formulation safety",
+          "points": [
+            "Benzyl alcohol preservative has been linked to a fatal toxic syndrome in neonates",
+            "Unpreserved epoetin is therefore used for anaemia of prematurity"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "KDT8 ch53",
+        "RangDale9 ch26"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p1-special-populations-073",
+      "type": "shortnote",
+      "front": "Short note: Principles of drug administration in children",
+      "sections": [
+        {
+          "h": "Dose calculation",
+          "points": [
+            "Children's dose can be calculated on body weight: child weight (kg) / 70 x average adult dose",
+            "Body surface area is argued to be a more accurate basis for dose calculation"
+          ]
+        },
+        {
+          "h": "Route and dosage form",
+          "points": [
+            "Oral drops are the preferred dosage form for infants and young children",
+            "Rectal route (suppository or retention enema) can be used with recurrent vomiting or unconsciousness; absorption is slower and less predictable, though diazepam solution and paracetamol suppository are dependably absorbed"
+          ]
+        },
+        {
+          "h": "Sensitivity",
+          "points": [
+            "Children can react more strongly: a single triflupromazine dose causes muscular dystonias in some, especially children"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p90",
+        "KDT8 PDF p25",
+        "KDT8 PDF p29",
+        "KDT8 PDF p113"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-special-populations-paediatric",
+      "tags": [
+        "dosing"
+      ],
+      "level": 3
     },
     {
       "id": "p1-special-populations-021",
@@ -466,12 +926,19 @@
         "KDT8 ch5",
         "Katzung16 ch60"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p1-special-populations-elderly",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-022",
@@ -486,7 +953,56 @@
       "subtopic": "p1-special-populations-elderly",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-036",
+      "type": "basic",
+      "front": "What is the Beers criteria?",
+      "back": "A list of potentially inappropriate medications for older persons. It is organised by body system and therapeutic category, and gives the rationale and quality of evidence for each entry.",
+      "refs": [
+        "Sarkar p71-75"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-037",
+      "type": "basic",
+      "front": "What do the START and STOPP tools do in prescribing for older patients?",
+      "back": "START lists evidence-based prescribing indicators by body system, to alert the prescriber to the right treatment. STOPP identifies potentially inappropriate medicines in older persons' prescriptions and is used for medication review.",
+      "refs": [
+        "Sarkar p71-75"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-038",
+      "type": "basic",
+      "front": "What does the Medication Appropriateness Index check for each prescribed drug?",
+      "back": "Whether the drug is indicated, whether it is effective, whether the dose is appropriate, whether it is cost-effective, and whether it duplicates another therapy.",
+      "refs": [
+        "Sarkar p71-75"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-023",
@@ -503,7 +1019,8 @@
       "tags": [
         "adr",
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-024",
@@ -519,7 +1036,8 @@
       "tags": [
         "adr",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-025",
@@ -534,13 +1052,24 @@
           "university": "KNRUHS",
           "year": 2025,
           "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 20
         }
       ],
       "status": "draft",
       "subtopic": "p1-special-populations-elderly",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-026",
@@ -556,167 +1085,8 @@
       "tags": [
         "dosing",
         "pk"
-      ]
-    },
-    {
-      "id": "p1-special-populations-027",
-      "type": "shortnote",
-      "front": "Short note: Drug therapy in liver disease",
-      "sections": [
-        {
-          "h": "Kinetic changes",
-          "points": [
-            "Bioavailability of high first-pass drugs rises (loss of hepatocytes, portocaval shunting)",
-            "Low albumin: more free acidic drugs (diclofenac, warfarin)",
-            "Reduced clearance of morphine, lidocaine, propranolol: lower doses",
-            "Prodrugs needing hepatic activation (bacampicillin) less effective"
-          ]
-        },
-        {
-          "h": "Preferred alternatives",
-          "points": [
-            "Oxazepam or lorazepam instead of diazepam",
-            "Atenolol as the beta blocker"
-          ]
-        },
-        {
-          "h": "Altered drug action",
-          "points": [
-            "Morphine and barbiturates may cause coma in cirrhotics",
-            "Brisk diuresis: hypokalaemic alkalosis, more NH3, hepatic encephalopathy",
-            "Oral anticoagulants markedly prolong prothrombin time",
-            "NSAID fluid retention and metformin lactic acidosis worsen"
-          ]
-        },
-        {
-          "h": "Limitation",
-          "points": [
-            "No simple test (unlike creatinine clearance) predicts the change",
-            "Avoid hepatotoxic drugs"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-hepatic",
-      "tags": [
-        "pk",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p1-special-populations-028",
-      "type": "basic",
-      "front": "How are doses of renally excreted drugs adjusted in kidney disease?",
-      "back": "Clearance of drugs excreted unchanged (aminoglycosides, digoxin, phenobarbitone) falls in parallel with creatinine clearance. Loading dose is unchanged (unless oedema), but maintenance dose is cut or interval lengthened. KDT guide: CLcr 50-70 mL/min, 70% of the dose rate; 30-50, 50%; 10-30, 30%; 5-10, 20%. Steady state is reached later if half-life is prolonged.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing",
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-special-populations-029",
-      "type": "cloze",
-      "front": "Classify: antimicrobials needing dose reduction in renal failure",
-      "text": "Even in mild failure: {{aminoglycosides}}, {{cephalexin}}, {{ethambutol}}, {{vancomycin}}, {{amphotericin B}}, {{acyclovir}}. Only in severe failure: {{cotrimoxazole}}, {{carbenicillin}}, {{cefotaxime}}, {{norfloxacin}}, {{ciprofloxacin}}, {{metronidazole}}.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing",
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-special-populations-030",
-      "type": "basic",
-      "front": "Which drugs should be avoided or used with care in renal failure, and why?",
-      "back": "Nephrotoxic drugs: aminoglycosides, tetracyclines (except doxycycline; also anti-anabolic, worsen uraemia), sulfonamides (crystalluria), vancomycin, nitrofurantoin, cyclosporine, amphotericin B. Thiazides are ineffective and reduce GFR (use furosemide). Potassium-sparing diuretics cause hyperkalaemia. Pethidine: norpethidine accumulates and causes seizures. Urinary antiseptics fail to reach urinary levels and cause systemic toxicity. NSAIDs increase fluid retention.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "contraindications",
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-special-populations-031",
-      "type": "basic",
-      "front": "How does renal failure alter drug distribution and sensitivity?",
-      "back": "Albumin is low or altered, so binding of acidic drugs falls (basic drugs little changed). The blood-brain barrier becomes more permeable, so opiates, barbiturates, phenothiazines and benzodiazepines cause more CNS depression. Antihypertensives cause more postural hypotension.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "pk",
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-special-populations-032",
-      "type": "basic",
-      "front": "How does congestive heart failure alter drug kinetics?",
-      "back": "Absorption falls from mucosal oedema and splanchnic vasoconstriction (procainamide, hydrochlorothiazide); volume of distribution may change, so loading doses of lidocaine and procainamide should be lowered; elimination slows from hepatic congestion and low GFR, so dosing rates of lidocaine, procainamide and theophylline may need cutting; the failing heart is more sensitive to digitalis.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-other-disease",
-      "tags": [
-        "pk",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-033",
-      "type": "basic",
-      "front": "How does thyroid status alter drug response?",
-      "back": "Hypothyroid patients are more sensitive to digoxin, morphine and CNS depressants. Hyperthyroid patients resist the inotropic action of digoxin but are more prone to its arrhythmias. Digoxin clearance roughly follows thyroid function.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-other-disease",
-      "tags": [
-        "pk",
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-special-populations-034",
-      "type": "basic",
-      "front": "Give examples of gastrointestinal disease altering drug absorption.",
-      "back": "In coeliac disease amoxicillin absorption falls but cephalexin and cotrimoxazole absorption rises, so malabsorption does not reduce all drugs. Gastric stasis in a migraine attack delays absorption. Achlorhydria reduces aspirin absorption by increasing its ionisation.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-other-disease",
-      "tags": [
-        "pk"
-      ]
+      "level": 2
     },
     {
       "id": "p1-special-populations-035",
@@ -782,52 +1152,62 @@
       "tags": [
         "pk",
         "dosing"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p1-special-populations-036",
-      "type": "basic",
-      "front": "What is the Beers criteria?",
-      "back": "A list of potentially inappropriate medications for older persons. It is organised by body system and therapeutic category, and gives the rationale and quality of evidence for each entry.",
-      "refs": [
-        "Sarkar p71-75"
+      "id": "p1-special-populations-087",
+      "type": "shortnote",
+      "front": "Short note: Pharmacological concerns in the elderly, including drugs that raise fall risk",
+      "sections": [
+        {
+          "h": "Orthostatic hypotension",
+          "points": [
+            "Postural fall in blood pressure is common; homeostatic reflexes are blunted with age",
+            "Chlorpromazine and older phenothiazines cause it through alpha-adrenoceptor blockade; antihypertensives worsen it"
+          ]
+        },
+        {
+          "h": "CNS effects",
+          "points": [
+            "More sensitive to sedative-hypnotics; opioids cause respiratory depression",
+            "Postural instability, giddiness and confusion",
+            "Benzodiazepine half-lives rise 50-150% from age 30 to 70; lorazepam and oxazepam less affected"
+          ]
+        },
+        {
+          "h": "Other drug effects",
+          "points": [
+            "Haloperidol: more extrapyramidal toxicity; disopyramide antimuscarinic, voiding problems",
+            "Reduced response to beta-agonists and antagonists"
+          ]
+        },
+        {
+          "h": "Prescribing safeguards",
+          "points": [
+            "Start low, titrate, wait three age-adjusted half-lives",
+            "Brown bag review to cut the drug count"
+          ]
+        }
       ],
-      "pyq": [],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch60"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p1-special-populations-elderly",
       "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p1-special-populations-037",
-      "type": "basic",
-      "front": "What do the START and STOPP tools do in prescribing for older patients?",
-      "back": "START lists evidence-based prescribing indicators by body system, to alert the prescriber to the right treatment. STOPP identifies potentially inappropriate medicines in older persons' prescriptions and is used for medication review.",
-      "refs": [
-        "Sarkar p71-75"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-elderly",
-      "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p1-special-populations-038",
-      "type": "basic",
-      "front": "What does the Medication Appropriateness Index check for each prescribed drug?",
-      "back": "Whether the drug is indicated, whether it is effective, whether the dose is appropriate, whether it is cost-effective, and whether it duplicates another therapy.",
-      "refs": [
-        "Sarkar p71-75"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-elderly",
-      "tags": [
+        "adr",
         "dosing"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p1-special-populations-039",
@@ -842,7 +1222,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-040",
@@ -857,54 +1238,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "contraindications"
-      ]
-    },
-    {
-      "id": "p1-special-populations-041",
-      "type": "basic",
-      "front": "How is the starting dose of obeticholic acid set according to liver disease stage?",
-      "back": "Used when there is no adequate response to ursodeoxycholic acid after at least 1 year, or when it is not tolerated. Non-cirrhotic or Child-Pugh A: start 5 mg once daily for 3 months, then 10 mg once daily at most. Child-Pugh B or C, or a prior decompensation event: start 5 mg once weekly for 3 months, then 5 mg twice weekly, at most 10 mg twice weekly (doses at least 3 days apart).",
-      "refs": [
-        "Sarkar p576-580"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-hepatic",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-042",
-      "type": "basic",
-      "front": "Why is succinylcholine unsafe in hepatic failure?",
-      "back": "Succinylcholine is broken down by plasma pseudocholinesterase. An acquired deficiency of this enzyme, as in liver disease, predisposes to prolonged apnoea, so the drug is unsafe there.",
-      "refs": [
-        "Satoskar Pharmacology PDF p509",
-        "Padmaja Medical Pharmacology 7e PDF p77"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-hepatic",
-      "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p1-special-populations-043",
-      "type": "basic",
-      "front": "Which antitubercular drugs are safe in liver disease, and which is most hepatotoxic?",
-      "back": "Streptomycin and ethambutol are non-hepatotoxic and are used when the liver is damaged, with a fluoroquinolone such as levofloxacin. Pyrazinamide is the most hepatotoxic, followed by rifampicin; isoniazid is also hepatotoxic. On rechallenge after hepatitis, drugs are restarted one at a time in the order rifampicin, isoniazid, pyrazinamide.",
-      "refs": [
-        "KDT8 PDF p1007",
-        "Case-Based Learning in Pharmacology PDF p225"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-hepatic",
-      "tags": [
-        "contraindications"
-      ]
+      "level": 1
     },
     {
       "id": "p1-special-populations-044",
@@ -921,52 +1256,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "contraindications"
-      ]
-    },
-    {
-      "id": "p1-special-populations-045",
-      "type": "basic",
-      "front": "How is the dose calculated for an exceptionally obese or lean adult?",
-      "back": "On a body weight basis: individual dose = (body weight in kg / 70) x average adult dose. The average adult dose refers to a person of medium build. Body surface area has been argued to be a more accurate basis.",
-      "refs": [
-        "KDT8 ch5"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-other-disease",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-046",
-      "type": "basic",
-      "front": "How does haemodialysis change the vancomycin dosing schedule?",
-      "back": "With non-high-flux dialysis membranes, about 1 g (around 15 mg/kg) every 5 to 7 days typically gives adequate levels. With intermittent high-efficiency or high-flux dialysis, maintenance doses are needed after each dialysis session.",
-      "refs": [
-        "GG14 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-047",
-      "type": "basic",
-      "front": "Why can metered-dose inhalers and solid dosage forms be a problem in young children?",
-      "back": "Young children find solid dosage forms and metered-dose inhalers difficult to administer.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-paediatric",
-      "tags": [
-        "dosing"
-      ]
+      "level": 1
     },
     {
       "id": "p1-special-populations-048",
@@ -1007,22 +1298,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p1-special-populations-049",
-      "type": "basic",
-      "front": "Does a Child-Pugh class alone decide the dose of a drug?",
-      "back": "No. Dosing decisions rely on the drug's prescribing information, not the score alone. Reassess the score when the patient's condition changes.",
-      "refs": [
-        "WEB NCBI StatPearls Use of the Child Pugh Score in Liver Disease (2023) https://www.ncbi.nlm.nih.gov/books/NBK542308/"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-hepatic",
-      "tags": [
-        "dosing"
-      ]
+      "level": 1
     },
     {
       "id": "p1-special-populations-050",
@@ -1037,157 +1314,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p1-special-populations-051",
-      "type": "basic",
-      "front": "In renal impairment, how should the dose change relate to clearance?",
-      "back": "Reduce the dose in proportion to the calculated fall in drug clearance.",
-      "refs": [
-        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-052",
-      "type": "basic",
-      "front": "Why are renal dose changes usually coarse, and when is more care needed?",
-      "back": "Changes are often halving or doubling, since a 20% change is usually impractical. Drugs with a narrow therapeutic index need more careful adjustment.",
-      "refs": [
-        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-053",
-      "type": "basic",
-      "front": "Which CKD stage requires renal replacement therapy, and what GFR defines it?",
-      "back": "Stage 5, with a GFR of 14 to 0 mL/min.",
-      "refs": [
-        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-special-populations-054",
-      "type": "basic",
-      "front": "Which creatinine equation has largely replaced older methods for estimating kidney function?",
-      "back": "The CKD-EPI creatinine equation, recommended by the NKF and ASN task force; older methods were Cockcroft-Gault and MDRD.",
-      "refs": [
-        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-055",
-      "type": "basic",
-      "front": "Why does protein binding limit how much drug dialysis removes?",
-      "back": "Only unbound drug crosses the dialysis membrane, so the bound fraction is not available for removal.",
-      "refs": [
-        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-special-populations-056",
-      "type": "basic",
-      "front": "Which drugs are mainly removed by diffusion during dialysis?",
-      "back": "Small molecules; drugs under about 1000 daltons are mainly removed this way.",
-      "refs": [
-        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-special-populations-057",
-      "type": "basic",
-      "front": "Why must dialysis dosing be reviewed as residual kidney function changes?",
-      "back": "Residual renal function clears renally excreted drugs, and it can change daily, so dosing should be reassessed as it improves or declines.",
-      "refs": [
-        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-058",
-      "type": "basic",
-      "front": "For intermittent drugs in dialysis, what timing point matters?",
-      "back": "Exposure depends on the dose timing relative to the start and length of the session, so these doses are planned around dialysis.",
-      "refs": [
-        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-059",
-      "type": "basic",
-      "front": "In extended dialysis (SLED), what do studies suggest to replace drug removed during a session?",
-      "back": "Giving a dose after the session, or both before and after it.",
-      "refs": [
-        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-special-populations-060",
-      "type": "basic",
-      "front": "Can intermittent haemodialysis dosing advice be applied straight to SLED?",
-      "back": "Not safely: it may underdose and risk treatment failure, and the evidence base for SLED is small.",
-      "refs": [
-        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-special-populations-renal",
-      "tags": [
-        "dosing"
-      ]
+      "level": 1
     },
     {
       "id": "p1-special-populations-061",
@@ -1202,7 +1330,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-062",
@@ -1217,7 +1346,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-special-populations-063",
@@ -1232,7 +1362,74 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-041",
+      "type": "basic",
+      "front": "How is the starting dose of obeticholic acid set according to liver disease stage?",
+      "back": "Used when there is no adequate response to ursodeoxycholic acid after at least 1 year, or when it is not tolerated. Non-cirrhotic or Child-Pugh A: start 5 mg once daily for 3 months, then 10 mg once daily at most. Child-Pugh B or C, or a prior decompensation event: start 5 mg once weekly for 3 months, then 5 mg twice weekly, at most 10 mg twice weekly (doses at least 3 days apart).",
+      "refs": [
+        "Sarkar p576-580"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-042",
+      "type": "basic",
+      "front": "Why is succinylcholine unsafe in hepatic failure?",
+      "back": "Succinylcholine is broken down by plasma pseudocholinesterase. An acquired deficiency of this enzyme, as in liver disease, predisposes to prolonged apnoea, so the drug is unsafe there.",
+      "refs": [
+        "Satoskar Pharmacology PDF p509",
+        "Padmaja Medical Pharmacology 7e PDF p77"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-043",
+      "type": "basic",
+      "front": "Which antitubercular drugs are safe in liver disease, and which is most hepatotoxic?",
+      "back": "Streptomycin and ethambutol are non-hepatotoxic and are used when the liver is damaged, with a fluoroquinolone such as levofloxacin. Pyrazinamide is the most hepatotoxic, followed by rifampicin; isoniazid is also hepatotoxic. On rechallenge after hepatitis, drugs are restarted one at a time in the order rifampicin, isoniazid, pyrazinamide.",
+      "refs": [
+        "KDT8 PDF p1007",
+        "Case-Based Learning in Pharmacology PDF p225"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-049",
+      "type": "basic",
+      "front": "Does a Child-Pugh class alone decide the dose of a drug?",
+      "back": "No. Dosing decisions rely on the drug's prescribing information, not the score alone. Reassess the score when the patient's condition changes.",
+      "refs": [
+        "WEB NCBI StatPearls Use of the Child Pugh Score in Liver Disease (2023) https://www.ncbi.nlm.nih.gov/books/NBK542308/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-064",
@@ -1247,7 +1444,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-065",
@@ -1262,7 +1460,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-066",
@@ -1277,7 +1476,8 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-special-populations-067",
@@ -1292,7 +1492,116 @@
       "subtopic": "p1-special-populations-hepatic",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-069",
+      "type": "basic",
+      "front": "Why do high-extraction drugs given orally need a large dose cut in cirrhosis?",
+      "back": "Their clearance depends on liver blood flow and first-pass extraction. In cirrhosis, portosystemic shunting and loss of hepatocytes let much more of an oral dose escape first-pass metabolism, so bioavailability and blood levels rise sharply (e.g. morphine, propranolol).",
+      "refs": [
+        "UNSOURCED - owner must verify",
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-070",
+      "type": "basic",
+      "front": "In hepatic impairment, how are loading and maintenance doses handled?",
+      "back": "Loading dose depends on volume of distribution and is usually unchanged (it may even need to be larger if ascites expands the volume of a water-soluble drug). Maintenance dose depends on clearance, so it is reduced or the interval lengthened as Child-Pugh class worsens.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "dosing",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-090",
+      "type": "basic",
+      "front": "What drug problems arise in liver disease apart from reduced clearance?",
+      "back": "Cirrhosis markedly increases CNS sensitivity to morphine and barbiturates (coma at normal doses). Brisk diuresis in impending encephalopathy causes hypokalaemic alkalosis, converting NH4+ to NH3 that enters the brain. Oral anticoagulants prolong prothrombin time sharply because clotting factors are already low. Prodrugs needing hepatic activation work less well.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-027",
+      "type": "shortnote",
+      "front": "Short note: Drug therapy in liver disease",
+      "sections": [
+        {
+          "h": "Kinetic changes",
+          "points": [
+            "Bioavailability of high first-pass drugs rises (loss of hepatocytes, portocaval shunting)",
+            "Low albumin: more free acidic drugs (diclofenac, warfarin)",
+            "Reduced clearance of morphine, lidocaine, propranolol: lower doses",
+            "Prodrugs needing hepatic activation (bacampicillin) less effective"
+          ]
+        },
+        {
+          "h": "Preferred alternatives",
+          "points": [
+            "Oxazepam or lorazepam instead of diazepam",
+            "Atenolol as the beta blocker"
+          ]
+        },
+        {
+          "h": "Altered drug action",
+          "points": [
+            "Morphine and barbiturates may cause coma in cirrhotics",
+            "Brisk diuresis: hypokalaemic alkalosis, more NH3, hepatic encephalopathy",
+            "Oral anticoagulants markedly prolong prothrombin time",
+            "NSAID fluid retention and metformin lactic acidosis worsen"
+          ]
+        },
+        {
+          "h": "Limitation",
+          "points": [
+            "No simple test (unlike creatinine clearance) predicts the change",
+            "Avoid hepatotoxic drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-special-populations-hepatic",
+      "tags": [
+        "pk",
+        "contraindications"
+      ],
+      "level": 3
     },
     {
       "id": "p1-special-populations-068",
@@ -1347,190 +1656,835 @@
       "tags": [
         "dosing",
         "pk"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p1-special-populations-069",
-      "type": "basic",
-      "front": "Why do high-extraction drugs given orally need a large dose cut in cirrhosis?",
-      "back": "Their clearance depends on liver blood flow and first-pass extraction. In cirrhosis, portosystemic shunting and loss of hepatocytes let much more of an oral dose escape first-pass metabolism, so bioavailability and blood levels rise sharply (e.g. morphine, propranolol).",
+      "id": "p1-special-populations-029",
+      "type": "cloze",
+      "front": "Classify: antimicrobials needing dose reduction in renal failure",
+      "text": "Even in mild failure: {{aminoglycosides}}, {{cephalexin}}, {{ethambutol}}, {{vancomycin}}, {{amphotericin B}}, {{acyclovir}}. Only in severe failure: {{cotrimoxazole}}, {{carbenicillin}}, {{cefotaxime}}, {{norfloxacin}}, {{ciprofloxacin}}, {{metronidazole}}.",
       "refs": [
-        "UNSOURCED - owner must verify",
         "KDT8 ch5"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p1-special-populations-hepatic",
+      "subtopic": "p1-special-populations-renal",
       "tags": [
-        "pk",
-        "dosing"
-      ]
+        "dosing",
+        "classification"
+      ],
+      "level": 1
     },
     {
-      "id": "p1-special-populations-070",
+      "id": "p1-special-populations-051",
       "type": "basic",
-      "front": "In hepatic impairment, how are loading and maintenance doses handled?",
-      "back": "Loading dose depends on volume of distribution and is usually unchanged (it may even need to be larger if ascites expands the volume of a water-soluble drug). Maintenance dose depends on clearance, so it is reduced or the interval lengthened as Child-Pugh class worsens.",
+      "front": "In renal impairment, how should the dose change relate to clearance?",
+      "back": "Reduce the dose in proportion to the calculated fall in drug clearance.",
       "refs": [
-        "UNSOURCED - owner must verify"
+        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p1-special-populations-hepatic",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-053",
+      "type": "basic",
+      "front": "Which CKD stage requires renal replacement therapy, and what GFR defines it?",
+      "back": "Stage 5, with a GFR of 14 to 0 mL/min.",
+      "refs": [
+        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-054",
+      "type": "basic",
+      "front": "Which creatinine equation has largely replaced older methods for estimating kidney function?",
+      "back": "The CKD-EPI creatinine equation, recommended by the NKF and ASN task force; older methods were Cockcroft-Gault and MDRD.",
+      "refs": [
+        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-055",
+      "type": "basic",
+      "front": "Why does protein binding limit how much drug dialysis removes?",
+      "back": "Only unbound drug crosses the dialysis membrane, so the bound fraction is not available for removal.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-056",
+      "type": "basic",
+      "front": "Which drugs are mainly removed by diffusion during dialysis?",
+      "back": "Small molecules; drugs under about 1000 daltons are mainly removed this way.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-028",
+      "type": "basic",
+      "front": "How are doses of renally excreted drugs adjusted in kidney disease?",
+      "back": "Clearance of drugs excreted unchanged (aminoglycosides, digoxin, phenobarbitone) falls in parallel with creatinine clearance. Loading dose is unchanged (unless oedema), but maintenance dose is cut or interval lengthened. KDT guide: CLcr 50-70 mL/min, 70% of the dose rate; 30-50, 50%; 10-30, 30%; 5-10, 20%. Steady state is reached later if half-life is prolonged.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
       "tags": [
         "dosing",
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-special-populations-071",
-      "type": "shortnote",
-      "front": "Short note: Drug therapy in neonates",
-      "subtopic": "p1-special-populations-paediatric",
+      "id": "p1-special-populations-030",
+      "type": "basic",
+      "front": "Which drugs should be avoided or used with care in renal failure, and why?",
+      "back": "Nephrotoxic drugs: aminoglycosides, tetracyclines (except doxycycline; also anti-anabolic, worsen uraemia), sulfonamides (crystalluria), vancomycin, nitrofurantoin, cyclosporine, amphotericin B. Thiazides are ineffective and reduce GFR (use furosemide). Potassium-sparing diuretics cause hyperkalaemia. Pethidine: norpethidine accumulates and causes seizures. Urinary antiseptics fail to reach urinary levels and cause systemic toxicity. NSAIDs increase fluid retention.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "contraindications",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-031",
+      "type": "basic",
+      "front": "How does renal failure alter drug distribution and sensitivity?",
+      "back": "Albumin is low or altered, so binding of acidic drugs falls (basic drugs little changed). The blood-brain barrier becomes more permeable, so opiates, barbiturates, phenothiazines and benzodiazepines cause more CNS depression. Antihypertensives cause more postural hypotension.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
       "tags": [
         "pk",
         "adr"
       ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-046",
+      "type": "basic",
+      "front": "How does haemodialysis change the vancomycin dosing schedule?",
+      "back": "With non-high-flux dialysis membranes, about 1 g (around 15 mg/kg) every 5 to 7 days typically gives adequate levels. With intermittent high-efficiency or high-flux dialysis, maintenance doses are needed after each dialysis session.",
+      "refs": [
+        "GG14 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-052",
+      "type": "basic",
+      "front": "Why are renal dose changes usually coarse, and when is more care needed?",
+      "back": "Changes are often halving or doubling, since a 20% change is usually impractical. Drugs with a narrow therapeutic index need more careful adjustment.",
+      "refs": [
+        "WEB NCBI StatPearls Renal Failure Drug Dose Adjustments https://www.ncbi.nlm.nih.gov/books/NBK560512/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-057",
+      "type": "basic",
+      "front": "Why must dialysis dosing be reviewed as residual kidney function changes?",
+      "back": "Residual renal function clears renally excreted drugs, and it can change daily, so dosing should be reassessed as it improves or declines.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-058",
+      "type": "basic",
+      "front": "For intermittent drugs in dialysis, what timing point matters?",
+      "back": "Exposure depends on the dose timing relative to the start and length of the session, so these doses are planned around dialysis.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-089",
+      "type": "basic",
+      "front": "Why are pethidine, thiazides and potassium-sparing diuretics problematic in renal failure?",
+      "back": "Pethidine: norpethidine accumulates on repeated dosing and causes seizures and twitching. Thiazides are ineffective and can worsen uraemia, so furosemide is used. Potassium-sparing diuretics are contraindicated because of hyperkalaemia and cardiac depression.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-059",
+      "type": "basic",
+      "front": "In extended dialysis (SLED), what do studies suggest to replace drug removed during a session?",
+      "back": "Giving a dose after the session, or both before and after it.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-special-populations-060",
+      "type": "basic",
+      "front": "Can intermittent haemodialysis dosing advice be applied straight to SLED?",
+      "back": "Not safely: it may underdose and risk treatment failure, and the evidence base for SLED is small.",
+      "refs": [
+        "WEB NCBI-PMC Principles of Drug Dosing in SLED and Review of Antimicrobial Dosing (Brown and Battistella, Pharmacy 2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7151685/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-special-populations-088",
+      "type": "essay",
+      "front": "Essay: Prescribing drugs in renal impairment",
       "sections": [
         {
-          "h": "Pharmacokinetic differences",
+          "h": "Introduction",
           "points": [
-            "Infants are not small adults",
-            "Renal clearance is low and tubular transport immature at birth",
-            "Conjugation is inefficient, so drugs such as chloramphenicol accumulate"
+            "Estimate function with creatinine clearance; the fall in clearance with age is not mirrored by serum creatinine because muscle mass and creatinine production also fall"
           ]
         },
         {
-          "h": "Chloramphenicol",
+          "h": "Kinetic changes",
           "points": [
-            "Grey baby syndrome occurs after high doses, especially in premature neonates",
-            "Feeding stops, vomiting and hypotonia follow"
+            "Clearance of unchanged drugs falls in parallel with creatinine clearance",
+            "Albumin low or altered: acidic drug binding falls",
+            "Blood-brain barrier more permeable: more CNS depression with opiates, barbiturates, phenothiazines, benzodiazepines"
           ]
         },
         {
-          "h": "Formulation safety",
+          "h": "Dose adjustment",
           "points": [
-            "Benzyl alcohol preservative has been linked to a fatal toxic syndrome in neonates",
-            "Unpreserved epoetin is therefore used for anaemia of prematurity"
+            "Loading dose unchanged (unless oedema); cut maintenance dose or lengthen interval",
+            "Dose rate as % of normal by creatinine clearance: 50-70 mL/min 70%, 30-50 50%, 10-30 30%, 5-10 20%",
+            "Changes usually halving or doubling; narrow-index drugs need more care"
+          ]
+        },
+        {
+          "h": "Drugs to avoid or reduce",
+          "points": [
+            "Aminoglycosides, vancomycin, amphotericin B, acyclovir need reduction even in mild failure",
+            "Tetracyclines (except doxycycline), sulfonamides, nitrofurantoin, cyclosporine are nephrotoxic or worsen uraemia",
+            "Thiazides ineffective; potassium-sparing diuretics contraindicated; pethidine accumulates norpethidine"
           ]
         }
       ],
       "refs": [
         "KDT8 ch5",
-        "KDT8 ch53",
-        "RangDale9 ch26"
+        "Katzung16 ch60"
       ],
       "pyq": [
         {
-          "university": "KNRUHS",
-          "year": 2026,
+          "university": "UHSR",
+          "year": 2025,
           "marks": 10
         }
       ],
-      "status": "draft"
+      "status": "draft",
+      "subtopic": "p1-special-populations-renal",
+      "tags": [
+        "dosing",
+        "pk",
+        "contraindications"
+      ],
+      "level": 3
     },
     {
-      "id": "p1-special-populations-072",
-      "type": "shortnote",
-      "front": "Short note: Teratogenicity",
-      "sections": [
-        {
-          "h": "Determinants",
-          "points": [
-            "Type of malformation depends on the drug and on the stage of exposure",
-            "Foetal exposure depends on maternal blood level and duration of drug in maternal circulation"
-          ]
-        },
-        {
-          "h": "Examples in KDT8",
-          "points": [
-            "Table of human teratogens lists defects such as limb, cardiac and neural tube defects, growth retardation, and foetal alcohol syndrome"
-          ]
-        },
-        {
-          "h": "Assessment",
-          "points": [
-            "Teratogenic potential must be judged against the background risk of congenital abnormality"
-          ]
-        }
-      ],
+      "id": "p1-special-populations-034",
+      "type": "basic",
+      "front": "Give examples of gastrointestinal disease altering drug absorption.",
+      "back": "In coeliac disease amoxicillin absorption falls but cephalexin and cotrimoxazole absorption rises, so malabsorption does not reduce all drugs. Gastric stasis in a migraine attack delays absorption. Achlorhydria reduces aspirin absorption by increasing its ionisation.",
       "refs": [
-        "KDT8 PDF p116",
-        "KDT8 PDF p117"
+        "KDT8 ch5"
       ],
-      "subtopic": "p1-special-populations-teratogenicity",
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-045",
+      "type": "basic",
+      "front": "How is the dose calculated for an exceptionally obese or lean adult?",
+      "back": "On a body weight basis: individual dose = (body weight in kg / 70) x average adult dose. The average adult dose refers to a person of medium build. Body surface area has been argued to be a more accurate basis.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-083",
+      "type": "basic",
+      "front": "Why do myasthenia gravis patients need special care with neuromuscular blockers?",
+      "back": "They are very sensitive to curare-type drugs because the neuromuscular reserve is already reduced, so small doses cause marked weakness.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
       "tags": [
         "adr",
         "contraindications"
       ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2007,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
-      ]
+      "level": 1
     },
     {
-      "id": "p1-special-populations-073",
+      "id": "p1-special-populations-084",
+      "type": "basic",
+      "front": "How do achlorhydria and peptic ulcer disease alter drug handling?",
+      "back": "Achlorhydria reduces aspirin absorption by favouring its ionisation. In peptic ulcer disease, NSAIDs can aggravate the ulcer, so avoid them.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-032",
+      "type": "basic",
+      "front": "How does congestive heart failure alter drug kinetics?",
+      "back": "Absorption falls from mucosal oedema and splanchnic vasoconstriction (procainamide, hydrochlorothiazide); volume of distribution may change, so loading doses of lidocaine and procainamide should be lowered; elimination slows from hepatic congestion and low GFR, so dosing rates of lidocaine, procainamide and theophylline may need cutting; the failing heart is more sensitive to digitalis.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-033",
+      "type": "basic",
+      "front": "How does thyroid status alter drug response?",
+      "back": "Hypothyroid patients are more sensitive to digoxin, morphine and CNS depressants. Hyperthyroid patients resist the inotropic action of digoxin but are more prone to its arrhythmias. Digoxin clearance roughly follows thyroid function.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-085",
+      "type": "basic",
+      "front": "Compare how heart failure, hypothyroidism and hyperthyroidism change the response to digitalis.",
+      "back": "Failing heart: more sensitive to digitalis. Hypothyroid: more sensitive to digoxin (with morphine and CNS depressants). Hyperthyroid: resists its inotropic action yet is more prone to its arrhythmias. Digoxin clearance roughly follows thyroid function, which explains only part of the change.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "adr",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-086",
       "type": "shortnote",
-      "front": "Short note: Principles of drug administration in children",
+      "front": "Short note: Effect of disease states on drug response",
       "sections": [
         {
-          "h": "Dose calculation",
+          "h": "Heart failure",
           "points": [
-            "Children's dose can be calculated on body weight: child weight (kg) / 70 x average adult dose",
-            "Body surface area is argued to be a more accurate basis for dose calculation"
+            "Absorption falls (mucosal oedema, splanchnic vasoconstriction)",
+            "Lower loading doses of lidocaine and procainamide",
+            "Slower elimination of lidocaine, procainamide, theophylline; more sensitive to digitalis"
           ]
         },
         {
-          "h": "Route and dosage form",
+          "h": "Thyroid",
           "points": [
-            "Oral drops are the preferred dosage form for infants and young children",
-            "Rectal route (suppository or retention enema) can be used with recurrent vomiting or unconsciousness; absorption is slower and less predictable, though diazepam solution and paracetamol suppository are dependably absorbed"
+            "Hypothyroid: more sensitive to digoxin, morphine, CNS depressants",
+            "Hyperthyroid: resists digoxin inotropy, more arrhythmias"
           ]
         },
         {
-          "h": "Sensitivity",
+          "h": "Gastrointestinal",
           "points": [
-            "Children can react more strongly: a single triflupromazine dose causes muscular dystonias in some, especially children"
+            "Coeliac: amoxicillin absorption falls, cephalexin and cotrimoxazole rises",
+            "Migraine stasis delays absorption; achlorhydria cuts aspirin absorption",
+            "NSAIDs aggravate ulcers"
+          ]
+        },
+        {
+          "h": "Neuromuscular",
+          "points": [
+            "Myasthenia: very sensitive to curare-type drugs"
+          ]
+        },
+        {
+          "h": "Kidney and liver",
+          "points": [
+            "See renal and hepatic cards: dose by clearance, check binding and CNS sensitivity"
+          ]
+        },
+        {
+          "h": "Body size",
+          "points": [
+            "Obese or lean adult: dose = body weight/70 x average dose; surface area argued better"
           ]
         }
       ],
       "refs": [
-        "KDT8 PDF p90",
-        "KDT8 PDF p25",
-        "KDT8 PDF p29",
-        "KDT8 PDF p113"
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-special-populations-094",
+      "type": "basic",
+      "front": "What is orthostatic (postural) hypotension, and why does it matter in older patients?",
+      "back": "A fall in blood pressure on standing. Older patients have poor vasomotor tone and cannot offset it, and alpha-1 blocking drugs make it worse. The result is dizziness and falls.",
+      "refs": [
+        "GG14 ch19",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-095",
+      "type": "basic",
+      "front": "Which antihypertensive causes postural hypotension, and what injury can follow in an elderly patient?",
+      "back": "Prazosin (alpha-1 blocker). Postural hypotension is its main side effect and can cause a fall with fracture of the neck of femur in an elderly patient. Reducing the dose usually relieves it.",
+      "refs": [
+        "KDT8 ch6",
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-096",
+      "type": "basic",
+      "front": "Why do antipsychotics and tricyclics add to fall risk in the elderly?",
+      "back": "Alpha-1 blockade causes orthostatic hypotension; low-potency first-generation antipsychotics carry more of this risk than high-potency ones. Tricyclics also block H1 receptors (sedation) and muscarinic receptors (cognitive dulling and confusion).",
+      "refs": [
+        "GG14 ch18",
+        "GG14 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-097",
+      "type": "basic",
+      "front": "How does polypharmacy in older patients raise the chance of a fall?",
+      "back": "Elderly patients take several drugs for hypertension, heart disease, diabetes and arthritis. Each added drug multiplies the chance of an interaction, and the combined effects on blood pressure and the CNS cause postural instability, giddiness and confusion. ADRs are much more common in the elderly.",
+      "refs": [
+        "KDT8 ch5",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-098",
+      "type": "shortnote",
+      "front": "Short note: Drugs that increase fall risk in the elderly, with prescribing concerns",
+      "sections": [
+        {
+          "h": "Altered pharmacokinetics",
+          "points": [
+            "GFR about 75% of the young-adult value at 50 years and about 50% at 75",
+            "Reduced hepatic microsomal activity and liver blood flow",
+            "Lower plasma albumin and slower absorption; cumulative toxicity with prolonged use"
+          ]
+        },
+        {
+          "h": "Altered pharmacodynamics",
+          "points": [
+            "Relatively intolerant to digitalis",
+            "Responsiveness of beta-adrenergic receptors to agonists and antagonists is reduced",
+            "Mild anticholinergic activity can worsen voiding in elderly males with prostatism"
+          ]
+        },
+        {
+          "h": "Polypharmacy and ADRs",
+          "points": [
+            "Multiple drugs for hypertension, heart disease, diabetes and arthritis raise interaction risk",
+            "ADR incidence is much higher and rises with the number of drugs"
+          ]
+        },
+        {
+          "h": "Drugs that increase falls",
+          "points": [
+            "Alpha-1 blockers and other antihypertensives: postural hypotension; prazosin can fracture the neck of femur",
+            "Antipsychotics: low-potency FGAs and alpha-1 blocking agents cause orthostasis; sedation and EPS add to risk",
+            "Tricyclics: alpha-1 orthostasis, H1 sedation and anticholinergic confusion",
+            "Any drug causing dizziness adds to postural instability"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Start low and titrate slowly; antipsychotic doses in older patients are often about 50% of the younger dose",
+            "Reduce the dose if postural hypotension appears; this usually relieves it",
+            "Review and cut drugs without a clear indication"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "KDT8 ch6",
+        "KDT8 ch10",
+        "GG14 ch18",
+        "GG14 ch19"
       ],
       "pyq": [
         {
-          "university": "KNRUHS",
+          "university": "UHSR",
           "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2018,
           "marks": 10
         }
       ],
       "status": "draft",
-      "subtopic": "p1-special-populations-paediatric",
+      "subtopic": "p1-special-populations-elderly",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-special-populations-099",
+      "type": "basic",
+      "front": "Why do women usually need doses at the lower end of the range?",
+      "back": "Women have a smaller body size, so their doses are kept on the lower side of the usual range.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-100",
+      "type": "basic",
+      "front": "Which sex hormones are unacceptable to the opposite sex?",
+      "back": "Androgens are unacceptable to women and estrogens to men, so sex hormone prescribing must match the patient's sex.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-101",
+      "type": "basic",
+      "front": "Which drugs affect sexual function or breast tissue only in men?",
+      "back": "Clonidine, methyldopa, beta-blockers and diuretics can impair sexual function in males but not females. Gynaecomastia from ketoconazole, metoclopramide, chlorpromazine or digitalis occurs only in men.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-102",
+      "type": "basic",
+      "front": "How do pregnancy changes alter drug disposition?",
+      "back": "Reduced GI motility delays absorption; plasma volume expands; albumin falls while alpha-1 acid glycoprotein rises, so the free fraction of acidic drugs rises and of basic drugs falls. Renal blood flow rises, speeding elimination of polar drugs, and hepatic enzymes are induced. The net effect is complex. Menstruation and lactation also need review.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-103",
+      "type": "basic",
+      "front": "Why does citalopram exposure differ between women and men?",
+      "back": "The R-enantiomer of citalopram is cleared more slowly in women than in men, so women have higher exposure to it. This is a reported sex-based pharmacokinetic difference.",
+      "refs": [
+        "GG14 ch18"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-104",
+      "type": "basic",
+      "front": "What do the data show about sex differences in opioid analgesia?",
+      "back": "Females account for most chronic pain syndromes. Acute-pain studies report either no sex difference or greater sensitivity in females. Morphine analgesia increases progressively with age, though the degree of analgesia at a given dose is similar.",
+      "refs": [
+        "GG14 ch23"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-special-populations-105",
+      "type": "shortnote",
+      "front": "Short note: Gender-based differences in drug therapy",
+      "sections": [
+        {
+          "h": "Body size and response",
+          "points": [
+            "Smaller body size: doses on the lower side of the range",
+            "Subjective effects of drugs may differ in females",
+            "Citalopram R-enantiomer cleared more slowly in women, so exposure is higher"
+          ]
+        },
+        {
+          "h": "Sex-specific drugs and effects",
+          "points": [
+            "Androgens unacceptable to women; estrogens unacceptable to men",
+            "Sexual dysfunction from clonidine, methyldopa, beta-blockers and diuretics occurs in men, not women",
+            "Gynaecomastia (ketoconazole, metoclopramide, chlorpromazine, digitalis) occurs only in men"
+          ]
+        },
+        {
+          "h": "Reproductive status",
+          "points": [
+            "Consider menstruation, pregnancy and lactation before prescribing",
+            "Pregnancy: reduced GI motility, expanded volume, higher renal blood flow, hepatic enzyme induction"
+          ]
+        },
+        {
+          "h": "Disease and response",
+          "points": [
+            "Major depression about twice as frequent in women; some evidence for sex-based response to antidepressants",
+            "Maintenance digoxin in heart failure reported with higher mortality in women than men (association)"
+          ]
+        },
+        {
+          "h": "Pain",
+          "points": [
+            "Females have most chronic pain syndromes",
+            "Acute-pain studies: no sex difference or greater sensitivity in females"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch18",
+        "GG14 ch23"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-special-populations-pregnancy-pk",
+      "tags": [
+        "dosing",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-special-populations-106",
+      "type": "basic",
+      "front": "How common is major depression in women compared with men?",
+      "back": "About twice as frequent. There is some evidence for a sex-based difference in response to antidepressant drugs.",
+      "refs": [
+        "GG14 ch18"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-special-populations-107",
+      "type": "basic",
+      "front": "Why is maintenance digoxin in heart failure a concern for women?",
+      "back": "Maintenance digoxin in heart failure has been reported to carry higher mortality in women than in men. The book describes this as an association, not a settled cause, so women on digoxin need careful review.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-special-populations-other-disease",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
     }
   ]
 }

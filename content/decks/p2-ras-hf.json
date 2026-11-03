@@ -630,7 +630,7 @@
       "id": "p2-ras-hf-080",
       "type": "basic",
       "front": "Losartan: effect on uric acid",
-      "back": "Mild probenecid-like uricosuric action; it does not raise blood urate.",
+      "back": "Mild probenecid-like uricosuric action.",
       "refs": [
         "KDT8 ch36"
       ],
@@ -729,7 +729,7 @@
       "id": "p2-ras-hf-081",
       "type": "basic",
       "front": "Case: a heart-failure patient on an ACE inhibitor develops a dry cough. Would you switch to an ARB, and would you give both?",
-      "back": "Switch to an ARB: cough comes from bradykinin and substance P accumulating when ACE is blocked, and ARBs rarely cause it. Both together is not advised: it adds hyperkalaemia, hypotension and renal impairment, and trials (ONTARGET) do not support the combination. Check for renal artery stenosis, NSAIDs and volume depletion before and after the switch, since renal failure risk is the same with either class.",
+      "back": "Switch to an ARB: cough comes from bradykinin and substance P accumulating when ACE is blocked, and ARBs rarely cause it. Dual blockade is not advised: trials (ONTARGET) show no added benefit and more adverse effects, including hyperkalaemia and hypotension. Check for renal artery stenosis, NSAIDs and volume depletion before the switch, because renal dysfunction is a risk with RAS blockade in these patients.",
       "refs": [
         "KDT8 ch36",
         "GG14 ch30"
@@ -830,7 +830,8 @@
       "front": "Which enzyme releases NO from glyceryl trinitrate, and why does tolerance develop?",
       "back": "Mitochondrial aldehyde dehydrogenase, which is abundant in veins and explains the venodilator preference of GTN. Continuous exposure generates reactive oxygen species that inhibit this enzyme. Tolerance develops within hours and wears off quickly off the drug.",
       "refs": [
-        "KDT8 ch37"
+        "KDT8 ch37",
+        "KDT8 ch40"
       ],
       "pyq": [],
       "status": "draft",
@@ -967,9 +968,10 @@
       "id": "p2-ras-hf-084",
       "type": "basic",
       "front": "Why does nitrate tolerance occur, and how do nitrates compare with nitroprusside in toxicity?",
-      "back": "Tolerance with GTN relates to its bioactivation by mitochondrial aldehyde dehydrogenase being inhibited by reactive oxygen species from continuous exposure; it develops within hours and wears off quickly off the drug. Nitroprusside releases NO directly and its main toxicity is cyanide, a different problem from nitrate tolerance.",
+      "back": "Tolerance with GTN relates to its bioactivation by mitochondrial aldehyde dehydrogenase being inhibited by reactive oxygen species from continuous exposure; it develops with continuous exposure and wears off within hours off the drug. Nitroprusside releases NO directly and its main toxicity is cyanide (with thiocyanate), a different problem from nitrate tolerance.",
       "refs": [
-        "KDT8 ch36"
+        "KDT8 ch37",
+        "KDT8 ch40"
       ],
       "pyq": [],
       "status": "draft",
@@ -1584,7 +1586,7 @@
         {
           "h": "Accumulation",
           "points": [
-            "Cumulative drug; steady state after about 4 to 5 half-lives, roughly a week on maintenance dosing"
+            "Cumulative drug; steady state after about 4 half-lives, i.e. 6 to 7 days on maintenance dosing"
           ]
         },
         {
@@ -2256,7 +2258,7 @@
       "id": "p2-ras-hf-083",
       "type": "basic",
       "front": "Why is sacubitril-valsartan preferred to an ACE inhibitor in HFrEF, and what must be watched?",
-      "back": "In PARADIGM-HF sacubitril-valsartan gave about 20% greater reduction in death or HF hospitalisation than enalapril, so it is recommended in place of ACE inhibitor or ARB. Neprilysin inhibition raises natriuretic peptides while valsartan blocks angiotensin II. Hypotension, hyperkalaemia and renal impairment need watching. It adds to beta-blocker, MRA and SGLT2 inhibitor; diuretics treat congestion but do not improve survival.",
+      "back": "In PARADIGM-HF sacubitril-valsartan gave about 20% greater reduction in death or HF hospitalisation than enalapril, so it is recommended in place of ACE inhibitor or ARB. Neprilysin inhibition raises natriuretic peptides while valsartan blocks angiotensin II. Hypotension, hyperkalaemia and renal impairment need watching. It was tested on top of diuretics, beta-blockers and aldosterone antagonists.",
       "refs": [
         "KDT8 ch37",
         "KDT8 ch38",
@@ -2270,6 +2272,454 @@
         "newer-drugs"
       ],
       "level": 3
+    },
+    {
+      "id": "p2-ras-hf-085",
+      "type": "cloze",
+      "front": "Classify: endothelin receptor antagonists",
+      "text": "Dual ETA-ETB antagonists are {{bosentan}} and {{macitentan}}; the selective ETA antagonist is {{ambrisentan}}.",
+      "refs": [
+        "KDT8 ch37"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-086",
+      "type": "basic",
+      "front": "What is PDE3, and where does it act in the cardiovascular system?",
+      "back": "Phosphodiesterase 3 is the isoenzyme that breaks down cAMP in heart, blood vessels and bronchial smooth muscle; inhibiting it raises intracellular cAMP.",
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-087",
+      "type": "essay",
+      "front": "Essay: Phosphodiesterase 3 inhibitors in congestive heart failure",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "PDE3 inhibition raises cAMP in heart and vessels",
+            "Raised cAMP increases myocardial Ca2+ influx: positive inotropy",
+            "Vasodilatation lowers preload and afterload: an inodilator"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Inamrinone (amrinone): bipyridine, selective PDE3 inhibitor",
+            "Milrinone: more selective, at least 10 times more potent, half-life about 80 min",
+            "Levosimendan also inhibits PDE3, besides troponin C sensitisation"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Inamrinone: dose-related thrombocytopenia, the most prominent problem",
+            "Also nausea, diarrhoea, liver damage, fever and arrhythmias",
+            "Milrinone causes little thrombocytopenia"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "Short-term IV use only in severe, refractory CHF",
+            "Added to digoxin, diuretics and vasodilators",
+            "Milrinone dose: 50 µg/kg IV bolus, then 0.4-1.0 µg/kg/min"
+          ]
+        },
+        {
+          "h": "Why not long term",
+          "points": [
+            "Oral inamrinone abandoned: efficacy lost and mortality up versus placebo",
+            "Oral milrinone also raised mortality in long-term trials"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ras-hf-088",
+      "type": "essay",
+      "front": "Essay: Principles in the treatment of chronic systolic heart failure",
+      "sections": [
+        {
+          "h": "Aim",
+          "points": [
+            "Reduce mortality, hospitalisation and progression, not only relieve symptoms",
+            "Diuretics and vasodilators relieve congestion; prognostic drugs prolong survival"
+          ]
+        },
+        {
+          "h": "Core long-term drugs",
+          "points": [
+            "ACE inhibitor or ARB (or sacubitril-valsartan), with beta-blocker and aldosterone antagonist",
+            "Low-dose spironolactone or eplerenone (12.5-25 mg/day) to avoid hyperkalaemia",
+            "Beta-blocker: start very low, titrate upward, avoid in decompensation"
+          ]
+        },
+        {
+          "h": "Add-on drugs",
+          "points": [
+            "Digoxin: symptoms and rate control, no clear survival benefit",
+            "Ivabradine when heart rate stays at or above 75/min despite an adequate beta-blocker dose",
+            "SGLT2 inhibitors reduce hospitalisation and mortality in HFrEF"
+          ]
+        },
+        {
+          "h": "Drugs to avoid long term",
+          "points": [
+            "Dopamine and dobutamine: short-term only, tolerance and cardiotoxicity",
+            "Oral inamrinone and oral milrinone: increased mortality"
+          ]
+        },
+        {
+          "h": "Practice",
+          "points": [
+            "Stop beta-blocker during acute decompensation; restart gradually after compensation",
+            "Monitor potassium and renal function with RAS inhibitors and MRAs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch38",
+        "GG14 ch33"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ras-hf-089",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "uses"
+      ],
+      "front": "Cardiogenic shock: what does medical treatment aim to optimise?",
+      "back": "Peripheral blood flow, by tuning preload, myocardial contractility and afterload. Prognosis is poor when shock follows myocardial infarction.",
+      "refs": [
+        "GG14 PDF p285"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-ras-hf-090",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "front": "Short note: Drug management of cardiogenic shock",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Goal",
+          "points": [
+            "Restore peripheral perfusion by tuning preload, contractility and afterload",
+            "Prognosis is poor after an MI-related shock"
+          ]
+        },
+        {
+          "h": "Preload",
+          "points": [
+            "Fluids may help, but rapid volume can worsen shock and cause pulmonary oedema",
+            "Diuretics and nitrates reduce preload"
+          ]
+        },
+        {
+          "h": "Inotropes",
+          "points": [
+            "Dobutamine: beta-1 agonist, the usual choice",
+            "Dopamine: intravenous only, not for long-term use",
+            "Milrinone: PDE-3 inhibitor that raises cAMP"
+          ]
+        },
+        {
+          "h": "Vasopressors and afterload",
+          "points": [
+            "Noradrenaline, phenylephrine or mephentermine as an emergency measure for very low BP",
+            "Nitroprusside reduces afterload when BP can be maintained"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p166",
+        "GG14 PDF p285",
+        "GG14 PDF p317",
+        "Katzung16 PDF p174",
+        "GG14 PDF p676"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-ras-hf-091",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "contraindications"
+      ],
+      "front": "In cardiogenic shock, why can alpha-agonist pressors do harm?",
+      "back": "Reflex vasoconstriction is already intense, so further alpha stimulation cuts flow to kidneys and gut and raises the heart's workload.",
+      "refs": [
+        "GG14 PDF p286"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-ras-hf-092",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Dobutamine: receptor and main use",
+      "back": "Beta-1 agonist giving a positive inotropic effect; given intravenously in cardiogenic shock and acute heart failure, with dose titrated to response.",
+      "refs": [
+        "Katzung16 PDF p174",
+        "RangDale9 PDF p215"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-ras-hf-093",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Milrinone: how does it increase contractility?",
+      "back": "It blocks PDE-3, so cAMP is not broken down; contractility rises and vessels dilate. It has been largely replaced by dobutamine in shock.",
+      "refs": [
+        "GG14 PDF p676",
+        "Golan PDF p486",
+        "KDT8 PDF p581"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-ras-hf-094",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "uses"
+      ],
+      "front": "Essay: Cardiogenic shock - causes, goals and drug management",
+      "sections": [
+        {
+          "h": "Causes",
+          "points": [
+            "Mainly myocardial infarction; also sustained ventricular tachycardia or valvular and mechanical dysfunction",
+            "Poor prognosis once MI-related shock is established"
+          ]
+        },
+        {
+          "h": "Goals",
+          "points": [
+            "Improve peripheral blood flow",
+            "Optimise preload, myocardial contractility and afterload"
+          ]
+        },
+        {
+          "h": "Preload and fluids",
+          "points": [
+            "Fluids raise preload; diuretics and nitrates lower it",
+            "Rapid volume may worsen shock and precipitate pulmonary oedema"
+          ]
+        },
+        {
+          "h": "Inotropes and pressors",
+          "points": [
+            "Dobutamine (beta-1) and PDE-3 inhibitors such as milrinone raise contractility through cAMP",
+            "Dopamine acts on renal and splanchnic vessels at low dose; high doses constrict vessels",
+            "Emergency pressors such as noradrenaline; reflex vasoconstriction limits alpha agonists"
+          ]
+        },
+        {
+          "h": "Afterload and limits",
+          "points": [
+            "Nitroprusside helps when BP can be maintained",
+            "Chronic oral inotropes do not improve outcome",
+            "Advances beyond drug therapy are not covered in the owner books consulted; state this as a limit"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p166",
+        "GG14 PDF p285",
+        "GG14 PDF p286",
+        "GG14 PDF p317",
+        "GG14 PDF p676",
+        "Katzung16 PDF p174",
+        "Katzung16 PDF p1283",
+        "Golan PDF p486",
+        "GG14 PDF p298",
+        "KDT8 PDF p581"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-ras-hf-095",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p2-ras-hf-heart-failure-drugs",
+      "tags": [
+        "uses",
+        "interactions"
+      ],
+      "front": "Short note: Polypharmacy in chronic heart failure",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Rationale",
+          "points": [
+            "HFrEF needs drugs acting on different neurohormonal pathways",
+            "Standard therapy combines an ACE inhibitor or ARB (or ARNI), a beta-blocker and a mineralocorticoid antagonist"
+          ]
+        },
+        {
+          "h": "Add-ons",
+          "points": [
+            "SGLT2 inhibitors are the newest class added to standard therapy",
+            "Diuretics relieve congestion but do not prolong survival"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "ACE inhibitor plus ARB: more harm than benefit (hyperkalaemia, hypotension, renal impairment)",
+            "ACE inhibitor or ARB with an MRA is formally contraindicated for hyperkalaemia, yet low-dose MRA is still given",
+            "Prazosin, or isosorbide dinitrate with hydralazine, did not improve prognosis in Caucasians; the pair is approved only for African Americans"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p666",
+        "GG14 PDF p674",
+        "GG14 PDF p682",
+        "GG14 PDF p670",
+        "GG14 PDF p683",
+        "KDT8 PDF p551"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-ras-hf-096",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "newer-drugs"
+      ],
+      "front": "Aliskiren in heart failure or hypertension: how strong is the evidence?",
+      "back": "Its therapeutic value is unclear; it has not been shown to be superior to ACE inhibitors or ARBs.",
+      "refs": [
+        "GG14 PDF p662"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-ras-hf-097",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p2-ras-hf-ace-arb-aliskiren",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "front": "Essay: Renin-angiotensin system - pharmacology, limitations and recent advances",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
+        }
+      ],
+      "sections": [
+        {
+          "h": "Pharmacology",
+          "points": [
+            "Renin cleaves angiotensinogen; ACE forms Ang II, which acts on AT1 receptors and drives aldosterone release",
+            "Blockade sites: ACE inhibitors, AT1 blockers and the direct renin inhibitor aliskiren; ARNI adds neprilysin inhibition to AT1 blockade"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "ACE inhibitors: dry cough and angioedema (kinin build-up), hyperkalaemia, renal failure in bilateral renal artery stenosis, contraindicated in pregnancy",
+            "ARBs: similar profile with less cough and angioedema",
+            "ACE inhibitor plus ARB adds harm without survival gain; aliskiren has no proven advantage over ACE inhibitors or ARBs"
+          ]
+        },
+        {
+          "h": "Recent advances",
+          "points": [
+            "ARNI (sacubitril-valsartan): superior to enalapril in HFrEF; never combined with an ACE inhibitor or another ARB",
+            "Angiotensin (1-7) formed by ACE 2 acts on the Mas receptor; ACE inhibitors raise its level",
+            "Prorenin and the (pro)renin receptor add Ang II-independent signalling"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p622",
+        "GG14 PDF p662",
+        "GG14 PDF p682",
+        "KDT8 ch36",
+        "GG14 ch30"
+      ],
+      "status": "draft"
     }
   ]
 }

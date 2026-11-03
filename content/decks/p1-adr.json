@@ -15,7 +15,8 @@
       "subtopic": "p1-adr-concepts",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-adr-002",
@@ -30,7 +31,8 @@
       "subtopic": "p1-adr-concepts",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-adr-003",
@@ -45,530 +47,199 @@
       "subtopic": "p1-adr-concepts",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p1-adr-004",
-      "type": "basic",
-      "front": "Define pharmacovigilance (WHO, 2002).",
-      "back": "The science and activities concerned with detecting, assessing, understanding and preventing adverse effects or other drug-related problems. Main aim: reduce drug-related harm and support rational use. Core activities: post-marketing surveillance and spontaneous reporting, drug alerts and advisories, and regulatory label changes or withdrawal.",
+      "id": "p1-adr-021",
+      "type": "cloze",
+      "front": "Type A and Type B adverse drug reactions",
+      "text": "Type A reactions are {{augmented / predictable}}, usually {{dose-related}}, and mostly preventable. Type B reactions are {{bizarre / unpredictable}}, often {{not dose-related}}, and more {{serious}}.",
       "refs": [
         "KDT8 ch6"
       ],
-      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-adr-pharmacovigilance",
+      "subtopic": "p1-adr-concepts",
       "tags": [
         "classification"
-      ]
+      ],
+      "pyq": [],
+      "level": 1
     },
     {
-      "id": "p1-adr-005",
+      "id": "p1-adr-032",
       "type": "basic",
-      "front": "What do dechallenge and rechallenge mean in causality assessment?",
-      "back": "Dechallenge: the event subsides after the drug is stopped (supports causation). Rechallenge: the event recurs when the drug is given again after it had resolved (strongly supports causation). Rechallenge is often unethical or dangerous, so it is avoided.",
+      "front": "What is a side effect, and why can it often be predicted?",
+      "back": "An unwanted but often unavoidable pharmacodynamic effect at normal therapeutic doses. It comes from the drug's known pharmacology, so it can be predicted from the drug profile (e.g. dry mouth with atropine, postural hypotension with prazosin). Usually not serious, but can be hazardous: postural hypotension may cause a fall and hip fracture in an elderly patient.",
       "refs": [
         "KDT8 ch6"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p1-adr-pharmacovigilance",
+      "subtopic": "p1-adr-concepts",
       "tags": [
-        "adr"
-      ]
+        "classification"
+      ],
+      "level": 1
     },
     {
-      "id": "p1-adr-006",
+      "id": "p1-adr-033",
       "type": "basic",
-      "front": "Gell and Coombs Type I hypersensitivity: mechanism and clinical picture?",
-      "back": "IgE antibodies fixed to mast cells and basophils; on re-exposure, antigen cross-links IgE and mediators (histamine, leukotrienes, prostaglandins, PAF) are released. Immediate reaction within minutes to hours: urticaria, angioedema, bronchospasm, rhinitis and anaphylaxis.",
+      "front": "Differentiate a secondary effect from a side effect, with examples.",
+      "back": "A side effect is a direct, unwanted pharmacodynamic action of the drug. A secondary effect is an indirect consequence of the primary action: tetracyclines suppress bacterial flora and open the way to superinfection; corticosteroids weaken host defence, so latent tuberculosis is reactivated.",
       "refs": [
         "KDT8 ch6"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p1-adr-hypersensitivity",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-adr-007",
-      "type": "basic",
-      "front": "First-line emergency treatment of drug-induced anaphylaxis?",
-      "back": "Adrenaline intramuscularly (adult 0.5 mg of 1:1000 solution; lower doses for children), repeated every 5-10 minutes if needed. Supportive steps: recline, high-flow oxygen, resuscitation if required. Add H1 antihistamine and IV hydrocortisone for severe or recurrent cases. Do not give IV adrenaline unless shock is life-threatening, and then dilute it.",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-adr-hypersensitivity",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-adr-008",
-      "type": "basic",
-      "front": "Phototoxic vs photoallergic drug reactions: which UV band and which mechanism?",
-      "back": "Phototoxic: a photoactivated drug or metabolite damages tissue directly; sunburn-like reaction, fast onset, UVB (290-320 nm); more common. Photoallergic: an immune response, eczema-like reaction that may persist, UVA (320-400 nm); small doses can trigger it. Tetracyclines (demeclocycline) are classic phototoxic agents.",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-adr-hypersensitivity",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-adr-009",
-      "type": "basic",
-      "front": "Which periods of pregnancy are most relevant for drug teratogenicity?",
-      "back": "Three stages: (1) fertilisation and implantation, conception to day 17: failure of pregnancy, often unnoticed; (2) organogenesis, days 18 to 55: most vulnerable, structural malformations; (3) growth and development, day 56 onwards: developmental and functional defects, e.g. ACE inhibitors (hypoplasia of lungs and kidneys), NSAIDs (premature closure of ductus arteriosus), androgens/progestins (masculinisation of female foetus), antithyroid drugs and lithium (foetal goitre).",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-adr-pregnancy",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-adr-010",
-      "type": "basic",
-      "front": "What lesson came from the thalidomide disaster?",
-      "back": "Thalidomide, marketed in 1957 as a sedative and anti-morning-sickness drug, taken in the first trimester caused thousands of babies to be born with phocomelia (seal-like limbs) and other defects (1958-61). It was banned worldwide. The disaster focused attention on teratogenicity testing; thalidomide is now marketed again only for restricted use, e.g. as an adjuvant in cancer chemotherapy.",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-adr-pregnancy",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-adr-011",
-      "type": "basic",
-      "front": "Distinguish drug dependence from drug addiction.",
-      "back": "Dependence (neuroadaptation; formerly 'physical dependence'): an altered physiological state needing continued drug presence; stopping it causes a characteristic withdrawal syndrome (opioids, barbiturates, alcohol, benzodiazepines). Addiction (formerly 'psychological dependence'): compulsive use with overwhelming involvement, despite known harm, with frequent relapse. Amphetamines, cocaine, cannabis and LSD cause addiction with little or no dependence; nalorphine causes dependence without addiction.",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-adr-dependence",
-      "tags": [
-        "classification",
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-adr-012",
-      "type": "basic",
-      "front": "Give two examples of withdrawal reactions after abrupt cessation of a drug.",
-      "back": "Clonidine: rebound hypertension, restlessness and sympathetic overactivity. Beta-blockers: worsened angina or myocardial infarction. Corticosteroids: acute adrenal insufficiency. Antiepileptics: increased seizure frequency. Prevention: taper gradually.",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-adr-dependence",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-adr-013",
-      "type": "shortnote",
-      "front": "Short note: Causality assessment of an adverse drug reaction",
-      "sections": [
-        {
-          "h": "Why needed",
-          "points": [
-            "An adverse event may be due to the drug, the disease or other causes",
-            "A clear yes/no answer is rarely possible"
-          ]
-        },
-        {
-          "h": "Criteria",
-          "points": [
-            "Temporal relationship to drug administration",
-            "Previous knowledge: drug known to cause the event",
-            "Dechallenge: event subsides on stopping the drug",
-            "Rechallenge: event recurs on re-administration (often unethical, so not done)"
-          ]
-        },
-        {
-          "h": "Grades",
-          "points": [
-            "Definite: causality proven",
-            "Probable: drug is the likely cause",
-            "Possible: drug or other causes could be responsible",
-            "Doubtful: drug unlikely but not excluded"
-          ]
-        },
-        {
-          "h": "Tools",
-          "points": [
-            "Standard algorithms: Naranjo algorithm, WHO causality scale",
-            "Severity: modified Hartwig scale",
-            "Used by pharmacovigilance centres for pooled data"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch6",
-        "Katzung16 appendix 2"
-      ],
-      "status": "draft",
-      "subtopic": "p1-adr-pharmacovigilance",
-      "tags": [
-        "adr"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p1-adr-014",
-      "type": "shortnote",
-      "front": "Short note: Drug allergy (hypersensitivity)",
-      "sections": [
-        {
-          "h": "Definition and features",
-          "points": [
-            "Immune-mediated reaction unrelated to the drug's pharmacology",
-            "Occurs in a small fraction of users; not dose-related",
-            "Needs prior sensitisation: latent period of at least 1-2 weeks after first exposure",
-            "Drug or metabolite usually acts as a hapten; cross-sensitivity among chemically related drugs"
-          ]
-        },
-        {
-          "h": "Mechanisms",
-          "points": [
-            "Type I: IgE, immediate (anaphylaxis, urticaria, asthma)",
-            "Type II: cytotoxic, IgG/IgM (haemolysis, thrombocytopenia, agranulocytosis)",
-            "Type III: immune complex (serum sickness, vasculitis)",
-            "Type IV: T-cell mediated, delayed (contact dermatitis)"
-          ]
-        },
-        {
-          "h": "Common culprits",
-          "points": [
-            "Penicillins, cephalosporins, sulfonamides, tetracyclines, quinolones, metronidazole, antitubercular drugs, abacavir",
-            "Phenothiazines, aspirin, indomethacin, carbamazepine, allopurinol, ACE inhibitors, methyldopa, hydralazine, local anaesthetics"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Stop the drug at once; mild rashes often settle alone",
-            "H1 antihistamines for some type I reactions; adrenaline i.m. for anaphylaxis",
-            "Glucocorticoids for severe or prolonged reactions",
-            "Skin or intranasal tests help only for type I and give false positives and negatives"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "status": "draft",
-      "subtopic": "p1-adr-hypersensitivity",
+      "subtopic": "p1-adr-concepts",
       "tags": [
         "classification",
         "adr"
       ],
-      "pyq": []
+      "level": 1
     },
     {
-      "id": "p1-adr-015",
+      "id": "p1-adr-034",
+      "type": "cloze",
+      "front": "Types of adverse effect and their examples",
+      "text": "Excess pharmacological action from overdose or prolonged use is a {{toxic effect}}; a low threshold so that toxicity appears at normal doses is {{intolerance}}; a genetically determined abnormal reaction is {{idiosyncrasy}}; an immune-mediated reaction unrelated to pharmacology is {{drug allergy}}.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-035",
+      "type": "basic",
+      "front": "List the practices that minimise adverse drug effects.",
+      "back": "They can be reduced, never eliminated: (1) avoid inappropriate use for the clinical condition; (2) right dose, route and frequency for the patient; (3) take history of previous drug reactions; (4) take history of allergic diseases (drug allergy is commoner in them); (5) rule out interactions; (6) correct administration technique (e.g. slow i.v. vancomycin); (7) laboratory monitoring (prothrombin time with warfarin, serum levels with lithium).",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-028",
       "type": "shortnote",
-      "front": "Short note: Management of acute poisoning",
+      "front": "Short note: Idiosyncrasy",
       "sections": [
         {
-          "h": "Resuscitation",
+          "h": "What",
           "points": [
-            "Airway and ventilation (oxygen, artificial respiration)",
-            "Maintain BP and heart: fluids, pressors, pacing, defibrillation",
-            "Control seizures (i.v. lorazepam); maintain temperature and blood sugar"
+            "Genetically determined abnormal reactivity to a chemical",
+            "Drug interacts with a unique feature of the individual not found in most people"
           ]
         },
         {
-          "h": "Decontamination",
+          "h": "Features",
           "points": [
-            "Fresh air for inhaled poisons; remove clothing, wash skin and eyes",
-            "Emesis or gastric lavage only in few cases: not in coma, unstable patients, kerosene, corrosives or CNS stimulants",
-            "Not useful if presentation is beyond 2 h, dose is non-toxic, or patient has vomited"
-          ]
-        },
-        {
-          "h": "Preventing absorption",
-          "points": [
-            "Activated charcoal 20-40 g (or 1 g/kg) in water",
-            "Does not adsorb strong acids/alkalis, metallic salts, iodine, cyanide, caustics, alcohol, hydrocarbons, organic solvents",
-            "Avoid with ileus or obstruction, or after 2 h"
-          ]
-        },
-        {
-          "h": "Hastening elimination and antidotes",
-          "points": [
-            "Forced diuresis and urinary pH change: generally not used now (fluid and electrolyte risk)",
-            "Haemodialysis for phenobarbitone, carbamazepine, valproate, lithium, salicylate, theophylline",
-            "Specific antidotes exist for only a few poisons"
+            "Restricted to individuals with a particular genotype",
+            "Part of Type B (bizarre) reactions: unpredictable, less common, often serious; usually need drug withdrawal"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch6"
+        "KDT8 PDF p109"
+      ],
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "adr"
       ],
       "status": "draft",
-      "subtopic": "p1-adr-drug-induced-poisoning",
-      "tags": [
-        "poisoning"
-      ],
       "pyq": [
         {
           "university": "RGUHS",
-          "year": 2016,
-          "marks": 20
-        }
-      ]
-    },
-    {
-      "id": "p1-adr-016",
-      "type": "shortnote",
-      "front": "Short note: Drug dependence, addiction and abuse",
-      "sections": [
-        {
-          "h": "Definitions",
-          "points": [
-            "Dependence (neuroadaptation): withdrawal syndrome on stopping",
-            "Addiction: compulsive use with overwhelming involvement despite harm; relapse common",
-            "Habituation: milder involvement without dependence (tea, coffee, tobacco, social drinking); term best avoided",
-            "Abuse: self-medication deviating from approved medical and social patterns; for regulators, any use of an illicit drug"
-          ]
+          "year": 2007,
+          "marks": 10
         },
         {
-          "h": "Drug classes",
-          "points": [
-            "Dependence: opioids, barbiturates, alcohol, benzodiazepines",
-            "Addiction with little/no dependence: amphetamines, cocaine, cannabis, LSD",
-            "Dependence without addiction: nalorphine"
-          ]
-        },
-        {
-          "h": "Reinforcement",
-          "points": [
-            "Strong reinforcers: opioids, cocaine; weak: benzodiazepines",
-            "Faster-acting routes (inhaled, i.v.) are most reinforcing"
-          ]
-        },
-        {
-          "h": "Patterns of abuse",
-          "points": [
-            "Continuous use: opioids, alcohol, sedatives",
-            "Occasional use for a 'high': cocaine, amphetamines, psychedelics, cannabis, solvents, binge drinking"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "status": "draft",
-      "subtopic": "p1-adr-dependence",
-      "tags": [
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-adr-017",
-      "type": "shortnote",
-      "front": "Short note: Drug-induced diseases (iatrogenic disease)",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Functional disease caused by a drug that persists after the drug is stopped and cleared"
-          ]
-        },
-        {
-          "h": "Examples",
-          "points": [
-            "Peptic ulcer with NSAIDs and corticosteroids",
-            "Parkinsonism with antipsychotics (phenothiazines)",
-            "Hepatitis with isoniazid",
-            "Drug-induced lupus with hydralazine or procainamide"
-          ]
-        },
-        {
-          "h": "Mechanisms",
-          "points": [
-            "Immune injury (hypersensitivity)",
-            "Direct tissue toxicity",
-            "Interference with normal physiology (e.g. dopamine blockade)"
-          ]
-        },
-        {
-          "h": "Significance",
-          "points": [
-            "Often mistaken for a new disease; a drug history is essential",
-            "Some are irreversible or slow to resolve"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "status": "draft",
-      "subtopic": "p1-adr-drug-induced-poisoning",
-      "tags": [
-        "adr",
-        "mechanism"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
+          "university": "RGUHS",
+          "year": 2019,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-adr-018",
-      "type": "essay",
-      "front": "Essay: Pharmacovigilance: purpose, methods and role in India",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "WHO (2002) definition: detection, assessment, understanding and prevention of adverse effects or other drug-related problems",
-            "Aim: reduce drug-related harm; supports rational use and regulation"
-          ]
-        },
-        {
-          "h": "Methods of ADR monitoring",
-          "points": [
-            "Voluntary (spontaneous) reporting, e.g. UK yellow card; reporting is minimal in India",
-            "Under-reporting is large: GG14 cites a median under-reporting rate of about 94% across 12 countries (older KDT8 figure: only about 10% of ADRs reported voluntarily)",
-            "Prescription event monitoring, record linkage, cohort and case-control studies, case reports"
-          ]
-        },
-        {
-          "h": "Dissemination and regulation",
-          "points": [
-            "Drug alerts, medical letters and advisories",
-            "Label changes, restrictions, warnings or withdrawal by the regulator"
-          ]
-        },
-        {
-          "h": "Institutions",
-          "points": [
-            "Uppsala Monitoring Centre (Sweden): WHO international collaborating centre (VigiBase)",
-            "India: PvPI, started 2010 by the Health Ministry through CDSCO and the Indian Pharmacopoeia Commission, Ghaziabad (National Coordination Centre)",
-            "ADR monitoring centres in medical colleges and hospitals; peripheral, regional and zonal centres; National Pharmacovigilance Advisory Committee"
-          ]
-        },
-        {
-          "h": "Assessment tools",
-          "points": [
-            "Causality: WHO scale, Naranjo algorithm",
-            "Severity: modified Hartwig scale"
-          ]
-        },
-        {
-          "h": "Limitations",
-          "points": [
-            "Under-reporting; no denominator, so incidence cannot be calculated",
-            "Dramatic, immediate reactions reported more than delayed ones"
-          ]
-        }
-      ],
+      "id": "p1-adr-036",
+      "type": "basic",
+      "front": "Why can the same effect be therapeutic in one patient and a side effect in another? Give examples.",
+      "back": "Whether an action is wanted depends on the indication. Codeine's constipation is a side effect in cough but the therapeutic aim in traveller's diarrhoea. Depression of AV conduction by digoxin is desired in atrial fibrillation but unwanted in heart failure. Glyceryl trinitrate's vasodilatation relieves angina yet also causes postural hypotension and throbbing headache. Lesson: judge each effect against the reason for giving the drug.",
       "refs": [
-        "KDT8 ch6",
-        "GG14 ch8",
-        "Katzung16 appendix 2"
+        "KDT8 ch6"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-adr-pharmacovigilance",
+      "subtopic": "p1-adr-concepts",
       "tags": [
+        "classification",
         "adr"
       ],
-      "pyq": []
+      "level": 2
     },
     {
-      "id": "p1-adr-019",
-      "type": "essay",
-      "front": "Essay: Teratogenicity of drugs",
-      "sections": [
-        {
-          "h": "Definition and placenta",
-          "points": [
-            "Capacity of a drug to cause foetal abnormalities when given to the mother",
-            "Placenta is not a strict barrier; any drug can cross to some extent"
-          ]
-        },
-        {
-          "h": "Sensitive periods",
-          "points": [
-            "Conception to day 17: failure of pregnancy",
-            "Days 18-55 (organogenesis): most vulnerable, malformations",
-            "Day 56 onwards: growth, developmental and functional defects"
-          ]
-        },
-        {
-          "h": "Determinants",
-          "points": [
-            "Drug, stage of exposure, maternal blood level and duration",
-            "Background rate of spontaneous congenital anomalies about 2%; most implicated drugs are low-grade teratogens"
-          ]
-        },
-        {
-          "h": "Examples",
-          "points": [
-            "Thalidomide (phocomelia); methotrexate (cleft palate, hydrocephalus); stilboestrol (vaginal carcinoma in daughters)",
-            "Warfarin (depressed nose, eye and hand defects); phenytoin (hypoplastic phalanges, cleft lip/palate); valproate and carbamazepine (neural tube defects)",
-            "ACE inhibitors (organ hypoplasia, foetal loss); antithyroid drugs and lithium (foetal goitre); isotretinoin (craniofacial, heart, CNS defects)",
-            "Androgens and progestins (virilisation); tetracyclines (teeth and bone); alcohol (foetal alcohol syndrome)"
-          ]
-        },
-        {
-          "h": "Risk labelling",
-          "points": [
-            "Older FDA letter categories A, B, C, D, X",
-            "Replaced in 2015 by the FDA Pregnancy and Lactation Labeling Rule (narrative labelling on pregnancy, lactation and reproductive potential)"
-          ]
-        },
-        {
-          "h": "Prevention",
-          "points": [
-            "Avoid all drugs in pregnancy unless there is a compelling reason",
-            "Folate reduces neural tube defects"
-          ]
-        }
-      ],
+      "id": "p1-adr-037",
+      "type": "basic",
+      "front": "Toxic effects: how can overdose be 'relative', and how may toxicity arise from the therapeutic action itself or from another action?",
+      "back": "Overdose may be absolute (accidental, homicidal, suicidal) or relative: the usual gentamicin dose becomes an overdose in renal failure. Toxicity can be an extension of the therapeutic effect (coma with barbiturates, complete AV block with digoxin, bleeding with heparin) or due to another action (morphine respiratory failure, imipramine arrhythmia, streptomycin vestibular damage on prolonged use). Mechanism: functional change (atropine delirium) or tissue damage. Both are predictable and dose-related.",
       "refs": [
-        "KDT8 ch6",
-        "GG14 ch2"
+        "KDT8 ch6"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-adr-pregnancy",
+      "subtopic": "p1-adr-concepts",
       "tags": [
+        "classification",
         "adr"
       ],
-      "pyq": []
+      "level": 2
+    },
+    {
+      "id": "p1-adr-038",
+      "type": "basic",
+      "front": "Compare intolerance, idiosyncrasy and drug allergy.",
+      "back": "Intolerance: typical toxic effect at a therapeutic dose in a person at the sensitive extreme of the dose-response distribution (converse of tolerance), e.g. dystonia after one dose of triflupromazine, ataxia with few doses of carbamazepine, vomiting after one chloroquine tablet. Idiosyncrasy: genetically determined, unusual reaction not seen in most people, e.g. chloramphenicol aplastic anaemia (not dose-related), quinine purpura. Allergy: immune-mediated, needs prior sensitisation and is unrelated to pharmacology. Intolerance is an exaggerated normal action; the other two are qualitatively different.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-039",
+      "type": "basic",
+      "front": "Which Type B reactions can be predicted, and how does genetics explain them?",
+      "back": "A Type B reaction becomes predictable when its genetic basis is known and a test can identify the individual. Examples: homozygous TPMT variants (about 0.3% of people of European ancestry) risk life-threatening myelosuppression with azathioprine or 6-mercaptopurine; HLA-B*5701 carriers get abacavir hypersensitivity; CYP2D6 polymorphisms (absent to ultrarapid activity) change conversion of codeine to morphine. Small premarketing trials contain few carriers of rare variants, so such risks often surface only after marketing.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 2
     },
     {
       "id": "p1-adr-020",
@@ -630,22 +301,69 @@
         "classification",
         "adr"
       ],
-      "pyq": []
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "level": 3
     },
     {
-      "id": "p1-adr-021",
-      "type": "cloze",
-      "front": "Type A and Type B adverse drug reactions",
-      "text": "Type A reactions are {{augmented / predictable}}, usually {{dose-related}}, and mostly preventable. Type B reactions are {{bizarre / unpredictable}}, often {{not dose-related}}, and more {{serious}}.",
+      "id": "p1-adr-040",
+      "type": "basic",
+      "front": "Case synthesis: classify each reaction and say how you would manage it: (a) ototoxicity from the usual gentamicin dose in a patient with renal failure, (b) aplastic anaemia after chloramphenicol, (c) vomiting after one chloroquine tablet.",
+      "back": "(a) Type A toxic effect from relative overdose: predictable and dose-related; adjust dose to renal function and monitor. (b) Idiosyncrasy, Type B: not dose-related, serious, drug must be withdrawn; cannot be prevented by dose reduction. (c) Intolerance: a low-threshold individual shows a usual toxic effect at therapeutic dose; stop or substitute. Principle: Type A is managed by dose and monitoring, Type B by withdrawal and avoidance in future.",
       "refs": [
-        "KDT8 ch6"
+        "KDT8 ch6",
+        "GG14 ch8"
       ],
+      "pyq": [],
       "status": "draft",
       "subtopic": "p1-adr-concepts",
       "tags": [
+        "adr",
         "classification"
       ],
-      "pyq": []
+      "level": 3
+    },
+    {
+      "id": "p1-adr-004",
+      "type": "basic",
+      "front": "Define pharmacovigilance (WHO, 2002).",
+      "back": "The science and activities concerned with detecting, assessing, understanding and preventing adverse effects or other drug-related problems. Main aim: reduce drug-related harm and support rational use. Core activities: post-marketing surveillance and spontaneous reporting, drug alerts and advisories, and regulatory label changes or withdrawal.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-005",
+      "type": "basic",
+      "front": "What do dechallenge and rechallenge mean in causality assessment?",
+      "back": "Dechallenge: the event subsides after the drug is stopped (supports causation). Rechallenge: the event recurs when the drug is given again after it had resolved (strongly supports causation). Rechallenge is often unethical or dangerous, so it is avoided.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p1-adr-022",
@@ -660,54 +378,98 @@
       "tags": [
         "adr"
       ],
-      "pyq": []
+      "pyq": [],
+      "level": 1
     },
     {
-      "id": "p1-adr-023",
-      "type": "cloze",
-      "front": "Gell and Coombs hypersensitivity types",
-      "text": "Type I is {{IgE}}-mediated via {{mast cells}}; Type II is {{cytotoxic}} via {{IgG or IgM}} antibodies; Type III is {{immune complex}}-mediated (serum sickness); Type IV is {{T-lymphocyte}}-mediated (contact dermatitis).",
+      "id": "p1-adr-041",
+      "type": "basic",
+      "front": "Why are premarketing trials not enough to establish drug safety?",
+      "back": "They are small (median about 467 patients in pivotal trials of drugs approved 2015-17), short (median about 24 weeks; only about 46% had a trial of at least 6 months) and restricted to selected patients. So uncommon, delayed or genotype-related reactions are missed. Example: terfenadine was studied in about 5000 patients before approval but 7.5 million were exposed before its withdrawal. Hence postmarketing surveillance is needed.",
       "refs": [
-        "KDT8 ch6"
+        "GG14 ch8"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-adr-hypersensitivity",
-      "tags": [
-        "mechanism",
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-adr-024",
-      "type": "cloze",
-      "front": "Teratogenic drugs and their defects",
-      "text": "ACE inhibitors cause {{hypoplasia of organs}} (especially lungs and kidneys); valproate causes {{spina bifida}} and other neural tube defects; warfarin causes a {{depressed nose}} with eye and hand defects; antithyroid drugs cause foetal {{goitre}}.",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "status": "draft",
-      "subtopic": "p1-adr-pregnancy",
-      "tags": [
-        "adr",
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-adr-025",
-      "type": "cloze",
-      "front": "Drug-induced diseases and their causative drugs",
-      "text": "NSAIDs and corticosteroids cause {{peptic ulcer}}; phenothiazines cause {{parkinsonism}}; isoniazid causes {{hepatitis}}; hydralazine causes {{drug-induced lupus}}.",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "status": "draft",
-      "subtopic": "p1-adr-drug-induced-poisoning",
+      "subtopic": "p1-adr-pharmacovigilance",
       "tags": [
         "adr"
       ],
-      "pyq": []
+      "level": 1
+    },
+    {
+      "id": "p1-adr-042",
+      "type": "cloze",
+      "front": "Pharmacovigilance Programme of India",
+      "text": "PvPI began in {{2010}} under the Ministry of Health; CDSCO and the {{Indian Pharmacopoeia Commission, Ghaziabad}} (national coordination centre) run it; reports from ADR monitoring centres go through {{VigiFlow}} to {{VigiBase}} at the {{Uppsala}} Monitoring Centre.",
+      "refs": [
+        "Katzung16 appendix 2",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-013",
+      "type": "shortnote",
+      "front": "Short note: Causality assessment of an adverse drug reaction",
+      "sections": [
+        {
+          "h": "Why needed",
+          "points": [
+            "An adverse event may be due to the drug, the disease or other causes",
+            "A clear yes/no answer is rarely possible"
+          ]
+        },
+        {
+          "h": "Criteria",
+          "points": [
+            "Temporal relationship to drug administration",
+            "Previous knowledge: drug known to cause the event",
+            "Dechallenge: event subsides on stopping the drug",
+            "Rechallenge: event recurs on re-administration (often unethical, so not done)"
+          ]
+        },
+        {
+          "h": "Grades",
+          "points": [
+            "Definite: causality proven",
+            "Probable: drug is the likely cause",
+            "Possible: drug or other causes could be responsible",
+            "Doubtful: drug unlikely but not excluded"
+          ]
+        },
+        {
+          "h": "Tools",
+          "points": [
+            "Standard algorithms: Naranjo algorithm, WHO causality scale",
+            "Severity: modified Hartwig scale",
+            "Used by pharmacovigilance centres for pooled data"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6",
+        "Katzung16 appendix 2"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "level": 2
     },
     {
       "pyq": [
@@ -762,7 +524,8 @@
             "Educate prescribers and health professionals about ADRs"
           ]
         }
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-adr-027",
@@ -870,36 +633,761 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-adr-028",
-      "type": "shortnote",
-      "front": "Short note: Idiosyncrasy",
+      "id": "p1-adr-043",
+      "type": "basic",
+      "front": "List the limitations of spontaneous adverse event reporting.",
+      "back": "(1) Marked under-reporting (median about 94% across 12 countries), varying with media coverage, litigation and time on market. (2) Denominator unknown, so incidence cannot be calculated or compared between drugs. (3) Reports often incomplete (history, co-medication, cause of death, start date). (4) Cannot detect a small-to-moderate rise in a common event, which needs controlled studies. (5) Signals are hard to separate from noise and need further evaluation.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-044",
+      "type": "basic",
+      "front": "When are single case reports most useful for inferring that a drug caused an event?",
+      "back": "When the event is otherwise rare, has few other risk factors, follows exposure closely in time, and the drug carries a large excess risk. Examples: anaphylaxis, Stevens-Johnson syndrome, cerivastatin rhabdomyolysis. Then no other method detects the adverse effect as fast or cheaply. For common events, such reports cannot establish causality.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-018",
+      "type": "essay",
+      "front": "Essay: Pharmacovigilance: purpose, methods and role in India",
       "sections": [
         {
-          "h": "What",
+          "h": "Introduction",
           "points": [
-            "Genetically determined abnormal reactivity to a chemical",
-            "Drug interacts with a unique feature of the individual not found in most people"
+            "WHO (2002) definition: detection, assessment, understanding and prevention of adverse effects or other drug-related problems",
+            "Aim: reduce drug-related harm; supports rational use and regulation"
           ]
         },
         {
-          "h": "Features",
+          "h": "Methods of ADR monitoring",
           "points": [
-            "Restricted to individuals with a particular genotype",
-            "Part of Type B (bizarre) reactions: unpredictable, less common, often serious; usually need drug withdrawal"
+            "Voluntary (spontaneous) reporting, e.g. UK yellow card; reporting is minimal in India",
+            "Under-reporting is large: GG14 cites a median under-reporting rate of about 94% across 12 countries (older KDT8 figure: only about 10% of ADRs reported voluntarily)",
+            "Prescription event monitoring, record linkage, cohort and case-control studies, case reports"
+          ]
+        },
+        {
+          "h": "Dissemination and regulation",
+          "points": [
+            "Drug alerts, medical letters and advisories",
+            "Label changes, restrictions, warnings or withdrawal by the regulator"
+          ]
+        },
+        {
+          "h": "Institutions",
+          "points": [
+            "Uppsala Monitoring Centre (Sweden): WHO international collaborating centre (VigiBase)",
+            "India: PvPI, started 2010 by the Health Ministry through CDSCO and the Indian Pharmacopoeia Commission, Ghaziabad (National Coordination Centre)",
+            "ADR monitoring centres in medical colleges and hospitals; peripheral, regional and zonal centres; National Pharmacovigilance Advisory Committee"
+          ]
+        },
+        {
+          "h": "Assessment tools",
+          "points": [
+            "Causality: WHO scale, Naranjo algorithm",
+            "Severity: modified Hartwig scale"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Under-reporting; no denominator, so incidence cannot be calculated",
+            "Dramatic, immediate reactions reported more than delayed ones"
           ]
         }
       ],
       "refs": [
-        "KDT8 PDF p109"
+        "KDT8 ch6",
+        "GG14 ch8",
+        "Katzung16 appendix 2"
       ],
-      "subtopic": "p1-adr-concepts",
+      "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
       "tags": [
         "adr"
       ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-045",
+      "type": "basic",
+      "front": "Spontaneous reports show a possible signal that a drug raises the rate of a common event such as myocardial infarction. How should it be handled?",
+      "back": "Spontaneous systems cannot show a small-to-moderate rise in a common event (no denominator, background events are expected, reports incomplete), so the signal only triggers evaluation. Disproportionality methods compare reports for the drug against those expected from the whole database but rest on assumptions hard to verify. Next step: controlled studies, either observational pharmacoepidemiology (e.g. FDA Sentinel, which tested FAERS signals such as olmesartan and sprue-like enteropathy) or a postmarketing trial. Observational data limits: data quality and unmeasured confounding. Rosiglitazone showed why: approved on glycaemic trials, later meta-analysis suggested raised MI risk.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
       "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-046",
+      "type": "shortnote",
+      "front": "Short note: Postmarketing drug safety (approaches and regulatory response)",
+      "sections": [
+        {
+          "h": "Why needed",
+          "points": [
+            "Premarketing trials small, short and in selected patients",
+            "Withdrawals followed wide exposure, e.g. terfenadine, fenfluramine, dexfenfluramine, mibefradil, bromfenac"
+          ]
+        },
+        {
+          "h": "Surveillance",
+          "points": [
+            "Case reports and spontaneous systems: foundation (FAERS receives over 2 million reports a year; MedWatch for voluntary reporting, mandatory for manufacturers)",
+            "Controlled studies: observational pharmacoepidemiology (Sentinel System, over 100 million people's electronic data) and postmarketing trials"
+          ]
+        },
+        {
+          "h": "Regulatory response",
+          "points": [
+            "Communication: label change, boxed warning, drug safety communication",
+            "REMS",
+            "Withdrawal from market (drastic; weigh risk, benefit and alternatives)"
+          ]
+        },
+        {
+          "h": "Lessons",
+          "points": [
+            "QT prolongation withdrawals (terfenadine, astemizole, grepafloxacin, cisapride) raised QT testing requirements",
+            "Valvular toxicity of fenfluramine and dexfenfluramine, and sibutramine, led to stricter CV requirements for antiobesity drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-006",
+      "type": "basic",
+      "front": "Gell and Coombs Type I hypersensitivity: mechanism and clinical picture?",
+      "back": "IgE antibodies fixed to mast cells and basophils; on re-exposure, antigen cross-links IgE and mediators (histamine, leukotrienes, prostaglandins, PAF) are released. Immediate reaction within minutes to hours: urticaria, angioedema, bronchospasm, rhinitis and anaphylaxis.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-023",
+      "type": "cloze",
+      "front": "Gell and Coombs hypersensitivity types",
+      "text": "Type I is {{IgE}}-mediated via {{mast cells}}; Type II is {{cytotoxic}} via {{IgG or IgM}} antibodies; Type III is {{immune complex}}-mediated (serum sickness); Type IV is {{T-lymphocyte}}-mediated (contact dermatitis).",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-047",
+      "type": "basic",
+      "front": "What are the cardinal features of drug allergy and why is prior exposure needed?",
+      "back": "Features: manifestations unrelated to the drug's pharmacology; resemble food or protein allergy; severity poorly related to dose; only a few recipients; prior sensitisation needed; positive dechallenge and rechallenge even with a small dose. Drugs are small molecules that act as haptens, becoming antigenic only after binding to body proteins; the immune system needs a latent period (at least 1-2 weeks) to make antibody or sensitised T cells, so the first exposure sensitises and a later one reacts.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-048",
+      "type": "basic",
+      "front": "Type II, III and IV drug hypersensitivity: mechanism and typical manifestations?",
+      "back": "Type II (cytolytic): IgG or IgM binds drug-tissue cell complex, complement activates, cell lysis: thrombocytopenia, agranulocytosis, aplastic anaemia, haemolysis. Type III (Arthus-like): circulating IgG immune complexes deposit on vessel walls and tissues, causing inflammation: rash, serum sickness. Type IV (delayed): sensitised T lymphocytes release lymphokines, 2-3 days: contact dermatitis, some rashes, fever, photosensitisation.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-049",
+      "type": "basic",
+      "front": "Which drugs most often cause allergic reactions?",
+      "back": "Penicillins, cephalosporins, sulfonamides, tetracyclines, quinolones, metronidazole, abacavir, antitubercular drugs, phenothiazines, aspirin, indomethacin, carbamazepine, allopurinol, ACE inhibitors, methyldopa, hydralazine, local anaesthetics. Memory aid: antimicrobials come first, then drugs used long term in chronic disease.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-007",
+      "type": "basic",
+      "front": "First-line emergency treatment of drug-induced anaphylaxis?",
+      "back": "Adrenaline intramuscularly (adult 0.5 mg of 1:1000 solution; lower doses for children), repeated every 5-10 minutes if needed. Supportive steps: recline, high-flow oxygen, resuscitation if required. Add H1 antihistamine and IV hydrocortisone for severe or recurrent cases. Do not give IV adrenaline unless shock is life-threatening, and then dilute it.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-008",
+      "type": "basic",
+      "front": "Phototoxic vs photoallergic drug reactions: which UV band and which mechanism?",
+      "back": "Phototoxic: a photoactivated drug or metabolite damages tissue directly; sunburn-like reaction, fast onset, UVB (290-320 nm); more common. Photoallergic: an immune response, eczema-like reaction that may persist, UVA (320-400 nm); small doses can trigger it. Tetracyclines (demeclocycline) are classic phototoxic agents.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-014",
+      "type": "shortnote",
+      "front": "Short note: Drug allergy (hypersensitivity)",
+      "sections": [
+        {
+          "h": "Definition and features",
+          "points": [
+            "Immune-mediated reaction unrelated to the drug's pharmacology",
+            "Occurs in a small fraction of users; not dose-related",
+            "Needs prior sensitisation: latent period of at least 1-2 weeks after first exposure",
+            "Drug or metabolite usually acts as a hapten; cross-sensitivity among chemically related drugs"
+          ]
+        },
+        {
+          "h": "Mechanisms",
+          "points": [
+            "Type I: IgE, immediate (anaphylaxis, urticaria, asthma)",
+            "Type II: cytotoxic, IgG/IgM (haemolysis, thrombocytopenia, agranulocytosis)",
+            "Type III: immune complex (serum sickness, vasculitis)",
+            "Type IV: T-cell mediated, delayed (contact dermatitis)"
+          ]
+        },
+        {
+          "h": "Common culprits",
+          "points": [
+            "Penicillins, cephalosporins, sulfonamides, tetracyclines, quinolones, metronidazole, antitubercular drugs, abacavir",
+            "Phenothiazines, aspirin, indomethacin, carbamazepine, allopurinol, ACE inhibitors, methyldopa, hydralazine, local anaesthetics"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Stop the drug at once; mild rashes often settle alone",
+            "H1 antihistamines for some type I reactions; adrenaline i.m. for anaphylaxis",
+            "Glucocorticoids for severe or prolonged reactions",
+            "Skin or intranasal tests help only for type I and give false positives and negatives"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-050",
+      "type": "basic",
+      "front": "Why is adrenaline the key drug in anaphylaxis, and why is it given i.m. and not i.v.?",
+      "back": "Adrenaline counters the mediator-driven bronchospasm, vasodilatation and angioedema and is the only life-saving measure: 0.5 mg (0.5 ml of 1 in 1000) i.m. in an adult, repeated every 5-10 minutes if needed. It is not given i.v. because it can itself be dangerous; only if shock is life-threatening, and then diluted. Antihistamines and hydrocortisone are adjuncts, not substitutes, since antihistamines help only some type I features.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-051",
+      "type": "basic",
+      "front": "Which drug class works in type II, III and IV drug reactions, and how is a mild drug rash managed?",
+      "back": "Glucocorticoids are the only drugs effective in types II, III and IV. First step in all drug allergy: stop the offending drug. Mild rashes usually subside alone; H1 antihistamines relieve itching, urticaria and rhinitis in some type I reactions and some rashes; calamine lotion or mild topical steroid for local relief. Skin and intranasal tests help only for type I and can be falsely positive or negative.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-052",
+      "type": "shortnote",
+      "front": "Short note: Photosensitivity reactions",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Drug-induced sensitisation of skin to UV radiation, two types"
+          ]
+        },
+        {
+          "h": "Phototoxic",
+          "points": [
+            "Drug or metabolite accumulates in skin, absorbs light, damages tissue",
+            "Sunburn-like: erythema, oedema, blistering; fast onset, shorter course; then hyperpigmentation and desquamation",
+            "UVB (290-320 nm); more common; tetracyclines (demeclocycline) classic"
+          ]
+        },
+        {
+          "h": "Photoallergic",
+          "points": [
+            "Cell-mediated immune response; eczema-like contact dermatitis picture that may persist",
+            "UVA (320-400 nm)"
+          ]
+        },
+        {
+          "h": "Prevention and treatment",
+          "points": [
+            "Avoid sun; sunscreen SPF 15-60",
+            "Soothing lotions (calamine), wet dressings, mild topical steroids for phototoxicity; strong topical or systemic steroids for photoallergy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-053",
+      "type": "essay",
+      "front": "Essay: Drug allergy: types, clinical manifestations and treatment",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Immune-mediated, stereotyped reaction unrelated to the drug's pharmacology; needs prior sensitisation; drug acts as hapten"
+          ]
+        },
+        {
+          "h": "Types (Gell and Coombs)",
+          "points": [
+            "I: IgE on mast cells, histamine, LT-C4 and D4, PAF; minutes to hours; urticaria, angioedema, bronchospasm, anaphylaxis",
+            "II: IgG or IgM cytolysis; thrombocytopenia, agranulocytosis, haemolysis",
+            "III: immune complexes; serum sickness, rash, vasculitis",
+            "IV: T cell, 2-3 days; contact dermatitis, fever, photosensitisation"
+          ]
+        },
+        {
+          "h": "Culprit drugs",
+          "points": [
+            "Penicillins, cephalosporins, sulfonamides and others"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Stop the drug",
+            "Anaphylaxis: reclining position, oxygen, i.m. adrenaline 0.5 mg repeated at 5-10 minutes, H1 antihistamine and hydrocortisone as adjuncts",
+            "Glucocorticoids the only effective drugs in types II-IV",
+            "Mild rashes settle alone"
+          ]
+        },
+        {
+          "h": "Photosensitivity and tests",
+          "points": [
+            "Phototoxic (UVB) versus photoallergic (UVA)",
+            "Skin tests help only type I and are unreliable"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "History of allergic diseases and prior reactions"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "adr",
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-054",
+      "type": "basic",
+      "front": "Compare three patients: (a) wheeze and urticaria minutes after penicillin, (b) fever, arthralgia, lymphadenopathy and rash in week 2 of a sulfonamide, (c) eczema 2-3 days after a topical drug. Name the type, mediator and treatment.",
+      "back": "(a) Type I: IgE on mast cells; adrenaline i.m. first, antihistamine and steroid as adjuncts. (b) Type III (serum sickness): circulating IgG immune complexes; stop the drug, glucocorticoid. (c) Type IV: sensitised T lymphocytes and lymphokines; stop the drug, glucocorticoid (topical or systemic). Key: only type I is quick and adrenaline-responsive; glucocorticoids are the only effective drugs in II, III and IV.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-hypersensitivity",
+      "tags": [
+        "adr",
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-009",
+      "type": "basic",
+      "front": "Which periods of pregnancy are most relevant for drug teratogenicity?",
+      "back": "Three stages: (1) fertilisation and implantation, conception to day 17: failure of pregnancy, often unnoticed; (2) organogenesis, days 18 to 55: most vulnerable, structural malformations; (3) growth and development, day 56 onwards: developmental and functional defects, e.g. ACE inhibitors (hypoplasia of lungs and kidneys), NSAIDs (premature closure of ductus arteriosus), androgens/progestins (masculinisation of female foetus), antithyroid drugs and lithium (foetal goitre).",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-010",
+      "type": "basic",
+      "front": "What lesson came from the thalidomide disaster?",
+      "back": "Thalidomide, marketed in 1957 as a sedative and anti-morning-sickness drug, taken in the first trimester caused thousands of babies to be born with phocomelia (seal-like limbs) and other defects (1958-61). It was banned worldwide. The disaster focused attention on teratogenicity testing; thalidomide is now marketed again only for restricted use, e.g. as an adjuvant in cancer chemotherapy.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-024",
+      "type": "cloze",
+      "front": "Teratogenic drugs and their defects",
+      "text": "ACE inhibitors cause {{hypoplasia of organs}} (especially lungs and kidneys); valproate causes {{spina bifida}} and other neural tube defects; warfarin causes a {{depressed nose}} with eye and hand defects; antithyroid drugs cause foetal {{goitre}}.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-055",
+      "type": "basic",
+      "front": "Define teratogenicity, mutagenicity and carcinogenicity.",
+      "back": "Teratogenicity: capacity of a drug to cause foetal abnormalities when given to the pregnant mother. Mutagenicity: capacity to cause genetic defects, possibly heritable. Carcinogenicity: capacity to cause cancer. Reactive intermediates (often from oxidation) bind covalently to DNA; if proto-oncogenes or inhibitors of their transcription are altered, a tumour can result. Drugs implicated include anticancer drugs, radioisotopes, estrogens and tobacco.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-056",
+      "type": "basic",
+      "front": "Why is the placenta no protection, and why is the embryo so vulnerable?",
+      "back": "The placenta is not a strict barrier: any drug crosses to some degree. The embryo is a highly dynamic biological system and, unlike adults, drug effects on it are often irreversible. Teratogenic risk is judged against the spontaneous background of about 2% of pregnancies with congenital anomalies.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-057",
+      "type": "basic",
+      "front": "Why does the same drug cause different harm depending on the stage of pregnancy?",
+      "back": "Foetal harm depends on drug and timing. Days 0-17: failure of pregnancy, often unnoticed. Days 18-55 (organogenesis): structural malformation. From day 56: functional and growth defects, e.g. ACE inhibitors (lung, kidney hypoplasia), NSAIDs (ductus arteriosus closes early), androgens and progestins (virilisation of female foetus), antithyroid drugs and lithium (goitre). Exposure also depends on maternal blood level and duration.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-058",
+      "type": "basic",
+      "front": "Group the human teratogens by type of effect.",
+      "back": "Structural malformations: thalidomide (phocomelia), methotrexate (cleft palate, hydrocephalus), warfarin (depressed nose, eye and hand defects), phenytoin (hypoplastic phalanges, cleft lip/palate), valproate (neural tube defects), isotretinoin (craniofacial, heart, CNS). Growth or functional: ACE inhibitors, NSAIDs, lithium, antithyroid drugs, tetracyclines (teeth, bone), alcohol (foetal alcohol syndrome). Delayed: stilboestrol (vaginal carcinoma in teenage daughters). Antiepileptics (phenytoin, phenobarbitone, carbamazepine, valproate) form a notable group.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-059",
+      "type": "basic",
+      "front": "How did risk labelling for pregnancy change, and why is the old system criticised?",
+      "back": "The old FDA letter grades A (safe) to X (contraindicated) became outdated as evidence on teratogenicity accumulated, and their usefulness was questioned. In 2015 the FDA Pregnancy and Lactation Labeling Rule replaced them with narrative labelling on pregnancy, lactation and reproductive potential. KDT advises avoiding all drugs in pregnancy unless there is a compelling reason, whatever the assigned category.",
+      "refs": [
+        "KDT8 ch6",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-019",
+      "type": "essay",
+      "front": "Essay: Teratogenicity of drugs",
+      "sections": [
+        {
+          "h": "Definition and placenta",
+          "points": [
+            "Capacity of a drug to cause foetal abnormalities when given to the mother",
+            "Placenta is not a strict barrier; any drug can cross to some extent"
+          ]
+        },
+        {
+          "h": "Sensitive periods",
+          "points": [
+            "Conception to day 17: failure of pregnancy",
+            "Days 18-55 (organogenesis): most vulnerable, malformations",
+            "Day 56 onwards: growth, developmental and functional defects"
+          ]
+        },
+        {
+          "h": "Determinants",
+          "points": [
+            "Drug, stage of exposure, maternal blood level and duration",
+            "Background rate of spontaneous congenital anomalies about 2%; most implicated drugs are low-grade teratogens"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Thalidomide (phocomelia); methotrexate (cleft palate, hydrocephalus); stilboestrol (vaginal carcinoma in daughters)",
+            "Warfarin (depressed nose, eye and hand defects); phenytoin (hypoplastic phalanges, cleft lip/palate); valproate and carbamazepine (neural tube defects)",
+            "ACE inhibitors (organ hypoplasia, foetal loss); antithyroid drugs and lithium (foetal goitre); isotretinoin (craniofacial, heart, CNS defects)",
+            "Androgens and progestins (virilisation); tetracyclines (teeth and bone); alcohol (foetal alcohol syndrome)"
+          ]
+        },
+        {
+          "h": "Risk labelling",
+          "points": [
+            "Older FDA letter categories A, B, C, D, X",
+            "Replaced in 2015 by the FDA Pregnancy and Lactation Labeling Rule (narrative labelling on pregnancy, lactation and reproductive potential)"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Avoid all drugs in pregnancy unless there is a compelling reason",
+            "Folate reduces neural tube defects"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6",
+        "GG14 ch2"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr"
+      ],
       "pyq": [
         {
           "university": "RGUHS",
@@ -908,10 +1396,494 @@
         },
         {
           "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-060",
+      "type": "basic",
+      "front": "A pregnant woman takes valproate for epilepsy, an ACE inhibitor for hypertension and an antithyroid drug for hyperthyroidism. What are the foetal risks and your advice?",
+      "back": "Valproate: neural tube defects (spina bifida) and other defects; ACE inhibitor: organ hypoplasia (lung, kidney) and foetal loss; antithyroid drug: foetal goitre. Advice: review every drug, avoid unnecessary ones whatever the category, use a drug only where a compelling indication exists, and give folate, which lowers neural tube defects. Which risk applies depends on the stage of exposure.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-011",
+      "type": "basic",
+      "front": "Distinguish drug dependence from drug addiction.",
+      "back": "Dependence (neuroadaptation; formerly 'physical dependence'): an altered physiological state needing continued drug presence; stopping it causes a characteristic withdrawal syndrome (opioids, barbiturates, alcohol, benzodiazepines). Addiction (formerly 'psychological dependence'): compulsive use with overwhelming involvement, despite known harm, with frequent relapse. Amphetamines, cocaine, cannabis and LSD cause addiction with little or no dependence; nalorphine causes dependence without addiction.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-012",
+      "type": "basic",
+      "front": "Give two examples of withdrawal reactions after abrupt cessation of a drug.",
+      "back": "Clonidine: rebound hypertension, restlessness and sympathetic overactivity. Beta-blockers: worsened angina or myocardial infarction. Corticosteroids: acute adrenal insufficiency. Antiepileptics: increased seizure frequency. Prevention: taper gradually.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-061",
+      "type": "basic",
+      "front": "What is tolerance, and how does it relate to dependence?",
+      "back": "Tolerance: need for a higher dose to get a given response; a common adaptive biological phenomenon (mechanisms include receptor desensitisation, internalisation, down-regulation and compensatory homeostatic adaptation). Drugs taken repeatedly for gratification also cause adaptive changes: tolerance (dose escalation) and a disturbed physiological balance when the drug is absent, which is dependence with withdrawal. Tolerance is the converse of intolerance.",
+      "refs": [
+        "KDT8 ch6",
+        "KDT8 PDF p97"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-062",
+      "type": "basic",
+      "front": "What is reinforcement and why do some routes and drugs have more abuse potential?",
+      "back": "Reinforcement is the drug's ability to produce effects the user enjoys and so to induce drug-seeking. Opioids and cocaine are strong reinforcers, benzodiazepines weak. The faster the drug acts, the more reinforcing: inhaled and intravenous drugs give an intense rapid effect, which raises abuse risk.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-063",
+      "type": "cloze",
+      "front": "Dependence terminology",
+      "text": "{{Dependence}} means a withdrawal syndrome on stopping; {{addiction}} means compulsive use with overwhelming involvement and relapse; {{habituation}} is milder involvement without dependence (tea, coffee); {{abuse}} is use deviating from approved medical and social patterns.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-016",
+      "type": "shortnote",
+      "front": "Short note: Drug dependence, addiction and abuse",
+      "sections": [
+        {
+          "h": "Definitions",
+          "points": [
+            "Dependence (neuroadaptation): withdrawal syndrome on stopping",
+            "Addiction: compulsive use with overwhelming involvement despite harm; relapse common",
+            "Habituation: milder involvement without dependence (tea, coffee, tobacco, social drinking); term best avoided",
+            "Abuse: self-medication deviating from approved medical and social patterns; for regulators, any use of an illicit drug"
+          ]
+        },
+        {
+          "h": "Drug classes",
+          "points": [
+            "Dependence: opioids, barbiturates, alcohol, benzodiazepines",
+            "Addiction with little/no dependence: amphetamines, cocaine, cannabis, LSD",
+            "Dependence without addiction: nalorphine"
+          ]
+        },
+        {
+          "h": "Reinforcement",
+          "points": [
+            "Strong reinforcers: opioids, cocaine; weak: benzodiazepines",
+            "Faster-acting routes (inhaled, i.v.) are most reinforcing"
+          ]
+        },
+        {
+          "h": "Patterns of abuse",
+          "points": [
+            "Continuous use: opioids, alcohol, sedatives",
+            "Occasional use for a 'high': cocaine, amphetamines, psychedelics, cannabis, solvents, binge drinking"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
           "year": 2019,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-031",
+      "type": "shortnote",
+      "front": "Short note: Designer drugs (new psychoactive substances)",
+      "sections": [
+        {
+          "h": "Meaning",
+          "points": [
+            "Novel psychoactive drugs that keep entering the illicit market",
+            "Trends change constantly, so surveillance sources track novel illicit drugs"
+          ]
+        },
+        {
+          "h": "Main classes",
+          "points": [
+            "Synthetic cannabinoids and synthetic cathinones (e.g. ethylone) are the most common classes of new psychoactive substances",
+            "Opioids, phenethylamines, tryptamines, benzodiazepines and piperazines are also of concern"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p557"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-064",
+      "type": "basic",
+      "front": "Why do clonidine, beta-blockers, corticosteroids and antiepileptics cause problems on abrupt stopping, and how is it prevented?",
+      "back": "Chronic use causes adaptive changes; abrupt withdrawal removes the drug and the condition worsens or rebounds: severe hypertension and sympathetic overactivity (clonidine), worsened angina or myocardial infarction (beta-blockers), acute adrenal insufficiency (corticosteroids), more seizures (antiepileptics). Prevention is gradual withdrawal by tapering.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-065",
+      "type": "basic",
+      "front": "Compare dependence and addiction using examples.",
+      "back": "Opioids, barbiturates, alcohol and benzodiazepines cause dependence (withdrawal syndrome). Amphetamines, cocaine, cannabis and LSD cause addiction with little or no dependence, so dependence is not essential for addiction. Nalorphine causes dependence without addiction. Relapse after withdrawal is typical of addiction, and the faster-acting routes reinforce it most.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-066",
+      "type": "essay",
+      "front": "Essay: Drug dependence, addiction and abuse",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Mood-altering drugs are used repeatedly for euphoria, recreation and escape; terms changed (physical dependence now dependence; psychological dependence now addiction)"
+          ]
+        },
+        {
+          "h": "Dependence",
+          "points": [
+            "Altered physiological state needing continued drug; characteristic withdrawal syndrome",
+            "Opioids, barbiturates, alcohol and benzodiazepines"
+          ]
+        },
+        {
+          "h": "Addiction",
+          "points": [
+            "Compulsive use, overwhelming involvement despite harm, relapse",
+            "Amphetamines, cocaine, cannabis, LSD; dependence not essential"
+          ]
+        },
+        {
+          "h": "Tolerance and reinforcement",
+          "points": [
+            "Dose escalation from adaptive changes",
+            "Strong reinforcers opioids and cocaine; fast routes more reinforcing"
+          ]
+        },
+        {
+          "h": "Related terms and patterns",
+          "points": [
+            "Habituation, abuse",
+            "Continuous use (opioids, alcohol, sedatives); occasional use (cocaine, amphetamines, psychedelics, cannabis, solvents, binge drinking)"
+          ]
+        },
+        {
+          "h": "Withdrawal reactions of other drugs",
+          "points": [
+            "Clonidine, beta-blockers, corticosteroids, antiepileptics: taper gradually"
+          ]
+        },
+        {
+          "h": "Designer drugs",
+          "points": [
+            "New psychoactive substances: synthetic cannabinoids and cathinones are most common"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-067",
+      "type": "basic",
+      "front": "Compare three patients: an opioid user, a cocaine user and a hypertensive taking clonidine. Each stops the drug suddenly. What happens and why?",
+      "back": "Opioid: dependence, so a characteristic withdrawal syndrome. Cocaine: addiction with little or no dependence, so strong craving and relapse but minimal withdrawal. Clonidine: not a dependence-producing drug, but adaptive changes cause rebound hypertension, restlessness and sympathetic overactivity. Common thread: adaptation to the drug; for clonidine the answer is to taper.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-dependence",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-025",
+      "type": "cloze",
+      "front": "Drug-induced diseases and their causative drugs",
+      "text": "NSAIDs and corticosteroids cause {{peptic ulcer}}; phenothiazines cause {{parkinsonism}}; isoniazid causes {{hepatitis}}; hydralazine causes {{drug-induced lupus}}.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-068",
+      "type": "basic",
+      "front": "What is a poison, a toxin, and what separates a drug from a poison?",
+      "back": "Poison: a substance that endangers life by severely affecting vital functions; a poison of biological origin is a toxin; poisoning is harmful effect of a chemical on a biological system. The dose separates drug from poison. Poisons include household, environmental and industrial chemicals and insecticides, not only drugs. Specific antidotes (receptor antagonists, chelators) exist for only a few.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-069",
+      "type": "basic",
+      "front": "What are the general steps in acute poisoning, in order?",
+      "back": "(1) Resuscitation: airway and breathing (oxygen), circulation (fluids, pressors, pacing), stop seizures (i.v. lorazepam), temperature, blood sugar (dextrose). (2) Termination of exposure, started at the same time: fresh air, remove clothing, wash skin and eyes, emesis or lavage for ingested poisons. (3) Prevent absorption: activated charcoal. (4) Hasten elimination. (5) Specific antidote if available. Resuscitation comes first because poisoning often causes coma with loss of airway reflexes.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-070",
+      "type": "cloze",
+      "front": "Activated charcoal in poisoning",
+      "text": "Activated charcoal is given as {{20-40 g (or 1 g/kg)}} in 200 ml water. It does not adsorb {{strong acids and alkalis}}, metallic salts, iodine, {{cyanide}}, alcohol or hydrocarbons, and is avoided in {{ileus or obstruction}}.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-017",
+      "type": "shortnote",
+      "front": "Short note: Drug-induced diseases (iatrogenic disease)",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Functional disease caused by a drug that persists after the drug is stopped and cleared"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Peptic ulcer with NSAIDs and corticosteroids",
+            "Parkinsonism with antipsychotics (phenothiazines)",
+            "Hepatitis with isoniazid",
+            "Drug-induced lupus with hydralazine or procainamide"
+          ]
+        },
+        {
+          "h": "Mechanisms",
+          "points": [
+            "Immune injury (hypersensitivity)",
+            "Direct tissue toxicity",
+            "Interference with normal physiology (e.g. dopamine blockade)"
+          ]
+        },
+        {
+          "h": "Significance",
+          "points": [
+            "Often mistaken for a new disease; a drug history is essential",
+            "Some are irreversible or slow to resolve"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
     },
     {
       "id": "p1-adr-029",
@@ -956,7 +1928,8 @@
           "year": 2016,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-adr-030",
@@ -1012,49 +1985,680 @@
       "tags": [
         "poisoning",
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-adr-031",
+      "id": "p1-adr-071",
+      "type": "basic",
+      "front": "When are emesis and lavage contraindicated or pointless, and why?",
+      "back": "Contraindicated in coma or an unstable patient, in kerosene poisoning (vomiting risks aspiration into the lungs), and in corrosive and CNS stimulant poisoning. Not recommended after 2 hours, when the dose is non-toxic, or when the patient has already vomited. Decontamination is therefore selective.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-072",
+      "type": "basic",
+      "front": "Which poisons are removed by urinary alkalinisation or haemodialysis, and why is forced diuresis no longer used?",
+      "back": "Alkalinisation traps weak acids as ions (phenobarbital, chlorpropamide, salicylates; GG14 favours it first-line in moderately severe salicylate poisoning not needing dialysis). Haemodialysis suits low molecular weight, small volume of distribution and high water solubility: phenobarbitone, carbamazepine, valproate, lithium, salicylate, theophylline. Forced diuresis (furosemide, mannitol) is generally abandoned: poisons cleared by hepatic metabolism are not helped and fluid overload and electrolyte imbalance outweigh benefit.",
+      "refs": [
+        "KDT8 ch6",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "poisoning",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-adr-015",
       "type": "shortnote",
-      "front": "Short note: Designer drugs (new psychoactive substances)",
+      "front": "Short note: Management of acute poisoning",
       "sections": [
         {
-          "h": "Meaning",
+          "h": "Resuscitation",
           "points": [
-            "Novel psychoactive drugs that keep entering the illicit market",
-            "Trends change constantly, so surveillance sources track novel illicit drugs"
+            "Airway and ventilation (oxygen, artificial respiration)",
+            "Maintain BP and heart: fluids, pressors, pacing, defibrillation",
+            "Control seizures (i.v. lorazepam); maintain temperature and blood sugar"
           ]
         },
         {
-          "h": "Main classes",
+          "h": "Decontamination",
           "points": [
-            "Synthetic cannabinoids and synthetic cathinones (e.g. ethylone) are the most common classes of new psychoactive substances",
-            "Opioids, phenethylamines, tryptamines, benzodiazepines and piperazines are also of concern"
+            "Fresh air for inhaled poisons; remove clothing, wash skin and eyes",
+            "Emesis or gastric lavage only in few cases: not in coma, unstable patients, kerosene, corrosives or CNS stimulants",
+            "Not useful if presentation is beyond 2 h, dose is non-toxic, or patient has vomited"
+          ]
+        },
+        {
+          "h": "Preventing absorption",
+          "points": [
+            "Activated charcoal 20-40 g (or 1 g/kg) in water",
+            "Does not adsorb strong acids/alkalis, metallic salts, iodine, cyanide, caustics, alcohol, hydrocarbons, organic solvents",
+            "Avoid with ileus or obstruction, or after 2 h"
+          ]
+        },
+        {
+          "h": "Hastening elimination and antidotes",
+          "points": [
+            "Forced diuresis and urinary pH change: generally not used now (fluid and electrolyte risk)",
+            "Haemodialysis for phenobarbitone, carbamazepine, valproate, lithium, salicylate, theophylline",
+            "Specific antidotes exist for only a few poisons"
           ]
         }
       ],
       "refs": [
-        "GG14 PDF p557"
+        "KDT8 ch6"
+      ],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "poisoning"
       ],
       "pyq": [
         {
           "university": "RGUHS",
-          "year": 2011,
-          "marks": 10
+          "year": 2016,
+          "marks": 20
         },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-073",
+      "type": "basic",
+      "front": "Comatose patient, phenobarbitone overdose 3 hours ago, unstable. Outline management.",
+      "back": "Resuscitate first: secure airway, ventilate, support blood pressure, control seizures, check glucose and temperature. No emesis or lavage (coma, unstable, over 2 hours). Charcoal is avoided with ileus or obstruction and is less useful this late. To hasten elimination: urinary alkalinisation is possible (weak acid trapping), forced diuresis is not used; haemodialysis removes phenobarbitone and is the stronger option in a severe case. No specific antidote, so supportive care.",
+      "refs": [
+        "KDT8 ch6",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-adr-074",
+      "type": "basic",
+      "front": "Which kinds of specific antidote exist in poisoning, and why is supportive care still essential?",
+      "back": "Specific antidotes are of three kinds: receptor antagonists, chelating agents and specific antibodies. They exist for only a few poisons, so for most poisons general supportive and symptomatic treatment is all that can be done. Supportive care also matters when an antidote exists, because the antidote reverses only one mechanism, not the airway, circulation and seizure problems already present.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-adr-075",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "front": "What is randomisation in a clinical trial, and what is its role in limiting bias?",
+      "back": "Subjects are allocated to study groups by chance, using a random-number table or computer. It is one of the two basic strategies for minimising bias; the other is blinding (concealment of treatment)."
+    },
+    {
+      "id": "p1-adr-076",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "front": "How does stratified randomisation differ from simple randomisation, and when is it used?",
+      "back": "Patients are first grouped by a key variable (age, sex, disease severity or another patient factor) and then randomised within each group. It is used when such a factor could distort the comparison between treatment groups."
+    },
+    {
+      "id": "p1-adr-077",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
         {
           "university": "UHSR",
           "year": 2025,
           "marks": 10
         }
       ],
-      "status": "draft",
-      "subtopic": "p1-adr-dependence",
-      "tags": [
-        "newer-drugs",
-        "adr"
+      "front": "Short note: Randomisation vs stratification",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Both are methods of allocating subjects in controlled trials",
+            "Both aim to reduce bias in comparing groups"
+          ]
+        },
+        {
+          "h": "Randomisation",
+          "points": [
+            "Allocation purely by chance (random table or computer)",
+            "One of the two basic bias-limiting strategies, with blinding"
+          ]
+        },
+        {
+          "h": "Stratification",
+          "points": [
+            "Subjects grouped by key variables such as age, sex or disease severity",
+            "Randomisation then carried out within each group"
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "points": [
+            "Stratification protects against imbalance of a known patient factor",
+            "Stratified randomisation is an addition to, not a replacement for, randomisation"
+          ]
+        }
       ]
+    },
+    {
+      "id": "p1-adr-078",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Adverse drug event (ADE) vs adverse drug reaction (ADR): which needs a suspected causal link to the drug?",
+      "back": "ADR: a noxious response suspected to be due to the drug, at normal doses, needing treatment or dose change; trivial effects, poisoning and overdose are excluded. ADE: any untoward occurrence during treatment, with no causal link needed. ADEs are recorded first and causality is judged later in pooled data."
+    },
+    {
+      "id": "p1-adr-079",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Underreporting of adverse drug reactions",
+      "sections": [
+        {
+          "h": "Scale",
+          "points": [
+            "Spontaneous reporting misses most events; median underreporting about 94% across 12 countries",
+            "So spontaneous data cannot give true event frequency"
+          ]
+        },
+        {
+          "h": "Factors that drive reporting",
+          "points": [
+            "Media coverage of a drug or event",
+            "Litigation",
+            "Time since the drug was marketed",
+            "Reporting patterns change unpredictably over a drug's life cycle"
+          ]
+        },
+        {
+          "h": "Denominator problem",
+          "points": [
+            "Number of patients actually exposed is hard to estimate",
+            "Without it the rate of an event cannot be calculated"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-adr-080",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch6",
+        "KDT8 PDF p802"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "front": "Why is an idiosyncratic reaction unpredictable? Give the chloramphenicol example.",
+      "back": "It depends on a peculiarity of the patient, not on the drug's known action (Type B). Chloramphenicol aplastic anaemia is rare (about 1 in 40,000), not dose-related, probably genetic, and often fatal."
+    },
+    {
+      "id": "p1-adr-081",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-adr-pharmacovigilance",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch5",
+        "RangDale9 PDF p117",
+        "Katzung16 PDF p32"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Institutional review board (ethics committee)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Independent body that scrutinises and approves a trial before it starts",
+            "Called an independent ethics committee or IRB"
+          ]
+        },
+        {
+          "h": "Role",
+          "points": [
+            "All human experiments need its approval",
+            "Weighs safety, ethics and scientific value of the study",
+            "Receives the key preclinical data and protocol, per the drug development dossier"
+          ]
+        },
+        {
+          "h": "Standards",
+          "points": [
+            "Trials follow Good Clinical Practice (GCP)",
+            "In India, ICMR ethical guidelines for biomedical research (2006)",
+            "Written informed consent from each subject"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-adr-082",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch64"
+      ],
+      "front": "Which blood cell lines does drug-induced bone marrow depression affect?",
+      "back": "Granulocytes (granulocytopenia, agranulocytosis), platelets (thrombocytopenia), and in severe cases aplastic anaemia."
+    },
+    {
+      "id": "p1-adr-083",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch53",
+        "KDT8 ch32",
+        "KDT8 ch30",
+        "KDT8 ch39",
+        "KDT8 ch56",
+        "KDT8 ch64"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Drug-induced agranulocytosis",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Fall in granulocytes from bone-marrow depression (dose-related) or an idiosyncratic reaction",
+            "Infections and bleeding are the usual complications"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Chloramphenicol: most prominent antibiotic cause of agranulocytosis and aplastic anaemia",
+            "Clozapine: agranulocytosis more common than with other antipsychotics",
+            "Carbamazepine: rare; mild leucopenia more common",
+            "Procainamide: rare",
+            "Dapsone: rare complication",
+            "Anticancer drugs: marrow depression is their most serious toxicity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-adr-084",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch32"
+      ],
+      "front": "Which antipsychotic is most associated with agranulocytosis?",
+      "back": "Clozapine. Agranulocytosis is rare with antipsychotics generally but more common with clozapine."
+    },
+    {
+      "id": "p1-adr-085",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 PDF p455",
+        "KDT8 ch30"
+      ],
+      "front": "Carbamazepine is dose-related neurotoxic. Name its effects, and how extended-release tablets help.",
+      "back": "Sedation, dizziness, vertigo, diplopia and ataxia. Extended-release tablets avoid high peaks in plasma level, so the neurological symptoms are less frequent."
+    },
+    {
+      "id": "p1-adr-086",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 PDF p829"
+      ],
+      "front": "Why does isoniazid cause neuropathy, and why is pyridoxine given with it?",
+      "back": "Isoniazid hampers the conversion of pyridoxine to its active phosphate and increases its urinary loss. Prophylactic pyridoxine (10 mg/day) prevents the neurotoxicity; 100 mg/day is used to treat it."
+    },
+    {
+      "id": "p1-adr-087",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 PDF p829"
+      ],
+      "front": "Which patients need prophylactic pyridoxine with isoniazid?",
+      "back": "Diabetics, chronic alcoholics, malnourished, pregnant or lactating women, HIV-infected patients, and anyone on high-dose isoniazid."
+    },
+    {
+      "id": "p1-adr-088",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 PDF p455",
+        "KDT8 PDF p829",
+        "KDT8 PDF p832",
+        "KDT8 PDF p833",
+        "KDT8 PDF p410"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Drugs causing neurotoxicity",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Mostly dose-related toxic effects on the nervous system",
+            "Often prevented or reduced by dose timing or a co-drug"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Carbamazepine: sedation, dizziness, vertigo, diplopia, ataxia",
+            "Isoniazid: peripheral neuropathy, prevented by pyridoxine",
+            "Cycloserine: neuropsychiatric effects in about half of users; seizures and psychosis possible; pyridoxine 100 mg/day helps",
+            "Terizidone: reported less neurotoxic substitute for cycloserine",
+            "Local anaesthetics: neurotoxicity blamed with high or repeated doses"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Pyridoxine prophylaxis for high-risk groups",
+            "Cycloserine is contraindicated in mental illness or seizures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-adr-089",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 PDF p109"
+      ],
+      "front": "Which type of ADR is dose-related and mostly preventable?",
+      "back": "Type A (predictable, augmented) reactions. They follow the drug's known pharmacology, are more common with multiple drugs and in the elderly, and are mostly preventable and reversible."
+    },
+    {
+      "id": "p1-adr-090",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-adr-concepts",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch6",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Preventable adverse drug reactions",
+      "sections": [
+        {
+          "h": "Which ones",
+          "points": [
+            "Type A (augmented) reactions: dose-related, mostly preventable and reversible",
+            "Type B reactions are not dose-related and are not preventable by dose change"
+          ]
+        },
+        {
+          "h": "Risk factors",
+          "points": [
+            "Multiple drug therapy",
+            "Elderly patients"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Rational prescribing: right drug, dose and duration",
+            "Check the drug history before prescribing",
+            "Tell the patient about common side effects, precautions and warnings, without discouraging use",
+            "Lab tests when needed, e.g. leucocyte count with anticancer drugs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-adr-091",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch6",
+        "KDT8 PDF p848",
+        "KDT8 PDF p947",
+        "GG14 PDF p1368",
+        "GG14 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Thalidomide and its analogues",
+      "sections": [
+        {
+          "h": "History",
+          "points": [
+            "Introduced for morning sickness in pregnancy; taken early in pregnancy",
+            "Caused phocomelia and other defects; over 10,000 children affected (1957-61)",
+            "Lesson: rare serious ADRs appear only after wide clinical use"
+          ]
+        },
+        {
+          "h": "Current uses",
+          "points": [
+            "Immunomodulator and anti-inflammatory: alternative to prednisolone in erythema nodosum leprosum",
+            "Antitumour use, e.g. multiple myeloma with melphalan and dexamethasone",
+            "Cancer-associated cachexia: reported benefit"
+          ]
+        },
+        {
+          "h": "Analogues",
+          "points": [
+            "Named analogues are not described in the owner books; not covered here"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-adr-092",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-adr-pregnancy",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 PDF p848",
+        "KDT8 PDF p947"
+      ],
+      "front": "Why is thalidomide still used despite its teratogenicity?",
+      "back": "It was reintroduced after the ban as an immunomodulator and anti-inflammatory drug, e.g. in erythema nodosum leprosum and in some cancers. Its teratogenic risk is the reason for restricted use."
+    },
+    {
+      "id": "p1-adr-093",
+      "type": "basic",
+      "level": 2,
+      "front": "Which drugs can cause insomnia as an adverse effect? List them.",
+      "back": "Nicotine replacement therapy; tofacitinib; caffeine and theophylline (more so at high doses); systemic glucocorticoids; tizanidine; selegiline (via its amphetamine metabolite); amantadine; amisulpride; amphetamines (high doses); older H1 antihistamines (stimulant effect in some).",
+      "refs": [
+        "KDT8 PDF p150",
+        "KDT8 PDF p164",
+        "KDT8 PDF p195",
+        "KDT8 PDF p244",
+        "KDT8 PDF p258",
+        "KDT8 PDF p323",
+        "KDT8 PDF p398",
+        "KDT8 PDF p472",
+        "KDT8 PDF p473",
+        "KDT8 PDF p483"
+      ],
+      "pyq": [],
+      "subtopic": "p1-adr-drug-induced-poisoning",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft"
     }
   ]
 }

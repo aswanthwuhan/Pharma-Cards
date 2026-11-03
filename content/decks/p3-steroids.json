@@ -15,22 +15,8 @@
       "subtopic": "p3-steroids-gc-pharmacology",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-steroids-002",
-      "type": "basic",
-      "front": "Compare hydrocortisone with prednisolone for duration and glucocorticoid potency.",
-      "back": "Hydrocortisone is short acting and has glucocorticoid and mineralocorticoid activity of roughly equal strength, so it is also the replacement drug in adrenal insufficiency. Prednisolone is about four times as potent as a glucocorticoid and has an intermediate duration, which makes it suitable for alternate-day or single-morning dosing.",
-      "refs": [
-        "KDT8 ch20"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-gc-pharmacology",
-      "tags": [
-        "classification"
-      ]
+      "level": 1
     },
     {
       "id": "p3-steroids-003",
@@ -46,7 +32,8 @@
       "subtopic": "p3-steroids-gc-pharmacology",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-steroids-004",
@@ -61,102 +48,56 @@
       "subtopic": "p3-steroids-gc-pharmacology",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p3-steroids-005",
-      "type": "basic",
-      "front": "What is fludrocortisone used for?",
-      "back": "It is an orally active, potent mineralocorticoid with some glucocorticoid action. Uses: replacement in Addison's disease when sodium is still being lost, salt-wasting congenital adrenal hyperplasia, and idiopathic postural hypotension.",
+      "id": "p3-steroids-019",
+      "type": "cloze",
+      "front": "Classify the systemic glucocorticoids by biological duration.",
+      "text": "Short-acting: {{hydrocortisone}}. Intermediate-acting: {{prednisolone}}, {{methylprednisolone}}, {{triamcinolone}} and {{deflazacort}}. Long-acting: {{dexamethasone}} and {{betamethasone}}.",
       "refs": [
         "KDT8 ch20"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-steroids-gc-clinical",
+      "subtopic": "p3-steroids-gc-pharmacology",
       "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-006",
-      "type": "basic",
-      "front": "What is the first-line emergency treatment for acute adrenal insufficiency?",
-      "back": "Hydrocortisone 100 mg IV as a bolus, then given by continuous infusion (KDT: about 100 mg every 8 hours; GG14: 50 to 100 mg every 8 hours). IV isotonic saline with glucose is given, with the volume guided by central venous pressure because these patients handle a water load poorly; a short vasopressor infusion may be needed. Dexamethasone is an alternative (KDT gives 8 to 16 mg IV; GG14 suggests 4 mg when the diagnosis is not yet confirmed, because it does not interfere with the cortisol assay). The precipitating cause (infection, trauma, haemorrhage) must be treated.",
-      "refs": [
-        "KDT8 ch20",
-        "GG14 ch50"
+        "classification"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-gc-clinical",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
+      "level": 1
     },
     {
-      "id": "p3-steroids-007",
-      "type": "basic",
-      "front": "Why are dexamethasone or betamethasone preferred over prednisolone in cerebral oedema?",
-      "back": "They have little sodium-retaining activity, so they do not worsen fluid retention when brain swelling must be controlled. Corticosteroids are also useful in oedema from tumours and in tubercular meningitis.",
+      "id": "p3-steroids-020",
+      "type": "cloze",
+      "front": "Classify the mineralocorticoids.",
+      "text": "{{Fludrocortisone}} is orally active and has some glucocorticoid action; {{DOCA}} is an almost pure mineralocorticoid given parenterally or sublingually; {{aldosterone}} is the most potent natural one but is not used clinically because of poor oral bioavailability.",
       "refs": [
         "KDT8 ch20"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-steroids-gc-clinical",
+      "subtopic": "p3-steroids-gc-pharmacology",
       "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-008",
-      "type": "basic",
-      "front": "What antenatal steroid regimen is used when preterm delivery is expected, and why?",
-      "back": "Betamethasone 12 mg IM, two doses 18 to 24 hours apart (KDT: betamethasone or dexamethasone 12 mg IM, two doses 24 hours apart), when delivery is expected before 34 weeks. Glucocorticoids speed fetal lung maturation and surfactant production, so respiratory distress syndrome and neonatal death fall. These two steroids are chosen because they cross the placenta well (less maternal protein binding and placental metabolism than cortisol).",
-      "refs": [
-        "KDT8 ch20",
-        "Katzung16 ch39"
+        "classification"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-gc-clinical",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
+      "level": 1
     },
     {
-      "id": "p3-steroids-009",
+      "id": "p3-steroids-002",
       "type": "basic",
-      "front": "What is the current role of corticosteroids in septic shock?",
-      "back": "High-dose corticosteroid therapy for septic shock has been abandoned because it worsens outcome. Low-dose hydrocortisone (100 mg every 8 hours as an IV infusion for 5 to 7 days) is used in patients with relative adrenal insufficiency who respond poorly to fluids and vasopressors. GG14 describes this state as critical illness-related cortisol insufficiency, treated with hydrocortisone 50 to 100 mg every 6 hours or a 10 mg/hour infusion.",
-      "refs": [
-        "KDT8 ch20",
-        "GG14 ch50"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-gc-clinical",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-010",
-      "type": "basic",
-      "front": "How does metyrapone work, and how is it used diagnostically?",
-      "back": "Metyrapone blocks 11-beta-hydroxylase in the adrenal cortex, so cortisol synthesis falls. Pituitary ACTH output rises, and 11-deoxycortisol accumulates and is excreted in urine. The response is used to test whether the pituitary can mount an ACTH response. Related enzyme inhibitors such as ketoconazole are also tried in Cushing's disease when surgery is not an option.",
+      "front": "Compare hydrocortisone with prednisolone for duration and glucocorticoid potency.",
+      "back": "Hydrocortisone is short acting and has glucocorticoid and mineralocorticoid activity of roughly equal strength, so it is also the replacement drug in adrenal insufficiency. Prednisolone is about four times as potent as a glucocorticoid and has an intermediate duration, which makes it suitable for alternate-day or single-morning dosing.",
       "refs": [
         "KDT8 ch20"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-steroids-gc-clinical",
+      "subtopic": "p3-steroids-gc-pharmacology",
       "tags": [
-        "mechanism"
-      ]
+        "classification"
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-011",
@@ -171,7 +112,8 @@
       "subtopic": "p3-steroids-gc-pharmacology",
       "tags": [
         "newer-drugs"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-012",
@@ -216,7 +158,184 @@
       "subtopic": "p3-steroids-gc-pharmacology",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-085",
+      "type": "shortnote",
+      "front": "Short note: Choosing a glucocorticoid by potency, duration and mineralocorticoid activity",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Pick the agent by the job: replacement, anti-inflammatory, or special site of action"
+          ]
+        },
+        {
+          "h": "Replacement",
+          "points": [
+            "Hydrocortisone: short acting, glucocorticoid and mineralocorticoid effects about equal, so it covers both needs"
+          ]
+        },
+        {
+          "h": "Chronic anti-inflammatory use",
+          "points": [
+            "Prednisolone: about four times as potent as hydrocortisone, intermediate duration, suits single-morning or alternate-day dosing",
+            "Alternate-day dosing limits HPA suppression"
+          ]
+        },
+        {
+          "h": "Special situations",
+          "points": [
+            "Dexamethasone or betamethasone: long acting, little salt retention, preferred in cerebral oedema and antenatal lung maturation",
+            "Fludrocortisone or DOCA: mineralocorticoid effect only"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch20"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-pharmacology",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-steroids-005",
+      "type": "basic",
+      "front": "What is fludrocortisone used for?",
+      "back": "It is an orally active, potent mineralocorticoid with some glucocorticoid action. Uses: replacement in Addison's disease when sodium is still being lost, salt-wasting congenital adrenal hyperplasia, and idiopathic postural hypotension.",
+      "refs": [
+        "KDT8 ch20"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-006",
+      "type": "basic",
+      "front": "What is the first-line emergency treatment for acute adrenal insufficiency?",
+      "back": "Hydrocortisone 100 mg IV as a bolus, then given by continuous infusion (KDT: about 100 mg every 8 hours; GG14: 50 to 100 mg every 8 hours). IV isotonic saline with glucose is given, with the volume guided by central venous pressure because these patients handle a water load poorly; a short vasopressor infusion may be needed. Dexamethasone is an alternative (KDT gives 8 to 16 mg IV; GG14 suggests 4 mg when the diagnosis is not yet confirmed, because it does not interfere with the cortisol assay). The precipitating cause (infection, trauma, haemorrhage) must be treated.",
+      "refs": [
+        "KDT8 ch20",
+        "GG14 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-021",
+      "type": "cloze",
+      "front": "Complete the list of adverse effects of prolonged glucocorticoid use.",
+      "text": "Glucocorticoids cause {{hyperglycaemia}}, {{osteoporosis of the vertebrae}}, {{avascular necrosis of the femoral head}}, {{posterior subcapsular cataract}} and {{delayed wound healing}}.",
+      "refs": [
+        "KDT8 ch20"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-022",
+      "type": "cloze",
+      "front": "Complete the list of relative contraindications to systemic corticosteroids.",
+      "text": "Relative contraindications include {{peptic ulcer}}, {{diabetes mellitus}}, {{hypertension}}, {{viral and fungal infections}}, {{osteoporosis}}, {{herpes simplex keratitis}}, {{psychosis}}, {{epilepsy}}, {{heart failure}} and {{renal failure}}.",
+      "refs": [
+        "KDT8 ch20"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-007",
+      "type": "basic",
+      "front": "Why are dexamethasone or betamethasone preferred over prednisolone in cerebral oedema?",
+      "back": "They have little sodium-retaining activity, so they do not worsen fluid retention when brain swelling must be controlled. Corticosteroids are also useful in oedema from tumours and in tubercular meningitis.",
+      "refs": [
+        "KDT8 ch20"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-008",
+      "type": "basic",
+      "front": "What antenatal steroid regimen is used when preterm delivery is expected, and why?",
+      "back": "Betamethasone 12 mg IM, two doses 18 to 24 hours apart (KDT: betamethasone or dexamethasone 12 mg IM, two doses 24 hours apart), when delivery is expected before 34 weeks. Glucocorticoids speed fetal lung maturation and surfactant production, so respiratory distress syndrome and neonatal death fall. These two steroids are chosen because they cross the placenta well (less maternal protein binding and placental metabolism than cortisol).",
+      "refs": [
+        "KDT8 ch20",
+        "Katzung16 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-009",
+      "type": "basic",
+      "front": "What is the current role of corticosteroids in septic shock?",
+      "back": "High-dose corticosteroid therapy for septic shock has been abandoned because it worsens outcome. Low-dose hydrocortisone (100 mg every 8 hours as an IV infusion for 5 to 7 days) is used in patients with relative adrenal insufficiency who respond poorly to fluids and vasopressors. GG14 describes this state as critical illness-related cortisol insufficiency, treated with hydrocortisone 50 to 100 mg every 6 hours or a 10 mg/hour infusion.",
+      "refs": [
+        "KDT8 ch20",
+        "GG14 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-010",
+      "type": "basic",
+      "front": "How does metyrapone work, and how is it used diagnostically?",
+      "back": "Metyrapone blocks 11-beta-hydroxylase in the adrenal cortex, so cortisol synthesis falls. Pituitary ACTH output rises, and 11-deoxycortisol accumulates and is excreted in urine. The response is used to test whether the pituitary can mount an ACTH response. Related enzyme inhibitors such as ketoconazole are also tried in Cushing's disease when surgery is not an option.",
+      "refs": [
+        "KDT8 ch20"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-013",
@@ -260,7 +379,8 @@
       "subtopic": "p3-steroids-gc-clinical",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-014",
@@ -304,7 +424,8 @@
       "subtopic": "p3-steroids-gc-clinical",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-015",
@@ -343,7 +464,8 @@
       "subtopic": "p3-steroids-gc-clinical",
       "tags": [
         "contraindications"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-016",
@@ -383,7 +505,42 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-077",
+      "type": "shortnote",
+      "front": "Short note: Topical corticosteroids",
+      "sections": [
+        {
+          "h": "Use",
+          "points": [
+            "Systemic and topical corticosteroids have one of the widest ranges of medicinal use, for anti-inflammatory and immunosuppressive action"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p329"
+      ],
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        }
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-017",
@@ -448,7 +605,8 @@
       "subtopic": "p3-steroids-gc-clinical",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-steroids-018",
@@ -503,72 +661,15 @@
       "refs": [
         "KDT8 ch20"
       ],
-      "pyq": [],
+      "pyq": [
+        { "university": "RGUHS", "year": 2019, "marks": 10 }
+      ],
       "status": "draft",
       "subtopic": "p3-steroids-gc-clinical",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-steroids-019",
-      "type": "cloze",
-      "front": "Classify the systemic glucocorticoids by biological duration.",
-      "text": "Short-acting: {{hydrocortisone}}. Intermediate-acting: {{prednisolone}}, {{methylprednisolone}}, {{triamcinolone}} and {{deflazacort}}. Long-acting: {{dexamethasone}} and {{betamethasone}}.",
-      "refs": [
-        "KDT8 ch20"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-gc-pharmacology",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-steroids-020",
-      "type": "cloze",
-      "front": "Classify the mineralocorticoids.",
-      "text": "{{Fludrocortisone}} is orally active and has some glucocorticoid action; {{DOCA}} is an almost pure mineralocorticoid given parenterally or sublingually; {{aldosterone}} is the most potent natural one but is not used clinically because of poor oral bioavailability.",
-      "refs": [
-        "KDT8 ch20"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-gc-pharmacology",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-steroids-021",
-      "type": "cloze",
-      "front": "Complete the list of adverse effects of prolonged glucocorticoid use.",
-      "text": "Glucocorticoids cause {{hyperglycaemia}}, {{osteoporosis of the vertebrae}}, {{avascular necrosis of the femoral head}}, {{posterior subcapsular cataract}} and {{delayed wound healing}}.",
-      "refs": [
-        "KDT8 ch20"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-gc-clinical",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-steroids-022",
-      "type": "cloze",
-      "front": "Complete the list of relative contraindications to systemic corticosteroids.",
-      "text": "Relative contraindications include {{peptic ulcer}}, {{diabetes mellitus}}, {{hypertension}}, {{viral and fungal infections}}, {{osteoporosis}}, {{herpes simplex keratitis}}, {{psychosis}}, {{epilepsy}}, {{heart failure}} and {{renal failure}}.",
-      "refs": [
-        "KDT8 ch20"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-gc-clinical",
-      "tags": [
-        "contraindications"
-      ]
+      "level": 3
     },
     {
       "id": "p3-steroids-023",
@@ -583,7 +684,8 @@
       "subtopic": "p3-steroids-androgens",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-steroids-024",
@@ -598,54 +700,8 @@
       "subtopic": "p3-steroids-androgens",
       "tags": [
         "pk"
-      ]
-    },
-    {
-      "id": "p3-steroids-025",
-      "type": "basic",
-      "front": "Which androgens cause cholestatic jaundice, and why are injectable esters preferred?",
-      "back": "The 17-alkyl derivatives such as methyltestosterone, fluoxymesterone, oxymetholone and stanozolol cause dose-related cholestatic jaundice, which reverses when the drug is stopped. Parenteral testosterone esters do not cause this, so they are preferred for long-term replacement.",
-      "refs": [
-        "KDT8 ch21"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-androgens",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-steroids-026",
-      "type": "basic",
-      "front": "How does cyproterone acetate reduce androgen action, and what is it used for?",
-      "back": "It is a weak androgen receptor blocker related to progesterone. Its progestational action suppresses LH, which lowers testosterone and adds to the direct antiandrogen effect. Uses include precocious puberty, inappropriate sexual behaviour in men, and acne or hirsutism in women, given with an estrogen. Hepatotoxicity limits its use.",
-      "refs": [
-        "KDT8 ch21"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-androgens",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-steroids-027",
-      "type": "basic",
-      "front": "Why is flutamide given together with a GnRH agonist in metastatic prostate cancer?",
-      "back": "Flutamide is a nonsteroidal androgen receptor blocker, but blocking feedback raises LH and testosterone, which partly offsets it, so monotherapy is poor. It is therefore used with a GnRH agonist or after orchidectomy (combined androgen blockade). KDT advises starting it about 3 days before the agonist to block the initial testosterone flare. Its main toxicity is hepatic; gynaecomastia and breast tenderness are common, while libido and potency are largely preserved. Bicalutamide is now preferred: once daily and less hepatotoxic.",
-      "refs": [
-        "KDT8 ch21"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-androgens",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
+      "level": 1
     },
     {
       "id": "p3-steroids-028",
@@ -661,7 +717,97 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-032",
+      "type": "cloze",
+      "front": "Complete the note on anabolic steroids.",
+      "text": "Anabolic steroids include {{nandrolone}}, {{oxymetholone}}, {{stanozolol}} and {{methandienone}}. Their anabolic selectivity is only modest, and the 17-alkyl ones, such as oxymetholone and stanozolol, can cause {{cholestatic jaundice}} and adverse lipid changes.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-steroids-androgens",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-034",
+      "type": "cloze",
+      "front": "Classify the antiandrogens and related agents.",
+      "text": "{{Cyproterone acetate}} is a progesterone-related steroid antagonist; {{flutamide}} and {{bicalutamide}} are nonsteroidal androgen receptor blockers; {{finasteride}} inhibits 5-alpha reductase type 2; {{GnRH agonists}} suppress gonadal androgen output.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-androgens",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-025",
+      "type": "basic",
+      "front": "Which androgens cause cholestatic jaundice, and why are injectable esters preferred?",
+      "back": "The 17-alkyl derivatives such as methyltestosterone, fluoxymesterone, oxymetholone and stanozolol cause dose-related cholestatic jaundice, which reverses when the drug is stopped. Parenteral testosterone esters do not cause this, so they are preferred for long-term replacement.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-androgens",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-026",
+      "type": "basic",
+      "front": "How does cyproterone acetate reduce androgen action, and what is it used for?",
+      "back": "It is a weak androgen receptor blocker related to progesterone. Its progestational action suppresses LH, which lowers testosterone and adds to the direct antiandrogen effect. Uses include precocious puberty, inappropriate sexual behaviour in men, and acne or hirsutism in women, given with an estrogen. Hepatotoxicity limits its use.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-androgens",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-027",
+      "type": "basic",
+      "front": "Why is flutamide given together with a GnRH agonist in metastatic prostate cancer?",
+      "back": "Flutamide is a nonsteroidal androgen receptor blocker, but blocking feedback raises LH and testosterone, which partly offsets it, so monotherapy is poor. It is therefore used with a GnRH agonist or after orchidectomy (combined androgen blockade). KDT advises starting it about 3 days before the agonist to block the initial testosterone flare. Its main toxicity is hepatic; gynaecomastia and breast tenderness are common, while libido and potency are largely preserved. Bicalutamide is now preferred: once daily and less hepatotoxic.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-androgens",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-029",
@@ -709,7 +855,210 @@
       "tags": [
         "adr",
         "contraindications"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-078",
+      "type": "shortnote",
+      "front": "Short note: Anabolic steroids",
+      "subtopic": "p3-steroids-androgens",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "sections": [
+        {
+          "h": "Anabolic action",
+          "points": [
+            "Build muscle and bone: nitrogen, minerals and water are retained",
+            "The muscle-building effect of exogenous androgens is more marked in women and children than in adult men"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Nandrolone, oxymetholone and stanozolol: higher anabolic and lower androgenic activity"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Replacement in hypogonadism",
+            "AIDS-related muscle wasting: testosterone improves weakness"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Dose-dependent cholestatic jaundice with 17-alkyl compounds such as oxymetholone and stanozolol",
+            "Parenteral testosterone esters do not cause it"
+          ]
+        }
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch21",
+        "KDT8 PDF p336",
+        "KDT8 PDF p337-338"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-081",
+      "type": "shortnote",
+      "front": "Short note: testosterone preparations and routes",
+      "sections": [
+        {
+          "h": "Natural androgen",
+          "points": [
+            "Testes make 5-12 mg testosterone a day; part becomes the more active DHT",
+            "About 98% of circulating testosterone is bound to SHBG and albumin"
+          ]
+        },
+        {
+          "h": "Injectable esters",
+          "points": [
+            "Propionate 25-50 mg i.m. daily to twice weekly (short acting)",
+            "Enanthate and decanoate: long acting depots; decanoate 100 mg given every 3-4 weeks"
+          ]
+        },
+        {
+          "h": "Oral and topical",
+          "points": [
+            "Undecanoate capsule 40 mg, absorbed via lymphatics, bypassing the liver",
+            "Dihydrotestosterone gel 25 mg/g once daily on non-scrotal skin"
+          ]
+        }
+      ],
+      "subtopic": "p3-steroids-androgens",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-072",
+      "type": "basic",
+      "subtopic": "p3-steroids-androgens",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "front": "Which newer drugs block androgen action in advanced prostate cancer, and how?",
+      "back": "GnRH antagonists (degarelix by injection; relugolix orally) cut LH, FSH and testosterone quickly without the initial testosterone surge seen with GnRH agonists. Abiraterone acetate inhibits CYP17A1, blocking the synthesis of androgen precursors, and is given with prednisone. Enzalutamide, apalutamide and darolutamide are second-generation nonsteroidal androgen receptor antagonists; enzalutamide binds the receptor 5 to 8 times more tightly than older antiandrogens, and the bound receptor interacts poorly with coactivators and androgen response elements on DNA. These are used with androgen deprivation in metastatic and castration-resistant prostate cancer.",
+      "refs": [
+        "GG14 ch73",
+        "GG14 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p3-steroids-033",
+      "type": "cloze",
+      "front": "Complete the note on PDE-5 inhibitors.",
+      "text": "The PDE-5 inhibitors used for erectile dysfunction are {{sildenafil}}, {{tadalafil}} and {{vardenafil}}. Of these, {{tadalafil}} has the longest action (half-life about 18 hours), so nitrates are contraindicated for up to {{3 days}} after it, and {{vardenafil}} can prolong the QT interval.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-ed",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-082",
+      "type": "basic",
+      "front": "What is the physiological mediator of penile erection, and how does it act?",
+      "back": "Nitric oxide released from nonadrenergic noncholinergic nerves and endothelium raises cGMP in cavernosal smooth muscle, which relaxes it and lets blood fill the sinusoids. Acetylcholine and prostaglandins help. PDE-5 destroys cGMP, which is why blocking it improves erection. This is the base for understanding every ED drug.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-ed",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-083",
+      "type": "basic",
+      "front": "Name the PDE-5 inhibitors used in erectile dysfunction and state when they work.",
+      "back": "Sildenafil, tadalafil and vardenafil are first-line drugs. They only enhance the response to sexual stimulation and do nothing without it, because they amplify the nitric oxide signal rather than start it.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-ed",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-084",
+      "type": "basic",
+      "front": "Why must nitrates never be combined with sildenafil?",
+      "back": "Both raise cGMP in vascular smooth muscle, so the combination can cause a precipitous fall in blood pressure and myocardial infarction. A gap of 24 hours is needed after sildenafil, and up to 3 days after tadalafil.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-ed",
+      "tags": [
+        "interactions"
+      ],
+      "level": 1
     },
     {
       "id": "p3-steroids-030",
@@ -757,7 +1106,26 @@
       "tags": [
         "adr",
         "interactions"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-070",
+      "type": "basic",
+      "subtopic": "p3-steroids-ed",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "front": "How does tadalafil differ from sildenafil?",
+      "back": "Tadalafil is more potent and longer acting: half-life about 18 hours and duration 24 to 36 hours, with peak levels at 30 to 120 minutes, so onset may be slower. Because of its long action, nitrates are contraindicated for up to 3 days after it (GG14: more than 24 hours, especially with tadalafil). It has lower PDE-6 affinity, so visual disturbance is less frequent, but it can cause back pain. Dose: 10 mg at least 30 minutes before intercourse (maximum 20 mg). It is also approved for pulmonary arterial hypertension.",
+      "refs": [
+        "KDT8 ch21",
+        "GG14 ch31"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-steroids-031",
@@ -817,60 +1185,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-032",
-      "type": "cloze",
-      "front": "Complete the note on anabolic steroids.",
-      "text": "Anabolic steroids include {{nandrolone}}, {{oxymetholone}}, {{stanozolol}} and {{methandienone}}. Their anabolic selectivity is only modest, and the 17-alkyl ones, such as oxymetholone and stanozolol, can cause {{cholestatic jaundice}} and adverse lipid changes.",
-      "refs": [
-        "KDT8 ch21"
       ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-steroids-androgens",
-      "tags": [
-        "classification",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-steroids-033",
-      "type": "cloze",
-      "front": "Complete the note on PDE-5 inhibitors.",
-      "text": "The PDE-5 inhibitors used for erectile dysfunction are {{sildenafil}}, {{tadalafil}} and {{vardenafil}}. Of these, {{tadalafil}} has the longest action (half-life about 18 hours), so nitrates are contraindicated for up to {{3 days}} after it, and {{vardenafil}} can prolong the QT interval.",
-      "refs": [
-        "KDT8 ch21"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-ed",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-steroids-034",
-      "type": "cloze",
-      "front": "Classify the antiandrogens and related agents.",
-      "text": "{{Cyproterone acetate}} is a progesterone-related steroid antagonist; {{flutamide}} and {{bicalutamide}} are nonsteroidal androgen receptor blockers; {{finasteride}} inhibits 5-alpha reductase type 2; {{GnRH agonists}} suppress gonadal androgen output.",
-      "refs": [
-        "KDT8 ch21"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-androgens",
-      "tags": [
-        "classification"
-      ]
+      "level": 3
     },
     {
       "id": "p3-steroids-035",
@@ -885,22 +1201,8 @@
       "subtopic": "p3-steroids-estrogen-progestin",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-steroids-036",
-      "type": "basic",
-      "front": "Why is ethinylestradiol used by mouth when natural estradiol is not?",
-      "back": "Natural estrogens are inactivated by rapid first-pass metabolism in the liver, so oral estradiol is weak and short acting. Ethinylestradiol is metabolised slowly, so it is orally active and more potent, which is why it is used in oral contraceptives and oral hormone therapy.",
-      "refs": [
-        "KDT8 ch22"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-estrogen-progestin",
-      "tags": [
-        "pk"
-      ]
+      "level": 1
     },
     {
       "id": "p3-steroids-037",
@@ -916,7 +1218,40 @@
       "tags": [
         "dosing",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-052",
+      "type": "cloze",
+      "front": "Classify the progestins.",
+      "text": "Progesterone derivatives: {{medroxyprogesterone acetate}}, {{megestrol acetate}}, {{dydrogesterone}} and {{hydroxyprogesterone caproate}}; newer: {{nomegestrol acetate}}. 19-nortestosterone derivatives, estranes: {{norethindrone (norethisterone)}}, {{lynestrenol}} and {{allylestrenol}}. Gonanes: {{levonorgestrel}}, {{desogestrel}}, {{norgestimate}} and {{gestodene}}.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-estrogen-progestin",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-036",
+      "type": "basic",
+      "front": "Why is ethinylestradiol used by mouth when natural estradiol is not?",
+      "back": "Natural estrogens are inactivated by rapid first-pass metabolism in the liver, so oral estradiol is weak and short acting. Ethinylestradiol is metabolised slowly, so it is orally active and more potent, which is why it is used in oral contraceptives and oral hormone therapy.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-estrogen-progestin",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-038",
@@ -932,146 +1267,8 @@
       "tags": [
         "adr",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-steroids-039",
-      "type": "basic",
-      "front": "How does clomiphene induce ovulation, and what are its main adverse effects?",
-      "back": "It blocks estrogen negative feedback on the pituitary, so more LH and FSH is released with each pulse; the ovaries enlarge and ovulate if they can respond. Course: 50 mg daily for 5 days from cycle day 5, monthly; if no conception after 1 to 2 cycles the dose may be doubled, and no more than 6 cycles are tried. Adverse effects: polycystic ovaries, multiple pregnancy, hot flushes, gastric upset and vertigo. GG14: letrozole gives a higher pregnancy and live-birth rate than clomiphene in PCOS; KDT notes India banned letrozole for ovulation induction in 2011.",
-      "refs": [
-        "KDT8 ch22",
-        "GG14 ch48"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-040",
-      "type": "basic",
-      "front": "Why is tamoxifen called a SERM, and where does it act as an agonist?",
-      "back": "It is an estrogen antagonist in breast tissue and blood vessels, but a partial agonist in uterus, bone, liver and pituitary. Its antiestrogenic action inhibits breast cancer cells and causes hot flushes; its agonist action stimulates the endometrium (hyperplasia, carcinoma risk), improves bone density, lowers LDL and raises the risk of deep vein thrombosis 2 to 3 fold.",
-      "refs": [
-        "KDT8 ch22"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-steroids-041",
-      "type": "basic",
-      "front": "What is the tissue profile of raloxifene, and what is it used for?",
-      "back": "It is an estrogen agonist in bone and lipid metabolism, but an antagonist in breast and endometrium. It prevents postmenopausal bone loss and vertebral fracture and reduces the risk of ER-positive breast cancer. It does not relieve hot flushes, and it raises the risk of venous thrombosis.",
-      "refs": [
-        "KDT8 ch22"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "newer-drugs",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-042",
-      "type": "basic",
-      "front": "Why are aromatase inhibitors not used in premenopausal women with functioning ovaries?",
-      "back": "They block estrogen synthesis from androgens, but functioning ovaries keep making estrogen, so the block is incomplete. They are used in premenopausal women only after ovarian removal or with GnRH suppression. In postmenopausal women, extraglandular aromatisation is the main estrogen source, so they nearly abolish estrogen.",
-      "refs": [
-        "KDT8 ch22"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-steroids-043",
-      "type": "basic",
-      "front": "What is the textbook mifepristone and misoprostol regimen for medical termination of early pregnancy?",
-      "back": "Mifepristone 600 mg as a single oral dose, followed 48 hours later by misoprostol 400 microgram orally, up to 7 weeks (49 days from the last menstrual period). This gives over 90 percent complete abortion; mifepristone alone gives 60 to 85 percent. Indian kits give mifepristone as three 200 mg tablets on day 1 and misoprostol as two 200 microgram tablets on day 3. Problems: prolonged bleeding and failed abortion; also cramps, nausea and loose stools.",
-      "refs": [
-        "KDT8 ch22",
-        "GG14 ch48",
-        "Katzung16 ch40"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "dosing",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-044",
-      "type": "basic",
-      "front": "What is the dose and time window for ulipristal as emergency contraception?",
-      "back": "Ulipristal 30 mg as a single oral dose, taken within 120 hours of unprotected intercourse. It is as effective as levonorgestrel when taken within 72 hours and more effective than levonorgestrel from 72 to 120 hours. It is a selective progesterone receptor modulator.",
-      "refs": [
-        "KDT8 ch22"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-contraception",
-      "tags": [
-        "dosing",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p3-steroids-045",
-      "type": "basic",
-      "front": "What is the mechanism of danazol?",
-      "back": "Danazol is an orally active ethisterone derivative with weak androgenic, anabolic, progestational and glucocorticoid activity. Its main action is suppression of the mid-cycle gonadotropin surge, so ovarian or testicular function falls; it also directly inhibits steroidogenic enzymes (not aromatase). As a 17-alkylated steroid it raises C1 esterase inhibitor levels, so it prevents hereditary angioedema attacks. Other uses: endometriosis (now second line because of androgenic and hepatic adverse effects), menorrhagia and fibrocystic breast disease.",
-      "refs": [
-        "KDT8 ch22"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-046",
-      "type": "basic",
-      "front": "Why are desogestrel and gestodene preferred in some combined pills?",
-      "back": "They are potent gonane progestins with strong antiovulatory action and little or no androgenic activity. Because they are potent, the ethinylestradiol dose in the pill can be reduced. Because they are weakly androgenic, they do not oppose estrogen's favourable effect on the lipid profile, so they are preferred in women with hyperandrogenism. Desogestrel and norgestimate are prodrugs.",
-      "refs": [
-        "KDT8 ch22"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-contraception",
-      "tags": [
-        "classification"
-      ]
+      "level": 2
     },
     {
       "id": "p3-steroids-047",
@@ -1119,162 +1316,69 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-steroids-048",
+      "id": "p3-steroids-080",
       "type": "shortnote",
-      "front": "Short note: Adverse effects and contraindications of combined oral contraceptive pills",
+      "front": "Short note: estrogen preparations and doses by route",
       "sections": [
         {
-          "h": "Minor effects",
+          "h": "Oral",
           "points": [
-            "Nausea, headache, breast discomfort, spotting, mostly in the first cycles",
-            "Chloasma, acne or weight gain with older androgenic progestins"
+            "Conjugated estrogens 0.625-1.25 mg/day; lower doses (0.3-0.45 mg/day) also raise bone density",
+            "Ethinylestradiol 0.02-0.2 mg/day for menopausal syndrome; mestranol 0.1-0.2 mg/day, converted to ethinylestradiol",
+            "Estriol succinate: 4-8 mg/day initially, then 1-2 mg/day"
           ]
         },
         {
-          "h": "Serious effects",
+          "h": "Parenteral",
           "points": [
-            "Venous thromboembolism and arterial events, greater with age, smoking and older high-dose pills",
-            "Blood pressure rise, usually reversing after stopping"
+            "Estradiol esters i.m.: 2.5-10 mg (benzoate, cypionate, enanthate, valerate)"
           ]
         },
         {
-          "h": "Absolute contraindications",
+          "h": "Local and transdermal",
           "points": [
-            "Thrombosis or stroke, coronary disease, moderate to severe hypertension",
-            "Liver disease, genital or breast cancer, porphyria",
-            "Major surgery: stop 4 weeks before"
+            "Vaginal: estriol cream 1 mg/g, 1-3 times daily; dienestrol 0.01% cream",
+            "Transdermal estradiol 0.025, 0.05 or 0.1 mg per 24 h; cyclic use with progestin for the last 10-12 days"
           ]
         },
         {
-          "h": "Relative contraindications",
+          "h": "Safety point",
           "points": [
-            "Diabetes, obesity, smoking, age over 35, migraine, mild hypertension, gallbladder disease"
+            "WHI trial in younger women: 24% more CAD, 40% more stroke and doubled venous thromboembolism with combined HRT"
           ]
         }
+      ],
+      "subtopic": "p3-steroids-estrogen-progestin",
+      "tags": [
+        "dosing",
+        "uses"
       ],
       "refs": [
         "KDT8 ch22"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-contraception",
-      "tags": [
-        "adr",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p3-steroids-049",
-      "type": "shortnote",
-      "front": "Short note: Tamoxifen versus aromatase inhibitors in breast cancer",
-      "sections": [
-        {
-          "h": "Tamoxifen",
-          "points": [
-            "SERM; antagonist in breast, so usable in premenopausal women",
-            "Risks: endometrial hyperplasia and cancer, venous thromboembolism"
-          ]
-        },
-        {
-          "h": "Aromatase inhibitors",
-          "points": [
-            "Letrozole and anastrozole (reversible, nonsteroidal); exemestane (irreversible, steroidal)",
-            "Only in postmenopausal women, or with ovarian suppression",
-            "Better in adjuvant and advanced disease; bone loss and arthralgia"
-          ]
-        },
-        {
-          "h": "Sequencing",
-          "points": [
-            "Postmenopausal: tamoxifen is generally replaced by an AI after about 2 years; tamoxifen up to 10 years, or an AI for 5 to 10 years after 5 years of tamoxifen, improves outcomes",
-            "Premenopausal: tamoxifen; in high-risk disease exemestane plus ovarian suppression did better than tamoxifen plus ovarian suppression (SOFT/TEXT trials)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch22",
-        "GG14 ch73"
-      ],
       "pyq": [
         {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
           "university": "KNRUHS",
-          "year": 2025,
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2006,
           "marks": 10
         }
       ],
       "status": "draft",
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-steroids-050",
-      "type": "essay",
-      "front": "Essay: Oral contraceptive pills: types, mechanism, safety and counselling",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Reversible suppression of fertility, most widely used method",
-            "Fertility returns within 1 to 2 months of stopping"
-          ]
-        },
-        {
-          "h": "Types",
-          "points": [
-            "Combined monophasic 21 + 7 pills; phasic pills",
-            "Progestin-only minipill taken daily without a break",
-            "Emergency pills, injectables, implants, transdermal patch"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Main action is suppression of the mid-cycle LH and FSH surge, so no follicle ruptures",
-            "Thick cervical mucus and an unfavourable endometrium for implantation"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Early nausea, spotting and breast discomfort",
-            "Venous thrombosis and arterial events, mainly with estrogen; smoking and age over 35 add risk",
-            "Breakthrough bleeding, chloasma, mood change"
-          ]
-        },
-        {
-          "h": "Contraindications and interactions",
-          "points": [
-            "Absolute: thrombosis, liver disease, genital or breast cancer, impending major surgery",
-            "Enzyme inducers such as rifampicin, phenytoin and carbamazepine reduce efficacy",
-            "Use a 50 microgram estrogen pill or another method of contraception"
-          ]
-        },
-        {
-          "h": "Counselling",
-          "points": [
-            "One missed pill: take two the next day; if more than 2 are missed, stop the course, use another method and restart with the next cycle",
-            "Pregnancy must be excluded if periods stop",
-            "Stop at once for symptoms of thrombosis or severe headache"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch22"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-contraception",
-      "tags": [
-        "mechanism",
-        "adr",
-        "interactions"
-      ]
+      "level": 2
     },
     {
       "id": "p3-steroids-051",
@@ -1350,22 +1454,52 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-steroids-052",
-      "type": "cloze",
-      "front": "Classify the progestins.",
-      "text": "Progesterone derivatives: {{medroxyprogesterone acetate}}, {{megestrol acetate}}, {{dydrogesterone}} and {{hydroxyprogesterone caproate}}; newer: {{nomegestrol acetate}}. 19-nortestosterone derivatives, estranes: {{norethindrone (norethisterone)}}, {{lynestrenol}} and {{allylestrenol}}. Gonanes: {{levonorgestrel}}, {{desogestrel}}, {{norgestimate}} and {{gestodene}}.",
+      "id": "p3-steroids-040",
+      "type": "basic",
+      "front": "Why is tamoxifen called a SERM, and where does it act as an agonist?",
+      "back": "It is an estrogen antagonist in breast tissue and blood vessels, but a partial agonist in uterus, bone, liver and pituitary. Its antiestrogenic action inhibits breast cancer cells and causes hot flushes; its agonist action stimulates the endometrium (hyperplasia, carcinoma risk), improves bone density, lowers LDL and raises the risk of deep vein thrombosis 2 to 3 fold.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-045",
+      "type": "basic",
+      "front": "What is the mechanism of danazol?",
+      "back": "Danazol is an orally active ethisterone derivative with weak androgenic, anabolic, progestational and glucocorticoid activity. Its main action is suppression of the mid-cycle gonadotropin surge, so ovarian or testicular function falls; it also directly inhibits steroidogenic enzymes (not aromatase). As a 17-alkylated steroid it raises C1 esterase inhibitor levels, so it prevents hereditary angioedema attacks. Other uses: endometriosis (now second line because of androgenic and hepatic adverse effects), menorrhagia and fibrocystic breast disease.",
       "refs": [
         "KDT8 ch22"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-steroids-estrogen-progestin",
+      "subtopic": "p3-steroids-modulators",
       "tags": [
-        "classification"
-      ]
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p3-steroids-053",
@@ -1416,7 +1550,8 @@
       "subtopic": "p3-steroids-modulators",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-steroids-054",
@@ -1431,7 +1566,329 @@
       "subtopic": "p3-steroids-modulators",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-039",
+      "type": "basic",
+      "front": "How does clomiphene induce ovulation, and what are its main adverse effects?",
+      "back": "It blocks estrogen negative feedback on the pituitary, so more LH and FSH is released with each pulse; the ovaries enlarge and ovulate if they can respond. Course: 50 mg daily for 5 days from cycle day 5, monthly; if no conception after 1 to 2 cycles the dose may be doubled, and no more than 6 cycles are tried. Adverse effects: polycystic ovaries, multiple pregnancy, hot flushes, gastric upset and vertigo. GG14: letrozole gives a higher pregnancy and live-birth rate than clomiphene in PCOS; KDT notes India banned letrozole for ovulation induction in 2011.",
+      "refs": [
+        "KDT8 ch22",
+        "GG14 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-041",
+      "type": "basic",
+      "front": "What is the tissue profile of raloxifene, and what is it used for?",
+      "back": "It is an estrogen agonist in bone and lipid metabolism, but an antagonist in breast and endometrium. It prevents postmenopausal bone loss and vertebral fracture and reduces the risk of ER-positive breast cancer. It does not relieve hot flushes, and it raises the risk of venous thrombosis.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "newer-drugs",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-042",
+      "type": "basic",
+      "front": "Why are aromatase inhibitors not used in premenopausal women with functioning ovaries?",
+      "back": "They block estrogen synthesis from androgens, but functioning ovaries keep making estrogen, so the block is incomplete. They are used in premenopausal women only after ovarian removal or with GnRH suppression. In postmenopausal women, extraglandular aromatisation is the main estrogen source, so they nearly abolish estrogen.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-043",
+      "type": "basic",
+      "front": "What is the textbook mifepristone and misoprostol regimen for medical termination of early pregnancy?",
+      "back": "Mifepristone 600 mg as a single oral dose, followed 48 hours later by misoprostol 400 microgram orally, up to 7 weeks (49 days from the last menstrual period). This gives over 90 percent complete abortion; mifepristone alone gives 60 to 85 percent. Indian kits give mifepristone as three 200 mg tablets on day 1 and misoprostol as two 200 microgram tablets on day 3. Problems: prolonged bleeding and failed abortion; also cramps, nausea and loose stools.",
+      "refs": [
+        "KDT8 ch22",
+        "GG14 ch48",
+        "Katzung16 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-071",
+      "type": "shortnote",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "front": "Short note: Mifepristone",
+      "sections": [
+        {
+          "h": "Nature and mechanism",
+          "points": [
+            "19-norsteroid; competitive antagonist with weak partial agonism at progesterone receptors A and B, so called a progesterone receptor modulator",
+            "Also has antiglucocorticoid and antiandrogenic activity"
+          ]
+        },
+        {
+          "h": "Effects",
+          "points": [
+            "Follicular phase: blunts the mid-cycle gonadotropin surge and delays ovulation",
+            "Luteal phase or early pregnancy: blocks progesterone support, so the decidua breaks down, hCG falls, the cervix softens and prostaglandin release rises"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Termination of pregnancy up to 7 weeks: 600 mg, then misoprostol 400 microgram 48 hours later",
+            "Cervical ripening before surgical abortion or induction; induction in intrauterine fetal death",
+            "Emergency contraception",
+            "Cushing syndrome when the tumour cannot be removed"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics and adverse effects",
+          "points": [
+            "Oral bioavailability about 25%; metabolised by CYP3A4; half-life 20 to 36 hours",
+            "Prolonged bleeding, failed abortion, cramps, nausea, loose stools",
+            "Avoid in women on long-term glucocorticoids"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch22",
+        "GG14 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-073",
+      "type": "shortnote",
+      "front": "Short note: Aromatase inhibitors",
+      "sections": [
+        {
+          "h": "Examples",
+          "points": [
+            "Letrozole and other aromatase inhibitors (AIs)"
+          ]
+        },
+        {
+          "h": "Role",
+          "points": [
+            "Established hormonal therapy alongside tamoxifen (a SERM)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p351"
+      ],
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-074",
+      "type": "shortnote",
+      "front": "Short note: Antiandrogens",
+      "sections": [
+        {
+          "h": "Examples",
+          "points": [
+            "Flutamide and bicalutamide (androgen antagonists)"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Prostate carcinoma: combined with GnRH analogue to prevent the initial flare-up of the tumour caused by increased gonadotropin secretion"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p279"
+      ],
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-079",
+      "type": "shortnote",
+      "front": "Short note: clomiphene and ovulation induction",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Nonsteroidal SERM used to induce ovulation",
+            "Well absorbed orally, deposited in fat, plasma half-life about 6 days"
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "50 mg once daily for 5 days, starting from cycle day 5",
+            "If no conception in 1-2 months, the daily dose may be doubled for 2-3 cycles"
+          ]
+        },
+        {
+          "h": "Adjuncts and male use",
+          "points": [
+            "Menotropins or hCG added on the last 2 days of the course improves success",
+            "Male infertility: 25 mg daily for 24 days a month, with 6 days rest, for up to 6 months"
+          ]
+        }
+      ],
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-049",
+      "type": "shortnote",
+      "front": "Short note: Tamoxifen versus aromatase inhibitors in breast cancer",
+      "sections": [
+        {
+          "h": "Tamoxifen",
+          "points": [
+            "SERM; antagonist in breast, so usable in premenopausal women",
+            "Risks: endometrial hyperplasia and cancer, venous thromboembolism"
+          ]
+        },
+        {
+          "h": "Aromatase inhibitors",
+          "points": [
+            "Letrozole and anastrozole (reversible, nonsteroidal); exemestane (irreversible, steroidal)",
+            "Only in postmenopausal women, or with ovarian suppression",
+            "Better in adjuvant and advanced disease; bone loss and arthralgia"
+          ]
+        },
+        {
+          "h": "Sequencing",
+          "points": [
+            "Postmenopausal: tamoxifen is generally replaced by an AI after about 2 years; tamoxifen up to 10 years, or an AI for 5 to 10 years after 5 years of tamoxifen, improves outcomes",
+            "Premenopausal: tamoxifen; in high-risk disease exemestane plus ovarian suppression did better than tamoxifen plus ovarian suppression (SOFT/TEXT trials)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch22",
+        "GG14 ch73"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-steroids-044",
+      "type": "basic",
+      "front": "What is the dose and time window for ulipristal as emergency contraception?",
+      "back": "Ulipristal 30 mg as a single oral dose, taken within 120 hours of unprotected intercourse. It is as effective as levonorgestrel when taken within 72 hours and more effective than levonorgestrel from 72 to 120 hours. It is a selective progesterone receptor modulator.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "dosing",
+        "newer-drugs"
+      ],
+      "level": 1
     },
     {
       "id": "p3-steroids-055",
@@ -1446,7 +1903,8 @@
       "subtopic": "p3-steroids-contraception",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-steroids-056",
@@ -1462,7 +1920,190 @@
       "tags": [
         "dosing",
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-046",
+      "type": "basic",
+      "front": "Why are desogestrel and gestodene preferred in some combined pills?",
+      "back": "They are potent gonane progestins with strong antiovulatory action and little or no androgenic activity. Because they are potent, the ethinylestradiol dose in the pill can be reduced. Because they are weakly androgenic, they do not oppose estrogen's favourable effect on the lipid profile, so they are preferred in women with hyperandrogenism. Desogestrel and norgestimate are prodrugs.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-048",
+      "type": "shortnote",
+      "front": "Short note: Adverse effects and contraindications of combined oral contraceptive pills",
+      "sections": [
+        {
+          "h": "Minor effects",
+          "points": [
+            "Nausea, headache, breast discomfort, spotting, mostly in the first cycles",
+            "Chloasma, acne or weight gain with older androgenic progestins"
+          ]
+        },
+        {
+          "h": "Serious effects",
+          "points": [
+            "Venous thromboembolism and arterial events, greater with age, smoking and older high-dose pills",
+            "Blood pressure rise, usually reversing after stopping"
+          ]
+        },
+        {
+          "h": "Absolute contraindications",
+          "points": [
+            "Thrombosis or stroke, coronary disease, moderate to severe hypertension",
+            "Liver disease, genital or breast cancer, porphyria",
+            "Major surgery: stop 4 weeks before"
+          ]
+        },
+        {
+          "h": "Relative contraindications",
+          "points": [
+            "Diabetes, obesity, smoking, age over 35, migraine, mild hypertension, gallbladder disease"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-075",
+      "type": "shortnote",
+      "front": "Short note: Combined oral contraceptive pill - contraindications",
+      "sections": [
+        {
+          "h": "Absolute contraindications",
+          "points": [
+            "Thromboembolic disease, coronary and cerebrovascular disease (and other vascular conditions as listed in KDT8)"
+          ]
+        },
+        {
+          "h": "Other effect",
+          "points": [
+            "Estrogens raise biliary cholesterol excretion, so gallstones are slightly more frequent with OCs or long-term use"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p365"
+      ],
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "contraindications"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-050",
+      "type": "essay",
+      "front": "Essay: Oral contraceptive pills: types, mechanism, safety and counselling",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Reversible suppression of fertility, most widely used method",
+            "Fertility returns within 1 to 2 months of stopping"
+          ]
+        },
+        {
+          "h": "Types",
+          "points": [
+            "Combined monophasic 21 + 7 pills; phasic pills",
+            "Progestin-only minipill taken daily without a break",
+            "Emergency pills, injectables, implants, transdermal patch"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Main action is suppression of the mid-cycle LH and FSH surge, so no follicle ruptures",
+            "Thick cervical mucus and an unfavourable endometrium for implantation"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Early nausea, spotting and breast discomfort",
+            "Venous thrombosis and arterial events, mainly with estrogen; smoking and age over 35 add risk",
+            "Breakthrough bleeding, chloasma, mood change"
+          ]
+        },
+        {
+          "h": "Contraindications and interactions",
+          "points": [
+            "Absolute: thrombosis, liver disease, genital or breast cancer, impending major surgery",
+            "Enzyme inducers such as rifampicin, phenytoin and carbamazepine reduce efficacy",
+            "Use a 50 microgram estrogen pill or another method of contraception"
+          ]
+        },
+        {
+          "h": "Counselling",
+          "points": [
+            "One missed pill: take two the next day; if more than 2 are missed, stop the course, use another method and restart with the next cycle",
+            "Pregnancy must be excluded if periods stop",
+            "Stop at once for symptoms of thrombosis or severe headache"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "mechanism",
+        "adr",
+        "interactions"
+      ],
+      "level": 3
     },
     {
       "id": "p3-steroids-057",
@@ -1477,7 +2118,8 @@
       "subtopic": "p3-steroids-uterine",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-steroids-058",
@@ -1492,37 +2134,8 @@
       "subtopic": "p3-steroids-uterine",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-steroids-059",
-      "type": "basic",
-      "front": "Which conditions must be checked before starting an oxytocin infusion for induction of labour?",
-      "back": "Correct presentation, mature fetal lungs, no cephalopelvic disproportion, no placenta praevia, no fetal distress, and no previous uterine scar. The infusion is started slowly and titrated to the response, with contractions monitored closely, and it is stopped once contractions are strong enough.",
-      "refs": [
-        "KDT8 ch23"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-uterine",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-steroids-060",
-      "type": "basic",
-      "front": "What serious adverse effect of oxytocin is linked to its antidiuretic action?",
-      "back": "Water intoxication, which can be fatal. It occurs when large doses are given with intravenous fluids, especially in toxaemia of pregnancy and renal insufficiency. Over-strong uterine contractions from injudicious use can also cause uterine rupture and fetal asphyxia.",
-      "refs": [
-        "KDT8 ch23"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-uterine",
-      "tags": [
-        "adr"
-      ]
+      "level": 1
     },
     {
       "id": "p3-steroids-061",
@@ -1539,22 +2152,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
-    },
-    {
-      "id": "p3-steroids-062",
-      "type": "basic",
-      "front": "In which conditions should ergometrine be avoided?",
-      "back": "Hypertension, toxaemia, vascular or cardiovascular disease, sepsis (risk of gangrene), liver or kidney disease, and in pregnancy before the third stage of labour. In hypertensive women, oxytocin is the preferred uterotonic.",
-      "refs": [
-        "KDT8 ch23"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-uterine",
-      "tags": [
-        "contraindications"
-      ]
+      "level": 1
     },
     {
       "id": "p3-steroids-063",
@@ -1569,7 +2168,106 @@
       "subtopic": "p3-steroids-uterine",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-067",
+      "type": "cloze",
+      "front": "Complete the note on ergot alkaloids in obstetrics.",
+      "text": "Ergometrine and methylergometrine raise the force, rate and duration of uterine contraction, and high doses can cause {{contracture}}. Ergometrine given for many days after delivery can reduce milk through {{dopaminergic inhibition of prolactin release}}.",
+      "refs": [
+        "KDT8 ch23"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-068",
+      "type": "cloze",
+      "front": "Complete the note on oxytocin pharmacokinetics.",
+      "text": "Oxytocin is inactive by mouth and is given IM or IV. It is broken down by {{oxytocinase}} from the placenta, with a plasma half-life of about {{6 to 12 minutes}}. {{Carbetocin}} is a long-acting analogue used to prevent uterine atony after caesarean section.",
+      "refs": [
+        "KDT8 ch23"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-069",
+      "type": "cloze",
+      "front": "Classify the tocolytic drugs.",
+      "text": "Beta-2 agonists: {{ritodrine}}, {{salbutamol}}, {{terbutaline}}. Calcium channel blocker: {{nifedipine}}. Oxytocin receptor antagonist: {{atosiban}}. {{Magnesium sulfate}} also relaxes the uterus but is no longer recommended for this purpose. COX inhibitors such as {{indomethacin}} are used off-label (GG14), while KDT lists them among unreliable uterine depressants.",
+      "refs": [
+        "KDT8 ch23",
+        "GG14 ch48"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-steroids-059",
+      "type": "basic",
+      "front": "Which conditions must be checked before starting an oxytocin infusion for induction of labour?",
+      "back": "Correct presentation, mature fetal lungs, no cephalopelvic disproportion, no placenta praevia, no fetal distress, and no previous uterine scar. The infusion is started slowly and titrated to the response, with contractions monitored closely, and it is stopped once contractions are strong enough.",
+      "refs": [
+        "KDT8 ch23"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-060",
+      "type": "basic",
+      "front": "What serious adverse effect of oxytocin is linked to its antidiuretic action?",
+      "back": "Water intoxication, which can be fatal. It occurs when large doses are given with intravenous fluids, especially in toxaemia of pregnancy and renal insufficiency. Over-strong uterine contractions from injudicious use can also cause uterine rupture and fetal asphyxia.",
+      "refs": [
+        "KDT8 ch23"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-062",
+      "type": "basic",
+      "front": "In which conditions should ergometrine be avoided?",
+      "back": "Hypertension, toxaemia, vascular or cardiovascular disease, sepsis (risk of gangrene), liver or kidney disease, and in pregnancy before the third stage of labour. In hypertensive women, oxytocin is the preferred uterotonic.",
+      "refs": [
+        "KDT8 ch23"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-064",
@@ -1625,7 +2323,8 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-065",
@@ -1672,7 +2371,48 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-076",
+      "type": "shortnote",
+      "front": "Short note: Tocolytic agents (beta-2 stimulants)",
+      "sections": [
+        {
+          "h": "Examples",
+          "points": [
+            "Salbutamol, terbutaline, salmeterol, formoterol, ritodrine"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Selective beta-2 stimulation: bronchodilatation, vasodilatation and uterine relaxation, without significant cardiac stimulation"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p165"
+      ],
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        }
+      ],
+      "level": 2
     },
     {
       "id": "p3-steroids-066",
@@ -1733,112 +2473,444 @@
       "tags": [
         "uses",
         "dosing"
-      ]
-    },
-    {
-      "id": "p3-steroids-067",
-      "type": "cloze",
-      "front": "Complete the note on ergot alkaloids in obstetrics.",
-      "text": "Ergometrine and methylergometrine raise the force, rate and duration of uterine contraction, and high doses can cause {{contracture}}. Ergometrine given for many days after delivery can reduce milk through {{dopaminergic inhibition of prolactin release}}.",
-      "refs": [
-        "KDT8 ch23"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-uterine",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
+      "level": 3
     },
     {
-      "id": "p3-steroids-068",
-      "type": "cloze",
-      "front": "Complete the note on oxytocin pharmacokinetics.",
-      "text": "Oxytocin is inactive by mouth and is given IM or IV. It is broken down by {{oxytocinase}} from the placenta, with a plasma half-life of about {{6 to 12 minutes}}. {{Carbetocin}} is a long-acting analogue used to prevent uterine atony after caesarean section.",
-      "refs": [
-        "KDT8 ch23"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-uterine",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p3-steroids-069",
-      "type": "cloze",
-      "front": "Classify the tocolytic drugs.",
-      "text": "Beta-2 agonists: {{ritodrine}}, {{salbutamol}}, {{terbutaline}}. Calcium channel blocker: {{nifedipine}}. Oxytocin receptor antagonist: {{atosiban}}. {{Magnesium sulfate}} also relaxes the uterus but is no longer recommended for this purpose. COX inhibitors such as {{indomethacin}} are used off-label (GG14), while KDT lists them among unreliable uterine depressants.",
-      "refs": [
-        "KDT8 ch23",
-        "GG14 ch48"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-steroids-uterine",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-steroids-070",
+      "id": "p3-steroids-086",
       "type": "basic",
-      "subtopic": "p3-steroids-ed",
-      "tags": [
-        "pk",
-        "interactions"
-      ],
-      "front": "How does tadalafil differ from sildenafil?",
-      "back": "Tadalafil is more potent and longer acting: half-life about 18 hours and duration 24 to 36 hours, with peak levels at 30 to 120 minutes, so onset may be slower. Because of its long action, nitrates are contraindicated for up to 3 days after it (GG14: more than 24 hours, especially with tadalafil). It has lower PDE-6 affinity, so visual disturbance is less frequent, but it can cause back pain. Dose: 10 mg at least 30 minutes before intercourse (maximum 20 mg). It is also approved for pulmonary arterial hypertension.",
+      "front": "How does dinoprostone (PGE2) help when the cervix is unfavourable at term?",
+      "back": "Low doses applied in the vagina or cervical canal soften the cervix and make it compliant (cervical priming) without affecting uterine motility. If needed, oxytocin can start labour about 12 hours later, so the chance of induction failure falls.",
       "refs": [
-        "KDT8 ch21",
-        "GG14 ch31"
+        "KDT8 ch13"
       ],
       "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-steroids-087",
+      "type": "basic",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "uses"
+      ],
+      "level": 1,
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "What is the classical bioassay tissue for oxytocin?",
+      "back": "Isolated non-pregnant rat uterus. Rats are primed with diethylstilboestrol first so the strip responds reliably to oxytocin.",
+      "refs": [
+        "Ghosh FEP p136",
+        "Medhi PMECP p172"
+      ],
       "status": "draft"
     },
     {
-      "id": "p3-steroids-071",
+      "id": "p3-steroids-088",
       "type": "shortnote",
-      "subtopic": "p3-steroids-modulators",
+      "subtopic": "p3-steroids-uterine",
       "tags": [
-        "mechanism",
-        "uses",
-        "adr"
+        "uses"
       ],
-      "front": "Short note: Mifepristone",
+      "level": 2,
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Detection and estimation of oxytocin",
       "sections": [
         {
-          "h": "Nature and mechanism",
+          "h": "Principle",
           "points": [
-            "19-norsteroid; competitive antagonist with weak partial agonism at progesterone receptors A and B, so called a progesterone receptor modulator",
-            "Also has antiglucocorticoid and antiandrogenic activity"
+            "Oxytocin contracts the isolated rat uterus",
+            "Unknown samples are estimated by comparing their contraction with a standard dose"
           ]
         },
         {
-          "h": "Effects",
+          "h": "Preparation",
           "points": [
-            "Follicular phase: blunts the mid-cycle gonadotropin surge and delays ovulation",
-            "Luteal phase or early pregnancy: blocks progesterone support, so the decidua breaks down, hCG falls, the cervix softens and prostaglandin release rises"
+            "Prime rats with diethylstilboestrol: about 36 to 48 h before (Ghosh) or stilboestrol 0.1 mg/kg i.m. 24 h before (Medhi)",
+            "Use de Jalon's solution, with a quarter of the calcium of Ringer-Locke",
+            "Keep the bath at 25 to 35 C and aerate with O2 plus 5% CO2 to damp spontaneous activity"
           ]
         },
         {
-          "h": "Uses",
+          "h": "Assay",
           "points": [
-            "Termination of pregnancy up to 7 weeks: 600 mg, then misoprostol 400 microgram 48 hours later",
-            "Cervical ripening before surgical abortion or induction; induction in intrauterine fetal death",
-            "Emergency contraception",
-            "Cushing syndrome when the tumour cannot be removed"
+            "Doses of about 0.1 to 3 milliunits/ml",
+            "Contact for 30 s, with about 5 min between doses"
           ]
         },
         {
-          "h": "Pharmacokinetics and adverse effects",
+          "h": "Specificity",
           "points": [
-            "Oral bioavailability about 25%; metabolised by CYP3A4; half-life 20 to 36 hours",
-            "Prolonged bleeding, failed abortion, cramps, nausea, loose stools",
-            "Avoid in women on long-term glucocorticoids"
+            "Other smooth-muscle polypeptides are told apart by their responses in different tissues",
+            "Histamine-like activity is blocked by mepyramine; 5-HT-like activity by methysergide"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP p136",
+        "Ghosh FEP p137",
+        "Medhi PMECP p172"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-089",
+      "type": "basic",
+      "subtopic": "p3-steroids-uterine",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Why is the oxytocin bioassay run in a low-calcium bath?",
+      "back": "Calcium increases spontaneous uterine activity and drug sensitivity, so a quarter of the Ringer-Locke calcium keeps the strip quiet and gives cleaner responses. Sensitivity to oxytocin falls slightly, but the gain in steadiness outweighs it.",
+      "refs": [
+        "Ghosh FEP p136"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-090",
+      "type": "basic",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 1,
+      "front": "Which eye conditions get topical steroids, and which need systemic therapy?",
+      "back": "Anterior-segment inflammation such as allergic conjunctivitis responds to eye drops or ointment. Posterior-segment disease (retinitis, optic neuritis, uveitis) needs systemic steroids, or a retrobulbar injection to limit systemic effects. Steroids are contraindicated in herpes simplex keratitis and in ocular injury.",
+      "refs": [
+        "KDT8 ch20"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-091",
+      "type": "shortnote",
+      "subtopic": "p3-steroids-gc-clinical",
+      "tags": [
+        "uses"
+      ],
+      "level": 2,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Non-endocrine uses of corticosteroids",
+      "sections": [
+        {
+          "h": "Respiratory",
+          "points": [
+            "Inhaled steroid first when a patient needs a beta-2 agonist almost daily",
+            "Systemic steroid only for status asthmaticus (IV), acute exacerbations (short high-dose oral course, then taper) or severe chronic asthma uncontrolled by inhalers"
+          ]
+        },
+        {
+          "h": "Skin and eye",
+          "points": [
+            "Systemic therapy for pemphigus vulgaris, exfoliative dermatitis and Stevens-Johnson syndrome",
+            "Posterior-segment eye disease needs systemic steroids"
+          ]
+        },
+        {
+          "h": "Bowel",
+          "points": [
+            "Ulcerative colitis, Crohn's disease and coeliac disease with exacerbation"
+          ]
+        },
+        {
+          "h": "Haematology and transplant",
+          "points": [
+            "Part of combined chemotherapy for acute lymphatic leukaemia, Hodgkin's and other lymphomas",
+            "High-dose steroids with other immunosuppressants to prevent graft rejection; low maintenance doses continued long term"
+          ]
+        },
+        {
+          "h": "Shock",
+          "points": [
+            "High-dose therapy for septic shock has been abandoned; low-dose hydrocortisone is used for relative adrenal insufficiency"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch20"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-092",
+      "type": "shortnote",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 2,
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Drospirenone",
+      "sections": [
+        {
+          "h": "What it is",
+          "points": [
+            "Progestin derived from spironolactone",
+            "Antimineralocorticoid and antiandrogenic activity"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Combined oral contraceptive: ethinylestradiol 30 µg with drospirenone 3 mg in a 28-tablet monophasic pack",
+            "Also combined with estradiol in a hormone replacement product"
+          ]
+        },
+        {
+          "h": "Points to remember",
+          "points": [
+            "Antiandrogenic and antimineralocorticoid action may give a cardiovascular advantage over older progestins",
+            "Newer progestins of this type are discussed as advances in the contraceptive field"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch48",
+        "GG12 ch40"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-093",
+      "type": "essay",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "mechanism",
+        "contraindications"
+      ],
+      "level": 3,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 20
+        }
+      ],
+      "front": "Essay: Neuroendocrine control of the menstrual cycle and the role of oral contraceptives",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Cycle run by hypothalamic GnRH pulses, pituitary FSH and LH, and ovarian estradiol and progesterone",
+            "Oral contraceptives suppress this axis so that no ovulation occurs"
+          ]
+        },
+        {
+          "h": "Hypothalamus and pituitary",
+          "points": [
+            "GnRH is released in pulses and stimulates both FSH and LH",
+            "Gonadal steroids feed back on pituitary and hypothalamus; the effect depends on concentration and timing"
+          ]
+        },
+        {
+          "h": "Ovarian phase",
+          "points": [
+            "Follicular phase: estradiol rises under FSH; a preovulatory LH surge triggers ovulation",
+            "Luteal phase: corpus luteum progesterone under LH; when support falls the endometrium is shed"
+          ]
+        },
+        {
+          "h": "Action of oral contraceptives",
+          "points": [
+            "Estrogen plus progestin blocks the mid-cycle LH surge, so ovulation does not occur",
+            "Potent progestins such as levonorgestrel have a low ovulation-inhibiting dose; the pill holds 2 to 3 times more",
+            "Thick cervical mucus hostile to sperm and an unsuitable endometrium add to the effect"
+          ]
+        },
+        {
+          "h": "Safety and counselling",
+          "points": [
+            "Absolute contraindications include thrombosis, stroke and coronary disease",
+            "Relative ones include diabetes, obesity, smoking, migraine and age over 35",
+            "Enzyme inducers such as rifampin reduce contraceptive effect; switch to a higher-estrogen pill or another method"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch17",
+        "KDT8 ch22",
+        "GG14 ch46"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-094",
+      "type": "basic",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "uses"
+      ],
+      "level": 1,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 20
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Which animals are used to screen antifertility agents?",
+      "back": "Rats most commonly; mice, rabbits and monkeys can also be used.",
+      "refs": [
+        "Ghosh FEP p150"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-095",
+      "type": "essay",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "uses"
+      ],
+      "level": 3,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 20
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Essay: Experimental and clinical evaluation of antifertility drugs",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Screening must show temporary and fully reversible sterility in animals",
+            "Rats are routine; mice, rabbits and monkeys can also be used"
+          ]
+        },
+        {
+          "h": "Female rat tests",
+          "points": [
+            "Ovulation inhibition: ovary weight falls after unilateral ovariectomy and ovarian histology shows changes",
+            "Antiestrogenic action: change in uterine weight",
+            "Progestational action: deciduoma formation in the uterus",
+            "Implantation or early foetal loss: count implants and resorptions"
+          ]
+        },
+        {
+          "h": "Male rat tests",
+          "points": [
+            "Cohabitation test: treated males mated with fertile females; check sperm in the vagina, pregnancy timing, pseudopregnancy and oestrous cycle",
+            "Test over about 12 weeks, because a rat's spermatogenesis takes about 9 weeks; examine epididymal sperm"
+          ]
+        },
+        {
+          "h": "Clinical evaluation",
+          "points": [
+            "After satisfactory animal data, an IND application starts human trials through Phase I to III, then an NDA",
+            "Failure rates are compared, e.g. about 98 to 99.9% effective for the combined pill versus 96 to 98% for the minipill"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP p150",
+        "Ghosh FEP p151",
+        "Medhi PMECP p22",
+        "Medhi PMECP p23",
+        "KDT8 ch22"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-096",
+      "type": "shortnote",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 2,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 20
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Newer progestins in hormonal contraception",
+      "sections": [
+        {
+          "h": "Desogestrel and gestodene",
+          "points": [
+            "Potent progestins with strong antiovulatory action and little androgenic activity",
+            "Suit women with hyperandrogenism; allow ethinylestradiol to fall to 20 µg"
+          ]
+        },
+        {
+          "h": "Drospirenone",
+          "points": [
+            "Spironolactone-derived; antimineralocorticoid and antiandrogenic"
+          ]
+        },
+        {
+          "h": "Extended-cycle pills",
+          "points": [
+            "Ethinylestradiol 20 µg with drospirenone 3 mg in 24 active tablets"
+          ]
+        },
+        {
+          "h": "Emergency contraception",
+          "points": [
+            "Ulipristal, a selective progesterone receptor modulator, 30 mg single dose up to 120 h"
           ]
         }
       ],
@@ -1846,150 +2918,275 @@
         "KDT8 ch22",
         "GG14 ch48"
       ],
-      "pyq": [],
       "status": "draft"
     },
     {
-      "id": "p3-steroids-072",
+      "id": "p3-steroids-097",
+      "type": "essay",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "newer-drugs",
+        "contraindications"
+      ],
+      "level": 3,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 20
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "Essay: Recent advances in hormonal contraceptives",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Aims: lower hormone dose, same efficacy, fewer metabolic effects",
+            "Methods now include pills, implants, injectables and emergency options"
+          ]
+        },
+        {
+          "h": "Newer progestins",
+          "points": [
+            "Desogestrel, gestodene and norgestimate: prodrugs or potent progestins with little androgen",
+            "Drospirenone: antimineralocorticoid and antiandrogenic action"
+          ]
+        },
+        {
+          "h": "Lower estrogen dose",
+          "points": [
+            "Ethinylestradiol 20 µg is possible when the progestin is strongly antiovulatory"
+          ]
+        },
+        {
+          "h": "Non-hormonal and long-acting",
+          "points": [
+            "Ormeloxifene, a nonsteroidal SERM, works via utero-embryonic asynchrony and failure of implantation",
+            "Levonorgestrel implants: six capsules of 36 mg each, active for up to 5 years",
+            "Levonorgestrel intrauterine system is approved for contraception"
+          ]
+        },
+        {
+          "h": "Emergency",
+          "points": [
+            "Progestin-only levonorgestrel 1.5 mg single dose beats the older Yuzpe regimen",
+            "Ulipristal 30 mg up to 120 h"
+          ]
+        },
+        {
+          "h": "Safety",
+          "points": [
+            "Estrogen-containing pills are unsuitable where estrogen is contraindicated; progestin-only methods are the alternative",
+            "Rifampin and other enzyme inducers reduce efficacy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch22",
+        "GG14 ch48"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-098",
       "type": "basic",
-      "subtopic": "p3-steroids-androgens",
+      "subtopic": "p3-steroids-contraception",
       "tags": [
         "newer-drugs",
         "mechanism"
       ],
-      "front": "Which newer drugs block androgen action in advanced prostate cancer, and how?",
-      "back": "GnRH antagonists (degarelix by injection; relugolix orally) cut LH, FSH and testosterone quickly without the initial testosterone surge seen with GnRH agonists. Abiraterone acetate inhibits CYP17A1, blocking the synthesis of androgen precursors, and is given with prednisone. Enzalutamide, apalutamide and darolutamide are second-generation nonsteroidal androgen receptor antagonists; enzalutamide binds the receptor 5 to 8 times more tightly than older antiandrogens, and the bound receptor interacts poorly with coactivators and androgen response elements on DNA. These are used with androgen deprivation in metastatic and castration-resistant prostate cancer.",
-      "refs": [
-        "GG14 ch73",
-        "GG14 ch50"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-steroids-073",
-      "type": "shortnote",
-      "front": "Short note: Aromatase inhibitors",
-      "sections": [
-        {
-          "h": "Examples",
-          "points": [
-            "Letrozole and other aromatase inhibitors (AIs)"
-          ]
-        },
-        {
-          "h": "Role",
-          "points": [
-            "Established hormonal therapy alongside tamoxifen (a SERM)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p351"
-      ],
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "status": "draft",
+      "level": 1,
       "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
         {
           "university": "RGUHS",
           "year": 2007,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-steroids-074",
-      "type": "shortnote",
-      "front": "Short note: Antiandrogens",
-      "sections": [
-        {
-          "h": "Examples",
-          "points": [
-            "Flutamide and bicalutamide (androgen antagonists)"
-          ]
-        },
-        {
-          "h": "Use",
-          "points": [
-            "Prostate carcinoma: combined with GnRH analogue to prevent the initial flare-up of the tumour caused by increased gonadotropin secretion"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p279"
-      ],
-      "subtopic": "p3-steroids-modulators",
-      "tags": [
-        "uses"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-steroids-075",
-      "type": "shortnote",
-      "front": "Short note: Combined oral contraceptive pill - contraindications",
-      "sections": [
-        {
-          "h": "Absolute contraindications",
-          "points": [
-            "Thromboembolic disease, coronary and cerebrovascular disease (and other vascular conditions as listed in KDT8)"
-          ]
-        },
-        {
-          "h": "Other effect",
-          "points": [
-            "Estrogens raise biliary cholesterol excretion, so gallstones are slightly more frequent with OCs or long-term use"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p365"
-      ],
-      "subtopic": "p3-steroids-contraception",
-      "tags": [
-        "contraindications"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2008,
           "marks": 20
         },
         {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "What is ormeloxifene (centchroman)?",
+      "back": "A nonsteroidal SERM developed in India as an oral contraceptive. It acts as an estrogen antagonist in uterus and breast, has little action on vaginal epithelium or cervical mucus, and blocks implantation. Its plasma half-life is about 1 week.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-099",
+      "type": "shortnote",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2,
+      "pyq": [
+        {
           "university": "RGUHS",
-          "year": 2024,
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Male contraception",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Suppress spermatogenesis; sperm take about 64 days to form, so onset and recovery are slow"
+          ]
+        },
+        {
+          "h": "Problems",
+          "points": [
+            "Gonadotropin suppression lowers testosterone, causing loss of libido and impotence",
+            "Estrogens and progestins feminise; men rarely accept regular medication"
+          ]
+        },
+        {
+          "h": "Hormonal approaches",
+          "points": [
+            "Testosterone combined with a progestin is not a reliable method",
+            "GnRH antagonist with testosterone gave reversible azoospermia in nonhuman primates"
+          ]
+        },
+        {
+          "h": "Gossypol",
+          "points": [
+            "Oral nonsteroidal cottonseed compound; reduces sperm motility and suppresses spermatogenesis",
+            "Fertility returns months after stopping, but about 10% stay oligozoospermic",
+            "Main toxicity is hypokalaemia; use has been dropped"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch22",
+        "GG12 ch40",
+        "Katzung16 ch40"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-100",
+      "type": "basic",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "adr"
+      ],
+      "level": 1,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "front": "What is the most important adverse effect of gossypol?",
+      "back": "Hypokalaemia from renal potassium loss, causing muscle weakness and occasionally paralysis. Oedema, diarrhoea, breathlessness and neuritis also occur.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-101",
+      "type": "shortnote",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "dosing",
+        "newer-drugs"
+      ],
+      "level": 2,
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Postcoital (emergency) contraception",
+      "sections": [
+        {
+          "h": "Indication",
+          "points": [
+            "Woman not on regular contraception who had unprotected intercourse"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Levonorgestrel 1.5 mg single dose, or 0.75 mg twice 12 h apart, as early as possible and within 72 h",
+            "Ulipristal 30 mg single dose within 120 h; as effective as levonorgestrel up to 72 h and better from 72 to 120 h",
+            "Mifepristone 600 mg within 72 h interferes with implantation"
+          ]
+        },
+        {
+          "h": "Yuzpe method",
+          "points": [
+            "Levonorgestrel 0.5 mg with ethinylestradiol 0.1 mg, twice 12 h apart within 72 h",
+            "Less effective and more nausea (20 to 50%) than the progestin-only regimen (about 6%)"
+          ]
+        },
+        {
+          "h": "Counselling",
+          "points": [
+            "Next period may be delayed or disrupted",
+            "Not a routine method"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-102",
+      "type": "basic",
+      "subtopic": "p3-steroids-contraception",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1,
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "front": "What is the Yuzpe method?",
+      "back": "Emergency contraception using levonorgestrel 0.5 mg with ethinylestradiol 0.1 mg, two doses 12 hours apart, within 72 hours. It is less effective and causes more nausea than the progestin-only levonorgestrel regimen.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-103",
+      "type": "basic",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
           "marks": 10
         },
         {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2019,
+          "university": "Q bank",
+          "year": 0,
           "marks": 10
         },
         {
@@ -1997,307 +3194,136 @@
           "year": 2025,
           "marks": 10
         }
-      ]
-    },
-    {
-      "id": "p3-steroids-076",
-      "type": "shortnote",
-      "front": "Short note: Tocolytic agents (beta-2 stimulants)",
-      "sections": [
-        {
-          "h": "Examples",
-          "points": [
-            "Salbutamol, terbutaline, salmeterol, formoterol, ritodrine"
-          ]
-        },
-        {
-          "h": "Action",
-          "points": [
-            "Selective beta-2 stimulation: bronchodilatation, vasodilatation and uterine relaxation, without significant cardiac stimulation"
-          ]
-        }
       ],
+      "front": "How do superactive GnRH agonists act, and what does continuous dosing do?",
+      "back": "They first trigger a brief rise in FSH and LH. After 1 to 2 weeks they desensitise and down-regulate pituitary GnRH receptors, so gonadotropins fall and gonadal steroids drop to castration levels.",
       "refs": [
-        "KDT8 PDF p165"
+        "KDT8 ch17"
       ],
-      "subtopic": "p3-steroids-uterine",
-      "tags": [
-        "uses"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2006,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 10
-        }
-      ]
+      "status": "draft"
     },
     {
-      "id": "p3-steroids-077",
-      "type": "shortnote",
-      "front": "Short note: Topical corticosteroids",
-      "sections": [
-        {
-          "h": "Use",
-          "points": [
-            "Systemic and topical corticosteroids have one of the widest ranges of medicinal use, for anti-inflammatory and immunosuppressive action"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p329"
-      ],
-      "subtopic": "p3-steroids-gc-clinical",
-      "tags": [
-        "uses"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-steroids-078",
-      "type": "shortnote",
-      "front": "Short note: Anabolic steroids",
-      "subtopic": "p3-steroids-androgens",
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "sections": [
-        {
-          "h": "Anabolic action",
-          "points": [
-            "Build muscle and bone: nitrogen, minerals and water are retained",
-            "The muscle-building effect of exogenous androgens is more marked in women and children than in adult men"
-          ]
-        },
-        {
-          "h": "Drugs",
-          "points": [
-            "Nandrolone, oxymetholone and stanozolol: higher anabolic and lower androgenic activity"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Replacement in hypogonadism",
-            "AIDS-related muscle wasting: testosterone improves weakness"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Dose-dependent cholestatic jaundice with 17-alkyl compounds such as oxymetholone and stanozolol",
-            "Parenteral testosterone esters do not cause it"
-          ]
-        }
-      ],
-      "status": "draft",
-      "refs": [
-        "KDT8 ch21",
-        "KDT8 PDF p336",
-        "KDT8 PDF p337-338"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2024,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-steroids-079",
-      "type": "shortnote",
-      "front": "Short note: clomiphene and ovulation induction",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Nonsteroidal SERM used to induce ovulation",
-            "Well absorbed orally, deposited in fat, plasma half-life about 6 days"
-          ]
-        },
-        {
-          "h": "Dosing",
-          "points": [
-            "50 mg once daily for 5 days, starting from cycle day 5",
-            "If no conception in 1-2 months, the daily dose may be doubled for 2-3 cycles"
-          ]
-        },
-        {
-          "h": "Adjuncts and male use",
-          "points": [
-            "Menotropins or hCG added on the last 2 days of the course improves success",
-            "Male infertility: 25 mg daily for 24 days a month, with 6 days rest, for up to 6 months"
-          ]
-        }
-      ],
+      "id": "p3-steroids-104",
+      "type": "cloze",
       "subtopic": "p3-steroids-modulators",
       "tags": [
-        "uses",
-        "dosing"
+        "classification"
       ],
-      "refs": [
-        "KDT8 ch22"
-      ],
+      "level": 1,
       "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
         {
           "university": "Q bank",
           "year": 0,
           "marks": 10
         },
         {
-          "university": "Q bank",
-          "year": 0,
-          "marks": 10
-        },
-        {
-          "university": "Q bank",
-          "year": 0,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p3-steroids-080",
-      "type": "shortnote",
-      "front": "Short note: estrogen preparations and doses by route",
-      "sections": [
-        {
-          "h": "Oral",
-          "points": [
-            "Conjugated estrogens 0.625-1.25 mg/day; lower doses (0.3-0.45 mg/day) also raise bone density",
-            "Ethinylestradiol 0.02-0.2 mg/day for menopausal syndrome; mestranol 0.1-0.2 mg/day, converted to ethinylestradiol",
-            "Estriol succinate: 4-8 mg/day initially, then 1-2 mg/day"
-          ]
-        },
-        {
-          "h": "Parenteral",
-          "points": [
-            "Estradiol esters i.m.: 2.5-10 mg (benzoate, cypionate, enanthate, valerate)"
-          ]
-        },
-        {
-          "h": "Local and transdermal",
-          "points": [
-            "Vaginal: estriol cream 1 mg/g, 1-3 times daily; dienestrol 0.01% cream",
-            "Transdermal estradiol 0.025, 0.05 or 0.1 mg per 24 h; cyclic use with progestin for the last 10-12 days"
-          ]
-        },
-        {
-          "h": "Safety point",
-          "points": [
-            "WHI trial in younger women: 24% more CAD, 40% more stroke and doubled venous thromboembolism with combined HRT"
-          ]
-        }
-      ],
-      "subtopic": "p3-steroids-estrogen-progestin",
-      "tags": [
-        "dosing",
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch22"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2006,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p3-steroids-081",
-      "type": "shortnote",
-      "front": "Short note: testosterone preparations and routes",
-      "sections": [
-        {
-          "h": "Natural androgen",
-          "points": [
-            "Testes make 5-12 mg testosterone a day; part becomes the more active DHT",
-            "About 98% of circulating testosterone is bound to SHBG and albumin"
-          ]
-        },
-        {
-          "h": "Injectable esters",
-          "points": [
-            "Propionate 25-50 mg i.m. daily to twice weekly (short acting)",
-            "Enanthate and decanoate: long acting depots; decanoate 100 mg given every 3-4 weeks"
-          ]
-        },
-        {
-          "h": "Oral and topical",
-          "points": [
-            "Undecanoate capsule 40 mg, absorbed via lymphatics, bypassing the liver",
-            "Dihydrotestosterone gel 25 mg/g once daily on non-scrotal skin"
-          ]
-        }
-      ],
-      "subtopic": "p3-steroids-androgens",
-      "tags": [
-        "pk",
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch21"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
+          "university": "UHSR",
           "year": 2025,
           "marks": 10
         }
+      ],
+      "front": "Classify the GnRH analogues",
+      "text": "Superactive agonists: {{goserelin}}, {{leuprolide}}, {{nafarelin}}, {{triptorelin}}. Antagonists: {{ganirelix}}, {{cetrorelix}}, {{degarelix}}, {{abarelix}}.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-105",
+      "type": "basic",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Why do GnRH antagonists avoid the initial flare seen with agonists?",
+      "back": "Antagonists block the GnRH receptor directly, so they inhibit FSH and LH secretion without a first stimulatory phase. Ganirelix and cetrorelix are short acting and block LH surges during controlled ovarian stimulation for IVF.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-steroids-106",
+      "type": "shortnote",
+      "subtopic": "p3-steroids-modulators",
+      "tags": [
+        "uses"
+      ],
+      "level": 2,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Clinical uses of GnRH agonists and antagonists",
+      "sections": [
+        {
+          "h": "Prostate cancer",
+          "points": [
+            "Depot agonist for androgen suppression; start with flutamide or bicalutamide to cover the initial flare"
+          ]
+        },
+        {
+          "h": "Gynaecology",
+          "points": [
+            "Endometriosis, uterine fibroids and polycystic ovary: pharmacological castration",
+            "Premenopausal breast cancer"
+          ]
+        },
+        {
+          "h": "Paediatric and assisted reproduction",
+          "points": [
+            "Precocious puberty with depot dosing",
+            "IVF: agonist or antagonist prevents premature LH surge during ovarian stimulation"
+          ]
+        },
+        {
+          "h": "Other",
+          "points": [
+            "Investigational contraceptive use in both sexes",
+            "Menopause-like effects: hot flushes, sweating, vaginal dryness, amenorrhoea"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch17",
+        "GG14 ch46"
       ],
       "status": "draft"
     }

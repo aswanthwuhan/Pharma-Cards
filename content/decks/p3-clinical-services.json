@@ -1,12 +1,12 @@
 {
   "topicId": "p3-clinical-services",
-  "source": "Sarkar p56-60, p71-80, p86-90, p506-510; Katzung16 ch51, ch66, appendix 2; GG14 ch9; Prep p71-75",
+  "source": "Sarkar p56-60, p71-80, p86-90, p506-510; Katzung16 ch51, ch66, appendix 2; GG14 ch9",
   "cards": [
     {
       "id": "p3-clinical-services-001",
       "type": "basic",
       "front": "What is the Drugs and Therapeutics Committee (DTC) of a hospital, and who is suited to convene it?",
-      "back": "A hospital committee (called the Pharmacy and Therapeutics Committee in US usage) that lays down policies and procedures for pharmacy services and medicine use, including the required content of chart orders. Under NABH and JCI medication-management standards, a clinical pharmacologist is expected to act as its convener. WHO lists setting up DTCs in districts and hospitals among its key interventions to promote rational use of medicines.",
+      "back": "A hospital committee (called the Pharmacy and Therapeutics Committee in US usage) that lays down policies and procedures for pharmacy services and medicine use, including the required content of chart orders. A clinical pharmacologist is expected to act as its convener.",
       "refs": [
         "Sarkar p506-510",
         "Sarkar p56-60",
@@ -17,7 +17,72 @@
       "subtopic": "p3-clinical-services-dtc-formulary",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-003",
+      "type": "basic",
+      "front": "How does a pharmacopoeia differ from a formulary? Give the Indian examples.",
+      "back": "A pharmacopoeia (e.g. Indian Pharmacopoeia, IP; also BP, USP) is an official code that sets standards for drug preparations: physical properties and tests for identity, purity and potency. It has legal standing. A formulary (e.g. National Formulary of India) is not a regulatory document; it gives information on available drugs and guides prescribers.",
+      "refs": [
+        "Satoskar Pharmacology PDF p52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-039",
+      "type": "basic",
+      "front": "Which criteria does the National Formulary of India 2011 use to include a drug?",
+      "back": "Drugs in the National List of Essential Medicines 2011; drugs used in National Health Programmes; drugs in the Indian Pharmacopoeia; drugs an expert panel recommends though not otherwise covered; any drug the Indian Pharmacopoeia Commission finds appropriate.",
+      "refs": [
+        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-040",
+      "type": "basic",
+      "front": "What must be weighed when choosing a medicine for a formulary from its therapeutic group?",
+      "back": "Benefit, risk and cost: efficacy for the indication, safety (fewest adverse effects), and cost judged over the whole treatment course, not only the unit price.",
+      "refs": [
+        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-041",
+      "type": "basic",
+      "front": "Is the National Formulary of India a regulatory document?",
+      "back": "No. It is a guidance document; physicians are expected to use professional judgement, and its drugs were chosen for rational and economic prescribing.",
+      "refs": [
+        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p3-clinical-services-002",
@@ -61,22 +126,8 @@
       "subtopic": "p3-clinical-services-dtc-formulary",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-003",
-      "type": "basic",
-      "front": "How does a pharmacopoeia differ from a formulary? Give the Indian examples.",
-      "back": "A pharmacopoeia (e.g. Indian Pharmacopoeia, IP; also BP, USP) is an official code that sets standards for drug preparations: physical properties and tests for identity, purity and potency. It has legal standing. A formulary (e.g. National Formulary of India) is not a regulatory document; it gives information on available drugs and guides prescribers.",
-      "refs": [
-        "Satoskar Pharmacology PDF p52"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-dtc-formulary",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-clinical-services-004",
@@ -92,13 +143,14 @@
       "subtopic": "p3-clinical-services-dtc-formulary",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-005",
       "type": "basic",
       "front": "Distinguish generic substitution from therapeutic substitution.",
-      "back": "Generic substitution: the pharmacist dispenses the cheapest generically equivalent product of the same drug, which many payers require unless the prescriber writes \"dispense as written\". Therapeutic substitution: dispensing a different drug of the same class (e.g. trichlormethiazide for hydrochlorothiazide); private pharmacists may not do this without the prescriber's permission, though managed-care organisations may follow other policies.",
+      "back": "Generic substitution: the pharmacist dispenses the cheapest generically equivalent product of the same drug, which many payers require unless the prescriber writes \"dispense as written\". Therapeutic substitution: dispensing a different drug of the same class; private pharmacists may not do this without the prescriber's permission, though managed-care organisations may follow other policies.",
       "refs": [
         "Katzung16 ch66"
       ],
@@ -107,7 +159,8 @@
       "subtopic": "p3-clinical-services-dtc-formulary",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-006",
@@ -122,7 +175,77 @@
       "subtopic": "p3-clinical-services-dtc-formulary",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-clinical-services-037",
+      "type": "basic",
+      "front": "How can a hospital use pharmacoeconomic analysis when it prepares its formulary?",
+      "back": "It can apply pharmacoeconomic methods (cost-minimisation, cost-effectiveness, cost-benefit and cost-utility) to compare treatments when preparing its formulary of essential medicines. The same analysis helps decide and fix the prices of old and new drugs and supports reimbursement.",
+      "refs": [
+        "Katzung16 appendix 2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-clinical-services-059",
+      "type": "essay",
+      "subtopic": "p3-clinical-services-dtc-formulary",
+      "level": 3,
+      "tags": [
+        "uses"
+      ],
+      "front": "Essay: Hospital formulary: how a DTC builds and uses it",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Role of the DTC",
+          "points": [
+            "Sets policy on medicine use and chart-order content; clinical pharmacologist as convener"
+          ]
+        },
+        {
+          "h": "Selection",
+          "points": [
+            "Weigh benefit, risk and whole-course cost within a therapeutic group",
+            "Pharmacoeconomic methods: cost-minimisation, cost-effectiveness, cost-benefit, cost-utility"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Restricted list in standard concentrations reduces errors",
+            "Generic versus therapeutic substitution rules",
+            "Safeguards: high-alert list, stop-order policy"
+          ]
+        },
+        {
+          "h": "Indian context",
+          "points": [
+            "National Formulary of India is guidance, not regulatory; Indian Pharmacopoeia sets standards"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p506-510",
+        "Katzung16 ch66",
+        "Katzung16 appendix 2",
+        "GG14 ch9"
+      ],
+      "status": "draft"
     },
     {
       "id": "p3-clinical-services-007",
@@ -137,7 +260,8 @@
       "subtopic": "p3-clinical-services-drug-info",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-clinical-services-008",
@@ -162,7 +286,8 @@
       "subtopic": "p3-clinical-services-drug-info",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-clinical-services-009",
@@ -177,7 +302,24 @@
       "subtopic": "p3-clinical-services-drug-info",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-013",
+      "type": "basic",
+      "front": "Where and when did drug information centres begin globally and in India?",
+      "back": "The first DIC opened in 1962 at the University of Kentucky Medical Centre. In India, the Karnataka State Pharmacy Council set up the first independent DIC in August 1997 (registered with IRDIS). WHO India, with the KSPC, then supported five more centres: Sirsa (Haryana), Raipur, Jaipur, Dibrugarh and Panaji.",
+      "refs": [
+        "Sarkar p76-80"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-drug-info",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p3-clinical-services-010",
@@ -216,7 +358,8 @@
       "subtopic": "p3-clinical-services-drug-info",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-011",
@@ -231,7 +374,8 @@
       "subtopic": "p3-clinical-services-drug-info",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-012",
@@ -246,22 +390,8 @@
       "subtopic": "p3-clinical-services-drug-info",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-013",
-      "type": "basic",
-      "front": "Where and when did drug information centres begin globally and in India?",
-      "back": "The first DIC opened in 1962 at the University of Kentucky Medical Centre. In India, the Karnataka State Pharmacy Council set up the first independent DIC in August 1997 (registered with IRDIS). WHO India, with the KSPC, then supported five more centres: Sirsa (Haryana), Raipur, Jaipur, Dibrugarh and Panaji.",
-      "refs": [
-        "Sarkar p76-80"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-drug-info",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-clinical-services-014",
@@ -319,7 +449,8 @@
       "subtopic": "p3-clinical-services-drug-info",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-clinical-services-015",
@@ -335,22 +466,8 @@
       "subtopic": "p3-clinical-services-med-errors",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-016",
-      "type": "basic",
-      "front": "How common are medication errors compared with adverse drug events, and what approach reduces them?",
-      "back": "They are estimated to be 50 to 100 times more common than adverse drug events. Reduction needs a system-based approach covering prescribing, transcribing, dispensing, administering and monitoring, with trained staff and mandatory, redundant checkpoints.",
-      "refs": [
-        "GG14 ch9"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-med-errors",
-      "tags": [
-        "adr"
-      ]
+      "level": 1
     },
     {
       "id": "p3-clinical-services-017",
@@ -392,7 +509,8 @@
       "tags": [
         "classification",
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-clinical-services-018",
@@ -407,7 +525,24 @@
       "subtopic": "p3-clinical-services-med-errors",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-016",
+      "type": "basic",
+      "front": "How common are medication errors compared with adverse drug events, and what approach reduces them?",
+      "back": "They are estimated to be 50 to 100 times more common than adverse drug events. Reduction needs a system-based approach covering prescribing, transcribing, dispensing, administering and monitoring, with trained staff and mandatory, redundant checkpoints.",
+      "refs": [
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-med-errors",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-019",
@@ -422,7 +557,8 @@
       "subtopic": "p3-clinical-services-med-errors",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-020",
@@ -470,7 +606,8 @@
       "subtopic": "p3-clinical-services-med-errors",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-021",
@@ -485,7 +622,8 @@
       "subtopic": "p3-clinical-services-med-errors",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-022",
@@ -547,7 +685,8 @@
       "subtopic": "p3-clinical-services-med-errors",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-023",
@@ -607,7 +746,8 @@
       "subtopic": "p3-clinical-services-med-errors",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-clinical-services-024",
@@ -629,7 +769,8 @@
       "tags": [
         "interactions",
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-clinical-services-025",
@@ -644,7 +785,40 @@
       "subtopic": "p3-clinical-services-polypharmacy",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-029",
+      "type": "basic",
+      "front": "Define deprescribing and list its steps.",
+      "back": "The systematic identification and withdrawal of drugs whose actual or potential harm outweighs benefit for that patient's goals, function, life expectancy, values and preferences. Steps: full medication reconciliation; estimate overall risk of drug harm; check each drug for eligibility to stop; prioritise; carry out the withdrawal plan and monitor for withdrawal effects. Tools include Medstopper and deprescribing.org guidelines.",
+      "refs": [
+        "Sarkar p71-75"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-055",
+      "type": "cloze",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "Complete: what counts as polypharmacy",
+      "text": "Polypharmacy is commonly taken as {{five}} or more medicines a day; it is {{appropriate}} when every drug serves an agreed goal, and a {{prescribing cascade}} arises when an ADR is mistaken for a new illness and treated with another drug.",
+      "refs": [
+        "Sarkar p71-75"
+      ],
+      "status": "draft",
+      "pyq": []
     },
     {
       "id": "p3-clinical-services-026",
@@ -659,7 +833,8 @@
       "subtopic": "p3-clinical-services-polypharmacy",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-027",
@@ -674,7 +849,8 @@
       "subtopic": "p3-clinical-services-polypharmacy",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-028",
@@ -691,22 +867,61 @@
       "subtopic": "p3-clinical-services-polypharmacy",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-clinical-services-029",
-      "type": "basic",
-      "front": "Define deprescribing and list its steps.",
-      "back": "The systematic identification and withdrawal of drugs whose actual or potential harm outweighs benefit for that patient's goals, function, life expectancy, values and preferences. Steps: full medication reconciliation; estimate overall risk of drug harm; check each drug for eligibility to stop; prioritise; carry out the withdrawal plan and monitor for withdrawal effects. Tools include Medstopper and deprescribing.org guidelines.",
+      "id": "p3-clinical-services-056",
+      "type": "essay",
+      "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 3,
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "front": "Essay: Polypharmacy in the elderly: causes, detection and management",
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Five or more medicines a day; appropriate versus inappropriate"
+          ]
+        },
+        {
+          "h": "Causes",
+          "points": [
+            "Multiple diseases and prescribers",
+            "Prescribing cascade",
+            "Transitions of care",
+            "Self-medication with OTC products"
+          ]
+        },
+        {
+          "h": "Detection",
+          "points": [
+            "Beers, STOPP/START, Medication Appropriateness Index, anticholinergic burden scales"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Medication reconciliation at each transition",
+            "SAIL and TIDE techniques",
+            "Deprescribing steps: reconcile, estimate harm, check eligibility, prioritise, withdraw and monitor"
+          ]
+        }
+      ],
       "refs": [
         "Sarkar p71-75"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-polypharmacy",
-      "tags": [
-        "adr"
-      ]
+      "status": "draft"
     },
     {
       "id": "p3-clinical-services-030",
@@ -721,7 +936,40 @@
       "subtopic": "p3-clinical-services-stewardship",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-032",
+      "type": "basic",
+      "front": "What is the pharmacologist's role in antibiotic policy?",
+      "back": "The pharmacologist is a core member in formulating national drug policy and the hospital antibiotic policy; in hospitals the clinical pharmacologist drafts the antibiotic policy together with the clinical microbiologist and the head of critical care medicine.",
+      "refs": [
+        "Sarkar p506-510"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-stewardship",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-057",
+      "type": "basic",
+      "subtopic": "p3-clinical-services-stewardship",
+      "level": 1,
+      "tags": [
+        "uses"
+      ],
+      "front": "What is an antibiotic \"time out\" and why is it done at 48 hours?",
+      "back": "A planned reassessment of the need for and choice of an antibiotic about 48 hours after it was started. By then culture and clinical data are clearer, so therapy can be narrowed, switched to oral, or stopped, which limits toxicity and resistance.",
+      "refs": [
+        "Katzung16 appendix 2"
+      ],
+      "status": "draft",
+      "pyq": []
     },
     {
       "id": "p3-clinical-services-031",
@@ -769,22 +1017,87 @@
       "subtopic": "p3-clinical-services-stewardship",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-clinical-services-032",
+      "id": "p3-clinical-services-038",
       "type": "basic",
-      "front": "What is the pharmacologist's role in antibiotic policy?",
-      "back": "The pharmacologist is a core member in formulating national drug policy and the hospital antibiotic policy; in hospitals the clinical pharmacologist drafts the antibiotic policy together with the clinical microbiologist and the head of critical care medicine.",
+      "front": "On what does the empirical antibiotic choice for adult hospital-acquired infection depend, according to Katzung?",
+      "back": "The local antibiogram and the severity of illness.",
       "refs": [
-        "Sarkar p506-510"
+        "Katzung16 ch51"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p3-clinical-services-stewardship",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-clinical-services-058",
+      "type": "essay",
+      "subtopic": "p3-clinical-services-stewardship",
+      "level": 3,
+      "tags": [
+        "uses"
+      ],
+      "front": "Essay: Hospital antibiotic stewardship and policy",
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Definition and goals",
+          "points": [
+            "Ongoing effort to optimise antimicrobial use in inpatients",
+            "Cure with less toxicity and resistance; right drug, dose, duration, route; de-escalation; lower cost"
+          ]
+        },
+        {
+          "h": "Team",
+          "points": [
+            "ID physician, clinical microbiologist, ID pharmacist, infection control, hospital epidemiologist, IT specialist"
+          ]
+        },
+        {
+          "h": "Interventions",
+          "points": [
+            "Antibiotic time out at 48 hours",
+            "Pharmacy: dose optimisation, IV-to-oral, renal/hepatic adjustment, avoid interactions",
+            "Infection-specific: confirm diagnosis, culture-guided therapy, avoid broad spectrum, optimise duration"
+          ]
+        },
+        {
+          "h": "Antibiotic policy",
+          "points": [
+            "Drafted by clinical pharmacologist with microbiologist and critical-care head",
+            "Empirical choice follows local antibiogram and severity"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 appendix 2",
+        "Sarkar p506-510",
+        "Katzung16 ch51"
+      ],
+      "status": "draft"
     },
     {
       "id": "p3-clinical-services-033",
@@ -800,7 +1113,8 @@
       "subtopic": "p3-clinical-services-audit-counselling",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-clinical-services-034",
@@ -810,12 +1124,51 @@
       "refs": [
         "Katzung16 ch66"
       ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-046",
+      "type": "basic",
+      "front": "Which four WHO core prescribing indicators does a prescription audit measure?",
+      "back": "Average number of drugs per encounter; percentage of drugs prescribed by generic name; percentage of encounters with antibiotic or injection use; percentage of drugs from the essential medicines list.",
+      "refs": [
+        "WEB EuropePMC Rational Prescribing Under Pressure: A World Health Organization Indicator and National Medical Commission Compliance Audit With Shift-Based Analysis of Emergency Prescriptions at a Tertiary Care Hospital in North India Cureus 2026 https://europepmc.org/article/PMC/PMC13312064"
+      ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p3-clinical-services-audit-counselling",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-clinical-services-053",
+      "type": "basic",
+      "front": "What is the audit cycle, and why must it be closed?",
+      "back": "Set a standard, measure current prescribing against it, give feedback and make changes, then re-audit. The cycle is closed only when re-audit shows whether practice actually improved; an audit without feedback and re-audit changes nothing.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p3-clinical-services-035",
@@ -850,292 +1203,19 @@
       "refs": [
         "Katzung16 ch66"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-audit-counselling",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-036",
-      "type": "essay",
-      "front": "Essay: Clinical pharmacology services in a tertiary-care hospital",
-      "sections": [
+      "pyq": [
         {
-          "h": "Background",
-          "points": [
-            "Clinical pharmacologist required under NABH/JCI medication-management standards"
-          ]
-        },
-        {
-          "h": "Committee work",
-          "points": [
-            "Convener of DTC; hospital formulary; medication policies"
-          ]
-        },
-        {
-          "h": "Information and safety",
-          "points": [
-            "Drug information centre",
-            "Pharmacovigilance",
-            "Medication error detection and mitigation",
-            "Medication reconciliation and deprescribing"
-          ]
-        },
-        {
-          "h": "Rational use",
-          "points": [
-            "Prescription audit and feedback",
-            "Antibiotic policy and stewardship",
-            "Drug utilisation studies, quality indicators"
-          ]
-        },
-        {
-          "h": "Patient-facing",
-          "points": [
-            "Drug counselling and adherence support"
-          ]
-        },
-        {
-          "h": "Education and research",
-          "points": [
-            "Teaching rational use; clinical trials, TDM"
-          ]
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
         }
       ],
-      "refs": [
-        "Sarkar p506-510",
-        "Sarkar p76-80",
-        "Sarkar p86-90",
-        "Sarkar p71-75",
-        "Katzung16 appendix 2",
-        "Katzung16 ch66"
-      ],
-      "pyq": [],
       "status": "draft",
       "subtopic": "p3-clinical-services-audit-counselling",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-037",
-      "type": "basic",
-      "front": "How can a hospital use pharmacoeconomic analysis when it prepares its formulary?",
-      "back": "It can apply pharmacoeconomic methods (cost-minimisation, cost-effectiveness, cost-benefit and cost-utility) to compare treatments when preparing its formulary of essential medicines. The same analysis helps decide and fix the prices of old and new drugs and supports reimbursement.",
-      "refs": [
-        "Katzung16 appendix 2"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-dtc-formulary",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-038",
-      "type": "basic",
-      "front": "On what does the empirical antibiotic choice for adult hospital-acquired infection depend, according to Katzung?",
-      "back": "The local antibiogram and the severity of illness. Katzung's empirical regimen adds vancomycin or linezolid for MRSA only when MRSA is a concern.",
-      "refs": [
-        "Katzung16 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-stewardship",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-039",
-      "type": "basic",
-      "front": "Which criteria does the National Formulary of India 2011 use to include a drug?",
-      "back": "Drugs in the National List of Essential Medicines 2011; drugs used in National Health Programmes; drugs in the Indian Pharmacopoeia; drugs an expert panel recommends though not otherwise covered; any drug the Indian Pharmacopoeia Commission finds appropriate.",
-      "refs": [
-        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-dtc-formulary",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-040",
-      "type": "basic",
-      "front": "What must be weighed when choosing a medicine for a formulary from its therapeutic group?",
-      "back": "Benefit, risk and cost: efficacy for the indication, safety (fewest adverse effects), and cost judged over the whole treatment course, not only the unit price.",
-      "refs": [
-        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-dtc-formulary",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-041",
-      "type": "basic",
-      "front": "Is the National Formulary of India a regulatory document?",
-      "back": "No. It is a guidance document; physicians are expected to use professional judgement, and its drugs were chosen for rational and economic prescribing.",
-      "refs": [
-        "WEB NHSRC National Formulary of India (NFI) 2011 https://qps.nhsrcindia.org/sites/default/files/2022-01/National%20Formulary%20of%20India%20(NFI),%202011.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-dtc-formulary",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-042",
-      "type": "basic",
-      "front": "Name the ACLS drugs on the crash-cart checklist in the IPSIS emergency protocols review.",
-      "back": "Epinephrine 1:10,000 IV, amiodarone (or lidocaine), atropine, dextrose 50% (D50) and epinephrine 1:1000 IM.",
-      "refs": [
-        "WEB EuropePMC International Pain and Spine Intervention Society Emergency Protocols: Advance Preparation for Emergencies Interv Pain Med 2026 https://europepmc.org/article/PMC/PMC13254943"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-med-errors",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-043",
-      "type": "basic",
-      "front": "How should crash-cart medicines be stored, according to the review?",
-      "back": "In labelled, sealed compartments, with expiry dates checked regularly.",
-      "refs": [
-        "WEB EuropePMC International Pain and Spine Intervention Society Emergency Protocols: Advance Preparation for Emergencies Interv Pain Med 2026 https://europepmc.org/article/PMC/PMC13254943"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-med-errors",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-044",
-      "type": "shortnote",
-      "front": "Short note: crash-cart upkeep",
-      "sections": [
-        {
-          "h": "Contents",
-          "points": [
-            "Crash-cart equipment and supplies checklist",
-            "ACLS drugs including epinephrine, amiodarone or lidocaine, atropine and dextrose 50%"
-          ]
-        },
-        {
-          "h": "Storage",
-          "points": [
-            "Labelled, sealed drug compartments",
-            "Expiry dates checked regularly"
-          ]
-        },
-        {
-          "h": "Upkeep",
-          "points": [
-            "A staff member assigned to check the cart periodically",
-            "Find expired medications and supplies; restock"
-          ]
-        }
-      ],
-      "refs": [
-        "WEB EuropePMC International Pain and Spine Intervention Society Emergency Protocols: Advance Preparation for Emergencies Interv Pain Med 2026 https://europepmc.org/article/PMC/PMC13254943"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-med-errors",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-045",
-      "type": "basic",
-      "front": "Who checks the crash cart, and what do they look for?",
-      "back": "A staff member assigned to check it periodically for expired medications and supplies, and for restocking needs.",
-      "refs": [
-        "WEB EuropePMC International Pain and Spine Intervention Society Emergency Protocols: Advance Preparation for Emergencies Interv Pain Med 2026 https://europepmc.org/article/PMC/PMC13254943"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-med-errors",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-046",
-      "type": "basic",
-      "front": "Which four WHO core prescribing indicators does a prescription audit measure?",
-      "back": "Average number of drugs per encounter; percentage of drugs prescribed by generic name; percentage of encounters with antibiotic or injection use; percentage of drugs from the essential medicines list.",
-      "refs": [
-        "WEB EuropePMC Rational Prescribing Under Pressure: A World Health Organization Indicator and National Medical Commission Compliance Audit With Shift-Based Analysis of Emergency Prescriptions at a Tertiary Care Hospital in North India Cureus 2026 https://europepmc.org/article/PMC/PMC13312064"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-audit-counselling",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-047",
-      "type": "basic",
-      "front": "When were WHO core prescribing indicators introduced?",
-      "back": "In 1993. WHO and INRUD had earlier developed a list of key drug-use indicators in the early 1980s.",
-      "refs": [
-        "WEB EuropePMC Rational Prescribing Under Pressure: A World Health Organization Indicator and National Medical Commission Compliance Audit With Shift-Based Analysis of Emergency Prescriptions at a Tertiary Care Hospital in North India Cureus 2026 https://europepmc.org/article/PMC/PMC13312064",
-        "WEB EuropePMC From prescribing indicators to rational drug use: a medication safety perspective J Pharm Policy Pract 2025 https://europepmc.org/article/PMC/PMC12392430"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-audit-counselling",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-048",
-      "type": "basic",
-      "front": "Why read WHO reference values with caution in an emergency department?",
-      "back": "They come from WHO methodology and pooled outpatient studies, so they may not fit emergency settings.",
-      "refs": [
-        "WEB EuropePMC Rational Prescribing Under Pressure: A World Health Organization Indicator and National Medical Commission Compliance Audit With Shift-Based Analysis of Emergency Prescriptions at a Tertiary Care Hospital in North India Cureus 2026 https://europepmc.org/article/PMC/PMC13312064"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-audit-counselling",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-049",
-      "type": "basic",
-      "front": "Which prescription element was rarely complete in an Indian emergency-department audit?",
-      "back": "Prescriber identification: complete in only 5 of 648 prescriptions (0.8%). Diagnosis was recorded in 8.5%.",
-      "refs": [
-        "WEB EuropePMC Rational Prescribing Under Pressure: A World Health Organization Indicator and National Medical Commission Compliance Audit With Shift-Based Analysis of Emergency Prescriptions at a Tertiary Care Hospital in North India Cureus 2026 https://europepmc.org/article/PMC/PMC13312064"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-audit-counselling",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-clinical-services-050",
@@ -1181,7 +1261,8 @@
       "subtopic": "p3-clinical-services-audit-counselling",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-051",
@@ -1237,7 +1318,8 @@
       "subtopic": "p3-clinical-services-audit-counselling",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-clinical-services-052",
@@ -1252,22 +1334,8 @@
       "subtopic": "p3-clinical-services-audit-counselling",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-clinical-services-053",
-      "type": "basic",
-      "front": "What is the audit cycle, and why must it be closed?",
-      "back": "Set a standard, measure current prescribing against it, give feedback and make changes, then re-audit. The cycle is closed only when re-audit shows whether practice actually improved; an audit without feedback and re-audit changes nothing.",
-      "refs": [
-        "UNSOURCED - owner must verify"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-clinical-services-audit-counselling",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-clinical-services-054",
@@ -1279,6 +1347,575 @@
       ],
       "pyq": [],
       "status": "draft",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-clinical-services-036",
+      "type": "essay",
+      "front": "Essay: Clinical pharmacology services in a tertiary-care hospital",
+      "sections": [
+        {
+          "h": "Background",
+          "points": [
+            "Clinical pharmacologist convenes the hospital DTC"
+          ]
+        },
+        {
+          "h": "Committee work",
+          "points": [
+            "Convener of DTC; hospital formulary; medication policies"
+          ]
+        },
+        {
+          "h": "Information and safety",
+          "points": [
+            "Drug information centre",
+            "Pharmacovigilance",
+            "Medication error detection and mitigation",
+            "Medication reconciliation and deprescribing"
+          ]
+        },
+        {
+          "h": "Rational use",
+          "points": [
+            "Prescription audit and feedback",
+            "Antibiotic policy and stewardship",
+            "Drug utilisation studies, quality indicators"
+          ]
+        },
+        {
+          "h": "Patient-facing",
+          "points": [
+            "Drug counselling and adherence support"
+          ]
+        },
+        {
+          "h": "Education and research",
+          "points": [
+            "Teaching rational use; clinical trials, TDM"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p506-510",
+        "Sarkar p76-80",
+        "Sarkar p86-90",
+        "Sarkar p71-75",
+        "Katzung16 appendix 2",
+        "Katzung16 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-clinical-services-060",
+      "type": "basic",
+      "subtopic": "p3-clinical-services-drug-info",
+      "level": 1,
+      "tags": [
+        "adr"
+      ],
+      "front": "What are real-world data in drug-safety studies?",
+      "back": "Routinely collected clinical or insurance records that hold drug exposures, medical encounters and patient comorbidities. Observational pharmacoepidemiology uses them; they are much less cumbersome than trials but still slow and costly to analyse.",
+      "refs": [
+        "GG14 ch8 p168"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-061",
+      "type": "basic",
+      "subtopic": "p3-clinical-services-drug-info",
+      "level": 1,
+      "tags": [
+        "adr"
+      ],
+      "front": "What is the FDA Sentinel System?",
+      "back": "A partnership between the FDA and more than 30 organisations, including academic sites and managed-care organisations, with curated electronic health data on over 100 million people. Each site analyses data behind its own firewall and returns results, using a common data model.",
+      "refs": [
+        "GG14 ch8 p168"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-062",
+      "type": "basic",
+      "subtopic": "p3-clinical-services-stewardship",
+      "level": 1,
+      "tags": [
+        "uses"
+      ],
+      "front": "What is an antibiotic 'time-out' in an antimicrobial stewardship programme?",
+      "back": "A planned reassessment about 48 hours after starting an antibiotic, when the picture is clearer, of whether it is still needed and whether the choice is right.",
+      "refs": [
+        "Katzung16 appendix 2"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-063",
+      "type": "basic",
+      "subtopic": "p3-clinical-services-med-errors",
+      "level": 1,
+      "tags": [
+        "uses"
+      ],
+      "front": "Which colour bag takes sharps such as needles, glass syringes and blades?",
+      "back": "Blue bag, for sharp objects that can carry infection.",
+      "refs": [
+        "Medhi PMECP p138"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-064",
+      "type": "basic",
+      "subtopic": "p3-clinical-services-med-errors",
+      "level": 1,
+      "tags": [
+        "uses"
+      ],
+      "front": "Which colour bag takes cytotoxic drug waste?",
+      "back": "Violet bag: cytotoxic drugs and related waste, contaminated sharps, contaminated animal carcasses and cage linings.",
+      "refs": [
+        "Medhi PMECP p138"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-065",
+      "type": "basic",
+      "subtopic": "p3-clinical-services-med-errors",
+      "level": 1,
+      "tags": [
+        "uses"
+      ],
+      "front": "Why is a chromate solution prohibited for cleaning lab glassware?",
+      "back": "Chromates are extremely toxic, including carcinogenic, so their use for cleaning glassware is banned.",
+      "refs": [
+        "Medhi PMECP p136"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-066",
+      "type": "basic",
+      "subtopic": "p3-clinical-services-stewardship",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What is an R-factor, and how does it spread resistance?",
+      "back": "A plasmid carrying resistance genes. It passes between bacteria mainly by conjugation through a sex pilus; transduction (via bacteriophage) and transformation (uptake of released DNA) also spread it.",
+      "refs": [
+        "Padmaja ch44"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-067",
+      "type": "shortnote",
+      "subtopic": "p3-clinical-services-med-errors",
+      "level": 2,
+      "tags": [
+        "uses"
+      ],
+      "front": "Short note: Colour-coded biomedical waste bags in the lab",
+      "sections": [
+        {
+          "h": "Yellow",
+          "points": [
+            "Infectious, biodegradable waste: cotton, dressings, plaster of Paris, tissue and body parts"
+          ]
+        },
+        {
+          "h": "Red",
+          "points": [
+            "Infectious waste: Ryle's tube, catheters, IV and blood sets",
+            "Also carries low-level radioactive waste"
+          ]
+        },
+        {
+          "h": "Blue",
+          "points": [
+            "Sharps: glass syringes, needles, surgical and shaving blades"
+          ]
+        },
+        {
+          "h": "Black",
+          "points": [
+            "Non-infectious waste: outdated or contaminated medicines, packaging, general waste"
+          ]
+        },
+        {
+          "h": "Violet",
+          "points": [
+            "Cytotoxic drug waste, contaminated sharps, carcasses and cage linings"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP p138"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-068",
+      "type": "essay",
+      "subtopic": "p3-clinical-services-drug-info",
+      "level": 3,
+      "tags": [
+        "uses"
+      ],
+      "front": "Essay: Pharmacoinformatics: information and data systems for safe drug use",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Drug information: written or verbal information on the safe and effective use of drugs, given on request"
+          ]
+        },
+        {
+          "h": "Drug information centre",
+          "points": [
+            "Objective, independent, current information for clinicians, patients and committees",
+            "Functions: drug evaluation, therapeutic and pharmaceutical advice, education, research, pharmacovigilance, toxicology",
+            "Resources: own library, databases, internet-linked computers, trained staff",
+            "Toxicology services best located within hospitals"
+          ]
+        },
+        {
+          "h": "Adverse drug data",
+          "points": [
+            "Spontaneous reports screened for signals by disproportionality methods; no denominator needed",
+            "Case reports prove causality best when the event is rare, close in time to exposure, and the drug gives a large excess risk"
+          ]
+        },
+        {
+          "h": "Real-world data and linkage",
+          "points": [
+            "Routinely collected clinical and insurance records feed observational pharmacoepidemiology",
+            "FDA Sentinel: 30+ partner organisations, common data model, analysis behind each site's firewall"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Data quality and observational design weaken real-world studies",
+            "Signals from spontaneous reports nearly always need further evaluation"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Informatics supports rational use only when data are accurate, timely and independently evaluated"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p76-80",
+        "GG14 ch8 p168"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-069",
+      "type": "essay",
+      "subtopic": "p3-clinical-services-med-errors",
+      "level": 3,
+      "tags": [
+        "uses"
+      ],
+      "front": "Essay: Biomedical waste disposal in a pharmacology laboratory",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Lab work involves toxic, flammable, irritant and carcinogenic substances, animals and sharps",
+            "Good laboratory practice governs safe working"
+          ]
+        },
+        {
+          "h": "Source reduction",
+          "points": [
+            "Cut waste with less toxic chemicals, safer alternatives and better technique"
+          ]
+        },
+        {
+          "h": "Segregation",
+          "points": [
+            "Colour-coded bags: yellow infectious and biodegradable; red infectious with low-level radioactive; blue sharps; black non-infectious; violet cytotoxic",
+            "Animal waste goes into labelled coloured bags"
+          ]
+        },
+        {
+          "h": "Collection and destruction",
+          "points": [
+            "Collect in the matching bag, double-bagged if required",
+            "Send to a central disposal centre; destroy by incineration or another method"
+          ]
+        },
+        {
+          "h": "Glassware",
+          "points": [
+            "Routine: 0.5% detergent, several water rinses, final rinse with distilled or deionised water",
+            "Metal-contaminated glass: concentrated nitric acid; chromate cleaning prohibited"
+          ]
+        },
+        {
+          "h": "Personal safety",
+          "points": [
+            "Apron, gloves, cap and safety glasses; no mouth pipetting; know spill kit and extinguisher"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP p136-138"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-070",
+      "type": "essay",
+      "subtopic": "p3-clinical-services-stewardship",
+      "level": 3,
+      "tags": [
+        "uses"
+      ],
+      "front": "Essay: Inappropriate use of antibiotics and how stewardship controls it",
+      "sections": [
+        {
+          "h": "Why misuse matters",
+          "points": [
+            "Antibiotics given when not needed kill sensitive bacteria and let resistant mutants multiply",
+            "Resistance spreads by R-factor plasmids, mainly by conjugation",
+            "Mechanisms: inactivating enzymes, altered target, reduced accumulation, altered metabolic pathway"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Use antibiotics only when necessary; choose the right agent, dose and duration",
+            "Combine drugs where indicated, as in tuberculosis"
+          ]
+        },
+        {
+          "h": "Choice of therapy",
+          "points": [
+            "Empiric therapy covers likely pathogens and is changed once culture results arrive",
+            "Definitive therapy targets the identified organism"
+          ]
+        },
+        {
+          "h": "Stewardship programme",
+          "points": [
+            "Aim: appropriate prescribing, less overuse, less spread of multidrug-resistant infection",
+            "Team: infectious disease physician, microbiologist, clinical pharmacist, infection control, epidemiologist, IT specialist",
+            "Actions: 48-hour time-out, parenteral-to-oral switch, dose adjustment, avoid broad-spectrum drugs when not needed"
+          ]
+        },
+        {
+          "h": "Patient factors",
+          "points": [
+            "Age, renal and hepatic function, allergy and host defence status guide the choice"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Prescribe appropriately and educate patients and fellow doctors"
+          ]
+        }
+      ],
+      "refs": [
+        "Padmaja ch44",
+        "Katzung16 appendix 2"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-clinical-services-071",
+      "type": "basic",
+      "level": 1,
+      "front": "Are compliance and adherence the same term?",
+      "back": "The owner books use them as near-synonyms. GG12 lists compliance, adherence, therapeutic alliance and concordance together and says the collaborative doctor-patient relationship matters whichever word is used. Bennett keeps compliance because it also covers doctors who do not follow instructions, and notes that some prefer adherence or concordance, the latter reflecting prescribing by the doctor and taking by the patient.",
+      "refs": [
+        "GG12 PDF p1911",
+        "Bennett PDF p35"
+      ],
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-clinical-services-072",
+      "type": "basic",
+      "level": 1,
+      "front": "What does GG12 mean by concordance or therapeutic alliance?",
+      "back": "A collaborative relationship in which doctor and patient each bring expertise: the doctor is the medical expert and the patient is the expert on his own beliefs. The prescriber negotiates and asks whether the patient intends to follow the plan.",
+      "refs": [
+        "GG12 PDF p1911",
+        "GG12 PDF p1912"
+      ],
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-clinical-services-073",
+      "type": "basic",
+      "level": 1,
+      "front": "Which matters more for compliance: actual or perceived disease severity?",
+      "back": "Perceived severity. Patients comply more when they feel susceptible to the disease, see it as serious, believe the therapy works, judge benefit to outweigh cost, and believe they can carry out the treatment. Actual severity does not predict compliance.",
+      "refs": [
+        "GG12 PDF p1912",
+        "GG12 PDF p1913"
+      ],
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-clinical-services-074",
+      "type": "basic",
+      "level": 1,
+      "front": "Why does the pharmacist matter for patient compliance?",
+      "back": "Pharmacists often see the patient more often than the physician. Asking about therapy lets them spot noncompliance, educate the patient and inform the prescriber. GG12 cites the Asheville Project as showing better compliance, outcomes and cost with pharmacist-led medication management.",
+      "refs": [
+        "GG12 PDF p1913"
+      ],
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-clinical-services-075",
+      "type": "shortnote",
+      "level": 3,
+      "front": "Short note: Pharmacotherapeutic adherence and compliance, and how they differ",
+      "sections": [
+        {
+          "h": "Terms",
+          "points": [
+            "Compliance and adherence are used interchangeably in the owner books",
+            "GG12 also lists therapeutic alliance and concordance for the collaborative end",
+            "Core idea: extent to which the patient follows the prescribed plan"
+          ]
+        },
+        {
+          "h": "Differentiation",
+          "points": [
+            "GG12 defines compliance as the extent to which the patient follows the prescribed regimen",
+            "Bennett keeps compliance because the term also fits doctors who do not follow prescribing instructions",
+            "Bennett notes some prefer adherence or concordance; concordance reflects prescribing and taking as a therapeutic alliance",
+            "No owner book gives a strict definitional line between the terms"
+          ]
+        },
+        {
+          "h": "Forms of noncompliance",
+          "points": [
+            "Intentional or accidental errors in dosage or schedule",
+            "Overuse or underuse",
+            "Early termination of therapy",
+            "Prescription never filled"
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "points": [
+            "Noncompliance is the most frequent cause of failure in antiseizure therapy (GG14)",
+            "Common cause of diuretic resistance in heart failure (GG12)"
+          ]
+        },
+        {
+          "h": "Improving it",
+          "points": [
+            "Clear, respectful communication; ask how the patient takes the drug",
+            "Simplify; match dosage form and schedule to daily routine",
+            "Compliance aids: sectioned boxes, compliance packaging, colour-coding",
+            "Counselling by prescriber and pharmacist, with family support where useful"
+          ]
+        }
+      ],
+      "refs": [
+        "GG12 PDF p1911",
+        "GG12 PDF p1912",
+        "GG12 PDF p1913",
+        "GG14 PDF p424",
+        "GG12 PDF p818",
+        "Bennett PDF p35"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-clinical-services-076",
+      "type": "basic",
+      "level": 2,
+      "front": "A patient misses the morning dose of a once-daily drug on workdays. What is the likely problem and fix?",
+      "back": "Dosage or schedule error (timing). Fix: link the dose to a fixed daily cue, such as the coffee-cup cabinet or a meal, and tailor the schedule to the patient lifestyle. GG12 gives a morning-only drug for a night-shift worker as an example of a regimen that does not fit the patient.",
+      "refs": [
+        "GG12 PDF p1912"
+      ],
+      "subtopic": "p3-clinical-services-audit-counselling",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-clinical-services-077",
+      "type": "basic",
+      "level": 2,
+      "front": "Why are elderly patients at risk of noncompliance, and is age alone the cause?",
+      "back": "Barriers include forgetfulness, altered drug handling, less social and financial support, poorer dexterity or senses, and more concurrent medicines. But GG12 states elderly patients are not generally less compliant than other age groups, so the barriers, not age itself, drive the risk.",
+      "refs": [
+        "GG12 PDF p1913"
+      ],
       "subtopic": "p3-clinical-services-audit-counselling",
       "tags": [
         "uses"

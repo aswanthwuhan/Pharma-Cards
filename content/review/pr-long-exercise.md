@@ -217,3 +217,28 @@ pr-long-exercise-021 | corrected | Medhi PMECP PDF p76, p78 | dropped unverified
 pr-long-exercise-022 | corrected | Medhi PMECP PDF p72, p76 | blinding removed (not in owner books); tachyphylaxis and tissue sensitivity error added
 pr-long-exercise-029 | corrected | KDT8 ch6 (PDF p110-111); Padmaja PDF p89; Katzung16 PDF p1281 | Naranjo score cut-offs removed (not in owner books)
 pr-long-exercise-031 | unsourced | WEB PMC3912795 (existing, not re-verified) | WHO-UMC category list not found in owner books; Prep ref removed
+
+pr-long-exercise-071 | new | Sarkar p201-205
+pr-long-exercise-072 | new | Sarkar p201-205
+pr-long-exercise-073 | new | Sarkar p201-205
+pr-long-exercise-074 | new | KDT8 ch6
+pr-long-exercise-075 | new | KDT8 ch6; KDT8 ch5
+pr-long-exercise-076 | new | Sarkar p506-510
+pr-long-exercise-077 | new | Sarkar p511-515
+pr-long-exercise-078 | new | Sarkar p511-515; Sarkar p506-510
+pr-long-exercise-079 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+pr-long-exercise-080 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+pr-long-exercise-081 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+pr-long-exercise-082 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+pr-long-exercise-083 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+pr-long-exercise-084 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+Levels 1-3 set on all existing cards (no content change).
+
+## Checker
+- Checked against source (Sarkar OCR p511-515 for CONSORT 25 / STROBE 22 / PRISMA 27; Medhi PDF p81 for pA2-pA10 0.95 band; KDT8 PDF p159/p170 and Ghosh PDF p121-122 for autonomic BP; Padmaja PDF p89 and KDT8 PDF p110 for Naranjo/WHO scales).
+- Dog BP cards (063-084): `11-cal-vs-conventional-2017 (PMC5523525)` is not an owner book; replaced with `KDT8 PDF p159`, `Ghosh PDF p121-122`. NMC curriculum ref kept.
+- Study cards 002/006/007 (Langendorff) checked: Sarkar p286-290 supports retrograde perfusion, KHB 37 C pH 7.4, constant-flow vs constant-pressure.
+- Levels: every card has level 1-3; every subtopic has >=3 L1, >=2 L2, >=1 L3 (min met for all 8 subtopics).
+- Prep/RR5 grep on both deck files: 0 hits.
+- Not done: exam-coverage audit and PYQ grep; no new cards added this pass.
+- Open issues for owner: WEB PMC ref (Naranjo vs WHO-UMC agreement, cards 031/037) is outside the SOURCE-GAPS list; ocular and NMC-only refs (001, 051-062, 079-081) rest on the NMC curriculum document, not a textbook.

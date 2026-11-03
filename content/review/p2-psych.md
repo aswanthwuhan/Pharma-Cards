@@ -94,3 +94,63 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 60 original, corrected: 
 - Sources: KDT8 ch31, ch32, ch33 (text read in large part); KDT8 ch8 (antihistamine comparison, cross-check).
 - Target (+30) met for study (+41).
 - Book conflicts: none found.
+
+## Difficulty ladder pass (2026-11-03)
+- All 105 existing study cards given an explicit level (ids unchanged; reordered by level within subtopic). Levels: id | corrected (level set).
+p2-psych-106 | new | KDT8 ch33 (L1)
+p2-psych-107 | new | KDT8 ch33 (L1)
+p2-psych-108 | new | KDT8 ch33 (L1)
+p2-psych-109 | new | KDT8 ch32 (L2)
+p2-psych-110 | new | KDT8 ch32 (L3)
+p2-psych-111 | new | KDT8 ch31 (L3)
+
+## Checker (2026-11-03)
+- Re-verified against KDT8 ch31-33 text: new cards 106-111 and COMT/selegiline/amantadine/NMS/valproate/hydroxyzine/propranolol facts. All correct; no edits, no deletions.
+- No Prep/RR5/PrepLadder refs in deck. Levels set on all 111 cards; every subtopic has >=3 L1, >=2 L2, >=1 L3 (min L1=3, L2=2, L3=1). Ladder OK.
+- Gap search (lurasidone, pimavanserin, flumazenil, etc.) found names absent from KDT8 ch31-33; no cards added.
+
+- Checker re-run: NMS (KDT8 p484), COMT 20-30% (p472) re-confirmed; validator clean for p2-psych.
+
+## Checker (2026-11-03)
+- Verified new ids 106-111 and 15 new rapid cards (and ~20 numeric cards) against KDT8 ch31-33: facts match. Levels present on all cards; every subtopic meets 3/2/1. No Prep/RR5 refs. No edits or deletions.
+
+## PYQ gap pass (2026-11-03)
+Questions covered: gapargs entries 36, 44, 86, 204, 291, 417, 594 (depression pharmacotherapy, neurotransmitter pharmacology, Huntington chorea, serotonin syndrome).
+- p2-psych-112 | new | GG14 ch18; Katzung16 ch30 (L1 vortioxetine)
+- p2-psych-113 | new | GG14 ch18; Katzung16 ch30 (L1 vilazodone)
+- p2-psych-114 | new | GG14 ch18; Katzung16 ch30 (L1 esketamine)
+- p2-psych-115 | new | GG14 ch18 (L1 brexanolone)
+- p2-psych-116 | new | Katzung16 ch16 (L1 serotonin syndrome antidote)
+- p2-psych-117 | new | GG14 ch21; Katzung16 ch28 (L1 Huntington pathology)
+- p2-psych-118 | new | GG14 ch21; Katzung16 ch28 (L1 tetrabenazine)
+- p2-psych-119 | new | GG14 ch21; Katzung16 ch28 (L1 deutetrabenazine)
+- p2-psych-120 | new | GG14 ch21 (L2 antidepressants in Huntington disease)
+- p2-psych-121 | new | GG14 ch21; Katzung16 ch28; KDT8 PDF p480; KDT8 PDF p487 (L2 shortnote Huntington chorea; pyq RGUHS 2022 May 10 marks; the Q-bank duplicate of the same question carries no year, so no pyq entry)
+- p2-psych-122 | new | GG14 ch18; Katzung16 ch30 (L3 essay; pyq RGUHS 2011 May 20 marks)
+- p2-psych-123 | new | GG14 ch18; Katzung16 ch30 (L2 shortnote, novel antidepressant mechanisms and status; Q-bank item, no year, no pyq entry)
+- p2-psych-124 | new | GG14 ch18; Katzung16 ch30 (L3 shortnote; pyq UHSR 2025 10 marks)
+- p2-psych-125 | new | GG14 ch18; GG14 PDF p312, p314, p371; Katzung16 ch16, ch30 (L3 shortnote, new developments and serotonin syndrome; pyq UHSR 2025 10 marks)
+- p2-psych-126 | new | GG14 ch16; GG14 PDF p197, p330; KDT8 PDF p36, p69, p71, p75, p124, p203; Katzung16 PDF p121, p169, p311, p411; RangDale9 PDF p539 (L3 essay; pyq RGUHS 2009 May 20 marks)
+- p2-psych-127 | new | GG14 ch16; KDT8 PDF p75 (L1 pentameric ligand-gated channel)
+- p2-psych-128 | new | GG14 ch16; KDT8 PDF p71 (L1 G protein-coupled receptor)
+- p2-psych-129 | new | GG14 ch16; GG14 ch21 (L1 VMAT2)
+- Source conflict (not corrected): GG14 ch21 text labels the GPi/SNpr-projecting striatal neurons as the indirect pathway, but its Figure 21-6 caption labels the GPe-projecting neurons as indirect. Cards avoid the pathway label.
+- Pyq tags for Q-bank items omitted: the validator requires a year, and the Q-bank files carry none.
+- No web sources used. No unsourced cards. No deletions.
+
+## Checker (PYQ gap pass)
+- Checked all 18 new study cards (112-129) and 27 new rapid cards (rf-p2-psych-0668 to 0694) against GG14, Katzung16, KDT8 and RangDale9 PDF text.
+- Corrected study p2-psych-119: removed unsupported "dosing is steadier" and "Katzung table least toxic" claims; kept GG14 ch21 (longer-lived metabolites, possibly lower depression risk).
+- Corrected study p2-psych-120 front: "must be avoided" changed to "need caution" (GG14 ch21 says anticholinergic antidepressants can worsen chorea).
+- Corrected study p2-psych-124: TCA line now cites KDT8 PDF p59 (low safety margin) and Satoskar PDF p132 (CYP2D6 slow metabolisers); removed "narrow plasma window" and "not first-line" which were not found.
+- Corrected rapid rf-p2-psych-0689 ref from RangDale9 p539 to GG14 PDF p332 (glutamate text verified there).
+- Verified and kept: vortioxetine, vilazodone (CYP3A4, fatty meal), esketamine, brexanolone, cyproheptadine, serotonin syndrome onset, Huntington drugs (12.5 mg, 50 mg, CYP2D6, haloperidol, clozapine/quetiapine/carbamazepine, benzodiazepine, clonazepam/valproate), VMAT2 reversibility.
+- Levels and ladder minimums pass; no Prep/RR5 refs; pyq format valid. Validator: check ok.
+
+## PYQ gap pass 2 (2026-11-03)
+- Source checked: `.tmp/gapargs2.json` entries 31, 159, 164, 170 against `content/pyq/questions.json`.
+- Entry 170 (RGUHS Apr 2008, 20 marks; also RGUHS May 2011, 20 marks, anxiolytic screening): added p2-psych-130 essay and p2-psych-131 to p2-psych-137 (L1 to L3). Source: GG12 ch17 (PDF p485-486: punished responding, neophobia, drug-class discrimination, dose gap, H101R subunit work); GG12 ch13 (buspirone and 5-HT2A/2C in animal models).
+- Entry 159 (RGUHS Oct 2008, 20 marks, schizophrenia drugs): already covered by p2-psych-035, p2-psych-062, p2-psych-086 and the atypical and typical subtopic cards. Added pyq RGUHS 2008 20 marks to p2-psych-035. No new card.
+- Entry 164 (RGUHS Apr 2007, 10 marks, neurosteroids): already covered by p2-psych-063 (pyq tags present). No change.
+- Entry 31 (UHSR-style mixed paper, Aug 2020, 10 parts): psych parts are covered (second-generation antipsychotics: p2-psych-087; amantadine NMDA: p2-psych-009; ketamine: p2-psych-114). Not written: Alzheimer's drugs, arrhythmia, vasopressin, mAbs in RA, OP poisoning, PDE inhibitors. These belong to other topics; no psych card added. Memantine (KDT8 PDF p532) not added: no psych subtopic fits, and the dementia material belongs to another topic.
+- Validator: `node scripts/validate-content.mjs --check` returns check ok.

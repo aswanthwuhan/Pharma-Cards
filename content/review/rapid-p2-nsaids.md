@@ -81,3 +81,37 @@ Ranges (id range | status | source):
 Conflict card: rf-p2-nsaids-0592 (see book conflicts above). Status should be "corrected" or "deleted" by the owner.
 
 - Orchestrator: rf-p2-nsaids-0592 deleted (KDT8 lavage/emesis view contradicts rf-p2-nsaids-0235, which follows GG14: activated charcoal, lavage not routine). rf-p2-blood-0579 (TG >1000 mg/dL) kept: matches GG14 PDF p756/p759.
+
+## Checker (independent pass, 2026-11-03)
+
+Sampled about 90 Rapid cards, including all numeric cards that are not part of a class list and every card that cites a non-KDT book (rf-0235, 0237, 0238, 0459, 0508, 0519-0527).
+
+Checked and OK against sources: half-lives and doses for propionic acids, oxicams, ketorolac, indomethacin, nabumetone, mephenamic acid, aspirin/salicylate PK, the ketorolac 5-day rule, paracetamol NAC regimens (GG12 p1009, GG14 p860), and the pKa, 1971, ion-trapping and occult-blood-loss facts.
+
+Corrected:
+| id | status | change |
+|---|---|---|
+| rf-p2-nsaids-0459 | corrected | "older (KDT)" relabelled "KDT"; GG14 1.2 mg / 0.6 mg dose verified (GG14 ch42 p867) |
+| rf-p2-nsaids-0523 | corrected | answer "81 to 325 mg once daily" not found in Katzung ch36 (only 81 mg/d appears); now "81 mg once daily (Katzung); 75 to 150 mg/day (KDT8)" |
+
+No Prep / RR5 / RapidRev refs in the deck (grep clean). Deleted: none. Added: none (coverage spot-check found the chapter points present).
+
+## Gap pass: COX-2 inhibitors and thrombogenicity (UHSR 2025)
+id | new | source
+---|---|---
+rf-p2-nsaids-0675 to 0693 | new (19 pairs) | KDT8 ch13; KDT8 ch14; GG14 ch42
+
+## Checker (PYQ gap pass)
+rf-p2-nsaids-0686: removed "sudden cardiac death" (not in books; now vascular death per GG14 ch42). rf-p2-nsaids-0692: ch45 ref replaced with KDT8 ch13. Other pairs verified against KDT8 ch13/ch14 and GG14 ch42.
+
+
+## Gap pass: anti-inflammatory assay methods
+Added rf-p2-nsaids-0694 to 0714 (21 pairs), subtopic p2-nsaids-cox-classification. Sources: Sarkar p336-350, Satoskar p287-288. No deletions. Phases, models, mediators, dyes, ulcer index and granuloma pellet facts are covered. Glass rod, sponge and formalin models are named only.
+
+## Checker pass: anti-inflammatory assay methods (rf-p2-nsaids-0694 to 0714)
+- 0695 | corrected | added oxazolone ear oedema to the acute list (Sarkar p336-340)
+- 0697 | corrected | ref Sarkar p341-345 -> Sarkar p336-340 (list is on p336-340)
+- 0707 | corrected | removed Freund's/tubercle detail; now "Adjuvant arthritis" (Satoskar p288)
+- 0709, 0710 | corrected | ref Sarkar p346-350 -> Sarkar p341-345
+- 0712 | corrected | answer "Carrageenan" only (croton oil not in the pouch method)
+- 0694-0706, 0708, 0711, 0713, 0714 | ok

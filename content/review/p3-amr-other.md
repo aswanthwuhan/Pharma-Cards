@@ -87,3 +87,47 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 61 original, corrected: 
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: C. difficile first choice: KDT8 ch55 (metronidazole first, vancomycin second) versus newer practice cited in p3-amr-general (oral vancomycin or fidaxomicin preferred). The KDT8 card was dropped; conflict logged.
 - Unsourced cards in this pass: none.
+
+
+## Level ladder pass
+All 75 original cards: level set (ok). New:
+
+| id | status | source |
+|---|---|---|
+| p3-amr-other-076 | new | KDT8 ch53 |
+| p3-amr-other-077 | new | KDT8 ch53 |
+| p3-amr-other-078 | new | KDT8 ch53 |
+| p3-amr-other-079 | new | KDT8 ch53 |
+| p3-amr-other-080 | new | KDT8 ch55 |
+| p3-amr-other-081 | new | KDT8 ch55 |
+
+## Checker
+- Spot-checked ~20 study cards (tetracycline PK/ADR, tigecycline, aminoglycoside once-daily, macrolide, glycopeptide, daptomycin, linezolid, tedizolid, polymyxin) against KDT8 ch53-55 and GG14/Katzung: all grounded, no fixes.
+- No Prep/RR5 refs. Levels all 1-3; every subtopic >=3/2/1.
+- Added 1 L1 card (fosfomycin, GG14 ch59). No deletions.
+
+## Checker (independent re-check)
+- Re-verified level counts per subtopic (all >=3/2/1), no Prep/RR5 refs, validator clean for p3-amr-other. Spot-checked gentamicin trough/threshold, CLcr >70 mL/min, aminoglycoside dose ranges against KDT8 ch54: correct. No edits.
+| p3-amr-other-083 | new | KDT8 ch53 |
+| p3-amr-other-084 | new | KDT8 ch53 |
+| p3-amr-other-085 | new | KDT8 ch53 |
+| p3-amr-other-086 | new | KDT8 ch53, Katzung16 ch44 |
+| p3-amr-other-087 | new | GG14 ch60, Katzung16 ch44 |
+| p3-amr-other-088 | new | KDT8 ch53, KDT8 ch55, GG14 ch59, GG14 ch60 |
+| p3-amr-other-089 | new (UHSR 2025, 10 marks, essay) | KDT8 ch53, KDT8 ch55, GG14 ch59, GG14 ch60, Katzung16 ch44 |
+
+## Checker (PYQ gap pass)
+- Checked 083-089 against KDT8 ch53/ch55 (p796, p805, p812, p818, p1002/1004), GG14/GG12 ch59-60 (p1187, p1205, p1207), Katzung16 (p877, p879, p885). Facts grounded. Added Golan p649 to 083 for the termination step (not in KDT8 text). Pyq UHSR 2025 on 089 not verified: no UHSR file found in the Q bank folder; owner to confirm.
+- Levels and subtopic minimums (3 L1 / 2 L2 / 1 L3) met. No Prep/RR5 refs.
+
+## PYQ gap pass (gap entry 125, urinary antiseptics and analgesics)
+- Source question: "Urinary antiseptics and analgesics" (Q bank paper IV, 10 marks, shortnote; year unknown, so no pyq tag). Parts 9 (bipolar) and 10 (chelating agents) are outside p3-amr-other and were not written here.
+- Urinary antiseptic content already covered (058-069, 082, 061). Gap was the analgesic side: phenazopyridine had only Rapid cards.
+| id | status | source |
+|---|---|---|
+| p3-amr-other-090 | new (L1) | KDT8 PDF p1023, Satoskar PDF p1121 |
+| p3-amr-other-091 | new (L2) | KDT8 PDF p1023, Satoskar PDF p1121, GG12 PDF p1500 (dose), Padmaja PDF p576 |
+
+## Checker (urinary analgesic re-check)
+- Verified 090-092 against KDT8 PDF p1023, Satoskar PDF p1121, GG12 PDF p1500, Padmaja PDF p576: facts grounded. Added GG12 PDF p1500 to 091 refs (dose 200 mg TID is printed there). No deletions.
+| p3-amr-other-092 | new (L3 shortnote) | KDT8 ch55, KDT8 PDF p1023, GG12 PDF p1500, Satoskar PDF p1113 |

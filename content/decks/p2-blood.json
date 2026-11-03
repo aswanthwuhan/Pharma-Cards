@@ -322,6 +322,7 @@
     {
       "id": "p2-blood-012",
       "type": "shortnote",
+      "level": 3,
       "front": "Short note: Erythropoietin - actions and use in chronic kidney disease",
       "sections": [
         {
@@ -573,6 +574,7 @@
     {
       "id": "p2-blood-077",
       "type": "shortnote",
+      "level": 3,
       "front": "Short note: Parenteral iron preparations",
       "sections": [
         {
@@ -1045,7 +1047,7 @@
       "id": "p2-blood-026",
       "type": "basic",
       "front": "How is excess anticoagulation or bleeding on warfarin managed?",
-      "back": "No bleeding, raised INR: hold warfarin and restart at a lower dose once the INR is in range; if the INR is 10 or more, give oral vitamin K1 2.5 to 5 mg, which lowers the INR within 24 to 48 h without causing warfarin resistance. Serious bleeding: four-factor prothrombin complex concentrate plus vitamin K1 10 mg by slow IV infusion (IV vitamin K can cause anaphylactoid reactions). Vitamin K acts slowly because factors must be resynthesised, and high doses make the patient unresponsive to warfarin for several days.",
+      "back": "No bleeding, raised INR: hold warfarin and restart at a lower dose once the INR is in range; if the INR is 10 or more, give oral vitamin K1 2.5 to 5 mg, which lowers the INR within 24 to 48 h without causing warfarin resistance. Serious bleeding: four-factor prothrombin complex concentrate improves haemostasis (GG14); avoid IV vitamin K because it can cause severe anaphylactoid reactions (KDT8). Vitamin K acts slowly because factors must be resynthesised, and high doses make the patient unresponsive to warfarin for several days.",
       "refs": [
         "GG14 ch36",
         "KDT8 ch45"
@@ -1648,6 +1650,7 @@
     {
       "id": "p2-blood-086",
       "type": "shortnote",
+      "level": 3,
       "front": "Short note: Low molecular weight heparins",
       "sections": [
         {
@@ -2247,7 +2250,7 @@
       "id": "p2-blood-116",
       "type": "basic",
       "front": "Give the practical advantages of DOACs over warfarin.",
-      "back": "Rapid onset and offset, fixed doses, no INR monitoring and fewer drug interactions. They are comparable or better than warfarin for stroke prevention in non-valvular AF. Limits: avoid with mechanical heart valves and triple-positive antiphospholipid syndrome; bleeding still occurs, so specific reversal agents exist.",
+      "back": "Rapid onset and offset, fixed doses, no INR monitoring and fewer drug interactions. They are comparable or better than warfarin for stroke prevention in non-valvular AF. Limits: avoid with mechanical heart valves (dabigatran is contraindicated there); bleeding still occurs, so specific reversal agents exist.",
       "refs": [
         "KDT8 ch45",
         "GG14 ch36"
@@ -4080,6 +4083,565 @@
         }
       ],
       "level": 3
+    },
+    {
+      "id": "p2-blood-118",
+      "type": "basic",
+      "front": "Vorapaxar: target, duration of effect and main hazard?",
+      "back": "A competitive PAR-1 antagonist that blocks thrombin-triggered platelet activation. It is added to aspirin or clopidogrel after MI or peripheral artery disease. Because it binds PAR-1 tightly, its effect can last up to 4 weeks after stopping. It raises bleeding risk and is contraindicated after intracranial bleeding, stroke or TIA.",
+      "refs": [
+        "GG14 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-antiplatelets",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-119",
+      "type": "basic",
+      "front": "Plasma expander: what it is and when it is used",
+      "back": "A high-molecular-weight agent given IV that raises circulating volume through colloid osmotic pressure, used when blood or plasma is not immediately available, e.g. in shock.",
+      "refs": [
+        "Katzung16 PDF p1282-1283",
+        "Padmaja PDF p339-340"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-120",
+      "type": "basic",
+      "front": "Colloid versus crystalloid plasma expanders",
+      "back": "Colloids are large molecules that cannot cross a semipermeable membrane and stay in the circulation for a long time. Crystalloids pass through such a membrane and are shorter-lived in the vascular space.",
+      "refs": [
+        "Padmaja PDF p339-340"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-121",
+      "type": "basic",
+      "front": "Dextran 70: molecular weight and duration",
+      "back": "Molecular weight about 70,000. It expands plasma for about 24 hours and is slowly excreted by glomerular filtration.",
+      "refs": [
+        "Padmaja PDF p340"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-122",
+      "type": "basic",
+      "front": "Degraded gelatin polymer (polygeline): molecular weight and duration",
+      "back": "Molecular weight about 30,000 with action lasting about 12 hours. It does not interfere with coagulation, blood grouping or cross-matching.",
+      "refs": [
+        "Padmaja PDF p340"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-123",
+      "type": "essay",
+      "front": "Essay: Plasma expanders - properties, types and uses",
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 3,
+      "status": "draft",
+      "refs": [
+        "Padmaja PDF p339-341",
+        "Katzung16 PDF p1282-1283",
+        "Bennett PDF p428"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Sudden blood or plasma loss lowers volume and perfusion and can be rapidly fatal",
+            "Plasma expanders are high-molecular-weight IV agents used in emergencies to restore intravascular volume"
+          ]
+        },
+        {
+          "h": "Desirable properties",
+          "points": [
+            "Osmotic (oncotic) pressure comparable to plasma",
+            "Long-acting, inert and non-antigenic",
+            "Long shelf life"
+          ]
+        },
+        {
+          "h": "Types",
+          "points": [
+            "Colloids: albumin, hetastarch, dextrans and gelatin polymers",
+            "Dextran 70: plasma expansion for about 24 hours",
+            "Dextran 40: faster but shorter acting; reduces blood sludging and improves peripheral flow",
+            "Degraded gelatin polymer: about 12 hours, no effect on coagulation or cross-matching"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Hypovolaemic shock, burns and extensive fluid loss",
+            "Emergency measure to restore plasma volume"
+          ]
+        },
+        {
+          "h": "Adverse effects and contraindications",
+          "points": [
+            "Dextrans are antigenic and can cause allergic reactions; rare renal tubular blockage",
+            "Dextrans interfere with coagulation, blood grouping and cross-matching",
+            "Contraindicated in cardiac failure, pulmonary oedema and renal failure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2-blood-124",
+      "type": "essay",
+      "front": "Essay: Oral anticoagulants - current perspectives",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 3,
+      "status": "draft",
+      "refs": [
+        "GG14 ch36",
+        "KDT8 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Warfarin (vitamin K antagonist)",
+          "points": [
+            "Blocks vitamin K epoxide reductase, reducing vitamin K-dependent clotting factors",
+            "Narrow therapeutic index; needs INR monitoring and has many interactions",
+            "Most common adverse effect is bleeding; causes birth defects, so avoided in pregnancy",
+            "Vitamin K1 reverses it only after hours; four-factor prothrombin complex concentrate for serious bleeding"
+          ]
+        },
+        {
+          "h": "Direct thrombin inhibitor: dabigatran",
+          "points": [
+            "Oral prodrug that competitively and reversibly blocks free and clot-bound thrombin",
+            "Oral bioavailability about 6%; about 80% excreted unchanged by the kidney",
+            "Fixed dosing needs no routine monitoring; P-glycoprotein substrate"
+          ]
+        },
+        {
+          "h": "Direct factor Xa inhibitors",
+          "points": [
+            "Rivaroxaban, apixaban and edoxaban inhibit free and clot-bound factor Xa",
+            "Rivaroxaban oral bioavailability about 80%",
+            "Licensed for stroke prevention in atrial fibrillation and for venous thromboembolism"
+          ]
+        },
+        {
+          "h": "Reversal",
+          "points": [
+            "Idarucizumab reverses dabigatran",
+            "Andexanet alfa is used for serious bleeding on factor Xa inhibitors"
+          ]
+        },
+        {
+          "h": "Limits and contraindications",
+          "points": [
+            "Bleeding remains the main hazard; GI bleeding is higher with dabigatran over 75 years",
+            "Contraindicated with mechanical prosthetic heart valves; dabigatran is also avoided in triple-positive antiphospholipid syndrome"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2-blood-125",
+      "type": "shortnote",
+      "front": "Short note: Dabigatran - bleeding profile and interactions",
+      "subtopic": "p2-blood-doacs",
+      "tags": [
+        "mechanism",
+        "adr",
+        "interactions"
+      ],
+      "level": 2,
+      "status": "draft",
+      "refs": [
+        "GG14 ch36"
+      ],
+      "pyq": [],
+      "sections": [
+        {
+          "h": "Bleeding versus warfarin",
+          "points": [
+            "Annual major bleeding about 3% at 150 mg twice daily, similar to warfarin",
+            "Intracranial bleeding about 70% lower than with warfarin",
+            "GI bleeding is higher, particularly over 75 years"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "P-glycoprotein substrate",
+            "Raised levels with verapamil, dronedarone, quinidine, ketoconazole and clarithromycin",
+            "Lowered levels with rifampicin"
+          ]
+        },
+        {
+          "h": "Monitoring",
+          "points": [
+            "Fixed dosing needs no routine coagulation monitoring",
+            "aPTT rises but plateaus at higher levels, so it is unreliable for dose control"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2-blood-126",
+      "type": "basic",
+      "front": "Filgrastim: what it is",
+      "back": "Recombinant human G-CSF. It stimulates proliferation, differentiation and function of neutrophils and their progenitors, and is used to shorten chemotherapy-induced neutropenia.",
+      "refs": [
+        "KDT8 ch64",
+        "GG14 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-127",
+      "type": "basic",
+      "front": "Sargramostim: what it is and its main action",
+      "back": "Recombinant GM-CSF. It stimulates myelopoiesis and shortens neutropenia after transplantation or intensive chemotherapy.",
+      "refs": [
+        "GG14 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-128",
+      "type": "basic",
+      "front": "Timing of filgrastim after myelosuppressive chemotherapy",
+      "back": "Started one day after chemotherapy, given 5 µg/kg daily s.c. or i.v. until the neutrophil count normalises.",
+      "refs": [
+        "KDT8 ch64"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-blood-129",
+      "type": "essay",
+      "front": "Essay: Haematopoietic growth factors in cancer chemotherapy-induced myelosuppression",
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 3,
+      "status": "draft",
+      "refs": [
+        "GG14 ch45",
+        "KDT8 ch64",
+        "KDT8 ch44"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Cytotoxic drugs suppress marrow; neutropenia raises the risk of bacterial and fungal infection",
+            "Growth factors shorten the period of severe neutropenia and reduce infection-related morbidity"
+          ]
+        },
+        {
+          "h": "Myeloid growth factors",
+          "points": [
+            "G-CSF acts on neutrophils and their progenitors; filgrastim is its recombinant form",
+            "GM-CSF stimulates several myeloid lineages; sargramostim and molgramostim are recombinant forms",
+            "Both act on marrow progenitors to raise leukocyte output"
+          ]
+        },
+        {
+          "h": "Use in chemotherapy",
+          "points": [
+            "Filgrastim started one day after chemotherapy, 5 µg/kg daily until neutrophil recovery",
+            "Sargramostim shortens neutropenia during intensive chemotherapy and mobilises CD34-positive progenitors",
+            "Growth factors are also used after high-dose therapy and marrow transplantation"
+          ]
+        },
+        {
+          "h": "Supportive measures",
+          "points": [
+            "Epoetin alfa for anaemia due to cancer chemotherapy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2-blood-130",
+      "type": "shortnote",
+      "front": "Short note: Drotrecogin alfa (recombinant activated protein C)",
+      "level": 3,
+      "sections": [
+        {
+          "h": "What it is",
+          "points": [
+            "Recombinant form of human activated protein C",
+            "Inactivates factors Va and VIIIa, so it slows thrombin formation",
+            "Also has anti-inflammatory action"
+          ]
+        },
+        {
+          "h": "Use as originally labelled",
+          "points": [
+            "Given as a 96-hour continuous infusion",
+            "For adults with severe sepsis at high risk of death",
+            "Started within 48 hours of onset of organ dysfunction"
+          ]
+        },
+        {
+          "h": "Main hazard",
+          "points": [
+            "Bleeding is the major adverse effect"
+          ]
+        },
+        {
+          "h": "Current status",
+          "points": [
+            "GG12 reported a mortality reduction in high-risk sepsis",
+            "Katzung16 records withdrawal in 2011 after a follow-up study showed no survival benefit",
+            "Withdrawn drug: the newer book's status is the one to quote"
+          ]
+        },
+        {
+          "h": "Related withdrawn drug",
+          "points": [
+            "Aprotinin, a serine protease inhibitor that cut surgical bleeding, was removed in 2007",
+            "Linked to renal failure, heart attack and stroke risk"
+          ]
+        }
+      ],
+      "refs": [
+        "GG12 PDF p885",
+        "Katzung16 ch34"
+      ],
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-blood-131",
+      "type": "shortnote",
+      "front": "Short note: Transfusion-based and factor haemostatic products",
+      "level": 3,
+      "sections": [
+        {
+          "h": "Whole blood and plasma",
+          "points": [
+            "Fresh whole blood supplies ready-made clotting factors and replaces lost blood",
+            "Fresh frozen plasma is the alternative source of factors",
+            "Plasma is used where no recombinant form of a factor exists"
+          ]
+        },
+        {
+          "h": "Cryoprecipitate",
+          "points": [
+            "Plasma protein fraction prepared from whole blood",
+            "Treats fibrinogen deficiency or dysfunction, as in DIC and liver disease",
+            "Also carries factor VIII and von Willebrand factor; used for those only when safer products are unavailable"
+          ]
+        },
+        {
+          "h": "Four-factor prothrombin complex concentrate",
+          "points": [
+            "Contains factors II, VII, IX and X",
+            "Rapid reversal of warfarin in serious bleeding, with intravenous vitamin K",
+            "Single vitamin K dose may not be enough because warfarin has a long effect",
+            "Alternative to andexanet for life-threatening bleeding on rivaroxaban or apixaban"
+          ]
+        },
+        {
+          "h": "Recombinant factor VIIa",
+          "points": [
+            "Used in haemophilia with inhibitors",
+            "Used for bleeding with invasive procedures and for factor VII deficiency",
+            "Off-label use in trauma, surgery and intracerebral haemorrhage; arterial thrombosis is a concern"
+          ]
+        },
+        {
+          "h": "Antithrombin products",
+          "points": [
+            "Recombinant antithrombin prevents thromboembolism around surgery or childbirth in hereditary deficiency",
+            "Antithrombin concentrate treats thrombosis in the same deficiency"
+          ]
+        },
+        {
+          "h": "Practical point",
+          "points": [
+            "These products are costly and their indications are narrow",
+            "Consult a haematologist before use"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch34"
+      ],
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-blood-132",
+      "type": "basic",
+      "front": "What is cryoprecipitate, and which bleeding does it treat?",
+      "level": 1,
+      "back": "A plasma protein fraction made from whole blood. Each unit carries about 300 mg of fibrinogen, so it treats fibrinogen deficiency or dysfunction, such as in DIC and liver disease.",
+      "refs": [
+        "Katzung16 ch34"
+      ],
+      "subtopic": "p2-blood-fibrinolytics",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-blood-133",
+      "type": "basic",
+      "front": "Transfusion siderosis: which chelator removes the chronic iron overload?",
+      "level": 1,
+      "back": "Desferrioxamine (deferoxamine), given i.m. or i.v. The i.v. infusion can run alongside a transfusion. Oral deferasirox or deferiprone are alternatives.",
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-blood-134",
+      "type": "shortnote",
+      "front": "Short note: Chronic iron overload (transfusion siderosis) and its chelation",
+      "level": 2,
+      "sections": [
+        {
+          "h": "Cause",
+          "points": [
+            "Repeated blood transfusion, e.g. in thalassaemia",
+            "Excess haemolysis adds to the iron load"
+          ]
+        },
+        {
+          "h": "Injectable chelator",
+          "points": [
+            "Desferrioxamine removes the chronic iron load",
+            "Given i.m. or i.v.; the i.v. infusion can run with a transfusion",
+            "Histamine release can cause fall in BP, flushing and urticaria",
+            "Repeated use can change the lens and retina"
+          ]
+        },
+        {
+          "h": "Oral chelators",
+          "points": [
+            "Deferiprone is orally active but less effective than desferrioxamine; neutropenia, rarely agranulocytosis",
+            "Deferasirox is once-daily oral; lowers serum ferritin and hepatic iron; excreted in bile",
+            "Deferasirox adverse effects: nausea, rash, skin discolouration; rarely GI bleeding or renal failure"
+          ]
+        },
+        {
+          "h": "Monitoring",
+          "points": [
+            "Deferasirox dose is adjusted by serum ferritin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "subtopic": "p2-blood-iron-haematinics",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        }
+      ]
     }
   ]
 }

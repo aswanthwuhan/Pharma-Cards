@@ -15,7 +15,8 @@
       "subtopic": "p3-amr-other-tetracyclines",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-002",
@@ -30,7 +31,72 @@
       "subtopic": "p3-amr-other-tetracyclines",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-005",
+      "type": "cloze",
+      "front": "Which sexually transmitted and atypical infections are first-line for tetracyclines?",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "uses"
+      ],
+      "text": "{{Chlamydial}} urethritis and cervicitis (doxycycline for 7 days); {{lymphogranuloma venereum}}; {{granuloma inguinale}} (about 3 weeks); {{Mycoplasma}} pneumonia and {{psittacosis}}; cholera as an {{adjunct}} that reduces stool volume.",
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-008",
+      "type": "basic",
+      "front": "How does chloramphenicol act, and how does its spectrum differ from tetracyclines?",
+      "back": "It binds the 50S ribosome near the acceptor site and blocks peptide bond formation, while aminoacyl-tRNA binding to the 30S unit is unaffected. It is mainly bacteriostatic. Compared with tetracyclines it is more active against H. influenzae, N. meningitidis, B. pertussis and B. fragilis, and less active against gram-positive cocci and spirochaetes.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-009",
+      "type": "cloze",
+      "front": "Chloramphenicol: classify its bone marrow toxicity.",
+      "text": "Dose-related marrow suppression is {{predictable}} and usually {{reversible}}; the idiosyncratic aplastic anaemia is rare (about 1 in {{40,000}}), often fatal, probably genetic, and survivors may later develop {{leukaemia}}.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-010",
+      "type": "basic",
+      "front": "What is grey baby syndrome, and when does it occur?",
+      "back": "A toxic reaction to chloramphenicol given at high doses (about 100 mg/kg), mainly prophylactically to premature or newborn infants. Their liver cannot conjugate the drug and their kidney cannot clear it well. Features: feeding refusal, vomiting, hypotonia, hypothermia, abdominal distension, irregular breathing and ashen grey cyanosis, progressing to circulatory collapse and death. Blood lactate rises. Chloramphenicol should be avoided in neonates.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-003",
@@ -46,7 +112,8 @@
       "tags": [
         "pk",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-004",
@@ -62,22 +129,8 @@
       "tags": [
         "pk",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-other-005",
-      "type": "cloze",
-      "front": "Which sexually transmitted and atypical infections are first-line for tetracyclines?",
-      "refs": [
-        "KDT8 ch53"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-tetracyclines",
-      "tags": [
-        "uses"
-      ],
-      "text": "{{Chlamydial}} urethritis and cervicitis (doxycycline for 7 days); {{lymphogranuloma venereum}}; {{granuloma inguinale}} (about 3 weeks); {{Mycoplasma}} pneumonia and {{psittacosis}}; cholera as an {{adjunct}} that reduces stool volume."
+      "level": 2
     },
     {
       "id": "p3-amr-other-006",
@@ -92,7 +145,8 @@
       "subtopic": "p3-amr-other-tetracyclines",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-007",
@@ -108,52 +162,8 @@
       "tags": [
         "newer-drugs",
         "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-other-008",
-      "type": "basic",
-      "front": "How does chloramphenicol act, and how does its spectrum differ from tetracyclines?",
-      "back": "It binds the 50S ribosome near the acceptor site and blocks peptide bond formation, while aminoacyl-tRNA binding to the 30S unit is unaffected. It is mainly bacteriostatic. Compared with tetracyclines it is more active against H. influenzae, N. meningitidis, B. pertussis and B. fragilis, and less active against gram-positive cocci and spirochaetes.",
-      "refs": [
-        "KDT8 ch53"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-tetracyclines",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-other-009",
-      "type": "cloze",
-      "front": "Chloramphenicol: classify its bone marrow toxicity.",
-      "text": "Dose-related marrow suppression is {{predictable}} and usually {{reversible}}; the idiosyncratic aplastic anaemia is rare (about 1 in {{40,000}}), often fatal, probably genetic, and survivors may later develop {{leukaemia}}.",
-      "refs": [
-        "KDT8 ch53"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-tetracyclines",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-other-010",
-      "type": "basic",
-      "front": "What is grey baby syndrome, and when does it occur?",
-      "back": "A toxic reaction to chloramphenicol given at high doses (about 100 mg/kg), mainly prophylactically to premature or newborn infants. Their liver cannot conjugate the drug and their kidney cannot clear it well. Features: feeding refusal, vomiting, hypotonia, hypothermia, abdominal distension, irregular breathing and ashen grey cyanosis, progressing to circulatory collapse and death. Blood lactate rises. Chloramphenicol should be avoided in neonates.",
-      "refs": [
-        "KDT8 ch53"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-tetracyclines",
-      "tags": [
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p3-amr-other-011",
@@ -168,7 +178,25 @@
       "subtopic": "p3-amr-other-tetracyclines",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-064",
+      "type": "cloze",
+      "front": "Newer tetracycline congeners designed to overcome resistance",
+      "text": "Tetracycline congeners engineered to overcome resistance include the glycylcycline {{tigecycline}}, the fluorocycline {{eravacycline}} and the aminomethylcycline {{omadacycline}}. Tigecycline and eravacycline are given only {{intravenously}}, while omadacycline can be given orally or i.v.; omadacycline is approved for community-acquired bacterial {{pneumonia}}.",
+      "refs": [
+        "GG14 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "newer-drugs",
+        "classification"
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-012",
@@ -216,38 +244,8 @@
       "tags": [
         "uses",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-other-013",
-      "type": "basic",
-      "front": "How does tetracycline affect teeth and bone, and does the timing of exposure matter?",
-      "back": "Calcium-tetracycline chelate is deposited in developing teeth and bone. Exposure from mid-pregnancy to about 5 months after birth causes brown discolouration and malformed deciduous teeth that are prone to caries. Exposure from about 3 months to 6 years affects the crowns of permanent anterior teeth, and repeated courses are worse. Late pregnancy or childhood exposure can temporarily suppress bone growth.",
-      "refs": [
-        "KDT8 ch53"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-tet-adr",
-      "tags": [
-        "adr",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p3-amr-other-014",
-      "type": "cloze",
-      "front": "In which situations should tetracyclines be avoided or used with caution?",
-      "refs": [
-        "KDT8 ch53"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-tet-adr",
-      "tags": [
-        "contraindications"
-      ],
-      "text": "Avoid tetracyclines in {{pregnancy}}, {{lactation}} and {{children}}; avoid with {{diuretics}} (blood urea rises); caution in renal or hepatic insufficiency; never mix injectable tetracycline with {{penicillin}}."
+      "level": 3
     },
     {
       "id": "p3-amr-other-015",
@@ -308,7 +306,182 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "front": "Short note: Tetracycline first-choice indications",
+      "sections": [
+        {
+          "h": "Venereal and atypical infections",
+          "points": [
+            "Chlamydial urethritis and endocervicitis",
+            "Lymphogranuloma venereum; donovanosis"
+          ]
+        },
+        {
+          "h": "Zoonoses and rickettsia",
+          "points": [
+            "Brucellosis: doxycycline plus rifampin for 6 weeks",
+            "Plague, bubonic and pneumonic: effective; preferred for mass treatment"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Resistance is widespread",
+            "Avoided in pregnancy and young children"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "tags": [
+        "uses"
+      ],
+      "id": "p3-amr-other-070",
+      "status": "draft",
+      "pyq": [],
+      "level": 3
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "front": "Short note: Chloramphenicol: restricted uses and safety",
+      "sections": [
+        {
+          "h": "Actions and disposition",
+          "points": [
+            "Bacteriostatic; freely penetrates tissues",
+            "Glucuronide conjugation in liver; neonates and cirrhotics handle it poorly"
+          ]
+        },
+        {
+          "h": "Accepted uses",
+          "points": [
+            "Pyogenic meningitis when cephalosporins unsuitable (third generation first)",
+            "Endophthalmitis; topical eye and ear use"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Bone marrow aplasia risk, so restricted systemic use",
+            "Typhoid: resistance now makes it unreliable; relapse about 10%"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "tags": [
+        "adr"
+      ],
+      "id": "p3-amr-other-071",
+      "status": "draft",
+      "pyq": [],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-other-013",
+      "type": "basic",
+      "front": "How does tetracycline affect teeth and bone, and does the timing of exposure matter?",
+      "back": "Calcium-tetracycline chelate is deposited in developing teeth and bone. Exposure from mid-pregnancy to about 5 months after birth causes brown discolouration and malformed deciduous teeth that are prone to caries. Exposure from about 3 months to 6 years affects the crowns of permanent anterior teeth, and repeated courses are worse. Late pregnancy or childhood exposure can temporarily suppress bone growth.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tet-adr",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-076",
+      "type": "basic",
+      "front": "Which tetracycline is most likely to cause photosensitivity, and which one causes diabetes insipidus?",
+      "back": "Demeclocycline and doxycycline show the highest phototoxicity (sunburn-like skin reaction on exposed parts). Demeclocycline also blocks ADH action on the kidney, lowering urine-concentrating ability, so it causes nephrogenic diabetes insipidus.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tet-adr",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-077",
+      "type": "basic",
+      "front": "Why can outdated tetracycline capsules damage the kidney?",
+      "back": "Heat, moisture and acid degrade tetracycline into epitetracycline, anhydrotetracycline and epianhydrotetracycline. These injure proximal tubules and give a reversible Fanconi-like syndrome. So expired tetracycline must not be used.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tet-adr",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-078",
+      "type": "basic",
+      "front": "Which tetracycline causes vestibular toxicity, and why are superinfections common with this class?",
+      "back": "Minocycline causes vertigo, ataxia and nystagmus that resolve on stopping it. All tetracyclines suppress resident flora strongly, so superinfection (intestinal candidiasis most prominent; rarely pseudomembranous enterocolitis) is frequent, more so at higher doses.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tet-adr",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-014",
+      "type": "cloze",
+      "front": "In which situations should tetracyclines be avoided or used with caution?",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tet-adr",
+      "tags": [
+        "contraindications"
+      ],
+      "text": "Avoid tetracyclines in {{pregnancy}}, {{lactation}} and {{children}}; avoid with {{diuretics}} (blood urea rises); caution in renal or hepatic insufficiency; never mix injectable tetracycline with {{penicillin}}.",
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-079",
+      "type": "basic",
+      "front": "A pregnant woman with a kidney problem needs an antibiotic. Why are tetracyclines a poor choice, and which one is least harmful to the kidney?",
+      "back": "Tetracyclines can precipitate fatal acute hepatic necrosis in pregnancy, chelate into developing fetal teeth and bone, and (except doxycycline) accumulate and worsen renal failure. Doxycycline has the lowest renal toxicity, but pregnancy still contraindicates the class.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tet-adr",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-016",
@@ -356,7 +529,8 @@
       "subtopic": "p3-amr-other-tet-adr",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-amr-other-017",
@@ -371,7 +545,8 @@
       "subtopic": "p3-amr-other-aminoglycosides",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-018",
@@ -386,37 +561,8 @@
       "subtopic": "p3-amr-other-aminoglycosides",
       "tags": [
         "pk"
-      ]
-    },
-    {
-      "id": "p3-amr-other-019",
-      "type": "basic",
-      "front": "Why are aminoglycosides increasingly given once daily?",
-      "back": "They kill in a concentration-dependent way and have a long post-antibiotic effect, so a single high dose works as well as divided doses. Lower levels for longer each day let drug wash out of the endolymph and renal cortex, so single daily dosing is less nephrotoxic with equal efficacy, and it is cheaper. No regimen is less ototoxic than another. Avoid extended-interval dosing in renal insufficiency, in children, and when a beta-lactam is combined for endocarditis.",
-      "refs": [
-        "KDT8 ch54"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-aminoglycosides",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p3-amr-other-020",
-      "type": "basic",
-      "front": "How is an aminoglycoside dose adjusted for reduced renal function?",
-      "back": "Renal clearance parallels creatinine clearance (about two-thirds of it), so no reduction is needed while CLcr is above about 70 mL/min. Below that, reduce the daily dose or lengthen the interval according to measured CLcr. Elderly patients and neonates accumulate the drug, so they need the same adjustment.",
-      "refs": [
-        "KDT8 ch54"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-aminoglycosides",
-      "tags": [
-        "dosing"
-      ]
+      "level": 1
     },
     {
       "id": "p3-amr-other-021",
@@ -432,7 +578,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-022",
@@ -448,7 +595,56 @@
       "subtopic": "p3-amr-other-aminoglycosides",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-025",
+      "type": "cloze",
+      "front": "Classify the gut-acting aminoglycosides and their uses.",
+      "text": "Oral {{neomycin}} is used for {{bowel preparation}} before surgery and for {{hepatic encephalopathy}}; {{paromomycin}} is given orally for intestinal {{amoebiasis}} and {{giardiasis}}. Neither is absorbed, but systemic use of neomycin is avoided because of {{ototoxicity}} and {{nephrotoxicity}}.",
+      "refs": [
+        "KDT8 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-aminoglycosides",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-019",
+      "type": "basic",
+      "front": "Why are aminoglycosides increasingly given once daily?",
+      "back": "They kill in a concentration-dependent way and have a long post-antibiotic effect, so a single high dose works as well as divided doses. Lower levels for longer each day let drug wash out of the endolymph and renal cortex, so single daily dosing is less nephrotoxic with equal efficacy, and it is cheaper. No regimen is less ototoxic than another. Avoid extended-interval dosing in renal insufficiency, in children, and when a beta-lactam is combined for endocarditis.",
+      "refs": [
+        "KDT8 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-aminoglycosides",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-020",
+      "type": "basic",
+      "front": "How is an aminoglycoside dose adjusted for reduced renal function?",
+      "back": "Renal clearance parallels creatinine clearance (about two-thirds of it), so no reduction is needed while CLcr is above about 70 mL/min. Below that, reduce the daily dose or lengthen the interval according to measured CLcr. Elderly patients and neonates accumulate the drug, so they need the same adjustment.",
+      "refs": [
+        "KDT8 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-aminoglycosides",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-023",
@@ -464,7 +660,8 @@
       "subtopic": "p3-amr-other-aminoglycosides",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-024",
@@ -479,22 +676,8 @@
       "subtopic": "p3-amr-other-aminoglycosides",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-other-025",
-      "type": "cloze",
-      "front": "Classify the gut-acting aminoglycosides and their uses.",
-      "text": "Oral {{neomycin}} is used for {{bowel preparation}} before surgery and for {{hepatic encephalopathy}}; {{paromomycin}} is given orally for intestinal {{amoebiasis}} and {{giardiasis}}. Neither is absorbed, but systemic use of neomycin is avoided because of {{ototoxicity}} and {{nephrotoxicity}}.",
-      "refs": [
-        "KDT8 ch54"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-aminoglycosides",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-amr-other-026",
@@ -509,7 +692,8 @@
       "subtopic": "p3-amr-other-aminoglycosides",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-027",
@@ -558,7 +742,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-amr-other-028",
@@ -618,7 +803,46 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-amr-other-aminoglycosides",
+      "front": "Short note: Gentamicin, amikacin and streptomycin compared",
+      "sections": [
+        {
+          "h": "Gentamicin",
+          "points": [
+            "First-line; cheapest except streptomycin",
+            "3 to 5 mg/kg/day; SABE 1 mg/kg 8-hourly i.m. with a penicillin"
+          ]
+        },
+        {
+          "h": "Amikacin",
+          "points": [
+            "Kanamycin derivative resistant to many modifying enzymes",
+            "Reserve for hospital-acquired gram-negative infection; 15 mg/kg/day"
+          ]
+        },
+        {
+          "h": "Streptomycin",
+          "points": [
+            "Vestibular disturbances in about 1/5 at 1 g BD",
+            "Lowest nephrotoxicity; not used topically; avoided in pregnancy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch54"
+      ],
+      "tags": [
+        "uses"
+      ],
+      "id": "p3-amr-other-072",
+      "status": "draft",
+      "pyq": [],
+      "level": 3
     },
     {
       "id": "p3-amr-other-029",
@@ -633,7 +857,8 @@
       "subtopic": "p3-amr-other-aminoglycoside-tox",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-030",
@@ -648,22 +873,8 @@
       "subtopic": "p3-amr-other-aminoglycoside-tox",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-other-031",
-      "type": "basic",
-      "front": "How is gentamicin monitored to limit toxicity?",
-      "back": "By the trough plasma concentration. Vestibular damage becomes concentration-dependent above about 2 mcg/mL, so dosing should keep the measured trough below 1 mcg/mL. Dose by renal function.",
-      "refs": [
-        "KDT8 ch54"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-aminoglycoside-tox",
-      "tags": [
-        "dosing"
-      ]
+      "level": 1
     },
     {
       "id": "p3-amr-other-032",
@@ -678,7 +889,24 @@
       "subtopic": "p3-amr-other-aminoglycoside-tox",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-031",
+      "type": "basic",
+      "front": "How is gentamicin monitored to limit toxicity?",
+      "back": "By the trough plasma concentration. Vestibular damage becomes concentration-dependent above about 2 mcg/mL, so dosing should keep the measured trough below 1 mcg/mL. Dose by renal function.",
+      "refs": [
+        "KDT8 ch54"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-aminoglycoside-tox",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-033",
@@ -693,7 +921,24 @@
       "subtopic": "p3-amr-other-aminoglycoside-tox",
       "tags": [
         "contraindications"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "type": "basic",
+      "subtopic": "p3-amr-other-aminoglycoside-tox",
+      "front": "Why does streptomycin cause fewer kidney problems than other aminoglycosides?",
+      "back": "It is not concentrated in the renal cortex (proximal tubule), where the other aminoglycosides accumulate.",
+      "refs": [
+        "KDT8 ch54"
+      ],
+      "tags": [
+        "adr"
+      ],
+      "id": "p3-amr-other-073",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
     },
     {
       "id": "p3-amr-other-034",
@@ -739,7 +984,8 @@
       "tags": [
         "adr",
         "dosing"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-amr-other-035",
@@ -754,37 +1000,8 @@
       "subtopic": "p3-amr-other-macrolides",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-other-036",
-      "type": "basic",
-      "front": "What are the main mechanisms of macrolide resistance, and what cross-resistance follows?",
-      "back": "Efflux pumps in cocci; plasmid-encoded methylase that alters the ribosomal binding site (the most important mechanism in Gram-positives); erythromycin esterase in enterobacteria; chromosomal 50S mutation in some. Resistance extends to other macrolides, and partly to clindamycin and chloramphenicol, whose ribosomal binding sites lie close together.",
-      "refs": [
-        "KDT8 ch55"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-macrolides",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-other-037",
-      "type": "basic",
-      "front": "Why is erythromycin dangerous with terfenadine, astemizole or cisapride?",
-      "back": "Erythromycin (and clarithromycin) inhibits CYP3A4, raising levels of the co-prescribed drug. Terfenadine, astemizole and cisapride then cause QT prolongation, serious ventricular arrhythmias and death, and these drugs were withdrawn. Erythromycin also raises levels of theophylline, carbamazepine, valproate, ergotamine and warfarin. Azithromycin interacts much less.",
-      "refs": [
-        "KDT8 ch55"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-macrolides",
-      "tags": [
-        "interactions"
-      ]
+      "level": 1
     },
     {
       "id": "p3-amr-other-038",
@@ -799,23 +1016,8 @@
       "subtopic": "p3-amr-other-macrolides",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-other-039",
-      "type": "basic",
-      "front": "What makes azithromycin preferable to erythromycin, and how should it be taken?",
-      "back": "It is acid-stable, better tolerated and has fewer CYP3A4 interactions. Tissue and intracellular concentrations are high, and the terminal half-life exceeds 50 hours, so short courses work once daily. Take it 1 hour before or 2 hours after food, because food reduces absorption. It is excreted mainly in bile, with little renal excretion. The child dose is 10 mg/kg/day.",
-      "refs": [
-        "KDT8 ch55"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-macrolides",
-      "tags": [
-        "pk",
-        "dosing"
-      ]
+      "level": 1
     },
     {
       "id": "p3-amr-other-040",
@@ -830,7 +1032,8 @@
       "tags": [
         "uses"
       ],
-      "text": "Urogenital chlamydia: {{single 1 g dose}}; chancroid and PPNG: {{single 1 g dose}}; lymphogranuloma venereum: {{1 g weekly for 3 weeks}}; donovanosis: {{500 mg daily for 7 days}} or 1 g weekly for 4 weeks; Legionnaires pneumonia: {{500 mg daily for 2 weeks}}."
+      "text": "Urogenital chlamydia: {{single 1 g dose}}; chancroid and PPNG: {{single 1 g dose}}; lymphogranuloma venereum: {{1 g weekly for 3 weeks}}; donovanosis: {{500 mg daily for 7 days}} or 1 g weekly for 4 weeks; Legionnaires pneumonia: {{500 mg daily for 2 weeks}}.",
+      "level": 1
     },
     {
       "id": "p3-amr-other-041",
@@ -846,7 +1049,93 @@
       "tags": [
         "classification",
         "newer-drugs"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-043",
+      "type": "basic",
+      "front": "Clindamycin: mechanism, spectrum and where it is most useful.",
+      "back": "A lincosamide that binds the 50S ribosome like erythromycin, with partial cross-resistance: a constitutive ribosomal methylase confers resistance to both, while an inducible one may allow selection of resistant staphylococci during therapy. It covers most streptococci, penicillinase-producing staphylococci and most anaerobes, especially Bacteroides fragilis. KDT lists it as inactive against MRSA, but GG14 notes it is useful for oral treatment of skin infections where MRSA is a possible pathogen. It is inactive against aerobic Gram-negative bacilli, enterococci, Mycoplasma, Chlamydia and Rickettsia. It penetrates bone well but not the CSF. Because it inhibits toxin production, GG14 recommends it as an adjunct in toxin-mediated streptococcal and staphylococcal infection.",
+      "refs": [
+        "KDT8 ch55",
+        "GG14 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-macrolides",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-036",
+      "type": "basic",
+      "front": "What are the main mechanisms of macrolide resistance, and what cross-resistance follows?",
+      "back": "Efflux pumps in cocci; plasmid-encoded methylase that alters the ribosomal binding site (the most important mechanism in Gram-positives); erythromycin esterase in enterobacteria; chromosomal 50S mutation in some. Resistance extends to other macrolides, and partly to clindamycin and chloramphenicol, whose ribosomal binding sites lie close together.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-macrolides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-037",
+      "type": "basic",
+      "front": "Why is erythromycin dangerous with terfenadine, astemizole or cisapride?",
+      "back": "Erythromycin (and clarithromycin) inhibits CYP3A4, raising levels of the co-prescribed drug. Terfenadine, astemizole and cisapride then cause QT prolongation, serious ventricular arrhythmias and death, and these drugs were withdrawn. Erythromycin also raises levels of theophylline, carbamazepine, valproate, ergotamine and warfarin. Azithromycin interacts much less.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-macrolides",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-039",
+      "type": "basic",
+      "front": "What makes azithromycin preferable to erythromycin, and how should it be taken?",
+      "back": "It is acid-stable, better tolerated and has fewer CYP3A4 interactions. Tissue and intracellular concentrations are high, and the terminal half-life exceeds 50 hours, so short courses work once daily. Take it 1 hour before or 2 hours after food, because food reduces absorption. It is excreted mainly in bile, with little renal excretion. The child dose is 10 mg/kg/day.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-macrolides",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-044",
+      "type": "basic",
+      "front": "What is the most serious adverse effect of clindamycin, and how is it managed?",
+      "back": "Antibiotic-associated pseudomembranous colitis from Clostridioides difficile overgrowth, which can be fatal; clindamycin carries one of the highest risks of this among antibiotics. Stop the drug at once. KDT gives oral metronidazole as first choice and oral vancomycin as the alternative; GG14 states that oral vancomycin or fidaxomicin are now preferred, with metronidazole only for non-severe disease, and i.v. metronidazole added to oral vancomycin in fulminant disease. Clindamycin is therefore reserved for anaerobic and mixed infections and for skin infection in penicillin-allergic patients. Other effects include rash and rarely raised liver enzymes.",
+      "refs": [
+        "KDT8 ch55",
+        "GG14 ch60",
+        "GG14 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-macrolides",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-other-042",
@@ -911,41 +1200,45 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-amr-other-043",
-      "type": "basic",
-      "front": "Clindamycin: mechanism, spectrum and where it is most useful.",
-      "back": "A lincosamide that binds the 50S ribosome like erythromycin, with partial cross-resistance: a constitutive ribosomal methylase confers resistance to both, while an inducible one may allow selection of resistant staphylococci during therapy. It covers most streptococci, penicillinase-producing staphylococci and most anaerobes, especially Bacteroides fragilis. KDT lists it as inactive against MRSA, but GG14 notes it is useful for oral treatment of skin infections where MRSA is a possible pathogen. It is inactive against aerobic Gram-negative bacilli, enterococci, Mycoplasma, Chlamydia and Rickettsia. It penetrates bone well but not the CSF. Because it inhibits toxin production, GG14 recommends it as an adjunct in toxin-mediated streptococcal and staphylococcal infection.",
-      "refs": [
-        "KDT8 ch55",
-        "GG14 ch60"
-      ],
-      "pyq": [],
-      "status": "draft",
+      "type": "shortnote",
       "subtopic": "p3-amr-other-macrolides",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-other-044",
-      "type": "basic",
-      "front": "What is the most serious adverse effect of clindamycin, and how is it managed?",
-      "back": "Antibiotic-associated pseudomembranous colitis from Clostridioides difficile overgrowth, which can be fatal; clindamycin carries one of the highest risks of this among antibiotics. Stop the drug at once. KDT gives oral metronidazole as first choice and oral vancomycin as the alternative; GG14 states that oral vancomycin or fidaxomicin are now preferred, with metronidazole only for non-severe disease, and i.v. metronidazole added to oral vancomycin in fulminant disease. Clindamycin is therefore reserved for anaerobic and mixed infections and for skin infection in penicillin-allergic patients. Other effects include rash and rarely raised liver enzymes.",
-      "refs": [
-        "KDT8 ch55",
-        "GG14 ch60",
-        "GG14 ch57"
+      "front": "Short note: Azithromycin versus erythromycin",
+      "sections": [
+        {
+          "h": "Advantages",
+          "points": [
+            "Better efficacy and gastric tolerance",
+            "Once-daily dosing; half-life over 50 hours",
+            "Expanded spectrum and fewer interactions"
+          ]
+        },
+        {
+          "h": "Elimination",
+          "points": [
+            "Largely unchanged in bile; about 10% renal"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Erythromycin remains a penicillin alternative; estolate hepatotoxic"
+          ]
+        }
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-macrolides",
+      "refs": [
+        "KDT8 ch55"
+      ],
       "tags": [
-        "adr"
-      ]
+        "pk"
+      ],
+      "id": "p3-amr-other-074",
+      "status": "draft",
+      "pyq": [],
+      "level": 3
     },
     {
       "id": "p3-amr-other-045",
@@ -961,7 +1254,8 @@
       "subtopic": "p3-amr-other-glycopeptides",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-046",
@@ -977,7 +1271,47 @@
       "subtopic": "p3-amr-other-glycopeptides",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-048",
+      "type": "cloze",
+      "front": "List the main uses of vancomycin.",
+      "refs": [
+        "KDT8 ch55",
+        "GG14 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-glycopeptides",
+      "tags": [
+        "uses"
+      ],
+      "text": "Systemic: {{serious MRSA}} infection; {{enterococcal endocarditis}} with an aminoglycoside in penicillin-allergic patients; empirical {{bacterial meningitis}} with a cephalosporin; surgical {{prophylaxis}} where MRSA is common or in beta-lactam allergy. Oral (not absorbed): {{C. difficile}} colitis, for which GG14 lists oral vancomycin as a drug of choice, and {{staphylococcal enterocolitis}}.",
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-050",
+      "type": "basic",
+      "front": "How does linezolid differ from other protein-synthesis inhibitors?",
+      "back": "It is an oxazolidinone that binds the 23S rRNA of the 50S subunit at the P site and blocks formation of the initiation complex, so protein synthesis never starts. It is mainly bacteriostatic and has no cross-resistance with other antibiotic classes; enterococci can become resistant through 23S rRNA mutation. Active against MRSA, VRE and penicillin-resistant pneumococci, but not Gram-negative bacilli.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-other-glycopeptides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-047",
@@ -994,23 +1328,105 @@
       "tags": [
         "adr",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-amr-other-048",
-      "type": "cloze",
-      "front": "List the main uses of vancomycin.",
+      "id": "p3-amr-other-051",
+      "type": "shortnote",
+      "front": "Short note: Linezolid toxicity and interactions",
       "refs": [
         "KDT8 ch55",
+        "GG14 ch60"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-glycopeptides",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "sections": [
+        {
+          "h": "Haematological",
+          "points": [
+            "Thrombocytopenia, neutropenia, anaemia after more than 2 weeks; usually reversible"
+          ]
+        },
+        {
+          "h": "Neuropathy",
+          "points": [
+            "Optic and peripheral neuropathy with prolonged use (KDT: beyond about 4 weeks)",
+            "Lactic acidosis, also mainly with prolonged courses (GG14)"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Weak MAO inhibitor: serotonin syndrome with SSRIs and serotonergic drugs",
+            "No cytochrome P450 interactions reported"
+          ]
+        },
+        {
+          "h": "Common effects",
+          "points": [
+            "Nausea, diarrhoea, taste disturbance; rarely rash, headache"
+          ]
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-053",
+      "type": "basic",
+      "front": "Daptomycin: mechanism, indications and key toxicity.",
+      "back": "A lipopeptide whose lipid tail inserts into the bacterial membrane, where molecules aggregate into pores. Potassium leaks out, the membrane depolarises, and DNA, RNA and protein synthesis stop. It is bactericidal only against Gram-positive bacteria, including MRSA and VRE. Indicated for complicated skin infections and S. aureus bacteraemia, not pneumonia. Dose 4 mg/kg daily for skin infection and 6 mg/kg daily for bacteraemia or endocarditis. Toxicity: myopathy and rhabdomyolysis, especially with statins; eosinophilic pneumonia after more than 2 weeks.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-glycopeptides",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-054",
+      "type": "cloze",
+      "front": "Which drugs are options for vancomycin-resistant Enterococcus (VRE)?",
+      "text": "Options named in the chapter include {{linezolid}}, {{daptomycin}}, {{tigecycline}} and {{quinupristin-dalfopristin}}; the last is not active against {{E. faecalis}}, and {{teicoplanin}} works only on some VRE strains.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-glycopeptides",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-063",
+      "type": "basic",
+      "front": "Lipoglycopeptides (telavancin, dalbavancin, oritavancin): how do they differ from vancomycin?",
+      "back": "Their antibacterial spectrum is broadly similar to vancomycin, and they are also active against some vancomycin-resistant enterococci. Dalbavancin and oritavancin are highly protein bound with a terminal half-life of about 10 days, so a single dose (or two doses a week apart) treats skin and soft-tissue infection. Telavancin is given once daily and was as effective as vancomycin in hospital-acquired Gram-positive pneumonia, but it may be more nephrotoxic than vancomycin. Oritavancin can affect warfarin, so monitor if they are combined.",
+      "refs": [
         "GG14 ch58"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p3-amr-other-glycopeptides",
       "tags": [
-        "uses"
+        "newer-drugs",
+        "pk",
+        "adr"
       ],
-      "text": "Systemic: {{serious MRSA}} infection; {{enterococcal endocarditis}} with an aminoglycoside in penicillin-allergic patients; empirical {{bacterial meningitis}} with a cephalosporin; surgical {{prophylaxis}} where MRSA is common or in beta-lactam allergy. Oral (not absorbed): {{C. difficile}} colitis, for which GG14 lists oral vancomycin as a drug of choice, and {{staphylococcal enterocolitis}}."
+      "level": 2
     },
     {
       "id": "p3-amr-other-049",
@@ -1063,72 +1479,8 @@
       "tags": [
         "newer-drugs",
         "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-other-050",
-      "type": "basic",
-      "front": "How does linezolid differ from other protein-synthesis inhibitors?",
-      "back": "It is an oxazolidinone that binds the 23S rRNA of the 50S subunit at the P site and blocks formation of the initiation complex, so protein synthesis never starts. It is mainly bacteriostatic and has no cross-resistance with other antibiotic classes; enterococci can become resistant through 23S rRNA mutation. Active against MRSA, VRE and penicillin-resistant pneumococci, but not Gram-negative bacilli.",
-      "refs": [
-        "KDT8 ch55"
       ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-amr-other-glycopeptides",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-other-051",
-      "type": "shortnote",
-      "front": "Short note: Linezolid toxicity and interactions",
-      "refs": [
-        "KDT8 ch55",
-        "GG14 ch60"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-glycopeptides",
-      "tags": [
-        "adr",
-        "interactions"
-      ],
-      "sections": [
-        {
-          "h": "Haematological",
-          "points": [
-            "Thrombocytopenia, neutropenia, anaemia after more than 2 weeks; usually reversible"
-          ]
-        },
-        {
-          "h": "Neuropathy",
-          "points": [
-            "Optic and peripheral neuropathy with prolonged use (KDT: beyond about 4 weeks)",
-            "Lactic acidosis, also mainly with prolonged courses (GG14)"
-          ]
-        },
-        {
-          "h": "Interactions",
-          "points": [
-            "Weak MAO inhibitor: serotonin syndrome with SSRIs and serotonergic drugs",
-            "No cytochrome P450 interactions reported"
-          ]
-        },
-        {
-          "h": "Common effects",
-          "points": [
-            "Nausea, diarrhoea, taste disturbance; rarely rash, headache"
-          ]
-        }
-      ]
+      "level": 3
     },
     {
       "id": "p3-amr-other-052",
@@ -1144,39 +1496,46 @@
       "subtopic": "p3-amr-other-glycopeptides",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-amr-other-053",
-      "type": "basic",
-      "front": "Daptomycin: mechanism, indications and key toxicity.",
-      "back": "A lipopeptide whose lipid tail inserts into the bacterial membrane, where molecules aggregate into pores. Potassium leaks out, the membrane depolarises, and DNA, RNA and protein synthesis stop. It is bactericidal only against Gram-positive bacteria, including MRSA and VRE. Indicated for complicated skin infections and S. aureus bacteraemia, not pneumonia. Dose 4 mg/kg daily for skin infection and 6 mg/kg daily for bacteraemia or endocarditis. Toxicity: myopathy and rhabdomyolysis, especially with statins; eosinophilic pneumonia after more than 2 weeks.",
+      "type": "shortnote",
+      "subtopic": "p3-amr-other-glycopeptides",
+      "front": "Short note: Vancomycin, teicoplanin and linezolid compared",
+      "sections": [
+        {
+          "h": "Vancomycin",
+          "points": [
+            "D-ala-D-ala binding; not orally absorbed",
+            "Permanent deafness risk; renal toxicity"
+          ]
+        },
+        {
+          "h": "Teicoplanin",
+          "points": [
+            "Long half-life, once daily",
+            "Less renal toxicity than vancomycin"
+          ]
+        },
+        {
+          "h": "Linezolid",
+          "points": [
+            "Protein synthesis at 23S rRNA; 600 mg BD",
+            "No renal dose change; 5-hour half-life"
+          ]
+        }
+      ],
       "refs": [
         "KDT8 ch55"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-glycopeptides",
       "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-other-054",
-      "type": "cloze",
-      "front": "Which drugs are options for vancomycin-resistant Enterococcus (VRE)?",
-      "text": "Options named in the chapter include {{linezolid}}, {{daptomycin}}, {{tigecycline}} and {{quinupristin-dalfopristin}}; the last is not active against {{E. faecalis}}, and {{teicoplanin}} works only on some VRE strains.",
-      "refs": [
-        "KDT8 ch55"
+        "mechanism"
       ],
-      "pyq": [],
+      "id": "p3-amr-other-075",
       "status": "draft",
-      "subtopic": "p3-amr-other-glycopeptides",
-      "tags": [
-        "uses",
-        "newer-drugs"
-      ]
+      "pyq": [],
+      "level": 3
     },
     {
       "id": "p3-amr-other-055",
@@ -1192,7 +1551,8 @@
       "subtopic": "p3-amr-other-polymyxins",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-056",
@@ -1208,7 +1568,8 @@
       "subtopic": "p3-amr-other-polymyxins",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-057",
@@ -1224,7 +1585,86 @@
         "mechanism",
         "uses"
       ],
-      "text": "{{Bacitracin}} is topical only, for wounds and eyes (kidney-toxic if given systemically); {{mupirocin}} treats impetigo and small wounds; {{fusidic acid}} treats penicillinase-producing staphylococcal boils and skin infection."
+      "text": "{{Bacitracin}} is topical only, for wounds and eyes (kidney-toxic if given systemically); {{mupirocin}} treats impetigo and small wounds; {{fusidic acid}} treats penicillinase-producing staphylococcal boils and skin infection.",
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-080",
+      "type": "basic",
+      "front": "Antibacterial spectrum and potency of polymyxin B versus colistin.",
+      "back": "Both are active against Gram-negative bacteria only; Proteus, Serratia and Neisseria are resistant. Activity is very similar, but colistin is more potent on Pseudomonas, Salmonella and Shigella. They have no cross-resistance with other antimicrobials and resistance has rarely been a problem.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-polymyxins",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-081",
+      "type": "basic",
+      "front": "Why are bacitracin and polymyxin used only topically, and what combination form do they come in?",
+      "back": "Bacitracin is not absorbed orally and is too toxic, especially to the kidney, to give parenterally. Polymyxin and colistin are barely absorbed from gut or denuded skin, so topically they are safe with no systemic effect or sensitisation. They are used for infected wounds, ulcers and eye infections, usually combined with neomycin.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-polymyxins",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-062",
+      "type": "shortnote",
+      "front": "Short note: Systemic polymyxins (colistimethate and polymyxin B)",
+      "sections": [
+        {
+          "h": "Indication",
+          "points": [
+            "Serious infection with Gram-negative bacteria resistant to other effective drugs (bacteraemia, pneumonia, meningitis, cystic fibrosis)",
+            "Usually combined with another antibiotic (carbapenem, tetracycline or aminoglycoside)",
+            "Reserved for organisms resistant to newer agents such as ceftazidime-avibactam"
+          ]
+        },
+        {
+          "h": "Forms and kinetics",
+          "points": [
+            "Colistin is given i.v. as colistimethate (CMS), an inactive prodrug slowly hydrolysed to colistin; renally cleared, so the dose is reduced in renal dysfunction",
+            "Polymyxin B is active as given and cleared mainly by non-renal routes",
+            "Polymyxin B is preferred for most systemic infections; CMS for infections arising in the urinary tract",
+            "CMS can also be inhaled, or given intraventricularly for CNS infection"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Dose-related nephrotoxicity from renal tubular damage, with a narrow therapeutic window",
+            "Neurotoxicity: muscle weakness, apnoea, paraesthesia, vertigo, slurred speech"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch59",
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-polymyxins",
+      "tags": [
+        "uses",
+        "adr",
+        "pk"
+      ],
+      "level": 3
     },
     {
       "id": "p3-amr-other-058",
@@ -1239,7 +1679,8 @@
       "subtopic": "p3-amr-other-urinary",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-other-059",
@@ -1256,7 +1697,24 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-069",
+      "type": "basic",
+      "subtopic": "p3-amr-other-urinary",
+      "front": "Why does a patient on nitrofurantoin have dark urine, and what drug is its only indication?",
+      "back": "Urine darkens to brown on standing in air; the only indication is uncomplicated lower UTI not linked to prostatitis, and it is now a reserve drug.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "tags": [
+        "adr"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p3-amr-other-060",
@@ -1272,7 +1730,72 @@
       "tags": [
         "contraindications",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-065",
+      "type": "basic",
+      "subtopic": "p3-amr-other-urinary",
+      "front": "Why are urinary antiseptics unsuitable for pyelonephritis or septicaemia?",
+      "back": "They are given orally to reach antibacterial concentration only in urine and have no systemic antibacterial effect; they do not reach blood or kidney tissue.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "tags": [
+        "classification"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-066",
+      "type": "basic",
+      "subtopic": "p3-amr-other-urinary",
+      "front": "When is methenamine useful, and when is it not?",
+      "back": "Useful only for chronic, resistant urinary infection not involving the kidney substance; ineffective for acute UTI or catheterisation prophylaxis. Resistance to formaldehyde does not develop.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "tags": [
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-067",
+      "type": "basic",
+      "subtopic": "p3-amr-other-urinary",
+      "front": "Why is urine acidification not attempted in urease-positive Proteus infection?",
+      "back": "Proteus splits urea into ammonia, so urine cannot be acidified; drugs that work better at higher pH are used instead.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-068",
+      "type": "basic",
+      "subtopic": "p3-amr-other-urinary",
+      "front": "Which UTI drugs are contraindicated or better avoided in renal impairment?",
+      "back": "Contraindicated: methenamine mandelate, tetracyclines (except doxycycline) and certain cephalosporins. Better avoided: nitrofurantoin, nalidixic acid and aminoglycosides.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "tags": [
+        "contraindications"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-amr-other-061",
@@ -1317,357 +1840,288 @@
       "subtopic": "p3-amr-other-urinary",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-amr-other-062",
+      "id": "p3-amr-other-082",
+      "type": "basic",
+      "front": "Fosfomycin: what class is it, what does it block, and where is it used?",
+      "back": "A phosphonic acid derivative that inhibits an early step of cell wall synthesis. It is active against E. coli, Proteus and Enterococcus, with some activity against Klebsiella and Enterobacter. The oral form is used as a single-dose treatment for acute uncomplicated cystitis; an i.v. form is used as an adjunct in some countries.",
+      "refs": [
+        "GG14 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-urinary",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-083",
+      "type": "basic",
+      "front": "What are the three stages of bacterial protein synthesis?",
+      "back": "Initiation (mRNA binds the 30S subunit and the initiation complex forms), elongation (each new aminoacyl-tRNA enters the A site and the chain is extended), and termination (a termination complex releases the finished protein).",
+      "refs": [
+        "KDT8 ch53",
+        "Golan p649"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-084",
+      "type": "basic",
+      "front": "What is the initiation complex in bacterial protein synthesis?",
+      "back": "The assembly of mRNA on the 30S ribosomal subunit with the start codon in place. It starts protein synthesis and leads on to polysome formation.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-085",
+      "type": "basic",
+      "front": "What are the P site and the A site of the ribosome?",
+      "back": "The P (peptidyl) site holds the growing peptide chain on the 50S subunit. The A (acceptor) site receives the next aminoacyl-tRNA, chosen by its match to the next mRNA codon.",
+      "refs": [
+        "KDT8 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-086",
+      "type": "basic",
+      "front": "What is translocation in protein synthesis?",
+      "back": "The step that moves the elongated peptide back from the A site to the P site, so the ribosome shifts along the mRNA and exposes the next codon. Erythromycin and clindamycin block this step.",
+      "refs": [
+        "KDT8 ch53",
+        "Katzung16 ch44"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-087",
+      "type": "basic",
+      "front": "Why do chloramphenicol, macrolides and clindamycin interfere with each other when given together?",
+      "back": "All three bind the 50S subunit close together, near the peptidyl transferase and A-site region. Each one reduces the binding of the others, so concurrent use can cancel their effects.",
+      "refs": [
+        "GG14 ch60",
+        "Katzung16 ch44"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-tetracyclines",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-other-088",
       "type": "shortnote",
-      "front": "Short note: Systemic polymyxins (colistimethate and polymyxin B)",
+      "front": "Short note: Ribosomal sites of action of protein synthesis inhibitors",
       "sections": [
         {
-          "h": "Indication",
+          "h": "30S subunit",
           "points": [
-            "Serious infection with Gram-negative bacteria resistant to other effective drugs (bacteraemia, pneumonia, meningitis, cystic fibrosis)",
-            "Usually combined with another antibiotic (carbapenem, tetracycline or aminoglycoside)",
-            "Reserved for organisms resistant to newer agents such as ceftazidime-avibactam"
+            "Aminoglycosides: freeze initiation, cause misreading, break up polysomes",
+            "Tetracyclines: block aminoacyl-tRNA from reaching the A site"
           ]
         },
         {
-          "h": "Forms and kinetics",
+          "h": "50S subunit",
           "points": [
-            "Colistin is given i.v. as colistimethate (CMS), an inactive prodrug slowly hydrolysed to colistin; renally cleared, so the dose is reduced in renal dysfunction",
-            "Polymyxin B is active as given and cleared mainly by non-renal routes",
-            "Polymyxin B is preferred for most systemic infections; CMS for infections arising in the urinary tract",
-            "CMS can also be inhaled, or given intraventricularly for CNS infection"
+            "Chloramphenicol: blocks peptide bond formation (peptidyl transferase)",
+            "Macrolides and clindamycin: block translocation of the peptide from A to P site"
           ]
         },
         {
-          "h": "Toxicity",
+          "h": "Initiation at 50S",
           "points": [
-            "Dose-related nephrotoxicity from renal tubular damage, with a narrow therapeutic window",
-            "Neurotoxicity: muscle weakness, apnoea, paraesthesia, vertigo, slurred speech"
+            "Linezolid: binds 23S rRNA at the P site; blocks the initiation complex"
           ]
         }
       ],
       "refs": [
+        "KDT8 ch53",
+        "KDT8 ch55",
         "GG14 ch59",
-        "KDT8 ch55"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-polymyxins",
-      "tags": [
-        "uses",
-        "adr",
-        "pk"
-      ]
-    },
-    {
-      "id": "p3-amr-other-063",
-      "type": "basic",
-      "front": "Lipoglycopeptides (telavancin, dalbavancin, oritavancin): how do they differ from vancomycin?",
-      "back": "Their antibacterial spectrum is broadly similar to vancomycin, and they are also active against some vancomycin-resistant enterococci. Dalbavancin and oritavancin are highly protein bound with a terminal half-life of about 10 days, so a single dose (or two doses a week apart) treats skin and soft-tissue infection. Telavancin is given once daily and was as effective as vancomycin in hospital-acquired Gram-positive pneumonia, but it may be more nephrotoxic than vancomycin. Oritavancin can affect warfarin, so monitor if they are combined.",
-      "refs": [
-        "GG14 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-other-glycopeptides",
-      "tags": [
-        "newer-drugs",
-        "pk",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-other-064",
-      "type": "cloze",
-      "front": "Newer tetracycline congeners designed to overcome resistance",
-      "text": "Tetracycline congeners engineered to overcome resistance include the glycylcycline {{tigecycline}}, the fluorocycline {{eravacycline}} and the aminomethylcycline {{omadacycline}}. Tigecycline and eravacycline are given only {{intravenously}}, while omadacycline can be given orally or i.v.; omadacycline is approved for community-acquired bacterial {{pneumonia}}.",
-      "refs": [
         "GG14 ch60"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p3-amr-other-tetracyclines",
       "tags": [
-        "newer-drugs",
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-amr-other-065",
-      "type": "basic",
-      "subtopic": "p3-amr-other-urinary",
-      "front": "Why are urinary antiseptics unsuitable for pyelonephritis or septicaemia?",
-      "back": "They are given orally to reach antibacterial concentration only in urine and have no systemic antibacterial effect; they do not reach blood or kidney tissue.",
-      "refs": [
-        "KDT8 ch55"
-      ],
-      "tags": [
+        "mechanism",
         "classification"
       ],
-      "pyq": [],
-      "status": "draft"
+      "level": 2
     },
     {
-      "id": "p3-amr-other-066",
-      "type": "basic",
-      "subtopic": "p3-amr-other-urinary",
-      "front": "When is methenamine useful, and when is it not?",
-      "back": "Useful only for chronic, resistant urinary infection not involving the kidney substance; ineffective for acute UTI or catheterisation prophylaxis. Resistance to formaldehyde does not develop.",
+      "id": "p3-amr-other-089",
+      "type": "essay",
+      "front": "Essay: Bacterial protein synthesis and the site of action of ribosome-acting antibiotics",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Protein synthesis runs on the 70S ribosome: 30S and 50S subunits",
+            "Several antibiotic classes target it, so each acts at a different step"
+          ]
+        },
+        {
+          "h": "Steps of synthesis",
+          "points": [
+            "Initiation: mRNA binds the 30S subunit; initiation complex forms",
+            "Elongation: aminoacyl-tRNA enters A site; peptide bond forms at P site; translocation",
+            "Termination: termination complex releases the protein"
+          ]
+        },
+        {
+          "h": "Sites of action",
+          "points": [
+            "30S: aminoglycosides (freeze initiation, misreading); tetracyclines (block A-site tRNA binding)",
+            "50S: chloramphenicol (peptidyl transferase); macrolides and clindamycin (block translocation); linezolid (blocks initiation at the P site)"
+          ]
+        },
+        {
+          "h": "Clinical and resistance points",
+          "points": [
+            "Tetracyclines and chloramphenicol are mainly bacteriostatic; aminoglycosides are bactericidal",
+            "Macrolides and clindamycin share a binding site, so resistance by ribosomal methylation affects both",
+            "Linezolid has no cross-resistance with other classes"
+          ]
+        }
+      ],
       "refs": [
-        "KDT8 ch55"
+        "KDT8 ch53",
+        "KDT8 ch55",
+        "GG14 ch59",
+        "GG14 ch60",
+        "Katzung16 ch44"
       ],
-      "tags": [
-        "uses"
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
       ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-amr-other-067",
-      "type": "basic",
-      "subtopic": "p3-amr-other-urinary",
-      "front": "Why is urine acidification not attempted in urease-positive Proteus infection?",
-      "back": "Proteus splits urea into ammonia, so urine cannot be acidified; drugs that work better at higher pH are used instead.",
-      "refs": [
-        "KDT8 ch55"
-      ],
-      "tags": [
-        "mechanism"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-amr-other-068",
-      "type": "basic",
-      "subtopic": "p3-amr-other-urinary",
-      "front": "Which UTI drugs are contraindicated or better avoided in renal impairment?",
-      "back": "Contraindicated: methenamine mandelate, tetracyclines (except doxycycline) and certain cephalosporins. Better avoided: nitrofurantoin, nalidixic acid and aminoglycosides.",
-      "refs": [
-        "KDT8 ch55"
-      ],
-      "tags": [
-        "contraindications"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-amr-other-069",
-      "type": "basic",
-      "subtopic": "p3-amr-other-urinary",
-      "front": "Why does a patient on nitrofurantoin have dark urine, and what drug is its only indication?",
-      "back": "Urine darkens to brown on standing in air; the only indication is uncomplicated lower UTI not linked to prostatitis, and it is now a reserve drug.",
-      "refs": [
-        "KDT8 ch55"
-      ],
-      "tags": [
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "type": "shortnote",
+      "status": "draft",
       "subtopic": "p3-amr-other-tetracyclines",
-      "front": "Short note: Tetracycline first-choice indications",
-      "sections": [
-        {
-          "h": "Venereal and atypical infections",
-          "points": [
-            "Chlamydial urethritis and endocervicitis",
-            "Lymphogranuloma venereum; donovanosis"
-          ]
-        },
-        {
-          "h": "Zoonoses and rickettsia",
-          "points": [
-            "Brucellosis: doxycycline plus rifampin for 6 weeks",
-            "Plague, bubonic and pneumonic: effective; preferred for mass treatment"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Resistance is widespread",
-            "Avoided in pregnancy and young children"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch53"
-      ],
       "tags": [
-        "uses"
+        "mechanism",
+        "classification"
       ],
-      "id": "p3-amr-other-070",
-      "status": "draft",
-      "pyq": []
+      "level": 3
     },
     {
-      "type": "shortnote",
-      "subtopic": "p3-amr-other-tetracyclines",
-      "front": "Short note: Chloramphenicol: restricted uses and safety",
-      "sections": [
-        {
-          "h": "Actions and disposition",
-          "points": [
-            "Bacteriostatic; freely penetrates tissues",
-            "Glucuronide conjugation in liver; neonates and cirrhotics handle it poorly"
-          ]
-        },
-        {
-          "h": "Accepted uses",
-          "points": [
-            "Pyogenic meningitis when cephalosporins unsuitable (third generation first)",
-            "Endophthalmitis; topical eye and ear use"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Bone marrow aplasia risk, so restricted systemic use",
-            "Typhoid: resistance now makes it unreliable; relapse about 10%"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch53"
-      ],
-      "tags": [
-        "adr"
-      ],
-      "id": "p3-amr-other-071",
-      "status": "draft",
-      "pyq": []
-    },
-    {
-      "type": "shortnote",
-      "subtopic": "p3-amr-other-aminoglycosides",
-      "front": "Short note: Gentamicin, amikacin and streptomycin compared",
-      "sections": [
-        {
-          "h": "Gentamicin",
-          "points": [
-            "First-line; cheapest except streptomycin",
-            "3 to 5 mg/kg/day; SABE 1 mg/kg 8-hourly i.m. with a penicillin"
-          ]
-        },
-        {
-          "h": "Amikacin",
-          "points": [
-            "Kanamycin derivative resistant to many modifying enzymes",
-            "Reserve for hospital-acquired gram-negative infection; 15 mg/kg/day"
-          ]
-        },
-        {
-          "h": "Streptomycin",
-          "points": [
-            "Vestibular disturbances in about 1/5 at 1 g BD",
-            "Lowest nephrotoxicity; not used topically; avoided in pregnancy"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch54"
-      ],
-      "tags": [
-        "uses"
-      ],
-      "id": "p3-amr-other-072",
-      "status": "draft",
-      "pyq": []
-    },
-    {
+      "id": "p3-amr-other-090",
       "type": "basic",
-      "subtopic": "p3-amr-other-aminoglycoside-tox",
-      "front": "Why does streptomycin cause fewer kidney problems than other aminoglycosides?",
-      "back": "It is not concentrated in the renal cortex (proximal tubule), where the other aminoglycosides accumulate.",
+      "front": "What is phenazopyridine, and does it treat the infection?",
+      "back": "An azo dye with analgesic action on the urinary tract. It relieves burning, frequency, urgency and dysuria but has no antibacterial action, so it does not clear the infection.",
       "refs": [
-        "KDT8 ch54"
+        "KDT8 PDF p1023",
+        "Satoskar PDF p1121"
       ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-urinary",
       "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-other-091",
+      "type": "basic",
+      "front": "A woman with cystitis is given an antibiotic plus phenazopyridine. Why, and what should she be told?",
+      "back": "Phenazopyridine eases bladder and urethral symptoms while the antibiotic works, so the two are given together. Usual dose is 200 mg three times daily. Warn her that urine turns orange-red and can stain clothing, and that nausea or gastric upset may occur.",
+      "refs": [
+        "KDT8 PDF p1023",
+        "Satoskar PDF p1121",
+        "GG12 PDF p1500",
+        "Padmaja PDF p576"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-other-urinary",
+      "tags": [
+        "uses",
         "adr"
       ],
-      "id": "p3-amr-other-073",
-      "status": "draft",
-      "pyq": []
+      "level": 2
     },
     {
+      "id": "p3-amr-other-092",
       "type": "shortnote",
-      "subtopic": "p3-amr-other-macrolides",
-      "front": "Short note: Azithromycin versus erythromycin",
+      "front": "Short note: Urinary antiseptics and urinary analgesics",
       "sections": [
         {
-          "h": "Advantages",
+          "h": "Urinary antiseptics",
           "points": [
-            "Better efficacy and gastric tolerance",
-            "Once-daily dosing; half-life over 50 hours",
-            "Expanded spectrum and fewer interactions"
+            "Act only in urine, with no systemic antibacterial effect",
+            "Nitrofurantoin and methenamine are the two agents named",
+            "Nitrofurantoin: uncomplicated lower UTI only; methenamine: chronic resistant UTI not involving kidney tissue"
           ]
         },
         {
-          "h": "Elimination",
+          "h": "Urinary analgesic",
           "points": [
-            "Largely unchanged in bile; about 10% renal"
+            "Phenazopyridine: azo dye acting on urinary tract mucosa only",
+            "Relieves dysuria, frequency, burning and urgency",
+            "Gives symptom relief alongside an antimicrobial; no antibacterial action"
           ]
         },
         {
-          "h": "Limits",
+          "h": "Points to remember",
           "points": [
-            "Erythromycin remains a penicillin alternative; estolate hepatotoxic"
+            "Neither class treats pyelonephritis; an antibiotic is still needed",
+            "Phenazopyridine turns urine orange-red"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch55"
+        "KDT8 ch55",
+        "KDT8 PDF p1023",
+        "GG12 PDF p1500",
+        "Satoskar PDF p1113"
       ],
-      "tags": [
-        "pk"
-      ],
-      "id": "p3-amr-other-074",
+      "pyq": [],
       "status": "draft",
-      "pyq": []
-    },
-    {
-      "type": "shortnote",
-      "subtopic": "p3-amr-other-glycopeptides",
-      "front": "Short note: Vancomycin, teicoplanin and linezolid compared",
-      "sections": [
-        {
-          "h": "Vancomycin",
-          "points": [
-            "D-ala-D-ala binding; not orally absorbed",
-            "Permanent deafness risk; renal toxicity"
-          ]
-        },
-        {
-          "h": "Teicoplanin",
-          "points": [
-            "Long half-life, once daily",
-            "Less renal toxicity than vancomycin"
-          ]
-        },
-        {
-          "h": "Linezolid",
-          "points": [
-            "Protein synthesis at 23S rRNA; 600 mg BD",
-            "No renal dose change; 5-hour half-life"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch55"
-      ],
+      "subtopic": "p3-amr-other-urinary",
       "tags": [
-        "mechanism"
+        "uses"
       ],
-      "id": "p3-amr-other-075",
-      "status": "draft",
-      "pyq": []
+      "level": 3
     }
   ]
 }

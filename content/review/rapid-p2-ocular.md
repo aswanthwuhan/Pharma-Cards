@@ -81,3 +81,19 @@ Skipped or handled elsewhere:
 Added 21 rapid cards (rf-p2-ocular-0276 to 0296) from KDT8 ch10. Corrected kind to fact on rf-p2-ocular-0121, 0122, 0123.
 
 Book conflicts noted: none.
+
+Ladder pass: no rapid cards added; existing 296 already cover chapter classifications, DOCs, ADRs. Note rf-p2-ocular-0273 still flagged UNSOURCED, owner to verify (card p2-ocular-043 now cites GG14 PDF p1481-1482).
+
+## Checker
+- Sampled 12 numeric rapid cards (limbus width, IOP, echothiophate, povidone iodine, verteporfin, dipivefrine, apraclonidine etc.) against GG14 ch74 and KDT8 ch10: confirmed. No edits or deletions.
+
+## Gap pass: UHSR 2025 PYQ rapid pairs
+
+Added rf-p2-ocular-0297 to 0310 for the new study cards 062-069.
+
+| id range | new | source |
+|---|---|---|
+| rf-p2-ocular-0297 to 0305 | new | Sarkar p256-260, Sarkar p286-290 |
+| rf-p2-ocular-0306 to 0310 | new | Medhi PMECP PDF p332, Medhi PMECP PDF p334 |
+
+Checker (PYQ gap pass): rf-0297-0310 verified. Fixed rf-0302 answer (OECD 405 not in books, now "Draize rabbit eye test"); rf-0305 ref now Ghosh PDF p182.

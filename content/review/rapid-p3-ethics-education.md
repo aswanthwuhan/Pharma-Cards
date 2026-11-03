@@ -87,3 +87,38 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | rf-p3-ethics-education-0128 | web | https://europepmc.org/article/PMC/PMC13388170 |
 | rf-p3-ethics-education-0129 | web | https://europepmc.org/article/PMC/PMC13655584 |
 | rf-p3-ethics-education-0130 | web | https://europepmc.org/article/PMC/PMC13388170 |
+
+Level pass: no rapid changes; coverage audited (history, placebo, burnout, EC, AETCOM, Miller all present).
+
+## Checker
+Independent check (Haiku). Checked all numeric and class cards against Sarkar OCR and the owner curriculum PDFs.
+
+Verified OK: deadlines and numbers in 0001-0068 range (1906, 1937, 1947, 1957, 1962, 1964, 1979, 1993, 1996/1997, 2001, 2000, 10 principles, 14 vs 13 principles, 24 h, 14 days, 3 months, 30 days, 5 years, 6 months training, one woman member, OHRP 2008, 90 days renewal, 6-month and 3-month reports).
+
+Deleted (ungroundable):
+- rf-p3-ethics-education-0030: sponsor/investigator 14-day report deadline not confirmed in the OCR text.
+- rf-p3-ethics-education-0069: "45 working days" not printed in the owner's text.
+- rf-p3-ethics-education-0096 to 0100: CBME PH codes not in any owner book or curriculum PDF.
+- rf-p3-ethics-education-0117: "at least 6 hours a week" not printed in the owner's curriculum PDF.
+
+Fixed:
+- rf-p3-ethics-education-0115: removed PBL (not in owner list); replaced with owner's teaching-methods list; ref MD-in-Pharmacology (revised).
+- rf-p3-ethics-education-0116: "6 terms" removed; now "3 years", ref PGMER 2023 Annexure-1.
+
+Open for owner: AETCOM (0109-0113) and Miller/PG-guideline WEB refs remain as WEB; numbers verified against the NMC booklet, but no SOURCE-GAPS entry covers this topic.
+Validator (--check): no errors mention p3-ethics-education.
+
+## PYQ gap batch: UHSR 2025 (DTC, signal detection) and Q bank (ethics committee)
+
+| id | new / corrected | source |
+|---|---|---|
+| rf-p3-ethics-education-0137 to 0141 | new | Sarkar p506-510; Sarkar p56-60 |
+| rf-p3-ethics-education-0142 to 0143 | new | Sarkar p86-90; KDT8 ch6 |
+| rf-p3-ethics-education-0144 to 0147 | new | KDT8 ch6 |
+| rf-p3-ethics-education-0148 to 0149 | new | GG14 ch8 |
+| rf-p3-ethics-education-0150 to 0156 | new | Sarkar p91-95; GG14 ch8 |
+| rf-p3-ethics-education-0157 to 0164 | new | Sarkar p226-230 |
+
+## Checker (PYQ gap pass)
+- Rapid 0137-0164 spot-checked against Sarkar p56-60, p86-90, p91-95, p226-230, p506-510; KDT8 ch6; GG14 ch8. All answers confirmed; none changed.
+- JSON parses; no Prep/RR5 refs.

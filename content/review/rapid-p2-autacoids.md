@@ -199,3 +199,51 @@ rf-p2-autacoids-0801 | draft | GG14 PDF p845
 rf-p2-autacoids-0802 | draft | GG14 PDF p1480
 
 | (no change) | ok | rapid deck of 802 cards already covers chapter and PYQ topics |
+
+## Checker
+
+Independent check (2026-11-03). Sampled 20+ rapid cards with numbers and drug facts against KDT8 ch11-13 and owner PDFs.
+
+| id | result | source |
+| rf-p2-autacoids-0724 | ref corrected (figure not in KDT8 ch12) | GG12 PDF p371 |
+| rf-p2-autacoids-0728 | deleted (half-life not found in owner books) | n/a |
+| rf-p2-autacoids-0730 | corrected to 1.25-2.5 mg starting range | GG12 PDF p372 |
+| rf-p2-autacoids-0736 | corrected (MAO inhibitor contraindication, not "levels rise") | GG14 PDF p312 |
+| rf-p2-autacoids-0729 | corrected max to 30 mg/24 h (was 20 mg) | GG12 PDF p372 |
+| rizatriptan plasma half-life card (id between 0722 and 0729; id not recorded) | deleted (not in owner books) | n/a |
+| rf-p2-autacoids-0803 | new (second-generation H1 antagonists with mast-cell-stabilising effect) | GG14 PDF p881 |
+| 0358, 0392, 0466, 0522, 0589, 0656, 0083, 0144, 0221, 0260, 0314, 0013 | ok | KDT8 ch11-13 |
+| rf-p2-autacoids-0722, 0733, 0357 | not checked (sampling only) | GG12 PDF p371 likely source |
+
+## PYQ gap pass (2026-11-03)
+
+| id | new | source |
+| rf-p2-autacoids-0804 to 0824 | new (21 PH pairs: PGI2 and cGMP mechanism, PDE5, riociguat, ERAs, CCBs, inhaled NO, treprostinil, iloprost, selexipag, sotatercept, fasudil) | GG14 ch35 (GG14 PDF p713-724); KDT8 PDF p559 for ET-1 |
+
+## Checker (PYQ gap pass), 2026-11-03
+
+| id | status | source / change |
+| rf-p2-autacoids-0807 | ok | GG14 PDF p722 |
+| rf-p2-autacoids-0809 | corrected: q now "approved for PAH" only (CTEPH is effective, not approved) | GG14 PDF p716-718 |
+| rf-p2-autacoids-0811 | corrected: haemoglobin monitoring removed (not in book) | GG14 PDF p721 |
+| rf-p2-autacoids-0813 | corrected: verapamil added | GG14 PDF p722 |
+| rf-p2-autacoids-0818 | corrected: q reworded; treprostinil is also inhaled, so "only" was wrong | GG14 PDF p720 |
+| rf-p2-autacoids-0804 to 0824 | others ok, verified | GG14 PDF p716-724 |
+| Validator | clean | n/a |
+
+## Gap pass, entry [44] "Anti-Helicobacter pylori drugs" (2026-11-03)
+
+| item | status | source / change |
+| Anti-H. pylori drugs (PYQ gap entry 44) | skipped: not an autacoid topic; covered by rf-p3-git H. pylori cards | n/a |
+
+## Checker pass, newest cards (2026-11-03)
+
+| id | status | source / change |
+| rf-p2-autacoids-0817 | corrected: epoprostenol 3 to 5 min half-life is not on GG14 p718; now cited to Katzung | Katzung16 PDF p367 |
+| rf-p2-autacoids-0818 | ref corrected to p720 | GG14 PDF p720 |
+| rf-p2-autacoids-0819 | ref corrected to p720 | GG14 PDF p720 |
+| rf-p2-autacoids-0820 | ref corrected to p720 | GG14 PDF p720 |
+| rf-p2-autacoids-0821 | ref corrected to p720 | GG14 PDF p720 |
+| rf-p2-autacoids-0822 | ok | GG14 PDF p713 |
+| rf-p2-autacoids-0823 | ref corrected to p724 (listed as future agent) | GG14 PDF p724 |
+| rf-p2-autacoids-0824 | ref corrected to p724, Katzung added (investigational) | GG14 PDF p724; Katzung16 PDF p335 |

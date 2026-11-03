@@ -26,7 +26,8 @@
       "subtopic": "p4-pharmacogenomics-foundations",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p4-pharmacogenomics-002",
@@ -47,14 +48,14 @@
             "Poor: no enzyme activity (two no-function alleles)",
             "Intermediate: reduced activity (e.g. one functional and one no-function allele)",
             "Normal: two functional alleles",
-            "Rapid and ultrarapid: greatly increased activity, e.g. from promoter variants or extra gene copies (CYP2D6 duplication)"
+            "Rapid and ultrarapid: greatly increased activity from increased-expression variants, e.g. CYP2C19*17 (ultrarapid = *1/*17 or *17/*17)"
           ]
         },
         {
           "h": "Points to remember",
           "points": [
             "Phenotype reflects the combined effect of the maternal and paternal alleles",
-            "One gene can carry over 100 variants, plus deletions and duplications (e.g. CYP2D6)"
+            "One gene can carry many variants (CYP2C19 has more than 35 alleles defined), plus deletions and duplications"
           ]
         }
       ],
@@ -67,7 +68,8 @@
       "subtopic": "p4-pharmacogenomics-foundations",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p4-pharmacogenomics-003",
@@ -82,7 +84,8 @@
       "subtopic": "p4-pharmacogenomics-foundations",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p4-pharmacogenomics-004",
@@ -97,729 +100,8 @@
       "subtopic": "p4-pharmacogenomics-foundations",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-005",
-      "type": "basic",
-      "front": "What is the two-sided risk of codeine with CYP2D6 variation?",
-      "back": "Codeine is a prodrug that CYP2D6 converts to morphine. Poor metabolisers make little morphine, so analgesia is absent. Ultrarapid metabolisers make excess morphine, which can cause respiratory depression and death.",
-      "refs": [
-        "GG14 ch7"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-cyp-pk",
-      "tags": [
-        "pk",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-006",
-      "type": "basic",
-      "front": "Which enzyme's variants are linked to breast cancer recurrence on tamoxifen, and why?",
-      "back": "CYP2D6. Tamoxifen relies on CYP2D6 for metabolic activation to endoxifen, a metabolite with high oestrogen-receptor affinity. The CYP2D6 poor metaboliser phenotype correlates with a higher risk of relapse in breast cancer treated with tamoxifen.",
-      "refs": [
-        "GG14 ch7",
-        "Katzung16 ch4"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-cyp-pk",
-      "tags": [
-        "pk",
-        "uses"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-007",
-      "type": "basic",
-      "front": "Clopidogrel: how does CYP2C19 status change the antiplatelet plan?",
-      "back": "Clopidogrel is a prodrug: about 85% of a dose is hydrolysed by esterases to an inactive acid, and about 15% is converted (mainly by CYP2C19) to the active thiol metabolite. Carriers of the no-function CYP2C19*2 allele have more serious cardiovascular events and stent thrombosis after ACS treated with PCI. Poor metabolisers (about 2-3% of European and over 10% of East Asian ancestry) should get an alternative antiplatelet, because even large dose increases do not work. GG14: intermediate metabolisers may reach adequate effect with a higher dose. Katzung (CPIC, ACS with PCI): use prasugrel or ticagrelor in both poor and intermediate metabolisers; the FDA label recommends alternatives for poor metabolisers.",
-      "refs": [
-        "GG14 ch7",
-        "Katzung16 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-cyp-pk",
-      "tags": [
-        "mechanism",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-008",
-      "type": "cloze",
-      "front": "Classify: CYP2C19 and proton pump inhibitors",
-      "text": "Omeprazole and lansoprazole are inactivated by {{CYP2C19}}. CYP2C19 poor metabolisers have higher {{parent drug}} exposure, stronger acid suppression and a higher chance of {{ulcer cure}} than rapid or ultrarapid metabolisers.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-cyp-pk",
-      "tags": [
-        "pk",
-        "uses"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-009",
-      "type": "basic",
-      "front": "Which transporter variant is linked to simvastatin myopathy, and how was it found?",
-      "back": "SLCO1B1, which encodes OATP1B1, an uptake transporter on the sinusoidal (blood) side of hepatocytes that takes up statins, methotrexate and bilirubin. The common reduced-function variant rs4149056 (Val174Ala) lowers hepatic uptake, raising systemic statin exposure and myopathy risk. It was found by a GWAS of only 85 simvastatin myotoxicity cases and 90 controls; the exact mechanism of muscle toxicity is undefined. CPIC advice for reduced-function genotypes: lower simvastatin dose or an alternative statin (e.g. pravastatin, rosuvastatin), with CK monitoring.",
-      "refs": [
-        "GG14 ch7",
-        "Katzung16 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-cyp-pk",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-010",
-      "type": "essay",
-      "front": "Essay: Loss-of-function and gain-of-function metabolic variants and their effect on drug action",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Drugs with a narrow margin, cleared by a single enzyme, are the highest-risk group",
-            "Outcome depends on whether the parent drug or a metabolite is the active species"
-          ]
-        },
-        {
-          "h": "Loss of function",
-          "points": [
-            "Parent drug and upstream metabolites rise, so toxicity or overdose-like effects follow",
-            "Downstream metabolites fall",
-            "If the active species is a metabolite formed by the enzyme, efficacy is lost"
-          ]
-        },
-        {
-          "h": "Gain of function",
-          "points": [
-            "Parent drug falls, so efficacy can be lost",
-            "Downstream active metabolites rise, which can cause adverse effects"
-          ]
-        },
-        {
-          "h": "Prodrug bioactivation",
-          "points": [
-            "Loss of activation gives inefficacy (clopidogrel, codeine analgesia)",
-            "Gain of activation can give excess active drug (codeine and morphine)"
-          ]
-        },
-        {
-          "h": "Examples",
-          "points": [
-            "Codeine and CYP2D6",
-            "Clopidogrel and CYP2C19",
-            "Tacrolimus and CYP3A5: functional alleles lower exposure, so higher doses are needed",
-            "Omeprazole and CYP2C19: poor metabolisers get a stronger acid-suppressing effect"
-          ]
-        },
-        {
-          "h": "Clinical approach",
-          "points": [
-            "Genotype the enzyme before using a narrow-margin drug that depends on it",
-            "Interpret results with ancestry in mind, since allele frequencies vary between populations"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-cyp-pk",
-      "tags": [
-        "pk",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-011",
-      "type": "shortnote",
-      "front": "Short note: Pharmacogenetics of warfarin",
-      "sections": [
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "CYP2C9 metabolises the more active S-enantiomer",
-            "CYP2C9 poor and intermediate metabolisers need lower steady-state doses and have more bleeding"
-          ]
-        },
-        {
-          "h": "Pharmacodynamics",
-          "points": [
-            "Target VKORC1 is needed to recycle vitamin K to its active reduced form",
-            "Promoter variants that lower VKORC1 expression need lower doses (more common in Asian ancestry)",
-            "Rare coding variants cause partial or complete resistance and higher dose needs"
-          ]
-        },
-        {
-          "h": "Other genes and totals",
-          "points": [
-            "CYP4F2 inactivates vitamin K by hydroxylation",
-            "CYP2C9, VKORC1 and CYP4F2 together explain over 50% of the dose variability"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-warfarin-targets",
-      "tags": [
-        "pk",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-012",
-      "type": "basic",
-      "front": "How do MT-RNR1 variants raise the risk of aminoglycoside hearing loss?",
-      "back": "Aminoglycosides bind bacterial 16S rRNA, but in the inner ear they also bind human mitochondrial ribosomes (off-target). MT-RNR1 variants make human mitochondrial rRNA resemble bacterial rRNA, increasing binding affinity. Hearing loss can then occur even when serum levels are judged non-toxic.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-warfarin-targets",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-013",
-      "type": "basic",
-      "front": "Why must tumour genotype be checked before some targeted anticancer drugs?",
-      "back": "Response depends on somatic (tumour) mutations as well as germline DNA. EGFR activating mutations predict response to gefitinib, and BRAF V600E predicts response to vemurafenib. Trastuzumab helps only HER2-expressing breast cancers, yet it can cause cardiomyopathy, and HER2-negative patients carry that risk without benefit.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-warfarin-targets",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-014",
-      "type": "cloze",
-      "front": "Classify: drug targets and variant-specific drug action",
-      "text": "Warfarin's target is {{VKORC1}}; ivacaftor partly corrects the gating defect of the CFTR {{G551D}} variant; lumacaftor improves surface expression of the commonest CFTR variant, {{F508}}; vemurafenib inhibits {{BRAF V600E}} kinase.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-warfarin-targets",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-015",
-      "type": "basic",
-      "front": "Why is NUDT15 testing relevant to thiopurine toxicity in East Asian patients?",
-      "back": "TPMT and NUDT15 variants both alter the levels of active thiopurine metabolites and the risk of bone marrow toxicity. TPMT poor metabolisers are rare in East Asian populations, but NUDT15 poor and intermediate metabolisers are more frequent there. Thiopurine toxicity is more common in Asian patients, and NUDT15 was found by GWAS, so TPMT testing alone can miss risk.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-non-cyp",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-016",
-      "type": "basic",
-      "front": "What does the UGT1A1*28 allele do, and which drugs does it affect?",
-      "back": "UGT1A1*28 has seven TA repeats in the promoter instead of the common six, which lowers UGT1A1 expression. The allele frequency can reach about 30%, with up to 10% of people homozygous depending on ancestry. Reduced activity raises SN-38, the active metabolite of irinotecan, and so raises the risk of serious toxicity. It also causes Gilbert syndrome and atazanavir-related hyperbilirubinaemia.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-non-cyp",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-017",
-      "type": "basic",
-      "front": "Acetylator (NAT2) polymorphism: what are the consequences of slow and fast acetylation?",
-      "back": "NAT2 variants give slow and fast acetylators; slow acetylation is autosomal recessive and results from less NAT2 enzyme. About 60-70% of Indians are slow acetylators (isoniazid half-life about 3 h, versus 1 h in fast acetylators). Slow acetylators: isoniazid peripheral neuropathy; hydralazine- and procainamide-induced lupus; sulfonamide hypersensitivity; amonafide toxicity. The historical account in GG14 also links NAT deficiency with isoniazid hepatotoxicity (the hepatotoxic metabolite is formed from acetylhydrazine by CYP2E1). Fast acetylators: acetylator status does not matter with daily isoniazid, but biweekly regimens are less effective.",
-      "refs": [
-        "GG14 ch7",
-        "KDT8 ch5",
-        "KDT8 ch56",
-        "Katzung16 ch4"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-non-cyp",
-      "tags": [
-        "adr",
-        "pk"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-018",
-      "type": "shortnote",
-      "front": "Short note: G6PD deficiency and drug response",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Oxidant drugs lower the antioxidant glutathione in G6PD-deficient red cells, raising fragility and causing haemolysis",
-            "X-linked; commoner in Mediterranean, African and Southeast Asian people; severity varies with the variant and is largely dose related"
-          ]
-        },
-        {
-          "h": "Drugs at risk",
-          "points": [
-            "Primaquine and other antimalarials; tafenoquine",
-            "Dapsone (haemolysis and methaemoglobinaemia)",
-            "Rasburicase",
-            "Others: sulfonamides, cotrimoxazole, nitrofurantoin, methylene blue, fluoroquinolones, chloramphenicol"
-          ]
-        },
-        {
-          "h": "Rasburicase",
-          "points": [
-            "Breaks uric acid down to allantoin and hydrogen peroxide",
-            "G6PD-deficient cells cannot handle the oxidative stress: haemolytic anaemia and methaemoglobinaemia",
-            "Methaemoglobin cannot carry oxygen; can cause arrhythmias, seizures and death",
-            "Contraindicated in G6PD deficiency"
-          ]
-        },
-        {
-          "h": "Key point",
-          "points": [
-            "G6PD is neither the drug's metabolic enzyme nor its target; it changes the biological background (pharmacodynamic modifier)"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch7",
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-non-cyp",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-019",
-      "type": "cloze",
-      "front": "Classify: pharmacogene, drug and consequence",
-      "text": "TPMT and NUDT15: {{azathioprine}} and mercaptopurine cause marrow toxicity; DPYD (dihydropyrimidine dehydrogenase): {{capecitabine}} and {{fluorouracil}} cause toxicity; UGT1A1: {{irinotecan}} causes toxicity; NAT2: {{isoniazid}} causes neurotoxicity; G6PD: {{rasburicase}} causes haemolysis and methaemoglobinaemia.",
-      "refs": [
-        "GG14 ch7",
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-non-cyp",
-      "tags": [
-        "adr",
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-020",
-      "type": "essay",
-      "front": "Essay: Pharmacogenetic approach to severe toxicity from antimetabolite and cytotoxic drugs",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Many of these drugs have a narrow therapeutic margin, and toxicity can be life-threatening",
-            "Germline variants affect the host; somatic variants affect the tumour"
-          ]
-        },
-        {
-          "h": "Thiopurines",
-          "points": [
-            "TPMT and NUDT15 variants raise marrow toxicity risk",
-            "The same variants alter the risk of second cancers",
-            "NUDT15 matters more in Asian ancestry, where TPMT variants are less common"
-          ]
-        },
-        {
-          "h": "Fluoropyrimidines",
-          "points": [
-            "DPYD variants predict toxicity with fluorouracil and capecitabine"
-          ]
-        },
-        {
-          "h": "Irinotecan",
-          "points": [
-            "Reduced UGT1A1 activity raises SN-38 exposure",
-            "Higher SN-38 is linked to serious toxicity"
-          ]
-        },
-        {
-          "h": "Tumour-level factors",
-          "points": [
-            "TYMS enhancer repeat: two copies rather than three raises host toxicity and tumour susceptibility to TYMS inhibitors",
-            "Somatic markers such as EGFR and BRAF V600E select patients for targeted drugs"
-          ]
-        },
-        {
-          "h": "Clinical approach",
-          "points": [
-            "Genotype before prescribing where a validated test exists",
-            "Ancestry determines which variants are informative for a given patient"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-non-cyp",
-      "tags": [
-        "adr",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-021",
-      "type": "basic",
-      "front": "How does HLA-B*57:01 testing change abacavir treatment?",
-      "back": "Carriers of HLA-B*57:01 are at risk of severe abacavir hypersensitivity, described as skin reactions particularly Stevens-Johnson syndrome. A randomised trial showed that genotyping before treatment eliminated this risk, and abacavir is contraindicated in HLA-B*57:01-positive patients. Proposed mechanism: non-covalent binding of the drug or a metabolite to HLA or the T-cell receptor, altering the peptides presented; the immune details are not fully characterised.",
-      "refs": [
-        "GG14 ch7",
-        "Katzung16 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-hla",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-022",
-      "type": "basic",
-      "front": "Which HLA allele predicts carbamazepine skin reactions in East Asian and in European-ancestry patients?",
-      "back": "HLA-B*15:02 in East Asian individuals. In European-ancestry individuals, a GWAS of patients with Stevens-Johnson-type reactions (65 cases, 3987 controls) identified HLA-A*31:01.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-hla",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-023",
-      "type": "basic",
-      "front": "Why check both CYP2C9 and HLA-B genotype before starting phenytoin?",
-      "back": "Phenytoin (and fosphenytoin) is metabolised by CYP2C9, so poor metabolisers have higher plasma levels and more toxicity. Phenytoin can also cause life-threatening Stevens-Johnson syndrome and toxic epidermal necrolysis; the risk appears especially high when a CYP2C9 variant occurs together with an HLA-B risk allele such as HLA-B*15:02. Knowing both genotypes helps predict response.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-hla",
-      "tags": [
-        "adr",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-024",
-      "type": "cloze",
-      "front": "Classify: HLA alleles and drug hypersensitivity",
-      "text": "HLA-B*57:01 with {{abacavir}}; HLA-B*58:01 with {{allopurinol}}; HLA-B*15:02 with {{carbamazepine}} (East Asian), oxcarbazepine and {{phenytoin}}; HLA-A*31:01 with {{carbamazepine}} (European ancestry).",
-      "refs": [
-        "GG14 ch7",
-        "Katzung16 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-hla",
-      "tags": [
-        "adr",
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-025",
-      "type": "shortnote",
-      "front": "Short note: HLA testing for drug hypersensitivity and its limits",
-      "sections": [
-        {
-          "h": "Biology",
-          "points": [
-            "HLA-A, -B and -C encode MHC class I proteins that let the immune system tell self from foreign proteins",
-            "HLA-B is among the most polymorphic genes in the genome"
-          ]
-        },
-        {
-          "h": "Population differences",
-          "points": [
-            "HLA-B*15:02 is most prevalent in East Asian and Central/South Asian populations, carried by up to about 20% in some",
-            "It is absent or very rare in European and sub-Saharan African populations",
-            "Other regional phenytoin risk alleles include HLA-B*15:21, B*15:11, B*15:08 (Asian) and B*56:02 (Aboriginal Australian)"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "A negative result is reassuring only if the correct allele panel for the patient's population was tested",
-            "Incomplete panels give false reassurance",
-            "The immune mechanism is incompletely understood"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-hla",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-026",
-      "type": "basic",
-      "front": "Why has the candidate-gene approach worked well in pharmacogenetics when it often fails elsewhere?",
-      "back": "Pharmacogenetic candidate genes were chosen from known drug disposition or action pathways, and the variants found often have large effects that replicate. Elsewhere, candidate-gene findings frequently failed to replicate. GWAS is now used without a prior hypothesis and can give clear signals even with small samples when the effect is large (e.g. carbamazepine and HLA-A*31:01).",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-implementation",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-027",
-      "type": "basic",
-      "front": "Why are the results of warfarin genotyping trials mixed?",
-      "back": "Trials using time in therapeutic range over the first 30 to 90 days gave inconsistent results, none showing a large effect, and these studies had few bleeding events. An RCT with bleeding as the primary endpoint did show a significant benefit of genotype-guided dosing. EHR-based case-control studies link CYP2C9 and CYP4F2 variants to bleeding.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-implementation",
-      "tags": [
-        "dosing",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-028",
-      "type": "shortnote",
-      "front": "Short note: Clinical implementation of pharmacogenomic testing",
-      "sections": [
-        {
-          "h": "Testing approaches",
-          "points": [
-            "Point-of-care: genotype when the drug is prescribed; each drug needs its own assay",
-            "Multi-gene panel stored in the EHR, with clinical decision support when a relevant drug is prescribed"
-          ]
-        },
-        {
-          "h": "Strength of evidence",
-          "points": [
-            "Strongest: RCTs comparing a genotype-guided strategy with standard care",
-            "HLA-B*57:01 with abacavir: genotyping eliminated severe skin reactions",
-            "Clopidogrel: genotype-guided care gave fewer bleeding events without more stent thrombosis",
-            "Warfarin: mixed results overall",
-            "Non-randomised data are weaker, and RCTs for rare variants may be impractical"
-          ]
-        },
-        {
-          "h": "Barriers",
-          "points": [
-            "The variant must link to a clinically important outcome, and the test must lead to actionable advice (change drug or dose)",
-            "Evidence strength varies by drug-gene pair",
-            "CPIC publishes peer-reviewed, genotype-based prescribing guidance across drugs",
-            "Allele panels must suit the target population"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-implementation",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-029",
-      "type": "essay",
-      "front": "Essay: Role of human genomics in new drug discovery and development",
-      "sections": [
-        {
-          "h": "Target identification",
-          "points": [
-            "Genetic pathways in physiology and disease point to new drug targets",
-            "Drugs with human genetic support are about three times more likely to be marketed",
-            "Brown and Goldstein's FH studies identified a defect in regulation of HMG-CoA reductase, the enzyme statins inhibit",
-            "PCSK9 gain-of-function variants raise LDL and cause FH; loss-of-function variants (African American subjects) lower LDL and coronary risk; PCSK9 antibodies (alirocumab, evolocumab) followed"
-          ]
-        },
-        {
-          "h": "Protective variants",
-          "points": [
-            "Loss-of-function variants in APOC3, SLC30A8 and HSD17B13 reduce risk of common diseases",
-            "SCN9A loss of function causes insensitivity to pain, suggesting an analgesic target"
-          ]
-        },
-        {
-          "h": "Patient selection",
-          "points": [
-            "After a negative phase III trial of dalcetrapib, a GWAS found an ADCY9 variant that predicted efficacy",
-            "Polygenic risk scores may pick patients most likely to benefit from costly LDL-lowering drugs"
-          ]
-        },
-        {
-          "h": "Repurposing and safety",
-          "points": [
-            "Phenome-wide association studies link variants to phenotypes, suggesting new indications",
-            "Such studies can also predict adverse effects of drugs"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Variants are often population specific, so diverse cohorts are needed",
-            "Ancestry diversity drives discovery in all populations"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2024,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-implementation",
-      "tags": [
-        "newer-drugs",
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-pharmacogenomics-030",
-      "type": "cloze",
-      "front": "Classify: genomic evidence in drug development",
-      "text": "Loss-of-function variants in {{PCSK9}} lower LDL cholesterol and point to it as a target; a GWAS found that an {{ADCY9}} variant predicts response to {{dalcetrapib}}; PheWAS can suggest {{repurposing}} of existing drugs; drugs with human genetic support are about {{three-fold}} more likely to be marketed.",
-      "refs": [
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-pharmacogenomics-implementation",
-      "tags": [
-        "newer-drugs",
-        "classification"
-      ]
-    },
-    {
-      "pyq": [],
-      "status": "draft",
-      "id": "p4-pharmacogenomics-031",
-      "type": "basic",
-      "front": "Atypical plasma cholinesterase: what happens with succinylcholine, and how is it detected?",
-      "back": "Plasma pseudocholinesterase (butyrylcholinesterase, BCHE) normally hydrolyses succinylcholine, so its action lasts only 5 to 8 minutes. Some people inherit an abnormal enzyme with low affinity for succinylcholine, or a deficiency of it. Homozygotes (about 1 in over 3000) develop prolonged block with muscle paralysis and apnoea lasting 4 to 6 hours; heterozygotes (about 1 in 50) show only a 2- to 3-fold prolongation. Succinylcholine also readily produces phase II block in these patients. The apnoea can only be managed by mechanical ventilation.",
-      "refs": [
-        "KDT8 ch5",
-        "KDT8 ch25",
-        "Katzung16 ch4"
-      ],
-      "subtopic": "p4-pharmacogenomics-non-cyp",
-      "tags": [
-        "adr",
-        "pk"
-      ]
-    },
-    {
-      "pyq": [],
-      "status": "draft",
-      "id": "p4-pharmacogenomics-032",
-      "type": "basic",
-      "front": "What is the genetic basis of malignant hyperthermia, and which drugs trigger it?",
-      "back": "Variants in RYR1 (the ryanodine receptor calcium-release channel of skeletal muscle sarcoplasmic reticulum) and CACNA1S. Triggers: volatile anaesthetics (halothane, isoflurane, sevoflurane, desflurane, enflurane, methoxyflurane) and succinylcholine, which release massive intracellular calcium, causing persistent muscle contraction and heat production. Treatment: rapid external cooling, bicarbonate, 100% oxygen and IV dantrolene, which acts on RYR1 to block calcium-induced calcium release.",
-      "refs": [
-        "GG14 ch7",
-        "KDT8 ch5",
-        "KDT8 ch27",
-        "KDT8 ch25"
-      ],
-      "subtopic": "p4-pharmacogenomics-warfarin-targets",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "pyq": [],
-      "status": "draft",
-      "id": "p4-pharmacogenomics-033",
-      "type": "basic",
-      "front": "DPYD testing before fluoropyrimidines: why, and how is the dose changed?",
-      "back": "Dihydropyrimidine dehydrogenase (DPD, gene DPYD) is the rate-limiting step of pyrimidine catabolism and eliminates about 80% of a fluorouracil dose; capecitabine and tegafur are oral prodrugs of 5-FU. Deficiency sharply lowers 5-FU clearance, causing severe toxicity. Clinically recognised variants: DPYD*2A and *13 (no function), rs67376798 and HapB3 (reduced function); all are rare. CPIC: intermediate metabolisers start at a reduced dose (50% reduction, then titrate by toxicity); complete deficiency calls for a non-fluoropyrimidine drug. Genotype-guided dose reduction lowered the risk of severe toxicity.",
-      "refs": [
-        "GG14 ch7",
-        "Katzung16 ch5",
-        "KDT8 ch5"
-      ],
-      "subtopic": "p4-pharmacogenomics-non-cyp",
-      "tags": [
-        "adr",
-        "dosing"
-      ]
+      "level": 2
     },
     {
       "id": "p4-pharmacogenomics-034",
@@ -900,7 +182,735 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-036",
+      "type": "basic",
+      "front": "Why can one variant cause toxicity with one drug and treatment failure with another?",
+      "back": "The effect depends on the drug's pathway. A low-function enzyme raises the parent drug and upstream metabolites and lowers downstream ones: a drug that needs activation fails (codeine, tamoxifen, clopidogrel), while an active drug accumulates and is toxic. A gain-of-function variant gives low parent-drug levels and loss of efficacy, but for a prodrug such as codeine it gives excess active morphine.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-pharmacogenomics-008",
+      "type": "cloze",
+      "front": "Classify: CYP2C19 and proton pump inhibitors",
+      "text": "Omeprazole and lansoprazole are inactivated by {{CYP2C19}}. CYP2C19 poor metabolisers have higher {{parent drug}} exposure, stronger acid suppression and a higher chance of {{ulcer cure}} than rapid or ultrarapid metabolisers.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-009",
+      "type": "basic",
+      "front": "Which transporter variant is linked to simvastatin myopathy, and how was it found?",
+      "back": "SLCO1B1 encodes OATP1B1, an uptake transporter on the sinusoidal (blood-facing) side of hepatocytes that takes up statins. A common reduced-function variant lowers hepatic statin uptake, raising systemic exposure and myopathy risk. It was found by a GWAS of 85 simvastatin myotoxicity cases and 90 controls; the exact mechanism of muscle toxicity is undefined. Katzung's CPIC-based table advises a lower simvastatin dose or an alternative statin (e.g. pravastatin or rosuvastatin), with routine CK monitoring, for reduced-function genotypes.",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-037",
+      "type": "basic",
+      "front": "List the CYP2C19 alleles and what each does.",
+      "back": "*1 is the normal-function reference. *2 and *3 have no function, so carriers are poor or intermediate metabolisers. *17 has increased expression, giving faster metabolism. This is why a prodrug (clopidogrel) and an inactivated drug (omeprazole) respond in opposite directions.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-038",
+      "type": "basic",
+      "front": "CYP3A5 variants and tacrolimus: what is the link?",
+      "back": "CYP3A5*3 is a splice variant giving no functional enzyme and is the predominant allele in European ancestry. The functional *1 allele is the commonest in African ancestry. People with a functional CYP3A5 clear tacrolimus faster, so they need a higher dose to reach therapeutic levels.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-005",
+      "type": "basic",
+      "front": "What is the two-sided risk of codeine with CYP2D6 variation?",
+      "back": "Codeine is a prodrug that CYP2D6 converts to morphine. Poor metabolisers make little morphine, so analgesia is absent. Ultrarapid metabolisers make excess morphine, which can cause respiratory depression and death.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-006",
+      "type": "basic",
+      "front": "Which enzyme's variants are linked to breast cancer recurrence on tamoxifen, and why?",
+      "back": "CYP2D6. Tamoxifen relies on CYP2D6 for metabolic activation to endoxifen, a metabolite with high oestrogen-receptor affinity. The CYP2D6 poor metaboliser phenotype correlates with a higher risk of relapse in breast cancer treated with tamoxifen.",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-007",
+      "type": "basic",
+      "front": "Clopidogrel: how does CYP2C19 status change the antiplatelet plan?",
+      "back": "Clopidogrel is a prodrug: about 85% of a dose is hydrolysed by esterases to an inactive acid, and about 15% is converted (mainly by CYP2C19) to the active thiol metabolite. Carriers of the no-function CYP2C19*2 allele are at increased risk of serious adverse cardiovascular events, particularly in ACS treated with PCI; stent thrombosis is the event linked to failed clopidogrel activation. Poor metabolisers (about 2-3% of European and over 10% of East Asian ancestry) should get an alternative antiplatelet, because even large dose increases do not work. GG14: intermediate metabolisers may reach adequate effect with a higher dose. Katzung (CPIC, ACS with PCI): use prasugrel or ticagrelor in both poor and intermediate metabolisers;.",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "tags": [
+        "mechanism",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-010",
+      "type": "essay",
+      "front": "Essay: Loss-of-function and gain-of-function metabolic variants and their effect on drug action",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Drugs with a narrow margin, cleared by a single enzyme, are the highest-risk group",
+            "Outcome depends on whether the parent drug or a metabolite is the active species"
+          ]
+        },
+        {
+          "h": "Loss of function",
+          "points": [
+            "Parent drug and upstream metabolites rise, so toxicity or overdose-like effects follow",
+            "Downstream metabolites fall",
+            "If the active species is a metabolite formed by the enzyme, efficacy is lost"
+          ]
+        },
+        {
+          "h": "Gain of function",
+          "points": [
+            "Parent drug falls, so efficacy can be lost",
+            "Downstream active metabolites rise, which can cause adverse effects"
+          ]
+        },
+        {
+          "h": "Prodrug bioactivation",
+          "points": [
+            "Loss of activation gives inefficacy (clopidogrel, codeine analgesia)",
+            "Gain of activation can give excess active drug (codeine and morphine)"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Codeine and CYP2D6",
+            "Clopidogrel and CYP2C19",
+            "Tacrolimus and CYP3A5: functional alleles lower exposure, so higher doses are needed",
+            "Omeprazole and CYP2C19: poor metabolisers get a stronger acid-suppressing effect"
+          ]
+        },
+        {
+          "h": "Clinical approach",
+          "points": [
+            "Genotype the enzyme before using a narrow-margin drug that depends on it",
+            "Interpret results with ancestry in mind, since allele frequencies vary between populations"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-pharmacogenomics-014",
+      "type": "cloze",
+      "front": "Classify: drug targets and variant-specific drug action",
+      "text": "Warfarin's target is {{VKORC1}}; ivacaftor partly corrects the gating defect of the CFTR {{G551D}} variant; lumacaftor improves surface expression of the commonest CFTR variant, {{F508}}; vemurafenib inhibits {{BRAF V600E}} kinase.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p4-pharmacogenomics-032",
+      "type": "basic",
+      "front": "What is the genetic basis of malignant hyperthermia, and which drugs trigger it?",
+      "back": "Variants in RYR1 (the ryanodine receptor calcium-release channel of skeletal muscle sarcoplasmic reticulum) and CACNA1S. Triggers: volatile anaesthetics (halothane, isoflurane, sevoflurane, desflurane, enflurane, methoxyflurane) and succinylcholine, which release massive intracellular calcium, causing persistent muscle contraction and heat production. Treatment: rapid external cooling, bicarbonate, 100% oxygen and IV dantrolene, which acts on RYR1 to block calcium-induced calcium release.",
+      "refs": [
+        "GG14 ch7",
+        "KDT8 ch5",
+        "KDT8 ch27",
+        "KDT8 ch25"
+      ],
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-039",
+      "type": "basic",
+      "front": "Which gene affects warfarin metabolism and which its target?",
+      "back": "CYP2C9 metabolises the active S-warfarin; poor and intermediate metabolisers need lower steady-state doses and have higher bleeding risk. VKORC1 (vitamin K epoxide reductase) is the target; a low-expression promoter variant lowers dose need and is more common in Asian ancestry. CYP4F2 also influences vitamin K recycling.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "tags": [
+        "pk",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-011",
+      "type": "shortnote",
+      "front": "Short note: Pharmacogenetics of warfarin",
+      "sections": [
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "CYP2C9 metabolises the more active S-enantiomer",
+            "CYP2C9 poor and intermediate metabolisers need lower steady-state doses and have more bleeding"
+          ]
+        },
+        {
+          "h": "Pharmacodynamics",
+          "points": [
+            "Target VKORC1 is needed to recycle vitamin K to its active reduced form",
+            "Promoter variants that lower VKORC1 expression need lower doses (more common in Asian ancestry)",
+            "Rare coding variants cause partial or complete resistance and higher dose needs"
+          ]
+        },
+        {
+          "h": "Other genes and totals",
+          "points": [
+            "CYP4F2 inactivates vitamin K by hydroxylation",
+            "CYP2C9, VKORC1 and CYP4F2 together explain over 50% of the dose variability"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-012",
+      "type": "basic",
+      "front": "How do MT-RNR1 variants raise the risk of aminoglycoside hearing loss?",
+      "back": "Aminoglycosides bind bacterial 16S rRNA, but in the inner ear they also bind human mitochondrial ribosomes (off-target). MT-RNR1 variants make human mitochondrial rRNA resemble bacterial rRNA, increasing binding affinity. Hearing loss can then occur even when serum levels are judged non-toxic.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-013",
+      "type": "basic",
+      "front": "Why must tumour genotype be checked before some targeted anticancer drugs?",
+      "back": "Response depends on somatic (tumour) mutations as well as germline DNA. EGFR activating mutations predict response to gefitinib, and BRAF V600E predicts response to vemurafenib. Trastuzumab helps only HER2-expressing breast cancers, yet it can cause cardiomyopathy, and HER2-negative patients carry that risk without benefit.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-040",
+      "type": "basic",
+      "front": "Why does the optimal warfarin dose vary more than 10-fold, and why is genotype-guided dosing still debated?",
+      "back": "Dose depends on several genes acting together: CYP2C9 (clearance), VKORC1 (target sensitivity, e.g. promoter variant lowers need, another variant raises it) and CYP4F2. Genotype explains much of the variation, yet trials using time in therapeutic range gave inconsistent results with few bleeding events, whereas one trial with bleeding as the primary endpoint showed significant benefit of genotype-guided dosing.",
+      "refs": [
+        "GG14 ch7",
+        "GG14 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-warfarin-targets",
+      "tags": [
+        "dosing",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-pharmacogenomics-016",
+      "type": "basic",
+      "front": "What does the UGT1A1*28 allele do, and which drugs does it affect?",
+      "back": "UGT1A1*28 has seven TA repeats in the promoter instead of the common six, which lowers UGT1A1 expression. The allele frequency can reach about 30%, with up to 10% of people homozygous depending on ancestry. Reduced activity raises SN-38, the active metabolite of irinotecan, and so raises the risk of serious toxicity. It also causes Gilbert syndrome and atazanavir-related hyperbilirubinaemia.",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-019",
+      "type": "cloze",
+      "front": "Classify: pharmacogene, drug and consequence",
+      "text": "TPMT and NUDT15: {{azathioprine}} and mercaptopurine cause marrow toxicity; DPYD (dihydropyrimidine dehydrogenase): {{capecitabine}} and {{fluorouracil}} cause toxicity; UGT1A1: {{irinotecan}} causes toxicity; NAT2: {{isoniazid}} causes neurotoxicity; G6PD: {{rasburicase}} causes haemolysis and methaemoglobinaemia.",
+      "refs": [
+        "GG14 ch7",
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p4-pharmacogenomics-031",
+      "type": "basic",
+      "front": "Atypical plasma cholinesterase: what happens with succinylcholine, and how is it detected?",
+      "back": "Plasma pseudocholinesterase (butyrylcholinesterase, BCHE) normally hydrolyses succinylcholine, so its action lasts only 5 to 8 minutes. Some people inherit an abnormal enzyme with low affinity for succinylcholine, or a deficiency of it. Homozygotes (about 1 in over 3000) develop prolonged block with muscle paralysis and apnoea lasting 4 to 6 hours; heterozygotes (about 1 in 50) show only a 2- to 3-fold prolongation. Succinylcholine also readily produces phase II block in these patients. The apnoea can only be managed by mechanical ventilation.",
+      "refs": [
+        "KDT8 ch5",
+        "KDT8 ch25"
+      ],
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "tags": [
+        "adr",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-015",
+      "type": "basic",
+      "front": "Why is NUDT15 testing relevant to thiopurine toxicity in East Asian patients?",
+      "back": "TPMT and NUDT15 variants both alter the levels of active thiopurine metabolites and the risk of bone marrow toxicity. TPMT poor metabolisers are rare in East Asian populations, but NUDT15 poor and intermediate metabolisers are more frequent there. Thiopurine toxicity is more common in Asian patients, and NUDT15 was found by GWAS, so TPMT testing alone can miss risk.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-017",
+      "type": "basic",
+      "front": "Acetylator (NAT2) polymorphism: what are the consequences of slow and fast acetylation?",
+      "back": "NAT2 variants give slow and fast acetylators; slow acetylation results from less NAT2 enzyme. About 60-70% of Indians are slow acetylators (isoniazid half-life about 3 h, versus 1 h in fast acetylators). Slow acetylators: isoniazid peripheral neuropathy; hydralazine- and procainamide-induced lupus; sulfonamide hypersensitivity; amonafide toxicity. The historical account in GG14 also links NAT deficiency with isoniazid hepatotoxicity (the hepatotoxic metabolite is formed from acetylhydrazine by CYP2E1). Fast acetylators: acetylator status does not matter with daily isoniazid, but biweekly regimens are less effective.",
+      "refs": [
+        "GG14 ch7",
+        "KDT8 ch5",
+        "KDT8 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "tags": [
+        "adr",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-018",
+      "type": "shortnote",
+      "front": "Short note: G6PD deficiency and drug response",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Oxidant drugs lower the antioxidant glutathione in G6PD-deficient red cells, raising fragility and causing haemolysis",
+            "X-linked; commoner in Mediterranean, African and Southeast Asian people; severity varies with the variant and is largely dose related"
+          ]
+        },
+        {
+          "h": "Drugs at risk",
+          "points": [
+            "Primaquine and other antimalarials; tafenoquine",
+            "Dapsone (haemolysis)",
+            "Rasburicase",
+            "Others: sulfonamides, cotrimoxazole, nitrofurantoin, methylene blue, fluoroquinolones, chloramphenicol"
+          ]
+        },
+        {
+          "h": "Rasburicase",
+          "points": [
+            "Breaks uric acid down to allantoin and hydrogen peroxide",
+            "G6PD-deficient cells cannot handle the oxidative stress: haemolytic anaemia and methaemoglobinaemia",
+            "Methaemoglobin cannot carry oxygen; can cause arrhythmias, seizures and death",
+            "Contraindicated in G6PD deficiency"
+          ]
+        },
+        {
+          "h": "Key point",
+          "points": [
+            "G6PD is neither the drug's metabolic enzyme nor its target; it changes the biological background (pharmacodynamic modifier)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch7",
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p4-pharmacogenomics-033",
+      "type": "basic",
+      "front": "DPYD testing before fluoropyrimidines: why, and how is the dose changed?",
+      "back": "Dihydropyrimidine dehydrogenase (DPD, gene DPYD) is the rate-limiting step of pyrimidine catabolism and eliminates about 80% of a fluorouracil dose; capecitabine and tegafur are oral prodrugs of 5-FU. Deficiency sharply lowers 5-FU clearance, causing severe toxicity. Clinically recognised variants: DPYD*2A and *13 (no function), rs67376798 and HapB3 (reduced function); all are rare. CPIC: intermediate metabolisers start at a reduced dose (50% reduction, then titrate by toxicity); complete deficiency calls for a non-fluoropyrimidine drug. Genotype-guided dose reduction lowered the risk of severe toxicity.",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5",
+        "KDT8 ch5"
+      ],
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-020",
+      "type": "essay",
+      "front": "Essay: Pharmacogenetic approach to severe toxicity from antimetabolite and cytotoxic drugs",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Many of these drugs have a narrow therapeutic margin, and toxicity can be life-threatening",
+            "Germline variants affect the host; somatic variants affect the tumour"
+          ]
+        },
+        {
+          "h": "Thiopurines",
+          "points": [
+            "TPMT and NUDT15 variants raise marrow toxicity risk",
+            "The same variants alter the risk of second cancers",
+            "NUDT15 matters more in Asian ancestry, where TPMT variants are less common"
+          ]
+        },
+        {
+          "h": "Fluoropyrimidines",
+          "points": [
+            "DPYD variants predict toxicity with fluorouracil and capecitabine"
+          ]
+        },
+        {
+          "h": "Irinotecan",
+          "points": [
+            "Reduced UGT1A1 activity raises SN-38 exposure",
+            "Higher SN-38 is linked to serious toxicity"
+          ]
+        },
+        {
+          "h": "Tumour-level factors",
+          "points": [
+            "TYMS enhancer repeat: two copies rather than three raises host toxicity and tumour susceptibility to TYMS inhibitors",
+            "Somatic markers such as EGFR and BRAF V600E select patients for targeted drugs"
+          ]
+        },
+        {
+          "h": "Clinical approach",
+          "points": [
+            "Genotype before prescribing where a validated test exists",
+            "Ancestry determines which variants are informative for a given patient"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-non-cyp",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-pharmacogenomics-021",
+      "type": "basic",
+      "front": "How does HLA-B*57:01 testing change abacavir treatment?",
+      "back": "Carriers of HLA-B*57:01 are at risk of severe abacavir hypersensitivity, described as skin reactions particularly Stevens-Johnson syndrome. A randomised trial showed that genotyping before treatment eliminated this risk, and abacavir is contraindicated in HLA-B*57:01-positive patients. Proposed mechanism: non-covalent binding of the drug or a metabolite to HLA or the T-cell receptor, altering the peptides presented; the immune details are not fully characterised.",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-022",
+      "type": "basic",
+      "front": "Which HLA allele predicts carbamazepine skin reactions in East Asian and in European-ancestry patients?",
+      "back": "HLA-B*15:02 in East Asian individuals. In European-ancestry individuals, a GWAS of patients with Stevens-Johnson-type reactions (65 cases, 3987 controls) identified HLA-A*31:01.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-024",
+      "type": "cloze",
+      "front": "Classify: HLA alleles and drug hypersensitivity",
+      "text": "HLA-B*57:01 with {{abacavir}}; HLA-B*58:01 with {{allopurinol}}; HLA-B*15:02 with {{carbamazepine}} (East Asian), oxcarbazepine and {{phenytoin}}; HLA-A*31:01 with {{carbamazepine}} (European ancestry).",
+      "refs": [
+        "GG14 ch7",
+        "Katzung16 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-023",
+      "type": "basic",
+      "front": "Why check both CYP2C9 and HLA-B genotype before starting phenytoin?",
+      "back": "Phenytoin (and fosphenytoin) is metabolised by CYP2C9, so poor metabolisers have higher plasma levels and more toxicity. Phenytoin can also cause life-threatening Stevens-Johnson syndrome and toxic epidermal necrolysis; the risk appears especially high when a CYP2C9 variant occurs together with an HLA-B risk allele such as HLA-B*15:02. Knowing both genotypes helps predict response.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-025",
+      "type": "shortnote",
+      "front": "Short note: HLA testing for drug hypersensitivity and its limits",
+      "sections": [
+        {
+          "h": "Biology",
+          "points": [
+            "HLA-A, -B and -C encode MHC class I proteins that let the immune system tell self from foreign proteins",
+            "HLA-B is among the most polymorphic genes in the genome"
+          ]
+        },
+        {
+          "h": "Population differences",
+          "points": [
+            "HLA-B*15:02 is most prevalent in East Asian and Central/South Asian populations, carried by up to about 20% in some",
+            "It is absent or very rare in European and sub-Saharan African populations",
+            "Other regional phenytoin risk alleles include HLA-B*15:21, B*15:11, B*15:08 (Asian) and B*56:02 (Aboriginal Australian)"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "A negative result is reassuring only if the correct allele panel for the patient's population was tested",
+            "Incomplete panels give false reassurance",
+            "The immune mechanism is incompletely understood"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-041",
+      "type": "basic",
+      "front": "Why must HLA screening be matched to ancestry and drug, and how can genotypes combine?",
+      "back": "HLA-B*15:02 predicts carbamazepine skin reactions in East Asian people (allele frequency up to 20% in East and Central/South Asian groups, rare in European and sub-Saharan African), whereas in European ancestry a GWAS found HLA-A*31:01. Reactions can be drug-specific (abacavir with HLA-B*57:01) or shared across related drugs (oxcarbazepine, phenytoin). For phenytoin, risk of SJS/TEN is highest when a CYP2C9 variant (high levels) coincides with an HLA-B risk allele.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-hla",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-pharmacogenomics-026",
+      "type": "basic",
+      "front": "Why has the candidate-gene approach worked well in pharmacogenetics when it often fails elsewhere?",
+      "back": "Pharmacogenetic candidate genes were chosen from known drug disposition or action pathways, and the variants found often have large effects that replicate. Elsewhere, candidate-gene findings frequently failed to replicate. GWAS is now used without a prior hypothesis and can give clear signals even with small samples when the effect is large (e.g. carbamazepine and HLA-A*31:01).",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-030",
+      "type": "cloze",
+      "front": "Classify: genomic evidence in drug development",
+      "text": "Loss-of-function variants in {{PCSK9}} lower LDL cholesterol and point to it as a target; a GWAS found that an {{ADCY9}} variant predicts response to {{dalcetrapib}}; PheWAS can suggest {{repurposing}} of existing drugs; drugs with human genetic support are about {{three-fold}} more likely to be marketed.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "tags": [
+        "newer-drugs",
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p4-pharmacogenomics-035",
@@ -964,7 +974,385 @@
       "tags": [
         "dosing",
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-027",
+      "type": "basic",
+      "front": "Why are the results of warfarin genotyping trials mixed?",
+      "back": "Trials using time in therapeutic range over the first 30 to 90 days gave inconsistent results, none showing a large effect, and these studies had few bleeding events. An RCT with bleeding as the primary endpoint did show a significant benefit of genotype-guided dosing. EHR-based case-control studies link CYP2C9 and CYP4F2 variants to bleeding.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "tags": [
+        "dosing",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-028",
+      "type": "shortnote",
+      "front": "Short note: Clinical implementation of pharmacogenomic testing",
+      "sections": [
+        {
+          "h": "Testing approaches",
+          "points": [
+            "Point-of-care: genotype when the drug is prescribed; each drug needs its own assay",
+            "Multi-gene panel stored in the EHR, with clinical decision support when a relevant drug is prescribed"
+          ]
+        },
+        {
+          "h": "Strength of evidence",
+          "points": [
+            "Strongest: RCTs comparing a genotype-guided strategy with standard care",
+            "HLA-B*57:01 with abacavir: genotyping eliminated severe skin reactions",
+            "Clopidogrel: genotype-guided care gave fewer bleeding events without more stent thrombosis",
+            "Warfarin: mixed results overall",
+            "Non-randomised data are weaker, and RCTs for rare variants may be impractical"
+          ]
+        },
+        {
+          "h": "Barriers",
+          "points": [
+            "The variant must link to a clinically important outcome, and the test must lead to actionable advice (change drug or dose)",
+            "Evidence strength varies by drug-gene pair",
+            "CPIC publishes peer-reviewed, genotype-based prescribing guidance across drugs",
+            "Allele panels must suit the target population"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-029",
+      "type": "essay",
+      "front": "Essay: Role of human genomics in new drug discovery and development",
+      "sections": [
+        {
+          "h": "Target identification",
+          "points": [
+            "Genetic pathways in physiology and disease point to new drug targets",
+            "Drugs with human genetic support are about three times more likely to be marketed",
+            "Brown and Goldstein's FH studies identified a defect in regulation of HMG-CoA reductase, the enzyme statins inhibit",
+            "PCSK9 gain-of-function variants raise LDL and cause FH; loss-of-function variants (African American subjects) lower LDL and coronary risk; PCSK9 antibodies (alirocumab, evolocumab) followed"
+          ]
+        },
+        {
+          "h": "Protective variants",
+          "points": [
+            "Loss-of-function variants in APOC3, SLC30A8 and HSD17B13 reduce risk of common diseases",
+            "SCN9A loss of function causes insensitivity to pain, suggesting an analgesic target"
+          ]
+        },
+        {
+          "h": "Patient selection",
+          "points": [
+            "After a negative phase III trial of dalcetrapib, a GWAS found an ADCY9 variant that predicted efficacy",
+            "Polygenic risk scores may pick patients most likely to benefit from costly LDL-lowering drugs"
+          ]
+        },
+        {
+          "h": "Repurposing and safety",
+          "points": [
+            "Phenome-wide association studies link variants to phenotypes, suggesting new indications",
+            "Such studies can also predict adverse effects of drugs"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Variants are often population specific, so diverse cohorts are needed",
+            "Ancestry diversity drives discovery in all populations"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-implementation",
+      "tags": [
+        "newer-drugs",
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-pharmacogenomics-042",
+      "type": "basic",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "level": 1,
+      "front": "Classify: CYP2D6 drugs whose efficacy, toxicity or dose depends on genotype: list all.",
+      "back": "Amitriptyline, atomoxetine, codeine, nortriptyline, ondansetron, paroxetine, pitolisant, tamoxifen, tramadol, tropisetron.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-pharmacogenomics-043",
+      "type": "basic",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "level": 1,
+      "front": "Classify: CYP2C9 drugs whose efficacy, toxicity or dose depends on genotype: list all.",
+      "back": "Celecoxib, flurbiprofen, fosphenytoin, ibuprofen, lornoxicam, meloxicam, phenytoin, piroxicam, siponimod, tenoxicam, warfarin.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-pharmacogenomics-044",
+      "type": "basic",
+      "subtopic": "p4-pharmacogenomics-cyp-pk",
+      "level": 1,
+      "front": "Classify: CYP2C19 drugs whose efficacy depends on genotype: list all.",
+      "back": "Amitriptyline, citalopram, clopidogrel, escitalopram, lansoprazole, omeprazole, pantoprazole, voriconazole.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-pharmacogenomics-045",
+      "type": "basic",
+      "front": "What is a copy number variant (CNV) in a pharmacogene?",
+      "back": "A change in the number of copies of a gene, such as whole-gene deletion or duplication. It changes how much enzyme is made, so it can shift drug handling.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-046",
+      "type": "basic",
+      "front": "What is a promoter variant, and what does it change?",
+      "back": "A variant in the regulatory region before a gene that alters how much of the protein is made, while the protein itself is unchanged. Example: the UGT1A1*28 TA-repeat promoter allele lowers expression.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-047",
+      "type": "basic",
+      "front": "What is a missense variant, and give one pharmacogenetic example.",
+      "back": "A single-nucleotide change that substitutes one amino acid in the protein. Example: the BCRP p.Gln141Lys substitution reduces intestinal efflux, which raises rosuvastatin response.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-pharmacogenomics-048",
+      "type": "basic",
+      "front": "How do frameshift, premature stop and start-codon variants affect a protein?",
+      "back": "They can truncate or prevent synthesis of the protein, or shift the reading frame of the rest of the transcript. The result is usually a non-functional or absent enzyme.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-049",
+      "type": "basic",
+      "front": "Can a synonymous (silent) coding variant still change drug response?",
+      "back": "Yes. A silent change in the coding region of ABCB1 (P-glycoprotein) is associated with variable drug concentrations, so an amino-acid change is not required for an effect.",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-050",
+      "type": "basic",
+      "front": "Which two parameters of carrier-mediated transport can genetic polymorphism alter?",
+      "back": "The density of the transporter in the membrane, which sets the maximal rate of transport, and its affinity for the substrate (Km). Either change alters drug pharmacokinetics.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-051",
+      "type": "basic",
+      "front": "Why are promoter variants tested in liver microsomes rather than by sequence alone?",
+      "back": "Because a promoter variant changes expression, not the coding sequence, its effect must be measured functionally. Liver microsomes carrying wild-type or variant promoter sequences show the expression difference directly (VKORC1 is the printed example).",
+      "refs": [
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-pharmacogenomics-052",
+      "type": "essay",
+      "front": "Essay: Molecular mechanisms of genetic polymorphism in drug metabolism",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
+        }
+      ],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Polymorphism is inherited DNA variation that changes enzyme or transporter amount or function",
+            "Result: different drug handling and response between individuals"
+          ]
+        },
+        {
+          "h": "Types of variant",
+          "points": [
+            "Single-nucleotide variants, small insertions and deletions, copy number variants",
+            "Regulatory variants in the promoter or splice sites",
+            "Coding variants: missense, frameshift, premature stop, start-codon change; synonymous variants can still matter"
+          ]
+        },
+        {
+          "h": "Effect on the protein",
+          "points": [
+            "Amino-acid substitution can reduce catalytic or transport function (BCRP p.Gln141Lys)",
+            "Frameshift or early stop gives a truncated, inactive enzyme (CYP3A5*3 splice defect)",
+            "Copy number changes alter total enzyme amount (CYP2D6 whole-gene deletion or duplication)"
+          ]
+        },
+        {
+          "h": "Effect on expression",
+          "points": [
+            "Promoter variants change transcription, e.g. UGT1A1*28 with seven TA repeats lowers expression",
+            "VKORC1 promoter variants lower expression and lower warfarin dose needs"
+          ]
+        },
+        {
+          "h": "Effect on transport",
+          "points": [
+            "Polymorphism can change transporter density (Vmax) and affinity (Km)",
+            "Altered transporter function changes absorption, distribution and excretion"
+          ]
+        },
+        {
+          "h": "Link to drug action",
+          "points": [
+            "Loss of an enzyme raises parent drug or lowers an active metabolite",
+            "Gain of an enzyme does the reverse",
+            "Star-allele naming groups variants into a haplotype and metaboliser phenotype"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "CYP2D6 with codeine: poor and ultrarapid metabolisers",
+            "CYP2C19 with clopidogrel and proton pump inhibitors",
+            "NAT2 slow and fast acetylators"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Mechanism depends on variant type, location and the drug's pathway",
+            "Genotyping for narrow-margin drugs is the practical use"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch7",
+        "KDT8 ch2",
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p4-pharmacogenomics-foundations",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 3
     }
   ]
 }

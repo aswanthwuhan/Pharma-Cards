@@ -15,7 +15,8 @@
       "subtopic": "p3-endocrine-gh-somatostatin",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-002",
@@ -30,22 +31,8 @@
       "subtopic": "p3-endocrine-gh-somatostatin",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-endocrine-003",
-      "type": "basic",
-      "front": "What adverse effects limit somatropin therapy?",
-      "back": "Injection-site pain and lipodystrophy, glucose intolerance, hypothyroidism (by unmasking central TSH deficiency), salt and water retention, myalgia, hand stiffness and headache. Intracranial pressure can rise in a few patients. Immunogenicity is low, so allergy and resistance are uncommon.",
-      "refs": [
-        "KDT8 ch17"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-gh-somatostatin",
-      "tags": [
-        "adr"
-      ]
+      "level": 1
     },
     {
       "id": "p3-endocrine-004",
@@ -61,7 +48,24 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-003",
+      "type": "basic",
+      "front": "What adverse effects limit somatropin therapy?",
+      "back": "Injection-site pain and lipodystrophy, glucose intolerance, hypothyroidism (by unmasking central TSH deficiency), salt and water retention, myalgia, hand stiffness and headache. Intracranial pressure can rise in a few patients. Immunogenicity is low, so allergy and resistance are uncommon.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-gh-somatostatin",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-005",
@@ -77,7 +81,8 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-006",
@@ -94,22 +99,104 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-endocrine-007",
-      "type": "basic",
-      "front": "What controls prolactin secretion, and which drugs raise prolactin levels?",
-      "back": "Dopamine (prolactin-inhibiting factor) keeps prolactin low by acting on D2 receptors of lactotrope cells. Dopamine blockers (chlorpromazine, haloperidol, metoclopramide) and the dopamine-depleting drug reserpine raise prolactin. Suckling keeps levels high after delivery, and prolactinomas are a common cause of hyperprolactinaemia.",
+      "id": "p3-endocrine-010",
+      "type": "shortnote",
+      "front": "Short note: growth hormone therapy in children",
+      "sections": [
+        {
+          "h": "Indications",
+          "points": [
+            "GH deficiency (pituitary dwarfism)",
+            "Turner syndrome (with timed sex steroids)",
+            "Growth failure in chronic renal insufficiency",
+            "Idiopathic short stature (debated and costly)"
+          ]
+        },
+        {
+          "h": "Dosing and timing",
+          "points": [
+            "Daily subcutaneous injection, usually in the evening, dosed by body weight",
+            "Weekly long-acting GH derivatives (albumin-binding or carrier-linked) are now available with comparable efficacy",
+            "Start early; growth continues until the epiphyses fuse near the end of puberty",
+            "Watch growth velocity: slowing suggests the need for a higher dose, epiphyseal fusion, hypothyroidism or malnutrition"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Injection-site lipodystrophy and glucose intolerance",
+            "Hypothyroidism from unmasked central TSH deficiency",
+            "Oedema, headache, myalgia; rarely raised intracranial pressure"
+          ]
+        }
+      ],
       "refs": [
-        "KDT8 ch17"
+        "KDT8 ch17",
+        "Katzung16 ch37"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "subtopic": "p3-endocrine-gh-somatostatin",
       "tags": [
-        "mechanism"
-      ]
+        "uses",
+        "dosing",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-071",
+      "type": "shortnote",
+      "front": "Short note: octreotide",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Synthetic octapeptide, about 40 times more potent than somatostatin at suppressing GH",
+            "Longer acting (t1/2 about 90 min); weak inhibitor of insulin"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Acromegaly; long-acting microsphere (LAR) form given every 4 weeks",
+            "Secretory diarrhoea (carcinoid, AIDS); i.v. in variceal bleeding"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Abdominal pain, nausea, steatorrhoea, diarrhoea",
+            "Gallstones"
+          ]
+        }
+      ],
+      "subtopic": "p3-endocrine-gh-somatostatin",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-endocrine-008",
@@ -157,7 +244,72 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-endocrine-007",
+      "type": "basic",
+      "front": "What controls prolactin secretion, and which drugs raise prolactin levels?",
+      "back": "Dopamine (prolactin-inhibiting factor) keeps prolactin low by acting on D2 receptors of lactotrope cells. Dopamine blockers (chlorpromazine, haloperidol, metoclopramide) and the dopamine-depleting drug reserpine raise prolactin. Suckling keeps levels high after delivery, and prolactinomas are a common cause of hyperprolactinaemia.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-012",
+      "type": "cloze",
+      "front": "Classify: dopamine D2 agonists used for prolactin excess",
+      "text": "Cabergoline is the {{first-choice}} agent, given {{twice weekly}}; {{bromocriptine}} is the older ergot-derived drug that has largely been replaced.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-072",
+      "type": "basic",
+      "front": "Why does a dopamine antagonist such as haloperidol or metoclopramide raise prolactin?",
+      "back": "Prolactin is held in check mainly by hypothalamic dopamine acting on D2 receptors of pituitary lactotropes. Blocking those receptors (or depleting dopamine with reserpine) removes the brake, so prolactin rises.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-073",
+      "type": "basic",
+      "front": "What clinical syndrome does excess prolactin cause in women and in men?",
+      "back": "Women: galactorrhoea, amenorrhoea and infertility. Men: loss of libido, impotence and sterility, with possible gynaecomastia. These are the features that a D2 agonist is used to reverse.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-009",
@@ -205,52 +357,340 @@
         "mechanism",
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-endocrine-010",
+      "id": "p3-endocrine-067",
       "type": "shortnote",
-      "front": "Short note: growth hormone therapy in children",
+      "front": "Short note: cabergoline",
       "sections": [
         {
-          "h": "Indications",
+          "h": "What",
           "points": [
-            "GH deficiency (pituitary dwarfism)",
-            "Turner syndrome (with timed sex steroids)",
-            "Growth failure in chronic renal insufficiency",
-            "Idiopathic short stature (debated and costly)"
+            "Ergot-derived dopamine D2 agonist, more potent and more pituitary-selective than bromocriptine",
+            "Long acting: half-life over 60 hours, so given twice weekly"
           ]
         },
         {
-          "h": "Dosing and timing",
+          "h": "Uses",
           "points": [
-            "Daily subcutaneous injection, usually in the evening, dosed by body weight",
-            "Weekly long-acting GH derivatives (albumin-binding or carrier-linked) are now available with comparable efficacy",
-            "Start early; growth continues until the epiphyses fuse near the end of puberty",
-            "Watch growth velocity: slowing suggests the need for a higher dose, epiphyseal fusion, hypothyroidism or malnutrition"
+            "First-choice drug for hyperprolactinaemia",
+            "Most micro- and some macroprolactinomas regress",
+            "Adjunct in acromegaly; less effective than in prolactinoma"
           ]
         },
         {
-          "h": "Adverse effects",
+          "h": "Dosing",
           "points": [
-            "Injection-site lipodystrophy and glucose intolerance",
-            "Hypothyroidism from unmasked central TSH deficiency",
-            "Oedema, headache, myalgia; rarely raised intracranial pressure"
+            "Start 0.25 mg twice weekly; maximum 1 mg twice weekly",
+            "Tablets 0.5 mg and 1 mg"
+          ]
+        },
+        {
+          "h": "Points to remember",
+          "points": [
+            "Prolactin normal in 2-4 weeks; many women conceive within a year",
+            "Stop when pregnancy occurs; relapse common on withdrawal"
           ]
         }
       ],
+      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-075",
+      "type": "basic",
+      "front": "Why does bromocriptine cause nausea and postural hypotension?",
+      "back": "It stimulates dopamine receptors in the chemoreceptor trigger zone, causing nausea and vomiting. It also suppresses central postural reflexes and has weak alpha-blocking action, so BP falls on standing.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-074",
+      "type": "basic",
+      "front": "A woman with galactorrhoea-amenorrhoea and a microprolactinoma wants to conceive. Which drug would you choose and why, and how long does the response last?",
+      "back": "Cabergoline: it is the first choice, being more potent and selective for lactotrope D2 receptors, longer acting (about twice weekly dosing) and causing less nausea than bromocriptine. Prolactin normalises in a few weeks and many women conceive within a year. Stop it once pregnancy occurs. Tumour shrinkage and relief of chiasmal pressure symptoms occur, but response lasts only while the drug is given, so recurrence follows stopping in most.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-endocrine-013",
+      "type": "cloze",
+      "front": "Classify: gonadotropin preparations",
+      "text": "Urinary menotropins contain {{FSH plus LH}}; urofollitropin is {{pure FSH}}; {{hCG}} acts at the LH receptor with an action indistinguishable from {{LH}}.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-014",
+      "type": "cloze",
+      "front": "Classify: GnRH analogues",
+      "text": "Agonists: {{goserelin}}, {{leuprolide}}, {{nafarelin}}, {{triptorelin}}. Injectable peptide antagonists: {{ganirelix}}, {{cetrorelix}}, {{degarelix}}, {{abarelix}}. Oral non-peptide antagonists for endometriosis and fibroid symptoms: {{elagolix}}, {{relugolix}}, {{linzagolix}}.",
       "refs": [
         "KDT8 ch17",
         "Katzung16 ch37"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-endocrine-gh-somatostatin",
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-076",
+      "type": "basic",
+      "front": "Why is pulsatile GnRH stimulating but sustained GnRH exposure suppressing?",
+      "back": "Only intermittent pulses drive FSH/LH release. Continuous exposure desensitises pituitary gonadotropes and gonadotropin release is lost; this is why GnRH itself is not useful for treating hypogonadism and long-acting analogues are used to suppress the axis.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-077",
+      "type": "basic",
+      "front": "What is the half-life of native GnRH and what is it used for diagnostically?",
+      "back": "Very short (about 4-8 minutes) because of rapid enzymatic breakdown. Given i.v. it prompts LH/FSH release and is used to test the pituitary-gonadal axis in hypogonadism.",
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-065",
+      "type": "shortnote",
+      "front": "Short note: GnRH analogues",
+      "sections": [
+        {
+          "h": "Physiology",
+          "points": [
+            "Hypothalamic GnRH is released in pulses that stimulate FSH and LH",
+            "Continuous exposure desensitises pituitary gonadotropes and stops gonadotropin release"
+          ]
+        },
+        {
+          "h": "Agonists",
+          "points": [
+            "Goserelin, leuprolide, nafarelin and triptorelin are more potent and longer-acting than native GnRH",
+            "Initial stimulation is followed by receptor down-regulation, giving reversible chemical castration or oophorectomy",
+            "Uses: precocious puberty, prostate cancer (with an antiandrogen to cover the initial surge), endometriosis, premenopausal breast cancer, uterine fibroids and IVF pretreatment"
+          ]
+        },
+        {
+          "h": "Antagonists",
+          "points": [
+            "Ganirelix and cetrorelix: short-acting, given daily, prevent the LH surge in controlled ovarian stimulation",
+            "Degarelix and abarelix: long-acting, used for androgen withdrawal in advanced prostate cancer"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Menopausal symptoms: hot flushes, sweating, vaginal dryness, low libido",
+            "Osteoporosis risk if used for more than about 6 months"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-066",
+      "type": "shortnote",
+      "front": "Short note: Long-acting GnRH agonists",
+      "sections": [
+        {
+          "h": "Examples",
+          "points": [
+            "Goserelin, leuprolide, nafarelin, triptorelin"
+          ]
+        },
+        {
+          "h": "Properties",
+          "points": [
+            "15-150 times more potent than natural GnRH",
+            "Longer acting (half-life about 2-6 hours)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p278"
+      ],
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-068",
+      "type": "shortnote",
+      "front": "Short note: gonadotropins in infertility and male hypogonadism",
+      "sections": [
+        {
+          "h": "Preparations",
+          "points": [
+            "Menotropins (FSH + LH from urine of menopausal women)",
+            "Urofollitropin (pure FSH), recombinant FSH, hCG from pregnancy urine"
+          ]
+        },
+        {
+          "h": "Ovulation induction and ART",
+          "points": [
+            "Pure FSH preferred in polycystic ovary; hCG given as trigger dose",
+            "Ovulation within 24-48 hours in up to 75% of cycles",
+            "Used when clomiphene has failed"
+          ]
+        },
+        {
+          "h": "Male hypogonadotropic hypogonadism",
+          "points": [
+            "hCG first, 2-3 times a week, to stimulate testosterone",
+            "FSH + LH added after 3-4 months for spermatogenesis; hCG dose then reduced",
+            "Treatment continued 6-12 months"
+          ]
+        },
+        {
+          "h": "Complications and precautions",
+          "points": [
+            "Ovarian hyperstimulation syndrome is the most serious",
+            "Multiple pregnancy; precocious puberty in children",
+            "Exclude hormone-dependent malignancy first"
+          ]
+        }
+      ],
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
       "tags": [
         "uses",
-        "dosing",
-        "adr"
-      ]
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch17"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-endocrine-011",
@@ -317,54 +757,8 @@
         "classification",
         "uses",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-endocrine-012",
-      "type": "cloze",
-      "front": "Classify: dopamine D2 agonists used for prolactin excess",
-      "text": "Cabergoline is the {{first-choice}} agent, given {{twice weekly}}; {{bromocriptine}} is the older ergot-derived drug that has largely been replaced.",
-      "refs": [
-        "KDT8 ch17"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-prolactin-dopamine",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-endocrine-013",
-      "type": "cloze",
-      "front": "Classify: gonadotropin preparations",
-      "text": "Urinary menotropins contain {{FSH plus LH}}; urofollitropin is {{pure FSH}}; {{hCG}} acts at the LH receptor with an action indistinguishable from {{LH}}.",
-      "refs": [
-        "KDT8 ch17"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-gnrh-gonadotropins",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-endocrine-014",
-      "type": "cloze",
-      "front": "Classify: GnRH analogues",
-      "text": "Agonists: {{goserelin}}, {{leuprolide}}, {{nafarelin}}, {{triptorelin}}. Injectable peptide antagonists: {{ganirelix}}, {{cetrorelix}}, {{degarelix}}, {{abarelix}}. Oral non-peptide antagonists for endometriosis and fibroid symptoms: {{elagolix}}, {{relugolix}}, {{linzagolix}}.",
-      "refs": [
-        "KDT8 ch17",
-        "Katzung16 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-gnrh-gonadotropins",
-      "tags": [
-        "classification",
-        "uses"
-      ]
+      "level": 3
     },
     {
       "id": "p3-endocrine-015",
@@ -379,7 +773,8 @@
       "subtopic": "p3-endocrine-thyroxine",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-016",
@@ -394,7 +789,24 @@
       "subtopic": "p3-endocrine-thyroxine",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-034",
+      "type": "cloze",
+      "front": "Classify: thyroid hormone transport in plasma",
+      "text": "Thyroid hormones are bound to {{TBG}} (highest affinity), then {{transthyretin}}, then {{albumin}}; only about {{0.03 to 0.08 percent}} of T4 circulates free.",
+      "refs": [
+        "KDT8 ch18"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-thyroxine",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-017",
@@ -410,7 +822,8 @@
       "tags": [
         "mechanism",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-018",
@@ -425,7 +838,8 @@
       "subtopic": "p3-endocrine-thyroxine",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-019",
@@ -441,7 +855,8 @@
       "tags": [
         "pk",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-020",
@@ -458,7 +873,8 @@
       "tags": [
         "dosing",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-021",
@@ -473,7 +889,8 @@
       "subtopic": "p3-endocrine-thyroxine",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-022",
@@ -490,308 +907,8 @@
       "tags": [
         "dosing",
         "uses"
-      ]
-    },
-    {
-      "id": "p3-endocrine-023",
-      "type": "basic",
-      "front": "Name drugs that cause hypothyroidism or goitre, and the mechanism of each.",
-      "back": "Lithium inhibits hormone release. Amiodarone blocks peripheral T4 to T3 conversion and interferes with hormone action. Sulfonamides and para-aminosalicylic acid impair iodination and coupling. Phenobarbitone, phenytoin, carbamazepine and rifampicin speed T4 breakdown. Iodides and radioiodine can also cause hypothyroidism.",
-      "refs": [
-        "KDT8 ch18"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-antithyroid",
-      "tags": [
-        "adr",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p3-endocrine-024",
-      "type": "basic",
-      "front": "What is the pathogenesis of Graves' disease, and why is TSH low in it?",
-      "back": "An IgG thyroid-stimulating immunoglobulin binds the TSH receptor and drives long-lasting thyroid stimulation. The excess hormone suppresses TSH through negative feedback. Stimulation of TSH receptors in periorbital tissue appears to cause exophthalmos. Toxic nodular goitre is TSH-independent, is more common in older people and usually lacks eye signs.",
-      "refs": [
-        "KDT8 ch18"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-antithyroid",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-endocrine-025",
-      "type": "shortnote",
-      "front": "Short note: thioamide antithyroid drugs (propylthiouracil and carbimazole)",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Inhibit thyroid peroxidase, blocking iodination and coupling",
-            "No effect on iodide trapping, on T3 and T4 action, or on existing hormone stores",
-            "Propylthiouracil also blocks peripheral T4 to T3 conversion (D1)"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Carbimazole is converted to methimazole and acts longer, usually once daily",
-            "Propylthiouracil has a short half-life and needs 2 to 3 daily doses",
-            "Both concentrate in the thyroid and cross the placenta; propylthiouracil less, being more protein bound"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Rash, joint pain and GI upset are common",
-            "Agranulocytosis in about 0.1 to 0.5%, usually in the first 3 months; mostly reversible on stopping",
-            "Severe hepatitis with propylthiouracil (boxed warning)",
-            "Overdose causes goitre and hypothyroidism, which reverse on stopping"
-          ]
-        },
-        {
-          "h": "Choice",
-          "points": [
-            "Methimazole (or carbimazole) is about 10 times more potent than propylthiouracil and is the drug of choice",
-            "Propylthiouracil is reserved for the first trimester of pregnancy, thyroid storm and intolerance of methimazole (other than agranulocytosis or hepatitis)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch18",
-        "Katzung16 ch38"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-endocrine-antithyroid",
-      "tags": [
-        "mechanism",
-        "pk",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-endocrine-026",
-      "type": "shortnote",
-      "front": "Short note: antithyroid therapy in pregnancy",
-      "sections": [
-        {
-          "h": "Problem",
-          "points": [
-            "Uncontrolled hyperthyroidism harms mother and fetus",
-            "Antithyroid drugs can cause fetal goitre and hypothyroidism",
-            "Radioiodine and thyroidectomy are contraindicated in pregnancy"
-          ]
-        },
-        {
-          "h": "Drug choice",
-          "points": [
-            "Use the lowest effective dose; aim for high-normal maternal free T4",
-            "First trimester: propylthiouracil, because carbimazole/methimazole are linked to embryopathy (aplasia cutis, choanal and oesophageal atresia)",
-            "Second and third trimesters: switch to carbimazole/methimazole, because propylthiouracil can cause severe liver injury"
-          ]
-        },
-        {
-          "h": "Monitoring",
-          "points": [
-            "Titrate the dose to maternal thyroid status throughout pregnancy"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch18",
-        "Katzung16 ch38"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-antithyroid",
-      "tags": [
-        "contraindications",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p3-endocrine-027",
-      "type": "shortnote",
-      "front": "Short note: radioactive iodine (131I) in hyperthyroidism",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Concentrated and stored in the colloid of the follicles",
-            "Beta particles destroy follicular cells from within with little damage to nearby tissue",
-            "Gamma emission is used for tracing and scanning"
-          ]
-        },
-        {
-          "h": "Indications",
-          "points": [
-            "Graves' disease and toxic nodular goitre; higher dose for toxic multinodular goitre",
-            "Many clinics reserve it for patients over about 25 to 30 years and when surgery is risky (heart failure, angina)"
-          ]
-        },
-        {
-          "h": "Advantages",
-          "points": [
-            "Outpatient, simple and inexpensive",
-            "No surgical risks such as parathyroid or recurrent laryngeal nerve injury",
-            "About 80% are cured by a single dose"
-          ]
-        },
-        {
-          "h": "Disadvantages and contraindications",
-          "points": [
-            "Slow response, so beta-blockers or antithyroid drugs are used meanwhile",
-            "High incidence of delayed hypothyroidism, the chief consequence",
-            "Radiation thyroiditis can transiently worsen thyrotoxicosis, rarely precipitating storm; antithyroid pretreatment reduces this",
-            "Contraindicated in pregnancy; use in children is controversial"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch18",
-        "GG14 ch47"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-antithyroid",
-      "tags": [
-        "uses",
-        "adr",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p3-endocrine-028",
-      "type": "shortnote",
-      "front": "Short note: thyroid storm",
-      "sections": [
-        {
-          "h": "Nature",
-          "points": [
-            "Life-threatening decompensated thyrotoxicosis, usually precipitated by infection, surgery, trauma, DKA, labour or, rarely, radioiodine",
-            "Fever above 38.5 °C, tachycardia out of proportion to fever, vomiting, diarrhoea, agitation, confusion; mortality up to 20%",
-            "A clinical diagnosis: thyroid tests resemble ordinary hyperthyroidism"
-          ]
-        },
-        {
-          "h": "Beta-blockade",
-          "points": [
-            "Propranolol, the most valuable measure: 60 to 80 mg orally every 4 hours, or 1 to 2 mg IV slowly to a total of 10 mg; esmolol IV is an alternative",
-            "Higher doses also reduce peripheral T4 to T3 conversion",
-            "Diltiazem if beta-blockers are contraindicated (severe heart failure or asthma)"
-          ]
-        },
-        {
-          "h": "Block synthesis",
-          "points": [
-            "Propylthiouracil preferred because it also inhibits T4 to T3 conversion: 500 to 1000 mg loading, then 250 mg every 4 hours",
-            "Rectal propylthiouracil or methimazole if oral intake is impossible"
-          ]
-        },
-        {
-          "h": "Block release",
-          "points": [
-            "Iodide (SSKI 5 drops every 6 hours, or Lugol's iodine) started about 1 hour after the first thioamide dose",
-            "KDT also lists iopanoic acid or ipodate to block release and T4 to T3 conversion"
-          ]
-        },
-        {
-          "h": "Supportive and adjunct care",
-          "points": [
-            "Hydrocortisone 50 mg IV every 6 hours: protects against shock and blocks T4 to T3 conversion",
-            "IV fluids, antipyretics, cooling, sedation; treat the precipitating illness",
-            "Refractory cases: cholestyramine, plasmapheresis or peritoneal dialysis to lower circulating hormone"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch38",
-        "GG14 ch47",
-        "KDT8 ch18"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 20
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-endocrine-antithyroid",
-      "tags": [
-        "uses",
-        "dosing",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-endocrine-029",
-      "type": "essay",
-      "front": "Essay: drug treatment of hyperthyroidism",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Causes: Graves' disease and toxic nodular goitre",
-            "Goals: restore euthyroidism, and prepare for surgery or radioiodine"
-          ]
-        },
-        {
-          "h": "Thioamides",
-          "points": [
-            "Block peroxidase, so iodination and coupling stop",
-            "Methimazole/carbimazole is the drug of choice; propylthiouracil for first trimester, thyroid storm or intolerance",
-            "Remission in up to half of Graves' patients after 1 to 2 years; relapse is common"
-          ]
-        },
-        {
-          "h": "Iodine and iodides",
-          "points": [
-            "Fastest-acting inhibitors; block hormone release within days",
-            "Wolff-Chaikoff effect that the gland escapes; never give alone (escape can cause severe exacerbation)",
-            "Preoperative use in Graves' disease; acute reactions and iodism"
-          ]
-        },
-        {
-          "h": "Radioiodine",
-          "points": [
-            "Destroys follicles through beta emission",
-            "Used in older patients and those with heart disease; contraindicated in pregnancy",
-            "Delayed hypothyroidism is the main long-term result"
-          ]
-        },
-        {
-          "h": "Symptomatic and special situations",
-          "points": [
-            "Propranolol controls palpitation and tremor while awaiting response",
-            "Before surgery, achieve euthyroidism with a thioamide, then add iodide",
-            "Pregnancy: propylthiouracil in the first trimester, then carbimazole/methimazole, at the lowest effective dose"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch18",
-        "Katzung16 ch38"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-antithyroid",
-      "tags": [
-        "uses",
-        "mechanism",
-        "classification"
-      ]
+      "level": 2
     },
     {
       "id": "p3-endocrine-030",
@@ -861,7 +978,24 @@
         "uses",
         "pk",
         "dosing"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-endocrine-024",
+      "type": "basic",
+      "front": "What is the pathogenesis of Graves' disease, and why is TSH low in it?",
+      "back": "An IgG thyroid-stimulating immunoglobulin binds the TSH receptor and drives long-lasting thyroid stimulation. The excess hormone suppresses TSH through negative feedback. Stimulation of TSH receptors in periorbital tissue appears to cause exophthalmos. Toxic nodular goitre is TSH-independent, is more common in older people and usually lacks eye signs.",
+      "refs": [
+        "KDT8 ch18"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-031",
@@ -876,7 +1010,8 @@
       "subtopic": "p3-endocrine-antithyroid",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-032",
@@ -891,7 +1026,8 @@
       "subtopic": "p3-endocrine-antithyroid",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-033",
@@ -907,22 +1043,356 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p3-endocrine-034",
-      "type": "cloze",
-      "front": "Classify: thyroid hormone transport in plasma",
-      "text": "Thyroid hormones are bound to {{TBG}} (highest affinity), then {{transthyretin}}, then {{albumin}}; only about {{0.03 to 0.08 percent}} of T4 circulates free.",
+      "id": "p3-endocrine-023",
+      "type": "basic",
+      "front": "Name drugs that cause hypothyroidism or goitre, and the mechanism of each.",
+      "back": "Lithium inhibits hormone release. Amiodarone blocks peripheral T4 to T3 conversion and interferes with hormone action. Sulfonamides and para-aminosalicylic acid impair iodination and coupling. Phenobarbitone, phenytoin, carbamazepine and rifampicin speed T4 breakdown. Iodides and radioiodine can also cause hypothyroidism.",
       "refs": [
         "KDT8 ch18"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-endocrine-thyroxine",
+      "subtopic": "p3-endocrine-antithyroid",
       "tags": [
-        "pk"
-      ]
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-025",
+      "type": "shortnote",
+      "front": "Short note: thioamide antithyroid drugs (propylthiouracil and carbimazole)",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Inhibit thyroid peroxidase, blocking iodination and coupling",
+            "No effect on iodide trapping, on T3 and T4 action, or on existing hormone stores",
+            "Propylthiouracil also blocks peripheral T4 to T3 conversion (D1)"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Carbimazole is converted to methimazole and acts longer, usually once daily",
+            "Propylthiouracil has a short half-life and needs 2 to 3 daily doses",
+            "Both concentrate in the thyroid and cross the placenta; propylthiouracil less, being more protein bound"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Rash, joint pain and GI upset are common",
+            "Agranulocytosis in about 0.1 to 0.5%, usually in the first 3 months; mostly reversible on stopping",
+            "Severe hepatitis with propylthiouracil (boxed warning)",
+            "Overdose causes goitre and hypothyroidism, which reverse on stopping"
+          ]
+        },
+        {
+          "h": "Choice",
+          "points": [
+            "Methimazole (or carbimazole) is about 10 times more potent than propylthiouracil and is the drug of choice",
+            "Propylthiouracil is reserved for the first trimester of pregnancy, thyroid storm and intolerance of methimazole (other than agranulocytosis or hepatitis)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch18",
+        "Katzung16 ch38"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "mechanism",
+        "pk",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-026",
+      "type": "shortnote",
+      "front": "Short note: antithyroid therapy in pregnancy",
+      "sections": [
+        {
+          "h": "Problem",
+          "points": [
+            "Uncontrolled hyperthyroidism harms mother and fetus",
+            "Antithyroid drugs can cause fetal goitre and hypothyroidism",
+            "Radioiodine and thyroidectomy are contraindicated in pregnancy"
+          ]
+        },
+        {
+          "h": "Drug choice",
+          "points": [
+            "Use the lowest effective dose; aim for high-normal maternal free T4",
+            "First trimester: propylthiouracil, because carbimazole/methimazole are linked to embryopathy (aplasia cutis, choanal and oesophageal atresia)",
+            "Second and third trimesters: switch to carbimazole/methimazole, because propylthiouracil can cause severe liver injury"
+          ]
+        },
+        {
+          "h": "Monitoring",
+          "points": [
+            "Titrate the dose to maternal thyroid status throughout pregnancy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch18",
+        "Katzung16 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "contraindications",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-027",
+      "type": "shortnote",
+      "front": "Short note: radioactive iodine (131I) in hyperthyroidism",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Concentrated and stored in the colloid of the follicles",
+            "Beta particles destroy follicular cells from within with little damage to nearby tissue",
+            "Gamma emission is used for tracing and scanning"
+          ]
+        },
+        {
+          "h": "Indications",
+          "points": [
+            "Graves' disease and toxic nodular goitre; higher dose for toxic multinodular goitre",
+            "Many clinics reserve it for patients over about 25 to 30 years and when surgery is risky (heart failure, angina)"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "Outpatient, simple and inexpensive",
+            "No surgical risks such as parathyroid or recurrent laryngeal nerve injury",
+            "About 80% are cured by a single dose"
+          ]
+        },
+        {
+          "h": "Disadvantages and contraindications",
+          "points": [
+            "Slow response, so beta-blockers or antithyroid drugs are used meanwhile",
+            "High incidence of delayed hypothyroidism, the chief consequence",
+            "Radiation thyroiditis can transiently worsen thyrotoxicosis, rarely precipitating storm; antithyroid pretreatment reduces this",
+            "Contraindicated in pregnancy; use in children is controversial"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch18",
+        "GG14 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "uses",
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-028",
+      "type": "shortnote",
+      "front": "Short note: thyroid storm",
+      "sections": [
+        {
+          "h": "Nature",
+          "points": [
+            "Life-threatening decompensated thyrotoxicosis, usually precipitated by infection, surgery, trauma, DKA, labour or, rarely, radioiodine",
+            "Fever above 38.5 °C, tachycardia out of proportion to fever, vomiting, diarrhoea, agitation, confusion; mortality up to 20%",
+            "A clinical diagnosis: thyroid tests resemble ordinary hyperthyroidism"
+          ]
+        },
+        {
+          "h": "Beta-blockade",
+          "points": [
+            "Propranolol, the most valuable measure: 60 to 80 mg orally every 4 hours, or 1 to 2 mg IV slowly to a total of 10 mg; esmolol IV is an alternative",
+            "Higher doses also reduce peripheral T4 to T3 conversion",
+            "Diltiazem if beta-blockers are contraindicated (severe heart failure or asthma)"
+          ]
+        },
+        {
+          "h": "Block synthesis",
+          "points": [
+            "Propylthiouracil preferred because it also inhibits T4 to T3 conversion: 500 to 1000 mg loading, then 250 mg every 4 hours",
+            "Rectal propylthiouracil or methimazole if oral intake is impossible"
+          ]
+        },
+        {
+          "h": "Block release",
+          "points": [
+            "Iodide (SSKI 5 drops every 6 hours, or Lugol's iodine) started about 1 hour after the first thioamide dose",
+            "KDT also lists iopanoic acid or ipodate to block release and T4 to T3 conversion"
+          ]
+        },
+        {
+          "h": "Supportive and adjunct care",
+          "points": [
+            "Hydrocortisone 50 mg IV every 6 hours: protects against shock and blocks T4 to T3 conversion",
+            "IV fluids, antipyretics, cooling, sedation; treat the precipitating illness",
+            "Refractory cases: cholestyramine, plasmapheresis or peritoneal dialysis to lower circulating hormone"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch38",
+        "GG14 ch47",
+        "KDT8 ch18"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "uses",
+        "dosing",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-070",
+      "type": "shortnote",
+      "front": "Short note: iodine and iodides in thyroid disease",
+      "sections": [
+        {
+          "h": "Action",
+          "points": [
+            "Fastest-acting inhibitor of thyroid hormone release (thyroid constipation)",
+            "Wolff-Chaikoff effect: excess iodide briefly blocks hormone synthesis"
+          ]
+        },
+        {
+          "h": "Escape and adverse effects",
+          "points": [
+            "Thyroid escape after 10-15 days of daily iodide, with return of thyrotoxicosis",
+            "Acute reactions: angioedema of larynx, fever, joint pain; acne may flare"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Given for about 10 days before thyroidectomy in Graves' disease (100-300 mg/day)",
+            "Lugol's iodine or iodinated contrast in thyroid storm",
+            "Prophylaxis in endemic goitre: 5-10 mg/day"
+          ]
+        }
+      ],
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch18"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-029",
+      "type": "essay",
+      "front": "Essay: drug treatment of hyperthyroidism",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Causes: Graves' disease and toxic nodular goitre",
+            "Goals: restore euthyroidism, and prepare for surgery or radioiodine"
+          ]
+        },
+        {
+          "h": "Thioamides",
+          "points": [
+            "Block peroxidase, so iodination and coupling stop",
+            "Methimazole/carbimazole is the drug of choice; propylthiouracil for first trimester, thyroid storm or intolerance",
+            "Remission in up to half of Graves' patients after 1 to 2 years; relapse is common"
+          ]
+        },
+        {
+          "h": "Iodine and iodides",
+          "points": [
+            "Fastest-acting inhibitors; block hormone release within days",
+            "Wolff-Chaikoff effect that the gland escapes; never give alone (escape can cause severe exacerbation)",
+            "Preoperative use in Graves' disease; acute reactions and iodism"
+          ]
+        },
+        {
+          "h": "Radioiodine",
+          "points": [
+            "Destroys follicles through beta emission",
+            "Used in older patients and those with heart disease; contraindicated in pregnancy",
+            "Delayed hypothyroidism is the main long-term result"
+          ]
+        },
+        {
+          "h": "Symptomatic and special situations",
+          "points": [
+            "Propranolol controls palpitation and tremor while awaiting response",
+            "Before surgery, achieve euthyroidism with a thioamide, then add iodide",
+            "Pregnancy: propylthiouracil in the first trimester, then carbimazole/methimazole, at the lowest effective dose"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch18",
+        "Katzung16 ch38"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "uses",
+        "mechanism",
+        "classification"
+      ],
+      "level": 3
     },
     {
       "id": "p3-endocrine-035",
@@ -937,7 +1407,8 @@
       "subtopic": "p3-endocrine-insulin",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-036",
@@ -952,37 +1423,8 @@
       "subtopic": "p3-endocrine-insulin",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-endocrine-037",
-      "type": "basic",
-      "front": "What is the mechanism of metformin's glucose-lowering effect?",
-      "back": "Metformin does not stimulate insulin release, but it needs insulin to act. Its main effect is suppression of hepatic gluconeogenesis and glucose output, through AMPK activation that follows changes in cellular energy status. It also improves insulin-mediated glucose uptake in muscle and fat, and slightly reduces intestinal glucose absorption.",
-      "refs": [
-        "KDT8 ch19"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-oral-antidiabetics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-endocrine-038",
-      "type": "basic",
-      "front": "How do sulfonylureas lower blood glucose, and why is hypoglycaemia their main risk?",
-      "back": "They bind the SUR1 subunit of the beta-cell KATP channel and close it. Depolarisation and calcium influx increase insulin release, mainly the second phase, and this happens even at low glucose. Because insulin is released regardless of meals, they can cause severe, unpredictable hypoglycaemia. They need functioning beta cells, so they do not work in type 1 diabetes.",
-      "refs": [
-        "KDT8 ch19"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-oral-antidiabetics",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 1
     },
     {
       "id": "p3-endocrine-039",
@@ -997,13 +1439,14 @@
       "subtopic": "p3-endocrine-insulin",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-040",
       "type": "basic",
       "front": "What are the onset, peak and duration of regular insulin, and how should it be timed?",
-      "back": "KDT: onset 30 to 60 minutes, peak 2 to 3 hours, duration 6 to 8 hours (Katzung: effect within 30 min, peak about 2 h, lasts 5 to 7 h). Because absorption from the s.c. site is slow, it is optimally injected about 1 hour before a meal (KDT); injected just before eating it gives early post-meal hyperglycaemia and late hypoglycaemia. It is unsuitable for basal cover. Given IV its action is prompt, and it is the insulin used for IV infusion in DKA.",
+      "back": "Onset within 30 minutes; peak about 2 to 3 hours and duration 6 to 8 hours (KDT). Katzung gives peak about 2 h and 5 to 7 h duration. Because absorption from the s.c. site is slow, it is optimally injected about 1 hour before a meal (KDT); injected just before eating it gives early post-meal hyperglycaemia and late hypoglycaemia. It is unsuitable for basal cover. Given IV its action is prompt, and it is the insulin used for IV infusion in DKA.",
       "refs": [
         "KDT8 ch19",
         "Katzung16 ch41"
@@ -1014,7 +1457,25 @@
       "tags": [
         "pk",
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-060",
+      "type": "cloze",
+      "front": "Classify: insulins by duration of action",
+      "text": "Rapid: {{lispro}}, {{aspart}}, {{glulisine}}. Short: {{regular}}. Intermediate: {{NPH (isophane)}} and {{lente}}. Long: {{glargine}}, {{detemir}}, {{degludec}}.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "level": 1
     },
     {
       "id": "p3-endocrine-041",
@@ -1030,7 +1491,8 @@
       "tags": [
         "pk",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-042",
@@ -1046,7 +1508,347 @@
       "tags": [
         "pk",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-050",
+      "type": "shortnote",
+      "front": "Short note: insulin regimens",
+      "sections": [
+        {
+          "h": "Dose estimates",
+          "points": [
+            "Type 1: about 0.4 to 0.8 U/kg/day",
+            "Type 2: about 0.2 to 1.6 U/kg/day; obese patients need more per kg"
+          ]
+        },
+        {
+          "h": "Split-mixed regimen",
+          "points": [
+            "30:70 or 50:50 mix of regular and NPH insulin",
+            "Given twice daily before breakfast and before dinner",
+            "Weaknesses: post-lunch hyperglycaemia and late post-meal hypoglycaemia"
+          ]
+        },
+        {
+          "h": "Basal-bolus regimen",
+          "points": [
+            "Long-acting basal insulin once daily plus 2 to 3 rapid-acting meal doses",
+            "Three to four injections a day; closest to physiological control",
+            "Basal dose kept steady; meal dose adjusted to carbohydrate intake"
+          ]
+        },
+        {
+          "h": "Targets and evidence",
+          "points": [
+            "Pre-meal glucose 90 to 130 mg/dL, peak post-meal under 180 mg/dL, HbA1c under 7 percent; relax targets where hypoglycaemia is a risk",
+            "DCCT (type 1) and UKPDS (type 2) show tight control reduces microvascular complications",
+            "Intensive therapy is best avoided in young children and the elderly"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch19",
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-052",
+      "type": "shortnote",
+      "front": "Short note: insulin resistance",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Reduced response of liver, muscle and fat to physiological insulin levels",
+            "Central to type 2 diabetes and the metabolic syndrome"
+          ]
+        },
+        {
+          "h": "Chronic causes",
+          "points": [
+            "Obesity (the most important), sedentary life and ageing",
+            "Polycystic ovary disease, pregnancy and oral contraceptives (usually mild and reversible)",
+            "Acromegaly, Cushing's syndrome, pheochromocytoma, lipoatrophic diabetes and insulin antibodies"
+          ]
+        },
+        {
+          "h": "Acute causes",
+          "points": [
+            "Infection, trauma, surgery and stress, which raise corticosteroids and other counter-regulatory hormones",
+            "Ketoacidosis, where ketones and fatty acids block glucose uptake"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Treat the precipitating cause",
+            "Give higher doses of regular insulin until control returns"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-054",
+      "type": "shortnote",
+      "front": "Short note: insulin preparations by duration of action",
+      "sections": [
+        {
+          "h": "Rapid",
+          "points": [
+            "Lispro, aspart, glulisine: onset about 15 minutes, peak 1 to 2 hours, duration 3 to 5 hours"
+          ]
+        },
+        {
+          "h": "Short",
+          "points": [
+            "Regular (soluble): onset 30 to 60 minutes, peak 2 to 3 hours, duration 6 to 8 hours",
+            "The insulin used for IV infusion"
+          ]
+        },
+        {
+          "h": "Intermediate",
+          "points": [
+            "NPH (isophane) and lente: onset 1 to 2 hours, peak 8 to 10 hours, duration 12 to 20 hours",
+            "NPH is usually mixed with regular insulin"
+          ]
+        },
+        {
+          "h": "Long",
+          "points": [
+            "Glargine: peakless, lasts about 24 hours, acidic, not mixed with other insulin",
+            "Detemir: binds albumin, acts about 17 hours, given once or twice daily",
+            "Degludec: flat effect for about 40 hours with less nocturnal hypoglycaemia than glargine",
+            "Icodec: once-weekly basal insulin analogue"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch19",
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "classification",
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-056",
+      "type": "essay",
+      "front": "Essay: insulin therapy in type 1 diabetes",
+      "sections": [
+        {
+          "h": "Need",
+          "points": [
+            "Type 1 always requires insulin, as does diabetes after pancreatectomy",
+            "Regimen must provide basal suppression of hepatic glucose output plus meal-time coverage"
+          ]
+        },
+        {
+          "h": "Preparations",
+          "points": [
+            "Human insulin or insulin analogues (rapid, short, intermediate and long acting)"
+          ]
+        },
+        {
+          "h": "Regimens",
+          "points": [
+            "Split-mixed: two injections, poor lunch-time cover",
+            "Basal-bolus: three or four injections, most physiological",
+            "Continuous s.c. insulin infusion (pumps) uses short-acting insulins: basal rates plus programmed meal boluses; pumps linked to continuous glucose monitors are moving toward closed-loop automated delivery"
+          ]
+        },
+        {
+          "h": "Delay of type 1 diabetes",
+          "points": [
+            "Teplizumab (anti-CD3 antibody), a 14-day infusion in high-risk stage 2 individuals aged 8 and above, delays onset of clinical type 1 diabetes by about 2 years"
+          ]
+        },
+        {
+          "h": "Delivery devices",
+          "points": [
+            "Pre-filled syringes and pen devices",
+            "Inhaled insulin is not for smokers or COPD patients"
+          ]
+        },
+        {
+          "h": "Adverse effects and monitoring",
+          "points": [
+            "Hypoglycaemia is the main danger",
+            "Local reactions and lipodystrophy; allergy is now rare",
+            "Oedema on starting; loss of warning symptoms with time"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch19",
+        "GG14 ch51",
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "uses",
+        "dosing",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-endocrine-064",
+      "type": "basic",
+      "front": "Teplizumab: mechanism and use?",
+      "back": "A humanised monoclonal antibody against CD3, the main signalling part of the T-cell receptor, which modulates the autoimmune attack on beta cells. It is given as a daily infusion for 14 days to people aged 8 and above at high risk of type 1 diabetes (two positive autoantibodies with impaired glucose tolerance, stage 2). It delays the onset of clinical (stage 3) type 1 diabetes by about 25 months. Adverse effects: transient fall in white cells and lymphocytes, rash, headache.",
+      "refs": [
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-endocrine-058",
+      "type": "cloze",
+      "front": "Classify: oral antidiabetic drugs by class",
+      "text": "Biguanide: {{metformin}}. Sulfonylureas: {{glimepiride}}, {{gliclazide}}. Glinides: {{repaglinide}}, {{nateglinide}}. Thiazolidinedione: {{pioglitazone}}. Alpha-glucosidase inhibitor: {{acarbose}}.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-059",
+      "type": "cloze",
+      "front": "Classify: newer incretin and SGLT-2 agents",
+      "text": "DPP-4 inhibitors: {{sitagliptin}}, {{vildagliptin}}, {{saxagliptin}}, {{linagliptin}}, {{alogliptin}}. GLP-1 agonists: {{exenatide}}, {{liraglutide}}, {{dulaglutide}}, {{lixisenatide}}, {{semaglutide}}. SGLT-2 inhibitors: {{canagliflozin}}, {{dapagliflozin}}, {{empagliflozin}}, {{ertugliflozin}}.",
+      "refs": [
+        "KDT8 ch19",
+        "Katzung16 ch41",
+        "GG14 ch51"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-078",
+      "type": "basic",
+      "front": "Metformin: what is its main site of action and role of AMPK?",
+      "back": "It acts mainly by suppressing hepatic gluconeogenesis and glucose output, the major glucose-lowering effect. It also improves insulin-mediated glucose uptake in muscle and fat. AMPK activation (an indirect result of reduced mitochondrial respiration) mediates these actions. It needs insulin to be present, so it does not work in type 1 diabetes.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-079",
+      "type": "basic",
+      "front": "Why is metformin avoided in renal insufficiency, and what other adverse effect occurs with prolonged high doses?",
+      "back": "It is excreted unchanged by the kidney, so it accumulates in renal failure and the risk of lactic acidosis rises (also avoided in heart failure, hypotension, severe hepatic or respiratory disease and alcoholics). High doses can impair vitamin B12 absorption. Hypoglycaemia is rare, so it is called euglycaemic.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-037",
+      "type": "basic",
+      "front": "What is the mechanism of metformin's glucose-lowering effect?",
+      "back": "Metformin does not stimulate insulin release, but it needs insulin to act. Its main effect is suppression of hepatic gluconeogenesis and glucose output, through AMPK activation that follows changes in cellular energy status. It also improves insulin-mediated glucose uptake in muscle and fat, and slightly reduces intestinal glucose absorption.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-038",
+      "type": "basic",
+      "front": "How do sulfonylureas lower blood glucose, and why is hypoglycaemia their main risk?",
+      "back": "They bind the SUR1 subunit of the beta-cell KATP channel and close it. Depolarisation and calcium influx increase insulin release, mainly the second phase, and this happens even at low glucose. Because insulin is released regardless of meals, they can cause severe, unpredictable hypoglycaemia. They need functioning beta cells, so they do not work in type 1 diabetes.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-043",
@@ -1064,7 +1866,8 @@
         "mechanism",
         "adr",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-044",
@@ -1083,7 +1886,8 @@
         "mechanism",
         "adr",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-045",
@@ -1102,7 +1906,8 @@
         "mechanism",
         "adr",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-046",
@@ -1119,40 +1924,8 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-endocrine-047",
-      "type": "basic",
-      "front": "How do you treat an episode of insulin-induced hypoglycaemia?",
-      "back": "Give 15 to 20 g of oral glucose or sugar, and repeat after 15 to 20 minutes if there is no improvement. In severe cases give 30 to 50 mL of 50 percent glucose IV over about 10 minutes. If the patient cannot take sugar and IV glucose is not available, glucagon 0.5 to 1 mg can be given as a stopgap; a 3 mg nasal glucagon device is now available. KDT also lists adrenaline 0.2 mg s.c. as a less desirable option. Continue oral carbohydrate because hypoglycaemia may recur.",
-      "refs": [
-        "KDT8 ch19",
-        "GG14 ch51"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-hypo-dka",
-      "tags": [
-        "adr",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p3-endocrine-048",
-      "type": "basic",
-      "front": "How is insulin given in diabetic ketoacidosis?",
-      "back": "Regular insulin IV only, alongside aggressive IV hydration (normal saline first) and potassium replacement. The usual starting infusion is about 0.1 U/kg/h; KDT precedes it with an IV bolus of 0.1 to 0.2 U/kg and doubles the rate if glucose has not fallen significantly in 2 hours (a fall of about 10% per hour is adequate). When glucose reaches about 300 mg/dL (usually in 4 to 6 h), KDT reduces the infusion to 2 to 3 U/h and adds 5% glucose, continuing until the patient is fully conscious and can start s.c. insulin.",
-      "refs": [
-        "Katzung16 ch41",
-        "KDT8 ch19"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-hypo-dka",
-      "tags": [
-        "dosing"
-      ]
+      "level": 2
     },
     {
       "id": "p3-endocrine-049",
@@ -1213,155 +1986,8 @@
         "mechanism",
         "uses",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-endocrine-050",
-      "type": "shortnote",
-      "front": "Short note: insulin regimens",
-      "sections": [
-        {
-          "h": "Dose estimates",
-          "points": [
-            "Type 1: about 0.4 to 0.8 U/kg/day",
-            "Type 2: about 0.2 to 1.6 U/kg/day; obese patients need more per kg"
-          ]
-        },
-        {
-          "h": "Split-mixed regimen",
-          "points": [
-            "30:70 or 50:50 mix of regular and NPH insulin",
-            "Given twice daily before breakfast and before dinner",
-            "Weaknesses: post-lunch hyperglycaemia and late post-meal hypoglycaemia"
-          ]
-        },
-        {
-          "h": "Basal-bolus regimen",
-          "points": [
-            "Long-acting basal insulin once daily plus 2 to 3 rapid-acting meal doses",
-            "Three to four injections a day; closest to physiological control",
-            "Basal dose kept steady; meal dose adjusted to carbohydrate intake"
-          ]
-        },
-        {
-          "h": "Targets and evidence",
-          "points": [
-            "Pre-meal glucose 90 to 130 mg/dL, peak post-meal under 180 mg/dL, HbA1c under 7 percent; relax targets where hypoglycaemia is a risk",
-            "DCCT (type 1) and UKPDS (type 2) show tight control reduces microvascular complications",
-            "Intensive therapy is best avoided in young children and the elderly"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch19",
-        "Katzung16 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-insulin",
-      "tags": [
-        "dosing",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-endocrine-051",
-      "type": "shortnote",
-      "front": "Short note: hypoglycaemia during insulin or sulfonylurea therapy",
-      "sections": [
-        {
-          "h": "Causes",
-          "points": [
-            "Excess dose, a skipped meal, unplanned exercise or alcohol",
-            "Labile diabetes, renal or hepatic impairment",
-            "Interacting drugs that potentiate sulfonylureas or insulin"
-          ]
-        },
-        {
-          "h": "Symptoms",
-          "points": [
-            "Autonomic (appear first): sweating, palpitation, tremor, anxiety",
-            "Neuroglucopenic: confusion, headache, behaviour change, weakness",
-            "Below about 40 mg/dL: seizures and coma; prolonged episodes cause permanent injury"
-          ]
-        },
-        {
-          "h": "Masking and unawareness",
-          "points": [
-            "Beta-blockers mask the autonomic warnings, and neuropathy can abolish them",
-            "Frequent attacks lead to hypoglycaemic unawareness"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "Oral glucose first; 50 percent glucose IV if severe",
-            "Glucagon as an emergency measure, though it fails if hepatic glycogen is depleted"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch19"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-hypo-dka",
-      "tags": [
-        "adr",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p3-endocrine-052",
-      "type": "shortnote",
-      "front": "Short note: insulin resistance",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Reduced response of liver, muscle and fat to physiological insulin levels",
-            "Central to type 2 diabetes and the metabolic syndrome"
-          ]
-        },
-        {
-          "h": "Chronic causes",
-          "points": [
-            "Obesity (the most important), sedentary life and ageing",
-            "Polycystic ovary disease, pregnancy and oral contraceptives (usually mild and reversible)",
-            "Acromegaly, Cushing's syndrome, pheochromocytoma, lipoatrophic diabetes and insulin antibodies"
-          ]
-        },
-        {
-          "h": "Acute causes",
-          "points": [
-            "Infection, trauma, surgery and stress, which raise corticosteroids and other counter-regulatory hormones",
-            "Ketoacidosis, where ketones and fatty acids block glucose uptake"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Treat the precipitating cause",
-            "Give higher doses of regular insulin until control returns"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch19"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-endocrine-insulin",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-endocrine-053",
@@ -1409,55 +2035,24 @@
         "mechanism",
         "adr",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-endocrine-054",
-      "type": "shortnote",
-      "front": "Short note: insulin preparations by duration of action",
-      "sections": [
-        {
-          "h": "Rapid",
-          "points": [
-            "Lispro, aspart, glulisine: onset about 15 minutes, peak 1 to 2 hours, duration 3 to 5 hours"
-          ]
-        },
-        {
-          "h": "Short",
-          "points": [
-            "Regular (soluble): onset 30 to 60 minutes, peak 2 to 3 hours, duration 6 to 8 hours",
-            "The insulin used for IV infusion"
-          ]
-        },
-        {
-          "h": "Intermediate",
-          "points": [
-            "NPH (isophane) and lente: onset 1 to 2 hours, peak 8 to 10 hours, duration 12 to 20 hours",
-            "NPH is usually mixed with regular insulin"
-          ]
-        },
-        {
-          "h": "Long",
-          "points": [
-            "Glargine: peakless, lasts about 24 hours, acidic, not mixed with other insulin",
-            "Detemir: binds albumin, acts about 17 hours, given once or twice daily",
-            "Degludec: flat effect for about 40 hours with less nocturnal hypoglycaemia than glargine",
-            "Icodec: once-weekly basal insulin analogue"
-          ]
-        }
-      ],
+      "id": "p3-endocrine-061",
+      "type": "cloze",
+      "front": "Classify: drugs that change sulfonylurea effect",
+      "text": "Increase effect: {{phenylbutazone}}, {{cimetidine}}, {{ketoconazole}}, {{warfarin}}, acute {{alcohol}}. Reduce effect: {{rifampicin}}, {{phenytoin}}, {{phenobarbitone}}, {{thiazides}}, {{corticosteroids}}.",
       "refs": [
-        "KDT8 ch19",
-        "Katzung16 ch41"
+        "KDT8 ch19"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-endocrine-insulin",
+      "subtopic": "p3-endocrine-oral-antidiabetics",
       "tags": [
-        "classification",
-        "pk",
-        "dosing"
-      ]
+        "interactions"
+      ],
+      "level": 2
     },
     {
       "id": "p3-endocrine-055",
@@ -1531,197 +2126,44 @@
         "uses",
         "classification",
         "dosing"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-endocrine-056",
-      "type": "essay",
-      "front": "Essay: insulin therapy in type 1 diabetes",
-      "sections": [
-        {
-          "h": "Need",
-          "points": [
-            "Type 1 always requires insulin, as does diabetes after pancreatectomy",
-            "Regimen must provide basal suppression of hepatic glucose output plus meal-time coverage"
-          ]
-        },
-        {
-          "h": "Preparations",
-          "points": [
-            "Human insulin or insulin analogues (rapid, short, intermediate and long acting)"
-          ]
-        },
-        {
-          "h": "Regimens",
-          "points": [
-            "Split-mixed: two injections, poor lunch-time cover",
-            "Basal-bolus: three or four injections, most physiological",
-            "Continuous s.c. insulin infusion (pumps) uses short-acting insulins: basal rates plus programmed meal boluses; pumps linked to continuous glucose monitors are moving toward closed-loop automated delivery"
-          ]
-        },
-        {
-          "h": "Delay of type 1 diabetes",
-          "points": [
-            "Teplizumab (anti-CD3 antibody), a 14-day infusion in high-risk stage 2 individuals aged 8 and above, delays onset of clinical type 1 diabetes by about 2 years"
-          ]
-        },
-        {
-          "h": "Delivery devices",
-          "points": [
-            "Pre-filled syringes and pen devices",
-            "Inhaled insulin is not for smokers or COPD patients"
-          ]
-        },
-        {
-          "h": "Adverse effects and monitoring",
-          "points": [
-            "Hypoglycaemia is the main danger",
-            "Local reactions and lipodystrophy; allergy is now rare",
-            "Oedema on starting; loss of warning symptoms with time"
-          ]
-        }
-      ],
+      "id": "p3-endocrine-063",
+      "type": "basic",
+      "front": "Tirzepatide: what is it, and how does it compare with GLP-1 agonists?",
+      "back": "A dual GIP and GLP-1 receptor agonist, built on the GIP sequence with a fatty diacid chain that binds albumin, allowing once-weekly s.c. injection. Starts at 2.5 mg weekly, goes to 5 mg after 4 weeks, then rises in 2.5 mg steps every 4 weeks up to 15 mg. It lowered HbA1c by about 1.9 to 2.6% with weight loss of about 6 to 13 kg, and improved lipids, blood pressure and fatty liver. Safety resembles GLP-1 agonists: dose-related nausea, vomiting and diarrhoea, and a slightly higher pancreatitis rate.",
       "refs": [
-        "KDT8 ch19",
-        "GG14 ch51",
         "Katzung16 ch41"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-endocrine-insulin",
+      "subtopic": "p3-endocrine-oral-antidiabetics",
       "tags": [
-        "uses",
-        "dosing",
+        "newer-drugs",
+        "mechanism",
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-endocrine-057",
-      "type": "essay",
-      "front": "Essay: acute metabolic emergencies in diabetes",
-      "sections": [
-        {
-          "h": "Hypoglycaemia",
-          "points": [
-            "Causes and symptoms, from autonomic to neuroglucopenic",
-            "Oral glucose, IV glucose, glucagon as a stopgap",
-            "Prevent recurrence by reviewing dose, meals and interacting drugs"
-          ]
-        },
-        {
-          "h": "Diabetic ketoacidosis",
-          "points": [
-            "Absent or inadequate insulin; ketosis, pH below 7.3 and low bicarbonate",
-            "Precipitants: new type 1 diabetes, missed insulin, infection, pancreatitis, high-dose steroids; euglycaemic DKA with SGLT2 inhibitors"
-          ]
-        },
-        {
-          "h": "DKA treatment",
-          "points": [
-            "Aggressive IV fluids starting with normal saline",
-            "IV regular insulin, about 0.1 U/kg/h, with frequent glucose monitoring",
-            "5 percent glucose added once glucose reaches about 300 mg/dL (KDT), because glucose falls before ketones clear",
-            "Maintain potassium and other electrolytes; bicarbonate only for severe acidosis"
-          ]
-        },
-        {
-          "h": "Hyperosmolar hyperglycaemic state",
-          "points": [
-            "Glucose over 600 mg/dL and osmolality over 320 mOsm/L without acidosis, mostly in elderly type 2 patients",
-            "Aggressive rehydration; low-dose insulin; less potassium, alkali usually not needed",
-            "Prophylactic heparin because of thrombosis risk"
-          ]
-        },
-        {
-          "h": "Prognosis",
-          "points": [
-            "Early, vigorous treatment of the metabolic state and the trigger",
-            "Mortality in hyperosmolar coma remains high"
-          ]
-        }
-      ],
+      "id": "p3-endocrine-047",
+      "type": "basic",
+      "front": "How do you treat an episode of insulin-induced hypoglycaemia?",
+      "back": "Give 15 to 20 g of oral glucose or sugar, and repeat after 15 to 20 minutes if there is no improvement. In severe cases give 30 to 50 mL of 50 percent glucose IV over about 10 minutes. If the patient cannot take sugar and IV glucose is not available, glucagon 0.5 to 1 mg can be given as a stopgap; a 3 mg nasal glucagon device is now available. KDT also lists adrenaline 0.2 mg s.c. as a less desirable option. Continue oral carbohydrate because hypoglycaemia may recur.",
       "refs": [
         "KDT8 ch19",
-        "Katzung16 ch41"
+        "GG14 ch51"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p3-endocrine-hypo-dka",
       "tags": [
-        "uses",
-        "dosing",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-endocrine-058",
-      "type": "cloze",
-      "front": "Classify: oral antidiabetic drugs by class",
-      "text": "Biguanide: {{metformin}}. Sulfonylureas: {{glimepiride}}, {{gliclazide}}. Glinides: {{repaglinide}}, {{nateglinide}}. Thiazolidinedione: {{pioglitazone}}. Alpha-glucosidase inhibitor: {{acarbose}}.",
-      "refs": [
-        "KDT8 ch19"
+        "adr",
+        "dosing"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-oral-antidiabetics",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-endocrine-059",
-      "type": "cloze",
-      "front": "Classify: newer incretin and SGLT-2 agents",
-      "text": "DPP-4 inhibitors: {{sitagliptin}}, {{vildagliptin}}, {{saxagliptin}}, {{linagliptin}}, {{alogliptin}}. GLP-1 agonists: {{exenatide}}, {{liraglutide}}, {{dulaglutide}}, {{lixisenatide}}, {{semaglutide}}. SGLT-2 inhibitors: {{canagliflozin}}, {{dapagliflozin}}, {{empagliflozin}}, {{ertugliflozin}}.",
-      "refs": [
-        "KDT8 ch19",
-        "Katzung16 ch41",
-        "GG14 ch51"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-endocrine-oral-antidiabetics",
-      "tags": [
-        "classification",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p3-endocrine-060",
-      "type": "cloze",
-      "front": "Classify: insulins by duration of action",
-      "text": "Rapid: {{lispro}}, {{aspart}}, {{glulisine}}. Short: {{regular}}. Intermediate: {{NPH (isophane)}} and {{lente}}. Long: {{glargine}}, {{detemir}}, {{degludec}}.",
-      "refs": [
-        "KDT8 ch19"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-insulin",
-      "tags": [
-        "classification",
-        "pk"
-      ]
-    },
-    {
-      "id": "p3-endocrine-061",
-      "type": "cloze",
-      "front": "Classify: drugs that change sulfonylurea effect",
-      "text": "Increase effect: {{phenylbutazone}}, {{cimetidine}}, {{ketoconazole}}, {{warfarin}}, acute {{alcohol}}. Reduce effect: {{rifampicin}}, {{phenytoin}}, {{phenobarbitone}}, {{thiazides}}, {{corticosteroids}}.",
-      "refs": [
-        "KDT8 ch19"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-endocrine-oral-antidiabetics",
-      "tags": [
-        "interactions"
-      ]
+      "level": 1
     },
     {
       "id": "p3-endocrine-062",
@@ -1738,269 +2180,105 @@
       "tags": [
         "contraindications",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p3-endocrine-063",
+      "id": "p3-endocrine-080",
       "type": "basic",
-      "front": "Tirzepatide: what is it, and how does it compare with GLP-1 agonists?",
-      "back": "A dual GIP and GLP-1 receptor agonist, built on the GIP sequence with a fatty diacid chain that binds albumin, allowing once-weekly s.c. injection. Started at 2.5 mg weekly and raised in 2.5 mg steps every 4 weeks up to 15 mg. It lowered HbA1c by about 1.9 to 2.6% with weight loss of about 6 to 13 kg, and improved lipids, blood pressure and fatty liver. Safety resembles GLP-1 agonists: dose-related nausea, vomiting and diarrhoea, and a slightly higher pancreatitis rate.",
+      "front": "What are the two groups of symptoms of insulin-induced hypoglycaemia?",
+      "back": "Counter-regulatory sympathetic symptoms (sweating, anxiety, palpitation, tremor) and neuroglucopenic symptoms (dizziness, headache, behaviour change, visual disturbance, hunger, weakness, incoordination). Below about 40 mg/dl confusion, seizures and coma occur. Beta-blockers mask the sympathetic warning signs.",
       "refs": [
-        "Katzung16 ch41"
+        "KDT8 ch19"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "subtopic": "p3-endocrine-hypo-dka",
       "tags": [
-        "newer-drugs",
-        "mechanism",
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p3-endocrine-064",
+      "id": "p3-endocrine-081",
       "type": "basic",
-      "front": "Teplizumab: mechanism and use?",
-      "back": "A humanised monoclonal antibody against CD3, the main signalling part of the T-cell receptor, which modulates the autoimmune attack on beta cells. It is given as a daily infusion for 14 days to people aged 8 and above at high risk of type 1 diabetes (two positive autoantibodies with impaired glucose tolerance, stage 2). It delays the onset of clinical (stage 3) type 1 diabetes by about 25 months. Adverse effects: transient fall in white cells and lymphocytes, rash, headache.",
+      "front": "Which precipitating factors cause hypoglycaemia in a patient on insulin?",
+      "back": "Inadvertent large dose, a missed meal after injection, and vigorous exercise; also labile diabetes. Acute alcohol intake can precipitate it by depleting hepatic glycogen.",
       "refs": [
-        "Katzung16 ch41"
+        "KDT8 ch19"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-endocrine-insulin",
+      "subtopic": "p3-endocrine-hypo-dka",
       "tags": [
-        "newer-drugs",
-        "mechanism",
-        "uses"
-      ]
+        "adr"
+      ],
+      "level": 1
     },
     {
-      "id": "p3-endocrine-065",
-      "type": "shortnote",
-      "front": "Short note: GnRH analogues",
-      "sections": [
-        {
-          "h": "Physiology",
-          "points": [
-            "Hypothalamic GnRH is released in pulses that stimulate FSH and LH",
-            "Continuous exposure desensitises pituitary gonadotropes and stops gonadotropin release"
-          ]
-        },
-        {
-          "h": "Agonists",
-          "points": [
-            "Goserelin, leuprolide, nafarelin and triptorelin are more potent and longer-acting than native GnRH",
-            "Initial stimulation is followed by receptor down-regulation, giving reversible chemical castration or oophorectomy",
-            "Uses: precocious puberty, prostate cancer (with an antiandrogen to cover the initial surge), endometriosis, premenopausal breast cancer, uterine fibroids and IVF pretreatment"
-          ]
-        },
-        {
-          "h": "Antagonists",
-          "points": [
-            "Ganirelix and cetrorelix: short-acting, given daily, prevent the LH surge in controlled ovarian stimulation",
-            "Degarelix and abarelix: long-acting, used for androgen withdrawal in advanced prostate cancer"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Menopausal symptoms: hot flushes, sweating, vaginal dryness, low libido",
-            "Osteoporosis risk if used for more than about 6 months"
-          ]
-        }
-      ],
+      "id": "p3-endocrine-048",
+      "type": "basic",
+      "front": "How is insulin given in diabetic ketoacidosis?",
+      "back": "Regular insulin IV only, alongside aggressive IV hydration (normal saline first) and potassium replacement. The usual starting infusion is about 0.1 U/kg/h; KDT precedes it with an IV bolus of 0.1 to 0.2 U/kg and doubles the rate if glucose has not fallen significantly in 2 hours (a fall of about 10% per hour is adequate). When glucose reaches about 300 mg/dL (usually in 4 to 6 h), KDT reduces the infusion to 2 to 3 U/h and adds 5% glucose, continuing until the patient is fully conscious and can start s.c. insulin.",
       "refs": [
-        "KDT8 ch17"
+        "Katzung16 ch41",
+        "KDT8 ch19"
       ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "subtopic": "p3-endocrine-gnrh-gonadotropins",
-      "status": "draft"
-    },
-    {
-      "id": "p3-endocrine-066",
-      "type": "shortnote",
-      "front": "Short note: Long-acting GnRH agonists",
-      "sections": [
-        {
-          "h": "Examples",
-          "points": [
-            "Goserelin, leuprolide, nafarelin, triptorelin"
-          ]
-        },
-        {
-          "h": "Properties",
-          "points": [
-            "15-150 times more potent than natural GnRH",
-            "Longer acting (half-life about 2-6 hours)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p278"
-      ],
-      "subtopic": "p3-endocrine-gnrh-gonadotropins",
-      "tags": [
-        "mechanism"
-      ],
+      "pyq": [],
       "status": "draft",
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2023,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-endocrine-067",
-      "type": "shortnote",
-      "front": "Short note: cabergoline",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Ergot-derived dopamine D2 agonist, more potent and more pituitary-selective than bromocriptine",
-            "Long acting: half-life over 60 hours, so given twice weekly"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "First-choice drug for hyperprolactinaemia",
-            "Most micro- and some macroprolactinomas regress",
-            "Adjunct in acromegaly; less effective than in prolactinoma"
-          ]
-        },
-        {
-          "h": "Dosing",
-          "points": [
-            "Start 0.25 mg twice weekly; maximum 1 mg twice weekly",
-            "Tablets 0.5 mg and 1 mg"
-          ]
-        },
-        {
-          "h": "Points to remember",
-          "points": [
-            "Prolactin normal in 2-4 weeks; many women conceive within a year",
-            "Stop when pregnancy occurs; relapse common on withdrawal"
-          ]
-        }
-      ],
-      "subtopic": "p3-endocrine-prolactin-dopamine",
+      "subtopic": "p3-endocrine-hypo-dka",
       "tags": [
-        "uses",
         "dosing"
       ],
-      "refs": [
-        "KDT8 ch17"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2006,
-          "marks": 20
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
+      "level": 2
     },
     {
-      "id": "p3-endocrine-068",
+      "id": "p3-endocrine-051",
       "type": "shortnote",
-      "front": "Short note: gonadotropins in infertility and male hypogonadism",
+      "front": "Short note: hypoglycaemia during insulin or sulfonylurea therapy",
       "sections": [
         {
-          "h": "Preparations",
+          "h": "Causes",
           "points": [
-            "Menotropins (FSH + LH from urine of menopausal women)",
-            "Urofollitropin (pure FSH), recombinant FSH, hCG from pregnancy urine"
+            "Excess dose, a skipped meal, unplanned exercise or alcohol",
+            "Labile diabetes, renal or hepatic impairment",
+            "Interacting drugs that potentiate sulfonylureas or insulin"
           ]
         },
         {
-          "h": "Ovulation induction and ART",
+          "h": "Symptoms",
           "points": [
-            "Pure FSH preferred in polycystic ovary; hCG given as trigger dose",
-            "Ovulation within 24-48 hours in up to 75% of cycles",
-            "Used when clomiphene has failed"
+            "Autonomic (appear first): sweating, palpitation, tremor, anxiety",
+            "Neuroglucopenic: confusion, headache, behaviour change, weakness",
+            "Below about 40 mg/dL: seizures and coma; prolonged episodes cause permanent injury"
           ]
         },
         {
-          "h": "Male hypogonadotropic hypogonadism",
+          "h": "Masking and unawareness",
           "points": [
-            "hCG first, 2-3 times a week, to stimulate testosterone",
-            "FSH + LH added after 3-4 months for spermatogenesis; hCG dose then reduced",
-            "Treatment continued 6-12 months"
+            "Beta-blockers mask the autonomic warnings, and neuropathy can abolish them",
+            "Frequent attacks lead to hypoglycaemic unawareness"
           ]
         },
         {
-          "h": "Complications and precautions",
+          "h": "Treatment",
           "points": [
-            "Ovarian hyperstimulation syndrome is the most serious",
-            "Multiple pregnancy; precocious puberty in children",
-            "Exclude hormone-dependent malignancy first"
+            "Oral glucose first; 50 percent glucose IV if severe",
+            "Glucagon as an emergency measure, though it fails if hepatic glycogen is depleted"
           ]
         }
-      ],
-      "subtopic": "p3-endocrine-gnrh-gonadotropins",
-      "tags": [
-        "uses",
-        "dosing"
       ],
       "refs": [
-        "KDT8 ch17"
+        "KDT8 ch19"
       ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2020,
-          "marks": 10
-        }
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-hypo-dka",
+      "tags": [
+        "adr",
+        "interactions"
       ],
-      "status": "draft"
+      "level": 2
     },
     {
       "id": "p3-endocrine-069",
@@ -2063,111 +2341,516 @@
           "marks": 10
         }
       ],
-      "status": "draft"
+      "status": "draft",
+      "level": 2
     },
     {
-      "id": "p3-endocrine-070",
-      "type": "shortnote",
-      "front": "Short note: iodine and iodides in thyroid disease",
+      "id": "p3-endocrine-082",
+      "type": "basic",
+      "front": "Why is potassium added to the fluids in DKA even though initial serum K+ is normal?",
+      "back": "Large amounts of K+ are lost in urine, but serum K+ stays near normal as intracellular stores exchange. Once insulin starts, K+ is driven back into cells and dangerous hypokalaemia can occur, so KCl is added after 2-3 hours.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-hypo-dka",
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-057",
+      "type": "essay",
+      "front": "Essay: acute metabolic emergencies in diabetes",
       "sections": [
         {
-          "h": "Action",
+          "h": "Hypoglycaemia",
           "points": [
-            "Fastest-acting inhibitor of thyroid hormone release (thyroid constipation)",
-            "Wolff-Chaikoff effect: excess iodide briefly blocks hormone synthesis"
+            "Causes and symptoms, from autonomic to neuroglucopenic",
+            "Oral glucose, IV glucose, glucagon as a stopgap",
+            "Prevent recurrence by reviewing dose, meals and interacting drugs"
           ]
         },
         {
-          "h": "Escape and adverse effects",
+          "h": "Diabetic ketoacidosis",
           "points": [
-            "Thyroid escape after 10-15 days of daily iodide, with return of thyrotoxicosis",
-            "Acute reactions: angioedema of larynx, fever, joint pain; acne may flare"
+            "Absent or inadequate insulin; ketosis, pH below 7.3 and low bicarbonate",
+            "Precipitants: new type 1 diabetes, missed insulin, infection, pancreatitis, high-dose steroids; euglycaemic DKA with SGLT2 inhibitors"
           ]
         },
         {
-          "h": "Uses",
+          "h": "DKA treatment",
           "points": [
-            "Given for about 10 days before thyroidectomy in Graves' disease (100-300 mg/day)",
-            "Lugol's iodine or iodinated contrast in thyroid storm",
-            "Prophylaxis in endemic goitre: 5-10 mg/day"
+            "Aggressive IV fluids starting with normal saline",
+            "IV regular insulin, about 0.1 U/kg/h, with frequent glucose monitoring",
+            "5 percent glucose added once glucose reaches about 300 mg/dL (KDT), because glucose falls before ketones clear",
+            "Maintain potassium and other electrolytes; bicarbonate only for severe acidosis"
+          ]
+        },
+        {
+          "h": "Hyperosmolar hyperglycaemic state",
+          "points": [
+            "Glucose over 600 mg/dL and osmolality over 320 mOsm/L without acidosis, mostly in elderly type 2 patients",
+            "Aggressive rehydration; low-dose insulin; less potassium, alkali usually not needed",
+            "Prophylactic heparin because of thrombosis risk"
+          ]
+        },
+        {
+          "h": "Prognosis",
+          "points": [
+            "Early, vigorous treatment of the metabolic state and the trigger",
+            "Mortality in hyperosmolar coma remains high"
           ]
         }
       ],
-      "subtopic": "p3-endocrine-antithyroid",
+      "refs": [
+        "KDT8 ch19",
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-hypo-dka",
       "tags": [
-        "mechanism",
+        "uses",
+        "dosing",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-endocrine-083",
+      "type": "basic",
+      "front": "Compare the immediate management of insulin-induced hypoglycaemia with diabetic ketoacidosis: what is given, and why do both need glucose-related vigilance?",
+      "back": "Hypoglycaemia: oral glucose 15-20 g (repeat after 15-20 min), or 30-50 ml of 50% i.v. glucose, with glucagon or adrenaline as expedient if glucose cannot be given. DKA: regular insulin bolus then infusion, saline, KCl, bicarbonate only if pH very low. In DKA, glucose is added once blood sugar reaches about 300 mg/dl because glucose falls before ketones clear, and glucose restores hepatic glycogen; in both, frequent monitoring is essential.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-hypo-dka",
+      "tags": [
         "uses"
       ],
+      "level": 3
+    },
+    {
+      "id": "p3-endocrine-084",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is thyroid storm (thyrotoxic crisis)?",
+      "back": "The most severe form of hyperthyroidism: a decompensated, life-threatening state, usually precipitated by an intercurrent illness in untreated or partly treated thyrotoxicosis.",
+      "refs": [
+        "GG14 ch47"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-085",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "uses"
+      ],
+      "front": "Why is propranolol given in thyrotoxic crisis?",
+      "back": "Non-selective beta blocker: fast relief of sympathetic symptoms (palpitation, tremor, sweating, nervousness). High doses also reduce peripheral T4 to T3 conversion.",
       "refs": [
         "KDT8 ch18"
       ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-086",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What does iodide do in thyrotoxic crisis?",
+      "back": "Stops further release of preformed T3 and T4 from the gland and reduces T4 to T3 conversion. It is used alongside an antithyroid drug and propranolol, not alone.",
+      "refs": [
+        "KDT8 ch18",
+        "GG14 ch47"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-087",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p3-endocrine-antithyroid",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "front": "Short note: drug treatment of thyrotoxic crisis (rationale for each drug)",
       "pyq": [
         {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2025,
+          "university": "RGUHS",
+          "year": 2010,
           "marks": 10
         },
         {
           "university": "RGUHS",
-          "year": 2006,
+          "year": 2019,
           "marks": 10
         }
+      ],
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Emergency: decompensated hyperthyroidism needs fast control of hormone release, hormone action and sympathetic overactivity",
+            "Corticosteroid and propranolol act at once; thioamide and iodide block hormone production and release"
+          ]
+        },
+        {
+          "h": "Propranolol",
+          "points": [
+            "Non-selective beta blocker: rapid relief of palpitation, tremor and sweating",
+            "High doses reduce peripheral T4 to T3 conversion"
+          ]
+        },
+        {
+          "h": "Thioamide (PTU preferred)",
+          "points": [
+            "Blocks new hormone synthesis",
+            "Propylthiouracil also reduces T4 to T3 conversion"
+          ]
+        },
+        {
+          "h": "Iodide",
+          "points": [
+            "Lugol's iodine or iodinated contrast (iopanoic acid, ipodate) orally",
+            "Stops release of preformed hormone and reduces T4 to T3 conversion",
+            "Used alongside antithyroid drug and propranolol"
+          ]
+        },
+        {
+          "h": "Corticosteroid",
+          "points": [
+            "Hydrocortisone 100 mg i.v. 8-hourly",
+            "Adrenal insufficiency often coexists; steroids reduce T4 to T3 conversion"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch18",
+        "GG14 ch47",
+        "KDT8 PDF p331"
       ],
       "status": "draft"
     },
     {
-      "id": "p3-endocrine-071",
+      "id": "p3-endocrine-088",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Why do alloxan and streptozotocin rodent models not suit NIDDM screening?",
+      "back": "They reproduce mainly type 1 (IDDM)-like diabetes. NIDDM screening needs models such as neonatal STZ, NAD-STZ or high-fat diet with low-dose STZ.",
+      "refs": [
+        "Ghosh FEP p152",
+        "Sarkar p296-300"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-089",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How does alloxan cause experimental diabetes?",
+      "back": "It generates free radicals that damage beta-cell DNA and destroy the islet cells. Most animals respond, but the guinea pig does not.",
+      "refs": [
+        "Ghosh FEP p151",
+        "Medhi PMECP p50"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-090",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How does streptozotocin enter and destroy beta cells?",
+      "back": "It is a glucose analogue taken up through GLUT2 into beta cells, where it fragments DNA and depletes NAD+.",
+      "refs": [
+        "Ghosh FEP p151-152"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-091",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What does nicotinamide do in the NAD-STZ model?",
+      "back": "It partly protects beta cells from STZ by scavenging free radicals. The result is moderate, stable hyperglycaemia closer to NIDDM.",
+      "refs": [
+        "Sarkar p296-300"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-092",
       "type": "shortnote",
-      "front": "Short note: octreotide",
+      "level": 2,
+      "subtopic": "p3-endocrine-oral-antidiabetics",
+      "tags": [
+        "uses"
+      ],
+      "front": "Short note: evaluating a new antidiabetic drug in NIDDM",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "sections": [
         {
-          "h": "What",
+          "h": "Animal models",
           "points": [
-            "Synthetic octapeptide, about 40 times more potent than somatostatin at suppressing GH",
-            "Longer acting (t1/2 about 90 min); weak inhibitor of insulin"
+            "Neonatal STZ: STZ given to neonatal pups; gives impaired glucose tolerance up to severe hyperglycaemia, beta cells resembling type 2 insulin secretion",
+            "NAD-STZ: nicotinamide before STZ gives moderate, stable hyperglycaemia closer to NIDDM",
+            "Low-dose STZ with high-fat, high-sucrose diet: mirrors the natural history of human type 2 diabetes",
+            "Zucker rat and STZ-SHR rat: diabetes with hypertension"
           ]
         },
         {
-          "h": "Uses",
+          "h": "Dosing and selection",
           "points": [
-            "Acromegaly; long-acting microsphere (LAR) form given every 4 weeks",
-            "Secretory diarrhoea (carcinoid, AIDS); i.v. in variceal bleeding"
+            "Confirm raised blood glucose before dosing; STZ studies select animals above about 200-300 mg%",
+            "Give test compound at fixed doses and duration; check glucose at weekly intervals"
           ]
         },
         {
-          "h": "Adverse effects",
+          "h": "Read-outs",
           "points": [
-            "Abdominal pain, nausea, steatorrhoea, diarrhoea",
-            "Gallstones"
+            "Blood glucose from tail vein or retro-orbital capillary tube (about 0.05 ml)",
+            "High-fat model: serum glucose, triglycerides, total cholesterol and LDL",
+            "NAD-STZ model: pancreatic insulin stores"
+          ]
+        },
+        {
+          "h": "Clinical stage",
+          "points": [
+            "Animal efficacy and toxicity first, then trials: Phase I in healthy volunteers or patients, through Phase III",
+            "First human dose derived from preclinical data and divided by a safety factor of 10"
           ]
         }
       ],
-      "subtopic": "p3-endocrine-gh-somatostatin",
+      "refs": [
+        "Sarkar p296-300",
+        "Ghosh FEP p151-152",
+        "Medhi PMECP p22-23",
+        "Medhi PMECP p116-119"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-093",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is the cohabitation test?",
+      "back": "Treated animals of proven fertility are mated with proven-fertile partners. Mating (sperm in vagina), pregnancy and implant counts show the fertility effect.",
+      "refs": [
+        "Ghosh FEP p150-151"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-094",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "uses"
+      ],
+      "front": "Which models test antiovulatory activity in experimental animals?",
+      "back": "In rats: HCG-induced and oestradiol-induced ovulation. In rabbits: cupric acetate-induced ovulation. Pregnancy incidence is the end point.",
+      "refs": [
+        "Sarkar p346-350"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-095",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How does clomiphene induce ovulation?",
+      "back": "It blocks oestrogen's negative feedback at the pituitary, so each secretory pulse releases more LH and FSH.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-096",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "front": "What is clomiphene's chief use, and how is it given?",
+      "back": "Infertility due to failure of ovulation: 50 mg once daily for 5 days from cycle day 5.",
+      "refs": [
+        "KDT8 ch22"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-097",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p3-endocrine-gnrh-gonadotropins",
       "tags": [
         "uses",
         "adr"
       ],
+      "front": "Short note: evaluation of fertility drugs",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Experimental (screen end points)",
+          "points": [
+            "Oestrous cycle on daily vaginal smears; mating, implant and litter counts",
+            "Ovulation models: HCG- or oestradiol-induced ovulation in rats; cupric acetate-induced ovulation in rabbits",
+            "Male: sperm in the vagina after mating; sperm from the epididymis"
+          ]
+        },
+        {
+          "h": "Clinical choice",
+          "points": [
+            "Clomiphene is the chief ovulation inducer: 50 mg once daily for 5 days from cycle day 5",
+            "Exogenous gonadotropins when clomiphene fails or when nonovulation is due to polycystic ovaries"
+          ]
+        },
+        {
+          "h": "Safety end points",
+          "points": [
+            "Clomiphene: polycystic ovaries, multiple pregnancy, hot flashes, possible ovarian tumour risk",
+            "Reproduction studies: spermatogenesis, ovulation, fertility and developing foetus"
+          ]
+        }
+      ],
       "refs": [
-        "KDT8 ch17"
+        "Sarkar p346-350",
+        "Ghosh FEP p150-151",
+        "KDT8 ch17",
+        "KDT8 ch22",
+        "KDT8 PDF p106"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-endocrine-098",
+      "type": "essay",
+      "front": "Essay: biosynthesis of thyroid hormones and drug therapy of thyrotoxicosis",
+      "sections": [
+        {
+          "h": "Biosynthesis",
+          "points": [
+            "Iodide is trapped by the Na+/iodide symporter; TSH increases trapping, giving a gradient of more than 100-fold",
+            "Pendrin carries iodide across the apical membrane; thyroid peroxidase oxidises it with H2O2",
+            "Iodine attaches to tyrosyl residues of thyroglobulin, forming MIT and DIT",
+            "Coupling of two DIT gives T4; MIT with DIT gives T3",
+            "Colloid is endocytosed and proteolysed; T4 and T3 are released, and MIT and DIT are deiodinated so the iodide is reused",
+            "About one-third of T4 is converted to T3 peripherally by deiodinases"
+          ]
+        },
+        {
+          "h": "Thioamides",
+          "points": [
+            "Carbimazole/methimazole and propylthiouracil inhibit thyroid peroxidase, blocking iodination and coupling",
+            "Propylthiouracil also inhibits peripheral D1 conversion of T4 to T3; carbimazole does not"
+          ]
+        },
+        {
+          "h": "Iodides and radioiodine",
+          "points": [
+            "Iodide blocks hormone release and acts fastest, but the gland escapes its effect, so it is given with a thioamide",
+            "Radioiodine (131I) destroys follicles; hypothyroidism is the usual long-term result"
+          ]
+        },
+        {
+          "h": "Symptomatic control",
+          "points": [
+            "Propranolol relieves palpitation and tremor; high doses also reduce T4 to T3 conversion"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Thioamides first, beta-blockers for symptoms, iodide before surgery, radioiodine or surgery for definitive treatment"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch18",
+        "GG14 ch47"
       ],
       "pyq": [
         {
           "university": "RGUHS",
-          "year": 2007,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
+          "year": 2009,
+          "marks": 20
         }
       ],
-      "status": "draft"
+      "status": "draft",
+      "subtopic": "p3-endocrine-thyroxine",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
     }
   ]
 }

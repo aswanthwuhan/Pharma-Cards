@@ -78,3 +78,86 @@ Added 4 study cards (ids 035-038): leukotriene modifiers, bronchodilators in COP
 Book conflicts noted: tiotropium HandiHaler dose 18 microg (KDT8 ch16, card rf-p2-respiratory-0157) vs Respimat 2.5 microg (GG14 ch44). Both kept, device named. Glycopyrronium 50 microg (rf-p2-respiratory-0154) vs GG14 DPI 15.6 microg twice daily: both kept, GG14 added as separate card; owner to confirm.
 
 Target (30 study, 120 rapid) not met: chapter 16 is already near saturation; remaining gaps are device-specific doses.
+
+Difficulty ladder pass: explicit level 1/2/3 set on all 38 existing cards (ids unchanged, deck reordered by level within subtopic); added 6 cards.
+| id | status | source |
+|---|---|---|
+| 001-038 | ok (level set only) | as before |
+| 039 | new L1 | KDT8 ch16 asthma pathophysiology |
+| 040 | new L1 | KDT8 ch16 mediators |
+| 041 | new L1 | KDT8 ch16 aminophylline |
+| 042 | new L1 | KDT8 ch16 apnoea of prematurity |
+| 043 | new L2 | KDT8 ch16 status asthmaticus |
+| 044 | new L1 | KDT8 ch16 spacer/inhalers |
+
+## Checker (independent pass)
+
+Checked about 20 study cards (006, 009, 010, 012, 021, 024, 031-034, 036, 039-044) against KDT8 ch16 text, GG14 ch44 text, and Katzung ch20 where cited.
+
+| id | status | source / change |
+|---|---|---|
+| 006 | corrected | removed GINA sentence (not found in owner books); GG14 ICS-formoterol point kept |
+| 009 | ok | KDT8 ch16 range 5-20 ug/mL; GG14 ch44 5-15 mg/L; t1/2 60 h |
+| 010 | ok | KDT8 ch16 interaction list and 2/3 dose reduction |
+| 012 | ok | GG14 ch44 omalizumab |
+| 024 | ok | KDT8 ch16 FDC ban in India |
+| 031 | ok | GG14 ch44 dosing intervals (mepolizumab q4w, reslizumab IV q4w, benralizumab q8w, dupilumab q2w, tezepelumab 12 y+) |
+| 032 | corrected | removed GINA sentence; formoterol faster onset from KDT8 ch16 |
+| 033 | corrected | liver contraindication is severe impairment (Child-Pugh B/C) per GG14 ch44, not moderate-to-severe |
+| 034 | ok | GG14 ch44 eosinophil threshold 300, 20 percent roflumilast reduction |
+| 036 | corrected | removed unsupported "LABA alone superior to short-acting agents" claim; replaced with GG14 statement that LAMAs are preferred over LABAs alone in COPD |
+| 039-040 | ok | KDT8 ch16 extrinsic/intrinsic and three mediator waves |
+| 041-042 | ok | KDT8 ch16 aminophylline rules, apnoea of prematurity, caffeine equivalence |
+| 043 | ok | KDT8 ch16 status asthmaticus steps |
+| 044 | ok | KDT8 ch16 spacer |
+| 045 | added | ketotifen (KDT8 ch16 line on ketotifen), gap found by checker |
+
+Rapid spot check (4 numeric rows): 0163 (Duolin), 0196 (theophylline metabolism), 0198 (children t1/2 3-5 h), 0297 (about 10% reaches site). All ok against KDT8 ch16.
+
+Prep/RR5 grep on deck and rapid files: no hits.
+
+Level ladder: every subtopic has at least 3 L1, 2 L2, 1 L3 (after adding 045 to preventers). Not re-audited line by line whether each L1 teaches its L2 peers.
+
+Not verified: 002, 003, 004, 005, 007, 011, 013-030, 035, 037, 038, and PYQ tags. Their refs were kept.
+
+## Checker (PYQ gap pass)
+
+Checked the newest study cards (043-045) and newest rapid cards (0344-0349) against the allowed PDFs. Validator `--check`: clean. No Prep/RR5 refs. Levels: every subtopic has at least 3 L1, 2 L2, 1 L3. No new PYQ tags.
+
+| id | status | source |
+|---|---|---|
+| 043 | ok | KDT8 ch16 status asthmaticus; GG14 ch44 aminophylline |
+| 044 | ok | KDT8 ch16 spacer/inhalers |
+| 045 | ok | KDT8 p263 ketotifen (H1 with cromoglycate-like action, not a bronchodilator) |
+| rf 0344-0345 | ok | GG14 ch44 (p913) doxapram low/high dose, 0.3-3 mg/kg/min, COPD infusion 2 h |
+| rf 0346 | ok | GG14 ch44 (p913) almitrine, hypoxia-only, peripheral neuropathy |
+| rf 0347 | ok | GG14 ch44 (p913) acetazolamide metabolic acidosis |
+| rf 0348 | ok | GG14 ch44 (p912) benzonatate, PABA metabolite allergy |
+| rf 0349 | ok | GG14 ch44 (p912) nebulised furosemide, evidence not convincing |
+
+Gap entries 195-570 (PYQ gap pass): respiratory-relevant ones are 212, 262, 295, 479 (already covered). 416 and 418 are anaesthesia. 195 and 409 not written here (see gap report).
+
+## PYQ gap pass (entries 2, 36, 109)
+
+No new cards written: each question is already answered by existing cards. PYQ tags added only where they fit.
+
+| PYQ | decision | cards | source |
+|---|---|---|---|
+| Pharmacotherapy of cough (RGUHS 2018, 2021, 2025) | covered, tags already present, no change | 018, 024, 001-005 | KDT8 ch16 |
+| Non-narcotic antitussive agents (RGUHS 2008 Oct, 10 marks) | covered; tag added | 003 (noscapine), 025 (classify antitussives) | KDT8 ch16 |
+| Brief: new airway drugs (UHSR 2025, 10 marks) | covered; tag added | 031 (biologics), ensifentrine and tezepelumab in rapid pairs | GG14 ch44, Katzung16 ch20 |
+| Brief: chronopharmacology (UHSR 2025) | covered in another topic, not tagged here | outside this topic: p1-drug-delivery, p1-drug-dev | KDT8 / other owner books |
+| Brief: gut microbiome and therapeutics (UHSR 2025) | covered in another topic, not tagged here | outside this topic: p3-git, p4-recent | owner books |
+
+Validator `--check`: clean after edits.
+
+## Checker re-verification (newest cards 009, 015, 017, 021, 032, 039, 040, 045)
+
+| id | status | source |
+|---|---|---|
+| 009 | ok | KDT8 p260 (t1/2 up to 60 h, zero order); GG14 ch44 p903 (5-15 mg/L, benefit below 10 mg/L) |
+| 015 | ok | GG14 ch44 p907 (hydrocortisone 4 mg/kg then 3 mg/kg q6h; prednisolone 40-60 mg); GG14 p903 (aminophylline 6 mg/kg then 0.5 mg/kg/h) |
+| 032 | ok | GG14 ch44 (formoterol faster onset, almost-full agonist) |
+| 045 | ok | KDT8 p263 (ketotifen not a bronchodilator; sedation and dry mouth common) |
+
+Node check: all cards have level, refs, and subtopic minimums met (see deck check). Validator clean.

@@ -15,7 +15,8 @@
       "subtopic": "p1-pd-drug-targets",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-pd-002",
@@ -31,147 +32,8 @@
       "tags": [
         "classification",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p1-pd-003",
-      "type": "basic",
-      "front": "Define affinity and intrinsic activity (efficacy) of a drug.",
-      "back": "Affinity is the ability to bind the receptor, which sets the concentration needed for binding. Intrinsic activity is the ability to change the receptor after binding, scored from 0 (none) to 1 (maximal). The two properties are independent.",
-      "refs": [
-        "KDT8 ch4"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-receptor-theory",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-pd-004",
-      "type": "basic",
-      "front": "What is a partial agonist? Give an example and its clinical consequence.",
-      "back": "A ligand with affinity and submaximal intrinsic activity, giving a lower ceiling than a full agonist; it can also antagonise a full agonist. Buprenorphine (mu opioid receptor) is a partial agonist and can precipitate withdrawal in a morphine-dependent patient.",
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-receptor-theory",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-pd-005",
-      "type": "basic",
-      "front": "What is an inverse agonist, and in which receptors does it act?",
-      "back": "A ligand with affinity but negative intrinsic activity (between 0 and -1): it stabilises the receptor in its inactive state and so produces an effect opposite to the agonist. It shows only where the receptor has constitutive (basal) activity in the absence of agonist. Classic example: beta-carbolines such as DMCM at the benzodiazepine site of GABA-A receptors. Many drugs earlier labelled competitive antagonists turn out to be inverse agonists.",
-      "refs": [
-        "KDT8 ch4",
-        "GG14 ch3"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-receptor-theory",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-pd-006",
-      "type": "basic",
-      "front": "How do competitive and noncompetitive antagonists change the agonist dose-response curve?",
-      "back": "Competitive (equilibrium) antagonist: parallel rightward shift, same maximum; surmountable by more agonist (atropine vs acetylcholine). Nonequilibrium (irreversible) antagonist, e.g. phenoxybenzamine: rightward shift and then a fall in maximum once spare receptors are used up. Noncompetitive antagonist acting at another site: flattened curve with depressed maximum that more agonist cannot overcome.",
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-antagonism",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-pd-007",
-      "type": "basic",
-      "front": "Differentiate potency from efficacy, with an example.",
-      "back": "Potency is the dose needed for a given effect (its position on the dose axis). Efficacy is the maximum attainable response. Morphine is more efficacious than aspirin for pain; pethidine is less potent than morphine but equally efficacious.",
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-dose-response",
-      "tags": [
-        "classification",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-pd-008",
-      "type": "basic",
-      "front": "Define the therapeutic index and state why the clinical therapeutic window is used instead.",
-      "back": "In animals, therapeutic index = median lethal dose / median effective dose (LD50 / ED50). This is irrelevant clinically: the therapeutic range ('therapeutic window') is bounded by the dose giving minimal therapeutic effect and the dose giving maximal acceptable adverse effect. Individual variability means a dose effective in one patient may be toxic in another. Low-safety-margin drugs (digoxin, lithium, aminoglycosides, theophylline, anticonvulsants) need monitoring.",
-      "refs": [
-        "KDT8 ch4",
-        "KDT8 ch3"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-dose-response",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-pd-009",
-      "type": "basic",
-      "front": "Name the five families of receptors with one example each.",
-      "back": "G-protein coupled receptors (adrenergic); ligand-gated ion channels (nicotinic, GABA-A); enzyme-linked receptors (insulin receptor tyrosine kinase); cytokine JAK-STAT receptors (growth hormone, interferons); intracellular nuclear receptors (steroid hormones, thyroxine).",
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-receptor-families",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-pd-010",
-      "type": "basic",
-      "front": "Which G-protein subtypes act on which effectors?",
-      "back": "Gs stimulates adenylyl cyclase (cAMP rises) and opens Ca2+ channels. Gi inhibits adenylyl cyclase and opens K+ channels. Go inhibits neuronal Ca2+ channels. Gq activates phospholipase C, producing IP3 (Ca2+ release) and DAG (protein kinase C). G12/13 activates the small GTPase RhoA.",
-      "refs": [
-        "KDT8 ch4",
-        "GG14 ch3"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-signalling",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-pd-011",
-      "type": "basic",
-      "front": "Distinguish homologous from heterologous desensitisation, and both from down-regulation.",
-      "back": "Homologous: loss of response limited to the receptor being activated, via GRK phosphorylation and beta-arrestin binding (fast). Heterologous: loss across agonists acting on different receptors, via PKA and PKC phosphorylation. Down-regulation: fewer receptors from reduced synthesis or increased degradation, developing over days to weeks.",
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pd-signalling",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 1
     },
     {
       "id": "p1-pd-012",
@@ -186,503 +48,8 @@
       "subtopic": "p1-pd-drug-targets",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p1-pd-013",
-      "type": "shortnote",
-      "front": "Short note: Gs-adenylyl cyclase-cAMP signalling",
-      "sections": [
-        {
-          "h": "Sequence",
-          "points": [
-            "Agonist binds a GPCR, which activates Gs (GTP replaces GDP on the alpha subunit)",
-            "Gs-alpha stimulates adenylyl cyclase, converting ATP to cAMP",
-            "cAMP activates protein kinase A (PKA), which phosphorylates functional proteins"
-          ]
-        },
-        {
-          "h": "Cardiac effects (beta-1)",
-          "points": [
-            "More Ca2+ made available (entry through Ca2+ channels and release from stores)",
-            "Phosphorylation of troponin increases force of contraction",
-            "Phosphorylation of phospholamban speeds relaxation"
-          ]
-        },
-        {
-          "h": "Termination",
-          "points": [
-            "Phosphodiesterases hydrolyse cAMP to 5'-AMP; PDE3 and PDE4 are cAMP-selective",
-            "Intrinsic GTPase of Gs-alpha returns it to the GDP-bound state"
-          ]
-        },
-        {
-          "h": "Other cAMP effects",
-          "points": [
-            "Cyclic nucleotide-gated channels",
-            "Gene transcription through CREB",
-            "EPAC proteins"
-          ]
-        },
-        {
-          "h": "Drug relevance",
-          "points": [
-            "Beta agonists act through this pathway; Gi-coupled receptors oppose it",
-            "PDE5 is cGMP-selective (target of sildenafil)"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "status": "draft",
-      "subtopic": "p1-pd-signalling",
-      "tags": [
-        "mechanism"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-pd-014",
-      "type": "shortnote",
-      "front": "Short note: Receptor desensitisation and tachyphylaxis",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Desensitisation (refractoriness): continued or intense stimulation makes the receptor less efficient at transducing response",
-            "Tachyphylaxis: rapid tolerance when doses are repeated in quick succession"
-          ]
-        },
-        {
-          "h": "Mechanisms",
-          "points": [
-            "Masking or internalisation of receptors (homologous: GRK phosphorylation, beta-arrestin)",
-            "Heterologous: PKA/PKC phosphorylation affecting several receptors",
-            "Down-regulation by reduced synthesis or increased degradation (slow)",
-            "Depletion of releasable catecholamine stores (indirect sympathomimetics)"
-          ]
-        },
-        {
-          "h": "Examples",
-          "points": [
-            "Asthmatics on continuous adrenergic agonists; parkinsonian patients on high-dose levodopa",
-            "Tachyphylaxis to ephedrine, tyramine, nicotine"
-          ]
-        },
-        {
-          "h": "Opposite: supersensitivity",
-          "points": [
-            "Prolonged deprivation of agonist (denervation, continued antagonist) causes up-regulation",
-            "Relevant to clonidine, CNS depressant and opioid withdrawal, and sudden stopping of propranolol in angina"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch4",
-        "KDT8 ch5"
-      ],
-      "status": "draft",
-      "subtopic": "p1-pd-signalling",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-pd-015",
-      "type": "shortnote",
-      "front": "Short note: Types of drug antagonism",
-      "sections": [
-        {
-          "h": "Physical",
-          "points": [
-            "Based on a physical property: charcoal adsorbs alkaloids and prevents their absorption"
-          ]
-        },
-        {
-          "h": "Chemical",
-          "points": [
-            "Drugs react to form an inactive product: KMnO4 oxidises alkaloids; tannins precipitate them",
-            "Chelation: BAL or calcium disodium edetate with arsenic or lead",
-            "Nitrite-induced methaemoglobin binds cyanide",
-            "Incompatibility in the same syringe or infusion (thiopentone or penicillin G with succinylcholine; heparin with some antibiotics or hydrocortisone)"
-          ]
-        },
-        {
-          "h": "Physiological (functional)",
-          "points": [
-            "Different receptors or mechanisms, opposite effects on one function",
-            "Histamine vs adrenaline on bronchi and BP; glucagon vs insulin on blood sugar; hydrochlorothiazide vs amiloride on urinary K+"
-          ]
-        },
-        {
-          "h": "Receptor",
-          "points": [
-            "Competitive (equilibrium): parallel shift, surmountable (atropine vs acetylcholine)",
-            "Nonequilibrium: irreversible binding, maximum depressed (phenoxybenzamine on alpha receptors)",
-            "Noncompetitive: acts at a different site, flattened curve"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "status": "draft",
-      "subtopic": "p1-pd-antagonism",
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-pd-016",
-      "type": "shortnote",
-      "front": "Short note: Drug synergism and potentiation",
-      "sections": [
-        {
-          "h": "Definitions",
-          "points": [
-            "Synergism: the action of one drug is facilitated or increased by another",
-            "Additive: combined effect equals the sum of individual effects",
-            "Supra-additive (potentiation): combined effect exceeds the sum; always so when one drug has no effect alone"
-          ]
-        },
-        {
-          "h": "Additive pairs",
-          "points": [
-            "Aspirin + paracetamol (analgesic)",
-            "Nitrous oxide + halothane (anaesthetic)",
-            "Amlodipine + atenolol (antihypertensive)",
-            "Glibenclamide + metformin (hypoglycaemic)",
-            "Ephedrine + theophylline (bronchodilator)"
-          ]
-        },
-        {
-          "h": "Supra-additive pairs and basis",
-          "points": [
-            "Acetylcholine + physostigmine: inhibited breakdown",
-            "Levodopa + carbidopa/benserazide: inhibited peripheral metabolism",
-            "Adrenaline + cocaine/desipramine: neuronal uptake blocked",
-            "Sulfamethoxazole + trimethoprim: sequential blockade",
-            "Enalapril + hydrochlorothiazide: two contributory factors tackled",
-            "Tyramine + MAO inhibitors: larger releasable catecholamine store"
-          ]
-        },
-        {
-          "h": "Clinical value",
-          "points": [
-            "Lower doses of each component, so the combination is better tolerated, as side effects of each often differ"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "status": "draft",
-      "subtopic": "p1-pd-antagonism",
-      "tags": [
-        "interactions",
-        "mechanism"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-pd-017",
-      "type": "shortnote",
-      "front": "Short note: Classification of receptors and subtypes",
-      "sections": [
-        {
-          "h": "Pharmacological",
-          "points": [
-            "Relative potency of selective agonists and antagonists, e.g. muscarinic vs nicotinic; alpha vs beta"
-          ]
-        },
-        {
-          "h": "Tissue distribution",
-          "points": [
-            "Beta-1 in heart, beta-2 in bronchi and vessels"
-          ]
-        },
-        {
-          "h": "Ligand binding",
-          "points": [
-            "Radiolabelled ligand binding and its displacement in membranes",
-            "Autoradiography maps receptor subtypes in tissue"
-          ]
-        },
-        {
-          "h": "Transducer pathway",
-          "points": [
-            "M2 uses Gi; nicotinic receptors are ion channels",
-            "GABA-A is a Cl- channel; GABA-B works through a G-protein"
-          ]
-        },
-        {
-          "h": "Molecular cloning",
-          "points": [
-            "Sequence homology defines many subtypes and isoforms",
-            "Orphan receptors have no known ligand",
-            "IUPHAR issues the consensus classification"
-          ]
-        },
-        {
-          "h": "Note",
-          "points": [
-            "Silent binding sites such as plasma proteins are not true receptors"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "status": "draft",
-      "subtopic": "p1-pd-receptor-families",
-      "tags": [
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-pd-018",
-      "type": "essay",
-      "front": "Essay: Receptor occupancy theory and the two-state model",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Receptor: a macromolecule that recognises a signal molecule and transduces it into a response"
-          ]
-        },
-        {
-          "h": "Occupancy theory",
-          "points": [
-            "Clark applied the law of mass action to drug-receptor binding",
-            "Effect proportional to the fraction of receptors occupied",
-            "Occupancy alone is not enough: the drug must also activate the receptor (intrinsic activity)"
-          ]
-        },
-        {
-          "h": "Affinity and intrinsic activity",
-          "points": [
-            "Independent properties of a drug",
-            "Full agonist IA = 1; partial agonist 0 to 1; antagonist 0; inverse agonist 0 to -1"
-          ]
-        },
-        {
-          "h": "Two-state model",
-          "points": [
-            "Receptor exists in active (Ra) and inactive (Ri) states in equilibrium",
-            "Agonist binds Ra preferentially and shifts the equilibrium toward it",
-            "Competitive antagonist binds both states equally and does not shift it",
-            "Inverse agonist favours Ri; partial agonist has only slightly greater affinity for Ra",
-            "Constitutively active receptors signal without any agonist"
-          ]
-        },
-        {
-          "h": "Receptor reserve",
-          "points": [
-            "Many full agonists give maximal response while occupying under 1 percent of receptors (spare receptors)",
-            "Where receptor numbers are limited, they cap the maximal response"
-          ]
-        },
-        {
-          "h": "Clinical relevance",
-          "points": [
-            "Basis for designing selective agonists, partial agonists and inverse agonists"
-          ]
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-pd-receptor-theory",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch4",
-        "GG14 ch3"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-pd-019",
-      "type": "essay",
-      "front": "Essay: Receptor signalling families",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Five families differ in structure, speed and duration of response"
-          ]
-        },
-        {
-          "h": "Ligand-gated ion channels",
-          "points": [
-            "Usually pentameric proteins enclosing an ion pore: nicotinic, GABA-A, glycine, glutamate (NMDA, AMPA, kainate) and 5-HT3 receptors",
-            "Onset in milliseconds; benzodiazepines are positive allosteric modulators of GABA-A"
-          ]
-        },
-        {
-          "h": "G-protein coupled receptors",
-          "points": [
-            "Seven transmembrane helices; heterotrimeric G-proteins",
-            "Second messengers: cAMP, IP3/DAG, Ca2+",
-            "Onset in seconds; signal amplified"
-          ]
-        },
-        {
-          "h": "Enzyme-linked receptors",
-          "points": [
-            "Receptor tyrosine kinases (insulin, EGF receptors); ligand binding causes dimerisation and autophosphorylation",
-            "Receptor guanylyl cyclase (ANP)",
-            "Onset in minutes to hours"
-          ]
-        },
-        {
-          "h": "JAK-STAT-binding receptors",
-          "points": [
-            "No intrinsic kinase; associated JAK phosphorylates the receptor and STAT",
-            "STAT dimers enter the nucleus to alter transcription",
-            "Cytokines, growth hormone, prolactin, interferons"
-          ]
-        },
-        {
-          "h": "Nuclear receptors",
-          "points": [
-            "Lipophilic ligands bind intracellular receptors that act on DNA hormone-response elements",
-            "Onset takes hours; effects outlast hormone levels",
-            "Steroids, thyroid hormone, vitamins A and D, PPAR (glitazones)"
-          ]
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-pd-receptor-families",
-      "tags": [
-        "classification"
-      ],
-      "refs": [
-        "KDT8 ch4",
-        "GG14 ch3"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p1-pd-020",
-      "type": "essay",
-      "front": "Essay: Dose-response relationship",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Systemic dose-response has two parts: dose to plasma level (pharmacokinetics) and level to response (pharmacodynamics)"
-          ]
-        },
-        {
-          "h": "Shape of the curve",
-          "points": [
-            "Rectangular hyperbola on a linear scale, following the law of mass action",
-            "Sigmoid on a log-dose scale, with a linear mid-range (30 to 70 percent)"
-          ]
-        },
-        {
-          "h": "Potency and efficacy",
-          "points": [
-            "Potency = position on the dose axis; compare by EC50",
-            "Efficacy = maximum response",
-            "The two vary independently and efficacy usually matters more clinically"
-          ]
-        },
-        {
-          "h": "Slope",
-          "points": [
-            "Steep curve (hydralazine) needs individualised dosing",
-            "Flat curve (hydrochlorothiazide) allows standard doses"
-          ]
-        },
-        {
-          "h": "Selectivity and safety",
-          "points": [
-            "Separation of curves for different effects defines selectivity",
-            "The gap between therapeutic and adverse effect curves is the safety margin"
-          ]
-        },
-        {
-          "h": "Therapeutic efficacy",
-          "points": [
-            "Graded (degree of relief) vs quantal (percentage achieving an end point)",
-            "Risk-benefit judgement relies on population data and clinical experience"
-          ]
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-pd-dose-response",
-      "tags": [
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p1-pd-021",
-      "type": "cloze",
-      "front": "Receptor families",
-      "text": "GPCRs have {{seven}} transmembrane helices and signal through {{G proteins}}; nicotinic and GABA-A are {{ligand-gated ion channels}}; the insulin receptor is a {{receptor tyrosine kinase}}; cytokine receptors use the {{JAK-STAT}} pathway; steroid receptors are {{intracellular nuclear receptors}}.",
-      "status": "draft",
-      "subtopic": "p1-pd-receptor-families",
-      "tags": [
-        "classification"
-      ],
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-pd-022",
-      "type": "cloze",
-      "front": "G-protein effects",
-      "text": "Gs activates {{adenylyl cyclase}}; Gi {{inhibits}} it and opens {{K+}} channels; Gq activates {{phospholipase C}}, producing {{IP3}} and DAG.",
-      "status": "draft",
-      "subtopic": "p1-pd-signalling",
-      "tags": [
-        "mechanism",
-        "classification"
-      ],
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-pd-023",
-      "type": "cloze",
-      "front": "Enzyme inhibition kinetics",
-      "text": "Competitive inhibitors raise the apparent {{Km}} but leave {{Vmax}} unchanged; noncompetitive inhibitors lower {{Vmax}} with {{Km}} unchanged; organophosphates bind covalently, giving {{nonequilibrium (irreversible)}} inhibition.",
-      "status": "draft",
-      "subtopic": "p1-pd-drug-targets",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch4"
-      ],
-      "pyq": []
+      "level": 1
     },
     {
       "id": "p1-pd-024",
@@ -697,53 +64,24 @@
       "refs": [
         "KDT8 ch4"
       ],
-      "pyq": []
+      "pyq": [],
+      "level": 1
     },
     {
-      "id": "p1-pd-025",
+      "id": "p1-pd-023",
       "type": "cloze",
-      "front": "Types of antagonism",
-      "text": "Activated charcoal adsorbing alkaloids is {{physical}} antagonism; BAL with arsenic is {{chemical}} antagonism; histamine versus adrenaline on bronchial muscle is {{physiological}} antagonism; atropine blocking acetylcholine at muscarinic receptors is {{receptor}} antagonism.",
+      "front": "Enzyme inhibition kinetics",
+      "text": "Competitive inhibitors raise the apparent {{Km}} but leave {{Vmax}} unchanged; noncompetitive inhibitors lower {{Vmax}} with {{Km}} unchanged; organophosphates bind covalently, giving {{nonequilibrium (irreversible)}} inhibition.",
       "status": "draft",
-      "subtopic": "p1-pd-antagonism",
+      "subtopic": "p1-pd-drug-targets",
       "tags": [
-        "classification"
+        "mechanism"
       ],
       "refs": [
         "KDT8 ch4"
       ],
-      "pyq": []
-    },
-    {
       "pyq": [],
-      "status": "draft",
-      "id": "p1-pd-026",
-      "type": "basic",
-      "front": "What are allosteric modulators? Give examples.",
-      "back": "Drugs that bind a site on the receptor separate from the agonist (orthosteric) site and alter the receptor's response to its agonist. Positive allosteric modulators (PAMs) enhance it: benzodiazepines and barbiturates on GABA-A receptors; cinacalcet on the calcium-sensing receptor. Negative allosteric modulators (NAMs) reduce it: maraviroc on CCR5 (blocks HIV entry).",
-      "refs": [
-        "GG14 ch3"
-      ],
-      "subtopic": "p1-pd-receptor-theory",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "pyq": [],
-      "status": "draft",
-      "id": "p1-pd-027",
-      "type": "basic",
-      "front": "What is biased agonism (functional selectivity)?",
-      "back": "A ligand at one receptor preferentially activates one downstream pathway over another (e.g. G-protein signalling rather than beta-arrestin), so different agonists at the same receptor can produce different effect profiles. Oliceridine, a recently approved mu-opioid agonist, was designed as a G-protein-biased agonist to separate analgesia from adverse effects; whether it truly does so has been questioned.",
-      "refs": [
-        "GG14 ch3"
-      ],
-      "subtopic": "p1-pd-receptor-theory",
-      "tags": [
-        "mechanism",
-        "newer-drugs"
-      ]
+      "level": 2
     },
     {
       "id": "p1-pd-028",
@@ -803,112 +141,153 @@
         "mechanism"
       ],
       "subtopic": "p1-pd-drug-targets",
-      "status": "draft"
+      "status": "draft",
+      "level": 2
     },
     {
-      "id": "p1-pd-029",
+      "id": "p1-pd-033",
       "type": "shortnote",
-      "front": "Short note: G-protein coupled receptors",
+      "front": "Short note: Drug enantiomers (chiral drugs)",
       "sections": [
         {
-          "h": "Structure",
+          "h": "Concept",
           "points": [
-            "Seven membrane-spanning alpha-helices; three extracellular and three intracellular loops",
-            "Agonist site lies between helices on the outer face; G-protein binds the inner face"
+            "Chiral drugs exist as enantiomers: R and S forms (or d and l isomers)",
+            "Activity depends on the 3D fit with the target, so enantiomers can differ in action and in metabolic breakdown",
+            "Often only one enantiomer is active"
           ]
         },
         {
-          "h": "G-proteins",
+          "h": "Racemate vs single enantiomer",
           "points": [
-            "Heterotrimeric: alpha, beta and gamma subunits",
-            "On activation GDP on the alpha subunit is replaced by GTP; alpha-GTP dissociates to act on the effector",
-            "Some G-proteins also open or close ion channels directly"
+            "The second enantiomer may be a silent passenger, add side effects or toxicity, load metabolism, or antagonise the active form",
+            "A single-enantiomer product can be superior to the racemate"
           ]
         },
         {
-          "h": "Effector pathways",
+          "h": "Examples",
           "points": [
-            "Gs: adenylyl cyclase up, calcium channel opening",
-            "Gi: adenylyl cyclase down, potassium channel opening",
-            "Go: calcium channel inhibition; Gq: phospholipase C activation"
+            "Levo-isomer of atropine is much more active than the dextro-isomer",
+            "S(-) bupivacaine (levobupivacaine) is equally potent but less cardiotoxic and less prone to seizures",
+            "Labetalol has four diastereomers with different alpha and beta profiles"
           ]
         },
         {
-          "h": "Desensitisation",
+          "h": "Regulation",
           "points": [
-            "Homologous: BARK and beta-arrestin limit response to the same agonist",
-            "Heterologous: PKA and PKC phosphorylation blocks G-protein coupling",
-            "Long-term down-regulation of receptors over weeks"
+            "Regulators such as the US-FDA require separate study of the enantiomers of a new chiral drug",
+            "Approval is withheld unless the pure enantiomers are shown to be no better than the racemate"
           ]
         }
       ],
+      "refs": [
+        "KDT8 PDF p105",
+        "KDT8 PDF p141",
+        "KDT8 PDF p407",
+        "KDT8 PDF p181"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-drug-targets",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-035",
+      "type": "basic",
+      "front": "Omeprazole, chlorpromazine and dexamethasone: why do their effects differ in breadth?",
+      "back": "Breadth depends on how many targets a drug hits and how widely each target is expressed. Omeprazole acts on one very restricted target (the gastric proton pump of parietal cells), so it is highly specific. Chlorpromazine blocks several receptors (D2, alpha-1 and others), so it is multi-target and has varied effects. Dexamethasone acts only on the glucocorticoid receptor, yet nearly every cell expresses it, so its effects are widespread despite a single target.",
       "refs": [
         "KDT8 ch4"
       ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2011,
-          "marks": 10
-        }
-      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-drug-targets",
       "tags": [
         "mechanism",
-        "classification"
+        "adr"
       ],
-      "subtopic": "p1-pd-receptor-families",
-      "status": "draft"
+      "level": 3
     },
     {
-      "id": "p1-pd-030",
-      "type": "shortnote",
-      "front": "Short note: Therapeutic window",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Bounded by the dose giving minimal therapeutic effect and the dose giving maximal acceptable adverse effect"
-          ]
-        },
-        {
-          "h": "Variation",
-          "points": [
-            "Individual variation shifts the window for each patient",
-            "Some drugs act only in a narrow concentration band, e.g. antidepressants (imipramine, amitriptyline, nortriptyline, about 50-200 ng/ml)"
-          ]
-        }
-      ],
+      "id": "p1-pd-003",
+      "type": "basic",
+      "front": "Define affinity and intrinsic activity (efficacy) of a drug.",
+      "back": "Affinity is the ability to bind the receptor, which sets the concentration needed for binding. Intrinsic activity is the ability to change the receptor after binding, scored from 0 (none) to 1 (maximal). The two properties are independent.",
       "refs": [
-        "KDT8 PDF p82",
-        "KDT8 PDF p498"
+        "KDT8 ch4"
       ],
-      "subtopic": "p1-pd-dose-response",
-      "tags": [
-        "dosing"
-      ],
+      "pyq": [],
       "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2011,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ]
+      "subtopic": "p1-pd-receptor-theory",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-004",
+      "type": "basic",
+      "front": "What is a partial agonist? Give an example and its clinical consequence.",
+      "back": "A ligand with affinity and submaximal intrinsic activity, giving a lower ceiling than a full agonist; it can also antagonise a full agonist. Buprenorphine (mu opioid receptor) is a partial agonist and can precipitate withdrawal in a morphine-dependent patient.",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-theory",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-005",
+      "type": "basic",
+      "front": "What is an inverse agonist, and in which receptors does it act?",
+      "back": "A ligand with affinity but negative intrinsic activity (between 0 and -1): it stabilises the receptor in its inactive state and so produces an effect opposite to the agonist. It shows only where the receptor has constitutive (basal) activity in the absence of agonist. Classic example: beta-carbolines such as DMCM at the benzodiazepine site of GABA-A receptors. Many drugs earlier labelled competitive antagonists turn out to be inverse agonists.",
+      "refs": [
+        "KDT8 ch4",
+        "GG14 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-theory",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-pd-026",
+      "type": "basic",
+      "front": "What are allosteric modulators? Give examples.",
+      "back": "Drugs that bind a site on the receptor separate from the agonist (orthosteric) site and alter the receptor's response to its agonist. Positive allosteric modulators (PAMs) enhance it: benzodiazepines and barbiturates on GABA-A receptors; cinacalcet on the calcium-sensing receptor. Negative allosteric modulators (NAMs) reduce it: maraviroc on CCR5 (blocks HIV entry).",
+      "refs": [
+        "GG14 ch3"
+      ],
+      "subtopic": "p1-pd-receptor-theory",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
     },
     {
       "id": "p1-pd-031",
@@ -973,7 +352,527 @@
           "year": 2019,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-034",
+      "type": "shortnote",
+      "front": "Short note: Pharmacophore and structure-activity relationships",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Pharmacophore: the chemical features a drug needs for optimal action at its receptor",
+            "Features include size, shape, position and orientation of charged groups, and hydrogen-bond donors"
+          ]
+        },
+        {
+          "h": "Finding it",
+          "points": [
+            "Worked out from the structures and activities of a group of related compounds, using computer analysis",
+            "Structure-activity relationships (SAR) guide the synthesis of many analogues"
+          ]
+        },
+        {
+          "h": "Effect of structure",
+          "points": [
+            "Chemical structure determines both affinity and intrinsic activity",
+            "Small structural changes can alter receptor binding and the pharmacological profile"
+          ]
+        },
+        {
+          "h": "Drug design",
+          "points": [
+            "Early lead compounds are optimised towards a clinical candidate",
+            "Therapeutic antagonists can be made by chemically modifying the physiological agonist"
+          ]
+        }
+      ],
+      "refs": [
+        "GG12 PDF p69",
+        "GG14 PDF p27"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-theory",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-018",
+      "type": "essay",
+      "front": "Essay: Receptor occupancy theory and the two-state model",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Receptor: a macromolecule that recognises a signal molecule and transduces it into a response"
+          ]
+        },
+        {
+          "h": "Occupancy theory",
+          "points": [
+            "Clark applied the law of mass action to drug-receptor binding",
+            "Effect proportional to the fraction of receptors occupied",
+            "Occupancy alone is not enough: the drug must also activate the receptor (intrinsic activity)"
+          ]
+        },
+        {
+          "h": "Affinity and intrinsic activity",
+          "points": [
+            "Independent properties of a drug",
+            "Full agonist IA = 1; partial agonist 0 to 1; antagonist 0; inverse agonist 0 to -1"
+          ]
+        },
+        {
+          "h": "Two-state model",
+          "points": [
+            "Receptor exists in active (Ra) and inactive (Ri) states in equilibrium",
+            "Agonist binds Ra preferentially and shifts the equilibrium toward it",
+            "Competitive antagonist binds both states equally and does not shift it",
+            "Inverse agonist favours Ri; partial agonist has only slightly greater affinity for Ra",
+            "Constitutively active receptors signal without any agonist"
+          ]
+        },
+        {
+          "h": "Receptor reserve",
+          "points": [
+            "Many full agonists give maximal response while occupying under 1 percent of receptors (spare receptors)",
+            "Where receptor numbers are limited, they cap the maximal response"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Basis for designing selective agonists, partial agonists and inverse agonists"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-theory",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch4",
+        "GG14 ch3"
+      ],
+      "pyq": [],
+      "level": 3
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-pd-027",
+      "type": "basic",
+      "front": "What is biased agonism (functional selectivity)?",
+      "back": "A ligand at one receptor preferentially activates one downstream pathway over another (e.g. G-protein signalling rather than beta-arrestin), so different agonists at the same receptor can produce different effect profiles. Oliceridine, a recently approved mu-opioid agonist, was designed as a G-protein-biased agonist to separate analgesia from adverse effects; whether it truly does so has been questioned.",
+      "refs": [
+        "GG14 ch3"
+      ],
+      "subtopic": "p1-pd-receptor-theory",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-pd-007",
+      "type": "basic",
+      "front": "Differentiate potency from efficacy, with an example.",
+      "back": "Potency is the dose needed for a given effect (its position on the dose axis). Efficacy is the maximum attainable response. Morphine is more efficacious than aspirin for pain; pethidine is less potent than morphine but equally efficacious.",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "classification",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-008",
+      "type": "basic",
+      "front": "Define the therapeutic index and state why the clinical therapeutic window is used instead.",
+      "back": "In animals, therapeutic index = median lethal dose / median effective dose (LD50 / ED50). This is irrelevant clinically: the therapeutic range ('therapeutic window') is bounded by the dose giving minimal therapeutic effect and the dose giving maximal acceptable adverse effect. Individual variability means a dose effective in one patient may be toxic in another. Low-safety-margin drugs (digoxin, lithium, aminoglycosides, theophylline, anticonvulsants) need monitoring.",
+      "refs": [
+        "KDT8 ch4",
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-036",
+      "type": "basic",
+      "front": "Graded versus quantal dose-response curve: what does each measure?",
+      "back": "A graded curve records the size of response in one individual as dose rises. A quantal curve records an all-or-none response across a population, plotted as the percentage responding at each dose. The quantal curve is what yields median effective and median toxic doses, which feed the therapeutic index.",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-030",
+      "type": "shortnote",
+      "front": "Short note: Therapeutic window",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Bounded by the dose giving minimal therapeutic effect and the dose giving maximal acceptable adverse effect"
+          ]
+        },
+        {
+          "h": "Variation",
+          "points": [
+            "Individual variation shifts the window for each patient",
+            "Some drugs act only in a narrow concentration band, e.g. antidepressants (imipramine, amitriptyline, nortriptyline, about 50-200 ng/ml)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p82",
+        "KDT8 PDF p498"
+      ],
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "dosing"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-037",
+      "type": "basic",
+      "front": "Furosemide versus metolazone, and hydralazine versus hydrochlorothiazide: what do the curves tell you about drug choice?",
+      "back": "Furosemide is less potent but more efficacious than metolazone, so it is chosen when a large diuresis is needed; potency only changes the milligram dose, while efficacy sets the ceiling of effect. A steep curve (hydralazine) means a small dose change causes a big response, so the dose must be individualised; a flat curve (hydrochlorothiazide) means standard doses suit most patients.",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-020",
+      "type": "essay",
+      "front": "Essay: Dose-response relationship",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Systemic dose-response has two parts: dose to plasma level (pharmacokinetics) and level to response (pharmacodynamics)"
+          ]
+        },
+        {
+          "h": "Shape of the curve",
+          "points": [
+            "Rectangular hyperbola on a linear scale, following the law of mass action",
+            "Sigmoid on a log-dose scale, with a linear mid-range (30 to 70 percent)"
+          ]
+        },
+        {
+          "h": "Potency and efficacy",
+          "points": [
+            "Potency = position on the dose axis; compare by EC50",
+            "Efficacy = maximum response",
+            "The two vary independently and efficacy usually matters more clinically"
+          ]
+        },
+        {
+          "h": "Slope",
+          "points": [
+            "Steep curve (hydralazine) needs individualised dosing",
+            "Flat curve (hydrochlorothiazide) allows standard doses"
+          ]
+        },
+        {
+          "h": "Selectivity and safety",
+          "points": [
+            "Separation of curves for different effects defines selectivity",
+            "The gap between therapeutic and adverse effect curves is the safety margin"
+          ]
+        },
+        {
+          "h": "Therapeutic efficacy",
+          "points": [
+            "Graded (degree of relief) vs quantal (percentage achieving an end point)",
+            "Risk-benefit judgement relies on population data and clinical experience"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-pd-038",
+      "type": "shortnote",
+      "front": "Short note: Non-sigmoid (nonmonotonic) dose-response curves",
+      "sections": [
+        {
+          "h": "Typical shape",
+          "points": [
+            "Sigmoid on a log-dose axis; the other curves in this subtopic assume it"
+          ]
+        },
+        {
+          "h": "U-shaped",
+          "points": [
+            "Seen for hormones, endocrine disrupters, essential metals and vitamins",
+            "Low dose harms by deficiency, a middle zone is safe (homeostasis), high dose harms again"
+          ]
+        },
+        {
+          "h": "Inverted U-shaped",
+          "points": [
+            "Response falls at higher concentrations",
+            "Can follow receptor down-regulation or desensitisation on exposure to the ligand, or a distinct negative effect at higher concentration"
+          ]
+        },
+        {
+          "h": "Hockey-stick",
+          "points": [
+            "Toxicity appears only once a saturable removal process is overwhelmed (formaldehyde and alcohol dehydrogenase example)"
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "points": [
+            "The margin-of-safety idea (LD1 against ED99) assumes a monotonic curve and may mislead for these drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p174",
+        "GG14 PDF p175",
+        "GG14 PDF p176"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "dosing",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-pd-006",
+      "type": "basic",
+      "front": "How do competitive and noncompetitive antagonists change the agonist dose-response curve?",
+      "back": "Competitive (equilibrium) antagonist: parallel rightward shift, same maximum; surmountable by more agonist (atropine vs acetylcholine). Nonequilibrium (irreversible) antagonist, e.g. phenoxybenzamine: rightward shift and then a fall in maximum once spare receptors are used up. Noncompetitive antagonist acting at another site: flattened curve with depressed maximum that more agonist cannot overcome.",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-antagonism",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-025",
+      "type": "cloze",
+      "front": "Types of antagonism",
+      "text": "Activated charcoal adsorbing alkaloids is {{physical}} antagonism; BAL with arsenic is {{chemical}} antagonism; histamine versus adrenaline on bronchial muscle is {{physiological}} antagonism; atropine blocking acetylcholine at muscarinic receptors is {{receptor}} antagonism.",
+      "status": "draft",
+      "subtopic": "p1-pd-antagonism",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-039",
+      "type": "basic",
+      "front": "Define drug antagonism and name its four kinds.",
+      "back": "Antagonism is one drug decreasing or abolishing the action of another. The kinds are physical (charcoal adsorbing alkaloids), chemical (chelators with metals), physiological or functional (two drugs on different receptors with opposing effects, e.g. histamine versus adrenaline on bronchi) and receptor antagonism (blocking the same receptor, e.g. atropine versus acetylcholine).",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-antagonism",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-015",
+      "type": "shortnote",
+      "front": "Short note: Types of drug antagonism",
+      "sections": [
+        {
+          "h": "Physical",
+          "points": [
+            "Based on a physical property: charcoal adsorbs alkaloids and prevents their absorption"
+          ]
+        },
+        {
+          "h": "Chemical",
+          "points": [
+            "Drugs react to form an inactive product: KMnO4 oxidises alkaloids; tannins precipitate them",
+            "Chelation: BAL or calcium disodium edetate with arsenic or lead",
+            "Nitrite-induced methaemoglobin binds cyanide",
+            "Incompatibility in the same syringe or infusion (thiopentone or penicillin G with succinylcholine; heparin with some antibiotics or hydrocortisone)"
+          ]
+        },
+        {
+          "h": "Physiological (functional)",
+          "points": [
+            "Different receptors or mechanisms, opposite effects on one function",
+            "Histamine vs adrenaline on bronchi and BP; glucagon vs insulin on blood sugar; hydrochlorothiazide vs amiloride on urinary K+"
+          ]
+        },
+        {
+          "h": "Receptor",
+          "points": [
+            "Competitive (equilibrium): parallel shift, surmountable (atropine vs acetylcholine)",
+            "Nonequilibrium: irreversible binding, maximum depressed (phenoxybenzamine on alpha receptors)",
+            "Noncompetitive: acts at a different site, flattened curve"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-antagonism",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-016",
+      "type": "shortnote",
+      "front": "Short note: Drug synergism and potentiation",
+      "sections": [
+        {
+          "h": "Definitions",
+          "points": [
+            "Synergism: the action of one drug is facilitated or increased by another",
+            "Additive: combined effect equals the sum of individual effects",
+            "Supra-additive (potentiation): combined effect exceeds the sum; always so when one drug has no effect alone"
+          ]
+        },
+        {
+          "h": "Additive pairs",
+          "points": [
+            "Aspirin + paracetamol (analgesic)",
+            "Nitrous oxide + halothane (anaesthetic)",
+            "Amlodipine + atenolol (antihypertensive)",
+            "Glibenclamide + metformin (hypoglycaemic)",
+            "Ephedrine + theophylline (bronchodilator)"
+          ]
+        },
+        {
+          "h": "Supra-additive pairs and basis",
+          "points": [
+            "Acetylcholine + physostigmine: inhibited breakdown",
+            "Levodopa + carbidopa/benserazide: inhibited peripheral metabolism",
+            "Adrenaline + cocaine/desipramine: neuronal uptake blocked",
+            "Sulfamethoxazole + trimethoprim: sequential blockade",
+            "Enalapril + hydrochlorothiazide: two contributory factors tackled",
+            "Tyramine + MAO inhibitors: larger releasable catecholamine store"
+          ]
+        },
+        {
+          "h": "Clinical value",
+          "points": [
+            "Lower doses of each component, so the combination is better tolerated, as side effects of each often differ"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-antagonism",
+      "tags": [
+        "interactions",
+        "mechanism"
+      ],
+      "pyq": [],
+      "level": 2
     },
     {
       "id": "p1-pd-032",
@@ -1076,106 +975,437 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-pd-033",
+      "id": "p1-pd-040",
+      "type": "basic",
+      "front": "Essay point: therapeutic applications of drug antagonism, with an example of each type.",
+      "back": "Receptor: naloxone reverses morphine; atropine opposes acetylcholine. Chemical: BAL and calcium disodium edetate chelate arsenic and lead; protamine neutralises heparin; nitrite forms methaemoglobin that binds cyanide. Physiological: adrenaline opposes histamine in bronchi and BP; glucagon opposes insulin. Rescue: folinic acid for methotrexate toxicity. Physical: charcoal adsorbs alkaloids in poisoning. The type chosen depends on whether the poison is in the gut, in blood, or acting at a receptor.",
+      "refs": [
+        "KDT8 ch4",
+        "KDT8 PDF p684",
+        "KDT8 PDF p670",
+        "KDT8 PDF p686"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-antagonism",
+      "tags": [
+        "poisoning",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-pd-009",
+      "type": "basic",
+      "front": "Name the five families of receptors with one example each.",
+      "back": "G-protein coupled receptors (adrenergic); ligand-gated ion channels (nicotinic, GABA-A); enzyme-linked receptors (insulin receptor tyrosine kinase); cytokine JAK-STAT receptors (growth hormone, interferons); intracellular nuclear receptors (steroid hormones, thyroxine).",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-021",
+      "type": "cloze",
+      "front": "Receptor families",
+      "text": "GPCRs have {{seven}} transmembrane helices and signal through {{G proteins}}; nicotinic and GABA-A are {{ligand-gated ion channels}}; the insulin receptor is a {{receptor tyrosine kinase}}; cytokine receptors use the {{JAK-STAT}} pathway; steroid receptors are {{intracellular nuclear receptors}}.",
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-041",
+      "type": "basic",
+      "front": "Which receptor family acts fastest, and which slowest?",
+      "back": "Ligand-gated ion channels act within milliseconds (the channel opens directly), G-protein coupled receptors within seconds (second messengers), enzyme-linked receptors over minutes to hours, and intracellular nuclear receptors slowest, over hours, because gene transcription and protein synthesis are needed. Nuclear effects also outlast the hormone since the proteins made turn over slowly.",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-017",
       "type": "shortnote",
-      "front": "Short note: Drug enantiomers (chiral drugs)",
+      "front": "Short note: Classification of receptors and subtypes",
       "sections": [
         {
-          "h": "Concept",
+          "h": "Pharmacological",
           "points": [
-            "Chiral drugs exist as enantiomers: R and S forms (or d and l isomers)",
-            "Activity depends on the 3D fit with the target, so enantiomers can differ in action and in metabolic breakdown",
-            "Often only one enantiomer is active"
+            "Relative potency of selective agonists and antagonists, e.g. muscarinic vs nicotinic; alpha vs beta"
           ]
         },
         {
-          "h": "Racemate vs single enantiomer",
+          "h": "Tissue distribution",
           "points": [
-            "The second enantiomer may be a silent passenger, add side effects or toxicity, load metabolism, or antagonise the active form",
-            "A single-enantiomer product can be superior to the racemate"
+            "Beta-1 in heart, beta-2 in bronchi and vessels"
+          ]
+        },
+        {
+          "h": "Ligand binding",
+          "points": [
+            "Radiolabelled ligand binding and its displacement in membranes",
+            "Autoradiography maps receptor subtypes in tissue"
+          ]
+        },
+        {
+          "h": "Transducer pathway",
+          "points": [
+            "M2 uses Gi; nicotinic receptors are ion channels",
+            "GABA-A is a Cl- channel; GABA-B works through a G-protein"
+          ]
+        },
+        {
+          "h": "Molecular cloning",
+          "points": [
+            "Sequence homology defines many subtypes and isoforms",
+            "Orphan receptors have no known ligand",
+            "IUPHAR issues the consensus classification"
+          ]
+        },
+        {
+          "h": "Note",
+          "points": [
+            "Silent binding sites such as plasma proteins are not true receptors"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-029",
+      "type": "shortnote",
+      "front": "Short note: G-protein coupled receptors",
+      "sections": [
+        {
+          "h": "Structure",
+          "points": [
+            "Seven membrane-spanning alpha-helices; three extracellular and three intracellular loops",
+            "Agonist site lies between helices on the outer face; G-protein binds the inner face"
+          ]
+        },
+        {
+          "h": "G-proteins",
+          "points": [
+            "Heterotrimeric: alpha, beta and gamma subunits",
+            "On activation GDP on the alpha subunit is replaced by GTP; alpha-GTP dissociates to act on the effector",
+            "Some G-proteins also open or close ion channels directly"
+          ]
+        },
+        {
+          "h": "Effector pathways",
+          "points": [
+            "Gs: adenylyl cyclase up, calcium channel opening",
+            "Gi: adenylyl cyclase down, potassium channel opening",
+            "Go: calcium channel inhibition; Gq: phospholipase C activation"
+          ]
+        },
+        {
+          "h": "Desensitisation",
+          "points": [
+            "Homologous: BARK and beta-arrestin limit response to the same agonist",
+            "Heterologous: PKA and PKC phosphorylation blocks G-protein coupling",
+            "Long-term down-regulation of receptors over weeks"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "subtopic": "p1-pd-receptor-families",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p1-pd-042",
+      "type": "shortnote",
+      "front": "Short note: Nuclear (intracellular) receptors",
+      "sections": [
+        {
+          "h": "Ligands",
+          "points": [
+            "Glucocorticoid, mineralocorticoid, sex steroids, thyroxine, vitamins A and D"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "HSP-90 keeps the receptor inactive until ligand binds",
+            "Ligand binding releases HSP-90, the receptor dimerises and binds a response element (e.g. GRE) in the target gene"
+          ]
+        },
+        {
+          "h": "Domains",
+          "points": [
+            "Hormone-binding domain chooses the ligand; DNA-binding domain chooses the gene"
+          ]
+        },
+        {
+          "h": "Features",
+          "points": [
+            "Slowest onset (hours); effect outlasts the hormone",
+            "Superfamily includes PPAR; SERMs (tamoxifen, raloxifene) act differently in different oestrogen target organs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4",
+        "GG14 PDF p965"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-043",
+      "type": "shortnote",
+      "front": "Short note: Ligand-gated ion channel receptors",
+      "sections": [
+        {
+          "h": "Structure",
+          "points": [
+            "Pentameric protein enclosing an ion channel; agonist sites usually on alpha subunits"
           ]
         },
         {
           "h": "Examples",
           "points": [
-            "Levo-isomer of atropine is much more active than the dextro-isomer",
-            "S(-) bupivacaine (levobupivacaine) is equally potent but less cardiotoxic and less prone to seizures",
-            "Labetalol has four diastereomers with different alpha and beta profiles"
+            "Nicotinic cholinergic, GABA-A, glycine, glutamate (kainate, NMDA, AMPA), 5-HT3"
           ]
         },
         {
-          "h": "Regulation",
+          "h": "Action",
           "points": [
-            "Regulators such as the US-FDA require separate study of the enantiomers of a new chiral drug",
-            "Approval is withheld unless the pure enantiomers are shown to be no better than the racemate"
+            "Agonist binding opens the channel directly, so onset is in milliseconds"
           ]
         }
       ],
       "refs": [
-        "KDT8 PDF p105",
-        "KDT8 PDF p141",
-        "KDT8 PDF p407",
-        "KDT8 PDF p181"
+        "KDT8 ch4"
       ],
       "pyq": [
         {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
+          "university": "Q bank",
+          "year": 0,
           "marks": 10
         }
       ],
       "status": "draft",
-      "subtopic": "p1-pd-drug-targets",
+      "subtopic": "p1-pd-receptor-families",
       "tags": [
-        "classification",
-        "mechanism"
-      ]
+        "mechanism",
+        "classification"
+      ],
+      "level": 2
     },
     {
-      "id": "p1-pd-034",
+      "id": "p1-pd-044",
       "type": "shortnote",
-      "front": "Short note: Pharmacophore and structure-activity relationships",
+      "front": "Short note: Tyrosine kinase coupled (enzyme-linked) receptors",
       "sections": [
         {
-          "h": "Definition",
+          "h": "Structure",
           "points": [
-            "Pharmacophore: the chemical features a drug needs for optimal action at its receptor",
-            "Features include size, shape, position and orientation of charged groups, and hydrogen-bond donors"
+            "Extracellular ligand domain, a single transmembrane helix and an intracellular enzyme domain"
           ]
         },
         {
-          "h": "Finding it",
+          "h": "Activation",
           "points": [
-            "Worked out from the structures and activities of a group of related compounds, using computer analysis",
-            "Structure-activity relationships (SAR) guide the synthesis of many analogues"
+            "Ligand binding causes dimerisation, then autophosphorylation of tyrosine residues"
           ]
         },
         {
-          "h": "Effect of structure",
+          "h": "Ligands",
           "points": [
-            "Chemical structure determines both affinity and intrinsic activity",
-            "Small structural changes can alter receptor binding and the pharmacological profile"
+            "Insulin, EGF, NGF and other growth factors"
           ]
         },
         {
-          "h": "Drug design",
+          "h": "Related",
           "points": [
-            "Early lead compounds are optimised towards a clinical candidate",
-            "Therapeutic antagonists can be made by chemically modifying the physiological agonist"
+            "JAK-STAT receptors lack intrinsic kinase and bind a cytosolic JAK (growth hormone, prolactin, interferons)",
+            "Guanylyl cyclase-linked (ANP) and serine/threonine kinase (TGF) receptors"
+          ]
+        },
+        {
+          "h": "Drug relevance",
+          "points": [
+            "Constitutively active BCR-ABL kinase causes CML; imatinib is a tyrosine kinase inhibitor"
           ]
         }
       ],
       "refs": [
-        "GG12 PDF p69",
-        "GG14 PDF p27"
+        "KDT8 ch4",
+        "KDT8 PDF p75"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-045",
+      "type": "basic",
+      "front": "What are autoreceptors and heteroreceptors? Why do they matter clinically?",
+      "back": "Both are presynaptic receptors that modulate transmitter release from the terminal. An autoreceptor responds to the neuron's own transmitter (e.g. M2/M4 on cholinergic terminals, alpha-2 on noradrenergic terminals), giving negative feedback. A heteroreceptor responds to a transmitter from another neuron or cell (e.g. NE on alpha-2 receptors reducing ACh release). Clinically, blocking presynaptic muscarinic receptors can raise ACh release and partly offset a postsynaptic antagonist, and 5-HT1 autoreceptors help explain the delay in antidepressant action.",
+      "refs": [
+        "GG14 PDF p201",
+        "GG14 PDF p232",
+        "KDT8 PDF p497"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-019",
+      "type": "essay",
+      "front": "Essay: Receptor signalling families",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Five families differ in structure, speed and duration of response"
+          ]
+        },
+        {
+          "h": "Ligand-gated ion channels",
+          "points": [
+            "Usually pentameric proteins enclosing an ion pore: nicotinic, GABA-A, glycine, glutamate (NMDA, AMPA, kainate) and 5-HT3 receptors",
+            "Onset in milliseconds; benzodiazepines are positive allosteric modulators of GABA-A"
+          ]
+        },
+        {
+          "h": "G-protein coupled receptors",
+          "points": [
+            "Seven transmembrane helices; heterotrimeric G-proteins",
+            "Second messengers: cAMP, IP3/DAG, Ca2+",
+            "Onset in seconds; signal amplified"
+          ]
+        },
+        {
+          "h": "Enzyme-linked receptors",
+          "points": [
+            "Receptor tyrosine kinases (insulin, EGF receptors); ligand binding causes dimerisation and autophosphorylation",
+            "Receptor guanylyl cyclase (ANP)",
+            "Onset in minutes to hours"
+          ]
+        },
+        {
+          "h": "JAK-STAT-binding receptors",
+          "points": [
+            "No intrinsic kinase; associated JAK phosphorylates the receptor and STAT",
+            "STAT dimers enter the nucleus to alter transcription",
+            "Cytokines, growth hormone, prolactin, interferons"
+          ]
+        },
+        {
+          "h": "Nuclear receptors",
+          "points": [
+            "Lipophilic ligands bind intracellular receptors that act on DNA hormone-response elements",
+            "Onset takes hours; effects outlast hormone levels",
+            "Steroids, thyroid hormone, vitamins A and D, PPAR (glitazones)"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch4",
+        "GG14 ch3"
       ],
       "pyq": [
         {
@@ -1184,12 +1414,1245 @@
           "marks": 10
         }
       ],
+      "level": 3
+    },
+    {
+      "id": "p1-pd-010",
+      "type": "basic",
+      "front": "Which G-protein subtypes act on which effectors?",
+      "back": "Gs stimulates adenylyl cyclase (cAMP rises) and opens Ca2+ channels. Gi inhibits adenylyl cyclase and opens K+ channels. Go inhibits neuronal Ca2+ channels. Gq activates phospholipase C, producing IP3 (Ca2+ release) and DAG (protein kinase C). G12/13 activates the small GTPase RhoA.",
+      "refs": [
+        "KDT8 ch4",
+        "GG14 ch3"
+      ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-pd-receptor-theory",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-022",
+      "type": "cloze",
+      "front": "G-protein effects",
+      "text": "Gs activates {{adenylyl cyclase}}; Gi {{inhibits}} it and opens {{K+}} channels; Gq activates {{phospholipase C}}, producing {{IP3}} and DAG.",
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
       "tags": [
         "mechanism",
         "classification"
-      ]
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-046",
+      "type": "basic",
+      "front": "What is a second messenger? Name the main ones in this chapter.",
+      "back": "A second messenger is an intracellular molecule made or released after a receptor is activated; it carries and amplifies the signal inside the cell, so one receptor can drive many effects. Main ones: cAMP (via PKA), cGMP (via PKG), IP3 (releases Ca2+ from the ER), DAG (activates protein kinase C) and Ca2+ itself (acting through calmodulin).",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pd-011",
+      "type": "basic",
+      "front": "Distinguish homologous from heterologous desensitisation, and both from down-regulation.",
+      "back": "Homologous: loss of response limited to the receptor being activated, via GRK phosphorylation and beta-arrestin binding (fast). Heterologous: loss across agonists acting on different receptors, via PKA and PKC phosphorylation. Down-regulation: fewer receptors from reduced synthesis or increased degradation, developing over weeks to months and receding slowly.",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-013",
+      "type": "shortnote",
+      "front": "Short note: Gs-adenylyl cyclase-cAMP signalling",
+      "sections": [
+        {
+          "h": "Sequence",
+          "points": [
+            "Agonist binds a GPCR, which activates Gs (GTP replaces GDP on the alpha subunit)",
+            "Gs-alpha stimulates adenylyl cyclase, converting ATP to cAMP",
+            "cAMP activates protein kinase A (PKA), which phosphorylates functional proteins"
+          ]
+        },
+        {
+          "h": "Cardiac effects (beta-1)",
+          "points": [
+            "More Ca2+ made available (entry through Ca2+ channels and release from stores)",
+            "Phosphorylation of troponin increases force of contraction",
+            "Phosphorylation of phospholamban speeds relaxation"
+          ]
+        },
+        {
+          "h": "Termination",
+          "points": [
+            "Phosphodiesterases hydrolyse cAMP to 5'-AMP; PDE3 and PDE4 are cAMP-selective",
+            "Intrinsic GTPase of Gs-alpha returns it to the GDP-bound state"
+          ]
+        },
+        {
+          "h": "Other cAMP effects",
+          "points": [
+            "Cyclic nucleotide-gated channels",
+            "Gene transcription through CREB",
+            "EPAC proteins"
+          ]
+        },
+        {
+          "h": "Drug relevance",
+          "points": [
+            "Beta agonists act through this pathway; Gi-coupled receptors oppose it",
+            "PDE5 is cGMP-selective (target of sildenafil)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-014",
+      "type": "shortnote",
+      "front": "Short note: Receptor desensitisation and tachyphylaxis",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Desensitisation (refractoriness): continued or intense stimulation makes the receptor less efficient at transducing response",
+            "Tachyphylaxis: rapid tolerance when doses are repeated in quick succession"
+          ]
+        },
+        {
+          "h": "Mechanisms",
+          "points": [
+            "Masking or internalisation of receptors (homologous: GRK phosphorylation, beta-arrestin)",
+            "Heterologous: PKA/PKC phosphorylation affecting several receptors",
+            "Down-regulation by reduced synthesis or increased degradation (slow)",
+            "Depletion of releasable catecholamine stores (indirect sympathomimetics)"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Asthmatics on continuous adrenergic agonists; parkinsonian patients on high-dose levodopa",
+            "Tachyphylaxis to ephedrine, tyramine, nicotine"
+          ]
+        },
+        {
+          "h": "Opposite: supersensitivity",
+          "points": [
+            "Prolonged deprivation of agonist (denervation, continued antagonist) causes up-regulation",
+            "Relevant to clonidine, CNS depressant and opioid withdrawal, and sudden stopping of propranolol in angina"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4",
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-047",
+      "type": "basic",
+      "front": "Define tolerance, tachyphylaxis and cross-tolerance, with an example of each.",
+      "back": "Tolerance: a given dose produces less effect because target cells become less responsive (morphine, barbiturates, nitrates), possibly by receptor desensitisation or down-regulation. Tachyphylaxis: tolerance developing rapidly when doses are repeated in quick succession, typically with indirectly acting drugs (tyramine, ephedrine). Cross-tolerance: tolerance to pharmacologically related drugs, e.g. alcoholics tolerate barbiturates and general anaesthetics. Tolerance can be selective: it develops to morphine analgesia and euphoria more than to constipation and miosis.",
+      "refs": [
+        "KDT8 PDF p97",
+        "GG14 PDF p69",
+        "KDT8 PDF p163"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-048",
+      "type": "shortnote",
+      "front": "Short note: Second messenger systems",
+      "sections": [
+        {
+          "h": "cAMP",
+          "points": [
+            "Gs raises, Gi lowers adenylyl cyclase; acts via PKA; broken down by phosphodiesterases (PDE3, PDE4)",
+            "Cardiac beta-1: troponin phosphorylation raises force, phospholamban speeds relaxation"
+          ]
+        },
+        {
+          "h": "cGMP",
+          "points": [
+            "Made by soluble guanylyl cyclase, activated by nitric oxide; acts via PKG",
+            "Vascular relaxation: nitrates and nitroprusside; PDE5 breaks it down (sildenafil target)"
+          ]
+        },
+        {
+          "h": "IP3, DAG and Ca2+",
+          "points": [
+            "Gq activates phospholipase C, splitting PIP2 into IP3 (Ca2+ release) and DAG (protein kinase C)",
+            "Ca2+-calmodulin activates myosin light chain kinase and contraction"
+          ]
+        },
+        {
+          "h": "Termination and regulation",
+          "points": [
+            "GTPase of G-alpha, RGS proteins, phosphodiesterases, GRK and arrestin desensitisation"
+          ]
+        },
+        {
+          "h": "Clinical significance",
+          "points": [
+            "Beta agonists, nitrates and sildenafil act through these pathways",
+            "Prolonged drive leads to desensitisation; deprivation leads to supersensitivity"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4",
+        "GG14 ch3"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-pd-049",
+      "type": "basic",
+      "front": "Why can abrupt withdrawal of propranolol or clonidine cause a rebound, and how does this contrast with tachyphylaxis?",
+      "back": "Prolonged blockade or reduced input leaves receptors and effector systems supersensitive, through unmasking or proliferation (up-regulation) of receptors or greater signal amplification; when the drug stops, the unopposed agonist gives an exaggerated response (angina worsening, withdrawal syndrome). Desensitisation is the opposite adaptation: continued intense stimulation makes receptors less efficient, as in asthmatics on continuous beta agonists.",
+      "refs": [
+        "KDT8 PDF p77",
+        "KDT8 PDF p79"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-050",
+      "type": "basic",
+      "front": "How do drug tolerance, drug dependence and drug addiction differ?",
+      "back": "Tolerance: the same dose gives less effect because target cells become less responsive. Dependence: an altered physiological state from repeated dosing that needs the drug to stay present; stopping it causes a characteristic withdrawal syndrome. Addiction: compulsive drug use with overwhelming involvement, prone to relapse. Dependence is not essential for addiction: amphetamines, cocaine, cannabis and LSD cause addiction with little or no dependence.",
+      "refs": [
+        "KDT8 PDF p97",
+        "KDT8 PDF p115",
+        "KDT8 PDF p116"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pd-051",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "classification"
+      ],
+      "front": "What are PPARs?",
+      "back": "Peroxisome proliferator-activated receptors are nuclear receptors that act as ligand-activated regulators of gene transcription. Three forms exist: alpha, beta/delta and gamma. Fatty acids and eicosanoids are among their natural ligands.",
+      "refs": [
+        "GG14 PDF p88",
+        "KDT8 PDF p77"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-052",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Which PPAR do fibrates and thiazolidinediones each act on, and what does each do?",
+      "back": "Fibrates activate PPAR-alpha: fatty acid oxidation and lipoprotein lipase synthesis rise, and hepatic triglyceride synthesis falls, so triglycerides drop. Thiazolidinediones activate PPAR-gamma, easing insulin resistance so circulating insulin falls.",
+      "refs": [
+        "GG14 PDF p88",
+        "GG14 PDF p758",
+        "KDT8 PDF p700",
+        "KDT8 PDF p314"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-053",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "front": "Essay: PPARs and their role in drug development",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "month": "October",
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "PPARs are nuclear receptors, so they act through gene expression rather than fast ion-channel or enzyme effects",
+            "Three isoforms: alpha, beta/delta and gamma"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Ligand-activated; partners with retinoid X receptor (RXR) and binds response elements in gene enhancers",
+            "Natural ligands include fatty acids and eicosanoids"
+          ]
+        },
+        {
+          "h": "PPAR-alpha and fibrates",
+          "points": [
+            "Main effect is lower triglycerides, by about 20 to 50% depending on baseline level",
+            "Raise fatty acid oxidation and lipoprotein lipase"
+          ]
+        },
+        {
+          "h": "PPAR-gamma and thiazolidinediones",
+          "points": [
+            "Pioglitazone improves insulin sensitivity and lowers circulating insulin",
+            "Adverse effects include plasma volume expansion and oedema",
+            "Rosiglitazone is banned in India and was withdrawn in Europe over cardiovascular risk"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Gemfibrozil, a PPAR-alpha activator, raises the risk of myopathy with several statins"
+          ]
+        },
+        {
+          "h": "Drug development",
+          "points": [
+            "PPARs are a receptor family where ligands have been developed for dyslipidaemia (fibrates) and diabetes (thiazolidinediones)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p88",
+        "GG14 PDF p106",
+        "GG14 PDF p111",
+        "KDT8 PDF p77",
+        "KDT8 PDF p314",
+        "KDT8 PDF p700"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-054",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "classification"
+      ],
+      "front": "Which cannabinoid receptors exist, and where are they?",
+      "back": "CB1 is found at high density throughout the brain. CB2 is mainly on immune cells, and within the CNS it is thought to sit on microglia. Both are G-protein coupled receptors coupling to Gi/Go.",
+      "refs": [
+        "GG14 PDF p342",
+        "KDT8 PDF p492"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-055",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is dronabinol?",
+      "back": "Synthetic delta-9-THC in sesame oil, given as a capsule or oral solution. It is a low-efficacy agonist at CB1 and CB2, with oral bioavailability of only about 10 to 20%. Used for chemotherapy-induced vomiting and appetite loss in HIV.",
+      "refs": [
+        "GG14 PDF p532",
+        "GG14 PDF p535",
+        "KDT8 PDF p492"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-056",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "front": "Short note: Cannabinoid drugs in clinical use",
+      "sections": [
+        {
+          "h": "Cannabinoid receptor agonists",
+          "points": [
+            "Dronabinol: chemotherapy-induced vomiting; appetite stimulation",
+            "Nabilone: chemotherapy-induced vomiting; licensed alongside dronabinol",
+            "Nabiximols (THC plus CBD oromucosal spray): spasticity in multiple sclerosis"
+          ]
+        },
+        {
+          "h": "Cannabidiol",
+          "points": [
+            "Non-intoxicating; approved for seizures in Lennox-Gastaut, Dravet and tuberous sclerosis complex",
+            "Significant interaction with clobazam"
+          ]
+        },
+        {
+          "h": "Other proposed uses",
+          "points": [
+            "Muscle spasm and pain in MS and dystonia; neuroprotection after head injury or cerebral ischaemia",
+            "Anxiety, migraine, glaucoma (lowers intraocular pressure)"
+          ]
+        },
+        {
+          "h": "Limitation",
+          "points": [
+            "Hallucinogenic and psychomotor effects restrict use"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p534",
+        "GG14 PDF p535",
+        "KDT8 PDF p492"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-057",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "uses",
+        "mechanism",
+        "adr"
+      ],
+      "front": "Essay: Cannabinoids as therapeutic agents",
+      "pyq": [],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Delta-9-THC is the psychoactive principle of cannabis, acting on CB1 (CNS) and CB2 (immune) receptors"
+          ]
+        },
+        {
+          "h": "Approved drugs",
+          "points": [
+            "Dronabinol and nabilone for chemotherapy-induced vomiting; dronabinol also for appetite",
+            "Nabiximols for MS spasticity",
+            "Cannabidiol for Lennox-Gastaut, Dravet and tuberous sclerosis seizures"
+          ]
+        },
+        {
+          "h": "Potential uses",
+          "points": [
+            "Muscle spasm and pain in MS and dystonia; neuroprotection after head injury or cerebral ischaemia",
+            "Anxiety, migraine and glaucoma (lowers intraocular pressure)"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Psychoactive and psychomotor effects restrict use",
+            "CBD interacts with clobazam"
+          ]
+        },
+        {
+          "h": "Future",
+          "points": [
+            "Peripherally restricted CB1 antagonists are in development"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p524",
+        "GG14 PDF p534",
+        "GG14 PDF p535",
+        "KDT8 PDF p492",
+        "KDT8 PDF p493"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-058",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What are endocannabinoids?",
+      "back": "Lipid messengers such as anandamide and 2-arachidonoylglycerol (2-AG). They are synthesised on demand rather than stored in vesicles; anandamide is the principal one in the brain.",
+      "refs": [
+        "Katzung16 PDF p413",
+        "GG14 PDF p342",
+        "KDT8 PDF p122",
+        "KDT8 PDF p492"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-059",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How do endocannabinoids reduce transmitter release?",
+      "back": "They are made by the postsynaptic neuron and cross the synapse backwards to presynaptic CB1 receptors, which suppress transmitter release. The suppression can be transient or long-lasting, depending on the pattern of activity.",
+      "refs": [
+        "Katzung16 PDF p413"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-060",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "front": "Short note: Targeting the endocannabinoid system",
+      "sections": [
+        {
+          "h": "Components",
+          "points": [
+            "Receptors (CB1, CB2), endogenous ligands (anandamide, 2-AG), and the enzymes that make and break them down"
+          ]
+        },
+        {
+          "h": "Receptor drugs",
+          "points": [
+            "Rimonabant: synthetic CB1 antagonist with inverse agonist action; developed for smoking cessation",
+            "Peripherally restricted CB1 antagonists are in development"
+          ]
+        },
+        {
+          "h": "Enzyme inhibitors",
+          "points": [
+            "FAAH inhibitors raise anandamide; PF-04457845 is covalent and irreversible, with up to tenfold rises in circulating anandamide; tested in a phase 2a trial for cannabis withdrawal in men",
+            "MAGL inhibitors raise 2-AG; they have been tested less than FAAH inhibitors"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p342",
+        "GG14 PDF p524",
+        "GG14 PDF p535",
+        "GG14 PDF p536",
+        "GG14 PDF p564"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-061",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p1-pd-signalling",
+      "tags": [
+        "mechanism",
+        "newer-drugs",
+        "uses"
+      ],
+      "front": "Essay: Endocannabinoid system as a therapeutic target",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Three parts: CB1 and CB2 GPCRs, endogenous lipid ligands, and the enzymes that synthesise and degrade them"
+          ]
+        },
+        {
+          "h": "Signalling",
+          "points": [
+            "Gi/Go coupling: inhibits adenylyl cyclase, modulates Ca2+ and K+ channels",
+            "Made on demand and act as retrograde messengers across synapses"
+          ]
+        },
+        {
+          "h": "Physiological roles",
+          "points": [
+            "Pain perception, memory and cognition, feeding and energy metabolism"
+          ]
+        },
+        {
+          "h": "Direct targeting",
+          "points": [
+            "CB1 blockade with rimonabant; peripherally restricted CB1 antagonists are in development"
+          ]
+        },
+        {
+          "h": "Indirect targeting",
+          "points": [
+            "FAAH inhibition raises anandamide; MAGL inhibition raises 2-AG",
+            "The FAAH inhibitor PF-04457845 was tested in a phase 2a trial for cannabis withdrawal in men; MAGL inhibitors have been less extensively tested"
+          ]
+        },
+        {
+          "h": "Agonist efficacy",
+          "points": [
+            "THC is a partial agonist; synthetic cannabinoids ('spice') are high-efficacy CB1 agonists with uncharacterised off-target activity"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p342",
+        "GG14 PDF p524",
+        "GG14 PDF p532",
+        "GG14 PDF p535",
+        "Katzung16 PDF p413",
+        "KDT8 PDF p122"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-062",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "pk",
+        "mechanism"
+      ],
+      "front": "What is a PK-PD model?",
+      "back": "A model that bridges pharmacokinetics (drug level over time) and pharmacodynamics (response), so the response to a dose can be forecast over time.",
+      "refs": [
+        "Medhi PMECP PDF p356"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-063",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "pk"
+      ],
+      "front": "Why does plasma concentration not always match drug effect?",
+      "back": "Only drugs with an almost instantaneous link between free plasma level and effect (for example antiarrhythmics) show a direct match. For other drugs the effect lags behind or differs from the plasma level, so the time course is modelled separately.",
+      "refs": [
+        "GG14 PDF p48",
+        "Medhi PMECP PDF p357"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-064",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "front": "Short note: Labetalol as a PK-PD example",
+      "sections": [
+        {
+          "h": "Why it is hard",
+          "points": [
+            "A racemic mixture whose isomers have different kinetics and effects"
+          ]
+        },
+        {
+          "h": "Kinetics",
+          "points": [
+            "Bioavailability only about 20 to 40%, variable, and raised by food",
+            "Extensive hepatic first-pass clearance; metabolism sensitive to hepatic blood flow",
+            "Elimination half-life about 8 h; the R,R isomer (dilevalol) about 15 h"
+          ]
+        }
+      ],
+      "refs": [
+        "GG12 PDF p354"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-065",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "pk",
+        "dosing",
+        "mechanism"
+      ],
+      "front": "Essay: PK-PD modelling and clinical relevance",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "PK links dose to concentration; PD links concentration to effect; the PK-PD model links both over time"
+          ]
+        },
+        {
+          "h": "Objectives",
+          "points": [
+            "Forecast response to a dose; select dose and dosing interval; estimate duration of response; estimate the therapeutic window"
+          ]
+        },
+        {
+          "h": "Time course",
+          "points": [
+            "Effect often lags plasma level, so the model describes the concentration-time course in the effect compartment",
+            "Only near-instantaneous drugs (e.g. antiarrhythmics) track free plasma level directly"
+          ]
+        },
+        {
+          "h": "Variability",
+          "points": [
+            "Age, sex, body weight and disease status change the dose-response-time relation",
+            "Individuals differ in both PK and PD handling"
+          ]
+        },
+        {
+          "h": "Clinical examples",
+          "points": [
+            "Labetalol: isomers with different half-lives (8 h versus 15 h for dilevalol)",
+            "Antimicrobials: efficacy is linked to MIC and exposure indices; dosing aims for a high chance of exceeding the target index"
+          ]
+        },
+        {
+          "h": "Drug development",
+          "points": [
+            "Early human trials gather PK and PD data to set dose and to define efficacy and safety"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP PDF p356",
+        "Medhi PMECP PDF p357",
+        "GG14 PDF p33",
+        "GG14 PDF p48",
+        "GG14 PDF p72",
+        "GG12 PDF p354",
+        "GG12 PDF p1396",
+        "GG12 PDF p1398"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-066",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "classification"
+      ],
+      "front": "Quantitative versus qualitative modification of drug action",
+      "back": "Quantitative: the plasma level or action rises or falls; most factors do this and are handled by changing the dose. Qualitative: the type of response changes, as in drug allergy or idiosyncrasy, which often rules out that drug.",
+      "refs": [
+        "KDT8 PDF p90"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-067",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "dosing",
+        "adr"
+      ],
+      "front": "Why are child and elderly doses worked out differently from adult doses?",
+      "back": "Children are dosed on body weight; newborns have immature glomerular filtration and tubular secretion, which prolongs half-life of renally cleared drugs. In the elderly, GFR falls to about half by 75 years and hepatic metabolism and liver blood flow drop, so doses are reduced and cumulative toxicity is watched for.",
+      "refs": [
+        "KDT8 PDF p90",
+        "KDT8 PDF p91"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-068",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "front": "Short note: Sex and pregnancy as modifiers of drug action",
+      "sections": [
+        {
+          "h": "Sex",
+          "points": [
+            "Women are smaller and usually need doses at the lower end of the range",
+            "Some side effects are sex-specific, e.g. gynaecomastia in men with ketoconazole or digitalis"
+          ]
+        },
+        {
+          "h": "Pregnancy",
+          "points": [
+            "Reduced gut motility delays oral absorption",
+            "Plasma volume rises, so volume of distribution may increase",
+            "Albumin falls and alpha-1-acid glycoprotein rises, changing free fractions of acidic and basic drugs",
+            "Renal blood flow rises, so polar drugs clear faster; hepatic enzymes are induced"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p92"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-069",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "front": "Short note: Genetic and racial factors in drug response",
+      "sections": [
+        {
+          "h": "Genetics",
+          "points": [
+            "Dose needed for the same effect can vary 4 to 6 fold between people",
+            "Transporters, enzymes, ion channels, receptors and couplers are genetically controlled",
+            "Pharmacogenetics studies the genetic basis of response; pharmacogenomics uses it to choose drug and dose"
+          ]
+        },
+        {
+          "h": "Race and species",
+          "points": [
+            "Some groups differ, e.g. beta-blockers are less effective as antihypertensives in Afro-Caribbeans",
+            "Species differ: rabbits are resistant to atropine; rats and mice are resistant to digitalis"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p92"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-070",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-pd-antagonism",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ],
+      "front": "Why does atropine's effect on heart rate depend on the patient's vagal tone?",
+      "back": "Atropine raises heart rate only when vagal tone is present to be blocked. Propranolol lowers heart rate only in proportion to sympathetic tone, and captopril lowers blood pressure more when body sodium is low. The response depends on the physiological state, not only on receptor occupancy.",
+      "refs": [
+        "KDT8 PDF p90"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-071",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "adr",
+        "dosing",
+        "interactions"
+      ],
+      "front": "Essay: Factors influencing drug action and their clinical relevance",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "The same dose gives different responses between patients and within a patient over time",
+            "Changes are quantitative (dose adjustment) or qualitative (allergy, idiosyncrasy)"
+          ]
+        },
+        {
+          "h": "Pharmacokinetic handling",
+          "points": [
+            "Plasma or target concentration varies more for drugs cleared by metabolism (propranolol) than for drugs excreted unchanged (atenolol)"
+          ]
+        },
+        {
+          "h": "Receptors and tone",
+          "points": [
+            "Number and state of receptors and coupling proteins can vary",
+            "Tone decides the response: atropine tachycardia depends on vagal tone; propranolol bradycardia on sympathetic tone"
+          ]
+        },
+        {
+          "h": "Body size, age, sex",
+          "points": [
+            "Child and obese or lean doses are based on body weight; newborns and elderly differ in renal function and metabolism",
+            "Women are smaller; pregnancy changes drug disposition"
+          ]
+        },
+        {
+          "h": "Genetics, race, species",
+          "points": [
+            "Dose for the same effect can vary 4 to 6 fold; pharmacogenomics guides choice",
+            "Species and racial differences change responsiveness, so animal data need care"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Choose the drug and starting dose using these factors, then adjust by observing the patient's response"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p90",
+        "KDT8 PDF p91",
+        "KDT8 PDF p92",
+        "GG14 PDF p72"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-072",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025
+        }
+      ],
+      "front": "Short note: Neurokinin receptor system and its therapeutic role",
+      "sections": [
+        {
+          "h": "Ligands",
+          "points": [
+            "Substance P, neurokinin A and neurokinin B are tachykinins",
+            "Substance P dominates and is mainly linked with pain and inflammation"
+          ]
+        },
+        {
+          "h": "Receptors",
+          "points": [
+            "NK1, NK2 and NK3 are GPCRs coupled to Gq",
+            "Activation raises IP3 and intracellular Ca2+, driving contraction and secretion"
+          ]
+        },
+        {
+          "h": "Therapeutic role",
+          "points": [
+            "NK1 receptors in the chemoreceptor trigger zone and nucleus tractus solitarius mediate vomiting from emetogenic chemotherapy",
+            "Aprepitant is a selective, high-affinity NK1 antagonist with little action on 5-HT3 or D2; used with ondansetron and dexamethasone"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p567",
+        "KDT8 PDF p729",
+        "KDT8 PDF p730",
+        "Katzung16 PDF p343"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-073",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025
+        }
+      ],
+      "front": "What is a bioassay, and when is it used?",
+      "back": "Measuring the amount or potency of a substance from the biological response it produces in a living animal or isolated tissue. It is used when the chemical composition is unknown, or when chemical assay is too complex or insensitive, e.g. adrenaline and histamine in microgram amounts.",
+      "refs": [
+        "Satoskar PDF p157",
+        "KDT8 PDF p295"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-074",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-pd-dose-response",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025
+        }
+      ],
+      "front": "How is adrenaline bioassayed on an isolated tissue?",
+      "back": "The response of a sensitive isolated tissue is compared with a standard to find the unknown concentration. Rat colon is one such preparation; it responds more strongly to noradrenaline than to adrenaline, so the result must be read with that selectivity in mind.",
+      "refs": [
+        "Medhi PMECP PDF p170",
+        "Satoskar PDF p157"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-075",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-pd-drug-targets",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025
+        }
+      ],
+      "front": "What protection does a patent give a new drug?",
+      "back": "In the US system, a patent gives the holder exclusive rights to market and sell the drug for 20 years from filing.",
+      "refs": [
+        "GG14 PDF p36",
+        "GG12 PDF p37"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-076",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-pd-drug-targets",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025
+        }
+      ],
+      "front": "Short note: Membrane transporters and adverse drug reactions",
+      "sections": [
+        {
+          "h": "Why it matters",
+          "points": [
+            "Transporters control how much drug reaches each cell, so they set exposure and toxicity"
+          ]
+        },
+        {
+          "h": "Three mechanisms",
+          "points": [
+            "Decreased uptake or excretion at clearance organs raises systemic levels",
+            "Increased uptake or decreased efflux at target organs raises local drug levels",
+            "Drugs alter transport of endogenous compounds at target organs"
+          ]
+        },
+        {
+          "h": "Interactions and variants",
+          "points": [
+            "Gemfibrozil glucuronide reduces hepatic uptake of cerivastatin, raising its systemic levels"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p100",
+        "GG14 PDF p101",
+        "GG14 PDF p117"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-077",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p1-pd-receptor-families",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025
+        }
+      ],
+      "front": "Short note: Drugs affecting dopamine signalling",
+      "sections": [
+        {
+          "h": "Receptors",
+          "points": [
+            "Five dopamine receptor subtypes, grouped as D1-like and D2-like"
+          ]
+        },
+        {
+          "h": "D2-like agonists",
+          "points": [
+            "Used in Parkinson disease, restless legs syndrome and hyperprolactinaemia"
+          ]
+        },
+        {
+          "h": "Levodopa",
+          "points": [
+            "Dopamine does not cross the BBB; levodopa does and is converted to dopamine in the brain",
+            "Given with a peripheral decarboxylase inhibitor to limit peripheral conversion",
+            "Long-term use loses effect and causes levodopa-induced dyskinesias"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p316",
+        "GG14 PDF p319"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-pd-078",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-pd-drug-targets",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025
+        }
+      ],
+      "front": "What is a designer drug, and how does a therapeutic designer drug differ?",
+      "back": "A designer drug is a chemically altered form of an existing drug. Ecstasy, the MDMA-derived class, is the prototypic designer drug. Vigabatrin, the first designer drug in epilepsy, is a vinyl-substituted GABA analogue designed as an irreversible GABA-transaminase inhibitor.",
+      "refs": [
+        "Bennett PDF p160",
+        "Katzung16 PDF p630",
+        "RangDale9 PDF p595",
+        "GG14 PDF p423"
+      ],
+      "status": "draft"
     }
   ]
 }

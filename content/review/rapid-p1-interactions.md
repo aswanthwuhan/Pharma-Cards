@@ -182,3 +182,20 @@ rf-p1-interactions-0117 | corrected | KDT8 PDF p819 | Tramadol not found; linezo
 rf-p1-interactions-0118 | corrected | GG14 PDF p371 | "Never combine" changed to "avoid combining" (book wording)
 rf-p1-interactions-0119 | corrected | GG14 PDF p371 | Kept 14 days; fluoxetine and SNRI intervals removed (book gives them in the reverse direction or unclear)
 rf-p1-interactions-0121 | corrected | KDT8 PDF p727 | Astemizole and terfenadine not found; cisapride only; banned in India 2011
+
+## Checker
+- 0066: rewritten to GG14 PDF p110 (rifampin lowers oral bioavailability of digoxin via MDR1 induction); the "urinary excretion" claim was unsourced.
+- 0075: now valproate inhibits phenobarbitone/lamotrigine metabolism (KDT8 PDF p457).
+- 0116: sourced to GG14 PDF p371, KDT8 PDF p495.
+
+## Checker
+Rapid deck untouched; no Prep/RR5 refs found.
+
+## Checker (round 2, newest rapid cards 0120-0133)
+- 0120: corrected. Moclobemide answer no longer says "no dietary restriction" (reversible MAO-A inhibitor, KDT8 PDF p495, GG14 PDF p367).
+- 0121: corrected. Erythromycin/clarithromycin with terfenadine/astemizole/cisapride (KDT8 PDF p813). Unverified "banned in India 2011" removed; "drugs later banned" kept (KDT8 PDF p813).
+- 0122: refs corrected to GG14 PDF p133 (naringin, furanocoumarins).
+- 0123: refs corrected to GG12 PDF p155 and KDT8 PDF p196 (terfenadine withdrawal, torsades). Grapefruit example removed from the answer.
+- 0112, 0131 verified: KDT8 ch71 "substitute NSAID with paracetamol".
+- 0119, 0117, 0118, 0132, 0133 verified against GG14 PDF p371, KDT8 PDF p819, KDT8 PDF p574, Sarkar p436-440.
+- Validator: check ok.

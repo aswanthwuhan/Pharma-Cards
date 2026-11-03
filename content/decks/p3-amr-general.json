@@ -15,23 +15,8 @@
       "subtopic": "p3-amr-general-classification",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-002",
-      "type": "basic",
-      "front": "When should surgical prophylaxis be given, and when should it stop?",
-      "back": "Give it so that effective tissue levels are present at incision and throughout the procedure: oral agents about 1 hour before, IV agents just before or at induction (GG14: IV within 60 minutes before incision), with a repeat IV dose in long operations. Keep it short. Giving it more than 4 hours after wound closure is justified only for contaminated and dirty surgery, for up to 5 days.",
-      "refs": [
-        "KDT8 ch50",
-        "GG14 ch56"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
-      "tags": [
-        "uses"
-      ]
+      "level": 1
     },
     {
       "id": "p3-amr-general-003",
@@ -46,82 +31,216 @@
       "subtopic": "p3-amr-general-classification",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p3-amr-general-004",
-      "type": "basic",
-      "front": "Which four antimicrobial groups are most often implicated in hypersensitivity?",
-      "back": "Penicillins, cephalosporins, sulfonamides and fluoroquinolones. The reactions are unpredictable, not dose related, and range from rash to anaphylaxis.",
+      "id": "p3-amr-general-017",
+      "type": "cloze",
+      "front": "Classify: bacteriostatic versus bactericidal antimicrobials",
+      "text": "Primarily bactericidal: {{penicillins}}, {{cephalosporins}}, {{aminoglycosides}}, {{vancomycin}} and {{fluoroquinolones}}. Primarily bacteriostatic: {{sulfonamides}}, {{tetracyclines}}, {{chloramphenicol}}, {{erythromycin}} and {{clindamycin}}.",
       "refs": [
         "KDT8 ch50"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "subtopic": "p3-amr-general-classification",
       "tags": [
-        "adr"
-      ]
+        "classification"
+      ],
+      "level": 1
     },
     {
-      "id": "p3-amr-general-005",
-      "type": "basic",
-      "front": "What is meant by a low therapeutic index, and which agents have very low indices?",
-      "back": "The margin between effective and toxic dose is narrow, so dosing must be individualised and monitored. Polymyxin B and amphotericin B have very low indices, so they are reserved for cases with no alternative. Aminoglycosides, vancomycin, tetracyclines and chloramphenicol have lower margins than penicillins or erythromycin.",
+      "id": "p3-amr-general-018",
+      "type": "cloze",
+      "front": "Classify: antimicrobials by the organism they mainly act on",
+      "text": "Antifungal: {{griseofulvin}} and {{amphotericin B}}. Antiviral: {{acyclovir}}. Antiprotozoal: {{metronidazole}}. Anthelmintic: {{mebendazole}}. Antimycobacterial: {{ethambutol}}.",
       "refs": [
         "KDT8 ch50"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "subtopic": "p3-amr-general-classification",
       "tags": [
-        "adr"
-      ]
+        "classification"
+      ],
+      "level": 1
     },
     {
-      "id": "p3-amr-general-006",
-      "type": "basic",
-      "front": "How do natural resistance and acquired resistance differ?",
-      "back": "Natural resistance is a trait of a whole species or group, for example gram-negative bacilli and penicillin G, or anaerobes and aminoglycosides; it rarely matters clinically. Acquired resistance develops in a previously sensitive strain after drug exposure and is a major clinical problem.",
-      "refs": [
-        "KDT8 ch50"
+      "id": "p3-amr-general-065",
+      "type": "shortnote",
+      "front": "Short note: Streptogramins",
+      "sections": [
+        {
+          "h": "Composition",
+          "points": [
+            "Quinupristin/dalfopristin: combination of two semisynthetic streptogramins in a 30:70 ratio"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Together they exert a rapid bactericidal action (as stated in KDT8)"
+          ]
+        },
+        {
+          "h": "Adverse",
+          "points": [
+            "Single dose: pain at injection site, chills, fever, urticaria",
+            "Repeated doses: anaemia, renal and hepatic impairment"
+          ]
+        }
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-resistance",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-007",
-      "type": "basic",
-      "front": "Contrast vertical and horizontal transfer of resistance.",
-      "back": "Vertical transfer is selection of pre-existing mutants when the drug kills sensitive cells; it is slow and usually low grade, as with a single anti-TB drug. Horizontal transfer moves resistance genes between bacteria by conjugation (plasmids and R factors), transduction by phage, or transformation. It is fast and can spread multidrug resistance at once.",
       "refs": [
-        "KDT8 ch50"
+        "KDT8 PDF p819"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-resistance",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-008",
-      "type": "basic",
-      "front": "Name the three mechanistic types of drug-resistant bacteria.",
-      "back": "Drug tolerant: the target changes so the drug binds poorly (for example altered RNA polymerase or penicillin-binding proteins). Drug destroying: an enzyme inactivates the drug (beta-lactamases, aminoglycoside-modifying enzymes). Drug impermeable: less drug gets in, through lost porins or active efflux pumps.",
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-resistance",
+      "subtopic": "p3-amr-general-classification",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-067",
+      "type": "basic",
+      "subtopic": "p3-amr-general-classification",
+      "front": "Why is a bactericidal drug preferred when host defences are impaired or a carrier state is possible?",
+      "back": "Impaired defences cannot clear an infection that a static drug only holds in check, so the organism must be killed; the same applies to life-threatening infections, SABE and carriers (e.g. typhoid).",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "tags": [
+        "classification"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-068",
+      "type": "shortnote",
+      "subtopic": "p3-amr-general-classification",
+      "front": "Short note: Failure of antimicrobial therapy",
+      "sections": [
+        {
+          "h": "Dose, timing and compliance",
+          "points": [
+            "Dose too low or duration too short",
+            "Treatment started too late",
+            "Patient non-compliance"
+          ]
+        },
+        {
+          "h": "Missing adjuvant measures",
+          "points": [
+            "Abscess, empyema or infected stones/foreign body not drained or removed",
+            "Urinary pH not corrected where needed"
+          ]
+        },
+        {
+          "h": "Host and site",
+          "points": [
+            "Poor host defence (leukaemia, neutropenia), worse with a static drug",
+            "Organism behind barriers: valve vegetation, eyeball, blood-brain barrier"
+          ]
+        },
+        {
+          "h": "Wrong target",
+          "points": [
+            "Antibiotic given for a viral infection or non-infective fever"
+          ]
+        },
+        {
+          "h": "Persisters",
+          "points": [
+            "Dormant or altered organisms survive and cause relapse"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "tags": [
+        "classification"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-016",
+      "type": "essay",
+      "front": "Essay: Rational choice of an antimicrobial agent",
+      "sections": [
+        {
+          "h": "Diagnosis first",
+          "points": [
+            "Confirm a treatable, probably bacterial infection",
+            "Clinical, empirical or culture-guided choice depending on setting"
+          ]
+        },
+        {
+          "h": "Patient factors",
+          "points": [
+            "Age, renal and hepatic function",
+            "Pregnancy, allergy history, G6PD status",
+            "Host defence: cidal drug needed if impaired"
+          ]
+        },
+        {
+          "h": "Organism and site",
+          "points": [
+            "MIC and likely pathogens",
+            "Penetration to site, pus, abscess, biofilm on implants",
+            "CSF or intracellular penetration"
+          ]
+        },
+        {
+          "h": "Drug factors",
+          "points": [
+            "Spectrum: narrow when possible",
+            "Cidal versus static, PK and time or concentration dependence",
+            "Toxicity, route, clinical trial evidence, cost"
+          ]
+        },
+        {
+          "h": "Review",
+          "points": [
+            "Review diagnosis and therapy if the response fails, using culture results",
+            "Check for adjuvant measures such as drainage of pus",
+            "Causes of failure: wrong drug, dose or route, late start, poor compliance, local barriers to drug entry"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-classification",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
     },
     {
       "id": "p3-amr-general-009",
@@ -136,23 +255,8 @@
       "subtopic": "p3-amr-general-killing",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-010",
-      "type": "basic",
-      "front": "Which bactericidal antibiotics show concentration-dependent killing and which show time-dependent killing?",
-      "back": "Concentration-dependent: aminoglycosides and fluoroquinolones. The rate and extent of killing rise with drug concentration, which (with their long postantibiotic effect) supports once-daily aminoglycoside dosing. Time-dependent: beta-lactams and vancomycin. Killing continues only while the serum level stays above the MBC, so the time above that level is what matters and divided doses are used.",
-      "refs": [
-        "Katzung16 ch51",
-        "KDT8 ch50"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-killing",
-      "tags": [
-        "pk"
-      ]
+      "level": 1
     },
     {
       "id": "p3-amr-general-011",
@@ -197,7 +301,57 @@
       "subtopic": "p3-amr-general-killing",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-078",
+      "type": "basic",
+      "front": "What does a bacteriostatic drug do when its level falls below the MIC?",
+      "back": "Bacteria restart multiplying quickly, so infection can relapse. A cidal drug actually cuts the bacterial count and often has a prolonged postantibiotic effect, so levels need not stay above the MIC all the time.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-killing",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-079",
+      "type": "basic",
+      "front": "What is the postantibiotic effect and how is it measured?",
+      "back": "After brief exposure, bacteria moved to drug-free medium resume growth only after a lag. That lag is the PAE, taken as the time for a 10-fold rise in count in exposed minus unexposed cultures. It is long and dose dependent with fluoroquinolones, aminoglycosides and rifampin.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-killing",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-010",
+      "type": "basic",
+      "front": "Which bactericidal antibiotics show concentration-dependent killing and which show time-dependent killing?",
+      "back": "Concentration-dependent: aminoglycosides and fluoroquinolones. The rate and extent of killing rise with drug concentration, which (with their long postantibiotic effect) supports once-daily aminoglycoside dosing. Time-dependent: beta-lactams and vancomycin. Killing continues only while the serum level stays above the MBC, so the time above that level is what matters and divided doses are used.",
+      "refs": [
+        "Katzung16 ch51",
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-killing",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-general-012",
@@ -235,65 +389,84 @@
       "refs": [
         "KDT8 ch50"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p3-amr-general-killing",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-amr-general-013",
-      "type": "shortnote",
-      "front": "Short note: Superinfection",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "New infection arising during antimicrobial therapy"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Normal flora suppressed, losing bacteriocin production and competition for nutrients",
-            "Non-pathogenic flora such as Candida then overgrows"
-          ]
-        },
-        {
-          "h": "Risk factors",
-          "points": [
-            "Broad-spectrum or combined drugs",
-            "Corticosteroids, cytotoxics, agranulocytosis, AIDS, diabetes, old age"
-          ]
-        },
-        {
-          "h": "Organisms and treatment",
-          "points": [
-            "Candida: nystatin or clotrimazole",
-            "C. difficile: KDT lists metronidazole or vancomycin; GG14: oral vancomycin or fidaxomicin are now preferred, metronidazole only for nonsevere disease",
-            "Resistant staphylococci, Proteus and Pseudomonas: choose by sensitivity (e.g. ceftazidime or gentamicin for Pseudomonas)"
-          ]
-        },
-        {
-          "h": "Prevention",
-          "points": [
-            "Narrow-spectrum drug when possible",
-            "Avoid treating viral or trivial infections",
-            "Keep courses short"
-          ]
-        }
-      ],
+      "id": "p3-amr-general-080",
+      "type": "basic",
+      "front": "Case: neutropenic patient with Pseudomonas infection is given ticarcillin plus gentamicin. Justify the choice.",
+      "back": "Defences are impaired, so a cidal regimen is needed. Two cidal drugs are often additive or synergistic: the cell-wall-active penicillin enhances aminoglycoside entry, and beta-lactam plus aminoglycoside prolongs PAE. Gentamicin kills by concentration, so one daily dose works better than split doses, whereas the beta-lactam depends on time above MIC, so splitting its dose helps.",
       "refs": [
-        "KDT8 ch50",
-        "GG14 ch57"
+        "KDT8 ch50"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "subtopic": "p3-amr-general-killing",
       "tags": [
-        "adr"
-      ]
+        "pk",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-006",
+      "type": "basic",
+      "front": "How do natural resistance and acquired resistance differ?",
+      "back": "Natural resistance is a trait of a whole species or group, for example gram-negative bacilli and penicillin G, or anaerobes and aminoglycosides; it rarely matters clinically. Acquired resistance develops in a previously sensitive strain after drug exposure and is a major clinical problem.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-007",
+      "type": "basic",
+      "front": "Contrast vertical and horizontal transfer of resistance.",
+      "back": "Vertical transfer is selection of pre-existing mutants when the drug kills sensitive cells; it is slow and usually low grade, as with a single anti-TB drug. Horizontal transfer moves resistance genes between bacteria by conjugation (plasmids and R factors), transduction by phage, or transformation. It is fast and can spread multidrug resistance at once.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-008",
+      "type": "basic",
+      "front": "Name the three mechanistic types of drug-resistant bacteria.",
+      "back": "Drug tolerant: the target changes so the drug binds poorly (for example altered RNA polymerase or penicillin-binding proteins). Drug destroying: an enzyme inactivates the drug (beta-lactamases, aminoglycoside-modifying enzymes). Drug impermeable: less drug gets in, through lost porins or active efflux pumps.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p3-amr-general-014",
@@ -339,7 +512,57 @@
       "subtopic": "p3-amr-general-resistance",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-069",
+      "type": "basic",
+      "subtopic": "p3-amr-general-resistance",
+      "front": "What are 'persisters', and why do they cause relapse?",
+      "back": "Dormant or altered bacteria that survive antimicrobial treatment and later regrow, so an infection returns after apparently successful therapy.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-087",
+      "type": "basic",
+      "front": "Why can adding a bacteriostatic drug to a cidal drug sometimes antagonise it?",
+      "back": "Cidal drugs act mainly on rapidly multiplying bacteria while static drugs stop multiplication. If the organism is highly sensitive to the cidal drug, the combination acts like the static drug alone (penicillin plus tetracycline in pneumococcal meningitis had higher mortality). If sensitivity to the cidal drug is low, synergy may occur, e.g. streptomycin plus tetracycline in brucellosis.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-088",
+      "type": "basic",
+      "front": "Why do combinations prevent resistance, and in which infections is this principle valid?",
+      "back": "Mutations for resistance to two drugs are independent: if resistant mutants are 1 in 10^5 for drug P and 1 in 10^7 for Q, only 1 in 10^12 bacilli resists both. It is valid mainly for chronic infections needing prolonged therapy (TB, leprosy, HIV, H. pylori, malaria), not most acute infections where resistance rarely arises during treatment.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
     },
     {
       "id": "p3-amr-general-015",
@@ -415,1718 +638,8 @@
       "subtopic": "p3-amr-general-resistance",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-016",
-      "type": "essay",
-      "front": "Essay: Rational choice of an antimicrobial agent",
-      "sections": [
-        {
-          "h": "Diagnosis first",
-          "points": [
-            "Confirm a treatable, probably bacterial infection",
-            "Clinical, empirical or culture-guided choice depending on setting"
-          ]
-        },
-        {
-          "h": "Patient factors",
-          "points": [
-            "Age, renal and hepatic function",
-            "Pregnancy, allergy history, G6PD status",
-            "Host defence: cidal drug needed if impaired"
-          ]
-        },
-        {
-          "h": "Organism and site",
-          "points": [
-            "MIC and likely pathogens",
-            "Penetration to site, pus, abscess, biofilm on implants",
-            "CSF or intracellular penetration"
-          ]
-        },
-        {
-          "h": "Drug factors",
-          "points": [
-            "Spectrum: narrow when possible",
-            "Cidal versus static, PK and time or concentration dependence",
-            "Toxicity, route, clinical trial evidence, cost"
-          ]
-        },
-        {
-          "h": "Review",
-          "points": [
-            "Review diagnosis and therapy if the response fails, using culture results",
-            "Check for adjuvant measures such as drainage of pus",
-            "Causes of failure: wrong drug, dose or route, late start, poor compliance, local barriers to drug entry"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-amr-general-classification",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-amr-general-017",
-      "type": "cloze",
-      "front": "Classify: bacteriostatic versus bactericidal antimicrobials",
-      "text": "Primarily bactericidal: {{penicillins}}, {{cephalosporins}}, {{aminoglycosides}}, {{vancomycin}} and {{fluoroquinolones}}. Primarily bacteriostatic: {{sulfonamides}}, {{tetracyclines}}, {{chloramphenicol}}, {{erythromycin}} and {{clindamycin}}.",
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-classification",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-amr-general-018",
-      "type": "cloze",
-      "front": "Classify: antimicrobials by the organism they mainly act on",
-      "text": "Antifungal: {{griseofulvin}} and {{amphotericin B}}. Antiviral: {{acyclovir}}. Antiprotozoal: {{metronidazole}}. Anthelmintic: {{mebendazole}}. Antimycobacterial: {{ethambutol}}.",
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-classification",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-amr-general-019",
-      "type": "cloze",
-      "front": "Complete: superinfection organisms and treatment",
-      "text": "Candida albicans causes {{monilial diarrhoea and thrush}}, treated with {{nystatin}} or clotrimazole. {{Clostridium difficile}} causes pseudomembranous enterocolitis after clindamycin, tetracyclines, ampicillin and other drugs; KDT lists metronidazole or vancomycin, while GG14 now prefers oral {{vancomycin}} or {{fidaxomicin}}.",
-      "refs": [
-        "KDT8 ch50",
-        "GG14 ch57"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-020",
-      "type": "cloze",
-      "front": "Complete: specific prophylaxis indications",
-      "text": "Recurrence of rheumatic fever is prevented with {{benzathine penicillin}}. Tuberculosis contacts are protected with {{isoniazid}} for 6 months. Pneumocystis prophylaxis in AIDS or transplant patients uses {{cotrimoxazole}}. Dental extraction in valvular heart disease is covered with {{amoxicillin}} or clindamycin.",
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-general-021",
-      "type": "basic",
-      "front": "How do sulfonamides stop bacterial growth, and why are human cells spared?",
-      "back": "Sulfonamides resemble PABA and competitively block dihydropteroate synthase, so the bacterium cannot make folate. Human cells take preformed folate from the diet and are unaffected. Excess PABA reverses the effect.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-022",
-      "type": "basic",
-      "front": "Name three bacterial routes to sulfonamide resistance.",
-      "back": "Increased PABA production; a folate synthase with low affinity for sulfonamides; or an alternative pathway that uses preformed folate taken up from the medium. Resistance to one sulfonamide usually means resistance to all of them.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-023",
-      "type": "basic",
-      "front": "What causes sulfonamide crystalluria, and how is it prevented?",
-      "back": "The acetylated metabolite is less soluble than the parent drug, especially in acidic urine, so it can precipitate. Prevent it with high fluid intake and alkalinised urine. It is now infrequent.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-024",
-      "type": "basic",
-      "front": "Why are sulfonamides avoided in neonates, and which patients risk haemolysis?",
-      "back": "They displace bilirubin from albumin, and the neonatal blood brain barrier is more permeable, so kernicterus can follow. Haemolysis occurs with high doses in G6PD-deficient people.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-025",
-      "type": "basic",
-      "front": "What is the logic of combining trimethoprim with sulfamethoxazole?",
-      "back": "It is a sequential block of folate synthesis: sulfamethoxazole blocks an early step and trimethoprim blocks bacterial dihydrofolate reductase. Each alone is static, but together they are often cidal. Trimethoprim is far more potent against the bacterial enzyme than the human one.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-026",
-      "type": "basic",
-      "front": "What are the main current uses of cotrimoxazole?",
-      "back": "Uncomplicated and recurrent urinary tract infection, including prostatitis because trimethoprim concentrates in prostatic fluid; respiratory tract infection; Pneumocystis jirovecii pneumonia (treatment and prophylaxis); chancroid as a second-line option. Its use for typhoid has largely been dropped.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-general-027",
-      "type": "basic",
-      "front": "Why is cotrimoxazole avoided in pregnancy, and what can happen if it is given near term?",
-      "back": "Trimethoprim is a folate antagonist with a theoretical teratogenic risk, so it is avoided in pregnancy. Given near term it can cause neonatal haemolysis and methaemoglobinaemia.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p3-amr-general-028",
-      "type": "basic",
-      "front": "How do fluoroquinolones kill bacteria, and why do they spare the host?",
-      "back": "They inhibit DNA gyrase (the main target in gram-negative bacteria) and topoisomerase IV (main target in gram-positive bacteria), so the bacterium cannot relax and separate DNA and dies. Human cells rely on topoisomerase II, which binds these drugs poorly.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-quinolones",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-029",
-      "type": "shortnote",
-      "front": "Short note: Sulfonamides: mechanism, spectrum and resistance",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "PABA analogues",
-            "Block folate synthesis at the dihydropteroate step",
-            "Bacteriostatic; cidal only at high urinary levels"
-          ]
-        },
-        {
-          "h": "Spectrum",
-          "points": [
-            "Streptococcus pyogenes, H. influenzae, V. cholerae, chlamydiae, nocardia, actinomyces, toxoplasma",
-            "Most staphylococci, pneumococci and E. coli now resistant",
-            "Anaerobes not susceptible"
-          ]
-        },
-        {
-          "h": "Resistance",
-          "points": [
-            "Excess PABA, altered folate synthase, or use of preformed folate"
-          ]
-        },
-        {
-          "h": "Current use",
-          "points": [
-            "Systemic use alone is obsolete",
-            "Cotrimoxazole for infections",
-            "Sulfadoxine with pyrimethamine for malaria",
-            "Topical silver sulfadiazine or sulfacetamide eye drops"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-030",
-      "type": "shortnote",
-      "front": "Short note: Cotrimoxazole",
-      "sections": [
-        {
-          "h": "Composition",
-          "points": [
-            "Trimethoprim plus sulfamethoxazole",
-            "Dose ratio 1 to 5, giving about 20 to 1 in plasma",
-            "Similar half-lives, about 10 h"
-          ]
-        },
-        {
-          "h": "Spectrum",
-          "points": [
-            "Covers most sulfonamide-sensitive organisms plus Salmonella, Klebsiella, Enterobacter, Serratia, Yersinia, P. jirovecii"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Nausea, rash, stomatitis",
-            "Megaloblastic anaemia if folate is marginal",
-            "Marrow toxicity in elderly and in AIDS, where high-dose fever and rash are common",
-            "Thrombocytopenia with diuretics"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Avoid in pregnancy and near term",
-            "Reduce dose in moderate to severe renal failure"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-031",
-      "type": "shortnote",
-      "front": "Short note: Ciprofloxacin",
-      "sections": [
-        {
-          "h": "Spectrum",
-          "points": [
-            "Most potent first-generation fluoroquinolone",
-            "Strong against Enterobacteriaceae, Neisseria, H. influenzae, Salmonella, Shigella",
-            "Most active fluoroquinolone against Pseudomonas",
-            "Weaker against streptococci, staphylococci; anaerobes spared"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Oral, but food delays absorption",
-            "High urinary and biliary levels; good tissue penetration",
-            "Poor CSF and aqueous levels"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "GI upset, CNS effects, photosensitivity",
-            "Tendon rupture, most at risk over 60 or on steroids",
-            "Cartilage damage: caution in children",
-            "Avoid in pregnancy"
-          ]
-        },
-        {
-          "h": "Interactions",
-          "points": [
-            "Raises theophylline, caffeine and warfarin levels",
-            "NSAIDs add CNS toxicity and seizure risk",
-            "Antacids, iron and sucralfate reduce absorption"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-quinolones",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-032",
-      "type": "shortnote",
-      "front": "Short note: Fluoroquinolone generations and selected agents",
-      "sections": [
-        {
-          "h": "Generations",
-          "points": [
-            "First: one fluorine (ciprofloxacin prototype; norfloxacin least potent, urinary and gut use)",
-            "Second: difluorinated, extra gram-positive and atypical activity (levofloxacin, moxifloxacin, gemifloxacin)"
-          ]
-        },
-        {
-          "h": "Selected agents",
-          "points": [
-            "Moxifloxacin: most potent against M. tuberculosis; poor urinary levels, so not for UTI; avoid in liver disease",
-            "Sparfloxacin and lomefloxacin: phototoxicity and QT prolongation; withdrawn in some countries"
-          ]
-        },
-        {
-          "h": "Resistance",
-          "points": [
-            "Chromosomal gyrase or topoisomerase IV mutation",
-            "Reduced permeability or efflux; plasmid resistance is rare"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-quinolones",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-amr-general-033",
-      "type": "essay",
-      "front": "Essay: Fluoroquinolones: mechanism, spectrum and adverse effects",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "DNA gyrase and topoisomerase IV",
-            "Bactericidal; prolonged PAE in susceptible organisms",
-            "Low affinity for human topoisomerase II"
-          ]
-        },
-        {
-          "h": "Classification",
-          "points": [
-            "Nalidixic acid as the early quinolone",
-            "First generation: ciprofloxacin, norfloxacin, pefloxacin",
-            "Second generation: levofloxacin, moxifloxacin and others"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Good tissue, prostate and intracellular penetration",
-            "Ciprofloxacin reaches low CSF levels",
-            "Pefloxacin enters CSF well"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "GI, CNS, photosensitivity and rash",
-            "Tendon rupture, cartilage damage in children",
-            "QT prolongation with some agents",
-            "Contraindicated in pregnancy"
-          ]
-        },
-        {
-          "h": "Interactions and uses",
-          "points": [
-            "Theophylline, warfarin, NSAIDs, antacids",
-            "Uses: UTI, typhoid, bone and joint infection, MDR tuberculosis",
-            "Restrict use to limit resistance"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-quinolones",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-034",
-      "type": "essay",
-      "front": "Essay: Cotrimoxazole: mechanism, uses and adverse effects",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Sequential block of bacterial folate synthesis",
-            "Trimethoprim selective for bacterial DHFR",
-            "Static alone, often cidal together"
-          ]
-        },
-        {
-          "h": "Rationale for the ratio",
-          "points": [
-            "Similar half-lives",
-            "Dose ratio 1:5 gives plasma ratio near 1:20"
-          ]
-        },
-        {
-          "h": "Spectrum",
-          "points": [
-            "Overlaps sulfonamides; adds Salmonella, Klebsiella, Enterobacter, Serratia, P. jirovecii"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Recurrent UTI and prostatitis",
-            "Respiratory and ENT infection",
-            "Pneumocystis treatment (high dose) and prophylaxis",
-            "Chancroid as second line"
-          ]
-        },
-        {
-          "h": "Adverse effects and risk groups",
-          "points": [
-            "Rash, GI upset, marrow toxicity",
-            "Risk in elderly, AIDS and renal failure",
-            "Avoid in pregnancy and near term",
-            "Thrombocytopenia with diuretics"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "mechanism",
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-035",
-      "type": "cloze",
-      "front": "Complete: sulfonamide structure and cotrimoxazole ratio",
-      "text": "All sulfonamides derive from {{sulfanilamide}} and need a free {{para amino}} group for activity. Trimethoprim inhibits bacterial {{dihydrofolate reductase}}. A dose ratio of {{5:1}} (sulfamethoxazole to trimethoprim) gives a plasma ratio of about {{20:1}}.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-036",
-      "type": "cloze",
-      "front": "Complete: non-antibacterial uses of sulfonamides",
-      "text": "Sulfadoxine with {{pyrimethamine}} treats {{chloroquine-resistant falciparum malaria}}, {{Pneumocystis}} pneumonia in AIDS, and {{toxoplasmosis}}. Topical {{silver sulfadiazine}} is used to prevent infection in burns.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-sulfonamides",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-general-037",
-      "type": "cloze",
-      "front": "Classify: quinolone generations and prototypes",
-      "text": "{{Nalidixic acid}} is an early quinolone that inhibits DNA gyrase and is now used mainly for urinary infection. {{Ciprofloxacin}} is the prototype first-generation fluoroquinolone. {{Levofloxacin}} and {{moxifloxacin}} are second-generation agents with better gram-positive and atypical activity.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-quinolones",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-amr-general-038",
-      "type": "cloze",
-      "front": "Complete: fluoroquinolone safety and interactions",
-      "text": "Fluoroquinolones risk {{tendon rupture}}, especially over {{60}} years of age or with {{corticosteroids}}. They are {{contraindicated}} in pregnancy. Ciprofloxacin raises levels of {{theophylline}} and {{warfarin}}. {{Antacids}} and iron reduce their absorption.",
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-quinolones",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-039",
-      "type": "basic",
-      "front": "How do beta-lactams kill bacteria?",
-      "back": "They acylate the transpeptidases (penicillin-binding proteins) that cross-link peptidoglycan, so the cell wall cannot be properly built. Growing cells become wall-deficient, swell osmotically and lyse, helped by autolysins. Human cells make no peptidoglycan, which explains their low toxicity.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-040",
-      "type": "basic",
-      "front": "What are the three main ways bacteria resist penicillins?",
-      "back": "Beta-lactamase (penicillinase) that opens the lactam ring; altered penicillin-binding proteins, as in MRSA (PBP2a) and resistant pneumococci; and reduced entry through porins in gram-negative bacteria.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-041",
-      "type": "basic",
-      "front": "Why is penicillin G given parenterally, and what limits its duration?",
-      "back": "Gastric acid destroys it, so less than a third of an oral dose is absorbed. Renal tubular secretion clears it rapidly; the adult half-life is about 30 minutes. Probenecid blocks tubular secretion and prolongs levels.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p3-amr-general-042",
-      "type": "basic",
-      "front": "What are the serious toxic effects of high-dose penicillin G?",
-      "back": "It is among the least toxic antibiotics, but very large i.v. doses (above about 20 MU) can cause confusion, twitching, convulsions and coma, especially with renal failure. High doses also impair platelet function. Intrathecal use is not recommended. Accidental i.v. procaine penicillin causes CNS stimulation.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-043",
-      "type": "basic",
-      "front": "Name three infections for which penicillin G is still the drug of choice, and its role in diphtheria.",
-      "back": "Syphilis (all stages; benzathine penicillin for early and latent disease), leptospirosis, and streptococcal infections such as pharyngitis (with benzathine penicillin to prevent rheumatic fever recurrence). In diphtheria, antitoxin is the primary treatment; penicillin is only an adjunct, with procaine penicillin 1 to 2 MU daily for 10 days used to prevent the carrier state. Erythromycin is an alternative for both the acute illness and carriers, and some prefer it.",
-      "refs": [
-        "KDT8 ch52",
-        "KDT8 ch55"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-general-044",
-      "type": "basic",
-      "front": "How do procaine and benzathine penicillin G differ?",
-      "back": "Both are insoluble depot salts given deep i.m., never i.v. Procaine penicillin gives lower plasma levels that are sustained for 12 to 24 hours, with procaine-related toxicity. Benzathine releases penicillin very slowly, giving low but prophylactically useful levels for up to about 4 weeks.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p3-amr-general-045",
-      "type": "basic",
-      "front": "How common is penicillin hypersensitivity, and how severe can it be?",
-      "back": "About 1 to 10% of patients react. Penicillin G is the most commonly implicated drug. Procaine penicillin causes the most reactions since procaine is itself allergenic. Rash, urticaria and fever are common; anaphylaxis is rare (about 1 to 4 per 10,000) but can be fatal.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-046",
-      "type": "basic",
-      "front": "After an immediate-type penicillin reaction, what other drugs should be avoided?",
-      "back": "Other penicillins, because cross-sensitivity is partial. Cephalosporins are also generally avoided after an immediate reaction. If the earlier reaction was only a rash, a penicillin may be given cautiously. Hyposensitisation is used only when no alternative exists.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p3-amr-general-047",
-      "type": "basic",
-      "front": "Why is a negative penicillin skin test not reassuring, and which test is safer?",
-      "back": "A negative intradermal test does not exclude delayed hypersensitivity, and penicillin skin testing can itself trigger fatal anaphylaxis. Benzylpenicilloyl-polylysine is the safer test. Penicillin antibodies alone do not mean allergy, since almost everyone treated makes them.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-048",
-      "type": "basic",
-      "front": "How does clavulanic acid work, and which enzymes does it block?",
-      "back": "It is a suicide inhibitor: it binds beta-lactamase and is destroyed in the process, so the enzyme is inactivated. It blocks class II to V enzymes but not class I cephalosporinase. It has little antibacterial activity of its own and is combined with amoxicillin as co-amoxiclav.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-049",
-      "type": "basic",
-      "front": "Why does piperacillin with tazobactam fail against some Pseudomonas?",
-      "back": "Tazobactam does not inhibit the inducible chromosomal beta-lactamase of Pseudomonas and other Enterobacteriaceae, and it cannot reverse loss of drug permeability. Clavulanate and sulbactam share this limitation.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-050",
-      "type": "basic",
-      "front": "What defines fourth-generation cephalosporins, and name two.",
-      "back": "They keep high potency against Enterobacteriaceae with a third-generation-like spectrum, but resist hydrolysis by inducible chromosomal beta-lactamases. Examples: cefepime and cefpirome.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p3-amr-general-051",
-      "type": "basic",
-      "front": "What distinguishes fifth-generation cephalosporins?",
-      "back": "They are active against MRSA and penicillin-resistant pneumococci because they bind altered penicillin-binding proteins (such as PBP2a). Examples: ceftaroline fosamil and ceftobiprole medocaril. They are still vulnerable to some extended-spectrum beta-lactamases.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p3-amr-general-052",
-      "type": "basic",
-      "front": "What is aztreonam, and why is it useful in penicillin allergy?",
-      "back": "A monobactam with a narrow spectrum: it covers gram-negative enteric bacilli, H. influenzae and Pseudomonas, but not gram-positive cocci or anaerobes. It lacks cross-allergy with penicillins and cephalosporins, except ceftazidime, which shares a side chain with it.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-general-053",
-      "type": "shortnote",
-      "front": "Short note: Penicillin G",
-      "sections": [
-        {
-          "h": "Spectrum",
-          "points": [
-            "Narrow: streptococci, many pneumococci, meningococci, gonococci (now variable)",
-            "Clostridia, Listeria, anthrax, spirochetes",
-            "Not Staphylococcus aureus; not aerobic gram-negative bacilli; not Bacteroides fragilis"
-          ]
-        },
-        {
-          "h": "Resistance",
-          "points": [
-            "Penicillinase (inducible in staphylococci, constitutive in gram-negatives)",
-            "Altered penicillin-binding proteins",
-            "Reduced permeability in gonococci"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Acid labile: parenteral route",
-            "Adult half-life about 30 min; probenecid prolongs"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Irritancy at injection site; thrombophlebitis",
-            "Neurotoxicity at very high doses",
-            "Hypersensitivity is the main problem"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-054",
-      "type": "shortnote",
-      "front": "Short note: Aminopenicillins (ampicillin and amoxicillin)",
-      "sections": [
-        {
-          "h": "Spectrum",
-          "points": [
-            "Covers all penicillin G-sensitive organisms",
-            "Adds non-beta-lactamase-producing H. influenzae, E. coli, Proteus, Salmonella, Shigella, H. pylori",
-            "Enterococci and Listeria; not Pseudomonas or Bacteroides"
-          ]
-        },
-        {
-          "h": "Amoxicillin versus ampicillin",
-          "points": [
-            "Better oral absorption, food has no effect",
-            "Less diarrhoea; more active against penicillin-resistant pneumococci",
-            "Less active against Shigella and H. influenzae"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Gonorrhoea with probenecid",
-            "Biliary infection (ampicillin)",
-            "H. pylori eradication regimens (amoxicillin)",
-            "ANUG with metronidazole"
-          ]
-        },
-        {
-          "h": "Adverse effects and interactions",
-          "points": [
-            "Rash, more common in EBV, leukaemia, AIDS, and with allopurinol",
-            "Hydrocortisone inactivates ampicillin in i.v. fluid",
-            "May reduce oral contraceptive effect"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-general-055",
-      "type": "shortnote",
-      "front": "Short note: Beta-lactamase inhibitors",
-      "sections": [
-        {
-          "h": "Principle",
-          "points": [
-            "Inhibitors have little antibacterial activity of their own",
-            "Protect a partner beta-lactam from enzyme destruction"
-          ]
-        },
-        {
-          "h": "Clavulanate",
-          "points": [
-            "Suicide inhibitor; class II to V enzymes",
-            "Co-amoxiclav; oral bioavailability about 60%",
-            "GI intolerance and hepatic injury reported"
-          ]
-        },
-        {
-          "h": "Sulbactam",
-          "points": [
-            "Progressive inhibitor, similar to clavulanate",
-            "Ampicillin plus sulbactam; oral sultamicillin",
-            "Also inhibits N. gonorrhoeae"
-          ]
-        },
-        {
-          "h": "Tazobactam",
-          "points": [
-            "Partner for piperacillin; matched pharmacokinetics",
-            "Ceftriaxone and ceftazidime combinations also exist"
-          ]
-        },
-        {
-          "h": "Limitations",
-          "points": [
-            "None inhibit class I cephalosporinase",
-            "Do not block inducible chromosomal enzymes of Pseudomonas or Enterobacteriaceae"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-amr-general-056",
-      "type": "shortnote",
-      "front": "Short note: Third-generation cephalosporins",
-      "sections": [
-        {
-          "h": "Spectrum",
-          "points": [
-            "Strong against Enterobacteriaceae; resist gram-negative beta-lactamases",
-            "Weaker against gram-positive cocci; no B. fragilis except ceftizoxime",
-            "Ceftazidime alone is strong against Pseudomonas"
-          ]
-        },
-        {
-          "h": "Key agents",
-          "points": [
-            "Cefotaxime and ceftizoxime (parenteral)",
-            "Ceftriaxone: long half-life, once or twice daily",
-            "Ceftazidime: Pseudomonas and neutropenic fever",
-            "Cefoperazone: biliary excretion"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Gram-negative meningitis (CSF penetration)",
-            "Typhoid and PPNG gonorrhoea",
-            "Oral agents such as cefixime and cefpodoxime do not reach CSF"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Hypoprothrombinaemia with methylthiotetrazole side chain (cefoperazone, ceftriaxone)",
-            "Disulfiram-like reaction with cefoperazone",
-            "Neutropenia with ceftazidime"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-057",
-      "type": "shortnote",
-      "front": "Short note: Carbapenems",
-      "sections": [
-        {
-          "h": "Imipenem",
-          "points": [
-            "Very broad: gram-positive cocci, Enterobacteriaceae, Pseudomonas, anaerobes",
-            "Given with cilastatin, which blocks renal dehydropeptidase I",
-            "Seizure risk at high dose"
-          ]
-        },
-        {
-          "h": "Meropenem and doripenem",
-          "points": [
-            "Not hydrolysed by renal peptidase, so no cilastatin needed",
-            "Meropenem less likely to cause seizures",
-            "Doripenem more active against some resistant Pseudomonas"
-          ]
-        },
-        {
-          "h": "Ertapenem",
-          "points": [
-            "Once-daily dosing (half-life about 4 h)",
-            "Poor against Pseudomonas and Acinetobacter",
-            "Resistance via efflux or porin loss"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Nausea, diarrhoea, rash",
-            "Dose reduction in renal failure"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-058",
-      "type": "essay",
-      "front": "Essay: Penicillin allergy: mechanism, cross-reactivity and management",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Penicilloyl moiety acts as the hapten; minor determinants also exist",
-            "Antibodies are common; allergy is not the same as antibody presence",
-            "Course is unpredictable"
-          ]
-        },
-        {
-          "h": "Clinical spectrum",
-          "points": [
-            "Rash, itching, urticaria, fever",
-            "Angioedema, bronchospasm, serum sickness, exfoliative dermatitis",
-            "Anaphylaxis: rare but fatal"
-          ]
-        },
-        {
-          "h": "Cross-reactivity",
-          "points": [
-            "Partial among penicillins",
-            "About 10% cross-reaction with cephalosporins",
-            "Aztreonam generally safe; ceftazidime is the exception"
-          ]
-        },
-        {
-          "h": "Assessment",
-          "points": [
-            "Detailed history of reaction type",
-            "Benzylpenicilloyl-polylysine test is safer than intradermal penicillin",
-            "Negative test does not exclude delayed reaction"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Avoid all penicillins after an immediate reaction",
-            "Use a non-beta-lactam alternative",
-            "Cautious use only after a mild rash",
-            "Hyposensitisation only if no alternative"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "adr",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p3-amr-general-059",
-      "type": "essay",
-      "front": "Essay: Cephalosporins: classification and clinical use by generation",
-      "sections": [
-        {
-          "h": "Basis of classification",
-          "points": [
-            "Spectrum and potency",
-            "Resistance to beta-lactamases",
-            "Pharmacokinetics: oral versus parenteral"
-          ]
-        },
-        {
-          "h": "First and second generation",
-          "points": [
-            "Cefazolin: gram-positive, surgical prophylaxis",
-            "Cephalexin and cefadroxil: oral",
-            "Cefuroxime and cefaclor: gram-negative extension"
-          ]
-        },
-        {
-          "h": "Third generation",
-          "points": [
-            "Cefotaxime, ceftriaxone, ceftazidime, cefoperazone",
-            "Meningitis, typhoid, neutropenic fever",
-            "Oral cefixime and cefpodoxime"
-          ]
-        },
-        {
-          "h": "Fourth and fifth generation",
-          "points": [
-            "Cefepime and cefpirome resist inducible beta-lactamases",
-            "Ceftaroline and ceftobiprole active against MRSA"
-          ]
-        },
-        {
-          "h": "Adverse effects and uses",
-          "points": [
-            "Rash, anaphylaxis, neutropenia, bleeding with MTT side chain",
-            "Gram-negative infection, prophylaxis, hospital-acquired infection"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2023,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "classification",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-amr-general-060",
-      "type": "essay",
-      "front": "Essay: Carbapenems and monobactams: spectrum and place in therapy",
-      "sections": [
-        {
-          "h": "Carbapenems",
-          "points": [
-            "Imipenem with cilastatin; meropenem; ertapenem; doripenem; faropenem (oral)",
-            "Very broad spectrum and beta-lactamase stability"
-          ]
-        },
-        {
-          "h": "Monobactam",
-          "points": [
-            "Aztreonam: gram-negative only",
-            "Binds specific PBPs; no cross-allergy with penicillins"
-          ]
-        },
-        {
-          "h": "Resistance",
-          "points": [
-            "Efflux and porin loss",
-            "Carbapenems such as ertapenem are effective against extended-spectrum beta-lactamase (ESBL) producers"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Seizures with imipenem",
-            "Diarrhoea, rash, phlebitis"
-          ]
-        },
-        {
-          "h": "Clinical place",
-          "points": [
-            "Hospital-acquired and resistant infection",
-            "Febrile neutropenia",
-            "Reserve drugs to limit resistance"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "newer-drugs",
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-061",
-      "type": "cloze",
-      "front": "Complete: penicillin G properties",
-      "text": "Penicillin G is {{acid labile}}, has an adult plasma half-life of about {{30 minutes}}, and its renal excretion is blocked by {{probenecid}}. Its main resistance mechanism is {{penicillinase}} production.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p3-amr-general-062",
-      "type": "cloze",
-      "front": "Classify: penicillin types",
-      "text": "Acid-resistant oral penicillin: {{penicillin V}}. Penicillinase-resistant: {{cloxacillin}} and {{dicloxacillin}}. Aminopenicillins: {{ampicillin}} and {{amoxicillin}}. Carboxypenicillin: {{ticarcillin}}. Ureidopenicillin: {{piperacillin}}.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-amr-general-063",
-      "type": "cloze",
-      "front": "Classify: cephalosporin generations with examples",
-      "text": "First generation: {{cefazolin}} (parenteral) and {{cephalexin}} (oral). Third generation with Pseudomonas activity: {{ceftazidime}}. Fourth generation, resistant to inducible beta-lactamases: {{cefepime}}. Fifth generation with MRSA activity: {{ceftaroline}}.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-amr-general-064",
-      "type": "cloze",
-      "front": "Complete: carbapenem and monobactam facts",
-      "text": "Imipenem is given with {{cilastatin}} to block {{dehydropeptidase I}} in the renal tubule, and it causes {{seizures}} more often than meropenem. {{Aztreonam}}, a monobactam, is generally safe in penicillin allergy; the exception to cross-sensitivity is {{ceftazidime}}.",
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-amr-general-065",
-      "type": "shortnote",
-      "front": "Short note: Streptogramins",
-      "sections": [
-        {
-          "h": "Composition",
-          "points": [
-            "Quinupristin/dalfopristin: combination of two semisynthetic streptogramins in a 30:70 ratio"
-          ]
-        },
-        {
-          "h": "Action",
-          "points": [
-            "Together they exert a rapid bactericidal action (as stated in KDT8)"
-          ]
-        },
-        {
-          "h": "Adverse",
-          "points": [
-            "Single dose: pain at injection site, chills, fever, urticaria",
-            "Repeated doses: anaemia, renal and hepatic impairment"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p819"
-      ],
-      "subtopic": "p3-amr-general-classification",
-      "tags": [
-        "mechanism"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-amr-general-066",
-      "type": "shortnote",
-      "front": "Short note: Anti-pseudomonal agents",
-      "sections": [
-        {
-          "h": "Infections",
-          "points": [
-            "Pseudomonas causes urinary tract infection and enteritis"
-          ]
-        },
-        {
-          "h": "Drugs",
-          "points": [
-            "Ticarcillin, piperacillin, ceftazidime, cefoperazone, or gentamicin"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p756"
-      ],
-      "subtopic": "p3-amr-general-penicillins",
-      "tags": [
-        "uses"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2006,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2007,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2024,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 20
-        },
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2016,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-amr-general-067",
-      "type": "basic",
-      "subtopic": "p3-amr-general-classification",
-      "front": "Why is a bactericidal drug preferred when host defences are impaired or a carrier state is possible?",
-      "back": "Impaired defences cannot clear an infection that a static drug only holds in check, so the organism must be killed; the same applies to life-threatening infections, SABE and carriers (e.g. typhoid).",
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "tags": [
-        "classification"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-amr-general-068",
-      "type": "shortnote",
-      "subtopic": "p3-amr-general-classification",
-      "front": "Short note: Failure of antimicrobial therapy",
-      "sections": [
-        {
-          "h": "Dose, timing and compliance",
-          "points": [
-            "Dose too low or duration too short",
-            "Treatment started too late",
-            "Patient non-compliance"
-          ]
-        },
-        {
-          "h": "Missing adjuvant measures",
-          "points": [
-            "Abscess, empyema or infected stones/foreign body not drained or removed",
-            "Urinary pH not corrected where needed"
-          ]
-        },
-        {
-          "h": "Host and site",
-          "points": [
-            "Poor host defence (leukaemia, neutropenia), worse with a static drug",
-            "Organism behind barriers: valve vegetation, eyeball, blood-brain barrier"
-          ]
-        },
-        {
-          "h": "Wrong target",
-          "points": [
-            "Antibiotic given for a viral infection or non-infective fever"
-          ]
-        },
-        {
-          "h": "Persisters",
-          "points": [
-            "Dormant or altered organisms survive and cause relapse"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "tags": [
-        "classification"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-amr-general-069",
-      "type": "basic",
-      "subtopic": "p3-amr-general-resistance",
-      "front": "What are 'persisters', and why do they cause relapse?",
-      "back": "Dormant or altered bacteria that survive antimicrobial treatment and later regrow, so an infection returns after apparently successful therapy.",
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "tags": [
-        "mechanism"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-amr-general-070",
-      "type": "basic",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
-      "front": "Why is general (non-specific) antimicrobial prophylaxis condemned?",
-      "back": "It cannot prevent all infections, exposes the patient to resistant organisms and fungal or other superinfections; examples are neonates after difficult delivery, postpartum mothers, viral URTI and unconscious or ventilated patients.",
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "tags": [
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-amr-general-071",
-      "type": "basic",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
-      "front": "Why must the surgical antibiotic peak coincide with clot formation?",
-      "back": "Bacteria settle in the forming clot during surgery, so blood levels must be highest then and the drug is stopped once bacteria no longer have access to the wound. A relatively high dose giving peaks several times the MIC of likely pathogens is chosen.",
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "tags": [
-        "dosing"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-amr-general-072",
-      "type": "shortnote",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
-      "front": "Short note: Three categories of antimicrobial prophylaxis",
-      "sections": [
-        {
-          "h": "Against a specific organism",
-          "points": [
-            "Targeted and clear-cut",
-            "Benzathine penicillin: rheumatic fever recurrence",
-            "Isoniazid for 6 months: TB contacts",
-            "Azithromycin or clarithromycin: MAC with low CD4",
-            "Rifampin, ciprofloxacin or ceftriaxone: meningococcal contacts"
-          ]
-        },
-        {
-          "h": "High-risk situations (controversial)",
-          "points": [
-            "Dental extraction or endoscopy in valvular disease",
-            "Urinary catheterisation: cotrimoxazole or norfloxacin",
-            "Neutropenic patients: penicillin or cephalosporin plus aminoglycoside or fluoroquinolone, but superinfection is common"
-          ]
-        },
-        {
-          "h": "General prophylaxis (condemned)",
-          "points": [
-            "Neonates after difficult delivery, postpartum mothers, viral URTI, unconscious or ventilated patients"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch50"
-      ],
-      "tags": [
-        "classification"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "type": "shortnote",
-      "subtopic": "p3-amr-general-penicillins",
-      "front": "Short note: Penicillin G preparations",
-      "sections": [
-        {
-          "h": "Crystalline sodium penicillin G",
-          "points": [
-            "0.5 to 5 MU i.m. or i.v. every 6 to 12 hours",
-            "Dry powder dissolved at time of use"
-          ]
-        },
-        {
-          "h": "Procaine penicillin G",
-          "points": [
-            "0.5 to 1 MU i.m. every 12 to 24 hours",
-            "Lower plasma levels sustained for 12 to 24 hours"
-          ]
-        },
-        {
-          "h": "Benzathine penicillin G",
-          "points": [
-            "0.6 to 2.4 MU i.m. every 2 to 4 weeks",
-            "Very low levels, still effective for prophylaxis"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "tags": [
-        "dosing"
-      ],
-      "id": "p3-amr-general-073",
-      "status": "draft",
-      "pyq": []
-    },
-    {
-      "type": "shortnote",
-      "subtopic": "p3-amr-general-quinolones",
-      "front": "Short note: Ciprofloxacin, site-wise uses",
-      "sections": [
-        {
-          "h": "Enteric fever",
-          "points": [
-            "Quick defervescence and carrier prevention",
-            "Typhoid carriers: 750 mg BD for 4 to 8 weeks"
-          ]
-        },
-        {
-          "h": "Bone, soft tissue and wounds",
-          "points": [
-            "Resistant staphylococci and gram-negatives respond",
-            "High cure in osteomyelitis"
-          ]
-        },
-        {
-          "h": "Limited or reserved uses",
-          "points": [
-            "Not primary drug for pneumonia (pneumococci and streptococci)",
-            "Gonorrhoea: no longer dependable",
-            "Chancroid: second-line 500 mg BD for 3 days"
-          ]
-        },
-        {
-          "h": "Meningitis",
-          "points": [
-            "Gram-negative meningitis, especially in immunocompromised patients"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "tags": [
-        "uses"
-      ],
-      "id": "p3-amr-general-074",
-      "status": "draft",
-      "pyq": []
-    },
-    {
-      "type": "shortnote",
-      "subtopic": "p3-amr-general-adr-prophylaxis",
-      "front": "Short note: Typhoid: current antibiotic choice",
-      "sections": [
-        {
-          "h": "First choice",
-          "points": [
-            "Ceftriaxone: most reliable, fastest acting bactericidal drug",
-            "Ciprofloxacin 750 mg BD"
-          ]
-        },
-        {
-          "h": "Alternatives",
-          "points": [
-            "Ofloxacin 400 mg BD; levofloxacin 500 mg OD or BD",
-            "Azithromycin 500 mg OD for 7 days: second line in MDR typhoid"
-          ]
-        },
-        {
-          "h": "Now unreliable",
-          "points": [
-            "Chloramphenicol: most strains resistant",
-            "Cotrimoxazole: rarely used after plasmid-mediated resistance spread"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch51"
-      ],
-      "tags": [
-        "uses"
-      ],
-      "id": "p3-amr-general-075",
-      "status": "draft",
-      "pyq": []
-    },
-    {
-      "type": "shortnote",
-      "subtopic": "p3-amr-general-cephalosporins",
-      "front": "Short note: Adverse effects of cephalosporins",
-      "sections": [
-        {
-          "h": "Local",
-          "points": [
-            "Pain after i.m. injection with many agents",
-            "Thrombophlebitis with i.v. infusion"
-          ]
-        },
-        {
-          "h": "Hypersensitivity",
-          "points": [
-            "About 10% cross-reactivity in penicillin-allergic patients",
-            "Skin test unreliable"
-          ]
-        },
-        {
-          "h": "Organ and blood effects",
-          "points": [
-            "Low-grade nephrotoxicity, worse with aminoglycosides or loop diuretics",
-            "Hypoprothrombinaemia and bleeding (methylthiotetrazole side chain)",
-            "Neutropenia and thrombocytopenia rare (ceftazidime)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch52"
-      ],
-      "tags": [
-        "adr"
-      ],
-      "id": "p3-amr-general-076",
-      "status": "draft",
-      "pyq": []
+      "level": 3
     },
     {
       "type": "essay",
@@ -2206,6 +719,2286 @@
         }
       ],
       "id": "p3-amr-general-077",
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-002",
+      "type": "basic",
+      "front": "When should surgical prophylaxis be given, and when should it stop?",
+      "back": "Give it so that effective tissue levels are present at incision and throughout the procedure: oral agents about 1 hour before, IV agents just before or at induction (GG14: IV within 60 minutes before incision), with a repeat IV dose in long operations. Keep it short. Giving it more than 4 hours after wound closure is justified only for contaminated and dirty surgery, for up to 5 days.",
+      "refs": [
+        "KDT8 ch50",
+        "GG14 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-004",
+      "type": "basic",
+      "front": "Which four antimicrobial groups are most often implicated in hypersensitivity?",
+      "back": "Penicillins, cephalosporins, sulfonamides and fluoroquinolones. The reactions are unpredictable, not dose related, and range from rash to anaphylaxis.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-005",
+      "type": "basic",
+      "front": "What is meant by a low therapeutic index, and which agents have very low indices?",
+      "back": "The margin between effective and toxic dose is narrow, so dosing must be individualised and monitored. Polymyxin B and amphotericin B have very low indices, so they are reserved for cases with no alternative. Aminoglycosides, vancomycin, tetracyclines and chloramphenicol have lower margins than penicillins or erythromycin.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-019",
+      "type": "cloze",
+      "front": "Complete: superinfection organisms and treatment",
+      "text": "Candida albicans causes {{monilial diarrhoea and thrush}}, treated with {{nystatin}} or clotrimazole. {{Clostridium difficile}} causes pseudomembranous enterocolitis after clindamycin, tetracyclines, ampicillin and other drugs; KDT lists metronidazole or vancomycin, while GG14 now prefers oral {{vancomycin}} or {{fidaxomicin}}.",
+      "refs": [
+        "KDT8 ch50",
+        "GG14 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-020",
+      "type": "cloze",
+      "front": "Complete: specific prophylaxis indications",
+      "text": "Recurrence of rheumatic fever is prevented with {{benzathine penicillin}}. Tuberculosis contacts are protected with {{isoniazid}} for 6 months. Pneumocystis prophylaxis in AIDS or transplant patients uses {{cotrimoxazole}}. Dental extraction in valvular heart disease is covered with {{amoxicillin}} or clindamycin.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-070",
+      "type": "basic",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "front": "Why is general (non-specific) antimicrobial prophylaxis condemned?",
+      "back": "It cannot prevent all infections, exposes the patient to resistant organisms and fungal or other superinfections; examples are neonates after difficult delivery, postpartum mothers, viral URTI and unconscious or ventilated patients.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "tags": [
+        "adr"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-013",
+      "type": "shortnote",
+      "front": "Short note: Superinfection",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "New infection arising during antimicrobial therapy"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Normal flora suppressed, losing bacteriocin production and competition for nutrients",
+            "Non-pathogenic flora such as Candida then overgrows"
+          ]
+        },
+        {
+          "h": "Risk factors",
+          "points": [
+            "Broad-spectrum or combined drugs",
+            "Corticosteroids, cytotoxics, agranulocytosis, AIDS, diabetes, old age"
+          ]
+        },
+        {
+          "h": "Organisms and treatment",
+          "points": [
+            "Candida: nystatin or clotrimazole",
+            "C. difficile: KDT lists metronidazole or vancomycin; GG14: oral vancomycin or fidaxomicin are now preferred, metronidazole only for nonsevere disease",
+            "Resistant staphylococci, Proteus and Pseudomonas: choose by sensitivity (e.g. ceftazidime or gentamicin for Pseudomonas)"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Narrow-spectrum drug when possible",
+            "Avoid treating viral or trivial infections",
+            "Keep courses short"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch50",
+        "GG14 ch57"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-071",
+      "type": "basic",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "front": "Why must the surgical antibiotic peak coincide with clot formation?",
+      "back": "Bacteria settle in the forming clot during surgery, so blood levels must be highest then and the drug is stopped once bacteria no longer have access to the wound. A relatively high dose giving peaks several times the MIC of likely pathogens is chosen.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "tags": [
+        "dosing"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-072",
+      "type": "shortnote",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "front": "Short note: Three categories of antimicrobial prophylaxis",
+      "sections": [
+        {
+          "h": "Against a specific organism",
+          "points": [
+            "Targeted and clear-cut",
+            "Benzathine penicillin: rheumatic fever recurrence",
+            "Isoniazid for 6 months: TB contacts",
+            "Azithromycin or clarithromycin: MAC with low CD4",
+            "Rifampin, ciprofloxacin or ceftriaxone: meningococcal contacts"
+          ]
+        },
+        {
+          "h": "High-risk situations (controversial)",
+          "points": [
+            "Dental extraction or endoscopy in valvular disease",
+            "Urinary catheterisation: cotrimoxazole or norfloxacin",
+            "Neutropenic patients: penicillin or cephalosporin plus aminoglycoside or fluoroquinolone, but superinfection is common"
+          ]
+        },
+        {
+          "h": "General prophylaxis (condemned)",
+          "points": [
+            "Neonates after difficult delivery, postpartum mothers, viral URTI, unconscious or ventilated patients"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "tags": [
+        "classification"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-amr-general-adr-prophylaxis",
+      "front": "Short note: Typhoid: current antibiotic choice",
+      "sections": [
+        {
+          "h": "First choice",
+          "points": [
+            "Ceftriaxone: most reliable, fastest acting bactericidal drug",
+            "Ciprofloxacin 750 mg BD"
+          ]
+        },
+        {
+          "h": "Alternatives",
+          "points": [
+            "Ofloxacin 400 mg BD; levofloxacin 500 mg OD or BD",
+            "Azithromycin 500 mg OD for 7 days: second line in MDR typhoid"
+          ]
+        },
+        {
+          "h": "Now unreliable",
+          "points": [
+            "Chloramphenicol: most strains resistant",
+            "Cotrimoxazole: rarely used after plasmid-mediated resistance spread"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "tags": [
+        "uses"
+      ],
+      "id": "p3-amr-general-075",
+      "status": "draft",
+      "pyq": [],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-021",
+      "type": "basic",
+      "front": "How do sulfonamides stop bacterial growth, and why are human cells spared?",
+      "back": "Sulfonamides resemble PABA and competitively block dihydropteroate synthase, so the bacterium cannot make folate. Human cells take preformed folate from the diet and are unaffected. Excess PABA reverses the effect.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-022",
+      "type": "basic",
+      "front": "Name three bacterial routes to sulfonamide resistance.",
+      "back": "Increased PABA production; a folate synthase with low affinity for sulfonamides; or an alternative pathway that uses preformed folate taken up from the medium. Resistance to one sulfonamide usually means resistance to all of them.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-029",
+      "type": "shortnote",
+      "front": "Short note: Sulfonamides: mechanism, spectrum and resistance",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "PABA analogues",
+            "Block folate synthesis at the dihydropteroate step",
+            "Bacteriostatic; cidal only at high urinary levels"
+          ]
+        },
+        {
+          "h": "Spectrum",
+          "points": [
+            "Streptococcus pyogenes, H. influenzae, V. cholerae, chlamydiae, nocardia, actinomyces, toxoplasma",
+            "Most staphylococci, pneumococci and E. coli now resistant",
+            "Anaerobes not susceptible"
+          ]
+        },
+        {
+          "h": "Resistance",
+          "points": [
+            "Excess PABA, altered folate synthase, or use of preformed folate"
+          ]
+        },
+        {
+          "h": "Current use",
+          "points": [
+            "Systemic use alone is obsolete",
+            "Cotrimoxazole for infections",
+            "Sulfadoxine with pyrimethamine for malaria",
+            "Topical silver sulfadiazine or sulfacetamide eye drops"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-035",
+      "type": "cloze",
+      "front": "Complete: sulfonamide structure and cotrimoxazole ratio",
+      "text": "All sulfonamides derive from {{sulfanilamide}} and need a free {{para amino}} group for activity. Trimethoprim inhibits bacterial {{dihydrofolate reductase}}. A dose ratio of {{5:1}} (sulfamethoxazole to trimethoprim) gives a plasma ratio of about {{20:1}}.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-036",
+      "type": "cloze",
+      "front": "Complete: non-antibacterial uses of sulfonamides",
+      "text": "Sulfadoxine with {{pyrimethamine}} treats {{chloroquine-resistant falciparum malaria}}, {{Pneumocystis}} pneumonia in AIDS, and {{toxoplasmosis}}. Topical {{silver sulfadiazine}} is used to prevent infection in burns.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-023",
+      "type": "basic",
+      "front": "What causes sulfonamide crystalluria, and how is it prevented?",
+      "back": "The acetylated metabolite is less soluble than the parent drug, especially in acidic urine, so it can precipitate. Prevent it with high fluid intake and alkalinised urine. It is now infrequent.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-024",
+      "type": "basic",
+      "front": "Why are sulfonamides avoided in neonates, and which patients risk haemolysis?",
+      "back": "They displace bilirubin from albumin, and the neonatal blood brain barrier is more permeable, so kernicterus can follow. Haemolysis occurs with high doses in G6PD-deficient people.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-025",
+      "type": "basic",
+      "front": "What is the logic of combining trimethoprim with sulfamethoxazole?",
+      "back": "It is a sequential block of folate synthesis: sulfamethoxazole blocks an early step and trimethoprim blocks bacterial dihydrofolate reductase. Each alone is static, but together they are often cidal. Trimethoprim is far more potent against the bacterial enzyme than the human one.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-026",
+      "type": "basic",
+      "front": "What are the main current uses of cotrimoxazole?",
+      "back": "Uncomplicated and recurrent urinary tract infection, including prostatitis because trimethoprim concentrates in prostatic fluid; respiratory tract infection; Pneumocystis jirovecii pneumonia (treatment and prophylaxis); chancroid as a second-line option. Its use for typhoid has largely been dropped.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-027",
+      "type": "basic",
+      "front": "Why is cotrimoxazole avoided in pregnancy, and what can happen if it is given near term?",
+      "back": "Trimethoprim is a folate antagonist with a theoretical teratogenic risk, so it is avoided in pregnancy. Given near term it can cause neonatal haemolysis and methaemoglobinaemia.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-030",
+      "type": "shortnote",
+      "front": "Short note: Cotrimoxazole",
+      "sections": [
+        {
+          "h": "Composition",
+          "points": [
+            "Trimethoprim plus sulfamethoxazole",
+            "Dose ratio 1 to 5, giving about 20 to 1 in plasma",
+            "Similar half-lives, about 10 h"
+          ]
+        },
+        {
+          "h": "Spectrum",
+          "points": [
+            "Covers most sulfonamide-sensitive organisms plus Salmonella, Klebsiella, Enterobacter, Serratia, Yersinia, P. jirovecii"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Nausea, rash, stomatitis",
+            "Megaloblastic anaemia if folate is marginal",
+            "Marrow toxicity in elderly and in AIDS, where high-dose fever and rash are common",
+            "Thrombocytopenia with diuretics"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Avoid in pregnancy and near term",
+            "Reduce dose in moderate to severe renal failure"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-034",
+      "type": "essay",
+      "front": "Essay: Cotrimoxazole: mechanism, uses and adverse effects",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Sequential block of bacterial folate synthesis",
+            "Trimethoprim selective for bacterial DHFR",
+            "Static alone, often cidal together"
+          ]
+        },
+        {
+          "h": "Rationale for the ratio",
+          "points": [
+            "Similar half-lives",
+            "Dose ratio 1:5 gives plasma ratio near 1:20"
+          ]
+        },
+        {
+          "h": "Spectrum",
+          "points": [
+            "Overlaps sulfonamides; adds Salmonella, Klebsiella, Enterobacter, Serratia, P. jirovecii"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Recurrent UTI and prostatitis",
+            "Respiratory and ENT infection",
+            "Pneumocystis treatment (high dose) and prophylaxis",
+            "Chancroid as second line"
+          ]
+        },
+        {
+          "h": "Adverse effects and risk groups",
+          "points": [
+            "Rash, GI upset, marrow toxicity",
+            "Risk in elderly, AIDS and renal failure",
+            "Avoid in pregnancy and near term",
+            "Thrombocytopenia with diuretics"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-028",
+      "type": "basic",
+      "front": "How do fluoroquinolones kill bacteria, and why do they spare the host?",
+      "back": "They inhibit DNA gyrase (the main target in gram-negative bacteria) and topoisomerase IV (main target in gram-positive bacteria), so the bacterium cannot relax and separate DNA and dies. Human cells rely on topoisomerase II, which binds these drugs poorly.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-037",
+      "type": "cloze",
+      "front": "Classify: quinolone generations and prototypes",
+      "text": "{{Nalidixic acid}} is an early quinolone that inhibits DNA gyrase and is now used mainly for urinary infection. {{Ciprofloxacin}} is the prototype first-generation fluoroquinolone. {{Levofloxacin}} and {{moxifloxacin}} are second-generation agents with better gram-positive and atypical activity.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-081",
+      "type": "basic",
+      "front": "What is nalidixic acid and why is it used only for urine and gut infections?",
+      "back": "It is the first quinolone, a bactericidal DNA gyrase inhibitor active against coliforms (E. coli, Proteus, Klebsiella, Enterobacter, Shigella) but not Pseudomonas. Free drug levels in plasma are non-therapeutic for systemic infection, but urine levels are 20 to 50 times higher and gut levels high, so it suits UTI and diarrhoea.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-082",
+      "type": "basic",
+      "front": "What are the main adverse effects of nalidixic acid?",
+      "back": "Uncommon GI upset and rash; the key toxicity is neurological (headache, drowsiness, vertigo, visual disturbance, seizures especially in children). Haemolysis occurs in G6PD deficiency, and it is contraindicated in infants.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-031",
+      "type": "shortnote",
+      "front": "Short note: Ciprofloxacin",
+      "sections": [
+        {
+          "h": "Spectrum",
+          "points": [
+            "Most potent first-generation fluoroquinolone",
+            "Strong against Enterobacteriaceae, Neisseria, H. influenzae, Salmonella, Shigella",
+            "Most active fluoroquinolone against Pseudomonas",
+            "Weaker against streptococci, staphylococci; anaerobes spared"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Oral, but food delays absorption",
+            "High urinary and biliary levels; good tissue penetration",
+            "Poor CSF and aqueous levels"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "GI upset, CNS effects, photosensitivity",
+            "Tendon rupture, most at risk over 60 or on steroids",
+            "Cartilage damage: caution in children",
+            "Avoid in pregnancy"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Raises theophylline, caffeine and warfarin levels",
+            "NSAIDs add CNS toxicity and seizure risk",
+            "Antacids, iron and sucralfate reduce absorption"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-032",
+      "type": "shortnote",
+      "front": "Short note: Fluoroquinolone generations and selected agents",
+      "sections": [
+        {
+          "h": "Generations",
+          "points": [
+            "First: one fluorine (ciprofloxacin prototype; norfloxacin least potent, urinary and gut use)",
+            "Second: difluorinated, extra gram-positive and atypical activity (levofloxacin, moxifloxacin, gemifloxacin)"
+          ]
+        },
+        {
+          "h": "Selected agents",
+          "points": [
+            "Moxifloxacin: most potent against M. tuberculosis; poor urinary levels, so not for UTI; avoid in liver disease",
+            "Sparfloxacin and lomefloxacin: phototoxicity and QT prolongation; withdrawn in some countries"
+          ]
+        },
+        {
+          "h": "Resistance",
+          "points": [
+            "Chromosomal gyrase or topoisomerase IV mutation",
+            "Reduced permeability or efflux; plasmid resistance is rare"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-038",
+      "type": "cloze",
+      "front": "Complete: fluoroquinolone safety and interactions",
+      "text": "Fluoroquinolones risk {{tendon rupture}}, especially over {{60}} years of age or with {{corticosteroids}}. They are {{contraindicated}} in pregnancy. Ciprofloxacin raises levels of {{theophylline}} and {{warfarin}}. {{Antacids}} and iron reduce their absorption.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-amr-general-quinolones",
+      "front": "Short note: Ciprofloxacin, site-wise uses",
+      "sections": [
+        {
+          "h": "Enteric fever",
+          "points": [
+            "Quick defervescence and carrier prevention",
+            "Typhoid carriers: 750 mg BD for 4 to 8 weeks"
+          ]
+        },
+        {
+          "h": "Bone, soft tissue and wounds",
+          "points": [
+            "Resistant staphylococci and gram-negatives respond",
+            "High cure in osteomyelitis"
+          ]
+        },
+        {
+          "h": "Limited or reserved uses",
+          "points": [
+            "Not primary drug for pneumonia (pneumococci and streptococci)",
+            "Gonorrhoea: no longer dependable",
+            "Chancroid: second-line 500 mg BD for 3 days"
+          ]
+        },
+        {
+          "h": "Meningitis",
+          "points": [
+            "Gram-negative meningitis, especially in immunocompromised patients"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "tags": [
+        "uses"
+      ],
+      "id": "p3-amr-general-074",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-083",
+      "type": "basic",
+      "front": "Why has resistance to fluoroquinolones been slow to emerge compared with nalidixic acid?",
+      "back": "Nalidixic acid selects single-step resistant mutants at high frequency; FQ-resistant mutants are not easily selected and transferable plasmid resistance is unlikely given their mechanism. Resistance arises from chromosomal mutation of gyrase or topoisomerase IV with lower affinity, or reduced permeability and efflux. Resistance is rising in Salmonella, Pseudomonas, staphylococci, gonococci and pneumococci.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-033",
+      "type": "essay",
+      "front": "Essay: Fluoroquinolones: mechanism, spectrum and adverse effects",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "DNA gyrase and topoisomerase IV",
+            "Bactericidal; prolonged PAE in susceptible organisms",
+            "Low affinity for human topoisomerase II"
+          ]
+        },
+        {
+          "h": "Classification",
+          "points": [
+            "Nalidixic acid as the early quinolone",
+            "First generation: ciprofloxacin, norfloxacin, pefloxacin",
+            "Second generation: levofloxacin, moxifloxacin and others"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Good tissue, prostate and intracellular penetration",
+            "Ciprofloxacin reaches low CSF levels",
+            "Pefloxacin enters CSF well"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "GI, CNS, photosensitivity and rash",
+            "Tendon rupture, cartilage damage in children",
+            "QT prolongation with some agents",
+            "Contraindicated in pregnancy"
+          ]
+        },
+        {
+          "h": "Interactions and uses",
+          "points": [
+            "Theophylline, warfarin, NSAIDs, antacids",
+            "Uses: UTI, typhoid, bone and joint infection, MDR tuberculosis",
+            "Restrict use to limit resistance"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-039",
+      "type": "basic",
+      "front": "How do beta-lactams kill bacteria?",
+      "back": "They acylate the transpeptidases (penicillin-binding proteins) that cross-link peptidoglycan, so the cell wall cannot be properly built. Growing cells become wall-deficient, swell osmotically and lyse, helped by autolysins. Human cells make no peptidoglycan, which explains their low toxicity.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-040",
+      "type": "basic",
+      "front": "What are the three main ways bacteria resist penicillins?",
+      "back": "Beta-lactamase (penicillinase) that opens the lactam ring; altered penicillin-binding proteins, as in MRSA (PBP2a) and resistant pneumococci; and reduced entry through porins in gram-negative bacteria.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-041",
+      "type": "basic",
+      "front": "Why is penicillin G given parenterally, and what limits its duration?",
+      "back": "Gastric acid destroys it, so less than a third of an oral dose is absorbed. Renal tubular secretion clears it rapidly; the adult half-life is about 30 minutes. Probenecid blocks tubular secretion and prolongs levels.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-053",
+      "type": "shortnote",
+      "front": "Short note: Penicillin G",
+      "sections": [
+        {
+          "h": "Spectrum",
+          "points": [
+            "Narrow: streptococci, many pneumococci, meningococci, gonococci (now variable)",
+            "Clostridia, Listeria, anthrax, spirochetes",
+            "Not Staphylococcus aureus; not aerobic gram-negative bacilli; not Bacteroides fragilis"
+          ]
+        },
+        {
+          "h": "Resistance",
+          "points": [
+            "Penicillinase (inducible in staphylococci, constitutive in gram-negatives)",
+            "Altered penicillin-binding proteins",
+            "Reduced permeability in gonococci"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Acid labile: parenteral route",
+            "Adult half-life about 30 min; probenecid prolongs"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Irritancy at injection site; thrombophlebitis",
+            "Neurotoxicity at very high doses",
+            "Hypersensitivity is the main problem"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-061",
+      "type": "cloze",
+      "front": "Complete: penicillin G properties",
+      "text": "Penicillin G is {{acid labile}}, has an adult plasma half-life of about {{30 minutes}}, and its renal excretion is blocked by {{probenecid}}. Its main resistance mechanism is {{penicillinase}} production.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-062",
+      "type": "cloze",
+      "front": "Classify: penicillin types",
+      "text": "Acid-resistant oral penicillin: {{penicillin V}}. Penicillinase-resistant: {{cloxacillin}} and {{dicloxacillin}}. Aminopenicillins: {{ampicillin}} and {{amoxicillin}}. Carboxypenicillin: {{ticarcillin}}. Ureidopenicillin: {{piperacillin}}.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-042",
+      "type": "basic",
+      "front": "What are the serious toxic effects of high-dose penicillin G?",
+      "back": "It is among the least toxic antibiotics, but very large i.v. doses (above about 20 MU) can cause confusion, twitching, convulsions and coma, especially with renal failure. High doses also impair platelet function. Intrathecal use is not recommended. Accidental i.v. procaine penicillin causes CNS stimulation.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-043",
+      "type": "basic",
+      "front": "Name three infections for which penicillin G is still the drug of choice, and its role in diphtheria.",
+      "back": "Syphilis (all stages; benzathine penicillin for early and latent disease), leptospirosis, and streptococcal infections such as pharyngitis (with benzathine penicillin to prevent rheumatic fever recurrence). In diphtheria, antitoxin is the primary treatment; penicillin is only an adjunct, with procaine penicillin 1 to 2 MU daily for 10 days used to prevent the carrier state. Erythromycin is an alternative for both the acute illness and carriers, and some prefer it.",
+      "refs": [
+        "KDT8 ch52",
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-044",
+      "type": "basic",
+      "front": "How do procaine and benzathine penicillin G differ?",
+      "back": "Both are insoluble depot salts given deep i.m., never i.v. Procaine penicillin gives lower plasma levels that are sustained for 12 to 24 hours, with procaine-related toxicity. Benzathine releases penicillin very slowly, giving low but prophylactically useful levels for up to about 4 weeks.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-045",
+      "type": "basic",
+      "front": "How common is penicillin hypersensitivity, and how severe can it be?",
+      "back": "About 1 to 10% of patients react. Penicillin G is the most commonly implicated drug. Procaine penicillin causes the most reactions since procaine is itself allergenic. Rash, urticaria and fever are common; anaphylaxis is rare (about 1 to 4 per 10,000) but can be fatal.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-046",
+      "type": "basic",
+      "front": "After an immediate-type penicillin reaction, what other drugs should be avoided?",
+      "back": "Other penicillins, because cross-sensitivity is partial. Cephalosporins are also generally avoided after an immediate reaction. If the earlier reaction was only a rash, a penicillin may be given cautiously. Hyposensitisation is used only when no alternative exists.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-047",
+      "type": "basic",
+      "front": "Why is a negative penicillin skin test not reassuring, and which test is safer?",
+      "back": "A negative intradermal test does not exclude delayed hypersensitivity, and penicillin skin testing can itself trigger fatal anaphylaxis. Benzylpenicilloyl-polylysine is the safer test. Penicillin antibodies alone do not mean allergy, since almost everyone treated makes them.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-048",
+      "type": "basic",
+      "front": "How does clavulanic acid work, and which enzymes does it block?",
+      "back": "It is a suicide inhibitor: it binds beta-lactamase and is destroyed in the process, so the enzyme is inactivated. It blocks class II to V enzymes but not class I cephalosporinase. It has little antibacterial activity of its own and is combined with amoxicillin as co-amoxiclav.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-054",
+      "type": "shortnote",
+      "front": "Short note: Aminopenicillins (ampicillin and amoxicillin)",
+      "sections": [
+        {
+          "h": "Spectrum",
+          "points": [
+            "Covers all penicillin G-sensitive organisms",
+            "Adds non-beta-lactamase-producing H. influenzae, E. coli, Proteus, Salmonella, Shigella, H. pylori",
+            "Enterococci and Listeria; not Pseudomonas or Bacteroides"
+          ]
+        },
+        {
+          "h": "Amoxicillin versus ampicillin",
+          "points": [
+            "Better oral absorption, food has no effect",
+            "Less diarrhoea; more active against penicillin-resistant pneumococci",
+            "Less active against Shigella and H. influenzae"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Gonorrhoea with probenecid",
+            "Biliary infection (ampicillin)",
+            "H. pylori eradication regimens (amoxicillin)",
+            "ANUG with metronidazole"
+          ]
+        },
+        {
+          "h": "Adverse effects and interactions",
+          "points": [
+            "Rash, more common in EBV, leukaemia, AIDS, and with allopurinol",
+            "Hydrocortisone inactivates ampicillin in i.v. fluid",
+            "May reduce oral contraceptive effect"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-055",
+      "type": "shortnote",
+      "front": "Short note: Beta-lactamase inhibitors",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Inhibitors have little antibacterial activity of their own",
+            "Protect a partner beta-lactam from enzyme destruction"
+          ]
+        },
+        {
+          "h": "Clavulanate",
+          "points": [
+            "Suicide inhibitor; class II to V enzymes",
+            "Co-amoxiclav; oral bioavailability about 60%",
+            "GI intolerance and hepatic injury reported"
+          ]
+        },
+        {
+          "h": "Sulbactam",
+          "points": [
+            "Progressive inhibitor, similar to clavulanate",
+            "Ampicillin plus sulbactam; oral sultamicillin",
+            "Also inhibits N. gonorrhoeae"
+          ]
+        },
+        {
+          "h": "Tazobactam",
+          "points": [
+            "Partner for piperacillin; matched pharmacokinetics",
+            "Ceftriaxone and ceftazidime combinations also exist"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "None inhibit class I cephalosporinase",
+            "Do not block inducible chromosomal enzymes of Pseudomonas or Enterobacteriaceae"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-066",
+      "type": "shortnote",
+      "front": "Short note: Anti-pseudomonal agents",
+      "sections": [
+        {
+          "h": "Infections",
+          "points": [
+            "Pseudomonas causes urinary tract infection and enteritis"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Ticarcillin, piperacillin, ceftazidime, cefoperazone, or gentamicin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p756"
+      ],
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-amr-general-penicillins",
+      "front": "Short note: Penicillin G preparations",
+      "sections": [
+        {
+          "h": "Crystalline sodium penicillin G",
+          "points": [
+            "0.5 to 5 MU i.m. or i.v. every 6 to 12 hours",
+            "Dry powder dissolved at time of use"
+          ]
+        },
+        {
+          "h": "Procaine penicillin G",
+          "points": [
+            "0.5 to 1 MU i.m. every 12 to 24 hours",
+            "Lower plasma levels sustained for 12 to 24 hours"
+          ]
+        },
+        {
+          "h": "Benzathine penicillin G",
+          "points": [
+            "0.6 to 2.4 MU i.m. every 2 to 4 weeks",
+            "Very low levels, still effective for prophylaxis"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "tags": [
+        "dosing"
+      ],
+      "id": "p3-amr-general-073",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-049",
+      "type": "basic",
+      "front": "Why does piperacillin with tazobactam fail against some Pseudomonas?",
+      "back": "Tazobactam does not inhibit the inducible chromosomal beta-lactamase of Pseudomonas and other Enterobacteriaceae, and it cannot reverse loss of drug permeability. Clavulanate and sulbactam share this limitation.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-058",
+      "type": "essay",
+      "front": "Essay: Penicillin allergy: mechanism, cross-reactivity and management",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Penicilloyl moiety acts as the hapten; minor determinants also exist",
+            "Antibodies are common; allergy is not the same as antibody presence",
+            "Course is unpredictable"
+          ]
+        },
+        {
+          "h": "Clinical spectrum",
+          "points": [
+            "Rash, itching, urticaria, fever",
+            "Angioedema, bronchospasm, serum sickness, exfoliative dermatitis",
+            "Anaphylaxis: rare but fatal"
+          ]
+        },
+        {
+          "h": "Cross-reactivity",
+          "points": [
+            "Partial among penicillins",
+            "About 10% cross-reaction with cephalosporins",
+            "Aztreonam generally safe; ceftazidime is the exception"
+          ]
+        },
+        {
+          "h": "Assessment",
+          "points": [
+            "Detailed history of reaction type",
+            "Benzylpenicilloyl-polylysine test is safer than intradermal penicillin",
+            "Negative test does not exclude delayed reaction"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Avoid all penicillins after an immediate reaction",
+            "Use a non-beta-lactam alternative",
+            "Cautious use only after a mild rash",
+            "Hyposensitisation only if no alternative"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-penicillins",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-050",
+      "type": "basic",
+      "front": "What defines fourth-generation cephalosporins, and name two.",
+      "back": "They keep high potency against Enterobacteriaceae with a third-generation-like spectrum, but resist hydrolysis by inducible chromosomal beta-lactamases. Examples: cefepime and cefpirome.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-057",
+      "type": "shortnote",
+      "front": "Short note: Carbapenems",
+      "sections": [
+        {
+          "h": "Imipenem",
+          "points": [
+            "Very broad: gram-positive cocci, Enterobacteriaceae, Pseudomonas, anaerobes",
+            "Given with cilastatin, which blocks renal dehydropeptidase I",
+            "Seizure risk at high dose"
+          ]
+        },
+        {
+          "h": "Meropenem and doripenem",
+          "points": [
+            "Not hydrolysed by renal peptidase, so no cilastatin needed",
+            "Meropenem less likely to cause seizures",
+            "Doripenem more active against some resistant Pseudomonas"
+          ]
+        },
+        {
+          "h": "Ertapenem",
+          "points": [
+            "Once-daily dosing (half-life about 4 h)",
+            "Poor against Pseudomonas and Acinetobacter",
+            "Resistance via efflux or porin loss"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Nausea, diarrhoea, rash",
+            "Dose reduction in renal failure"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-063",
+      "type": "cloze",
+      "front": "Classify: cephalosporin generations with examples",
+      "text": "First generation: {{cefazolin}} (parenteral) and {{cephalexin}} (oral). Third generation with Pseudomonas activity: {{ceftazidime}}. Fourth generation, resistant to inducible beta-lactamases: {{cefepime}}. Fifth generation with MRSA activity: {{ceftaroline}}.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-084",
+      "type": "basic",
+      "front": "Which first-generation cephalosporin is preferred parenterally and which orally?",
+      "back": "Cefazolin is the preferred parenteral one (longer half-life of about 2 h, high plasma and bile levels, popular for surgical prophylaxis). Cephalexin is the commonly used oral one with a similar spectrum but weaker against penicillinase-producing staphylococci and H. influenzae. Both are susceptible to staphylococcal beta-lactamase.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-085",
+      "type": "basic",
+      "front": "How do second-generation cephalosporins differ from the first generation?",
+      "back": "They are more active against gram-negative organisms with wider coverage but weaker against gram-positive bacteria; none inhibits Pseudomonas, and cefoxitin covers anaerobes. Examples: cefuroxime, cefaclor, cefuroxime axetil (oral ester). Their use has declined in favour of third-generation drugs.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-051",
+      "type": "basic",
+      "front": "What distinguishes fifth-generation cephalosporins?",
+      "back": "They are active against MRSA and penicillin-resistant pneumococci because they bind altered penicillin-binding proteins (such as PBP2a). Examples: ceftaroline fosamil and ceftobiprole medocaril. They are still vulnerable to some extended-spectrum beta-lactamases.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-052",
+      "type": "basic",
+      "front": "What is aztreonam, and why is it useful in penicillin allergy?",
+      "back": "A monobactam with a narrow spectrum: it covers gram-negative enteric bacilli, H. influenzae and Pseudomonas, but not gram-positive cocci or anaerobes. It lacks cross-allergy with penicillins and cephalosporins, except ceftazidime, which shares a side chain with it.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-056",
+      "type": "shortnote",
+      "front": "Short note: Third-generation cephalosporins",
+      "sections": [
+        {
+          "h": "Spectrum",
+          "points": [
+            "Strong against Enterobacteriaceae; resist gram-negative beta-lactamases",
+            "Weaker against gram-positive cocci; no B. fragilis except ceftizoxime",
+            "Ceftazidime alone is strong against Pseudomonas"
+          ]
+        },
+        {
+          "h": "Key agents",
+          "points": [
+            "Cefotaxime and ceftizoxime (parenteral)",
+            "Ceftriaxone: long half-life, once or twice daily",
+            "Ceftazidime: Pseudomonas and neutropenic fever",
+            "Cefoperazone: biliary excretion"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Gram-negative meningitis (CSF penetration)",
+            "Typhoid and PPNG gonorrhoea",
+            "Oral agents such as cefixime and cefpodoxime do not reach CSF"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Hypoprothrombinaemia with methylthiotetrazole side chain (cefoperazone, ceftriaxone)",
+            "Disulfiram-like reaction with cefoperazone",
+            "Neutropenia with ceftazidime"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-064",
+      "type": "cloze",
+      "front": "Complete: carbapenem and monobactam facts",
+      "text": "Imipenem is given with {{cilastatin}} to block {{dehydropeptidase I}} in the renal tubule, and it causes {{seizures}} more often than meropenem. {{Aztreonam}}, a monobactam, is generally safe in penicillin allergy; the exception to cross-sensitivity is {{ceftazidime}}.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "front": "Short note: Adverse effects of cephalosporins",
+      "sections": [
+        {
+          "h": "Local",
+          "points": [
+            "Pain after i.m. injection with many agents",
+            "Thrombophlebitis with i.v. infusion"
+          ]
+        },
+        {
+          "h": "Hypersensitivity",
+          "points": [
+            "About 10% cross-reactivity in penicillin-allergic patients",
+            "Skin test unreliable"
+          ]
+        },
+        {
+          "h": "Organ and blood effects",
+          "points": [
+            "Low-grade nephrotoxicity, worse with aminoglycosides or loop diuretics",
+            "Hypoprothrombinaemia and bleeding (methylthiotetrazole side chain)",
+            "Neutropenia and thrombocytopenia rare (ceftazidime)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "tags": [
+        "adr"
+      ],
+      "id": "p3-amr-general-076",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-086",
+      "type": "basic",
+      "front": "How are cephalosporins chosen for meningitis?",
+      "back": "Therapy needs bactericidal CSF levels, ideally several times the MBC. Empirical choice is i.v. cefotaxime or ceftriaxone, combined with ampicillin or vancomycin or both. Ceftazidime plus gentamicin is the most effective for Pseudomonas meningitis. Oral third-generation drugs give low CSF levels and are useless.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-059",
+      "type": "essay",
+      "front": "Essay: Cephalosporins: classification and clinical use by generation",
+      "sections": [
+        {
+          "h": "Basis of classification",
+          "points": [
+            "Spectrum and potency",
+            "Resistance to beta-lactamases",
+            "Pharmacokinetics: oral versus parenteral"
+          ]
+        },
+        {
+          "h": "First and second generation",
+          "points": [
+            "Cefazolin: gram-positive, surgical prophylaxis",
+            "Cephalexin and cefadroxil: oral",
+            "Cefuroxime and cefaclor: gram-negative extension"
+          ]
+        },
+        {
+          "h": "Third generation",
+          "points": [
+            "Cefotaxime, ceftriaxone, ceftazidime, cefoperazone",
+            "Meningitis, typhoid, neutropenic fever",
+            "Oral cefixime and cefpodoxime"
+          ]
+        },
+        {
+          "h": "Fourth and fifth generation",
+          "points": [
+            "Cefepime and cefpirome resist inducible beta-lactamases",
+            "Ceftaroline and ceftobiprole active against MRSA"
+          ]
+        },
+        {
+          "h": "Adverse effects and uses",
+          "points": [
+            "Rash, anaphylaxis, neutropenia, bleeding with MTT side chain",
+            "Gram-negative infection, prophylaxis, hospital-acquired infection"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-060",
+      "type": "essay",
+      "front": "Essay: Carbapenems and monobactams: spectrum and place in therapy",
+      "sections": [
+        {
+          "h": "Carbapenems",
+          "points": [
+            "Imipenem with cilastatin; meropenem; ertapenem; doripenem; faropenem (oral)",
+            "Very broad spectrum and beta-lactamase stability"
+          ]
+        },
+        {
+          "h": "Monobactam",
+          "points": [
+            "Aztreonam: gram-negative only",
+            "Binds specific PBPs; no cross-allergy with penicillins"
+          ]
+        },
+        {
+          "h": "Resistance",
+          "points": [
+            "Efflux and porin loss",
+            "Carbapenems such as ertapenem are effective against extended-spectrum beta-lactamase (ESBL) producers"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Seizures with imipenem",
+            "Diarrhoea, rash, phlebitis"
+          ]
+        },
+        {
+          "h": "Clinical place",
+          "points": [
+            "Hospital-acquired and resistant infection",
+            "Febrile neutropenia",
+            "Reserve drugs to limit resistance"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-cephalosporins",
+      "tags": [
+        "newer-drugs",
+        "uses",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-089",
+      "type": "basic",
+      "subtopic": "p3-amr-general-sulfonamides",
+      "front": "How does mafenide differ from typical sulfonamides, and what limits its use?",
+      "back": "A CH2 bridge separates its benzene ring from the amino group, so it is not a typical sulfonamide. It stays active in pus and against Pseudomonas and clostridia, and is used topically on burns to prevent infection. It burns on raw surfaces and, with its metabolite, inhibits carbonic anhydrase, alkalinising urine and risking acidosis and hyperventilation, so it is not applied over large areas.",
+      "refs": [
+        "KDT8 ch51"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-amr-general-090",
+      "type": "essay",
+      "subtopic": "p3-amr-general-resistance",
+      "front": "Essay: Approaches to overcome antimicrobial resistance (AMR)",
+      "sections": [
+        {
+          "h": "Why resistance arises",
+          "points": [
+            "Widely used drugs select resistant mutants",
+            "Resistance genes spread horizontally by conjugation, transduction and transformation"
+          ]
+        },
+        {
+          "h": "Rational use",
+          "points": [
+            "Avoid indiscriminate, inadequate or over-long courses",
+            "Symptom-guided short courses for acute localised infection in healthy patients",
+            "Treat organisms notorious for resistance (S. aureus, E. coli, M. tuberculosis, Proteus) intensively"
+          ]
+        },
+        {
+          "h": "Choice of drug",
+          "points": [
+            "Prefer rapidly acting, narrow-spectrum drugs; broad-spectrum only when no specific drug suits",
+            "Use combinations for prolonged therapy: tuberculosis, subacute bacterial endocarditis, HIV-AIDS"
+          ]
+        },
+        {
+          "h": "Protecting the old drug",
+          "points": [
+            "Add a beta-lactamase inhibitor: clavulanic acid, sulbactam or tazobactam",
+            "Clavulanate restores amoxicillin activity against beta-lactamase producers",
+            "Ceftazidime with avibactam is a current combination product"
+          ]
+        },
+        {
+          "h": "Newer agents",
+          "points": [
+            "Lipoglycopeptides (telavancin, oritavancin, dalbavancin) are active against some VRE",
+            "Aztreonam resists metallo-beta-lactamases but is hydrolysed by most ESBL and KPC enzymes"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "No single step is enough; aim to cut selection pressure and keep existing drugs working"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch50",
+        "KDT8 ch52",
+        "GG14 ch58"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-091",
+      "type": "basic",
+      "front": "What is cross resistance?",
+      "back": "Resistance to a drug the organism has never met, acquired through resistance to another drug. It is usually within a class (one sulfonamide means all sulfonamides); resistance to one aminoglycoside may not extend to another.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-092",
+      "type": "basic",
+      "front": "What is a beta-lactamase inhibitor, and which three are used clinically?",
+      "back": "A drug that inactivates beta-lactamase enzymes, used only together with a penicillin or cephalosporin. Clavulanic acid, sulbactam and tazobactam.",
+      "refs": [
+        "KDT8 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-093",
+      "type": "basic",
+      "front": "What is a porin, and how does its loss cause resistance?",
+      "back": "A protein channel through which hydrophilic antibiotics enter gram-negative cells. Losing porins lowers intracellular drug levels, as with some aminoglycosides and tetracyclines.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-094",
+      "type": "basic",
+      "front": "What is an efflux pump in antibacterial resistance?",
+      "back": "An energy-dependent membrane pump that expels the drug. Tetracycline efflux is inducible; efflux is also reported for erythromycin and fluoroquinolones.",
+      "refs": [
+        "KDT8 ch50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-095",
+      "type": "basic",
+      "front": "What is the vanA genotype?",
+      "back": "An inducible enterococcal gene cluster that changes the cell-wall target from D-alanyl-D-alanine to D-alanyl-D-lactate, cutting vancomycin affinity about 1000-fold. It confers resistance to vancomycin and teicoplanin.",
+      "refs": [
+        "GG14 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-096",
+      "type": "basic",
+      "front": "What is PPNG?",
+      "back": "Penicillinase-producing Neisseria gonorrhoeae. Its beta-lactamase inactivates penicillin, so penicillin and ampicillin are unreliable against it.",
+      "refs": [
+        "KDT8 ch50",
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-classification",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-097",
+      "type": "basic",
+      "front": "Which organism causes chancroid?",
+      "back": "Haemophilus ducreyi.",
+      "refs": [
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-classification",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-098",
+      "type": "basic",
+      "front": "Which penicillin G regimens treat early syphilis?",
+      "back": "Penicillin G is the drug of choice; T. pallidum has not shown resistance. Benzathine penicillin G i.m. once weekly for 1-3 weeks, or procaine penicillin G i.m. daily for 10 days, are the two listed regimens.",
+      "refs": [
+        "KDT8 ch52",
+        "KDT8 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-amr-general-classification",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-amr-general-099",
+      "type": "essay",
+      "subtopic": "p3-amr-general-classification",
+      "front": "Essay: Drugs used in the treatment of sexually transmitted diseases (STDs)",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Choose the drug by the causative organism; the book's table lists preferred regimens",
+            "Treat the male partner too when trichomoniasis recurs"
+          ]
+        },
+        {
+          "h": "Gonorrhoea",
+          "points": [
+            "Non-PPNG first choice: ceftriaxone i.m., or amoxicillin oral with probenecid",
+            "Penicillinase-producing strains: penicillins fail; cephalosporins and azithromycin feature in the table",
+            "Ciprofloxacin is no longer dependable"
+          ]
+        },
+        {
+          "h": "Syphilis",
+          "points": [
+            "Early syphilis: penicillin G, either benzathine i.m. weekly for 1-3 weeks or procaine i.m. daily for 10 days"
+          ]
+        },
+        {
+          "h": "Chlamydia",
+          "points": [
+            "Urethritis and cervicitis: azithromycin single dose or doxycycline for about a week",
+            "Lymphogranuloma venereum: doxycycline for about 3 weeks; weekly azithromycin is an alternative"
+          ]
+        },
+        {
+          "h": "Other STDs",
+          "points": [
+            "Chancroid (H. ducreyi): single-dose ceftriaxone or azithromycin among options",
+            "Donovanosis: doxycycline, with erythromycin as alternative",
+            "Trichomoniasis: metronidazole or tinidazole",
+            "Genital herpes: acyclovir, valacyclovir or famciclovir"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch55",
+        "KDT8 ch51",
+        "KDT8 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-100",
+      "type": "essay",
+      "subtopic": "p3-amr-general-resistance",
+      "front": "Essay: Biochemical markers of resistance to antibiotics",
+      "sections": [
+        {
+          "h": "Overview",
+          "points": [
+            "Resistance lowers drug action through four routes: destroying enzymes, altered target, reduced entry, active efflux"
+          ]
+        },
+        {
+          "h": "Drug-destroying enzymes",
+          "points": [
+            "Beta-lactamases in staphylococci, Haemophilus and gonococci inactivate penicillin G",
+            "Chloramphenicol acetyltransferase in E. coli, H. influenzae and S. typhi",
+            "Aminoglycoside-modifying enzymes (adenylating, acetylating, phosphorylating) in resistant coliforms"
+          ]
+        },
+        {
+          "h": "Altered target",
+          "points": [
+            "Altered penicillin-binding proteins: penicillin-resistant pneumococci and MRSA",
+            "Altered RNA polymerase: rifampin resistance in S. aureus and E. coli",
+            "Target mutations: fluoroquinolones and macrolides",
+            "Sulfonamide-resistant bacteria use preformed folic acid instead of PABA"
+          ]
+        },
+        {
+          "h": "Glycopeptide markers",
+          "points": [
+            "Enterococci replace D-alanyl-D-alanine with D-alanyl-D-lactate or D-alanyl-D-serine",
+            "vanA: inducible, high-level resistance; about 1000-fold lower affinity",
+            "vanB: lower level; induced by vancomycin but not teicoplanin"
+          ]
+        },
+        {
+          "h": "Reduced entry and efflux",
+          "points": [
+            "Porin loss lowers uptake of aminoglycosides and tetracyclines",
+            "Penicillin-resistant gonococci are less permeable to penicillin G",
+            "Inducible energy-dependent efflux of tetracyclines; also erythromycin and fluoroquinolones"
+          ]
+        },
+        {
+          "h": "Clinical link",
+          "points": [
+            "Cross resistance within a class is usually complete",
+            "Gentamicin-resistant strains may respond to amikacin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch50",
+        "KDT8 ch52",
+        "GG14 ch58"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-amr-general-101",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is a nosocomial infection, and why is it harder to treat?",
+      "back": "An infection acquired during a hospital stay. The organisms are often resistant to commonly used antibiotics, for example MRSA, VRSA and VRE, so empirical choice needs a broader or reserve drug.",
+      "refs": [
+        "KDT8 PDF p817"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-amr-general-102",
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p3-amr-general-resistance",
+      "tags": [
+        "uses",
+        "interactions"
+      ],
+      "front": "Short note: Management of nosocomial infections",
+      "sections": [
+        {
+          "h": "Principles",
+          "points": [
+            "Choose by culture result and the local resistance pattern",
+            "Reserve the strongest drugs for resistant or serious cases"
+          ]
+        },
+        {
+          "h": "Empirical cover, ICU or respiratory",
+          "points": [
+            "Cefotaxime, ceftizoxime or a fourth-generation cephalosporin, combined with vancomycin",
+            "Ceftobiprole medocaril is an alternative"
+          ]
+        },
+        {
+          "h": "Pseudomonas and neutropenia",
+          "points": [
+            "Antipseudomonal cephalosporins where Pseudomonas and resistant gram-negative bacilli are likely (pneumonia, UTI, intra-abdominal)",
+            "Ceftazidime alone or with an aminoglycoside in neutropenic patients",
+            "Meropenem is a reserve drug; combine it with an aminoglycoside for Pseudomonas"
+          ]
+        },
+        {
+          "h": "Reserve gram-negative and monobactam agents",
+          "points": [
+            "Amikacin when gentamicin or tobramycin resistance is high",
+            "Aztreonam for hospital-acquired urinary, biliary, GI and genital infections; no cross-allergy with penicillins"
+          ]
+        },
+        {
+          "h": "Gram-positive and high-risk pneumonia",
+          "points": [
+            "Linezolid for hospital-acquired pneumonia and resistant gram-positive infection",
+            "Quinupristin with dalfopristin as a reserve for multidrug-resistant gram-positive infection (not E. faecalis)",
+            "Ciprofloxacin or levofloxacin with a beta-lactam for high-risk nosocomial pneumonia"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p752",
+        "KDT8 PDF p792",
+        "KDT8 PDF p793",
+        "KDT8 PDF p810",
+        "KDT8 PDF p818",
+        "KDT8 PDF p819",
+        "GG14 PDF p1162",
+        "GG14 PDF p1177"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-amr-general-103",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p3-amr-general-quinolones",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "front": "Short note: Newer fluoroquinolones",
+      "sections": [
+        {
+          "h": "Second generation (difluorinated)",
+          "points": [
+            "Levofloxacin: active levo isomer of ofloxacin; nearly 100% oral bioavailability; once daily; main use community pneumonia and chronic bronchitis exacerbation",
+            "Moxifloxacin: long-acting; topoisomerase IV is the main target; most potent fluoroquinolone against M. tuberculosis, used in MDR-TB; 400 mg once daily",
+            "Gemifloxacin: 320 mg once daily for 5 to 7 days; community pneumonia and bronchitis; rashes and warfarin potentiation"
+          ]
+        },
+        {
+          "h": "Newer agents with narrow roles",
+          "points": [
+            "Prulifloxacin: prodrug of ulifloxacin; 600 mg once daily, single dose for uncomplicated lower UTI",
+            "Pazufloxacin: injectable mesylate only; covers resistant Pseudomonas and MRSA; empirical nosocomial use, but efficacy and safety evidence is limited"
+          ]
+        },
+        {
+          "h": "Caution",
+          "points": [
+            "QT prolongation (moxifloxacin); rare phototoxicity; avoid with proarrhythmic drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p774-776"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
       "status": "draft"
     }
   ]

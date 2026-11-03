@@ -75,3 +75,27 @@ Checked against the GG14/Katzung corrections in `review/p2-respiratory.md`. Deck
 Added 41 rapid cards (rf-p2-respiratory-0309 to 0349) from GG14 ch44 formulary and biologic sections, plus KDT8 ch16 gaps. Each has one tag.
 
 Book conflicts noted: tiotropium 18 microg (KDT8) vs 2.5 microg Respimat (GG14). Glycopyrronium 50 microg vs 15.6 microg DPI (GG14).
+
+Ladder pass: no rapid changes; chapter already saturated at 349 cards.
+
+## Checker (independent pass)
+
+Sampled 4 numeric rapid cards against KDT8 ch16 (rf-p2-respiratory-0163 Duolin 100+20 ug, 0196 theophylline metabolism CYP1A2 and 10 percent unchanged, 0198 child t1/2 3-5 h, 0297 about 10 percent reaches site). All ok.
+Prep/RR5 grep: no hits.
+Not re-audited: the remaining rapid cards (349 before checker run).
+
+## PYQ gap pass (entries 2, 36, 109)
+
+No rapid cards added or changed. Existing pairs already cover the cough, antitussive, mucolytic, biologic and ensifentrine facts from the three PYQ entries. Chronopharmacology and microbiome facts sit in other topic decks and are not duplicated here.
+
+## Checker re-verification (newest cards 0338-0349)
+
+| id | status | source |
+|---|---|---|
+| 0338, 0339 | ok | GG14 ch44 p909 (reslizumab IV q4w; benralizumab SC q8w, IL-5Ra) |
+| 0340 | ok | GG14 ch44 p911 (tezepelumab, 70% fewer exacerbations) |
+| 0341, 0342 | corrected | GG14 ch44 p902 (ensifentrine: anti-inflammatory effect "not convincingly demonstrated", was "weak anti-inflammatory effect") |
+| 0343 | ok | GG14 ch44 p902 (roflumilast, Child-Pugh B/C) |
+| 0344-0347 | ok | GG14 ch44 p913 (doxapram doses, COPD 2 h; almitrine hypoxia-only, neuropathy; acetazolamide acidosis) |
+| 0348 | ok | GG14 ch44 p912 (benzonatate, PABA metabolite) |
+| 0349 | ok | GG14 ch44 p912 (nebulised furosemide, evidence not convincing) |

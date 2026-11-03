@@ -129,3 +129,21 @@ Gap from SOURCE-GAPS.md: AYUSH pharmacopoeia rules (API, UPI, SPI: scope and mon
 Added 0 rapid cards. Katzung16 ch65 herb names are all present; remaining gaps were attributes already carded.
 
 Book conflicts noted: none.
+
+## Gap questions (Hepato protective agents)
+
+| id | new | source |
+|---|---|---|
+| rf-p2-herbal-0368 to 0373 | new | Katzung16 ch65 |
+| rf-p2-herbal-0374 | new | Padmaja PDF p754 |
+| rf-p2-herbal-0375 to 0378 | new | Sarkar p11-15, Padmaja PDF p754 |
+| rf-p2-herbal-0379 to 0380 | new | Ghosh FEP PDF p150 |
+| rf-p2-herbal-0381 | new | Bennett PDF p152 |
+
+## Checker (PYQ gap pass)
+Checked rf-p2-herbal-0368 to 0381 against sources. Verified: 0368-0372, 0374-0381 (Katzung16 p1226-1227, Padmaja p754, Sarkar p11-15, Ghosh FEP p149-150, Bennett p152). 0373 corrected: "animal data only for most toxins" replaced with the Katzung point that milk thistle is not confirmed as an antidote for acute toxin exposure in humans. No Prep/RR5 refs. Not committed.
+
+## Checker (newest-card pass)
+| id | ok / corrected / deleted | source |
+|---|---|---|
+| rf-p2-herbal-0372 | corrected (phosphatidylcholine helps in humans; nanoparticles only rodents) | Katzung16 PDF p1227 |

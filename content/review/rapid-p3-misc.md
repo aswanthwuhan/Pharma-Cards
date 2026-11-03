@@ -514,3 +514,24 @@ rf-p3-misc-0367 | corrected | KDT8 PDF p683 | stippled epiphyses not in books; f
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: No conflicts logged. Vitamin E antioxidant trials (KDT8 ch69) show no benefit, and this is kept.
 - Unsourced cards in this pass: none.
+| (rapid) | ok | 550 existing rapid cards cover chapter; no additions needed |
+
+## PYQ gap pass (dandruff, PUVA, vitiligo, vaccine safety)
+
+| id | new | source |
+|---|---|---|
+| rf-p3-misc-0552 to 0574 | new (23) | KDT8 ch66 p950-953, p961-962; GG14 ch75 p1502, p1506-1507, p1518; KDT8 ch70 p979-980, p990-991 |
+
+## Checker (PYQ gap pass)
+
+- Spot-checked rf-p3-misc-0552 to 0574 against KDT8 ch66, ch70 and GG14 ch75. Facts confirmed: P. ovale, Ammi majus, Ty21a schedule, Thai regimen timing. Numbers not re-verified (see study log). No Prep or RR5 refs.
+
+## Checker (PYQ gap pass)
+
+- Spot-checked rf-p3-misc-0552 to 0574 against KDT8 ch66, ch70 and GG14 ch75. Confirmed P. ovale, Ammi majus, Ty21a schedule and Thai regimen timing. Other numbers not re-verified (see study log). No Prep or RR5 refs.
+
+## Checker pass (newest cards, 2026-11-03)
+
+- rf-p3-misc-0568 deleted: calcipotriene for vitiligo is not in any owner book (GG14 ch75 lists it for psoriasis only).
+- Verified: Vi 60% at 3 years, Ty21a 3 capsules on alternate days with 3 years protection (KDT8 ch70); Thai regimen timing (KDT8 ch70); monobenzone 20% (KDT8 ch66).
+- No Prep or RR5 refs.

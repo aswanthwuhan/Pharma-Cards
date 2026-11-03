@@ -120,3 +120,59 @@ Gap from SOURCE-GAPS.md: AYUSH pharmacopoeia rules (API, UPI, SPI: scope and mon
 Added 2 study cards (ids 059-060): herb-drug interactions, and status of herbal drug research in India. Sources: Katzung16 ch65 and Sarkar, using facts already grounded in existing rapid cards. Added 0 rapid cards: a check of Katzung16 ch65 found the deck already names every herb in the chapter. Target (30 study, 120 rapid) not met; herbal deck is saturated for the owner books searched.
 
 Book conflicts noted: none.
+
+## Difficulty ladder pass
+All 60 existing cards given explicit level (ids unchanged, reordered by subtopic then level). Content unchanged.
+
+| id | status | source |
+|---|---|---|
+| p2-herbal-061 | new (L2) | Katzung16 ch65 |
+| p2-herbal-062 | new (L2) | Katzung16 ch65 |
+| p2-herbal-063 | new (L3) | Katzung16 ch65 |
+p2-herbal-039 | corrected (pyq tag added: RGUHS 2010 Nutraceuticals) | pyq bank
+
+## Checker pass
+
+Checked against Katzung16 ch65 (extracted), Katzung16 ch57-58, Sarkar OCR (p6-10, p11-15, p16-20, p611-615). Cards checked: 001, 002, 003, 006, 007, 008, 010, 011, 015, 017, 018, 019, 020-023, 025, 029, 059-063.
+
+| id | status | source |
+|---|---|---|
+| p2-herbal-018 | corrected (functional gains may take up to 12 months, not 1-2 months) | Katzung16 ch65 |
+| p2-herbal-019 | corrected (nursing: use cautiously or not at all, not avoid) | Katzung16 ch65 |
+| p2-herbal-062 | corrected (INR monitoring, not "avoidance") | Katzung16 ch65 |
+| p2-herbal-063 | corrected (1-2 months replaced by 12 months) | Katzung16 ch65 |
+| p2-herbal-029, 030, 031, 033, 034, 035 | level 2 to 1 (definitions and penalties are recall) | WEB Drugs and Cosmetics Act Ch IVA |
+| p2-herbal-061, 062, 063 | ok | Katzung16 ch65 |
+| others checked | ok | as cited |
+
+Not verified: WEB-sourced cards (FSSAI, Drugs and Cosmetics Act Ch IVA, EuropePMC review). Not fetched in this pass. Card 038 wording on FSSAI scope is unverified.
+
+Level ladder after check: 43 L1, 14 L2, 6 L3. Each subtopic meets 3/2/1 minimum (purified exactly 3/2/1). Validator --check exit 0, no herbal errors.
+
+Gap check: Table 65-1 herbs are covered in rapid cards (kava, ephedra, comfrey, aristolochia, black cohosh, pennyroyal). No new study cards added.
+
+## Gap questions (Q bank, Paper II: "Hepato protective agents")
+
+| id | new | source |
+|---|---|---|
+| p2-herbal-064 | new | Padmaja PDF p754 |
+| p2-herbal-065 | new | Ghosh FEP PDF p149, p150 |
+| p2-herbal-066 | new | Sarkar p11-15, Padmaja PDF p754 |
+| p2-herbal-067 | new | Sarkar p11-15, Padmaja PDF p754 |
+| p2-herbal-068 | new (essay, pyq Q bank 10 marks) | Katzung16 ch65, Padmaja PDF p754, Sarkar p11-15, Ghosh FEP PDF p149-150, GG12 PDF p250, Bennett PDF p152 |
+
+## Checker (PYQ gap pass)
+Checked 064-068 against sources. 064, 065, 066, 068 verified (Padmaja p754, Ghosh FEP p149-150, Sarkar p11-15, Katzung16 p1227-1228, GG12 p250, Bennett p152). 067 corrected: front no longer implies phyllanthins protect the liver (Sarkar does not say so); Padmaja wording "promising" not "studied". 068 added missing `level: 3` and `status: draft`.
+| id | ok / corrected / deleted | source |
+|---|---|---|
+| p2-herbal-064 | ok | Padmaja PDF p754 |
+| p2-herbal-065 | ok | Ghosh FEP PDF p149, p150 |
+| p2-herbal-066 | ok | Sarkar p11-15, Padmaja PDF p754 |
+| p2-herbal-067 | corrected | Sarkar p11-15, Padmaja PDF p754 |
+| p2-herbal-068 | ok, level 3 added | Katzung16 p1227-1228, Padmaja PDF p754, Sarkar p11-15, Ghosh FEP PDF p149-150, GG12 PDF p250, Bennett PDF p152 |
+Ladder per subtopic: regulation 21/7/2, botanicals 9/4/3, purified 3/2/1, traditional 13/2/1 (L1/L2/L3). Pyq format Q bank OK. No Prep/RR5 refs. validate-content --check: ok.
+
+## Checker (newest-card pass)
+| id | ok / corrected / deleted | source |
+|---|---|---|
+| p2-herbal-068 | corrected (death cap: penicillin or silibinin, not "with penicillin G") | Bennett PDF p152, GG12 PDF p250 |

@@ -47,7 +47,8 @@
       "subtopic": "p3-antiparasitic-malaria-overview",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-002",
@@ -62,7 +63,25 @@
       "subtopic": "p3-antiparasitic-malaria-overview",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-090",
+      "type": "basic",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "front": "Why can a drug that kills only blood-stage parasites not fully cure vivax malaria?",
+      "back": "Blood schizontocides end the clinical attack but do not touch the dormant liver hypnozoites of P. vivax and ovale, which later cause relapse. A tissue schizontocide such as primaquine is needed for radical cure.",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-003",
@@ -77,7 +96,8 @@
       "subtopic": "p3-antiparasitic-malaria-overview",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-004",
@@ -92,7 +112,8 @@
       "subtopic": "p3-antiparasitic-malaria-overview",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-005",
@@ -147,7 +168,8 @@
       "subtopic": "p3-antiparasitic-malaria-overview",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-antiparasitic-006",
@@ -162,7 +184,40 @@
       "subtopic": "p3-antiparasitic-chloroquine-quinolines",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-009",
+      "type": "cloze",
+      "front": "Cloze: pharmacokinetics of chloroquine",
+      "text": "Chloroquine binds {{tightly}} to melanin and nuclear chromatin, so it concentrates in the {{liver, spleen, kidney and lungs}} and in the {{retina}}. Its terminal half-life can extend to {{1-2 months}}.",
+      "refs": [
+        "KDT8 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-chloroquine-quinolines",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-091",
+      "type": "basic",
+      "subtopic": "p3-antiparasitic-chloroquine-quinolines",
+      "front": "Name the drug groups in this subtopic and their key weakness or toxicity.",
+      "back": "Chloroquine: blood schizontocide, long half-life, retinal damage with prolonged use and pfcrt-mediated resistance. Mefloquine: neuropsychiatric effects, QT prolongation, oral only. Quinine: cinchonism, hypoglycaemia, narrow therapeutic index.",
+      "tags": [
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-007",
@@ -177,7 +232,8 @@
       "subtopic": "p3-antiparasitic-chloroquine-quinolines",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-008",
@@ -223,22 +279,8 @@
       "subtopic": "p3-antiparasitic-chloroquine-quinolines",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-009",
-      "type": "cloze",
-      "front": "Cloze: pharmacokinetics of chloroquine",
-      "text": "Chloroquine binds {{tightly}} to melanin and nuclear chromatin, so it concentrates in the {{liver, spleen, kidney and lungs}} and in the {{retina}}. Its terminal half-life can extend to {{1-2 months}}.",
-      "refs": [
-        "KDT8 ch61"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-chloroquine-quinolines",
-      "tags": [
-        "pk"
-      ]
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-010",
@@ -286,7 +328,8 @@
       "tags": [
         "adr",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-011",
@@ -333,7 +376,52 @@
       "tags": [
         "adr",
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-092",
+      "type": "essay",
+      "subtopic": "p3-antiparasitic-chloroquine-quinolines",
+      "front": "Essay: Chemotherapy of chloroquine-resistant falciparum malaria using quinolines",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Resistance arises from pfcrt-driven efflux of chloroquine from the food vacuole; pfmdr1 also lowers quinine and mefloquine activity"
+          ]
+        },
+        {
+          "h": "Quinoline options",
+          "points": [
+            "Mefloquine: oral, weekly prophylaxis for travellers, combined with artesunate; limited by neuropsychiatric and QT effects",
+            "Quinine: with doxycycline or clindamycin; first-trimester choice with clindamycin; cinchonism and hypoglycaemia"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Do not give quinine, quinidine, halofantrine or chloroquine within 12 hours of mefloquine",
+            "Neither is suited to severe malaria except i.v. quinine"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Quinolines are largely second line; ACT is preferred"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p3-antiparasitic-012",
@@ -349,7 +437,43 @@
       "subtopic": "p3-antiparasitic-primaquine-radical",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-014",
+      "type": "basic",
+      "front": "What single primaquine dose is given after falciparum treatment to reduce transmission, and where do national and WHO guidance differ?",
+      "back": "A single gametocidal dose given with the ACT for falciparum malaria. The Indian national programme in KDT uses 0.75 mg/kg (45 mg in adults) on day 2. WHO recommends a lower single dose of 0.25 mg/kg, and GG14 notes that at this dose G6PD testing is not required; it is given to non-pregnant patients older than 6 months in low-transmission areas. It is added even when an artemisinin is used, because artemisinins do not kill mature gametocytes.",
+      "refs": [
+        "KDT8 ch61",
+        "GG14 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-primaquine-radical",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-015",
+      "type": "cloze",
+      "front": "Cloze: tafenoquine",
+      "text": "Tafenoquine is a long-acting {{8-aminoquinoline}} derived from primaquine, with an elimination half-life of about {{14 days}} (primaquine: 6 to 8 hours). KDT describes it as awaiting approval; GG14 states it is now {{FDA-approved}} for malaria prophylaxis and for radical cure of P. vivax, where a {{single 300 mg dose}} is given with the blood-stage drug. It shares the risk of {{haemolysis in G6PD deficiency}}, so it is contraindicated when G6PD status is deficient or unknown and in pregnancy.",
+      "refs": [
+        "KDT8 ch61",
+        "GG14 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-primaquine-radical",
+      "tags": [
+        "newer-drugs",
+        "pk"
+      ],
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-013",
@@ -400,40 +524,8 @@
       "subtopic": "p3-antiparasitic-primaquine-radical",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-014",
-      "type": "basic",
-      "front": "What single primaquine dose is given after falciparum treatment to reduce transmission, and where do national and WHO guidance differ?",
-      "back": "A single gametocidal dose given with the ACT for falciparum malaria. The Indian national programme in KDT uses 0.75 mg/kg (45 mg in adults) on day 2. WHO recommends a lower single dose of 0.25 mg/kg, and GG14 notes that at this dose G6PD testing is not required; it is given to non-pregnant patients older than 6 months in low-transmission areas. It is added even when an artemisinin is used, because artemisinins do not kill mature gametocytes.",
-      "refs": [
-        "KDT8 ch61",
-        "GG14 ch66"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-primaquine-radical",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-015",
-      "type": "cloze",
-      "front": "Cloze: tafenoquine",
-      "text": "Tafenoquine is a long-acting {{8-aminoquinoline}} derived from primaquine, with an elimination half-life of about {{14 days}} (primaquine: 6 to 8 hours). KDT describes it as awaiting approval; GG14 states it is now {{FDA-approved}} for malaria prophylaxis and for radical cure of P. vivax, where a {{single 300 mg dose}} is given with the blood-stage drug. It shares the risk of {{haemolysis in G6PD deficiency}}, so it is contraindicated when G6PD status is deficient or unknown and in pregnancy.",
-      "refs": [
-        "KDT8 ch61",
-        "GG14 ch66"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-primaquine-radical",
-      "tags": [
-        "newer-drugs",
-        "pk"
-      ]
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-016",
@@ -448,7 +540,103 @@
       "subtopic": "p3-antiparasitic-primaquine-radical",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-073",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-primaquine-radical",
+      "front": "Short note: Tafenoquine",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Long-acting 8-aminoquinoline derived from primaquine",
+            "Long plasma half-life (KDT8: 14-19 days), so given as a single dose"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Radical cure of vivax malaria with a blood schizontocide such as chloroquine",
+            "Prophylaxis regimen approved in 2018 (Katzung16); KDT8 (2017) described it as awaiting approval"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Avoid in G6PD deficiency, because the long half-life prolongs harm",
+            "Tafenoquine and primaquine: check G6PD status first"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Headache, diarrhoea, dizziness, nausea, vomiting"
+          ]
+        }
+      ],
+      "tags": [
+        "newer-drugs",
+        "contraindications"
+      ],
+      "refs": [
+        "Katzung16 ch52",
+        "KDT8 ch61"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-093",
+      "type": "essay",
+      "subtopic": "p3-antiparasitic-primaquine-radical",
+      "front": "Essay: Radical cure of vivax malaria and the problem of G6PD deficiency",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Vivax and ovale leave hypnozoites in the liver, causing relapses after blood-stage cure"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Primaquine with a curative blood schizontocide, daily for 14 days; tafenoquine is a single-dose long-acting alternative"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Dose-related haemolysis and methaemoglobinaemia, worse in G6PD deficiency; avoid in pregnancy"
+          ]
+        },
+        {
+          "h": "Safeguards",
+          "points": [
+            "Test G6PD first, give with food, stop if dark urine appears",
+            "Tafenoquine: its long half-life prolongs harm if G6PD deficient"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p3-antiparasitic-017",
@@ -463,7 +651,8 @@
       "subtopic": "p3-antiparasitic-artemisinins-acts",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-018",
@@ -478,7 +667,25 @@
       "subtopic": "p3-antiparasitic-artemisinins-acts",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-079",
+      "type": "cloze",
+      "subtopic": "p3-antiparasitic-artemisinins-acts",
+      "front": "Complete: atovaquone-proguanil (Malarone)",
+      "text": "Malarone contains atovaquone {{250 mg}} and proguanil {{100 mg}}. Atovaquone disrupts {{mitochondrial electron transport}}. Absorption is {{increased by fatty food}}. For prophylaxis, the drug is stopped {{1 week}} after leaving the endemic area, against {{4 weeks}} for mefloquine or doxycycline.",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-019",
@@ -493,7 +700,8 @@
       "subtopic": "p3-antiparasitic-artemisinins-acts",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-020",
@@ -509,7 +717,8 @@
       "tags": [
         "pk",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-021",
@@ -565,7 +774,8 @@
       "tags": [
         "uses",
         "newer-drugs"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-antiparasitic-022",
@@ -580,7 +790,8 @@
       "subtopic": "p3-antiparasitic-malaria-regimens",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-023",
@@ -595,7 +806,8 @@
       "subtopic": "p3-antiparasitic-malaria-regimens",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-024",
@@ -611,7 +823,56 @@
       "subtopic": "p3-antiparasitic-malaria-regimens",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-077",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-malaria-regimens",
+      "front": "Short note: Sulfadoxine-pyrimethamine (SP)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Sequential folate block; slow-acting, but supra-additive combination",
+            "Given as a single dose for clinical cure of falciparum malaria"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Intermittent preventive treatment in pregnancy (KDT8: one dose each in second and third trimesters)",
+            "Katzung16: three or more doses, up to monthly, after the first trimester in Africa",
+            "Sahel seasonal chemoprevention: amodiaquine plus SP"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Not for vivax or severe malaria; resistance first noted in 1980",
+            "Usefulness against P. ovale and P. malariae not adequately studied"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Exfoliative dermatitis, Stevens-Johnson syndrome (lower risk with single-dose use)",
+            "Folate supplements should be kept at standard dose in pregnancy"
+          ]
+        }
+      ],
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch61",
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-025",
@@ -662,7 +923,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-026",
@@ -677,7 +939,282 @@
       "subtopic": "p3-antiparasitic-malaria-regimens",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-075",
+      "type": "basic",
+      "subtopic": "p3-antiparasitic-malaria-regimens",
+      "front": "Why is quinine infused in 5% dextrose and given slowly?",
+      "back": "Dextrose prevents hypoglycaemia caused by quinine-driven insulin release. Rapid IV injection drops blood pressure sharply and can cause cardiovascular collapse.",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-076",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-malaria-regimens",
+      "front": "Short note: Chloroquine-resistant falciparum malaria: treatment",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Chloroquine is no longer used for falciparum; ACT is the standard",
+            "India: artesunate-sulfadoxine-pyrimethamine under NVBDCP, artemether-lumefantrine in the north-east"
+          ]
+        },
+        {
+          "h": "Alternatives",
+          "points": [
+            "Quinine 650 mg TID plus doxycycline 100 mg BD (Katzung16) or clindamycin, given with a second drug to shorten quinine use",
+            "Quinine 600 mg 8-hourly for 7 days plus doxycycline or clindamycin (KDT8)"
+          ]
+        },
+        {
+          "h": "Pregnancy",
+          "points": [
+            "First trimester: quinine with clindamycin for 7 days",
+            "Second and third trimester: 3-day ACT preferred"
+          ]
+        },
+        {
+          "h": "Gametocidal step",
+          "points": [
+            "Single primaquine dose on day 2 after the ACT, to cut transmission"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch61",
+        "Katzung16 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-078",
+      "type": "basic",
+      "subtopic": "p3-antiparasitic-malaria-regimens",
+      "front": "Why is sulfadoxine-pyrimethamine not used for severe malaria?",
+      "back": "It acts more slowly than other antimalarials, so it is not suitable for severe disease.",
+      "tags": [
+        "adr"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-058",
+      "type": "shortnote",
+      "front": "Short note: Recent advances in malaria treatment",
+      "sections": [
+        {
+          "h": "Resistance",
+          "points": [
+            "Artemisinin 'resistance' is delayed parasite clearance over hours, linked to kelch13 mutations",
+            "Partner-drug resistance (e.g. piperaquine) makes ACT failure substantial",
+            "Recrudescence exceeds 50% in parts of Asia",
+            "Triple ACT (artemisinin plus two partners) is being tested"
+          ]
+        },
+        {
+          "h": "Newer and approved drugs",
+          "points": [
+            "Parenteral artesunate FDA-approved in 2020 for severe falciparum malaria",
+            "Tafenoquine: long-acting 8-aminoquinoline, FDA-approved for uses similar to primaquine",
+            "Pyronaridine-artesunate: effective against P. falciparum and P. vivax; not FDA-licensed but available globally"
+          ]
+        },
+        {
+          "h": "Pregnancy and infants",
+          "points": [
+            "ACT not recommended in the first trimester or for children weighing 5 kg or less",
+            "Artemether-lumefantrine first-trimester data may widen ACT use in pregnancy"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch66"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "newer-drugs"
+      ],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-malaria-regimens",
+      "level": 3
+    },
+    {
+      "id": "p3-antiparasitic-074",
+      "type": "essay",
+      "subtopic": "p3-antiparasitic-malaria-regimens",
+      "front": "Essay: Severe falciparum malaria: management",
+      "sections": [
+        {
+          "h": "Recognition",
+          "points": [
+            "Hyperparasitaemia, hyperpyrexia, acidosis, hypoglycaemia (glucose under 40 mg/dl), prostration, renal failure, cerebral malaria"
+          ]
+        },
+        {
+          "h": "First choice",
+          "points": [
+            "IV artesunate 2.4 mg/kg at 0, 12 and 24 hours, then daily (KDT8: 7 days in total)",
+            "Katzung16: daily for 3 days, then a full oral course; switch to 3-day oral ACT when able to swallow"
+          ]
+        },
+        {
+          "h": "Alternatives",
+          "points": [
+            "Artemether IM: 3.2 mg/kg then 1.6 mg/kg daily",
+            "Quinine: 20 mg/kg loading, then 10 mg/kg 8-hourly; infuse in 5% dextrose to avoid hypoglycaemia"
+          ]
+        },
+        {
+          "h": "Supportive care",
+          "points": [
+            "Cooling, IV diazepam for convulsions, fluid and electrolytes, correction of acidosis",
+            "Corticosteroids are useless and possibly harmful in cerebral malaria"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch61",
+        "Katzung16 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p3-antiparasitic-029",
+      "type": "cloze",
+      "front": "Cloze: metronidazole and alcohol",
+      "text": "Some patients taking metronidazole develop a {{disulfiram-like}} reaction when they drink {{alcohol}}, but most patients can drink without reaction. Because of this, alcohol is avoided during treatment and for a period afterwards.",
+      "refs": [
+        "KDT8 ch62"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
+      "tags": [
+        "interactions"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-031",
+      "type": "basic",
+      "front": "What is the role of diloxanide furoate in amoebiasis?",
+      "back": "It is a luminal amoebicide that kills intestinal trophozoites which would otherwise form cysts. The ester is hydrolysed in the gut and the released diloxanide is absorbed, but it has no useful systemic amoebicidal action. It is the preferred drug for mild intestinal disease and asymptomatic cyst passers, given with or after a tissue amoebicide, with 80-90% cure in mild disease.",
+      "refs": [
+        "KDT8 ch62"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-033",
+      "type": "cloze",
+      "front": "Cloze: chloroquine in amoebiasis",
+      "text": "Chloroquine kills {{trophozoites}} and is concentrated in the {{liver}}, so it is used only for {{hepatic amoebiasis}}. It does not clear the intestinal cyst reservoir, so a {{luminal amoebicide}} must always follow.",
+      "refs": [
+        "KDT8 ch62"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-036",
+      "type": "cloze",
+      "front": "Cloze: drugs for giardiasis",
+      "text": "{{Metronidazole}} 400 mg TDS for 5-7 days, {{tinidazole}} as a 2 g single dose, or {{secnidazole}} as a 2 g single dose are first-choice options. {{Nitazoxanide}} 500 mg BD for 3 days is an alternative, and about {{10%}} of patients may need a second course.",
+      "refs": [
+        "KDT8 ch62"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-037",
+      "type": "basic",
+      "front": "Trichomoniasis: first-choice oral drugs and how to prevent reinfection",
+      "back": "Metronidazole 2 g as a single dose (or 400 mg TDS for 7 days), tinidazole, or secnidazole 2 g single dose. Recurrence is common; repeat a course after 4-6 weeks if needed. Treat the male partner at the same time to prevent reinfection. Intravaginal agents are reserved for refractory cases.",
+      "refs": [
+        "KDT8 ch62"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-027",
@@ -692,7 +1229,8 @@
       "subtopic": "p3-antiparasitic-amoebiasis-giardia",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-028",
@@ -751,22 +1289,8 @@
       "tags": [
         "adr",
         "interactions"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-029",
-      "type": "cloze",
-      "front": "Cloze: metronidazole and alcohol",
-      "text": "Some patients taking metronidazole develop a {{disulfiram-like}} reaction when they drink {{alcohol}}, but most patients can drink without reaction. Because of this, alcohol is avoided during treatment and for a period afterwards.",
-      "refs": [
-        "KDT8 ch62"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
-      "tags": [
-        "interactions"
-      ]
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-030",
@@ -781,22 +1305,8 @@
       "subtopic": "p3-antiparasitic-amoebiasis-giardia",
       "tags": [
         "pk"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-031",
-      "type": "basic",
-      "front": "What is the role of diloxanide furoate in amoebiasis?",
-      "back": "It is a luminal amoebicide that kills intestinal trophozoites which would otherwise form cysts. The ester is hydrolysed in the gut and the released diloxanide is absorbed, but it has no useful systemic amoebicidal action. It is the preferred drug for mild intestinal disease and asymptomatic cyst passers, given with or after a tissue amoebicide, with 80-90% cure in mild disease.",
-      "refs": [
-        "KDT8 ch62"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-032",
@@ -811,13 +1321,14 @@
       "subtopic": "p3-antiparasitic-amoebiasis-giardia",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-antiparasitic-033",
-      "type": "cloze",
-      "front": "Cloze: chloroquine in amoebiasis",
-      "text": "Chloroquine kills {{trophozoites}} and is concentrated in the {{liver}}, so it is used only for {{hepatic amoebiasis}}. It does not clear the intestinal cyst reservoir, so a {{luminal amoebicide}} must always follow.",
+      "id": "p3-antiparasitic-035",
+      "type": "basic",
+      "front": "Why were 8-hydroxyquinolines withdrawn in some countries?",
+      "back": "Prolonged, high-dose quiniodochlor caused an epidemic of subacute myelo-optic neuropathy (SMON) in Japan in the 1970s, and other members caused neuropathy and visual impairment. They were banned in Japan and some other countries. In India their use is prohibited in children, because chronic use has caused blindness.",
       "refs": [
         "KDT8 ch62"
       ],
@@ -825,8 +1336,61 @@
       "status": "draft",
       "subtopic": "p3-antiparasitic-amoebiasis-giardia",
       "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-072",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
+      "front": "Short note: Antiamoebic drugs by clinical form (Katzung dosing)",
+      "sections": [
+        {
+          "h": "Asymptomatic cyst passers",
+          "points": [
+            "Luminal agent alone: diloxanide furoate 500 mg TID for 10 days; iodoquinol 650 mg TID for 21 days; paromomycin 10 mg/kg TID for 7 days"
+          ]
+        },
+        {
+          "h": "Intestinal amoebiasis",
+          "points": [
+            "Metronidazole 750 mg TID for 10 days (or 500 mg IV every 6 hours)",
+            "Or tinidazole 2 g daily for 3 days; always followed by a luminal agent"
+          ]
+        },
+        {
+          "h": "Liver abscess and extraintestinal disease",
+          "points": [
+            "Metronidazole 750 mg TID for 10 days, or tinidazole 2 g daily for 5 days",
+            "Luminal agent still needed afterwards"
+          ]
+        },
+        {
+          "h": "Alternatives",
+          "points": [
+            "Tetracycline 250 mg TID or erythromycin 500 mg QID for 10 days, with a luminal agent",
+            "Chloroquine 500 mg BD for 2 days, then 500 mg daily for 21 days (liver disease)"
+          ]
+        }
+      ],
+      "tags": [
+        "dosing",
         "uses"
-      ]
+      ],
+      "refs": [
+        "Katzung16 ch52",
+        "KDT8 ch62"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-034",
@@ -876,52 +1440,8 @@
       "subtopic": "p3-antiparasitic-amoebiasis-giardia",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-035",
-      "type": "basic",
-      "front": "Why were 8-hydroxyquinolines withdrawn in some countries?",
-      "back": "Prolonged, high-dose quiniodochlor caused an epidemic of subacute myelo-optic neuropathy (SMON) in Japan in the 1970s, and other members caused neuropathy and visual impairment. They were banned in Japan and some other countries. In India their use is prohibited in children, because chronic use has caused blindness.",
-      "refs": [
-        "KDT8 ch62"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-036",
-      "type": "cloze",
-      "front": "Cloze: drugs for giardiasis",
-      "text": "{{Metronidazole}} 400 mg TDS for 5-7 days, {{tinidazole}} as a 2 g single dose, or {{secnidazole}} as a 2 g single dose are first-choice options. {{Nitazoxanide}} 500 mg BD for 3 days is an alternative, and about {{10%}} of patients may need a second course.",
-      "refs": [
-        "KDT8 ch62"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-037",
-      "type": "basic",
-      "front": "Trichomoniasis: first-choice oral drugs and how to prevent reinfection",
-      "back": "Metronidazole 2 g as a single dose (or 400 mg TDS for 7 days), tinidazole, or secnidazole 2 g single dose. Recurrence is common; repeat a course after 4-6 weeks if needed. Treat the male partner at the same time to prevent reinfection. Intravaginal agents are reserved for refractory cases.",
-      "refs": [
-        "KDT8 ch62"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
-      "tags": [
-        "uses"
-      ]
+      "level": 3
     },
     {
       "id": "p3-antiparasitic-038",
@@ -936,7 +1456,41 @@
       "subtopic": "p3-antiparasitic-leishmaniasis",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-040",
+      "type": "cloze",
+      "front": "Cloze: drug options for visceral leishmaniasis",
+      "text": "{{Miltefosine}} is the first-line oral drug in India. {{Amphotericin B deoxycholate}} is the second-line drug under the national programme, while WHO prefers {{liposomal amphotericin B}}. {{Paromomycin}} given i.m. for 21 days is an alternative, and {{sodium stibogluconate}} is used only where the parasite is still sensitive.",
+      "refs": [
+        "KDT8 ch62"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-leishmaniasis",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-071",
+      "type": "cloze",
+      "subtopic": "p3-antiparasitic-leishmaniasis",
+      "front": "Complete: paromomycin in kala-azar",
+      "text": "Paromomycin 15 mg/kg/day ({{11 mg base}} per kg) IM for {{21 days}} gave a {{95%}} cure rate in Bihar, against {{99%}} for amphotericin B. Ototoxicity occurs in about {{2%}} of recipients.",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch62"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p3-antiparasitic-039",
@@ -953,22 +1507,8 @@
       "tags": [
         "adr",
         "dosing"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-040",
-      "type": "cloze",
-      "front": "Cloze: drug options for visceral leishmaniasis",
-      "text": "{{Miltefosine}} is the first-line oral drug in India. {{Amphotericin B deoxycholate}} is the second-line drug under the national programme, while WHO prefers {{liposomal amphotericin B}}. {{Paromomycin}} given i.m. for 21 days is an alternative, and {{sodium stibogluconate}} is used only where the parasite is still sensitive.",
-      "refs": [
-        "KDT8 ch62"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-leishmaniasis",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-041",
@@ -984,7 +1524,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-042",
@@ -1038,673 +1579,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-043",
-      "type": "basic",
-      "front": "How does mebendazole kill intestinal worms?",
-      "back": "It binds the parasite's beta-tubulin with high affinity and blocks microtubule formation, which also reduces glucose uptake and glycogen stores. Worms are immobilised and die slowly, over 2-3 days, and hatching of nematode eggs is inhibited. It is poorly absorbed, so it acts in the gut.",
-      "refs": [
-        "KDT8 ch63"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-044",
-      "type": "cloze",
-      "front": "Cloze: albendazole pharmacokinetics",
-      "text": "Albendazole is converted by first-pass metabolism to an active {{sulfoxide}} metabolite, which is widely distributed and enters the {{brain}}. Absorption is improved by a {{fatty}} meal, which is why it is given with food for cysticercosis and hydatid disease.",
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-045",
-      "type": "cloze",
-      "front": "Cloze: first-choice anthelmintic for selected worms",
-      "text": "Strongyloides: {{ivermectin}}. Trichuris: {{mebendazole}}. Trichinella and hydatid disease: {{albendazole}}. Tapeworms (Taenia, Hymenolepis): {{praziquantel}}. Wuchereria and Brugia: {{diethylcarbamazine}} or ivermectin; GG14 notes that a single dose of the triple combination {{ivermectin + DEC + albendazole}} is highly effective in lymphatic filariasis.",
-      "refs": [
-        "KDT8 ch63",
-        "GG14 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-046",
-      "type": "basic",
-      "front": "Pyrantel: mechanism, and why it should not be combined with piperazine",
-      "back": "Pyrantel activates nicotinic receptors on worm muscle, causing persistent depolarisation that leads to slow spastic paralysis and expulsion. Piperazine has the opposite effect, hyperpolarising worm muscle, so it antagonises pyrantel and the two should not be used together.",
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-047",
-      "type": "basic",
-      "front": "Piperazine: mechanism and contraindications",
-      "back": "It acts as a GABA agonist on Ascaris muscle, opening chloride channels. This hyperpolarises the muscle, producing flaccid paralysis, so worms are expelled alive. It is contraindicated in renal insufficiency and epilepsy, and is considered safe in pregnancy.",
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-048",
-      "type": "basic",
-      "front": "Levamisole: current role in helminthiasis",
-      "back": "It is a second-line anthelmintic restricted to ascariasis and ancylostomiasis (hookworm). It stimulates worm ganglia, causing tonic paralysis and expulsion of live worms. Its immunomodulatory use in other diseases has been abandoned because repeated doses cause severe reactions.",
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-049",
-      "type": "basic",
-      "front": "Diethylcarbamazine: which filarial stages does it kill?",
-      "back": "It is highly selective for microfilariae and clears them from blood within about a week, but does not clear those in nodules or fluid collections. Prolonged courses slowly kill adult worms, so it is repeated to achieve a radical cure. It is also used in tropical pulmonary eosinophilia.",
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-050",
-      "type": "basic",
-      "front": "Diethylcarbamazine: how is the febrile reaction reduced?",
-      "back": "Mass death of microfilariae and adult worms causes fever, rash, itching, lymphadenopathy, bronchospasm and fall in blood pressure. Start with a low dose and build up to the full dose over a few days; if a reaction occurs, hold DEC and give an antihistamine or corticosteroid (GG14: such pretreatment is often used). In loiasis and onchocerciasis reactions can be life-threatening: KDT advises a small test dose or initial ivermectin. GG14 states that DEC is contraindicated in onchocerciasis (it worsens eye lesions), ivermectin being preferred, and that ivermectin can itself cause encephalopathy in patients with very heavy Loa loa microfilaraemia.",
-      "refs": [
-        "KDT8 ch63",
-        "GG14 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-051",
-      "type": "basic",
-      "front": "Ivermectin: mechanism and main indications",
-      "back": "It opens invertebrate glutamate-gated chloride channels, paralysing nematodes; it also kills scabies mites and lice. It poorly enters the mammalian CNS because of P-glycoprotein efflux. Key uses: onchocerciasis (repeated doses every 6-12 months), strongyloidiasis, scabies, pediculosis and cutaneous larva migrans. It is microfilaricidal but not macrofilaricidal.",
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-052",
-      "type": "basic",
-      "front": "Praziquantel: mechanism and spectrum",
-      "back": "It causes calcium leakage in susceptible worms, producing contracture and paralysis; at higher concentrations it vacuolates the tegument, so the host's immunity destroys the worm. It acts on schistosomes, most flukes and cestodes (adult and larval stages), but not on nematodes.",
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-053",
-      "type": "shortnote",
-      "front": "Short note: Niclosamide and the Taenia solium precaution",
-      "sections": [
-        {
-          "h": "Action",
-          "points": [
-            "Blocks oxidative phosphorylation in the tapeworm, which is then partly digested in the gut",
-            "Poorly absorbed, so little systemic toxicity; tasteless"
-          ]
-        },
-        {
-          "h": "Regimen for tapeworm",
-          "points": [
-            "After a light breakfast: 2 g chewed over one day (2 tablets, then 2 more an hour later)",
-            "Saline purge 2 hours after the last dose",
-            "Search the stool for the scolex to confirm expulsion"
-          ]
-        },
-        {
-          "h": "Precaution",
-          "points": [
-            "Digestion of T. solium segments can release eggs that develop into larvae and cause visceral cysticercosis",
-            "A thorough purge is needed; praziquantel is preferred for T. solium"
-          ]
-        },
-        {
-          "h": "Other uses",
-          "points": [
-            "H. nana: 2 g daily for 5 days, as the cysticerci of H. nana are not affected in one dose"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-054",
-      "type": "essay",
-      "front": "Essay: Management of neurocysticercosis",
-      "sections": [
-        {
-          "h": "Decide whether to treat",
-          "points": [
-            "Treat active cysts, multiple parenchymal cysts, and intraventricular cysts likely to cause hydrocephalus",
-            "Inactive or calcified cysts may be left alone",
-            "Seizures are controlled symptomatically in all cases"
-          ]
-        },
-        {
-          "h": "Choice of anthelmintic",
-          "points": [
-            "Albendazole is preferred: shorter course (8-15 days), cure of 75-85% against 50-60% for praziquantel, and cheaper",
-            "Praziquantel, 50 mg/kg daily in 3 divided doses for 15-30 days, is the second choice"
-          ]
-        },
-        {
-          "h": "Drug interactions",
-          "points": [
-            "Phenytoin and carbamazepine lower praziquantel levels, so a higher dose may be needed",
-            "Corticosteroids raise albendazole absorption but lower praziquantel levels"
-          ]
-        },
-        {
-          "h": "Cover for inflammation and seizures",
-          "points": [
-            "Start a corticosteroid 2 days before and continue for 2 weeks after the anthelmintic course",
-            "Start an anticonvulsant before the anthelmintic and continue for 1-6 months after it"
-          ]
-        },
-        {
-          "h": "Exclusions and follow-up",
-          "points": [
-            "Do not give an anthelmintic for ocular cysticercosis: the reaction can cause blindness",
-            "Intraventricular or subarachnoid cysts may need a month or longer of treatment",
-            "Expelling the adult tapeworm from the gut removes the source of future cysts"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-055",
-      "type": "basic",
-      "front": "Why is albendazole preferred over praziquantel for neurocysticercosis?",
-      "back": "It needs a shorter course (8-15 days, against 15-30 days for praziquantel), gives higher cure rates in symptom resolution and cyst disappearance (75-85% against 50-60%), and is cheaper. Praziquantel is therefore the second choice.",
-      "refs": [
-        "KDT8 ch63"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-056",
-      "type": "basic",
-      "front": "Hydatid disease: albendazole regimen and its role around surgery",
-      "back": "KDT: 400 mg twice daily for 4 weeks, repeated after 2 weeks if needed, for up to 3 courses; mebendazole is less effective. GG14 calls albendazole the drug of choice for cystic hydatid disease: prolonged treatment gives only modest cure, but it is used around surgery or cyst puncture-aspiration to reduce the risk of dissemination from spilled cyst contents, and for inoperable cysts. Monitor liver function and blood counts on repeated courses.",
-      "refs": [
-        "KDT8 ch63",
-        "GG14 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "dosing",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-057",
-      "type": "basic",
-      "front": "Moxidectin: how does it compare with ivermectin?",
-      "back": "A macrocyclic lactone related to ivermectin and FDA-approved for onchocerciasis, where it is more active than ivermectin. Unlike ivermectin it is a poor P-glycoprotein substrate. It has a very long elimination half-life (about 23 days in onchocerciasis) and is given as a single 8 mg oral dose. Mazzotti-type reactions (itching, rash, tachycardia, fall in blood pressure) are common after treatment. It has not been used in children under 12 years. It also shows activity in strongyloidiasis and, with albendazole, in trichuriasis.",
-      "refs": [
-        "GG14 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "tags": [
-        "newer-drugs",
-        "uses",
-        "pk"
-      ]
-    },
-    {
-      "id": "p3-antiparasitic-058",
-      "type": "shortnote",
-      "front": "Short note: Recent advances in malaria treatment",
-      "sections": [
-        {
-          "h": "Resistance",
-          "points": [
-            "Artemisinin 'resistance' is delayed parasite clearance over hours, linked to kelch13 mutations",
-            "Partner-drug resistance (e.g. piperaquine) makes ACT failure substantial",
-            "Recrudescence exceeds 50% in parts of Asia",
-            "Triple ACT (artemisinin plus two partners) is being tested"
-          ]
-        },
-        {
-          "h": "Newer and approved drugs",
-          "points": [
-            "Parenteral artesunate FDA-approved in 2020 for severe falciparum malaria",
-            "Tafenoquine: long-acting 8-aminoquinoline, FDA-approved for uses similar to primaquine",
-            "Pyronaridine-artesunate: effective against P. falciparum and P. vivax; not FDA-licensed but available globally"
-          ]
-        },
-        {
-          "h": "Pregnancy and infants",
-          "points": [
-            "ACT not recommended in the first trimester or for children weighing 5 kg or less",
-            "Artemether-lumefantrine first-trimester data may widen ACT use in pregnancy"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch66"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "newer-drugs"
-      ],
-      "status": "draft",
-      "subtopic": "p3-antiparasitic-malaria-regimens"
-    },
-    {
-      "id": "p3-antiparasitic-059",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Short note: African trypanosomiasis (sleeping sickness): drug by stage",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "West African: Trypanosoma brucei gambiense; East African: T. b. rhodesiense",
-            "Choice of drug depends on region and on whether the CNS is involved"
-          ]
-        },
-        {
-          "h": "Early (haemolymphatic) stage",
-          "points": [
-            "West African: pentamidine is the drug of choice",
-            "East African: suramin is first line; 200 mg IV test dose first"
-          ]
-        },
-        {
-          "h": "Advanced (CNS) stage",
-          "points": [
-            "East African: melarsoprol",
-            "West African: eflornithine, usually with nifurtimox (10-day nifurtimox course)"
-          ]
-        },
-        {
-          "h": "Newer oral option",
-          "points": [
-            "Fexinidazole: oral, once daily for 10 days",
-            "EMA approval 2018; success in over 90% of advanced cases in the trial"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "newer-drugs"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-060",
-      "type": "essay",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Essay: Chemotherapy of African trypanosomiasis",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Two related organisms cause progressive systemic and neurological disease",
-            "Drug depends on stage: haemolymphatic versus CNS involvement"
-          ]
-        },
-        {
-          "h": "Early disease",
-          "points": [
-            "Pentamidine: West African, not CNS-active, given IM or IV for 10-15 doses",
-            "Suramin: East African; poor CNS penetration so no use in advanced disease"
-          ]
-        },
-        {
-          "h": "Advanced disease",
-          "points": [
-            "Melarsoprol: East African CNS disease; very toxic, reactive encephalopathy",
-            "Eflornithine (ODC inhibitor) with nifurtimox: West African CNS disease; no benefit against East African"
-          ]
-        },
-        {
-          "h": "Oral and newer agents",
-          "points": [
-            "Fexinidazole: first oral therapy, 10 days, equivalent to eflornithine plus nifurtimox in advanced disease"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Melarsoprol resistance reported in parts of Africa",
-            "Eflornithine limited in East African disease by resistance"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-061",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Short note: Chagas disease (American trypanosomiasis): drugs",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Trypanosoma cruzi; endemic in South and Central America",
-            "Mild acute illness, followed years later by cardiac and smooth muscle damage"
-          ]
-        },
-        {
-          "h": "Drugs",
-          "points": [
-            "Benznidazole: nitroimidazole, 5 mg/kg/day in 2-3 doses with meals for 60 days",
-            "Nifurtimox: nitrofuran, 8-10 mg/kg/day in 3 doses with meals for 60-90 days"
-          ]
-        },
-        {
-          "h": "Toxicity",
-          "points": [
-            "Benznidazole: rash in 20-30%, neuropathy, GI upset, myelosuppression",
-            "Nifurtimox: nausea, neuropathy, seizures; often stopped before course ends"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Best effect in acute infection; activity against chronic disease suboptimal",
-            "Benznidazole gave no clinical benefit in Chagas cardiomyopathy in a recent trial"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-062",
-      "type": "basic",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Why are benznidazole and nifurtimox less useful in chronic Chagas disease?",
-      "back": "They eliminate parasites and prevent progression when used in acute infection, but their activity against established chronic disease is suboptimal.",
-      "tags": [
-        "uses"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-063",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Short note: Pneumocystis jirovecii pneumonia: drug options",
-      "sections": [
-        {
-          "h": "Organism",
-          "points": [
-            "Now classed as a fungus, but it responds to antiprotozoal drugs, not antifungals"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "First line: trimethoprim-sulfamethoxazole, 15-20 mg/kg/day trimethoprim for 21 days",
-            "Alternatives: atovaquone 750 mg BD with food for 21 days; IV pentamidine 3 mg/kg/day for 21 days",
-            "Clindamycin plus primaquine: alternative for mild to moderate disease"
-          ]
-        },
-        {
-          "h": "Prophylaxis",
-          "points": [
-            "Inhaled pentamidine 300 mg monthly: good tolerance, efficacy below daily TMP-SMX"
-          ]
-        },
-        {
-          "h": "Toxicity",
-          "points": [
-            "High-dose TMP-SMX has significant toxicity, especially in AIDS",
-            "Pentamidine: hypoglycaemia, pancreatic toxicity, renal insufficiency"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-064",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Short note: Toxoplasmosis: treatment",
-      "sections": [
-        {
-          "h": "First line",
-          "points": [
-            "Pyrimethamine with sulfadiazine and folinic acid; covers acute, congenital and immunocompromised disease",
-            "Clindamycin replaces sulfadiazine as an effective alternative"
-          ]
-        },
-        {
-          "h": "Pregnancy",
-          "points": [
-            "Spiramycin 3 g daily until delivery for primary infection acquired in pregnancy",
-            "Spiramycin lowers the risk of congenital toxoplasmosis"
-          ]
-        },
-        {
-          "h": "Immunocompromised",
-          "points": [
-            "High-dose therapy followed by chronic suppressive therapy",
-            "Folinic acid limits myelosuppression from pyrimethamine"
-          ]
-        },
-        {
-          "h": "Other",
-          "points": [
-            "Atovaquone used in a few patients unresponsive to other agents"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "dosing"
-      ],
-      "refs": [
-        "Katzung16 ch52",
-        "KDT8 ch61"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-065",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Short note: Babesiosis, isosporiasis, cryptosporidiosis and microsporidiosis",
-      "sections": [
-        {
-          "h": "Babesiosis",
-          "points": [
-            "Quinine with clindamycin is first line",
-            "Clindamycin 600 mg TID for 7 days; quinine 650 mg TID for 7 days (preferred in severe disease)"
-          ]
-        },
-        {
-          "h": "Isospora belli",
-          "points": [
-            "Trimethoprim-sulfamethoxazole: 10 days of four double-strength tablets daily, then twice daily for 21 days"
-          ]
-        },
-        {
-          "h": "Cryptosporidium",
-          "points": [
-            "Poor response to therapy, especially in immunocompromised hosts",
-            "Nitazoxanide is approved for it"
-          ]
-        },
-        {
-          "h": "Microsporidia",
-          "points": [
-            "Albendazole 400 mg BD for 20-30 days (book range); 2 weeks or longer in the anthelmintic chapter"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "dosing"
-      ],
-      "refs": [
-        "Katzung16 ch52",
-        "Katzung16 ch53"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-066",
-      "type": "cloze",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Complete: nitazoxanide",
-      "text": "Nitazoxanide is a nitrothiazolyl-salicylamide {{prodrug}} converted to {{tizoxanide}}, which inhibits {{pyruvate-ferredoxin oxidoreductase}}. It is approved for {{Giardia}} and {{Cryptosporidium}} infection, dosed 500 mg twice daily for {{3}} days.",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-067",
-      "type": "basic",
-      "subtopic": "p3-antiparasitic-other-protozoa",
-      "front": "Nitazoxanide: what does Katzung cite as an advantage over metronidazole?",
-      "back": "Activity against some metronidazole-resistant protozoal strains, and neither the drug nor its metabolites are mutagenic.",
-      "tags": [
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-068",
@@ -1749,7 +1625,8 @@
         "KDT8 ch62"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-069",
@@ -1808,7 +1685,8 @@
           "marks": 10
         }
       ],
-      "status": "draft"
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p3-antiparasitic-070",
@@ -1820,290 +1698,103 @@
         "uses"
       ],
       "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-071",
-      "type": "cloze",
-      "subtopic": "p3-antiparasitic-leishmaniasis",
-      "front": "Complete: paromomycin in kala-azar",
-      "text": "Paromomycin 15 mg/kg/day ({{11 mg base}} per kg) IM for {{21 days}} gave a {{95%}} cure rate in Bihar, against {{99%}} for amphotericin B. Ototoxicity occurs in about {{2%}} of recipients.",
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch62"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-072",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-amoebiasis-giardia",
-      "front": "Short note: Antiamoebic drugs by clinical form (Katzung dosing)",
-      "sections": [
-        {
-          "h": "Asymptomatic cyst passers",
-          "points": [
-            "Luminal agent alone: diloxanide furoate 500 mg TID for 10 days; iodoquinol 650 mg TID for 21 days; paromomycin 10 mg/kg TID for 7 days"
-          ]
-        },
-        {
-          "h": "Intestinal amoebiasis",
-          "points": [
-            "Metronidazole 750 mg TID for 10 days (or 500 mg IV every 6 hours)",
-            "Or tinidazole 2 g daily for 3 days; always followed by a luminal agent"
-          ]
-        },
-        {
-          "h": "Liver abscess and extraintestinal disease",
-          "points": [
-            "Metronidazole 750 mg TID for 10 days, or tinidazole 2 g daily for 5 days",
-            "Luminal agent still needed afterwards"
-          ]
-        },
-        {
-          "h": "Alternatives",
-          "points": [
-            "Tetracycline 250 mg TID or erythromycin 500 mg QID for 10 days, with a luminal agent",
-            "Chloroquine 500 mg BD for 2 days, then 500 mg daily for 21 days (liver disease)"
-          ]
-        }
-      ],
-      "tags": [
-        "dosing",
-        "uses"
-      ],
-      "refs": [
         "Katzung16 ch52",
         "KDT8 ch62"
       ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
+      "pyq": [],
+      "status": "draft",
+      "level": 3
     },
     {
-      "id": "p3-antiparasitic-073",
+      "id": "p3-antiparasitic-044",
+      "type": "cloze",
+      "front": "Cloze: albendazole pharmacokinetics",
+      "text": "Albendazole is converted by first-pass metabolism to an active {{sulfoxide}} metabolite, which is widely distributed and enters the {{brain}}. Absorption is improved by a {{fatty}} meal, which is why it is given with food for cysticercosis and hydatid disease.",
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-045",
+      "type": "cloze",
+      "front": "Cloze: first-choice anthelmintic for selected worms",
+      "text": "Strongyloides: {{ivermectin}}. Trichuris: {{mebendazole}}. Trichinella and hydatid disease: {{albendazole}}. Tapeworms (Taenia, Hymenolepis): {{praziquantel}}. Wuchereria and Brugia: {{diethylcarbamazine}} or ivermectin; GG14 notes that a single dose of the triple combination {{ivermectin + DEC + albendazole}} is highly effective in lymphatic filariasis.",
+      "refs": [
+        "KDT8 ch63",
+        "GG14 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-048",
+      "type": "basic",
+      "front": "Levamisole: current role in helminthiasis",
+      "back": "It is a second-line anthelmintic restricted to ascariasis and ancylostomiasis (hookworm). It stimulates worm ganglia, causing tonic paralysis and expulsion of live worms. Its immunomodulatory use in other diseases has been abandoned because repeated doses cause severe reactions.",
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-049",
+      "type": "basic",
+      "front": "Diethylcarbamazine: which filarial stages does it kill?",
+      "back": "It is highly selective for microfilariae and clears them from blood within about a week, but does not clear those in nodules or fluid collections. Prolonged courses slowly kill adult worms, so it is repeated to achieve a radical cure. It is also used in tropical pulmonary eosinophilia.",
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-085",
       "type": "shortnote",
-      "subtopic": "p3-antiparasitic-primaquine-radical",
-      "front": "Short note: Tafenoquine",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "front": "Short note: Thiabendazole",
       "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Long-acting 8-aminoquinoline derived from primaquine",
-            "Long plasma half-life (KDT8: 14-19 days), so given as a single dose"
-          ]
-        },
         {
           "h": "Use",
           "points": [
-            "Radical cure of vivax malaria with a blood schizontocide such as chloroquine",
-            "Prophylaxis regimen approved in 2018 (Katzung16); KDT8 (2017) described it as awaiting approval"
+            "Alternative to ivermectin or albendazole for strongyloidiasis and cutaneous larva migrans",
+            "Most other agents now preferred for most indications"
           ]
         },
         {
-          "h": "Cautions",
+          "h": "Dose",
           "points": [
-            "Avoid in G6PD deficiency, because the long half-life prolongs harm",
-            "Tafenoquine and primaquine: check G6PD status first"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Headache, diarrhoea, dizziness, nausea, vomiting"
-          ]
-        }
-      ],
-      "tags": [
-        "newer-drugs",
-        "contraindications"
-      ],
-      "refs": [
-        "Katzung16 ch52",
-        "KDT8 ch61"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-074",
-      "type": "essay",
-      "subtopic": "p3-antiparasitic-malaria-regimens",
-      "front": "Essay: Severe falciparum malaria: management",
-      "sections": [
-        {
-          "h": "Recognition",
-          "points": [
-            "Hyperparasitaemia, hyperpyrexia, acidosis, hypoglycaemia (glucose under 40 mg/dl), prostration, renal failure, cerebral malaria"
-          ]
-        },
-        {
-          "h": "First choice",
-          "points": [
-            "IV artesunate 2.4 mg/kg at 0, 12 and 24 hours, then daily (KDT8: 7 days in total)",
-            "Katzung16: daily for 3 days, then a full oral course; switch to 3-day oral ACT when able to swallow"
-          ]
-        },
-        {
-          "h": "Alternatives",
-          "points": [
-            "Artemether IM: 3.2 mg/kg then 1.6 mg/kg daily",
-            "Quinine: 20 mg/kg loading, then 10 mg/kg 8-hourly; infuse in 5% dextrose to avoid hypoglycaemia"
-          ]
-        },
-        {
-          "h": "Supportive care",
-          "points": [
-            "Cooling, IV diazepam for convulsions, fluid and electrolytes, correction of acidosis",
-            "Corticosteroids are useless and possibly harmful in cerebral malaria"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch61",
-        "Katzung16 ch52"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2016,
-          "marks": 20
-        },
-        {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-075",
-      "type": "basic",
-      "subtopic": "p3-antiparasitic-malaria-regimens",
-      "front": "Why is quinine infused in 5% dextrose and given slowly?",
-      "back": "Dextrose prevents hypoglycaemia caused by quinine-driven insulin release. Rapid IV injection drops blood pressure sharply and can cause cardiovascular collapse.",
-      "tags": [
-        "adr",
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch61"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-076",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-malaria-regimens",
-      "front": "Short note: Chloroquine-resistant falciparum malaria: treatment",
-      "sections": [
-        {
-          "h": "Principle",
-          "points": [
-            "Chloroquine is no longer used for falciparum; ACT is the standard",
-            "India: artesunate-sulfadoxine-pyrimethamine under NVBDCP, artemether-lumefantrine in the north-east"
-          ]
-        },
-        {
-          "h": "Alternatives",
-          "points": [
-            "Quinine 650 mg TID plus doxycycline 100 mg BD (Katzung16) or clindamycin, given with a second drug to shorten quinine use",
-            "Quinine 600 mg 8-hourly for 7 days plus doxycycline or clindamycin (KDT8)"
-          ]
-        },
-        {
-          "h": "Pregnancy",
-          "points": [
-            "First trimester: quinine with clindamycin for 7 days",
-            "Second and third trimester: 3-day ACT preferred"
-          ]
-        },
-        {
-          "h": "Gametocidal step",
-          "points": [
-            "Single primaquine dose on day 2 after the ACT, to cut transmission"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch61",
-        "Katzung16 ch52"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-077",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-malaria-regimens",
-      "front": "Short note: Sulfadoxine-pyrimethamine (SP)",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Sequential folate block; slow-acting, but supra-additive combination",
-            "Given as a single dose for clinical cure of falciparum malaria"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Intermittent preventive treatment in pregnancy (KDT8: one dose each in second and third trimesters)",
-            "Katzung16: three or more doses, up to monthly, after the first trimester in Africa",
-            "Sahel seasonal chemoprevention: amodiaquine plus SP"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Not for vivax or severe malaria; resistance first noted in 1980",
-            "Usefulness against P. ovale and P. malariae not adequately studied"
+            "25 mg/kg (maximum 1.5 g) twice daily after meals",
+            "Strongyloidiasis: 2 days; repeat after 1 week if needed"
           ]
         },
         {
           "h": "Toxicity",
           "points": [
-            "Exfoliative dermatitis, Stevens-Johnson syndrome (lower risk with single-dose use)",
-            "Folate supplements should be kept at standard dose in pregnancy"
+            "More toxic than other benzimidazoles and ivermectin",
+            "Irreversible liver failure and fatal Stevens-Johnson syndrome reported"
           ]
         }
       ],
@@ -2112,88 +1803,279 @@
         "uses"
       ],
       "refs": [
-        "KDT8 ch61",
-        "Katzung16 ch52"
+        "Katzung16 ch53"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 1
     },
     {
-      "id": "p3-antiparasitic-078",
-      "type": "basic",
-      "subtopic": "p3-antiparasitic-malaria-regimens",
-      "front": "Why is sulfadoxine-pyrimethamine not used for severe malaria?",
-      "back": "It acts more slowly than other antimalarials, so it is not suitable for severe disease.",
-      "tags": [
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-079",
-      "type": "cloze",
-      "subtopic": "p3-antiparasitic-artemisinins-acts",
-      "front": "Complete: atovaquone-proguanil (Malarone)",
-      "text": "Malarone contains atovaquone {{250 mg}} and proguanil {{100 mg}}. Atovaquone disrupts {{mitochondrial electron transport}}. Absorption is {{increased by fatty food}}. For prophylaxis, the drug is stopped {{1 week}} after leaving the endemic area, against {{4 weeks}} for mefloquine or doxycycline.",
-      "tags": [
-        "pk",
-        "uses"
-      ],
-      "refs": [
-        "Katzung16 ch52"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-080",
-      "type": "essay",
+      "id": "p3-antiparasitic-086",
+      "type": "shortnote",
       "subtopic": "p3-antiparasitic-anthelmintics",
-      "front": "Essay: Drugs for fluke infections (trematodes)",
+      "front": "Short note: Oxamniquine",
       "sections": [
         {
-          "h": "Schistosomes",
+          "h": "What and use",
           "points": [
-            "Praziquantel: drug of choice for all forms",
-            "Oxamniquine: alternative for S. mansoni only",
-            "Metrifonate: low-cost option for S. haematobium only"
+            "Alternative to praziquantel for Schistosoma mansoni, including mixed infections with metrifonate",
+            "Not effective against S. haematobium or S. japonicum"
           ]
         },
         {
-          "h": "Liver flukes",
+          "h": "Action",
           "points": [
-            "Fasciola hepatica: triclabendazole first line; bithionol alternative",
-            "Clonorchis and Opisthorchis: praziquantel, albendazole alternative"
+            "Active on mature and immature worms; not cercaricidal",
+            "Worms detach and die in the liver; females stop laying eggs"
           ]
         },
         {
-          "h": "Lung fluke",
+          "h": "Dose and food",
           "points": [
-            "Paragonimus westermani: praziquantel 25 mg/kg TID for 2 days; bithionol or triclabendazole alternatives"
+            "Adult dose 12-15 mg/kg once in the western hemisphere; given with food"
           ]
         },
         {
-          "h": "Intestinal flukes",
+          "h": "Adverse effects and contraindications",
           "points": [
-            "Fasciolopsis buski: praziquantel or niclosamide",
-            "Praziquantel is not effective for Fasciola"
+            "CNS effects (dizziness, headache, drowsiness); orange to red urine",
+            "Contraindicated in pregnancy; caution in epilepsy"
           ]
         }
       ],
       "tags": [
         "uses",
-        "classification"
+        "adr"
       ],
       "refs": [
-        "Katzung16 ch53",
+        "Katzung16 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-087",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "front": "Short note: Bithionol",
+      "sections": [
+        {
+          "h": "Use",
+          "points": [
+            "Alternative to triclabendazole for fascioliasis",
+            "Alternative to praziquantel for paragonimiasis"
+          ]
+        },
+        {
+          "h": "Dose",
+          "points": [
+            "30-50 mg/kg in two or three divided doses after meals, alternate days, for 10-15 doses"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Up to 40% have mild, transient diarrhoea, cramps, nausea, dizziness",
+            "Skin rash after a week or more, from antigens of dying worms"
+          ]
+        },
+        {
+          "h": "Caution",
+          "points": [
+            "Limited experience below 8 years of age"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "Katzung16 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-088",
+      "type": "basic",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "front": "Metrifonate: how does it act, and which worm does it treat?",
+      "back": "It is converted to dichlorvos, which inhibits cholinesterase and paralyses adult Schistosoma haematobium so they are cleared; it does not kill eggs.",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "refs": [
+        "Katzung16 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-043",
+      "type": "basic",
+      "front": "How does mebendazole kill intestinal worms?",
+      "back": "It binds the parasite's beta-tubulin with high affinity and blocks microtubule formation, which also reduces glucose uptake and glycogen stores. Worms are immobilised and die slowly, over 2-3 days, and hatching of nematode eggs is inhibited. It is poorly absorbed, so it acts in the gut.",
+      "refs": [
         "KDT8 ch63"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-046",
+      "type": "basic",
+      "front": "Pyrantel: mechanism, and why it should not be combined with piperazine",
+      "back": "Pyrantel activates nicotinic receptors on worm muscle, causing persistent depolarisation that leads to slow spastic paralysis and expulsion. Piperazine has the opposite effect, hyperpolarising worm muscle, so it antagonises pyrantel and the two should not be used together.",
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-047",
+      "type": "basic",
+      "front": "Piperazine: mechanism and contraindications",
+      "back": "It acts as a GABA agonist on Ascaris muscle, opening chloride channels. This hyperpolarises the muscle, producing flaccid paralysis, so worms are expelled alive. It is contraindicated in renal insufficiency and epilepsy, and is considered safe in pregnancy.",
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-050",
+      "type": "basic",
+      "front": "Diethylcarbamazine: how is the febrile reaction reduced?",
+      "back": "Mass death of microfilariae and adult worms causes fever, rash, itching, lymphadenopathy, bronchospasm and fall in blood pressure. Start with a low dose and build up to the full dose over a few days; if a reaction occurs, hold DEC and give an antihistamine or corticosteroid (GG14: such pretreatment is often used). In loiasis and onchocerciasis reactions can be life-threatening: KDT advises a small test dose or initial ivermectin. GG14 states that DEC is contraindicated in onchocerciasis (it worsens eye lesions), ivermectin being preferred, and that ivermectin can itself cause encephalopathy in patients with very heavy Loa loa microfilaraemia.",
+      "refs": [
+        "KDT8 ch63",
+        "GG14 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-051",
+      "type": "basic",
+      "front": "Ivermectin: mechanism and main indications",
+      "back": "It opens invertebrate glutamate-gated chloride channels, paralysing nematodes; it also kills scabies mites and lice. It poorly enters the mammalian CNS because of P-glycoprotein efflux. Key uses: onchocerciasis (repeated doses every 6-12 months), strongyloidiasis, scabies, pediculosis and cutaneous larva migrans. It is microfilaricidal but not macrofilaricidal.",
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-052",
+      "type": "basic",
+      "front": "Praziquantel: mechanism and spectrum",
+      "back": "It causes calcium leakage in susceptible worms, producing contracture and paralysis; at higher concentrations it vacuolates the tegument, so the host's immunity destroys the worm. It acts on schistosomes, most flukes and cestodes (adult and larval stages), but not on nematodes.",
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-053",
+      "type": "shortnote",
+      "front": "Short note: Niclosamide and the Taenia solium precaution",
+      "sections": [
+        {
+          "h": "Action",
+          "points": [
+            "Blocks oxidative phosphorylation in the tapeworm, which is then partly digested in the gut",
+            "Poorly absorbed, so little systemic toxicity; tasteless"
+          ]
+        },
+        {
+          "h": "Regimen for tapeworm",
+          "points": [
+            "After a light breakfast: 2 g chewed over one day (2 tablets, then 2 more an hour later)",
+            "Saline purge 2 hours after the last dose",
+            "Search the stool for the scolex to confirm expulsion"
+          ]
+        },
+        {
+          "h": "Precaution",
+          "points": [
+            "Digestion of T. solium segments can release eggs that develop into larvae and cause visceral cysticercosis",
+            "A thorough purge is needed; praziquantel is preferred for T. solium"
+          ]
+        },
+        {
+          "h": "Other uses",
+          "points": [
+            "H. nana: 2 g daily for 5 days, as the cysticerci of H. nana are not affected in one dose"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-056",
+      "type": "basic",
+      "front": "Hydatid disease: albendazole regimen and its role around surgery",
+      "back": "KDT: 400 mg twice daily for 4 weeks, repeated after 2 weeks if needed, for up to 3 courses; mebendazole is less effective. GG14 calls albendazole the drug of choice for cystic hydatid disease: prolonged treatment gives only modest cure, but it is used around surgery or cyst puncture-aspiration to reduce the risk of dissemination from spilled cyst contents, and for inoperable cysts. Monitor liver function and blood counts on repeated courses.",
+      "refs": [
+        "KDT8 ch63",
+        "GG14 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-081",
@@ -2238,7 +2120,8 @@
         "Katzung16 ch53"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-082",
@@ -2287,7 +2170,8 @@
         "Katzung16 ch53"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-antiparasitic-083",
@@ -2333,7 +2217,143 @@
         "Katzung16 ch53"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-054",
+      "type": "essay",
+      "front": "Essay: Management of neurocysticercosis",
+      "sections": [
+        {
+          "h": "Decide whether to treat",
+          "points": [
+            "Treat active cysts, multiple parenchymal cysts, and intraventricular cysts likely to cause hydrocephalus",
+            "Inactive or calcified cysts may be left alone",
+            "Seizures are controlled symptomatically in all cases"
+          ]
+        },
+        {
+          "h": "Choice of anthelmintic",
+          "points": [
+            "Albendazole is preferred: shorter course (8-15 days), cure of 75-85% against 50-60% for praziquantel, and cheaper",
+            "Praziquantel, 50 mg/kg daily in 3 divided doses for 15-30 days, is the second choice"
+          ]
+        },
+        {
+          "h": "Drug interactions",
+          "points": [
+            "Phenytoin and carbamazepine lower praziquantel levels, so a higher dose may be needed",
+            "Corticosteroids raise albendazole absorption but lower praziquantel levels"
+          ]
+        },
+        {
+          "h": "Cover for inflammation and seizures",
+          "points": [
+            "Start a corticosteroid 2 days before and continue for 2 weeks after the anthelmintic course",
+            "Start an anticonvulsant before the anthelmintic and continue for 1-6 months after it"
+          ]
+        },
+        {
+          "h": "Exclusions and follow-up",
+          "points": [
+            "Do not give an anthelmintic for ocular cysticercosis: the reaction can cause blindness",
+            "Intraventricular or subarachnoid cysts may need a month or longer of treatment",
+            "Expelling the adult tapeworm from the gut removes the source of future cysts"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-antiparasitic-055",
+      "type": "basic",
+      "front": "Why is albendazole preferred over praziquantel for neurocysticercosis?",
+      "back": "It needs a shorter course (8-15 days, against 15-30 days for praziquantel), gives higher cure rates in symptom resolution and cyst disappearance (75-85% against 50-60%), and is cheaper. Praziquantel is therefore the second choice.",
+      "refs": [
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-antiparasitic-057",
+      "type": "basic",
+      "front": "Moxidectin: how does it compare with ivermectin?",
+      "back": "A macrocyclic lactone related to ivermectin and FDA-approved for onchocerciasis, where it is more active than ivermectin. Unlike ivermectin it is a poor P-glycoprotein substrate. It has a very long elimination half-life (about 23 days in onchocerciasis) and is given as a single 8 mg oral dose. Mazzotti-type reactions (itching, rash, tachycardia, fall in blood pressure) are common after treatment. It has not been used in children under 12 years. It also shows activity in strongyloidiasis and, with albendazole, in trichuriasis.",
+      "refs": [
+        "GG14 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "tags": [
+        "newer-drugs",
+        "uses",
+        "pk"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-antiparasitic-080",
+      "type": "essay",
+      "subtopic": "p3-antiparasitic-anthelmintics",
+      "front": "Essay: Drugs for fluke infections (trematodes)",
+      "sections": [
+        {
+          "h": "Schistosomes",
+          "points": [
+            "Praziquantel: drug of choice for all forms",
+            "Oxamniquine: alternative for S. mansoni only",
+            "Metrifonate: low-cost option for S. haematobium only"
+          ]
+        },
+        {
+          "h": "Liver flukes",
+          "points": [
+            "Fasciola hepatica: triclabendazole first line; bithionol alternative",
+            "Clonorchis and Opisthorchis: praziquantel, albendazole alternative"
+          ]
+        },
+        {
+          "h": "Lung fluke",
+          "points": [
+            "Paragonimus westermani: praziquantel 25 mg/kg TID for 2 days; bithionol or triclabendazole alternatives"
+          ]
+        },
+        {
+          "h": "Intestinal flukes",
+          "points": [
+            "Fasciolopsis buski: praziquantel or niclosamide",
+            "Praziquantel is not effective for Fasciola"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "classification"
+      ],
+      "refs": [
+        "Katzung16 ch53",
+        "KDT8 ch63"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p3-antiparasitic-084",
@@ -2349,148 +2369,8 @@
         "Katzung16 ch53"
       ],
       "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-085",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "front": "Short note: Thiabendazole",
-      "sections": [
-        {
-          "h": "Use",
-          "points": [
-            "Alternative to ivermectin or albendazole for strongyloidiasis and cutaneous larva migrans",
-            "Most other agents now preferred for most indications"
-          ]
-        },
-        {
-          "h": "Dose",
-          "points": [
-            "25 mg/kg (maximum 1.5 g) twice daily after meals",
-            "Strongyloidiasis: 2 days; repeat after 1 week if needed"
-          ]
-        },
-        {
-          "h": "Toxicity",
-          "points": [
-            "More toxic than other benzimidazoles and ivermectin",
-            "Irreversible liver failure and fatal Stevens-Johnson syndrome reported"
-          ]
-        }
-      ],
-      "tags": [
-        "adr",
-        "uses"
-      ],
-      "refs": [
-        "Katzung16 ch53"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-086",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "front": "Short note: Oxamniquine",
-      "sections": [
-        {
-          "h": "What and use",
-          "points": [
-            "Alternative to praziquantel for Schistosoma mansoni, including mixed infections with metrifonate",
-            "Not effective against S. haematobium or S. japonicum"
-          ]
-        },
-        {
-          "h": "Action",
-          "points": [
-            "Active on mature and immature worms; not cercaricidal",
-            "Worms detach and die in the liver; females stop laying eggs"
-          ]
-        },
-        {
-          "h": "Dose and food",
-          "points": [
-            "Adult dose 12-15 mg/kg once in the western hemisphere; given with food"
-          ]
-        },
-        {
-          "h": "Adverse effects and contraindications",
-          "points": [
-            "CNS effects (dizziness, headache, drowsiness); orange to red urine",
-            "Contraindicated in pregnancy; caution in epilepsy"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch53"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-087",
-      "type": "shortnote",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "front": "Short note: Bithionol",
-      "sections": [
-        {
-          "h": "Use",
-          "points": [
-            "Alternative to triclabendazole for fascioliasis",
-            "Alternative to praziquantel for paragonimiasis"
-          ]
-        },
-        {
-          "h": "Dose",
-          "points": [
-            "30-50 mg/kg in two or three divided doses after meals, alternate days, for 10-15 doses"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Up to 40% have mild, transient diarrhoea, cramps, nausea, dizziness",
-            "Skin rash after a week or more, from antigens of dying worms"
-          ]
-        },
-        {
-          "h": "Caution",
-          "points": [
-            "Limited experience below 8 years of age"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch53"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-antiparasitic-088",
-      "type": "basic",
-      "subtopic": "p3-antiparasitic-anthelmintics",
-      "front": "Metrifonate: how does it act, and which worm does it treat?",
-      "back": "It is converted to dichlorvos, which inhibits cholinesterase and paralyses adult Schistosoma haematobium so they are cleared; it does not kill eggs.",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "refs": [
-        "Katzung16 ch53"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p3-antiparasitic-089",
@@ -2535,7 +2415,542 @@
         "KDT8 ch63"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p3-antiparasitic-059",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Short note: African trypanosomiasis (sleeping sickness): drug by stage",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "West African: Trypanosoma brucei gambiense; East African: T. b. rhodesiense",
+            "Choice of drug depends on region and on whether the CNS is involved"
+          ]
+        },
+        {
+          "h": "Early (haemolymphatic) stage",
+          "points": [
+            "West African: pentamidine is the drug of choice",
+            "East African: suramin is first line; 200 mg IV test dose first"
+          ]
+        },
+        {
+          "h": "Advanced (CNS) stage",
+          "points": [
+            "East African: melarsoprol",
+            "West African: eflornithine, usually with nifurtimox (10-day nifurtimox course)"
+          ]
+        },
+        {
+          "h": "Newer oral option",
+          "points": [
+            "Fexinidazole: oral, once daily for 10 days",
+            "EMA approval 2018; success in over 90% of advanced cases in the trial"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-061",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Short note: Chagas disease (American trypanosomiasis): drugs",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Trypanosoma cruzi; endemic in South and Central America",
+            "Mild acute illness, followed years later by cardiac and smooth muscle damage"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Benznidazole: nitroimidazole, 5 mg/kg/day in 2-3 doses with meals for 60 days",
+            "Nifurtimox: nitrofuran, 8-10 mg/kg/day in 3 doses with meals for 60-90 days"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Benznidazole: rash in 20-30%, neuropathy, GI upset, myelosuppression",
+            "Nifurtimox: nausea, neuropathy, seizures; often stopped before course ends"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Best effect in acute infection; activity against chronic disease suboptimal",
+            "Benznidazole gave no clinical benefit in Chagas cardiomyopathy in a recent trial"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-065",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Short note: Babesiosis, isosporiasis, cryptosporidiosis and microsporidiosis",
+      "sections": [
+        {
+          "h": "Babesiosis",
+          "points": [
+            "Quinine with clindamycin is first line",
+            "Clindamycin 600 mg TID for 7 days; quinine 650 mg TID for 7 days (preferred in severe disease)"
+          ]
+        },
+        {
+          "h": "Isospora belli",
+          "points": [
+            "Trimethoprim-sulfamethoxazole: 10 days of four double-strength tablets daily, then twice daily for 21 days"
+          ]
+        },
+        {
+          "h": "Cryptosporidium",
+          "points": [
+            "Poor response to therapy, especially in immunocompromised hosts",
+            "Nitazoxanide is approved for it"
+          ]
+        },
+        {
+          "h": "Microsporidia",
+          "points": [
+            "Albendazole 400 mg BD for 20-30 days (book range); 2 weeks or longer in the anthelmintic chapter"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "refs": [
+        "Katzung16 ch52",
+        "Katzung16 ch53"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-066",
+      "type": "cloze",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Complete: nitazoxanide",
+      "text": "Nitazoxanide is a nitrothiazolyl-salicylamide {{prodrug}} converted to {{tizoxanide}}, which inhibits {{pyruvate-ferredoxin oxidoreductase}}. It is approved for {{Giardia}} and {{Cryptosporidium}} infection, dosed 500 mg twice daily for {{3}} days.",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-062",
+      "type": "basic",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Why are benznidazole and nifurtimox less useful in chronic Chagas disease?",
+      "back": "They eliminate parasites and prevent progression when used in acute infection, but their activity against established chronic disease is suboptimal.",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-063",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Short note: Pneumocystis jirovecii pneumonia: drug options",
+      "sections": [
+        {
+          "h": "Organism",
+          "points": [
+            "Now classed as a fungus, but it responds to antiprotozoal drugs, not antifungals"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "First line: trimethoprim-sulfamethoxazole, 15-20 mg/kg/day trimethoprim for 21 days",
+            "Alternatives: atovaquone 750 mg BD with food for 21 days; IV pentamidine 3 mg/kg/day for 21 days",
+            "Clindamycin plus primaquine: alternative for mild to moderate disease"
+          ]
+        },
+        {
+          "h": "Prophylaxis",
+          "points": [
+            "Inhaled pentamidine 300 mg monthly: good tolerance, efficacy below daily TMP-SMX"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "High-dose TMP-SMX has significant toxicity, especially in AIDS",
+            "Pentamidine: hypoglycaemia, pancreatic toxicity, renal insufficiency"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-064",
+      "type": "shortnote",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Short note: Toxoplasmosis: treatment",
+      "sections": [
+        {
+          "h": "First line",
+          "points": [
+            "Pyrimethamine with sulfadiazine and folinic acid; covers acute, congenital and immunocompromised disease",
+            "Clindamycin replaces sulfadiazine as an effective alternative"
+          ]
+        },
+        {
+          "h": "Pregnancy",
+          "points": [
+            "Spiramycin 3 g daily until delivery for primary infection acquired in pregnancy",
+            "Spiramycin lowers the risk of congenital toxoplasmosis"
+          ]
+        },
+        {
+          "h": "Immunocompromised",
+          "points": [
+            "High-dose therapy followed by chronic suppressive therapy",
+            "Folinic acid limits myelosuppression from pyrimethamine"
+          ]
+        },
+        {
+          "h": "Other",
+          "points": [
+            "Atovaquone used in a few patients unresponsive to other agents"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "refs": [
+        "Katzung16 ch52",
+        "KDT8 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-067",
+      "type": "basic",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Nitazoxanide: what does Katzung cite as an advantage over metronidazole?",
+      "back": "Activity against some metronidazole-resistant protozoal strains, and neither the drug nor its metabolites are mutagenic.",
+      "tags": [
+        "adr"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-060",
+      "type": "essay",
+      "subtopic": "p3-antiparasitic-other-protozoa",
+      "front": "Essay: Chemotherapy of African trypanosomiasis",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Two related organisms cause progressive systemic and neurological disease",
+            "Drug depends on stage: haemolymphatic versus CNS involvement"
+          ]
+        },
+        {
+          "h": "Early disease",
+          "points": [
+            "Pentamidine: West African, not CNS-active, given IM or IV for 10-15 doses",
+            "Suramin: East African; poor CNS penetration so no use in advanced disease"
+          ]
+        },
+        {
+          "h": "Advanced disease",
+          "points": [
+            "Melarsoprol: East African CNS disease; very toxic, reactive encephalopathy",
+            "Eflornithine (ODC inhibitor) with nifurtimox: West African CNS disease; no benefit against East African"
+          ]
+        },
+        {
+          "h": "Oral and newer agents",
+          "points": [
+            "Fexinidazole: first oral therapy, 10 days, equivalent to eflornithine plus nifurtimox in advanced disease"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Melarsoprol resistance reported in parts of Africa",
+            "Eflornithine limited in East African disease by resistance"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "Katzung16 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p3-antiparasitic-094",
+      "type": "shortnote",
+      "front": "Short note: Strategies for evaluating newer antimalarial drugs",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "tags": [
+        "newer-drugs",
+        "uses"
+      ],
+      "level": 3,
+      "status": "draft",
+      "sections": [
+        {
+          "h": "Why new drugs",
+          "points": [
+            "Chloroquine resistance is now common in P. falciparum",
+            "Resistance to artemisinins is growing in Asia and has appeared in sub-Saharan Africa",
+            "No new synthetic antimalarial has been discovered for over 40 years"
+          ]
+        },
+        {
+          "h": "Finding candidates",
+          "points": [
+            "Search for new chemical entities and for new parasite targets",
+            "Better pharmacokinetic knowledge of existing drugs to refine regimens"
+          ]
+        },
+        {
+          "h": "Activity profile",
+          "points": [
+            "P. vivax as well as P. falciparum; primaquine acts on liver stages",
+            "P. vivax as well as P. falciparum, including liver stages (primaquine is the liver-stage benchmark)",
+            "Activity against chloroquine- and piperaquine-resistant strains (ferroquine example)"
+          ]
+        },
+        {
+          "h": "Clinical stages",
+          "points": [
+            "Monoclonal antibody against PfCSP: in phase I trial",
+            "Artesunate-pyronaridine: completed phase III trials",
+            "Arterolane-piperaquine: multicentre trials in India, Bangladesh and Thailand",
+            "Tafenoquine: long half-life (14-19 days); single-dose antirelapse drug in development",
+            "Arterolane-piperaquine: multicentre trials in India, Bangladesh and Thailand"
+          ]
+        },
+        {
+          "h": "Outcomes and safety",
+          "points": [
+            "Efficacy as response rate: DHA-piperaquine above 98% in trials on uncomplicated falciparum malaria",
+            "Common effects: GI upset and dizziness",
+            "Haemolysis risk with 8-aminoquinolines in G6PD deficiency; test G6PD first"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Novel drugs ideally belong to a different class from existing ones",
+            "Candidates are tested as combinations, e.g. ganaplacide with lumefantrine"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch66",
+        "RangDale9 ch55",
+        "KDT8 ch61",
+        "GG12 PDF p1421"
+      ]
+    },
+    {
+      "id": "p3-antiparasitic-095",
+      "type": "shortnote",
+      "front": "Short note: Antimalarial candidates in advanced development",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 2,
+      "status": "draft",
+      "sections": [
+        {
+          "h": "Ganaplacide (KAF 156)",
+          "points": [
+            "Imidazolopiperazine; active on asexual forms, gametocytes and P. vivax",
+            "Phase II with a new solid dispersible lumefantrine"
+          ]
+        },
+        {
+          "h": "Cipargamin (KAE 609)",
+          "points": [
+            "Spiroindolone; blood schizonticide on P. falciparum",
+            "Under development as a single-dose single agent; in field trials"
+          ]
+        },
+        {
+          "h": "Ferroquine",
+          "points": [
+            "4-aminoquinoline active against chloroquine- and piperaquine-resistant P. falciparum",
+            "In development with artefenomel, a synthetic artemisinin analogue"
+          ]
+        },
+        {
+          "h": "Monoclonal antibody",
+          "points": [
+            "Neutralising antibody against epitopes of the P. falciparum circumsporozoite protein (PfCSP)",
+            "Protective against infection; phase I"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch66"
+      ]
+    },
+    {
+      "id": "p3-antiparasitic-096",
+      "type": "basic",
+      "front": "Why are new antimalarial classes needed?",
+      "back": "Resistance is spreading: chloroquine resistance is now common, artemisinin resistance is growing in Asia, and no new synthetic antimalarial has appeared in over 40 years.",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "tags": [
+        "newer-drugs"
+      ],
+      "refs": [
+        "GG14 ch66",
+        "RangDale9 ch55"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-097",
+      "type": "basic",
+      "front": "What is ferroquine?",
+      "back": "A 4-aminoquinoline that keeps in vitro activity against chloroquine- and piperaquine-resistant P. falciparum; it is in development with artefenomel.",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "tags": [
+        "newer-drugs"
+      ],
+      "refs": [
+        "GG14 ch66"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-098",
+      "type": "cloze",
+      "front": "Cloze: candidate antimalarials",
+      "text": "Cipargamin (KAE 609) is a {{spiroindolone}} blood schizonticide for {{P. falciparum}} and is in {{field trials}}; ganaplacide (KAF 156) is an {{imidazolopiperazine}} also active on {{P. vivax}}.",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "tags": [
+        "newer-drugs"
+      ],
+      "refs": [
+        "GG14 ch66"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-antiparasitic-099",
+      "type": "basic",
+      "front": "Ganaplacide is in phase II. Which partner drug and what is new about it?",
+      "back": "Lumefantrine, in a new solid dispersible formulation.",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "tags": [
+        "newer-drugs",
+        "uses"
+      ],
+      "refs": [
+        "GG14 ch66"
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-100",
+      "type": "basic",
+      "front": "What does the PfCSP monoclonal antibody candidate do, and what phase is it in?",
+      "back": "It neutralises epitopes on the P. falciparum circumsporozoite protein and was protective against infection in the study; it is in phase I.",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "tags": [
+        "newer-drugs"
+      ],
+      "refs": [
+        "GG14 ch66"
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-antiparasitic-101",
+      "type": "basic",
+      "front": "DHA-piperaquine: response rate and common effects in trials?",
+      "back": "Above 98% response in trials on uncomplicated falciparum malaria; GI symptoms and dizziness are common.",
+      "subtopic": "p3-antiparasitic-malaria-overview",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch61"
+      ],
+      "status": "draft",
+      "level": 2
     }
   ]
 }

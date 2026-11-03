@@ -441,3 +441,36 @@ rf-p3-amr-other-0346 | regrounded | GG14 PDF p1196 | -
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: C. difficile first choice: KDT8 ch55 (metronidazole first, vancomycin second) versus newer practice cited in p3-amr-general (oral vancomycin or fidaxomicin preferred). The KDT8 card was dropped; conflict logged.
 - Unsourced cards in this pass: none.
+
+| rf-p3-amr-other-0480 | new | KDT8 ch53 |
+| rf-p3-amr-other-0481 | new | KDT8 ch55 |
+| rf-p3-amr-other-0482 | new | KDT8 ch55 |
+
+## Checker
+- Rapid cards sampled vs KDT8 ch53-55: OK. Added fosfomycin fact (GG14 ch59). No deletions.
+
+## Checker (independent re-check)
+- No Prep/RR5 refs; no edits made.
+| rf-p3-amr-other-0484 | new | KDT8 ch53 |
+| rf-p3-amr-other-0485 | new | KDT8 ch53 |
+| rf-p3-amr-other-0486 | new | KDT8 ch53 |
+| rf-p3-amr-other-0487 | new | KDT8 ch53 |
+| rf-p3-amr-other-0488 | new | KDT8 ch53 |
+| rf-p3-amr-other-0489 | new | KDT8 ch53 |
+| rf-p3-amr-other-0490 | new | KDT8 ch55, Katzung16 ch44 |
+| rf-p3-amr-other-0491 | new | KDT8 ch55 |
+| rf-p3-amr-other-0492 | new | GG14 ch59 |
+| rf-p3-amr-other-0493 | new | KDT8 ch53 |
+
+## Checker (PYQ gap pass)
+- Checked 0484-0493 against KDT8 ch53/ch55, GG14 ch59, Katzung16 ch44: grounded, no edits. No Prep/RR5 refs.
+
+## PYQ gap pass (gap entry 125, urinary analgesics)
+| id | status | source |
+|---|---|---|
+| rf-p3-amr-other-0494 | new | KDT8 PDF p1023 |
+| rf-p3-amr-other-0495 | new | Satoskar PDF p1121 |
+| rf-p3-amr-other-0496 | new | Padmaja PDF p576 |
+
+## Checker (urinary analgesic re-check)
+- Rapid 0494-0496 verified: phenazopyridine azo dye (KDT8 PDF p1023), orange-red urine (Satoskar PDF p1121), nausea/gastric irritation (Padmaja PDF p576). No edits.

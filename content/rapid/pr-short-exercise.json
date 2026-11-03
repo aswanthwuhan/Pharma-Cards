@@ -319,7 +319,7 @@
       "subtopic": "pr-short-exercise-pk-calc",
       "kind": "fact",
       "q": "Dose by body surface area",
-      "a": "BSA (m2) / 1.7 x adult dose",
+      "a": "Child dose scaled to BSA relative to adult BSA; the book calls it more accurate than weight",
       "refs": [
         "KDT8 ch5"
       ]
@@ -349,7 +349,7 @@
       "subtopic": "pr-short-exercise-pk-calc",
       "kind": "fact",
       "q": "KDT problem: daily maintenance dose (CL 80 mL/h/kg, 60 kg)",
-      "a": "About 984 mg/day",
+      "a": "About 987 mg/day (41 mg/h x 24 h)",
       "refs": [
         "KDT8 app1"
       ]
@@ -441,7 +441,7 @@
       "q": "NNT when mortality falls from 50% to 25%",
       "a": "4",
       "refs": [
-        "RangDale9 ch8"
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -469,7 +469,7 @@
       "subtopic": "pr-short-exercise-interactions",
       "kind": "fact",
       "q": "Tetracycline with antacid: management",
-      "a": "Give 2-3 hours apart",
+      "a": "Separate the two doses in time so they do not meet in the gut",
       "refs": [
         "KDT8 ch71"
       ]
@@ -531,7 +531,8 @@
       "q": "Computer simulation under the 3Rs counts as",
       "a": "Absolute replacement",
       "refs": [
-        "Sarkar p281-285"
+        "Medhi PMECP PDF p56",
+        "UNSOURCED - owner must verify"
       ]
     },
     {
@@ -785,7 +786,111 @@
       "q": "Child amoxicillin dose range on label (Pickar)",
       "a": "20 to 40 mg/kg/day in divided doses every 8 hours",
       "refs": [
-        "Pickar Dosage Calculations PDF p36"
+        "Pickar Dosage Calculations PDF p393",
+        "Katzung16 PDF p854"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0079",
+      "subtopic": "pr-short-exercise-interactions",
+      "kind": "fact",
+      "q": "Three mechanism classes of drug interaction",
+      "a": "Pharmaceutical, pharmacokinetic, pharmacodynamic",
+      "refs": [
+        "KDT8 ch71"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0080",
+      "subtopic": "pr-short-exercise-interactions",
+      "kind": "fact",
+      "q": "NSAID added to warfarin: two reasons for bleeding",
+      "a": "Protein-binding displacement; platelet and gastric effects",
+      "refs": [
+        "KDT8 ch71",
+        "UNSOURCED - owner must verify"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0081",
+      "subtopic": "pr-short-exercise-tracing-cal",
+      "kind": "fact",
+      "q": "Parallel right shift with same maximum",
+      "a": "Competitive antagonist",
+      "refs": [
+        "KDT8 ch4"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0082",
+      "subtopic": "pr-short-exercise-tracing-cal",
+      "kind": "fact",
+      "q": "Right shift with lowered maximum",
+      "a": "Noncompetitive antagonist",
+      "refs": [
+        "KDT8 ch4"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0083",
+      "subtopic": "pr-short-exercise-tracing-cal",
+      "kind": "fact",
+      "q": "Falling response to repeated equal doses",
+      "a": "Tachyphylaxis (tolerance)",
+      "refs": [
+        "KDT8 ch4",
+        "UNSOURCED - owner must verify"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0084",
+      "subtopic": "pr-short-exercise-stats",
+      "kind": "fact",
+      "q": "Meaning of p below 0.05",
+      "a": "Statistically significant: unlikely due to chance alone",
+      "refs": [
+        "Sarkar p376-380",
+        "UNSOURCED - owner must verify"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0085",
+      "subtopic": "pr-short-exercise-stats",
+      "kind": "fact",
+      "q": "NNT formula",
+      "a": "1 / absolute risk reduction",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0086",
+      "subtopic": "pr-short-exercise-fdc",
+      "kind": "fact",
+      "q": "Why FDCs are used in TB, HIV and malaria",
+      "a": "Prevent resistance and monotherapy; aid adherence",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0087",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Long half-life drugs needing a loading dose",
+      "a": "Digoxin, amiodarone, chloroquine",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-pr-short-exercise-0088",
+      "subtopic": "pr-short-exercise-pk-calc",
+      "kind": "fact",
+      "q": "Reason a loading dose is needed",
+      "a": "Reach target concentration quickly when t1/2 is long",
+      "refs": [
+        "KDT8 ch3"
       ]
     }
   ]

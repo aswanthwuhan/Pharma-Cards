@@ -280,3 +280,22 @@ rf-p1-intro-routes-0175 | corrected | KDT8 PDF p337 | Longer esters (decanoate, 
 rf-p1-intro-routes-0185 | regrounded | GG14 PDF p47, KDT8 PDF p150 | "Not thickness" not in books, dropped.
 rf-p1-intro-routes-0186 | corrected | KDT8 PDF p29 | Site ranking contradicted for TTS. Question rewritten.
 rf-p1-intro-routes-0187 | unsourced | UNSOURCED - owner must verify | Palms and soles absorption not found in books.
+
+## Ladder pass
+Stripped '(Prep)' from 4 question texts (no Prep ref cited).
+
+| rf-p1-intro-routes-0239 | new | KDT8 ch1 |
+| rf-p1-intro-routes-0240 | new | KDT8 ch1 |
+| rf-p1-intro-routes-0242 | new | KDT8 ch1 |
+| rf-p1-intro-routes-0243 | new | KDT8 ch1 |
+| rf-p1-intro-routes-0244 | new | KDT8 ch1 |
+| rf-p1-intro-routes-0245 | new | KDT8 ch1 |
+
+## Checker
+- Deleted (unsourced, ungroundable): 0146 (70% first-pass threshold), 0187 (palms/soles lowest absorption).
+- Re-grounded: 0172 intraosseous use and 0173 sites (iliac crest or tibia) now cite Satoskar PDF p59.
+- Lotion/liniment cards 0228, 0229 confirmed at KDT8 PDF p25. No Prep/RR5 refs.
+
+## Checker
+- Verified numeric cards vs KDT8 ch1 (paracetamol PK, MW, WHO/NLEM, Martindale, particle size, sustained-release), Sarkar p36-40 (India orphan 5 lakh), Sarkar p41-45 (80-125%), KDT8 PDF p363 (Norplant). All ok.
+- Deleted 0242 (duplicate of 0026, under-100 D selectivity).

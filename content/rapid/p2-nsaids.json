@@ -4592,7 +4592,7 @@
       "subtopic": "p2-nsaids-gout",
       "kind": "fact",
       "q": "Colchicine acute attack dose",
-      "a": "Current (GG14): 1.2 mg at first sign of flare, then 0.6 mg 1 hour later; older (KDT): 0.5 mg 1-3 hourly, 4 doses a day, max 6 mg per course",
+      "a": "Current (GG14): 1.2 mg at first sign of flare, then 0.6 mg 1 hour later; KDT: 0.5 mg 1-3 hourly, 4 doses a day, max 6 mg per course",
       "refs": [
         "KDT8 ch15",
         "GG14 ch42"
@@ -5241,8 +5241,8 @@
       "id": "rf-p2-nsaids-0523",
       "subtopic": "p2-nsaids-aspirin",
       "kind": "fact",
-      "q": "Antiplatelet aspirin dose per day (Katzung range)",
-      "a": "81 to 325 mg once daily",
+      "q": "Antiplatelet aspirin dose per day (Katzung and KDT8)",
+      "a": "81 mg once daily (Katzung); 75 to 150 mg/day (KDT8)",
       "refs": [
         "GG14 ch42",
         "Katzung16 ch36",
@@ -6771,6 +6771,407 @@
       "a": "NSAID or colchicine for 1-2 months",
       "refs": [
         "KDT8 ch15"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0675",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Platelet prostanoid that aggregates platelets and constricts vessels",
+      "a": "Thromboxane A2 (TXA2)",
+      "refs": [
+        "KDT8 ch13"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0676",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Endothelial prostanoid that inhibits platelet aggregation and dilates vessels",
+      "a": "Prostacyclin (PGI2)",
+      "refs": [
+        "KDT8 ch13"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0677",
+      "subtopic": "p2-nsaids-aspirin",
+      "kind": "fact",
+      "q": "COX isoform that makes platelet TXA2",
+      "a": "COX-1",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0678",
+      "subtopic": "p2-nsaids-aspirin",
+      "kind": "fact",
+      "q": "Aspirin dose range that reduces MI after infarction",
+      "a": "75 to 150 mg/day",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0679",
+      "subtopic": "p2-nsaids-aspirin",
+      "kind": "fact",
+      "q": "What high aspirin doses can inhibit that reverses cardioprotection",
+      "a": "Vessel-wall PGI2 synthesis",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0680",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Effect of coxibs on endothelial PGI2",
+      "a": "Reduced (COX-2 dependent PGI2 suppressed)",
+      "refs": [
+        "GG14 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0681",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Effect of coxibs on platelet TXA2",
+      "a": "Not inhibited (COX-1 spared), so no antiplatelet action",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0682",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Trial terminated early after CV events with rofecoxib",
+      "a": "APPROVE",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0683",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Coxib trial terminated after about 2.5-fold rise in major CV events",
+      "a": "APC trial (celecoxib)",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0684",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "class",
+      "q": "Selective COX-2 inhibitors available in India: list all",
+      "a": "Celecoxib, etoricoxib, parecoxib",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0685",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "class",
+      "q": "Coxibs withdrawn for cardiovascular risk: list all",
+      "a": "Rofecoxib, valdecoxib",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0686",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Cardiovascular hazards of COX-2 inhibitors: list the main ones",
+      "a": "MI, stroke, vascular death, hypertension, heart failure",
+      "refs": [
+        "GG14 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0687",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Non-coxib NSAID whose CV toxicity is similar to coxibs",
+      "a": "Diclofenac",
+      "refs": [
+        "GG14 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0688",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Factors that set an NSAID's cardiovascular risk: list all",
+      "a": "Dose, half-life, COX-2 selectivity, potency, treatment duration",
+      "refs": [
+        "GG14 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0689",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Principle for NSAID use to limit CV risk",
+      "a": "Lowest possible dose for the shortest possible period",
+      "refs": [
+        "GG14 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0690",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Who should be given a COX-2 selective NSAID",
+      "a": "Patients at high risk for GI complications",
+      "refs": [
+        "GG14 ch42"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0691",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Analgesic of first choice where NSAIDs or coxibs are risky",
+      "a": "Paracetamol",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0692",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Balance that controls intravascular thrombus formation",
+      "a": "TXA2 from platelets versus PGI2 from vessel wall",
+      "refs": [
+        "KDT8 ch13"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0693",
+      "subtopic": "p2-nsaids-coxibs",
+      "kind": "fact",
+      "q": "Why coxibs lack cardioprotection",
+      "a": "They do not suppress platelet TXA2 (COX-1), so no antiplatelet effect",
+      "refs": [
+        "KDT8 ch14"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0694",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Phases of anti-inflammatory screening models",
+      "a": "Acute, subacute, chronic",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0695",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Acute-phase anti-inflammatory models: list all",
+      "a": "Carrageenan and histamine paw oedema, xylene, arachidonic acid, croton oil, PMA and oxazolone ear oedema, UV erythema (guinea pig), pleurisy, Evans blue vascular permeability",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0696",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Subacute-phase models: list all",
+      "a": "Carrageenan granuloma pouch, formalin-induced paw oedema",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0697",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Chronic-phase granuloma models: list all",
+      "a": "Cotton wool granuloma, glass rod granuloma, sponge implantation",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0698",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Granuloma assay that weighs dried pellets after about 8 days",
+      "a": "Cotton wool granuloma",
+      "refs": [
+        "Sarkar p341-345"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0699",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Irritant injected into rat paw in the oedema assay",
+      "a": "Carrageenan (also histamine, dextran, formaldehyde)",
+      "refs": [
+        "Satoskar p287"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0700",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Instrument that measures paw volume in carrageenan test",
+      "a": "Plethysmometer",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0701",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Time points for paw volume in carrageenan oedema",
+      "a": "3 and 6 hours (24 hours if needed)",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0702",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Mediators of first phase of carrageenan oedema",
+      "a": "Histamine and serotonin",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0703",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Mediators of second phase of carrageenan oedema",
+      "a": "Prostaglandins, proteases, lysosomal enzymes",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0704",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Ear oedema test that works through substance P",
+      "a": "Xylene-induced ear oedema",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0705",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Irritant that releases arachidonic acid via phospholipase A2 in ear oedema",
+      "a": "Croton oil",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0706",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Dye used to measure vascular permeability",
+      "a": "Evans blue",
+      "refs": [
+        "Satoskar p287"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0707",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Rat arthritis model used in anti-inflammatory screening",
+      "a": "Adjuvant arthritis",
+      "refs": [
+        "Satoskar p288"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0708",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Two rat models best predicting anti-inflammatory activity in man",
+      "a": "Adjuvant arthritis and inflamed paw technique",
+      "refs": [
+        "Satoskar p288"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0709",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Stomach damage score for NSAID safety testing",
+      "a": "Ulcer index (number and severity of lesions)",
+      "refs": [
+        "Sarkar p341-345"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0710",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Ulcer model in rat using aspirin",
+      "a": "Aspirin-induced ulcer model",
+      "refs": [
+        "Sarkar p341-345"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0711",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Route and site for air pouch in granuloma pouch assay",
+      "a": "Subcutaneous, dorsal surface of rat",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0712",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Irritant injected into granuloma pouch",
+      "a": "Carrageenan",
+      "refs": [
+        "Sarkar p336-340",
+        "Satoskar p287"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0713",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Animal used for UV erythema assay",
+      "a": "Albino guinea pig",
+      "refs": [
+        "Sarkar p336-340"
+      ]
+    },
+    {
+      "id": "rf-p2-nsaids-0714",
+      "subtopic": "p2-nsaids-cox-classification",
+      "kind": "fact",
+      "q": "Granuloma-pellet impregnant that intensifies granuloma",
+      "a": "Carrageenan",
+      "refs": [
+        "Sarkar p341-345"
       ]
     }
   ]

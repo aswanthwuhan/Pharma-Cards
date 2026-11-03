@@ -103,3 +103,34 @@ Gap from SOURCE-GAPS.md: Prescription-audit method (planning, sampling, scoring,
 
 ## Opus check of A10 pass (2026-11-02)
 - 0017-0021 re-grounded in KDT8 PDF p22 (drug compendia; IP, BP, USP, NFI) and Padmaja PDF p95. 0017 and 0018 answers reworded to what KDT8 prints (melting point and shelf-life details dropped).
+
+## PYQ gap pass (2026-11-03): new Rapid pairs rf-p3-clinical-services-0249 to 0266
+
+| id | status | source |
+|---|---|---|
+| rf-p3-clinical-services-0249 | new | Katzung16 appendix 2 (time-out timing) |
+| rf-p3-clinical-services-0250 | new | Katzung16 appendix 2 (stewardship team) |
+| rf-p3-clinical-services-0251 | new | Katzung16 appendix 2 (three common infections) |
+| rf-p3-clinical-services-0252 | new | Padmaja ch44 (R-factor transfer) |
+| rf-p3-clinical-services-0253 | new | Padmaja ch44 (resistance mechanisms) |
+| rf-p3-clinical-services-0254 to 0258 | new | Medhi PMECP p138 (yellow, black, red, blue, violet bags) |
+| rf-p3-clinical-services-0259 to 0262 | new | Medhi PMECP p136 (detergent, nitric acid, acetone, chromate) |
+| rf-p3-clinical-services-0263 to 0266 | new | GG14 ch8 p168 (Sentinel sponsor; case reports; signal detection); Sarkar p76-80 (toxicology in hospitals) |
+
+## PYQ gap pass: adherence vs compliance
+| id | new / corrected | source |
+|---|---|---|
+| rf-p3-clinical-services-0267 | new | GG12 PDF p1911 (concordance) |
+| rf-p3-clinical-services-0268 | new | GG12 PDF p1911 (terms list) |
+| rf-p3-clinical-services-0269 | new | GG12 PDF p1912 (perceived severity) |
+| rf-p3-clinical-services-0270 | new | GG12 PDF p1913 (pharmacist) |
+| rf-p3-clinical-services-0271 | new | GG12 PDF p1912 (Table AI-2 aids) |
+| rf-p3-clinical-services-0272 | new | GG12 PDF p1913 (elderly barriers) |
+| rf-p3-clinical-services-0273 | new | GG14 PDF p424 (ASD noncompliance) |
+| rf-p3-clinical-services-0274 | new | GG12 PDF p1912 (ask intent, negotiate) |
+| rf-p3-clinical-services-0275 | new | GG12 PDF p818 (diuretic resistance, Table 28-1) |
+
+## Checker pass (PYQ gap 29)
+- 0274 corrected: q/a reworded to match GG12 PDF p1912 (ask intent, negotiate commitment); "first action at start of therapy" removed as unsourced.
+- 0275 corrected: "most common non-drug cause" removed (GG12 PDF p818 lists two causes without ranking).
+- 0267 to 0273, 0275 (fact), 0268 to 0272: verified.

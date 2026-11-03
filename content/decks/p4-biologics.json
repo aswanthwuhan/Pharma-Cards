@@ -16,14 +16,16 @@
       "subtopic": "p4-biologics-basics",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p4-biologics-002",
       "type": "cloze",
       "front": "Complete: half-life of IgG-based biologics",
-      "text": "IgG-based biologics last a long time in plasma (about {{21 days}}) because the {{neonatal Fc receptor (FcRn)}} recycles them and rescues them from {{lysosomal}} degradation.",
+      "text": "IgG-based biologics persist in plasma because the {{neonatal Fc receptor (FcRn)}} recycles them and rescues them from {{lysosomal}} degradation; rituximab has a half-life of about {{22 days}}.",
       "refs": [
+        "GG14 ch72",
         "Katzung16 ch4"
       ],
       "pyq": [],
@@ -31,70 +33,8 @@
       "subtopic": "p4-biologics-basics",
       "tags": [
         "pk"
-      ]
-    },
-    {
-      "id": "p4-biologics-003",
-      "type": "essay",
-      "front": "Essay: Biologics versus small-molecule drugs",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Large proteins, antibodies or oligonucleotides versus small chemical drugs",
-            "Mostly produced by recombinant DNA technology in living cells"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Given parenterally; most need injection or infusion",
-            "Broken down by proteolysis in lysosomes rather than by CYP enzymes",
-            "IgG-based products last about 3 weeks because FcRn recycles them",
-            "Target-mediated uptake and catabolism can add to clearance"
-          ]
-        },
-        {
-          "h": "Pharmacodynamics",
-          "points": [
-            "High specificity for a single target, often extracellular (cytokines, receptors, cell-surface antigens)",
-            "Dose-response can be bell-shaped or U-shaped"
-          ]
-        },
-        {
-          "h": "Safety",
-          "points": [
-            "Immunogenicity with anti-drug antibodies (e.g. HAMA)",
-            "Infusion reactions and cytokine release syndrome",
-            "Target-related immunosuppression and infection risk"
-          ]
-        },
-        {
-          "h": "Copies",
-          "points": [
-            "Biosimilars: copies of large proteins cannot be shown identical, so approval needs analytical, animal and clinical comparison"
-          ]
-        }
       ],
-      "refs": [
-        "Katzung16 ch4",
-        "Katzung16 ch55",
-        "RangDale9 ch5",
-        "GG14 ch1"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-biologics-basics",
-      "tags": [
-        "classification",
-        "pk"
-      ]
+      "level": 1
     },
     {
       "id": "p4-biologics-004",
@@ -111,7 +51,42 @@
       "subtopic": "p4-biologics-basics",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-034",
+      "type": "basic",
+      "subtopic": "p4-biologics-basics",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "Why do monoclonal antibody names end in -mab, and what does the syllable just before it tell you?",
+      "back": "The stem -mab marks a monoclonal antibody. The preceding syllable shows species origin: -omab mouse, -ximab chimeric, -zumab humanised, -umab fully human. Knowing this lets you predict immunogenicity: more mouse sequence means more risk of anti-drug antibodies.",
+      "refs": [
+        "GG14 ch72",
+        "RangDale9 ch5"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-035",
+      "type": "cloze",
+      "subtopic": "p4-biologics-basics",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "Complete: antibody name origin stems",
+      "text": "Cetuximab is {{chimeric}} (-ximab), trastuzumab is {{humanised}} (-zumab), and names ending {{-umab}} are fully human.",
+      "refs": [
+        "GG14 ch72",
+        "RangDale9 ch5"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p4-biologics-005",
@@ -152,7 +127,108 @@
       "subtopic": "p4-biologics-basics",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-036",
+      "type": "basic",
+      "subtopic": "p4-biologics-basics",
+      "level": 2,
+      "tags": [
+        "pk"
+      ],
+      "front": "Why do IgG-based biologics have a half-life of weeks, and why are they not cleared by CYP enzymes?",
+      "back": "FcRn recycles IgG and rescues it from lysosomal breakdown, so plasma half-life is long (rituximab about 22 days, GG14). Proteins are broken down by proteolysis in lysosomes rather than hepatic CYP metabolism; target-mediated uptake can add to clearance.",
+      "refs": [
+        "Katzung16 ch4",
+        "Katzung16 ch55"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-037",
+      "type": "basic",
+      "subtopic": "p4-biologics-basics",
+      "level": 2,
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "front": "Why does a chimeric antibody such as cetuximab still cause anti-drug antibodies, and how does humanisation help?",
+      "back": "Chimeric antibodies keep mouse variable regions, which the immune system can recognise as foreign (HAMA). Humanisation leaves only the CDRs murine, so antigenicity falls and half-life lengthens; fully human antibodies reduce it further.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-003",
+      "type": "essay",
+      "front": "Essay: Biologics versus small-molecule drugs",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Large proteins, antibodies or oligonucleotides versus small chemical drugs",
+            "Mostly produced by recombinant DNA technology in living cells"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Given parenterally; most need injection or infusion",
+            "Broken down by proteolysis in lysosomes rather than by CYP enzymes",
+            "IgG-based products stay in plasma for a long time because FcRn recycles them (rituximab half-life about 22 days)",
+            "Target-mediated uptake and catabolism can add to clearance"
+          ]
+        },
+        {
+          "h": "Pharmacodynamics",
+          "points": [
+            "High specificity for a single target, often extracellular (cytokines, receptors, cell-surface antigens)",
+            "Dose-response can be bell-shaped or U-shaped"
+          ]
+        },
+        {
+          "h": "Safety",
+          "points": [
+            "Immunogenicity with anti-drug antibodies (e.g. HAMA)",
+            "Infusion reactions and cytokine release syndrome",
+            "Target-related immunosuppression and infection risk"
+          ]
+        },
+        {
+          "h": "Copies",
+          "points": [
+            "Biosimilars: copies of large proteins cannot be shown identical, so approval needs analytical, animal and clinical comparison"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch4",
+        "Katzung16 ch55",
+        "RangDale9 ch5",
+        "GG14 ch1",
+        "GG14 ch9"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-biologics-basics",
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "level": 3
     },
     {
       "id": "p4-biologics-006",
@@ -168,7 +244,8 @@
       "subtopic": "p4-biologics-mechanisms",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p4-biologics-007",
@@ -184,7 +261,8 @@
       "subtopic": "p4-biologics-mechanisms",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p4-biologics-008",
@@ -200,7 +278,8 @@
       "subtopic": "p4-biologics-mechanisms",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p4-biologics-009",
@@ -215,7 +294,25 @@
       "subtopic": "p4-biologics-mechanisms",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-038",
+      "type": "basic",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "Name the antibody targets: rituximab, trastuzumab, bevacizumab, cetuximab.",
+      "back": "Rituximab: CD20 on B cells. Trastuzumab: HER2 receptor. Bevacizumab: VEGF-A ligand. Cetuximab: EGF receptor. Bevacizumab is ligand blockade; the others hit a cell-surface antigen or receptor.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p4-biologics-010",
@@ -232,7 +329,8 @@
       "tags": [
         "mechanism",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p4-biologics-011",
@@ -260,7 +358,7 @@
         {
           "h": "Adverse effects",
           "points": [
-            "Infusion reactions: increase infusion rate slowly; premedicate with antihistamine and paracetamol (± glucocorticoid or H2 blocker)",
+            "Infusion reactions: slow infusion rate; pretreat with antihistamines and corticosteroids",
             "Tumour lysis syndrome when many circulating tumour cells",
             "Hepatitis B reactivation; rarely PML from JC virus",
             "Severe mucocutaneous reactions including SJS",
@@ -271,7 +369,8 @@
       "refs": [
         "Katzung16 ch55",
         "Katzung16 ch36",
-        "GG14 ch72"
+        "GG14 ch72",
+        "KDT8 ch64"
       ],
       "pyq": [],
       "status": "draft",
@@ -279,443 +378,25 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p4-biologics-012",
+      "id": "p4-biologics-039",
       "type": "basic",
-      "front": "What is an antibody-drug conjugate (ADC), and how is its payload released?",
-      "back": "A monoclonal antibody chemically linked to a cytotoxic payload (toxin or drug; radionuclides are used similarly). The antibody binds its tumour antigen, the complex is internalised, and the payload is released inside the cell by proteolytic cleavage. Payloads include microtubule disruptors (emtansine, MMAE) and topoisomerase inhibitors (deruxtecan).",
-      "refs": [
-        "Katzung16 ch55",
-        "GG14 ch72"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-conjugates",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-biologics-013",
-      "type": "basic",
-      "front": "Trastuzumab emtansine: target, payload and key toxicity",
-      "back": "Anti-HER2 antibody linked to mertansine (emtansine), a microtubule disruptor. Used in HER2-positive breast cancer that recurred or progressed after trastuzumab and a taxane. Its toxicities include those of trastuzumab plus hepatotoxicity from the payload.",
-      "refs": [
-        "Katzung16 ch55"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-biologics-conjugates",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-biologics-014",
-      "type": "basic",
-      "front": "Brentuximab vedotin: target, payload and main indications",
-      "back": "Chimeric anti-CD30 IgG1 linked to monomethyl auristatin E (MMAE), a microtubule disruptor released inside the cell by proteolytic cleavage. Used in Hodgkin lymphoma after failed autologous stem cell transplant or after at least two prior regimens, and in systemic anaplastic large cell lymphoma after at least one prior multiagent regimen. Monitor mainly for neutropenia and peripheral sensory neuropathy.",
-      "refs": [
-        "Katzung16 ch55"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-conjugates",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p4-biologics-015",
-      "type": "shortnote",
-      "front": "Short note: Fusion proteins in immunology (etanercept and abatacept)",
-      "sections": [
-        {
-          "h": "Structure",
-          "points": [
-            "Etanercept: two soluble TNF p75 receptor domains linked to the Fc of human IgG1",
-            "Abatacept and belatacept: extracellular domain of CTLA-4 fused to the Fc of human IgG1"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Etanercept binds TNF-alpha and also inhibits lymphotoxin (TNF-beta)",
-            "Abatacept and belatacept bind CD80/86 and block the CD28 co-stimulatory signal to T cells"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Etanercept: rheumatoid arthritis and related arthritides",
-            "Abatacept: rheumatoid and other forms of arthritis",
-            "Belatacept: prevention of kidney transplant rejection"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Infection and TB reactivation risk with TNF blockade",
-            "No live vaccines during anti-TNF therapy"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch55",
-        "Katzung16 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-conjugates",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 2,
       "tags": [
         "mechanism",
         "uses"
-      ]
-    },
-    {
-      "id": "p4-biologics-016",
-      "type": "shortnote",
-      "front": "Short note: Infection and malignancy risk with TNF-alpha blockers",
-      "sections": [
-        {
-          "h": "Drugs",
-          "points": [
-            "Adalimumab, certolizumab pegol, etanercept, golimumab, infliximab"
-          ]
-        },
-        {
-          "h": "Infections to watch for",
-          "points": [
-            "Reactivation of tuberculosis",
-            "Valley fever (coccidioidomycosis)",
-            "Recurrence of past infections"
-          ]
-        },
-        {
-          "h": "Other risks",
-          "points": [
-            "Lymphoma",
-            "Live vaccines must not be given during therapy"
-          ]
-        },
-        {
-          "h": "Monitoring",
-          "points": [
-            "Check history of past infection and TB before and during treatment"
-          ]
-        }
       ],
+      "front": "Why can an anti-PD-1 or anti-CTLA-4 antibody treat cancer, and what toxicity pattern follows?",
+      "back": "They block inhibitory T-cell checkpoints (CTLA-4, PD-1, or its ligand PD-L1), releasing antitumour T cells. Because the brake on T cells is lifted generally, cytokine release can occur.",
       "refs": [
         "Katzung16 ch55"
       ],
       "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-safety",
-      "tags": [
-        "adr",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p4-biologics-017",
-      "type": "basic",
-      "front": "What is cytokine release syndrome (CRS), which biologics cause it, and how is it treated?",
-      "back": "A systemic reaction to a large release of cytokines (TNF, interleukins including IL-6, interferons). Features: fever, chills, rigors, nausea, headache, tachycardia, hypotension, dyspnoea and wheezing; can be life-threatening. Seen with CAR T cells, bispecific T-cell engagers (blinatumomab), immune checkpoint inhibitors, and the first doses of muromonab-CD3. Management: tocilizumab (anti-IL-6 receptor) with or without corticosteroids; corticosteroid pretreatment attenuates the muromonab reaction.",
-      "refs": [
-        "Katzung16 ch55",
-        "GG14 ch72",
-        "KDT8 ch65"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-safety",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-biologics-018",
-      "type": "cloze",
-      "front": "Complete: premedication for infusion reactions",
-      "text": "Infusion reactions to rituximab are reduced by pre-treatment with {{acetaminophen}}, an {{antihistamine}} and an {{H2 blocker}}, given about {{30 minutes}} before the infusion.",
-      "refs": [
-        "Katzung16 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-safety",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-biologics-019",
-      "type": "essay",
-      "front": "Essay: Adverse effects of therapeutic monoclonal antibodies",
-      "sections": [
-        {
-          "h": "Infusion-related reactions",
-          "points": [
-            "Fever, chills, urticaria, mild hypotension; serious hypersensitivity if infused too fast",
-            "Premedication and slow increase in infusion rate"
-          ]
-        },
-        {
-          "h": "Cytokine release",
-          "points": [
-            "With CAR T cells, BiTEs, checkpoint inhibitors and first doses of muromonab-CD3",
-            "Tocilizumab with or without corticosteroids"
-          ]
-        },
-        {
-          "h": "Immunogenicity",
-          "points": [
-            "Anti-drug antibodies (HAMA) speed clearance and reduce efficacy",
-            "Chimeric and humanised designs lower the risk"
-          ]
-        },
-        {
-          "h": "Infection and immunosuppression",
-          "points": [
-            "B-cell depletion: hypogammaglobulinaemia, hepatitis B reactivation, PML (rituximab)",
-            "TB and valley fever reactivation with TNF blockade; no live vaccines"
-          ]
-        },
-        {
-          "h": "Target-specific toxicity",
-          "points": [
-            "Bevacizumab: haemorrhage, GI perforation, poor wound healing",
-            "Trastuzumab: cardiomyopathy",
-            "Belantamab mafodotin: ocular (corneal) toxicity",
-            "Necitumumab: hypomagnesaemia"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch55",
-        "GG14 ch72",
-        "KDT8 ch65"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-safety",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-biologics-020",
-      "type": "basic",
-      "front": "What is a biosimilar?",
-      "back": "A biological product that is highly similar to an approved reference product despite minor differences in clinically inactive components, with no clinically meaningful differences in safety, purity and potency. Because proteins come from living cells, differences in glycosylation or conformation can alter PK, PD and immunogenicity, so a biosimilar cannot simply be shown identical like a small-molecule generic. Rang and Dale also contrast biosimilars with 'biobetters' (similar function, superior pharmacology or toxicity).",
-      "refs": [
-        "GG14 ch1",
-        "RangDale9 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-biosimilars",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-biologics-021",
-      "type": "shortnote",
-      "front": "Short note: Biosimilar approval pathway",
-      "sections": [
-        {
-          "h": "Legal basis (US)",
-          "points": [
-            "Biologics Price Competition and Innovation Act, enacted with the Affordable Care Act, created an abbreviated licensure pathway for 'similar' biological products"
-          ]
-        },
-        {
-          "h": "Data required",
-          "points": [
-            "Analytical studies comparing structure and function",
-            "Animal studies",
-            "One or more clinical studies"
-          ]
-        },
-        {
-          "h": "Standard",
-          "points": [
-            "Highly similar to the reference product",
-            "No clinically meaningful differences in safety, purity and potency"
-          ]
-        },
-        {
-          "h": "Difficulty",
-          "points": [
-            "Interpretation of the requirements is still debated; firm rules are unlikely"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch1",
-        "Katzung16 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-biosimilars",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-biologics-023",
-      "type": "cloze",
-      "front": "Complete: interchangeable biosimilar insulin",
-      "text": "Semglee and Rezvoglar are {{interchangeable}} biosimilar insulins with the reference product {{Lantus}} (insulin {{glargine}}).",
-      "refs": [
-        "Katzung16 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-biosimilars",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-biologics-025",
-      "type": "basic",
-      "front": "What are the main viral vectors used in gene therapy, and which one is used to make CAR-T cells?",
-      "back": "Retroviruses (including lentivirus) integrate into host DNA, giving permanent expression passed to daughter cells, but random insertion can disrupt genes; a lentiviral vector is used to transduce T cells when making CAR T cells. Adenovirus is highly infective but immunogenic, with transient expression needing repeated doses. Adeno-associated virus is less immunogenic but hard to mass-produce and cannot carry large genes. Non-viral options (liposomes, DNA cassettes) are safer but less efficient.",
-      "refs": [
-        "RangDale9 ch5",
-        "Katzung16 ch55"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-newer-modalities",
-      "tags": [
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p4-biologics-026",
-      "type": "cloze",
-      "front": "Complete: antisense oligonucleotides (ASO)",
-      "text": "Antisense oligonucleotides are short ({{15 to 25}} bases) nucleic-acid chains that bind a complementary region of {{mRNA}} and promote its breakdown by {{ribonuclease H}}. Mipomersen, the first licensed antisense drug, suppresses {{apolipoprotein B}}; volanesorsen, an apo C-III antisense, is available in Europe for severe chylomicronaemia.",
-      "refs": [
-        "RangDale9 ch5",
-        "Katzung16 ch35"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-newer-modalities",
-      "tags": [
-        "newer-drugs",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-biologics-027",
-      "type": "basic",
-      "front": "How does a small interfering RNA (siRNA) silence a gene, and what is one clinical example?",
-      "back": "Short double-stranded RNA recruits the RNA-induced silencing complex (RISC), which selectively degrades the complementary messenger RNA, so the protein is not made. It silences genes more efficiently than antisense oligonucleotides. Example: inclisiran, an siRNA against PCSK9, given twice yearly, reduces LDL-cholesterol by about 50%.",
-      "refs": [
-        "RangDale9 ch5",
-        "Katzung16 ch35"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-newer-modalities",
-      "tags": [
-        "newer-drugs",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-biologics-028",
-      "type": "basic",
-      "front": "How do mRNA vaccines work?",
-      "back": "They deliver messenger RNA encoding an antigen, packaged in lipid nanoparticles. Antigen-presenting cells take up the nanoparticles and make the protein, which triggers an immune response. Example: the Pfizer/BioNTech and Moderna COVID-19 vaccines encode the full-length SARS-CoV-2 spike protein and are given as two doses (21 and 28 days apart respectively).",
-      "refs": [
-        "GG14 ch40",
-        "Katzung16 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-newer-modalities",
-      "tags": [
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p4-biologics-029",
-      "type": "shortnote",
-      "front": "Short note: CAR-T cell therapy",
-      "sections": [
-        {
-          "h": "Concept",
-          "points": [
-            "Patient's own T cells re-targeted with a chimeric antigen receptor",
-            "Receptor = antibody variable regions fused to T-cell signalling domains (e.g. CD3 zeta and 4-1BB)",
-            "A living drug"
-          ]
-        },
-        {
-          "h": "Manufacture",
-          "points": [
-            "T cells purified from the patient's blood leukocytes",
-            "Transduced with a lentiviral (retroviral) vector, expanded, and infused back (autologous)",
-            "Cyclophosphamide pretreatment before infusion"
-          ]
-        },
-        {
-          "h": "Approved uses",
-          "points": [
-            "CD19-directed products for B-cell leukaemias and lymphomas (tisagenlecleucel, axicabtagene, brexucabtagene, lisocabtagene)",
-            "BCMA-directed products for multiple myeloma (idecabtagene, ciltacabtagene)"
-          ]
-        },
-        {
-          "h": "Toxicities",
-          "points": [
-            "Cytokine release syndrome: tocilizumab with or without corticosteroids",
-            "Neurotoxicity: supportive care",
-            "Prolonged hypogammaglobulinaemia: IGIV replacement",
-            "Resistance from loss of CD19 antigen"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch55",
-        "GG14 ch72"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-newer-modalities",
-      "tags": [
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p4-biologics-030",
-      "type": "cloze",
-      "front": "Complete: how CAR-T cells are made and given",
-      "text": "CAR-T cells are {{autologous}}: T cells are collected from the patient, transduced with a {{lentiviral}} vector, expanded, and infused back into the same patient after pre-treatment with {{cyclophosphamide}}.",
-      "refs": [
-        "Katzung16 ch55"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-biologics-newer-modalities",
-      "tags": [
-        "newer-drugs"
-      ]
+      "status": "draft"
     },
     {
       "id": "p4-biologics-031",
@@ -786,64 +467,786 @@
       "subtopic": "p4-biologics-mechanisms",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p4-biologics-032",
-      "type": "shortnote",
-      "front": "Short note: Current status of gene therapy",
+      "id": "p4-biologics-040",
+      "type": "basic",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 3,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Compare how rituximab, a checkpoint inhibitor and blinatumomab each recruit the immune system against cancer, and which can cause cytokine release syndrome.",
+      "back": "Rituximab: Fc-mediated killing of CD20 cells by CDC and ADCC. Checkpoint inhibitors (ipilimumab, nivolumab, pembrolizumab, atezolizumab): free T cells by blocking CTLA-4, PD-1 or PD-L1. Blinatumomab (CD19 x CD3): links a T cell to the B-cell target. Checkpoint inhibitors and BiTEs are both listed as causes of CRS; BiTEs also need monitoring for neurological toxicity and infection.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-056",
+      "type": "essay",
+      "front": "Essay: Monoclonal antibodies in cancer therapy",
       "sections": [
         {
-          "h": "Concept",
+          "h": "Introduction",
           "points": [
-            "Addition of genetic material to cells to prevent, relieve or cure disease",
-            "Viral vectors replace a defective gene or add a new one; some approaches silence genes instead"
+            "Antibodies hit a defined target on tumour or immune cells; names show origin (-xi chimeric, -zu humanised, -u human)"
           ]
         },
         {
-          "h": "Approved examples (GG14)",
+          "h": "Naked antibodies",
           "points": [
-            "AAV vectors deliver the RPE65 (retinal) and SMN1 (spinal muscular atrophy) genes",
-            "Anti-CD19 chimeric antigen receptor T cells, made with a lentiviral vector, treat B-cell acute lymphoblastic leukaemia",
-            "Patisiran and inotersen, transthyretin-directed RNA agents, treat hereditary transthyretin amyloidosis"
+            "Rituximab (CD20, ADCC and CDC)",
+            "Trastuzumab (HER2)",
+            "Bevacizumab (VEGF-A)",
+            "Cetuximab (EGFR)",
+            "Elotuzumab (SLAMF7), daratumumab (CD38) in myeloma"
           ]
         },
         {
-          "h": "Milestone",
+          "h": "Checkpoint inhibitors",
           "points": [
-            "Tisagenlecleucel (2017) was the first gene therapy approved in the United States"
+            "Anti-CTLA-4 ipilimumab; anti-PD-1 nivolumab, pembrolizumab; anti-PD-L1 atezolizumab",
+            "Release the brake on T cells"
           ]
         },
         {
-          "h": "Cancer strategies",
+          "h": "Engagers and conjugates",
           "points": [
-            "Tumour suppressor gene insertion, oncolytic virotherapy and gene-directed enzyme prodrug therapy are used for many cancers"
+            "Blinatumomab (CD19 x CD3)",
+            "Trastuzumab emtansine, brentuximab vedotin deliver payload inside the cell"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Infusion reactions and CRS",
+            "Cardiomyopathy (trastuzumab)",
+            "Haemorrhage, GI perforation (bevacizumab)",
+            "HBV reactivation, PML (rituximab)"
           ]
         }
       ],
       "refs": [
-        "GG14 ch3",
-        "RangDale9 ch5",
-        "Sarkar p36-40",
-        "Sarkar p426-430"
+        "Katzung16 ch55",
+        "GG14 ch72"
       ],
+      "subtopic": "p4-biologics-mechanisms",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "level": 3,
       "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
         {
           "university": "KNRUHS",
           "year": 2025,
           "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2007,
-          "marks": 20
         }
       ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-012",
+      "type": "basic",
+      "front": "What is an antibody-drug conjugate (ADC), and how is its payload released?",
+      "back": "A monoclonal antibody chemically linked to a cytotoxic payload (toxin or drug; radionuclides are used similarly). The antibody binds its tumour antigen, the complex is internalised, and the payload is released inside the cell by proteolytic cleavage. Payloads include microtubule disruptors (emtansine, MMAE) and topoisomerase inhibitors (deruxtecan).",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-conjugates",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-041",
+      "type": "cloze",
+      "subtopic": "p4-biologics-conjugates",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Complete: antibody-drug conjugate payloads",
+      "text": "Emtansine and MMAE are {{microtubule}} disruptors, whereas deruxtecan is a {{topoisomerase}} inhibitor; the payload is released inside the cell by {{proteolytic}} cleavage.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-042",
+      "type": "basic",
+      "subtopic": "p4-biologics-conjugates",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What is the advantage of linking a toxin to an antibody rather than giving the toxin alone?",
+      "back": "The antibody delivers the payload to cells carrying the tumour antigen; after internalisation the payload is released inside the cell, aiming the cytotoxic drug at the target.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-043",
+      "type": "basic",
+      "subtopic": "p4-biologics-conjugates",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "Which fusion proteins carry an IgG1 Fc, and what does each bind?",
+      "back": "Etanercept: two TNF p75 receptor domains, binds TNF-alpha and lymphotoxin. Abatacept and belatacept: CTLA-4 extracellular domain, bind CD80/86 and block CD28 co-stimulation.",
+      "refs": [
+        "Katzung16 ch55",
+        "Katzung16 ch36"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-013",
+      "type": "basic",
+      "front": "Trastuzumab emtansine: target, payload and key toxicity",
+      "back": "Anti-HER2 antibody linked to mertansine (emtansine), a microtubule disruptor. Used in HER2-positive breast cancer that recurred or progressed after trastuzumab and a taxane. Its toxicities include those of trastuzumab plus hepatotoxicity from the payload.",
+      "refs": [
+        "Katzung16 ch55"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-biologics-conjugates",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-014",
+      "type": "basic",
+      "front": "Brentuximab vedotin: target, payload and main indications",
+      "back": "Chimeric anti-CD30 IgG1 linked to monomethyl auristatin E (MMAE), a microtubule disruptor released inside the cell by proteolytic cleavage. Used in Hodgkin lymphoma after failed autologous stem cell transplant or after at least two prior regimens, and in systemic anaplastic large cell lymphoma after at least one prior multiagent regimen. Monitor mainly for neutropenia and peripheral sensory neuropathy.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-conjugates",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-015",
+      "type": "shortnote",
+      "front": "Short note: Fusion proteins in immunology (etanercept and abatacept)",
+      "sections": [
+        {
+          "h": "Structure",
+          "points": [
+            "Etanercept: two soluble TNF p75 receptor domains linked to the Fc of human IgG1",
+            "Abatacept and belatacept: extracellular domain of CTLA-4 fused to the Fc of human IgG1"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Etanercept binds TNF-alpha and also inhibits lymphotoxin (TNF-beta)",
+            "Abatacept and belatacept bind CD80/86 and block the CD28 co-stimulatory signal to T cells"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Etanercept: rheumatoid arthritis and related arthritides",
+            "Abatacept: rheumatoid and other forms of arthritis",
+            "Belatacept: prevention of kidney transplant rejection"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Infection and TB reactivation risk with TNF blockade",
+            "No live vaccines during anti-TNF therapy"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch55",
+        "Katzung16 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-conjugates",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-057",
+      "type": "shortnote",
+      "front": "Short note: Biologic response modifiers and biologic DMARDs",
+      "sections": [
+        {
+          "h": "TNF-alpha blockers",
+          "points": [
+            "Adalimumab, certolizumab pegol, etanercept, golimumab, infliximab"
+          ]
+        },
+        {
+          "h": "Other biologics",
+          "points": [
+            "Tocilizumab (IL-6 receptor)",
+            "Abatacept (CTLA-4 Fc fusion)",
+            "Rituximab (anti-CD20)"
+          ]
+        },
+        {
+          "h": "Key risks",
+          "points": [
+            "TB reactivation and valley fever with TNF blockers",
+            "No live vaccines",
+            "Lymphoma risk"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch55",
+        "Katzung16 ch36"
+      ],
+      "subtopic": "p4-biologics-conjugates",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-044",
+      "type": "shortnote",
+      "subtopic": "p4-biologics-conjugates",
+      "level": 3,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Short note: antibody-drug conjugates versus naked antibodies versus fusion proteins",
+      "sections": [
+        {
+          "h": "Naked antibody",
+          "points": [
+            "Acts by blockade, ADCC or CDC (trastuzumab, rituximab)"
+          ]
+        },
+        {
+          "h": "ADC",
+          "points": [
+            "Antibody plus cytotoxic payload, released inside the cell after internalisation (trastuzumab emtansine, brentuximab vedotin)"
+          ]
+        },
+        {
+          "h": "Fusion protein",
+          "points": [
+            "Receptor or ligand domain fused to IgG1 Fc (etanercept, abatacept, belatacept) to trap a cytokine or block co-stimulation"
+          ]
+        },
+        {
+          "h": "Examples of use",
+          "points": [
+            "Brentuximab vedotin: CD30 lymphomas; trastuzumab emtansine: HER2 breast cancer after trastuzumab and a taxane; belatacept: kidney transplant"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch55",
+        "Katzung16 ch36"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-017",
+      "type": "basic",
+      "front": "What is cytokine release syndrome (CRS), which biologics cause it, and how is it treated?",
+      "back": "A systemic reaction to a large release of cytokines (TNF, interleukins including IL-6, interferons). Features: fever, chills, rigors, nausea, headache, tachycardia, hypotension, dyspnoea and wheezing; can be life-threatening. Seen with CAR T cells, bispecific T-cell engagers (blinatumomab), immune checkpoint inhibitors, and the first doses of muromonab-CD3. Management: tocilizumab (anti-IL-6 receptor) with or without corticosteroids; corticosteroid pretreatment attenuates the muromonab reaction.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72",
+        "KDT8 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-safety",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-018",
+      "type": "cloze",
+      "front": "Complete: premedication for infusion reactions",
+      "text": "Infusion reactions to rituximab are dampened by pre-treatment with {{antihistamines}} and {{corticosteroids}}, and by a {{slow infusion rate}}.",
+      "refs": [
+        "KDT8 ch64",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-safety",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-045",
+      "type": "basic",
+      "subtopic": "p4-biologics-safety",
+      "level": 1,
+      "tags": [
+        "adr"
+      ],
+      "front": "Which premedication reduces rituximab infusion reactions?",
+      "back": "Antihistamines and corticosteroids given before the infusion (KDT8); a slow infusion rate also lessens reactions (GG14).",
+      "refs": [
+        "KDT8 ch64",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-046",
+      "type": "basic",
+      "subtopic": "p4-biologics-safety",
+      "level": 1,
+      "tags": [
+        "adr"
+      ],
+      "front": "Which infections must be excluded or watched for with TNF-alpha blockers?",
+      "back": "Reactivation of latent tuberculosis, and recurrence of past infections. Screen for past infection before starting.",
+      "refs": [
+        "Katzung16 ch55"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-047",
+      "type": "basic",
+      "subtopic": "p4-biologics-safety",
+      "level": 1,
+      "tags": [
+        "adr"
+      ],
+      "front": "Name the characteristic adverse effect of bevacizumab and trastuzumab.",
+      "back": "Bevacizumab: haemorrhage, GI perforation, poor wound healing. Trastuzumab: cardiomyopathy.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-016",
+      "type": "shortnote",
+      "front": "Short note: Infection and malignancy risk with TNF-alpha blockers",
+      "sections": [
+        {
+          "h": "Drugs",
+          "points": [
+            "Adalimumab, certolizumab pegol, etanercept, golimumab, infliximab"
+          ]
+        },
+        {
+          "h": "Infections to watch for",
+          "points": [
+            "Reactivation of tuberculosis",
+            "Valley fever (coccidioidomycosis)",
+            "Recurrence of past infections"
+          ]
+        },
+        {
+          "h": "Other risks",
+          "points": [
+            "Lymphoma",
+            "Live vaccines must not be given during therapy"
+          ]
+        },
+        {
+          "h": "Monitoring",
+          "points": [
+            "Check history of past infection and TB before and during treatment"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-safety",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-048",
+      "type": "basic",
+      "subtopic": "p4-biologics-safety",
+      "level": 2,
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "front": "A patient on rituximab develops jaundice and rising transaminases. What should you consider?",
+      "back": "Hepatitis B reactivation, a known risk of rituximab; PML from JC virus is a rare infection risk. Rituximab also causes hypogammaglobulinaemia.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-019",
+      "type": "essay",
+      "front": "Essay: Adverse effects of therapeutic monoclonal antibodies",
+      "sections": [
+        {
+          "h": "Infusion-related reactions",
+          "points": [
+            "Fever, chills, urticaria, mild hypotension; serious hypersensitivity if infused too fast",
+            "Premedication and slow increase in infusion rate"
+          ]
+        },
+        {
+          "h": "Cytokine release",
+          "points": [
+            "With CAR T cells, BiTEs, checkpoint inhibitors and first doses of muromonab-CD3",
+            "Tocilizumab with or without corticosteroids"
+          ]
+        },
+        {
+          "h": "Immunogenicity",
+          "points": [
+            "Anti-drug antibodies (HAMA) speed clearance and reduce efficacy",
+            "Chimeric and humanised designs lower the risk"
+          ]
+        },
+        {
+          "h": "Infection and immunosuppression",
+          "points": [
+            "B-cell depletion: hypogammaglobulinaemia, hepatitis B reactivation, PML (rituximab)",
+            "TB and valley fever reactivation with TNF blockade; no live vaccines"
+          ]
+        },
+        {
+          "h": "Target-specific toxicity",
+          "points": [
+            "Bevacizumab: haemorrhage, GI perforation, poor wound healing",
+            "Trastuzumab: cardiomyopathy",
+            "Belantamab mafodotin: ocular (corneal) toxicity",
+            "Necitumumab: hypomagnesaemia"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72",
+        "KDT8 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-safety",
+      "tags": [
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-biologics-020",
+      "type": "basic",
+      "front": "What is a biosimilar?",
+      "back": "A biological product that is highly similar to an approved reference product despite minor differences in clinically inactive components, with no clinically meaningful differences in safety, purity and potency. Because proteins come from living cells, differences in glycosylation or conformation can alter PK, PD and immunogenicity, so a biosimilar cannot simply be shown identical like a small-molecule generic. Rang and Dale also contrast biosimilars with 'biobetters' (similar function, superior pharmacology or toxicity).",
+      "refs": [
+        "GG14 ch1",
+        "RangDale9 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-biosimilars",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-023",
+      "type": "cloze",
+      "front": "Complete: interchangeable biosimilar insulin",
+      "text": "Semglee and Rezvoglar are {{interchangeable}} biosimilar insulins with the reference product {{Lantus}} (insulin {{glargine}}).",
+      "refs": [
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-biosimilars",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-049",
+      "type": "basic",
+      "subtopic": "p4-biologics-biosimilars",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "Why can a biosimilar not be approved like a small-molecule generic?",
+      "back": "A protein made in living cells cannot be shown identical to the reference product; small differences in glycosylation or conformation can change PK, PD and immunogenicity. So approval needs analytical, animal and clinical comparison.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-050",
+      "type": "basic",
+      "subtopic": "p4-biologics-biosimilars",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "What standard must a biosimilar meet against its reference product?",
+      "back": "It must be highly similar, with no clinically meaningful differences in safety, purity and potency; minor differences in clinically inactive components are allowed.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-021",
+      "type": "shortnote",
+      "front": "Short note: Biosimilar approval pathway",
+      "sections": [
+        {
+          "h": "Legal basis (US)",
+          "points": [
+            "Biologics Price Competition and Innovation Act, enacted with the Affordable Care Act, created an abbreviated licensure pathway for 'similar' biological products"
+          ]
+        },
+        {
+          "h": "Data required",
+          "points": [
+            "Analytical studies comparing structure and function",
+            "Animal studies",
+            "One or more clinical studies"
+          ]
+        },
+        {
+          "h": "Standard",
+          "points": [
+            "Highly similar to the reference product",
+            "No clinically meaningful differences in safety, purity and potency"
+          ]
+        },
+        {
+          "h": "Difficulty",
+          "points": [
+            "Interpretation of the requirements is still debated; firm rules are unlikely"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch1",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-biosimilars",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-051",
+      "type": "basic",
+      "subtopic": "p4-biologics-biosimilars",
+      "level": 2,
+      "tags": [
+        "uses"
+      ],
+      "front": "Name two insulin glargine products listed in Katzung besides Lantus.",
+      "back": "Basaglar and Rezvoglar (Lilly), and Semglee (Mylan), are listed beside Lantus and Toujeo as insulin glargine products.",
+      "refs": [
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-052",
+      "type": "shortnote",
+      "subtopic": "p4-biologics-biosimilars",
+      "level": 3,
+      "tags": [
+        "classification"
+      ],
+      "front": "Short note: why biosimilars need a different approval route from generics",
+      "sections": [
+        {
+          "h": "Problem",
+          "points": [
+            "Large proteins are made in living cells and cannot be proven identical"
+          ]
+        },
+        {
+          "h": "Risk",
+          "points": [
+            "Differences in glycosylation or conformation can alter PK, PD and immunogenicity"
+          ]
+        },
+        {
+          "h": "Pathway",
+          "points": [
+            "Analytical, animal and one or more clinical studies; highly similar with no clinically meaningful difference"
+          ]
+        },
+        {
+          "h": "Example",
+          "points": [
+            "Insulin glargine products such as Semglee (Mylan) and Rezvoglar (Lilly)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch1",
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-025",
+      "type": "basic",
+      "front": "What are the main viral vectors used in gene therapy, and which one is used to make CAR-T cells?",
+      "back": "Retroviruses (including lentivirus) integrate into host DNA, giving permanent expression passed to daughter cells, but random insertion can disrupt genes; a lentiviral vector is used to transduce T cells when making CAR T cells. Adenovirus is highly infective but immunogenic, with transient expression needing repeated doses. Adeno-associated virus is less immunogenic but hard to mass-produce and cannot carry large genes. Non-viral options (liposomes, DNA cassettes) are safer but less efficient.",
+      "refs": [
+        "RangDale9 ch5",
+        "Katzung16 ch55"
+      ],
+      "pyq": [],
       "status": "draft",
       "subtopic": "p4-biologics-newer-modalities",
       "tags": [
         "newer-drugs"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-026",
+      "type": "cloze",
+      "front": "Complete: antisense oligonucleotides (ASO)",
+      "text": "Antisense oligonucleotides are short single-stranded nucleic-acid chains that bind complementary {{mRNA}} and promote its breakdown by {{ribonuclease H}}. An apolipoprotein C-III antisense (volanesorsen) is available in Europe for severe chylomicronaemia.",
+      "refs": [
+        "RangDale9 ch5",
+        "Katzung16 ch35"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-newer-modalities",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-028",
+      "type": "basic",
+      "front": "How do mRNA vaccines work?",
+      "back": "They deliver messenger RNA encoding an antigen, packaged in lipid nanoparticles. Antigen-presenting cells take up the nanoparticles and make the protein, which triggers an immune response. Example: mRNA vaccines against SARS-CoV-2.",
+      "refs": [
+        "GG14 ch40",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-newer-modalities",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-030",
+      "type": "cloze",
+      "front": "Complete: how CAR-T cells are made and given",
+      "text": "CAR-T cells are {{autologous}}: T cells are collected from the patient, transduced with a {{lentiviral}} vector, expanded, and infused back into the same patient after pre-treatment with {{cyclophosphamide}}.",
+      "refs": [
+        "Katzung16 ch55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-newer-modalities",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 1
     },
     {
       "id": "p4-biologics-033",
@@ -906,6 +1309,623 @@
           "year": 2025,
           "marks": 10
         }
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-053",
+      "type": "basic",
+      "subtopic": "p4-biologics-newer-modalities",
+      "level": 1,
+      "tags": [
+        "newer-drugs"
+      ],
+      "front": "Which vector gives permanent expression by integrating into host DNA, and what is its drawback?",
+      "back": "Retroviruses (including lentivirus) integrate and pass to daughter cells; the drawback is random insertion that can disrupt genes. Lentivirus is used to make CAR T cells.",
+      "refs": [
+        "RangDale9 ch5",
+        "Katzung16 ch55"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-054",
+      "type": "basic",
+      "subtopic": "p4-biologics-newer-modalities",
+      "level": 1,
+      "tags": [
+        "newer-drugs"
+      ],
+      "front": "What do antisense oligonucleotides and siRNA have in common, and how do they differ?",
+      "back": "Both stop a protein being made by acting on mRNA. Antisense: short nucleotide chains that bind mRNA and promote RNase H breakdown. siRNA: double-stranded RNA that recruits RISC to degrade the matching mRNA.",
+      "refs": [
+        "RangDale9 ch5"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-027",
+      "type": "basic",
+      "front": "How does a small interfering RNA (siRNA) silence a gene, and what is one clinical example?",
+      "back": "Short double-stranded RNA silences the complementary messenger RNA, so the protein is not made. Example: inclisiran, an siRNA against PCSK9, given twice yearly, reduces LDL-cholesterol by about 50%.",
+      "refs": [
+        "GG14 ch3",
+        "Katzung16 ch35"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-newer-modalities",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-029",
+      "type": "shortnote",
+      "front": "Short note: CAR-T cell therapy",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Patient's own T cells re-targeted with a chimeric antigen receptor",
+            "Receptor = antibody variable regions fused to T-cell signalling domains",
+            "A living drug"
+          ]
+        },
+        {
+          "h": "Manufacture",
+          "points": [
+            "T cells purified from the patient's blood leukocytes",
+            "Transduced with a lentiviral (retroviral) vector, expanded, and infused back (autologous)",
+            "Cyclophosphamide pretreatment before infusion"
+          ]
+        },
+        {
+          "h": "Approved uses",
+          "points": [
+            "CD19-directed products for B-cell leukaemias and lymphomas (tisagenlecleucel, axicabtagene, brexucabtagene, lisocabtagene)",
+            "BCMA-directed products for multiple myeloma (idecabtagene, ciltacabtagene)"
+          ]
+        },
+        {
+          "h": "Toxicities",
+          "points": [
+            "Cytokine release syndrome: tocilizumab with or without corticosteroids",
+            "Neurotoxicity: supportive care",
+            "Prolonged hypogammaglobulinaemia: IGIV replacement",
+            "Resistance from loss of CD19 antigen"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-newer-modalities",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-055",
+      "type": "basic",
+      "subtopic": "p4-biologics-newer-modalities",
+      "level": 2,
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "front": "How are the main toxicities of CAR-T therapy managed?",
+      "back": "CRS: tocilizumab with or without corticosteroids. Neurotoxicity: supportive care. Prolonged hypogammaglobulinaemia: IGIV replacement.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-biologics-032",
+      "type": "shortnote",
+      "front": "Short note: Current status of gene therapy",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Addition of genetic material to cells to prevent, relieve or cure disease",
+            "Viral vectors replace a defective gene or add a new one; some approaches silence genes instead"
+          ]
+        },
+        {
+          "h": "Approved examples (GG14)",
+          "points": [
+            "AAV vectors deliver the RPE65 (retinal) and SMN1 (spinal muscular atrophy) genes",
+            "Anti-CD19 chimeric antigen receptor T cells, made with a lentiviral vector, treat B-cell acute lymphoblastic leukaemia",
+            "Patisiran and inotersen, transthyretin-directed RNA agents, treat hereditary transthyretin amyloidosis"
+          ]
+        },
+        {
+          "h": "Milestone",
+          "points": [
+            "Tisagenlecleucel (2017) was the first gene therapy approved in the United States"
+          ]
+        },
+        {
+          "h": "Cancer strategies",
+          "points": [
+            "Tumour suppressor gene insertion, oncolytic virotherapy and gene-directed enzyme prodrug therapy are used for many cancers"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch3",
+        "RangDale9 ch5",
+        "Sarkar p36-40",
+        "Sarkar p426-430"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-biologics-newer-modalities",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-biologics-058",
+      "type": "basic",
+      "front": "What is granulocyte-macrophage colony-stimulating factor (GM-CSF)?",
+      "back": "A haematopoietic cytokine that stimulates stem cells to differentiate into granulocytes (neutrophils, eosinophils, basophils) and monocytes. Recombinant sargramostim is used clinically to speed marrow recovery.",
+      "refs": [
+        "GG14 ch39",
+        "GG14 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-basics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-060",
+      "type": "shortnote",
+      "front": "Short note: Sargramostim",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Recombinant human GM-CSF"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Stimulates haematopoietic stem cells to become granulocytes and monocytes"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Accelerates myeloid reconstitution after autologous bone marrow or peripheral blood progenitor cell transplant",
+            "Promotes neutrophil recovery after chemotherapy",
+            "Induces neutrophil production after myelosuppressive doses of radiation"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch39",
+        "GG14 ch45"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-biologics-basics",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-061",
+      "type": "basic",
+      "front": "What is an immunotoxin?",
+      "back": "A targeting protein (an antibody fragment or a cytokine) coupled to a toxin, so the toxin reaches only cells carrying the target. Example: moxetumomab pasudotox-tdfk, an anti-CD22 Fv linked to a 38 kDa Pseudomonas toxin fragment.",
+      "refs": [
+        "GG14 ch38",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-conjugates",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-062",
+      "type": "basic",
+      "front": "How does botulinum toxin block the neuromuscular junction?",
+      "back": "It binds cholinergic nerve endings, enters the cell and cleaves SNARE proteins (synaptobrevin), so ACh cannot be released into the synapse. The result is flaccid paralysis; the block lasts weeks to 3-4 months and recovery needs nerve sprouting.",
+      "refs": [
+        "GG14 ch10",
+        "GG14 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-biologics-conjugates",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-biologics-063",
+      "type": "shortnote",
+      "front": "Short note: Toxin-based drugs approved by USFDA",
+      "sections": [
+        {
+          "h": "Five examples",
+          "points": [
+            "AbobotulinumtoxinA",
+            "IncobotulinumtoxinA",
+            "OnabotulinumtoxinA",
+            "PrabotulinumtoxinA-xvfs",
+            "RimabotulinumtoxinB"
+          ]
+        },
+        {
+          "h": "Botulinum toxins",
+          "points": [
+            "Mechanism: cleave SNARE proteins, block ACh release, flaccid paralysis",
+            "Uses: cervical dystonia, blepharospasm, glabellar lines, axillary hyperhidrosis (onabotulinumtoxinA)",
+            "Spread of toxin effect can paralyse swallowing and respiration (life-threatening)",
+            "Numerous nonequivalent preparations, so they are not interchangeable"
+          ]
+        },
+        {
+          "h": "Immunotoxins and conjugates",
+          "points": [
+            "Moxetumomab pasudotox-tdfk: anti-CD22 Fv with Pseudomonas toxin fragment; refractory hairy cell leukaemia",
+            "Denileukin diftitox: named as an FDA-approved immunotoxin",
+            "Tagraxofusp-erzs: human IL-3 fusion protein with a toxin fragment (cytokine-cytotoxin conjugate)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch13",
+        "GG14 ch38",
+        "GG14 ch72"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-biologics-conjugates",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-biologics-064",
+      "type": "basic",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 1,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Alemtuzumab: target and effect in transplant induction?",
+      "back": "Anti-CD52 antibody. Mature lymphocytes express CD52, so binding depletes them, producing prolonged lymphocyte depletion; used as a depleting induction agent.",
+      "refs": [
+        "GG14 ch39"
+      ]
+    },
+    {
+      "id": "p4-biologics-065",
+      "type": "basic",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 1,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Daclizumab and basiliximab: target and effect?",
+      "back": "Antibodies to the IL-2 receptor (CD25). They block IL-2 signalling, so activated T cells cannot proliferate. They modulate rather than deplete.",
+      "refs": [
+        "GG14 ch39",
+        "KDT8 ch65"
+      ]
+    },
+    {
+      "id": "p4-biologics-066",
+      "type": "basic",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Belatacept: which costimulatory ligands does it block?",
+      "back": "CD80 and CD86 on antigen-presenting cells. Blocking them inhibits T-cell costimulation without depleting cells.",
+      "refs": [
+        "GG14 ch39"
+      ]
+    },
+    {
+      "id": "p4-biologics-067",
+      "type": "basic",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Muromonab-CD3: target and mechanism?",
+      "back": "It binds the CD3 chain next to the TCR, inducing its endocytosis and removal of the T cell, so helper T cells are depleted.",
+      "refs": [
+        "KDT8 ch65",
+        "GG14 ch39"
+      ]
+    },
+    {
+      "id": "p4-biologics-068",
+      "type": "basic",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 2,
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "front": "Why was muromonab-CD3 largely replaced in transplant practice, and what happens if it is stopped?",
+      "back": "It is a murine antibody, so anti-murine and anti-idiotypic antibodies can limit repeat use. Anaphylaxis, infections and neoplasms are risks. Stopping it can cause rebound rejection. It is no longer marketed in the US.",
+      "refs": [
+        "GG12 ch35",
+        "GG14 ch39"
+      ]
+    },
+    {
+      "id": "p4-biologics-069",
+      "type": "basic",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 2,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What is an anti-idiotypic antibody, and why is it relevant to IVIG?",
+      "back": "An antibody against the antigen-binding (idiotype) region of another antibody. IVIG may contain anti-idiotypes that neutralise pathogenic autoantibodies; this is one proposed mechanism.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG12 ch35"
+      ]
+    },
+    {
+      "id": "p4-biologics-070",
+      "type": "shortnote",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 2,
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "front": "Short note: Monoclonal antibodies in transplant rejection",
+      "sections": [
+        {
+          "h": "Induction",
+          "points": [
+            "Biological induction agents are of two types: depleting and immune modulating"
+          ]
+        },
+        {
+          "h": "Depleting agents",
+          "points": [
+            "ATG (lymphocyte immune globulin, Atgam; Thymoglobulin)",
+            "Muromonab-CD3, no longer marketed in the US",
+            "Alemtuzumab: CD52, depletes lymphocytes"
+          ]
+        },
+        {
+          "h": "Immune modulators",
+          "points": [
+            "Daclizumab and basiliximab: IL-2 receptor blockade",
+            "Belatacept: blocks CD80/CD86 costimulation"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Murine antibodies provoke anti-murine responses",
+            "Rebound rejection after stopping muromonab-CD3"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch39",
+        "KDT8 ch65",
+        "GG12 ch35"
+      ]
+    },
+    {
+      "id": "p4-biologics-071",
+      "type": "essay",
+      "subtopic": "p4-biologics-mechanisms",
+      "level": 3,
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "front": "Essay: Monoclonal antibodies in autoimmune disease and transplant rejection",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Antibody names show origin: -omab murine, -ximab chimeric, -zumab humanised, -umab human",
+            "Mechanisms: ligand or receptor blockade, cell depletion, ADCC and CDC"
+          ]
+        },
+        {
+          "h": "Autoimmune disease",
+          "points": [
+            "TNF-alpha neutralisation with the chimeric antibody infliximab",
+            "CD20 B-cell depletion with rituximab",
+            "IVIG anti-idiotypic effects proposed in autoimmune disease"
+          ]
+        },
+        {
+          "h": "Transplant rejection",
+          "points": [
+            "Depleting induction: ATG, alemtuzumab (CD52), muromonab-CD3",
+            "Immune modulation: daclizumab and basiliximab (IL-2R), belatacept (CD80/CD86)",
+            "Muromonab-CD3 limited by anti-murine antibodies and rebound rejection"
+          ]
+        },
+        {
+          "h": "Limits and safety",
+          "points": [
+            "Immunogenicity, especially with murine or chimeric antibodies",
+            "Infusion reactions, cytokine release and infection risk"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Targeting is precise but immunogenicity and infection limit long-term use"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch38",
+        "GG14 ch39",
+        "KDT8 ch65",
+        "Katzung16 ch55",
+        "GG12 ch35"
+      ]
+    },
+    {
+      "id": "p4-biologics-072",
+      "type": "basic",
+      "subtopic": "p4-biologics-safety",
+      "level": 1,
+      "tags": [
+        "poisoning"
+      ],
+      "front": "What is occupational toxicology?",
+      "back": "The study of how chemicals in the workplace affect human health. It is separate from the preclinical toxicity testing of a new drug.",
+      "refs": [
+        "GG14 ch76",
+        "Katzung16 ch1"
+      ]
+    },
+    {
+      "id": "p4-biologics-073",
+      "type": "shortnote",
+      "subtopic": "p4-biologics-safety",
+      "level": 2,
+      "tags": [
+        "poisoning",
+        "adr"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Occupational versus preclinical toxicity",
+      "sections": [
+        {
+          "h": "Occupational toxicity",
+          "points": [
+            "Exposure of workers to chemicals in the workplace",
+            "Lead: mainly by inhaling dust and fumes",
+            "Highest risk in lead smelters and storage battery factories"
+          ]
+        },
+        {
+          "h": "Preclinical toxicity",
+          "points": [
+            "Done in animals before human trials",
+            "Planned, controlled dosing of a candidate drug"
+          ]
+        },
+        {
+          "h": "Key differences",
+          "points": [
+            "Occupational: uncontrolled, long-term exposure of workers",
+            "Preclinical: planned testing of a candidate drug before human exposure"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch76",
+        "Katzung16 ch1"
+      ]
+    },
+    {
+      "id": "p4-biologics-075",
+      "type": "shortnote",
+      "subtopic": "p4-biologics-biosimilars",
+      "level": 3,
+      "tags": [
+        "newer-drugs"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Regulatory aspects of biopharmaceuticals",
+      "sections": [
+        {
+          "h": "What they are",
+          "points": [
+            "Large molecules, usually proteins made in living cells, not by chemical synthesis",
+            "Glycosylation and conformation affect PK, PD and immunogenicity"
+          ]
+        },
+        {
+          "h": "Biosimilars",
+          "points": [
+            "Biologics Price Competition and Innovation Act (2010) created an abbreviated pathway",
+            "Requires no clinically meaningful difference in safety, purity and potency from the reference product"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch1"
       ]
     }
   ]

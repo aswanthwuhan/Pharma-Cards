@@ -1043,7 +1043,7 @@
       "id": "rf-p1-pd-0104",
       "subtopic": "p1-pd-dose-response",
       "kind": "fact",
-      "q": "Therapeutic range (Prep)",
+      "q": "Therapeutic range",
       "a": "Dose range bounded by minimal therapeutic effect and maximal acceptable adverse effect",
       "refs": [
         "KDT8 PDF p82"
@@ -2480,6 +2480,724 @@
       "a": "Chemical modification of the agonist's structure",
       "refs": [
         "GG12 PDF p69"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0245",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Tolerance: definition",
+      "a": "Same dose gives less effect because target cells become less responsive",
+      "refs": [
+        "KDT8 PDF p97"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0246",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Tachyphylaxis: definition",
+      "a": "Rapid tolerance when doses are repeated in quick succession",
+      "refs": [
+        "KDT8 PDF p97"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0247",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Tachyphylaxis: drug type usually affected",
+      "a": "Indirectly acting drugs (e.g. tyramine, ephedrine)",
+      "refs": [
+        "KDT8 PDF p97",
+        "GG14 PDF p212",
+        "KDT8 PDF p163"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0248",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Cross-tolerance: definition and example",
+      "a": "Tolerance to related drugs; alcoholics tolerate barbiturates and general anaesthetics",
+      "refs": [
+        "KDT8 PDF p97"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0249",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Tolerance to morphine: effects it spares",
+      "a": "Constipation and miosis (tolerance mainly to analgesia and euphoria)",
+      "refs": [
+        "KDT8 PDF p97"
+      ],
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0250",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Tolerance to phenobarbitone: effect it spares",
+      "a": "Antiepileptic action (sedation tolerance develops more)",
+      "refs": [
+        "KDT8 PDF p97"
+      ],
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0251",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Tachyphylaxis and fade (GG14)",
+      "a": "Overlapping terms: decline in response with repeated use (tachyphylaxis) or with time (fade)",
+      "refs": [
+        "GG14 PDF p69"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0252",
+      "subtopic": "p1-pd-signalling",
+      "kind": "class",
+      "q": "Second messengers: list",
+      "a": "cAMP, cGMP, IP3, DAG, Ca2+",
+      "refs": [
+        "KDT8 ch4"
+      ],
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0253",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Autoreceptor: definition",
+      "a": "Presynaptic receptor responding to the neuron's own transmitter, modulating its release",
+      "refs": [
+        "GG14 PDF p201"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0254",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Heteroreceptor: definition",
+      "a": "Presynaptic receptor responding to a transmitter from another neuron or cell",
+      "refs": [
+        "GG14 PDF p201"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0255",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Heteroreceptor example on parasympathetic terminal",
+      "a": "Noradrenaline on alpha-2 receptors inhibits ACh release",
+      "refs": [
+        "GG14 PDF p201"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0256",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Muscarinic autoreceptors on cholinergic terminals",
+      "a": "M2 and M4; activation inhibits further ACh release",
+      "refs": [
+        "GG14 PDF p206",
+        "KDT8 PDF p129"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0257",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Presynaptic alpha-2 receptor: effect on adrenergic neuron",
+      "a": "Inhibits noradrenaline release (negative feedback)",
+      "refs": [
+        "KDT8 PDF p153",
+        "GG14 PDF p212"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0258",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Blocking presynaptic muscarinic receptors: effect",
+      "a": "Raises ACh release, which may partly offset postsynaptic blockade",
+      "refs": [
+        "GG14 PDF p232"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0259",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Sumatriptan: autoreceptor action",
+      "a": "5-HT1D/1B presynaptic autoreceptors; reduces 5-HT release at cranial vessels",
+      "refs": [
+        "KDT8 PDF p209"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0260",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Antidepressant delay: autoreceptor explanation",
+      "a": "Early 5-HT1/alpha-2 autoreceptor activation cuts firing; they desensitise on chronic use",
+      "refs": [
+        "KDT8 PDF p497"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0261",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "U-shaped dose-response curve: seen with",
+      "a": "Hormones, endocrine disrupters, essential metals and vitamins",
+      "refs": [
+        "GG14 PDF p174"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0262",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "U-shaped curve: meaning",
+      "a": "Both deficiency and excess harmful; safe middle zone",
+      "refs": [
+        "GG14 PDF p174"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0263",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Inverted U-shaped dose-response: possible cause",
+      "a": "Receptor down-regulation or desensitisation, or a distinct negative effect at high dose",
+      "refs": [
+        "GG14 PDF p175"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0264",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Margin of safety (GG14 formula)",
+      "a": "LD1 / ED99",
+      "refs": [
+        "GG14 PDF p174"
+      ],
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0265",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Receptor supersensitivity: cause",
+      "a": "Prolonged agonist deprivation (denervation or continued antagonist use), via receptor unmasking or up-regulation",
+      "refs": [
+        "KDT8 PDF p77",
+        "KDT8 PDF p79"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0266",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Clinical examples of receptor supersensitivity",
+      "a": "Clonidine, CNS depressant and opioid withdrawal; abrupt propranolol stopping in angina",
+      "refs": [
+        "KDT8 PDF p77",
+        "KDT8 PDF p79"
+      ],
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0267",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Clinical examples of receptor desensitisation",
+      "a": "Asthmatics on continuous beta agonists; parkinsonian patients on high-dose levodopa",
+      "refs": [
+        "KDT8 PDF p77",
+        "KDT8 PDF p79"
+      ],
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0268",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Drug dependence: definition",
+      "a": "Altered physiological state from repeated dosing needing continued drug presence; stopping gives a withdrawal syndrome",
+      "refs": [
+        "KDT8 PDF p115"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0269",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Drugs causing addiction with little or no dependence",
+      "a": "Amphetamines, cocaine, cannabis, LSD",
+      "refs": [
+        "KDT8 PDF p116"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0270",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "PPAR family members",
+      "a": "PPAR-alpha, PPAR-beta/delta, PPAR-gamma",
+      "refs": [
+        "GG14 PDF p88"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0271",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "class",
+      "q": "Fibrates: PPAR receptor and examples",
+      "a": "PPAR-alpha; gemfibrozil, fenofibrate, bezafibrate",
+      "refs": [
+        "GG14 PDF p88",
+        "GG14 PDF p135"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0272",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "class",
+      "q": "Thiazolidinediones: PPAR receptor and example",
+      "a": "PPAR-gamma; pioglitazone",
+      "refs": [
+        "GG14 PDF p88",
+        "KDT8 PDF p314"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0273",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Heterodimer partner of PPARs",
+      "a": "Retinoid X receptor (RXR)",
+      "refs": [
+        "GG14 PDF p106"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0274",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Main lipid effect of fibrates",
+      "a": "Lowers triglycerides by about 20-50%",
+      "refs": [
+        "KDT8 PDF p700"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0275",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Fibrate effects on fatty acid handling",
+      "a": "Raises fatty acid oxidation and lipoprotein lipase synthesis",
+      "refs": [
+        "KDT8 PDF p700",
+        "GG14 PDF p758"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0276",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Pioglitazone adverse effect",
+      "a": "Plasma volume expansion and oedema",
+      "refs": [
+        "KDT8 PDF p314"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0277",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Gemfibrozil interaction",
+      "a": "Myopathy risk with several statins",
+      "refs": [
+        "GG14 PDF p111"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0278",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "CB1 cannabinoid receptor location",
+      "a": "High density in the brain; CB2 mainly on immune cells",
+      "refs": [
+        "GG14 PDF p342"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0279",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Synthetic THC used for chemotherapy vomiting",
+      "a": "Dronabinol (nabilone is the other)",
+      "refs": [
+        "KDT8 PDF p492",
+        "GG14 PDF p535"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0280",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Cannabinoid for MS spasticity",
+      "a": "Nabiximols (THC plus CBD oromucosal spray)",
+      "refs": [
+        "GG14 PDF p535"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0281",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Cannabidiol approved for seizures in",
+      "a": "Lennox-Gastaut, Dravet and tuberous sclerosis complex",
+      "refs": [
+        "GG14 PDF p535"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0282",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Cannabidiol: significant interaction with",
+      "a": "Clobazam",
+      "refs": [
+        "GG14 PDF p535"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0284",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Cannabinoid use for glaucoma",
+      "a": "Lowers intraocular pressure",
+      "refs": [
+        "KDT8 PDF p492"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0285",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Main limitation of cannabinoid drugs",
+      "a": "Hallucinogenic and psychomotor effects",
+      "refs": [
+        "KDT8 PDF p492"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0286",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Principal brain endocannabinoid",
+      "a": "Anandamide",
+      "refs": [
+        "KDT8 PDF p492"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0287",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Second endocannabinoid",
+      "a": "2-arachidonoylglycerol (2-AG)",
+      "refs": [
+        "GG14 PDF p342"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0288",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Direction of endocannabinoid signalling",
+      "a": "Postsynaptic to presynaptic (retrograde)",
+      "refs": [
+        "Katzung16 PDF p413",
+        "GG14 PDF p527"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0289",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Enzyme inhibited to raise anandamide",
+      "a": "FAAH",
+      "refs": [
+        "GG14 PDF p535"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0290",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Enzyme inhibited to raise 2-AG",
+      "a": "MAGL",
+      "refs": [
+        "GG14 PDF p535"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0291",
+      "subtopic": "p1-pd-signalling",
+      "kind": "fact",
+      "q": "Rimonabant",
+      "a": "CB1 antagonist with inverse agonist action",
+      "refs": [
+        "GG14 PDF p564"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0292",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Model linking PK and PD over time",
+      "a": "PK-PD model",
+      "refs": [
+        "Medhi PMECP PDF p356"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0293",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Antimicrobial PK-PD starts from",
+      "a": "Susceptibility (MIC)",
+      "refs": [
+        "GG12 PDF p1396"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0294",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Labetalol elimination half-life",
+      "a": "About 8 h (dilevalol R,R isomer about 15 h)",
+      "refs": [
+        "GG12 PDF p354"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0295",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Labetalol bioavailability",
+      "a": "About 20-40%, variable, raised by food",
+      "refs": [
+        "GG12 PDF p354"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0296",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Qualitative change in drug response, example",
+      "a": "Drug allergy or idiosyncrasy",
+      "refs": [
+        "KDT8 PDF p90"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0297",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Basis for child doses",
+      "a": "Body weight",
+      "refs": [
+        "KDT8 PDF p90"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0298",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Elderly GFR at 75 years",
+      "a": "About 50% of the young adult value",
+      "refs": [
+        "KDT8 PDF p91"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0299",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Dose variation between individuals from genetics",
+      "a": "4 to 6 fold",
+      "refs": [
+        "KDT8 PDF p92"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0300",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Pregnancy change in albumin and alpha-1-acid glycoprotein",
+      "a": "Albumin falls; alpha-1-acid glycoprotein rises",
+      "refs": [
+        "KDT8 PDF p92"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0301",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Measuring adrenaline in microgram amounts",
+      "a": "Bioassay",
+      "refs": [
+        "Satoskar PDF p157"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0302",
+      "subtopic": "p1-pd-dose-response",
+      "kind": "fact",
+      "q": "Isolated tissue used to bioassay adrenaline",
+      "a": "Rat colon (more sensitive to noradrenaline)",
+      "refs": [
+        "Medhi PMECP PDF p170"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0303",
+      "subtopic": "p1-pd-antagonism",
+      "kind": "fact",
+      "q": "Atropine tachycardia depends on",
+      "a": "Vagal tone",
+      "refs": [
+        "KDT8 PDF p90"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0304",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Main tachykinin in pain and inflammation",
+      "a": "Substance P",
+      "refs": [
+        "KDT8 PDF p567"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0305",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Tachykinin receptor G-protein coupling",
+      "a": "Gq (IP3 and Ca2+ release)",
+      "refs": [
+        "KDT8 PDF p567"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0306",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "NK1 antagonist used as antiemetic",
+      "a": "Aprepitant",
+      "refs": [
+        "KDT8 PDF p730"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0307",
+      "subtopic": "p1-pd-drug-targets",
+      "kind": "fact",
+      "q": "US patent term for a drug",
+      "a": "20 years from filing",
+      "refs": [
+        "GG14 PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0308",
+      "subtopic": "p1-pd-drug-targets",
+      "kind": "fact",
+      "q": "Ways transporters cause adverse drug reactions",
+      "a": "Decreased uptake/excretion; increased uptake/decreased efflux; altered endogenous transport",
+      "refs": [
+        "GG14 PDF p100"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0309",
+      "subtopic": "p1-pd-drug-targets",
+      "kind": "fact",
+      "q": "Designer drug prototype",
+      "a": "Ecstasy (MDMA derivatives)",
+      "refs": [
+        "Katzung16 PDF p630"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0310",
+      "subtopic": "p1-pd-drug-targets",
+      "kind": "fact",
+      "q": "Therapeutic designer drug in epilepsy",
+      "a": "Vigabatrin (vinyl-substituted GABA analogue)",
+      "refs": [
+        "RangDale9 PDF p595"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0311",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "class",
+      "q": "D2-like dopamine agonist uses",
+      "a": "Parkinson disease, restless legs syndrome, hyperprolactinaemia",
+      "refs": [
+        "GG14 PDF p319"
+      ]
+    },
+    {
+      "id": "rf-p1-pd-0312",
+      "subtopic": "p1-pd-receptor-families",
+      "kind": "fact",
+      "q": "Drug given with levodopa",
+      "a": "Peripheral decarboxylase inhibitor",
+      "refs": [
+        "GG14 PDF p319"
       ]
     }
   ]

@@ -118,3 +118,84 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 60 original, corrected: 
 - PYQ questions covered: none matched individually this pass; PYQ-driven cards for LA and GA are still to do.
 - Target (+30) NOT met: 24 added. Neuromuscular blockers (KDT8 ch25) not read this pass.
 - Book conflicts: none found.
+
+## Difficulty ladder pass
+All cards given explicit level; deck reordered by level per subtopic; PYQ tags added to 015, 016, 051, 054, 055, 063.
+
+| id | status | source |
+|---|---|---|
+| p2-anaesthetics-089 | new | KDT8 ch26 |
+| p2-anaesthetics-090 | new | KDT8 ch26 |
+| p2-anaesthetics-091 | new | KDT8 ch26 |
+| p2-anaesthetics-092 | new | KDT8 ch26 |
+| p2-anaesthetics-093 | new | KDT8 ch26 |
+| p2-anaesthetics-094 | new | KDT8 ch25 |
+| p2-anaesthetics-095 | new | KDT8 ch26 |
+| p2-anaesthetics-096 | new | KDT8 ch27 |
+| p2-anaesthetics-097 | new | KDT8 ch27 |
+| 015,016,051,054,055,063 | corrected (pyq tag, level) | KDT8 ch25-27 |
+
+## Checker
+- Checked 097/095/094/092/093/089-091/096, 015/016/051/054/055/063 against KDT8 ch25-27 text. Prep/RR5 grep clean. Ladder counts OK in all 9 subtopics.
+- 097: removed soda lime / carbon monoxide claim (not in KDT8 text).
+- 095, 092: removed "never bupivacaine" and "bupivacaine avoided in Bier's block" (not stated in book); 092 now states cuff time and early-deflation hazard.
+- 094: removed "rocuronium cleared mainly in bile" (KDT8 says that of vecuronium).
+- 016: monosynaptic-spared line corrected (baclofen depresses both; RangDale9 ch39 / KDT8).
+- 055: etomidate 4-8 h cortisol duration removed (not in books); CYP11B1 inhibition grounded in GG14 ch25, ref added.
+- No deletions.
+
+## Checker
+- Verified 20+ cards (009,010,022-029,045,089-097) against KDT8 ch25-26-27 text.
+- Corrected 094: cisatracurium is not hydrolysed by plasma cholinesterase (KDT8 ch25); added rocuronium liver-clearance caveat.
+- No Prep/RR5 refs. Ladder OK (every subtopic >=3 L1, 2 L2, 1 L3). No deletions.
+- Not verified: 009 sugammadex 16 mg/kg (Katzung16 ref, not re-read).
+
+## Checker (pass 2, haiku-directed)
+- Re-verified 25 cards (009,022,023,025,027,045,062,070,087,092-097 etc.) against KDT8 ch25-27 and Katzung16 (sugammadex 16 mg/kg for 1.2 mg/kg rocuronium confirmed, Katzung16 PDF p524/531).
+- Corrected 062: glycopyrrolate/atropine dose is 5-10 ug/kg (KDT8), not "about 10".
+- Corrected 009: removed unsupported "no potassium release"; now states book's "without disadvantages of depolarizing block".
+- Corrected 094: added sugammadex renal caveat (Katzung16 ch27).
+- Added 098 (L1, la-principles): base vs cation, builds pKa/onset L2 cards.
+- No Prep/RR5 refs. Ladder OK. No deletions.
+
+## Gap pass: past-exam questions 191, 207, 572
+
+| id | status | source |
+|---|---|---|
+| p2-anaesthetics-099 | new | Katzung16 ch27 |
+| p2-anaesthetics-100 | new | Katzung16 ch27 |
+| p2-anaesthetics-101 | new | Katzung16 ch27 |
+| p2-anaesthetics-102 | new | Medhi PMECP p171-172 |
+| p2-anaesthetics-103 | new | Medhi PMECP p169-170 |
+| p2-anaesthetics-104 | new | Katzung16 ch27 |
+| p2-anaesthetics-105 | new | Katzung16 ch27, Ghosh FEP p252, Medhi PMECP p169-172 |
+| p2-anaesthetics-106 | new | Medhi PMECP p228-229 |
+| p2-anaesthetics-107 | new | Medhi PMECP p229-230 |
+| p2-anaesthetics-108 | new | Medhi PMECP p229 |
+| p2-anaesthetics-109 | new | Medhi PMECP p228-229 |
+| p2-anaesthetics-110 | new | Medhi PMECP p228-230 |
+| p2-anaesthetics-111 | new | Medhi PMECP p228-230 |
+| p2-anaesthetics-055 | pyq tag added (Q bank, Q207) | KDT8 ch27 |
+
+Notes: Q191 (UHSR 2025 III, 10 marks) covered by 104-105 and the in vivo part is the clinical TOF method; the exact animal set-up is not described in the owner books. Q572 (UHSR 2025 III) covered by 110-111; the question text says (20) but the PYQ file says 10 marks, so 10 used. Q207: the IV anaesthetic half is already 055; the low-molecular-weight heparin half belongs to p2-blood, not this file, so not carded here.
+
+Checker (PYQ gap pass): re-checked 099-111 against Katzung16 PDF p520-521 (TOF 2 Hz, double-burst 50 Hz/700 ms, PTC), Medhi PMECP pp169-172 (rat phrenic, chick biventer), pp228-230 (guinea pig 2% lignocaine gel, times 0-60 min, frog 1% procaine/5 min/0.1 N HCl, rabbit corneal reflex). All confirmed except: 105 claimed Ghosh FEP p252 cat/dog tubocurarine table and chick "tubocurarine no effect on slow fibres; neostigmine reverses" (not found in source). Removed those lines and the Ghosh ref; 105 now cites Medhi p169-172 only. 108 back reworded to match Medhi (procaine placed in abdominal cavity over sciatic nerve, 5 min). Still unverified: 105 intro statement that succinylcholine is the only clinically useful depolarising blocker (Katzung16 ch27 text not located) and the competitive/depolarising reversal statement; owner should check. Validator: check ok. Levels and ladder minimums unchanged; pyq tags use the existing object format; no Prep or RR5 refs in new cards.
+
+## Gap pass: past-exam questions 43 and 155 (IV anaesthetics, 10-mark short notes)
+- Existing cover: 055 essay (already tagged RGUHS 2007, RGUHS 2020, Q bank 2023) and basics 046-049. Those are kept. The short-note format had no card, so these were added (all KDT8 ch27, book pp409-411 = PDF p422-424, verified):
+  - 112 shortnote, IV general anaesthetics overview (pyq RGUHS 2007 and 2020, 10 marks each). The Q bank entries have no year, so no tag.
+  - 113 shortnote, propofol.
+  - 114 shortnote, ketamine.
+  - 115 basic, etomidate (KDT8 ch27; GG14 ch24 PDF p492 for the cardiovascular-risk use).
+  - 116 shortnote, benzodiazepines as IV anaesthetic agents.
+- Rapid: no new pairs. rf-p2-anaesthetics-0407 to 0454 already cover every IV agent fact used here (dose, kinetics, receptor, adverse effects, flumazenil).
+- Validator: check ok.
+
+## Checker pass: newest IV anaesthetic cards (112-116)
+- Re-checked against KDT8 PDF p421-425 (= book pp408-411) and GG14 PDF p492-495 (etomidate, ketamine haemodynamics).
+- 112: "poor analgesics" limited to thiopentone, etomidate, benzodiazepines (ketamine is the exception). Respiratory-depression wording limited to "most agents (not ketamine)". Propofol wording changed to "superseded thiopentone" (book wording, not "default").
+- 113: ICU sedation wording now "intubated patients (not approved in children)" per KDT8 p410.
+- 114: removed "up to half of patients" (number not in the owner books located). Added GG14 ch24 to refs for the sympathetic-stimulation haemodynamics (GG14 p495).
+- 115, 116: confirmed as written.
+- Rapid deck: no change (rf-p2-anaesthetics-0407 to 0645 checked for the newest cards; no new pairs needed).
+- Validator: check ok.

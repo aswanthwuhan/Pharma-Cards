@@ -1026,9 +1026,10 @@
       "subtopic": "p4-rational-use-fdc",
       "kind": "fact",
       "q": "Drug class never combined with others for internal use",
-      "a": "Corticosteroids",
+      "a": "Corticosteroids (except metered-dose and dry-powder inhalers)",
       "refs": [
-        "KDT8 ch5"
+        "KDT8 ch5",
+        "KDT8 app4"
       ]
     },
     {
@@ -1256,7 +1257,7 @@
       "subtopic": "p4-rational-use-monitoring-economics",
       "kind": "fact",
       "q": "Surrogate end-point hazard (CAST trial)",
-      "a": "Antiarrhythmics suppressed arrhythmias but increased sudden cardiac deaths",
+      "a": "Antiarrhythmics suppressed arrhythmias but increased mortality compared with placebo",
       "refs": [
         "RangDale9 ch8"
       ]
@@ -1595,10 +1596,10 @@
       "id": "rf-p4-rational-use-0160",
       "subtopic": "p4-rational-use-stewardship",
       "kind": "fact",
-      "q": "Other name for prophylaxis that acts before clinical infection",
-      "a": "Pre-emptive therapy",
+      "q": "Early targeted treatment of infection found on a test before symptoms, in a high-risk patient",
+      "a": "Pre-emptive therapy (not prophylaxis)",
       "refs": [
-        "KDT8 ch50"
+        "GG14 ch56"
       ]
     },
     {
@@ -1739,6 +1740,738 @@
       "a": "P-drug concept",
       "refs": [
         "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0175",
+      "subtopic": "p4-rational-use-fdc",
+      "kind": "fact",
+      "q": "Problem when an adverse effect occurs on an FDC",
+      "a": "Cannot be ascribed to the particular drug causing it",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0176",
+      "subtopic": "p4-rational-use-fdc",
+      "kind": "fact",
+      "q": "Effect of allergy or contraindication to one FDC component",
+      "a": "Contraindicates the whole product",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0177",
+      "subtopic": "p4-rational-use-fdc",
+      "kind": "fact",
+      "q": "Effect of renal or hepatic impairment on FDC components",
+      "a": "Pharmacokinetics of components affected differently",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0178",
+      "subtopic": "p4-rational-use-fdc",
+      "kind": "fact",
+      "q": "Time-course problem of FDCs",
+      "a": "Components given at same interval though their duration of action differs",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0179",
+      "subtopic": "p4-rational-use-fdc",
+      "kind": "fact",
+      "q": "False impression fostered by FDCs, especially antimicrobials",
+      "a": "Superiority of two drugs over one",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0180",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Antibiotic for non-specific diarrhoea or viral fever",
+      "a": "Irrational: drug used when none is needed",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0181",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Proton pump inhibitor for any abdominal symptom",
+      "a": "Irrational: drug unrelated to the diagnosis",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0182",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Routine addition of vitamins or tonics",
+      "a": "Irrational compulsive coprescription",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0183",
+      "subtopic": "p4-rational-use-stewardship",
+      "kind": "fact",
+      "q": "Antibiotic given before infection to cover all likely organisms",
+      "a": "Primary prophylaxis (not pre-emptive therapy)",
+      "refs": [
+        "KDT8 ch50",
+        "GG14 ch56"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0184",
+      "subtopic": "p4-rational-use-monitoring-economics",
+      "kind": "fact",
+      "q": "Why plasma level is useless for a prodrug like levodopa",
+      "a": "Effect depends on activation, not on plasma level of the given drug",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0185",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Legal requirement on every medicine label",
+      "a": "Date of manufacture and expiry date",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0186",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "What an expiry date means",
+      "a": "Quality is not assured beyond it; it does not prove the drug has become toxic or lost potency",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0187",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Typical life period of medicines under Schedule P (Rule 96)",
+      "a": "Mostly 1 to 5 years",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0188",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Longest expiry a manufacturer may set (unless licensing authority accepts stability proof)",
+      "a": "5 years",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0189",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Outdated tetracycline capsules: toxicity produced",
+      "a": "Renal tubular damage resembling Fanconi syndrome (early 1960s); since reformulated",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0190",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "class",
+      "q": "Factors that speed loss of potency: list all",
+      "a": "High humidity; high temperature; liquid forms (less stable than solid dosage forms)",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0191",
+      "subtopic": "p4-rational-use-monitoring-economics",
+      "kind": "fact",
+      "q": "Evidence-based medicine: definition",
+      "a": "Systematic finding, evaluation and use of current research as the basis of clinical decisions",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0192",
+      "subtopic": "p4-rational-use-monitoring-economics",
+      "kind": "class",
+      "q": "Components of therapeutic evaluation of a drug: list all",
+      "a": "Quantitated benefit; best way to use it (dose, duration, patient selection); comparison with other drugs; surveillance of adverse effects",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0193",
+      "subtopic": "p4-rational-use-monitoring-economics",
+      "kind": "class",
+      "q": "Types of clinical study named: list all",
+      "a": "Clinical trials; cohort studies; case-control studies",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0194",
+      "subtopic": "p4-rational-use-monitoring-economics",
+      "kind": "fact",
+      "q": "Control group in a clinical trial: what it receives",
+      "a": "Placebo (if ethically permissible) or the existing standard treatment (active control)",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0195",
+      "subtopic": "p4-rational-use-monitoring-economics",
+      "kind": "fact",
+      "q": "Cross-over trial design: how subjects serve as controls",
+      "a": "Each patient receives drug A then B (or reverse), so individual variation is avoided and sample size may fall",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0196",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Drugs a physician needs routinely (Satoskar figure)",
+      "a": "50 to 60",
+      "refs": [
+        "Satoskar Pharmacology PDF p126"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0197",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Use of a drug outside its approved indication, route or dose",
+      "a": "Off-label use",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p89"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0198",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Off-label indication of clonidine",
+      "a": "Attention deficit hyperactivity disorder",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p89"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0199",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Diazepam injection used rectally off-label",
+      "a": "Febrile convulsions and status epilepticus",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p89"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0200",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Off-label topical use of azathioprine",
+      "a": "Psoriasis and atopic dermatitis",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p89"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0201",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Off-label use of erythromycin",
+      "a": "Gastroparesis",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p89"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0202",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Off-label use of SSRIs",
+      "a": "Fibromyalgia and pathological gambling",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p89"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0203",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Appetite stimulant used off-label in anorectic patients",
+      "a": "Cyproheptadine (avoid in underweight children: CNS depression)",
+      "refs": [
+        "KDT8 ch11"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0204",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Off-label use of phentolamine",
+      "a": "Autonomic hyperreflexia after spinal cord transection",
+      "refs": [
+        "GG14 ch14"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0205",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "US rule on prescribing for any reasonable purpose",
+      "a": "Allowed; insurers may refuse payment without compendium support",
+      "refs": [
+        "GG14 ch1"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0206",
+      "subtopic": "p4-rational-use-prescribing",
+      "kind": "fact",
+      "q": "Off-label prescribing risk for the physician",
+      "a": "Litigation if untoward effects follow",
+      "refs": [
+        "GG14 ch1"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0207",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Promotion aimed directly at doctors",
+      "a": "Direct-to-physician marketing (DTP)",
+      "refs": [
+        "Medhi PMECP PDF p358-360"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0208",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Disadvantage of promotional product literature",
+      "a": "Biased or misleading content; artificial demand; brand monopoly",
+      "refs": [
+        "Medhi PMECP PDF p358-360"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0209",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Prescriber factor: copying teachers or popular doctors",
+      "a": "Role models",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0210",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Prescriber factor: heavy workload",
+      "a": "Routinised symptom-based prescribing",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0211",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Prescriber factor: medicine given to cover all causes",
+      "a": "Imprecise diagnosis",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0212",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Industry inducements to doctors",
+      "a": "Gifts, dinner parties, conference delegation",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0213",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Patient belief behind demand for medicine",
+      "a": "Belief that every complaint needs a drug",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0214",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Does improving prescriber knowledge alone ensure rational use?",
+      "a": "No; repeatedly shown to fail",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0215",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Indian schedule for prescription-only drugs",
+      "a": "Schedule H, Drugs and Cosmetics Rules 1945",
+      "refs": [
+        "KDT8 ch1"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0216",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "class",
+      "q": "OTC examples in India (relatively harmless)",
+      "a": "Paracetamol, aspirin, antacids, senna, lactulose, vitamins, ferrous salts",
+      "refs": [
+        "KDT8 ch1"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0217",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Schedule X storage requirement",
+      "a": "Lock and key",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p100"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0218",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Schedule X prescription retention",
+      "a": "Duplicate; copy kept at least 2 years",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p100"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0219",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Substitution allowed for Schedule X?",
+      "a": "No substitute or alternative drug",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p100"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0220",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "class",
+      "q": "Schedule X examples",
+      "a": "Amphetamine, psychotropic drugs, barbiturates, methaqualone, glutethimide",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p100"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0221",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Reclassifying a prescription drug as OTC",
+      "a": "Switch (prescription-to-OTC)",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0222",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Switch criterion for a drug",
+      "a": "Consumer can self-diagnose and safely self-treat",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0223",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Statins refused OTC status",
+      "a": "Lovastatin and pravastatin: chronic hyperlipidaemia needs professional care",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0224",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Oral acyclovir refused OTC for genital herpes",
+      "a": "Misdiagnosis and viral resistance concerns",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0225",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Naloxone nasal spray OTC switch year",
+      "a": "2023 (US), for opioid overdose",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0226",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "Norgestrel OTC switch purpose",
+      "a": "Prevention of pregnancy (2023)",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0227",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "class",
+      "q": "Prescription drugs considered for future OTC switch",
+      "a": "Sumatriptan, nicotine replacement therapy, varenicline",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0228",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "OTC decongestant withdrawn from US market",
+      "a": "Phenylpropanolamine: haemorrhagic stroke risk",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0229",
+      "subtopic": "p4-rational-use-essential",
+      "kind": "fact",
+      "q": "OTC antitussive abused at high doses",
+      "a": "Dextromethorphan",
+      "refs": [
+        "Katzung16 ch64"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0230",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "WHO term for deliberately, fraudulently mislabelled medicine",
+      "a": "Counterfeit medicine",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0231",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Spurious drug: manufactured under another drug's name",
+      "a": "Drugs and Cosmetics Act s.17B",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0232",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Counterfeit with correct ingredient but wrong amount, example",
+      "a": "Glibenclamide tablets with several times the normal dose (Tanzania)",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0233",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Smuggled genuine-looking drugs, example",
+      "a": "Viagra and Cialis smuggled into Thailand",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0234",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Genuine packaging with undeclared ingredients, example",
+      "a": "Orlistat tablets sold in USA",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0235",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Track-and-trace coding on each pack",
+      "a": "Mass serialisation",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0236",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "class",
+      "q": "Anti-counterfeit technologies",
+      "a": "Forensic markers, cloud supply-chain data, blockchain",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0237",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "2018 DTAB advice for top brands",
+      "a": "Unique code per pack with SMS authentication (voluntary)",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0238",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "WHO international anti-counterfeit taskforce, 2006",
+      "a": "IMPACT",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0239",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Ghana's free SMS verification platform, 2007",
+      "a": "mPedigree",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0240",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Harm from counterfeit antibiotic",
+      "a": "No cure of the infection",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0241",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Market crowded with many drugs, many of little added value",
+      "a": "Therapeutic jungle",
+      "refs": [
+        "Sarkar p56-60",
+        "GG14 ch1"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0242",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Copy of an existing drug, often with little added benefit",
+      "a": "Me-too drug",
+      "refs": [
+        "GG14 ch1"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0243",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Prescribing two or more drugs to achieve the same effect",
+      "a": "Multiple prescribing (a form of irrational prescribing)",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0244",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "class",
+      "q": "Forms of irrational prescribing: list all",
+      "a": "Under-prescribing; over-prescribing; incorrect prescribing; extravagant prescribing; multiple prescribing",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0245",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Two market and regulation factors that drive irrational drug use",
+      "a": "Large number of drugs in the market with ineffective drug regulation",
+      "refs": [
+        "Sarkar p56-60"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0246",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Cost effect of costlier me-too drugs replacing older ones",
+      "a": "Health-care costs rise without corresponding benefit",
+      "refs": [
+        "GG14 ch1"
+      ]
+    },
+    {
+      "id": "rf-p4-rational-use-0247",
+      "subtopic": "p4-rational-use-concept",
+      "kind": "fact",
+      "q": "Indian government programme selling unbranded quality generics cheaply (started 2008)",
+      "a": "Jan Aushadhi",
+      "refs": [
+        "Sarkar p46-50"
       ]
     }
   ]

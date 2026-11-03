@@ -13,10 +13,10 @@ Sources: KD Tripathi 8e ch56 (antitubercular) and ch57 (antileprotic); Goodman &
 - Pyrazinamide dose: KDT gives 25 mg/kg (20 to 30); GG14 gives 15 to 30 mg/kg. KDT figure used; GG14 range not added.
 - Ethionamide dosing: KDT (250 mg/day rising to 750 mg/day) and GG14 (250 mg twice daily rising to 1 g/day) differ. No dosing card written; only ADR and role cards kept.
 - Sarkar p561-565 pretomanid label gives linezolid 1200 mg; conflicts with KDT RNTCP 600 mg. Not used.
-- RR5 p31-35 states aminoglycosides are contraindicated in TB; this conflicts with KDT (second-line injectables). Not used.
-- Prep p31-35 says isoniazid inhibits all CYP enzymes except CYP2E1; broader than KDT and GG14 (CYP2C19, CYP3A4). Not used.
+- [excluded review book, not used] states aminoglycosides are contraindicated in TB; this conflicts with KDT (second-line injectables). Not used.
+- [excluded review book, not used] says isoniazid inhibits all CYP enzymes except CYP2E1; broader than KDT and GG14 (CYP2C19, CYP3A4). Not used.
 - Sarkar p446-450 OCR is truncated at the INH-neuropathy sentence; the card is worded conservatively.
-- RR5 p31-35 TB drug table is garbled by OCR; not used.
+- [excluded review book, not used] TB drug table is garbled by OCR; not used.
 
 ## Grounding status (id | ok / corrected / deleted | source)
 | id | status | source |
@@ -62,7 +62,7 @@ Sources: KD Tripathi 8e ch56 (antitubercular) and ch57 (antileprotic); Goodman &
 | rf-p3-tb-leprosy-0039 | ok | KDT8 ch56 |
 | rf-p3-tb-leprosy-0040 | ok | KDT8 ch56 |
 | rf-p3-tb-leprosy-0041 | ok | Sarkar p301-305 |
-| rf-p3-tb-leprosy-0042 | ok | RR5 p31-35 |
+| rf-p3-tb-leprosy-0042 | ok | GG12 PDF p111, p1583 (ref corrected from excluded source) |
 | rf-p3-tb-leprosy-0043 | ok | KDT8 ch56 |
 | rf-p3-tb-leprosy-0044 | ok | KDT8 ch56 |
 | rf-p3-tb-leprosy-0045 | ok | KDT8 ch56 |
@@ -419,3 +419,65 @@ rf-p3-tb-leprosy-0042 | unsourced | UNSOURCED - owner must verify | pyridoxine a
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: No conflicts. RNTCP 2016 regimens (KDT8 ch56) added for RR-TB, mono- and poly-drug resistance.
 - Unsourced cards in this pass: none.
+
+## Ladder pass additions
+
+id | status | source
+rf-p3-tb-leprosy-0460 | new | KDT8 ch56
+rf-p3-tb-leprosy-0461 | new | KDT8 ch56
+rf-p3-tb-leprosy-0462 | new | KDT8 ch56
+rf-p3-tb-leprosy-0463 | new | KDT8 ch56
+rf-p3-tb-leprosy-0464 | new | KDT8 ch56
+rf-p3-tb-leprosy-0465 | new | KDT8 ch56
+rf-p3-tb-leprosy-0466 | new | KDT8 ch56
+rf-p3-tb-leprosy-0467 | new | KDT8 ch57
+rf-p3-tb-leprosy-0468 | new | KDT8 ch57
+rf-p3-tb-leprosy-0469 | new | KDT8 ch57
+rf-p3-tb-leprosy-0470 | new | KDT8 ch57
+rf-p3-tb-leprosy-0471 | new | KDT8 ch57
+
+## Checker
+- Spot-checked ~20 numeric rapid cards against KDT8 ch56-57 (PAS dose, bedaquiline dose/eligibility/ATP synthase, rifabutin, rifapentine, reaction doses). All matched; no changes. No Prep/RR5 refs.
+
+## Checker (haiku-requested recheck)
+- Re-verified ~28 cards (study 007-013, 018, 020, 034, 038-044, 059-073; rapid 0460-0471) against KDT8 ch56/57 and GG14/Katzung (bedaquiline half-life). No wrong facts found; no deletions.
+- No Prep/RR5 refs; ladder intact (levels 1-3 on all 73 cards); validator clean for this topic.
+- No gaps added: thioacetazone absent from KDT8 ch56.
+
+## Gap pass: newer drugs in tuberculosis (2026-11-03)
+| id | new | source |
+|---|---|---|
+| rf-p3-tb-leprosy-0472 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0473 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0474 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0475 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0476 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0477 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0478 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0479 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0480 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0481 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0482 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0483 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0484 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0485 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0486 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0487 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0488 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0489 | new | GG14 ch65 |
+| rf-p3-tb-leprosy-0490 | new | GG14 ch65 |
+
+## Checker (PYQ gap pass)
+- Spot-checked rapid 0472-0490 against GG14 ch65 (PDF p1296, p1286): all matched. No changes.
+- Rapid 0183 "Nitroimidazopyran": GG14 p1296 says "bicyclic nitroimidazopyrans", supported.
+- No Prep/RR5 refs.
+
+## Gap pass: second-line classes (2026-11-03)
+| id | new | source |
+|---|---|---|
+| rf-p3-tb-leprosy-0491 | new | KDT8 ch56 |
+| rf-p3-tb-leprosy-0492 | corrected | KDT8 ch56 (wording: alternative to aminoglycosides only) |
+
+- Rapid coverage of PAS, ethionamide, injectables, fluoroquinolones and RNTCP regimens was already complete; only two gaps were added.
+- Conflict: rf-p3-tb-leprosy-0141 (ethionamide hepatitis about 5 percent) vs KDT8 ch57 about 10 percent. Not changed; owner to check.
+- Card 0042 log row corrected to its real refs (GG12); the earlier excluded-source reference was removed.

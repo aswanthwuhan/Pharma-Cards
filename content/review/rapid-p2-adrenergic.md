@@ -52,3 +52,40 @@ None omitted for grounding beyond the garbled cells listed above.
 ## Expansion pass 2 (2026-11-02)
 - Rapid: +68 (rf-p2-adrenergic-0471 onward): alpha blockers (phentolamine, phenoxybenzamine, prazosin, terazosin, alfuzosin, labetalol, carvedilol, ergot alkaloids), beta-blocker classes (cardioselective, membrane-stabilising, partial agonists, newer), beta-blocker uses (migraine, tremor, thyrotoxicosis, HF, post-MI, HOCM), mirabegron CYP2D6, beta-3 receptor, sympathomimetic classes, adrenaline cautions, receptor potency, pheochromocytoma markers. Deck now 538.
 - Target (+120) NOT met: +68 added.
+
+## Level pass (2026-11-03)
+- 0539 | new | GG14 PDF p279
+- 0540 | new | GG14 PDF p279
+- 0541 | new | GG14 PDF p262
+- 0542 | new | GG14 PDF p562
+- 0543 | new | GG14 PDF p278
+- 0544 | new | GG14 PDF p298
+- 0545 | new | GG14 PDF p279
+
+## Checker (2026-11-03)
+- Checked ~30 rapid cards (numbers, lists) against KDT8 ch10, GG14 p214/262/278-280/291/298/562. All ok.
+- 0519 | corrected | question reworded to "in the GG14 receptor overview" (midodrine also alpha-1 selective per p279)
+- new ids (last three rows of deck) | new | droxidopa (Katzung16 p172), moxonidine, guanfacine (GG14 p280)
+
+## Checker pass 2 (2026-11-03)
+- Re-verified 075-080, 037, 065 and midodrine/fenoldopam/tizanidine/lofexidine/tolazoline against GG14 p262, p278-280, p297-298, p562. All ok; no changes. No Prep/RR5 refs. Ladder 3/2/1 met everywhere; validator clean for p2-adrenergic.
+
+## Checker pass 3
+- Re-checked ~25 cards (004,009,010,029-037,065,076-080, rapid 0540-0548) vs KDT8 p153-183 and GG14 p262,278-280,297-298,562, Katzung16 p172. All grounded; no edits. No Prep/RR5 refs. Ladder met.
+
+## Gap questions (2026-11-03)
+- rf-p2-adrenergic-0549 to 0582 | new | GG14 PDF p272-274, KDT8 PDF p152-180 (SAR, transmission, non-cardiovascular uses, beta-blockers in MI)
+
+## Checker (PYQ gap pass)
+- Re-verified rf-0549 to 0582 against GG14 p272-274, p300 and KDT8 p152-157, p165-167, p179-180.
+- 0564 | refs extended with KDT8 p157 (exchange diffusion table).
+- 0565 | corrected | "Drug of choice" changed to "used to delay premature labour" (KDT8 p165 says ritodrine is "sometimes the preferred drug").
+- 0575 | deleted | "within 4 to 6 hours of attack" is not printed in KDT8 p179-180.
+- 0578 | corrected | answer worded "PR interval 0.24 s or longer".
+- 0579 | corrected | "used in early MI" removed from question; the source gives esmolol as ultra-short-acting (KDT8 p179).
+- 0580 | deleted | carvedilol as beta-arrestin-biased is not stated in GG14 p274-276.
+- Remaining rows checked: ok.
+
+## Gap pass (PYQ 406, NANC transmission)
+- rf-p2-adrenergic-0583 | new | KDT8 PDF p341 (NO, NANC relaxation of corpus cavernosum)
+- rf-p2-adrenergic-0584 | new | KDT8 PDF p341 (PDE-5, cGMP breakdown)

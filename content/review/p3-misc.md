@@ -84,3 +84,83 @@ Grounding re-check under GROUNDING-RULES.md. Cards now in deck: 64. Corrected: 6
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: No conflicts logged. Vitamin E antioxidant trials (KDT8 ch69) show no benefit, and this is kept.
 - Unsourced cards in this pass: none.
+
+
+## Difficulty ladder pass
+All 74 existing cards given explicit level (ids unchanged, deck reordered by level); pyq tags added to 008,009,010,033,065,066,068,070.
+
+| id | status | source |
+|---|---|---|
+| p3-misc-075 | new | KDT8 ch66; facts reused from grounded cards |
+| p3-misc-076 | new | KDT8 ch66; facts reused from grounded cards |
+| p3-misc-077 | new | KDT8 ch66; facts reused from grounded cards |
+| p3-misc-078 | new | KDT8 ch66; facts reused from grounded cards |
+| p3-misc-079 | new | KDT8 ch67; facts reused from grounded cards |
+| p3-misc-080 | new | KDT8 ch67; facts reused from grounded cards |
+| p3-misc-081 | new | KDT8 ch67; facts reused from grounded cards |
+| p3-misc-082 | new | KDT8 ch68; facts reused from grounded cards |
+| p3-misc-083 | new | KDT8 ch68; facts reused from grounded cards |
+| p3-misc-084 | new | KDT8 ch68; facts reused from grounded cards |
+| p3-misc-085 | new | KDT8 ch69; facts reused from grounded cards |
+| p3-misc-086 | new | KDT8 ch44; facts reused from grounded cards |
+| p3-misc-087 | new | KDT8 ch69; facts reused from grounded cards |
+| p3-misc-088 | new | KDT8 ch70; facts reused from grounded cards |
+| p3-misc-089 | new | KDT8 ch70; facts reused from grounded cards |
+| p3-misc-090 | new | KDT8 ch70; facts reused from grounded cards |
+
+## Checker (haiku independent pass)
+
+Checked against KDT8 ch66-70 (text extracted with pdftotext; ch44, ch56 and ch69 cross-checked where cited).
+
+Verified OK: 076, 077, 079, 082, 083, 084, 085, 086, 087, 088, 089, 090, plus the 068 chelator facts (desferrioxamine, deferasirox, deferiprone, Na2EDTA, CaNa2EDTA).
+
+Corrected:
+- p3-misc-075: removed unsupported "thick/thin site" claim; backed by ch66 potency and atrophy text.
+- p3-misc-078: removed unsupported "limits antibiotic resistance" inference; kept the book's no-resistance statement.
+- p3-misc-080: "blister under dressing" was not in ch67 for tincture (blistering is for >5% solutions); corrected to ch67 text.
+- p3-misc-081: removed oral ivermectin and "contacts treated together" (not in ch67); kept permethrin, benzyl benzoate, crotamiton, lindane resistance (ch67).
+- p3-misc-009, 010, 033, 070: removed placeholder pyq entries (year 0, marks 10 were not real data).
+
+Deleted: none.
+
+Not verified in this pass: RGUHS year tags on 008, 065, 066, 067, 068 (question banks not opened).
+Level ladder: all 74 study cards have level 1-3; every subtopic has at least 3 L1, 2 L2, 1 L3. No Prep or RR5 refs in deck or rapid files.
+
+## PYQ gap pass (dandruff, PUVA, vitiligo, vaccine safety)
+
+Study cards: 90 -> 97 (+7). Rapid cards: 550 -> 573 (+23). Validator clean for p3-misc.
+
+Unsourced cards in this pass: none. Noted: vitiligo Q bank entry has no year, so pyq left empty (validator needs a year).
+
+| id | new | source |
+|---|---|---|
+| p3-misc-091 | new | KDT8 ch66 p950 |
+| p3-misc-092 | new | KDT8 ch66 p949-950; GG14 ch75 p1506-1507 (RGUHS 2008 Apr, III, 10) |
+| p3-misc-093 | new | KDT8 ch66 p961 |
+| p3-misc-094 | new | KDT8 ch66 p961-962; GG14 ch75 p1502 (RGUHS 2008 Oct, III, 10) |
+| p3-misc-095 | new | KDT8 ch66 p953, p961-962; GG14 ch75 p1502, p1518 (Q bank IV, 10; no year, pyq empty) |
+| p3-misc-096 | new | KDT8 ch70 p979-980 |
+| p3-misc-097 | new | KDT8 ch70 p979-991 (RGUHS 2024 Jun, IV, 10) |
+
+## Checker (PYQ gap pass)
+
+- Checked p3-misc-091 to 097 against KDT8 ch66 and ch70 (allowed PDF search).
+- Corrected p3-misc-094: "intercalates into DNA" was not in the book; replaced with KDT8 ch66 wording (photoactivated psoralen binds pyrimidine bases).
+- Confirmed: Pityrosporum ovale and dandruff triggers (ch66); psoralen from Ammi majus fruit (ch66); Thai intradermal rabies regimen (ch70); Ty21a 3 capsules on alternate days (ch70); Vi repeat after 3 years (ch70).
+- Not verified this pass: exact percentages and strengths on 092, 095 (monobenzone 20%, calcipotriene), rapid 0551-0574 numbers (for example Vi 60%, rabies day schedule, 1% methoxsalen lotion, 320-340 nm). Owner should spot-check these.
+- Levels and tags checked; no Prep or RR5 refs in p3-misc files.
+
+## Checker (PYQ gap pass)
+
+- Checked p3-misc-091 to 097 against KDT8 ch66 and ch70 (allowed PDF search).
+- Corrected p3-misc-094: "intercalates into DNA" was not in the book; replaced with KDT8 ch66 wording (photoactivated psoralen binds pyrimidine bases).
+- Confirmed: Pityrosporum ovale and dandruff triggers (ch66); psoralen from Ammi majus fruit (ch66); Thai intradermal rabies regimen (ch70); Ty21a 3 capsules on alternate days (ch70); Vi repeat after 3 years (ch70).
+- Not verified this pass: exact strengths and numbers on 092, 095 (monobenzone 20%, calcipotriene) and rapid 0551-0574. Owner should spot-check these.
+- Levels, tags and pyq fields checked; no Prep or RR5 refs in p3-misc files.
+
+## Checker pass (newest cards, 2026-11-03)
+
+- p3-misc-090 corrected: "serum sickness is rare" was not in KDT8 ch70 (book gives 5-10% serum sickness with antisera). Now: HRIG superior to equine ARS (KDT8 ch70).
+- p3-misc-095 corrected: removed "calcipotriene used off label" for vitiligo. No owner book supports it (GG14 ch75 lists calcipotriene for psoriasis only).
+- Verified: Thai regimen days 0, 3, 7, 28, 90 (KDT8 ch70); HRIG 20 IU/kg day 0 (KDT8 ch70); monobenzone 20% (KDT8 ch66, GG14 ch75); methoxsalen 1% lotion (GG14 ch75); azathioprine for vitiligo (KDT8 ch66).
+- Validator --check clean. Levels and ladder minimums met in all 5 subtopics.

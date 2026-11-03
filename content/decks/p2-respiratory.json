@@ -17,7 +17,69 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-003",
+      "type": "basic",
+      "front": "Noscapine: what kind of antitussive is it, and what is the caution in asthma?",
+      "back": "A non-narcotic opium alkaloid of the benzoisoquinoline series. Its antitussive potency is close to codeine, but it has no narcotic, analgesic or dependence-producing action; it is especially useful in spasmodic cough. It can release histamine, so it may provoke bronchoconstriction in asthmatics. Headache and nausea occur occasionally.",
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-respiratory-cough-antitussives",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-005",
+      "type": "basic",
+      "front": "How does bromhexine act as a mucolytic, and what is its active metabolite?",
+      "back": "It depolymerises mucopolysaccharide chains directly and also by releasing lysosomal enzymes, which breaks up the fibre network of tenacious sputum. It is derived from vasicine, an alkaloid of Adhatoda vasica. Its metabolite ambroxol has a similar action.",
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-respiratory-cough-antitussives",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-025",
+      "type": "cloze",
+      "front": "Classify: antitussives",
+      "text": "Opioid antitussives: {{codeine}} is the standard; {{morphine}} is most effective but unsuitable. Nonopioid central agents: {{noscapine}}, {{dextromethorphan}} and {{chlophedianol}}. Peripheral agent: {{prenoxdiazine}}, which desensitises pulmonary stretch receptors.",
+      "status": "draft",
+      "subtopic": "p2-respiratory-cough-antitussives",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        }
+      ],
+      "level": 1
     },
     {
       "id": "p2-respiratory-002",
@@ -35,23 +97,8 @@
         "mechanism",
         "adr",
         "interactions"
-      ]
-    },
-    {
-      "id": "p2-respiratory-003",
-      "type": "basic",
-      "front": "Noscapine: what kind of antitussive is it, and what is the caution in asthma?",
-      "back": "A non-narcotic opium alkaloid of the benzoisoquinoline series. Its antitussive potency is close to codeine, but it has no narcotic, analgesic or dependence-producing action; it is especially useful in spasmodic cough. It can release histamine, so it may provoke bronchoconstriction in asthmatics. Headache and nausea occur occasionally.",
-      "refs": [
-        "KDT8 ch16"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-respiratory-cough-antitussives",
-      "tags": [
-        "classification",
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p2-respiratory-004",
@@ -66,40 +113,150 @@
       "subtopic": "p2-respiratory-cough-antitussives",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-respiratory-005",
-      "type": "basic",
-      "front": "How does bromhexine act as a mucolytic, and what is its active metabolite?",
-      "back": "It depolymerises mucopolysaccharide chains directly and also by releasing lysosomal enzymes, which breaks up the fibre network of tenacious sputum. It is derived from vasicine, an alkaloid of Adhatoda vasica. Its metabolite ambroxol has a similar action.",
+      "id": "p2-respiratory-018",
+      "type": "shortnote",
+      "front": "Short note: Management of cough by its cause",
+      "sections": [
+        {
+          "h": "Infective",
+          "points": [
+            "Upper or lower respiratory tract infection: appropriate antibiotics",
+            "Pulmonary tuberculosis: antitubercular drugs"
+          ]
+        },
+        {
+          "h": "Airway disease",
+          "points": [
+            "Smoking, chronic bronchitis or bronchiectasis: stop smoking, avoid pollutants, steam inhalation and postural drainage",
+            "Asthmatic cough: inhaled beta-2 agonist, corticosteroid or ipratropium",
+            "Eosinophilic lung disease: diethylcarbamazine with inhaled corticosteroid"
+          ]
+        },
+        {
+          "h": "Upper airway",
+          "points": [
+            "Postnasal drip from allergic rhinitis or sinusitis: antihistamine, nasal steroid, decongestant or antibiotic as indicated",
+            "Avoid the precipitating allergen"
+          ]
+        },
+        {
+          "h": "Reflux and drugs",
+          "points": [
+            "Gastro-oesophageal reflux: head-of-bed elevation, light dinner, H2 blocker or proton pump inhibitor",
+            "ACE inhibitor cough: switch to an angiotensin receptor blocker"
+          ]
+        },
+        {
+          "h": "Self-limiting",
+          "points": [
+            "Post-viral cough needs no specific treatment and subsides by itself"
+          ]
+        }
+      ],
       "refs": [
         "KDT8 ch16"
       ],
-      "pyq": [],
       "status": "draft",
       "subtopic": "p2-respiratory-cough-antitussives",
       "tags": [
-        "mechanism"
-      ]
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
     },
     {
-      "id": "p2-respiratory-006",
-      "type": "basic",
-      "front": "Why should inhaled salbutamol not be used on a regular schedule?",
-      "back": "Inhaled salbutamol acts within minutes and lasts only 2 to 4 hours, so it is a reliever, to be used as required by symptoms rather than on a regular schedule. Regular use can lead to receptor down-regulation and tolerance and may worsen bronchial hyperreactivity; rising use signals that more anti-inflammatory therapy is needed. GINA now advises that every asthmatic, however mild, should get inhaled corticosteroid at least each time a bronchodilator is used, and GG14 notes that ICS-formoterol is now recommended as the rescue bronchodilator of choice because it avoids the dangers of SABA overuse.",
-      "refs": [
-        "KDT8 ch16",
-        "GG14 ch44",
-        "Katzung16 ch20"
+      "id": "p2-respiratory-024",
+      "type": "essay",
+      "front": "Essay: Antitussives, expectorants and mucolytics: rational use",
+      "sections": [
+        {
+          "h": "Physiology of cough",
+          "points": [
+            "Cough is protective: it clears secretions and foreign particles",
+            "Useless or non-productive cough is the target for suppression"
+          ]
+        },
+        {
+          "h": "Antitussives",
+          "points": [
+            "Opioid: codeine (standard), morphine (too addictive), ethylmorphine, pholcodine",
+            "Non-productive or troublesome cough is the target for suppression",
+            "Peripheral: prenoxdiazine desensitises pulmonary stretch receptors",
+            "Antihistamines relieve cough by sedation but do not suppress it selectively"
+          ]
+        },
+        {
+          "h": "Expectorants and mucolytics",
+          "points": [
+            "Expectorant evidence is weak; steam inhalation and hydration may help more",
+            "Mucolytics: bromhexine and ambroxol depolymerise mucopolysaccharides",
+            "Acetylcysteine opens disulfide bonds; carbocisteine is an oral option",
+            "Useful in tracheostomy, cystic fibrosis and thick mucus plugs"
+          ]
+        },
+        {
+          "h": "Fixed-dose combinations",
+          "points": [
+            "Many are irrational and offer mainly placebo effect",
+            "Bronchodilators and antihistamines in combination act with differing time courses",
+            "Fixed-dose combinations of a central antitussive with a bronchodilator or with a strongly anticholinergic antihistamine are banned in India, yet many such products remain on sale"
+          ]
+        },
+        {
+          "h": "Cause-directed management",
+          "points": [
+            "Treat the underlying cause such as infection, asthma, reflux or ACE inhibitor use",
+            "Antitussives are symptomatic only and should be used for limited periods"
+          ]
+        }
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-respiratory-bronchodilators",
+      "subtopic": "p2-respiratory-cough-antitussives",
       "tags": [
-        "pk",
-        "adr"
-      ]
+        "classification",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "level": 3
     },
     {
       "id": "p2-respiratory-007",
@@ -116,7 +273,322 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-019",
+      "type": "shortnote",
+      "front": "Short note: Beta-2 agonists in asthma",
+      "sections": [
+        {
+          "h": "Mechanism and selectivity",
+          "points": [
+            "Stimulate beta-2 receptors, raising cAMP in bronchial smooth muscle and relaxing it; also inhibit mediator release",
+            "Selective beta-2 agents cause fewer cardiac effects than isoprenaline or adrenaline"
+          ]
+        },
+        {
+          "h": "Short-acting (SABA)",
+          "points": [
+            "Salbutamol and terbutaline: onset within minutes, action 2 to 4 hours",
+            "Relievers, used as required; not for regular use"
+          ]
+        },
+        {
+          "h": "Long-acting (LABA)",
+          "points": [
+            "Salmeterol: slower onset, partial agonist, about 12 hours, twice daily",
+            "Formoterol: rapid onset, near-full agonist, about 12 hours; can be used as reliever with an ICS",
+            "Once-daily agents (indacaterol, olodaterol, vilanterol) act over 24 hours; mainly COPD; fluticasone furoate/vilanterol is used in asthma and COPD"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Muscle tremor is commonest; tachycardia and palpitation",
+            "Hypokalaemia; tolerance of non-airway responses with continuous use"
+          ]
+        },
+        {
+          "h": "Safety and cautions",
+          "points": [
+            "Never use a LABA alone in asthma; always with an ICS",
+            "Cautions: hypertension, ischaemic heart disease, digitalis therapy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44"
+      ],
+      "status": "draft",
+      "subtopic": "p2-respiratory-bronchodilators",
+      "tags": [
+        "mechanism",
+        "classification",
+        "adr"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-026",
+      "type": "cloze",
+      "front": "Classify: beta-2 agonists by duration",
+      "text": "{{Salbutamol}} is a short-acting selective agonist acting for 2 to 4 hours; {{salmeterol}} is a long-acting agonist given {{twice daily}} with slow onset; {{formoterol}} has a faster onset and acts for about {{12 hours}}; {{indacaterol}} is an ultra-long-acting agent given {{once daily}} in COPD.",
+      "status": "draft",
+      "subtopic": "p2-respiratory-bronchodilators",
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-006",
+      "type": "basic",
+      "front": "Why should inhaled salbutamol not be used on a regular schedule?",
+      "back": "Inhaled salbutamol acts within minutes and lasts only 2 to 4 hours, so it is a reliever, to be used as required by symptoms rather than on a regular schedule. Regular use can lead to receptor down-regulation and tolerance and may worsen bronchial hyperreactivity; rising use signals that more anti-inflammatory therapy is needed. GG14 notes that ICS-formoterol is now recommended as the rescue bronchodilator of choice because it avoids the dangers of SABA overuse.",
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44",
+        "Katzung16 ch20"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-respiratory-bronchodilators",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-020",
+      "type": "shortnote",
+      "front": "Short note: Anticholinergic bronchodilators",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Block muscarinic (M3) receptors that mediate vagal bronchoconstriction",
+            "Act mainly on larger airways, which carry vagal innervation"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Short-acting: ipratropium, about 4 to 6 hours",
+            "Long-acting (LAMA): tiotropium, glycopyrronium and umeclidinium once daily; aclidinium twice daily",
+            "Poorly absorbed when inhaled, so few systemic effects; dry mouth and bitter taste"
+          ]
+        },
+        {
+          "h": "Role in COPD",
+          "points": [
+            "Reflex cholinergic tone is a major reversible component, so LAMAs are the bronchodilators of choice in COPD in preference to LABAs alone",
+            "Tiotropium improves lung function and reduces exacerbations; LABA/LAMA combination inhalers add benefit"
+          ]
+        },
+        {
+          "h": "Role in asthma",
+          "points": [
+            "Less effective and slower than beta-2 agonists",
+            "LAMA (tiotropium) is an add-on for asthma not controlled on ICS-LABA",
+            "Nebulised ipratropium with salbutamol in acute severe asthma"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Nebulised ipratropium can precipitate glaucoma in the elderly; use a mouthpiece rather than a face mask"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44",
+        "Katzung16 ch20"
+      ],
+      "status": "draft",
+      "subtopic": "p2-respiratory-bronchodilators",
+      "tags": [
+        "mechanism",
+        "classification",
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-036",
+      "type": "shortnote",
+      "front": "Short note: bronchodilators in COPD",
+      "sections": [
+        {
+          "h": "Maintenance choices",
+          "points": [
+            "Long-acting muscarinic antagonists (LAMA) are the usual first choice",
+            "LABA-LAMA fixed combinations are becoming the preferred bronchodilators in COPD",
+            "LABAs are a useful option for long-term control, but LAMAs are preferred over LABAs alone in COPD"
+          ]
+        },
+        {
+          "h": "Doses (GG14)",
+          "points": [
+            "Tiotropium Respimat: 2 inhalations of 1.25 µg (2.5 µg) once daily",
+            "Indacaterol 75 µg once daily; olodaterol 2.5 µg once daily",
+            "Glycopyrronium 15.6 µg twice daily; umeclidinium 62.5 µg once daily; aclidinium 400 µg twice daily"
+          ]
+        },
+        {
+          "h": "Add-on and oral options",
+          "points": [
+            "Roflumilast (PDE4 inhibitor) is an oral add-on for COPD, not asthma",
+            "Ensifentrine adds bronchodilation to a LAMA; mainly PDE3 action"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Anticholinergics: urinary retention, glaucoma history",
+            "Roflumilast: diarrhoea, nausea, weight loss; contraindicated in severe liver impairment"
+          ]
+        }
+      ],
+      "subtopic": "p2-respiratory-bronchodilators",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "refs": [
+        "GG14 ch44",
+        "KDT8 ch16"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-034",
+      "type": "shortnote",
+      "subtopic": "p2-respiratory-bronchodilators",
+      "tags": [
+        "uses",
+        "classification"
+      ],
+      "refs": [
+        "GG14 ch44",
+        "Katzung16 ch20",
+        "KDT8 ch16"
+      ],
+      "front": "Short note: Drug therapy of stable COPD",
+      "sections": [
+        {
+          "h": "Nature of COPD",
+          "points": [
+            "Progressive airflow limitation from noxious particles, chiefly cigarette smoke; may progress even after exposure stops",
+            "Inflammation is relatively resistant to corticosteroids"
+          ]
+        },
+        {
+          "h": "Bronchodilators (mainstay)",
+          "points": [
+            "LAMAs (tiotropium, glycopyrronium, umeclidinium, aclidinium) are bronchodilators of choice in preference to LABAs alone",
+            "Once-daily LABAs (indacaterol, olodaterol, vilanterol); LABA/LAMA combination inhalers improve lung function over either alone"
+          ]
+        },
+        {
+          "h": "Inhaled corticosteroids",
+          "points": [
+            "Reserved for frequent exacerbators with blood eosinophils above 300/µL, usually as ICS/LABA/LAMA triple inhalers",
+            "Increase pneumonia risk"
+          ]
+        },
+        {
+          "h": "Other add-ons",
+          "points": [
+            "Roflumilast for severe COPD with chronic bronchitis and exacerbations",
+            "Daily azithromycin reduces exacerbations",
+            "Theophylline: low-dose trial showed no reduction in exacerbations; limited by toxicity"
+          ]
+        },
+        {
+          "h": "Exacerbations",
+          "points": [
+            "Managed much as in asthma (bronchodilators, systemic steroids), plus routine antibiotics such as beta-lactams, doxycycline or azithromycin against H. influenzae",
+            "A short 1 to 3 week course of oral glucocorticoid may help (KDT)"
+          ]
+        }
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p2-respiratory-008",
@@ -131,7 +603,41 @@
       "subtopic": "p2-respiratory-theophylline",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-041",
+      "type": "basic",
+      "subtopic": "p2-respiratory-theophylline",
+      "level": 1,
+      "front": "What is aminophylline, and what are the rules for giving it parenterally?",
+      "back": "Water-soluble theophylline-ethylenediamine salt (about 85% theophylline). Give slowly IV only, never IM or SC because it is highly irritating. Do not mix it in the same infusion with several drugs, e.g. ascorbic acid, chlorpromazine, phenytoin, penicillin G.",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-respiratory-042",
+      "type": "basic",
+      "subtopic": "p2-respiratory-theophylline",
+      "level": 1,
+      "front": "Besides asthma and COPD, what is theophylline used for, and what is the alternative?",
+      "back": "Apnoea of prematurity: it reduces the frequency and duration of apnoeic episodes in preterm infants, with closely monitored oral or IV use for 1-3 weeks. Caffeine is equally effective.",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p2-respiratory-009",
@@ -148,7 +654,8 @@
       "tags": [
         "pk",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-respiratory-010",
@@ -164,7 +671,111 @@
       "tags": [
         "interactions",
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-028",
+      "type": "cloze",
+      "front": "Classify: theophylline drug interactions",
+      "text": "CYP1A2 inducers such as {{smoking}}, {{phenytoin}} and {{rifampicin}} lower theophylline levels, so the dose must rise. Inhibitors such as {{erythromycin}}, {{ciprofloxacin}} and {{cimetidine}} raise levels, so the dose is cut to about {{two-thirds}}.",
+      "status": "draft",
+      "subtopic": "p2-respiratory-theophylline",
+      "tags": [
+        "interactions",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-023",
+      "type": "essay",
+      "front": "Essay: Theophylline: mechanism, toxicity, interactions and therapeutic role",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Methylxanthine related to caffeine and theobromine",
+            "Once central to asthma therapy, now limited by a narrow safety margin"
+          ]
+        },
+        {
+          "h": "Pharmacological actions",
+          "points": [
+            "CNS stimulation and vomiting; cardiac stimulation and tachycardia",
+            "Vasodilatation; diuresis; relaxation of all smooth muscle, most marked in bronchi",
+            "Increased gastric acid and pepsin secretion and gastric irritation"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Non-selective PDE inhibition raises cAMP",
+            "Adenosine receptor blockade, implicated in toxic arrhythmias and seizures",
+            "Release of calcium from the sarcoplasmic reticulum needs very high concentrations"
+          ]
+        },
+        {
+          "h": "Pharmacokinetics",
+          "points": [
+            "Well absorbed orally; about 50 percent protein bound; metabolised by CYP1A2",
+            "Half-life about 7 to 12 hours in adults; shorter in children and longer in the elderly",
+            "Saturable metabolism: half-life rises and levels increase out of proportion to dose",
+            "Lower doses needed in age over 60, heart failure, pneumonia and liver failure",
+            "Therapeutic range narrow: book 5 to 20 µg/mL; many current guidelines aim for 5 to 15 µg/mL",
+            "Therapeutic range: KDT 5 to 20 µg/mL; GG14 now 5 to 15 mg/L"
+          ]
+        },
+        {
+          "h": "Adverse effects and interactions",
+          "points": [
+            "Toxicity starts in the upper therapeutic range; children are more prone to CNS toxicity",
+            "Rapid intravenous injection can cause collapse, arrhythmia or asystole",
+            "Enzyme inducers lower levels; enzyme inhibitors raise them",
+            "Theophylline potentiates digitalis, furosemide and anticoagulants"
+          ]
+        },
+        {
+          "h": "Therapeutic role",
+          "points": [
+            "Now restricted to COPD and selected asthma as an adjuvant, e.g. nocturnal asthma",
+            "Apnoea of prematurity; caffeine is equally effective",
+            "IV aminophylline in status asthmaticus is regarded as outmoded"
+          ]
+        }
+      ],
+      "subtopic": "p2-respiratory-theophylline",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
+        }
+      ],
+      "level": 3
     },
     {
       "id": "p2-respiratory-011",
@@ -182,24 +793,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
-    },
-    {
-      "id": "p2-respiratory-012",
-      "type": "basic",
-      "front": "Omalizumab: what is it, how does it work, and in which patients is it used?",
-      "back": "A humanised monoclonal antibody against IgE, given subcutaneously every 2 to 4 weeks; the dose is set by the circulating total IgE level. It neutralises free IgE, so little is left to bind the high-affinity receptor (FcεRI) on mast cells, and mediator release on allergen challenge falls; it also lowers FcεRI expression and circulating IgE. Used in severe allergic (extrinsic) asthma, where it reduces exacerbations, including virus-induced ones, and steroid needs. No benefit in non-allergic asthma; very expensive.",
-      "refs": [
-        "KDT8 ch16",
-        "GG14 ch44"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-respiratory-preventers",
-      "tags": [
-        "mechanism",
-        "newer-drugs"
-      ]
+      "level": 1
     },
     {
       "id": "p2-respiratory-013",
@@ -224,7 +819,8 @@
         "mechanism",
         "uses",
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-respiratory-014",
@@ -240,7 +836,533 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-030",
+      "type": "cloze",
+      "front": "Classify: leukotriene and mast cell pharmacology",
+      "text": "Cysteinyl leukotrienes act on the {{cysLT1}} receptor; {{zileuton}} blocks {{5-lipoxygenase}} but is limited by {{hepatotoxicity}}; cromoglycate {{stabilises}} mast cells and is {{not}} a bronchodilator.",
+      "status": "draft",
+      "subtopic": "p2-respiratory-preventers",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-012",
+      "type": "basic",
+      "front": "Omalizumab: what is it, how does it work, and in which patients is it used?",
+      "back": "A humanised monoclonal antibody against IgE, given subcutaneously every 2 to 4 weeks; the dose is set by the circulating total IgE level. It neutralises free IgE, so little is left to bind the high-affinity receptor (FcεRI) on mast cells, and mediator release on allergen challenge falls; it also lowers FcεRI expression and circulating IgE. Used in severe allergic (extrinsic) asthma, where it reduces exacerbations, including virus-induced ones, and steroid needs. No benefit in non-allergic asthma; very expensive.",
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-respiratory-preventers",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-033",
+      "type": "basic",
+      "subtopic": "p2-respiratory-preventers",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44",
+        "Katzung16 ch20"
+      ],
+      "front": "Roflumilast: mechanism, use and adverse effects",
+      "back": "An oral PDE4 inhibitor given once daily, converted by CYP3A4 and CYP1A2 to the more active N-oxide metabolite; it exerts an anti-inflammatory action mainly in the lungs rather than direct bronchodilation. Used as add-on therapy in severe COPD (FEV1 below 50%) with chronic bronchitis and frequent exacerbations, reducing exacerbations by about 20% with little effect on symptoms; not approved for asthma. Adverse effects: diarrhoea (commonest), nausea, headache, weight loss and psychiatric disturbances. CYP inhibitors raise and rifampicin lowers its levels; contraindicated in severe liver impairment (Child-Pugh B or C).",
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-035",
+      "type": "shortnote",
+      "front": "Short note: leukotriene modifiers in bronchial asthma",
+      "sections": [
+        {
+          "h": "Classes and action",
+          "points": [
+            "Montelukast and zafirlukast block the cysLT1 receptor",
+            "Zileuton inhibits 5-lipoxygenase and so blocks LTC4 and LTD4 synthesis"
+          ]
+        },
+        {
+          "h": "Role",
+          "points": [
+            "Prophylaxis of mild to moderate asthma; alternative to low-dose ICS",
+            "Add-on in asthma not controlled by ICS",
+            "Not used to stop an acute attack; no value in COPD"
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "Montelukast 10 mg once daily; zafirlukast 20 mg twice daily; zileuton 600 mg four times daily"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Abdominal pain, headache, rashes",
+            "FDA 2020 boxed warning: serious neuropsychiatric events with montelukast"
+          ]
+        }
+      ],
+      "subtopic": "p2-respiratory-preventers",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-037",
+      "type": "shortnote",
+      "front": "Short note: anti-inflammatory agents in bronchial asthma",
+      "sections": [
+        {
+          "h": "Inhaled corticosteroids",
+          "points": [
+            "Main controller; reduce cytokines, eosinophils and lymphocytes in airway",
+            "Start 100-200 µg twice daily; peak effect after 4-7 days; no role in an acute attack"
+          ]
+        },
+        {
+          "h": "Other controllers",
+          "points": [
+            "Montelukast and zafirlukast (cysLT1 blockers); zileuton (5-lipoxygenase inhibitor)",
+            "Sodium cromoglycate and nedocromil stabilise mast cells; prophylaxis only"
+          ]
+        },
+        {
+          "h": "Biologics for severe type 2 asthma",
+          "points": [
+            "Omalizumab (anti-IgE) given subcutaneously every 2-4 weeks",
+            "Mepolizumab subcutaneous every 4 weeks; reslizumab IV every 4 weeks; benralizumab subcutaneous every 8 weeks",
+            "Dupilumab (IL-4/IL-13 receptor) and tezepelumab (TSLP) for add-on use"
+          ]
+        }
+      ],
+      "subtopic": "p2-respiratory-preventers",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-022",
+      "type": "essay",
+      "front": "Essay: Inhaled corticosteroids in asthma",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Asthma is an inflammatory disease, so anti-inflammatory therapy is central",
+            "Inhaled steroids give local action with little systemic effect"
+          ]
+        },
+        {
+          "h": "Agents",
+          "points": [
+            "Beclometasone, budesonide, fluticasone, mometasone and ciclesonide",
+            "Beclometasone dipropionate and ciclesonide are prodrugs activated by lung esterases",
+            "Budesonide, fluticasone and mometasone have high first-pass metabolism, so fewer systemic effects"
+          ]
+        },
+        {
+          "h": "Onset and benefit",
+          "points": [
+            "No role in an acute attack or status asthmaticus",
+            "Peak effect after 4 to 7 days (KDT); maximal effect on hyperresponsiveness may take weeks to months (GG14)",
+            "Benefit persists for some weeks after stopping"
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "Start at an appropriate dose and reduce to the lowest that maintains control",
+            "Doses are classed as low, medium or high, and differ between drugs and between MDI and dry powder devices"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Local: hoarseness, dysphonia, sore throat, oropharyngeal candidiasis",
+            "Reduced by spacers and by gargling after each dose",
+            "Systemic effects (adrenal suppression, osteoporosis, cataract, growth delay) mainly above about 600 µg a day"
+          ]
+        },
+        {
+          "h": "Role in asthma and COPD",
+          "points": [
+            "Asthma: controller therapy for persistent asthma; GINA now recommends ICS for all asthmatics, at least as needed",
+            "COPD: inflammation is relatively steroid-resistant; ICS mainly reduce exacerbations in patients with frequent exacerbations and blood eosinophils above 300/µL",
+            "High-dose ICS raise the risk of pneumonia in COPD (more with fluticasone than budesonide)"
+          ]
+        }
+      ],
+      "subtopic": "p2-respiratory-preventers",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-respiratory-031",
+      "type": "shortnote",
+      "subtopic": "p2-respiratory-preventers",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "uses"
+      ],
+      "refs": [
+        "GG14 ch44",
+        "Katzung16 ch20"
+      ],
+      "front": "Short note: Biologics for severe asthma",
+      "sections": [
+        {
+          "h": "Indication",
+          "points": [
+            "Severe asthma uncontrolled despite high-dose inhaled therapy",
+            "Choice depends on phenotype: allergic (high IgE) or eosinophilic type 2 inflammation (blood eosinophils above 300/µL)"
+          ]
+        },
+        {
+          "h": "Anti-IgE",
+          "points": [
+            "Omalizumab: severe allergic asthma; SC every 2 to 4 weeks, dose by IgE level"
+          ]
+        },
+        {
+          "h": "Anti-IL-5 and anti-IL-5 receptor",
+          "points": [
+            "Mepolizumab (SC every 4 weeks) and reslizumab (IV every 4 weeks) block circulating IL-5",
+            "Benralizumab (SC every 8 weeks) blocks IL-5R and causes eosinophil apoptosis"
+          ]
+        },
+        {
+          "h": "Anti-IL-4R",
+          "points": [
+            "Dupilumab (SC every 2 weeks) blocks signalling by both IL-4 and IL-13; for eosinophilic or steroid-dependent asthma; also atopic dermatitis and nasal polyposis",
+            "Can cause peripheral eosinophilia, usually transient"
+          ]
+        },
+        {
+          "h": "Anti-TSLP",
+          "points": [
+            "Tezepelumab blocks the epithelial alarmin TSLP; works in eosinophilic and also non-type 2 asthma; approved from 12 years"
+          ]
+        },
+        {
+          "h": "Benefits",
+          "points": [
+            "Anti-IL-5 drugs cut exacerbations by about half and reduce oral steroid dose by at least 50%"
+          ]
+        }
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p2-respiratory-016",
+      "type": "shortnote",
+      "front": "Short note: Inhalation devices for asthma",
+      "sections": [
+        {
+          "h": "Principles",
+          "points": [
+            "Aerosols deliver drug to the airway, so less drug is needed and systemic effects fall",
+            "Only about 10 percent of an inhaled dose reaches its site of action"
+          ]
+        },
+        {
+          "h": "Pressurised metered dose inhaler",
+          "points": [
+            "Uses HFA propellant; CFC propellants are banned",
+            "Needs coordination of actuation with a deep breath, which many patients cannot manage"
+          ]
+        },
+        {
+          "h": "Spacer",
+          "points": [
+            "Removes the need for precise coordination",
+            "Large particles settle on its walls, reducing oropharyngeal deposition and swallowed dose",
+            "Reduces local effects such as candidiasis with inhaled steroids"
+          ]
+        },
+        {
+          "h": "Dry powder inhaler",
+          "points": [
+            "Portable; capsule is punctured and powder is released by inspiratory flow",
+            "Needs a strong inspiratory effort, so unsuitable for children, the elderly and the very sick",
+            "Can irritate the airway and provoke cough"
+          ]
+        },
+        {
+          "h": "Nebuliser",
+          "points": [
+            "Jet or ultrasonic; preferred for severe attacks, children and the elderly",
+            "Can deliver more than one drug at once; used at the bedside"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "status": "draft",
+      "subtopic": "p2-respiratory-acute-delivery",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-029",
+      "type": "cloze",
+      "front": "Classify: aerosol particle size and deposition",
+      "text": "Particles of {{1 to 5 micrometres}} reach the bronchioles; larger particles settle in the {{oropharynx}}; very fine particles are {{exhaled}}. Only about {{10 percent}} of an inhaled dose reaches the site of action. A {{spacer}} lets larger particles settle out, reducing swallowed dose and {{candidiasis}}.",
+      "status": "draft",
+      "subtopic": "p2-respiratory-acute-delivery",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-044",
+      "type": "basic",
+      "subtopic": "p2-respiratory-acute-delivery",
+      "level": 1,
+      "front": "Why is a large-volume spacer used with a metered dose inhaler, especially for inhaled steroids?",
+      "back": "It removes the need to coordinate actuation with inspiration. Large particles settle on the spacer walls instead of the throat, so less drug is swallowed, and oropharyngeal candidiasis and systemic exposure fall.",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-respiratory-038",
+      "type": "shortnote",
+      "front": "Short note: inhaled drug delivery devices",
+      "sections": [
+        {
+          "h": "Metered dose inhaler",
+          "points": [
+            "Propellant is hydrofluoroalkane (HFA); CFCs phased out",
+            "Needs coordination of actuation with inspiration; spacer removes this need"
+          ]
+        },
+        {
+          "h": "Dry powder inhaler",
+          "points": [
+            "Needs high inspiratory flow; may irritate the airway",
+            "Capsule is pierced and the powder inhaled"
+          ]
+        },
+        {
+          "h": "Nebuliser",
+          "points": [
+            "Jet (compressed air or oxygen) or ultrasonic; preferred in severe attacks and children",
+            "Only about 10% of an inhaled dose reaches the site of action"
+          ]
+        },
+        {
+          "h": "Particle size",
+          "points": [
+            "Optimal aerosol particle size 1-5 µm; larger particles settle in the oropharynx"
+          ]
+        }
+      ],
+      "subtopic": "p2-respiratory-acute-delivery",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch16",
+        "GG14 ch44"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-respiratory-043",
+      "type": "basic",
+      "subtopic": "p2-respiratory-acute-delivery",
+      "level": 2,
+      "front": "Why is IV aminophylline no longer routine in status asthmaticus, and why add parenteral salbutamol or terbutaline?",
+      "back": "Recent evidence shows aminophylline adds no extra benefit and may cause more adverse effects, so it is kept for resistant cases. Inhaled drug may not reach narrowed, mucus-plugged small bronchi, so SC/IM salbutamol or terbutaline can be added.",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p2-respiratory-015",
@@ -316,77 +1438,56 @@
           "year": 2010,
           "marks": 20
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-respiratory-016",
-      "type": "shortnote",
-      "front": "Short note: Inhalation devices for asthma",
-      "sections": [
-        {
-          "h": "Principles",
-          "points": [
-            "Aerosols deliver drug to the airway, so less drug is needed and systemic effects fall",
-            "Only about 10 percent of an inhaled dose reaches its site of action"
-          ]
-        },
-        {
-          "h": "Pressurised metered dose inhaler",
-          "points": [
-            "Uses HFA propellant; CFC propellants are banned",
-            "Needs coordination of actuation with a deep breath, which many patients cannot manage"
-          ]
-        },
-        {
-          "h": "Spacer",
-          "points": [
-            "Removes the need for precise coordination",
-            "Large particles settle on its walls, reducing oropharyngeal deposition and swallowed dose",
-            "Reduces local effects such as candidiasis with inhaled steroids"
-          ]
-        },
-        {
-          "h": "Dry powder inhaler",
-          "points": [
-            "Portable; capsule is punctured and powder is released by inspiratory flow",
-            "Needs a strong inspiratory effort, so unsuitable for children, the elderly and the very sick",
-            "Can irritate the airway and provoke cough"
-          ]
-        },
-        {
-          "h": "Nebuliser",
-          "points": [
-            "Jet or ultrasonic; preferred for severe attacks, children and the elderly",
-            "Can deliver more than one drug at once; used at the bedside"
-          ]
-        }
+      "id": "p2-respiratory-027",
+      "type": "cloze",
+      "front": "Classify: antiasthma drugs by class",
+      "text": "Methylxanthine: {{theophylline}}. Muscarinic antagonist: {{ipratropium}}. Mast cell stabiliser: {{sodium cromoglycate}}. Cysteinyl leukotriene receptor antagonists: {{montelukast}} and {{zafirlukast}}. 5-lipoxygenase inhibitor: {{zileuton}}. Anti-IgE antibody: {{omalizumab}}.",
+      "status": "draft",
+      "subtopic": "p2-respiratory-asthma-overview",
+      "tags": [
+        "classification"
       ],
       "refs": [
         "KDT8 ch16"
       ],
-      "status": "draft",
-      "subtopic": "p2-respiratory-acute-delivery",
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p2-respiratory-039",
+      "type": "basic",
+      "subtopic": "p2-respiratory-asthma-overview",
+      "level": 1,
+      "front": "Is bronchial asthma mainly bronchospasm or inflammation, and how do extrinsic and intrinsic types differ?",
+      "back": "Asthma is now seen as chiefly an inflammatory disease with airway hyperreactivity, which is why anti-inflammatory preventers are central. Extrinsic (allergic) asthma is episodic and rarely goes into status asthmaticus; intrinsic asthma is perennial and status asthmaticus is more frequent.",
       "tags": [
-        "pk",
-        "uses"
+        "mechanism"
       ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 20
-        },
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
-      ]
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-respiratory-040",
+      "type": "basic",
+      "subtopic": "p2-respiratory-asthma-overview",
+      "level": 1,
+      "front": "Name the three waves of mediator release in asthma and what they do together.",
+      "back": "Granule release (immediate): histamine, proteases, TNF. Membrane phospholipid products (minutes): prostaglandins, leukotrienes, PAF. Gene activation (hours): interleukins, TNF. Together they constrict bronchial muscle, cause mucosal oedema and viscid secretions, giving reversible airway obstruction.",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch16"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p2-respiratory-017",
@@ -460,212 +1561,25 @@
           "year": 2024,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-respiratory-018",
-      "type": "shortnote",
-      "front": "Short note: Management of cough by its cause",
-      "sections": [
-        {
-          "h": "Infective",
-          "points": [
-            "Upper or lower respiratory tract infection: appropriate antibiotics",
-            "Pulmonary tuberculosis: antitubercular drugs"
-          ]
-        },
-        {
-          "h": "Airway disease",
-          "points": [
-            "Smoking, chronic bronchitis or bronchiectasis: stop smoking, avoid pollutants, steam inhalation and postural drainage",
-            "Asthmatic cough: inhaled beta-2 agonist, corticosteroid or ipratropium",
-            "Eosinophilic lung disease: diethylcarbamazine with inhaled corticosteroid"
-          ]
-        },
-        {
-          "h": "Upper airway",
-          "points": [
-            "Postnasal drip from allergic rhinitis or sinusitis: antihistamine, nasal steroid, decongestant or antibiotic as indicated",
-            "Avoid the precipitating allergen"
-          ]
-        },
-        {
-          "h": "Reflux and drugs",
-          "points": [
-            "Gastro-oesophageal reflux: head-of-bed elevation, light dinner, H2 blocker or proton pump inhibitor",
-            "ACE inhibitor cough: switch to an angiotensin receptor blocker"
-          ]
-        },
-        {
-          "h": "Self-limiting",
-          "points": [
-            "Post-viral cough needs no specific treatment and subsides by itself"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch16"
-      ],
-      "status": "draft",
-      "subtopic": "p2-respiratory-cough-antitussives",
+      "id": "p2-respiratory-032",
+      "type": "basic",
+      "subtopic": "p2-respiratory-asthma-overview",
       "tags": [
         "uses"
       ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p2-respiratory-019",
-      "type": "shortnote",
-      "front": "Short note: Beta-2 agonists in asthma",
-      "sections": [
-        {
-          "h": "Mechanism and selectivity",
-          "points": [
-            "Stimulate beta-2 receptors, raising cAMP in bronchial smooth muscle and relaxing it; also inhibit mediator release",
-            "Selective beta-2 agents cause fewer cardiac effects than isoprenaline or adrenaline"
-          ]
-        },
-        {
-          "h": "Short-acting (SABA)",
-          "points": [
-            "Salbutamol and terbutaline: onset within minutes, action 2 to 4 hours",
-            "Relievers, used as required; not for regular use"
-          ]
-        },
-        {
-          "h": "Long-acting (LABA)",
-          "points": [
-            "Salmeterol: slower onset, partial agonist, about 12 hours, twice daily",
-            "Formoterol: rapid onset, near-full agonist, about 12 hours; can be used as reliever with an ICS",
-            "Once-daily agents (indacaterol, olodaterol, vilanterol) act over 24 hours; mainly COPD; fluticasone furoate/vilanterol is used in asthma and COPD"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Muscle tremor is commonest; tachycardia and palpitation",
-            "Hypokalaemia; tolerance of non-airway responses with continuous use"
-          ]
-        },
-        {
-          "h": "Safety and cautions",
-          "points": [
-            "Never use a LABA alone in asthma; always with an ICS",
-            "Cautions: hypertension, ischaemic heart disease, digitalis therapy"
-          ]
-        }
-      ],
       "refs": [
-        "KDT8 ch16",
-        "GG14 ch44"
-      ],
-      "status": "draft",
-      "subtopic": "p2-respiratory-bronchodilators",
-      "tags": [
-        "mechanism",
-        "classification",
-        "adr"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p2-respiratory-020",
-      "type": "shortnote",
-      "front": "Short note: Anticholinergic bronchodilators",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Block muscarinic (M3) receptors that mediate vagal bronchoconstriction",
-            "Act mainly on larger airways, which carry vagal innervation"
-          ]
-        },
-        {
-          "h": "Agents",
-          "points": [
-            "Short-acting: ipratropium, about 4 to 6 hours",
-            "Long-acting (LAMA): tiotropium, glycopyrronium and umeclidinium once daily; aclidinium twice daily",
-            "Poorly absorbed when inhaled, so few systemic effects; dry mouth and bitter taste"
-          ]
-        },
-        {
-          "h": "Role in COPD",
-          "points": [
-            "Reflex cholinergic tone is a major reversible component, so LAMAs are the bronchodilators of choice in COPD in preference to LABAs alone",
-            "Tiotropium improves lung function and reduces exacerbations; LABA/LAMA combination inhalers add benefit"
-          ]
-        },
-        {
-          "h": "Role in asthma",
-          "points": [
-            "Less effective and slower than beta-2 agonists",
-            "LAMA (tiotropium) is an add-on for asthma not controlled on ICS-LABA",
-            "Nebulised ipratropium with salbutamol in acute severe asthma"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Nebulised ipratropium can precipitate glaucoma in the elderly; use a mouthpiece rather than a face mask"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch16",
         "GG14 ch44",
         "Katzung16 ch20"
       ],
+      "front": "Why is ICS-formoterol now preferred over a SABA alone as the reliever in asthma?",
+      "back": "Formoterol has a rapid onset, so unlike salmeterol it can relieve symptoms, and each reliever dose of the combination also delivers inhaled corticosteroid when symptoms flare. GG14 states that ICS-formoterol is now recommended as the rescue bronchodilator of choice, being more effective and avoiding the dangers of SABA overuse.",
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-respiratory-bronchodilators",
-      "tags": [
-        "mechanism",
-        "classification",
-        "uses"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2023,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ]
+      "level": 2
     },
     {
       "id": "p2-respiratory-021",
@@ -758,767 +1672,24 @@
           "year": 2010,
           "marks": 20
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-respiratory-022",
-      "type": "essay",
-      "front": "Essay: Inhaled corticosteroids in asthma",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Asthma is an inflammatory disease, so anti-inflammatory therapy is central",
-            "Inhaled steroids give local action with little systemic effect"
-          ]
-        },
-        {
-          "h": "Agents",
-          "points": [
-            "Beclometasone, budesonide, fluticasone, mometasone and ciclesonide",
-            "Beclometasone dipropionate and ciclesonide are prodrugs activated by lung esterases",
-            "Budesonide, fluticasone and mometasone have high first-pass metabolism, so fewer systemic effects"
-          ]
-        },
-        {
-          "h": "Onset and benefit",
-          "points": [
-            "No role in an acute attack or status asthmaticus",
-            "Peak effect after 4 to 7 days (KDT); maximal effect on hyperresponsiveness may take weeks to months (GG14)",
-            "Benefit persists for some weeks after stopping"
-          ]
-        },
-        {
-          "h": "Dosing",
-          "points": [
-            "Start at an appropriate dose and reduce to the lowest that maintains control",
-            "Doses are classed as low, medium or high, and differ between drugs and between MDI and dry powder devices"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Local: hoarseness, dysphonia, sore throat, oropharyngeal candidiasis",
-            "Reduced by spacers and by gargling after each dose",
-            "Systemic effects (adrenal suppression, osteoporosis, cataract, growth delay) mainly above about 600 µg a day"
-          ]
-        },
-        {
-          "h": "Role in asthma and COPD",
-          "points": [
-            "Asthma: controller therapy for persistent asthma; GINA now recommends ICS for all asthmatics, at least as needed",
-            "COPD: inflammation is relatively steroid-resistant; ICS mainly reduce exacerbations in patients with frequent exacerbations and blood eosinophils above 300/µL",
-            "High-dose ICS raise the risk of pneumonia in COPD (more with fluticasone than budesonide)"
-          ]
-        }
-      ],
-      "subtopic": "p2-respiratory-preventers",
-      "tags": [
-        "classification",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch16",
-        "GG14 ch44"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p2-respiratory-023",
-      "type": "essay",
-      "front": "Essay: Theophylline: mechanism, toxicity, interactions and therapeutic role",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Methylxanthine related to caffeine and theobromine",
-            "Once central to asthma therapy, now limited by a narrow safety margin"
-          ]
-        },
-        {
-          "h": "Pharmacological actions",
-          "points": [
-            "CNS stimulation and vomiting; cardiac stimulation and tachycardia",
-            "Vasodilatation; diuresis; relaxation of all smooth muscle, most marked in bronchi",
-            "Increased gastric acid and pepsin secretion and gastric irritation"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Non-selective PDE inhibition raises cAMP",
-            "Adenosine receptor blockade, implicated in toxic arrhythmias and seizures",
-            "Release of calcium from the sarcoplasmic reticulum needs very high concentrations"
-          ]
-        },
-        {
-          "h": "Pharmacokinetics",
-          "points": [
-            "Well absorbed orally; about 50 percent protein bound; metabolised by CYP1A2",
-            "Half-life about 7 to 12 hours in adults; shorter in children and longer in the elderly",
-            "Saturable metabolism: half-life rises and levels increase out of proportion to dose",
-            "Lower doses needed in age over 60, heart failure, pneumonia and liver failure",
-            "Therapeutic range narrow: book 5 to 20 µg/mL; many current guidelines aim for 5 to 15 µg/mL",
-            "Therapeutic range: KDT 5 to 20 µg/mL; GG14 now 5 to 15 mg/L"
-          ]
-        },
-        {
-          "h": "Adverse effects and interactions",
-          "points": [
-            "Toxicity starts in the upper therapeutic range; children are more prone to CNS toxicity",
-            "Rapid intravenous injection can cause collapse, arrhythmia or asystole",
-            "Enzyme inducers lower levels; enzyme inhibitors raise them",
-            "Theophylline potentiates digitalis, furosemide and anticoagulants"
-          ]
-        },
-        {
-          "h": "Therapeutic role",
-          "points": [
-            "Now restricted to COPD and selected asthma as an adjuvant, e.g. nocturnal asthma",
-            "Apnoea of prematurity; caffeine is equally effective",
-            "IV aminophylline in status asthmaticus is regarded as outmoded"
-          ]
-        }
-      ],
-      "subtopic": "p2-respiratory-theophylline",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch16",
-        "GG14 ch44"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2007,
-          "marks": 20
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 20
-        }
-      ]
-    },
-    {
-      "id": "p2-respiratory-024",
-      "type": "essay",
-      "front": "Essay: Antitussives, expectorants and mucolytics: rational use",
-      "sections": [
-        {
-          "h": "Physiology of cough",
-          "points": [
-            "Cough is protective: it clears secretions and foreign particles",
-            "Useless or non-productive cough is the target for suppression"
-          ]
-        },
-        {
-          "h": "Antitussives",
-          "points": [
-            "Opioid: codeine (standard), morphine (too addictive), ethylmorphine, pholcodine",
-            "Non-productive or troublesome cough is the target for suppression",
-            "Peripheral: prenoxdiazine desensitises pulmonary stretch receptors",
-            "Antihistamines relieve cough by sedation but do not suppress it selectively"
-          ]
-        },
-        {
-          "h": "Expectorants and mucolytics",
-          "points": [
-            "Expectorant evidence is weak; steam inhalation and hydration may help more",
-            "Mucolytics: bromhexine and ambroxol depolymerise mucopolysaccharides",
-            "Acetylcysteine opens disulfide bonds; carbocisteine is an oral option",
-            "Useful in tracheostomy, cystic fibrosis and thick mucus plugs"
-          ]
-        },
-        {
-          "h": "Fixed-dose combinations",
-          "points": [
-            "Many are irrational and offer mainly placebo effect",
-            "Bronchodilators and antihistamines in combination act with differing time courses",
-            "Fixed-dose combinations of a central antitussive with a bronchodilator or with a strongly anticholinergic antihistamine are banned in India, yet many such products remain on sale"
-          ]
-        },
-        {
-          "h": "Cause-directed management",
-          "points": [
-            "Treat the underlying cause such as infection, asthma, reflux or ACE inhibitor use",
-            "Antitussives are symptomatic only and should be used for limited periods"
-          ]
-        }
-      ],
-      "subtopic": "p2-respiratory-cough-antitussives",
-      "tags": [
-        "classification",
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch16"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2006,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p2-respiratory-025",
-      "type": "cloze",
-      "front": "Classify: antitussives",
-      "text": "Opioid antitussives: {{codeine}} is the standard; {{morphine}} is most effective but unsuitable. Nonopioid central agents: {{noscapine}}, {{dextromethorphan}} and {{chlophedianol}}. Peripheral agent: {{prenoxdiazine}}, which desensitises pulmonary stretch receptors.",
-      "status": "draft",
-      "subtopic": "p2-respiratory-cough-antitussives",
-      "tags": [
-        "classification"
-      ],
-      "refs": [
-        "KDT8 ch16"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p2-respiratory-026",
-      "type": "cloze",
-      "front": "Classify: beta-2 agonists by duration",
-      "text": "{{Salbutamol}} is a short-acting selective agonist acting for 2 to 4 hours; {{salmeterol}} is a long-acting agonist given {{twice daily}} with slow onset; {{formoterol}} has a faster onset and acts for about {{12 hours}}; {{indacaterol}} is an ultra-long-acting agent given {{once daily}} in COPD.",
-      "status": "draft",
-      "subtopic": "p2-respiratory-bronchodilators",
-      "tags": [
-        "classification",
-        "pk"
-      ],
-      "refs": [
-        "KDT8 ch16",
-        "GG14 ch44"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p2-respiratory-027",
-      "type": "cloze",
-      "front": "Classify: antiasthma drugs by class",
-      "text": "Methylxanthine: {{theophylline}}. Muscarinic antagonist: {{ipratropium}}. Mast cell stabiliser: {{sodium cromoglycate}}. Cysteinyl leukotriene receptor antagonists: {{montelukast}} and {{zafirlukast}}. 5-lipoxygenase inhibitor: {{zileuton}}. Anti-IgE antibody: {{omalizumab}}.",
-      "status": "draft",
-      "subtopic": "p2-respiratory-asthma-overview",
-      "tags": [
-        "classification"
-      ],
-      "refs": [
-        "KDT8 ch16"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p2-respiratory-028",
-      "type": "cloze",
-      "front": "Classify: theophylline drug interactions",
-      "text": "CYP1A2 inducers such as {{smoking}}, {{phenytoin}} and {{rifampicin}} lower theophylline levels, so the dose must rise. Inhibitors such as {{erythromycin}}, {{ciprofloxacin}} and {{cimetidine}} raise levels, so the dose is cut to about {{two-thirds}}.",
-      "status": "draft",
-      "subtopic": "p2-respiratory-theophylline",
-      "tags": [
-        "interactions",
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch16"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p2-respiratory-029",
-      "type": "cloze",
-      "front": "Classify: aerosol particle size and deposition",
-      "text": "Particles of {{1 to 5 micrometres}} reach the bronchioles; larger particles settle in the {{oropharynx}}; very fine particles are {{exhaled}}. Only about {{10 percent}} of an inhaled dose reaches the site of action. A {{spacer}} lets larger particles settle out, reducing swallowed dose and {{candidiasis}}.",
-      "status": "draft",
-      "subtopic": "p2-respiratory-acute-delivery",
-      "tags": [
-        "pk",
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch16"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p2-respiratory-030",
-      "type": "cloze",
-      "front": "Classify: leukotriene and mast cell pharmacology",
-      "text": "Cysteinyl leukotrienes act on the {{cysLT1}} receptor; {{zileuton}} blocks {{5-lipoxygenase}} but is limited by {{hepatotoxicity}}; cromoglycate {{stabilises}} mast cells and is {{not}} a bronchodilator.",
-      "status": "draft",
-      "subtopic": "p2-respiratory-preventers",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch16"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p2-respiratory-031",
-      "type": "shortnote",
-      "subtopic": "p2-respiratory-preventers",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "uses"
-      ],
-      "refs": [
-        "GG14 ch44",
-        "Katzung16 ch20"
-      ],
-      "front": "Short note: Biologics for severe asthma",
-      "sections": [
-        {
-          "h": "Indication",
-          "points": [
-            "Severe asthma uncontrolled despite high-dose inhaled therapy",
-            "Choice depends on phenotype: allergic (high IgE) or eosinophilic type 2 inflammation (blood eosinophils above 300/µL)"
-          ]
-        },
-        {
-          "h": "Anti-IgE",
-          "points": [
-            "Omalizumab: severe allergic asthma; SC every 2 to 4 weeks, dose by IgE level"
-          ]
-        },
-        {
-          "h": "Anti-IL-5 and anti-IL-5 receptor",
-          "points": [
-            "Mepolizumab (SC every 4 weeks) and reslizumab (IV every 4 weeks) block circulating IL-5",
-            "Benralizumab (SC every 8 weeks) blocks IL-5R and causes eosinophil apoptosis"
-          ]
-        },
-        {
-          "h": "Anti-IL-4R",
-          "points": [
-            "Dupilumab (SC every 2 weeks) blocks signalling by both IL-4 and IL-13; for eosinophilic or steroid-dependent asthma; also atopic dermatitis and nasal polyposis",
-            "Can cause peripheral eosinophilia, usually transient"
-          ]
-        },
-        {
-          "h": "Anti-TSLP",
-          "points": [
-            "Tezepelumab blocks the epithelial alarmin TSLP; works in eosinophilic and also non-type 2 asthma; approved from 12 years"
-          ]
-        },
-        {
-          "h": "Benefits",
-          "points": [
-            "Anti-IL-5 drugs cut exacerbations by about half and reduce oral steroid dose by at least 50%"
-          ]
-        }
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-respiratory-032",
-      "type": "basic",
-      "subtopic": "p2-respiratory-asthma-overview",
-      "tags": [
-        "uses"
-      ],
-      "refs": [
-        "GG14 ch44",
-        "Katzung16 ch20"
-      ],
-      "front": "Why is ICS-formoterol now preferred over a SABA alone as the reliever in asthma?",
-      "back": "Formoterol has a rapid onset, so unlike salmeterol it can relieve symptoms, and each reliever dose of the combination also delivers inhaled corticosteroid when symptoms flare. GG14 states that ICS-formoterol is now recommended as the rescue bronchodilator of choice, being more effective and avoiding the dangers of SABA overuse. GINA (cited in Katzung) advises that all asthmatics, however mild, take ICS at least whenever a bronchodilator is used, because even mild asthma carries a risk of life-threatening attacks; other guidelines do not all agree.",
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-respiratory-033",
+      "id": "p2-respiratory-045",
       "type": "basic",
       "subtopic": "p2-respiratory-preventers",
+      "level": 1,
+      "front": "Ketotifen: is it a bronchodilator, and what kind of antiallergic is it?",
+      "back": "It is an H1 antihistamine with some cromoglycate-like action: it reduces activation of mast cells, eosinophils and other inflammatory cells and the release of their mediators. It is not a bronchodilator and is infrequently used now, though it may be tried in patients with multiple allergic disorders. Sedation and dry mouth are common.",
       "tags": [
-        "newer-drugs",
         "mechanism",
         "adr"
       ],
       "refs": [
-        "KDT8 ch16",
-        "GG14 ch44",
-        "Katzung16 ch20"
+        "KDT8 ch16"
       ],
-      "front": "Roflumilast: mechanism, use and adverse effects",
-      "back": "An oral PDE4 inhibitor given once daily, converted by CYP3A4 and CYP1A2 to the more active N-oxide metabolite; it exerts an anti-inflammatory action mainly in the lungs rather than direct bronchodilation. Used as add-on therapy in severe COPD (FEV1 below 50%) with chronic bronchitis and frequent exacerbations, reducing exacerbations by about 20% with little effect on symptoms; not approved for asthma. Adverse effects: diarrhoea (commonest), nausea, headache, weight loss and psychiatric disturbances. CYP inhibitors raise and rifampicin lowers its levels; contraindicated in moderate-to-severe liver impairment (Child-Pugh B or C).",
       "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-respiratory-034",
-      "type": "shortnote",
-      "subtopic": "p2-respiratory-bronchodilators",
-      "tags": [
-        "uses",
-        "classification"
-      ],
-      "refs": [
-        "GG14 ch44",
-        "Katzung16 ch20",
-        "KDT8 ch16"
-      ],
-      "front": "Short note: Drug therapy of stable COPD",
-      "sections": [
-        {
-          "h": "Nature of COPD",
-          "points": [
-            "Progressive airflow limitation from noxious particles, chiefly cigarette smoke; may progress even after exposure stops",
-            "Inflammation is relatively resistant to corticosteroids"
-          ]
-        },
-        {
-          "h": "Bronchodilators (mainstay)",
-          "points": [
-            "LAMAs (tiotropium, glycopyrronium, umeclidinium, aclidinium) are bronchodilators of choice in preference to LABAs alone",
-            "Once-daily LABAs (indacaterol, olodaterol, vilanterol); LABA/LAMA combination inhalers improve lung function over either alone"
-          ]
-        },
-        {
-          "h": "Inhaled corticosteroids",
-          "points": [
-            "Reserved for frequent exacerbators with blood eosinophils above 300/µL, usually as ICS/LABA/LAMA triple inhalers",
-            "Increase pneumonia risk"
-          ]
-        },
-        {
-          "h": "Other add-ons",
-          "points": [
-            "Roflumilast for severe COPD with chronic bronchitis and exacerbations",
-            "Daily azithromycin reduces exacerbations",
-            "Theophylline: low-dose trial showed no reduction in exacerbations; limited by toxicity"
-          ]
-        },
-        {
-          "h": "Exacerbations",
-          "points": [
-            "Managed much as in asthma (bronchodilators, systemic steroids), plus routine antibiotics such as beta-lactams, doxycycline or azithromycin against H. influenzae",
-            "A short 1 to 3 week course of oral glucocorticoid may help (KDT)"
-          ]
-        }
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2019,
-          "marks": 10
-        },
-        {
-          "university": "Q bank",
-          "year": 0,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-respiratory-035",
-      "type": "shortnote",
-      "front": "Short note: leukotriene modifiers in bronchial asthma",
-      "sections": [
-        {
-          "h": "Classes and action",
-          "points": [
-            "Montelukast and zafirlukast block the cysLT1 receptor",
-            "Zileuton inhibits 5-lipoxygenase and so blocks LTC4 and LTD4 synthesis"
-          ]
-        },
-        {
-          "h": "Role",
-          "points": [
-            "Prophylaxis of mild to moderate asthma; alternative to low-dose ICS",
-            "Add-on in asthma not controlled by ICS",
-            "Not used to stop an acute attack; no value in COPD"
-          ]
-        },
-        {
-          "h": "Dosing",
-          "points": [
-            "Montelukast 10 mg once daily; zafirlukast 20 mg twice daily; zileuton 600 mg four times daily"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Abdominal pain, headache, rashes",
-            "FDA 2020 boxed warning: serious neuropsychiatric events with montelukast"
-          ]
-        }
-      ],
-      "subtopic": "p2-respiratory-preventers",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch16",
-        "GG14 ch44"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2011,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2017,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-respiratory-036",
-      "type": "shortnote",
-      "front": "Short note: bronchodilators in COPD",
-      "sections": [
-        {
-          "h": "Maintenance choices",
-          "points": [
-            "Long-acting muscarinic antagonists (LAMA) are the usual first choice",
-            "LABA-LAMA fixed combinations are becoming the preferred bronchodilators in COPD",
-            "LABA alone is superior to short-acting agents for maintenance"
-          ]
-        },
-        {
-          "h": "Doses (GG14)",
-          "points": [
-            "Tiotropium Respimat: 2 inhalations of 1.25 µg (2.5 µg) once daily",
-            "Indacaterol 75 µg once daily; olodaterol 2.5 µg once daily",
-            "Glycopyrronium 15.6 µg twice daily; umeclidinium 62.5 µg once daily; aclidinium 400 µg twice daily"
-          ]
-        },
-        {
-          "h": "Add-on and oral options",
-          "points": [
-            "Roflumilast (PDE4 inhibitor) is an oral add-on for COPD, not asthma",
-            "Ensifentrine adds bronchodilation to a LAMA; mainly PDE3 action"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Anticholinergics: urinary retention, glaucoma history",
-            "Roflumilast: diarrhoea, nausea, weight loss; contraindicated in severe liver impairment"
-          ]
-        }
-      ],
-      "subtopic": "p2-respiratory-bronchodilators",
-      "tags": [
-        "uses",
-        "dosing"
-      ],
-      "refs": [
-        "GG14 ch44",
-        "KDT8 ch16"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2019,
-          "marks": 10
-        },
-        {
-          "university": "Q bank",
-          "year": 0,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-respiratory-037",
-      "type": "shortnote",
-      "front": "Short note: anti-inflammatory agents in bronchial asthma",
-      "sections": [
-        {
-          "h": "Inhaled corticosteroids",
-          "points": [
-            "Main controller; reduce cytokines, eosinophils and lymphocytes in airway",
-            "Start 100-200 µg twice daily; peak effect after 4-7 days; no role in an acute attack"
-          ]
-        },
-        {
-          "h": "Other controllers",
-          "points": [
-            "Montelukast and zafirlukast (cysLT1 blockers); zileuton (5-lipoxygenase inhibitor)",
-            "Sodium cromoglycate and nedocromil stabilise mast cells; prophylaxis only"
-          ]
-        },
-        {
-          "h": "Biologics for severe type 2 asthma",
-          "points": [
-            "Omalizumab (anti-IgE) given subcutaneously every 2-4 weeks",
-            "Mepolizumab subcutaneous every 4 weeks; reslizumab IV every 4 weeks; benralizumab subcutaneous every 8 weeks",
-            "Dupilumab (IL-4/IL-13 receptor) and tezepelumab (TSLP) for add-on use"
-          ]
-        }
-      ],
-      "subtopic": "p2-respiratory-preventers",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch16",
-        "GG14 ch44"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-respiratory-038",
-      "type": "shortnote",
-      "front": "Short note: inhaled drug delivery devices",
-      "sections": [
-        {
-          "h": "Metered dose inhaler",
-          "points": [
-            "Propellant is hydrofluoroalkane (HFA); CFCs phased out",
-            "Needs coordination of actuation with inspiration; spacer removes this need"
-          ]
-        },
-        {
-          "h": "Dry powder inhaler",
-          "points": [
-            "Needs high inspiratory flow; may irritate the airway",
-            "Capsule is pierced and the powder inhaled"
-          ]
-        },
-        {
-          "h": "Nebuliser",
-          "points": [
-            "Jet (compressed air or oxygen) or ultrasonic; preferred in severe attacks and children",
-            "Only about 10% of an inhaled dose reaches the site of action"
-          ]
-        },
-        {
-          "h": "Particle size",
-          "points": [
-            "Optimal aerosol particle size 1-5 µm; larger particles settle in the oropharynx"
-          ]
-        }
-      ],
-      "subtopic": "p2-respiratory-acute-delivery",
-      "tags": [
-        "pk",
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch16",
-        "GG14 ch44"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 20
-        },
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
-      ],
       "status": "draft"
     }
   ]

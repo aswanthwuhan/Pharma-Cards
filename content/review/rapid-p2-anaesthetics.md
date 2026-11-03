@@ -38,3 +38,18 @@ Checked against the GG14/Katzung corrections in `review/p2-anaesthetics.md`. Dec
 ## Expansion pass 2 (2026-11-02)
 - Rapid: +117 (rf-p2-anaesthetics-0511 onward; three duplicates removed): LA receptor and kinetics, pKa and onset, fibre sensitivity, adrenaline adjunct, systemic toxicity, amide vs ester, drug-specific synonyms and doses (lignocaine, amethocaine, cinchocaine, proparacaine, EMLA, bupivacaine, levobupivacaine, ropivacaine, cocaine), MAC and stages, inhalational agent properties, N2O, halothane, isoflurane, desflurane, ether, malignant hyperthermia treatment. Deck now 625.
 - Target (+120) almost met: +117 added.
+
+## Difficulty ladder pass
+No rapid changes; audit found chapter facts already covered (623 cards).
+
+## Checker
+- No rapid changes this pass; rapid file grep clean of Prep/RR5 refs. Not re-read card by card.
+
+## Checker
+- Verified 20+ cards (009,010,022-029,045,089-097) against KDT8 ch25-26-27 text.
+- Corrected 094: cisatracurium is not hydrolysed by plasma cholinesterase (KDT8 ch25); added rocuronium liver-clearance caveat.
+- No Prep/RR5 refs. Ladder OK (every subtopic >=3 L1, 2 L2, 1 L3). No deletions.
+- Not verified: 009 sugammadex 16 mg/kg (Katzung16 ref, not re-read).
+
+## Gap pass: past-exam questions 191, 207, 572
+- Added rf-p2-anaesthetics-0632 to 0645 (14 pairs) for the TOF, double-burst, PTC, in vitro NMB preparations, and the LA screening readouts. Sources as cited per pair in the deck log rows 099-111.

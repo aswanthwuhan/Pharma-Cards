@@ -15,38 +15,8 @@
       "subtopic": "p2-toxicology-principles",
       "tags": [
         "pk"
-      ]
-    },
-    {
-      "id": "p2-toxicology-002",
-      "type": "basic",
-      "front": "Why does volume of distribution matter in a poisoned patient? Give examples.",
-      "back": "A large Vd means the toxin sits in tissues and cannot be removed by blood-cleansing methods like haemodialysis. Large Vd (>5 L/kg): antidepressants, antipsychotics, antimalarials, opioids, propranolol, verapamil. Small Vd (<1 L/kg), more accessible: salicylate, acetaminophen, ethanol, phenobarbital, lithium, valproate, phenytoin.",
-      "refs": [
-        "Katzung16 ch58"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-principles",
-      "tags": [
-        "pk",
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-003",
-      "type": "basic",
-      "front": "How does overdose alter a drug's pharmacokinetics?",
-      "back": "Slow tablet dissolution or gastric emptying can delay peak toxicity; a corrosive poison may increase absorption by injuring the gut wall; saturated hepatic metabolism reduces first-pass effect; saturated protein binding raises the free fraction; and saturated elimination shifts first-order to zero-order kinetics, prolonging apparent half-life.",
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-principles",
-      "tags": [
-        "pk"
-      ]
+      "level": 1
     },
     {
       "id": "p2-toxicology-004",
@@ -61,7 +31,8 @@
       "subtopic": "p2-toxicology-principles",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-005",
@@ -76,7 +47,8 @@
       "subtopic": "p2-toxicology-principles",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-006",
@@ -97,7 +69,353 @@
       "subtopic": "p2-toxicology-principles",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-002",
+      "type": "basic",
+      "front": "Why does volume of distribution matter in a poisoned patient? Give examples.",
+      "back": "A large Vd means the toxin sits in tissues and cannot be removed by blood-cleansing methods like haemodialysis. Large Vd (>5 L/kg): antidepressants, antipsychotics, antimalarials, opioids, propranolol, verapamil. Small Vd (<1 L/kg), more accessible: salicylate, acetaminophen, ethanol, phenobarbital, lithium, valproate, phenytoin.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "pk",
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-003",
+      "type": "basic",
+      "front": "How does overdose alter a drug's pharmacokinetics?",
+      "back": "Slow tablet dissolution or gastric emptying can delay peak toxicity; a corrosive poison may increase absorption by injuring the gut wall; saturated hepatic metabolism reduces first-pass effect; saturated protein binding raises the free fraction; and saturated elimination shifts first-order to zero-order kinetics, prolonging apparent half-life.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-122",
+      "type": "basic",
+      "front": "Case: a tablet overdose patient looks well at 1 h but deteriorates later. Using kinetics, why, and how does Vd guide whether dialysis will help?",
+      "back": "Overdose can slow absorption, so peak toxicity may come late. Haemodialysis helps only some poisons: Katzung lists lithium, salicylate, phenobarbital, valproate and theophylline as dialysable, and antidepressants, propranolol and opioids as not useful. Large volume of distribution (tricyclics) means little drug is in plasma to clear.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "pk",
+        "poisoning"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-toxicology-008",
+      "type": "cloze",
+      "front": "Complete: vital-sign clues in poisoning",
+      "text": "Hypertension with tachycardia: {{amphetamines}}, cocaine, antimuscarinics. Hypotension with bradycardia: {{calcium channel blockers}}, beta-blockers, clonidine, sedative-hypnotics. Hypotension with tachycardia: {{tricyclic antidepressants}}, trazodone, quetiapine, vasodilators. Rapid breathing: {{salicylates}}, carbon monoxide. Hyperthermia: sympathomimetics, {{anticholinergics}}, salicylates.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-009",
+      "type": "cloze",
+      "front": "Complete: eye signs in poisoning",
+      "text": "Miosis: {{opioids}}, clonidine, phenothiazines, {{cholinesterase inhibitors}}. Mydriasis: amphetamines, cocaine, LSD, {{atropine}}. Horizontal nystagmus: phenytoin, alcohol, barbiturates. Vertical plus horizontal nystagmus: {{phencyclidine}}. Ptosis with ophthalmoplegia: {{botulism}}.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-010",
+      "type": "basic",
+      "front": "Which poisons cause a raised anion gap metabolic acidosis?",
+      "back": "Anion gap = (Na + K) - (HCO3 + Cl), normally 12-16 mEq/L (8-12 without K). Organic acid metabolites: methanol, ethylene glycol, diethylene glycol. Lactic acidosis: cyanide, carbon monoxide, ibuprofen, isoniazid, metformin, salicylates, valproate, and any seizures, hypoxia or hypotension. Iron also causes it.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-011",
+      "type": "basic",
+      "front": "What is the osmol gap and which poisons raise it?",
+      "back": "Measured minus calculated serum osmolality (calculated from Na, glucose and BUN; normal 280-290 mOsm/L). Unmeasured osmoles raise the gap: ethanol, methanol, ethylene glycol, isopropyl alcohol, acetone, propylene glycol.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-012",
+      "type": "basic",
+      "front": "What are the limits of toxicology screening?",
+      "back": "Rapid urine drugs-of-abuse screens cover few drug classes and give false positives and negatives; comprehensive screens are slow and costly; many dangerous drugs (calcium channel blockers, beta-blockers, isoniazid) are not detected; and a positive screen shows exposure but not time or amount. Clinical examination with routine labs usually suffices; quantitative levels (acetaminophen, salicylate, lithium, theophylline, methanol) guide antidotes or dialysis.",
+      "refs": [
+        "Katzung16 ch58",
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-014",
+      "type": "basic",
+      "front": "What is the current status of induced emesis and gastric lavage?",
+      "back": "Syrup of ipecac (emetine, cephaeline) is ineffective, no longer recommended and no longer made in the USA. Gastric emptying removes only about a third of a dose even under ideal conditions; lavage risks oesophageal or gastric trauma, aspiration and vagal stimulation, so it is reserved for unusual cases on toxicologist advice and only with a protected airway.",
+      "refs": [
+        "Katzung16 ch58",
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-016",
+      "type": "cloze",
+      "front": "Classify: haemodialysis in poisoning",
+      "text": "Dialysis may help in poisoning with {{lithium}}, {{salicylate}}, {{methanol}} and ethylene glycol, theophylline, metformin, phenobarbital, carbamazepine and valproate. It is not useful for {{tricyclic antidepressants}}, antipsychotics, benzodiazepines, calcium channel blockers, {{digoxin}}, opioids and propranolol, mainly because of large Vd.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-054",
+      "type": "basic",
+      "front": "Which bedside clues suggest a corrosive or hydrocarbon poisoning?",
+      "back": "Burns around the mouth suggest a corrosive substance; a hydrocarbon odour on the breath suggests a hydrocarbon solvent. A chest radiograph may show hydrocarbon pneumonia.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-058",
+      "type": "basic",
+      "front": "Which poisonings contraindicate induced emesis?",
+      "back": "Kerosene or petroleum, corrosive acids or alkalis, and CNS stimulants. Emesis is also avoided in comatose or haemodynamically unstable patients, or those with an inadequate gag reflex.",
+      "refs": [
+        "KDT8 ch6",
+        "KDT8 PDF p722",
+        "KDT8 PDF p112",
+        "Satoskar Pharmacology PDF p117"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning",
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-059",
+      "type": "basic",
+      "front": "Does activated charcoal adsorb hydrocarbons and organic solvents?",
+      "back": "No. Strong acids and alkalis, metallic salts, iodine, cyanide, caustics, alcohol, hydrocarbons and other organic solvents are not adsorbed by charcoal. Charcoal is also withheld in paralytic ileus or intestinal obstruction.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-066",
+      "type": "basic",
+      "front": "Which supportive measures are used in phosphide poisoning?",
+      "back": "Mechanical ventilation, organ support, vasoactive drugs, and correction of electrolyte and glucose abnormalities.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-071",
+      "type": "basic",
+      "front": "Where should phosphide-poisoned patients be managed, and why?",
+      "back": "In an ICU, because of the high risk of multi-organ failure and death.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-072",
+      "type": "basic",
+      "front": "What is the first step after inhaling phosphine?",
+      "back": "Move the person away from the source and give supplemental oxygen if needed.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-077",
+      "type": "basic",
+      "front": "Which national centre gives round-the-clock poisoning advice in India?",
+      "back": "The National Poisons Information Centre (NPIC) at AIIMS, New Delhi. It was set up in 1995 in the Department of Pharmacology.",
+      "refs": [
+        "WEB AIIMS NPIC Introduction (National Poisons Information Centre) https://www.aiims.edu/index.php/en/npic_intro"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-078",
+      "type": "basic",
+      "front": "What are the NPIC helpline numbers and hours?",
+      "back": "Toll-free 1800 116 117; telephone 26589391 or 26593677. Open 24 hours a day, all year.",
+      "refs": [
+        "WEB AIIMS NPIC Introduction (National Poisons Information Centre) https://www.aiims.edu/index.php/en/npic_intro"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-079",
+      "type": "basic",
+      "front": "What does NPIC advise when poisoning is suspected?",
+      "back": "Do not wait for symptoms, do not treat the person yourself, and take them to the nearest health facility.",
+      "refs": [
+        "WEB AIIMS NPIC Introduction (National Poisons Information Centre) https://www.aiims.edu/index.php/en/npic_intro"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-080",
+      "type": "cloze",
+      "front": "Complete: National Poisons Information Centre",
+      "text": "The National Poisons Information Centre was set up in {{1995}} in the Department of {{Pharmacology}} at {{AIIMS}}, New Delhi.",
+      "refs": [
+        "WEB AIIMS NPIC Introduction (National Poisons Information Centre) https://www.aiims.edu/index.php/en/npic_intro"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-113",
+      "type": "basic",
+      "subtopic": "p2-toxicology-management",
+      "front": "Which drugs are listed as not removed by haemodialysis?",
+      "back": "Amphetamines, antidepressants, antipsychotics, benzodiazepines, calcium channel blockers, digoxin, metoprolol, propranolol, opioids.",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p2-toxicology-007",
@@ -147,83 +465,8 @@
       "subtopic": "p2-toxicology-management",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-008",
-      "type": "cloze",
-      "front": "Complete: vital-sign clues in poisoning",
-      "text": "Hypertension with tachycardia: {{amphetamines}}, cocaine, antimuscarinics. Hypotension with bradycardia: {{calcium channel blockers}}, beta-blockers, clonidine, sedative-hypnotics. Hypotension with tachycardia: {{tricyclic antidepressants}}, trazodone, quetiapine, vasodilators. Rapid breathing: {{salicylates}}, carbon monoxide. Hyperthermia: sympathomimetics, {{anticholinergics}}, salicylates.",
-      "refs": [
-        "Katzung16 ch58"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-009",
-      "type": "cloze",
-      "front": "Complete: eye signs in poisoning",
-      "text": "Miosis: {{opioids}}, clonidine, phenothiazines, {{cholinesterase inhibitors}}. Mydriasis: amphetamines, cocaine, LSD, {{atropine}}. Horizontal nystagmus: phenytoin, alcohol, barbiturates. Vertical plus horizontal nystagmus: {{phencyclidine}}. Ptosis with ophthalmoplegia: {{botulism}}.",
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-010",
-      "type": "basic",
-      "front": "Which poisons cause a raised anion gap metabolic acidosis?",
-      "back": "Anion gap = (Na + K) - (HCO3 + Cl), normally 12-16 mEq/L (8-12 without K). Organic acid metabolites: methanol, ethylene glycol, diethylene glycol. Lactic acidosis: cyanide, carbon monoxide, ibuprofen, isoniazid, metformin, salicylates, valproate, and any seizures, hypoxia or hypotension. Iron also causes it.",
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-011",
-      "type": "basic",
-      "front": "What is the osmol gap and which poisons raise it?",
-      "back": "Measured minus calculated serum osmolality (calculated from Na, glucose and BUN; normal 280-290 mOsm/L). Unmeasured osmoles raise the gap: ethanol, methanol, ethylene glycol, isopropyl alcohol, acetone, propylene glycol.",
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-012",
-      "type": "basic",
-      "front": "What are the limits of toxicology screening?",
-      "back": "Rapid urine drugs-of-abuse screens cover few drug classes and give false positives and negatives; comprehensive screens are slow and costly; many dangerous drugs (calcium channel blockers, beta-blockers, isoniazid) are not detected; and a positive screen shows exposure but not time or amount. Clinical examination with routine labs usually suffices; quantitative levels (acetaminophen, salicylate, lithium, theophylline, methanol) guide antidotes or dialysis.",
-      "refs": [
-        "Katzung16 ch58",
-        "GG14 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-013",
@@ -239,23 +482,8 @@
       "subtopic": "p2-toxicology-management",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-014",
-      "type": "basic",
-      "front": "What is the current status of induced emesis and gastric lavage?",
-      "back": "Syrup of ipecac (emetine, cephaeline) is ineffective, no longer recommended and no longer made in the USA. Gastric emptying removes only about a third of a dose even under ideal conditions; lavage risks oesophageal or gastric trauma, aspiration and vagal stimulation, so it is reserved for unusual cases on toxicologist advice and only with a protected airway.",
-      "refs": [
-        "Katzung16 ch58",
-        "GG14 ch9"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-015",
@@ -271,23 +499,8 @@
       "subtopic": "p2-toxicology-management",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-016",
-      "type": "cloze",
-      "front": "Classify: haemodialysis in poisoning",
-      "text": "Dialysis may help in poisoning with {{lithium}}, {{salicylate}}, {{methanol}} and ethylene glycol, theophylline, metformin, phenobarbital, carbamazepine and valproate. It is not useful for {{tricyclic antidepressants}}, antipsychotics, benzodiazepines, calcium channel blockers, {{digoxin}}, opioids and propranolol, mainly because of large Vd.",
-      "refs": [
-        "Katzung16 ch58"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning",
-        "classification"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-017",
@@ -303,7 +516,129 @@
       "subtopic": "p2-toxicology-management",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-067",
+      "type": "basic",
+      "front": "Why is gastric lavage controversial in phosphide poisoning?",
+      "back": "It may increase phosphine release and toxicity. Staff are also at risk, because phosphine can escape from vomit and faeces.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-068",
+      "type": "basic",
+      "front": "What role does activated charcoal play in metal phosphide ingestion?",
+      "back": "It is described as beneficial for reducing toxicity. Evidence for coconut oil and potassium permanganate lavage is lacking.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-management",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-109",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-management",
+      "front": "Short note: Anticholinergic (antimuscarinic) poisoning",
+      "sections": [
+        {
+          "h": "Features",
+          "points": [
+            "Red as a beet (flushed), hot as a hare (hyperthermia), dry as a bone (no sweating)",
+            "Blind as a bat (cycloplegia), mad as a hatter (confusion, delirium); sinus tachycardia, ileus"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Supportive care; benzodiazepine or antipsychotic for agitation",
+            "Physostigmine for severe peripheral or central effects, given slowly IV"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Do not give physostigmine in tricyclic overdose",
+            "Antihistamines and tricyclics are common causes"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "adr"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-110",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-management",
+      "front": "Short note: Dextrose challenge and naloxone in altered consciousness",
+      "sections": [
+        {
+          "h": "Glucose first",
+          "points": [
+            "Hypoglycaemia mimics intoxication",
+            "Adults 25 g IV (50 mL of 50%); children 0.5 g/kg (2 mL/kg of 25%)",
+            "Unless a bedside test shows normal glucose"
+          ]
+        },
+        {
+          "h": "Naloxone",
+          "points": [
+            "0.4-2 mg IV, IM or SC for opioid poisoning",
+            "Larger doses for propoxyphene, codeine, fentanyl derivatives",
+            "Effect often shorter than the opioid; respiratory depression is the main killer"
+          ]
+        }
+      ],
+      "tags": [
+        "dosing",
+        "poisoning"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-112",
+      "type": "basic",
+      "subtopic": "p2-toxicology-management",
+      "front": "Focal seizure or motor deficit in a poisoned patient suggests what?",
+      "back": "A structural lesion such as intracranial haemorrhage, not a toxic or metabolic cause.",
+      "tags": [
+        "poisoning"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p2-toxicology-018",
@@ -374,7 +709,90 @@
       "subtopic": "p2-toxicology-management",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-toxicology-111",
+      "type": "essay",
+      "subtopic": "p2-toxicology-management",
+      "front": "Essay: Toxidrome clues from the bedside examination",
+      "sections": [
+        {
+          "h": "Vital signs",
+          "points": [
+            "Hypertension and tachycardia: amphetamines, cocaine, antimuscarinics",
+            "Hypotension and bradycardia: calcium channel blockers, beta-blockers, clonidine, sedative-hypnotics"
+          ]
+        },
+        {
+          "h": "Eyes and skin",
+          "points": [
+            "Miosis: opioids, clonidine, phenothiazines, cholinesterase inhibitors",
+            "Mydriasis: amphetamines, cocaine, LSD, antimuscarinics",
+            "Sweating: organophosphates, nicotine, sympathomimetics"
+          ]
+        },
+        {
+          "h": "Abdomen and nervous system",
+          "points": [
+            "Ileus: antimuscarinic, opioid, sedative",
+            "Cramps and diarrhoea: organophosphates, iron, arsenic, theophylline",
+            "Nystagmus, ataxia: phenytoin, carbamazepine, alcohol"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "uses"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p2-toxicology-114",
+      "type": "essay",
+      "subtopic": "p2-toxicology-management",
+      "front": "Essay: Enhanced elimination of poisons",
+      "sections": [
+        {
+          "h": "Haemodialysis",
+          "points": [
+            "More efficient than peritoneal dialysis",
+            "Corrects fluid, electrolyte and acid-base; removes formic, oxalic and glycolic acids",
+            "Useful for carbamazepine, lithium, methanol, salicylate, theophylline, valproic acid"
+          ]
+        },
+        {
+          "h": "Other methods",
+          "points": [
+            "Peritoneal dialysis: inefficient for most drugs",
+            "Urinary alkalinisation: salicylate; acidification for phencyclidine and amphetamines",
+            "Forced diuresis: not recommended"
+          ]
+        },
+        {
+          "h": "Repeated charcoal",
+          "points": [
+            "Interrupts enterohepatic cycling and aids gut elimination",
+            "Used for carbamazepine, quinine, dapsone, salicylate"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "dosing"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p2-toxicology-019",
@@ -390,7 +808,56 @@
       "tags": [
         "poisoning",
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-065",
+      "type": "basic",
+      "front": "Is there a specific antidote for phosphide poisoning?",
+      "back": "No. None is known, so treatment is mainly supportive, usually in an ICU.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-antidotes",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-069",
+      "type": "basic",
+      "front": "What is the evidence for N-acetylcysteine in phosphide poisoning?",
+      "back": "Used in some regimens for phosphide-related acute liver failure. A mortality benefit has not been proven.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-antidotes",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-070",
+      "type": "basic",
+      "front": "What is the evidence for pralidoxime in phosphide poisoning?",
+      "back": "Animal data only so far: rat survival rose at 10 mg/kg of aluminium phosphide. Benefit in humans has not been studied.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-antidotes",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-020",
@@ -405,7 +872,210 @@
       "subtopic": "p2-toxicology-antidotes",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-050",
+      "type": "basic",
+      "front": "Scorpion sting: why is prazosin the drug of choice, and what warning applies to its first dose?",
+      "back": "Scorpion venom is neurotoxic and cardiotoxic. It can cause hypertension, which prazosin treats; severe cases also get pulmonary oedema. Early in prazosin treatment, marked postural hypotension can occur.",
+      "refs": [
+        "Padmaja Medical Pharmacology 7e PDF p738",
+        "KDT8 PDF p171"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-antidotes",
+      "tags": [
+        "poisoning",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-051",
+      "type": "basic",
+      "front": "Scorpion sting: which drugs control seizures, muscle spasm and hypotension from anaphylaxis?",
+      "back": "Diazepam for seizures; lignocaine for muscle spasm and pain; intramuscular adrenaline when anaphylaxis causes hypotension.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-antidotes",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-052",
+      "type": "basic",
+      "front": "Cobra and krait bite: why does paralysis occur, and what is added for cobra paralysis?",
+      "back": "Cobra venom is a curare-like neurotoxin that blocks nicotinic receptors at the neuromuscular junction, causing paralysis and respiratory paralysis. Specific antivenom serum is the primary treatment. For cobra paralysis, neostigmine with atropine is added: neostigmine raises acetylcholine to overcome the block, and atropine blocks its muscarinic effects. Krait paralysis is presynaptic and is not expected to respond to edrophonium, so the regimen is for cobra.",
+      "refs": [
+        "KDT8 PDF p138",
+        "GG14 PDF p254",
+        "KDT8 PDF p132",
+        "KDT8 PDF p148",
+        "Satoskar Pharmacology PDF p472"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-antidotes",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-053",
+      "type": "basic",
+      "front": "US rattlesnake envenomation: why should field remedies be avoided, and what is definitive treatment?",
+      "back": "Incision and suction, tourniquets and ice packs do more harm than good, while avoiding unnecessary movement helps limit the spread of venom. Definitive treatment is early intravenous antivenom.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-antidotes",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-105",
+      "type": "basic",
+      "subtopic": "p2-toxicology-antidotes",
+      "front": "Pralidoxime: benefit in carbamate and organophosphate poisoning?",
+      "back": "No proven benefit in carbamate poisoning; uncertain benefit in established organophosphate poisoning.",
+      "tags": [
+        "poisoning"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-123",
+      "type": "basic",
+      "front": "Case: a confused patient has dilated pupils, dry skin and wide QRS after an overdose. Is physostigmine appropriate, and which antidote class fits instead?",
+      "back": "Anticholinergic delirium alone would justify slow IV physostigmine, but a wide QRS suggests tricyclic overdose, where physostigmine can cause heart block or asystole and must be avoided. Tricyclic cardiotoxicity is treated with sodium bicarbonate.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-antidotes",
+      "tags": [
+        "poisoning",
+        "contraindications"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-toxicology-027",
+      "type": "basic",
+      "front": "Recognise the anticholinergic toxidrome.",
+      "back": "Red as a beet (flushed), hot as a hare (hyperthermia), dry as a bone (no sweating), blind as a bat (mydriasis, cycloplegia), mad as a hatter (delirium), with sinus tachycardia, ileus and urinary retention. Seizures suggest an antihistamine or tricyclic. Treatment is supportive (benzodiazepine for agitation, bladder catheter), with physostigmine for marked agitation if no tricyclic is involved.",
+      "refs": [
+        "Katzung16 ch58",
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-060",
+      "type": "basic",
+      "front": "Which common plants contain cardiac glycosides with properties similar to digoxin?",
+      "back": "Oleander, lily of the valley and milkweed, among others. Digoxin itself is obtained from the white foxglove (Digitalis lanata).",
+      "refs": [
+        "Katzung16 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-063",
+      "type": "basic",
+      "front": "How soon do features of aluminium or zinc phosphide ingestion usually start?",
+      "back": "Usually within about 30 minutes. Early features are nausea, vomiting and epigastric pain; garlic-like breath may occur.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-119",
+      "type": "cloze",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "front": "Complete: tricyclic antidepressant overdose",
+      "text": "Tricyclics widen the {{QRS}} complex beyond {{100 ms}}. Seizures reflect {{GABA-A}} antagonism, and dry mouth, tachycardia and dilated pupils reflect {{antimuscarinic}} action.",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-120",
+      "type": "basic",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "front": "Antidote preferred to ethanol in methanol or ethylene glycol poisoning?",
+      "back": "Fomepizole: easier to use; ethanol gives blood levels that are difficult to keep safe.",
+      "tags": [
+        "newer-drugs"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-121",
+      "type": "basic",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "front": "Is haemodialysis useful for opioid overdose?",
+      "back": "No: opioids are listed as not removed effectively by haemodialysis. Naloxone is the antidote.",
+      "tags": [
+        "poisoning"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p2-toxicology-021",
@@ -448,7 +1118,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-toxicology-022",
@@ -487,7 +1158,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-toxicology-023",
@@ -526,7 +1198,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-toxicology-024",
@@ -541,7 +1214,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-toxicology-025",
@@ -556,7 +1230,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-toxicology-026",
@@ -572,23 +1247,8 @@
       "tags": [
         "poisoning",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-027",
-      "type": "basic",
-      "front": "Recognise the anticholinergic toxidrome.",
-      "back": "Red as a beet (flushed), hot as a hare (hyperthermia), dry as a bone (no sweating), blind as a bat (mydriasis, cycloplegia), mad as a hatter (delirium), with sinus tachycardia, ileus and urinary retention. Seizures suggest an antihistamine or tricyclic. Treatment is supportive (benzodiazepine for agitation, bladder catheter), with physostigmine for marked agitation if no tricyclic is involved.",
-      "refs": [
-        "Katzung16 ch58",
-        "GG14 ch9"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-drug-overdose",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-028",
@@ -603,7 +1263,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-toxicology-029",
@@ -618,7 +1279,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-toxicology-030",
@@ -664,451 +1326,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-031",
-      "type": "shortnote",
-      "front": "Short note: Lead poisoning",
-      "sections": [
-        {
-          "h": "Exposure and kinetics",
-          "points": [
-            "Inhaled dust (industry) or ingestion; adults absorb 10-15%, young children up to 50%",
-            "About 99% of blood lead in red cells; over 90% of adult body burden in bone (half-life years)"
-          ]
-        },
-        {
-          "h": "Nervous system",
-          "points": [
-            "Developing brain most sensitive; no safe threshold in children",
-            "Encephalopathy at very high levels; motor neuropathy with wrist drop"
-          ]
-        },
-        {
-          "h": "Blood",
-          "points": [
-            "Blocks ALA dehydratase and ferrochelatase: raised zinc protoporphyrin, anaemia, basophilic stippling"
-          ]
-        },
-        {
-          "h": "Other",
-          "points": [
-            "Lead colic, gingival lead line",
-            "Nephropathy, saturnine gout",
-            "Hypertension, cardiovascular mortality; miscarriage, reduced sperm"
-          ]
-        },
-        {
-          "h": "Diagnosis",
-          "points": [
-            "Whole blood lead"
-          ]
-        }
       ],
-      "refs": [
-        "Katzung16 ch57"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-032",
-      "type": "basic",
-      "front": "How is inorganic lead poisoning treated?",
-      "back": "Stop exposure and give supportive care. Encephalopathy is an emergency: treat cerebral oedema and seizures, and chelate with IV calcium disodium EDTA (some start with IM dimercaprol, then both together). Parenteral chelation is limited to 5 days, then oral succimer. Blood lead may rebound as bone lead re-equilibrates. Chelation of asymptomatic children with moderate levels did not improve cognition.",
-      "refs": [
-        "Katzung16 ch57",
-        "KDT8 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-033",
-      "type": "shortnote",
-      "front": "Short note: Arsenic poisoning",
-      "sections": [
-        {
-          "h": "Sources",
-          "points": [
-            "Groundwater (Ganges delta of India and Bangladesh), wood preservatives, semiconductors, herbicides"
-          ]
-        },
-        {
-          "h": "Acute",
-          "points": [
-            "Gastroenteritis, capillary leak, shock; QT prolongation and arrhythmias",
-            "Pancytopenia within a week; ascending sensorimotor neuropathy after 2-6 weeks; Mees lines on nails"
-          ]
-        },
-        {
-          "h": "Chronic",
-          "points": [
-            "Raindrop hyperpigmentation, palm-sole hyperkeratosis, stocking-glove neuropathy",
-            "Cancer of lung, skin and bladder; peripheral vascular disease"
-          ]
-        },
-        {
-          "h": "Diagnosis",
-          "points": [
-            "Urine arsenic (avoid seafood for 3 days before testing); hair and nails for past exposure"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "Acute: decontamination, intensive care, prompt unithiol IV or dimercaprol IM",
-            "Chronic: stop exposure; chelation unproven"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch57"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-034",
-      "type": "basic",
-      "front": "How does arsine gas poisoning differ from other arsenic poisoning?",
-      "back": "Arsine causes massive intravascular haemolysis after a 2-24 h latent period, with jaundice, haemoglobinuria and oliguric renal failure. Chelators are of no proven value; treatment is supportive with exchange transfusion, hydration and haemodialysis.",
-      "refs": [
-        "Katzung16 ch57"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-035",
-      "type": "shortnote",
-      "front": "Short note: Mercury poisoning",
-      "sections": [
-        {
-          "h": "Elemental vapour",
-          "points": [
-            "Inhaled; acute pneumonitis",
-            "Chronic triad: intention tremor, erethism (shyness, irritability), gingivostomatitis"
-          ]
-        },
-        {
-          "h": "Inorganic salts",
-          "points": [
-            "Mercuric chloride: corrosive haemorrhagic gastroenteritis, then acute tubular necrosis"
-          ]
-        },
-        {
-          "h": "Methylmercury",
-          "points": [
-            "Minamata Bay; fish",
-            "Paraesthesias, ataxia, hearing loss, dysarthria, constricted visual fields",
-            "Teratogen: cerebral palsy-like syndrome in offspring"
-          ]
-        },
-        {
-          "h": "Acrodynia",
-          "points": [
-            "Painful red extremities in children with subacute or chronic exposure"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "Acute inorganic: early unithiol, dimercaprol or succimer, hydration, dialysis if renal failure",
-            "Avoid dimercaprol in chronic elemental or organic mercury: it redistributes mercury to the brain"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch57"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-036",
-      "type": "cloze",
-      "front": "Complete: chelator choice in metal poisoning",
-      "text": "Lead: {{calcium disodium EDTA}} or oral {{succimer}}. Acute arsenic: {{unithiol}} or dimercaprol. Acute inorganic mercury: unithiol, dimercaprol or succimer. Acute iron: {{desferrioxamine}}. Copper and Wilson disease: {{penicillamine}}. Dimercaprol is contraindicated in {{iron}} and {{cadmium}} poisoning because its complexes are toxic.",
-      "refs": [
-        "Katzung16 ch57",
-        "KDT8 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "tags": [
-        "poisoning",
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-toxicology-037",
-      "type": "basic",
-      "front": "What general principles limit chelation therapy?",
-      "back": "Benefit falls rapidly as the time from exposure grows; metal held long in an organ (e.g. lead in bone) is removed poorly; chelators can redistribute metal to vital organs (dimercaprol moves mercury and arsenic into the brain; chelators move cadmium into the kidney); and essential metals are lost (zinc with calcium EDTA, zinc and copper with succimer).",
-      "refs": [
-        "Katzung16 ch57",
-        "KDT8 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "tags": [
-        "poisoning",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-toxicology-038",
-      "type": "basic",
-      "front": "Carbon monoxide poisoning: mechanism, features and treatment.",
-      "back": "CO binds haemoglobin about 220 times more avidly than oxygen and impairs O2 release from the remaining haemoglobin. Headache and malaise at lower carboxyhaemoglobin, syncope around 40%, death above 60%. Pulse oximetry and PO2 can be falsely normal. Give 100% oxygen: CO half-time falls from about 320 min on room air to about 80 min; hyperbaric oxygen shortens it further and is favoured in pregnancy.",
-      "refs": [
-        "Katzung16 ch56",
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-gases",
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-039",
-      "type": "basic",
-      "front": "Cyanide poisoning: mechanism and antidotes.",
-      "back": "Cyanide binds ferric iron of cytochrome oxidase, blocking cellular oxygen use: lactic acidosis, seizures, coma and collapse, with high venous O2 content. Sources: fires (plastics, wool), cassava, fruit seeds. Antidotes: hydroxocobalamin (forms cyanocobalamin), or sodium nitrite (methaemoglobin binds cyanide) with sodium thiosulfate (helps rhodanese form thiocyanate).",
-      "refs": [
-        "Katzung16 ch58",
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-gases",
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-040",
-      "type": "shortnote",
-      "front": "Short note: Air pollutants and their health effects",
-      "sections": [
-        {
-          "h": "Sulfur dioxide",
-          "points": [
-            "Highly soluble: forms sulfurous acid in the upper airway",
-            "Bronchoconstriction, bronchorrhoea; asthmatics very sensitive"
-          ]
-        },
-        {
-          "h": "Nitrogen dioxide",
-          "points": [
-            "Poorly soluble deep-lung irritant: pulmonary oedema, ARDS",
-            "Silo-filler's disease; late bronchiolitis obliterans"
-          ]
-        },
-        {
-          "h": "Ozone",
-          "points": [
-            "Ground-level ozone from NOx and organic compounds in sunlight",
-            "Free-radical injury, airway hyperresponsiveness, pulmonary oedema at high levels"
-          ]
-        },
-        {
-          "h": "Particulate matter",
-          "points": [
-            "PM10 deposits in upper airways; PM2.5 reaches gas-exchange areas",
-            "Worsens asthma and COPD; linked to cardiovascular mortality"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "No specific antidote: supportive airway care, reduce outdoor exposure, masks and air filtration"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-gases",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-041",
-      "type": "basic",
-      "front": "Differentiate bioaccumulation and biomagnification.",
-      "back": "Bioaccumulation: a persistent chemical builds up in an organism when intake exceeds metabolism and excretion (e.g. organochlorines in body fat). Biomagnification: concentration rises at each step up the food chain; PCBs in the Great Lakes rose almost 50,000-fold from phytoplankton to herring gulls.",
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-gases",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-042",
-      "type": "basic",
-      "front": "Name classic environmental chemical disasters and their toxins.",
-      "back": "Bhopal, India (1984): methyl isocyanate, almost 4000 deaths and over half a million injured. Minamata, Japan: methylmercury in seafood. Itai-itai disease, Japan: cadmium in water. Seveso, Italy (1976): dioxin. Yusho (Japan) and Yucheng (Taiwan): PCB-contaminated cooking oil.",
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-gases",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-043",
-      "type": "basic",
-      "front": "Organochlorine pesticides: groups, mechanism and toxicity.",
-      "back": "Groups: DDT and analogues, benzene hexachlorides, cyclodienes, toxaphenes. They delay sodium channel inactivation, causing repetitive neuronal firing and CNS stimulation: tremor (DDT) or convulsions first. No specific treatment. They persist, bioaccumulate in fat and act as endocrine disrupters, so most are banned.",
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-044",
-      "type": "basic",
-      "front": "How do carbamate pesticides differ from organophosphates?",
-      "back": "Carbamates carbamoylate the cholinesterase esteratic site; binding is weaker and reverses within minutes to hours, so poisoning is shorter and the enzyme recovers spontaneously faster. Organophosphates bind more lastingly but are not persistent in the environment (hydrolysis and photolysis), unlike organochlorines.",
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-045",
-      "type": "shortnote",
-      "front": "Short note: Paraquat poisoning",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Single-electron reduction to free radicals; probably inhibits superoxide dismutase",
-            "Actively concentrated in the lung"
-          ]
-        },
-        {
-          "h": "Course",
-          "points": [
-            "Early haematemesis and bloody stools",
-            "Days later: haemorrhagic pulmonary oedema, then progressive fibrosis; liver, kidney, heart involvement; death after weeks"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "Bind early with adsorbents (Fuller's earth, activated charcoal); no gastric lavage",
-            "Use oxygen cautiously as it worsens lung injury",
-            "Steroids, cyclophosphamide, antioxidants of unproven value; high fatality"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch56",
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-046",
-      "type": "basic",
-      "front": "Glyphosate herbicide poisoning: features.",
-      "back": "Common in suicidal ingestions in developing countries. Eye and skin irritant; ingestion causes oesophageal erosion, aspiration pneumonia and renal failure, partly due to the surfactant in formulations. Treatment is symptomatic (dialysis for renal failure). IARC lists glyphosate as probably carcinogenic (2A), with an association with non-Hodgkin lymphoma.",
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-047",
-      "type": "basic",
-      "front": "Pyrethroid insecticides: toxicity and treatment.",
-      "back": "Mainly irritant and allergic: eye, skin and airway irritation, irritant asthma, rarely anaphylaxis, and cutaneous paraesthesias in sprayers; severe exposures can cause convulsions. Treatment is symptomatic; ivermectin, pentobarbital and mephenesin have been used.",
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-048",
-      "type": "basic",
-      "front": "Polychlorinated biphenyls (PCBs): why a concern?",
-      "back": "Stable, lipophilic, poorly metabolised industrial chemicals that bioaccumulate (food, especially fish, is the main source). Exposure causes chloracne and other skin changes, liver abnormalities and raised triglycerides; they are endocrine disrupters, prenatal exposure is linked to cognitive deficits, and some are IARC class 1 carcinogens.",
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-049",
@@ -1126,89 +1345,8 @@
       "tags": [
         "poisoning",
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-050",
-      "type": "basic",
-      "front": "Scorpion sting: why is prazosin the drug of choice, and what warning applies to its first dose?",
-      "back": "Scorpion venom is neurotoxic and cardiotoxic. It can cause hypertension, which prazosin treats; severe cases also get pulmonary oedema. Early in prazosin treatment, marked postural hypotension can occur.",
-      "refs": [
-        "Padmaja Medical Pharmacology 7e PDF p738",
-        "KDT8 PDF p171"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-antidotes",
-      "tags": [
-        "poisoning",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-toxicology-051",
-      "type": "basic",
-      "front": "Scorpion sting: which drugs control seizures, muscle spasm and hypotension from anaphylaxis?",
-      "back": "Diazepam for seizures; lignocaine for muscle spasm and pain; intramuscular adrenaline when anaphylaxis causes hypotension.",
-      "refs": [
-        "UNSOURCED - owner must verify"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-antidotes",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-052",
-      "type": "basic",
-      "front": "Cobra and krait bite: why does paralysis occur, and what is added for cobra paralysis?",
-      "back": "Cobra venom is a curare-like neurotoxin that blocks nicotinic receptors at the neuromuscular junction, causing paralysis and respiratory paralysis. Specific antivenom serum is the primary treatment. For cobra paralysis, neostigmine with atropine is added: neostigmine raises acetylcholine to overcome the block, and atropine blocks its muscarinic effects. Krait paralysis is presynaptic and is not expected to respond to edrophonium, so the regimen is for cobra.",
-      "refs": [
-        "KDT8 PDF p138",
-        "GG14 PDF p254",
-        "KDT8 PDF p132",
-        "KDT8 PDF p148",
-        "Satoskar Pharmacology PDF p472"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-antidotes",
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-053",
-      "type": "basic",
-      "front": "US rattlesnake envenomation: why should field remedies be avoided, and what is definitive treatment?",
-      "back": "Incision and suction, tourniquets and ice packs do more harm than good, while avoiding unnecessary movement helps limit the spread of venom. Definitive treatment is early intravenous antivenom.",
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-antidotes",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-054",
-      "type": "basic",
-      "front": "Which bedside clues suggest a corrosive or hydrocarbon poisoning?",
-      "back": "Burns around the mouth suggest a corrosive substance; a hydrocarbon odour on the breath suggests a hydrocarbon solvent. A chest radiograph may show hydrocarbon pneumonia.",
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-055",
@@ -1223,87 +1361,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-056",
-      "type": "basic",
-      "front": "Halogenated hydrocarbon solvents (carbon tetrachloride, chloroform, trichloroethylene): which organs do they injure, and is there a specific treatment?",
-      "back": "They depress the CNS and damage the liver and kidney (cardiotoxicity is seen in animals), and several are probable human carcinogens. There is no specific treatment, so management follows the organ involved.",
-      "refs": [
-        "Katzung16 ch56"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-gases",
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-057",
-      "type": "basic",
-      "front": "Why are perfluoro compounds (PFAS, such as PFOA) a concern?",
-      "back": "They are persistent, accumulate in humans and wildlife, and spread through water and the food chain. PFOA has an estimated human half-life of about 3 years, and it acts as an endocrine disruptor.",
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-058",
-      "type": "basic",
-      "front": "Which poisonings contraindicate induced emesis?",
-      "back": "Kerosene or petroleum, corrosive acids or alkalis, and CNS stimulants. Emesis is also avoided in comatose or haemodynamically unstable patients, or those with an inadequate gag reflex.",
-      "refs": [
-        "KDT8 ch6",
-        "KDT8 PDF p722",
-        "KDT8 PDF p112",
-        "Satoskar Pharmacology PDF p117"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-toxicology-059",
-      "type": "basic",
-      "front": "Does activated charcoal adsorb hydrocarbons and organic solvents?",
-      "back": "No. Strong acids and alkalis, metallic salts, iodine, cyanide, caustics, alcohol, hydrocarbons and other organic solvents are not adsorbed by charcoal. Charcoal is also withheld in paralytic ileus or intestinal obstruction.",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-060",
-      "type": "basic",
-      "front": "Which common plants contain cardiac glycosides with properties similar to digoxin?",
-      "back": "Oleander, lily of the valley and milkweed, among others. Digoxin itself is obtained from the white foxglove (Digitalis lanata).",
-      "refs": [
-        "Katzung16 ch13"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-drug-overdose",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-061",
@@ -1324,38 +1383,8 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-062",
-      "type": "basic",
-      "front": "Aluminium and zinc phosphide: which toxic gas do they release, and what speeds the reaction?",
-      "back": "Phosphine gas. Phosphides react with water and acid to release it, and acid makes the reaction much faster.",
-      "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-toxicology-063",
-      "type": "basic",
-      "front": "How soon do features of aluminium or zinc phosphide ingestion usually start?",
-      "back": "Usually within about 30 minutes. Early features are nausea, vomiting and epigastric pain; garlic-like breath may occur.",
-      "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-drug-overdose",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-064",
@@ -1407,157 +1436,145 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-toxicology-065",
-      "type": "basic",
-      "front": "Is there a specific antidote for phosphide poisoning?",
-      "back": "No. None is known, so treatment is mainly supportive, usually in an ICU.",
+      "id": "p2-toxicology-115",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "front": "Short note: Stimulant poisoning (amphetamine, cocaine, MDMA)",
+      "sections": [
+        {
+          "h": "Drugs",
+          "points": [
+            "Methamphetamine, MDMA (ecstasy), cocaine (crack); pseudoephedrine and ephedrine"
+          ]
+        },
+        {
+          "h": "Features",
+          "points": [
+            "Hypertension, tachycardia, agitation, acute psychosis",
+            "Seizures, hyperthermia and rhabdomyolysis from prolonged muscular hyperactivity"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "No specific antidote; supportive care",
+            "Seizures: IV benzodiazepines such as lorazepam",
+            "Severe hyperthermia is life-threatening and needs aggressive treatment"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
       "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+        "Katzung16 ch58"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-toxicology-antidotes",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
-      "id": "p2-toxicology-066",
-      "type": "basic",
-      "front": "Which supportive measures are used in phosphide poisoning?",
-      "back": "Mechanical ventilation, organ support, vasoactive drugs, and correction of electrolyte and glucose abnormalities.",
+      "id": "p2-toxicology-116",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "front": "Short note: Serotonin toxicity",
+      "sections": [
+        {
+          "h": "Causes",
+          "points": [
+            "SSRIs, especially combined with each other or with MAOIs"
+          ]
+        },
+        {
+          "h": "Features",
+          "points": [
+            "Agitation, muscle hyperactivity, hyperthermia",
+            "Generalised hypertonicity and lower-extremity clonus",
+            "Seizures possible"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "adr"
+      ],
       "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+        "Katzung16 ch58"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
-      "id": "p2-toxicology-067",
-      "type": "basic",
-      "front": "Why is gastric lavage controversial in phosphide poisoning?",
-      "back": "It may increase phosphine release and toxicity. Staff are also at risk, because phosphine can escape from vomit and faeces.",
+      "id": "p2-toxicology-117",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "front": "Short note: Theophylline poisoning",
+      "sections": [
+        {
+          "h": "Dose and features",
+          "points": [
+            "20-30 tablets can be fatal in an adult",
+            "Vomiting, sinus tachycardia, tremor; hypotension, hypokalaemia, hyperglycaemia"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Repeated charcoal and whole bowel irrigation",
+            "Esmolol or propranolol for beta-mediated hypotension and tachycardia",
+            "Haemodialysis for severe cases"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "dosing"
+      ],
       "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+        "Katzung16 ch58"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
-      "id": "p2-toxicology-068",
-      "type": "basic",
-      "front": "What role does activated charcoal play in metal phosphide ingestion?",
-      "back": "It is described as beneficial for reducing toxicity. Evidence for coconut oil and potassium permanganate lavage is lacking.",
+      "id": "p2-toxicology-118",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "front": "Short note: Snake envenomation (rattlesnake)",
+      "sections": [
+        {
+          "h": "Features",
+          "points": [
+            "Severe pain, swelling, haemorrhagic bleb, fang marks",
+            "Systemic: nausea, vomiting, fasciculations, shock, coagulopathy, low platelets"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Avoid incision, suction, tourniquets and ice (more harm than good)",
+            "Limit unnecessary movement",
+            "Definitive treatment: intravenous antivenom"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "uses"
+      ],
       "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+        "Katzung16 ch58"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-069",
-      "type": "basic",
-      "front": "What is the evidence for N-acetylcysteine in phosphide poisoning?",
-      "back": "Used in some regimens for phosphide-related acute liver failure. A mortality benefit has not been proven.",
-      "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-antidotes",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-070",
-      "type": "basic",
-      "front": "What is the evidence for pralidoxime in phosphide poisoning?",
-      "back": "Animal data only so far: rat survival rose at 10 mg/kg of aluminium phosphide. Benefit in humans has not been studied.",
-      "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-antidotes",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-071",
-      "type": "basic",
-      "front": "Where should phosphide-poisoned patients be managed, and why?",
-      "back": "In an ICU, because of the high risk of multi-organ failure and death.",
-      "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-072",
-      "type": "basic",
-      "front": "What is the first step after inhaling phosphine?",
-      "back": "Move the person away from the source and give supplemental oxygen if needed.",
-      "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-073",
-      "type": "basic",
-      "front": "What share of pesticide poisonings at PGI Chandigarh (1990 to 2004) was aluminium phosphide?",
-      "back": "About 26%. It had the highest case fatality of the agents studied there.",
-      "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-074",
-      "type": "basic",
-      "front": "Zinc phosphide poisoning: what mortality range is reported?",
-      "back": "37% to 100%.",
-      "refs": [
-        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p2-toxicology-075",
@@ -1602,7 +1619,940 @@
       "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-toxicology-036",
+      "type": "cloze",
+      "front": "Complete: chelator choice in metal poisoning",
+      "text": "Lead: {{calcium disodium EDTA}} or oral {{succimer}}. Acute arsenic: {{unithiol}} or dimercaprol. Acute inorganic mercury: unithiol, dimercaprol or succimer. Acute iron: {{desferrioxamine}}. Copper and Wilson disease: {{penicillamine}}. Dimercaprol is contraindicated in {{iron}} and {{cadmium}} poisoning because its complexes are toxic.",
+      "refs": [
+        "Katzung16 ch57",
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "tags": [
+        "poisoning",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-103",
+      "type": "cloze",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Complete: chelators in lead and metal poisoning",
+      "text": "In lead poisoning the main chelator is {{CaNa2EDTA}}, and {{dimercaprol}} is added as an adjuvant in severe cases. {{Succimer}} is an oral option; penicillamine is the drug of choice for {{copper}} poisoning.",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-128",
+      "type": "basic",
+      "front": "Which chelator is used in Wilson disease and copper poisoning?",
+      "back": "Penicillamine, which chelates copper.",
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "tags": [
+        "uses",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-031",
+      "type": "shortnote",
+      "front": "Short note: Lead poisoning",
+      "sections": [
+        {
+          "h": "Exposure and kinetics",
+          "points": [
+            "Inhaled dust (industry) or ingestion; adults absorb 10-15%, young children up to 50%",
+            "About 99% of blood lead in red cells; over 90% of adult body burden in bone (half-life years)"
+          ]
+        },
+        {
+          "h": "Nervous system",
+          "points": [
+            "Developing brain most sensitive; no safe threshold in children",
+            "Encephalopathy at very high levels; motor neuropathy with wrist drop"
+          ]
+        },
+        {
+          "h": "Blood",
+          "points": [
+            "Blocks ALA dehydratase and ferrochelatase: raised zinc protoporphyrin, anaemia, basophilic stippling"
+          ]
+        },
+        {
+          "h": "Other",
+          "points": [
+            "Lead colic, gingival lead line",
+            "Nephropathy, saturnine gout",
+            "Hypertension, cardiovascular mortality; miscarriage, reduced sperm"
+          ]
+        },
+        {
+          "h": "Diagnosis",
+          "points": [
+            "Whole blood lead"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-032",
+      "type": "basic",
+      "front": "How is inorganic lead poisoning treated?",
+      "back": "Stop exposure and give supportive care. Encephalopathy is an emergency: treat cerebral oedema and seizures, and chelate with IV calcium disodium EDTA (some start with IM dimercaprol, then both together). Parenteral chelation is limited to 5 days, then oral succimer. Blood lead may rebound as bone lead re-equilibrates. Chelation of asymptomatic children with moderate levels did not improve cognition.",
+      "refs": [
+        "Katzung16 ch57",
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-033",
+      "type": "shortnote",
+      "front": "Short note: Arsenic poisoning",
+      "sections": [
+        {
+          "h": "Sources",
+          "points": [
+            "Groundwater (Ganges delta of India and Bangladesh), wood preservatives, semiconductors, herbicides"
+          ]
+        },
+        {
+          "h": "Acute",
+          "points": [
+            "Gastroenteritis, capillary leak, shock; QT prolongation and arrhythmias",
+            "Pancytopenia within a week; ascending sensorimotor neuropathy after 2-6 weeks; Mees lines on nails"
+          ]
+        },
+        {
+          "h": "Chronic",
+          "points": [
+            "Raindrop hyperpigmentation, palm-sole hyperkeratosis, stocking-glove neuropathy",
+            "Cancer of lung, skin and bladder; peripheral vascular disease"
+          ]
+        },
+        {
+          "h": "Diagnosis",
+          "points": [
+            "Urine arsenic (avoid seafood for 3 days before testing); hair and nails for past exposure"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Acute: decontamination, intensive care, prompt unithiol IV or dimercaprol IM",
+            "Chronic: stop exposure; chelation unproven"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-034",
+      "type": "basic",
+      "front": "How does arsine gas poisoning differ from other arsenic poisoning?",
+      "back": "Arsine causes massive intravascular haemolysis after a 2-24 h latent period, with jaundice, haemoglobinuria and oliguric renal failure. Chelators are of no proven value; treatment is supportive with exchange transfusion, hydration and haemodialysis.",
+      "refs": [
+        "Katzung16 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-035",
+      "type": "shortnote",
+      "front": "Short note: Mercury poisoning",
+      "sections": [
+        {
+          "h": "Elemental vapour",
+          "points": [
+            "Inhaled; acute pneumonitis",
+            "Chronic triad: intention tremor, erethism (shyness, irritability), gingivostomatitis"
+          ]
+        },
+        {
+          "h": "Inorganic salts",
+          "points": [
+            "Mercuric chloride: corrosive haemorrhagic gastroenteritis, then acute tubular necrosis"
+          ]
+        },
+        {
+          "h": "Methylmercury",
+          "points": [
+            "Minamata Bay; fish",
+            "Paraesthesias, ataxia, hearing loss, dysarthria, constricted visual fields",
+            "Teratogen: cerebral palsy-like syndrome in offspring"
+          ]
+        },
+        {
+          "h": "Acrodynia",
+          "points": [
+            "Painful red extremities in children with subacute or chronic exposure"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Acute inorganic: early unithiol, dimercaprol or succimer, hydration, dialysis if renal failure",
+            "Avoid dimercaprol in chronic elemental or organic mercury: it redistributes mercury to the brain"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-037",
+      "type": "basic",
+      "front": "What general principles limit chelation therapy?",
+      "back": "Benefit falls rapidly as the time from exposure grows; metal held long in an organ (e.g. lead in bone) is removed poorly; chelators can redistribute metal to vital organs (dimercaprol moves mercury and arsenic into the brain; chelators move cadmium into the kidney); and essential metals are lost (zinc with calcium EDTA, zinc and copper with succimer).",
+      "refs": [
+        "Katzung16 ch57",
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "tags": [
+        "poisoning",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-093",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Short note: Dimercaprol (BAL)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Oily dithiol chelator; two SH groups bind arsenic, mercury and similar metals",
+            "Developed as an antidote to the arsenical war gas lewisite"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Acute arsenic, inorganic mercury, gold, bismuth, nickel, antimony poisoning",
+            "Adjunct to CaNa2EDTA in severe lead poisoning"
+          ]
+        },
+        {
+          "h": "Dose and route",
+          "points": [
+            "5 mg/kg IM stat, then 2-3 mg/kg every 4-8 h for 2 days",
+            "Given IM as 10% in peanut oil"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Contraindicated in iron and cadmium poisoning (complexes are toxic)",
+            "Hypertension, tachycardia, vomiting; antihistamine given before reduces these"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch68",
+        "Katzung16 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-094",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Short note: Succimer (DMSA)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Water-soluble analogue of dimercaprol",
+            "Orally effective"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "FDA approved for children with blood lead above 45 mcg/dL",
+            "Used in arsenic and mercury poisoning; dimercaprol-like action on sulfhydryl enzymes"
+          ]
+        },
+        {
+          "h": "Dose and adverse effects",
+          "points": [
+            "Typical dose 10 mg/kg orally three times a day",
+            "Nausea and anorexia; may mildly increase zinc and copper excretion"
+          ]
+        }
+      ],
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "refs": [
+        "Katzung16 ch57",
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-095",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Short note: Calcium disodium EDTA (edetate calcium disodium)",
+      "sections": [
+        {
+          "h": "Why calcium salt",
+          "points": [
+            "Calcium form protects against calcium depletion and tetany",
+            "Disodium EDTA IV bolus causes tetany"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Main drug for lead poisoning",
+            "Also zinc, manganese, cadmium and some radionuclides"
+          ]
+        },
+        {
+          "h": "Regimen",
+          "points": [
+            "1 g in 200-300 mL saline or glucose, infused over 1 h, twice daily for 3-5 days"
+          ]
+        },
+        {
+          "h": "Toxicity and limits",
+          "points": [
+            "Proximal tubular necrosis; reduce with high urine flow",
+            "Febrile reaction and anaphylactoid reactions reported",
+            "Avoid in anuria; poor oral absorption, so IV only"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch68",
+        "Katzung16 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-096",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Short note: Penicillamine as a chelator",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "D-isomer used; a degradation product of penicillin",
+            "Chelates copper, mercury, lead and zinc"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Wilson disease; drug of choice for copper poisoning",
+            "Alternative to dimercaprol or succimer for mercury",
+            "Cystinuria: soluble penicillamine-cysteine complex",
+            "Scleroderma: increases soluble collagen"
+          ]
+        },
+        {
+          "h": "Practice",
+          "points": [
+            "Take 1 h before or 2 h after meals",
+            "Short-term use mild; long-term causes dermatological, renal, haematological and collagen toxicity"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-097",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Short note: Desferrioxamine (deferoxamine)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Iron-chelating agent from an actinomycete; 1 g chelates about 85 mg iron",
+            "Poorly absorbed orally; given parenterally"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Acute iron poisoning, mainly in children; can be life-saving",
+            "Transfusion siderosis in thalassaemia: 0.5-1 g/day IM; or 2 g per unit of blood IV"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Histamine release: hypotension, flushing, itching, urticaria",
+            "Repeated use can change lens and retina"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch68",
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-098",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Short note: Deferiprone and deferasirox (oral iron chelators)",
+      "sections": [
+        {
+          "h": "Deferiprone",
+          "points": [
+            "Oral; 50-100 mg/kg daily in 2-4 divided doses",
+            "Simplifies transfusion siderosis; less effective than injected desferrioxamine",
+            "Adverse: anorexia, vomiting, joint pain, reversible neutropenia, rarely agranulocytosis"
+          ]
+        },
+        {
+          "h": "Deferasirox",
+          "points": [
+            "20 mg/kg once daily on an empty stomach, tablet dispersed in water or juice",
+            "Lowers serum ferritin in transfusion overload and non-transfusion dependent thalassaemia",
+            "Dose adjusted by serum ferritin"
+          ]
+        }
+      ],
+      "tags": [
+        "newer-drugs",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-099",
+      "type": "basic",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Why is CaNa2EDTA given IV and not orally?",
+      "back": "Poor oral absorption, and oral EDTA may increase lead absorption from the gut. It is given by slow infusion.",
+      "tags": [
+        "pk"
+      ],
+      "refs": [
+        "Katzung16 ch57",
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-100",
+      "type": "basic",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Why is dimercaprol contraindicated in iron and cadmium poisoning?",
+      "back": "The dimercaprol-iron and dimercaprol-cadmium complexes are themselves toxic.",
+      "tags": [
+        "contraindications"
+      ],
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-101",
+      "type": "basic",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Why is dimercaprol avoided in chronic elemental or methylmercury exposure?",
+      "back": "It redistributes mercury to the central nervous system.",
+      "tags": [
+        "adr"
+      ],
+      "refs": [
+        "Katzung16 ch57"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-102",
+      "type": "basic",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Why must chelation start as early as possible after an acute metal exposure?",
+      "back": "Metal is still in accessible pools. Metal already in slowly exchanging tissue, such as long half-life stores, is removed less effectively.",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "Katzung16 ch57",
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-104",
+      "type": "essay",
+      "subtopic": "p2-toxicology-heavy-metals",
+      "front": "Essay: Chelation therapy in heavy metal poisoning",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Chelator binds metal as a ring; 5-7 membered ring most stable",
+            "Ligands are O, N or S atoms",
+            "Water-soluble complex excreted in urine"
+          ]
+        },
+        {
+          "h": "Choice of agent",
+          "points": [
+            "Dimercaprol: arsenic, mercury, gold; adjunct in lead",
+            "CaNa2EDTA: lead",
+            "Succimer: lead in children, oral",
+            "Penicillamine: copper, Wilson disease",
+            "Desferrioxamine, deferiprone, deferasirox: iron"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Efficacy falls as time from exposure increases",
+            "Redistribution to other organs (dimercaprol)",
+            "Depletes zinc and copper (EDTA, succimer, penicillamine)"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "classification"
+      ],
+      "refs": [
+        "Katzung16 ch57",
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p2-toxicology-042",
+      "type": "basic",
+      "front": "Name classic environmental chemical disasters and their toxins.",
+      "back": "Bhopal, India (1984): methyl isocyanate, almost 4000 deaths and over half a million injured. Minamata, Japan: methylmercury in seafood. Itai-itai disease, Japan: cadmium in water. Seveso, Italy (1976): dioxin. Yusho (Japan) and Yucheng (Taiwan): PCB-contaminated cooking oil.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-124",
+      "type": "basic",
+      "front": "Why is carbon monoxide dangerous even when inspired oxygen is normal?",
+      "back": "CO binds haemoglobin about 220 times more avidly than oxygen and also impairs release of O2 from the remaining haemoglobin, so tissues are starved while PO2 and pulse oximetry can look normal.",
+      "refs": [
+        "Katzung16 ch56",
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "mechanism",
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-125",
+      "type": "basic",
+      "front": "Which enzyme does cyanide inhibit and what is the hallmark result?",
+      "back": "Cyanide binds ferric iron of cytochrome oxidase, so cells cannot use oxygen: lactic acidosis with high venous oxygen content, seizures, coma and collapse.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "mechanism",
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-126",
+      "type": "basic",
+      "front": "Antidote for carbon monoxide poisoning?",
+      "back": "100% oxygen, which cuts the CO half-time from about 320 min on room air to about 80 min; hyperbaric oxygen shortens it further.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-038",
+      "type": "basic",
+      "front": "Carbon monoxide poisoning: mechanism, features and treatment.",
+      "back": "CO binds haemoglobin about 220 times more avidly than oxygen and impairs O2 release from the remaining haemoglobin. Headache and malaise at lower carboxyhaemoglobin, syncope around 40%, death above 60%. Pulse oximetry and PO2 can be falsely normal. Give 100% oxygen: CO half-time falls from about 320 min on room air to about 80 min; hyperbaric oxygen shortens it further and is favoured in pregnancy.",
+      "refs": [
+        "Katzung16 ch56",
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-039",
+      "type": "basic",
+      "front": "Cyanide poisoning: mechanism and antidotes.",
+      "back": "Cyanide binds ferric iron of cytochrome oxidase, blocking cellular oxygen use: lactic acidosis, seizures, coma and collapse, with high venous O2 content. Sources: fires (plastics, wool), cassava, fruit seeds. Antidotes: hydroxocobalamin (forms cyanocobalamin), or sodium nitrite (methaemoglobin binds cyanide) with sodium thiosulfate (helps rhodanese form thiocyanate).",
+      "refs": [
+        "Katzung16 ch58",
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-040",
+      "type": "shortnote",
+      "front": "Short note: Air pollutants and their health effects",
+      "sections": [
+        {
+          "h": "Sulfur dioxide",
+          "points": [
+            "Highly soluble: forms sulfurous acid in the upper airway",
+            "Bronchoconstriction, bronchorrhoea; asthmatics very sensitive"
+          ]
+        },
+        {
+          "h": "Nitrogen dioxide",
+          "points": [
+            "Poorly soluble deep-lung irritant: pulmonary oedema, ARDS",
+            "Silo-filler's disease; late bronchiolitis obliterans"
+          ]
+        },
+        {
+          "h": "Ozone",
+          "points": [
+            "Ground-level ozone from NOx and organic compounds in sunlight",
+            "Free-radical injury, airway hyperresponsiveness, pulmonary oedema at high levels"
+          ]
+        },
+        {
+          "h": "Particulate matter",
+          "points": [
+            "PM10 deposits in upper airways; PM2.5 reaches gas-exchange areas",
+            "Worsens asthma and COPD; linked to cardiovascular mortality"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "No specific antidote: supportive airway care, reduce outdoor exposure, masks and air filtration"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-041",
+      "type": "basic",
+      "front": "Differentiate bioaccumulation and biomagnification.",
+      "back": "Bioaccumulation: a persistent chemical builds up in an organism when intake exceeds metabolism and excretion (e.g. organochlorines in body fat). Biomagnification: concentration rises at each step up the food chain; PCBs in the Great Lakes rose almost 50,000-fold from phytoplankton to herring gulls.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-056",
+      "type": "basic",
+      "front": "Halogenated hydrocarbon solvents (carbon tetrachloride, chloroform, trichloroethylene): which organs do they injure, and is there a specific treatment?",
+      "back": "They depress the CNS and damage the liver and kidney (cardiotoxicity is seen in animals), and several are probable human carcinogens. There is no specific treatment, so management follows the organ involved.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-106",
+      "type": "basic",
+      "subtopic": "p2-toxicology-gases",
+      "front": "Why does cyanide cause lactic acidosis even when oxygen is available?",
+      "back": "Cyanide binds cytochrome oxidase in mitochondria, so cells cannot use oxygen. They switch to anaerobic metabolism and produce lactate.",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-107",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-gases",
+      "front": "Short note: Cyanide poisoning and antidotes",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Binds ferric iron of cytochrome oxidase",
+            "Cellular hypoxia despite normal oxygen tension"
+          ]
+        },
+        {
+          "h": "Features",
+          "points": [
+            "Shortness of breath, agitation, tachycardia, then seizures, coma, hypotension"
+          ]
+        },
+        {
+          "h": "Antidotes",
+          "points": [
+            "Hydroxocobalamin (Cyanokit) 5 g IV over 15 min; converts cyanide to cyanocobalamin",
+            "Conventional kit: nitrite (methaemoglobin binds cyanide) plus thiosulfate (to thiocyanate)"
+          ]
+        },
+        {
+          "h": "Charcoal",
+          "points": [
+            "Binds cyanide poorly; may reduce absorption"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-108",
+      "type": "shortnote",
+      "subtopic": "p2-toxicology-gases",
+      "front": "Short note: Irritant gases (chlorine, ammonia, sulfur dioxide, nitrogen oxides)",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Corrosive effect on upper and lower airways"
+          ]
+        },
+        {
+          "h": "Features",
+          "points": [
+            "Cough, stridor, wheezing, pneumonia"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Humidified oxygen",
+            "Bronchodilators",
+            "Supportive care"
+          ]
+        }
+      ],
+      "tags": [
+        "poisoning"
+      ],
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-127",
+      "type": "basic",
+      "front": "Compare carbon monoxide and cyanide: both block oxygen delivery or use, so how do mechanism, bedside clues and antidotes differ?",
+      "back": "CO: binds haemoglobin, reduces O2 carriage and release; pulse oximetry and PO2 misleading; treat with 100% (or hyperbaric) oxygen. Cyanide: binds cytochrome oxidase so O2 is not used; lactic acidosis with high venous O2; treat with hydroxocobalamin, or sodium nitrite (methaemoglobin traps cyanide) plus sodium thiosulfate (rhodanese forms thiocyanate). Both cause cellular hypoxia, a major route to death in poisoning.",
+      "refs": [
+        "Katzung16 ch56",
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-gases",
+      "tags": [
+        "mechanism",
+        "poisoning"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-toxicology-073",
+      "type": "basic",
+      "front": "What share of pesticide poisonings at PGI Chandigarh (1990 to 2004) was aluminium phosphide?",
+      "back": "About 26%. It had the highest case fatality of the agents studied there.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-076",
@@ -1617,82 +2567,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-077",
-      "type": "basic",
-      "front": "Which national centre gives round-the-clock poisoning advice in India?",
-      "back": "The National Poisons Information Centre (NPIC) at AIIMS, New Delhi. It was set up in 1995 in the Department of Pharmacology.",
-      "refs": [
-        "WEB AIIMS NPIC Introduction (National Poisons Information Centre) https://www.aiims.edu/index.php/en/npic_intro"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-078",
-      "type": "basic",
-      "front": "What are the NPIC helpline numbers and hours?",
-      "back": "Toll-free 1800 116 117; telephone 26589391 or 26593677. Open 24 hours a day, all year.",
-      "refs": [
-        "WEB AIIMS NPIC Introduction (National Poisons Information Centre) https://www.aiims.edu/index.php/en/npic_intro"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-079",
-      "type": "basic",
-      "front": "What does NPIC advise when poisoning is suspected?",
-      "back": "Do not wait for symptoms, do not treat the person yourself, and take them to the nearest health facility.",
-      "refs": [
-        "WEB AIIMS NPIC Introduction (National Poisons Information Centre) https://www.aiims.edu/index.php/en/npic_intro"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-080",
-      "type": "cloze",
-      "front": "Complete: National Poisons Information Centre",
-      "text": "The National Poisons Information Centre was set up in {{1995}} in the Department of {{Pharmacology}} at {{AIIMS}}, New Delhi.",
-      "refs": [
-        "WEB AIIMS NPIC Introduction (National Poisons Information Centre) https://www.aiims.edu/index.php/en/npic_intro"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-management",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p2-toxicology-081",
-      "type": "basic",
-      "front": "Insecticides Act 1968: what is its main purpose?",
-      "back": "To regulate import, manufacture, sale, transport, distribution and use of insecticides, to prevent risk to humans or animals.",
-      "refs": [
-        "WEB Govt of India Insecticides Act 1968 (Act 46 of 1968) https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 1
     },
     {
       "id": "p2-toxicology-082",
@@ -1707,7 +2583,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-083",
@@ -1722,7 +2599,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-084",
@@ -1737,7 +2615,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-085",
@@ -1752,7 +2631,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-086",
@@ -1767,7 +2647,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-087",
@@ -1782,7 +2663,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-088",
@@ -1797,7 +2679,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-089",
@@ -1812,7 +2695,8 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-toxicology-090",
@@ -1827,7 +2711,211 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-092",
+      "type": "cloze",
+      "front": "Complete: Insecticides Act",
+      "text": "Insecticides must be {{registered}} before import or manufacture; selling them needs a {{licence}}; the {{Central Insecticides Board}} advises on technical matters.",
+      "refs": [
+        "WEB Govt of India Insecticides Act 1968 (Act 46 of 1968) https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-043",
+      "type": "basic",
+      "front": "Organochlorine pesticides: groups, mechanism and toxicity.",
+      "back": "Groups: DDT and analogues, benzene hexachlorides, cyclodienes, toxaphenes. They delay sodium channel inactivation, causing repetitive neuronal firing and CNS stimulation: tremor (DDT) or convulsions first. No specific treatment. They persist, bioaccumulate in fat and act as endocrine disrupters, so most are banned.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-044",
+      "type": "basic",
+      "front": "How do carbamate pesticides differ from organophosphates?",
+      "back": "Carbamates carbamoylate the cholinesterase esteratic site; binding is weaker and reverses within minutes to hours, so poisoning is shorter and the enzyme recovers spontaneously faster. Organophosphates bind more lastingly but are not persistent in the environment (hydrolysis and photolysis), unlike organochlorines.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-045",
+      "type": "shortnote",
+      "front": "Short note: Paraquat poisoning",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Single-electron reduction to free radicals; probably inhibits superoxide dismutase",
+            "Actively concentrated in the lung"
+          ]
+        },
+        {
+          "h": "Course",
+          "points": [
+            "Early haematemesis and bloody stools",
+            "Days later: haemorrhagic pulmonary oedema, then progressive fibrosis; liver, kidney, heart involvement; death after weeks"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Bind early with adsorbents (Fuller's earth, activated charcoal); no gastric lavage",
+            "Use oxygen cautiously as it worsens lung injury",
+            "Steroids, cyclophosphamide, antioxidants of unproven value; high fatality"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch56",
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-046",
+      "type": "basic",
+      "front": "Glyphosate herbicide poisoning: features.",
+      "back": "Common in suicidal ingestions in developing countries. Eye and skin irritant; ingestion causes oesophageal erosion, aspiration pneumonia and renal failure, partly due to the surfactant in formulations. Treatment is symptomatic (dialysis for renal failure). IARC lists glyphosate as probably carcinogenic (2A), with an association with non-Hodgkin lymphoma.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-047",
+      "type": "basic",
+      "front": "Pyrethroid insecticides: toxicity and treatment.",
+      "back": "Mainly irritant and allergic: eye, skin and airway irritation, irritant asthma, rarely anaphylaxis, and cutaneous paraesthesias in sprayers; severe exposures can cause convulsions. Treatment is symptomatic; ivermectin, pentobarbital and mephenesin have been used.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-048",
+      "type": "basic",
+      "front": "Polychlorinated biphenyls (PCBs): why a concern?",
+      "back": "Stable, lipophilic, poorly metabolised industrial chemicals that bioaccumulate (food, especially fish, is the main source). Exposure causes chloracne and other skin changes, liver abnormalities and raised triglycerides; they are endocrine disrupters, prenatal exposure is linked to cognitive deficits, and some are IARC class 1 carcinogens.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-057",
+      "type": "basic",
+      "front": "Why are perfluoro compounds (PFAS, such as PFOA) a concern?",
+      "back": "They are persistent, accumulate in humans and wildlife, and spread through water and the food chain. PFOA has an estimated human half-life of about 3 years, and it acts as an endocrine disruptor.",
+      "refs": [
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-062",
+      "type": "basic",
+      "front": "Aluminium and zinc phosphide: which toxic gas do they release, and what speeds the reaction?",
+      "back": "Phosphine gas. Phosphides react with water and acid to release it, and acid makes the reaction much faster.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-074",
+      "type": "basic",
+      "front": "Zinc phosphide poisoning: what mortality range is reported?",
+      "back": "37% to 100%.",
+      "refs": [
+        "WEB NCBI-PMC Rodenticide Poisoning (D'Silva and Krishna, Indian J Crit Care Med) 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6996659/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-081",
+      "type": "basic",
+      "front": "Insecticides Act 1968: what is its main purpose?",
+      "back": "To regulate import, manufacture, sale, transport, distribution and use of insecticides, to prevent risk to humans or animals.",
+      "refs": [
+        "WEB Govt of India Insecticides Act 1968 (Act 46 of 1968) https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
     },
     {
       "id": "p2-toxicology-091",
@@ -1878,855 +2966,926 @@
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-toxicology-092",
-      "type": "cloze",
-      "front": "Complete: Insecticides Act",
-      "text": "Insecticides must be {{registered}} before import or manufacture; selling them needs a {{licence}}; the {{Central Insecticides Board}} advises on technical matters.",
+      "id": "p2-toxicology-129",
+      "type": "basic",
+      "front": "Compare organophosphate, carbamate, organochlorine and pyrethroid pesticide toxicity: mechanism, duration and treatment.",
+      "back": "Organophosphates and carbamates inhibit cholinesterase; carbamate binding is weaker and reverses within minutes to hours, OPs bind more lastingly (atropine plus pralidoxime for OP; pralidoxime has no proven benefit in carbamates). Organochlorines delay sodium channel inactivation giving CNS stimulation and convulsions, persist in fat, are endocrine disrupters and have no specific treatment. Pyrethroids are mainly irritant and allergic, treated symptomatically.",
       "refs": [
-        "WEB Govt of India Insecticides Act 1968 (Act 46 of 1968) https://development.delhi.gov.in/sites/default/files/development/pdf_files/the_insecticidesact-1968.pdf"
+        "Katzung16 ch56",
+        "Katzung16 ch58"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p2-toxicology-pesticides",
       "tags": [
-        "classification"
-      ]
+        "mechanism",
+        "poisoning"
+      ],
+      "level": 3
     },
     {
-      "id": "p2-toxicology-093",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Short note: Dimercaprol (BAL)",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Oily dithiol chelator; two SH groups bind arsenic, mercury and similar metals",
-            "Developed as an antidote to the arsenical war gas lewisite"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Acute arsenic, inorganic mercury, gold, bismuth, nickel, antimony poisoning",
-            "Adjunct to CaNa2EDTA in severe lead poisoning"
-          ]
-        },
-        {
-          "h": "Dose and route",
-          "points": [
-            "5 mg/kg IM stat, then 2-3 mg/kg every 4-8 h for 2 days",
-            "Given IM as 10% in peanut oil"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Contraindicated in iron and cadmium poisoning (complexes are toxic)",
-            "Hypertension, tachycardia, vomiting; antihistamine given before reduces these"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
+      "id": "p2-toxicology-130",
+      "type": "basic",
+      "front": "What is ecotoxicology?",
+      "back": "The study of how chemical pollutants harm populations, communities and ecosystems, and how those agents move through the environment. Traditional toxicology focuses on single organisms.",
       "refs": [
-        "KDT8 ch68",
-        "Katzung16 ch57"
+        "Katzung16 ch56"
       ],
       "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1,
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-094",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Short note: Succimer (DMSA)",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Water-soluble analogue of dimercaprol",
-            "Orally effective"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "FDA approved for children with blood lead above 45 mcg/dL",
-            "Used in arsenic and mercury poisoning; dimercaprol-like action on sulfhydryl enzymes"
-          ]
-        },
-        {
-          "h": "Dose and adverse effects",
-          "points": [
-            "Typical dose 10 mg/kg orally three times a day",
-            "Nausea and anorexia; may mildly increase zinc and copper excretion"
-          ]
-        }
-      ],
-      "tags": [
-        "classification",
-        "uses"
-      ],
+      "id": "p2-toxicology-131",
+      "type": "basic",
+      "front": "What are PPCPs in environmental toxicology?",
+      "back": "Pharmaceutical and personal care products. Together with industrial and chemical pollutants they are often non-degradable and survive stomach acid, so they persist and spread through excreta, water and the food chain.",
       "refs": [
-        "Katzung16 ch57",
-        "KDT8 ch68"
+        "Sarkar p16-20"
       ],
       "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1,
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-095",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Short note: Calcium disodium EDTA (edetate calcium disodium)",
-      "sections": [
-        {
-          "h": "Why calcium salt",
-          "points": [
-            "Calcium form protects against calcium depletion and tetany",
-            "Disodium EDTA IV bolus causes tetany"
-          ]
-        },
-        {
-          "h": "Use",
-          "points": [
-            "Main drug for lead poisoning",
-            "Also zinc, manganese, cadmium and some radionuclides"
-          ]
-        },
-        {
-          "h": "Regimen",
-          "points": [
-            "1 g in 200-300 mL saline or glucose, infused over 1 h, twice daily for 3-5 days"
-          ]
-        },
-        {
-          "h": "Toxicity and limits",
-          "points": [
-            "Proximal tubular necrosis; reduce with high urine flow",
-            "Febrile reaction and anaphylactoid reactions reported",
-            "Avoid in anuria; poor oral absorption, so IV only"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
+      "id": "p2-toxicology-132",
+      "type": "basic",
+      "front": "Define bioaccumulation and biomagnification.",
+      "back": "Bioaccumulation: a persistent agent builds up in an organism's tissue (e.g. body fat) because it is released slowly. Biomagnification: its concentration rises at each step up the food chain, so animals near the top, including humans, carry the highest load.",
       "refs": [
-        "KDT8 ch68",
-        "Katzung16 ch57"
+        "Katzung16 ch56"
       ],
       "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1,
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-096",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Short note: Penicillamine as a chelator",
-      "sections": [
+      "id": "p2-toxicology-133",
+      "type": "essay",
+      "front": "Essay: Adverse impact of drugs in the ecosystem and preventive measures",
+      "pyq": [
         {
-          "h": "What",
-          "points": [
-            "D-isomer used; a degradation product of penicillin",
-            "Chelates copper, mercury, lead and zinc"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Wilson disease; drug of choice for copper poisoning",
-            "Alternative to dimercaprol or succimer for mercury",
-            "Cystinuria: soluble penicillamine-cysteine complex",
-            "Scleroderma: increases soluble collagen"
-          ]
-        },
-        {
-          "h": "Practice",
-          "points": [
-            "Take 1 h before or 2 h after meals",
-            "Short-term use mild; long-term causes dermatological, renal, haematological and collagen toxicity"
-          ]
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
         }
       ],
+      "subtopic": "p2-toxicology-pesticides",
       "tags": [
-        "uses",
-        "adr"
+        "poisoning"
       ],
-      "refs": [
-        "KDT8 ch68"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-097",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Short note: Desferrioxamine (deferoxamine)",
+      "level": 3,
       "sections": [
         {
-          "h": "What",
+          "h": "Introduction",
           "points": [
-            "Iron-chelating agent from an actinomycete; 1 g chelates about 85 mg iron",
-            "Poorly absorbed orally; given parenterally"
+            "Ecotoxicology covers effects on populations and ecosystems, not only individuals",
+            "Drugs and their metabolites reach the environment after use and disposal"
           ]
         },
         {
-          "h": "Uses",
+          "h": "Routes into the environment",
           "points": [
-            "Acute iron poisoning, mainly in children; can be life-saving",
-            "Transfusion siderosis in thalassaemia: 0.5-1 g/day IM; or 2 g per unit of blood IV"
+            "Excretion of unchanged drug and metabolites into sewage",
+            "Flushing unused or expired drugs down toilets and sinks",
+            "Direct discharge of manufacturing effluent; sludge spread on land and leaching"
           ]
         },
         {
           "h": "Adverse effects",
           "points": [
-            "Histamine release: hypotension, flushing, itching, urticaria",
-            "Repeated use can change lens and retina"
-          ]
-        }
-      ],
-      "tags": [
-        "poisoning",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch68",
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-098",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Short note: Deferiprone and deferasirox (oral iron chelators)",
-      "sections": [
-        {
-          "h": "Deferiprone",
-          "points": [
-            "Oral; 50-100 mg/kg daily in 2-4 divided doses",
-            "Simplifies transfusion siderosis; less effective than injected desferrioxamine",
-            "Adverse: anorexia, vomiting, joint pain, reversible neutropenia, rarely agranulocytosis"
+            "Persistence and re-entry into water supplies and the food chain",
+            "Chronic toxicity and microbial resistance; disruption of microbial ecosystems",
+            "Endocrine disruption, growth inhibition, cytotoxicity, mutagenicity and teratogenicity in animals, plants and humans",
+            "Bioaccumulation in fat, then biomagnification up the food chain"
           ]
         },
         {
-          "h": "Deferasirox",
+          "h": "Preventive measures",
           "points": [
-            "20 mg/kg once daily on an empty stomach, tablet dispersed in water or juice",
-            "Lowers serum ferritin in transfusion overload and non-transfusion dependent thalassaemia",
-            "Dose adjusted by serum ferritin"
+            "Strict regulation of safe disposal of unused drugs",
+            "Controlled waste routes: incineration, landfill, immobilisation",
+            "Effluent control at manufacturing sites and monitoring after a drug is launched",
+            "Reduce exposure to persistent chemicals; risk assessment links exposure limits to laws"
           ]
         }
       ],
-      "tags": [
-        "newer-drugs",
-        "dosing"
-      ],
       "refs": [
-        "KDT8 ch68"
+        "Katzung16 ch56",
+        "Sarkar p16-20",
+        "Sarkar p21-25",
+        "GG14 ch76"
       ],
-      "pyq": [],
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-099",
-      "type": "basic",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Why is CaNa2EDTA given IV and not orally?",
-      "back": "Poor oral absorption, and oral EDTA may increase lead absorption from the gut. It is given by slow infusion.",
-      "tags": [
-        "pk"
+      "id": "p2-toxicology-134",
+      "type": "shortnote",
+      "front": "Short note: Biomagnification of persistent pollutants",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Rising concentration of a persistent agent at each higher trophic level"
+          ]
+        },
+        {
+          "h": "Why it happens",
+          "points": [
+            "Slow release from body fat keeps the agent in tissue",
+            "Persistent organochlorines accumulate in fat and are released over time"
+          ]
+        },
+        {
+          "h": "Public health",
+          "points": [
+            "Humans, near the top of the food chain, receive the highest exposure",
+            "Chronic effects reported include endocrine disruption and carcinogenesis"
+          ]
+        }
       ],
       "refs": [
-        "Katzung16 ch57",
-        "KDT8 ch68"
+        "Katzung16 ch56"
       ],
       "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2,
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-100",
+      "id": "p2-toxicology-135",
       "type": "basic",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Why is dimercaprol contraindicated in iron and cadmium poisoning?",
-      "back": "The dimercaprol-iron and dimercaprol-cadmium complexes are themselves toxic.",
-      "tags": [
-        "contraindications"
-      ],
+      "front": "Name two common routes by which drug residues reach water.",
+      "back": "Unused or expired drugs flushed down toilets and sinks, and direct release of manufacturing wastewater. Excreted drug and metabolites also reach sewage.",
       "refs": [
-        "KDT8 ch68"
+        "Sarkar p16-20"
       ],
       "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 1,
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-101",
+      "id": "p2-toxicology-136",
       "type": "basic",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Why is dimercaprol avoided in chronic elemental or methylmercury exposure?",
-      "back": "It redistributes mercury to the central nervous system.",
-      "tags": [
-        "adr"
-      ],
+      "front": "What is an endocrine-disrupting chemical (EDC)?",
+      "back": "An agent that interferes with the endocrine system by altering hormone production, transport, stability, receptor binding or signalling. It can affect reproduction, development, cognition and metabolism.",
       "refs": [
-        "Katzung16 ch57"
+        "GG14 ch76"
       ],
       "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-102",
-      "type": "basic",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Why must chelation start as early as possible after an acute metal exposure?",
-      "back": "Metal is still in accessible pools. Metal already in slowly exchanging tissue, such as long half-life stores, is removed less effectively.",
+      "subtopic": "p2-toxicology-pesticides",
       "tags": [
         "mechanism"
       ],
-      "refs": [
-        "Katzung16 ch57",
-        "KDT8 ch68"
-      ],
-      "pyq": [],
+      "level": 1,
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-103",
-      "type": "cloze",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Complete: chelators in lead and metal poisoning",
-      "text": "In lead poisoning the main chelator is {{CaNa2EDTA}}, and {{dimercaprol}} is added as an adjuvant in severe cases. {{Succimer}} is an oral option; penicillamine is the drug of choice for {{copper}} poisoning.",
+      "id": "p2-toxicology-137",
+      "type": "basic",
+      "front": "Give examples of environmental EDCs.",
+      "back": "DDT and its metabolite DDE, PCBs, brominated flame retardants, phthalates, bisphenol A, and perfluoroalkyl substances (PFAS). Plant phytoestrogens and mycoestrogens also act on hormone pathways.",
+      "refs": [
+        "GG14 ch76",
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
       "tags": [
-        "classification"
+        "poisoning"
       ],
-      "refs": [
-        "KDT8 ch68"
-      ],
-      "pyq": [],
+      "level": 1,
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-104",
-      "type": "essay",
-      "subtopic": "p2-toxicology-heavy-metals",
-      "front": "Essay: Chelation therapy in heavy metal poisoning",
+      "id": "p2-toxicology-138",
+      "type": "shortnote",
+      "front": "Short note: DDT as an endocrine disruptor",
       "sections": [
         {
-          "h": "Principle",
+          "h": "Why it persists",
           "points": [
-            "Chelator binds metal as a ring; 5-7 membered ring most stable",
-            "Ligands are O, N or S atoms",
-            "Water-soluble complex excreted in urine"
+            "Efficacy, low volatility and lipid solubility; slow degradation",
+            "Metabolite DDE persists in humans and in the food chain"
           ]
         },
         {
-          "h": "Choice of agent",
+          "h": "Regulation",
           "points": [
-            "Dimercaprol: arsenic, mercury, gold; adjunct in lead",
-            "CaNa2EDTA: lead",
-            "Succimer: lead in children, oral",
-            "Penicillamine: copper, Wilson disease",
-            "Desferrioxamine, deferiprone, deferasirox: iron"
+            "Some EDCs have been banned, DDT among them"
+          ]
+        },
+        {
+          "h": "Current use",
+          "points": [
+            "Restricted use for domestic mosquito control in malaria areas of Africa"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch76",
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-139",
+      "type": "basic",
+      "front": "What reproductive effects are linked to bisphenol A?",
+      "back": "Men exposed to BPA show lower daily sperm production, sperm count and motility. Women of reproductive age with higher BPA show a shorter luteal phase. Associations with diabetes and thyroid dysfunction are correlational, and the studies are limited.",
+      "refs": [
+        "GG14 ch76"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "adr"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-140",
+      "type": "basic",
+      "front": "Why can EDC dose-response curves be U-shaped?",
+      "back": "Hormones and some endocrine disruptors, like essential metals, cause adverse effects at low doses, homeostasis at intermediate doses, and adverse effects again at high doses. So the dose-response is not a simple sigmoid.",
+      "refs": [
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-141",
+      "type": "essay",
+      "front": "Essay: Impact of endocrine disrupters on public health and strategies to overcome it",
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p2-toxicology-pesticides",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 3,
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "EDCs mimic, enhance or block hormone actions",
+            "Found in plastics, consumer products, pesticides and food"
+          ]
+        },
+        {
+          "h": "Mechanisms",
+          "points": [
+            "Bind or alter hormone receptors and their downstream signalling",
+            "Alter hormone production, secretion, transport or stability; epigenetic change"
+          ]
+        },
+        {
+          "h": "Public health impact",
+          "points": [
+            "Reproductive effects, such as lower sperm quality and altered luteal phase",
+            "Effects on development, cognition and metabolism",
+            "Thyroid dysfunction; links to breast and reproductive cancers are suggested, not proven"
+          ]
+        },
+        {
+          "h": "Strategies",
+          "points": [
+            "Reduce exposure, as prudence dictates for endocrine-disrupting environmental chemicals",
+            "Ban persistent agents such as DDT; prioritise and screen chemicals",
+            "Use animal studies alongside in vitro assays, which are unreliable alone for regulation",
+            "Integrate epidemiology and toxicology in risk assessment to set safe exposure limits"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch76",
+        "Katzung16 ch56"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-142",
+      "type": "basic",
+      "front": "What is the Ames test?",
+      "back": "A bacterial assay that tests whether a drug causes genetic damage (mutagenicity).",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "adr"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-143",
+      "type": "basic",
+      "front": "Name the three systems used to test mutagenicity.",
+      "back": "Bacteria (Ames test), mammalian cell cultures, and intact rodents.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "adr"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-144",
+      "type": "basic",
+      "front": "What is an in vitro model in toxicology?",
+      "back": "A test system made of cells or tissues outside the intact organism, such as bacterial or mammalian cell cultures or stem-cell-derived organoids.",
+      "refs": [
+        "KDT8 ch6",
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-145",
+      "type": "shortnote",
+      "front": "Short note: Stem-cell-derived organoids in toxicity testing",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Three-dimensional organoids made from human pluripotent stem cells"
+          ]
+        },
+        {
+          "h": "Limit",
+          "points": [
+            "In vitro assays alone are unreliable for regulatory purposes"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch1",
+        "Katzung16 ch56"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-146",
+      "type": "basic",
+      "front": "Why are animal studies still needed alongside in vitro assays?",
+      "back": "In vitro assays alone are unreliable for regulation, so animal studies are considered indispensable. Long-term whole-life rodent studies, under GLP, detect carcinogenicity.",
+      "refs": [
+        "Katzung16 ch56",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "adr"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-147",
+      "type": "essay",
+      "front": "Essay: In vitro model systems in toxicology",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 3,
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "In vitro systems test toxicity outside the intact organism",
+            "Toxicologists use lab studies to examine mechanisms and predict harm"
+          ]
+        },
+        {
+          "h": "Types",
+          "points": [
+            "Bacterial assays (Ames test) for mutagenicity",
+            "Mammalian cell cultures",
+            "Stem-cell-derived three-dimensional organoids"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Screening for genetic damage before whole-animal testing",
+            "Mechanistic study of toxic effects"
+          ]
+        },
+        {
+          "h": "Limits and role in regulation",
+          "points": [
+            "Unreliable alone for regulatory purposes",
+            "Animal studies, including long-term carcinogenicity tests under GLP, are indispensable"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6",
+        "GG14 ch1",
+        "GG14 ch76",
+        "Katzung16 ch56"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-148",
+      "type": "basic",
+      "front": "Which reactive oxygen species arise in toxicology, and what do they damage?",
+      "back": "Superoxide (O2-), produced in uncoupled CYP reactions, and hydroxyl radicals. They attack lipids, proteins and macromolecules, especially in biological membranes.",
+      "refs": [
+        "GG14 ch5",
+        "GG14 ch24"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-149",
+      "type": "basic",
+      "front": "What does superoxide dismutase do?",
+      "back": "It is an endogenous enzyme that converts superoxide, limiting its toxic effects.",
+      "refs": [
+        "GG14 ch5",
+        "GG14 ch24"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-150",
+      "type": "basic",
+      "front": "Name the endogenous enzymes that scavenge toxic oxygen by-products.",
+      "back": "Superoxide dismutase, glutathione peroxidase and catalase.",
+      "refs": [
+        "GG14 ch24"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-151",
+      "type": "basic",
+      "front": "Which endogenous reducing agents limit oxygen toxicity?",
+      "back": "Glutathione and ascorbate.",
+      "refs": [
+        "GG14 ch24"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-152",
+      "type": "basic",
+      "front": "Why does oxygen toxicity still occur despite endogenous defences?",
+      "back": "The defences are insufficient against high oxygen concentrations over an extended period, so toxicity still occurs.",
+      "refs": [
+        "GG14 ch24"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-153",
+      "type": "shortnote",
+      "front": "Short note: Glutathione and paracetamol toxicity",
+      "sections": [
+        {
+          "h": "Normal handling",
+          "points": [
+            "Reactive metabolite NAPQI is detoxified by conjugation with glutathione"
+          ]
+        },
+        {
+          "h": "Overdose",
+          "points": [
+            "Glucuronidation saturates, more NAPQI forms, hepatic glutathione is depleted",
+            "NAPQI then binds covalently to liver (and renal tubular) proteins"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch14"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-drug-overdose",
+      "tags": [
+        "poisoning",
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-154",
+      "type": "basic",
+      "front": "How do endogenous enzymes protect against anthracycline toxicity?",
+      "back": "Superoxide dismutase and catalase counter the free radicals that anthracyclines generate, especially with iron. Exogenous antioxidants such as alpha-tocopherol, or the iron chelator dexrazoxane, can augment this protection.",
+      "refs": [
+        "GG14 ch70"
+      ],
+      "pyq": [],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "adr"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-toxicology-155",
+      "type": "essay",
+      "front": "Essay: Endogenous antioxidants",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 3,
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Oxygen metabolism produces reactive oxygen species",
+            "Oxidative stress damages lipids, proteins and membranes"
+          ]
+        },
+        {
+          "h": "Enzymatic defences",
+          "points": [
+            "Superoxide dismutase converts superoxide",
+            "Glutathione peroxidase and catalase scavenge toxic by-products"
+          ]
+        },
+        {
+          "h": "Non-enzymatic defences",
+          "points": [
+            "Glutathione and ascorbate act as reducing agents"
+          ]
+        },
+        {
+          "h": "Role in drug toxicity",
+          "points": [
+            "Paracetamol: glutathione depletion by NAPQI",
+            "Anthracyclines: SOD and catalase protect against radicals"
           ]
         },
         {
           "h": "Limits",
           "points": [
-            "Efficacy falls as time from exposure increases",
-            "Redistribution to other organs (dimercaprol)",
-            "Depletes zinc and copper (EDTA, succimer, penicillamine)"
+            "Defences fail under high oxygen for long periods",
+            "Exogenous antioxidants can augment protection"
           ]
         }
       ],
-      "tags": [
-        "poisoning",
-        "classification"
-      ],
       "refs": [
-        "Katzung16 ch57",
-        "KDT8 ch68"
+        "GG14 ch5",
+        "GG14 ch24",
+        "GG14 ch70",
+        "KDT8 ch14"
       ],
-      "pyq": [],
       "status": "draft"
     },
     {
-      "id": "p2-toxicology-105",
+      "id": "p2-toxicology-156",
       "type": "basic",
-      "subtopic": "p2-toxicology-antidotes",
-      "front": "Pralidoxime: benefit in carbamate and organophosphate poisoning?",
-      "back": "No proven benefit in carbamate poisoning; uncertain benefit in established organophosphate poisoning.",
+      "front": "What is saturated (zero-order) elimination in overdose?",
+      "back": "Once a metabolic or excretory pathway is saturated, a fixed amount is cleared per unit time; ethanol at high intake is the classic example.",
+      "refs": [
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-principles",
       "tags": [
-        "poisoning"
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-157",
+      "type": "basic",
+      "front": "Why can a modified-release overdose look benign early and then turn toxic?",
+      "back": "Modified-release forms and drugs that slow gastric emptying delay the peak concentration, so symptoms appear late; observation must cover the expected peak time.",
+      "refs": [
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-principles",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-158",
+      "type": "essay",
+      "front": "Short note: Toxicokinetics and toxicodynamics in drug overdose",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Toxicokinetics: pharmacokinetics of a drug under toxic exposure; data mostly case reports and observational studies",
+            "Toxicodynamics: concentration-effect relation, including non-monotonic dose-response curves"
+          ]
+        },
+        {
+          "h": "Absorption",
+          "points": [
+            "Modified-release forms and slow gastric emptying delay the peak",
+            "Large acetaminophen ingestions can give two peaks 12 to 42 h apart"
+          ]
+        },
+        {
+          "h": "Distribution",
+          "points": [
+            "Protein binding saturates, raising the free fraction",
+            "Acidosis lowers tricyclic protein binding and increases toxicity",
+            "Large volume of distribution: poorly removed by haemodialysis"
+          ]
+        },
+        {
+          "h": "Metabolism and elimination",
+          "points": [
+            "Saturated pathways become zero order (ethanol; phenytoin at high levels)",
+            "Shunting to toxic pathways: acetaminophen to NAPQI, glutathione depletion",
+            "Active metabolites can be more potent (tramadol to M1)"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "Time to peak sets the observation period",
+            "Kinetic data guide decontamination and choice of enhanced elimination"
+          ]
+        }
       ],
       "refs": [
+        "GG14 ch9",
         "Katzung16 ch58"
       ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-106",
-      "type": "basic",
-      "subtopic": "p2-toxicology-gases",
-      "front": "Why does cyanide cause lactic acidosis even when oxygen is available?",
-      "back": "Cyanide binds cytochrome oxidase in mitochondria, so cells cannot use oxygen. They switch to anaerobic metabolism and produce lactate.",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-toxicology-principles",
       "tags": [
+        "pk",
         "mechanism"
       ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "level": 3
     },
     {
-      "id": "p2-toxicology-107",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-gases",
-      "front": "Short note: Cyanide poisoning and antidotes",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Binds ferric iron of cytochrome oxidase",
-            "Cellular hypoxia despite normal oxygen tension"
-          ]
-        },
-        {
-          "h": "Features",
-          "points": [
-            "Shortness of breath, agitation, tachycardia, then seizures, coma, hypotension"
-          ]
-        },
-        {
-          "h": "Antidotes",
-          "points": [
-            "Hydroxocobalamin (Cyanokit) 5 g IV over 15 min; converts cyanide to cyanocobalamin",
-            "Conventional kit: nitrite (methaemoglobin binds cyanide) plus thiosulfate (to thiocyanate)"
-          ]
-        },
-        {
-          "h": "Charcoal",
-          "points": [
-            "Binds cyanide poorly; may reduce absorption"
-          ]
-        }
-      ],
-      "tags": [
-        "poisoning",
-        "mechanism"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-108",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-gases",
-      "front": "Short note: Irritant gases (chlorine, ammonia, sulfur dioxide, nitrogen oxides)",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Corrosive effect on upper and lower airways"
-          ]
-        },
-        {
-          "h": "Features",
-          "points": [
-            "Cough, stridor, wheezing, pneumonia"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "Humidified oxygen",
-            "Bronchodilators",
-            "Supportive care"
-          ]
-        }
-      ],
-      "tags": [
-        "poisoning"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-109",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-management",
-      "front": "Short note: Anticholinergic (antimuscarinic) poisoning",
-      "sections": [
-        {
-          "h": "Features",
-          "points": [
-            "Red as a beet (flushed), hot as a hare (hyperthermia), dry as a bone (no sweating)",
-            "Blind as a bat (cycloplegia), mad as a hatter (confusion, delirium); sinus tachycardia, ileus"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Supportive care; benzodiazepine or antipsychotic for agitation",
-            "Physostigmine for severe peripheral or central effects, given slowly IV"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Do not give physostigmine in tricyclic overdose",
-            "Antihistamines and tricyclics are common causes"
-          ]
-        }
-      ],
-      "tags": [
-        "poisoning",
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-110",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-management",
-      "front": "Short note: Dextrose challenge and naloxone in altered consciousness",
-      "sections": [
-        {
-          "h": "Glucose first",
-          "points": [
-            "Hypoglycaemia mimics intoxication",
-            "Adults 25 g IV (50 mL of 50%); children 0.5 g/kg (2 mL/kg of 25%)",
-            "Unless a bedside test shows normal glucose"
-          ]
-        },
-        {
-          "h": "Naloxone",
-          "points": [
-            "0.4-2 mg IV, IM or SC for opioid poisoning",
-            "Larger doses for propoxyphene, codeine, fentanyl derivatives",
-            "Effect often shorter than the opioid; respiratory depression is the main killer"
-          ]
-        }
-      ],
-      "tags": [
-        "dosing",
-        "poisoning"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-111",
-      "type": "essay",
-      "subtopic": "p2-toxicology-management",
-      "front": "Essay: Toxidrome clues from the bedside examination",
-      "sections": [
-        {
-          "h": "Vital signs",
-          "points": [
-            "Hypertension and tachycardia: amphetamines, cocaine, antimuscarinics",
-            "Hypotension and bradycardia: calcium channel blockers, beta-blockers, clonidine, sedative-hypnotics"
-          ]
-        },
-        {
-          "h": "Eyes and skin",
-          "points": [
-            "Miosis: opioids, clonidine, phenothiazines, cholinesterase inhibitors",
-            "Mydriasis: amphetamines, cocaine, LSD, antimuscarinics",
-            "Sweating: organophosphates, nicotine, sympathomimetics"
-          ]
-        },
-        {
-          "h": "Abdomen and nervous system",
-          "points": [
-            "Ileus: antimuscarinic, opioid, sedative",
-            "Cramps and diarrhoea: organophosphates, iron, arsenic, theophylline",
-            "Nystagmus, ataxia: phenytoin, carbamazepine, alcohol"
-          ]
-        }
-      ],
-      "tags": [
-        "poisoning",
-        "uses"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-112",
+      "id": "p2-toxicology-159",
       "type": "basic",
-      "subtopic": "p2-toxicology-management",
-      "front": "Focal seizure or motor deficit in a poisoned patient suggests what?",
-      "back": "A structural lesion such as intracranial haemorrhage, not a toxic or metabolic cause.",
+      "front": "Which calcium channel blocker class causes vasodilatory hypotension with reflex tachycardia in overdose?",
+      "back": "Dihydropyridines (for example nifedipine and amlodipine), which act mainly on vascular channels.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "tags": [
+        "mechanism",
+        "poisoning"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-toxicology-160",
+      "type": "basic",
+      "front": "Which calcium channel blockers cause bradycardia and cardiogenic shock in overdose, and why are they more dangerous?",
+      "back": "Verapamil and diltiazem: they depress sinus node automaticity, slow AV conduction and reduce cardiac output.",
+      "refs": [
+        "Katzung16 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
         "poisoning"
       ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "level": 2
     },
     {
-      "id": "p2-toxicology-113",
+      "id": "p2-toxicology-161",
       "type": "basic",
-      "subtopic": "p2-toxicology-management",
-      "front": "Which drugs are listed as not removed by haemodialysis?",
-      "back": "Amphetamines, antidepressants, antipsychotics, benzodiazepines, calcium channel blockers, digoxin, metoprolol, propranolol, opioids.",
-      "tags": [
-        "uses"
-      ],
+      "front": "What early decontamination suits sustained-release calcium channel blocker overdose?",
+      "back": "Whole bowel irrigation plus oral activated charcoal as soon as possible, before calcium-antagonist ileus sets in.",
       "refs": [
         "Katzung16 ch58"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "subtopic": "p2-toxicology-drug-overdose",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
     },
     {
-      "id": "p2-toxicology-114",
-      "type": "essay",
-      "subtopic": "p2-toxicology-management",
-      "front": "Essay: Enhanced elimination of poisons",
-      "sections": [
-        {
-          "h": "Haemodialysis",
-          "points": [
-            "More efficient than peritoneal dialysis",
-            "Corrects fluid, electrolyte and acid-base; removes formic, oxalic and glycolic acids",
-            "Useful for carbamazepine, lithium, methanol, salicylate, theophylline, valproic acid"
-          ]
-        },
-        {
-          "h": "Other methods",
-          "points": [
-            "Peritoneal dialysis: inefficient for most drugs",
-            "Urinary alkalinisation: salicylate; acidification for phencyclidine and amphetamines",
-            "Forced diuresis: not recommended"
-          ]
-        },
-        {
-          "h": "Repeated charcoal",
-          "points": [
-            "Interrupts enterohepatic cycling and aids gut elimination",
-            "Used for carbamazepine, quinine, dapsone, salicylate"
-          ]
-        }
+      "id": "p2-toxicology-162",
+      "type": "basic",
+      "front": "Calcium in calcium channel blocker poisoning: dose and where it helps most?",
+      "back": "Intravenous calcium 2 to 10 g; it helps depressed contractility more than nodal block or peripheral vascular collapse.",
+      "refs": [
+        "Katzung16 ch58"
       ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-toxicology-drug-overdose",
       "tags": [
-        "poisoning",
         "dosing"
       ],
+      "level": 2
+    },
+    {
+      "id": "p2-toxicology-163",
+      "type": "basic",
+      "front": "High-dose insulin in calcium channel blocker poisoning: dose and essential co-treatment?",
+      "back": "Insulin 0.5 to 1 unit/kg/h for hypotension, with glucose to maintain euglycaemia.",
       "refs": [
         "Katzung16 ch58"
       ],
       "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-115",
-      "type": "shortnote",
+      "status": "draft",
       "subtopic": "p2-toxicology-drug-overdose",
-      "front": "Short note: Stimulant poisoning (amphetamine, cocaine, MDMA)",
-      "sections": [
-        {
-          "h": "Drugs",
-          "points": [
-            "Methamphetamine, MDMA (ecstasy), cocaine (crack); pseudoephedrine and ephedrine"
-          ]
-        },
-        {
-          "h": "Features",
-          "points": [
-            "Hypertension, tachycardia, agitation, acute psychosis",
-            "Seizures, hyperthermia and rhabdomyolysis from prolonged muscular hyperactivity"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "No specific antidote; supportive care",
-            "Seizures: IV benzodiazepines such as lorazepam",
-            "Severe hyperthermia is life-threatening and needs aggressive treatment"
-          ]
-        }
-      ],
       "tags": [
-        "poisoning",
-        "mechanism"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-116",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-drug-overdose",
-      "front": "Short note: Serotonin toxicity",
-      "sections": [
-        {
-          "h": "Causes",
-          "points": [
-            "SSRIs, especially combined with each other or with MAOIs"
-          ]
-        },
-        {
-          "h": "Features",
-          "points": [
-            "Agitation, muscle hyperactivity, hyperthermia",
-            "Generalised hypertonicity and lower-extremity clonus",
-            "Seizures possible"
-          ]
-        }
-      ],
-      "tags": [
-        "poisoning",
-        "adr"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-117",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-drug-overdose",
-      "front": "Short note: Theophylline poisoning",
-      "sections": [
-        {
-          "h": "Dose and features",
-          "points": [
-            "20-30 tablets can be fatal in an adult",
-            "Vomiting, sinus tachycardia, tremor; hypotension, hypokalaemia, hyperglycaemia"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "Repeated charcoal and whole bowel irrigation",
-            "Esmolol or propranolol for beta-mediated hypotension and tachycardia",
-            "Haemodialysis for severe cases"
-          ]
-        }
-      ],
-      "tags": [
-        "poisoning",
         "dosing"
       ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "level": 2
     },
     {
-      "id": "p2-toxicology-118",
-      "type": "shortnote",
-      "subtopic": "p2-toxicology-drug-overdose",
-      "front": "Short note: Snake envenomation (rattlesnake)",
+      "id": "p2-toxicology-164",
+      "type": "essay",
+      "front": "Essay: Clinical toxicity, common agents and calcium channel blocker toxicity",
       "sections": [
         {
-          "h": "Features",
+          "h": "Definition",
           "points": [
-            "Severe pain, swelling, haemorrhagic bleb, fang marks",
-            "Systemic: nausea, vomiting, fasciculations, shock, coagulopathy, low platelets"
+            "Clinical toxicology studies undesired drug effects in humans and the effects and treatment of poisoning",
+            "A poison is any substance whose exposure causes a damaging physiological effect"
+          ]
+        },
+        {
+          "h": "Common agents",
+          "points": [
+            "Pharmaceuticals and illicit drugs",
+            "Plants and botanicals",
+            "Chemicals and pollutants",
+            "Calcium channel blockers cause serious toxicity with relatively small overdoses"
+          ]
+        },
+        {
+          "h": "Calcium channel blocker toxicity",
+          "points": [
+            "Depress sinus node automaticity and slow AV conduction; reduce cardiac output and BP",
+            "Verapamil and diltiazem: bradycardia, hypotension, cardiogenic shock",
+            "Dihydropyridines: vasodilation, hypotension, reflex tachycardia",
+            "Massive overdose loses selectivity; all cardiovascular effects possible"
           ]
         },
         {
           "h": "Management",
           "points": [
-            "Avoid incision, suction, tourniquets and ice (more harm than good)",
-            "Limit unnecessary movement",
-            "Definitive treatment: intravenous antivenom"
+            "Supportive care; early whole bowel irrigation and oral activated charcoal",
+            "IV calcium 2 to 10 g; high-dose insulin 0.5 to 1 unit/kg/h with glucose",
+            "Glucagon, veno-arterial ECMO and methylene blue reported helpful; lipid emulsion from case reports only"
           ]
         }
       ],
-      "tags": [
-        "poisoning",
-        "uses"
-      ],
       "refs": [
-        "Katzung16 ch58"
+        "Katzung16 ch58",
+        "GG14 ch9"
       ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-119",
-      "type": "cloze",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
       "subtopic": "p2-toxicology-drug-overdose",
-      "front": "Complete: tricyclic antidepressant overdose",
-      "text": "Tricyclics widen the {{QRS}} complex beyond {{100 ms}}. Seizures reflect {{GABA-A}} antagonism, and dry mouth, tachycardia and dilated pupils reflect {{antimuscarinic}} action.",
       "tags": [
         "poisoning",
         "mechanism"
       ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-120",
-      "type": "basic",
-      "subtopic": "p2-toxicology-drug-overdose",
-      "front": "Antidote preferred to ethanol in methanol or ethylene glycol poisoning?",
-      "back": "Fomepizole: easier to use; ethanol gives blood levels that are difficult to keep safe.",
-      "tags": [
-        "newer-drugs"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-121",
-      "type": "basic",
-      "subtopic": "p2-toxicology-drug-overdose",
-      "front": "Is haemodialysis useful for opioid overdose?",
-      "back": "No: opioids are listed as not removed effectively by haemodialysis. Naloxone is the antidote.",
-      "tags": [
-        "poisoning"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "level": 3
     }
   ]
 }

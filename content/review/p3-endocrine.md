@@ -98,3 +98,75 @@ Book conflicts noted (no card changed):
 - Thyroid storm PTU dose: KDT8 ch18 says 200-300 mg 6-hourly; Katzung16 ch38 says 250 mg 4-hourly (card rf-p3-endocrine-0296 keeps Katzung, newest book wins).
 - Thioamide potency: already logged above (Katzung 10x vs KDT 5x).
 - hCG MW 38000 (KDT8 ch17) is hCG, not FSH; deck card on FSH ~33 kDa agrees with KDT8. No change.
+
+
+Difficulty ladder pass: explicit level set on all existing cards (ok, content unchanged).
+p3-endocrine-072 | new | KDT8 ch17
+p3-endocrine-073 | new | KDT8 ch17
+p3-endocrine-074 | new | KDT8 ch17
+p3-endocrine-075 | new | KDT8 ch17
+p3-endocrine-076 | new | KDT8 ch17
+p3-endocrine-077 | new | KDT8 ch17
+p3-endocrine-078 | new | KDT8 ch19
+p3-endocrine-079 | new | KDT8 ch19
+p3-endocrine-080 | new | KDT8 ch19
+p3-endocrine-081 | new | KDT8 ch19
+p3-endocrine-082 | new | KDT8 ch19
+p3-endocrine-083 | new | KDT8 ch19
+
+## Checker (independent pass, haiku)
+
+Checked 25 study cards: all 12 new ids (072-083), plus 063, 064, 040, 042, 045, 048, 003, 017, 021, 037, 044.
+
+| id | status | source |
+|---|---|---|
+| 063 | corrected (dose escalation: 5 mg after 4 weeks, then 2.5 mg steps) | Katzung16 ch41 |
+| 040 | corrected (onset 30 min is Katzung; KDT onset figure not found in ch19) | KDT8 ch19, Katzung16 ch41 |
+| 064, 045, 044, 042, 048, 037, 003, 017, 021, 072-083 | ok | KDT8 ch17/ch19, Katzung16 ch41, GG14 ch51 |
+
+Prep/RR5 refs: none in study or rapid decks.
+Ladder: every subtopic has at least 3 L1, 2 L2, 1 L3. Totals 31 L1, 41 L2, 11 L3 (writer reported 42 L2).
+Not done: full card-by-card audit of the 589-card rapid deck; PYQ tagging; no new exam-gap cards added.
+Validator --check: no errors mention p3-endocrine.
+
+## Gap pass: PYQ questions 64, 119, 368 (cards 084-097)
+
+| id | new | source |
+|---|---|---|
+| p3-endocrine-084 | new | GG14 ch47 |
+| p3-endocrine-085 | new | KDT8 ch18 |
+| p3-endocrine-086 | new | KDT8 ch18, GG14 ch47 |
+| p3-endocrine-087 | new | KDT8 ch18, GG14 ch47, KDT8 PDF p331 |
+| p3-endocrine-088 | new | Ghosh FEP p152, Sarkar p296-300 |
+| p3-endocrine-089 | new | Ghosh FEP p151, Medhi PMECP p50 |
+| p3-endocrine-090 | new | Ghosh FEP p151-152 |
+| p3-endocrine-091 | new | Sarkar p296-300 |
+| p3-endocrine-092 | new | Sarkar p296-300, Ghosh FEP p151-152, Medhi PMECP p22-23, Medhi PMECP p116-119 |
+| p3-endocrine-093 | new | Ghosh FEP p150-151 |
+| p3-endocrine-094 | new | Sarkar p346-350 |
+| p3-endocrine-095 | new | KDT8 ch22 |
+| p3-endocrine-096 | new | KDT8 ch22 |
+| p3-endocrine-097 | new | Sarkar p346-350, Ghosh FEP p150-151, KDT8 ch17, KDT8 ch22, KDT8 ch19, KDT8 PDF p106 |
+
+Gap questions: 64 (thyrotoxic crisis, RGUHS 2010 and 2019, 10 marks) to 087; 119 (NDDM new drug, UHSR 2025, 10 marks) to 092; 368 (evaluation of fertility drugs, Q bank paper I, 10 marks) to 097.
+Flag: 097 experimental half uses the antifertility screens in Ghosh FEP p150-151 and Sarkar p346-350 (same end points). No owner book was found describing a fertility-promoting screen, so this is an adaptation; owner to confirm.
+Q bank entry for 368 has no year, so pyq year is recorded as 0.
+
+## Checker (PYQ gap pass)
+Checked cards 084-097 against KDT8, GG14, Ghosh FEP, Sarkar and Medhi PDF/OCR text.
+- 086, 087: removed "iodide cannot restore euthyroidism" and "given with antithyroid drug" wording; not found in KDT8 ch18/PDF p292-294. Kept stop-release and T4-to-T3 points.
+- 087: removed "methimazole does not reduce conversion / PTU chosen in storm" claim; not in sources. PTU reduces conversion (KDT8 PDF p293) kept.
+- 094: front narrowed to antiovulatory models only (Sarkar p346-350 lists no ovulation-promoting model).
+- 096, 097: removed "no more than 6 cycles" (not in KDT8 ch22 PDF p350; only "daily dose doubled for 2-3 cycles" is printed).
+- 097: removed metformin sentence and KDT8 ch19 ref (not printed; GG14 PDF p999 is inconclusive).
+Verified: 084-085, 088-093, 095, 096 dose/timing, 097 clomiphene ADRs (KDT8 PDF p351), ladder minimums and validator clean.
+
+## Gap pass: past-exam questions 167 and 293 (writer)
+| id | new | source |
+|---|---|---|
+| p3-endocrine-098 | new essay L3, pyq RGUHS 2009 20 marks | KDT8 ch18 (PDF p281-283, p291), GG14 ch47 (PDF p961-962, p970) |
+
+- Q167 (RGUHS 2009, 20 marks, biosynthesis + thyrotoxicosis drug therapy): biosynthesis only had a basic card (015); thyrotoxicosis therapy is covered by 028, 029, 087. Added 098 as a combined 20-mark essay so the exam answer exists in one card. Pyq tag RGUHS 2009 20 marks.
+- Q293 (Q bank, GnRH analogues and antagonists, anticancer adverse-effect prevention): GnRH content already covered by 011, 014, 065, 066, 068; antagonist and agonist lists match KDT8 PDF p279 and GG14 PDF p1006. The anticancer half is out of this topic and is covered in p3-cancer-immuno (rescue agents, cardioprotection, antiemetics). No card added here.
+- Noted: the thyroid synthesis steps (KDT8 PDF p281-282) are already in rapid cards rf-p3-endocrine-0147 to 0161, so no new rapid pairs were added.
+- Validator: `node scripts/validate-content.mjs --check` returned "check ok".

@@ -410,6 +410,11 @@
           "university": "RGUHS",
           "year": 2019,
           "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
         }
       ],
       "status": "draft",
@@ -711,7 +716,7 @@
           "h": "Mechanism",
           "points": [
             "Inhibits Na+-K+-2Cl- cotransport in the thick ascending limb",
-            "Abolishes the medullary gradient and the lumen-positive potential, so Ca2+ and Mg2+ are lost too"
+            "Abolishes the lumen-positive potential difference in the TAL, so Ca2+ and Mg2+ are lost too"
           ]
         },
         {
@@ -982,7 +987,7 @@
           "h": "Distinctive effects",
           "points": [
             "Reduce Ca2+ excretion (loop drugs raise it); only drugs effective in nephrogenic DI",
-            "Slowly developing fall in BP; some have a weak proximal carbonic anhydrase action"
+            "Slowly developing fall in BP; metolazone also blocks proximal PO4 reabsorption"
           ]
         },
         {
@@ -1960,7 +1965,7 @@
       "id": "p2-renal-080",
       "type": "basic",
       "front": "Why is vasopressin an effective pressor in shock, and what limits its use?",
-      "back": "It constricts peripheral vessels, so it raises BP in shock; at higher doses or with reflex failure it causes bradycardia, angina and raised afterload.",
+      "back": "It constricts peripheral vessels, so it raises BP in shock. It can also cause bradycardia, raised afterload and angina by constricting coronary vessels.",
       "refs": [
         "KDT8 ch43"
       ],
@@ -2554,6 +2559,95 @@
         "dosing"
       ],
       "level": 3
+    },
+    {
+      "id": "p2-renal-097",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p2-renal-overview",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "front": "What is a non-edematous use of a diuretic?",
+      "back": "A use where the aim is not to clear oedema fluid: hypertension, hypercalciuric stones, diabetes insipidus, raised intracranial or intraocular pressure, hypercalcaemia, or glaucoma and altitude sickness.",
+      "refs": [
+        "KDT8 ch42"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ]
+    },
+    {
+      "id": "p2-renal-098",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p2-renal-overview",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "front": "Essay: Non-edematous uses of diuretics",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Diuretics are used more for hypertension than for oedema, so non-oedema uses matter",
+            "Each use rests on a different site or effect: natriuresis, Ca2+ handling, osmotic water pull, or carbonic anhydrase block"
+          ]
+        },
+        {
+          "h": "Hypertension",
+          "points": [
+            "Thiazides (chlorthalidone, indapamide) are first-line; they act slowly and lower BP over time",
+            "High-ceiling diuretics are reserved for renal insufficiency, heart failure, resistant cases or hypertensive emergency",
+            "Spironolactone is added for resistant hypertension and to offset thiazide K+ loss"
+          ]
+        },
+        {
+          "h": "Renal calcium and water",
+          "points": [
+            "Thiazides reduce urinary Ca2+ excretion, used in recurrent calcium kidney stones",
+            "Thiazides reduce urine volume in nephrogenic and pituitary diabetes insipidus; they are the only drugs effective in nephrogenic DI"
+          ]
+        },
+        {
+          "h": "Calcium and brain or eye pressure",
+          "points": [
+            "Hypercalcaemia of malignancy: rapid i.v. saline first, then furosemide added to augment Ca2+ excretion",
+            "Raised intracranial pressure: osmotic diuretic (mannitol), with furosemide added to improve efficacy",
+            "Raised intraocular pressure: mannitol in acute congestive glaucoma; acetazolamide as adjuvant"
+          ]
+        },
+        {
+          "h": "Acetazolamide and mannitol",
+          "points": [
+            "Acetazolamide: adjuvant in glaucoma, urine alkalinisation, adjuvant in absence seizures (tolerance develops), acute mountain sickness",
+            "Mannitol: contraindicated once acute renal failure has set in, since the kidney cannot respond to the osmotic load"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Hypokalaemia and electrolyte loss on long-term use, especially with thiazides",
+            "Acetazolamide causes acidosis and self-limiting diuresis, so it is not used as a diuretic"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch42"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ]
     }
   ]
 }

@@ -90,3 +90,28 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, Rang & 
 | p2-renal-090 | new (pyq non-diuretic uses) | KDT8 ch42 |
 | p2-renal-091, 092, 093 | new (L3 essays) | KDT8 ch42 |
 | p2-renal-094, 095, 096 | new | KDT8 ch42, ch43 |
+
+## Checker (independent pass, 2026-11-03)
+
+Source checked: KDT8 ch42 (PDF p638-651) and ch43 (PDF p652-659), plus Padmaja, Satoskar, GG14 ch29 and Katzung16 where cited.
+
+| id | status | source |
+|---|---|---|
+| p2-renal-088, 089, 090 | ok | KDT8 ch42 |
+| p2-renal-091, 092, 093 | ok (checked each fact, incl. furosemide ADRs, thiazide Ca/Mg, acetazolamide and mannitol uses) | KDT8 ch42 |
+| p2-renal-094, 095, 096 | ok (desmopressin t1/2 1-2 h, duration 8-12 h, bioavailability 10-20% / 1-2%; thiazides "only drugs effective in nephrogenic DI" is printed KDT8 text) | KDT8 ch42, ch43 |
+| p2-renal-007 | ok (bumetanide 40x, bioavailability 80-100%, myopathy, furosemide-allergic) | KDT8 ch42 |
+| p2-renal-035, 041, 043, 064, 066, 068, 069, 071, 080, 084, 085, 086, 087 | ok | KDT8 ch42, ch43 |
+| p2-renal-080 | corrected: removed "at higher doses or with reflex failure" (not in book); bradycardia, afterload and angina by coronary constriction kept | KDT8 ch43 |
+| Level ladder | checked: every subtopic has >=3 L1, >=2 L2, >=1 L3 | - |
+| Prep / RR5 / RapidRev refs | none found in either deck | - |
+
+Coverage gaps: none needed. Keyword sweep (thiazide and loop lists, K+-sparing, CA inhibitors, vasopressin antagonists, DI drugs, aspirin-canrenone, probenecid, allopurinol, indapamide, hyperuricaemia, mannitol, dialysis) found every point in KDT8 ch42-43 already covered by a card.
+Not checked: ethacrynic acid is named in KDT8 only as history (no loop-class entry), so it is left out of the loop classification list.
+
+## Gap pass: non-edematous uses (PYQ Q bank, 10 marks, paper II)
+| p2-renal-090 | ok (pyq Q bank tag added, year unknown so recorded as 0) | KDT8 ch42 |
+| p2-renal-097 | new (L1 term: non-edematous use) | KDT8 ch42 |
+| p2-renal-098 | new (L3 essay, 10 marks, pyq Q bank year 0) | KDT8 ch42 (uses: edema vs hypertension, DI, hypercalciuria, hypercalcaemia, raised ICP/IOP, acetazolamide, mannitol) |
+
+Checker (PYQ gap pass), 2026-11-03: checked p2-renal-097, 098 against KDT8 ch42 (PDF p629-636) and rf-p2-renal-0410 to 0418. Corrected: 091 (TAL wording now matches book; "medullary gradient" removed), 092 (carbonic anhydrase claim not in book; replaced with metolazone PO4 action), 098 (removed "given first" for mannitol, book says furosemide "may be combined"), rf-0412 (book says furosemide "added after volume replacement", not "diuretic of choice"; question reworded). Deleted: none. Level ladder and validator: ok. Prep/RR5/Sarkar refs: none.

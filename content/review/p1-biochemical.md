@@ -88,3 +88,101 @@ Added 2026-11-01 under the web exception in GROUNDING-RULES.md. Status for owner
 - p1-biochemical-015 → Principles of HPLC (+ 4 HPLC entries) → Sarkar PDF p401-405 (existing card, pyq tags added)
 - p1-biochemical-031 → Radioimmunoassay / Radio immunoassay (7 entries) → Satoskar Pharmacology PDF p159-160 (new shortnote)
 - rf-p1-biochemical-0052 to 0058 → Radioimmunoassay rapid pairs → Satoskar Pharmacology PDF p159-160 (new)
+
+## Difficulty ladder pass
+
+All existing cards given an explicit level (1/2/3) and reordered by subtopic then level (ids unchanged). PYQ tags added to 011, 012, 015, 016, 024, 027. Added 20 new cards.
+
+| id | status | source |
+|---|---|---|
+| p1-biochemical-039 | new | Sarkar p396-400 |
+| p1-biochemical-040 | new | Sarkar p396-400; Sarkar p386-395; GG14 ch46; GG14 ch9 |
+| p1-biochemical-032 | new | Sarkar p396-400 |
+| p1-biochemical-033 | new | Sarkar p401-405 |
+| p1-biochemical-034 | new | Sarkar p406-410 |
+| p1-biochemical-035 | new | Sarkar p401-405 |
+| p1-biochemical-036 | new | Sarkar p401-405; Sarkar p406-410; GG14 ch5; RangDale9 ch59 |
+| p1-biochemical-037 | new | Sarkar p401-405 |
+| p1-biochemical-038 | new | Sarkar p406-410; GG14 ch5; RangDale9 ch59 |
+| p1-biochemical-041 | new | KDT8 ch3 |
+| p1-biochemical-042 | new | KDT8 ch3 |
+| p1-biochemical-043 | new | KDT8 ch3 |
+| p1-biochemical-044 | new | KDT8 ch3 |
+| p1-biochemical-045 | new | KDT8 ch3 |
+| p1-biochemical-046 | new | KDT8 ch3; Sarkar p256-260 |
+| p1-biochemical-047 | new | GG12 ch41; GG14 PDF p1016 |
+| p1-biochemical-048 | new | GG12 ch41; GG14 PDF p1015 |
+| p1-biochemical-049 | new | GG12 ch41; RangDale9 ch59 |
+| p1-biochemical-050 | new | GG12 ch41; GG14 PDF p1016 |
+| p1-biochemical-051 | new | RangDale9 ch59; GG12 ch41; GG14 PDF p920 |
+
+Existing cards 001-031: level set (ok).
+
+## Checker
+
+Spot-checked 20+ cards against Sarkar OCR (TLC Rf, HPLC phases/retention time/peak area, MS parts, FPIA, RIA, ELISA), KDT8 ch3 (TDM lists, sampling time, no-value drugs) and GG14 p1016 (T/E ratio, IRMS): all ok. No Prep/RR5 refs. Ladder met in all 5 subtopics.
+
+| id | status | note |
+|---|---|---|
+| p1-biochemical-025, 026, 027, 028, 030 | corrected | Flame photometry was ref'd to a WEB page though not a SOURCE-GAPS item; re-grounded in Medhi PMECP PDF p320-321; unsupported nebuliser/filter/slit/galvanometer points removed |
+| p1-biochemical-029 | deleted | Flame temperature from fuel:oxidant ratio only on the WEB page; not in an owner book |
+| p1-biochemical-052 | new (L2) | Colorimetry filter and calibration curve; Ghosh FEP PDF p164 |
+
+## Checker
+Spot-verified against sources: 001, 003, 007, 008, 009, 010, 015, 016, 020, 035, 036, 041, 044, 045, 047, 048, 050 (KDT8 p59, GG14 p954/p1015-1016/p922, GG12, Sarkar 396-410). No factual errors found. No Prep/RR5 refs. Ladder 3/2/1 met in all subtopics. Added 053 (L2, Beer-Lambert/haemoglobin, Sarkar p421-425). Gas chromatography principle not found in owner books; no card.
+
+## PYQ gap pass (2026-11-03): Radio-isotopes, PCR, antimicrobial assay, biomarkers
+
+Source: Medhi PMECP, Ghosh FEP, Satoskar, Bioequivalence & Statistics, KDT8, GG14, Katzung16 (allowed PDFs only). No PrepLadder, no web sources. Subtopics: the four questions map to existing subtopics because the subtopics file is out of scope for this pass (no PCR or biomarker subtopic exists).
+
+| id | new | source |
+|---|---|---|
+| p1-biochemical-054 | new (L1) | KDT8 ch18 PDF p291 (131I half-life 8 days) |
+| p1-biochemical-055 | new (L1) | KDT8 ch18 PDF p291 (gamma tracing, beta therapy) |
+| p1-biochemical-056 | new (L1) | KDT8 ch18 PDF p291 (127I stable, 131I chemically similar) |
+| p1-biochemical-057 | new (L2) | KDT8 ch18 PDF p291-292 (131I therapy short note) |
+| p1-biochemical-058 | new (L3) | KDT8 ch18, ch5 PDF p107; Medhi PMECP PDF p367; Ghosh FEP PDF p38; Satoskar PDF p159; GG14 PDF p677, p1448 (Radio-isotopes essay, PYQ RGUHS 2007) |
+| p1-biochemical-059 | new (L1) | Medhi PMECP PDF p100 (PCR amplification) |
+| p1-biochemical-060 | new (L1) | Medhi PMECP PDF p100 (three PCR cycles) |
+| p1-biochemical-061 | new (L1) | Medhi PMECP PDF p102 (polymerase and buffer ions) |
+| p1-biochemical-062 | new (L1) | Ghosh FEP PDF p200 (agarose gel, ethidium bromide) |
+| p1-biochemical-063 | new (L2) | GG14 PDF p1151; KDT8 ch50 PDF p758 (PCR in resistance testing short note) |
+| p1-biochemical-064 | new (L3) | Medhi PMECP PDF p100, p102; GG14 PDF p1151; KDT8 ch50; GG14 ch6 PDF p139; Ghosh FEP PDF p200 (PCR essay, PYQ RGUHS 2009) |
+| p1-biochemical-065 | new (L1) | GG14 ch56 PDF p1151 (MIC definition) |
+| p1-biochemical-066 | new (L1) | GG14 ch56 PDF p1150 (zone of inhibition) |
+| p1-biochemical-067 | new (L1) | Satoskar PDF p159 (biostandardisation) |
+| p1-biochemical-068 | new (L2) | GG14 ch56 PDF p1151 (breakpoint rule) |
+| p1-biochemical-069 | new (L2) | KDT8 ch50 PDF p759; GG14 ch56 (MIC vs MBC short note) |
+| p1-biochemical-070 | new (L3) | GG14 ch56; KDT8 ch50 PDF p759; Satoskar PDF p158-159; Katzung16 ch43 PDF p851; Bennett PDF p202 (antimicrobial assay essay, PYQ UHSR 2025) |
+| p1-biochemical-071 | new (L1) | Bioequivalence & Statistics PDF p36 (biomarker definition) |
+| p1-biochemical-072 | new (L1) | Bioequivalence & Statistics PDF p36, p287 (surrogate definition) |
+| p1-biochemical-073 | new (L1) | Bioequivalence & Statistics PDF p36 (blood pressure example; HDL not validated) |
+| p1-biochemical-074 | new (L2) | GG14 PDF p166 (flecainide and encainide, CAST) |
+| p1-biochemical-075 | new (L2) | GG14 PDF p71 (HLA-B*1502, G6PD, VKORC1/CYP2C9) |
+| p1-biochemical-076 | new (L2) | GG14 ch4 PDF p118 (coproporphyrin-I, N-methylnicotinamide) |
+| p1-biochemical-077 | new (L2) | Katzung16 ch13 PDF p242 (NT-proBNP) |
+| p1-biochemical-078 | new (L2) | Bioequivalence & Statistics PDF p287; GG14 PDF p166; Bioequivalence & Statistics PDF p36 (surrogate vs clinical endpoint short note) |
+| p1-biochemical-079 | new (L3) | Bioequivalence & Statistics PDF p36, p287, p291, p294; GG14 ch3, ch4, PDF p166; KDT8 ch5 PDF p102; Katzung16 ch13 (biomarkers essay, PYQ RGUHS 2020 and UHSR 2025) |
+
+New ids 054-079 (26 cards). Deleted: 0. Status: all draft.
+Note: the subtopics file has no PCR or biomarker subtopic. Radio-isotope and PCR cards sit under immunoassays; antimicrobial assay and biomarker cards sit under drug-levels. Owner may add subtopics.
+
+## Checker
+Validator clean after the pass. Source extracts were read from the allowed PDFs; no PrepLadder ref used.
+
+## Checker (PYQ gap pass)
+Corrected: p1-biochemical-051 (dropped Q bank pyq with year 0); -062 (ref to Ghosh PDF p193, UV step removed); -065 (incubation time removed, not found in allowed books); -069 (cidal-preference and PAE generalisations removed); -073 (HDL claim removed, not in allowed books); -074 (added KDT8 PDF p585 for CAST).
+Deleted: p1-biochemical-077 (NT-proBNP role not found in allowed books).
+Unverified and kept, owner to confirm: -075 (GG14 PDF p71), -076 (GG14 PDF p118 confirmed), -079 essay refs. Ladder minimums met: immunoassays 11/8/4, drug-levels 10/10/4 after deletion, chromatography 7/3/2, spectrophotometry 6/3/2, doping 4/2/1 (L1/L2/L3).
+Validator: check ok.
+
+## PYQ gap pass (UHSR 2025 questions: OMICS, drug concentration techniques, metabolic profiling)
+| id | status | source |
+|---|---|---|
+| p1-biochemical-040 | ok (pyq tag added) | UHSR 2025 III "various techniques of estimating drug concentration" is covered by 040 (immunoassays), 037/038 (HPLC, MS), 024 (UV-vis), 070 (bioassay); no duplicate card written |
+| p1-biochemical-080 | corrected (L3 essay) | Sarkar PDF p146-150 (proteomics, metabolomics); GG14 ch1 PDF p24; GG14 ch3 PDF p71; GG14 ch5; GG14 ch7; KDT8 ch5 (UHSR 2025 I, OMICS). Removed unsourced line "genetic biomarkers are the most studied" (not found in allowed books). GG14 ch3 and KDT8 ch5 refs not re-checked line by line |
+| p1-biochemical-081 | new (L1) | Sarkar p146-150 (metabolic profiling term) |
+| p1-biochemical-082 | new (L2) | Sarkar p146-150; GG14 ch5 (metabolite fingerprints in animal toxicity screening) |
+| p1-biochemical-083 | new (L3 shortnote) | Sarkar p146-150; GG14 ch5 (UHSR 2025 III, METABOLIC PROFILING) |
+
+New ids 080-083 (4 cards). Deleted: 0. Status: all draft. Subtopics: omics essay placed under drug-levels and metabolic profiling under chromatography because the subtopics file has no omics subtopic.

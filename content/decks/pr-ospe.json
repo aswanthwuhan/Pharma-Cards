@@ -15,7 +15,8 @@
       "subtopic": "pr-ospe-format",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "pr-ospe-002",
@@ -30,7 +31,25 @@
       "subtopic": "pr-ospe-format",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-036",
+      "type": "basic",
+      "front": "What does OSPE stand for, and what is a station?",
+      "back": "Objective Structured Practical Examination. The exam is split into timed stations; each tests one defined task, and every candidate is marked against the same fixed checklist.",
+      "refs": [
+        "NMC MD Pharmacology 2022 curriculum (practical exam)",
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-format",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "pr-ospe-003",
@@ -47,7 +66,8 @@
       "subtopic": "pr-ospe-format",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-004",
@@ -63,7 +83,8 @@
       "subtopic": "pr-ospe-format",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-005",
@@ -80,7 +101,104 @@
       "subtopic": "pr-ospe-format",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "pr-ospe-035",
+      "type": "basic",
+      "front": "Why must OSPE stations and checklists be validated before use?",
+      "back": "Validity (the station measures what it is meant to) and reliability (consistent results) must be shown. Many pharmacology OSPE stations were not standardised, so each station and checklist should be standardised, piloted and checked. Each station is typically about 5 minutes.",
+      "refs": [
+        "WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-format",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "pr-ospe-007",
+      "type": "basic",
+      "front": "Under PvPI, what should be reported and who may report?",
+      "back": "All suspected adverse events with new drugs and \"drugs of current interest\", all suspected interactions, and reactions to any drug that affect patient management, especially serious ones. Any health care professional (doctor, dentist, nurse, pharmacist) may report; Sarkar notes the programme does not accept reports from lay people.",
+      "refs": [
+        "Sarkar p91-95"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-adr-consent",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-008",
+      "type": "cloze",
+      "front": "Complete: what makes an adverse reaction \"serious\"",
+      "text": "It results in {{death}}, is {{life-threatening}}, causes or prolongs {{hospitalisation}}, causes significant or permanent {{disability}}, causes a {{congenital anomaly}}, or needs {{intervention to prevent permanent damage}}.",
+      "refs": [
+        "Sarkar p91-95"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-adr-consent",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-010",
+      "type": "basic",
+      "front": "What must an informed consent form for a trial explain to the participant?",
+      "back": "Purpose of the study; trial treatments and randomisation; procedures; risks; benefits; alternative treatments; compensation or treatment for trial-related injury; the participant's responsibilities; experimental aspects; and any payments.",
+      "refs": [
+        "Sarkar p241-245"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-adr-consent",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-011",
+      "type": "cloze",
+      "front": "Complete: essential elements of informed consent (Schedule Y)",
+      "text": "{{Confidentiality}} of the participant; sharing of {{new information}} from the study; {{voluntary}} participation; {{persons to contact}} for study information; rights if {{study-related injury}} occurs; reasons the study may be {{terminated}}; total {{duration}} of the study; total {{number of subjects}}.",
+      "refs": [
+        "Sarkar p241-245"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-adr-consent",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-012",
+      "type": "basic",
+      "front": "What appears in the signature part of the prescribed informed consent form?",
+      "back": "Study title; subject's initials and identifiers (name, date of birth or age); consent statements initialled by the volunteer; signature or thumb impression of the subject or legally acceptable representative; investigator's name and signature; witness's name and signature.",
+      "refs": [
+        "Sarkar p246-250"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-adr-consent",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "pr-ospe-006",
@@ -132,37 +250,8 @@
       "subtopic": "pr-ospe-adr-consent",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "pr-ospe-007",
-      "type": "basic",
-      "front": "Under PvPI, what should be reported and who may report?",
-      "back": "All suspected adverse events with new drugs and \"drugs of current interest\", all suspected interactions, and reactions to any drug that affect patient management, especially serious ones. Any health care professional (doctor, dentist, nurse, pharmacist) may report; Sarkar notes the programme does not accept reports from lay people.",
-      "refs": [
-        "Sarkar p91-95"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-adr-consent",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "pr-ospe-008",
-      "type": "cloze",
-      "front": "Complete: what makes an adverse reaction \"serious\"",
-      "text": "It results in {{death}}, is {{life-threatening}}, causes or prolongs {{hospitalisation}}, causes significant or permanent {{disability}}, causes a {{congenital anomaly}}, or needs {{intervention to prevent permanent damage}}.",
-      "refs": [
-        "Sarkar p91-95"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-adr-consent",
-      "tags": [
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "pr-ospe-009",
@@ -177,52 +266,8 @@
       "subtopic": "pr-ospe-adr-consent",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "pr-ospe-010",
-      "type": "basic",
-      "front": "What must an informed consent form for a trial explain to the participant?",
-      "back": "Purpose of the study; trial treatments and randomisation; procedures; risks; benefits; alternative treatments; compensation or treatment for trial-related injury; the participant's responsibilities; experimental aspects; and any payments.",
-      "refs": [
-        "Sarkar p241-245"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-adr-consent",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "pr-ospe-011",
-      "type": "cloze",
-      "front": "Complete: essential elements of informed consent (Schedule Y)",
-      "text": "{{Confidentiality}} of the participant; sharing of {{new information}} from the study; {{voluntary}} participation; {{persons to contact}} for study information; rights if {{study-related injury}} occurs; reasons the study may be {{terminated}}; total {{duration}} of the study; total {{number of subjects}}.",
-      "refs": [
-        "Sarkar p241-245"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-adr-consent",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "pr-ospe-012",
-      "type": "basic",
-      "front": "What appears in the signature part of the prescribed informed consent form?",
-      "back": "Study title; subject's initials and identifiers (name, date of birth or age); consent statements initialled by the volunteer; signature or thumb impression of the subject or legally acceptable representative; investigator's name and signature; witness's name and signature.",
-      "refs": [
-        "Sarkar p246-250"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-adr-consent",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "pr-ospe-013",
@@ -269,23 +314,8 @@
       "subtopic": "pr-ospe-adr-consent",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "pr-ospe-014",
-      "type": "basic",
-      "front": "Dosage-form or delivery-system identification station: what should your answer cover?",
-      "back": "Name the dosage form or device, its route, the drug it usually carries and its class, why that form is used (advantage), how to use it correctly, and key precautions or adverse effects.",
-      "refs": [
-        "KDT8 ch1",
-        "UNSOURCED - owner must verify"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-dosage-calc",
-      "tags": [
-        "uses"
-      ]
+      "level": 3
     },
     {
       "id": "pr-ospe-015",
@@ -328,22 +358,8 @@
       "subtopic": "pr-ospe-dosage-calc",
       "tags": [
         "pk"
-      ]
-    },
-    {
-      "id": "pr-ospe-016",
-      "type": "basic",
-      "front": "Which drugs are suited to controlled-release formulations?",
-      "back": "Drugs with a half-life under about 4 hours benefit; those with a half-life over 12 hours do not need them. Drugs meant for a brief effect (hypnotics, headache remedies) or already long-acting (doxycycline, amlodipine, digoxin) should not be made long-acting.",
-      "refs": [
-        "KDT8 ch3"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-dosage-calc",
-      "tags": [
-        "pk"
-      ]
+      "level": 1
     },
     {
       "id": "pr-ospe-017",
@@ -359,7 +375,58 @@
       "subtopic": "pr-ospe-dosage-calc",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-037",
+      "type": "basic",
+      "front": "Dilution formula: what is C1 x V1 = C2 x V2 used for?",
+      "back": "It finds how much stock to take. Strength x volume (the amount of drug) stays the same before and after dilution. C1, V1 are stock strength and volume taken; C2, V2 are the final strength and volume wanted.",
+      "refs": [
+        "Pickar Dosage Calculations PDF p373",
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-dosage-calc",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-014",
+      "type": "basic",
+      "front": "Dosage-form or delivery-system identification station: what should your answer cover?",
+      "back": "Name the dosage form or device, its route, the drug it usually carries and its class, why that form is used (advantage), how to use it correctly, and key precautions or adverse effects.",
+      "refs": [
+        "KDT8 ch1",
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-dosage-calc",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "pr-ospe-016",
+      "type": "basic",
+      "front": "Which drugs are suited to controlled-release formulations?",
+      "back": "Drugs with a half-life under about 4 hours benefit; those with a half-life over 12 hours do not need them. Drugs meant for a brief effect (hypnotics, headache remedies) or already long-acting (doxycycline, amlodipine, digoxin) should not be made long-acting.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-dosage-calc",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-018",
@@ -376,7 +443,8 @@
       "subtopic": "pr-ospe-dosage-calc",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-019",
@@ -392,22 +460,25 @@
       "subtopic": "pr-ospe-dosage-calc",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-020",
       "type": "basic",
       "front": "Calculation: a 20 kg child needs a drug whose average adult dose is 500 mg. Dose by body weight?",
-      "back": "Child dose = 20 / 70 x 500 mg = about 143 mg. KDT prefers weight-based (mg/kg) dosing to age formulae; BSA is used for anticancer drugs.",
+      "back": "Child dose by weight ratio = 20 / 70 x 500 mg = about 143 mg (arithmetic). Katzung says age- or weight-based estimates tend to underestimate the required dose; surface-area dosing is more likely to be adequate.",
       "refs": [
-        "KDT8 ch5"
+        "Katzung16 ch59",
+        "UNSOURCED - owner must verify"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "pr-ospe-dosage-calc",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-021",
@@ -422,7 +493,80 @@
       "subtopic": "pr-ospe-dosage-calc",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "pr-ospe-038",
+      "type": "basic",
+      "front": "Case: histamine stock is 1 mg/mL. You need 2 microgram/mL in a 10 mL organ bath. Why not add the stock directly, and what do you do?",
+      "back": "The bath needs 20 microgram, which is 0.02 mL of stock: too small to measure accurately. So dilute the stock stepwise first (e.g. 1 in 100 gives 10 microgram/mL), then add 2 mL of that to the bath (2 x 10 / 10 = 2 microgram/mL). Check with the bath-concentration formula.",
+      "refs": [
+        "Ghosh Fundamentals of Experimental Pharmacology PDF p11: stock dilution example",
+        "Medhi Practical Manual PDF p87 (printed p71): dilution per organ-bath volume",
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-dosage-calc",
+      "tags": [
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "pr-ospe-024",
+      "type": "basic",
+      "front": "What does a package insert contain?",
+      "back": "Brand and generic names; active ingredients; name and address of the manufacturer; approved indications; dosage and method of use; contraindications, precautions and side effects. Renal dose adjustments are given here. The NMC expects candidates to prepare a package insert.",
+      "refs": [
+        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
+        "Medhi PMECP PDF p359",
+        "Medhi PMECP PDF p361",
+        "Sarkar p111-115",
+        "NMC MD Pharmacology curriculum PDF p9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-025",
+      "type": "basic",
+      "front": "What should the label of a dispensed medicine show?",
+      "back": "Drug form, dosage strength and total container volume; administration route; directions for mixing, where needed; drug alerts. A manufacturer's label also shows the lot number, expiry date and NDC (National Drug Code).",
+      "refs": [
+        "Pickar Dosage Calculations PDF p177",
+        "Pickar Dosage Calculations PDF p183"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-039",
+      "type": "basic",
+      "front": "What are primary, secondary and tertiary literature sources?",
+      "back": "Primary: original reports (journal articles, trials). Secondary: indexing and abstracting services that point you to primary papers. Tertiary: textbooks and compendia that summarise established knowledge. Quick queries start at tertiary; critical ones need primary.",
+      "refs": [
+        "Sarkar p76-80",
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "pr-ospe-022",
@@ -437,7 +581,27 @@
       "subtopic": "pr-ospe-drug-info",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "pr-ospe-040",
+      "type": "basic",
+      "front": "A promotional leaflet says \"safest drug in its class\" with no reference and lists no adverse effects. What is wrong?",
+      "back": "The comparative safety claim is unsupported (such claims need current literature), no references are given, and the balance is missing: adverse effects, contraindications, precautions and warnings must also be shown. Check too that the generic name appears.",
+      "refs": [
+        "Medhi PMECP PDF p359",
+        "Medhi PMECP PDF p360",
+        "Medhi PMECP PDF p361",
+        "Sarkar p506-510"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-023",
@@ -492,42 +656,8 @@
       "subtopic": "pr-ospe-drug-info",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "pr-ospe-024",
-      "type": "basic",
-      "front": "What does a package insert contain?",
-      "back": "Brand and generic names; active ingredients; name and address of the manufacturer; approved indications; dosage and method of use; contraindications, precautions and side effects. Renal dose adjustments are given here. The NMC expects candidates to prepare a package insert.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme for MD in Pharmacology 01-08-2022 (owner copy: design/NMC-MD-Pharmacology-2022.txt)",
-        "Medhi PMECP PDF p359",
-        "Medhi PMECP PDF p361",
-        "Sarkar p111-115",
-        "NMC MD Pharmacology curriculum PDF p9"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-drug-info",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "pr-ospe-025",
-      "type": "basic",
-      "front": "What should the label of a dispensed medicine show?",
-      "back": "Drug form, dosage strength and total container volume; administration route; directions for mixing, where needed; drug alerts. A manufacturer's label also shows the lot number, expiry date and NDC (National Drug Code).",
-      "refs": [
-        "Pickar Dosage Calculations PDF p177",
-        "Pickar Dosage Calculations PDF p183"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-drug-info",
-      "tags": [
-        "uses"
-      ]
+      "level": 3
     },
     {
       "id": "pr-ospe-026",
@@ -542,7 +672,41 @@
       "subtopic": "pr-ospe-research-docs",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-041",
+      "type": "basic",
+      "front": "Name the main types of pharmacoeconomic analysis",
+      "back": "Cost-minimisation, cost-effectiveness, cost-utility and cost-benefit. Sarkar also lists cost-of-illness. They differ mainly in how the outcome is measured (equal outcome, natural units, QALYs, money).",
+      "refs": [
+        "Sarkar p81-85"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-research-docs",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-042",
+      "type": "basic",
+      "front": "What is a QALY and which analysis uses it?",
+      "back": "Quality-adjusted life year: years of life gained weighted by the quality of those years. It is the outcome unit of cost-utility analysis, letting treatments with different effects on survival and well-being be compared.",
+      "refs": [
+        "Bennett and Brown PDF p76",
+        "Sarkar p81-85"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-research-docs",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "pr-ospe-027",
@@ -557,7 +721,8 @@
       "subtopic": "pr-ospe-research-docs",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-028",
@@ -573,7 +738,8 @@
       "subtopic": "pr-ospe-research-docs",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-029",
@@ -588,7 +754,8 @@
       "subtopic": "pr-ospe-research-docs",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "pr-ospe-030",
@@ -607,7 +774,8 @@
       "subtopic": "pr-ospe-research-docs",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "pr-ospe-031",
@@ -622,7 +790,8 @@
       "subtopic": "pr-ospe-instruments",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "pr-ospe-032",
@@ -637,7 +806,24 @@
       "subtopic": "pr-ospe-instruments",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "pr-ospe-034",
+      "type": "basic",
+      "front": "Thin layer chromatography: principle.",
+      "back": "Compounds in a mixture move up a coated plate with the solvent by capillary action. Those with more affinity for the stationary phase move slowly, the others faster, so they separate into spots that are then identified by a detection method.",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "pr-ospe-instruments",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "pr-ospe-033",
@@ -680,36 +866,127 @@
       "subtopic": "pr-ospe-instruments",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "pr-ospe-034",
+      "id": "pr-ospe-043",
       "type": "basic",
-      "front": "Thin layer chromatography: principle.",
-      "back": "Compounds in a mixture move up a coated plate with the solvent by capillary action. Those with more affinity for the stationary phase move slowly, the others faster, so they separate into spots that are then identified by a detection method.",
+      "front": "In spectrophotometry, what happens to absorbance if the concentration doubles, and how is an unknown concentration found?",
+      "back": "Absorbance doubles too, since by Beer-Lambert it is proportional to concentration (and path length). Read the sample's absorbance and compare with a standard curve made from solutions of known strength.",
       "refs": [
-        "Sarkar p396-400"
+        "Sarkar p421-425",
+        "UNSOURCED - owner must verify"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "pr-ospe-instruments",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "pr-ospe-035",
+      "id": "pr-ospe-044",
       "type": "basic",
-      "front": "Why must OSPE stations and checklists be validated before use?",
-      "back": "Validity (the station measures what it is meant to) and reliability (consistent results) must be shown. Many pharmacology OSPE stations were not standardised, so each station and checklist should be standardised, piloted and checked. Each station is typically about 5 minutes.",
+      "front": "Instrument choice: match the task to HPLC, TLC, ELISA or spectrophotometry.",
+      "back": "Drug level in plasma with identity from retention time: HPLC (can couple to mass spectrometry). Quick check of a mixture's components or purity: TLC. Detecting an antigen or antibody in serum: ELISA. Concentration of a light-absorbing solution: spectrophotometry. Pick by what is measured and how selective and sensitive it must be.",
       "refs": [
-        "WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/"
+        "Sarkar p401-405",
+        "Sarkar p396-400",
+        "Sarkar p386-390",
+        "Sarkar p421-425",
+        "UNSOURCED - owner must verify"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "pr-ospe-format",
+      "subtopic": "pr-ospe-instruments",
       "tags": [
         "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "pr-ospe-045",
+      "type": "basic",
+      "front": "What is a fixed-dose combination (FDC)?",
+      "back": "Two or more drugs given in one preparation at a fixed dose ratio. It is justified only when every component is needed by the patient and the ratio suits them; otherwise the patient gets extra drugs and side effects with no benefit.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "pr-ospe-046",
+      "type": "basic",
+      "front": "Name the six criteria for rational prescribing.",
+      "back": "Appropriate indication; appropriate drug (efficacy, tolerability, safety, suitability); appropriate dose, route and duration; appropriate patient (no contraindication, acceptable, benefit above risk); correct dispensing with instructions; adequate monitoring of adherence and effects.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "pr-ospe-047",
+      "type": "basic",
+      "front": "Why can a fixed-dose combination be rational?",
+      "back": "Better compliance when all components are needed; synergy (e.g. sulfamethoxazole + trimethoprim, isoniazid + rifampin); two components with different mechanisms add their effect while side effects differ (e.g. amlodipine + atenolol); a single drug cannot be given alone in TB, HIV-AIDS and falciparum malaria.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2,
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "uses",
+        "interactions"
+      ]
+    },
+    {
+      "id": "pr-ospe-048",
+      "type": "basic",
+      "front": "What are the built-in disadvantages of an FDC?",
+      "back": "Patient may take drugs not needed, with extra side effects and cost; dose cannot be individualised; components may have different time courses or renal/hepatic handling; a contraindication to one part bars the whole product; adverse effects are hard to attribute.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2,
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "adr",
+        "uses"
+      ]
+    },
+    {
+      "id": "pr-ospe-049",
+      "type": "basic",
+      "front": "Judge a fixed-dose combination on a prescription: what do you check?",
+      "back": "Is each component needed for this patient? Is the fixed ratio right for dose individualisation? Do the components share a suitable time course and are renal or hepatic issues compatible? Is there a contraindication to one part? Is the product among the rational FDCs, since most are not justified and some are banned in India (KDT8 gives 344 irrational FDCs banned).",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3,
+      "subtopic": "pr-ospe-drug-info",
+      "tags": [
+        "uses",
+        "contraindications"
       ]
     }
   ]

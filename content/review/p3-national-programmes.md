@@ -135,3 +135,70 @@ Gap from SOURCE-GAPS.md: NVHCP aims and structure (drug facts from KDT8 ch59) an
 | p3-national-programmes-055 | ok | KDT8 ch61 |
 | p3-national-programmes-056 | ok | KDT8 ch61 |
 | p3-national-programmes-057 | unsourced | KDT8 ch61; UNSOURCED - owner must verify |
+
+
+## Difficulty ladder pass
+
+All existing cards given explicit levels (1-3), deck reordered by subtopic and level; PYQ tags added to 002, 004, 023, 028, 031. New cards below.
+
+| id | status | source |
+|---|---|---|
+| p3-national-programmes-058 | new | KDT8 ch57 |
+| p3-national-programmes-059 | new | KDT8 ch57 |
+| p3-national-programmes-060 | new | KDT8 ch57 |
+| p3-national-programmes-061 | new | KDT8 ch57 |
+| p3-national-programmes-062 | new | KDT8 ch57 |
+| p3-national-programmes-063 | new | KDT8 ch57 |
+| p3-national-programmes-064 | new | KDT8 ch57; Katzung16 appendix 2 |
+| p3-national-programmes-065 | new | KDT8 ch62; KDT8 ch63; Katzung16 appendix 2 |
+| p3-national-programmes-066 | new | KDT8 ch60; WEB EuropePMC Dolutegravir-Associated Dyslipidemia and Atherogenic Li |
+
+## Checker pass (independent)
+
+Checked against KDT8 ch56, ch57, ch60, ch61, ch62, ch63, ch59 (text extracted), Katzung16 p1276-1292 (appendix Indian programmes), Sarkar OCR p576-580 (Dengvaxia).
+
+| id | status | source / note |
+|---|---|---|
+| p3-national-programmes-001 | corrected | removed "(2014)": KDT8 ch56 dates the WHO End TB strategy to 2016 |
+| p3-national-programmes-004, 005, 006 | ok | KDT8 ch56 (2010 RH; 2016 RHE daily; FDC; DOTS-Plus 2000; 18% primary H resistance) |
+| p3-national-programmes-009, 058, 059, 060 | ok | KDT8 ch57 (57.6 to 0.66; 1-5 / 6+ lesions; MDT doses and durations) |
+| p3-national-programmes-014, 019 | 019 corrected | 019 DEC 6 mg/kg and ivermectin 0.2 mg/kg not in KDT8 ch63; rewritten to what the book says (yearly albendazole with DEC or ivermectin, 400 mg) |
+| p3-national-programmes-021, 022, 023 | ok | KDT8 ch60 (2004 NACO free ART; 32% and 54%; WHO 2016 treat-all accepted by GoI) |
+| p3-national-programmes-030 | ok | Sarkar OCR p576-580 (Dengvaxia, 9-16 y, lab-confirmed past infection, endemic areas) |
+| p3-national-programmes-036 | ok | KDT8 ch56 (FDC of oral ATDs). Note: now shown as WEB-only card, book supports it |
+| p3-national-programmes-056, 055, 057 | ok | KDT8 ch61 (pregnancy; mixed infection; NVBDCP drug policy) |
+| p3-national-programmes-061 | corrected | removed "practically nontoxic", "no enzyme induction", and "avoid in ENL" (not in KDT8 ch57); rewritten from ch57 text |
+| p3-national-programmes-062, 063 | ok | KDT8 ch57 (child doses; FDT-24 to FDT-12, WHO 1997) |
+| p3-national-programmes-066 | ok | KDT8 ch60 (treat-all; TLD alternative regimen) |
+| p3-national-programmes-042, 043 | deleted | "WHO 2018 dolutegravir" and "NACO since 2020" are not in the cited Cureus cohort article or any owner book |
+| p3-national-programmes-034, 035, 031-033, 040, 046-051 | left as WEB | NTEP and WHO fact sheets are official (allowed for gaps). Not re-fetched in this pass; owner to confirm |
+| p3-national-programmes-067 | new (L2) | KDT8 ch57: lepra reaction management |
+| p3-national-programmes-068 | new (L1) | KDT8 ch60: lamivudine as core NRTI (HIV L1 was at the minimum of 3; this adds a fourth) |
+
+Level ladder after checker pass: every subtopic meets at least 3 L1, 2 L2 and 1 L3 (tb 6/6/1; leprosy 6/5/1; malaria 4/8/3; vector-other 4/3/1; hiv 4/4/1; immunisation 5/3/1).
+
+Prep and RR5 grep on both deck files: no matches.
+
+## PYQ gap: UHSR 2025 (10 marks), vaccination and India's National Immunization Schedule
+
+| id | new / corrected | source |
+|---|---|---|
+| p3-national-programmes-069 to 076 | new (L1) | GG14 ch40 (vaccine types, DNA, mRNA, vectors, adjuvants); KDT8 ch70 (active vs passive, live vs killed, HBV recombinant) |
+| p3-national-programmes-077 to 081 | new (L2) | KDT8 ch70 (live vaccines in immunocompromised, IPV vs OPV, deferral and allergy, typhoid vaccines, Hib conjugate); GG14 ch40 |
+| p3-national-programmes-082 | new (L1) | Sarkar p101-105, p176-180 (AEFI surveillance from UIP 1985; guidelines 2015) |
+| p3-national-programmes-083 to 086 | new (L2) | Padmaja p660-661 and p661 (UIP cold chain; birth dose and OPV-0 timing; JE and PCV variation; Td in pregnancy and at 10 and 16 years) |
+| p3-national-programmes-087 | new (L3 essay), pyq UHSR 2025 paper IV 10 marks | KDT8 ch70; GG14 ch40; Padmaja p660-661; Sarkar p101-105 |
+| p3-national-programmes-026 | corrected (ref added) | Padmaja p661 Table 56.2 added to the existing infant schedule cloze |
+
+Source for the India schedule is Padmaja (Core Pharmacology folder), Table 56.2, National Immunization schedule. The Katzung appendix 2 ref on card 026 was not re-verified in this pass.
+Level ladder after this pass: immunisation subtopic has at least 3 L1, 2 L2 and 1 L3.
+Prep and RR5 not used.
+
+### Checker (PYQ gap pass)
+
+| id | ok / corrected / deleted | source |
+|---|---|---|
+| p3-national-programmes-069 to 086 | ok | KDT8 ch70 p989-995 (active vs passive, vaccine types, OPV/IPV, typhoid, Hib CRM197 >90%, BCG, HBV); GG14 ch40 p816-822 (conjugates, DNA, mRNA, vectors, adjuvants); Sarkar p101-105 (AEFI 1985, guidelines 2015); Padmaja PDF p683-684 (Table 56.2, 27,000 cold-chain points, OPV-0 up to 15 days) |
+| p3-national-programmes-087 | corrected | removed "under study: nanoparticles, microneedles, dermal patches, edible plant vaccines" (no allowed book); removed "nasal influenza spray" (not in allowed books); removed "maternal immunisation protects the newborn" and "chronic infections need antibody plus T-cell responses" (not in allowed books); fixed PCV/fIPV timing (PCV only at 6 and 14 weeks, Padmaja table 56.2) |
+
+Ladder check: immunisation subtopic still meets 3 L1, 2 L2, 1 L3. Validator: check ok. Prep and RR5 refs: none.

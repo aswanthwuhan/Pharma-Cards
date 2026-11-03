@@ -3,21 +3,6 @@
   "source": "GG14 ch5, ch9, ch46; GG12 ch39, ch41; RangDale9 ch19, ch59; KDT8 ch3",
   "cards": [
     {
-      "id": "p1-biochemical-001",
-      "type": "basic",
-      "front": "Give clinical uses of ELISA kits for gonadotropins.",
-      "back": "Over-the-counter urinary LH ELISA kits detect the LH surge (tested every 12-24 h from about day 10-12 of a 28-day cycle) to predict ovulation, which occurs about 36 h after the surge begins. Beta-subunit-specific ELISA of plasma LH and FSH helps localise reproductive disease: low levels point to hypothalamic or pituitary disease, high levels to primary gonadal failure; raised FSH also confirms menopause.",
-      "refs": [
-        "GG14 ch46"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-immunoassays",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
       "id": "p1-biochemical-002",
       "type": "basic",
       "front": "How are immunoassays for hCG used?",
@@ -30,22 +15,8 @@
       "subtopic": "p1-biochemical-immunoassays",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-003",
-      "type": "basic",
-      "front": "Which immunoassays are used for thyroid function tests, and what is the gold standard for free T4?",
-      "back": "Radioimmunoassays and, more recently, chemiluminescent and enzyme-linked immunoassays for T4, T3 and TSH; routine free T4 and T3 assays use labelled hormone analogues. The gold standard for free T4 is equilibrium dialysis of undiluted serum followed by radioimmunoassay of the dialysate, which is rarely available routinely.",
-      "refs": [
-        "GG12 ch39"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-immunoassays",
-      "tags": [
-        "uses"
-      ]
+      "level": 1
     },
     {
       "id": "p1-biochemical-004",
@@ -60,152 +31,8 @@
       "subtopic": "p1-biochemical-immunoassays",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-005",
-      "type": "basic",
-      "front": "What role did HPLC play in peptide pharmacology?",
-      "back": "From the 1970s, techniques to purify, sequence and synthesise peptides were developed; high-performance liquid chromatography together with solid-phase peptide synthesis greatly accelerated the field.",
-      "refs": [
-        "RangDale9 ch19"
       ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-biochemical-chromatography",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-006",
-      "type": "basic",
-      "front": "Which analytical platforms underlie metabolomics in drug development?",
-      "back": "Proton NMR and liquid or gas chromatography coupled to mass spectrometry, with chemometric and multivariate analysis. They measure thousands of chemicals in serum, urine, cells or tissue at once and can screen for drug toxicity in whole animals during preclinical development.",
-      "refs": [
-        "GG14 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-chromatography",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-biochemical-007",
-      "type": "basic",
-      "front": "What are the uses and pitfalls of urine toxicology immunoassay screens?",
-      "back": "They rapidly (about 1 h) detect common drugs of abuse: amphetamines, barbiturates, benzodiazepines, cannabis, cocaine and opiates. Results must be read with caution: cross-reactivity gives false positives and long detection windows may not reflect acute toxicity, so further tests should be tailored to the case.",
-      "refs": [
-        "GG14 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-drug-levels",
-      "tags": [
-        "poisoning"
-      ]
-    },
-    {
-      "id": "p1-biochemical-008",
-      "type": "shortnote",
-      "front": "Short note: Therapeutic drug monitoring (application of drug estimation)",
-      "sections": [
-        {
-          "h": "Why",
-          "points": [
-            "Steady-state level may be 1/3 to 3 times the predicted value",
-            "Measured level allows dose correction: revised dose rate = previous rate x target/measured Css (first-order drugs)"
-          ]
-        },
-        {
-          "h": "Useful for",
-          "points": [
-            "Low safety margin: digoxin, anticonvulsants, antiarrhythmics, theophylline, aminoglycosides, lithium, tricyclics",
-            "Large individual variation",
-            "Toxic drugs in renal failure (aminoglycosides, vancomycin)",
-            "Poisoning; unexplained failure; checking compliance"
-          ]
-        },
-        {
-          "h": "Sampling",
-          "points": [
-            "Trough for continuously acting drugs",
-            "Peak 1-2 h after dose for intermittently acting drugs (ampicillin, gentamicin)",
-            "Early and repeated samples in poisoning"
-          ]
-        },
-        {
-          "h": "Not useful",
-          "points": [
-            "Easily measured response (antihypertensives, hypoglycaemics)",
-            "Prodrugs (levodopa); hit-and-run drugs; irreversible drugs"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch3"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-biochemical-drug-levels",
-      "tags": [
-        "dosing",
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-biochemical-009",
-      "type": "basic",
-      "front": "Which analytical techniques are used for drug testing in sport?",
-      "back": "Blood or urine samples are analysed under strict protocols in approved laboratories, mainly by gas chromatography/mass spectrometry or immunoassay.",
-      "refs": [
-        "RangDale9 ch59"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-doping",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-010",
-      "type": "basic",
-      "front": "How is misuse of exogenous testosterone detected?",
-      "back": "Other androgens are found by gas chromatography and mass spectrometry if still being taken. Testosterone itself is detected by a raised urinary testosterone/epitestosterone glucuronide (T/E) ratio, limited by UDP-glucuronosyl transferase polymorphism, or by gas chromatography-combustion-isotope ratio mass spectrometry: a low 13C/12C ratio indicates a pharmaceutical source.",
-      "refs": [
-        "GG12 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-doping",
-      "tags": [
-        "uses"
-      ]
+      "level": 1
     },
     {
       "id": "p1-biochemical-011",
@@ -215,12 +42,67 @@
       "refs": [
         "Sarkar p386-390"
       ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-019",
+      "type": "basic",
+      "front": "What are the five steps of a general ELISA?",
+      "back": "Coat the microtitre wells with antigen. Block unbound sites to prevent false positives. Add the primary antibody. Add an enzyme-linked secondary antibody. Add the substrate, which forms a coloured product. With HRP and TMB, acid turns the colour yellow, which is read at 450 nm.",
+      "refs": [
+        "Sarkar p386-395"
+      ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p1-biochemical-immunoassays",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-001",
+      "type": "basic",
+      "front": "Give clinical uses of ELISA kits for gonadotropins.",
+      "back": "Over-the-counter urinary LH ELISA kits detect the LH surge (tested every 12-24 h from about day 10-12 of a 28-day cycle) to predict ovulation, which occurs about 36 h after the surge begins. Beta-subunit-specific ELISA of plasma LH and FSH helps localise reproductive disease: low levels point to hypothalamic or pituitary disease, high levels to primary gonadal failure; raised FSH also confirms menopause.",
+      "refs": [
+        "GG14 ch46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-biochemical-003",
+      "type": "basic",
+      "front": "Which immunoassays are used for thyroid function tests, and what is the gold standard for free T4?",
+      "back": "Radioimmunoassays and, more recently, chemiluminescent and enzyme-linked immunoassays for T4, T3 and TSH; routine free T4 and T3 assays use labelled hormone analogues. The gold standard for free T4 is equilibrium dialysis of undiluted serum followed by radioimmunoassay of the dialysate, which is rarely available routinely.",
+      "refs": [
+        "GG12 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p1-biochemical-012",
@@ -262,139 +144,19 @@
       "refs": [
         "Sarkar p391-395"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-immunoassays",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-biochemical-013",
-      "type": "basic",
-      "front": "State the Beer-Lambert law as applied in spectrophotometry.",
-      "back": "Absorbance equals the molar absorption coefficient times the molar concentration times the path length of the solution. At a fixed wavelength, absorbance is directly proportional to concentration, so an unknown concentration is found from its absorbance.",
-      "refs": [
-        "Sarkar p421-425"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-biochemical-014",
-      "type": "basic",
-      "front": "What are the uses of UV-visible spectrophotometry?",
-      "back": "Measuring concentration, identifying compounds by their absorption maximum (lambda max), colour determination in the 380-700 nm range, quantifying DNA, RNA and proteins, and following reaction kinetics.",
-      "refs": [
-        "Sarkar p426-430"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-015",
-      "type": "basic",
-      "front": "What is HPLC and how does it differ from column chromatography?",
-      "back": "A separation technique in which solvent is forced through a column under high pressure (up to about 400 atmospheres) instead of dripping under gravity, so separation is much faster and uses much smaller particles. Components are identified by retention time and quantified from peak area.",
-      "refs": [
-        "Sarkar p401-405"
-      ],
       "pyq": [
         {
           "university": "RGUHS",
           "year": 2010,
           "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2011,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
         }
       ],
       "status": "draft",
-      "subtopic": "p1-biochemical-chromatography",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-biochemical-016",
-      "type": "basic",
-      "front": "How is HPLC used for detection, and what is reversed-phase HPLC?",
-      "back": "A UV detector after the column measures absorbance of eluting compounds, giving peaks. Reversed-phase HPLC, the most common form, uses a nonpolar hydrocarbon-bonded silica column with a polar solvent such as water and methanol. Coupling to mass spectrometry adds identification from fragmentation patterns.",
-      "refs": [
-        "Sarkar p401-405"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-chromatography",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-017",
-      "type": "basic",
-      "front": "What is the principle of colorimetry?",
-      "back": "Colour development is linked to the concentration of a substance in solution. The concentration can therefore be measured from the extent of light absorption at the appropriate wavelength.",
-      "refs": [
-        "Sarkar p421-425",
-        "Sarkar p256-260"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-biochemical-018",
-      "type": "basic",
-      "front": "How was potassium measured in the Langendorff heart method for cardiac glycosides?",
-      "back": "By flame photometry of the coronary outflow. An increase in potassium outflow correlated well with the positive inotropic effect of the glycoside.",
-      "refs": [
-        "Sarkar p291-295"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-drug-levels",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-biochemical-019",
-      "type": "basic",
-      "front": "What are the five steps of a general ELISA?",
-      "back": "Coat the microtitre wells with antigen. Block unbound sites to prevent false positives. Add the primary antibody. Add an enzyme-linked secondary antibody. Add the substrate, which forms a coloured product. With HRP and TMB, acid turns the colour yellow, which is read at 450 nm.",
-      "refs": [
-        "Sarkar p386-395"
-      ],
-      "pyq": [],
-      "status": "draft",
       "subtopic": "p1-biochemical-immunoassays",
       "tags": [
-        "mechanism"
-      ]
+        "classification"
+      ],
+      "level": 2
     },
     {
       "id": "p1-biochemical-020",
@@ -409,37 +171,8 @@
       "subtopic": "p1-biochemical-immunoassays",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-021",
-      "type": "basic",
-      "front": "What is thin-layer chromatography used for?",
-      "back": "It is a planar chromatography technique that separates the components of a mixture, such as alkaloids or phospholipids. It is cheap and quick for qualitative checks of purity, and only semi-quantitative.",
-      "refs": [
-        "Sarkar p396-405"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-chromatography",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-022",
-      "type": "basic",
-      "front": "Which analytical methods identify toxins qualitatively, and which quantify them?",
-      "back": "Colorimetric and UV-visible spectrophotometric analysis can be used for qualitative analysis of toxins. Infrared spectroscopy, gas chromatography, HPLC and immunoassay are used to quantify toxins.",
-      "refs": [
-        "Sarkar p256-260"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-drug-levels",
-      "tags": [
-        "poisoning"
-      ]
+      "level": 2
     },
     {
       "id": "p1-biochemical-023",
@@ -460,152 +193,30 @@
       "subtopic": "p1-biochemical-immunoassays",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-biochemical-024",
-      "type": "shortnote",
-      "front": "Short note: UV-visible spectrophotometry",
-      "sections": [
+      "id": "p1-biochemical-039",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "pyq": [
         {
-          "h": "Instrument",
-          "points": [
-            "Light source: tungsten, hydrogen or deuterium lamp, or xenon flash lamp",
-            "Monochromator (entrance slit, exit slit, dispersion device) gives one wavelength",
-            "Cuvette of plastic, glass or optical-grade quartz, in a darkened chamber",
-            "Photodetector converts light intensity to current; read on a meter, LCD or computer"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Concentration of a solution, and quantification of DNA, RNA and proteins",
-            "Identify organic compounds by the absorption maximum (lambda max)",
-            "Colour determination in the 380-700 nm range",
-            "Detect impurities, follow reaction kinetics, measure enzyme activity and protein concentration"
-          ]
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
         }
       ],
-      "refs": [
-        "Sarkar p421-430"
-      ],
-      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
+      "level": 2,
+      "type": "basic",
+      "front": "List the advantages and disadvantages of radioimmunoassay.",
+      "back": "Advantages: very sensitive (picogram amounts with high-affinity antibody), highly specific, used for hormones and for drugs such as digoxin and some drugs of abuse. Disadvantages: radiolabel is costly and short-lived, gamma emission needs special counters, radioactive iodine concentrates in the thyroid if taken in accidentally, needs licence, disposal and trained staff, narrow assay range, hard to automate. Hence ELISA, which uses an enzyme label, has largely replaced it.",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-025",
-      "type": "basic",
-      "front": "Flame photometry: what happens to alkali and alkaline earth metal compounds in the flame?",
-      "back": "They dissociate into atoms. Some atoms are excited, then emit visible radiation when they return to the ground state.",
-      "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-biochemical-026",
-      "type": "basic",
-      "front": "Why can each metal be identified in flame photometry?",
-      "back": "Each alkali or alkaline earth metal emits at its own characteristic wavelength, which a filter isolates for measurement.",
-      "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-biochemical-027",
-      "type": "shortnote",
-      "front": "Short note: Flame photometer components",
-      "sections": [
-        {
-          "h": "Flame and nebuliser",
-          "points": [
-            "Burner gives the flame; its temperature is critical",
-            "Nebuliser feeds a homogeneous solution into the flame"
-          ]
-        },
-        {
-          "h": "Optics",
-          "points": [
-            "Mirror and lens focus emitted light onto a slit",
-            "Colour filter isolates the wavelength of interest"
-          ]
-        },
-        {
-          "h": "Detection",
-          "points": [
-            "Photodetector converts intensity to an electrical signal, proportional to intensity"
-          ]
-        }
-      ],
-      "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-biochemical-028",
-      "type": "basic",
-      "front": "How is the concentration of a metal found in flame photometry?",
-      "back": "Standards of known concentration are sprayed and galvanometer readings are plotted against concentration. The sample reading is then read off the graph.",
-      "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-biochemical-029",
-      "type": "basic",
-      "front": "What sets flame temperature in flame photometry?",
-      "back": "The ratio of fuel to oxidant. Oxidants are air, oxygen or nitrous oxide.",
-      "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-biochemical-030",
-      "type": "basic",
-      "front": "Which clinical analyte does flame photometry measure routinely?",
-      "back": "Sodium and potassium in body fluids such as blood serum.",
-      "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "tags": [
-        "uses"
-      ]
+      "subtopic": "p1-biochemical-immunoassays"
     },
     {
       "id": "p1-biochemical-031",
@@ -693,7 +304,1967 @@
       "subtopic": "p1-biochemical-immunoassays",
       "tags": [
         "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-biochemical-040",
+      "refs": [
+        "Sarkar p396-400",
+        "Sarkar p386-395",
+        "GG14 ch46",
+        "GG14 ch9"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3,
+      "type": "essay",
+      "front": "Essay: Immunoassays used in pharmacology (RIA, ELISA, FPIA)",
+      "sections": [
+        {
+          "h": "Principle shared",
+          "points": [
+            "Specific antigen-antibody binding measures hormones, drugs and toxins in small samples"
+          ]
+        },
+        {
+          "h": "RIA",
+          "points": [
+            "Radiolabelled antigen competes with sample antigen for limited antibody sites; bound/free ratio falls as sample antigen rises",
+            "Very sensitive but radiation hazard, cost and short isotope life"
+          ]
+        },
+        {
+          "h": "ELISA",
+          "points": [
+            "Enzyme label gives a coloured or fluorescent product read by a plate reader; direct, indirect, sandwich and competitive formats",
+            "Replaces the radioisotope, so now preferred"
+          ]
+        },
+        {
+          "h": "FPIA",
+          "points": [
+            "Fluorescein-labelled drug competes with patient drug for antibody; more drug in the sample gives less polarised light",
+            "Homogeneous and fast; used for drug levels and drugs of abuse"
+          ]
+        },
+        {
+          "h": "Applications",
+          "points": [
+            "Gonadotropin and hCG tests, thyroid tests, digoxin levels, urine drug screens",
+            "Limits: cross-reactivity gives false positives, so confirm positives by chromatography-mass spectrometry"
+          ]
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "subtopic": "p1-biochemical-immunoassays"
+    },
+    {
+      "id": "p1-biochemical-013",
+      "type": "basic",
+      "front": "State the Beer-Lambert law as applied in spectrophotometry.",
+      "back": "Absorbance equals the molar absorption coefficient times the molar concentration times the path length of the solution. At a fixed wavelength, absorbance is directly proportional to concentration, so an unknown concentration is found from its absorbance.",
+      "refs": [
+        "Sarkar p421-425"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-014",
+      "type": "basic",
+      "front": "What are the uses of UV-visible spectrophotometry?",
+      "back": "Measuring concentration, identifying compounds by their absorption maximum (lambda max), colour determination in the 380-700 nm range, quantifying DNA, RNA and proteins, and following reaction kinetics.",
+      "refs": [
+        "Sarkar p426-430"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-017",
+      "type": "basic",
+      "front": "What is the principle of colorimetry?",
+      "back": "Colour development is linked to the concentration of a substance in solution. The concentration can therefore be measured from the extent of light absorption at the appropriate wavelength.",
+      "refs": [
+        "Sarkar p421-425",
+        "Sarkar p256-260"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-025",
+      "type": "basic",
+      "front": "What happens to the sample in the flame in flame photometry?",
+      "back": "The solution evaporates and the substance becomes free atoms. Their electrons are lifted to a higher energy state, then fall back and release the energy as light.",
+      "refs": [
+        "Medhi PMECP PDF p320-321"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-026",
+      "type": "basic",
+      "front": "Why can each metal be identified in flame photometry?",
+      "back": "The wavelength of light emitted depends on the energy levels the electrons can reach, which are specific to each element (its emission spectrum). So the emitted colour identifies the metal.",
+      "refs": [
+        "Medhi PMECP PDF p320-321"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-030",
+      "type": "basic",
+      "front": "Which clinical analyte does flame photometry measure routinely?",
+      "back": "Sodium and potassium in body fluids such as blood serum.",
+      "refs": [
+        "Medhi PMECP PDF p320-321"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-028",
+      "type": "basic",
+      "front": "How is the concentration of a metal found in flame photometry?",
+      "back": "Light emitted is collected by a reflector and falls on a detector, and detector output is directly proportional to concentration. So solutions of known strength (standards) are read first, and the unknown sample reading is compared with them.",
+      "refs": [
+        "Medhi PMECP PDF p320-321"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-biochemical-053",
+      "type": "basic",
+      "front": "Why does haemoglobin look red, and how does the Beer-Lambert law let you measure it?",
+      "back": "Haemoglobin absorbs blue and green light much more than red, so red light is what reaches the eye. The more haemoglobin in the cuvette, the more blue-green light is absorbed, and at a fixed wavelength absorbance rises in direct proportion to concentration (Beer-Lambert). So the photometer reading of the absorbed light gives the concentration.",
+      "refs": [
+        "Sarkar p421-425"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-biochemical-052",
+      "type": "basic",
+      "front": "In colorimetry, why is a colour filter used, and how is an unknown concentration found?",
+      "back": "The filter has the colour complementary to the absorbing substance so it selects the wavelength the substance absorbs; colorimetry works only in the visible range. The photocell reading is zeroed with solvent, then absorbance of standards is plotted against concentration, and the test solution's absorbance is read off this calibration curve.",
+      "refs": [
+        "Ghosh FEP PDF p164"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-biochemical-024",
+      "type": "shortnote",
+      "front": "Short note: UV-visible spectrophotometry",
+      "sections": [
+        {
+          "h": "Instrument",
+          "points": [
+            "Light source: tungsten, hydrogen or deuterium lamp, or xenon flash lamp",
+            "Monochromator (entrance slit, exit slit, dispersion device) gives one wavelength",
+            "Cuvette of plastic, glass or optical-grade quartz, in a darkened chamber",
+            "Photodetector converts light intensity to current; read on a meter, LCD or computer"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Concentration of a solution, and quantification of DNA, RNA and proteins",
+            "Identify organic compounds by the absorption maximum (lambda max)",
+            "Colour determination in the 380-700 nm range",
+            "Detect impurities, follow reaction kinetics, measure enzyme activity and protein concentration"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p421-430"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-biochemical-027",
+      "type": "shortnote",
+      "front": "Short note: Flame photometer components",
+      "sections": [
+        {
+          "h": "Flame",
+          "points": [
+            "Relatively low-energy flame excites only a few elements, mainly alkali metals"
+          ]
+        },
+        {
+          "h": "Collection",
+          "points": [
+            "Reflector collects the light emitted in all directions and passes it to the detector"
+          ]
+        },
+        {
+          "h": "Detection and calibration",
+          "points": [
+            "Detector output is directly proportional to concentration",
+            "Standards of known strength are read first, then the unknown sample"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP PDF p320-321"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-biochemical-005",
+      "type": "basic",
+      "front": "What role did HPLC play in peptide pharmacology?",
+      "back": "From the 1970s, techniques to purify, sequence and synthesise peptides were developed; high-performance liquid chromatography together with solid-phase peptide synthesis greatly accelerated the field.",
+      "refs": [
+        "RangDale9 ch19"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-006",
+      "type": "basic",
+      "front": "Which analytical platforms underlie metabolomics in drug development?",
+      "back": "Proton NMR and liquid or gas chromatography coupled to mass spectrometry, with chemometric and multivariate analysis. They measure thousands of chemicals in serum, urine, cells or tissue at once and can screen for drug toxicity in whole animals during preclinical development.",
+      "refs": [
+        "GG14 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-015",
+      "type": "basic",
+      "front": "What is HPLC and how does it differ from column chromatography?",
+      "back": "A separation technique in which solvent is forced through a column under high pressure (up to about 400 atmospheres) instead of dripping under gravity, so separation is much faster and uses much smaller particles. Components are identified by retention time and quantified from peak area.",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-021",
+      "type": "basic",
+      "front": "What is thin-layer chromatography used for?",
+      "back": "It is a planar chromatography technique that separates the components of a mixture, such as alkaloids or phospholipids. It is cheap and quick for qualitative checks of purity, and only semi-quantitative.",
+      "refs": [
+        "Sarkar p396-405"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-032",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "basic",
+      "front": "What is the retention factor (Rf) in thin-layer chromatography?",
+      "back": "Distance travelled by a compound divided by the distance travelled by the solvent front. It is a fixed value for a compound under set conditions, so it helps identify spots. In normal-phase TLC the compound with the larger Rf is the less polar one, because it sticks less to the polar plate.",
+      "tags": [
+        "mechanism"
+      ],
+      "subtopic": "p1-biochemical-chromatography"
+    },
+    {
+      "id": "p1-biochemical-033",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "basic",
+      "front": "What are retention time and peak area in HPLC, and what does each tell you?",
+      "back": "Retention time is the time from injection to the peak maximum for a compound; it helps identify the compound, provided pressure, stationary phase, solvent mix and column temperature are held constant. Area under the peak is proportional to the amount passing the detector, so it measures quantity; a more dilute sample gives a smaller area but the same retention time.",
+      "tags": [
+        "mechanism"
+      ],
+      "subtopic": "p1-biochemical-chromatography"
+    },
+    {
+      "id": "p1-biochemical-034",
+      "refs": [
+        "Sarkar p406-410"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "basic",
+      "front": "What is mass spectrometry and what are its three main parts?",
+      "back": "It identifies and quantifies chemicals by turning them into gas-phase ions and sorting the ions by mass-to-charge ratio (m/z) and abundance, giving a spectrum of abundance against m/z. Parts: ion source (makes ions), analyser (separates by m/z), detector (records abundance of each ion).",
+      "tags": [
+        "mechanism"
+      ],
+      "subtopic": "p1-biochemical-chromatography"
+    },
+    {
+      "id": "p1-biochemical-016",
+      "type": "basic",
+      "front": "How is HPLC used for detection, and what is reversed-phase HPLC?",
+      "back": "A UV detector after the column measures absorbance of eluting compounds, giving peaks. Reversed-phase HPLC, the most common form, uses a nonpolar hydrocarbon-bonded silica column with a polar solvent such as water and methanol. Coupling to mass spectrometry adds identification from fragmentation patterns.",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-chromatography",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-biochemical-035",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2,
+      "type": "basic",
+      "front": "Contrast normal-phase and reversed-phase HPLC. Which elutes polar compounds first, and which is more common?",
+      "back": "Normal phase: polar silica column with a non-polar solvent such as hexane, so polar compounds stick longer and non-polar ones emerge first. Reversed phase: silica made non-polar with long hydrocarbon chains and a polar solvent such as water-methanol, so polar compounds travel with the solvent and emerge first. Reversed phase is the commonest form.",
+      "tags": [
+        "mechanism"
+      ],
+      "subtopic": "p1-biochemical-chromatography"
+    },
+    {
+      "id": "p1-biochemical-036",
+      "refs": [
+        "Sarkar p401-405",
+        "Sarkar p406-410",
+        "GG14 ch5",
+        "RangDale9 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2,
+      "type": "basic",
+      "front": "Why is a chromatograph coupled to a mass spectrometer (GC-MS, LC-MS)?",
+      "back": "The chromatograph separates the mixture and the mass spectrometer then fragments each fraction into a pattern that can be matched against a database. Compounds can be identified without knowing their retention times, and drugs or metabolites in biological samples can be quantified. This is why GC-MS and LC-MS are used for doping tests, forensic drug confirmation and metabolomics.",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "subtopic": "p1-biochemical-chromatography"
+    },
+    {
+      "id": "p1-biochemical-037",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3,
+      "type": "shortnote",
+      "front": "Short note: High-performance liquid chromatography (HPLC)",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Improved column chromatography: solvent forced through the column at very high pressure (up to about 400 atmospheres)",
+            "Very small packing particles give a large surface area and better separation; detection is automated and sensitive"
+          ]
+        },
+        {
+          "h": "Modes",
+          "points": [
+            "Normal phase: polar silica, non-polar solvent",
+            "Reversed phase: non-polar bonded silica, polar solvent; the commonest form"
+          ]
+        },
+        {
+          "h": "Output",
+          "points": [
+            "UV detector after the column gives peaks",
+            "Retention time identifies a compound; peak area measures its amount",
+            "Can be coupled to a mass spectrometer for fragmentation-based identification"
+          ]
+        },
+        {
+          "h": "Applications",
+          "points": [
+            "Drug and metabolite quantification in biological samples, forensic testing (e.g. anabolic steroids, benzodiazepines)",
+            "Pharmaceutical quality control, shelf-life and dissolution studies",
+            "Clinical: catecholamine metabolites, haemoglobinopathies, antibiotics in plasma"
+          ]
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "subtopic": "p1-biochemical-chromatography"
+    },
+    {
+      "id": "p1-biochemical-038",
+      "refs": [
+        "Sarkar p406-410",
+        "GG14 ch5",
+        "RangDale9 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3,
+      "type": "shortnote",
+      "front": "Short note: Mass spectrometry in pharmacology",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Molecule ionised, molecular ion fragments, ions separated by m/z",
+            "Plot of ion abundance against m/z identifies and quantifies the molecule"
+          ]
+        },
+        {
+          "h": "Ionisation methods",
+          "points": [
+            "Electron impact, chemical ionisation, fast atom bombardment, field ionisation, plasma desorption"
+          ]
+        },
+        {
+          "h": "Hyphenated forms",
+          "points": [
+            "GC-MS, LC-MS, HPLC-MS: chromatograph separates, MS identifies"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Metabolomics, forensic confirmation of drug abuse, drug monitoring",
+            "Drug discovery, early phase ADME studies and metabolite screening",
+            "Detection of doping, e.g. androgens and isotope-ratio testing for exogenous testosterone"
+          ]
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "subtopic": "p1-biochemical-chromatography"
+    },
+    {
+      "id": "p1-biochemical-018",
+      "type": "basic",
+      "front": "How was potassium measured in the Langendorff heart method for cardiac glycosides?",
+      "back": "By flame photometry of the coronary outflow. An increase in potassium outflow correlated well with the positive inotropic effect of the glycoside.",
+      "refs": [
+        "Sarkar p291-295"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-041",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "basic",
+      "front": "Why do drug levels need to be measured at all when a standard dose is given?",
+      "back": "The steady-state level actually reached can be anywhere from about one third to three times the value predicted from population averages, because patients differ in absorption, clearance and other factors. A measured level lets the dose rate be corrected in proportion to the target level.",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "subtopic": "p1-biochemical-drug-levels"
+    },
+    {
+      "id": "p1-biochemical-042",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "cloze",
+      "front": "Drugs for which therapeutic drug monitoring is useful",
+      "text": "Therapeutic drug monitoring helps for drugs with a low safety margin such as {{digoxin}}, {{anticonvulsants}}, {{antiarrhythmics}}, {{theophylline}}, {{aminoglycosides}}, {{lithium}} and {{tricyclic antidepressants}}.",
+      "tags": [
+        "pk",
+        "classification"
+      ],
+      "subtopic": "p1-biochemical-drug-levels"
+    },
+    {
+      "id": "p1-biochemical-043",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "basic",
+      "front": "List the situations in which measuring plasma drug levels is particularly useful.",
+      "back": "Low safety margin; wide individual variation in kinetics; a toxic drug in a patient with renal failure; suspected poisoning; unexplained treatment failure; and checking patient compliance (a random level is enough for this). The common thread is that the dose alone cannot be trusted to give a safe, effective level.",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "subtopic": "p1-biochemical-drug-levels"
+    },
+    {
+      "id": "p1-biochemical-007",
+      "type": "basic",
+      "front": "What are the uses and pitfalls of urine toxicology immunoassay screens?",
+      "back": "They rapidly (about 1 h) detect common drugs of abuse: amphetamines, barbiturates, benzodiazepines, cannabis, cocaine and opiates. Results must be read with caution: cross-reactivity gives false positives and long detection windows may not reflect acute toxicity, so further tests should be tailored to the case.",
+      "refs": [
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-biochemical-022",
+      "type": "basic",
+      "front": "Which analytical methods identify toxins qualitatively, and which quantify them?",
+      "back": "Colorimetric and UV-visible spectrophotometric analysis can be used for qualitative analysis of toxins. Infrared spectroscopy, gas chromatography, HPLC and immunoassay are used to quantify toxins.",
+      "refs": [
+        "Sarkar p256-260"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "poisoning"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-biochemical-044",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2,
+      "type": "basic",
+      "front": "When in the dosing interval should a sample be drawn for TDM, and why does it differ between drugs?",
+      "back": "For long-acting or continuously acting drugs, take a trough steady-state sample just before the next dose, since levels barely fluctuate and trough guards against accumulation or under-dosing. For short-acting drugs given intermittently (e.g. ampicillin, gentamicin), sample in the post-absorptive phase about 1-2 h after an oral or i.m. dose to reflect the peak. In poisoning, sample as early as possible and repeat to estimate clearance and the need to hasten elimination, e.g. by haemodialysis.",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "subtopic": "p1-biochemical-drug-levels"
+    },
+    {
+      "id": "p1-biochemical-045",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2,
+      "type": "basic",
+      "front": "Why is plasma level monitoring of no value for some drugs? Give examples for each reason.",
+      "back": "Level monitoring only helps when plasma concentration tracks effect. Easily measured response: antihypertensives, hypoglycaemics, diuretics, oral anticoagulants, inhalational anaesthetics. Drug activated in the body: levodopa. Hit-and-run drugs whose effect outlasts the plasma level: reserpine, guanethidine, MAO inhibitors, omeprazole. Irreversible binding: organophosphates, phenoxybenzamine.",
+      "tags": [
+        "pk"
+      ],
+      "subtopic": "p1-biochemical-drug-levels"
+    },
+    {
+      "id": "p1-biochemical-008",
+      "type": "shortnote",
+      "front": "Short note: Therapeutic drug monitoring (application of drug estimation)",
+      "sections": [
+        {
+          "h": "Why",
+          "points": [
+            "Steady-state level may be 1/3 to 3 times the predicted value",
+            "Measured level allows dose correction: revised dose rate = previous rate x target/measured Css (first-order drugs)"
+          ]
+        },
+        {
+          "h": "Useful for",
+          "points": [
+            "Low safety margin: digoxin, anticonvulsants, antiarrhythmics, theophylline, aminoglycosides, lithium, tricyclics",
+            "Large individual variation",
+            "Toxic drugs in renal failure (aminoglycosides, vancomycin)",
+            "Poisoning; unexplained failure; checking compliance"
+          ]
+        },
+        {
+          "h": "Sampling",
+          "points": [
+            "Trough for continuously acting drugs",
+            "Peak 1-2 h after dose for intermittently acting drugs (ampicillin, gentamicin)",
+            "Early and repeated samples in poisoning"
+          ]
+        },
+        {
+          "h": "Not useful",
+          "points": [
+            "Easily measured response (antihypertensives, hypoglycaemics)",
+            "Prodrugs (levodopa); hit-and-run drugs; irreversible drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "dosing",
+        "pk"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-biochemical-046",
+      "refs": [
+        "KDT8 ch3",
+        "Sarkar p256-260"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3,
+      "type": "essay",
+      "front": "Essay: Therapeutic drug monitoring - principles, methods, advantages and limitations",
+      "sections": [
+        {
+          "h": "Definition and rationale",
+          "points": [
+            "Using measured drug levels to individualise dose; steady-state level may be 1/3 to 3 times the predicted value"
+          ]
+        },
+        {
+          "h": "Indications",
+          "points": [
+            "Low safety margin (digoxin, lithium, aminoglycosides, anticonvulsants, theophylline, antiarrhythmics, tricyclics)",
+            "Large individual variation, renal failure with toxic drugs, poisoning, unexplained failure, compliance"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Immunoassays (RIA, FPIA, ELISA) and chromatography with mass spectrometry for drug and toxin levels"
+          ]
+        },
+        {
+          "h": "Sampling and dose revision",
+          "points": [
+            "Trough for long-acting drugs; about 1-2 h after dose for short-acting drugs; early and repeated in poisoning",
+            "Revised dose rate = previous rate x target / measured steady-state level, for first-order drugs"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Useless where response is easily measured, for prodrugs, hit-and-run and irreversible drugs"
+          ]
+        }
+      ],
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "subtopic": "p1-biochemical-drug-levels"
+    },
+    {
+      "id": "p1-biochemical-009",
+      "type": "basic",
+      "front": "Which analytical techniques are used for drug testing in sport?",
+      "back": "Blood or urine samples are analysed under strict protocols in approved laboratories, mainly by gas chromatography/mass spectrometry or immunoassay.",
+      "refs": [
+        "RangDale9 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-doping",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-biochemical-047",
+      "refs": [
+        "GG12 ch41",
+        "GG14 PDF p1016"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "basic",
+      "front": "What is the T/E ratio and why does it rise after exogenous testosterone?",
+      "back": "T/E is urinary testosterone glucuronide divided by epitestosterone glucuronide, its endogenous epimer. Giving testosterone suppresses the body's own secretion of both steroids and replaces them with testosterone alone, so the ratio rises above normal.",
+      "tags": [
+        "mechanism"
+      ],
+      "subtopic": "p1-biochemical-doping"
+    },
+    {
+      "id": "p1-biochemical-048",
+      "refs": [
+        "GG12 ch41",
+        "GG14 PDF p1015"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "basic",
+      "front": "Why is tetrahydrogestrinone (THG) a problem for doping control?",
+      "back": "It is a potent androgen that appears to have been designed to escape antidoping laboratories, both through its novel structure and through rapid breakdown in the body, so routine tests for known androgens could miss it.",
+      "tags": [
+        "newer-drugs"
+      ],
+      "subtopic": "p1-biochemical-doping"
+    },
+    {
+      "id": "p1-biochemical-049",
+      "refs": [
+        "GG12 ch41",
+        "RangDale9 ch59"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1,
+      "type": "basic",
+      "front": "When can ordinary gas chromatography-mass spectrometry detect doping with an androgen?",
+      "back": "It detects androgens other than testosterone itself, but only if the athlete is still taking the drug when tested. Testosterone is handled separately because the body also makes it, so detection needs the T/E ratio or isotope-ratio mass spectrometry.",
+      "tags": [
+        "mechanism"
+      ],
+      "subtopic": "p1-biochemical-doping"
+    },
+    {
+      "id": "p1-biochemical-010",
+      "type": "basic",
+      "front": "How is misuse of exogenous testosterone detected?",
+      "back": "Other androgens are found by gas chromatography and mass spectrometry if still being taken. Testosterone itself is detected by a raised urinary testosterone/epitestosterone glucuronide (T/E) ratio, limited by UDP-glucuronosyl transferase polymorphism, or by gas chromatography-combustion-isotope ratio mass spectrometry: a low 13C/12C ratio indicates a pharmaceutical source.",
+      "refs": [
+        "GG12 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-doping",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-biochemical-050",
+      "refs": [
+        "GG12 ch41",
+        "GG14 PDF p1016"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2,
+      "type": "basic",
+      "front": "How does isotope-ratio mass spectrometry confirm exogenous testosterone, and what does a low 13C/12C ratio mean?",
+      "back": "Gas chromatography-combustion-isotope ratio mass spectrometry measures 13C/12C in urinary steroids. A low ratio means the steroid probably came from a pharmaceutical source rather than the body. It is the second method for testosterone, used alongside the T/E ratio.",
+      "tags": [
+        "mechanism"
+      ],
+      "subtopic": "p1-biochemical-doping"
+    },
+    {
+      "id": "p1-biochemical-051",
+      "refs": [
+        "RangDale9 ch59",
+        "GG12 ch41",
+        "GG14 PDF p920"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3,
+      "type": "shortnote",
+      "front": "Short note: Drug testing in sport (doping control)",
+      "sections": [
+        {
+          "h": "Sampling",
+          "points": [
+            "Blood or urine analysed under strict protocols in approved laboratories"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Gas chromatography-mass spectrometry or immunoassay",
+            "Androgens other than testosterone: GC-MS if still being taken",
+            "Testosterone: raised T/E ratio, and 13C/12C isotope-ratio MS (low ratio means pharmaceutical)",
+            "Recombinant erythropoietin: modern assays detect its slight difference from the native protein (blood doping)"
+          ]
+        },
+        {
+          "h": "Challenges",
+          "points": [
+            "Designer androgens such as THG built to evade detection"
+          ]
+        }
+      ],
+      "tags": [
+        "uses"
+      ],
+      "subtopic": "p1-biochemical-doping"
+    },
+    {
+      "id": "p1-biochemical-054",
+      "type": "basic",
+      "level": 1,
+      "front": "What is the physical half-life of 131I?",
+      "back": "About 8 days.",
+      "refs": [
+        "KDT8 ch18"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "pk"
       ]
+    },
+    {
+      "id": "p1-biochemical-055",
+      "type": "basic",
+      "level": 1,
+      "front": "Which emissions of 131I are used for tracing and which for therapy?",
+      "back": "Gamma rays are used for tracing because a counter can monitor them outside the body. Beta particles are used therapeutically, destroying thyroid cells.",
+      "refs": [
+        "KDT8 ch18"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-056",
+      "type": "basic",
+      "level": 1,
+      "front": "Which stable iodine isotope is the non-radioactive form, and how does 131I behave chemically?",
+      "back": "127I is stable. 131I behaves chemically like the stable isotope, so the thyroid handles it in the same way.",
+      "refs": [
+        "KDT8 ch18"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-biochemical-057",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Radioactive iodine (131I) therapy",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Sodium salt of 131I given orally in water; concentrated by the thyroid and held in the colloid",
+            "Beta emission destroys thyroid tissue from within; neighbouring tissue is spared at chosen doses"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Commonest indication is hyperthyroidism",
+            "Diagnostic dose (25-100 microcurie) is counted or scanned at intervals"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "Simple, outpatient, inexpensive",
+            "No surgical risk, scar or parathyroid/recurrent laryngeal injury",
+            "Once hyperthyroidism is controlled, cure is permanent"
+          ]
+        },
+        {
+          "h": "Disadvantages",
+          "points": [
+            "About 20-40% need one or more repeat doses",
+            "Thyroid status is checked about 3 months after the dose"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch18"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-058",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Radio-isotopes in pharmacology",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Radioisotopes are unstable nuclei that emit gamma or beta radiation; their half-life sets how long they stay usable",
+            "Example: 131I, physical half-life about 8 days"
+          ]
+        },
+        {
+          "h": "Tracer studies",
+          "points": [
+            "Radiolabelled drug given at microdose (100 microgram or 1/100 of active dose) and measured by accelerator mass spectrometry (AMS) or positron emission tomography (PET)",
+            "14C for AMS; 11C for PET",
+            "Radiolabelled ligands isolate and characterise receptors (e.g. labelled alpha-bungarotoxin)"
+          ]
+        },
+        {
+          "h": "Diagnosis",
+          "points": [
+            "Radioiodine uptake and scan tests thyroid function",
+            "Radioimmunoassay (RIA) measures hormones and drugs: radiolabelled and unlabelled antigen compete for limited antibody",
+            "Quantitative hCG and digoxin levels by RIA"
+          ]
+        },
+        {
+          "h": "Therapy",
+          "points": [
+            "131I ablates thyroid tissue in hyperthyroidism",
+            "131I is favoured for radioimmunoconjugates: readily available, inexpensive and easily linked to a monoclonal antibody"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Short half-life limits storage; radiation handling needed",
+            "RIA has largely been replaced by ELISA, which uses an enzyme label instead of a radioisotope"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Radioisotopes serve as tracers, diagnostic labels and therapeutic agents in pharmacology"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch18",
+        "KDT8 ch5",
+        "Medhi PMECP PDF p367",
+        "Ghosh FEP PDF p38",
+        "Satoskar Pharmacology PDF p159",
+        "GG14 PDF p677",
+        "GG14 PDF p1448",
+        "Sarkar p391-400"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "uses",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-059",
+      "type": "basic",
+      "level": 1,
+      "front": "What does PCR amplify, and how quickly?",
+      "back": "A specific target DNA sequence, exponentially, giving millions of copies in a short time.",
+      "refs": [
+        "Medhi PMECP PDF p100"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-060",
+      "type": "basic",
+      "level": 1,
+      "front": "What are the three steps of one PCR cycle?",
+      "back": "Denaturation of template DNA and primer; annealing of primer to the single strand; extension (elongation) of the new strand.",
+      "refs": [
+        "Medhi PMECP PDF p100"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-061",
+      "type": "basic",
+      "level": 1,
+      "front": "Which enzyme and buffer ions does a PCR run need?",
+      "back": "DNA polymerase; buffer with divalent (Mg2+, Mn2+) and monovalent (K+) cations. Extension time depends on the polymerase chosen.",
+      "refs": [
+        "Medhi PMECP PDF p102"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-062",
+      "type": "basic",
+      "level": 1,
+      "front": "How are PCR-amplified DNA fragments separated and seen?",
+      "back": "Agarose gel electrophoresis, then staining with ethidium bromide, which binds DNA and fluoresces.",
+      "refs": [
+        "Ghosh FEP PDF p193"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-063",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: PCR in antimicrobial resistance testing",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Nucleic acid amplification of a target gene that carries a known resistance determinant"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Rifampicin resistance in Mycobacterium tuberculosis",
+            "mecA gene for methicillin resistance in Staphylococcus aureus (MRSA), used for infection control"
+          ]
+        },
+        {
+          "h": "Advantage",
+          "points": [
+            "Point-of-care PCR gives a result in under 2 h, while culture needs 2-3 weeks and broth dilution a similar time"
+          ]
+        },
+        {
+          "h": "Role when culture fails",
+          "points": [
+            "Where bacteriology is unavailable or unobtainable, antigen/antibody tests or PCR can guide the choice of antimicrobial"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p1151",
+        "KDT8 ch50"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "classification",
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-064",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Polymerase chain reaction: methodology and applications",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Developed by Kary Mullis in 1984; Nobel Prize in Chemistry 1993",
+            "In vitro amplification of a specific DNA sequence"
+          ]
+        },
+        {
+          "h": "Principle",
+          "points": [
+            "Exponential amplification through repeated heating cycles",
+            "Each cycle: denaturation, annealing of primer, extension by DNA polymerase"
+          ]
+        },
+        {
+          "h": "Methodology",
+          "points": [
+            "Template DNA, primers, DNA polymerase, buffer with Mg2+ and K+",
+            "Thermal cycling; product checked by agarose gel electrophoresis and ethidium bromide staining"
+          ]
+        },
+        {
+          "h": "Applications",
+          "points": [
+            "Identification of infecting organisms when culture is not possible (PCR listed among diagnostic tests)",
+            "Rapid detection of resistance genes (rifampicin resistance in TB; mecA in MRSA)",
+            "Gut microbiome studies: 16S rRNA gene primers; shotgun metagenomics: collect sample, extract DNA, sequence"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Needs a highly skilled operator",
+            "Prone to contamination",
+            "Difficult to set up as a quantitative assay"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP PDF p100",
+        "Medhi PMECP PDF p102",
+        "GG14 PDF p1151",
+        "KDT8 ch50",
+        "GG14 ch6",
+        "Ghosh FEP PDF p200"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-immunoassays",
+      "tags": [
+        "mechanism",
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-065",
+      "type": "basic",
+      "level": 1,
+      "front": "Define the minimum inhibitory concentration (MIC).",
+      "back": "The lowest concentration of an antimicrobial that prevents visible growth of the organism.",
+      "refs": [
+        "GG14 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-066",
+      "type": "basic",
+      "level": 1,
+      "front": "What is the zone of inhibition in disk diffusion?",
+      "back": "The clear area around an antibiotic disk on a bacterial lawn where there is no visible growth; it indicates susceptibility.",
+      "refs": [
+        "GG14 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-biochemical-067",
+      "type": "basic",
+      "level": 1,
+      "front": "What is biostandardisation?",
+      "back": "Comparing and adjusting the strength of a sample against a standard under controlled conditions.",
+      "refs": [
+        "Satoskar Pharmacology PDF p159"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-biochemical-068",
+      "type": "basic",
+      "level": 2,
+      "front": "How is a MIC result used to classify an isolate?",
+      "back": "The isolate is susceptible if its MIC is at or below the clinical breakpoint for that drug-organism pair; breakpoints are consensus values.",
+      "refs": [
+        "GG14 ch56"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-biochemical-069",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: MIC versus MBC",
+      "sections": [
+        {
+          "h": "Definitions",
+          "points": [
+            "MIC: lowest concentration that stops visible growth",
+            "MBC: lowest concentration that kills the organism"
+          ]
+        },
+        {
+          "h": "Interpretation",
+          "points": [
+            "A large MBC-to-MIC difference indicates bacteriostatic action"
+          ]
+        },
+        {
+          "h": "Clinical use",
+          "points": [
+            "MBC is not used to guide antibiotic selection in practice"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch50",
+        "GG14 ch56"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "mechanism",
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-070",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Antimicrobial drug assay (in vitro susceptibility and potency)",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Empirical therapy starts first; definitive identification and susceptibility are usually delayed by 24-48 h",
+            "Susceptibility testing guides the definitive choice"
+          ]
+        },
+        {
+          "h": "Susceptibility methods",
+          "points": [
+            "Disk diffusion: bacterial lawn plus antibiotic disks; zone of inhibition read after 12-24 h",
+            "Dilution (MIC): doubling concentrations, visible growth read after 18-24 h; commercial platforms automate it"
+          ]
+        },
+        {
+          "h": "Interpretation",
+          "points": [
+            "Compare the MIC with the consensus breakpoint for the drug-organism pair",
+            "MBC-to-MIC ratio separates bactericidal from bacteriostatic action"
+          ]
+        },
+        {
+          "h": "Potency assay",
+          "points": [
+            "Bioassay compares the log dose-response curve of the sample with that of a standard (indirect assay)",
+            "Microorganisms are among the test systems in bioassays; biostandardisation adjusts strength to the standard",
+            "Semisynthetic penicillins are dosed by weight; MIC is given in mcg/mL"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Large molecules diffuse poorly in laboratory agar, making some susceptibility tests difficult",
+            "Rapid PCR tests can detect resistance genes within 2 h at the point of care"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "In vitro assays link drug activity to clinical choice of antimicrobial"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch56",
+        "KDT8 ch50",
+        "Satoskar Pharmacology PDF p158",
+        "Satoskar Pharmacology PDF p159",
+        "Katzung16 ch43",
+        "Bennett PDF p202"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-biochemical-071",
+      "type": "basic",
+      "level": 1,
+      "front": "Define a biomarker in clinical pharmacology.",
+      "back": "A characteristic objectively measured as an indicator of normal or pathogenic processes, or of a pharmacological response to treatment.",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-biochemical-072",
+      "type": "basic",
+      "level": 1,
+      "front": "Define a surrogate marker.",
+      "back": "A biomarker intended to substitute for a clinical endpoint; expected to predict clinical benefit, harm or lack of either.",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36",
+        "Bioequivalence & Statistics PDF p287"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-biochemical-073",
+      "type": "basic",
+      "level": 1,
+      "front": "Give an example of a surrogate marker of clinical benefit.",
+      "back": "Blood pressure: lowering it improves survival in hypertensive patients.",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-074",
+      "type": "basic",
+      "level": 2,
+      "front": "Why was reduced ventricular premature depolarisation a misleading surrogate?",
+      "back": "Flecainide and encainide reduced ventricular premature depolarisations, but the CAST trial showed they increased mortality after myocardial infarction.",
+      "refs": [
+        "GG14 PDF p166",
+        "KDT8 PDF p585"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p1-biochemical-075",
+      "type": "basic",
+      "level": 2,
+      "front": "Name the genetic tests the book cites before prescribing.",
+      "back": "HLA-B*1502 before carbamazepine (Asian ancestry); G6PD deficiency before rasburicase (African or Mediterranean ancestry); VKORC1 (AA variant) with CYP2C9 to guide initial warfarin dose.",
+      "refs": [
+        "GG14 PDF p71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p1-biochemical-076",
+      "type": "basic",
+      "level": 2,
+      "front": "Name the two endogenous biomarkers used in transporter drug-drug interaction studies.",
+      "back": "Coproporphyrin-I for OATP1B-mediated hepatic uptake; N-methylnicotinamide for renal OCT2/MATE transport.",
+      "refs": [
+        "GG14 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "p1-biochemical-078",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Surrogate endpoint versus clinical endpoint",
+      "sections": [
+        {
+          "h": "Clinical endpoint",
+          "points": [
+            "Measures how a patient feels, functions or survives",
+            "Ultimate outcome (survival, serious morbidity) or intermediate endpoint with real benefit"
+          ]
+        },
+        {
+          "h": "Surrogate",
+          "points": [
+            "A subset of biomarkers that substitutes for a clinical endpoint",
+            "Examples in premarketing trials: blood pressure, lipid levels, HbA1c, CD4 count"
+          ]
+        },
+        {
+          "h": "Pitfall",
+          "points": [
+            "Flecainide reduced ventricular premature depolarisations yet increased mortality (CAST)",
+            "HDL raised but not validated as a surrogate"
+          ]
+        },
+        {
+          "h": "Validation",
+          "points": [
+            "Needs biological plausibility and validation before a biomarker is accepted as surrogate"
+          ]
+        }
+      ],
+      "refs": [
+        "Bioequivalence & Statistics PDF p287",
+        "GG14 PDF p166",
+        "Bioequivalence & Statistics PDF p36"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "adr",
+        "classification"
+      ]
+    },
+    {
+      "id": "p1-biochemical-079",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Biomarkers in clinical evaluation of new drugs",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Biomarker: objectively measured indicator; surrogate marker: substitute for a clinical endpoint"
+          ]
+        },
+        {
+          "h": "Types",
+          "points": [
+            "Genetic and pharmacogenomic markers (e.g. BRAF V600E for vemurafenib; HER2 for trastuzumab; Philadelphia chromosome for imatinib)",
+            "Endogenous probes for drug-drug interaction (coproporphyrin-I, N-methylnicotinamide)",
+            "Diagnostic or prognostic markers (NT-proBNP)"
+          ]
+        },
+        {
+          "h": "Role in development",
+          "points": [
+            "Early-phase biomarkers characterise pharmacodynamic effects and a safe dose range before phase II/III",
+            "LDL decrease in a sub-chronic dosing study used as surrogate; QTc used as a safety biomarker"
+          ]
+        },
+        {
+          "h": "Validation and pitfalls",
+          "points": [
+            "Biological plausibility and validation needed before surrogate use",
+            "Phase I biomarker changes in healthy volunteers should not be over-interpreted",
+            "Trial endpoints, including surrogate markers, must be fixed in advance"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Biomarkers guide dose selection and early decisions, but clinical endpoints still confirm benefit"
+          ]
+        }
+      ],
+      "refs": [
+        "Bioequivalence & Statistics PDF p36",
+        "Bioequivalence & Statistics PDF p287",
+        "Bioequivalence & Statistics PDF p291",
+        "Bioequivalence & Statistics PDF p294",
+        "GG14 ch3",
+        "GG14 ch4",
+        "GG14 PDF p166",
+        "KDT8 ch5",
+        "Katzung16 ch13"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-biochemical-drug-levels",
+      "tags": [
+        "mechanism",
+        "uses"
+      ]
+    },
+    {
+      "id": "p1-biochemical-080",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p1-biochemical-drug-levels",
+      "front": "Essay: Omics in diagnosis and therapy",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Each omics layer measures a whole set at once: genes, transcripts, proteins or metabolites",
+            "Proteome = quantitative protein expression profile of a cell, organism or tissue; metabolome = all metabolites in a cell"
+          ]
+        },
+        {
+          "h": "Diagnosis",
+          "points": [
+            "Expression proteomics compares diseased and normal tissue (e.g. tumour vs normal) using 2D gel electrophoresis and mass spectrometry",
+            "Proteins linked to metastasis are useful as biomarkers in oncology",
+            "Metabolic fingerprints in urine reveal liver, kidney and CNS toxicity"
+          ]
+        },
+        {
+          "h": "Therapy",
+          "points": [
+            "Omics data are mined for proteins expressed at abnormal levels in disease, which may suggest drug targets",
+            "Pharmacogenetics studies the genetic basis of variation in drug response, guiding drug choice and dose",
+            "Metabolic profiles of a drug candidate can show toxicity before costly human trials",
+            "Biomarkers can monitor drug efficacy and toxicity"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Proteome changes with time and environment, whereas the genome is nearly constant, so proteomics is harder than genomics",
+            "Raw mass-spectral and metabolite data need bioinformatics to interpret",
+            "Metabolite profiles are confounded by diet, drugs and gut microflora"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Omics add molecular detail to diagnosis and drug selection, but interpretation depends on bioinformatics"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p146-150",
+        "GG14 ch1",
+        "GG14 ch3",
+        "GG14 ch5",
+        "GG14 ch7",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-biochemical-081",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p1-biochemical-chromatography",
+      "front": "What is metabolic profiling?",
+      "back": "Measuring many small-molecule metabolites in a sample at once to fingerprint the body's state, for example toxic injury to liver or kidney.",
+      "refs": [
+        "Sarkar p146-150"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-biochemical-082",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p1-biochemical-chromatography",
+      "front": "How can metabolic profiling help a new drug candidate before clinical trials?",
+      "back": "Metabolite fingerprints in animal urine or plasma show organ toxicity, so a toxic candidate can be dropped before expensive human trials.",
+      "refs": [
+        "Sarkar p146-150",
+        "GG14 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "adr"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-biochemical-083",
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p1-biochemical-chromatography",
+      "front": "Short note: Metabolic profiling (metabolomics)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Study of metabolites (small molecules such as sugars, lipids, amino acids and their derivatives) in cells, fluids or tissues"
+          ]
+        },
+        {
+          "h": "Steps",
+          "points": [
+            "Sample collection and preparation",
+            "Separation and detection",
+            "Data mining and extraction",
+            "Data analysis"
+          ]
+        },
+        {
+          "h": "Detection",
+          "points": [
+            "Mass spectrometry (GC-MS, LC-MS/MS) and NMR are the most used",
+            "NMR needs no prior separation, so the sample can be recovered"
+          ]
+        },
+        {
+          "h": "Approaches",
+          "points": [
+            "Target analysis: a known small set of metabolites",
+            "Metabolite profiling: known and unknown compounds in a class",
+            "Metabolomics: as many metabolites as possible",
+            "Metabolic fingerprinting: a pattern per sample, compared to find differences"
+          ]
+        },
+        {
+          "h": "Drug development",
+          "points": [
+            "Toxicity assessment from metabolic changes, e.g. liver or kidney injury",
+            "Biomarkers of drug efficacy and toxicity; monitoring drug metabolism",
+            "Early elimination of toxic candidates saves trial cost"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p146-150",
+        "GG14 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "status": "draft"
     }
   ]
 }

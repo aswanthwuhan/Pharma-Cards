@@ -136,3 +136,55 @@ pr-teaching-022 | unsourced | NMC MD Pharmacology curriculum PDF p22 (+ WEB kept
 pr-teaching-023 | unsourced | none (UNSOURCED) | MCQ construction not found in owner books
 pr-teaching-024 | unsourced | WEB Cureus 2026 (kept), UNSOURCED | structured-essay rules not in owner books
 pr-teaching-025 | unsourced | NMC MD Pharmacology 2022 curriculum (kept), WEB Br J Clin Pharmacol (kept), UNSOURCED | NMC supports timely, frequent feedback only
+
+## Difficulty ladder pass
+Levels set on all 43 existing cards (ids unchanged, no content change). New cards below are unsourced (owner approved).
+
+| id | status | source |
+|---|---|---|
+| pr-teaching-044 | new | UNSOURCED - owner must verify |
+| pr-teaching-045 | new | UNSOURCED - owner must verify |
+| pr-teaching-046 | new | UNSOURCED - owner must verify |
+| pr-teaching-047 | new | UNSOURCED - owner must verify |
+| pr-teaching-048 | new | UNSOURCED - owner must verify |
+| pr-teaching-049 | new | UNSOURCED - owner must verify |
+| pr-teaching-050 | new | UNSOURCED - owner must verify |
+| pr-teaching-051 | new | UNSOURCED - owner must verify |
+
+| (all 51) | corrected | levels verified, ladder complete, deck reordered by subtopic/level; no pyq matches found |
+
+## Checker (independent pass, 2026-11-03)
+
+Checked against NMC MD Pharmacology 2022 curriculum text and PGMER 2023 text (Curriculum-related documents).
+
+| id | status | source |
+|---|---|---|
+| pr-teaching-001 | ok | NMC practical exam, teaching/presentation skills |
+| pr-teaching-004 | ok | NMC competency domains; practical psychomotor, viva psychomotor and affective |
+| pr-teaching-013 | ok | NMC teaching-learning methods list |
+| pr-teaching-014 | ok | NMC lab work: DOAP |
+| pr-teaching-015 | ok | NMC journal club and seminar 1-2 weeks, symposium 3 months, grading |
+| pr-teaching-016 | corrected ref | was "PDF p14" (no page in text); now NMC teaching-learning methods A (10 lectures/yr, sparingly) |
+| pr-teaching-019 | corrected ref | removed unverified Sarkar p281-285; NMC animal-experiments note kept (3Rs only as NMC training topic) |
+| pr-teaching-020 | ok | PGMER 8.1; NMC quarterly internal assessment |
+| pr-teaching-022 | corrected ref | was "PDF p22" (no page in text); now NMC practical exam component d (question paper) |
+| pr-teaching-029 | ok | NMC: two teaching-skill sessions per year; log book signed by HOD |
+| pr-teaching-031 | ok | NMC: MEU/DOME |
+| pr-teaching-033 | ok | NMC competency A Teaching and Assessment 1-2 |
+| pr-teaching-035 | ok | PGMER 8.1 |
+| pr-teaching-036 | ok | NMC theory Paper III |
+| pr-teaching-037 | ok | NMC internal assessment quarterly |
+| pr-teaching-038 | ok | NMC viva: psychomotor and affective |
+| pr-teaching-039 | ok | NMC thesis: 3 examiners (1 internal, 2 external), 6 months before exam |
+| pr-teaching-040 | ok | PGMER 2023: 5% (20 of 400 marks) dissertation, external examiner outside state |
+| pr-teaching-041 | ok | PGMER 8.3 theory forms |
+| pr-teaching-042 | ok | NMC psychomotor mandatory 6 |
+| pr-teaching-043 | ok | NMC psychomotor mandatory 9 |
+| pr-teaching-024 | ok (WEB part) | Cureus structured viva ref only; rest UNSOURCED |
+| pr-teaching-052 | new (exam gap) | NMC/PGMER: four theory papers, Paper I basic sciences, Paper IV recent advances |
+
+Ladder check: every subtopic has at least 3 L1, 2 L2, 1 L3 (objectives 5/2/1, lesson-plan 3/2/1, methods 5/2/1, assessment 10/5/1, feedback 4/2/1, training 4/2/1). L2 cards build on L1 cards. No changes needed.
+
+Prep / RR5 check: no Prep or RR5 refs in deck or rapid files.
+
+Unverified (owner must check): WEB refs for microteaching, feedback, and viva; the "UNSOURCED" items (002, 003, 005, 006, 007, 008, 012, 017, 018, 023, 044-051). Note: the NMC text does not support the SMART or Bloom cards.

@@ -15,23 +15,8 @@
       "subtopic": "p2-sedatives-aed-sleep-barbiturates",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-002",
-      "type": "basic",
-      "front": "Why are benzodiazepines safer than barbiturates?",
-      "back": "Benzodiazepines are selective modulators rather than global CNS depressants, so their depression has a lower ceiling. Even large overdoses usually leave consciousness and breathing largely intact, whereas barbiturate overdose causes coma and respiratory failure. They also distort sleep architecture less, cause less rebound and dependence, and do not induce hepatic enzymes the way barbiturates do.",
-      "refs": [
-        "KDT8 ch29"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
+      "level": 1
     },
     {
       "id": "p2-sedatives-aed-003",
@@ -46,7 +31,23 @@
       "subtopic": "p2-sedatives-aed-sleep-barbiturates",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-022",
+      "type": "cloze",
+      "front": "Classify: sleep stages",
+      "text": "Stage {{2}} forms the largest share of sleep (about {{40 to 50%}}), stages {{3 and 4}} together are called {{slow-wave sleep}}, and {{REM}} sleep takes about {{20 to 30%}} of the night.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p2-sedatives-aed-004",
@@ -61,7 +62,8 @@
       "subtopic": "p2-sedatives-aed-sleep-barbiturates",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-005",
@@ -76,7 +78,8 @@
       "subtopic": "p2-sedatives-aed-sleep-barbiturates",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-006",
@@ -91,7 +94,8 @@
       "subtopic": "p2-sedatives-aed-sleep-barbiturates",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-007",
@@ -106,183 +110,8 @@
       "subtopic": "p2-sedatives-aed-sleep-barbiturates",
       "tags": [
         "poisoning"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-008",
-      "type": "basic",
-      "front": "Classify the drugs acting at the benzodiazepine site: agonist, inverse agonist and antagonist.",
-      "back": "Agonists such as diazepam increase GABA-induced chloride influx and produce sedation and anxiolysis. Inverse agonists such as DMCM reduce GABA action and are convulsant. Flumazenil is a competitive antagonist that blocks both, so it reverses both sedative and convulsant effects at this site. Picrotoxin blocks the chloride channel directly rather than acting at the benzodiazepine site.",
-      "refs": [
-        "KDT8 ch29"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-009",
-      "type": "basic",
-      "front": "Flumazenil: what is its profile and main uses?",
-      "back": "It is a benzodiazepine analogue with little intrinsic activity of its own. It acts within seconds after IV injection and lasts 1 to 2 hours, with an elimination half-life of about 1 hour, so resedation can occur. It is not given orally. Uses are reversal of benzodiazepine sedation after anaesthesia or procedures, and as an adjunct in benzodiazepine overdose alongside supportive care. It also reverses the hypnotic effect of zolpidem-type drugs.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "uses",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-010",
-      "type": "basic",
-      "front": "Why are zolpidem, zaleplon and eszopiclone called non-benzodiazepine hypnotics?",
-      "back": "They are chemically unrelated to benzodiazepines but act at benzodiazepine receptors that contain the alpha-1 subunit, which mediates hypnosis and amnesia. Because they lack meaningful anxiolytic, muscle relaxant and anticonvulsant action, their hypnotic effect is more selective. They have lower abuse potential, and their hypnotic action is reversed by flumazenil.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "mechanism",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-011",
-      "type": "basic",
-      "front": "How should a hypnotic be chosen for sleep-onset insomnia versus frequent night waking?",
-      "back": "For difficulty falling asleep, use a rapidly absorbed, short-acting agent taken late enough to avoid morning sedation. For frequent night waking, a longer-acting agent such as flurazepam or nitrazepam may be used, accepting some daytime sedation. Long-acting drugs and those with active metabolites accumulate on nightly use and cause next-morning impairment. Choose by pharmacokinetic profile, use the lowest effective dose and keep the course short.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "uses",
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-012",
-      "type": "basic",
-      "front": "What are the roles of melatonin and ramelteon in sleep disorders?",
-      "back": "Melatonin acts on MT1 and MT2 receptors to set the timing of the sleep-wake cycle. Low doses (2 to 10 mg) mainly shift the propensity to sleep, which helps jet lag, shift work and delayed sleep phase syndrome, but it is not a dependable hypnotic. Ramelteon is a selective MT1/MT2 agonist taken about 30 minutes before bed for sleep-onset insomnia. It has no GABA action and no benzodiazepine-type effects, and CYP inhibitors such as fluvoxamine raise its levels.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "uses",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-013",
-      "type": "shortnote",
-      "front": "Short note: Adverse effects and dependence of benzodiazepine hypnotics",
-      "sections": [
-        {
-          "h": "Hypnotic-dose effects",
-          "points": [
-            "Dizziness, ataxia, disorientation and anterograde amnesia",
-            "Slowed reaction time: unsafe to drive the next day",
-            "Hangover is less common than with barbiturates but occurs with long-acting drugs or larger doses"
-          ]
-        },
-        {
-          "h": "Special reactions",
-          "points": [
-            "Complex sleep behaviours (sleepwalking, sleep driving) with no memory of the event",
-            "Paradoxical excitement, irritability and nightmares, especially with flurazepam and nitrazepam",
-            "Older patients are more prone to psychomotor effects"
-          ]
-        },
-        {
-          "h": "Tolerance and dependence",
-          "points": [
-            "Tolerance to sedation develops, but dose escalation is uncommon",
-            "Low abuse liability; drug seeking is not prominent",
-            "Withdrawal is usually mild: anxiety, insomnia, restlessness; convulsions are rare"
-          ]
-        },
-        {
-          "h": "Precautions",
-          "points": [
-            "Worsen obstructive sleep apnoea: avoid",
-            "Additive CNS depression with alcohol and other depressants",
-            "Caution with sodium valproate, where psychotic symptoms have been reported"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-014",
-      "type": "shortnote",
-      "front": "Short note: Non-benzodiazepine hypnotics",
-      "sections": [
-        {
-          "h": "Zolpidem",
-          "points": [
-            "Alpha-1 selective; shortens sleep latency and lengthens sleep",
-            "Little effect on slow-wave sleep; little rebound or fading on nightly use",
-            "Half-life about 2 hours; dose 5 to 10 mg at bedtime, lower in the elderly and liver disease",
-            "Short-term use (1 to 2 weeks)"
-          ]
-        },
-        {
-          "h": "Zaleplon",
-          "points": [
-            "Shortest-acting; half-life about 1 hour; oral bioavailability about 30%",
-            "Effective only for sleep-onset insomnia; does not prolong total sleep",
-            "Can be taken late at night, at least 4 hours before waking"
-          ]
-        },
-        {
-          "h": "Zopiclone and eszopiclone",
-          "points": [
-            "Zopiclone: half-life 5 to 6 hours, metallic taste, dose reduced in the elderly",
-            "Eszopiclone is the active S-enantiomer; prolongs stage 2 sleep",
-            "Both are metabolised by CYP3A4; reduce the dose when CYP3A4 inhibitors are given"
-          ]
-        },
-        {
-          "h": "Shared features",
-          "points": [
-            "Chemically unrelated to benzodiazepines but reversed by flumazenil",
-            "Lower abuse potential and dependence than classic benzodiazepines",
-            "Limit use to short courses"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "newer-drugs",
-        "pk"
-      ]
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-015",
@@ -329,7 +158,267 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-058",
+      "type": "shortnote",
+      "front": "Short note: Barbiturate mechanism at GABA-A receptor",
+      "sections": [
+        {
+          "h": "Site",
+          "points": [
+            "Binds a site distinct from the benzodiazepine site, on the alpha or beta subunit"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Prolongs the lifetime of GABA-opened Cl- channels (benzodiazepines increase opening frequency)",
+            "At high concentrations directly opens Cl- channels (GABA-mimetic)",
+            "Also reduces glutamate AMPA responses and Ca2+-dependent transmitter release"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-060",
+      "type": "shortnote",
+      "front": "Short note: Barbiturate poisoning: treatment and why dialysis works",
+      "sections": [
+        {
+          "h": "Features",
+          "points": [
+            "Flabby coma, shallow respiration, falling BP, cardiovascular collapse, renal shutdown, bullous eruptions"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Gastric lavage and activated charcoal; airway and ventilation; fluids and vasopressors (dopamine favoured for renal vasodilation)",
+            "Alkaline diuresis (sodium bicarbonate) helps only long-acting barbiturates eliminated renally",
+            "Haemodialysis or haemoperfusion over charcoal removes both long and short acting barbiturates; no specific antidote"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
+      "tags": [
+        "poisoning"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-061",
+      "type": "shortnote",
+      "front": "Short note: Barbiturate enzyme induction and interactions",
+      "sections": [
+        {
+          "h": "Induction",
+          "points": [
+            "Induces several CYP isoenzymes (CYP3A4/5, CYP2D6, CYP2C8/9, CYP2B6) and UGTs; also autoinduces",
+            "Reduces effect of warfarin, steroids including contraceptives, tolbutamide, griseofulvin, chloramphenicol, theophylline"
+          ]
+        },
+        {
+          "h": "Additive depression",
+          "points": [
+            "With alcohol, antihistamines and opioids"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
+      "tags": [
+        "interactions"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-057",
+      "type": "shortnote",
+      "front": "Short note: Barbiturates: CNS actions, tolerance and why they were replaced",
+      "sections": [
+        {
+          "h": "Actions",
+          "points": [
+            "Dose-dependent CNS depression: sedation, sleep, anaesthesia, coma",
+            "Hangover, impaired learning and memory; no selective anxiolytic action"
+          ]
+        },
+        {
+          "h": "Tolerance and dependence",
+          "points": [
+            "Cellular and enzyme-induction tolerance; fatal dose not greatly increased",
+            "Withdrawal: excitement, hallucinations, delirium, convulsions; deaths reported"
+          ]
+        },
+        {
+          "h": "Why replaced",
+          "points": [
+            "Narrow margin and abuse liability; benzodiazepines have a higher therapeutic index, lower ceiling depression and less enzyme induction"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p2-sedatives-aed-002",
+      "type": "basic",
+      "front": "Why are benzodiazepines safer than barbiturates?",
+      "back": "Benzodiazepines are selective modulators rather than global CNS depressants, so their depression has a lower ceiling. Even large overdoses usually leave consciousness and breathing largely intact, whereas barbiturate overdose causes coma and respiratory failure. They also distort sleep architecture less, cause less rebound and dependence, and do not induce hepatic enzymes the way barbiturates do.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-008",
+      "type": "basic",
+      "front": "Classify the drugs acting at the benzodiazepine site: agonist, inverse agonist and antagonist.",
+      "back": "Agonists such as diazepam increase GABA-induced chloride influx and produce sedation and anxiolysis. Inverse agonists such as DMCM reduce GABA action and are convulsant. Flumazenil is a competitive antagonist that blocks both, so it reverses both sedative and convulsant effects at this site. Picrotoxin blocks the chloride channel directly rather than acting at the benzodiazepine site.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-021",
+      "type": "cloze",
+      "front": "Classify: drugs at the GABA-A complex",
+      "text": "Benzodiazepines increase the {{frequency}} of chloride channel opening, barbiturates increase its {{duration}}, and {{flumazenil}} is the competitive antagonist at the benzodiazepine site.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-068",
+      "type": "cloze",
+      "front": "Benzodiazepine receptor and anticonvulsant facts",
+      "text": "Flumazenil is a {{competitive}} BZD antagonist; zaleplon and zolpidem bind the {{alpha-1}} subunit isoform; the BZD receptor increases the {{frequency}} of Cl- channel opening.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-009",
+      "type": "basic",
+      "front": "Flumazenil: what is its profile and main uses?",
+      "back": "It is a benzodiazepine analogue with little intrinsic activity of its own. It acts within seconds after IV injection and lasts 1 to 2 hours, with an elimination half-life of about 1 hour, so resedation can occur. It is not given orally. Uses are reversal of benzodiazepine sedation after anaesthesia or procedures, and as an adjunct in benzodiazepine overdose alongside supportive care. It also reverses the hypnotic effect of zolpidem-type drugs.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-013",
+      "type": "shortnote",
+      "front": "Short note: Adverse effects and dependence of benzodiazepine hypnotics",
+      "sections": [
+        {
+          "h": "Hypnotic-dose effects",
+          "points": [
+            "Dizziness, ataxia, disorientation and anterograde amnesia",
+            "Slowed reaction time: unsafe to drive the next day",
+            "Hangover is less common than with barbiturates but occurs with long-acting drugs or larger doses"
+          ]
+        },
+        {
+          "h": "Special reactions",
+          "points": [
+            "Complex sleep behaviours (sleepwalking, sleep driving) with no memory of the event",
+            "Paradoxical excitement, irritability and nightmares, especially with flurazepam and nitrazepam",
+            "Older patients are more prone to psychomotor effects"
+          ]
+        },
+        {
+          "h": "Tolerance and dependence",
+          "points": [
+            "Tolerance to sedation develops, but dose escalation is uncommon",
+            "Low abuse liability; drug seeking is not prominent",
+            "Withdrawal is usually mild: anxiety, insomnia, restlessness; convulsions are rare"
+          ]
+        },
+        {
+          "h": "Precautions",
+          "points": [
+            "Worsen obstructive sleep apnoea: avoid",
+            "Additive CNS depression with alcohol and other depressants",
+            "Caution with sodium valproate, where psychotic symptoms have been reported"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-016",
@@ -375,51 +464,119 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-sedatives-aed-017",
+      "id": "p2-sedatives-aed-059",
+      "type": "basic",
+      "front": "Why do barbiturates have a steeper toxicity risk than benzodiazepines?",
+      "back": "Barbiturates are general CNS depressants that depress respiration, lower BP and cardiac output at higher doses, and cause respiratory failure and collapse. Benzodiazepines have a lower ceiling of CNS depression and a high therapeutic index; patients stay arousable and seldom need assisted breathing.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "adr",
+        "poisoning"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-062",
       "type": "shortnote",
-      "front": "Short note: Hypnotic use in special situations",
+      "front": "Short note: Benzodiazepine receptor and GABA-A modulation (agonists, inverse agonists, flumazenil)",
       "sections": [
         {
-          "h": "Elderly",
+          "h": "Complex",
           "points": [
-            "More prone to next-day sedation, ataxia and confusion",
-            "Prefer short-acting agents with no active metabolite; use reduced doses"
+            "Pentameric Cl- channel; BZD site lies at the alpha-gamma interface; GABA binds at alpha-beta",
+            "BZDs increase the frequency of Cl- opening; they do not open the channel themselves"
           ]
         },
         {
-          "h": "Obstructive sleep apnoea",
+          "h": "Ligands",
           "points": [
-            "All hypnotics can worsen apnoea and are contraindicated",
-            "Treat the apnoea and address daytime sleepiness"
+            "Agonists (diazepam) facilitate GABA; inverse agonists (DMCM) hinder it and are convulsant",
+            "Flumazenil is a competitive antagonist that blocks both sedative BZD action and DMCM convulsions"
           ]
         },
         {
-          "h": "Pregnancy and labour",
+          "h": "Subtypes",
           "points": [
-            "An earlier link with birth defects has been disputed",
-            "Use during labour can cause neonatal flaccidity and respiratory depression"
-          ]
-        },
-        {
-          "h": "Depression and alcohol",
-          "points": [
-            "Depression can worsen on hypnotics; treat the underlying disorder",
-            "Alcohol synergises with hypnotic CNS depression"
+            "alpha-1 subunit: sedation, hypnosis, amnesia; alpha-2 and alpha-3: anxiolysis and muscle relaxation",
+            "Zaleplon and zolpidem bind alpha-1 selectively: hypnotic without much anticonvulsant or relaxant effect"
           ]
         }
       ],
       "refs": [
         "KDT8 ch29"
       ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-hypnotics",
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
       "tags": [
-        "uses",
-        "contraindications"
-      ]
+        "mechanism",
+        "newer-drugs"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-065",
+      "type": "shortnote",
+      "front": "Short note: Benzodiazepine adverse effects, dependence and withdrawal",
+      "sections": [
+        {
+          "h": "Hypnotic-dose effects",
+          "points": [
+            "Dizziness, vertigo, ataxia, amnesia, slowed reaction time: no driving",
+            "Sleep walking and sleep driving with no memory of events"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Elderly more susceptible to psychomotor effects; can aggravate sleep apnoea",
+            "Abuse liability lower than barbiturates; withdrawal milder but possible (alprazolam withdrawal marked)"
+          ]
+        },
+        {
+          "h": "Antidote",
+          "points": [
+            "Flumazenil, a specific BZD antagonist"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "adr",
+        "poisoning"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-067",
+      "type": "basic",
+      "front": "Why do benzodiazepines lower BP differently on i.v. injection?",
+      "back": "Diazepam and lorazepam lower BP by reducing cardiac output; midazolam lowers it mainly by decreasing peripheral resistance. Diazepam also dilates the coronary arteries transiently.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-018",
@@ -495,7 +652,8 @@
           "year": 2023,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p2-sedatives-aed-019",
@@ -559,7 +717,379 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-sedatives-aed-010",
+      "type": "basic",
+      "front": "Why are zolpidem, zaleplon and eszopiclone called non-benzodiazepine hypnotics?",
+      "back": "They are chemically unrelated to benzodiazepines but act at benzodiazepine receptors that contain the alpha-1 subunit, which mediates hypnosis and amnesia. Because they lack meaningful anxiolytic, muscle relaxant and anticonvulsant action, their hypnotic effect is more selective. They have lower abuse potential, and their hypnotic action is reversed by flumazenil.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-012",
+      "type": "basic",
+      "front": "What are the roles of melatonin and ramelteon in sleep disorders?",
+      "back": "Melatonin acts on MT1 and MT2 receptors to set the timing of the sleep-wake cycle. Low doses (2 to 10 mg) mainly shift the propensity to sleep, which helps jet lag, shift work and delayed sleep phase syndrome, but it is not a dependable hypnotic. Ramelteon is a selective MT1/MT2 agonist taken about 30 minutes before bed for sleep-onset insomnia. It has no GABA action and no benzodiazepine-type effects, and CYP inhibitors such as fluvoxamine raise its levels.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-023",
+      "type": "cloze",
+      "front": "Classify: benzodiazepine hypnotics by duration",
+      "text": "Long-acting hypnotic benzodiazepines include {{flurazepam}} and {{nitrazepam}}; short-acting ones include {{triazolam}} and {{temazepam}}, and {{alprazolam}} is a short-acting agent with a short-lived active metabolite.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "classification",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-024",
+      "type": "cloze",
+      "front": "Classify: non-benzodiazepine and orexin-based hypnotics",
+      "text": "{{Zolpidem}} and {{zaleplon}} act on alpha-1 containing benzodiazepine receptors; {{zopiclone}} has a half-life of about {{5 to 6 hours}}; {{suvorexant}} is a dual {{orexin}} receptor antagonist.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-025",
+      "type": "cloze",
+      "front": "Classify: melatonin receptor agents",
+      "text": "Melatonin acts on {{MT1 and MT2}} receptors; {{ramelteon}} is a selective agonist at these receptors, taken about {{30 minutes}} before bed for {{sleep-onset}} insomnia.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-055",
+      "type": "shortnote",
+      "front": "Short note: Sedation, hypnosis and general anaesthesia as grades of CNS depression",
+      "sections": [
+        {
+          "h": "Definitions",
+          "points": [
+            "Sedative: calms and subdues excitement without sleep; decreased responsiveness and alertness",
+            "Hypnotic: induces and maintains sleep resembling normal arousable sleep"
+          ]
+        },
+        {
+          "h": "Distinction",
+          "points": [
+            "Hypnotics have quick onset, short duration and steep dose-response; sedatives are slower with flatter curves",
+            "High hypnotic doses produce general anaesthesia; a low hypnotic dose may act as a sedative"
+          ]
+        },
+        {
+          "h": "Insomnia",
+          "points": [
+            "Treatment of insomnia is the most important use of this drug class"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-011",
+      "type": "basic",
+      "front": "How should a hypnotic be chosen for sleep-onset insomnia versus frequent night waking?",
+      "back": "For difficulty falling asleep, use a rapidly absorbed, short-acting agent taken late enough to avoid morning sedation. For frequent night waking, a longer-acting agent such as flurazepam or nitrazepam may be used, accepting some daytime sedation. Long-acting drugs and those with active metabolites accumulate on nightly use and cause next-morning impairment. Choose by pharmacokinetic profile, use the lowest effective dose and keep the course short.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "uses",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-014",
+      "type": "shortnote",
+      "front": "Short note: Non-benzodiazepine hypnotics",
+      "sections": [
+        {
+          "h": "Zolpidem",
+          "points": [
+            "Alpha-1 selective; shortens sleep latency and lengthens sleep",
+            "Little effect on slow-wave sleep; little rebound or fading on nightly use",
+            "Half-life about 2 hours; dose 5 to 10 mg at bedtime, lower in the elderly and liver disease",
+            "Short-term use (1 to 2 weeks)"
+          ]
+        },
+        {
+          "h": "Zaleplon",
+          "points": [
+            "Shortest-acting; half-life about 1 hour; oral bioavailability about 30%",
+            "Effective only for sleep-onset insomnia; does not prolong total sleep",
+            "Can be taken late at night, at least 4 hours before waking"
+          ]
+        },
+        {
+          "h": "Zopiclone and eszopiclone",
+          "points": [
+            "Zopiclone: half-life 5 to 6 hours, metallic taste, dose reduced in the elderly",
+            "Eszopiclone is the active S-enantiomer; prolongs stage 2 sleep",
+            "Both are metabolised by CYP3A4; reduce the dose when CYP3A4 inhibitors are given"
+          ]
+        },
+        {
+          "h": "Shared features",
+          "points": [
+            "Chemically unrelated to benzodiazepines but reversed by flumazenil",
+            "Lower abuse potential and dependence than classic benzodiazepines",
+            "Limit use to short courses"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "newer-drugs",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-017",
+      "type": "shortnote",
+      "front": "Short note: Hypnotic use in special situations",
+      "sections": [
+        {
+          "h": "Elderly",
+          "points": [
+            "More prone to next-day sedation, ataxia and confusion",
+            "Prefer short-acting agents with no active metabolite; use reduced doses"
+          ]
+        },
+        {
+          "h": "Obstructive sleep apnoea",
+          "points": [
+            "All hypnotics can worsen apnoea and are contraindicated",
+            "Treat the apnoea and address daytime sleepiness"
+          ]
+        },
+        {
+          "h": "Pregnancy and labour",
+          "points": [
+            "An earlier link with birth defects has been disputed",
+            "Use during labour can cause neonatal flaccidity and respiratory depression"
+          ]
+        },
+        {
+          "h": "Depression and alcohol",
+          "points": [
+            "Depression can worsen on hypnotics; treat the underlying disorder",
+            "Alcohol synergises with hypnotic CNS depression"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-054",
+      "type": "shortnote",
+      "front": "Short note: Non-benzodiazepine hypnotics",
+      "sections": [
+        {
+          "h": "Examples",
+          "points": [
+            "Zolpidem and zaleplon"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Structurally non-BZD but selective BZD-receptor agonists, with high affinity for the alpha1 subunit isoform",
+            "Give selective hypnotic and amnesic effect"
+          ]
+        },
+        {
+          "h": "Clinical",
+          "points": [
+            "Zolpidem: pronounced hypnotic effect; sleep latency is short",
+            "Used for insomnia"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-056",
+      "type": "shortnote",
+      "front": "Short note: Stages of normal sleep and drug effects on them",
+      "sections": [
+        {
+          "h": "Stages",
+          "points": [
+            "Stage 1 (dozing) 3 to 6%; stage 2 (unequivocal sleep) 40 to 50%, spindles and K complexes",
+            "Stages 3 and 4 (slow wave sleep) 5 to 8% and 10 to 20%; difficult to arouse",
+            "REM (paradoxical) 20 to 30%; dreams, irregular eye movement, erection in males"
+          ]
+        },
+        {
+          "h": "Cycle",
+          "points": [
+            "Stages 0 to 4 and REM recur over 80 to 100 min"
+          ]
+        },
+        {
+          "h": "Drug effects",
+          "points": [
+            "Benzodiazepines lengthen stage 2 and shorten stages 3 and 4; they distort architecture less than barbiturates",
+            "Barbiturates cut REM and stages 3 and 4; rebound REM and nightmares follow withdrawal"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-063",
+      "type": "shortnote",
+      "front": "Short note: Benzodiazepine pharmacokinetics and choice of hypnotic",
+      "sections": [
+        {
+          "h": "Lipid solubility",
+          "points": [
+            "Differ more than 50-fold; redistribution explains short action of lipophilic drugs despite long elimination half-life"
+          ]
+        },
+        {
+          "h": "Metabolism",
+          "points": [
+            "CYP3A4 and CYP2C19; active metabolites extend effect; glucuronide excretion; diazepam shows enterohepatic circulation"
+          ]
+        },
+        {
+          "h": "Choice",
+          "points": [
+            "Long acting (flurazepam, diazepam, nitrazepam): cumulate, risk of next-day sedation",
+            "Short acting (triazolam, temazepam, alprazolam): shorter effect, fewer residual effects",
+            "Elderly: avoid long acting drugs (flurazepam) for risk of ataxia and confusion"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-095",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "level": 2,
+      "tags": [
+        "contraindications"
+      ],
+      "front": "Why are hypnotics contraindicated in obstructive sleep apnoea?",
+      "back": "Patients with obstructive sleep apnoea already sleep poorly and feel sleepy by day; all hypnotics aggravate the apnoea, so they are contraindicated.",
+      "refs": [
+        "KDT8 ch29"
+      ],
+      "status": "draft"
     },
     {
       "id": "p2-sedatives-aed-020",
@@ -639,79 +1169,40 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-sedatives-aed-021",
-      "type": "cloze",
-      "front": "Classify: drugs at the GABA-A complex",
-      "text": "Benzodiazepines increase the {{frequency}} of chloride channel opening, barbiturates increase its {{duration}}, and {{flumazenil}} is the competitive antagonist at the benzodiazepine site.",
+      "id": "p2-sedatives-aed-064",
+      "type": "shortnote",
+      "front": "Short note: Triazolam, midazolam and the problem of short-acting hypnotics",
+      "sections": [
+        {
+          "h": "Triazolam",
+          "points": [
+            "Very potent; peak under 1 hour; good for induction but poor for maintenance",
+            "Rebound insomnia and early morning anxiety; withdrawn in the UK but used elsewhere for elderly, shift workers and travellers"
+          ]
+        },
+        {
+          "h": "Midazolam",
+          "points": [
+            "Peak about 20 minutes; ataxia and blackouts in the elderly; abuse liability",
+            "Not an oral hypnotic now; used as i.m. premedicant or i.v. anaesthetic"
+          ]
+        }
+      ],
       "refs": [
         "KDT8 ch29"
       ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-022",
-      "type": "cloze",
-      "front": "Classify: sleep stages",
-      "text": "Stage {{2}} forms the largest share of sleep (about {{40 to 50%}}), stages {{3 and 4}} together are called {{slow-wave sleep}}, and {{REM}} sleep takes about {{20 to 30%}} of the night.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-023",
-      "type": "cloze",
-      "front": "Classify: benzodiazepine hypnotics by duration",
-      "text": "Long-acting hypnotic benzodiazepines include {{flurazepam}} and {{nitrazepam}}; short-acting ones include {{triazolam}} and {{temazepam}}, and {{alprazolam}} is a short-acting agent with a short-lived active metabolite.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "status": "draft",
       "subtopic": "p2-sedatives-aed-hypnotics",
       "tags": [
-        "classification",
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-024",
-      "type": "cloze",
-      "front": "Classify: non-benzodiazepine and orexin-based hypnotics",
-      "text": "{{Zolpidem}} and {{zaleplon}} act on alpha-1 containing benzodiazepine receptors; {{zopiclone}} has a half-life of about {{5 to 6 hours}}; {{suvorexant}} is a dual {{orexin}} receptor antagonist.",
-      "refs": [
-        "KDT8 ch29"
+        "adr",
+        "uses"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "classification",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-025",
-      "type": "cloze",
-      "front": "Classify: melatonin receptor agents",
-      "text": "Melatonin acts on {{MT1 and MT2}} receptors; {{ramelteon}} is a selective agonist at these receptors, taken about {{30 minutes}} before bed for {{sleep-onset}} insomnia.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "classification"
-      ]
+      "level": 3
     },
     {
       "id": "p2-sedatives-aed-026",
@@ -726,274 +1217,79 @@
       "subtopic": "p2-sedatives-aed-epilepsy-basics",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-sedatives-aed-027",
-      "type": "basic",
-      "front": "How does phenytoin block seizures at the cellular level?",
-      "back": "It prolongs the inactivated state of voltage-gated sodium channels, which limits high-frequency repetitive firing while leaving normal low-frequency activity largely unchanged. At therapeutic levels it does not alter resting membrane potential or normal synaptic transmission. Its effects on glutamate release and calcium entry need higher concentrations, so their contribution is uncertain.",
+      "id": "p2-sedatives-aed-047",
+      "type": "cloze",
+      "front": "Classify: drugs for absence seizures",
+      "text": "{{Ethosuximide}} blocks the {{T-type calcium}} current in thalamocortical neurones; {{valproate}} is a first-line drug for absence seizures; {{clonazepam}} is used as an adjuvant but tolerance develops within about {{six months}}.",
       "refs": [
         "KDT8 ch30"
       ],
-      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-sedatives-aed-phenytoin",
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
       "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-028",
-      "type": "basic",
-      "front": "Why does phenytoin plasma level rise disproportionately with small dose increments?",
-      "back": "Its hepatic hydroxylation (mainly CYP2C9 and 2C19) is capacity limited, so clearance shifts from first-order to zero-order over the therapeutic range. Once levels exceed about 10 mcg/ml, the half-life lengthens from 12 to 24 hours towards about 60 hours. Small dose increases then produce large rises in concentration, so plasma level monitoring guides dosing.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-phenytoin",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-029",
-      "type": "basic",
-      "front": "List the chronic adverse effects of phenytoin.",
-      "back": "Gum hypertrophy is the commonest, more common in younger patients, and oral hygiene reduces it. Others are hirsutism, coarsening of facial features, acne, rashes or lupus-like reactions, and rarely neutropenia. Long-term use can cause megaloblastic anaemia through folate malabsorption and osteomalacia through impaired vitamin D activation. Exposure in pregnancy can cause foetal hydantoin syndrome.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-phenytoin",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-030",
-      "type": "basic",
-      "front": "Which drug is the first choice for trigeminal neuralgia, and why does it work?",
-      "back": "Carbamazepine. It selectively reduces high-frequency nerve firing that drives the temporal summation of pain impulses, so it has an almost diagnostic effect in these neuralgias, unlike a general analgesic. About 60% of patients respond well. Phenytoin, lamotrigine and baclofen are less effective alternatives, and gabapentin may be tried in non-responders. It is not useful for diabetic or other neuropathic pain.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "uses",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-031",
-      "type": "basic",
-      "front": "What happens to carbamazepine's half-life with chronic use, and which drugs does it affect?",
-      "back": "Its half-life falls from 20 to 40 hours at first to about 10 to 20 hours on chronic use, because it induces its own metabolism. It is oxidised to an active 10,11-epoxide and is an inducer of CYP3A4 and 2C9. It lowers levels of valproate, lamotrigine, oral contraceptives and haloperidol, and phenytoin and phenobarbitone induce it in turn. Erythromycin, fluoxetine and isoniazid raise its levels.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "pk",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-032",
-      "type": "basic",
-      "front": "What are the mechanisms and spectrum of valproate?",
-      "back": "Valproate is broad spectrum. It prolongs sodium channel inactivation in a frequency-dependent way, weakly reduces the T-type calcium current, raises brain GABA by inhibiting its breakdown and possibly by increasing synthesis, and blocks NMDA-type glutamate receptors. It is the drug of choice for absence, myoclonic and atonic seizures, and a first-line drug for generalised tonic-clonic and partial seizures.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "mechanism",
+        "classification",
         "uses"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-033",
-      "type": "basic",
-      "front": "What are the serious risks of valproate?",
-      "back": "Fulminant hepatitis is rare but serious and occurs mainly in children below 3 years, especially those with liver disease, on other antiseizure drugs or on other hepatotoxic drugs; liver function should be monitored. Given in pregnancy it has caused spina bifida and other neural tube defects, so it should be avoided. Concurrent carbamazepine raises the risk of foetal abnormalities. Concurrent clonazepam is contraindicated because absence status may be precipitated.",
-      "refs": [
-        "KDT8 ch30"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "adr"
-      ]
+      "level": 1
     },
     {
-      "id": "p2-sedatives-aed-034",
-      "type": "basic",
-      "front": "What are the key features of lamotrigine?",
-      "back": "It is a broad-spectrum drug with a carbamazepine-like profile: it prolongs sodium channel inactivation and may reduce the release of glutamate and aspartate. It is used for partial and generalised tonic-clonic seizures, and also for absence and myoclonic seizures. Valproate doubles its level by inhibiting glucuronidation, so the dose should be halved when valproate is added; lamotrigine in turn lowers valproate levels. A severe rash, especially in children, requires withdrawal.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-035",
-      "type": "basic",
-      "front": "Explain the mechanism and interaction profile of levetiracetam.",
-      "back": "It binds the synaptic vesicle protein SV2A, which may alter release of glutamate and GABA, and it inhibits N-type calcium channels. It is not oxidised by CYP enzymes and does not induce or inhibit them, so it has no pharmacokinetic interactions. It is mainly excreted unchanged in urine with a half-life of 6 to 8 hours. Side effects are sleepiness, dizziness, weakness and occasional behavioural change. It is not approved below 4 years.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-newer-antiseizure",
-      "tags": [
-        "mechanism",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-036",
-      "type": "basic",
-      "front": "What are the mechanism and main uses of gabapentin and pregabalin?",
-      "back": "They are GABA derivatives that do not act at GABA-A receptors. They modulate calcium channels containing the alpha-2-delta subunit, which may reduce glutamate release, and gabapentin may also enhance GABA release. They are add-on drugs for partial seizures. Gabapentin is first-line for neuralgic pain, such as diabetic neuropathy and postherpetic neuralgia. Gabapentin has no drug interactions and is excreted unchanged in urine, with a half-life of about 6 hours.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-newer-antiseizure",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-037",
-      "type": "basic",
-      "front": "What is the first-choice drug for status epilepticus, and what is the dose?",
-      "back": "IV lorazepam, 0.1 mg/kg (about 4 mg in adults), injected at no more than 2 mg/min. It can be repeated once after 10 minutes if needed. It controls seizures in 75 to 90% of cases with a sustained effect of 6 to 12 hours, because it is less lipid soluble and redistributes more slowly than diazepam. Thrombophlebitis is also less likely. The airway, glucose and oxygenation should be secured at the same time.",
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-status-epilepticus",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-038",
+      "id": "p2-sedatives-aed-069",
       "type": "shortnote",
-      "front": "Short note: Status epilepticus management",
+      "front": "Short note: Classification of epileptic seizures and the drug of choice for each",
       "sections": [
         {
-          "h": "Immediate measures",
+          "h": "Generalised",
           "points": [
-            "Maintain airway, oxygenation and intubation if needed",
-            "Give IV dextrose to correct possible hypoglycaemia",
-            "Monitor BP, cardiac rhythm, fluid and electrolytes"
+            "Tonic-clonic (GTCS), absence (3 Hz spike and wave, children), atonic, myoclonic, infantile spasms"
           ]
         },
         {
-          "h": "First line",
+          "h": "Partial",
           "points": [
-            "Lorazepam 0.1 mg/kg IV at no more than 2 mg/min; repeat once after 10 minutes",
-            "Diazepam 0.2 to 0.3 mg/kg IV is the older standard, but its effect fades after about 20 minutes and it damages the vein more",
-            "Rectal diazepam is used where IV access is not possible"
+            "Simple partial: consciousness kept; complex partial (temporal lobe): confusion and amnesia",
+            "Partial may secondarily generalise into GTCS"
           ]
         },
         {
-          "h": "Second line",
+          "h": "Drug choice",
           "points": [
-            "Fosphenytoin 100 to 150 mg/min IV up to 1000 mg, with ECG monitoring; given whatever the lorazepam response",
-            "Phenytoin only when fosphenytoin is unavailable, at 25 to 50 mg/min",
-            "Phenobarbitone 50 to 100 mg/min IV up to 10 mg/kg as an alternative"
-          ]
-        },
-        {
-          "h": "Refractory",
-          "points": [
-            "Failure of lorazepam and fosphenytoin within about 40 minutes of onset",
-            "Treat with IV midazolam, propofol or thiopentone anaesthesia, with or without curarisation, in intensive care"
+            "Absence: ethosuximide or valproate (valproate first-line)",
+            "Myoclonic: valproate most effective; atonic: valproate",
+            "CPS: carbamazepine most effective; GTCS and partial: carbamazepine, valproate, phenytoin"
           ]
         }
       ],
       "refs": [
         "KDT8 ch30"
       ],
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-sedatives-aed-status-epilepticus",
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-094",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
+      "level": 1,
       "tags": [
         "uses",
         "dosing"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-039",
-      "type": "shortnote",
-      "front": "Short note: Phenytoin - kinetics, toxicity and interactions",
-      "sections": [
-        {
-          "h": "Absorption and formulation",
-          "points": [
-            "Oral absorption is slow because of poor aqueous solubility; bioavailability varies between products",
-            "Fosphenytoin is a water-soluble prodrug; dosed as phenytoin equivalents"
-          ]
-        },
-        {
-          "h": "Kinetics",
-          "points": [
-            "Hydroxylation by CYP2C9 and 2C19 with capacity-limited, zero-order kinetics",
-            "Therapeutic range about 10 to 20 mcg/ml; toxicity above 20 mcg/ml (mild) and above 35 mcg/ml (severe)",
-            "Half-life lengthens sharply at high levels"
-          ]
-        },
-        {
-          "h": "Toxicity",
-          "points": [
-            "Chronic: gum hypertrophy, hirsutism, acne, folate deficiency, osteomalacia",
-            "Dose-related: nystagmus, ataxia, diplopia, drowsiness, confusion, nausea",
-            "Rapid IV injection: hypotension and arrhythmias; phlebitis; extravasation causes necrosis"
-          ]
-        },
-        {
-          "h": "Interactions",
-          "points": [
-            "Inducer of CYP2C8/9 and 3A4; competitive inhibitor of CYP2C9/19",
-            "Raised levels with valproate (protein displacement), chloramphenicol, isoniazid, cimetidine, warfarin",
-            "Reduced levels of oral contraceptives, steroids, doxycycline, theophylline; sucralfate reduces absorption"
-          ]
-        }
       ],
+      "front": "What are the key rules for starting and stopping antiseizure therapy?",
+      "back": "Start early with a single drug at low dose, raise gradually, and switch drugs by overlapping rather than abruptly. Combine drugs only after monotherapy fails, preferably with different mechanisms. Withdraw gradually (except for toxicity), since abrupt stoppage can precipitate status epilepticus.",
       "refs": [
         "KDT8 ch30"
       ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-phenytoin",
-      "tags": [
-        "pk",
-        "adr",
-        "interactions"
-      ]
+      "status": "draft"
     },
     {
       "id": "p2-sedatives-aed-040",
@@ -1040,7 +1336,8 @@
       "tags": [
         "contraindications",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-041",
@@ -1095,53 +1392,161 @@
       "subtopic": "p2-sedatives-aed-epilepsy-basics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-sedatives-aed-042",
+      "id": "p2-sedatives-aed-051",
       "type": "shortnote",
-      "front": "Short note: Newer antiseizure drugs grouped by mechanism",
+      "front": "Short note: Drugs used in absence seizures",
       "sections": [
         {
-          "h": "Sodium channel",
+          "h": "Drugs",
           "points": [
-            "Lacosamide: enhances slow inactivation; CYP2C19; adults only, add-on for partial seizures",
-            "Oxcarbazepine and eslicarbazepine: act through an active monohydroxy metabolite; eslicarbazepine once daily",
-            "Zonisamide also suppresses repetitive firing"
+            "Sodium valproate: drug of choice, and more often used than ethosuximide",
+            "Ethosuximide: primary indication is absence seizures; also approved for myoclonic seizures",
+            "Clonazepam: adjunct; some tolerance develops",
+            "Carbamazepine can worsen absence seizures"
           ]
         },
         {
-          "h": "GABA pathway",
+          "h": "Ethosuximide mechanism",
           "points": [
-            "Tiagabine blocks GAT-1 reuptake; add-on for partial seizures",
-            "Vigabatrin inhibits GABA transaminase; reserve drug, used in infantile spasms",
-            "Clobazam is a 1,5-benzodiazepine with a long-lived active metabolite"
+            "Selectively suppresses the T-type calcium current in thalamocortical neurones",
+            "Does not affect other calcium or sodium currents, which fits its narrow action"
           ]
         },
         {
-          "h": "Synaptic vesicle and calcium channels",
+          "h": "Pharmacokinetics",
           "points": [
-            "Levetiracetam binds SV2A; no CYP interactions",
-            "Gabapentin and pregabalin act on alpha-2-delta calcium channel subunits"
+            "Slowly absorbed; mainly hepatic metabolism; urinary excretion",
+            "Plasma half-life about 48 hours in adults and 32 hours in children"
           ]
         },
         {
-          "h": "Multiple mechanisms",
+          "h": "Adverse effects and cautions",
           "points": [
-            "Topiramate: weak carbonic anhydrase inhibitor, Na+ channel effects, GABA potentiation, glutamate antagonism; prophylaxis of migraine",
-            "Zonisamide: weak carbonic anhydrase inhibitor, T-type calcium current block; avoid in sulfonamide allergy"
+            "Dose-related GI upset, tiredness, drowsiness, mood change and poor concentration",
+            "Rashes, lupus-like reaction and blood dyscrasias are rare",
+            "Clonazepam with valproate is contraindicated: absence status may be precipitated"
           ]
         }
       ],
       "refs": [
         "KDT8 ch30"
       ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "tags": [
         "classification",
+        "uses",
+        "adr"
+      ],
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-053",
+      "type": "shortnote",
+      "front": "Short note: Drugs used in absence seizures",
+      "sections": [
+        {
+          "h": "Seizure type",
+          "points": [
+            "Absence (petit mal) seizures: prevalent in children, last about half a minute, momentary loss of consciousness only"
+          ]
+        },
+        {
+          "h": "Drug of choice",
+          "points": [
+            "Ethosuximide is clinically effective only in absence seizures",
+            "Mechanism: inhibits T-type Ca2+ channels in thalamic neurones (thalamocortical system)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
+      "tags": [
         "mechanism"
-      ]
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-070",
+      "type": "shortnote",
+      "front": "Short note: Experimental models of antiepileptic drugs and what each predicts",
+      "sections": [
+        {
+          "h": "MES",
+          "points": [
+            "Maximal electroshock: tonic extensor phase abolished by drugs active in GTCS and complex partial seizures; reflects spread"
+          ]
+        },
+        {
+          "h": "PTZ",
+          "points": [
+            "Clonic convulsions blocked by drugs active in absence and myoclonic seizures; reflects the focus"
+          ]
+        },
+        {
+          "h": "Kindling",
+          "points": [
+            "Repeated weak stimulation of amygdala; after 10 to 15 shocks tonic-clonic seizures; spontaneous seizures after more than 100 shocks"
+          ]
+        },
+        {
+          "h": "Chronic focal",
+          "points": [
+            "Alumina cream on monkey motor cortex"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-097",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
+      "level": 2,
+      "tags": [
+        "uses"
+      ],
+      "front": "How are febrile convulsions managed, and why was chronic phenobarbitone prophylaxis dropped?",
+      "back": "Keep temperature down with paracetamol and cooling. Best treatment is rectal diazepam at the onset of convulsions (i.v. preparation if rectal not available); intermittent diazepam from the onset of fever is advised in recurrent or high-risk cases. Chronic phenobarbitone prophylaxis was abandoned because of poor efficacy and behavioural side effects.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft"
     },
     {
       "id": "p2-sedatives-aed-043",
@@ -1202,7 +1607,8 @@
       "tags": [
         "classification",
         "mechanism"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p2-sedatives-aed-044",
@@ -1269,7 +1675,283 @@
       "subtopic": "p2-sedatives-aed-epilepsy-basics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-sedatives-aed-027",
+      "type": "basic",
+      "front": "How does phenytoin block seizures at the cellular level?",
+      "back": "It prolongs the inactivated state of voltage-gated sodium channels, which limits high-frequency repetitive firing while leaving normal low-frequency activity largely unchanged. At therapeutic levels it does not alter resting membrane potential or normal synaptic transmission. Its effects on glutamate release and calcium entry need higher concentrations, so their contribution is uncertain.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-029",
+      "type": "basic",
+      "front": "List the chronic adverse effects of phenytoin.",
+      "back": "Gum hypertrophy is the commonest, more common in younger patients, and oral hygiene reduces it. Others are hirsutism, coarsening of facial features, acne, rashes or lupus-like reactions, and rarely neutropenia. Long-term use can cause megaloblastic anaemia through folate malabsorption and osteomalacia through impaired vitamin D activation. Exposure in pregnancy can cause foetal hydantoin syndrome.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-048",
+      "type": "cloze",
+      "front": "Classify: phenytoin pharmacokinetics",
+      "text": "Phenytoin is hydroxylated by {{CYP2C9 and 2C19}} with {{capacity-limited}} kinetics; its therapeutic range is about {{10 to 20 mcg/ml}}, and its half-life can rise to about {{60 hours}} at higher levels.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-028",
+      "type": "basic",
+      "front": "Why does phenytoin plasma level rise disproportionately with small dose increments?",
+      "back": "Its hepatic hydroxylation (mainly CYP2C9 and 2C19) is capacity limited, so clearance shifts from first-order to zero-order over the therapeutic range. Once levels exceed about 10 mcg/ml, the half-life lengthens from 12 to 24 hours towards about 60 hours. Small dose increases then produce large rises in concentration, so plasma level monitoring guides dosing.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-039",
+      "type": "shortnote",
+      "front": "Short note: Phenytoin - kinetics, toxicity and interactions",
+      "sections": [
+        {
+          "h": "Absorption and formulation",
+          "points": [
+            "Oral absorption is slow because of poor aqueous solubility; bioavailability varies between products",
+            "Fosphenytoin is a water-soluble prodrug; dosed as phenytoin equivalents"
+          ]
+        },
+        {
+          "h": "Kinetics",
+          "points": [
+            "Hydroxylation by CYP2C9 and 2C19 with capacity-limited, zero-order kinetics",
+            "Therapeutic range about 10 to 20 mcg/ml; toxicity above 20 mcg/ml (mild) and above 35 mcg/ml (severe)",
+            "Half-life lengthens sharply at high levels"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Chronic: gum hypertrophy, hirsutism, acne, folate deficiency, osteomalacia",
+            "Dose-related: nystagmus, ataxia, diplopia, drowsiness, confusion, nausea",
+            "Rapid IV injection: hypotension and arrhythmias; phlebitis; extravasation causes necrosis"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Inducer of CYP2C8/9 and 3A4; competitive inhibitor of CYP2C9/19",
+            "Raised levels with valproate (protein displacement), chloramphenicol, isoniazid, cimetidine, warfarin",
+            "Reduced levels of oral contraceptives, steroids, doxycycline, theophylline; sucralfate reduces absorption"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "pk",
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-071",
+      "type": "shortnote",
+      "front": "Short note: Phenytoin: mechanism, why it does not raise PTZ threshold and why it suits GTCS",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Prolongs inactivated state of voltage-gated Na+ channel; suppresses high-frequency firing, not normal firing",
+            "Little sedation; no effect on resting potential or normal transmission"
+          ]
+        },
+        {
+          "h": "Profile",
+          "points": [
+            "Abolishes tonic phase of MES; does not raise PTZ threshold; does not prevent kindling",
+            "Also used in trigeminal neuralgia and cardiac arrhythmias (high-frequency suppression)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-072",
+      "type": "shortnote",
+      "front": "Short note: Phenytoin pharmacokinetics: non-linear kinetics and monitoring",
+      "sections": [
+        {
+          "h": "Metabolism",
+          "points": [
+            "Hydroxylation by CYP2C9 and CYP2C19 plus glucuronidation; capacity limited (first order changes to zero order)"
+          ]
+        },
+        {
+          "h": "Consequence",
+          "points": [
+            "Small dose rises give disproportionate plasma rises; half-life rises from 12 to 24 h up to 60 h above 10 microgram/mL",
+            "Plasma level monitoring guides dosing"
+          ]
+        },
+        {
+          "h": "Absorption",
+          "points": [
+            "Slow oral absorption due to poor aqueous solubility"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-073",
+      "type": "shortnote",
+      "front": "Short note: Phenytoin toxicity: gingival hyperplasia, foetal hydantoin syndrome and i.v. risks",
+      "sections": [
+        {
+          "h": "Chronic effects",
+          "points": [
+            "Gum hypertrophy (commonest, about 20%, younger patients; reduced by oral hygiene)",
+            "Hirsutism, coarsened features, acne; rash, DLE, lymphadenopathy; rare neutropenia",
+            "Folate interference (megaloblastic anaemia) and vitamin D activation (osteomalacia)"
+          ]
+        },
+        {
+          "h": "Pregnancy",
+          "points": [
+            "Foetal hydantoin syndrome (hypoplastic phalanges, cleft palate, microcephaly), probably from an arene-oxide metabolite"
+          ]
+        },
+        {
+          "h": "Intravenous",
+          "points": [
+            "Vein injury, thrombosis, extravasation necrosis; fall in BP and arrhythmia need ECG monitoring"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-074",
+      "type": "shortnote",
+      "front": "Short note: Phenytoin interactions",
+      "sections": [
+        {
+          "h": "Enzyme changes",
+          "points": [
+            "Potent inducer of CYP2C8/9 and CYP3A4/5; competitively inhibits CYP2C9/19"
+          ]
+        },
+        {
+          "h": "Raises phenytoin levels",
+          "points": [
+            "Valproate (protein binding displacement), chloramphenicol, isoniazid, cimetidine, warfarin"
+          ]
+        },
+        {
+          "h": "Lowers its absorption or levels",
+          "points": [
+            "Sucralfate binds it in gut; carbamazepine and phenobarbitone induce its metabolism"
+          ]
+        },
+        {
+          "h": "Affects others",
+          "points": [
+            "Reduces oral contraceptive efficacy, doxycycline and theophylline levels; competitively inhibits warfarin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "tags": [
+        "interactions"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-098",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-phenytoin",
+      "level": 2,
+      "tags": [
+        "adr"
+      ],
+      "front": "What acute (dose-related) toxic effects does phenytoin cause, and what extra hazards come with i.v. injection?",
+      "back": "Overdose gives cerebellar and vestibular signs (ataxia, vertigo, diplopia, nystagmus), then drowsiness, confusion, hallucinations and rigidity, plus epigastric pain, nausea and vomiting. i.v. phenytoin sodium injures the vein (intimal damage, thrombosis, limb oedema, necrosis if it leaks) and can cause hypotension and arrhythmias, so ECG monitoring is needed.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft"
     },
     {
       "id": "p2-sedatives-aed-045",
@@ -1339,7 +2021,59 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-sedatives-aed-030",
+      "type": "basic",
+      "front": "Which drug is the first choice for trigeminal neuralgia, and why does it work?",
+      "back": "Carbamazepine. It selectively reduces high-frequency nerve firing that drives the temporal summation of pain impulses, so it has an almost diagnostic effect in these neuralgias, unlike a general analgesic. About 60% of patients respond well. Phenytoin, lamotrigine and baclofen are less effective alternatives, and gabapentin may be tried in non-responders. It is not useful for diabetic or other neuropathic pain.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-032",
+      "type": "basic",
+      "front": "What are the mechanisms and spectrum of valproate?",
+      "back": "Valproate is broad spectrum. It prolongs sodium channel inactivation in a frequency-dependent way, weakly reduces the T-type calcium current, raises brain GABA by inhibiting its breakdown and possibly by increasing synthesis, and blocks NMDA-type glutamate receptors. It is the drug of choice for absence, myoclonic and atonic seizures, and a first-line drug for generalised tonic-clonic and partial seizures.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-034",
+      "type": "basic",
+      "front": "What are the key features of lamotrigine?",
+      "back": "It is a broad-spectrum drug with a carbamazepine-like profile: it prolongs sodium channel inactivation and may reduce the release of glutamate and aspartate. It is used for partial and generalised tonic-clonic seizures, and also for absence and myoclonic seizures. Valproate doubles its level by inhibiting glucuronidation, so the dose should be halved when valproate is added; lamotrigine in turn lowers valproate levels. A severe rash, especially in children, requires withdrawal.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p2-sedatives-aed-046",
@@ -1354,120 +2088,311 @@
       "tags": [
         "classification",
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p2-sedatives-aed-047",
-      "type": "cloze",
-      "front": "Classify: drugs for absence seizures",
-      "text": "{{Ethosuximide}} blocks the {{T-type calcium}} current in thalamocortical neurones; {{valproate}} is a first-line drug for absence seizures; {{clonazepam}} is used as an adjuvant but tolerance develops within about {{six months}}.",
+      "id": "p2-sedatives-aed-100",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "level": 1,
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "front": "Which seizure types can carbamazepine worsen, and why does that limit its use?",
+      "back": "It can exacerbate myoclonic, absence and atonic seizures. It is the most effective drug for complex partial seizures and widely used for tonic-clonic and simple partial ones, so the seizure type must be identified before choosing it.",
       "refs": [
         "KDT8 ch30"
       ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-epilepsy-basics",
-      "tags": [
-        "classification",
-        "uses"
-      ]
+      "status": "draft"
     },
     {
-      "id": "p2-sedatives-aed-048",
-      "type": "cloze",
-      "front": "Classify: phenytoin pharmacokinetics",
-      "text": "Phenytoin is hydroxylated by {{CYP2C9 and 2C19}} with {{capacity-limited}} kinetics; its therapeutic range is about {{10 to 20 mcg/ml}}, and its half-life can rise to about {{60 hours}} at higher levels.",
+      "id": "p2-sedatives-aed-031",
+      "type": "basic",
+      "front": "What happens to carbamazepine's half-life with chronic use, and which drugs does it affect?",
+      "back": "Its half-life falls from 20 to 40 hours at first to about 10 to 20 hours on chronic use, because it induces its own metabolism. It is oxidised to an active 10,11-epoxide and is an inducer of CYP3A4 and 2C9. It lowers levels of valproate, lamotrigine, oral contraceptives and haloperidol, and phenytoin and phenobarbitone induce it in turn. Erythromycin, fluoxetine and isoniazid raise its levels.",
       "refs": [
         "KDT8 ch30"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-sedatives-aed-phenytoin",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
       "tags": [
-        "pk"
-      ]
+        "pk",
+        "interactions"
+      ],
+      "level": 2
     },
     {
-      "id": "p2-sedatives-aed-049",
-      "type": "cloze",
-      "front": "Classify: newer antiseizure drugs by target",
-      "text": "Levetiracetam binds {{SV2A}}; gabapentin and pregabalin act on {{alpha-2-delta}} calcium channel subunits; tiagabine blocks {{GAT-1}}; vigabatrin inhibits {{GABA transaminase}}.",
+      "id": "p2-sedatives-aed-033",
+      "type": "basic",
+      "front": "What are the serious risks of valproate?",
+      "back": "Fulminant hepatitis is rare but serious and occurs mainly in children below 3 years, especially those with liver disease, on other antiseizure drugs or on other hepatotoxic drugs; liver function should be monitored. Given in pregnancy it has caused spina bifida and other neural tube defects, so it should be avoided. Concurrent carbamazepine raises the risk of foetal abnormalities. Concurrent clonazepam is contraindicated because absence status may be precipitated.",
       "refs": [
         "KDT8 ch30"
       ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
       "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-sedatives-aed-050",
-      "type": "cloze",
-      "front": "Classify: status epilepticus drugs",
-      "text": "Lorazepam is given IV at {{0.1 mg/kg}} at no more than {{2 mg/min}}; fosphenytoin is infused at {{100 to 150 mg/min}} up to a maximum of {{1000 mg}} under ECG monitoring.",
-      "refs": [
-        "KDT8 ch30"
+        "adr"
       ],
-      "status": "draft",
-      "subtopic": "p2-sedatives-aed-status-epilepticus",
-      "tags": [
-        "classification",
-        "uses"
-      ]
+      "level": 2
     },
     {
-      "id": "p2-sedatives-aed-051",
+      "id": "p2-sedatives-aed-076",
       "type": "shortnote",
-      "front": "Short note: Drugs used in absence seizures",
+      "front": "Short note: Carbamazepine: uses, mechanism and toxicity",
       "sections": [
         {
-          "h": "Drugs",
+          "h": "Mechanism",
           "points": [
-            "Sodium valproate: drug of choice, and more often used than ethosuximide",
-            "Ethosuximide: primary indication is absence seizures; also approved for myoclonic seizures",
-            "Clonazepam: adjunct; some tolerance develops",
-            "Carbamazepine can worsen absence seizures"
+            "Na+ channel inactivation similar to phenytoin; raises threshold to PTZ and electroshock; inhibits kindling",
+            "Lithium-like effect in mania; antidiuretic effect (enhances ADH on renal tubule)"
           ]
         },
         {
-          "h": "Ethosuximide mechanism",
+          "h": "Uses",
           "points": [
-            "Selectively suppresses the T-type calcium current in thalamocortical neurones",
-            "Does not affect other calcium or sodium currents, which fits its narrow action"
+            "Most effective for CPS; widely used for GTCS and SPS; drug of choice for trigeminal neuralgia (about 60% respond)",
+            "Can worsen myoclonic, absence and atonic seizures"
           ]
         },
         {
-          "h": "Pharmacokinetics",
+          "h": "Toxicity",
           "points": [
-            "Slowly absorbed; mainly hepatic metabolism; urinary excretion",
-            "Plasma half-life about 48 hours in adults and 32 hours in children"
-          ]
-        },
-        {
-          "h": "Adverse effects and cautions",
-          "points": [
-            "Dose-related GI upset, tiredness, drowsiness, mood change and poor concentration",
-            "Rashes, lupus-like reaction and blood dyscrasias are rare",
-            "Clonazepam with valproate is contraindicated: absence status may be precipitated"
+            "Dose-related: sedation, dizziness, diplopia, ataxia (extended-release tablets reduce peaks)",
+            "Hypersensitivity: rash, hepatitis, lupus-like, rarely agranulocytosis and aplastic anaemia",
+            "Hyponatraemia in elderly; valproate combination doubles teratogenic risk"
           ]
         }
       ],
       "refs": [
         "KDT8 ch30"
       ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
       "tags": [
-        "classification",
         "uses",
         "adr"
       ],
-      "subtopic": "p2-sedatives-aed-epilepsy-basics",
-      "status": "draft"
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-077",
+      "type": "shortnote",
+      "front": "Short note: Carbamazepine as enzyme inducer and its interactions",
+      "sections": [
+        {
+          "h": "Substrate and inducer",
+          "points": [
+            "Metabolised by CYP3A4 and CYP2C9; autoinduces, so half-life falls from 20 to 40 h to 10 to 20 h"
+          ]
+        },
+        {
+          "h": "Reduces levels of",
+          "points": [
+            "Haloperidol, oral contraceptives, lamotrigine, valproate, topiramate"
+          ]
+        },
+        {
+          "h": "Raises levels of carbamazepine",
+          "points": [
+            "Erythromycin, fluoxetine, isoniazid"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "interactions",
+        "pk"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-079",
+      "type": "shortnote",
+      "front": "Short note: Valproate: mechanisms, uses and hepatic and fetal risks",
+      "sections": [
+        {
+          "h": "Mechanisms",
+          "points": [
+            "Frequency-dependent Na+ channel prolongation; weak T-current block; more GABA by inhibiting GABA-transaminase and synthesis; NMDA blockade"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Drug of choice for absence; first line for GTCS and partial; most effective for myoclonic; atonic; mania alternative to lithium; migraine prophylaxis"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Fulminant hepatitis rare, mainly under 3 years; alopecia, weight gain, bleeding; neural tube defects (avoid in pregnancy)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-081",
+      "type": "shortnote",
+      "front": "Short note: Phenobarbitone as an antiepileptic: efficacy and drawbacks",
+      "sections": [
+        {
+          "h": "Actions",
+          "points": [
+            "Raises seizure threshold, limits spread, suppresses kindling; higher anticonvulsant to hypnotic ratio than other barbiturates"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "GTCS, SPS and CPS; status epilepticus IM or IV but slow to act; not for absence or atonic seizures"
+          ]
+        },
+        {
+          "h": "Drawbacks",
+          "points": [
+            "Sedation wanes but anticonvulsant action persists; learning and memory impairment; hyperactivity in children"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-082",
+      "type": "shortnote",
+      "front": "Short note: Ethosuximide: absence seizures and the T-current",
+      "sections": [
+        {
+          "h": "Action",
+          "points": [
+            "Suppresses PTZ clonic seizures at doses without other effects; ineffective on MES and kindling",
+            "Selectively blocks the thalamic low-threshold T-type Ca2+ current that drives 3 Hz spike and wave"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Absence seizures primary; approved for myoclonic seizures; valproate now preferred"
+          ]
+        },
+        {
+          "h": "Adverse",
+          "points": [
+            "GI intolerance, tiredness, mood change, headache, inability to concentrate"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-083",
+      "type": "shortnote",
+      "front": "Short note: Clonazepam and clobazam: benzodiazepine antiepileptics",
+      "sections": [
+        {
+          "h": "Clonazepam",
+          "points": [
+            "Blocks PTZ seizures; ineffective in GTCS; used for absence, myoclonic and akinetic epilepsy and acute mania",
+            "Tolerance develops within about six months; sedation and salivation adverse effects"
+          ]
+        },
+        {
+          "h": "Clobazam",
+          "points": [
+            "1,5-benzodiazepine; useful in partial, GTCS, absence and atonic seizures including refractory cases",
+            "Adjunct to carbamazepine, valproate or lamotrigine; active metabolite half-life over 35 h"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "uses",
+        "pk"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-084",
+      "type": "shortnote",
+      "front": "Short note: Primidone: a prodrug that works through phenobarbitone",
+      "sections": [
+        {
+          "h": "Conversion",
+          "points": [
+            "Deoxybarbiturate converted to phenobarbitone and phenylethyl malonamide (PEMA); these active metabolites give the effect"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Seldom used now; adjunct to phenytoin or carbamazepine in GTCS and partial seizures"
+          ]
+        },
+        {
+          "h": "Adverse",
+          "points": [
+            "Phenobarbitone-type effects; rarely anaemia, leukopenia, psychosis, lymph node enlargement"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-052",
@@ -1522,457 +2447,467 @@
         "newer-drugs"
       ],
       "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-053",
-      "type": "shortnote",
-      "front": "Short note: Drugs used in absence seizures",
-      "sections": [
-        {
-          "h": "Seizure type",
-          "points": [
-            "Absence (petit mal) seizures: prevalent in children, last about half a minute, momentary loss of consciousness only"
-          ]
-        },
-        {
-          "h": "Drug of choice",
-          "points": [
-            "Ethosuximide is clinically effective only in absence seizures",
-            "Mechanism: inhibits T-type Ca2+ channels in thalamic neurones (thalamocortical system)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p451",
-        "KDT8 PDF p456",
-        "KDT8 PDF p65"
-      ],
-      "subtopic": "p2-sedatives-aed-epilepsy-basics",
-      "tags": [
-        "mechanism"
-      ],
       "status": "draft",
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2019,
-          "marks": 10
-        }
-      ]
+      "level": 3
     },
     {
-      "id": "p2-sedatives-aed-054",
+      "id": "p2-sedatives-aed-080",
       "type": "shortnote",
-      "front": "Short note: Non-benzodiazepine hypnotics",
+      "front": "Short note: Valproate interactions: why clonazepam combination is contraindicated",
       "sections": [
         {
-          "h": "Examples",
+          "h": "Raises levels of",
           "points": [
-            "Zolpidem and zaleplon"
+            "Phenobarbitone and lamotrigine (metabolism inhibited); unbound phenytoin rises when valproate displaces it"
           ]
         },
         {
-          "h": "Action",
+          "h": "Clonazepam combination",
           "points": [
-            "Structurally non-BZD but selective BZD-receptor agonists, with high affinity for the alpha1 subunit isoform",
-            "Give selective hypnotic and amnesic effect"
+            "Contraindicated: may precipitate absence status epilepticus"
           ]
         },
         {
-          "h": "Clinical",
+          "h": "Pregnancy",
           "points": [
-            "Zolpidem: pronounced hypnotic effect; sleep latency is short",
-            "Used for insomnia"
+            "Foetal abnormalities more common when valproate and carbamazepine are used together"
           ]
         }
       ],
       "refs": [
-        "KDT8 PDF p443",
-        "KDT8 PDF p446"
+        "KDT8 ch30"
       ],
-      "subtopic": "p2-sedatives-aed-hypnotics",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "tags": [
+        "interactions",
+        "contraindications"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p2-sedatives-aed-090",
+      "type": "essay",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "level": 3,
       "tags": [
         "uses"
       ],
-      "status": "draft",
+      "front": "Essay: Non-epileptic uses of antiepileptic drugs",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Several antiseizure drugs also suppress high-frequency neuronal firing or modulate pain and mood pathways, so they have uses beyond epilepsy"
+          ]
+        },
+        {
+          "h": "Carbamazepine",
+          "points": [
+            "Drug of choice for trigeminal and related neuralgias; it works by cutting temporal summation of high-frequency impulses, not as an analgesic",
+            "Not useful in diabetic, traumatic or other neuropathic pain",
+            "Alternative to lithium in mania and bipolar illness"
+          ]
+        },
+        {
+          "h": "Valproate",
+          "points": [
+            "Mania and bipolar illness (divalproex is mainly for this)",
+            "Migraine prophylaxis"
+          ]
+        },
+        {
+          "h": "Gabapentin and pregabalin",
+          "points": [
+            "First-line for diabetic neuropathy and postherpetic neuralgia",
+            "Gabapentin: migraine prophylaxis and trigeminal neuralgia in nonresponders; phobic states alternative"
+          ]
+        },
+        {
+          "h": "Others",
+          "points": [
+            "Topiramate: migraine prophylaxis",
+            "Phenytoin, lamotrigine and baclofen: less effective alternatives in trigeminal neuralgia"
+          ]
+        }
+      ],
       "pyq": [
         {
           "university": "RGUHS",
-          "year": 2022,
+          "year": 2024,
           "marks": 10
+        }
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch30"
+      ]
+    },
+    {
+      "id": "p2-sedatives-aed-099",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-broad-spectrum",
+      "level": 3,
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "front": "A child has absence and generalised tonic-clonic seizures. Why choose valproate over carbamazepine?",
+      "back": "Valproate covers absence, myoclonic, atonic and tonic-clonic seizures and is the drug of choice for generalised types. Carbamazepine is very effective in partial and tonic-clonic seizures but can worsen myoclonic, absence and atonic seizures. Valproate carries hepatic and teratogenic risk (neural tube defects) and raises levels of phenobarbitone and lamotrigine, so weigh these, especially in girls of child-bearing age.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-036",
+      "type": "basic",
+      "front": "What are the mechanism and main uses of gabapentin and pregabalin?",
+      "back": "They are GABA derivatives that do not act at GABA-A receptors. They modulate calcium channels containing the alpha-2-delta subunit, which may reduce glutamate release, and gabapentin may also enhance GABA release. They are add-on drugs for partial seizures. Gabapentin is first-line for neuralgic pain, such as diabetic neuropathy and postherpetic neuralgia. Gabapentin has no drug interactions and is excreted unchanged in urine, with a half-life of about 6 hours.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-049",
+      "type": "cloze",
+      "front": "Classify: newer antiseizure drugs by target",
+      "text": "Levetiracetam binds {{SV2A}}; gabapentin and pregabalin act on {{alpha-2-delta}} calcium channel subunits; tiagabine blocks {{GAT-1}}; vigabatrin inhibits {{GABA transaminase}}.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-086",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How do tiagabine and vigabatrin each raise GABA activity?",
+      "back": "Tiagabine blocks the GAT-1 transporter that clears released GABA into neurones and glia, so GABA lingers in the synapse. Vigabatrin inhibits GABA-transaminase, the enzyme that degrades GABA, so GABA levels rise. Both are add-on drugs for partial seizures; vigabatrin is also used in infantile spasms.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-087",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "front": "Why is topiramate called a broad-spectrum antiseizure drug, and what are its notable adverse effects?",
+      "back": "It acts by several mechanisms: prolongs Na+ channel inactivation, potentiates GABA postsynaptically, blocks certain glutamate receptors and hyperpolarises via K+ channels, so it works in partial, generalised tonic-clonic and some myoclonic or absence seizures. It is also a weak carbonic anhydrase inhibitor. Adverse effects: poor attention and memory, word-finding difficulty, sedation, ataxia, weight loss, paraesthesias, renal stones. It is also approved for migraine prophylaxis.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-035",
+      "type": "basic",
+      "front": "Explain the mechanism and interaction profile of levetiracetam.",
+      "back": "It binds the synaptic vesicle protein SV2A, which may alter release of glutamate and GABA, and it inhibits N-type calcium channels. It is not oxidised by CYP enzymes and does not induce or inhibit them, so it has no pharmacokinetic interactions. It is mainly excreted unchanged in urine with a half-life of 6 to 8 hours. Side effects are sleepiness, dizziness, weakness and occasional behavioural change. It is not approved below 4 years.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "tags": [
+        "mechanism",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-042",
+      "type": "shortnote",
+      "front": "Short note: Newer antiseizure drugs grouped by mechanism",
+      "sections": [
+        {
+          "h": "Sodium channel",
+          "points": [
+            "Lacosamide: enhances slow inactivation; CYP2C19; adults only, add-on for partial seizures",
+            "Oxcarbazepine and eslicarbazepine: act through an active monohydroxy metabolite; eslicarbazepine once daily",
+            "Zonisamide also suppresses repetitive firing"
+          ]
         },
+        {
+          "h": "GABA pathway",
+          "points": [
+            "Tiagabine blocks GAT-1 reuptake; add-on for partial seizures",
+            "Vigabatrin inhibits GABA transaminase; reserve drug, used in infantile spasms",
+            "Clobazam is a 1,5-benzodiazepine with a long-lived active metabolite"
+          ]
+        },
+        {
+          "h": "Synaptic vesicle and calcium channels",
+          "points": [
+            "Levetiracetam binds SV2A; no CYP interactions",
+            "Gabapentin and pregabalin act on alpha-2-delta calcium channel subunits"
+          ]
+        },
+        {
+          "h": "Multiple mechanisms",
+          "points": [
+            "Topiramate: weak carbonic anhydrase inhibitor, Na+ channel effects, GABA potentiation, glutamate antagonism; prophylaxis of migraine",
+            "Zonisamide: weak carbonic anhydrase inhibitor, T-type calcium current block; avoid in sulfonamide allergy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-078",
+      "type": "shortnote",
+      "front": "Short note: Oxcarbazepine and eslicarbazepine: why they are better tolerated than carbamazepine",
+      "sections": [
+        {
+          "h": "Oxcarbazepine",
+          "points": [
+            "Converted to a glucuronide-conjugated active metabolite; no epoxide, so fewer epoxide toxic effects",
+            "Weak enzyme inducer; fewer interactions; hyponatraemia more common; lower hepatotoxicity risk",
+            "Dose for dose less potent than carbamazepine"
+          ]
+        },
+        {
+          "h": "Eslicarbazepine",
+          "points": [
+            "S(+) prodrug giving the same active metabolite; once-daily dosing; adjunct for partial seizures in adults",
+            "Initial 400 mg/day, up to 1200 mg daily"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-088",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 2,
+      "tags": [
+        "mechanism",
+        "adr",
+        "contraindications"
+      ],
+      "front": "Zonisamide: what do its mechanism and adverse effects tell you about who should avoid it?",
+      "back": "It prolongs Na+ channel inactivation and suppresses T-type Ca2+ current, and is a weak carbonic anhydrase inhibitor. That explains metabolic acidosis and renal stones. It is a sulfonamide, so avoid it in sulfonamide-sensitive patients. Long half-life (over 60 h), mostly excreted unchanged, no drug interactions noted.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-096",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 2,
+      "tags": [
+        "mechanism",
+        "interactions"
+      ],
+      "front": "Lacosamide: mechanism, place in therapy and why it is convenient to combine",
+      "back": "It enhances Na+ channel inactivation and suppresses repetitive firing, so it works like phenytoin and carbamazepine at the channel. It is used only as add-on in adults for partial seizures. It neither induces nor inhibits drug-metabolising enzymes, so companion drug doses need no change. Adverse effects: ataxia, vertigo, diplopia, tremor, depression and cardiac arrhythmia.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-089",
+      "type": "essay",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 3,
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "front": "Essay: GABA modulators in epilepsy",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "GABA is the main inhibitory transmitter; enhancing it is one of the main ways antiseizure drugs work, alongside Na+ channel inactivation and Ca2+ current block"
+          ]
+        },
+        {
+          "h": "Receptor-level enhancers",
+          "points": [
+            "Benzodiazepines (clonazepam, clobazam, diazepam, lorazepam) raise the frequency of GABA-A channel opening",
+            "Phenobarbitone prolongs channel opening",
+            "Topiramate adds a postsynaptic GABA potentiating effect"
+          ]
+        },
+        {
+          "h": "Reuptake and metabolism",
+          "points": [
+            "Tiagabine blocks GAT-1 reuptake",
+            "Vigabatrin inhibits GABA-transaminase",
+            "Valproate inhibits GABA degradation and probably raises synthesis from glutamate"
+          ]
+        },
+        {
+          "h": "Uncertain",
+          "points": [
+            "Gabapentin and pregabalin: GABA enhancement and alpha2-delta Ca2+ channel modulation; which one accounts for the effect is not known"
+          ]
+        },
+        {
+          "h": "Clinical logic",
+          "points": [
+            "Combining a Na+ channel drug with a GABA-facilitating drug is the rational combination",
+            "Benzodiazepines suit emergencies and adjunct use; tolerance and sedation limit chronic use"
+          ]
+        }
+      ],
+      "pyq": [
         {
           "university": "RGUHS",
           "year": 2010,
           "marks": 10
         }
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch29",
+        "KDT8 ch30"
       ]
     },
     {
-      "id": "p2-sedatives-aed-055",
-      "type": "shortnote",
-      "front": "Short note: Sedation, hypnosis and general anaesthesia as grades of CNS depression",
-      "sections": [
-        {
-          "h": "Definitions",
-          "points": [
-            "Sedative: calms and subdues excitement without sleep; decreased responsiveness and alertness",
-            "Hypnotic: induces and maintains sleep resembling normal arousable sleep"
-          ]
-        },
-        {
-          "h": "Distinction",
-          "points": [
-            "Hypnotics have quick onset, short duration and steep dose-response; sedatives are slower with flatter curves",
-            "High hypnotic doses produce general anaesthesia; a low hypnotic dose may act as a sedative"
-          ]
-        },
-        {
-          "h": "Insomnia",
-          "points": [
-            "Treatment of insomnia is the most important use of this drug class"
-          ]
-        }
-      ],
+      "id": "p2-sedatives-aed-037",
+      "type": "basic",
+      "front": "What is the first-choice drug for status epilepticus, and what is the dose?",
+      "back": "IV lorazepam, 0.1 mg/kg (about 4 mg in adults), injected at no more than 2 mg/min. It can be repeated once after 10 minutes if needed. It controls seizures in 75 to 90% of cases with a sustained effect of 6 to 12 hours, because it is less lipid soluble and redistributes more slowly than diazepam. Thrombophlebitis is also less likely. The airway, glucose and oxygenation should be secured at the same time.",
       "refs": [
-        "KDT8 ch29"
+        "KDT8 ch30"
       ],
-      "subtopic": "p2-sedatives-aed-hypnotics",
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-status-epilepticus",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-sedatives-aed-050",
+      "type": "cloze",
+      "front": "Classify: status epilepticus drugs",
+      "text": "Lorazepam is given IV at {{0.1 mg/kg}} at no more than {{2 mg/min}}; fosphenytoin is infused at {{100 to 150 mg/min}} up to a maximum of {{1000 mg}} under ECG monitoring.",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-status-epilepticus",
       "tags": [
         "classification",
         "uses"
       ],
-      "pyq": [],
-      "status": "draft"
+      "level": 1
     },
     {
-      "id": "p2-sedatives-aed-056",
-      "type": "shortnote",
-      "front": "Short note: Stages of normal sleep and drug effects on them",
-      "sections": [
-        {
-          "h": "Stages",
-          "points": [
-            "Stage 1 (dozing) 3 to 6%; stage 2 (unequivocal sleep) 40 to 50%, spindles and K complexes",
-            "Stages 3 and 4 (slow wave sleep) 5 to 8% and 10 to 20%; difficult to arouse",
-            "REM (paradoxical) 20 to 30%; dreams, irregular eye movement, erection in males"
-          ]
-        },
-        {
-          "h": "Cycle",
-          "points": [
-            "Stages 0 to 4 and REM recur over 80 to 100 min"
-          ]
-        },
-        {
-          "h": "Drug effects",
-          "points": [
-            "Benzodiazepines lengthen stage 2 and shorten stages 3 and 4; they distort architecture less than barbiturates",
-            "Barbiturates cut REM and stages 3 and 4; rebound REM and nightmares follow withdrawal"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-hypnotics",
+      "id": "p2-sedatives-aed-091",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-status-epilepticus",
+      "level": 1,
       "tags": [
-        "mechanism",
-        "pk"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-057",
-      "type": "shortnote",
-      "front": "Short note: Barbiturates: CNS actions, tolerance and why they were replaced",
-      "sections": [
-        {
-          "h": "Actions",
-          "points": [
-            "Dose-dependent CNS depression: sedation, sleep, anaesthesia, coma",
-            "Hangover, impaired learning and memory; no selective anxiolytic action"
-          ]
-        },
-        {
-          "h": "Tolerance and dependence",
-          "points": [
-            "Cellular and enzyme-induction tolerance; fatal dose not greatly increased",
-            "Withdrawal: excitement, hallucinations, delirium, convulsions; deaths reported"
-          ]
-        },
-        {
-          "h": "Why replaced",
-          "points": [
-            "Narrow margin and abuse liability; benzodiazepines have a higher therapeutic index, lower ceiling depression and less enzyme induction"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
-      "tags": [
-        "adr",
         "uses"
       ],
-      "pyq": [],
+      "front": "How is status epilepticus defined, and why is it an emergency?",
+      "back": "Seizure activity lasting over 30 min, or two or more seizures without recovery of consciousness in between. Repeated tonic-clonic convulsions can cause death and permanent brain damage, so fits must be stopped as fast as possible after airway and general support.",
+      "refs": [
+        "KDT8 ch30"
+      ],
       "status": "draft"
     },
     {
-      "id": "p2-sedatives-aed-058",
+      "id": "p2-sedatives-aed-038",
       "type": "shortnote",
-      "front": "Short note: Barbiturate mechanism at GABA-A receptor",
+      "front": "Short note: Status epilepticus management",
       "sections": [
         {
-          "h": "Site",
+          "h": "Immediate measures",
           "points": [
-            "Binds a site distinct from the benzodiazepine site, on the alpha or beta subunit"
+            "Maintain airway, oxygenation and intubation if needed",
+            "Give IV dextrose to correct possible hypoglycaemia",
+            "Monitor BP, cardiac rhythm, fluid and electrolytes"
           ]
         },
         {
-          "h": "Action",
+          "h": "First line",
           "points": [
-            "Prolongs the lifetime of GABA-opened Cl- channels (benzodiazepines increase opening frequency)",
-            "At high concentrations directly opens Cl- channels (GABA-mimetic)",
-            "Also reduces glutamate AMPA responses and Ca2+-dependent transmitter release"
+            "Lorazepam 0.1 mg/kg IV at no more than 2 mg/min; repeat once after 10 minutes",
+            "Diazepam 0.2 to 0.3 mg/kg IV is the older standard, but its effect fades after about 20 minutes and it damages the vein more",
+            "Rectal diazepam is used where IV access is not possible"
+          ]
+        },
+        {
+          "h": "Second line",
+          "points": [
+            "Fosphenytoin 100 to 150 mg/min IV up to 1000 mg, with ECG monitoring; given whatever the lorazepam response",
+            "Phenytoin only when fosphenytoin is unavailable, at 25 to 50 mg/min",
+            "Phenobarbitone 50 to 100 mg/min IV up to 10 mg/kg as an alternative"
+          ]
+        },
+        {
+          "h": "Refractory",
+          "points": [
+            "Failure of lorazepam and fosphenytoin within about 40 minutes of onset",
+            "Treat with IV midazolam, propofol or thiopentone anaesthesia, with or without curarisation, in intensive care"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch29"
+        "KDT8 ch30"
       ],
-      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
+      "status": "draft",
+      "subtopic": "p2-sedatives-aed-status-epilepticus",
       "tags": [
-        "mechanism"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-059",
-      "type": "basic",
-      "front": "Why do barbiturates have a steeper toxicity risk than benzodiazepines?",
-      "back": "Barbiturates are general CNS depressants that depress respiration, lower BP and cardiac output at higher doses, and cause respiratory failure and collapse. Benzodiazepines have a lower ceiling of CNS depression and a high therapeutic index; patients stay arousable and seldom need assisted breathing.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "adr",
-        "poisoning"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-060",
-      "type": "shortnote",
-      "front": "Short note: Barbiturate poisoning: treatment and why dialysis works",
-      "sections": [
-        {
-          "h": "Features",
-          "points": [
-            "Flabby coma, shallow respiration, falling BP, cardiovascular collapse, renal shutdown, bullous eruptions"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Gastric lavage and activated charcoal; airway and ventilation; fluids and vasopressors (dopamine favoured for renal vasodilation)",
-            "Alkaline diuresis (sodium bicarbonate) helps only long-acting barbiturates eliminated renally",
-            "Haemodialysis or haemoperfusion over charcoal removes both long and short acting barbiturates; no specific antidote"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
-      "tags": [
-        "poisoning"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-061",
-      "type": "shortnote",
-      "front": "Short note: Barbiturate enzyme induction and interactions",
-      "sections": [
-        {
-          "h": "Induction",
-          "points": [
-            "Induces several CYP isoenzymes (CYP3A4/5, CYP2D6, CYP2C8/9, CYP2B6) and UGTs; also autoinduces",
-            "Reduces effect of warfarin, steroids including contraceptives, tolbutamide, griseofulvin, chloramphenicol, theophylline"
-          ]
-        },
-        {
-          "h": "Additive depression",
-          "points": [
-            "With alcohol, antihistamines and opioids"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-sleep-barbiturates",
-      "tags": [
-        "interactions"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-062",
-      "type": "shortnote",
-      "front": "Short note: Benzodiazepine receptor and GABA-A modulation (agonists, inverse agonists, flumazenil)",
-      "sections": [
-        {
-          "h": "Complex",
-          "points": [
-            "Pentameric Cl- channel; BZD site lies at the alpha-gamma interface; GABA binds at alpha-beta",
-            "BZDs increase the frequency of Cl- opening; they do not open the channel themselves"
-          ]
-        },
-        {
-          "h": "Ligands",
-          "points": [
-            "Agonists (diazepam) facilitate GABA; inverse agonists (DMCM) hinder it and are convulsant",
-            "Flumazenil is a competitive antagonist that blocks both sedative BZD action and DMCM convulsions"
-          ]
-        },
-        {
-          "h": "Subtypes",
-          "points": [
-            "alpha-1 subunit: sedation, hypnosis, amnesia; alpha-2 and alpha-3: anxiolysis and muscle relaxation",
-            "Zaleplon and zolpidem bind alpha-1 selectively: hypnotic without much anticonvulsant or relaxant effect"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "mechanism",
-        "newer-drugs"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-063",
-      "type": "shortnote",
-      "front": "Short note: Benzodiazepine pharmacokinetics and choice of hypnotic",
-      "sections": [
-        {
-          "h": "Lipid solubility",
-          "points": [
-            "Differ more than 50-fold; redistribution explains short action of lipophilic drugs despite long elimination half-life"
-          ]
-        },
-        {
-          "h": "Metabolism",
-          "points": [
-            "CYP3A4 and CYP2C19; active metabolites extend effect; glucuronide excretion; diazepam shows enterohepatic circulation"
-          ]
-        },
-        {
-          "h": "Choice",
-          "points": [
-            "Long acting (flurazepam, diazepam, nitrazepam): cumulate, risk of next-day sedation",
-            "Short acting (triazolam, temazepam, alprazolam): shorter effect, fewer residual effects",
-            "Elderly: avoid long acting drugs (flurazepam) for risk of ataxia and confusion"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "pk",
+        "uses",
         "dosing"
       ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-064",
-      "type": "shortnote",
-      "front": "Short note: Triazolam, midazolam and the problem of short-acting hypnotics",
-      "sections": [
-        {
-          "h": "Triazolam",
-          "points": [
-            "Very potent; peak under 1 hour; good for induction but poor for maintenance",
-            "Rebound insomnia and early morning anxiety; withdrawn in the UK but used elsewhere for elderly, shift workers and travellers"
-          ]
-        },
-        {
-          "h": "Midazolam",
-          "points": [
-            "Peak about 20 minutes; ataxia and blackouts in the elderly; abuse liability",
-            "Not an oral hypnotic now; used as i.m. premedicant or i.v. anaesthetic"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "adr",
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-065",
-      "type": "shortnote",
-      "front": "Short note: Benzodiazepine adverse effects, dependence and withdrawal",
-      "sections": [
-        {
-          "h": "Hypnotic-dose effects",
-          "points": [
-            "Dizziness, vertigo, ataxia, amnesia, slowed reaction time: no driving",
-            "Sleep walking and sleep driving with no memory of events"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Elderly more susceptible to psychomotor effects; can aggravate sleep apnoea",
-            "Abuse liability lower than barbiturates; withdrawal milder but possible (alprazolam withdrawal marked)"
-          ]
-        },
-        {
-          "h": "Antidote",
-          "points": [
-            "Flumazenil, a specific BZD antagonist"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "adr",
-        "poisoning"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-066",
@@ -2008,259 +2943,8 @@
         "uses"
       ],
       "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-067",
-      "type": "basic",
-      "front": "Why do benzodiazepines lower BP differently on i.v. injection?",
-      "back": "Diazepam and lorazepam lower BP by reducing cardiac output; midazolam lowers it mainly by decreasing peripheral resistance. Diazepam also dilates the coronary arteries transiently.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-068",
-      "type": "cloze",
-      "front": "Benzodiazepine receptor and anticonvulsant facts",
-      "text": "Flumazenil is a {{competitive}} BZD antagonist; zaleplon and zolpidem bind the {{alpha-1}} subunit isoform; the BZD receptor increases the {{frequency}} of Cl- channel opening.",
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "mechanism"
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-069",
-      "type": "shortnote",
-      "front": "Short note: Classification of epileptic seizures and the drug of choice for each",
-      "sections": [
-        {
-          "h": "Generalised",
-          "points": [
-            "Tonic-clonic (GTCS), absence (3 Hz spike and wave, children), atonic, myoclonic, infantile spasms"
-          ]
-        },
-        {
-          "h": "Partial",
-          "points": [
-            "Simple partial: consciousness kept; complex partial (temporal lobe): confusion and amnesia",
-            "Partial may secondarily generalise into GTCS"
-          ]
-        },
-        {
-          "h": "Drug choice",
-          "points": [
-            "Absence: ethosuximide or valproate (valproate first-line)",
-            "Myoclonic: valproate most effective; atonic: valproate",
-            "CPS: carbamazepine most effective; GTCS and partial: carbamazepine, valproate, phenytoin"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-epilepsy-basics",
-      "tags": [
-        "classification",
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-070",
-      "type": "shortnote",
-      "front": "Short note: Experimental models of antiepileptic drugs and what each predicts",
-      "sections": [
-        {
-          "h": "MES",
-          "points": [
-            "Maximal electroshock: tonic extensor phase abolished by drugs active in GTCS and complex partial seizures; reflects spread"
-          ]
-        },
-        {
-          "h": "PTZ",
-          "points": [
-            "Clonic convulsions blocked by drugs active in absence and myoclonic seizures; reflects the focus"
-          ]
-        },
-        {
-          "h": "Kindling",
-          "points": [
-            "Repeated weak stimulation of amygdala; after 10 to 15 shocks tonic-clonic seizures; spontaneous seizures after more than 100 shocks"
-          ]
-        },
-        {
-          "h": "Chronic focal",
-          "points": [
-            "Alumina cream on monkey motor cortex"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-epilepsy-basics",
-      "tags": [
-        "mechanism"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-071",
-      "type": "shortnote",
-      "front": "Short note: Phenytoin: mechanism, why it does not raise PTZ threshold and why it suits GTCS",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Prolongs inactivated state of voltage-gated Na+ channel; suppresses high-frequency firing, not normal firing",
-            "Little sedation; no effect on resting potential or normal transmission"
-          ]
-        },
-        {
-          "h": "Profile",
-          "points": [
-            "Abolishes tonic phase of MES; does not raise PTZ threshold; does not prevent kindling",
-            "Also used in trigeminal neuralgia and cardiac arrhythmias (high-frequency suppression)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-phenytoin",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-072",
-      "type": "shortnote",
-      "front": "Short note: Phenytoin pharmacokinetics: non-linear kinetics and monitoring",
-      "sections": [
-        {
-          "h": "Metabolism",
-          "points": [
-            "Hydroxylation by CYP2C9 and CYP2C19 plus glucuronidation; capacity limited (first order changes to zero order)"
-          ]
-        },
-        {
-          "h": "Consequence",
-          "points": [
-            "Small dose rises give disproportionate plasma rises; half-life rises from 12 to 24 h up to 60 h above 10 microgram/mL",
-            "Plasma level monitoring guides dosing"
-          ]
-        },
-        {
-          "h": "Absorption",
-          "points": [
-            "Slow oral absorption due to poor aqueous solubility"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-phenytoin",
-      "tags": [
-        "pk",
-        "dosing"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-073",
-      "type": "shortnote",
-      "front": "Short note: Phenytoin toxicity: gingival hyperplasia, foetal hydantoin syndrome and i.v. risks",
-      "sections": [
-        {
-          "h": "Chronic effects",
-          "points": [
-            "Gum hypertrophy (commonest, about 20%, younger patients; reduced by oral hygiene)",
-            "Hirsutism, coarsened features, acne; rash, DLE, lymphadenopathy; rare neutropenia",
-            "Folate interference (megaloblastic anaemia) and vitamin D activation (osteomalacia)"
-          ]
-        },
-        {
-          "h": "Pregnancy",
-          "points": [
-            "Foetal hydantoin syndrome (hypoplastic phalanges, cleft palate, microcephaly), probably from an arene-oxide metabolite"
-          ]
-        },
-        {
-          "h": "Intravenous",
-          "points": [
-            "Vein injury, thrombosis, extravasation necrosis; fall in BP and arrhythmia need ECG monitoring"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-phenytoin",
-      "tags": [
-        "adr",
-        "contraindications"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-074",
-      "type": "shortnote",
-      "front": "Short note: Phenytoin interactions",
-      "sections": [
-        {
-          "h": "Enzyme changes",
-          "points": [
-            "Potent inducer of CYP2C8/9 and CYP3A4/5; competitively inhibits CYP2C9/19"
-          ]
-        },
-        {
-          "h": "Raises phenytoin levels",
-          "points": [
-            "Valproate (protein binding displacement), chloramphenicol, isoniazid, cimetidine, warfarin"
-          ]
-        },
-        {
-          "h": "Lowers its absorption or levels",
-          "points": [
-            "Sucralfate binds it in gut; carbamazepine and phenobarbitone induce its metabolism"
-          ]
-        },
-        {
-          "h": "Affects others",
-          "points": [
-            "Reduces oral contraceptive efficacy, doxycycline and theophylline levels; competitively inhibits warfarin"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-phenytoin",
-      "tags": [
-        "interactions"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-075",
@@ -2276,321 +2960,8 @@
         "adr"
       ],
       "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-076",
-      "type": "shortnote",
-      "front": "Short note: Carbamazepine: uses, mechanism and toxicity",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Na+ channel inactivation similar to phenytoin; raises threshold to PTZ and electroshock; inhibits kindling",
-            "Lithium-like effect in mania; antidiuretic effect (enhances ADH on renal tubule)"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Most effective for CPS; widely used for GTCS and SPS; drug of choice for trigeminal neuralgia (about 60% respond)",
-            "Can worsen myoclonic, absence and atonic seizures"
-          ]
-        },
-        {
-          "h": "Toxicity",
-          "points": [
-            "Dose-related: sedation, dizziness, diplopia, ataxia (extended-release tablets reduce peaks)",
-            "Hypersensitivity: rash, hepatitis, lupus-like, rarely agranulocytosis and aplastic anaemia",
-            "Hyponatraemia in elderly; valproate combination doubles teratogenic risk"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-077",
-      "type": "shortnote",
-      "front": "Short note: Carbamazepine as enzyme inducer and its interactions",
-      "sections": [
-        {
-          "h": "Substrate and inducer",
-          "points": [
-            "Metabolised by CYP3A4 and CYP2C9; autoinduces, so half-life falls from 20 to 40 h to 10 to 20 h"
-          ]
-        },
-        {
-          "h": "Reduces levels of",
-          "points": [
-            "Haloperidol, oral contraceptives, lamotrigine, valproate, topiramate"
-          ]
-        },
-        {
-          "h": "Raises levels of carbamazepine",
-          "points": [
-            "Erythromycin, fluoxetine, isoniazid"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "interactions",
-        "pk"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-078",
-      "type": "shortnote",
-      "front": "Short note: Oxcarbazepine and eslicarbazepine: why they are better tolerated than carbamazepine",
-      "sections": [
-        {
-          "h": "Oxcarbazepine",
-          "points": [
-            "Converted to a glucuronide-conjugated active metabolite; no epoxide, so fewer epoxide toxic effects",
-            "Weak enzyme inducer; fewer interactions; hyponatraemia more common; lower hepatotoxicity risk",
-            "Dose for dose less potent than carbamazepine"
-          ]
-        },
-        {
-          "h": "Eslicarbazepine",
-          "points": [
-            "S(+) prodrug giving the same active metabolite; once-daily dosing; adjunct for partial seizures in adults",
-            "Initial 400 mg/day, up to 1200 mg daily"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-newer-antiseizure",
-      "tags": [
-        "newer-drugs",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-079",
-      "type": "shortnote",
-      "front": "Short note: Valproate: mechanisms, uses and hepatic and fetal risks",
-      "sections": [
-        {
-          "h": "Mechanisms",
-          "points": [
-            "Frequency-dependent Na+ channel prolongation; weak T-current block; more GABA by inhibiting GABA-transaminase and synthesis; NMDA blockade"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Drug of choice for absence; first line for GTCS and partial; most effective for myoclonic; atonic; mania alternative to lithium; migraine prophylaxis"
-          ]
-        },
-        {
-          "h": "Toxicity",
-          "points": [
-            "Fulminant hepatitis rare, mainly under 3 years; alopecia, weight gain, bleeding; neural tube defects (avoid in pregnancy)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "mechanism",
-        "uses",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-080",
-      "type": "shortnote",
-      "front": "Short note: Valproate interactions: why clonazepam combination is contraindicated",
-      "sections": [
-        {
-          "h": "Raises levels of",
-          "points": [
-            "Phenobarbitone and lamotrigine (metabolism inhibited); unbound phenytoin rises when valproate displaces it"
-          ]
-        },
-        {
-          "h": "Clonazepam combination",
-          "points": [
-            "Contraindicated: may precipitate absence status epilepticus"
-          ]
-        },
-        {
-          "h": "Pregnancy",
-          "points": [
-            "Foetal abnormalities more common when valproate and carbamazepine are used together"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "interactions",
-        "contraindications"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-081",
-      "type": "shortnote",
-      "front": "Short note: Phenobarbitone as an antiepileptic: efficacy and drawbacks",
-      "sections": [
-        {
-          "h": "Actions",
-          "points": [
-            "Raises seizure threshold, limits spread, suppresses kindling; higher anticonvulsant to hypnotic ratio than other barbiturates"
-          ]
-        },
-        {
-          "h": "Use",
-          "points": [
-            "GTCS, SPS and CPS; status epilepticus IM or IV but slow to act; not for absence or atonic seizures"
-          ]
-        },
-        {
-          "h": "Drawbacks",
-          "points": [
-            "Sedation wanes but anticonvulsant action persists; learning and memory impairment; hyperactivity in children"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-082",
-      "type": "shortnote",
-      "front": "Short note: Ethosuximide: absence seizures and the T-current",
-      "sections": [
-        {
-          "h": "Action",
-          "points": [
-            "Suppresses PTZ clonic seizures at doses without other effects; ineffective on MES and kindling",
-            "Selectively blocks the thalamic low-threshold T-type Ca2+ current that drives 3 Hz spike and wave"
-          ]
-        },
-        {
-          "h": "Use",
-          "points": [
-            "Absence seizures primary; approved for myoclonic seizures; valproate now preferred"
-          ]
-        },
-        {
-          "h": "Adverse",
-          "points": [
-            "GI intolerance, tiredness, mood change, headache, inability to concentrate"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-083",
-      "type": "shortnote",
-      "front": "Short note: Clonazepam and clobazam: benzodiazepine antiepileptics",
-      "sections": [
-        {
-          "h": "Clonazepam",
-          "points": [
-            "Blocks PTZ seizures; ineffective in GTCS; used for absence, myoclonic and akinetic epilepsy and acute mania",
-            "Tolerance develops within about six months; sedation and salivation adverse effects"
-          ]
-        },
-        {
-          "h": "Clobazam",
-          "points": [
-            "1,5-benzodiazepine; useful in partial, GTCS, absence and atonic seizures including refractory cases",
-            "Adjunct to carbamazepine, valproate or lamotrigine; active metabolite half-life over 35 h"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "uses",
-        "pk"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-084",
-      "type": "shortnote",
-      "front": "Short note: Primidone: a prodrug that works through phenobarbitone",
-      "sections": [
-        {
-          "h": "Conversion",
-          "points": [
-            "Deoxybarbiturate converted to phenobarbitone and phenylethyl malonamide (PEMA); these active metabolites give the effect"
-          ]
-        },
-        {
-          "h": "Use",
-          "points": [
-            "Seldom used now; adjunct to phenytoin or carbamazepine in GTCS and partial seizures"
-          ]
-        },
-        {
-          "h": "Adverse",
-          "points": [
-            "Phenobarbitone-type effects; rarely anaemia, leukopenia, psychosis, lymph node enlargement"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-broad-spectrum",
-      "tags": [
-        "pk",
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p2-sedatives-aed-085",
@@ -2606,6 +2977,892 @@
         "adr"
       ],
       "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-sedatives-aed-092",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-status-epilepticus",
+      "level": 2,
+      "tags": [
+        "uses",
+        "pk"
+      ],
+      "front": "Why is lorazepam better suited than diazepam for status epilepticus?",
+      "back": "Diazepam is rapidly redistributed, so its effect is less sustained; it also causes more local thrombophlebitis. Lorazepam is less lipid soluble and redistributes slowly, giving more sustained action (about 6 to 12 h) and less thrombophlebitis, so it is the first-choice benzodiazepine in status epilepticus. Diazepam remains a first-line drug for emergency convulsions generally (tetanus, eclampsia, convulsant poisoning).",
+      "refs": [
+        "KDT8 ch30"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-093",
+      "type": "essay",
+      "subtopic": "p2-sedatives-aed-status-epilepticus",
+      "level": 3,
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "front": "Essay: Stepwise drug therapy of status epilepticus and why each drug is placed where it is",
+      "sections": [
+        {
+          "h": "Priorities",
+          "points": [
+            "Airway, oxygenation and general support first; control fits quickly"
+          ]
+        },
+        {
+          "h": "First line",
+          "points": [
+            "Benzodiazepine i.v.: lorazepam preferred for lasting effect and less thrombophlebitis; diazepam rapidly redistributes"
+          ]
+        },
+        {
+          "h": "Next",
+          "points": [
+            "Fosphenytoin i.v. is given after the benzodiazepine regardless of response: it may stop fits lorazepam did not control and starts long-term therapy",
+            "Fosphenytoin replaces phenytoin: less vascular damage, faster infusion rate, can be given with saline or glucose; both still need ECG monitoring",
+            "Phenytoin sodium only if fosphenytoin is unavailable; it must go slowly, causes more local vascular injury and precipitates in glucose"
+          ]
+        },
+        {
+          "h": "Later options",
+          "points": [
+            "Phenobarbitone i.v. is slower acting; an alternative to fosphenytoin or used if it fails, and to hold seizure-free state before oral therapy",
+            "Fits not controlled by lorazepam and fosphenytoin within about 40 min: i.v. midazolam, propofol or thiopentone anaesthesia in intensive care"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Never stop antiseizure drugs abruptly; withdrawal can precipitate status"
+          ]
+        }
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "refs": [
+        "KDT8 ch30"
+      ]
+    },
+    {
+      "id": "p2-sedatives-aed-101",
+      "type": "essay",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 3,
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "front": "Essay: Newer antiseizure drugs: mechanisms, approved uses and safety flags",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "month": "May",
+          "paper": "II",
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Context",
+          "points": [
+            "Introduced as second-line or add-on drugs for refractory partial seizures in some countries (KDT8 ch30)",
+            "Each drug has its own warning profile, covered below (GG14 ch20)"
+          ]
+        },
+        {
+          "h": "Sodium channel and GABA",
+          "points": [
+            "Lacosamide enhances slow inactivation of Na+ channels",
+            "Cenobamate: Na+ inactivation, block of persistent Na+ current and positive GABA-A modulation (GG14 ch20)",
+            "Tiagabine blocks GAT-1; vigabatrin inhibits GABA-transaminase (KDT8 ch30)"
+          ]
+        },
+        {
+          "h": "Synaptic vesicle and glutamate",
+          "points": [
+            "Levetiracetam and brivaracetam bind SV2A",
+            "Perampanel is a noncompetitive AMPA receptor antagonist (GG14 ch20)"
+          ]
+        },
+        {
+          "h": "Other mechanisms",
+          "points": [
+            "Topiramate and zonisamide: weak carbonic anhydrase inhibitors",
+            "Gabapentin and pregabalin modulate a subset of voltage-gated Ca2+ channels (KDT8 ch30)",
+            "Cannabidiol, rufinamide, stiripentol, ezogabine: target-specific actions, Dravet and Lennox-Gastaut niche (GG14 ch20)"
+          ]
+        },
+        {
+          "h": "Approved uses and age limits",
+          "points": [
+            "Lacosamide: 17 years and older, add-on for focal-onset seizures (GG14 ch20)",
+            "Brivaracetam: adults and adolescents 16 years and older, add-on",
+            "Perampanel: focal seizures, 12 years and older",
+            "Rufinamide: Lennox-Gastaut, 4 years and older",
+            "Cannabidiol: Lennox-Gastaut, Dravet and tuberous sclerosis seizures (US, 1 year and older)"
+          ]
+        },
+        {
+          "h": "Safety flags",
+          "points": [
+            "Perampanel: anxiety, confusion, aggression, suicidal thoughts",
+            "FDA suicidality warning applies to all antiseizure drugs",
+            "Cenobamate: shortens QT (avoid if short QT), DRESS risk",
+            "Felbamate: aplastic anaemia and hepatitis, so last-line",
+            "Ezogabine: retinal changes and skin/lip pigmentation"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Choose by seizure type, age and interactions; monitor for the drug-specific warning"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30",
+        "GG14 ch20"
+      ]
+    },
+    {
+      "id": "p2-sedatives-aed-102",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "What is perampanel and what is it used for?",
+      "back": "First-in-class noncompetitive AMPA-type glutamate receptor antagonist. Add-on for focal-onset seizures in patients 12 years and older. Long half-life (about 105 h) allows once-daily dosing.",
+      "refs": [
+        "GG14 ch20"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-103",
+      "type": "shortnote",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 2,
+      "tags": [
+        "mechanism",
+        "adr",
+        "interactions"
+      ],
+      "front": "Short note: Perampanel",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Noncompetitive AMPA antagonist; reduces fast excitatory signalling",
+            "Acts more on seizure spread than on initiation (GG14 ch20)"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Adjunct in focal-onset seizures, with or without secondary generalisation, 12 years and older",
+            "Starts at 2 mg once daily; maximal dose 4 to 12 mg/day at bedtime"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Anxiety, confusion, imbalance, visual disturbance, aggression, suicidal thoughts"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Metabolised by hepatic CYP3A",
+            "Can lower levels of carbamazepine, clobazam, lamotrigine, valproate and contraceptive progestins",
+            "Can raise oxcarbazepine exposure"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch20"
+      ]
+    },
+    {
+      "id": "p2-sedatives-aed-104",
+      "type": "shortnote",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 2,
+      "tags": [
+        "mechanism",
+        "pk",
+        "interactions"
+      ],
+      "front": "Short note: Brivaracetam compared with levetiracetam",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Shared target",
+          "points": [
+            "Both bind SV2A, a synaptic vesicle protein"
+          ]
+        },
+        {
+          "h": "Difference",
+          "points": [
+            "Brivaracetam has higher affinity for SV2A and also inhibits voltage-gated Na+ channels",
+            "Approved as adjunct for focal-onset seizures in patients 16 years and older (2016)"
+          ]
+        },
+        {
+          "h": "Kinetics and safety",
+          "points": [
+            "Rapid absorption, half-life about 7-8 h",
+            "Dose 50 mg BD; dose reduction in hepatic impairment",
+            "Like levetiracetam, few interactions and mild effects (sedation, dizziness, GI upset)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch20",
+        "KDT8 ch30"
+      ]
+    },
+    {
+      "id": "p2-sedatives-aed-105",
+      "type": "shortnote",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 2,
+      "tags": [
+        "mechanism",
+        "pk",
+        "adr"
+      ],
+      "front": "Short note: Cenobamate",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Enhances fast and slow Na+ channel inactivation; inhibits persistent Na+ current",
+            "Positive allosteric modulator of GABA-A (GG14 ch20)"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Partial-onset seizures in adults, as monotherapy or add-on; dose-dependent response in refractory cases"
+          ]
+        },
+        {
+          "h": "Kinetics",
+          "points": [
+            "Half-life 30-76 h; may be non-linear at higher doses",
+            "Metabolised by CYP2E1, 2A6 and 2B6"
+          ]
+        },
+        {
+          "h": "Warnings",
+          "points": [
+            "Shortens QT interval: contraindicated if QT is already short",
+            "Allergic reactions and DRESS (eosinophilia and systemic symptoms)",
+            "Somnolence, dizziness, diplopia, headache are common"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch20"
+      ]
+    },
+    {
+      "id": "p2-sedatives-aed-106",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "uses",
+        "interactions"
+      ],
+      "front": "What is cannabidiol used for in epilepsy?",
+      "back": "A plant-derived (phytocannabinoid) antiseizure drug approved in the US for seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex (age 1 year and older). Metabolised by liver and intestinal CYPs.",
+      "refs": [
+        "GG14 ch20"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-107",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "front": "What is rufinamide and what is its main use?",
+      "back": "A triazole derivative, structurally unrelated to other antiseizure drugs. Adjunct for Lennox-Gastaut syndrome seizures, 4 years and older.",
+      "refs": [
+        "GG14 ch20"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-108",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "mechanism",
+        "uses",
+        "interactions"
+      ],
+      "front": "What is stiripentol and why does it need dose checks of companion drugs?",
+      "back": "An aromatic alcohol, structurally unrelated to other antiseizure drugs, used in Dravet syndrome with clobazam and valproate. It enhances GABA-A channel opening, and it strongly inhibits CYP3A4, 1A2 and 2C19, so companion drug levels can change.",
+      "refs": [
+        "GG14 ch20"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-109",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "front": "Why is felbamate restricted to last-line use?",
+      "back": "Its serious risks are aplastic anaemia and hepatitis (it carries a boxed warning). It is approved only for focal seizures not controlled by other drugs.",
+      "refs": [
+        "GG14 ch20"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-110",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "front": "What is ezogabine (retigabine) and what warning applies to it?",
+      "back": "A potassium channel opener acting on KCNQ (Kv7) channels, stabilising the resting membrane potential. Warnings: retinal abnormalities and skin and lip pigmentation, which may be permanent.",
+      "refs": [
+        "GG14 ch20"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-111",
+      "type": "shortnote",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 2,
+      "tags": [
+        "classification",
+        "uses",
+        "adr"
+      ],
+      "front": "Short note: Newer antiepileptics: choosing by age and safety",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why newer drugs",
+          "points": [
+            "Introduced as second-line or add-on drugs for refractory partial seizures in some countries (KDT8 ch30)"
+          ]
+        },
+        {
+          "h": "Age and seizure fit",
+          "points": [
+            "Lacosamide: 17 years and older",
+            "Brivaracetam: 16 years and older",
+            "Perampanel: 12 years and older",
+            "Rufinamide: 4 years and older",
+            "Levetiracetam: used from age 4 years (GG14 ch20)"
+          ]
+        },
+        {
+          "h": "Safety flags",
+          "points": [
+            "Perampanel: psychiatric effects",
+            "Cenobamate: QT shortening, DRESS",
+            "Felbamate: aplastic anaemia, hepatitis",
+            "Ezogabine: retinal change, pigmentation"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch30",
+        "GG14 ch20"
+      ]
+    },
+    {
+      "id": "p2-sedatives-aed-112",
+      "type": "essay",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "level": 3,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Essay: Melatonin: physiology, receptors and therapeutic potential",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "IV",
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "I",
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Source and synthesis",
+          "points": [
+            "Principal hormone of the pineal gland, secreted at night",
+            "Made from serotonin by N-acetylation and O-methylation (GG14 ch15)"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Entrains the sleep-wake cycle to the circadian rhythm",
+            "Acts on MT1 and MT2 receptors, both GPCRs, to start sleep and fix its timing (KDT8 ch29)"
+          ]
+        },
+        {
+          "h": "Therapeutic use",
+          "points": [
+            "Ramelteon: MT1/MT2 agonist for sleep-onset insomnia; no GABAergic action, no BZD-like side effects; 8 mg before bed; low bioavailability from first-pass metabolism",
+            "Tasimelteon: for non-24-hour circadian disorder in totally blind patients (GG14 ch22)"
+          ]
+        },
+        {
+          "h": "Limits and cautions",
+          "points": [
+            "Benefit of supplements is unproven, though sold as a health food; secretion declines with age",
+            "Ramelteon levels rise with fluvoxamine, ciprofloxacin, fluconazole; rifampicin lowers them"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Melatonin receptor agonists fit circadian and sleep-onset problems, not general sedation"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch29",
+        "GG14 ch22",
+        "GG14 ch15"
+      ]
+    },
+    {
+      "id": "p2-sedatives-aed-113",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "level": 1,
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "front": "What is tasimelteon used for?",
+      "back": "A selective MT1/MT2 melatonin receptor agonist used for non-24-hour sleep-wake disorder in totally blind patients. The FDA approval also covers non-blind users, though no trials were done in them.",
+      "refs": [
+        "GG14 ch22"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "IV",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-114",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-hypnotics",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How is melatonin made in the pineal gland?",
+      "back": "From serotonin, by N-acetylation followed by O-methylation. It is secreted mainly at night.",
+      "refs": [
+        "GG14 ch15",
+        "KDT8 ch29"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "I",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-115",
+      "type": "basic",
+      "subtopic": "p2-sedatives-aed-newer-antiseizure",
+      "level": 1,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "What is cenobamate?",
+      "back": "A newer antiseizure drug for partial-onset seizures in adults, used as monotherapy or add-on. It acts by sodium channel effects and positive GABA-A modulation.",
+      "refs": [
+        "GG14 ch20"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "paper": "II",
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-116",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "front": "Which amino acids are the inhibitory neurotransmitters of the CNS?",
+      "back": "GABA is the main one. Glycine is the other fast inhibitory amino acid; taurine and beta-alanine also act as inhibitory amino acids. GABA and glycine both open chloride channels.",
+      "refs": [
+        "GG14 ch16"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-117",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Where does glycine act as an inhibitory transmitter?",
+      "back": "Mainly in the spinal cord and medulla, where it opens chloride channels. One site is the Renshaw cell to motoneurone junction, which inhibits antagonist muscles.",
+      "refs": [
+        "GG14 ch16",
+        "KDT8 ch35"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-118",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Which general anaesthetics and sedatives enhance glycine-mediated inhibition?",
+      "back": "Barbiturates, propofol and many inhalational anaesthetics. They augment glycine-mediated inhibition; ketamine and N2O do not act on glycine or GABA-A channels.",
+      "refs": [
+        "KDT8 ch27"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-119",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How does GABA-B activation differ from GABA-A activation?",
+      "back": "GABA-A is a fast chloride channel. GABA-B is a metabotropic GPCR coupled to Gi and Gq; it opens K+ channels, reduces Ca2+ conductance and acts presynaptically to inhibit GABA release. Baclofen is a GABA-B agonist.",
+      "refs": [
+        "GG14 ch16"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-120",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "front": "Short note: Inhibitory amino acid neurotransmitters and drugs acting on them",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "GABA: main inhibitory transmitter of the CNS",
+            "Glycine: inhibitory mainly in the spinal cord and medulla",
+            "Taurine and beta-alanine: also inhibitory amino acids"
+          ]
+        },
+        {
+          "h": "Receptors",
+          "points": [
+            "GABA-A and glycine receptors: pentameric chloride channels, hyperpolarising and fast",
+            "GABA-B: metabotropic GPCR (Gi, Gq) with presynaptic autoreceptor function"
+          ]
+        },
+        {
+          "h": "Drugs on GABA-A",
+          "points": [
+            "Benzodiazepines increase the frequency of channel opening",
+            "Barbiturates prolong opening and can activate the channel directly",
+            "Propofol and inhalational anaesthetics potentiate GABA-A"
+          ]
+        },
+        {
+          "h": "Drugs on glycine",
+          "points": [
+            "Barbiturates, propofol and inhalational anaesthetics augment glycine inhibition",
+            "Strychnine blocks glycine inhibition, causing reflex tonic-clonic convulsions"
+          ]
+        },
+        {
+          "h": "Drugs on GABA-B",
+          "points": [
+            "Baclofen: GABA-B agonist used as a skeletal muscle relaxant",
+            "GHB: GABA-B agonist, used in narcolepsy and recreationally"
+          ]
+        },
+        {
+          "h": "Antagonist",
+          "points": [
+            "Flumazenil blocks the benzodiazepine site on GABA-A"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch16",
+        "KDT8 ch27",
+        "KDT8 ch35",
+        "KDT8 ch29"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-121",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "front": "Essay: Inhibitory amino acid neurotransmitters in the CNS and drugs affecting them",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "GABA and glycine are the main fast inhibitory amino acids",
+            "Both open chloride channels and hyperpolarise the neurone",
+            "Taurine and beta-alanine are minor members of the group"
+          ]
+        },
+        {
+          "h": "Receptors",
+          "points": [
+            "GABA-A: chloride-selective pentamer of alpha, beta and gamma subunits",
+            "GABA-B: metabotropic GPCR acting pre- and postsynaptically",
+            "Glycine receptor: chloride-selective pentamer in spinal cord and medulla"
+          ]
+        },
+        {
+          "h": "Drugs on GABA-A",
+          "points": [
+            "Benzodiazepines increase the frequency of channel opening",
+            "Barbiturates prolong opening and can open the channel directly",
+            "Flumazenil antagonises the benzodiazepine site"
+          ]
+        },
+        {
+          "h": "Drugs on GABA-B and GABA levels",
+          "points": [
+            "Baclofen and GHB: GABA-B agonists",
+            "Vigabatrin (GABA-transaminase inhibitor) and tiagabine (GAT-1 blocker) raise brain GABA"
+          ]
+        },
+        {
+          "h": "Drugs on glycine",
+          "points": [
+            "Strychnine blocks glycine inhibition and causes tonic-clonic convulsions",
+            "Barbiturates, propofol and inhalational anaesthetics augment glycine inhibition"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "GABA-A drugs underpin sleep, anaesthesia and epilepsy therapy",
+            "Glycine-site drugs explain the convulsant and anaesthetic effects of strychnine and general anaesthetics"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch16",
+        "KDT8 ch27",
+        "KDT8 ch30",
+        "KDT8 ch35"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p2-sedatives-aed-122",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "front": "Short note: Withdrawing an antiseizure drug",
+      "sections": [
+        {
+          "h": "When to consider",
+          "points": [
+            "GG14: continue at least 2 years, then consider tapering if seizure-free",
+            "KDT8: therapy may be life-long or at least 3 years after the last seizure"
+          ]
+        },
+        {
+          "h": "Favourable features",
+          "points": [
+            "Childhood epilepsy",
+            "No family history of epilepsy",
+            "Primary generalised tonic-clonic epilepsy"
+          ]
+        },
+        {
+          "h": "How to withdraw",
+          "points": [
+            "Withdraw gradually, not abruptly, except when the drug is toxic"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch20",
+        "KDT8 ch30"
+      ],
       "status": "draft"
     }
   ]

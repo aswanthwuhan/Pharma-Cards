@@ -51,3 +51,31 @@ Card 0178 (sotalol type) keeps the KDT8 wording and does not restate the channel
 | rf-p2-arrhythmia-angina-htn-0679 to rf-p2-arrhythmia-angina-htn-0682 | added | KDT8 ch40, ch41 |
 
 Ladder pass: no rapid cards added; audit of 681 cards found chapter facts already covered (all rows ok).
+
+## Checker (independent pass, 2026-11-03)
+
+About 18 rapid cards checked against KDT8 ch39-41 and GG14 (pharm-tools search.py): 0037, 0160, 0268, 0372, 0384, 0437, 0438, 0466, 0587, 0643, 0644, 0645, 0680, 0681, 0682.
+
+| id | status | source |
+|---|---|---|
+| rf-p2-arrhythmia-angina-htn-0384 | corrected | KDT8 ch40. Removed "EMA: second-line add-on only" (not printed). Kept the Europe/India/not UK or USA statement |
+| rf-p2-arrhythmia-angina-htn-0682 | corrected | KDT8 ch41. Removed "half-life 40-50 hours" (not printed; the book gives about 48 hours) |
+| rf-p2-arrhythmia-angina-htn-0037, 0160, 0268, 0372, 0437, 0438, 0466, 0587, 0643, 0644, 0645, 0680, 0681 | ok | KDT8 ch39-41; GG14 p638, p641, p645-646, p652, p704, p708, p852 |
+
+Deletions: none. Prep/RR5 grep: no matches. Validator: no errors for this topic.
+
+## Gap-fill PYQ additions (2026-11-03)
+
+id | new | source
+
+rf-p2-arrhythmia-angina-htn-0683-0694 | new (angina index, Langendorff, tail-cuff, DOCA, isoprenaline, placebo, crossover, CCB/diuretic/digoxin/minoxidil facts) | Satoskar p626-627; Medhi PMECP p192, p223, p230; Bennett & Brown p55, p64; KDT8 ch40-42; GG14 ch33-34
+rf-p2-arrhythmia-angina-htn-0696-0724 | new (trimetazidine class label, nicorandil, acetazolamide, spironolactone, digoxin, vasodilator, comorbidity facts); 0695, 0697, 0698 dropped as duplicates of 0380, 0385, 0386 | KDT8 ch40-42; GG14 ch33-34
+
+Checker (PYQ gap pass) 2026-11-03: rapid 0683-0724 checked. rf-p2-arrhythmia-angina-htn-0717 corrected: beta blocker plus diuretic avoidance not in books; now thiazide glucose effect (KDT8 ch41). Deleted: none. Prep/RR5 refs: none. Validator --check: ok.
+
+## PYQ gap fill, EP (2026-11-03)
+
+id | new | source
+rf-p2-arrhythmia-angina-htn-0725 to 0741 | new (phase-4, pacemaker, Na+/Ca2+ phase 0, conduction velocities, ERP recovery, -55 mV, vagal and sympathetic effects, slow- and fast-channel blockers, ERP/APD, latent pacemakers) | KDT8 p521-523 (Section 8 intro)
+
+Checker (PYQ gap pass) 2026-11-03: rapid 0725-0741 checked against KDT8 pp 521-523 (Section 8 intro; the EP passage is not in the ch39 PDF). Citation fixed from ch39. Deleted: none. Prep/RR5 refs: none. Validator --check: ok.

@@ -44,3 +44,41 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 
 ## Still needs a human check
 - 006: WHO EML and NLEM figures are KDT8 (2017/2015) numbers and are outdated; no newer edition in the owner's books.
+
+## Ladder pass
+Level set on all 26 cards; reordered by subtopic and level. PYQ tags added to 004, 006, 014, 018.
+
+| id | status | source |
+|---|---|---|
+| p1-intro-routes-027 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-028 | new (L2) | KDT8 ch1 |
+| p1-intro-routes-029 | new (L2) | KDT8 ch1 |
+| p1-intro-routes-030 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-031 | new (L3) | KDT8 ch1 |
+| p1-intro-routes-032 | new (L3) | KDT8 ch1 |
+| p1-intro-routes-033 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-034 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-035 | new (L2) | KDT8 ch1 |
+| p1-intro-routes-036 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-037 | new (L3) | KDT8 ch1 |
+| p1-intro-routes-038 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-039 | new (L3) | KDT8 ch1 |
+| p1-intro-routes-040 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-041 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-042 | new (L1) | KDT8 ch1 |
+| p1-intro-routes-043 | new (L2) | KDT8 ch1 |
+| p1-intro-routes-044 | new (L2) | KDT8 ch1 |
+
+## Checker
+Checked 30+ cards against KDT8 ch1 text (and KDT8 PDF p25, GG14 PDF p46, Satoskar PDF p59). No Prep/RR5 refs. Ladder: every subtopic has >=3 L1, >=2 L2, >=1 L3.
+- 007 front reworded (listed three liver drugs under "two").
+- 013, 018: heading "Enteral" renamed (sublingual is not enteral in KDT).
+- 014: removed unsupported "potent, low-dose" limitation. 015: unsupported "syrups for children" replaced with oral drops/capsules (KDT8).
+- 016: removed unsupported insulin-suspension example. 017: removed unsupported "needs technique" point.
+- 032: removed unsupported "supports generic prescribing". 037: SVC drainage now cited GG14 PDF p46. 038: removed unsupported "cannot recall dose". 043: added KDT8 PDF p25 (lotion hairy skin confirmed).
+- Added 045 (pharmacopoeia vs formulary, L2), 046 (rectal route, L2), 047 (special SC forms, L2).
+
+## Checker
+- Verified ~25 cards vs KDT8 ch1 text (definitions, MW range, WHO/NLEM figures, orphan, rectal 50%, TTS, particle size, dermojet/implants, IV/IM/SC, dosage forms) and GG14 PDF p46 (sublingual to SVC). All ok, no corrections.
+- No Prep/RR5 refs. Ladder OK in all 7 subtopics (>=3 L1, 2 L2, 1 L3).
+- Added: 048 (intradermal, L1), 049 (nasal route, L1) - KDT8 ch1.

@@ -75,3 +75,38 @@ Added 29 rapid cards (ids rf-p3-endocrine-0561 to 0589), all from KDT8 ch17-19: 
 
 Book conflicts noted:
 - Thyroid storm PTU: KDT8 ch18 200-300 mg 6-hourly vs Katzung16 ch38 250 mg 4-hourly (Katzung kept, see rf-p3-endocrine-0296).
+
+
+Ladder pass additions:
+rf-p3-endocrine-0590 | new | KDT8 ch19
+rf-p3-endocrine-0591 | new | KDT8 ch19
+rf-p3-endocrine-0592 | new | KDT8 ch19
+rf-p3-endocrine-0593 | new | KDT8 ch19
+rf-p3-endocrine-0594 | new | KDT8 ch17
+rf-p3-endocrine-0595 | new | KDT8 ch17
+
+## Checker (independent pass, haiku)
+
+Checked rf-p3-endocrine-0589 to 0595 (new ones) against KDT8 ch17/ch19: all ok.
+- 0588 (75 g OGTT threshold) ok.
+- 0320 (preproinsulin 110 aa) ok.
+Prep/RR5 refs: none.
+Not done: full audit of the rest of the rapid deck.
+
+## Gap pass: rapid pairs for cards 084-097 (rf 0596-0623)
+- 0596-0603 thyroid storm (GG14 ch47, KDT8 ch18, KDT8 PDF p331) new.
+- 0604-0612 NIDDM models and evaluation (Ghosh FEP p151-152, Sarkar p296-300, Medhi PMECP p22-23, p50, p116-119) new.
+- 0613-0623 fertility evaluation and clomiphene (Ghosh FEP p150-151, Sarkar p346-350, KDT8 ch17, ch19, ch22, PDF p106) new.
+Prep/RR5 refs: none.
+
+## Checker (PYQ gap pass)
+- Deleted rf-p3-endocrine-0602 (iodide cannot restore euthyroidism: not in sources), 0618 (6 clomiphene cycles: not printed), 0621 (metformin ovulation claim: not printed in KDT8 ch19).
+- Corrected 0597 to PTU only (methimazole contrast not in sources).
+- Corrected 0622 from clomiphene to menotropins with GnRH agonist/antagonist (KDT8 PDF p277).
+- Corrected 0619 ADR list to match KDT8 PDF p351.
+- Verified 0604-0616, 0620, 0623 against source text. No Prep/RR5 refs.
+Checker (PYQ gap pass): rapid 0596-0623 checked, 3 deleted, 1 reworded, 1 replaced; validator clean.
+
+## Gap pass: rapid check for past-exam questions 167 and 293 (writer)
+- No new rapid pairs. Synthesis facts already covered: rf-p3-endocrine-0147 (pendrin), 0148 (TPO with H2O2), 0149 (MIT/DIT), 0150 (coupling), 0151 (thyroglobulin), 0153-0154 (colloid, release), 0155 (daily secretion), 0156 (one-third conversion), 0159-0160 (D2, D1 and PTU), 0238-0239 (thioamide actions).
+- Prep/RR5 refs: none.

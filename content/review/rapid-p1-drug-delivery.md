@@ -81,3 +81,22 @@ rf-p1-drug-delivery-0108 | regrounded | GG14 PDF p1051 | Compliance claim droppe
 rf-p1-drug-delivery-0109 | regrounded | Katzung16 PDF p1281, Katzung16 PDF p143, GG14 ch2 | "Drug of choice" claim dropped.
 rf-p1-drug-delivery-0113 | corrected | Katzung16 PDF p382 | 2-5 um aerosol mostly deposits in mouth/pharynx, not bronchi. Question rewritten.
 rf-p1-drug-delivery-0114 | corrected | KDT8 PDF p30, GG14 PDF p47 | Gases and volatile anaesthetics absorbed from alveoli, not particles.
+
+## Ladder pass additions
+rf-p1-drug-delivery-0143 | new | KDT8 ch3
+rf-p1-drug-delivery-0144 | new | KDT8 ch3
+rf-p1-drug-delivery-0145 | new | KDT8 ch3
+rf-p1-drug-delivery-0146 | new | KDT8 ch3
+rf-p1-drug-delivery-0147 | new | GG14 PDF p1051
+rf-p1-drug-delivery-0148 | new | RangDale9 ch9
+rf-p1-drug-delivery-0149 | new | Katzung16 PDF p1281
+rf-p1-drug-delivery-0150 | new | KDT8 PDF p150
+rf-p1-drug-delivery-0151 | new | WEB NCBI-PMC Features and Facts of a Gastroretenti
+rf-p1-drug-delivery-0152 | new | RangDale9 ch9
+
+## Checker
+- Spot-checked rapid 0075 (zidovudine, RangDale9 ch9) and new 0143-0152 facts reuse already-grounded deck content; no Prep/RR5 refs; 0144 corrected: lente = zinc, protamine = NPH (KDT8 PDF p300).
+
+## Gap PYQ rapid pairs (rf-0153 to rf-0171)
+rf-p1-drug-delivery-0153 to 0160 | new | GG14 ch44
+rf-p1-drug-delivery-0161 to 0171 | new | Golan ch55; Padmaja PDF p30/p698; KDT8 ch3

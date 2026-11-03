@@ -378,3 +378,68 @@ Table below: id | status | source. All cards are ok at this review. Refs are per
 | rf-p1-drug-dev-0333 | ok | Sarkar p181-185 |
 | rf-p1-drug-dev-0334 | ok | Sarkar p186-190 |
 | rf-p1-drug-dev-0335 | ok | Sarkar p186-190 |
+
+## Gap pass
+| id | status | source |
+|---|---|---|
+| rf-p1-drug-dev-0357 | new | KDT8 ch5 |
+| rf-p1-drug-dev-0358 | new | KDT8 ch5 |
+| rf-p1-drug-dev-0359 | new | KDT8 ch5 |
+| rf-p1-drug-dev-0360 | new | KDT8 ch5 |
+| rf-p1-drug-dev-0361 | new | KDT8 ch5 |
+| rf-p1-drug-dev-0362 | new | KDT8 ch5 |
+| rf-p1-drug-dev-0363 | new | KDT8 ch5 |
+
+## Checker (independent pass, 2026-11-03)
+Sampled 40+ rapid cards against KDT8 ch5, GG14 ch7 (PDF p152-165) and Sarkar OCR (p111-115, p181-190, p206-225, p446-455).
+| id | status | source |
+|---|---|---|
+| rf-p1-drug-dev-0229 | deleted: "phenylbutazone" and "metformin lactic acidosis" not in KDT8 ch5 | KDT8 ch5 |
+| rf-p1-drug-dev-0284 | corrected: "death" removed (not in source) | KDT8 ch5; GG14 PDF p165 |
+| rf-p1-drug-dev-0321 | ref corrected: Latin meaning is in KDT8 ch5 (added) | KDT8 ch5; Sarkar p181-185 |
+| rf-p1-drug-dev-0364 | new (gap): rational use of medicines supply-use chain | KDT8 ch5 |
+| rf-p1-drug-dev-0004 to 0009 | ok (durations) | KDT8 ch5 |
+| rf-p1-drug-dev-0027, 0136, 0337, 0338, 0339 | ok (FDC and single-enantiomer examples) | KDT8 ch5 |
+| rf-p1-drug-dev-0072, 0073, 0074, 0075, 0077 | ok | Sarkar p206-225 |
+| rf-p1-drug-dev-0114 to 0120 | ok | Sarkar p186-190 |
+| rf-p1-drug-dev-0177, 0231, 0240, 0242 | ok | KDT8 ch5 |
+| rf-p1-drug-dev-0201 | ok (about 20% digoxin reduction) | Sarkar p111-115 |
+| rf-p1-drug-dev-0271, 0273, 0279, 0282 | ok | Sarkar p446-455 |
+| rf-p1-drug-dev-0288 to 0295 | ok (HLA alleles, VKORC1, NUDT15, clopidogrel) | GG14 PDF p154-161 |
+| rf-p1-drug-dev-0344 to 0356 | ok | KDT8 PDF p24, p94, p315; GG14 PDF p33, p159, p166 |
+Not re-checked: remaining rapid cards (only sampled). No ids renumbered.
+
+## Gap cards added (PYQ gap set 31, 98, 501)
+| id | new | source |
+|---|---|---|
+| rf-p1-drug-dev-0365 | new fact (preclinical duration) | KDT8 ch5 PDF p88 |
+| rf-p1-drug-dev-0366 | new fact (phase 0 microdose) | KDT8 ch5 PDF p90-91 |
+| rf-p1-drug-dev-0367 | new fact (phase I subjects) | KDT8 ch5 PDF p90-91 |
+| rf-p1-drug-dev-0371 | new fact (CV margin 30%/80%) | GG14 ch8 PDF p166-167 |
+| rf-p1-drug-dev-0372 | new fact (premarketing surrogate endpoints) | GG14 ch8 PDF p166 |
+| rf-p1-drug-dev-0373 | new fact (HbA1c window) | KDT8 ch19 |
+| rf-p1-drug-dev-0374 | new class (type 2 DM drug approaches) | KDT8 ch19 |
+| rf-p1-drug-dev-0375 | new fact (insulin limitations) | KDT8 ch19 |
+| rf-p1-drug-dev-0376 | new class (dose-response factors) | KDT8 ch5 PDF p73-80 |
+| rf-p1-drug-dev-0377 | new fact (G-6PD oxidant drugs) | KDT8 ch5 PDF p76 |
+| rf-p1-drug-dev-0378 | new fact (G-6PD spot test) | KDT8 ch5 PDF p77 |
+| rf-p1-drug-dev-0379 | new fact (surrogate endpoint definition) | GG14 ch8 PDF p166 |
+Rapid ids 0368-0370 were dropped as duplicates of existing 0060, 0062, 0065 (phase II/III/IV), so ids 0368-0370 are unused.
+
+## PYQ gap pass (writer 2026-11-03): rf-p1-drug-dev-0380 to 0397
+| rf id | new | source |
+|---|---|---|
+| 0380-0381 | toxicity species pair, 6-month duration | Bennett p33 |
+| 0382-0384 | chronic toxicity dose levels | Medhi PMECP p133 |
+| 0385 | non-rodent ECG and fundus | Medhi PMECP p133 |
+| 0386-0387 | genotoxicity battery; carcinogenicity trigger | Bennett p34 |
+| 0388 | LLNA stimulation index 3 | Ghosh FEP p182 |
+| 0389 | MRSD | Medhi PMECP p22 |
+| 0390 | local tolerance | Bennett p34 |
+| 0391 | patch test precondition | Ghosh FEP p182 |
+| 0392-0397 | trial sample size, blinding code, non-inferiority, interim stop, population, stratified randomisation | KDT8 ch5 PDF p102 |
+
+Checker (PYQ gap pass, 2026-11-03): rf-p1-drug-dev-0380 to 0397 checked.
+- 0389: ref corrected from "Medhi PMECP p22" to "Medhi PMECP p116" (MRSD text is on p116; p22 covers lead optimisation).
+- 0380-0388, 0390-0397: ok against the cited pages. 0381 "6 months in both species" follows the KDT8 duration table footnote; the table layout is ambiguous, so the owner may wish to confirm the non-rodent column.
+Validator: check ok. No Prep/RR5 refs.

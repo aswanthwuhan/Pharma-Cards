@@ -113,3 +113,16 @@ rf-p3-antiparasitic-0509 | corrected | Katzung16 PDF p1006 | dropped drug-of-cho
 - Katzung16 table 52-6 drug-to-organism mapping for Balantidium, Cryptosporidium, Cyclospora, Dientamoeba: layout unclear in extract.
 - Isospora belli TMP-SMX row (inferred from layout): carded, owner to check.
 
+
+## Checker
+- Rapid deck keyword-checked against KDT8 ch61-63; no Prep/RR5 refs; no deletions. Sitamaquine not added (not confirmed exam-relevant).
+
+## Gap pass: antimalarial evaluation (appended)
+- rf-p3-antiparasitic-0695 to 0708 (14 pairs, tags newer-drugs): RangDale9 ch55 (no new synthetic drug in 40 years; yeast artemisinic acid), GG14 ch66 (artemisinin resistance Asia/Africa; ganaplacide, cipargamin, ferroquine, artefenomel, PfCSP antibody phases), GG12 PDF p1421 (artesunate-pyronaridine phase III), KDT8 ch61 (arterolane-piperaquine trial sites; DHA-piperaquine >98% response; tafenoquine phase-3 India).
+- No deletions. No Prep/RR5 refs.
+
+## Checker pass: newest pairs (0695-0708)
+- 0708 corrected: "phase-3 dose-titration trial in India" not in KDT8; replaced with tafenoquine half-life 14-19 days (KDT8 ch61, PDF p897).
+- 0705 ok: GG12 PDF p1421 prints "recently completed phase III clinical trials" for artesunate-pyronaridine.
+- 0695-0704, 0706, 0707 checked against GG14 PDF p1321, RangDale9 PDF p711, KDT8 PDF p902-903: ok.
+- No Prep/RR5 refs. No deletions.

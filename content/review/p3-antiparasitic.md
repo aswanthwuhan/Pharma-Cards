@@ -147,3 +147,43 @@ Study review rows for the new cards follow.
 | p3-antiparasitic-087 | ok | Katzung16 ch53 |
 | p3-antiparasitic-088 | ok | Katzung16 ch53 |
 | p3-antiparasitic-089 | ok | Katzung16 ch53, KDT8 ch63 |
+| p3-antiparasitic-001..089 | ok (level set, reordered) | existing refs |
+| p3-antiparasitic-090 | new | KDT8 ch61 |
+| p3-antiparasitic-091 | new | KDT8 ch61 |
+| p3-antiparasitic-092 | new | KDT8 ch61 |
+| p3-antiparasitic-093 | new | KDT8 ch61 |
+
+## Checker
+- Spot-checked ~25 cards (study L2-3 and rapid) vs KDT8 ch61-63: facts matched (pfcrt, 50% recrudescence, lumefantrine CYP2D6, quinine dextrose, miltefosine doses/3-month contraception, mebendazole 2-3 days, piperazine, L-AMB 98%).
+- p3-antiparasitic-070: added ref KDT8 ch62 (98% cure figure printed there).
+- No Prep/RR5 refs. Ladder met in all 9 subtopics. No deletions.
+
+## Gap pass: past-exam antimalarial evaluation questions (4 Q bank entries, 10 marks each)
+Q bank wording: "Strategies for evaluation of newer antimalarial drugs", "Evaluation of a new antimalarial agent", "Newer anti malarial drug evaluation". Same question, one card set; no year, so no PYQ tag (Q bank entries carry no year). Existing 058 (recent advances) and 073 (tafenoquine) checked; overlap avoided.
+
+| id | status | source |
+|---|---|---|
+| p3-antiparasitic-094 | new (shortnote L3, strategies for evaluation) | GG14 ch66, RangDale9 ch55, KDT8 ch61, GG12 PDF p1421 |
+| p3-antiparasitic-095 | new (shortnote L2, candidates in development) | GG14 ch66 |
+| p3-antiparasitic-096 | new (basic L1, why new classes) | GG14 ch66, RangDale9 ch55 |
+| p3-antiparasitic-097 | new (basic L1, ferroquine) | GG14 ch66 |
+| p3-antiparasitic-098 | new (cloze L1, candidates) | GG14 ch66 |
+| p3-antiparasitic-099 | new (basic L2, ganaplacide partner) | GG14 ch66 |
+| p3-antiparasitic-100 | new (basic L2, PfCSP antibody) | GG14 ch66 |
+| p3-antiparasitic-101 | new (basic L2, DHA-piperaquine response) | KDT8 ch61 |
+
+Rapid pairs rf-p3-antiparasitic-0695 to 0708 added (candidates, resistance, trial phases, ACT trial sites).
+Notes: RangDale9 p714 cites Fidock 2004 on compound screening only as a bibliography entry, so no screening-method detail was carded. Harrison21 not used (not an owner book). Ganaplacide and cipargamin are described as in trial only, not approved.
+
+## Checker pass: newest cards (094-101)
+| id | status | source |
+|---|---|---|
+| p3-antiparasitic-094 | corrected: "rule in most endemic regions" softened to "common"; tafenoquine "phase-3 trial in India" removed (not in KDT8/GG14); liver-stage "benchmark" wording removed | GG14 PDF p1321, RangDale9 ch55 (PDF p711), KDT8 ch61 (PDF p889, p897, p903), GG12 PDF p1421 (pyronaridine phase III) |
+| p3-antiparasitic-095 | ok | GG14 PDF p1321 |
+| p3-antiparasitic-096 | corrected: "rule in most endemic regions" softened to "common" | RangDale9 ch55 |
+| p3-antiparasitic-097 | ok | GG14 PDF p1321 |
+| p3-antiparasitic-098 | ok | GG14 PDF p1321 |
+| p3-antiparasitic-099 | ok | GG14 PDF p1321 |
+| p3-antiparasitic-100 | ok ("phase I" printed in GG14) | GG14 PDF p1321 |
+| p3-antiparasitic-101 | ok | KDT8 ch61 (PDF p902) |
+Validator clean after edits.

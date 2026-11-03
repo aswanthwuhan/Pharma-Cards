@@ -53,3 +53,39 @@ Items not carded because the table text is garbled or conflicts with the chapter
 - Rapid: +145 (rf-p2-opioids-0633 onward; three duplicates removed): morphine actions and pharmacokinetics, opioid synthetic agents, codeine, heroin, pethidine, fentanyl, methadone, dextropropoxyphene, tramadol, convulsants, analeptics, stimulants, cognition enhancers, alcohol content and mechanisms, disulfiram, acamprosate, naltrexone, methanol. Deck now 776.
 - Target (+120) met: +145 added.
 - Not done: ethylene glycol facts (chapter section not read this pass); Katzung16 and Satoskar newer-drug cross-checks not run.
+
+## Ladder pass additions
+
+| id | status | source |
+|---|---|---|
+| rf-p2-opioids-0782 | new | GG14 ch21 |
+| rf-p2-opioids-0783 | new | GG14 ch21 |
+| rf-p2-opioids-0784 | new | GG14 ch21 |
+| rf-p2-opioids-0785 | new | GG14 ch21 |
+| rf-p2-opioids-0786 | new | GG14 ch21 |
+| rf-p2-opioids-0787 | new | KDT8 ch28 |
+| rf-p2-opioids-0788 | new | KDT8 ch28 |
+
+## Checker (2026-11-03)
+- Verified 0782-0788 against GG14 PDF p440 and KDT8 ch28. Corrected rf-p2-opioids-0786 refs to Katzung16 PDF p1140 (bapineuzumab/solanezumab not in GG14 ch21). No Prep/RR5 refs.
+
+## Checker pass 2 (2026-11-03)
+- Re-verified KDT8 p434-436, p531-532 (acamprosate, disulfiram 2-3h/12h, fomepizole, ethylene glycol steps, memantine 6 mo, anti-ChE 3 mo) and GG14 p440 (aducanumab), Katzung16 p1140. All ok.
+- Rapid 0783-0785 reworded to name aducanumab (source is aducanumab-specific).
+
+## PYQ gap pass (2026-11-03, writer)
+Rapid pairs added for the gap-pass study cards. Columns: id | new | source.
+
+| id | new | source |
+|---|---|---|
+| rf-p2-opioids-0789 to 0817 | new pairs for opioid routes, pain pathway, cannabinoids, SUD, alvimopan, Alzheimer | RangDale9 ch43, KDT8 ch34/ch32/ch35, GG14 ch21/ch23/ch26/ch28, GG12 ch18, Katzung16 ch31 |
+
+## Checker (PYQ gap pass, 2026-11-03)
+- Checked rf-p2-opioids-0789 to 0817 against KDT8 PDF p214, p504, p515, p517, p731; GG14 PDF p418, p482, p484, p532, p567.
+- Deleted (not found in owner books): 0795 (intrathecal 0.2 mg), 0796 (delayed respiratory depression 24 h), 0805 (cannabinoid hyperemesis), 0806 (lowest acute toxicity), 0807 (amotivational syndrome).
+- Corrected: 0794 (epidural/intrathecal 2 to 3 mg, duration removed), 0800 (anandamide wording), 0802 (dronabinol 5 to 10 mg/m2 per KDT8 PDF p731), 0813 (fentanyl 60 mg threshold per GG14 PDF p482; 50 mg equivalence removed), 0815 (ref GG14 ch23, suppositories per GG14 PDF p418), 0817 (memantine dose and 6-month review removed; KDT8 PDF p532).
+- Validator --check: ok.
+
+## Checker pass (newest cards, 2026-11-03)
+- Corrected 0794: epidural 2 to 3 mg and intrathecal 0.2 mg listed separately (KDT8 PDF p518). Earlier merged answer was wrong.
+- Checked 0789-0817: ok otherwise. No Prep/RR5 refs.

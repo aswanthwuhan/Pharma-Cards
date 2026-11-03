@@ -159,3 +159,52 @@ rf-pr-long-exercise-0063 | regrounded | Medhi PMECP PDF p72, p89; Ghosh FEP PDF 
 rf-pr-long-exercise-0065 | regrounded | Ghosh FEP PDF p111, p113 | UNSOURCED removed
 rf-pr-long-exercise-0067 | corrected | Ghosh FEP PDF p92; Medhi PMECP PDF p76 | principle reworded to printed matching method
 rf-pr-long-exercise-0069 | corrected | Medhi PMECP PDF p72, p76 | blinding removed (not in owner books)
+
+rf-pr-long-exercise-0086 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0087 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0088 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0089 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0090 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0091 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0092 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0093 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0094 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0095 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0096 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0097 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0098 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0099 | new | NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0100 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0101 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0102 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0103 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0104 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0105 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0106 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0107 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0108 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0109 | new | 11-cal-vs-conventional-2017 (dog BP practical, PMC5523525); NMC MD Pharmacology 2022 curriculum (practical exam)
+rf-pr-long-exercise-0110 | new | Sarkar p201-205
+rf-pr-long-exercise-0111 | new | Sarkar p201-205
+rf-pr-long-exercise-0112 | new | Sarkar p201-205
+rf-pr-long-exercise-0113 | new | KDT8 ch6
+rf-pr-long-exercise-0114 | new | Sarkar p506-510
+rf-pr-long-exercise-0115 | new | Sarkar p511-515
+rf-pr-long-exercise-0116 | new | Sarkar p511-515
+rf-pr-long-exercise-0117 | new | Sarkar p511-515
+rf-pr-long-exercise-0118 | new | Sarkar p511-515
+rf-pr-long-exercise-0119 | new | Sarkar p511-515
+rf-pr-long-exercise-0120 | new | Sarkar p511-515
+rf-pr-long-exercise-0114,0115,0116,0117,0119 | deleted | duplicate q of existing cards
+
+## Checker
+- rf-0015 (Langendorff: barium chloride spasm): not found in Sarkar p291-295 OCR or any allowed PDF; deleted.
+- rf-0046 q contained "Prep"; rewritten to "Causality scales named in KDT8"; refs now KDT8 PDF p110 and Padmaja PDF p89.
+- rf-0048, rf-0049 (Naranjo thresholds 9+/5-8): KDT8 ch6 does not state them; refs set to UNSOURCED - owner must verify.
+- rf-0109 (ACh after atropine, pressor only): not found in owner books; set to UNSOURCED.
+- rf-0037 morphine 13x codeine verified: RangDale9 PDF p115.
+- rf-0057 to 0059, 0061 counts verified: CONSORT 25, STROBE 22, PRISMA 27, SPIRIT (Sarkar p511-515).
+- rf-0079 pA2-pA10 0.95 (0.8-1.20) verified: Medhi PDF p81.
+- Dog BP cards (0100-0109): PMC ref replaced with KDT8 PDF p159 and Ghosh PDF p121-122. Ocular refs gained Padmaja PDF p110, KDT8 PDF p164, KDT8 PDF p135, Medhi PMECP PDF p332.
+- Prep/RR5 grep: 0 hits after fix.
+- Not done: coverage audit and PYQ grep.

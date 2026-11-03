@@ -16,7 +16,8 @@
       "subtopic": "p2-adrenergic-synthesis-storage",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-adrenergic-002",
@@ -32,7 +33,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-adrenergic-003",
@@ -47,7 +49,41 @@
       "subtopic": "p2-adrenergic-synthesis-storage",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-021",
+      "type": "cloze",
+      "front": "Classify: catecholamine synthesis",
+      "text": "Catecholamines are made from {{phenylalanine}} via tyrosine and {{DOPA}} to dopamine; the rate-limiting enzyme is {{tyrosine hydroxylase}}, blocked by {{metyrosine}}.",
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-synthesis-storage",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-024",
+      "type": "cloze",
+      "front": "Classify: drugs acting on noradrenergic neurones",
+      "text": "{{Cocaine}} and {{desipramine}} block NET and potentiate noradrenaline; {{reserpine}} blocks VMAT-2 and depletes stores; {{selegiline}} inhibits MAO-B; {{entacapone}} inhibits COMT.",
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-synthesis-storage",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p2-adrenergic-004",
@@ -62,7 +98,8 @@
       "subtopic": "p2-adrenergic-synthesis-storage",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-adrenergic-005",
@@ -78,472 +115,8 @@
       "tags": [
         "mechanism",
         "pk"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-006",
-      "type": "basic",
-      "front": "Using the Ahlquist classification, compare the potency order of adrenaline, noradrenaline and isoprenaline at alpha and beta receptors.",
-      "back": "Alpha: adrenaline greater than or equal to noradrenaline, both much greater than isoprenaline. Beta: isoprenaline greater than adrenaline, which is greater than or equal to noradrenaline. Ahlquist (1948) used these two distinct rank orders of agonist potency to divide adrenoceptors into alpha and beta; the split was later confirmed by selective antagonists.",
-      "refs": [
-        "KDT8 ch9"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-receptors",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-007",
-      "type": "basic",
-      "front": "Compare alpha-1 and alpha-2 receptors: location, transducer, effector and selective drugs.",
-      "back": "Alpha-1 is postjunctional on effector organs. It acts through Gq, IP3/DAG and calcium, causing vasoconstriction, mydriasis and contraction of the bladder trigone and prostate. Phenylephrine is the selective agonist and prazosin the selective antagonist. Alpha-2 is mainly prejunctional, where it inhibits transmitter release, and is also found in the brain and platelets. It acts through Gi, lowering cAMP. Clonidine is the selective agonist and yohimbine the antagonist.",
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-receptors",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-008",
-      "type": "basic",
-      "front": "Where are beta-1, beta-2 and beta-3 receptors found, and which selective drugs act on them?",
-      "back": "Beta-1: heart and juxtaglomerular cells; dobutamine is the relatively selective agonist, and metoprolol or atenolol the antagonists. Beta-2: bronchi, blood vessels, uterus, liver, skeletal muscle; salbutamol and terbutaline are agonists, ICI 118551 an antagonist. Beta-3: adipose tissue and bladder detrusor; mirabegron is the agonist used in overactive bladder.",
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-receptors",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-009",
-      "type": "basic",
-      "front": "Dobutamine: receptor action, clinical dose and why it is useful as an inotrope.",
-      "back": "It is a dopamine derivative with no dopamine-receptor activity. Its main action is a relatively beta-1 selective agonism. At 2 to 8 mcg/kg/min IV it raises contractility and output with little change in peripheral resistance or BP, and less tachycardia than isoprenaline. It is less arrhythmogenic than adrenaline. Uses: pump failure after MI or cardiac surgery, short-term severe heart failure, and pharmacological stress testing.",
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-010",
-      "type": "basic",
-      "front": "Describe ephedrine: mechanism, duration and why its use is now restricted.",
-      "back": "A mixed-acting sympathomimetic: it releases noradrenaline and also acts directly on alpha and beta receptors. It resists MAO, so it is orally active and lasts 4 to 6 hours, but it is about 100 times less potent than adrenaline, and tachyphylaxis develops on repeated doses. Its use is restricted because it lacks selectivity and its efficacy is low. Remaining uses: hypotension during spinal anaesthesia, mild chronic bronchial asthma, and occasionally postural hypotension.",
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-011",
-      "type": "basic",
-      "front": "What is the drug of choice in anaphylactic shock, what is the dose, and why?",
-      "back": "Adrenaline, injected intramuscularly without delay: 0.5 mg (0.5 mL of 1 in 1000) in adults, 0.3 mL for children 6 to 12 years and 0.15 mL up to 6 years; repeat every 5 to 10 minutes if there is no or only transient improvement. It raises BP, counters bronchospasm and laryngeal oedema, acts fast, and also suppresses mediator release from mast cells. IV adrenaline is used only for immediately life-threatening shock, diluted and infused slowly with monitoring. H1 antihistamines and IV hydrocortisone are adjuncts only.",
-      "refs": [
-        "KDT8 ch9",
-        "KDT8 ch6",
-        "GG14 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-adrenaline-shock",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-012",
-      "type": "basic",
-      "front": "What is the vasomotor reversal of Dale, and why does noradrenaline not show it?",
-      "back": "After alpha blockade, adrenaline's pressor effect turns into a fall in BP. Adrenaline at ordinary doses causes alpha-1 vasoconstriction and beta-2 vasodilatation. Blocking alpha leaves only the beta-2 vasodilatation. Noradrenaline has no beta-2 action, so its pressor effect persists after alpha blockade.",
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-adrenaline-shock",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-013",
-      "type": "shortnote",
-      "front": "Short note: Selective beta-2 agonists",
-      "sections": [
-        {
-          "h": "Agents",
-          "points": [
-            "Salbutamol, terbutaline, salmeterol, formoterol, ritodrine",
-            "Beta-2 selectivity is relative and is lost at high dose"
-          ]
-        },
-        {
-          "h": "Actions",
-          "points": [
-            "Bronchodilatation",
-            "Vasodilatation",
-            "Uterine relaxation",
-            "Little cardiac stimulation at usual doses"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Bronchial asthma and COPD (main use)",
-            "Delaying preterm labour (ritodrine); nifedipine is an alternative with comparable efficacy and fewer side effects",
-            "Familial hyperkalaemic periodic paralysis: K+ is shifted into muscle"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Skeletal muscle tremor is the commonest",
-            "Tachycardia and arrhythmia are less likely than with non-selective agonists"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch9",
-        "KDT8 ch23"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-014",
-      "type": "shortnote",
-      "front": "Short note: Dopamine",
-      "sections": [
-        {
-          "h": "Receptors",
-          "points": [
-            "Agonist at D1 and D2 receptors, beta-1 receptors, and alpha-1 receptors at high doses",
-            "Inotropic action is partly direct (beta-1) and partly through noradrenaline release",
-            "Does not cross the blood-brain barrier"
-          ]
-        },
-        {
-          "h": "Dose-dependent actions",
-          "points": [
-            "Low dose: D1 dilatation of renal, mesenteric and coronary beds; GFR, renal blood flow and Na+ excretion rise",
-            "Moderate dose: beta-1 positive inotropy with less tachycardia than isoprenaline",
-            "High dose (above about 10 to 20 mcg/kg/min): alpha vasoconstriction, including renal vessels"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Cardiogenic or septic shock; acute heart failure",
-            "KDT: IV infusion 0.2 to 1 mg/min; GG14: start 2 to 5 mcg/kg/min, increase up to 20 to 50 mcg/kg/min as needed",
-            "Titrated to BP and urine output; short action allows control by infusion rate"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Falling urine flow, tachycardia or arrhythmia: slow or stop the infusion",
-            "Extravasation causes tissue necrosis; give into a large vein",
-            "Little evidence of long-term outcome benefit in critically ill patients"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch9",
-        "GG14 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-015",
-      "type": "shortnote",
-      "front": "Short note: Vasopressors and inotropes in shock",
-      "sections": [
-        {
-          "h": "Principles",
-          "points": [
-            "Shock types: haemorrhagic, volume loss, cardiogenic, anaphylactic, neurogenic, septic",
-            "Volume replacement and treatment of cause come first",
-            "Rapid fluids can worsen cardiogenic shock and cause pulmonary oedema"
-          ]
-        },
-        {
-          "h": "Pressor infusions",
-          "points": [
-            "Mephentermine, phenylephrine or noradrenaline for very low BP",
-            "Monitored IV infusion as a temporary measure",
-            "Risk: vasoconstriction may reduce kidney and vital organ perfusion"
-          ]
-        },
-        {
-          "h": "Inotropes",
-          "points": [
-            "Dopamine: contractility without much tachycardia, improves renal flow",
-            "Dobutamine: more selective inotropy",
-            "Both may increase cardiac workload, so use with care"
-          ]
-        },
-        {
-          "h": "Specific settings",
-          "points": [
-            "Anaphylaxis: adrenaline 0.5 mg IM",
-            "Spinal anaesthesia or neurogenic hypotension: fluids, elevated legs, then ephedrine or mephentermine (also counters bradycardia)",
-            "Hypotension from alpha-1 blockers: withdraw or adjust the drug"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-adrenaline-shock",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-016",
-      "type": "shortnote",
-      "front": "Short note: Amphetamine",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Enters the neuron through NET or DAT",
-            "Displaces stored noradrenaline from vesicles via VMAT-2",
-            "Release is non-exocytotic and calcium-independent (exchange diffusion and reverse transport)",
-            "Also blocks dopamine reuptake"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "ADHD: KDT prefers methylphenidate and atomoxetine; GG14 lists stimulants (amphetamines, methylphenidate) as the preferred drugs, with once-daily forms such as lisdexamfetamine",
-            "Narcolepsy: controlled by amphetamines; modafinil has fewer behavioural effects",
-            "Weak anticonvulsant, analgesic-potentiating and antiemetic effects"
-          ]
-        },
-        {
-          "h": "Adverse effects and abuse",
-          "points": [
-            "Tolerance to central and toxic effects; abuse",
-            "High doses: restlessness, confusion, paranoid psychosis, hypertension, arrhythmias, circulatory collapse; fatal cases end in convulsions and coma",
-            "Treatment of toxicity: chlorpromazine"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch9",
-        "GG14 ch14"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-017",
-      "type": "shortnote",
-      "front": "Short note: Topical nasal decongestants",
-      "sections": [
-        {
-          "h": "Agents",
-          "points": [
-            "Xylometazoline, oxymetazoline, naphazoline (imidazolines)",
-            "Pseudoephedrine (oral; restricted because of methamphetamine diversion)"
-          ]
-        },
-        {
-          "h": "Action",
-          "points": [
-            "Local vasoconstriction of nasal mucosa",
-            "Duration about 12 hours; after-congestion is claimed to be less than with ephedrine or phenylephrine"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Rebound (after-)congestion and mucosal atrophy with prolonged use",
-            "Atrophic rhinitis and anosmia with long-term use",
-            "Systemic absorption: CNS depression, rise in BP"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Hypertension and elderly males",
-            "Patients on MAO inhibitors",
-            "Infants and young children: lower concentration (CNS sensitivity)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-018",
-      "type": "essay",
-      "front": "Essay: Adrenaline (epinephrine)",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Endogenous catecholamine, main hormone of the adrenal medulla",
-            "Acts on alpha and beta receptors; short action when given parenterally",
-            "Orally inactive (broken down in gut and liver by MAO and COMT)"
-          ]
-        },
-        {
-          "h": "Cardiovascular actions",
-          "points": [
-            "Beta-1: heart rate, force, conduction velocity; arrhythmias at high dose",
-            "Vessels: alpha-1 vasoconstriction, beta-2 vasodilatation",
-            "Biphasic BP response with slow infusion (systolic up, diastolic down)"
-          ]
-        },
-        {
-          "h": "Metabolic, respiratory and ocular actions",
-          "points": [
-            "Glycogenolysis, lipolysis, hyperglycaemia",
-            "Transient hyperkalaemia followed by hypokalaemia",
-            "Beta-2 bronchodilatation",
-            "Mydriasis (alpha-1); lowers intraocular pressure"
-          ]
-        },
-        {
-          "h": "Therapeutic uses",
-          "points": [
-            "Anaphylaxis (0.5 mg IM)",
-            "Cardiac arrest: IV (1 in 1000 diluted tenfold, given slowly) with external cardiac massage",
-            "Local vasoconstrictor with local anaesthetics (1 in 200,000 to 1 in 80,000)",
-            "Control of local bleeding; expedient reversal of insulin hypoglycaemia"
-          ]
-        },
-        {
-          "h": "Adverse effects and contraindications",
-          "points": [
-            "Hypertensive crisis, cerebral haemorrhage, arrhythmias, angina, MI",
-            "Avoid with halothane (arrhythmia risk)",
-            "Unopposed alpha action if given to a patient on beta-blockers",
-            "Contraindicated in hypertension, hyperthyroidism and angina"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-adrenaline-shock",
-      "tags": [
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-019",
-      "type": "essay",
-      "front": "Essay: Sympathomimetic drugs: classification and mechanisms",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Drugs that mimic adrenaline or sympathetic stimulation",
-            "Classified by how they act: direct, indirect or mixed"
-          ]
-        },
-        {
-          "h": "Direct-acting",
-          "points": [
-            "Act on alpha and/or beta receptors",
-            "Examples: adrenaline, noradrenaline, isoprenaline, phenylephrine, methoxamine, salbutamol, dobutamine"
-          ]
-        },
-        {
-          "h": "Indirect-acting",
-          "points": [
-            "Release noradrenaline from the nerve ending (tyramine, amphetamine)",
-            "Use NET and displace the vesicular pool; not exocytotic",
-            "Blocked by reserpine and cocaine",
-            "Prone to tachyphylaxis"
-          ]
-        },
-        {
-          "h": "Mixed-acting",
-          "points": [
-            "Both direct action and noradrenaline release (ephedrine, mephentermine)",
-            "Orally active and longer acting"
-          ]
-        },
-        {
-          "h": "Clinical implications",
-          "points": [
-            "MAO inhibitors markedly potentiate the pressor effect of tyramine",
-            "Choice depends on the receptor profile needed",
-            "Central effects vary: amphetamine strong, phenylephrine negligible"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
+      "level": 2
     },
     {
       "id": "p2-adrenergic-020",
@@ -603,22 +176,96 @@
       "tags": [
         "mechanism",
         "classification"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-adrenergic-021",
-      "type": "cloze",
-      "front": "Classify: catecholamine synthesis",
-      "text": "Catecholamines are made from {{phenylalanine}} via tyrosine and {{DOPA}} to dopamine; the rate-limiting enzyme is {{tyrosine hydroxylase}}, blocked by {{metyrosine}}.",
+      "id": "p2-adrenergic-072",
+      "type": "shortnote",
+      "front": "Short note: Pheochromocytoma and catecholamine chemistry",
+      "sections": [
+        {
+          "h": "Tumour",
+          "points": [
+            "Tumour of adrenal medullary cells; excess catecholamines cause intermittent or persistent hypertension",
+            "Urinary metabolites (VMA, normetanephrine) are measured for diagnosis"
+          ]
+        },
+        {
+          "h": "Catecholamine content",
+          "points": [
+            "Noradrenaline is 10 to 20% of adrenal medullary catecholamine; up to 97% in some pheochromocytomas lacking PNMT"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Phenoxybenzamine (alpha blockade) first; then a beta-blocker; labetalol is useful"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p277",
+        "KDT8 ch10"
+      ],
+      "subtopic": "p2-adrenergic-synthesis-storage",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p2-adrenergic-006",
+      "type": "basic",
+      "front": "Using the Ahlquist classification, compare the potency order of adrenaline, noradrenaline and isoprenaline at alpha and beta receptors.",
+      "back": "Alpha: adrenaline greater than or equal to noradrenaline, both much greater than isoprenaline. Beta: isoprenaline greater than adrenaline, which is greater than or equal to noradrenaline. Ahlquist (1948) used these two distinct rank orders of agonist potency to divide adrenoceptors into alpha and beta; the split was later confirmed by selective antagonists.",
       "refs": [
         "KDT8 ch9"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-adrenergic-synthesis-storage",
+      "subtopic": "p2-adrenergic-receptors",
       "tags": [
+        "classification",
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-007",
+      "type": "basic",
+      "front": "Compare alpha-1 and alpha-2 receptors: location, transducer, effector and selective drugs.",
+      "back": "Alpha-1 is postjunctional on effector organs. It acts through Gq, IP3/DAG and calcium, causing vasoconstriction, mydriasis and contraction of the bladder trigone and prostate. Phenylephrine is the selective agonist and prazosin the selective antagonist. Alpha-2 is mainly prejunctional, where it inhibits transmitter release, and is also found in the brain and platelets. It acts through Gi, lowering cAMP. Clonidine is the selective agonist and yohimbine the antagonist.",
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-receptors",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-008",
+      "type": "basic",
+      "front": "Where are beta-1, beta-2 and beta-3 receptors found, and which selective drugs act on them?",
+      "back": "Beta-1: heart and juxtaglomerular cells; dobutamine is the relatively selective agonist, and metoprolol or atenolol the antagonists. Beta-2: bronchi, blood vessels, uterus, liver, skeletal muscle; salbutamol and terbutaline are agonists, ICI 118551 an antagonist. Beta-3: adipose tissue and bladder detrusor; mirabegron is the agonist used in overactive bladder.",
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-receptors",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p2-adrenergic-022",
@@ -634,7 +281,88 @@
       "tags": [
         "mechanism",
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-065",
+      "type": "basic",
+      "front": "Why does propranolol not block the beta-3 receptor?",
+      "back": "The beta-3 receptor is relatively resistant to blockade by classic antagonists such as propranolol. Beta-3 agonists such as mirabegron act on it instead.",
+      "refs": [
+        "GG14 PDF p214",
+        "GG14 PDF p283"
+      ],
+      "subtopic": "p2-adrenergic-receptors",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-071",
+      "type": "shortnote",
+      "front": "Short note: Isoprenaline (isoproterenol) and receptor potency order",
+      "sections": [
+        {
+          "h": "Potency order",
+          "points": [
+            "Alpha: adrenaline is at least as potent as noradrenaline; isoprenaline is much weaker",
+            "Beta: isoprenaline greater than adrenaline, which is at least as potent as noradrenaline"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Isoprenaline acts strongly on beta receptors and is used mainly for heart block and bronchospasm (older use)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p214",
+        "KDT8 ch9"
+      ],
+      "subtopic": "p2-adrenergic-receptors",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-074",
+      "type": "shortnote",
+      "front": "Short note: Heart failure and catecholamines (adrenergic basis)",
+      "sections": [
+        {
+          "h": "Catecholamine effect",
+          "points": [
+            "Long-term catecholamine exposure damages the heart and speeds heart failure",
+            "Beta-1 signalling has greater potential than beta-2 to contribute to heart failure in mouse studies"
+          ]
+        },
+        {
+          "h": "Therapeutic link",
+          "points": [
+            "Catecholamine overactivity drives progression; blockers are used to counter it"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p219"
+      ],
+      "subtopic": "p2-adrenergic-receptors",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p2-adrenergic-023",
@@ -649,23 +377,8 @@
       "subtopic": "p2-adrenergic-sympathomimetics",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-024",
-      "type": "cloze",
-      "front": "Classify: drugs acting on noradrenergic neurones",
-      "text": "{{Cocaine}} and {{desipramine}} block NET and potentiate noradrenaline; {{reserpine}} blocks VMAT-2 and depletes stores; {{selegiline}} inhibits MAO-B; {{entacapone}} inhibits COMT.",
-      "refs": [
-        "KDT8 ch9"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-synthesis-storage",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
+      "level": 1
     },
     {
       "id": "p2-adrenergic-025",
@@ -680,7 +393,790 @@
       "subtopic": "p2-adrenergic-sympathomimetics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-057",
+      "type": "basic",
+      "front": "How does clonidine lower blood pressure?",
+      "back": "Clonidine is a more potent alpha-2 than alpha-1 agonist. Stimulating postjunctional alpha-2 receptors in the brain reduces sympathetic outflow from the CNS, which accounts for much of its antihypertensive effect.",
+      "refs": [
+        "GG14 PDF p214",
+        "GG14 PDF p221"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-068",
+      "type": "shortnote",
+      "front": "Short note: Direct, indirect and mixed-acting sympathomimetics",
+      "sections": [
+        {
+          "h": "Direct",
+          "points": [
+            "Act on receptors directly: adrenaline, noradrenaline, isoprenaline, phenylephrine, methoxamine, dobutamine, terbutaline"
+          ]
+        },
+        {
+          "h": "Indirect",
+          "points": [
+            "Release noradrenaline from nerve terminals: tyramine, ephedrine and amphetamine",
+            "Release is rapid but brief, so the effect is short"
+          ]
+        },
+        {
+          "h": "Mixed",
+          "points": [
+            "Ephedrine acts both directly and by releasing transmitter"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p216",
+        "GG14 PDF p220",
+        "GG14 PDF p271"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-075",
+      "type": "basic",
+      "front": "Which sympathomimetics act selectively on alpha-1 receptors, and which of them are given by mouth?",
+      "back": "Phenylephrine and methoxamine are direct alpha-1 selective vasoconstrictors; midodrine is an oral prodrug converted to desglymidodrine, a direct alpha-1 agonist. Mephentermine and metaraminol act both directly and by releasing NE. Because heart stimulation is minimal, the pressure rise is accompanied by reflex slowing.",
+      "refs": [
+        "GG14 PDF p279"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-009",
+      "type": "basic",
+      "front": "Dobutamine: receptor action, clinical dose and why it is useful as an inotrope.",
+      "back": "It is a dopamine derivative with no dopamine-receptor activity. Its main action is a relatively beta-1 selective agonism. At 2 to 8 mcg/kg/min IV it raises contractility and output with little change in peripheral resistance or BP, and less tachycardia than isoprenaline. It is less arrhythmogenic than adrenaline. Uses: pump failure after MI or cardiac surgery, short-term severe heart failure, and pharmacological stress testing.",
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-010",
+      "type": "basic",
+      "front": "Describe ephedrine: mechanism, duration and why its use is now restricted.",
+      "back": "A mixed-acting sympathomimetic: it releases noradrenaline and also acts directly on alpha and beta receptors. It resists MAO, so it is orally active and lasts 4 to 6 hours, but it is about 100 times less potent than adrenaline, and tachyphylaxis develops on repeated doses. Its use is restricted because it lacks selectivity and its efficacy is low. Remaining uses: hypotension during spinal anaesthesia, mild chronic bronchial asthma, and occasionally postural hypotension.",
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-013",
+      "type": "shortnote",
+      "front": "Short note: Selective beta-2 agonists",
+      "sections": [
+        {
+          "h": "Agents",
+          "points": [
+            "Salbutamol, terbutaline, salmeterol, formoterol, ritodrine",
+            "Beta-2 selectivity is relative and is lost at high dose"
+          ]
+        },
+        {
+          "h": "Actions",
+          "points": [
+            "Bronchodilatation",
+            "Vasodilatation",
+            "Uterine relaxation",
+            "Little cardiac stimulation at usual doses"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Bronchial asthma and COPD (main use)",
+            "Delaying preterm labour (ritodrine); nifedipine is an alternative with comparable efficacy and fewer side effects",
+            "Familial hyperkalaemic periodic paralysis: K+ is shifted into muscle"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Skeletal muscle tremor is the commonest",
+            "Tachycardia and arrhythmia are less likely than with non-selective agonists"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch9",
+        "KDT8 ch23"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-014",
+      "type": "shortnote",
+      "front": "Short note: Dopamine",
+      "sections": [
+        {
+          "h": "Receptors",
+          "points": [
+            "Agonist at D1 and D2 receptors, beta-1 receptors, and alpha-1 receptors at high doses",
+            "Inotropic action is partly direct (beta-1) and partly through noradrenaline release",
+            "Does not cross the blood-brain barrier"
+          ]
+        },
+        {
+          "h": "Dose-dependent actions",
+          "points": [
+            "Low dose: D1 dilatation of renal, mesenteric and coronary beds; GFR, renal blood flow and Na+ excretion rise",
+            "Moderate dose: beta-1 positive inotropy with less tachycardia than isoprenaline",
+            "High dose (above about 10 to 20 mcg/kg/min): alpha vasoconstriction, including renal vessels"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Cardiogenic or septic shock; acute heart failure",
+            "KDT: IV infusion 0.2 to 1 mg/min; GG14: start 2 to 5 mcg/kg/min, increase up to 20 to 50 mcg/kg/min as needed",
+            "Titrated to BP and urine output; short action allows control by infusion rate"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Falling urine flow, tachycardia or arrhythmia: slow or stop the infusion",
+            "Extravasation causes tissue necrosis; give into a large vein",
+            "Little evidence of long-term outcome benefit in critically ill patients"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch9",
+        "GG14 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-016",
+      "type": "shortnote",
+      "front": "Short note: Amphetamine",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Enters the neuron through NET or DAT",
+            "Displaces stored noradrenaline from vesicles via VMAT-2",
+            "Release is non-exocytotic and calcium-independent (exchange diffusion and reverse transport)",
+            "Also blocks dopamine reuptake"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "ADHD: KDT prefers methylphenidate and atomoxetine; GG14 lists stimulants (amphetamines, methylphenidate) as the preferred drugs, with once-daily forms such as lisdexamfetamine",
+            "Narcolepsy: controlled by amphetamines; modafinil has fewer behavioural effects",
+            "Weak anticonvulsant, analgesic-potentiating and antiemetic effects"
+          ]
+        },
+        {
+          "h": "Adverse effects and abuse",
+          "points": [
+            "Tolerance to central and toxic effects; abuse",
+            "High doses: restlessness, confusion, paranoid psychosis, hypertension, arrhythmias, circulatory collapse; fatal cases end in convulsions and coma",
+            "Treatment of toxicity: chlorpromazine"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch9",
+        "GG14 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-017",
+      "type": "shortnote",
+      "front": "Short note: Topical nasal decongestants",
+      "sections": [
+        {
+          "h": "Agents",
+          "points": [
+            "Xylometazoline, oxymetazoline, naphazoline (imidazolines)",
+            "Pseudoephedrine (oral; restricted because of methamphetamine diversion)"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Local vasoconstriction of nasal mucosa",
+            "Duration about 12 hours; after-congestion is claimed to be less than with ephedrine or phenylephrine"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Rebound (after-)congestion and mucosal atrophy with prolonged use",
+            "Atrophic rhinitis and anosmia with long-term use",
+            "Systemic absorption: CNS depression, rise in BP"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Hypertension and elderly males",
+            "Patients on MAO inhibitors",
+            "Infants and young children: lower concentration (CNS sensitivity)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-058",
+      "type": "shortnote",
+      "front": "Short note: Clonidine: central action, uses and withdrawal",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Central alpha-2 agonist; reduces sympathetic outflow from the brain"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Hypertension",
+            "Labetalol is useful in clonidine withdrawal (KDT8 ch10)"
+          ]
+        },
+        {
+          "h": "Withdrawal",
+          "points": [
+            "Abrupt withdrawal causes rebound rise in BP (KDT8 ch10)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10",
+        "GG14 PDF p214"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-059",
+      "type": "basic",
+      "front": "Methyldopa: how does it lower BP?",
+      "back": "It is decarboxylated and hydroxylated to alpha-methylnorepinephrine, which acts as a false transmitter and as an alpha-2 agonist. The result is reduced sympathetic outflow from the CNS, similar to clonidine.",
+      "refs": [
+        "GG14 PDF p216",
+        "GG14 PDF p220"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-067",
+      "type": "shortnote",
+      "front": "Short note: Nasal decongestants and rebound congestion",
+      "sections": [
+        {
+          "h": "Problem",
+          "points": [
+            "Chronic use or stopping the drug causes rebound hyperaemia and worse congestion"
+          ]
+        },
+        {
+          "h": "Oral vs topical",
+          "points": [
+            "Oral decongestants cause less rebound but carry more systemic adverse effects"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Alpha-agonists such as pseudoephedrine and phenylephrine constrict vessels; muscarinic antagonists do not and are less effective"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p235",
+        "GG14 PDF p286",
+        "GG14 PDF p287"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-069",
+      "type": "basic",
+      "front": "Why is dobutamine preferred in cardiac stimulation?",
+      "back": "Dobutamine preferentially stimulates cardiac beta-1 receptors, giving inotropic support with less peripheral vasoconstriction than mixed-action agents.",
+      "refs": [
+        "GG14 PDF p221",
+        "GG14 PDF p216"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-076",
+      "type": "basic",
+      "front": "Tizanidine and lofexidine: what class are they and what are they used for?",
+      "back": "Both are alpha-2 agonists related to clonidine. Tizanidine relieves spasticity (it lowers BP less than clonidine at effective doses). Lofexidine suppresses opioid withdrawal symptoms, as clonidine does.",
+      "refs": [
+        "GG14 PDF p262",
+        "GG14 PDF p562"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-077",
+      "type": "basic",
+      "front": "Fenoldopam: what is it and when is it used?",
+      "back": "A benzazepine dopamine (D1) agonist and rapidly acting vasodilator, used for no more than 48 h to control severe hypertension, such as malignant hypertension with end-organ damage, in hospitalised patients.",
+      "refs": [
+        "GG14 PDF p278"
+      ],
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-019",
+      "type": "essay",
+      "front": "Essay: Sympathomimetic drugs: classification and mechanisms",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Drugs that mimic adrenaline or sympathetic stimulation",
+            "Classified by how they act: direct, indirect or mixed"
+          ]
+        },
+        {
+          "h": "Direct-acting",
+          "points": [
+            "Act on alpha and/or beta receptors",
+            "Examples: adrenaline, noradrenaline, isoprenaline, phenylephrine, methoxamine, salbutamol, dobutamine"
+          ]
+        },
+        {
+          "h": "Indirect-acting",
+          "points": [
+            "Release noradrenaline from the nerve ending (tyramine, amphetamine)",
+            "Use NET and displace the vesicular pool; not exocytotic",
+            "Blocked by reserpine and cocaine",
+            "Prone to tachyphylaxis"
+          ]
+        },
+        {
+          "h": "Mixed-acting",
+          "points": [
+            "Both direct action and noradrenaline release (ephedrine, mephentermine)",
+            "Orally active and longer acting"
+          ]
+        },
+        {
+          "h": "Clinical implications",
+          "points": [
+            "MAO inhibitors markedly potentiate the pressor effect of tyramine",
+            "Choice depends on the receptor profile needed",
+            "Central effects vary: amphetamine strong, phenylephrine negligible"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-adrenergic-011",
+      "type": "basic",
+      "front": "What is the drug of choice in anaphylactic shock, what is the dose, and why?",
+      "back": "Adrenaline, injected intramuscularly without delay: 0.5 mg (0.5 mL of 1 in 1000) in adults, 0.3 mL for children 6 to 12 years and 0.15 mL up to 6 years; repeat every 5 to 10 minutes if there is no or only transient improvement. It raises BP, counters bronchospasm and laryngeal oedema, acts fast, and also suppresses mediator release from mast cells. IV adrenaline is used only for immediately life-threatening shock, diluted and infused slowly with monitoring. H1 antihistamines and IV hydrocortisone are adjuncts only.",
+      "refs": [
+        "KDT8 ch9",
+        "KDT8 ch6",
+        "GG14 ch14"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-070",
+      "type": "shortnote",
+      "front": "Short note: Adrenaline: actions and clinical uses",
+      "sections": [
+        {
+          "h": "Receptors",
+          "points": [
+            "Potent stimulant of both alpha and beta adrenergic receptors"
+          ]
+        },
+        {
+          "h": "Clinical uses",
+          "points": [
+            "Anaphylaxis, including self-administered devices",
+            "Shock and hypotension (GG14 PDF p279)"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Contraindicated with non-selective beta-blockers (unopposed alpha-1 effect)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p277",
+        "GG14 PDF p270",
+        "GG14 PDF p279"
+      ],
+      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "tags": [
+        "uses",
+        "interactions"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-073",
+      "type": "basic",
+      "front": "Why are adrenergic drugs used in hypotension, orthostatic hypotension and shock?",
+      "back": "They raise blood pressure by vasoconstriction or cardiac stimulation. Clinical utility is limited to hypotension, orthostatic hypotension and shock where vasoconstrictor support is needed.",
+      "refs": [
+        "GG14 PDF p279"
+      ],
+      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "tags": [
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-012",
+      "type": "basic",
+      "front": "What is the vasomotor reversal of Dale, and why does noradrenaline not show it?",
+      "back": "After alpha blockade, adrenaline's pressor effect turns into a fall in BP. Adrenaline at ordinary doses causes alpha-1 vasoconstriction and beta-2 vasodilatation. Blocking alpha leaves only the beta-2 vasodilatation. Noradrenaline has no beta-2 action, so its pressor effect persists after alpha blockade.",
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-015",
+      "type": "shortnote",
+      "front": "Short note: Vasopressors and inotropes in shock",
+      "sections": [
+        {
+          "h": "Principles",
+          "points": [
+            "Shock types: haemorrhagic, volume loss, cardiogenic, anaphylactic, neurogenic, septic",
+            "Volume replacement and treatment of cause come first",
+            "Rapid fluids can worsen cardiogenic shock and cause pulmonary oedema"
+          ]
+        },
+        {
+          "h": "Pressor infusions",
+          "points": [
+            "Mephentermine, phenylephrine or noradrenaline for very low BP",
+            "Monitored IV infusion as a temporary measure",
+            "Risk: vasoconstriction may reduce kidney and vital organ perfusion"
+          ]
+        },
+        {
+          "h": "Inotropes",
+          "points": [
+            "Dopamine: contractility without much tachycardia, improves renal flow",
+            "Dobutamine: more selective inotropy",
+            "Both may increase cardiac workload, so use with care"
+          ]
+        },
+        {
+          "h": "Specific settings",
+          "points": [
+            "Anaphylaxis: adrenaline 0.5 mg IM",
+            "Spinal anaesthesia or neurogenic hypotension: fluids, elevated legs, then ephedrine or mephentermine (also counters bradycardia)",
+            "Hypotension from alpha-1 blockers: withdraw or adjust the drug"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-056",
+      "type": "basic",
+      "front": "Why does adrenaline become dangerous in patients taking a non-selective beta-blocker?",
+      "back": "Adrenaline stimulates alpha-1 receptors on vessels; with beta-2 receptors blocked, the unopposed alpha-1 vasoconstriction can cause severe hypertension and cerebral haemorrhage.",
+      "refs": [
+        "GG14 PDF p277"
+      ],
+      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "tags": [
+        "interactions",
+        "contraindications"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-018",
+      "type": "essay",
+      "front": "Essay: Adrenaline (epinephrine)",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Endogenous catecholamine, main hormone of the adrenal medulla",
+            "Acts on alpha and beta receptors; short action when given parenterally",
+            "Orally inactive (broken down in gut and liver by MAO and COMT)"
+          ]
+        },
+        {
+          "h": "Cardiovascular actions",
+          "points": [
+            "Beta-1: heart rate, force, conduction velocity; arrhythmias at high dose",
+            "Vessels: alpha-1 vasoconstriction, beta-2 vasodilatation",
+            "Biphasic BP response with slow infusion (systolic up, diastolic down)"
+          ]
+        },
+        {
+          "h": "Metabolic, respiratory and ocular actions",
+          "points": [
+            "Glycogenolysis, lipolysis, hyperglycaemia",
+            "Transient hyperkalaemia followed by hypokalaemia",
+            "Beta-2 bronchodilatation",
+            "Mydriasis (alpha-1); lowers intraocular pressure"
+          ]
+        },
+        {
+          "h": "Therapeutic uses",
+          "points": [
+            "Anaphylaxis (0.5 mg IM)",
+            "Cardiac arrest: IV (1 in 1000 diluted tenfold, given slowly) with external cardiac massage",
+            "Local vasoconstrictor with local anaesthetics (1 in 200,000 to 1 in 80,000)",
+            "Control of local bleeding; expedient reversal of insulin hypoglycaemia"
+          ]
+        },
+        {
+          "h": "Adverse effects and contraindications",
+          "points": [
+            "Hypertensive crisis, cerebral haemorrhage, arrhythmias, angina, MI",
+            "Avoid with halothane (arrhythmia risk)",
+            "Unopposed alpha action if given to a patient on beta-blockers",
+            "Contraindicated in hypertension, hyperthyroidism and angina"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-adrenergic-078",
+      "type": "shortnote",
+      "front": "Short note: Choosing a vasopressor in hypotension and shock by receptor action",
+      "sections": [
+        {
+          "h": "Pure alpha-1",
+          "points": [
+            "Phenylephrine, methoxamine, midodrine (prodrug): vasoconstriction, little cardiac stimulation"
+          ]
+        },
+        {
+          "h": "Mixed",
+          "points": [
+            "Mephentermine, metaraminol, ephedrine: direct plus NE release"
+          ]
+        },
+        {
+          "h": "Catecholamines",
+          "points": [
+            "NE, adrenaline, dopamine: also used when failure of sympathetic tone, e.g. after spinal anaesthesia"
+          ]
+        },
+        {
+          "h": "Reasoning",
+          "points": [
+            "Pick by whether cardiac stimulation is wanted; use cautiously as perfusion may fall with strong vasoconstriction"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p279",
+        "GG14 PDF p286"
+      ],
+      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "tags": [
+        "uses",
+        "classification"
+      ],
+      "level": 3,
+      "status": "draft"
     },
     {
       "id": "p2-adrenergic-026",
@@ -695,7 +1191,8 @@
       "subtopic": "p2-adrenergic-alpha-blockers",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-adrenergic-027",
@@ -711,7 +1208,8 @@
       "tags": [
         "mechanism",
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-adrenergic-028",
@@ -728,7 +1226,40 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-046",
+      "type": "cloze",
+      "front": "Classify: alpha-1 blocker subtype selectivity",
+      "text": "Prazosin blocks all alpha-1 subtypes {{equally}}; tamsulosin is selective for {{1A/1D}} subtypes; {{alfuzosin}} is nonselective among alpha-1 subtypes.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-alpha-blockers",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-061",
+      "type": "basic",
+      "front": "Prazosin vs yohimbine: what do they block?",
+      "back": "Prazosin is a selective alpha-1 antagonist; yohimbine is an alpha-2 antagonist. Prazosin is used for hypertension and BPH; yohimbine is used as a tool to define alpha-2 effects.",
+      "refs": [
+        "GG14 PDF p221"
+      ],
+      "subtopic": "p2-adrenergic-alpha-blockers",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p2-adrenergic-029",
@@ -756,7 +1287,8 @@
         "adr",
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-adrenergic-030",
@@ -772,7 +1304,8 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-adrenergic-031",
@@ -793,7 +1326,8 @@
       "subtopic": "p2-adrenergic-alpha-blockers",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-adrenergic-032",
@@ -809,142 +1343,161 @@
       "tags": [
         "pk",
         "interactions"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-033",
-      "type": "basic",
-      "front": "Labetalol: receptor action, clinical niche and main side effect.",
-      "back": "It blocks alpha-1 and nonselectively blocks beta receptors, with beta blockade about 3 to 5 times stronger than alpha. Its fall in BP comes from alpha-1 block plus beta-2 vasodilatation. Heart rate is usually unchanged and limb blood flow increases. It is used in pheochromocytoma, clonidine withdrawal, pregnancy-induced hypertension and hypertensive emergencies (20 to 40 mg IV repeated). Its main side effect is postural hypotension.",
-      "refs": [
-        "KDT8 ch10"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
+      "level": 2
     },
     {
-      "id": "p2-adrenergic-034",
-      "type": "basic",
-      "front": "Propranolol: why does the antihypertensive effect appear only after some weeks?",
-      "back": "Acutely, propranolol lowers cardiac output, and total peripheral resistance rises, so BP changes little. With chronic use, resistance vessels adapt to the lower output, peripheral resistance falls and BP drops. Other contributions: less renin release (beta-1 mediated), less noradrenaline release, and central effects of lipophilic agents.",
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-035",
-      "type": "basic",
-      "front": "Which beta-blockers have intrinsic sympathomimetic activity, and what advantages does it give?",
-      "back": "Pindolol, acebutolol and celiprolol. They partly activate beta receptors, so resting bradycardia and cardiac depression are minimal, exercise tachycardia is still blocked, rebound after withdrawal is less likely, and plasma lipids are less affected. Limitations: they are not useful for migraine prophylaxis (they dilate cerebral vessels) and are not suited to secondary prevention after MI.",
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-036",
-      "type": "basic",
-      "front": "Esmolol: why is it so short acting, and where is it used?",
-      "back": "It is a cardioselective beta-1 blocker without partial agonist or membrane-stabilising action. Blood esterases hydrolyse it rapidly, so plasma half-life is under 10 minutes and the effect ends 15 to 20 minutes after stopping the infusion. It is given as a 0.5 mg/kg loading dose, then 0.05 to 0.2 mg/kg/min. Uses: supraventricular tachycardia, intraoperative arrhythmias, control of HR and BP during cardiac surgery and aortic dissection, and early MI.",
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "pk",
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-037",
-      "type": "basic",
-      "front": "Why must membrane-stabilising beta-blockers be avoided in glaucoma eye drops, and what makes timolol the prototype?",
-      "back": "Membrane-stabilising agents anaesthetise the cornea and can damage it. Timolol is nonselective, lipophilic, and has no local anaesthetic or intrinsic sympathomimetic activity. It lowers intraocular pressure by 20 to 35 percent within an hour, for about 12 hours. Systemic absorption through the nasolacrimal duct can cause bronchospasm and bradycardia, so pressure on the inner canthus is advised after instillation.",
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-glaucoma",
-      "tags": [
-        "classification",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-038",
+      "id": "p2-adrenergic-051",
       "type": "shortnote",
-      "front": "Short note: Propranolol: adverse effects and contraindications",
+      "front": "Short note: Drugs used for prostate enlargement (BPH)",
       "sections": [
         {
-          "h": "Contraindications",
+          "h": "Alpha-1 blockers (dynamic component)",
           "points": [
-            "Bronchial asthma and COPD (bronchoconstriction)",
-            "Partial and complete heart block",
-            "Sick sinus syndrome (severe bradycardia)",
-            "Variant (vasospastic) angina",
-            "Decompensated heart failure"
+            "Relax smooth muscle of prostate and bladder neck; improve urine flow",
+            "Terazosin, doxazosin, alfuzosin and tamsulosin: once-daily dosing preferred",
+            "Tamsulosin is uroselective (alpha-1A) with fewer vascular effects",
+            "Relief within about 2 weeks, but it stops when the drug stops; gland size is unchanged"
           ]
         },
         {
-          "h": "Cardiac",
+          "h": "5-alpha reductase inhibitors (static component)",
           "points": [
-            "Bradycardia is the commonest adverse effect",
-            "Can precipitate or worsen heart failure",
-            "Peripheral vascular disease worsens"
+            "Finasteride (relatively type-2 selective) and dutasteride block conversion of testosterone to DHT",
+            "Shrink the prostate by up to about 20%; best in glands over 40 mL",
+            "Benefit takes about 6 months and is kept with continued use",
+            "Dosing: finasteride 5 mg daily; dutasteride 0.5 mg daily"
           ]
         },
         {
-          "h": "Metabolic",
+          "h": "Combination and adverse effects",
           "points": [
-            "Masks hypoglycaemia warning signs (tachycardia, tremor); delays recovery",
-            "Raises triglycerides and lowers HDL with long use",
-            "Impaired carbohydrate tolerance in prediabetics"
-          ]
-        },
-        {
-          "h": "Withdrawal",
-          "points": [
-            "Taper gradually",
-            "Abrupt stop: rebound hypertension, worsened angina, sudden death (receptor upregulation)"
-          ]
-        },
-        {
-          "h": "Others",
-          "points": [
-            "Fatigue, nightmares, forgetfulness, depression, sexual dysfunction"
+            "Alpha-1 blocker and finasteride can be given together",
+            "Alpha-1 blockers cause postural hypotension, mainly with the first dose",
+            "Failure of ejaculation is a common alpha-1 blocker effect"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch10"
+        "KDT8 ch10",
+        "KDT8 ch21",
+        "Katzung16 ch10",
+        "Katzung16 ch40",
+        "GG14 ch14",
+        "GG14 ch49"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr",
+        "dosing"
+      ],
+      "subtopic": "p2-adrenergic-alpha-blockers",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-060",
+      "type": "shortnote",
+      "front": "Short note: Alpha-1 selective blockers (prazosin, terazosin, doxazosin) and their uses",
+      "sections": [
+        {
+          "h": "Pharmacology",
+          "points": [
+            "Prazosin is the first highly selective alpha-1 blocker; it dilates arterioles more than veins",
+            "Terazosin and doxazosin are long-acting congeners; doxazosin's half-life is about 18 h"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Hypertension; Raynaud disease; benign prostatic hyperplasia (relaxes bladder neck and prostate smooth muscle)",
+            "Doxazosin and terazosin may also promote apoptosis in prostate tissue, which is not linked to alpha-1 blockade"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10",
+        "GG14 PDF p221"
+      ],
+      "subtopic": "p2-adrenergic-alpha-blockers",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-062",
+      "type": "shortnote",
+      "front": "Short note: Phenoxybenzamine versus phentolamine",
+      "sections": [
+        {
+          "h": "Phenoxybenzamine",
+          "points": [
+            "Irreversible; binds alpha receptors covalently; non-selective",
+            "Used mainly in pheochromocytoma and occasionally in peripheral vascular disease",
+            "Oral absorption erratic; i.m. and s.c. injections painful"
+          ]
+        },
+        {
+          "h": "Phentolamine",
+          "points": [
+            "Non-selective, reversible, rapidly acting with short duration (minutes)",
+            "Nonselective alpha-1 and alpha-2 blockade increases noradrenaline release, causing tachycardia",
+            "Infiltration relieves NE extravasation injury at injection sites"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10",
+        "GG14 PDF p287",
+        "GG14 PDF p278"
+      ],
+      "subtopic": "p2-adrenergic-alpha-blockers",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-adrenergic-beta-blockers",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-063",
+      "type": "basic",
+      "front": "Why is phentolamine infiltrated around a site of noradrenaline extravasation?",
+      "back": "Infiltrating an alpha blocker into the injured area blocks local alpha-receptor vasoconstriction, relieving the ischaemia caused by leaked noradrenaline.",
+      "refs": [
+        "GG14 PDF p278"
+      ],
+      "subtopic": "p2-adrenergic-alpha-blockers",
       "tags": [
-        "adr",
-        "contraindications"
-      ]
+        "uses"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p2-adrenergic-039",
@@ -1000,102 +1553,263 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-adrenergic-040",
-      "type": "shortnote",
-      "front": "Short note: Acute angle closure glaucoma",
+      "id": "p2-adrenergic-044",
+      "type": "essay",
+      "front": "Essay: Alpha-adrenergic blockers: classification and clinical uses",
       "sections": [
         {
-          "h": "Basis",
+          "h": "Introduction",
           "points": [
-            "Narrow iridocorneal angle; iris blocks aqueous outflow at the pupil",
-            "Precipitated by mydriasis (e.g. dim light, anticholinergic)",
-            "Intraocular pressure rises to 40 to 60 mm Hg"
+            "Competitive versus irreversible blockers",
+            "Nonselective alpha-1 and alpha-2 blockers versus selective alpha-1 blockers"
           ]
         },
         {
-          "h": "Presentation",
+          "h": "Classification",
           "points": [
-            "Eye congestion, severe headache, pain",
-            "Risk of permanent visual loss"
+            "Irreversible: phenoxybenzamine",
+            "Short-acting nonselective: phentolamine",
+            "Selective alpha-1: prazosin, terazosin, doxazosin, alfuzosin, tamsulosin, silodosin",
+            "Alpha-2 blocker: yohimbine (no valid indication)",
+            "Mixed: labetalol"
           ]
         },
         {
-          "h": "Emergency measures",
+          "h": "Actions",
           "points": [
-            "Osmotic agent: mannitol 20% (1.5 to 2 g/kg IV) or glycerol",
-            "Acetazolamide IV, then oral",
-            "Pilocarpine repeatedly, once pressure is falling (iris must respond)",
-            "Topical timolol 0.5%; apraclonidine or latanoprost may be added"
+            "Arteriolar and venous dilatation, fall in BP",
+            "Postural hypotension and first-dose effect",
+            "Miosis, nasal stuffiness, failure of ejaculation",
+            "Reflex tachycardia with nonselective agents"
           ]
         },
         {
-          "h": "Definitive",
+          "h": "Therapeutic uses",
           "points": [
-            "Laser or surgical iridotomy",
-            "Drugs only terminate the attack"
+            "Pheochromocytoma (preoperative and malignant)",
+            "Hypertension: prazosin-like agents, but not as monotherapy (doxazosin monotherapy raised heart failure risk in ALLHAT); useful when BHP coexists",
+            "BHP: alpha-1A selective agents preferred",
+            "Raynaud's phenomenon; PIPE therapy for erectile dysfunction with papaverine",
+            "Clonidine withdrawal, cheese reaction"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Postural hypotension, syncope with first dose",
+            "Nasal stuffiness, failure of ejaculation",
+            "Floppy iris syndrome (tamsulosin)",
+            "Priapism (PIPE therapy)"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch10"
+        "KDT8 ch10",
+        "GG14 ch32"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-adrenergic-glaucoma",
+      "subtopic": "p2-adrenergic-alpha-blockers",
       "tags": [
-        "contraindications"
-      ]
+        "classification"
+      ],
+      "level": 3
     },
     {
-      "id": "p2-adrenergic-041",
-      "type": "shortnote",
-      "front": "Short note: Carbonic anhydrase inhibitors in glaucoma",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Inhibit carbonic anhydrase in ciliary epithelium",
-            "Less bicarbonate formed, so less aqueous secreted"
-          ]
-        },
-        {
-          "h": "Acetazolamide (oral)",
-          "points": [
-            "250 mg every 6 to 12 hours",
-            "Short-term use: angle closure, before and after surgery or laser",
-            "Adverse: paraesthesia, anorexia, hypokalaemia, acidosis, malaise, depression",
-            "Long-term use restricted to patients not controlled by 2 or 3 topical drugs"
-          ]
-        },
-        {
-          "h": "Dorzolamide (topical)",
-          "points": [
-            "2% eye drops BD to TDS",
-            "Lowers IOP by about 20 percent, less than timolol",
-            "Adverse: stinging, burning, bitter taste, corneal oedema",
-            "Add-on therapy or when PG analogues and blockers are contraindicated"
-          ]
-        },
-        {
-          "h": "Brinzolamide",
-          "points": [
-            "Another topical carbonic anhydrase inhibitor"
-          ]
-        }
-      ],
+      "id": "p2-adrenergic-035",
+      "type": "basic",
+      "front": "Which beta-blockers have intrinsic sympathomimetic activity, and what advantages does it give?",
+      "back": "Pindolol, acebutolol and celiprolol. They partly activate beta receptors, so resting bradycardia and cardiac depression are minimal, exercise tachycardia is still blocked, rebound after withdrawal is less likely, and plasma lipids are less affected. Limitations: they are not useful for migraine prophylaxis (they dilate cerebral vessels) and are not suited to secondary prevention after MI.",
       "refs": [
         "KDT8 ch10"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-adrenergic-glaucoma",
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-047",
+      "type": "cloze",
+      "front": "Classify: beta-blockers by lipid solubility and elimination",
+      "text": "Lipophilic beta-blockers such as {{propranolol}} and {{metoprolol}} are cleared mainly by the {{liver}}; hydrophilic ones such as {{atenolol}} and {{sotalol}} are excreted largely {{unchanged in urine}}.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "pk",
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-055",
+      "type": "shortnote",
+      "front": "Short note: Selective (cardioselective) versus non-selective beta-blockers",
+      "sections": [
+        {
+          "h": "Cardioselective",
+          "points": [
+            "Metoprolol, atenolol, acebutolol, bisoprolol and esmolol act more on beta-1 than beta-2",
+            "Less bronchospasm and less blockade of beta-2 vasodilatation"
+          ]
+        },
+        {
+          "h": "Non-selective",
+          "points": [
+            "Propranolol, timolol and nadolol block beta-1 and beta-2; propranolol also has membrane stabilising action"
+          ]
+        },
+        {
+          "h": "Partial agonist",
+          "points": [
+            "Pindolol, celiprolol and acebutolol have intrinsic sympathomimetic activity, which lessens bradycardia and cold extremities"
+          ]
+        },
+        {
+          "h": "Alpha plus beta",
+          "points": [
+            "Labetalol and carvedilol block alpha-1 as well as beta receptors"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p221",
+        "GG14 PDF p291",
+        "KDT8 ch10"
+      ],
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-033",
+      "type": "basic",
+      "front": "Labetalol: receptor action, clinical niche and main side effect.",
+      "back": "It blocks alpha-1 and nonselectively blocks beta receptors, with beta blockade about 3 to 5 times stronger than alpha. Its fall in BP comes from alpha-1 block plus beta-2 vasodilatation. Heart rate is usually unchanged and limb blood flow increases. It is used in pheochromocytoma, clonidine withdrawal, pregnancy-induced hypertension and hypertensive emergencies (20 to 40 mg IV repeated). Its main side effect is postural hypotension.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-beta-blockers",
       "tags": [
         "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-034",
+      "type": "basic",
+      "front": "Propranolol: why does the antihypertensive effect appear only after some weeks?",
+      "back": "Acutely, propranolol lowers cardiac output, and total peripheral resistance rises, so BP changes little. With chronic use, resistance vessels adapt to the lower output, peripheral resistance falls and BP drops. Other contributions: less renin release (beta-1 mediated), less noradrenaline release, and central effects of lipophilic agents.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-036",
+      "type": "basic",
+      "front": "Esmolol: why is it so short acting, and where is it used?",
+      "back": "It is a cardioselective beta-1 blocker without partial agonist or membrane-stabilising action. Blood esterases hydrolyse it rapidly, so plasma half-life is under 10 minutes and the effect ends 15 to 20 minutes after stopping the infusion. It is given as a 0.5 mg/kg loading dose, then 0.05 to 0.2 mg/kg/min. Uses: supraventricular tachycardia, intraoperative arrhythmias, control of HR and BP during cardiac surgery and aortic dissection, and early MI.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "pk",
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-038",
+      "type": "shortnote",
+      "front": "Short note: Propranolol: adverse effects and contraindications",
+      "sections": [
+        {
+          "h": "Contraindications",
+          "points": [
+            "Bronchial asthma and COPD (bronchoconstriction)",
+            "Partial and complete heart block",
+            "Sick sinus syndrome (severe bradycardia)",
+            "Variant (vasospastic) angina",
+            "Decompensated heart failure"
+          ]
+        },
+        {
+          "h": "Cardiac",
+          "points": [
+            "Bradycardia is the commonest adverse effect",
+            "Can precipitate or worsen heart failure",
+            "Peripheral vascular disease worsens"
+          ]
+        },
+        {
+          "h": "Metabolic",
+          "points": [
+            "Masks hypoglycaemia warning signs (tachycardia, tremor); delays recovery",
+            "Raises triglycerides and lowers HDL with long use",
+            "Impaired carbohydrate tolerance in prediabetics"
+          ]
+        },
+        {
+          "h": "Withdrawal",
+          "points": [
+            "Taper gradually",
+            "Abrupt stop: rebound hypertension, worsened angina, sudden death (receptor upregulation)"
+          ]
+        },
+        {
+          "h": "Others",
+          "points": [
+            "Fatigue, nightmares, forgetfulness, depression, sexual dysfunction"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 2
     },
     {
       "id": "p2-adrenergic-042",
@@ -1149,7 +1863,189 @@
       "subtopic": "p2-adrenergic-beta-blockers",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-052",
+      "type": "shortnote",
+      "front": "Short note: Non-cardiovascular uses of beta blockers",
+      "sections": [
+        {
+          "h": "Eye",
+          "points": [
+            "Topical timolol and other ocular beta blockers in chronic open-angle glaucoma",
+            "Adjuvant in angle-closure glaucoma"
+          ]
+        },
+        {
+          "h": "Thyroid",
+          "points": [
+            "Controls palpitation, tremor, sweating and nervousness of thyrotoxicosis",
+            "Blocks peripheral conversion of T4 to T3; valuable in thyroid storm",
+            "Used until antithyroid drugs or radioiodine act"
+          ]
+        },
+        {
+          "h": "Neurology",
+          "points": [
+            "Migraine prophylaxis: propranolol most effective; metoprolol and timolol also",
+            "Reduces essential tremor, but not parkinsonian tremor"
+          ]
+        },
+        {
+          "h": "Anxiety and other",
+          "points": [
+            "Blunts somatic symptoms of anxiety, e.g. performance anxiety",
+            "Does not treat anxiety neurosis itself",
+            "Symptomatic help in alcohol withdrawal (propranolol)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10",
+        "Katzung16 ch10"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses"
+      ],
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-053",
+      "type": "shortnote",
+      "front": "Short note: Non-cardiovascular uses of beta-blockers",
+      "sections": [
+        {
+          "h": "Thyrotoxicosis",
+          "points": [
+            "Propranolol rapidly controls palpitation, tremor, fixed stare, sweating and myopathy without changing thyroid status",
+            "It also reduces peripheral conversion of T4 to T3"
+          ]
+        },
+        {
+          "h": "Migraine and tremor",
+          "points": [
+            "Propranolol is the most effective drug for chronic migraine prophylaxis",
+            "Non-selective beta-blockers help essential tremor but not parkinsonian tremor"
+          ]
+        },
+        {
+          "h": "Anxiety",
+          "points": [
+            "Propranolol reduces performance-type anxiety by blocking peripheral effects of adrenaline"
+          ]
+        },
+        {
+          "h": "Glaucoma and other",
+          "points": [
+            "Ocular beta-blockers used in chronic simple glaucoma and as adjuvants in angle closure",
+            "Hypertrophic obstructive cardiomyopathy: reduces forceful contraction and outflow obstruction"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-054",
+      "type": "shortnote",
+      "front": "Short note: Role of beta-blockers in heart failure and after myocardial infarction",
+      "sections": [
+        {
+          "h": "Acute",
+          "points": [
+            "Beta-blockers can acutely worsen heart failure, so they are avoided in shock or cardiac failure"
+          ]
+        },
+        {
+          "h": "Long-term benefit",
+          "points": [
+            "Metoprolol, bisoprolol, nebivolol and carvedilol improve haemodynamics over long-term use"
+          ]
+        },
+        {
+          "h": "After MI",
+          "points": [
+            "Long-term use after MI cuts subsequent mortality by about 20% (secondary prevention)",
+            "High-risk patients with large infarcts should take them for at least 2 years if no haemodynamic contraindication"
+          ]
+        },
+        {
+          "h": "Pheochromocytoma",
+          "points": [
+            "Never give a beta-blocker before an alpha-blocker: a dangerous BP rise can follow"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-064",
+      "type": "basic",
+      "front": "Why do beta-1 selective blockers have less effect on airways than propranolol?",
+      "back": "They show greater affinity for beta-1 than beta-2 receptors, so they antagonise cardiac actions of catecholamines while causing less blockade of beta-2 receptors in bronchi and vessels.",
+      "refs": [
+        "GG14 PDF p221",
+        "GG14 PDF p291"
+      ],
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p2-adrenergic-043",
@@ -1232,69 +2128,211 @@
       "tags": [
         "classification",
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-adrenergic-044",
-      "type": "essay",
-      "front": "Essay: Alpha-adrenergic blockers: classification and clinical uses",
+      "id": "p2-adrenergic-066",
+      "type": "shortnote",
+      "front": "Short note: Biased and newer beta-blockers (carvedilol, labetalol, mirabegron)",
       "sections": [
         {
-          "h": "Introduction",
+          "h": "Carvedilol",
           "points": [
-            "Competitive versus irreversible blockers",
-            "Nonselective alpha-1 and alpha-2 blockers versus selective alpha-1 blockers"
+            "Blocks alpha-1 and beta receptors; a biased ligand favouring beta-arrestin signalling over G-protein signalling"
           ]
         },
         {
-          "h": "Classification",
+          "h": "Labetalol",
           "points": [
-            "Irreversible: phenoxybenzamine",
-            "Short-acting nonselective: phentolamine",
-            "Selective alpha-1: prazosin, terazosin, doxazosin, alfuzosin, tamsulosin, silodosin",
-            "Alpha-2 blocker: yohimbine (no valid indication)",
-            "Mixed: labetalol"
+            "First adrenergic antagonist to block both alpha and beta receptors; four diastereomers with heavy first-pass metabolism",
+            "Useful in pheochromocytoma, clonidine withdrawal, pre-eclampsia and hypertensive emergencies"
           ]
         },
         {
-          "h": "Actions",
+          "h": "Mirabegron",
           "points": [
-            "Arteriolar and venous dilatation, fall in BP",
-            "Postural hypotension and first-dose effect",
-            "Miosis, nasal stuffiness, failure of ejaculation",
-            "Reflex tachycardia with nonselective agents"
-          ]
-        },
-        {
-          "h": "Therapeutic uses",
-          "points": [
-            "Pheochromocytoma (preoperative and malignant)",
-            "Hypertension: prazosin-like agents, but not as monotherapy (doxazosin monotherapy raised heart failure risk in ALLHAT); useful when BHP coexists",
-            "BHP: alpha-1A selective agents preferred",
-            "Raynaud's phenomenon; PIPE therapy for erectile dysfunction with papaverine",
-            "Clonidine withdrawal, cheese reaction"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Postural hypotension, syncope with first dose",
-            "Nasal stuffiness, failure of ejaculation",
-            "Floppy iris syndrome (tamsulosin)",
-            "Priapism (PIPE therapy)"
+            "Beta-3 agonist; moderate CYP2D6 inhibitor, so it raises levels of metoprolol, digoxin and desipramine"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch10",
-        "GG14 ch32"
+        "GG14 PDF p274",
+        "GG14 PDF p283",
+        "KDT8 ch10"
+      ],
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "newer-drugs",
+        "interactions"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-adrenergic-alpha-blockers",
+      "level": 3
+    },
+    {
+      "id": "p2-adrenergic-041",
+      "type": "shortnote",
+      "front": "Short note: Carbonic anhydrase inhibitors in glaucoma",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Inhibit carbonic anhydrase in ciliary epithelium",
+            "Less bicarbonate formed, so less aqueous secreted"
+          ]
+        },
+        {
+          "h": "Acetazolamide (oral)",
+          "points": [
+            "250 mg every 6 to 12 hours",
+            "Short-term use: angle closure, before and after surgery or laser",
+            "Adverse: paraesthesia, anorexia, hypokalaemia, acidosis, malaise, depression",
+            "Long-term use restricted to patients not controlled by 2 or 3 topical drugs"
+          ]
+        },
+        {
+          "h": "Dorzolamide (topical)",
+          "points": [
+            "2% eye drops BD to TDS",
+            "Lowers IOP by about 20 percent, less than timolol",
+            "Adverse: stinging, burning, bitter taste, corneal oedema",
+            "Add-on therapy or when PG analogues and blockers are contraindicated"
+          ]
+        },
+        {
+          "h": "Brinzolamide",
+          "points": [
+            "Another topical carbonic anhydrase inhibitor"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-glaucoma",
       "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-048",
+      "type": "cloze",
+      "front": "Classify: antiglaucoma drugs by mechanism",
+      "text": "{{Latanoprost}} and {{travoprost}} are PGF2-alpha analogues that mainly increase {{uveoscleral}} outflow; {{timolol}}, a nonselective beta-blocker, mainly lowers aqueous {{secretion}}.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-glaucoma",
+      "tags": [
+        "mechanism",
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-049",
+      "type": "cloze",
+      "front": "Classify: carbonic anhydrase inhibitors and miotics in glaucoma",
+      "text": "{{Acetazolamide}} (oral) and {{dorzolamide}} (topical) inhibit {{carbonic anhydrase}} in the ciliary body and reduce aqueous formation; {{pilocarpine}} is a miotic that improves {{trabecular}} outflow.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-glaucoma",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-050",
+      "type": "cloze",
+      "front": "Classify: acute angle closure glaucoma measures",
+      "text": "Osmotic agent: {{mannitol}}; IV carbonic anhydrase inhibitor: {{acetazolamide}}; miotic: {{pilocarpine}} once pressure falls; topical beta-blocker: {{timolol}}; definitive treatment: {{laser iridotomy}}.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-glaucoma",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-adrenergic-037",
+      "type": "basic",
+      "front": "Why must membrane-stabilising beta-blockers be avoided in glaucoma eye drops, and what makes timolol the prototype?",
+      "back": "Membrane-stabilising agents anaesthetise the cornea and can damage it. Timolol is nonselective and has no local anaesthetic or intrinsic sympathomimetic activity. It lowers intraocular pressure by 20 to 35 percent within an hour, for about 12 hours. Systemic absorption through the nasolacrimal duct can cause bronchospasm and bradycardia, so pressure on the inner canthus is advised after instillation.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-glaucoma",
+      "tags": [
+        "classification",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-adrenergic-040",
+      "type": "shortnote",
+      "front": "Short note: Acute angle closure glaucoma",
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "Narrow iridocorneal angle; iris blocks aqueous outflow at the pupil",
+            "Precipitated by mydriasis (e.g. dim light, anticholinergic)",
+            "Intraocular pressure rises to 40 to 60 mm Hg"
+          ]
+        },
+        {
+          "h": "Presentation",
+          "points": [
+            "Eye congestion, severe headache, pain",
+            "Risk of permanent visual loss"
+          ]
+        },
+        {
+          "h": "Emergency measures",
+          "points": [
+            "Osmotic agent: mannitol 20% (1.5 to 2 g/kg IV) or glycerol",
+            "Acetazolamide IV, then oral",
+            "Pilocarpine repeatedly, once pressure is falling (iris must respond)",
+            "Topical timolol 0.5%; apraclonidine or latanoprost may be added"
+          ]
+        },
+        {
+          "h": "Definitive",
+          "points": [
+            "Laser or surgical iridotomy",
+            "Drugs only terminate the attack"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-adrenergic-glaucoma",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 2
     },
     {
       "id": "p2-adrenergic-045",
@@ -1369,878 +2407,498 @@
         "uses",
         "mechanism",
         "newer-drugs"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-adrenergic-046",
-      "type": "cloze",
-      "front": "Classify: alpha-1 blocker subtype selectivity",
-      "text": "Prazosin blocks all alpha-1 subtypes {{equally}}; tamsulosin is selective for {{1A/1D}} subtypes; {{alfuzosin}} is nonselective among alpha-1 subtypes.",
+      "id": "p2-adrenergic-079",
+      "type": "basic",
+      "front": "Droxidopa: what is it and why does it raise BP in orthostatic hypotension?",
+      "back": "A synthetic amino acid (L-DOPS) that dopa-decarboxylase converts into norepinephrine, so it acts as a noradrenaline precursor. Added NE raises peripheral resistance, which helps chronic orthostatic hypotension; midodrine is the older alpha-1 agonist choice.",
       "refs": [
-        "KDT8 ch10"
+        "Katzung16 PDF p172"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-adrenergic-alpha-blockers",
+      "subtopic": "p2-adrenergic-sympathomimetics",
       "tags": [
-        "classification"
-      ]
+        "uses",
+        "mechanism"
+      ],
+      "level": 2
     },
     {
-      "id": "p2-adrenergic-047",
-      "type": "cloze",
-      "front": "Classify: beta-blockers by lipid solubility and elimination",
-      "text": "Lipophilic beta-blockers such as {{propranolol}} and {{metoprolol}} are cleared mainly by the {{liver}}; hydrophilic ones such as {{atenolol}} and {{sotalol}} are excreted largely {{unchanged in urine}}.",
+      "id": "p2-adrenergic-080",
+      "type": "basic",
+      "front": "Moxonidine and guanfacine: how are they related to clonidine?",
+      "back": "Both lower BP by reducing sympathetic outflow from the CNS. Moxonidine is a mixed alpha-2 and imidazoline I1 receptor agonist. Guanfacine is more alpha-2 selective than clonidine and acts on brainstem receptors.",
       "refs": [
-        "KDT8 ch10"
+        "GG14 PDF p280"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "pk",
-        "classification"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-048",
-      "type": "cloze",
-      "front": "Classify: antiglaucoma drugs by mechanism",
-      "text": "{{Latanoprost}} and {{travoprost}} are PGF2-alpha analogues that mainly increase {{uveoscleral}} outflow; {{timolol}}, a nonselective beta-blocker, mainly lowers aqueous {{secretion}}.",
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-glaucoma",
+      "subtopic": "p2-adrenergic-sympathomimetics",
       "tags": [
         "mechanism",
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-adrenergic-049",
-      "type": "cloze",
-      "front": "Classify: carbonic anhydrase inhibitors and miotics in glaucoma",
-      "text": "{{Acetazolamide}} (oral) and {{dorzolamide}} (topical) inhibit {{carbonic anhydrase}} in the ciliary body and reduce aqueous formation; {{pilocarpine}} is a miotic that improves {{trabecular}} outflow.",
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-glaucoma",
+      "id": "p2-adrenergic-081",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p2-adrenergic-sympathomimetics",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-050",
-      "type": "cloze",
-      "front": "Classify: acute angle closure glaucoma measures",
-      "text": "Osmotic agent: {{mannitol}}; IV carbonic anhydrase inhibitor: {{acetazolamide}}; miotic: {{pilocarpine}} once pressure falls; topical beta-blocker: {{timolol}}; definitive treatment: {{laser iridotomy}}.",
+      ],
+      "front": "Parent structure of sympathomimetic amines, and what makes a catecholamine?",
+      "back": "Beta-phenylethylamine: a benzene ring with an ethylamine side chain. Catecholamines add hydroxyls at ring positions 3 and 4 (a catechol).",
       "refs": [
-        "KDT8 ch10"
+        "GG14 PDF p272"
       ],
       "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-adrenergic-glaucoma",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p2-adrenergic-051",
-      "type": "shortnote",
-      "front": "Short note: Drugs used for prostate enlargement (BPH)",
-      "sections": [
-        {
-          "h": "Alpha-1 blockers (dynamic component)",
-          "points": [
-            "Relax smooth muscle of prostate and bladder neck; improve urine flow",
-            "Terazosin, doxazosin, alfuzosin and tamsulosin: once-daily dosing preferred",
-            "Tamsulosin is uroselective (alpha-1A) with fewer vascular effects",
-            "Relief within about 2 weeks, but it stops when the drug stops; gland size is unchanged"
-          ]
-        },
-        {
-          "h": "5-alpha reductase inhibitors (static component)",
-          "points": [
-            "Finasteride (relatively type-2 selective) and dutasteride block conversion of testosterone to DHT",
-            "Shrink the prostate by up to about 20%; best in glands over 40 mL",
-            "Benefit takes about 6 months and is kept with continued use",
-            "Dosing: finasteride 5 mg daily; dutasteride 0.5 mg daily"
-          ]
-        },
-        {
-          "h": "Combination and adverse effects",
-          "points": [
-            "Alpha-1 blocker and finasteride can be given together",
-            "Alpha-1 blockers cause postural hypotension, mainly with the first dose",
-            "Failure of ejaculation is a common alpha-1 blocker effect"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch10",
-        "KDT8 ch21",
-        "Katzung16 ch10",
-        "Katzung16 ch40",
-        "GG14 ch14",
-        "GG14 ch49"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr",
-        "dosing"
-      ],
-      "subtopic": "p2-adrenergic-alpha-blockers",
       "status": "draft"
     },
     {
-      "id": "p2-adrenergic-052",
-      "type": "shortnote",
-      "front": "Short note: Non-cardiovascular uses of beta blockers",
-      "sections": [
-        {
-          "h": "Eye",
-          "points": [
-            "Topical timolol and other ocular beta blockers in chronic open-angle glaucoma",
-            "Adjuvant in angle-closure glaucoma"
-          ]
-        },
-        {
-          "h": "Thyroid",
-          "points": [
-            "Controls palpitation, tremor, sweating and nervousness of thyrotoxicosis",
-            "Blocks peripheral conversion of T4 to T3; valuable in thyroid storm",
-            "Used until antithyroid drugs or radioiodine act"
-          ]
-        },
-        {
-          "h": "Neurology",
-          "points": [
-            "Migraine prophylaxis: propranolol most effective; metoprolol and timolol also",
-            "Reduces essential tremor, but not parkinsonian tremor"
-          ]
-        },
-        {
-          "h": "Anxiety and other",
-          "points": [
-            "Blunts somatic symptoms of anxiety, e.g. performance anxiety",
-            "Does not treat anxiety neurosis itself",
-            "Symptomatic help in alcohol withdrawal (propranolol)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch10",
-        "Katzung16 ch10"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "uses"
-      ],
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-053",
-      "type": "shortnote",
-      "front": "Short note: Non-cardiovascular uses of beta-blockers",
-      "sections": [
-        {
-          "h": "Thyrotoxicosis",
-          "points": [
-            "Propranolol rapidly controls palpitation, tremor, fixed stare, sweating and myopathy without changing thyroid status",
-            "It also reduces peripheral conversion of T4 to T3"
-          ]
-        },
-        {
-          "h": "Migraine and tremor",
-          "points": [
-            "Propranolol is the most effective drug for chronic migraine prophylaxis",
-            "Non-selective beta-blockers help essential tremor but not parkinsonian tremor"
-          ]
-        },
-        {
-          "h": "Anxiety",
-          "points": [
-            "Propranolol reduces performance-type anxiety by blocking peripheral effects of adrenaline"
-          ]
-        },
-        {
-          "h": "Glaucoma and other",
-          "points": [
-            "Ocular beta-blockers used in chronic simple glaucoma and as adjuvants in angle closure",
-            "Hypertrophic obstructive cardiomyopathy: reduces forceful contraction and outflow obstruction"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "uses"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-054",
-      "type": "shortnote",
-      "front": "Short note: Role of beta-blockers in heart failure and after myocardial infarction",
-      "sections": [
-        {
-          "h": "Acute",
-          "points": [
-            "Beta-blockers can acutely worsen heart failure, so they are avoided in shock or cardiac failure"
-          ]
-        },
-        {
-          "h": "Long-term benefit",
-          "points": [
-            "Metoprolol, bisoprolol, nebivolol and carvedilol improve haemodynamics over long-term use"
-          ]
-        },
-        {
-          "h": "After MI",
-          "points": [
-            "Long-term use after MI cuts subsequent mortality by about 20% (secondary prevention)",
-            "High-risk patients with large infarcts should take them for at least 2 years if no haemodynamic contraindication"
-          ]
-        },
-        {
-          "h": "Pheochromocytoma",
-          "points": [
-            "Never give a beta-blocker before an alpha-blocker: a dangerous BP rise can follow"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "uses",
-        "contraindications"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        },
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-055",
-      "type": "shortnote",
-      "front": "Short note: Selective (cardioselective) versus non-selective beta-blockers",
-      "sections": [
-        {
-          "h": "Cardioselective",
-          "points": [
-            "Metoprolol, atenolol, acebutolol, bisoprolol and esmolol act more on beta-1 than beta-2",
-            "Less bronchospasm and less blockade of beta-2 vasodilatation"
-          ]
-        },
-        {
-          "h": "Non-selective",
-          "points": [
-            "Propranolol, timolol and nadolol block beta-1 and beta-2; propranolol also has membrane stabilising action"
-          ]
-        },
-        {
-          "h": "Partial agonist",
-          "points": [
-            "Pindolol, celiprolol and acebutolol have intrinsic sympathomimetic activity, which lessens bradycardia and cold extremities"
-          ]
-        },
-        {
-          "h": "Alpha plus beta",
-          "points": [
-            "Labetalol and carvedilol block alpha-1 as well as beta receptors"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 PDF p221",
-        "GG14 PDF p291",
-        "KDT8 ch10"
-      ],
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "classification",
-        "adr"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-056",
+      "id": "p2-adrenergic-082",
       "type": "basic",
-      "front": "Why does adrenaline become dangerous in patients taking a non-selective beta-blocker?",
-      "back": "Adrenaline stimulates alpha-1 receptors on vessels; with beta-2 receptors blocked, the unopposed alpha-1 vasoconstriction can cause severe hypertension and cerebral haemorrhage.",
-      "refs": [
-        "GG14 PDF p277"
+      "level": 2,
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism",
+        "pk"
       ],
-      "subtopic": "p2-adrenergic-adrenaline-shock",
+      "front": "How do ring hydroxyls at positions 3 and 4 change activity and oral use?",
+      "back": "They give maximal alpha and beta potency; removing them lowers it. Catechols are destroyed in the gut and liver, so they work poorly orally. Hydroxyl-free compounds escape COMT and act longer.",
+      "refs": [
+        "GG14 PDF p272"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-083",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How does the amino substituent steer alpha versus beta activity?",
+      "back": "Bigger alkyl groups favour beta activity (isoprenaline has almost no alpha). Small groups favour alpha: adrenaline is the most alpha-active catecholamine, noradrenaline less. N-methylation boosts primary amines, yet phenylephrine stays alpha-selective.",
+      "refs": [
+        "GG14 PDF p272"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-084",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Which ring pattern, with a large amino group, gives beta2 selectivity?",
+      "back": "Hydroxyls at positions 3 and 5. Terbutaline is the example; it relaxes bronchial muscle with less direct cardiac stimulation than non-selective catecholamines.",
+      "refs": [
+        "GG14 PDF p272"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-085",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "front": "Why do hydroxyl-free phenylethylamines act centrally and mainly by releasing NE?",
+      "back": "Losing polar hydroxyls makes them more lipophilic, so they cross the blood-brain barrier (ephedrine, amphetamine, methamphetamine). Without both ring and beta-hydroxyls they lose direct agonist action and mainly release noradrenaline.",
+      "refs": [
+        "GG14 PDF p272"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-086",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What is the false-transmitter concept?",
+      "back": "An indirect amine enters the nerve vesicle and replaces NE. If the replacement is much weaker than NE, transmission falls. It is proposed to explain some MAO inhibitor effects.",
+      "refs": [
+        "GG14 PDF p274"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-087",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-adrenergic-sympathomimetics",
       "tags": [
         "interactions",
-        "contraindications"
+        "mechanism"
+      ],
+      "front": "Why can an MAO inhibitor plus tyramine-rich food cause a hypertensive crisis?",
+      "back": "Gut and liver MAO normally destroy dietary tyramine. With MAO blocked, tyramine reaches the circulation, enters nerve terminals and displaces NE. The sudden large NE release can cause severe hypertension.",
+      "refs": [
+        "GG14 PDF p274"
       ],
       "pyq": [],
       "status": "draft"
     },
     {
-      "id": "p2-adrenergic-057",
+      "id": "p2-adrenergic-088",
       "type": "basic",
-      "front": "How does clonidine lower blood pressure?",
-      "back": "Clonidine is a more potent alpha-2 than alpha-1 agonist. Stimulating postjunctional alpha-2 receptors in the brain reduces sympathetic outflow from the CNS, which accounts for much of its antihypertensive effect.",
-      "refs": [
-        "GG14 PDF p214",
-        "GG14 PDF p221"
-      ],
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-058",
-      "type": "shortnote",
-      "front": "Short note: Clonidine: central action, uses and withdrawal",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Central alpha-2 agonist; reduces sympathetic outflow from the brain"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Hypertension",
-            "Labetalol is useful in clonidine withdrawal (KDT8 ch10)"
-          ]
-        },
-        {
-          "h": "Withdrawal",
-          "points": [
-            "Abrupt withdrawal causes rebound rise in BP (KDT8 ch10)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch10",
-        "GG14 PDF p214"
-      ],
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-059",
-      "type": "basic",
-      "front": "Methyldopa: how does it lower BP?",
-      "back": "It is decarboxylated and hydroxylated to alpha-methylnorepinephrine, which acts as a false transmitter and as an alpha-2 agonist. The result is reduced sympathetic outflow from the CNS, similar to clonidine.",
-      "refs": [
-        "GG14 PDF p216",
-        "GG14 PDF p220"
-      ],
-      "subtopic": "p2-adrenergic-sympathomimetics",
+      "level": 1,
+      "subtopic": "p2-adrenergic-synthesis-storage",
       "tags": [
         "mechanism"
       ],
+      "front": "What is NANC transmission?",
+      "back": "Neurotransmission by nerves that are neither adrenergic nor cholinergic. Nitric oxide from NANC nerves relaxes smooth muscle, e.g. in the corpus cavernosum. It has been shown in the gut and vas deferens.",
+      "refs": [
+        "KDT8 PDF p124",
+        "KDT8 PDF p341"
+      ],
       "pyq": [],
       "status": "draft"
     },
     {
-      "id": "p2-adrenergic-060",
-      "type": "shortnote",
-      "front": "Short note: Alpha-1 selective blockers (prazosin, terazosin, doxazosin) and their uses",
-      "sections": [
-        {
-          "h": "Pharmacology",
-          "points": [
-            "Prazosin is the first highly selective alpha-1 blocker; it dilates arterioles more than veins",
-            "Terazosin and doxazosin are long-acting congeners; doxazosin's half-life is about 18 h"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Hypertension; Raynaud disease; benign prostatic hyperplasia (relaxes bladder neck and prostate smooth muscle)",
-            "Doxazosin and terazosin may also promote apoptosis in prostate tissue, which is not linked to alpha-1 blockade"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch10",
-        "GG14 PDF p221"
-      ],
-      "subtopic": "p2-adrenergic-alpha-blockers",
+      "id": "p2-adrenergic-089",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p2-adrenergic-sympathomimetics",
       "tags": [
-        "uses",
-        "adr"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-061",
-      "type": "basic",
-      "front": "Prazosin vs yohimbine: what do they block?",
-      "back": "Prazosin is a selective alpha-1 antagonist; yohimbine is an alpha-2 antagonist. Prazosin is used for hypertension and BPH; yohimbine is used as a tool to define alpha-2 effects.",
-      "refs": [
-        "GG14 PDF p221"
-      ],
-      "subtopic": "p2-adrenergic-alpha-blockers",
-      "tags": [
+        "mechanism",
         "classification"
       ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-062",
-      "type": "shortnote",
-      "front": "Short note: Phenoxybenzamine versus phentolamine",
-      "sections": [
-        {
-          "h": "Phenoxybenzamine",
-          "points": [
-            "Irreversible; binds alpha receptors covalently; non-selective",
-            "Used mainly in pheochromocytoma and occasionally in peripheral vascular disease",
-            "Oral absorption erratic; i.m. and s.c. injections painful"
-          ]
-        },
-        {
-          "h": "Phentolamine",
-          "points": [
-            "Non-selective, reversible, rapidly acting with short duration (minutes)",
-            "Nonselective alpha-1 and alpha-2 blockade increases noradrenaline release, causing tachycardia",
-            "Infiltration relieves NE extravasation injury at injection sites"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch10",
-        "GG14 PDF p287",
-        "GG14 PDF p278"
-      ],
-      "subtopic": "p2-adrenergic-alpha-blockers",
-      "tags": [
-        "mechanism",
-        "uses",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-063",
-      "type": "basic",
-      "front": "Why is phentolamine infiltrated around a site of noradrenaline extravasation?",
-      "back": "Infiltrating an alpha blocker into the injured area blocks local alpha-receptor vasoconstriction, relieving the ischaemia caused by leaked noradrenaline.",
-      "refs": [
-        "GG14 PDF p278"
-      ],
-      "subtopic": "p2-adrenergic-alpha-blockers",
-      "tags": [
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-064",
-      "type": "basic",
-      "front": "Why do beta-1 selective blockers have less effect on airways than propranolol?",
-      "back": "They show greater affinity for beta-1 than beta-2 receptors, so they antagonise cardiac actions of catecholamines while causing less blockade of beta-2 receptors in bronchi and vessels.",
-      "refs": [
-        "GG14 PDF p221",
-        "GG14 PDF p291"
-      ],
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-065",
-      "type": "basic",
-      "front": "Why does propranolol not block the beta-3 receptor?",
-      "back": "The beta-3 receptor has much lower affinity for classic beta-antagonists such as propranolol and atenolol, and is relatively resistant to them. Beta-3 agonists such as mirabegron act on it instead.",
-      "refs": [
-        "GG14 PDF p214",
-        "GG14 PDF p283"
-      ],
-      "subtopic": "p2-adrenergic-receptors",
-      "tags": [
-        "mechanism",
-        "newer-drugs"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-066",
-      "type": "shortnote",
-      "front": "Short note: Biased and newer beta-blockers (carvedilol, labetalol, mirabegron)",
-      "sections": [
-        {
-          "h": "Carvedilol",
-          "points": [
-            "Blocks alpha-1 and beta receptors; a biased ligand favouring beta-arrestin signalling over G-protein signalling"
-          ]
-        },
-        {
-          "h": "Labetalol",
-          "points": [
-            "First adrenergic antagonist to block both alpha and beta receptors; four diastereomers with heavy first-pass metabolism",
-            "Useful in pheochromocytoma, clonidine withdrawal, pre-eclampsia and hypertensive emergencies"
-          ]
-        },
-        {
-          "h": "Mirabegron",
-          "points": [
-            "Beta-3 agonist; moderate CYP2D6 inhibitor, so it raises levels of metoprolol, digoxin and desipramine"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 PDF p274",
-        "GG14 PDF p283",
-        "KDT8 ch10"
-      ],
-      "subtopic": "p2-adrenergic-beta-blockers",
-      "tags": [
-        "newer-drugs",
-        "interactions"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-067",
-      "type": "shortnote",
-      "front": "Short note: Nasal decongestants and rebound congestion",
-      "sections": [
-        {
-          "h": "Problem",
-          "points": [
-            "Chronic use or stopping the drug causes rebound hyperaemia and worse congestion"
-          ]
-        },
-        {
-          "h": "Oral vs topical",
-          "points": [
-            "Oral decongestants cause less rebound but carry more systemic adverse effects"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Alpha-agonists such as pseudoephedrine and phenylephrine constrict vessels; muscarinic antagonists do not and are less effective"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 PDF p235",
-        "GG14 PDF p286",
-        "GG14 PDF p287"
-      ],
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "adr",
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-068",
-      "type": "shortnote",
-      "front": "Short note: Direct, indirect and mixed-acting sympathomimetics",
-      "sections": [
-        {
-          "h": "Direct",
-          "points": [
-            "Act on receptors directly: adrenaline, noradrenaline, isoprenaline, phenylephrine, methoxamine, dobutamine, terbutaline"
-          ]
-        },
-        {
-          "h": "Indirect",
-          "points": [
-            "Release noradrenaline from nerve terminals: tyramine, ephedrine and amphetamine",
-            "Release is rapid but brief, so the effect is short"
-          ]
-        },
-        {
-          "h": "Mixed",
-          "points": [
-            "Ephedrine acts both directly and by releasing transmitter"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 PDF p216",
-        "GG14 PDF p220",
-        "GG14 PDF p271"
-      ],
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "classification",
-        "mechanism"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-069",
-      "type": "basic",
-      "front": "Why is dobutamine preferred in cardiac stimulation?",
-      "back": "Dobutamine preferentially stimulates cardiac beta-1 receptors, giving inotropic support with less peripheral vasoconstriction than mixed-action agents.",
-      "refs": [
-        "GG14 PDF p221",
-        "GG14 PDF p216"
-      ],
-      "subtopic": "p2-adrenergic-sympathomimetics",
-      "tags": [
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-070",
-      "type": "shortnote",
-      "front": "Short note: Adrenaline: actions and clinical uses",
-      "sections": [
-        {
-          "h": "Receptors",
-          "points": [
-            "Potent stimulant of both alpha and beta adrenergic receptors"
-          ]
-        },
-        {
-          "h": "Clinical uses",
-          "points": [
-            "Anaphylaxis, including self-administered devices",
-            "Shock and hypotension (GG14 PDF p279)"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Contraindicated with non-selective beta-blockers (unopposed alpha-1 effect)"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 PDF p277",
-        "GG14 PDF p270",
-        "GG14 PDF p279"
-      ],
-      "subtopic": "p2-adrenergic-adrenaline-shock",
-      "tags": [
-        "uses",
-        "interactions"
-      ],
+      "front": "Essay: SAR of adrenergic agonists and the steps of adrenergic transmission",
       "pyq": [
         {
           "university": "UHSR",
           "year": 2025,
           "marks": 10
+        }
+      ],
+      "status": "draft",
+      "refs": [
+        "GG14 PDF p272",
+        "GG14 PDF p274",
+        "KDT8 PDF p152",
+        "KDT8 PDF p153",
+        "KDT8 PDF p156"
+      ],
+      "sections": [
+        {
+          "h": "Parent structure",
+          "points": [
+            "Beta-phenylethylamine: ring plus two-carbon chain to the amine",
+            "Catecholamines carry hydroxyls at ring positions 3 and 4",
+            "Two carbons between ring and amine needed for most activity"
+          ]
         },
         {
-          "university": "RGUHS",
-          "year": 2022,
+          "h": "Ring substitution",
+          "points": [
+            "3,4-hydroxyls give maximal alpha and beta potency",
+            "3,5-hydroxyls with a large amino group give beta2 selectivity (terbutaline)",
+            "Hydroxyl-free drugs escape COMT: better oral use, longer action"
+          ]
+        },
+        {
+          "h": "Amino group and side chain",
+          "points": [
+            "Bigger alkyl group favours beta; small group favours alpha",
+            "Adrenaline has the most alpha activity; isoprenaline almost none",
+            "Loss of polar groups increases CNS penetration"
+          ]
+        },
+        {
+          "h": "Transmission steps",
+          "points": [
+            "Synthesis: tyrosine hydroxylase is rate-limiting; metyrosine blocks it",
+            "Storage: VMAT-2 loads amines; NA is stored with ATP (4:1) on chromogranin",
+            "Release: exocytosis, modulated by presynaptic receptors (alpha2 inhibition dominant)",
+            "Reuptake: uptake-1 (NET) recaptures most released NA; uptake-2 is extraneuronal",
+            "Metabolism: MAO inside neurons, COMT in tissues"
+          ]
+        },
+        {
+          "h": "Drug targets",
+          "points": [
+            "Reserpine blocks vesicular uptake; cocaine and desipramine block uptake-1",
+            "Guanethidine and bretylium block release; metyrosine blocks synthesis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2-adrenergic-090",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses"
+      ],
+      "front": "Essay: Non-cardiovascular uses of sympathomimetic agents",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
           "marks": 10
         }
       ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-071",
-      "type": "shortnote",
-      "front": "Short note: Isoprenaline (isoproterenol) and receptor potency order",
+      "status": "draft",
+      "refs": [
+        "KDT8 PDF p165",
+        "KDT8 PDF p166",
+        "KDT8 PDF p167",
+        "KDT8 PDF p256"
+      ],
       "sections": [
         {
-          "h": "Potency order",
+          "h": "Respiratory",
           "points": [
-            "Alpha: adrenaline is at least as potent as noradrenaline; isoprenaline is much weaker",
-            "Beta: isoprenaline greater than adrenaline, which is at least as potent as noradrenaline"
+            "Beta2 agonists are the main reversible airway relievers in asthma and COPD"
           ]
         },
         {
-          "h": "Use",
+          "h": "Nose and eye",
           "points": [
-            "Isoprenaline acts strongly on beta receptors and is used mainly for heart block and bronchospasm (older use)"
+            "Topical alpha agonists (xylometazoline, oxymetazoline, naphazoline) shrink nasal mucosa",
+            "Long use causes after-congestion and can cause atrophic rhinitis",
+            "Phenylephrine dilates the pupil for fundus examination; low strength decongests conjunctiva"
+          ]
+        },
+        {
+          "h": "Allergy",
+          "points": [
+            "Adrenaline is life saving in anaphylaxis: it counters bronchospasm and laryngeal oedema",
+            "Quick relief in urticaria and angio-oedema"
+          ]
+        },
+        {
+          "h": "Obstetric and muscle",
+          "points": [
+            "Beta2 agonists (ritodrine) relax the uterus to delay premature labour",
+            "Beta2 agonists lower plasma K+ in familial hyperkalaemic periodic paralysis"
+          ]
+        },
+        {
+          "h": "Local uses",
+          "points": [
+            "Adrenaline with local anaesthetics prolongs the block and cuts systemic toxicity",
+            "Adrenaline or phenylephrine compresses control local bleeding"
+          ]
+        },
+        {
+          "h": "CNS and other",
+          "points": [
+            "Amphetamine calms hyperkinetic children with ADHD by widening attention span",
+            "No sympathomimetic anorectic is currently approved"
+          ]
+        },
+        {
+          "h": "Caution",
+          "points": [
+            "Oral and nasal decongestants can raise BP; use with care in hypertension"
           ]
         }
-      ],
-      "refs": [
-        "GG14 PDF p214",
-        "KDT8 ch9"
-      ],
-      "subtopic": "p2-adrenergic-receptors",
+      ]
+    },
+    {
+      "id": "p2-adrenergic-091",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-adrenergic-sympathomimetics",
       "tags": [
-        "mechanism"
+        "uses"
+      ],
+      "front": "Why does adrenaline added to a local anaesthetic help?",
+      "back": "Local vasoconstriction slows absorption of the anaesthetic. The block lasts longer, systemic toxicity falls, and local bleeding is reduced.",
+      "refs": [
+        "KDT8 PDF p166"
       ],
       "pyq": [],
       "status": "draft"
     },
     {
-      "id": "p2-adrenergic-072",
+      "id": "p2-adrenergic-092",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is familial hyperkalaemic periodic paralysis, and how do beta2 agonists help?",
+      "back": "Periodic muscle weakness with high plasma K+. Beta2 agonists increase K+ uptake into muscle, which lowers plasma K+.",
+      "refs": [
+        "KDT8 PDF p165"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-093",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-adrenergic-sympathomimetics",
+      "tags": [
+        "uses"
+      ],
+      "front": "Why does amphetamine calm a hyperkinetic child with ADHD?",
+      "back": "ADHD is a reduced span of attention. Amphetamine lengthens the span, so the child settles. The effect looks paradoxical.",
+      "refs": [
+        "KDT8 PDF p167"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p2-adrenergic-094",
       "type": "shortnote",
-      "front": "Short note: Pheochromocytoma and catecholamine chemistry",
-      "sections": [
+      "level": 3,
+      "subtopic": "p2-adrenergic-beta-blockers",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "front": "Short note: Beta-blockers in MI: pharmacological basis and current trends",
+      "pyq": [
         {
-          "h": "Tumour",
-          "points": [
-            "Tumour of adrenal medullary cells; excess catecholamines cause intermittent or persistent hypertension",
-            "Urinary metabolites (VMA, normetanephrine) are measured for diagnosis"
-          ]
-        },
-        {
-          "h": "Catecholamine content",
-          "points": [
-            "Noradrenaline is 10 to 20% of adrenal medullary catecholamine; up to 97% in some pheochromocytomas lacking PNMT"
-          ]
-        },
-        {
-          "h": "Drugs",
-          "points": [
-            "Phenoxybenzamine (alpha blockade) first; then a beta-blocker; labetalol is useful"
-          ]
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
         }
       ],
+      "status": "draft",
       "refs": [
-        "GG14 PDF p277",
-        "KDT8 ch10"
+        "KDT8 PDF p179",
+        "KDT8 PDF p180",
+        "GG14 PDF p300"
       ],
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "Lower heart rate, contractility and O2 demand",
+            "Limit infarct size: marginal ischaemic tissue may survive",
+            "Suppress arrhythmias, including ventricular fibrillation"
+          ]
+        },
+        {
+          "h": "Secondary prophylaxis",
+          "points": [
+            "Long-term use cuts later mortality by about 20 percent",
+            "Prevents reinfarction and sudden ventricular fibrillation",
+            "High-risk patients (large infarcts): continue for at least 2 years"
+          ]
+        },
+        {
+          "h": "Acute phase",
+          "points": [
+            "Megatrials: mortality fell 20 to 25 percent",
+            "Withhold in shock or heart failure, HR at or below 50/min, or PR 0.24 s or longer"
+          ]
+        },
+        {
+          "h": "Current trends",
+          "points": [
+            "Propranolol and metoprolol have the firmest evidence; partial agonists are less suitable",
+            "Esmolol: ultra-short-acting IV beta-1 blocker; alternative for paroxysmal supraventricular tachycardia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2-adrenergic-095",
+      "type": "shortnote",
+      "level": 3,
       "subtopic": "p2-adrenergic-synthesis-storage",
       "tags": [
         "mechanism",
         "uses"
       ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-073",
-      "type": "basic",
-      "front": "Why are adrenergic drugs used in hypotension, orthostatic hypotension and shock?",
-      "back": "They raise blood pressure by vasoconstriction or cardiac stimulation. Clinical utility is limited to hypotension, orthostatic hypotension and shock where vasoconstrictor support is needed.",
+      "front": "Short note: Non-adrenergic non-cholinergic (NANC) transmission",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
       "refs": [
-        "GG14 PDF p279"
+        "KDT8 PDF p124",
+        "KDT8 PDF p341"
       ],
-      "subtopic": "p2-adrenergic-adrenaline-shock",
-      "tags": [
-        "uses"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p2-adrenergic-074",
-      "type": "shortnote",
-      "front": "Short note: Heart failure and catecholamines (adrenergic basis)",
       "sections": [
         {
-          "h": "Catecholamine effect",
+          "h": "What",
           "points": [
-            "Long-term catecholamine exposure damages the heart and speeds heart failure",
-            "Beta-1 signalling has greater potential than beta-2 to contribute to heart failure in mouse studies"
+            "Autonomic nerve impulses that release neither noradrenaline nor acetylcholine",
+            "Shown in the gut, vas deferens and other autonomic innervation"
           ]
         },
         {
-          "h": "Therapeutic link",
+          "h": "Key transmitter",
           "points": [
-            "Catecholamine overactivity drives progression; blockers are used to counter it"
+            "Nitric oxide from parasympathetic NANC (nitrergic) nerves",
+            "Also from vascular endothelium"
+          ]
+        },
+        {
+          "h": "Steps",
+          "points": [
+            "Nerve impulse releases NO into the smooth muscle",
+            "NO raises intracellular cGMP",
+            "cGMP promotes dephosphorylation of myosin light chain kinase, so myosin stops binding actin",
+            "Smooth muscle relaxes"
+          ]
+        },
+        {
+          "h": "Other transmitters",
+          "points": [
+            "ATP, VIP and NPY act as cotransmitters with NA or ACh",
+            "Cotransmitters may modulate release or act as transmitters in their own right"
+          ]
+        },
+        {
+          "h": "Clinical example",
+          "points": [
+            "In erection, NO from NANC nerves relaxes corpus cavernosum",
+            "PDE-5 breaks down cGMP; PDE-5 inhibitors prolong NO action"
           ]
         }
-      ],
-      "refs": [
-        "GG14 PDF p219"
-      ],
-      "subtopic": "p2-adrenergic-receptors",
+      ]
+    },
+    {
+      "id": "p2-adrenergic-096",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p2-adrenergic-synthesis-storage",
       "tags": [
         "mechanism",
         "uses"
+      ],
+      "front": "How do PDE-5 inhibitors act in erectile dysfunction, and what do they depend on?",
+      "back": "They block PDE-5, the enzyme that breaks down cGMP in cavernosal smooth muscle, so cGMP builds up and potentiates NO action. They need NO release from NANC nerves and endothelium to work.",
+      "refs": [
+        "KDT8 PDF p341"
       ],
       "pyq": [],
       "status": "draft"

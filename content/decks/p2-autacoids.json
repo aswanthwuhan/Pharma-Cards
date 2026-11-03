@@ -452,6 +452,22 @@
       "level": 1
     },
     {
+      "id": "p2-autacoids-105",
+      "type": "basic",
+      "subtopic": "p2-autacoids-h1-antihistamines",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "Which second-generation H1 antagonists also stabilise mast cells?",
+      "back": "Cetirizine, desloratadine, fexofenadine, olopatadine, ketotifen and alcaftadine. Stabilising mast cells cuts the release of histamine and other mediators, so these drugs add an antiallergic action beyond H1 blockade.",
+      "refs": [
+        "GG14 PDF p881"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
       "id": "p2-autacoids-006",
       "type": "basic",
       "front": "Why were terfenadine and astemizole withdrawn, and how does fexofenadine avoid this problem?",
@@ -616,7 +632,7 @@
       "id": "p2-autacoids-068",
       "type": "basic",
       "front": "Why cyproheptadine is given for SSRI-induced priapism or delayed orgasm",
-      "back": "Cyproheptadine blocks 5-HT2A receptors. This reverses the excess serotonergic effect that causes priapism or delayed orgasm with fluoxetine and trazodone. It also has H1 and anticholinergic actions, so it causes drowsiness, dry mouth, confusion and weight gain.",
+      "back": "Cyproheptadine blocks 5-HT2A receptors. This reverses the excess serotonergic effect that causes priapism or delayed orgasm with fluoxetine and trazodone. It also has H1 and anticholinergic actions, so it causes drowsiness, dry mouth and weight gain.",
       "refs": [
         "KDT8 ch12"
       ],
@@ -3131,6 +3147,487 @@
       "tags": [
         "mechanism",
         "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-autacoids-106",
+      "type": "basic",
+      "front": "How does prostacyclin (PGI2) relax pulmonary arterial smooth muscle?",
+      "back": "It binds the IP receptor, activates Gs and adenylyl cyclase to raise cAMP. PKA signalling lowers cytosolic Ca2+, and cAMP's antiproliferative and anticoagulant effects also help in PAH.",
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p717"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-107",
+      "type": "basic",
+      "front": "What is the NO-cGMP pathway in the pulmonary circulation, and which enzyme breaks cGMP down?",
+      "back": "NO stimulates soluble guanylate cyclase to form cGMP, which relaxes pulmonary artery smooth muscle and has antiproliferative effects. PDE5, which is abundant in these cells, degrades cGMP.",
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p716"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-108",
+      "type": "basic",
+      "front": "Sildenafil in PAH: class, dose and place in therapy",
+      "back": "A selective PDE5 inhibitor, given orally. The printed dose is 20 mg three times daily, titrated to 40 to 80 mg three times daily. It is first-line for moderate PAH (functional class II to III).",
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p717",
+        "GG14 PDF p722"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-109",
+      "type": "basic",
+      "front": "Why must PDE5 inhibitors never be combined with nitrates?",
+      "back": "Both raise cGMP signalling, so the combination can cause dangerously low blood pressure. CYP3A inhibitors also raise sildenafil levels by slowing its metabolism.",
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p717"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-110",
+      "type": "basic",
+      "front": "Riociguat: class and approved use",
+      "back": "An sGC stimulator. It sensitises sGC to endogenous NO and also stimulates the enzyme directly. It is approved for PAH, was also effective in CTEPH, and is teratogenic (FDA REMS for women).",
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p716"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-111",
+      "type": "basic",
+      "front": "Riociguat: main cautions",
+      "back": "Co-use with nitroglycerin or PDE5 inhibitors can cause severe hypotension and syncope. It is contraindicated in PH with idiopathic interstitial pneumonias, and is not recommended if creatinine clearance is below 15 mL/min or on dialysis.",
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p717"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "contraindications",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-112",
+      "type": "basic",
+      "front": "What does endothelin-1 do in pulmonary hypertension?",
+      "back": "ET-1 is a potent vasoconstrictor released by endothelial cells, and it also drives smooth muscle proliferation. Sustained overproduction of endothelins is implicated in PAH.",
+      "refs": [
+        "GG14 PDF p714",
+        "KDT8 PDF p559"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-113",
+      "type": "basic",
+      "front": "Oral endothelin receptor antagonists used in PAH",
+      "back": "Bosentan, ambrisentan and macitentan. Each is first-line for moderate PAH (functional class II to III) and is teratogenic (FDA REMS programme).",
+      "refs": [
+        "GG14 PDF p722"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-114",
+      "type": "basic",
+      "front": "Bosentan: monitoring and interaction to remember",
+      "back": "Liver transaminases must be monitored closely, and it is contraindicated in moderate-to-severe liver disease. It reduces the effectiveness of hormonal contraceptives. It is metabolised mainly by CYP2C9 and CYP3A4.",
+      "refs": [
+        "GG14 PDF p722"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-115",
+      "type": "basic",
+      "front": "Which calcium channel blockers are used in PAH, and when?",
+      "back": "Nifedipine (long-acting), amlodipine, diltiazem and verapamil, but only in patients with a positive acute vasodilator test. The test uses inhaled NO (10 ppm for 10 min); a 30% fall in PVR is associated with a good CCB response.",
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p716",
+        "GG14 PDF p724"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-116",
+      "type": "basic",
+      "front": "What must be monitored when titrating CCBs in PAH?",
+      "back": "Systemic blood pressure, heart rate and oxygen saturation. Systemic hypotension is the main concern, and loss of hypoxic pulmonary vasoconstriction can worsen V/Q mismatch.",
+      "refs": [
+        "GG14 PDF p724",
+        "GG14 PDF p722"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-117",
+      "type": "basic",
+      "front": "Inhaled nitric oxide: main clinical uses",
+      "back": "It is used in term and near-term neonates with persistent PH of the newborn and in acute hypoxaemic respiratory failure. In adults with PAH it is used off-label for acute vasodilator testing.",
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p716"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-118",
+      "type": "basic",
+      "front": "Inhaled nitric oxide: safety monitoring",
+      "back": "Doses of 500 to 1000 ppm can be lethal, and doses below 40 ppm are well tolerated chronically. Methaemoglobin rises at higher doses; NO2 above 3 ppm or methaemoglobin above 7% means reducing or stopping the drug.",
+      "refs": [
+        "GG14 PDF p717"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-119",
+      "type": "basic",
+      "front": "Treprostinil: class, routes and key use",
+      "back": "A PGI2 analogue with a longer half-life than epoprostenol. It can be given IV, subcutaneously, by inhalation or orally, and is first-line for PH due to interstitial lung disease.",
+      "refs": [
+        "GG14 PDF p718",
+        "GG14 PDF p722"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-120",
+      "type": "basic",
+      "front": "Oral treprostinil: the tablet-shell caution",
+      "back": "The tablet shell does not dissolve, so it can be seen in stool and may lodge in intestinal blind-end pouches or diverticula, with a possible link to appendicitis and diverticulitis. It is a CYP2C8 substrate, so gemfibrozil and rifampin interact.",
+      "refs": [
+        "GG14 PDF p720",
+        "GG14 PDF p722"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-121",
+      "type": "basic",
+      "front": "Inhaled iloprost: dosing and adverse effects",
+      "back": "Given 6 to 9 inhalations daily, with the dose titrated up after the first 2 to 4 weeks. Cough and bronchospasm are specific to the inhaled form, and it must not be swallowed or allowed to contact skin or eyes.",
+      "refs": [
+        "GG14 PDF p720"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "dosing",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-122",
+      "type": "basic",
+      "front": "Selexipag: pharmacokinetics that set its dosing",
+      "back": "An oral, selective IP receptor agonist. The parent drug is hydrolysed quickly to an active metabolite with a half-life of 10 to 14 h, which allows twice-daily dosing. It is a substrate of CYP2C8, CYP3A4 and P-glycoprotein, and is contraindicated with strong CYP2C8 inhibitors.",
+      "refs": [
+        "GG14 PDF p720",
+        "GG14 PDF p722"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "pk",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-autacoids-123",
+      "type": "cloze",
+      "front": "Classify: drugs for pulmonary arterial hypertension by pathway",
+      "text": "cGMP modulators: {{sildenafil}}, {{tadalafil}}, {{vardenafil}}, {{riociguat}}; prostacyclin analogues and receptor agonists: {{epoprostenol}}, {{treprostinil}}, {{iloprost}}, {{selexipag}}; endothelin receptor antagonists: {{bosentan}}, {{ambrisentan}}, {{macitentan}}; calcium channel blockers (vasodilator responders): {{nifedipine}}, {{amlodipine}}, {{diltiazem}}, {{verapamil}}.",
+      "refs": [
+        "GG14 PDF p722",
+        "GG14 PDF p724"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-autacoids-124",
+      "type": "essay",
+      "front": "Essay: Pharmacotherapy of pulmonary hypertension (10 marks)",
+      "sections": [
+        {
+          "h": "Definition and types",
+          "points": [
+            "PH: mean pulmonary arterial pressure above 20 mmHg at rest",
+            "PAH is a primary vascular disease; other groups are secondary to left heart, lung disease, or clots (CTEPH)",
+            "Untreated median survival about 2.8 years; about 9 years with modern therapy"
+          ]
+        },
+        {
+          "h": "Pathogenesis",
+          "points": [
+            "Sustained vasoconstriction, concentric remodelling, in situ thrombosis, and vascular stiffening",
+            "Imbalance: less NO and PGI2, more ET-1 and thromboxane A2"
+          ]
+        },
+        {
+          "h": "Drug classes",
+          "points": [
+            "cGMP: PDE5 inhibitors (sildenafil, tadalafil) and sGC stimulator riociguat",
+            "Prostacyclin analogues: epoprostenol (IV pump), treprostinil, iloprost (inhaled), selexipag (oral)",
+            "Endothelin antagonists: bosentan, ambrisentan, macitentan",
+            "CCBs only in vasodilator-test responders; inhaled NO for acute testing and newborn PPHN"
+          ]
+        },
+        {
+          "h": "Choosing therapy",
+          "points": [
+            "Moderate PAH (class II to III): PDE5 inhibitor, ERA or riociguat as first-line",
+            "Severe PAH (class IV): epoprostenol, with iloprost or selexipag as alternatives in combination",
+            "Teratogenicity (ERAs, riociguat) and interactions (nitrates, CYP inhibitors) limit use"
+          ]
+        },
+        {
+          "h": "Newer and investigational",
+          "points": [
+            "Sotatercept (activin ligand trap), fasudil (Rho kinase), rapamycin derivatives, metformin (AMPK) are in development or trials"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch35",
+        "GG14 PDF p713",
+        "GG14 PDF p717",
+        "GG14 PDF p722",
+        "GG14 PDF p721"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2024,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-autacoids-125",
+      "type": "shortnote",
+      "front": "Short note: Investigational drugs in pulmonary arterial hypertension",
+      "sections": [
+        {
+          "h": "Activin pathway",
+          "points": [
+            "Sotatercept: TGF-beta/activin ligand trap, still in development"
+          ]
+        },
+        {
+          "h": "Other targets",
+          "points": [
+            "Fasudil: Rho kinase inhibitor",
+            "Rapamycin derivatives (sirolimus, everolimus): PI3K/Akt/mTOR inhibition",
+            "Metformin: AMPK modulator",
+            "Inhibitors of pyruvate dehydrogenase kinase and Notch signalling"
+          ]
+        },
+        {
+          "h": "Status",
+          "points": [
+            "Some are in phase III trials; others are preclinical"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p721",
+        "GG14 PDF p724"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-autacoids-prostanoid-actions",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-autacoids-126",
+      "type": "essay",
+      "front": "Essay: Recent advances in management of migraine (10 marks)",
+      "sections": [
+        {
+          "h": "Pathogenesis",
+          "points": [
+            "5-HT is a key mediator; plasma and platelet 5-HT concentrations vary",
+            "CGRP, a potent vasodilator and proinflammatory peptide, is now a therapeutic target"
+          ]
+        },
+        {
+          "h": "Acute treatment",
+          "points": [
+            "Triptans (5-HT1B/1D agonists): effective acute drugs, not for prophylaxis",
+            "Lasmiditan: 5-HT1F agonist for acute migraine with fewer cardiovascular events than triptans",
+            "Serotonin syndrome risk when combined with SSRIs or SNRIs"
+          ]
+        },
+        {
+          "h": "CGRP-targeted drugs",
+          "points": [
+            "Rimegepant: small-molecule CGRP receptor antagonist",
+            "Erenumab (receptor antibody), fremanezumab and galcanezumab (CGRP antibodies)",
+            "Erenumab is given subcutaneously once a month to reduce attack frequency"
+          ]
+        },
+        {
+          "h": "Prophylaxis",
+          "points": [
+            "Propranolol (a beta-blocker) is the most commonly used prophylactic drug; anticonvulsants are used when patients are refractory or propranolol is contraindicated",
+            "CGRP-targeting antibodies are also used for migraine prophylaxis"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p311",
+        "GG14 PDF p312",
+        "GG14 PDF p321",
+        "KDT8 PDF p210"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-autacoids-migraine",
+      "tags": [
+        "newer-drugs"
       ],
       "level": 3
     }

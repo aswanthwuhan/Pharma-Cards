@@ -541,3 +541,78 @@ rf-p3-amr-general-0080 | regrounded | KDT8 ch51; Satoskar PDF p1077 | ciprofloxa
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: C. difficile first choice: KDT8 ch55 places oral vancomycin second to metronidazole; the existing card 'C. difficile colitis: drugs of choice' (oral vancomycin or fidaxomicin preferred) is kept from the newer source. Logged, not reconciled.
 - Unsourced cards in this pass: none.
+
+## Ladder pass: new rapid cards
+| id | status | source |
+|---|---|---|
+| rf-p3-amr-general-0557 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0558 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0559 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0560 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0561 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0562 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0563 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0564 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0565 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0566 | new | KDT8 ch50/51/52 |
+| rf-p3-amr-general-0567 | new | KDT8 ch50/51/52 |
+
+## Checker
+- Rapid deck not changed; no Prep/RR5 refs found; validator clean for this topic.
+
+## Checker (haiku-requested pass)
+- Re-verified rapid 0557-0567 against KDT8 ch50-52. All correct. No deletions.
+
+## PYQ gap cards (new)
+
+| id | new | source |
+|---|---|---|
+| rf-p3-amr-general-0568 | new | KDT8 ch50 |
+| rf-p3-amr-general-0569 | new | KDT8 ch50 |
+| rf-p3-amr-general-0570 | new | KDT8 ch50 |
+| rf-p3-amr-general-0571 | new | KDT8 ch50 |
+| rf-p3-amr-general-0572 | new | KDT8 ch50 |
+| rf-p3-amr-general-0573 | new | KDT8 ch52 |
+| rf-p3-amr-general-0574 | new | KDT8 ch52 |
+| rf-p3-amr-general-0575 | new | GG14 ch58 |
+| rf-p3-amr-general-0576 | new | GG14 ch58 |
+| rf-p3-amr-general-0577 | new | GG14 ch58 |
+| rf-p3-amr-general-0578 | new | GG14 ch58 |
+| rf-p3-amr-general-0579 | new | GG14 ch58 |
+| rf-p3-amr-general-0580 | new | KDT8 ch50 |
+| rf-p3-amr-general-0581 | new | KDT8 ch50 |
+| rf-p3-amr-general-0582 | new | KDT8 ch50 |
+| rf-p3-amr-general-0583 | new | KDT8 ch50 |
+| rf-p3-amr-general-0584 | new | KDT8 ch50 |
+| rf-p3-amr-general-0585 | new | KDT8 ch50 |
+| rf-p3-amr-general-0586 | new | KDT8 ch50 |
+| rf-p3-amr-general-0587 | new | KDT8 ch50, KDT8 ch52 |
+| rf-p3-amr-general-0588 | new | KDT8 ch50 |
+| rf-p3-amr-general-0589 | new | KDT8 ch50 |
+| rf-p3-amr-general-0590 | new | KDT8 ch50 |
+| rf-p3-amr-general-0591 | new | GG14 ch58 |
+| rf-p3-amr-general-0592 | new | GG14 ch58 |
+| rf-p3-amr-general-0593 | new | GG14 ch58 |
+| rf-p3-amr-general-0594 | new | KDT8 ch50 |
+| rf-p3-amr-general-0595 | new | KDT8 ch50 |
+| rf-p3-amr-general-0596 | new | KDT8 ch50 |
+| rf-p3-amr-general-0597 | new | KDT8 ch55 |
+| rf-p3-amr-general-0598 | new | KDT8 ch55 |
+| rf-p3-amr-general-0599 | new | KDT8 ch55 |
+| rf-p3-amr-general-0600 | new | KDT8 ch51 |
+| rf-p3-amr-general-0601 | new | KDT8 ch55 |
+| rf-p3-amr-general-0602 | new | KDT8 ch55 |
+| rf-p3-amr-general-0603 | new | KDT8 ch55 |
+| rf-p3-amr-general-0604 | new | KDT8 ch55 |
+| rf-p3-amr-general-0605 | new | KDT8 ch55 |
+| rf-p3-amr-general-0606 | new | KDT8 ch55 |
+| rf-p3-amr-general-0607 | new | KDT8 ch55 |
+| rf-p3-amr-general-0608 | new | KDT8 ch55 |
+
+## Checker (PYQ gap pass)
+- rf-0601 corrected: early syphilis regimen now both listed regimens (KDT8 ch55 Table 55.1; KDT8 ch52 p.102). Old card named benzathine "drug of choice".
+- rf-0602 corrected: procaine penicillin G i.m. daily 10 days (KDT8 ch52) is one regimen, not "the alternative".
+- Other rf-0568 to rf-0608 checked against KDT8 ch50, ch51, ch55 and GG14 ch58 (pp. 1178-1180). Confirmed. No deletions. No Prep/RR5 refs.
+
+## Nosocomial and newer FQ gap pass (2026-11-03)
+Added rf-p3-amr-general-0609 to 0615 for nosocomial management: cefotaxime/ceftizoxime plus vancomycin (KDT8 PDF p792), amikacin reserve (KDT8 PDF p810), meropenem plus aminoglycoside for Pseudomonas (KDT8 PDF p793), FQ plus beta-lactam for high-risk nosocomial pneumonia (GG14 PDF p1162), linezolid for HAP (KDT8 PDF p818), quinupristin/dalfopristin reserve (KDT8 PDF p819), antipseudomonal cephalosporins (GG14 PDF p1177). Newer FQ facts (prulifloxacin, gemifloxacin dose, levofloxacin) already present in rapid deck; not duplicated. No Prep/RR5 refs.

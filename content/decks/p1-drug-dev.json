@@ -3,174 +3,466 @@
   "source": "KDT8 ch5",
   "cards": [
     {
-      "id": "p1-drug-dev-001",
-      "type": "basic",
-      "front": "What are the three main strategies for individualising drug dose?",
-      "back": "1) Standard dose: one fixed dose suits most patients (wide safety margin, e.g. penicillin). 2) Regulated dose: titrated against a measurable physiological response (e.g. antihypertensives, diuretics). 3) Target-level dose: aimed at a plasma concentration range and adjusted by drug-level monitoring (e.g. digoxin, phenytoin, lithium).",
+      "id": "p1-drug-dev-025",
+      "type": "cloze",
+      "front": "Sequence of stages in new drug development",
+      "text": "Synthesis/isolation, then {{preclinical}} studies, then permission for {{clinical}} trials, formulation and standardisation, then phase I-III trials, then {{marketing}} permission, then phase {{IV}} surveillance.",
       "refs": [
         "KDT8 ch5"
       ],
-      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-drug-dev-dose-individualisation",
+      "subtopic": "p1-drug-dev-development",
       "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-drug-dev-002",
-      "type": "basic",
-      "front": "Why is body weight or body surface area used for dosing in children and very obese or lean adults?",
-      "back": "Adult doses assume a medium build. Paediatric and atypical-build doses are scaled to body weight (weight / 70 x adult dose). BSA is physiologically closer to water and metabolic mass but has limited dosing data, so weight is the usual index (BSA is used mainly for anticancer drugs). Dubois: BSA = 0.007184 x W^0.425 x H^0.725.",
-      "refs": [
-        "KDT8 ch5"
+        "classification"
       ],
       "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-special-populations",
-      "tags": [
-        "dosing"
-      ]
+      "level": 1
     },
     {
-      "id": "p1-drug-dev-003",
-      "type": "basic",
-      "front": "How should the dose of a renally excreted drug be altered in renal impairment?",
-      "back": "Loading dose is generally kept unchanged (unless oedema is present). The maintenance dose is reduced in proportion to creatinine clearance, or the dosing interval is lengthened. Examples: aminoglycosides, digoxin, phenobarbitone. Drugs partly excreted unchanged need smaller reductions.",
-      "refs": [
-        "KDT8 ch5"
+      "id": "p1-drug-dev-028",
+      "type": "shortnote",
+      "front": "Short note: Orphan drugs",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Drugs or biologicals for diagnosis, treatment or prevention of a rare disease, or of a common disease endemic only in resource-poor areas",
+            "No reasonable expectation that development costs will be recovered from sales"
+          ]
+        },
+        {
+          "h": "Why special",
+          "points": [
+            "Life-saving for some patients but commercially hard to bring to market",
+            "Governments give incentives (USA Orphan Drug Act 1983: rare = fewer than 0.2 million people)"
+          ]
+        }
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-dose-individualisation",
-      "tags": [
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-drug-dev-004",
-      "type": "basic",
-      "front": "Why is chloramphenicol dangerous in neonates (grey baby syndrome)?",
-      "back": "Neonatal hepatic conjugation (glucuronidation) is immature, so the drug accumulates. Result: abdominal distension, vasomotor collapse, cyanosis and grey skin. Also, the newborn has low GFR and immature tubular function, which prolongs half-life of renally cleared drugs.",
       "refs": [
-        "KDT8 ch5"
+        "KDT8 PDF p24"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-special-populations",
+      "subtopic": "p1-drug-dev-development",
       "tags": [
-        "adr",
-        "pk"
-      ]
+        "classification"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 1
     },
     {
-      "id": "p1-drug-dev-005",
+      "id": "p1-drug-dev-032",
       "type": "basic",
-      "front": "Which drugs are classically linked to haemolysis in G6PD deficiency, and how is the trait inherited?",
-      "back": "X-linked monogenic trait, commoner in Mediterranean, African and Southeast Asian people. Oxidising drugs trigger haemolysis, e.g. primaquine, dapsone, sulfonamides/cotrimoxazole, nitrofurantoin, chloramphenicol, quinine, methylene blue. Haemolysis is largely dose-related, and its severity varies with the gene variant (worst in homozygous deficient individuals).",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-pharmacogenetics",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-drug-dev-006",
-      "type": "basic",
-      "front": "Why does codeine fail to relieve pain in some patients? (CYP2D6)",
-      "back": "Codeine is a prodrug: CYP2D6 converts it to morphine, which gives the analgesia. Poor CYP2D6 metabolisers form little morphine, so analgesia is absent. Ultrarapid metabolisers form excess morphine and may develop overdose features, including respiratory depression and death.",
-      "refs": [
-        "KDT8 ch5",
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-pharmacogenetics",
-      "tags": [
-        "mechanism",
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-dev-007",
-      "type": "basic",
-      "front": "What is the pharmacogenetic risk with TPMT deficiency?",
-      "back": "Low thiopurine methyltransferase activity raises the risk of severe bone marrow toxicity with 6-mercaptopurine and azathioprine. Poor-metaboliser status for NUDT15 has the same effect; TPMT poor metabolisers are rare in East Asians, who instead more often carry NUDT15 variants.",
-      "refs": [
-        "KDT8 ch5",
-        "GG14 ch7"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-pharmacogenetics",
-      "tags": [
-        "adr",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-drug-dev-008",
-      "type": "basic",
-      "front": "Define placebo and nocebo, and name one placebo use in a trial.",
-      "back": "Placebo: an inert substance given as if it were active; its effect comes from the therapeutic setting and expectation (psychodynamic). Nocebo: a negative response driven by pessimism or loss of faith in the drug or doctor. A placebo serves as the dummy control in a clinical trial.",
+      "front": "What are the main ways a new drug is discovered?",
+      "back": "Natural sources (plants: opium, cinchona, ephedra; animals: insulin, thyroxine; microbes: penicillin), random chemical synthesis (rarely used now because the chance of hitting the wanted activity is very low), modification of a known lead compound, and rational target-based design aided by molecular modelling, combinatorial chemistry and biotechnology (recombinant DNA drugs). The trend is from chance finds toward designing against a known target.",
       "refs": [
         "KDT8 ch5"
       ],
       "pyq": [
         {
-          "university": "WBUHS",
-          "year": 2020,
+          "university": "RGUHS",
+          "year": 2024,
           "marks": 10
         },
         {
-          "university": "KNRUHS",
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-033",
+      "type": "basic",
+      "front": "What is a lead compound and what is lead optimisation? Give examples.",
+      "back": "A lead is a compound with some wanted activity but imperfect properties. Lead optimisation makes congeners to raise potency or selectivity and cut toxicity, guided by structure-activity relationships. Examples: acetazolamide led to thiazide diuretics; phenothiazines to tricyclic antidepressants; histamine (side chain changed) to H2 blockers; isoprenaline to selective beta-2 agonists and beta blockers.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-017",
+      "type": "shortnote",
+      "front": "Short note: Preclinical safety testing of a new drug",
+      "sections": [
+        {
+          "h": "Pharmacological screening",
+          "points": [
+            "Primary activity in vitro and in animal models",
+            "Systemic pharmacology and mechanism of action",
+            "Animal pharmacokinetics"
+          ]
+        },
+        {
+          "h": "Systemic toxicity",
+          "points": [
+            "Acute: single escalating doses, animals observed 1-3 days; LD50 calculated; histopathology",
+            "Subacute: repeated doses for 2-12 weeks (by intended human duration)",
+            "Chronic: 6-12 months, usually alongside early clinical trials"
+          ]
+        },
+        {
+          "h": "Special toxicity",
+          "points": [
+            "Reproduction and teratogenicity: spermatogenesis, ovulation, fertility, foetus",
+            "Mutagenicity: Ames test, mammalian cell cultures and intact rodents",
+            "Carcinogenicity: long-term (lifetime) dosing in animals"
+          ]
+        },
+        {
+          "h": "Conduct",
+          "points": [
+            "At least two species (one rodent, one non-rodent), oral and parenteral routes",
+            "Good Laboratory Practice (GLP) standards"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-029",
+      "type": "shortnote",
+      "front": "Short note: Drug repositioning (repurposing)",
+      "sections": [
+        {
+          "h": "Meaning",
+          "points": [
+            "Finding a new indication for an existing drug",
+            "Also called repurposing"
+          ]
+        },
+        {
+          "h": "Genetic route",
+          "points": [
+            "Phenome-wide association study (PheWAS) starts from a genetic variant and asks which phenotypes it links to",
+            "Associations with variants in drug-target genes suggest new indications for existing drugs",
+            "The same approach can predict adverse effects of available or new drugs"
+          ]
+        },
+        {
+          "h": "After approval",
+          "points": [
+            "Phase IV postmarketing studies give information on new indications, risks, and optimal doses and schedules"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p159",
+        "GG14 PDF p33"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
           "year": 2025,
           "marks": 10
         }
       ],
       "status": "draft",
-      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-034",
+      "type": "basic",
+      "front": "Why are single-enantiomer drugs developed in place of racemates?",
+      "back": "The two enantiomers of a chiral drug can differ in activity: the inactive one may add side effects, toxicity or metabolic load, or even oppose the active one (dextro-dopa is more toxic than levodopa). Regulators therefore test enantiomers separately and withhold approval of a racemate unless the pure enantiomer is no better. Examples: esomeprazole, escitalopram, levofloxacin, S-amlodipine, cisatracurium.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-035",
+      "type": "basic",
+      "front": "Why must animal toxicity be studied in two species, and which special toxicity tests follow the systemic tests?",
+      "back": "Species differ in drug handling and sensitivity (rabbits resist atropine, rats and mice resist digitalis), so at least one rodent and one non-rodent are used before results are extrapolated to humans. Systemic tests run acute, subacute and chronic. Special tests then check reproduction and teratogenicity, mutagenicity (Ames test, cell cultures) and carcinogenicity (long-term dosing). Studies follow Good Laboratory Practice.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-019",
+      "type": "essay",
+      "front": "Essay: Stages of new drug development from discovery to post-marketing",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Complex, costly, risky: at least 10 years and 500-1000 million US dollars per drug",
+            "Most candidates fail along the way"
+          ]
+        },
+        {
+          "h": "Discovery",
+          "points": [
+            "Natural sources: opium, ephedra, cinchona, curare, belladonna, qinghaosu",
+            "Modification of known drugs; lead optimisation",
+            "Rational target-based design, molecular modelling, biotechnology"
+          ]
+        },
+        {
+          "h": "Preclinical studies (2-4 years)",
+          "points": [
+            "Screening, systemic pharmacology, animal pharmacokinetics",
+            "Acute, subacute and chronic toxicity",
+            "Reproductive, mutagenic and carcinogenic testing under GLP"
+          ]
+        },
+        {
+          "h": "Regulatory entry to humans",
+          "points": [
+            "Investigational new drug (IND) permission from the regulatory authority",
+            "Ethics committee approval; GCP (ICH); national ethical guidelines (ICMR in India); Declaration of Helsinki"
+          ]
+        },
+        {
+          "h": "Clinical phases (3-10 years)",
+          "points": [
+            "Phase 0 (optional microdosing)",
+            "Phase I: safety and pharmacokinetics",
+            "Phase II: efficacy and dose range",
+            "Phase III: confirmatory comparative trials, then NDA"
+          ]
+        },
+        {
+          "h": "Marketing and after",
+          "points": [
+            "Review and marketing permission (0.5-2 years); restricted permission for toxic but useful drugs",
+            "Phase IV post-marketing surveillance; new indications, dosage forms and combinations"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-036",
+      "type": "basic",
+      "front": "Compare serendipity, lead modification and rational design as routes to a new drug, with an example of each.",
+      "back": "Serendipity: activity found by chance in random synthesis or screening (barbiturates, chlorpromazine); a poor hit rate, so little used now. Lead modification: improve a known molecule (acetazolamide to thiazides, histamine to H2 blockers); predictable, gives me-better drugs. Rational design: start from a known target or disease mechanism (COX-2 structure gave selective COX-2 inhibitors; reverse transcriptase gave anti-HIV drugs; striatal dopamine deficiency gave levodopa); can open a truly new class, but needs the target identified first. Every route then passes through the same preclinical and clinical gates.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
       "tags": [
         "classification",
-        "uses"
-      ]
+        "newer-drugs"
+      ],
+      "level": 3
     },
     {
-      "id": "p1-drug-dev-009",
-      "type": "basic",
-      "front": "What is tachyphylaxis and which drugs show it most?",
-      "back": "Rapid loss of response when doses are repeated closely. It is seen most with indirect sympathomimetics (ephedrine, tyramine, nicotine), which work by releasing catecholamines; the stores are depleted faster than they are refilled.",
+      "id": "p1-drug-dev-018",
+      "type": "cloze",
+      "front": "The four grades of strength of clinical evidence",
+      "text": "Grade I = {{systematic reviews / meta-analyses}}; Grade II = {{well-powered randomised controlled trials}}; Grade III = {{open-label, pilot and observational (cohort, case-control) studies}}; Grade IV = {{case reports and anecdotal experience}}.",
       "refs": [
         "KDT8 ch5"
       ],
-      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "subtopic": "p1-drug-dev-clinical-trials",
       "tags": [
-        "adr",
-        "mechanism"
-      ]
+        "classification"
+      ],
+      "pyq": [],
+      "level": 1
     },
     {
-      "id": "p1-drug-dev-010",
-      "type": "basic",
-      "front": "What is the difference between pharmacokinetic and pharmacodynamic tolerance?",
-      "back": "Pharmacokinetic tolerance: less drug reaches the site, usually because elimination is enhanced, e.g. enzyme induction by barbiturates and carbamazepine. Pharmacodynamic (cellular) tolerance: target cells become less responsive, e.g. morphine, barbiturates, nitrates; due to receptor desensitisation or down-regulation, or weaker response effectuation.",
+      "id": "p1-drug-dev-022",
+      "type": "cloze",
+      "front": "The phases of clinical trials",
+      "text": "Phase {{I}} = first human study, safety and pharmacokinetics; Phase {{II}} = therapeutic exploration and dose ranging; Phase {{III}} = randomised confirmatory comparison; Phase {{IV}} = post-marketing surveillance.",
       "refs": [
         "KDT8 ch5"
       ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-023",
+      "type": "cloze",
+      "front": "Clinical study designs in drug research",
+      "text": "The three types of clinical study are {{clinical trial}}, {{cohort study}} and {{case-control study}}. A cohort study compares outcomes in users and {{non-users}} of a drug.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "classification"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
       "pyq": [],
       "status": "draft",
-      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "id": "p1-drug-dev-026",
+      "type": "basic",
+      "front": "What is a phase 0 (microdosing) study?",
+      "back": "An optional exploratory study before phase I. A sub-pharmacological microdose (about 1/100 of the expected therapeutic dose, at most 100 micrograms) is given to a few healthy volunteers, and ultra-low drug levels are measured by accelerator mass spectrometry or LC-MS/MS. Purpose: early human pharmacokinetics to drop poor candidates cheaply. Limitation: kinetics at microdoses may not match therapeutic doses; it gives no efficacy or safety data.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "subtopic": "p1-drug-dev-clinical-trials",
       "tags": [
         "pk",
-        "mechanism"
-      ]
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-038",
+      "type": "basic",
+      "front": "What is a clinical trial, and what must be in place before it begins?",
+      "back": "A prospective, ethical study in humans that compares groups treated in different ways to answer a precise question. Before it starts: approval by an independent ethics committee under Good Clinical Practice (ICH) and national (ICMR) guidelines, consistent with the Declaration of Helsinki, and written informed consent from every participant. The committee checks autonomy, beneficence, non-maleficence and justice.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-dev-011",
@@ -185,7 +477,8 @@
       "subtopic": "p1-drug-dev-clinical-trials",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-drug-dev-012",
@@ -201,7 +494,8 @@
       "tags": [
         "classification",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-drug-dev-013",
@@ -277,342 +571,130 @@
           "year": 2020,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-drug-dev-014",
+      "id": "p1-drug-dev-031",
       "type": "shortnote",
-      "front": "Short note: Pharmacogenetics in drug therapy",
+      "front": "Short note: Off-label use of drugs",
       "sections": [
         {
-          "h": "Definition",
+          "h": "Meaning",
           "points": [
-            "Pharmacogenetics: genetic basis of variable drug response",
-            "Pharmacogenomics: use of genetic information to guide choice of drug and dose"
+            "Prescribing a drug for a use outside the package-insert indication",
+            "The physician is not bound by the package insert"
           ]
         },
         {
-          "h": "Mechanisms",
+          "h": "Legal and payment position",
           "points": [
-            "Polymorphisms of drug-metabolising enzymes (CYP2D6, CYP2C9, CYP2C19, NAT2, TPMT, pseudocholinesterase)",
-            "Variants of drug targets (VKORC1 for warfarin) and transporters (P-gp)",
-            "HLA alleles causing immune hypersensitivity; enzyme deficiencies such as G6PD"
+            "In the US a physician may legally prescribe a drug for any purpose judged reasonable",
+            "Third-party payers generally do not reimburse off-label use unless a named compendium supports the new use"
           ]
         },
         {
-          "h": "Clinical examples",
+          "h": "Risks",
           "points": [
-            "Succinylcholine apnoea: atypical pseudocholinesterase",
-            "Warfarin bleeding and lower dose need: CYP2C9 and VKORC1 variants",
-            "Clopidogrel (prodrug) ineffective in CYP2C19 poor metabolisers: use an alternative antiplatelet",
-            "Isoniazid neuropathy; hydralazine and procainamide lupus: slow acetylators",
-            "Carbamazepine and phenytoin with HLA-B*15:02 (East and South Asians); abacavir with HLA-B*57:01; allopurinol with HLA-B*58:01",
-            "Malignant hyperthermia after halothane: ryanodine receptor defect"
+            "Physician may face litigation if harm follows an unapproved use",
+            "Company promotion must stay within the package insert"
           ]
         },
         {
-          "h": "Limits",
+          "h": "Example",
           "points": [
-            "Monogenic traits predict response well; polygenic traits poorly"
+            "Rofecoxib was approved for acute pain for up to 5 days but was widely prescribed off-label for chronic pain",
+            "The high dose (50 mg/day) was linked to a 5-fold increase in myocardial infarction risk"
           ]
         }
       ],
       "refs": [
-        "KDT8 ch5",
-        "GG14 ch7"
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-pharmacogenetics",
-      "tags": [
-        "adr",
-        "mechanism"
+        "GG14 PDF p33",
+        "GG14 PDF p166"
       ],
       "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        },
         {
           "university": "KNRUHS",
-          "year": 2025,
+          "year": 2026,
           "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p1-drug-dev-015",
-      "type": "shortnote",
-      "front": "Short note: Dose adjustment in children and the elderly",
-      "sections": [
-        {
-          "h": "Children",
-          "points": [
-            "Dose by body weight; infant absorption and skin permeability differ",
-            "Immature renal function prolongs elimination of renally cleared drugs",
-            "Grey baby syndrome with chloramphenicol",
-            "Faster metabolism after infancy: shorter half-life, higher mg/kg dose"
-          ]
         },
-        {
-          "h": "Elderly",
-          "points": [
-            "Falling GFR with age; reduce renally cleared drugs",
-            "Reduced hepatic metabolism and liver blood flow; risk of cumulative toxicity",
-            "Lower albumin: changed protein binding",
-            "Higher sensitivity to CNS and anticholinergic effects; more drug interactions (polypharmacy)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-special-populations",
-      "tags": [
-        "dosing",
-        "pk"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-drug-dev-016",
-      "type": "shortnote",
-      "front": "Short note: Tolerance and refractoriness",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Tolerance: a larger dose is needed to produce the same effect",
-            "Refractoriness: loss of efficacy after prolonged or intensive use (sulfonylureas in type 2 diabetes; beta-2 agonists in asthma)"
-          ]
-        },
-        {
-          "h": "Types",
-          "points": [
-            "Natural: inherent low sensitivity (rabbits to atropine; some people to alcohol)",
-            "Acquired: repeated use; obvious with CNS depressants; little or none with atropine, digoxin, cocaine, nitroprusside",
-            "Cross tolerance between related drugs (alcoholics to barbiturates and general anaesthetics)",
-            "Tachyphylaxis: rapid tolerance on closely repeated doses (ephedrine, tyramine, nicotine)"
-          ]
-        },
-        {
-          "h": "Mechanisms",
-          "points": [
-            "Pharmacokinetic: enzyme induction, faster elimination",
-            "Pharmacodynamic: receptor desensitisation or down-regulation, weaker response effectuation, homeostatic adaptation"
-          ]
-        },
-        {
-          "h": "Clinical point: unequal tolerance",
-          "points": [
-            "Chlorpromazine: to sedation but not antipsychotic action",
-            "Phenobarbitone: to sedation more than antiepileptic action",
-            "Morphine: to analgesia and euphoria more than to constipation and miosis"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-tolerance-placebo",
-      "tags": [
-        "mechanism",
-        "adr"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-drug-dev-017",
-      "type": "shortnote",
-      "front": "Short note: Preclinical safety testing of a new drug",
-      "sections": [
-        {
-          "h": "Pharmacological screening",
-          "points": [
-            "Primary activity in vitro and in animal models",
-            "Systemic pharmacology and mechanism of action",
-            "Animal pharmacokinetics"
-          ]
-        },
-        {
-          "h": "Systemic toxicity",
-          "points": [
-            "Acute: single escalating doses, animals observed 1-3 days; LD50 calculated; histopathology",
-            "Subacute: repeated doses for 2-12 weeks (by intended human duration)",
-            "Chronic: 6-12 months, usually alongside early clinical trials"
-          ]
-        },
-        {
-          "h": "Special toxicity",
-          "points": [
-            "Reproduction and teratogenicity: spermatogenesis, ovulation, fertility, foetus",
-            "Mutagenicity: Ames test, mammalian cell cultures and intact rodents",
-            "Carcinogenicity: long-term (lifetime) dosing in animals"
-          ]
-        },
-        {
-          "h": "Conduct",
-          "points": [
-            "At least two species (one rodent, one non-rodent), oral and parenteral routes",
-            "Good Laboratory Practice (GLP) standards"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-development",
-      "tags": [
-        "adr",
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-drug-dev-018",
-      "type": "cloze",
-      "front": "The four grades of strength of clinical evidence",
-      "text": "Grade I = {{systematic reviews / meta-analyses}}; Grade II = {{well-powered randomised controlled trials}}; Grade III = {{open-label, pilot and observational (cohort, case-control) studies}}; Grade IV = {{case reports and anecdotal experience}}.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-clinical-trials",
-      "tags": [
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-drug-dev-019",
-      "type": "essay",
-      "front": "Essay: Stages of new drug development from discovery to post-marketing",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Complex, costly, risky: at least 10 years and 500-1000 million US dollars per drug",
-            "Most candidates fail along the way"
-          ]
-        },
-        {
-          "h": "Discovery",
-          "points": [
-            "Natural sources: opium, ephedra, cinchona, curare, belladonna, qinghaosu",
-            "Modification of known drugs; lead optimisation",
-            "Rational target-based design, molecular modelling, biotechnology"
-          ]
-        },
-        {
-          "h": "Preclinical studies (2-4 years)",
-          "points": [
-            "Screening, systemic pharmacology, animal pharmacokinetics",
-            "Acute, subacute and chronic toxicity",
-            "Reproductive, mutagenic and carcinogenic testing under GLP"
-          ]
-        },
-        {
-          "h": "Regulatory entry to humans",
-          "points": [
-            "Investigational new drug (IND) permission from the regulatory authority",
-            "Ethics committee approval; GCP (ICH); national ethical guidelines (ICMR in India); Declaration of Helsinki"
-          ]
-        },
-        {
-          "h": "Clinical phases (3-10 years)",
-          "points": [
-            "Phase 0 (optional microdosing)",
-            "Phase I: safety and pharmacokinetics",
-            "Phase II: efficacy and dose range",
-            "Phase III: confirmatory comparative trials, then NDA"
-          ]
-        },
-        {
-          "h": "Marketing and after",
-          "points": [
-            "Review and marketing permission (0.5-2 years); restricted permission for toxic but useful drugs",
-            "Phase IV post-marketing surveillance; new indications, dosage forms and combinations"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-development",
-      "tags": [
-        "classification"
-      ],
-      "pyq": [
         {
           "university": "RGUHS",
-          "year": 2010,
-          "marks": 20
+          "year": 2021,
+          "marks": 10
         },
         {
           "university": "UHSR",
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
     },
     {
-      "id": "p1-drug-dev-020",
-      "type": "essay",
-      "front": "Essay: Factors that modify drug response and how to individualise therapy",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Variation between patients and within the same patient",
-            "Changes can be quantitative (concentration/effect) or qualitative (allergy, idiosyncrasy)"
-          ]
-        },
-        {
-          "h": "Patient factors",
-          "points": [
-            "Body size, age, sex and pregnancy",
-            "Genetics (pharmacogenetics)",
-            "Disease states: renal, hepatic, cardiac, thyroid"
-          ]
-        },
-        {
-          "h": "Pharmacological factors",
-          "points": [
-            "Tolerance, cumulation and drug interactions",
-            "Route of administration and formulation",
-            "Timing relative to meals and circadian factors"
-          ]
-        },
-        {
-          "h": "Psychological and environmental",
-          "points": [
-            "Placebo and nocebo responses",
-            "Enzyme inducers from diet or smoking"
-          ]
-        },
-        {
-          "h": "Clinical approach",
-          "points": [
-            "Choose drug and dose according to the factors above",
-            "Start with a standard or target-level dose, then adjust by response or drug levels",
-            "Monitor and document response in the individual"
-          ]
-        }
-      ],
+      "id": "p1-drug-dev-039",
+      "type": "basic",
+      "front": "What do randomisation and blinding each control, and how are the common trial designs compared?",
+      "back": "Randomisation (including stratified randomisation by age, sex or severity) balances known and unknown confounders and prevents selection bias. Blinding hides allocation: single-blind keeps the subject unaware, double-blind keeps subject and investigator unaware, with the code held by a third party. Designs: parallel group (test and control run together) versus crossover (each subject is own control, smaller sample, but carry-over effect and only suited to stable chronic disease); sequential and multicentric designs speed results; non-inferiority trials show the new drug is not worse.",
       "refs": [
         "KDT8 ch5"
       ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-dose-individualisation",
-      "tags": [
-        "dosing",
-        "pk"
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
       ],
-      "pyq": []
+      "status": "draft",
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-040",
+      "type": "basic",
+      "front": "How are type I error, type II error, power and sample size related in a trial?",
+      "back": "Type I error is finding a difference that does not exist (its probability is the significance level, e.g. 0.05). Type II error is missing a real difference; power is its complement, so power 0.9 means a 10% chance of missing it. Sample size is calculated from significance level, power, the clinically significant difference and the variability of the end point; a smaller expected difference or greater variation needs more subjects.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
     },
     {
       "id": "p1-drug-dev-021",
@@ -674,20 +756,82 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p1-drug-dev-022",
-      "type": "cloze",
-      "front": "The phases of clinical trials",
-      "text": "Phase {{I}} = first human study, safety and pharmacokinetics; Phase {{II}} = therapeutic exploration and dose ranging; Phase {{III}} = randomised confirmatory comparison; Phase {{IV}} = post-marketing surveillance.",
+      "id": "p1-drug-dev-037",
+      "type": "basic",
+      "front": "A new drug passes phase III but a rare serious adverse effect appears after marketing. Why was it missed and how is it found?",
+      "back": "Phase III enrols only 500-3000 selected patients for limited periods, so very rare reactions, delayed effects and effects in children, elderly or pregnant patients stay invisible. Phase IV postmarketing surveillance in large unselected populations detects them. A cohort study (users versus non-users) can reveal unsuspected adverse events; a case-control study tests a suspected link by comparing affected patients with matched controls for past exposure.",
       "refs": [
         "KDT8 ch5"
       ],
+      "pyq": [],
       "status": "draft",
       "subtopic": "p1-drug-dev-clinical-trials",
       "tags": [
+        "adr",
         "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-003",
+      "type": "basic",
+      "front": "How should the dose of a renally excreted drug be altered in renal impairment?",
+      "back": "Loading dose is generally kept unchanged (unless oedema is present). The maintenance dose is reduced in proportion to creatinine clearance, or the dosing interval is lengthened. Examples: aminoglycosides, digoxin, phenobarbitone. Drugs partly excreted unchanged need smaller reductions.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-041",
+      "type": "basic",
+      "front": "Why must a dose always be stated with the response it is meant to produce?",
+      "back": "A drug has different effective doses for different effects, and prophylactic, therapeutic and toxic doses of the same drug differ. Example: aspirin 0.3-0.6 g for headache, 60-150 mg/day for antiplatelet action, 3-5 g/day for rheumatoid arthritis. Recommended doses come from population data for an average patient, so individual patients need adjustment.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-042",
+      "type": "basic",
+      "front": "What is cumulation and which drugs are particularly prone to it?",
+      "back": "Any drug accumulates when the rate of administration exceeds the rate of elimination; slowly eliminated drugs are most liable and cause cumulative toxicity (chloroquine retinal damage on prolonged use). Practical rules: do not give a full digoxin loading dose if one was taken in the past week, and do not repeat an emetine course within 6 weeks.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "adr",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-043",
+      "type": "basic",
+      "front": "What is rational prescribing and what are its criteria?",
+      "back": "WHO: patients get medicines suited to their clinical need, in individual doses, for adequate time, at lowest cost to them and the community. Criteria: appropriate indication, appropriate drug (efficacy, safety, suitability, cost), appropriate dose, route and duration, an appropriate patient, correct dispensing with information, and monitoring of adherence, benefit and adverse effects. Knowing the drug alone does not make prescribing rational.",
+      "refs": [
+        "KDT8 ch5"
       ],
       "pyq": [
         {
@@ -696,73 +840,38 @@
           "marks": 10
         },
         {
-          "university": "KNRUHS",
-          "year": 2026,
+          "university": "RGUHS",
+          "year": 2011,
           "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
         }
-      ]
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
-      "id": "p1-drug-dev-023",
-      "type": "cloze",
-      "front": "Clinical study designs in drug research",
-      "text": "The three types of clinical study are {{clinical trial}}, {{cohort study}} and {{case-control study}}. A cohort study compares outcomes in users and {{non-users}} of a drug.",
+      "id": "p1-drug-dev-001",
+      "type": "basic",
+      "front": "What are the strategies for individualising drug dose, and which fits which drug?",
+      "back": "Four strategies. 1) Standard dose: one dose suits nearly everyone because variation is small or the safety margin is wide (penicillin, oral contraceptives, chloroquine). 2) Regulated dose: the drug modifies an easily measured body function, so dose is adjusted to that reading (antihypertensives, hypoglycaemics, anticoagulants, diuretics); plasma levels are not needed. 3) Target-level dose: response is hard to measure but tied to a plasma range, so an empirical dose is later adjusted by drug-level monitoring (digoxin, antiepileptics, antidepressants, theophylline). 4) Titrated dose: the full effect cannot be given because of adverse effects, so dose is titrated to a tolerable level of toxicity (anticancer drugs, corticosteroids, levodopa).",
       "refs": [
         "KDT8 ch5"
       ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-clinical-trials",
-      "tags": [
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-drug-dev-024",
-      "type": "cloze",
-      "front": "Pharmacogenetic examples (drug, gene or enzyme, consequence)",
-      "text": "G6PD deficiency: {{primaquine}} haemolysis; TPMT deficiency: {{azathioprine}} marrow toxicity; CYP2D6 poor metaboliser: {{codeine}} fails to give analgesia; CYP2C9 variant: {{warfarin}} bleeding; NAT2 slow acetylator: {{isoniazid}} neuropathy.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-pharmacogenetics",
-      "tags": [
-        "adr",
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-drug-dev-025",
-      "type": "cloze",
-      "front": "Sequence of stages in new drug development",
-      "text": "Synthesis/isolation, then {{preclinical}} studies, then permission for {{clinical}} trials, formulation and standardisation, then phase I-III trials, then {{marketing}} permission, then phase {{IV}} surveillance.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-development",
-      "tags": [
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
       "pyq": [],
       "status": "draft",
-      "id": "p1-drug-dev-026",
-      "type": "basic",
-      "front": "What is a phase 0 (microdosing) study?",
-      "back": "An optional exploratory study before phase I. A sub-pharmacological microdose (about 1/100 of the expected therapeutic dose, at most 100 micrograms) is given to a few healthy volunteers, and ultra-low drug levels are measured by accelerator mass spectrometry or LC-MS/MS. Purpose: early human pharmacokinetics to drop poor candidates cheaply. Limitation: kinetics at microdoses may not match therapeutic doses; it gives no efficacy or safety data.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "subtopic": "p1-drug-dev-clinical-trials",
+      "subtopic": "p1-drug-dev-dose-individualisation",
       "tags": [
-        "pk",
-        "classification"
-      ]
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p1-drug-dev-027",
@@ -822,123 +931,8 @@
         "classification"
       ],
       "subtopic": "p1-drug-dev-dose-individualisation",
-      "status": "draft"
-    },
-    {
-      "id": "p1-drug-dev-028",
-      "type": "shortnote",
-      "front": "Short note: Orphan drugs",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Drugs or biologicals for diagnosis, treatment or prevention of a rare disease, or of a common disease endemic only in resource-poor areas",
-            "No reasonable expectation that development costs will be recovered from sales"
-          ]
-        },
-        {
-          "h": "Why special",
-          "points": [
-            "Life-saving for some patients but commercially hard to bring to market",
-            "Governments give incentives (USA Orphan Drug Act 1983: rare = fewer than 0.2 million people)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p24"
-      ],
-      "subtopic": "p1-drug-dev-development",
-      "tags": [
-        "classification"
-      ],
       "status": "draft",
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2006,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2017,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2016,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p1-drug-dev-029",
-      "type": "shortnote",
-      "front": "Short note: Drug repositioning (repurposing)",
-      "sections": [
-        {
-          "h": "Meaning",
-          "points": [
-            "Finding a new indication for an existing drug",
-            "Also called repurposing"
-          ]
-        },
-        {
-          "h": "Genetic route",
-          "points": [
-            "Phenome-wide association study (PheWAS) starts from a genetic variant and asks which phenotypes it links to",
-            "Associations with variants in drug-target genes suggest new indications for existing drugs",
-            "The same approach can predict adverse effects of available or new drugs"
-          ]
-        },
-        {
-          "h": "After approval",
-          "points": [
-            "Phase IV postmarketing studies give information on new indications, risks, and optimal doses and schedules"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 PDF p159",
-        "GG14 PDF p33"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-dev-development",
-      "tags": [
-        "newer-drugs",
-        "mechanism"
-      ]
+      "level": 2
     },
     {
       "id": "p1-drug-dev-030",
@@ -1021,47 +1015,406 @@
       "tags": [
         "dosing",
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-drug-dev-031",
+      "id": "p1-drug-dev-044",
+      "type": "basic",
+      "front": "How do you choose between titrated and target-level dosing for a drug?",
+      "back": "Ask what can be measured. If response is hard to measure but a plasma range is known to work (digoxin, antiepileptics, theophylline), aim at the target level and adjust by monitoring. If the maximal effect cannot be given because of toxicity (anticancer drugs, corticosteroids, levodopa), titrate to a tolerable level of adverse effect: low start and upward titration in non-critical illness, high start and downward titration in critical illness.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-045",
       "type": "shortnote",
-      "front": "Short note: Off-label use of drugs",
+      "front": "Short note: Process of rational prescribing and common irrationalities",
       "sections": [
         {
-          "h": "Meaning",
+          "h": "Steps",
           "points": [
-            "Prescribing a drug for a use outside the package-insert indication",
-            "The physician is not bound by the package insert"
+            "Diagnose (at least provisionally); define the therapeutic problem and goal",
+            "Choose the drug class, then the drug by efficacy, safety, suitability and cost",
+            "Decide route, dose and duration; give information and instructions",
+            "Monitor adherence, goal attainment and adverse events; modify therapy"
           ]
         },
         {
-          "h": "Legal and payment position",
+          "h": "Irrational prescribing",
           "points": [
-            "In the US a physician may legally prescribe a drug for any purpose judged reasonable",
-            "Third-party payers generally do not reimburse off-label use unless a named compendium supports the new use"
+            "Drug used when none is needed (antibiotics for viral fever)",
+            "Wrong drug, wrong route (injection when oral works), wrong dose or duration",
+            "Needless combinations, expensive newer drugs, polypharmacy ignoring interactions"
           ]
         },
         {
-          "h": "Risks",
+          "h": "Consequences",
           "points": [
-            "Physician may face litigation if harm follows an unapproved use",
-            "Company promotion must stay within the package insert"
-          ]
-        },
-        {
-          "h": "Example",
-          "points": [
-            "Rofecoxib was approved for acute pain for up to 5 days but was widely prescribed off-label for chronic pain",
-            "The high dose (50 mg/day) was linked to a 5-fold increase in myocardial infarction risk"
+            "Delayed cure, more adverse effects, microbial resistance, cost, loss of trust"
           ]
         }
       ],
       "refs": [
-        "GG14 PDF p33",
-        "GG14 PDF p166"
+        "KDT8 ch5"
       ],
       "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-052",
+      "type": "shortnote",
+      "front": "Short note: How organ disease changes drug dosing",
+      "sections": [
+        {
+          "h": "Liver disease",
+          "points": [
+            "First-pass bioavailability rises; albumin falls so more free acidic drug",
+            "Metabolism of morphine, lidocaine, propranolol falls: reduce dose",
+            "Prefer oxazepam, lorazepam, atenolol; prodrugs needing activation work poorly"
+          ]
+        },
+        {
+          "h": "Kidney disease",
+          "points": [
+            "Reduce maintenance dose or lengthen interval with creatinine clearance; loading dose usually unchanged",
+            "Examples: aminoglycosides, digoxin, phenobarbitone",
+            "Avoid pethidine, nephrotoxic drugs; thiazides fail, use furosemide"
+          ]
+        },
+        {
+          "h": "Heart failure and thyroid",
+          "points": [
+            "Absorption falls, elimination slows; lower loading doses of lidocaine, procainamide; digitalis sensitivity rises",
+            "Hypothyroid: more sensitive to digoxin and morphine; hyperthyroid: resistant to digoxin inotropy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-020",
+      "type": "essay",
+      "front": "Essay: Factors that modify drug response and how to individualise therapy",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Variation between patients and within the same patient",
+            "Changes can be quantitative (concentration/effect) or qualitative (allergy, idiosyncrasy)"
+          ]
+        },
+        {
+          "h": "Patient factors",
+          "points": [
+            "Body size, age, sex and pregnancy",
+            "Genetics (pharmacogenetics)",
+            "Disease states: renal, hepatic, cardiac, thyroid"
+          ]
+        },
+        {
+          "h": "Pharmacological factors",
+          "points": [
+            "Tolerance, cumulation and drug interactions",
+            "Route of administration and formulation",
+            "Timing relative to meals and circadian factors"
+          ]
+        },
+        {
+          "h": "Psychological and environmental",
+          "points": [
+            "Placebo and nocebo responses",
+            "Enzyme inducers from diet or smoking"
+          ]
+        },
+        {
+          "h": "Clinical approach",
+          "points": [
+            "Choose drug and dose according to the factors above",
+            "Start with a standard or target-level dose, then adjust by response or drug levels",
+            "Monitor and document response in the individual"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "dosing",
+        "pk"
+      ],
+      "pyq": [],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-002",
+      "type": "basic",
+      "front": "Why is body weight or body surface area used for dosing in children and very obese or lean adults?",
+      "back": "Adult doses assume a medium build. Paediatric and atypical-build doses are scaled to body weight (weight / 70 x adult dose). BSA is physiologically closer to water and metabolic mass but has limited dosing data, so weight is the usual index (BSA is used mainly for anticancer drugs). Dubois: BSA = 0.007184 x W^0.425 x H^0.725.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-special-populations",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-046",
+      "type": "basic",
+      "front": "Why do newborns clear renally excreted drugs slowly?",
+      "back": "Newborn GFR is low and tubular transport immature, so half-life of drugs excreted by filtration (gentamicin) or secretion (penicillin) is prolonged 3-5 times. GFR reaches adult rates by about 5 months and tubular secretion matures by about 7 months. Hepatic metabolism is also inadequate, and the blood-brain barrier is more permeable (kernicterus). Infant doses must be learned, not derived by formula.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-special-populations",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-047",
+      "type": "basic",
+      "front": "Why must doses of renally cleared drugs be cut in the elderly?",
+      "back": "Nephron loss lowers GFR to about 75% of the young-adult value at 50 years and about 50% at 75 years, so such drugs accumulate. Example: streptomycin 0.75 g daily after 50 years and 0.5 g after 70, against 1 g in young adults. Reduced liver metabolism and blood flow add to cumulative toxicity on prolonged use.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-special-populations",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-048",
+      "type": "basic",
+      "front": "Which adverse effects are special to children?",
+      "back": "Growing tissue is vulnerable: corticosteroids suppress growth; androgens cause early epiphyseal fusion and stunting; tetracyclines deposit in growing teeth, discolouring and deforming them; phenothiazines cause dystonic reactions more often. Solid dosage forms and metered inhalers are hard for young children, while rectal diazepam solution (fast, predictable absorption) controls febrile seizures under 5 years.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-special-populations",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-004",
+      "type": "basic",
+      "front": "Why is chloramphenicol dangerous in neonates (grey baby syndrome)?",
+      "back": "Neonatal hepatic conjugation (glucuronidation) is immature, so the drug accumulates. Result: abdominal distension, vasomotor collapse, cyanosis and grey skin. Also, the newborn has low GFR and immature tubular function, which prolongs half-life of renally cleared drugs.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-special-populations",
+      "tags": [
+        "adr",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-015",
+      "type": "shortnote",
+      "front": "Short note: Dose adjustment in children and the elderly",
+      "sections": [
+        {
+          "h": "Children",
+          "points": [
+            "Dose by body weight; infant absorption and skin permeability differ",
+            "Immature renal function prolongs elimination of renally cleared drugs",
+            "Grey baby syndrome with chloramphenicol",
+            "Faster metabolism after infancy: shorter half-life, higher mg/kg dose"
+          ]
+        },
+        {
+          "h": "Elderly",
+          "points": [
+            "Falling GFR with age; reduce renally cleared drugs",
+            "Reduced hepatic metabolism and liver blood flow; risk of cumulative toxicity",
+            "Lower albumin: changed protein binding",
+            "Higher sensitivity to CNS and anticholinergic effects; more drug interactions (polypharmacy)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-special-populations",
+      "tags": [
+        "dosing",
+        "pk"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-049",
+      "type": "basic",
+      "front": "How does pregnancy change drug disposition?",
+      "back": "Reduced GI motility delays absorption; plasma and extracellular fluid expand, raising volume of distribution; albumin falls while alpha-1 acid glycoprotein rises, so unbound acidic drugs rise and basic ones fall; renal blood flow rises, speeding polar drug removal; hepatic enzyme induction speeds metabolism. The net effect is complex and hard to predict.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-special-populations",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-050",
+      "type": "basic",
+      "front": "Why are adverse reactions commoner in the elderly, and how do you prescribe safely for them?",
+      "back": "Cause chain: lower GFR and hepatic clearance cause accumulation; lower albumin raises free drug; volume of distribution shifts (up for lipophilic, down for hydrophilic drugs); receptor responsiveness changes (digitalis poorly tolerated, adrenergic responses reduced); prostatism makes even mild anticholinergic action cause retention; polypharmacy multiplies interactions and brings postural instability, giddiness and confusion. Safe practice: reduce renally cleared doses, favour short half-life drugs, review the drug list and monitor.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-special-populations",
+      "tags": [
+        "adr",
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-007",
+      "type": "basic",
+      "front": "What is the pharmacogenetic risk with TPMT deficiency?",
+      "back": "Low thiopurine methyltransferase activity raises the risk of severe bone marrow toxicity with 6-mercaptopurine and azathioprine. Poor-metaboliser status for NUDT15 has the same effect; TPMT poor metabolisers are rare in East Asians, who instead more often carry NUDT15 variants.",
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-024",
+      "type": "cloze",
+      "front": "Pharmacogenetic examples (drug, gene or enzyme, consequence)",
+      "text": "G6PD deficiency: {{primaquine}} haemolysis; TPMT deficiency: {{azathioprine}} marrow toxicity; CYP2D6 poor metaboliser: {{codeine}} fails to give analgesia; CYP2C9 variant: {{warfarin}} bleeding; NAT2 slow acetylator: {{isoniazid}} neuropathy.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-053",
+      "type": "basic",
+      "front": "Define pharmacogenetics, pharmacogenomics and SNP.",
+      "back": "Pharmacogenetics: study of the genetic basis of variable drug response and handling. Pharmacogenomics: use of genetic information to choose drug and dose for an individual (personalised medicine). SNP: single base-pair substitution found in more than 1% of a population; frequencies differ between ethnic groups. Most drugs show bell-shaped (Gaussian) variation, with specific genetic defects adding discontinuous variation.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
         {
           "university": "KNRUHS",
           "year": 2026,
@@ -1069,7 +1422,643 @@
         },
         {
           "university": "RGUHS",
-          "year": 2021,
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-054",
+      "type": "basic",
+      "front": "What is the clinical effect of slow acetylator status (NAT2)?",
+      "back": "NAT2 polymorphism creates rapid and slow acetylators. Slow acetylators accumulate drugs cleared by acetylation, so isoniazid neuropathy and procainamide- or hydralazine-induced lupus occur mainly in them.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-005",
+      "type": "basic",
+      "front": "Which drugs are classically linked to haemolysis in G6PD deficiency, and how is the trait inherited?",
+      "back": "X-linked monogenic trait, commoner in Mediterranean, African and Southeast Asian people. Oxidising drugs trigger haemolysis, e.g. primaquine, dapsone, sulfonamides/cotrimoxazole, nitrofurantoin, chloramphenicol, quinine, methylene blue. Haemolysis is largely dose-related, and its severity varies with the gene variant (worst in homozygous deficient individuals).",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-006",
+      "type": "basic",
+      "front": "Why does codeine fail to relieve pain in some patients? (CYP2D6)",
+      "back": "Codeine is a prodrug: CYP2D6 converts it to morphine, which gives the analgesia. Poor CYP2D6 metabolisers form little morphine, so analgesia is absent. Ultrarapid metabolisers form excess morphine and may develop features of opioid excess, including respiratory depression.",
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch7"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-014",
+      "type": "shortnote",
+      "front": "Short note: Pharmacogenetics in drug therapy",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Pharmacogenetics: genetic basis of variable drug response",
+            "Pharmacogenomics: use of genetic information to guide choice of drug and dose"
+          ]
+        },
+        {
+          "h": "Mechanisms",
+          "points": [
+            "Polymorphisms of drug-metabolising enzymes (CYP2D6, CYP2C9, CYP2C19, NAT2, TPMT, pseudocholinesterase)",
+            "Variants of drug targets (VKORC1 for warfarin) and transporters (P-gp)",
+            "HLA alleles causing immune hypersensitivity; enzyme deficiencies such as G6PD"
+          ]
+        },
+        {
+          "h": "Clinical examples",
+          "points": [
+            "Succinylcholine apnoea: atypical pseudocholinesterase",
+            "Warfarin bleeding and lower dose need: CYP2C9 and VKORC1 variants",
+            "Clopidogrel (prodrug) ineffective in CYP2C19 poor metabolisers: use an alternative antiplatelet",
+            "Isoniazid neuropathy; hydralazine and procainamide lupus: slow acetylators",
+            "Carbamazepine and phenytoin with HLA-B*15:02 (East and South Asians); abacavir with HLA-B*57:01; allopurinol with HLA-B*58:01",
+            "Malignant hyperthermia after halothane: ryanodine receptor defect"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Monogenic traits predict response well; polygenic traits poorly"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch7"
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-055",
+      "type": "basic",
+      "front": "Which genetic variants predict chemotherapy toxicity or resistance?",
+      "back": "UGT1A1*28 allele (low glucuronyl transferase) raises irinotecan neutropenia and diarrhoea; DPD (dihydropyrimidine dehydrogenase) deficiency causes severe 5-fluorouracil toxicity; TPMT deficiency causes marrow toxicity with 6-mercaptopurine and azathioprine; P-glycoprotein overexpression pumps drugs out of tumour cells and causes resistance.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-058",
+      "type": "cloze",
+      "front": "Genetic defects that make a drug dangerous",
+      "text": "Atypical pseudocholinesterase: prolonged {{succinylcholine}} apnoea; abnormal ryanodine receptor: {{halothane}} malignant hyperthermia; acute intermittent porphyria: precipitated by {{barbiturates}}; abnormal VKOR enzyme: resistance to {{coumarin}} anticoagulants; inability to hydroxylate: {{phenytoin}} toxicity at usual doses.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-056",
+      "type": "basic",
+      "front": "Why is routine genotyping to guide drug therapy still limited, and where does it work best?",
+      "back": "Dose may vary 4-6 fold between people and all determinants of response (transporters, enzymes, channels, receptors) are genetically controlled, yet practice is limited because each drug needs its own genotype screen and much variability is unexplained. Genotype predicts phenotype best for monogenic traits (G6PD, CYP2D6, TPMT), poorly for polygenic ones. Genotyping is needed only once in life; simple spot tests (G6PD) are already used.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-057",
+      "type": "basic",
+      "front": "One patient gets no pain relief from codeine and another develops marrow failure on azathioprine. Explain each.",
+      "back": "Codeine is a prodrug converted to morphine by CYP2D6; a poor metaboliser forms little morphine, so no analgesia (an ultrarapid metaboliser risks overdose). Azathioprine is cleared by TPMT; deficiency (or NUDT15 poor metaboliser status, commoner in East Asians) leaves toxic thiopurine levels and marrow toxicity. In both the gene alters drug handling, not receptor action, so genotype-guided drug choice or dose reduction is the remedy.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr",
+        "pk"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-008",
+      "type": "basic",
+      "front": "Define placebo and nocebo, and name one placebo use in a trial.",
+      "back": "Placebo: an inert substance given as if it were active; its effect comes from the therapeutic setting and expectation (psychodynamic). Nocebo: a negative response driven by pessimism or loss of faith in the drug or doctor. A placebo serves as the dummy control in a clinical trial.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-009",
+      "type": "basic",
+      "front": "What is tachyphylaxis and which drugs show it most?",
+      "back": "Rapid loss of response when doses are repeated closely. It is seen most with indirect sympathomimetics (ephedrine, tyramine, nicotine), which work by releasing catecholamines; the stores are depleted faster than they are refilled.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "adr",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-059",
+      "type": "basic",
+      "front": "What is tolerance and what are its types?",
+      "back": "Need for a higher dose to get the same response. Natural: species or individual inherently less sensitive (rabbits to atropine). Acquired: develops with repeated use in an initially responsive person, most evident with CNS depressants. Refractoriness is loss of efficacy after prolonged use (sulfonylureas in type 2 diabetes, agonists in asthma). Little or none develops to atropine, digoxin, cocaine or nitroprusside.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-060",
+      "type": "basic",
+      "front": "What is cross tolerance? Give examples.",
+      "back": "Tolerance to pharmacologically related drugs; the closer two drugs are, the more complete. Alcoholics tolerate barbiturates and general anaesthetics. Morphine and barbiturates show partial cross tolerance, but morphine and pethidine show complete cross tolerance.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-010",
+      "type": "basic",
+      "front": "What is the difference between pharmacokinetic and pharmacodynamic tolerance?",
+      "back": "Pharmacokinetic tolerance: less drug reaches the site, usually because elimination is enhanced, e.g. enzyme induction by barbiturates and carbamazepine. Pharmacodynamic (cellular) tolerance: target cells become less responsive, e.g. morphine, barbiturates, nitrates; due to receptor desensitisation or down-regulation, or weaker response effectuation.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "pk",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-016",
+      "type": "shortnote",
+      "front": "Short note: Tolerance and refractoriness",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Tolerance: a larger dose is needed to produce the same effect",
+            "Refractoriness: loss of efficacy after prolonged or intensive use (sulfonylureas in type 2 diabetes; beta-2 agonists in asthma)"
+          ]
+        },
+        {
+          "h": "Types",
+          "points": [
+            "Natural: inherent low sensitivity (rabbits to atropine; some people to alcohol)",
+            "Acquired: repeated use; obvious with CNS depressants; little or none with atropine, digoxin, cocaine, nitroprusside",
+            "Cross tolerance between related drugs (alcoholics to barbiturates and general anaesthetics)",
+            "Tachyphylaxis: rapid tolerance on closely repeated doses (ephedrine, tyramine, nicotine)"
+          ]
+        },
+        {
+          "h": "Mechanisms",
+          "points": [
+            "Pharmacokinetic: enzyme induction, faster elimination",
+            "Pharmacodynamic: receptor desensitisation or down-regulation, weaker response effectuation, homeostatic adaptation"
+          ]
+        },
+        {
+          "h": "Clinical point: unequal tolerance",
+          "points": [
+            "Chlorpromazine: to sedation but not antipsychotic action",
+            "Phenobarbitone: to sedation more than antiepileptic action",
+            "Morphine: to analgesia and euphoria more than to constipation and miosis"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-062",
+      "type": "basic",
+      "front": "How does a placebo work, where is it used, and what limits it?",
+      "back": "It acts through psychodynamic, not pharmacodynamic, means: the whole therapeutic setting and physician-patient relation matter. It can release endorphins (placebo analgesia is blocked by naloxone). Uses: dummy control in trials, and rarely for a patient who needs no active drug. Common placebos are lactose tablets and distilled water injection. Responses vary even in one person (sleep on night one, not later), so practical value is limited; nocebo is the negative counterpart.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-061",
+      "type": "basic",
+      "front": "Tolerance does not develop equally to all effects of a drug. What follows for therapy?",
+      "back": "The therapeutic index may rise or fall with prolonged use. Chlorpromazine: tolerance to sedation but not antipsychotic action (index improves). Phenobarbitone: tolerance to sedation, less to antiepileptic action. Morphine: tolerance to analgesia and euphoria, little to constipation and miosis (index worsens). So dose escalation can raise toxicity without matching benefit.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-063",
+      "type": "basic",
+      "front": "Compare tolerance, tachyphylaxis, refractoriness and drug resistance.",
+      "back": "Tolerance: gradual need for higher dose, by pharmacokinetic (induced elimination, e.g. carbamazepine) or pharmacodynamic (receptor desensitisation or down-regulation) mechanisms. Tachyphylaxis: rapid tolerance on closely repeated doses, typical of indirect sympathomimetics (ephedrine, tyramine, nicotine) whose catecholamine stores deplete. Refractoriness: loss of efficacy after prolonged intensive use. Drug resistance: tolerance of microorganisms to antimicrobials (staphylococci to penicillin).",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-tolerance-placebo",
+      "tags": [
+        "mechanism",
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-064",
+      "type": "essay",
+      "front": "Essay: Comprehensive plan for drug development to meet an unmet need: diabetes mellitus",
+      "sections": [
+        {
+          "h": "Unmet need",
+          "points": [
+            "Type 2 diabetes is over 90% of cases; insulin resistance plus beta-cell failure",
+            "Existing agents: insulin needs multiple daily injections, hypoglycaemia and weight gain",
+            "Many patients cannot reach normoglycaemia; concern about hyperinsulinaemia and premature atherosclerosis"
+          ]
+        },
+        {
+          "h": "Target and lead",
+          "points": [
+            "Rational approach: choose a target (insulin resistance, insulin secretion, incretin or glucose handling) and find a lead that binds it",
+            "Lead sources: natural products, lead optimisation of congeners, combinatorial chemistry with high-throughput screening (high failure rate), biotechnology (recombinant insulin, monoclonal antibodies)"
+          ]
+        },
+        {
+          "h": "Preclinical",
+          "points": [
+            "Screening and pharmacodynamic tests; hypoglycaemic activity in animal models",
+            "Pharmacokinetics and acute, subacute and chronic toxicity in a rodent and a non-rodent",
+            "Reproductive toxicity, mutagenicity and carcinogenicity studies before human use"
+          ]
+        },
+        {
+          "h": "Clinical development",
+          "points": [
+            "IND licence, then Phase I (safety, PK), Phase II (dose range, efficacy), Phase III (randomised, double-blind, comparative, larger population)",
+            "Surrogate endpoints such as HbA1c shorten trials; FDA expects cardiovascular safety data (rosiglitazone precedent)",
+            "Marketing permission follows Phase III, with indications finalised; drugs may be restricted to hospitals or specialists"
+          ]
+        },
+        {
+          "h": "After marketing",
+          "points": [
+            "Phase IV surveillance for rare and long-term adverse effects and interactions",
+            "Trials in special groups (children, elderly, renal impairment) and new formulations or combinations"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch19",
+        "KDT8 ch5",
+        "GG14 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-065",
+      "type": "basic",
+      "front": "What are the main limitations of current drugs in type 2 diabetes?",
+      "back": "Insulin needs multiple daily injections and can cause hypoglycaemia and weight gain. Sulfonylureas, biguanides, thiazolidinediones and the others, apart from DPP-4 inhibitors and GLP-1 agonists, share these problems and often fail to achieve normoglycaemia alone. Insulin excess is also linked to premature atherosclerosis. These gaps define the unmet need.",
+      "refs": [
+        "KDT8 ch19"
+      ],
+      "pyq": [],
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-066",
+      "type": "basic",
+      "front": "What is a surrogate endpoint and why is it used in premarketing trials?",
+      "back": "A biomarker or other measure believed to mediate or predict the true clinical endpoint (survival, disease prevention, symptoms, function). It shortens or shrinks trials. Examples: blood pressure, lipid levels, HbA1c and CD4 count. Some are excellent predictors (HIV RNA load), others have misled.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-067",
+      "type": "basic",
+      "front": "Why did the FDA require larger cardiovascular safety data for new antidiabetic drugs?",
+      "back": "Rosiglitazone was approved in 1999 on short-term glycaemic trials. A 2007 meta-analysis of randomised trials then linked it to more myocardial infarctions. The FDA responded by asking that new antidiabetic trials exclude a cardiovascular risk increase of 30% or more; a two-stage route allowed premarketing trials to exclude 80% with postmarketing studies completing the 30% margin.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-068",
+      "type": "shortnote",
+      "front": "Short note: Integrated approach in pharmacotherapy",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Rational prescribing is a whole therapeutic set-up, not only choosing the right drug",
+            "Knowledge alone does not guarantee rational use: role models, patient load and drug promotion also shape prescribing"
+          ]
+        },
+        {
+          "h": "Stepwise process",
+          "points": [
+            "Diagnose (at least provisionally), define the problem and goal",
+            "Choose the class, then the drug on efficacy, safety, suitability and cost",
+            "Decide route, dose and duration; instruct the patient",
+            "Monitor adherence, goal attainment and adverse effects; modify therapy"
+          ]
+        },
+        {
+          "h": "Patient factors",
+          "points": [
+            "Body size, age (neonatal and elderly clearance), sex, race, genetics",
+            "Pathological states: renal, hepatic, cardiac and thyroid disease alter disposition or sensitivity",
+            "Other drugs, cumulation and tolerance"
+          ]
+        },
+        {
+          "h": "Common errors",
+          "points": [
+            "Drug when none is needed; wrong drug, route, dose or duration",
+            "Needless combinations and polypharmacy without regard to interactions"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-069",
+      "type": "basic",
+      "front": "Which patient-related factors change the response to the same drug dose?",
+      "back": "Body size (weight or body surface area), age, sex, species and race, genetic make-up, route, environment and timing relative to meals, psychological expectation, disease states, other drugs, cumulation and tolerance. These act quantitatively (plasma level or effect changes, adjusted by dose) or qualitatively (allergy or idiosyncrasy).",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "subtopic": "p1-drug-dev-dose-individualisation",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-070",
+      "type": "shortnote",
+      "front": "Short note: Biomarkers in clinical evaluation of drugs",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "A measurable indicator that anticipates a therapeutic or adverse response to a drug",
+            "Surrogates are biomarkers used as stand-ins for the real clinical outcome"
+          ]
+        },
+        {
+          "h": "Types and uses",
+          "points": [
+            "Genetic markers: G-6PD deficiency (spot test), CYP2D6, TPMT and NAT2 polymorphisms",
+            "Disease or response markers: HbA1c, blood pressure, lipids, CD4 count, HIV RNA load",
+            "Monitoring markers that show progress or failure of treatment"
+          ]
+        },
+        {
+          "h": "Role in trials",
+          "points": [
+            "Reduce the size and duration of premarketing trials",
+            "Expedited programmes such as Accelerated Approval can rest on surrogate endpoints"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Some surrogates predict outcome well, others mislead",
+            "A drug can alter the marker without changing survival or symptoms",
+            "Genotype testing is limited by the need for drug-specific screening"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch3",
+        "GG14 ch8",
+        "GG14 ch1",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2020,
           "marks": 10
         },
         {
@@ -1078,12 +2067,273 @@
           "marks": 10
         }
       ],
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-071",
+      "type": "basic",
+      "front": "Define a biomarker and say how it differs from a surrogate endpoint.",
+      "back": "A biomarker is any measurable marker (genetic, biochemical or imaging) that predicts or tracks drug response, therapeutic or adverse. A surrogate endpoint is a biomarker chosen to replace the clinical endpoint in a trial, so it must reliably predict that endpoint.",
+      "refs": [
+        "GG14 ch3",
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-072",
+      "type": "basic",
+      "front": "Why is G-6PD status a useful pre-treatment biomarker?",
+      "back": "G-6PD deficiency is an X-linked monogenic trait. Oxidant drugs such as primaquine, dapsone and sulfonamides cause haemolysis in deficient people, and the risk depends on the variant. A simple spot test identifies deficiency before the drug is given, which makes it a practical clinical biomarker.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "subtopic": "p1-drug-dev-pharmacogenetics",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-073",
+      "type": "shortnote",
+      "front": "Short note: Features of an ideal randomised clinical trial",
+      "sections": [
+        {
+          "h": "Question",
+          "points": [
+            "Precise, pre-specified objective with primary and secondary end points fixed in advance",
+            "Population set by inclusion and exclusion criteria; results apply only to that population"
+          ]
+        },
+        {
+          "h": "Comparison and allocation",
+          "points": [
+            "Control arm is the comparator against which the test drug is judged",
+            "Randomised allocation; stratify by age, sex or disease severity where needed"
+          ]
+        },
+        {
+          "h": "Blinding",
+          "points": [
+            "Single blind (subject unaware) or double blind (subject and investigator unaware)",
+            "Look-alike preparations; allocation code held by a third data-management party and opened after analysis"
+          ]
+        },
+        {
+          "h": "Sample size",
+          "points": [
+            "Fixed beforehand from significance level, power, the clinically meaningful difference and variability of the end point",
+            "Minimum number that still gives a decisive answer, for cost and ethical reasons"
+          ]
+        },
+        {
+          "h": "Conduct and ethics",
+          "points": [
+            "Independent committee can stop early on a decisive result or if one arm is clearly inferior"
+          ]
+        },
+        {
+          "h": "Why it is the strongest design",
+          "points": [
+            "Randomised double-blind controlled trial is the most credible source of evidence on efficacy, safety and comparative value"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
       "status": "draft",
       "subtopic": "p1-drug-dev-clinical-trials",
       "tags": [
-        "uses",
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-074",
+      "type": "essay",
+      "front": "Essay: Design and conduct of a 6-month repeated-dose toxicity study for a new drug",
+      "sections": [
+        {
+          "h": "Purpose",
+          "points": [
+            "Characterise the toxicity profile on repeated dosing, identify target organs and the dose-response relation",
+            "Find the maximum recommended starting dose for the first human use"
+          ]
+        },
+        {
+          "h": "Duration",
+          "points": [
+            "Clinical use beyond 3 months needs repeated-dose studies of 6 months in a rodent and in a non-rodent",
+            "Regulators may ask for 12 months or accept 6 months case by case"
+          ]
+        },
+        {
+          "h": "Animals and route",
+          "points": [
+            "At least one rodent and one non-rodent, chosen on pharmacokinetic similarity to humans",
+            "Same route as the intended clinical use; run under Good Laboratory Practice"
+          ]
+        },
+        {
+          "h": "Dose selection",
+          "points": [
+            "Highest dose: produces observable toxicity",
+            "Intermediate dose: some symptoms but no gross toxicity or death, placed logarithmically between the other two",
+            "Lowest dose: no observable toxicity"
+          ]
+        },
+        {
+          "h": "Observations",
+          "points": [
+            "Cage-side observations, body weight, food and water intake",
+            "Blood biochemistry and haematology; renal parameters (urea, creatinine, urine specific gravity)",
+            "Non-rodents: electrocardiogram and fundus examination",
+            "Gross and microscopic examination of all viscera and tissues; injection sites if given parenterally"
+          ]
+        },
+        {
+          "h": "Companion studies",
+          "points": [
+            "Reproduction and teratogenicity; mutagenicity battery (Ames test, in vitro chromosome or mouse lymphoma assay, mouse micronucleus)",
+            "Carcinogenicity studies are needed when expected clinical use is about 6 months or longer",
+            "Local tolerance at sites of contact"
+          ]
+        }
+      ],
+      "refs": [
+        "Bennett p33-34",
+        "Medhi PMECP p22",
+        "Medhi PMECP p133",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-dev-075",
+      "type": "shortnote",
+      "front": "Short note: Evaluating the hypersensitivity potential of a new drug",
+      "sections": [
+        {
+          "h": "Why it must be tested",
+          "points": [
+            "Allergic reactions are immune-mediated and not predicted by the drug's pharmacology",
+            "Single-dose tests miss them: prior sensitisation is needed and a latent period of 1-2 weeks follows the first exposure"
+          ]
+        },
+        {
+          "h": "Local tolerance",
+          "points": [
+            "Checks tolerance at every body site the drug touches",
+            "Separates mechanical or physicochemical irritation from true toxicological or pharmacodynamic effects"
+          ]
+        },
+        {
+          "h": "Animal skin sensitisation",
+          "points": [
+            "Local lymph node assay: compares lymphocyte proliferation in treated and control groups",
+            "Stimulation index of at least 3 is needed before a substance is judged a potential skin sensitiser"
+          ]
+        },
+        {
+          "h": "Clinical patch testing",
+          "points": [
+            "Human patch test is acceptable only after the chemical is shown non-corrosive by an in vitro test and negative in in vitro mutagenicity tests",
+            "Patch testing is useful mainly for contact dermatitis and is unreliable for other allergies"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Hypersensitivity findings feed the safety profile and the monitoring plan for trials and marketing"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP p182",
+        "Bennett p34",
+        "Medhi PMECP p133",
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-dev-076",
+      "type": "basic",
+      "front": "What is the local lymph node assay and what result flags a skin sensitiser?",
+      "back": "An animal test for skin sensitisation that compares lymphocyte proliferation in treated and control groups after topical exposure. A stimulation index of at least 3 means the substance needs further evaluation as a potential skin sensitiser.",
+      "refs": [
+        "Ghosh FEP p182"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-development",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-dev-077",
+      "type": "basic",
+      "front": "What is a non-inferiority trial?",
+      "back": "A trial that tries to show the new drug is not clinically worse than an existing treatment. Superior efficacy is not required; the new drug may still be useful if it offers better tolerability, safety, convenience, cost or use in a special subgroup.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-dev-clinical-trials",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     }
   ]
 }

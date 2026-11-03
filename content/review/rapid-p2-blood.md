@@ -260,3 +260,22 @@ Rapid ids added this pass: rf-p2-blood-0656 to rf-p2-blood-0826 (171 cards). Rap
 | rf-p2-blood-0824 | added | GG14 ch37 |
 | rf-p2-blood-0825 | added | GG14 ch37 |
 | rf-p2-blood-0826 | added | GG14 ch37 |
+
+## Checker (2026-11-03)
+Rapid deck not edited in this pass. Grep for Prep / RR5 / RapidRev in content/rapid/p2-blood.json: none. No rapid cards were fact-checked in this pass. Rapid coverage audit against KDT8 ch44-46 not done.
+
+## Gap questions (PYQ-driven additions, 2026-11-03)
+| id | new | source |
+|---|---|---|
+| rf-p2-blood-0827 to rf-p2-blood-0836 | new | Padmaja PDF p339-341; Katzung16 PDF p1283 (plasma expanders) |
+| rf-p2-blood-0837 to rf-p2-blood-0847 | new | GG14 ch36 (dabigatran, factor Xa inhibitors, reversal agents, warfarin) |
+| rf-p2-blood-0848 to rf-p2-blood-0857 | new | KDT8 ch64; GG14 ch45 (growth factors) |
+
+Checker (PYQ gap pass), 2026-11-03: checked rf-p2-blood-0827 to 0857 against GG14 ch36/ch45, KDT8 ch44/ch64, Katzung16 p1283, Padmaja p339-341. Fixed 0828 (added Bennett p428 for anti-sludging), 0830 (removed "more potent"), 0836 (gelatin not in Katzung list, removed), 0857 (epoetin chemo anaemia now KDT8 ch44). Other pairs verified against text.
+
+## Gap questions pass 2 (PYQ gaps, 2026-11-03)
+| id | new | source |
+|---|---|---|
+| rf-p2-blood-0858 to rf-p2-blood-0867 | new (drotrecogin alfa, aprotinin, cryoprecipitate, four-factor PCC, rFVIIa, recombinant antithrombin). Checker 2026-11-03: rf-0865 reworded to "alternative to andexanet" and re-cited to Katzung16 ch34 (GG14 ch36 not verified) | GG12 PDF p885; Katzung16 ch34 |
+| rf-p2-blood-0868 to rf-p2-blood-0872 | new (transfusion siderosis chelators and their adverse effects) | KDT8 ch68 |
+Checked against the source text above; wording is paraphrased. Drotrecogin is marked as withdrawn (2011) per Katzung16, the newer book.

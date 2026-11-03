@@ -43,3 +43,33 @@ New study cards (not in HEAD) were checked against their cited sources. Rapid ca
 
 Skipped or handled elsewhere:
 - None skipped: all six new study cards (033-038) carded.
+
+## Difficulty ladder pass: new cards 0228-0251
+| id | status | source |
+|---|---|---|
+| 0228-0236 | new | RangDale9 ch3 (G proteins, toxins, M2 vs beta-1) |
+| 0237-0245 | new | RangDale9 ch2 (antagonism types, affinity/efficacy, H2, IUPHAR) |
+| 0246 | new | RangDale9 ch3 |
+| 0247-0251 | new | RangDale9 ch3 (Na+/K+ channel pharmacology, patch clamp, nAChR pore) |
+
+## Checker
+- Spot-checked 30+ cards (study 004,009,012,015,016,020,024,035,040-054; rapid 0228-0251) against RangDale9 ch2-3, GG14 ch3, Katzung16 ch1, Sarkar. All facts grounded.
+- 047: added GG14 ch3 ref (G12/13 to RhoA).
+- No Prep/RR5 refs. Ladder OK: every subtopic >=3 L1, 2 L2, 1 L3. No deletions.
+
+## Checker
+- Checked rapid 0228-0251 against RangDale9 ch2-3: ok. No deletions.
+
+## Gap batch: PYQ 253, 485, 562, 584
+
+| id | new | source |
+|---|---|---|
+| 0252-0262 | new | GG14 ch16, GG14 ch21, KDT8 ch16, KDT8 ch27 |
+| 0263-0270 | new | KDT8 ch5, GG14 ch1 |
+| 0271-0282 | new | RangDale9 ch2-3, KDT8 ch25, KDT8 ch27, KDT8 ch38, GG14 ch21 |
+
+## Checker (PYQ gap pass)
+
+Deleted (not found in owner books): 0256 (Mg2+ NMDA block), 0260 (ketamine/N2O NMDA), 0261 (dextromethorphan NMDA), 0274 (site-directed mutagenesis), 0276 (IP3 receptor), 0277 (RyR1 and dantrolene mechanism). Ids not renumbered; total now 276.
+Corrected: 0263 (malformed q, now quinine; ref KDT8 ch1, chapter to confirm), 0268 (ref GG14 ch1), 0270 (q now X-ray structure method; GG14 ch1), 0272 (ref RangDale9 ch4), 0255 (ref RangDale9 ch39, p496).
+Checked ok: 0252, 0253, 0257 (GG14 p332), 0258 (GG14 p343), 0262, 0264, 0265, 0266, 0267, 0269, 0271, 0273, 0275 (RangDale p34), 0278, 0279 (KDT8 p571), 0280, 0281 (GG14 p434), 0282.

@@ -267,3 +267,50 @@ rf-p1-pk-absorption-0144 | unsourced | UNSOURCED - owner must verify | chloroqui
 rf-p1-pk-absorption-0145 | corrected | RangDale9 PDF p135 | water solubility/ionisation wording not printed
 rf-p1-pk-absorption-0160 | regrounded | KDT8 PDF p454 | valproate displaces protein-bound phenytoin
 rf-p1-pk-absorption-0198 | unsourced | UNSOURCED - owner must verify | haemodialysis not-useful list not found
+rf-p1-pk-absorption-0216 | new | KDT8 ch2
+rf-p1-pk-absorption-0217 | new | KDT8 ch2
+rf-p1-pk-absorption-0218 | new | KDT8 ch2
+rf-p1-pk-absorption-0219 | new | KDT8 ch2
+rf-p1-pk-absorption-0220 | new | KDT8 ch2
+rf-p1-pk-absorption-0221 | new | KDT8 ch2
+rf-p1-pk-absorption-0222 | new | KDT8 ch2
+rf-p1-pk-absorption-0223 | new | KDT8 ch2
+
+## Checker (2026-11-03)
+- Rapid 0216-0223 verified against KDT8 ch2 (P-gp inhibitors/inducers, MRP2/BCRP, OATP/OCT, VMAT-2, gentamicin/neostigmine, penicillin G/insulin). No changes.
+
+## Checker 2 (2026-11-03)
+- Verified ~40 rapid cards (KDT8 ch2 / GG14 p45 pH+200 m2 / Katzung16 pH 7.5-8) ok. Added 0224. 0053 (upper intestine pH 3-6, GG14) vs 0206 (7.5-8, Katzung) are different book statements, kept.
+
+## Gap-fill additions
+- Added rapid 0224-0240 (vectorial transport, efflux pumps, obesity Vd, adipose storage, first-pass, bioavailability). All from GG14 ch2/ch4 and KDT8 ch2/ch5.
+
+| id | status | source |
+|---|---|---|
+rf-p1-pk-absorption-0224 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0225 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0226 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0227 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0228 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0229 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0230 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0231 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0232 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0233 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0234 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0235 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0236 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0237 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0238 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0239 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+rf-p1-pk-absorption-0240 | new | GG14 ch4 / GG14 ch2 / KDT8 ch2 / KDT8 ch5
+
+- Checker (PYQ gap pass): rapid 0237 answer trimmed to "Intestinal wall and liver" (biliary loss not supported in KDT8 ch2). Rapid 0224-0240 otherwise verified against GG14 p98-111, KDT8 p40-44, p90.
+
+## PYQ gap pass (Q35, Q153)
+| id | status | source |
+|---|---|---|
+rf-p1-pk-absorption-0241 | new | GG14 ch2 |
+rf-p1-pk-absorption-0242 | new | GG14 ch2 |
+rf-p1-pk-absorption-0243 | new | GG14 ch2 |
+rf-p1-pk-absorption-0244 | new | Bennett p98 |

@@ -134,3 +134,63 @@ Gap from SOURCE-GAPS.md: General Child-Pugh dose-adjustment approach (no percent
 
 ## Unmatched PYQ pass (2026-11-02)
 p1-special-populations-073 → Principles of administration of drugs in paediatric practice. → KDT8 PDF p90, p25, p29, p113 (new card)
+
+
+## Difficulty ladder pass
+All existing cards given explicit level (1/2/3) and reordered by subtopic then level; ids unchanged. Pyq tags added to 001, 013, 020, 021, 025, 027, 030, 072.
+
+id | status | source
+p1-special-populations-074 | new (L1) | Katzung16 ch59
+p1-special-populations-075 | new (L1) | Katzung16 ch59
+p1-special-populations-076 | new (L3) | Katzung16 ch59
+p1-special-populations-077 | new (L2) | KDT8 ch6
+p1-special-populations-078 | new (L1) | Katzung16 ch59
+p1-special-populations-079 | new (L1) | Katzung16 ch59
+p1-special-populations-080 | new (L1) | Katzung16 ch59
+p1-special-populations-081 | new (L2) | Katzung16 ch59
+p1-special-populations-082 | new (L2) | Katzung16 ch59
+p1-special-populations-083 | new (L1) | KDT8 ch5
+p1-special-populations-084 | new (L1) | KDT8 ch5
+p1-special-populations-085 | new (L2) | KDT8 ch5
+p1-special-populations-086 | new (L3) | KDT8 ch5
+p1-special-populations-087 | new (L3) | KDT8 ch5
+p1-special-populations-088 | new (L3) | KDT8 ch5
+p1-special-populations-089 | new (L2) | KDT8 ch5
+p1-special-populations-090 | new (L2) | KDT8 ch5
+p1-special-populations-091 | new (L2) | Katzung16 ch59
+
+## Checker
+- Rechecked cards 074-091 and rapid rf 0301-0320 against KDT8 ch5, ch6, Katzung16 ch59, ch60 and Sarkar p71-75. Most facts confirmed.
+- 077: removed "weeks 4-7" for thalidomide (no book support).
+- 091: replaced ungrounded digoxin microgram/kg numbers with Katzung's statements and half-life table values (60-70 h neonate, 30-60 h adult).
+- 087: removed ">20 mm Hg" figure and the cimetidine point (not in cited books); chlorpromazine alpha-blockade confirmed in Katzung16 ch60.
+- 088: removed Dialysis section and web ref, and the Cockcroft-Gault/CKD-EPI names (web-only). Kept the creatinine-clearance caveat from Katzung16 ch60.
+- No Prep/RR5 refs. All 91 cards have level 1-3; every subtopic meets 3/2/1.
+
+## Checker
+- Verified 25+ cards against Katzung16 ch59 (ion trapping pH 7.3/7.4, MW bands, 10% rule, 30-60 min / 3-4 h timing, lithium milk=serum, tetracycline 70%, radioiodine 10-fold, digoxin t1/2 table) and KDT8 ch5 p91, p95-96, ch6 p117-118 (liver, renal, teratogen table, stages, children ADRs). No wrong facts found; 0 corrected, 0 deleted.
+- No Prep/RR5 refs. WEB refs (cards 048-067) fall under the SOURCE-GAPS exception.
+- Ladder intact (all subtopics >=3/2/1). Added 092 (L1 FDA categories, avoid drugs, folate) and 093 (L2 mutagenicity/carcinogenicity), KDT8 ch6 p118. Fills the writer's noted gap.
+
+## Gap closure: UHSR 2025 PYQ geriatric falls and gender (2026-11-03)
+
+PYQs: UHSR 2025 Paper I, 10 marks, "Write the pharmacological concerns ... falls" and "GENDER BASED DIFFERENCES IN DRUG THERAPY". Sources: KDT8 ch5 (pp91-92, p96), KDT8 ch6 (p109, p111), KDT8 ch10 (p171), GG14 ch18 (pp362, 367, 370), GG14 ch19 (pp379, 392, 394), GG14 ch23 (p475). Gender cards placed in the pregnancy-pk and other-disease subtopics (no gender subtopic exists). Citalopram clearance numbers left out (printed values are internally inconsistent).
+
+| id | status | source |
+|---|---|---|
+| p1-special-populations-094 | new (L1) | GG14 ch19; KDT8 ch6 |
+| p1-special-populations-095 | new (L1) | KDT8 ch6; KDT8 ch10 |
+| p1-special-populations-096 | new (L2) | GG14 ch18; GG14 ch19 |
+| p1-special-populations-097 | new (L2) | KDT8 ch5; KDT8 ch6 |
+| p1-special-populations-098 | new (L3) | KDT8 ch5; KDT8 ch6; KDT8 ch10; GG14 ch18; GG14 ch19 |
+| p1-special-populations-099 | new (L1) | KDT8 ch5 |
+| p1-special-populations-100 | new (L1) | KDT8 ch5 |
+| p1-special-populations-101 | new (L2) | KDT8 ch5 |
+| p1-special-populations-102 | new (L2) | KDT8 ch5 |
+| p1-special-populations-103 | new (L2) | GG14 ch18 |
+| p1-special-populations-104 | new (L2) | GG14 ch23 |
+| p1-special-populations-105 | new (L3) | KDT8 ch5; GG14 ch18; GG14 ch23 |
+| p1-special-populations-106 | new (L1) | GG14 ch18 |
+| p1-special-populations-107 | new (L2) | KDT8 ch5 |
+
+Checker (PYQ gap pass): verified 094-107 against KDT8 p90-92, p111 and GG14 p367, p375-394, p475. Fixed 104 ("analgesia lasts longer" to "increases progressively with age", per GG14 p475). No deletions. Levels and ladder minimums met. Validator clean. Open: 099-107 sit under pregnancy-pk/other-disease because no gender subtopic exists.

@@ -3,6 +3,72 @@
   "source": "Sarkar p56-65, p156-160, p181-190, p226-230, p506-515, p586-590; GG14 ch1; RangDale9 ch8; Katzung16 appendix 2-3",
   "cards": [
     {
+      "id": "p3-ethics-education-002",
+      "type": "basic",
+      "front": "What did the Nuremberg Code establish?",
+      "back": "Drawn up in 1947 after unethical experiments on prisoners in Nazi camps during World War II, it established that research subjects must give informed consent and must be free to withdraw from an experiment at any time.",
+      "refs": [
+        "Sarkar p156-160"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-history",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-003",
+      "type": "basic",
+      "front": "What is the Declaration of Helsinki and why does it matter for trials?",
+      "back": "A statement of ethical principles for medical research on human subjects, issued by the World Medical Association in 1964 and regularly updated. It sets the widely accepted ground rules for human research and forms the ethical base of ICH-GCP: trials must be conducted according to its principles.",
+      "refs": [
+        "Sarkar p156-160",
+        "RangDale9 ch8",
+        "Katzung16 appendix 2"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-history",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-004",
+      "type": "basic",
+      "front": "What do the CIOMS guidelines add to the Declaration of Helsinki?",
+      "back": "The Council for International Organizations of Medical Sciences (guidelines first published 1993) gives detailed guidance on applying Helsinki to present-day research: HIV/AIDS research, post-study availability of treatment, women as subjects, confidentiality, compensation for adverse events and consent, while avoiding unnecessary suffering and weighing risk against benefit.",
+      "refs": [
+        "Sarkar p156-160"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-history",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
       "id": "p3-ethics-education-001",
       "type": "shortnote",
       "front": "Short note: Milestones that shaped research ethics and GCP",
@@ -64,54 +130,98 @@
       "subtopic": "p3-ethics-education-history",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-002",
-      "type": "basic",
-      "front": "What did the Nuremberg Code establish?",
-      "back": "Drawn up in 1947 after unethical experiments on prisoners in Nazi camps during World War II, it established that research subjects must give informed consent and must be free to withdraw from an experiment at any time.",
-      "refs": [
-        "Sarkar p156-160"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-history",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
-      "id": "p3-ethics-education-003",
+      "id": "p3-ethics-education-056",
       "type": "basic",
-      "front": "What is the Declaration of Helsinki and why does it matter for trials?",
-      "back": "A statement of ethical principles for medical research on human subjects, issued by the World Medical Association in 1964 and regularly updated. It sets the widely accepted ground rules for human research and forms the ethical base of ICH-GCP: trials must be conducted according to its principles.",
+      "front": "How do the Nuremberg Code and the Declaration of Helsinki differ in origin and standing?",
+      "back": "Nuremberg Code (1947) arose from the Nazi-camp experiments and laid down informed consent and the right to withdraw. Helsinki (1964, World Medical Association) is a regularly updated statement for research on human subjects and is the ethical base of ICH-GCP, so trials must follow it. Helsinki builds on the earlier code.",
       "refs": [
         "Sarkar p156-160",
-        "RangDale9 ch8",
-        "Katzung16 appendix 2"
+        "RangDale9 ch8"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p3-ethics-education-history",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-ethics-education-004",
+      "id": "p3-ethics-education-027",
       "type": "basic",
-      "front": "What do the CIOMS guidelines add to the Declaration of Helsinki?",
-      "back": "The Council for International Organizations of Medical Sciences (guidelines first published 1993) gives detailed guidance on applying Helsinki to present-day research: HIV/AIDS research, post-study availability of treatment, women as subjects, confidentiality, compensation for adverse events and consent, while avoiding unnecessary suffering and weighing risk against benefit.",
+      "front": "How does GG14 use the Belmont Report's justice principle in the debate on foreign drug trials?",
+      "back": "The Belmont Report says research should not unduly involve groups unlikely to benefit from its later applications. Some ethicists argue that testing drugs abroad in populations who cannot afford the approved product breaches this principle. Defenders reply that such trials also bring medical care to underserved people.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-history",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-ethics-education-057",
+      "type": "essay",
+      "front": "Essay: Evolution of ethics in clinical research",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Rules grew out of harm: unsafe drugs and unethical experiments"
+          ]
+        },
+        {
+          "h": "Drug-safety laws",
+          "points": [
+            "1906 US Food and Drugs Act against adulterated or misbranded drugs",
+            "1937 sulphanilamide elixir deaths from an untested solvent",
+            "Thalidomide (marketed 1957, disaster 1962): limb deformities in babies"
+          ]
+        },
+        {
+          "h": "Research-ethics codes",
+          "points": [
+            "1947 Nuremberg Code: informed consent and right to withdraw",
+            "1964 Declaration of Helsinki (WMA), updated regularly",
+            "1979 Belmont Report",
+            "1993 CIOMS guidelines applying Helsinki to modern research"
+          ]
+        },
+        {
+          "h": "Current standard",
+          "points": [
+            "ICH-GCP finalised 1996, effective 1997, with Helsinki as its ethical base"
+          ]
+        }
+      ],
       "refs": [
         "Sarkar p156-160"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p3-ethics-education-history",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-ethics-education-005",
@@ -126,7 +236,8 @@
       "subtopic": "p3-ethics-education-gcp",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-ethics-education-006",
@@ -141,7 +252,8 @@
       "subtopic": "p3-ethics-education-gcp",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-ethics-education-007",
@@ -156,7 +268,8 @@
       "subtopic": "p3-ethics-education-gcp",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-ethics-education-008",
@@ -201,7 +314,8 @@
       "subtopic": "p3-ethics-education-gcp",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-ethics-education-009",
@@ -223,7 +337,8 @@
       "subtopic": "p3-ethics-education-gcp",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-ethics-education-010",
@@ -245,375 +360,8 @@
       "subtopic": "p3-ethics-education-gcp",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-011",
-      "type": "shortnote",
-      "front": "Short note: Composition of an ethics committee for biomedical and health research (ICMR)",
-      "sections": [
-        {
-          "h": "Members",
-          "points": [
-            "Chairperson or vice-chairperson: respected, experienced, not affiliated with the institution",
-            "Member secretary: staff of the institution with research and ethics experience",
-            "Basic medical scientist",
-            "Clinician(s)",
-            "Legal expert (law degree)",
-            "Social scientist, philosopher, ethicist or theologian (may be from an NGO)",
-            "Lay person from the community"
-          ]
-        },
-        {
-          "h": "Quorum",
-          "points": [
-            "At least 5 members, medical and non-medical, technical and non-technical",
-            "At least one non-affiliated member; preferably the lay person",
-            "No decision valid without quorum"
-          ]
-        },
-        {
-          "h": "Member duties",
-          "points": [
-            "GCP or human-protection training (within 6 months of appointment)",
-            "Declare conflicts of interest; sign confidentiality agreement",
-            "Name, profession and affiliation made public"
-          ]
-        }
       ],
-      "refs": [
-        "Sarkar p226-230"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-ec",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-012",
-      "type": "cloze",
-      "front": "Complete: categories of ethics committee review by risk",
-      "text": "Proposals with less than minimal risk (e.g. research on educational practice) may be {{exempted}} from review; those with minimal risk (e.g. studies of already approved drugs or devices) get {{expedited}} review; those with more than minimal risk, or involving {{vulnerable}} groups such as children or psychiatric patients, need {{full}} committee review. The {{member secretary}} screens and categorises proposals.",
-      "refs": [
-        "Sarkar p226-230"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-ec",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-013",
-      "type": "basic",
-      "front": "What kinds of ongoing review does an ethics committee carry out after approval?",
-      "back": "Periodic review of ongoing research at intervals of 6 months to 1 year; continuing review of any new information and adverse events; and interim review in special circumstances by a sub-committee, re-examined by the full committee as needed (e.g. quarterly).",
-      "refs": [
-        "Sarkar p226-230"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-ec",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-014",
-      "type": "basic",
-      "front": "What decisions can an ethics committee reach, and how are records kept?",
-      "back": "Approval (only minor changes), approval with modifications, resubmission with more information, or outright disapproval. Decisions are preferably by consensus; invited subject experts give opinions but do not decide. Minutes are approved and signed by the chair, documents are confidential, and records are kept for 5 years after the trial ends.",
-      "refs": [
-        "Sarkar p226-230"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-ec",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-015",
-      "type": "shortnote",
-      "front": "Short note: What an ethics committee reviews in a proposal",
-      "sections": [
-        {
-          "h": "Documents",
-          "points": [
-            "Protocol; participant information sheet and consent form with translations",
-            "Investigator's brochure; PI's CV",
-            "Insurance or compensation; investigator-sponsor agreement"
-          ]
-        },
-        {
-          "h": "Science and design",
-          "points": [
-            "Rationale and essentiality; specific objectives",
-            "Design, sample size, statistics; justification of controls",
-            "Withdrawal and termination criteria; monitoring; emergency facilities"
-          ]
-        },
-        {
-          "h": "Participants",
-          "points": [
-            "Recruitment and inclusion/exclusion",
-            "Risk-benefit for individual and community",
-            "Medical care, compensation for research injury, confidentiality"
-          ]
-        },
-        {
-          "h": "Consent and conflicts",
-          "points": [
-            "Adequacy and clarity of information; contact persons",
-            "Justification for including those unable to consent",
-            "Conflicts of interest of investigator, institution and sponsor"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p226-230"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-ec",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-016",
-      "type": "basic",
-      "front": "What is clinical equipoise and why does it matter ethically?",
-      "back": "Genuine uncertainty among experts about which treatment is better. It justifies randomising patients, because the trial is done precisely because doubt exists. Placebo-controlled trials are argued to violate equipoise and the principle of beneficence when a proven effective therapy is already available.",
-      "refs": [
-        "RangDale9 ch8",
-        "Sarkar p186-190"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-placebo",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-017",
-      "type": "basic",
-      "front": "What does the Declaration of Helsinki say about placebo controls?",
-      "back": "It discourages placebo controls when an alternative treatment is available, since patients randomised to placebo would in effect be denied treatment; every patient, including controls, should get the best proven methods and not suffer unnecessary pain. Where an available treatment prevents death or irreversible harm, a placebo control is generally inappropriate.",
-      "refs": [
-        "GG14 ch1",
-        "Sarkar p186-190",
-        "Sarkar p181-185"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-placebo",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-018",
-      "type": "shortnote",
-      "front": "Short note: When is a placebo-controlled trial ethically justified?",
-      "sections": [
-        {
-          "h": "Justified",
-          "points": [
-            "No proven or approved therapy exists",
-            "Existing therapy is of doubtful or modest, inconsistent efficacy with frequent adverse effects, and the new drug is not expected to be better",
-            "Patients fully informed, autonomy kept, close monitoring, rescue treatment available, GCP followed"
-          ]
-        },
-        {
-          "h": "Not justified",
-          "points": [
-            "Existing therapy is highly and consistently effective: use an equivalence or non-inferiority design",
-            "Existing therapy prevents death or irreversible morbidity"
-          ]
-        },
-        {
-          "h": "Safeguards (OHRP 2008)",
-          "points": [
-            "Add-on design so all receive standard care",
-            "Minimal placebo exposure; early-escape and withdrawal rules",
-            "Smaller placebo arm; DSMB interim review"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p186-190",
-        "Sarkar p181-185",
-        "GG14 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-placebo",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-019",
-      "type": "basic",
-      "front": "What must the consent form of a placebo-controlled trial tell participants?",
-      "back": "What \"placebo\" means, in lay language; that they may receive it; why a placebo is used and what alternatives exist; how long they may be on placebo and the likely discomfort; the harm of not receiving or delaying effective treatment and that the condition may worsen; and that they may withdraw at any time.",
-      "refs": [
-        "Sarkar p186-190"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-placebo",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-020",
-      "type": "basic",
-      "front": "When is it ethical to use a placebo in clinical practice?",
-      "back": "Only with the patient's welfare as the sole motive, to relieve suffering, when the condition has an unpredictable course, standard treatment fails or is not tolerated, or no effective therapy exists. It must never replace effective treatment, must be stopped if ineffective, and the doctor should answer honestly if asked about it; if it helps and nothing better exists, stopping it is unethical.",
-      "refs": [
-        "Sarkar p186-190"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-placebo",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-021",
-      "type": "basic",
-      "front": "What is a conflict of interest in research, and how should a reader handle it?",
-      "back": "A situation where personal factors (e.g. funding or financial gain) could influence professional judgement or responsibilities. Such conflicts are common; what matters is whether they were recognised and managed. When appraising a paper, check the declared funding source and any statement on how a conflict was handled. Ethics committee members must also declare conflicts.",
-      "refs": [
-        "Sarkar p511-515",
-        "Sarkar p226-230",
-        "Sarkar p186-190"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-professionalism",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-022",
-      "type": "basic",
-      "front": "How does ICD-11 define burnout, and what are its three dimensions?",
-      "back": "A syndrome from chronic workplace stress that has not been successfully managed, marked by (1) exhaustion or energy depletion, (2) mental distance from the job, negativism or cynicism, and (3) reduced professional efficacy.",
-      "refs": [
-        "Sarkar p586-590"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-professionalism",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-023",
-      "type": "shortnote",
-      "front": "Short note: Burnout in doctors: causes, consequences and prevention",
-      "sections": [
-        {
-          "h": "Causes",
-          "points": [
-            "Workload: long hours, night duty, administrative tasks, patient overload",
-            "Poor teamwork and relationships; lack of reward, autonomy and job security",
-            "Work-family conflict; lack of resources and development opportunities"
-          ]
-        },
-        {
-          "h": "Consequences",
-          "points": [
-            "More major medical errors and adverse patient incidents",
-            "Lower patient satisfaction; doctors leave practice",
-            "Depression and coronary risk linked to effort-reward imbalance"
-          ]
-        },
-        {
-          "h": "Recognition",
-          "points": [
-            "\"Traffic-light\" model: stop and recognise, pause and find causes, then start coping and treatment"
-          ]
-        },
-        {
-          "h": "Prevention",
-          "points": [
-            "Flexible schedules",
-            "Mindfulness-based stress reduction, meditation",
-            "System-level changes in addition to individual measures"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p586-590"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-professionalism",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-024",
-      "type": "basic",
-      "front": "What is the pharmacologist's role in medical education?",
-      "back": "Teaching undergraduates (pharmacology is a second-year MBBS and BDS subject), postgraduates (including thesis guidance), and nursing and pharmacy students. Content includes rational drug use and essential drugs, drug classes, effects, toxicity, ADRs and interactions, telling real drug information from promotional claims, dose calculation by age, sex and health status, and correct routes. Pharmacologists also educate practising doctors on rational use, new drugs, ADR reporting, drug audit and generic prescribing.",
-      "refs": [
-        "Sarkar p506-510"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-025",
-      "type": "basic",
-      "front": "How are pharmacology competencies organised in India's competency-based undergraduate curriculum (CBME)?",
-      "back": "Each competency is a coded statement of what the student should be able to do, numbered with the prefix PH (e.g. PH1.2 evidence-based medicine and TDM, PH1.43 rational antimicrobial use and stewardship, PH1.55 national health programmes, PH1.64 drug development, trial phases and GCP). Katzung's Indian edition maps each PH competency to the chapter that covers it.",
-      "refs": [
-        "Katzung16 appendix 3",
-        "Katzung16 appendix 2"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-ethics-education-026",
@@ -674,517 +422,8 @@
       "subtopic": "p3-ethics-education-gcp",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-027",
-      "type": "basic",
-      "front": "How does GG14 use the Belmont Report's justice principle in the debate on foreign drug trials?",
-      "back": "The Belmont Report says research should not unduly involve groups unlikely to benefit from its later applications. Some ethicists argue that testing drugs abroad in populations who cannot afford the approved product breaches this principle. Defenders reply that such trials also bring medical care to underserved people.",
-      "refs": [
-        "GG14 ch1"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-history",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-028",
-      "type": "basic",
-      "front": "Which two WHO rational-use interventions relate to medical education?",
-      "back": "Problem-based pharmacotherapy training in undergraduate curricula, and continuing in-service medical education made a requirement for licensure.",
-      "refs": [
-        "Sarkar p56-60"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-029",
-      "type": "basic",
-      "front": "Besides guiding treatment, procurement and reimbursement, what else does Sarkar say an essential medicines list identifies?",
-      "back": "The 'must know' drugs for the teaching and training of health care professionals.",
-      "refs": [
-        "Sarkar p61-65"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-030",
-      "type": "basic",
-      "front": "What is AETCOM?",
-      "back": "A longitudinal programme, set out in a 2018 booklet, that helps students build competence in the attitude, ethics and communication domains.",
-      "refs": [
-        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-031",
-      "type": "basic",
-      "front": "Which body issued the AETCOM booklet, and in which year?",
-      "back": "Medical Council of India, 2018.",
-      "refs": [
-        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-032",
-      "type": "basic",
-      "front": "How many AETCOM learning modules are there in each professional year, and how many hours does each year take?",
-      "back": "Professional year I: 5 modules, 34 hours. Year II: 8 modules, 37 hours. Year III: 5 modules, 25 hours. Year IV: 9 modules, 44 hours.",
-      "refs": [
-        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-033",
-      "type": "shortnote",
-      "front": "Short note: Structure of the AETCOM booklet",
-      "sections": [
-        {
-          "h": "Section I",
-          "points": [
-            "Goals, roles and universal competencies (extract of GMR 2017); the base for all undergraduate learning"
-          ]
-        },
-        {
-          "h": "Section II",
-          "points": [
-            "Suggested teaching modules for each professional year, with resources, cases and teaching methods"
-          ]
-        },
-        {
-          "h": "Section III",
-          "points": [
-            "Additional non-core competencies"
-          ]
-        },
-        {
-          "h": "Section IV",
-          "points": [
-            "Competency log: skills acquired over time, best practised in simulated settings with standardised patients"
-          ]
-        },
-        {
-          "h": "Section V",
-          "points": [
-            "Formative elements marked by tutors, mentors or guides, with non-punitive feedback"
-          ]
-        }
-      ],
-      "refs": [
-        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-034",
-      "type": "basic",
-      "front": "Which four roles does GMR 2017 add for the graduate, as AETCOM lists them?",
-      "back": "Leader and member of the health care team; communicator; life-long learner; professional.",
-      "refs": [
-        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-035",
-      "type": "basic",
-      "front": "How does AETCOM define a competency?",
-      "back": "The habitual and judicious use of communication, knowledge, technical skills, clinical reasoning, emotions, values and reflection in daily practice.",
-      "refs": [
-        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-036",
-      "type": "basic",
-      "front": "What role does AETCOM give to assessment?",
-      "back": "It is a vital part of competency-based education: besides pass/fail decisions, it gives feedback so the learner can improve.",
-      "refs": [
-        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-037",
-      "type": "basic",
-      "front": "What teaching-learning methods does the NMC MD Pharmacology PG guideline list?",
-      "back": "Interactive classroom lectures, problem-based learning (PBL) modules, case discussions, small group discussions, seminars, journal club and research presentations.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-038",
-      "type": "basic",
-      "front": "How long is MD Pharmacology PG training, and how is it divided?",
-      "back": "3 years, in 6 terms of 6 months each.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-039",
-      "type": "basic",
-      "front": "Besides laboratory work, how much formal teaching does the MD Pharmacology PG guideline call for?",
-      "back": "At least 6 hours a week. Departments choose a mix of weekly journal club, seminar, practical and group discussion, and monthly case discussion.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-040",
-      "type": "basic",
-      "front": "What is the place of laboratory work in MD Pharmacology PG learning?",
-      "back": "Learning is mainly self-directed and rests on laboratory and academic work; formal sessions only supplement it, and practical competencies are its cornerstone.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-041",
-      "type": "basic",
-      "front": "What is the PG log book for?",
-      "back": "It records experiments done and skills acquired, aids internal evaluation, and is checked periodically by faculty.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-042",
-      "type": "basic",
-      "front": "What must formative assessment in MD Pharmacology cover?",
-      "back": "Continual assessment of medical knowledge, patient care, procedural and academic skills, interpersonal skills, professionalism, self-directed learning and the ability to practise within the system.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-043",
-      "type": "basic",
-      "front": "Formative vs summative assessment in the MD Pharmacology guideline: when is each done?",
-      "back": "Formative: during training, continual, with feedback. Summative: at the end of training, under the postgraduate examination rules.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-044",
-      "type": "basic",
-      "front": "What are the three parts of the MD Pharmacology postgraduate examination, and what marks are needed to pass?",
-      "back": "Thesis; theory (four papers); and practical/clinical. At least 50% is needed in theory and in practical separately.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-045",
-      "type": "basic",
-      "front": "When must the MD Pharmacology thesis be submitted, and who examines it?",
-      "back": "At least six months before the theory and clinical/practical examinations; examined by a minimum of three examiners, one internal and two external.",
-      "refs": [
-        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-046",
-      "type": "basic",
-      "front": "What are the four levels of Miller's pyramid of clinical competence, bottom to top?",
-      "back": "Knows, knows how, shows how, does.",
-      "refs": [
-        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170",
-        "WEB EuropePMC Assessment in competency-based medical education for anesthesiology: validity evidence, equity, and faculty readiness Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13655584"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-047",
-      "type": "basic",
-      "front": "What must assessment under Miller's pyramid be anchored to?",
-      "back": "Observable behaviour in authentic clinical settings.",
-      "refs": [
-        "WEB EuropePMC Assessment in competency-based medical education for anesthesiology: validity evidence, equity, and faculty readiness Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13655584"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-048",
-      "type": "basic",
-      "front": "Which Miller level is taught and assessed through simulation?",
-      "back": "Shows how.",
-      "refs": [
-        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-049",
-      "type": "basic",
-      "front": "Which Miller level is linked with entrustment in authentic clinical contexts?",
-      "back": "Does (the top level of Miller's pyramid: performance in real practice).",
-      "refs": [
-        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-050",
-      "type": "basic",
-      "front": "What has later work added above the apex of Miller's pyramid?",
-      "back": "Professional identity ('is'), built from internalised professional values.",
-      "refs": [
-        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-051",
-      "type": "shortnote",
-      "front": "Short note: Miller's pyramid in medical education",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Stratifies clinical competence into four ascending levels",
-            "Widely adopted in medical education"
-          ]
-        },
-        {
-          "h": "Levels",
-          "points": [
-            "Knows: knowledge transmission",
-            "Knows how and shows how: simulation-based teaching",
-            "Does: entrustment in authentic clinical contexts"
-          ]
-        },
-        {
-          "h": "Assessment",
-          "points": [
-            "Anchored to observable behaviour in authentic settings"
-          ]
-        },
-        {
-          "h": "Extension",
-          "points": [
-            "Professional identity ('is') added above the apex"
-          ]
-        }
-      ],
-      "refs": [
-        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170",
-        "WEB EuropePMC Assessment in competency-based medical education for anesthesiology: validity evidence, equity, and faculty readiness Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13655584"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-052",
-      "type": "cloze",
-      "front": "Miller's pyramid levels, bottom to top",
-      "text": "{{Knows}}, {{knows how}}, {{shows how}}, {{does}}; a later addition above the apex is {{professional identity}}.",
-      "refs": [
-        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170",
-        "WEB EuropePMC Assessment in competency-based medical education for anesthesiology: validity evidence, equity, and faculty readiness Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13655584"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-053",
-      "type": "shortnote",
-      "front": "Short note: Role of a pharmacologist in an ethics committee",
-      "sections": [
-        {
-          "h": "Membership",
-          "points": [
-            "Pharmacologist is an integral member of institutional ethics committees",
-            "Clinical-trial protocols are reviewed only when at least five members are present, including a medical scientist (preferably a pharmacologist)"
-          ]
-        },
-        {
-          "h": "Review duties",
-          "points": [
-            "Ensures research protocols follow GCP guidelines",
-            "Assesses risk-benefit for participants and the community",
-            "Examines subject selection, inclusion and exclusion criteria"
-          ]
-        },
-        {
-          "h": "Protecting participants",
-          "points": [
-            "Safeguards rights, safety and well-being of all subjects, especially vulnerable ones",
-            "Gives an opinion on compensation after a serious adverse event"
-          ]
-        },
-        {
-          "h": "Training",
-          "points": [
-            "Every member needs training in GCP and regulatory requirements"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p506-510",
-        "Sarkar p226-230",
-        "Sarkar p156-160"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "uses"
-      ],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-ec"
+      "level": 3
     },
     {
       "id": "p3-ethics-education-054",
@@ -1250,7 +489,221 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-ethics-education-012",
+      "type": "cloze",
+      "front": "Complete: categories of ethics committee review by risk",
+      "text": "Proposals with less than minimal risk (e.g. research on educational practice) may be {{exempted}} from review; those with minimal risk (e.g. studies of already approved drugs or devices) get {{expedited}} review; those with more than minimal risk, or involving {{vulnerable}} groups such as children or psychiatric patients, need {{full}} committee review. The {{member secretary}} screens and categorises proposals.",
+      "refs": [
+        "Sarkar p226-230"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-ec",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-013",
+      "type": "basic",
+      "front": "What kinds of ongoing review does an ethics committee carry out after approval?",
+      "back": "Periodic review of ongoing research at intervals of 6 months to 1 year; continuing review of any new information and adverse events; and interim review in special circumstances by a sub-committee, re-examined by the full committee as needed (e.g. quarterly).",
+      "refs": [
+        "Sarkar p226-230"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-ec",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-014",
+      "type": "basic",
+      "front": "What decisions can an ethics committee reach, and how are records kept?",
+      "back": "Approval (only minor changes), approval with modifications, resubmission with more information, or outright disapproval. Decisions are preferably by consensus; invited subject experts give opinions but do not decide. Minutes are approved and signed by the chair, documents are confidential, and records are kept for 5 years after the trial ends.",
+      "refs": [
+        "Sarkar p226-230"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-ec",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-011",
+      "type": "shortnote",
+      "front": "Short note: Composition of an ethics committee for biomedical and health research (ICMR)",
+      "sections": [
+        {
+          "h": "Members",
+          "points": [
+            "Chairperson or vice-chairperson: respected, experienced, not affiliated with the institution",
+            "Member secretary: staff of the institution with research and ethics experience",
+            "Basic medical scientist",
+            "Clinician(s)",
+            "Legal expert (law degree)",
+            "Social scientist, philosopher, ethicist or theologian (may be from an NGO)",
+            "Lay person from the community"
+          ]
+        },
+        {
+          "h": "Quorum",
+          "points": [
+            "At least 5 members, medical and non-medical, technical and non-technical",
+            "At least one non-affiliated member; preferably the lay person",
+            "No decision valid without quorum"
+          ]
+        },
+        {
+          "h": "Member duties",
+          "points": [
+            "GCP or human-protection training (within 6 months of appointment)",
+            "Declare conflicts of interest; sign confidentiality agreement",
+            "Name, profession and affiliation made public"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p226-230"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-ec",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-015",
+      "type": "shortnote",
+      "front": "Short note: What an ethics committee reviews in a proposal",
+      "sections": [
+        {
+          "h": "Documents",
+          "points": [
+            "Protocol; participant information sheet and consent form with translations",
+            "Investigator's brochure; PI's CV",
+            "Insurance or compensation; investigator-sponsor agreement"
+          ]
+        },
+        {
+          "h": "Science and design",
+          "points": [
+            "Rationale and essentiality; specific objectives",
+            "Design, sample size, statistics; justification of controls",
+            "Withdrawal and termination criteria; monitoring; emergency facilities"
+          ]
+        },
+        {
+          "h": "Participants",
+          "points": [
+            "Recruitment and inclusion/exclusion",
+            "Risk-benefit for individual and community",
+            "Medical care, compensation for research injury, confidentiality"
+          ]
+        },
+        {
+          "h": "Consent and conflicts",
+          "points": [
+            "Adequacy and clarity of information; contact persons",
+            "Justification for including those unable to consent",
+            "Conflicts of interest of investigator, institution and sponsor"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p226-230"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-ec",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-053",
+      "type": "shortnote",
+      "front": "Short note: Role of a pharmacologist in an ethics committee",
+      "sections": [
+        {
+          "h": "Membership",
+          "points": [
+            "Pharmacologist is an integral member of institutional ethics committees",
+            "Clinical-trial protocols are reviewed only when at least five members are present, including a medical scientist (preferably a pharmacologist)"
+          ]
+        },
+        {
+          "h": "Review duties",
+          "points": [
+            "Ensures research protocols follow GCP guidelines",
+            "Assesses risk-benefit for participants and the community",
+            "Examines subject selection, inclusion and exclusion criteria"
+          ]
+        },
+        {
+          "h": "Protecting participants",
+          "points": [
+            "Safeguards rights, safety and well-being of all subjects, especially vulnerable ones",
+            "Gives an opinion on compensation after a serious adverse event"
+          ]
+        },
+        {
+          "h": "Training",
+          "points": [
+            "Every member needs training in GCP and regulatory requirements"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p506-510",
+        "Sarkar p226-230",
+        "Sarkar p156-160"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-ec",
+      "level": 3
     },
     {
       "id": "p3-ethics-education-055",
@@ -1320,6 +773,1157 @@
           "year": 2025,
           "marks": 10
         }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-ethics-education-016",
+      "type": "basic",
+      "front": "What is clinical equipoise and why does it matter ethically?",
+      "back": "Genuine uncertainty among experts about which treatment is better. It justifies randomising patients, because the trial is done precisely because doubt exists. Placebo-controlled trials are argued to violate equipoise and the principle of beneficence when a proven effective therapy is already available.",
+      "refs": [
+        "RangDale9 ch8",
+        "Sarkar p186-190"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-placebo",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-017",
+      "type": "basic",
+      "front": "What does the Declaration of Helsinki say about placebo controls?",
+      "back": "It discourages placebo controls when an alternative treatment is available, since patients randomised to placebo would in effect be denied treatment; every patient, including controls, should get the best proven methods and not suffer unnecessary pain. Where an available treatment prevents death or irreversible harm, a placebo control is generally inappropriate.",
+      "refs": [
+        "GG14 ch1",
+        "Sarkar p186-190",
+        "Sarkar p181-185"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-placebo",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-019",
+      "type": "basic",
+      "front": "What must the consent form of a placebo-controlled trial tell participants?",
+      "back": "What \"placebo\" means, in lay language; that they may receive it; why a placebo is used and what alternatives exist; how long they may be on placebo and the likely discomfort; the harm of not receiving or delaying effective treatment and that the condition may worsen; and that they may withdraw at any time.",
+      "refs": [
+        "Sarkar p186-190"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-placebo",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-018",
+      "type": "shortnote",
+      "front": "Short note: When is a placebo-controlled trial ethically justified?",
+      "sections": [
+        {
+          "h": "Justified",
+          "points": [
+            "No proven or approved therapy exists",
+            "Existing therapy is of doubtful or modest, inconsistent efficacy with frequent adverse effects, and the new drug is not expected to be better",
+            "Patients fully informed, autonomy kept, close monitoring, rescue treatment available, GCP followed"
+          ]
+        },
+        {
+          "h": "Not justified",
+          "points": [
+            "Existing therapy is highly and consistently effective: use an equivalence or non-inferiority design",
+            "Existing therapy prevents death or irreversible morbidity"
+          ]
+        },
+        {
+          "h": "Safeguards (OHRP 2008)",
+          "points": [
+            "Add-on design so all receive standard care",
+            "Minimal placebo exposure; early-escape and withdrawal rules",
+            "Smaller placebo arm; DSMB interim review"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p186-190",
+        "Sarkar p181-185",
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-placebo",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-020",
+      "type": "basic",
+      "front": "When is it ethical to use a placebo in clinical practice?",
+      "back": "Only with the patient's welfare as the sole motive, to relieve suffering, when the condition has an unpredictable course, standard treatment fails or is not tolerated, or no effective therapy exists. It must never replace effective treatment, must be stopped if ineffective, and the doctor should answer honestly if asked about it; if it helps and nothing better exists, stopping it is unethical.",
+      "refs": [
+        "Sarkar p186-190"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-placebo",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-058",
+      "type": "essay",
+      "front": "Essay: Role of placebo in clinical trials and its ethical aspects",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Placebo control; clinical equipoise means genuine expert doubt about which treatment is better"
+          ]
+        },
+        {
+          "h": "Ethical objection",
+          "points": [
+            "Violates equipoise and beneficence when proven effective therapy exists",
+            "Helsinki discourages placebo when an alternative treatment is available"
+          ]
+        },
+        {
+          "h": "When justified",
+          "points": [
+            "No proven therapy exists",
+            "Existing therapy modest or inconsistent with frequent adverse effects, and new drug not expected to be better",
+            "Patients fully informed, monitored, rescue treatment available"
+          ]
+        },
+        {
+          "h": "When not justified",
+          "points": [
+            "Existing therapy highly effective: use equivalence or non-inferiority design",
+            "Therapy prevents death or irreversible harm"
+          ]
+        },
+        {
+          "h": "Safeguards and consent",
+          "points": [
+            "Add-on design, minimal exposure, early escape, smaller placebo arm, DSMB review",
+            "Consent explains placebo, alternatives, duration, harm of delayed treatment and right to withdraw"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p186-190",
+        "Sarkar p181-185",
+        "GG14 ch1",
+        "RangDale9 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-placebo",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-ethics-education-021",
+      "type": "basic",
+      "front": "What is a conflict of interest in research, and how should a reader handle it?",
+      "back": "A situation where personal factors (e.g. funding or financial gain) could influence professional judgement or responsibilities. Such conflicts are common; what matters is whether they were recognised and managed. When appraising a paper, check the declared funding source and any statement on how a conflict was handled. Ethics committee members must also declare conflicts.",
+      "refs": [
+        "Sarkar p511-515",
+        "Sarkar p226-230",
+        "Sarkar p186-190"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-professionalism",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-022",
+      "type": "basic",
+      "front": "How does ICD-11 define burnout, and what are its three dimensions?",
+      "back": "A syndrome from chronic workplace stress that has not been successfully managed, marked by (1) exhaustion or energy depletion, (2) mental distance from the job, negativism or cynicism, and (3) reduced professional efficacy.",
+      "refs": [
+        "Sarkar p586-590"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-professionalism",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-059",
+      "type": "basic",
+      "front": "Who described the standard features of burnout, and what is the traffic-light model for?",
+      "back": "Christina Maslach and colleagues described the standard features in the 1970s. The traffic-light model gives a stepwise, colour-coded way to recognise and assess medical burnout: stop and recognise, pause and find causes, then start coping and treatment.",
+      "refs": [
+        "Sarkar p586-590"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-professionalism",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-023",
+      "type": "shortnote",
+      "front": "Short note: Burnout in doctors: causes, consequences and prevention",
+      "sections": [
+        {
+          "h": "Causes",
+          "points": [
+            "Workload: long hours, night duty, administrative tasks, patient overload",
+            "Poor teamwork and relationships; lack of reward, autonomy and job security",
+            "Work-family conflict; lack of resources and development opportunities"
+          ]
+        },
+        {
+          "h": "Consequences",
+          "points": [
+            "More major medical errors and adverse patient incidents",
+            "Lower patient satisfaction; doctors leave practice",
+            "Depression and coronary risk linked to effort-reward imbalance"
+          ]
+        },
+        {
+          "h": "Recognition",
+          "points": [
+            "\"Traffic-light\" model: stop and recognise, pause and find causes, then start coping and treatment"
+          ]
+        },
+        {
+          "h": "Prevention",
+          "points": [
+            "Flexible schedules",
+            "Mindfulness-based stress reduction, meditation",
+            "System-level changes in addition to individual measures"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p586-590"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-professionalism",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-060",
+      "type": "basic",
+      "front": "Why must burnout prevention in doctors include system-level changes and not only individual help?",
+      "back": "Main causes are workplace factors (long hours, night duty, administrative load, poor teamwork, lack of reward, autonomy, resources). Individual measures such as mindfulness help, but cannot remove these causes, so system changes (e.g. flexible schedules) are needed as well. Untreated burnout raises medical errors and makes doctors leave practice.",
+      "refs": [
+        "Sarkar p586-590"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-professionalism",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-061",
+      "type": "basic",
+      "front": "A resident on repeated night duty shows exhaustion, cynicism and a medication error. Analyse using burnout concepts.",
+      "back": "These are the ICD-11 dimensions of burnout (exhaustion, mental distance or cynicism, reduced efficacy), and the error is the consequence the text links to burnout. Use the traffic-light steps: recognise, find causes (night duty, workload, poor support), then start coping measures. Prevention needs system change such as flexible schedules, with mindfulness as a supplement.",
+      "refs": [
+        "Sarkar p586-590"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-professionalism",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-ethics-education-024",
+      "type": "basic",
+      "front": "What is the pharmacologist's role in medical education?",
+      "back": "Teaching undergraduates (pharmacology is a second-year MBBS and BDS subject), postgraduates (including thesis guidance), and nursing and pharmacy students. Content includes rational drug use and essential drugs, drug classes, effects, toxicity, ADRs and interactions, telling real drug information from promotional claims, dose calculation by age, sex and health status, and correct routes. Pharmacologists also educate practising doctors on rational use, new drugs, ADR reporting, drug audit and generic prescribing.",
+      "refs": [
+        "Sarkar p506-510"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-028",
+      "type": "basic",
+      "front": "Which two WHO rational-use interventions relate to medical education?",
+      "back": "Problem-based pharmacotherapy training in undergraduate curricula, and continuing in-service medical education made a requirement for licensure.",
+      "refs": [
+        "Sarkar p56-60"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-029",
+      "type": "basic",
+      "front": "Besides guiding treatment, procurement and reimbursement, what else does Sarkar say an essential medicines list identifies?",
+      "back": "The 'must know' drugs for the teaching and training of health care professionals.",
+      "refs": [
+        "Sarkar p61-65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-030",
+      "type": "basic",
+      "front": "What is AETCOM?",
+      "back": "A longitudinal programme, set out in a 2018 booklet, that helps students build competence in the attitude, ethics and communication domains.",
+      "refs": [
+        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-031",
+      "type": "basic",
+      "front": "Which body issued the AETCOM booklet, and in which year?",
+      "back": "Medical Council of India, 2018.",
+      "refs": [
+        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-032",
+      "type": "basic",
+      "front": "How many AETCOM learning modules are there in each professional year, and how many hours does each year take?",
+      "back": "Professional year I: 5 modules, 34 hours. Year II: 8 modules, 37 hours. Year III: 5 modules, 25 hours. Year IV: 9 modules, 44 hours.",
+      "refs": [
+        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-034",
+      "type": "basic",
+      "front": "Which four roles does GMR 2017 add for the graduate, as AETCOM lists them?",
+      "back": "Leader and member of the health care team; communicator; life-long learner; professional.",
+      "refs": [
+        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-035",
+      "type": "basic",
+      "front": "How does AETCOM define a competency?",
+      "back": "The habitual and judicious use of communication, knowledge, technical skills, clinical reasoning, emotions, values and reflection in daily practice.",
+      "refs": [
+        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-036",
+      "type": "basic",
+      "front": "What role does AETCOM give to assessment?",
+      "back": "It is a vital part of competency-based education: besides pass/fail decisions, it gives feedback so the learner can improve.",
+      "refs": [
+        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-038",
+      "type": "basic",
+      "front": "How long is MD Pharmacology PG training, and how is it divided?",
+      "back": "3 years for the MD broad-speciality course (PGMER 2023 course-duration table).",
+      "refs": [
+        "PGMER 2023 Annexure-1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-046",
+      "type": "basic",
+      "front": "What are the four levels of Miller's pyramid of clinical competence, bottom to top?",
+      "back": "Knows, knows how, shows how, does.",
+      "refs": [
+        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170",
+        "WEB EuropePMC Assessment in competency-based medical education for anesthesiology: validity evidence, equity, and faculty readiness Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13655584"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-052",
+      "type": "cloze",
+      "front": "Miller's pyramid levels, bottom to top",
+      "text": "{{Knows}}, {{knows how}}, {{shows how}}, {{does}}; a later addition above the apex is {{professional identity}}.",
+      "refs": [
+        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170",
+        "WEB EuropePMC Assessment in competency-based medical education for anesthesiology: validity evidence, equity, and faculty readiness Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13655584"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-ethics-education-033",
+      "type": "shortnote",
+      "front": "Short note: Structure of the AETCOM booklet",
+      "sections": [
+        {
+          "h": "Section I",
+          "points": [
+            "Goals, roles and universal competencies (extract of GMR 2017); the base for all undergraduate learning"
+          ]
+        },
+        {
+          "h": "Section II",
+          "points": [
+            "Suggested teaching modules for each professional year, with resources, cases and teaching methods"
+          ]
+        },
+        {
+          "h": "Section III",
+          "points": [
+            "Additional non-core competencies"
+          ]
+        },
+        {
+          "h": "Section IV",
+          "points": [
+            "Competency log: skills acquired over time, best practised in simulated settings with standardised patients"
+          ]
+        },
+        {
+          "h": "Section V",
+          "points": [
+            "Formative elements marked by tutors, mentors or guides, with non-punitive feedback"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB MCI AETCOM Attitude Ethics and Communication competencies booklet 2018 https://nmc.org.in/storage/new/AETCOM_book.pdf"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-037",
+      "type": "basic",
+      "front": "What teaching-learning methods does the NMC MD Pharmacology PG guideline list?",
+      "back": "Classroom lectures, self-directed learning, case-based learning, case discussions, integrated teaching, small group discussions, seminars, journal club and research presentations.",
+      "refs": [
+        "MD-in-Pharmacology (revised) teaching-learning methods"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-039",
+      "type": "basic",
+      "front": "How often must MD Pharmacology PG teaching sessions be held?",
+      "back": "A minimum of 10 didactic lectures a year; journal club at least once every 1-2 weeks; student seminar at least once every 1-2 weeks, each with a faculty moderator.",
+      "refs": [
+        "MD-in-Pharmacology (revised) teaching-learning methods"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-040",
+      "type": "basic",
+      "front": "What is the place of laboratory work in MD Pharmacology PG learning?",
+      "back": "Learning is mainly self-directed and rests on laboratory and academic work; formal sessions only supplement it, and practical competencies are its cornerstone.",
+      "refs": [
+        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf",
+        "MD-in-Pharmacology (revised) general principles"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-041",
+      "type": "basic",
+      "front": "What is the PG log book for?",
+      "back": "It records experiments done and skills acquired, aids internal evaluation, and is checked periodically by faculty.",
+      "refs": [
+        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf",
+        "MD-in-Pharmacology (revised) log book"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-042",
+      "type": "basic",
+      "front": "What must formative assessment in MD Pharmacology cover?",
+      "back": "Continual assessment of medical knowledge, patient care, procedural and academic skills, interpersonal skills, professionalism, self-directed learning and the ability to practise within the system.",
+      "refs": [
+        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf",
+        "MD-in-Pharmacology (revised) formative assessment"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-043",
+      "type": "basic",
+      "front": "Formative vs summative assessment in the MD Pharmacology guideline: when is each done?",
+      "back": "Formative: during training, continual, with feedback. Summative: at the end of training, under the postgraduate examination rules.",
+      "refs": [
+        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf",
+        "MD-in-Pharmacology (revised) formative and summative assessment"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-044",
+      "type": "basic",
+      "front": "What are the three parts of the MD Pharmacology postgraduate examination, and what marks are needed to pass?",
+      "back": "Thesis; theory (four papers); and practical/clinical. At least 50% is needed in theory and in practical separately.",
+      "refs": [
+        "PGMER 2023 summative examination rules",
+        "MD-in-Pharmacology (revised) summative assessment"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-045",
+      "type": "basic",
+      "front": "When must the MD Pharmacology thesis be submitted, and who examines it?",
+      "back": "At least six months before the theory and clinical/practical examinations; examined by a minimum of three examiners, one internal and two external.",
+      "refs": [
+        "WEB NMC Guidelines for Competency Based PG Training Programme MD Pharmacology (copy hosted by Narayan Medical College) https://nmch.ac.in/wp-content/uploads/2020/06/MD-PHARMACOLOGY.pdf",
+        "MD-in-Pharmacology (revised) summative assessment"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-047",
+      "type": "basic",
+      "front": "What must assessment under Miller's pyramid be anchored to?",
+      "back": "Observable behaviour in authentic clinical settings.",
+      "refs": [
+        "WEB EuropePMC Assessment in competency-based medical education for anesthesiology: validity evidence, equity, and faculty readiness Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13655584"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-048",
+      "type": "basic",
+      "front": "Which Miller level is taught and assessed through simulation?",
+      "back": "Shows how.",
+      "refs": [
+        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-ethics-education-049",
+      "type": "basic",
+      "front": "Which Miller level is linked with entrustment in authentic clinical contexts?",
+      "back": "Does (the top level of Miller's pyramid: performance in real practice).",
+      "refs": [
+        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-ethics-education-051",
+      "type": "shortnote",
+      "front": "Short note: Miller's pyramid in medical education",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Stratifies clinical competence into four ascending levels",
+            "Widely adopted in medical education"
+          ]
+        },
+        {
+          "h": "Levels",
+          "points": [
+            "Knows: knowledge transmission",
+            "Knows how and shows how: simulation-based teaching",
+            "Does: entrustment in authentic clinical contexts"
+          ]
+        },
+        {
+          "h": "Assessment",
+          "points": [
+            "Anchored to observable behaviour in authentic settings"
+          ]
+        },
+        {
+          "h": "Extension",
+          "points": [
+            "Professional identity ('is') added above the apex"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB EuropePMC Application effect of Miller's pyramid teaching method based on HeartCode BLS in basic life support training for nursing students Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13388170",
+        "WEB EuropePMC Assessment in competency-based medical education for anesthesiology: validity evidence, equity, and faculty readiness Front Med (Lausanne) 2026 https://europepmc.org/article/PMC/PMC13655584"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-ethics-education-062",
+      "type": "basic",
+      "level": 1,
+      "front": "What is a drug and therapeutics committee (DTC)?",
+      "back": "A body set up in districts and hospitals to promote rational drug use, one of the WHO key interventions. A hospital pharmacologist may act as its convener.",
+      "refs": [
+        "Sarkar p56-60",
+        "Sarkar p506-510"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-063",
+      "type": "basic",
+      "level": 1,
+      "front": "What does a DTC formulate for a hospital?",
+      "back": "Policies for prescribing, storing and safely dispensing drugs, a hospital formulary, and hospital antibiotic policy (with the clinical microbiologist and the head of critical care).",
+      "refs": [
+        "Sarkar p506-510"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-064",
+      "type": "basic",
+      "level": 1,
+      "front": "What is pharmacovigilance?",
+      "back": "The science and activities of detecting, assessing, understanding and preventing adverse drug effects or other drug-related problems (WHO definition).",
+      "refs": [
+        "KDT8 ch6",
+        "Sarkar p86-90"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-065",
+      "type": "basic",
+      "level": 1,
+      "front": "What is a signal in pharmacovigilance?",
+      "back": "Reported information on a possible causal link between a drug and an adverse event whose link was unknown or incompletely documented before.",
+      "refs": [
+        "Sarkar p86-90"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-066",
+      "type": "basic",
+      "level": 1,
+      "front": "How is causality of an adverse drug event judged?",
+      "back": "By temporal relation to the drug, previous knowledge of the reaction, dechallenge (it settles when the drug stops) and rechallenge (it returns on re-exposure, often unethical to test). Graded definite, probable, possible or doubtful.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-067",
+      "type": "basic",
+      "level": 1,
+      "front": "Which scales do pharmacovigilance centres use to score ADR causality and severity?",
+      "back": "The Naranjo algorithm for causality and the modified Hartwig scale for severity grading.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-068",
+      "type": "basic",
+      "level": 1,
+      "front": "What is a disproportionality method in signal detection?",
+      "back": "A quantitative method that compares how often a drug-event pair is reported with how often it is expected across the whole spontaneous-report database. It needs no drug-use denominator, but its accuracy depends on assumptions that are hard to verify.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-069",
+      "type": "basic",
+      "level": 1,
+      "front": "Why can spontaneous reporting not give the true incidence of an ADR?",
+      "back": "The numerator (affected patients) and denominator (patients exposed) are unknown, and underreporting is substantial, so reports only flag possible signals.",
+      "refs": [
+        "GG14 ch8",
+        "Sarkar p91-95"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-070",
+      "type": "basic",
+      "level": 1,
+      "front": "What is the FDA Sentinel System?",
+      "back": "A partnership of the FDA with many organisations that uses curated electronic health data for observational pharmacoepidemiologic studies of possible safety signals.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-071",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Methods of signal detection in pharmacovigilance",
+      "sections": [
+        {
+          "h": "Sources of signals",
+          "points": [
+            "Spontaneous (voluntary) reports, e.g. UK Yellow Card and Indian ADR forms",
+            "Prescription-event monitoring and case reports in the literature"
+          ]
+        },
+        {
+          "h": "Case screening",
+          "points": [
+            "Relevance: new drug (4 years from approval), unknown reaction, serious reaction",
+            "Identify duplicate reports using sex, age or date of birth, and exposure dates",
+            "Causality assessment must validate the link before a case counts"
+          ]
+        },
+        {
+          "h": "Statistical detection",
+          "points": [
+            "Disproportionality methods: observed versus expected reports in the whole database",
+            "No drug-use denominator needed; accuracy depends on assumptions"
+          ]
+        },
+        {
+          "h": "Confirmation",
+          "points": [
+            "Controlled observational studies, e.g. pharmacoepidemiology and the Sentinel System",
+            "Post-marketing trials, used sparingly because of ethical limits",
+            "Case reports suffice for rare events close in time to exposure, with a large excess risk"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Signals go to the regulator (CDSCO and the national PvPI in India)",
+            "Action: label change, restriction or withdrawal"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p91-95",
+        "Sarkar p86-90",
+        "GG14 ch8",
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-072",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Drug and therapeutics committee: constitution, role and responsibilities",
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "WHO intervention: set up drug and therapeutics committees in districts and hospitals",
+            "Purpose: rational use of medicines"
+          ]
+        },
+        {
+          "h": "Constitution",
+          "points": [
+            "A hospital pharmacologist may act as convener",
+            "Full membership is not defined in the owner books; state it from the institution's own rules"
+          ]
+        },
+        {
+          "h": "Prescribing and formulary",
+          "points": [
+            "Hospital formulary: pharmacologist facilitates its formulation",
+            "Policies for prescribing, storage and safe dispensing",
+            "Prescription audits and drug utilisation studies"
+          ]
+        },
+        {
+          "h": "Specific drug policies",
+          "points": [
+            "Narcotic and psychotropic drugs",
+            "Chemotherapeutic agents and radioactive drugs",
+            "Hospital antibiotic policy with the clinical microbiologist and head of critical care"
+          ]
+        },
+        {
+          "h": "Safety",
+          "points": [
+            "Adverse drug event reporting, management and monitoring",
+            "Medication error detection and mitigation",
+            "Pharmacologist keeps watch on ADRs and drug-drug interactions"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p506-510",
+        "Sarkar p56-60"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-education",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-ethics-education-073",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Ethics committee: constitution, review and responsibilities",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Independent body of medical, non-medical, scientific and non-scientific members",
+            "Protects the rights, safety and well-being of trial subjects"
+          ]
+        },
+        {
+          "h": "Constitution and quorum",
+          "points": [
+            "At least five members present, including a medical scientist (preferably a pharmacologist) and a clinician",
+            "Legal expert, social scientist or NGO representative, and a lay person preferred",
+            "At least one non-affiliated member; no decision valid without quorum"
+          ]
+        },
+        {
+          "h": "Review types",
+          "points": [
+            "Scientific evaluation before ethical review",
+            "Categories by risk: expedited, full, or exempt",
+            "Periodic review every 6 months to 1 year; continuing review of new information and adverse events; interim review"
+          ]
+        },
+        {
+          "h": "Ethical review items",
+          "points": [
+            "Appropriateness of design, sample size and statistics",
+            "Risk versus anticipated benefit; justification of controls; withdrawal criteria"
+          ]
+        },
+        {
+          "h": "Decisions and records",
+          "points": [
+            "Investigator may be invited; expert opinions recorded but outside the decision",
+            "Decisions by consensus or quorum",
+            "Registration by the licensing authority valid 5 years; renewal applied 90 days before expiry; records kept 5 years after trial completion"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p226-230"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-ethics-education-ec",
+      "tags": [
+        "uses"
       ]
     }
   ]

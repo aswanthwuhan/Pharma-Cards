@@ -433,9 +433,9 @@
       "subtopic": "p1-biochemical-spectrophotometry",
       "kind": "fact",
       "q": "Flame photometry: emitting species in the flame",
-      "a": "Excited metal atoms returning to ground state",
+      "a": "Excited atoms falling back to a lower energy state",
       "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+        "Medhi PMECP PDF p320-321"
       ]
     },
     {
@@ -443,19 +443,9 @@
       "subtopic": "p1-biochemical-spectrophotometry",
       "kind": "fact",
       "q": "Flame photometry: wavelength identifies",
-      "a": "The element (characteristic wavelength, isolated by a filter)",
+      "a": "The element (each has its own emission spectrum)",
       "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
-      ]
-    },
-    {
-      "id": "rf-p1-biochemical-0047",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "kind": "fact",
-      "q": "Flame photometer: component that feeds the sample into the flame",
-      "a": "Nebuliser",
-      "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+        "Medhi PMECP PDF p320-321"
       ]
     },
     {
@@ -463,9 +453,9 @@
       "subtopic": "p1-biochemical-spectrophotometry",
       "kind": "fact",
       "q": "Flame photometer: detector",
-      "a": "Photodetector (signal proportional to intensity)",
+      "a": "Detector; output proportional to concentration",
       "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+        "Medhi PMECP PDF p320-321"
       ]
     },
     {
@@ -473,19 +463,9 @@
       "subtopic": "p1-biochemical-spectrophotometry",
       "kind": "fact",
       "q": "Flame photometry: how concentration is found",
-      "a": "Calibration graph of galvanometer reading vs concentration",
+      "a": "Read standards of known strength, compare unknown",
       "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
-      ]
-    },
-    {
-      "id": "rf-p1-biochemical-0050",
-      "subtopic": "p1-biochemical-spectrophotometry",
-      "kind": "fact",
-      "q": "Flame temperature depends on",
-      "a": "Fuel to oxidant ratio",
-      "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+        "Medhi PMECP PDF p320-321"
       ]
     },
     {
@@ -493,9 +473,9 @@
       "subtopic": "p1-biochemical-spectrophotometry",
       "kind": "fact",
       "q": "Clinical analytes measured by flame photometry",
-      "a": "Sodium and potassium in serum",
+      "a": "Sodium and potassium",
       "refs": [
-        "WEB Univ of Delhi Chemistry, M.Sc. notes: Flame Atomic Emission Spectroscopy (2023) http://chemistry.du.ac.in/wp-content/uploads/2023/01/Flame-spectroscopy.pdf"
+        "Medhi PMECP PDF p320-321"
       ]
     },
     {
@@ -566,6 +546,1090 @@
       "a": "Radioiodine",
       "refs": [
         "Satoskar Pharmacology PDF p159"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0059",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Retention factor (Rf) in TLC: formula",
+      "a": "Distance moved by compound / distance moved by solvent",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0060",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Normal-phase TLC: larger Rf means",
+      "a": "Less polar compound",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0061",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "TLC: nature of the technique and main limitation",
+      "a": "Cheap, rapid, semi-quantitative; mainly qualitative",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0062",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "HPLC compared with column chromatography",
+      "a": "Solvent forced through at up to about 400 atmospheres, not gravity; faster, finer particles",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0063",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Normal-phase HPLC: column and solvent",
+      "a": "Polar silica; non-polar solvent such as hexane",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0064",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Reversed-phase HPLC: column and solvent",
+      "a": "Silica with long hydrocarbon chains; polar solvent such as water-methanol",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0065",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Most commonly used form of HPLC",
+      "a": "Reversed phase",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0066",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Normal-phase HPLC: compounds that emerge first",
+      "a": "Non-polar compounds",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0067",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Reversed-phase HPLC: compounds that emerge first",
+      "a": "Polar compounds",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0068",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "HPLC retention time: definition",
+      "a": "Time from injection to maximum peak height of the compound",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0069",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "class",
+      "q": "Factors that change HPLC retention time: list all",
+      "a": "Pressure, stationary phase (material and particle size), solvent composition, column temperature",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0070",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "HPLC peak area is proportional to",
+      "a": "Amount of compound passing the detector",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0071",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Common HPLC detector principle",
+      "a": "UV absorption of eluate",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0072",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "HPLC coupled to mass spectrometer: advantage",
+      "a": "Compounds identified from fragmentation pattern without known retention times",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0073",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Preparative HPLC: purpose",
+      "a": "Isolation and purification of compounds",
+      "refs": [
+        "Sarkar p401-405"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0074",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Mass spectrometry: what it measures",
+      "a": "Mass-to-charge ratio and abundance of gas-phase ions",
+      "refs": [
+        "Sarkar p406-410"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0075",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "class",
+      "q": "Main components of a mass spectrometer: list",
+      "a": "Ion source, analyser, detector",
+      "refs": [
+        "Sarkar p406-410"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0076",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "class",
+      "q": "Ionisation techniques in mass spectrometry: list all",
+      "a": "Electron impact, chemical ionisation, fast atom bombardment, field ionisation, plasma desorption",
+      "refs": [
+        "Sarkar p406-410"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0077",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "class",
+      "q": "Hyphenated mass spectrometry techniques: list all",
+      "a": "GC-MS, LC-MS, HPLC-MS",
+      "refs": [
+        "Sarkar p406-410"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0078",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Mass spectrum is a plot of",
+      "a": "Ion abundance against mass-to-charge ratio",
+      "refs": [
+        "Sarkar p406-410"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0079",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Radioimmunoassay: sensitivity limit",
+      "a": "Picogram amounts with high-affinity antibody",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0080",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "class",
+      "q": "Drugs and substances measured by RIA: list",
+      "a": "Hormones, digoxin or digitoxin, morphine, amphetamine",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0081",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "RIA: hazard of radioiodine in the body",
+      "a": "Concentrates in the thyroid if accidentally taken",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0082",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "class",
+      "q": "Disadvantages of RIA: list all",
+      "a": "Costly short-lived label, gamma counter needed, radiation hazard, licence and disposal, narrow range, hard to automate",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0083",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "RIA: type of analysis",
+      "a": "Indirect, saturation analysis (reagent less than analyte)",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0084",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "PSA measured by RIA: diagnostic use",
+      "a": "Prostate cancer",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0085",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "FPIA: free tracer versus antibody-bound tracer polarisation",
+      "a": "Free tracer: low polarisation; bound tracer: higher (slower rotation)",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0086",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "FPIA: effect of more drug in sample on polarisation",
+      "a": "Lower polarisation (less labelled drug bound to antibody)",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0087",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "class",
+      "q": "Drugs of abuse detectable by FPIA: list all",
+      "a": "Cannabinoids, amphetamines, barbiturates, cocaine, benzodiazepines, methadone, opiates, PCP",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0088",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "FPIA: advantages and main disadvantage",
+      "a": "Fast, sensitive, easy; serum background interference needs blank",
+      "refs": [
+        "Sarkar p396-400"
+      ],
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0089",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "class",
+      "q": "ELISA types: list all",
+      "a": "Direct, indirect, sandwich, competitive",
+      "refs": [
+        "Sarkar p391-395"
+      ],
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0090",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "ELISA type with highest sensitivity from secondary-antibody amplification",
+      "a": "Indirect ELISA",
+      "refs": [
+        "Sarkar p391-395"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0091",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Competitive ELISA: higher sample antigen gives",
+      "a": "Weaker signal",
+      "refs": [
+        "Sarkar p391-395"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0092",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Steady-state level versus predicted value",
+      "a": "May be 1/3 to 3 times the predicted",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "tags": [
+        "pk"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0093",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Revised dose rate formula in TDM (first-order)",
+      "a": "Previous rate x target level / measured steady-state level",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0094",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "TDM sample time in poisoning",
+      "a": "As early as possible, then repeat",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "tags": [
+        "poisoning"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0095",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "T/E ratio: full name",
+      "a": "Urinary testosterone glucuronide to epitestosterone glucuronide ratio",
+      "refs": [
+        "GG12 ch41",
+        "GG14 PDF p1016"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0096",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Blood doping drug detected by modern assays",
+      "a": "Recombinant erythropoietin (epoetin)",
+      "refs": [
+        "GG14 PDF p920"
+      ],
+      "tags": [
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0097",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Why epoetin misuse by athletes is discouraged",
+      "a": "Implicated in deaths of several athletes",
+      "refs": [
+        "GG14 PDF p922"
+      ],
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0098",
+      "subtopic": "p1-biochemical-doping",
+      "kind": "fact",
+      "q": "Technique that distinguishes pharmaceutical from endogenous testosterone",
+      "a": "Isotope-ratio mass spectrometry (13C/12C)",
+      "refs": [
+        "GG12 ch41"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0099",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Colorimetry: light range measured",
+      "a": "Visible range only",
+      "refs": [
+        "Ghosh FEP PDF p164"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0100",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Colorimetry: filter colour relative to absorbing substance",
+      "a": "Complementary colour",
+      "refs": [
+        "Ghosh FEP PDF p164"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0101",
+      "subtopic": "p1-biochemical-spectrophotometry",
+      "kind": "fact",
+      "q": "Beer-Lambert law: absorbance is directly proportional to",
+      "a": "Concentration of the absorbing chemical (at fixed wavelength and path length)",
+      "refs": [
+        "Sarkar p421-425"
+      ],
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0102",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Physical half-life of 131I",
+      "a": "About 8 days",
+      "refs": [
+        "KDT8 ch18"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0103",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "131I emission used for tracing",
+      "a": "Gamma rays",
+      "refs": [
+        "KDT8 ch18"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0104",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "131I emission that destroys thyroid cells",
+      "a": "Beta particles",
+      "refs": [
+        "KDT8 ch18"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0105",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Stable (non-radioactive) iodine isotope",
+      "a": "127I",
+      "refs": [
+        "KDT8 ch18"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0106",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Route of therapeutic 131I",
+      "a": "Oral sodium salt of 131I in water",
+      "refs": [
+        "KDT8 ch18"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0107",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Commonest indication for radioactive iodine therapy",
+      "a": "Hyperthyroidism",
+      "refs": [
+        "KDT8 ch18"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0108",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Diagnostic 131I dose range",
+      "a": "25-100 microcurie",
+      "refs": [
+        "KDT8 ch18"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0109",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Radioisotope used for PET tracing",
+      "a": "11C",
+      "refs": [
+        "Medhi PMECP PDF p367"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0110",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Radioisotope used for AMS microdose studies",
+      "a": "14C-labelled drug",
+      "refs": [
+        "Medhi PMECP PDF p367"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0111",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Radioisotope favoured for linking to monoclonal antibody",
+      "a": "131I (readily available, inexpensive)",
+      "refs": [
+        "GG14 PDF p1448"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0112",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Enzyme that drives PCR",
+      "a": "DNA polymerase",
+      "refs": [
+        "Medhi PMECP PDF p102"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0113",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Three steps of one PCR cycle",
+      "a": "Denaturation, annealing, extension",
+      "refs": [
+        "Medhi PMECP PDF p100"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0114",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Inventor of PCR and year",
+      "a": "Kary Mullis, 1984",
+      "refs": [
+        "Medhi PMECP PDF p100"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0115",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Year PCR won the Nobel Prize",
+      "a": "1993 (Chemistry)",
+      "refs": [
+        "Medhi PMECP PDF p100"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0116",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Cations in PCR buffer",
+      "a": "Mg2+ and Mn2+ (divalent); K+ (monovalent)",
+      "refs": [
+        "Medhi PMECP PDF p102"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0118",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Gene tested for MRSA by PCR",
+      "a": "mecA",
+      "refs": [
+        "GG14 PDF p1151"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0119",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Point-of-care PCR result time",
+      "a": "Under 2 h",
+      "refs": [
+        "GG14 PDF p1151"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0120",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Gene used for bacterial identification in metagenomics",
+      "a": "16S rRNA",
+      "refs": [
+        "GG14 ch6"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0121",
+      "subtopic": "p1-biochemical-immunoassays",
+      "kind": "fact",
+      "q": "Gel and stain used to view PCR DNA",
+      "a": "Agarose gel with ethidium bromide",
+      "refs": [
+        "Ghosh FEP PDF p200"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0122",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Lowest concentration that stops visible growth after 18-24 h",
+      "a": "MIC (minimum inhibitory concentration)",
+      "refs": [
+        "GG14 ch56"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0123",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Dilution series used for MIC",
+      "a": "Doubling concentrations",
+      "refs": [
+        "GG14 ch56"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0124",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Disk diffusion clear area around disk",
+      "a": "Zone of inhibition",
+      "refs": [
+        "GG14 ch56"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0125",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Susceptibility rule against breakpoint",
+      "a": "MIC at or below the breakpoint = susceptible",
+      "refs": [
+        "GG14 ch56"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0127",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Adjusting sample strength against a standard",
+      "a": "Biostandardisation",
+      "refs": [
+        "Satoskar Pharmacology PDF p159"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0129",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Large MBC-to-MIC difference means",
+      "a": "Bacteriostatic action",
+      "refs": [
+        "KDT8 ch50"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0130",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Lag in regrowth after brief antibiotic exposure",
+      "a": "Post-antibiotic effect (PAE)",
+      "refs": [
+        "KDT8 ch50"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0131",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Clinical use of MBC",
+      "a": "Not used to guide antibiotic selection",
+      "refs": [
+        "KDT8 ch50"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0132",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "class",
+      "q": "Biomarker definition",
+      "a": "Objectively measured indicator of normal or pathogenic process, or drug response",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0133",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Surrogate marker function",
+      "a": "Substitutes for a clinical endpoint; predicts clinical benefit",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0134",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Example surrogate marker of clinical benefit",
+      "a": "Blood pressure",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0135",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Clinical endpoint: how a patient feels, functions or survives",
+      "a": "Clinical endpoint (outcome)",
+      "refs": [
+        "Bioequivalence & Statistics PDF p287"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0136",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "class",
+      "q": "Premarketing surrogate endpoints: examples",
+      "a": "Blood pressure, lipid levels, HbA1c, CD4 count",
+      "refs": [
+        "GG14 PDF p166"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0137",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Antiarrhythmics misleading surrogate",
+      "a": "Flecainide and encainide: fewer VPDs, more mortality after MI (CAST)",
+      "refs": [
+        "GG14 PDF p166"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0138",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Endogenous probes for OATP1B and OCT2/MATE",
+      "a": "Coproporphyrin-I (OATP1B); N-methylnicotinamide (OCT2/MATE)",
+      "refs": [
+        "GG14 ch4"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0139",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Genetic test before carbamazepine",
+      "a": "HLA-B*1502",
+      "refs": [
+        "GG14 PDF p71"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0140",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Genetic test before rasburicase",
+      "a": "G6PD deficiency",
+      "refs": [
+        "GG14 PDF p71"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0141",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Gene variants guiding warfarin dose",
+      "a": "VKORC1 (AA variant) with CYP2C9",
+      "refs": [
+        "GG14 PDF p71"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0142",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Melanoma biomarker for vemurafenib",
+      "a": "BRAF V600E mutation",
+      "refs": [
+        "GG14 PDF p71"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0143",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Biomarker for trastuzumab",
+      "a": "HER2/neu overexpression",
+      "refs": [
+        "GG14 PDF p71"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0144",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Biomarker for imatinib",
+      "a": "Philadelphia chromosome",
+      "refs": [
+        "GG14 PDF p71"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0146",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Validation criterion before a biomarker becomes surrogate",
+      "a": "Biological plausibility",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0147",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Entire set of metabolites within a cell",
+      "a": "Metabolome",
+      "refs": [
+        "Sarkar p146-150"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0148",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Quantitative protein expression profile of a cell, organism or tissue",
+      "a": "Proteome",
+      "refs": [
+        "Sarkar p146-150"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0149",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Two methods used to compare protein expression between tumour and normal tissue",
+      "a": "2D gel electrophoresis and mass spectrometry",
+      "refs": [
+        "Sarkar p146-150"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0150",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "class",
+      "q": "Four conceptual approaches in metabolomics: list",
+      "a": "Target analysis, metabolite profiling, metabolomics, metabolic fingerprinting",
+      "refs": [
+        "Sarkar p146-150"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0151",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Two most widely used detection techniques in metabolomics",
+      "a": "NMR and mass spectrometry",
+      "refs": [
+        "Sarkar p146-150"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0152",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Metabolomics detection technique that needs no prior separation",
+      "a": "NMR spectroscopy (sample can be recovered)",
+      "refs": [
+        "Sarkar p146-150"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0153",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Four steps of a metabolomics experiment",
+      "a": "Sample collection and preparation; separation and detection; data mining and extraction; data analysis",
+      "refs": [
+        "Sarkar p146-150"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0154",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Body fluid where metabolomics fingerprints liver, kidney and CNS toxicity in animals",
+      "a": "Urine",
+      "refs": [
+        "GG14 ch5"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0155",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Omics layer: mRNA transcribed from thousands of genes at once",
+      "a": "Transcriptomics (transcriptome)",
+      "refs": [
+        "GG14 ch1"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0156",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Omics layer: thousands of translated proteins quantified together",
+      "a": "Proteomics",
+      "refs": [
+        "GG14 ch1"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0157",
+      "subtopic": "p1-biochemical-drug-levels",
+      "kind": "fact",
+      "q": "Why proteomics is harder than genomics",
+      "a": "Protein expression changes with time and environment; the genome is nearly constant",
+      "refs": [
+        "Sarkar p146-150"
+      ]
+    },
+    {
+      "id": "rf-p1-biochemical-0158",
+      "subtopic": "p1-biochemical-chromatography",
+      "kind": "fact",
+      "q": "Metabolic profiling: main use in new drug development",
+      "a": "Toxicity assessment before clinical trials",
+      "refs": [
+        "Sarkar p146-150"
       ]
     }
   ]

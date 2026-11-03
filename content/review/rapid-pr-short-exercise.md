@@ -117,3 +117,44 @@ Totals: re-grounded 3, new 24, still unsourced 2.
 | rf-pr-short-exercise-0076 | new | Pickar Dosage Calculations PDF p2 |
 | rf-pr-short-exercise-0077 | new | Pickar Dosage Calculations PDF p37 |
 | rf-pr-short-exercise-0078 | new | Pickar Dosage Calculations PDF p36 |
+
+## Ladder pass additions
+| rf-pr-short-exercise-0079 | new | KDT8 ch71 |
+| rf-pr-short-exercise-0080 | new | KDT8 ch71, UNSOURCED - owner must verify |
+| rf-pr-short-exercise-0081 | new | KDT8 ch4 |
+| rf-pr-short-exercise-0082 | new | KDT8 ch4 |
+| rf-pr-short-exercise-0083 | new | KDT8 ch4, UNSOURCED - owner must verify |
+| rf-pr-short-exercise-0084 | new | Sarkar p376-380, UNSOURCED - owner must verify |
+| rf-pr-short-exercise-0085 | new | RangDale9 ch8 |
+| rf-pr-short-exercise-0086 | new | KDT8 ch5 |
+| rf-pr-short-exercise-0087 | new | KDT8 ch3 |
+| rf-pr-short-exercise-0088 | new | KDT8 ch3 |
+
+## Checker
+Spot check of 25 rapid cards with numbers or FDC/Schedule Y content.
+
+| id | result | source / note |
+| --- | --- | --- |
+| rf-pr-short-exercise-0019 | ok | Sarkar p246-250 (group 4) |
+| rf-pr-short-exercise-0020 | ok | Sarkar p246-250 (group 1) |
+| rf-pr-short-exercise-0031 | ok | KDT8 PDF p90 (BW/70) |
+| rf-pr-short-exercise-0032 | corrected | Removed unverified "/1.7" constant; answer now relative-BSA wording (KDT8 PDF p90) |
+| rf-pr-short-exercise-0034 | ok | 720 mg re-computed |
+| rf-pr-short-exercise-0035 | corrected | Answer 984 mg/day changed to 987 mg/day (41 mg/h x 24 h) |
+| rf-pr-short-exercise-0044 | corrected | NNT not in owner books; refs set to UNSOURCED |
+| rf-pr-short-exercise-0047 | corrected | Removed "2-3 hours apart"; answer now "separate doses in time" (KDT8 ch71) |
+| rf-pr-short-exercise-0053 | corrected | Refs changed from Sarkar p281-285 (not verified) to Medhi PMECP p56 plus UNSOURCED |
+| rf-pr-short-exercise-0059 | ok | KDT8 PDF p89 |
+| rf-pr-short-exercise-0060 | ok | KDT8 PDF p89 |
+| rf-pr-short-exercise-0062 | ok | Sarkar p246-250 |
+| rf-pr-short-exercise-0065 | ok | Sarkar OCR p366-370; OR 25 re-computed |
+| rf-pr-short-exercise-0076 | ok | Pickar PDF p2 |
+| rf-pr-short-exercise-0077 | ok | Pickar PDF p37 |
+| rf-pr-short-exercise-0078 | corrected | Ref changed from Pickar p36 (question stem) to Pickar p393 label text plus Katzung16 PDF p854 |
+| rf-pr-short-exercise-0084 | ok | Sarkar OCR p376-380; UNSOURCED kept |
+| rf-pr-short-exercise-0085 | corrected | NNT formula ref set to UNSOURCED |
+| rf-pr-short-exercise-0088 | ok | KDT8 ch3 |
+
+Forbidden-source grep: no Prep, RR5 or RapidRev refs in either file.
+Validator: node scripts/validate-content.mjs --check reports "check ok" after edits.
+Not checked this pass: rapid cards without numbers (about 60 cards), rf-0061 wording against KDT8 ch5 Appendix 4.

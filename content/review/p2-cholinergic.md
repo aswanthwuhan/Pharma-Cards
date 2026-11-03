@@ -97,3 +97,87 @@ Grounded against the owner's books (GROUNDING-RULES.md). Cards checked: 50. Corr
 - Target (+30 study) NOT met: 18 added. Rapid +71 vs target +120: remaining cholinergic facts are either already carded or not in the pages read (GG14 p234-241 and Katzung16 ch7-8 not fully read this pass).
 - Book conflicts: none found.
 - Not done: cevimeline, umeclidinium facts beyond the index mentions.
+
+## Difficulty ladder pass (2026-11-03)
+All 72 existing cards: level set (ok, level added; 006,070 L2; 055 L3). New cards below.
+id | status | source
+p2-cholinergic-073 | new | KDT8 ch7
+p2-cholinergic-074 | new | KDT8 ch7
+p2-cholinergic-075 | new | KDT8 ch7
+p2-cholinergic-076 | new | KDT8 ch7
+p2-cholinergic-078 | new | KDT8 ch7
+p2-cholinergic-079 | new | KDT8 ch7
+p2-cholinergic-080 | new | KDT8 ch7
+p2-cholinergic-081 | new | KDT8 ch7
+p2-cholinergic-082 | new | KDT8 ch7
+p2-cholinergic-083 | new | KDT8 ch7
+p2-cholinergic-084 | new | KDT8 ch7
+p2-cholinergic-085 | new | KDT8 ch7
+p2-cholinergic-086 | new | KDT8 ch8
+p2-cholinergic-087 | new | KDT8 ch8
+p2-cholinergic-088 | new | KDT8 ch8
+p2-cholinergic-089 | new | KDT8 ch8
+Pyq added: 020 (UHSR 2025), 078, 079, 084. Id 077 unused.
+
+## Checker
+Spot-checked ~20 cards (ipratropium, tiotropium, hyoscine patch, varenicline, bupropion, Wenckebach, bethanechol/pilocarpine/cevimeline/carbachol doses, atropine 7-12 days, M2/M5): all match KDT8/GG14. No Prep/RR5 refs. Ladder OK (each subtopic >=3 L1, 2 L2, 1 L3). No deletions or edits. Gaps scanned; none added (ecothiopate not in KDT8).
+
+### Checker re-pass
+Re-verified vs KDT8 p135-139: neostigmine 15 mg 6-hourly, edrophonium 10-30 min / 2+8 mg, neostigmine 1.5 mg test, d-TC 0.5 mg, atropine 2 mg q10 min, 1-2 weeks. All correct. No edits.
+
+## Gap questions (UHSR 2025, Q bank) pass
+
+| id | status | source |
+|---|---|---|
+| p2-cholinergic-090 | new | KDT8 ch35 |
+| p2-cholinergic-091 | new | KDT8 ch35 |
+| p2-cholinergic-092 | new | KDT8 ch35, GG14 ch21 |
+| p2-cholinergic-093 | new | KDT8 ch35, GG14 ch12 |
+| p2-cholinergic-094 | new | KDT8 ch35, GG14 ch21 |
+| p2-cholinergic-095 | new | GG14 ch21, KDT8 ch35 |
+| p2-cholinergic-096 | new | GG14 ch21, KDT8 ch35 |
+| p2-cholinergic-097 | new | GG14 ch21, KDT8 ch35 |
+| p2-cholinergic-098 | new (essay, pyq UHSR 2025 IV) | KDT8 ch7, ch32, ch35; GG14 ch12, ch21 |
+| p2-cholinergic-099 | new (essay, pyq UHSR 2025 I) | KDT8 ch35; GG14 ch21 |
+| p2-cholinergic-100 | new | KDT8 ch8, GG14 ch13 |
+| p2-cholinergic-101 | new | KDT8 ch8 |
+| p2-cholinergic-102 | new | GG14 ch13 |
+| p2-cholinergic-103 | new | KDT8 ch25 |
+| p2-cholinergic-104 | new | KDT8 ch25 |
+| p2-cholinergic-105 | new | KDT8 ch7, GG14 ch13 |
+| p2-cholinergic-106 | new | KDT8 ch8 |
+| p2-cholinergic-107 | new | KDT8 ch8 |
+| p2-cholinergic-108 | new | KDT8 ch25 |
+| p2-cholinergic-109 | new (essay, pyq Q bank "Spasmolytics") | KDT8 ch7, ch8, ch25; GG14 ch13 |
+
+## Checker (PYQ gap pass)
+
+Checked all 20 new study cards (090-109) against KDT8 ch7, ch8, ch25, ch32, ch35 and GG14 ch13, ch21 (GG14 text extracted and searched). Levels and ladder checked by validator. No deletions.
+
+| id | status | change |
+|---|---|---|
+| p2-cholinergic-090 | corrected | back reworded to KDT8 "marked cholinergic deficiency" (neurone-loss wording not in KDT8) |
+| p2-cholinergic-093 | corrected | ref GG14 ch12 -> GG14 ch21 (ALT rise and hepatotoxicity are in ch21) |
+| p2-cholinergic-098 | corrected | removed unsupported point; replaced with thioridazine highest anticholinergic propensity (KDT8 ch32) |
+| p2-cholinergic-099 | corrected | removed unsupported memantine 6-month stop point |
+| p2-cholinergic-105 | corrected | dropped GG14 ch13 ref (botulinum not verified there) |
+| p2-cholinergic-108 | corrected | diazepam wording to "benzodiazepine receptors enhancing GABA" (KDT8 ch25 does not say GABA-A) |
+| p2-cholinergic-109 | corrected | diazepam GABA wording; dantrolene "dose-limiting" -> "limits use" (KDT8 ch25) |
+| p2-cholinergic-095, 096, 097, 100-104, 106, 107 | ok | confirmed (GG14 ch21 atropine confusion and bradycardia caution; ch13 spasmolytics) |
+
+Pyq: 109 uses university "Q bank", year 0 (no year in source). Owner to confirm.
+
+## Gap questions (RGUHS 2010, RGUHS 2016, Q bank: MG, autonomic transmitters, ACh and malathion) pass
+
+No existing card covered: malathion-specific poisoning, the general autonomic-transmitter overview, and MG limitations. Part of Q 415 (ACh nicotinic/muscarinic effects) is already covered by p2-cholinergic-020, so no duplicate was written.
+
+| id | status | source |
+|---|---|---|
+| p2-cholinergic-110 | new (L1, malathion) | GG14 ch12 |
+| p2-cholinergic-111 | corrected (L2 shortnote, malathion poisoning; removed unsupported exposure-route line) | GG14 ch12 |
+| p2-cholinergic-112 | corrected (L3 shortnote; NPY line reworded, unsupported ganglia bullet removed) | KDT8 ch7, ch8 |
+| p2-cholinergic-113 | corrected (L2 shortnote; unsupported corticosteroid-worsening bullet removed) | KDT8 ch7 |
+
+Not written (no owner-book source, skipped): "recent advances" in MG pharmacotherapy (Q 42). No MG-specific newer-therapy content found in the allowed PDFs (searched for FcRn, complement and similar agents). Owner to supply a source if wanted.
+
+Pyq: Q 415 malathion Q bank entry has no year, so no pyq tag added (omitted per rule). Q 415 ACh part: existing p2-cholinergic-020 (pyq UHSR 2025).

@@ -295,3 +295,41 @@ rf-p1-pk-elimination-0220 | corrected | GG14 PDF p49 | "all doses" changed to us
 rf-p1-pk-elimination-0223 | corrected | KDT8 PDF p56 | "pseudo-zero-order" term not in books; renamed to saturation over therapeutic range
 rf-p1-pk-elimination-0234 | corrected | GG14 PDF p58; GG14 PDF p60; KDT8 PDF p58 | 90% at 3.3 half-lives not found; books say steady state after 4-5 half-lives
 rf-p1-pk-elimination-0260 | corrected | Katzung16 PDF p566; Bennett & Brown Clin Pharmacol PDF p360 | 1 day changed to about 20 h (15-30 h chronic); 4-5 day effect duration not found
+
+## Difficulty ladder pass (2026-11-03)
+Coverage audit vs KDT8 ch3, GG14 ch2/ch5 and PYQ list: no new rapid gaps found; no rapid cards added or changed.
+
+## Checker (2026-11-03)
+Rapid deck untouched by writer; no Prep/RR5 refs found. No changes.
+Checker pass 2: rapid deck not re-edited; no Prep/RR5 refs.
+
+## Gap-fill pass: PYQ questions 279 and 543 (2026-11-03)
+Added 10 rapid pairs (0272-0281) for the new study-card facts: apparent V worked example, large-V and low-V drugs, haemodialysis and V, oral and IV dose rate for target Cpss, half-lives of phenobarbitone, digitoxin and aspirin, and 93.75% after 4 half-lives.
+
+| id | new | source |
+|---|---|---|
+| rf-p1-pk-elimination-0272 | new | KDT8 ch2 (p41) |
+| rf-p1-pk-elimination-0273 | new | KDT8 ch2 (p41) |
+| rf-p1-pk-elimination-0274 | new | KDT8 ch2 (p41) |
+| rf-p1-pk-elimination-0275 | new | KDT8 ch2 (p41) |
+| rf-p1-pk-elimination-0276 | new | KDT8 ch3 (p57) |
+| rf-p1-pk-elimination-0277 | new | KDT8 ch3 (p57) |
+| rf-p1-pk-elimination-0278 | new | KDT8 ch3 (p57) |
+| rf-p1-pk-elimination-0279 | new | KDT8 ch3 (p57) |
+| rf-p1-pk-elimination-0280 | new | KDT8 ch3 (p57) |
+| rf-p1-pk-elimination-0281 | new | KDT8 ch3 (p57) |
+
+No PrepLadder refs.
+
+## Checker (PYQ gap pass)
+- Checked 0272-0281 against KDT8 p41, p57. All grounded. No edits, no deletions. No Prep/RR5 refs.
+
+## PYQ gap pass: chronokinetics
+- Added rf-p1-pk-elimination-0282 to 0296 (15 pairs) for chronokinetics terms, the chronopharmacology branches, and the drug timing examples.
+- Sources: Sarkar p21-25 and Sarkar p26-30 (all), GG14 PDF p903 (theophylline).
+- Deleted: none. No PrepLadder or RR5 refs.
+
+## Checker pass 2: chronokinetics pairs (0282-0296)
+- All 15 pairs checked against Sarkar p21-25, Sarkar p26-30, GG14 PDF p903. Pass.
+- 0286: ref changed to RangDale9 PDF p517 (SCN is not in Sarkar).
+- Deleted: none.

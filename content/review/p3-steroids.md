@@ -108,3 +108,72 @@ Added 3 study cards (ids 079-081): clomiphene and ovulation induction, estrogen 
 Gap scan: drug names and most numeric facts in KDT8 ch20-23 were already carded. Added 16 rapid cards (ids rf-p3-steroids-0480 to 0495) for dose and pharmacokinetic figures that were missing (clomiphene regimen, letrozole, oral and vaginal estrogen doses, WHI harms, progesterone and hydroxyprogesterone i.m. doses, fosfestrol, testosterone protein binding). Study expansion is below the 30-40 target because the deck is close to saturation.
 
 Book conflicts noted: none new in this pass.
+
+## Level ladder pass
+All 84 study cards given explicit level (1/2/3); deck ordered by subtopic then level.
+
+| id | status | source |
+|---|---|---|
+| p3-steroids-082 | new | KDT8 ch21 |
+| p3-steroids-083 | new | KDT8 ch21 |
+| p3-steroids-084 | new | KDT8 ch21 |
+| p3-steroids-085 | new | KDT8 ch20 |
+
+## Checker
+- No Prep/RR5 refs found. Levels all present; every subtopic meets 3/2/1. No cards changed or deleted. Spot-checked deflazacort, antenatal betamethasone, septic-shock hydrocortisone against KDT8/GG14/Katzung16: correct.
+
+## Checker (independent)
+- Verified vs KDT8 p327-331, 335-342, 221 and GG14 p1034-1040, Katzung16: potency table, deflazacort, metyrapone, septic-shock hydrocortisone, antenatal steroids, flutamide timing, tadalafil, mifepristone regimen. All correct.
+- Added p3-steroids-086 (dinoprostone cervical priming, KDT8 ch13, level 2). No deletions, no Prep/RR5 refs. Ladder 3/2/1 met everywhere.
+- Not re-verified: "before 34 weeks" in 008 (Katzung ref), PYQ gaps.
+
+## Gap questions added (writer pass, 2026-11-03)
+- Added 20 study cards (p3-steroids-087 to 106) and 45 rapid cards (rf-p3-steroids-0496 to 0540). No existing ids changed.
+- Sources: Ghosh FEP p136-137, p150-151 (oxytocin bioassay, antifertility screen), Medhi PMECP p22-23, p172; KDT8 ch17, ch20, ch22; GG14 ch46, ch48; GG12 ch40; Katzung16 ch40.
+- Out of topic, not written here: "Drotrecogin alpha" (GG12 ch30 p885; Katzung16 ch34 p672) belongs to a coagulation topic; macrolide antibiotics part of question 166; anticancer-drug adverse-effect prevention part of question 448.
+
+| id | status | source |
+|---|---|---|
+| p3-steroids-087 | new | Ghosh FEP p136; Medhi PMECP p172 |
+| p3-steroids-088 | new | Ghosh FEP p136-137; Medhi PMECP p172 |
+| p3-steroids-089 | new | Ghosh FEP p136 |
+| p3-steroids-090 | new | KDT8 ch20 |
+| p3-steroids-091 | new | KDT8 ch20 |
+| p3-steroids-092 | new | GG14 ch48; GG12 ch40 |
+| p3-steroids-093 | new | KDT8 ch17; KDT8 ch22 |
+| p3-steroids-094 | new | Ghosh FEP p150 |
+| p3-steroids-095 | new | Ghosh FEP p150-151; Medhi PMECP p22-23; KDT8 ch22 |
+| p3-steroids-096 | new | KDT8 ch22; GG14 ch48 |
+| p3-steroids-097 | new | KDT8 ch22; GG14 ch48 |
+| p3-steroids-098 | new | KDT8 ch22 |
+| p3-steroids-099 | new | KDT8 ch22; GG12 ch40; Katzung16 ch40 |
+| p3-steroids-100 | new | KDT8 ch22 |
+| p3-steroids-101 | new | KDT8 ch22 |
+| p3-steroids-102 | new | KDT8 ch22 |
+| p3-steroids-103 | new | KDT8 ch17 |
+| p3-steroids-104 | new | KDT8 ch17 |
+| p3-steroids-105 | new | KDT8 ch17 |
+| p3-steroids-106 | new | KDT8 ch17; GG14 ch46 |
+
+## Checker (PYQ gap pass)
+- Checked study 087-106 against KDT8 ch17/20/22/23, GG14 ch46/48, GG12 ch40, Katzung16 ch40, Ghosh FEP, Medhi PMECP.
+- Corrected p3-steroids-088: Medhi p172 gives stilbestrol i.m., not s.c.
+- Corrected p3-steroids-093: removed progesterone-pulse and gonane-GnRH claims (not in books); added GG14 ch46.
+- Corrected p3-steroids-095: removed unsourced Phase I volunteer and failure-judging sentence.
+- Corrected p3-steroids-096 and 097: removed nomegestrol (not found in any owner book).
+- Corrected p3-steroids-099: "androgen plus progestin works faster" contradicts KDT8 ch22 ("not reliable"); replaced.
+- Verified OK: 087, 089, 090, 091, 092 (drospirenone as HRT/antiandrogen), 094, 098, 100-106.
+- Open: 092 monophasic 30 µg pairing unreadable in GG14 table, left as drospirenone-only text; Ghosh/Medhi page numbers not matched to printed pages; Q-bank pyq year stored as 0.
+
+## PYQ gap pass, entries 38/166/219/295 (2026-11-03)
+- 38 Hormones as antineoplastic agents (RGUHS 2007): already covered in p3-cancer-immuno ("Short note: Hormones and related agents in cancer therapy"). No new card here. Not in this topic's files.
+- 166 GnRH analogues (RGUHS 2008): already covered by p3-endocrine short notes ("GnRH analogues", "Long-acting GnRH agonists") and p3-steroids-* "Short note: Clinical uses of GnRH agonists and antagonists". No duplicate written.
+- 219 Long-term glucocorticoid toxicity and minimisation (RGUHS 2019): covered by p3-steroids-018 (essay, KDT8 ch20). Added pyq RGUHS 2019, 10 marks. Refs unchanged.
+- 295 Postcoital contraception (Q bank, year unknown): covered by p3-steroids-101 (pyq already set to Q bank, year omitted in tag). The second part, prevention of anticancer-drug adverse effects, belongs to p3-cancer-immuno (mesna, dexrazoxane, leucovorin, amifostine cards). Not edited here.
+- noSource: none. No new cards written.
+
+## Checker pass 2 (p3-steroids-101..106, rf-0535..0540)
+- Corrected p3-steroids-103: removed "recovery takes about 2 months" (not found in KDT8 ch17 or GG14 ch46).
+- Corrected rf-p3-steroids-0539: "3.75 to 7.5 mg" changed to "3.75 mg i.m. monthly" (GG14 ch46 gives 3.75 mg/month; 7.5 mg not found). Source line now KDT8 ch17 + GG14 ch46.
+- Verified OK: 101, 102 (KDT8 ch22 p362; ulipristal 120 h, Yuzpe 20-50% vs ~6%), 104, 105 (KDT8 p279 short-acting ganirelix/cetrorelix), 106.
+- Open: 101 mifepristone 600 mg is in Padmaja p513-514 but not KDT8 ch22; refs left as KDT8 ch22. Q bank pyq entries use year 0 (placeholder).

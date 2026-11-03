@@ -55,3 +55,49 @@ None omitted for grounding. Items not carded because the extracted text is garbl
 ## Expansion pass 2 (2026-11-02)
 - Rapid: +71 (rf-p2-cholinergic-0368 onward) from GG14 PDF p230-233 and p1483 attribute cards (bethanechol, carbachol, methacholine, pilocarpine, arecoline, muscarine, atropine dose and organ effects, cardiac and ocular atropine actions, antimuscarinic selectivity, quaternary agents, ACh receptor location). Deck now 438.
 - Target (+120) NOT met: +71 added; see study log for the reason.
+
+## Ladder pass (2026-11-03)
+id | status | source
+rf-p2-cholinergic-0439 | new | KDT8 ch7-8
+rf-p2-cholinergic-0440 | new | KDT8 ch7-8
+rf-p2-cholinergic-0441 | new | KDT8 ch7-8
+rf-p2-cholinergic-0442 | new | KDT8 ch7-8
+rf-p2-cholinergic-0443 | new | KDT8 ch7-8
+rf-p2-cholinergic-0444 | new | KDT8 ch7-8
+rf-p2-cholinergic-0445 | new | KDT8 ch7-8
+rf-p2-cholinergic-0446 | new | KDT8 ch7-8
+rf-p2-cholinergic-0447 | new | KDT8 ch7-8
+rf-p2-cholinergic-0448 | new | KDT8 ch7-8
+rf-p2-cholinergic-0449 | new | KDT8 ch7-8
+rf-p2-cholinergic-0450 | new | KDT8 ch7-8
+
+## Checker
+Spot-checked ~20 cards (ipratropium, tiotropium, hyoscine patch, varenicline, bupropion, Wenckebach, bethanechol/pilocarpine/cevimeline/carbachol doses, atropine 7-12 days, M2/M5): all match KDT8/GG14. No Prep/RR5 refs. Ladder OK (each subtopic >=3 L1, 2 L2, 1 L3). No deletions or edits. Gaps scanned; none added (ecothiopate not in KDT8).
+
+## Gap questions (UHSR 2025, Q bank) pass
+
+| id | status | source |
+|---|---|---|
+| rf-p2-cholinergic-0451 to 0461 | new | KDT8 ch35; GG14 ch21, ch12 (AD and anticholinesterase facts) |
+| rf-p2-cholinergic-0462 to 0463 | new | KDT8 ch7 (AChE, BuChE) |
+| rf-p2-cholinergic-0464 to 0473 | new | KDT8 ch7, ch8, ch25; GG14 ch13 (spasmolytic facts) |
+
+## Checker (PYQ gap pass)
+
+Checked rf-p2-cholinergic-0451 to 0473 against KDT8 ch7, ch8, ch25, ch35 and GG14 ch12, ch13, ch21. Validator clean.
+
+| id | status | change |
+|---|---|---|
+| rf-p2-cholinergic-0458 | corrected | q changed from "dose-limiting" to "most common adverse effects" (KDT8/GG14 wording) |
+| rf-p2-cholinergic-0472 | corrected | q changed from "dose-limiting" to "main limit on oral dantrolene use" (KDT8 ch25) |
+| rf-p2-cholinergic-0451 to 0473 (others) | ok | confirmed against the cited chapters |
+
+## Gap questions pass (MG, autonomic transmitters, malathion)
+
+| id | status | source |
+|---|---|---|
+| rf-p2-cholinergic-0474 to 0477 | new (malathion: malaoxon, carboxylesterases, lethal dose, topical use) | GG14 ch12 |
+| rf-p2-cholinergic-0478 to 0483 | new (cotransmitters, transmitters of autonomic nerves, sweat glands); 0481 ref to KDT8 ch8, 0482-0483 to KDT8 ch7 | KDT8 ch7, ch8 |
+| rf-p2-cholinergic-0484 to 0485 | new (MG symptomatic therapy, anticholinesterase list) | KDT8 ch7 |
+
+Lethal dose "about 1 g/kg" is printed in GG14 ch12 (drug facts table). Checked against the owner PDF text; all pairs are one-line facts.

@@ -170,3 +170,35 @@ pr-ospe-024 | regrounded | Medhi PMECP PDF p359, p361, Sarkar p111-115, NMC MD P
 pr-ospe-025 | corrected | Pickar Dosage Calculations PDF p177, p183 | Katzung16 ch66 removed (does not support card); card rewritten from Pickar label chapter
 pr-ospe-026 | regrounded | Sarkar p201-205 | word limit and format rule printed; structured headings dropped
 pr-ospe-030 | regrounded | Sarkar p156-160, p186-190, p206-210, p226-230, p241-245 | all faults traced to printed text
+
+
+## Difficulty ladder pass
+All 35 existing cards given a level (ids unchanged, deck reordered by subtopic then level).
+| pr-ospe-036 | new | NMC MD Pharmacology 2022 curriculum (practical exam); UNSOURCED - owner must verify |
+| pr-ospe-037 | new | Pickar Dosage Calculations PDF p373; UNSOURCED - owner must verify |
+| pr-ospe-038 | new | Ghosh Fundamentals of Experimental Pharmacology PDF p11: stock dilution example; Medhi Practical Manual PDF p87 (printed p71): dilution per organ-bath volume; UNSOURCED - owner must verify |
+| pr-ospe-039 | new | Sarkar p76-80; UNSOURCED - owner must verify |
+| pr-ospe-040 | new | Medhi PMECP PDF p359; Medhi PMECP PDF p360; Medhi PMECP PDF p361; Sarkar p506-510 |
+| pr-ospe-041 | new | Sarkar p81-85 |
+| pr-ospe-042 | new | Sarkar p81-85; UNSOURCED - owner must verify |
+| pr-ospe-043 | new | Sarkar p421-425; UNSOURCED - owner must verify |
+| pr-ospe-044 | new | Sarkar p401-405; Sarkar p396-400; Sarkar p386-390; Sarkar p421-425; UNSOURCED - owner must verify |
+
+## Checker (independent pass)
+
+Checked 24 cards (incl. all level 2-3 numeric and source-claim cards) against OCR and PDF text. Deleted: none.
+
+| id | result | note |
+|---|---|---|
+| pr-ospe-020 | corrected | Katzung16 ch59 says age/weight estimates underestimate; "KDT prefers weight-based" was not in KDT8. Ref changed. |
+| pr-ospe-041 | corrected | Sarkar lists five analyses incl. cost-of-illness; front now "main types". |
+| pr-ospe-042 | corrected | Ref now Bennett and Brown PDF p76 (QALY definition) + Sarkar p81-85. |
+| pr-ospe-007, 008, 009, 010, 011, 012, 016, 024, 026, 027, 033 | ok | Checked: Sarkar PvPI, consent, abstract, pharmacoeconomics, ELISA; KDT8 p60 half-life rule; NMC curriculum items. Not checked: 006, 013, 018, 019, 023 (refs to Medhi and Ghosh not re-read). |
+| pr-ospe-031, 034, 043 | ok | Sarkar Beer-Lambert (absorbance proportional to concentration). |
+| pr-ospe-045 to 049 | added | FDC and rational prescribing (KDT8 ch5). Drug-info subtopic, levels 1-2-2-3. |
+
+Ladder: every subtopic has at least 3 L1, 2 L2, 1 L3 (drug-info now L1 5 / L2 4 / L3 2).
+Gap added: NMC curriculum lists "rational and irrational formulations" and "selecting a P-drug / rational prescriptions" as OSPE examples; no card existed. Added pr-ospe-045 to 049.
+Not verified offline: pr-ospe-004, 005, 035 (WEB PMC articles) and rapid 0059 "about 5 minutes" per station. Owner should check these.
+Forbidden refs: grep for Prep, RR5, RapidRev in both deck files returned none.
+Validator: `node scripts/validate-content.mjs --check` reports no pr-ospe errors.

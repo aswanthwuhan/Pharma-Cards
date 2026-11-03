@@ -994,8 +994,8 @@
       "refs": [
         "KDT8 ch2"
       ],
-      "front": "Why is aspirin absorbed mainly from the stomach but atropine mainly from the intestine?",
-      "back": "Aspirin is a weak acid (pKa 3.5), mostly unionised at gastric pH, so it crosses the mucosa. Atropine is a weak base (pKa 10), mostly ionised in the stomach, so it is absorbed only after it reaches the intestine."
+      "front": "Why can a salicylate be absorbed from the stomach, while a basic drug such as morphine is absorbed only after reaching the duodenum?",
+      "back": "Acidic drugs (salicylates, barbiturates) are mostly unionised in acid gastric juice, so they cross the lipoidal mucosa. Basic drugs (morphine, quinine) are largely ionised there and are absorbed only in the duodenum. Even acidic drugs absorb faster from the intestine, because its villi give a far larger surface than the thick, mucus-covered stomach."
     },
     {
       "status": "draft",
@@ -1043,7 +1043,7 @@
         "KDT8 ch2"
       ],
       "front": "Why does drug diffusion across capillaries depend on blood flow rather than lipid solubility?",
-      "back": "Most capillaries have large paracellular spaces, so even lipid-insoluble drugs and albumin filter through. Only brain capillaries lack these spaces."
+      "back": "Capillaries with large paracellular spaces do not obstruct even large lipid-insoluble molecules or ions, so only blood flow limits transfer. Brain capillaries have tight junctions and lack these spaces, so there lipid solubility matters."
     },
     {
       "status": "draft",
@@ -1097,6 +1097,552 @@
       ],
       "front": "Why does repeated dosing make a redistribution-limited drug act longer?",
       "back": "Low-perfusion, high-capacity tissues (muscle, fat) gradually fill up. Redistribution away from the target organ then stops, so the drug's action lasts longer."
+    },
+    {
+      "id": "p1-pk-absorption-036",
+      "type": "basic",
+      "front": "What kind of transporter is P-gp, and why does that matter for drugs?",
+      "back": "P-gp is a primary active (ABC family) transporter that uses ATP to pump drugs out of cells. ABC transporters only mediate efflux, so P-gp acts as a protective pump that keeps xenobiotics out of tissues.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-efflux",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-037",
+      "type": "basic",
+      "front": "Which two drugs have low oral bioavailability partly because of gut P-gp?",
+      "back": "Digoxin and cyclosporine. Part of the absorbed dose is pumped back into the gut lumen by P-gp in the epithelium, so less reaches blood.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-efflux",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-038",
+      "type": "basic",
+      "front": "Name P-gp inhibitors and inducers, and the effect of each on oral bioavailability of P-gp substrates.",
+      "back": "Inhibitors (quinidine, verapamil, erythromycin) raise bioavailability; inducers (rifampin, phenobarbitone) lower it. Less pumping means more drug absorbed, more pumping means less.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-efflux",
+      "tags": [
+        "interactions"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-039",
+      "type": "basic",
+      "front": "A patient is stable on digoxin and then rifampin is added. Predict the effect and explain why P-gp and CYP3A4 are often considered together.",
+      "back": "Rifampin induces gut P-gp, so more digoxin is pumped back into the lumen and oral bioavailability and plasma level fall, risking loss of effect. Many xenobiotics that induce or inhibit P-gp do the same to CYP3A4, so the two act together as a detoxifying system and an interacting drug can change absorption and metabolism at once.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-efflux",
+      "tags": [
+        "interactions",
+        "pk"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-pk-absorption-040",
+      "type": "basic",
+      "front": "Name drugs that are poorly effective orally because of ionisation or gut degradation.",
+      "back": "Highly ionised drugs such as gentamicin and neostigmine are poorly absorbed. Penicillin G is destroyed by acid and insulin by peptidases. Hence these are given parenterally, or protected e.g. with enteric coating.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-041",
+      "type": "basic",
+      "front": "Why is a weak acid like aspirin absorbed well from acidic gastric fluid but a strongly ionised drug is not?",
+      "back": "In acid, a weak acid stays mostly unionised and lipid soluble, so it crosses membranes. Highly ionised drugs such as gentamicin cannot diffuse across lipoidal membranes and are poorly absorbed orally.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-ionisation",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-042",
+      "type": "basic",
+      "front": "Synthesis: how do pH differences between compartments (stomach, plasma, urine) decide where a weak acid or base accumulates, and how can this be used clinically?",
+      "back": "Unionised drug diffuses freely, but whichever side has the pH that ionises it holds it. A weak acid ionises more in alkaline fluid and is trapped there; a weak base ionises more in acid fluid. Alkalinising urine therefore speeds excretion of acidic drugs and acidifying it speeds excretion of basic drugs, because ionised drug cannot be reabsorbed across the tubule (e.g. alkalinisation raises phenobarbitone excretion).",
+      "refs": [
+        "KDT8 ch2",
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-ionisation",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-pk-absorption-043",
+      "type": "basic",
+      "front": "Compare primary and secondary active transport, with examples.",
+      "back": "Primary uses ATP directly (ABC transporters, e.g. P-gp, efflux only). Secondary (SLC transporters) uses the downhill movement of another solute, mostly Na+, as energy: symport (same direction, e.g. SGLT glucose uptake) or antiport (opposite direction, e.g. VMAT-2 exchanging with H+, blocked by reserpine). SLC carriers can move drugs in and out.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-044",
+      "type": "basic",
+      "front": "Why are enteric-coated and sustained-release tablets used, and which problems do they solve?",
+      "back": "An acid-resistant coat protects acid-labile drugs from gastric juice and spares the stomach from irritant drugs. Sustained-release particles are coated with slowly dissolving material, which lengthens the action of drugs with a brief duration. Drugs destroyed in the gut (penicillin G by acid, insulin by peptidases) still fail orally and need another route.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-045",
+      "type": "basic",
+      "front": "Why does levodopa act in the brain when dopamine itself does not?",
+      "back": "The blood-brain barrier is lipoidal and has tight junctions, so nonlipid-soluble dopamine cannot enter. Levodopa, its precursor, gets in using the aromatic amino acid carrier (the same carrier that absorbs it from the gut), and is then converted to dopamine in the brain.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-tissue-barriers",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-046",
+      "type": "basic",
+      "front": "How can a co-administered drug or food reduce oral absorption, and how is it minimised?",
+      "back": "In the gut lumen they can form poorly absorbed complexes, e.g. tetracyclines or iron with calcium salts, antacids or milk, and phenytoin with sucralfate. Food also dilutes drug and delays gastric emptying. Spacing the two drugs by 2-3 hours minimises the complexing.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "interactions",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-047",
+      "type": "basic",
+      "front": "What is vectorial transport?",
+      "back": "Asymmetric movement of a drug across a polarised epithelial or endothelial layer: it is taken up at one membrane and pumped out at the opposite membrane.",
+      "refs": [
+        "GG14 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-048",
+      "type": "basic",
+      "front": "Why does a lipophilic drug need only an efflux pump for vectorial transport, but a hydrophilic anion needs two transporters?",
+      "back": "Lipophilic drugs cross membranes easily, so one ABC efflux pump can set the direction. Hydrophilic organic anions and cations need an uptake transporter on one face and an efflux or passive transporter on the other. ABC pumps move solute one way only; SLC carriers can take up or export.",
+      "refs": [
+        "GG14 ch4"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-049",
+      "type": "shortnote",
+      "front": "Short note: Vectorial transport",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Asymmetric transport across a polarised monolayer of cells",
+            "Uptake on one face, efflux on the opposite face"
+          ]
+        },
+        {
+          "h": "Transporters",
+          "points": [
+            "ABC: efflux only, ATP-driven",
+            "SLC: uptake or efflux",
+            "Lipophilic drugs: efflux pump alone suffices",
+            "Hydrophilic ions: uptake plus efflux pair"
+          ]
+        },
+        {
+          "h": "Sites",
+          "points": [
+            "Intestine: absorption from lumen to blood; MDR1, MRP2, BCRP pump back into lumen",
+            "Liver: OATP uptake from sinusoidal blood; canalicular efflux into bile",
+            "Kidney: tubular secretion",
+            "Brain capillaries and choroid plexus: efflux out of brain"
+          ]
+        },
+        {
+          "h": "Example",
+          "points": [
+            "Statins: OATP1B1 uptake plus MRP2 efflux (bisubstrate transcellular transport)",
+            "Concentrates the statin in liver, limiting muscle exposure"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch4"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-050",
+      "type": "basic",
+      "front": "How much of body weight is fat in obese and in lean adults?",
+      "back": "Up to about 50% in obese individuals and about 10% in lean individuals.",
+      "refs": [
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-051",
+      "type": "basic",
+      "front": "Why does obesity raise the volume of distribution of a lipophilic drug?",
+      "back": "A lipophilic drug dissolves in the larger fat mass, so more drug sits outside plasma and apparent V rises. A hydrophilic drug stays out of fat, so extra fat adds little to its distribution.",
+      "refs": [
+        "KDT8 ch2",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-052",
+      "type": "basic",
+      "front": "On what basis is the dose often calculated in exceptionally obese patients?",
+      "back": "On body weight: individual dose = body weight (kg) / 70 x average adult dose. Body surface area has been argued to be a more accurate basis.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-053",
+      "type": "basic",
+      "front": "Why is adipose tissue a stable reservoir for lipid-soluble drugs?",
+      "back": "It has low blood flow, so the stored drug leaves slowly and its levels stay steady for longer.",
+      "refs": [
+        "GG14 ch2",
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-tissue-barriers",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-054",
+      "type": "shortnote",
+      "front": "Short note: Drug disposition in obesity",
+      "sections": [
+        {
+          "h": "Body composition",
+          "points": [
+            "Fat up to about 50% of body weight in obesity, about 10% in lean adults",
+            "Fat:lean body mass ratio varies with age, sex and obesity"
+          ]
+        },
+        {
+          "h": "Distribution",
+          "points": [
+            "Lipophilic drugs stored in fat, raising apparent V",
+            "Storage releases slowly because adipose blood flow is low",
+            "Hydrophilic drugs gain little from extra fat"
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "Body-weight-based dose for exceptionally obese patients",
+            "Body surface area argued to be more accurate"
+          ]
+        },
+        {
+          "h": "Clinical points",
+          "points": [
+            "Large V means haemodialysis removes little drug",
+            "Fat reservoir can prolong drug action after withdrawal"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch2",
+        "KDT8 ch2",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-volume-binding",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-055",
+      "type": "basic",
+      "front": "What is first-pass metabolism?",
+      "back": "Metabolism of an orally absorbed drug in the intestinal wall and liver before it reaches the systemic circulation, so the oral dose absorbed is reduced.",
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-pk-absorption-056",
+      "type": "shortnote",
+      "front": "Short note: Clinical importance of bioavailability",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Rate and extent of absorption; F = fraction of dose reaching systemic circulation unchanged",
+            "IV dose: 100%"
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "points": [
+            "Narrow safety margin: digoxin",
+            "Precise control needed: oral hypoglycaemics, oral anticoagulants",
+            "Bioavailability variation can decide success or failure of therapy"
+          ]
+        },
+        {
+          "h": "Formulation",
+          "points": [
+            "Disintegration and dissolution differences cause bioavailability differences",
+            "Particle size reduction helps poorly soluble drugs, e.g. aspirin, griseofulvin",
+            "Changing between brands, or branded to generic, carries a risk for some drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch2"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-bioavailability",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-pk-absorption-057",
+      "type": "basic",
+      "level": 1,
+      "front": "What is the lipid:water partition coefficient of a drug, and why does it matter?",
+      "back": "The ratio of the drug's solubility in lipid to its solubility in water. A higher ratio means more of the drug dissolves in the membrane, so it diffuses faster across it.",
+      "refs": [
+        "KDT8 ch2",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p1-pk-absorption-058",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Physicochemical factors governing the transfer of drugs across membranes",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Most drugs cross membranes by diffusion, so transfer depends on the drug's properties and the membrane's",
+            "Transfer rises with the concentration gradient, lipid:water partition coefficient and membrane area"
+          ]
+        },
+        {
+          "h": "Degree of ionisation",
+          "points": [
+            "Weak acids and bases are ionised according to the pH of the medium and their pKa",
+            "Only the unionised form dissolves in the lipid bilayer",
+            "Ionised forms are lipid-insoluble and cross poorly"
+          ]
+        },
+        {
+          "h": "Lipid solubility of each form",
+          "points": [
+            "Relative lipid solubility of the ionised and unionised forms decides transfer",
+            "pH-partition: a weak drug accumulates on the side where it is ionised (ion trapping)"
+          ]
+        },
+        {
+          "h": "Molecular size and structure",
+          "points": [
+            "Molecular size and structural features predict movement of a drug",
+            "Small molecules pass membranes more readily than large ones"
+          ]
+        },
+        {
+          "h": "Protein binding",
+          "points": [
+            "Only unbound drug is free to cross",
+            "At steady state the unbound concentration of a non-electrolyte is equal on both sides"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Explains placental and blood-brain barrier transfer of drugs",
+            "Explains acid-base trapping in urine and stomach",
+            "Guides choice of drug for a target site (e.g. lipid-soluble vs ionised drugs)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch2",
+        "KDT8 ch2",
+        "Bennett p98"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 20
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-pk-absorption-membrane-transport",
+      "tags": [
+        "mechanism",
+        "pk"
+      ]
     }
   ]
 }

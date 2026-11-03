@@ -32,3 +32,23 @@
 | rf-p2-renal-0019, 0020 | corrected (class list format) | KDT8 ch42 |
 | rf-p2-renal-0405, 0406, 0408, 0409 | new | KDT8 ch42, ch43 |
 | rf-p2-renal-0407 | dropped (duplicate of 0265) | KDT8 ch42 |
+
+## Checker (independent pass, 2026-11-03)
+
+| id | status | source |
+|---|---|---|
+| rf-p2-renal-0405, 0406, 0408, 0409 | ok | KDT8 ch42, ch43 (0408 wording "only drugs effective in nephrogenic DI" is printed in KDT8 ch42) |
+| rf-p2-renal-0216 | corrected: answer now adds beta-blockers (KDT8 p649 lists ACE inhibitors/ARBs, beta-blockers, NSAIDs) | KDT8 ch42 |
+| rf-p2-renal-0262 | corrected: KDT8 ch42 does not list isosorbide or glycerol; answer and ref changed to GG14 ch29 Table 29-3 (glycerin, isosorbide, mannitol, urea) | GG14 ch29 |
+| rf-p2-renal-0391 | ref corrected: cyclosporine nephrotoxicity list is printed in KDT8 ch65 (not ch42, 54, 58, 64); answer kept | KDT8 ch65 |
+| rf-p2-renal-0217, 0288, 0289, 0314, 0371, 0120, 0237, 0010, 0019, 0020 | ok | KDT8 ch42, ch43 |
+
+Deletions: none in this pass.
+Prep / RR5 / RapidRev refs: none found.
+Validator: `node scripts/validate-content.mjs --check` reports no p2-renal errors.
+
+## Gap pass: non-edematous uses
+| rf-p2-renal-0410 to 0418 | new | KDT8 ch42 |
+Note: PYQ year for the Q bank entry is unknown (recorded as 0).
+
+Checker (PYQ gap pass), 2026-11-03: rf-p2-renal-0412 question reworded to "Diuretic added to i.v. saline in hypercalcaemia of malignancy" (KDT8 ch42 says furosemide is added after volume replacement, not that it is the diuretic of choice). Other 0410 to 0418 ok.

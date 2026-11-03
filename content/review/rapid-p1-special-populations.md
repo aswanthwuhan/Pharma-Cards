@@ -120,3 +120,42 @@ Gap from SOURCE-GAPS.md: General Child-Pugh dose-adjustment approach (no percent
 - 0254 rewritten: pefloxacin dose cut in liver disease (KDT8 PDF p774); trovafloxacin withdrawn for hepatotoxicity (GG14 PDF p1160). "Removed in bile" claim dropped.
 - 0255 corrected: withdrawn from US market (GG14 PDF p1160), not "banned".
 - 0249 (succinylcholine in renal failure) still unsourced.
+
+
+## Ladder pass additions
+
+id | status | source
+rf-p1-special-populations-0301 | new | KDT8 ch6
+rf-p1-special-populations-0302 | new | KDT8 ch6
+rf-p1-special-populations-0303 | new | KDT8 ch6
+rf-p1-special-populations-0304 | new | KDT8 ch6
+rf-p1-special-populations-0305 | new | KDT8 ch6
+rf-p1-special-populations-0306 | new | KDT8 ch6
+rf-p1-special-populations-0307 | new | KDT8 ch6
+rf-p1-special-populations-0308 | new | Katzung16 ch59
+rf-p1-special-populations-0309 | new | Katzung16 ch59
+rf-p1-special-populations-0310 | new | KDT8 ch5
+rf-p1-special-populations-0311 | new | KDT8 ch5
+rf-p1-special-populations-0312 | new | KDT8 ch5
+rf-p1-special-populations-0313 | new | KDT8 ch5
+rf-p1-special-populations-0314 | new | Sarkar p71-75
+rf-p1-special-populations-0315 | new | Sarkar p71-75
+rf-p1-special-populations-0316 | new | Sarkar p71-75
+rf-p1-special-populations-0317 | new | Sarkar p71-75
+rf-p1-special-populations-0318 | new | KDT8 ch5
+rf-p1-special-populations-0319 | new | Katzung16 ch59
+rf-p1-special-populations-0320 | new | KDT8 ch5
+
+## Checker
+- Checked rf 0301-0320 against KDT8 ch5/ch6, Katzung16 ch59 and Sarkar p71-75. All confirmed; no changes.
+
+## Checker
+- Spot-checked rf-0301 to 0320 against KDT8 ch5 p91/p96, ch6 p117, Katzung16 ch59, Sarkar p71-75 (MAI items, STOPP/START). All grounded; none changed. No Prep/RR5 refs.
+
+## Gap closure: UHSR 2025 PYQ geriatric falls and gender (2026-11-03)
+
+| id | status | source |
+|---|---|---|
+| rf-p1-special-populations-0321 to 0342 | new (22 pairs) | KDT8 ch5; KDT8 ch6; KDT8 ch10; GG14 ch18; GG14 ch19; GG14 ch23 |
+
+Checker (PYQ gap pass): verified 0321-0342 against KDT8 p91-92, p111 and GG14 p367, p379, p393-394, p475. Wording fix on 0340 ("markedly" removed, not in source). Note: 0340 duplicates existing card (line 39, same answer, pregnancy-pk); left both for owner to merge. No deletions. Validator clean.

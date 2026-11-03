@@ -3,6 +3,145 @@
   "source": "KDT8 ch5; GG14 ch1; GG14 ch8",
   "cards": [
     {
+      "id": "p4-clinical-trials-002",
+      "type": "basic",
+      "front": "What are the aims, subjects and dose strategy of a phase I trial?",
+      "back": "First-in-human study of safety, tolerability and human PK. Subjects are mostly healthy volunteers; when the drug is expected to be toxic (e.g. cancer or AIDS therapy) volunteer patients are used instead. Size: about 20 to 80 subjects (KDT); 10 to 100 (GG14); 20 to 100 (Katzung). Done by trained clinical pharmacologists with vital functions monitored and resuscitation at hand. Subjects receive the drug one by one, starting at about 1/100 to 1/10 of the highest dose that was non-toxic in animals, escalated stepwise to find the dose range for later study. Open label (no blinding).",
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch1",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-003",
+      "type": "basic",
+      "front": "What does a phase II trial aim to establish?",
+      "back": "Therapeutic exploration and dose ranging: the first study in patients with the target disease ('proof of concept'). Size: about 100 to 500 patients (KDT); 50 to 500 (GG14); 100 to 200 (Katzung). Patients are selected by inclusion and exclusion criteria. Aims: therapeutic efficacy, dose range and ceiling effect; tolerability and PK are extended from phase I. Mostly controlled and randomised, blinded or open, generally at 2 to 4 centres. A candidate drug may be dropped here if efficacy is inadequate.",
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch1",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-004",
+      "type": "basic",
+      "front": "What is a phase III trial, and what does its completion lead to?",
+      "back": "Therapeutic confirmation: randomised, usually double-blind comparison with existing therapy, done at many centres by specialists in the disease. Size: about 500 to 3000 patients (KDT); a few hundred to a few thousand (GG14); usually thousands (Katzung). It confirms efficacy, assesses safety on a wider scale, finalises indications and may add PK data. Some immunologically mediated toxicities first appear here. Completion leads to the marketing application: NDA, or BLA for biologics. Toxic but valuable drugs may receive restricted marketing permission (e.g. hospital use only).",
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch1",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-006",
+      "type": "cloze",
+      "front": "Classify: phases of a drug trial",
+      "text": "Phase {{I}} is the first-in-human study in about {{20 to 80}} subjects, usually {{healthy volunteers}}, and open label; phase {{II}} explores dose and efficacy in about 100 to 500 patients; phase {{III}} is a {{randomised, double-blind}} multicentre comparison in about 500 to 3000 patients that supports the marketing application; phase {{IV}} is {{postmarketing}} surveillance.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-055",
+      "type": "shortnote",
+      "front": "Short note: Phase I clinical trials",
+      "sections": [
+        {
+          "h": "Purpose",
+          "points": [
+            "Human pharmacology and safety: first human administration of the drug, run by a qualified clinical pharmacologist"
+          ]
+        },
+        {
+          "h": "Context",
+          "points": [
+            "Clinical studies are conventionally divided into 4 phases (KDT8)",
+            "Phase 0 microdosing, where done, comes before phase I"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p107"
+      ],
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-078",
+      "type": "basic",
+      "front": "What preclinical tests precede human trials?",
+      "back": "Animal work checks the whole pharmacological profile: screening, isolated organ and culture tests, disease models, systemic pharmacology, dose-response, pharmacokinetics, and toxicity in at least two species (one rodent, one non-rodent). Toxicity tests are acute (LD50, 1 to 3 days), subacute (2 to 12 weeks), chronic (6 to 12 months), reproduction and teratogenicity, mutagenicity (Ames test), and carcinogenicity. Toxicity work follows Good Laboratory Practices (GLP).",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
       "id": "p4-clinical-trials-001",
       "type": "shortnote",
       "front": "Short note: Phase 0 (microdosing) study",
@@ -52,58 +191,8 @@
       "tags": [
         "pk",
         "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-002",
-      "type": "basic",
-      "front": "What are the aims, subjects and dose strategy of a phase I trial?",
-      "back": "First-in-human study of safety, tolerability and human PK. Subjects are mostly healthy volunteers; when the drug is expected to be toxic (e.g. cancer or AIDS therapy) volunteer patients are used instead. Size: about 20 to 80 subjects (KDT); 10 to 100 (GG14); 20 to 100 (Katzung). Done by trained clinical pharmacologists with vital functions monitored and resuscitation at hand. Subjects receive the drug one by one, starting at about 1/100 to 1/10 of the highest dose that was non-toxic in animals, escalated stepwise to find the dose range for later study. Open label (no blinding).",
-      "refs": [
-        "KDT8 ch5",
-        "GG14 ch1",
-        "Katzung16 ch1"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-phases",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-003",
-      "type": "basic",
-      "front": "What does a phase II trial aim to establish?",
-      "back": "Therapeutic exploration and dose ranging: the first study in patients with the target disease ('proof of concept'). Size: about 100 to 500 patients (KDT); 50 to 500 (GG14); 100 to 200 (Katzung). Patients are selected by inclusion and exclusion criteria. Aims: therapeutic efficacy, dose range and ceiling effect; tolerability and PK are extended from phase I. Mostly controlled and randomised, blinded or open, generally at 2 to 4 centres. A candidate drug may be dropped here if efficacy is inadequate.",
-      "refs": [
-        "KDT8 ch5",
-        "GG14 ch1",
-        "Katzung16 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-phases",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-004",
-      "type": "basic",
-      "front": "What is a phase III trial, and what does its completion lead to?",
-      "back": "Therapeutic confirmation: randomised, usually double-blind comparison with existing therapy, done at many centres by specialists in the disease. Size: about 500 to 3000 patients (KDT); a few hundred to a few thousand (GG14); usually thousands (Katzung). It confirms efficacy, assesses safety on a wider scale, finalises indications and may add PK data. Some immunologically mediated toxicities first appear here. Completion leads to the marketing application: NDA, or BLA for biologics. Toxic but valuable drugs may receive restricted marketing permission (e.g. hospital use only).",
-      "refs": [
-        "KDT8 ch5",
-        "GG14 ch1",
-        "Katzung16 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-phases",
-      "tags": [
-        "classification"
-      ]
+      "level": 2
     },
     {
       "id": "p4-clinical-trials-005",
@@ -119,985 +208,8 @@
       "subtopic": "p4-clinical-trials-phases",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-006",
-      "type": "cloze",
-      "front": "Classify: phases of a drug trial",
-      "text": "Phase {{I}} is the first-in-human study in about {{20 to 80}} subjects, usually {{healthy volunteers}}, and open label; phase {{II}} explores dose and efficacy in about 100 to 500 patients; phase {{III}} is a {{randomised, double-blind}} multicentre comparison in about 500 to 3000 patients that supports the marketing application; phase {{IV}} is {{postmarketing}} surveillance.",
-      "refs": [
-        "KDT8 ch5"
       ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-phases",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-008",
-      "type": "basic",
-      "front": "Why is randomisation used, and when is stratified randomisation chosen?",
-      "back": "Subjects are allocated by a preselected random number table or computer programme, so each has an equal chance of entering the test or control group. Neither investigator nor patient can influence allocation, so that source of bias is removed. When groups may end up ill-matched (especially small groups), stratified randomisation is used: subjects are first divided by age, sex, disease severity or other variables, and randomised within each stratum. Too many strata defeat the purpose.",
-      "refs": [
-        "KDT8 ch5",
-        "RangDale9 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-design",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-009",
-      "type": "basic",
-      "front": "Compare parallel-group and crossover trial designs.",
-      "back": "Parallel: test and control groups run at the same time, each with different patients. Crossover: the same patients receive both treatments in a random order, so each serves as its own control. Crossover reduces between-patient variation and the sample size needed, but carry-over and order effects can occur, and it suits only chronic diseases that stay stable over time.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-design",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-010",
-      "type": "basic",
-      "front": "What is an adaptive trial design?",
-      "back": "Conventional statistical methods may fail to give a clear answer when trials meet unexpected confounders, loss of subjects or marked subgroup differences. Adaptive statistical methods allow the study design to be changed when interim data show the need. They may permit decisions on superiority as well as non-inferiority, shorten the trial, reveal new benefits and give more reliable conclusions.",
-      "refs": [
-        "Katzung16 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-design",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-011",
-      "type": "shortnote",
-      "front": "Short note: Bias in clinical trials and how it is minimised",
-      "sections": [
-        {
-          "h": "Sources",
-          "points": [
-            "Conscious and unconscious bias of investigators and subjects, for or against the test drug",
-            "Eliminating bias is the greatest challenge in a trial; credibility depends on it"
-          ]
-        },
-        {
-          "h": "Main strategies",
-          "points": [
-            "Randomisation, stratified where groups may be unbalanced",
-            "Blinding: single (subject) or double (subject and investigator); identical-looking medicines in unlabelled packets; code held by a third party",
-            "Rigorous follow-up and outcome assessment; assessors unaware of treatment if full blinding is impossible"
-          ]
-        },
-        {
-          "h": "Design safeguards",
-          "points": [
-            "Proper control group: placebo if ethical, otherwise standard treatment",
-            "Inclusion and exclusion criteria fixed in advance",
-            "Primary and secondary end points and the statistical method pre-specified"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5",
-        "RangDale9 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-design",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-012",
-      "type": "shortnote",
-      "front": "Short note: Surrogate versus clinical endpoints",
-      "sections": [
-        {
-          "h": "Definitions",
-          "points": [
-            "Clinical end point: patient-relevant outcome such as myocardial infarction, fracture or death",
-            "Surrogate end point: an easily measured marker thought to predict the clinical outcome, e.g. LDL cholesterol, HDL cholesterol, bone mineral density, HbA1c, blood pressure"
-          ]
-        },
-        {
-          "h": "Advantages",
-          "points": [
-            "Trials are cheaper and quicker"
-          ]
-        },
-        {
-          "h": "Pitfalls",
-          "points": [
-            "Ezetimibe was approved on LDL lowering; ENHANCE then found no reduction in carotid intima-media thickness despite extra LDL lowering; the later IMPROVE-IT trial showed reduced MI and stroke with ezetimibe plus statin",
-            "Torcetrapib raised HDL but increased cardiovascular deaths",
-            "CAST: antiarrhythmics suppressed ventricular arrhythmias (the surrogate) but increased sudden cardiac death"
-          ]
-        },
-        {
-          "h": "Rule",
-          "points": [
-            "Regulators are cautious about surrogate end points; the marker must truly reflect patient benefit"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch1",
-        "RangDale9 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-endpoints",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-013",
-      "type": "cloze",
-      "front": "Classify: errors and power in a trial",
-      "text": "A type {{I}} error is a {{false positive}} result, declaring a difference that does not exist; a type {{II}} error is a {{false negative}}; the {{power}} of a trial is 1 minus the type II error rate.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-endpoints",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-014",
-      "type": "basic",
-      "front": "What factors determine the sample size of a clinical trial?",
-      "back": "Four inputs: the significance level (type I error, usually 0.05); the power (1 minus type II error); the smallest clinically meaningful difference expected between groups; and the variability of the primary endpoint. A smaller expected difference, greater variability, higher power or a stricter significance level all increase the number needed. Sample size is calculated in advance because it must be minimal for both ethical and financial reasons.",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-endpoints",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-016",
-      "type": "shortnote",
-      "front": "Short note: Interim analysis and early stopping of trials",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Analysis of accumulating results at intervals while a large trial is still running"
-          ]
-        },
-        {
-          "h": "Who",
-          "points": [
-            "An independent committee, not the investigators"
-          ]
-        },
-        {
-          "h": "Possible decision",
-          "points": [
-            "Early termination once a decisive result, positive or negative, is reached",
-            "Otherwise the trial continues"
-          ]
-        },
-        {
-          "h": "Why",
-          "points": [
-            "Unethical to keep giving remaining patients a treatment already shown to be inferior"
-          ]
-        },
-        {
-          "h": "Related design",
-          "points": [
-            "Sequential trial: matched pairs scored continuously until a preset boundary of superiority, inferiority or no difference is reached; suits drugs whose end points are reached quickly"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-endpoints",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-017",
-      "type": "basic",
-      "front": "What is a non-inferiority trial, and why would one be done?",
-      "back": "A trial designed to show that a new drug is not inferior to existing treatment, rather than better. It is worthwhile when the new drug may offer other advantages: tolerability, safety, convenience, cost, or use in a particular patient subgroup. Many phase II and III studies are designed this way. The sample size calculation differs depending on whether the aim is to show equivalence or non-inferiority, or a significant difference.",
-      "refs": [
-        "KDT8 ch5",
-        "Katzung16 ch1",
-        "RangDale9 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-endpoints",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-018",
-      "type": "essay",
-      "front": "Essay: Design of a non-inferiority phase III trial",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Aim: show the new drug is not inferior to standard treatment",
-            "Justified by expected gains in tolerability, safety, convenience, cost or use in a subgroup"
-          ]
-        },
-        {
-          "h": "Design",
-          "points": [
-            "Randomised, parallel-group trial against the existing standard treatment (active control)",
-            "Double blind with identical-looking medicines where possible",
-            "Inclusion and exclusion criteria and the dosage regimen fixed in advance"
-          ]
-        },
-        {
-          "h": "End points",
-          "points": [
-            "Primary and secondary end points specified in advance",
-            "Surrogate end points only if they reliably reflect clinical benefit"
-          ]
-        },
-        {
-          "h": "Sample size",
-          "points": [
-            "Calculated beforehand from significance level, power, the clinically relevant difference and variability of response",
-            "Calculation depends on aiming for non-inferiority rather than a difference"
-          ]
-        },
-        {
-          "h": "Analysis and pitfalls",
-          "points": [
-            "Pre-specified statistical method",
-            "Interpretation is hard with confounders, loss of subjects or subgroup differences"
-          ]
-        },
-        {
-          "h": "Ethics and monitoring",
-          "points": [
-            "Independent ethics committee approval and written informed consent",
-            "Interim analysis by an independent committee"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5",
-        "Katzung16 ch1",
-        "RangDale9 ch8"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2007,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-endpoints",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-019",
-      "type": "shortnote",
-      "front": "Short note: Good Clinical Practice (GCP)",
-      "sections": [
-        {
-          "h": "What it is",
-          "points": [
-            "Standards laid down by the International Conference on Harmonization (ICH) for trial design, ethics, conduct, monitoring, auditing, recording, analysis and reporting"
-          ]
-        },
-        {
-          "h": "Purpose",
-          "points": [
-            "Assures that data and reported results are credible and accurate",
-            "Protects the rights, integrity and confidentiality of trial subjects"
-          ]
-        },
-        {
-          "h": "Ethical base",
-          "points": [
-            "Principles of the Declaration of Helsinki (World Medical Association)",
-            "National guidelines too: in India, ICMR ethical guidelines for biomedical research on human participants"
-          ]
-        },
-        {
-          "h": "Requirement",
-          "points": [
-            "Every trial needs prior approval by an independent ethics committee as per GCP"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-gcp-roles",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-020",
-      "type": "basic",
-      "front": "What are the roles of the sponsor, the investigators and the institutional review board in a drug trial?",
-      "back": "Sponsor (usually a pharmaceutical company): files the Investigational New Drug (IND) application describing preclinical data and the protocol before human testing, and applies for marketing (NDA or BLA) after phase III. Investigators: run the trial; in phase III they are usually specialists in the disease. Institutional review board (ethics committee) at each facility: an interdisciplinary body that must review and approve the scientific and ethical plan before testing in humans.",
-      "refs": [
-        "GG14 ch1",
-        "Katzung16 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-gcp-roles",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-021",
-      "type": "cloze",
-      "front": "Recall: who does what before and during a drug trial",
-      "text": "The {{sponsor}} files the {{IND}} application before human testing; an {{institutional review board}} at each site approves the plan; after phase III the sponsor applies for marketing by an {{NDA}} (or a BLA for biologics).",
-      "refs": [
-        "GG14 ch1",
-        "Katzung16 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-gcp-roles",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-022",
-      "type": "shortnote",
-      "front": "Short note: Ethics committee in clinical trials",
-      "sections": [
-        {
-          "h": "Role",
-          "points": [
-            "Independent body; every trial needs its scrutiny and approval as per GCP",
-            "Weighs safety and ethical issues as well as the scientific importance of the study"
-          ]
-        },
-        {
-          "h": "Principles it must protect",
-          "points": [
-            "Autonomy: freedom, dignity and confidentiality; right to choose whether to join or continue",
-            "Beneficence: intent to do good to the subject or society",
-            "Non-maleficence: no harm or undue risk",
-            "Justice: fairness, honesty and impartiality in obtaining, analysing and reporting data"
-          ]
-        },
-        {
-          "h": "Composition",
-          "points": [
-            "Interdisciplinary institutional review board at each trial facility"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5",
-        "Katzung16 ch1",
-        "RangDale9 ch8"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2007,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-gcp-roles",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-023",
-      "type": "basic",
-      "front": "What must trial subjects be told, and what are the limits of informed consent?",
-      "back": "Subjects must be told that the drug is investigational, the nature and risks of the trial, and that they may be randomly and unknowingly assigned to test or control. They must be free to decline, or to stop participating (autonomy), and confidentiality is protected. Consent is proper and written. Limits: unconscious, demented or mentally ill patients cannot consent, and trials in children and the elderly raise similar concerns, yet such groups still need trials.",
-      "refs": [
-        "KDT8 ch5",
-        "Katzung16 ch1",
-        "RangDale9 ch8"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-consent-safety",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-028",
-      "type": "cloze",
-      "front": "Classify: components of valid informed consent",
-      "text": "Consent must be {{voluntary}}, informed and {{written}}; the subject keeps the right to decide whether to {{continue}} in the trial (autonomy).",
-      "refs": [
-        "KDT8 ch5"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-consent-safety",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-032",
-      "type": "basic",
-      "front": "What is an orphan drug?",
-      "back": "A drug or biological product for diagnosis, treatment or prevention of a rare disease, or of a commoner disease endemic only in resource-poor areas, for which there is no reasonable expectation that development and marketing costs will be recovered from sales. Under the US Orphan Drug Amendment (1983), a rare disease affects fewer than 200,000 people in the USA. Governments offer tax benefits and other incentives. Examples given orphan status: clofazimine, paromomycin, sodium stibogluconate, rituximab, bortezomib.",
-      "refs": [
-        "KDT8 ch1",
-        "Katzung16 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-india-regulation",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-033",
-      "type": "basic",
-      "front": "Why do orphan drugs need special incentives?",
-      "back": "Proving safety and efficacy in small populations is complex; little basic research is done on rare diseases, so rational targets are few; and development cost weighs heavily when the target population is small. Excessive product-liability costs (e.g. failure-to-warn claims for rare harms not detected in small trials) are a further disincentive. Hence tax benefits and other incentives, and support from not-for-profit foundations.",
-      "refs": [
-        "GG14 ch1",
-        "Katzung16 ch1",
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-india-regulation",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-035",
-      "type": "basic",
-      "front": "Why can spontaneous adverse-event reports not give the true incidence of a drug reaction?",
-      "back": "The denominator is unknown, because the number of patients exposed to the drug is not recorded. The numerator is also incomplete: most reactions go unreported, reporting patterns change over the life of the product, and reports often lack dose, concomitant drugs or outcome. Media attention and litigation further distort reporting, so reports cannot be used to compare rates between drugs.",
-      "refs": [
-        "GG14 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-pharmacovigilance",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-036",
-      "type": "basic",
-      "front": "What is a safety signal and how is it detected?",
-      "back": "A signal is a possible link between a drug and an adverse event that needs evaluation. Signals are found by disproportionality analysis, which compares how often an event is reported with the drug against its frequency across the whole database. These methods need no drug-use denominator but rely on assumptions that are hard to verify, so a signal almost always needs confirmation from controlled studies.",
-      "refs": [
-        "GG14 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-pharmacovigilance",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-037",
-      "type": "basic",
-      "front": "When is a single case report strong evidence that a drug caused an event?",
-      "back": "When the event is rare or unlikely from other causes, appears close in time after exposure, has few other risk factors, and the drug carries a large excess risk. Examples are anaphylaxis and Stevens-Johnson syndrome, and rhabdomyolysis with cerivastatin. Otherwise a case report only raises suspicion.",
-      "refs": [
-        "GG14 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-pharmacovigilance",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-038",
-      "type": "basic",
-      "front": "How is pharmacovigilance organised in India and internationally (as given in KDT)?",
-      "back": "Pharmacovigilance centres exist in most countries, with the Uppsala Monitoring Centre (Sweden) as the international collaborating centre. In India, CDSCO coordinates the pharmacovigilance programme, with peripheral, regional and zonal monitoring centres and a National Pharmacovigilance Advisory Committee. Centres collect, communicate and disseminate ADR data by linking with hospitals and practitioners, and assess causality (Naranjo algorithm) and severity (modified Hartwig scale).",
-      "refs": [
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-pharmacovigilance",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-039",
-      "type": "cloze",
-      "front": "Classify: observational designs in pharmacovigilance",
-      "text": "A {{cohort}} study follows users and non-users of a drug to find uncommon adverse effects; a {{case-control}} study compares the frequency of drug use in cases with an adverse response against controls.",
-      "refs": [
-        "KDT8 ch5",
-        "GG14 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-pharmacovigilance",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-040",
-      "type": "essay",
-      "front": "Essay: From a suspected adverse drug reaction to regulatory action",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Premarketing trials are too small to detect rare ADRs; safety knowledge evolves over the drug's life cycle"
-          ]
-        },
-        {
-          "h": "Sources",
-          "points": [
-            "Spontaneous reports (e.g. FAERS via MedWatch in the US; CDSCO-coordinated programme in India)",
-            "Published case reports",
-            "Observational cohort and case-control studies",
-            "Postmarketing clinical trials"
-          ]
-        },
-        {
-          "h": "Signal detection and causality",
-          "points": [
-            "Disproportionality methods on the spontaneous report database",
-            "Causality judged by temporal relation, previous knowledge, dechallenge and rechallenge; Naranjo algorithm"
-          ]
-        },
-        {
-          "h": "Limitations",
-          "points": [
-            "Denominator unknown",
-            "Heavy underreporting",
-            "Incomplete reports; confounding in observational studies"
-          ]
-        },
-        {
-          "h": "Regulatory action",
-          "points": [
-            "Safety communication and label change, including boxed warning",
-            "Risk Evaluation and Mitigation Strategies (REMS)",
-            "Withdrawal from the market"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch8",
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-pharmacovigilance",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-043",
-      "type": "shortnote",
-      "front": "Short note: New Drugs and Clinical Trials (NDCT) Rules, 2019",
-      "sections": [
-        {
-          "h": "Status",
-          "points": [
-            "In force from 25 March 2019 (the chapter on ethics committees for biomedical and health research from 21 September 2019)",
-            "Replaced Part XA and Schedule Y of the Drugs and Cosmetics Rules, 1945 (older texts, e.g. KDT8, still describe Schedule Y)",
-            "Apply to new drugs, investigational drugs, ethics committees, BA/BE studies and clinical trials"
-          ]
-        },
-        {
-          "h": "New drug (definition)",
-          "points": [
-            "Not used in India to any significant extent and not approved by the Central Licensing Authority (CLA) for its claims",
-            "Also: approved drug with new claims (indication, route, dose, dosage form); new fixed-dose combination or changed ratio; modified-release or novel delivery form",
-            "Also: vaccines, rDNA products, monoclonal antibodies, stem-cell products, gene therapy products, xenografts; phytopharmaceutical drugs added"
-          ]
-        },
-        {
-          "h": "Trial approval",
-          "points": [
-            "Decision within 90 days for drugs developed outside India, 30 days for new drugs developed in India; no reply means deemed approval",
-            "Trial permission valid 2 years",
-            "Rejected applicant may seek reconsideration within 60 days"
-          ]
-        },
-        {
-          "h": "Ethics committees",
-          "points": [
-            "Two types: for clinical trials and BA/BE studies, and for biomedical and health research",
-            "Registration valid 5 years",
-            "CLA (DCGI) informed of EC approval within 15 working days"
-          ]
-        },
-        {
-          "h": "Conduct and reporting",
-          "points": [
-            "6-monthly trial status report to DCGI through the SUGAM portal; enrolment status every 3 months",
-            "Termination notified to CLA within 30 days with reasons",
-            "Post-trial access to the drug free of cost, on investigator recommendation and EC approval",
-            "Academic trials need EC approval only"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p221-225",
-        "Sarkar p226-230",
-        "Sarkar p16-20"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-india-regulation",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-044",
-      "type": "basic",
-      "front": "What is an academic clinical trial under the NDCT Rules 2019?",
-      "back": "A trial intended solely for academic research. It needs only Ethics Committee approval; no permission from the DCGI is required. Its results must not be used for promotional purposes or to seek regulatory approval.",
-      "refs": [
-        "Sarkar p226-230"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-india-regulation",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-045",
-      "type": "basic",
-      "front": "How do the NDCT Rules 2019 define a serious adverse event (SAE) in a clinical trial?",
-      "back": "An untoward medical occurrence during a clinical trial that results in death; in-patient hospitalisation (if the study was on out-patients) or prolonged hospitalisation (if on in-patients); persistent or significant disability or incapacity; a congenital anomaly or birth defect; or is otherwise life-threatening. The NDCT Rules amended the earlier Schedule Y rule (Rule 122DAB).",
-      "refs": [
-        "Sarkar p246-250"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-consent-safety",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-046",
-      "type": "cloze",
-      "front": "Recall: SAE reporting timelines under the NDCT Rules 2019",
-      "text": "The investigator reports every SAE to the CLA, the sponsor and the EC within {{24 hours}}. For SAE of death, the sponsor and investigator send analysed reports to the CLA and head of institution within {{14 days}}; the EC sends its report with an opinion on compensation within {{30 days}}; the expert committee recommends cause and compensation within {{60 days}}; the CLA decides compensation within {{90 days}}; the sponsor pays within {{30 days}} of the order.",
-      "refs": [
-        "Sarkar p246-250",
-        "Sarkar p226-230"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-consent-safety",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-047",
-      "type": "shortnote",
-      "front": "Short note: Medical management and compensation for trial injury under the NDCT Rules 2019",
-      "sections": [
-        {
-          "h": "Medical management",
-          "points": [
-            "Sponsor gives free medical management for as long as required in the investigator's opinion, or until the injury is shown to be unrelated to the trial or BA/BE study"
-          ]
-        },
-        {
-          "h": "Financial compensation",
-          "points": [
-            "Payable for clinical trial-related injury or death",
-            "Quantum determined by the CLA using the formula in the Seventh Schedule",
-            "Paid by the sponsor or its representative"
-          ]
-        },
-        {
-          "h": "Procedure",
-          "points": [
-            "Investigator reports the SAE within 24 hours",
-            "EC forwards its analysed report with an opinion on compensation",
-            "CLA may constitute an independent expert committee, which recommends cause and quantum within 60 days",
-            "CLA passes the order within 90 days of the SAE report",
-            "Sponsor pays within 30 days of the order and submits payment details to the CLA"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p246-250",
-        "Sarkar p226-230",
-        "Sarkar p156-160"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-consent-safety",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-048",
-      "type": "shortnote",
-      "front": "Short note: Ethics committee for clinical trials under the NDCT Rules 2019",
-      "sections": [
-        {
-          "h": "Composition",
-          "points": [
-            "At least 7 members from medical, non-medical, scientific and non-scientific areas",
-            "At least one lay person, one woman, one legal expert, and one independent member (social scientist, NGO representative, philosopher, ethicist or theologian)",
-            "At least half not associated with the institution; chairperson unaffiliated; member secretary from the institution",
-            "Medical scientists and clinicians need postgraduate qualification; all members trained in GCP"
-          ]
-        },
-        {
-          "h": "Registration",
-          "points": [
-            "Registered by the CLA; valid 5 years",
-            "Renewal applied for 90 days before expiry",
-            "Changes in membership intimated to the CLA within 30 days"
-          ]
-        },
-        {
-          "h": "Quorum",
-          "points": [
-            "At least 5 members, including a medical scientist (preferably a pharmacologist), a clinician, a legal expert, and a social scientist, NGO representative or lay person",
-            "Invited subject experts cannot vote"
-          ]
-        },
-        {
-          "h": "Duties",
-          "points": [
-            "Protect rights, safety and well-being of subjects, with extra care for vulnerable groups (e.g. prisoners, students, the impoverished, minors)",
-            "Ongoing review; may revoke approval with recorded reasons",
-            "Report on SAEs with opinion on compensation"
-          ]
-        },
-        {
-          "h": "Change from Schedule Y",
-          "points": [
-            "Schedule Y also required at least 7 members, but without the detailed composition rules"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p226-230",
-        "Sarkar p156-160",
-        "Sarkar p246-250"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-gcp-roles",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-049",
-      "type": "basic",
-      "front": "How do the NDCT Rules 2019 define an orphan drug, and what concessions do they give?",
-      "back": "An orphan drug is one intended to treat a condition affecting not more than five lakh (500,000) persons in India. Concessions: fast-track approval and special status, including a complete fee waiver for clinical trial filing; expedited review where safety and efficacy evidence is established even before all trial phases are complete (post-marketing trials may then be required); and waiver of the local clinical study and phase IV if the CLA is satisfied. Marketing still needs CDSCO authorisation to import or manufacture.",
-      "refs": [
-        "Sarkar p36-40"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-india-regulation",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-050",
-      "type": "shortnote",
-      "front": "Short note: Pharmacovigilance Programme of India (PvPI)",
-      "sections": [
-        {
-          "h": "History",
-          "points": [
-            "1989: six regional ADR centres",
-            "1997: India joined the WHO Programme for International Drug Monitoring (Uppsala Monitoring Centre)",
-            "2004: National Pharmacovigilance Programme",
-            "14 July 2010: PvPI launched with AIIMS, New Delhi as National Coordination Centre (NCC)",
-            "15 April 2011: NCC shifted to the Indian Pharmacopoeia Commission (IPC), Ghaziabad"
-          ]
-        },
-        {
-          "h": "Organisation",
-          "points": [
-            "Conducted by CDSCO (Directorate General of Health Services, Ministry of Health and Family Welfare); coordinated by IPC as NCC",
-            "ADR Monitoring Centres (AMCs), mostly in medical colleges, send reports to the NCC through VigiFlow",
-            "Data go to the WHO-UMC global database; CDSCO takes regulatory decisions on NCC recommendations"
-          ]
-        },
-        {
-          "h": "Reporting",
-          "points": [
-            "Suspected ADR reporting form (voluntary, by healthcare professionals)",
-            "Report all suspected reactions to new drugs, all suspected interactions, and serious reactions (death, life-threatening, hospitalisation, disability, congenital anomaly)"
-          ]
-        },
-        {
-          "h": "Note",
-          "points": [
-            "KDT8 describes the older CDSCO-coordinated programme with peripheral, regional and zonal centres"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p91-95",
-        "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-pharmacovigilance",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-clinical-trials-051",
-      "type": "shortnote",
-      "front": "Short note: Contract research organisation (CRO)",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Company that takes on sponsor duties under contract as an independent contractor",
-            "Designs, selects, monitors and evaluates studies, and prepares regulatory submissions"
-          ]
-        },
-        {
-          "h": "Why CROs arose",
-          "points": [
-            "After the 1962 Kefauver-Harris amendments, efficacy had to be proven before marketing",
-            "Companies outsourced non-critical studies to cut workload and cost",
-            "Turns fixed development costs into variable costs"
-          ]
-        },
-        {
-          "h": "Departments",
-          "points": [
-            "Medical: trial protocol design and medical input",
-            "Regulatory submission team",
-            "Clinical operations: site selection, monitoring, study close-out",
-            "Data management: databases and clean data for analysis"
-          ]
-        },
-        {
-          "h": "Status in India",
-          "points": [
-            "Grew after the 2005 Schedule Y change allowed trials in India to run alongside other countries",
-            "Sponsors use CROs; India attractive for patient pool, hospitals and stability studies",
-            "Shortage of skilled staff such as CRAs, especially with international GCP experience"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p151-155"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-clinical-trials-gcp-roles",
-      "tags": [
-        "classification"
-      ]
+      "level": 2
     },
     {
       "id": "p4-clinical-trials-052",
@@ -1153,7 +265,25 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-079",
+      "type": "basic",
+      "front": "Outline the stages of new drug development from molecule to market.",
+      "back": "Synthesis or isolation of the compound, then preclinical animal studies; if promising, the regulator issues an Investigational New Drug licence for clinical trials in phases I to III; after phase III a new drug application is filed for marketing; phase IV follows. Development takes at least 10 years and costs about 500 to 1000 million US dollars, and only a few of thousands of compounds reach man.",
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p4-clinical-trials-053",
@@ -1230,7 +360,25 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-008",
+      "type": "basic",
+      "front": "Why is randomisation used, and when is stratified randomisation chosen?",
+      "back": "Subjects are allocated by a preselected random number table or computer programme, so each has an equal chance of entering the test or control group. Neither investigator nor patient can influence allocation, so that source of bias is removed. When groups may end up ill-matched (especially small groups), stratified randomisation is used: subjects are first divided by age, sex, disease severity or other variables, and randomised within each stratum. Too many strata defeat the purpose.",
+      "refs": [
+        "KDT8 ch5",
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p4-clinical-trials-054",
@@ -1307,39 +455,1090 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p4-clinical-trials-055",
+      "id": "p4-clinical-trials-056",
+      "type": "basic",
+      "front": "What is blinding in a clinical trial, and what is an open trial?",
+      "back": "Blinding hides which treatment (test or control) a person is getting. Single blind hides it from the subject; double blind hides it from both subject and investigator. The two medicines must look, weigh and taste alike and come in unlabelled packs numbered per patient. The allocation code is held by a third party (data management) not involved in treatment or recording, and is broken only after the trial ends. Why: it removes conscious and unconscious expectation bias. A trial where the treatment is not hidden is called open (not every trial needs blinding).",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-057",
+      "type": "basic",
+      "front": "What is a controlled trial, and what can the control group receive?",
+      "back": "A controlled trial has a comparator group as similar as possible to the test group, so any difference can be credited to the test drug. The control gets either a placebo (only if ethically permissible) or the existing standard treatment (active control). The regimen (dose, frequency, duration) is fixed in advance, so results apply only to that regimen; separate dose-ranging trials are needed to judge other doses.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-063",
+      "type": "basic",
+      "front": "What are the advantages of a multicentric trial?",
+      "back": "Many large trials run at more than one centre, sometimes in several countries. Advantages: more patients recruited in less time; results apply to a wider population; regulatory requirements of several countries can be met; credibility of the trial rises. Phase III trials are usually multicentric.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-009",
+      "type": "basic",
+      "front": "Compare parallel-group and crossover trial designs.",
+      "back": "Parallel: test and control groups run at the same time, each with different patients. Crossover: the same patients receive both treatments in a random order, so each serves as its own control. Crossover reduces between-patient variation and the sample size needed, but carry-over and order effects can occur, and it suits only chronic diseases that stay stable over time.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-010",
+      "type": "basic",
+      "front": "What is an adaptive trial design?",
+      "back": "Conventional statistical methods may fail to give a clear answer when trials meet unexpected confounders, loss of subjects or marked subgroup differences. Adaptive statistical methods allow the study design to be changed when interim data show the need. They may permit decisions on superiority as well as non-inferiority, shorten the trial, reveal new benefits and give more reliable conclusions.",
+      "refs": [
+        "Katzung16 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-058",
+      "type": "basic",
+      "front": "Why does the Declaration of Helsinki discourage placebo controls when an effective treatment exists?",
+      "back": "If a proven alternative exists, subjects randomised to placebo would in effect be denied treatment during the trial, which is an ethical problem (beneficence, non-maleficence). So the comparator then should be the existing standard treatment (active control). This is also why a placebo is used only where ethically permissible.",
+      "refs": [
+        "GG14 ch1",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-059",
       "type": "shortnote",
-      "front": "Short note: Phase I clinical trials",
+      "front": "Short note: Role of placebo in clinical trials and therapy",
       "sections": [
         {
-          "h": "Purpose",
+          "h": "What",
           "points": [
-            "Human pharmacology and safety: first human administration of the drug, run by a qualified clinical pharmacologist"
+            "Inert substance given in the guise of a medicine",
+            "Acts by psychodynamic, not pharmacodynamic, means and often gives responses like the active drug; some people are more suggestible"
           ]
         },
         {
-          "h": "Context",
+          "h": "Use in trials",
           "points": [
-            "Clinical studies are conventionally divided into 4 phases (KDT8)",
-            "Phase 0 microdosing, where done, comes before phase I"
+            "Serves as the control in a controlled trial, if ethically permissible",
+            "Otherwise the existing standard treatment is the active control"
+          ]
+        },
+        {
+          "h": "Nocebo",
+          "points": [
+            "Opposite effect: negative response from patient pessimism or loss of faith in the drug or doctor",
+            "Can oppose the therapeutic effect of the active drug"
+          ]
+        },
+        {
+          "h": "Ethics",
+          "points": [
+            "Helsinki Declaration discourages placebo when an alternative treatment is available"
           ]
         }
       ],
       "refs": [
-        "KDT8 PDF p107"
+        "KDT8 ch4",
+        "KDT8 ch5",
+        "GG14 ch1"
       ],
-      "subtopic": "p4-clinical-trials-phases",
-      "tags": [
-        "classification"
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
       ],
       "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-062",
+      "type": "basic",
+      "front": "What is a sequential trial design, and when is it applicable?",
+      "back": "Matched pairs of subjects are compared one pair at a time and scored as A better than B, B better than A, or no difference. The score is plotted continuously until a preset boundary for superiority, inferiority or no difference is crossed, and then the trial stops. It uses the fewest subjects, but suits only drugs and diseases where clinical end points come quickly and matched pairs can be recruited.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-011",
+      "type": "shortnote",
+      "front": "Short note: Bias in clinical trials and how it is minimised",
+      "sections": [
+        {
+          "h": "Sources",
+          "points": [
+            "Conscious and unconscious bias of investigators and subjects, for or against the test drug",
+            "Eliminating bias is the greatest challenge in a trial; credibility depends on it"
+          ]
+        },
+        {
+          "h": "Main strategies",
+          "points": [
+            "Randomisation, stratified where groups may be unbalanced",
+            "Blinding: single (subject) or double (subject and investigator); identical-looking medicines in unlabelled packets; code held by a third party",
+            "Rigorous follow-up and outcome assessment; assessors unaware of treatment if full blinding is impossible"
+          ]
+        },
+        {
+          "h": "Design safeguards",
+          "points": [
+            "Proper control group: placebo if ethical, otherwise standard treatment",
+            "Inclusion and exclusion criteria fixed in advance",
+            "Primary and secondary end points and the statistical method pre-specified"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-060",
+      "type": "shortnote",
+      "front": "Short note: Meta-analysis",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Pools data from several similar randomised controlled trials of the same drug or class on the same end point",
+            "Enlarges numbers, raising significance and power, and resolves discordant small trials"
+          ]
+        },
+        {
+          "h": "Criticisms",
+          "points": [
+            "Selection bias in choosing trials",
+            "Publication bias: negative results less often published",
+            "Trials differ in methodology and conduct"
+          ]
+        },
+        {
+          "h": "To be reliable",
+          "points": [
+            "Comprehensive literature search",
+            "Objective inclusion criteria",
+            "Only randomised trials of assured quality",
+            "Proper statistics for pooling"
+          ]
+        },
+        {
+          "h": "Example",
+          "points": [
+            "Supported beta-blockers in heart failure and statins to lower coronary artery disease risk"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-061",
+      "type": "essay",
+      "front": "Essay: Principles of controlled clinical trials",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Clinical trial: prospective, ethically designed study in humans to discover, verify or compare therapeutic measures",
+            "Credibility depends on eliminating bias"
+          ]
+        },
+        {
+          "h": "Control and design",
+          "points": [
+            "Comparator group: placebo (if ethical) or active control",
+            "Parallel versus crossover; multicentric trials; sequential designs"
+          ]
+        },
+        {
+          "h": "Bias control",
+          "points": [
+            "Randomisation (stratified if needed)",
+            "Blinding: single, double, open trials; code held by a third party"
+          ]
+        },
+        {
+          "h": "Size and analysis",
+          "points": [
+            "Sample size fixed beforehand: significance, power, expected difference, variability",
+            "Interim analysis by an independent committee with early stopping"
+          ]
+        },
+        {
+          "h": "Ethics",
+          "points": [
+            "Independent ethics committee approval; written informed consent",
+            "Autonomy, beneficence, non-maleficence, justice"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Randomised controlled double-blind trial is the most credible evidence of efficacy, safety or comparative value"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch1"
+      ],
       "pyq": [
         {
           "university": "RGUHS",
-          "year": 2006,
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-013",
+      "type": "cloze",
+      "front": "Classify: errors and power in a trial",
+      "text": "A type {{I}} error is a {{false positive}} result, declaring a difference that does not exist; a type {{II}} error is a {{false negative}}; the {{power}} of a trial is 1 minus the type II error rate.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-064",
+      "type": "basic",
+      "front": "Why must sample size be calculated before a trial begins?",
+      "back": "Money and ethics both require the smallest number of subjects that can still give a valid answer: too few cannot settle the question, too many expose people needlessly. The trial uses only a sample of all patients, which may not represent the population, so results are never absolutely conclusive. Hence the number needed to show test better, control better, or no difference is calculated statistically in advance.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-065",
+      "type": "basic",
+      "front": "What is the difference between a clinical end point and a surrogate end point?",
+      "back": "A clinical end point is an outcome that matters to the patient, such as myocardial infarction, fracture or death. A surrogate end point is an easily measured marker that is expected to predict it: LDL cholesterol for myocardial infarction, bone mineral density for fracture, HbA1c for diabetic complications. Surrogates cut trial cost and time, but the marker may not truly reflect the disease outcome.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-066",
+      "type": "cloze",
+      "front": "Recall: how sample size moves",
+      "text": "A {{smaller}} expected difference between groups needs a {{larger}} sample; higher power or a stricter significance level needs a {{larger}} sample; a more variable primary end point needs {{more}} subjects.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-012",
+      "type": "shortnote",
+      "front": "Short note: Surrogate versus clinical endpoints",
+      "sections": [
+        {
+          "h": "Definitions",
+          "points": [
+            "Clinical end point: patient-relevant outcome such as myocardial infarction, fracture or death",
+            "Surrogate end point: an easily measured marker thought to predict the clinical outcome, e.g. LDL cholesterol, HDL cholesterol, bone mineral density, HbA1c, blood pressure"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "Trials are cheaper and quicker"
+          ]
+        },
+        {
+          "h": "Pitfalls",
+          "points": [
+            "Ezetimibe was approved on LDL lowering; ENHANCE then found no reduction in carotid intima-media thickness despite extra LDL lowering; the later IMPROVE-IT trial showed reduced MI and stroke with ezetimibe plus statin",
+            "Torcetrapib raised HDL but increased cardiovascular deaths",
+            "CAST: antiarrhythmics suppressed ventricular arrhythmias (the surrogate) but increased sudden cardiac death"
+          ]
+        },
+        {
+          "h": "Rule",
+          "points": [
+            "Regulators are cautious about surrogate end points; the marker must truly reflect patient benefit"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch1",
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-014",
+      "type": "basic",
+      "front": "What factors determine the sample size of a clinical trial?",
+      "back": "Four inputs: the significance level (type I error, usually 0.05); the power (1 minus type II error); the smallest clinically meaningful difference expected between groups; and the variability of the primary endpoint. A smaller expected difference, greater variability, higher power or a stricter significance level all increase the number needed. Sample size is calculated in advance because it must be minimal for both ethical and financial reasons.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-016",
+      "type": "shortnote",
+      "front": "Short note: Interim analysis and early stopping of trials",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Analysis of accumulating results at intervals while a large trial is still running"
+          ]
+        },
+        {
+          "h": "Who",
+          "points": [
+            "An independent committee, not the investigators"
+          ]
+        },
+        {
+          "h": "Possible decision",
+          "points": [
+            "Early termination once a decisive result, positive or negative, is reached",
+            "Otherwise the trial continues"
+          ]
+        },
+        {
+          "h": "Why",
+          "points": [
+            "Unethical to keep giving remaining patients a treatment already shown to be inferior"
+          ]
+        },
+        {
+          "h": "Related design",
+          "points": [
+            "Sequential trial: matched pairs scored continuously until a preset boundary of superiority, inferiority or no difference is reached; suits drugs whose end points are reached quickly"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-017",
+      "type": "basic",
+      "front": "What is a non-inferiority trial, and why would one be done?",
+      "back": "A trial designed to show that a new drug is not inferior to existing treatment, rather than better. It is worthwhile when the new drug may offer other advantages: tolerability, safety, convenience, cost, or use in a particular patient subgroup. Many phase II and III studies are designed this way. The sample size calculation differs depending on whether the aim is to show equivalence or non-inferiority, or a significant difference.",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1",
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-018",
+      "type": "essay",
+      "front": "Essay: Design of a non-inferiority phase III trial",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Aim: show the new drug is not inferior to standard treatment",
+            "Justified by expected gains in tolerability, safety, convenience, cost or use in a subgroup"
+          ]
+        },
+        {
+          "h": "Design",
+          "points": [
+            "Randomised, parallel-group trial against the existing standard treatment (active control)",
+            "Double blind with identical-looking medicines where possible",
+            "Inclusion and exclusion criteria and the dosage regimen fixed in advance"
+          ]
+        },
+        {
+          "h": "End points",
+          "points": [
+            "Primary and secondary end points specified in advance",
+            "Surrogate end points only if they reliably reflect clinical benefit"
+          ]
+        },
+        {
+          "h": "Sample size",
+          "points": [
+            "Calculated beforehand from significance level, power, the clinically relevant difference and variability of response",
+            "Calculation depends on aiming for non-inferiority rather than a difference"
+          ]
+        },
+        {
+          "h": "Analysis and pitfalls",
+          "points": [
+            "Pre-specified statistical method",
+            "Interpretation is hard with confounders, loss of subjects or subgroup differences"
+          ]
+        },
+        {
+          "h": "Ethics and monitoring",
+          "points": [
+            "Independent ethics committee approval and written informed consent",
+            "Interim analysis by an independent committee"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1",
+        "RangDale9 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-067",
+      "type": "basic",
+      "front": "Case: a drug approved on LDL lowering later shows no effect on carotid thickness. What does this teach about surrogate end points?",
+      "back": "Ezetimibe lowers LDL further than a statin alone, and was approved assuming LDL is a good surrogate for myocardial infarction and stroke. The ENHANCE trial then found no extra reduction in carotid intima-media thickness with ezetimibe plus statin, so the surrogate was questioned (critics blamed the patient group). A 7-year trial of over 18,000 high-risk patients (IMPROVE-IT) later showed fewer myocardial infarctions and strokes, vindicating approval. Lesson: surrogates save time and money but their link to hard outcomes must be shown, sometimes only by a later clinical-end-point trial.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-019",
+      "type": "shortnote",
+      "front": "Short note: Good Clinical Practice (GCP)",
+      "sections": [
+        {
+          "h": "What it is",
+          "points": [
+            "Standards laid down by the International Conference on Harmonization (ICH) for trial design, ethics, conduct, monitoring, auditing, recording, analysis and reporting"
+          ]
+        },
+        {
+          "h": "Purpose",
+          "points": [
+            "Assures that data and reported results are credible and accurate",
+            "Protects the rights, integrity and confidentiality of trial subjects"
+          ]
+        },
+        {
+          "h": "Ethical base",
+          "points": [
+            "Principles of the Declaration of Helsinki (World Medical Association)",
+            "National guidelines too: in India, ICMR ethical guidelines for biomedical research on human participants"
+          ]
+        },
+        {
+          "h": "Requirement",
+          "points": [
+            "Every trial needs prior approval by an independent ethics committee as per GCP"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-021",
+      "type": "cloze",
+      "front": "Recall: who does what before and during a drug trial",
+      "text": "The {{sponsor}} files the {{IND}} application before human testing; an {{institutional review board}} at each site approves the plan; after phase III the sponsor applies for marketing by an {{NDA}} (or a BLA for biologics).",
+      "refs": [
+        "GG14 ch1",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-068",
+      "type": "basic",
+      "front": "What is the Declaration of Helsinki and how does it relate to GCP?",
+      "back": "It is the World Medical Association statement of ethical principles for research on human subjects. Good Clinical Practice, laid down by the ICH, gives standards for design, ethics, conduct, monitoring, auditing, recording, analysis and reporting of trials; following it assures credible, accurate data and protects the rights, integrity and confidentiality of subjects as set out in Helsinki. In India, ICMR (2006) also framed ethical guidelines for biomedical research on human participants.",
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 20
+        },
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-020",
+      "type": "basic",
+      "front": "What are the roles of the sponsor, the investigators and the institutional review board in a drug trial?",
+      "back": "Sponsor (usually a pharmaceutical company): files the Investigational New Drug (IND) application describing preclinical data and the protocol before human testing, and applies for marketing (NDA or BLA) after phase III. Investigators: run the trial; in phase III they are usually specialists in the disease. Institutional review board (ethics committee) at each facility: an interdisciplinary body that must review and approve the scientific and ethical plan before testing in humans.",
+      "refs": [
+        "GG14 ch1",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-022",
+      "type": "shortnote",
+      "front": "Short note: Ethics committee in clinical trials",
+      "sections": [
+        {
+          "h": "Role",
+          "points": [
+            "Independent body; every trial needs its scrutiny and approval as per GCP",
+            "Weighs safety and ethical issues as well as the scientific importance of the study"
+          ]
+        },
+        {
+          "h": "Principles it must protect",
+          "points": [
+            "Autonomy: freedom, dignity and confidentiality; right to choose whether to join or continue",
+            "Beneficence: intent to do good to the subject or society",
+            "Non-maleficence: no harm or undue risk",
+            "Justice: fairness, honesty and impartiality in obtaining, analysing and reporting data"
+          ]
+        },
+        {
+          "h": "Composition",
+          "points": [
+            "Interdisciplinary institutional review board at each trial facility"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1",
+        "RangDale9 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-048",
+      "type": "shortnote",
+      "front": "Short note: Ethics committee for clinical trials under the NDCT Rules 2019",
+      "sections": [
+        {
+          "h": "Composition",
+          "points": [
+            "At least 7 members from medical, non-medical, scientific and non-scientific areas",
+            "At least one lay person, one woman, one legal expert, and one independent member (social scientist, NGO representative, philosopher, ethicist or theologian)",
+            "At least half not associated with the institution; chairperson unaffiliated; member secretary from the institution",
+            "Medical scientists and clinicians need postgraduate qualification; all members trained in GCP"
+          ]
+        },
+        {
+          "h": "Registration",
+          "points": [
+            "Registered by the CLA; valid 5 years",
+            "Renewal applied for 90 days before expiry",
+            "Changes in membership intimated to the CLA within 30 days"
+          ]
+        },
+        {
+          "h": "Quorum",
+          "points": [
+            "At least 5 members, including a medical scientist (preferably a pharmacologist), a clinician, a legal expert, and a social scientist, NGO representative or lay person",
+            "Invited subject experts cannot vote"
+          ]
+        },
+        {
+          "h": "Duties",
+          "points": [
+            "Protect rights, safety and well-being of subjects, with extra care for vulnerable groups (e.g. prisoners, students, the impoverished, minors)",
+            "Ongoing review; may revoke approval with recorded reasons",
+            "Report on SAEs with opinion on compensation"
+          ]
+        },
+        {
+          "h": "Change from Schedule Y",
+          "points": [
+            "Schedule Y also required at least 7 members, but without the detailed composition rules"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p226-230",
+        "Sarkar p156-160",
+        "Sarkar p246-250"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-051",
+      "type": "shortnote",
+      "front": "Short note: Contract research organisation (CRO)",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Company that takes on sponsor duties under contract as an independent contractor",
+            "Designs, selects, monitors and evaluates studies, and prepares regulatory submissions"
+          ]
+        },
+        {
+          "h": "Why CROs arose",
+          "points": [
+            "After the 1962 Kefauver-Harris amendments, efficacy had to be proven before marketing",
+            "Companies outsourced non-critical studies to cut workload and cost",
+            "Turns fixed development costs into variable costs"
+          ]
+        },
+        {
+          "h": "Departments",
+          "points": [
+            "Medical: trial protocol design and medical input",
+            "Regulatory submission team",
+            "Clinical operations: site selection, monitoring, study close-out",
+            "Data management: databases and clean data for analysis"
+          ]
+        },
+        {
+          "h": "Status in India",
+          "points": [
+            "Grew after the 2005 Schedule Y change allowed trials in India to run alongside other countries",
+            "Sponsors use CROs; India attractive for patient pool, hospitals and stability studies",
+            "Shortage of skilled staff such as CRAs, especially with international GCP experience"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p151-155"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-080",
+      "type": "basic",
+      "front": "How does an ethics committee categorise proposals for review?",
+      "back": "By risk. Expedited review is for research with minimal average risk, for example studies of drugs or devices that are already approved. Full review is for research with more than minimal risk. The member secretary screens each proposal for completeness and assigns the category.",
+      "refs": [
+        "Sarkar p226-230"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-070",
+      "type": "basic",
+      "front": "Case: a company outsources an Indian multicentre phase III trial. Who does what before the first patient is enrolled?",
+      "back": "The sponsor has filed the IND (and later applies by NDA); a CRO, if contracted, takes on sponsor duties such as designing, monitoring (CRAs), data management and regulatory submissions. An independent ethics committee at each site must scrutinise and approve the protocol (GCP), and under the NDCT Rules trial permission is also needed from the licensing authority. Investigators, usually disease specialists, then take written informed consent.",
+      "refs": [
+        "GG14 ch1",
+        "Katzung16 ch1",
+        "Sarkar p151-155",
+        "Sarkar p221-225",
+        "Sarkar p226-230"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-028",
+      "type": "cloze",
+      "front": "Classify: components of valid informed consent",
+      "text": "Consent must be {{voluntary}}, informed and {{written}}; the subject keeps the right to decide whether to {{continue}} in the trial (autonomy).",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-045",
+      "type": "basic",
+      "front": "How do the NDCT Rules 2019 define a serious adverse event (SAE) in a clinical trial?",
+      "back": "An untoward medical occurrence during a clinical trial that results in death; in-patient hospitalisation (if the study was on out-patients) or prolonged hospitalisation (if on in-patients); persistent or significant disability or incapacity; a congenital anomaly or birth defect; or is otherwise life-threatening. The NDCT Rules amended the earlier Schedule Y rule (Rule 122DAB).",
+      "refs": [
+        "Sarkar p246-250"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-069",
+      "type": "basic",
+      "front": "Name the four ethical principles an ethics committee must ensure a trial does not breach.",
+      "back": "Autonomy (freedom, dignity, confidentiality; right to join or withdraw), beneficence (aim to do good to subject and society), non-maleficence (no harm or undue risk), justice (fairness, honesty and impartiality in obtaining, analysing and communicating data). Informed consent expresses autonomy; risk assessment expresses non-maleficence.",
+      "refs": [
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-071",
+      "type": "basic",
+      "front": "What is informed consent and why is it required?",
+      "back": "Written, voluntary agreement of a subject after being told that the drug is investigational, the nature and risks of the trial, that allocation to test or control is random and unknown to them, and that they may refuse or leave at any time. It puts autonomy into practice and is needed before enrolment. Those who cannot consent (unconscious, demented, mentally ill) need special handling.",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
           "marks": 10
         },
         {
@@ -1347,6 +1546,2209 @@
           "year": 2022,
           "marks": 10
         }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-023",
+      "type": "basic",
+      "front": "What must trial subjects be told, and what are the limits of informed consent?",
+      "back": "Subjects must be told that the drug is investigational, the nature and risks of the trial, and that they may be randomly and unknowingly assigned to test or control. They must be free to decline, or to stop participating (autonomy), and confidentiality is protected. Consent is proper and written. Limits: unconscious, demented or mentally ill patients cannot consent, and trials in children and the elderly raise similar concerns, yet such groups still need trials.",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1",
+        "RangDale9 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-046",
+      "type": "cloze",
+      "front": "Recall: SAE reporting timelines under the NDCT Rules 2019",
+      "text": "The investigator reports every SAE to the CLA, the sponsor and the EC within {{24 hours}}. For SAE of death, the sponsor and investigator send analysed reports to the CLA and head of institution within {{14 days}}; the EC sends its report with an opinion on compensation within {{30 days}}; the expert committee recommends cause and compensation within {{60 days}}; the CLA decides compensation within {{90 days}}; the sponsor pays within {{30 days}} of the order.",
+      "refs": [
+        "Sarkar p246-250",
+        "Sarkar p226-230"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-047",
+      "type": "shortnote",
+      "front": "Short note: Medical management and compensation for trial injury under the NDCT Rules 2019",
+      "sections": [
+        {
+          "h": "Medical management",
+          "points": [
+            "Sponsor gives free medical management for as long as required in the investigator's opinion, or until the injury is shown to be unrelated to the trial or BA/BE study"
+          ]
+        },
+        {
+          "h": "Financial compensation",
+          "points": [
+            "Payable for clinical trial-related injury or death",
+            "Quantum determined by the CLA using the formula in the Seventh Schedule",
+            "Paid by the sponsor or its representative"
+          ]
+        },
+        {
+          "h": "Procedure",
+          "points": [
+            "Investigator reports the SAE within 24 hours",
+            "EC forwards its analysed report with an opinion on compensation",
+            "CLA may constitute an independent expert committee, which recommends cause and quantum within 60 days",
+            "CLA passes the order within 90 days of the SAE report",
+            "Sponsor pays within 30 days of the order and submits payment details to the CLA"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p246-250",
+        "Sarkar p226-230",
+        "Sarkar p156-160"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-074",
+      "type": "basic",
+      "front": "Case: a trial participant dies of unclear cause. Trace the actions and compensation process in India.",
+      "back": "Investigator reports the SAE within 24 h to the licensing authority, sponsor and ethics committee. Sponsor and investigator send analysed reports within 14 days; the EC gives its report and opinion on compensation within 30 days. An expert committee may recommend cause and quantum within 60 days; the CLA orders compensation (Seventh Schedule formula) within 90 days; the sponsor pays within 30 days. Free medical management continues as needed for related injury.",
+      "refs": [
+        "Sarkar p246-250",
+        "Sarkar p226-230"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-032",
+      "type": "basic",
+      "front": "What is an orphan drug?",
+      "back": "A drug or biological product for diagnosis, treatment or prevention of a rare disease, or of a commoner disease endemic only in resource-poor areas, for which there is no reasonable expectation that development and marketing costs will be recovered from sales. Under the US Orphan Drug Amendment (1983), a rare disease affects fewer than 200,000 people in the USA. Governments offer tax benefits and other incentives. Examples given orphan status: clofazimine, paromomycin, sodium stibogluconate, rituximab, bortezomib.",
+      "refs": [
+        "KDT8 ch1",
+        "Katzung16 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-044",
+      "type": "basic",
+      "front": "What is an academic clinical trial under the NDCT Rules 2019?",
+      "back": "A trial intended solely for academic research. It needs only Ethics Committee approval; no permission from the DCGI is required. Its results must not be used for promotional purposes or to seek regulatory approval.",
+      "refs": [
+        "Sarkar p226-230"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-075",
+      "type": "basic",
+      "front": "Under the NDCT Rules 2019, what counts as a new drug?",
+      "back": "A drug not used to any significant extent in India and not approved by the Central Licensing Authority (CLA) for its claims. It also includes an approved drug with new claims (indication, route, dose or dosage form), a new fixed-dose combination or changed ratio, and modified-release or novel delivery forms. Vaccines, rDNA products, monoclonal antibodies, stem-cell, gene-therapy products and xenografts are included too.",
+      "refs": [
+        "Sarkar p221-225",
+        "Sarkar p226-230"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-076",
+      "type": "cloze",
+      "front": "Recall: NDCT trial approval timelines",
+      "text": "The CLA decides within {{90 days}} for drugs developed outside India and {{30 days}} for drugs developed in India; no reply means {{deemed approval}}. Permission is valid {{2 years}}, and a rejected applicant may seek reconsideration within {{60 days}}.",
+      "refs": [
+        "Sarkar p221-225"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-033",
+      "type": "basic",
+      "front": "Why do orphan drugs need special incentives?",
+      "back": "Proving safety and efficacy in small populations is complex; little basic research is done on rare diseases, so rational targets are few; and development cost weighs heavily when the target population is small. Excessive product-liability costs (e.g. failure-to-warn claims for rare harms not detected in small trials) are a further disincentive. Hence tax benefits and other incentives, and support from not-for-profit foundations.",
+      "refs": [
+        "GG14 ch1",
+        "Katzung16 ch1",
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-043",
+      "type": "shortnote",
+      "front": "Short note: New Drugs and Clinical Trials (NDCT) Rules, 2019",
+      "sections": [
+        {
+          "h": "Status",
+          "points": [
+            "In force from 25 March 2019 (the chapter on ethics committees for biomedical and health research from 21 September 2019)",
+            "Replaced Part XA and Schedule Y of the Drugs and Cosmetics Rules, 1945 (older texts, e.g. KDT8, still describe Schedule Y)",
+            "Apply to new drugs, investigational drugs, ethics committees, BA/BE studies and clinical trials"
+          ]
+        },
+        {
+          "h": "New drug (definition)",
+          "points": [
+            "Not used in India to any significant extent and not approved by the Central Licensing Authority (CLA) for its claims",
+            "Also: approved drug with new claims (indication, route, dose, dosage form); new fixed-dose combination or changed ratio; modified-release or novel delivery form",
+            "Also: vaccines, rDNA products, monoclonal antibodies, stem-cell products, gene therapy products, xenografts; phytopharmaceutical drugs added"
+          ]
+        },
+        {
+          "h": "Trial approval",
+          "points": [
+            "Decision within 90 days for drugs developed outside India, 30 days for new drugs developed in India; no reply means deemed approval",
+            "Trial permission valid 2 years",
+            "Rejected applicant may seek reconsideration within 60 days"
+          ]
+        },
+        {
+          "h": "Ethics committees",
+          "points": [
+            "Two types: for clinical trials and BA/BE studies, and for biomedical and health research",
+            "Registration valid 5 years",
+            "CLA (DCGI) informed of EC approval within 15 working days"
+          ]
+        },
+        {
+          "h": "Conduct and reporting",
+          "points": [
+            "6-monthly trial status report to DCGI through the SUGAM portal; enrolment status every 3 months",
+            "Termination notified to CLA within 30 days with reasons",
+            "Post-trial access to the drug free of cost, on investigator recommendation and EC approval",
+            "Academic trials need EC approval only"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p221-225",
+        "Sarkar p226-230",
+        "Sarkar p16-20"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-049",
+      "type": "basic",
+      "front": "How do the NDCT Rules 2019 define an orphan drug, and what concessions do they give?",
+      "back": "An orphan drug is one intended to treat a condition affecting not more than five lakh (500,000) persons in India. Concessions: fast-track approval and special status, including a complete fee waiver for clinical trial filing; expedited review where safety and efficacy evidence is established even before all trial phases are complete (post-marketing trials may then be required); and waiver of the local clinical study and phase IV if the CLA is satisfied. Marketing still needs CDSCO authorisation to import or manufacture.",
+      "refs": [
+        "Sarkar p36-40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-077",
+      "type": "basic",
+      "front": "Why can orphan drugs be approved before all trial phases finish, and what safeguards remain?",
+      "back": "Small patient numbers make large trials hard and returns low, so rules give incentives (India: fee waiver, fast-track; see also tax benefits in the US). In India, where safety and efficacy evidence is already established, expedited review is allowed even if not all phases are done, but post-marketing trials may then be required to confirm the benefit. Local clinical study and phase IV may be waived only if the CLA is satisfied, and marketing still needs CDSCO authorisation.",
+      "refs": [
+        "Sarkar p36-40",
+        "GG14 ch1",
+        "KDT8 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-038",
+      "type": "basic",
+      "front": "How is pharmacovigilance organised in India and internationally (as given in KDT)?",
+      "back": "Pharmacovigilance centres exist in most countries, with the Uppsala Monitoring Centre (Sweden) as the international collaborating centre. In India, CDSCO coordinates the pharmacovigilance programme, with peripheral, regional and zonal monitoring centres and a National Pharmacovigilance Advisory Committee. Centres collect, communicate and disseminate ADR data by linking with hospitals and practitioners, and assess causality (Naranjo algorithm) and severity (modified Hartwig scale).",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-039",
+      "type": "cloze",
+      "front": "Classify: observational designs in pharmacovigilance",
+      "text": "A {{cohort}} study follows users and non-users of a drug to find uncommon adverse effects; a {{case-control}} study compares the frequency of drug use in cases with an adverse response against controls.",
+      "refs": [
+        "KDT8 ch5",
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-072",
+      "type": "basic",
+      "front": "Define adverse effect, adverse drug reaction (ADR) and adverse drug event (ADE).",
+      "back": "Adverse effect: any undesirable or unintended consequence of drug use, trivial or serious. ADR: a noxious change suspected to be due to a drug, at normal doses, needing treatment, dose reduction or caution in future use; it excludes trivial or expected effects and poisoning. ADE: any untoward medical occurrence during treatment, not necessarily caused by the drug; all events are recorded first and causality is judged later on pooled data.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-073",
+      "type": "basic",
+      "front": "How is causality of an adverse event assessed?",
+      "back": "Four criteria: temporal relationship (does timing fit drug exposure), previous knowledge (known to cause it before), dechallenge (event subsides on stopping) and rechallenge (event recurs on re-giving; often unethical so not done). Grades: definite, probable, possible, doubtful. Centres use the Naranjo algorithm for causality and the modified Hartwig scale for severity.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-035",
+      "type": "basic",
+      "front": "Why can spontaneous adverse-event reports not give the true incidence of a drug reaction?",
+      "back": "The denominator is unknown, because the number of patients exposed to the drug is not recorded. The numerator is also incomplete: most reactions go unreported, reporting patterns change over the life of the product, and reports often lack dose, concomitant drugs or outcome. Media attention and litigation further distort reporting, so reports cannot be used to compare rates between drugs.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-036",
+      "type": "basic",
+      "front": "What is a safety signal and how is it detected?",
+      "back": "A signal is a possible link between a drug and an adverse event that needs evaluation. Signals are found by disproportionality analysis, which compares how often an event is reported with the drug against its frequency across the whole database. These methods need no drug-use denominator but rely on assumptions that are hard to verify, so a signal almost always needs confirmation from controlled studies.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-037",
+      "type": "basic",
+      "front": "When is a single case report strong evidence that a drug caused an event?",
+      "back": "When the event is rare or unlikely from other causes, appears close in time after exposure, has few other risk factors, and the drug carries a large excess risk. Examples are anaphylaxis and Stevens-Johnson syndrome, and rhabdomyolysis with cerivastatin. Otherwise a case report only raises suspicion.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-050",
+      "type": "shortnote",
+      "front": "Short note: Pharmacovigilance Programme of India (PvPI)",
+      "sections": [
+        {
+          "h": "History",
+          "points": [
+            "1989: six regional ADR centres",
+            "1997: India joined the WHO Programme for International Drug Monitoring (Uppsala Monitoring Centre)",
+            "2004: National Pharmacovigilance Programme",
+            "14 July 2010: PvPI launched with AIIMS, New Delhi as National Coordination Centre (NCC)",
+            "15 April 2011: NCC shifted to the Indian Pharmacopoeia Commission (IPC), Ghaziabad"
+          ]
+        },
+        {
+          "h": "Organisation",
+          "points": [
+            "Conducted by CDSCO (Directorate General of Health Services, Ministry of Health and Family Welfare); coordinated by IPC as NCC",
+            "ADR Monitoring Centres (AMCs), mostly in medical colleges, send reports to the NCC through VigiFlow",
+            "Data go to the WHO-UMC global database; CDSCO takes regulatory decisions on NCC recommendations"
+          ]
+        },
+        {
+          "h": "Reporting",
+          "points": [
+            "Suspected ADR reporting form (voluntary, by healthcare professionals)",
+            "Report all suspected reactions to new drugs, all suspected interactions, and serious reactions (death, life-threatening, hospitalisation, disability, congenital anomaly)"
+          ]
+        },
+        {
+          "h": "Note",
+          "points": [
+            "KDT8 describes the older CDSCO-coordinated programme with peripheral, regional and zonal centres"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p91-95",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-040",
+      "type": "essay",
+      "front": "Essay: From a suspected adverse drug reaction to regulatory action",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Premarketing trials are too small to detect rare ADRs; safety knowledge evolves over the drug's life cycle"
+          ]
+        },
+        {
+          "h": "Sources",
+          "points": [
+            "Spontaneous reports (e.g. FAERS via MedWatch in the US; CDSCO-coordinated programme in India)",
+            "Published case reports",
+            "Observational cohort and case-control studies",
+            "Postmarketing clinical trials"
+          ]
+        },
+        {
+          "h": "Signal detection and causality",
+          "points": [
+            "Disproportionality methods on the spontaneous report database",
+            "Causality judged by temporal relation, previous knowledge, dechallenge and rechallenge; Naranjo algorithm"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Denominator unknown",
+            "Heavy underreporting",
+            "Incomplete reports; confounding in observational studies"
+          ]
+        },
+        {
+          "h": "Regulatory action",
+          "points": [
+            "Safety communication and label change, including boxed warning",
+            "Risk Evaluation and Mitigation Strategies (REMS)",
+            "Withdrawal from the market"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch8",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-081",
+      "type": "basic",
+      "front": "Is a phase IV trial the same as post-marketing surveillance?",
+      "back": "No. Phase IV trials test the drug in real-life use: factors that change its effect, long-term and rare effects, special populations, and interactions. The CLA may require them or the sponsor may start them. Post-marketing surveillance (PMS), also called a non-interventional or observational study, is active surveillance run under the conditions of the approved package insert. Its protocol needs CLA approval, and PMS is mandatory for a new drug.",
+      "refs": [
+        "Sarkar p221-225"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-082",
+      "type": "basic",
+      "front": "How often must the PSUR be filed after a new drug is approved, and how long does new-drug status last?",
+      "back": "The marketing authorisation holder files a periodic safety update report every 6 months for the first 2 years, then yearly for the next 2 years. The drug keeps new-drug status for 4 years.",
+      "refs": [
+        "Sarkar p221-225"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-083",
+      "type": "basic",
+      "front": "Which studies, besides phase IV, can be run in the post-marketing period?",
+      "back": "Non-interventional (observational) studies, post-marketing surveillance, adverse drug monitoring, case-control studies of ADRs, drug utilisation studies and observational registries. Together they track real-world safety and use after the drug is on the market.",
+      "refs": [
+        "Sarkar p221-225"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-084",
+      "type": "basic",
+      "front": "What is a controlled human infection model (CHIM)?",
+      "back": "Healthy volunteers are deliberately infected with a pathogen so that a candidate vaccine or drug can be tested for preliminary efficacy.",
+      "refs": [
+        "Sarkar p176-180"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-085",
+      "type": "shortnote",
+      "front": "Short note: Controlled human infection model (CHIM)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Healthy participants are deliberately infected with the pathogen",
+            "Called phase IIa challenge studies"
+          ]
+        },
+        {
+          "h": "Where used",
+          "points": [
+            "Preliminary efficacy of vaccine candidates against malaria, typhoid and cholera"
+          ]
+        },
+        {
+          "h": "Conditions",
+          "points": [
+            "Only for selected diseases where it is scientifically and ethically justified",
+            "Pathogen must not cause lethal disease, and cure must be achievable"
+          ]
+        },
+        {
+          "h": "Vaccine angle",
+          "points": [
+            "Vaccines go to healthy people, so the safety margin must be very high",
+            "Phase II and III vaccine trials are field studies with cold-chain problems"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p176-180"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-086",
+      "type": "essay",
+      "front": "Essay: Phase II trial of a new antihypertensive agent",
+      "sections": [
+        {
+          "h": "Prerequisites",
+          "points": [
+            "Phase I data on safety, pharmacokinetics and dose range in healthy volunteers",
+            "Animal toxicity studies and an investigational licence from the regulator before first human dosing",
+            "Independent ethics committee approval and written informed consent"
+          ]
+        },
+        {
+          "h": "Design",
+          "points": [
+            "Patients picked by inclusion and exclusion criteria, fixed in advance",
+            "Controlled and randomised; may be single-blind, double-blind or open",
+            "Dose, frequency and duration fixed in advance; usually 2-4 centres (KDT8)",
+            "Katzung describes a single-blind design with placebo and an active control"
+          ]
+        },
+        {
+          "h": "Numbers",
+          "points": [
+            "KDT8: 100-500 patients; Katzung: 100-200; Padmaja: 100-300. Quote the range the book in use gives"
+          ]
+        },
+        {
+          "h": "End points",
+          "points": [
+            "Efficacy: fall in blood pressure as a surrogate marker, linked to outcomes where possible",
+            "Tolerability and pharmacokinetics studied alongside",
+            "Primary and secondary end points set before the trial starts"
+          ]
+        },
+        {
+          "h": "Aims and outcome",
+          "points": [
+            "Establish efficacy, dose range and ceiling effect",
+            "Drug may be dropped here if efficacy is inadequate",
+            "Only about 25% of innovative drugs move from phase 2 to phase 3 (Katzung)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1",
+        "Padmaja PDF p94"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-087",
+      "type": "basic",
+      "front": "What is an exploratory therapeutic trial (phase II type)?",
+      "back": "A study in patients with the target disease to show efficacy (proof of concept), define the dose range and ceiling effect, with tolerability and pharmacokinetics as an extension of phase I.",
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-088",
+      "type": "basic",
+      "front": "What is a 2 x 2 factorial trial design?",
+      "back": "Subjects are randomised to one of four groups: A alone, B alone, A plus B, or neither (placebo). Two treatments are tested with one set of subjects, and the interaction of A with B can be examined.",
+      "refs": [
+        "Bennett PDF p64"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-089",
+      "type": "shortnote",
+      "front": "Short note: Factorial design in clinical trials",
+      "sections": [
+        {
+          "h": "Structure",
+          "points": [
+            "Two or more treatments tested together in all combinations",
+            "2 x 2 example: A alone, B alone, A + B, placebo",
+            "Larger designs such as 2 x 3 are analysed by multifactor ANOVA (Medhi)"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Efficient use of subjects: two treatments evaluated with the same number of individuals",
+            "Examines whether A and B interact"
+          ]
+        },
+        {
+          "h": "Example",
+          "points": [
+            "Medhi: 2 x 3 design of treatment type against high or low fat diet on hypertension symptoms"
+          ]
+        }
+      ],
+      "refs": [
+        "Bennett PDF p64",
+        "Medhi PMECP p146"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-090",
+      "type": "shortnote",
+      "front": "Short note: Adaptive clinical trial designs",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Pre-planned flexibility to change trial parameters at interim analysis",
+            "Example: adjusting the sample size",
+            "Needs statistical methods that allow the design to change when interim data show the need (Katzung)"
+          ]
+        },
+        {
+          "h": "Main types",
+          "points": [
+            "Adaptive dose-finding: finds minimum effective or maximum tolerable dose, often Bayesian",
+            "Biomarker-adaptive: picks a responsive subgroup and can add or drop arms",
+            "Treatment-switching and adaptive-hypothesis designs (e.g. superiority changed to non-inferiority)",
+            "Group-sequential, drop-the-losers, seamless and multiple combinations"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "Ethically better: fewer patients may be needed",
+            "Useful in exploratory, dose-finding and confirmatory phases",
+            "Can shorten the trial and give more reliable conclusions (Katzung)"
+          ]
+        },
+        {
+          "h": "Challenges",
+          "points": [
+            "Regulator must be convinced in advance",
+            "Modelling and simulation needed before starting",
+            "Costlier and harder to plan and run than a conventional design"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p591-595",
+        "Katzung16 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-091",
+      "type": "basic",
+      "front": "Define pharmacoepidemiology.",
+      "back": "The study of how drugs are used, and of their effects and side effects, in a well-defined population. Observational epidemiological studies support safety signals but cannot alone prove cause and effect.",
+      "refs": [
+        "Katzung16 glossary PDF p1278",
+        "GG14 PDF p168"
+      ],
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-092",
+      "type": "basic",
+      "front": "What are the four dimensions of quality of life used in drug evaluation?",
+      "back": "Physical mobility; freedom from pain and distress; capacity for self-care; ability to engage in normal work and social interaction. It is measured by questionnaire on the subject's own perceived health.",
+      "refs": [
+        "Bennett PDF p40"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-093",
+      "type": "shortnote",
+      "front": "Short note: Health-related quality of life (HRQoL) in drug evaluation",
+      "sections": [
+        {
+          "h": "Why",
+          "points": [
+            "Life years alone miss quality: a longer life can be of low quality",
+            "Economists combine quantity and quality into the quality-adjusted life year (QALY)"
+          ]
+        },
+        {
+          "h": "Measurement",
+          "points": [
+            "Questionnaire on the patient's perceived health",
+            "Four dimensions: physical mobility, freedom from pain and distress, self-care, normal work and social life"
+          ]
+        },
+        {
+          "h": "Applications",
+          "points": [
+            "Benefit-risk judgement for the individual and for society",
+            "Cost-effectiveness appraisal, e.g. NICE in the UK",
+            "Resource allocation between patient groups"
+          ]
+        },
+        {
+          "h": "Note",
+          "points": [
+            "Quality is harder to measure than quantity"
+          ]
+        }
+      ],
+      "refs": [
+        "Bennett PDF p40"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-094",
+      "type": "basic",
+      "front": "What is the Clinical Trial Registry of India (CTRI)?",
+      "back": "A registry set up jointly by ICMR, DST and WHO to make drug trials transparent and accountable. Registered details are freely accessible to the public.",
+      "refs": [
+        "Padmaja PDF p94-95"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-095",
+      "type": "shortnote",
+      "front": "Short note: Clinical trial registry (CTRI)",
+      "sections": [
+        {
+          "h": "Purpose",
+          "points": [
+            "Makes drug development transparent and accountable",
+            "Gives doctors and the public information on new drugs and trials"
+          ]
+        },
+        {
+          "h": "Set-up",
+          "points": [
+            "Joint effort of ICMR, DST and WHO"
+          ]
+        },
+        {
+          "h": "Requirement",
+          "points": [
+            "All clinical trials conducted in India should be registered",
+            "Registration is needed before trial data can be published"
+          ]
+        },
+        {
+          "h": "Access",
+          "points": [
+            "Registered details are open to everyone"
+          ]
+        },
+        {
+          "h": "Note",
+          "points": [
+            "Conflict in source: Padmaja also calls registration voluntary and free, while stating that all trials in India should be registered"
+          ]
+        }
+      ],
+      "refs": [
+        "Padmaja PDF p94-95"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-096",
+      "type": "basic",
+      "front": "Name ways industry sponsorship creates conflicts of interest in drug evidence.",
+      "back": "Phase 2 and 3 trials that compare the new drug only with placebo; small, poorly designed post-marketing studies; delayed or withheld publication of unfavourable results; sponsored courses and CME; grants to expert panel members.",
+      "refs": [
+        "Katzung16 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-097",
+      "type": "shortnote",
+      "front": "Short note: Academia-industry interaction in drug development",
+      "sections": [
+        {
+          "h": "Why collaborate",
+          "points": [
+            "Discovery needs large genomic and proteomic data that one group cannot handle",
+            "Academia and industry together improve exploration and development of medicines (Sarkar)",
+            "Consortia of academia, industry, foundations and government take part in drug development (Harrison)"
+          ]
+        },
+        {
+          "h": "Rare disease",
+          "points": [
+            "Foundations fund drugs for neglected or rare diseases",
+            "The Orphan Drug Amendment of 1983 gives incentives for rare-disease drugs (Katzung)"
+          ]
+        },
+        {
+          "h": "Risks",
+          "points": [
+            "Conflicts of interest: industry-funded approval processes, paid expert panels, sponsored studies, CME, free samples",
+            "Negative results may stay unpublished, which exaggerates benefit"
+          ]
+        },
+        {
+          "h": "Safeguards",
+          "points": [
+            "Independent ethics committee review and sound trial design"
+          ]
+        }
+      ],
+      "refs": [
+        "Harrison21 PDF p1627",
+        "Sarkar p16-20",
+        "Katzung16 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-098",
+      "type": "essay",
+      "front": "Essay: Multicentric clinical trials",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Trial run at more than one centre by several investigator teams, sometimes across countries",
+            "Phase III trials are generally multicentric; phase II often uses 2-4 centres (KDT8)"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "More patients recruited in less time",
+            "Results apply to a wider population, including several countries and ethnic groups",
+            "Meets the regulatory needs of several countries",
+            "Adds credibility to the trial"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Large phase III trials are difficult to design and run, and are expensive (Katzung)",
+            "Large volumes of data must be collected and analysed (Katzung)"
+          ]
+        },
+        {
+          "h": "Ethical review",
+          "points": [
+            "Every trial needs independent ethics committee approval under GCP (KDT8)",
+            "The IRB at each facility must approve the scientific and ethical plan (Katzung)",
+            "Institutions doing biomedical research must have an ethics committee (NDCT Rules 2019)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1",
+        "NDCT Rules 2019 PDF p16-17"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-099",
+      "type": "basic",
+      "front": "What compensation information must a trial subject receive?",
+      "back": "Subjects must be told whether compensation is provided for physical injury, and in what circumstances. If a subject dies, dependants are entitled to material compensation, and the right to compensation cannot be waived.",
+      "refs": [
+        "Bennett PDF p56"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-100",
+      "type": "essay",
+      "front": "Essay: Biomedical ethics principles and informed consent in trials",
+      "sections": [
+        {
+          "h": "Principles",
+          "points": [
+            "Autonomy: freedom, dignity and confidentiality; right to join or leave a trial (KDT8)",
+            "Beneficence: act for the subject's and society's good (KDT8, Harrison)",
+            "Non-maleficence: do not put the subject at undue risk; first do no harm (KDT8, Harrison)",
+            "Justice: fairness, honesty and impartiality in obtaining and reporting data (KDT8)"
+          ]
+        },
+        {
+          "h": "Consent process",
+          "points": [
+            "Written informed consent is required (KDT8)",
+            "Subjects must be told of the investigational status and the risks, and may decline (Katzung)",
+            "Shared decision-making with the patient (Harrison)",
+            "Subjects must be told about compensation for injury (Bennett)"
+          ]
+        },
+        {
+          "h": "Children",
+          "points": [
+            "No owner-book passage on consent in children was found, so this part is not written. Check the NDCT Rules and ICMR guidelines"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Harrison21 PDF p109-110",
+        "Katzung16 ch1",
+        "Bennett PDF p56"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-consent-safety",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-101",
+      "type": "essay",
+      "front": "Essay: Phase IV studies: objectives, design and conduct",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Studies after marketing approval, to monitor safety and efficacy in general use (KDT8, Katzung)",
+            "Some authors call it post-marketing surveillance, but the two differ (Sarkar)"
+          ]
+        },
+        {
+          "h": "Objectives",
+          "points": [
+            "Real-life performance and factors that change the drug's effect",
+            "Safety in special groups such as children and pregnant women",
+            "Rare and long-term effects, drug interactions, morbidity and mortality",
+            "Added therapeutic benefit and new uses (KDT8)"
+          ]
+        },
+        {
+          "h": "Design",
+          "points": [
+            "Large, multicentre and multinational study under the approved indication and population",
+            "Much larger samples than earlier phases; structured data from practising physicians (KDT8)",
+            "May be interventional or observational (Sarkar)"
+          ]
+        },
+        {
+          "h": "Conduct",
+          "points": [
+            "Protocol approved by the licensing authority (Sarkar)",
+            "Low-incidence effects (e.g. 1 in 10,000) appear only with large exposure (Katzung)",
+            "No fixed duration (Katzung)"
+          ]
+        },
+        {
+          "h": "PSUR",
+          "points": [
+            "See the PSUR short note"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch1",
+        "Sarkar p221-225"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-clinical-trials-102",
+      "type": "shortnote",
+      "front": "Short note: Periodic safety update report (PSUR)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Filed by the marketing authorisation holder during post-marketing surveillance",
+            "Gives safety data on the new drug in a proposed format (Sarkar)"
+          ]
+        },
+        {
+          "h": "Schedule",
+          "points": [
+            "Every 6 months for the first 2 years",
+            "Then annually for the next 2 years",
+            "Drug stays in new-drug status for 4 years (Sarkar)"
+          ]
+        },
+        {
+          "h": "Why",
+          "points": [
+            "Surveillance can reveal serious effects; some drugs, e.g. rofecoxib, were withdrawn from the market (Sarkar)"
+          ]
+        },
+        {
+          "h": "Verify",
+          "points": [
+            "The NDCT Rules PSUR clause was not found in the owner's NDCT PDF; this card cites Sarkar. Owner to verify"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p221-225",
+        "Katzung16 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-103",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "front": "What is ecopharmacology?",
+      "back": "Study of how pharmaceuticals and personal-care products reach the environment and affect the ecosystem. Coined by Halling Sorensen in 1998; it covers gene, drug and toxin interactions with the environment.",
+      "refs": [
+        "Sarkar p16-20"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-104",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "front": "What is ecopharmacovigilance (EPV)?",
+      "back": "Detecting, assessing, understanding and preventing harm that medicines cause in the environment. The term was coined by Velo. Its hardest part is detecting environmental signals and proving cause and effect.",
+      "refs": [
+        "Sarkar p16-20",
+        "Sarkar p21-25"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-105",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "front": "Short note: Ecopharmacology and its importance for pharmacovigilance and the environment",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Effect of pharmaceuticals and personal-care products on the environment and ecosystem",
+            "Broad term: covers any entry of these chemicals at any dose or route; pharmaco-environmentology covers only therapeutic-dose effects after excretion"
+          ]
+        },
+        {
+          "h": "Sources",
+          "points": [
+            "Patient excretion through sewage",
+            "Flushing unused or expired drugs",
+            "Manufacturing effluent",
+            "Sludge, landfill leachate and irrigation with waste water"
+          ]
+        },
+        {
+          "h": "Documented harms",
+          "points": [
+            "Diclofenac linked to vulture deaths in the Indian subcontinent",
+            "Ethinylestradiol feminising male fish",
+            "Propranolol reducing egg production in medaka fish",
+            "Antidepressants making lobsters aggressive"
+          ]
+        },
+        {
+          "h": "Role in pharmacovigilance",
+          "points": [
+            "Ecopharmacovigilance extends PV to environmental adverse effects",
+            "Hardest step: signal detection in the environment and proof of cause and effect",
+            "Environmental risk assessment is required before launch, but no set protocol exists for monitoring after launch"
+          ]
+        },
+        {
+          "h": "Control",
+          "points": [
+            "Rational use and return programmes for unused drugs",
+            "Advanced effluent treatment and green chemistry",
+            "Sorting drugs by category, then matching disposal (e.g. high-temperature incineration)"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p16-20",
+        "Sarkar p21-25"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-106",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "adr"
+      ],
+      "front": "Name two drugs found in Indian water bodies",
+      "back": "Ciprofloxacin in a stream at Patancheru (Hyderabad), and carbamazepine in the Kaveri river near Tiruchirapalli.",
+      "refs": [
+        "Sarkar p16-20"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-107",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is translational research?",
+      "back": "Turning basic biomedical findings into clinical care, and feeding clinical experience back to the lab. It runs bench to bedside (discovery to patient) and bedside to bench (feedback that improves the discovery).",
+      "refs": [
+        "Sarkar p21-25",
+        "Katzung16 ch1"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-108",
+      "status": "draft",
+      "pyq": [],
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "uses"
+      ],
+      "front": "Short note: Translational research in drug development",
+      "sections": [
+        {
+          "h": "Phases T1 to T4",
+          "points": [
+            "T1: bench to bedside, a basic discovery applied in the clinic",
+            "T2: bedside to practice, evidence that the clinical benefit is real",
+            "T3: evidence turned into guidelines for health practice",
+            "T4: real-world outcome studies"
+          ]
+        },
+        {
+          "h": "Objectives",
+          "points": [
+            "Find the origin and mechanism of disease, including biomarkers",
+            "Develop new diagnostic and therapeutic tools",
+            "Shorten the time to new drugs",
+            "Plan PK and toxicokinetic studies in trials to improve their chance of success"
+          ]
+        },
+        {
+          "h": "Steps",
+          "points": [
+            "Basic research and molecule design, with physicochemical study",
+            "Preclinical PK, PD, toxicity and safety in animals",
+            "Link animal findings to early trials in healthy volunteers",
+            "Use early-trial data on dose, safety and efficacy to frame clinical guidelines"
+          ]
+        },
+        {
+          "h": "Need and study types",
+          "points": [
+            "Closes the gap between what we know and what we practise",
+            "In vitro: faster and cheaper; in vivo: whole organisms, better for overall effect; in silico: computer simulation"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p21-25"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-109",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "front": "How does a prevention trial differ from a treatment trial?",
+      "back": "A treatment trial tests a therapy in people who already have the disease. A prevention trial tests how to stop a disease or its recurrence in people who do not have it, with or without risk factors.",
+      "refs": [
+        "Sarkar p221-225"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-110",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "front": "Short note: Preventive versus therapeutic trials",
+      "sections": [
+        {
+          "h": "Treatment trial",
+          "points": [
+            "Tests a novel therapy, drug combination, surgery or radiotherapy strategy",
+            "Patients randomised to the new intervention or to placebo or standard care",
+            "Outcome compared after a set period"
+          ]
+        },
+        {
+          "h": "Prevention trial",
+          "points": [
+            "Aims to stop a disease or its recurrence in a population",
+            "Agents may be medicines, vitamins, minerals or lifestyle changes",
+            "Participants do not have the disease"
+          ]
+        },
+        {
+          "h": "Related designs",
+          "points": [
+            "Diagnostic: compares a better test or tool; participants usually show signs",
+            "Screening: finds disease in people without symptoms; asks whether it saves lives and at what cost"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p221-225"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-111",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "front": "Which authority approves a clinical trial in India?",
+      "back": "The DCGI, within the Central Drugs Standard Control Organization (CDSCO), decides on the sponsor's trial application (IND). Ethics committee approval and DCGI approval both must come before the trial starts.",
+      "refs": [
+        "Sarkar p246-250",
+        "Sarkar p251-255",
+        "NDCT Rules 2019 PDF p1"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-112",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "front": "Short note: Regulatory and ethical bodies in clinical trials",
+      "sections": [
+        {
+          "h": "CDSCO and DCGI",
+          "points": [
+            "Sponsor applies through an IND application",
+            "DCGI decides within 90 working days",
+            "Indigenous product: approved if no query within 30 days",
+            "A rejection can be reconsidered within 60 days"
+          ]
+        },
+        {
+          "h": "Ethics committee and investigator",
+          "points": [
+            "Trial must not begin until the ethics committee and DCGI approve",
+            "Investigator undertaking: a legal document committing the investigator to the protocol, filed with CDSCO"
+          ]
+        },
+        {
+          "h": "Animal work",
+          "points": [
+            "IAEC approval needed before toxicity testing or tissue collection",
+            "CPCSEA, a statutory body under the Prevention of Cruelty to Animals Act 1960, oversees registration and experiments"
+          ]
+        },
+        {
+          "h": "Governing law",
+          "points": [
+            "New Drugs and Clinical Trials Rules 2019"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p246-250",
+        "Sarkar p251-255",
+        "Sarkar p256-260",
+        "NDCT Rules 2019 PDF p1"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-113",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "front": "What does a brand-name new drug application rest on?",
+      "back": "Chemistry, manufacturing, controls, labelling and inspection data. A generic product's application (ANDA) instead relies on bioequivalence.",
+      "refs": [
+        "Sarkar p46-50"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-114",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "front": "Short note: Prerequisites of a new drug application (NDA)",
+      "sections": [
+        {
+          "h": "Preclinical and earlier human basis",
+          "points": [
+            "Animal pharmacology and toxicology showing the product is reasonably safe for humans",
+            "Any earlier human experience with the drug, including use abroad"
+          ]
+        },
+        {
+          "h": "Quality dossier",
+          "points": [
+            "Chemistry: composition and manufacturer",
+            "Manufacturing and stability information",
+            "Controls used on the drug substance and drug product"
+          ]
+        },
+        {
+          "h": "Clinical basis",
+          "points": [
+            "Phase I to III data on safety and efficacy",
+            "Phase III randomised trials give the definitive efficacy assessment against standard therapy"
+          ]
+        },
+        {
+          "h": "Regulatory steps",
+          "points": [
+            "Labelling",
+            "Inspection of the manufacturing facility",
+            "NDA is the full approval route for new and repurposed drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p46-50",
+        "Sarkar p251-255",
+        "Sarkar p66-70"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-115",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What is ELISA used for?",
+      "back": "Detecting and measuring a specific antigen or antibody in a sample. It serves as a diagnostic tool, a quality-control method and an analytical tool in research.",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-116",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p4-clinical-trials-endpoints",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Short note: ELISA in pharmacological research",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Specific antigen-antibody binding gives specificity",
+            "An enzyme-labelled detector with a chromogenic substrate gives a colour change, which gives sensitivity",
+            "Enzyme usually alkaline phosphatase or horseradish peroxidase"
+          ]
+        },
+        {
+          "h": "General procedure",
+          "points": [
+            "Coat the wells with antigen",
+            "Block unbound sites to prevent false positives",
+            "Add primary antibody, then enzyme-linked secondary antibody",
+            "Add substrate and read the colour by absorbance"
+          ]
+        },
+        {
+          "h": "Indirect ELISA",
+          "points": [
+            "Detects antibody in a sample, in two binding steps",
+            "Secondary antibody cross-reaction can give non-specific signals"
+          ]
+        },
+        {
+          "h": "Research uses",
+          "points": [
+            "Quantifies antigen or antibody",
+            "Screens hybridoma clones for specific antibody production"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p386-390",
+        "Sarkar p261-265"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-117",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p4-clinical-trials-pharmacovigilance",
+      "tags": [
+        "uses"
+      ],
+      "front": "Short note: Pharmacoepidemiology: methods, applications and limitations",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Study of drug uses, interactions and side effects in a defined population",
+            "Looks at how drug effects vary between individuals and between populations"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Case and spontaneous reports to flag signals",
+            "Case reports are strongest when the event is rare, close in time, has few other risk factors and the drug gives a large excess risk",
+            "Observational studies using routine clinical or insurance data (real-world data)",
+            "Postmarketing controlled trials",
+            "Quantitative disproportionality analysis of spontaneous-report databases"
+          ]
+        },
+        {
+          "h": "Applications",
+          "points": [
+            "Optimise drug use",
+            "Inform regulators' licensing decisions",
+            "Study compliance and real-life use",
+            "Identify new drug safety problems"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Spontaneous reports lack a true denominator, so they cannot give incidence",
+            "Disproportionality methods rely on assumptions that are hard to verify",
+            "Observational studies are costly and slow, and need database access and data cleaning",
+            "Signals from spontaneous reports nearly always need further evaluation"
+          ]
+        },
+        {
+          "h": "Example system",
+          "points": [
+            "FDA Sentinel System: expanded the FDA ability to run large, rapid observational studies"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 App2",
+        "RangDale9 PDF p11",
+        "GG14 PDF p168-170"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-118",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "uses"
+      ],
+      "front": "What are the 3Rs of animal research?",
+      "back": "Replacement, reduction and refinement, defined by Russell and Burch. A fourth R, rehabilitation or responsibility, was added later.",
+      "refs": [
+        "Sarkar p281-285"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-119",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "uses"
+      ],
+      "front": "Short note: Alternatives to animal experiments in drug development",
+      "sections": [
+        {
+          "h": "Why replace animals",
+          "points": [
+            "Animals differ in anatomy, metabolism and cell biology from humans",
+            "Animal-safe drugs can still harm humans: thalidomide caused limb defects in people, though rodents were not affected",
+            "About 94 per cent of drugs that pass animal tests fail in human trials"
+          ]
+        },
+        {
+          "h": "Replacement",
+          "points": [
+            "Absolute replacement: no animals, e.g. in vitro methods",
+            "Relative replacement: only animal cells or tissues",
+            "Most replacement methods are in vitro"
+          ]
+        },
+        {
+          "h": "In vitro and in silico",
+          "points": [
+            "In vitro: faster, cheaper, with fewer ethical and safety concerns",
+            "In vitro can mislead: some drugs metabolised in the liver in vivo are not seen in vitro",
+            "In silico: computer simulation to speed discovery"
+          ]
+        },
+        {
+          "h": "Reduction and refinement",
+          "points": [
+            "Use fewer animals",
+            "Limit repeat surgery on one animal to what the protocol and IAEC allow"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p281-285",
+        "Sarkar p21-25",
+        "Sarkar p256-260"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-120",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "front": "What is the IAEC and which guideline does it follow?",
+      "back": "The Institutional Animal Ethics Committee, set up in every CPCSEA-registered establishment. It follows CPCSEA guidelines and must approve animal toxicity testing or tissue collection before it starts.",
+      "refs": [
+        "Sarkar p251-255",
+        "Sarkar p256-260"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-121",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "classification"
+      ],
+      "front": "Short note: Roles of the IAEC under CPCSEA guidelines",
+      "sections": [
+        {
+          "h": "Background",
+          "points": [
+            "CPCSEA is a statutory body under the Prevention of Cruelty to Animals Act 1960",
+            "Over 665 laboratories are registered with CPCSEA, and each has an IAEC"
+          ]
+        },
+        {
+          "h": "Approvals",
+          "points": [
+            "Approves protocols before toxicity testing",
+            "Approves multiple surgical procedures on one animal only when the protocol specifies them"
+          ]
+        },
+        {
+          "h": "Review of proposals",
+          "points": [
+            "Members check humane and ethical aspects of each proposal",
+            "Aim: reduce animal numbers, minimise sacrifice and avoid repetition"
+          ]
+        },
+        {
+          "h": "Meetings",
+          "points": [
+            "Held at intervals set by the IAEC SOP; expedited review allowed",
+            "Researchers may be asked to clarify; independent experts may be consulted",
+            "Decisions minuted, with the chairperson's written approval and member signatures"
+          ]
+        },
+        {
+          "h": "CPCSEA nominee",
+          "points": [
+            "Knows CPCSEA guidelines and the 4Rs",
+            "Reads the proposal before the meeting"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p256-260",
+        "Sarkar p261-265",
+        "Sarkar p251-255"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-122",
+      "status": "draft",
+      "pyq": [],
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "classification"
+      ],
+      "front": "How does WHO define a counterfeit medicine?",
+      "back": "A product deliberately and fraudulently mislabelled for its identity or source. It may have wrong ingredients, none, too little, or fake packaging, and can be branded or generic.",
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-123",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p4-clinical-trials-india-regulation",
+      "tags": [
+        "adr"
+      ],
+      "front": "Short note: Substandard and falsified medicines: impact and mitigation",
+      "sections": [
+        {
+          "h": "Impact on patients",
+          "points": [
+            "Unexpected reactions, toxicity, anaphylaxis or treatment failure",
+            "Deaths reported in Africa and Asia",
+            "Inert antibiotics fail to cure; fake vaccines give no protection"
+          ]
+        },
+        {
+          "h": "Impact on public health",
+          "points": [
+            "Disease spread and antibiotic resistance from improper treatment",
+            "Counterfeits in the legal supply chain make national treatment irrational"
+          ]
+        },
+        {
+          "h": "Economic burden",
+          "points": [
+            "About US$46 billion lost each year by manufacturers",
+            "Undermines generic uptake: about 90 per cent of India's drug market is branded generics",
+            "Patients and the health system bear the cost of adverse reactions"
+          ]
+        },
+        {
+          "h": "Mitigation",
+          "points": [
+            "Public and professional awareness",
+            "Mass serialisation: machine-readable serial codes for track and trace",
+            "Forensic markers, cloud data repositories and blockchain in supply chains",
+            "Stronger law: Drugs and Cosmetics Act 1940, section 17B, amended 2008",
+            "More CDSCO staff and resources, which are limited"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p31-35"
+      ]
+    },
+    {
+      "id": "p4-clinical-trials-124",
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 20
+        }
+      ],
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "dosing"
+      ],
+      "front": "Essay: Conducting a clinical trial of a new drug (antiepileptic example)",
+      "sections": [
+        {
+          "h": "Before human dosing",
+          "points": [
+            "Animal pharmacology and toxicity showing reasonable safety for humans",
+            "IAEC approval for animal work under CPCSEA guidelines",
+            "IND application to the DCGI; decision within 90 working days"
+          ]
+        },
+        {
+          "h": "Ethics and consent",
+          "points": [
+            "Ethics committee approval before the trial starts",
+            "Investigator undertaking and commitment to obtain informed consent"
+          ]
+        },
+        {
+          "h": "Phase I",
+          "points": [
+            "First-in-human study in healthy volunteers for safety, tolerability and PK",
+            "Dose escalation from a low starting dose"
+          ]
+        },
+        {
+          "h": "Phase II",
+          "points": [
+            "Explores therapeutic efficacy in patients",
+            "Phase IIb is definite dose finding: optimum dose with minimal side effects"
+          ]
+        },
+        {
+          "h": "Phase III",
+          "points": [
+            "Randomised controlled trials in large groups against standard therapy",
+            "Definitive efficacy assessment; side effects monitored"
+          ]
+        },
+        {
+          "h": "Phase IV and after",
+          "points": [
+            "Real-life performance, factors that change drug effect, and safety in special populations",
+            "Post-marketing surveillance and periodic safety update reports"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p221-225",
+        "Sarkar p246-250",
+        "Sarkar p251-255",
+        "KDT8 ch5",
+        "Katzung16 ch1"
       ]
     }
   ]

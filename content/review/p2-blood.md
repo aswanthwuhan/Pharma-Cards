@@ -170,3 +170,58 @@ Study ids added this pass: p2-blood-077 to p2-blood-110 (34 cards). Study total 
 | p2-blood-116 | new | KDT8 ch45; GG14 ch36 |
 | p2-blood-117 | new | KDT8 ch45 |
 | p2-blood-001..110 | ok (level 1/2/3 assigned) | unchanged |
+
+## Checker (2026-11-03)
+Independent check of the writer's pass. Sources: KDT8 ch44-46 (pdftotext), GG14 ch36 (search.py).
+
+Checked (fact-by-fact against book text): p2-blood-001, 002, 012, 013, 014 (numbers), 023, 024, 026, 030, 034, 035, 037, 070, 081, 083, 085, 086, 087, 088, 092, 111, 112, 113, 114, 115, 116, 117.
+
+| id | result | source |
+|---|---|---|
+| p2-blood-026 | corrected: removed "vitamin K1 10 mg slow IV" (not printed in the owner books); kept 4F-PCC (GG14 p739) and IV anaphylactoid warning (KDT8 ch45) | GG14 ch36, KDT8 ch45 |
+| p2-blood-116 | corrected: removed "triple-positive antiphospholipid syndrome" (not in GG14 or KDT8 text); kept mechanical-valve contraindication (GG14 p737) | GG14 ch36, KDT8 ch45 |
+| p2-blood-118 | new L1 card: vorapaxar (PAR-1 antagonist, effect up to 4 weeks, bleeding and contraindication) | GG14 ch36 p741-742 |
+| others checked | ok | as cited |
+
+Ladder: all 8 subtopics have at least 3 L1, 2 L2, 1 L3 (antiplatelets now 5 L1). Level values present on all 118 study cards.
+Prep / RR5 / RapidRev refs in either deck: none.
+Gaps noted, not added: cilostazol (GG14 p640, not in ch36 range, no ch44-46 source); aminocaproic acid is cited via KDT8 ch45 EACA text, ok.
+Not done: full line-by-line check of all 118 cards and of the 826 rapid cards; rapid deck unchanged by this check.
+
+## Gap questions (PYQ-driven additions, 2026-11-03)
+| id | new | source |
+|---|---|---|
+| p2-blood-119 | new | Katzung16 PDF p1282-1283; Padmaja PDF p339-340 |
+| p2-blood-120 | new | Padmaja PDF p339-340 |
+| p2-blood-121 | new | Padmaja PDF p340 |
+| p2-blood-122 | new | Padmaja PDF p340 |
+| p2-blood-123 | new | Padmaja PDF p339-341; Katzung16 PDF p1282-1283 (PYQ: plasma expanders, Q bank paper III x2) |
+| p2-blood-124 | new | GG14 ch36; KDT8 ch45 (PYQ: UHSR 2025 oral anticoagulants) |
+| p2-blood-125 | new | GG14 ch36 |
+| p2-blood-126 | new | KDT8 ch64; GG14 ch45 |
+| p2-blood-127 | new | GG14 ch45 |
+| p2-blood-128 | new | KDT8 ch64 |
+| p2-blood-129 | new | GG14 ch45; KDT8 ch64 (PYQ: RGUHS 2025 haematopoietic factors) |
+
+Checker (PYQ gap pass), 2026-11-03: checked 119-129 against GG14 ch36/ch45, KDT8 ch44/ch64, Katzung16 p1282-1283, Padmaja p339-341, Bennett p428. Fixed 120 (dropped "more potent" colloid claim), 123 (Dextran 40 sludging point now cites Bennett p428), 129 (removed unverified JAK-STAT and platelet/granulocyte transfusion points; epoetin now cites KDT8 ch44). Validator check ok. Open: 123 pyq uses year 0 ("Q bank", year not in source), needs owner check.
+
+## Gap questions pass 2 (PYQ gaps, 2026-11-03)
+Gap list entries 101-335 were scanned. Most blood items were already covered (LMWH, oral anticoagulants, NOACs, warfarin, iron, plasma expanders, statins, growth factors). New cards added for the uncovered parts:
+
+| id | new | source |
+|---|---|---|
+| p2-blood-130 | new (drotrecogin alfa; Q bank paper IV, year unknown so no pyq tag) | GG12 PDF p885 (mechanism, bleeding); Katzung16 ch34 (withdrawal 2011, aprotinin 2007). GG12 mortality claim is shown alongside the newer status |
+| p2-blood-131 | corrected (checker 2026-11-03): rFVIIa trauma/surgery use marked off-label; andexanet wording changed to "alternative"; GG14 ch36 and KDT8 ch44-46 refs removed as unverified | Katzung16 ch34 (product table, rFVIIa, four-factor PCC, cryo, FFP) |
+| p2-blood-132 | new (cryoprecipitate term) | Katzung16 ch34 |
+| p2-blood-133 | new (transfusion siderosis chelator) | KDT8 ch68 |
+| p2-blood-134 | new (chronic iron overload; pyq RGUHS 2024 June Paper I, 10 marks) | KDT8 ch68 (desferrioxamine, deferiprone, deferasirox) |
+
+Not written here:
+- "Hemovigilance and Materiovigilance" (Q bank paper I): not a p2-blood topic; already covered in p3-pv-economics (Sarkar p90-105 and Padmaja p89). Not duplicated.
+- "Intravenous anesthetics", "Pharmacology of digoxin", and other non-blood gap items are outside p2-blood and were left to the owning topics.
+- Items already covered in p2-blood (no new card): LMWH, oral anticoagulants (current perspectives), warfarin sodium, NOACs versus warfarin, hematinics and iron preparations, plasma expanders, tranexamic acid and EACA, statins and pleiotropic effects, sports drugs.
+
+Validator (`node scripts/validate-content.mjs --check`): ok after these additions.
+Open for owner: none from this pass.
+
+Checker pass (2026-11-03): p2-blood-012, -077 and -086 had no `level`. Set to 3 (shortnotes). Verified 130-134 against GG12 PDF p885 and Katzung16 ch34 p670-672, p704-715, KDT8 p978-979. The pyq tag on 134 (RGUHS 2024) was not re-checked against the Q bank.

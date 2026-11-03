@@ -104,3 +104,29 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | rf-p3-pv-economics-0249 | web | https://europepmc.org/article/PMC/PMC13662043 |
 | rf-p3-pv-economics-0250 | web | https://europepmc.org/article/PMC/PMC13662043 |
 | rf-p3-pv-economics-0251 | web | https://europepmc.org/article/PMC/PMC13704798 |
+
+## Ladder pass additions
+- rf-p3-pv-economics-0278 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0279 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0280 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0281 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0282 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0283 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0284 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0285 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0286 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+- rf-p3-pv-economics-0287 | new | KDT8 ch6 PDF p110 (causality, Hartwig, UMC)
+
+## Checker (independent pass)
+
+- rf-p3-pv-economics-0254: corrected. Removed the unsupported "(NIH)" attribution from the question. The answer (favourable risk-benefit ratio, Sarkar p61-65 / KDT8 ch4) was already grounded.
+- rf-p3-pv-economics-0288: added. "About 10%" voluntary ADR reporting even in developed countries, KDT8 ch6 (PDF p110).
+- Spot-checked and ok: 0001, 0002, 0240, 0252-0270, 0278-0287, 0271-0277 (RangDale9 PDF p11), 0241-0251 (web, owner approved).
+- No Prep, RR5 or Rapid Revision refs found.
+
+## Gap questions (PYQ backfill, 2026-11-03)
+
+- rf-p3-pv-economics-0289 to 0291: new, GG14 ch8 (AI and signal detection)
+- rf-p3-pv-economics-0292 to 0300: new, Sarkar p106-110 and p176-180 (AEFI categories, examples, CRF, 24 h, 1985)
+- rf-p3-pv-economics-0301 to 0311: new, Sarkar p96-100 and p101-105 (haemovigilance and materiovigilance)
+- rf-p3-pv-economics-0312 to 0316: new, Sarkar p81-85 (BCR, ACER/ICER, QALY, CBA)

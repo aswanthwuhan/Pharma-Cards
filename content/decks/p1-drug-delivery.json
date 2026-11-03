@@ -17,7 +17,8 @@
       "tags": [
         "pk",
         "dosing"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-002",
@@ -33,7 +34,8 @@
       "subtopic": "p1-drug-delivery-rationale",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-003",
@@ -49,7 +51,85 @@
       "tags": [
         "pk",
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-047",
+      "type": "shortnote",
+      "front": "Short note: Chronopharmacology and timing of drug therapy",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Chronopharmacology studies how daily biological rhythms change drug action",
+            "The same dose can act differently depending on the time of day it is given"
+          ]
+        },
+        {
+          "h": "Rhythms that matter",
+          "points": [
+            "Cortisol secretion follows a circadian rhythm, peaking in early morning",
+            "Tissue sensitivity to glucocorticoids runs opposite to cortisol: highest in evening and early night"
+          ]
+        },
+        {
+          "h": "Timing examples",
+          "points": [
+            "A single morning corticosteroid dose causes less pituitary-adrenal suppression",
+            "Hypnotics work more easily when taken at night in quiet surroundings",
+            "Statins inhibit cholesterol synthesis more when taken in the late evening",
+            "Timing relative to meals also changes absorption of some drugs"
+          ]
+        },
+        {
+          "h": "Implications for therapy",
+          "points": [
+            "Choose the dosing time to limit side effects such as adrenal suppression",
+            "Timed-release forms can copy the natural daily pattern, as timed hydrocortisone tablets do in replacement therapy"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch5",
+        "Katzung16 ch39"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "dosing",
+        "pk"
+      ],
+      "subtopic": "p1-drug-delivery-rationale",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-050",
+      "type": "basic",
+      "subtopic": "p1-drug-delivery-rationale",
+      "level": 2,
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "front": "Probenecid with penicillin, cilastatin with imipenem, allopurinol with 6-mercaptopurine: what do they share, and how does each prolong action?",
+      "back": "Each partner slows the elimination of the first drug. Probenecid retards renal excretion of penicillin; cilastatin protects imipenem and allopurinol protects 6-mercaptopurine by retarding metabolism. Contrast: sulfadoxine is long-acting through high plasma protein binding, and ethinyl estradiol through slow metabolism.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p1-drug-delivery-004",
@@ -134,7 +214,8 @@
       "tags": [
         "pk",
         "classification"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p1-drug-delivery-005",
@@ -150,22 +231,8 @@
       "subtopic": "p1-drug-delivery-oral-modified",
       "tags": [
         "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-006",
-      "type": "basic",
-      "front": "What are the limitations of oral sustained- or controlled-release preparations?",
-      "back": "They prolong action by only about 4-8 hours, because by then the particles reach the colon; and drug release, and so blood levels, can be more variable than with a regular tablet of the same drug.",
-      "refs": [
-        "KDT8 ch3"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "pk"
-      ]
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-007",
@@ -180,7 +247,8 @@
       "subtopic": "p1-drug-delivery-oral-modified",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-008",
@@ -195,7 +263,72 @@
       "subtopic": "p1-drug-delivery-oral-modified",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-036",
+      "type": "basic",
+      "front": "What are the parts of an osmotic pump oral tablet?",
+      "back": "A core holding the drug and an osmogen, a semipermeable membrane coat, and a delivery orifice made by laser or mechanical drilling.",
+      "refs": [
+        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-039",
+      "type": "basic",
+      "front": "What is the role of the osmogen in an osmotic pump?",
+      "back": "It creates the osmotic gradient that draws water in. It also speeds release of poorly soluble drugs.",
+      "refs": [
+        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-040",
+      "type": "basic",
+      "front": "How does the volume of drug released relate to water entry in an osmotic pump?",
+      "back": "It is proportional to the volume of water that enters the core.",
+      "refs": [
+        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-006",
+      "type": "basic",
+      "front": "What are the limitations of oral sustained- or controlled-release preparations?",
+      "back": "They prolong action by only about 4-8 hours, because by then the particles reach the colon; and drug release, and so blood levels, can be more variable than with a regular tablet of the same drug.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
     },
     {
       "id": "p1-drug-delivery-009",
@@ -210,7 +343,165 @@
       "subtopic": "p1-drug-delivery-oral-modified",
       "tags": [
         "poisoning"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-026",
+      "type": "basic",
+      "front": "How does a controlled-release tablet with a semipermeable membrane release its drug?",
+      "back": "About 30% of the dose, outside the membrane, is released at once, and the remaining 70% is released slowly through the membrane over the next 4 to 8 hours. Such preparations prolong action by 4 to 8 hours and no longer.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-037",
+      "type": "basic",
+      "front": "How does an osmotic pump push drug out?",
+      "back": "Water passes through the membrane into the core, raising osmotic pressure, which pushes drug solution out through the orifice.",
+      "refs": [
+        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-038",
+      "type": "basic",
+      "front": "What release pattern does an osmotic pump give?",
+      "back": "Zero-order release after a lag of about 30 to 60 minutes; about 60 to 80% of the drug is released at this constant rate.",
+      "refs": [
+        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-042",
+      "type": "basic",
+      "front": "Floating gastroretentive form: density and how it floats?",
+      "back": "Density below that of gastric contents (about 1.004 g/mL). Effervescent types generate CO2; non-effervescent types rely on swelling hydrocolloids.",
+      "refs": [
+        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-043",
+      "type": "basic",
+      "front": "Swelling-type (plug) gastroretentive system: how is it retained?",
+      "back": "It expands in gastric fluid to a size larger than the pyloric opening. Swelling depends on the cross-linking of the polymer network.",
+      "refs": [
+        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-044",
+      "type": "basic",
+      "front": "High-density gastroretentive system: how is it retained?",
+      "back": "It is heavier than gastric contents and sinks to the bottom of the stomach. The article cites an ideal density of 1.0 to 2.5 g/cm3.",
+      "refs": [
+        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-041",
+      "type": "shortnote",
+      "front": "Short note: Gastroretentive drug delivery systems",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Keep the dosage form in gastric fluid so the drug releases in the stomach"
+          ]
+        },
+        {
+          "h": "Suitable drugs",
+          "points": [
+            "Narrow absorption window",
+            "Unstable at alkaline pH",
+            "Dissolve better at low pH",
+            "Absorbed mainly from the stomach"
+          ]
+        },
+        {
+          "h": "Approaches",
+          "points": [
+            "Floating (low density, below gastric contents)",
+            "Swelling (plug type, larger than the pyloric opening)",
+            "Mucoadhesive",
+            "High density (sinks to the stomach bottom)"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-drug-delivery-051",
+      "type": "basic",
+      "subtopic": "p1-drug-delivery-oral-modified",
+      "level": 3,
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "front": "A drug has a half-life of 3 h and is absorbed mainly from the stomach. Justify the choice among a sustained-release tablet, an osmotic pump tablet and a gastroretentive form.",
+      "back": "Half-life under 4 h makes it a fit for modified release. An ordinary sustained-release tablet prolongs action only 4-8 h and is variable, because particles reach the colon before release ends. A narrow, stomach-based absorption window argues for a gastroretentive system (floating, swelling or high density) that keeps the dose in gastric fluid. An osmotic pump gives steady zero-order release and suits drugs whose absorption site is not limiting.",
+      "refs": [
+        "KDT8 ch3",
+        "GG14 ch2",
+        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/",
+        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p1-drug-delivery-010",
@@ -226,7 +517,8 @@
       "subtopic": "p1-drug-delivery-parenteral-depot",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-011",
@@ -243,7 +535,8 @@
       "subtopic": "p1-drug-delivery-parenteral-depot",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-012",
@@ -258,7 +551,24 @@
       "subtopic": "p1-drug-delivery-parenteral-depot",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-030",
+      "type": "basic",
+      "front": "What is Norplant, and how long does it provide contraception?",
+      "back": "A subcutaneous implant of six capsules, each containing 36 mg levonorgestrel. It provides contraception for up to 5 years.",
+      "refs": [
+        "KDT8 PDF p363"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-parenteral-depot",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-013",
@@ -273,7 +583,216 @@
       "subtopic": "p1-drug-delivery-parenteral-depot",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-031",
+      "type": "basic",
+      "front": "What does continuous subcutaneous insulin infusion by pump offer compared with injections?",
+      "back": "A constant basal insulin infusion with programmed meal boluses, using short-acting insulin only. Insulin is otherwise given as subcutaneous injections by syringe or prefilled pen.",
+      "refs": [
+        "GG14 PDF p1051"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-parenteral-depot",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-035",
+      "type": "basic",
+      "front": "How does a prodrug approach prolong action for a drug with a short half-life?",
+      "back": "Long-chain aliphatic esters are used because they hydrolyse slowly. When injected, such a prodrug can act for about a month. Bitolterol-O-di-p-toluate is an example. The slow release means the drug does not need frequent dosing.",
+      "refs": [
+        "Sarkar p46-50"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-parenteral-depot",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-052",
+      "type": "shortnote",
+      "subtopic": "p1-drug-delivery-parenteral-depot",
+      "level": 3,
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "front": "Short note: Newer drug delivery systems of insulin",
+      "sections": [
+        {
+          "h": "Rate control of subcutaneous insulin",
+          "points": [
+            "Absorption rate is varied by particle size, protein complexation and pH of the preparation",
+            "Insulin is made insoluble either by complexing with protamine (isophane/NPH) or by precipitating with excess zinc (lente, larger particles), so it is absorbed slowly"
+          ]
+        },
+        {
+          "h": "Pump delivery",
+          "points": [
+            "Continuous subcutaneous infusion gives constant basal insulin plus programmed meal boluses",
+            "Only short-acting insulin is used in the pump"
+          ]
+        },
+        {
+          "h": "Standard comparison",
+          "points": [
+            "Otherwise insulin is given by syringe or prefilled pen injections"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch2",
+        "KDT8 ch3",
+        "GG14 PDF p1051"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-053",
+      "type": "basic",
+      "subtopic": "p1-drug-delivery-parenteral-depot",
+      "level": 3,
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "front": "Compare oily-ester depot injections, pellet implants and silastic implants as ways to prolong action.",
+      "back": "All delay absorption at the injection or implant site. Oily esters and insoluble salts (fluphenazine decanoate, medroxyprogesterone, benzathine penicillin) release over days to weeks. A pellet gives weeks to months, its rate proportional to surface area, and is placed with a trocar. Silastic tubes or capsules (Norplant: six capsules of levonorgestrel, up to 5 years) leach evenly for months; non-biodegradable ones must be removed later, biodegradable ones need not.",
+      "refs": [
+        "KDT8 ch1",
+        "KDT8 ch3",
+        "RangDale9 ch9",
+        "KDT8 PDF p363"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-017",
+      "type": "basic",
+      "front": "Which body sites are used for transdermal patches, and what factors govern skin absorption?",
+      "back": "Chest, abdomen, upper arm, lower back, buttock or mastoid region (KDT). Absorption depends on the area covered and the drug's lipid solubility; it is much greater through abraded, burned or denuded skin, and is increased by an oily vehicle with rubbing and by hydrating the skin.",
+      "refs": [
+        "KDT8 ch1",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-027",
+      "type": "basic",
+      "front": "Describe the layers of a transdermal therapeutic system.",
+      "back": "An adhesive patch of 5 to 20 cm2. The drug, in solution or bound to a polymer, sits in a reservoir between an occlusive backing film and a rate-controlling micropore membrane. The skin-side adhesive carries a priming dose and is covered by a peel-off film. Systems are designed to last 1 to 3 days and give smooth plasma levels.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-029",
+      "type": "basic",
+      "front": "Name three drugs given by transdermal patch and their indications.",
+      "back": "Nicotine for smoking withdrawal; a nitrate (glyceryl trinitrate) for chronic angina; scopolamine (hyoscine) for motion sickness.",
+      "refs": [
+        "GG14 PDF p47",
+        "KDT8 PDF p148",
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-033",
+      "type": "basic",
+      "front": "Which inhaler types are used for bronchodilators and inhaled corticosteroids?",
+      "back": "Ipratropium is given up to four times daily by metered-dose inhaler or nebuliser. Tiotropium and aclidinium are given as dry powder inhalers. Inhaled corticosteroids are given by metered-dose or dry-powder inhaler.",
+      "refs": [
+        "GG14 ch11",
+        "RangDale9 ch29"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-045",
+      "type": "basic",
+      "front": "How does mucoadhesion hold a dosage form in place?",
+      "back": "By hydration, bonding or receptor interactions with the mucosa, keeping the drug at one site for an extended period.",
+      "refs": [
+        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-046",
+      "type": "basic",
+      "front": "Name polymers used in mucoadhesive systems.",
+      "back": "Natural: sodium alginate, gelatin, guar gum. Semisynthetic: HPMC, carbopol, sodium carboxymethyl cellulose.",
+      "refs": [
+        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-014",
@@ -330,7 +849,8 @@
       "subtopic": "p1-drug-delivery-transdermal",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-drug-delivery-015",
@@ -346,7 +866,8 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-drug-delivery-016",
@@ -362,23 +883,129 @@
       "tags": [
         "pk",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-drug-delivery-017",
+      "id": "p1-drug-delivery-028",
       "type": "basic",
-      "front": "Which body sites are used for transdermal patches, and what factors govern skin absorption?",
-      "back": "Chest, abdomen, upper arm, lower back, buttock or mastoid region (KDT). Absorption depends on the area covered and the drug's lipid solubility; it is much greater through abraded, burned or denuded skin, and is increased by an oily vehicle with rubbing and by hydrating the skin.",
+      "front": "On what does the dose from a transdermal patch depend, and does the skin site matter?",
+      "back": "The dose depends on the patch area: 10, 20 and 30 cm2 nicotine patches release 7, 14 and 21 mg per 24 hours. A transdermal system releases at a constant rate whatever the skin site, because its membrane sets the rate.",
       "refs": [
-        "KDT8 ch1",
-        "GG14 ch2"
+        "KDT8 PDF p150",
+        "KDT8 PDF p29",
+        "GG14 PDF p47"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p1-drug-delivery-transdermal",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-034",
+      "type": "basic",
+      "front": "How does inhaled particle size affect where an aerosol deposits?",
+      "back": "Aerosol particles of about 2 to 5 micrometres mostly deposit in the mouth or pharynx (80 to 90% of the dose). Particles under 1 to 2 micrometres stay suspended and may be exhaled. Gases and volatile anaesthetics act systemically after absorption from the alveoli.",
+      "refs": [
+        "Katzung16 PDF p382",
+        "KDT8 PDF p30"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-054",
+      "type": "basic",
+      "subtopic": "p1-drug-delivery-transdermal",
+      "level": 3,
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "front": "Why are nicotine, nitroglycerin and hyoscine given by patch, whereas ADH and GnRH analogues are given nasally?",
+      "back": "Patches need lipid-soluble drugs and a rate-controlling membrane, giving constant, smooth delivery at any site for 1-3 days (smoking withdrawal, chronic angina, motion sickness). Peptides such as ADH and GnRH analogues are given nasally because the mucosa over nasal-associated lymphoid tissue is unusually permeable.",
+      "refs": [
+        "KDT8 ch1",
+        "RangDale9 ch9",
+        "GG14 ch2"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-019",
+      "type": "basic",
+      "front": "What are antibody-drug conjugates? Name two approved examples.",
+      "back": "A cytotoxic drug or toxin attached to an antibody against a tumour antigen, so it binds tumour cells selectively. Examples: ado-trastuzumab emtansine (metastatic breast cancer) and brentuximab vedotin (Hodgkin lymphoma).",
+      "refs": [
+        "RangDale9 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "newer-drugs",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-022",
+      "type": "basic",
+      "front": "What newer delivery approaches does GG14 list?",
+      "back": "Drug-eluting stents, microneedle patches, biocompatible polymers and nanoparticles, used to target drugs locally and cut systemic exposure. Albumin-nanoparticle paclitaxel for breast cancer is an approved nanoparticle example (Rang & Dale).",
+      "refs": [
+        "GG14 ch2",
+        "RangDale9 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-025",
+      "type": "cloze",
+      "front": "Classify: special drug delivery systems (Rang & Dale)",
+      "text": "Approaches to localise drugs include {{prodrugs}}, {{antibody-drug conjugates}}, packaging in {{liposomes}} and {{coated implantable devices}}.",
+      "refs": [
+        "RangDale9 ch9"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p1-drug-delivery-018",
@@ -420,23 +1047,8 @@
       "tags": [
         "pk",
         "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-019",
-      "type": "basic",
-      "front": "What are antibody-drug conjugates? Name two approved examples.",
-      "back": "A cytotoxic drug or toxin attached to an antibody against a tumour antigen, so it binds tumour cells selectively. Examples: ado-trastuzumab emtansine (metastatic breast cancer) and brentuximab vedotin (Hodgkin lymphoma).",
-      "refs": [
-        "RangDale9 ch9"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-targeted",
-      "tags": [
-        "newer-drugs",
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p1-drug-delivery-020",
@@ -458,7 +1070,8 @@
       "tags": [
         "pk",
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-drug-delivery-021",
@@ -473,538 +1086,8 @@
       "subtopic": "p1-drug-delivery-targeted",
       "tags": [
         "newer-drugs"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-022",
-      "type": "basic",
-      "front": "What newer delivery approaches does GG14 list?",
-      "back": "Drug-eluting stents, microneedle patches, biocompatible polymers and nanoparticles, used to target drugs locally and cut systemic exposure. Albumin-nanoparticle paclitaxel for breast cancer is an approved nanoparticle example (Rang & Dale).",
-      "refs": [
-        "GG14 ch2",
-        "RangDale9 ch9"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-targeted",
-      "tags": [
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-023",
-      "type": "basic",
-      "front": "What are drug-eluting stents, and why are they used?",
-      "back": "Stents placed in a coronary artery after balloon angioplasty, coated with antithrombotic or antiproliferative drug (e.g. sirolimus in a surface polymer). They reduce restenosis and angioplasty failure, though restenosis can still occur at the stent margin.",
-      "refs": [
-        "KDT8 ch3",
-        "RangDale9 ch9"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-devices",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-024",
-      "type": "basic",
-      "front": "Give examples of drug-releasing implants for local hormonal delivery.",
-      "back": "Progestin-impregnated intrauterine devices release hormone to the endometrium, giving contraceptive protection for up to 5 years (KDT); implanted or oral controlled-release devices also provide long-acting contraception (GG14).",
-      "refs": [
-        "KDT8 ch3",
-        "RangDale9 ch9",
-        "GG14 ch2"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-devices",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-025",
-      "type": "cloze",
-      "front": "Classify: special drug delivery systems (Rang & Dale)",
-      "text": "Approaches to localise drugs include {{prodrugs}}, {{antibody-drug conjugates}}, packaging in {{liposomes}} and {{coated implantable devices}}.",
-      "refs": [
-        "RangDale9 ch9"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-targeted",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-026",
-      "type": "basic",
-      "front": "How does a controlled-release tablet with a semipermeable membrane release its drug?",
-      "back": "About 30% of the dose, outside the membrane, is released at once, and the remaining 70% is released slowly through the membrane over the next 4 to 8 hours. Such preparations prolong action by 4 to 8 hours and no longer.",
-      "refs": [
-        "KDT8 ch3"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-027",
-      "type": "basic",
-      "front": "Describe the layers of a transdermal therapeutic system.",
-      "back": "An adhesive patch of 5 to 20 cm2. The drug, in solution or bound to a polymer, sits in a reservoir between an occlusive backing film and a rate-controlling micropore membrane. The skin-side adhesive carries a priming dose and is covered by a peel-off film. Systems are designed to last 1 to 3 days and give smooth plasma levels.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-transdermal",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-028",
-      "type": "basic",
-      "front": "On what does the dose from a transdermal patch depend, and does the skin site matter?",
-      "back": "The dose depends on the patch area: 10, 20 and 30 cm2 nicotine patches release 7, 14 and 21 mg per 24 hours. A transdermal system releases at a constant rate whatever the skin site, because its membrane sets the rate.",
-      "refs": [
-        "KDT8 PDF p150",
-        "KDT8 PDF p29",
-        "GG14 PDF p47"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-transdermal",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-029",
-      "type": "basic",
-      "front": "Name three drugs given by transdermal patch and their indications.",
-      "back": "Nicotine for smoking withdrawal; a nitrate (glyceryl trinitrate) for chronic angina; scopolamine (hyoscine) for motion sickness.",
-      "refs": [
-        "GG14 PDF p47",
-        "KDT8 PDF p148",
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-transdermal",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-030",
-      "type": "basic",
-      "front": "What is Norplant, and how long does it provide contraception?",
-      "back": "A subcutaneous implant of six capsules, each containing 36 mg levonorgestrel. It provides contraception for up to 5 years.",
-      "refs": [
-        "KDT8 PDF p363"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-parenteral-depot",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-031",
-      "type": "basic",
-      "front": "What does continuous subcutaneous insulin infusion by pump offer compared with injections?",
-      "back": "A constant basal insulin infusion with programmed meal boluses, using short-acting insulin only. Insulin is otherwise given as subcutaneous injections by syringe or prefilled pen.",
-      "refs": [
-        "GG14 PDF p1051"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-parenteral-depot",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-032",
-      "type": "basic",
-      "front": "What is Ocusert, and what do GG14 say about ocular inserts?",
-      "back": "Ocusert is a drug-filled polymer insert placed in the lower conjunctival sac. It releases pilocarpine at a controlled rate. GG14 notes that drug-loaded contact lenses and ocular inserts place drugs where they are needed.",
-      "refs": [
-        "Katzung16 PDF p1281",
-        "Katzung16 PDF p143",
-        "GG14 PDF p47",
-        "GG14 ch2"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-devices",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-033",
-      "type": "basic",
-      "front": "Which inhaler types are used for bronchodilators and inhaled corticosteroids?",
-      "back": "Ipratropium is given up to four times daily by metered-dose inhaler or nebuliser. Tiotropium and aclidinium are given as dry powder inhalers. Inhaled corticosteroids are given by metered-dose or dry-powder inhaler.",
-      "refs": [
-        "GG14 ch11",
-        "RangDale9 ch29"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-transdermal",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-034",
-      "type": "basic",
-      "front": "How does inhaled particle size affect where an aerosol deposits?",
-      "back": "Aerosol particles of about 2 to 5 micrometres mostly deposit in the mouth or pharynx (80 to 90% of the dose). Particles under 1 to 2 micrometres stay suspended and may be exhaled. Gases and volatile anaesthetics act systemically after absorption from the alveoli.",
-      "refs": [
-        "Katzung16 PDF p382",
-        "KDT8 PDF p30"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-transdermal",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-035",
-      "type": "basic",
-      "front": "How does a prodrug approach prolong action for a drug with a short half-life?",
-      "back": "Long-chain aliphatic esters are used because they hydrolyse slowly. When injected, such a prodrug can act for about a month. Bitolterol-O-di-p-toluate is an example. The slow release means the drug does not need frequent dosing.",
-      "refs": [
-        "Sarkar p46-50"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-parenteral-depot",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-036",
-      "type": "basic",
-      "front": "What are the parts of an osmotic pump oral tablet?",
-      "back": "A core holding the drug and an osmogen, a semipermeable membrane coat, and a delivery orifice made by laser or mechanical drilling.",
-      "refs": [
-        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-037",
-      "type": "basic",
-      "front": "How does an osmotic pump push drug out?",
-      "back": "Water passes through the membrane into the core, raising osmotic pressure, which pushes drug solution out through the orifice.",
-      "refs": [
-        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-038",
-      "type": "basic",
-      "front": "What release pattern does an osmotic pump give?",
-      "back": "Zero-order release after a lag of about 30 to 60 minutes; about 60 to 80% of the drug is released at this constant rate.",
-      "refs": [
-        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-039",
-      "type": "basic",
-      "front": "What is the role of the osmogen in an osmotic pump?",
-      "back": "It creates the osmotic gradient that draws water in. It also speeds release of poorly soluble drugs.",
-      "refs": [
-        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-040",
-      "type": "basic",
-      "front": "How does the volume of drug released relate to water entry in an osmotic pump?",
-      "back": "It is proportional to the volume of water that enters the core.",
-      "refs": [
-        "WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A Comprehensive Review (Almoshari, Pharmaceuticals 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9697821/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-041",
-      "type": "shortnote",
-      "front": "Short note: Gastroretentive drug delivery systems",
-      "sections": [
-        {
-          "h": "Principle",
-          "points": [
-            "Keep the dosage form in gastric fluid so the drug releases in the stomach"
-          ]
-        },
-        {
-          "h": "Suitable drugs",
-          "points": [
-            "Narrow absorption window",
-            "Unstable at alkaline pH",
-            "Dissolve better at low pH",
-            "Absorbed mainly from the stomach"
-          ]
-        },
-        {
-          "h": "Approaches",
-          "points": [
-            "Floating (low density, below gastric contents)",
-            "Swelling (plug type, larger than the pyloric opening)",
-            "Mucoadhesive",
-            "High density (sinks to the stomach bottom)"
-          ]
-        }
-      ],
-      "refs": [
-        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-042",
-      "type": "basic",
-      "front": "Floating gastroretentive form: density and how it floats?",
-      "back": "Density below that of gastric contents (about 1.004 g/mL). Effervescent types generate CO2; non-effervescent types rely on swelling hydrocolloids.",
-      "refs": [
-        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-043",
-      "type": "basic",
-      "front": "Swelling-type (plug) gastroretentive system: how is it retained?",
-      "back": "It expands in gastric fluid to a size larger than the pyloric opening. Swelling depends on the cross-linking of the polymer network.",
-      "refs": [
-        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-044",
-      "type": "basic",
-      "front": "High-density gastroretentive system: how is it retained?",
-      "back": "It is heavier than gastric contents and sinks to the bottom of the stomach. The article cites an ideal density of 1.0 to 2.5 g/cm3.",
-      "refs": [
-        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-oral-modified",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-045",
-      "type": "basic",
-      "front": "How does mucoadhesion hold a dosage form in place?",
-      "back": "By hydration, bonding or receptor interactions with the mucosa, keeping the drug at one site for an extended period.",
-      "refs": [
-        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-transdermal",
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-046",
-      "type": "basic",
-      "front": "Name polymers used in mucoadhesive systems.",
-      "back": "Natural: sodium alginate, gelatin, guar gum. Semisynthetic: HPMC, carbopol, sodium carboxymethyl cellulose.",
-      "refs": [
-        "WEB NCBI-PMC Features and Facts of a Gastroretentive Drug Delivery System: A Review (Turk J Pharm Sci 2022) https://pmc.ncbi.nlm.nih.gov/articles/PMC9438753/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-drug-delivery-transdermal",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p1-drug-delivery-047",
-      "type": "shortnote",
-      "front": "Short note: Chronopharmacology and timing of drug therapy",
-      "sections": [
-        {
-          "h": "Concept",
-          "points": [
-            "Chronopharmacology studies how daily biological rhythms change drug action",
-            "The same dose can act differently depending on the time of day it is given"
-          ]
-        },
-        {
-          "h": "Rhythms that matter",
-          "points": [
-            "Cortisol secretion follows a circadian rhythm, peaking in early morning",
-            "Tissue sensitivity to glucocorticoids runs opposite to cortisol: highest in evening and early night"
-          ]
-        },
-        {
-          "h": "Timing examples",
-          "points": [
-            "A single morning corticosteroid dose causes less pituitary-adrenal suppression",
-            "Hypnotics work more easily when taken at night in quiet surroundings",
-            "Statins inhibit cholesterol synthesis more when taken in the late evening",
-            "Timing relative to meals also changes absorption of some drugs"
-          ]
-        },
-        {
-          "h": "Implications for therapy",
-          "points": [
-            "Choose the dosing time to limit side effects such as adrenal suppression",
-            "Timed-release forms can copy the natural daily pattern, as timed hydrocortisone tablets do in replacement therapy"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5",
-        "Katzung16 ch39"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "dosing",
-        "pk"
-      ],
-      "subtopic": "p1-drug-delivery-rationale",
-      "status": "draft"
-    },
-    {
-      "id": "p1-drug-delivery-048",
-      "type": "shortnote",
-      "front": "Short note: Targeted drug delivery in cancer therapy",
-      "sections": [
-        {
-          "h": "Aim",
-          "points": [
-            "Improve selectivity of cytotoxic drugs so they reach tumour cells",
-            "Limit damage to normal tissue"
-          ]
-        },
-        {
-          "h": "Antibody-drug conjugates",
-          "points": [
-            "Cytotoxic drug or toxin linked to an antibody against a tumour-specific antigen",
-            "Ado-trastuzumab emtansine: metastatic breast cancer; brentuximab vedotin: Hodgkin's lymphoma"
-          ]
-        },
-        {
-          "h": "Liposomes",
-          "points": [
-            "Vesicles of about 0.1 to 1 micrometre; carry non-lipid-soluble drugs",
-            "Concentrate in malignant tumours; taken up by reticuloendothelial cells, mainly in liver",
-            "Several liposomal chemotherapy formulations are available"
-          ]
-        },
-        {
-          "h": "Prodrugs and newer systems",
-          "points": [
-            "Cyclophosphamide is active only after hepatic activation, so it can be given orally",
-            "Nanoparticles and biocompatible polymers are recent advances in delivery"
-          ]
-        }
-      ],
-      "refs": [
-        "RangDale9 ch9",
-        "GG14 ch2"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "mechanism",
-        "newer-drugs"
-      ],
-      "subtopic": "p1-drug-delivery-targeted",
-      "status": "draft"
+      "level": 2
     },
     {
       "id": "p1-drug-delivery-049",
@@ -1088,7 +1171,743 @@
           "year": 2025,
           "marks": 10
         }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-drug-delivery-056",
+      "type": "basic",
+      "subtopic": "p1-drug-delivery-targeted",
+      "level": 2,
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "front": "What is the role of nanoparticles in drug delivery, and what examples are given?",
+      "back": "Biocompatible polymers and nanoparticles are carriers that localise drug to a target and cut systemic exposure. Example: albumin-nanoparticle paclitaxel for breast cancer. Related targeting uses GalNAc conjugates to carry siRNA to hepatocytes via the asialoglycoprotein receptor.",
+      "refs": [
+        "GG14 ch2",
+        "RangDale9 ch9"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-048",
+      "type": "shortnote",
+      "front": "Short note: Targeted drug delivery in cancer therapy",
+      "sections": [
+        {
+          "h": "Aim",
+          "points": [
+            "Improve selectivity of cytotoxic drugs so they reach tumour cells",
+            "Limit damage to normal tissue"
+          ]
+        },
+        {
+          "h": "Antibody-drug conjugates",
+          "points": [
+            "Cytotoxic drug or toxin linked to an antibody against a tumour-specific antigen",
+            "Ado-trastuzumab emtansine: metastatic breast cancer; brentuximab vedotin: Hodgkin's lymphoma"
+          ]
+        },
+        {
+          "h": "Liposomes",
+          "points": [
+            "Vesicles of about 0.1 to 1 micrometre; carry non-lipid-soluble drugs",
+            "Concentrate in malignant tumours; taken up by reticuloendothelial cells, mainly in liver",
+            "Several liposomal chemotherapy formulations are available"
+          ]
+        },
+        {
+          "h": "Prodrugs and newer systems",
+          "points": [
+            "Cyclophosphamide is active only after hepatic activation, so it can be given orally",
+            "Nanoparticles and biocompatible polymers are recent advances in delivery"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 ch9",
+        "GG14 ch2"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p1-drug-delivery-055",
+      "type": "shortnote",
+      "subtopic": "p1-drug-delivery-targeted",
+      "level": 3,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Short note: Prodrugs and their clinical implications",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Inactive precursor converted in the body to the active drug",
+            "Used to localise action, improve bioavailability or tolerability"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Cyclophosphamide: activated in liver, can be given orally without gut damage",
+            "Levodopa: crosses blood-brain barrier on an amino acid carrier, then becomes dopamine",
+            "Valaciclovir, famciclovir: esters with better bioavailability than aciclovir and penciclovir",
+            "Zidovudine: activated only in HIV-infected cells",
+            "Aspirin: better-tolerated form of salicylic acid"
+          ]
+        },
+        {
+          "h": "Prolonging action",
+          "points": [
+            "Long-chain aliphatic esters hydrolyse slowly; one injection can act about a month (bitolterol-O-di-p-toluate)"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 ch9",
+        "Sarkar p46-50"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-057",
+      "type": "essay",
+      "subtopic": "p1-drug-delivery-targeted",
+      "level": 3,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Essay: Targeted drug delivery systems",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Aim: drug concentrated at the target, less systemic exposure"
+          ]
+        },
+        {
+          "h": "Approaches",
+          "points": [
+            "Prodrugs (cyclophosphamide, levodopa, valaciclovir)",
+            "Antibody-drug conjugates (ado-trastuzumab emtansine, brentuximab vedotin)",
+            "Liposomes (nano-sized phospholipid vesicles; amphotericin B, doxorubicin)",
+            "Nanoparticles (albumin-bound paclitaxel)",
+            "GalNAc-linked nucleic acids to hepatocytes via ASGR"
+          ]
+        },
+        {
+          "h": "Local devices",
+          "points": [
+            "Drug-eluting stents (sirolimus), hormone-releasing IUDs, ocular inserts"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Selectivity comes from a target-specific ligand (antibody, receptor sugar) or an activation step confined to the target"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 ch9",
+        "GG14 ch2",
+        "KDT8 ch3"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-023",
+      "type": "basic",
+      "front": "What are drug-eluting stents, and why are they used?",
+      "back": "Stents placed in a coronary artery after balloon angioplasty, coated with antithrombotic or antiproliferative drug (e.g. sirolimus in a surface polymer). They reduce restenosis and angioplasty failure, though restenosis can still occur at the stent margin.",
+      "refs": [
+        "KDT8 ch3",
+        "RangDale9 ch9"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-devices",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-024",
+      "type": "basic",
+      "front": "Give examples of drug-releasing implants for local hormonal delivery.",
+      "back": "Progestin-impregnated intrauterine devices release hormone to the endometrium, giving contraceptive protection for up to 5 years (KDT); implanted or oral controlled-release devices also provide long-acting contraception (GG14).",
+      "refs": [
+        "KDT8 ch3",
+        "RangDale9 ch9",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-devices",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-032",
+      "type": "basic",
+      "front": "What is Ocusert, and what do GG14 say about ocular inserts?",
+      "back": "Ocusert is a drug-filled polymer insert placed in the lower conjunctival sac. It releases pilocarpine at a controlled rate. GG14 notes that drug-loaded contact lenses and ocular inserts place drugs where they are needed.",
+      "refs": [
+        "Katzung16 PDF p1281",
+        "Katzung16 PDF p143",
+        "GG14 PDF p47",
+        "GG14 ch2"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-drug-delivery-devices",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-drug-delivery-058",
+      "type": "basic",
+      "subtopic": "p1-drug-delivery-devices",
+      "level": 2,
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Why does coating a coronary stent with a drug reduce angioplasty failure, and what limit remains?",
+      "back": "After balloon angioplasty the artery tends to narrow again (restenosis). An antiproliferative or antithrombotic drug (e.g. sirolimus in a surface polymer) acts locally at the stent, so effect is concentrated where needed. Restenosis can still occur at the stent margin.",
+      "refs": [
+        "KDT8 ch3",
+        "RangDale9 ch9"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-059",
+      "type": "basic",
+      "subtopic": "p1-drug-delivery-devices",
+      "level": 2,
+      "tags": [
+        "uses",
+        "pk"
+      ],
+      "front": "Compare progestin IUD, Norplant implant and Ocusert as drug-releasing devices.",
+      "back": "All release drug at a controlled rate. The IUD releases hormone to the endometrium, protecting up to 5 years. Norplant (subcutaneous, six capsules) also lasts up to 5 years. Ocusert sits in the lower conjunctival sac and releases pilocarpine in the eye.",
+      "refs": [
+        "KDT8 ch3",
+        "KDT8 PDF p363",
+        "Katzung16 PDF p1281"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-060",
+      "type": "shortnote",
+      "subtopic": "p1-drug-delivery-devices",
+      "level": 3,
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "front": "Short note: Drug-releasing devices (stents, IUDs, inserts)",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Device carries drug and releases it at the site, sparing other tissues"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Drug-eluting coronary stent: sirolimus or antithrombotic coat, less restenosis",
+            "Progestin IUD: endometrial delivery, up to 5 years",
+            "Ocusert: pilocarpine in lower conjunctival sac",
+            "GG14: contact lenses, microneedle patches, polymers"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Restenosis can still occur at stent margin"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3",
+        "RangDale9 ch9",
+        "GG14 ch2",
+        "Katzung16 PDF p1281"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p1-drug-delivery-061",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Inhaled medicines: current and future perspectives",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Inhalation delivers drug straight to the airways for local action",
+            "Gases and volatile liquids are inhaled; non-volatile liquids and fine solids are aerosolised"
+          ]
+        },
+        {
+          "h": "Particle size",
+          "points": [
+            "Optimum 2–5 µm MMAD settles in the airways",
+            "Larger particles stop in the upper airway; smaller ones are exhaled",
+            "About 1 µm particles are of growing interest, now possible with HFA"
+          ]
+        },
+        {
+          "h": "Devices",
+          "points": [
+            "pMDI with HFA propellant (CFC propellants replaced)",
+            "Spacer chamber reduces oropharyngeal deposition",
+            "DPI needs a minimum inspiratory flow; hard for children under 7",
+            "Nebulisers (jet or ultrasonic): higher doses during tidal breathing"
+          ]
+        },
+        {
+          "h": "Fate of the dose",
+          "points": [
+            "Only 10–20% of a pMDI dose reaches the lower airways",
+            "The rest is swallowed: systemic exposure and first-pass metabolism",
+            "Oral dose is about 20 times the inhaled dose for the same pulmonary effect",
+            "Inhaled route preferred when the patient can use it"
+          ]
+        },
+        {
+          "h": "Current uses",
+          "points": [
+            "Inhaled corticosteroids and β2 agonists in asthma and COPD",
+            "Antimuscarinics such as ipratropium; tiotropium once daily",
+            "Salbutamol (SABA) is used as required for symptom relief"
+          ]
+        },
+        {
+          "h": "Future",
+          "points": [
+            "Inhaled HFA steroids reach smaller airways but raise systemic absorption",
+            "Insulin by DPI: dosing consistency remains a problem"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Inhalation gives local action with less systemic exposure, but device technique and dosing consistency decide outcome"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch44",
+        "KDT8 ch16",
+        "Golan ch55"
+      ],
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "uses",
+        "pk"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
       ]
+    },
+    {
+      "id": "p1-drug-delivery-062",
+      "type": "basic",
+      "front": "What is MMAD, and which particle size settles in the airways?",
+      "back": "Mass median aerodynamic diameter. 2–5 µm settles in the airways; larger particles stop in the upper airway and smaller ones are exhaled.",
+      "refs": [
+        "GG14 ch44"
+      ],
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "pk"
+      ],
+      "status": "draft",
+      "level": 1,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-063",
+      "type": "basic",
+      "front": "What is a spacer chamber used with a pMDI?",
+      "back": "A large-volume chamber between inhaler and mouth. It slows particles and lets propellant evaporate, so less drug hits the oropharynx and more reaches the lower airways.",
+      "refs": [
+        "GG14 ch44"
+      ],
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "pk"
+      ],
+      "status": "draft",
+      "level": 1,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-064",
+      "type": "basic",
+      "front": "Why does a pMDI put only 10–20% of its dose into the lower airways?",
+      "back": "Most drug deposits in the mouth and pharynx and is swallowed. It is then absorbed from the gut and undergoes first-pass metabolism. Only the inhaled fraction reaches the lungs.",
+      "refs": [
+        "GG14 ch44"
+      ],
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "pk"
+      ],
+      "status": "draft",
+      "level": 2,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-065",
+      "type": "basic",
+      "front": "Why is an HFA-formulated inhaled steroid a trade-off for systemic risk?",
+      "back": "It delivers drug to smaller airways, but more is absorbed into the bronchial circulation. Systemic side effects can rise, so the therapeutic ratio may not improve.",
+      "refs": [
+        "GG14 ch44"
+      ],
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "level": 2,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-066",
+      "type": "basic",
+      "front": "Why are nebulisers useful in acute asthma or COPD?",
+      "back": "They deliver much higher doses than a pMDI during tidal breathing, so they suit acute exacerbations.",
+      "refs": [
+        "GG14 ch44"
+      ],
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "level": 2,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-067",
+      "type": "basic",
+      "front": "What limits dry powder inhalers for systemic insulin delivery?",
+      "back": "Dosing consistency is poor. DPIs also need a minimum inspiratory flow, and children under 7 find them hard to use.",
+      "refs": [
+        "GG14 ch44"
+      ],
+      "subtopic": "p1-drug-delivery-transdermal",
+      "tags": [
+        "pk"
+      ],
+      "status": "draft",
+      "level": 1,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-068",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Methods of drug targeting",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Deliver drug to the target tissue and spare others",
+            "Targeting allows larger effective doses without systemic toxicity"
+          ]
+        },
+        {
+          "h": "Passive targeting",
+          "points": [
+            "Uses vascular differences, e.g. leaky tumour capillaries",
+            "High-molecular polymer–drug conjugates accumulate in tumour",
+            "Drug released by enzyme cleavage after the carrier enters the cell"
+          ]
+        },
+        {
+          "h": "Active targeting",
+          "points": [
+            "Carrier linked to a ligand that cell-surface receptors recognise",
+            "Example: antibody to a tumour antigen",
+            "Example: galactose to the hepatocyte asialoglycoprotein receptor"
+          ]
+        },
+        {
+          "h": "Carrier systems",
+          "points": [
+            "Liposomes are taken up by the reticuloendothelial system",
+            "PEG (stealth) liposomes circulate for days",
+            "Antibody-tagged liposomes (HER2, E-selectin) are under study"
+          ]
+        },
+        {
+          "h": "Prodrugs",
+          "points": [
+            "Activated in target cells: capecitabine to fluorouracil in tumour; zidovudine in infected cells"
+          ]
+        },
+        {
+          "h": "Placement and devices",
+          "points": [
+            "Vaginal ring (estradiol), eye implant (ganciclovir), drug-eluting stents, progestin IUCD"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Polymers and degradation products must be checked for toxicity",
+            "Cost and unwanted rapid release are problems"
+          ]
+        }
+      ],
+      "refs": [
+        "Golan ch55",
+        "KDT8 ch3",
+        "RangDale9 ch9",
+        "Padmaja PDF p698"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ]
+    },
+    {
+      "id": "p1-drug-delivery-069",
+      "type": "basic",
+      "front": "What is passive targeting?",
+      "back": "Using vascular differences between target and other tissues to deliver drug selectively after IV injection. For example, leaky tumour capillaries let large polymer–drug complexes accumulate.",
+      "refs": [
+        "Golan ch55"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "level": 1,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-070",
+      "type": "basic",
+      "front": "What is active targeting?",
+      "back": "Linking the carrier to a ligand that cell-surface receptors recognise. Examples: an antibody to a tumour antigen, or galactose for the liver's asialoglycoprotein receptor.",
+      "refs": [
+        "Golan ch55"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "level": 1,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-071",
+      "type": "basic",
+      "front": "How does active targeting differ from passive targeting?",
+      "back": "Passive targeting depends on tissue vascular features alone. Active targeting adds a receptor-recognised ligand so the carrier binds specific cells.",
+      "refs": [
+        "Golan ch55"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "level": 2,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-072",
+      "type": "basic",
+      "front": "Why do PEG-coated ('stealth') liposomes circulate longer?",
+      "back": "PEG makes the surface hydrophilic, so less uptake by the reticuloendothelial system. Circulation lasts days, so larger doses can be given.",
+      "refs": [
+        "Golan ch55"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "pk"
+      ],
+      "status": "draft",
+      "level": 2,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-073",
+      "type": "basic",
+      "front": "Which antibody targets have been explored for liposomes?",
+      "back": "HER2 (breast cancer and other tumours) and E-selectin (vascular endothelium).",
+      "refs": [
+        "Golan ch55"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "level": 2,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-074",
+      "type": "basic",
+      "front": "Which prodrug is converted to its active form selectively in tumour cells?",
+      "back": "Capecitabine, converted to fluorouracil by a tumour-specific enzyme.",
+      "refs": [
+        "Padmaja PDF p698"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "level": 2,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-075",
+      "type": "basic",
+      "front": "Give an example of a prodrug activated in virus-infected cells.",
+      "back": "Zidovudine, which is taken up and activated in infected cells, giving selective toxicity to them.",
+      "refs": [
+        "Padmaja PDF p30"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "level": 2,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-076",
+      "type": "basic",
+      "front": "Name two anatomically placed devices for targeted local delivery.",
+      "back": "Estring (estradiol vaginal ring) and Vitrasert (ganciclovir eye implant).",
+      "refs": [
+        "Golan ch55"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "level": 1,
+      "pyq": []
+    },
+    {
+      "id": "p1-drug-delivery-077",
+      "type": "basic",
+      "front": "What is a basic limitation of polymer-based delivery systems?",
+      "back": "Each material and its degradation products must be evaluated for toxic effects.",
+      "refs": [
+        "Golan ch55"
+      ],
+      "subtopic": "p1-drug-delivery-targeted",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "level": 1,
+      "pyq": []
     }
   ]
 }

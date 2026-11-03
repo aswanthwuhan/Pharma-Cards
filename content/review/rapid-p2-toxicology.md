@@ -158,3 +158,79 @@ Rapid deck: +123 cards (rf-p2-toxicology-0731 to 0853). Refs: Katzung16 ch57, Ka
 Book conflicts: none found. KDT8 ch68 chelator doses are used only for the chelator cards, and Katzung16 ch57 and ch58 are used for the rest.
 
 > Note (2026-11-02): Prep/RR5 page refs mentioned above are historical. PrepLadder sources are banned; those refs were removed from the cards and re-grounded elsewhere or marked UNSOURCED.
+
+| rf-p2-toxicology-0854 to 0857 | new | Katzung16 ch56-58 |
+
+## Checker (independent pass)
+
+| id | status | source | note |
+| rf-p2-toxicology-0854 | ok | Katzung16 ch58 (p1081) | CO antidote: 100% O2, hyperbaric option |
+| rf-p2-toxicology-0855 | ok | Katzung16 ch56 (p1080) | CO about 220 times haemoglobin affinity |
+| rf-p2-toxicology-0856 | corrected | KDT8 ch68 (p977) | Wilson disease chelator: ref changed from Katzung16 ch57 (not verified) to KDT8 ch68 |
+| rf-p2-toxicology-0857 | ok | Katzung16 ch58 (p1119) | Physostigmine avoided in TCA overdose (heart block, asystole) |
+
+Numbering check: 0854-0857 follow max existing 0853; no duplicates. Validator --check: ok.
+
+## Exam-gap additions (PYQ batch)
+
+id | new | source
+--- | --- | ---
+rf-p2-toxicology-0858 | new | Katzung16 ch56
+rf-p2-toxicology-0859 | new | Sarkar p16-20
+rf-p2-toxicology-0860 | new | Katzung16 ch56
+rf-p2-toxicology-0861 | new | Katzung16 ch56
+rf-p2-toxicology-0862 | new | Sarkar p16-20
+rf-p2-toxicology-0863 | new | Sarkar p16-25
+rf-p2-toxicology-0864 | new | Sarkar p16-20
+rf-p2-toxicology-0865 | new | Sarkar p16-20
+rf-p2-toxicology-0866 | new | Katzung16 ch56
+rf-p2-toxicology-0867 | new | GG14 ch76
+rf-p2-toxicology-0868 | new | GG14 ch76; Katzung16 ch56
+rf-p2-toxicology-0869 | new | GG14 ch76
+rf-p2-toxicology-0870 | new | GG14 ch76
+rf-p2-toxicology-0871 | new | Katzung16 ch56
+rf-p2-toxicology-0872 | new | GG14 ch76
+rf-p2-toxicology-0873 | new | GG14 ch9
+rf-p2-toxicology-0874 | new | Katzung16 ch56
+rf-p2-toxicology-0875 | new | Katzung16 ch56
+rf-p2-toxicology-0876 | new | KDT8 ch6
+rf-p2-toxicology-0877 | new | KDT8 ch6
+rf-p2-toxicology-0878 | new | GG14 ch1
+rf-p2-toxicology-0879 | new | KDT8 ch6
+rf-p2-toxicology-0880 | new | Katzung16 ch56
+rf-p2-toxicology-0881 | new | GG14 ch76
+rf-p2-toxicology-0882 | new | GG14 ch5
+rf-p2-toxicology-0883 | new | GG14 ch24
+rf-p2-toxicology-0884 | new | GG14 ch24
+rf-p2-toxicology-0885 | new | GG14 ch5
+rf-p2-toxicology-0886 | new | GG14 ch24
+rf-p2-toxicology-0887 | new | GG14 ch24
+rf-p2-toxicology-0888 | new | GG14 ch70
+rf-p2-toxicology-0889 | new | GG14 ch70
+rf-p2-toxicology-0890 | new | GG14 ch70
+rf-p2-toxicology-0891 | new | KDT8 ch14
+rf-p2-toxicology-0892 | new | KDT8 ch14
+rf-p2-toxicology-0893 | new | KDT8 ch14
+rf-p2-toxicology-0894 | new | KDT8 ch14
+
+Checker (PYQ gap pass): deleted rf-p2-toxicology-0870 (Sweden 1970 / US 1972 DDT ban dates not found in owner books), rf-p2-toxicology-0874 (maternal PFAS infant adiposity not found in owner books), rf-p2-toxicology-0894 (paracetamol antidote 16 h timing not found in KDT8 ch14). All other new rapid cards checked against GG14, Katzung16 ch56, KDT8 and Sarkar p16-25 and kept. Validator --check ok.
+
+Gap pass (PYQ entries 398, p2-toxicology): added rf-p2-toxicology-0895 to 0911 covering saturated elimination, modified-release absorption, protein binding, tramadol M1, haemodialysis removal factors, and CCB overdose pattern, calcium, insulin, decontamination and rescue options. All cited to GG14 ch9 or Katzung16 ch58 (grounded from the book text read this pass). Validator --check ok.
+
+rf-p2-toxicology-0895 | new | GG14 ch9
+rf-p2-toxicology-0896 | new | GG14 ch9
+rf-p2-toxicology-0897 | new | GG14 ch9
+rf-p2-toxicology-0898 | new | GG14 ch9
+rf-p2-toxicology-0899 | new | GG14 ch9
+rf-p2-toxicology-0900 | new | GG14 ch9
+rf-p2-toxicology-0901 | new | GG14 ch9
+rf-p2-toxicology-0902 | new | GG14 ch9
+rf-p2-toxicology-0903 | new | Katzung16 ch58
+rf-p2-toxicology-0904 | new | Katzung16 ch58
+rf-p2-toxicology-0905 | new | Katzung16 ch58
+rf-p2-toxicology-0906 | new | Katzung16 ch58
+rf-p2-toxicology-0907 | new | Katzung16 ch58
+rf-p2-toxicology-0908 | new | Katzung16 ch58
+rf-p2-toxicology-0909 | new | Katzung16 ch58
+rf-p2-toxicology-0910 | new | Katzung16 ch58
+rf-p2-toxicology-0911 | new | Katzung16 ch58

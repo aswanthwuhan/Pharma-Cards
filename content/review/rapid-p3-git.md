@@ -1,4 +1,4 @@
-# Rapid Fire review: p3-git
+| rf-p3-git-0553 | corrected (checker: diet-diversity claim not found; replaced with arginine-digoxin fact) | GG14 ch6 || rf-p3-git-0543 | deleted (checker: ramosetron IBS indication not in owner books) | none || rf-p3-git-0539 | corrected (checker: TCA dose removed; not in book) | GG14 ch54 |# Rapid Fire review: p3-git
 
 Deck: `content/rapid/p3-git.json` (511 cards, 41 class cards).
 Sources: KD Tripathi 8e ch47 (peptic ulcer, GERD), ch48 (antiemetic, prokinetic, digestant, gallstone), ch49 (laxatives, diarrhoea, IBD). Chapter PDFs read in full via `pdftotext`.
@@ -46,3 +46,44 @@ None corrected.
 Added 2 rapid cards (rf-p3-git-0520, 0521) from KDT8 ch47: lafutidine dose, and the stress-erosion mechanism (mucosal ischaemia with acid). Each has one tag. Deck is near saturation for ch47-49.
 
 Book conflicts noted: none in this pass.
+
+## Ladder pass: new rapid cards
+| ids | status | source |
+|---|---|---|
+| rf-p3-git-0522 to 0525 | new | KDT8 ch47 |
+| rf-p3-git-0526 to 0527 | new | KDT8 ch49 |
+
+## Checker
+Spot-checked 30+ study/rapid cards (levels 2-3, numeric doses and potencies) against KDT8 ch47-49 text: all matched (H2 potency ratios, PPI plateau 3-4 d, misoprostol ~3 h, ondansetron/palonosetron/aprepitant doses, FDA H. pylori regimen 86-92%, ORS osmolarity, itopride, bran, anthraquinone). No Prep/RR5 refs. Ladder OK in all 8 subtopics (>=3 L1, 2 L2, 1 L3). Drug-list gap scan vs ch47-49 found nothing missing. No cards changed or deleted.
+
+## Gap questions rapid pairs (added)
+| id | status | source |
+|---|---|---|
+| rf-p3-git-0528 | new | KDT8 ch47 |
+| rf-p3-git-0529 | new | KDT8 ch47 |
+| rf-p3-git-0530 | new | KDT8 ch49 |
+| rf-p3-git-0531 | new | KDT8 ch49 |
+| rf-p3-git-0532 | new | KDT8 ch23 |
+| rf-p3-git-0533 | new | GG14 ch44 |
+| rf-p3-git-0534 | new | GG14 ch54 |
+| rf-p3-git-0535 | new | GG14 ch54 |
+| rf-p3-git-0536 | new | GG14 ch54 |
+| rf-p3-git-0537 | new | GG14 ch54 |
+| rf-p3-git-0538 | new | GG14 ch54 |
+| rf-p3-git-0539 | new | GG14 ch54 |
+| rf-p3-git-0540 | new | KDT8 ch49 |
+| rf-p3-git-0541 | new | KDT8 ch49 |
+| rf-p3-git-0542 | new | KDT8 ch49 |
+| rf-p3-git-0543 | new | KDT8 ch48 |
+| rf-p3-git-0544 | new | GG14 ch6 |
+| rf-p3-git-0545 | new | GG14 ch6 |
+| rf-p3-git-0546 | new | GG14 ch6 |
+| rf-p3-git-0547 | new | GG14 ch6 |
+| rf-p3-git-0548 | new | GG14 ch6 |
+| rf-p3-git-0549 | new | GG14 ch6 |
+| rf-p3-git-0551 | new | GG14 ch6 |
+| rf-p3-git-0552 | new | GG14 ch6 |
+| rf-p3-git-0553 | new | GG14 ch6 |
+
+
+Checker (PYQ gap pass): verified new rapid cards against owner books. Corrected rf-p3-git-0539 and rf-p3-git-0553, deleted rf-p3-git-0543. Validator check ok.

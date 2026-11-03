@@ -15,7 +15,8 @@
       "subtopic": "p1-intro-routes-definitions-sources",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-intro-routes-002",
@@ -30,527 +31,72 @@
       "subtopic": "p1-intro-routes-definitions-sources",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p1-intro-routes-003",
-      "type": "basic",
-      "front": "Name the three categories of drug names.",
-      "back": "Chemical name (describes the structure), non-proprietary name (INN/USAN/BAN, the approved generic name), and proprietary (brand) name given by the manufacturer.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
+      "id": "p1-intro-routes-021",
+      "type": "cloze",
+      "front": "Classify: sources of drugs",
+      "text": "Drug sources include {{plants}}, {{animals}}, {{microbes}}, {{minerals}}, {{synthetic chemistry}} and {{biotechnology}}.",
       "status": "draft",
-      "subtopic": "p1-intro-routes-naming-regulation",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-004",
-      "type": "basic",
-      "front": "What are orphan drugs?",
-      "back": "Drugs for diagnosing, preventing or treating a rare disease, or a commoner disease confined to resource-poor regions, where sales are not expected to recover the cost of development and marketing. Governments in developed countries offer tax benefits and other incentives to encourage them. USA (Orphan Drug Act 1983): a rare disease affects fewer than 0.2 million people. Examples: sodium stibogluconate, rifaximin, iloprost, rituximab.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-naming-regulation",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-005",
-      "type": "basic",
-      "front": "In India, which drugs are placed under Schedule H?",
-      "back": "Prescription drugs: most drugs, including all antibiotics, placed in Schedule H of the Drugs and Cosmetics Rules (1945, as amended). They may be sold at retail only against a prescription from a registered medical practitioner. Relatively harmless drugs (simple analgesics, antacids, some laxatives, vitamins, iron salts) are non-prescription (OTC) drugs.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-naming-regulation",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-006",
-      "type": "basic",
-      "front": "What criteria define a WHO essential medicine?",
-      "back": "WHO: medicines that satisfy the priority health-care needs of the population. Selected on public-health relevance, evidence of efficacy and safety, and comparative cost-effectiveness; they should be available at all times, in adequate amounts and suitable dosage forms, with assured quality and at an affordable price. Mostly single compounds; fixed-dose combinations only with proven advantage; the list is revised continuously. WHO Model List began in 1977 (20th list, 2017: 433 medicines); India's National List of Essential Medicines 2015 has 376 medicines graded for primary, secondary and tertiary care (figures as printed in KDT8).",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-naming-regulation",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-007",
-      "type": "basic",
-      "front": "Name two drugs destroyed by digestive juices and two destroyed in the liver when given orally.",
-      "back": "Digestive juices: penicillin G, insulin. Liver (first pass): glyceryl trinitrate, testosterone, lidocaine.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-oral",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-008",
-      "type": "basic",
-      "front": "Which routes largely bypass hepatic first-pass metabolism?",
-      "back": "Sublingual/buccal, transdermal, nasal, and the external haemorrhoidal part of rectal absorption. Inhalation avoids first pass in the gut and liver, although the lungs contribute a minor first-pass effect.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-oral",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-009",
-      "type": "basic",
-      "front": "Why do transdermal therapeutic systems give a steady plasma level?",
-      "back": "A rate-controlling micropore membrane keeps drug delivery slower than the skin's absorption capacity. Site-to-site variation in skin absorption therefore matters less and the output stays constant.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-transdermal-inhalational",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-010",
-      "type": "basic",
-      "front": "Why are only aqueous solutions given intravenously?",
-      "back": "Suspensions and oily preparations can cause embolism when injected intravenously.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-parenteral",
-      "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-011",
-      "type": "basic",
-      "front": "Why is the intravenous route considered the riskiest parenteral route?",
-      "back": "There is no depot effect, and vital organs such as the heart and brain are exposed to a high drug concentration almost at once. Dose titration is possible only for short-acting drugs with a measurable response.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-parenteral",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-012",
-      "type": "basic",
-      "front": "Which parenteral routes allow depot preparations, and why?",
-      "back": "Subcutaneous and intramuscular routes. Oily solutions or aqueous suspensions release the drug slowly from the injection site over a prolonged period.",
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-parenteral",
-      "tags": [
-        "pk",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p1-intro-routes-013",
-      "type": "shortnote",
-      "front": "Short note: Classification of routes of drug administration",
-      "sections": [
-        {
-          "h": "Local routes",
-          "points": [
-            "Effect confined to an accessible site; systemic absorption minimal",
-            "Topical, deeper-tissue (e.g. intra-articular, perineural) and selected arterial delivery",
-            "Fewer systemic adverse effects"
-          ]
-        },
-        {
-          "h": "Enteral (systemic)",
-          "points": [
-            "Oral, sublingual/buccal, rectal",
-            "Oral is the commonest; sublingual avoids first pass",
-            "Rectal is useful when vomiting or unconscious"
-          ]
-        },
-        {
-          "h": "Other systemic routes",
-          "points": [
-            "Cutaneous and transdermal",
-            "Inhalational (gases, volatile liquids, aerosols)",
-            "Nasal"
-          ]
-        },
-        {
-          "h": "Parenteral",
-          "points": [
-            "Subcutaneous, intramuscular, intravenous, intradermal",
-            "Faster and more predictable than oral; needs sterility and skill"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-classification",
-      "tags": [
-        "classification"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-intro-routes-014",
-      "type": "shortnote",
-      "front": "Short note: Transdermal therapeutic systems (TTS)",
-      "sections": [
-        {
-          "h": "Design",
-          "points": [
-            "Drug reservoir (solution or polymer-bound) between backing film and rate-controlling micropore membrane",
-            "Adhesive layer with priming dose; release liner peeled off before use"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Drug diffuses through skin into systemic circulation at a constant rate",
-            "Membrane limits delivery below the skin's absorption ceiling"
-          ]
-        },
-        {
-          "h": "Advantages",
-          "points": [
-            "Steady plasma levels, no first-pass loss",
-            "Less inter-individual variation; better compliance",
-            "Duration typically 1 to 3 days"
-          ]
-        },
-        {
-          "h": "Limitations",
-          "points": [
-            "Costlier than tablets",
-            "Local irritation or erythema; rotate application site",
-            "Only potent, lipid-soluble, low-dose drugs suit the skin"
-          ]
-        },
-        {
-          "h": "Examples",
-          "points": [
-            "Glyceryl trinitrate, fentanyl, nicotine, estradiol"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-transdermal-inhalational",
-      "tags": [
-        "pk"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-intro-routes-015",
-      "type": "shortnote",
-      "front": "Short note: Oral route of drug administration",
-      "sections": [
-        {
-          "h": "Advantages",
-          "points": [
-            "Most common and convenient",
-            "Non-invasive, cheap, no need for sterility",
-            "Self-administration possible"
-          ]
-        },
-        {
-          "h": "Limitations",
-          "points": [
-            "Slow onset; unsuitable in emergencies",
-            "Vomiting, unpalatable drugs, unconscious patient",
-            "Erratic absorption; some drugs poorly absorbed (streptomycin)",
-            "Degraded by gastric acid or enzymes (penicillin G, insulin); hepatic first pass"
-          ]
-        },
-        {
-          "h": "Formulation options",
-          "points": [
-            "Enteric coating, sustained or controlled release",
-            "Liquid forms such as syrups or elixirs for children",
-            "Sublingual route as an alternative to avoid first pass"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-oral",
-      "tags": [
-        "pk"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-intro-routes-016",
-      "type": "shortnote",
-      "front": "Short note: Subcutaneous, intramuscular and intravenous injection",
-      "sections": [
-        {
-          "h": "Subcutaneous",
-          "points": [
-            "Loose tissue, rich in nerves, less vascular",
-            "Small volumes only; irritants not suitable",
-            "Slow absorption; delayed in shock (vasoconstriction)",
-            "Depot forms (e.g. insulin suspensions) possible"
-          ]
-        },
-        {
-          "h": "Intramuscular",
-          "points": [
-            "Large muscle; more vascular, so faster absorption",
-            "Mild irritants tolerated; depot preparations possible",
-            "Avoid in anticoagulated patients (haematoma risk)"
-          ]
-        },
-        {
-          "h": "Intravenous",
-          "points": [
-            "Immediate effect; bioavailability 100%",
-            "Only true solutions; titration possible for short-acting drugs",
-            "Risks: embolism, thrombophlebitis, extravasation necrosis, high concentration at heart/brain"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-parenteral",
-      "tags": [
-        "pk"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-intro-routes-017",
-      "type": "shortnote",
-      "front": "Short note: Inhalational route",
-      "sections": [
-        {
-          "h": "Scope",
-          "points": [
-            "Gases and volatile liquids (general anaesthetics) for systemic action",
-            "Non-volatile drugs as aerosols for local action in airways"
-          ]
-        },
-        {
-          "h": "Devices",
-          "points": [
-            "Pressurised metered-dose inhaler (propellant, e.g. HFA)",
-            "Jet nebuliser (compressed air or oxygen)",
-            "Dry-powder devices such as rotahaler and spinhaler"
-          ]
-        },
-        {
-          "h": "Particle size",
-          "points": [
-            "About 1 to 5 micrometres reach bronchioles and alveoli",
-            "Larger particles deposit in oropharynx; very fine ones are exhaled"
-          ]
-        },
-        {
-          "h": "Pros and cons",
-          "points": [
-            "Very rapid absorption; controllable by stopping",
-            "Irritant vapours cause airway inflammation and secretion",
-            "Needs technique and coordination"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-transdermal-inhalational",
-      "tags": [
-        "pk"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2008,
-          "marks": 20
-        }
-      ]
-    },
-    {
-      "id": "p1-intro-routes-018",
-      "type": "essay",
-      "front": "Essay: Routes of drug administration",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Route determines onset, intensity, duration and predictability of the response",
-            "Two broad groups: local and systemic routes"
-          ]
-        },
-        {
-          "h": "Factors governing choice",
-          "points": [
-            "Physical and chemical properties of the drug (solid, liquid or gas; solubility, stability, pH, irritancy)",
-            "Site of desired action; speed of onset and accuracy of dose needed",
-            "Effect of digestive juices and first-pass metabolism",
-            "Patient condition (unconscious, vomiting)"
-          ]
-        },
-        {
-          "h": "Local routes",
-          "points": [
-            "Topical (skin, mucosa, eye, ear; non-absorbed oral drugs such as sucralfate; inhaled salbutamol)",
-            "Deeper tissues: intra-articular, perineural, intrathecal, retrobulbar",
-            "Close intra-arterial: angiography contrast, regional cancer chemotherapy",
-            "High local level, minimal systemic toxicity"
-          ]
-        },
-        {
-          "h": "Enteral systemic routes",
-          "points": [
-            "Oral: safe, cheap, convenient; but slow, variable, first pass",
-            "Sublingual/buccal: rapid, bypasses liver (GTN, buprenorphine)",
-            "Rectal: vomiting or unconscious patient; about half bypasses liver (diazepam, paracetamol)"
-          ]
-        },
-        {
-          "h": "Other non-injection systemic routes",
-          "points": [
-            "Cutaneous and transdermal patches for lipid-soluble drugs (GTN, fentanyl, nicotine, estradiol)",
-            "Inhalation: gaseous anaesthetics, rapid and controllable",
-            "Nasal: desmopressin, calcitonin, GnRH agonists"
-          ]
-        },
-        {
-          "h": "Parenteral routes",
-          "points": [
-            "Subcutaneous (including dermojet, pellet implantation, implants), intramuscular, intravenous, intradermal",
-            "Fast and dependable, usable in unconscious or vomiting patients, bypass liver",
-            "Need sterile preparation and skill; painful, costlier; i.v. is the most risky"
-          ]
-        },
-        {
-          "h": "Conclusion",
-          "points": [
-            "Choose the safest and simplest route that achieves the therapeutic aim",
-            "Sustained-release systems (TTS, depot injections, implants) give steady levels and better compliance"
-          ]
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-classification",
-      "tags": [
-        "classification",
-        "pk"
-      ],
-      "refs": [
-        "KDT8 ch1"
-      ],
-      "pyq": []
-    },
-    {
-      "id": "p1-intro-routes-019",
-      "type": "essay",
-      "front": "Essay: Dosage forms of drugs",
-      "sections": [
-        {
-          "h": "Concept and purpose",
-          "points": [
-            "Drug plus excipients packed into a specific form",
-            "Gives shape, defines single doses, protects drug, suits route"
-          ]
-        },
-        {
-          "h": "Solid forms",
-          "points": [
-            "Powders, tablets (plain, coated, chewable, dispersible, sublingual, enteric, sustained-release), capsules",
-            "Pills, lozenges, suppositories and pessaries"
-          ]
-        },
-        {
-          "h": "Liquid forms",
-          "points": [
-            "Aqueous solutions, suspensions, emulsions",
-            "Elixirs, syrups, linctus, drops, lotions and liniments",
-            "Injections: ampoules, vials, prefilled syringes, infusions"
-          ]
-        },
-        {
-          "h": "Semisolid forms",
-          "points": [
-            "Ointments (oily base, occlusive), creams, pastes (hydrophilic powders), gels"
-          ]
-        },
-        {
-          "h": "Inhalational forms",
-          "points": [
-            "Metered-dose inhalers, nebulisers, dry-powder devices"
-          ]
-        },
-        {
-          "h": "Selection",
-          "points": [
-            "Stability, solubility, patient age and ability to swallow",
-            "Speed of onset required and need for controlled release"
-          ]
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-intro-routes-dosage-forms",
+      "subtopic": "p1-intro-routes-definitions-sources",
       "tags": [
         "classification"
       ],
       "refs": [
         "KDT8 ch1"
       ],
-      "pyq": []
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-027",
+      "type": "basic",
+      "front": "Why does KDT prefer the word 'medicine' to 'drug' in some places, and how is a drug defined?",
+      "back": "'Drug' is sometimes used for addictive or illicit substances, a degraded sense, so 'medicine' names a substance with a health-promoting, therapeutic or diagnostic use. KDT's own definition: the single active chemical entity in a medicine used for diagnosis, prevention or treatment of disease. It leaves out contraceptives and health improvement, which is why WHO's wider definition is used.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-definitions-sources",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-028",
+      "type": "basic",
+      "front": "Why do most drugs weigh 100 to 1000 D, and what follows for very large drugs?",
+      "back": "Below 100 D a molecule lacks the shape, charge and chirality features needed to bind one target selectively. Above 1000 D it crosses body membranes poorly and cannot reach target tissues. Bulky drugs (heparin, gonadotropins, enzymes, antibodies) therefore have to be given parenterally.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-definitions-sources",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-029",
+      "type": "basic",
+      "front": "Compare pharmacodynamic agents with chemotherapeutic agents, and define chemotherapy.",
+      "back": "Pharmacodynamic agents are designed to produce effects in the recipient. Chemotherapeutic agents are designed to inhibit or kill invading parasites or malignant cells with little or no pharmacodynamic effect on the host. Chemotherapy is treatment of systemic infection or malignancy with drugs that have selective toxicity for the invader.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-definitions-sources",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
     },
     {
       "id": "p1-intro-routes-020",
@@ -608,22 +154,257 @@
       "refs": [
         "KDT8 ch1"
       ],
-      "pyq": []
+      "pyq": [],
+      "level": 3
     },
     {
-      "id": "p1-intro-routes-021",
-      "type": "cloze",
-      "front": "Classify: sources of drugs",
-      "text": "Drug sources include {{plants}}, {{animals}}, {{microbes}}, {{minerals}}, {{synthetic chemistry}} and {{biotechnology}}.",
+      "id": "p1-intro-routes-003",
+      "type": "basic",
+      "front": "Name the three categories of drug names.",
+      "back": "Chemical name (describes the structure), non-proprietary name (INN/USAN/BAN, the approved generic name), and proprietary (brand) name given by the manufacturer.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-intro-routes-definitions-sources",
+      "subtopic": "p1-intro-routes-naming-regulation",
       "tags": [
         "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-005",
+      "type": "basic",
+      "front": "In India, which drugs are placed under Schedule H?",
+      "back": "Prescription drugs: most drugs, including all antibiotics, placed in Schedule H of the Drugs and Cosmetics Rules (1945, as amended). They may be sold at retail only against a prescription from a registered medical practitioner. Relatively harmless drugs (simple analgesics, antacids, some laxatives, vitamins, iron salts) are non-prescription (OTC) drugs.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-naming-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-030",
+      "type": "basic",
+      "front": "Which name should you write on a prescription and why: chemical, non-proprietary or brand?",
+      "back": "The non-proprietary (generic) name. The chemical name is cumbersome, and brand names differ between makers. rINN keeps non-proprietary names of newer drugs uniform in WHO member countries, though some older drugs still have two (pethidine/meperidine, lignocaine/lidocaine).",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-naming-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-004",
+      "type": "basic",
+      "front": "What are orphan drugs?",
+      "back": "Drugs for diagnosing, preventing or treating a rare disease, or a commoner disease confined to resource-poor regions, where sales are not expected to recover the cost of development and marketing. Governments in developed countries offer tax benefits and other incentives to encourage them. USA (Orphan Drug Act 1983): a rare disease affects fewer than 0.2 million people. Examples: sodium stibogluconate, rifaximin, iloprost, rituximab.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-naming-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-006",
+      "type": "basic",
+      "front": "What criteria define a WHO essential medicine?",
+      "back": "WHO: medicines that satisfy the priority health-care needs of the population. Selected on public-health relevance, evidence of efficacy and safety, and comparative cost-effectiveness; they should be available at all times, in adequate amounts and suitable dosage forms, with assured quality and at an affordable price. Mostly single compounds; fixed-dose combinations only with proven advantage; the list is revised continuously. WHO Model List began in 1977 (20th list, 2017: 433 medicines); India's National List of Essential Medicines 2015 has 376 medicines graded for primary, secondary and tertiary care (figures as printed in KDT8).",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-naming-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-031",
+      "type": "shortnote",
+      "front": "Short note: Drug nomenclature",
+      "sections": [
+        {
+          "h": "Chemical name",
+          "points": [
+            "Describes the structure; cumbersome, unfit for prescribing",
+            "Manufacturer may give a code name first (RO 15-1788, later flumazenil)"
+          ]
+        },
+        {
+          "h": "Non-proprietary name",
+          "points": [
+            "Accepted by a scientific authority: USAN, BAN; rINN used across WHO members",
+            "Called 'generic name' in common use; some older drugs have two names"
+          ]
+        },
+        {
+          "h": "Proprietary name",
+          "points": [
+            "Brand name chosen by the maker; catchy, short, often suggestive",
+            "Many brands for one drug (amlodipine) cause confusion"
+          ]
+        },
+        {
+          "h": "Prescribing choice",
+          "points": [
+            "Non-proprietary: uniformity, convenience, economy, better comprehension",
+            "Brand name only when product consistency matters and quality control is weak"
+          ]
+        }
       ],
       "refs": [
         "KDT8 ch1"
       ],
-      "pyq": []
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-naming-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-intro-routes-032",
+      "type": "essay",
+      "front": "Essay: Essential medicines concept",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Medicines meeting the priority health-care needs of the population"
+          ]
+        },
+        {
+          "h": "Selection criteria",
+          "points": [
+            "Proven efficacy and safety",
+            "Assured quality, bioavailability and stability",
+            "Cost-effective; mostly single compounds, fixed-ratio combinations only with proven advantage"
+          ]
+        },
+        {
+          "h": "Lists",
+          "points": [
+            "WHO Model List: first 1977; 20th list (2017) has 433 medicines, 25 FDCs",
+            "India: National Essential Drugs List 1996, revised 2011; NLEM 2015 has 376 medicines, graded by care level"
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "points": [
+            "Focuses limited resources on needed drugs; adoption improved availability, saved cost and made use more rational",
+            "Book figures are dated; no newer edition in the owner's books"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-naming-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
     },
     {
       "id": "p1-intro-routes-022",
@@ -638,52 +419,201 @@
       "refs": [
         "KDT8 ch1"
       ],
-      "pyq": []
+      "pyq": [],
+      "level": 1
     },
     {
-      "id": "p1-intro-routes-023",
-      "type": "cloze",
-      "front": "Classify: solid dosage forms",
-      "text": "Solid forms include {{tablets}}, {{capsules}}, {{lozenges}} and {{pills}}, while {{suppositories}} and pessaries are inserted into body orifices.",
+      "id": "p1-intro-routes-033",
+      "type": "basic",
+      "front": "What is the principle of a local route, and give one drug used both locally and systemically?",
+      "back": "Local routes put a high concentration at the site of need with little systemic toxicity. GTN is the example: applied as ointment or patch it acts systemically for angina, while inhaled salbutamol acts locally on bronchi.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
       "status": "draft",
-      "subtopic": "p1-intro-routes-dosage-forms",
+      "subtopic": "p1-intro-routes-classification",
       "tags": [
         "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-034",
+      "type": "basic",
+      "front": "List the systemic routes of drug administration.",
+      "back": "Oral, sublingual or buccal, rectal, cutaneous or transdermal, inhalation, nasal and parenteral. Knowing the list lets you ask, for each route, whether first pass is avoided and how fast absorption is.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-classification",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-013",
+      "type": "shortnote",
+      "front": "Short note: Classification of routes of drug administration",
+      "sections": [
+        {
+          "h": "Local routes",
+          "points": [
+            "Effect confined to an accessible site; systemic absorption minimal",
+            "Topical, deeper-tissue (e.g. intra-articular, perineural) and selected arterial delivery",
+            "Fewer systemic adverse effects"
+          ]
+        },
+        {
+          "h": "Oral, sublingual and rectal",
+          "points": [
+            "Oral, sublingual/buccal, rectal",
+            "Oral is the commonest; sublingual avoids first pass",
+            "Rectal is useful when vomiting or unconscious"
+          ]
+        },
+        {
+          "h": "Other systemic routes",
+          "points": [
+            "Cutaneous and transdermal",
+            "Inhalational (gases, volatile liquids, aerosols)",
+            "Nasal"
+          ]
+        },
+        {
+          "h": "Parenteral",
+          "points": [
+            "Subcutaneous, intramuscular, intravenous, intradermal",
+            "Faster and more predictable than oral; needs sterility and skill"
+          ]
+        }
       ],
       "refs": [
         "KDT8 ch1"
       ],
-      "pyq": []
-    },
-    {
-      "id": "p1-intro-routes-024",
-      "type": "cloze",
-      "front": "Classify: semisolid dosage forms",
-      "text": "Ointments have an {{oily}} base and are {{occlusive}}; pastes contain {{hydrophilic}} powders; gels are viscous {{colloidal}} preparations that wash off with water.",
       "status": "draft",
-      "subtopic": "p1-intro-routes-dosage-forms",
+      "subtopic": "p1-intro-routes-classification",
       "tags": [
         "classification"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-035",
+      "type": "basic",
+      "front": "What factors decide the route chosen for a patient?",
+      "back": "Drug properties, site of action, absorption rate wanted, first-pass effect, urgency, accuracy of dose and the patient's condition. For example an unconscious or vomiting patient cannot take oral drugs, and an emergency needs a fast route such as IV.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-classification",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-018",
+      "type": "essay",
+      "front": "Essay: Routes of drug administration",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Route determines onset, intensity, duration and predictability of the response",
+            "Two broad groups: local and systemic routes"
+          ]
+        },
+        {
+          "h": "Factors governing choice",
+          "points": [
+            "Physical and chemical properties of the drug (solid, liquid or gas; solubility, stability, pH, irritancy)",
+            "Site of desired action; speed of onset and accuracy of dose needed",
+            "Effect of digestive juices and first-pass metabolism",
+            "Patient condition (unconscious, vomiting)"
+          ]
+        },
+        {
+          "h": "Local routes",
+          "points": [
+            "Topical (skin, mucosa, eye, ear; non-absorbed oral drugs such as sucralfate; inhaled salbutamol)",
+            "Deeper tissues: intra-articular, perineural, intrathecal, retrobulbar",
+            "Close intra-arterial: angiography contrast, regional cancer chemotherapy",
+            "High local level, minimal systemic toxicity"
+          ]
+        },
+        {
+          "h": "Oral, sublingual and rectal routes",
+          "points": [
+            "Oral: safe, cheap, convenient; but slow, variable, first pass",
+            "Sublingual/buccal: rapid, bypasses liver (GTN, buprenorphine)",
+            "Rectal: vomiting or unconscious patient; about half bypasses liver (diazepam, paracetamol)"
+          ]
+        },
+        {
+          "h": "Other non-injection systemic routes",
+          "points": [
+            "Cutaneous and transdermal patches for lipid-soluble drugs (GTN, fentanyl, nicotine, estradiol)",
+            "Inhalation: gaseous anaesthetics, rapid and controllable",
+            "Nasal: desmopressin, calcitonin, GnRH agonists"
+          ]
+        },
+        {
+          "h": "Parenteral routes",
+          "points": [
+            "Subcutaneous (including dermojet, pellet implantation, implants), intramuscular, intravenous, intradermal",
+            "Fast and dependable, usable in unconscious or vomiting patients, bypass liver",
+            "Need sterile preparation and skill; painful, costlier; i.v. is the most risky"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Choose the safest and simplest route that achieves the therapeutic aim",
+            "Sustained-release systems (TTS, depot injections, implants) give steady levels and better compliance"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-classification",
+      "tags": [
+        "classification",
+        "pk"
       ],
       "refs": [
         "KDT8 ch1"
       ],
-      "pyq": []
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "level": 3
     },
     {
-      "id": "p1-intro-routes-025",
-      "type": "cloze",
-      "front": "Classify: liquid dosage forms",
-      "text": "{{Elixirs}} are hydro-alcoholic solutions; {{suspensions}} need a suspending agent; {{emulsions}} hold two immiscible liquids together with an {{emulsifying agent}}.",
-      "status": "draft",
-      "subtopic": "p1-intro-routes-dosage-forms",
-      "tags": [
-        "classification"
-      ],
+      "id": "p1-intro-routes-007",
+      "type": "basic",
+      "front": "Name drugs destroyed by digestive juices and drugs destroyed in the liver when given orally.",
+      "back": "Digestive juices: penicillin G, insulin. Liver (first pass): glyceryl trinitrate, testosterone, lidocaine.",
       "refs": [
         "KDT8 ch1"
       ],
-      "pyq": []
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-oral",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
     },
     {
       "pyq": [],
@@ -699,7 +629,632 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-036",
+      "type": "basic",
+      "front": "What is first-pass metabolism and why does it matter for oral drugs?",
+      "back": "Drug is degraded in the gut wall and liver before it reaches the systemic circulation, so less active drug is available. Oral dosing is affected most (GTN, testosterone, lidocaine are largely destroyed), while sublingual, transdermal, nasal and parenteral routes largely avoid it.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-oral",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-008",
+      "type": "basic",
+      "front": "Which routes largely bypass hepatic first-pass metabolism?",
+      "back": "Sublingual/buccal, transdermal, nasal, and the external haemorrhoidal part of rectal absorption. Inhalation avoids first pass in the gut and liver, although the lungs contribute a minor first-pass effect.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-oral",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-015",
+      "type": "shortnote",
+      "front": "Short note: Oral route of drug administration",
+      "sections": [
+        {
+          "h": "Advantages",
+          "points": [
+            "Most common and convenient",
+            "Non-invasive, cheap, no need for sterility",
+            "Self-administration possible"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Slow onset; unsuitable in emergencies",
+            "Vomiting, unpalatable drugs, unconscious patient",
+            "Erratic absorption; some drugs poorly absorbed (streptomycin)",
+            "Degraded by gastric acid or enzymes (penicillin G, insulin); hepatic first pass"
+          ]
+        },
+        {
+          "h": "Formulation options",
+          "points": [
+            "Enteric coating, sustained or controlled release",
+            "Capsules can hold unpalatable drugs; oral drops are preferred for infants and young children",
+            "Sublingual route as an alternative to avoid first pass"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-oral",
+      "tags": [
+        "pk"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-037",
+      "type": "basic",
+      "front": "A patient with an acute angina attack needs GTN. Why give it sublingually rather than swallowed, and what does this show about route choice?",
+      "back": "Swallowed GTN is largely destroyed in the liver (first pass). Under the tongue it is absorbed within minutes into sublingual veins draining to the SVC and heart, bypassing the liver, and the tablet can be spat out once relief occurs. Route choice here is driven by first-pass loss plus urgency. The same drug as patch or ointment gives a slower, sustained systemic effect.",
+      "refs": [
+        "KDT8 ch1",
+        "GG14 PDF p46"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-oral",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-intro-routes-010",
+      "type": "basic",
+      "front": "Why are only aqueous solutions given intravenously?",
+      "back": "Suspensions and oily preparations can cause embolism when injected intravenously.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-parenteral",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-012",
+      "type": "basic",
+      "front": "Which parenteral routes allow depot preparations, and why?",
+      "back": "Subcutaneous and intramuscular routes. Oily solutions or aqueous suspensions release the drug slowly from the injection site over a prolonged period.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-parenteral",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-038",
+      "type": "basic",
+      "front": "What is the bioavailability of an IV dose and what does that imply?",
+      "back": "100%, since the drug enters blood directly with no absorption step. The smallest dose is needed and onset is immediate; there is also no depot.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-parenteral",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-011",
+      "type": "basic",
+      "front": "Why is the intravenous route considered the riskiest parenteral route?",
+      "back": "There is no depot effect, and vital organs such as the heart and brain are exposed to a high drug concentration almost at once. Dose titration is possible only for short-acting drugs with a measurable response.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-parenteral",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-016",
+      "type": "shortnote",
+      "front": "Short note: Subcutaneous, intramuscular and intravenous injection",
+      "sections": [
+        {
+          "h": "Subcutaneous",
+          "points": [
+            "Loose tissue, rich in nerves, less vascular",
+            "Small volumes only; irritants not suitable",
+            "Slow absorption; delayed in shock (vasoconstriction)",
+            "Depot forms possible as aqueous suspensions"
+          ]
+        },
+        {
+          "h": "Intramuscular",
+          "points": [
+            "Large muscle; more vascular, so faster absorption",
+            "Mild irritants tolerated; depot preparations possible",
+            "Avoid in anticoagulated patients (haematoma risk)"
+          ]
+        },
+        {
+          "h": "Intravenous",
+          "points": [
+            "Immediate effect; bioavailability 100%",
+            "Only true solutions; titration possible for short-acting drugs",
+            "Risks: embolism, thrombophlebitis, extravasation necrosis, high concentration at heart/brain"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-parenteral",
+      "tags": [
+        "pk"
+      ],
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-039",
+      "type": "basic",
+      "front": "Compare subcutaneous, intramuscular and intravenous injection for speed, irritants and depot use.",
+      "back": "IV: fastest, 100% bioavailable, even irritants can be given because the vein intima is insensitive and blood dilutes the drug, but only aqueous solutions, no depot, riskiest. IM: faster than SC because muscle is more vascular, tolerates mild irritants, allows depot preparations, avoid in anticoagulated patients (haematoma). SC: slow, small volumes, irritants unsuitable, depots possible. Choose by urgency, drug nature and need for prolonged action.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-parenteral",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-intro-routes-040",
+      "type": "basic",
+      "front": "What is a transdermal therapeutic system and which drugs are delivered this way?",
+      "back": "A patch holding a drug reservoir behind a rate-controlling membrane that delivers drug through the skin into the circulation at a steady rate for typically 1 to 3 days. Examples: glyceryl trinitrate, fentanyl, nicotine, estradiol. It avoids first pass.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-transdermal-inhalational",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-041",
+      "type": "basic",
+      "front": "Which kinds of drug are given by inhalation, and for what effect?",
+      "back": "Gases and volatile liquids (general anaesthetics) act systemically; non-volatile drugs given as aerosols act locally in the airways (e.g. salbutamol on bronchi). Absorption is very rapid and can be stopped by stopping inhalation.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-transdermal-inhalational",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-042",
+      "type": "basic",
+      "front": "Why does particle size matter for inhaled aerosols?",
+      "back": "Particles of about 1 to 5 micrometres reach the bronchioles and alveoli. Larger ones are deposited in the oropharynx, and very fine ones are breathed out again, so the dose delivered falls either way.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-transdermal-inhalational",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-009",
+      "type": "basic",
+      "front": "Why do transdermal therapeutic systems give a steady plasma level?",
+      "back": "A rate-controlling micropore membrane keeps drug delivery slower than the skin's absorption capacity. Site-to-site variation in skin absorption therefore matters less and the output stays constant.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-transdermal-inhalational",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-017",
+      "type": "shortnote",
+      "front": "Short note: Inhalational route",
+      "sections": [
+        {
+          "h": "Scope",
+          "points": [
+            "Gases and volatile liquids (general anaesthetics) for systemic action",
+            "Non-volatile drugs as aerosols for local action in airways"
+          ]
+        },
+        {
+          "h": "Devices",
+          "points": [
+            "Pressurised metered-dose inhaler (propellant, e.g. HFA)",
+            "Jet nebuliser (compressed air or oxygen)",
+            "Dry-powder devices such as rotahaler and spinhaler"
+          ]
+        },
+        {
+          "h": "Particle size",
+          "points": [
+            "About 1 to 5 micrometres reach bronchioles and alveoli",
+            "Larger particles deposit in oropharynx; very fine ones are exhaled"
+          ]
+        },
+        {
+          "h": "Pros and cons",
+          "points": [
+            "Very rapid absorption; controllable by stopping",
+            "Irritant vapours (ether) cause airway inflammation and secretion"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-transdermal-inhalational",
+      "tags": [
+        "pk"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 20
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-014",
+      "type": "shortnote",
+      "front": "Short note: Transdermal therapeutic systems (TTS)",
+      "sections": [
+        {
+          "h": "Design",
+          "points": [
+            "Drug reservoir (solution or polymer-bound) between backing film and rate-controlling micropore membrane",
+            "Adhesive layer with priming dose; release liner peeled off before use"
+          ]
+        },
+        {
+          "h": "Mechanism",
+          "points": [
+            "Drug diffuses through skin into systemic circulation at a constant rate",
+            "Membrane limits delivery below the skin's absorption ceiling"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "Steady plasma levels, no first-pass loss",
+            "Less inter-individual variation; better compliance",
+            "Duration typically 1 to 3 days"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Costlier than tablets",
+            "Local irritation or erythema; rotate application site",
+            "Highly lipid-soluble drugs are the ones suited to skin absorption"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Glyceryl trinitrate, fentanyl, nicotine, estradiol"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-transdermal-inhalational",
+      "tags": [
+        "pk"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p1-intro-routes-023",
+      "type": "cloze",
+      "front": "Classify: solid dosage forms",
+      "text": "Solid forms include {{tablets}}, {{capsules}}, {{lozenges}} and {{pills}}, while {{suppositories}} and pessaries are inserted into body orifices.",
+      "status": "draft",
+      "subtopic": "p1-intro-routes-dosage-forms",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-024",
+      "type": "cloze",
+      "front": "Classify: semisolid dosage forms",
+      "text": "Ointments have an {{oily}} base and are {{occlusive}}; pastes contain {{hydrophilic}} powders; gels are viscous {{colloidal}} preparations that wash off with water.",
+      "status": "draft",
+      "subtopic": "p1-intro-routes-dosage-forms",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-025",
+      "type": "cloze",
+      "front": "Classify: liquid dosage forms",
+      "text": "{{Elixirs}} are hydro-alcoholic solutions; {{suspensions}} need a suspending agent; {{emulsions}} hold two immiscible liquids together with an {{emulsifying agent}}.",
+      "status": "draft",
+      "subtopic": "p1-intro-routes-dosage-forms",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-043",
+      "type": "basic",
+      "front": "Match skin preparations to lesions: ointment, paste, gel, lotion.",
+      "back": "Ointment: oily base, occlusive. Paste: thick, non-greasy, hydrophilic powders, for inflamed or oozing skin. Gel: viscous colloid, washable, used for oral ulcers. Lotion: better than creams or ointments on hairy skin. Pick the base that suits the lesion's wetness and site.",
+      "refs": [
+        "KDT8 ch1",
+        "KDT8 PDF p25"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-dosage-forms",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-044",
+      "type": "basic",
+      "front": "What factors guide the choice of dosage form?",
+      "back": "Stability and solubility of the drug, patient age, ability to swallow, speed of onset wanted and need for controlled release. For example, children who cannot swallow tablets get liquids, and unpalatable drugs can be put in capsules.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-dosage-forms",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-019",
+      "type": "essay",
+      "front": "Essay: Dosage forms of drugs",
+      "sections": [
+        {
+          "h": "Concept and purpose",
+          "points": [
+            "Drug plus excipients packed into a specific form",
+            "Gives shape, defines single doses, protects drug, suits route"
+          ]
+        },
+        {
+          "h": "Solid forms",
+          "points": [
+            "Powders, tablets (plain, coated, chewable, dispersible, sublingual, enteric, sustained-release), capsules",
+            "Pills, lozenges, suppositories and pessaries"
+          ]
+        },
+        {
+          "h": "Liquid forms",
+          "points": [
+            "Aqueous solutions, suspensions, emulsions",
+            "Elixirs, syrups, linctus, drops, lotions and liniments",
+            "Injections: ampoules, vials, prefilled syringes, infusions"
+          ]
+        },
+        {
+          "h": "Semisolid forms",
+          "points": [
+            "Ointments (oily base, occlusive), creams, pastes (hydrophilic powders), gels"
+          ]
+        },
+        {
+          "h": "Inhalational forms",
+          "points": [
+            "Metered-dose inhalers, nebulisers, dry-powder devices"
+          ]
+        },
+        {
+          "h": "Selection",
+          "points": [
+            "Stability, solubility, patient age and ability to swallow",
+            "Speed of onset required and need for controlled release"
+          ]
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-dosage-forms",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "level": 3
+    },
+    {
+      "id": "p1-intro-routes-045",
+      "type": "basic",
+      "front": "Compare a pharmacopoeia with a formulary: contents and who uses each.",
+      "back": "Pharmacopoeia: official standards for approved drugs (structure, physical and chemical properties, identification and assay, purity standards, storage, dosage forms); used by manufacturers and regulators, rarely by doctors (IP, BP, USP, Eur P). Formulary: pocket booklet for prescribers listing indications, doses, contraindications, adverse effects and storage of selected drugs by therapeutic class (BNF, National Formulary of India). Both are government-issued official compendia with legal status.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-naming-regulation",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-046",
+      "type": "basic",
+      "front": "When is the rectal route chosen, and why is only part of a rectal dose protected from first pass?",
+      "back": "Used for irritant or unpleasant drugs and when the patient is vomiting or unconscious (diazepam solution, paracetamol suppository work well in children). Drug absorbed into external haemorrhoidal veins (about 50%) bypasses the liver; drug entering internal haemorrhoidal veins does not. Absorption is otherwise slower and unpredictable.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-oral",
+      "tags": [
+        "pk",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-047",
+      "type": "basic",
+      "front": "Name the special subcutaneous forms and what each is suited for.",
+      "back": "Dermojet: needle-free high-velocity jet, painless, suits mass inoculation. Pellet implant: solid pellet placed with trochar for release over weeks to months (testosterone, DOCA). Non-biodegradable or biodegradable implants (Norplant): slow constant leaching over months; the non-biodegradable type must be removed later.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-parenteral",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-intro-routes-048",
+      "type": "basic",
+      "front": "What is the intradermal route and what is it used for?",
+      "back": "Drug is injected into the skin to raise a small bleb, or put on the epidermis and scratched or punctured through. Used only for specific purposes such as BCG vaccine and sensitivity testing.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-parenteral",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-intro-routes-049",
+      "type": "basic",
+      "front": "Which drugs are given by the nasal route and why is the route useful?",
+      "back": "The nasal mucosa absorbs many drugs and bypasses digestive juices and the liver. Used as spray or nebulised solution for GnRH agonists, calcitonin and desmopressin; being tried for peptides like insulin and to bypass the blood-brain barrier.",
+      "refs": [
+        "KDT8 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-intro-routes-transdermal-inhalational",
+      "tags": [
+        "uses",
+        "pk"
+      ],
+      "level": 1
     }
   ]
 }

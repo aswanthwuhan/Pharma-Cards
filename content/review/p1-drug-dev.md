@@ -51,3 +51,100 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 p1-drug-dev-029 → DRUG REPOSITIONING → GG14 PDF p159, p33 (new card)
 p1-drug-dev-030 → Chronopharmacology. → KDT8 PDF p94, p315, p449 (new card)
 p1-drug-dev-031 → Off label uses of drugs. → GG14 PDF p33, p166 (new card)
+
+## Difficulty ladder pass
+Levels set on all 31 existing cards. 001 corrected to four dose strategies (titrated dose added).
+| id | status | source |
+|---|---|---|
+| p1-drug-dev-001 | corrected | KDT8 ch5 |
+| p1-drug-dev-032 | new | KDT8 ch5 |
+| p1-drug-dev-033 | new | KDT8 ch5 |
+| p1-drug-dev-034 | new | KDT8 ch5 |
+| p1-drug-dev-035 | new | KDT8 ch5 |
+| p1-drug-dev-036 | new | KDT8 ch5 |
+| p1-drug-dev-037 | new | KDT8 ch5 |
+| p1-drug-dev-038 | new | KDT8 ch5 |
+| p1-drug-dev-039 | new | KDT8 ch5 |
+| p1-drug-dev-040 | new | KDT8 ch5 |
+| p1-drug-dev-041 | new | KDT8 ch5 |
+| p1-drug-dev-042 | new | KDT8 ch5 |
+| p1-drug-dev-043 | new | KDT8 ch5 |
+| p1-drug-dev-044 | new | KDT8 ch5 |
+| p1-drug-dev-045 | new | KDT8 ch5 |
+| p1-drug-dev-052 | new | KDT8 ch5 |
+| p1-drug-dev-046 | new | KDT8 ch5 |
+| p1-drug-dev-047 | new | KDT8 ch5 |
+| p1-drug-dev-048 | new | KDT8 ch5 |
+| p1-drug-dev-049 | new | KDT8 ch5 |
+| p1-drug-dev-050 | new | KDT8 ch5 |
+| p1-drug-dev-053 | new | KDT8 ch5 |
+| p1-drug-dev-054 | new | KDT8 ch5 |
+| p1-drug-dev-055 | new | KDT8 ch5 |
+| p1-drug-dev-058 | new | KDT8 ch5 |
+| p1-drug-dev-056 | new | KDT8 ch5 |
+| p1-drug-dev-057 | new | KDT8 ch5 |
+| p1-drug-dev-059 | new | KDT8 ch5 |
+| p1-drug-dev-060 | new | KDT8 ch5 |
+| p1-drug-dev-062 | new | KDT8 ch5 |
+| p1-drug-dev-061 | new | KDT8 ch5 |
+| p1-drug-dev-063 | new | KDT8 ch5 |
+
+## Checker (independent pass, 2026-11-03)
+Checked against KDT8 ch5 (text extract), GG14 PDF p152-165 and Sarkar OCR p111-115, p181-190, p206-225, p446-455.
+| id | status | source |
+|---|---|---|
+| p1-drug-dev-006 | corrected (wording: "and death" not in source; kept respiratory depression) | KDT8 ch5; GG14 PDF p165 |
+| p1-drug-dev-007 | ok | GG14 PDF p158 |
+| p1-drug-dev-005 | ok | KDT8 ch5 (G6PD box) |
+| p1-drug-dev-017 | ok | KDT8 ch5 (LD50, PDF p.668) |
+| p1-drug-dev-018 | ok | KDT8 ch5 (evidence grades) |
+| p1-drug-dev-027 | ok | KDT8 ch5 (FDC synergy) |
+| p1-drug-dev-028 | ok | KDT8 PDF p24 |
+| p1-drug-dev-029 | ok | GG14 PDF p159 |
+| p1-drug-dev-030 | ok | KDT8 PDF p94, p315 |
+| p1-drug-dev-031 | ok | GG14 PDF p33, p166 |
+| p1-drug-dev-033 | ok | KDT8 ch5 (lead compounds) |
+| p1-drug-dev-035 | ok | KDT8 ch5 (species differences) |
+| p1-drug-dev-036 | ok | KDT8 ch5 (H2 blockers from histamine) |
+| p1-drug-dev-040 | ok | KDT8 ch5 (type I/II, power) |
+| p1-drug-dev-042 | ok | KDT8 ch5 (cumulation, digoxin) |
+| p1-drug-dev-046 | ok | KDT8 ch5 (neonatal GFR, 5 and 7 months) |
+| p1-drug-dev-047 | ok | KDT8 ch5 (streptomycin doses) |
+| p1-drug-dev-053 | ok | KDT8 ch5 (SNP >1%) |
+| p1-drug-dev-058 | ok | KDT8 ch5 (genetic defects box) |
+| p1-drug-dev-059/060 | ok | KDT8 ch5 (cross tolerance) |
+Level ladder: every study card has level 1-3; each subtopic has at least 3 L1, 2 L2, 1 L3. Verified by script, no change needed.
+Gap check: no card cites Prep/RR5/RapidRev. No new study cards added.
+
+## Gap cards added (PYQ gap set 31, 98, 501)
+| id | new | source |
+|---|---|---|
+| p1-drug-dev-064 | new essay L3 (diabetes unmet-need drug development plan, 10 marks) | KDT8 ch19, KDT8 ch5 PDF p88-92, GG14 ch8 PDF p166 |
+| p1-drug-dev-065 | new basic L1 (limits of current diabetes drugs) | KDT8 ch19 |
+| p1-drug-dev-066 | new basic L1 (surrogate endpoint) | GG14 ch8 PDF p166 |
+| p1-drug-dev-067 | new basic L2 (FDA CV safety margin after rosiglitazone) | GG14 ch8 PDF p166-167 |
+| p1-drug-dev-068 | new shortnote L2 (integrated approach in pharmacotherapy, 10 marks) | KDT8 ch5 PDF p81-83 |
+| p1-drug-dev-069 | new basic L1 (patient factors modifying dose response) | KDT8 ch5 PDF p73-80 |
+| p1-drug-dev-070 | new shortnote L2 (biomarkers in clinical evaluation, 10 marks) | GG14 ch3 PDF p70-71, GG14 ch8 PDF p166, GG14 ch1 PDF p35, KDT8 ch5 PDF p76-77 |
+| p1-drug-dev-071 | new basic L1 (biomarker vs surrogate) | GG14 ch3, GG14 ch8 |
+| p1-drug-dev-072 | new basic L2 (G-6PD as pre-treatment biomarker) | KDT8 ch5 PDF p76-77 |
+
+Checker (PYQ gap pass), 2026-11-03: checked 064-072 against GG14 ch8 / KDT8 ch5 / KDT8 ch19 text. Fixed 064 (removed alloxan model, "under GLP", NDA and GCP claims not printed in the books; marketing-permission bullet now follows KDT8 Phase III/IV text), 068 ("workload" changed to "patient load", as KDT8 prints), 070 (removed endogenous-probe bullet, not in books; accelerated approval reworded to what GG14 states; "shrink" removed). Rapid 0360-0379 verified, no change. Validator: check ok. Ladder minimums still met. No Prep/RR5 refs.
+
+## PYQ gap pass (questions 28, 94, 134, 136; writer 2026-11-03)
+Covered already, no new card: 040 (type I/II error), 053 (pharmacogenetics vs pharmacogenomics), 011/013/021 (trial phases, RCT), 017/035 (preclinical toxicity basics), 050 (elderly).
+| id | new | source |
+|---|---|---|
+| p1-drug-dev-073 | new shortnote L3 (features of an ideal RCT; no year, no pyq tag) | KDT8 ch5 PDF p102 |
+| p1-drug-dev-074 | new essay L3 (6-month repeated-dose toxicity design, UHSR 2025 10 marks) | Bennett p33-34, Medhi PMECP p22, p133, KDT8 ch5 |
+| p1-drug-dev-075 | new shortnote L2 (hypersensitivity potential, UHSR 2025 10 marks) | Ghosh FEP p182, Bennett p34, Medhi PMECP p133, KDT8 ch6 PDF p113-115 |
+| p1-drug-dev-076 | new basic L1 (local lymph node assay, UHSR 2025) | Ghosh FEP p182 |
+| p1-drug-dev-077 | new basic L1 (non-inferiority trial) | KDT8 ch5 PDF p102 |
+Notes: Ghosh FEP p182 LLNA text is OCR-garbled; only the legible stimulation index (at least 3) and patch-test condition are used. Medhi PMECP p22 and p133 are the owner library "Practical Manual of Experimental and Clinical Pharmacology" (Database PDFs, Guidelines). Question 134 is marked "(20)" in the paper text but questions.json records 10 marks; the pyq tag uses 10.
+Not written here (other topics' files, not edited): q28 parts on antihepatitis drugs, psoriasis, ethics guidelines (p3-ethics-education), generic drugs (bioequivalence sits in p3-research-biostats), insulin resistance (p3-endocrine), combined antimicrobials (p3-amr-general). Geriatric drug use already covered by 050.
+
+Checker (PYQ gap pass, 2026-11-03): checked 073-077 against KDT8 ch5 PDF p102, KDT8 ch6 table, Bennett, Medhi PMECP, Ghosh FEP p182.
+- 073: removed "Independent ethics review and informed consent" (not in p102); "Randomisation removes selection bias" and "placebo" reworded to what p102 prints.
+- 075: "patch and intradermal tests not fully reliable" reworded to Bennett's text (patch testing useful for contact dermatitis, unreliable for other allergies).
+- 074, 076, 077: ok. 074 duration and GLP points match KDT8 ch5 duration note and Bennett; Medhi p133 supports the dose and observation points.
+Validator: check ok. Ladder minimums met. No Prep/RR5 refs.

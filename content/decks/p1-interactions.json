@@ -16,7 +16,8 @@
       "tags": [
         "classification",
         "interactions"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p1-interactions-002",
@@ -31,7 +32,38 @@
       "subtopic": "p1-interactions-classification",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-028",
+      "type": "basic",
+      "front": "Name the three categories of drug interaction.",
+      "back": "Pharmacokinetic (the concentration of the object drug at its site changes), pharmacodynamic (the response changes with concentration unchanged) and pharmaceutical (in-vitro incompatibility before administration). Knowing the category tells you whether to fix timing, dose or the combination itself.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-classification",
+      "tags": [
+        "classification"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-029",
+      "type": "basic",
+      "front": "At which sites can a pharmacokinetic interaction occur?",
+      "back": "Absorption, protein binding, metabolism and excretion. Each alters how much active drug reaches the site of action, so effect rises or falls without any change in receptor behaviour.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-classification",
+      "tags": [
+        "classification"
+      ],
+      "level": 1,
+      "status": "draft"
     },
     {
       "id": "p1-interactions-003",
@@ -81,7 +113,103 @@
       "subtopic": "p1-interactions-classification",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-030",
+      "type": "basic",
+      "front": "Classify: tetracycline plus iron, probenecid plus penicillin, penicillin plus tetracycline, and penicillin with an aminoglycoside in one syringe.",
+      "back": "Tetracycline-iron: pharmacokinetic (absorption, chelation). Probenecid-penicillin: pharmacokinetic (excretion). Penicillin-tetracycline: pharmacodynamic (bactericidal antagonized by bacteriostatic). Penicillin-aminoglycoside in one syringe: pharmaceutical (inactivation).",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-classification",
+      "tags": [
+        "classification",
+        "interactions"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-032",
+      "type": "basic",
+      "front": "Why does interaction risk rise sharply in patients on many drugs, and which drug types are most vulnerable?",
+      "back": "Each added drug adds possible pairs, so polypharmacy multiplies risk. Most vulnerable are drugs with a narrow safety margin (aminoglycosides, digoxin, lithium), drugs controlling closely regulated functions (antihypertensives, antidiabetics, anticoagulants) and highly protein-bound or saturation-kinetics drugs.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-classification",
+      "tags": [
+        "classification",
+        "interactions"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-031",
+      "type": "basic",
+      "front": "A patient on several drugs has lost the effect of one drug and gained toxicity from another. Reason out which interaction categories could explain each and how you would tell them apart.",
+      "back": "Loss of effect: reduced absorption or enterohepatic recycling, enzyme induction, increased excretion, or pharmacodynamic antagonism. Toxicity: enzyme inhibition, reduced excretion, displacement from binding, or additive pharmacodynamic effect. If drug levels move, the cause is pharmacokinetic; if levels are unchanged but response differs, it is pharmacodynamic. Pharmaceutical incompatibility applies only to drugs mixed before injection.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-classification",
+      "tags": [
+        "classification",
+        "interactions"
+      ],
+      "level": 3,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-008",
+      "type": "cloze",
+      "front": "Drugs prone to displacement interactions",
+      "text": "Highly {{protein-bound}} drugs with a small {{volume of distribution}} are most at risk, e.g. {{coumarin anticoagulants}}, {{sulfonylureas}}, certain {{NSAIDs}} and {{antiepileptics}}.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-033",
+      "type": "basic",
+      "front": "What is chelation in the gut and which drugs commonly show it?",
+      "back": "Binding of a drug to a metal ion in the lumen to form an insoluble complex that cannot be absorbed. Tetracyclines bind iron, calcium and antacid cations, so these should be taken apart from each other.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-034",
+      "type": "basic",
+      "front": "What is enterohepatic recycling and why does it matter for interactions?",
+      "back": "A drug conjugated in the liver is excreted in bile, then deconjugated by gut bacteria and reabsorbed. Anything that reduces gut flora, such as ampicillin or tetracycline, cuts recycling and lowers levels of drugs like oral contraceptive steroids.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "pk"
+      ],
+      "level": 1,
+      "status": "draft"
     },
     {
       "id": "p1-interactions-004",
@@ -97,7 +225,8 @@
       "tags": [
         "pk",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-interactions-005",
@@ -113,7 +242,8 @@
       "tags": [
         "pk",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-interactions-006",
@@ -128,7 +258,8 @@
       "subtopic": "p1-interactions-absorption-binding",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-interactions-007",
@@ -185,38 +316,24 @@
       "subtopic": "p1-interactions-absorption-binding",
       "tags": [
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-interactions-008",
-      "type": "cloze",
-      "front": "Drugs prone to displacement interactions",
-      "text": "Highly {{protein-bound}} drugs with a small {{volume of distribution}} are most at risk, e.g. {{coumarin anticoagulants}}, {{sulfonylureas}}, certain {{NSAIDs}} and {{antiepileptics}}.",
+      "id": "p1-interactions-035",
+      "type": "basic",
+      "front": "Compare how iron and an antibiotic course can each make a drug fail, and say how management differs.",
+      "back": "Iron or antacids chelate tetracycline in the gut, a local, immediate absorption block fixed by separating doses by 2 to 3 hours. A broad-spectrum antibiotic depletes gut flora and breaks enterohepatic recycling of oral contraceptive steroids, a systemic effect that spacing cannot fix, so alternative contraception is advised.",
       "refs": [
         "KDT8 ch71"
       ],
-      "pyq": [],
-      "status": "draft",
       "subtopic": "p1-interactions-absorption-binding",
       "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-interactions-009",
-      "type": "basic",
-      "front": "How do enzyme inhibition and enzyme induction differ in onset and offset?",
-      "back": "Inhibition develops quickly and wears off soon after the inhibitor is stopped. Induction takes about 1 to 2 weeks to reach full effect and regresses over 1 to 3 weeks after withdrawal. Inhibition matters most for drugs cleared by saturation kinetics.",
-      "refs": [
-        "KDT8 ch71"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-interactions-metabolism-excretion",
-      "tags": [
         "pk",
-        "mechanism"
-      ]
+        "interactions"
+      ],
+      "level": 3,
+      "status": "draft"
     },
     {
       "id": "p1-interactions-010",
@@ -232,7 +349,167 @@
       "tags": [
         "pk",
         "interactions"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-012",
+      "type": "basic",
+      "front": "What is P-glycoprotein, and how do its inhibitors cause interactions?",
+      "back": "P-glycoprotein is an ATP-dependent efflux transporter that pumps drugs out of cells. Inhibitors such as quinidine reduce renal and biliary clearance of substrates like digoxin and also reduce tissue binding, so digoxin blood levels can nearly double with toxicity.",
+      "refs": [
+        "KDT8 ch71",
+        "KDT8 PDF p38"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-036",
+      "type": "basic",
+      "front": "Which drugs are metabolised by saturation kinetics and why does that make inhibition dangerous?",
+      "back": "Phenytoin and theophylline. Their metabolic enzymes are near saturation at usual doses, so a small drop in enzyme activity from an inhibitor produces a disproportionate rise in plasma level and toxicity.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-009",
+      "type": "basic",
+      "front": "How do enzyme inhibition and enzyme induction differ in onset and offset?",
+      "back": "Inhibition develops quickly and wears off soon after the inhibitor is stopped. Induction takes about 1 to 2 weeks to reach full effect and regresses over 1 to 3 weeks after withdrawal. Inhibition matters most for drugs cleared by saturation kinetics.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-013",
+      "type": "basic",
+      "front": "Why does grapefruit juice interact with some oral drugs?",
+      "back": "Grapefruit juice constituents (e.g. naringin, furanocoumarins) inhibit CYP3A4, especially in the intestinal wall. Less first-pass metabolism raises the bioavailability of oral CYP3A4 substrates, so some drug labels advise avoiding grapefruit juice. Terfenadine was withdrawn partly because erythromycin or grapefruit juice blocked its CYP3A4 metabolism and the accumulated parent drug caused arrhythmias.",
+      "refs": [
+        "KDT8 ch71",
+        "GG14 ch5"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-014",
+      "type": "basic",
+      "front": "Give two excretion interactions and their clinical use.",
+      "back": "Probenecid blocks tubular secretion of penicillins and cephalosporins and prolongs their half-life; this is used deliberately for single-dose treatment of gonorrhoea. Diuretics (and to a lesser extent tetracyclines, ACE inhibitors and some NSAIDs) raise steady-state lithium levels by increasing its tubular reabsorption; monitor lithium levels and reduce the dose.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-015",
+      "type": "shortnote",
+      "front": "Short note: Renal excretion interactions",
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "Mostly drugs actively secreted by renal tubular transport",
+            "Urine pH changes ionisation and excretion of weak acids and bases"
+          ]
+        },
+        {
+          "h": "Probenecid",
+          "points": [
+            "Blocks secretion of penicillins and cephalosporins",
+            "Used deliberately in single-dose gonorrhoea therapy"
+          ]
+        },
+        {
+          "h": "Aspirin",
+          "points": [
+            "Blocks the uricosuric action of probenecid",
+            "Reduces tubular secretion of methotrexate",
+            "Reduces secretion of canrenone, blunting spironolactone's K+-sparing action"
+          ]
+        },
+        {
+          "h": "Lithium",
+          "points": [
+            "Diuretics (including furosemide), tetracyclines, ACE inhibitors, some NSAIDs and metronidazole raise levels",
+            "Monitor level and reduce dose"
+          ]
+        },
+        {
+          "h": "Urine pH",
+          "points": [
+            "Altering urine pH has been used to hasten excretion in poisoning"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-037",
+      "type": "basic",
+      "front": "A patient stable on warfarin is started on rifampicin. What happens and why?",
+      "back": "Rifampicin induces hepatic microsomal enzymes, so warfarin is metabolised faster and its effect falls (INR drops), risking thrombosis. The change builds over 1 to 2 weeks and reverses over 1 to 3 weeks after stopping rifampicin, so the dose needs adjusting both ways.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "pk",
+        "interactions"
+      ],
+      "level": 2,
+      "status": "draft"
     },
     {
       "id": "p1-interactions-011",
@@ -297,118 +574,78 @@
       "tags": [
         "pk",
         "interactions"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p1-interactions-012",
+      "id": "p1-interactions-038",
       "type": "basic",
-      "front": "What is P-glycoprotein, and how do its inhibitors cause interactions?",
-      "back": "P-glycoprotein is an ATP-dependent efflux transporter that pumps drugs out of cells. Inhibitors such as quinidine reduce renal and biliary clearance of substrates like digoxin and also reduce tissue binding, so digoxin blood levels can nearly double with toxicity.",
+      "front": "Contrast enzyme induction (e.g. failure of oral contraceptives) with inhibition (e.g. cimetidine) in outcome, onset and management.",
+      "back": "Inducers (rifampicin, phenytoin, carbamazepine, barbiturates) speed steroid metabolism so contraceptive levels fall; effect builds slowly over 1 to 2 weeks. Inhibitors (cimetidine, erythromycin, ketoconazole, ciprofloxacin) act quickly and raise levels of the object drug, most dangerously for saturation-kinetics or narrow-margin drugs. Management: avoid the pair or adjust dose with monitoring, and re-adjust when the interacting drug is stopped.",
       "refs": [
         "KDT8 ch71"
       ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-interactions-metabolism-excretion",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-interactions-013",
-      "type": "basic",
-      "front": "Why does grapefruit juice interact with some oral drugs?",
-      "back": "Grapefruit juice constituents (e.g. naringin, furanocoumarins) inhibit CYP3A4, especially in the intestinal wall. Less first-pass metabolism raises the bioavailability of oral CYP3A4 substrates, so some drug labels advise avoiding grapefruit juice. Terfenadine was withdrawn partly because erythromycin or grapefruit juice blocked its CYP3A4 metabolism and the accumulated parent drug caused arrhythmias.",
-      "refs": [
-        "GG14 ch5",
-        "KDT8 ch3"
-      ],
-      "pyq": [],
-      "status": "draft",
       "subtopic": "p1-interactions-metabolism-excretion",
       "tags": [
         "pk",
         "interactions"
-      ]
+      ],
+      "level": 3,
+      "status": "draft"
     },
     {
-      "id": "p1-interactions-014",
-      "type": "basic",
-      "front": "Give two excretion interactions and their clinical use.",
-      "back": "Probenecid blocks tubular secretion of penicillins and cephalosporins and prolongs their half-life; this is used deliberately for single-dose treatment of gonorrhoea. Diuretics (and to a lesser extent tetracyclines, ACE inhibitors and some NSAIDs) raise steady-state lithium levels by increasing its tubular reabsorption; monitor lithium levels and reduce the dose.",
+      "id": "p1-interactions-018",
+      "type": "cloze",
+      "front": "Pharmacodynamic pairs and their effect",
+      "text": "Benzodiazepines with opioids cause additive {{CNS depression}} and {{respiratory depression}}; {{ACE inhibitors}} with potassium-sparing diuretics cause {{hyperkalaemia}}; propranolol with insulin can cause {{hypoglycaemia}} that is silent.",
       "refs": [
         "KDT8 ch71"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p1-interactions-metabolism-excretion",
+      "subtopic": "p1-interactions-pharmacodynamic",
       "tags": [
-        "pk",
         "interactions"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p1-interactions-015",
-      "type": "shortnote",
-      "front": "Short note: Renal excretion interactions",
-      "sections": [
-        {
-          "h": "Basis",
-          "points": [
-            "Mostly drugs actively secreted by renal tubular transport",
-            "Urine pH changes ionisation and excretion of weak acids and bases"
-          ]
-        },
-        {
-          "h": "Probenecid",
-          "points": [
-            "Blocks secretion of penicillins and cephalosporins",
-            "Used deliberately in single-dose gonorrhoea therapy"
-          ]
-        },
-        {
-          "h": "Aspirin",
-          "points": [
-            "Blocks the uricosuric action of probenecid",
-            "Reduces tubular secretion of methotrexate",
-            "Reduces secretion of canrenone, blunting spironolactone's K+-sparing action"
-          ]
-        },
-        {
-          "h": "Lithium",
-          "points": [
-            "Diuretics (including furosemide), tetracyclines, ACE inhibitors, some NSAIDs and metronidazole raise levels",
-            "Monitor level and reduce dose"
-          ]
-        },
-        {
-          "h": "Urine pH",
-          "points": [
-            "Altering urine pH has been used to hasten excretion in poisoning"
-          ]
-        }
-      ],
+      "id": "p1-interactions-039",
+      "type": "basic",
+      "front": "What is the difference between synergism and antagonism in a drug interaction?",
+      "back": "Synergism: the combined effect is greater than from either drug alone. Antagonism: one drug blunts the effect of the other. Both occur without change in drug concentration when pharmacodynamic.",
       "refs": [
         "KDT8 ch71"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-interactions-metabolism-excretion",
+      "subtopic": "p1-interactions-pharmacodynamic",
       "tags": [
-        "pk"
-      ]
+        "mechanism",
+        "interactions"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-040",
+      "type": "basic",
+      "front": "Which drug combinations cause additive CNS depression?",
+      "back": "Benzodiazepines, sedating antihistamines, neuroleptics, opioids and alcohol in any combination. The result is sedation, respiratory depression and incoordination, so warn patients about driving and alcohol.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 1,
+      "status": "draft"
     },
     {
       "id": "p1-interactions-016",
       "type": "basic",
       "front": "Why should a bactericidal beta-lactam not be combined with a bacteriostatic antibiotic?",
-      "back": "Bacteriostatic drugs halt bacterial growth, while beta-lactams kill mainly dividing bacteria, so the bactericidal effect is antagonized. Tetracycline with penicillin is the classic pair to avoid.",
+      "back": "Bacteriostatic drugs halt bacterial growth, and the bactericidal action of penicillins and cephalosporins can be antagonized by them. Tetracycline with penicillin is the classic pair to avoid; the chapter advises against concurrent use.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -418,7 +655,8 @@
       "tags": [
         "mechanism",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p1-interactions-017",
@@ -477,28 +715,112 @@
       "tags": [
         "mechanism",
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p1-interactions-018",
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-interactions-027",
+      "type": "basic",
+      "front": "Why is sildenafil (or tadalafil) contraindicated with organic nitrates?",
+      "back": "Nitrates increase generation of cGMP, while sildenafil inhibits PDE5, which breaks cGMP down. Together they cause marked potentiation: a precipitous fall in BP and myocardial ischaemia. Concurrent use is contraindicated.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "interactions",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-041",
+      "type": "basic",
+      "front": "Why can propranolol mask hypoglycaemia in a diabetic on insulin, and why do ACE inhibitors plus K+-sparing diuretics cause hyperkalaemia?",
+      "back": "Beta blockade blunts the adrenergic warning signs of hypoglycaemia and impairs recovery, so low sugar goes unnoticed. ACE inhibitors plus K+-sparing diuretics together cause severe hyperkalaemia.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-042",
+      "type": "basic",
+      "front": "A hypertensive patient takes an ACE inhibitor and a diuretic and is given an NSAID for arthritis. Reason out the outcome.",
+      "back": "NSAIDs inhibit renal prostaglandin synthesis, which blunts the antihypertensive effect of ACE inhibitors and diuretics, so BP rises. Avoid the combination or monitor BP closely.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "interactions",
+        "mechanism"
+      ],
+      "level": 3,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-022",
       "type": "cloze",
-      "front": "Pharmacodynamic pairs and their effect",
-      "text": "Benzodiazepines with opioids cause additive {{CNS depression}} and {{respiratory depression}}; {{ACE inhibitors}} with potassium-sparing diuretics cause {{hyperkalaemia}}; propranolol with insulin can cause {{hypoglycaemia}} that is silent.",
+      "front": "Interacting pairs with theophylline and statins",
+      "text": "Theophylline is metabolised by {{saturation}} kinetics and has a narrow margin, so enzyme inhibitors such as {{ciprofloxacin}}, erythromycin or allopurinol can cause toxicity. Statin myopathy risk rises with fibrates such as {{gemfibrozil}}, {{niacin}}, {{erythromycin}}, {{azole antifungals}} and {{HIV protease inhibitors}}.",
       "refs": [
         "KDT8 ch71"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p1-interactions-pharmacodynamic",
+      "subtopic": "p1-interactions-clinical-pairs",
       "tags": [
-        "interactions"
-      ]
+        "interactions",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-043",
+      "type": "basic",
+      "front": "Why is warfarin so prone to interactions?",
+      "back": "It is highly protein-bound and its effect is closely regulated (INR monitored), so displacers, metabolic inhibitors, enzyme inducers, drugs that cut gut vitamin K production, and antiplatelet drugs all shift bleeding risk.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-044",
+      "type": "basic",
+      "front": "Which drugs raise digoxin toxicity risk when combined?",
+      "back": "Quinidine (reduces tissue binding and P-gp clearance, nearly doubling levels), diuretics causing hypokalaemia, and propranolol (marked bradycardia). Monitor serum digoxin and K+.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "pk"
+      ],
+      "level": 1,
+      "status": "draft"
     },
     {
       "id": "p1-interactions-019",
       "type": "basic",
       "front": "List the main ways other drugs raise the bleeding risk with warfarin.",
-      "back": "Displacement plus inhibited metabolism (sulfonamides, cotrimoxazole; some NSAIDs); inhibited metabolism (metronidazole, ciprofloxacin, macrolides, azole antifungals, chloramphenicol, allopurinol); less vitamin K from gut flora (ampicillin, amoxicillin, sulfonamides); additive hypoprothrombinaemia (ceftriaxone, cefoperazone); added antiplatelet effect (aspirin, clopidogrel, carbenicillin). Inducers (rifampin, barbiturates, phenytoin, carbamazepine) do the opposite and reduce warfarin effect. Monitor INR and adjust the dose.",
+      "back": "Displacement plus inhibited metabolism plus less gut vitamin K (sulfonamides, cotrimoxazole); inhibited metabolism (metronidazole, ciprofloxacin, macrolides, azole antifungals, chloramphenicol, allopurinol); less vitamin K from gut flora (ampicillin, amoxicillin, sulfonamides); additive hypoprothrombinaemia (ceftriaxone, cefoperazone); added antiplatelet effect (aspirin, clopidogrel, carbenicillin). Inducers (rifampin, barbiturates, phenytoin, carbamazepine) do the opposite and reduce warfarin effect. Monitor INR and adjust the dose.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -508,7 +830,41 @@
       "tags": [
         "interactions",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "pyq": [],
+      "status": "draft",
+      "id": "p1-interactions-026",
+      "type": "basic",
+      "front": "Which important interactions occur with aspirin and other NSAIDs?",
+      "back": "They reduce the effect of ACE inhibitors, beta-blockers and diuretics (thiazides, furosemide) by inhibiting renal prostaglandin synthesis. They displace and/or reduce elimination of sulfonylureas, phenytoin, valproate and methotrexate (toxicity; paracetamol is the safer substitute). With warfarin or heparin they add bleeding risk (antiplatelet action plus gastric damage). With fluoroquinolones they increase CNS toxicity and seizures. With alcohol or corticosteroids they raise gastric mucosal damage and bleeding. Aspirin also blunts spironolactone by reducing tubular secretion of canrenone.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-045",
+      "type": "basic",
+      "front": "Why do ciprofloxacin, erythromycin and allopurinol raise theophylline toxicity?",
+      "back": "They inhibit theophylline metabolism, and because theophylline is cleared by saturable kinetics with a narrow margin, plasma levels rise disproportionately, causing toxicity.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "pk"
+      ],
+      "level": 2,
+      "status": "draft"
     },
     {
       "id": "p1-interactions-020",
@@ -516,7 +872,10 @@
       "front": "Why are MAO inhibitors dangerous when combined with other drugs?",
       "back": "Non-selective MAO inhibitors stop breakdown of monoamines. Tyramine-rich foods (cheese, beer, wine, yeast extract) or ephedrine-containing cold remedies release large amounts of noradrenaline: hypertensive crisis ('cheese reaction'). Interactions also occur with TCAs, SSRIs, SNRIs and levodopa; SSRIs combined with serotonergic drugs (MAOIs, tramadol, pethidine) can cause serotonin syndrome. Pethidine with an MAOI causes excitation, fever, convulsions and respiratory depression (excess norpethidine). CNS depressants are potentiated. Moclobemide (reversible MAO-A inhibitor) carries little tyramine risk.",
       "refs": [
-        "KDT8 ch33"
+        "KDT8 ch71",
+        "KDT8 ch33",
+        "KDT8 PDF p495",
+        "GG14 PDF p371"
       ],
       "pyq": [],
       "status": "draft",
@@ -524,7 +883,8 @@
       "tags": [
         "interactions",
         "contraindications"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p1-interactions-021",
@@ -574,23 +934,8 @@
       "tags": [
         "interactions",
         "adr"
-      ]
-    },
-    {
-      "id": "p1-interactions-022",
-      "type": "cloze",
-      "front": "Interacting pairs with theophylline and statins",
-      "text": "Theophylline is metabolised by {{saturation}} kinetics and has a narrow margin, so enzyme inhibitors such as {{ciprofloxacin}}, erythromycin or allopurinol can cause toxicity. Statin myopathy risk rises with fibrates such as {{gemfibrozil}}, {{niacin}}, {{erythromycin}}, {{azole antifungals}} and {{HIV protease inhibitors}}.",
-      "refs": [
-        "KDT8 ch71"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-interactions-clinical-pairs",
-      "tags": [
-        "interactions",
-        "pk"
-      ]
+      "level": 3
     },
     {
       "id": "p1-interactions-023",
@@ -605,7 +950,71 @@
       "subtopic": "p1-interactions-management",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-025",
+      "type": "cloze",
+      "front": "Beneficial (deliberate) drug interactions",
+      "text": "ACE inhibitors with diuretics treat {{hypertension}}; {{sulfamethoxazole}} with {{trimethoprim}} is a synergistic antibacterial pair; {{furosemide}} with {{amiloride}} prevents {{hypokalaemia}}; adrenaline is added to {{lidocaine}} for local anaesthesia.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-046",
+      "type": "basic",
+      "front": "Which drug groups should you always ask about before adding a new drug?",
+      "back": "Regular medication for chronic disease: antidiabetics, antihypertensives, anticoagulants, antiepileptics and oral contraceptives, since they control closely regulated functions.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-047",
+      "type": "basic",
+      "front": "Give deliberate drug combinations that exploit an interaction and explain why each works.",
+      "back": "Sulfamethoxazole with trimethoprim: synergistic antibacterial pair. Adrenaline with lidocaine: prolongs local anaesthesia. Furosemide with amiloride: K+-sparing offsets potassium loss.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions",
+        "uses"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-048",
+      "type": "basic",
+      "front": "Probenecid is added to penicillin deliberately, but a diuretic is added to a patient on lithium. How is each handled?",
+      "back": "Probenecid blocks penicillin secretion and prolongs its action, used on purpose (single-dose gonorrhoea therapy). Diuretics raise lithium levels via increased tubular reabsorption, so lithium level is monitored and the dose reduced, or the combination is avoided.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2,
+      "status": "draft"
     },
     {
       "id": "p1-interactions-024",
@@ -667,13 +1076,144 @@
       "subtopic": "p1-interactions-management",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p1-interactions-025",
-      "type": "cloze",
-      "front": "Beneficial (deliberate) drug interactions",
-      "text": "ACE inhibitors with diuretics treat {{hypertension}}; {{sulfamethoxazole}} with {{trimethoprim}} is a synergistic antibacterial pair; {{furosemide}} with {{amiloride}} prevents {{hypokalaemia}}; adrenaline is added to {{lidocaine}} for local anaesthesia.",
+      "id": "p1-interactions-049",
+      "type": "basic",
+      "front": "Which drugs raise lithium levels, and what should be done?",
+      "back": "Diuretics (mainly), tetracyclines, ACE inhibitors and certain NSAIDs promote tubular reabsorption of lithium; metronidazole and tinidazole decrease its excretion. Lithium has a narrow safety margin, so monitor its level and reduce the dose, or avoid the combination.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-050",
+      "type": "basic",
+      "front": "Why is paracetamol more dangerous in a chronic alcoholic or a patient on enzyme inducers?",
+      "back": "One metabolite of paracetamol causes the overdose hepatotoxicity, and induced enzymes form more of it, so the toxic dose is lower. In chronic alcoholism doses below 3 g/day are considered safe.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-051",
+      "type": "basic",
+      "front": "Why must neuroleptics and metoclopramide be avoided in a patient on levodopa-carbidopa?",
+      "back": "Both block dopamine receptors, so they antagonise the antiparkinsonian effect of levodopa; concurrent use is contraindicated. Separately, levodopa with antihypertensives (ACE inhibitors, vasodilators, prazosin) causes excessive postural hypotension, so reduce the antihypertensive dose.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p1-interactions-052",
+      "type": "basic",
+      "front": "Which drugs reduce absorption of ketoconazole and of phenytoin, and by what mechanism?",
+      "back": "Ketoconazole needs gastric acid to dissolve, so H2 blockers and antacids lower its absorption. Sucralfate binds phenytoin in the gut lumen, so less is absorbed.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-absorption-binding",
+      "tags": [
+        "interactions",
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-053",
+      "type": "basic",
+      "front": "What reaction can occur when a patient on metronidazole (or tinidazole, cefoperazone) drinks alcohol, and what is the advice?",
+      "back": "Disulfiram-like or bizarre distressing symptoms in some individuals; the chapter suggests acetaldehyde accumulation, though the mechanism is not known. Warn the patient not to drink alcohol.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-054",
+      "type": "basic",
+      "front": "What interactions does allopurinol have with ampicillin, 6-mercaptopurine/azathioprine and warfarin or theophylline?",
+      "back": "With ampicillin: more skin rashes (mechanism unexplained), so avoid. It inhibits metabolism of 6-mercaptopurine and azathioprine, so reduce their dose to one-third. It inhibits metabolism of warfarin and theophylline: monitor and reduce the dose of the object drug.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-055",
+      "type": "basic",
+      "front": "Name pharmacodynamic interactions of TCAs with adrenaline in local anaesthetic, and of furosemide with aminoglycosides.",
+      "back": "TCAs block neuronal uptake of adrenaline, potentiating it and raising BP, so use plain local anaesthetic solution. Furosemide with aminoglycosides gives additive ototoxicity and nephrotoxicity, so avoid the pair.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-pharmacodynamic",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-056",
+      "type": "basic",
+      "front": "Why does propranolol prolong lidocaine action?",
+      "back": "Lidocaine metabolism depends on hepatic blood flow; propranolol reduces liver blood flow, so lidocaine half-life lengthens. Hence the ceiling amount of lidocaine used in local anaesthesia is reduced.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-metabolism-excretion",
+      "tags": [
+        "interactions",
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-057",
+      "type": "basic",
+      "front": "Name the regular-medication drug classes the chapter flags as likely to be involved in interactions.",
+      "back": "Antidiabetics, antihypertensives, antianginals, antiarthritic drugs, antiepileptics, antiparkinsonian drugs, oral contraceptives, anticoagulants, antiasthmatics, psychopharmacological agents, antiulcer/reflux drugs, corticosteroids, antitubercular and anti-HIV drugs. Patients on these are on long-term therapy, so any newly added drug meets them.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -681,41 +1221,60 @@
       "status": "draft",
       "subtopic": "p1-interactions-management",
       "tags": [
-        "interactions",
-        "uses"
-      ]
+        "interactions"
+      ],
+      "level": 1
     },
     {
-      "pyq": [],
-      "status": "draft",
-      "id": "p1-interactions-026",
+      "id": "p1-interactions-058",
       "type": "basic",
-      "front": "Which important interactions occur with aspirin and other NSAIDs?",
-      "back": "They reduce the effect of ACE inhibitors, beta-blockers and diuretics (thiazides, furosemide) by inhibiting renal prostaglandin synthesis. They displace and/or reduce elimination of sulfonylureas, phenytoin, valproate and methotrexate (toxicity; paracetamol is the safer substitute). With warfarin or heparin they add bleeding risk (antiplatelet action plus gastric damage). With fluoroquinolones they increase CNS toxicity and seizures. With alcohol or corticosteroids they raise gastric mucosal damage and bleeding. Aspirin also blunts spironolactone by reducing tubular secretion of canrenone.",
+      "front": "Why must carbenicillin or ticarcillin be avoided in a patient on aspirin or another antiplatelet drug?",
+      "back": "They perturb platelet surface receptors, adding to the platelet inhibition of aspirin, so bleeding risk rises. This is a pharmacodynamic additive effect, not a change in drug level; avoid the combination.",
       "refs": [
         "KDT8 ch71"
       ],
+      "pyq": [],
+      "status": "draft",
       "subtopic": "p1-interactions-clinical-pairs",
       "tags": [
         "interactions",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "pyq": [],
-      "status": "draft",
-      "id": "p1-interactions-027",
+      "id": "p1-interactions-059",
       "type": "basic",
-      "front": "Why is sildenafil (or tadalafil) contraindicated with organic nitrates?",
-      "back": "Nitrates increase generation of cGMP, while sildenafil inhibits PDE5, which breaks cGMP down. Together they cause marked potentiation: a precipitous fall in BP and myocardial ischaemia. Concurrent use is contraindicated.",
+      "front": "Why should erythromycin and clindamycin (or chloramphenicol) not be combined?",
+      "back": "They bind to nearby sites on the bacterial 50S ribosome and interfere with each other, giving mutual antagonism of antibacterial action. Avoid concurrent use.",
       "refs": [
         "KDT8 ch71"
       ],
+      "pyq": [],
+      "status": "draft",
       "subtopic": "p1-interactions-pharmacodynamic",
       "tags": [
         "interactions",
-        "contraindications"
-      ]
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p1-interactions-060",
+      "type": "basic",
+      "front": "How do cimetidine or isoniazid change the effect of diazepam, and what is advised?",
+      "back": "They inhibit diazepam metabolism, so levels rise and CNS depression is exaggerated. Avoid the pair or reduce the benzodiazepine dose.",
+      "refs": [
+        "KDT8 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p1-interactions-clinical-pairs",
+      "tags": [
+        "interactions",
+        "pk"
+      ],
+      "level": 2
     }
   ]
 }

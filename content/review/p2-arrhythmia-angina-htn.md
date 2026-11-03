@@ -110,3 +110,77 @@ Difficulty ladder pass (levels set on all 86 cards; deck ordered by subtopic the
 | p2-arrhythmia-angina-htn-092 | new (L2 CCB compare) | KDT8 ch40 |
 | p2-arrhythmia-angina-htn-093 | new (L1 emergency definition) | KDT8 ch41 |
 | p2-arrhythmia-angina-htn-094 | new (L3 emergency + ACS case) | KDT8 ch41 |
+
+## Checker (independent pass, 2026-11-03)
+
+Checked against KDT8 ch39-41 (pdftotext) and GG14 via pharm-tools search.py (PDF pages cited below). About 26 study cards checked: 017, 030, 032, 057, 058, 074-094.
+
+| id | status | source |
+|---|---|---|
+| p2-arrhythmia-angina-htn-032 | corrected | KDT8 ch40; GG14 p641. Removed "EMA restricts" (not printed) and renal-function claim (not printed) |
+| p2-arrhythmia-angina-htn-081 | corrected | KDT8 ch40. Hydroxocobalamin is "particularly indicated" in smoke inhalation, not "preferred" |
+| p2-arrhythmia-angina-htn-086 | corrected | KDT8 ch39. Drugs are an interim measure; "pacing is definitive" was not printed |
+| p2-arrhythmia-angina-htn-017, 030, 057, 058, 074-080, 082-085, 087-094 | ok | KDT8 ch39-41; GG14 p638, p645-646, p652, p661, p708, p852 for the GG14 points |
+
+Checks on specific numbers: nimodipine 30-60 mg 4-6 hourly for 3 weeks (KDT8 ch40), amiodarone SCD-HeFT (GG14 p704), magnesium 1-2 g for torsades (GG14 p708), spironolactone 25-50 mg ESC step (GG14 p646), NICE stage I/II 140-159/90-99 and 160-179/100-109 (KDT8 ch41), furosemide 20-80 mg i.v. (KDT8 ch41), aspirin 81/100 mg and evening dosing (GG14 p852).
+
+Deletions: none.
+
+Prep/RR5 grep on both deck files: no matches.
+
+Ladder: every subtopic has at least 3 L1, 2 L2 and 1 L3 study cards. File totals: 49 L1, 32 L2, 13 L3 (94 cards). The writer report said 47/32/15, which does not match the file.
+
+Gaps: no drug in KDT8 ch39-41 is missing a card, apart from the ones the chapters do not cover (vernakalant, perindopril, trandolapril, olmesartan, azilsartan, azelnidipine, tocainide, bretylium, bosentan). None added, because no owner book chapter prints them here. Not audited: PYQ tags, and the full-text read of every L1 card against its L2 card.
+
+Validator: `node scripts/validate-content.mjs --check` shows no errors for this topic. Remaining errors are in p3-antifungal-viral.json and belong to another agent.
+
+## Gap-fill PYQ additions (2026-11-03)
+
+Not placed here (other topic): Q208 Alzheimer's cerebroactive drugs half. Q bank questions with no year: no pyq tag.
+
+id | new | source
+
+p2-arrhythmia-angina-htn-095 | new (L1 angina index) | Satoskar p627
+p2-arrhythmia-angina-htn-096 | new (L1 subendocardial crunch) | KDT8 ch40
+p2-arrhythmia-angina-htn-097 | new (L1 Tl-201 and Tc-99m PP imaging) | Satoskar p626
+p2-arrhythmia-angina-htn-098 | new (L1 exercise stress test endpoint) | Satoskar p626
+p2-arrhythmia-angina-htn-099 | new (L1 Langendorff preparation) | Medhi PMECP p192
+p2-arrhythmia-angina-htn-100 | new (L1 tail-cuff method) | Medhi PMECP p223
+p2-arrhythmia-angina-htn-101 | new (L1 DOCA-salt model) | Medhi PMECP p230
+p2-arrhythmia-angina-htn-102 | new (L1 isoprenaline MI model) | Medhi PMECP p230
+p2-arrhythmia-angina-htn-103 | new (L1 placebo response in angina) | Bennett & Brown p32, p55
+p2-arrhythmia-angina-htn-104 | new (L1 crossover design) | Bennett & Brown p64
+p2-arrhythmia-angina-htn-105 | new (L1 acetazolamide, not used as diuretic) | KDT8 ch42
+p2-arrhythmia-angina-htn-106 | new (L1 spironolactone as weak diuretic) | KDT8 ch42
+p2-arrhythmia-angina-htn-107 | new (L1 digoxin Na+/K+-ATPase) | GG14 ch33, GG14 ch34
+p2-arrhythmia-angina-htn-108 | new (L1 digoxin DIG window) | GG14 ch33
+p2-arrhythmia-angina-htn-109 | new (L1 oral minoxidil avoided) | KDT8 ch41
+p2-arrhythmia-angina-htn-110 | new (L1 nicorandil IONA trial) | KDT8 ch40
+p2-arrhythmia-angina-htn-111 | new (L1 beta blocker plus diuretic avoided) | KDT8 ch41
+p2-arrhythmia-angina-htn-112 | new (L2 shortnote, evaluation experimental; pyq RGUHS 2019 Q79, UHSR 2025 Q186) | Satoskar p626; Medhi PMECP p192, p230
+p2-arrhythmia-angina-htn-113 | new (L2 shortnote, evaluation clinical; pyq RGUHS 2019 Q79, UHSR 2025 Q186) | Satoskar p626; Bennett & Brown p55, p64
+p2-arrhythmia-angina-htn-114 | new (L2 shortnote, non-haemodynamic antianginals; Q bank Q162, no year so no pyq) | KDT8 ch40
+p2-arrhythmia-angina-htn-115 | new (L3 essay, weak diuretics; Q bank Q162, no year so no pyq) | KDT8 ch42
+p2-arrhythmia-angina-htn-116 | new (L2 shortnote, digoxin; Q bank Q208, no year so no pyq) | GG14 ch33, GG14 ch34
+p2-arrhythmia-angina-htn-117 | new (L2 shortnote, evaluation of antihypertensives; Q bank Q375, no year so no pyq) | Medhi PMECP p223, p230; KDT8 ch41; Bennett & Brown p64
+p2-arrhythmia-angina-htn-118 | new (L3 essay, vasodilator drugs; Q bank Q396, no year so no pyq) | KDT8 ch40, ch41
+p2-arrhythmia-angina-htn-119 | new (L3 essay, pathophysiology of ischaemia and drugs; pyq RGUHS 2009 20 marks Q151) | KDT8 ch40; Satoskar p627; Golan p505
+p2-arrhythmia-angina-htn-120 | new (L3 essay, comorbidity and antihypertensive choice; pyq UHSR 2025 Q541) | KDT8 ch41
+
+Checker (PYQ gap pass) 2026-11-03: study 095-120 checked against cited sources. p2-arrhythmia-angina-htn-111 corrected: beta blocker plus diuretic avoidance not found in books; reworded to thiazide glucose effect (KDT8 ch41). Deleted: none. Prep/RR5 refs: none. Validator --check: ok.
+
+## PYQ gap fill, EP and comorbidity (2026-11-03)
+
+id | new | source
+p2-arrhythmia-angina-htn-121 | new (L1 working vs automatic fibres; pyq none) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-122 | new (L1 Na+ vs Ca2+ phase 0) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-123 | new (L1 slow conduction in nodal tissue) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-124 | new (L1 ERP vs APD by channel type) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-125 | new (L1 SA node pacemaker) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-126 | new (L1 hyperpolarisation, -55 mV) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-127 | new (L1 vagal vs sympathetic) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-128 | new (L2 shortnote, normal EP) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-129 | new (L3 essay, normal EP and drug link; pyq RGUHS 2006 Sep, 20 marks) | KDT8 p521-523 (Section 8 intro; not in ch39 PDF)
+p2-arrhythmia-angina-htn-117 | pyq tag added (RGUHS 2009 Oct, 20 marks, methods of evaluation of antihypertensives) | KDT8 ch41; Medhi PMECP p223, p230
+
+PYQ gap check (2026-11-03): Q 157 (comorbidity) covered by 120 (essay) and 117 n/a; Q 230 (evaluation methods) covered by 112, 113, 117; Q 120 digoxin covered by 107, 108, 116; cerebroactive/Alzheimer part covered in p2-cholinergic, so no card here. Deleted: none. Validator --check: ok.

@@ -254,3 +254,68 @@ rf-p1-adr-0156 | corrected | KDT8 PDF p462 | 4 mg folic acid dose not printed in
 rf-p1-adr-0157 | unsourced | - | ACE inhibitor/ARB renal agenesis not found in books
 rf-p1-adr-0214 | regrounded | KDT8 PDF p109 | Q narrowed to Type A
 rf-p1-adr-0215 | corrected | KDT8 PDF p109 | Books define Type B only; types C, D, E not found, dropped
+
+
+## Ladder pass additions (2026-11-03)
+GG14 ch8 (PDF p164-170) read for postmarketing safety; KDT8 ch6 and PDF p97-98 for tolerance and prazosin. Numbers kept only where legible.
+
+| id | status | source |
+|---|---|---|
+| rf-p1-adr-0228 | new | KDT8 ch6 |
+| rf-p1-adr-0229 | new | KDT8 ch6 |
+| rf-p1-adr-0230 | new | GG14 ch8 |
+| rf-p1-adr-0231 | new | GG14 ch8 |
+| rf-p1-adr-0232 | new | GG14 ch8 |
+| rf-p1-adr-0233 | new | GG14 ch8 |
+| rf-p1-adr-0234 | new | GG14 ch8 |
+| rf-p1-adr-0235 | new | GG14 ch8 |
+| rf-p1-adr-0236 | new | GG14 ch8 |
+| rf-p1-adr-0237 | new | GG14 ch8 |
+| rf-p1-adr-0238 | new | GG14 ch8 |
+| rf-p1-adr-0239 | new | GG14 ch8 |
+| rf-p1-adr-0240 | new | GG14 ch8 |
+| rf-p1-adr-0241 | new | GG14 ch8 |
+| rf-p1-adr-0242 | new | GG14 ch8 |
+| rf-p1-adr-0243 | new | GG14 ch8 |
+| rf-p1-adr-0244 | new | GG14 ch8 |
+| rf-p1-adr-0245 | new | GG14 ch8 |
+| rf-p1-adr-0246 | new | GG14 ch8 |
+| rf-p1-adr-0247 | new | GG14 ch8 |
+| rf-p1-adr-0248 | new | GG14 ch8 |
+| rf-p1-adr-0249 | new | GG14 ch8 |
+| rf-p1-adr-0250 | new | GG14 ch8 |
+| rf-p1-adr-0251 | new | GG14 ch8 |
+| rf-p1-adr-0252 | new | GG14 ch8 |
+| rf-p1-adr-0253 | new | GG14 ch8 |
+| rf-p1-adr-0254 | new | GG14 ch8 |
+| rf-p1-adr-0255 | new | GG14 ch8 |
+| rf-p1-adr-0256 | new | KDT8 ch6 |
+| rf-p1-adr-0257 | new | KDT8 ch6 |
+| rf-p1-adr-0258 | new | KDT8 PDF p97 |
+| rf-p1-adr-0259 | new | KDT8 PDF p98 |
+| rf-p1-adr-0260 | new | KDT8 ch6 |
+| rf-p1-adr-0261 | new | KDT8 PDF p98 |
+| rf-p1-adr-0262 | new | GG14 PDF p557 |
+| rf-p1-adr-0263 | new | GG14 PDF p175 |
+| rf-p1-adr-0264 | new | GG14 PDF p185 |
+
+## Checker
+- Spot-checked 25+ cards (study L2-L3 and rapid GG14 numbers) against KDT8 p112-117 and GG14 p165-167, p49: TPMT 0.3%, 94% under-reporting, 467 patients, 24.0 wk / 46.2%, terfenadine 5000 vs 7.5 million, adrenaline 0.5 mg, UVB 290-320 / UVA 320-400, days 17/18-55/56, kerosene emesis, PLLR 2015, nalorphine. All confirmed.
+- No Prep/RR5 refs. Ladder OK (every subtopic >=4 L1, 3 L2, 2 L3). Validator clean for p1-adr.
+- Corrected 0, deleted 0, added 0.
+
+## PYQ gap batch (2026-11-03): new rapid pairs
+| id | new | source |
+|---|---|---|
+| rf-p1-adr-0265 to 0276 | new | KDT8 ch5, ch6; Katzung16 PDF p32; GG12 PDF p104; GG14 ch8 |
+| rf-p1-adr-0269 to 0271 | new | GG14 ch8, GG12 PDF p104 |
+| rf-p1-adr-0273 | new | KDT8 PDF p802 |
+| rf-p1-adr-0277 to 0281 | new | KDT8 ch53, ch64, PDF p485, p587, p843 |
+| rf-p1-adr-0282 to 0288 | new | KDT8 PDF p455, p829, p832, p833, p410 |
+| rf-p1-adr-0289 to 0290 | new | KDT8 PDF p109 |
+| rf-p1-adr-0291 to 0294 | new | KDT8 PDF p117, p848, p947; GG14 PDF p1368; GG14 ch8 |
+
+## PYQ gap pass (2026-11-03): insomnia list
+| id | new | source |
+|---|---|---|
+| rf-p1-adr-0295 | new | KDT8 PDF p150, p195, p244, p258, p323, p398, p472, p473, p483 |

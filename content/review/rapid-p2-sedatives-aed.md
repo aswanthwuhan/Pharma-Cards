@@ -39,3 +39,66 @@ None found. `review/p2-sedatives-aed.md` lists no GG14/Katzung/Rang & Dale corre
 ## Expansion pass 2 (2026-11-02)
 - Rapid: +116 (rf-p2-sedatives-aed-0413 onward; four duplicates removed): sleep stages, historic hypnotics dates, barbiturate facts (PK, enzyme induction, poisoning and dialysis), BZD receptor and subtype, BZD PK and per-drug data, AED seizure classification, models, phenytoin, carbamazepine, oxcarbazepine, eslicarbazepine, valproate, phenobarbitone, primidone, ethosuximide, clonazepam, clobazam. Deck now 528.
 - Target (+120) almost met: +116 added.
+
+
+## Ladder pass (new cards)
+| id | status | source |
+|---|---|---|
+| rf-p2-sedatives-aed-0537 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0538 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0539 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0540 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0541 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0542 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0543 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0544 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0545 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0546 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0547 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0548 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0549 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0550 | new | KDT8 ch29-30 |
+| rf-p2-sedatives-aed-0551 | new | KDT8 ch29-30 |
+
+## Checker
+Spot-checked 0001-0070 numbers and 0537-0551 against KDT8 ch29-30: ok. Added rf-0552 to 0556 (lorazepam first choice, febrile rectal diazepam, lacosamide, carbamazepine worsens seizures, refractory SE).
+
+## Checker pass 2
+Rapid 0537-0551 re-verified against KDT8 ch30; all grounded, none deleted.
+
+## Checker
+Verified rf-0531-0556 against KDT8 ch29/30.
+- rf-p2-sedatives-aed-0535 | deleted | "clonazepam tolerance about six months" not in KDT8 text.
+- Others ok.
+
+## PYQ gap batch (writer)
+
+| id | new | source |
+|---|---|---|
+| rf-p2-sedatives-aed-0557 to 0576 | new | newer AED facts; GG14 ch20 |
+| rf-p2-sedatives-aed-0577 to 0581 | new | tasimelteon, melatonin synthesis, supplement evidence, ramelteon bioavailability, suvorexant; GG14 ch15, ch22; KDT8 ch29 |
+
+## Checker (PYQ gap pass)
+Checked rf-0557 to 0581 against GG14 ch20/ch22/ch15 and KDT8 ch29.
+- 0581 | corrected | suvorexant "dual orexin" wording comes from GG14 ch22 (orexin 1 and 2); ref added.
+- 0557-0580: ok. No deletions. No Prep/RR5 refs. Validator clean.
+
+## PYQ gap batch 2 (writer): entries 27, 61, 112, 200
+
+New rapid cards rf-p2-sedatives-aed-0582 to 0591 (10 cards), for the study cards 116-122.
+
+| id | status | source | note |
+|---|---|---|---|
+| 0582-0587 | new | GG14 ch16; KDT8 ch27, ch35 | inhibitory amino acids list, glycine site, glycine enhancers, GABA-B channel type, GABA-B agonists, GABA-A subunits |
+| 0588-0591 | new | Katzung16 ch24; Satoskar p253 | withdrawal: JME recurrence, 2-year seizure-free mark, 1-3 month taper, most recurrences within 4 months |
+
+Conflict flag (not edited): rf-p2-sedatives-aed-0183 says "at least 3 years" before withdrawal; 0589 says about 2 years (Satoskar p253). Owner to choose.
+
+## Checker pass (0582-0591)
+| id | status | note |
+|---|---|---|
+| 0588 | deleted | JME withdrawal recurrence not found in Katzung16 ch24 |
+| 0589 | ok, ref changed to GG14 ch20 | 2 years seizure-free, GG14 p424 (Satoskar p253 not confirmed) |
+| 0590 | deleted | 1-3 month taper not found in Katzung16 ch24 |
+| 0591 | deleted | 4-month recurrence figure not found in source |
+Conflict still open: 0183 (3 years, KDT8 ch30 p462) vs 0589 (2 years, GG14 ch20 p424, newer). Owner to choose.

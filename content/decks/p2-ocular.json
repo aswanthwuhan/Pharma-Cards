@@ -3,6 +3,54 @@
   "source": "KDT8 ch7, ch8, ch10; GG14 ch74",
   "cards": [
     {
+      "id": "p2-ocular-002",
+      "type": "basic",
+      "front": "How can the contact time of an eye medication on the ocular surface be prolonged?",
+      "back": "Gels (e.g. pilocarpine 4% gel releasing drug as the polymer erodes), ointments (mineral oil/petrolatum base, used for antibiotics, cycloplegics, miotics), soft contact lenses, collagen shields and nanoparticle carriers. Blocking tear outflow with silicone punctal plugs also extends dwell time.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-pk",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-003",
+      "type": "cloze",
+      "front": "Classify: ocular routes of drug administration",
+      "text": "Besides {{topical}} drops, drugs can be given by {{subconjunctival}}, {{sub-Tenon's}}, {{peribulbar}} or {{retrobulbar}} injection, or into the eye by {{intracameral}} (anterior chamber) and {{intravitreal}} injection or device; intravitreal delivery bypasses absorption and suits {{endophthalmitis}}, retinitis and age-related macular degeneration.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-pk",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-005",
+      "type": "basic",
+      "front": "Why can eye-drop preservatives damage the cornea? Name them.",
+      "back": "Drops and contact lens solutions often contain benzalkonium chloride, chlorobutanol, chelating agents and rarely thimerosal. Benzalkonium chloride can produce a punctate or even toxic ulcerative keratopathy. Most local toxicity of eye drops is hypersensitivity or direct toxicity to cornea, conjunctiva, periocular skin and nasal mucosa.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-pk",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
       "id": "p2-ocular-001",
       "type": "shortnote",
       "front": "Short note: Pharmacokinetics of topically applied ocular drugs",
@@ -45,37 +93,8 @@
       "subtopic": "p2-ocular-pk",
       "tags": [
         "pk"
-      ]
-    },
-    {
-      "id": "p2-ocular-002",
-      "type": "basic",
-      "front": "How can the contact time of an eye medication on the ocular surface be prolonged?",
-      "back": "Gels (e.g. pilocarpine 4% gel releasing drug as the polymer erodes), ointments (mineral oil/petrolatum base, used for antibiotics, cycloplegics, miotics), soft contact lenses, collagen shields and nanoparticle carriers. Blocking tear outflow with silicone punctal plugs also extends dwell time.",
-      "refs": [
-        "GG14 ch74"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-pk",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p2-ocular-003",
-      "type": "cloze",
-      "front": "Classify: ocular routes of drug administration",
-      "text": "Besides {{topical}} drops, drugs can be given by {{subconjunctival}}, {{sub-Tenon's}}, {{peribulbar}} or {{retrobulbar}} injection, or into the eye by {{intracameral}} (anterior chamber) and {{intravitreal}} injection or device; intravitreal delivery bypasses absorption and suits {{endophthalmitis}}, retinitis and age-related macular degeneration.",
-      "refs": [
-        "GG14 ch74"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-pk",
-      "tags": [
-        "pk"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ocular-004",
@@ -90,22 +109,139 @@
       "subtopic": "p2-ocular-pk",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-ocular-005",
-      "type": "basic",
-      "front": "Why can eye-drop preservatives damage the cornea? Name them.",
-      "back": "Drops and contact lens solutions often contain benzalkonium chloride, chlorobutanol, chelating agents and rarely thimerosal. Benzalkonium chloride can produce a punctate or even toxic ulcerative keratopathy. Most local toxicity of eye drops is hypersensitivity or direct toxicity to cornea, conjunctiva, periocular skin and nasal mucosa.",
+      "id": "p2-ocular-050",
+      "type": "essay",
+      "front": "Essay: Why eye drops can cause systemic toxicity, and how ocular drug delivery is optimised",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Topical drops are the commonest route, yet only a small share enters the eye"
+          ]
+        },
+        {
+          "h": "Barriers and losses",
+          "points": [
+            "Tear dilution and nasolacrimal drainage",
+            "Cornea is a fat-water-fat barrier; breached epithelium raises penetration",
+            "Tear protein binding and local esterase metabolism"
+          ]
+        },
+        {
+          "h": "Systemic exposure",
+          "points": [
+            "Drained drug is absorbed from nasal mucosa and skips hepatic first pass",
+            "Example: timolol drops causing bronchospasm and bradycardia"
+          ]
+        },
+        {
+          "h": "Optimisation",
+          "points": [
+            "Longer contact time: gels, ointments, collagen shields, soft lenses, nanoparticles",
+            "Ester prodrugs (latanoprost, dipivefrine) for corneal entry",
+            "Drugs inactivated inside the eye (loteprednol) limit systemic effects",
+            "Intraocular or periocular routes bypass the cornea but carry injury risks"
+          ]
+        }
+      ],
       "refs": [
-        "GG14 ch74"
+        "GG14 ch74",
+        "KDT8 ch10"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p2-ocular-pk",
       "tags": [
-        "adr"
-      ]
+        "pk"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ocular-012",
+      "type": "basic",
+      "front": "What is dipivefrine and how does it lower IOP?",
+      "back": "A prodrug of adrenaline that crosses the cornea well and is hydrolysed there by esterases. The released adrenaline increases uveoscleral outflow, raises trabecular conductivity (beta-2) and reduces aqueous formation (alpha). It still causes ocular burning and is kept for add-on use.",
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-014",
+      "type": "basic",
+      "front": "What are Rho kinase inhibitors in glaucoma?",
+      "back": "Netarsudil and ripasudil, the newest antiglaucoma class. Blocking Rho kinase in the trabecular meshwork and Schlemm canal reduces actin stress fibres and is thought to increase trabecular outflow. They often cause gold-brown corneal deposits (cornea verticillata) and conjunctival hyperaemia. They also promote corneal endothelial cell proliferation after Descemet stripping surgery.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-015",
+      "type": "cloze",
+      "front": "Classify: antiglaucoma drugs by mode of action",
+      "text": "Reduce aqueous secretion: {{beta-blockers}} (timolol), {{alpha-2 agonists}} (brimonidine, apraclonidine) and {{carbonic anhydrase inhibitors}} (dorzolamide, acetazolamide). Increase uveoscleral outflow: {{prostaglandin analogues}} (latanoprost). Increase trabecular outflow: {{miotics}} (pilocarpine) and {{Rho kinase inhibitors}} (netarsudil). Adrenaline/dipivefrine act on all three.",
+      "refs": [
+        "KDT8 ch10",
+        "GG14 ch74"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-049",
+      "type": "basic",
+      "front": "Which ocular structure makes aqueous humour, and which receptors there are targeted to lower IOP?",
+      "back": "The ciliary epithelium secretes aqueous. It carries beta-2 receptors and alpha-2 receptors, so beta-blockers and alpha-2 agonists cut production. Beta-2 relaxation of the ciliary muscle has no meaningful effect on accommodation, which is why beta-blockers leave vision unchanged.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-006",
@@ -120,7 +256,8 @@
       "subtopic": "p2-ocular-glaucoma",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-007",
@@ -137,7 +274,8 @@
       "tags": [
         "adr",
         "contraindications"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-008",
@@ -189,7 +327,8 @@
       "tags": [
         "classification",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-009",
@@ -204,7 +343,8 @@
       "subtopic": "p2-ocular-glaucoma",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-010",
@@ -237,7 +377,8 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-011",
@@ -254,22 +395,8 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
-    },
-    {
-      "id": "p2-ocular-012",
-      "type": "basic",
-      "front": "What is dipivefrine and how does it lower IOP?",
-      "back": "A prodrug of adrenaline that crosses the cornea well and is hydrolysed there by esterases. The released adrenaline increases uveoscleral outflow, raises trabecular conductivity (beta-2) and reduces aqueous formation (alpha). It still causes ocular burning and is kept for add-on use.",
-      "refs": [
-        "KDT8 ch10"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-glaucoma",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ocular-013",
@@ -286,13 +413,32 @@
       "tags": [
         "mechanism",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-ocular-014",
+      "id": "p2-ocular-016",
       "type": "basic",
-      "front": "What are Rho kinase inhibitors in glaucoma?",
-      "back": "Netarsudil and ripasudil, the newest antiglaucoma class. Blocking Rho kinase in the trabecular meshwork and Schlemm canal reduces actin stress fibres and is thought to increase trabecular outflow. They often cause gold-brown corneal deposits (cornea verticillata) and conjunctival hyperaemia. They also promote corneal endothelial cell proliferation after Descemet stripping surgery.",
+      "front": "Why are miotics now a last resort in open angle glaucoma?",
+      "back": "Pilocarpine contracts the ciliary muscle, pulling the scleral spur and opening the trabeculae. But it lasts only 4-6 h (6-8 hourly drops with fluctuating IOP), dims vision in poor light, causes accommodative spasm, induced myopia and brow ache, and stronger drops can give sweating, diarrhoea and bronchospasm. It still works in aphakic glaucoma.",
+      "refs": [
+        "KDT8 ch7",
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-019",
+      "type": "basic",
+      "front": "Why are mitomycin and 5-fluorouracil used in glaucoma surgery?",
+      "back": "Applied at the trabeculectomy site, they limit post-operative wound healing and scarring so the filtration bleb stays open. The trade-off is thin avascular tissue that can leak, causing hypotony and a higher infection risk.",
       "refs": [
         "GG14 ch74"
       ],
@@ -300,18 +446,93 @@
       "status": "draft",
       "subtopic": "p2-ocular-glaucoma",
       "tags": [
-        "mechanism",
-        "newer-drugs"
-      ]
+        "uses",
+        "adr"
+      ],
+      "level": 2
     },
     {
-      "id": "p2-ocular-015",
-      "type": "cloze",
-      "front": "Classify: antiglaucoma drugs by mode of action",
-      "text": "Reduce aqueous secretion: {{beta-blockers}} (timolol), {{alpha-2 agonists}} (brimonidine, apraclonidine) and {{carbonic anhydrase inhibitors}} (dorzolamide, acetazolamide). Increase uveoscleral outflow: {{prostaglandin analogues}} (latanoprost). Increase trabecular outflow: {{miotics}} (pilocarpine) and {{Rho kinase inhibitors}} (netarsudil). Adrenaline/dipivefrine act on all three.",
+      "id": "p2-ocular-045",
+      "type": "shortnote",
+      "front": "Short note: prostaglandin analogues in glaucoma",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Increase uveoscleral outflow of aqueous humour, lowering intraocular pressure",
+            "Latanoprost is an ester that is hydrolysed to an active acid in the cornea"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Now preferred first line in open angle glaucoma, above topical beta blockers",
+            "Latanoprost 0.005% once daily in the evening; travoprost 0.004%; bimatoprost 0.03%"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Ocular smarting and reactive hyperaemia",
+            "Fixed combinations exist, for example latanoprost with timolol"
+          ]
+        }
+      ],
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
       "refs": [
-        "KDT8 ch10",
-        "GG14 ch74"
+        "KDT8 ch10"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-046",
+      "type": "shortnote",
+      "front": "Short note: alpha-2 agonists in glaucoma",
+      "sections": [
+        {
+          "h": "Drugs",
+          "points": [
+            "Apraclonidine 0.5%: polar clonidine congener that does not cross the blood-brain barrier",
+            "Brimonidine 0.15% and 0.2%: has protective effect on retinal neurones independent of IOP"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Apraclonidine restricted to short-term control of IOP spikes",
+            "Allergic conjunctivitis and follicular reactions are common"
+          ]
+        }
+      ],
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch10"
       ],
       "pyq": [
         {
@@ -331,28 +552,7 @@
         }
       ],
       "status": "draft",
-      "subtopic": "p2-ocular-glaucoma",
-      "tags": [
-        "classification",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p2-ocular-016",
-      "type": "basic",
-      "front": "Why are miotics now a last resort in open angle glaucoma?",
-      "back": "Pilocarpine contracts the ciliary muscle, pulling the scleral spur and opening the trabeculae. But it lasts only 4-6 h (6-8 hourly drops with fluctuating IOP), dims vision in poor light, causes accommodative spasm, induced myopia and brow ache, and stronger drops can give sweating, diarrhoea and bronchospasm. It still works in aphakic glaucoma.",
-      "refs": [
-        "KDT8 ch7",
-        "GG14 ch74"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-glaucoma",
-      "tags": [
-        "adr",
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ocular-017",
@@ -412,7 +612,8 @@
       "subtopic": "p2-ocular-glaucoma",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p2-ocular-018",
@@ -486,23 +687,112 @@
       "tags": [
         "uses",
         "classification"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-ocular-019",
-      "type": "basic",
-      "front": "Why are mitomycin and 5-fluorouracil used in glaucoma surgery?",
-      "back": "Applied at the trabeculectomy site, they limit post-operative wound healing and scarring so the filtration bleb stays open. The trade-off is thin avascular tissue that can leak, causing hypotony and a higher infection risk.",
-      "refs": [
-        "GG14 ch74"
+      "id": "p2-ocular-047",
+      "type": "shortnote",
+      "front": "Short note: acute angle closure glaucoma, emergency measures",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Raised IOP is above 21 mmHg; the attack needs urgent reduction of IOP",
+            "Miotic pilocarpine (1-4%) is used to open the angle, instilled frequently at first"
+          ]
+        },
+        {
+          "h": "Other measures",
+          "points": [
+            "Hypertonic mannitol 20%, 1.5-2 g/kg, to lower IOP",
+            "Oral acetazolamide 0.25 g every 6-12 hours to reduce aqueous formation",
+            "Glycerine 50% may be given as a retention enema"
+          ]
+        }
       ],
-      "pyq": [],
-      "status": "draft",
       "subtopic": "p2-ocular-glaucoma",
       "tags": [
         "uses",
-        "adr"
-      ]
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "level": 3
+    },
+    {
+      "id": "p2-ocular-048",
+      "type": "shortnote",
+      "front": "Short note: recent advances in glaucoma management",
+      "sections": [
+        {
+          "h": "Changed first-line choice",
+          "points": [
+            "Prostaglandin analogues have displaced topical beta blockers as first line in open angle glaucoma",
+            "Topical beta blockers remain useful as add-on or in fixed combinations"
+          ]
+        },
+        {
+          "h": "Add-on drugs",
+          "points": [
+            "Dorzolamide 2% twice or thrice daily as add-on to a blocker or PG analogue",
+            "Alpha-2 agonists such as brimonidine as add-on"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "About 30% of open angle glaucoma patients fail to reach target IOP on one drug",
+            "Miotics are a last resort because they cause blurred vision and myopia"
+          ]
+        }
+      ],
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "newer-drugs",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch10"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p2-ocular-020",
@@ -518,7 +808,41 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-024",
+      "type": "basic",
+      "front": "What is the main ocular contraindication to atropinic drugs?",
+      "back": "A narrow iridocorneal angle: mydriasis can precipitate acute congestive (angle closure) glaucoma. A marked IOP rise is rare in wide angle glaucoma. Conventional systemic doses of atropine have only minor ocular effects.",
+      "refs": [
+        "KDT8 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-autonomic",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-025",
+      "type": "basic",
+      "front": "Uses of miotics in ophthalmology apart from glaucoma.",
+      "back": "Reversing mydriasis after refraction testing; alternating with mydriatics to prevent or break iris adhesions; intra-operative miosis with intracameral acetylcholine or carbachol; and echothiophate for accommodative esotropia.",
+      "refs": [
+        "KDT8 ch7",
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-autonomic",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-021",
@@ -534,7 +858,8 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-022",
@@ -549,7 +874,8 @@
       "subtopic": "p2-ocular-autonomic",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-023",
@@ -566,38 +892,8 @@
       "subtopic": "p2-ocular-autonomic",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p2-ocular-024",
-      "type": "basic",
-      "front": "What is the main ocular contraindication to atropinic drugs?",
-      "back": "A narrow iridocorneal angle: mydriasis can precipitate acute congestive (angle closure) glaucoma. A marked IOP rise is rare in wide angle glaucoma. Conventional systemic doses of atropine have only minor ocular effects.",
-      "refs": [
-        "KDT8 ch8"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-autonomic",
-      "tags": [
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p2-ocular-025",
-      "type": "basic",
-      "front": "Uses of miotics in ophthalmology apart from glaucoma.",
-      "back": "Reversing mydriasis after refraction testing; alternating with mydriatics to prevent or break iris adhesions; intra-operative miosis with intracameral acetylcholine or carbachol; and echothiophate for accommodative esotropia.",
-      "refs": [
-        "KDT8 ch7",
-        "GG14 ch74"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-autonomic",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ocular-026",
@@ -613,7 +909,8 @@
       "tags": [
         "uses",
         "mechanism"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-027",
@@ -629,7 +926,133 @@
       "tags": [
         "uses",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-043",
+      "type": "basic",
+      "front": "Which miotic is linked to cataract, and what other ocular side effects do miotics cause?",
+      "back": "Echothiophate is linked to cataract, along with retinal detachment, iris cysts, pupillary block and punctal stenosis. Miotics in general cause miosis, induced myopia, decreased vision, brow ache and ciliary body spasm.",
+      "refs": [
+        "GG14 PDF p1481",
+        "GG14 PDF p1482"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-autonomic",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-051",
+      "type": "essay",
+      "front": "Essay: Choice of mydriatic and cycloplegic for different clinical situations",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Mydriasis from alpha-1 on the iris radial muscle; cycloplegia needs antimuscarinic block of M3 on the ciliary muscle"
+          ]
+        },
+        {
+          "h": "Choice by situation",
+          "points": [
+            "Child under 5 for refraction: atropine ointment, since high ciliary tone defeats weaker drugs",
+            "Older child or adult refraction: cyclopentolate or tropicamide (tropicamide is an unreliable cycloplegic)",
+            "Fundoscopy in the elderly: phenylephrine, with or without tropicamide, no cycloplegia",
+            "Iritis and uveitis: atropine or cyclopentolate to rest the muscle, relieve spasm pain and prevent posterior synechiae; phenylephrine helps break synechiae"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Narrow angle: mydriasis may precipitate angle-closure glaucoma",
+            "Cyclopentolate and atropine absorbed through the nose can cause behavioural or systemic effects in children"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch8",
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-autonomic",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ocular-029",
+      "type": "basic",
+      "front": "Name the topical ocular NSAIDs and their uses.",
+      "back": "Flurbiprofen (prevents intra-operative miosis in cataract surgery), ketorolac (seasonal allergic conjunctivitis; with phenylephrine in irrigation fluid against miosis), diclofenac (post-operative pain and inflammation), ketorolac and diclofenac (post-cataract cystoid macular oedema, pain after refractive surgery), bromfenac and nepafenac (post-cataract pain and inflammation). Rarely they cause sterile corneal melts, mainly in older eyes with surface disease.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-anti-inflammatory",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-030",
+      "type": "basic",
+      "front": "Which drugs treat allergic conjunctivitis?",
+      "back": "Mast cell stabilisers: cromolyn (vernal conjunctivitis), lodoxamide, nedocromil. H1 antagonists with mast-cell stabilising action: olopatadine, ketotifen, bepotastine, azelastine, alcaftadine. Epinastine blocks H1 and H2 and stabilises mast cells. Topical steroids for significant allergy; ketorolac for seasonal allergic conjunctivitis.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-anti-inflammatory",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-031",
+      "type": "basic",
+      "front": "How is dry eye treated pharmacologically?",
+      "back": "Artificial tears (electrolytes plus viscosity agents such as cellulose polymers, polyvinyl alcohol, PEG, glycerin, dextran), with or without preservative; bland ointments at bedtime; punctal plugs; topical cyclosporine or lifitegrast (blocks LFA-1 binding to ICAM-1) to raise tear production in inflammatory dry eye; doxycycline for blepharitis; autologous serum tears in severe cases.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-anti-inflammatory",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-040",
+      "type": "basic",
+      "front": "What is cenegermin, and what is it used for in the eye?",
+      "back": "Recombinant human nerve growth factor given as an ophthalmic solution. It supports corneal innervation and integrity through TrkA and p75 receptors, and is indicated for neurotrophic keratitis, applied 6 times daily for 8 weeks.",
+      "refs": [
+        "Sarkar p561-565"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-anti-inflammatory",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-028",
@@ -675,13 +1098,58 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-ocular-029",
+      "id": "p2-ocular-052",
       "type": "basic",
-      "front": "Name the topical ocular NSAIDs and their uses.",
-      "back": "Flurbiprofen (prevents intra-operative miosis in cataract surgery), ketorolac (seasonal allergic conjunctivitis; with phenylephrine in irrigation fluid against miosis), diclofenac (post-operative pain and inflammation), ketorolac and diclofenac (post-cataract cystoid macular oedema, pain after refractive surgery), bromfenac and nepafenac (post-cataract pain and inflammation). Rarely they cause sterile corneal melts, mainly in older eyes with surface disease.",
+      "front": "Why is a topical corticosteroid harmful in herpetic epithelial keratitis but helpful in disciform (endothelial) keratitis?",
+      "back": "In epithelial keratitis the virus is actively replicating, so immunosuppression worsens infection. Disciform keratitis is mainly an immune-mediated endothelial reaction, so steroids often speed recovery. Steroid-linked risks to remember: raised IOP and glaucoma, posterior subcapsular cataract and secondary infection.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-anti-inflammatory",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-053",
+      "type": "shortnote",
+      "front": "Short note: Choosing between steroid, NSAID, mast-cell stabiliser and antihistamine in the eye",
+      "sections": [
+        {
+          "h": "Steroids",
+          "points": [
+            "Strongest anti-inflammatory; risk of IOP rise, cataract and infection; loteprednol is inactivated in the eye",
+            "Avoid in active herpetic epithelial keratitis"
+          ]
+        },
+        {
+          "h": "NSAIDs",
+          "points": [
+            "Counter intra-operative miosis (flurbiprofen) and cystoid macular oedema, without steroid IOP effects"
+          ]
+        },
+        {
+          "h": "Allergy",
+          "points": [
+            "Cromolyn, lodoxamide, nedocromil prevent mast-cell release (vernal disease)",
+            "Olopatadine, ketotifen, azelastine and similar combine H1 block with stabilising action"
+          ]
+        },
+        {
+          "h": "Dry eye",
+          "points": [
+            "Artificial tears first; cyclosporine and lifitegrast treat the inflammatory component"
+          ]
+        }
+      ],
       "refs": [
         "GG14 ch74"
       ],
@@ -691,38 +1159,41 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p2-ocular-030",
+      "id": "p2-ocular-054",
       "type": "basic",
-      "front": "Which drugs treat allergic conjunctivitis?",
-      "back": "Mast cell stabilisers: cromolyn (vernal conjunctivitis), lodoxamide, nedocromil. H1 antagonists with mast-cell stabilising action: olopatadine, ketotifen, bepotastine, azelastine, alcaftadine. Epinastine blocks H1 and H2 and stabilises mast cells. Topical steroids for significant allergy; ketorolac for seasonal allergic conjunctivitis.",
+      "front": "Which antivirals are used topically in the eye, and which is most toxic to corneal epithelium?",
+      "back": "Trifluridine, acyclovir and ganciclovir. Trifluridine is the most toxic to the corneal epithelium. Their main uses are viral keratitis, herpes zoster ophthalmicus and retinitis.",
       "refs": [
         "GG14 ch74"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-ocular-anti-inflammatory",
+      "subtopic": "p2-ocular-anti-infective",
       "tags": [
-        "classification",
-        "uses"
-      ]
+        "uses",
+        "adr"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-ocular-031",
+      "id": "p2-ocular-055",
       "type": "basic",
-      "front": "How is dry eye treated pharmacologically?",
-      "back": "Artificial tears (electrolytes plus viscosity agents such as cellulose polymers, polyvinyl alcohol, PEG, glycerin, dextran), with or without preservative; bland ointments at bedtime; punctal plugs; topical cyclosporine or lifitegrast (blocks LFA-1 binding to ICAM-1) to raise tear production in inflammatory dry eye; doxycycline for blepharitis; autologous serum tears in severe cases.",
+      "front": "Which topical ophthalmic antibacterials carry a blood dyscrasia risk, and what is ciprofloxacin's ocular toxicity?",
+      "back": "Chloramphenicol and sulfacetamide can cause blood dyscrasias. Ciprofloxacin can leave corneal deposits. Erythromycin ointment is used for superficial infections and to prevent ophthalmia neonatorum.",
       "refs": [
         "GG14 ch74"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p2-ocular-anti-inflammatory",
+      "subtopic": "p2-ocular-anti-infective",
       "tags": [
-        "uses"
-      ]
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-032",
@@ -737,7 +1208,8 @@
       "subtopic": "p2-ocular-anti-infective",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-033",
@@ -753,7 +1225,8 @@
       "tags": [
         "uses",
         "pk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p2-ocular-034",
@@ -768,7 +1241,98 @@
       "subtopic": "p2-ocular-anti-infective",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-056",
+      "type": "shortnote",
+      "front": "Short note: Management of endophthalmitis and infectious keratitis",
+      "sections": [
+        {
+          "h": "Endophthalmitis",
+          "points": [
+            "Bacterial or fungal, usually after intraocular surgery or trauma",
+            "Prompt vitreous tap then empirical intravitreal antibiotics",
+            "Endogenous type: parenteral antibiotics, sometimes vitrectomy"
+          ]
+        },
+        {
+          "h": "Keratitis",
+          "points": [
+            "Bacterial, viral, fungal, parasitic or spirochetal causes",
+            "Severe central bacterial keratitis: corneal scrapings, intensive drops; steroid only judiciously after days of antibiotics",
+            "Fungal: natamycin is the only commercial topical antifungal; Acanthamoeba may need oral miltefosine"
+          ]
+        },
+        {
+          "h": "Viral",
+          "points": [
+            "Herpes zoster ophthalmicus: oral acyclovir, valacyclovir or famciclovir",
+            "CMV retinitis: intravitreal ganciclovir injection or zero-order release implant"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-anti-infective",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ocular-041",
+      "type": "basic",
+      "front": "Besides neovascular AMD, which retinal conditions does bevacizumab treat?",
+      "back": "Macular oedema arising from diabetic retinopathy and from central retinal vein occlusion.",
+      "refs": [
+        "Sarkar p31-35"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-retina",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-057",
+      "type": "basic",
+      "front": "Which agents are anti-VEGF drugs for the eye?",
+      "back": "Pegaptanib (selective VEGF165 antagonist), aflibercept (receptor fusion protein acting as a VEGF-A decoy), bevacizumab (VEGF-A antibody, widely used off-label), ranibizumab (affinity-matured antibody Fab) and brolucizumab (single-chain fragment). VEGF drives new vessel growth, leakiness and inflammation in wet AMD.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-retina",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-058",
+      "type": "basic",
+      "front": "What is verteporfin and how does it work in wet AMD?",
+      "back": "A photosensitiser given IV and activated by a non-thermal laser in the choroidal circulation. Free radicals damage vessel walls, causing platelet activation, thrombosis and occlusion of abnormal vessels. Patients must avoid bright light for about 5 days.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-retina",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-035",
@@ -814,7 +1378,69 @@
       "tags": [
         "newer-drugs",
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-059",
+      "type": "basic",
+      "front": "Compare bevacizumab, ranibizumab and brolucizumab as intravitreal anti-VEGF agents.",
+      "back": "Bevacizumab is the first available full antibody, used off-label and cheap. Ranibizumab is a smaller affinity-matured Fab derived from it, with similar visual outcomes at much higher cost. Brolucizumab is a single-chain fragment with longer duration but higher uveitis incidence. Bevacizumab and ranibizumab raise a cerebrovascular concern.",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-retina",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-060",
+      "type": "essay",
+      "front": "Essay: Pharmacotherapy of wet age-related macular degeneration and retinal vascular disease",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Wet AMD is a leading cause of blindness; VEGF165 promotes angiogenesis, permeability and inflammation"
+          ]
+        },
+        {
+          "h": "Anti-VEGF therapy",
+          "points": [
+            "Pegaptanib, aflibercept, bevacizumab, ranibizumab, brolucizumab given intravitreally",
+            "Bevacizumab also treats macular oedema from diabetic retinopathy and central retinal vein occlusion"
+          ]
+        },
+        {
+          "h": "Other options",
+          "points": [
+            "Verteporfin photodynamic therapy for classic CNV",
+            "Ocriplasmin for vitreomacular traction (lens subluxation risk)"
+          ]
+        },
+        {
+          "h": "Issues",
+          "points": [
+            "Cost versus similar outcomes, cerebrovascular risk, brolucizumab uveitis"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-retina",
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "level": 3
     },
     {
       "id": "p2-ocular-036",
@@ -840,7 +1466,8 @@
       "subtopic": "p2-ocular-toxicity",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-037",
@@ -866,7 +1493,8 @@
       "subtopic": "p2-ocular-toxicity",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-038",
@@ -881,7 +1509,24 @@
       "subtopic": "p2-ocular-toxicity",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-042",
+      "type": "basic",
+      "front": "How does chloroquine damage the retina?",
+      "back": "It accumulates in the retinal pigment epithelium, producing a bull's-eye maculopathy with decreased visual acuity. Chronic users need periodic eye exams.",
+      "refs": [
+        "GG14 PDF p1477"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-toxicity",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p2-ocular-039",
@@ -897,69 +1542,8 @@
       "tags": [
         "uses",
         "contraindications"
-      ]
-    },
-    {
-      "id": "p2-ocular-040",
-      "type": "basic",
-      "front": "What is cenegermin, and what is it used for in the eye?",
-      "back": "Recombinant human nerve growth factor given as an ophthalmic solution. It supports corneal innervation and integrity through TrkA and p75 receptors, and is indicated for neurotrophic keratitis, applied 6 times daily for 8 weeks.",
-      "refs": [
-        "Sarkar p561-565"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-anti-inflammatory",
-      "tags": [
-        "uses",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p2-ocular-041",
-      "type": "basic",
-      "front": "Besides neovascular AMD, which retinal conditions does bevacizumab treat?",
-      "back": "Macular oedema arising from diabetic retinopathy and from central retinal vein occlusion.",
-      "refs": [
-        "Sarkar p31-35"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-retina",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p2-ocular-042",
-      "type": "basic",
-      "front": "How does chloroquine damage the retina?",
-      "back": "It accumulates in the retinal pigment epithelium, producing a bull's-eye maculopathy with decreased visual acuity. Chronic users need periodic eye exams.",
-      "refs": [
-        "GG14 PDF p1477"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-toxicity",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p2-ocular-043",
-      "type": "basic",
-      "front": "Which miotic is linked to cataract, and what other ocular side effects do miotics cause?",
-      "back": "Echothiophate is linked to cataract, along with retinal detachment, iris cysts, pupillary block and punctal stenosis. Miotics in general cause miosis, induced myopia, decreased vision, brow ache and ciliary body spasm.",
-      "refs": [
-        "GG14 PDF p1481",
-        "GG14 PDF p1482"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-ocular-autonomic",
-      "tags": [
-        "adr"
-      ]
+      "level": 2
     },
     {
       "id": "p2-ocular-044",
@@ -1014,210 +1598,283 @@
           "year": 2009,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p2-ocular-045",
-      "type": "shortnote",
-      "front": "Short note: prostaglandin analogues in glaucoma",
+      "id": "p2-ocular-061",
+      "type": "essay",
+      "front": "Essay: Ocular adverse effects of systemic drugs",
       "sections": [
         {
-          "h": "Mechanism",
+          "h": "Introduction",
           "points": [
-            "Increase uveoscleral outflow of aqueous humour, lowering intraocular pressure",
-            "Latanoprost is an ester that is hydrolysed to an active acid in the cornea"
+            "Many systemic drugs reach the lens, cornea, retina or optic nerve"
           ]
         },
         {
-          "h": "Use",
+          "h": "Lens and pressure",
           "points": [
-            "Now preferred first line in open angle glaucoma, above topical beta blockers",
-            "Latanoprost 0.005% once daily in the evening; travoprost 0.004%; bimatoprost 0.03%"
+            "Corticosteroids and tamoxifen: cataract; steroids also raise IOP",
+            "Topiramate: choroidal effusion with angle-closure glaucoma"
           ]
         },
         {
-          "h": "Adverse effects",
+          "h": "Cornea and surface",
           "points": [
-            "Ocular smarting and reactive hyperaemia",
-            "Fixed combinations exist, for example latanoprost with timolol"
+            "Amiodarone: cornea verticillata",
+            "Chlorpromazine, thioridazine: brown deposits that persist",
+            "Isotretinoin: dry eye and meibomian gland dysfunction"
+          ]
+        },
+        {
+          "h": "Retina and nerve",
+          "points": [
+            "Chloroquine and hydroxychloroquine: bull's-eye maculopathy, around 6 years at normal doses, so periodic exams",
+            "Vigabatrin: concentric field loss",
+            "Sildenafil-type drugs: PDE6 inhibition, bluish vision",
+            "Ethambutol and methanol: optic nerve toxicity"
           ]
         }
       ],
-      "subtopic": "p2-ocular-glaucoma",
+      "refs": [
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-toxicity",
       "tags": [
-        "mechanism",
         "adr"
       ],
+      "level": 3
+    },
+    {
+      "id": "p2-ocular-062",
+      "type": "basic",
+      "front": "What is the Draize eye irritation test?",
+      "back": "A rabbit test in which a test substance is placed in the eye and cornea, conjunctiva and iris are scored for irritation. It is the eye test OECD accepts for regulatory classification of irritant chemicals.",
       "refs": [
-        "KDT8 ch10"
+        "Sarkar p256-260",
+        "Sarkar p286-290"
       ],
       "pyq": [
         {
-          "university": "KNRUHS",
+          "university": "UHSR",
           "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
           "marks": 10
         }
       ],
-      "status": "draft"
+      "status": "draft",
+      "subtopic": "p2-ocular-toxicity",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
     },
     {
-      "id": "p2-ocular-046",
+      "id": "p2-ocular-063",
+      "type": "basic",
+      "front": "Draize test: dose, restraint and observation period",
+      "back": "0.5 mL of test substance into the eye; animal restrained for 4 h; redness, swelling, discharge, ulceration, haemorrhage and blindness are monitored for 14 days.",
+      "refs": [
+        "Sarkar p256-260"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-ocular-toxicity",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-064",
+      "type": "basic",
+      "front": "Which in vitro methods replace the Draize eye test?",
+      "back": "Reconstructed human corneal epithelium models (e.g. EpiOcular), the HET-CAM (hen's egg chorioallantoic membrane) test and the 3T3 neutral red uptake assay.",
+      "refs": [
+        "Sarkar p286-290",
+        "Ghosh PDF p182"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-ocular-toxicity",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p2-ocular-065",
       "type": "shortnote",
-      "front": "Short note: alpha-2 agonists in glaucoma",
+      "front": "Short note: Assessment of ocular toxicity potential of a new chemical entity",
       "sections": [
         {
-          "h": "Drugs",
+          "h": "Why test",
           "points": [
-            "Apraclonidine 0.5%: polar clonidine congener that does not cross the blood-brain barrier",
-            "Brimonidine 0.15% and 0.2%: has protective effect on retinal neurones independent of IOP"
+            "New molecules must be screened for toxicity potential in animals before human use (Sarkar p251-255)",
+            "Ocular irritancy is a regulatory requirement for topical and ophthalmic products"
           ]
         },
         {
-          "h": "Limitations",
+          "h": "In vivo (Draize rabbit test)",
           "points": [
-            "Apraclonidine restricted to short-term control of IOP spikes",
-            "Allergic conjunctivitis and follicular reactions are common"
+            "0.5 mL instilled into the eye; restrained 4 h",
+            "Score redness, swelling, discharge, ulceration, haemorrhage, blindness",
+            "Observe for 14 days; sacrifice and examine pathology at the end"
+          ]
+        },
+        {
+          "h": "Functional check (rabbit eye)",
+          "points": [
+            "Compare conjunctiva, pupil size, corneal reflex and light reflex before and after dosing (Medhi PMECP p246)"
+          ]
+        },
+        {
+          "h": "In vitro alternatives",
+          "points": [
+            "Corneal epithelium models (EpiOcular), HET-CAM and 3T3 NRU assay (Sarkar p286-290; Ghosh PDF p182)"
+          ]
+        },
+        {
+          "h": "Clinical link",
+          "points": [
+            "Known ocular ADRs of drug classes guide the study: corneal deposits, retinal toxicity (chloroquine), cataract and glaucoma with steroids (see p2-ocular-037, p2-ocular-042, p2-ocular-044)"
           ]
         }
       ],
-      "subtopic": "p2-ocular-glaucoma",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
       "refs": [
-        "KDT8 ch10"
+        "Sarkar p251-255",
+        "Sarkar p256-260",
+        "Sarkar p286-290",
+        "Medhi PMECP PDF p246",
+        "Ghosh PDF p182",
+        "GG14 ch74"
       ],
       "pyq": [
         {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
+          "university": "UHSR",
           "year": 2025,
           "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2011,
-          "marks": 20
         }
       ],
-      "status": "draft"
+      "status": "draft",
+      "subtopic": "p2-ocular-toxicity",
+      "tags": [
+        "adr"
+      ],
+      "level": 3
     },
     {
-      "id": "p2-ocular-047",
+      "id": "p2-ocular-066",
+      "type": "basic",
+      "front": "What is the water drinking test in glaucoma?",
+      "back": "A provocative test: a water load lowers blood osmotic tension and raises intraocular pressure. A rise above 6 mm Hg suggests glaucoma.",
+      "refs": [
+        "Medhi PMECP PDF p334"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-067",
+      "type": "basic",
+      "front": "What is the venous congestion test in glaucoma?",
+      "back": "A provocative test in which venous congestion raises intraocular pressure. A rise above 10 mm Hg suggests glaucoma.",
+      "refs": [
+        "Medhi PMECP PDF p334"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-068",
+      "type": "basic",
+      "front": "Normal intraocular pressure and how it is measured",
+      "back": "Normal range is 16 to 23 mm Hg. It is measured by tonometry, such as applanation or digital tonometry.",
+      "refs": [
+        "Medhi PMECP PDF p332"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ocular-glaucoma",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ocular-069",
       "type": "shortnote",
-      "front": "Short note: acute angle closure glaucoma, emergency measures",
+      "front": "Short note: Experimental (provocative) methods to produce raised IOP in glaucoma",
       "sections": [
         {
           "h": "Principle",
           "points": [
-            "Raised IOP is above 21 mmHg; the attack needs urgent reduction of IOP",
-            "Miotic pilocarpine (1-4%) is used to open the angle, instilled frequently at first"
+            "Provoke a rise in IOP and watch how the eye copes under stress",
+            "Measure IOP with tonometry; normal 16 to 23 mm Hg"
           ]
         },
         {
-          "h": "Other measures",
+          "h": "Water drinking test",
           "points": [
-            "Hypertonic mannitol 20%, 1.5-2 g/kg, to lower IOP",
-            "Oral acetazolamide 0.25 g every 6-12 hours to reduce aqueous formation",
-            "Glycerine 50% may be given as a retention enema"
+            "Water load lowers blood osmotic tension, so IOP rises",
+            "Rise above 6 mm Hg indicates glaucoma"
+          ]
+        },
+        {
+          "h": "Venous congestion test",
+          "points": [
+            "Venous obstruction raises IOP",
+            "Rise above 10 mm Hg indicates glaucoma"
+          ]
+        },
+        {
+          "h": "Acute angle closure",
+          "points": [
+            "Provocative tests above are used for chronic simple (wide angle) glaucoma"
           ]
         }
       ],
-      "subtopic": "p2-ocular-glaucoma",
-      "tags": [
-        "uses",
-        "dosing"
-      ],
       "refs": [
-        "KDT8 ch10"
+        "Medhi PMECP PDF p332",
+        "Medhi PMECP PDF p334"
       ],
       "pyq": [
         {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
+          "university": "UHSR",
           "year": 2025,
           "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2011,
-          "marks": 20
         }
       ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-ocular-048",
-      "type": "shortnote",
-      "front": "Short note: recent advances in glaucoma management",
-      "sections": [
-        {
-          "h": "Changed first-line choice",
-          "points": [
-            "Prostaglandin analogues have displaced topical beta blockers as first line in open angle glaucoma",
-            "Topical beta blockers remain useful as add-on or in fixed combinations"
-          ]
-        },
-        {
-          "h": "Add-on drugs",
-          "points": [
-            "Dorzolamide 2% twice or thrice daily as add-on to a blocker or PG analogue",
-            "Alpha-2 agonists such as brimonidine as add-on"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "About 30% of open angle glaucoma patients fail to reach target IOP on one drug",
-            "Miotics are a last resort because they cause blurred vision and myopia"
-          ]
-        }
-      ],
+      "status": "draft",
       "subtopic": "p2-ocular-glaucoma",
       "tags": [
-        "newer-drugs",
         "uses"
       ],
-      "refs": [
-        "KDT8 ch10"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
+      "level": 3
     }
   ]
 }

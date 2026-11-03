@@ -263,3 +263,43 @@ rf-p1-pd-0171 | regrounded | KDT8 PDF p75; GG14 PDF p196 |
 rf-p1-pd-0172 | regrounded | KDT8 PDF p940; KDT8 PDF p941; KDT8 PDF p942; GG14 PDF p1358; GG12 PDF p1695 |
 rf-p1-pd-0173 | regrounded | KDT8 PDF p940 |
 rf-p1-pd-0217 | corrected | KDT8 PDF p604; GG14 PDF p70 | tachycardia dropped (not found); supersensitivity from GG14 general statement
+
+## Ladder pass gap rows (2026-11-03)
+rf-p1-pd-0245 | new | KDT8 PDF p97
+rf-p1-pd-0246 | new | KDT8 PDF p97
+rf-p1-pd-0247 | new | KDT8 PDF p97; GG14 PDF p212; KDT8 PDF p163
+rf-p1-pd-0248 | new | KDT8 PDF p97
+rf-p1-pd-0249 | new | KDT8 PDF p97
+rf-p1-pd-0250 | new | KDT8 PDF p97
+rf-p1-pd-0251 | new | GG14 PDF p69
+rf-p1-pd-0252 | new | KDT8 ch4
+rf-p1-pd-0253 | new | GG14 PDF p201
+rf-p1-pd-0254 | new | GG14 PDF p201
+rf-p1-pd-0255 | new | GG14 PDF p201
+rf-p1-pd-0256 | new | GG14 PDF p206; KDT8 PDF p129
+rf-p1-pd-0257 | new | KDT8 PDF p153; GG14 PDF p212
+rf-p1-pd-0258 | new | GG14 PDF p232
+rf-p1-pd-0259 | new | KDT8 PDF p209
+rf-p1-pd-0260 | new | KDT8 PDF p497
+rf-p1-pd-0261 | new | GG14 PDF p174
+rf-p1-pd-0262 | new | GG14 PDF p174
+rf-p1-pd-0263 | new | GG14 PDF p175
+rf-p1-pd-0264 | new | GG14 PDF p174
+
+## Checker
+- Verified rapid 0245-0264 against KDT8 p97/p209/p497 and GG14 p69/p174/p175/p201/p232: ok.
+- rf-p1-pd-0104 | corrected | question text contained "(Prep)" label; removed.
+- rf-p1-pd-0265 to 0267 | new | KDT8 PDF p76-77
+
+## Checker
+- Spot-checked rf-0245 to 0267 against KDT8 p97, p153, p209, p497 and GG14 p174, p175, p201, p232; all grounded.
+- Added rf-0268, rf-0269 (dependence definition; addiction without dependence; KDT8 p115, p116). No deletions.
+
+## Gap PYQ batch (2026-11-03)
+- rf-p1-pd-0270 to 0312 | new | KDT8 PDF p90-92, p295, p314, p492, p567, p700, p730; GG12 PDF p354, p1396; GG14 PDF p36, p88, p100, p106, p111, p319, p342, p534-535, p758; Katzung16 PDF p413, p630, p635; Medhi PMECP PDF p170, p356; RangDale9 PDF p595; Satoskar PDF p157
+
+## Checker (PYQ gap pass)
+- Checked rf-p1-pd-0270 to 0312 against owner books. Deleted rf-p1-pd-0283 (nabilone US withdrawal 2019: not in any owner book).
+- Corrected: rf-p1-pd-0272 answer now pioglitazone only (rosiglitazone withdrawn, KDT8 p314); rf-p1-pd-0291 rimonabant ref moved to GG14 p564; rf-p1-pd-0288 added GG14 p527.
+- Verified OK: 0274-0276, 0278-0282, 0284-0287, 0289-0290, 0292-0306, 0307-0312 (spot-checked against KDT8 p90-92, p314, p567, p700, p730; GG12 p354; GG14 p36, p100, p111, p316, p319, p342, p423, p532, p535; Katzung16 p630; RangDale9 p595; Satoskar p157; Medhi p170, p356).
+- Validator --check: ok. No Prep/RR5 refs.

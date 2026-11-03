@@ -16,7 +16,8 @@
       "subtopic": "p3-research-biostats-descriptive",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-002",
@@ -33,7 +34,8 @@
       "subtopic": "p3-research-biostats-descriptive",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-003",
@@ -48,7 +50,8 @@
       "subtopic": "p3-research-biostats-descriptive",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-004",
@@ -69,7 +72,8 @@
       "subtopic": "p3-research-biostats-descriptive",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-005",
@@ -85,7 +89,8 @@
       "subtopic": "p3-research-biostats-descriptive",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-006",
@@ -100,7 +105,8 @@
       "subtopic": "p3-research-biostats-descriptive",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-007",
@@ -110,12 +116,96 @@
       "refs": [
         "Sarkar p361-365"
       ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-038",
+      "type": "basic",
+      "front": "Which pairs of central value and spread does a results section use?",
+      "back": "Mean with standard deviation or standard error, or median with interquartile range.",
+      "refs": [
+        "Sarkar p511-515"
+      ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p3-research-biostats-descriptive",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-072",
+      "type": "shortnote",
+      "front": "Short note: Standard error and confidence limits",
+      "sections": [
+        {
+          "h": "Standard error",
+          "points": [
+            "Used to determine confidence limits, in Student's t test and in analysis of variance"
+          ]
+        },
+        {
+          "h": "Sample size",
+          "points": [
+            "Increasing the number of observations reduces the margin of error"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p215",
+        "Ghosh FEP PDF p222"
+      ],
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2026,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 3
     },
     {
       "id": "p3-research-biostats-008",
@@ -130,7 +220,8 @@
       "subtopic": "p3-research-biostats-epi-measures",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-009",
@@ -145,7 +236,8 @@
       "subtopic": "p3-research-biostats-epi-measures",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-010",
@@ -160,7 +252,8 @@
       "subtopic": "p3-research-biostats-epi-measures",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-011",
@@ -175,7 +268,8 @@
       "subtopic": "p3-research-biostats-epi-measures",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-012",
@@ -190,14 +284,31 @@
       "subtopic": "p3-research-biostats-epi-measures",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-013",
       "type": "basic",
       "front": "What is the number needed to treat (NNT), and why is it more informative than relative risk reduction?",
-      "back": "The number of patients who must be treated for one to show a defined effect, beneficial or harmful. It reflects baseline severity: a drug that halves mortality from 50% to 25% has an NNT of 4, while one that halves mortality from 5% to 2.5% has an NNT of 40, so 40 patients face adverse-effect risk for each life saved. NNTs for benefit and for minor or major harm can be set side by side to guide choice.",
+      "back": "The number of patients who must be treated for one more patient to benefit (or be harmed) in a defined way. It is the reciprocal of the absolute risk reduction, so it depends on baseline risk and is more informative than a relative risk alone.",
       "refs": [
+        "Bennett PDF p68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-075",
+      "type": "essay",
+      "front": "Essay: Choosing the measure of association and effect size for case-control, cohort and trial data",
+      "refs": [
+        "Sarkar p366-370",
         "RangDale9 ch8"
       ],
       "pyq": [],
@@ -205,6 +316,34 @@
       "subtopic": "p3-research-biostats-epi-measures",
       "tags": [
         "uses"
+      ],
+      "level": 3,
+      "sections": [
+        {
+          "h": "Case-control",
+          "points": [
+            "Odds ratio ad/bc; approximates RR only if outcome <10% in non-exposed, else overestimates"
+          ]
+        },
+        {
+          "h": "Cohort",
+          "points": [
+            "Incidence known in both groups, so relative risk directly"
+          ]
+        },
+        {
+          "h": "Trial / treatment decision",
+          "points": [
+            "NNT depends on baseline risk: 50% to 25% mortality gives 4; 5% to 2.5% gives 40",
+            "Show NNT for benefit and harm side by side"
+          ]
+        },
+        {
+          "h": "Caution",
+          "points": [
+            "Association is not causation"
+          ]
+        }
       ]
     },
     {
@@ -220,7 +359,8 @@
       "subtopic": "p3-research-biostats-inference",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-015",
@@ -235,7 +375,8 @@
       "subtopic": "p3-research-biostats-inference",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-016",
@@ -282,7 +423,8 @@
       "subtopic": "p3-research-biostats-inference",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-017",
@@ -305,7 +447,8 @@
       "subtopic": "p3-research-biostats-inference",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-018",
@@ -351,7 +494,112 @@
       "subtopic": "p3-research-biostats-inference",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-040",
+      "type": "basic",
+      "front": "How does sample size affect the standard error of the mean?",
+      "back": "The standard error of the mean is the standard deviation divided by the square root of n, so it falls as the sample grows. The variance of the sampling distribution of the mean is the population variance divided by n, so larger samples give means that cluster more tightly around the population mean.",
+      "refs": [
+        "Sarkar p361-365"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-042",
+      "type": "basic",
+      "front": "What power is usually accepted for a clinical trial, and why?",
+      "back": "Power of 0.8 to 0.9, an 80-90% chance of detecting a real effect, is often acceptable. Type II errors are regarded more leniently than type I errors, and a larger sample size gives greater power.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-043",
+      "type": "basic",
+      "front": "In the Rang and Dale example, how many subjects are needed to detect a fall in mortality from 50% to 40%?",
+      "back": "About 850 subjects, at p < 0.05 with a power of 0.9.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-045",
+      "type": "basic",
+      "front": "How does trial size change the smallest relative risk a trial can detect?",
+      "back": "For the same control event rate, a larger trial can detect a smaller relative risk. Rarer outcomes need a larger relative risk to be detected at the same trial size.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-071",
+      "type": "shortnote",
+      "front": "Short note: Null hypothesis",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "The hypothesis usually set up in practice: there is no difference between the groups compared"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Tests are built to see whether the data allow rejection of this null hypothesis"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p222"
+      ],
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        }
+      ],
+      "level": 3
     },
     {
       "id": "p3-research-biostats-019",
@@ -366,7 +614,8 @@
       "subtopic": "p3-research-biostats-tests",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-020",
@@ -381,7 +630,57 @@
       "subtopic": "p3-research-biostats-tests",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-022",
+      "type": "cloze",
+      "front": "Classify: types of ANOVA",
+      "text": "{{One-way}} ANOVA tests one factor with three or more levels; {{two-way}} ANOVA tests two factors and their interaction (equal numbers per cell needed); {{factorial}} ANOVA (e.g. 2x2 design) studies several factors and their interactions in one experiment; {{repeated measures}} ANOVA compares related means, e.g. the same patients at three time points, extending the paired t test.",
+      "refs": [
+        "Sarkar p376-380",
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-046",
+      "type": "cloze",
+      "front": "Classify: non-parametric counterparts of parametric tests",
+      "text": "Two independent groups: {{Mann-Whitney}} test (for the independent-measures t test); more than two independent groups: {{Kruskal-Wallis}} test (for one-way ANOVA); two repeated conditions: {{Wilcoxon}} test (for the matched-pair t test); more than two repeated conditions: {{Friedman's}} test (for repeated-measures ANOVA).",
+      "refs": [
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-047",
+      "type": "cloze",
+      "front": "Classify: correlation tests",
+      "text": "Correlation: parametric {{Pearson}} test; non-parametric {{Spearman}} test.",
+      "refs": [
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-021",
@@ -403,23 +702,8 @@
       "subtopic": "p3-research-biostats-tests",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-022",
-      "type": "cloze",
-      "front": "Classify: types of ANOVA",
-      "text": "{{One-way}} ANOVA tests one factor with three or more levels; {{two-way}} ANOVA tests two factors and their interaction (equal numbers per cell needed); {{factorial}} ANOVA (e.g. 2x2 design) studies several factors and their interactions in one experiment; {{repeated measures}} ANOVA compares related means, e.g. the same patients at three time points, extending the paired t test.",
-      "refs": [
-        "Sarkar p376-380",
-        "Sarkar p381-385"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-tests",
-      "tags": [
-        "classification"
-      ]
+      "level": 2
     },
     {
       "id": "p3-research-biostats-023",
@@ -500,7 +784,8 @@
       "subtopic": "p3-research-biostats-tests",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-024",
@@ -517,7 +802,110 @@
       "subtopic": "p3-research-biostats-tests",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-073",
+      "type": "shortnote",
+      "front": "Short note: Student's t-test",
+      "sections": [
+        {
+          "h": "Type",
+          "points": [
+            "Parametric test: applied when the data are assumed to be normally distributed"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Compares the means of two samples: the difference between means is divided by the standard error of that difference",
+            "Null hypothesis: no difference between the two means"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p98",
+        "Ghosh FEP PDF p225"
+      ],
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-074",
+      "type": "shortnote",
+      "front": "Short note: Non-parametric tests",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Distribution-free methods, used when normal distribution cannot be assumed",
+            "Increasingly popular for analysis of biological data"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p232"
+      ],
+      "subtopic": "p3-research-biostats-tests",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-025",
@@ -578,7 +966,8 @@
       "subtopic": "p3-research-biostats-tests",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-research-biostats-026",
@@ -600,7 +989,51 @@
       "subtopic": "p3-research-biostats-evidence",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-029",
+      "type": "basic",
+      "front": "What is evidence-based medicine (EBM), and how is the evidence obtained?",
+      "back": "Using the best available research evidence, after critical appraisal, together with the doctor's clinical skill and the patient's preferences to make care decisions. It aims to improve outcomes, reduce harm, improve cost-effectiveness and support shared decisions. Evidence is found by literature search (e.g. the TRIP database) and synthesised by systematic reviews and meta-analysis.",
+      "refs": [
+        "Katzung16 appendix 2"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-031",
+      "type": "cloze",
+      "front": "Classify: reporting guidelines by study type",
+      "text": "{{CONSORT}} for randomised trials (25-item checklist plus flow diagram); {{PRISMA}} for systematic reviews and meta-analyses (27 items); {{STROBE}} for observational cohort, case-control and cross-sectional studies (22 items); {{MOOSE}} for meta-analyses of observational studies; {{STARD}} for diagnostic accuracy studies; {{SPIRIT}} for trial protocols.",
+      "refs": [
+        "Sarkar p511-515"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-027",
@@ -616,7 +1049,8 @@
       "subtopic": "p3-research-biostats-evidence",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-028",
@@ -658,293 +1092,8 @@
       "subtopic": "p3-research-biostats-evidence",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-029",
-      "type": "basic",
-      "front": "What is evidence-based medicine (EBM), and how is the evidence obtained?",
-      "back": "Using the best available research evidence, after critical appraisal, together with the doctor's clinical skill and the patient's preferences to make care decisions. It aims to improve outcomes, reduce harm, improve cost-effectiveness and support shared decisions. Evidence is found by literature search (e.g. the TRIP database) and synthesised by systematic reviews and meta-analysis.",
-      "refs": [
-        "Katzung16 appendix 2"
       ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-evidence",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-030",
-      "type": "shortnote",
-      "front": "Short note: Critical appraisal of a journal article",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Systematic judgement of a paper's validity, completeness of reporting, methods, conclusions and ethics"
-          ]
-        },
-        {
-          "h": "Five steps",
-          "points": [
-            "Ask an answerable question (PICO)",
-            "Search for evidence",
-            "Appraise methods and design",
-            "Appraise results",
-            "Judge significance and impact"
-          ]
-        },
-        {
-          "h": "Methods checks",
-          "points": [
-            "Inclusion/exclusion and end points fixed in advance",
-            "Design, randomisation, blinding, bias",
-            "Sample size, significance level, test chosen for data distribution"
-          ]
-        },
-        {
-          "h": "Results and discussion",
-          "points": [
-            "All dropouts accounted for (CONSORT flowchart)",
-            "Effect with CI, not P alone",
-            "Limitations and external validity"
-          ]
-        },
-        {
-          "h": "Conflict of interest",
-          "points": [
-            "Funding source declared and managed"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p506-510",
-        "Sarkar p511-515"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-evidence",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-031",
-      "type": "cloze",
-      "front": "Classify: reporting guidelines by study type",
-      "text": "{{CONSORT}} for randomised trials (25-item checklist plus flow diagram); {{PRISMA}} for systematic reviews and meta-analyses (27 items); {{STROBE}} for observational cohort, case-control and cross-sectional studies (22 items); {{MOOSE}} for meta-analyses of observational studies; {{STARD}} for diagnostic accuracy studies; {{SPIRIT}} for trial protocols.",
-      "refs": [
-        "Sarkar p511-515"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-evidence",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-032",
-      "type": "shortnote",
-      "front": "Short note: Components of a research protocol",
-      "sections": [
-        {
-          "h": "Part A: science",
-          "points": [
-            "Summary (up to 300 words), general information",
-            "Rationale and background; goals and specific objectives",
-            "Design: type of study, population, inclusion/exclusion/withdrawal criteria",
-            "Methodology: interventions, randomisation, blinding, stopping rules, flowchart, evaluation tools"
-          ]
-        },
-        {
-          "h": "Part A: conduct",
-          "points": [
-            "Safety and adverse-event reporting; follow-up",
-            "Data management, sample size and statistics",
-            "Quality assurance (GCP, monitors, DSMB)",
-            "Expected outcomes; dissemination and publication policy",
-            "Timeline, anticipated problems, team roles",
-            "Ethics; informed consent forms in English and local language; references; appendices"
-          ]
-        },
-        {
-          "h": "Part B: administration",
-          "points": [
-            "Budget with justification; other funding",
-            "Collaborations; CVs; other projects of investigators",
-            "Financing, insurance, conflict of interest"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p201-205",
-        "Sarkar p206-210"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-033",
-      "type": "cloze",
-      "front": "Classify: methods of random allocation and sampling",
-      "text": "Methods include {{simple}} (lottery or random numbers), {{systematic}} (every kth unit), {{stratified}} (random within homogeneous strata), {{multistage}} (random at successive levels, e.g. district then village), {{cluster}} (natural groups such as villages), {{multiphase}} (sub-samples of a sample), {{block}} (equal numbers per block), unequal and {{minimisation}}.",
-      "refs": [
-        "Sarkar p196-200"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-034",
-      "type": "basic",
-      "front": "What does randomisation achieve, and what are the criteria of a good method?",
-      "back": "It removes selection bias (with allocation concealment), balances known and unknown covariates between arms, and provides the basis for statistical tests. A good method is unpredictable (each participant has the same chance of any arm), produces balanced groups, and is simple to use.",
-      "refs": [
-        "Sarkar p196-200"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "KNRUHS",
-          "year": 2026,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-035",
-      "type": "basic",
-      "front": "How do block randomisation and minimisation keep groups balanced?",
-      "back": "Block randomisation assigns equal numbers to each arm within small blocks (e.g. AABB, ABAB in blocks of 4), so groups stay equal in size even if the trial stops early; with fixed blocks, staff may predict the next allocation. Minimisation assigns each new patient to the arm that best reduces imbalance in key factors (e.g. sex, age, disease stage) and suits very small trials (about 50 patients).",
-      "refs": [
-        "Sarkar p196-200",
-        "Sarkar p201-205"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-036",
-      "type": "basic",
-      "front": "How is cluster sampling used to estimate immunisation coverage?",
-      "back": "Natural groups such as villages are listed with their populations; 30 clusters are chosen systematically by a sampling interval and random start. In each, houses are surveyed from a random first house until 7 eligible children are found, giving 210 children. Cluster sampling is cheaper and quicker but has higher sampling error and may miss diversity.",
-      "refs": [
-        "Sarkar p196-200"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-037",
-      "type": "shortnote",
-      "front": "Short note: Types of control groups in clinical trials",
-      "sections": [
-        {
-          "h": "Placebo",
-          "points": [
-            "Identical dummy; measures absolute efficacy; ethically limited when effective treatment prevents serious harm"
-          ]
-        },
-        {
-          "h": "No-treatment concurrent",
-          "points": [
-            "Used when blinding is not feasible; cannot be blinded"
-          ]
-        },
-        {
-          "h": "Dose-response",
-          "points": [
-            "Randomised to fixed doses, may include placebo; blinding easier to keep"
-          ]
-        },
-        {
-          "h": "Active (positive)",
-          "points": [
-            "Standard treatment; fewer ethical problems; needs sound reason to expect the new drug is at least as good"
-          ]
-        },
-        {
-          "h": "External/historical",
-          "points": [
-            "Patients outside the trial; all get the new drug; prone to bias, no randomisation or blinding"
-          ]
-        },
-        {
-          "h": "Multiple",
-          "points": [
-            "e.g. active plus placebo; helps when the active control's efficacy is uncertain"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p181-185"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-038",
-      "type": "basic",
-      "front": "Which pairs of central value and spread does a results section use?",
-      "back": "Mean with standard deviation or standard error, or median with interquartile range.",
-      "refs": [
-        "Sarkar p511-515"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-descriptive",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-research-biostats-039",
@@ -959,68 +1108,8 @@
       "subtopic": "p3-research-biostats-evidence",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-040",
-      "type": "basic",
-      "front": "How does sample size affect the standard error of the mean?",
-      "back": "The standard error of the mean is the standard deviation divided by the square root of n, so it falls as the sample grows. The variance of the sampling distribution of the mean is the population variance divided by n, so larger samples give means that cluster more tightly around the population mean.",
-      "refs": [
-        "Sarkar p361-365"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-inference",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-041",
-      "type": "basic",
-      "front": "Where must a trial report state its sample size calculation, and what can an inadequate calculation cause?",
-      "back": "It must be clearly defined in the methods section, and protocol review checks the statistical methodology including the sample size calculation. An inadequate calculation can lead to false-negative results.",
-      "refs": [
-        "Sarkar p511-515",
-        "Sarkar p226-230"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-042",
-      "type": "basic",
-      "front": "What power is usually accepted for a clinical trial, and why?",
-      "back": "Power of 0.8 to 0.9, an 80-90% chance of detecting a real effect, is often acceptable. Type II errors are regarded more leniently than type I errors, and a larger sample size gives greater power.",
-      "refs": [
-        "RangDale9 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-inference",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-043",
-      "type": "basic",
-      "front": "In the Rang and Dale example, how many subjects are needed to detect a fall in mortality from 50% to 40%?",
-      "back": "About 850 subjects, at p < 0.05 with a power of 0.9.",
-      "refs": [
-        "RangDale9 ch8"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-inference",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-research-biostats-044",
@@ -1035,409 +1124,8 @@
       "subtopic": "p3-research-biostats-evidence",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-045",
-      "type": "basic",
-      "front": "How does trial size change the smallest relative risk a trial can detect?",
-      "back": "For the same control event rate, a larger trial can detect a smaller relative risk. Rarer outcomes need a larger relative risk to be detected at the same trial size.",
-      "refs": [
-        "GG14 ch8"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-inference",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-046",
-      "type": "cloze",
-      "front": "Classify: non-parametric counterparts of parametric tests",
-      "text": "Two independent groups: {{Mann-Whitney}} test (for the independent-measures t test); more than two independent groups: {{Kruskal-Wallis}} test (for one-way ANOVA); two repeated conditions: {{Wilcoxon}} test (for the matched-pair t test); more than two repeated conditions: {{Friedman's}} test (for repeated-measures ANOVA).",
-      "refs": [
-        "Sarkar p381-385"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-tests",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-047",
-      "type": "cloze",
-      "front": "Classify: correlation tests",
-      "text": "Correlation: parametric {{Pearson}} test; non-parametric {{Spearman}} test.",
-      "refs": [
-        "Sarkar p381-385"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-tests",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-048",
-      "type": "basic",
-      "front": "Define sensitivity and give its formula (A = true positives, B = false positives, C = false negatives, D = true negatives).",
-      "back": "Proportion of people with the condition who test positive: A ÷ (A + C).",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-049",
-      "type": "basic",
-      "front": "Define specificity and give its formula.",
-      "back": "Proportion of people without the condition who test negative: D ÷ (D + B).",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-050",
-      "type": "basic",
-      "front": "Define positive predictive value and give its formula.",
-      "back": "Of all positive test results, the proportion that are true positives: A ÷ (A + B).",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-051",
-      "type": "basic",
-      "front": "Define negative predictive value and give its formula.",
-      "back": "Of all negative test results, the proportion that are true negatives: D ÷ (D + C).",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-052",
-      "type": "basic",
-      "front": "Give the formulas for the positive and negative likelihood ratios.",
-      "back": "LR+ = sensitivity ÷ (1 − specificity); LR− = (1 − sensitivity) ÷ specificity.",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-053",
-      "type": "cloze",
-      "front": "Complete: predictive values are {{affected}} by disease prevalence, whereas likelihood ratios are {{not affected}} by it.",
-      "text": "Complete: predictive values are {{affected}} by disease prevalence, whereas likelihood ratios are {{not affected}} by it.",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-054",
-      "type": "basic",
-      "front": "Worked example: 1,000 people tested, 384 with the disease; TP 369, FP 58, FN 15, TN 558. Find sensitivity, specificity, PPV, NPV, LR+ and LR−.",
-      "back": "Sensitivity 96.1%; specificity 90.6%; PPV 86.4%; NPV 97.4%; LR+ 10.22; LR− 0.043.",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-055",
-      "type": "basic",
-      "front": "What range does Pearson's correlation coefficient r take, and what do its extremes and zero mean?",
-      "back": "Between −1 and +1. Values nearer −1 or +1 indicate a stronger linear relationship (negative or positive); 0 indicates no linear relationship.",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-tests",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-056",
-      "type": "cloze",
-      "front": "Complete: Pearson's r lies between {{-1}} and {{+1}}, and a value of {{0}} indicates no linear relationship.",
-      "text": "Complete: Pearson's r lies between {{-1}} and {{+1}}, and a value of {{0}} indicates no linear relationship.",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-tests",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-057",
-      "type": "basic",
-      "front": "What type of variables does simple linear regression involve?",
-      "back": "One continuous dependent variable and one continuous independent variable.",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-tests",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-058",
-      "type": "basic",
-      "front": "What inputs set the sample size of a study?",
-      "back": "Research question, study design, expected effect size, significance level, statistical power, unit of analysis and analytical approach.",
-      "refs": [
-        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-059",
-      "type": "basic",
-      "front": "Is there one universal sample-size formula?",
-      "back": "No. Requirements depend on the design and inputs, so formulas are design-specific.",
-      "refs": [
-        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-060",
-      "type": "basic",
-      "front": "Per-group sample size for d = 0.5, alpha 0.05, power 0.80 in the guide's worked example?",
-      "back": "63 per group.",
-      "refs": [
-        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-061",
-      "type": "basic",
-      "front": "Per-group sample size for proportions 0.50 vs 0.65, alpha 0.05, power 0.80 in the guide's worked example?",
-      "back": "167 per group.",
-      "refs": [
-        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-062",
-      "type": "basic",
-      "front": "Why is a post hoc power calculation uninformative?",
-      "back": "It is done after data collection and adds nothing beyond the p-value.",
-      "refs": [
-        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-063",
-      "type": "shortnote",
-      "front": "Short note: sample size",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "A key design decision that determines whether real effects can be detected",
-            "Per-group closed-form formulas use Z values for significance level and power"
-          ]
-        },
-        {
-          "h": "Consequences",
-          "points": [
-            "Underpowered studies miss real effects",
-            "Overpowered studies waste participants and resources"
-          ]
-        },
-        {
-          "h": "Reporting",
-          "points": [
-            "State effect size and assumptions, not a single bare number"
-          ]
-        }
-      ],
-      "refs": [
-        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-064",
-      "type": "shortnote",
-      "front": "Short note: Sample-size formulas for comparing two groups",
-      "sections": [
-        {
-          "h": "Two means (per group)",
-          "points": [
-            "n = 2 (Zα/2 + Zβ)² σ² / d²",
-            "σ = standard deviation of the outcome; d = smallest clinically important difference in means"
-          ]
-        },
-        {
-          "h": "Two proportions (per group)",
-          "points": [
-            "n = (Zα/2 + Zβ)² [p1(1 − p1) + p2(1 − p2)] / (p1 − p2)²",
-            "p1, p2 = expected proportions in the two groups"
-          ]
-        },
-        {
-          "h": "Symbols",
-          "points": [
-            "Zα/2: standard normal value for the significance level (1.96 for two-sided α = 0.05)",
-            "Zβ: value for power (0.84 for 80%, 1.28 for 90%)",
-            "Effect size: difference to detect; standardised effect = d / σ"
-          ]
-        },
-        {
-          "h": "Adjustments",
-          "points": [
-            "Inflate for expected dropouts: n / (1 − dropout rate)",
-            "Formulas differ by design; use the one matching the study"
-          ]
-        }
-      ],
-      "refs": [
-        "UNSOURCED - owner must verify"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-065",
-      "type": "basic",
-      "front": "How does each input change the required sample size?",
-      "back": "Larger SD raises n (n rises with σ²). Smaller difference to detect raises n (n rises with 1/d², so halving d quadruples n). Stricter significance level (smaller α) raises n. Higher power raises n. A one-sided test needs fewer subjects than a two-sided test. Expected dropouts require a larger starting sample.",
-      "refs": [
-        "UNSOURCED - owner must verify"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-066",
-      "type": "cloze",
-      "front": "Complete: Z values in sample-size formulas",
-      "text": "For a two-sided α of 0.05, Zα/2 = {{1.96}}; for α of 0.01, Zα/2 = {{2.58}}. For 80% power, Zβ = {{0.84}}; for 90% power, Zβ = {{1.28}}.",
-      "refs": [
-        "UNSOURCED - owner must verify"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-067",
-      "type": "basic",
-      "front": "Give the sample-size formula for estimating a single proportion (prevalence).",
-      "back": "n = Z² p (1 − p) / L², where Z = 1.96 for 95% confidence, p = expected prevalence and L = allowable absolute error (precision).",
-      "refs": [
-        "UNSOURCED - owner must verify"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-protocol",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-research-biostats-068",
@@ -1488,7 +1176,8 @@
         "uses"
       ],
       "status": "draft",
-      "subtopic": "p3-research-biostats-evidence"
+      "subtopic": "p3-research-biostats-evidence",
+      "level": 2
     },
     {
       "id": "p3-research-biostats-069",
@@ -1544,7 +1233,64 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-030",
+      "type": "shortnote",
+      "front": "Short note: Critical appraisal of a journal article",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Systematic judgement of a paper's validity, completeness of reporting, methods, conclusions and ethics"
+          ]
+        },
+        {
+          "h": "Five steps",
+          "points": [
+            "Ask an answerable question (PICO)",
+            "Search for evidence",
+            "Appraise methods and design",
+            "Appraise results",
+            "Judge significance and impact"
+          ]
+        },
+        {
+          "h": "Methods checks",
+          "points": [
+            "Inclusion/exclusion and end points fixed in advance",
+            "Design, randomisation, blinding, bias",
+            "Sample size, significance level, test chosen for data distribution"
+          ]
+        },
+        {
+          "h": "Results and discussion",
+          "points": [
+            "All dropouts accounted for (CONSORT flowchart)",
+            "Effect with CI, not P alone",
+            "Limitations and external validity"
+          ]
+        },
+        {
+          "h": "Conflict of interest",
+          "points": [
+            "Funding source declared and managed"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p506-510",
+        "Sarkar p511-515"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
     },
     {
       "id": "p3-research-biostats-070",
@@ -1593,206 +1339,1808 @@
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-research-biostats-071",
+      "id": "p3-research-biostats-032",
       "type": "shortnote",
-      "front": "Short note: Null hypothesis",
+      "front": "Short note: Components of a research protocol",
       "sections": [
         {
-          "h": "What",
+          "h": "Part A: science",
           "points": [
-            "The hypothesis usually set up in practice: there is no difference between the groups compared"
+            "Summary (up to 300 words), general information",
+            "Rationale and background; goals and specific objectives",
+            "Design: type of study, population, inclusion/exclusion/withdrawal criteria",
+            "Methodology: interventions, randomisation, blinding, stopping rules, flowchart, evaluation tools"
           ]
         },
         {
-          "h": "Use",
+          "h": "Part A: conduct",
           "points": [
-            "Tests are built to see whether the data allow rejection of this null hypothesis"
+            "Safety and adverse-event reporting; follow-up",
+            "Data management, sample size and statistics",
+            "Quality assurance (GCP, monitors, DSMB)",
+            "Expected outcomes; dissemination and publication policy",
+            "Timeline, anticipated problems, team roles",
+            "Ethics; informed consent forms in English and local language; references; appendices"
+          ]
+        },
+        {
+          "h": "Part B: administration",
+          "points": [
+            "Budget with justification; other funding",
+            "Collaborations; CVs; other projects of investigators",
+            "Financing, insurance, conflict of interest"
           ]
         }
       ],
       "refs": [
-        "Ghosh FEP PDF p222"
+        "Sarkar p201-205",
+        "Sarkar p206-210"
       ],
-      "subtopic": "p3-research-biostats-inference",
-      "tags": [
-        "classification"
-      ],
+      "pyq": [],
       "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2016,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2009,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-research-biostats-072",
-      "type": "shortnote",
-      "front": "Short note: Standard error and confidence limits",
-      "sections": [
-        {
-          "h": "Standard error",
-          "points": [
-            "Used to determine confidence limits, in Student's t test and in analysis of variance"
-          ]
-        },
-        {
-          "h": "Sample size",
-          "points": [
-            "Increasing the number of observations reduces the margin of error"
-          ]
-        }
-      ],
-      "refs": [
-        "Ghosh FEP PDF p215",
-        "Ghosh FEP PDF p222"
-      ],
-      "subtopic": "p3-research-biostats-descriptive",
+      "subtopic": "p3-research-biostats-protocol",
       "tags": [
         "uses"
       ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-033",
+      "type": "cloze",
+      "front": "Classify: methods of random allocation and sampling",
+      "text": "Methods include {{simple}} (lottery or random numbers), {{systematic}} (every kth unit), {{stratified}} (random within homogeneous strata), {{multistage}} (random at successive levels, e.g. district then village), {{cluster}} (natural groups such as villages), {{multiphase}} (sub-samples of a sample), {{block}} (equal numbers per block), unequal and {{minimisation}}.",
+      "refs": [
+        "Sarkar p196-200"
+      ],
+      "pyq": [],
       "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-034",
+      "type": "basic",
+      "front": "What does randomisation achieve, and what are the criteria of a good method?",
+      "back": "It removes selection bias (with allocation concealment), balances known and unknown covariates between arms, and provides the basis for statistical tests. A good method is unpredictable (each participant has the same chance of any arm), produces balanced groups, and is simple to use.",
+      "refs": [
+        "Sarkar p196-200"
+      ],
       "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
         {
           "university": "KNRUHS",
           "year": 2026,
           "marks": 10
         },
         {
-          "university": "RGUHS",
-          "year": 2011,
+          "university": "UHSR",
+          "year": 2025,
           "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2017,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2016,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        },
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-058",
+      "type": "basic",
+      "front": "What inputs set the sample size of a study?",
+      "back": "Research question, study design, expected effect size, significance level, statistical power, unit of analysis and analytical approach.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [
         {
           "university": "UHSR",
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
-      "id": "p3-research-biostats-073",
+      "id": "p3-research-biostats-059",
+      "type": "basic",
+      "front": "Is there one universal sample-size formula?",
+      "back": "No. Requirements depend on the design and inputs, so formulas are design-specific.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-066",
+      "type": "cloze",
+      "front": "Complete: Z values in sample-size formulas",
+      "text": "For a two-sided α of 0.05, Zα/2 = {{1.96}}; for α of 0.01, Zα/2 = {{2.58}}. For 80% power, Zβ = {{0.84}}; for 90% power, Zβ = {{1.28}}.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-035",
+      "type": "basic",
+      "front": "How do block randomisation and minimisation keep groups balanced?",
+      "back": "Block randomisation assigns equal numbers to each arm within small blocks (e.g. AABB, ABAB in blocks of 4), so groups stay equal in size even if the trial stops early; with fixed blocks, staff may predict the next allocation. Minimisation assigns each new patient to the arm that best reduces imbalance in key factors (e.g. sex, age, disease stage) and suits very small trials (about 50 patients).",
+      "refs": [
+        "Sarkar p196-200",
+        "Sarkar p201-205"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-036",
+      "type": "basic",
+      "front": "How is cluster sampling used to estimate immunisation coverage?",
+      "back": "Natural groups such as villages are listed with their populations; 30 clusters are chosen systematically by a sampling interval and random start. In each, houses are surveyed from a random first house until 7 eligible children are found, giving 210 children. Cluster sampling is cheaper and quicker but has higher sampling error and may miss diversity.",
+      "refs": [
+        "Sarkar p196-200"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-037",
       "type": "shortnote",
-      "front": "Short note: Student's t-test",
+      "front": "Short note: Types of control groups in clinical trials",
       "sections": [
         {
-          "h": "Type",
+          "h": "Placebo",
           "points": [
-            "Parametric test: applied when the data are assumed to be normally distributed"
+            "Identical dummy; measures absolute efficacy; ethically limited when effective treatment prevents serious harm"
+          ]
+        },
+        {
+          "h": "No-treatment concurrent",
+          "points": [
+            "Used when blinding is not feasible; cannot be blinded"
+          ]
+        },
+        {
+          "h": "Dose-response",
+          "points": [
+            "Randomised to fixed doses, may include placebo; blinding easier to keep"
+          ]
+        },
+        {
+          "h": "Active (positive)",
+          "points": [
+            "Standard treatment; fewer ethical problems; needs sound reason to expect the new drug is at least as good"
+          ]
+        },
+        {
+          "h": "External/historical",
+          "points": [
+            "Patients outside the trial; all get the new drug; prone to bias, no randomisation or blinding"
+          ]
+        },
+        {
+          "h": "Multiple",
+          "points": [
+            "e.g. active plus placebo; helps when the active control's efficacy is uncertain"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p181-185"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-041",
+      "type": "basic",
+      "front": "Where must a trial report state its sample size calculation, and what can an inadequate calculation cause?",
+      "back": "It must be clearly defined in the methods section, and protocol review checks the statistical methodology including the sample size calculation. An inadequate calculation can lead to false-negative results.",
+      "refs": [
+        "Sarkar p511-515",
+        "Sarkar p226-230"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-060",
+      "type": "basic",
+      "front": "Per-group sample size for d = 0.5, alpha 0.05, power 0.80 in the guide's worked example?",
+      "back": "63 per group.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-061",
+      "type": "basic",
+      "front": "Per-group sample size for proportions 0.50 vs 0.65, alpha 0.05, power 0.80 in the guide's worked example?",
+      "back": "167 per group.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-063",
+      "type": "shortnote",
+      "front": "Short note: sample size",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "A key design decision that determines whether real effects can be detected",
+            "Per-group closed-form formulas use Z values for significance level and power"
+          ]
+        },
+        {
+          "h": "Consequences",
+          "points": [
+            "Underpowered studies miss real effects",
+            "Overpowered studies waste participants and resources"
+          ]
+        },
+        {
+          "h": "Reporting",
+          "points": [
+            "State effect size and assumptions, not a single bare number"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-064",
+      "type": "shortnote",
+      "front": "Short note: Sample-size formulas for comparing two groups",
+      "sections": [
+        {
+          "h": "Two means (per group)",
+          "points": [
+            "n = 2 (Zα/2 + Zβ)² σ² / d²",
+            "σ = standard deviation of the outcome; d = smallest clinically important difference in means"
+          ]
+        },
+        {
+          "h": "Two proportions (per group)",
+          "points": [
+            "n = (Zα/2 + Zβ)² [p1(1 − p1) + p2(1 − p2)] / (p1 − p2)²",
+            "p1, p2 = expected proportions in the two groups"
+          ]
+        },
+        {
+          "h": "Symbols",
+          "points": [
+            "Zα/2: standard normal value for the significance level (1.96 for two-sided α = 0.05)",
+            "Zβ: value for power (0.84 for 80%, 1.28 for 90%)",
+            "Effect size: difference to detect; standardised effect = d / σ"
+          ]
+        },
+        {
+          "h": "Adjustments",
+          "points": [
+            "Inflate for expected dropouts: n / (1 − dropout rate)",
+            "Formulas differ by design; use the one matching the study"
+          ]
+        }
+      ],
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-065",
+      "type": "basic",
+      "front": "How does each input change the required sample size?",
+      "back": "Larger SD raises n (n rises with σ²). Smaller difference to detect raises n (n rises with 1/d², so halving d quadruples n). Stricter significance level (smaller α) raises n. Higher power raises n. A one-sided test needs fewer subjects than a two-sided test. Expected dropouts require a larger starting sample.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-067",
+      "type": "basic",
+      "front": "Give the sample-size formula for estimating a single proportion (prevalence).",
+      "back": "n = Z² p (1 − p) / L², where Z = 1.96 for 95% confidence, p = expected prevalence and L = allowable absolute error (precision).",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-062",
+      "type": "basic",
+      "front": "Why is a post hoc power calculation uninformative?",
+      "back": "It is done after data collection and adds nothing beyond the p-value.",
+      "refs": [
+        "WEB EuropePMC Sample size determination across study designs in health professions education research: a methodology guide F1000Res 2026 https://europepmc.org/article/PMC/PMC13562950"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-077",
+      "type": "basic",
+      "front": "Define the coefficient of variation and say when it is used.",
+      "back": "Relative spread: the standard deviation divided by the mean, as a percentage (CV = SD / mean x 100). It lets you compare variability between data sets with different units or scales.",
+      "refs": [
+        "Ghosh FEP PDF p218",
+        "Sarkar p361-365"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-078",
+      "type": "basic",
+      "front": "How is the coefficient of variation used in planning a study?",
+      "back": "Preliminary results give the mean and SD, so the CV can estimate sample size with n = t^2 x CV^2 (t for the chosen probability, CV as a fraction). It also compares the variability of two measurement methods.",
+      "refs": [
+        "Ghosh FEP PDF p218"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-079",
+      "type": "basic",
+      "front": "What is a Type I error?",
+      "back": "Rejecting a true null hypothesis (a false positive). Its probability is the significance level alpha, usually 0.05; p < 0.05 means a false positive is less than 1 in 20.",
+      "refs": [
+        "Sarkar p371-375",
+        "RangDale9 PDF p119"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-080",
+      "type": "basic",
+      "front": "What is a Type II error, and what is the power of a trial?",
+      "back": "Type II error: failing to reject a false null hypothesis (a false negative), with probability beta. Power = 1 - beta, the chance of detecting a real difference; trials are often designed for power of 0.8 to 0.9.",
+      "refs": [
+        "Sarkar p371-375",
+        "RangDale9 PDF p119"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-081",
+      "type": "essay",
+      "front": "Essay: Statistical errors in a drug screening programme",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Every screening decision is a hypothesis test: the null hypothesis says the compound has no effect",
+            "No test is 100% certain, and hypothesis testing can only reject or retain the null, never prove it"
+          ]
+        },
+        {
+          "h": "Type I error (false positive)",
+          "points": [
+            "An inactive compound is declared active",
+            "Fixed in advance by the significance level alpha; relaxing it from 0.05 to 0.10 raises the risk",
+            "Consequence: resources are spent on a lead that does not work"
+          ]
+        },
+        {
+          "h": "Type II error (false negative)",
+          "points": [
+            "An active compound is missed (beta)",
+            "Power = 1 - beta; a power of 0.8 to 0.9 is usually accepted",
+            "Type II errors are regarded more leniently than Type I errors, but a missed useful drug is still a loss"
+          ]
+        },
+        {
+          "h": "Factors that raise error rates",
+          "points": [
+            "Small sample size lowers power",
+            "High variability, judged by the coefficient of variation",
+            "Multiplicity: many endpoints or compounds tested, which the book says is inadequately addressed in preclinical studies"
+          ]
+        },
+        {
+          "h": "Control",
+          "points": [
+            "Set alpha, power and sample size before testing",
+            "Plan the analysis and handling of outliers prospectively",
+            "Confirm a positive screen in a further, separately designed study"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "A screen flags candidates; it does not prove activity",
+            "Statistical errors are reduced by design, not removed"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p371-375",
+        "Sarkar p21-25",
+        "RangDale9 PDF p119",
+        "Ghosh FEP PDF p218"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-inference",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-082",
+      "type": "essay",
+      "front": "Essay: Types of data and tools to collect data",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Data are a collection of qualitative or quantitative values",
+            "The type of data decides the summary measures and the tests that can be used"
+          ]
+        },
+        {
+          "h": "Measurement scales",
+          "points": [
+            "Nominal: labels only, no order",
+            "Ordinal: ranked, but gaps between ranks unknown",
+            "Interval: equal gaps, no true zero",
+            "Ratio: equal gaps and a true zero, so ratios are meaningful"
+          ]
+        },
+        {
+          "h": "Other classifications",
+          "points": [
+            "Continuous (any value in a range) or discrete (fixed values)",
+            "Qualitative (attributes, mainly exploratory) or quantitative (numerical, can be computed)",
+            "Interval and ratio data are parametric; nominal and ordinal data are non-parametric"
+          ]
+        },
+        {
+          "h": "Tools to collect data",
+          "points": [
+            "Questionnaires, including patient-completed quality-of-life instruments (disease-specific or generic), e.g. EQ-5D",
+            "Observation recording forms and case report forms",
+            "Biological samples such as blood or sputum in biomedical studies"
+          ]
+        },
+        {
+          "h": "Use in a study",
+          "points": [
+            "Name every instrument in the protocol",
+            "Match the tool to the variable and its scale"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Correct classification of data drives correct analysis"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p356-360",
+        "Sarkar p361-365",
+        "Sarkar p81-85",
+        "Sarkar p206-210",
+        "Bennett PDF p76"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-083",
+      "type": "basic",
+      "front": "Name three instruments used to collect study information, and where they are declared.",
+      "back": "Questionnaires, observation recording forms and case report forms. The protocol must give these instruments, along with any biomedical samples collected.",
+      "refs": [
+        "Sarkar p206-210",
+        "Sarkar p81-85"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-084",
+      "type": "basic",
+      "front": "Define a biomarker in clinical research.",
+      "back": "A characteristic that is measured objectively and used as an indicator of normal biological processes, disease processes, or the response to a therapeutic intervention.",
+      "refs": [
+        "Bioequivalence & Statistics PDF p287"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-087",
+      "type": "essay",
+      "front": "Essay: Biomarkers used in clinical research",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Objectively measured indicator of normal or pathological processes, or of drug response",
+            "A surrogate is a biomarker that predicts clinical benefit or harm"
+          ]
+        },
+        {
+          "h": "Characteristics of an ideal biomarker",
+          "points": [
+            "Specific: changes only in the affected individuals",
+            "Sensitive: changes in all affected individuals",
+            "Must predict clinical outcome before it is used as a surrogate"
+          ]
+        },
+        {
+          "h": "Types",
+          "points": [
+            "Pharmacodynamic markers in early-phase trials, characterised against dose and pharmacokinetics",
+            "Surrogate markers, e.g. blood pressure for clinical benefit",
+            "Toxicity markers, e.g. serum liver enzymes in preclinical toxicology",
+            "Genetic markers classed under pharmacogenetics and pharmacogenomics",
+            "Metabolomic and proteomic markers"
+          ]
+        },
+        {
+          "h": "Applications",
+          "points": [
+            "Monitoring disease status and drug efficacy",
+            "Anticipating therapeutic or adverse response from a drug",
+            "Early dose selection and risk assessment"
+          ]
+        },
+        {
+          "h": "Limitation",
+          "points": [
+            "A biomarker may look useful yet fail as a surrogate, as HDL cholesterol showed"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Biomarkers speed development only when clinically validated"
+          ]
+        }
+      ],
+      "refs": [
+        "Bioequivalence & Statistics PDF p36",
+        "GG14 PDF p1527",
+        "GG14 PDF p70",
+        "Medhi PMECP p119",
+        "Sarkar p146-150"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-088",
+      "type": "shortnote",
+      "front": "Short note: Experimental determination of types of drug antagonism",
+      "sections": [
+        {
+          "h": "Types",
+          "points": [
+            "Competitive: antagonist and agonist share one site; reversible (surmountable) shifts the curve in parallel with the same maximum",
+            "Irreversible competitive: covalent binding lowers the maximum",
+            "Non-competitive: antagonist acts at another site, so more agonist cannot overcome it"
+          ]
+        },
+        {
+          "h": "Cumulative dose-response method",
+          "points": [
+            "Record agonist curves with and without antagonist on the same isolated tissue",
+            "Example: acetylcholine on mouse ileum with atropine"
+          ]
+        },
+        {
+          "h": "Dose ratio",
+          "points": [
+            "Dose ratio = EC50 with antagonist / EC50 without antagonist"
+          ]
+        },
+        {
+          "h": "Schild plot",
+          "points": [
+            "Plot log(DR - 1) against negative log molar antagonist concentration",
+            "Slope near 1 suggests competitive antagonism; pA2 is the x-intercept"
+          ]
+        },
+        {
+          "h": "Test of nature of antagonism",
+          "points": [
+            "Competitive if pA2 minus pA10 is about 0.95 (0.8 to 1.2)",
+            "Double reciprocal (Lineweaver-Burk) lines that meet at one common point on the infinite-dose line indicate competition"
+          ]
+        },
+        {
+          "h": "Curative method",
+          "points": [
+            "Measure percentage reduction of an established contracture and estimate IC50"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p104",
+        "Ghosh FEP PDF p106",
+        "Ghosh FEP PDF p107",
+        "Ghosh FEP PDF p109",
+        "Ghosh FEP PDF p110"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-089",
+      "type": "shortnote",
+      "front": "Short note: Gaussian (normal) curve",
+      "sections": [
+        {
+          "h": "Shape",
+          "points": [
+            "Symmetric, bell-shaped and unimodal",
+            "Mean, median and mode coincide"
+          ]
+        },
+        {
+          "h": "Description",
+          "points": [
+            "Fully described by the mean and the SD",
+            "About 95% of values lie within mean +/- 2 SD"
+          ]
+        },
+        {
+          "h": "Sampling",
+          "points": [
+            "Means of samples from a normal population are normally distributed",
+            "Sample means tend towards normal even if the parent population is not normal"
+          ]
+        },
+        {
+          "h": "Small samples",
+          "points": [
+            "Below about 30 observations, the t distribution applies; it has heavier tails and depends on degrees of freedom"
+          ]
+        },
+        {
+          "h": "Interpretation",
+          "points": [
+            "Values far beyond mean +/- 2 SD are relatively rare",
+            "A non-normal distribution is non-normal, not abnormal"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p216",
+        "Ghosh FEP PDF p217"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-090",
+      "type": "basic",
+      "front": "Distinguish competitive from non-competitive antagonism.",
+      "back": "Competitive: both drugs act on the same receptor site and the antagonism can be overcome by more agonist. Non-competitive: the antagonist acts at a different site, so raising the agonist dose does not reverse it.",
+      "refs": [
+        "Ghosh FEP PDF p107",
+        "Ghosh FEP PDF p108"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-091",
+      "type": "essay",
+      "front": "Essay: Randomisation in drug research",
+      "sections": [
+        {
+          "h": "Definition and aim",
+          "points": [
+            "Random allocation gives every participant the same chance of any study group",
+            "Controls known and unknown confounders"
+          ]
+        },
+        {
+          "h": "Benefits",
+          "points": [
+            "Prevents selection bias through allocation concealment",
+            "Balances known and unknown covariates between arms",
+            "Gives a basis for assumption-free tests of equality"
+          ]
+        },
+        {
+          "h": "Criteria",
+          "points": [
+            "Unpredictability",
+            "Balance",
+            "Simplicity"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Simple: every unit equally likely; quick when the population is small and homogeneous",
+            "Systematic: every Kth unit after a random start",
+            "Stratified: random samples from homogeneous strata",
+            "Block, cluster, multistage, multiphase and minimisation methods"
+          ]
+        },
+        {
+          "h": "Tools",
+          "points": [
+            "Closed envelopes, computer-generated sequences, random number tables, coin tossing"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Randomisation is an integral part of a clinical trial design"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p196-200",
+        "Sarkar p156-160"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-092",
+      "type": "shortnote",
+      "front": "Short note: In vitro toxicity testing and alternatives to animal tests",
+      "sections": [
+        {
+          "h": "Why",
+          "points": [
+            "Animal tests take more time and resources and raise ethical concerns",
+            "Alternatives are reported as safe, reliable, less costly and quicker"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Eye irritation: non-animal alternatives to the Draize rabbit test (e.g. HET-CAM)",
+            "Pyrogen testing with human blood in vitro",
+            "Immune system models for vaccines and immunomodulators",
+            "Isolated organ preparations such as the Langendorff heart",
+            "In silico structure-activity relationship models"
+          ]
+        },
+        {
+          "h": "Limitation",
+          "points": [
+            "Species differences can change results, so alternatives do not always match animal data"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p286-290",
+        "Sarkar p131-135"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-093",
+      "type": "shortnote",
+      "front": "Short note: ELISA as a custom assay",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Antigen-antibody binding gives the specificity",
+            "Enzyme-linked detection gives the sensitivity"
+          ]
+        },
+        {
+          "h": "Procedure",
+          "points": [
+            "Enzyme on the well surface reacts with a substrate to form a colour",
+            "Activity read against standards of known concentration gives a standard curve"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Detection and quantification of specific antigens or antibodies in biomedical research",
+            "Quality control in industry",
+            "Digoxin measurement in serum"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p386-390",
+        "Medhi PMECP p351"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-094",
+      "type": "shortnote",
+      "front": "Short note: Detecting and evaluating chemically induced liver injury",
+      "sections": [
+        {
+          "h": "Preclinical markers",
+          "points": [
+            "Overt toxicity: clinical signs, macroscopic and microscopic lesions",
+            "Surrogate markers: serum liver enzyme levels",
+            "Exaggerated pharmacodynamic effects"
+          ]
+        },
+        {
+          "h": "Tissue assays",
+          "points": [
+            "Liver homogenates are assayed for lipid peroxidation (malondialdehyde, TBARS), reduced glutathione and catalase in antioxidant screening models"
+          ]
+        },
+        {
+          "h": "Evaluation",
+          "points": [
+            "Combine markers with histology; use the findings to set the no-observed-adverse-effect level"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP p119",
+        "Sarkar p356-360"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-095",
+      "type": "essay",
+      "front": "Essay: Statistical methods to determine sample size",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Smallest number of subjects that is ethically and financially sound",
+            "Decided in advance, in the protocol"
+          ]
+        },
+        {
+          "h": "Inputs",
+          "points": [
+            "Significance level (type I error), usually 0.05",
+            "Power, usually 0.8 to 0.9 (type II error = 1 - power)",
+            "Magnitude of the clinically important difference",
+            "Variability (SD or CV) from preliminary data"
+          ]
+        },
+        {
+          "h": "Formula from variability",
+          "points": [
+            "n = t^2 x CV^2 for the chosen probability, using preliminary mean and SD",
+            "Power and difference change the required n: smaller differences need more subjects"
+          ]
+        },
+        {
+          "h": "Reporting",
+          "points": [
+            "State the reasons for the sample size, the power, the significance level and the analysis plan",
+            "Adjust for expected drop-outs"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "An inadequate sample risks a missed effect or a false claim"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p218",
+        "RangDale9 PDF p119",
+        "Sarkar p206-210"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-096",
+      "type": "basic",
+      "front": "Give the formula for the impact factor of a journal.",
+      "back": "IF = citations received in one year / papers published in the previous two years, counting original papers, reviews and similar articles.",
+      "refs": [
+        "Medhi PMECP p352"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-097",
+      "type": "essay",
+      "front": "Essay: Impact factor, its calculation, use and misuse",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Eugene Garfield introduced it in the 1950s",
+            "Measures the average citations per article of a journal over a time window"
+          ]
+        },
+        {
+          "h": "Calculation",
+          "points": [
+            "Citations in the year to articles published in the two previous years, divided by the number of those articles"
           ]
         },
         {
           "h": "Use",
           "points": [
-            "Compares the means of two samples: the difference between means is divided by the standard error of that difference",
-            "Null hypothesis: no difference between the two means"
+            "Helps authors choose a journal with high citation frequency",
+            "High-IF journals such as the NEJM, Lancet and JAMA are read by both physicians and researchers"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Average citation says little about one article",
+            "Garfield intended it to manage library journal collections",
+            "Misuse: judging scientists or grant decisions, which the inventor never intended"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Use impact factor to compare journals, not to rank individual researchers"
           ]
         }
       ],
       "refs": [
-        "Ghosh FEP PDF p98",
-        "Ghosh FEP PDF p225"
+        "Medhi PMECP p352",
+        "Medhi PMECP p353"
       ],
-      "subtopic": "p3-research-biostats-tests",
-      "tags": [
-        "uses"
-      ],
-      "status": "draft",
       "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        },
         {
           "university": "RGUHS",
           "year": 2020,
           "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2025,
-          "marks": 10
         }
-      ]
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification"
+      ],
+      "level": 3
     },
     {
-      "id": "p3-research-biostats-074",
-      "type": "shortnote",
-      "front": "Short note: Non-parametric tests",
+      "id": "p3-research-biostats-098",
+      "type": "basic",
+      "front": "What does the biostatistics team do in a clinical trial?",
+      "back": "It analyses the data as set out in the protocol and decides whether the study was positive or negative. It also prepares statistical tables, figures and graphs with their interpretation for the medical writers.",
+      "refs": [
+        "Sarkar p151-155"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-099",
+      "type": "essay",
+      "front": "Essay: Role of the biostatistician in clinical research",
       "sections": [
         {
-          "h": "What",
+          "h": "Position",
           "points": [
-            "Distribution-free methods, used when normal distribution cannot be assumed",
-            "Increasingly popular for analysis of biological data"
+            "Member of the trial team, working from the protocol"
+          ]
+        },
+        {
+          "h": "Before the trial",
+          "points": [
+            "Helps plan the design, sample size and analysis plan",
+            "Specifies the outcomes and the handling of missing data"
+          ]
+        },
+        {
+          "h": "During and after",
+          "points": [
+            "Analyses the data as per protocol",
+            "Tests the hypotheses and reports whether the result is positive or negative",
+            "Prepares tables, figures, graphs and their interpretation for the medical writers"
+          ]
+        },
+        {
+          "h": "Pitfall",
+          "points": [
+            "Statisticians are outnumbered; a team should not skip statistical input and rely on intuition"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "The biostatistician makes the trial's conclusions defensible"
           ]
         }
       ],
       "refs": [
-        "Ghosh FEP PDF p232"
+        "Sarkar p151-155",
+        "Bioequivalence & Statistics PDF p90"
       ],
-      "subtopic": "p3-research-biostats-tests",
-      "tags": [
-        "classification"
-      ],
-      "status": "draft",
       "pyq": [
         {
           "university": "RGUHS",
-          "year": 2009,
+          "year": 2016,
           "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-100",
+      "type": "essay",
+      "front": "Essay: Sampling and its various types",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Sampling selects a subset of a population so that results can be generalised",
+            "The method depends on population size, homogeneity and the sampling frame"
+          ]
         },
         {
-          "university": "RGUHS",
-          "year": 2023,
-          "marks": 10
+          "h": "Probability methods",
+          "points": [
+            "Simple random: every unit equally likely; chosen unit by unit",
+            "Systematic: sampling interval K = population / desired sample; random start, then every Kth unit",
+            "Stratified: population split into strata; sample drawn in proportion to each stratum",
+            "Cluster: natural groups (village, ward, school) chosen at random; cheaper, but higher sampling error",
+            "Multistage: random selection at successive levels (district, taluka, village)",
+            "Multiphase: all screened, subsample tested further"
+          ]
         },
         {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
+          "h": "Choosing",
+          "points": [
+            "Systematic needs a complete list of the population",
+            "Cluster suits large, scattered populations such as immunisation surveys"
+          ]
         },
         {
-          "university": "RGUHS",
-          "year": 2019,
+          "h": "Conclusion",
+          "points": [
+            "A representative sample improves external validity"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p196-200"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
           "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-101",
+      "type": "basic",
+      "front": "What is cluster sampling, and what is its main disadvantage?",
+      "back": "Whole natural groups such as villages, wards or schools are chosen at random and surveyed in full. It is cheaper than sampling individuals, but it commonly has higher sampling error.",
+      "refs": [
+        "Sarkar p196-200"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-102",
+      "type": "shortnote",
+      "front": "Short note: Volume of distribution and its clinical significance",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Apparent volume into which a drug seems to distribute: amount in body / plasma concentration",
+            "Example from the book: 1000 mg giving 50 mg/L gives 20 L"
+          ]
         },
+        {
+          "h": "Factors",
+          "points": [
+            "Lipid to water partition coefficient, pKa, and plasma protein binding"
+          ]
+        },
+        {
+          "h": "Clinical significance",
+          "points": [
+            "Small V (e.g. warfarin) means the drug stays in plasma",
+            "Large V (e.g. digoxin) means most drug is in tissues, so haemodialysis removes little",
+            "Pathological states such as heart failure, uraemia and cirrhosis change V",
+            "Loading dose depends on V and F, not on clearance"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "pk"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-103",
+      "type": "basic",
+      "front": "Define apparent volume of distribution.",
+      "back": "The volume a drug would have to fill to produce its observed plasma concentration, V = amount of drug in the body / plasma concentration. It is a proportionality constant, not a real fluid volume.",
+      "refs": [
+        "KDT8 ch3"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "pk"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-104",
+      "type": "essay",
+      "front": "Essay: Imperfect data analysis and its remedies",
+      "sections": [
+        {
+          "h": "Sources of imperfection",
+          "points": [
+            "Missing data from drop-outs or lost follow-up",
+            "Outliers and animal deaths",
+            "Inclusion and exclusion criteria that change results",
+            "Multiplicity in statistical testing"
+          ]
+        },
+        {
+          "h": "Effects",
+          "points": [
+            "Missing follow-up can hide serious adverse events",
+            "Negative trials left unpublished exaggerate the benefit of new drugs"
+          ]
+        },
+        {
+          "h": "Remedies",
+          "points": [
+            "Plan prospectively how missing data and outliers will be handled",
+            "Report and discuss missing data, outliers and animal deaths with the results",
+            "Pre-specify the analysis and avoid changing it after data are seen"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Honest reporting of imperfect data is part of valid appraisal"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p21-25",
+        "RangDale9 PDF p119",
+        "Katzung16 PDF p30"
+      ],
+      "pyq": [
         {
           "university": "UHSR",
           "year": 2025,
           "marks": 10
         }
-      ]
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-research-biostats-105",
+      "type": "shortnote",
+      "front": "Short note: Preclinical drug disposition studies",
+      "sections": [
+        {
+          "h": "Scope",
+          "points": [
+            "Preclinical development includes pharmacodynamics, pharmacokinetics and toxicology",
+            "Done in vitro and in animals before first human dosing"
+          ]
+        },
+        {
+          "h": "Dose translation",
+          "points": [
+            "No-observed-adverse-effect level from overt toxicity, surrogate markers and exaggerated pharmacodynamic effects",
+            "Human equivalent dose obtained from animal dose on a body-surface-area basis"
+          ]
+        },
+        {
+          "h": "Challenges",
+          "points": [
+            "Data variability and bias in interpretation",
+            "Multiplicity in statistical testing, inadequately addressed"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p21-25",
+        "Bioequivalence & Statistics PDF p37",
+        "Medhi PMECP p119"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-106",
+      "type": "shortnote",
+      "front": "Short note: Pragmatic trials",
+      "sections": [
+        {
+          "h": "Purpose",
+          "points": [
+            "Shows whether an intervention works in routine practice, including its good and bad consequences"
+          ]
+        },
+        {
+          "h": "Design",
+          "points": [
+            "Lax inclusion criteria and a heterogeneous population, as seen in daily practice",
+            "Active or usual-care control and flexible dosing",
+            "Analysis restricted to those who actually received the intervention"
+          ]
+        },
+        {
+          "h": "Contrast",
+          "points": [
+            "Explanatory trials use strict criteria, placebo and fixed dose to show how an intervention works"
+          ]
+        },
+        {
+          "h": "Growth",
+          "points": [
+            "Pragmatic trials with usual care as comparator are increasing in number"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p156-160",
+        "RangDale9 PDF p120"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-107",
+      "type": "basic",
+      "front": "Compare explanatory and pragmatic trials.",
+      "back": "An explanatory trial uses a strict, homogeneous population, placebo and fixed doses to test whether and how an intervention works. A pragmatic trial uses real-world criteria and flexible practice to test how it works in routine care.",
+      "refs": [
+        "Sarkar p156-160"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-108",
+      "type": "basic",
+      "front": "What is the principle of essentiality in medical research?",
+      "back": "Research should use human subjects only when this is absolutely essential and no other alternative is available. It is one of the ten core principles of the Indian GCP guidelines.",
+      "refs": [
+        "Sarkar p156-160"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-109",
+      "type": "basic",
+      "front": "Why does missing data matter in a clinical trial?",
+      "back": "Participants who drop out, often because the drug did not help, leave gaps in the outcomes. Important events such as serious adverse effects may then go undetected, so the handling of missing data must be planned in advance.",
+      "refs": [
+        "RangDale9 PDF p119",
+        "Sarkar p21-25"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-110",
+      "type": "basic",
+      "front": "Adverse drug reaction vs adverse event: how do they differ?",
+      "back": "Adverse drug reaction (ADR): a noxious, unintended and undesired drug effect at doses used in humans; it requires treatment, a dose change or caution with future use, and trivial effects are excluded. Adverse event: any untoward medical occurrence during treatment that need not be caused by the drug. Causality is assessed afterwards.",
+      "refs": [
+        "KDT8 ch5",
+        "Sarkar p86-90"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-111",
+      "type": "basic",
+      "front": "Precision vs accuracy: how do they differ?",
+      "back": "Accuracy is how close a measured value is to the true value. Precision is how close repeated measurements are to each other (reproducibility). Readings can be precise but inaccurate, for example tightly clustered values all away from the true value.",
+      "refs": [
+        "Medhi PMECP p153-154"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-112",
+      "type": "basic",
+      "front": "What is stratified randomisation?",
+      "back": "Subjects are first grouped into strata by a key factor such as age, sex or disease severity, and then randomly allocated within each stratum. This keeps that factor balanced between arms, which matters most when the groups are small.",
+      "refs": [
+        "RangDale9 ch8",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-113",
+      "type": "basic",
+      "front": "Distinguish randomisation from stratification in a trial.",
+      "back": "Randomisation allocates every subject to a study arm by chance. Stratification first sorts subjects into strata by a known factor, and allocation within each stratum is still random.",
+      "refs": [
+        "RangDale9 ch8",
+        "KDT8 ch5"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     }
   ]
 }

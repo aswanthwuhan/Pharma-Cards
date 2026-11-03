@@ -123,3 +123,89 @@ Gap from SOURCE-GAPS.md: Prescription-audit method (planning, sampling, scoring,
 ## PrepLadder removal and PDF re-grounding (2026-11-02)
 
 - p3-clinical-services-003 | corrected | Satoskar Pharmacology PDF p52 | melting/boiling point, shelf life and use-based layout not in books; removed. Prep ref removed.
+
+## Difficulty ladder pass
+- all existing cards | ok (level set, reordered) | unchanged refs
+- p3-clinical-services-055 | new | Sarkar p71-75
+- p3-clinical-services-056 | new | Sarkar p71-75
+- p3-clinical-services-057 | new | Katzung16 appendix 2
+- p3-clinical-services-058 | new | Katzung16 appendix 2; Sarkar p506-510; Katzung16 ch51
+- p3-clinical-services-059 | new | Sarkar p506-510; Katzung16 ch66; Katzung16 appendix 2; GG14 ch9
+| 034, 035 | corrected | added UHSR 2025 adherence/compliance pyq tag |
+
+## Checker (independent pass, 2026-11-03)
+
+Study deck, verified against Sarkar OCR (p56-60, p71-75, p76-80, p86-90, p506-510), Katzung16 ch66 and p1239/p1245 (PDF), GG14 p182 and KDT8/search.py hits.
+
+| id | status | source / note |
+|---|---|---|
+| p3-clinical-services-001 | corrected | Sarkar p506-510 convener line ok; removed unsupported NABH/JCI and WHO-DTC claims |
+| p3-clinical-services-005 | corrected | removed trichlormethiazide example (not found in owner books) |
+| p3-clinical-services-036 | corrected | removed NABH/JCI wording |
+| p3-clinical-services-038 | corrected | removed vancomycin/linezolid sentence (not found in Katzung ch51 search) |
+| p3-clinical-services-007, 013, 019 | ok | Sarkar p76-80 (1962 Kentucky; KSPC Aug 1997; Sirsa/Raipur/Jaipur/Dibrugarh/Panaji), Sarkar p86-90 (MER 5% or above) |
+| p3-clinical-services-024, 025, 029, 055 | ok | Sarkar p71-75 (five or more; prescribing cascade; deprescribing steps; Medstopper) |
+| p3-clinical-services-027, 028 | ok | Sarkar p71-75 (SAIL/TIDE; medication reconciliation) |
+| p3-clinical-services-042, 043, 044, 045 | deleted | ACLS crash-cart content from a pain-medicine web review: not an owner book and not in SOURCE-GAPS |
+| p3-clinical-services-046, 050 | kept (web) | Prescription-audit method is a SOURCE-GAPS item; WHO indicators only in web sources |
+| p3-clinical-services-047 | deleted | "1993" and "early 1980s" dates not verifiable in owner books or the cited article text |
+| p3-clinical-services-048, 049 | deleted | single-study Indian ED audit figures (5 of 648; 8.5%) are not a method point; not owner book |
+| p3-clinical-services-051 to 054 | unsourced | prescription-audit method gap, owner approved; unchanged |
+| p3-clinical-services-059 | ok | synthesis essay; refs cover parts (Sarkar p506-510; Katzung16 ch66, appendix 2; GG14 ch9) |
+
+Rapid deck, spot checks: rf-0060, 0065 ok (Sarkar p76-80); rf-0071 ok (GG14 ch9); rf-0081, 0082, 0089, 0096, 0097 ok (Sarkar p86-90).
+Rapid deletions (unverifiable numbers or facts not in cited book): rf-p3-clinical-services-0035 (90% generic share), 0061 (1973 survey, 54 DICs), 0062 (1995 report, about 120), 0088 ("U" misread as 0 or 4).
+
+Ladder check after deletions: every subtopic has at least 3 L1, 2 L2, 1 L3. Study cards now 52 (L1 23, L2 23, L3 6).
+Prep ref removed from deck source line (no PrepLadder/RR5 refs remain).
+
+Not done in this pass: full re-read of all 52 study and 244 rapid cards; Satoskar p52 ref on card 003 and the WHO indicator wording on 046/050 still rest on web sources.
+
+## PYQ gap pass (2026-11-03): questions 25, 85, 177
+
+| id | new / corrected | source |
+|---|---|---|
+| p3-clinical-services-060 | new L1 | GG14 ch8 p168 |
+| p3-clinical-services-061 | new L1 | GG14 ch8 p168 |
+| p3-clinical-services-062 | new L1 | Katzung16 appendix 2 |
+| p3-clinical-services-063 | new L1 | Medhi PMECP p138 |
+| p3-clinical-services-064 | new L1 | Medhi PMECP p138 |
+| p3-clinical-services-065 | new L1 | Medhi PMECP p136 |
+| p3-clinical-services-066 | new L1 | Padmaja ch44 |
+| p3-clinical-services-067 | new L2 shortnote | Medhi PMECP p138 |
+| p3-clinical-services-068 | new L3 essay (PHARMACOINFORMATICS, UHSR 2025, 10 marks) | Sarkar p76-80; GG14 ch8 p168 |
+| p3-clinical-services-069 | new L3 essay (Biomedical waste disposal, Q bank, 10 marks) | Medhi PMECP p136-138 |
+| p3-clinical-services-070 | new L3 essay (Inappropriate antibiotic use, UHSR 2025, 10 marks) | Padmaja ch44; Katzung16 appendix 2 |
+
+Notes:
+- The term "pharmacoinformatics" is not printed in any owner book. Card 068 is built from the drug information centre text and the real-world data / Sentinel text only.
+- Card 070 covers generic antibiotic misuse and stewardship. No owner-book text on COVID-19-era antibiotic use was found (only GG14 mentions COVID-19; Harrison and Davidson are not owner books), so the pandemic-specific part is not covered.
+- Card 069 pyq uses year 0 because the Q bank file gives no year (paper I, 2014-2024 range).
+
+## Checker (PYQ gap pass)
+- Checker (PYQ gap pass): 060-070 re-verified against owner sources (GG14 p167-170 incl. case-report causality and Sentinel; Katzung16 appendix 2 time-out and team; Medhi PMECP p136-138 bag table and glassware; Padmaja ch44 R-factor transfer; Sarkar p76-80 toxicology within hospitals). All facts found; no card deleted or corrected in text.
+- p3-clinical-services-069 | corrected | removed pyq entry ("Q bank", year 0): year 0 is a placeholder and no year is in the source; card kept, grounded in Medhi PMECP p136-138.
+- Pharmacoinformatics term and COVID-era antibiotic misuse remain unsourced (see PYQ gap pass above); cards 068 and 070 do not claim them.
+- Validator: `node scripts/validate-content.mjs --check` clean. Ladder minimums met for all six subtopics. No Prep/RR5 refs in the new cards.
+
+## PYQ gap pass: adherence vs compliance (UHSR 2025, 10-mark shortnote)
+| id | new / corrected | source |
+|---|---|---|
+| p3-clinical-services-071 | new L1 | GG12 PDF p1911 |
+| p3-clinical-services-072 | new L1 | GG12 PDF p1911-1912 |
+| p3-clinical-services-073 | new L1 | GG12 PDF p1912-1913 |
+| p3-clinical-services-074 | new L1 | GG12 PDF p1913 |
+| p3-clinical-services-075 | new L3 shortnote (UHSR 2025, 10 marks) | GG12 PDF p1911-1913; GG14 PDF p424; GG12 PDF p818; Katzung16 ch66 |
+| p3-clinical-services-076 | new L2 | GG12 PDF p1912; Katzung16 ch66 |
+| p3-clinical-services-077 | new L2 | GG12 PDF p1913 |
+
+Notes:
+- No owner book states a firm definitional difference between "adherence" and "compliance". GG12 treats them as interchangeable terms. Card 075 says so and gives the difference only as GG12's collaborative framing (adherence/concordance = plan agreed jointly). The strict distinction is not sourced: listed under noSource.
+- Existing card 034 (Katzung16 ch66) already defines compliance and the four noncompliance types; not duplicated.
+- GG12 PDF pages are cited because the appendix is not a numbered chapter (pages 1911-1913 = Appendix I, printed pp. 1886-1888).
+
+## Checker pass (PYQ gap 29, adherence vs compliance)
+- 071 corrected: added Bennett PDF p35 (preference rationale for compliance vs adherence/concordance).
+- 075 corrected: removed invented definitions ("carries out instructions as given", "shared or used for another purpose", "route, duplication"); noncompliance forms now match GG12 p1911. Dropped unverified Katzung16 ch66 ref. Added Bennett PDF p35.
+- 076 corrected: night-shift example attributed to GG12 PDF p1912; dropped unverified Katzung16 ch66 ref.
+- 072, 073, 074, 077 verified against GG12 PDF p1911-1913 as written.

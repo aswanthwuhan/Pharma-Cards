@@ -412,3 +412,76 @@ Grounding pass under GROUNDING-RULES.md. Sources: KDT8 ch64-65 (topic refs), GG1
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: Levamisole: KDT8 ch63 says repeated doses cause severe reactions; used for immunomodulation only historically. Immunomodulators card cites KDT8 ch63, ch65 and GG14 p87 (JAK inhibitors).
 - Unsourced cards in this pass: none.
+
+- Ladder pass: no new rapid cards; existing 427 judged to cover the chapter.
+
+- Ladder re-check: no new rapid cards; 427 existing kept.
+
+## Checker (independent pass)
+- rf-p3-cancer-immuno-0380 (BCG, intravesical): removed ref "Harrison21 PDF p719" (not an owner book). Satoskar ref kept.
+- No Prep, RR5 or RapidRev refs found in the rapid deck.
+- Validator --check: clean.
+- Not done: full rapid audit against KDT8 ch64-65; only the Harrison ref was checked.
+
+## PYQ gap cards (added this pass)
+
+| id | new | source |
+|---|---|---|
+| rf-p3-cancer-immuno-0428 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0429 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0430 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0431 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0432 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0433 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0434 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0435 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0436 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0437 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0438 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0439 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0440 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0441 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0442 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0443 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0444 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0445 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0446 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0447 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0448 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0449 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0450 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0451 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0452 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0453 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0454 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0455 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0456 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0457 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0458 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0459 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0460 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0461 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0462 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0464 | new | KDT8 ch64 |
+| rf-p3-cancer-immuno-0465 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0467 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0468 | new | KDT8 ch64 |
+| rf-p3-cancer-immuno-0469 | new | KDT8 ch64 |
+| rf-p3-cancer-immuno-0470 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0471 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0472 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0473 | new | GG14 ch71 |
+| rf-p3-cancer-immuno-0474 | new | KDT8 PDF p292 |
+| rf-p3-cancer-immuno-0475 | new | KDT8 PDF p292 |
+| rf-p3-cancer-immuno-0476 | new | Sarkar p531-535 |
+| rf-p3-cancer-immuno-0477 | new | KDT8 PDF p292-294 |
+| rf-p3-cancer-immuno-0478 | new | GG14 ch47 |
+
+## PYQ gap pass, round 2 (gapargs2 entries 130, 218, 281, 421)
+Added 9 rapid pairs: rf-p3-cancer-immuno-0479 to 0487.
+- 0479-0483: cytokine adjuvants, IL-2, thalidomide, biologic induction (about 70%), JAK inhibitor indications. Sources: KDT8 ch64, GG14 ch39.
+- 0484-0487: trilaciclib, CDK4/6 breast partner drugs, palbociclib CYP3A (itraconazole, inducers). Sources: GG14 ch71, ch73.
+- Existing cards not duplicated: IL-2 receptor antagonist list (rf 3889), tacrolimus and muscle-relaxant items (out of topic), CDK4/6 checkpoint and drug list (0454-0456), palbociclib and ribociclib warnings (0457-0461).
+
+## Source re-check, rf 0479-0487
+- 0483 answer corrected: "psoriasis" changed to "psoriatic arthritis" (GG14 ch39 JAK indication list). Other 8 pairs verified against KDT8 ch64 and GG14 ch39/ch71/ch73.

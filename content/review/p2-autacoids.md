@@ -164,3 +164,70 @@ p2-autacoids-102 | draft | KDT8 ch12
 | p2-autacoids-103 | new | KDT8 ch11 |
 | p2-autacoids-104 | new | KDT8 ch11 |
 | all other cards | ok (level field added, deck reordered L1-L3 per subtopic) | KDT8 ch11-13 |
+
+## Checker
+
+Independent check of the writer's pass (2026-11-03). Verified against KDT8 ch11-13 text and owner PDFs (GG14, GG12, Katzung16, Rang & Dale 9e).
+
+| id | result | source |
+| p2-autacoids-068 | corrected (removed "confusion", not in source) | KDT8 ch12 |
+| p2-autacoids-075 | ok (lasmiditan t1/2 6 h and CYP2D6 confirmed) | Katzung16 PDF p317 |
+| p2-autacoids-016, 035, 036, 055, 056, 072, 091, 100, 101, 102, 103, 104 | ok | KDT8 ch11-13; GG14 PDF p1096 for ranitidine/nizatidine contamination |
+| p2-autacoids-105 | new (L1, mast-cell-stabilising second-generation H1 antagonists) | GG14 PDF p881 |
+| Prep / RR5 / RapidRev refs in both deck files | none found | n/a |
+| Ladder | every subtopic has at least 3 L1, 2 L2, 1 L3 (checked after add) | n/a |
+| Gaps still open | cromolyn, granisetron, palonosetron, alosetron and pizotifen are not in KDT8 ch11-13; left out of this topic (belong to other chapters or are not in the owner books for this topic) | n/a |
+
+## PYQ gap pass (2026-11-03): RGUHS 2024 PH, UHSR 2025 PH and migraine
+
+| id | new | source |
+| p2-autacoids-106 | new (L1, PGI2 mechanism) | GG14 ch35; GG14 PDF p717 |
+| p2-autacoids-107 | new (L1, NO-cGMP and PDE5) | GG14 ch35; GG14 PDF p716 |
+| p2-autacoids-108 | new (L1, sildenafil dose and place) | GG14 ch35; GG14 PDF p717, p722 |
+| p2-autacoids-109 | new (L2, PDE5 inhibitors with nitrates) | GG14 ch35; GG14 PDF p717 |
+| p2-autacoids-110 | new (L1, riociguat) | GG14 ch35; GG14 PDF p716 |
+| p2-autacoids-111 | new (L2, riociguat cautions) | GG14 ch35; GG14 PDF p717 |
+| p2-autacoids-112 | new (L1, endothelin-1 in PH) | GG14 PDF p714; KDT8 PDF p559 |
+| p2-autacoids-113 | new (L1, oral ERAs) | GG14 PDF p722 |
+| p2-autacoids-114 | new (L2, bosentan monitoring and contraceptives) | GG14 PDF p722 |
+| p2-autacoids-115 | new (L1, CCBs and vasodilator test) | GG14 PDF p716, p724 |
+| p2-autacoids-116 | new (L2, diltiazem in bradycardia) | GG14 PDF p724 |
+| p2-autacoids-117 | new (L1, inhaled NO uses) | GG14 ch35; GG14 PDF p716 |
+| p2-autacoids-118 | new (L2, inhaled NO safety) | GG14 PDF p717 |
+| p2-autacoids-119 | new (L1, treprostinil) | GG14 PDF p718, p722 |
+| p2-autacoids-120 | new (L2, oral treprostinil shell) | GG14 PDF p719, p722 |
+| p2-autacoids-121 | new (L2, inhaled iloprost) | GG14 PDF p719 |
+| p2-autacoids-122 | new (L2, selexipag pharmacokinetics) | GG14 PDF p719, p722 |
+| p2-autacoids-123 | new (L1 cloze, PAH drugs by pathway) | GG14 PDF p722, p724 |
+| p2-autacoids-124 | new (L3 essay, PH pharmacotherapy, 10 marks, pyq RGUHS 2024 IV and UHSR 2025 I) | GG14 ch35 |
+| p2-autacoids-125 | new (L3 shortnote, investigational PAH drugs) | GG14 PDF p721 |
+| p2-autacoids-126 | new (L3 essay, recent advances in migraine, 10 marks, pyq UHSR 2025 IV) | GG14 PDF p311, p312, p321; KDT8 PDF p210 |
+| Seizure-disorder half of the RGUHS/Q-bank PH question | not written here: belongs to p2-sedatives-aed, outside this topic's edit scope | n/a |
+
+## Checker (PYQ gap pass), 2026-11-03
+
+| id | status | source / change |
+| p2-autacoids-106 to 126 | corrected: removed MLCK and "antithrombotic" wording not in book (cAMP lowers Ca2+; anticoagulant effect is cAMP's) | GG14 PDF p719-720 |
+| p2-autacoids-107 | corrected: removed "anticoagulant" (not stated for cGMP) | GG14 PDF p716-718 |
+| p2-autacoids-110 | corrected: removed "first-in-class"; CTEPH stated as effective, not approved | GG14 PDF p716-718 |
+| p2-autacoids-114 | corrected: haemoglobin monitoring not in book; now liver transaminases, contraindication in liver disease; CYP2C9/3A4 | GG14 PDF p721-722 |
+| p2-autacoids-115, 123 | corrected: verapamil added (book lists it among CCBs) | GG14 PDF p722 |
+| p2-autacoids-116 | rewritten: "negative chronotropic/inotropic" not in book; now CCB titration monitoring | GG14 PDF p722, p724 |
+| p2-autacoids-120, 121, 122, 124, 125 | ok, verified | GG14 PDF p719-722, p724 |
+| p2-autacoids-126 | corrected: removed unsupported "start early", "urinary 5-HT", "severe migraine", "CGRP where oral fails"; prophylaxis now propranolol per KDT8 | KDT8 PDF p210; GG14 PDF p312, p321 |
+| Validator | `node scripts/validate-content.mjs --check` clean; levels and ladder minimums met for all 8 subtopics; no Prep/RR5 refs; pyq objects well-formed | n/a |
+| Not verified | pyq university/year/marks against the Q-bank files (wording only checked for format) | n/a |
+
+## Gap pass, entry [44] "Anti-Helicobacter pylori drugs" (2026-11-03)
+
+| item | status | source / change |
+| Anti-H. pylori drugs (PYQ gap entry 44, papers: 1) | skipped: not an autacoid topic; already covered in p3-git (study and rapid: eradication regimens, bismuth, PPI, macrolide-recent regimen) and p3-amr-general | n/a |
+
+## Checker pass, newest cards (2026-11-03)
+
+| id | status | source / change |
+| p2-autacoids-120 | ok, ref added | GG14 PDF p720 (oral tablet shell, blind-end pouches) |
+| p2-autacoids-121 | ok, ref added | GG14 PDF p720 (first inhaled PGI2 analogue) |
+| p2-autacoids-122 | ok, ref added | GG14 PDF p720 (ACT-333679, t1/2 10 to 14 h) |
+| p2-autacoids-125 | ok, ref added | GG14 PDF p724 (sotatercept, fasudil listed as future agents) |
+| p2-autacoids-115 to 126 (others) | ok, verified | GG14 PDF p713 (PH >20 mmHg), p716-724 |

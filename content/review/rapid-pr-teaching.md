@@ -96,3 +96,35 @@ New cards for deck 031-043: rf-pr-teaching-0033 to 0045. Mirrors added for deck 
 Still unsourced: 0002, 0003, 0006, 0007, 0019, 0025, 0026, 0027, 0046, 0049.
 
 WEB refs kept (not in owner books): 0009-0013, 0020, 0023, 0024, 0029, 0030, 0050, 0051.
+
+## Ladder pass additions
+
+| id | status | source |
+|---|---|---|
+| rf-pr-teaching-0052 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0053 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0054 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0055 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0056 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0057 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0058 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0059 | new | UNSOURCED - owner must verify |
+
+| rf-pr-teaching-0060 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0061 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0062 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0063 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0064 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0065 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0066 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0067 | new | UNSOURCED - owner must verify |
+| rf-pr-teaching-0068 | new | UNSOURCED - owner must verify |
+
+## Checker (independent pass, 2026-11-03)
+
+| id | status | source |
+|---|---|---|
+| rf-pr-teaching-0067 | corrected ref | was UNSOURCED; DOAP now cites NMC MD Pharmacology 2022 teaching-learning methods E |
+| rf-pr-teaching-0060, 0061, 0062, 0063, 0064, 0065, 0066, 0068 | unverified | UNSOURCED - owner must verify (not in owner books) |
+
+No Prep or RR5 refs found in this file.

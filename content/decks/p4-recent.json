@@ -1,32 +1,12 @@
 {
   "topicId": "p4-recent",
-  "source": "GG14, Katzung16 (general knowledge where refs are empty)",
+  "source": "GG14, Katzung16, KDT8",
   "cards": [
-    {
-      "id": "p4-recent-001",
-      "type": "basic",
-      "front": "SGLT2 inhibitors beyond glucose lowering: main indications and key adverse effect?",
-      "back": "They block Na+-glucose reabsorption by SGLT2 in the proximal tubule. All reduce hospitalisation for heart failure; dapagliflozin reduced heart failure hospitalisation and cardiovascular death in HFrEF with or without diabetes. Canagliflozin, dapagliflozin and empagliflozin slowed progression of kidney disease in patients with reduced GFR and albuminuria. Adverse effects: genital mycotic infections (3-5% excess), urinary tract infections, volume depletion and hypotension; euglycaemic diabetic ketoacidosis has been reported.",
-      "refs": [
-        "GG14 ch51",
-        "GG14 ch33",
-        "Katzung16 ch41",
-        "Katzung16 ch13"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-cardiorenal",
-      "tags": [
-        "newer-drugs",
-        "uses",
-        "adr"
-      ]
-    },
     {
       "id": "p4-recent-002",
       "type": "basic",
       "front": "Finerenone: class, key use and key adverse effect?",
-      "back": "A non-steroidal mineralocorticoid receptor antagonist (FDA approved 2021) that competitively blocks aldosterone binding; it binds androgen and progesterone receptors less than spironolactone and distributes equally to heart and kidney. Use: CKD with type 2 diabetes, to reduce kidney function decline, non-fatal MI, heart failure hospitalisation and cardiovascular death. Key adverse effect: hyperkalaemia, less than with spironolactone or eplerenone but still significant. Metabolised by CYP3A4 (half-life about 2 h).",
+      "back": "A non-steroidal mineralocorticoid receptor antagonist (FDA approved 2021) that competitively blocks aldosterone binding; it binds androgen and progesterone receptors less than spironolactone. Use: CKD with type 2 diabetes, to reduce kidney function decline, non-fatal MI, heart failure hospitalisation and cardiovascular death. Key adverse effect: hyperkalaemia, less than with spironolactone or eplerenone but still significant. Metabolised by CYP3A4 (half-life about 2 h).",
       "refs": [
         "GG14 ch29",
         "Katzung16 ch15"
@@ -38,25 +18,8 @@
         "newer-drugs",
         "mechanism",
         "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-003",
-      "type": "basic",
-      "front": "Sacubitril-valsartan: what does each component do, and what is the key safety rule?",
-      "back": "Valsartan blocks AT1 receptors. Sacubitril is a prodrug whose active metabolite inhibits neprilysin, the enzyme that breaks down ANP and BNP (and also angiotensin II and bradykinin), so natriuretic peptide effects are enhanced. In HFrEF the combination was superior to enalapril, reducing cardiovascular death and hospitalisation. Because neprilysin also degrades bradykinin, angioedema is a concern, as with ACE inhibitors.",
-      "refs": [
-        "GG14 ch33",
-        "Katzung16 ch13"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-cardiorenal",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
+      "level": 1
     },
     {
       "id": "p4-recent-004",
@@ -73,7 +36,134 @@
       "tags": [
         "classification",
         "newer-drugs"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-034",
+      "type": "basic",
+      "subtopic": "p4-recent-cardiorenal",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "SGLT2 inhibitors: what do they block and where?",
+      "back": "They block the SGLT2 transporter in the proximal tubule, so less filtered glucose (with Na+) is reabsorbed and more is lost in urine. Link to later cards: the same drugs also cut heart failure hospitalisation and slow kidney disease.",
+      "refs": [
+        "GG14 ch51",
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-035",
+      "type": "basic",
+      "subtopic": "p4-recent-cardiorenal",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Sacubitril: what is it, and which enzyme does it inhibit?",
+      "back": "A prodrug whose active metabolite inhibits neprilysin, the enzyme that breaks down ANP and BNP. Blocking it keeps natriuretic peptide effects higher; it is paired with valsartan, an AT1 blocker.",
+      "refs": [
+        "GG14 ch33",
+        "Katzung16 ch13"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-036",
+      "type": "basic",
+      "subtopic": "p4-recent-cardiorenal",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Trimetazidine: what does it inhibit, and what does it not change?",
+      "back": "It inhibits long-chain 3-ketoacyl-CoA thiolase (LC3-KAT), a fatty acid oxidation enzyme, shifting the heart toward glucose use. It does not change heart rate or blood pressure, so it is an add-on to usual antianginal therapy.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-037",
+      "type": "cloze",
+      "subtopic": "p4-recent-cardiorenal",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Antianginals acting on ion currents",
+      "text": "Ranolazine inhibits the {{late sodium}} current; ivabradine inhibits the {{funny}} current and is also used in {{heart failure}}.",
+      "refs": [
+        "KDT8 ch40",
+        "KDT8 PDF p613",
+        "GG14 PDF p638"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-001",
+      "type": "basic",
+      "front": "SGLT2 inhibitors beyond glucose lowering: main indications and key adverse effect?",
+      "back": "They block Na+-glucose reabsorption by SGLT2 in the proximal tubule. All reduce hospitalisation for heart failure; dapagliflozin reduced heart failure hospitalisation and cardiovascular death in HFrEF with or without diabetes. Canagliflozin, dapagliflozin and empagliflozin slowed progression of kidney disease in patients with reduced GFR and albuminuria. Adverse effects: genital mycotic infections, urinary tract infections, volume depletion and hypotension; euglycaemic diabetic ketoacidosis has been reported.",
+      "refs": [
+        "GG14 ch51",
+        "GG14 ch33",
+        "Katzung16 ch41",
+        "Katzung16 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cardiorenal",
+      "tags": [
+        "newer-drugs",
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-003",
+      "type": "basic",
+      "front": "Sacubitril-valsartan: what does each component do, and what is the key safety rule?",
+      "back": "Valsartan blocks AT1 receptors. Sacubitril is a prodrug whose active metabolite inhibits neprilysin, the enzyme that breaks down ANP and BNP (and also bradykinin), so natriuretic peptide effects are enhanced. In HFrEF the combination was superior to enalapril, reducing cardiovascular death and hospitalisation. Because neprilysin also degrades bradykinin, angioedema is a concern, as with ACE inhibitors.",
+      "refs": [
+        "GG14 ch33",
+        "Katzung16 ch13"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cardiorenal",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-038",
+      "type": "basic",
+      "subtopic": "p4-recent-cardiorenal",
+      "level": 2,
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "front": "Finerenone versus spironolactone: why is it called a newer MRA, and what is the shared risk?",
+      "back": "Finerenone is non-steroidal and binds androgen and progesterone receptors less than spironolactone. Both are MR antagonists, so hyperkalaemia remains the main risk, though it is lower with finerenone.",
+      "refs": [
+        "GG14 ch29",
+        "Katzung16 ch15"
+      ],
+      "pyq": [],
+      "status": "draft"
     },
     {
       "id": "p4-recent-005",
@@ -118,766 +208,8 @@
         "newer-drugs",
         "uses",
         "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-006",
-      "type": "basic",
-      "front": "Tirzepatide: mechanism, key use and key adverse effect?",
-      "back": "A dual GIP and GLP-1 receptor agonist: a modified GIP analogue given once weekly by subcutaneous injection. It raises glucose-dependent insulin release, lowers glucagon, slows gastric emptying and reduces appetite. In type 2 diabetes it lowered HbA1c by about 1.9-2.6% with weight loss of about 6-13 kg. Its safety profile is the same as the GLP-1 receptor agonists: mainly gastrointestinal effects, with the class caution against use in personal or family history of medullary thyroid cancer or MEN 2.",
-      "refs": [
-        "Katzung16 ch41"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-metabolic-lipids-bone",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-007",
-      "type": "basic",
-      "front": "Semaglutide: why is it used in obesity, and what is its key adverse effect?",
-      "back": "A long-acting, DPP-4-resistant GLP-1 receptor agonist given weekly by injection (an oral daily form also exists). Semaglutide 2.4 mg is approved for weight loss independent of diabetes status. Adverse effects of the class: nausea, vomiting, headache, anorexia and pancreatitis; C-cell tumours in rodents, so avoid with a history of medullary thyroid cancer or MEN 2.",
-      "refs": [
-        "GG14 ch51",
-        "Katzung16 ch41"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-recent-metabolic-lipids-bone",
-      "tags": [
-        "newer-drugs",
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-008",
-      "type": "essay",
-      "front": "Essay: Incretin-based therapy for type 2 diabetes and obesity",
-      "sections": [
-        {
-          "h": "Incretin physiology",
-          "points": [
-            "GLP-1 and GIP are gut hormones that raise insulin secretion in a glucose-dependent way",
-            "DPP-4 rapidly degrades native GLP-1, so analogues are DPP-4 resistant"
-          ]
-        },
-        {
-          "h": "GLP-1 receptor agonists",
-          "points": [
-            "Exenatide, liraglutide, dulaglutide, lixisenatide, semaglutide",
-            "Semaglutide: weekly injection; oral daily form",
-            "Liraglutide 3.0 mg and semaglutide 2.4 mg approved for weight loss"
-          ]
-        },
-        {
-          "h": "Tirzepatide",
-          "points": [
-            "Dual GIP and GLP-1 receptor agonist, weekly",
-            "HbA1c fall about 1.9-2.6% with marked weight loss"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Nausea, vomiting, anorexia, headache",
-            "Pancreatitis",
-            "Thyroid C-cell tumours in rodents"
-          ]
-        },
-        {
-          "h": "Contraindications",
-          "points": [
-            "Personal or family history of medullary thyroid carcinoma or MEN 2"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch51",
-        "Katzung16 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-metabolic-lipids-bone",
-      "tags": [
-        "newer-drugs",
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-009",
-      "type": "basic",
-      "front": "Inclisiran: how does it lower LDL-cholesterol, and how is it given?",
-      "back": "A small interfering RNA (FDA approved 2021) that targets PCSK9 mRNA in the liver and blocks PCSK9 synthesis. Fewer LDL receptors are degraded, so LDL-cholesterol falls by about 50%. Low-volume subcutaneous injections give effects lasting over 180 days, allowing twice-yearly dosing. Common adverse effects: injection-site reactions and bronchitis.",
-      "refs": [
-        "GG14 ch37",
-        "Katzung16 ch35"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-metabolic-lipids-bone",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-010",
-      "type": "basic",
-      "front": "Bempedoic acid: where does it act, and what adverse effects follow?",
-      "back": "An oral inhibitor of ATP-citrate lyase, acting in the liver in the cholesterol synthesis pathway at a step before HMG-CoA reductase; LDL receptors increase. Monotherapy lowers LDL-C by 15-25%; about 30% with ezetimibe (fixed combination available) and more with a statin. Adverse effects: hyperuricaemia (competition for renal OAT2) raising gout risk, tendon rupture, and rises in CK, creatinine and transaminases. Limit simvastatin to 20 mg and rosuvastatin to 40 mg when combined (myopathy).",
-      "refs": [
-        "GG14 ch37",
-        "Katzung16 ch35"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-metabolic-lipids-bone",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-011",
-      "type": "cloze",
-      "front": "Classify the newer lipid-lowering drugs.",
-      "text": "Inclisiran is a {{small interfering RNA}} against {{PCSK9}} mRNA; bempedoic acid inhibits {{ATP-citrate lyase}}.",
-      "refs": [
-        "GG14 ch37"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-metabolic-lipids-bone",
-      "tags": [
-        "classification",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p4-recent-012",
-      "type": "basic",
-      "front": "Romosozumab: target, effect on bone, and key warning?",
-      "back": "A monoclonal antibody against sclerostin, an osteocyte protein that inhibits Wnt signalling and bone formation. Blocking it increases bone formation and also suppresses resorption. Given monthly by subcutaneous injection for one year, followed by an antiresorptive to keep the bone gained. Boxed warning: do not use in patients at risk of stroke or coronary vascular disease.",
-      "refs": [
-        "Katzung16 ch42",
-        "GG14 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-metabolic-lipids-bone",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-013",
-      "type": "basic",
-      "front": "Gepants: what are they, and which are used for acute treatment versus prevention of migraine?",
-      "back": "Small-molecule CGRP receptor antagonists. Trigeminal nerves release CGRP, an extremely powerful vasodilator, in migraine. First-generation gepants (olcegepant, telcagepant) worked but were limited by liver toxicity. Second generation: ubrogepant and rimegepant for acute attacks; rimegepant and atogepant for prevention.",
-      "refs": [
-        "Katzung16 ch17",
-        "Katzung16 ch16",
-        "GG14 ch15"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-cns",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p4-recent-014",
-      "type": "cloze",
-      "front": "Classify the CGRP monoclonal antibodies used for migraine prevention.",
-      "text": "Erenumab binds the {{CGRP receptor}}, whereas eptinezumab, fremanezumab and galcanezumab bind the {{CGRP peptide}}; they are effective but injected and expensive, so they are {{second-line}} agents for migraine prevention.",
-      "refs": [
-        "Katzung16 ch17",
-        "Katzung16 ch16"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-cns",
-      "tags": [
-        "classification",
-        "newer-drugs",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-015",
-      "type": "shortnote",
-      "front": "Short note: Rapid-acting antidepressants that act outside monoamine pathways",
-      "sections": [
-        {
-          "h": "Esketamine",
-          "points": [
-            "S-enantiomer of ketamine; high-affinity non-competitive NMDA receptor antagonist",
-            "Intranasal; approved 2019 as adjunct for treatment-resistant depression",
-            "Dissociative effects and abuse potential; given under a REMS"
-          ]
-        },
-        {
-          "h": "Brexanolone",
-          "points": [
-            "Allopregnanolone (progesterone derivative); acts on GABA-A receptors",
-            "60-hour IV infusion for postpartum depression; response within 60 h, durable at least 30 days",
-            "Sedation and sudden loss of consciousness: given under a REMS; avoid in end-stage renal disease"
-          ]
-        },
-        {
-          "h": "Zuranolone",
-          "points": [
-            "Oral GABA-A modulator, evaluated for major depression (Katzung)"
-          ]
-        },
-        {
-          "h": "Why it matters",
-          "points": [
-            "Rapid onset (ketamine often within 24 h) compared with weeks for standard antidepressants"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch30",
-        "GG14 ch18"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-cns",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-016",
-      "type": "basic",
-      "front": "Aducanumab: target, use and main safety issue?",
-      "back": "A monoclonal antibody that reduces amyloid-beta plaques; the first disease-modifying therapy for Alzheimer disease (FDA 2021). Approval was via the Accelerated Approval Program on a surrogate (plaque burden) and was controversial, as clinical benefit was modest. Indication: mild cognitive impairment or mild dementia due to AD, with amyloid confirmed by PET or CSF. Given as monthly IV infusions. Main safety issue: amyloid-related imaging abnormalities (ARIA) in almost half of trial patients: cerebral oedema (ARIA-E) or microhaemorrhages (ARIA-H), often asymptomatic and reversible; MRI before starting and every 6 months. Donanemab is a newer anti-amyloid antibody.",
-      "refs": [
-        "GG14 ch21",
-        "Katzung16 ch60"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-cns",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-017",
-      "type": "cloze",
-      "front": "Classify the neurosteroid antidepressants.",
-      "text": "Brexanolone is a {{neurosteroid}} (allopregnanolone) that acts on {{GABA-A}} receptors; it is given as a {{60-hour}} IV infusion for postpartum depression.",
-      "refs": [
-        "Katzung16 ch30",
-        "GG14 ch18"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-cns",
-      "tags": [
-        "classification",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p4-recent-018",
-      "type": "basic",
-      "front": "Bedaquiline: mechanism, use and key adverse effect?",
-      "back": "A diarylquinoline that inhibits mycobacterial ATP synthase, stopping energy production. Used in multidrug-resistant pulmonary TB as part of a combination. Metabolised by CYP3A4 to M2 (less active); terminal half-life about 5.5 months from tissue redistribution; strong CYP3A4 inhibitors or inducers interact. Adverse effects: nausea, arthralgia, headache; hepatotoxicity; boxed warning for QTc prolongation and associated mortality.",
-      "refs": [
-        "GG14 ch65",
-        "Katzung16 ch47"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-anti-infectives",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-019",
-      "type": "basic",
-      "front": "Pretomanid: how is it activated, what is its spectrum, and what is a key interaction?",
-      "back": "A nitroimidazole prodrug activated inside M. tuberculosis by a deazaflavin (F420)-dependent nitroreductase. In replicating bacilli it blocks mycolic acid synthesis; in non-replicating anaerobic bacilli it releases nitric oxide. Active against M. tuberculosis only, not other mycobacteria. Used with bedaquiline and linezolid for 6 months in XDR, pre-XDR or non-responsive MDR pulmonary TB. Partly metabolised by CYP3A4, so avoid potent CYP3A4 inducers (rifampicin lowers its levels). Can raise liver enzymes.",
-      "refs": [
-        "GG14 ch65",
-        "Katzung16 ch47"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-anti-infectives",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "interactions"
-      ]
-    },
-    {
-      "id": "p4-recent-020",
-      "type": "shortnote",
-      "front": "Short note: BPaL regimen for drug-resistant tuberculosis",
-      "sections": [
-        {
-          "h": "Components",
-          "points": [
-            "Bedaquiline",
-            "Pretomanid",
-            "Linezolid"
-          ]
-        },
-        {
-          "h": "Indication",
-          "points": [
-            "Extensively drug-resistant, pre-extensively drug-resistant, or treatment-non-responsive MDR pulmonary TB; 6 months"
-          ]
-        },
-        {
-          "h": "Key toxicities",
-          "points": [
-            "QT prolongation (bedaquiline): ECG monitoring",
-            "Raised liver enzymes (pretomanid): monitor",
-            "Marrow suppression and peripheral or optic neuropathy with prolonged linezolid"
-          ]
-        },
-        {
-          "h": "Interactions",
-          "points": [
-            "Avoid potent CYP3A4 inducers"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch47",
-        "GG14 ch65"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-anti-infectives",
-      "tags": [
-        "newer-drugs",
-        "uses",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-021",
-      "type": "basic",
-      "front": "Cefiderocol: how does it enter bacteria, and when is it reserved?",
-      "back": "A siderophore cephalosporin. Unlike other beta-lactams, which diffuse through porins, it is bound by bacterial active iron transporters and pumped into the cell, then binds PBPs to inhibit cell wall synthesis. It is stable to all beta-lactamase types, including metallo-beta-lactamases, and is active against drug-resistant Enterobacterales (including carbapenem-resistant), Pseudomonas aeruginosa and Acinetobacter baumannii, but not Gram-positives or anaerobes. Warning: increased mortality in carbapenem-resistant infections in one trial, so reserve it for cases with limited or no alternatives.",
-      "refs": [
-        "Katzung16 ch43",
-        "GG14 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-anti-infectives",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p4-recent-022",
-      "type": "basic",
-      "front": "Baloxavir marboxil: target, dosing principle and key adverse effect?",
-      "back": "An oral prodrug hydrolysed to baloxavir acid, which inhibits the influenza cap-dependent endonuclease, blocking initiation of viral mRNA synthesis. Active against influenza A and B, including oseltamivir-resistant virus. Single-dose treatment of uncomplicated influenza within 2 days of symptoms in patients 12 years and older, and post-exposure prophylaxis. Long half-life (about 80 h). Avoid co-administration with dairy products or polyvalent cations. Resistance: polymerase acidic protein I38T/M/F variants emerged in about 10% of treated patients.",
-      "refs": [
-        "GG14 ch62"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-anti-infectives",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-023",
-      "type": "cloze",
-      "front": "Classify the oral COVID-19 antiviral nirmatrelvir.",
-      "text": "Nirmatrelvir inhibits the viral {{main protease (MPRO)}}; it is given with low-dose {{ritonavir}}, a strong CYP3A4 inhibitor that raises and prolongs its levels, causing many {{CYP3A}} drug interactions.",
-      "refs": [
-        "Katzung16 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-anti-infectives",
-      "tags": [
-        "classification",
-        "interactions",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p4-recent-024",
-      "type": "basic",
-      "front": "Molnupiravir: mechanism and key restriction?",
-      "back": "An oral prodrug of the ribonucleoside beta-D-N4-hydroxycytidine (NHC). Its triphosphate is taken up by the viral RNA-dependent RNA polymerase, causing mutations and lethal mutagenesis. Used within 5 days of symptoms in non-hospitalised mild to moderate COVID-19 at high risk of progression, under Emergency Use Authorization; less effective than nirmatrelvir-ritonavir. Contraindicated in pregnancy and lactation (developmental toxicity in animals) and not used under 18 years (bone and cartilage).",
-      "refs": [
-        "Katzung16 ch49"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-anti-infectives",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "contraindications"
-      ]
-    },
-    {
-      "id": "p4-recent-025",
-      "type": "basic",
-      "front": "CTLA-4 and PD-1 checkpoint inhibitors: where do they act, and which agents block each?",
-      "back": "CTLA-4 competes with CD28 for B7 ligands on antigen-presenting cells, damping T-cell priming. Anti-CTLA-4 antibodies (ipilimumab, tremelimumab) release this brake early, in lymphoid tissue. PD-1 on activated T cells binds PD-L1 and PD-L2, exhausting T cells within tumours. Anti-PD-1 (nivolumab, pembrolizumab, cemiplimab) and anti-PD-L1 (atezolizumab, durvalumab, avelumab) restore antitumour activity.",
-      "refs": [
-        "GG14 ch38",
-        "GG14 ch72"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "newer-drugs",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-recent-026",
-      "type": "essay",
-      "front": "Essay: Immune-related adverse events of checkpoint inhibitors",
-      "sections": [
-        {
-          "h": "Basis",
-          "points": [
-            "Checkpoint blockade releases T-cell brakes, so immune attack on normal tissues can follow"
-          ]
-        },
-        {
-          "h": "Organs affected",
-          "points": [
-            "Skin: rash, pruritus, vitiligo (most frequent)",
-            "Gut: diarrhoea, colitis",
-            "Liver: immune-mediated hepatitis",
-            "Endocrine: hypophysitis, hypo- or hyperthyroidism",
-            "Lung: pneumonitis; also nephritis"
-          ]
-        },
-        {
-          "h": "Relative risk",
-          "points": [
-            "Ipilimumab (anti-CTLA-4): immune-related toxicity in about three-quarters, severe in about one-fifth",
-            "Anti-PD-1 agents: immune-mediated reactions much less common"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Withhold for moderate reactions until baseline",
-            "High-dose corticosteroids for severe reactions",
-            "Discontinue for severe pneumonitis, colitis, hepatitis or nephritis"
-          ]
-        },
-        {
-          "h": "Other",
-          "points": [
-            "Cytokine release syndrome can occur with checkpoint inhibitors"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch72",
-        "Katzung16 ch55"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "adr",
-        "newer-drugs",
-        "mechanism"
-      ]
-    },
-    {
-      "id": "p4-recent-027",
-      "type": "basic",
-      "front": "Sotorasib: which mutation does it target, how does it bind, and what are its key adverse effects?",
-      "back": "A first-in-class oral covalent inhibitor of KRAS G12C, approved in 2021. It bonds irreversibly to the cysteine present only in the mutant protein, locking KRAS in the inactive (GDP-bound) state and blocking downstream signalling. Used in locally advanced or metastatic NSCLC with KRAS G12C after at least one prior systemic therapy (about 13% of NSCLC carry it). Adverse effects: diarrhoea, nausea, low-grade hepatotoxicity; rarely pneumonitis and dyspnoea. Metabolised partly by CYP3A.",
-      "refs": [
-        "GG14 ch71"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-028",
-      "type": "shortnote",
-      "front": "Short note: JAK inhibitors (JAKinibs)",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Oral small molecules that block JAK-STAT signalling used by many cytokines",
-            "Selectivity (GG14): ruxolitinib and baricitinib JAK1/JAK2; upadacitinib, abrocitinib JAK1; fedratinib JAK2; tofacitinib JAK1, JAK2 and JAK3"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Rheumatoid and psoriatic arthritis, ulcerative colitis, atopic dermatitis",
-            "Myelofibrosis, polycythaemia vera, graft-versus-host disease"
-          ]
-        },
-        {
-          "h": "Boxed warning",
-          "points": [
-            "Serious infections",
-            "Higher all-cause mortality including sudden cardiovascular death",
-            "Certain cancers",
-            "Thrombosis, MI and stroke (MACE)",
-            "Arose from a postmarketing tofacitinib study in high cardiovascular-risk patients"
-          ]
-        },
-        {
-          "h": "Practice points",
-          "points": [
-            "Screen for active and latent TB first",
-            "Avoid live vaccines",
-            "Herpes reactivation; monitor lipids",
-            "Ruxolitinib is cleared by CYP3A4: ketoconazole raises, rifampicin lowers levels"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch39",
-        "Katzung16 ch36"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-029",
-      "type": "cloze",
-      "front": "Classify the checkpoint-inhibitor antibodies.",
-      "text": "Atezolizumab, durvalumab and avelumab block {{PD-L1}}, whereas nivolumab and pembrolizumab block {{PD-1}}; ipilimumab blocks {{CTLA-4}}.",
-      "refs": [
-        "GG14 ch72"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "classification",
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p4-recent-030",
-      "type": "essay",
-      "front": "Essay: CAR T-cell therapy",
-      "sections": [
-        {
-          "h": "Concept",
-          "points": [
-            "Patient T cells are collected and transduced (lentiviral vector) to express a chimeric antigen receptor",
-            "The receptor combines antibody variable regions with T-cell signalling domains"
-          ]
-        },
-        {
-          "h": "Current use",
-          "points": [
-            "CD19-directed products for B-cell leukaemias and lymphomas",
-            "BCMA-directed products for multiple myeloma"
-          ]
-        },
-        {
-          "h": "Logistics",
-          "points": [
-            "Autologous product made for each patient",
-            "Cyclophosphamide pretreatment before infusion"
-          ]
-        },
-        {
-          "h": "Toxicities",
-          "points": [
-            "Cytokine release syndrome: fever, nausea, headache, tachycardia, hypotension, dyspnoea",
-            "Neurological toxicities",
-            "Prolonged hypogammaglobulinaemia",
-            "Resistance from loss of CD19"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Tocilizumab, with or without corticosteroids, for cytokine release syndrome",
-            "Supportive care for neurotoxicity; IGIV for hypogammaglobulinaemia"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch55",
-        "GG14 ch72"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p4-recent-031",
-      "type": "shortnote",
-      "front": "Short note: Recent advances in management of NASH",
-      "sections": [
-        {
-          "h": "What it is",
-          "points": [
-            "Nonalcoholic steatohepatitis: fat in the liver with inflammation, not caused by alcohol"
-          ]
-        },
-        {
-          "h": "Pioglitazone (thiazolidinedione)",
-          "points": [
-            "Lowers hepatic lipid accumulation and inflammation in NASH trials",
-            "GG14 calls it the agent with the strongest evidence in this syndrome",
-            "Also lowers transaminases, reflecting less hepatic steatosis"
-          ]
-        },
-        {
-          "h": "Under investigation",
-          "points": [
-            "Resmetirom, a thyroid hormone receptor (TR)-specific agonist, is under investigation for NAFLD",
-            "Still investigational in GG14, so not yet established therapy"
-          ]
-        },
-        {
-          "h": "Cautions",
-          "points": [
-            "Thiazolidinediones should be withheld in clinically apparent liver disease",
-            "Troglitazone was withdrawn for hepatotoxicity; liver injury with pioglitazone is rare"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch51",
-        "GG14 ch47"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "uses",
-        "newer-drugs"
-      ],
-      "status": "draft",
-      "subtopic": "p4-recent-metabolic-lipids-bone"
-    },
-    {
-      "id": "p4-recent-032",
-      "type": "shortnote",
-      "front": "Short note: Recent advances in pain therapy",
-      "sections": [
-        {
-          "h": "Newer opioid-like analgesic",
-          "points": [
-            "Tapentadol: weak mu-opioid binding plus a monoaminergic (noradrenaline) action, similar in structure to tramadol",
-            "Appears at least as effective as tramadol in moderately severe pain, with less nausea and vomiting",
-            "Risks: serotonin syndrome with SSRIs; seizures in predisposed patients"
-          ]
-        },
-        {
-          "h": "Selective COX-2 inhibitors",
-          "points": [
-            "Coxibs available in India: celecoxib, etoricoxib and parecoxib",
-            "Etoricoxib has the highest COX-2 selectivity and is given once daily",
-            "Parecoxib is an injectable prodrug for short-term post-operative pain",
-            "Rofecoxib was withdrawn after an excess of cardiovascular events"
-          ]
-        },
-        {
-          "h": "Biologic and venom-derived approaches",
-          "points": [
-            "Tanezumab: monoclonal antibody against nerve growth factor, used for pain relief in rheumatoid arthritis",
-            "Venoms are a new source of peptide therapeutics: contulakin-G, a cone snail glycopeptide analgesic acting at neurotensin receptors"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch34",
-        "KDT8 ch14",
-        "Sarkar p536-540",
-        "Sarkar p276-280",
-        "Sarkar p281-285"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-recent-cns",
-      "tags": [
-        "newer-drugs"
-      ]
+      "level": 3
     },
     {
       "id": "p4-recent-033",
@@ -931,7 +263,1968 @@
       "tags": [
         "newer-drugs",
         "mechanism"
-      ]
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-039",
+      "type": "shortnote",
+      "subtopic": "p4-recent-cardiorenal",
+      "level": 3,
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "front": "Case: type 2 diabetes with CKD and albuminuria and heart failure. Which newer drugs fit and what to watch?",
+      "sections": [
+        {
+          "h": "Drugs",
+          "points": [
+            "SGLT2 inhibitor: slows kidney disease progression and cuts heart failure hospitalisation",
+            "Finerenone: for CKD with type 2 diabetes",
+            "Sacubitril-valsartan: superior to enalapril in HFrEF"
+          ]
+        },
+        {
+          "h": "Watch",
+          "points": [
+            "Hyperkalaemia with finerenone",
+            "Volume depletion, genital infections, euglycaemic DKA with SGLT2 inhibitors",
+            "Angioedema with sacubitril (neprilysin also breaks down bradykinin)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch29",
+        "GG14 ch33",
+        "GG14 ch51",
+        "Katzung16 ch13",
+        "Katzung16 ch15"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-009",
+      "type": "basic",
+      "front": "Inclisiran: how does it lower LDL-cholesterol, and how is it given?",
+      "back": "A small interfering RNA (FDA approved 2021) that targets PCSK9 mRNA in the liver and blocks PCSK9 synthesis. Fewer LDL receptors are degraded, so LDL-cholesterol falls by about 50%. Given as low-volume subcutaneous injections, allowing twice-yearly dosing. Common adverse effects: injection-site reactions and bronchitis.",
+      "refs": [
+        "GG14 ch37",
+        "Katzung16 ch35"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-011",
+      "type": "cloze",
+      "front": "Classify the newer lipid-lowering drugs.",
+      "text": "Inclisiran is a {{small interfering RNA}} against {{PCSK9}} mRNA; bempedoic acid inhibits {{ATP-citrate lyase}}.",
+      "refs": [
+        "GG14 ch37"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-040",
+      "type": "basic",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What are incretins, and why are GLP-1 analogues made DPP-4 resistant?",
+      "back": "GLP-1 and GIP are gut hormones that raise insulin secretion in a glucose-dependent way. DPP-4 rapidly degrades native GLP-1, so analogues are built to resist it and last longer.",
+      "refs": [
+        "GG14 ch51",
+        "Katzung16 ch41"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2017,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-041",
+      "type": "cloze",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "level": 1,
+      "tags": [
+        "classification"
+      ],
+      "front": "Classify: GLP-1 receptor agonists",
+      "text": "{{Exenatide}}, {{liraglutide}}, {{dulaglutide}}, {{lixisenatide}} and {{semaglutide}} are GLP-1 receptor agonists; {{tirzepatide}} also acts on the GIP receptor.",
+      "refs": [
+        "GG14 ch51",
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-042",
+      "type": "basic",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Romosozumab: what is its target?",
+      "back": "Sclerostin, an osteocyte protein that inhibits Wnt signalling and bone formation. Blocking it raises bone formation and also suppresses resorption.",
+      "refs": [
+        "Katzung16 ch42",
+        "GG14 ch52"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-043",
+      "type": "cloze",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Which drug acts where in cholesterol handling?",
+      "text": "Bempedoic acid acts before HMG-CoA reductase by inhibiting {{ATP-citrate lyase}}; inclisiran lowers LDL-C by blocking {{PCSK9}} synthesis, so more LDL {{receptors}} survive.",
+      "refs": [
+        "GG14 ch37",
+        "Katzung16 ch35"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-006",
+      "type": "basic",
+      "front": "Tirzepatide: mechanism, key use and key adverse effect?",
+      "back": "A dual GIP and GLP-1 receptor agonist: a modified GIP analogue given once weekly by subcutaneous injection. It raises glucose-dependent insulin release, lowers glucagon, slows gastric emptying and reduces appetite. Its safety profile is the same as the GLP-1 receptor agonists: mainly gastrointestinal effects, with the class caution against use in personal or family history of medullary thyroid cancer or MEN 2.",
+      "refs": [
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-007",
+      "type": "basic",
+      "front": "Semaglutide: why is it used in obesity, and what is its key adverse effect?",
+      "back": "A long-acting, DPP-4-resistant GLP-1 receptor agonist given weekly by injection (an oral daily form also exists). Semaglutide 2.4 mg is approved for weight loss independent of diabetes status. Adverse effects of the class: nausea, vomiting, headache, anorexia and pancreatitis. Avoid with a history of medullary thyroid cancer or MEN 2.",
+      "refs": [
+        "GG14 ch51",
+        "Katzung16 ch41"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "newer-drugs",
+        "uses",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-010",
+      "type": "basic",
+      "front": "Bempedoic acid: where does it act, and what adverse effects follow?",
+      "back": "An oral inhibitor of ATP-citrate lyase, acting in the liver in the cholesterol synthesis pathway at a step before HMG-CoA reductase; LDL receptors increase. Monotherapy lowers LDL-C by 15-25%; about 30% with ezetimibe (fixed combination available) and more with a statin. Adverse effects: hyperuricaemia (competition for renal OAT2) raising gout risk, tendon rupture, and rises in CK, creatinine and transaminases. Limit simvastatin to 20 mg and rosuvastatin to 40 mg when combined (myopathy).",
+      "refs": [
+        "GG14 ch37",
+        "Katzung16 ch35"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-012",
+      "type": "basic",
+      "front": "Romosozumab: target, effect on bone, and key warning?",
+      "back": "A monoclonal antibody against sclerostin, an osteocyte protein that inhibits Wnt signalling and bone formation. Blocking it increases bone formation and also suppresses resorption. Given monthly by subcutaneous injection for one year, followed by an antiresorptive to keep the bone gained. Boxed warning: do not use in patients at risk of stroke or coronary vascular disease.",
+      "refs": [
+        "Katzung16 ch42",
+        "GG14 ch52"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-044",
+      "type": "basic",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "level": 2,
+      "tags": [
+        "uses",
+        "interactions"
+      ],
+      "front": "Bempedoic acid with ezetimibe or a statin: what is gained and what limit applies?",
+      "back": "Monotherapy lowers LDL-C by 15-25%, about 30% with ezetimibe (fixed combination exists), and more with a statin. With bempedoic acid, simvastatin is limited to 20 mg and rosuvastatin to 40 mg because of myopathy risk.",
+      "refs": [
+        "GG14 ch37",
+        "Katzung16 ch35"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-045",
+      "type": "basic",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "level": 2,
+      "tags": [
+        "uses"
+      ],
+      "front": "Inclisiran versus bempedoic acid: compare route, dosing and adverse effects.",
+      "back": "Inclisiran is an injected siRNA given about twice yearly (effect over 180 days), with injection-site reactions and bronchitis. Bempedoic acid is a daily oral drug with hyperuricaemia/gout, tendon rupture and enzyme rises.",
+      "refs": [
+        "GG14 ch37",
+        "Katzung16 ch35"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-008",
+      "type": "essay",
+      "front": "Essay: Incretin-based therapy for type 2 diabetes and obesity",
+      "sections": [
+        {
+          "h": "Incretin physiology",
+          "points": [
+            "GLP-1 and GIP are gut hormones that raise insulin secretion in a glucose-dependent way",
+            "DPP-4 rapidly degrades native GLP-1, so analogues are DPP-4 resistant"
+          ]
+        },
+        {
+          "h": "GLP-1 receptor agonists",
+          "points": [
+            "Exenatide, liraglutide, dulaglutide, lixisenatide, semaglutide",
+            "Semaglutide: weekly injection; oral daily form",
+            "Liraglutide 3.0 mg and semaglutide 2.4 mg approved for weight loss"
+          ]
+        },
+        {
+          "h": "Tirzepatide",
+          "points": [
+            "Dual GIP and GLP-1 receptor agonist, weekly",
+            "lowers HbA1c and body weight"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Nausea, vomiting, anorexia, headache",
+            "Pancreatitis"
+          ]
+        },
+        {
+          "h": "Contraindications",
+          "points": [
+            "Personal or family history of medullary thyroid carcinoma or MEN 2"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch51",
+        "Katzung16 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "newer-drugs",
+        "uses",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-031",
+      "type": "shortnote",
+      "front": "Short note: Recent advances in management of NASH",
+      "sections": [
+        {
+          "h": "What it is",
+          "points": [
+            "Nonalcoholic steatohepatitis: fat in the liver with inflammation, not caused by alcohol"
+          ]
+        },
+        {
+          "h": "Pioglitazone (thiazolidinedione)",
+          "points": [
+            "Lowers hepatic lipid accumulation and inflammation in NASH trials",
+            "Also lowers transaminases, reflecting less hepatic steatosis"
+          ]
+        },
+        {
+          "h": "Under investigation",
+          "points": [
+            "Resmetirom, a thyroid hormone receptor (TR)-specific agonist, is under investigation for NAFLD",
+            "Still investigational in GG14, so not yet established therapy"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "Thiazolidinediones should be withheld in clinically apparent liver disease",
+            "Troglitazone was withdrawn for hepatotoxicity"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch51",
+        "GG14 ch47"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses",
+        "newer-drugs"
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "level": 3
+    },
+    {
+      "id": "p4-recent-013",
+      "type": "basic",
+      "front": "Gepants: what are they, and which are used for acute treatment versus prevention of migraine?",
+      "back": "Small-molecule CGRP receptor antagonists. Trigeminal nerves release CGRP, an extremely powerful vasodilator, in migraine. First-generation gepants (olcegepant, telcagepant) worked but were limited by liver toxicity. Second generation: ubrogepant and rimegepant for acute attacks; rimegepant and atogepant for prevention.",
+      "refs": [
+        "Katzung16 ch17",
+        "Katzung16 ch16",
+        "GG14 ch15"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-014",
+      "type": "cloze",
+      "front": "Classify the CGRP monoclonal antibodies used for migraine prevention.",
+      "text": "Erenumab binds the {{CGRP receptor}}, whereas eptinezumab, fremanezumab and galcanezumab bind the {{CGRP peptide}}; they are injected antibodies used for migraine prevention.",
+      "refs": [
+        "Katzung16 ch17",
+        "Katzung16 ch16"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "classification",
+        "newer-drugs",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-017",
+      "type": "cloze",
+      "front": "Classify the neurosteroid antidepressants.",
+      "text": "Brexanolone is a {{neurosteroid}} (allopregnanolone) that acts on {{GABA-A}} receptors; it is given as a {{60-hour}} IV infusion for postpartum depression.",
+      "refs": [
+        "Katzung16 ch30",
+        "GG14 ch18"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-046",
+      "type": "basic",
+      "subtopic": "p4-recent-cns",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Esketamine: what is it, and how is it given?",
+      "back": "The S-enantiomer of ketamine, a high-affinity non-competitive NMDA receptor antagonist, given intranasally as an adjunct in treatment-resistant depression (approved 2019). Dissociation and abuse potential are key concerns.",
+      "refs": [
+        "Katzung16 ch30",
+        "GG14 ch18"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-047",
+      "type": "basic",
+      "subtopic": "p4-recent-cns",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "CGRP in migraine: why is it a drug target?",
+      "back": "Trigeminal nerves release CGRP, an extremely powerful vasodilator, during migraine. Blocking the peptide (antibodies) or its receptor (gepants, erenumab) is the basis of newer migraine drugs.",
+      "refs": [
+        "Katzung16 ch17",
+        "Katzung16 ch16",
+        "GG14 ch15"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-016",
+      "type": "basic",
+      "front": "Aducanumab: target, use and main safety issue?",
+      "back": "A monoclonal antibody that reduces amyloid-beta plaques; an anti-amyloid antibody used in Alzheimer disease. Approval was via the Accelerated Approval Program on a surrogate (plaque burden) and was controversial. Indication: mild cognitive impairment or mild dementia due to AD, with amyloid confirmed by PET or CSF. Given as monthly IV infusions. Main safety issue: amyloid-related imaging abnormalities (ARIA) in almost half of trial patients: cerebral oedema (ARIA-E) or microhaemorrhages (ARIA-H), often asymptomatic and reversible; MRI before starting and every 6 months. Donanemab is a newer anti-amyloid antibody.",
+      "refs": [
+        "GG14 ch21",
+        "Katzung16 ch60"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-048",
+      "type": "basic",
+      "subtopic": "p4-recent-cns",
+      "level": 2,
+      "tags": [
+        "uses"
+      ],
+      "front": "Gepants versus CGRP monoclonal antibodies: compare.",
+      "back": "Gepants are oral small-molecule receptor antagonists (ubrogepant, rimegepant acute; rimegepant, atogepant prevention); first-generation ones had liver toxicity. The antibodies (erenumab on the receptor; eptinezumab, fremanezumab, galcanezumab on the peptide) are injected and used for prevention.",
+      "refs": [
+        "Katzung16 ch17",
+        "Katzung16 ch16"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-049",
+      "type": "basic",
+      "subtopic": "p4-recent-cns",
+      "level": 2,
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "front": "Esketamine versus brexanolone: compare the two rapid-acting antidepressants.",
+      "back": "Esketamine is intranasal, NMDA antagonist, for treatment-resistant depression, with dissociation. Brexanolone is a GABA-A neurosteroid given as a 60-hour IV infusion for postpartum depression,. Both act more rapidly than usual antidepressants.",
+      "refs": [
+        "Katzung16 ch30",
+        "GG14 ch18"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-015",
+      "type": "shortnote",
+      "front": "Short note: Rapid-acting antidepressants that act outside monoamine pathways",
+      "sections": [
+        {
+          "h": "Esketamine",
+          "points": [
+            "S-enantiomer of ketamine; high-affinity non-competitive NMDA receptor antagonist",
+            "Intranasal; approved 2019 as adjunct for treatment-resistant depression",
+            "Dissociative effects and abuse potential"
+          ]
+        },
+        {
+          "h": "Brexanolone",
+          "points": [
+            "Allopregnanolone (progesterone derivative); acts on GABA-A receptors",
+            "60-hour IV infusion for postpartum depression; response within 60 h, durable at least 30 days"
+          ]
+        },
+        {
+          "h": "Zuranolone",
+          "points": [
+            "Oral GABA-A modulator, evaluated for major depression (Katzung)"
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "points": [
+            "Rapid onset compared with standard antidepressants"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch30",
+        "GG14 ch18"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-032",
+      "type": "shortnote",
+      "front": "Short note: Recent advances in pain therapy",
+      "sections": [
+        {
+          "h": "Newer opioid-like analgesic",
+          "points": [
+            "Tapentadol: weak mu-opioid binding plus a monoaminergic (noradrenaline) action"
+          ]
+        },
+        {
+          "h": "Selective COX-2 inhibitors",
+          "points": [
+            "Coxibs available in India: celecoxib, etoricoxib and parecoxib",
+            "Etoricoxib is given once daily (60-120 mg)",
+            "Parecoxib is an injectable prodrug for short-term post-operative pain",
+            "Rofecoxib was withdrawn after an excess of cardiovascular events"
+          ]
+        },
+        {
+          "h": "Biologic and venom-derived approaches",
+          "points": [
+            "Tanezumab: monoclonal antibody against nerve growth factor, used for pain relief in rheumatoid arthritis",
+            "Venoms are a new source of peptide therapeutics: contulakin-G, a cone snail glycopeptide analgesic acting at neurotensin receptors"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch34",
+        "KDT8 ch14",
+        "Sarkar p536-540",
+        "Sarkar p276-280",
+        "Sarkar p281-285"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-023",
+      "type": "cloze",
+      "front": "Classify the oral COVID-19 antiviral nirmatrelvir.",
+      "text": "Nirmatrelvir inhibits the viral {{main protease (MPRO)}}; it is given with low-dose {{ritonavir}}, a strong CYP3A4 inhibitor that raises and prolongs its levels, causing many {{CYP3A}} drug interactions.",
+      "refs": [
+        "Katzung16 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "classification",
+        "interactions",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-050",
+      "type": "basic",
+      "subtopic": "p4-recent-anti-infectives",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Bedaquiline: what does it inhibit?",
+      "back": "Mycobacterial ATP synthase, stopping energy production. It is a diarylquinoline for multidrug-resistant pulmonary TB, always in combination.",
+      "refs": [
+        "GG14 ch65",
+        "Katzung16 ch47"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-051",
+      "type": "basic",
+      "subtopic": "p4-recent-anti-infectives",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Cefiderocol: what makes it a siderophore cephalosporin?",
+      "back": "It is bound by bacterial iron transporters and pumped into the cell instead of diffusing through porins, then inhibits cell wall synthesis via PBPs. It is stable to all beta-lactamases, including metallo-beta-lactamases.",
+      "refs": [
+        "Katzung16 ch43",
+        "GG14 ch58"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-052",
+      "type": "basic",
+      "subtopic": "p4-recent-anti-infectives",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Baloxavir marboxil: what viral step does it block?",
+      "back": "Its active form baloxavir acid inhibits the influenza cap-dependent endonuclease, blocking initiation of viral mRNA synthesis. It is active against influenza A and B.",
+      "refs": [
+        "GG14 ch62"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-053",
+      "type": "basic",
+      "subtopic": "p4-recent-anti-infectives",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Molnupiravir: which class and how does it act?",
+      "back": "A ribonucleoside prodrug (NHC) whose triphosphate is incorporated by the viral RNA-dependent RNA polymerase, causing lethal mutagenesis.",
+      "refs": [
+        "Katzung16 ch49"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-018",
+      "type": "basic",
+      "front": "Bedaquiline: mechanism, use and key adverse effect?",
+      "back": "A diarylquinoline that inhibits mycobacterial ATP synthase, stopping energy production. Used in multidrug-resistant pulmonary TB as part of a combination. strong CYP3A4 inhibitors or inducers interact. Adverse effects: nausea, arthralgia, headache; QTc prolongation.",
+      "refs": [
+        "GG14 ch65",
+        "Katzung16 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-019",
+      "type": "basic",
+      "front": "Pretomanid: how is it activated, what is its spectrum, and what is a key interaction?",
+      "back": "A nitroimidazole prodrug activated inside M. tuberculosis by a deazaflavin (F420)-dependent nitroreductase. In replicating bacilli it blocks mycolic acid synthesis; in non-replicating anaerobic bacilli it releases nitric oxide. Used with bedaquiline and linezolid for 6 months in XDR, pre-XDR or non-responsive MDR pulmonary TB. Partly metabolised by CYP3A4, so avoid potent CYP3A4 inducers (they lower its levels). Can raise liver enzymes.",
+      "refs": [
+        "GG14 ch65",
+        "Katzung16 ch47"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-021",
+      "type": "basic",
+      "front": "Cefiderocol: how does it enter bacteria, and when is it reserved?",
+      "back": "A siderophore cephalosporin. Unlike other beta-lactams, which diffuse through porins, it is bound by bacterial active iron transporters and pumped into the cell, then binds PBPs to inhibit cell wall synthesis. It is stable to all beta-lactamase types, including metallo-beta-lactamases, and is active against drug-resistant Enterobacterales (including carbapenem-resistant), Pseudomonas aeruginosa and Acinetobacter baumannii, but not Gram-positives or anaerobes. Warning: increased mortality in carbapenem-resistant infections in one trial, so reserve it for cases with limited or no alternatives.",
+      "refs": [
+        "Katzung16 ch43",
+        "GG14 ch58"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-022",
+      "type": "basic",
+      "front": "Baloxavir marboxil: target, use and key precaution?",
+      "back": "An oral prodrug hydrolysed to baloxavir acid, which inhibits the influenza cap-dependent endonuclease, blocking initiation of viral mRNA synthesis. Active against influenza A and B. Used for acute uncomplicated influenza. Avoid concurrent antacids or dairy products; contraindicated in immunocompromised and pregnant patients. Resistance: polymerase acidic protein I38T/M/F variants emerged in about 10% of treated patients.",
+      "refs": [
+        "GG14 ch62"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-024",
+      "type": "basic",
+      "front": "Molnupiravir: mechanism and key restriction?",
+      "back": "An oral prodrug of the ribonucleoside beta-D-N4-hydroxycytidine (NHC). Its triphosphate is taken up by the viral RNA-dependent RNA polymerase, causing mutations and lethal mutagenesis. Used as an oral antiviral for COVID-19. Contraindicated in pregnancy and lactation (developmental toxicity in animals) and not used under 18 years (bone and cartilage).",
+      "refs": [
+        "Katzung16 ch49"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "contraindications"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-020",
+      "type": "shortnote",
+      "front": "Short note: BPaL regimen for drug-resistant tuberculosis",
+      "sections": [
+        {
+          "h": "Components",
+          "points": [
+            "Bedaquiline",
+            "Pretomanid",
+            "Linezolid"
+          ]
+        },
+        {
+          "h": "Indication",
+          "points": [
+            "Extensively drug-resistant, pre-extensively drug-resistant, or treatment-non-responsive MDR pulmonary TB; 6 months"
+          ]
+        },
+        {
+          "h": "Key toxicities",
+          "points": [
+            "QT prolongation (bedaquiline): ECG monitoring",
+            "Raised liver enzymes (pretomanid): monitor",
+            "Marrow suppression and peripheral or optic neuropathy with prolonged linezolid"
+          ]
+        },
+        {
+          "h": "Interactions",
+          "points": [
+            "Avoid potent CYP3A4 inducers"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch47",
+        "GG14 ch65"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "newer-drugs",
+        "uses",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-054",
+      "type": "shortnote",
+      "subtopic": "p4-recent-anti-infectives",
+      "level": 3,
+      "tags": [
+        "newer-drugs"
+      ],
+      "front": "Short note: recent advances in tuberculosis therapy",
+      "sections": [
+        {
+          "h": "Bedaquiline",
+          "points": [
+            "Inhibits ATP synthase; QTc boxed warning; CYP3A4 interactions"
+          ]
+        },
+        {
+          "h": "Pretomanid",
+          "points": [
+            "Nitroimidazole prodrug activated by F420-dependent nitroreductase; blocks mycolic acid synthesis, releases NO in non-replicating bacilli"
+          ]
+        },
+        {
+          "h": "BPaL regimen",
+          "points": [
+            "Bedaquiline, pretomanid, linezolid for 6 months in XDR, pre-XDR or non-responsive MDR TB"
+          ]
+        },
+        {
+          "h": "Cautions",
+          "points": [
+            "QT, liver enzymes, linezolid marrow suppression and neuropathy; avoid CYP3A4 inducers such as rifampicin"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch65",
+        "Katzung16 ch47"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-029",
+      "type": "cloze",
+      "front": "Classify the checkpoint-inhibitor antibodies.",
+      "text": "Atezolizumab, durvalumab and avelumab block {{PD-L1}}, whereas nivolumab and pembrolizumab block {{PD-1}}; ipilimumab blocks {{CTLA-4}}.",
+      "refs": [
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "classification",
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-055",
+      "type": "basic",
+      "subtopic": "p4-recent-oncology-immunology",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "What is an immune checkpoint, and what does blocking it do?",
+      "back": "Checkpoints such as CTLA-4 and PD-1 are brakes on T cells. Antibodies against them release the brake and restore antitumour activity, but can also unleash immune attack on normal tissue.",
+      "refs": [
+        "GG14 ch38",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-056",
+      "type": "basic",
+      "subtopic": "p4-recent-oncology-immunology",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Sotorasib: what is its target?",
+      "back": "The mutant KRAS G12C protein: an oral covalent inhibitor that bonds the cysteine found only in the mutant and locks KRAS in its inactive GDP-bound state.",
+      "refs": [
+        "GG14 ch71"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-057",
+      "type": "basic",
+      "subtopic": "p4-recent-oncology-immunology",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "CAR T-cell therapy: what is it?",
+      "back": "A patient's own T cells are collected and transduced to express a chimeric antigen receptor that joins antibody variable regions to T-cell signalling domains. Products target CD19 or BCMA.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-058",
+      "type": "basic",
+      "subtopic": "p4-recent-oncology-immunology",
+      "level": 1,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "JAK inhibitors: what pathway do they block?",
+      "back": "JAK-STAT signalling, used by many cytokines. They are oral small molecules, so they dampen several cytokine signals at once.",
+      "refs": [
+        "GG14 ch39",
+        "Katzung16 ch36"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-025",
+      "type": "basic",
+      "front": "CTLA-4 and PD-1 checkpoint inhibitors: where do they act, and which agents block each?",
+      "back": "CTLA-4 competes with CD28 for B7 ligands on antigen-presenting cells, damping T-cell priming. Anti-CTLA-4 antibodies (ipilimumab, tremelimumab) release this brake early, in lymphoid tissue. PD-1 on activated T cells binds PD-L1 and PD-L2, exhausting T cells within tumours. Anti-PD-1 (nivolumab, pembrolizumab, cemiplimab) and anti-PD-L1 (atezolizumab, durvalumab, avelumab) restore antitumour activity.",
+      "refs": [
+        "GG14 ch38",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-027",
+      "type": "basic",
+      "front": "Sotorasib: which mutation does it target, and how does it bind?",
+      "back": "A first-in-class covalent inhibitor of KRAS G12C, approved in 2021. It bonds irreversibly to the cysteine present only in the mutant protein, locking KRAS in the inactive (GDP-bound) state and blocking downstream signalling. Used in locally advanced or metastatic NSCLC with KRAS G12C after at least one prior systemic therapy.",
+      "refs": [
+        "GG14 ch71"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-059",
+      "type": "basic",
+      "subtopic": "p4-recent-oncology-immunology",
+      "level": 2,
+      "tags": [
+        "adr"
+      ],
+      "front": "Ipilimumab versus anti-PD-1 antibodies: compare immune toxicity.",
+      "back": "Ipilimumab (anti-CTLA-4) causes immune-related adverse events. Combining anti-PD-1 with anti-CTLA-4 increases how often they occur.",
+      "refs": [
+        "GG14 ch72",
+        "Katzung16 ch55"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-060",
+      "type": "basic",
+      "subtopic": "p4-recent-oncology-immunology",
+      "level": 2,
+      "tags": [
+        "adr"
+      ],
+      "front": "CAR T cytokine release syndrome: features and treatment?",
+      "back": "Fever, nausea, headache, tachycardia, hypotension and dyspnoea. Tocilizumab is used for severe CAR T cytokine release syndrome.",
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-recent-026",
+      "type": "essay",
+      "front": "Essay: Immune-related adverse events of checkpoint inhibitors",
+      "sections": [
+        {
+          "h": "Basis",
+          "points": [
+            "Checkpoint blockade releases T-cell brakes, so immune attack on normal tissues can follow"
+          ]
+        },
+        {
+          "h": "Organs affected",
+          "points": [
+            "Skin: rash, pruritus, vitiligo",
+            "Gut: diarrhoea, colitis",
+            "Liver: immune-mediated hepatitis",
+            "Endocrine: hypophysitis, hypo- or hyperthyroidism",
+            "Lung: pneumonitis; also nephritis"
+          ]
+        },
+        {
+          "h": "Relative risk",
+          "points": [
+            "Ipilimumab (anti-CTLA-4): immune-related toxicity, increased when combined with anti-PD-1",
+            "Anti-PD-1 agents: immune-mediated reactions as monotherapy"
+          ]
+        },
+        {
+          "h": "Other",
+          "points": []
+        }
+      ],
+      "refs": [
+        "GG14 ch72",
+        "Katzung16 ch55"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "adr",
+        "newer-drugs",
+        "mechanism"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-028",
+      "type": "shortnote",
+      "front": "Short note: JAK inhibitors (JAKinibs)",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Oral small molecules that block JAK-STAT signalling used by many cytokines",
+            "Selectivity (GG14): ruxolitinib and baricitinib JAK1/JAK2; upadacitinib, abrocitinib, filgotinib JAK1; fedratinib, pacritinib JAK2; tofacitinib JAK1, JAK2 and JAK3"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Rheumatoid and psoriatic arthritis, ulcerative colitis, atopic dermatitis",
+            "Myelofibrosis, polycythaemia vera, graft-versus-host disease"
+          ]
+        },
+        {
+          "h": "Boxed warning",
+          "points": [
+            "Serious infections",
+            "Higher all-cause mortality including sudden cardiovascular death",
+            "Certain cancers",
+            "Thrombosis, MI and stroke (MACE)"
+          ]
+        },
+        {
+          "h": "Practice points",
+          "points": [
+            "Screen for active and latent TB first",
+            "Avoid live vaccines",
+            "Herpes reactivation; monitor lipids"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch39",
+        "Katzung16 ch36"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-030",
+      "type": "essay",
+      "front": "Essay: CAR T-cell therapy",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Patient T cells are collected and transduced to express a chimeric antigen receptor",
+            "The receptor combines antibody variable regions with T-cell signalling domains"
+          ]
+        },
+        {
+          "h": "Current use",
+          "points": [
+            "CD19-directed products for B-cell leukaemias and lymphomas",
+            "BCMA-directed products for multiple myeloma"
+          ]
+        },
+        {
+          "h": "Logistics",
+          "points": [
+            "Autologous product made for each patient",
+            "Cyclophosphamide pretreatment before infusion"
+          ]
+        },
+        {
+          "h": "Toxicities",
+          "points": [
+            "Cytokine release syndrome: fever, nausea, headache, tachycardia, hypotension, dyspnoea",
+            "Neurological toxicities"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Tocilizumab for severe cytokine release syndrome"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch55",
+        "GG14 ch72"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-061",
+      "type": "basic",
+      "front": "Cannabinoid receptors: which two types, and where are they found?",
+      "back": "CB1 is high in the brain (CNS); CB2 is mainly on immune cells and peripheral tissues.",
+      "refs": [
+        "GG14 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-062",
+      "type": "basic",
+      "front": "Name the two main endocannabinoids.",
+      "back": "Anandamide (AEA), a high-affinity but low-efficacy partial agonist; and 2-arachidonoyl glycerol (2-AG), a less potent but highly efficacious CB1 agonist.",
+      "refs": [
+        "GG14 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-063",
+      "type": "basic",
+      "front": "THC versus 2-AG at CB1: why does THC act as a weaker signal?",
+      "back": "THC is a low-efficacy agonist at CB1 and CB2, while 2-AG is more efficacious; so THC can blunt endocannabinoid signalling where receptor density is limited.",
+      "refs": [
+        "GG14 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-064",
+      "type": "cloze",
+      "front": "Classify the cannabinoid-based drugs.",
+      "text": "Synthetic THC: {{dronabinol}} and {{nabilone}}; THC plus CBD extract: {{nabiximols}}; CBD, approved for some epilepsies: {{cannabidiol}}.",
+      "refs": [
+        "GG14 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-065",
+      "type": "basic",
+      "front": "Where in the brain does cannabinoid signalling regulate appetite?",
+      "back": "Hypothalamic feeding circuits; hypothalamic endocannabinoid levels rise with fasting and fall after feeding. Peripheral CB1 on vagal afferents also raises food intake.",
+      "refs": [
+        "GG14 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-cns",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-066",
+      "type": "basic",
+      "front": "Orlistat: site of action and mechanism?",
+      "back": "A GI lipase inhibitor that acts in the gut lumen to reduce absorption of dietary fat.",
+      "refs": [
+        "Katzung16 ch16"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-067",
+      "type": "basic",
+      "front": "Which anti-obesity drugs are approved as single agents in the USA?",
+      "back": "Semaglutide, liraglutide, orlistat, phentermine and cellulose hydrogel. Combinations: phentermine plus topiramate; naltrexone plus bupropion. Lorcaserin was withdrawn in 2020.",
+      "refs": [
+        "Katzung16 ch16"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-068",
+      "type": "basic",
+      "front": "Rimonabant: what kind of ligand is it?",
+      "back": "A CB1 inverse agonist developed for obesity; it reduces CB1 signalling.",
+      "refs": [
+        "GG14 ch26",
+        "Katzung16 ch16"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-069",
+      "type": "basic",
+      "front": "Rimonabant: why was it withdrawn, and why did it fail FDA approval?",
+      "back": "Caused weight loss, but its adverse depressive and neurological symptoms led to market withdrawal; it is not approved in the US.",
+      "refs": [
+        "GG14 ch26",
+        "Sarkar p456-460"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-070",
+      "type": "basic",
+      "front": "How does CB1 blockade cause weight loss?",
+      "back": "Food intake falls only transiently; the lasting weight loss comes from higher energy expenditure, through CB1 blockade on adipocytes, hepatocytes and skeletal muscle.",
+      "refs": [
+        "GG14 ch26"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-071",
+      "type": "basic",
+      "front": "Phentermine: class, use and key toxicity?",
+      "back": "An amphetamine-like CNS appetite suppressant; combined with topiramate it forms Qsymia (approved in the US in 2012).",
+      "refs": [
+        "Katzung16 ch16",
+        "RangDale9 ch33"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-072",
+      "type": "essay",
+      "front": "Essay: Cannabinoid receptors, obesity and the anti-obesity drugs",
+      "sections": [
+        {
+          "h": "Receptors",
+          "points": [
+            "CB1 in the brain, CB2 on immune cells",
+            "Endocannabinoids anandamide and 2-AG; THC is a weak agonist"
+          ]
+        },
+        {
+          "h": "Appetite",
+          "points": [
+            "Hypothalamic feeding circuits; fasting raises endocannabinoid levels",
+            "Excess endocannabinoid activity promotes obesity"
+          ]
+        },
+        {
+          "h": "Blockade",
+          "points": [
+            "CB1 blockade (rimonabant) cut weight modestly, mainly via energy expenditure",
+            "Withdrawn for anxiety, depression and suicide risk"
+          ]
+        },
+        {
+          "h": "Applied anatomy of drugs",
+          "points": [
+            "Hypothalamus and brain: phentermine and semaglutide",
+            "Gut lumen: orlistat blocks lipase, so fat is not absorbed",
+            "Adipocyte, liver and muscle: site of CB1 weight effect"
+          ]
+        },
+        {
+          "h": "Outlook",
+          "points": [
+            "Peripherally restricted CB1 antagonists in development",
+            "Combination drugs approved; lorcaserin withdrawn"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch26",
+        "Katzung16 ch16"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-metabolic-lipids-bone",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-073",
+      "type": "basic",
+      "front": "What is pharmacomicrobiomics?",
+      "back": "The study of how gut microbes interact with drugs (xenobiotics), altering drug effect and toxicity.",
+      "refs": [
+        "GG14 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-074",
+      "type": "basic",
+      "front": "Which drug reactions do gut bacteria perform?",
+      "back": "Reduction, hydrolysis, hydroxylation and deconjugation of drugs, which can inactivate them or change their excretion.",
+      "refs": [
+        "GG14 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-075",
+      "type": "basic",
+      "front": "Digoxin and the gut: which organism and what effect?",
+      "back": "Eggerthella lenta (a specific strain) reduces the lactone ring of digoxin, so the drug is inactivated; its effect varies between people.",
+      "refs": [
+        "GG14 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "interactions"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-076",
+      "type": "basic",
+      "front": "Antibiotics and the gut microbiome: what happens?",
+      "back": "They reduce susceptible gut microbes and may permanently affect the microbiome of infants; they can also disturb the immune system.",
+      "refs": [
+        "GG14 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-077",
+      "type": "basic",
+      "front": "PPIs and metformin: effect on gut microbiota?",
+      "back": "PPIs alter gut taxa (via pH and direct action on commensals); metformin changed 86 strains and 48 pathways, which confounded T2DM microbiome studies.",
+      "refs": [
+        "GG14 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-078",
+      "type": "basic",
+      "front": "Gut bacteria and immune checkpoint inhibitor response in melanoma?",
+      "back": "Faecalibacterium abundance and high alpha diversity were linked to better response and longer progression-free survival; Bacteroidales abundance to shorter survival.",
+      "refs": [
+        "GG14 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-079",
+      "type": "basic",
+      "front": "Fusobacterium nucleatum: what is its clinical link?",
+      "back": "Associated with shorter survival in colorectal cancer and with recurrence after chemotherapy.",
+      "refs": [
+        "GG14 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-080",
+      "type": "shortnote",
+      "front": "Short note: Pharmacomicrobiomics",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Interaction of gut microbiome with drugs"
+          ]
+        },
+        {
+          "h": "Mechanisms",
+          "points": [
+            "Direct drug metabolism (reduction, hydrolysis, deconjugation)",
+            "Indirect effect on CYPs, transporters and enterohepatic recycling",
+            "Effect on pharmacodynamics"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Digoxin inactivation by Eggerthella lenta",
+            "Checkpoint inhibitor response linked to Faecalibacterium",
+            "Metformin and PPIs alter gut microbes"
+          ]
+        },
+        {
+          "h": "Clinical relevance",
+          "points": [
+            "Variable efficacy and toxicity between patients",
+            "Antibiotics disturb the microbiome",
+            "Needs inclusion in precision medicine and in bioavailability (F)"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch6"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-anti-infectives",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-081",
+      "type": "basic",
+      "front": "What is high-throughput screening (HTS)?",
+      "back": "Robotic testing of hundreds of thousands of compounds in cellular or molecular activity assays, at relatively low cost.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-082",
+      "type": "basic",
+      "front": "What is virtual HTS?",
+      "back": "Docking of thousands or millions of library compounds into a protein's binding site; the top-scoring ones (tens to hundreds) are tested experimentally.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-083",
+      "type": "basic",
+      "front": "AI in drug discovery: how are deep neural networks trained?",
+      "back": "On existing protein-small molecule binding data, DNA-encoded library results and protein structures, to predict binding and design ligands.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-084",
+      "type": "basic",
+      "front": "Besides binding, what can AI predict in drug discovery?",
+      "back": "Protein three-dimensional structures, molecular energies by conformation, and properties such as water solubility.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-085",
+      "type": "basic",
+      "front": "Limitation of docking-based virtual screening?",
+      "back": "Not all top-scoring compounds bind well; binders are only enriched relative to the library, so experimental testing is still needed.",
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-086",
+      "type": "essay",
+      "front": "Essay: Artificial intelligence in drug discovery: applications and techniques",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Drug discovery: from medicinal plants to computer-aided design",
+            "Large libraries and high-throughput screening"
+          ]
+        },
+        {
+          "h": "Techniques",
+          "points": [
+            "Structure-based docking and virtual HTS",
+            "Deep neural networks trained on binding and structure data"
+          ]
+        },
+        {
+          "h": "Applications",
+          "points": [
+            "Predicting protein-ligand binding and designing ligands",
+            "Predicting protein structure, energies and solubility"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Docking enriches binders but does not confirm them",
+            "Experimental validation still required"
+          ]
+        },
+        {
+          "h": "Outlook",
+          "points": [
+            "AI and machine learning expected to play a growing role"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch1"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p4-recent-087",
+      "type": "basic",
+      "front": "Which JAK inhibitor is approved for severe alopecia areata?",
+      "back": "Baricitinib: once-daily oral drug approved by the FDA in 2022, the first systemic therapy for severe alopecia areata in adults.",
+      "refs": [
+        "Katzung16 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "newer-drugs",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-088",
+      "type": "basic",
+      "front": "Baricitinib: class?",
+      "back": "An oral JAK inhibitor (GG14 lists it with the JAK1/JAK2 inhibitors); it blocks cytokine signalling through JAK.",
+      "refs": [
+        "GG14 ch39"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-089",
+      "type": "basic",
+      "front": "JAK inhibitors in alopecia areata: what is the evidence status?",
+      "back": "Baricitinib is approved; further JAK inhibitor trials in alopecia areata, lupus, Sjogren syndrome and inflammatory eye disease are ongoing.",
+      "refs": [
+        "GG14 ch39",
+        "Katzung16 ch61"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-090",
+      "type": "basic",
+      "front": "JAK inhibitors: main safety concern?",
+      "back": "Serious infections from immunosuppression and thrombosis; the boxed warning also flags cardiovascular events and certain cancers.",
+      "refs": [
+        "GG14 PDF p809"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-091",
+      "type": "basic",
+      "front": "Topical minoxidil in hair loss: what is it used for?",
+      "back": "Topical 2% minoxidil promotes hair growth in male pattern baldness and in alopecia areata; the response is slow.",
+      "refs": [
+        "KDT8 PDF p626"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-092",
+      "type": "basic",
+      "front": "Finasteride in hair loss: class and status?",
+      "back": "A 5-alpha reductase inhibitor; effective in male pattern baldness, with response taking three months or more.",
+      "refs": [
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-093",
+      "type": "cloze",
+      "front": "Classify the drugs used in hair loss.",
+      "text": "Topical potassium-channel opener: {{minoxidil}}; 5-alpha reductase inhibitor: {{finasteride}}; oral JAK inhibitor for alopecia areata: {{baricitinib}}.",
+      "refs": [
+        "Katzung16 ch11",
+        "Katzung16 ch61",
+        "KDT8 ch21"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-recent-094",
+      "type": "basic",
+      "front": "Oral minoxidil: which side effect affects hair?",
+      "back": "Hirsutism (excess hair growth) is a recognised side effect of oral minoxidil.",
+      "refs": [
+        "KDT8 PDF p626"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-recent-095",
+      "type": "essay",
+      "front": "Essay: Recent advances in the treatment of alopecia areata",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Hair loss; alopecia areata listed among autoimmune and inflammatory conditions treated with JAK inhibitors"
+          ]
+        },
+        {
+          "h": "Advances",
+          "points": [
+            "Oral JAK inhibitor baricitinib, FDA approved 2022 for severe disease",
+            "JAK inhibitor trials ongoing in alopecia areata and other immune conditions"
+          ]
+        },
+        {
+          "h": "Risks",
+          "points": [
+            "Infection risk from immunosuppression; anaemia and thrombocytopenia"
+          ]
+        },
+        {
+          "h": "Older options",
+          "points": [
+            "Topical minoxidil, slow and incomplete response",
+            "Finasteride is for male pattern baldness"
+          ]
+        },
+        {
+          "h": "Outlook",
+          "points": [
+            "More JAK inhibitors under development"
+          ]
+        }
+      ],
+      "refs": [
+        "Katzung16 ch61",
+        "GG14 ch39",
+        "GG14 ch32",
+        "KDT8 ch21"
+      ],
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-recent-oncology-immunology",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
     }
   ]
 }

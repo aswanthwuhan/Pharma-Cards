@@ -16,7 +16,8 @@
       "tags": [
         "adr",
         "contraindications"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-002",
@@ -32,23 +33,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
-    },
-    {
-      "id": "p3-misc-003",
-      "type": "basic",
-      "front": "Acitretin: indications and its pregnancy and alcohol precautions.",
-      "back": "Oral synthetic retinoid for severe psoriasis, lichen planus and severe ichthyosis. It is highly teratogenic and accumulates in body fat, so elimination takes months. Avoid conception during treatment and for 3 years after stopping, and avoid alcohol during treatment and for 3 months after.",
-      "refs": [
-        "KDT8 ch66"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-skin",
-      "tags": [
-        "uses",
-        "contraindications"
-      ]
+      "level": 1
     },
     {
       "id": "p3-misc-004",
@@ -64,7 +50,123 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-006",
+      "type": "basic",
+      "front": "Keratolytics: salicylic acid and urea, concentrations and uses.",
+      "back": "Salicylic acid at 10 to 20% (in alcohol or propylene glycol) dissolves corns and works better under an occlusive dressing; 3 to 5% is used in other conditions. Urea at 5 to 20% acts as a humectant that softens keratin in ichthyosis and hyperkeratotic lesions, and it enhances penetration of a topical steroid applied with it.",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-010",
+      "type": "cloze",
+      "front": "Classify: sunscreens and sun protection",
+      "text": "Chemical sunscreens such as {{PABA}} absorb UVB, {{benzophenones}} block UVA, and physical sunscreens such as {{zinc oxide}} and {{titanium dioxide}} scatter UV and visible light. SPF is the UVB dose causing minimal erythema on protected skin divided by the dose on unprotected skin.",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-011",
+      "type": "cloze",
+      "front": "Classify: topical corticosteroid potency (KDT grading)",
+      "text": "Potent: {{clobetasol propionate}}, betamethasone valerate and fluocinolone acetonide 0.025%; moderately potent: {{mometasone}} and fluticasone; mild: {{hydrocortisone}}. Potency depends largely on the {{lipophilicity}} of the compound, which governs how deeply it penetrates the skin.",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-012",
+      "type": "cloze",
+      "front": "Complete: demelanising agents",
+      "text": "{{Hydroquinone}} is a weak agent that inhibits {{tyrosinase}} and needs months of use in melasma; {{monobenzone}} destroys melanocytes and can cause {{permanent depigmentation}}.",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-075",
+      "type": "basic",
+      "front": "Why is topical corticosteroid potency matched to site and disease severity?",
+      "back": "Potency depends on lipophilicity and how far the drug is absorbed into deeper layers, so agents are graded. Using the least potent effective agent once the disease is controlled limits local adverse effects such as skin atrophy.",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-078",
+      "type": "basic",
+      "front": "Why is benzoyl peroxide combined with a topical antibiotic in acne?",
+      "back": "Benzoyl peroxide releases oxygen that kills P. acnes and has keratolytic and comedolytic action; P. acnes and other bacteria do not develop resistance to it.",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-003",
+      "type": "basic",
+      "front": "Acitretin: indications and its pregnancy and alcohol precautions.",
+      "back": "Oral synthetic retinoid for severe psoriasis, lichen planus and severe ichthyosis. It is highly teratogenic and accumulates in body fat, so elimination takes months. Avoid conception during treatment and for 3 years after stopping, and avoid alcohol during treatment and for 3 months after.",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-005",
@@ -80,22 +182,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
-    },
-    {
-      "id": "p3-misc-006",
-      "type": "basic",
-      "front": "Keratolytics: salicylic acid and urea, concentrations and uses.",
-      "back": "Salicylic acid at 10 to 20% (in alcohol or propylene glycol) dissolves corns and works better under an occlusive dressing; 3 to 5% is used in other conditions. Urea at 5 to 20% acts as a humectant that softens keratin in ichthyosis and hyperkeratotic lesions, and it enhances penetration of a topical steroid applied with it.",
-      "refs": [
-        "KDT8 ch66"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-skin",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-misc-007",
@@ -140,7 +228,84 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-misc-066",
+      "type": "shortnote",
+      "front": "Short note: Corticosteroids in dermatology",
+      "sections": [
+        {
+          "h": "Actions",
+          "points": [
+            "Anti-inflammatory, immunosuppressive, vasoconstrictor and antiproliferative effects",
+            "Potency depends mainly on lipophilicity: fluorinated and lipid-soluble esters are the most potent"
+          ]
+        },
+        {
+          "h": "Choosing strength",
+          "points": [
+            "Penetration is highest at axilla, groin, face, scalp and scrotum; lowest on palms, soles, elbows and knees",
+            "Milder preparations for atopic eczema and allergic contact dermatitis; potent ones for alopecia areata, discoid lupus, lichen planus, keloids and psoriasis of palms and soles",
+            "Use the mildest effective preparation; potent ones only briefly or intermittently"
+          ]
+        },
+        {
+          "h": "Application rules",
+          "points": [
+            "Occlusion can raise absorption many-fold; continuous occlusion encourages infection",
+            "Absorption is higher in infants and children",
+            "Twice-daily application is enough; more applications add no benefit"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Local: skin thinning, striae, telangiectasia and easy bruising, related to potency and duration",
+            "Systemic: adrenal suppression with large amounts used repeatedly, especially in children; rarely Cushing's syndrome"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "subtopic": "p3-misc-skin",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-misc-076",
+      "type": "basic",
+      "front": "Compare isotretinoin and acitretin: which is chosen for acne and which for psoriasis, and how do their pregnancy precautions differ?",
+      "back": "Isotretinoin is for severe cystic acne (about 20-week course; avoid pregnancy during treatment and for 1 month after). Acitretin is for severe psoriasis, lichen planus and ichthyosis; it accumulates in fat, so conception must be avoided for 3 years after stopping and alcohol avoided.",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-008",
@@ -181,13 +346,25 @@
         "KDT8 ch66",
         "GG14 ch75"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2023,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p3-misc-skin",
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-misc-009",
@@ -236,13 +413,14 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-misc-010",
-      "type": "cloze",
-      "front": "Classify: sunscreens and sun protection",
-      "text": "Chemical sunscreens such as {{PABA}} absorb UVB, {{benzophenones}} block UVA, and physical sunscreens such as {{zinc oxide}} and {{titanium dioxide}} scatter UV and visible light. SPF is the UVB dose causing minimal erythema on protected skin divided by the dose on unprotected skin.",
+      "id": "p3-misc-077",
+      "type": "basic",
+      "front": "Case: a woman with severe cystic acne unresponsive to topicals and antibiotics asks about isotretinoin. Outline your reasoning and counselling.",
+      "back": "Severe cystic acne unresponsive to other therapy is the indication; it cuts sebum and corrects follicular keratinisation. Because it is highly teratogenic (craniofacial, cardiac, CNS defects), exclude pregnancy, ensure reliable contraception during and for 1 month after treatment, use 0.5-1 mg/kg daily for about 20 weeks; a relapse can be retreated.",
       "refs": [
         "KDT8 ch66"
       ],
@@ -250,38 +428,11 @@
       "status": "draft",
       "subtopic": "p3-misc-skin",
       "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-misc-011",
-      "type": "cloze",
-      "front": "Classify: topical corticosteroid potency (KDT grading)",
-      "text": "Potent: {{clobetasol propionate}}, betamethasone valerate and fluocinolone acetonide 0.025%; moderately potent: {{mometasone}} and fluticasone; mild: {{hydrocortisone}}. Potency depends largely on the {{lipophilicity}} of the compound, which governs how deeply it penetrates the skin.",
-      "refs": [
-        "KDT8 ch66"
+        "uses",
+        "adr",
+        "contraindications"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-skin",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-misc-012",
-      "type": "cloze",
-      "front": "Complete: demelanising agents",
-      "text": "{{Hydroquinone}} is a weak agent that inhibits {{tyrosinase}} and needs months of use in melasma; {{monobenzone}} destroys melanocytes and can cause {{permanent depigmentation}}.",
-      "refs": [
-        "KDT8 ch66"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-skin",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 3
     },
     {
       "id": "p3-misc-013",
@@ -296,22 +447,8 @@
       "subtopic": "p3-misc-antiseptics",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p3-misc-014",
-      "type": "basic",
-      "front": "Hexachlorophene: why was its use restricted?",
-      "back": "A chlorinated phenol that is odourless, non-staining and persists on skin, but it is narrow spectrum: it kills gram-positive bacteria, not gram-negative bacteria or spores. A 3% bath for infants cut staphylococcal infection but caused brain damage in premature neonates, and preparations above 2% have been banned.",
-      "refs": [
-        "KDT8 ch67"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-antiseptics",
-      "tags": [
-        "adr"
-      ]
+      "level": 1
     },
     {
       "id": "p3-misc-015",
@@ -327,7 +464,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-016",
@@ -343,7 +481,88 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-022",
+      "type": "cloze",
+      "front": "Classify: scabicides and pediculicides",
+      "text": "First choice: {{permethrin}}; second line: {{benzyl benzoate}} and {{crotamiton}}; older agents: {{sulfur}} and {{DDT}}; oral option: {{ivermectin}}.",
+      "refs": [
+        "KDT8 ch67"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-antiseptics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-023",
+      "type": "cloze",
+      "front": "Classify: oxidising agents, aldehydes and halogens",
+      "text": "{{Potassium permanganate}} and {{hydrogen peroxide}} are oxidising agents; {{glutaraldehyde}} is less irritant than {{formalin}}, which is a 37% solution of {{formaldehyde}}.",
+      "refs": [
+        "KDT8 ch67"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-antiseptics",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-024",
+      "type": "cloze",
+      "front": "Complete: silver compounds",
+      "text": "{{Silver nitrate}} 1% is used for {{ophthalmia neonatorum}} because it is highly active against {{gonococci}}; {{silver sulfadiazine}} is used on burns because it is highly active against {{Pseudomonas}}.",
+      "refs": [
+        "KDT8 ch67"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-antiseptics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-079",
+      "type": "basic",
+      "front": "Why is 70% ethanol the usual antiseptic strength?",
+      "back": "Ethanol acts by precipitating bacterial proteins; the effective range is 40-90% with fastest action near 70%. It does not kill spores.",
+      "refs": [
+        "KDT8 ch67"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-antiseptics",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-014",
+      "type": "basic",
+      "front": "Hexachlorophene: why was its use restricted?",
+      "back": "A chlorinated phenol that is odourless, non-staining and persists on skin, but it is narrow spectrum: it kills gram-positive bacteria, not gram-negative bacteria or spores. A 3% bath for infants cut staphylococcal infection but caused brain damage in premature neonates, and preparations above 2% have been banned.",
+      "refs": [
+        "KDT8 ch67"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-antiseptics",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-017",
@@ -359,7 +578,8 @@
       "tags": [
         "mechanism",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-018",
@@ -375,7 +595,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-019",
@@ -420,7 +641,8 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-020",
@@ -458,7 +680,101 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-misc-067",
+      "type": "shortnote",
+      "front": "Short note: Antiseptics - selectivity",
+      "sections": [
+        {
+          "h": "Spectrum",
+          "points": [
+            "Most antiseptic-disinfectants act widely (non-selective)"
+          ]
+        },
+        {
+          "h": "Selective agents",
+          "points": [
+            "Hexachlorophene, chlorhexidine, quaternary ammonium compounds, gentian violet and acriflavine are more active against Gram-positive than Gram-negative organisms"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p968"
+      ],
+      "subtopic": "p3-misc-antiseptics",
+      "tags": [
+        "classification"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "level": 2
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-misc-antiseptics",
+      "front": "Short note: Iodine and chlorhexidine as antiseptics",
+      "sections": [
+        {
+          "h": "Iodine",
+          "points": [
+            "Strong solutions above 5% burn and blister",
+            "Povidone iodine: nonstaining, prolonged germicidal action",
+            "Sensitivity causes rashes"
+          ]
+        },
+        {
+          "h": "Chlorhexidine",
+          "points": [
+            "Cationic, nonirritating; membrane disruption",
+            "Most used antiseptic in dentistry (0.12 to 0.2% rinse)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch67"
+      ],
+      "tags": [
+        "uses"
+      ],
+      "id": "p3-misc-069",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p3-misc-080",
+      "type": "basic",
+      "front": "Compare povidone-iodine with tincture iodine for skin antisepsis.",
+      "back": "Both release free iodine. Povidone-iodine is non-irritant, non-staining and gives prolonged germicidal action, so it can be bandaged over without blistering. Tincture (2% in alcohol) stings on abrasions and is used on cuts and for pre-operative skin degerming.",
+      "refs": [
+        "KDT8 ch67"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-antiseptics",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-021",
@@ -504,28 +820,79 @@
       "tags": [
         "uses",
         "contraindications"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-misc-022",
-      "type": "cloze",
-      "front": "Classify: scabicides and pediculicides",
-      "text": "First choice: {{permethrin}}; second line: {{benzyl benzoate}} and {{crotamiton}}; older agents: {{sulfur}} and {{DDT}}; oral option: {{ivermectin}}.",
+      "id": "p3-misc-065",
+      "type": "shortnote",
+      "front": "Short note: Disinfectants and antiseptics: classes and mechanisms",
+      "sections": [
+        {
+          "h": "Phenols",
+          "points": [
+            "Phenol (carbolic acid): disrupts bacterial membranes and denatures proteins; standard for comparing germicides",
+            "Cresol and chloroxylenol: more active and less tissue-damaging than phenol",
+            "Hexachlorophene: inhibits bacterial enzymes and causes lysis at high concentration"
+          ]
+        },
+        {
+          "h": "Halogens",
+          "points": [
+            "Iodine and iodophores (povidone-iodine): iodinate and oxidise microbial protoplasm",
+            "Chlorine and chlorophores (chlorinated lime, sodium hypochlorite): release hypochlorous acid"
+          ]
+        },
+        {
+          "h": "Biguanides and cationic agents",
+          "points": [
+            "Chlorhexidine: cationic; disrupts the bacterial membrane and denatures proteins",
+            "Quaternary ammonium compounds (cetrimide, benzalkonium chloride, dequalinium): alter membrane permeability and denature proteins",
+            "Pseudomonas, mycobacteria and spores resist cationic agents"
+          ]
+        },
+        {
+          "h": "Alcohols, aldehydes and oxidisers",
+          "points": [
+            "Ethanol and isopropanol: precipitate bacterial proteins; effective at 40 to 90 percent ethanol",
+            "Formaldehyde and glutaraldehyde: denature proteins; glutaraldehyde is a better sterilant when activated",
+            "Potassium permanganate: liberates oxygen that oxidises protoplasm"
+          ]
+        }
+      ],
       "refs": [
         "KDT8 ch67"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-antiseptics",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2016,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "tags": [
+        "mechanism",
         "classification"
-      ]
+      ],
+      "subtopic": "p3-misc-antiseptics",
+      "status": "draft",
+      "level": 3
     },
     {
-      "id": "p3-misc-023",
-      "type": "cloze",
-      "front": "Classify: oxidising agents, aldehydes and halogens",
-      "text": "{{Potassium permanganate}} and {{hydrogen peroxide}} are oxidising agents; {{glutaraldehyde}} is less irritant than {{formalin}}, which is a 37% solution of {{formaldehyde}}.",
+      "id": "p3-misc-081",
+      "type": "basic",
+      "front": "Case: a school outbreak of scabies. Choose a drug, justify it, and name alternatives.",
+      "back": "Permethrin is first choice: a single application gives near-complete cure, systemic absorption is minimal and resistance is very rare. Alternatives are benzyl benzoate or crotamiton; lindane is a later option, since mites and lice can develop resistance to it.",
       "refs": [
         "KDT8 ch67"
       ],
@@ -533,23 +900,10 @@
       "status": "draft",
       "subtopic": "p3-misc-antiseptics",
       "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-misc-024",
-      "type": "cloze",
-      "front": "Complete: silver compounds",
-      "text": "{{Silver nitrate}} 1% is used for {{ophthalmia neonatorum}} because it is highly active against {{gonococci}}; {{silver sulfadiazine}} is used on burns because it is highly active against {{Pseudomonas}}.",
-      "refs": [
-        "KDT8 ch67"
+        "uses",
+        "adr"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-antiseptics",
-      "tags": [
-        "uses"
-      ]
+      "level": 3
     },
     {
       "id": "p3-misc-025",
@@ -564,7 +918,8 @@
       "subtopic": "p3-misc-chelators",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-026",
@@ -580,7 +935,8 @@
       "tags": [
         "uses",
         "contraindications"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-027",
@@ -596,7 +952,73 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-030",
+      "type": "basic",
+      "front": "Desferrioxamine: what is it used for and what is its chelating capacity?",
+      "back": "An iron chelator derived from an actinomycete. One gram binds about 85 mg of elemental iron. It removes loosely bound iron and iron from ferritin and haemosiderin, but not iron in haemoglobin or cytochromes. Used in acute iron poisoning (mainly children) and transfusion siderosis; it is given parenterally because little is absorbed orally.",
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-chelators",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-034",
+      "type": "cloze",
+      "front": "Classify: chelators by target metal",
+      "text": "Dimercaprol and {{succimer}} treat arsenic and mercury; {{calcium disodium edetate}} treats lead; {{penicillamine}} treats copper in Wilson's disease; {{desferrioxamine}} treats iron overload.",
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-chelators",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-036",
+      "type": "cloze",
+      "front": "Complete: oral iron chelators",
+      "text": "{{Deferiprone}} is an oral option that can cause reversible {{neutropenia}}; {{deferasirox}} is given once daily on an empty stomach and is excreted in {{bile}}.",
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-chelators",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-082",
+      "type": "basic",
+      "front": "Why is dimercaprol used with calcium EDTA in lead poisoning?",
+      "back": "Dimercaprol, with two SH groups, chelates lead and is an adjuvant to calcium EDTA, the mainstay for lead poisoning.",
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-chelators",
+      "tags": [
+        "uses",
+        "poisoning"
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-028",
@@ -611,7 +1033,8 @@
       "subtopic": "p3-misc-chelators",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-029",
@@ -627,22 +1050,8 @@
       "tags": [
         "uses",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-misc-030",
-      "type": "basic",
-      "front": "Desferrioxamine: what is it used for and what is its chelating capacity?",
-      "back": "An iron chelator derived from an actinomycete. One gram binds about 85 mg of elemental iron. It removes loosely bound iron and iron from ferritin and haemosiderin, but not iron in haemoglobin or cytochromes. Used in acute iron poisoning (mainly children) and transfusion siderosis; it is given parenterally because little is absorbed orally.",
-      "refs": [
-        "KDT8 ch68"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-chelators",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-misc-031",
@@ -687,7 +1096,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-032",
@@ -732,7 +1142,41 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-misc-035",
+      "type": "cloze",
+      "front": "Complete: adverse effects of chelators",
+      "text": "Rapid intravenous {{disodium edetate}} causes {{tetany}} by chelating calcium; {{calcium disodium edetate}} can cause {{proximal tubular necrosis}}, which is reduced by high {{urine flow}}.",
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-chelators",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-misc-083",
+      "type": "basic",
+      "front": "Why are calcium disodium EDTA and disodium EDTA not interchangeable?",
+      "back": "Calcium disodium EDTA is used for lead poisoning (risk: proximal tubular necrosis). Disodium EDTA is a potent calcium chelator that causes tetany if infused rapidly.",
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-chelators",
+      "tags": [
+        "adr",
+        "uses"
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-033",
@@ -780,13 +1224,52 @@
       "tags": [
         "poisoning",
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-misc-034",
-      "type": "cloze",
-      "front": "Classify: chelators by target metal",
-      "text": "Dimercaprol and {{succimer}} treat arsenic and mercury; {{calcium disodium edetate}} treats lead; {{penicillamine}} treats copper in Wilson's disease; {{desferrioxamine}} treats iron overload.",
+      "type": "shortnote",
+      "subtopic": "p3-misc-chelators",
+      "front": "Short note: Chelating agents: dimercaprol, edetate, penicillamine, desferrioxamine",
+      "sections": [
+        {
+          "h": "Dimercaprol",
+          "points": [
+            "WWII anti-lewisite; i.m. for arsenic, mercury, gold and bismuth",
+            "Avoid in iron and cadmium poisoning"
+          ]
+        },
+        {
+          "h": "Edetates",
+          "points": [
+            "Calcium disodium edetate: lead poisoning; kidney damage main risk",
+            "Disodium edetate: causes tetany, so avoided"
+          ]
+        },
+        {
+          "h": "Penicillamine and desferrioxamine",
+          "points": [
+            "Penicillamine: Wilson's disease; drug of choice for copper poisoning",
+            "Desferrioxamine: iron chelation; 0.5 to 1 g/day i.m. in transfusion siderosis"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch68"
+      ],
+      "tags": [
+        "poisoning"
+      ],
+      "id": "p3-misc-070",
+      "status": "draft",
+      "pyq": [],
+      "level": 3
+    },
+    {
+      "id": "p3-misc-084",
+      "type": "basic",
+      "front": "Case: child with acute iron poisoning versus patient with thalassaemia siderosis. Choose and compare chelators.",
+      "back": "Desferrioxamine (parenteral; 1 g binds about 85 mg iron; removes iron from ferritin and haemosiderin, not haemoglobin) is used for acute poisoning and transfusion siderosis; it can cause flushing and hypotension. Oral deferiprone (reversible neutropenia) and deferasirox (once daily, bile excretion) are oral options.",
       "refs": [
         "KDT8 ch68"
       ],
@@ -794,38 +1277,11 @@
       "status": "draft",
       "subtopic": "p3-misc-chelators",
       "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-misc-035",
-      "type": "cloze",
-      "front": "Complete: adverse effects of chelators",
-      "text": "Rapid intravenous {{disodium edetate}} causes {{tetany}} by chelating calcium; {{calcium disodium edetate}} can cause {{proximal tubular necrosis}}, which is reduced by high {{urine flow}}.",
-      "refs": [
-        "KDT8 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-chelators",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-misc-036",
-      "type": "cloze",
-      "front": "Complete: oral iron chelators",
-      "text": "{{Deferiprone}} is an oral option that can cause reversible {{neutropenia}}; {{deferasirox}} is given once daily on an empty stomach and is excreted in {{bile}}.",
-      "refs": [
-        "KDT8 ch68"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-chelators",
-      "tags": [
+        "uses",
+        "adr",
         "newer-drugs"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-misc-037",
@@ -841,7 +1297,8 @@
       "tags": [
         "classification",
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-038",
@@ -856,7 +1313,73 @@
       "subtopic": "p3-misc-vitamins",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-046",
+      "type": "cloze",
+      "front": "Classify: vitamins and their coenzyme forms",
+      "text": "Thiamine forms {{thiamine pyrophosphate}}; riboflavin forms {{FAD}} and {{FMN}}; niacin forms {{NAD}} and {{NADP}}; pyridoxine forms {{pyridoxal phosphate}}.",
+      "refs": [
+        "KDT8 ch69"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-047",
+      "type": "cloze",
+      "front": "Classify: signs of vitamin deficiency",
+      "text": "Scurvy reflects a {{connective tissue}} defect; {{angular stomatitis}} and corneal vascularisation point to riboflavin deficiency; {{seborrhoeic dermatitis}} and glossitis suggest pyridoxine deficiency.",
+      "refs": [
+        "KDT8 ch69"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-048",
+      "type": "cloze",
+      "front": "Fill: vitamin C and iron",
+      "text": "Vitamin C improves {{iron}} absorption by keeping it in the {{ferrous}} state; abrupt stopping of large doses can cause {{rebound scurvy}}.",
+      "refs": [
+        "KDT8 ch69"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-085",
+      "type": "basic",
+      "front": "Why does isoniazid therapy need pyridoxine?",
+      "back": "Isoniazid combines with pyridoxal and increases pyridoxine loss in urine, risking deficiency and peripheral neuropathy; pyridoxine prevents this.",
+      "refs": [
+        "KDT8 ch69"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-039",
@@ -872,7 +1395,8 @@
       "tags": [
         "poisoning",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-040",
@@ -888,7 +1412,8 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-041",
@@ -903,7 +1428,8 @@
       "subtopic": "p3-misc-vitamins",
       "tags": [
         "interactions"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-042",
@@ -918,7 +1444,8 @@
       "subtopic": "p3-misc-vitamins",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-043",
@@ -963,7 +1490,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-044",
@@ -1008,7 +1536,180 @@
       "tags": [
         "uses",
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-misc-061",
+      "type": "shortnote",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "pk",
+        "uses",
+        "adr"
+      ],
+      "front": "Short note: Vitamin D",
+      "sections": [
+        {
+          "h": "Forms and activation",
+          "points": [
+            "D3 (cholecalciferol) made in skin by UV light; D2 (ergocalciferol) from plant ergosterol",
+            "Liver forms 25-OH D3 (calcifediol), the main circulating form with the longest half-life",
+            "Kidney 1-hydroxylation to calcitriol is rate-limiting: stimulated by PTH, low calcium and low vitamin D; calcitriol inhibits it"
+          ]
+        },
+        {
+          "h": "Actions",
+          "points": [
+            "Calcitriol raises intestinal calcium and phosphate absorption (calbindin)",
+            "Acts on bone to mobilise and mineralise; behaves like a hormone (made in body, nuclear receptor, feedback control)"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Prophylaxis (400 IU/day) and treatment of nutritional rickets and osteomalacia",
+            "Vitamin D-dependent and renal rickets: calcitriol or alfacalcidol (no renal hydroxylation needed); vitamin D-resistant rickets: phosphate plus calcitriol",
+            "Hypoparathyroidism; with calcium in osteoporosis"
+          ]
+        },
+        {
+          "h": "Hypervitaminosis D",
+          "points": [
+            "Chronic high doses (about 50,000 IU/day) cause hypercalcaemia: weakness, vomiting, polyuria, renal stones, nephrocalcinosis, ectopic calcification",
+            "Treat by stopping the vitamin, low-calcium diet, fluids and corticosteroids"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-misc-062",
+      "type": "basic",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "front": "Vitamin K: forms, mechanism, main uses, and why menadione is avoided.",
+      "back": "K1 (phytonadione, phytyl side chain) is from plants, K2 (menaquinones) is made by gut bacteria, and K3 (menadione) is synthetic. It is a cofactor for gamma-carboxylation of glutamate residues in prothrombin and factors VII, IX and X (also proteins C and S), letting them bind calcium. Uses: deficiency from diet, antibiotics or obstructive jaundice; haemorrhagic disease of the newborn (1 mg i.m. at birth); and, most important, overdose of oral anticoagulants, for which K1 is preferred because it acts fastest (avoid unnecessarily high doses, which cause warfarin resistance for days). I.v. emulsified K1 can cause severe anaphylactoid reactions. Menadione causes haemolysis in G6PD deficiency and neonates and can precipitate kernicterus.",
+      "refs": [
+        "KDT8 ch45"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-misc-063",
+      "type": "basic",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "front": "Vitamin B12: causes of deficiency, features and treatment.",
+      "back": "Causes: pernicious anaemia (autoimmune loss of intrinsic factor), other gastric damage or gastrectomy, intestinal malabsorption or resection, blind-loop bacteria or fish tapeworm, and (less often) a strict vegetarian diet. Features: megaloblastic anaemia with hypersegmented neutrophils, glossitis, and neurological damage (subacute combined degeneration, peripheral neuritis). Treatment is by injection when intrinsic factor is lacking; hydroxocobalamin is preferred because it is more protein-bound and better retained (e.g. 1 mg i.m. daily or alternate days for 2 weeks, then every 1 to 3 months). Add folic acid and iron, because brisk haemopoiesis can unmask their deficiency. Neurological recovery is slow and may be incomplete.",
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-misc-064",
+      "type": "basic",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "front": "Folic acid: uses, and why it must never be given alone in vitamin B12 deficiency.",
+      "back": "Uses: megaloblastic anaemia from poor intake, malabsorption, pregnancy and other high-demand states, and antiepileptic therapy (avoid large doses, which can weaken anticonvulsant control); therapeutic dose 2 to 5 mg/day orally. Routine supplementation in pregnancy reduces neural tube defects. Given alone in B12 deficiency it corrects the blood picture but the neurological damage worsens, because the small B12 store is diverted to haemopoiesis. Folinic acid (already reduced) is reserved for methotrexate toxicity; it is not needed for simple folate deficiency.",
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-misc-vitamins",
+      "front": "Short note: Vitamin A: deficiency, dosing and toxicity",
+      "sections": [
+        {
+          "h": "Deficiency",
+          "points": [
+            "Keratomalacia, corneal opacities, night blindness",
+            "Stored in liver: symptoms late"
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "Prophylaxis 3000 to 5000 IU/day",
+            "Treatment 50,000 to 100,000 IU for 1 to 3 days"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Chronic 100,000 IU daily causes nausea, dermatitis, hair loss, bone pain",
+            "Polar bear liver: acute poisoning"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch69"
+      ],
+      "tags": [
+        "adr"
+      ],
+      "id": "p3-misc-071",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "type": "basic",
+      "subtopic": "p3-misc-vitamins",
+      "front": "Why is vitamin E not beneficial as a routine antioxidant supplement?",
+      "back": "Large observational studies and meta-analyses have not shown benefit from antioxidant supplementation; primary vitamin E deficiency does not occur clinically.",
+      "refs": [
+        "KDT8 ch69"
+      ],
+      "tags": [
+        "uses"
+      ],
+      "id": "p3-misc-072",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p3-misc-086",
+      "type": "basic",
+      "front": "Why must folic acid not be given alone in B12-deficiency megaloblastic anaemia?",
+      "back": "Folic acid can improve the blood picture while the B12 deficiency continues, so neurological damage can progress; B12 must be given.",
+      "refs": [
+        "KDT8 ch44"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vitamins",
+      "tags": [
+        "uses",
+        "contraindications"
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-045",
@@ -1059,28 +1760,14 @@
       "tags": [
         "uses",
         "adr"
-      ]
-    },
-    {
-      "id": "p3-misc-046",
-      "type": "cloze",
-      "front": "Classify: vitamins and their coenzyme forms",
-      "text": "Thiamine forms {{thiamine pyrophosphate}}; riboflavin forms {{FAD}} and {{FMN}}; niacin forms {{NAD}} and {{NADP}}; pyridoxine forms {{pyridoxal phosphate}}.",
-      "refs": [
-        "KDT8 ch69"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-vitamins",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 3
     },
     {
-      "id": "p3-misc-047",
-      "type": "cloze",
-      "front": "Classify: signs of vitamin deficiency",
-      "text": "Scurvy reflects a {{connective tissue}} defect; {{angular stomatitis}} and corneal vascularisation point to riboflavin deficiency; {{seborrhoeic dermatitis}} and glossitis suggest pyridoxine deficiency.",
+      "id": "p3-misc-087",
+      "type": "basic",
+      "front": "Case: a malnourished patient with polyneuritis, and another with dermatitis, diarrhoea and dementia. Identify and treat.",
+      "back": "Polyneuritis with beriberi picture is thiamine deficiency (coenzyme thiamine pyrophosphate; need rises with carbohydrate load). Dermatitis, diarrhoea, dementia is pellagra: niacin as nicotinamide, 200-500 mg/day in divided doses.",
       "refs": [
         "KDT8 ch69"
       ],
@@ -1089,22 +1776,8 @@
       "subtopic": "p3-misc-vitamins",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-misc-048",
-      "type": "cloze",
-      "front": "Fill: vitamin C and iron",
-      "text": "Vitamin C improves {{iron}} absorption by keeping it in the {{ferrous}} state; abrupt stopping of large doses can cause {{rebound scurvy}}.",
-      "refs": [
-        "KDT8 ch69"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-vitamins",
-      "tags": [
-        "uses"
-      ]
+      "level": 3
     },
     {
       "id": "p3-misc-049",
@@ -1119,7 +1792,8 @@
       "subtopic": "p3-misc-vaccines",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-050",
@@ -1134,7 +1808,72 @@
       "subtopic": "p3-misc-vaccines",
       "tags": [
         "contraindications"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-058",
+      "type": "cloze",
+      "front": "Classify: vaccines by type",
+      "text": "Killed vaccines include {{cholera}}, {{pertussis}} and {{influenza}}; live attenuated vaccines include {{BCG}}, {{MMR}} and {{varicella}}; toxoids include {{tetanus}} and {{diphtheria}}.",
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vaccines",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-059",
+      "type": "cloze",
+      "front": "Fill: hepatitis B vaccine",
+      "text": "The hepatitis B vaccine is a {{recombinant}} surface antigen made in {{yeast}} cells, given as three doses at {{0, 1 and 6}} months, with protective antibody in about 99% of recipients.",
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vaccines",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-060",
+      "type": "cloze",
+      "front": "Fill: passive immunity products",
+      "text": "Hepatitis B immune globulin should be given within {{7 days}} of exposure to HBsAg-positive blood; normal human gamma globulin is used for prophylaxis of {{hepatitis A}}, {{measles}} and {{chickenpox}}.",
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vaccines",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-misc-088",
+      "type": "basic",
+      "front": "Why are live vaccines avoided in immunodeficient people?",
+      "back": "Live vaccines contain attenuated organisms that still replicate, so they can cause disease when defences are impaired (leukaemia, chemotherapy, steroids, AIDS).",
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vaccines",
+      "tags": [
+        "contraindications"
+      ],
+      "level": 1
     },
     {
       "id": "p3-misc-051",
@@ -1150,7 +1889,8 @@
       "subtopic": "p3-misc-vaccines",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-052",
@@ -1166,7 +1906,8 @@
       "subtopic": "p3-misc-vaccines",
       "tags": [
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-053",
@@ -1181,7 +1922,8 @@
       "subtopic": "p3-misc-vaccines",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-054",
@@ -1197,7 +1939,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-055",
@@ -1241,7 +1984,8 @@
       "subtopic": "p3-misc-vaccines",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-056",
@@ -1285,7 +2029,77 @@
       "subtopic": "p3-misc-vaccines",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "type": "shortnote",
+      "subtopic": "p3-misc-vaccines",
+      "front": "Short note: Live versus killed vaccines and who must avoid live vaccines",
+      "sections": [
+        {
+          "h": "Killed",
+          "points": [
+            "Microorganisms killed by heat or chemicals; a series of doses needed"
+          ]
+        },
+        {
+          "h": "Live",
+          "points": [
+            "Attenuated organisms; contraindicated in leukaemia, chemotherapy, steroid use, AIDS",
+            "Oral polio (Sabin) is live"
+          ]
+        },
+        {
+          "h": "Toxoids",
+          "points": [
+            "Toxicity removed, antigenicity kept"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "tags": [
+        "classification"
+      ],
+      "id": "p3-misc-073",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "type": "basic",
+      "subtopic": "p3-misc-vaccines",
+      "front": "What is the role of rabies immunoglobulin in post-exposure prophylaxis?",
+      "back": "Vaccine antibodies take 10 to 14 days, so rabies immunoglobulin is given concurrently in category III bites, where risk is high; human rabies immunoglobulin is 20 IU/kg on day 0, infiltrated around the bite.",
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "tags": [
+        "dosing"
+      ],
+      "id": "p3-misc-074",
+      "status": "draft",
+      "pyq": [],
+      "level": 2
+    },
+    {
+      "id": "p3-misc-089",
+      "type": "basic",
+      "front": "Why is rabies immunoglobulin given with vaccine in category III bites?",
+      "back": "Vaccine antibodies take 10-14 days to appear, so passive antibody (human RIG 20 IU/kg, infiltrated around the wound) gives immediate cover.",
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vaccines",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
     },
     {
       "id": "p3-misc-057",
@@ -1332,300 +2146,8 @@
       "tags": [
         "classification",
         "contraindications"
-      ]
-    },
-    {
-      "id": "p3-misc-058",
-      "type": "cloze",
-      "front": "Classify: vaccines by type",
-      "text": "Killed vaccines include {{cholera}}, {{pertussis}} and {{influenza}}; live attenuated vaccines include {{BCG}}, {{MMR}} and {{varicella}}; toxoids include {{tetanus}} and {{diphtheria}}.",
-      "refs": [
-        "KDT8 ch70"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-vaccines",
-      "tags": [
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-misc-059",
-      "type": "cloze",
-      "front": "Fill: hepatitis B vaccine",
-      "text": "The hepatitis B vaccine is a {{recombinant}} surface antigen made in {{yeast}} cells, given as three doses at {{0, 1 and 6}} months, with protective antibody in about 99% of recipients.",
-      "refs": [
-        "KDT8 ch70"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-vaccines",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-misc-060",
-      "type": "cloze",
-      "front": "Fill: passive immunity products",
-      "text": "Hepatitis B immune globulin should be given within {{7 days}} of exposure to HBsAg-positive blood; normal human gamma globulin is used for prophylaxis of {{hepatitis A}}, {{measles}} and {{chickenpox}}.",
-      "refs": [
-        "KDT8 ch70"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-misc-vaccines",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-misc-061",
-      "type": "shortnote",
-      "subtopic": "p3-misc-vitamins",
-      "tags": [
-        "pk",
-        "uses",
-        "adr"
-      ],
-      "front": "Short note: Vitamin D",
-      "sections": [
-        {
-          "h": "Forms and activation",
-          "points": [
-            "D3 (cholecalciferol) made in skin by UV light; D2 (ergocalciferol) from plant ergosterol",
-            "Liver forms 25-OH D3 (calcifediol), the main circulating form with the longest half-life",
-            "Kidney 1-hydroxylation to calcitriol is rate-limiting: stimulated by PTH, low calcium and low vitamin D; calcitriol inhibits it"
-          ]
-        },
-        {
-          "h": "Actions",
-          "points": [
-            "Calcitriol raises intestinal calcium and phosphate absorption (calbindin)",
-            "Acts on bone to mobilise and mineralise; behaves like a hormone (made in body, nuclear receptor, feedback control)"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Prophylaxis (400 IU/day) and treatment of nutritional rickets and osteomalacia",
-            "Vitamin D-dependent and renal rickets: calcitriol or alfacalcidol (no renal hydroxylation needed); vitamin D-resistant rickets: phosphate plus calcitriol",
-            "Hypoparathyroidism; with calcium in osteoporosis"
-          ]
-        },
-        {
-          "h": "Hypervitaminosis D",
-          "points": [
-            "Chronic high doses (about 50,000 IU/day) cause hypercalcaemia: weakness, vomiting, polyuria, renal stones, nephrocalcinosis, ectopic calcification",
-            "Treat by stopping the vitamin, low-calcium diet, fluids and corticosteroids"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-misc-062",
-      "type": "basic",
-      "subtopic": "p3-misc-vitamins",
-      "tags": [
-        "mechanism",
-        "uses",
-        "adr"
-      ],
-      "front": "Vitamin K: forms, mechanism, main uses, and why menadione is avoided.",
-      "back": "K1 (phytonadione, phytyl side chain) is from plants, K2 (menaquinones) is made by gut bacteria, and K3 (menadione) is synthetic. It is a cofactor for gamma-carboxylation of glutamate residues in prothrombin and factors VII, IX and X (also proteins C and S), letting them bind calcium. Uses: deficiency from diet, antibiotics or obstructive jaundice; haemorrhagic disease of the newborn (1 mg i.m. at birth); and, most important, overdose of oral anticoagulants, for which K1 is preferred because it acts fastest (avoid unnecessarily high doses, which cause warfarin resistance for days). I.v. emulsified K1 can cause severe anaphylactoid reactions. Menadione causes haemolysis in G6PD deficiency and neonates and can precipitate kernicterus.",
-      "refs": [
-        "KDT8 ch45"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-misc-063",
-      "type": "basic",
-      "subtopic": "p3-misc-vitamins",
-      "tags": [
-        "uses",
-        "dosing"
-      ],
-      "front": "Vitamin B12: causes of deficiency, features and treatment.",
-      "back": "Causes: pernicious anaemia (autoimmune loss of intrinsic factor), other gastric damage or gastrectomy, intestinal malabsorption or resection, blind-loop bacteria or fish tapeworm, and (less often) a strict vegetarian diet. Features: megaloblastic anaemia with hypersegmented neutrophils, glossitis, and neurological damage (subacute combined degeneration, peripheral neuritis). Treatment is by injection when intrinsic factor is lacking; hydroxocobalamin is preferred because it is more protein-bound and better retained (e.g. 1 mg i.m. daily or alternate days for 2 weeks, then every 1 to 3 months). Add folic acid and iron, because brisk haemopoiesis can unmask their deficiency. Neurological recovery is slow and may be incomplete.",
-      "refs": [
-        "KDT8 ch44"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-misc-064",
-      "type": "basic",
-      "subtopic": "p3-misc-vitamins",
-      "tags": [
-        "uses",
-        "contraindications"
-      ],
-      "front": "Folic acid: uses, and why it must never be given alone in vitamin B12 deficiency.",
-      "back": "Uses: megaloblastic anaemia from poor intake, malabsorption, pregnancy and other high-demand states, and antiepileptic therapy (avoid large doses, which can weaken anticonvulsant control); therapeutic dose 2 to 5 mg/day orally. Routine supplementation in pregnancy reduces neural tube defects. Given alone in B12 deficiency it corrects the blood picture but the neurological damage worsens, because the small B12 store is diverted to haemopoiesis. Folinic acid (already reduced) is reserved for methotrexate toxicity; it is not needed for simple folate deficiency.",
-      "refs": [
-        "KDT8 ch44"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-misc-065",
-      "type": "shortnote",
-      "front": "Short note: Disinfectants and antiseptics: classes and mechanisms",
-      "sections": [
-        {
-          "h": "Phenols",
-          "points": [
-            "Phenol (carbolic acid): disrupts bacterial membranes and denatures proteins; standard for comparing germicides",
-            "Cresol and chloroxylenol: more active and less tissue-damaging than phenol",
-            "Hexachlorophene: inhibits bacterial enzymes and causes lysis at high concentration"
-          ]
-        },
-        {
-          "h": "Halogens",
-          "points": [
-            "Iodine and iodophores (povidone-iodine): iodinate and oxidise microbial protoplasm",
-            "Chlorine and chlorophores (chlorinated lime, sodium hypochlorite): release hypochlorous acid"
-          ]
-        },
-        {
-          "h": "Biguanides and cationic agents",
-          "points": [
-            "Chlorhexidine: cationic; disrupts the bacterial membrane and denatures proteins",
-            "Quaternary ammonium compounds (cetrimide, benzalkonium chloride, dequalinium): alter membrane permeability and denature proteins",
-            "Pseudomonas, mycobacteria and spores resist cationic agents"
-          ]
-        },
-        {
-          "h": "Alcohols, aldehydes and oxidisers",
-          "points": [
-            "Ethanol and isopropanol: precipitate bacterial proteins; effective at 40 to 90 percent ethanol",
-            "Formaldehyde and glutaraldehyde: denature proteins; glutaraldehyde is a better sterilant when activated",
-            "Potassium permanganate: liberates oxygen that oxidises protoplasm"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch67"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "mechanism",
-        "classification"
-      ],
-      "subtopic": "p3-misc-antiseptics",
-      "status": "draft"
-    },
-    {
-      "id": "p3-misc-066",
-      "type": "shortnote",
-      "front": "Short note: Corticosteroids in dermatology",
-      "sections": [
-        {
-          "h": "Actions",
-          "points": [
-            "Anti-inflammatory, immunosuppressive, vasoconstrictor and antiproliferative effects",
-            "Potency depends mainly on lipophilicity: fluorinated and lipid-soluble esters are the most potent"
-          ]
-        },
-        {
-          "h": "Choosing strength",
-          "points": [
-            "Penetration is highest at axilla, groin, face, scalp and scrotum; lowest on palms, soles, elbows and knees",
-            "Milder preparations for atopic eczema and allergic contact dermatitis; potent ones for alopecia areata, discoid lupus, lichen planus, keloids and psoriasis of palms and soles",
-            "Use the mildest effective preparation; potent ones only briefly or intermittently"
-          ]
-        },
-        {
-          "h": "Application rules",
-          "points": [
-            "Occlusion can raise absorption many-fold; continuous occlusion encourages infection",
-            "Absorption is higher in infants and children",
-            "Twice-daily application is enough; more applications add no benefit"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Local: skin thinning, striae, telangiectasia and easy bruising, related to potency and duration",
-            "Systemic: adrenal suppression with large amounts used repeatedly, especially in children; rarely Cushing's syndrome"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch66"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "subtopic": "p3-misc-skin",
-      "status": "draft"
-    },
-    {
-      "id": "p3-misc-067",
-      "type": "shortnote",
-      "front": "Short note: Antiseptics - selectivity",
-      "sections": [
-        {
-          "h": "Spectrum",
-          "points": [
-            "Most antiseptic-disinfectants act widely (non-selective)"
-          ]
-        },
-        {
-          "h": "Selective agents",
-          "points": [
-            "Hexachlorophene, chlorhexidine, quaternary ammonium compounds, gentian violet and acriflavine are more active against Gram-positive than Gram-negative organisms"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p968"
-      ],
-      "subtopic": "p3-misc-antiseptics",
-      "tags": [
-        "classification"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2016,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2019,
-          "marks": 10
-        }
-      ]
+      "level": 3
     },
     {
       "id": "p3-misc-068",
@@ -1677,177 +2199,292 @@
           "year": 2020,
           "marks": 10
         }
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-misc-090",
+      "type": "basic",
+      "front": "Case: deep bleeding dog bite in an unvaccinated adult. Plan post-exposure prophylaxis.",
+      "back": "Category III exposure: rabies vaccine (intradermal Thai schedule: days 0, 3, 7, 28, 90) plus human rabies immunoglobulin 20 IU/kg infiltrated around the wound on day 0, because vaccine immunity is delayed. Human immunoglobulin is superior to equine antiserum, which is used only when human RIG is unavailable.",
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-misc-vaccines",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-misc-091",
+      "type": "basic",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "front": "Seborrhoeic dermatitis and dandruff: which yeast is implicated?",
+      "back": "Pityrosporum ovale (Malassezia). It is a commensal that turns pathogenic only with triggers such as altered sebum, alkaline skin, sweating and stress."
+    },
+    {
+      "id": "p3-misc-092",
+      "type": "shortnote",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "uses"
+      ],
+      "level": 2,
+      "status": "draft",
+      "refs": [
+        "KDT8 ch66",
+        "GG14 ch75"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "month": "April",
+          "paper": "III",
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Drugs used in the treatment of dandruff",
+      "sections": [
+        {
+          "h": "Antiyeast (first choice)",
+          "points": [
+            "Ketoconazole 2% cream, shampoo or scalp gel: most active against P. ovale, no systemic effects at this strength",
+            "Clotrimazole 1% solution is an alternative",
+            "Zinc pyrithione 1% weekly shampoo: slows epidermal turnover and inhibits the yeast; often combined with ketoconazole"
+          ]
+        },
+        {
+          "h": "Selenium sulfide",
+          "points": [
+            "2.5% lotion or shampoo: slows scaling, antiyeast",
+            "More than half of patients relapse when stopped",
+            "Can be absorbed and toxic on inflamed or damaged skin"
+          ]
+        },
+        {
+          "h": "Mild agents",
+          "points": [
+            "Sulfur, resorcinol, coal tar, ammoniated mercury: minimal antiyeast action, help by keratolysis and antisepsis",
+            "Salicylic acid: keratolytic; mild effect"
+          ]
+        },
+        {
+          "h": "Corticosteroids",
+          "points": [
+            "Scalp lotion is highly effective, but relapse is high and prolonged use causes atrophy and poor healing"
+          ]
+        }
       ]
     },
     {
+      "id": "p3-misc-093",
+      "type": "basic",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft",
+      "refs": [
+        "KDT8 ch66"
+      ],
+      "pyq": [],
+      "front": "What are psoralens and where do they come from?",
+      "back": "Furocoumarins that sensitise skin to sunlight. After photoactivation they stimulate melanocytes and cause their proliferation. Psoralen comes from Ammi majus fruit; methoxsalen and trioxsalen are synthetic."
+    },
+    {
+      "id": "p3-misc-094",
       "type": "shortnote",
-      "subtopic": "p3-misc-antiseptics",
-      "front": "Short note: Iodine and chlorhexidine as antiseptics",
+      "subtopic": "p3-misc-skin",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2,
+      "status": "draft",
+      "refs": [
+        "KDT8 ch66",
+        "GG14 ch75"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2008,
+          "month": "October",
+          "paper": "III",
+          "marks": 10
+        }
+      ],
+      "front": "Short note: PUVA therapy",
       "sections": [
         {
-          "h": "Iodine",
+          "h": "Principle",
           "points": [
-            "Strong solutions above 5% burn and blister",
-            "Povidone iodine: nonstaining, prolonged germicidal action",
-            "Sensitivity causes rashes"
+            "Psoralen plus UVA: photoactivated psoralen binds pyrimidine bases of DNA and interferes with DNA synthesis and epithelial turnover",
+            "Stimulates melanocytes; antiproliferative, immunosuppressive and anti-inflammatory effects"
           ]
         },
         {
-          "h": "Chlorhexidine",
+          "h": "Oral route",
           "points": [
-            "Cationic, nonirritating; membrane disruption",
-            "Most used antiseptic in dentistry (0.12 to 0.2% rinse)"
+            "Methoxsalen 0.3 to 0.6 mg/kg (usually 20 mg) about 2 h before exposure",
+            "Exposure on alternate days: starts at 15 min and rises to 30 min",
+            "Eyes, lips and normally pigmented skin shielded"
+          ]
+        },
+        {
+          "h": "Topical route",
+          "points": [
+            "1% methoxsalen lotion painted on small lesions, then brief sunlight exposure, lengthened weekly",
+            "Bath or soak PUVA limits systemic absorption"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Psoriasis (most clear within about 24 treatments; remission 3 to 6 months)",
+            "Vitiligo (usually 150 to 300 treatments)"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Phototoxicity: burning and blistering with excess exposure",
+            "Dose-dependent nonmelanoma skin cancer risk; UVA-blocking glasses on treatment day"
           ]
         }
-      ],
-      "refs": [
-        "KDT8 ch67"
-      ],
+      ]
+    },
+    {
+      "id": "p3-misc-095",
+      "type": "shortnote",
+      "subtopic": "p3-misc-skin",
       "tags": [
         "uses"
       ],
-      "id": "p3-misc-069",
+      "level": 3,
       "status": "draft",
-      "pyq": []
-    },
-    {
-      "type": "shortnote",
-      "subtopic": "p3-misc-chelators",
-      "front": "Short note: Chelating agents: dimercaprol, edetate, penicillamine, desferrioxamine",
+      "refs": [
+        "KDT8 ch66",
+        "GG14 ch75"
+      ],
+      "pyq": [],
+      "front": "Short note: Drug therapy of vitiligo",
       "sections": [
         {
-          "h": "Dimercaprol",
+          "h": "Repigmentation (melanizing)",
           "points": [
-            "WWII anti-lewisite; i.m. for arsenic, mercury, gold and bismuth",
-            "Avoid in iron and cadmium poisoning"
+            "Topical psoralen then sunlight for about 1 min, weekly longer exposures; supervised only (longer exposure burns and blisters)",
+            "Oral psoralen PUVA: FDA-approved; topical PUVA for localised disease",
+            "Pigment returns over weeks to months; maintenance may be needed"
           ]
         },
         {
-          "h": "Edetates",
+          "h": "Adjuncts",
           "points": [
-            "Calcium disodium edetate: lead poisoning; kidney damage main risk",
-            "Disodium edetate: causes tetany, so avoided"
+            "Topical corticosteroid",
+            "Oral azathioprine, with a topical steroid, restores near-normal pigmentation"
           ]
         },
         {
-          "h": "Penicillamine and desferrioxamine",
+          "h": "Depigmentation (when repigmentation fails)",
           "points": [
-            "Penicillamine: Wilson's disease; drug of choice for copper poisoning",
-            "Desferrioxamine: iron chelation; 50 to 100 mg/kg daily"
+            "Monobenzone 20% cream for final depigmentation of extensive disease; permanent, so not for routine pigment problems"
+          ]
+        },
+        {
+          "h": "Practical",
+          "points": [
+            "Protect eyes, lips and normally pigmented areas from sunlight"
           ]
         }
-      ],
-      "refs": [
-        "KDT8 ch68"
-      ],
-      "tags": [
-        "poisoning"
-      ],
-      "id": "p3-misc-070",
-      "status": "draft",
-      "pyq": []
+      ]
     },
     {
-      "type": "shortnote",
-      "subtopic": "p3-misc-vitamins",
-      "front": "Short note: Vitamin A: deficiency, dosing and toxicity",
-      "sections": [
-        {
-          "h": "Deficiency",
-          "points": [
-            "Keratomalacia, corneal opacities, night blindness",
-            "Stored in liver: symptoms late"
-          ]
-        },
-        {
-          "h": "Dosing",
-          "points": [
-            "Prophylaxis 3000 to 5000 IU/day",
-            "Treatment 50,000 to 100,000 IU for 1 to 3 days"
-          ]
-        },
-        {
-          "h": "Toxicity",
-          "points": [
-            "Chronic 100,000 IU daily causes nausea, dermatitis, hair loss, bone pain",
-            "Polar bear liver: acute poisoning"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch69"
-      ],
+      "id": "p3-misc-096",
+      "type": "basic",
+      "subtopic": "p3-misc-vaccines",
       "tags": [
         "adr"
       ],
-      "id": "p3-misc-071",
+      "level": 1,
       "status": "draft",
-      "pyq": []
-    },
-    {
-      "type": "basic",
-      "subtopic": "p3-misc-vitamins",
-      "front": "Why is vitamin E not beneficial as a routine antioxidant supplement?",
-      "back": "Large observational studies and meta-analyses have not shown benefit from antioxidant supplementation; primary vitamin E deficiency does not occur clinically.",
       "refs": [
-        "KDT8 ch69"
+        "KDT8 ch70"
       ],
-      "tags": [
-        "uses"
-      ],
-      "id": "p3-misc-072",
-      "status": "draft",
-      "pyq": []
+      "pyq": [],
+      "front": "Vaccine allergic reactions: which components are responsible, and what must be ready?",
+      "back": "Egg proteins from chick-embryo culture and trace antibiotics added during production. Keep adrenaline 1 in 1000 available to treat an allergic reaction."
     },
     {
-      "type": "shortnote",
+      "id": "p3-misc-097",
+      "type": "essay",
       "subtopic": "p3-misc-vaccines",
-      "front": "Short note: Live versus killed vaccines and who must avoid live vaccines",
-      "sections": [
+      "tags": [
+        "adr",
+        "contraindications"
+      ],
+      "level": 3,
+      "status": "draft",
+      "refs": [
+        "KDT8 ch70"
+      ],
+      "pyq": [
         {
-          "h": "Killed",
-          "points": [
-            "Microorganisms killed by heat or chemicals; a series of doses needed"
-          ]
-        },
-        {
-          "h": "Live",
-          "points": [
-            "Attenuated organisms; contraindicated in leukaemia, chemotherapy, steroid use, AIDS",
-            "Oral polio (Sabin) is live"
-          ]
-        },
-        {
-          "h": "Toxoids",
-          "points": [
-            "Toxicity removed, antigenicity kept"
-          ]
+          "university": "RGUHS",
+          "year": 2024,
+          "month": "June",
+          "paper": "IV",
+          "marks": 10
         }
       ],
-      "refs": [
-        "KDT8 ch70"
-      ],
-      "tags": [
-        "classification"
-      ],
-      "id": "p3-misc-073",
-      "status": "draft",
-      "pyq": []
-    },
-    {
-      "type": "basic",
-      "subtopic": "p3-misc-vaccines",
-      "front": "What is the role of rabies immunoglobulin in post-exposure prophylaxis?",
-      "back": "Vaccine antibodies take 10 to 14 days, so rabies immunoglobulin is given concurrently in category III bites, where risk is high; human rabies immunoglobulin is 20 IU/kg on day 0, infiltrated around the bite.",
-      "refs": [
-        "KDT8 ch70"
-      ],
-      "tags": [
-        "dosing"
-      ],
-      "id": "p3-misc-074",
-      "status": "draft",
-      "pyq": []
+      "front": "Essay: Vaccine safety: myths, truths and consequences",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Vaccines are antigens that give active immunity; they are potentially dangerous biologicals, so manufacture and sale are state-supervised",
+            "Book does not discuss anti-vaccine myths; answer only from the points below"
+          ]
+        },
+        {
+          "h": "Truths: expected reactions",
+          "points": [
+            "TAB: local tenderness, fever and malaise for 1 to 2 days",
+            "Allergy from egg proteins and trace antibiotics; adrenaline ready",
+            "Vi polysaccharide vaccine: fewer local and systemic effects than TAB"
+          ]
+        },
+        {
+          "h": "Contraindications",
+          "points": [
+            "Live vaccines avoided in leukaemia or cytotoxic chemotherapy, SLE, corticosteroid therapy, AIDS and other immune deficiency",
+            "Vi and Ty21a typhoid vaccines not approved in pregnant women or children below the stated age"
+          ]
+        },
+        {
+          "h": "Consequences and benefit",
+          "points": [
+            "Immunity duration depends on the organism; viral vaccines and toxoids last longer than bacterial",
+            "Live attenuated vaccines give long-lasting immunity; killed vaccines need boosters",
+            "Vaccine is prophylactic; antisera are curative"
+          ]
+        }
+      ]
     }
   ]
 }

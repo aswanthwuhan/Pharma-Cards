@@ -1393,106 +1393,6 @@
       ]
     },
     {
-      "id": "rf-p3-research-biostats-0140",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "kind": "fact",
-      "q": "Sensitivity formula in a 2x2 table (A = TP, C = FN)",
-      "a": "A ÷ (A + C)",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0141",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "kind": "fact",
-      "q": "Specificity formula (B = FP, D = TN)",
-      "a": "D ÷ (D + B)",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0142",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "kind": "fact",
-      "q": "Positive predictive value formula",
-      "a": "A ÷ (A + B)",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0143",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "kind": "fact",
-      "q": "Negative predictive value formula",
-      "a": "D ÷ (D + C)",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0144",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "kind": "fact",
-      "q": "Positive likelihood ratio formula",
-      "a": "Sensitivity ÷ (1 − specificity)",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0145",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "kind": "fact",
-      "q": "Negative likelihood ratio formula",
-      "a": "(1 − sensitivity) ÷ specificity",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0146",
-      "subtopic": "p3-research-biostats-epi-measures",
-      "kind": "fact",
-      "q": "Diagnostic measure affected by prevalence",
-      "a": "PPV and NPV (likelihood ratios are not)",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Diagnostic Testing Accuracy Sensitivity Specificity Predictive Values Likelihood Ratios https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0147",
-      "subtopic": "p3-research-biostats-tests",
-      "kind": "fact",
-      "q": "Pearson r: range",
-      "a": "−1 to +1",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0148",
-      "subtopic": "p3-research-biostats-tests",
-      "kind": "fact",
-      "q": "Pearson r of 0 means",
-      "a": "No linear relationship",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
-      ]
-    },
-    {
-      "id": "rf-p3-research-biostats-0149",
-      "subtopic": "p3-research-biostats-tests",
-      "kind": "fact",
-      "q": "Simple linear regression: variable types",
-      "a": "One continuous dependent and one continuous independent variable",
-      "refs": [
-        "WEB StatPearls NCBI Bookshelf Correlation (Coefficient, Partial, and Spearman Rank) and Regression Analysis 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK606101/"
-      ]
-    },
-    {
       "id": "rf-p3-research-biostats-0150",
       "subtopic": "p3-research-biostats-protocol",
       "kind": "class",
@@ -1836,6 +1736,857 @@
       ],
       "tags": [
         "classification"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0182",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "Measure of association from a cohort study",
+      "a": "Relative risk (incidence in exposed / incidence in unexposed)",
+      "refs": [
+        "Sarkar p366-370"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0183",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "kind": "fact",
+      "q": "NNT: baseline mortality 50% halved to 25%",
+      "a": "NNT = 4; same halving from 5% gives NNT 40",
+      "refs": [
+        "RangDale9 ch8"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0184",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Coefficient of variation: formula",
+      "a": "SD / mean x 100 (%)",
+      "refs": [
+        "Ghosh FEP PDF p218"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0185",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Coefficient of variation: main use",
+      "a": "Compares variability across units; estimates sample size from preliminary data",
+      "refs": [
+        "Ghosh FEP PDF p218"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0186",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Sample size from CV: formula",
+      "a": "n = t^2 x CV^2 (CV as a fraction)",
+      "refs": [
+        "Ghosh FEP PDF p218"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0187",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Standard error: formula from SD",
+      "a": "SD / square root of N",
+      "refs": [
+        "Ghosh FEP PDF p215"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0188",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Standard error: change in n to halve SE",
+      "a": "Increase the sample four times",
+      "refs": [
+        "Ghosh FEP PDF p215"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0189",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Normal curve: share of values within mean +/- 2 SD",
+      "a": "About 95%",
+      "refs": [
+        "Ghosh FEP PDF p216"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0190",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Normal curve: mean, median and mode",
+      "a": "All equal; symmetric bell shape",
+      "refs": [
+        "Ghosh FEP PDF p216"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0191",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Normal curve: parameters that describe it",
+      "a": "Mean and standard deviation",
+      "refs": [
+        "Ghosh FEP PDF p216"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0192",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Sample size below which t distribution is used",
+      "a": "Fewer than 30 observations",
+      "refs": [
+        "Ghosh FEP PDF p216"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0193",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Means of samples from a non-normal population",
+      "a": "Tend to normal as sample size grows",
+      "refs": [
+        "Ghosh FEP PDF p216"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0194",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "class",
+      "q": "Measurement scales: list all four",
+      "a": "Nominal; ordinal; interval; ratio",
+      "refs": [
+        "Sarkar p356-360"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0195",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Ratio scale: extra property over interval",
+      "a": "A true zero, so ratios are meaningful",
+      "refs": [
+        "Sarkar p361-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0196",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Qualitative data: nature",
+      "a": "Attributes described, not computed; exploratory",
+      "refs": [
+        "Sarkar p361-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0197",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Parametric data: scales",
+      "a": "Interval and ratio",
+      "refs": [
+        "Sarkar p361-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0198",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Non-parametric data: scales",
+      "a": "Nominal and ordinal",
+      "refs": [
+        "Sarkar p361-365"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0199",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Patient-reported quality of life: instrument",
+      "a": "Patient-completed questionnaire, e.g. EQ-5D",
+      "refs": [
+        "Sarkar p81-85",
+        "Bennett PDF p76"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0200",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "class",
+      "q": "Study instruments for collecting data: list",
+      "a": "Questionnaires; observation recording forms; case report forms",
+      "refs": [
+        "Sarkar p206-210"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0201",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Protocol requirement on data collection",
+      "a": "Name every instrument used to collect information",
+      "refs": [
+        "Sarkar p206-210"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0202",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Type I error: definition",
+      "a": "Rejecting a true null hypothesis (false positive)",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0203",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Type I error: probability symbol",
+      "a": "Alpha (significance level)",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0204",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Type II error: definition",
+      "a": "Failing to reject a false null hypothesis (false negative)",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0205",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Power of a trial",
+      "a": "1 - beta; detecting a real difference",
+      "refs": [
+        "RangDale9 PDF p119"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0206",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Power usually accepted in trials",
+      "a": "0.8 to 0.9",
+      "refs": [
+        "RangDale9 PDF p119"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0207",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "p < 0.05 means false-positive risk",
+      "a": "Less than 1 in 20",
+      "refs": [
+        "RangDale9 PDF p119"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0208",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Hypothesis testing: what it can do",
+      "a": "Reject or retain the null; cannot prove it",
+      "refs": [
+        "Sarkar p371-375"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0209",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Sample size: the three inputs named in the trial chapter",
+      "a": "Significance level, power, clinically important difference",
+      "refs": [
+        "RangDale9 PDF p119"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0210",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Larger sample size effect on power",
+      "a": "Greater power to detect a real difference",
+      "refs": [
+        "RangDale9 PDF p119"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0211",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Missing follow-up: risk to safety outcomes",
+      "a": "Serious adverse events may go undetected",
+      "refs": [
+        "RangDale9 PDF p119"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0212",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Imperfect data: plan needed",
+      "a": "Prospective plan for missing data and outliers",
+      "refs": [
+        "Sarkar p21-25"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0213",
+      "subtopic": "p3-research-biostats-inference",
+      "kind": "fact",
+      "q": "Preclinical studies: multiplicity problem",
+      "a": "Multiplicity in statistical testing, inadequately addressed",
+      "refs": [
+        "Sarkar p21-25"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0214",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Biomarker: definition",
+      "a": "Objectively measured indicator of normal or pathological process, or drug response",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0215",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Surrogate marker: definition",
+      "a": "Biomarker that substitutes a clinical endpoint and predicts benefit or harm",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0216",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Surrogate marker example for clinical benefit",
+      "a": "Blood pressure",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0217",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "HDL cholesterol: status as a surrogate",
+      "a": "A biomarker; not validated as a surrogate for cardiac benefit",
+      "refs": [
+        "Bioequivalence & Statistics PDF p36"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0218",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Ideal biomarker: two properties",
+      "a": "Specific and sensitive",
+      "refs": [
+        "GG14 PDF p1527"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0219",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Toxicity surrogate marker in preclinical work",
+      "a": "Serum liver enzyme levels",
+      "refs": [
+        "Medhi PMECP p119"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0220",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Three findings used to set NOAEL in preclinical toxicology",
+      "a": "Overt toxicity; surrogate markers; exaggerated pharmacodynamic effects",
+      "refs": [
+        "Medhi PMECP p119"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0221",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Impact factor: formula",
+      "a": "Citations in one year / papers published in the previous two years",
+      "refs": [
+        "Medhi PMECP p352"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0222",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Impact factor: originator",
+      "a": "Eugene Garfield, 1950s",
+      "refs": [
+        "Medhi PMECP p352"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0223",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Garfield's intended use of impact factor",
+      "a": "Managing library journal subscriptions",
+      "refs": [
+        "Medhi PMECP p353"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0224",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Impact factor: main misuse",
+      "a": "Used to judge scientists and grants, not journal quality alone",
+      "refs": [
+        "Medhi PMECP p353"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0225",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Biostatistics team: main task in a trial",
+      "a": "Analyse data per protocol; decide positive or negative result",
+      "refs": [
+        "Sarkar p151-155"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0226",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Biostatistics team: outputs for medical writers",
+      "a": "Tables, figures, graphs with interpretation",
+      "refs": [
+        "Sarkar p151-155"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0227",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Explanatory trial: population and control",
+      "a": "Homogeneous, strict criteria; placebo",
+      "refs": [
+        "Sarkar p156-160"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0228",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Pragmatic trial: aim",
+      "a": "Effect in routine practice, with consequences of use",
+      "refs": [
+        "Sarkar p156-160"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0229",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Effectiveness trial: criteria",
+      "a": "Lax, real-world criteria; patients may accept or reject treatment",
+      "refs": [
+        "Sarkar p156-160"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0230",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Principle of essentiality",
+      "a": "Use human subjects only when absolutely essential and no alternative exists",
+      "refs": [
+        "Sarkar p156-160"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0231",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Simple random sampling: selection method",
+      "a": "Each unit has equal chance; chosen unit by unit",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0232",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Systematic sampling: interval",
+      "a": "K = total population / desired sample size",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0233",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "class",
+      "q": "Sampling methods: list all in the chapter",
+      "a": "Simple random; systematic; stratified; multistage; cluster; multiphase; block",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0234",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Stratified sampling: method",
+      "a": "Divide into strata, sample each in proportion",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0235",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Cluster sampling: unit and drawback",
+      "a": "Natural groups chosen at random; higher sampling error",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0236",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Multiphase sampling: method",
+      "a": "Screen all, test a smaller subsample further",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0237",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Randomisation: criteria of a good method",
+      "a": "Unpredictability, balance, simplicity",
+      "refs": [
+        "Sarkar p196-200"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0238",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Randomisation: tools",
+      "a": "Closed envelopes, computer sequences, random number tables, coin toss",
+      "refs": [
+        "Sarkar p156-160"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0239",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Apparent volume of distribution: formula",
+      "a": "Amount of drug in body / plasma concentration",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0240",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Digoxin volume of distribution",
+      "a": "Large; haemodialysis removes little",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0241",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Volume of distribution: factors",
+      "a": "Lipid:water partition, pKa, plasma protein binding",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0242",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Pathological states that change volume of distribution",
+      "a": "Heart failure, uraemia, cirrhosis",
+      "refs": [
+        "KDT8 ch3"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0243",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Antagonism: dose ratio",
+      "a": "EC50 with antagonist / EC50 without antagonist",
+      "refs": [
+        "Ghosh FEP PDF p104"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0244",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Reversible competitive antagonism on dose-response",
+      "a": "Parallel right shift, same maximum",
+      "refs": [
+        "Ghosh FEP PDF p107"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0245",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Irreversible competitive antagonism on dose-response",
+      "a": "Covalent binding; maximum depressed",
+      "refs": [
+        "Ghosh FEP PDF p107"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0246",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Dibenamine and phenoxybenzamine belong to",
+      "a": "Irreversible (non-equilibrium) competitive antagonists",
+      "refs": [
+        "Ghosh FEP PDF p107"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0247",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Schild plot: axes",
+      "a": "log(DR - 1) vs negative log molar antagonist concentration",
+      "refs": [
+        "Ghosh FEP PDF p110"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0248",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Schild plot: slope for competitive antagonism",
+      "a": "About 1 (not statistically different from unity)",
+      "refs": [
+        "Ghosh FEP PDF p110"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0249",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "pA2 minus pA10 for competitive antagonism",
+      "a": "About 0.95 (0.8 to 1.2)",
+      "refs": [
+        "Ghosh FEP PDF p110"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0250",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Lineweaver-Burk test of competitive antagonism",
+      "a": "Lines meet at one common point on the infinite-dose line",
+      "refs": [
+        "Ghosh FEP PDF p109"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0251",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Curative antagonism measure in isolated tissue",
+      "a": "IC50 from percent reduction of contracture",
+      "refs": [
+        "Ghosh FEP PDF p104"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0252",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Non-competitive antagonist: key feature",
+      "a": "Acts at a different site; agonist cannot overcome it",
+      "refs": [
+        "Ghosh FEP PDF p107"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0253",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "ELISA: source of specificity",
+      "a": "Antigen-antibody binding",
+      "refs": [
+        "Sarkar p386-390"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0254",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "ELISA: how the signal is read",
+      "a": "Enzyme-substrate colour compared with standards",
+      "refs": [
+        "Medhi PMECP p351"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0255",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Non-animal eye irritation alternative",
+      "a": "HET-CAM and other in vitro tests in place of Draize rabbit test",
+      "refs": [
+        "Sarkar p286-290"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0256",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "In vitro pyrogen test",
+      "a": "Uses donated human blood",
+      "refs": [
+        "Sarkar p286-290"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0257",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "In silico toxicity model",
+      "a": "Structure-activity relationship computer models",
+      "refs": [
+        "Sarkar p131-135"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0258",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Isolated heart technique",
+      "a": "Langendorff method",
+      "refs": [
+        "Sarkar p286-290"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0259",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Lipid peroxidation marker in liver homogenate",
+      "a": "Malondialdehyde (TBARS)",
+      "refs": [
+        "Sarkar p356-360"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0260",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Liver glutathione assay",
+      "a": "Soluble sulphydryl content of liver",
+      "refs": [
+        "Sarkar p356-360"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0261",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Coefficient of variation: unit",
+      "a": "Percent (%)",
+      "refs": [
+        "Ghosh FEP PDF p218"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0262",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Closeness of a measured value to the true value",
+      "a": "Accuracy",
+      "refs": [
+        "Medhi PMECP p153-154"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0263",
+      "subtopic": "p3-research-biostats-descriptive",
+      "kind": "fact",
+      "q": "Closeness of repeated measurements to each other (reproducibility)",
+      "a": "Precision",
+      "refs": [
+        "Medhi PMECP p153-154"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0264",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Untoward medical occurrence during treatment, causal link not required",
+      "a": "Adverse event",
+      "refs": [
+        "Sarkar p86-90"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0265",
+      "subtopic": "p3-research-biostats-evidence",
+      "kind": "fact",
+      "q": "Noxious, unintended, undesired drug effect at doses used in humans",
+      "a": "Adverse drug reaction (ADR)",
+      "refs": [
+        "KDT8 ch5"
+      ]
+    },
+    {
+      "id": "rf-p3-research-biostats-0266",
+      "subtopic": "p3-research-biostats-protocol",
+      "kind": "fact",
+      "q": "Random allocation within groups defined by age, sex or severity",
+      "a": "Stratified randomisation",
+      "refs": [
+        "RangDale9 ch8"
       ]
     }
   ]

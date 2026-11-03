@@ -125,3 +125,29 @@ Totals: re-grounded 12, new 12, still unsourced 6.
 | rf-pr-ospe-0057 | new | Sarkar p506-510 |
 | rf-pr-ospe-0058 | new | Sarkar p226-230; Sarkar p186-190; UNSOURCED - owner must verify |
 | rf-pr-ospe-0059 | new | WEB Indian J Pharmacol Standardization and validation of OSPE in pharmacology 2017 https://pmc.ncbi.nlm.nih.gov/articles/PMC5754933/ |
+
+| rf-pr-ospe-0060 | new | Sarkar p76-80; UNSOURCED - owner must verify |
+| rf-pr-ospe-0061 | new | Sarkar p76-80; UNSOURCED - owner must verify |
+| rf-pr-ospe-0062 | new | Sarkar p76-80; UNSOURCED - owner must verify |
+| rf-pr-ospe-0063 | new | Sarkar p201-205 |
+| rf-pr-ospe-0064 | new | Sarkar p81-85 |
+| rf-pr-ospe-0065 | new | Sarkar p421-425 |
+| rf-pr-ospe-0066 | new | Sarkar p386-390 |
+| rf-pr-ospe-0067 | new | Sarkar p396-400 |
+| rf-pr-ospe-0068 | new | Pickar Dosage Calculations PDF p373; UNSOURCED - owner must verify |
+| rf-pr-ospe-0069 | new | NMC MD Pharmacology 2022 curriculum (practical exam); UNSOURCED - owner must verify |
+
+## Checker (independent pass)
+
+| id | result | note |
+|---|---|---|
+| rf-pr-ospe-0029 | corrected | Old ref (Sarkar p506-510) did not contain "WHO ethical criteria". Re-written from Sarkar's "actual information vs promotional claims". |
+| rf-pr-ospe-0032 | corrected | Katzung16 ch66 did not support the label wording; ref now Bennett and Brown PDF p132 (UK standard label). |
+| rf-pr-ospe-0045 | corrected | Sarkar calls indirect and sandwich ELISA highly sensitive; "most sensitive" removed. |
+| rf-pr-ospe-0054 | corrected | "KDT prefers weight-based" not in KDT8. Katzung16 ch59 cited; ratio marked arithmetic/UNSOURCED. |
+| rf-pr-ospe-0056 | corrected | Katzung16 ch66 did not support the label list; now Pickar index p710. |
+| rf-pr-ospe-0037, 0038, 0039, 0041, 0044, 0045, 0047, 0065, 0066 | ok | Checked against OCR/PDF text. Not re-checked: 0031, 0042, 0043, 0050-0053, 0055, 0057, 0058, 0060-0064, 0067, 0068, 0069. |
+| rf-pr-ospe-0070 to 0078 | added | FDC and rational prescribing facts (KDT8 ch5): 344 banned, NLEM 20, WHO 2017 25, sulfamethoxazole + trimethoprim. |
+| rf-pr-ospe-0059 | not verified | WEB PMC source; "about 5 minutes" not checked offline. Owner to check. |
+
+Deleted: none. Forbidden refs (Prep, RR5, RapidRev): none.

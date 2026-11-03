@@ -15,7 +15,8 @@
       "subtopic": "p3-calcium-pth",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-calcium-002",
@@ -59,22 +60,8 @@
       "subtopic": "p3-calcium-pth",
       "tags": [
         "mechanism"
-      ]
-    },
-    {
-      "id": "p3-calcium-003",
-      "type": "basic",
-      "front": "Osteoclasts lack PTH receptors. How does PTH still activate them?",
-      "back": "PTH acts on osteoblasts, which then make RANKL. RANKL binds RANK on osteoclast precursors, driving their differentiation and activity. Osteoblasts also secrete osteoprotegerin, a decoy that binds RANKL and blocks it.",
-      "refs": [
-        "KDT8 ch24"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-calcium-pth",
-      "tags": [
-        "mechanism"
-      ]
+      "level": 1
     },
     {
       "id": "p3-calcium-004",
@@ -93,7 +80,56 @@
         "uses",
         "dosing",
         "contraindications"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-031",
+      "type": "basic",
+      "subtopic": "p3-calcium-pth",
+      "front": "How does PTH raise plasma calcium through the intestine?",
+      "back": "Indirectly: PTH activates renal 1-hydroxylase, so more calcitriol forms, and calcitriol promotes intestinal calcium absorption.",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-033",
+      "type": "cloze",
+      "subtopic": "p3-calcium-pth",
+      "front": "Complete: cinacalcet",
+      "text": "Cinacalcet is a {{calcimimetic}} that {{allosterically}} activates the calcium-sensing receptor on parathyroid cells. Its main risk is {{hypocalcaemia}}.",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-003",
+      "type": "basic",
+      "front": "Osteoclasts lack PTH receptors. How does PTH still activate them?",
+      "back": "PTH acts on osteoblasts, which then make RANKL. RANKL binds RANK on osteoclast precursors, driving their differentiation and activity. Osteoblasts also secrete osteoprotegerin, a decoy that binds RANKL and blocks it.",
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-calcium-pth",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
     },
     {
       "id": "p3-calcium-005",
@@ -156,7 +192,154 @@
         "mechanism",
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-029",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-pth",
+      "front": "Short note: Hypoparathyroidism",
+      "sections": [
+        {
+          "h": "Features",
+          "points": [
+            "Low plasma calcium, tetany, convulsions, laryngospasm",
+            "Paraesthesias, cataract, psychiatric changes"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "Vitamin D preferred to PTH: oral, inexpensive; PTH is parenteral",
+            "Dihydrotachysterol, calcitriol or alfacalcidol act quickly without renal hydroxylation"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-030",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-pth",
+      "front": "Short note: Primary hyperparathyroidism",
+      "sections": [
+        {
+          "h": "Cause and features",
+          "points": [
+            "Mostly a parathyroid tumour",
+            "Hypercalcaemia, osteitis fibrosa generalisata, metastatic calcification, renal stones",
+            "Muscle weakness, constipation, anorexia"
+          ]
+        },
+        {
+          "h": "Management",
+          "points": [
+            "Surgical removal of the tumour",
+            "If surgery not possible: low calcium, high phosphate diet with plenty of fluids",
+            "Cinacalcet lowers PTH; hypocalcaemia is the main risk"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "poisoning"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-032",
+      "type": "basic",
+      "subtopic": "p3-calcium-pth",
+      "front": "Why does continuous high PTH resorb bone, but intermittent low-dose PTH build it?",
+      "back": "Continuous high levels activate osteoclasts and increase remodelling units. Intermittent low doses increase new bone formation.",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-026",
+      "type": "basic",
+      "front": "Abaloparatide and romosozumab: how do these anabolic osteoporosis drugs differ from teriparatide?",
+      "back": "Abaloparatide is a PTHrP analogue that, like teriparatide, stimulates bone formation; it is given 80 µg s.c. daily, causes less hypercalcaemia than teriparatide, and is limited to 2 years. Romosozumab is a monoclonal antibody against sclerostin, an osteocyte protein that blocks Wnt signalling in osteoblasts; it increases bone formation and also suppresses resorption. It is given 210 mg s.c. monthly for 1 year and carries a boxed warning against use in patients at risk of stroke or coronary disease. After either drug an antiresorptive must follow to keep the bone gained.",
+      "refs": [
+        "Katzung16 ch42",
+        "GG14 ch52"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-calcium-pth",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-calcium-034",
+      "type": "essay",
+      "subtopic": "p3-calcium-pth",
+      "front": "Essay: Disorders of parathyroid hormone and their drug treatment",
+      "sections": [
+        {
+          "h": "Hypoparathyroidism",
+          "points": [
+            "Low calcium, tetany, convulsions",
+            "Treat with vitamin D forms; PTH is not used"
+          ]
+        },
+        {
+          "h": "Hyperparathyroidism",
+          "points": [
+            "Parathyroid tumour; hypercalcaemia, bone disease, stones",
+            "Surgery first; cinacalcet if surgery not possible"
+          ]
+        },
+        {
+          "h": "Pseudohypoparathyroidism",
+          "points": [
+            "Target cells resistant to PTH",
+            "IV teriparatide: no calcium rise confirms it"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 3
     },
     {
       "id": "p3-calcium-006",
@@ -171,7 +354,8 @@
       "subtopic": "p3-calcium-vitd",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-calcium-007",
@@ -186,7 +370,115 @@
       "subtopic": "p3-calcium-vitd",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-010",
+      "type": "cloze",
+      "front": "Complete: key calcium salts and their properties",
+      "text": "Calcium {{carbonate}} (40% elemental) is the most common supplement salt but needs gastric acid to be absorbed. Calcium {{gluconate}} is the preferred injectable salt and causes warmth on IV injection, so extravasation must be avoided. Calcium {{chloride}} (27%) is too irritant to give orally.",
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-039",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-vitd",
+      "front": "Short note: Vitamin D metabolism and storage",
+      "sections": [
+        {
+          "h": "Synthesis",
+          "points": [
+            "D3 (cholecalciferol) made in skin by UV light; D2 from irradiated food"
+          ]
+        },
+        {
+          "h": "Activation",
+          "points": [
+            "Liver: 25-hydroxylation to calcifediol",
+            "Kidney: 1-hydroxylation to calcitriol (active form)"
+          ]
+        },
+        {
+          "h": "Transport and storage",
+          "points": [
+            "Carried by vitamin D binding protein",
+            "Stored mostly in adipose tissue for many months"
+          ]
+        }
+      ],
+      "tags": [
+        "pk",
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-042",
+      "type": "basic",
+      "subtopic": "p3-calcium-vitd",
+      "front": "Are D2 and D3 equally active in man?",
+      "back": "Yes, they are equally active. D3 is absorbed somewhat better than D2.",
+      "tags": [
+        "pk"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-045",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-vitd",
+      "front": "Short note: Calcium salts in therapy",
+      "sections": [
+        {
+          "h": "Salts",
+          "points": [
+            "Carbonate 40% calcium (also antacid); lactate 13%; dibasic phosphate 23%"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Tetany: calcium gluconate IV, then slow infusion",
+            "Dietary supplement; adjuvant with alendronate, HRT or raloxifene in osteoporosis"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Constipation, bloating, gas (especially carbonate)"
+          ]
+        }
+      ],
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p3-calcium-008",
@@ -202,7 +494,8 @@
       "tags": [
         "pk",
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-calcium-009",
@@ -242,22 +535,8 @@
       "subtopic": "p3-calcium-vitd",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-calcium-010",
-      "type": "cloze",
-      "front": "Complete: key calcium salts and their properties",
-      "text": "Calcium {{carbonate}} (40% elemental) is the most common supplement salt but needs gastric acid to be absorbed. Calcium {{gluconate}} is the preferred injectable salt and causes warmth on IV injection, so extravasation must be avoided. Calcium {{chloride}} (27%) is too irritant to give orally.",
-      "refs": [
-        "KDT8 ch24"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-calcium-vitd",
-      "tags": [
-        "classification"
-      ]
+      "level": 2
     },
     {
       "id": "p3-calcium-011",
@@ -272,6 +551,176 @@
       "subtopic": "p3-calcium-vitd",
       "tags": [
         "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-027",
+      "type": "basic",
+      "front": "How is acute hypocalcaemic tetany treated?",
+      "back": "For severe tetany inject 10 to 20 mL of 10% calcium gluconate (90 to 180 mg elemental calcium) IV over 10 minutes, followed by slow IV infusion; about 0.45 to 0.9 g of calcium over 6 hours is needed to fully reverse the spasms. Calcium gluconate is the preferred injectable salt; it causes a feeling of warmth and extravasation must be avoided. Hyperventilation worsens tetany because alkalosis reduces calcium ionisation.",
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-040",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-vitd",
+      "front": "Short note: Rickets and osteomalacia",
+      "sections": [
+        {
+          "h": "Mechanism",
+          "points": [
+            "Poor intestinal calcium absorption, so PTH rises and bone calcium is mobilised",
+            "Newly laid bone fails to mineralise; osteoid is normal"
+          ]
+        },
+        {
+          "h": "Metabolic rickets",
+          "points": [
+            "X-linked resistant rickets: phosphate with high-dose calcitriol or alfacalcidol",
+            "Vitamin D dependent rickets: renal hydroxylase defect; normal-dose calcitriol works",
+            "Renal rickets: calcitriol or alfacalcidol"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-041",
+      "type": "basic",
+      "subtopic": "p3-calcium-vitd",
+      "front": "Why are rickets and osteomalacia different from osteoporosis?",
+      "back": "In rickets and osteomalacia the mineral fails to deposit on normal osteoid. In osteoporosis the organic matrix is reduced.",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-043",
+      "type": "basic",
+      "subtopic": "p3-calcium-vitd",
+      "front": "Why is calcitriol faster than vitamin D2 or D3 in hypoparathyroidism?",
+      "back": "Calcitriol and alfacalcidol act directly without needing renal hydroxylation, which requires PTH.",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-044",
+      "type": "basic",
+      "subtopic": "p3-calcium-vitd",
+      "front": "Why can phenytoin cause rickets or osteomalacia?",
+      "back": "Prolonged phenytoin or phenobarbitone use reduces the response of target tissues to calcitriol.",
+      "tags": [
+        "interactions"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-046",
+      "type": "basic",
+      "subtopic": "p3-calcium-vitd",
+      "front": "Where is calcipotriol used and why is it useful?",
+      "back": "Topically in plaque psoriasis; it is a vitamin D analogue that does not cause hypercalcaemia.",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-059",
+      "status": "draft",
+      "pyq": [],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 3,
+      "type": "essay",
+      "front": "Essay: Drugs used to prevent and treat disturbed calcium balance with low calcium (vitamin D and calcium)",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Plasma calcium is set by PTH, calcitonin and calcitriol acting on gut, bone and kidney"
+          ]
+        },
+        {
+          "h": "Vitamin D forms",
+          "points": [
+            "D2/D3 need liver then kidney activation",
+            "Calcitriol acts fast and bypasses the kidney step",
+            "Alfacalcidol bypasses the kidney step and is activated in liver"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Nutritional rickets and osteomalacia",
+            "Hypoparathyroidism, renal bone disease",
+            "Tetany: IV calcium for emergencies"
+          ]
+        },
+        {
+          "h": "Hazards",
+          "points": [
+            "Hypercalcaemia, ectopic calcification",
+            "Monitor serum calcium; stop therapy promptly if high"
+          ]
+        },
+        {
+          "h": "Choice",
+          "points": [
+            "Renal disease or hypoparathyroidism: calcitriol/alfacalcidol",
+            "Liver disease: calcitriol (alfacalcidol needs liver hydroxylation)",
+            "Simple deficiency: D2/D3"
+          ]
+        }
       ]
     },
     {
@@ -287,7 +736,8 @@
       "subtopic": "p3-calcium-calcitonin",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-calcium-013",
@@ -304,7 +754,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-calcium-014",
@@ -319,6 +770,140 @@
       "subtopic": "p3-calcium-calcitonin",
       "tags": [
         "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-035",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-calcitonin",
+      "front": "Short note: Calcitonin",
+      "sections": [
+        {
+          "h": "Source and control",
+          "points": [
+            "Parafollicular C cells of thyroid; 32 amino acids",
+            "Release rises with plasma calcium and falls when it falls"
+          ]
+        },
+        {
+          "h": "Actions",
+          "points": [
+            "Directly inhibits osteoclast bone resorption",
+            "Renal calcium effect overridden by hypocalcaemia"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Hypercalcaemic states (4-8 IU/kg IM or SC); nasal spray for postmenopausal osteoporosis",
+            "Paget disease (adjunct or second line); diagnosis of medullary carcinoma of thyroid"
+          ]
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-038",
+      "type": "cloze",
+      "subtopic": "p3-calcium-calcitonin",
+      "front": "Complete: calcitonin source and unit",
+      "text": "Calcitonin is made by the {{parafollicular C cells}} of the thyroid. One IU of calcitonin equals {{4 mcg}} of the standard preparation.",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-036",
+      "type": "basic",
+      "subtopic": "p3-calcium-calcitonin",
+      "front": "Why is calcitonin a second-line choice in Paget disease?",
+      "back": "Resistance develops after months because of antibodies. Bisphosphonates are more effective, convenient and cheaper.",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-037",
+      "type": "basic",
+      "subtopic": "p3-calcium-calcitonin",
+      "front": "What does nasal calcitonin achieve in osteoporosis?",
+      "back": "Increases bone mineral density and reduces vertebral fractures, but not other fractures.",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-060",
+      "status": "draft",
+      "pyq": [],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "subtopic": "p3-calcium-calcitonin",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 3,
+      "type": "essay",
+      "front": "Essay: Parathyroid hormone and calcitonin in calcium metabolism",
+      "sections": [
+        {
+          "h": "Regulation",
+          "points": [
+            "PTH: low Ca2+ stimulates release via CaSR",
+            "Calcitonin: high Ca2+ stimulates release"
+          ]
+        },
+        {
+          "h": "Actions",
+          "points": [
+            "PTH raises Ca2+: bone, kidney, indirectly gut via calcitriol",
+            "Calcitonin lowers Ca2+ by acting on osteoclasts and reducing their ruffled border"
+          ]
+        },
+        {
+          "h": "Therapeutic use",
+          "points": [
+            "PTH analogue teriparatide: intermittent, anabolic in osteoporosis",
+            "Calcitonin: hypercalcaemia (rapid, tachyphylaxis within days), Paget, bone pain"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Calcitonin weak, refractoriness develops",
+            "Continuous PTH excess causes bone loss"
+          ]
+        }
       ]
     },
     {
@@ -334,7 +919,8 @@
       "subtopic": "p3-calcium-bisphosphonates",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-calcium-016",
@@ -349,7 +935,96 @@
       "subtopic": "p3-calcium-bisphosphonates",
       "tags": [
         "mechanism"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-028",
+      "type": "shortnote",
+      "front": "Short note: Bisphosphonates - generations and potency",
+      "sections": [
+        {
+          "h": "Generations",
+          "points": [
+            "First generation: etidronate (relative potency 1)",
+            "Second generation: pamidronate (100), alendronate (100-500), ibandronate (500-1000)",
+            "Third generation: more potent, higher efficacy and an additional mode of action (KDT8)"
+          ]
+        },
+        {
+          "h": "Structure",
+          "points": [
+            "Modifications in the side chain give greater potency, efficacy and an additional mode of action (KDT8)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p383"
+      ],
+      "subtopic": "p3-calcium-bisphosphonates",
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2007,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2011,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-051",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-bisphosphonates",
+      "front": "Short note: Pamidronate and ibandronate",
+      "sections": [
+        {
+          "h": "Pamidronate",
+          "points": [
+            "IV only: 60-90 mg over 2-4 h weekly or monthly",
+            "Paget disease, hypercalcaemia of malignancy, bone metastasis"
+          ]
+        },
+        {
+          "h": "Ibandronate",
+          "points": [
+            "Oral 2.5 mg daily or 150 mg monthly; IV 2-4 mg over 1-2 h for hypercalcaemia",
+            "Reduces vertebral fractures"
+          ]
+        }
+      ],
+      "tags": [
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
     },
     {
       "id": "p3-calcium-017",
@@ -366,7 +1041,8 @@
         "pk",
         "interactions",
         "contraindications"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-calcium-018",
@@ -402,7 +1078,8 @@
       "subtopic": "p3-calcium-bisphosphonates",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-calcium-019",
@@ -417,7 +1094,8 @@
       "subtopic": "p3-calcium-bisphosphonates",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-calcium-020",
@@ -435,7 +1113,8 @@
         "mechanism",
         "uses",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-calcium-021",
@@ -451,7 +1130,132 @@
       "tags": [
         "adr",
         "newer-drugs"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-047",
+      "type": "basic",
+      "subtopic": "p3-calcium-bisphosphonates",
+      "front": "Why is weekly alendronate often preferred?",
+      "back": "Weekly 35-70 mg is equally effective, more convenient and better tolerated than daily dosing.",
+      "tags": [
+        "dosing"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-048",
+      "type": "basic",
+      "subtopic": "p3-calcium-bisphosphonates",
+      "front": "How do bisphosphonates affect osteoclast precursors?",
+      "back": "They inhibit differentiation by suppressing IL-6.",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-049",
+      "type": "basic",
+      "subtopic": "p3-calcium-bisphosphonates",
+      "front": "Why do oral bisphosphonates cause oesophagitis?",
+      "back": "They are poorly absorbed and irritate the gastric and oesophageal mucosa; NSAIDs add to the irritation.",
+      "tags": [
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-050",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-bisphosphonates",
+      "front": "Short note: Zoledronate",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Third-generation, highly potent, parenteral bisphosphonate"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Hypercalcaemia, bone metastases, osteolytic lesions, Paget disease",
+            "Osteoporosis: 4 mg IV once every 12 months, up to 5 years, in women intolerant of oral drugs"
+          ]
+        },
+        {
+          "h": "Infusion",
+          "points": [
+            "4 mg in 100 mL saline or glucose over 15 min",
+            "May be repeated after 7 days, then every 3-4 weeks"
+          ]
+        }
+      ],
+      "tags": [
+        "dosing",
+        "uses"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-052",
+      "type": "shortnote",
+      "subtopic": "p3-calcium-bisphosphonates",
+      "front": "Short note: Strontium ranelate",
+      "sections": [
+        {
+          "h": "Action",
+          "points": [
+            "Prevents osteoclast differentiation and promotes their apoptosis",
+            "Stimulates bone formation"
+          ]
+        },
+        {
+          "h": "Use and dose",
+          "points": [
+            "Reserve drug in elderly women and high-risk men when bisphosphonates are contraindicated or not tolerated",
+            "2 g daily; avoid food for 2 h"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Headache, GI upset, rashes, serious skin reactions"
+          ]
+        }
+      ],
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-calcium-022",
@@ -508,68 +1312,19 @@
           "university": "WBUHS",
           "year": 2022,
           "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
         }
       ],
       "status": "draft",
       "subtopic": "p3-calcium-bisphosphonates",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-calcium-023",
-      "type": "essay",
-      "front": "Essay: Management of hypercalcaemia of malignancy",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "Common in malignancy and a medical emergency",
-            "Dehydration and prerenal azotaemia stop the kidney excreting calcium"
-          ]
-        },
-        {
-          "h": "Immediate measures",
-          "points": [
-            "Rapid IV saline to restore volume and urine flow; this alone lowers Ca2+",
-            "Furosemide may be added after rehydration to increase calcium excretion, though its benefit has not been proved"
-          ]
-        },
-        {
-          "h": "Definitive drugs",
-          "points": [
-            "IV zoledronate 4 mg over at least 15 minutes: the drug of choice, faster and more potent",
-            "IV pamidronate 60 to 90 mg over 2 to 4 hours is the alternative",
-            "Effect persists for weeks; can be repeated after 7 days if renal function allows; oral forms are not useful here"
-          ]
-        },
-        {
-          "h": "Bridging and adjuncts",
-          "points": [
-            "Calcitonin i.m. 6 to 12 hourly for 2 days for quick effect",
-            "Glucocorticoids act slowly; adjuvant in lymphoma, myeloma and breast carcinoma",
-            "Gallium nitrate infusion for resistant cases",
-            "IV phosphate only when other measures fail, because it is hazardous"
-          ]
-        },
-        {
-          "h": "Monitoring",
-          "points": [
-            "Repeated serum calcium levels",
-            "Renal function, since zoledronate can cause renal toxicity"
-          ]
-        }
       ],
-      "refs": [
-        "KDT8 ch24",
-        "Katzung16 ch42"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-calcium-hypercalcaemia",
-      "tags": [
-        "uses"
-      ]
+      "level": 3
     },
     {
       "id": "p3-calcium-024",
@@ -586,672 +1341,8 @@
       "tags": [
         "uses",
         "dosing"
-      ]
-    },
-    {
-      "id": "p3-calcium-025",
-      "type": "basic",
-      "front": "Gallium nitrate: mechanism and main limitation?",
-      "back": "It inhibits bone resorption by depressing the ATP-dependent proton pump on the osteoclast ruffled membrane. It is given as a continuous IV infusion for about 5 days in malignancy-associated hypercalcaemia that does not respond to other drugs. It is nephrotoxic, so it is kept as a reserve drug.",
-      "refs": [
-        "KDT8 ch24"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-calcium-hypercalcaemia",
-      "tags": [
-        "mechanism",
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-calcium-026",
-      "type": "basic",
-      "front": "Abaloparatide and romosozumab: how do these anabolic osteoporosis drugs differ from teriparatide?",
-      "back": "Abaloparatide is a PTHrP analogue that, like teriparatide, stimulates bone formation; it is given 80 µg s.c. daily, causes less hypercalcaemia than teriparatide, and is limited to 2 years. Romosozumab is a monoclonal antibody against sclerostin, an osteocyte protein that blocks Wnt signalling in osteoblasts; it increases bone formation and also suppresses resorption. It is given 210 mg s.c. monthly for 1 year and carries a boxed warning against use in patients at risk of stroke or coronary disease. After either drug an antiresorptive must follow to keep the bone gained.",
-      "refs": [
-        "Katzung16 ch42",
-        "GG14 ch52"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-calcium-pth",
-      "tags": [
-        "newer-drugs",
-        "mechanism",
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-calcium-027",
-      "type": "basic",
-      "front": "How is acute hypocalcaemic tetany treated?",
-      "back": "For severe tetany inject 10 to 20 mL of 10% calcium gluconate (90 to 180 mg elemental calcium) IV over 10 minutes, followed by slow IV infusion; about 0.45 to 0.9 g of calcium over 6 hours is needed to fully reverse the spasms. Calcium gluconate is the preferred injectable salt; it causes a feeling of warmth and extravasation must be avoided. Hyperventilation worsens tetany because alkalosis reduces calcium ionisation.",
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-calcium-vitd",
-      "tags": [
-        "uses",
-        "dosing"
-      ]
-    },
-    {
-      "id": "p3-calcium-028",
-      "type": "shortnote",
-      "front": "Short note: Bisphosphonates - generations and potency",
-      "sections": [
-        {
-          "h": "Generations",
-          "points": [
-            "First generation: etidronate (relative potency 1)",
-            "Second generation: pamidronate (100), alendronate (100-500), ibandronate (500-1000)",
-            "Third generation: more potent, higher efficacy and an additional mode of action (KDT8)"
-          ]
-        },
-        {
-          "h": "Structure",
-          "points": [
-            "Modifications in the side chain give greater potency, efficacy and an additional mode of action (KDT8)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 PDF p383"
-      ],
-      "subtopic": "p3-calcium-bisphosphonates",
-      "tags": [
-        "mechanism"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2007,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2011,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        }
-      ]
-    },
-    {
-      "id": "p3-calcium-029",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-pth",
-      "front": "Short note: Hypoparathyroidism",
-      "sections": [
-        {
-          "h": "Features",
-          "points": [
-            "Low plasma calcium, tetany, convulsions, laryngospasm",
-            "Paraesthesias, cataract, psychiatric changes"
-          ]
-        },
-        {
-          "h": "Treatment",
-          "points": [
-            "Vitamin D preferred to PTH: oral, inexpensive; PTH is parenteral",
-            "Dihydrotachysterol, calcitriol or alfacalcidol act quickly without renal hydroxylation"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-030",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-pth",
-      "front": "Short note: Primary hyperparathyroidism",
-      "sections": [
-        {
-          "h": "Cause and features",
-          "points": [
-            "Mostly a parathyroid tumour",
-            "Hypercalcaemia, osteitis fibrosa generalisata, metastatic calcification, renal stones",
-            "Muscle weakness, constipation, anorexia"
-          ]
-        },
-        {
-          "h": "Management",
-          "points": [
-            "Surgical removal of the tumour",
-            "If surgery not possible: low calcium, high phosphate diet with plenty of fluids",
-            "Cinacalcet lowers PTH; hypocalcaemia is the main risk"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "poisoning"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-031",
-      "type": "basic",
-      "subtopic": "p3-calcium-pth",
-      "front": "How does PTH raise plasma calcium through the intestine?",
-      "back": "Indirectly: PTH activates renal 1-hydroxylase, so more calcitriol forms, and calcitriol promotes intestinal calcium absorption.",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-032",
-      "type": "basic",
-      "subtopic": "p3-calcium-pth",
-      "front": "Why does continuous high PTH resorb bone, but intermittent low-dose PTH build it?",
-      "back": "Continuous high levels activate osteoclasts and increase remodelling units. Intermittent low doses increase new bone formation.",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-033",
-      "type": "cloze",
-      "subtopic": "p3-calcium-pth",
-      "front": "Complete: cinacalcet",
-      "text": "Cinacalcet is a {{calcimimetic}} that {{allosterically}} activates the calcium-sensing receptor on parathyroid cells. Its main risk is {{hypocalcaemia}}.",
-      "tags": [
-        "classification"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-034",
-      "type": "essay",
-      "subtopic": "p3-calcium-pth",
-      "front": "Essay: Disorders of parathyroid hormone and their drug treatment",
-      "sections": [
-        {
-          "h": "Hypoparathyroidism",
-          "points": [
-            "Low calcium, tetany, convulsions",
-            "Treat with vitamin D forms; PTH is not used"
-          ]
-        },
-        {
-          "h": "Hyperparathyroidism",
-          "points": [
-            "Parathyroid tumour; hypercalcaemia, bone disease, stones",
-            "Surgery first; cinacalcet if surgery not possible"
-          ]
-        },
-        {
-          "h": "Pseudohypoparathyroidism",
-          "points": [
-            "Target cells resistant to PTH",
-            "IV teriparatide: no calcium rise confirms it"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-035",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-calcitonin",
-      "front": "Short note: Calcitonin",
-      "sections": [
-        {
-          "h": "Source and control",
-          "points": [
-            "Parafollicular C cells of thyroid; 32 amino acids",
-            "Release rises with plasma calcium and falls when it falls"
-          ]
-        },
-        {
-          "h": "Actions",
-          "points": [
-            "Directly inhibits osteoclast bone resorption",
-            "Renal calcium effect overridden by hypocalcaemia"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Hypercalcaemic states (4-8 IU/kg IM or SC); nasal spray for postmenopausal osteoporosis",
-            "Paget disease (adjunct or second line); diagnosis of medullary carcinoma of thyroid"
-          ]
-        }
-      ],
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-036",
-      "type": "basic",
-      "subtopic": "p3-calcium-calcitonin",
-      "front": "Why is calcitonin a second-line choice in Paget disease?",
-      "back": "Resistance develops after months because of antibodies. Bisphosphonates are more effective, convenient and cheaper.",
-      "tags": [
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-037",
-      "type": "basic",
-      "subtopic": "p3-calcium-calcitonin",
-      "front": "What does nasal calcitonin achieve in osteoporosis?",
-      "back": "Increases bone mineral density and reduces vertebral fractures, but not other fractures.",
-      "tags": [
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-038",
-      "type": "cloze",
-      "subtopic": "p3-calcium-calcitonin",
-      "front": "Complete: calcitonin source and unit",
-      "text": "Calcitonin is made by the {{parafollicular C cells}} of the thyroid. One IU of calcitonin equals {{4 mcg}} of the standard preparation.",
-      "tags": [
-        "classification"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-039",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-vitd",
-      "front": "Short note: Vitamin D metabolism and storage",
-      "sections": [
-        {
-          "h": "Synthesis",
-          "points": [
-            "D3 (cholecalciferol) made in skin by UV light; D2 from irradiated food"
-          ]
-        },
-        {
-          "h": "Activation",
-          "points": [
-            "Liver: 25-hydroxylation to calcifediol",
-            "Kidney: 1-hydroxylation to calcitriol (active form)"
-          ]
-        },
-        {
-          "h": "Transport and storage",
-          "points": [
-            "Carried by vitamin D binding protein",
-            "Stored mostly in adipose tissue for many months"
-          ]
-        }
-      ],
-      "tags": [
-        "pk",
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-040",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-vitd",
-      "front": "Short note: Rickets and osteomalacia",
-      "sections": [
-        {
-          "h": "Mechanism",
-          "points": [
-            "Poor intestinal calcium absorption, so PTH rises and bone calcium is mobilised",
-            "Newly laid bone fails to mineralise; osteoid is normal"
-          ]
-        },
-        {
-          "h": "Metabolic rickets",
-          "points": [
-            "X-linked resistant rickets: phosphate with high-dose calcitriol or alfacalcidol",
-            "Vitamin D dependent rickets: renal hydroxylase defect; normal-dose calcitriol works",
-            "Renal rickets: calcitriol or alfacalcidol"
-          ]
-        }
-      ],
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-041",
-      "type": "basic",
-      "subtopic": "p3-calcium-vitd",
-      "front": "Why are rickets and osteomalacia different from osteoporosis?",
-      "back": "In rickets and osteomalacia the mineral fails to deposit on normal osteoid. In osteoporosis the organic matrix is reduced.",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-042",
-      "type": "basic",
-      "subtopic": "p3-calcium-vitd",
-      "front": "Are D2 and D3 equally active in man?",
-      "back": "Yes, they are equally active. D3 is absorbed somewhat better than D2.",
-      "tags": [
-        "pk"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-043",
-      "type": "basic",
-      "subtopic": "p3-calcium-vitd",
-      "front": "Why is calcitriol faster than vitamin D2 or D3 in hypoparathyroidism?",
-      "back": "Calcitriol and alfacalcidol act directly without needing renal hydroxylation, which requires PTH.",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-044",
-      "type": "basic",
-      "subtopic": "p3-calcium-vitd",
-      "front": "Why can phenytoin cause rickets or osteomalacia?",
-      "back": "Prolonged phenytoin or phenobarbitone use reduces the response of target tissues to calcitriol.",
-      "tags": [
-        "interactions"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-045",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-vitd",
-      "front": "Short note: Calcium salts in therapy",
-      "sections": [
-        {
-          "h": "Salts",
-          "points": [
-            "Carbonate 40% calcium (also antacid); lactate 13%; dibasic phosphate 23%"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Tetany: calcium gluconate IV, then slow infusion",
-            "Dietary supplement; adjuvant with alendronate, HRT or raloxifene in osteoporosis"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Constipation, bloating, gas (especially carbonate)"
-          ]
-        }
-      ],
-      "tags": [
-        "dosing",
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-046",
-      "type": "basic",
-      "subtopic": "p3-calcium-vitd",
-      "front": "Where is calcipotriol used and why is it useful?",
-      "back": "Topically in plaque psoriasis; it is a vitamin D analogue that does not cause hypercalcaemia.",
-      "tags": [
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-047",
-      "type": "basic",
-      "subtopic": "p3-calcium-bisphosphonates",
-      "front": "Why is weekly alendronate often preferred?",
-      "back": "Weekly 35-70 mg is equally effective, more convenient and better tolerated than daily dosing.",
-      "tags": [
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-048",
-      "type": "basic",
-      "subtopic": "p3-calcium-bisphosphonates",
-      "front": "How do bisphosphonates affect osteoclast precursors?",
-      "back": "They inhibit differentiation by suppressing IL-6.",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-049",
-      "type": "basic",
-      "subtopic": "p3-calcium-bisphosphonates",
-      "front": "Why do oral bisphosphonates cause oesophagitis?",
-      "back": "They are poorly absorbed and irritate the gastric and oesophageal mucosa; NSAIDs add to the irritation.",
-      "tags": [
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-050",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-bisphosphonates",
-      "front": "Short note: Zoledronate",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Third-generation, highly potent, parenteral bisphosphonate"
-          ]
-        },
-        {
-          "h": "Uses",
-          "points": [
-            "Hypercalcaemia, bone metastases, osteolytic lesions, Paget disease",
-            "Osteoporosis: 4 mg IV once every 12 months, up to 5 years, in women intolerant of oral drugs"
-          ]
-        },
-        {
-          "h": "Infusion",
-          "points": [
-            "4 mg in 100 mL saline or glucose over 15 min",
-            "May be repeated after 7 days, then every 3-4 weeks"
-          ]
-        }
-      ],
-      "tags": [
-        "dosing",
-        "uses"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-051",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-bisphosphonates",
-      "front": "Short note: Pamidronate and ibandronate",
-      "sections": [
-        {
-          "h": "Pamidronate",
-          "points": [
-            "IV only: 60-90 mg over 2-4 h weekly or monthly",
-            "Paget disease, hypercalcaemia of malignancy, bone metastasis"
-          ]
-        },
-        {
-          "h": "Ibandronate",
-          "points": [
-            "Oral 2.5 mg daily or 150 mg monthly; IV 2-4 mg over 1-2 h for hypercalcaemia",
-            "Reduces vertebral fractures"
-          ]
-        }
-      ],
-      "tags": [
-        "dosing"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p3-calcium-052",
-      "type": "shortnote",
-      "subtopic": "p3-calcium-bisphosphonates",
-      "front": "Short note: Strontium ranelate",
-      "sections": [
-        {
-          "h": "Action",
-          "points": [
-            "Prevents osteoclast differentiation and promotes their apoptosis",
-            "Stimulates bone formation"
-          ]
-        },
-        {
-          "h": "Use and dose",
-          "points": [
-            "Reserve drug in elderly women and high-risk men when bisphosphonates are contraindicated or not tolerated",
-            "2 g daily; avoid food for 2 h"
-          ]
-        },
-        {
-          "h": "Adverse effects",
-          "points": [
-            "Headache, GI upset, rashes, serious skin reactions"
-          ]
-        }
-      ],
-      "tags": [
-        "newer-drugs",
-        "adr"
-      ],
-      "refs": [
-        "KDT8 ch24"
-      ],
-      "pyq": [],
-      "status": "draft"
+      "level": 1
     },
     {
       "id": "p3-calcium-053",
@@ -1282,7 +1373,75 @@
         "KDT8 ch24"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-calcium-056",
+      "status": "draft",
+      "pyq": [],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "subtopic": "p3-calcium-hypercalcaemia",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "level": 1,
+      "type": "basic",
+      "front": "Besides bisphosphonates and calcitonin, which two other drugs lower plasma calcium in hypercalcaemia?",
+      "back": "Gallium nitrate (blocks the osteoclast proton pump; reserve, nephrotoxic) and high-dose glucocorticoids (more urinary calcium loss, less absorption). Both act slowly, so they are adjuncts."
+    },
+    {
+      "id": "p3-calcium-057",
+      "status": "draft",
+      "pyq": [],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "subtopic": "p3-calcium-hypercalcaemia",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 1,
+      "type": "basic",
+      "front": "Why are glucocorticoids most useful in hypercalcaemia of hypervitaminosis D and sarcoidosis?",
+      "back": "They cut gut calcium absorption and raise urinary excretion. Given over several days they normalise calcium in vitamin D excess and sarcoidosis; in cancer they are only adjuvant."
+    },
+    {
+      "id": "p3-calcium-058",
+      "status": "draft",
+      "pyq": [],
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "subtopic": "p3-calcium-hypercalcaemia",
+      "tags": [
+        "uses"
+      ],
+      "level": 1,
+      "type": "basic",
+      "front": "First step in severe hypercalcaemia of malignancy, and why?",
+      "back": "Rapid IV saline. These patients are dehydrated and confused; rehydration itself lowers calcium and prepares for furosemide and bisphosphonate."
+    },
+    {
+      "id": "p3-calcium-025",
+      "type": "basic",
+      "front": "Gallium nitrate: mechanism and main limitation?",
+      "back": "It inhibits bone resorption by depressing the ATP-dependent proton pump on the osteoclast ruffled membrane. It is given as a continuous IV infusion for about 5 days in malignancy-associated hypercalcaemia that does not respond to other drugs. It is nephrotoxic, so it is kept as a reserve drug.",
+      "refs": [
+        "KDT8 ch24"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-calcium-hypercalcaemia",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
     },
     {
       "id": "p3-calcium-054",
@@ -1297,7 +1456,8 @@
         "KDT8 ch24"
       ],
       "pyq": [],
-      "status": "draft"
+      "status": "draft",
+      "level": 2
     },
     {
       "id": "p3-calcium-055",
@@ -1316,7 +1476,7 @@
           "points": [
             "Rapid rehydration with IV saline, which itself lowers calcium",
             "Bisphosphonate (pamidronate or zoledronate)",
-            "Calcitonin IV for emergency control, with bisphosphonates to take over",
+            "Calcitonin i.m. 6 to 12 hourly for 2 days for rapid effect, while the slower bisphosphonate takes over",
             "Gallium nitrate for resistant cases"
           ]
         }
@@ -1329,6 +1489,614 @@
         "KDT8 ch24"
       ],
       "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-023",
+      "type": "essay",
+      "front": "Essay: Management of hypercalcaemia of malignancy",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Common in malignancy and a medical emergency",
+            "Dehydration and prerenal azotaemia stop the kidney excreting calcium"
+          ]
+        },
+        {
+          "h": "Immediate measures",
+          "points": [
+            "Rapid IV saline to restore volume and urine flow; this alone lowers Ca2+",
+            "Furosemide may be added after rehydration to increase calcium excretion, though its benefit has not been proved"
+          ]
+        },
+        {
+          "h": "Definitive drugs",
+          "points": [
+            "IV zoledronate 4 mg over at least 15 minutes: one of the two most effective drugs (with pamidronate); acts in 24 to 48 hours",
+            "IV pamidronate 60 to 90 mg over 2 to 4 hours is the alternative",
+            "Effect persists for weeks; can be repeated after 7 days if renal function allows; oral forms are not useful here"
+          ]
+        },
+        {
+          "h": "Bridging and adjuncts",
+          "points": [
+            "Calcitonin i.m. 6 to 12 hourly for 2 days for quick effect",
+            "Glucocorticoids act slowly; adjuvant in lymphoma, myeloma and breast carcinoma",
+            "Gallium nitrate infusion for resistant cases",
+            "IV phosphate only when other measures fail, because it is hazardous"
+          ]
+        },
+        {
+          "h": "Monitoring",
+          "points": [
+            "Repeated serum calcium levels",
+            "Renal function, since zoledronate can cause renal toxicity"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch24",
+        "Katzung16 ch42"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-calcium-hypercalcaemia",
+      "tags": [
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-calcium-061",
+      "type": "basic",
+      "front": "Burosumab: target and use?",
+      "back": "Burosumab is a monoclonal antibody against FGF23. Blocking FGF23 stops its phosphate-wasting action on the kidney, so urinary phosphate loss falls and serum phosphate rises. It is given monthly for X-linked hypophosphataemia (children and adults) and tumour-induced osteomalacia. It is not given with oral phosphate or active vitamin D analogues, or when serum phosphorus is already normal or high; nephrocalcinosis has been reported.",
+      "refs": [
+        "GG14 ch52"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "newer-drugs",
+        "mechanism",
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-062",
+      "type": "basic",
+      "front": "Why do thiazide diuretics matter in calcium disorders?",
+      "back": "Thiazides help tubular reabsorption of calcium, so urinary calcium excretion falls. This is useful in calcium stone disease with high urinary calcium, but it means thiazides can raise plasma calcium and should be avoided in hypercalcaemia. Loop diuretics such as furosemide do the opposite: after volume repletion they raise calcium excretion in hypercalcaemia.",
+      "refs": [
+        "KDT8 ch24",
+        "GG14 ch52"
+      ],
+      "status": "draft",
+      "pyq": [],
+      "subtopic": "p3-calcium-hypercalcaemia",
+      "tags": [
+        "mechanism",
+        "adr",
+        "interactions"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-calcium-063",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is the first-line IV drug for seizures in pre-eclampsia and eclampsia?",
+      "back": "Magnesium sulfate, given by slow i.v. infusion, for prevention and treatment of seizures.",
+      "refs": [
+        "KDT8 ch23",
+        "GG14 ch48"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-064",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How does magnesium sulfate relax the uterus?",
+      "back": "It competes with Ca2+ for entry into myometrial cells through voltage-sensitive and ligand-gated Ca2+ channels.",
+      "refs": [
+        "KDT8 ch23"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-065",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses"
+      ],
+      "front": "What role does magnesium sulfate play in acute asthma?",
+      "back": "An added bronchodilator in acute severe asthma, given i.v. or nebulised, with a nebulised beta2 agonist.",
+      "refs": [
+        "GG14 ch44"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-066",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses"
+      ],
+      "front": "Which arrhythmias respond to IV magnesium sulfate?",
+      "back": "Digitalis-induced arrhythmias when serum Mg2+ is low, and some patients with torsades de pointes.",
+      "refs": [
+        "Katzung16 ch14"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-067",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses"
+      ],
+      "front": "Name two uses of magnesium hydroxide.",
+      "back": "Antacid (neutralises gastric acid) and purgative (milk of magnesia).",
+      "refs": [
+        "KDT8 ch47",
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-068",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "mechanism"
+      ],
+      "front": "How do magnesium salts produce a purgative effect?",
+      "back": "Osmotic retention of water in the gut, and Mg2+ releases cholecystokinin, which increases motility and secretion.",
+      "refs": [
+        "KDT8 ch49"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-069",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "contraindications"
+      ],
+      "front": "Why are magnesium salts avoided in renal insufficiency?",
+      "back": "With impaired renal function, hypermagnesaemia can develop and may lead to renal failure, so magnesium salts are contraindicated in renal insufficiency. Cardiac disease, existing electrolyte abnormality and diuretic use also call for caution.",
+      "refs": [
+        "KDT8 ch49",
+        "GG14 ch54"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-070",
+      "type": "basic",
+      "level": 2,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "front": "Why does magnesium depletion matter in a digitalised or post-MI patient?",
+      "back": "Prolonged thiazide or loop diuretic use depletes Mg2+, raising the risk of ventricular arrhythmias. Potassium-sparing diuretics reduce this loss.",
+      "refs": [
+        "KDT8 ch42"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-074",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is tocolysis?",
+      "back": "Suppression of uterine contractions to delay labour; drugs that do this are tocolytics.",
+      "refs": [
+        "KDT8 ch23"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-075",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "adr"
+      ],
+      "front": "What is torsades de pointes?",
+      "back": "A polymorphic ventricular tachycardia with marked QT prolongation, which can be drug-induced (e.g. quinidine, sotalol).",
+      "refs": [
+        "Katzung16 ch14"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-076",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses"
+      ],
+      "front": "What is eclampsia?",
+      "back": "Seizures in a woman with pre-eclampsia; about 20% of episodes occur more than 48 h after delivery.",
+      "refs": [
+        "GG14 ch48"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-071",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "front": "Short note: Saline purgatives of magnesium",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Magnesium sulfate and magnesium hydroxide (milk of magnesia) act as osmotic (saline) purgatives",
+            "Magnesium citrate is also a simple cathartic"
+          ]
+        },
+        {
+          "h": "Action",
+          "points": [
+            "Water is held osmotically in the bowel",
+            "Mg2+ releases cholecystokinin, which increases motility and secretion"
+          ]
+        },
+        {
+          "h": "Use",
+          "points": [
+            "Rapid evacuation when constipation must be relieved urgently",
+            "Bowel preparation before surgery or colonoscopy"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Contraindicated in renal insufficiency",
+            "Avoid in undiagnosed abdominal pain, colic or vomiting",
+            "Repeated use causes fluid and electrolyte imbalance"
+          ]
+        },
+        {
+          "h": "Poisoning",
+          "points": [
+            "Simple cathartics alone are no longer used for GI decontamination"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch49",
+        "GG14 ch9"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-072",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "front": "Short note: Magnesium sulfate in obstetrics",
+      "sections": [
+        {
+          "h": "Pre-eclampsia and eclampsia",
+          "points": [
+            "First-line i.v. drug for seizure prevention and treatment",
+            "Used for CNS features of severe pre-eclampsia, including postpartum",
+            "About 20% of eclampsia occurs more than 48 h after delivery"
+          ]
+        },
+        {
+          "h": "Preterm labour",
+          "points": [
+            "Tocolytic: competes with Ca2+ entry into myometrium",
+            "Use to delay premature labour is risky and may increase perinatal mortality; not recommended now",
+            "Tocolytics as a class delay delivery but do not improve fetal outcome"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch23",
+        "GG14 ch48"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-073",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p3-calcium-vitd",
+      "tags": [
+        "uses"
+      ],
+      "front": "Essay: Therapeutic uses of magnesium",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Magnesium salts are given orally (purgative, antacid) and i.v. or nebulised (obstetric, cardiac, respiratory)"
+          ]
+        },
+        {
+          "h": "Obstetrics",
+          "points": [
+            "Pre-eclampsia and eclampsia: first-line i.v. drug for seizures",
+            "Preterm labour: tocolytic action by competing with Ca2+ entry; risky and not recommended now"
+          ]
+        },
+        {
+          "h": "Respiratory",
+          "points": [
+            "Adjunct bronchodilator in acute severe asthma (FEV1 under 30% predicted), i.v. or nebulised"
+          ]
+        },
+        {
+          "h": "Cardiac",
+          "points": [
+            "Digitalis-induced arrhythmias with hypomagnesaemia",
+            "Torsades de pointes, a drug-induced QT-prolonging arrhythmia"
+          ]
+        },
+        {
+          "h": "Gastrointestinal",
+          "points": [
+            "Antacid: magnesium hydroxide, trisilicate",
+            "Saline purgative and bowel preparation"
+          ]
+        },
+        {
+          "h": "Precautions",
+          "points": [
+            "Avoid in renal insufficiency",
+            "Diuretic-induced Mg depletion raises arrhythmia risk"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch23",
+        "KDT8 ch47",
+        "KDT8 ch49",
+        "KDT8 ch42",
+        "GG14 ch44",
+        "GG14 ch48",
+        "Katzung16 ch14"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2018,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-077",
+      "type": "basic",
+      "front": "What is peak bone mass, and when is it reached?",
+      "back": "The maximum bone mineral content at skeletal maturity. About 60% of adult bone accrues in adolescence; mass peaks in the third decade, stays stable to about age 50, then declines. Inheritance, sex hormones, activity and dietary calcium all shape it.",
+      "refs": [
+        "GG14 ch52"
+      ],
+      "subtopic": "p3-calcium-bisphosphonates",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-078",
+      "type": "basic",
+      "front": "Why does age-related bone loss occur even in healthy people?",
+      "back": "Each bone remodelling cycle (about 6 months) removes bone by osteoclasts and rebuilds it by osteoblasts, but leaves a small deficit. These deficits accumulate over life, so bone loss starts soon after growth stops.",
+      "refs": [
+        "GG14 ch52"
+      ],
+      "subtopic": "p3-calcium-bisphosphonates",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-079",
+      "type": "basic",
+      "front": "What are the primary and secondary types of osteoporosis?",
+      "back": "Primary: type I (trabecular bone loss from estrogen lack at menopause) and type II (cortical and trabecular loss in men and women from remodelling inefficiency, diet and parathyroid activation with age). Secondary: caused by systemic illness or drugs such as glucocorticoids or phenytoin.",
+      "refs": [
+        "GG14 ch52"
+      ],
+      "subtopic": "p3-calcium-bisphosphonates",
+      "tags": [
+        "classification"
+      ],
+      "level": 1,
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-080",
+      "type": "basic",
+      "front": "How does estrogen lack cause type I osteoporosis?",
+      "back": "Estrogen normally restrains osteoclast formation (via OPG and RANKL), so its loss at menopause speeds bone resorption. The damage falls mainly on trabecular bone of the vertebrae, wrist and femoral neck, where fractures are most common.",
+      "refs": [
+        "GG14 ch52",
+        "KDT8 ch24"
+      ],
+      "subtopic": "p3-calcium-bisphosphonates",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-081",
+      "type": "basic",
+      "front": "Why is osteoporosis described as a coupling failure?",
+      "back": "Normally osteoblast and osteoclast activity are coupled. In osteoporosis osteoblasts respond poorly to calcitriol, osteoclast activity dominates, and resorption exceeds formation.",
+      "refs": [
+        "GG14 ch52"
+      ],
+      "subtopic": "p3-calcium-bisphosphonates",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-082",
+      "type": "shortnote",
+      "front": "Short note: Pathogenesis of primary osteoporosis",
+      "sections": [
+        {
+          "h": "Normal bone",
+          "points": [
+            "Remodelling cycle about 6 months; osteoclast resorption then osteoblast formation",
+            "Peak bone mass in the third decade, then gradual loss"
+          ]
+        },
+        {
+          "h": "Type I (postmenopausal)",
+          "points": [
+            "Estrogen lack at menopause",
+            "Mainly trabecular bone: vertebrae, wrist"
+          ]
+        },
+        {
+          "h": "Type II (age-related)",
+          "points": [
+            "Cortical and trabecular loss in men and women",
+            "Remodelling inefficiency, low dietary calcium, rising parathyroid activity"
+          ]
+        },
+        {
+          "h": "Common endpoint",
+          "points": [
+            "Disordered remodelling; bone formation falls behind resorption",
+            "Fracture risk from thinned, weakened bone"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch52"
+      ],
+      "subtopic": "p3-calcium-bisphosphonates",
+      "tags": [
+        "classification",
+        "mechanism"
+      ],
+      "level": 2,
+      "status": "draft"
+    },
+    {
+      "id": "p3-calcium-083",
+      "type": "essay",
+      "front": "Essay: Pathophysiology of osteoporosis and the logic of its drug therapy",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Loss of bone mass and microarchitecture, raising fracture risk",
+            "Common sites: vertebrae, hip and wrist"
+          ]
+        },
+        {
+          "h": "Bone physiology",
+          "points": [
+            "Peak bone mass set in youth; plateau then slow decline after about 50",
+            "Remodelling is coupled; small deficits accumulate with each cycle"
+          ]
+        },
+        {
+          "h": "Causes",
+          "points": [
+            "Type I: estrogen lack at menopause, trabecular loss",
+            "Type II: remodelling inefficiency, diet, age-related parathyroid activation",
+            "Secondary: systemic illness or drugs such as glucocorticoids and phenytoin"
+          ]
+        },
+        {
+          "h": "Cellular basis",
+          "points": [
+            "Osteoclast activity predominates over osteoblast formation",
+            "Osteoblast response to calcitriol impaired"
+          ]
+        },
+        {
+          "h": "Drug logic",
+          "points": [
+            "Antiresorptives such as bisphosphonates cut bone resorption; BMD rises and fracture risk falls",
+            "Teriparatide and abaloparatide are the only anabolic agents; bisphosphonates may continue after teriparatide stops at 2 years",
+            "Treat the cause and withdraw the drug in secondary osteoporosis"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch52",
+        "KDT8 ch24"
+      ],
+      "subtopic": "p3-calcium-bisphosphonates",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3,
       "status": "draft"
     }
   ]

@@ -121,3 +121,105 @@ Gap from SOURCE-GAPS.md: Sample-size formulas (two means, two proportions, singl
 | rf-p3-research-biostats-0167 | unsourced | UNSOURCED - owner must verify |
 | rf-p3-research-biostats-0168 | unsourced | UNSOURCED - owner must verify |
 | rf-p3-research-biostats-0169 | unsourced | UNSOURCED - owner must verify |
+
+## Ladder pass
+- rf-p3-research-biostats-0182 | new | Sarkar p366-370
+- rf-p3-research-biostats-0183 | new | RangDale9 ch8
+- rf-p3-research-biostats-0184 | new | WEB StatPearls NBK557491
+
+## Checker (independent pass)
+
+Deleted 11 Rapid cards whose only source was StatPearls (outside the web exception in GROUNDING-RULES.md): rf-p3-research-biostats-0140 to 0149 (diagnostic accuracy formulas, Pearson r, regression variable types) and rf-p3-research-biostats-0184 (prevalence effect on test values). Same gap as the study deck: no owner book found covering these.
+
+Rapid Sarkar-cited cards (0001 to 0040) were read but not line-checked against the OCR; the study-deck checks cover the same facts. Non-owner refs and UNSOURCED rows that remain are the SOURCE-GAPS sample-size items only.
+
+## Gap fill: Rapid pairs for PYQ entries 34, 60, 82, 137, 352, 355, 360, 393, 573 (writer, 2026-11-03)
+
+Added 78 pairs (0184-0261) covering the same chapters as the study cards 077-109. No pair cites PrepLadder material.
+
+- rf-p3-research-biostats-0184 | new | Ghosh FEP PDF p218
+- rf-p3-research-biostats-0185 | new | Ghosh FEP PDF p218
+- rf-p3-research-biostats-0186 | new | Ghosh FEP PDF p218
+- rf-p3-research-biostats-0187 | new | Ghosh FEP PDF p215
+- rf-p3-research-biostats-0188 | new | Ghosh FEP PDF p215
+- rf-p3-research-biostats-0189 | new | Ghosh FEP PDF p216
+- rf-p3-research-biostats-0190 | new | Ghosh FEP PDF p216
+- rf-p3-research-biostats-0191 | new | Ghosh FEP PDF p216
+- rf-p3-research-biostats-0192 | new | Ghosh FEP PDF p216
+- rf-p3-research-biostats-0193 | new | Ghosh FEP PDF p216
+- rf-p3-research-biostats-0194 | new | Sarkar p356-360
+- rf-p3-research-biostats-0195 | new | Sarkar p361-365
+- rf-p3-research-biostats-0196 | new | Sarkar p361-365
+- rf-p3-research-biostats-0197 | new | Sarkar p361-365
+- rf-p3-research-biostats-0198 | new | Sarkar p361-365
+- rf-p3-research-biostats-0199 | new | Sarkar p81-85; Bennett PDF p76
+- rf-p3-research-biostats-0200 | new | Sarkar p206-210
+- rf-p3-research-biostats-0201 | new | Sarkar p206-210
+- rf-p3-research-biostats-0202 | new | Sarkar p371-375
+- rf-p3-research-biostats-0203 | new | Sarkar p371-375
+- rf-p3-research-biostats-0204 | new | Sarkar p371-375
+- rf-p3-research-biostats-0205 | new | RangDale9 PDF p119
+- rf-p3-research-biostats-0206 | new | RangDale9 PDF p119
+- rf-p3-research-biostats-0207 | new | RangDale9 PDF p119
+- rf-p3-research-biostats-0208 | new | Sarkar p371-375
+- rf-p3-research-biostats-0209 | new | RangDale9 PDF p119
+- rf-p3-research-biostats-0210 | new | RangDale9 PDF p119
+- rf-p3-research-biostats-0211 | new | RangDale9 PDF p119
+- rf-p3-research-biostats-0212 | new | Sarkar p21-25
+- rf-p3-research-biostats-0213 | new | Sarkar p21-25
+- rf-p3-research-biostats-0214 | new | Bioequivalence & Statistics PDF p36
+- rf-p3-research-biostats-0215 | new | Bioequivalence & Statistics PDF p36
+- rf-p3-research-biostats-0216 | new | Bioequivalence & Statistics PDF p36
+- rf-p3-research-biostats-0217 | new | Bioequivalence & Statistics PDF p36
+- rf-p3-research-biostats-0218 | new | GG14 PDF p1527
+- rf-p3-research-biostats-0219 | new | Medhi PMECP p119
+- rf-p3-research-biostats-0220 | new | Medhi PMECP p119
+- rf-p3-research-biostats-0221 | new | Medhi PMECP p352
+- rf-p3-research-biostats-0222 | new | Medhi PMECP p352
+- rf-p3-research-biostats-0223 | new | Medhi PMECP p353
+- rf-p3-research-biostats-0224 | new | Medhi PMECP p353
+- rf-p3-research-biostats-0225 | new | Sarkar p151-155
+- rf-p3-research-biostats-0226 | new | Sarkar p151-155
+- rf-p3-research-biostats-0227 | new | Sarkar p156-160
+- rf-p3-research-biostats-0228 | new | Sarkar p156-160
+- rf-p3-research-biostats-0229 | new | Sarkar p156-160
+- rf-p3-research-biostats-0230 | new | Sarkar p156-160
+- rf-p3-research-biostats-0231 | new | Sarkar p196-200
+- rf-p3-research-biostats-0232 | new | Sarkar p196-200
+- rf-p3-research-biostats-0233 | new | Sarkar p196-200
+- rf-p3-research-biostats-0234 | new | Sarkar p196-200
+- rf-p3-research-biostats-0235 | new | Sarkar p196-200
+- rf-p3-research-biostats-0236 | new | Sarkar p196-200
+- rf-p3-research-biostats-0237 | new | Sarkar p196-200
+- rf-p3-research-biostats-0238 | new | Sarkar p156-160
+- rf-p3-research-biostats-0239 | new | KDT8 ch3
+- rf-p3-research-biostats-0240 | new | KDT8 ch3
+- rf-p3-research-biostats-0241 | new | KDT8 ch3
+- rf-p3-research-biostats-0242 | new | KDT8 ch3
+- rf-p3-research-biostats-0243 | new | Ghosh FEP PDF p104
+- rf-p3-research-biostats-0244 | new | Ghosh FEP PDF p107
+- rf-p3-research-biostats-0245 | new | Ghosh FEP PDF p107
+- rf-p3-research-biostats-0246 | new | Ghosh FEP PDF p107
+- rf-p3-research-biostats-0247 | new | Ghosh FEP PDF p110
+- rf-p3-research-biostats-0248 | new | Ghosh FEP PDF p110
+- rf-p3-research-biostats-0249 | new | Ghosh FEP PDF p110
+- rf-p3-research-biostats-0250 | new | Ghosh FEP PDF p109
+- rf-p3-research-biostats-0251 | new | Ghosh FEP PDF p104
+- rf-p3-research-biostats-0252 | new | Ghosh FEP PDF p107
+- rf-p3-research-biostats-0253 | new | Sarkar p386-390
+- rf-p3-research-biostats-0254 | new | Medhi PMECP p351
+- rf-p3-research-biostats-0255 | new | Sarkar p286-290
+- rf-p3-research-biostats-0256 | new | Sarkar p286-290
+- rf-p3-research-biostats-0257 | new | Sarkar p131-135
+- rf-p3-research-biostats-0258 | new | Sarkar p286-290
+- rf-p3-research-biostats-0259 | new | Sarkar p356-360
+- rf-p3-research-biostats-0260 | new | Sarkar p356-360
+- rf-p3-research-biostats-0261 | new | Ghosh FEP PDF p218
+
+- rf-p3-research-biostats-0262 | new | Medhi PMECP p153-154
+- rf-p3-research-biostats-0263 | new | Medhi PMECP p153-154
+- rf-p3-research-biostats-0264 | new | Sarkar p86-90
+- rf-p3-research-biostats-0265 | new | KDT8 ch5
+- rf-p3-research-biostats-0266 | new | RangDale9 ch8
+
+Checker pass: rf-0265 question reworded to the Sarkar p86-90 ADR definition. rf-0262 to rf-0266 re-checked against Medhi, Sarkar, KDT8 and RangDale9.

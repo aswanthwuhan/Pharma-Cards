@@ -99,3 +99,54 @@ Corrected kind to fact on rf-p2-ocular-0121, 0122, 0123 (single receptor-respons
 Book conflicts noted: none in this pass.
 
 Target (30 study, 120 rapid) not met: KDT8 ch8 is systemic anticholinergics, so ocular material is limited to ch10. Other ocular pharmacology lives in Padmaja, Satoskar and Golan, which were not searched in this pass.
+
+## Difficulty ladder pass
+
+| id | status | source |
+|---|---|---|
+| p2-ocular-001..048 | corrected (level set on every card, deck reordered by level) | existing refs |
+| p2-ocular-043 | corrected (refs now GG14 PDF p1481, p1482) | GG14 PDF p1481-1482 |
+| p2-ocular-049 | new (L1) | GG14 ch74, KDT8 ch10 |
+| p2-ocular-050 | new (L3) | GG14 ch74, KDT8 ch10 |
+| p2-ocular-051 | new (L3) | KDT8 ch8, GG14 ch74 |
+| p2-ocular-052 | new (L2) | GG14 ch74 |
+| p2-ocular-053 | new (L3) | GG14 ch74 |
+| p2-ocular-054 | new (L1) | GG14 ch74 |
+| p2-ocular-055 | new (L1) | GG14 ch74 |
+| p2-ocular-056 | new (L3) | GG14 ch74 |
+| p2-ocular-057 | new (L1) | GG14 ch74 |
+| p2-ocular-058 | new (L1) | GG14 ch74 |
+| p2-ocular-059 | new (L2) | GG14 ch74 |
+| p2-ocular-060 | new (L3) | GG14 ch74 |
+| p2-ocular-061 | new (L3) | GG14 ch74 |
+
+## Checker
+- Sampled 25 cards (study L2-L3 plus numeric rapid) against KDT8 ch7/ch10 pp.167-170, GG14 ch74 and Sarkar cenegermin: all facts confirmed, no edits.
+- No Prep/RR5/PrepLadder refs found. All 61 study cards carry level 1-3; every subtopic meets 3/2/1.
+- No deletions. No cards added.
+
+## Checker (haiku re-check)
+- Re-verified 20+ cards (GG14 ch74: verteporfin 5 days, trifluridine toxicity, disciform keratitis, natamycin, topiramate, cornea verticillata, loteprednol, ocriplasmin, anti-VEGF table) all grounded.
+- Edited p2-ocular-049: removed unsourced "large majority" wording on ciliary beta-2 receptors.
+- Ladder 3/2/1 met in all 7 subtopics; no Prep/RR5 refs; no deletions.
+
+## Gap pass: UHSR 2025 Paper III PYQs (no card yet)
+
+Questions [112] and [123] from `.tmp/gapargs.json`. PYQ tags: UHSR 2025, 10 marks (type shortnote in the qbank).
+
+| id | new | source |
+|---|---|---|
+| p2-ocular-062 | new | Sarkar p256-260 |
+| p2-ocular-063 | new | Sarkar p256-260 |
+| p2-ocular-064 | new | Sarkar p286-290 |
+| p2-ocular-065 | new | Sarkar p251-255, Sarkar p256-260, Sarkar p286-290, Medhi PMECP PDF p246, GG14 ch74 |
+| p2-ocular-066 | new | Medhi PMECP PDF p334 |
+| p2-ocular-067 | new | Medhi PMECP PDF p334 |
+| p2-ocular-068 | new | Medhi PMECP PDF p332 |
+| p2-ocular-069 | new | Medhi PMECP PDF p332, Medhi PMECP PDF p334, Bennett PDF p416 |
+
+Q [112] ocular toxicity of NCE: covered by 062-065.
+Q [123] part a (glaucoma models): covered by 066-069 for provocative tests only. Experimental induction of acute congestive glaucoma: no owner-book source, not carded.
+Q [123] part b (anti-emetic screening): not carded here. Outside p2-ocular subtopics. Sources found for the topic owner: Sarkar p306-310 (apomorphine-induced emesis in dog, 0.15 mg/kg), Medhi PMECP PDF p32 (pigeons preferred for antiemetic screening).
+
+Checker (PYQ gap pass): 062-069 re-verified against Sarkar p256-260, p286-290, Medhi PDF p332/p334, Ghosh PDF p182. Fixed: 064 and 065 dropped unsourced "OECD Guideline 405" and "do not remove animal testing"; 064/065 3T3 NRU now cites Ghosh PDF p182; 068 dropped unsourced Schiotz; 069 dropped unverified Bennett p416 acute-angle claim. Not re-verified: 065 Medhi PMECP p246 functional-check bullet. Levels and subtopic minimums met. Validator check ok.

@@ -73,3 +73,66 @@ rf-p3-antifungal-viral-0101 | regrounded | KDT8 ch58; KDT8 PDF p859; GG14 PDF p1
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: ART start: KDT8 ch60 describes earlier delay of ART; WHO 2016 (also in KDT8 ch60) recommends immediate ART for all. Cards use WHO 2016 and note the older practice.
 - Unsourced cards in this pass: none.
+
+| rf-p3-antifungal-viral-0451 | new | KDT8 ch58 |
+
+## Checker (2026-11-03)
+- Rapid deck grep: no Prep/RR5 refs. Spot-checked numeric rapid cards against KDT8 ch58-60; no errors found. No rapid cards added or deleted.
+
+## Checker pass 2 (2026-11-03)
+- Spot-checked 14 random rapid cards against KDT8 ch58-60 (peramivir FDA 2014, posaconazole 200 mg QID / 400 mg BD, PEP 4 weeks, ribavirin contraception 3 months, caspofungin IV only, entecavir, acyclovir TK): all correct.
+- Added rf-...-0452 (delavirdine and rilpivirine, KDT8 ch60 p875), rf-...-0453 (maribavir, Katzung16 ch49 p929), rf-...-0454 (topical ringworm drugs, GG14 ch61 list). No deletions. Total rapid 453.
+
+## Gap batch: influenza treatment challenges (2026-11-03)
+| rf-p3-antifungal-viral-0455 | new | GG14 ch40 |
+| rf-p3-antifungal-viral-0456 | new | GG14 ch40 |
+| rf-p3-antifungal-viral-0457 | new | GG14 ch40 |
+| rf-p3-antifungal-viral-0458 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0459 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0460 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0461 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0462 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0463 | new | KDT8 ch59 |
+| rf-p3-antifungal-viral-0464 | new | GG14 ch62 |
+| rf-p3-antifungal-viral-0465 | new | GG14 ch62 |
+| rf-p3-antifungal-viral-0466 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0467 | new | KDT8 ch59 |
+| rf-p3-antifungal-viral-0468 | new | GG14 ch62 |
+| rf-p3-antifungal-viral-0469 | new | GG14 ch40 |
+
+- Checker (PYQ gap pass, 2026-11-03): corrected 0458 to "maximal during the first 2 days" (KDT8 ch59; the 24-72 h figure was not in Katzung). Corrected 0468 to uncomplicated flu in patients who cannot take oral drugs, severe use still under study (GG14 ch62 p1240). Verified 0455-0457, 0459-0469 against source text. validate-content --check clean.
+
+## Gap batch: NACO, HBV prodrugs, SARS-CoV-2 targets (2026-11-03)
+- Support pairs for study cards 095-112. Ids rf-p3-antifungal-viral-0470 to 0491 (22 new pairs). No existing pair edited.
+- Sources: KDT8 ch60 (NACP 1992, <50 copies/mL in 6 months, NACO 2013 PI order), Katzung16 ch49 (fostemsavir, HBV prodrugs, COVID-19 agents), GG14 ch63 (bulevirtide, lonafarnib).
+
+| id | status | source |
+|---|---|---|
+| rf-p3-antifungal-viral-0470 | new | KDT8 ch60 |
+| rf-p3-antifungal-viral-0471 | new | KDT8 ch60 |
+| rf-p3-antifungal-viral-0472 | new | KDT8 ch60 |
+| rf-p3-antifungal-viral-0473 | new | KDT8 ch60 |
+| rf-p3-antifungal-viral-0474 | new | KDT8 ch60 |
+| rf-p3-antifungal-viral-0475 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0476 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0477 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0478 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0479 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0480 | new | GG14 ch63 |
+| rf-p3-antifungal-viral-0481 | new | GG14 ch63 |
+| rf-p3-antifungal-viral-0482 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0483 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0484 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0485 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0486 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0487 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0488 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0489 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0490 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0491 | new | Katzung16 ch49 |
+
+## Checker pass (rf 0470-0491)
+- 0470, 0471: rewritten. Book does not give the NACO acronym expansion or the 1992 launch year; now "NACO" and "2013" (KDT8 ch60 NACO 2013 guidelines).
+- 0480, 0481: GG14 ref dropped; facts verified in Katzung16 ch49.
+- 0473, 0474: order matches KDT8 ch60 line for NACO 2013 second line. Still flagged for owner spot-check (garbled table).
+- Validate --check: ok.

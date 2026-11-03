@@ -81,3 +81,115 @@ Grounding re-check under GROUNDING-RULES.md. Cards now in deck: 57. Corrected: 2
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: Levamisole: KDT8 ch63 says repeated doses cause severe reactions; used for immunomodulation only historically. Immunomodulators card cites KDT8 ch63, ch65 and GG14 p87 (JAK inhibitors).
 - Unsourced cards in this pass: none.
+
+## Difficulty ladder pass
+- All 78 study cards now carry `level`; deck ordered level 1 > 2 > 3 within each subtopic. Existing cards: levels set, content unchanged (ok).
+- p3-cancer-immuno-069 | new | KDT8 ch64
+- p3-cancer-immuno-070 | new | KDT8 ch64
+- p3-cancer-immuno-071 | new | KDT8 ch64
+- p3-cancer-immuno-072 | new | KDT8 ch64
+- p3-cancer-immuno-073 | new | KDT8 ch64
+- p3-cancer-immuno-074 | new | KDT8 ch64
+- p3-cancer-immuno-075 | new | KDT8 ch64
+- p3-cancer-immuno-076 | new | KDT8 ch64 (cisplatin, bleomycin rapid-grounded facts)
+- p3-cancer-immuno-077 | new | KDT8 ch64, GG14 ch73
+- p3-cancer-immuno-078 | new | KDT8 ch64, GG14 ch73
+- Unsourced cards in this pass: none.
+
+- Ladder re-check: all 78 cards carry level; every subtopic meets 3/2/1; no new cards added.
+
+## Checker (independent pass)
+- Verified against KDT8 ch64 and ch65 chapter PDFs, plus GG14/GG12 and Katzung16 via allowed PDFs: 057, 060, 061, 063, 064, 067, 042, 048, 044, 052, 055, 029, 069, 071, 072, 073, 074, 075.
+- 055: removed bullet "Cleared by CYP3A4 ... azole inhibitors can cause hypercalcaemia and renal failure". Not found in KDT8 ch64 or the allowed PDFs.
+- 060: removed ref "Harrison21 PDF p719" (Harrison is not an owner book). Remaining refs: KDT8 ch63, GG14 PDF p87/p1509, Satoskar, Bennett & Brown.
+- No Prep, RR5 or RapidRev refs found in the deck.
+- Ladder: all 78 cards have level 1-3; every subtopic has at least 3 L1, 2 L2, 1 L3.
+- Validator --check: clean.
+- Not done: no new gap cards added; the PYQ file was not grepped; the rapid deck was checked only for the Harrison ref.
+
+## PYQ gap cards (added this pass)
+
+New cards from the nine past-question gaps. Source column lists refs. Essays carry the PYQ tag.
+
+| id | new | source |
+|---|---|---|
+| p3-cancer-immuno-079 | new | GG14 ch71 |
+| p3-cancer-immuno-080 | new | GG14 ch71 |
+| p3-cancer-immuno-081 | new | GG14 ch71 |
+| p3-cancer-immuno-082 | new | GG14 ch71 |
+| p3-cancer-immuno-083 | new | GG14 ch71 |
+| p3-cancer-immuno-084 | new | GG14 ch71 |
+| p3-cancer-immuno-085 | new | GG14 ch71 |
+| p3-cancer-immuno-086 | new | GG14 ch71 |
+| p3-cancer-immuno-087 | new | GG14 ch71 |
+| p3-cancer-immuno-088 | new | GG14 ch71 |
+| p3-cancer-immuno-089 | new | GG14 ch71 |
+| p3-cancer-immuno-090 | new | GG14 ch71 |
+| p3-cancer-immuno-091 | new | GG14 ch71 |
+| p3-cancer-immuno-092 | new | GG14 ch71 |
+| p3-cancer-immuno-093 | new | GG14 ch71 |
+| p3-cancer-immuno-094 | new | GG14 ch71 |
+| p3-cancer-immuno-095 | new | GG14 ch71 |
+| p3-cancer-immuno-096 | new | GG14 ch71 |
+| p3-cancer-immuno-097 | new | GG14 ch71 |
+| p3-cancer-immuno-098 | new | GG14 ch71 |
+| p3-cancer-immuno-099 | new | GG14 ch71 |
+| p3-cancer-immuno-100 | new | GG14 ch71 |
+| p3-cancer-immuno-101 | new | GG14 ch71 |
+| p3-cancer-immuno-102 | new | GG14 ch71 |
+| p3-cancer-immuno-103 | new | GG14 ch71 |
+| p3-cancer-immuno-104 | new | GG14 ch71 |
+| p3-cancer-immuno-105 | new | GG14 ch71 |
+| p3-cancer-immuno-106 | new | GG14 ch71 |
+| p3-cancer-immuno-107 | new | GG14 ch71 |
+| p3-cancer-immuno-108 | new | GG14 ch71 |
+| p3-cancer-immuno-109 | new | GG14 ch71 |
+| p3-cancer-immuno-110 | new | GG14 ch71; KDT8 ch64 |
+| p3-cancer-immuno-111 | new | KDT8 ch64; GG14 ch71 |
+| p3-cancer-immuno-112 | new | KDT8 ch64 |
+| p3-cancer-immuno-113 | new | GG14 ch71 |
+| p3-cancer-immuno-114 | new | GG14 ch71; KDT8 ch64 |
+| p3-cancer-immuno-115 | new | KDT8 ch64 |
+| p3-cancer-immuno-116 | new | KDT8 ch64; GG14 ch71 |
+| p3-cancer-immuno-117 | new | GG14 ch71; GG14 ch72 |
+| p3-cancer-immuno-118 | new | GG14 ch71 |
+| p3-cancer-immuno-119 | new | GG14 ch71 |
+| p3-cancer-immuno-120 | new | GG14 ch71; GG14 ch72 |
+| p3-cancer-immuno-121 | new | KDT8 PDF p292 |
+| p3-cancer-immuno-122 | new | Sarkar p531-535 |
+| p3-cancer-immuno-123 | new | KDT8 PDF p292-294; GG14 ch47 |
+| p3-cancer-immuno-124 | new | GG14 ch47 |
+| p3-cancer-immuno-125 | new | KDT8 PDF p292; Sarkar p531-535; GG14 ch47 |
+
+## Checker (PYQ gap pass)
+- Validator --check clean for p3-cancer-immuno.
+- Ladder minimums met in every subtopic (L1>=3, L2>=2, L3>=1). Levels and pyq format checked on ids 079-125; no Prep or RR5 refs in new cards.
+- Spot-checked 079, 082, 090, 110 against GG14 ch71 and GG12 pages; card 082 reworded (near-verbatim copy of GG12 wording).
+- Not exhaustively re-verified: all 47 study and 49 rapid cards. Sample only.
+- noSource Q168 (radioisotopes) kept as reported by writer.
+
+## PYQ gap pass, round 2 (gapargs2 entries 130, 218, 281, 421)
+Added 7 study cards: 126-132. Grounded in GG14 ch39, ch71, ch73 and KDT8 ch64 (cancer biologics, PDF p944-947).
+
+| id | status | source / note |
+|---|---|---|
+| p3-cancer-immuno-126 | new | GG14 ch39 |
+| p3-cancer-immuno-127 | new | KDT8 ch64 |
+| p3-cancer-immuno-128 | new | KDT8 ch64; GG14 ch39 (for 218 Immunostimulants) |
+| p3-cancer-immuno-129 | new | GG14 ch39; KDT8 ch64; essay for 130, pyq SRMC (model) 2025 10 marks |
+| p3-cancer-immuno-130 | new | GG14 ch71; GG14 ch73 |
+| p3-cancer-immuno-131 | new | GG14 ch71 |
+| p3-cancer-immuno-132 | new | GG14 ch71; GG14 ch73; pyq UHSR 2025 10 marks (for 421) |
+
+- 218 "Immuno stimulants": no year in the gap record, so no pyq tag on card 128.
+- 281 tacrolimus part: already covered by existing calcineurin cards (tacrolimus vs cyclosporine, and rapid tacrolimus set). Not duplicated. Skeletal muscle relaxants half is outside this topic: not written.
+- Levamisole is not written as an immunostimulant: the owner-book hits are anthelmintic only.
+- Trilaciclib and CD25 antibody facts already in rapid/deck; not duplicated.
+
+## Source re-check, newest cards (126-132)
+Re-read GG14 ch39, ch71, ch73 and KDT8 ch64 text. Changes:
+- 126 back: removed the unsourced "targeted, not broad" claim; now states what GG14 ch39 groups under immunomodulation.
+- 129 essay: removed two unsourced points ("value depends on matching agent to mechanism"; "careful selection limits harm"). JAK indication corrected from psoriasis to psoriatic arthritis (GG14 ch39 lists psoriatic arthritis, not psoriasis).
+- 132 mechanism: "cyclin D amplification / p16INK4A" not found in GG14 text; replaced with the Rb mutation and loss-of-negative-regulator wording GG14 ch71 gives.
+- 125 essay: removed meta point "owner books searched print no other isotope therapy" (not a book fact).
+- Verified unchanged: 128 (KDT8 ch64 adjuvants, filgrastim and molgramostim timing, thalidomide), 130 (GG14 ch71/73 indications), 131 (itraconazole 87%, grapefruit, inducers), 132 (abemaciclib, ribociclib, trilaciclib).

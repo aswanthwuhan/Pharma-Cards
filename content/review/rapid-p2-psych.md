@@ -68,3 +68,36 @@ Checked against the GG14/Katzung corrections in `review/p2-psych.md`. Deck now 5
 ## Expansion pass 2 (2026-11-02)
 - Rapid: +128 (rf-p2-psych-0525 onward): levodopa PK and actions, dopamine receptor families, carbidopa and benserazide, dopamine agonist data, selegiline and MAO-B, antipsychotic dates and receptor profile, per-drug potency and dose, clozapine monitoring, atypical dose ranges, MAO inhibitor and TCA facts, moclobemide, TCA overdose management, SSRI and serotonin syndrome, antidepressant classes. Deck now 651.
 - Target (+120) met: +128 added.
+
+## Difficulty ladder pass (2026-11-03)
+- All 105 existing study cards given an explicit level (ids unchanged; reordered by level within subtopic). Levels: id | corrected (level set).
+rf-p2-psych-0653 | new | KDT8 ch33
+rf-p2-psych-0654 | new | KDT8 ch33
+rf-p2-psych-0655 | new | KDT8 ch33
+rf-p2-psych-0656 | new | KDT8 ch33
+rf-p2-psych-0657 | new | KDT8 ch33
+rf-p2-psych-0658 | new | KDT8 ch33
+rf-p2-psych-0659 | new | KDT8 ch33
+rf-p2-psych-0660 | new | KDT8 ch33
+rf-p2-psych-0661 | new | KDT8 ch33
+rf-p2-psych-0662 | new | KDT8 ch32
+rf-p2-psych-0663 | new | KDT8 ch32
+rf-p2-psych-0664 | new | KDT8 ch32
+rf-p2-psych-0665 | new | KDT8 ch32
+rf-p2-psych-0666 | new | KDT8 ch32
+rf-p2-psych-0667 | new | KDT8 ch32
+
+## Checker (2026-11-03)
+- Spot-checked ~30 numeric rapid cards (doses, half-lives, percentages, durations, last 15 added ids rf-p2-psych-0653..0667) against KDT8 ch31-33: all match. No edits or deletions. No Prep/RR5 refs.
+
+## PYQ gap pass (2026-11-03)
+- rf-p2-psych-0668 to rf-p2-psych-0694 added (27 pairs) for the Huntington chorea, antidepressant, serotonin syndrome and neurotransmitter pyq items.
+- Sources: GG14 ch18, ch21 (p441, p444 table), GG14 PDF p312, p314, p371; Katzung16 ch16, ch28 (p550), ch30; KDT8 PDF p480, p487 (haloperidol and chlorpromazine as Huntington drugs); KDT8 PDF p36, p69, p71, p75, p203; RangDale9 PDF p539; Katzung16 PDF p311.
+- Dose card 12.5 mg daily checked against GG14 ch21 text. No web sources. No deletions.
+
+## Checker (PYQ gap pass)
+- Checked all 27 new rf-p2-psych-0668 to 0694 pairs. Corrected rf-p2-psych-0689 ref to GG14 PDF p332. Other pairs verified against GG14, KDT8, Katzung16 page text. Validator: check ok.
+
+## PYQ gap pass 2 (2026-11-03)
+- rf-p2-psych-0695 to rf-p2-psych-0703 added (9 pairs) for the anxiolytic evaluation essay (RGUHS 2008 and 2011). Sources: GG12 ch17 (PDF p485-486) and GG12 ch13 (buspirone, 5-HT2A/2C animal behaviour). No web sources. No deletions.
+- Validator: check ok.

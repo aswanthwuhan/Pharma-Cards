@@ -117,7 +117,7 @@
       "id": "p2-arrhythmia-angina-htn-086",
       "type": "basic",
       "front": "Drugs for transient or acute atrioventricular block",
-      "back": "Atropine 0.6-1.2 mg i.m. when block is vagal (e.g. digitalis toxicity, some MIs); sympathomimetics such as isoprenaline in partial or complete block until a pacemaker can be placed. Pacing is the definitive treatment.",
+      "back": "Atropine 0.6-1.2 mg i.m. when block is vagal (e.g. digitalis toxicity, some MIs); sympathomimetics such as isoprenaline in partial or complete block until a pacemaker can be placed. Drugs are only an interim measure until a pacemaker can be implanted.",
       "refs": [
         "KDT8 ch39"
       ],
@@ -1127,7 +1127,7 @@
       "id": "p2-arrhythmia-angina-htn-081",
       "type": "basic",
       "front": "Cyanide poisoning: which antidotes are used and why?",
-      "back": "Sodium nitrite forms methaemoglobin, which binds cyanide as cyanomethaemoglobin; sodium thiosulfate then converts cyanide to thiocyanate for urinary excretion. Hydroxocobalamin (high dose, i.v.) and dicobalt edetate are alternatives; hydroxocobalamin is preferred in smoke inhalation.",
+      "back": "Sodium nitrite forms methaemoglobin, which binds cyanide as cyanomethaemoglobin; sodium thiosulfate then converts cyanide to thiocyanate for urinary excretion. Hydroxocobalamin (high dose, i.v.) and dicobalt edetate are alternatives; hydroxocobalamin is particularly indicated in smoke inhalation (smoke contains HCN).",
       "refs": [
         "KDT8 ch40"
       ],
@@ -1455,7 +1455,7 @@
       "id": "p2-arrhythmia-angina-htn-032",
       "type": "basic",
       "front": "Trimetazidine: how does it work, and why is it not a haemodynamic drug?",
-      "back": "It inhibits long-chain 3-ketoacyl-CoA thiolase (LC3-KAT), a key enzyme of fatty acid oxidation. Myocardium shifts toward glucose oxidation, which needs less oxygen per unit of ATP. It has no effect on heart rate or BP at rest or on exercise, yet it reduces angina frequency and increases exercise capacity. Side effects include GI upset; it can cause movement disorders such as parkinsonism, especially in elderly patients with reduced renal function, so the EMA restricts it to second-line add-on use in stable angina. It is not approved in the USA.",
+      "back": "It inhibits long-chain 3-ketoacyl-CoA thiolase (LC3-KAT), a key enzyme of fatty acid oxidation. Myocardium shifts toward glucose oxidation, which needs less oxygen per unit of ATP. It has no effect on heart rate or BP at rest or on exercise, yet it reduces angina frequency and increases exercise capacity. Side effects include GI upset; it can cause movement disorders such as parkinsonism, especially in the elderly; GG14 lists it as a second-choice add-on for exertional angina. It is not approved in the USA.",
       "refs": [
         "KDT8 ch40",
         "GG14 ch31"
@@ -2587,6 +2587,981 @@
         "adr"
       ],
       "level": 3
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-095",
+      "type": "basic",
+      "level": 1,
+      "front": "What is the angina index and why does it matter?",
+      "back": "Heart rate multiplied by systolic BP. It tracks myocardial oxygen consumption, and each patient has a threshold at which angina starts.",
+      "refs": [
+        "Satoskar p627"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-096",
+      "type": "basic",
+      "level": 1,
+      "front": "What is the subendocardial crunch in an attack of angina?",
+      "back": "The ischaemic ventricle's end-diastolic pressure rises (about 5 to 25 mm Hg), so subendocardial blood flow, which occurs only in diastole, falls. Drugs that lower preload relieve it.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-097",
+      "type": "basic",
+      "level": 1,
+      "front": "Thallium-201 and Tc-99m pyrophosphate in myocardial ischaemia: where does each localise?",
+      "back": "Thallium-201 localises to well-perfused myocardium, so ischaemia shows as a defect. Tc-99m pyrophosphate localises to necrosed myocardium.",
+      "refs": [
+        "Satoskar p626"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-098",
+      "type": "basic",
+      "level": 1,
+      "front": "Computerised exercise stress test for an antianginal: what is the outcome measure?",
+      "back": "Exercise tolerance before pain and ECG change appear. A drug that delays both shows antianginal activity when the test is repeated after dosing.",
+      "refs": [
+        "Satoskar p626"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-099",
+      "type": "basic",
+      "level": 1,
+      "front": "What does a Langendorff preparation measure in cardiac screening?",
+      "back": "An isolated perfused heart, perfused retrograde. It records inotropic and chronotropic effects and coronary resistance from the rate of drip collection.",
+      "refs": [
+        "Medhi PMECP p192"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-100",
+      "type": "basic",
+      "level": 1,
+      "front": "Tail-cuff method in rodents: what does it measure and what limits it?",
+      "back": "Non-invasive systolic BP in conscious or unconscious rats and mice. Restraint stress can produce misleading readings.",
+      "refs": [
+        "Medhi PMECP p223"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-101",
+      "type": "basic",
+      "level": 1,
+      "front": "DOCA-salt model: how is hypertension produced in rats?",
+      "back": "DOCA 20 mg/kg s.c. with saline as drinking water for about four weeks. Sodium and water retention raise volume and sympathetic and RAAS activity.",
+      "refs": [
+        "Medhi PMECP p230"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-102",
+      "type": "basic",
+      "level": 1,
+      "front": "Which agent, given at high dose, produces experimental acute MI in animals?",
+      "back": "Isoprenaline (isoproterenol). Its strong beta-1 action causes myocyte necrosis.",
+      "refs": [
+        "Medhi PMECP p230"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-103",
+      "type": "basic",
+      "level": 1,
+      "front": "Why must a controlled trial be used to judge an antianginal drug?",
+      "back": "Placebo responses are 30 to 80% in chronic stable angina, so an apparent benefit can be a placebo effect.",
+      "refs": [
+        "Bennett & Brown p32",
+        "Bennett & Brown p55"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-104",
+      "type": "basic",
+      "level": 1,
+      "front": "Crossover trial design: which chronic conditions suit it?",
+      "back": "Chronic stable disease such as hypertension or stable angina, where the baseline is reached at the start of each treatment arm.",
+      "refs": [
+        "Bennett & Brown p64"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-105",
+      "type": "basic",
+      "level": 1,
+      "front": "Why is acetazolamide not used as a diuretic today?",
+      "back": "Its diuresis is self-limiting. Bicarbonate loss causes acidosis and hypokalaemia, so it is used for glaucoma, urinary alkalinisation, adjunct epilepsy and altitude sickness.",
+      "refs": [
+        "KDT8 ch42"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-106",
+      "type": "basic",
+      "level": 1,
+      "front": "Spironolactone: why is it a weak diuretic yet useful in combination?",
+      "back": "It antagonises aldosterone in the late distal tubule, where most Na+ is already reabsorbed. It conserves K+ and offsets the K+ loss caused by thiazide and loop diuretics.",
+      "refs": [
+        "KDT8 ch42"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-107",
+      "type": "basic",
+      "level": 1,
+      "front": "Digoxin: which enzyme does it inhibit, and what is its main clinical role?",
+      "back": "Na+/K+-ATPase. Positive inotropy in heart failure and ventricular rate control in atrial fibrillation.",
+      "refs": [
+        "GG14 ch33",
+        "GG14 ch34"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-108",
+      "type": "basic",
+      "level": 1,
+      "front": "Digoxin therapeutic window: what does the DIG trial show?",
+      "back": "Benefit at about 0.5 to 0.8 ng/mL. Concentrations of 1.2 ng/mL and above tend to link to higher mortality.",
+      "refs": [
+        "GG14 ch33"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "tags": [
+        "dosing"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-109",
+      "type": "basic",
+      "level": 1,
+      "front": "Why is oral minoxidil no longer used?",
+      "back": "Vasodilatation is marked and the reflex effects are strong. Risk of ischaemia and heart failure is high. Topical 2% is used for alopecia.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-110",
+      "type": "basic",
+      "level": 1,
+      "front": "What did the IONA trial show for nicorandil?",
+      "back": "Fewer acute coronary events in high-risk patients with stable angina.",
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-111",
+      "type": "basic",
+      "level": 1,
+      "front": "Thiazide diuretics: what is the effect on glucose tolerance?",
+      "back": "They can worsen glucose tolerance and precipitate diabetes. Low-dose thiazides still benefit more than this risk, so they are not contraindicated in diabetics.",
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-112",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Evaluation of antianginal drugs (experimental methods)",
+      "sections": [
+        {
+          "h": "Why animals are limited",
+          "points": [
+            "Animal coronary data often do not carry over to humans",
+            "Isolated hearts show responses that differ from the intact body"
+          ]
+        },
+        {
+          "h": "Isolated heart",
+          "points": [
+            "Langendorff retrograde perfusion",
+            "Records inotropy, chronotropy and coronary resistance (drop count)"
+          ]
+        },
+        {
+          "h": "Ischaemia models",
+          "points": [
+            "High-dose isoprenaline gives acute MI by myocyte necrosis",
+            "Infarct graded on histology"
+          ]
+        }
+      ],
+      "refs": [
+        "Satoskar p626",
+        "Medhi PMECP p192",
+        "Medhi PMECP p230"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-113",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Evaluation of antianginal drugs (clinical methods)",
+      "sections": [
+        {
+          "h": "Exercise tests",
+          "points": [
+            "Exercise tolerance before pain and ECG change",
+            "Repeat after the drug; a delay shows activity"
+          ]
+        },
+        {
+          "h": "Imaging and angiography",
+          "points": [
+            "Thallium-201 perfusion; Tc-99m pyrophosphate for necrosis",
+            "Coronary angiography, with pharmacological or exercise stress"
+          ]
+        },
+        {
+          "h": "Trial design",
+          "points": [
+            "Placebo response 30 to 80% in stable angina, so controls are needed",
+            "Crossover suits chronic stable disease"
+          ]
+        }
+      ],
+      "refs": [
+        "Satoskar p626",
+        "Bennett & Brown p55",
+        "Bennett & Brown p64"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-114",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Non-haemodynamic antianginal drugs",
+      "sections": [
+        {
+          "h": "Meaning",
+          "points": [
+            "Act without changing heart rate or BP at rest or on exercise",
+            "Reduce angina and improve exercise capacity"
+          ]
+        },
+        {
+          "h": "Trimetazidine",
+          "points": [
+            "Inhibits long-chain 3-ketoacyl-CoA thiolase (LC3-KAT)",
+            "Shifts myocardial fuel from fatty acid to glucose, so less O2 is needed per ATP",
+            "Labelled a pFOX inhibitor; add-on therapy"
+          ]
+        },
+        {
+          "h": "Ranolazine",
+          "points": [
+            "Inhibits late Na+ current, which lowers Ca2+ overload",
+            "No effect on HR or BP; prolongs exercise duration",
+            "Prolongs QT; avoid CYP3A4 inhibitors"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch40"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-newer-antianginals",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-115",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Weak diuretics",
+      "sections": [
+        {
+          "h": "Meaning",
+          "points": [
+            "Diuretics with low natriuretic power",
+            "Carbonic anhydrase inhibitors and spironolactone are the examples"
+          ]
+        },
+        {
+          "h": "Carbonic anhydrase inhibitors (acetazolamide)",
+          "points": [
+            "Block CA II and IV in proximal tubule, so HCO3- and Na+ reabsorption fall",
+            "Alkaline, K+-rich urine; maximal natriuresis is small",
+            "Diuresis is self-limiting; acidosis and hypokalaemia follow",
+            "Uses: glaucoma, urine alkalinisation, adjunct in absence seizures, altitude sickness",
+            "Avoid in liver disease (hepatic coma risk); acidosis is more likely in COPD"
+          ]
+        },
+        {
+          "h": "Spironolactone",
+          "points": [
+            "Competitive aldosterone antagonist acting from the interstitial side of the late distal tubule",
+            "Mild saluretic; conserves K+ and offsets diuretic-induced K+ loss",
+            "Onset 3 to 4 days; canrenone is the main active metabolite",
+            "Uses: refractory oedema (cirrhosis, nephrotic), resistant hypertension, heart failure"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Weak in their own right, useful as adjuncts to thiazide or loop diuretics"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch42"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-116",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Digoxin",
+      "sections": [
+        {
+          "h": "Action",
+          "points": [
+            "Inhibits Na+/K+-ATPase; raised intracellular Ca2+ gives positive inotropy",
+            "Vagotonic: slows AV conduction and so controls ventricular rate"
+          ]
+        },
+        {
+          "h": "Uses",
+          "points": [
+            "Symptomatic heart failure, now not first choice",
+            "Rate control in atrial fibrillation"
+          ]
+        },
+        {
+          "h": "Dosing in AF",
+          "points": [
+            "Loading dose about 0.6 to 1 mg over 24 h",
+            "Maintenance to serum level 0.5 to 2 ng/mL; monitor levels"
+          ]
+        },
+        {
+          "h": "Toxicity",
+          "points": [
+            "Narrow therapeutic index; arrhythmias most serious",
+            "Hypokalaemia, hypomagnesaemia and renal impairment raise risk"
+          ]
+        },
+        {
+          "h": "Current status",
+          "points": [
+            "DIG trial: fewer HF hospitalisations with no rise in mortality",
+            "Beneficial range 0.5 to 0.8 ng/mL; 1.2 ng/mL and above linked to higher mortality"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch33",
+        "GG14 ch34"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes",
+      "tags": [
+        "mechanism",
+        "dosing",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-117",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Evaluation of antihypertensive agents",
+      "sections": [
+        {
+          "h": "Experimental",
+          "points": [
+            "Tail-cuff systolic BP in rats; telemetry for conscious animals",
+            "DOCA-salt model: volume and RAAS-driven hypertension over about 4 weeks",
+            "Judge by BP change, ECG, and histology of the heart"
+          ]
+        },
+        {
+          "h": "Clinical trials",
+          "points": [
+            "Efficacy judged on morbidity and mortality endpoints in large randomised trials",
+            "Effective BP lowering cuts stroke by 30 to 50%, heart failure by 40 to 50%, CAD by about 15%"
+          ]
+        },
+        {
+          "h": "Study design",
+          "points": [
+            "Placebo control and crossover where the disease is chronic and stable",
+            "JNC 8 treatment threshold of 150 mm Hg systolic at age 60 and above"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP p223",
+        "Medhi PMECP p230",
+        "KDT8 ch41",
+        "Bennett & Brown p64"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 20
+        }
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-118",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Pharmacology of vasodilator drugs used in therapeutics",
+      "sections": [
+        {
+          "h": "Classification",
+          "points": [
+            "Nitrates and nitroprusside: NO donors, mainly venodilator or balanced",
+            "Hydralazine: direct arteriolar dilator",
+            "Minoxidil, diazoxide, nicorandil: K-ATP channel openers",
+            "Nicardipine IV: vasoselective dihydropyridine"
+          ]
+        },
+        {
+          "h": "Haemodynamics and reflexes",
+          "points": [
+            "Arteriolar dilators cause reflex tachycardia, renin release and fluid retention",
+            "Nitrates reduce preload first; coronary steal possible with nitroprusside"
+          ]
+        },
+        {
+          "h": "Therapeutic uses",
+          "points": [
+            "Angina: nitrates, nicorandil",
+            "Hypertension: hydralazine as second line; pregnancy (pre-eclampsia)",
+            "Emergencies: nicardipine first, nitroprusside second line",
+            "Heart failure: hydralazine with isosorbide dinitrate; nitroprusside in refractory cases",
+            "Topical minoxidil for alopecia"
+          ]
+        },
+        {
+          "h": "Adverse effects",
+          "points": [
+            "Hydralazine: lupus-like syndrome above about 100 mg/day, more in women and slow acetylators",
+            "Nitroprusside: cyanide, then thiocyanate accumulation; light-protected infusion",
+            "Minoxidil: fluid retention, hirsutism, ischaemia; avoid oral use"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch40",
+        "KDT8 ch41"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-119",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Pathophysiology of myocardial ischaemia and the drugs that modulate it",
+      "sections": [
+        {
+          "h": "Imbalance",
+          "points": [
+            "Angina is a supply and demand mismatch in part of the myocardium",
+            "Fixed atherosclerotic stenosis, or coronary vasospasm, limits supply"
+          ]
+        },
+        {
+          "h": "Demand and the angina index",
+          "points": [
+            "Demand rises with heart rate, systolic BP, contractility and size",
+            "Angina index is heart rate times systolic BP"
+          ]
+        },
+        {
+          "h": "Sequence of events",
+          "points": [
+            "Metabolites accumulate and elicit pain",
+            "End-diastolic pressure rises; subendocardial crunch and transient LV failure follow"
+          ]
+        },
+        {
+          "h": "Drugs that modulate the mechanism",
+          "points": [
+            "Nitrates: preload and afterload fall, so wall tension and O2 use fall; subendocardial flow improves",
+            "Beta blockers: lower HR, contractility and BP, so demand falls; no coronary dilatation",
+            "Calcium channel blockers: dihydropyridines dilate and reduce afterload; verapamil and diltiazem slow HR",
+            "Nicorandil: K-ATP opener and NO donor; trimetazidine and ranolazine act on metabolism and late Na+ current; ivabradine lowers HR only"
+          ]
+        },
+        {
+          "h": "Disease modification",
+          "points": [
+            "Antianginals relieve ischaemia but do not change CAD; aspirin, ACE inhibitors and statins modify it"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch40",
+        "Satoskar p627",
+        "Golan p505"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2009,
+          "marks": 20
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-nitrates-angina",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-120",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Impact of comorbidity on the choice of antihypertensive drugs",
+      "sections": [
+        {
+          "h": "Principles",
+          "points": [
+            "Use compelling indications first, otherwise age and race",
+            "Non-black young patients respond better to ACE inhibitors or ARBs; older and black patients respond better to CCBs"
+          ]
+        },
+        {
+          "h": "Cardiac comorbidity",
+          "points": [
+            "Heart failure: diuretic, ACE inhibitor or ARB, beta blocker",
+            "Post-MI: ACE inhibitor or ARB, beta blocker",
+            "High CAD risk: ACE inhibitor, CCB, diuretic"
+          ]
+        },
+        {
+          "h": "Metabolic and renal",
+          "points": [
+            "Diabetes: ACE inhibitor or ARB; CCB; avoid beta blocker with diuretic (diabetes risk)",
+            "CKD: ACE inhibitor or ARB",
+            "Resistant hypertension with diabetes or CKD: add aldosterone antagonist if K+ below 4.5 mmol/L"
+          ]
+        },
+        {
+          "h": "Other situations",
+          "points": [
+            "Recurrent stroke: diuretic, ACE inhibitor or ARB, CCB",
+            "Pregnancy: avoid ACE inhibitors and ARBs; methyldopa and hydralazine used; diuretics avoided in toxaemia",
+            "Avoid verapamil or diltiazem with a beta blocker (bradycardia, AV block)"
+          ]
+        },
+        {
+          "h": "Examples",
+          "points": [
+            "Amlodipine with lisinopril or enalapril (ACE inhibitor combinations)",
+            "Losartan with amlodipine, a fixed ARB and CCB combination",
+            "Amlodipine with atenolol, a CCB and beta blocker combination; avoid verapamil or diltiazem with beta blockers",
+            "Enalapril or losartan with hydrochlorothiazide when a diuretic is needed for heart failure or oedema"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch41"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
+      "tags": [
+        "uses",
+        "interactions"
+      ]
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-121",
+      "type": "basic",
+      "level": 1,
+      "front": "Working myocardium versus automatic fibres: what separates them?",
+      "back": "Working (non-automatic) fibres hold a stable resting potential of about -90 mV and cannot fire on their own. Automatic fibres in the SA and AV nodes and His-Purkinje system show slow phase-4 depolarisation and generate their own impulses.",
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "pyq": [],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-122",
+      "type": "basic",
+      "level": 1,
+      "front": "Which ion carries phase 0 in fast-channel versus slow-channel action potentials?",
+      "back": "Fast-channel fibres (atria, ventricles, Purkinje) depolarise through Na+ entry. Slow-channel fibres (SA and AV nodes) depolarise through Ca2+ entry, which is slower and has a less negative threshold.",
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "pyq": [],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-123",
+      "type": "basic",
+      "level": 1,
+      "front": "Why is conduction slow in SA and AV nodal tissue?",
+      "back": "Slow-channel action potentials have a slow 0 phase, low amplitude and small overshoot, so the wave moves decrementally. Conduction velocity is about 0.01 to 0.1 m/s in slow-channel tissue against 0.5 to 5 m/s in fast-channel tissue.",
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "pyq": [],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-124",
+      "type": "basic",
+      "level": 1,
+      "front": "How do effective refractory period and action potential duration compare in fast-channel and slow-channel fibres?",
+      "back": "Fast-channel fibres recover Na+ channels voltage-dependently, so ERP is shorter than APD (ERP/APD below 1). Slow-channel fibres recover Ca2+ channels with time, so ERP is longer than APD (ERP/APD above 1).",
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "pyq": [],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-125",
+      "type": "basic",
+      "level": 1,
+      "front": "Which tissue is the normal pacemaker, and what is its key feature?",
+      "back": "The SA node. It has the steepest phase-4 slope and so reaches threshold first. Other automatic tissue fires more slowly and acts as latent pacemaker if the SA node fails.",
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "pyq": [],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-126",
+      "type": "basic",
+      "level": 1,
+      "front": "How does hyperpolarisation change excitability, and what happens below about -55 mV?",
+      "back": "Hyperpolarisation widens the gap to threshold, so the fibre is less excitable. Below about -55 mV in fast-channel fibres, all Na+ channels are inactivated and the fibre cannot respond.",
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "pyq": [],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-127",
+      "type": "basic",
+      "level": 1,
+      "front": "Vagal (ACh) versus sympathetic (adrenaline) effects on the heart: automaticity, refractoriness, conduction and contractility.",
+      "back": "Vagal stimulation slows SA automaticity, shortens atrial refractoriness, prolongs refractoriness in conducting tissue and depresses conduction. Sympathetic stimulation increases automaticity and contractility, shortens refractoriness and enhances conduction.",
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "pyq": [],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-128",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Normal cardiac electrophysiology",
+      "sections": [
+        {
+          "h": "Fibre types",
+          "points": [
+            "Working fibres: stable resting potential, no self-excitation",
+            "Automatic fibres (SA, AV, His-Purkinje): phase-4 slow depolarisation"
+          ]
+        },
+        {
+          "h": "Action potentials",
+          "points": [
+            "Fast-channel: Na+ current, fast 0 phase, threshold near -60 to -70 mV",
+            "Slow-channel: Ca2+ current, slow 0 phase, threshold near -45 to -55 mV"
+          ]
+        },
+        {
+          "h": "Conduction and refractoriness",
+          "points": [
+            "Conduction depends on membrane responsiveness at the resting potential",
+            "ERP is the key refractory measure; ERP/APD is below 1 in fast-channel and above 1 in slow-channel tissue"
+          ]
+        },
+        {
+          "h": "Autonomic influence",
+          "points": [
+            "Vagal: slows SA firing, prolongs AV refractoriness",
+            "Sympathetic: raises automaticity, conduction and contractility"
+          ]
+        },
+        {
+          "h": "Link to drugs",
+          "points": [
+            "Most antiarrhythmics increase ERP/APD",
+            "Drugs that reduce the 0-phase slope shift the responsiveness curve to the right and slow conduction"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "pyq": [],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
+    },
+    {
+      "id": "p2-arrhythmia-angina-htn-129",
+      "type": "essay",
+      "level": 3,
+      "front": "Essay: Normal electrophysiological properties of the myocardium and their link to antiarrhythmic drug action",
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2006,
+          "marks": 20
+        }
+      ],
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "Working and automatic myocardial fibres",
+            "Four properties: impulse generation, conduction, excitability, refractoriness"
+          ]
+        },
+        {
+          "h": "Impulse generation",
+          "points": [
+            "Phase 0 to 4 in working fibres",
+            "Phase-4 slope and threshold set the firing rate; SA node is the pacemaker"
+          ]
+        },
+        {
+          "h": "Conduction and excitability",
+          "points": [
+            "Fast-channel (Na+) versus slow-channel (Ca2+) tissue",
+            "Membrane responsiveness depends on resting potential; -55 mV inactivates all Na+ channels"
+          ]
+        },
+        {
+          "h": "Refractory period",
+          "points": [
+            "ERP is the key measure; ERP/APD below 1 in fast tissue and above 1 in slow tissue",
+            "Most antiarrhythmics raise ERP/APD"
+          ]
+        },
+        {
+          "h": "Autonomic influence",
+          "points": [
+            "Vagal action slows SA firing and depresses AV conduction",
+            "Sympathetic action increases automaticity and conduction"
+          ]
+        },
+        {
+          "h": "Drug link",
+          "points": [
+            "Class I reduces the 0-phase slope and slows conduction in fast tissue",
+            "Class IV (verapamil, diltiazem) blocks slow-channel tissue; class III prolongs ERP"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 p521-523"
+      ],
+      "tags": [
+        "mechanism"
+      ],
+      "status": "draft",
+      "subtopic": "p2-arrhythmia-angina-htn-antiarrhythmic-classes"
     }
   ]
 }

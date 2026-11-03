@@ -117,3 +117,63 @@ Cards written from official or authoritative web sources (Europe PMC open-access
 | p3-ethics-education-050 | web | https://europepmc.org/article/PMC/PMC13388170 |
 | p3-ethics-education-051 | web | https://europepmc.org/article/PMC/PMC13388170 |
 | p3-ethics-education-052 | web | https://europepmc.org/article/PMC/PMC13388170 |
+
+
+Level ladder pass: explicit level set on all 55 existing cards (ok); pyq added to 003.
+| p3-ethics-education-056 | new | Sarkar p156-160; RangDale9 ch8 |
+| p3-ethics-education-057 | new | Sarkar p156-160 |
+| p3-ethics-education-058 | new | Sarkar p186-190; Sarkar p181-185; GG14 ch1; RangDale9 ch8 |
+| p3-ethics-education-059 | new | Sarkar p586-590 |
+| p3-ethics-education-060 | new | Sarkar p586-590 |
+| p3-ethics-education-061 | new | Sarkar p586-590 |
+
+## Checker
+Independent check (Haiku). Sampled 25+ cards, opened Sarkar OCR, MD-in-Pharmacology (revised), PGMER 2023, GG14 ch1, and the AETCOM booklet (nmc.org.in, read via PDF text).
+
+Verified OK: 002, 003, 004, 007, 008, 009, 011, 012, 013, 014, 017, 019, 021, 022, 024, 027, 028, 032-036, 040-045, 053, 054, 055, 057, 058, 059. AETCOM module counts (5/34, 8/37, 5/25, 9/44) confirmed against the booklet.
+
+Fixed:
+- 037 back: "PBL" is not in the owner's teaching-methods list. Replaced with the owner list; ref now MD-in-Pharmacology (revised).
+- 038: "6 terms of 6 months" not printed in any owner doc. Back now "3 years", ref PGMER 2023 Annexure-1.
+- 039: "at least 6 hours a week" not in owner docs. Rewritten to the owner's figures (10 lectures a year; journal club and seminar at least every 1-2 weeks); ref MD-in-Pharmacology (revised).
+- 040-043, 044, 045: owner refs added (MD-in-Pharmacology revised; PGMER 2023). Facts confirmed: thesis 6 months before exams, 3 examiners (1 internal, 2 external), 50% in each head, formative/summative split.
+
+Deleted (ungroundable):
+- p3-ethics-education-025: CBME "PH" competency codes and Katzung mapping not found in any owner book or curriculum PDF.
+- p3-ethics-education-050: "professional identity above Miller's apex" not in the cited article text checked.
+
+Not changed (owner to decide):
+- 046-052 Miller's pyramid: sourced to Europe PMC articles (WEB). No SOURCE-GAPS entry covers this topic, so the web exception does not clearly apply. Owner to confirm.
+- 030-036 and 031-034 AETCOM: WEB refs, figures confirmed against the NMC booklet, but the web exception is not listed for this topic. Owner to confirm.
+- 038-045 remaining WEB refs kept beside the new owner refs.
+
+Level ladder: L1/L2/L3 counts per subtopic all meet 3/2/1 after deletions (history 3/2/2, gcp 3/3/2, ec 3/2/2, placebo 3/2/1, professionalism 3/2/1, education 12/11/2). PYQ re-audit still not done. No Prep, RR5 or RapidRev refs in either deck.
+Validator (--check): no errors mention p3-ethics-education.
+
+## PYQ gap batch: UHSR 2025 (DTC, signal detection) and Q bank (ethics committee)
+
+Sources checked: Sarkar OCR p56-60, p86-90, p91-95, p226-230, p506-510; KDT8 ch6 (PV text, p110-111); GG14 ch8 (signal detection, p149-150, pdf p167-169); Katzung16 PH1.6 (text only). DTC membership is not printed in any owner book, so the composition is not stated.
+
+| id | new / corrected | source |
+|---|---|---|
+| p3-ethics-education-062 | new | Sarkar p56-60; Sarkar p506-510 |
+| p3-ethics-education-063 | new | Sarkar p506-510 |
+| p3-ethics-education-064 | new | KDT8 ch6; Sarkar p86-90 |
+| p3-ethics-education-065 | new | Sarkar p86-90 |
+| p3-ethics-education-066 | new | KDT8 ch6 |
+| p3-ethics-education-067 | new | KDT8 ch6 |
+| p3-ethics-education-068 | new | GG14 ch8 |
+| p3-ethics-education-069 | new | GG14 ch8; Sarkar p91-95 |
+| p3-ethics-education-070 | new | GG14 ch8 |
+| p3-ethics-education-071 | new | Sarkar p91-95; Sarkar p86-90; GG14 ch8; KDT8 ch6 |
+| p3-ethics-education-072 | new | Sarkar p506-510; Sarkar p56-60 |
+| p3-ethics-education-073 | new | Sarkar p226-230 |
+| p3-ethics-education-013 | pyq added (Q bank) | Sarkar p226-230 |
+| p3-ethics-education-014 | pyq added (Q bank) | Sarkar p226-230 |
+
+Not covered (no owner-book source): DTC membership/constitution beyond the convener role. The Q bank question 391 also contains a second, unrelated part (G-protein coupled receptors); it belongs to pharmacodynamics, not this topic.
+
+## Checker (PYQ gap pass)
+- Study cards 062-073 and pyq tags 013/014 re-read against Sarkar OCR (p56-60, p86-90, p91-95, p226-230, p506-510), KDT8 ch6 p110-111, GG14 p167-170. All facts confirmed; no cards deleted or edited. Ladder minimums met (3/2/1 per subtopic). Validator --check clean for this topic.
+- Rapid 0137-0164 spot-checked against the same OCR pages; all answers confirmed.
+- Not verified: DTC membership (not printed in owner books); GG14 ch8 chapter number for refs taken as recorded.

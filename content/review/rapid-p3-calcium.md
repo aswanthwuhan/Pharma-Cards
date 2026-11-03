@@ -312,3 +312,34 @@ Study deck: +27 cards (p3-calcium-029 to 055), mixed shortnote, basic, cloze and
 Rapid deck: +73 cards (rf-p3-calcium-0275 to 0347). Refs: KDT8 ch24 only. 58 candidate pairs were dropped as duplicates or near-duplicates of cards already in the deck.
 
 Sources: KDT8 ch24 was read in full. Katzung16 ch42 and GG14 ch52 were not re-read in this pass, so their points are not added. No book conflicts found within KDT8 ch24.
+
+Ladder pass: 3 new pairs.
+| id | status | source |
+|---|---|---|
+| rf-p3-calcium-0349 | new | KDT8 ch24 |
+| rf-p3-calcium-0350 | new | KDT8 ch24 |
+| rf-p3-calcium-0348 | deleted (duplicate of 0163) | - |
+
+## Checker
+- Spot-checked rapid numeric cards against KDT8 ch24; no Prep/RR5 refs; no changes.
+- Checker 2026-11-03: rf-0087 ref corrected to KDT8 PDF p382 (3000-4000 IU is in the vitamin chapter, not ch24). Added rf-0351 (thiazide/urinary Ca), rf-0352 (burosumab).
+
+## Gap writer 2026-11-03: magnesium uses
+| id | status | source |
+|---|---|---|
+| rf-p3-calcium-0353 | new | KDT8 ch23 |
+| rf-p3-calcium-0354 | new | KDT8 ch23 |
+| rf-p3-calcium-0355 | new | GG14 ch44 |
+| rf-p3-calcium-0356 | new | Katzung16 ch14 |
+| rf-p3-calcium-0357 | new | KDT8 ch47 |
+| rf-p3-calcium-0358 | new | KDT8 ch49 |
+| rf-p3-calcium-0359 | new | KDT8 ch49 |
+| rf-p3-calcium-0360 | new | KDT8 ch42 |
+| rf-p3-calcium-0361 | new | KDT8 ch42 |
+| rf-p3-calcium-0362 | new | KDT8 ch49 |
+| rf-p3-calcium-0363 | new | Katzung16 ch14 |
+| rf-p3-calcium-0364 | new | GG14 ch48 |
+| rf-p3-calcium-0365 | new | GG14 ch48 |
+
+## Gap writer 2026-11-03: osteoporosis pathophysiology
+Added rf-p3-calcium-0366 to 0377 from GG14 ch52 (peak bone mass, remodelling cycle, type I/II/secondary osteoporosis, coupling). Subtopic p3-calcium-bisphosphonates. Duplicates of existing therapy pairs avoided. Validator: check ok.

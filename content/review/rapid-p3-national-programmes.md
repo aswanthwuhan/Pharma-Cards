@@ -113,3 +113,88 @@ Gap from SOURCE-GAPS.md: NVHCP aims and structure (drug facts from KDT8 ch59) an
 | rf-p3-national-programmes-0172 | ok | KDT8 ch61 |
 | rf-p3-national-programmes-0173 | ok | KDT8 ch61 |
 | rf-p3-national-programmes-0174 | ok | KDT8 ch61 |
+
+
+## Leprosy MDT additions (KDT8 ch57)
+
+| id | status | source |
+|---|---|---|
+| rf-p3-national-programmes-0175 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0176 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0177 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0178 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0179 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0180 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0181 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0182 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0183 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0184 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0185 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0186 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0187 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0188 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0189 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0190 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0191 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0192 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0193 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0194 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0195 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0196 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0197 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0198 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0199 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0200 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0201 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0202 | new | KDT8 ch57 |
+| rf-p3-national-programmes-0203 | new | KDT8 ch57 |
+
+## Checker pass (independent)
+
+Checked against KDT8 ch56, ch57, ch60, ch61, ch62, ch63, ch59 (text extracted), Katzung16 p1276-1292, Sarkar OCR p576-580.
+
+| id | status | source / note |
+|---|---|---|
+| rf-0002, 0014, 0016-0018, 0022 | ok | KDT8 ch56 (600 deaths/day; DOTS 1995; 1997; 2010; 2016) |
+| rf-0009-0013 | ok | KDT8 ch56 (1947, 1952, 1961, 1962, 1970) |
+| rf-0005-0008 | ok | KDT8 ch56 (10%; 3%; 12-17%; 71,000) |
+| rf-0020 | corrected | answer changed from 2014 to 2016: KDT8 ch56 "From 2016 ... End TB strategy". Refs now KDT8 ch56 |
+| rf-0033, 0034 | ok | KDT8 ch56 table 56.3 (2, 3, 4, 5 tablets by weight band) |
+| rf-0036, 0037 | ok | KDT8 ch56 (XDR 7-drug regimen; pregnancy 2HRZE/4HRE, no streptomycin) |
+| rf-0043-0054, 0056, 0057 | ok | KDT8 ch57 (127,326 cases; 60%; 51%; 57.6 to 0.66; 3.95 million; 13.05 million; 276 relapses) |
+| rf-0055, 0058 | deleted | "up to 15 years" and Sparsh campaign: not in any owner book checked |
+| rf-0059-0061, 0064, 0065 | ok | KDT8 ch61 (NMEP 1958; 75 million to 0.1 million; 6.47 million 1976; 80%; 1.06 million) |
+| rf-0064 | partial | NAMP and NVBDCP naming not confirmed in KDT8 ch61 text extracted; left, owner to confirm |
+| rf-0083, 0089 | ok | KDT8 ch62 and ch63 (miltefosine; yearly albendazole with DEC or ivermectin) |
+| rf-0098, 0107-0111 | ok | KDT8 ch60 (2004; <350; WHO 2016 treat-all; lifelong; SART less than half) |
+| rf-0130-0132 | ok | Sarkar OCR p576-580 (Dengvaxia) |
+| rf-0148, 0149 | deleted | WHO 2018 and NACO 2020 dolutegravir claims not in the cited Cureus article or any owner book |
+| rf-0166 | deleted | NCVBDC rename not in KDT8 ch61 (book says NVBDCP) |
+| rf-0167-0174 | ok except 0171 | KDT8 ch61. 0171 corrected: KDT8 ch61 lists IV/IM artesunate first, plus IM artemether, IM arteether, IV quinine. "IV artesunate only" was wrong |
+| rf-0190 | deleted | rifampin withheld in ENL: not in KDT8 ch57 |
+| rf-0199 | corrected | "vertigo" was not in KDT8 ch57; answer now minocycline 100 mg/day |
+| rf-0204-0206 | new | KDT8 ch57: clofazimine 200 mg in reactions; prednisolone 40-60 mg/day; thalidomide 100-300 mg bedtime (ENL) |
+
+Prep and RR5 grep: no matches in either deck file.
+
+## PYQ gap: UHSR 2025 vaccination (rf-0207 to rf-0240, 34 cards, all new)
+
+| id | new | source |
+|---|---|---|
+| rf-p3-national-programmes-0207 to 0222 | new | KDT8 ch70: passive vs active onset, killed-vaccine boosters, live vaccine contraindications, BCG, Ty21a, Vi, Hib carrier, newer oral cholera status, recombinant HBV, OPV, IPV, measles |
+| rf-p3-national-programmes-0223 to 0232 | new | GG14 ch40: DNA, mRNA, vectors, adjuvants (alum, MPL, MF59), needle-free routes, microneedles and plant vaccines, chronic infection goal, negative vaccination |
+| rf-p3-national-programmes-0233 to 0238 | new | Padmaja p661: UIP schedule by age, and Td doses |
+| rf-p3-national-programmes-0239 | new | Sarkar p101-105: AEFI surveillance from 1985 |
+| rf-p3-national-programmes-0240 | new | Padmaja p660-661: about 27,000 cold-chain points |
+
+### Checker (PYQ gap pass)
+
+| id | ok / corrected / deleted | source |
+|---|---|---|
+| rf-p3-national-programmes-0207 to 0228, 0232, 0233, 0235 to 0240 | ok | KDT8 ch70 p989-995; GG14 ch40 p816-830; Padmaja PDF p683-684; Sarkar p101-105 |
+| rf-p3-national-programmes-0229 | corrected | answer reduced to "Oral polio vaccine (OPV)"; nasal influenza spray is not in any allowed book |
+| rf-p3-national-programmes-0234 | corrected | PCV and fIPV at 6 and 14 weeks only (Padmaja table 56.2); OPV, pentavalent and rotavirus at all three |
+| rf-p3-national-programmes-0230 | deleted | "microneedles, dermal patches, edible plant vaccines under study" is not in any allowed book |
+| rf-p3-national-programmes-0231 | deleted | "chronic viral infection needs antibody and T-cell responses" is not stated in any allowed book |
+
+Ids 0230 and 0231 are not renumbered. Validator: check ok. Prep and RR5 refs: none.

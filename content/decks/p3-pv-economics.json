@@ -16,7 +16,8 @@
       "subtopic": "p3-pv-economics-pv-basics",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-pv-economics-002",
@@ -31,7 +32,41 @@
       "subtopic": "p3-pv-economics-pv-basics",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-004",
+      "type": "basic",
+      "front": "Which landmark US laws were triggered by drug disasters?",
+      "back": "1938 Food, Drug and Cosmetic Act after more than 100 deaths from sulfanilamide elixir made with diethylene glycol (pre-marketing safety testing). 1962 Kefauver-Harris amendment after thalidomide (proof of efficacy, reporting of serious adverse effects). 2007 FDA Amendments Act after rofecoxib (population surveillance, mandatory label changes, post-approval studies, REMS and public trial registration).",
+      "refs": [
+        "GG14 ch8",
+        "Sarkar p86-90"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pv-basics",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-005",
+      "type": "cloze",
+      "front": "Complete: drugs withdrawn or restricted after postmarketing surveillance",
+      "text": "Terfenadine, astemizole, cisapride and grepafloxacin: {{QT prolongation}} and torsades. Fenfluramine and dexfenfluramine: {{cardiac valve}} abnormalities. Rofecoxib: {{myocardial infarction}} and stroke. Cerivastatin: fatal {{rhabdomyolysis}}. Lorcaserin: increased {{cancer}} risk. Thalidomide: {{phocomelia}}, though now used again under risk controls for multiple myeloma.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pv-basics",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p3-pv-economics-003",
@@ -80,38 +115,174 @@
       "subtopic": "p3-pv-economics-pv-basics",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-004",
-      "type": "basic",
-      "front": "Which landmark US laws were triggered by drug disasters?",
-      "back": "1938 Food, Drug and Cosmetic Act after more than 100 deaths from sulfanilamide elixir made with diethylene glycol (pre-marketing safety testing). 1962 Kefauver-Harris amendment after thalidomide (proof of efficacy, reporting of serious adverse effects). 2007 FDA Amendments Act after rofecoxib (population surveillance, mandatory label changes, post-approval studies, REMS and public trial registration).",
-      "refs": [
-        "GG14 ch8",
-        "Sarkar p86-90"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pv-basics",
-      "tags": [
-        "adr"
-      ]
+      "level": 2
     },
     {
-      "id": "p3-pv-economics-005",
-      "type": "cloze",
-      "front": "Complete: drugs withdrawn or restricted after postmarketing surveillance",
-      "text": "Terfenadine, astemizole, cisapride and grepafloxacin: {{QT prolongation}} and torsades. Fenfluramine and dexfenfluramine: {{cardiac valve}} abnormalities. Rofecoxib: {{myocardial infarction}} and stroke. Cerivastatin: fatal {{rhabdomyolysis}}. Lorcaserin: increased {{cancer}} risk. Thalidomide: {{phocomelia}}, though now used again under risk controls for multiple myeloma.",
+      "id": "p3-pv-economics-054",
+      "type": "basic",
+      "subtopic": "p3-pv-economics-pv-basics",
+      "level": 2,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "A patient develops jaundice in week 4 of a drug. Which four criteria decide if the drug is the cause?",
+      "back": "Temporal relationship (does onset fit the drug timing), previous knowledge (is the event a known effect), dechallenge (does it subside on stopping) and rechallenge (does it return on re-exposure; often unethical, so not done). Needed because the event may be due to the disease or other causes.",
+      "refs": [
+        "KDT8 ch6"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-055",
+      "type": "shortnote",
+      "subtopic": "p3-pv-economics-pv-basics",
+      "level": 3,
+      "tags": [
+        "classification"
+      ],
+      "front": "Short note: Causality assessment of an adverse drug event",
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        },
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why",
+          "points": [
+            "Event may arise from the drug, the disease or other causes; a clear yes/no is rarely possible"
+          ]
+        },
+        {
+          "h": "Criteria",
+          "points": [
+            "Temporal relationship",
+            "Previous knowledge",
+            "Dechallenge",
+            "Rechallenge (often unethical)"
+          ]
+        },
+        {
+          "h": "Grades (KDT8)",
+          "points": [
+            "Definite",
+            "Probable",
+            "Possible",
+            "Doubtful"
+          ]
+        },
+        {
+          "h": "Scales and who does it",
+          "points": [
+            "Naranjo algorithm and WHO scale for causality; modified Hartwig scale for severity",
+            "PvPI centres assess first; final assessment at the National Coordination Centre after upload to VigiFlow"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6",
+        "Katzung16 PDF p1281",
+        "Sarkar p91-95",
+        "Padmaja PDF p89"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-007",
+      "type": "basic",
+      "front": "When are individual case reports most convincing for causality?",
+      "back": "When the event is otherwise rare, has few other risk factors, follows exposure closely in time (anaphylaxis, Stevens-Johnson syndrome), and the drug carries a large excess risk (e.g. rhabdomyolysis with cerivastatin, far higher per million prescriptions than other statins).",
       "refs": [
         "GG14 ch8"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-pv-economics-pv-basics",
+      "subtopic": "p3-pv-economics-pv-methods",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-008",
+      "type": "basic",
+      "front": "How are signals detected in large spontaneous-report databases?",
+      "back": "Quantitative disproportionality methods compare how often a particular event is reported for a drug with how often it would be expected from the whole database; they need no exposure denominator but rest on unverifiable assumptions, so signals always need further evaluation.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pv-methods",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-009",
+      "type": "basic",
+      "front": "What is prescription-event monitoring (PEM)?",
+      "back": "A UK postmarketing method that follows cohorts of usually at least 10,000 patients on a new drug: questionnaires are sent to the prescribing general practitioners to record all significant events over about 6-12 months after starting the drug.",
+      "refs": [
+        "Sarkar p91-95",
+        "KDT8 ch6"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pv-methods",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-010",
+      "type": "cloze",
+      "front": "Classify: methods of pharmacovigilance",
+      "text": "Pharmacovigilance uses {{spontaneous reporting}} and published case reports, {{prescription-event monitoring}}, computerised {{record linkage}}, observational {{cohort}} and case-control studies, {{targeted clinical investigations}} (PK, PD, genetic and interaction studies) and postmarketing {{clinical trials}}.",
+      "refs": [
+        "KDT8 ch6",
+        "Sarkar p91-95",
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pv-methods",
+      "tags": [
+        "classification",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-011",
+      "type": "basic",
+      "front": "What is the FDA Sentinel System?",
+      "back": "A distributed network of the FDA and more than 30 data partners covering over 100 million people. Each site analyses its own data under a common data model and reusable tools (e.g. propensity score matching) and returns results centrally, protecting privacy. It has evaluated signals such as olmesartan-associated sprue-like enteropathy and rotavirus vaccine intussusception, sometimes avoiding costly trials.",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pv-methods",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p3-pv-economics-006",
@@ -151,86 +322,181 @@
       "subtopic": "p3-pv-economics-pv-methods",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-pv-economics-007",
+      "id": "p3-pv-economics-056",
       "type": "basic",
-      "front": "When are individual case reports most convincing for causality?",
-      "back": "When the event is otherwise rare, has few other risk factors, follows exposure closely in time (anaphylaxis, Stevens-Johnson syndrome), and the drug carries a large excess risk (e.g. rhabdomyolysis with cerivastatin, far higher per million prescriptions than other statins).",
+      "subtopic": "p3-pv-economics-pv-methods",
+      "level": 2,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Why can spontaneous reporting raise a signal but not give the incidence of a reaction?",
+      "back": "Only a fraction of ADRs is reported (about 10% voluntarily) and the number of patients exposed is unknown, so there is no denominator. Dramatic, early reactions get reported, so rare events can be spotted but not counted.",
       "refs": [
+        "KDT8 ch6",
         "GG14 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2019,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-057",
+      "type": "essay",
+      "subtopic": "p3-pv-economics-pv-methods",
+      "level": 3,
+      "tags": [
+        "classification"
+      ],
+      "front": "Essay: Methods of postmarketing safety surveillance and how they complement each other",
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Why needed",
+          "points": [
+            "Premarketing trials are too small, short and selective to show rare or late harm"
+          ]
+        },
+        {
+          "h": "Hypothesis-generating",
+          "points": [
+            "Spontaneous reports and case reports: cheap, whole population, rapid for rare dramatic events; under-reporting, no denominator",
+            "Disproportionality analysis of report databases needs no denominator but needs follow-up"
+          ]
+        },
+        {
+          "h": "Hypothesis-testing",
+          "points": [
+            "Prescription-event monitoring: cohort of patients on a new drug, GPs report events",
+            "Record linkage, cohort and case-control studies; FDA Sentinel network of data partners",
+            "Targeted clinical investigations and postmarketing trials"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Signals from reports are verified by controlled studies; regulators then act"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch6",
+        "GG14 ch8",
+        "Sarkar p91-95"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-013",
+      "type": "basic",
+      "front": "What are the goal and objectives of the Pharmacovigilance Programme of India?",
+      "back": "Goal: ensure that the benefits of medicines outweigh their risks for the Indian population. Objectives: a nationwide patient-safety reporting system; identify and analyse new signals; assess benefit-risk of marketed drugs; generate evidence on medicine safety; support regulatory decisions; communicate safety information; collaborate with and train other national centres; become a centre of excellence.",
+      "refs": [
+        "Sarkar p91-95"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-pv-economics-pv-methods",
+      "subtopic": "p3-pv-economics-pvpi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p3-pv-economics-008",
+      "id": "p3-pv-economics-014",
       "type": "basic",
-      "front": "How are signals detected in large spontaneous-report databases?",
-      "back": "Quantitative disproportionality methods compare how often a particular event is reported for a drug with how often it would be expected from the whole database; they need no exposure denominator but rest on unverifiable assumptions, so signals always need further evaluation.",
+      "front": "Under PvPI, what should be reported and who may report (as given in Sarkar)?",
+      "back": "All suspected adverse events, including those from herbal, traditional or alternative remedies; especially all events with new drugs and drugs of current interest, all suspected interactions, and reactions causing death, life-threat, hospitalisation, disability, congenital anomaly or needing intervention. Health care professionals (doctors, dentists, nurses, pharmacists) report; the source states lay reports are not accepted.",
       "refs": [
-        "GG14 ch8"
+        "Sarkar p91-95"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-pv-economics-pv-methods",
+      "subtopic": "p3-pv-economics-pvpi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p3-pv-economics-009",
+      "id": "p3-pv-economics-015",
       "type": "basic",
-      "front": "What is prescription-event monitoring (PEM)?",
-      "back": "A UK postmarketing method that follows cohorts of usually at least 10,000 patients on a new drug: questionnaires are sent to the prescribing general practitioners to record all significant events over about 6-12 months after starting the drug.",
+      "front": "Trace the flow of an ADR report in PvPI.",
+      "back": "The ADR monitoring centre (AMC, mostly medical colleges) collects the report, follows up for completeness and enters it into VigiFlow with source documents; causality is assessed (e.g. Naranjo algorithm, Hartwig severity scale); the National Coordination Centre at IPC Ghaziabad analyses the data and forwards it to the WHO Uppsala Monitoring Centre; CDSCO takes regulatory decisions and reports to DTAB.",
       "refs": [
         "Sarkar p91-95",
         "KDT8 ch6"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-pv-economics-pv-methods",
+      "subtopic": "p3-pv-economics-pvpi",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-010",
-      "type": "cloze",
-      "front": "Classify: methods of pharmacovigilance",
-      "text": "Pharmacovigilance uses {{spontaneous reporting}} and published case reports, {{prescription-event monitoring}}, computerised {{record linkage}}, observational {{cohort}} and case-control studies, {{targeted clinical investigations}} (PK, PD, genetic and interaction studies) and postmarketing {{clinical trials}}.",
-      "refs": [
-        "KDT8 ch6",
-        "Sarkar p91-95",
-        "GG14 ch8"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pv-methods",
-      "tags": [
-        "classification",
-        "adr"
-      ]
+      "level": 1
     },
     {
-      "id": "p3-pv-economics-011",
+      "id": "p3-pv-economics-016",
       "type": "basic",
-      "front": "What is the FDA Sentinel System?",
-      "back": "A distributed network of the FDA and more than 30 data partners covering over 100 million people. Each site analyses its own data under a common data model and reusable tools (e.g. propensity score matching) and returns results centrally, protecting privacy. It has evaluated signals such as olmesartan-associated sprue-like enteropathy and rotavirus vaccine intussusception, sometimes avoiding costly trials.",
+      "front": "How is an individual case safety report (ICSR) assessed?",
+      "back": "For quality of documentation; coding of drugs (WHO Drug Dictionary based on ATC) and reactions (WHO-ART, MedDRA); relevance (new drug, i.e. within 4 years of first approval, unknown reaction not in the product information, or serious reaction); duplicate reports; and causality.",
       "refs": [
-        "GG14 ch8"
+        "Sarkar p91-95"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-pv-economics-pv-methods",
+      "subtopic": "p3-pv-economics-pvpi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-017",
+      "type": "basic",
+      "front": "Which drugs does Sarkar list as banned in India following PvPI data?",
+      "back": "Rosiglitazone, sibutramine, rimonabant, nimesulide in children under 12, cisapride, lorcaserin, phenylpropanolamine, gatifloxacin and tegaserod.",
+      "refs": [
+        "Sarkar p91-95"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-034",
+      "type": "basic",
+      "front": "How are drug names and adverse events coded when an ICSR is assessed?",
+      "back": "Drug names are registered in the WHO Drug Dictionary, which is based on the ATC classification. Adverse events are coded with WHO-ART or MedDRA.",
+      "refs": [
+        "Sarkar p91-95"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "level": 1
     },
     {
       "id": "p3-pv-economics-012",
@@ -269,83 +535,181 @@
       "subtopic": "p3-pv-economics-pvpi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-pv-economics-013",
-      "type": "basic",
-      "front": "What are the goal and objectives of the Pharmacovigilance Programme of India?",
-      "back": "Goal: ensure that the benefits of medicines outweigh their risks for the Indian population. Objectives: a nationwide patient-safety reporting system; identify and analyse new signals; assess benefit-risk of marketed drugs; generate evidence on medicine safety; support regulatory decisions; communicate safety information; collaborate with and train other national centres; become a centre of excellence.",
+      "id": "p3-pv-economics-051",
+      "type": "shortnote",
+      "front": "Short note: Materiovigilance Programme of India",
+      "sections": [
+        {
+          "h": "Why it started",
+          "points": [
+            "Set up after serious device failures in Indian hospitals, such as incubator and phototherapy-unit fires and power-related deaths",
+            "Approved by the Ministry of Health and Family Welfare to make medical devices safer"
+          ]
+        },
+        {
+          "h": "Purpose",
+          "points": [
+            "Monitor adverse events of medical devices after they reach the market",
+            "Collect and analyse data systematically to guide evidence-based regulatory decisions",
+            "Monitor the benefit-risk profile and create awareness of adverse-event reporting among health professionals"
+          ]
+        },
+        {
+          "h": "Structure",
+          "points": [
+            "Launched in 2015 by the DCGI",
+            "National Coordination Centre: Indian Pharmacopoeia Commission",
+            "National Collaborating Centre: SCTIMST, Thiruvananthapuram",
+            "CDSCO as national regulator; NHSRC as technical partner"
+          ]
+        },
+        {
+          "h": "Devices",
+          "points": [
+            "Classes I (low risk), II (medium) and III (high); Class I self-certified by the manufacturer",
+            "Scope covers death, serious deterioration, serious injury and disability linked to devices"
+          ]
+        }
+      ],
       "refs": [
+        "Sarkar p96-100",
+        "Sarkar p101-105"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "adr"
+      ],
+      "subtopic": "p3-pv-economics-pvpi",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-pv-economics-033",
+      "type": "essay",
+      "front": "Essay: Pharmacovigilance: need, methods and the programme in India",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "WHO 2002 definition; signal, ADR, adverse event"
+          ]
+        },
+        {
+          "h": "Need",
+          "points": [
+            "Limits of premarketing trials: size, duration, populations, comparators, surrogates",
+            "History: sulfanilamide elixir, thalidomide, rofecoxib"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Spontaneous reporting",
+            "PEM, record linkage, cohort and case-control studies, Sentinel",
+            "Targeted investigations, postmarketing trials"
+          ]
+        },
+        {
+          "h": "Assessment",
+          "points": [
+            "Causality (Naranjo), severity (Hartwig), ICSR quality and coding"
+          ]
+        },
+        {
+          "h": "Regulatory action",
+          "points": [
+            "Label changes, boxed warnings, safety communications, REMS, withdrawal"
+          ]
+        },
+        {
+          "h": "India",
+          "points": [
+            "PvPI 2010; NCC at IPC Ghaziabad; AMCs, VigiFlow, link with Uppsala Monitoring Centre"
+          ]
+        },
+        {
+          "h": "Challenges",
+          "points": [
+            "Under-reporting, data access, signal refinement, pharmacogenetics"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch8",
+        "KDT8 ch6",
+        "Sarkar p86-90",
         "Sarkar p91-95"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p3-pv-economics-pvpi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 3
     },
     {
-      "id": "p3-pv-economics-014",
+      "id": "p3-pv-economics-036",
       "type": "basic",
-      "front": "Under PvPI, what should be reported and who may report (as given in Sarkar)?",
-      "back": "All suspected adverse events, including those from herbal, traditional or alternative remedies; especially all events with new drugs and drugs of current interest, all suspected interactions, and reactions causing death, life-threat, hospitalisation, disability, congenital anomaly or needing intervention. Health care professionals (doctors, dentists, nurses, pharmacists) report; the source states lay reports are not accepted.",
+      "front": "How often must a periodic safety update report (PSUR) be filed during post-marketing surveillance of a new drug?",
+      "back": "Every 6 months for the first 2 years, then yearly for the next 2 years. Post-marketing surveillance itself is mandatory.",
       "refs": [
-        "Sarkar p91-95"
+        "Sarkar p221-225"
       ],
       "pyq": [],
       "status": "draft",
-      "subtopic": "p3-pv-economics-pvpi",
+      "subtopic": "p3-pv-economics-regulatory-action",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
     },
     {
-      "id": "p3-pv-economics-015",
+      "id": "p3-pv-economics-038",
       "type": "basic",
-      "front": "Trace the flow of an ADR report in PvPI.",
-      "back": "The ADR monitoring centre (AMC, mostly medical colleges) collects the report, follows up for completeness and enters it into VigiFlow with source documents; causality is assessed (e.g. Naranjo algorithm, Hartwig severity scale); the National Coordination Centre at IPC Ghaziabad analyses the data and forwards it to the WHO Uppsala Monitoring Centre; CDSCO takes regulatory decisions and reports to DTAB.",
+      "front": "For a similar biologic, when can safety and efficacy trials be waived under the Indian guideline?",
+      "back": "Only when all of these hold: quality is comparable (physicochemical and in vitro); preclinical evaluation is comparable; clinical PK-PD, including PD markers and immunogenicity, is comparable; and a post-marketing risk management plan is provided. The waiver is not allowed if any one criterion is missing.",
       "refs": [
-        "Sarkar p91-95",
+        "Sarkar p541-545"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-regulatory-action",
+      "tags": [
+        "newer-drugs"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-058",
+      "type": "basic",
+      "subtopic": "p3-pv-economics-regulatory-action",
+      "level": 1,
+      "tags": [
+        "uses"
+      ],
+      "front": "What actions can a regulator take once pharmacovigilance data show a drug is unsafe?",
+      "back": "Change the label to restrict use or add warnings and precautions, or withdraw the drug; also circulate drug alerts, medical letters and advisories to doctors. Pharmacovigilance feeds these decisions, which is why its data are collected centrally.",
+      "refs": [
         "KDT8 ch6"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pvpi",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-016",
-      "type": "basic",
-      "front": "How is an individual case safety report (ICSR) assessed?",
-      "back": "For quality of documentation; coding of drugs (WHO Drug Dictionary based on ATC) and reactions (WHO-ART, MedDRA); relevance (new drug, i.e. within 4 years of first approval, unknown reaction not in the product information, or serious reaction); duplicate reports; and causality.",
-      "refs": [
-        "Sarkar p91-95"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pvpi",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-017",
-      "type": "basic",
-      "front": "Which drugs does Sarkar list as banned in India following PvPI data?",
-      "back": "Rosiglitazone, sibutramine, rimonabant, nimesulide in children under 12, cisapride, lorcaserin, phenylpropanolamine, gatifloxacin and tegaserod.",
-      "refs": [
-        "Sarkar p91-95"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pvpi",
-      "tags": [
-        "adr"
-      ]
+      "status": "draft"
     },
     {
       "id": "p3-pv-economics-018",
@@ -387,7 +751,8 @@
       "subtopic": "p3-pv-economics-regulatory-action",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-pv-economics-019",
@@ -403,7 +768,8 @@
       "subtopic": "p3-pv-economics-regulatory-action",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-pv-economics-020",
@@ -418,7 +784,127 @@
       "subtopic": "p3-pv-economics-regulatory-action",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-pv-economics-052",
+      "type": "shortnote",
+      "front": "Short note: Post-marketing surveillance (PMS)",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Active surveillance of a drug after approval, under the conditions and population approved in the label",
+            "Often called phase IV by some authors, but not the same thing; it is an observational or non-interventional study"
+          ]
+        },
+        {
+          "h": "Why needed",
+          "points": [
+            "Pre-approval trials use selected, homogeneous patients for a limited time",
+            "Rare or late adverse effects appear only after wide use, so pharmacovigilance detects signals early"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "Prescription-event monitoring (UK model, cohorts of at least 10,000 patients)",
+            "Drug utilisation studies, case-control studies of ADRs, observational registries, adverse drug monitoring"
+          ]
+        },
+        {
+          "h": "Regulatory duties",
+          "points": [
+            "PMS is mandatory for the marketing authorisation holder",
+            "Periodic safety update report (PSUR): every 6 months for the first 2 years, then yearly for the next 2 years",
+            "Drugs can be withdrawn or restricted if safety signals appear"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p221-225",
+        "Sarkar p86-90",
+        "Sarkar p91-95"
+      ],
+      "pyq": [
+        {
+          "university": "KNRUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "adr"
+      ],
+      "subtopic": "p3-pv-economics-regulatory-action",
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-pv-economics-050",
+      "type": "shortnote",
+      "front": "Short note: Risk-benefit evaluation of a medical product",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Benefit-risk ratio: expected benefit weighed against harm",
+            "Harm: adverse effects, cost and inconvenience",
+            "Benefit: symptom relief, cure, fewer complications or deaths, better quality of life",
+            "Use the product only when benefit outweighs risk"
+          ]
+        },
+        {
+          "h": "Limits of the judgement",
+          "points": [
+            "Risk is a probability of harm, so the ratio cannot be measured exactly for each patient",
+            "Harm varies in nature, size and timing, from transient to lifelong",
+            "Therapeutic index is only a rough measure of safety margin"
+          ]
+        },
+        {
+          "h": "Before marketing",
+          "points": [
+            "A clinical trial may begin only with a favourable risk-benefit ratio",
+            "Pre-marketing trials are often too small and too short to reveal rarer or later harms"
+          ]
+        },
+        {
+          "h": "After marketing",
+          "points": [
+            "Risk-benefit is reassessed continuously as adverse effects emerge",
+            "Tools: ADR reporting, label warnings, REMS and post-approval studies",
+            "Pioglitazone: bladder-cancer risk kept it off India's 2015 essential drug list",
+            "Same logic applies to medical devices under India's materiovigilance programme"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch4",
+        "GG14 ch1",
+        "GG14 ch8",
+        "Sarkar p61-65",
+        "Sarkar p101-105"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        },
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "tags": [
+        "adr"
+      ],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-regulatory-action",
+      "level": 3
     },
     {
       "id": "p3-pv-economics-021",
@@ -434,7 +920,8 @@
       "subtopic": "p3-pv-economics-pharmacoeconomics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-pv-economics-022",
@@ -449,7 +936,203 @@
       "subtopic": "p3-pv-economics-pharmacoeconomics",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-025",
+      "type": "basic",
+      "front": "When is cost-minimisation analysis appropriate?",
+      "back": "Only when two or more options are already proven equivalent in efficacy and safety (e.g. two equally effective antiulcer drugs, generics, me-too drugs or alternative regimens of one drug). Costs then compared should include acquisition, preparation, administration and storage. If equivalence is unproven, use cost-effectiveness analysis.",
+      "refs": [
+        "Sarkar p81-85"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-027",
+      "type": "basic",
+      "front": "List applications of pharmacoeconomics.",
+      "back": "Framing medication policy and formularies, selecting essential medicines and devices, allocating limited resources, guiding individual prescribing, reimbursement decisions by insurers and government, and prescription audit to cut cost burden and polypharmacy. Example: the large price gap between bevacizumab and ranibizumab for macular degeneration with similar outcomes.",
+      "refs": [
+        "Sarkar p81-85",
+        "Sarkar p506-510",
+        "GG14 ch74"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-039",
+      "type": "basic",
+      "front": "What is a DALY?",
+      "back": "One lost year of 'healthy' life; the unit counts early death and living with illness together.",
+      "refs": [
+        "WEB WHO Disability-adjusted life year (DALY) metadata registry https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-040",
+      "type": "basic",
+      "front": "How is a DALY built up?",
+      "back": "DALY = years of life lost (YLL) + years lived with disability (YLD).",
+      "refs": [
+        "WEB WHO Disability-adjusted life year (DALY) metadata registry https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-041",
+      "type": "basic",
+      "front": "What does YLL measure?",
+      "back": "Years lost to premature death in the population.",
+      "refs": [
+        "WEB WHO Disability-adjusted life year (DALY) metadata registry https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-042",
+      "type": "basic",
+      "front": "What does YLD measure?",
+      "back": "Years lost to disability in people living with a condition or its consequences.",
+      "refs": [
+        "WEB WHO Disability-adjusted life year (DALY) metadata registry https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-043",
+      "type": "basic",
+      "front": "What does a cost-of-illness study estimate?",
+      "back": "The economic burden of a condition, expressed as direct and indirect costs.",
+      "refs": [
+        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043",
+        "WEB EuropePMC Estimating direct and indirect costs of hospitalised typhoid fever in Indonesia: A multisite healthcare facility and community survey PLoS One 2026 https://europepmc.org/article/PMC/PMC13704798"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-044",
+      "type": "basic",
+      "front": "Name the two direct cost types in the Indonesian typhoid cost-of-illness study.",
+      "back": "Direct medical costs and direct non-medical costs.",
+      "refs": [
+        "WEB EuropePMC Estimating direct and indirect costs of hospitalised typhoid fever in Indonesia: A multisite healthcare facility and community survey PLoS One 2026 https://europepmc.org/article/PMC/PMC13704798"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-045",
+      "type": "basic",
+      "front": "Which cost category covers productivity losses?",
+      "back": "Indirect costs.",
+      "refs": [
+        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-046",
+      "type": "basic",
+      "front": "Which costing approach did the Indonesian typhoid study use?",
+      "back": "Incidence-based, patient-level bottom-up costing, using retrospective and prospective records.",
+      "refs": [
+        "WEB EuropePMC Estimating direct and indirect costs of hospitalised typhoid fever in Indonesia: A multisite healthcare facility and community survey PLoS One 2026 https://europepmc.org/article/PMC/PMC13704798"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-047",
+      "type": "basic",
+      "front": "Why may cost-of-illness estimates be too low?",
+      "back": "Cost definitions are inconsistent, and components such as informal care and long-term impairment are often left out.",
+      "refs": [
+        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-048",
+      "type": "basic",
+      "front": "Whose productivity losses are counted in BPD cost evidence?",
+      "back": "Those of individuals with the condition and of their family members.",
+      "refs": [
+        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     },
     {
       "id": "p3-pv-economics-023",
@@ -490,7 +1173,8 @@
       "subtopic": "p3-pv-economics-pharmacoeconomics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-pv-economics-024",
@@ -547,22 +1231,8 @@
       "subtopic": "p3-pv-economics-pharmacoeconomics",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-025",
-      "type": "basic",
-      "front": "When is cost-minimisation analysis appropriate?",
-      "back": "Only when two or more options are already proven equivalent in efficacy and safety (e.g. two equally effective antiulcer drugs, generics, me-too drugs or alternative regimens of one drug). Costs then compared should include acquisition, preparation, administration and storage. If equivalence is unproven, use cost-effectiveness analysis.",
-      "refs": [
-        "Sarkar p81-85"
       ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
+      "level": 2
     },
     {
       "id": "p3-pv-economics-026",
@@ -578,24 +1248,47 @@
       "subtopic": "p3-pv-economics-pharmacoeconomics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
-      "id": "p3-pv-economics-027",
-      "type": "basic",
-      "front": "List applications of pharmacoeconomics.",
-      "back": "Framing medication policy and formularies, selecting essential medicines and devices, allocating limited resources, guiding individual prescribing, reimbursement decisions by insurers and government, and prescription audit to cut cost burden and polypharmacy. Example: the large price gap between bevacizumab and ranibizumab for macular degeneration with similar outcomes.",
+      "id": "p3-pv-economics-049",
+      "type": "shortnote",
+      "front": "Short note: direct and indirect costs in cost-of-illness",
+      "sections": [
+        {
+          "h": "Direct costs",
+          "points": [
+            "Direct medical costs",
+            "Direct non-medical costs, recorded per patient"
+          ]
+        },
+        {
+          "h": "Indirect costs",
+          "points": [
+            "Productivity losses of patients and family members",
+            "Functional impairment generates indirect costs"
+          ]
+        },
+        {
+          "h": "Pitfalls",
+          "points": [
+            "Inconsistent cost definitions",
+            "Informal care and long-term impairment often omitted"
+          ]
+        }
+      ],
       "refs": [
-        "Sarkar p81-85",
-        "Sarkar p506-510",
-        "GG14 ch74"
+        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043",
+        "WEB EuropePMC Estimating direct and indirect costs of hospitalised typhoid fever in Indonesia: A multisite healthcare facility and community survey PLoS One 2026 https://europepmc.org/article/PMC/PMC13704798"
       ],
       "pyq": [],
       "status": "draft",
       "subtopic": "p3-pv-economics-pharmacoeconomics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-pv-economics-028",
@@ -687,7 +1380,8 @@
       "subtopic": "p3-pv-economics-pharmacoeconomics",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "p3-pv-economics-029",
@@ -709,7 +1403,40 @@
       "subtopic": "p3-pv-economics-pharmacoepi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-035",
+      "type": "basic",
+      "front": "What does a drug utilisation study investigate?",
+      "back": "Why and how drugs are prescribed, delivered, consumed and self-medicated, together with the non-clinical factors that drive drug use. Social pharmacology studies these reasons; clinical pharmacologists also run drug utilisation studies at tertiary care centres.",
+      "refs": [
+        "Sarkar p506-510"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoepi",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-pv-economics-037",
+      "type": "basic",
+      "front": "Which study designs does Sarkar list for observing drug safety after marketing?",
+      "back": "Non-interventional (observational) studies, post-marketing surveillance, adverse drug monitoring, case-control studies of ADRs, drug utilisation studies and observational registries.",
+      "refs": [
+        "Sarkar p221-225"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-pv-economics-pharmacoepi",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
     },
     {
       "id": "p3-pv-economics-030",
@@ -752,7 +1479,8 @@
       "subtopic": "p3-pv-economics-pharmacoepi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-pv-economics-031",
@@ -767,7 +1495,8 @@
       "subtopic": "p3-pv-economics-pharmacoepi",
       "tags": [
         "adr"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-pv-economics-032",
@@ -782,513 +1511,8 @@
       "subtopic": "p3-pv-economics-pharmacoepi",
       "tags": [
         "adr"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-033",
-      "type": "essay",
-      "front": "Essay: Pharmacovigilance: need, methods and the programme in India",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "WHO 2002 definition; signal, ADR, adverse event"
-          ]
-        },
-        {
-          "h": "Need",
-          "points": [
-            "Limits of premarketing trials: size, duration, populations, comparators, surrogates",
-            "History: sulfanilamide elixir, thalidomide, rofecoxib"
-          ]
-        },
-        {
-          "h": "Methods",
-          "points": [
-            "Spontaneous reporting",
-            "PEM, record linkage, cohort and case-control studies, Sentinel",
-            "Targeted investigations, postmarketing trials"
-          ]
-        },
-        {
-          "h": "Assessment",
-          "points": [
-            "Causality (Naranjo), severity (Hartwig), ICSR quality and coding"
-          ]
-        },
-        {
-          "h": "Regulatory action",
-          "points": [
-            "Label changes, boxed warnings, safety communications, REMS, withdrawal"
-          ]
-        },
-        {
-          "h": "India",
-          "points": [
-            "PvPI 2010; NCC at IPC Ghaziabad; AMCs, VigiFlow, link with Uppsala Monitoring Centre"
-          ]
-        },
-        {
-          "h": "Challenges",
-          "points": [
-            "Under-reporting, data access, signal refinement, pharmacogenetics"
-          ]
-        }
       ],
-      "refs": [
-        "GG14 ch8",
-        "KDT8 ch6",
-        "Sarkar p86-90",
-        "Sarkar p91-95"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pvpi",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-034",
-      "type": "basic",
-      "front": "How are drug names and adverse events coded when an ICSR is assessed?",
-      "back": "Drug names are registered in the WHO Drug Dictionary, which is based on the ATC classification. Adverse events are coded with WHO-ART or MedDRA.",
-      "refs": [
-        "Sarkar p91-95"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pvpi",
-      "tags": [
-        "adr",
-        "classification"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-035",
-      "type": "basic",
-      "front": "What does a drug utilisation study investigate?",
-      "back": "Why and how drugs are prescribed, delivered, consumed and self-medicated, together with the non-clinical factors that drive drug use. Clinical pharmacologists at tertiary care centres conduct these studies.",
-      "refs": [
-        "Sarkar p506-510"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoepi",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-036",
-      "type": "basic",
-      "front": "How often must a periodic safety update report (PSUR) be filed during post-marketing surveillance of a new drug?",
-      "back": "Every 6 months for the first 2 years, then yearly for the next 2 years. Post-marketing surveillance itself is mandatory.",
-      "refs": [
-        "Sarkar p221-225"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-regulatory-action",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-037",
-      "type": "basic",
-      "front": "Which study designs does Sarkar list for observing drug safety after marketing?",
-      "back": "Non-interventional (observational) studies, post-marketing surveillance, adverse drug monitoring, case-control studies of ADRs, drug utilisation studies and observational registries.",
-      "refs": [
-        "Sarkar p221-225"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoepi",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-038",
-      "type": "basic",
-      "front": "For a similar biologic, when can safety and efficacy trials be waived under the Indian guideline?",
-      "back": "Only when all of these hold: quality is comparable (physicochemical and in vitro); preclinical evaluation is comparable; clinical PK-PD, including PD markers and immunogenicity, is comparable; and a post-marketing risk management plan is provided. The waiver is not allowed if any one criterion is missing.",
-      "refs": [
-        "Sarkar p541-545"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-regulatory-action",
-      "tags": [
-        "newer-drugs"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-039",
-      "type": "basic",
-      "front": "What is a DALY?",
-      "back": "One lost year of 'healthy' life; the unit counts early death and living with illness together.",
-      "refs": [
-        "WEB WHO Disability-adjusted life year (DALY) metadata registry https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-040",
-      "type": "basic",
-      "front": "How is a DALY built up?",
-      "back": "DALY = years of life lost (YLL) + years lived with disability (YLD).",
-      "refs": [
-        "WEB WHO Disability-adjusted life year (DALY) metadata registry https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-041",
-      "type": "basic",
-      "front": "What does YLL measure?",
-      "back": "Years lost to premature death in the population.",
-      "refs": [
-        "WEB WHO Disability-adjusted life year (DALY) metadata registry https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-042",
-      "type": "basic",
-      "front": "What does YLD measure?",
-      "back": "Years lost to disability in people living with a condition or its consequences.",
-      "refs": [
-        "WEB WHO Disability-adjusted life year (DALY) metadata registry https://www.who.int/data/gho/indicator-metadata-registry/imr-details/disability-adjusted-life-year-(daly)-estimates-for-0-4-year-olds"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-043",
-      "type": "basic",
-      "front": "What does a cost-of-illness study estimate?",
-      "back": "The economic burden of a condition, expressed as direct and indirect costs.",
-      "refs": [
-        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043",
-        "WEB EuropePMC Estimating direct and indirect costs of hospitalised typhoid fever in Indonesia: A multisite healthcare facility and community survey PLoS One 2026 https://europepmc.org/article/PMC/PMC13704798"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-044",
-      "type": "basic",
-      "front": "Name the two direct cost types in the Indonesian typhoid cost-of-illness study.",
-      "back": "Direct medical costs and direct non-medical costs.",
-      "refs": [
-        "WEB EuropePMC Estimating direct and indirect costs of hospitalised typhoid fever in Indonesia: A multisite healthcare facility and community survey PLoS One 2026 https://europepmc.org/article/PMC/PMC13704798"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-045",
-      "type": "basic",
-      "front": "Which cost category covers productivity losses?",
-      "back": "Indirect costs.",
-      "refs": [
-        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-046",
-      "type": "basic",
-      "front": "Which costing approach did the Indonesian typhoid study use?",
-      "back": "Incidence-based, patient-level bottom-up costing, using retrospective and prospective records.",
-      "refs": [
-        "WEB EuropePMC Estimating direct and indirect costs of hospitalised typhoid fever in Indonesia: A multisite healthcare facility and community survey PLoS One 2026 https://europepmc.org/article/PMC/PMC13704798"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-047",
-      "type": "basic",
-      "front": "Why may cost-of-illness estimates be too low?",
-      "back": "Cost definitions are inconsistent, and components such as informal care and long-term impairment are often left out.",
-      "refs": [
-        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-048",
-      "type": "basic",
-      "front": "Whose productivity losses are counted in BPD cost evidence?",
-      "back": "Those of individuals with the condition and of their family members.",
-      "refs": [
-        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-049",
-      "type": "shortnote",
-      "front": "Short note: direct and indirect costs in cost-of-illness",
-      "sections": [
-        {
-          "h": "Direct costs",
-          "points": [
-            "Direct medical costs",
-            "Direct non-medical costs, recorded per patient"
-          ]
-        },
-        {
-          "h": "Indirect costs",
-          "points": [
-            "Productivity losses of patients and family members",
-            "Functional impairment generates indirect costs"
-          ]
-        },
-        {
-          "h": "Pitfalls",
-          "points": [
-            "Inconsistent cost definitions",
-            "Informal care and long-term impairment often omitted"
-          ]
-        }
-      ],
-      "refs": [
-        "WEB EuropePMC The economic burden of Borderline Personality Disorder: direct and indirect costs, and evidence from evaluations of interventions Front Psychiatry 2026 https://europepmc.org/article/PMC/PMC13662043",
-        "WEB EuropePMC Estimating direct and indirect costs of hospitalised typhoid fever in Indonesia: A multisite healthcare facility and community survey PLoS One 2026 https://europepmc.org/article/PMC/PMC13704798"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-pharmacoeconomics",
-      "tags": [
-        "uses"
-      ]
-    },
-    {
-      "id": "p3-pv-economics-050",
-      "type": "shortnote",
-      "front": "Short note: Risk-benefit evaluation of a medical product",
-      "sections": [
-        {
-          "h": "Principle",
-          "points": [
-            "Benefit-risk ratio: expected benefit weighed against harm",
-            "Harm: adverse effects, cost and inconvenience",
-            "Benefit: symptom relief, cure, fewer complications or deaths, better quality of life",
-            "Use the product only when benefit outweighs risk"
-          ]
-        },
-        {
-          "h": "Limits of the judgement",
-          "points": [
-            "Risk is a probability of harm, so the ratio cannot be measured exactly for each patient",
-            "Harm varies in nature, size and timing, from transient to lifelong",
-            "Therapeutic index is only a rough measure of safety margin"
-          ]
-        },
-        {
-          "h": "Before marketing",
-          "points": [
-            "A clinical trial may begin only with a favourable risk-benefit ratio",
-            "Pre-marketing trials are often too small and too short to reveal rarer or later harms"
-          ]
-        },
-        {
-          "h": "After marketing",
-          "points": [
-            "Risk-benefit is reassessed continuously as adverse effects emerge",
-            "Tools: ADR reporting, label warnings, REMS and post-approval studies",
-            "Pioglitazone: bladder-cancer risk kept it off India's 2015 essential drug list",
-            "Same logic applies to medical devices under India's materiovigilance programme"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch4",
-        "GG14 ch1",
-        "GG14 ch8",
-        "Sarkar p61-65",
-        "Sarkar p101-105"
-      ],
-      "pyq": [
-        {
-          "university": "WBUHS",
-          "year": 2020,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "adr"
-      ],
-      "status": "draft",
-      "subtopic": "p3-pv-economics-regulatory-action"
-    },
-    {
-      "id": "p3-pv-economics-051",
-      "type": "shortnote",
-      "front": "Short note: Materiovigilance Programme of India",
-      "sections": [
-        {
-          "h": "Why it started",
-          "points": [
-            "Set up after serious device failures in Indian hospitals, such as incubator and phototherapy-unit fires and power-related deaths",
-            "Approved by the Ministry of Health and Family Welfare to make medical devices safer"
-          ]
-        },
-        {
-          "h": "Purpose",
-          "points": [
-            "Monitor adverse events of medical devices after they reach the market",
-            "Collect and analyse data systematically to guide evidence-based regulatory decisions",
-            "Monitor the benefit-risk profile and create awareness of adverse-event reporting among health professionals"
-          ]
-        },
-        {
-          "h": "Structure",
-          "points": [
-            "Launched in 2015 by the DCGI",
-            "National Coordination Centre: Indian Pharmacopoeia Commission",
-            "National Collaborating Centre: SCTIMST, Thiruvananthapuram",
-            "CDSCO as national regulator; NHSRC as technical partner"
-          ]
-        },
-        {
-          "h": "Devices",
-          "points": [
-            "Classes I (low risk), II (medium) and III (high); Class I self-certified by the manufacturer",
-            "Scope covers death, serious deterioration, serious injury and disability linked to devices"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p96-100",
-        "Sarkar p101-105"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "adr"
-      ],
-      "subtopic": "p3-pv-economics-pvpi",
-      "status": "draft"
-    },
-    {
-      "id": "p3-pv-economics-052",
-      "type": "shortnote",
-      "front": "Short note: Post-marketing surveillance (PMS)",
-      "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Active surveillance of a drug after approval, under the conditions and population approved in the label",
-            "Often called phase IV by some authors, but not the same thing; it is an observational or non-interventional study"
-          ]
-        },
-        {
-          "h": "Why needed",
-          "points": [
-            "Pre-approval trials use selected, homogeneous patients for a limited time",
-            "Rare or late adverse effects appear only after wide use, so pharmacovigilance detects signals early"
-          ]
-        },
-        {
-          "h": "Methods",
-          "points": [
-            "Prescription-event monitoring (UK model, cohorts of at least 10,000 patients)",
-            "Drug utilisation studies, case-control studies of ADRs, observational registries, adverse drug monitoring"
-          ]
-        },
-        {
-          "h": "Regulatory duties",
-          "points": [
-            "PMS is mandatory for the marketing authorisation holder",
-            "Periodic safety update report (PSUR): every 6 months for the first 2 years, then yearly for the next 2 years",
-            "Drugs can be withdrawn or restricted if safety signals appear"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p221-225",
-        "Sarkar p86-90",
-        "Sarkar p91-95"
-      ],
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "tags": [
-        "adr"
-      ],
-      "subtopic": "p3-pv-economics-regulatory-action",
-      "status": "draft"
+      "level": 2
     },
     {
       "id": "p3-pv-economics-053",
@@ -1370,7 +1594,391 @@
       "subtopic": "p3-pv-economics-pharmacoepi",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-pv-economics-059",
+      "type": "essay",
+      "subtopic": "p3-pv-economics-pharmacoepi",
+      "level": 3,
+      "tags": [
+        "mechanism"
+      ],
+      "front": "Essay: Observational studies versus randomised trials for drug safety, with examples",
+      "pyq": [],
+      "sections": [
+        {
+          "h": "Observational (real-world data)",
+          "points": [
+            "Claims and health records: large, diverse, long-term, quick and cheap; can study rare and long-term effects",
+            "Weak: coding errors, missing detail, confounding (healthy-user effect)"
+          ]
+        },
+        {
+          "h": "Cautionary example",
+          "points": [
+            "HRT looked cardioprotective in observational data; Women's Health Initiative RCT showed no benefit and more breast cancer"
+          ]
+        },
+        {
+          "h": "Newer approaches",
+          "points": [
+            "Mendelian randomisation uses fixed genetic variants that mimic a drug (statin diabetes risk)",
+            "Pragmatic trials: large, simple, near usual care, but poor adherence blurs results (ADAPTABLE)"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "Use observational data to generate and refine signals; confirm with randomised or genetic designs where possible"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch8",
+        "RangDale9 ch1"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-060",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-pv-economics-pv-methods",
+      "tags": [
+        "adr"
+      ],
+      "front": "Which signal method needs no drug-use denominator?",
+      "back": "A quantitative signal-detection method. It relies only on the spontaneous adverse-event database and does not need the true volume of drug use (the denominator).",
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-061",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p3-pv-economics-pv-methods",
+      "tags": [
+        "adr"
+      ],
+      "front": "Short note: Artificial intelligence in pharmacovigilance",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Machine learning and natural language processing applied to large volumes of patient and report data",
+            "Aim: find possible safety signals faster than manual review"
+          ]
+        },
+        {
+          "h": "Where it helps",
+          "points": [
+            "Signal detection within spontaneous-report databases",
+            "Sentinel plans to add signal detection and AI to its observational work"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Signal methods rest on assumptions that are hard to verify",
+            "Real-world data carry unmeasured confounding; a signal is not proof of causality"
+          ]
+        },
+        {
+          "h": "Role of the assessor",
+          "points": [
+            "Signals nearly always need further evaluation before a causal conclusion or regulatory action"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 ch8"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "marks": 10,
+          "year": 0
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-062",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "front": "What is AEFI and how does Sarkar group AEFIs?",
+      "back": "Adverse event following immunisation. Sarkar groups them into five categories: vaccine product-related reaction, vaccine quality defect-related reaction, immunisation error-related reaction, immunisation anxiety-related reaction and coincidental event.",
+      "refs": [
+        "Sarkar p106-110"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-063",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "front": "Give one example of an immunisation error-related AEFI.",
+      "back": "Transmission of infection from a contaminated multidose vial. It is preventable, because the cause is poor handling, prescribing or administration.",
+      "refs": [
+        "Sarkar p106-110"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-064",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "front": "When is an AEFI classed as serious?",
+      "back": "When it causes death, needs hospitalisation, leaves persistent or significant disability or incapacity, or occurs as a cluster of two or more cases in one area.",
+      "refs": [
+        "Sarkar p106-110"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-065",
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "front": "Short note: Vaccine vigilance (AEFI surveillance) in India",
+      "sections": [
+        {
+          "h": "Why",
+          "points": [
+            "Most of the paediatric population is immunised, so safety monitoring matters",
+            "AEFI surveillance began with the Universal Immunisation Programme in 1985"
+          ]
+        },
+        {
+          "h": "Classification",
+          "points": [
+            "Five causal categories (product, quality defect, programme error, anxiety, coincidental)",
+            "Severity: common minor, severe, or serious (death, hospitalisation, disability, cluster)"
+          ]
+        },
+        {
+          "h": "Reporting",
+          "points": [
+            "Serious or severe AEFI: Case Reporting Format from the medical officer to the District Immunisation Officer within 24 hours",
+            "District verifies and sends the case to state and national levels; monthly reports cover minor AEFIs and a nil report is filed if none"
+          ]
+        },
+        {
+          "h": "Investigation",
+          "points": [
+            "Unexplained deaths after immunisation need causality assessment and a verbal autopsy form",
+            "Separates vaccine-related deaths from deaths due to other causes"
+          ]
+        },
+        {
+          "h": "Challenges",
+          "points": [
+            "Concomitant vaccines make causal attribution hard",
+            "Limited awareness of AEFI reporting among providers"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p106-110",
+        "Sarkar p176-180"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-066",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "front": "Define haemovigilance.",
+      "back": "A set of surveillance procedures covering the whole transfusion chain, from blood collection to follow-up of recipients. It collects information on undesirable effects of labile blood products and aims to prevent their recurrence.",
+      "refs": [
+        "Sarkar p96-100"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-067",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "front": "What is the goal of haemovigilance?",
+      "back": "Continuous quality improvement of the transfusion chain through corrective and preventive action. It aims at donor and patient safety, appropriate transfusion and less wastage.",
+      "refs": [
+        "Sarkar p96-100"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-068",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "front": "What two scores grade a haemovigilance reaction?",
+      "back": "Severity (0 no sign to 4 death of the patient) and imputability (0 no relationship to 3 sure clinical and biological symptoms).",
+      "refs": [
+        "Sarkar p96-100"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-069",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p3-pv-economics-pvpi",
+      "tags": [
+        "adr"
+      ],
+      "front": "Short note: Haemovigilance and materiovigilance",
+      "sections": [
+        {
+          "h": "Haemovigilance",
+          "points": [
+            "Covers the transfusion chain; reports transfusion reactions, not only drug reactions",
+            "Immediate reactions: haemolysis, febrile non-haemolytic reaction, allergy, TRALI",
+            "Delayed reactions: haemolysis, GvHD, post-transfusion purpura, infection transmission, alloimmunisation, wrong component"
+          ]
+        },
+        {
+          "h": "India (HvPI)",
+          "points": [
+            "Launched 10 December 2012 by the Indian Pharmacopoeia Commission with NIB, Noida as coordinating centre",
+            "Reports on the Transfusion Reaction Reporting Form, graded for severity and imputability"
+          ]
+        },
+        {
+          "h": "Materiovigilance (MvPI)",
+          "points": [
+            "Monitors medical device-associated adverse events, such as death, serious injury or disability",
+            "Launched by DCGI on 6 July 2015; IPC is the national coordination centre; SCTIMST is the collaborating centre; CDSCO is the regulator"
+          ]
+        },
+        {
+          "h": "Common ground",
+          "points": [
+            "Both are quality-improvement and regulatory surveillance systems that feed CDSCO decisions"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p96-100",
+        "Sarkar p101-105"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "marks": 10,
+          "year": 0
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-070",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "front": "Write the benefit-cost ratio formula and its decision rule.",
+      "back": "BCR = present value of benefits divided by present value of costs. A ratio above 1 means the programme's benefits outweigh its costs.",
+      "refs": [
+        "Sarkar p81-85"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p3-pv-economics-071",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p3-pv-economics-pharmacoeconomics",
+      "tags": [
+        "uses"
+      ],
+      "front": "Short note: Economic evaluation of pharmacovigilance",
+      "sections": [
+        {
+          "h": "Concept",
+          "points": [
+            "Pharmacoeconomics applies economic methods to drug use: cost-benefit, cost-effectiveness, cost-minimisation, cost-of-illness and cost-utility analysis"
+          ]
+        },
+        {
+          "h": "Fit with a PV programme",
+          "points": [
+            "A surveillance programme is a programme whose costs and benefits can be weighed in money terms",
+            "Benefits are the costs avoided, such as treatment costs prevented by catching harm early"
+          ]
+        },
+        {
+          "h": "Methods",
+          "points": [
+            "CBA: BCR above 1 means the programme is of value",
+            "CEA: ACER or ICER, cost per unit of clinical outcome",
+            "CUA: outcome in QALYs; cost-of-illness: direct and indirect costs"
+          ]
+        },
+        {
+          "h": "Caution",
+          "points": [
+            "Benefit-cost results depend on the money values assigned to benefits, so they need care when interpreting"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p81-85"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
     }
   ]
 }

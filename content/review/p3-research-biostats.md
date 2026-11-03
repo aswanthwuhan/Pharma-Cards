@@ -164,3 +164,107 @@ Gap from SOURCE-GAPS.md: Sample-size formulas (two means, two proportions, singl
 "Q bank" entries (no year) are not tagged. Format: id → question → source.
 
 - p3-research-biostats-023 → Chi-square test (7 entries) → Sarkar p381-385 (existing card, pyq tags added)
+
+## Difficulty ladder pass
+All 74 existing cards: level set, reordered (ids unchanged).
+- p3-research-biostats-075 | new | Sarkar p366-370; RangDale9 ch8
+- p3-research-biostats-076 | new | WEB StatPearls NBK557491
+
+## Checker (independent pass)
+
+Scope: 20+ writer cards spot-checked against the owner's books (Sarkar OCR, Rang & Dale 9e, Bennett & Brown, Ghosh, Medhi, KDT8 and allowed PDFs via search.py).
+
+Verified OK: 001-007 (scales, central tendency, SD/n-1, SD vs SEM), 008-011 (prevalence, incidence, OR, RR), 012 (OR approximates RR below 10%), 014-016, 019-022, 026, 031 (CONSORT 2010 / first 1996 / 25 items; PRISMA 27; STROBE), 042, 043 (Rang & Dale: 850 subjects, 50% to 40%, p<0.05, power 0.9), 068.
+
+Corrected:
+- p3-research-biostats-013 (NNT): back rewritten to the definition from Bennett PDF p68. Invented example (50% to 25%, NNT 4) removed; refs changed from RangDale9 ch8 to Bennett PDF p68.
+
+Deleted (ungrounded: sourced only to StatPearls, which is outside the web exception in GROUNDING-RULES.md; no owner book found covering sensitivity, specificity, predictive values, likelihood ratios or Pearson r):
+- p3-research-biostats-048, 049, 050, 051 (sensitivity, specificity, PPV, NPV)
+- p3-research-biostats-052, 053, 054 (likelihood ratio formulas, prevalence effect, worked example)
+- p3-research-biostats-055, 056, 057 (Pearson r range, r=0, simple linear regression)
+- p3-research-biostats-076 (prevalence case vignette on predictive values)
+
+Ladder after deletions (each subtopic meets 3 L1 / 2 L2 / 1 L3): descriptive 5/3/1; epi-measures 4/2/1; inference 3/4/3; tests 5/5/1; evidence 3/6/2; protocol 6/10/1.
+
+Non-owner refs remaining (allowed, SOURCE-GAPS exception): 058-062 and 063-067 (sample size, EuropePMC F1000Res 2026; UNSOURCED Z values and formulas). Not re-verified against a book; owner to confirm.
+
+Gaps left open: sensitivity/specificity/PPV/NPV, likelihood ratios and Pearson correlation have no owner-book source found by search.py. Add back only after an owner book supports them.
+
+## Gap fill: PYQ entries 34, 60, 82, 137, 352, 355, 360, 393, 569, 573 (writer, 2026-11-03)
+
+Scope: 33 study cards (077-109) added; existing ids unchanged. Ladder per subtopic now L1/L2/L3: descriptive 6/6/2, epi-measures 4/2/1, inference 5/4/4, tests 5/5/1, evidence 8/7/6, protocol 11/17/4. PYQ tags added to 007 and 034 (UHSR 2025) as well as to every new card. Note: the 'Q bank' records in questions.json carry year 0; recorded as given.
+
+id | new | source
+- p3-research-biostats-077 | new | Ghosh FEP PDF p218; Sarkar p361-365 (Q137a)
+- p3-research-biostats-078 | new | Ghosh FEP PDF p218 (Q137a)
+- p3-research-biostats-079 | new | Sarkar p371-375; RangDale9 PDF p119 (Q82)
+- p3-research-biostats-080 | new | Sarkar p371-375; RangDale9 PDF p119 (Q82)
+- p3-research-biostats-081 | new | Sarkar p371-375; Sarkar p21-25; RangDale9 PDF p119 (Q82 essay)
+- p3-research-biostats-082 | new | Sarkar p356-360; Sarkar p361-365; Sarkar p81-85; Sarkar p206-210; Bennett PDF p76 (Q360 essay)
+- p3-research-biostats-083 | new | Sarkar p206-210; Sarkar p81-85 (Q360)
+- p3-research-biostats-084 | new | Bioequivalence & Statistics PDF p36 (Q34)
+- p3-research-biostats-085 | new | Bioequivalence & Statistics PDF p36 (Q34)
+- p3-research-biostats-086 | new | GG14 PDF p1527 (Q34)
+- p3-research-biostats-087 | new | Bioequivalence & Statistics PDF p36; GG14 PDF p1527; GG14 PDF p70; Medhi PMECP p119; Sarkar p146-150 (Q34 essay)
+- p3-research-biostats-088 | new | Ghosh FEP PDF p104, p106, p107, p109, p110 (Q34 10b)
+- p3-research-biostats-089 | new | Ghosh FEP PDF p216, p217 (Q34 9b)
+- p3-research-biostats-090 | new | Ghosh FEP PDF p107, p108 (Q34 10b)
+- p3-research-biostats-091 | new | Sarkar p196-200; Sarkar p156-160 (Q137b essay)
+- p3-research-biostats-092 | new | Sarkar p286-290; Sarkar p131-135 (Q137c)
+- p3-research-biostats-093 | new | Sarkar p386-390; Medhi PMECP p351 (Q60a)
+- p3-research-biostats-094 | new | Medhi PMECP p119; Sarkar p356-360 (Q60b)
+- p3-research-biostats-095 | new | Ghosh FEP PDF p218; RangDale9 PDF p119; Sarkar p206-210 (Q60c essay)
+- p3-research-biostats-096 | new | Medhi PMECP p352 (Q352)
+- p3-research-biostats-097 | new | Medhi PMECP p352; Medhi PMECP p353 (Q352 essay)
+- p3-research-biostats-098 | new | Sarkar p151-155 (Q355)
+- p3-research-biostats-099 | new | Sarkar p151-155; Bioequivalence & Statistics PDF p90 (Q355 essay)
+- p3-research-biostats-100 | new | Sarkar p196-200 (Q393a essay)
+- p3-research-biostats-101 | new | Sarkar p196-200 (Q393a)
+- p3-research-biostats-102 | new | KDT8 ch3 (Q393b)
+- p3-research-biostats-103 | new | KDT8 ch3 (Q393b)
+- p3-research-biostats-104 | new | Sarkar p21-25; RangDale9 PDF p119; Katzung16 PDF p30 (Q573a essay)
+- p3-research-biostats-105 | new | Sarkar p21-25; Bioequivalence & Statistics PDF p37; Medhi PMECP p119 (Q573b)
+- p3-research-biostats-106 | new | Sarkar p156-160; RangDale9 PDF p120 (Q573c)
+- p3-research-biostats-107 | new | Sarkar p156-160 (Q573c)
+- p3-research-biostats-108 | new | Sarkar p156-160 (Q573d)
+- p3-research-biostats-109 | new | RangDale9 PDF p119; Sarkar p21-25 (Q573a)
+- p3-research-biostats-007 | corrected pyq only | Sarkar p361-365; Ghosh FEP PDF p215 (Q34 9a tag added)
+- p3-research-biostats-034 | corrected pyq only | Sarkar p196-200 (Q137b tag added)
+
+No owner-book source (not written; list under noSource):
+- Q34 10a computer-assisted learning: advantages and limitations. Only NMC curriculum mentions CAL; no book text on advantages or limits.
+- Q137 d IPR 2005: no owner-book passage on this; only a WIPO mention in Sarkar p6-10 on traditional-knowledge IP.
+- Q569 H-index 2013: no owner-book passage on the h-index. Medhi impact factor pages do not cover it.
+
+## Checker (PYQ gap pass)
+- p3-research-biostats-084 | corrected ref | Bioequivalence & Statistics PDF p287 (biomarker definition); p36 did not contain it
+- p3-research-biostats-085 | deleted | surrogate vs biomarker: no owner-book passage found for the distinction
+- p3-research-biostats-086 | deleted | ideal biomarker properties: cited GG14 p1527 covers exposure biomarkers only; no source found
+- Spot-checked OK: 077 (Ghosh p218), 096 and 097 (Medhi p352-353), 100-101 (Sarkar p196-200), 102-103 (KDT8 p40-41), 107 (Sarkar p156-160)
+- Not checked: remaining study cards and all 78 rapid pairs (rf 0184-0261)
+- Not a Prep ref: the Prep hits in 092, 098, 099 are false positives for the word "prepares"
+- pyq entries with year 0 (9 cards, "Q bank") left as given; owner should supply years
+
+## Gap pass: past exam questions (writer run)
+Source list: content/pyq/questions.json, UHSR 2025 paper III (year and marks as stored there; the "2009" and "2005" written in the question text are not used).
+
+| Question part | Status | Cards / source |
+|---|---|---|
+| Adverse effect vs adverse event | new | 110 (KDT8 ch5; Sarkar p86-90) |
+| Precision vs accuracy | new | 111 (Medhi PMECP p153-154) |
+| Randomisation vs stratification | new | 112, 113 (RangDale9 ch8; KDT8 ch5) |
+| Biomarkers: definition, ideal characteristics, types, applications | already covered | 084, 087 |
+| Standard deviation vs standard error | already covered | 007, 072 |
+| Gaussian curve | already covered | 089 |
+| Experimental determination of types of antagonism | already covered | 088, 090 |
+| Coefficient of variance | already covered | 077, 078 |
+| Randomisation in drug research | already covered | 034, 091 |
+| In vitro toxicity testing | already covered | 092 |
+| Computer-assisted learning: advantages and limitations | noSource | NMC curriculum names CAL only; no owner-book text on advantages or limits |
+| IPR | noSource | no owner-book passage (same as Q137 above) |
+| H-index | noSource | no owner-book passage (same as Q569 above) |
+
+Notes: the new cards 110 and 113 are basic cards, not essays, because the question is a define-and-differentiate item. The Sarkar and KDT8 wording was paraphrased.
+
+Checker pass: card 110 back rewritten to the KDT8 ch5 and Sarkar p86-90 wording (ADR and adverse event only; the generic "adverse effect" line had no book source). Card 113 back trimmed so it does not claim more than KDT8 ch5 p102 states. Rapid rf-0265 question reworded to the Sarkar p86-90 ADR definition. Cards 110-113 and rf-0262 to rf-0266 re-checked against the owner PDFs and OCR.

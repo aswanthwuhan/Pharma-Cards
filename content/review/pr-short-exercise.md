@@ -163,3 +163,47 @@ Removed Prep/RR5 refs; re-grounded from owner PDFs. Corrections noted per row.
 pr-short-exercise-001 | corrected | Padmaja PDF p100, p101 | signa, refill and warning-label points removed (not in owner books)
 pr-short-exercise-011 | corrected | KDT8 ch5 (PDF p89) | FDC rationale and corticosteroid and antimicrobial rules per KDT8; unverified dose and half-life points removed
 pr-short-exercise-033 | corrected | Medhi PMECP PDF p72, p80, p89; KDT8 ch4; Katzung16 PDF p39 | potentiation point removed (not in owner books)
+
+## Difficulty ladder pass
+All existing cards given a level (ok). New:
+pr-short-exercise-047 | new | KDT8 ch5
+pr-short-exercise-048 | new | Sarkar p376-380, UNSOURCED - owner must verify
+pr-short-exercise-049 | new | KDT8 ch71
+pr-short-exercise-050 | new | KDT8 ch71, UNSOURCED - owner must verify
+pr-short-exercise-051 | new | KDT8 ch4, UNSOURCED - owner must verify
+
+## Checker
+Independent check of the writer's edit. 25 cards verified against the owner's PDFs and OCR (KDT8 ch2/3/5/71, Sarkar OCR, Pickar, Medhi, NMC curriculum).
+
+id | result | source / note
+--- | --- | ---
+pr-short-exercise-012 | ok | Sarkar p246-250 (Schedule Y groups 1-4)
+pr-short-exercise-013 | ok | KDT8 PDF p89 (corticosteroids; banned combos Appendix 4)
+pr-short-exercise-017 | ok | KDT8 PDF p57 (4-5 half-lives)
+pr-short-exercise-020 | corrected | Removed theophylline, tolbutamide, warfarin from zero-order list; only phenytoin is printed (KDT8 PDF p56)
+pr-short-exercise-021 | corrected | Removed unverified "age formulae no longer used" and "BSA mainly anticancer"; kept BW/70 and children/obese rule (KDT8 PDF p90)
+pr-short-exercise-026 | corrected | NNT not found in RangDale9 ch8 or Sarkar OCR; refs set to UNSOURCED - owner must verify
+pr-short-exercise-029 | ok | KDT8 PDF p999 (ch71 drug types)
+pr-short-exercise-031 | corrected | Removed "2 to 3 hours apart" (no book figure); mechanism and antacid/iron listing ok (KDT8 ch71)
+pr-short-exercise-034 | corrected | Removed WEB refs (not a SOURCE-GAPS item); back now rests on NMC curriculum (simulation/amphibian/dog-cat text) and Medhi p56 (3Rs); rest UNSOURCED
+pr-short-exercise-035 | ok | NMC curriculum (critical flicker fusion in human volunteers); Medhi PMECP PDF p309
+pr-short-exercise-036 | ok | Medhi PMECP PDF p56 (4th R = Rehabilitation); ref label fixed
+pr-short-exercise-037 | ok | Medhi PMECP PDF p56 (IAEC, CPCSEA)
+pr-short-exercise-043 | ok | Pickar PDF p2 (F = 1.8C + 32)
+pr-short-exercise-045 | ok | Pickar PDF p37 (10-15 mg/kg q4h, max 5 doses/day)
+pr-short-exercise-046 | corrected | Removed question-stem wording; label range 20-40 mg/kg/day q8h (Pickar PDF p393; Katzung16 PDF p854)
+pr-short-exercise-050 | ok | KDT8 ch71 (NSAIDs and oral anticoagulants highly bound); bleeding mechanism remains UNSOURCED
+pr-short-exercise-018 | ok | arithmetic re-checked: V 84 L, CL 4.8 L/h, loading 720 mg, maintenance about 41 mg/h (987 mg/day); KDT8 ch3 formulae
+pr-short-exercise-025 | ok | Sarkar OCR p366-370 (odds ratio); OR = 25 re-computed
+pr-short-exercise-027 | ok | Sarkar OCR p361-365 (SEM)
+pr-short-exercise-033 | ok | Medhi PMECP PDF p72/80/89 cited; not re-read in full
+pr-short-exercise-040 | not re-verified | Pickar three-step list; PDF p10 not checked
+pr-short-exercise-041/042 | ok | Pickar PDF p2 (drip rate formula and shortcut)
+pr-short-exercise-048 | ok | Sarkar OCR p376-380 (significance); still marked UNSOURCED
+pr-short-exercise-051 | not re-verified | DRC shift interpretation; KDT8 ch4 not re-read
+
+Refs label fix: all "NMC MD Pharmacology 2022 curriculum (practical exam)" renamed to "NMC MD Pharmacology revised curriculum" (file is Curriculum-related documents/MD-in-Pharmacology-(revised).pdf). "Medhi Practical Manual PDF p56 (printed 40)" renamed "Medhi PMECP PDF p56".
+
+Forbidden-source grep (Prep / RR5 / RapidRev) in both deck files: no matches.
+Ladder check: every subtopic has at least 3 L1, 2 L2, 1 L3 (prescription 5/2/1, fdc 3/2/1, pk-calc 11/5/1, stats 3/2/1, interactions 3/2/1, tracing-cal 4/2/1).
+Gaps not added this pass: no new cards (budget). Open gaps: Schedule Y and NNT beyond what is cited; PYQ tags not reviewed.

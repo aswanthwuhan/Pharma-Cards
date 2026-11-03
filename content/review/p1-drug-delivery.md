@@ -95,3 +95,104 @@ p1-drug-delivery-030 | corrected | KDT8 PDF p363 | Norplant is six capsules of 3
 p1-drug-delivery-031 | regrounded | GG14 PDF p1051 | Compliance claim not in books, dropped. Basal infusion plus meal boluses from GG14.
 p1-drug-delivery-032 | regrounded | Katzung16 PDF p1281, Katzung16 PDF p143, GG14 PDF p47 | "Drug of choice as miotic" not in books, dropped.
 p1-drug-delivery-034 | corrected | Katzung16 PDF p382, KDT8 PDF p30 | Books say 2-5 um aerosol deposits mainly in mouth/pharynx, not bronchi. Gases act via alveoli.
+
+## Difficulty ladder pass
+p1-drug-delivery-001 | ok (level 1 set) | KDT8 ch3
+p1-drug-delivery-002 | ok (level 1 set) | KDT8 ch3
+p1-drug-delivery-003 | ok (level 1 set) | KDT8 ch3
+p1-drug-delivery-047 | ok (level 2 set) | KDT8 ch5
+p1-drug-delivery-050 | new | KDT8 ch3
+p1-drug-delivery-004 | ok (level 3 set) | KDT8 ch1
+p1-drug-delivery-005 | ok (level 1 set) | KDT8 ch1
+p1-drug-delivery-007 | ok (level 1 set) | KDT8 ch1
+p1-drug-delivery-008 | ok (level 1 set) | KDT8 ch2
+p1-drug-delivery-036 | ok (level 1 set) | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A
+p1-drug-delivery-039 | ok (level 1 set) | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A
+p1-drug-delivery-040 | ok (level 1 set) | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A
+p1-drug-delivery-006 | ok (level 2 set) | KDT8 ch3
+p1-drug-delivery-009 | ok (level 2 set) | GG14 ch9
+p1-drug-delivery-026 | ok (level 2 set) | KDT8 ch3
+p1-drug-delivery-037 | ok (level 2 set) | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A
+p1-drug-delivery-038 | ok (level 2 set) | WEB NCBI-PMC Osmotic Pump Drug Delivery Systems: A
+p1-drug-delivery-042 | ok (level 2 set) | WEB NCBI-PMC Features and Facts of a Gastroretenti
+p1-drug-delivery-043 | ok (level 2 set) | WEB NCBI-PMC Features and Facts of a Gastroretenti
+p1-drug-delivery-044 | ok (level 2 set) | WEB NCBI-PMC Features and Facts of a Gastroretenti
+p1-drug-delivery-041 | ok (level 3 set) | WEB NCBI-PMC Features and Facts of a Gastroretenti
+p1-drug-delivery-051 | new | KDT8 ch3
+p1-drug-delivery-010 | ok (level 1 set) | KDT8 ch3
+p1-drug-delivery-011 | ok (level 1 set) | KDT8 ch1
+p1-drug-delivery-012 | ok (level 1 set) | KDT8 ch1
+p1-drug-delivery-030 | ok (level 1 set) | KDT8 PDF p363
+p1-drug-delivery-013 | ok (level 2 set) | GG14 ch2
+p1-drug-delivery-031 | ok (level 2 set) | GG14 PDF p1051
+p1-drug-delivery-035 | ok (level 2 set) | Sarkar p46-50
+p1-drug-delivery-052 | new | GG14 ch2
+p1-drug-delivery-053 | new | KDT8 ch1
+p1-drug-delivery-017 | ok (level 1 set) | KDT8 ch1
+p1-drug-delivery-027 | ok (level 1 set) | KDT8 ch1
+p1-drug-delivery-029 | ok (level 1 set) | GG14 PDF p47
+p1-drug-delivery-033 | ok (level 1 set) | GG14 ch11
+p1-drug-delivery-045 | ok (level 1 set) | WEB NCBI-PMC Features and Facts of a Gastroretenti
+p1-drug-delivery-046 | ok (level 1 set) | WEB NCBI-PMC Features and Facts of a Gastroretenti
+p1-drug-delivery-014 | ok (level 2 set) | KDT8 ch1
+p1-drug-delivery-015 | ok (level 2 set) | RangDale9 ch9
+p1-drug-delivery-016 | ok (level 2 set) | RangDale9 ch9
+p1-drug-delivery-028 | ok (level 2 set) | KDT8 PDF p150
+p1-drug-delivery-034 | ok (level 2 set) | Katzung16 PDF p382
+p1-drug-delivery-054 | new | KDT8 ch1
+p1-drug-delivery-019 | ok (level 1 set) | RangDale9 ch9
+p1-drug-delivery-022 | ok (level 1 set) | GG14 ch2
+p1-drug-delivery-025 | ok (level 1 set) | RangDale9 ch9
+p1-drug-delivery-018 | ok (level 2 set) | KDT8 ch3
+p1-drug-delivery-020 | ok (level 2 set) | RangDale9 ch9
+p1-drug-delivery-021 | ok (level 2 set) | RangDale9 ch9
+p1-drug-delivery-049 | ok (level 2 set) | KDT8 PDF p61
+p1-drug-delivery-056 | new | GG14 ch2
+p1-drug-delivery-048 | ok (level 3 set) | RangDale9 ch9
+p1-drug-delivery-055 | new | RangDale9 ch9
+p1-drug-delivery-057 | new | RangDale9 ch9
+p1-drug-delivery-023 | ok (level 1 set) | KDT8 ch3
+p1-drug-delivery-024 | ok (level 1 set) | KDT8 ch3
+p1-drug-delivery-032 | ok (level 1 set) | Katzung16 PDF p1281
+p1-drug-delivery-058 | new | KDT8 ch3
+p1-drug-delivery-059 | new | KDT8 ch3
+p1-drug-delivery-060 | new | KDT8 ch3
+
+## Checker
+- Sampled 22 cards (050-060 plus 015/036/038/042 area). Grounded in KDT8 PDF p60/p300/p363/p952, RangDale9 PDF p133-137, GG14 p640/p1384.
+- 052: corrected lente/protamine wording (KDT8 p300: protamine = NPH/isophane, excess zinc = lente).
+- 057: removed unsupported liposome size 0.1-1 um (KDT8 p61: 60-80 nm; RangDale9 p83: 0.025-0.1 um).
+- No Prep/RR5 refs. Levels: all 60 cards 1-3; each subtopic has >=3 L1, >=2 L2, >=1 L3.
+- Gap: dermatological drug delivery PYQ still has no book source.
+
+### Checker (second pass)
+- Re-verified 054, 058, 059, 051, 053 against KDT8 PDF p60-61/p363, RangDale9 PDF p137, GG14 PDF p46/p640: t1/2 <4 h, 4-8 h, Norplant 6 capsules/5 y, stent-margin restenosis all confirmed. No changes.
+- 051 gastroretentive/osmotic-pump part rests on WEB refs only (not in owner books); left as-is, flagged.
+- No Prep/RR5 refs; validator clean for p1-drug-delivery.
+
+## Gap PYQs added (UHSR 2025 inhaled; Q bank targeting)
+Sources: GG14 ch44 (PDF p896-898), Golan ch55 (PDF p1006-1007), KDT8 ch2/ch3/ch16, Padmaja PDF p30/p698, RangDale9 ch9 (PDF p135).
+p1-drug-delivery-061 | new | essay, UHSR 2025 "Inhaled medicines: current and future perspectives" | GG14 ch44; KDT8 ch16; Golan ch55
+p1-drug-delivery-062 | new | GG14 ch44
+p1-drug-delivery-063 | new | GG14 ch44
+p1-drug-delivery-064 | new | GG14 ch44 (fig 44-3)
+p1-drug-delivery-065 | new | GG14 ch44
+p1-drug-delivery-066 | new | GG14 ch44
+p1-drug-delivery-067 | new | GG14 ch44
+p1-drug-delivery-068 | new | essay, Q bank "Methods of drug targeting" (year not stated in bank) | Golan ch55; KDT8 ch3; RangDale9 ch9; Padmaja PDF p698
+p1-drug-delivery-069 | new | Golan ch55
+p1-drug-delivery-070 | new | Golan ch55
+p1-drug-delivery-071 | new | Golan ch55
+p1-drug-delivery-072 | new | Golan ch55; KDT8 ch3 (RES uptake)
+p1-drug-delivery-073 | new | Golan ch55
+p1-drug-delivery-074 | new | Padmaja PDF p698
+p1-drug-delivery-075 | new | Padmaja PDF p30
+p1-drug-delivery-076 | new | Golan ch55
+p1-drug-delivery-077 | new | Golan ch55
+
+### Checker (PYQ gap pass)
+- Checked all 17 new study cards (061-077) and 19 new rapid pairs (0153-0171) against GG14 PDF p896-898 (aerosol section), Golan ch55 text, and Padmaja PDF p30/p698. KDT8 PDF p266 confirms ultrasonic nebulisers need no gas. Levels: transdermal and targeted subtopics meet 3 L1 / 2 L2 / 1 L3 minimums. No Prep/RR5 refs. Validator clean for p1-drug-delivery.
+- 061: removed unsupported "advanced inhaler designs ... adherence" point; salbutamol point rewritten to "as required for symptom relief" (GG14 p898).
+- 068: removed "mainly liver and spleen" (not in owner books; Golan says reticuloendothelial system); added Padmaja PDF p30 ref for progestin IUCD.
+- Rapid 0171: KDT8 ch3 ref replaced by Padmaja PDF p30 (IUCD); stents stay on Golan ch55. KDT8 ch3 was not re-checked for this list.
+- Open: pyq entry on 068 uses year 0 (year not given in Q bank). Card 062-067 sit under the transdermal subtopic (no inhaled subtopic exists).

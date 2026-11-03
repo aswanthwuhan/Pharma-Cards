@@ -97,3 +97,45 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 
 | p2-ras-hf-001 to p2-ras-hf-080 | level set (1/2/3), deck reordered by level within subtopic | KDT8 ch36-38 |
 | p2-ras-hf-081 to p2-ras-hf-084 | new (level 3 case cards) | KDT8 ch36, ch37, ch38; GG14 ch30, ch33 |
+
+## Checker (2026-11-03, independent check)
+- Checked against KDT8 ch36-38 page text, GG14 and Katzung16. Study cards checked: 026, 039, 040, 048, 055, 075, 077, 078, 079, 080, 081, 082, 083, 084 (all writer-added or numeric cards).
+- Corrected: 048 steady state now "4 half-lives, 6 to 7 days" (KDT8 ch38 p573; was 4-5 half-lives). 080 removed "does not raise blood urate" (not printed; KDT8 ch36 p550 gives only the uricosuric effect). 081 removed "renal failure risk is the same with either class" (not printed); dual-blockade point now cites ONTARGET via GG14 ch30 p620. 083 removed "diuretics do not improve survival" (not found in ch38). 084 refs changed from KDT8 ch36 to KDT8 ch37 + ch40 (tolerance and ALDH text is in ch40 p600-601); "develops within hours" changed to "wears off within hours" (p601). 026 refs add KDT8 ch40.
+- Verified without change: 039, 040, 055, 075, 077, 078 (PARADIGM-HF 8442, 20%, 60%, t1/2 12 h), 079, 082, 083 (rest), 081 (rest), 048 (0.5-0.8 and >1.2 ng/mL from GG14 ch33 p677).
+- Gap added: p2-ras-hf-085 (level 1 cloze, endothelin receptor antagonists: dual bosentan and macitentan, selective ambrisentan; KDT8 ch37 p558-560).
+- Level ladder: 85 study cards, all with level 1-3. Every subtopic has at least 3 L1, 2 L2, 1 L3.
+- Excluded-source grep (Prep / RR5 / RapidRev) on both deck files: no matches.
+- Validator (node scripts/validate-content.mjs --check): "check ok", no p2-ras-hf errors.
+
+## Gap questions (PYQ 591, 612), added 2026-11-03
+- p2-ras-hf-086 | new | KDT8 ch38 (level 1, PDE3 term)
+- p2-ras-hf-087 | new | KDT8 ch38 (essay, PDE3 inhibitors in CHF; Q bank 10 marks)
+- p2-ras-hf-088 | new | KDT8 ch38, GG14 ch33 (essay, principles in chronic systolic HF; UHSR 2025 10 marks)
+- Out of topic, not written here: 591 parts b (anxiety drug development) and c (TRP channels); 612 part Huntington's chorea (no p2-ras-hf subtopic). Owner to route to the correct topic.
+
+## Checker (PYQ gap pass, 2026-11-03)
+- Checked study 086-088 and rapid 0615-0618 against KDT8 ch38 (PDF p576-p581) and GG14 ch33 (PDF p671). Fixed: study 088 ivabradine wording ("maximal" to "adequate" beta-blocker dose, <75/min target; KDT8 ch38 ivabradine paragraph); rapid 0618 answer now says oral inamrinone and oral milrinone. Verified without change: 086, 087 (all sections, incl. milrinone dose 50 ug/kg IV bolus then 0.4-1.0 ug/kg/min, KDT8 ch38 PDF p581), 088 (SGLT2 in HFrEF per GG14 ch33 p671), rapid 0615-0617.
+- Levels: 086 L1, 087 L3, 088 L3. Ladder per subtopic still meets minimums (heart-failure-drugs: 4 L1, 8 L2, 6 L3).
+- pyq: 087 uses "Q bank" with year 0 (no year printed), same placeholder used in other decks; 088 UHSR 2025.
+- No Prep/RR5 refs in either deck. Validator: check ok.
+
+## PYQ gap pass (writer, 2026-11-03): gapargs2 entries 332, 352, 396, 412, 414
+- Added study 089-097 (9 cards). Subtopic ladder: heart-failure-drugs gains 089-095 (L1 2, L2 4, L3 1); ace-arb-aliskiren gains 096-097.
+- Status of questions: 332 (cardiogenic shock) covered by 089-094; 352 (polypharmacy in CHF) by 095; 412 and 414 (RAS pharmacology, limitations, advances) by 097 plus existing 009, 010, 011, 017, 018, 030; 396 part a (chronic systolic HF) already covered by existing 088; 396 parts b (anxiety new drugs) and c (TRP channels) are outside p2-ras-hf and were not written here.
+- Table: id | status | source
+| 089 | ok | GG14 PDF p285 |
+| 090 | ok | KDT8 PDF p166; GG14 PDF p285, p317, p676; Katzung16 PDF p174 |
+| 091 | ok | GG14 PDF p286 |
+| 092 | ok | Katzung16 PDF p174; RangDale9 PDF p215 |
+| 093 | ok | GG14 PDF p676; Golan PDF p486 |
+| 094 | ok | KDT8 PDF p166; GG14 PDF p285, p286, p317, p676; Katzung16 PDF p174, p1283; Golan PDF p486. No mechanical-support or device advances: not in the owner books consulted, stated as a limit |
+| 095 | ok | GG14 PDF p666, p670, p674, p682, p683; KDT8 PDF p551 |
+| 096 | ok | GG14 PDF p662 |
+| 097 | ok | GG14 PDF p622, p662, p682; KDT8 ch36; GG14 ch30 |
+- pyq: 090 RGUHS 2021 (10, shortnote, "Management of cardiogenic shock"); 095 UHSR 2025 (10); 097 RGUHS 2010 (20, essay). Tags omitted for Q-bank entries with no year (332 "Recent advances in cardiogenic shock", 414 variant).
+- Validator: check ok.
+
+## Checker pass (gap-pass cards 089-097)
+- Re-verified against owner PDFs. Corrected: 093 and 094 add KDT8 PDF p581 (milrinone PDE3 selectivity) and GG14 PDF p298 (dopamine high-dose vasoconstriction). 097 ARNI claims confirmed on GG14 PDF p674, p682 (ACE inhibitor/ARB combo contraindication, superiority over enalapril).
+- 087: pyq "Q bank, year 0" removed (year unknown, tag omitted per rule).
+- Validator: check ok.

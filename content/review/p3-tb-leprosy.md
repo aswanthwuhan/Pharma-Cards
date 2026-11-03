@@ -75,3 +75,61 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 51 original, corrected: 
 - New cards are marked `draft` and cite KDT8 chapters; PYQ tags added where a stored question matched.
 - Book conflicts: No conflicts. RNTCP 2016 regimens (KDT8 ch56) added for RR-TB, mono- and poly-drug resistance.
 - Unsourced cards in this pass: none.
+
+## Difficulty ladder pass
+- Level (1/2/3) set on all 65 existing cards (ok, content unchanged); deck reordered by subtopic then level; ids unchanged.
+
+id | status | source
+p3-tb-leprosy-066 | new | KDT8 ch56 (level 1)
+p3-tb-leprosy-067 | new | KDT8 ch56 (level 1)
+p3-tb-leprosy-068 | new | KDT8 ch56 (level 2)
+p3-tb-leprosy-069 | new | KDT8 ch56 (level 3)
+p3-tb-leprosy-070 | new | KDT8 ch56 (level 3)
+p3-tb-leprosy-071 | new | KDT8 ch57 (level 1)
+p3-tb-leprosy-072 | new | KDT8 ch57 (level 1)
+p3-tb-leprosy-073 | new | KDT8 ch57 (level 3)
+
+## Checker
+- Re-verified ~25 study/rapid cards against KDT8 ch56-57 text (INH acetylator/pyridoxine/high-dose INH, ethambutol, PZA, dapsone resistance/G6PD/sulfone syndrome, rifampicin in leprosy, MDT duration, alternatives, relapse/TB/HIV, RR-TB regimens, bedaquiline, PAS, rifabutin). All matched; no edits, no deletions.
+- No Prep/RR5/PrepLadder refs. Ladder OK: every subtopic has >=3 L1, >=2 L2, >=1 L3.
+- Not verified line by line: GG14-sourced rapid cards (PAS hypersensitivity, ethionamide hepatitis, capreomycin dose).
+
+## Checker (haiku-requested recheck)
+- Re-verified ~28 cards (study 007-013, 018, 020, 034, 038-044, 059-073; rapid 0460-0471) against KDT8 ch56/57 and GG14/Katzung (bedaquiline half-life). No wrong facts found; no deletions.
+- No Prep/RR5 refs; ladder intact (levels 1-3 on all 73 cards); validator clean for this topic.
+- No gaps added: thioacetazone absent from KDT8 ch56.
+
+## Gap pass: newer drugs in tuberculosis (2026-11-03)
+Q bank (paper III, 10 marks): "Newer drugs in tuberculosis."
+| id | new | source |
+|---|---|---|
+| p3-tb-leprosy-074 | new | GG14 ch65 |
+| p3-tb-leprosy-075 | new | GG14 ch65 |
+| p3-tb-leprosy-076 | new | GG14 ch65 |
+| p3-tb-leprosy-077 | new | GG14 ch65 |
+| p3-tb-leprosy-078 | new | GG14 ch65, KDT8 ch56 |
+
+## Checker (PYQ gap pass)
+- Checked study 074-078 and rapid 0472-0490 against GG14 ch65 (PDF pp. 1286, 1295-1299). All facts matched: Rv3547 activation, MICs, Stover 2000, resistance genes, bedaquiline tmax/Vd/t1/2/M2, Diacon 50% vs 9%, Europe 2013, FDA 2012, BPaL (Conradie 2020), sutezolid, WHO Groups A-C.
+- Edited study 077 (linezolid wording) and 078 (Group C wording) to match GG14 phrasing. No deletions.
+- Resolved writer's open item: GG14 p1296 uses "bicyclic nitroimidazopyrans", so rf-p3-tb-leprosy-0183 wording is supported; no change made.
+- Pyq tag "Q bank" with year 0 (no year in source) is kept; validator accepts it.
+- No Prep/RR5 refs. Ladder OK: every subtopic has >=3 L1, >=2 L2, >=1 L3.
+
+## Gap pass: PYQ classification, second-line and TB-AIDS essay (2026-11-03)
+| id | new | source |
+|---|---|---|
+| p3-tb-leprosy-079 | new | KDT8 ch56 (PYQ RGUHS 2007, 20 marks) |
+| p3-tb-leprosy-080 | new | KDT8 ch56 (PYQ RGUHS 2007, 20 marks) |
+| p3-tb-leprosy-081 | new | KDT8 ch56 (PYQ KNRUHS 2025, 10 marks) |
+| p3-tb-leprosy-082 | new | KDT8 ch56, ch57 (PYQ KNRUHS 2025, 10 marks) |
+| p3-tb-leprosy-083 | new | KDT8 ch56 (PYQ KNRUHS 2025, 10 marks) |
+| p3-tb-leprosy-084 | corrected | KDT8 ch56 (PYQ RGUHS 2007, 20 marks) |
+
+- Gaps found: no card classified second-line drugs by class; ethionamide and PAS had no study card; no essay covered classification, regimens and TB with AIDS together. Existing cards already cover first-line mechanisms, regimens, HIV interactions, newer drugs and the RNTCP groups, so they were not duplicated.
+- Checked against KDT8 ch56-57 text. Fixed: 079 (KDT says used when first-line cannot be used or to supplement them); 081 (avoid, not never, combining Km with Am); 082 (leprosy use is last-resort); 083 unchanged; 084 (removed unverified GG14 claims, unverified pretomanid/linezolid 6-month WHO line and the 25-50 mg pyridoxine figure; KDT gives 10 mg prophylaxis, 100 mg for neuritis; streptomycin 'max 2 months' removed).
+- Capreomycin dose 0.75 to 1.0 g/day i.m. confirmed in KDT8 ch56 (card 081).
+- Conflict, not resolved: ethionamide hepatotoxicity is about 10 percent in KDT8 ch57 (used on card 082), while rapid card rf-p3-tb-leprosy-0141 says about 5 percent (GG14 ch65 per log). Owner to check.
+- Capreomycin dose: KDT8 gives 0.75 to 1.0 g/day i.m. (card 081); GG14 gives 1 g/day (rapid 0152). Both kept in their own cards; not reconciled.
+- Ethionamide dose not written (KDT and GG14 differ; see rapid log).
+- No excluded-source refs remain in these files.

@@ -48,3 +48,107 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 ## Unmatched PYQ pass (2026-11-02)
 p1-adr-030 → Toxicokinetics → GG14 PDF p175, p185 (new card)
 p1-adr-031 → Designer Drugs → GG14 PDF p557 (new card)
+
+
+## Difficulty ladder pass (2026-11-03)
+All 31 existing cards given explicit level (1/2/3) and reordered per subtopic; ids unchanged; PYQ tags added to 008, 009, 010, 012, 014, 015, 016, 018, 019, 020 (changed, content ok). Added 42 cards (ids 032-073) to complete >=3/2/1 per subtopic and close gaps (side/secondary/toxic effects, genetic ADRs, GG14 ch8 postmarketing safety, photosensitivity, tolerance, poisoning steps). Ids 061 uses KDT8 PDF p97-98 for tolerance. Note: Naranjo cut-offs still omitted.
+
+| id | status | source |
+|---|---|---|
+| p1-adr-032 | new | KDT8 ch6 |
+| p1-adr-033 | new | KDT8 ch6 |
+| p1-adr-034 | new | KDT8 ch6 |
+| p1-adr-035 | new | KDT8 ch6 |
+| p1-adr-036 | new | KDT8 ch6 |
+| p1-adr-037 | new | KDT8 ch6 |
+| p1-adr-038 | new | KDT8 ch6 |
+| p1-adr-039 | new | GG14 ch8 |
+| p1-adr-040 | new | KDT8 ch6, GG14 ch8 |
+| p1-adr-041 | new | GG14 ch8 |
+| p1-adr-042 | new | Katzung16 appendix 2, KDT8 ch6 |
+| p1-adr-043 | new | GG14 ch8 |
+| p1-adr-044 | new | GG14 ch8 |
+| p1-adr-045 | new | GG14 ch8 |
+| p1-adr-046 | new | GG14 ch8 |
+| p1-adr-047 | new | KDT8 ch6 |
+| p1-adr-048 | new | KDT8 ch6 |
+| p1-adr-049 | new | KDT8 ch6 |
+| p1-adr-050 | new | KDT8 ch6 |
+| p1-adr-051 | new | KDT8 ch6 |
+| p1-adr-052 | new | KDT8 ch6 |
+| p1-adr-053 | new | KDT8 ch6 |
+| p1-adr-054 | new | KDT8 ch6 |
+| p1-adr-055 | new | KDT8 ch6 |
+| p1-adr-056 | new | KDT8 ch6 |
+| p1-adr-057 | new | KDT8 ch6 |
+| p1-adr-058 | new | KDT8 ch6 |
+| p1-adr-059 | new | KDT8 ch6, GG14 ch2 |
+| p1-adr-060 | new | KDT8 ch6 |
+| p1-adr-061 | new | KDT8 ch6, KDT8 PDF p97 |
+| p1-adr-062 | new | KDT8 ch6 |
+| p1-adr-063 | new | KDT8 ch6 |
+| p1-adr-064 | new | KDT8 ch6 |
+| p1-adr-065 | new | KDT8 ch6 |
+| p1-adr-066 | new | KDT8 ch6 |
+| p1-adr-067 | new | KDT8 ch6 |
+| p1-adr-068 | new | KDT8 ch6 |
+| p1-adr-069 | new | KDT8 ch6 |
+| p1-adr-070 | new | KDT8 ch6 |
+| p1-adr-071 | new | KDT8 ch6 |
+| p1-adr-072 | new | KDT8 ch6, GG14 ch2 |
+| p1-adr-073 | new | KDT8 ch6, GG14 ch2 |
+
+## Checker
+- Spot-checked 25+ cards (study L2-L3 and rapid GG14 numbers) against KDT8 p112-117 and GG14 p165-167, p49: TPMT 0.3%, 94% under-reporting, 467 patients, 24.0 wk / 46.2%, terfenadine 5000 vs 7.5 million, adrenaline 0.5 mg, UVB 290-320 / UVA 320-400, days 17/18-55/56, kerosene emesis, PLLR 2015, nalorphine. All confirmed.
+- No Prep/RR5 refs. Ladder OK (every subtopic >=4 L1, 3 L2, 2 L3). Validator clean for p1-adr.
+- Corrected 0, deleted 0, added 0.
+
+## Checker (pass 2)
+- Re-verified 35+ facts (KDT8 ch6 text; GG14 p49, p165-168; Katzung16 PvPI 2010; Sarkar yellow card 1964; 10-25% incidence, 2% background anomalies, SPF 15-60, charcoal 20-40 g). All correct; no edits to existing cards.
+- Added p1-adr-074 (antidote kinds, KDT8 ch6) to fill a gap. Specific antidote drugs belong to the toxicology topic.
+
+## PYQ gap batch (2026-11-03): new cards
+| id | new | source |
+|---|---|---|
+| p1-adr-075 | new | KDT8 ch5 |
+| p1-adr-076 | new | KDT8 ch5 |
+| p1-adr-077 | new | KDT8 ch5 |
+| p1-adr-078 | new | KDT8 ch6 |
+| p1-adr-079 | new | GG14 ch8 |
+| p1-adr-080 | new | KDT8 ch6, KDT8 PDF p802 |
+| p1-adr-081 | new | KDT8 ch5, RangDale9 PDF p117, Katzung16 PDF p32 |
+| p1-adr-082 | new | KDT8 ch64 |
+| p1-adr-083 | new | KDT8 ch30, ch32, ch39, ch53, ch56, ch64 |
+| p1-adr-084 | new | KDT8 ch32 |
+| p1-adr-085 | new | KDT8 PDF p455 |
+| p1-adr-086 | new | KDT8 PDF p829 |
+| p1-adr-087 | new | KDT8 PDF p829 |
+| p1-adr-088 | new | KDT8 PDF p455, p829, p832, p833, p410 |
+| p1-adr-089 | new | KDT8 PDF p109 |
+| p1-adr-090 | new | KDT8 ch5, ch6 |
+| p1-adr-091 | new | KDT8 ch6, PDF p848, p947, GG14 PDF p1368, GG14 ch8 |
+| p1-adr-092 | new | KDT8 PDF p848, p947 |
+
+Not written (no owner-book source, or off-topic):
+- Q28 "precision vs accuracy": no owner-book definition found.
+- Q32 "theme of 2025 Pharmacovigilance Week" and its justification: not in owner books.
+- Q220 "clinical trial registry": no owner-book source (IRB covered in p1-adr-081).
+- Q390 "non-parametric tests": biostatistics, not ADR. Medhi PMECP PDF p141-145 covers it; belongs to a stats topic.
+- Q581 "thalidomide congeners": owner books do not name analogues.
+
+## Checker (PYQ gap pass)
+- Checked new cards p1-adr-075 to 092 against KDT8 PDF (p101, p109, p117, p410, p455, p485, p587, p802, p829, p832, p833, p843), GG14 PDF (p164, p167, p1295), Katzung16 PDF p32, RangDale9 PDF p739. Confirmed: 1 in 40,000 chloramphenicol, pyridoxine 10 and 100 mg, terizidone, dapsone sulfone syndrome 4-6 weeks, phocomelia, over 10,000 children, 12-country underreporting, clozapine agranulocytosis, procainamide and carbamazepine, IRB preclinical-data role, ICMR 2006.
+- Corrected 1: p1-adr-088 cycloserine line. "seizures infrequent" was not in the books; now "seizures and psychosis possible" (GG14 PDF p1295).
+- Deleted 0. Ladder OK for all six subtopics. No Prep/RR5 refs. pyq format OK.
+- Validator: no errors naming p1-adr. Remaining errors are in p3-git (not this topic).
+
+## PYQ gap pass (2026-11-03, gapargs2 entries 18, 244, 265)
+| id | status | source |
+|---|---|---|
+| p1-adr-093 | new | KDT8 PDF p150, p164, p195, p244, p258, p323, p398, p472, p473, p483 |
+
+- Q18 (UHSR 2025, ADR note): five underreporting points already covered by p1-adr-043 and p1-adr-079 (GG14 ch8; median 94%). Not added.
+- Q18 "theme of 2025 Pharmacovigilance Week" and its justification: not in owner books. Not written (noSource).
+- Q244 (Q bank, year unknown, no pyq tag): drug dependence covered by p1-adr-016, p1-adr-061 to 066; post-marketing surveillance covered by p1-adr-027 and p1-adr-046. "Safety factor", "flame photometry", "pA2", "acute toxicity study" belong to other topics. Not added here.
+- Q265 (Q bank, year unknown, no pyq tag): new p1-adr-093 (drug-induced insomnia list, KDT8 only).
+- Validator: clean.
