@@ -8,7 +8,8 @@ export function RegisterSW() {
   useEffect(() => {
     if (process.env.NODE_ENV !== "production") return;
     if (!("serviceWorker" in navigator)) return;
-    navigator.serviceWorker.register(`/sw.js?v=${process.env.NEXT_PUBLIC_APP_VERSION}`).catch(() => {
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+    navigator.serviceWorker.register(`${base}/sw.js?v=${process.env.NEXT_PUBLIC_APP_VERSION}`, { scope: `${base}/` }).catch(() => {
       // Registration failure just means no offline support; the app still works online.
     });
   }, []);

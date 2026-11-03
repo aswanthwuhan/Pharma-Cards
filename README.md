@@ -6,7 +6,8 @@ All progress is saved in your browser (IndexedDB).
 
 ## Install (users)
 
-- **Web / PWA:** open the site in Chrome, Edge or Safari, then choose "Install app" or "Add to Home screen". It works offline after the first visit.
+- **Web / PWA:** open https://aswanthwuhan.github.io/Pharma-Cards/ in Chrome, Edge or Safari, then choose "Install app" or "Add to Home screen". It works offline after the first visit.
+- **iPhone / iPad:** open https://aswanthwuhan.github.io/Pharma-Cards/ in **Safari**, tap Share, then "Add to Home Screen". It opens full screen like an app and works offline. (There is no App Store build: that needs a paid Apple developer account.)
 - **Windows:** download `Pharmacards-Setup-x.y.z.exe` from [GitHub Releases](https://github.com/aswanthwuhan/Pharma-Cards/releases). The installer is unsigned, so SmartScreen shows a warning. Click "More info", then "Run anyway".
 - **macOS:** download the `.dmg` from [Releases](https://github.com/aswanthwuhan/Pharma-Cards/releases). The app is unsigned, so the first time, right-click it and choose Open.
 - **Android:** download `Pharmacards-x.y.z.apk` from [Releases](https://github.com/aswanthwuhan/Pharma-Cards/releases). Allow "Install unknown apps" for your browser or file manager, then open the file.

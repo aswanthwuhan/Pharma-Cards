@@ -2,8 +2,11 @@
 // The app registers /sw.js?v=<app version>, so each release installs a fresh cache and prunes the old one.
 const CACHE_VERSION = new URL(self.location.href).searchParams.get("v") || "dev";
 const CACHE_NAME = `pharmacards-${CACHE_VERSION}`;
-const ROUTES = ["/", "/browse", "/stats", "/bookmarks", "/settings", "/admin", "/study"];
-const PRECACHE_URLS = [...ROUTES, "/manifest.webmanifest"];
+// Base path the app is served under ("" at the root, "/Pharma-Cards" on GitHub Pages), taken from the SW scope.
+const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, "");
+const ROUTES = ["/", "/browse", "/stats", "/bookmarks", "/settings", "/admin", "/study"].map((r) => BASE + r);
+const PRECACHE_URLS = [...ROUTES, BASE + "/manifest.webmanifest"];
+const STATIC_PREFIX = BASE + "/_next/static/";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -22,12 +25,12 @@ async function pruneStatic() {
   for (const route of ROUTES) {
     const res = await cache.match(route);
     if (!res) return; // shortcut: if a page is missing we cannot tell what is used, so prune nothing
-    for (const m of (await res.text()).matchAll(/\/_next\/static\/[^"'\s)\]]+/g)) used.add(m[0]);
+    for (const m of (await res.text()).matchAll(/\/_next\/static\/[^"'\s)\]]+/g)) used.add(BASE + m[0]);
   }
   // shortcut: lazily imported chunks not named in any page HTML are pruned too; they re-download online.
   for (const req of await cache.keys()) {
     const path = new URL(req.url).pathname;
-    if (path.startsWith("/_next/static/") && !used.has(path)) await cache.delete(req);
+    if (path.startsWith(STATIC_PREFIX) && !used.has(path)) await cache.delete(req);
   }
 }
 
@@ -47,7 +50,7 @@ self.addEventListener("activate", (event) => {
 });
 
 function isStaticAsset(url) {
-  return url.pathname.startsWith("/_next/static/") || /\.(png|jpe?g|gif|svg|webp|ico)$/i.test(url.pathname);
+  return url.pathname.startsWith(STATIC_PREFIX) || /\.(png|jpe?g|gif|svg|webp|ico)$/i.test(url.pathname);
 }
 
 self.addEventListener("fetch", (event) => {
@@ -85,7 +88,7 @@ self.addEventListener("fetch", (event) => {
           }
           return response;
         })
-        .catch(() => caches.match(request, { ignoreSearch: true }).then((cached) => cached || caches.match("/"))),
+        .catch(() => caches.match(request, { ignoreSearch: true }).then((cached) => cached || caches.match(BASE + "/"))),
     );
   }
 });

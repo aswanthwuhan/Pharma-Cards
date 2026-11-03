@@ -5,6 +5,19 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.6",
+    changes: [
+      "About 2,200 new study cards and 4,300 new Rapid Fire cards across all 53 topics, now 4,944 study and 21,315 Rapid Fire",
+      "Every card has a level: basic, applied or advanced. Each subtopic opens the next level once you know the one below",
+      "Sessions run basic to advanced, so each one has a flow",
+      "Past-paper coverage: about 95% of exam questions now have a card",
+      "Weak and strong are steadier: unseen cards count, labels stop flipping at the line, and strong needs the advanced cards",
+      "Essay cards: choose Ladder or Rail view",
+      "Web app for iPhone, iPad and any browser: open it in Safari and choose Add to Home Screen",
+      "Thinner, fainter scroll bars",
+    ],
+  },
+  {
     version: "0.5.5",
     changes: [
       "Android Back steps back one screen; on home it asks before closing",

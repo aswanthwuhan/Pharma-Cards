@@ -16,7 +16,10 @@ const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrai
 export const metadata: Metadata = {
   title: "Pharmacards — MD Pharmacology revision",
   description: "Spaced-repetition flashcards for MD Pharmacology theory exams",
-  manifest: "/manifest.webmanifest",
+  manifest: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/manifest.webmanifest`,
+  // iPhone/iPad: Safari "Add to Home Screen" opens full screen with this icon (iOS ignores manifest icons).
+  appleWebApp: { capable: true, title: "Pharmacards", statusBarStyle: "black-translucent" },
+  icons: { apple: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/icon-192.png` },
 };
 
 export const viewport: Viewport = {
