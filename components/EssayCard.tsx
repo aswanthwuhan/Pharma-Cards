@@ -59,7 +59,8 @@ export function EssayRail({ sections }: { sections: Section[] }) {
           </button>
         )}
       </div>
-      <div className="sticky bottom-0 -mx-5 mt-4 border-t border-porcelain-rule bg-porcelain/95 px-5 py-3 backdrop-blur-sm sm:-mx-7 sm:px-7">
+      {/* In normal flow, not sticky: the card's own scroll area and swipe zone made a sticky rail cover the prompt. */}
+      <div className="mt-4 border-t border-porcelain-rule pt-3">
         <div className="flex items-center justify-between font-mono text-[11px] text-porcelain-soft uppercase">
           <span>Progress rail</span>
           <span className="normal-case">
