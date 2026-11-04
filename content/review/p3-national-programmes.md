@@ -202,3 +202,62 @@ Prep and RR5 not used.
 | p3-national-programmes-087 | corrected | removed "under study: nanoparticles, microneedles, dermal patches, edible plant vaccines" (no allowed book); removed "nasal influenza spray" (not in allowed books); removed "maternal immunisation protects the newborn" and "chronic infections need antibody plus T-cell responses" (not in allowed books); fixed PCV/fIPV timing (PCV only at 6 and 14 weeks, Padmaja table 56.2) |
 
 Ladder check: immunisation subtopic still meets 3 L1, 2 L2, 1 L3. Validator: check ok. Prep and RR5 refs: none.
+
+## Expansion pass (2026-11-04)
+
+Added 38 study cards (088-125), all `draft`. Deck now 123 cards (85 before this pass). Sources: KDT8 ch56, ch57, ch60-63, ch70; Padmaja p660-661; Sarkar p101-110. No PrepLadder source used.
+
+| id | status | source |
+|---|---|---|
+| p3-national-programmes-088 | ok | KDT8 ch56 |
+| p3-national-programmes-089 | ok | KDT8 ch56; Padmaja p661 |
+| p3-national-programmes-090 | ok | KDT8 ch56 |
+| p3-national-programmes-091 | ok | KDT8 ch56 |
+| p3-national-programmes-092 | ok | KDT8 ch56 |
+| p3-national-programmes-093 | ok | KDT8 ch56 |
+| p3-national-programmes-094 | ok | KDT8 ch56 |
+| p3-national-programmes-095 | ok | KDT8 ch56 |
+| p3-national-programmes-096 | ok | KDT8 ch56 |
+| p3-national-programmes-097 | ok | KDT8 ch56 |
+| p3-national-programmes-098 | ok | KDT8 ch57 |
+| p3-national-programmes-099 | ok | KDT8 ch57 |
+| p3-national-programmes-100 | ok | KDT8 ch57 |
+| p3-national-programmes-101 | ok | KDT8 ch57 |
+| p3-national-programmes-102 | ok | KDT8 ch61 |
+| p3-national-programmes-103 | ok | KDT8 ch61 |
+| p3-national-programmes-104 | ok | KDT8 ch61 |
+| p3-national-programmes-105 | ok | KDT8 ch61 |
+| p3-national-programmes-106 | ok | KDT8 ch61 |
+| p3-national-programmes-107 | ok | KDT8 ch61 |
+| p3-national-programmes-108 | ok | KDT8 ch61 |
+| p3-national-programmes-109 | ok | KDT8 ch61 |
+| p3-national-programmes-110 | ok | KDT8 ch62 |
+| p3-national-programmes-111 | ok | KDT8 ch62 |
+| p3-national-programmes-112 | ok | KDT8 ch63 |
+| p3-national-programmes-113 | ok | KDT8 ch63 |
+| p3-national-programmes-114 | ok | KDT8 ch60 |
+| p3-national-programmes-115 | ok | KDT8 ch60 |
+| p3-national-programmes-116 | ok | KDT8 ch60 |
+| p3-national-programmes-117 | ok | KDT8 ch60 |
+| p3-national-programmes-118 | ok | KDT8 ch60 |
+| p3-national-programmes-119 | ok | KDT8 ch60 |
+| p3-national-programmes-120 | ok | KDT8 ch60 |
+| p3-national-programmes-121 | ok | KDT8 ch60 |
+| p3-national-programmes-122 | ok | Padmaja p660 |
+| p3-national-programmes-123 | ok | Sarkar p101-105; Sarkar p106-110 |
+| p3-national-programmes-124 | ok | KDT8 ch70 |
+| p3-national-programmes-125 | ok | Padmaja p661 |
+
+### Conflicts and limits (expansion pass)
+
+- NTEP intensive phase: Katzung16 appendix 2 says four drugs for 4 months; KDT8 ch56 Table 56.1 and Padmaja p661 give 2 months. The cards use 2 months (KDT8 and Padmaja); the Katzung 4-month figure is not carded.
+- End TB Strategy: Katzung16 appendix 2 says the World Health Assembly approved it in 2014; KDT8 ch56 says WHO launched it in 2016. No new card was written; the existing conflict note stands.
+- NACP launch year: KDT8 ch60 says 1992; Padmaja p662 says 1987. No launch-year card was written.
+- Primaquine in malaria: Katzung16 appendix 2 says 14 days "for all cases"; KDT8 ch61 gives 14 days for vivax and a single gametocidal dose for falciparum. Cards follow KDT8.
+- Filariasis "more than 600 million" people (Katzung16 appendix 2): wording implausible (probably population at risk); not carded.
+- NTEP elimination year: Padmaja p661 says 2025; KDT8 ch56 does not print a year. Carded from Padmaja only.
+- Kala-azar miltefosine: NVBDCP uses 100 mg/day for adults above 25 kg; WHO recommends 150 mg/day above 50 kg (KDT8 ch62). Both are carded as programme versus WHO doses.
+- UIP cold chain: Padmaja p660 gives +2 to +8 degrees Celsius; no conflicting figure in the books checked.
+- AEFI: Sarkar p101-105 records 395 serious AEFIs in 2010 versus 55 in 2006; carded as reported, not as a trend claim.
+
+Cross-deck note: some new cards overlap in theme with p3-tb-leprosy, p3-antiparasitic and p3-antifungal-viral (TB and leprosy regimens, malaria drug policy, ART policy). They were written for the programme/policy angle, and no exact duplicate question wording exists across those decks (checked). This deck remains the programme-structure and programme-drug-choice deck.

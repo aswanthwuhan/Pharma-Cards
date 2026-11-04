@@ -71,11 +71,11 @@ export function SessionSummary({
       <section className="relative overflow-hidden rounded-xl bg-sheet p-4">
         <div className="pointer-events-none absolute -top-6 -right-6 h-32 w-32 rounded-full bg-teal/5 blur-2xl" />
         <div className="flex items-center justify-between">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-well px-2 py-0.5 font-mono text-[10px] tracking-wider text-teal uppercase">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-well px-2 py-0.5 font-mono text-[11px] tracking-wider text-teal uppercase">
             <span className="h-1.5 w-1.5 rounded-full bg-teal" />
             Session saved
           </span>
-          <span className="font-mono text-[10px] text-ink-soft uppercase">{n} answers</span>
+          <span className="font-mono text-[11px] text-ink-soft uppercase">{n} answers</span>
         </div>
         <div className="mt-2 flex flex-wrap items-baseline gap-2">
           <h1 className="font-serif text-3xl">Session complete</h1>
@@ -128,14 +128,14 @@ export function SessionSummary({
           <span className="eyebrow">Avg speed</span>
           <div>
             <div className="font-serif text-2xl">{avgSec ? `${avgSec.toFixed(1)}s` : "—"}</div>
-            <span className="font-mono text-[10px] text-ink-soft">per card</span>
+            <span className="font-mono text-[11px] text-ink-soft">per card</span>
           </div>
         </section>
         <section className="flex min-h-[92px] flex-col justify-between rounded-xl bg-sheet p-4">
           <span className="eyebrow">Due by tomorrow</span>
           <div>
             <div className="font-serif text-2xl">{dueTomorrow ?? "…"} cards</div>
-            <span className="font-mono text-[10px] text-ink-soft">in your review queue</span>
+            <span className="font-mono text-[11px] text-ink-soft">in your review queue</span>
           </div>
         </section>
       </div>
@@ -144,7 +144,7 @@ export function SessionSummary({
       <section className="flex flex-col gap-2 rounded-xl bg-sheet p-4">
         <div className="flex items-center gap-1.5">
           <span className="font-mono text-xs font-semibold tracking-wide uppercase">How you rated</span>
-          <span className="font-mono text-[10px] text-ink-soft">(n={n})</span>
+          <span className="font-mono text-[11px] text-ink-soft">(n={n})</span>
         </div>
         <div className="flex h-3 w-full gap-0.5 overflow-hidden rounded-full bg-well p-0.5">
           {ORDER.map((g) => (
@@ -154,12 +154,12 @@ export function SessionSummary({
         <div className="grid grid-cols-4 gap-1 pt-1">
           {ORDER.map((g) => (
             <div key={g} className="flex flex-col rounded-lg bg-well p-2">
-              <span className="flex items-center gap-1 font-mono text-[10px] text-ink-soft">
+              <span className="flex items-center gap-1 font-mono text-[11px] text-ink-soft">
                 <span className="h-1.5 w-1.5 rounded-full" style={{ background: GRADE_META[g].color }} />
                 {GRADE_META[g].label}
               </span>
               <span className="mt-0.5 font-mono text-sm font-semibold">
-                {count(g)} <span className="text-[10px] font-normal text-ink-soft">{pct(count(g))}%</span>
+                {count(g)} <span className="text-[11px] font-normal text-ink-soft">{pct(count(g))}%</span>
               </span>
             </div>
           ))}
@@ -172,7 +172,7 @@ export function SessionSummary({
           <div className="flex items-center justify-between">
             <span className="font-mono text-xs font-semibold tracking-wide uppercase">Biggest change</span>
             {levelChanged && (
-              <span className="rounded-full bg-teal px-2 py-0.5 font-mono text-[10px] font-bold tracking-wider text-on-teal uppercase">
+              <span className="rounded-full bg-teal px-2 py-0.5 font-mono text-[11px] font-bold tracking-wider text-on-teal uppercase">
                 {top.delta >= 0 ? "Level up" : "Level down"}
               </span>
             )}
@@ -185,7 +185,7 @@ export function SessionSummary({
             <Bar label="Before" m={top.b} muted />
             <Bar label="After this session" m={top.a} />
           </div>
-          <div className="flex items-center justify-between font-mono text-[10px] text-ink-soft">
+          <div className="flex items-center justify-between font-mono text-[11px] text-ink-soft">
             <span>{moves.length} subtopic{moves.length === 1 ? "" : "s"} practised</span>
             <span className={top.delta >= 0 ? "text-teal" : "text-weak"}>
               {top.delta >= 0 ? "+" : ""}
@@ -220,7 +220,7 @@ function Bar({ label, m, muted }: { label: string; m?: { score: number | null; l
   return (
     <div className="flex items-center justify-between gap-3">
       <div className="flex flex-col">
-        <span className={`font-mono text-[10px] uppercase ${muted ? "text-ink-soft" : "font-semibold text-teal"}`}>{label}</span>
+        <span className={`font-mono text-[11px] uppercase ${muted ? "text-ink-soft" : "font-semibold text-teal"}`}>{label}</span>
         <span className="font-mono text-xs" style={{ color: muted ? "var(--color-ink-soft)" : LABEL_COLOR[lbl] }}>
           {m?.score != null ? `${m.score} ${LABEL_TEXT[lbl]}` : "Not rated yet"}
         </span>

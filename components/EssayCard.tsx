@@ -10,7 +10,7 @@ const stop = (fn: () => void) => (e: React.MouseEvent) => {
   e.stopPropagation();
   fn();
 };
-const ink = "text-[#1f5c48]";
+const ink = "text-porcelain-accent";
 const short = (h: string) => h.split(/[\s:,&(]+/)[0];
 
 function Points({ points }: { points: string[] }) {
@@ -41,7 +41,7 @@ export function EssayRail({ sections }: { sections: Section[] }) {
             <div className="flex items-start gap-3">
               <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-porcelain-ink font-mono text-[11px] text-porcelain">{i + 1}</span>
               <h3 className={`flex-1 font-serif text-[17px] leading-snug ${ink}`}>{s.h}</h3>
-              <span className="font-mono text-[10px] text-porcelain-soft uppercase">Revealed</span>
+              <span className="font-mono text-[11px] text-porcelain-soft uppercase">Revealed</span>
             </div>
             <div className="mt-2">
               <Points points={s.points} />
@@ -52,9 +52,9 @@ export function EssayRail({ sections }: { sections: Section[] }) {
           <button
             type="button"
             onClick={stop(next)}
-            className="flex min-h-12 w-full items-center justify-center gap-2 rounded-lg border-2 border-dashed border-[#7fd8b5] font-mono text-xs text-[#1f5c48]"
+            className="flex min-h-12 w-full items-center justify-center gap-2 rounded-lg border-2 border-dashed border-porcelain-accent/50 font-mono text-xs text-porcelain-accent"
           >
-            <span aria-hidden className="h-2 w-2 rounded-full bg-[#2fb383]" />
+            <span aria-hidden className="h-2 w-2 rounded-full bg-porcelain-accent-strong" />
             Recall heading {shown + 1} before opening
           </button>
         )}
@@ -81,9 +81,9 @@ export function EssayRail({ sections }: { sections: Section[] }) {
                 className="min-w-0 flex-1 text-left disabled:cursor-default"
               >
                 <span
-                  className={`block h-2.5 rounded-full ${i < shown ? "bg-[#2fb383]" : isNext ? "bg-[#7fd8b5] ring-2 ring-[#1f5c48]" : "bg-porcelain-rule"}`}
+                  className={`block h-2.5 rounded-full ${i < shown ? "bg-porcelain-accent-strong" : isNext ? "bg-porcelain-accent/50 ring-2 ring-porcelain-accent" : "bg-porcelain-rule"}`}
                 />
-                <span className={`mt-1 block truncate font-mono text-[10px] ${isNext ? "font-semibold text-porcelain-ink" : "text-porcelain-soft"}`}>
+                <span className={`mt-1 block truncate font-mono text-[11px] ${isNext ? "font-semibold text-porcelain-ink" : "text-porcelain-soft"}`}>
                   {i + 1}. {short(s.h)}
                 </span>
               </button>
@@ -135,7 +135,7 @@ export function EssayLadder({ cardId, sections }: { cardId: string; sections: Se
                   aria-hidden
                   className="grid h-6 w-6 shrink-0 place-items-center rounded-full border text-[12px]"
                   style={{
-                    borderColor: mark === undefined ? "var(--color-porcelain-rule, #cfd8d4)" : mark ? "var(--color-strong)" : "var(--color-weak)",
+                    borderColor: mark === undefined ? "var(--color-porcelain-rule)" :mark ? "var(--color-strong)" : "var(--color-weak)",
                     color: mark ? "var(--color-strong)" : "var(--color-weak)",
                   }}
                 >
@@ -145,11 +145,11 @@ export function EssayLadder({ cardId, sections }: { cardId: string; sections: Se
                   {i + 1}. {s.h}
                 </span>
                 {mark !== undefined ? (
-                  <span className={`rounded-full border px-2 py-0.5 font-mono text-[10px] uppercase ${mark ? "border-[var(--color-strong)] text-[var(--color-strong)]" : "border-[var(--color-weak)] text-[var(--color-weak)]"}`}>
+                  <span className={`rounded-full border px-2 py-0.5 font-mono text-[11px] uppercase ${mark ? "border-[var(--color-strong)] text-[var(--color-strong)]" : "border-[var(--color-weak)] text-[var(--color-weak)]"}`}>
                     {mark ? "Recalled" : "Missed"}
                   </span>
                 ) : (
-                  !isOpen && <span className="rounded-full bg-[#d9efe4] px-2 py-0.5 font-mono text-[10px] text-[#1f5c48]">recall then tap</span>
+                  !isOpen && <span className="rounded-full bg-porcelain-accent-wash px-2 py-0.5 font-mono text-[11px] text-porcelain-accent">recall then tap</span>
                 )}
               </button>
               {isOpen && (

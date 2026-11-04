@@ -177,3 +177,21 @@ Not covered (no owner-book source): DTC membership/constitution beyond the conve
 - Study cards 062-073 and pyq tags 013/014 re-read against Sarkar OCR (p56-60, p86-90, p91-95, p226-230, p506-510), KDT8 ch6 p110-111, GG14 p167-170. All facts confirmed; no cards deleted or edited. Ladder minimums met (3/2/1 per subtopic). Validator --check clean for this topic.
 - Rapid 0137-0164 spot-checked against the same OCR pages; all answers confirmed.
 - Not verified: DTC membership (not printed in owner books); GG14 ch8 chapter number for refs taken as recorded.
+
+## Expansion pass
+
+Study cards 71 -> 111 (+40, ids 074-113). Rapid cards 156 -> 306 (+150, ids 0165-0315; one id skipped after removing a duplicate of 0152). All new cards status draft.
+
+New sources used: Golan ch52; NDCT Rules 2019 (pp 2-19); Harrison21 pp 46-112; NMC MD Pharmacology curriculum 2022 (pp 3-22); Medhi PMECP pp 122-127; Bennett & Brown Clin Pharmacol pp 53-56; GG14 ch8; KDT8 ch5.
+
+Coverage added: US drug-law history (elixir sulfanilamide, 1938 NDA, Harris-Kefauver 1962, FDAAA/REMS, FDASIA), Tuskegee; GCP definition/stakeholders/7-principle list, IRB membership and review criteria, protocol and consent-form contents, investigator undertaking, NDCT definitions (academic trial, SAE, orphan drug, BA/BE, efficacy vs effectiveness); NDCT trial-EC constitution, COI, registration, records, functions and biomedical-research EC registration; placebo/nocebo pharmacology (KDT8 ch5) and equipoise for safety studies; professionalism from Harrison (Charter, humanism, shared decision-making, capacity, moral distress, just culture, COI, industry gifts, impairment); NMC MD Pharmacology goals, theory papers, practical/OSPE structure, exam prerequisites, quarterly assessment and psychometric competencies.
+
+Book conflicts / issues (newest book wins; both noted where relevant):
+- Sarkar p156-160 garbles the sulphanilamide solvent; GG14 ch1 names diethylene glycol. Cards 074 and rapid 0165 use GG14.
+- Sarkar p246-250 (Appendix VII) says the investigator reports unexpected SAEs to the sponsor within 24 h and the EC within 7 days, while Sarkar p156-160 says the investigator reports to the licensing authority, sponsor and EC within 24 h and an analysed report follows in 14 days. Both are printed; cards state each separately and do not reconcile them.
+- Katzung16 appendix 2 prints 7 GCP principles; Sarkar p156-160 prints the 13 ICH-GCP principles. Retained as two separate lists (cards 081-082 and 020/008).
+- Ethics-committee size changed over time: Schedule Y required 7 members, ICH-GCP 5, Indian GCP recommended 5-7 (maximum 12-15), and NDCT 2019 requires 7. Card 096 and rapid 0273-0275 record the sequence.
+- Helsinki is 1964 in Sarkar and the 2013 revision in GG14 (edition, not conflict); CIOMS is first published 1993 in Sarkar and the 2002 edition is cited by Bennett (edition, not conflict).
+- The 4-year new-drug rule appears in NDCT Rules 2019 p5 and in Sarkar p91-95 for ADR relevance; only the existing rapid card 0152 is kept, to avoid a duplicate fact.
+
+Not carded: no owner book gives the composition of a drug and therapeutics committee beyond the pharmacologist convener; no book states the Belmont Report's three principles (only its justice principle, GG14 ch1).

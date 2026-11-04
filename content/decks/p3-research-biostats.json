@@ -1,6 +1,6 @@
 {
   "topicId": "p3-research-biostats",
-  "source": "Sarkar p181-210, p356-390, p506-515; RangDale9 ch8, ch16; Katzung16 appendix 2",
+  "source": "Sarkar p181-210, p356-390, p506-515; RangDale9 ch8, ch16; Katzung16 appendix 2; Medhi PMECP ch11; Ghosh FEP ch31; Harrison21 ch4, ch70; Bennett PDF p68",
   "cards": [
     {
       "id": "p3-research-biostats-001",
@@ -3141,6 +3141,773 @@
         "uses"
       ],
       "level": 2
+    },
+    {
+      "id": "p3-research-biostats-114",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-descriptive",
+      "front": "Distinguish random error from systematic error in measurement.",
+      "back": "Random error comes from imprecision: repeated readings scatter on either side of the true value, close to one another, and are amenable to statistical treatment. Systematic error comes from inaccurate or uncalibrated instruments and recurs in the same direction, so it is not corrected by statistics; recalibrating the instruments removes it.",
+      "refs": [
+        "Medhi PMECP p140",
+        "Ghosh FEP PDF p222"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-115",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-descriptive",
+      "front": "Distinguish primary from secondary data.",
+      "back": "Primary data are collected first-hand from the research experiment. Secondary data come from other sources such as published data, data collected by another individual, or other indirect sources.",
+      "refs": [
+        "Medhi PMECP p140"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-116",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-descriptive",
+      "front": "Short note: Types of data distribution",
+      "sections": [
+        {
+          "h": "Normal",
+          "points": [
+            "Continuous, symmetric bell-shaped distribution",
+            "Mean, median and mode coincide; described by the mean and SD"
+          ]
+        },
+        {
+          "h": "Binomial",
+          "points": [
+            "Only two possible outcomes, a fixed number of observations and a constant probability for each event",
+            "The curve has two peaks"
+          ]
+        },
+        {
+          "h": "Poisson",
+          "points": [
+            "Counts of a random event in a fixed interval of time or space",
+            "Events occur randomly and independently; used when the event is rare over a long observation period"
+          ]
+        },
+        {
+          "h": "Transformation",
+          "points": [
+            "Logarithm, square root or reciprocal can bring skewed data nearer normal and make the variance more uniform"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP p142-143"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-117",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-descriptive",
+      "front": "What is skewness in a distribution?",
+      "back": "Skewness is departure from symmetry: it is zero in a normal distribution, positive when the tail runs to the right (positive skew) and negative when the tail runs to the left.",
+      "refs": [
+        "Medhi PMECP p142"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-118",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-descriptive",
+      "front": "How can skewed data be made suitable for parametric tests?",
+      "back": "Apply a mathematical transformation: logarithm, square root, reciprocal or another suitable function. A transformation that brings the data nearer a normal distribution often also makes the variance more uniform. After a log transformation, the antilog of the estimated mean is the geometric mean.",
+      "refs": [
+        "Medhi PMECP p142",
+        "Medhi PMECP p145"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-119",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-descriptive",
+      "front": "How is the margin of error of a sample estimated?",
+      "back": "Take the square root of the sample size and divide 1 by it. For 30 observations the square root is 5.48, so the margin is about 0.18, or plus or minus 18%; for 40 observations it is about plus or minus 16%. Increasing the sample size reduces the margin of error.",
+      "refs": [
+        "Ghosh FEP PDF p222"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-120",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-inference",
+      "front": "What is sampling error?",
+      "back": "The difference between a value measured in the sample and the corresponding value in the population. It arises because a sample is only a subset of the population, not a replication of it.",
+      "refs": [
+        "Medhi PMECP p139"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-121",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-inference",
+      "front": "Distinguish statistical significance from practical importance.",
+      "back": "A statistically significant result is one unlikely to be due to chance alone. It need not be large enough to matter in practice: a finding can be statistically significant yet of no practical importance. Confidence intervals are preferred when the size of the effect, not only its statistical significance, is the question.",
+      "refs": [
+        "Ghosh FEP PDF p224",
+        "Medhi PMECP p145"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-122",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-inference",
+      "front": "Short note: P value versus confidence interval",
+      "sections": [
+        {
+          "h": "P value",
+          "points": [
+            "Probability that the observed result arose by chance when the null hypothesis is true",
+            "Compared with the pre-chosen significance level (alpha)"
+          ]
+        },
+        {
+          "h": "Confidence interval",
+          "points": [
+            "Range within which the true value is expected to lie in a stated proportion of samples",
+            "Has a lower and an upper confidence limit; 95% and 99% intervals are commonly used"
+          ]
+        },
+        {
+          "h": "Difference",
+          "points": [
+            "P value indicates statistical significance",
+            "Confidence interval indicates clinical significance and shows the magnitude and direction of the effect"
+          ]
+        },
+        {
+          "h": "Preference",
+          "points": [
+            "Confidence intervals are preferred in many clinical studies"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP p144-145"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-123",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-inference",
+      "front": "What is the F test for homogeneity of variance, and what follows if it fails?",
+      "back": "F is the ratio of the larger sample variance to the smaller. The calculated F is compared with the table value at the 5% level. If it exceeds the table value, variances are not homogeneous; the usual responses are logarithmic transformation before a t test, or a non-parametric test such as the Wilcoxon rank sum test.",
+      "refs": [
+        "Ghosh FEP PDF p224"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-124",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-inference",
+      "front": "What is an interim analysis, and when may a trial be stopped early?",
+      "back": "An analysis done before the planned number of patients has been enrolled, usually by an independent data monitoring team so that the trial team remains unaware of the results. The trial may stop if the result is already conclusive, or if continuing is unlikely to give a conclusive answer (futility).",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-125",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-inference",
+      "front": "What is a quality-adjusted life year (QALY)?",
+      "back": "A single measure of therapeutic benefit that combines length of survival with relief from suffering: health-related quality-of-life scores are combined with life expectancy. It is used when treatments are judged by both quantity and quality of life.",
+      "refs": [
+        "RangDale9 ch8"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-126",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-tests",
+      "front": "When is Fisher's exact test used instead of the chi-square test?",
+      "back": "For a 2 x 2 table when the sample is very small or expected frequencies are low, where the chi-square approximation is unreliable. Fisher's test calculates an exact P value directly instead of referring a statistic to a sampling distribution.",
+      "refs": [
+        "Medhi PMECP p147",
+        "Sarkar p381-385"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-127",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-tests",
+      "front": "What is MANOVA?",
+      "back": "Multiple analysis of variance: an extension of ANOVA used when there are two or more dependent variables that are related to one another. It analyses them together and is more efficient and informative than running a separate ANOVA for each outcome.",
+      "refs": [
+        "Medhi PMECP p146"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-128",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-tests",
+      "front": "Distinguish correlation from regression.",
+      "back": "Correlation measures the degree of association (covariation) between two variables and does not imply cause and effect. Regression estimates or predicts the value of a dependent variable from one or more independent variables; its main purpose is prediction.",
+      "refs": [
+        "Medhi PMECP p147",
+        "Ghosh FEP PDF p234"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-129",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-tests",
+      "front": "Short note: Types of regression",
+      "sections": [
+        {
+          "h": "Simple regression",
+          "points": [
+            "Predicts the dependent variable from a single independent variable"
+          ]
+        },
+        {
+          "h": "Multiple regression",
+          "points": [
+            "Uses any number of independent variables together"
+          ]
+        },
+        {
+          "h": "Logistic regression",
+          "points": [
+            "Predicts a dichotomous outcome such as presence or absence of an event",
+            "Its coefficients can estimate the odds ratio for each independent variable"
+          ]
+        },
+        {
+          "h": "Purpose",
+          "points": [
+            "Regression describes the strength and direction of an association and predicts an outcome",
+            "Correlation alone does not imply causation"
+          ]
+        }
+      ],
+      "refs": [
+        "Medhi PMECP p147"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-130",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-tests",
+      "front": "How is the Pearson correlation coefficient interpreted?",
+      "back": "r lies between +1 and -1. +1 is a perfect positive straight-line relationship, -1 a perfect negative one, and 0 no correlation. Scatter around an ellipse rather than a straight line gives a value below 1. Correlation indicates association, not causation.",
+      "refs": [
+        "Ghosh FEP PDF p234-235"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-131",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-tests",
+      "front": "Short note: Wilcoxon signed-rank test",
+      "sections": [
+        {
+          "h": "Use",
+          "points": [
+            "Paired before-and-after data; the non-parametric counterpart of the paired t test"
+          ]
+        },
+        {
+          "h": "Ranking",
+          "points": [
+            "Differences are ranked by absolute size, the smallest being rank 1",
+            "Tied values receive average ranks",
+            "Zero differences are excluded and the sample size reduced"
+          ]
+        },
+        {
+          "h": "Signing",
+          "points": [
+            "The sign of each difference is attached to its rank"
+          ]
+        },
+        {
+          "h": "Test",
+          "points": [
+            "Positive and negative rank sums are added separately; the smaller sum is compared with the Wilcoxon table for the number of pairs"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p232-233"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-132",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-tests",
+      "front": "Short note: Wilcoxon two-sample rank test",
+      "sections": [
+        {
+          "h": "Use",
+          "points": [
+            "Unpaired data from two groups; the groups need not be of equal size"
+          ]
+        },
+        {
+          "h": "Ranking",
+          "points": [
+            "Both samples are combined and ranked together, with average ranks for ties"
+          ]
+        },
+        {
+          "h": "Sum",
+          "points": [
+            "Ranks of one sample are added",
+            "If this exceeds half the total rank sum, the other sum is obtained from n(n + 1)/2 minus it"
+          ]
+        },
+        {
+          "h": "Test",
+          "points": [
+            "The smaller rank total is compared with the table using the two sample sizes",
+            "A value equal to or below the table value rejects the null hypothesis"
+          ]
+        }
+      ],
+      "refs": [
+        "Ghosh FEP PDF p233-234"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-133",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-tests",
+      "front": "What is Dunnett's test used for?",
+      "back": "A post hoc test used after a significant one-way ANOVA to identify which experimental groups differ from the control. It uses a modified t test based on the mean square error and the harmonic mean of the sample sizes; degrees of freedom are N minus the number of groups.",
+      "refs": [
+        "Ghosh FEP PDF p231"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-134",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "Short note: Measures of diagnostic test accuracy",
+      "sections": [
+        {
+          "h": "2 x 2 table",
+          "points": [
+            "True positives, false positives, false negatives and true negatives, defined against a gold standard"
+          ]
+        },
+        {
+          "h": "Sensitivity",
+          "points": [
+            "TP/(TP + FN), the true-positive rate",
+            "False-negative rate = 1 - sensitivity"
+          ]
+        },
+        {
+          "h": "Specificity",
+          "points": [
+            "TN/(TN + FP), the true-negative rate",
+            "False-positive rate = 1 - specificity"
+          ]
+        },
+        {
+          "h": "Predictive values",
+          "points": [
+            "Positive predictive value = a/(a + b)",
+            "Negative predictive value = d/(c + d)",
+            "Predictive values depend on prevalence, whereas sensitivity and specificity are usually regarded as independent of it"
+          ]
+        }
+      ],
+      "refs": [
+        "Harrison21 PDF p65-66",
+        "Harrison21 PDF p535"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-135",
+      "type": "cloze",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "Complete: SnNout and SpPin",
+      "refs": [
+        "Harrison21 PDF p66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ],
+      "text": "A highly {{sensitive}} test, when negative, helps {{rule out}} disease (SnNout). A highly {{specific}} test, when positive, helps {{rule in}} disease (SpPin)."
+    },
+    {
+      "id": "p3-research-biostats-136",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "What does a receiver operating characteristic (ROC) curve show?",
+      "back": "It plots sensitivity on the y axis against 1 - specificity on the x axis for every possible cut point. Each point is a threshold with its own sensitivity and specificity. The area under the curve measures diagnostic information: 0.5 means no information (like a coin flip) and 1.0 a perfect test.",
+      "refs": [
+        "Harrison21 PDF p66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-137",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "How are likelihood ratios calculated?",
+      "back": "LR for a positive test = sensitivity/(1 - specificity). LR for a negative test = (1 - sensitivity)/specificity. A positive LR above 10 usually indicates high specificity and helps rule in disease; a negative LR below 0.10 usually indicates high sensitivity and helps rule out disease.",
+      "refs": [
+        "Harrison21 PDF p66-67"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-138",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "What inputs does Bayes' rule use to estimate post-test probability?",
+      "back": "The pre-test probability of disease, the test sensitivity and the test specificity. For a positive test, post-test probability = (pre-test probability x sensitivity) / [(pre-test probability x sensitivity) + (1 - pre-test probability) x (1 - specificity)].",
+      "refs": [
+        "Harrison21 PDF p66"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-139",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "Short note: Biases of screening tests",
+      "sections": [
+        {
+          "h": "Lead-time bias",
+          "points": [
+            "Earlier diagnosis lengthens apparent survival without postponing death"
+          ]
+        },
+        {
+          "h": "Length-biased sampling",
+          "points": [
+            "Screening detects slow-growing, less aggressive cancers more readily than fast-growing ones"
+          ]
+        },
+        {
+          "h": "Overdiagnosis",
+          "points": [
+            "An extreme form of length bias: detection of tumours that would never become clinically significant"
+          ]
+        },
+        {
+          "h": "Selection bias",
+          "points": [
+            "People who volunteer for screening are healthier and have a better prognosis (healthy volunteer effect)"
+          ]
+        }
+      ],
+      "refs": [
+        "Harrison21 PDF p535"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-140",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "What is lead-time bias in screening?",
+      "back": "The patient is diagnosed earlier but death is not postponed. Survival measured from diagnosis appears longer even though life is not prolonged; the extra time is only the period of awareness of disease. It occurs whether or not screening changes the natural history.",
+      "refs": [
+        "Harrison21 PDF p535"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-141",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "What is length-biased sampling in screening, and what is overdiagnosis?",
+      "back": "Screening more easily detects slow-growing, less aggressive cancers than fast-growing ones, so screen-detected cancers have a better average prognosis. Overdiagnosis is the extreme form: detection of a 'pseudo-disease' that meets histological criteria for cancer but would never become clinically significant or cause death in the patient's remaining life.",
+      "refs": [
+        "Harrison21 PDF p535"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-142",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-evidence",
+      "front": "What is the healthy volunteer effect in screening studies?",
+      "back": "People who volunteer for screening tend to be more health conscious and to have a better prognosis or lower mortality than the general population, irrespective of the screening result. This selection bias can make screening look beneficial when it is not.",
+      "refs": [
+        "Harrison21 PDF p535"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-143",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-protocol",
+      "front": "What is a pilot study?",
+      "back": "A small study in animals or humans done before the main protocol to check the hypothesis, the procedure and the technique, with relevant background information. If the data are supportive, the protocol, actual experiment and thesis follow.",
+      "refs": [
+        "Medhi PMECP p130"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-144",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-protocol",
+      "front": "Short note: Classification of bias in clinical trials",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Any factor or process, intentional or unintentional, that systematically deviates the results or conclusions of a trial away from the truth"
+          ]
+        },
+        {
+          "h": "Before the trial",
+          "points": [
+            "Choice-of-question bias",
+            "Hidden-agenda, cost-and-convenience and funding-availability bias"
+          ]
+        },
+        {
+          "h": "During the trial",
+          "points": [
+            "Selection bias, including subversion and technical bias",
+            "Ascertainment, contamination, compliance and attrition bias"
+          ]
+        },
+        {
+          "h": "Reporting and dissemination",
+          "points": [
+            "Withdrawal bias and selective reporting bias",
+            "Publication bias"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p186-195"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-145",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-protocol",
+      "front": "Distinguish allocation concealment from blinding.",
+      "back": "Allocation concealment protects the randomisation sequence so that the next assignment is unknown before a patient enters the trial; it prevents selection bias. Blinding keeps participants, investigators, assessors or analysts unaware of the assigned treatment after allocation; it prevents ascertainment and other post-allocation biases.",
+      "refs": [
+        "Sarkar p186-195"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-146",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-protocol",
+      "front": "What is an N-of-1 trial?",
+      "back": "A multiple crossover trial, usually randomised and sometimes blinded, conducted in a single patient. Treatment is switched periodically between active drug and placebo, or between active treatments, in balanced sequences with repetition. It gives the strongest evidence of efficacy for that individual, and suits chronic stable disease with rapid drug onset and a short washout.",
+      "refs": [
+        "Sarkar p231-235"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-147",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-inference",
+      "front": "State the addition and multiplication rules of probability.",
+      "back": "Addition: for mutually exclusive events, P(A or B) = P(A) + P(B); if they are not mutually exclusive, subtract P(A and B). Multiplication: for independent events, P(A and B) = P(A) x P(B). Conditional probability is P(A|B) = P(A and B)/P(B).",
+      "refs": [
+        "Sarkar p371-375"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-148",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-epi-measures",
+      "front": "What is absolute risk reduction, and how does it relate to NNT?",
+      "back": "Absolute risk reduction is the arithmetic difference in event risk between the control and treated groups. Number needed to treat is its reciprocal: NNT = 1/ARR, the number of patients who must be treated for one additional patient to benefit.",
+      "refs": [
+        "Medhi PMECP p148",
+        "Bennett PDF p68",
+        "Harrison21 PDF p70"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-research-biostats-149",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-protocol",
+      "front": "What is a Latin square design used for?",
+      "back": "It arranges treatments so that the number of replicates (rows) equals the number of treatments (columns), and each treatment appears once in each row and once in each column. In bioassay it balances the order of administration and removes the effect of a trend, such as a progressive change in response with repeated doses.",
+      "refs": [
+        "Ghosh FEP PDF p220-221"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "uses"
+      ]
     }
   ]
 }

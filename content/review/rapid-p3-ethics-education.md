@@ -122,3 +122,16 @@ Validator (--check): no errors mention p3-ethics-education.
 ## Checker (PYQ gap pass)
 - Rapid 0137-0164 spot-checked against Sarkar p56-60, p86-90, p91-95, p226-230, p506-510; KDT8 ch6; GG14 ch8. All answers confirmed; none changed.
 - JSON parses; no Prep/RR5 refs.
+
+## Expansion pass
+
+Rapid cards 156 -> 306 (+150, ids 0165-0315; one id skipped after removing a duplicate of 0152). Every card cites a precise book or guideline page.
+
+New sources: NDCT Rules 2019 pp 2-19; Harrison21 pp 46-112; NMC MD Pharmacology curriculum pp 3-22; KDT8 ch5; GG14 ch1 and ch8; Golan ch52; Katzung16 appendix 2; Sarkar pp 156-160, 206-210, 241-250; Medhi PMECP pp 122-125; Bennett & Brown Clin Pharmacol pp 53-56.
+
+Conflicts / book issues:
+- Sarkar's sulphanilamide passage does not name the solvent clearly; GG14 ch1 names diethylene glycol, so the rapid pair uses GG14.
+- SAE timing in Sarkar p246-250 (sponsor 24 h, EC 7 days) differs from Sarkar p156-160 (24 h to authorities, analysed report in 14 days). Both are recorded as separate pairs.
+- Katzung16 gives 7 GCP principles; Sarkar gives 13 ICH-GCP principles. Both retained as different documents.
+- Ethics-committee size differs by era and regulation: Schedule Y 7, ICH-GCP 5, Indian GCP 5-7 (maximum 12-15), NDCT 2019 7.
+- One candidate pair, NDCT's 4-year new-drug rule, duplicated existing 0152 and was not added; the ID was skipped.

@@ -5,6 +5,18 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.7",
+    changes: [
+      "Night mode cards are dim and easy on the eyes: dark card, soft off-white text, no glare",
+      "Custom colours: pick your own background, panels, text, accent, card background and card text in Settings",
+      "Choose your app icon from 11 designs in Settings (iPhone: Add to Home Screen again to see it)",
+      "Paper III: 150 more study cards and 662 more Rapid Fire cards on clinical services, ethics, national programmes and research",
+      "Keyboard: Escape closes pop-ups, arrow keys move through option groups",
+      "Easier to read: no text smaller than 11px, bigger tap areas on Mastery checkboxes, even line breaks",
+      "A proper Page not found screen",
+    ],
+  },
+  {
     version: "0.5.6",
     changes: [
       "About 2,200 new study cards and 4,300 new Rapid Fire cards across all 53 topics, now 4,944 study and 21,315 Rapid Fire",

@@ -287,7 +287,7 @@ export default function MasteryMap() {
                       {paperTitle(paper)}
                     </h2>
                     {PAPER_CAPSULE[paper.id] && (
-                      <span className="rounded-full border border-rule px-2.5 py-0.5 font-mono text-[10px] uppercase tracking-[0.06em] text-ink-soft">
+                      <span className="rounded-full border border-rule px-2.5 py-0.5 font-mono text-[11px] uppercase tracking-[0.06em] text-ink-soft">
                         {PAPER_CAPSULE[paper.id]}
                       </span>
                     )}

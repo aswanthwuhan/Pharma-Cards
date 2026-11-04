@@ -313,7 +313,7 @@ export function SwipeDeck({
               className="pointer-events-none absolute inset-x-0 top-0 flex items-start justify-center rounded-t-2xl border-b border-dashed border-porcelain-rule bg-gradient-to-b from-porcelain-2 to-transparent pt-1.5"
               style={{ height: band }}
             >
-              <span className="font-mono text-[10px] whitespace-pre text-porcelain-soft">{`↑ Easy${intervals[4] ? ` · ${intervals[4]}` : ""}   ↓ Hard${intervals[2] ? ` · ${intervals[2]}` : ""}`}</span>
+              <span className="font-mono text-[11px] whitespace-pre text-porcelain-soft">{`↑ Easy${intervals[4] ? ` · ${intervals[4]}` : ""}   ↓ Hard${intervals[2] ? ` · ${intervals[2]}` : ""}`}</span>
             </div>
           )}
           {revealed && swipe && showZone && edge !== "top" && (
@@ -322,7 +322,7 @@ export function SwipeDeck({
               className="pointer-events-none absolute inset-x-0 bottom-0 flex items-end justify-center rounded-b-2xl border-t border-dashed border-porcelain-rule bg-gradient-to-t from-porcelain-2 to-transparent pb-1.5"
               style={{ height: band }}
             >
-              <span className="font-mono text-[10px] whitespace-pre text-porcelain-soft">{`↑ Easy${intervals[4] ? ` · ${intervals[4]}` : ""}   ↓ Hard${intervals[2] ? ` · ${intervals[2]}` : ""}`}</span>
+              <span className="font-mono text-[11px] whitespace-pre text-porcelain-soft">{`↑ Easy${intervals[4] ? ` · ${intervals[4]}` : ""}   ↓ Hard${intervals[2] ? ` · ${intervals[2]}` : ""}`}</span>
             </div>
           )}
 

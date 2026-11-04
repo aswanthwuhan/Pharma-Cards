@@ -223,3 +223,17 @@ Added 78 pairs (0184-0261) covering the same chapters as the study cards 077-109
 - rf-p3-research-biostats-0266 | new | RangDale9 ch8
 
 Checker pass: rf-0265 question reworded to the Sarkar p86-90 ADR definition. rf-0262 to rf-0266 re-checked against Medhi, Sarkar, KDT8 and RangDale9.
+
+## Expansion pass (agent, 2026-11-04)
+
+Added **179 rapid cards** (ids rf-p3-research-biostats-0267 onward; ids were left unrevised, so 16 gaps remain where duplicate or low-yield drafts were withdrawn). Deck now 435 cards; the 179 additions are mostly fact cards, with two class cards. Sources: Medhi PMECP p139–148, Ghosh FEP PDF p218–235, Sarkar p186–195 and p231–235, RangDale9 ch8, Harrison21 PDF p65–67 and p535.
+
+New coverage by subtopic:
+- **descriptive:** population/sample, primary/secondary data, data errors, range/variance, normal/binomial/Poisson distributions, skew, transformations, margin of error, data displays and test choice from Medhi Table 11.1.
+- **epi-measures:** absolute risk reduction and its relation to NNT.
+- **inference:** P-value limitation, confidence limits and levels, clinical vs statistical significance, sampling-error reduction, interim analysis, BHAT/CAST, QALY.
+- **tests:** F test and remedies, one-way/repeated-measures/MANOVA, t-test requirements, chi-square details, Fisher/Yates, Mann–Whitney and Wilcoxon details, regression types, Pearson r, Dunnett.
+- **evidence:** sensitivity/specificity/PPV/NPV, SnNout/SpPin, ROC/AUC, likelihood ratios, Bayes, screening biases.
+- **protocol:** bias types, allocation concealment, blinding levels, double dummy, publication bias remedy, non-inferiority/superiority/equivalence, ITT vs per-protocol, N-of-1, pilot study, Latin square, replication.
+
+Conflict notes: see the study-deck expansion section above (kurtosis convention, one-way ANOVA wording, Fisher trigger, prevalence-independence caveat). No card was written from PrepLadder material; banned-ref scan clean.

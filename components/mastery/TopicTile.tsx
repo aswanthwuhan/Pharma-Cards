@@ -63,7 +63,7 @@ export function TopicTile({
       {!noCards && rated && (
         <div className="mt-auto space-y-1.5">
           <SegmentBar {...data.seg} />
-          <div className="flex justify-between font-mono text-[10px] text-ink-soft">
+          <div className="flex justify-between font-mono text-[11px] text-ink-soft">
             <span>Subtopic breakdown</span>
             <span className="tabular-nums">{data.seenPct}% seen</span>
           </div>

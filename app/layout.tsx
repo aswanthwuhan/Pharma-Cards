@@ -30,7 +30,7 @@ export const viewport: Viewport = {
   interactiveWidget: "resizes-content",
 };
 
-const THEME_SCRIPT = `try{var s=JSON.parse(localStorage.getItem("pharmacards:theme")||"{}"),t=s.theme||"dark",r=document.documentElement;r.dataset.theme=t==="auto"?(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"):t;r.dataset.palette=s.palette||"petrol"}catch(e){}`;
+const THEME_SCRIPT = `try{var s=JSON.parse(localStorage.getItem("pharmacards:theme")||"{}"),t=s.theme||"dark",r=document.documentElement;r.dataset.theme=t==="auto"?(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"):t;r.dataset.palette=s.palette||"petrol";for(var k in s.colors||{})r.style.setProperty(k,s.colors[k]);if(s.appIcon&&s.appIcon!=="original")for(var n of["icon","apple-touch-icon"]){var l=document.querySelector('link[rel="'+n+'"]')||document.head.appendChild(Object.assign(document.createElement("link"),{rel:n}));l.href="${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/choices/"+s.appIcon+"-180.png"}}catch(e){}`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

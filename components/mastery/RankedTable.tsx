@@ -124,13 +124,15 @@ export function RankedTable({
               key={r.topic.id}
               className={`grid grid-cols-[2rem_minmax(0,1fr)_auto] items-center gap-3 px-4 py-3 sm:grid-cols-[2rem_minmax(0,2.4fr)_minmax(0,1.3fr)_4.5rem_6.5rem_6rem_4.5rem_5rem] sm:px-5 ${on ? "bg-teal-wash" : ""}`}
             >
-              <input
-                type="checkbox"
-                className="h-4 w-4 accent-teal"
-                checked={on}
-                onChange={() => onToggle(r.topic.id)}
-                aria-label={`Select ${r.topic.title}`}
-              />
+              <label className="grid h-6 w-6 cursor-pointer place-items-center">
+                <input
+                  type="checkbox"
+                  className="h-4 w-4 accent-teal"
+                  checked={on}
+                  onChange={() => onToggle(r.topic.id)}
+                  aria-label={`Select ${r.topic.title}`}
+                />
+              </label>
               <span className="min-w-0">
                 <span className="block truncate text-sm">{r.topic.title}</span>
                 <span className="mt-0.5 flex flex-wrap items-center gap-x-2 font-mono text-[11px] tabular-nums text-ink-soft sm:hidden">

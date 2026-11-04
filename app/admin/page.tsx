@@ -139,13 +139,18 @@ export default function Admin() {
         )}
 
         <div className="flex flex-wrap items-center gap-2 border-t border-rule pt-4">
-          <label className="btn-ghost cursor-pointer">
+          <label className="btn-ghost cursor-pointer focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-teal">
             Import deck JSON
-            <input type="file" accept=".json" className="hidden" onChange={(e) => {
+            <input
+              type="file"
+              accept=".json"
+              className="sr-only"
+              onChange={(e) => {
                 const file = e.target.files?.[0];
                 if (file) importDeck(file);
                 e.target.value = "";
-              }} />
+              }}
+            />
           </label>
           <button className="btn-ghost" onClick={exportOverrides}>
             Export approvals and edits

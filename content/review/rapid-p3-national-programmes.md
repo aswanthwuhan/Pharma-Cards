@@ -198,3 +198,50 @@ Prep and RR5 grep: no matches in either deck file.
 | rf-p3-national-programmes-0231 | deleted | "chronic viral infection needs antibody and T-cell responses" is not stated in any allowed book |
 
 Ids 0230 and 0231 are not renumbered. Validator: check ok. Prep and RR5 refs: none.
+
+## Expansion pass (2026-11-04)
+
+Net addition: 180 rapid cards (204 drafted, 24 removed before finalising). Deck now 412 cards (232 before this pass). Ids run 0241-0444 with gaps where duplicate drug-level cards were removed; ids were not renumbered. Per subtopic after this pass: tb 86, leprosy 60, malaria 80, vector-other 46, hiv 62, immunisation 78. New cards by subtopic: tb 42, leprosy 11, malaria 49, vector-other 24, hiv 36, immunisation 18.
+
+Sources: KDT8 ch56, ch57, ch60-63, ch70; Katzung16 appendix 2; Padmaja p660-662; Sarkar p101-110. No PrepLadder source used.
+
+| id range | status | source |
+|---|---|---|
+| rf-p3-national-programmes-0241 | ok | KDT8 ch56 |
+| rf-p3-national-programmes-0242 to 0251 | ok | Padmaja p661 |
+| rf-p3-national-programmes-0252 to 0277 | ok | KDT8 ch56 |
+| rf-p3-national-programmes-0294 to 0298 | ok | KDT8 ch56 |
+| rf-p3-national-programmes-0299 to 0300 | ok | Padmaja p662 |
+| rf-p3-national-programmes-0301 | ok | Katzung16 appendix 2 |
+| rf-p3-national-programmes-0302 to 0309 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0310 to 0313 | ok | Padmaja p662 |
+| rf-p3-national-programmes-0314 to 0353 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0355 to 0356 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0359 to 0361 | ok | KDT8 ch61 |
+| rf-p3-national-programmes-0362 | ok | Katzung16 appendix 2 |
+| rf-p3-national-programmes-0363 to 0374 | ok | KDT8 ch62 |
+| rf-p3-national-programmes-0375 to 0385 | ok | KDT8 ch63 |
+| rf-p3-national-programmes-0386 | ok | KDT8 ch60 |
+| rf-p3-national-programmes-0387 to 0389 | ok | Padmaja p662 |
+| rf-p3-national-programmes-0392 to 0423 | ok | KDT8 ch60 |
+| rf-p3-national-programmes-0427 to 0430 | ok | Padmaja p660 |
+| rf-p3-national-programmes-0431 to 0434 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0435 | ok | Sarkar p101-105 |
+| rf-p3-national-programmes-0436 to 0437 | ok | Sarkar p106-110 |
+| rf-p3-national-programmes-0438 to 0440 | ok | Sarkar p101-105 |
+| rf-p3-national-programmes-0441 to 0444 | ok | Padmaja p661 |
+
+Removed before finalising (not renumbered): six drug-level cards that duplicated material in p3-antiparasitic or p3-antifungal-viral — lumefantrine metabolism, artemether-lumefantrine in pregnancy, piperaquine half-life, dolutegravir with nevirapine/etravirine, raltegravir with rifampin, raltegravir with calcium/magnesium antacids. Also removed the two conflicting NACP launch-year cards (KDT8 1992 versus Padmaja 1987) and 16 TB drug-level cards better covered in p3-tb-leprosy. No id is reused.
+
+### Conflicts and limits (expansion pass)
+
+- NTEP intensive phase: Katzung16 appendix 2 says 4 drugs for 4 months; KDT8 ch56 and Padmaja p661 say 2 months. Cards follow KDT8/Padmaja.
+- End TB Strategy: Katzung16 appendix 2 says WHA approval in 2014; KDT8 ch56 says WHO launched it in 2016. The 2014 approval is not carded here.
+- NACP launch year: KDT8 ch60 says 1992; Padmaja p662 says 1987. No launch-year card was kept.
+- Primaquine in malaria: Katzung16 appendix 2 says 14 days for all cases; KDT8 ch61 gives 14 days for vivax and a single gametocidal dose for falciparum. Cards follow KDT8.
+- Filariasis "more than 600 million" (Katzung16 appendix 2): wording implausible; not carded.
+- Kala-azar miltefosine: NVBDCP 100 mg/day above 25 kg versus WHO 150 mg/day above 50 kg (KDT8 ch62); both carded as programme versus WHO doses.
+- Leprosy spelling: Katzung16 appendix 2 prints "Nikust 2.0"; the existing card uses that spelling.
+- AEFI: Sarkar p101-105 reports 395 serious AEFIs in 2010 versus 55 in 2006; carded as reported.
+
+Cross-deck note: several regimen cards overlap in theme with p3-tb-leprosy, p3-antiparasitic and p3-antifungal-viral. All question wording in this deck is distinct (no exact duplicate q across those decks, checked); the overlap is thematic only.

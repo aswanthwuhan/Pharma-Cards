@@ -12,6 +12,7 @@ import type { FlashCard } from "@/lib/types";
 import { GradeDock, gradeCurrentCard, SwipeDeck } from "./SwipeDeck";
 import { NavBack } from "./NavBack";
 import { ProgressRing } from "./ProgressRing";
+import { radioKeyNav } from "./settings/controls";
 
 const NO_INTERVALS: Record<number, string> = { 1: "", 2: "", 3: "", 4: "" };
 const ARROW: Record<string, SwipeGrade> = { ArrowLeft: 1, ArrowDown: 2, ArrowRight: 3, ArrowUp: 4 };
@@ -41,6 +42,7 @@ export function RapidFireSession({
   const [log, setLog] = useState<{ card: FlashCard; knew: boolean; undo: ReviewUndo }[]>([]);
   const shownAt = useRef(Date.now());
   const busy = useRef(false);
+  const dirRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const card = cards[i];
   const done = i >= cards.length;
   // Streaks come from the log, so Undo and "drill missed" keep them right.
@@ -99,7 +101,8 @@ export function RapidFireSession({
         e.preventDefault();
         setFlipped((f) => !f);
       } else if (flipped && ["1", "2", "3", "4"].includes(e.key)) gradeCurrentCard(Number(e.key) as SwipeGrade);
-      else if (flipped && ARROW[e.key]) {
+      else if (flipped && ARROW[e.key] && !(e.target as HTMLElement)?.closest?.("[role=radiogroup]")) {
+        // Arrows inside a radiogroup belong to the group (direction picker), not to grading.
         e.preventDefault();
         gradeCurrentCard(ARROW[e.key]);
       }
@@ -136,12 +139,20 @@ export function RapidFireSession({
           ["reverse", "A → Q"],
           ["mixed", "Mixed"],
         ] as const
-      ).map(([d, label]) => (
+      ).map(([d, label], idx, all) => (
         <button
           key={d}
+          ref={(el) => {
+            dirRefs.current[idx] = el;
+          }}
           role="radio"
           aria-checked={direction === d}
+          tabIndex={direction === d ? 0 : -1}
           onClick={() => onDirection(d)}
+          onKeyDown={(e) => {
+            const n = radioKeyNav(e, idx, all.length, (i) => onDirection(all[i][0]));
+            if (n !== null) dirRefs.current[n]?.focus();
+          }}
           className={`min-h-9 rounded-full px-3 font-mono ${direction === d ? "bg-teal font-semibold text-on-teal" : "text-ink-soft"}`}
         >
           {label}
@@ -246,7 +257,7 @@ export function RapidFireSession({
           showZone={settings.swipeZoneVisible}
           render={(revealed) => (
             <div className="flex min-h-full flex-col">
-              <div className="flex items-center justify-between gap-3 px-5 pt-2 font-mono text-[10px] tracking-wide text-porcelain-soft uppercase">
+              <div className="flex items-center justify-between gap-3 px-5 pt-2 font-mono text-[11px] text-porcelain-soft">
                 <span>
                   {topicById.get(card.topicId)?.title}
                   {sub ? ` / ${sub}` : ""}
@@ -266,9 +277,9 @@ export function RapidFireSession({
                         ))}
                       </ul>
                     ) : (
-                      <p className="text-xl font-semibold text-[#1f5c48]">{card.back}</p>
+                      <p className="text-xl font-semibold text-porcelain-accent">{card.back}</p>
                     )}
-                    <p className="mt-4 font-mono text-[10px] text-porcelain-soft">{card.refs?.join(", ")}</p>
+                    <p className="mt-4 font-mono text-[11px] text-porcelain-soft">{card.refs?.join(", ")}</p>
                   </div>
                 ) : (
                   <p className="mt-6 font-mono text-xs text-porcelain-soft">Tap to flip</p>

@@ -201,7 +201,7 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
           <NavBack />
           <ProgressRing value={i} max={cards.length} />
           <div className="min-w-0 flex-1">
-            <p className="font-serif text-base leading-snug">{title}</p>
+            <h1 className="font-serif text-base leading-snug">{title}</h1>
             <p className="font-mono text-[11px] text-ink-soft">
               Card {i + 1} of {cards.length} · {Math.round(progress)}%
             </p>
@@ -276,7 +276,7 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
             </button>
           </span>
         ) : revealed && settings.swipe ? (
-          <span className="font-mono text-[10px] text-ink-soft">Swipe ← Forgot · → Good · from the edge ↑ Easy ↓ Hard</span>
+          <span className="font-mono text-[11px] text-ink-soft">Swipe ← Forgot · → Good · from the edge ↑ Easy ↓ Hard</span>
         ) : null}
       </div>
 

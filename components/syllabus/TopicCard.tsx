@@ -55,7 +55,7 @@ export function TopicCard({ topic, cardCount, mastery, subtopicMastery, seen, du
             </span>
             {weak && (
               <span
-                className="shrink-0 rounded-full border px-2 py-px font-mono text-[10px] font-medium tracking-[0.04em] uppercase"
+                className="shrink-0 rounded-full border px-2 py-px font-mono text-[11px] font-medium tracking-[0.04em] uppercase"
                 style={{ borderColor: "var(--color-weak)", color: "var(--color-weak)" }}
               >
                 Weak

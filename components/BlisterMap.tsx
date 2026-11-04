@@ -48,7 +48,7 @@ export function BlisterMap({
                 </span>
               );
               const name = (
-                <span className={`line-clamp-2 text-center text-[10px] leading-tight ${n ? "text-ink-soft" : "text-ink-soft/50"}`}>
+                <span className={`line-clamp-2 text-center text-[11px] leading-tight ${n ? "text-ink-soft" : "text-ink-soft/50"}`}>
                   {t.title.replace(/^PK: /, "PK ").split(/[,&:(]/)[0].trim()}
                 </span>
               );

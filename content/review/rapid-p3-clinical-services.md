@@ -134,3 +134,24 @@ Gap from SOURCE-GAPS.md: Prescription-audit method (planning, sampling, scoring,
 - 0274 corrected: q/a reworded to match GG12 PDF p1912 (ask intent, negotiate commitment); "first action at start of therapy" removed as unsourced.
 - 0275 corrected: "most common non-drug cause" removed (GG12 PDF p818 lists two causes without ranking).
 - 0267 to 0273, 0275 (fact), 0268 to 0272: verified.
+
+## Expansion pass (books-only, 2026-11-03)
+
+Rapid cards: 424 total, **+153** added (rf-p3-clinical-services-0276 to -0428). No duplicate `q`, no `q === a`, no deletion.
+
+| Subtopic | Added |
+|---|---|
+| DTC and hospital formulary | 20 |
+| Drug information services | 26 |
+| Medication errors | 25 |
+| Polypharmacy and deprescribing | 30 |
+| Antimicrobial stewardship | 30 |
+| Prescription audit and counselling | 22 |
+
+Sources: Bennett & Brown Clin Pharmacol (PDF p23, p33-38, p42), Harrison 21 (PDF p289, p1059, p1194, p1203-1204, p3791-3792), Davidson 24 (PDF p139), GG12 ch4, Padmaja (PDF p95-96, p558), Satoskar (PDF p48, p52-53). All are owner books; no PrepLadder refs.
+
+New coverage includes: formulary types and escape clause; primary/secondary/tertiary drug information sources and official/non-official compendia; adr-event severity split and hospital administration error rates; union of Harrison geriatric prescribing and deprescribing lists; Harrison's three core stewardship strategies plus outpatient core elements; and Bennett's prescription-writing and adherence-measurement detail.
+
+Conflicts/nuances: none direct. Bennett's statement that age itself is insignificant for compliance coexists with Harrison's list of cognitive, hearing and vision barriers (the impairment is the barrier). Harrison's five-to-nine drug threshold and Sarkar's five-or-more threshold are both recorded. Antibiogram **use** is now sourced (Harrison 21); its preparation method remains a book gap.
+
+JSON check: parses; ids unique (0276-0428); every card has a valid subtopic and non-empty refs. `validate-content.mjs` not run, per instruction.

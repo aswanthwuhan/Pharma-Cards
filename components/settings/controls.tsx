@@ -1,6 +1,27 @@
 "use client";
 
-import { useEffect, useState, type InputHTMLAttributes } from "react";
+import { useEffect, useRef, useState, type InputHTMLAttributes } from "react";
+
+/**
+ * WAI-ARIA radiogroup keys: arrows step (wrapping), Home/End jump. Calls select(i) and
+ * returns the new index so the caller can move focus; returns null for other keys.
+ */
+export function radioKeyNav(
+  e: { key: string; preventDefault: () => void },
+  index: number,
+  count: number,
+  select: (i: number) => void,
+): number | null {
+  let next: number | null = null;
+  if (e.key === "ArrowRight" || e.key === "ArrowDown") next = (index + 1) % count;
+  else if (e.key === "ArrowLeft" || e.key === "ArrowUp") next = (index - 1 + count) % count;
+  else if (e.key === "Home") next = 0;
+  else if (e.key === "End") next = count - 1;
+  if (next === null) return null;
+  e.preventDefault();
+  select(next);
+  return next;
+}
 
 /** A settings group: mono eyebrow heading, then rows separated by hairlines. */
 export function Panel({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
@@ -67,16 +88,28 @@ export function Segmented<T extends string>({
   options: { value: T; label: string }[];
   onChange: (v: T) => void;
 }) {
+  const refs = useRef<(HTMLButtonElement | null)[]>([]);
+  // Roving tabindex: only the selected option is in the Tab order (first one if none matches).
+  const anyOn = options.some((o) => o.value === value);
   return (
-    <div role="group" aria-label={label} className="inline-flex rounded-full border border-rule bg-well p-1">
-      {options.map((o) => {
+    <div role="radiogroup" aria-label={label} className="inline-flex rounded-full border border-rule bg-well p-1">
+      {options.map((o, idx) => {
         const on = o.value === value;
         return (
           <button
             key={o.value}
+            ref={(el) => {
+              refs.current[idx] = el;
+            }}
             type="button"
-            aria-pressed={on}
+            role="radio"
+            aria-checked={on}
+            tabIndex={on || (!anyOn && idx === 0) ? 0 : -1}
             onClick={() => onChange(o.value)}
+            onKeyDown={(e) => {
+              const n = radioKeyNav(e, idx, options.length, (i) => onChange(options[i].value));
+              if (n !== null) refs.current[n]?.focus();
+            }}
             className={`min-h-11 rounded-full px-5 text-sm font-semibold transition-colors duration-150 ${
               on ? "bg-teal text-on-teal" : "text-ink-soft hover:text-ink"
             }`}

@@ -8,10 +8,10 @@ import type { FlashCard, Section } from "@/lib/types";
 
 // Each card type has its own colour and name, like the strip on a drug label.
 export const CARD_TYPE: Record<string, { label: string; color: string }> = {
-  basic: { label: "Recall", color: "#1f7a5c" },
-  shortnote: { label: "Short note, 5 marks", color: "#4c5bd4" },
-  essay: { label: "Long essay · 10 marks", color: "#a63d73" },
-  cloze: { label: "Fill the blanks", color: "#8a5a12" },
+  basic: { label: "Recall", color: "var(--color-type-recall)" },
+  shortnote: { label: "Short note, 5 marks", color: "var(--color-type-short)" },
+  essay: { label: "Long essay · 10 marks", color: "var(--color-type-essay)" },
+  cloze: { label: "Fill the blanks", color: "var(--color-type-cloze)" },
 };
 
 /**
@@ -38,7 +38,7 @@ export function CardView({
     <div className="px-5 pt-5 pb-6 sm:px-7 sm:pt-6">
       <div className="flex flex-wrap items-center gap-2">
         {aside && <span className="order-last ml-auto">{aside}</span>}
-        <span className="rounded-full px-2 py-0.5 font-mono text-[11px] font-semibold text-porcelain" style={{ background: t.color }}>
+        <span className="rounded-full px-2 py-0.5 font-mono text-[11px] font-semibold text-white" style={{ background: t.color }}>
           {t.label}
         </span>
         {card.pyq?.map((p, i) => (
@@ -51,7 +51,7 @@ export function CardView({
           <span className="rounded-full border border-porcelain-rule px-2 py-0.5 font-mono text-[11px] text-porcelain-soft">Unreviewed draft</span>
         )}
       </div>
-      <p className="mt-3 font-mono text-[11px] tracking-wide text-porcelain-soft uppercase">
+      <p className="mt-3 font-mono text-[11px] text-porcelain-soft">
         {topicById.get(card.topicId)?.title}
         {sub ? ` / ${sub}` : ""}
       </p>
@@ -110,7 +110,7 @@ function Sections({ sections }: { sections: Section[] }) {
     <div className="space-y-3">
       {sections.map((s, i) => (
         <section key={i} className="rounded-lg bg-porcelain-2/70 px-4 py-3">
-          <h3 className="font-mono text-xs font-semibold tracking-wide text-[#1f5c48] uppercase">{s.h}</h3>
+          <h3 className="font-mono text-xs font-semibold tracking-wide text-porcelain-accent uppercase">{s.h}</h3>
           <ul className="mt-1.5 ml-4 list-disc space-y-1 text-[16px] leading-snug marker:text-porcelain-soft">
             {s.points.map((p, j) => (
               <li key={j}>{p}</li>
@@ -130,7 +130,7 @@ function Cloze({ text, revealed }: { text: string; revealed: boolean }) {
         const m = p.match(/^\{\{(.+?)\}\}$/);
         if (!m) return <span key={i}>{p}</span>;
         return revealed ? (
-          <mark key={i} className="rounded bg-[#d6efe3] px-1 font-semibold text-[#14523f]">
+          <mark key={i} className="rounded bg-porcelain-accent-wash px-1 font-semibold text-porcelain-accent">
             {m[1]}
           </mark>
         ) : (

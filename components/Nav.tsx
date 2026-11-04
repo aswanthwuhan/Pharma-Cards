@@ -86,7 +86,7 @@ export function Nav() {
             key={l.href}
             href={l.href}
             aria-current={active(l.href) ? "page" : undefined}
-            className={`flex min-h-14 flex-1 flex-col items-center justify-center gap-1 font-mono text-[10px] tracking-wide uppercase ${active(l.href) ? "text-teal" : "text-ink-soft"}`}
+            className={`flex min-h-14 flex-1 flex-col items-center justify-center gap-1 font-mono text-[11px] tracking-wide uppercase ${active(l.href) ? "text-teal" : "text-ink-soft"}`}
           >
             <Icon d={l.icon} />
             {l.label}

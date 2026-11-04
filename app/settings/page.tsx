@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { DraftInput, Panel, Row, Segmented, Toggle } from "@/components/settings/controls";
 import { DataPanel } from "@/components/settings/DataPanel";
-import { PALETTES, updateSetting, useSettings } from "@/lib/settings";
+import { APP_ICONS, CUSTOM_COLORS, PALETTES, appIconHref, updateSetting, useSettings, type CustomColor, type Settings } from "@/lib/settings";
 import { useAllCards } from "@/lib/store";
 
 /** Whole days from today to an ISO date (local calendar days). */
@@ -15,11 +16,107 @@ function daysUntil(iso: string) {
   return Math.round((target - today.getTime()) / 86_400_000);
 }
 
+/** Colour pickers over the palette. Each shows the effective colour (custom or palette) read from <html>. */
+function CustomColors({ s }: { s: Settings }) {
+  const custom = s.customColors ?? {};
+  const [effective, setEffective] = useState<Record<string, string>>({});
+  useEffect(() => {
+    // next task: ThemeApplier (a parent, so its effect runs after this one) has applied the theme by then.
+    // Not requestAnimationFrame: it never fires in a hidden tab, leaving every picker black.
+    const id = setTimeout(() => {
+      const cs = getComputedStyle(document.documentElement);
+      setEffective(Object.fromEntries(Object.values(CUSTOM_COLORS).map(({ cssVar }) => [cssVar, cs.getPropertyValue(cssVar).trim()])));
+    });
+    return () => clearTimeout(id);
+  }, [s.theme, s.palette, JSON.stringify(custom)]); // eslint-disable-line react-hooks/exhaustive-deps
+  const timer = useRef<ReturnType<typeof setTimeout>>(undefined);
+  // dragging fires many input events: preview the colour at once, save once the drag pauses
+  const [draft, setDraft] = useState<Partial<Record<CustomColor, string>>>({});
+  const preview = (k: CustomColor, v: string) => {
+    setDraft((d) => ({ ...d, [k]: v }));
+    document.documentElement.style.setProperty(CUSTOM_COLORS[k].cssVar, v);
+    clearTimeout(timer.current);
+    timer.current = setTimeout(() => set(k, v), 250);
+  };
+  const set = (k: CustomColor, v?: string) => {
+    const next = { ...custom };
+    if (v) next[k] = v;
+    else {
+      delete next[k];
+      setDraft(({ [k]: _, ...d }) => d);
+    }
+    updateSetting("customColors", next);
+  };
+  const keys = Object.keys(CUSTOM_COLORS) as CustomColor[];
+  return (
+    <div className="border-t border-rule px-4 py-4 sm:px-5">
+      <div className="mb-3 flex items-start justify-between gap-4">
+        <div>
+          <p className="font-semibold">Custom colours</p>
+          <p className="text-sm text-ink-soft">Override any colour of the theme above. Applies in Night and Day mode.</p>
+        </div>
+        <button
+          onClick={() => {
+            setDraft({});
+            updateSetting("customColors", {});
+          }}
+          disabled={!keys.some((k) => custom[k])}
+          className="min-h-11 shrink-0 rounded-lg border border-rule px-3 text-sm hover:border-teal disabled:opacity-40 disabled:hover:border-rule"
+        >
+          Reset all
+        </button>
+      </div>
+      <ul className="grid gap-1 sm:grid-cols-2 sm:gap-x-6">
+        {keys.map((k) => {
+          const { cssVar, label } = CUSTOM_COLORS[k];
+          const value = draft[k] ?? custom[k] ?? effective[cssVar] ?? "";
+          return (
+            <li key={k} className="flex min-h-11 items-center gap-3">
+              <input
+                type="color"
+                aria-label={`${label} colour`}
+                value={/^#[0-9a-f]{6}$/i.test(value) ? value : "#000000"}
+                onChange={(e) => preview(k, e.target.value)}
+                className="h-9 w-11 shrink-0 cursor-pointer rounded-md border border-rule bg-transparent"
+              />
+              <span className="flex-1 text-sm">
+                {label}
+                {custom[k] && <span className="ml-2 font-mono text-xs text-ink-soft">custom</span>}
+              </span>
+              {custom[k] && (
+                <button onClick={() => set(k)} aria-label={`Reset ${label} colour`} className="min-h-11 px-2 text-sm text-ink-soft hover:text-ink">
+                  Reset
+                </button>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
+
 function daysLeftText(n: number) {
   if (n > 1) return `${n} days left`;
   if (n === 1) return "1 day left";
   if (n === 0) return "Exam today";
   return "Exam date has passed";
+}
+
+/** Roving focus for role="radio" groups: arrows and Home/End move focus and select, like native radios. */
+function onRadioKeyDown(e: KeyboardEvent<HTMLDivElement>) {
+  if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End"].includes(e.key)) return;
+  const items = Array.from(e.currentTarget.querySelectorAll<HTMLButtonElement>('[role="radio"]'));
+  const i = items.indexOf(document.activeElement as HTMLButtonElement);
+  if (i < 0) return;
+  const perRow = items.findIndex((b) => b.offsetTop !== items[0].offsetTop); // grid columns, read from layout
+  const cols = perRow < 0 ? items.length : perRow;
+  const next =
+    e.key === "Home" ? 0 : e.key === "End" ? items.length - 1 : e.key === "ArrowLeft" ? i - 1 : e.key === "ArrowRight" ? i + 1 : e.key === "ArrowUp" ? i - cols : i + cols;
+  if (next < 0 || next >= items.length) return;
+  e.preventDefault();
+  items[next].focus();
+  items[next].click();
 }
 
 export default function SettingsPage() {
@@ -249,7 +346,7 @@ export default function SettingsPage() {
             <div className="px-4 pb-4 sm:px-5">
               <p className="mb-1 font-semibold">Colour theme</p>
               <p className="mb-3 text-sm text-ink-soft">Mastery colours (weak, moderate, strong) stay the same in every theme.</p>
-              <div className="grid grid-cols-2 gap-2 sm:grid-cols-3" role="radiogroup" aria-label="Colour theme">
+              <div className="grid grid-cols-2 gap-2 sm:grid-cols-3" role="radiogroup" aria-label="Colour theme" onKeyDown={onRadioKeyDown}>
                 {PALETTES.map((p) => {
                   const on = s.palette === p.id;
                   const sw = s.theme === "light" ? p.day : p.night;
@@ -258,6 +355,7 @@ export default function SettingsPage() {
                       key={p.id}
                       role="radio"
                       aria-checked={on}
+                      tabIndex={on ? 0 : -1}
                       onClick={() => updateSetting("palette", p.id)}
                       className={`flex min-h-11 flex-col gap-2 rounded-xl border p-3 text-left transition-colors ${on ? "border-teal bg-teal-wash" : "border-rule bg-well hover:border-teal"}`}
                     >
@@ -275,6 +373,31 @@ export default function SettingsPage() {
                 })}
               </div>
             </div>
+            <div className="px-4 pb-4 sm:px-5">
+              <p className="mb-3 font-semibold">App icon</p>
+              <div className="grid grid-cols-4 gap-2 sm:grid-cols-6" role="radiogroup" aria-label="App icon" onKeyDown={onRadioKeyDown}>
+                {APP_ICONS.map((ic) => {
+                  const on = s.appIcon === ic.id;
+                  return (
+                    <button
+                      key={ic.id}
+                      role="radio"
+                      aria-checked={on}
+                      aria-label={ic.label}
+                      tabIndex={on ? 0 : -1}
+                      onClick={() => updateSetting("appIcon", ic.id)}
+                      className={`rounded-xl p-1.5 transition-colors ${on ? "ring-2 ring-teal" : "hover:bg-teal-wash"}`}
+                    >
+                      <img src={appIconHref(ic.id, 180)} alt="" loading="lazy" className="aspect-square w-full rounded-[22%]" />
+                    </button>
+                  );
+                })}
+              </div>
+              <p className="mt-3 text-sm text-ink-soft">
+                On iPhone, the new icon shows after you Add to Home Screen again. Installed Android and desktop apps keep their original icon.
+              </p>
+            </div>
+            <CustomColors s={s} />
           </Panel>
         </div>
 

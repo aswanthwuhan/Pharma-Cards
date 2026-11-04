@@ -268,3 +268,21 @@ Source list: content/pyq/questions.json, UHSR 2025 paper III (year and marks as 
 Notes: the new cards 110 and 113 are basic cards, not essays, because the question is a define-and-differentiate item. The Sarkar and KDT8 wording was paraphrased.
 
 Checker pass: card 110 back rewritten to the KDT8 ch5 and Sarkar p86-90 wording (ADR and adverse event only; the generic "adverse effect" line had no book source). Card 113 back trimmed so it does not claim more than KDT8 ch5 p102 states. Rapid rf-0265 question reworded to the Sarkar p86-90 ADR definition. Cards 110-113 and rf-0262 to rf-0266 re-checked against the owner PDFs and OCR.
+
+## Expansion pass (agent, 2026-11-04)
+
+Added **36 study cards** (ids 114–149), all `status: draft`. Deck now 136 cards. Sources: Medhi PMECP ch11 (p139–148), Ghosh FEP PDF p218–235, Sarkar p186–195 and p231–235, RangDale9 ch8, Harrison21 PDF p65–67 and p535, Bennett PDF p68.
+
+Coverage added:
+- **Descriptive:** random vs systematic measurement error; primary vs secondary data; normal/binomial/Poisson distributions; skewness; data transformation and geometric mean; margin of error.
+- **Inference:** sampling error; statistical vs practical significance; P value vs confidence interval; F test for homogeneity of variance; interim analysis and early stopping; QALY.
+- **Tests:** Fisher exact test; MANOVA; correlation vs regression; types of regression; Pearson r; Wilcoxon signed-rank and two-sample rank tests; Dunnett's test.
+- **Evidence:** diagnostic accuracy (sensitivity, specificity, PPV, NPV); SnNout/SpPin; ROC and AUC; likelihood ratios; Bayes' rule; screening biases (lead-time, length bias, overdiagnosis, healthy volunteer effect).
+- **Protocol:** pilot study; classification of bias; allocation concealment vs blinding; N-of-1 trial; probability rules; Latin square design.
+
+Book conflicts / issues:
+- Medhi PMECP p142 gives kurtosis of a normal distribution as zero (excess-kurtosis convention). The kurtosis cards were removed rather than teaching a convention-dependent number.
+- Medhi PMECP p146 describes one-way ANOVA as comparing two or more levels of one factor; Sarkar p376–380 defines it as three or more means. The rapid card follows Sarkar and cites it; Medhi itself notes that with two groups ANOVA gives the same result as a t test. Both positions logged.
+- Medhi PMECP p147 uses small sample size as the trigger for Fisher's exact test, while Sarkar p381–385 uses expected cell frequency <5. The cards cite both and state "very small sample or low expected frequencies".
+- Harrison21 p535 calls sensitivity and specificity prevalence-independent but p67 notes this assumption is often incorrect in practice; the rapid card is worded "usually stated as independent".
+- No PrepLadder source was used. Every new ref was checked for the banned `RapidRev|RR5|Prep` patterns.

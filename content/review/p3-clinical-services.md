@@ -209,3 +209,41 @@ Notes:
 - 075 corrected: removed invented definitions ("carries out instructions as given", "shared or used for another purpose", "route, duplication"); noncompliance forms now match GG12 p1911. Dropped unverified Katzung16 ch66 ref. Added Bennett PDF p35.
 - 076 corrected: night-shift example attributed to GG12 PDF p1912; dropped unverified Katzung16 ch66 ref.
 - 072, 073, 074, 077 verified against GG12 PDF p1911-1913 as written.
+
+## Expansion pass (books-only, 2026-11-03)
+
+Study cards: 106 total, **+36** added (ids p3-clinical-services-078 to -113). Rapid cards: 424 total, **+153** added (ids rf-p3-clinical-services-0276 to -0428). All status draft; no deletions.
+
+### New study cards by subtopic
+
+| Subtopic | Added | Ids |
+|---|---|---|
+| DTC and hospital formulary | 6 | 078-083 |
+| Drug information services | 7 | 084-090 |
+| Medication errors | 6 | 091-096 |
+| Polypharmacy and deprescribing | 7 | 097-103 |
+| Antimicrobial stewardship | 7 | 104-110 |
+| Prescription audit and counselling | 3 | 111-113 |
+
+New rapid cards by subtopic: dtc-formulary 20, drug-info 26, med-errors 25, polypharmacy 30, stewardship 30, audit-counselling 22.
+
+### Sources used
+
+Bennett & Brown Clin Pharmacol (PDF p23-42), Harrison 21 (PDF p289, p1059, p1194, p1203-1204, p3791-3792), Davidson 24 (PDF p139), GG12 ch4, Padmaja (PDF p95-96, p558), Satoskar (PDF p48, p52-53). No PrepLadder material is cited.
+
+### Gaps filled and remaining
+
+- Antibiogram preparation/use was logged as a gap. Harrison 21 now supports its **use** (local laboratory antibiogram, annual/half-yearly, ICU-specific); the preparation method is still not described in a book.
+- Hospital formulary process was partial. Bennett now supports formulary types, the local DTC as chooser, the escape clause and computerised formulary support. A full step-by-step selection/review process is still not described.
+- Crash-cart contents remain unsupported by a new book passage in this pass.
+
+### Book conflicts / nuances
+
+- No direct contradiction between the new sources.
+- Bennett p37 calls age itself (except extremes), sex, intelligence and education insignificant for compliance; Harrison 21 p3792 lists cognitive impairment, poor hearing and poor vision as adherence barriers in older patients. These are compatible: the impairment, not age itself, is the barrier.
+- Bennett p23 gives the US medical-error death estimate (44,000-98,000); it is an older estimate and is presented only as Bennett's figure, not as current epidemiology.
+- Harrison 21 p3791 uses a polypharmacy threshold of five to nine drugs; Sarkar uses five or more. Both are recorded as thresholds, not treated as a conflict.
+
+### JSON check
+
+Both files parse with `node -e "JSON.parse(...)"`; no duplicate study fronts, rapid q's or ids; every new card has a valid subtopic, 1-3 valid tags (study) and non-empty refs. `validate-content.mjs` was not run, per instruction.

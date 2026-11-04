@@ -15,5 +15,6 @@ Areas that rely mainly on group 3:
 - Sample-size formulas and Z values (p3-research-biostats)
 - General Child-Pugh dosing approach (p1-special-populations)
 - AYUSH pharmacopoeias (p2-herbal)
+- The last past-paper questions with no owner-book source, listed in `content/pyq/NO-SOURCE.md` (owner approved 2026-11-04): cards may use WEB sources from the approved list, else `UNSOURCED - owner must verify`
 
 To replace an unsourced card with a sourced one, put the relevant PDF in `C:\Pharmacology Book\` and ask for the card to be re-grounded.

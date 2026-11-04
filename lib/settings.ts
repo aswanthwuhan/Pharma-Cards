@@ -20,7 +20,44 @@ export interface Settings {
   motion: MotionSetting; // full = always animate, system = follow the phone, reduced = never
   essayStyle: "ladder" | "rail"; // long-essay answers: heading ladder (B) or progress rail (A)
   palette: Palette;
+  appIcon: string; // home-screen icon id, "original" or an APP_ICONS id
+  customColors: Partial<Record<CustomColor, string>>; // user overrides (hex) on top of the palette
 }
+
+/** Home-screen icon choices. "original" = public/icons/icon-*.png; the rest live in public/icons/choices. */
+export const APP_ICONS: { id: string; label: string }[] = [
+  { id: "original", label: "Original" },
+  { id: "01-teal-coral", label: "Teal & coral" },
+  { id: "02-indigo-amber", label: "Indigo & amber" },
+  { id: "03-teal-amber", label: "Teal & amber" },
+  { id: "04-indigo-coral", label: "Indigo & coral" },
+  { id: "05-teal-coral-check", label: "Teal & coral, check" },
+  { id: "06-indigo-amber-spark", label: "Indigo & amber, spark" },
+  { id: "07-teal-coral-blister", label: "Teal & coral, blister" },
+  { id: "08-indigo-amber-blister", label: "Indigo & amber, blister" },
+  { id: "09-teal-amber-check", label: "Teal & amber, check" },
+  { id: "10-indigo-coral-spark", label: "Indigo & coral, spark" },
+];
+
+/** Icon URL for an app icon id at 180 (apple-touch) or 512 px. */
+export function appIconHref(id: string, size: 180 | 512): string {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  if (id === "original") return `${base}/icons/icon-${size === 180 ? 192 : 512}.png`;
+  return `${base}/icons/choices/${id}-${size}.png`;
+}
+
+/** User-overridable colours: key -> CSS variable it sets on <html>. */
+export const CUSTOM_COLORS = {
+  paper: { cssVar: "--color-paper", label: "Background" },
+  sheet: { cssVar: "--color-sheet", label: "Panels" },
+  ink: { cssVar: "--color-ink", label: "Text" },
+  inkSoft: { cssVar: "--color-ink-soft", label: "Secondary text" },
+  accent: { cssVar: "--color-teal", label: "Accent" },
+  cardBg: { cssVar: "--color-porcelain", label: "Card background" },
+  cardText: { cssVar: "--color-porcelain-ink", label: "Card text" },
+  cardSoft: { cssVar: "--color-porcelain-soft", label: "Card secondary text" },
+} as const;
+export type CustomColor = keyof typeof CUSTOM_COLORS;
 
 export type MotionSetting = "full" | "system" | "reduced";
 
@@ -50,6 +87,8 @@ export const DEFAULT_SETTINGS: Settings = {
   motion: "full",
   essayStyle: "ladder",
   palette: "petrol",
+  appIcon: "original",
+  customColors: {},
 };
 
 export async function loadSettings(): Promise<Settings> {

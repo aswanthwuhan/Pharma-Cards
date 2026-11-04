@@ -1,7 +1,8 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useDialogFocus } from "@/lib/useDialogFocus";
 
 declare global {
   interface Window {
@@ -41,6 +42,8 @@ export function ExitGuard() {
   const path = usePathname();
   const router = useRouter();
   const [asking, setAsking] = useState(false);
+  const panel = useRef<HTMLDivElement>(null);
+  useDialogFocus(asking, panel, () => setAsking(false));
 
   useEffect(() => {
     window.__nativeBack = () => {
@@ -63,7 +66,7 @@ export function ExitGuard() {
   if (!asking) return null;
   return (
     <div className="fixed inset-0 z-50 grid place-items-center bg-black/50 px-6" role="presentation" onClick={() => setAsking(false)}>
-      <div role="alertdialog" aria-modal="true" aria-labelledby="exit-title" className="glass w-full max-w-sm rounded-2xl p-6" onClick={(e) => e.stopPropagation()}>
+      <div ref={panel} tabIndex={-1} role="alertdialog" aria-modal="true" aria-labelledby="exit-title" className="glass w-full max-w-sm rounded-2xl p-6 outline-none" onClick={(e) => e.stopPropagation()}>
         <h2 id="exit-title" className="font-serif text-2xl">
           Close Pharmacards?
         </h2>

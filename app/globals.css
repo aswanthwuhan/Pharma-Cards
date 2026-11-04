@@ -21,12 +21,21 @@
   --color-teal-wash: #133a37; /* selected background */
   --color-on-teal: #08221e; /* text on mint */
 
-  /* porcelain study card */
-  --color-porcelain: #f6f3eb;
-  --color-porcelain-2: #eae5d8;
-  --color-porcelain-ink: #152b2e;
-  --color-porcelain-soft: #456368;
-  --color-porcelain-rule: #d8d2c2;
+  /* study card: dim low-glare slab at night (ink 12:1, soft 6.4:1); Day mode restores porcelain below */
+  --color-porcelain: #1c2426;
+  --color-porcelain-2: #242e30;
+  --color-porcelain-ink: #dfe3dc;
+  --color-porcelain-soft: #9aa6a3;
+  --color-porcelain-rule: #2f3b3d;
+  --color-porcelain-accent: #8fd9b8; /* section headings on the card */
+  --color-porcelain-accent-wash: #24433a;
+  --color-porcelain-accent-strong: #3fbf8f;
+
+  /* card-type strips (CardView): fixed across Day and Night */
+  --color-type-recall: #1f7a5c;
+  --color-type-short: #4c5bd4;
+  --color-type-essay: #a63d73;
+  --color-type-cloze: #8a5a12;
 
   /* mastery */
   --color-weak: #f87171;
@@ -59,6 +68,20 @@
   --color-weak: #c0392b;
   --color-moderate: #8a5a12; /* 5.9:1 with white */
   --color-strong: #167a4f; /* 5.3:1 with white */
+  --color-porcelain: #f6f3eb;
+  --color-porcelain-2: #eae5d8;
+  --color-porcelain-ink: #152b2e;
+  --color-porcelain-soft: #456368;
+  --color-porcelain-rule: #d8d2c2;
+  --color-porcelain-accent: #1f5c48;
+  --color-porcelain-accent-wash: #d9efe4;
+  --color-porcelain-accent-strong: #2fb383;
+}
+
+/* light text on dark reads thinner: open it up a touch on the night card */
+:root:not([data-theme="light"]) .porcelain {
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
 }
 :root[data-theme="light"] body {
   background-image: radial-gradient(rgba(13, 59, 66, 0.05) 1px, transparent 1px);
@@ -325,3 +348,7 @@ button,
     0 18px 40px -6px rgba(0, 8, 10, 0.6),
     0 0 0 1px rgba(246, 243, 235, 0.15);
 }
+
+/* even line breaks: no one-word last lines (impeccable detector: straggler, unbalanced-heading) */
+h1, h2, h3 { text-wrap: balance; }
+p, li { text-wrap: pretty; }

@@ -187,7 +187,7 @@ export function MixPanel({
                 }`}
               >
                 <span className="font-mono text-sm font-semibold tabular-nums">{s}</span>
-                <span className="text-[10px] leading-none">{SIZE_NOTE[s]}</span>
+                <span className="text-[11px] leading-none">{SIZE_NOTE[s]}</span>
               </button>
             );
           })}

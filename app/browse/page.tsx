@@ -122,7 +122,7 @@ export default function Syllabus() {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search topics, subtopics or refs"
             autoComplete="off"
-            className="h-12 w-full rounded-full border border-rule bg-sheet pr-4 pl-11 text-ink placeholder:text-ink-soft focus:border-teal focus:outline-none"
+            className="h-12 w-full rounded-full border border-rule bg-sheet pr-4 pl-11 text-ink placeholder:text-ink-soft focus:border-teal"
           />
         </div>
 
@@ -165,7 +165,7 @@ export default function Syllabus() {
                 <span className="shrink-0 rounded-md border border-rule px-2 py-0.5 font-mono text-[11px] tracking-[0.06em] text-ink-soft uppercase">
                   {shortPaper(p.title)}
                 </span>
-                <h2 id={`paper-${p.id}`} className="min-w-0 flex-1 font-serif text-2xl leading-tight">
+                <h2 id={`paper-${p.id}`} className="min-w-0 flex-1 font-serif text-2xl leading-tight break-words hyphens-auto">
                   {paperName(p.title)}
                 </h2>
                 <span className="shrink-0 font-mono text-[11px] tracking-[0.06em] text-ink-soft uppercase">

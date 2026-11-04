@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { APP_VERSION } from "@/lib/changelog";
+import { useDialogFocus } from "@/lib/useDialogFocus";
 import { isNewer, latestVersion } from "@/lib/updates";
 
 const DISMISS_KEY = "pharmacards:updateDismissed";
@@ -10,6 +11,7 @@ const PAGE = "https://github.com/aswanthwuhan/Pharma-Cards/releases/latest";
 /** Checks GitHub for a newer release on each launch; the user can dismiss it until the app restarts. */
 export function UpdateCheck() {
   const [latest, setLatest] = useState<string>();
+  const panel = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     latestVersion().then((v) => {
@@ -17,14 +19,16 @@ export function UpdateCheck() {
     });
   }, []);
 
-  if (!latest) return null;
   const close = () => {
-    sessionStorage.setItem(DISMISS_KEY, latest);
+    if (latest) sessionStorage.setItem(DISMISS_KEY, latest);
     setLatest(undefined);
   };
+  useDialogFocus(!!latest, panel, close);
+
+  if (!latest) return null;
   return (
     <div className="fixed inset-0 z-50 grid place-items-center bg-black/50 px-6" role="presentation" onClick={close}>
-      <div role="dialog" aria-modal="true" aria-labelledby="update-title" className="glass w-full max-w-sm rounded-2xl p-6" onClick={(e) => e.stopPropagation()}>
+      <div ref={panel} tabIndex={-1} role="dialog" aria-modal="true" aria-labelledby="update-title" className="glass w-full max-w-sm rounded-2xl p-6 outline-none" onClick={(e) => e.stopPropagation()}>
         <h2 id="update-title" className="font-serif text-2xl">
           Update available
         </h2>
