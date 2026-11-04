@@ -204,3 +204,56 @@ Checked 58; corrected 12; deleted 0; ok 46; unverifiable 0.
 | rf-p4-recent-0076 | ok | Katzung16 PDF p952 (molnupiravir, reduces hospitalisation when started early) |
 | rf-p4-recent-0077 | ok | Katzung16 PDF p952 (pregnancy and lactation contraindicated; not under 18) |
 | rf-p4-recent-0078 | corrected | Dostarlimab added (Katzung16 PDF p1062: nivolumab, pembrolizumab, cemiplimab, dostarlimab are anti-PD-1 mAbs). Refs: Katzung16 ch55, GG14 ch39 |
+
+## Recheck (all new cards, chunk 2/2)
+
+Checked rf-p4-recent-0079 to 0122 against GG14 (PDF pages via search.py), Katzung16, KDT8. Chunk 2 has no study cards, so the level and why-back checks do not apply. The rapid format has no level field, so the per-subtopic minimum counts were not changed.
+
+id | status | source / reason
+rf-p4-recent-0079 | ok | GG14 ch72 PDF p1440, p1442 (atezolizumab, durvalumab, avelumab)
+rf-p4-recent-0080 | ok | GG14 ch72 PDF p1442 (tremelimumab); Katzung16 PDF p1062 (ipilimumab, tremelimumab)
+rf-p4-recent-0081 | ok | GG14 ch72 PDF p1441-1442 (CTLA-4 binds B7 ligands on APCs)
+rf-p4-recent-0083 | ok | GG14 ch71 PDF p1409 (sotorasib, covalent KRAS G12C inhibitor)
+rf-p4-recent-0084 | ok | GG14 ch71 PDF p1409 (approved for locally advanced or metastatic NSCLC after at least one prior systemic therapy)
+rf-p4-recent-0086 | ok | GG14 ch39 PDF p801 (JAK1/JAK2: ruxolitinib, baricitinib)
+rf-p4-recent-0087 | ok | GG14 ch39 PDF p801 (tofacitinib: JAK1, JAK2, JAK3)
+rf-p4-recent-0088 | ok | GG14 ch39 PDF p801 (JAK1: upadacitinib, filgotinib, abrocitinib)
+rf-p4-recent-0089 | ok | GG14 ch39 PDF p801 (JAK2: fedratinib, pacritinib)
+rf-p4-recent-0090 | ok | GG14 ch39 PDF p809 (boxed warning: serious infection, all-cause mortality, cancer, thrombosis, CV death, MI, stroke)
+rf-p4-recent-0091 | ok | Katzung16 ch55 PDF p1067-1068 (CD19, BCMA); refs add GG14 ch72 PDF p1448-1449
+rf-p4-recent-0092 | corrected | Question changed from "Main acute CAR T toxicity" to "Most common adverse effect of CAR T therapy" (GG14 ch72 PDF p1448 says most common adverse effect is CRS). Refs add GG14 ch72.
+rf-p4-recent-0093 | ok | Katzung16 ch55 PDF p1068 (tocilizumab for CRS); GG14 ch72 PDF p1448. Refs add GG14 ch72.
+rf-p4-recent-0094 | corrected | Question narrowed to "SGLT2 inhibitors approved for diabetes in the USA: list all" (GG14 ch51 PDF p1059; ch29 PDF p589 lists the four US-approved agents). Non-US agents moved to rf-p4-recent-0123.
+rf-p4-recent-0095 | ok | GG14 ch39 PDF p801 (all 10 JAKinibs listed in the book, including peficitinib and delgocitinib)
+rf-p4-recent-0096 | ok | GG14 ch26 PDF p527 (CB1 first cloned, brain)
+rf-p4-recent-0097 | ok | GG14 ch26 PDF p527 (CB2 in immune cells, lower elsewhere)
+rf-p4-recent-0098 | ok | GG14 ch26 PDF p524 (AEA = N-arachidonoylethanolamine)
+rf-p4-recent-0099 | ok | GG14 ch26 PDF p525 (2-AG = 2-arachidonoyl glycerol)
+rf-p4-recent-0100 | ok | GG14 ch26 PDF p532, p534 (dronabinol and nabilone are synthetic THC)
+rf-p4-recent-0101 | ok | GG14 ch26 PDF p533, p535 (nabiximols approved in several countries but not the US)
+rf-p4-recent-0102 | ok | GG14 ch26 PDF p570; Katzung16 PDF p315, p636 (developed for obesity, withdrawn). Refs split into two entries.
+rf-p4-recent-0103 | ok | Katzung16 ch16 PDF p315 (orlistat, GI lipase inhibitor)
+rf-p4-recent-0104 | ok | Katzung16 ch16 PDF p314 ("Semaglutide, liraglutide, orlistat, phentermine, and cellulose hydrogel are the only single-agent drugs currently approved in the USA")
+rf-p4-recent-0105 | ok | Katzung16 ch16 PDF p314 (amphetamine mimic, addiction liability)
+rf-p4-recent-0106 | ok | Katzung16 ch16 PDF p314, p315 (lorcaserin withdrawn 2020)
+rf-p4-recent-0107 | ok | Katzung16 ch16 PDF p314 (phentermine plus topiramate; naltrexone plus bupropion)
+rf-p4-recent-0108 | ok | GG14 ch6 PDF p141-142 (Eggerthella lenta, digoxin)
+rf-p4-recent-0109 | ok | GG14 ch6 PDF p143 (Faecalibacterium, ICI response)
+rf-p4-recent-0110 | ok | GG14 ch6 PDF p143 (Fusobacterium nucleatum, shorter CRC survival)
+rf-p4-recent-0111 | ok | GG14 ch6 PDF p144 (PPIs, metformin, laxatives, antibiotics; in vitro)
+rf-p4-recent-0112 | ok | GG14 ch6 PDF p144 (metformin altered 86 strains)
+rf-p4-recent-0113 | ok | GG14 ch6 PDF p140 (reduction, hydrolysis, hydroxylation, deconjugation)
+rf-p4-recent-0114 | ok | GG14 ch6 PDF p139-140 (pharmacomicrobiomics)
+rf-p4-recent-0115 | ok | GG14 ch1 PDF p31 (AI: protein structure, conformational energy, water solubility)
+rf-p4-recent-0116 | ok | GG14 ch1 PDF p23 (HTS of hundreds of thousands of compounds)
+rf-p4-recent-0117 | corrected | Question and answer reworded to "Computational screen of a compound library by similarity or protein-ligand docking" -> "Virtual screening (virtual HTS)". The book does not say "millions" for virtual screening (GG14 ch1 PDF p28-29).
+rf-p4-recent-0118 | deleted | Baricitinib FDA 2022 approval for alopecia areata is not in any owner book. Katzung16 has no alopecia-areata approval text, and GG14 ch39 PDF p802 mentions only trials. Ref "Katzung16 ch61" was also wrong.
+rf-p4-recent-0119 | corrected | Question reworded to "JAK inhibitor trial conditions besides alopecia areata: list all three" (old wording said "list two" and gave three). Answer: lupus, Sjogren syndrome, inflammatory eye disease (GG14 ch39 PDF p802).
+rf-p4-recent-0120 | ok | KDT8 PDF p626 (topical 2%, male pattern baldness and alopecia areata)
+rf-p4-recent-0121 | ok | KDT8 ch21 PDF p341 (finasteride, male pattern baldness)
+rf-p4-recent-0122 | ok | KDT8 PDF p626 (hirsutism with oral minoxidil)
+rf-p4-recent-0123 | added | SGLT2 inhibitors used outside the USA: ipragliflozin, luseogliflozin, remogliflozin, tofogliflozin (GG14 ch29 PDF p589). Needed to complete the 0094 class.
+
+Duplicates: none found in chunk 2 (JAK subclass cards 0086-0089 are kept with the full class card 0095; the SGLT2 class card 0028 is kept with 0094).
+Unverifiable (kept): none in chunk 2. No UNSOURCED or WEB refs.
+Validator: node scripts/validate-content.mjs --check: check ok.

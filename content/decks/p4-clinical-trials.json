@@ -3606,6 +3606,151 @@
         "KDT8 ch5",
         "Katzung16 ch1"
       ]
+    },
+    {
+      "id": "p4-clinical-trials-125",
+      "type": "basic",
+      "front": "What changed in the 2024 revision of the Declaration of Helsinki?",
+      "back": "Why it matters: the 75th WMA General Assembly (Helsinki, 2024) updated the ethics text to match current research. Key changes: 'subjects' became 'participants'; 'vulnerable populations' became 'vulnerability', so vulnerable groups should not be excluded without reason; scientific integrity added; research waste, environmental sustainability and community engagement covered; post-trial provisions and placebo use addressed.",
+      "subtopic": "p4-clinical-trials-gcp-roles",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "WEB PMC Sixty years of ethical evolution: The 2024 revision of the Declaration of Helsinki 2024 https://pmc.ncbi.nlm.nih.gov/articles/PMC11671210/"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-126",
+      "type": "shortnote",
+      "front": "Short note: Survival analysis techniques in cancer clinical trials",
+      "sections": [
+        {
+          "h": "Purpose",
+          "points": [
+            "Compares time-to-event outcomes (for example survival) between treatment groups",
+            "Uses all follow-up data, including patients still event-free at study end"
+          ]
+        },
+        {
+          "h": "Kaplan-Meier estimate",
+          "points": [
+            "Estimates the probability of surviving to each time point",
+            "Plotted as a survival curve; survival rates and median survival are read from it"
+          ]
+        },
+        {
+          "h": "Log-rank test",
+          "points": [
+            "Compares survival curves of two or more groups across the whole follow-up period",
+            "Tests the whole curve, not a single time point"
+          ]
+        },
+        {
+          "h": "Cox proportional hazards regression",
+          "points": [
+            "Models several factors at once and reports hazard ratios with confidence intervals",
+            "Key assumption: hazard ratios stay constant over time; a rough check is whether KM curves cross"
+          ]
+        },
+        {
+          "h": "Censoring",
+          "points": [
+            "Patients without the event at end of follow-up, or who leave early, still contribute information",
+            "Dropping them or counting them as events biases results"
+          ]
+        }
+      ],
+      "tags": [
+        "uses",
+        "classification"
+      ],
+      "subtopic": "p4-clinical-trials-endpoints",
+      "refs": [
+        "WEB PMC Survival Analysis: Part 15 of a Series on Evaluation of Scientific Publications 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3071962/"
+      ],
+      "pyq": [
+        {
+          "university": "SRMC (model)",
+          "year": 2025,
+          "paper": "III",
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-127",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "classification"
+      ],
+      "front": "What is a humanized animal in drug testing?",
+      "back": "An animal, usually a mouse, given human genes, cells or tissue so it responds more like a human to a drug. Why: it tests human-specific metabolism or immune effects better than a normal animal, but it is still not a human.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-clinical-trials-128",
+      "type": "shortnote",
+      "level": 2,
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "classification",
+        "uses"
+      ],
+      "front": "Short note: Nanoscreen and humanized animals in preclinical drug testing",
+      "sections": [
+        {
+          "h": "Nanoscreen (high-throughput screen of nanoparticles)",
+          "points": [
+            "Screens a library of nanoparticles that differ in size, charge, pKa or hydrophobicity",
+            "Cell-based assays measure toxicity, uptake and efficacy; some libraries go straight to animals",
+            "Barcoded particles can be pooled and tracked in vivo by deep sequencing",
+            "Advantages: no prior hypothesis needed, fast and cost-efficient; results guide the next library",
+            "Limits: in vitro results correlate poorly with in vivo; most use 2D cell monocultures; scale-up and reproducibility are hard"
+          ]
+        },
+        {
+          "h": "Humanized animals",
+          "points": [
+            "Animal carrying human genes, cells or tissue, e.g. human drug-metabolising enzymes or human immune cells",
+            "Uses: predicting human pharmacokinetics and drug interactions; testing antibody drugs and immunotherapy",
+            "Limits: still an animal; weak human cell engraftment, short lifespan, immature immune environment"
+          ]
+        },
+        {
+          "h": "Place in drug development",
+          "points": [
+            "Both are preclinical tools, used before first-in-human (phase 1) trials",
+            "Both aim to predict human response more reliably than a normal animal model"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC High-throughput screening of nanoparticles in drug delivery 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8397474/",
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2010
+        }
+      ],
+      "status": "draft"
     }
   ]
 }

@@ -377,3 +377,55 @@ Checked, no change needed: 182, 183, 184 (Bennett PDF p64; Sarkar p381-385 for f
 Duplicates: none found among 177-195 (185/186 and 187/188 cover the same topic at different card types, kept).
 
 Subtopic minimums unchanged (no study card removed).
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p4-experimental-196 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-experimental-197 | new (owner-approved no-source) | WEB PLoS One Strategic Focus on 3R Principles Reveals Major Reductions in the Use of Animals in Pharmaceutical Toxicity Testing 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4108312/; WEB Animal Welfare Conceptual foundations for a clarified meaning of the 3Rs principles in animal experimentation 2024 https://pmc.ncbi.nlm.nih.gov/articles/PMC11428052/ |
+| rf-p4-experimental-0213 | new (owner-approved no-source) | WEB PLoS One Strategic Focus on 3R Principles 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4108312/ |
+| rf-p4-experimental-0214 | new (owner-approved no-source) | WEB NCBI StatPearls ED50 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK538269/ |
+| rf-p4-experimental-0215 | new (owner-approved no-source) | WEB NCBI StatPearls ED50 2024 https://www.ncbi.nlm.nih.gov/sites/books/NBK538269/ |
+| rf-p4-experimental-0216 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-experimental-198 | new (owner-approved no-source) | WEB PMC Screening of anti-inflammatory and antipyretic activity of Vitex leucoxylon Linn 2010 https://pmc.ncbi.nlm.nih.gov/articles/PMC2991704/ |
+| p4-experimental-199 | new (owner-approved no-source) | WEB PMC Screening of anti-inflammatory and antipyretic activity of Vitex leucoxylon Linn 2010 https://pmc.ncbi.nlm.nih.gov/articles/PMC2991704/; UNSOURCED - owner must verify |
+| rf-p4-experimental-0217 | new (owner-approved no-source) | WEB PMC Screening of anti-inflammatory and antipyretic activity of Vitex leucoxylon Linn 2010 https://pmc.ncbi.nlm.nih.gov/articles/PMC2991704/ |
+| rf-p4-experimental-0218 | new (owner-approved no-source) | WEB PMC Screening of anti-inflammatory and antipyretic activity of Vitex leucoxylon Linn 2010 https://pmc.ncbi.nlm.nih.gov/articles/PMC2991704/ |
+| rf-p4-experimental-0219 | new (owner-approved no-source) | WEB PMC Screening of anti-inflammatory and antipyretic activity of Vitex leucoxylon Linn 2010 https://pmc.ncbi.nlm.nih.gov/articles/PMC2991704/ |
+| rf-p4-experimental-0220 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p4-experimental-0221 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-experimental-200 | new (owner-approved no-source) | WEB PMC Single-Dose Oral Administration of Theophylline in ICR Mice: Modified Irwin Test 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12973419/ |
+| p4-experimental-201 | new (owner-approved no-source) | WEB PMC Single-Dose Oral Administration of Theophylline in ICR Mice: Modified Irwin Test 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12973419/; UNSOURCED - owner must verify |
+| rf-p4-experimental-0222 | new (owner-approved no-source) | WEB PMC Single-Dose Oral Administration of Theophylline in ICR Mice: Modified Irwin Test 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12973419/ |
+| rf-p4-experimental-0223 | new (owner-approved no-source) | WEB PMC Single-Dose Oral Administration of Theophylline in ICR Mice: Modified Irwin Test 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12973419/ |
+| rf-p4-experimental-0224 | new (owner-approved no-source) | WEB PMC Single-Dose Oral Administration of Theophylline in ICR Mice: Modified Irwin Test 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12973419/ |
+| rf-p4-experimental-0225 | new (owner-approved no-source) | WEB PMC Single-Dose Oral Administration of Theophylline in ICR Mice: Modified Irwin Test 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12973419/ |
+| rf-p4-experimental-0226 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-experimental-202 | new (owner-approved no-source) | WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645 |
+| p4-experimental-203 | new (owner-approved no-source) | WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645 |
+| rf-p4-experimental-0227 | new (owner-approved no-source) | WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645 |
+| rf-p4-experimental-0228 | new (owner-approved no-source) | WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645 |
+| rf-p4-experimental-0229 | new (owner-approved no-source) | WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645 |
+| rf-p4-experimental-0230 | new (owner-approved no-source) | WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645 |
+| rf-p4-experimental-0231 | new (owner-approved no-source) | WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645 |
+| p4-experimental-204 | new (owner-approved no-source) | WEB PMC PMC7168896 Biopolymer Extracted from Anadenanthera colubrina (Red Angico Gum): Antidiarrheal Activity and Safety, mice charcoal meal https://pmc.ncbi.nlm.nih.gov/articles/PMC7168896/ |
+| p4-experimental-205 | new (owner-approved no-source) | WEB PMC PMC7168896 Biopolymer Extracted from Anadenanthera colubrina (Red Angico Gum): Antidiarrheal Activity and Safety, mice charcoal meal https://pmc.ncbi.nlm.nih.gov/articles/PMC7168896/; UNSOURCED - owner must verify |
+| rf-p4-experimental-0232 | new (owner-approved no-source) | WEB PMC PMC7168896 Red Angico Gum antidiarrheal mice https://pmc.ncbi.nlm.nih.gov/articles/PMC7168896/ |
+| rf-p4-experimental-0233 | new (owner-approved no-source) | WEB PMC PMC7168896 Red Angico Gum antidiarrheal mice https://pmc.ncbi.nlm.nih.gov/articles/PMC7168896/ |
+| rf-p4-experimental-0234 | new (owner-approved no-source) | WEB PMC PMC7168896 Red Angico Gum antidiarrheal mice https://pmc.ncbi.nlm.nih.gov/articles/PMC7168896/ |
+| rf-p4-experimental-0235 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p4-experimental-0236 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-experimental-206 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-experimental-207 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p4-experimental-0237 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p4-experimental-0238 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p4-experimental-0239 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p4-experimental-0240 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-experimental-208 | new (owner-approved no-source) | WEB PMC Evangelho, Mastronardi, de-la-Torre - Experimental Models of Glaucoma: A Review of the Literature 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6630440 |
+| p4-experimental-209 | new (owner-approved no-source) | WEB PMC Evangelho, Mastronardi, de-la-Torre - Experimental Models of Glaucoma: A Review of the Literature 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6630440 |
+| rf-p4-experimental-0241 | new (owner-approved no-source) | WEB PMC Evangelho, Mastronardi, de-la-Torre - Experimental Models of Glaucoma: A Review of the Literature 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6630440 |
+| rf-p4-experimental-0242 | new (owner-approved no-source) | WEB PMC Evangelho, Mastronardi, de-la-Torre - Experimental Models of Glaucoma: A Review of the Literature 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6630440 |
+| rf-p4-experimental-0243 | new (owner-approved no-source) | WEB PMC Evangelho, Mastronardi, de-la-Torre - Experimental Models of Glaucoma: A Review of the Literature 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6630440 |
+| rf-p4-experimental-0244 | new (owner-approved no-source) | WEB PMC Evangelho, Mastronardi, de-la-Torre - Experimental Models of Glaucoma: A Review of the Literature 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6630440 |

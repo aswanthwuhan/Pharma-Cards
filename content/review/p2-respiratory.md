@@ -174,3 +174,15 @@ Checked: 035, 036, 037, 038, 039, 040, 041, 042, 043, 044, 045 (study); rf-0309 
 | 038, 039, 040, 041, 042, 043, 044, 045 | ok | KDT8 ch16 (HFA/spacer/nebuliser/DPI, 1-5 µm, 10%; asthma types; three mediator waves; aminophylline 85%, IV only; caffeine, 1-3 weeks; aminophylline not routine, SC/IM salbutamol; large-volume spacer; ketotifen). |
 
 Deleted ids: none. Unverifiable ids in chunk: none.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p2-respiratory-046 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |
+| p2-respiratory-047 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |
+| rf-p2-respiratory-0350 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |
+| rf-p2-respiratory-0351 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |
+| rf-p2-respiratory-0352 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |
+| rf-p2-respiratory-0353 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |

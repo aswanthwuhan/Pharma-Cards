@@ -170,3 +170,16 @@ Unverifiable (UNSOURCED or WEB refs in chunk 1/1): none.
 Level ladder: every study card has level 1-3; no subtopic count changed.
 Duplicates: 066, 070, 071 and rf-0379 cover surrogate and biomarker definitions from different angles (basic L1, shortnote L2, rapid); kept all, since each tests a different question. 043, 045 and 068 overlap on rational prescribing at different depths; kept.
 Ids kept stable.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p1-drug-dev-078 | new (owner-approved no-source) | WEB NeuroRx Biomarkers: Potential Uses and Limitations 2004 https://pmc.ncbi.nlm.nih.gov/articles/PMC534923/ |
+| p1-drug-dev-079 | new (owner-approved no-source) | WEB NeuroRx Biomarkers: Potential Uses and Limitations 2004 https://pmc.ncbi.nlm.nih.gov/articles/PMC534923/; WEB Digital Biomarkers Traditional and Digital Biomarkers: Two Worlds Apart 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC7015353/ |
+| rf-p1-drug-dev-0398 | new (owner-approved no-source) | WEB NeuroRx Biomarkers: Potential Uses and Limitations 2004 https://pmc.ncbi.nlm.nih.gov/articles/PMC534923/ |
+| rf-p1-drug-dev-0399 | new (owner-approved no-source) | WEB Digital Biomarkers Traditional and Digital Biomarkers: Two Worlds Apart 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC7015353/ |
+| rf-p1-drug-dev-0400 | new (owner-approved no-source) | WEB Digital Biomarkers Traditional and Digital Biomarkers: Two Worlds Apart 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC7015353/ |
+| rf-p1-drug-dev-0401 | new (owner-approved no-source) | WEB NeuroRx Biomarkers: Potential Uses and Limitations 2004 https://pmc.ncbi.nlm.nih.gov/articles/PMC534923/ |
+| rf-p1-drug-dev-0402 | new (owner-approved no-source) | WEB NeuroRx Biomarkers: Potential Uses and Limitations 2004 https://pmc.ncbi.nlm.nih.gov/articles/PMC534923/ |

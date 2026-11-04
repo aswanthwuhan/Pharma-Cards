@@ -167,3 +167,15 @@ Grounding pass under GROUNDING-RULES.md. Cards checked: 65 original, corrected: 
 - Verified OK: 096, 097, 098, 100, 101, 102, 104, 106-112 (Katzung16 ch49, KDT8 ch60).
 - Still unverified by a human: NACO 2013 PI order (100) read from garbled KDT8 p871 text; the KDT8 line reads 1st atazanavir/r, 2nd lopinavir/r, 3rd saquinavir/r, 4th indinavir/r, 5th nelfinavir.
 - validate-content --check: ok.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p3-antifungal-viral-113 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p3-antifungal-viral-114 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p3-antifungal-viral-0492 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p3-antifungal-viral-0493 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p3-antifungal-viral-0494 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p3-antifungal-viral-0495 | new (owner-approved no-source) | UNSOURCED - owner must verify |

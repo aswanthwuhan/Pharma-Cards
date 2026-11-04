@@ -3874,6 +3874,217 @@
         "uses"
       ],
       "level": 1
+    },
+    {
+      "id": "p3-research-biostats-150",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "pk"
+      ],
+      "status": "draft",
+      "front": "Preclinical candidate characterisation",
+      "back": "Stage after lead optimisation: the compound is profiled for pharmacology, PK/PD, genotoxicity and stability, then taken to a regulatory submission so human dosing can begin.",
+      "refs": [
+        "WEB PMC Hughes Principles of early drug discovery 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3058157/"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-151",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "pk",
+        "adr"
+      ],
+      "status": "draft",
+      "front": "Short note: Pharmaceutical background of a drug in development, and in vitro toxicity testing",
+      "sections": [
+        {
+          "h": "Drug background",
+          "points": [
+            "Discovery: target identified and validated, then hits screened and refined to leads",
+            "Hit-to-lead and lead optimisation improve potency, selectivity and PK",
+            "Candidate selection weighs ADME: solubility, permeability, metabolic stability, CYP450 inhibition",
+            "Preclinical characterisation then leads to a regulatory submission before human use"
+          ]
+        },
+        {
+          "h": "In vitro toxicity",
+          "points": [
+            "Cytotoxicity: standard for regulators (FDA, EMA, OECD) before preclinical or clinical stages",
+            "Common endpoints: MTT (metabolic), LDH release (membrane integrity), neutral red uptake (lysosomal)",
+            "Use at least two independent endpoints, as no single assay is fully reliable",
+            "Hepatotoxicity screen in HepG2 cells; target no effect at 50 x IC50 or EC50"
+          ]
+        },
+        {
+          "h": "Other in vitro checks",
+          "points": [
+            "CYP450 inhibition: predicts drug-drug interactions; aim above 10 uM",
+            "hERG: aim above 30 uM or at least 1000-fold selectivity, to limit cardiac liability"
+          ]
+        }
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "refs": [
+        "WEB PMC Hughes Principles of early drug discovery 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3058157/",
+        "WEB PMC Ziemba Advances in Cytotoxicity Testing 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12653452/"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-152",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ],
+      "front": "Indian Patents Amendment Act 2005: what changed for drugs?",
+      "back": "Pharmaceutical product patents became available in India (the transition period ended), so new drug molecules, not only processes, could be patented. Why: TRIPS obligations under the WTO.",
+      "refs": [
+        "WEB PMC Management of intellectual property rights in India: an updated review 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3312695/"
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-153",
+      "type": "shortnote",
+      "subtopic": "p3-research-biostats-protocol",
+      "tags": [
+        "classification"
+      ],
+      "front": "Short note: Indian Patents Act 2005 and drug patents",
+      "sections": [
+        {
+          "h": "Background",
+          "points": [
+            "Patents Act 1970 revised to align with TRIPS",
+            "Earlier law: drug processes patentable, drug products not",
+            "Amendments in 2000, 2003 and 2005"
+          ]
+        },
+        {
+          "h": "Key changes for drugs",
+          "points": [
+            "Product patents for pharmaceuticals from 2005 (transition ended)",
+            "Mailbox applications for product patents examined after amendment",
+            "Exclusive marketing rights provision no longer needed"
+          ]
+        },
+        {
+          "h": "Term and limits",
+          "points": [
+            "Patent term 20 years from filing date for all inventions",
+            "Section 3(d) restricts secondary patents on new forms of known molecules unless therapeutic efficacy is enhanced"
+          ]
+        },
+        {
+          "h": "Relevance to drug research",
+          "points": [
+            "Patent status shapes drug development and generic entry",
+            "Patent validity can be challenged by opposition"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Management of intellectual property rights in India: an updated review 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3312695/",
+        "WEB PMC Indian pharmaceutical patent prosecution: the changing role of Section 3(d) https://pmc.ncbi.nlm.nih.gov/articles/PMC5880378"
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p3-research-biostats-154",
+      "type": "basic",
+      "front": "Define the h-index of a researcher.",
+      "back": "A scientist has index h if h of their N papers each have at least h citations. The remaining papers each have fewer than h citations.",
+      "refs": [
+        "WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-research-biostats-155",
+      "type": "shortnote",
+      "front": "Short note: h-index",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Individual-level metric of research output and its impact, proposed by Hirsch",
+            "Counts papers by citations, not the journal they appear in"
+          ]
+        },
+        {
+          "h": "Calculation",
+          "points": [
+            "Rank papers by citations, highest first",
+            "h is the last rank where the paper's citations are at least its rank",
+            "Example: citations 25, 10, 8, 4, 3, 1 give h = 4"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Does not account for position in the author list",
+            "Self-citation can inflate it",
+            "Depends on scientific age, career breaks, topic and article type (reviews are cited more)",
+            "Cannot judge the content or worth of research"
+          ]
+        },
+        {
+          "h": "Contrast with impact factor",
+          "points": [
+            "Impact factor describes a journal; h-index describes a person",
+            "Both are citation-based and both can be misused"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/",
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-research-biostats-evidence",
+      "tags": [
+        "classification"
+      ],
+      "level": 2
     }
   ]
 }

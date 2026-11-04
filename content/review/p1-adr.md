@@ -173,3 +173,14 @@ Deleted:
 
 Checked and kept without change: 030-041, 043-044, 046-048, 050-071, 074-081, 083, 085-086, 088-090, 092. Facts in the key checks (1-in-40,000 chloramphenicol; carbamazepine ER; isoniazid pyridoxine; agranulocytosis drugs; PLLR 2015; FAERS 2 million; Sentinel 100 million; 94% underreporting; 467 median trial size) confirmed in the owner books.
 Validator: clean (node scripts/validate-content.mjs --check).
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p1-adr-094 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p1-adr-095 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p1-adr-0296 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p1-adr-0297 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p1-adr-0298 | new (owner-approved no-source) | UNSOURCED - owner must verify |

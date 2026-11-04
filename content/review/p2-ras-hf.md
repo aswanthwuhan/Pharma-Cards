@@ -160,3 +160,15 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 - Verified without change: study 061-064, 067-070, 072-074, 076-078, 080, 082, 084-094, 096, 097; rapid 0613-0637.
 - Levels: all subtopics still meet >= 3 L1, 2 L2, 1 L3 (no deletions).
 - Validator: node scripts/validate-content.mjs --check: check ok.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p2-ras-hf-098 | new (owner-approved no-source) | WEB NCBI StatPearls Heart Failure and Ejection Fraction https://www.ncbi.nlm.nih.gov/books/NBK553115/; WEB PMC Four pillars of heart failure: contemporary pharmacological therapy for HFrEF https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7929859/ |
+| p2-ras-hf-099 | new (owner-approved no-source) | WEB NCBI StatPearls Heart Failure and Ejection Fraction https://www.ncbi.nlm.nih.gov/books/NBK553115/; WEB PMC A Comprehensive Review on the Regulatory Action of TRP Channels https://pmc.ncbi.nlm.nih.gov/articles/PMC10749524/; WEB PMC Advances in TRP channel drug discovery: from target validation to clinical studies https://pmc.ncbi.nlm.nih.gov/articles/PMC8442523/; UNSOURCED - owner must verify |
+| rf-p2-ras-hf-0640 | new (owner-approved no-source) | WEB NCBI StatPearls Heart Failure and Ejection Fraction https://www.ncbi.nlm.nih.gov/books/NBK553115/ |
+| rf-p2-ras-hf-0641 | new (owner-approved no-source) | WEB NCBI StatPearls Heart Failure and Ejection Fraction https://www.ncbi.nlm.nih.gov/books/NBK553115/ |
+| rf-p2-ras-hf-0642 | new (owner-approved no-source) | WEB PMC Four pillars of heart failure: contemporary pharmacological therapy for HFrEF https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7929859/ |
+| rf-p2-ras-hf-0643 | new (owner-approved no-source) | WEB NCBI StatPearls Heart Failure and Ejection Fraction https://www.ncbi.nlm.nih.gov/books/NBK553115/ |

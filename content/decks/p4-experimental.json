@@ -5336,6 +5336,529 @@
         "uses"
       ],
       "level": 2
+    },
+    {
+      "id": "p4-experimental-196",
+      "type": "basic",
+      "front": "Didactic lecture vs self-directed learning: key difference",
+      "back": "Didactic: teacher-led, fixed content and pace delivered to learners. Self-directed: the learner sets own goals, pace and resources.",
+      "subtopic": "p4-experimental-ethics",
+      "tags": [
+        "classification"
+      ],
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p4-experimental-197",
+      "type": "shortnote",
+      "front": "Short note: Animal experimentation in new drug development (aim, utility, limitations)",
+      "sections": [
+        {
+          "h": "Aim",
+          "points": [
+            "Test efficacy and likely side effects of a new drug before human trials",
+            "Regulatory and investigative studies in rats, mice, rabbits and dogs"
+          ]
+        },
+        {
+          "h": "Utility",
+          "points": [
+            "Flags likely toxicity before human exposure",
+            "Supports drug projects through the preclinical stage",
+            "In vitro and in silico methods can decide which compounds need in vivo testing"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Animal results do not directly predict human toxicity",
+            "Cutting animal numbers can reduce statistical power",
+            "Any new design must be validated for human translation, power and welfare",
+            "The 3Rs apply to individual experiments and are not a general goal for animal research"
+          ]
+        },
+        {
+          "h": "Ethics: 3Rs",
+          "points": [
+            "Replacement: use non-animal methods where possible",
+            "Reduction: comparable information from fewer animals",
+            "Refinement: reduce harm to animals used"
+          ]
+        }
+      ],
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "WEB PLoS One Strategic Focus on 3R Principles Reveals Major Reductions in the Use of Animals in Pharmaceutical Toxicity Testing 2014 https://pmc.ncbi.nlm.nih.gov/articles/PMC4108312/",
+        "WEB Animal Welfare Conceptual foundations for a clarified meaning of the 3Rs principles in animal experimentation 2024 https://pmc.ncbi.nlm.nih.gov/articles/PMC11428052/"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p4-experimental-198",
+      "type": "basic",
+      "level": 1,
+      "front": "Yeast-induced pyrexia: what is it?",
+      "back": "A rat fever model. A subcutaneous dried-yeast suspension raises body temperature after about 18 h. Only rats with a rise of at least 0.6 °C are used to test an antipyretic against a standard such as aspirin.",
+      "refs": [
+        "WEB PMC Screening of anti-inflammatory and antipyretic activity of Vitex leucoxylon Linn 2010 https://pmc.ncbi.nlm.nih.gov/articles/PMC2991704/"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-199",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Experimental methods to evaluate antipyretic activity",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Antipyretics lower fever, so the model first raises body temperature and then measures the fall",
+            "Yeast-induced pyrexia in rats is the standard screen"
+          ]
+        },
+        {
+          "h": "Yeast-induced pyrexia (rat)",
+          "points": [
+            "Inject a 20% dried-yeast suspension in 2% gum acacia, subcutaneously, about 20 mL/kg",
+            "After about 18 h, select rats whose temperature rose by at least 0.6 °C",
+            "Give the test drug orally; aspirin is the standard (reference) drug"
+          ]
+        },
+        {
+          "h": "Design and reading",
+          "points": [
+            "Groups: febrile control (vehicle), standard (aspirin), test drug at graded doses",
+            "Record temperature at fixed intervals and compare the fall with the control",
+            "Check that the drug does not lower the temperature of normal, non-febrile animals (a true antipyretic does not)"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Some rats show hypothermia rather than fever, so animals must be screened first",
+            "Rodent fever is not identical to human fever; confirm hits in a second model"
+          ]
+        },
+        {
+          "h": "Toxicity studies in animals",
+          "points": [
+            "Done after acute and repeated-dose tests, before human trials",
+            "Special tests: reproduction and teratogenicity (pregnant animals, organogenesis), mutagenicity (Ames test, in-vitro cell tests), carcinogenicity (long-term dosing, rodents)",
+            "Regulatory: studies follow GLP; repeated-dose tests use a rodent and a non-rodent species; duration matches the planned clinical use; CDSCO (Schedule Y, NDCT Rules) sets the framework"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Screening of anti-inflammatory and antipyretic activity of Vitex leucoxylon Linn 2010 https://pmc.ncbi.nlm.nih.gov/articles/PMC2991704/",
+        "UNSOURCED - owner must verify"
+      ],
+      "status": "draft",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ]
+    },
+    {
+      "id": "p4-experimental-200",
+      "type": "basic",
+      "level": 1,
+      "front": "Neurotoxicity screening of a new drug: what is it?",
+      "back": "Preclinical check in rodents for CNS effects (behaviour, motor, autonomic, sensory) before human trials. Regulators expect it under ICH S7A.",
+      "refs": [
+        "WEB PMC Single-Dose Oral Administration of Theophylline in ICR Mice: Modified Irwin Test 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12973419/"
+      ],
+      "pyq": [],
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "adr"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-201",
+      "type": "shortnote",
+      "level": 2,
+      "front": "Short note: Screening the neurotoxic potential of a new drug",
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "adr",
+        "classification"
+      ],
+      "sections": [
+        {
+          "h": "Why",
+          "points": [
+            "CNS safety is part of safety pharmacology",
+            "Regulators (ICH S7A) expect a neurobehavioural screen before human trials"
+          ]
+        },
+        {
+          "h": "Test used",
+          "points": [
+            "Modified Irwin test or functional observational battery (FOB)",
+            "Rodents, usually mice or rats, dosed and observed"
+          ]
+        },
+        {
+          "h": "Method",
+          "points": [
+            "Score about 18 endpoints with a semi-quantitative system",
+            "Observe at baseline (0 h) and at fixed times after dosing, e.g. 1, 2, 4, 6 and 24 h"
+          ]
+        },
+        {
+          "h": "What is scored",
+          "points": [
+            "Survival and general condition",
+            "Neuromuscular and motor: locomotion, tremor, convulsion",
+            "Autonomic: body temperature, eyelid closure",
+            "Reflexes and sensory responses"
+          ]
+        },
+        {
+          "h": "Supporting tests",
+          "points": [
+            "Rotarod for motor coordination",
+            "Open-field test for locomotor and exploratory activity"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Scoring is subjective and prone to observer bias",
+            "No neurotransmitter, receptor or electrophysiology data, so add objective measures"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Single-Dose Oral Administration of Theophylline in ICR Mice: Modified Irwin Test 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12973419/",
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-202",
+      "type": "basic",
+      "front": "Earthworm acute toxicity test: what is it used for?",
+      "back": "A rapid bioassay that measures acute toxicity of a substance directly in soil, using earthworms (Eisenia foetida) as test organisms. It is a modification of OECD 207 and can detect toxicity from contaminants bound to soil particles that filter-paper tests may miss.",
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "poisoning"
+      ],
+      "refs": [
+        "WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "paper": "III",
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p4-experimental-203",
+      "type": "shortnote",
+      "front": "Short note: Earthworm acute lethality test",
+      "sections": [
+        {
+          "h": "Purpose",
+          "points": [
+            "Measures acute toxicity of a test substance to earthworms, used as an ecotoxicity screen for soil",
+            "Modification of OECD Test 207 (earthworm acute toxicity)"
+          ]
+        },
+        {
+          "h": "Method",
+          "points": [
+            "Test organism: Eisenia foetida",
+            "Soil contact bioassay: thin layer of moistened soil with the test substance in the test jar, worms added",
+            "Observation at 24 h and 48 h"
+          ]
+        },
+        {
+          "h": "Endpoints",
+          "points": [
+            "Main endpoint: mortality, reported as percentage",
+            "Also recorded: biomass change, response to stimulus, sublethal signs (inflamed clitellus, expulsion of coelomic or bloody fluid)"
+          ]
+        },
+        {
+          "h": "Validity and limits",
+          "points": [
+            "Control mortality should be 10% or less (OECD acceptance threshold cited by the source)",
+            "Rapid and cheap, but standard acute assays give limited information on hazard to soil organisms overall"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Soil contact bioassay for rapid determination of acute toxicity with Eisenia foetida 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6940645"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "paper": "III",
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2,
+      "subtopic": "p4-experimental-toxicity",
+      "tags": [
+        "mechanism"
+      ]
+    },
+    {
+      "id": "p4-experimental-204",
+      "type": "basic",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Charcoal meal test: what does it measure?",
+      "back": "In vivo propulsive motility in mice: how far an orally given charcoal marker travels through the small intestine, expressed as a percentage of total small-intestine length.",
+      "refs": [
+        "WEB PMC PMC7168896 Biopolymer Extracted from Anadenanthera colubrina (Red Angico Gum): Antidiarrheal Activity and Safety, mice charcoal meal https://pmc.ncbi.nlm.nih.gov/articles/PMC7168896/"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-experimental-205",
+      "type": "shortnote",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "status": "draft",
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "front": "Short note: Assay of a drug affecting intestinal motility",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Measures transit of a non-absorbed marker along the gut",
+            "Slowing of transit suggests antimotility or antidiarrhoeal action; speeding suggests purgative action"
+          ]
+        },
+        {
+          "h": "Method (mouse)",
+          "points": [
+            "Fast animals briefly, then give test drug or vehicle orally or s.c.",
+            "After the set interval, give activated charcoal suspension orally",
+            "Sacrifice after a fixed time, lay out the small intestine and measure the charcoal front"
+          ]
+        },
+        {
+          "h": "Readout",
+          "points": [
+            "Transit (%) = distance travelled by charcoal front / total small-intestine length x 100",
+            "Compare with vehicle (maximal propulsion) and a reference drug"
+          ]
+        },
+        {
+          "h": "Controls",
+          "points": [
+            "Vehicle group as negative control",
+            "Atropine as a reference that reduces transit",
+            "Loperamide as a reference antimotility agent"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Whole-animal assay: absorption and central effects can change transit",
+            "Isolated gut preparations separate direct smooth-muscle action"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC PMC7168896 Biopolymer Extracted from Anadenanthera colubrina (Red Angico Gum): Antidiarrheal Activity and Safety, mice charcoal meal https://pmc.ncbi.nlm.nih.gov/articles/PMC7168896/",
+        "UNSOURCED - owner must verify"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-experimental-206",
+      "type": "basic",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ],
+      "front": "Ovalbumin-sensitised animal model (anti-asthmatic screen)",
+      "back": "Animal is sensitised to the antigen ovalbumin, then challenged with it to produce bronchospasm and airway inflammation; used to test whether a drug blocks the allergic airway response.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p4-experimental-207",
+      "type": "shortnote",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ],
+      "front": "Short note: In vivo models for antiasthmatic activity",
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Mimic allergic asthma: sensitisation then antigen challenge",
+            "Test drug blocks bronchospasm or airway hyperresponsiveness"
+          ]
+        },
+        {
+          "h": "Guinea pig models",
+          "points": [
+            "Ovalbumin-sensitised, challenged by aerosol or intravenously",
+            "Histamine, acetylcholine or methacholine-induced bronchospasm",
+            "Anaesthetised ventilated (Konzett-Rössler type) preparation: rise in intratracheal pressure"
+          ]
+        },
+        {
+          "h": "Readouts",
+          "points": [
+            "Time to convulsions or collapse",
+            "Percent inhibition of bronchospasm versus vehicle",
+            "Dose-response, compared with standard drugs"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Sensitisation and challenge protocols vary between labs",
+            "Model may not match human late-phase response",
+            "Standard drugs (salbutamol, theophylline, steroids) used as positive controls"
+          ]
+        }
+      ],
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p4-experimental-208",
+      "type": "basic",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Experimental glaucoma: how is raised IOP produced in animal models?",
+      "back": "By blocking aqueous outflow (trabecular meshwork or episcleral/collector veins), or by abruptly narrowing the angle, so pressure rises and optic nerve and retinal ganglion cell damage can be studied.",
+      "refs": [
+        "WEB PMC Evangelho, Mastronardi, de-la-Torre - Experimental Models of Glaucoma: A Review of the Literature 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6630440"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p4-experimental-209",
+      "type": "shortnote",
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "front": "Short note: Experimental models of acute congestive and chronic simple glaucoma",
+      "sections": [
+        {
+          "h": "Acute congestive (angle-closure type) models",
+          "points": [
+            "Principle: abrupt IOP rise that mimics an angle-closure attack",
+            "Reperfusion ischaemia model: anterior chamber paracentesis with a saline reservoir raises IOP very high and blocks retinal and uveal blood flow; pressure is then released",
+            "Laser photocoagulation plus temporary angle narrowing by paracentesis: abrupt rise lasting weeks, with marked retinal ganglion cell loss",
+            "Limits: inflammation, ischaemia and corneal opacity; ganglion cell loss is not seen in human POAG",
+            "Angle-closure-like genetic and canine models: beagle dogs develop angle closure and cupping over months to years; PRSS56-mutant mice have short axial length and a narrow angle"
+          ]
+        },
+        {
+          "h": "Chronic simple (open-angle) models",
+          "points": [
+            "Principle: slow, progressive rise in IOP by reducing outflow",
+            "Hypertonic saline into episcleral veins (rat): moderate IOP rise over about 7-10 days with high variability; progressive ganglion cell loss; used for neuroprotection studies",
+            "Laser photocoagulation of the trabecular meshwork: repeated applications to raise IOP; synechiae, hyphaema and corneal oedema are drawbacks",
+            "Microbead (latex microsphere) injection: blocks trabecular outflow; repeated injections sustain the rise",
+            "Episcleral vein cauterisation and nylon suture vein occlusion: moderate, sustained pressure rise",
+            "Intracameral hyaluronic acid (rat, rabbit): raises IOP for days, leaves outflow largely open",
+            "Steroid-induced ocular hypertension (rabbit) and genetic models (DBA/2J mice): progressive rise, often months to develop"
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Evangelho, Mastronardi, de-la-Torre - Experimental Models of Glaucoma: A Review of the Literature 2019 https://pmc.ncbi.nlm.nih.gov/articles/PMC6630440"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 2
     }
   ]
 }

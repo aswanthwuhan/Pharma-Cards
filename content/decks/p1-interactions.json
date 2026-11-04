@@ -1213,6 +1213,85 @@
         "pk"
       ],
       "level": 2
+    },
+    {
+      "id": "p1-interactions-061",
+      "type": "basic",
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions"
+      ],
+      "front": "DIPS: what does the Drug Interaction Probability Scale estimate?",
+      "back": "How likely it is that an observed event in a given patient was caused by a drug-drug interaction (not by either drug alone). Scored question by question.",
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "paper": "III",
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p1-interactions-062",
+      "type": "shortnote",
+      "subtopic": "p1-interactions-management",
+      "tags": [
+        "interactions",
+        "adr"
+      ],
+      "front": "Short note: Drug Interaction Probability Scale (DIPS)",
+      "sections": [
+        {
+          "h": "What",
+          "points": [
+            "Causality tool for suspected drug-drug interactions (Horn, Hansten and Chan, 2007)",
+            "Adapts the Naranjo ADR probability scale from single drugs to a pair of drugs"
+          ]
+        },
+        {
+          "h": "Structure",
+          "points": [
+            "10 questions, each with three response options and a score",
+            "Affirmative answers raise the probability of an interaction cause; negative answers lower it",
+            "Needs knowledge of the pharmacology of both the precipitant and the object drug"
+          ]
+        },
+        {
+          "h": "Score bands (total)",
+          "points": [
+            "Below 2: doubtful",
+            "2 to 4: possible",
+            "5 to 8: probable",
+            "Above 8: highly probable"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Does not guide management of the interaction itself",
+            "Needs data that are often unavailable (dose, timing, levels)"
+          ]
+        }
+      ],
+      "refs": [
+        "UNSOURCED - owner must verify"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "paper": "III",
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
     }
   ]
 }

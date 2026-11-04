@@ -244,3 +244,23 @@ Unverifiable: none in this chunk (no UNSOURCED or WEB refs). PYQ entries not rec
 Ladder: every subtopic keeps at least 3 L1, 2 L2 and 1 L3 study cards. Validator: check ok.
 
 Prep / RR5 refs in these cards: none.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p3-pv-economics-072 | new (owner-approved no-source) | WEB PMC Nutrivigilance: the road less traveled 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10598719/ |
+| p3-pv-economics-073 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p3-pv-economics-074 | new (owner-approved no-source) | WEB PMC Nutrivigilance: the road less traveled 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10598719/; UNSOURCED - owner must verify |
+| rf-p3-pv-economics-0317 | new (owner-approved no-source) | WEB PMC Nutrivigilance: the road less traveled 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10598719/ |
+| rf-p3-pv-economics-0318 | new (owner-approved no-source) | WEB PMC Nutrivigilance: the road less traveled 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10598719/ |
+| rf-p3-pv-economics-0319 | new (owner-approved no-source) | WEB PMC Nutrivigilance: the road less traveled 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10598719/ |
+| rf-p3-pv-economics-0320 | new (owner-approved no-source) | WEB PMC Nutrivigilance: the road less traveled 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10598719/ |
+| rf-p3-pv-economics-0321 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p3-pv-economics-075 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p3-pv-economics-076 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p3-pv-economics-0322 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p3-pv-economics-0323 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p3-pv-economics-0324 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p3-pv-economics-0325 | new (owner-approved no-source) | UNSOURCED - owner must verify |

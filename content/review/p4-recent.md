@@ -231,3 +231,16 @@ Checked 62; corrected 22; deleted 4 (the 4 deletions date from the earlier pass 
 | p4-recent-093 | ok | KDT8 PDF p626 (minoxidil K+ channel opener); KDT8 PDF p341 (finasteride); GG14 PDF p802 (baricitinib trial) |
 | p4-recent-094 | ok | KDT8 PDF p626 (hirsutism with oral minoxidil); GG14 PDF p658 |
 | p4-recent-095 | corrected | Essay: 'response takes 3 months or more' replaced with 'approved for early male pattern baldness' (Katzung16 PDF p796). Topical 2-6 month response kept (KDT8 PDF p626) |
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p4-recent-096 | new (owner-approved no-source) | WEB PMC Conceptual expansion of photomedicine for spatiotemporal treatment methods 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC11959407/; WEB PMC Taking phototherapeutics from concept to clinical launch 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8493544/ |
+| p4-recent-097 | new (owner-approved no-source) | WEB PMC Conceptual expansion of photomedicine for spatiotemporal treatment methods 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC11959407/; WEB PMC Taking phototherapeutics from concept to clinical launch 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8493544/ |
+| rf-p4-recent-0124 | new (owner-approved no-source) | WEB PMC Conceptual expansion of photomedicine for spatiotemporal treatment methods 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC11959407/ |
+| rf-p4-recent-0125 | new (owner-approved no-source) | WEB PMC Taking phototherapeutics from concept to clinical launch 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8493544/ |
+| rf-p4-recent-0126 | new (owner-approved no-source) | WEB PMC Conceptual expansion of photomedicine for spatiotemporal treatment methods 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC11959407/ |
+| rf-p4-recent-0127 | new (owner-approved no-source) | WEB PMC Conceptual expansion of photomedicine for spatiotemporal treatment methods 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC11959407/ |
+| rf-p4-recent-0128 | new (owner-approved no-source) | WEB PMC Taking phototherapeutics from concept to clinical launch 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8493544/ |

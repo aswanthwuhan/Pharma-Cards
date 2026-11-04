@@ -310,3 +310,29 @@ Deleted:
 - p3-research-biostats-142: healthy volunteer effect not found in cited Harrison21 p535
 
 Unverifiable (UNSOURCED/WEB refs left in place): 0 in this chunk.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p3-research-biostats-150 | new (owner-approved no-source) | WEB PMC Hughes Principles of early drug discovery 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3058157/ |
+| p3-research-biostats-151 | new (owner-approved no-source) | WEB PMC Hughes Principles of early drug discovery 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3058157/; WEB PMC Ziemba Advances in Cytotoxicity Testing 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12653452/ |
+| rf-p3-research-biostats-0462 | new (owner-approved no-source) | WEB PMC Hughes Principles of early drug discovery 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3058157/ |
+| rf-p3-research-biostats-0463 | new (owner-approved no-source) | WEB PMC Hughes Principles of early drug discovery 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3058157/ |
+| rf-p3-research-biostats-0464 | new (owner-approved no-source) | WEB PMC Hughes Principles of early drug discovery 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3058157/ |
+| rf-p3-research-biostats-0465 | new (owner-approved no-source) | WEB PMC Ziemba Advances in Cytotoxicity Testing 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12653452/ |
+| rf-p3-research-biostats-0466 | new (owner-approved no-source) | WEB PMC Ziemba Advances in Cytotoxicity Testing 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12653452/ |
+| p3-research-biostats-152 | new (owner-approved no-source) | WEB PMC Management of intellectual property rights in India: an updated review 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3312695/ |
+| p3-research-biostats-153 | new (owner-approved no-source) | WEB PMC Management of intellectual property rights in India: an updated review 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3312695/; WEB PMC Indian pharmaceutical patent prosecution: the changing role of Section 3(d) https://pmc.ncbi.nlm.nih.gov/articles/PMC5880378 |
+| rf-p3-research-biostats-0467 | new (owner-approved no-source) | WEB PMC Management of intellectual property rights in India: an updated review 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3312695/ |
+| rf-p3-research-biostats-0468 | new (owner-approved no-source) | WEB PMC Management of intellectual property rights in India: an updated review 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3312695/ |
+| rf-p3-research-biostats-0469 | new (owner-approved no-source) | WEB PMC Indian pharmaceutical patent prosecution: the changing role of Section 3(d) https://pmc.ncbi.nlm.nih.gov/articles/PMC5880378 |
+| rf-p3-research-biostats-0470 | new (owner-approved no-source) | WEB PMC Management of intellectual property rights in India: an updated review 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3312695/ |
+| p3-research-biostats-154 | new (owner-approved no-source) | WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/ |
+| p3-research-biostats-155 | new (owner-approved no-source) | WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/; UNSOURCED - owner must verify |
+| rf-p3-research-biostats-0471 | new (owner-approved no-source) | WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/ |
+| rf-p3-research-biostats-0472 | new (owner-approved no-source) | WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/ |
+| rf-p3-research-biostats-0473 | new (owner-approved no-source) | WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/ |
+| rf-p3-research-biostats-0474 | new (owner-approved no-source) | WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/ |
+| rf-p3-research-biostats-0475 | new (owner-approved no-source) | Medhi PMECP p352 |

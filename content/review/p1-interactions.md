@@ -123,3 +123,15 @@ Notes:
 - 034 (enterohepatic recycling) overlaps 005 (outside this chunk, not edited). Left for the owner.
 - Level ladder after deletions: each subtopic has >=3 L1, >=2 L2, >=1 L3.
 - Validator: check ok.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p1-interactions-061 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p1-interactions-062 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p1-interactions-0134 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p1-interactions-0135 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p1-interactions-0136 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p1-interactions-0137 | new (owner-approved no-source) | UNSOURCED - owner must verify |

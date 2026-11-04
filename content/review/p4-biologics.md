@@ -212,3 +212,15 @@ Checked against owner books with search.py and chapter headers. Unverified claim
 | p4-biologics-075 | corrected | BPCIA 2010 and "no clinically meaningful difference" removed (not found); equivalence point kept (GG14 ch1) |
 
 Subtopic counts after this pass (L1/L2/L3): basics 6/4/1, mechanisms 9/5/4, conjugates 6/5/1, safety 5/2/1, biosimilars 4/2/2, newer-modalities 6/3/1. All meet the minimum.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p4-biologics-076 | new (owner-approved no-source) | WEB Europe PMC Ranjbaran chimeraplast gene targeting 2018 https://europepmc.org/articles/PMC6004989; UNSOURCED - owner must verify |
+| p4-biologics-077 | new (owner-approved no-source) | WEB Europe PMC Ranjbaran chimeraplast gene targeting 2018 https://europepmc.org/articles/PMC6004989; WEB Europe PMC Sauer oligonucleotide-directed mutagenesis review 2016 https://europepmc.org/articles/PMC5057361; UNSOURCED - owner must verify |
+| rf-p4-biologics-0108 | new (owner-approved no-source) | WEB Europe PMC Ranjbaran chimeraplast gene targeting 2018 https://europepmc.org/articles/PMC6004989 |
+| rf-p4-biologics-0109 | new (owner-approved no-source) | WEB Europe PMC Sauer oligonucleotide-directed mutagenesis review 2016 https://europepmc.org/articles/PMC5057361 |
+| rf-p4-biologics-0110 | new (owner-approved no-source) | WEB Europe PMC Ranjbaran chimeraplast gene targeting 2018 https://europepmc.org/articles/PMC6004989 |
+| rf-p4-biologics-0111 | new (owner-approved no-source) | UNSOURCED - owner must verify |

@@ -263,3 +263,23 @@ Open conflicts (kept, for owner):
 Unsourced cards (owner approved): none in this chunk. WEB refs: none in this chunk.
 Unverified residue (not re-checked line by line): 117 extra refs (Katzung16 App2, RangDale9 PDF p11); 093 "benefit-risk" and resource bullets.
 Validation: `node scripts/validate-content.mjs --check` passes.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p4-clinical-trials-125 | new (owner-approved no-source) | WEB PMC Sixty years of ethical evolution: The 2024 revision of the Declaration of Helsinki 2024 https://pmc.ncbi.nlm.nih.gov/articles/PMC11671210/ |
+| p4-clinical-trials-126 | new (owner-approved no-source) | WEB PMC Survival Analysis: Part 15 of a Series on Evaluation of Scientific Publications 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3071962/ |
+| rf-p4-clinical-trials-0200 | new (owner-approved no-source) | WEB PMC Sixty years of ethical evolution: The 2024 revision of the Declaration of Helsinki 2024 https://pmc.ncbi.nlm.nih.gov/articles/PMC11671210/ |
+| rf-p4-clinical-trials-0201 | new (owner-approved no-source) | WEB PMC Survival Analysis: Part 15 of a Series on Evaluation of Scientific Publications 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3071962/ |
+| rf-p4-clinical-trials-0202 | new (owner-approved no-source) | WEB PMC Survival Analysis: Part 15 of a Series on Evaluation of Scientific Publications 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3071962/ |
+| rf-p4-clinical-trials-0203 | new (owner-approved no-source) | WEB PMC Survival Analysis: Part 15 of a Series on Evaluation of Scientific Publications 2011 https://pmc.ncbi.nlm.nih.gov/articles/PMC3071962/ |
+| rf-p4-clinical-trials-0204 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-clinical-trials-127 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p4-clinical-trials-128 | new (owner-approved no-source) | WEB PMC High-throughput screening of nanoparticles in drug delivery 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8397474/; UNSOURCED - owner must verify |
+| rf-p4-clinical-trials-0205 | new (owner-approved no-source) | WEB PMC High-throughput screening of nanoparticles in drug delivery 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8397474/ |
+| rf-p4-clinical-trials-0206 | new (owner-approved no-source) | WEB PMC High-throughput screening of nanoparticles in drug delivery 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8397474/ |
+| rf-p4-clinical-trials-0207 | new (owner-approved no-source) | WEB PMC High-throughput screening of nanoparticles in drug delivery 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8397474/ |
+| rf-p4-clinical-trials-0208 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p4-clinical-trials-0209 | new (owner-approved no-source) | UNSOURCED - owner must verify |

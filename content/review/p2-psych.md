@@ -174,3 +174,16 @@ Kept as is (checked, no change): 065-067, 068-074, 076-080, 081-101 (except abov
 Overlap noted, not deleted (different question formats): 102 and 125 both cover serotonin syndrome; 130 essay and 131-137 basics share the same animal-test content; 115 and 063/rf-0514-0522 cover brexanolone.
 
 - Validator: `node scripts/validate-content.mjs --check` returns check ok after these edits.
+
+## Owner-approved no-source past questions (2026-11-04)
+See content/pyq/NO-SOURCE.md. Draft, owner must verify.
+
+| id | status | source |
+|---|---|---|
+| p2-psych-138 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| p2-psych-139 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p2-psych-0704 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p2-psych-0705 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p2-psych-0706 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p2-psych-0707 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+| rf-p2-psych-0708 | new (owner-approved no-source) | UNSOURCED - owner must verify |

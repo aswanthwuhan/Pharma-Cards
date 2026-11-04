@@ -201,3 +201,25 @@ Deleted:
 Checked, no change needed (examples): 0065, 0069, 0070, 0071-0073, 0075-0078, 0079-0081, 0083-0086, 0089, 0090, 0093-0096, 0097-0105, 0108, 0111-0118 (0117 Golan PDF p954 organ-on-a-chip confirmed), 0120-0148 (Sarkar and Ghosh model pages), 0151-0164.
 
 Unverified (for owner): none in this chunk. No UNSOURCED or WEB refs in this chunk.
+
+## Recheck (all new cards, chunk 3/3)
+
+Scope: rf-p4-experimental-0166 to 0212 (47 cards). Each card checked against the cited owner source (Ghosh FEP, Medhi PMECP, Sarkar OCR, Katzung16, GG14, Bennett, Bioequivalence & Statistics).
+
+Corrected:
+- 0175: question said nude rat and "lacks mature T cells". Medhi PMECP PDF p25 describes the nude mouse (hairless, lacks thymus gland). Question and answer now "Nude mouse defect" / "Hairless; lacks thymus gland".
+- 0179: "human gene" generalised. Sarkar p271-275 says knock-in of human immunoglobulin gene sections gives humanised antibodies. Question reworded to match.
+- 0191: ref changed from Sarkar p541-545 (does not mention healthy volunteers) to Bioequivalence & Statistics PDF p44 (BE studies in healthy volunteers).
+- 0193: question reworded to the source wording (recreational use of CNS drugs leads to physical dependence, GG14 PDF p324).
+- 0194: question narrowed to the IND application (Sarkar p251-255 names animal sections for the IND, not the NDA).
+- 0195: ref changed from Ghosh FEP PDF p223 to p198 (MTT/XTT, mitochondrial reduction).
+- 0196: ref changed from p223 to p199 (trypan blue, dye enters only dead cells).
+- 0197: ref changed from p223-224 to p199 (acridine orange and ethidium bromide, fluorescence microscopy).
+- 0198: ref changed from p223 to p199 and p104 (IC50 is the 50 per cent inhibitory concentration).
+- 0199: ref changed from p224 to p200 (water-insoluble material soluble in less than 1 per cent DMSO).
+
+Deleted: none.
+
+Checked, no change needed: 0166-0174, 0176-0178, 0180-0190, 0192, 0200-0212.
+
+Unverifiable (for owner): none. No UNSOURCED or WEB refs in this chunk.
