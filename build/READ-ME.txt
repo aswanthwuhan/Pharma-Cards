@@ -1,0 +1,28 @@
+Pharmacards for macOS
+=====================
+
+1. Drag the Pharmacards app onto the Applications folder in this window.
+
+2. FIRST OPEN ONLY: the app is not signed with an Apple Developer ID, so macOS
+   will refuse a normal double-click ("Apple could not verify...").
+
+   Do this once instead:
+     - Right-click (or Control-click) Pharmacards in Applications
+     - Choose "Open"
+     - Click "Open" again in the dialog
+
+   After that it opens normally, and macOS remembers the choice.
+
+   If you prefer the terminal, this does the same thing:
+
+     xattr -dr com.apple.quarantine /Applications/Pharmacards.app
+
+3. No Apple account, no problem: the same app runs in your browser and installs
+   like a native app with no security prompt at all.
+
+     Safari -> open https://aswanthwuhan.github.io/Pharma-Cards/
+     File -> "Add to Dock"
+
+   That gives you the same Pharmacards in the Dock, working offline.
+
+Your study progress stays on this Mac. Nothing is uploaded.

@@ -5,6 +5,13 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.12",
+    changes: [
+      "macOS app: one universal installer that runs on both Apple Silicon and Intel Macs",
+      "Opening the macOS app the first time: right-click → Open, until the build is signed by Apple",
+    ],
+  },
+  {
     version: "0.5.11",
     changes: [
       "Space or Enter now turns the card back over as well as revealing it",

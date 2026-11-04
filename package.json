@@ -1,6 +1,6 @@
 {
   "name": "md-pharma-flashcards",
-  "version": "0.5.11",
+  "version": "0.5.12",
   "main": "electron/main.cjs",
   "productName": "Pharmacards",
   "description": "Pharmacards: MD Pharmacology flashcards (study decks and Rapid Fire), desktop app.",
@@ -17,7 +17,7 @@
     "desktop:build": "next build",
     "desktop:dev": "electron .",
     "dist:win": "next build && electron-builder --win nsis",
-    "dist:mac": "next build && electron-builder --mac dmg",
+    "dist:mac": "next build && electron-builder --mac dmg --universal",
     "android:sync": "next build && cap sync android",
     "android:apk": "next build && cap sync android && node scripts/android-apk.mjs"
   },
@@ -70,7 +70,34 @@
         "dmg"
       ],
       "category": "public.app-category.education",
-      "artifactName": "Pharmacards-${version}.${ext}"
+      "artifactName": "Pharmacards-${version}-${arch}.${ext}",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false
+    },
+    "dmg": {
+      "window": {
+        "width": 540,
+        "height": 460
+      },
+      "contents": [
+        {
+          "x": 140,
+          "y": 180,
+          "type": "file"
+        },
+        {
+          "x": 400,
+          "y": 180,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 140,
+          "y": 380,
+          "type": "file",
+          "path": "build/READ-ME.txt"
+        }
+      ]
     },
     "nsis": {
       "oneClick": false,

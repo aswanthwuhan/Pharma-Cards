@@ -141,7 +141,9 @@ export default function Help() {
             <b>iPhone / iPad</b>: Safari → Share → <b>Add to Home Screen</b>.
           </li>
           <li>
-            <b>Mac</b>: Safari → <b>File → Add to Dock</b> (or Chrome → Install).
+            <b>Mac</b>: Safari → <b>File → Add to Dock</b> — no security prompt, and it works offline. The
+            .dmg runs on both Apple Silicon and Intel Macs; since it is not signed by Apple, open it the
+            first time with <b>right-click → Open</b> (the read-me in the window explains it).
           </li>
           <li>
             <b>Android</b>: Chrome → menu → <b>Install app</b>.
