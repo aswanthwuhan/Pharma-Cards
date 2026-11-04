@@ -5,6 +5,14 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.11",
+    changes: [
+      "Space or Enter now turns the card back over as well as revealing it",
+      "Undo with U, Escape or Ctrl/⌘ Z — and on a fresh card the opposite arrow brings the last card back",
+      "New How to use page: every gesture and keyboard key in one place (Settings, or the desktop sidebar)",
+    ],
+  },
+  {
     version: "0.5.10",
     changes: [
       "Faster start: the card content loads on demand instead of up front on every screen",

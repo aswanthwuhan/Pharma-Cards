@@ -181,6 +181,10 @@ export default function SettingsPage() {
         <p className="eyebrow">Pharmacards</p>
         <h1 className="font-serif text-3xl">Settings</h1>
         <p className="text-sm text-ink-soft">Exam plan, review pace, study screen and your data.</p>
+        <Link href="/help" className="inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-teal">
+          How to use the study screen
+          <span aria-hidden>→</span>
+        </Link>
       </header>
 
       <div className="grid gap-6 lg:grid-cols-2 lg:items-start">

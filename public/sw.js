@@ -4,7 +4,7 @@ const CACHE_VERSION = new URL(self.location.href).searchParams.get("v") || "dev"
 const CACHE_NAME = `pharmacards-${CACHE_VERSION}`;
 // Base path the app is served under ("" at the root, "/Pharma-Cards" on GitHub Pages), taken from the SW scope.
 const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, "");
-const ROUTES = ["/", "/browse", "/stats", "/bookmarks", "/settings", "/admin", "/study"].map((r) => BASE + r);
+const ROUTES = ["/", "/browse", "/stats", "/bookmarks", "/settings", "/admin", "/study", "/help"].map((r) => BASE + r);
 const PRECACHE_URLS = [...ROUTES, BASE + "/manifest.webmanifest"];
 const STATIC_PREFIX = BASE + "/_next/static/";
 

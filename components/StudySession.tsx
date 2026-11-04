@@ -21,6 +21,8 @@ import { useSettings } from "@/lib/settings";
 
 // Rating dock order matches Anki: Forgot, Hard, Good, Easy.
 const ARROW: Record<string, SwipeGrade> = { ArrowLeft: 1, ArrowDown: 2, ArrowRight: 3, ArrowUp: 4 };
+/** The grade on the far side of the card, used to bring the previous card back. */
+const OPPOSITE: Record<SwipeGrade, SwipeGrade> = { 1: 3, 3: 1, 2: 4, 4: 2 };
 
 interface Done {
   undo: ReviewUndo;
@@ -206,12 +208,19 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
     setCards((c) => [...c.slice(0, i), ...c.slice(i + 1), c[i]]);
   }, [card, i]);
 
-  // Keyboard: Space/Enter reveal; 1-4 or arrow keys grade; Ctrl/Cmd+Z undo.
+  // Keyboard: Space/Enter flip both ways; 1-4 or arrow keys grade; U, Escape or Ctrl/Cmd+Z undo.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement;
       if (noteOpen || el.closest?.("input, textarea, select, [contenteditable]")) return;
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") {
+        e.preventDefault();
+        undoLast();
+        return;
+      }
+      // Escape / U undo the last grade, unless a dialog is open (it owns Escape).
+      if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && (e.key === "Escape" || e.key.toLowerCase() === "u")) {
+        if (document.querySelector('[aria-modal="true"]')) return;
         e.preventDefault();
         undoLast();
         return;
@@ -225,18 +234,25 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
       // Enter/Space on a focused control is that control's (e.g. "End session" must follow its link).
       const activate = e.code === "Space" || e.key === "Enter";
       if (activate && el.closest?.("button, a, [role=radio]")) return;
-      if (!revealed && activate) {
+      if (activate) {
+        // Flip both ways: Space/Enter show the answer, and the next press turns the card back over.
         e.preventDefault();
-        setRevealed(true);
+        setRevealed((r) => !r);
       } else if (revealed && ["1", "2", "3", "4"].includes(e.key)) gradeCurrentCard(Number(e.key) as SwipeGrade);
       else if (revealed && ARROW[e.key] && !el.closest?.("[data-card-scroller]")) {
         e.preventDefault();
         gradeCurrentCard(ARROW[e.key]);
       }
+      // Arrows only grade a flipped card, so on a fresh card the opposite direction can bring the
+      // previous one back: grade right, then left puts it back on the table.
+      else if (!revealed && ARROW[e.key] && history.length && OPPOSITE[history.at(-1)!.grade] === ARROW[e.key]) {
+        e.preventDefault();
+        undoLast();
+      }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [revealed, undoLast, noteOpen, done, skip]);
+  }, [revealed, undoLast, noteOpen, done, skip, history]);
 
   if (!cards.length)
     return (

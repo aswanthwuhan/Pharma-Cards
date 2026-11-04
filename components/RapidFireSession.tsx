@@ -100,6 +100,13 @@ export function RapidFireSession({
       const el = e.target as HTMLElement;
       if (el.closest?.("input, textarea, select, [contenteditable]")) return;
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") return void (e.preventDefault(), undoLast());
+      // Escape / U undo the last answer, unless a dialog is open (it owns Escape).
+      if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && (e.key === "Escape" || e.key.toLowerCase() === "u")) {
+        if (document.querySelector('[aria-modal="true"]')) return;
+        e.preventDefault();
+        undoLast();
+        return;
+      }
       if (done) return;
       if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && e.key.toLowerCase() === "s") {
         e.preventDefault();

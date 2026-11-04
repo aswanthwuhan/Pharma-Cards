@@ -11,6 +11,7 @@ const ICONS = {
   saved: "M7 4h10a1 1 0 0 1 1 1v15l-6-4-6 4V5a1 1 0 0 1 1-1z",
   settings: "M4 7h10M18 7h2M4 17h4M12 17h8M14 5v4M8 15v4",
   review: "M4 5h16v11H8l-4 4zM8 10h8",
+  help: "M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18zM9.1 9a3 3 0 1 1 4.6 2.6c-.9.6-1.7 1.1-1.7 2.4M12 17h.01",
 };
 
 // Bottom tabs on phones (5 max); the desktop rail also shows Review.
@@ -21,7 +22,12 @@ const TABS = [
   { href: "/bookmarks", label: "Saved", icon: ICONS.saved },
   { href: "/settings", label: "Settings", icon: ICONS.settings },
 ];
-const RAIL = [...TABS.slice(0, 4), { href: "/admin", label: "Review cards", icon: ICONS.review }, TABS[4]];
+const RAIL = [
+  ...TABS.slice(0, 4),
+  { href: "/admin", label: "Review cards", icon: ICONS.review },
+  TABS[4],
+  { href: "/help", label: "How to use", icon: ICONS.help },
+];
 
 function Icon({ d, size = 22 }: { d: string; size?: number }) {
   return (
