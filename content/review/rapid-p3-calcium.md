@@ -343,3 +343,54 @@ Ladder pass: 3 new pairs.
 
 ## Gap writer 2026-11-03: osteoporosis pathophysiology
 Added rf-p3-calcium-0366 to 0377 from GG14 ch52 (peak bone mass, remodelling cycle, type I/II/secondary osteoporosis, coupling). Subtopic p3-calcium-bisphosphonates. Duplicates of existing therapy pairs avoided. Validator: check ok.
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked: rf-p3-calcium-0275 to rf-p3-calcium-0339 (65 cards) against KDT8 ch24 (full text read). Every q/a pair matches the book. No corrections, no deletions, no unsourced or web refs in this chunk.
+
+Flag for the chunk 2 reviewer: rf-p3-calcium-0377 ("Osteoblast response to calcitriol in osteoporosis: Impaired", ref GG14 ch52) did not match a GG14 ch52 search, and it is the same unsupported claim removed from study card 081. Not changed here (outside chunk 1).
+
+## Recheck (all new cards, chunk 2/2)
+
+Checked: rf-p3-calcium-0340 to rf-p3-calcium-0377 (37 ids, chunk 2 of .tmp/recheck.json) against KDT8 ch23, ch24, ch42, ch47, ch49 (raw text); GG14 ch44, ch48, ch52 (p1074, p1087, p980-981); Katzung16 ch14 (p254-255 and QT-drug passage); search.py for strontium and burosumab.
+
+Corrected:
+- 0341: "elderly women and high-risk men" is not in any owner book. KDT8 ch24 says only "reserve drug for severe osteoporosis". Answer now uses that wording.
+- 0342: "serious skin reactions" is not in KDT8 ch24. KDT8 ch24 names serious cardiovascular events (MI, stroke, thromboembolism). Answer changed to match.
+- 0372: "first step" overstated the book. GG14 ch52 says the most successful approaches are resolving the underlying cause and stopping the drug. Question and answer reworded.
+- 0373: GG14 ch52 gives glucocorticoids and phenytoin as examples ("such as"), not a full list. Question changed from "list all" to "named examples".
+
+Deleted (duplicates, better card kept; no owner-book error found in the deleted card itself):
+- 0343: duplicate of 0257 (gallium nitrate use and route).
+- 0344: duplicate of 0247 (severe hypercalcaemia: dehydration and altered consciousness).
+- 0345: duplicate of 0267 (pamidronate or zoledronate arrest osteolytic lesions).
+- 0347: subset of 0246 (causes of hypercalcaemia, full list kept).
+- 0349: duplicate of 0248 (first step: rapid i.v. saline).
+- 0350: duplicate of 0249 (furosemide after volume repletion).
+- 0351: duplicate of 0023 (thiazides reduce urinary calcium).
+
+Verified, no change: 0340, 0346, 0352, 0353, 0354, 0355, 0356, 0357, 0358, 0359, 0360, 0361, 0362, 0363, 0364, 0365, 0366, 0367, 0368, 0369, 0370, 0371, 0374, 0375, 0376, 0377.
+- 0377 (osteoblast response to calcitriol "impaired", flagged by the chunk 1 check) is supported: GG14 ch52 p1074 says osteoblast responsiveness to calcitriol is profoundly impaired in osteoporosis. Kept.
+- 0353: KDT8 ch23 says "first line" for magnesium sulfate in eclampsia. Kept as "drug of choice" wording.
+- 0357: KDT8 ch47 magnesium antacid list omits magnesium carbonate, which appears only in brand combinations. Kept.
+
+Unverifiable: none in this chunk (no UNSOURCED or WEB refs).
+
+Flags outside this chunk (not edited):
+- rf-p3-calcium-0010 "About 4-6 months" for the remodelling cycle: no such figure in KDT8 ch24. GG14 ch52 says about 6 months (kept on 0368). Chunk 1 owner to fix or delete.
+- rf-p3-calcium-0239 carries the same unsupported clause as 0341 before correction ("when bisphosphonates are contraindicated or not tolerated"). Chunk 1 owner to check.
+- rf-p3-calcium-0249 "benefit not proven" is not in KDT8 ch24 wording. Chunk 1 owner to check.
+
+Subtopic minimums: rapid cards carry no level, so the L1/L2/L3 rule is unaffected; study deck unchanged by this pass.
+
+### Recheck chunk 2/2, second pass (addendum)
+
+Re-verified all 30 surviving ids in chunk 2 against the owner PDFs (KDT8 ch23/24/42/47/49 text, GG14 ch44/48/52 and KDT8 search hits, GG12 p1872, Katzung16 p269/270/274, search.py for burosumab and digitalis/torsades Mg).
+
+- rf-p3-calcium-0364: ref corrected from "GG14 ch48" to "GG12 ch66". The 20% eclampsia-after-48-h figure is in GG12 p1872; GG14 ch48 does not carry it (the 12e chapter is the one in the owner's books that does). Answer unchanged.
+- rf-p3-calcium-0353 kept as "drug of choice". KDT8 ch23 says "first line", which is the same practical meaning; not changed.
+- rf-p3-calcium-0368 ("about 6 months", GG14) duplicates rf-p3-calcium-0010, but 0010 is chunk 1 and needs its owner. Both kept.
+
+Outside this chunk, for the chunk 1 owner: rf-p3-calcium-0010 "About 4-6 months" is printed in KDT8 PDF p375 (remodelling cycle "4-6 months"), so it is supported, not unsupported as the first pass said. Please do not delete it on that basis.
+
+Unverifiable in this chunk: none (no UNSOURCED or WEB refs).

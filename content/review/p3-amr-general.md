@@ -152,3 +152,14 @@ Gap questions handled: 114 (resistance mechanisms) covered by 006-008, 015, 093-
 | p3-amr-general-103 | new | KDT8 PDF p774-776 |
 
 Gap-pass check (p3-amr-general 101-103): 102 "avoid general prophylaxis" removed (not in cited text); 103 Caution line reworded to moxifloxacin QT and rare phototoxicity (source KDT8 PDF p775). Other facts re-checked against KDT8 PDF p774-776, p792-793, p810-811, p818-819, GG14 PDF p1162, p1177: confirmed.
+
+## Recheck (all new cards, chunk 1/2)
+Scope: 37 study cards from chunk 1 of 2 (ids 067-103 range listed in .tmp/recheck.json). Each checked against KDT8 ch50-52, ch55 (pdftotext) and search.py pages; GG14 ch58 and Katzung16 PDF p1288-1289 where cited. Rapid cards of the same chunk are in rapid-p3-amr-general.md.
+
+- Corrected 084: cephalexin was said to be "susceptible to staphylococcal beta-lactamase". KDT8 ch52 says only that cefazolin is quite susceptible; cephalexin is weaker against penicillinase-producing staph. Back now states this for cefazolin only (KDT8 ch52).
+- Corrected 097: back was a bare name with no why. Added the cause of chancroid, single-dose ceftriaxone or azithromycin cure, and 7-day erythromycin equivalence (KDT8 ch55, ch52).
+- Corrected 102: removed bullet "Ciprofloxacin or levofloxacin with a beta-lactam for high-risk nosocomial pneumonia". Not found in any owner book (searched KDT8 and GG14; GG14 PDF p1162 has no such regimen). Refs trimmed to pages that support the remaining bullets (KDT8 PDF p792, p793, p808, p810, p818, p819; GG14 PDF p1178). KDT8 PDF p752 dropped as unsupported for this card.
+- Deleted: none.
+- Unverifiable (UNSOURCED or WEB): none in this chunk.
+- Level and duplicate check: all chunk cards have level; no duplicate fronts in the deck; each subtopic still >= 3 L1, 2 L2, 1 L3.
+- Note for chunk 2: rapid cards rf-p3-amr-general-0609 to 0615 (nosocomial gap pass) cite "FQ plus beta-lactam for high-risk nosocomial pneumonia (GG14 PDF p1162)". Same claim is unsupported in the owner books. Not in this chunk; flagged for chunk 2.

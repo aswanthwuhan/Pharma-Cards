@@ -173,3 +173,42 @@ Each new card was re-checked against the allowed PDFs (search.py / --page). Wher
 | p4-biologics-075 | corrected | development/IND and 25% bullets removed; refs GG14 ch1 only |
 
 Earlier table entries for 046-047, 049-051, 054, 058-060, 063-064, 067-070, 073-075 are superseded by this pass.
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked against owner books with search.py and chapter headers. Unverified claims were removed; no UNSOURCED or WEB refs in this chunk.
+
+| id | status | reason / source |
+|---|---|---|
+| p4-biologics-034 | corrected | mouse suffix is -momab, not -omab (GG14 ch38 nomenclature table) |
+| p4-biologics-036 | corrected | FcRn/CYP claims dropped; kept rituximab t1/2 about 22 days and dosing (GG14 ch72) |
+| p4-biologics-037 | corrected | HAMA claim dropped; humanised = CDR-only murine (Sarkar p531-535) |
+| p4-biologics-039 | corrected | general CRS sentence removed (not in books) |
+| p4-biologics-040 | corrected | CRS and BiTE toxicity sentences removed (not in books checked) |
+| p4-biologics-041 | corrected | "proteolytic" blank removed; microtubule and topoisomerase blanks kept (Katzung16 p1018, GG14 p785) |
+| p4-biologics-043 | corrected | "IgG1 Fc" changed to "IgG Fc" (Katzung16 ch36, etanercept) |
+| p4-biologics-044 | corrected | taxane detail removed from trastuzumab emtansine example |
+| p4-biologics-045 | corrected | corticosteroid premed not in GG14 ch72 (antihistamine and slow rate only); KDT8 ref dropped |
+| p4-biologics-046 | corrected | "screen" reworded to monitor for past infection (Katzung16 ch55, p1064) |
+| p4-biologics-048 | corrected | hypogammaglobulinaemia removed; HBV and PML kept (GG14 ch72 p1445) |
+| p4-biologics-049 | corrected | BPCIA-style "approval" claim removed; glycosylation point kept (GG14 ch1) |
+| p4-biologics-050 | corrected | "highly similar / no clinically meaningful difference" not found; rewritten to equivalence (GG14 ch1) |
+| p4-biologics-051 | corrected | manufacturer names removed (Katzung16 ch41 lists Basaglar, Rezvoglar) |
+| p4-biologics-052 | corrected | Semglee/Mylan example and pathway details removed |
+| p4-biologics-053 | corrected | lentivirus CAR-T claim removed (RangDale9 ch5 retrovirus) |
+| p4-biologics-054 | deleted | antisense/siRNA mechanism (RNase H, RISC) not found in owner books |
+| p4-biologics-055 | corrected | only tocilizumab for CRS kept (GG14 ch72 p1448); IGIV and neurotox removed |
+| p4-biologics-058 | corrected | refs GG14 ch39 (p803) |
+| p4-biologics-061 | corrected | refs GG14 ch38 (p785) |
+| p4-biologics-062 | corrected | "nerve sprouting" clause removed (GG14 p262 supports duration) |
+| p4-biologics-063 | corrected | nonequivalent, hyperhidrosis, spread-paralysis and tagraxofusp removed (not found) |
+| p4-biologics-065 | corrected | refs GG14 ch39 only (p800, p807) |
+| p4-biologics-068 | corrected | anti-murine claim removed; CRS and pulmonary oedema reason added (GG14 p798, GG12 p1042) |
+| p4-biologics-069 | deleted | anti-idiotypic IVIG mechanism not stated in owner books (GG12 p1049 only says mechanism unknown) |
+| p4-biologics-070 | corrected | anti-murine bullet removed |
+| p4-biologics-071 | corrected | -omab changed to -momab; IVIG anti-idiotype bullet removed |
+| p4-biologics-072 | deleted | occupational toxicology definition not found in owner books; off-topic for biologics |
+| p4-biologics-073 | deleted | lead smelter/battery-factory and preclinical-toxicity claims not found; off-topic for biologics |
+| p4-biologics-075 | corrected | BPCIA 2010 and "no clinically meaningful difference" removed (not found); equivalence point kept (GG14 ch1) |
+
+Subtopic counts after this pass (L1/L2/L3): basics 6/4/1, mechanisms 9/5/4, conjugates 6/5/1, safety 5/2/1, biosimilars 4/2/2, newer-modalities 6/3/1. All meet the minimum.

@@ -87,3 +87,10 @@ Spot-checked 30+ study/rapid cards (levels 2-3, numeric doses and potencies) aga
 
 
 Checker (PYQ gap pass): verified new rapid cards against owner books. Corrected rf-p3-git-0539 and rf-p3-git-0553, deleted rf-p3-git-0543. Validator check ok.
+
+## Recheck (all new cards, chunk 1/1)
+Checked every rf- id in chunk 1 against the owner books (KDT8 ch47/ch49, GG14 ch6/ch54, GG14 p1118). Confirmed: lafutidine dose (KDT8 ch47), dicyclomine dose (GG14 ch54), rifaximin, eluxadoline, TCAs, sulfasalazine, digoxin/Eggerthella, FMT, microbial gene counts.
+Corrected: none beyond the deletion below.
+Deleted:
+- rf-p3-git-0537 (mebeverine dose 100-135 mg TDS or 200 mg BD): dose not printed in any owner book checked (GG14 ch54 gives class and mechanism only). The matching study card p3-git-091 now has no dose.
+Unverifiable: none in chunk 1.

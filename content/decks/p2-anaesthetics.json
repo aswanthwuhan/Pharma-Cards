@@ -410,7 +410,7 @@
       "id": "p2-anaesthetics-094",
       "type": "basic",
       "front": "A patient with kidney and liver disease needs a muscle relaxant for rapid intubation and a smooth reversal. Choose and justify.",
-      "back": "Rocuronium gives the fastest onset of the non-depolarisers (about 60-90 s at 1.0-0.6 mg/kg) and can replace succinylcholine; it avoids the drawbacks of depolarising block and seldom needs reversal, but it is cleared by liver and bile, so its action lasts longer in liver disease. For maintenance, cisatracurium is inactivated mainly by Hofmann elimination (not hydrolysed by plasma cholinesterase), so its action is little altered by liver or kidney failure, and it does not release histamine; it is a preferred relaxant in liver or kidney disease. Avoid pancuronium (renal excretion) and avoid succinylcholine where hyperkalaemia is a danger (burns, nerve damage). Reversal after rocuronium or vecuronium can use sugammadex, which encapsulates the blocker, rather than neostigmine; but sugammadex is cleared by the kidney, so in significant renal failure (Katzung: CrCl below 30 mL/min) it is avoided unless essential, and cisatracurium, which seldom needs reversal, becomes the safer maintenance choice.",
+      "back": "Rocuronium has a rapid onset among the non-depolarisers and can replace succinylcholine; it avoids the drawbacks of depolarising block and seldom needs reversal, but it is cleared by liver and bile, so its action lasts longer in liver disease. For maintenance, cisatracurium is inactivated mainly by Hofmann elimination (not hydrolysed by plasma cholinesterase), so its action is little altered by liver or kidney failure, and it does not release histamine; it is a preferred relaxant in liver or kidney disease. Avoid pancuronium (renal excretion) and avoid succinylcholine where hyperkalaemia is a danger (burns, nerve damage). Reversal after rocuronium or vecuronium can use sugammadex, which encapsulates the blocker, rather than neostigmine; but sugammadex is cleared by the kidney, so in significant renal failure (Katzung: CrCl below 30 mL/min) it is avoided unless essential, and cisatracurium, which seldom needs reversal, becomes the safer maintenance choice.",
       "refs": [
         "KDT8 ch25",
         "Katzung16 ch27"
@@ -1546,20 +1546,20 @@
         {
           "h": "Tetracaine",
           "points": [
-            "Lipid-soluble PABA ester; more potent and more toxic; topical eye, nose and throat only; avoid for bronchoscopy"
+            "Lipid-soluble PABA ester; more potent and more toxic; topical eye, nose and throat only; tracheobronchial spray is absorbed fast, approaching i.v. blood levels"
           ]
         },
         {
           "h": "Proparacaine",
           "points": [
-            "Commonest ophthalmic anaesthetic now; faster than tetracaine; tonometry about 30 s after one drop; minimal irritation"
+            "Commonest ophthalmic anaesthetic now; faster than tetracaine; tonometry about 30 s after one drop"
           ]
         },
         {
           "h": "Benzocaine and butylaminobenzoate",
           "points": [
             "Very poorly soluble: long numbness without systemic toxicity; benzocaine can cause methaemoglobinaemia",
-            "PABA derivatives antagonise sulphonamides locally"
+            "Not used for sulphonamide interaction; see KDT8 ch26"
           ]
         },
         {
@@ -1576,37 +1576,6 @@
       "tags": [
         "uses",
         "adr"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "level": 2
-    },
-    {
-      "id": "p2-anaesthetics-078",
-      "type": "shortnote",
-      "front": "Short note: Dibucaine, cinchocaine and the surface-anaesthetic choice",
-      "sections": [
-        {
-          "h": "Dibucaine",
-          "points": [
-            "Most potent, most toxic and longest-acting LA",
-            "Surface use on less delicate mucosa such as the anal canal"
-          ]
-        },
-        {
-          "h": "Abandoned use",
-          "points": [
-            "Long-duration spinal anaesthesia has been abandoned because of toxicity"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch26"
-      ],
-      "subtopic": "p2-anaesthetics-la-agents",
-      "tags": [
-        "adr",
-        "uses"
       ],
       "pyq": [],
       "status": "draft",
@@ -2190,7 +2159,7 @@
           "points": [
             "Stable in young adults; declines with age beyond 50",
             "Premedication with CNS depressants or opioids lowers the MAC needed",
-            "Two inhalational agents have additive MACs (e.g. 0.5 MAC N2O plus 0.5 MAC isoflurane equals 1 MAC isoflurane)"
+            "Premedication with opioids or neuroleptics potentiates anaesthetics, so less is needed"
           ]
         },
         {
@@ -2885,7 +2854,7 @@
       "id": "p2-anaesthetics-100",
       "type": "basic",
       "front": "What is double-burst stimulation?",
-      "back": "Three pulses at 50 Hz, a 700 ms rest, then the set repeats. It is an alternative pattern for judging neuromuscular transmission beside the TOF.",
+      "back": "Three pulses at 50 Hz, a 700 ms rest, then the set repeats. It is an alternative pattern for judging neuromuscular transmission beside the TOF; it lets the clinician detect residual block by hand when TOF is hard to judge.",
       "refs": [
         "Katzung16 ch27"
       ],
@@ -2917,7 +2886,7 @@
       "id": "p2-anaesthetics-102",
       "type": "basic",
       "front": "Which in vitro preparation is used for neuromuscular blockers in the chick?",
-      "back": "The innervated biventer cervicis muscle, hung in an organ bath and stimulated through its nerve, with the twitch recorded on a writing lever. Used for suxamethonium and tubocurarine, among others.",
+      "back": "The innervated biventer cervicis muscle, hung in an organ bath and stimulated through its nerve, with the twitch recorded on a writing lever. Used for suxamethonium and tubocurarine, among others, because the muscle responds to these blockers.",
       "refs": [
         "Medhi PMECP p171-172"
       ],
@@ -3301,7 +3270,6 @@
         {
           "h": "Adverse effects",
           "points": [
-            "Induction apnoea of about 1 min is common",
             "BP falls more than with thiopentone (vasodilatation); HR unchanged or lower",
             "Dose-dependent respiratory depression; pain on injection (reduce with lidocaine)",
             "Prolonged high-dose sedation: metabolic acidosis, lipaemia, heart failure"
@@ -3365,7 +3333,10 @@
           ]
         }
       ],
-      "refs": ["KDT8 ch27", "GG14 ch24"],
+      "refs": [
+        "KDT8 ch27",
+        "GG14 ch24"
+      ],
       "status": "draft",
       "subtopic": "p2-anaesthetics-iv-premedication",
       "tags": [

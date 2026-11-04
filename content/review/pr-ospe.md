@@ -202,3 +202,61 @@ Gap added: NMC curriculum lists "rational and irrational formulations" and "sele
 Not verified offline: pr-ospe-004, 005, 035 (WEB PMC articles) and rapid 0059 "about 5 minutes" per station. Owner should check these.
 Forbidden refs: grep for Prep, RR5, RapidRev in both deck files returned none.
 Validator: `node scripts/validate-content.mjs --check` reports no pr-ospe errors.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: pr-ospe-036 to 049 (14 cards) re-read against OCR and PDF text. Deleted: none. Unverifiable (exact UNSOURCED-only or WEB refs): none in this chunk. Cards 038, 043 and 044 keep an UNSOURCED ref beside book refs for the part the books do not state.
+
+| id | result | note |
+|---|---|---|
+| pr-ospe-036 | corrected | NMC PDF p22 gives 10 to 15 stations, observed and unobserved. "Fixed checklist" and "one defined task" were not in the source; removed. Front now asks for station count. |
+| pr-ospe-037 | corrected | Pickar p373 does not state C1V1 = C2V2. Ref now Medhi PMECP PDF p40 (formula). Unsupported "amount of drug stays the same" phrase removed. |
+| pr-ospe-039 | corrected | Sarkar p76-80 only lists the sources reference. Ref now Padmaja PDF p95 (primary, secondary, tertiary definitions). "Quick queries start at tertiary" removed (no source). |
+| pr-ospe-040 | corrected | Sarkar p506-510 removed (learning objective only). Medhi PMECP PDF p359-361 supports the leaflet points. |
+| pr-ospe-038, 041, 042, 043, 044 | ok | Ghosh PDF p11 (stepwise dilution), Medhi PDF p87 (bath volume); Sarkar p81-85 (types, QALY as CUA outcome); Bennett PDF p76 (QALY); Sarkar p421-425 (absorbance proportional to concentration), p386-390 and p396-405 for ELISA, TLC, HPLC. Standard-curve wording in 043 and the drug-level example in 044 remain under UNSOURCED. |
+| pr-ospe-045 to 049 | ok | KDT8 ch5 (PDF p89, p98-99): FDC definition, advantages and disadvantages, six rational-prescribing criteria, 344 banned FDCs, most FDCs not justified. |
+
+Level check: every card has a level. Basic-card "why" check: no why added where the source gives none (036 is a definition card). Duplicates: none within chunk (045 and rf-0070 are the same fact in study and Rapid files, as designed).
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: pr-ospe-036 to 049 (14 cards) re-read against NMC, Medhi, Padmaja, Sarkar, Bennett, Katzung16 and KDT8 text (second pass). Deleted: none. Unverifiable (exact UNSOURCED-only or WEB refs): none.
+
+| id | result | note |
+|---|---|---|
+| pr-ospe-036 | ok | NMC PDF p22: 10-15 stations, observed and unobserved; OSPE expansion printed. |
+| pr-ospe-037 | ok | Medhi PMECP PDF p40: C1 x V1 = C2 x V2 and worked example. |
+| pr-ospe-038 | corrected (refs) | Ghosh FEP PDF p11 (histamine stock, stepwise dilution) and Medhi PMECP PDF p87 (dilution per bath volume). Ref names aligned to standard form. Worked numbers (1 in 100, 2 mL into 10 mL) stay under UNSOURCED. |
+| pr-ospe-039 | corrected | "points to primary work" is not in Padmaja PDF p95; back now uses Padmaja wording (analysed, compiled and published). |
+| pr-ospe-040 | ok | Medhi PMECP PDF p359-361: FDA line on relative-safety claims needing current literature; checklist for references, ADRs, precautions, generic name. |
+| pr-ospe-041 | ok | Sarkar p81-85 lists CBA, CEA, CMA, cost-of-illness, CUA; CEA natural units and CBA monetary units in Sarkar p81-85; CMA equivalent outcomes in Katzung16 PDF p1296. |
+| pr-ospe-042 | ok | Bennett PDF p76 (QALY definition); Sarkar p81-85 (QALY as CUA measure). |
+| pr-ospe-043 | ok | Sarkar p421-425: Beer-Lambert, absorbance proportional to concentration. Standard-curve step stays under UNSOURCED. |
+| pr-ospe-044 | corrected (refs) | HPLC-MS coupling is Sarkar p406-410 (ref added). Retention time Sarkar p401-405; TLC spots and Rf p396-400; ELISA p386-390; spectrophotometry p421-425. |
+| pr-ospe-045 | ok | KDT8 ch5 PDF p89: FDC is two or more drugs in fixed ratio; components must be needed. |
+| pr-ospe-046 | ok | KDT8 ch5 PDF p98: six rational-prescribing criteria. |
+| pr-ospe-047 | ok | KDT8 ch5 PDF p89: compliance, synergy (SMX + TMP, isoniazid + rifampin), different mechanisms (amlodipine + atenolol), no single drug in TB, HIV-AIDS, falciparum malaria. |
+| pr-ospe-048 | ok | KDT8 ch5 PDF p89: disadvantages 1-6 (dose, time course, renal/hepatic, attribution, contraindication). |
+| pr-ospe-049 | ok | KDT8 ch5 PDF p89: only a handful of FDCs rational; 344 later banned. |
+
+Level check: all 14 cards have a level. Ladder (whole deck): format 3/3/1, adr-consent 5/2/1, dosage-calc 3/6/1, drug-info 5/4/2, research-docs 3/3/1, instruments 3/2/1 (L1/L2/L3). Basic-card why: 036, 039 and 046 are definition or list cards whose source gives no mechanism, so no why was added. Duplicates: none within the deck; 045 and rf-pr-ospe-0070 state the same FDC fact in the study and Rapid decks by design.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: pr-ospe-036 to 049 (14 cards) re-read against the cited OCR and PDF text. This pass supersedes the earlier sections with the same title above. Those cited Sarkar p386-390 for ELISA, but that range is the statistics chapter (nonparametric tests), so the ELISA citation is now Sarkar p391-395 only.
+
+Corrected:
+- pr-ospe-044: wrong refs removed (Sarkar p386-390 is statistics). Back rewritten to what the cited Sarkar pages state: HPLC retention time and peak amount, MS coupling (p401-405); TLC spots on a plate (p396-400); ELISA colour proportional to bound antibody (p391-395); Beer-Lambert (p421-425). "Drug level in plasma", "purity" and the selectivity/sensitivity advice were not in the source and are removed. The UNSOURCED ref is dropped because the card is now fully book-grounded.
+
+Deleted:
+- pr-ospe-001: duplicate of pr-ospe-036 (same 10-15 stations, observed and unobserved, NMC). 036 kept because it has the precise ref NMC PDF p22. To keep format at >= 3 L1, pr-ospe-004 moved from level 2 to level 1 (format now 3/2/1).
+
+Corrected outside the chunk (same wrong citation): pr-ospe-033 refs now Sarkar p391-395 only.
+
+Checked ok, no change: 036 (NMC PDF p22), 037 (Medhi PMECP PDF p40), 039 (Padmaja PDF p95), 040 (Medhi PMECP PDF p359-361), 041 (Sarkar p81-85), 042 (Bennett PDF p76; Sarkar p81-85), 043 (Sarkar p421-425), 045-049 (KDT8 ch5 PDF p89, p98-99; FDC 344 banned, 20 NLEM, 25 WHO, 3-4 drugs average).
+
+Hybrid cards (book refs plus UNSOURCED for the part no owner book states): 038 (stepwise dilution arithmetic and bath volume; Ghosh PDF p11 and Medhi PDF p87 support the stock and bath-volume parts), 043 (standard-curve step).
+
+Unverifiable (WEB or UNSOURCED-only refs): pr-ospe-004 (two WEB PMC refs, approved exception; not re-read in this pass). No UNSOURCED-only cards in this chunk.
+
+Level check: subtopic counts (L1/L2/L3): format 3/2/1, adr-consent 5/2/1, dosage-calc 3/6/1, drug-info 5/4/2, research-docs 3/3/1, instruments 3/2/1. Basic-card why: no why added, because the cited sources give none for 036, 039 or 045-047 beyond what is already on the card. Validator: check ok.

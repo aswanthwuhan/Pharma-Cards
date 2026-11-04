@@ -189,7 +189,7 @@
       "id": "p4-pharmacogenomics-036",
       "type": "basic",
       "front": "Why can one variant cause toxicity with one drug and treatment failure with another?",
-      "back": "The effect depends on the drug's pathway. A low-function enzyme raises the parent drug and upstream metabolites and lowers downstream ones: a drug that needs activation fails (codeine, tamoxifen, clopidogrel), while an active drug accumulates and is toxic. A gain-of-function variant gives low parent-drug levels and loss of efficacy, but for a prodrug such as codeine it gives excess active morphine.",
+      "back": "The effect depends on the drug's pathway. Low enzyme function raises exposure to an active parent drug (omeprazole is inactivated by CYP2C19), but for a prodrug such as codeine or clopidogrel it prevents activation, so the drug fails. Increased enzyme function does the reverse: ultrarapid CYP2D6 metabolisers make excess morphine from codeine, so toxicity follows.",
       "refs": [
         "GG14 ch7"
       ],
@@ -258,7 +258,7 @@
       "id": "p4-pharmacogenomics-038",
       "type": "basic",
       "front": "CYP3A5 variants and tacrolimus: what is the link?",
-      "back": "CYP3A5*3 is a splice variant giving no functional enzyme and is the predominant allele in European ancestry. The functional *1 allele is the commonest in African ancestry. People with a functional CYP3A5 clear tacrolimus faster, so they need a higher dose to reach therapeutic levels.",
+      "back": "CYP3A5*3 is a splice variant giving no functional enzyme and is the predominant allele in European ancestry. The functional *1 allele is the most common allele in many African-ancestry populations. People with a functional CYP3A5 clear tacrolimus faster, so they need a higher dose to reach therapeutic levels.",
       "refs": [
         "GG14 ch7"
       ],
@@ -866,7 +866,7 @@
       "id": "p4-pharmacogenomics-041",
       "type": "basic",
       "front": "Why must HLA screening be matched to ancestry and drug, and how can genotypes combine?",
-      "back": "HLA-B*15:02 predicts carbamazepine skin reactions in East Asian people (allele frequency up to 20% in East and Central/South Asian groups, rare in European and sub-Saharan African), whereas in European ancestry a GWAS found HLA-A*31:01. Reactions can be drug-specific (abacavir with HLA-B*57:01) or shared across related drugs (oxcarbazepine, phenytoin). For phenytoin, risk of SJS/TEN is highest when a CYP2C9 variant (high levels) coincides with an HLA-B risk allele.",
+      "back": "HLA-B*15:02 predicts carbamazepine skin reactions in East Asian people (allele frequency up to 20% in East and Central/South Asian groups, rare in European and sub-Saharan African), whereas in European ancestry a GWAS found HLA-A*31:01. Reactions can be drug-specific (abacavir with HLA-B*57:01) or shared across related drugs (oxcarbazepine, phenytoin). For phenytoin, severe SJS/TEN risk appears especially high when a CYP2C9 variant is carried together with an HLA-B allele such as HLA-B*15:02.",
       "refs": [
         "GG14 ch7"
       ],
@@ -1109,7 +1109,7 @@
       "subtopic": "p4-pharmacogenomics-cyp-pk",
       "level": 1,
       "front": "Classify: CYP2D6 drugs whose efficacy, toxicity or dose depends on genotype: list all.",
-      "back": "Amitriptyline, atomoxetine, codeine, nortriptyline, ondansetron, paroxetine, pitolisant, tamoxifen, tramadol, tropisetron.",
+      "back": "Amitriptyline, atomoxetine, codeine, nortriptyline, ondansetron, paroxetine, pitolisant, tamoxifen, tramadol, tropisetron. Why: CYP2D6 activity sets exposure to these drugs and their active metabolites; codeine gives no analgesia in poor metabolisers.",
       "refs": [
         "GG14 ch7"
       ],
@@ -1126,7 +1126,7 @@
       "subtopic": "p4-pharmacogenomics-cyp-pk",
       "level": 1,
       "front": "Classify: CYP2C9 drugs whose efficacy, toxicity or dose depends on genotype: list all.",
-      "back": "Celecoxib, flurbiprofen, fosphenytoin, ibuprofen, lornoxicam, meloxicam, phenytoin, piroxicam, siponimod, tenoxicam, warfarin.",
+      "back": "Celecoxib, flurbiprofen, fosphenytoin, ibuprofen, lornoxicam, meloxicam, phenytoin, piroxicam, siponimod, tenoxicam, warfarin. Why: CYP2C9 clears these drugs (e.g. S-warfarin, phenytoin), so genotype changes toxicity or required dose.",
       "refs": [
         "GG14 ch7"
       ],
@@ -1143,7 +1143,7 @@
       "subtopic": "p4-pharmacogenomics-cyp-pk",
       "level": 1,
       "front": "Classify: CYP2C19 drugs whose efficacy depends on genotype: list all.",
-      "back": "Amitriptyline, citalopram, clopidogrel, escitalopram, lansoprazole, omeprazole, pantoprazole, voriconazole.",
+      "back": "Amitriptyline, citalopram, clopidogrel, escitalopram, lansoprazole, omeprazole, pantoprazole, voriconazole. Why: CYP2C19 activates clopidogrel and inactivates omeprazole, so genotype changes drug efficacy.",
       "refs": [
         "GG14 ch7"
       ],
@@ -1192,7 +1192,8 @@
       "front": "What is a missense variant, and give one pharmacogenetic example.",
       "back": "A single-nucleotide change that substitutes one amino acid in the protein. Example: the BCRP p.Gln141Lys substitution reduces intestinal efflux, which raises rosuvastatin response.",
       "refs": [
-        "GG14 ch7"
+        "GG14 ch7",
+        "GG14 ch4"
       ],
       "pyq": [],
       "status": "draft",
@@ -1206,7 +1207,7 @@
       "id": "p4-pharmacogenomics-048",
       "type": "basic",
       "front": "How do frameshift, premature stop and start-codon variants affect a protein?",
-      "back": "They can truncate or prevent synthesis of the protein, or shift the reading frame of the rest of the transcript. The result is usually a non-functional or absent enzyme.",
+      "back": "A start-codon or stop-codon change, or a frameshift, alters the rest of the transcribed protein. A premature stop gives a truncated, inactive enzyme (the CYP3A5*3 splice defect is printed as an example).",
       "refs": [
         "GG14 ch7"
       ],
@@ -1343,6 +1344,7 @@
       ],
       "refs": [
         "GG14 ch7",
+        "GG14 ch4",
         "KDT8 ch2",
         "KDT8 ch5"
       ],

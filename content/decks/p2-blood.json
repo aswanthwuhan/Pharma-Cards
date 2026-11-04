@@ -322,7 +322,7 @@
     {
       "id": "p2-blood-012",
       "type": "shortnote",
-      "level": 3,
+      "level": 2,
       "front": "Short note: Erythropoietin - actions and use in chronic kidney disease",
       "sections": [
         {
@@ -368,8 +368,7 @@
       "tags": [
         "uses",
         "adr"
-      ],
-      "level": 2
+      ]
     },
     {
       "id": "p2-blood-013",
@@ -574,7 +573,7 @@
     {
       "id": "p2-blood-077",
       "type": "shortnote",
-      "level": 3,
+      "level": 2,
       "front": "Short note: Parenteral iron preparations",
       "sections": [
         {
@@ -624,8 +623,7 @@
       "tags": [
         "uses",
         "adr"
-      ],
-      "level": 2
+      ]
     },
     {
       "id": "p2-blood-078",
@@ -642,7 +640,7 @@
         {
           "h": "Transport and stores",
           "points": [
-            "Carried in plasma by transcobalamin II",
+            "Carried in plasma by transcobalamin",
             "About two-thirds to four-fifths of the 2-8 mg body store is in liver",
             "Enterohepatic recycling; stores take 3-5 years of nil intake to deplete"
           ]
@@ -1101,7 +1099,6 @@
           "h": "Uses",
           "points": [
             "Dietary lack, prolonged antibiotics, obstructive jaundice, malabsorption",
-            "Newborn prophylaxis: 1 mg i.m. at birth",
             "Coumarin overdose: phytonadione is the preferred form because it acts fastest"
           ]
         },
@@ -1156,7 +1153,7 @@
           "points": [
             "Warfarin is racemic; the S enantiomer is more potent and cleared by CYP2C9",
             "Warfarin about 99% protein bound; crosses placenta; small amounts in milk",
-            "Bishydroxycoumarin absorbed erratically; acenocoumarol acts within about 2-3 days"
+            "Bishydroxycoumarin absorbed erratically; acenocoumarol half-life 8 h, but its active metabolite gives about 24 h overall and it acts more rapidly"
           ]
         },
         {
@@ -1595,7 +1592,7 @@
         {
           "h": "Source and chemistry",
           "points": [
-            "Mixed sulfated mucopolysaccharides from ox lung or pig intestinal mucosa",
+            "Mixed sulfated mucopolysaccharides from hog lung or pig intestine",
             "Standardised by bioassay: 1 mg is about 120-140 U"
           ]
         },
@@ -1650,7 +1647,7 @@
     {
       "id": "p2-blood-086",
       "type": "shortnote",
-      "level": 3,
+      "level": 2,
       "front": "Short note: Low molecular weight heparins",
       "sections": [
         {
@@ -1670,7 +1667,7 @@
         {
           "h": "Advantages over UFH",
           "points": [
-            "Subcutaneous bioavailability 70-90% (UFH 20-30%)",
+            "Subcutaneous response more reliable than UFH (UFH s.c. bioavailability 20-30%)",
             "Half-life 4-6 hours allows once-daily dosing; dose by body weight, no aPTT monitoring",
             "Less thrombocytopenia, less osteoporosis on long use"
           ]
@@ -1710,8 +1707,7 @@
       "tags": [
         "pk",
         "uses"
-      ],
-      "level": 2
+      ]
     },
     {
       "id": "p2-blood-087",
@@ -1734,7 +1730,7 @@
       "id": "p2-blood-088",
       "type": "basic",
       "front": "Bivalirudin: why a direct thrombin inhibitor is chosen",
-      "back": "Synthetic 20-amino-acid analogue of leech hirudin. Binds both catalytic and substrate sites of thrombin directly, so it needs no antithrombin. Short acting (half-life about 25 minutes). No HIT risk, so used in PCI for STEMI with aspirin and clopidogrel or a GP IIb/IIIa inhibitor, and in patients at risk of HIT. Protamine does not reverse it.",
+      "back": "Synthetic 20-amino-acid analogue of leech hirudin. Binds both catalytic and substrate sites of thrombin directly, so it needs no antithrombin. Short acting (half-life about 25 minutes). Not a heparin, so it suits patients at risk of HIT; used in PCI for STEMI with aspirin and/or clopidogrel or a GP IIb/IIIa inhibitor. Protamine does not reverse it.",
       "refs": [
         "KDT8 ch45"
       ],
@@ -1912,14 +1908,14 @@
           "h": "Mechanism",
           "points": [
             "Irreversibly acetylates COX-1 and thromboxane synthase in platelets",
-            "Platelets cannot make new enzyme, so the effect lasts 5-7 days; low doses spare prostacyclin"
+            "Intimal cells regenerate COX, so prostacyclin recovers; low doses spare it"
           ]
         },
         {
           "h": "Doses",
           "points": [
-            "Maximal platelet inhibition at 75-150 mg/day",
-            "Even 40 mg/day has some effect; higher doses above 900 mg/day also cut prostacyclin"
+            "Low dose 75-150 mg/day selectively suppresses platelet TXA2",
+            "Higher doses above 900 mg/day also cut prostacyclin"
           ]
         },
         {
@@ -1927,14 +1923,14 @@
           "points": [
             "Coronary artery disease and high-risk individuals; 325 mg oral soluble aspirin at ACS presentation",
             "TIA and stroke prevention; atrial fibrillation with stroke history",
-            "With warfarin for prosthetic valves and shunts; claudication in peripheral disease"
+            "With warfarin for prosthetic valves and arteriovenous shunts"
           ]
         },
         {
           "h": "Limits",
           "points": [
-            "No proven benefit for primary prevention; raises cerebral haemorrhage risk",
-            "GI bleeding (worse with warfarin); some patients are poorly inhibited (aspirin resistance)"
+            "Routine use in the general population is not warranted",
+            "Increases bleeding risk, especially with warfarin"
           ]
         }
       ],
@@ -1987,7 +1983,7 @@
         {
           "h": "Agents",
           "points": [
-            "Abciximab: Fab fragment of a chimeric monoclonal antibody; inhibition lasts 12-24 hours",
+            "Abciximab: Fab fragment of a chimeric monoclonal antibody; infused for 12 hours after PCI",
             "Eptifibatide: synthetic cyclic peptide; half-life about 2.5 hours, effect gone in 6-10 hours",
             "Tirofiban: non-peptide; half-life about 2 hours"
           ]
@@ -2158,8 +2154,8 @@
         {
           "h": "Newer P2Y12 agents",
           "points": [
-            "Ticlopidine effective but causes neutropenia (about 1%), so superseded",
-            "Prasugrel: faster, more consistent; contraindicated after stroke or TIA",
+            "Ticlopidine effective but causes neutropenia, thrombocytopenia and haemolysis, so superseded",
+            "Prasugrel: faster and more consistent; platelet recovery takes 7 days",
             "Ticagrelor: direct and reversible, not a prodrug; twice-daily; dyspnoea and dizziness"
           ]
         },
@@ -2317,8 +2313,8 @@
         {
           "h": "Apixaban",
           "points": [
-            "Bioavailability about 85%; peak effect about 3 hours; half-life about 12 hours",
-            "Partly CYP3A4-metabolised; avoid in hepatic or renal impairment",
+            "Bioavailability about 50% per GG14 (KDT8 gives 85%); peak 1-3 hours; half-life about 12 hours (KDT8)",
+            "Partly CYP3A4-metabolised; about 27% excreted unchanged in urine (GG14)",
             "ARISTOTLE in AF: fewer stroke or systemic emboli and less major bleeding than warfarin"
           ]
         },
@@ -2368,7 +2364,7 @@
         {
           "h": "Class and uses",
           "points": [
-            "Oral direct factor Xa inhibitor given once daily at a fixed dose",
+            "Oral direct factor Xa inhibitor given once daily; 60 mg dose, reduced to 30 mg in some patients",
             "Treats acute VTE after at least 5 days of parenteral anticoagulation; secondary VTE prevention; stroke prevention in atrial fibrillation"
           ]
         },
@@ -2376,14 +2372,14 @@
           "h": "Dose reduction",
           "points": [
             "Reduce if CrCl is 15-50 mL/min, body weight under 60 kg, or a potent P-glycoprotein inhibitor is taken",
-            "Not recommended when CrCl is below 15 mL/min"
+            "Contraindicated when CrCl is below 15 mL/min"
           ]
         },
         {
           "h": "Cautions",
           "points": [
             "Use with care after recent bleeding, especially GI bleeding",
-            "GG14 also prints a contraindication when CrCl is above 95 mL/min"
+            "GG14: in the US, not recommended when CrCl is above 95 mL/min (not in other countries)"
           ]
         },
         {
@@ -2631,7 +2627,7 @@
       "id": "p2-blood-117",
       "type": "basic",
       "front": "How do fibrinolytic drugs dissolve a clot, and what is their main hazard?",
-      "back": "They convert plasminogen to plasmin, which digests fibrin. They work best on fresh thrombi. Plasmin also degrades clotting factors, so bleeding is the main hazard. Agents include streptokinase, alteplase, reteplase and tenecteplase.",
+      "back": "They convert plasminogen to plasmin, which digests fibrin in the clot. Alteplase, reteplase and tenecteplase act mainly on fibrin-bound plasminogen; streptokinase is not fibrin-specific. Bleeding is the main hazard (0.5-5% with alteplase).",
       "refs": [
         "KDT8 ch45"
       ],
@@ -2814,7 +2810,7 @@
         {
           "h": "Access devices",
           "points": [
-            "Heparin flushes keep dialysis shunts and cannulae patent; antiplatelets prolong shunt patency"
+            "LMW heparin keeps dialysis cannulae and shunts patent; antiplatelets are used with warfarin for AV shunts"
           ]
         }
       ],
@@ -2860,7 +2856,7 @@
           "h": "Adverse effects",
           "points": [
             "Nausea and diarrhoea; rare thromboembolism, colour vision disturbance, allergy",
-            "Use cautiously with renal impairment; myopathy is rare"
+            "EACA: use cautiously with renal impairment; myopathy occurs rarely"
           ]
         }
       ],
@@ -2944,8 +2940,8 @@
         {
           "h": "Physiology",
           "points": [
-            "Plasmin formed from plasminogen by tissue plasminogen activator (t-PA), mainly from endothelium",
-            "t-PA acts on fibrin-bound plasminogen; PAI-1 and PAI-2 inhibit t-PA"
+            "Plasmin formed from plasminogen by tissue plasminogen activator (t-PA)",
+            "t-PA acts on fibrin-bound plasminogen; PAI-1 inhibits t-PA"
           ]
         },
         {
@@ -2960,7 +2956,7 @@
         {
           "h": "Uses",
           "points": [
-            "Acute STEMI as alternative to primary PCI; PCI preferred after about 3 hours",
+            "Acute STEMI as alternative to emergency PCI; infusion must start early",
             "Ischaemic stroke within 3-4.5 hours; large PE; DVT; limb artery occlusion"
           ]
         },
@@ -3116,7 +3112,7 @@
       "id": "p2-blood-110",
       "type": "cloze",
       "front": "Cloze: ACC/AHA statin intensity categories",
-      "text": "High-intensity statins lower LDL-CH by about {{50% or more}}; moderate intensity by {{30-50%}}; low intensity by {{under 30%}}. High-intensity atorvastatin is {{40-80 mg}} and rosuvastatin {{20-40 mg}} daily.",
+      "text": "High-intensity statins lower LDL-CH by about {{50% or more}}; moderate intensity by {{30-50%}}; low intensity by {{under 30%}}. High-intensity atorvastatin is {{20-80 mg}} and rosuvastatin {{10-40 mg}} daily.",
       "refs": [
         "KDT8 ch46"
       ],
@@ -3321,21 +3317,20 @@
           "h": "Potency and dose",
           "points": [
             "High-efficacy statin; 10 mg roughly equals 20 mg atorvastatin",
-            "Dose 5-20 mg daily (maximum 40 mg); LDL-CH fall about 38% at 5 mg and 53% at 40 mg"
+            "Dose 5-20 mg daily (maximum 40 mg); LDL-CH fall about 53% at 40 mg"
           ]
         },
         {
           "h": "Pharmacokinetics",
           "points": [
-            "Half-life 18-24 hours, so bedtime dosing is not needed",
+            "Half-life 18-24 hours",
             "Not metabolised mainly by CYP3A4, unlike most other statins"
           ]
         },
         {
           "h": "Lipid effects",
           "points": [
-            "Raises HDL-CH by 10-15% even when TG is raised",
-            "At high dose can lower TG 25-35% when moderately raised, but not when markedly raised"
+            "Raises HDL-CH by 10-15% even when TG is raised"
           ]
         },
         {
@@ -3395,14 +3390,8 @@
         {
           "h": "Other effects and limits",
           "points": [
-            "Plaque stabilisation, better endothelial NO, less LDL oxidation",
+            "Plaque stabilisation and improved endothelial function",
             "Avoid in pregnancy; about 10% higher diabetes risk; myopathy"
-          ]
-        },
-        {
-          "h": "Duration",
-          "points": [
-            "Continued indefinitely unless adverse effects occur"
           ]
         }
       ],
@@ -3445,7 +3434,7 @@
           "h": "Simvastatin",
           "points": [
             "Nearly twice as potent as lovastatin; given as lactone prodrug",
-            "Half-life 2-3 hours; greater HDL rise when HDL is low; 80 mg carries high myopathy risk"
+            "Greater HDL rise when HDL is low; 80 mg carries high myopathy risk"
           ]
         },
         {
@@ -3458,7 +3447,6 @@
         {
           "h": "Common points",
           "points": [
-            "Peak LDL fall after 1-2 weeks; bedtime dosing for statins with short half-life",
             "CYP3A4 inhibitors and inducers alter levels of most statins"
           ]
         }
@@ -3812,8 +3800,7 @@
         {
           "h": "Mechanism",
           "points": [
-            "Activate lipoprotein lipase via PPAR-alpha, raising fatty acid oxidation",
-            "Reduce hepatic TG synthesis and VLDL secretion; raise apo A-I and A-II"
+            "Activate lipoprotein lipase via PPAR-alpha, so VLDL triglyceride is cleared faster"
           ]
         },
         {
@@ -3826,16 +3813,16 @@
         {
           "h": "Agents",
           "points": [
-            "Gemfibrozil: first line for markedly raised TG; contraindicated in pregnancy",
-            "Bezafibrate: alternative in mixed hyperlipidaemia; dose reduce in elderly and renal insufficiency",
-            "Fenofibrate: greater HDL and LDL effects; 200 mg daily with meals"
+            "Gemfibrozil: first line for markedly raised TG, 600 mg twice daily before meals",
+            "Bezafibrate: alternative to gemfibrozil in mixed hyperlipidaemia; does not tend to raise LDL when TG is high",
+            "Fenofibrate: greater HDL-raising and LDL-lowering action than other fibrates; 200 mg daily"
           ]
         },
         {
           "h": "Adverse effects and cautions",
           "points": [
             "GI upset, myalgia, rashes; gallstones; myopathy with statins",
-            "Stop if TG is not adequately lowered after 2 months; may enhance oral anticoagulants"
+            "Stop if TG is not adequately lowered after 2 months"
           ]
         }
       ],
@@ -3880,7 +3867,7 @@
         {
           "h": "Adverse effects",
           "points": [
-            "Flushing from prostaglandin D2; dyspepsia very common; liver damage the most serious risk",
+            "Flushing from prostaglandin D2, reduced by a low starting dose with meals; dyspepsia",
             "Hyperglycaemia, hyperuricaemia, arrhythmias; postural hypotension with antihypertensives"
           ]
         },
@@ -3959,7 +3946,7 @@
           "h": "Sequestrants",
           "points": [
             "Basic ion-exchange resins that bind bile acids in gut, breaking enterohepatic circulation",
-            "Hepatic CH converted to bile acids; more LDL receptors; LDL fall 15-25%; TG not lowered",
+            "Hepatic CH converted to bile acids; more LDL receptors; LDL clearance rises",
             "Unpalatable, bulky, GI upset; interfere with other drugs; no effect on total mortality"
           ]
         },
@@ -3967,7 +3954,7 @@
           "h": "Ezetimibe",
           "points": [
             "Blocks NPC1L1 in intestinal mucosa, reducing cholesterol and phytosterol absorption",
-            "LDL-CH fall 15-20%; synergistic with statins; reversible hepatic dysfunction"
+            "LDL-CH fall 15-20%; synergistic with statins"
           ]
         },
         {
@@ -4088,7 +4075,7 @@
       "id": "p2-blood-118",
       "type": "basic",
       "front": "Vorapaxar: target, duration of effect and main hazard?",
-      "back": "A competitive PAR-1 antagonist that blocks thrombin-triggered platelet activation. It is added to aspirin or clopidogrel after MI or peripheral artery disease. Because it binds PAR-1 tightly, its effect can last up to 4 weeks after stopping. It raises bleeding risk and is contraindicated after intracranial bleeding, stroke or TIA.",
+      "back": "A competitive PAR-1 antagonist that blocks thrombin-triggered platelet activation. Used for secondary prevention after myocardial infarction or in peripheral artery disease. It raises bleeding risk and is contraindicated after intracranial bleeding, stroke or TIA. Potent CYP3A4 inducers such as rifampin lower its exposure.",
       "refs": [
         "GG14 ch36"
       ],
@@ -4138,7 +4125,7 @@
       "id": "p2-blood-121",
       "type": "basic",
       "front": "Dextran 70: molecular weight and duration",
-      "back": "Molecular weight about 70,000. It expands plasma for about 24 hours and is slowly excreted by glomerular filtration.",
+      "back": "Molecular weight about 70,000. It expands plasma for about 24 hours because it is slowly excreted by glomerular filtration.",
       "refs": [
         "Padmaja PDF p340"
       ],
@@ -4358,9 +4345,10 @@
       "id": "p2-blood-127",
       "type": "basic",
       "front": "Sargramostim: what it is and its main action",
-      "back": "Recombinant GM-CSF. It stimulates myelopoiesis and shortens neutropenia after transplantation or intensive chemotherapy.",
+      "back": "Recombinant human GM-CSF. It stimulates myelopoiesis and is used, like G-CSF, to shorten chemotherapy-induced neutropenia.",
       "refs": [
-        "GG14 ch45"
+        "Padmaja PDF p472",
+        "Katzung16 PDF p650"
       ],
       "pyq": [],
       "status": "draft",
@@ -4374,7 +4362,7 @@
       "id": "p2-blood-128",
       "type": "basic",
       "front": "Timing of filgrastim after myelosuppressive chemotherapy",
-      "back": "Started one day after chemotherapy, given 5 µg/kg daily s.c. or i.v. until the neutrophil count normalises.",
+      "back": "Started one day after myelosuppressive chemotherapy, given 5 µg/kg daily s.c. or i.v. until the neutrophil count normalises, so that neutropenia is shortened.",
       "refs": [
         "KDT8 ch64"
       ],
@@ -4429,14 +4417,7 @@
           "h": "Use in chemotherapy",
           "points": [
             "Filgrastim started one day after chemotherapy, 5 µg/kg daily until neutrophil recovery",
-            "Sargramostim shortens neutropenia during intensive chemotherapy and mobilises CD34-positive progenitors",
-            "Growth factors are also used after high-dose therapy and marrow transplantation"
-          ]
-        },
-        {
-          "h": "Supportive measures",
-          "points": [
-            "Epoetin alfa for anaemia due to cancer chemotherapy"
+            "Sargramostim (GM-CSF) is used to shorten chemotherapy-induced neutropenia"
           ]
         }
       ]
@@ -4506,8 +4487,7 @@
           "h": "Whole blood and plasma",
           "points": [
             "Fresh whole blood supplies ready-made clotting factors and replaces lost blood",
-            "Fresh frozen plasma is the alternative source of factors",
-            "Plasma is used where no recombinant form of a factor exists"
+            "Fresh frozen plasma is the alternative source of factors"
           ]
         },
         {
@@ -4523,23 +4503,20 @@
           "points": [
             "Contains factors II, VII, IX and X",
             "Rapid reversal of warfarin in serious bleeding, with intravenous vitamin K",
-            "Single vitamin K dose may not be enough because warfarin has a long effect",
             "Alternative to andexanet for life-threatening bleeding on rivaroxaban or apixaban"
           ]
         },
         {
           "h": "Recombinant factor VIIa",
           "points": [
-            "Used in haemophilia with inhibitors",
-            "Used for bleeding with invasive procedures and for factor VII deficiency",
-            "Off-label use in trauma, surgery and intracerebral haemorrhage; arterial thrombosis is a concern"
+            "Used for acquired inhibitors of coagulation factors",
+            "Increasingly used for coagulopathy in liver disease and major blood loss in trauma and surgery"
           ]
         },
         {
           "h": "Antithrombin products",
           "points": [
-            "Recombinant antithrombin prevents thromboembolism around surgery or childbirth in hereditary deficiency",
-            "Antithrombin concentrate treats thrombosis in the same deficiency"
+            "Recombinant antithrombin is approved for hereditary antithrombin deficiency undergoing surgical procedures"
           ]
         },
         {
@@ -4551,7 +4528,8 @@
         }
       ],
       "refs": [
-        "Katzung16 ch34"
+        "Katzung16 ch34",
+        "GG12 PDF p885"
       ],
       "subtopic": "p2-blood-fibrinolytics",
       "tags": [
@@ -4569,21 +4547,6 @@
         "Katzung16 ch34"
       ],
       "subtopic": "p2-blood-fibrinolytics",
-      "tags": [
-        "uses"
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-blood-133",
-      "type": "basic",
-      "front": "Transfusion siderosis: which chelator removes the chronic iron overload?",
-      "level": 1,
-      "back": "Desferrioxamine (deferoxamine), given i.m. or i.v. The i.v. infusion can run alongside a transfusion. Oral deferasirox or deferiprone are alternatives.",
-      "refs": [
-        "KDT8 ch68"
-      ],
-      "subtopic": "p2-blood-iron-haematinics",
       "tags": [
         "uses"
       ],

@@ -261,3 +261,97 @@ Added 38 study cards (088-125), all `draft`. Deck now 123 cards (85 before this 
 - AEFI: Sarkar p101-105 records 395 serious AEFIs in 2010 versus 55 in 2006; carded as reported, not as a trend claim.
 
 Cross-deck note: some new cards overlap in theme with p3-tb-leprosy, p3-antiparasitic and p3-antifungal-viral (TB and leprosy regimens, malaria drug policy, ART policy). They were written for the programme/policy angle, and no exact duplicate question wording exists across those decks (checked). This deck remains the programme-structure and programme-drug-choice deck.
+
+### Recheck (all new cards, chunk 1/3)
+
+Checked all 68 study cards in this chunk against KDT8, GG14, Katzung16 and Padmaja (PDF text), and Sarkar OCR. 12 corrected, 0 deleted, 0 unverifiable. Levels, subtopic counts and ids unchanged.
+
+Corrected:
+
+- 061: back now answers "when must it be withheld" (hepatic or renal dysfunction, ENL, reversal reaction), per KDT8 ch57.
+- 064: roadmap ref changed to Katzung16 PDF p1291 (2023-27 NLEP roadmap); "Katzung16 appendix 2" was the wrong location.
+- 065: removed "rK39" (not in KDT8 ch62; the book says rapid diagnostic test or splenic aspirate) and "vector control to remove sandflies" (not in the chapter).
+- 066: removed the dolutegravir dyslipidaemia claim (WEB Cureus source, outside the approved SOURCE-GAPS exceptions) and "TLD" (not in the books). Back rewritten from KDT8 ch60 (WHO 2016 treat-all, life-long ART, first-line NRTI+NNRTI).
+- 068: front and back no longer claim most WHO/NACO regimens include lamivudine; now says preferred NRTI and in WHO 2016 tenofovir + lamivudine + efavirenz.
+- 089: Padmaja ref removed (the Padmaja passage is about isoniazid in children under 6 and does not support the card).
+- 097: removed "universal drug-susceptibility testing in RNTCP 2016" (not in KDT8 ch56).
+- 099: added the short why (used when rifampin cannot be given).
+- 107: removed "over 96% success" for AS-S/P (not printed in KDT8 ch61).
+- 115: removed "not a substitute for other prevention" (not in KDT8 ch60).
+- 118: WHO 2016 second-line choices replaced with the NACO 2013 table in KDT8 ch60.
+- 122: removed the +2 to +8 degrees Celsius figure. Padmaja PDF p683 prints "+20 C to +80 C" (garbled), so the figure is not legible; the note in Conflicts above is superseded.
+
+Deleted: none.
+
+Grounding status (chunk 1/3):
+
+| id | ok / corrected / deleted | source |
+|---|---|---|
+| p3-national-programmes-058 | ok | KDT8 ch57 |
+| p3-national-programmes-059 | ok | KDT8 ch57 |
+| p3-national-programmes-060 | ok | KDT8 ch57 |
+| p3-national-programmes-061 | corrected | KDT8 ch57 |
+| p3-national-programmes-062 | ok | KDT8 ch57 |
+| p3-national-programmes-063 | ok | KDT8 ch57 |
+| p3-national-programmes-064 | corrected | KDT8 ch57; Katzung16 PDF p1291 |
+| p3-national-programmes-067 | ok | KDT8 ch57 |
+| p3-national-programmes-065 | corrected | KDT8 ch62; KDT8 ch63; Katzung16 appendix 2 |
+| p3-national-programmes-066 | corrected | KDT8 ch60 |
+| p3-national-programmes-068 | corrected | KDT8 ch60 |
+| p3-national-programmes-069 | ok | KDT8 ch70 |
+| p3-national-programmes-070 | ok | KDT8 ch70; GG14 ch40 |
+| p3-national-programmes-071 | ok | GG14 ch40 |
+| p3-national-programmes-072 | ok | KDT8 ch70; GG14 ch40 |
+| p3-national-programmes-073 | ok | GG14 ch40 |
+| p3-national-programmes-074 | ok | GG14 ch40 |
+| p3-national-programmes-075 | ok | GG14 ch40 |
+| p3-national-programmes-076 | ok | GG14 ch40 |
+| p3-national-programmes-077 | ok | KDT8 ch70 |
+| p3-national-programmes-078 | ok | KDT8 ch70 |
+| p3-national-programmes-079 | ok | KDT8 ch70 |
+| p3-national-programmes-080 | ok | KDT8 ch70 |
+| p3-national-programmes-081 | ok | KDT8 ch70; GG14 ch40 |
+| p3-national-programmes-082 | ok | Sarkar p101-105; Sarkar p176-180 |
+| p3-national-programmes-083 | ok | Padmaja p660-661 |
+| p3-national-programmes-084 | ok | Padmaja p661 |
+| p3-national-programmes-085 | ok | Padmaja p661 |
+| p3-national-programmes-086 | ok | Padmaja p661 |
+| p3-national-programmes-087 | ok | KDT8 ch70; GG14 ch40; Padmaja p660-661; Sarkar p101-105 |
+| p3-national-programmes-088 | ok | KDT8 ch56 |
+| p3-national-programmes-089 | corrected | KDT8 ch56 |
+| p3-national-programmes-090 | ok | KDT8 ch56 |
+| p3-national-programmes-091 | ok | KDT8 ch56 |
+| p3-national-programmes-092 | ok | KDT8 ch56 |
+| p3-national-programmes-093 | ok | KDT8 ch56 |
+| p3-national-programmes-094 | ok | KDT8 ch56 |
+| p3-national-programmes-095 | ok | KDT8 ch56 |
+| p3-national-programmes-096 | ok | KDT8 ch56 |
+| p3-national-programmes-097 | corrected | KDT8 ch56 |
+| p3-national-programmes-098 | ok | KDT8 ch57 |
+| p3-national-programmes-099 | corrected | KDT8 ch57 |
+| p3-national-programmes-100 | ok | KDT8 ch57 |
+| p3-national-programmes-101 | ok | KDT8 ch57 |
+| p3-national-programmes-102 | ok | KDT8 ch61 |
+| p3-national-programmes-103 | ok | KDT8 ch61 |
+| p3-national-programmes-104 | ok | KDT8 ch61 |
+| p3-national-programmes-105 | ok | KDT8 ch61 |
+| p3-national-programmes-106 | ok | KDT8 ch61 |
+| p3-national-programmes-107 | corrected | KDT8 ch61 |
+| p3-national-programmes-108 | ok | KDT8 ch61 |
+| p3-national-programmes-109 | ok | KDT8 ch61 |
+| p3-national-programmes-110 | ok | KDT8 ch62 |
+| p3-national-programmes-111 | ok | KDT8 ch62 |
+| p3-national-programmes-112 | ok | KDT8 ch63 |
+| p3-national-programmes-113 | ok | KDT8 ch63 |
+| p3-national-programmes-114 | ok | KDT8 ch60 |
+| p3-national-programmes-115 | corrected | KDT8 ch60 |
+| p3-national-programmes-116 | ok | KDT8 ch60 |
+| p3-national-programmes-117 | ok | KDT8 ch60 |
+| p3-national-programmes-118 | corrected | KDT8 ch60 |
+| p3-national-programmes-119 | ok | KDT8 ch60 |
+| p3-national-programmes-120 | ok | KDT8 ch60 |
+| p3-national-programmes-121 | ok | KDT8 ch60 |
+| p3-national-programmes-122 | corrected | Padmaja p660 |
+| p3-national-programmes-123 | ok | Sarkar p101-105; Sarkar p106-110 |
+| p3-national-programmes-124 | ok | KDT8 ch70 |
+| p3-national-programmes-125 | ok | Padmaja p661 |

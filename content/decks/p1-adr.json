@@ -401,9 +401,9 @@
       "id": "p1-adr-042",
       "type": "cloze",
       "front": "Pharmacovigilance Programme of India",
-      "text": "PvPI began in {{2010}} under the Ministry of Health; CDSCO and the {{Indian Pharmacopoeia Commission, Ghaziabad}} (national coordination centre) run it; reports from ADR monitoring centres go through {{VigiFlow}} to {{VigiBase}} at the {{Uppsala}} Monitoring Centre.",
+      "text": "PvPI began in {{2010}} under the Ministry of Health; CDSCO and the {{Indian Pharmacopoeia Commission, Ghaziabad}} (national coordination centre) run it; the international collaborating centre is the {{Uppsala Monitoring Centre}}.",
       "refs": [
-        "Katzung16 appendix 2",
+        "Katzung16 PDF p1281",
         "KDT8 ch6"
       ],
       "pyq": [],
@@ -756,7 +756,7 @@
       "id": "p1-adr-045",
       "type": "basic",
       "front": "Spontaneous reports show a possible signal that a drug raises the rate of a common event such as myocardial infarction. How should it be handled?",
-      "back": "Spontaneous systems cannot show a small-to-moderate rise in a common event (no denominator, background events are expected, reports incomplete), so the signal only triggers evaluation. Disproportionality methods compare reports for the drug against those expected from the whole database but rest on assumptions hard to verify. Next step: controlled studies, either observational pharmacoepidemiology (e.g. FDA Sentinel, which tested FAERS signals such as olmesartan and sprue-like enteropathy) or a postmarketing trial. Observational data limits: data quality and unmeasured confounding. Rosiglitazone showed why: approved on glycaemic trials, later meta-analysis suggested raised MI risk.",
+      "back": "Spontaneous systems cannot show a small-to-moderate rise in a common event (no denominator, background events are expected, reports incomplete), so the signal only triggers evaluation. Next step: controlled studies, either observational pharmacoepidemiology (e.g. FDA Sentinel, which draws on electronic data of over 100 million people) or a postmarketing trial. Observational studies are limited by costly, slow access to data and by confounding. Rosiglitazone showed why: approved on glycaemic trials, later meta-analysis suggested raised MI risk.",
       "refs": [
         "GG14 ch8"
       ],
@@ -897,7 +897,7 @@
       "id": "p1-adr-049",
       "type": "basic",
       "front": "Which drugs most often cause allergic reactions?",
-      "back": "Penicillins, cephalosporins, sulfonamides, tetracyclines, quinolones, metronidazole, abacavir, antitubercular drugs, phenothiazines, aspirin, indomethacin, carbamazepine, allopurinol, ACE inhibitors, methyldopa, hydralazine, local anaesthetics. Memory aid: antimicrobials come first, then drugs used long term in chronic disease.",
+      "back": "Penicillins, cephalosporins, sulfonamides, tetracyclines, quinolones, metronidazole, abacavir, antitubercular drugs, phenothiazines, aspirin, indomethacin, carbamazepine, allopurinol, ACE inhibitors, methyldopa, hydralazine, local anaesthetics.",
       "refs": [
         "KDT8 ch6"
       ],
@@ -2008,10 +2008,10 @@
       "id": "p1-adr-072",
       "type": "basic",
       "front": "Which poisons are removed by urinary alkalinisation or haemodialysis, and why is forced diuresis no longer used?",
-      "back": "Alkalinisation traps weak acids as ions (phenobarbital, chlorpropamide, salicylates; GG14 favours it first-line in moderately severe salicylate poisoning not needing dialysis). Haemodialysis suits low molecular weight, small volume of distribution and high water solubility: phenobarbitone, carbamazepine, valproate, lithium, salicylate, theophylline. Forced diuresis (furosemide, mannitol) is generally abandoned: poisons cleared by hepatic metabolism are not helped and fluid overload and electrolyte imbalance outweigh benefit.",
+      "back": "Alkalinisation traps weak acids as ions (phenobarbital, chlorpropamide, salicylates); the American Academy of Clinical Toxicologists recommends it first-line only for moderately severe salicylate poisoning that does not meet haemodialysis criteria. Haemodialysis suits low molecular weight, small volume of distribution and high water solubility: phenobarbitone, carbamazepine, valproate, lithium, salicylate, theophylline. Forced diuresis (furosemide, mannitol) is generally abandoned: poisons cleared by hepatic metabolism are not helped and fluid overload and electrolyte imbalance outweigh benefit.",
       "refs": [
         "KDT8 ch6",
-        "GG14 ch2"
+        "GG14 ch9"
       ],
       "pyq": [],
       "status": "draft",
@@ -2086,10 +2086,10 @@
       "id": "p1-adr-073",
       "type": "basic",
       "front": "Comatose patient, phenobarbitone overdose 3 hours ago, unstable. Outline management.",
-      "back": "Resuscitate first: secure airway, ventilate, support blood pressure, control seizures, check glucose and temperature. No emesis or lavage (coma, unstable, over 2 hours). Charcoal is avoided with ileus or obstruction and is less useful this late. To hasten elimination: urinary alkalinisation is possible (weak acid trapping), forced diuresis is not used; haemodialysis removes phenobarbitone and is the stronger option in a severe case. No specific antidote, so supportive care.",
+      "back": "Resuscitate first: secure airway, ventilate, support blood pressure, control seizures, check glucose and temperature. No emesis or lavage (coma, unstable, over 2 hours). No activated charcoal after 2 hours, and none with ileus or obstruction. Urinary alkalinisation is possible (weak acid trapping); forced diuresis is not used. Haemodialysis is more efficacious for phenobarbitone, so it is the stronger option in a severe case. Specific antidotes exist for only a few poisons, so supportive care.",
       "refs": [
         "KDT8 ch6",
-        "GG14 ch2"
+        "GG14 ch9"
       ],
       "pyq": [],
       "status": "draft",
@@ -2348,7 +2348,7 @@
         "KDT8 ch64"
       ],
       "front": "Which blood cell lines does drug-induced bone marrow depression affect?",
-      "back": "Granulocytes (granulocytopenia, agranulocytosis), platelets (thrombocytopenia), and in severe cases aplastic anaemia."
+      "back": "Granulocytes (granulocytopenia, agranulocytosis), platelets (thrombocytopenia), and in severe cases aplastic anaemia. Bone marrow depression is the most serious toxicity of such drugs and often limits the dose."
     },
     {
       "id": "p1-adr-083",
@@ -2397,21 +2397,6 @@
       ]
     },
     {
-      "id": "p1-adr-084",
-      "type": "basic",
-      "level": 1,
-      "subtopic": "p1-adr-drug-induced-poisoning",
-      "tags": [
-        "adr"
-      ],
-      "status": "draft",
-      "refs": [
-        "KDT8 ch32"
-      ],
-      "front": "Which antipsychotic is most associated with agranulocytosis?",
-      "back": "Clozapine. Agranulocytosis is rare with antipsychotics generally but more common with clozapine."
-    },
-    {
       "id": "p1-adr-085",
       "type": "basic",
       "level": 2,
@@ -2455,7 +2440,7 @@
         "KDT8 PDF p829"
       ],
       "front": "Which patients need prophylactic pyridoxine with isoniazid?",
-      "back": "Diabetics, chronic alcoholics, malnourished, pregnant or lactating women, HIV-infected patients, and anyone on high-dose isoniazid."
+      "back": "Diabetics, chronic alcoholics, malnourished, pregnant or lactating women, HIV-infected patients, and anyone on high-dose isoniazid. Why: isoniazid blocks activation of pyridoxine and increases its urinary loss."
     },
     {
       "id": "p1-adr-088",
@@ -2606,15 +2591,9 @@
         {
           "h": "Current uses",
           "points": [
-            "Immunomodulator and anti-inflammatory: alternative to prednisolone in erythema nodosum leprosum",
+            "Immunomodulator and anti-inflammatory: used for erythema nodosum leprosum, probably through its anti-inflammatory property",
             "Antitumour use, e.g. multiple myeloma with melphalan and dexamethasone",
             "Cancer-associated cachexia: reported benefit"
-          ]
-        },
-        {
-          "h": "Analogues",
-          "points": [
-            "Named analogues are not described in the owner books; not covered here"
           ]
         }
       ]
@@ -2640,7 +2619,7 @@
       "type": "basic",
       "level": 2,
       "front": "Which drugs can cause insomnia as an adverse effect? List them.",
-      "back": "Nicotine replacement therapy; tofacitinib; caffeine and theophylline (more so at high doses); systemic glucocorticoids; tizanidine; selegiline (via its amphetamine metabolite); amantadine; amisulpride; amphetamines (high doses); older H1 antihistamines (stimulant effect in some).",
+      "back": "Nicotine replacement therapy; tofacitinib; caffeine and theophylline (more so at high doses); systemic glucocorticoids; tizanidine; selegiline (via its amphetamine metabolite); amantadine; amisulpride; amphetamines (high doses); older H1 antihistamines (stimulant effect in some). Why: theophylline causes insomnia at higher doses, selegiline's amphetamine metabolite causes it, and amisulpride's common side effects include insomnia and agitation.",
       "refs": [
         "KDT8 PDF p150",
         "KDT8 PDF p164",

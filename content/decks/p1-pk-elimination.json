@@ -157,13 +157,13 @@
       "subtopic": "p1-pk-elimination-cyp450",
       "level": 1,
       "front": "Which CYP families handle most drugs, and where do these enzymes sit in the cell?",
-      "back": "CYP1, CYP2 and CYP3 families metabolise most drugs; GG14 counts 57 human CYPs. They sit in the endoplasmic reticulum membrane (microsomes), mainly in liver, and CYP3A4 is also in the gut wall.",
+      "back": "CYP1, CYP2 and CYP3 families mediate about 70-80% of drug metabolism; 57 human CYPs exist. They sit in the endoplasmic reticulum membrane (microsomes), mainly in liver, and CYP3A4 is also in the gut wall.",
       "tags": [
         "mechanism"
       ],
       "refs": [
-        "KDT8 ch3",
-        "GG14 ch5"
+        "RangDale9 PDF p139",
+        "KDT8 ch3"
       ],
       "pyq": [],
       "status": "draft"
@@ -214,7 +214,7 @@
       ],
       "refs": [
         "KDT8 ch3",
-        "GG14 ch5"
+        "GG14 PDF p155"
       ],
       "pyq": [],
       "status": "draft"
@@ -338,7 +338,7 @@
       ],
       "refs": [
         "KDT8 ch3",
-        "GG14 ch5"
+        "GG14 PDF p87"
       ],
       "pyq": [],
       "status": "draft"
@@ -488,14 +488,14 @@
       "subtopic": "p1-pk-elimination-conjugation",
       "level": 2,
       "front": "What is the enzyme defect in Gilbert syndrome and why does it matter for drugs?",
-      "back": "UGT1A1 activity is reduced (mainly the UGT1A1*28 promoter variant, seven TA repeats). UGT1A1 glucuronidation is the rate-limiting step of bilirubin clearance, so competing or inhibiting drugs raise bilirubin: atazanavir inhibits UGT1A1 and causes hyperbilirubinaemia in these patients. Irinotecan's active metabolite SN-38 is inactivated by UGT1A1, so Gilbert patients get higher SN-38 levels and more haematological and GI toxicity.",
+      "back": "UGT1A1 activity is reduced (mainly the UGT1A1*28 promoter variant, with seven TA repeats). UGT1A1 glucuronidation is the rate-limiting step of bilirubin clearance, so drugs that compete for or inhibit it raise bilirubin. Irinotecan's active metabolite SN-38 is inactivated by UGT1A1, so Gilbert patients get higher SN-38 levels and more haematological and GI toxicity.",
       "tags": [
         "mechanism",
         "adr"
       ],
       "refs": [
-        "GG14 ch5",
-        "GG14 ch7"
+        "GG14 PDF p128",
+        "GG14 PDF p129"
       ],
       "pyq": [],
       "status": "draft"
@@ -506,7 +506,7 @@
       "subtopic": "p1-pk-elimination-conjugation",
       "level": 2,
       "front": "Why are newborns more vulnerable to chloramphenicol and opioids?",
-      "back": "Neonatal metabolic enzymes are immature: phase I activity reaches adult levels only over the first few months and glucuronidation takes 3 months or more. Drugs cleared by these routes accumulate. Species differences show the same principle (cats lack glucuronidation, dogs lack acetylation).",
+      "back": "Neonatal drug-metabolising enzymes are immature: phase I activity reaches adult levels only over the first few months, and glucuronidation and other conjugations are slower. Drugs cleared by these routes accumulate. Species differences show the same principle (cats lack glucuronidation, dogs lack acetylation).",
       "tags": [
         "mechanism",
         "adr"
@@ -762,13 +762,14 @@
       "subtopic": "p1-pk-elimination-clearance",
       "level": 3,
       "front": "A drug has a high hepatic extraction ratio. Predict its oral dose, bioavailability and levels in severe liver disease or with a competing drug.",
-      "back": "High extraction means a large oral fraction is lost on first pass, so the oral dose is much higher than the parenteral one and varies widely between individuals (F = fraction absorbed x (1 - ER)). In severe liver disease or when a competing drug occupies the enzyme, extraction falls, oral bioavailability rises and levels can become toxic at the usual dose. Clearance of such drugs follows hepatic blood flow, so a drug that lowers hepatic blood flow slows it (propranolol reduces lidocaine metabolism this way). Routes bypassing first pass (sublingual, transdermal, parenteral) are used instead, e.g. glyceryl trinitrate.",
+      "back": "High extraction means a large oral fraction is lost on first pass, so the oral dose is much higher than the parenteral one and varies widely between individuals. In severe liver disease or when a competing drug occupies the enzyme, extraction falls, oral bioavailability rises and levels can become toxic at the usual dose. Clearance of such drugs follows hepatic blood flow, so a drug that lowers hepatic blood flow slows it (propranolol reduces lidocaine metabolism this way). Routes bypassing first pass (sublingual, transdermal, parenteral) are used instead, e.g. glyceryl trinitrate.",
       "tags": [
         "pk",
         "dosing"
       ],
       "refs": [
-        "KDT8 ch3"
+        "KDT8 ch3",
+        "KDT8 PDF p176"
       ],
       "pyq": [],
       "status": "draft"
@@ -811,7 +812,7 @@
       "subtopic": "p1-pk-elimination-excretion",
       "level": 1,
       "front": "What are the three processes of renal drug excretion and which matters most?",
-      "back": "Net excretion = (glomerular filtration + tubular secretion) minus tubular reabsorption. Only unbound drug is filtered (GFR about 120 mL/min); reabsorption is passive and depends on lipid solubility and ionisation; tubular secretion by OAT (acids) and OCT (bases) is the largest contributor, and protein binding does not hinder it.",
+      "back": "Net excretion = (glomerular filtration + tubular secretion) minus tubular reabsorption. Only unbound drug is filtered (GFR about 120 mL/min). Reabsorption is passive and depends on lipid solubility and ionisation. Tubular secretion is active transport: OAT for acids and OCT for bases.",
       "tags": [
         "pk"
       ],
@@ -1000,12 +1001,13 @@
       "subtopic": "p1-pk-elimination-kinetics-dosing",
       "level": 1,
       "front": "Define first-order and zero-order elimination with an example of each.",
-      "back": "First order: rate of elimination is proportional to concentration, so clearance and half-life are constant (most drugs, as enzymes are in excess). Zero order (capacity-limited, Michaelis-Menten): a constant amount is eliminated per unit time, clearance falls as concentration rises and half-life lengthens with dose (ethanol; phenytoin at higher doses; also tolbutamide, theophylline, warfarin).",
+      "back": "First order: rate of elimination is proportional to concentration, so clearance and half-life are constant (most drugs, as enzymes are in excess). Zero order (capacity-limited, Michaelis-Menten): a constant amount is eliminated per unit time, clearance falls as concentration rises and half-life lengthens with dose (ethanol; phenytoin and tolbutamide at higher doses).",
       "tags": [
         "pk"
       ],
       "refs": [
-        "KDT8 ch3"
+        "KDT8 ch3",
+        "GG14 PDF p49"
       ],
       "pyq": [],
       "status": "draft"
@@ -1299,13 +1301,14 @@
       "subtopic": "p1-pk-elimination-kinetics-dosing",
       "level": 3,
       "front": "Digoxin has a long half-life. Explain how you would start therapy and adjust it after a measured level.",
-      "back": "Waiting 4 to 5 half-lives to reach steady state is too slow, so a loading dose (target Cp x V / F, depending on V not on CL) is given, then maintenance doses (target Css x CL / F). If the measured level differs from target on first-order kinetics, revised dose rate = previous dose rate x target Css / measured Css; individual Css can be 1/3 to 3 times the population prediction. Digoxin is a low-safety-margin drug where TDM is useful.",
+      "back": "Waiting 4 to 5 half-lives to reach steady state is too slow, so a loading dose (target Cp x V / F, depending on V not on CL) is given, then maintenance doses (target Css x CL / F). If a measured level differs from prediction by more than 20%, revise V or CL for that patient (Katzung). Individual Css can be 1/3 to 3 times the population estimate. Digoxin has a low therapeutic index, so therapeutic drug monitoring is useful.",
       "tags": [
         "dosing"
       ],
       "refs": [
         "KDT8 ch3",
-        "GG14 ch2"
+        "Katzung16 PDF p71",
+        "GG14 PDF p174"
       ],
       "pyq": [],
       "status": "draft"
@@ -1444,7 +1447,7 @@
       "type": "basic",
       "level": 1,
       "front": "Name the drugs or substances excreted in significant amounts in saliva or sweat.",
-      "back": "Lithium, potassium iodide, rifampin and heavy metals. Saliva is of minor importance because most of it is swallowed.",
+      "back": "Lithium, potassium iodide, rifampin and heavy metals. Saliva and sweat are of minor importance for drug excretion.",
       "refs": [
         "KDT8 ch3"
       ],
@@ -1453,54 +1456,6 @@
       "subtopic": "p1-pk-elimination-excretion",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p1-pk-elimination-058",
-      "type": "basic",
-      "level": 2,
-      "front": "Which drugs reach high concentrations in bile, and what happens to anthracene purgatives?",
-      "back": "Large molecules (MW above 300) are preferentially excreted in bile. High bile levels: erythromycin, ampicillin, rifampin, tetracycline, oral contraceptives, vecuronium, phenolphthalein. Anthracene purgatives and heavy metals go directly into the colon.",
-      "refs": [
-        "KDT8 ch3"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pk-elimination-excretion",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-pk-elimination-059",
-      "type": "basic",
-      "level": 1,
-      "front": "What is the net renal excretion equation?",
-      "back": "Net renal excretion = (glomerular filtration + tubular secretion) minus tubular reabsorption.",
-      "refs": [
-        "KDT8 ch3"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pk-elimination-excretion",
-      "tags": [
-        "pk"
-      ]
-    },
-    {
-      "id": "p1-pk-elimination-060",
-      "type": "basic",
-      "level": 1,
-      "front": "What is the normal glomerular filtration rate, and which part of a drug is filtered?",
-      "back": "About 120 mL/min. Only the non-protein-bound (free) drug is filtered, and filtration depends on renal blood flow.",
-      "refs": [
-        "KDT8 ch3"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p1-pk-elimination-excretion",
-      "tags": [
-        "pk"
       ]
     },
     {
@@ -1662,7 +1617,7 @@
       "type": "basic",
       "level": 1,
       "front": "Which three fundamental parameters govern drug disposition, and what are their symbols?",
-      "back": "Bioavailability (F), volume of distribution (V) and clearance (CL). Half-life and k derive from V and CL.",
+      "back": "Bioavailability (F), volume of distribution (V) and clearance (CL). F sets how much of the dose arrives, V sets the loading dose, and CL sets the maintenance dose. Half-life and k derive from V and CL.",
       "refs": [
         "KDT8 ch3"
       ],
@@ -1726,7 +1681,7 @@
       "type": "basic",
       "level": 1,
       "front": "Which parameter governs the maintenance dose rate, and which governs the loading dose?",
-      "back": "Maintenance dose rate depends on clearance (or half-life). Loading dose depends only on volume of distribution, with F.",
+      "back": "The maintenance dose rate depends on clearance (Css = dose rate / CL), since it must replace what is cleared. The loading dose depends only on volume of distribution (with F), since it fills the distribution volume.",
       "refs": [
         "KDT8 ch3"
       ],
@@ -1815,7 +1770,7 @@
           "h": "Drug examples",
           "points": [
             "Antibiotics: efficacy tracks the time concentration stays above MIC; ciprofloxacin is eliminated faster at 10 am than at 10 pm",
-            "Antihypertensives: lipophilic drugs give higher Cmax and shorter tmax in the morning; ACE inhibitors are safer at bedtime",
+            "Antihypertensives: lipophilic drugs give higher Cmax and shorter tmax in the morning; non-dipper patients are dosed once daily in the evening (ACE inhibitors, sartans, calcium antagonists)",
             "Antiepileptic: valproic acid Cmax and absorption rate are higher in the morning",
             "Anticancer: cisplatin renal toxicity is lower with evening dosing",
             "Statins: HMG-CoA reductase inhibitors work better in the evening, except atorvastatin"
@@ -1824,8 +1779,8 @@
         {
           "h": "Limits",
           "points": [
-            "Not every drug shows it: theophylline metabolism has no significant circadian variation, though night absorption may slow with supine posture",
-            "Timing effects are shown drug by drug in these sources, not for a whole class"
+            "Not every drug shows it, and the timing effects here are reported drug by drug, not for a whole class",
+            "Circadian results for an individual drug are not transferable to other drugs of the same class without data"
           ]
         },
         {
@@ -1839,8 +1794,6 @@
       "refs": [
         "Sarkar p21-25",
         "Sarkar p26-30",
-        "GG14 PDF p903",
-        "Bennett PDF p567",
         "RangDale9 PDF p517"
       ],
       "pyq": [

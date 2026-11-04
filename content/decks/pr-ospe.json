@@ -3,22 +3,6 @@
   "source": "NMC guideline 2022; Sarkar OCR; KDT8 ch3, ch5, ch6; Katzung16 ch1, ch66; unsourced items marked",
   "cards": [
     {
-      "id": "pr-ospe-001",
-      "type": "basic",
-      "front": "What does the NMC prescribe for the OSPE in the MD Pharmacology practical exam?",
-      "back": "An Objective Structured Practical Examination of 10 to 15 stations, mixing observed stations (an examiner present) and unobserved stations (no observer).",
-      "refs": [
-        "NMC MD Pharmacology 2022 curriculum (practical exam)"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "pr-ospe-format",
-      "tags": [
-        "uses"
-      ],
-      "level": 1
-    },
-    {
       "id": "pr-ospe-002",
       "type": "cloze",
       "front": "Classify: example OSPE stations listed by the NMC",
@@ -37,11 +21,10 @@
     {
       "id": "pr-ospe-036",
       "type": "basic",
-      "front": "What does OSPE stand for, and what is a station?",
-      "back": "Objective Structured Practical Examination. The exam is split into timed stations; each tests one defined task, and every candidate is marked against the same fixed checklist.",
+      "front": "What does OSPE stand for, and how many stations does the NMC specify?",
+      "back": "Objective Structured Practical Examination. The NMC specifies 10 to 15 stations, a mix of observed stations (observer present) and unobserved stations (without an observer).",
       "refs": [
-        "NMC MD Pharmacology 2022 curriculum (practical exam)",
-        "UNSOURCED - owner must verify"
+        "NMC PDF p22"
       ],
       "pyq": [],
       "status": "draft",
@@ -84,7 +67,7 @@
       "tags": [
         "uses"
       ],
-      "level": 2
+      "level": 1
     },
     {
       "id": "pr-ospe-005",
@@ -382,10 +365,9 @@
       "id": "pr-ospe-037",
       "type": "basic",
       "front": "Dilution formula: what is C1 x V1 = C2 x V2 used for?",
-      "back": "It finds how much stock to take. Strength x volume (the amount of drug) stays the same before and after dilution. C1, V1 are stock strength and volume taken; C2, V2 are the final strength and volume wanted.",
+      "back": "It finds how much stock to take. C1 and V1 are the stock strength and the volume taken; C2 and V2 are the final strength and the volume wanted.",
       "refs": [
-        "Pickar Dosage Calculations PDF p373",
-        "UNSOURCED - owner must verify"
+        "Medhi PMECP PDF p40"
       ],
       "pyq": [],
       "status": "draft",
@@ -502,8 +484,8 @@
       "front": "Case: histamine stock is 1 mg/mL. You need 2 microgram/mL in a 10 mL organ bath. Why not add the stock directly, and what do you do?",
       "back": "The bath needs 20 microgram, which is 0.02 mL of stock: too small to measure accurately. So dilute the stock stepwise first (e.g. 1 in 100 gives 10 microgram/mL), then add 2 mL of that to the bath (2 x 10 / 10 = 2 microgram/mL). Check with the bath-concentration formula.",
       "refs": [
-        "Ghosh Fundamentals of Experimental Pharmacology PDF p11: stock dilution example",
-        "Medhi Practical Manual PDF p87 (printed p71): dilution per organ-bath volume",
+        "Ghosh FEP PDF p11: histamine stock and stepwise dilution",
+        "Medhi PMECP PDF p87 (printed p71): dilution per organ-bath volume",
         "UNSOURCED - owner must verify"
       ],
       "pyq": [],
@@ -555,10 +537,9 @@
       "id": "pr-ospe-039",
       "type": "basic",
       "front": "What are primary, secondary and tertiary literature sources?",
-      "back": "Primary: original reports (journal articles, trials). Secondary: indexing and abstracting services that point you to primary papers. Tertiary: textbooks and compendia that summarise established knowledge. Quick queries start at tertiary; critical ones need primary.",
+      "back": "Primary: original research in journals and clinical trial data. Secondary: research data analysed, compiled and published, e.g. Medline, Index Medicus. Tertiary: drug compendia.",
       "refs": [
-        "Sarkar p76-80",
-        "UNSOURCED - owner must verify"
+        "Padmaja PDF p95"
       ],
       "pyq": [],
       "status": "draft",
@@ -592,8 +573,7 @@
       "refs": [
         "Medhi PMECP PDF p359",
         "Medhi PMECP PDF p360",
-        "Medhi PMECP PDF p361",
-        "Sarkar p506-510"
+        "Medhi PMECP PDF p361"
       ],
       "pyq": [],
       "status": "draft",
@@ -858,7 +838,6 @@
         }
       ],
       "refs": [
-        "Sarkar p386-390",
         "Sarkar p391-395"
       ],
       "pyq": [],
@@ -890,13 +869,12 @@
       "id": "pr-ospe-044",
       "type": "basic",
       "front": "Instrument choice: match the task to HPLC, TLC, ELISA or spectrophotometry.",
-      "back": "Drug level in plasma with identity from retention time: HPLC (can couple to mass spectrometry). Quick check of a mixture's components or purity: TLC. Detecting an antigen or antibody in serum: ELISA. Concentration of a light-absorbing solution: spectrophotometry. Pick by what is measured and how selective and sensitive it must be.",
+      "back": "HPLC: compounds identified by retention time, amount read from the peak; can couple to mass spectrometry. TLC: components separated on a plate and seen as spots afterwards. ELISA: enzyme-labelled colour, proportional to the antibody bound. Spectrophotometry: absorbance proportional to concentration (Beer-Lambert).",
       "refs": [
         "Sarkar p401-405",
         "Sarkar p396-400",
-        "Sarkar p386-390",
-        "Sarkar p421-425",
-        "UNSOURCED - owner must verify"
+        "Sarkar p391-395",
+        "Sarkar p421-425"
       ],
       "pyq": [],
       "status": "draft",

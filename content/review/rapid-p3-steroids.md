@@ -109,3 +109,16 @@ Level pass: no rapid changes; chapter already saturated (495 cards), coverage au
 
 ## Checker pass 2
 - Corrected rf-p3-steroids-0539: dose changed to 3.75 mg i.m. monthly; 7.5 mg not in books. Refs KDT8 ch17, GG14 ch46.
+
+## Recheck (all new cards, chunk 1/1)
+Scope: rf-p3-steroids-0473 to 0540 (67 cards, 0511 already deleted earlier) against KDT8 ch13/17/20/21/22, GG14 ch46/48, GG12 ch40, Ghosh FEP p136-151.
+
+Corrected:
+- 0473: methandienone added to the anabolic drug list (KDT8 ch21 lists four drugs).
+- 0540: question and answer changed. Pituitary desensitisation before ovulation induction is the agonist use (KDT8 ch17, goserelin and leuprolide). "Prevent premature LH surge" is the antagonists' use and stays on 0536/0538.
+
+Deleted: none.
+
+Verified, no change: all other cards in the chunk, including 0522 (LNg20 reduces dysmenorrhoea and menstrual blood loss and is used for endometrial hyperplasia, GG14 ch48 p996) and 0484 (letrozole 100% bioavailable, t1/2 about 40 h).
+
+Unverifiable (WEB / UNSOURCED refs): none in this chunk.

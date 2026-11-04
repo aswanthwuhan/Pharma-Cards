@@ -314,3 +314,38 @@ rf-p1-pk-absorption-0241 | new | GG14 ch2 |
 rf-p1-pk-absorption-0242 | new | GG14 ch2 |
 rf-p1-pk-absorption-0243 | new | GG14 ch2 |
 rf-p1-pk-absorption-0244 | new | Bennett p98 |
+
+## Recheck (all new cards, chunk 1/1)
+| id | status | source / reason |
+|---|---|---|
+| rf-p1-pk-absorption-0216 | ok | KDT8 ch2 |
+| rf-p1-pk-absorption-0217 | ok | KDT8 ch2 |
+| rf-p1-pk-absorption-0218 | ok | KDT8 ch2 |
+| rf-p1-pk-absorption-0219 | corrected | refs GG14 ch4 (MRP2, BCRP as ABC primary active transporters) |
+| rf-p1-pk-absorption-0220 | ok | KDT8 ch2 (OATP, OCT secondary active) |
+| rf-p1-pk-absorption-0221 | corrected | refs KDT8 PDF p65 (reserpine blocks VMAT-2); KDT8 ch2 did not support it |
+| rf-p1-pk-absorption-0222 | ok | KDT8 ch2 |
+| rf-p1-pk-absorption-0223 | ok | KDT8 ch2 |
+| rf-p1-pk-absorption-0224 | ok | GG14 ch4 |
+| rf-p1-pk-absorption-0225 | ok | GG14 ch4 (ABC primary active, unidirectional efflux) |
+| rf-p1-pk-absorption-0226 | ok | GG14 ch4 |
+| rf-p1-pk-absorption-0227 | ok | GG14 ch4 (OATP1B1 statin uptake, MRP2 efflux) |
+| rf-p1-pk-absorption-0228 | ok | GG14 ch4 (intestinal efflux pumps) |
+| rf-p1-pk-absorption-0229 | corrected | answer now MDR1, MRP2, BCRP (BSEP for bile salts); MDR3 not supported |
+| rf-p1-pk-absorption-0230 | ok | GG14 ch4 (BBB luminal MDR1 and MRP4) |
+| rf-p1-pk-absorption-0231 | ok | GG14 ch4 (renal brush border) |
+| rf-p1-pk-absorption-0232 | ok | GG14 ch2 |
+| rf-p1-pk-absorption-0233 | ok | KDT8 ch2 (fat:lean ratio) |
+| rf-p1-pk-absorption-0234 | ok | KDT8 p90 |
+| rf-p1-pk-absorption-0235 | ok | KDT8 ch2 (fat-binding list) |
+| rf-p1-pk-absorption-0236 | ok | GG14 ch2, KDT8 ch2 |
+| rf-p1-pk-absorption-0237 | ok | KDT8 ch2 |
+| rf-p1-pk-absorption-0238 | ok | KDT8 ch2 (IV bioavailability 100%) |
+| rf-p1-pk-absorption-0239 | ok | KDT8 ch2 |
+| rf-p1-pk-absorption-0240 | ok | KDT8 ch2 (aspirin, griseofulvin, spironolactone) |
+| rf-p1-pk-absorption-0241 | ok | GG14 ch2 (PDF p42 determinants) |
+| rf-p1-pk-absorption-0242 | ok | GG14 ch2 (non-electrolyte equal across membrane) |
+| rf-p1-pk-absorption-0243 | ok | GG14 ch2 (gradient, partition coefficient, membrane area) |
+| rf-p1-pk-absorption-0244 | corrected | refs KDT8 ch2 (ionised drugs do not diffuse); Bennett p98 no longer needed |
+
+Deleted: none. Unverifiable: none in this chunk.

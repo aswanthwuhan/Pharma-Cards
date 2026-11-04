@@ -188,3 +188,40 @@ Ladder check: every subtopic has at least 3 L1, 2 L2, 1 L3 (objectives 5/2/1, le
 Prep / RR5 check: no Prep or RR5 refs in deck or rapid files.
 
 Unverified (owner must check): WEB refs for microteaching, feedback, and viva; the "UNSOURCED" items (002, 003, 005, 006, 007, 008, 012, 017, 018, 023, 044-051). Note: the NMC text does not support the SMART or Bloom cards.
+
+## Recheck (all new cards, chunk 1/1)
+
+Checked 2026-11-04 against the NMC MD Pharmacology 2022 curriculum and PGMER 2023 (Curriculum-related documents), and the saved practical sources 04 (microteaching) and 06 (Pendleton feedback) in practical-sources. Chunk ids: 26 listed, 25 present. rf-pr-teaching-0068 was deleted in an earlier pass (duplicate of pr-teaching-049); the rapid file ends at 0067.
+
+Corrected:
+- pr-teaching-049: back cycle now matches source 04 (plan, teach, observe, feedback, re-plan, re-teach). WEB micro-teaching ref added.
+- pr-teaching-045: WEB micro-teaching ref added (stimulus variation and reinforcement are named as micro-teaching skills). Rest stays UNSOURCED.
+- pr-teaching-048: WEB Pendleton ref added (learner self-assessment first, private, observed behaviour, action plan). Rest stays UNSOURCED.
+- pr-teaching-052: facts verified, no text change. PGMER s8.3: four theory papers; first on basic medical science, fourth on recent advances. NMC: theory exam held before clinical/practical so answer books can be assessed in advance.
+
+Deleted:
+- pr-teaching-032: duplicate of pr-teaching-049 (same NMC clause: PG conducts UG classes, faculty observes and gives feedback). 049 kept because it adds the why. Training subtopic still 3 L1, 2 L2, 1 L3.
+
+Verified, left as is: 046 (NMC: lectures used sparingly; DOAP), 050 (NMC salient features of UG curriculum), 051 (NMC: PG conducts UG classes; teaching skills assessed at least twice a year; blueprint and SMART not in NMC, UNSOURCED kept).
+
+Unverifiable (UNSOURCED - owner must verify, no owner-book support): 044, 047. Partly NMC or WEB supported, rest unverifiable: 045, 046, 048, 049, 050, 051.
+
+Ladder: all subtopics at or above 3 L1, 2 L2, 1 L3. Validator: clean.
+
+## Recheck (all new cards, chunk 1/1), second pass 2026-11-04
+
+Checked against NMC MD Pharmacology 2022 curriculum and PGMER 2023 (Curriculum-related documents), and practical-sources 02 (OSPE validation), 04 (microteaching), 06 (Pendleton feedback). This pass corrects the earlier "052 verified, no text change" entry: the reason "so that answer books can be marked in advance" is not in PGMER, so it was removed.
+
+Corrected:
+- pr-teaching-052: back now says the theory exam is held well in advance of the clinical and practical exam (PGMER 8.3). Four papers, Paper I basic sciences, Paper IV recent advances: confirmed.
+- pr-teaching-045: back uses the source 04 wording. Stimulus variation = speech pattern, interaction style, movement ("aid" removed, not in that skill). Reinforcement = positive verbal and nonverbal cues.
+- pr-teaching-048: "soon after the session" removed (source 06 says plan the timing and a confidential place; no "soon after" rule).
+- rf-pr-teaching-0052, 0053: q reworded to match the same source 04 wording (reversible pair kept).
+
+Verified, left as is: 046 (NMC: lectures used sparingly; DOAP), 049 (NMC I: PG conducts UG classes, faculty observes and gives feedback; cycle per source 04), 050 (NMC: salient features of UG curriculum), 051 (NMC: UG and PG curricula; teaching skills assessed at least two sessions a year; observation and feedback). rf-0056 (Pendleton step 1: learner says what went well), 0059 (source 04 stages: plan, teach, feedback, re-plan, reteach), 0060 (source 04: setting induction), 0061 (NMC competency A, cognitive), 0063 (source 06: behaviour, not personality), 0064 and 0065 (source 02: test-retest reliability; validity), 0067 (NMC E: DOAP).
+
+Deleted: none. No duplicate pairs inside the chunk (rf-pr-teaching-0068 is not in the file; pr-teaching-032 was deleted earlier).
+
+Unverifiable (UNSOURCED, no owner-book support, kept): 044 and 047 (no owner-book support at all). Partly supported, UNSOURCED kept: 045, 046, 048, 049, 050, 051. Rapid UNSOURCED-only: 0054, 0055, 0057, 0058, 0062, 0066. WEB refs (approved PMC exceptions) kept on 045, 048, 049, and rapid 0052, 0053, 0056, 0059, 0060, 0063, 0064, 0065.
+
+Ladder: every subtopic at or above 3 L1, 2 L2, 1 L3 (objectives 5/2/1, lesson-plan 3/2/1, methods 5/2/1, assessment 10/5/1, feedback 4/2/1, training 3/2/1). Validator: clean for pr-teaching.

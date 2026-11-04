@@ -162,7 +162,7 @@ Sources checked: Sarkar OCR p56-60, p86-90, p91-95, p226-230, p506-510; KDT8 ch6
 | p3-ethics-education-065 | new | Sarkar p86-90 |
 | p3-ethics-education-066 | new | KDT8 ch6 |
 | p3-ethics-education-067 | new | KDT8 ch6 |
-| p3-ethics-education-068 | new | GG14 ch8 |
+| p3-ethics-education-068 | deleted (recheck 1/2) | none (no owner book) |
 | p3-ethics-education-069 | new | GG14 ch8; Sarkar p91-95 |
 | p3-ethics-education-070 | new | GG14 ch8 |
 | p3-ethics-education-071 | new | Sarkar p91-95; Sarkar p86-90; GG14 ch8; KDT8 ch6 |
@@ -195,3 +195,25 @@ Book conflicts / issues (newest book wins; both noted where relevant):
 - The 4-year new-drug rule appears in NDCT Rules 2019 p5 and in Sarkar p91-95 for ADR relevance; only the existing rapid card 0152 is kept, to avoid a duplicate fact.
 
 Not carded: no owner book gives the composition of a drug and therapeutics committee beyond the pharmacologist convener; no book states the Belmont Report's three principles (only its justice principle, GG14 ch1).
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked all 58 study ids in chunk 1 (056-113) against Sarkar OCR, KDT8, GG14, Golan, Katzung16 appendix 2, Harrison21, NDCT Rules 2019 and NMC curriculum. Rapid ids in the chunk are logged in rapid-p3-ethics-education.md.
+
+| id | result | reason |
+|---|---|---|
+| p3-ethics-education-056 | corrected | Removed unsupported sentence "Helsinki builds on the earlier code". Other facts match Sarkar p156-160. |
+| p3-ethics-education-063 | corrected | Added purpose (rational and safe use). Sarkar p56-60, p506-510. |
+| p3-ethics-education-064 | corrected | Added aim (make drugs safer by monitoring ADRs); added Sarkar p506-510 to refs. |
+| p3-ethics-education-065 | corrected | Added why (early signal detection). Sarkar p86-90. |
+| p3-ethics-education-066 | corrected | Added why (separates drug from disease causes). KDT8 p110. |
+| p3-ethics-education-068 | deleted | Disproportionality method is not in any owner book (searched all owner books). |
+| p3-ethics-education-071 | corrected | Removed "Statistical detection" section (disproportionality, unsupported). |
+| p3-ethics-education-075 | corrected | Added why (passed after thalidomide disaster). GG14 ch1 p33. |
+| p3-ethics-education-077 | corrected | Replaced unsupported wording with REMS and postapproval studies (GG14 p164, p170). Refs now GG14 ch8 and Golan ch52. |
+| p3-ethics-education-083 | corrected | Added why (judge protocols against law, professional standards and community attitudes). Golan ch52 p958. |
+| p3-ethics-education-087 | corrected | Added why (legal commitment to conduct trial under GCP). Sarkar p246-250. |
+| p3-ethics-education-107 | corrected | Gift rule restated as GG14 ch1 p37 gives it (forbidden at many academic centres, law in several states). Open Payments from Harrison21 p112. |
+
+Verified with no change: all other study ids in chunk 1. Validator clean (`node scripts/validate-content.mjs --check`). Subtopic minimums still met.
+Unverifiable (UNSOURCED or WEB refs left as is): 0.

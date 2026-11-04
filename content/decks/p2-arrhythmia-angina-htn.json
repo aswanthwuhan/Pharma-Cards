@@ -551,7 +551,7 @@
       "id": "p2-arrhythmia-angina-htn-089",
       "type": "basic",
       "front": "Main indications of amiodarone.",
-      "back": "Resistant ventricular tachycardia and recurrent ventricular fibrillation are the key uses. It is also used to maintain sinus rhythm in AF when other drugs fail, and in tachyarrhythmias of WPW syndrome.",
+      "back": "Resistant ventricular tachycardia and recurrent ventricular fibrillation are the key uses. It is also used to maintain sinus rhythm in AF when other drugs fail, and in WPW tachyarrhythmias. Its broad efficacy and relatively low proarrhythmic potential make it widely used despite organ toxicity.",
       "refs": [
         "KDT8 ch39"
       ],
@@ -756,7 +756,7 @@
       "id": "p2-arrhythmia-angina-htn-090",
       "type": "basic",
       "front": "Why is adenosine given as a rapid IV bolus and why is its effect so short?",
-      "back": "It has a plasma half-life of about 10 s because red cells and endothelium take it up quickly, so a slow infusion would be inactivated before reaching the heart. A fast bolus terminates AV-node-dependent PSVT (over 90% within 30 s), but the brief action makes it unsuitable for preventing recurrences.",
+      "back": "It has a plasma half-life of about 10 s because red cells and endothelium take it up quickly, and almost all is cleared in one passage through the coronary circulation. A fast bolus terminates AV-node-dependent PSVT (over 90% within 30 s), but the brief action makes it unsuitable for preventing recurrences.",
       "refs": [
         "KDT8 ch39"
       ],
@@ -867,7 +867,7 @@
       "id": "p2-arrhythmia-angina-htn-091",
       "type": "basic",
       "front": "Case: PSVT in a patient with hypotension and heart failure on a beta blocker. Choose between adenosine and verapamil and justify.",
-      "back": "Choose adenosine. Its A1-mediated AV-nodal block is so brief that it is safe in hypotension, CHF, beta blockade and wide-QRS tachycardia, whereas verapamil depresses contractility and AV conduction and adds to beta-blocker effects. Reverse the preference in asthma, where adenosine can cause bronchospasm and verapamil is preferred. Doses may need raising in heavy tea or coffee drinkers (A1 antagonism), and be reduced with dipyridamole.",
+      "back": "Choose adenosine. Its A1-mediated AV-nodal block is so brief that it is safe in hypotension, CHF, beta blockade and wide-QRS tachycardia, whereas verapamil depresses contractility and AV conduction and adds to beta-blocker effects. Reverse the preference in asthma, where adenosine can cause bronchospasm and verapamil is preferred. Higher doses may be needed in heavy tea or coffee drinkers (A1 antagonism); dipyridamole potentiates adenosine.",
       "refs": [
         "KDT8 ch39"
       ],
@@ -1377,7 +1377,7 @@
       "id": "p2-arrhythmia-angina-htn-092",
       "type": "basic",
       "front": "Compare the cardiac effects of verapamil and nifedipine and explain the mechanism.",
-      "back": "Verapamil (and diltiazem) block L-type channels in a use-dependent way, so blockade grows with heart rate and recovery of the channel is delayed; they slow the SA and AV nodes and depress contractility. Nifedipine's block is independent of rate and it acts mainly on vessels, so it does not slow the node and instead causes reflex tachycardia. Hence verapamil suits PSVT and angina but is avoided with beta blockers, while a slow DHP can be combined with a beta blocker.",
+      "back": "Verapamil (and diltiazem) block L-type Ca2+ channels, slow the SA and AV nodes and depress contractility, so they suit PSVT and angina but are avoided with beta blockers. Nifedipine acts mainly on vessels and does not slow the SA or AV node, so it causes reflex tachycardia.",
       "refs": [
         "KDT8 ch40"
       ],
@@ -2575,7 +2575,7 @@
       "id": "p2-arrhythmia-angina-htn-094",
       "type": "basic",
       "front": "Case: hypertensive emergency with acute coronary syndrome. Choose an IV agent and explain how to handle its reflex effect.",
-      "back": "Nicardipine IV is a popular choice, now replacing nitroprusside; it is a vasoselective DHP with a half-life of about 45 min and an action lasting 3-4 h, and in a trial matched nitroprusside in reaching target BP within an hour. Its vasodilatation causes reflex tachycardia, which is harmful in ACS or MI, so esmolol or labetalol is co-administered.",
+      "back": "Nicardipine IV is a highly vasoselective dihydropyridine that has largely replaced nitroprusside in hypertensive emergencies. Its arteriolar vasodilatation can cause reflex tachycardia, which is harmful in ACS or MI, so a beta blocker such as esmolol or labetalol is co-administered.",
       "refs": [
         "KDT8 ch41"
       ],
@@ -2786,10 +2786,11 @@
       "type": "basic",
       "level": 1,
       "front": "Digoxin: which enzyme does it inhibit, and what is its main clinical role?",
-      "back": "Na+/K+-ATPase. Positive inotropy in heart failure and ventricular rate control in atrial fibrillation.",
+      "back": "Inhibits Na+/K+-ATPase, so less Na+ is exported by the Na+/Ca2+ exchanger and cytosolic Ca2+ rises, increasing contractility. Used for positive inotropy in heart failure and ventricular rate control in atrial fibrillation.",
       "refs": [
         "GG14 ch33",
-        "GG14 ch34"
+        "GG14 ch34",
+        "GG14 ch2"
       ],
       "pyq": [],
       "status": "draft",
@@ -2803,7 +2804,7 @@
       "type": "basic",
       "level": 1,
       "front": "Digoxin therapeutic window: what does the DIG trial show?",
-      "back": "Benefit at about 0.5 to 0.8 ng/mL. Concentrations of 1.2 ng/mL and above tend to link to higher mortality.",
+      "back": "Benefit at about 0.5 to 0.8 ng/mL. Concentrations of 1.2 ng/mL and above tend to link to higher mortality. Digoxin has an extremely narrow therapeutic index, so the margin to toxicity is small.",
       "refs": [
         "GG14 ch33"
       ],
@@ -2815,27 +2816,11 @@
       ]
     },
     {
-      "id": "p2-arrhythmia-angina-htn-109",
-      "type": "basic",
-      "level": 1,
-      "front": "Why is oral minoxidil no longer used?",
-      "back": "Vasodilatation is marked and the reflex effects are strong. Risk of ischaemia and heart failure is high. Topical 2% is used for alopecia.",
-      "refs": [
-        "KDT8 ch41"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-arrhythmia-angina-htn-antihypertensive-classes",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
       "id": "p2-arrhythmia-angina-htn-110",
       "type": "basic",
       "level": 1,
       "front": "What did the IONA trial show for nicorandil?",
-      "back": "Fewer acute coronary events in high-risk patients with stable angina.",
+      "back": "Fewer acute coronary events in high-risk patients with stable angina. Nicorandil opens KATP channels and donates NO, so it dilates arteries and veins and lowers preload and afterload.",
       "refs": [
         "KDT8 ch40"
       ],
@@ -3341,7 +3326,7 @@
       "front": "Working myocardium versus automatic fibres: what separates them?",
       "back": "Working (non-automatic) fibres hold a stable resting potential of about -90 mV and cannot fire on their own. Automatic fibres in the SA and AV nodes and His-Purkinje system show slow phase-4 depolarisation and generate their own impulses.",
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "pyq": [],
       "tags": [
@@ -3357,7 +3342,7 @@
       "front": "Which ion carries phase 0 in fast-channel versus slow-channel action potentials?",
       "back": "Fast-channel fibres (atria, ventricles, Purkinje) depolarise through Na+ entry. Slow-channel fibres (SA and AV nodes) depolarise through Ca2+ entry, which is slower and has a less negative threshold.",
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "pyq": [],
       "tags": [
@@ -3373,7 +3358,7 @@
       "front": "Why is conduction slow in SA and AV nodal tissue?",
       "back": "Slow-channel action potentials have a slow 0 phase, low amplitude and small overshoot, so the wave moves decrementally. Conduction velocity is about 0.01 to 0.1 m/s in slow-channel tissue against 0.5 to 5 m/s in fast-channel tissue.",
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "pyq": [],
       "tags": [
@@ -3389,7 +3374,7 @@
       "front": "How do effective refractory period and action potential duration compare in fast-channel and slow-channel fibres?",
       "back": "Fast-channel fibres recover Na+ channels voltage-dependently, so ERP is shorter than APD (ERP/APD below 1). Slow-channel fibres recover Ca2+ channels with time, so ERP is longer than APD (ERP/APD above 1).",
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "pyq": [],
       "tags": [
@@ -3405,7 +3390,7 @@
       "front": "Which tissue is the normal pacemaker, and what is its key feature?",
       "back": "The SA node. It has the steepest phase-4 slope and so reaches threshold first. Other automatic tissue fires more slowly and acts as latent pacemaker if the SA node fails.",
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "pyq": [],
       "tags": [
@@ -3421,7 +3406,7 @@
       "front": "How does hyperpolarisation change excitability, and what happens below about -55 mV?",
       "back": "Hyperpolarisation widens the gap to threshold, so the fibre is less excitable. Below about -55 mV in fast-channel fibres, all Na+ channels are inactivated and the fibre cannot respond.",
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "pyq": [],
       "tags": [
@@ -3437,7 +3422,7 @@
       "front": "Vagal (ACh) versus sympathetic (adrenaline) effects on the heart: automaticity, refractoriness, conduction and contractility.",
       "back": "Vagal stimulation slows SA automaticity, shortens atrial refractoriness, prolongs refractoriness in conducting tissue and depresses conduction. Sympathetic stimulation increases automaticity and contractility, shortens refractoriness and enhances conduction.",
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "pyq": [],
       "tags": [
@@ -3489,7 +3474,7 @@
         }
       ],
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "pyq": [],
       "tags": [
@@ -3555,7 +3540,7 @@
         }
       ],
       "refs": [
-        "KDT8 p521-523"
+        "KDT8 ch39"
       ],
       "tags": [
         "mechanism"

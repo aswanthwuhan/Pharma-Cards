@@ -1869,7 +1869,7 @@
           "h": "Type I error (false positive)",
           "points": [
             "An inactive compound is declared active",
-            "Fixed in advance by the significance level alpha; relaxing it from 0.05 to 0.10 raises the risk",
+            "Fixed in advance by the significance level alpha (usually 0.05)",
             "Consequence: resources are spent on a lead that does not work"
           ]
         },
@@ -2027,7 +2027,7 @@
       "front": "Define a biomarker in clinical research.",
       "back": "A characteristic that is measured objectively and used as an indicator of normal biological processes, disease processes, or the response to a therapeutic intervention.",
       "refs": [
-        "Bioequivalence & Statistics PDF p287"
+        "Bioequivalence & Statistics PDF p36"
       ],
       "pyq": [
         {
@@ -2053,14 +2053,6 @@
           "points": [
             "Objectively measured indicator of normal or pathological processes, or of drug response",
             "A surrogate is a biomarker that predicts clinical benefit or harm"
-          ]
-        },
-        {
-          "h": "Characteristics of an ideal biomarker",
-          "points": [
-            "Specific: changes only in the affected individuals",
-            "Sensitive: changes in all affected individuals",
-            "Must predict clinical outcome before it is used as a surrogate"
           ]
         },
         {
@@ -2402,9 +2394,7 @@
         {
           "h": "Uses",
           "points": [
-            "Detection and quantification of specific antigens or antibodies in biomedical research",
-            "Quality control in industry",
-            "Digoxin measurement in serum"
+            "Detection and quantification of specific antigens or antibodies in biomedical research"
           ]
         }
       ],
@@ -2660,12 +2650,6 @@
           ]
         },
         {
-          "h": "Pitfall",
-          "points": [
-            "Statisticians are outnumbered; a team should not skip statistical input and rely on intuition"
-          ]
-        },
-        {
           "h": "Conclusion",
           "points": [
             "The biostatistician makes the trial's conclusions defensible"
@@ -2916,8 +2900,8 @@
         }
       ],
       "refs": [
+        "Sarkar p211-215",
         "Sarkar p21-25",
-        "Bioequivalence & Statistics PDF p37",
         "Medhi PMECP p119"
       ],
       "pyq": [
@@ -3075,35 +3059,12 @@
       "level": 1
     },
     {
-      "id": "p3-research-biostats-111",
-      "type": "basic",
-      "front": "Precision vs accuracy: how do they differ?",
-      "back": "Accuracy is how close a measured value is to the true value. Precision is how close repeated measurements are to each other (reproducibility). Readings can be precise but inaccurate, for example tightly clustered values all away from the true value.",
-      "refs": [
-        "Medhi PMECP p153-154"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p3-research-biostats-descriptive",
-      "tags": [
-        "classification"
-      ],
-      "level": 1
-    },
-    {
       "id": "p3-research-biostats-112",
       "type": "basic",
       "front": "What is stratified randomisation?",
       "back": "Subjects are first grouped into strata by a key factor such as age, sex or disease severity, and then randomly allocated within each stratum. This keeps that factor balanced between arms, which matters most when the groups are small.",
       "refs": [
-        "RangDale9 ch8",
-        "KDT8 ch5"
+        "RangDale9 PDF p118"
       ],
       "pyq": [
         {
@@ -3125,8 +3086,7 @@
       "front": "Distinguish randomisation from stratification in a trial.",
       "back": "Randomisation allocates every subject to a study arm by chance. Stratification first sorts subjects into strata by a known factor, and allocation within each stratum is still random.",
       "refs": [
-        "RangDale9 ch8",
-        "KDT8 ch5"
+        "RangDale9 PDF p118"
       ],
       "pyq": [
         {
@@ -3150,13 +3110,15 @@
       "back": "Random error comes from imprecision: repeated readings scatter on either side of the true value, close to one another, and are amenable to statistical treatment. Systematic error comes from inaccurate or uncalibrated instruments and recurs in the same direction, so it is not corrected by statistics; recalibrating the instruments removes it.",
       "refs": [
         "Medhi PMECP p140",
+        "Medhi PMECP p256",
         "Ghosh FEP PDF p222"
       ],
       "pyq": [],
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-115",
@@ -3171,7 +3133,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-116",
@@ -3214,7 +3177,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-117",
@@ -3229,7 +3193,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-118",
@@ -3245,22 +3210,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-119",
-      "type": "basic",
-      "subtopic": "p3-research-biostats-descriptive",
-      "front": "How is the margin of error of a sample estimated?",
-      "back": "Take the square root of the sample size and divide 1 by it. For 30 observations the square root is 5.48, so the margin is about 0.18, or plus or minus 18%; for 40 observations it is about plus or minus 16%. Increasing the sample size reduces the margin of error.",
-      "refs": [
-        "Ghosh FEP PDF p222"
       ],
-      "pyq": [],
-      "status": "draft",
-      "tags": [
-        "uses"
-      ]
+      "level": 1
     },
     {
       "id": "p3-research-biostats-120",
@@ -3275,7 +3226,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-121",
@@ -3291,7 +3243,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-122",
@@ -3334,7 +3287,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-123",
@@ -3349,7 +3303,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-124",
@@ -3364,7 +3319,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-125",
@@ -3379,23 +3335,25 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-126",
       "type": "basic",
       "subtopic": "p3-research-biostats-tests",
-      "front": "When is Fisher's exact test used instead of the chi-square test?",
-      "back": "For a 2 x 2 table when the sample is very small or expected frequencies are low, where the chi-square approximation is unreliable. Fisher's test calculates an exact P value directly instead of referring a statistic to a sampling distribution.",
+      "front": "Fisher's exact test versus chi-square: what limitation do both share?",
+      "back": "Both are used for nominal (categorical) data such as smoker or non-smoker. Neither indicates the strength of an association.",
       "refs": [
-        "Medhi PMECP p147",
-        "Sarkar p381-385"
+        "Medhi PMECP p141",
+        "Medhi PMECP p147"
       ],
       "pyq": [],
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-127",
@@ -3410,7 +3368,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-128",
@@ -3426,7 +3385,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-129",
@@ -3468,7 +3428,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-130",
@@ -3483,7 +3444,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-131",
@@ -3525,7 +3487,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-132",
@@ -3567,7 +3530,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-133",
@@ -3582,7 +3546,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-134",
@@ -3627,7 +3592,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-135",
@@ -3642,7 +3608,8 @@
       "tags": [
         "uses"
       ],
-      "text": "A highly {{sensitive}} test, when negative, helps {{rule out}} disease (SnNout). A highly {{specific}} test, when positive, helps {{rule in}} disease (SpPin)."
+      "text": "A highly {{sensitive}} test, when negative, helps {{rule out}} disease (SnNout). A highly {{specific}} test, when positive, helps {{rule in}} disease (SpPin).",
+      "level": 1
     },
     {
       "id": "p3-research-biostats-136",
@@ -3657,7 +3624,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-137",
@@ -3672,7 +3640,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-138",
@@ -3687,7 +3656,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-139",
@@ -3727,7 +3697,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-140",
@@ -3742,7 +3713,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-141",
@@ -3757,22 +3729,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
-    },
-    {
-      "id": "p3-research-biostats-142",
-      "type": "basic",
-      "subtopic": "p3-research-biostats-evidence",
-      "front": "What is the healthy volunteer effect in screening studies?",
-      "back": "People who volunteer for screening tend to be more health conscious and to have a better prognosis or lower mortality than the general population, irrespective of the screening result. This selection bias can make screening look beneficial when it is not.",
-      "refs": [
-        "Harrison21 PDF p535"
       ],
-      "pyq": [],
-      "status": "draft",
-      "tags": [
-        "classification"
-      ]
+      "level": 1
     },
     {
       "id": "p3-research-biostats-143",
@@ -3787,7 +3745,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-144",
@@ -3830,7 +3789,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "p3-research-biostats-145",
@@ -3845,7 +3805,8 @@
       "status": "draft",
       "tags": [
         "classification"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-146",
@@ -3854,13 +3815,15 @@
       "front": "What is an N-of-1 trial?",
       "back": "A multiple crossover trial, usually randomised and sometimes blinded, conducted in a single patient. Treatment is switched periodically between active drug and placebo, or between active treatments, in balanced sequences with repetition. It gives the strongest evidence of efficacy for that individual, and suits chronic stable disease with rapid drug onset and a short washout.",
       "refs": [
-        "Sarkar p231-235"
+        "Sarkar p231-235",
+        "Bennett PDF p64"
       ],
       "pyq": [],
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-147",
@@ -3875,7 +3838,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-148",
@@ -3892,7 +3856,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "p3-research-biostats-149",
@@ -3907,7 +3872,8 @@
       "status": "draft",
       "tags": [
         "uses"
-      ]
+      ],
+      "level": 1
     }
   ]
 }

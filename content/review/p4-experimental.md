@@ -273,3 +273,107 @@ Checked against the cited owner text (Ghosh PDF p160/p162, Medhi PDF p68-69, KDT
 - Note: 177 IC50 "50 per cent" is the usual definition; Ghosh p223 gives the concept only. Left as is.
 - Validator --check: clean (exit 0). Ladder minimums met for all 7 subtopics. No Prep/RR5 refs.
 - Deleted: none.
+
+## Recheck (all new cards, chunk 1/3)
+
+Chunk 1 of 3 (p4-experimental-057 to -176, 120 ids) rechecked against the owner PDFs (search.py pages) and the Sarkar OCR files. This section replaces an earlier version of the same heading: several corrections it listed were not in the deck, so this pass re-verified the deck itself. Earlier deletions (078, 082) are unchanged.
+
+Deleted (4):
+- p4-experimental-126: diuretic-screening shortnote; the rodent screening and healthy-volunteer claims are not in the owner text. Its venodilator point is kept on -128, the potassium-sparing point on -127.
+- p4-experimental-130: duplicate of -173 (unilateral ovariectomy); the FSH mechanism is not in Ghosh p151.
+- p4-experimental-131: duplicate of -172 (deciduoma and uterine weight).
+- p4-experimental-176: duplicate of -080 (MTT); XTT wording was not needed.
+
+Corrected (fact or ref fixed, wording trimmed to the book):
+- 057: back now states that a single potency ratio needs parallel lines (horizontal distance = log ratio); partial-agonist claim removed. Ghosh PDF p100, p92.
+- 058: "similar maxima" and H1 wording removed; Ghosh PDF p100, Medhi PMECP PDF p86 (guinea pig ileum histamine practical).
+- 059: refs now RangDale9 PDF p120 and GG14 PDF p73 (KDT8 ch4 removed; LD50 "not a useful guide" is on RD9 p120).
+- 060: H1 wording removed; KDT8 PDF p140 (atropine spares histamine on guinea pig ileum), Katzung16 PDF p305.
+- 062: x-intercept gives pA2 (= -log KB), not KB; Ghosh PDF p110.
+- 063: back rewritten to what Ghosh p156 and p183 say; ethics ref KDT8 ch5 / RangDale9 ch8 / Katzung16 ch1 removed.
+- 065: unnamed example kept as "worked example" (79.5 graphical, 81 Karber; Ghosh p162).
+- 066: "cold storage" section removed (not in Bennett p97 or KDT8 p989).
+- 069: OLETF and dogs removed; Milan strain (not SHR) for renal sodium; L-NAME removed.
+- 070: "body weight" changed to "age" (Ghosh p224 lists litter, sex, age).
+- 073: front and back rewritten; "total variation" removed (ANOVA basis only on Ghosh p220).
+- 074: ref corrected to Ghosh PDF p218 (coefficient of variation).
+- 075: "0.5 or more" removed (OCR garbled; text gives 0.05, 0.1 to 0.2 only).
+- 077: "about 10-fold" removed (not in Ghosh p13 or p36).
+- 085: refs KDT8 PDF p260 only (erythromycin, cimetidine on theophylline); microsome sentence removed.
+- 086: "sodium" removed (Sarkar p291-295 gives potassium).
+- 087: essay trimmed to verified content: 40 mg/kg IV, 200-300 mg% thresholds, OLETF and conclusion removed; neonatal doses and 70-90% pancreatectomy kept (Sarkar p296-300).
+- 088: "nitrosourea" removed; alkylation of DNA and GLUT-2 uptake kept (Sarkar p291-295).
+- 089: doses corrected to 100 mg/kg (1-day pups) and 120 mg/kg (2-5-day pups) (Sarkar p296-300).
+- 090: "without changing MES" removed; genetic bullet removed; carbamazepine line from KDT8 PDF p455.
+- 091: perforant path and GAERS removed; isoniazid added (Sarkar p301-305); pilocarpine and lithium verified (Sarkar p306-310).
+- 092: front and back fixed: MES gives tonic-clonic seizures; protection = abolition of hindlimb extensor tonic convulsion (Sarkar p301-305).
+- 095, 096: transgenic renin, cadmium and L-NAME removed; rabbit aorta and Langendorff kept (Sarkar p331-335, p291-295).
+- 100: "barbiturate overdose" removed (not in Sarkar p326-330); "human side" section removed; isolated heart is not "without surgery on the animal" (corrected to Langendorff recording).
+- 101: "oxygen consumption" removed (dp/dt max and LVP are in Sarkar p291-295).
+- 103: grading corrected to 0.5 to 3 (Ghosh p147, not 0 to 5); reserpine, carbachol, antihistamine protection and 24 h / forced-swim stress details removed.
+- 104: grading corrected; ulcer-index and "confirm in second model" removed.
+- 106: Barrett grading replaced with the Wilhelmi grading in Ghosh p147 (0.5 to 3).
+- 107: reserpine removed; aspirin 200 mg/kg, phenylbutazone 100 mg/kg (Ghosh p147).
+- 109: isolated gut bullet and "double activity score" removed; 45 min pre-dose and 2 h scoring kept (Ghosh p148, p149).
+- 111: "two hours" scoring added (Ghosh p149).
+- 112: butyrophenone and "validity" claim removed; catalepsy-EPS link from Medhi PMECP PDF p213.
+- 113: back rewritten to Sarkar p306-310 (catatonia definition) and Medhi p213 (EPS link).
+- 115: mechanism-based list removed (not found); "over days" removed; tail suspension kept (Sarkar p311-315 lists it).
+- 119: 4% NaCl writhing in rats removed (Ghosh p143 has phenylquinone/acetic acid in mice only); tail-clip removed; pA2 from Ghosh p144.
+- 121: "pre-selection of animals" clause removed (Ghosh p143).
+- 123: traction (5 s), chimney (30 s) and inclined-plane claims removed; rota-rod, horizontal bar, righting reflex kept (Sarkar p346-350, Ghosh p156).
+- 124: mouse 120 s and 3 rev/min criterion (Medhi PMECP PDF p202).
+- 128: "prostaglandin mediated" removed (KDT8 PDF p640 does not say it).
+- 129: male tests, 12-week and 9-week cycle, mechanism list and ovarian-weight inference removed (Ghosh p150, p151).
+- 132: mutation claim and "preclinical screening not in books" gap removed; GG14 PDF p1312 and KDT8 PDF p898 (ACT with long-acting partner).
+- 134: numbers (2 to 4 days, 5 years, 6 cm, cost) removed (Medhi PMECP PDF p30).
+- 136: nude-rat and "oldest mutation" claims removed; Wistar and Sprague Dawley kept (Medhi PMECP PDF p25).
+- 139: numbers and European history removed; guinea pig trachea added (Ghosh p100).
+- 141: "genetic quality" bullet removed; 20-generation definition (Sarkar p276-280) kept.
+- 143: stem-cell and ethics bullets removed.
+- 146: "two routes", "chronic six months" and ataxia removed; subacute two to three weeks in rats kept (Ghosh p156).
+- 150, 151, 152, 169: safety factor of 10 is not in the owner text. Sarkar p206-210 gives the clinical starting dose as about 1/50th of the rodent 2-week NOAEL dose (not a microdose); 152 front and back rewritten to this.
+- 153: in vivo bullets, numbers and KDT8 PDF p107 ref removed; Ames test kept (Sarkar p256-260).
+- 155: "since 1998", 28/90-day durations and in vitro bullet removed (Sarkar p256-260 supports rodent neurotoxicity studies only).
+- 158: route and reproduction-study numbers removed; dossier bullet changed to "preclinical animal safety studies precede human trials" (Sarkar p251-255).
+- 159: "dogs" and "starting near therapeutic level" removed; back matches Ghosh p156.
+- 160: unsupported bullets removed (Medhi PMECP PDF p119).
+- 162: WHO guideline bullet and manufacturing bullet removed (Sarkar p541-545).
+- 163: back rewritten to the table in Sarkar p541-545.
+- 164: front reworded (GG14 PDF p324 supports recreational use and physical dependence).
+- 166: "man is a distinct species" removed.
+- 167: "16 weeks" and high-fat diet claims removed; ob/ob, Zucker fatty rat (Sarkar p291-295).
+- 170: TB model and genotoxicity prediction removed; EADock example in 171.
+- 171: "about half" replaced with fifty percent (Sarkar p21-25).
+
+Checked, no change needed (examples): 061, 064, 065 numbers, 068 (heparin unit, KDT8 PDF p677 includes 1 hour and 0.2 mL CaCl2), 067, 071, 072, 075 index, 076 (ACh bioassay, Ghosh p133), 079, 080, 081, 083, 084, 086, 088 (GLUT-2), 091, 093 (KDT8 p456), 094, 097, 098, 099, 102, 105, 108, 110, 114 (KDT8 p199), 116, 117 (dogs, learned helplessness), 118 (synaptosome uptake, Sarkar p311-315), 120 (hot plate 55 C, 30 s, Ghosh p142), 122, 125, 127 (KDT8 PDF p96), 133 (KDT8 p898), 135, 137, 138, 140, 142, 144, 145, 147, 148, 149 (Ghosh p160), 154 (Ames), 156, 157, 161, 165 (Sarkar p36-40), 168 (pA2, Ghosh p110), 172, 173, 174, 175.
+
+Residual (kept, not fully re-traced in this pass):
+- 087 in vitro bullet (alpha-glucosidase, insulin secretion, glucose uptake): from Sarkar p291-305, not re-opened.
+- 143 and 145: Ghosh PDF p196 (knockout steps) not re-opened.
+- 081 and 084 refs beyond the cited Sarkar p121-125 and p286-290 text.
+- Basic backs without an explicit short "why" were not all rewritten; only the ones edited above now state a rationale.
+- No UNSOURCED or WEB refs in this chunk.
+
+Counts after this pass: 185 cards in deck (189 before this pass, minus 4 deleted in this pass; 078 and 082 were already absent). Subtopic minimums hold: bioassay 12/6/1, dose-response 4/2/1, tissues 9/8/2, salt-solutions 7/6/1, animal-models 35/36/6, toxicity 24/16/3, ethics 3/2/1. Validator (node scripts/validate-content.mjs --check): check ok.
+
+## Recheck (all new cards, chunk 2/3)
+
+Chunk 2 = p4-experimental-177 to 195 (study) and rf-p4-experimental-0065 to 0165 (rapid, see rapid log). Every fact traced to an owner-book page (Ghosh FEP, Sarkar OCR, KDT8, GG14, Katzung16, RangDale9, Medhi PMECP, Bennett, Golan).
+
+Corrected:
+- 177, 178, 179, 180, 181: refs were "Ghosh FEP PDF p223-224" (statistics pages). Cell-line material is Ghosh FEP PDF p198-200. Refs updated; wording unchanged.
+- 185: "single-dose data do not cover repeated-dose toxicity" was inference. Replaced with the printed fact (repeated-dose testing, minimum 28 days, is a separate study, Sarkar p251-255).
+- 186: aim "guide the starting dose for later studies" and limitation "acute data do not predict chronic effects" were not printed. Replaced with the printed NOEL/NOAEL and target-organ aim, and the separate repeated-dose and 90-day studies (Sarkar p251-255).
+- 189: basic back had no why. Added the printed reason (study runs over most of lifespan; ends at 18 or 24 months if no tumours), Sarkar p256-260.
+- 190: basic back had no why. Added the printed reason (embryolethal effects and malformations), Sarkar p256-260.
+- 191: "limits" (results need interpretation in humans; chromosomal findings depend on test system) were not printed. Replaced with printed dominant-lethal and phase-2 genotox points. Refs narrowed to Sarkar p256-260 (p251-255 did not support them).
+- 192: title "and regulatory requirement" had no regulatory content on the card; retitled "Specialised toxicity studies". Neurotoxicity point reworded to the printed wording (Sarkar p256-260).
+
+Deleted: none.
+
+Checked, no change needed: 182, 183, 184 (Bennett PDF p64; Sarkar p381-385 for factorial ANOVA and 2x3), 187, 188 (Sarkar p251-255), 193, 194 (Sarkar p306-310), 195 (Sarkar p306-310).
+
+Duplicates: none found among 177-195 (185/186 and 187/188 cover the same topic at different card types, kept).
+
+Subtopic minimums unchanged (no study card removed).

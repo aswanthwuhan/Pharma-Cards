@@ -833,7 +833,7 @@
       "type": "basic",
       "subtopic": "p3-tb-leprosy-regimens",
       "front": "How is rifampicin-resistant TB (RR-TB) treated under RNTCP 2016?",
-      "back": "As MDR-TB, but isoniazid is added in both phases without changing duration or other drugs. Intensive phase (6 months): kanamycin, levofloxacin, ethionamide, cycloserine, pyrazinamide, ethambutol and isoniazid. Continuation (18 months): levofloxacin, ethionamide, cycloserine, ethambutol and isoniazid.",
+      "back": "As MDR-TB, but isoniazid is added in both phases without changing duration or other drugs. Intensive phase (6 months): kanamycin, levofloxacin, ethionamide, cycloserine, pyrazinamide, ethambutol and isoniazid. Continuation (18 months): levofloxacin, ethionamide, cycloserine, ethambutol and isoniazid. Isoniazid is kept because the bacilli stay sensitive to it.",
       "refs": [
         "KDT8 ch56"
       ],
@@ -1187,8 +1187,9 @@
         {
           "h": "Prophylaxis",
           "points": [
-            "Azithromycin when CD4 falls below 75 cells per microlitre",
-            "Single drug used"
+            "Start when CD4 falls below 75 cells per microlitre",
+            "Single drug: azithromycin 1200 mg weekly (preferred) or clarithromycin 500 mg twice daily",
+            "Rifabutin 300 mg/day if neither can be given"
           ]
         },
         {
@@ -1345,7 +1346,7 @@
       ],
       "level": 2,
       "front": "How are minor adverse effects of first-line anti-TB drugs handled without changing the regimen?",
-      "back": "Treat symptomatically and keep the drugs going. Nausea or anorexia: give with small meals. Drowsiness: give at bedtime. Pyrazinamide arthralgia: analgesic-NSAID. INH neuritis: pyridoxine. Stopping a drug in a combination regimen risks resistance, so only severe reactions such as rash with itching justify stopping all drugs.",
+      "back": "Treat symptomatically and keep the drugs going. Nausea or anorexia: give with small meals. Drowsiness: give at bedtime. Pyrazinamide arthralgia: analgesic-NSAID. INH neuritis: pyridoxine. Stopping a drug from a combination risks resistance, so manage minor effects in place. Severe reactions such as rash with itching, or hepatitis, need all drugs stopped.",
       "refs": [
         "KDT8 ch56"
       ],
@@ -2018,7 +2019,7 @@
         "classification"
       ],
       "front": "Second-line anti-TB drugs: when are they used?",
-      "back": "Used when first-line drugs cannot be used, or to supplement them. They have low antitubercular efficacy, higher toxicity, or both.",
+      "back": "Used when the bacilli are resistant to one or more first-line drugs, or when first-line drugs cannot be tolerated or are contraindicated. They are less effective, less well tolerated, or both, so they are reserved for these cases.",
       "refs": [
         "KDT8 ch56"
       ],
@@ -2040,7 +2041,7 @@
         "classification"
       ],
       "front": "Classify: second-line anti-TB drugs by class",
-      "text": "Injectables (given i.m.): {{kanamycin}}, {{amikacin}} and {{capreomycin}}. Fluoroquinolones (oral, bactericidal): {{moxifloxacin}}, {{levofloxacin}}, {{ofloxacin}} and {{ciprofloxacin}}. Other oral drugs: {{ethionamide}}, {{cycloserine}} and {{PAS}}.",
+      "text": "Injectables (given i.m.): {{kanamycin}}, {{amikacin}} and {{capreomycin}}. Fluoroquinolones (oral, bactericidal): {{moxifloxacin}}, {{levofloxacin}}, {{ofloxacin}} and {{ciprofloxacin}}. Other oral drugs: {{ethionamide}}, {{prothionamide}}, {{cycloserine}}, {{terizidone}} and {{PAS}}. Rifamycin congeners: {{rifabutin}} and {{rifapentine}}. Diarylquinoline: {{bedaquiline}}.",
       "refs": [
         "KDT8 ch56"
       ],
@@ -2199,7 +2200,7 @@
         {
           "h": "Conclusion",
           "points": [
-            "Drug choice depends on susceptibility and tolerance; at least 3 active drugs throughout",
+            "Drug choice depends on susceptibility and tolerance; MDR-TB regimens need at least 4 drugs certain to be effective",
             "Full course with directly observed daily dosing is essential"
           ]
         }

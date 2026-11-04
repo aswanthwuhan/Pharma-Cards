@@ -147,3 +147,16 @@ Checked rf-p2-herbal-0368 to 0381 against sources. Verified: 0368-0372, 0374-038
 | id | ok / corrected / deleted | source |
 |---|---|---|
 | rf-p2-herbal-0372 | corrected (phosphatidylcholine helps in humans; nanoparticles only rodents) | Katzung16 PDF p1227 |
+
+## Recheck (all new cards, chunk 1/1)
+Checked rf-p2-herbal-0368 to 0381 against Katzung16 ch65 (p1226-1227), Padmaja PDF p754, Sarkar p11-15, Ghosh FEP PDF p149-150, Bennett PDF p152. No cards deleted. No UNSOURCED or WEB refs in this chunk.
+
+| id | ok / corrected / deleted | reason and source |
+|---|---|---|
+| rf-p2-herbal-0368 to 0371 | ok | Katzung16 ch65 (p1227) |
+| rf-p2-herbal-0372 | corrected | "Nanoparticles only tested in rodents" changed to "not yet well studied in humans" (Katzung16 p1227) |
+| rf-p2-herbal-0373 | ok | Katzung16 p1228 |
+| rf-p2-herbal-0374 | ok | Padmaja PDF p754 |
+| rf-p2-herbal-0375 to 0378 | ok | Sarkar p11-15 (table); Padmaja PDF p754 |
+| rf-p2-herbal-0379 to 0380 | ok | Ghosh FEP PDF p150 |
+| rf-p2-herbal-0381 | ok | Bennett PDF p152 |

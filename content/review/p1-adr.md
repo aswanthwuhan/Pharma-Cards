@@ -152,3 +152,24 @@ Not written (no owner-book source, or off-topic):
 - Q244 (Q bank, year unknown, no pyq tag): drug dependence covered by p1-adr-016, p1-adr-061 to 066; post-marketing surveillance covered by p1-adr-027 and p1-adr-046. "Safety factor", "flame photometry", "pA2", "acute toxicity study" belong to other topics. Not added here.
 - Q265 (Q bank, year unknown, no pyq tag): new p1-adr-093 (drug-induced insomnia list, KDT8 only).
 - Validator: clean.
+
+## Recheck (all new cards, chunk 1/2)
+Scope: 64 study cards in chunk 1 of 2 (ids p1-adr-030 to p1-adr-093, from .tmp/recheck.json). Checked against KDT8 ch5 and ch6 text, GG14 ch8 and ch9 text, Katzung16 PDF p1281, and search.py hits for KDT8 PDF pages (p109, p455, p485, p802, p829, p832, p833, p843, p848, p928, p947).
+Result: 64 checked, 9 corrected, 1 deleted, 0 unverifiable (no UNSOURCED or WEB refs in this chunk).
+
+Corrected:
+- p1-adr-042: VigiFlow and VigiBase are not in any owner book; removed. Kept 2010, CDSCO and IPC Ghaziabad (Katzung16 PDF p1281) and Uppsala (KDT8 ch6). Refs now Katzung16 PDF p1281 and KDT8 ch6.
+- p1-adr-045: the FDA Sentinel example (olmesartan, sprue-like enteropathy) and the disproportionality sentence are not in GG14 ch8; removed. "Unmeasured confounding" reworded to the costly data access and confounding GG14 ch8 states.
+- p1-adr-049: memory-aid sentence is not from a book; removed.
+- p1-adr-072: alkalinisation first-line recommendation is the American Academy of Clinical Toxicologists' (GG14 PDF p185), not GG14 ch2; refs fixed to GG14 ch9 (chapter header on PDF p175/p185).
+- p1-adr-073: charcoal is not given after 2 hours (KDT8 ch6), not "less useful"; refs fixed to GG14 ch9.
+- p1-adr-082: basic card had no why; added the most-serious-toxicity point (KDT8 PDF p928).
+- p1-adr-087: basic card had no why; added the pyridoxine mechanism (KDT8 PDF p829).
+- p1-adr-091: removed the "Analogues" section (a statement about the books, not a fact); ENL bullet changed from "alternative to prednisolone" to the book's anti-inflammatory use (KDT8 PDF p848).
+- p1-adr-093: basic card had no why; added the theophylline, selegiline and amisulpride reasons (KDT8 PDF p258, p472, p483).
+
+Deleted:
+- p1-adr-084: duplicate of the clozapine bullet already in p1-adr-083 (KDT8 PDF p485 kept as the source for p1-adr-083). Subtopic minimums still met (poisoning subtopic L1 6 to 5).
+
+Checked and kept without change: 030-041, 043-044, 046-048, 050-071, 074-081, 083, 085-086, 088-090, 092. Facts in the key checks (1-in-40,000 chloramphenicol; carbamazepine ER; isoniazid pyridoxine; agranulocytosis drugs; PLLR 2015; FAERS 2 million; Sentinel 100 million; 94% underreporting; 467 median trial size) confirmed in the owner books.
+Validator: clean (node scripts/validate-content.mjs --check).

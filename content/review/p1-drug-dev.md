@@ -148,3 +148,25 @@ Checker (PYQ gap pass, 2026-11-03): checked 073-077 against KDT8 ch5 PDF p102, K
 - 075: "patch and intradermal tests not fully reliable" reworded to Bennett's text (patch testing useful for contact dermatitis, unreliable for other allergies).
 - 074, 076, 077: ok. 074 duration and GLP points match KDT8 ch5 duration note and Bennett; Medhi p133 supports the dose and observation points.
 Validator: check ok. Ladder minimums met. No Prep/RR5 refs.
+
+## Recheck (all new cards, chunk 1/1)
+Checked every id in chunk 1/1 (49 study cards 029-077, 48 rapid cards rf-0346 to rf-0397) against the cited source: KDT8 ch5 and ch2/ch19 text, KDT8 PDF p94/p113/p295/p294/p315/p449, GG14 PDF p33/p159/p166-167/p70-71, Bennett p49-50, Medhi PMECP p116/p133, Ghosh FEP p182.
+Corrected (study deck):
+| id | reason |
+|---|---|
+| p1-drug-dev-038 | Helsinki Declaration not in KDT8 ch5; added KDT8 PDF p107 (printed there) |
+| p1-drug-dev-045 | example "antibiotics for viral fever" not printed; replaced with the printed ineffective-drug example (cough mixtures, antioxidants) |
+| p1-drug-dev-046 | "infant doses must be learned, not derived by formula" is printed in KDT8 PDF p91 (ch2); added KDT8 ch2 ref |
+| p1-drug-dev-048 | rectal diazepam for febrile seizures under 5 years is printed in KDT8 PDF p91 (ch2); added KDT8 ch2 ref |
+| p1-drug-dev-050 | "favour short half-life drugs" not in the book; removed |
+| p1-drug-dev-053 | "frequencies differ between ethnic groups" not in the book; removed |
+| p1-drug-dev-057 | NUDT15 is in GG14 PDF p157 (ch7), added ref; "commoner in East Asians" and "ultrarapid metaboliser risks overdose" not in the books, removed |
+| p1-drug-dev-074 | refs pointed to Bennett p33-34 (prescribing text); toxicity duration and carcinogenicity text is Bennett p49-50 |
+| p1-drug-dev-075 | refs Bennett p34 changed to p50 (local tolerance); "patch testing unreliable for other allergies" not in Ghosh p182, reworded to what Ghosh prints; Medhi p133 ref dropped (not used by this card) |
+Corrected (rapid deck, refs only): rf-p1-drug-dev-0380, 0381, 0386, 0387, 0390: Bennett pages changed to p49-50 (toxicity duration table, species, genotoxicity battery, carcinogenicity, local tolerance).
+Rapid rf-0377 nitrofurantoin confirmed (KDT8 ch5 G-6PD list). Study 062 (placebo) confirmed: "sleep on the first night" is in KDT8 PDF p94, no change.
+Deleted: none. No card was ungroundable; every fact left is printed in a cited owner book.
+Unverifiable (UNSOURCED or WEB refs in chunk 1/1): none.
+Level ladder: every study card has level 1-3; no subtopic count changed.
+Duplicates: 066, 070, 071 and rf-0379 cover surrogate and biomarker definitions from different angles (basic L1, shortnote L2, rapid); kept all, since each tests a different question. 043, 045 and 068 overlap on rational prescribing at different depths; kept.
+Ids kept stable.

@@ -59,3 +59,16 @@ Still open (not re-read in full): GG14 ch7 table row UGT1A1 beyond atazanavir/ir
 - Each pair checked against the GG14 ch7 and KDT8 ch2 passages cited in content/review/p4-pharmacogenomics.md (ids 045-052).
 - Skipped duplicates: ABCB1 synonymous variant (already rf card), CYP3A5*3 splice defect (already rf 0025), promoter test method (already rf card).
 - Validator: check ok.
+
+## Recheck (all new cards, chunk 1/1)
+- Checked rf 0139-0151 against the same GG14 ch7 / ch3 / ch4 and KDT8 ch2 / ch5 passages.
+- Corrected 0151: refs changed to GG14 ch4 (BCRP p.Gln141Lys is in the membrane transporters chapter, PDF p116).
+- Verified ok: 0139-0150 (class lists 0143-0144 match GG14 ch7 exactly; 0142 10-fold from GG14 ch3).
+- Deleted: none. Unverifiable: none.
+- Validator: check ok.
+
+## Recheck (all new cards, chunk 1/1), re-run
+- Checked rf 0139-0151 against GG14 ch7 (PDF p151-163), GG14 ch3 (PDF p71), GG14 ch4 (PDF p116), KDT8 ch2 (PDF p36) and KDT8 ch5 (PDF p93).
+- Verified ok, no change: 0139-0151. Class lists 0143-0144 match GG14 ch7 Table 7-2; 0142 is the 10-fold statement in GG14 ch3; 0141 X-linked is in KDT8 p93.
+- Deleted: none. Unverifiable: none.
+- Validator: node scripts/validate-content.mjs --check reports check ok.

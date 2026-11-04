@@ -72,3 +72,39 @@ Deleted: none. Validator check ok.
 rf-p4-rational-use-0241 to rf-p4-rational-use-0247 (7 pairs) cover the therapeutic jungle concept, me-too drugs, multiple prescribing, the five forms of irrational prescribing (Sarkar p56-60), market size and regulation (Sarkar p56-60), costs of me-too drugs (GG14 ch1) and Jan Aushadhi (Sarkar p46-50). The term "therapeutic jungle" itself is not printed in the owner books; pair 0241 describes it from Sarkar p56-60 and GG14 ch1. Validator check ok. Prep / RR5 refs: none.
 
 Checker pass (2026-11-03): rf-p4-rational-use-0245 reworded. "Main market factor" overstated Sarkar p56-60 (large drug number and ineffective regulation are both listed as causes). Q now asks for two factors. Validator check ok.
+
+## Recheck (all new cards, chunk 1/2), 2026-11-04
+Scope: 70 rf ids in chunk 1 checked against KDT8 ch1, ch3, ch5, ch11; Katzung16 ch64; GG14 ch1, ch14; Padmaja PDF p89, p98, p99, p100; Satoskar PDF p126; Medhi PMECP PDF p358-360; Sarkar p31-35, p56-60 (OCR).
+
+| id | result | reason |
+|---|---|---|
+| rf-p4-rational-use-0196 | deleted | Duplicate of 0167 with a conflicting figure (50-60 here, 40-60 in Padmaja p98); kept 0167 |
+| rf-p4-rational-use-0228 | corrected | "OTC decongestant withdrawn, haemorrhagic stroke" is not in Katzung16 ch64. Reworded to the anorectic drug discontinued in the US (phenylpropanolamine, mazindol, phenmetrazine), GG14 p287 = ch14. Refs changed to GG14 ch14 |
+
+All other chunk 1 rapid ids (0166-0235 range) checked and confirmed; no other changes.
+Unverifiable (UNSOURCED or WEB): none in chunk 1.
+Validator: node scripts/validate-content.mjs --check ok.
+
+## Recheck (all new cards, chunk 2/2), 2026-11-04
+
+Scope: 12 rf ids 0236-0247 (all in the rapid file; no study ids in this chunk). Checked against Sarkar OCR p31-35 (SFFC medicines, IMPACT 2006, mPedigree 2007, DTAB 2018), p46-50 (Jan Aushadhi 2008), p56-60 (types and causes of irrational prescribing) and GG14 ch1 (PDF p37-38 me-too drugs; PDF p40 costs).
+
+| id | result | reason |
+|---|---|---|
+| rf-p4-rational-use-0236 | ok | Forensic markers, cloud supply-chain data, blockchain: Sarkar p31-35 |
+| rf-p4-rational-use-0237 | ok | 2018 DTAB unique code plus SMS, voluntary: Sarkar p31-35 |
+| rf-p4-rational-use-0238 | ok | IMPACT, WHO Feb 2006: Sarkar p31-35 |
+| rf-p4-rational-use-0239 | ok | mPedigree, Ghana 2007: Sarkar p31-35 |
+| rf-p4-rational-use-0240 | ok | Inert or adulterated antibiotics do not cure infection: Sarkar p31-35 |
+| rf-p4-rational-use-0241 | corrected | "Therapeutic jungle" is not printed in any owner book. Answer changed to "Crowded drug market" (same fix as study cards 079, 080, 082). Refs kept |
+| rf-p4-rational-use-0242 | corrected | Question said "copy ... little added benefit"; GG14 ch1 says "usually structurally similar" and that benefit is sometimes absent. Question reworded to the book wording |
+| rf-p4-rational-use-0243 | ok | Two or more medicines for the same effect: Sarkar p56-60 |
+| rf-p4-rational-use-0244 | ok | Five forms of irrational prescribing, in the book's order: Sarkar p56-60 |
+| rf-p4-rational-use-0245 | ok | Large number of drugs and ineffective regulation: Sarkar p56-60 |
+| rf-p4-rational-use-0246 | ok | Costlier me-too drugs raise costs without benefit: GG14 ch1 (PDF p38) |
+| rf-p4-rational-use-0247 | ok | Jan Aushadhi, 2008, unbranded quality medicines: Sarkar p46-50 |
+
+Deleted: none. No level field in rapid cards (not applicable). Duplicates: none in chunk 2.
+Study deck (outside this chunk, same term): the essay p4-rational-use essay "Crowded drug market (many me-too drugs)" still had "Define the therapeutic jungle" in its Introduction; reworded to "Define the crowded drug market". Owner may want the essay checked against chunk 1 log.
+Unverifiable (UNSOURCED or WEB): none in chunk 2.
+Validator: node scripts/validate-content.mjs --check ok (no errors).

@@ -139,3 +139,57 @@ Validator (--check): clean.
 | rf-p4-biologics-0103 | corrected | teplizumab removed from transplant depleting agents |
 | rf-p4-biologics-0104 | deleted | "about 25% of FDA new drugs are biologics" not found in GG14 ch1 |
 | rf-p4-biologics-0108 | deleted | preclinical toxicity goals not found in Katzung ch1 passage checked |
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked against owner books with search.py and chapter headers. No UNSOURCED or WEB refs in this chunk.
+
+| id | status | reason / source |
+|---|---|---|
+| rf-p4-biologics-0015 | corrected | answer -momab (mouse), GG14 ch38 |
+| rf-p4-biologics-0016 | corrected | refs GG14 ch38 |
+| rf-p4-biologics-0017 | corrected | refs GG14 ch38 |
+| rf-p4-biologics-0018 | corrected | refs GG14 ch38 |
+| rf-p4-biologics-0029 | deleted | C5b-C9 membrane attack claim not found in owner books checked |
+| rf-p4-biologics-0032 | deleted | brentuximab neutropenia/neuropathy not found in owner books checked |
+| rf-p4-biologics-0037 | deleted | belantamab ocular toxicity not found in owner books |
+| rf-p4-biologics-0041 | corrected | corticosteroid option removed; tocilizumab only (GG14 p1448) |
+| rf-p4-biologics-0043 | corrected | corticosteroid premed removed (GG14 p1445) |
+| rf-p4-biologics-0047 | deleted | necitumumab hypomagnesaemia not found in owner books |
+| rf-p4-biologics-0048 | deleted | HAMA not found in owner books checked |
+| rf-p4-biologics-0051 | corrected | "interchangeable" and Semglee removed; Basaglar and Rezvoglar (Katzung16 p807) |
+| rf-p4-biologics-0052 | deleted | duplicate of 0051 after correction |
+| rf-p4-biologics-0053 | deleted | RNase H antisense mechanism not found in owner books |
+| rf-p4-biologics-0055 | corrected | refs GG14 ch37 (p759, inclisiran siRNA) |
+| rf-p4-biologics-0058 | deleted | CAR-T cyclophosphamide pretreatment not found in owner books |
+| rf-p4-biologics-0061 | deleted | IGIV replacement for CAR-T hypogammaglobulinaemia not found |
+| rf-p4-biologics-0063 | deleted | adenovirus vector properties not found in owner books checked |
+| rf-p4-biologics-0064 | deleted | duplicate of 0042 (tocilizumab) |
+| rf-p4-biologics-0068 | deleted | duplicate of 0019 (FcRn) |
+| rf-p4-biologics-0069 | deleted | duplicate of 0026 (blinatumomab) |
+| rf-p4-biologics-0075 | corrected | molgramostim removed (not in owner books; KDT8 p947 describes G-CSF); kind fact |
+| rf-p4-biologics-0079 | deleted | sargramostim infusion-reaction list not found |
+| rf-p4-biologics-0080 | deleted | molgramostim dosing: KDT8 p947 text is G-CSF, not GM-CSF |
+| rf-p4-biologics-0081 | deleted | alveolar proteinosis indication not found in owner books |
+| rf-p4-biologics-0085 | deleted | denileukin diftitox components not found in owner books |
+| rf-p4-biologics-0086 | deleted | denileukin CTCL indication not found in owner books |
+| rf-p4-biologics-0087 | corrected | tagraxofusp removed (not found); answer denileukin diftitox; kind fact |
+| rf-p4-biologics-0091 | deleted | botulinum spread-paralysis risk not found in owner books checked |
+| rf-p4-biologics-0092 | deleted | "nonequivalent preparations" not found in owner books checked |
+| rf-p4-biologics-0093 | deleted | axillary hyperhidrosis indication not found in owner books checked |
+
+## Recheck (all new cards, chunk 2/2)
+
+Checked against owner books with search.py, chapter headings and KDT8 ch65 text. No UNSOURCED or WEB refs in this chunk. No duplicates found in this chunk.
+
+| id | status | reason / source |
+|---|---|---|
+| rf-p4-biologics-0098 | corrected | refs added GG14 ch39 (p798: anti-CD3 targets the TCR CD3 chain); answer unchanged; KDT8 ch65 p955 |
+| rf-p4-biologics-0099 | ok | muromonab-CD3 discontinued in U.S., GG14 ch39 p790 |
+| rf-p4-biologics-0100 | corrected | q reworded to what the books support (idiotype, Fab arm); refs add Satoskar PDF p1610-1612; GG12 ch35 p1042 |
+| rf-p4-biologics-0101 | corrected | q reworded: "repeat use" is not in the book; GG12 p1042 says anti-CD3 therapy may be limited by anti-idiotypic or antimurine antibodies in the recipient; GG12 ch35 p1042 |
+| rf-p4-biologics-0102 | ok | rebound rejection after stopping muromonab-CD3, GG12 ch35 p1042 |
+| rf-p4-biologics-0103 | corrected | answer incomplete: GG14 p790 lists lymphocyte immune globulin, ATG and muromonab-CD3 as depleting induction agents; added lymphocyte immune globulin. Same paragraph also lists teplizumab (FDA breakthrough 2019); left out of the answer, owner to decide |
+| rf-p4-biologics-0105 | ok | Biologics Price Competition and Innovation Act, 2010 (ACA), GG14 ch1 p36 |
+| rf-p4-biologics-0106 | ok | occupational toxicology definition, GG14 ch76 p1526 |
+| rf-p4-biologics-0107 | ok | lead smelter and storage battery workers at greatest risk, GG14 ch76 p1533 |

@@ -194,3 +194,28 @@ PYQs: UHSR 2025 Paper I, 10 marks, "Write the pharmacological concerns ... falls
 | p1-special-populations-107 | new (L2) | KDT8 ch5 |
 
 Checker (PYQ gap pass): verified 094-107 against KDT8 p90-92, p111 and GG14 p367, p375-394, p475. Fixed 104 ("analgesia lasts longer" to "increases progressively with age", per GG14 p475). No deletions. Levels and ladder minimums met. Validator clean. Open: 099-107 sit under pregnancy-pk/other-disease because no gender subtopic exists.
+
+## Recheck (all new cards, chunk 1/1)
+Scope: the 35 study cards in chunk 1/1 of `.tmp/recheck.json` (since v0.5.5). Each was checked against the cited owner source (KDT8 ch5/ch6/ch10 via pdftotext and search.py, Katzung16 ch59/ch60, GG14 ch18/19/23, Sarkar p71-75 OCR). The 46 `rf-` ids in the same chunk are logged in `rapid-p1-special-populations.md`.
+
+Corrected (10):
+- 073 (shortnote, paediatric): rectal absorption is slower in general (KDT8 PDF p29) but fast and predictable in infants (KDT8 PDF p91). Text now states both; added p91 ref.
+- 075 (basic): removed "as it leaves, more drug converts to that form". Katzung16 ch59 p1124 does not say this.
+- 076 (essay): "any drug crosses" replaced with Katzung16 ch59 p1124 wording (not an absolute barrier; polar compounds cross in measurable amounts).
+- 083 (basic): removed the reason "neuromuscular reserve already reduced" (not in KDT8 ch5). Kept the fact; added quinine aggravation (KDT8 ch5).
+- 088 (essay): removed "halving or doubling; narrow-index drugs need more care" (not in KDT8 ch5 or Katzung16 ch60).
+- 091 (basic): Katzung16 ch59 Table 59-4 gives digoxin 60-70 h (neonates) vs 30-60 h (adults) with no 0-5 day band. Removed "at 0-5 days". The book says toddlers, not older children, clear digoxin faster.
+- 094 (basic): "poor vasomotor tone" not in sources. Rewritten from Katzung16 ch60 p1138 (blunted homeostatic responses; symptomatic orthostatic hypotension rises). Refs changed from GG14 ch19 to Katzung16 ch60, KDT8 ch6.
+- 095 (basic): "main side effect" and "reducing the dose usually relieves it" not printed. Replaced with KDT8 PDF p171 (first-dose effect, minimised by low dose at bedtime) and p623 (first dose and dose increments).
+- 098 (shortnote, elderly falls): same unsupported "reduce the dose relieves it" line replaced with first-dose and dose-increment wording (KDT8 PDF p171, p623). Added the benzodiazepine/barbiturate half-life line from 087 (Katzung16 ch60 p1138) so no unique fact was lost on deletion; added Katzung16 ch60 ref.
+- 104 (basic): GG14 ch23 (PDF p475) says the duration of morphine analgesia increases with age, not the degree at a given dose. Corrected.
+
+Deleted (1):
+- 087 (shortnote, "Pharmacological concerns in the elderly, including drugs that raise fall risk"): duplicate of 098 (same topic and pyq; 098 has more refs). Its unique fact moved into 098 (see above). Elderly subtopic still meets the ladder minimums (L1 7, L2 6, L3 3 across the subtopic).
+
+Verified, no change (24 study cards): 074, 077, 078, 079, 080, 081, 082, 084, 085, 086, 089, 090, 092, 093, 096, 097, 099, 100, 101, 102, 103, 105, 106, 107. Cards 073, 076, 088, 094 and 098 were corrected in part only (see above).
+
+Source conflict (kept, owner to note): 080 says lithium milk concentration equals maternal serum (Katzung16 ch59 p1132). Katzung16 ch29 p569 says about one third to one half. The ch59 wording is kept because it is the cited chapter. Same conflict affects rapid 0309.
+
+Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk).
+Validator: `node scripts/validate-content.mjs --check` clean after edits.

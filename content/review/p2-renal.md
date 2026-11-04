@@ -115,3 +115,21 @@ Not checked: ethacrynic acid is named in KDT8 only as history (no loop-class ent
 | p2-renal-098 | new (L3 essay, 10 marks, pyq Q bank year 0) | KDT8 ch42 (uses: edema vs hypertension, DI, hypercalciuria, hypercalcaemia, raised ICP/IOP, acetazolamide, mannitol) |
 
 Checker (PYQ gap pass), 2026-11-03: checked p2-renal-097, 098 against KDT8 ch42 (PDF p629-636) and rf-p2-renal-0410 to 0418. Corrected: 091 (TAL wording now matches book; "medullary gradient" removed), 092 (carbonic anhydrase claim not in book; replaced with metolazone PO4 action), 098 (removed "given first" for mannitol, book says furosemide "may be combined"), rf-0412 (book says furosemide "added after volume replacement", not "diuretic of choice"; question reworded). Deleted: none. Level ladder and validator: ok. Prep/RR5/Sarkar refs: none.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 2026-11-04 against KDT8 ch42 and ch43 (pdftotext of the chapter PDFs). Rapid ids (rf-p2-renal-0392 to 0418) are in rapid-p2-renal.md.
+
+| id | status | source |
+|---|---|---|
+| p2-renal-049, 050, 051, 052, 053, 054, 055, 056, 057, 058, 059, 060 | ok | KDT8 ch42 |
+| p2-renal-061, 062, 063, 064, 065, 066, 067 | ok (K+-sparing section checked) | KDT8 ch42 |
+| p2-renal-068, 069, 070, 071, 072, 073, 074 | ok (CA inhibitor and mannitol sections checked) | KDT8 ch42 |
+| p2-renal-075 to 087 | ok | KDT8 ch43 |
+| p2-renal-088, 089, 090, 091, 092, 093, 097, 098 | ok | KDT8 ch42 |
+| p2-renal-094 | corrected refs: added RangDale9 PDF p393 for "large volumes of dilute urine" (not printed in KDT8 ch43); text unchanged | KDT8 ch43, RangDale9 PDF p393 |
+| p2-renal-095, 096 | ok | KDT8 ch42, ch43 |
+
+Deleted: none. Corrected facts: none (text unchanged apart from the ref above). Unverifiable (UNSOURCED or WEB refs): none in this chunk.
+Cross-format overlap kept on purpose: 049 vs rf-0392, 070 vs rf-0396/0397, 095 vs rf-0408/0418 (study cards and rapid pairs cover the same facts in different formats).
+Fixes: none needed for missing level (all study cards have level) or for basic "why" backs (every basic whose front asks why or how answers it).
+Level ladder: every subtopic has >=3 L1, >=2 L2, >=1 L3. Validator: check ok.

@@ -164,3 +164,29 @@ Unsourced cards in this pass: none. Noted: vitiligo Q bank entry has no year, so
 - p3-misc-095 corrected: removed "calcipotriene used off label" for vitiligo. No owner book supports it (GG14 ch75 lists calcipotriene for psoriasis only).
 - Verified: Thai regimen days 0, 3, 7, 28, 90 (KDT8 ch70); HRIG 20 IU/kg day 0 (KDT8 ch70); monobenzone 20% (KDT8 ch66, GG14 ch75); methoxsalen 1% lotion (GG14 ch75); azathioprine for vitiligo (KDT8 ch66).
 - Validator --check clean. Levels and ladder minimums met in all 5 subtopics.
+
+## Recheck (all new cards, chunk 1/1)
+
+Study cards in chunk: 30. Checked against KDT8 ch66-70 and GG14 ch40/ch75. Result: 21 ok, 8 corrected, 1 deleted.
+
+| id | status | source / note |
+|---|---|---|
+| p3-misc-068 | corrected | refs were GG14 page numbers; now `GG14 ch40` (chapter "Immune globulins and vaccines"). Zoster 2 doses at 50+, AS01B, Hib and HBV facts confirmed there. |
+| p3-misc-074 | deleted | exact duplicate of p3-misc-089 (rabies immunoglobulin in category III bites); 089 kept as it teaches the why. |
+| p3-misc-079 | corrected | removed "does not kill spores" (not stated in KDT8 ch67). |
+| p3-misc-080 | corrected | removed "both release free iodine" (not stated in KDT8 ch67). |
+| p3-misc-081 | corrected | removed "resistance very rare" for permethrin (not stated); lindane wording now matches KDT8 ch67 (less favoured, resistance reported). |
+| p3-misc-082 | corrected | wrong: dimercaprol is not a lead drug. KDT8 ch68 lists As, Hg, Au, Bi, Ni, Sb; lead is treated mainly with CaNa2EDTA. Front and back rewritten. |
+| p3-misc-090 | corrected | removed "equine used only when human RIG unavailable" (not in KDT8 ch70); now HRIG 20 IU/kg vs ARS 40 IU/kg (KDT8 ch70). |
+| p3-misc-094 | corrected | removed "immunosuppressive and anti-inflammatory" (not in KDT8 ch66 or GG14 ch75 PUVA text). |
+| p3-misc-095 | corrected | removed the "azathioprine plus topical steroid restores pigmentation" section and the topical steroid adjunct. Neither is in KDT8 ch66 nor GG14 ch75; GG14 mentions azathioprine only as a steroid-sparing agent. This also corrects the earlier note that said azathioprine for vitiligo was verified in KDT8 ch66: it is not there. |
+| p3-misc-072, 069, 075, 076, 077, 078, 083-089, 091-093, 096, 097 | ok | checked as stated; facts confirmed in source (see chapter per card). |
+
+Other checks:
+- Levels and minimums met in all five subtopics (skin 11/7/4, antiseptics 7/8/3, chelators 7/6/3, vitamins 6/13/2, vaccines 7/8/4 for L1/L2/L3).
+- Validator `node scripts/validate-content.mjs --check` clean.
+- No Prep or RR5 refs in this chunk.
+
+## Recheck (rapid cards, chunk 1/1)
+
+See `content/review/rapid-p3-misc.md` "Recheck (all new cards, chunk 1/1)": 84 rapid cards checked, 71 ok, 12 corrected, 1 deleted (rf-p3-misc-0566).

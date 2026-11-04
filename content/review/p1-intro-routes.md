@@ -82,3 +82,41 @@ Checked 30+ cards against KDT8 ch1 text (and KDT8 PDF p25, GG14 PDF p46, Satoska
 - Verified ~25 cards vs KDT8 ch1 text (definitions, MW range, WHO/NLEM figures, orphan, rectal 50%, TTS, particle size, dermojet/implants, IV/IM/SC, dosage forms) and GG14 PDF p46 (sublingual to SVC). All ok, no corrections.
 - No Prep/RR5 refs. Ladder OK in all 7 subtopics (>=3 L1, 2 L2, 1 L3).
 - Added: 048 (intradermal, L1), 049 (nasal route, L1) - KDT8 ch1.
+
+## Recheck (all new cards, chunk 1/1)
+
+Checked 23 deck cards (027-049) against KDT8 ch1 and cited PDFs; 5 Rapid Fire cards (rf-0239, 0240, 0243, 0244, 0245) checked against KDT8 ch1 (all ok, no change).
+
+| id | status | source |
+|---|---|---|
+| p1-intro-routes-027 | ok | KDT8 ch1 |
+| p1-intro-routes-028 | ok | KDT8 ch1 |
+| p1-intro-routes-029 | ok | KDT8 ch1 |
+| p1-intro-routes-030 | ok | KDT8 ch1 |
+| p1-intro-routes-031 | ok | KDT8 ch1 |
+| p1-intro-routes-032 | ok | KDT8 ch1 |
+| p1-intro-routes-033 | ok | KDT8 ch1 |
+| p1-intro-routes-034 | ok | KDT8 ch1 |
+| p1-intro-routes-035 | ok | KDT8 ch1 |
+| p1-intro-routes-036 | ok | KDT8 ch1 |
+| p1-intro-routes-037 | ok | KDT8 ch1; GG14 PDF p46 |
+| p1-intro-routes-038 | ok | KDT8 ch1 |
+| p1-intro-routes-039 | ok | KDT8 ch1 |
+| p1-intro-routes-040 | ok | KDT8 ch1 |
+| p1-intro-routes-041 | corrected | KDT8 ch1 |
+| p1-intro-routes-042 | corrected (ref added) | KDT8 ch1; KDT8 PDF p266 |
+| p1-intro-routes-043 | ok | KDT8 ch1; KDT8 PDF p25 |
+| p1-intro-routes-044 | corrected | KDT8 ch1 |
+| p1-intro-routes-045 | corrected (why added) | KDT8 ch1 |
+| p1-intro-routes-046 | ok | KDT8 ch1 |
+| p1-intro-routes-047 | ok | KDT8 ch1 |
+| p1-intro-routes-048 | ok | KDT8 ch1 |
+| p1-intro-routes-049 | ok | KDT8 ch1 |
+
+Corrections:
+- 041: back said non-volatile aerosols always act locally. KDT8 ch1 gives only volatile/gas drugs as systemic and bronchodilator aerosols as local. Reworded to that.
+- 042: the chapter OCR prints the particle size as "mm". The full KDT8 PDF (p266) prints 1-5 um; card keeps um and cites p266.
+- 044: back listed factors (solubility, age, onset) that no book states as a dosage-form list. Replaced with the points KDT8 ch1 does print (palatability, drops for infants, dry syrups, controlled-release tablets).
+- 045: added a short why (formularies serve prescribers).
+
+Deleted: none. Levels unchanged, so each subtopic still meets the 3 L1 / 2 L2 / 1 L3 mix.

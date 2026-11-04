@@ -184,3 +184,20 @@ p2-arrhythmia-angina-htn-129 | new (L3 essay, normal EP and drug link; pyq RGUHS
 p2-arrhythmia-angina-htn-117 | pyq tag added (RGUHS 2009 Oct, 20 marks, methods of evaluation of antihypertensives) | KDT8 ch41; Medhi PMECP p223, p230
 
 PYQ gap check (2026-11-03): Q 157 (comorbidity) covered by 120 (essay) and 117 n/a; Q 230 (evaluation methods) covered by 112, 113, 117; Q 120 digoxin covered by 107, 108, 116; cerebroactive/Alzheimer part covered in p2-cholinergic, so no card here. Deleted: none. Validator --check: ok.
+
+## Recheck (all new cards, chunk 1/1)
+
+Checked against KDT8 ch39-42, GG14 ch33-34, Satoskar, Medhi PMECP and Bennett & Brown (search.py pages). Cards checked: 56 study, 60 rapid. Unverifiable (UNSOURCED or WEB refs): 0.
+
+Study cards (`content/decks/p2-arrhythmia-angina-htn.json`):
+- Corrected wording, facts kept: 089 (added why), 090 (removed inferred infusion claim), 091 (dipyridamole potentiates adenosine, not dose reduction), 092 (removed use-dependence claim not in source), 094 (removed nicardipine half-life, 3-4 h duration and trial claim; not printed in KDT8), 107 (added why; GG14 ch2 added), 108 (added why: narrow therapeutic index), 110 (added why: KATP and NO action).
+- Ref format fixed (KDT8 p521-523 to KDT8 ch39; text checked on KDT8 pp521-523): 121, 122, 123, 124, 125, 126, 127, 128, 129.
+- Deleted: 109 (duplicate of 085).
+
+Rapid cards (`content/rapid/p2-arrhythmia-angina-htn.json`):
+- Corrected: 0694 (answer trimmed to trimetazidine; ranolazine removed; kind set to fact), 0696 (replaced "pFOX inhibitor" label with the LC3-KAT mechanism from KDT8 ch40).
+- Ref format fixed (KDT8 p521-523 to KDT8 ch39): 0725-0741.
+- Deleted: 0713 (duplicate of 0681).
+
+Checked and kept as is: all other chunk cards (study 074-088, 093, 095-106, 111-120, 112-117; rapid 0679-0693, 0699-0724, 0737-0741 content).
+Validator --check: ok.

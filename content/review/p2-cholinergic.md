@@ -181,3 +181,36 @@ No existing card covered: malathion-specific poisoning, the general autonomic-tr
 Not written (no owner-book source, skipped): "recent advances" in MG pharmacotherapy (Q 42). No MG-specific newer-therapy content found in the allowed PDFs (searched for FcRn, complement and similar agents). Owner to supply a source if wanted.
 
 Pyq: Q 415 malathion Q bank entry has no year, so no pyq tag added (omitted per rule). Q 415 ACh part: existing p2-cholinergic-020 (pyq UHSR 2025).
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked 59 study cards and 61 Rapid Fire cards added since v0.5.5 (chunk 1 of 2 from `.tmp/recheck.json`). Read against GG14 (ch10–12, ch21), KDT8 ch6–8, ch25, ch32, ch35, Katzung16 p143. Ok without change: 40 study cards. Corrected: 18. Deleted: 1. Unverifiable (UNSOURCED or WEB): 0. Each subtopic still meets the minimums (3 L1, 2 L2, 1 L3).
+
+Corrected (study):
+- 058: refs narrowed to GG14 p232–233.
+- 059: GG14 p237 added (glycopyrrolate or atropine for neostigmine muscarinic effects).
+- 064: back dropped "last longer" for carbachol and bethanechol; book says they resist hydrolysis, and the renal-elimination reason is kept.
+- 069: KDT8 ch8 added (darifenacin t½ 13–19 h; solifenacin once daily).
+- 070: "brief and widespread" reduced to what GG14 p231 and KDT8 ch7 state (rarely systemic; cholinesterase hydrolysis).
+- 071: KDT8 ch35 added for the AD tie-in.
+- 072: front reworded; "chosen over ACh" was not stated in the books. Back now gives the stated difference (longer action, muscarinic-predominant).
+- 074: back gives the source reason (accumulated ACh slows heart, lowers cardiac output; GG14 p246); "because muscarinic action" was not in the books.
+- 093: tacrine ALT/hepatotoxicity cited to GG14 ch12 (p250); ch21 was wrong.
+- 096: "use with caution in bradycardia or syncope" replaced by GG14 p444 (GI main dose-limiting; bradycardia/syncope less common).
+- 098: BuChE described as the book does (second nonspecific enzyme); GG14 p439 added for atropine-induced confusion.
+- 099: aducanumab "clears plaques" changed to "reduces plaques; efficacy uncertain" (GG14 p440); "caution with bradycardia" replaced as for 096.
+- 100: definition extended with the colic-pain reason (KDT8 p144–146); GG14 ch13 changed to ch11 (dicyclomine and glycopyrrolate are in ch11, p236).
+- 102: GG14 ch13 changed to ch11 (p236, p238).
+- 105: "focal spasms" cited to GG14 p256 (blepharospasm, strabismus); release mechanism stays KDT8 ch7 (p126).
+- 109: GG14 ch13 changed to ch11; botulinum refs added; mephenesin "obsolete" changed to "not used clinically" (KDT8 ch25 p397).
+- 111: KDT8 ch7 added for the general organophosphate management.
+- 112: cotransmitter time courses cited to KDT8 ch6 (p125); "peptide, so no active reuptake" removed (not printed).
+
+Corrected (Rapid Fire):
+- rf-p2-cholinergic-0361: ref corrected from GG14 p235 to GG14 p233 (ipratropium, tiotropium, aclidinium, umeclidinium listed for respiratory use).
+
+Deleted:
+- p2-cholinergic-054: duplicate of 058 (same fact). Its "why preferred for COPD" rationale is not in the books; 058 keeps the grounded version.
+- rf-p2-cholinergic-0362: duplicate of rf-p2-cholinergic-0417 (aclidinium hydrolysed in plasma; GG14 p233).
+
+Not carded (checked, no owner-book support): none.

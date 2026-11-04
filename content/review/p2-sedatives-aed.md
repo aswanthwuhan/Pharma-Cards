@@ -154,3 +154,32 @@ Excluded: none. No Prep/RR5 refs. Ladder: benzodiazepine-pharmacology now has L1
 | 118 | corrected: removed unsupported "block responses to painful stimuli" (the painful-stimulus line in KDT8 ch27 is about MAC, not glycine) | KDT8 ch27 |
 | 122 | corrected: withdrawal numbers (25% recurrence, 80% within 4 months, 1-3 month taper), JME and status-epilepticus lines not found in Katzung16 ch24 or Satoskar p253; removed. Kept 2-year (GG14 ch20 p424) vs 3-year (KDT8 ch30 p462) conflict, both cited | GG14 ch20, KDT8 ch30 |
 | 115 | flag: pyq entry has year 0 ("Q bank"); owner to confirm the year or drop it | - |
+
+## Recheck (all new cards, chunk 1/2)
+
+Scope: the 68 study cards in recheck chunk 1 (ids 055-122, excluding the rapid ids) and the 52 rapid ids in the same chunk. Checked against KDT8 ch27, ch29, ch30, ch35 (chapter PDFs) and GG14 ch15/ch16/ch20/ch22 (search.py PDF pages). Study cards only; rapid rows are in `content/review/rapid-p2-sedatives-aed.md`.
+
+| id | corrected / deleted | reason | source |
+|---|---|---|---|
+| 062 | corrected | alpha-3 was not named for anxiolysis/relaxation; text gives alpha-2 only | KDT8 ch29 |
+| 074 | corrected | phenobarbitone effect on phenytoin is unpredictable (competitive inhibition plus induction), not induction | KDT8 ch30 |
+| 094 | corrected | "switch by overlapping" changed to the book's gradual reduce-then-raise switch | KDT8 ch30 |
+| 101 | corrected | lacosamide wording (enhances Na+ inactivation); removed cenobamate GABA-A modulation, not in GG14 ch20 | GG14 ch20, KDT8 ch30 |
+| 103 | corrected | removed "acts on seizure spread" and interaction list (levels of CBZ, clobazam, lamotrigine, valproate) not found in GG14 ch20 | GG14 ch20 |
+| 104 | corrected | removed half-life 7-8 h, rapid absorption, hepatic dose reduction and mild-effect list (not in GG14 ch20); kept 50 mg BD, 25 mg BD adjust, CYP2C19/2C9 table entry | GG14 ch20 |
+| 105 | corrected | removed "positive GABA-A modulation" (not in GG14 ch20); kept Na+ inactivation with "may" | GG14 ch20 |
+| 106 | corrected | "non-intoxicating" added (GG14 ch20) | GG14 ch20 |
+| 107 | corrected (why added) | back now gives why: added only as adjunct therapy | GG14 ch20 |
+| 108 | corrected | "strongly inhibits CYP3A4/1A2/2C19" replaced with the table list (1A2, 3A4, 2C19, 2D6) and GABA-A allosteric modulation | GG14 ch20 table 20-3 |
+| 110 | corrected | "stabilising the resting membrane potential" removed (not in GG14); kept KCNQ current enhancement, retinal and pigmentation warnings | GG14 ch20 |
+| 113 | corrected (why added) | added circadian timing role of MT1/MT2 agonism | KDT8 ch29, GG14 PDF p454 |
+| 114 | corrected (why added) | added nightly secretion and circadian entrainment | KDT8 ch29, GG14 PDF p304 |
+| 115 | corrected | removed "positive GABA-A modulation"; sodium-channel effects with "may" | GG14 ch20 |
+| 119 | corrected | GABA-B "Gi and Gq" and "reduces Ca2+ conductance" replaced with the book's G protein, K+ opening and presynaptic Ca2+ closure; refs add Katzung16 PDF p411 | Katzung16 PDF p411, p526 |
+| 120 | corrected | GABA-B "Gi, Gq, autoreceptor" and "recreational GHB" removed; sodium oxybate line cites GG14 PDF p548 | GG14 PDF p548, Katzung16 PDF p411 |
+| 111 | deleted | duplicate of 101 (same ages and safety flags); 101 kept as the fuller card | - |
+| 121 | deleted | duplicate of 120 (same inhibitory amino acid, receptor and drug content); 120 kept | - |
+
+Checked, no change needed: 055-059, 061, 063-068, 069-073, 075-093 (except above), 095-100, 102, 109, 112, 116-118, 122 (2-year GG14 PDF p424; KDT8 3-year conflict already flagged). Basic cards with a why: 059, 067, 095, 094, 097, 098, 100, 099, 086, 087, 088, 096, 091, 075, 085, 092, 102, 108, 109, 110, 116-119. No UNSOURCED or WEB refs in this chunk, so no unverifiable items.
+
+Ladder after recheck: all subtopics meet 3 L1 / 2 L2 / 1 L3 (validator clean).

@@ -139,3 +139,24 @@ Grounding pass under GROUNDING-RULES.md (sources: KDT8, GG14, Katzung16, RangDal
 - Re-verified against owner PDFs. Corrected: 093 and 094 add KDT8 PDF p581 (milrinone PDE3 selectivity) and GG14 PDF p298 (dopamine high-dose vasoconstriction). 097 ARNI claims confirmed on GG14 PDF p674, p682 (ACE inhibitor/ARB combo contraindication, superiority over enalapril).
 - 087: pyq "Q bank, year 0" removed (year unknown, tag omitted per rule).
 - Validator: check ok.
+
+## Recheck (all new cards, chunk 1/1)
+- Scope: 37 study cards (061-066, 067-074, 075-079, 080-085, 086-097) and 27 rapid cards (rf-0613 to rf-0639) added since v0.5.5. Checked against KDT8 ch36-38 (PDF pages), GG14 ch30/33 (PDF), Katzung16, Rang & Dale 9, Golan (search.py and page text).
+- Corrected study cards:
+  - 065: removed "not a major BP regulator in man" (not printed in KDT8 ch37); back now gives the printed urotensin actions.
+  - 066: reason Ang (1-7) rises on ACE inhibitors changed from "diverting Ang I" (not printed) to "ACE partly degrades it" (KDT8 ch36 PDF p549).
+  - 071: "drug of choice for PAH" changed to "one of the drugs of choice" (KDT8 ch21 PDF p342); refs add KDT8 ch21. Inhaled NO "first-line" removed (KDT8 ch37 PDF p557 says only "indicated").
+  - 075: basic card back now teaches why (heart rate and symptom relief guide dosing; KDT8 ch38 PDF p578).
+  - 079: basic card back now teaches why (6.25 mg start avoids marked early fall in BP; KDT8 ch36 PDF p545).
+  - 081: "NSAIDs" removed from pre-switch checks (renal-failure text in GG14 ch30 PDF p619 lists renal artery stenosis and volume depletion only). Cough, dual blockade and hyperkalaemia points verified.
+  - 083: "recommended in place of ACE inhibitor or ARB" changed to "effective, well-tolerated alternative to ACE inhibitors" (KDT8 ch37 PDF p566, PARADIGM-HF; no recommendation wording printed).
+  - 095: "Diuretics ... do not prolong survival" changed to "Diuretics relieve congestion and symptoms" (survival claim not printed; GG14 PDF p674).
+- Corrected rapid cards (refs only):
+  - rf-0638: GG14 PDF p674 replaced by GG14 PDF p683 and p622 (superiority over enalapril is printed on those pages, not p674).
+  - rf-0639: GG14 PDF p674 replaced by GG14 PDF p620 (sacubitril as neprilysin-inhibiting moiety).
+- Deleted: none. Every fact in chunk 1 traced to an owner book; no card needed removal.
+- Unverifiable: 0 (no UNSOURCED or WEB refs in chunk 1).
+- Duplicates: 090 (short note) and 094 (essay) both cover cardiogenic-shock drug management. Kept both: different formats, and 090 carries the RGUHS 2021 PYQ tag. Owner may merge. 091 and rf-0623 overlap across the study and rapid decks by design.
+- Verified without change: study 061-064, 067-070, 072-074, 076-078, 080, 082, 084-094, 096, 097; rapid 0613-0637.
+- Levels: all subtopics still meet >= 3 L1, 2 L2, 1 L3 (no deletions).
+- Validator: node scripts/validate-content.mjs --check: check ok.

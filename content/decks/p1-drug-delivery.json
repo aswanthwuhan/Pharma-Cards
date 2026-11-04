@@ -632,7 +632,7 @@
         {
           "h": "Rate control of subcutaneous insulin",
           "points": [
-            "Absorption rate is varied by particle size, protein complexation and pH of the preparation",
+            "Absorption rate is varied by particle size and protein complexation",
             "Insulin is made insoluble either by complexing with protamine (isophane/NPH) or by precipitating with excess zinc (lente, larger particles), so it is absorbed slowly"
           ]
         },
@@ -640,20 +640,14 @@
           "h": "Pump delivery",
           "points": [
             "Continuous subcutaneous infusion gives constant basal insulin plus programmed meal boluses",
-            "Only short-acting insulin is used in the pump"
-          ]
-        },
-        {
-          "h": "Standard comparison",
-          "points": [
-            "Otherwise insulin is given by syringe or prefilled pen injections"
+            "Only a fast-acting insulin analogue is used in the pump"
           ]
         }
       ],
       "refs": [
-        "GG14 ch2",
         "KDT8 ch3",
-        "GG14 PDF p1051"
+        "KDT8 PDF p300",
+        "KDT8 PDF p306"
       ],
       "pyq": [
         {
@@ -684,12 +678,13 @@
         "uses"
       ],
       "front": "Compare oily-ester depot injections, pellet implants and silastic implants as ways to prolong action.",
-      "back": "All delay absorption at the injection or implant site. Oily esters and insoluble salts (fluphenazine decanoate, medroxyprogesterone, benzathine penicillin) release over days to weeks. A pellet gives weeks to months, its rate proportional to surface area, and is placed with a trocar. Silastic tubes or capsules (Norplant: six capsules of levonorgestrel, up to 5 years) leach evenly for months; non-biodegradable ones must be removed later, biodegradable ones need not.",
+      "back": "All delay absorption at the injection or implant site. Oily esters and insoluble depot forms (fluphenazine decanoate, medroxyprogesterone, benzathine penicillin) release over days to weeks. A pellet is placed with a trocar and cannula for sustained release. Silastic and biodegradable implants release over months to years; non-biodegradable implants must be removed later, biodegradable ones need not.",
       "refs": [
-        "KDT8 ch1",
         "KDT8 ch3",
-        "RangDale9 ch9",
-        "KDT8 PDF p363"
+        "KDT8 PDF p30",
+        "KDT8 PDF p39",
+        "KDT8 PDF p60",
+        "KDT8 PDF p467"
       ],
       "pyq": [],
       "status": "draft"
@@ -1184,10 +1179,11 @@
         "mechanism"
       ],
       "front": "What is the role of nanoparticles in drug delivery, and what examples are given?",
-      "back": "Biocompatible polymers and nanoparticles are carriers that localise drug to a target and cut systemic exposure. Example: albumin-nanoparticle paclitaxel for breast cancer. Related targeting uses GalNAc conjugates to carry siRNA to hepatocytes via the asialoglycoprotein receptor.",
+      "back": "Biocompatible polymers and nanoparticles are carriers that localise drug to a target and cut systemic exposure. Example: albumin-bound paclitaxel nanoparticles for breast cancer. Related targeting: galactose or GalNAc conjugates give selective hepatocyte uptake via the asialoglycoprotein receptor.",
       "refs": [
         "GG14 ch2",
-        "RangDale9 ch9"
+        "RangDale9 ch9",
+        "GG14 PDF p1384"
       ],
       "pyq": [
         {
@@ -1280,21 +1276,23 @@
           "points": [
             "Cyclophosphamide: activated in liver, can be given orally without gut damage",
             "Levodopa: crosses blood-brain barrier on an amino acid carrier, then becomes dopamine",
-            "Valaciclovir, famciclovir: esters with better bioavailability than aciclovir and penciclovir",
-            "Zidovudine: activated only in HIV-infected cells",
-            "Aspirin: better-tolerated form of salicylic acid"
+            "Valaciclovir: valyl ester of aciclovir with better oral bioavailability",
+            "Zidovudine: taken up and activated in virus-infected cells",
+            "Aspirin: converted to salicylic acid, the more stable active drug at gastric pH"
           ]
         },
         {
           "h": "Prolonging action",
           "points": [
-            "Long-chain aliphatic esters hydrolyse slowly; one injection can act about a month (bitolterol-O-di-p-toluate)"
+            "Bitolterol-O-di-p-toluate: ester prodrug used to avoid frequent dosing"
           ]
         }
       ],
       "refs": [
         "RangDale9 ch9",
-        "Sarkar p46-50"
+        "Sarkar p46-50",
+        "KDT8 PDF p862",
+        "Padmaja PDF p30"
       ],
       "pyq": [
         {
@@ -1461,11 +1459,12 @@
         "pk"
       ],
       "front": "Compare progestin IUD, Norplant implant and Ocusert as drug-releasing devices.",
-      "back": "All release drug at a controlled rate. The IUD releases hormone to the endometrium, protecting up to 5 years. Norplant (subcutaneous, six capsules) also lasts up to 5 years. Ocusert sits in the lower conjunctival sac and releases pilocarpine in the eye.",
+      "back": "All release drug at a controlled rate. The progestin IUD releases hormone into the endometrium and lasts up to 5 years. Norplant is a subcutaneous silastic implant that leaches levonorgestrel over months to years. Ocusert is placed under the lid and releases pilocarpine in the eye.",
       "refs": [
         "KDT8 ch3",
-        "KDT8 PDF p363",
-        "Katzung16 PDF p1281"
+        "KDT8 PDF p30",
+        "Bennett PDF p667",
+        "Padmaja PDF p30"
       ],
       "pyq": [],
       "status": "draft"
@@ -1492,8 +1491,8 @@
           "points": [
             "Drug-eluting coronary stent: sirolimus or antithrombotic coat, less restenosis",
             "Progestin IUD: endometrial delivery, up to 5 years",
-            "Ocusert: pilocarpine in lower conjunctival sac",
-            "GG14: contact lenses, microneedle patches, polymers"
+            "Ocusert: pilocarpine placed under the lid",
+            "GG14: drug-loaded contact lenses and ocular inserts"
           ]
         },
         {
@@ -1507,7 +1506,9 @@
         "KDT8 ch3",
         "RangDale9 ch9",
         "GG14 ch2",
-        "Katzung16 PDF p1281"
+        "Katzung16 PDF p1281",
+        "Padmaja PDF p30",
+        "Bennett PDF p667"
       ],
       "pyq": [],
       "status": "draft"
@@ -1689,83 +1690,6 @@
       "pyq": []
     },
     {
-      "id": "p1-drug-delivery-068",
-      "type": "essay",
-      "level": 3,
-      "front": "Essay: Methods of drug targeting",
-      "sections": [
-        {
-          "h": "Concept",
-          "points": [
-            "Deliver drug to the target tissue and spare others",
-            "Targeting allows larger effective doses without systemic toxicity"
-          ]
-        },
-        {
-          "h": "Passive targeting",
-          "points": [
-            "Uses vascular differences, e.g. leaky tumour capillaries",
-            "High-molecular polymer–drug conjugates accumulate in tumour",
-            "Drug released by enzyme cleavage after the carrier enters the cell"
-          ]
-        },
-        {
-          "h": "Active targeting",
-          "points": [
-            "Carrier linked to a ligand that cell-surface receptors recognise",
-            "Example: antibody to a tumour antigen",
-            "Example: galactose to the hepatocyte asialoglycoprotein receptor"
-          ]
-        },
-        {
-          "h": "Carrier systems",
-          "points": [
-            "Liposomes are taken up by the reticuloendothelial system",
-            "PEG (stealth) liposomes circulate for days",
-            "Antibody-tagged liposomes (HER2, E-selectin) are under study"
-          ]
-        },
-        {
-          "h": "Prodrugs",
-          "points": [
-            "Activated in target cells: capecitabine to fluorouracil in tumour; zidovudine in infected cells"
-          ]
-        },
-        {
-          "h": "Placement and devices",
-          "points": [
-            "Vaginal ring (estradiol), eye implant (ganciclovir), drug-eluting stents, progestin IUCD"
-          ]
-        },
-        {
-          "h": "Limitations",
-          "points": [
-            "Polymers and degradation products must be checked for toxicity",
-            "Cost and unwanted rapid release are problems"
-          ]
-        }
-      ],
-      "refs": [
-        "Golan ch55",
-        "KDT8 ch3",
-        "RangDale9 ch9",
-        "Padmaja PDF p698"
-      ],
-      "subtopic": "p1-drug-delivery-targeted",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "Q bank",
-          "year": 0,
-          "marks": 10
-        }
-      ]
-    },
-    {
       "id": "p1-drug-delivery-069",
       "type": "basic",
       "front": "What is passive targeting?",
@@ -1824,22 +1748,6 @@
       "subtopic": "p1-drug-delivery-targeted",
       "tags": [
         "pk"
-      ],
-      "status": "draft",
-      "level": 2,
-      "pyq": []
-    },
-    {
-      "id": "p1-drug-delivery-073",
-      "type": "basic",
-      "front": "Which antibody targets have been explored for liposomes?",
-      "back": "HER2 (breast cancer and other tumours) and E-selectin (vascular endothelium).",
-      "refs": [
-        "Golan ch55"
-      ],
-      "subtopic": "p1-drug-delivery-targeted",
-      "tags": [
-        "uses"
       ],
       "status": "draft",
       "level": 2,

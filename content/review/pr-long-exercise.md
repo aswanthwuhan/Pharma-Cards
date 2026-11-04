@@ -242,3 +242,71 @@ Levels 1-3 set on all existing cards (no content change).
 - Prep/RR5 grep on both deck files: 0 hits.
 - Not done: exam-coverage audit and PYQ grep; no new cards added this pass.
 - Open issues for owner: WEB PMC ref (Naranjo vs WHO-UMC agreement, cards 031/037) is outside the SOURCE-GAPS list; ocular and NMC-only refs (001, 051-062, 079-081) rest on the NMC curriculum document, not a textbook.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 14 study cards (071-084) against Sarkar OCR, KDT8, GG14, Ghosh, Padmaja, Medhi and NMC curriculum. No deletions. Level and tags kept on all cards.
+
+id | result | source / reason
+--- | --- | ---
+pr-long-exercise-071 | corrected | Sarkar p201-205 · removed "drives design" and "bent to fit" claims; kept stated-in-advance and primary-first rule
+pr-long-exercise-072 | corrected | Sarkar p201-205; NMC p9 · removed "simple language" and "part of methodology" (not printed)
+pr-long-exercise-073 | corrected | Sarkar p201-205 · removed adverse-event reporting and sample-size claims (not in these pages)
+pr-long-exercise-074 | corrected | KDT8 ch6 (PDF p110-111) · purpose and four grades now as printed
+pr-long-exercise-075 | corrected | KDT8 ch6 (PDF p110-111) · definite needs proof, not dechallenge alone; dropped KDT8 ch5 ref
+pr-long-exercise-076 | ok | Sarkar p506-510
+pr-long-exercise-077 | corrected | Sarkar p511-515 · removed "attrition bias" wording; kept dropout/exclusion analysis
+pr-long-exercise-078 | corrected | Sarkar p511-515; p506-510 · removed "change practice" criterion (not printed)
+pr-long-exercise-079 | corrected | NMC p10 + UNSOURCED · control-eye rationale not in any owner book; rabbit-eye scope cited
+pr-long-exercise-080 | corrected | GG14 PDF p198; Padmaja PDF p110 · NMC-only ref replaced with textbook refs
+pr-long-exercise-081 | corrected | GG14 PDF p233 · physostigmine claim removed (not supported); pilocarpine reversal cited
+pr-long-exercise-082 | corrected | Ghosh PDF p122; UNSOURCED · carotid cannulation is in Ghosh for the cat, not the dog; reworded
+pr-long-exercise-083 | ok | Ghosh PDF p121-122; KDT8 PDF p159
+pr-long-exercise-084 | ok | Ghosh PDF p121-122; KDT8 PDF p159, p170
+
+Unsourced (owner must verify), recheck: 079, 082 (partly).
+
+## Recheck (all new cards, chunk 1/1), second pass
+Checked 14 study cards (071-084) against Sarkar OCR (p201-205, p206-210, p241-245, p506-510, p511-515), KDT8 PDF p110-111, p159, p182, GG14 PDF p198, p233, Padmaja PDF p110, Ghosh PDF p121-122, NMC MD Pharmacology curriculum PDF p9-10. No deletions.
+
+id | result | source / reason
+--- | --- | ---
+pr-long-exercise-071 | ok | Sarkar p201-205
+pr-long-exercise-072 | corrected | Sarkar p201-205, p241-245 · "voluntary participation" now sourced to Sarkar p241-245
+pr-long-exercise-073 | corrected | Sarkar p201-205, p206-210 · analysis plan, ethics and stopping rules sourced to p206-210
+pr-long-exercise-074 | ok | KDT8 PDF p110
+pr-long-exercise-075 | ok | KDT8 PDF p110-111
+pr-long-exercise-076 | ok | Sarkar p506-510 (PICO; step 1 of appraisal)
+pr-long-exercise-077 | ok | Sarkar p511-515
+pr-long-exercise-078 | ok | Sarkar p511-515; p506-510
+pr-long-exercise-079 | unverifiable | UNSOURCED; NMC p10 covers the rabbit-eye practical only, not the control-eye rationale
+pr-long-exercise-080 | ok | GG14 PDF p198 (dilator alpha1, sphincter M3); Padmaja PDF p110
+pr-long-exercise-081 | ok | GG14 PDF p233 (pilocarpine reverses atropine effects)
+pr-long-exercise-082 | corrected | Ghosh PDF p122 · barbiturate-anaesthetised dog prepared for BP recording; cannula claim and UNSOURCED removed
+pr-long-exercise-083 | ok | Ghosh PDF p121-122; KDT8 PDF p159
+pr-long-exercise-084 | ok | Ghosh PDF p121-122; KDT8 PDF p159
+
+Owner note: NMC MD Pharmacology curriculum PDF p10 says amphibian, dog and cat experiments should be done by computer-assisted simulation. Cards 082-084 and the rf dog BP cards describe the in vivo dog practical; not changed here, owner to decide.
+Unsourced (owner must verify), recheck: 079 (also in the rapid file as rf-0090).
+
+## Recheck (all new cards, chunk 1/1), pass 3
+Checked 14 study cards (071-084) against Sarkar OCR p201-205, p206-210, p241-245, p506-510, p511-515; KDT8 PDF p110-111, p159; GG14 PDF p198, p233; Padmaja PDF p110; Ghosh PDF p121-122; Medhi PMECP PDF p247; NMC curriculum PDF p9-10. No deletions. Levels unchanged.
+
+id | result | source / reason
+--- | --- | ---
+pr-long-exercise-071 | ok | Sarkar p201-205
+pr-long-exercise-072 | ok | Sarkar p201-205; p241-245 (voluntary participation); NMC PDF p9 (consent form and information sheet)
+pr-long-exercise-073 | ok | Sarkar p201-205, p206-210
+pr-long-exercise-074 | ok | KDT8 PDF p110
+pr-long-exercise-075 | ok | KDT8 PDF p110
+pr-long-exercise-076 | ok | Sarkar p506-510 (PICO)
+pr-long-exercise-077 | ok | Sarkar p511-515
+pr-long-exercise-078 | ok | Sarkar p511-515 (CI gives direction and strength; P alone does not); p506-510
+pr-long-exercise-079 | corrected | Medhi PMECP PDF p247 (alternate eye is the control, same animal, avoids individual variation) · UNSOURCED and NMC p10 refs dropped (NMC p10 lists the rabbit-eye practical only); back reworded to match
+pr-long-exercise-080 | ok | GG14 PDF p198; Padmaja PDF p110
+pr-long-exercise-081 | ok | GG14 PDF p233
+pr-long-exercise-082 | corrected | Ghosh PDF p121 (anaesthetised animals in BP assays), p122 (barbiturate-anaesthetised dog prepared for BP recording) · why added to back
+pr-long-exercise-083 | corrected | Ghosh PDF p121-122; KDT8 PDF p159 · NMC ref dropped (NMC p10 does not support dog BP content)
+pr-long-exercise-084 | corrected | Ghosh PDF p121-122; KDT8 PDF p159 · NMC ref dropped (same reason as 083)
+
+Totals: 14 checked, 10 ok, 4 corrected, 0 deleted, 0 unverifiable.
+Owner note (unchanged, still open): NMC curriculum PDF p10 says amphibian, dog and cat experiments should use computer-assisted simulation. Cards 082-084 describe the in vivo dog practical from Ghosh and KDT8; owner to decide whether to keep them.

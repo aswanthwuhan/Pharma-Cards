@@ -108,3 +108,40 @@ Q35 (10-mark bioavailability shortnote + factors) is already covered by 001, 013
 - Source checks: GG14 PDF p42 (determinants: molecular size, degree of ionisation, lipid solubility of ionised/unionised forms, protein binding; transfer proportional to gradient, partition coefficient, area; unbound drug equal across membrane for non-electrolytes); KDT8 PDF p33 (lipid:water partition coefficient, pH influence); Bennett PDF p98 (ionised drug lipid-insoluble).
 - Essay 058 overlaps 018 on pH partition only; kept because 018 is a general transport essay.
 - Not sourced: none skipped. Validator: check ok.
+
+## Recheck (all new cards, chunk 1/1)
+Checked ids 030-058 against KDT8 PDF p15-45 (ch2), p90 (dosing), p65 (reserpine), GG14 ch2 (PDF p42, p48), GG14 ch4 (PDF p76-120), Bennett p96-100.
+
+| id | status | source / reason |
+|---|---|---|
+| p1-pk-absorption-030 | ok | KDT8 ch2 (acidic vs basic absorption site) |
+| p1-pk-absorption-031 | ok | KDT8 ch2 (placenta) |
+| p1-pk-absorption-032 | ok | KDT8 ch2 (heat, exercise, adrenaline) |
+| p1-pk-absorption-033 | ok | KDT8 ch2 (capillary paracellular spaces) |
+| p1-pk-absorption-034 | ok | KDT8 ch2 (protein binding, filtration, clearance above renal blood flow) |
+| p1-pk-absorption-035 | ok | KDT8 ch2 (redistribution, repeated dosing) |
+| p1-pk-absorption-036 | ok | KDT8 ch2 (P-gp primary active, ABC efflux only) |
+| p1-pk-absorption-037 | ok | KDT8 ch2 (digoxin, cyclosporine) |
+| p1-pk-absorption-038 | ok | KDT8 ch2 (P-gp inhibitors/inducers) |
+| p1-pk-absorption-039 | ok | KDT8 ch2 (rifampin, P-gp with CYP3A4) |
+| p1-pk-absorption-040 | ok | KDT8 ch2 (gentamicin, neostigmine, penicillin G, insulin) |
+| p1-pk-absorption-041 | ok | KDT8 ch2 (ionisation, gastric absorption) |
+| p1-pk-absorption-042 | corrected | removed unsupported phenobarbitone alkalinisation example; refs KDT8 ch3 not verified, now KDT8 ch2 |
+| p1-pk-absorption-043 | corrected | SGLT example and antiport example rewritten to GG14 ch4 (SGLT1 symport, NCX antiport); removed unsupported "VMAT-2 exchanging with H+" |
+| p1-pk-absorption-044 | ok | KDT8 ch2 (enteric coat, sustained release) |
+| p1-pk-absorption-045 | ok | KDT8 ch2 (levodopa, aromatic amino acid carrier) |
+| p1-pk-absorption-046 | ok | KDT8 ch2 (food, complexes, 2-3 h spacing) |
+| p1-pk-absorption-047 | corrected | added short why; refs GG14 ch4 (vectorial transport) |
+| p1-pk-absorption-048 | corrected | rewritten: lipophilic/hydrophilic two-transporter claim not in books; now liver OATP uptake plus MDR1/MRP2/BCRP efflux (GG14 ch4) |
+| p1-pk-absorption-049 | corrected | removed unsupported "lipophilic efflux alone / hydrophilic pair" bullets; intestine limited to P-gp and MRP2 (GG14 ch4 p129) |
+| p1-pk-absorption-050 | corrected | added short why (fat reservoir); GG14 ch2 |
+| p1-pk-absorption-051 | ok | GG14 ch2, KDT8 ch2 (fat:lean ratio) |
+| p1-pk-absorption-052 | ok | KDT8 p90 (body weight dosing; BSA argued more accurate) |
+| p1-pk-absorption-053 | ok | KDT8 ch2 (fat, low perfusion) |
+| p1-pk-absorption-054 | ok | GG14 ch2, KDT8 ch2 (fat content, haemodialysis, large V); KDT8 PDF p41 supports dialysis point |
+| p1-pk-absorption-055 | corrected | added why (F below 100%); GG14 ch2 added |
+| p1-pk-absorption-056 | ok | KDT8 ch2 (digoxin, hypoglycaemics, anticoagulants, particle size); PYQ year 0 still unverified |
+| p1-pk-absorption-057 | ok | KDT8 ch2 (lipid:water partition coefficient) |
+| p1-pk-absorption-058 | ok | GG14 ch2 (passive transfer determinants), KDT8 ch2, Bennett p98 |
+
+Deleted: none. Unverifiable: none in this chunk (no UNSOURCED or WEB refs).

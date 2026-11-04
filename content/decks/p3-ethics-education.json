@@ -137,7 +137,7 @@
       "id": "p3-ethics-education-056",
       "type": "basic",
       "front": "How do the Nuremberg Code and the Declaration of Helsinki differ in origin and standing?",
-      "back": "Nuremberg Code (1947) arose from the Nazi-camp experiments and laid down informed consent and the right to withdraw. Helsinki (1964, World Medical Association) is a regularly updated statement for research on human subjects and is the ethical base of ICH-GCP, so trials must follow it. Helsinki builds on the earlier code.",
+      "back": "Nuremberg Code (1947) arose from the Nazi-camp experiments and laid down informed consent and the right to withdraw. Helsinki (1964, World Medical Association) is a regularly updated statement for research on human subjects and is the ethical base of ICH-GCP, so trials must follow it.",
       "refs": [
         "Sarkar p156-160",
         "RangDale9 ch8"
@@ -1609,7 +1609,7 @@
       "type": "basic",
       "level": 1,
       "front": "What does a DTC formulate for a hospital?",
-      "back": "Policies for prescribing, storing and safely dispensing drugs, a hospital formulary, and hospital antibiotic policy (with the clinical microbiologist and the head of critical care).",
+      "back": "Policies for prescribing, storing and safely dispensing drugs, a hospital formulary, and hospital antibiotic policy (with the clinical microbiologist and the head of critical care). Purpose: rational and safe use of medicines.",
       "refs": [
         "Sarkar p506-510"
       ],
@@ -1625,10 +1625,11 @@
       "type": "basic",
       "level": 1,
       "front": "What is pharmacovigilance?",
-      "back": "The science and activities of detecting, assessing, understanding and preventing adverse drug effects or other drug-related problems (WHO definition).",
+      "back": "The science and activities of detecting, assessing, understanding and preventing adverse drug effects or other drug-related problems (WHO definition). Its aim is to make drugs safer by monitoring adverse reactions.",
       "refs": [
         "KDT8 ch6",
-        "Sarkar p86-90"
+        "Sarkar p86-90",
+        "Sarkar p506-510"
       ],
       "pyq": [
         {
@@ -1648,7 +1649,7 @@
       "type": "basic",
       "level": 1,
       "front": "What is a signal in pharmacovigilance?",
-      "back": "Reported information on a possible causal link between a drug and an adverse event whose link was unknown or incompletely documented before.",
+      "back": "Reported information on a possible causal link between a drug and an adverse event whose link was unknown or incompletely documented before. Early detection lets regulators act on it.",
       "refs": [
         "Sarkar p86-90"
       ],
@@ -1664,7 +1665,7 @@
       "type": "basic",
       "level": 1,
       "front": "How is causality of an adverse drug event judged?",
-      "back": "By temporal relation to the drug, previous knowledge of the reaction, dechallenge (it settles when the drug stops) and rechallenge (it returns on re-exposure, often unethical to test). Graded definite, probable, possible or doubtful.",
+      "back": "By temporal relation to the drug, previous knowledge of the reaction, dechallenge (it settles when the drug stops) and rechallenge (it returns on re-exposure, often unethical to test). Graded definite, probable, possible or doubtful. It separates drug-caused events from events caused by the disease.",
       "refs": [
         "KDT8 ch6"
       ],
@@ -1683,22 +1684,6 @@
       "back": "The Naranjo algorithm for causality and the modified Hartwig scale for severity grading.",
       "refs": [
         "KDT8 ch6"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p3-ethics-education-education",
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "p3-ethics-education-068",
-      "type": "basic",
-      "level": 1,
-      "front": "What is a disproportionality method in signal detection?",
-      "back": "A quantitative method that compares how often a drug-event pair is reported with how often it is expected across the whole spontaneous-report database. It needs no drug-use denominator, but its accuracy depends on assumptions that are hard to verify.",
-      "refs": [
-        "GG14 ch8"
       ],
       "pyq": [],
       "status": "draft",
@@ -1759,13 +1744,6 @@
             "Relevance: new drug (4 years from approval), unknown reaction, serious reaction",
             "Identify duplicate reports using sex, age or date of birth, and exposure dates",
             "Causality assessment must validate the link before a case counts"
-          ]
-        },
-        {
-          "h": "Statistical detection",
-          "points": [
-            "Disproportionality methods: observed versus expected reports in the whole database",
-            "No drug-use denominator needed; accuracy depends on assumptions"
           ]
         },
         {
@@ -1948,7 +1926,7 @@
       "type": "basic",
       "level": 1,
       "front": "What did the Harris-Kefauver amendments of 1962 require?",
-      "back": "Proof of efficacy as well as documentation of relative safety by risk-to-benefit assessment before approval. They also introduced informed consent of trial participants, gave the FDA authority over prescription-drug advertising, and introduced good manufacturing practice standards.",
+      "back": "Passed after the thalidomide disaster. Proof of efficacy as well as documentation of relative safety by risk-to-benefit assessment before approval. They also introduced informed consent of trial participants, gave the FDA authority over prescription-drug advertising, and introduced good manufacturing practice standards.",
       "refs": [
         "Golan ch52",
         "GG14 ch1"
@@ -1982,8 +1960,9 @@
       "type": "basic",
       "level": 1,
       "front": "What did the US FDA Amendments Act of 2007 add for drug safety?",
-      "back": "It strengthened the FDA authority to manage the safety of approved drugs, notably through Risk Evaluation and Mitigation Strategies (REMS), which aim to ensure that a drug is dispensed and used so that its benefits outweigh its risks.",
+      "back": "It let the FDA require risk evaluation and mitigation strategies (REMS) and postapproval studies, and set up a population-based surveillance system. REMS is one of three regulatory tools for changing prescribing behaviour, with communication and withdrawal.",
       "refs": [
+        "GG14 ch8",
         "Golan ch52"
       ],
       "pyq": [],
@@ -2109,7 +2088,7 @@
       "type": "basic",
       "level": 1,
       "front": "What membership does an IRB or IEC require?",
-      "back": "At least five members of varied background, including at least one with primary expertise in a scientific area, one in a non-scientific area, and one not affiliated with the institution. Many also include clergy, social workers and attorneys.",
+      "back": "At least five members of varied background, including at least one with primary expertise in a scientific area, one in a non-scientific area, and one not affiliated with the institution. Many also include clergy, social workers and attorneys. This lets the board judge protocols against law, professional standards and community attitudes.",
       "refs": [
         "Golan ch52"
       ],
@@ -2256,7 +2235,7 @@
       "type": "basic",
       "level": 1,
       "front": "What does an investigator undertake in the investigator undertaking?",
-      "back": "Not to begin before ethics committee and DCGI approval, to adhere to the protocol under personal supervision, to ensure ethics review, to report unexpected serious adverse events to the sponsor within 24 hours and to the ethics committee within 7 days, and to maintain records for audit.",
+      "back": "A legal commitment to conduct the trial under GCP and the approval conditions. Not to begin before ethics committee and DCGI approval, to adhere to the protocol under personal supervision, to ensure ethics review, to report unexpected serious adverse events to the sponsor within 24 hours and to the ethics committee within 7 days, and to maintain records for audit.",
       "refs": [
         "Sarkar p246-250"
       ],
@@ -2681,7 +2660,7 @@
       "type": "basic",
       "level": 1,
       "front": "What rules now apply to gifts from pharmaceutical companies to physicians?",
-      "back": "Gifts of value are forbidden, many academic medical centres ban any gift, and several US states prohibit them by law. The federal Open Payments website lists payments and amounts given to individual physicians by name.",
+      "back": "Accepting gifts from drug companies is forbidden at many academic medical centres and by law in several US states. The federal Open Payments website lists payments and amounts given to named physicians.",
       "refs": [
         "Harrison21 PDF p112",
         "GG14 ch1"

@@ -232,3 +232,35 @@ p2-toxicology-161 | new | Katzung16 ch58
 p2-toxicology-162 | new | Katzung16 ch58
 p2-toxicology-163 | new | Katzung16 ch58
 p2-toxicology-164 | new | Katzung16 ch58; GG14 ch9
+
+## Recheck (all new cards, chunk 1/3)
+
+Checked 72 study cards in chunk 1 against Katzung16 ch56-58, KDT8 ch6/14/68, GG14 ch1/9/24/70/76, Sarkar OCR p16-25 (PDF search via pharm-tools/search.py). Result: 70 kept (ok or corrected), 2 deleted, 0 unverifiable.
+
+Corrected (wording/facts trimmed to what the cited book states):
+- p2-toxicology-102: removed unsupported 'slowly exchanging stores' reason; now Katzung ch57 time-to-chelation rule.
+- p2-toxicology-104: removed penicillamine from zinc/copper depletion (not in book); EDTA and succimer kept.
+- p2-toxicology-105: added grounded why (early pralidoxime may restore cholinesterase; trials conflict, Katzung ch58).
+- p2-toxicology-114: 'gut dialysis' mechanism corrected (not enterohepatic cycling); charcoal list = carbamazepine, dapsone, phenobarbital; full Table 58-2 dialysis list; acidification flagged as not advised.
+- p2-toxicology-124: 'PO2 normal' removed; book says pulse oximetry unreliable.
+- p2-toxicology-127: 'rhodanese' term and 'major route to death' removed; thiosulfate role stated as book states.
+- p2-toxicology-129: removed 'no specific treatment' for organochlorines (not in cited text); carbamate reversibility and OP atropine/pralidoxime kept.
+- p2-toxicology-130: removed unsupported 'traditional toxicology' contrast.
+- p2-toxicology-131: Sarkar p16-20 now states only persistence and PPCP composition; 'non-degradable' and 'survive stomach acid' removed.
+- p2-toxicology-132: 'released slowly' and 'body fat' replaced by book wording (tissue accumulation when intake exceeds metabolism/excretion).
+- p2-toxicology-133: removed unsupported microbial, growth, and teratogenicity claims; preventive measures now Sarkar p16-20 and p21-25.
+- p2-toxicology-137: removed phytoestrogen and mycoestrogen example (not in cited GG14 ch76 / Katzung ch56 text).
+- p2-toxicology-138: removed 'restricted use for malaria mosquito control' (not in cited passage).
+- p2-toxicology-139: thyroid association removed; diabetes correlation kept (GG14 ch76).
+- p2-toxicology-141: removed cancer and thyroid links and unsupported strategies; animal DDT effects added (GG14 ch76).
+- p2-toxicology-146, 147: removed 'under GLP' (not in the cited text).
+- p2-toxicology-148: 'produced in uncoupled CYP reactions' removed (not in GG14 ch24).
+- p2-toxicology-153: 'renal tubular' removed.
+- p2-toxicology-158: removed tramadol/M1, protein-binding and acidosis claims, numeric 12-42 h peak interval, phenytoin example (not in cited passages). Front title kept.
+- p2-toxicology-164: retitled to CCB toxicity; unsupported general definition and agent list removed. CCB facts (Katzung ch58) kept.
+
+Deleted:
+- p2-toxicology-106: duplicate of p2-toxicology-125 (same cyanide mechanism and lactate point).
+- p2-toxicology-134: duplicate of p2-toxicology-132 (biomagnification). Pesticides subtopic still meets minimum levels.
+
+Level, why, duplicate checks: all chunk 1 cards have a level. Basic cards lacking a why were given one (105). Validator clean after edits.

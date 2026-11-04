@@ -1799,16 +1799,6 @@
       ]
     },
     {
-      "id": "rf-p3-research-biostats-0188",
-      "subtopic": "p3-research-biostats-descriptive",
-      "kind": "fact",
-      "q": "Standard error: change in n to halve SE",
-      "a": "Increase the sample four times",
-      "refs": [
-        "Ghosh FEP PDF p215"
-      ]
-    },
-    {
       "id": "rf-p3-research-biostats-0189",
       "subtopic": "p3-research-biostats-descriptive",
       "kind": "fact",
@@ -1865,7 +1855,7 @@
       "q": "Measurement scales: list all four",
       "a": "Nominal; ordinal; interval; ratio",
       "refs": [
-        "Sarkar p356-360"
+        "Sarkar p361-365"
       ]
     },
     {
@@ -1915,7 +1905,6 @@
       "q": "Patient-reported quality of life: instrument",
       "a": "Patient-completed questionnaire, e.g. EQ-5D",
       "refs": [
-        "Sarkar p81-85",
         "Bennett PDF p76"
       ]
     },
@@ -2100,16 +2089,6 @@
       ]
     },
     {
-      "id": "rf-p3-research-biostats-0218",
-      "subtopic": "p3-research-biostats-evidence",
-      "kind": "fact",
-      "q": "Ideal biomarker: two properties",
-      "a": "Specific and sensitive",
-      "refs": [
-        "GG14 PDF p1527"
-      ]
-    },
-    {
       "id": "rf-p3-research-biostats-0219",
       "subtopic": "p3-research-biostats-evidence",
       "kind": "fact",
@@ -2253,8 +2232,8 @@
       "id": "rf-p3-research-biostats-0233",
       "subtopic": "p3-research-biostats-protocol",
       "kind": "class",
-      "q": "Sampling methods: list all in the chapter",
-      "a": "Simple random; systematic; stratified; multistage; cluster; multiphase; block",
+      "q": "Randomisation methods: list all in the chapter",
+      "a": "Simple random; systematic; stratified; multistage; cluster; multiphase; block; unequal; minimisation",
       "refs": [
         "Sarkar p196-200"
       ]
@@ -2446,7 +2425,7 @@
       "q": "Non-competitive antagonist: key feature",
       "a": "Acts at a different site; agonist cannot overcome it",
       "refs": [
-        "Ghosh FEP PDF p107"
+        "Ghosh FEP PDF p108"
       ]
     },
     {
@@ -2553,7 +2532,7 @@
       "id": "rf-p3-research-biostats-0263",
       "subtopic": "p3-research-biostats-descriptive",
       "kind": "fact",
-      "q": "Closeness of repeated measurements to each other (reproducibility)",
+      "q": "Degree of exactness of a calculated value; shows refinement of the experimental process",
       "a": "Precision",
       "refs": [
         "Medhi PMECP p153-154"
@@ -2576,6 +2555,7 @@
       "q": "Noxious, unintended, undesired drug effect at doses used in humans",
       "a": "Adverse drug reaction (ADR)",
       "refs": [
+        "Sarkar p86-90",
         "KDT8 ch5"
       ]
     },
@@ -2744,7 +2724,7 @@
       "subtopic": "p3-research-biostats-descriptive",
       "kind": "fact",
       "q": "Variance: definition",
-      "a": "Mean of the squared deviation scores around the mean",
+      "a": "Mean of all deviation scores in the data (dispersion around the mean)",
       "refs": [
         "Medhi PMECP p141-142"
       ]
@@ -2826,7 +2806,7 @@
       "q": "Binomial distribution: curve shape",
       "a": "Two peaks",
       "refs": [
-        "Medhi PMECP p143"
+        "Medhi PMECP p142"
       ]
     },
     {
@@ -2933,12 +2913,11 @@
       "id": "rf-p3-research-biostats-0306",
       "subtopic": "p3-research-biostats-epi-measures",
       "kind": "fact",
-      "q": "Absolute risk reduction: formula",
-      "a": "Event rate in the control group minus event rate in the treated group",
+      "q": "Absolute risk reduction: what it measures",
+      "a": "Absolute fall in event risk with treatment; a measure of absolute benefit",
       "refs": [
-        "Medhi PMECP p148",
-        "Bennett PDF p68",
-        "Harrison21 PDF p70"
+        "Harrison21 PDF p70",
+        "Bennett PDF p68"
       ]
     },
     {
@@ -3068,10 +3047,10 @@
       "id": "rf-p3-research-biostats-0321",
       "subtopic": "p3-research-biostats-inference",
       "kind": "fact",
-      "q": "CAST: why stopped early",
-      "a": "Treatment group had increased mortality compared with placebo",
+      "q": "CAST: antiarrhythmic result with flecainide and encainide after MI",
+      "a": "Increased sudden death (VF) despite suppressing ectopic beats",
       "refs": [
-        "RangDale9 ch8"
+        "RangDale9 ch22"
       ]
     },
     {
@@ -3251,8 +3230,7 @@
       "q": "Chi-square with small expected counts: alternative",
       "a": "Fisher's exact test",
       "refs": [
-        "Medhi PMECP p147",
-        "Sarkar p381-385"
+        "Medhi PMECP p147"
       ]
     },
     {
@@ -3672,7 +3650,7 @@
       "q": "Likelihood ratio positive above 10: interpretation",
       "a": "Usually high specificity; a positive result helps rule in disease",
       "refs": [
-        "Harrison21 PDF p67"
+        "Harrison21 PDF p66"
       ]
     },
     {
@@ -3722,7 +3700,7 @@
       "q": "Screening: definition",
       "a": "Early detection of disease in asymptomatic individuals",
       "refs": [
-        "Harrison21 PDF p535"
+        "Harrison21 PDF p534"
       ]
     },
     {
@@ -4052,20 +4030,20 @@
       "id": "rf-p3-research-biostats-0426",
       "subtopic": "p3-research-biostats-protocol",
       "kind": "fact",
-      "q": "Detection bias: cause",
-      "a": "Outcome assessment not standardised or blinded",
+      "q": "Detection bias: how reduced",
+      "a": "Standardised procedures and blinding where feasible",
       "refs": [
-        "Sarkar p186-190"
+        "Sarkar p191-195"
       ]
     },
     {
       "id": "rf-p3-research-biostats-0427",
       "subtopic": "p3-research-biostats-protocol",
       "kind": "fact",
-      "q": "Performance bias: cause",
-      "a": "Inadequate measurement of the intervention",
+      "q": "Performance bias: how reduced",
+      "a": "Standardised procedures, staff training and blinding where feasible",
       "refs": [
-        "Sarkar p186-190"
+        "Sarkar p191-195"
       ]
     },
     {

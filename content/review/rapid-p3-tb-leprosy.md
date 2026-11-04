@@ -481,3 +481,8 @@ rf-p3-tb-leprosy-0471 | new | KDT8 ch57
 - Rapid coverage of PAS, ethionamide, injectables, fluoroquinolones and RNTCP regimens was already complete; only two gaps were added.
 - Conflict: rf-p3-tb-leprosy-0141 (ethionamide hepatitis about 5 percent) vs KDT8 ch57 about 10 percent. Not changed; owner to check.
 - Card 0042 log row corrected to its real refs (GG12); the earlier excluded-source reference was removed.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 91 rapid cards (rf-p3-tb-leprosy-0402 to 0492, incl. the new GG14 ch65 block 0472-0490) against KDT8 ch56-57 text and GG14 ch65 (PDF pp. 1285-1304). Corrected: none. Deleted: none. Unverifiable: none.
+Year facts 0461-0463 (streptomycin 1947, isoniazid 1952, rifampin 1962) are in the KDT8 ch56 introduction. Dapsone, leprosy MDT, clofazimine and ethionamide (about 10 percent hepatotoxicity) rows match KDT8 ch57.
+Not in this chunk and not changed: rf-p3-tb-leprosy-0141 (ethionamide about 5 percent) still conflicts with KDT8 ch57 (about 10 percent). Owner to check.

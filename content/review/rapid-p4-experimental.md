@@ -172,3 +172,32 @@
 ## Checker pass (rf-p4-experimental-0195 to 0212)
 - Checked against Ghosh FEP p223-224 (MTT/XTT, trypan blue, dyes, IC50, DMSO 1%), Sarkar p251-255, p256-260, p306-310, p381-385 and Bennett p64. All ok. No change needed.
 - Deleted: none.
+
+## Recheck (all new cards, chunk 2/3)
+
+Chunk 2 = rf-p4-experimental-0065 to 0165 (study cards 177-195 are in the study log). Each card traced to its owner-book page.
+
+Corrected (question/answer or refs):
+- 0066: "similar maximal responses" not printed. Answer now linear log dose-response and parallel lines (Ghosh FEP PDF p99).
+- 0067: "main problem is biological variation" is not printed. Answer now the two error types, biological variation and methodological error (Medhi PMECP PDF p62).
+- 0068: "observer blind" not printed. Answer now random dose order or Latin square (Ghosh FEP PDF p99).
+- 0074: frog-rectus desensitisation to repeated ACh not in any book cited. Card rewritten as the printed general principle, desensitisation from continued intense stimulation (KDT8 PDF p79).
+- 0082: ED50 ref GG14 ch9 changed to GG14 ch3 (quantal ED50 is in ch3, p72).
+- 0087: ref RangDale9 ch8 changed to Ghosh FEP PDF p99 (the 2+2 assay is there).
+- 0088: ref changed to Ghosh FEP PDF p100 (horizontal distance = log potency ratio).
+- 0091: Ames test is not in KDT8 ch5 or Katzung16 ch1. Ref changed to Sarkar p256-260.
+- 0092: "clastogenicity in mice" not printed as such. Answer now dominant lethal assay and rodent chromosome assay (Sarkar p256-260).
+- 0106: "within groups" wording not printed. Answer now between-group (treatment) and error variation (Ghosh FEP PDF p220).
+- 0107: ref changed from p217 to p218 (coefficient of variation).
+- 0110: refs add Ghosh FEP PDF p36 (frog rectus is nicotinic) with p133.
+- 0119: question said "drug interaction study"; Sarkar p286-290 describes a liver-microsome metabolism study. Question and answer reworded to match.
+- 0149: ref changed to Medhi PMECP PDF p213-214 (D2 blockade, nigrostriatal EPS).
+- 0150: ref changed to Medhi PMECP PDF p213 (catalepsy identifies EPS).
+- 0165: ref changed to Medhi PMECP PDF p319 (saluretic and natriuretic test).
+
+Deleted:
+- rf-p4-experimental-0109: duplicate of 0087 (same 2+2 dose assay, Ghosh FEP PDF p99). 0087 kept.
+
+Checked, no change needed (examples): 0065, 0069, 0070, 0071-0073, 0075-0078, 0079-0081, 0083-0086, 0089, 0090, 0093-0096, 0097-0105, 0108, 0111-0118 (0117 Golan PDF p954 organ-on-a-chip confirmed), 0120-0148 (Sarkar and Ghosh model pages), 0151-0164.
+
+Unverified (for owner): none in this chunk. No UNSOURCED or WEB refs in this chunk.

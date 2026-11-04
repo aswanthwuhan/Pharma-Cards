@@ -130,9 +130,10 @@
       "id": "p4-experimental-057",
       "type": "basic",
       "front": "In a bioassay, what goes wrong if the log dose-response lines of standard and unknown are not parallel?",
-      "back": "The potency ratio is no longer a single number: the unknown is not behaving like a dilution of the standard, so it may act by a different mechanism or be a partial agonist with a lower maximum. Equi-effective doses are compared from dose-response curves, which only works when the lines are parallel and the maxima similar.",
+      "back": "Equi-effective doses and a single potency ratio are valid only if the log dose-response lines are parallel: the horizontal distance between parallel lines gives the log of the potency ratio. Non-parallel lines mean one ratio is not valid.",
       "refs": [
-        "RangDale9 ch8"
+        "Ghosh FEP PDF p100",
+        "Ghosh FEP PDF p92"
       ],
       "level": 2,
       "subtopic": "p4-experimental-bioassay",
@@ -146,10 +147,10 @@
       "id": "p4-experimental-058",
       "type": "basic",
       "front": "Case: you must estimate histamine in an unknown extract using an isolated tissue. Outline a valid design.",
-      "back": "Use a standard histamine-sensitive preparation such as guinea pig ileum (H1 contraction). Run the standard and the unknown on the same tissue, compare equi-effective doses from dose-response curves, and check the log dose-response lines are parallel with similar maxima. Randomise the order of doses and keep the observer unaware of dose to limit error, since biological variation is the main problem. Express the result as potency relative to the standard.",
+      "back": "Use a histamine-sensitive preparation such as guinea pig ileum. Run standard and unknown on the same tissue, find equi-effective doses from dose-response curves, check the log dose-response lines are parallel, and express the unknown potency as a ratio to the standard.",
       "refs": [
-        "RangDale9 ch8",
-        "KDT8 ch8"
+        "Ghosh FEP PDF p100",
+        "Medhi PMECP PDF p86"
       ],
       "level": 3,
       "subtopic": "p4-experimental-bioassay",
@@ -288,11 +289,10 @@
       "id": "p4-experimental-059",
       "type": "basic",
       "front": "Why is the LD50/ED50 therapeutic index a poor guide to safety, and what is used clinically instead?",
-      "back": "LD50 is measurable only in animals and ignores adverse effects at therapeutic doses; ED50 changes with the effect chosen (e.g. aspirin for headache versus as antirheumatic), and individual variation is not captured. In humans TD50/ED50 is the analogous index, but clinically the therapeutic window (minimal therapeutic dose to maximal acceptable dose) matters more, and narrow-margin drugs need individualised dosing and monitoring.",
+      "back": "LD50 is measured only in animals and does not reflect the incidence of toxic effects, so it is not a useful guide to clinical safety. ED50 depends on the effect chosen. The therapeutic window, the range of doses between effective and toxic, is the clinical concept.",
       "refs": [
-        "KDT8 ch4",
-        "RangDale9 ch8",
-        "GG14 ch9"
+        "RangDale9 PDF p120",
+        "GG14 PDF p73"
       ],
       "level": 3,
       "subtopic": "p4-experimental-dose-response",
@@ -342,10 +342,10 @@
       "id": "p4-experimental-060",
       "type": "basic",
       "front": "Which isolated tissue shows muscarinic ACh contraction blocked by atropine and also serves as a histamine bioassay?",
-      "back": "Guinea pig ileum. ACh contracts it through muscarinic receptors (atropine blocks this), and its H1-mediated contraction gives a standard bioassay for histamine.",
+      "back": "Guinea pig ileum. ACh contraction is blocked by atropine (muscarinic), while histamine contraction is not affected; the same tissue is the standard histamine bioassay.",
       "refs": [
-        "KDT8 ch8",
-        "Katzung16 ch16"
+        "KDT8 PDF p140",
+        "Katzung16 PDF p305"
       ],
       "level": 1,
       "subtopic": "p4-experimental-tissues",
@@ -358,11 +358,11 @@
     {
       "id": "p4-experimental-061",
       "type": "basic",
-      "front": "Isolated guinea pig atria: which drug pair is classically studied, and what is learned?",
-      "back": "Isoprenaline with the antagonist propranolol. The atria show competitive antagonism: the isoprenaline curve shifts right in parallel, which lets the antagonist affinity be measured and receptors classified.",
+      "front": "Which isolated tissue is used to measure the positive chronotropic effect of isoprenaline?",
+      "back": "Guinea pig atria. Isoprenaline increases the rate of isolated guinea pig atria (positive chronotropic effect), so this tissue is used to assay it.",
       "refs": [
-        "RangDale9 ch2",
-        "KDT8 ch4"
+        "Ghosh FEP PDF p37",
+        "Ghosh FEP PDF p101"
       ],
       "level": 1,
       "subtopic": "p4-experimental-tissues",
@@ -516,9 +516,9 @@
       "id": "p4-experimental-062",
       "type": "basic",
       "front": "Case: design an organ-bath experiment to prove propranolol is a competitive antagonist of isoprenaline and estimate its affinity.",
-      "back": "Record isoprenaline concentration-effect curves on guinea pig atria alone, then with increasing propranolol concentrations. Competitive antagonism shows as parallel rightward shifts with unchanged maximum. Calculate the dose ratio (r) at each antagonist concentration, plot log(r - 1) against log antagonist concentration (Schild plot), and read the equilibrium dissociation constant KB from the abscissal intercept.",
+      "back": "Record isoprenaline curves on guinea pig atria alone and with increasing propranolol. Competitive antagonism gives parallel rightward shifts with an unchanged maximum. Calculate the dose ratio r at each antagonist concentration and plot log(r - 1) against negative log antagonist concentration (Schild plot). The x-intercept is pA2, which equals -log KB.",
       "refs": [
-        "RangDale9 ch2"
+        "Ghosh FEP PDF p110"
       ],
       "level": 3,
       "subtopic": "p4-experimental-tissues",
@@ -1267,7 +1267,7 @@
       "id": "p4-experimental-065",
       "type": "basic",
       "front": "Graphical versus Karber method for LD50: which to choose and why?",
-      "back": "Graphical method is simple and accurate in most cases and should be tried first, but needs probit plotting. Karber's method needs no plot and is the simplest and quickest, though crude, so it suits small animal numbers. Ghosh's crotalabumine example gave 79.5 mg/kg graphically and 81 mg/kg by Karber, so the two agree closely.",
+      "back": "Graphical method is simple and accurate in most cases and should be tried first, but needs probit plotting. Karber's method needs no plot and is the simplest and quickest, though crude, so it suits small animal numbers. In the worked example the graphical value was 79.5 mg/kg and Karber's was 81 mg/kg.",
       "refs": [
         "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p160",
         "Ghosh Fundamentals of Experimental Pharmacology (2019) PDF p162"
@@ -1501,11 +1501,10 @@
       "id": "p4-experimental-063",
       "type": "basic",
       "front": "If alternatives to animals are improving, why does safety testing in two species remain required?",
-      "back": "In vitro cell and tissue methods and computer models reduce animal numbers, but their predictive value is still limited; many effects, especially rare ones, are only seen in whole animals, and animal-to-human extrapolation is imperfect. So two-species safety testing is still done before human trials, while reduction, refinement and replacement are pursued.",
+      "back": "Species differ in responses to toxic agents, and many effects, especially rare ones, appear only in whole animals. In vitro and computer methods reduce animal numbers, but their predictive value is still limited, so two-species testing is still done before human trials.",
       "refs": [
-        "Katzung16 ch1",
-        "RangDale9 ch8",
-        "KDT8 ch5"
+        "Ghosh FEP PDF p156",
+        "Ghosh FEP PDF p183"
       ],
       "level": 2,
       "subtopic": "p4-experimental-ethics",
@@ -1851,12 +1850,6 @@
             "Unfractionated heparin: 1 unit stops clotting of 1 mL citrated sheep plasma for 1 hour after 0.2 mL of 1% CaCl2",
             "Heparin varies in molecular size, so only bioassay standardises it"
           ]
-        },
-        {
-          "h": "Storage",
-          "points": [
-            "Such biologicals are standardised by bioassay and need cold storage to keep potency"
-          ]
         }
       ],
       "refs": [
@@ -1919,9 +1912,9 @@
         {
           "h": "Antidiabetic models",
           "points": [
-            "Alloxan or streptozotocin in rats or dogs: quick hyperglycaemia, but a type I model only",
+            "Alloxan or streptozotocin in rats: quick hyperglycaemia, but a type I model only",
             "Neonatal STZ rat: hyperglycaemia resembling type II diabetes",
-            "Genetic obese models (ob/ob, KK, OLETF): spontaneous diabetes with obesity",
+            "Genetic obese models (ob/ob mouse, Zucker fatty rat) with obesity",
             "In vitro enzyme and tissue assays (alpha-glucosidase, insulin secretion, glucose uptake): simple, but no whole-animal effect"
           ]
         },
@@ -1929,15 +1922,15 @@
           "h": "Antihypertensive models",
           "points": [
             "SHR: hypertension with complications of hypertension, a disease-like model",
-            "SHR may not match essential hypertension because renal sodium handling differs",
-            "Drug-induced models (cholinomimetic, angiotensin II, L-NAME) probe specific mechanisms"
+            "Milan strain: hypertension driven mainly by renal sodium and water handling",
+            "Drug-induced models (cholinomimetic, angiotensin II) probe specific mechanisms"
           ]
         },
         {
           "h": "Measurement",
           "points": [
-            "Tail-cuff method: non-invasive and repeatable in conscious rats",
-            "Direct arterial recording in anaesthetised animals: precise but invasive and terminal"
+            "Tail-cuff method: non-invasive, sensitive and accurate in conscious rats",
+            "Direct arterial recording in anaesthetised animals: invasive and needs aseptic surgery"
           ]
         }
       ],
@@ -1961,7 +1954,7 @@
       "id": "p4-experimental-070",
       "type": "basic",
       "front": "Why does stratifying animals reduce sampling error?",
-      "back": "Animals are grouped into strata of similar individuals (same litter, sex, age or body weight), so less variable groups are compared. Other ways to cut sampling error: more subjects, paired samples and sufficient dose.",
+      "back": "Animals are grouped into strata of similar individuals (same litter, sex or age), so compared groups are less variable. Selecting a less variable population, such as inbred animals, also reduces sampling error.",
       "refs": [
         "Ghosh FEP PDF p224"
       ],
@@ -2044,8 +2037,8 @@
     {
       "id": "p4-experimental-073",
       "type": "basic",
-      "front": "What does ANOVA separate?",
-      "back": "Total variation into variation between groups (due to treatment) and variation within groups (random error). A large between-group part relative to within-group error points to a real treatment effect.",
+      "front": "What does the between-group variation in an ANOVA represent?",
+      "back": "The effect due to the treatment; this is the basis of the analysis of variance.",
       "refs": [
         "Ghosh FEP PDF p220"
       ],
@@ -2069,7 +2062,7 @@
       "front": "Why use the coefficient of variation instead of the standard deviation?",
       "back": "When two samples have widely different means, the standard deviation alone cannot say which is more variable. The coefficient of variation expresses variability relative to the mean, so the two can be compared.",
       "refs": [
-        "Ghosh FEP PDF p217"
+        "Ghosh FEP PDF p218"
       ],
       "pyq": [
         {
@@ -2089,7 +2082,7 @@
       "id": "p4-experimental-075",
       "type": "basic",
       "front": "Index of precision in a bioassay: what do the values mean?",
-      "back": "Index of precision is the variance divided by the regression coefficient. Values of 0.05 or less are excellent, 0.1 to 0.2 are acceptable, and 0.5 or more are unacceptable.",
+      "back": "Index of precision is the variance divided by the regression coefficient. Values of 0.05 or less are excellent, 0.1 to 0.2 are acceptable, and larger values are not acceptable.",
       "refs": [
         "Ghosh FEP PDF p100"
       ],
@@ -2154,10 +2147,11 @@
     {
       "id": "p4-experimental-077",
       "type": "basic",
-      "front": "Which tissue shows nicotinic acetylcholine action and what blocks it?",
-      "back": "Frog rectus abdominis (and leech dorsal muscle). Curare blocks the response; eserine potentiates it.",
+      "front": "Which tissue shows nicotinic acetylcholine action and what sensitises it to acetylcholine?",
+      "back": "Frog rectus abdominis. Its acetylcholine action is nicotinic, and eserine (physostigmine) sensitises the muscle to acetylcholine.",
       "refs": [
-        "Ghosh FEP PDF p133"
+        "Ghosh FEP PDF p13",
+        "Ghosh FEP PDF p36"
       ],
       "pyq": [],
       "status": "draft",
@@ -2166,22 +2160,6 @@
         "mechanism"
       ],
       "level": 1
-    },
-    {
-      "id": "p4-experimental-078",
-      "type": "basic",
-      "front": "What does blood do to an acetylcholine solution, and how is that slowed?",
-      "back": "Blood cholinesterase destroys acetylcholine, so activity falls quickly. Eserine (an anticholinesterase) slows this loss.",
-      "refs": [
-        "Ghosh FEP PDF p133"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-experimental-tissues",
-      "tags": [
-        "mechanism"
-      ],
-      "level": 2
     },
     {
       "id": "p4-experimental-079",
@@ -2275,51 +2253,6 @@
       "level": 1
     },
     {
-      "id": "p4-experimental-082",
-      "type": "shortnote",
-      "front": "Short note: Organ-on-a-chip and in silico models in drug evaluation",
-      "level": 3,
-      "subtopic": "p4-experimental-tissues",
-      "tags": [
-        "newer-drugs"
-      ],
-      "sections": [
-        {
-          "h": "Organ-on-a-chip",
-          "points": [
-            "Models complex physiology more accurately than current cell-based assays"
-          ]
-        },
-        {
-          "h": "In silico",
-          "points": [
-            "Experiment performed by computer simulation",
-            "Already used to predict genotoxicity of chemicals"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Cell-based and chip models cannot show whole-body systemic effects",
-            "Computer hits must be confirmed in the laboratory: in one docking study about half the predicted molecules were active"
-          ]
-        }
-      ],
-      "refs": [
-        "Golan PDF p954",
-        "Sarkar p21-25",
-        "Ghosh FEP PDF p184"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
       "id": "p4-experimental-083",
       "type": "basic",
       "front": "What is an in silico experiment?",
@@ -2384,10 +2317,9 @@
       "id": "p4-experimental-085",
       "type": "basic",
       "front": "Why is an enzyme-inhibiting drug a drug-interaction risk?",
-      "back": "Competitive inhibition of a cytochrome P450 isoenzyme slows metabolism of co-administered drugs, raising their plasma levels. In vitro microsome tests can screen for this before clinical use.",
+      "back": "A drug that inhibits a CYP isoenzyme slows metabolism of co-administered drugs and raises their plasma levels, e.g. erythromycin and cimetidine raise theophylline levels.",
       "refs": [
-        "Sarkar p121-125",
-        "Sarkar p286-290"
+        "KDT8 PDF p260"
       ],
       "pyq": [],
       "status": "draft",
@@ -2410,8 +2342,7 @@
         {
           "h": "Use",
           "points": [
-            "Measures sodium, potassium and similar ions",
-            "In the Langendorff heart it estimates potassium in the coronary outflow"
+            "Flame photometry estimates potassium in the coronary outflow of the Langendorff heart"
           ]
         },
         {
@@ -2453,50 +2384,35 @@
         {
           "h": "Chemical models of type I",
           "points": [
-            "Alloxan and streptozotocin (STZ) destroy beta cells; both produce DNA damage through free radicals or alkylation",
-            "STZ in adult rats (about 40 mg/kg IV): animals with blood glucose above 200 to 300 mg% are selected"
+            "Alloxan and streptozotocin (STZ) destroy beta cells; alloxan acts through DNA lesions and free radicals, STZ through DNA alkylation"
           ]
         },
         {
           "h": "Models of type II",
           "points": [
-            "Neonatal STZ: single dose to 1 to 5 day old pups gives impaired glucose tolerance and hyperglycaemia",
-            "Nicotinamide plus STZ and low-dose STZ with high-fat diet also give a type II-like state"
+            "Neonatal STZ: 100 mg/kg to 1-day-old pups or 120 mg/kg to 2 to 5-day-old pups gives impaired glucose tolerance and hyperglycaemia",
+            "Nicotinamide plus STZ: nicotinamide partly protects beta cells against STZ"
           ]
         },
         {
           "h": "Genetic and surgical models",
           "points": [
-            "Obese or diabetic strains: ob/ob mouse, KK mouse, NSY mouse, OLETF rat",
-            "Pancreatectomy of 70 to 90% of the gland produces hyperglycaemia"
+            "Obese strains: ob/ob mouse, Zucker fatty rat",
+            "Partial (70 to 90%) or total pancreatectomy produces hyperglycaemia"
           ]
         },
         {
           "h": "In vitro tests",
           "points": [
-            "Alpha-glucosidase and sucrase inhibition (carbohydrate digestion)",
-            "Insulin secretion from beta cell lines; glucose uptake in muscle and adipocytes"
-          ]
-        },
-        {
-          "h": "Measurement and reading",
-          "points": [
-            "Blood glucose estimated at intervals before and after the test substance",
-            "Chemical models give type I diabetes only, so a type II model is needed separately"
-          ]
-        },
-        {
-          "h": "Conclusion",
-          "points": [
-            "Start with a rapid model, confirm in a type II model, then test mechanism in vitro"
+            "Alpha-glucosidase inhibition (carbohydrate digestion)",
+            "Insulin secretion and glucose uptake in cell or tissue systems"
           ]
         }
       ],
       "refs": [
         "Sarkar p291-295",
         "Sarkar p296-300",
-        "Ghosh FEP PDF p151",
-        "Ghosh FEP PDF p152"
+        "Ghosh FEP PDF p151"
       ],
       "pyq": [
         {
@@ -2516,7 +2432,7 @@
       "id": "p4-experimental-088",
       "type": "basic",
       "front": "Why does streptozotocin destroy pancreatic beta cells?",
-      "back": "STZ is taken up through the GLUT-2 transporter of beta cells. Its nitrosourea group alkylates DNA, and the resulting damage destroys the cells and produces hyperglycaemia.",
+      "back": "STZ is taken up through the GLUT-2 transporter of beta cells. Its cytotoxicity is attributed to alkylation of DNA, which destroys the beta cells and produces hyperglycaemia.",
       "refs": [
         "Sarkar p291-295",
         "Ghosh FEP PDF p151"
@@ -2533,7 +2449,7 @@
       "id": "p4-experimental-089",
       "type": "basic",
       "front": "How is the neonatal STZ model of type II diabetes made?",
-      "back": "A single dose of STZ is given to 1-day-old pups (about 100 mg/kg i.p.), or about 120 mg/kg to 2 to 5-day-old pups. Beta cells then behave like those of type II patients.",
+      "back": "STZ 100 mg/kg i.p. to 1-day-old pups, or 120 mg/kg i.p. to 2-, 3- or 5-day-old pups. The beta cells then resemble those of type 2 patients.",
       "refs": [
         "Sarkar p296-300"
       ],
@@ -2565,7 +2481,7 @@
         {
           "h": "Chemical",
           "points": [
-            "Pentylenetetrazol (PTZ) clonic seizures; strychnine, picrotoxin and bicuculline convulsions"
+            "Pentylenetetrazol (PTZ) clonic seizures"
           ]
         },
         {
@@ -2575,24 +2491,18 @@
           ]
         },
         {
-          "h": "Genetic models",
-          "points": [
-            "GAERS and WAG/Rij rats (absence), audiogenic-seizure mice, GEPR rats: spontaneous seizures"
-          ]
-        },
-        {
           "h": "Reading",
           "points": [
-            "Ethosuximide suppresses PTZ clonic seizures without changing MES; carbamazepine raises threshold to both"
+            "Ethosuximide suppresses PTZ clonic seizures at doses producing no other discernible effect",
+            "Carbamazepine modifies MES and raises the threshold to PTZ and electroshock"
           ]
         }
       ],
       "refs": [
         "Sarkar p301-305",
         "Sarkar p306-310",
-        "Medhi PMECP PDF p94",
-        "KDT8 PDF p456",
-        "KDT8 PDF p455"
+        "KDT8 PDF p455",
+        "KDT8 PDF p456"
       ],
       "pyq": [
         {
@@ -2616,26 +2526,20 @@
         {
           "h": "Electrical",
           "points": [
-            "Brief high-intensity shock to the head or corneal electroshock of a rodent"
+            "Brief high-intensity shock to the head or corneal electroshock in rodents"
           ]
         },
         {
           "h": "Chemical convulsants",
           "points": [
-            "PTZ, strychnine, picrotoxin and bicuculline (bicuculline is used in focal seizure tests)",
-            "Pilocarpine: status epilepticus at about 380 to 400 mg/kg i.p. in rats; lithium pre-treatment lowers the dose"
+            "PTZ, picrotoxin, bicuculline and isoniazid induced convulsions",
+            "Pilocarpine: status epilepticus at 380 to 400 mg/kg i.p. in rats; lithium pretreatment lowers the dose"
           ]
         },
         {
           "h": "Electrical kindling",
           "points": [
-            "Repeated stimulation of the hippocampal perforant path or amygdala leads to partial seizures that generalise"
-          ]
-        },
-        {
-          "h": "Genetic",
-          "points": [
-            "Spontaneous seizures in strains such as GAERS and audiogenic-seizure mice"
+            "Repeated amygdala stimulation gives partial seizures that generalise"
           ]
         }
       ],
@@ -2656,11 +2560,10 @@
     {
       "id": "p4-experimental-092",
       "type": "basic",
-      "front": "Which seizure does the maximal electroshock test produce and what is recorded?",
-      "back": "Tonic flexion, tonic extension and clonic convulsions after a brief high-intensity shock to the head. The test checks protection against tonic-clonic (generalised) seizures.",
+      "front": "What seizure does the maximal electroshock test produce, and what marks protection?",
+      "back": "Tonic-clonic (grand mal) seizures. Protection is taken as abolition of hindlimb extensor tonic convulsions.",
       "refs": [
-        "KDT8 PDF p452",
-        "Medhi PMECP PDF p94"
+        "Sarkar p301-305"
       ],
       "pyq": [],
       "status": "draft",
@@ -2717,15 +2620,14 @@
           "h": "Models",
           "points": [
             "Spontaneously hypertensive rat (SHR) and related strains",
-            "Drug- or hormone-induced: cholinomimetic (physostigmine, oxotremorine), angiotensin II infusion, cadmium, chronic L-NAME",
-            "Transgenic rats overexpressing renin (TGR)"
+            "Drug-induced: cholinomimetic (physostigmine, oxotremorine), angiotensin II infusion"
           ]
         },
         {
           "h": "Measurement",
           "points": [
             "Tail-cuff pressure and heart rate in conscious rats",
-            "Invasive arterial pressure in anaesthetised animals (cat, rat) with autonomic drugs"
+            "Invasive arterial pressure in anaesthetised animals with autonomic drugs"
           ]
         },
         {
@@ -2738,9 +2640,9 @@
       ],
       "refs": [
         "Sarkar p301-305",
+        "Sarkar p331-335",
         "Medhi PMECP PDF p223",
-        "Ghosh FEP PDF p116",
-        "Sarkar p331-335"
+        "Sarkar p291-295"
       ],
       "pyq": [
         {
@@ -2775,10 +2677,9 @@
         {
           "h": "Animal models",
           "points": [
-            "SHR: hypertension with complications; SHRSP, obese SHR",
+            "SHR: hypertension with complications of hypertension",
             "Wistar fatty rats: hypertension with hyperinsulinaemia",
-            "Induced: cholinomimetic (central then sympathetic), angiotensin II over 4 to 8 weeks, cadmium, chronic nitric oxide inhibition",
-            "Transgenic renin rats (TGR mREN2) model local renin-angiotensin activity"
+            "Induced: cholinomimetic (physostigmine, oxotremorine) and angiotensin II infusion"
           ]
         },
         {
@@ -2792,22 +2693,21 @@
           "h": "Isolated and organ models",
           "points": [
             "Rabbit aorta: calcium antagonism tested by relaxation after KCl",
-            "Langendorff and isolated heart-lung preparations: coronary and cardiac effects"
+            "Langendorff heart: coronary flow and contractility"
           ]
         },
         {
           "h": "Limitations",
           "points": [
-            "Models may not match essential hypertension (e.g. renal sodium handling in the Milan strain)",
-            "Drug-induced models show mechanism but are artificial"
+            "Models may not match essential hypertension (Milan strain: renal sodium and water handling)"
           ]
         }
       ],
       "refs": [
         "Sarkar p301-305",
+        "Sarkar p291-295",
         "Sarkar p331-335",
-        "Medhi PMECP PDF p223",
-        "Ghosh FEP PDF p116"
+        "Medhi PMECP PDF p223"
       ],
       "pyq": [
         {
@@ -2855,7 +2755,7 @@
       "id": "p4-experimental-099",
       "type": "basic",
       "front": "Cholinomimetic-induced hypertension: how is it mediated?",
-      "back": "Physostigmine and oxotremorine raise blood pressure through central cholinergic activation, with a peripheral sympathetic component. Pre-treatment with methylscopolamine blocks the initial fall.",
+      "back": "Physostigmine and oxotremorine raise blood pressure through central cholinergic activation, with a peripheral sympathetic component.",
       "refs": [
         "Sarkar p301-305"
       ],
@@ -2880,8 +2780,6 @@
         {
           "h": "Challenges",
           "points": [
-            "Models of acute heart failure are first induced (e.g. barbiturate overdose) before a positive inotrope can be judged",
-            "Some hypertension models need weeks to develop (angiotensin II 4 to 8 weeks)",
             "Arrhythmia models cover WPW, atrial flutter, atrial and ventricular fibrillation"
           ]
         },
@@ -2889,13 +2787,7 @@
           "h": "Non-invasive in animals",
           "points": [
             "Tail-cuff pressure and heart rate in conscious rats",
-            "Isolated heart preparations recording rate, force and coronary flow without surgery on the animal"
-          ]
-        },
-        {
-          "h": "Human side",
-          "points": [
-            "Only the animal methods are grounded in the owner's books; human non-invasive methods are not stated in them"
+            "Isolated (Langendorff) heart preparations record rate, force and coronary flow"
           ]
         }
       ],
@@ -2917,7 +2809,7 @@
       "id": "p4-experimental-101",
       "type": "basic",
       "front": "What does a Langendorff heart preparation measure?",
-      "back": "Heart rate by chronometer, contractile force by a force transducer, coronary flow, left ventricular pressure with dp/dt max, and oxygen consumption in the isolated perfused heart.",
+      "back": "Heart rate by chronometer, contractile force by a force transducer, coronary flow, and left ventricular pressure with dp/dt max in the isolated perfused heart.",
       "refs": [
         "Sarkar p291-295"
       ],
@@ -2958,41 +2850,40 @@
         {
           "h": "Pylorus ligation",
           "points": [
-            "Rats fasted 48 hours, pylorus tied under ether; drug given for two days before",
-            "Killed 19 hours later; gastric pH, free and total acidity measured",
-            "Ulcers graded 0 to 5 by size and severity; ulcer index calculated"
+            "Rats fasted 48 hours, pylorus tied under light ether anaesthesia; drug given for two days before",
+            "Killed 19 hours after ligation; gastric pH, free and total acidity measured",
+            "Ulcers graded 0.5 to 3 by size and number"
           ]
         },
         {
           "h": "Stress ulcer",
           "points": [
-            "Rats fasted 36 to 40 hours, restrained on a wire screen for 24 hours; forced swimming in a glass cylinder"
+            "Rats fasted 36 to 40 hours, then restrained on a wire screen"
           ]
         },
         {
           "h": "Drug-induced ulcer",
           "points": [
-            "Aspirin, phenylbutazone, indomethacin, ibuprofen by gavage; reserpine by injection"
+            "Aspirin, phenylbutazone, indomethacin or ibuprofen by gavage"
           ]
         },
         {
           "h": "Histamine ulcer",
           "points": [
-            "Histamine given to guinea pigs (with antihistamine protection of the animal); stomach examined and ulcers graded"
+            "Histamine given to guinea pigs; stomach examined and ulcers graded"
           ]
         },
         {
           "h": "Anti-secretory",
           "points": [
-            "Continuous recording of gastric acid in anaesthetised rat by pH change with a perfused NaOH solution; histamine or carbachol as secretagogue"
+            "Continuous recording of gastric acid in anaesthetised rat by pH change with perfused NaOH; histamine used as secretagogue"
           ]
         }
       ],
       "refs": [
         "Ghosh FEP PDF p146",
         "Ghosh FEP PDF p147",
-        "Ghosh FEP PDF p148",
-        "Sarkar p341-345"
+        "Ghosh FEP PDF p148"
       ],
       "pyq": [
         {
@@ -3022,14 +2913,14 @@
           "h": "Introduction",
           "points": [
             "Ulcers are produced in animals by pylorus ligation, stress, drugs or histamine",
-            "Protection (cytoprotection) and secretion (antisecretory) are tested separately"
+            "Protection and secretion are tested separately"
           ]
         },
         {
           "h": "Ulcer models",
           "points": [
-            "Shay rat pylorus ligation: fasted rats, ligation, sacrifice after 19 hours, ulcers graded 0 to 5",
-            "Restraint and forced-swim stress ulcers",
+            "Shay rat pylorus ligation: fasted rats, ligation, sacrifice after 19 hours, ulcers graded 0.5 to 3",
+            "Restraint stress ulcer in fasted rats",
             "Aspirin, phenylbutazone, indomethacin or ibuprofen as ulcerogenic agents; test drug given beforehand"
           ]
         },
@@ -3043,14 +2934,13 @@
         {
           "h": "In vitro",
           "points": [
-            "Isolated rat gastric fundus strip for direct contractile effects"
+            "Isolated rat stomach fundus preparation for direct effects"
           ]
         },
         {
           "h": "Interpretation",
           "points": [
-            "Compare ulcer index and acidity with controls and a standard drug",
-            "Confirm in a second model before preclinical toxicity"
+            "Compare ulcer scores and gastric acidity with controls and a standard drug"
           ]
         }
       ],
@@ -3089,7 +2979,7 @@
       "id": "p4-experimental-105",
       "type": "basic",
       "front": "What is the Shay rat model?",
-      "back": "Pyloric ligation in fasted rats. Under light anaesthesia the pylorus is tied, drugs are given beforehand, and the stomach is examined 19 hours later for acidity and ulcers.",
+      "back": "Pylorus ligation in fasted rats. Under light ether anaesthesia the pylorus is tied, the drug is given beforehand, and the rat is killed 19 hours later to measure gastric acidity and ulcers.",
       "refs": [
         "Ghosh FEP PDF p146"
       ],
@@ -3105,10 +2995,9 @@
       "id": "p4-experimental-106",
       "type": "basic",
       "front": "How are gastric ulcers graded in the pylorus ligation model?",
-      "back": "Zero to five, depending on the size and severity of the ulcers (Barrett's grading). An ulcer index is then calculated from these grades.",
+      "back": "Necro-haemorrhagic spots over 2 mm count as ulcers, graded 0.5 (minute, punctate lesions) to 3 (several large lesions) by size and number.",
       "refs": [
-        "Ghosh FEP PDF p146",
-        "Sarkar p341-345"
+        "Ghosh FEP PDF p147"
       ],
       "pyq": [],
       "status": "draft",
@@ -3122,7 +3011,7 @@
       "id": "p4-experimental-107",
       "type": "basic",
       "front": "Name the agents used to produce ulcers in rats.",
-      "back": "Aspirin, phenylbutazone, indomethacin and ibuprofen (given by gavage), and reserpine (injected).",
+      "back": "Aspirin (200 mg/kg), phenylbutazone (100 mg/kg), indomethacin and ibuprofen, given by gavage, produce gastric ulcers in rats.",
       "refs": [
         "Ghosh FEP PDF p147"
       ],
@@ -3163,13 +3052,13 @@
         {
           "h": "Transit",
           "points": [
-            "Charcoal meal in mice: drug 45 minutes before; charcoal travel as percentage of small intestine length"
+            "Charcoal meal in mice: drug given by gavage 45 minutes before; charcoal travel as percentage of small intestine length"
           ]
         },
         {
           "h": "Diarrhoea",
           "points": [
-            "Castor oil in mice: copious (++), mild (+) or none (0) scored; activity score counts double for ++"
+            "Castor oil in mice: copious (++), mild (+) or none (0) scored two hours later"
           ]
         },
         {
@@ -3183,18 +3072,11 @@
           "points": [
             "Mouse defaecation: faeces counted over 4 hours; percentage reduction against control"
           ]
-        },
-        {
-          "h": "Isolated gut",
-          "points": [
-            "Isolated guinea pig ileum or rabbit duodenum for direct effects of drug on contraction"
-          ]
         }
       ],
       "refs": [
         "Ghosh FEP PDF p148",
-        "Ghosh FEP PDF p149",
-        "Ghosh FEP PDF p82"
+        "Ghosh FEP PDF p149"
       ],
       "pyq": [
         {
@@ -3214,7 +3096,7 @@
       "id": "p4-experimental-110",
       "type": "basic",
       "front": "Charcoal meal test: what is the endpoint?",
-      "back": "Distance travelled by the charcoal meal along the small intestine, expressed as a percentage of total small-intestine length, 15 minutes after gavage.",
+      "back": "Distance travelled by the charcoal meal along the small intestine in mice, expressed against control, shows whether a drug inhibits or promotes motility.",
       "refs": [
         "Ghosh FEP PDF p148"
       ],
@@ -3230,7 +3112,7 @@
       "id": "p4-experimental-111",
       "type": "basic",
       "front": "Castor oil test: what is scored in mice and in rats?",
-      "back": "In mice, diarrhoea is scored as copious, mild or none. In rats, the intraluminal fluid volume between the pylorus and caecum is measured.",
+      "back": "In mice, diarrhoea is scored as copious (++), mild (+) or none (0) two hours after castor oil. In rats, the intraluminal fluid volume between the pylorus and caecum is measured.",
       "refs": [
         "Ghosh FEP PDF p149"
       ],
@@ -3255,33 +3137,26 @@
         {
           "h": "Behavioural tests",
           "points": [
-            "Catalepsy in rodents: a drug-induced posture is maintained; typical antipsychotics produce it",
+            "Catalepsy in rodents: drug-induced posture maintained; typical antipsychotics produce it",
             "Foot-shock induced aggression in mice; artificial hibernation in rats; influence on behaviour of cotton rats"
           ]
         },
         {
           "h": "Why catalepsy",
           "points": [
-            "Catalepsy correlates with extrapyramidal side effects, which are mediated by dopamine blockade"
+            "Catalepsy is used to identify extrapyramidal side effects, which are linked to dopamine blockade"
           ]
         },
         {
           "h": "Receptor basis",
           "points": [
-            "Phenothiazine and butyrophenone neuroleptics block D2 receptors and, to some extent, D1 receptors"
-          ]
-        },
-        {
-          "h": "Validity",
-          "points": [
-            "A valid model should show antipsychotic activity and predict clinical efficacy"
+            "Typical neuroleptics block D2 receptors and, to some extent, D1 receptors"
           ]
         }
       ],
       "refs": [
         "Sarkar p306-310",
-        "Medhi PMECP PDF p213",
-        "Medhi PMECP PDF p214"
+        "Medhi PMECP PDF p213"
       ],
       "pyq": [
         {
@@ -3306,10 +3181,10 @@
       "id": "p4-experimental-113",
       "type": "basic",
       "front": "What is catalepsy in a rodent test, and what does it predict?",
-      "back": "A drug-induced failure to move out of an imposed posture. It predicts extrapyramidal side effects, which come from dopamine blockade.",
+      "back": "Catatonia in rats: failure to correct an externally imposed posture for a long time. Neuroleptics that block nigrostriatal dopamine produce it, so it flags extrapyramidal side effects.",
       "refs": [
         "Sarkar p306-310",
-        "Medhi PMECP PDF p214"
+        "Medhi PMECP PDF p213"
       ],
       "pyq": [],
       "status": "draft",
@@ -3323,9 +3198,10 @@
       "id": "p4-experimental-114",
       "type": "basic",
       "front": "Which receptor do typical antipsychotics block?",
-      "back": "Mainly dopamine D2 receptors, with some alpha-adrenergic blockade for phenothiazines and butyrophenones.",
+      "back": "Typical antipsychotics mainly block dopamine D2 receptors. Phenothiazines such as prochlorperazine also have H1 antihistaminic action.",
       "refs": [
-        "Medhi PMECP PDF p213"
+        "KDT8 PDF p199",
+        "Sarkar p306-310"
       ],
       "pyq": [],
       "status": "draft",
@@ -3350,26 +3226,19 @@
           "points": [
             "Forced swim test and tail suspension test in mice: immobility time reduced by antidepressants",
             "Learned helplessness in rats (originally inescapable shock in dogs)",
-            "Chronic mild stress: uncontrollable mild stressors over days"
-          ]
-        },
-        {
-          "h": "Mechanism-based",
-          "points": [
-            "Reserpine-induced hypothermia; amphetamine and norepinephrine potentiation; tetrabenazine antagonism; 5-HTP potentiation; yohimbine toxicity"
+            "Chronic mild stress: uncontrollable mild stressors"
           ]
         },
         {
           "h": "In vitro",
           "points": [
-            "Inhibition of tritiated noradrenaline, dopamine or serotonin uptake in brain synaptosomes",
-            "Binding to monoamine transporters"
+            "Inhibition of tritiated noradrenaline, dopamine or serotonin uptake in rat brain synaptosomes"
           ]
         },
         {
           "h": "Reading",
           "points": [
-            "Effect is judged by suppression or reduction of immobility time, with statistics"
+            "Effect judged by reduction in immobility time"
           ]
         }
       ],
@@ -3447,27 +3316,27 @@
         {
           "h": "Thermal",
           "points": [
-            "Hot plate at 55 C: reaction time (lick of paw) with cut-off of 30 seconds",
-            "Tail-flick under radiant heat; tail-immersion at 55 C"
+            "Hot plate at 55 C: reaction time for paw licking, with a 30 second cut-off",
+            "Tail-flick under radiant heat; tail immersion in hot water"
           ]
         },
         {
           "h": "Chemical",
           "points": [
-            "Writhing test: phenylquinone or acetic acid i.p. in mice; 4% NaCl writhing in rats (said to predict analgesia in man)"
+            "Writhing test: phenylquinone or acetic acid i.p. in mice"
           ]
         },
         {
-          "h": "Mechanical and electrical",
+          "h": "Mechanical",
           "points": [
-            "Tail clip in mice (pressure) and other pain-state models with mechanical or electrical stimuli"
+            "Mechanical stimuli such as strain gauges and von Frey filaments in pain-state models"
           ]
         },
         {
           "h": "Controls",
           "points": [
-            "Discoordination test on a rotating drum to exclude sedation or muscle relaxation",
-            "Naloxone antagonism (pA2) with different tests"
+            "Discoordination test on a rotating wire-mesh drum excludes false positives from motor impairment",
+            "pA2 value from antagonist combination with different tests"
           ]
         }
       ],
@@ -3475,8 +3344,7 @@
         "Ghosh FEP PDF p142",
         "Ghosh FEP PDF p143",
         "Ghosh FEP PDF p144",
-        "Sarkar p331-335",
-        "Sarkar p336-340"
+        "Sarkar p331-335"
       ],
       "pyq": [
         {
@@ -3507,7 +3375,7 @@
       "id": "p4-experimental-121",
       "type": "basic",
       "front": "Tail-flick test: what is the endpoint?",
-      "back": "The time the animal takes to withdraw its tail from a radiant heat source, with pre-selection of animals whose baseline times are consistent.",
+      "back": "The time the animal takes to withdraw its tail from a radiant heat source.",
       "refs": [
         "Ghosh FEP PDF p143"
       ],
@@ -3523,10 +3391,9 @@
       "id": "p4-experimental-122",
       "type": "basic",
       "front": "Why run a discoordination test with analgesic screening?",
-      "back": "Animals placed on a slowly rotating wire-mesh drum that fall off are excluded. Sedatives and muscle relaxants can give false positive analgesic results.",
+      "back": "Animals that fall off a slowly rotating wire-mesh drum are excluded. The test removes animals with motor impairment, because drugs that impair movement can give false positive analgesic results.",
       "refs": [
-        "Ghosh FEP PDF p142",
-        "Medhi PMECP PDF p218"
+        "Ghosh FEP PDF p142"
       ],
       "pyq": [],
       "status": "draft",
@@ -3550,33 +3417,25 @@
           "h": "Motor coordination",
           "points": [
             "Rota-rod: fore and hind limb coordination on a rotating rod",
-            "Horizontal bar, static rods and parallel bars; chimney test"
+            "Horizontal bar, static rods and parallel bars measure coordination on static apparatus"
           ]
         },
         {
           "h": "Muscle strength",
           "points": [
-            "Traction (grip strength) test on a horizontal wire: animal must grip and climb within 5 seconds",
-            "Inclined plane for muscle relaxants"
+            "Horizontal bar also needs forelimb strength"
           ]
         },
         {
           "h": "Reflexes",
           "points": [
-            "Righting reflex loss: CNS depressants cause loss of righting in animals at a dose"
-          ]
-        },
-        {
-          "h": "Chimney test",
-          "points": [
-            "Mouse climbs back out of a glass tube; failure within 30 seconds means relaxed muscles"
+            "Loss of righting reflex is a sign of acute CNS depression or toxicity"
           ]
         }
       ],
       "refs": [
         "Sarkar p346-350",
-        "Medhi PMECP PDF p200",
-        "Medhi PMECP PDF p202"
+        "Ghosh FEP PDF p156"
       ],
       "pyq": [
         {
@@ -3591,7 +3450,7 @@
       "id": "p4-experimental-124",
       "type": "basic",
       "front": "What does the rota-rod test measure?",
-      "back": "Motor coordination of the fore and hind limbs. Drugs that impair coordination make the animal fall from the rotating rod sooner.",
+      "back": "Motor coordination of the fore and hind limbs. Drugs that impair coordination make the animal fall from the rotating rod; in mice a fall within 120 seconds counts as impaired.",
       "refs": [
         "Medhi PMECP PDF p202",
         "Sarkar p346-350"
@@ -3608,9 +3467,9 @@
       "id": "p4-experimental-125",
       "type": "basic",
       "front": "Why is loss of the righting reflex used to judge CNS depressants?",
-      "back": "Almost all CNS depressant drugs cause loss of the righting reflex at a certain dose, so it is an ideal simple measure of depression.",
+      "back": "Loss of the righting reflex is listed among the signs of acute toxicity and CNS depression, so it gives a simple measure of depression.",
       "refs": [
-        "Medhi PMECP PDF p200"
+        "Ghosh FEP PDF p156"
       ],
       "pyq": [],
       "status": "draft",
@@ -3621,67 +3480,12 @@
       "level": 2
     },
     {
-      "id": "p4-experimental-126",
-      "type": "shortnote",
-      "front": "Short note: Experimental evaluation of diuretic agents",
-      "level": 2,
-      "subtopic": "p4-experimental-animal-models",
-      "tags": [
-        "uses"
-      ],
-      "sections": [
-        {
-          "h": "Clinical evaluation",
-          "points": [
-            "Saluretic, natriuretic and carbonic anhydrase inhibitory effects tested in healthy volunteers"
-          ]
-        },
-        {
-          "h": "Site of action",
-          "points": [
-            "Potassium-sparing diuretics act on distal tubule and collecting duct and give a mild saluretic effect",
-            "Thiazides act on the cortical diluting segment"
-          ]
-        },
-        {
-          "h": "Haemodynamic",
-          "points": [
-            "Some diuretics first dilate veins, reducing filling pressure, before any saluretic effect appears"
-          ]
-        },
-        {
-          "h": "Gap",
-          "points": [
-            "Preclinical rodent diuretic screening methods are not stated in the owner books"
-          ]
-        }
-      ],
-      "refs": [
-        "Medhi PMECP PDF p15",
-        "KDT8 PDF p637",
-        "KDT8 PDF p640"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2021,
-          "marks": 10
-        },
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
       "id": "p4-experimental-127",
       "type": "basic",
-      "front": "Where do potassium-sparing diuretics act?",
-      "back": "In the distal convoluted tubule and collecting duct. They produce only a mild saluretic effect.",
+      "front": "What is a key safety risk of potassium-sparing diuretics in renal failure?",
+      "back": "They are contraindicated because they can cause hyperkalaemia, which leads to cardiac depression.",
       "refs": [
-        "KDT8 PDF p637"
+        "KDT8 PDF p96"
       ],
       "pyq": [],
       "status": "draft",
@@ -3695,7 +3499,7 @@
       "id": "p4-experimental-128",
       "type": "basic",
       "front": "Why can a diuretic relieve congestion before its saluretic action?",
-      "back": "Venodilator action increases venous capacitance and lowers ventricular filling pressure first. This is prostaglandin mediated and precedes the saluretic response.",
+      "back": "Venodilator action increases venous capacitance and lowers ventricular filling pressure before the saluretic response appears.",
       "refs": [
         "KDT8 PDF p640"
       ],
@@ -3720,37 +3524,22 @@
         {
           "h": "Aim",
           "points": [
-            "Demonstrate temporary, fully reversible sterility in laboratory animals",
-            "Rats are commonly used; mice, rabbits and monkeys also possible"
+            "Screen for antifertility effects in laboratory animals (rats in the tests below)"
           ]
         },
         {
           "h": "Female tests",
           "points": [
             "Cohabitation test: vaginal smear for seven days; pairing; pregnancy and litter counts",
-            "Unilateral ovariectomy: ovarian weight fall means ovulation inhibition",
+            "Unilateral ovariectomy: ovarian weight of the other ovary compared with control",
             "Uterine weight changes (oestrogenic); deciduoma (progestational)",
-            "Implants, resorptions, histology"
-          ]
-        },
-        {
-          "h": "Male tests",
-          "points": [
-            "Cohabitation with two known-fertile females; sperm from the epididymis",
-            "Testing over 12 weeks covers the 9-week spermatogenic cycle; oligospermia or aspermia shows suppression"
-          ]
-        },
-        {
-          "h": "Mechanism",
-          "points": [
-            "Anti-ovulatory, oestrogenic, anti-gonadotrophic, progestational, anti-progestational, pre-implantation tests"
+            "Number of implants and resorptions of foetuses"
           ]
         }
       ],
       "refs": [
         "Ghosh FEP PDF p150",
-        "Ghosh FEP PDF p151",
-        "Sarkar p346-350"
+        "Ghosh FEP PDF p151"
       ],
       "pyq": [
         {
@@ -3767,38 +3556,6 @@
       "status": "draft"
     },
     {
-      "id": "p4-experimental-130",
-      "type": "basic",
-      "front": "What does a fall in ovarian weight after unilateral ovariectomy indicate?",
-      "back": "Inhibition of ovulation through suppressed follicle-stimulating hormone, so the treated ovary weight is lower than the control.",
-      "refs": [
-        "Ghosh FEP PDF p151"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-experimental-animal-models",
-      "tags": [
-        "mechanism"
-      ],
-      "level": 1
-    },
-    {
-      "id": "p4-experimental-131",
-      "type": "basic",
-      "front": "What does a deciduoma test show?",
-      "back": "Development of a deciduoma in the uterus indicates progestational action.",
-      "refs": [
-        "Ghosh FEP PDF p151"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-experimental-animal-models",
-      "tags": [
-        "mechanism"
-      ],
-      "level": 1
-    },
-    {
       "id": "p4-experimental-132",
       "type": "shortnote",
       "front": "Short note: Screening for an antimalarial agent",
@@ -3811,25 +3568,19 @@
         {
           "h": "Resistance",
           "points": [
-            "Artemisinin resistance (delayed parasite clearance) and mutations that confer resistance are already reported"
+            "Delayed parasite clearance has been reported with artemisinins"
           ]
         },
         {
           "h": "Combination",
           "points": [
-            "Combination with longer-acting partner drugs protects against selection of artemisinin resistance"
-          ]
-        },
-        {
-          "h": "Gap",
-          "points": [
-            "Preclinical antimalarial screening methods (e.g. in vivo rodent malaria tests) are not in the owner books"
+            "Artemisinins are used only in combination (ACT) with a long-acting drug that acts by a different mechanism"
           ]
         }
       ],
       "refs": [
         "GG14 PDF p1312",
-        "Katzung16 PDF p990"
+        "KDT8 PDF p898"
       ],
       "pyq": [
         {
@@ -3853,10 +3604,11 @@
     {
       "id": "p4-experimental-133",
       "type": "basic",
-      "front": "Why is combination therapy used in malaria?",
-      "back": "Combinations with longer-acting partner drugs protect the artemisinin component from selection of resistant parasites.",
+      "front": "Which regimen is used for uncomplicated falciparum malaria with artemisinins?",
+      "back": "An artemisinin-based combination therapy (ACT): an artemisinin given with a partner drug.",
       "refs": [
-        "Katzung16 PDF p990"
+        "KDT8 PDF p898",
+        "KDT8 PDF p899"
       ],
       "pyq": [],
       "status": "draft",
@@ -3879,21 +3631,14 @@
         {
           "h": "Why useful",
           "points": [
-            "Vertebrate with a backbone, so closer to humans than fruit fly or worm models",
-            "Embryo develops into a newly formed fish in 2 to 4 days and can be watched under a microscope"
-          ]
-        },
-        {
-          "h": "Practical",
-          "points": [
-            "Kept at high density in small tanks, so cheaper than many laboratory animals",
-            "Lifespan about 5 years; adult length about 6 cm"
+            "Vertebrate model: Danio rerio, used for embryo development and genetics",
+            "Alimentary tract resembles human"
           ]
         },
         {
           "h": "Use",
           "points": [
-            "Studies of embryo development and genetics"
+            "Important model in cardiovascular research such as atherosclerosis and myocardial infarction"
           ]
         }
       ],
@@ -3912,8 +3657,8 @@
     {
       "id": "p4-experimental-135",
       "type": "basic",
-      "front": "Why are zebrafish embryos useful for drug testing?",
-      "back": "They develop into a fish within 2 to 4 days and can be observed under a microscope, allowing early developmental effects to be seen.",
+      "front": "Why is zebrafish a useful model in drug testing?",
+      "back": "Zebrafish (Danio rerio) is a recognised model for vertebrate development and genetics, and its early development can be studied.",
       "refs": [
         "Medhi PMECP PDF p30"
       ],
@@ -3938,29 +3683,19 @@
         {
           "h": "Strains",
           "points": [
-            "Randomly bred strains from the Norway rat; Wistar and Sprague Dawley preferred for handling, sensitivity and low cost",
-            "Albino (pink-eyed white) rat is the oldest purposely bred mutation"
+            "Derived from the Norway rat; Wistar and Sprague Dawley preferred for easy handling, sensitivity and low cost"
           ]
         },
         {
-          "h": "Special strains",
+          "h": "Hypertensive strains",
           "points": [
-            "Nude rat: no normal thymus and no mature T cells; preferred in immunological research",
-            "Hypertensive strains such as the SHR and the Milan strain are used for hypertension research"
-          ]
-        },
-        {
-          "h": "Suitability",
-          "points": [
-            "Used for behaviour, pharmacology, physiology, neurosciences, immunogenetics, transplantation, cancer risk, cardiovascular disease and ageing",
-            "Development of inbred, congenic and recombinant strains widened their use"
+            "SHR and the Milan strain are used in hypertension research"
           ]
         }
       ],
       "refs": [
         "Medhi PMECP PDF p25",
-        "Medhi PMECP PDF p28",
-        "Sarkar p301-305"
+        "Sarkar p291-295"
       ],
       "pyq": [
         {
@@ -3990,8 +3725,8 @@
     {
       "id": "p4-experimental-138",
       "type": "basic",
-      "front": "What is a nude rat?",
-      "back": "A rat that lacks a normal thymus and mature T cells, is nearly hairless, and is preferred in immunological research.",
+      "front": "What is a nude mouse?",
+      "back": "A hairless genetic mutant mouse that lacks a thymus gland.",
       "refs": [
         "Medhi PMECP PDF p25"
       ],
@@ -4014,21 +3749,9 @@
       ],
       "sections": [
         {
-          "h": "Background",
-          "points": [
-            "Introduced into Europe from South America about 400 years ago"
-          ]
-        },
-        {
           "h": "Diet",
           "points": [
-            "Cannot make its own vitamin C, so ascorbic acid is added: 200 mg/L daily in chow-only diets, or 1 g/L weekly if fed greens"
-          ]
-        },
-        {
-          "h": "Breeding",
-          "points": [
-            "Newborns eat solid food by day 5 and are weaned by 2 weeks; oestrous cycle 13 to 20 days (average 16)"
+            "Cannot make its own vitamin C, so ascorbic acid must be added to the chow"
           ]
         },
         {
@@ -4039,9 +3762,8 @@
         }
       ],
       "refs": [
-        "Medhi PMECP PDF p25",
         "Medhi PMECP PDF p26",
-        "Ghosh FEP PDF p82"
+        "Ghosh FEP PDF p100"
       ],
       "pyq": [
         {
@@ -4056,7 +3778,7 @@
       "id": "p4-experimental-140",
       "type": "basic",
       "front": "Why must guinea pigs be given vitamin C?",
-      "back": "Guinea pigs cannot synthesise vitamin C, so it must be added to their diet (200 mg/L daily on chow alone).",
+      "back": "Guinea pigs cannot synthesise vitamin C, so it must be added to their chow.",
       "refs": [
         "Medhi PMECP PDF p26"
       ],
@@ -4094,22 +3816,14 @@
         {
           "h": "Drawback",
           "points": [
-            "Homogeneous strains are unwise in toxicity testing, because unexpected effects appear in wider variability",
-            "Heterozygous outbred stock improves robustness"
-          ]
-        },
-        {
-          "h": "Genetic quality",
-          "points": [
-            "Inbred and mutant mice are the preferred models for identifying genes; genetic characterisation is needed"
+            "Homogeneous strains are unwise for toxicity testing"
           ]
         }
       ],
       "refs": [
         "Sarkar p276-280",
         "Ghosh FEP PDF p224",
-        "Ghosh FEP PDF p156",
-        "Medhi PMECP PDF p24"
+        "Ghosh FEP PDF p156"
       ],
       "pyq": [
         {
@@ -4149,7 +3863,7 @@
         {
           "h": "Production",
           "points": [
-            "Prepare a gene construct; introduce it by DNA microinjection, embryonic stem cell mediated transfer, or retrovirus",
+            "Gene construct introduced by DNA microinjection, embryonic stem cell mediated transfer or retrovirus",
             "Germ-line chimeras are bred until homozygous transgenic animals are obtained"
           ]
         },
@@ -4162,15 +3876,7 @@
         {
           "h": "Applications",
           "points": [
-            "Knockout mice model inherited human disease and test treatments",
-            "Knock-in of human immunoglobulin genes gives humanised antibodies",
-            "Stem-cell gene correction is a foreseen clinical use"
-          ]
-        },
-        {
-          "h": "Ethics",
-          "points": [
-            "Ethical and welfare issues apply to transgenic animal use"
+            "Knock-in of human immunoglobulin genes gives humanised antibodies"
           ]
         }
       ],
@@ -4232,8 +3938,8 @@
         {
           "h": "Acute",
           "points": [
-            "Single dose; LD50 in a rodent and a non-rodent by two routes",
-            "Signs recorded: tremors, convulsions, ataxia, sedation, respiratory depression"
+            "Single dose; LD50 in a rodent and a non-rodent",
+            "Signs recorded: tremors, convulsions, sedation, respiratory depression"
           ]
         },
         {
@@ -4243,15 +3949,9 @@
           ]
         },
         {
-          "h": "Chronic",
-          "points": [
-            "Daily doses for six months in rat and dog; renal and hepatic function, haematology and histology"
-          ]
-        },
-        {
           "h": "Special",
           "points": [
-            "Effects on fertility and teratogenic potential if the drug will be used in women of childbearing age"
+            "Effects on fertility and teratogenic potential, if the drug will be used in women of childbearing age"
           ]
         }
       ],
@@ -4272,7 +3972,7 @@
       "id": "p4-experimental-147",
       "type": "basic",
       "front": "Why are two species used in toxicity studies?",
-      "back": "Species differ in their response to toxins. A toxic effect seen in both rat and dog probably involves a common mechanism that is likely in man; an effect in only one species is less likely to occur in man.",
+      "back": "Species differ in their responses to toxic agents, so at least two species (usually a rodent and a non-rodent) are used in toxicity testing.",
       "refs": [
         "Ghosh FEP PDF p156"
       ],
@@ -4288,7 +3988,7 @@
       "id": "p4-experimental-148",
       "type": "basic",
       "front": "What is the purpose of the LD50 in acute toxicity?",
-      "back": "It finds the single dose that kills 50% of a species, for a 24-hour test with one rodent and one non-rodent by two routes.",
+      "back": "The single dose that kills 50% of animals. Acute toxicity studies use at least two species, a rodent and a non-rodent.",
       "refs": [
         "Ghosh FEP PDF p156"
       ],
@@ -4329,27 +4029,20 @@
         {
           "h": "Starting point",
           "points": [
-            "No observed adverse effect level (NOAEL) in the most sensitive animal species"
+            "NOAEL established by preclinical toxicology in a rodent 2-week study"
           ]
         },
         {
           "h": "Conversion",
           "points": [
-            "Convert to human equivalent dose (HED) by body surface area",
-            "Divide HED by a default safety factor of 10 for the maximum recommended starting dose"
-          ]
-        },
-        {
-          "h": "Caution",
-          "points": [
-            "Dose escalation is slow; first doses are well below the NOAEL"
+            "Clinical starting dose is generally 1/50th of the rodent NOAEL dose (not a microdose)",
+            "Body surface area conversion of animal to human doses"
           ]
         }
       ],
       "refs": [
-        "Sarkar p211-215",
-        "Bioequivalence PDF p234",
-        "Ghosh FEP PDF p160"
+        "Sarkar p206-210",
+        "Medhi PMECP PDF p40"
       ],
       "pyq": [
         {
@@ -4364,10 +4057,10 @@
       "id": "p4-experimental-151",
       "type": "basic",
       "front": "What is the no observed adverse effect level (NOAEL)?",
-      "back": "The highest dose in animal studies at which no adverse effect is seen. It is the starting point for estimating the first human dose.",
+      "back": "The highest dose in animal studies at which no adverse effect is seen. It is used to set the first human starting dose.",
       "refs": [
-        "Sarkar p211-215",
-        "Medhi PMECP PDF p119"
+        "Sarkar p206-210",
+        "Sarkar p251-255"
       ],
       "pyq": [],
       "status": "draft",
@@ -4380,10 +4073,10 @@
     {
       "id": "p4-experimental-152",
       "type": "basic",
-      "front": "What safety factor is applied to the human equivalent dose?",
-      "back": "A default safety factor of 10 is divided into the HED to give the maximum recommended starting dose.",
+      "front": "What starting dose is generally used for a first human study, relative to the rodent NOAEL?",
+      "back": "About one-fiftieth (1/50th) of the rodent NOAEL dose.",
       "refs": [
-        "Sarkar p211-215"
+        "Sarkar p206-210"
       ],
       "pyq": [],
       "status": "draft",
@@ -4412,26 +4105,13 @@
         {
           "h": "In vitro",
           "points": [
-            "Bacterial reverse mutation (Ames) test in two or three bacteria; mammalian cells for gene mutation, clastogenicity, aneuploidy"
-          ]
-        },
-        {
-          "h": "In vivo",
-          "points": [
-            "Dose-dependent in vivo tests on a case-by-case basis; transgenic animals are more appropriate",
-            "Mammalian bone marrow cells for somatic mutation"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Spontaneous reversions occur in each strain; the choice of extra test depends on chemical structure"
+            "Bacterial reverse mutation (Ames) test using amino acid-dependent strains",
+            "Mammalian cells for gene mutation, clastogenicity and aneuploidy"
           ]
         }
       ],
       "refs": [
-        "Sarkar p256-260",
-        "KDT8 PDF p107"
+        "Sarkar p256-260"
       ],
       "pyq": [
         {
@@ -4471,27 +4151,13 @@
         {
           "h": "In vivo",
           "points": [
-            "Histopathological and behavioural neurotoxicity in adult rodents",
-            "Dosing for 28 days or more than 90 days; memory, sensory and learning changes evaluated"
-          ]
-        },
-        {
-          "h": "In vitro",
-          "points": [
-            "In vitro neurotoxicity testing recommended by regulators since 1998",
-            "Systems: neural cell lines, organotypic explants, re-aggregating cultures"
-          ]
-        },
-        {
-          "h": "Limits",
-          "points": [
-            "Rodent neurotoxicity relies on histology and behaviour, so subtle effects may be missed"
+            "Neurotoxicity studies in rodents assess effects of the test substance on the CNS",
+            "Histopathological and behavioural examination of the animals"
           ]
         }
       ],
       "refs": [
-        "Sarkar p256-260",
-        "Ghosh FEP PDF p184"
+        "Sarkar p256-260"
       ],
       "pyq": [
         {
@@ -4588,20 +4254,19 @@
         {
           "h": "Reproduction",
           "points": [
-            "Embryotoxicity and developmental toxicity; one-generation and two-generation reproduction studies"
+            "Embryotoxicity and developmental toxicity; reproduction studies"
           ]
         },
         {
           "h": "Neuro and local",
           "points": [
-            "Neurotoxicity studies in rodents; local toxicity",
-            "Acute inhalation, topical, skin sensitisation, photo-allergy and dermal photo-toxicity; vaginal and rectal tolerance"
+            "Neurotoxicity studies in rodents; local toxicity"
           ]
         },
         {
           "h": "Dossier link",
           "points": [
-            "Animal pharmacology and animal toxicology are required parts of the IND and NDA"
+            "Preclinical animal safety studies precede human trials"
           ]
         }
       ],
@@ -4622,10 +4287,9 @@
       "id": "p4-experimental-159",
       "type": "basic",
       "front": "What is the purpose of a subacute toxicity study?",
-      "back": "Daily dosing for a shorter period (about two to three weeks in rats) to find organ, body weight and haematology changes before a long-term study.",
+      "back": "Daily dosing for about two to three weeks in rats, to detect organ and other changes before longer studies.",
       "refs": [
-        "Ghosh FEP PDF p156",
-        "Ghosh FEP PDF p157"
+        "Ghosh FEP PDF p156"
       ],
       "pyq": [],
       "status": "draft",
@@ -4646,30 +4310,15 @@
       ],
       "sections": [
         {
-          "h": "Role",
-          "points": [
-            "Biomarkers help discover the mechanism and pathway of disease and the response to treatment",
-            "Biomarker data are added to studies by therapeutic area"
-          ]
-        },
-        {
           "h": "Surrogate markers",
           "points": [
             "Serum enzyme levels such as liver enzymes serve as surrogate markers of toxicity",
-            "Overt toxicity and exaggerated pharmacodynamic effects are used with them to set the NOAEL"
-          ]
-        },
-        {
-          "h": "Translational",
-          "points": [
-            "Translational medicine links animal and human biomarker data"
+            "Overt toxicity, surrogate markers and exaggerated pharmacodynamic effects are the three findings used to determine the NOAEL"
           ]
         }
       ],
       "refs": [
-        "Medhi PMECP PDF p119",
-        "Medhi PMECP PDF p366",
-        "Sarkar p21-25"
+        "Medhi PMECP PDF p119"
       ],
       "pyq": [
         {
@@ -4715,26 +4364,12 @@
           "h": "Generics vs biosimilars",
           "points": [
             "Generics: small, well-defined molecules; bioequivalence studies in healthy volunteers",
-            "Biosimilars: large, complex and variable molecules; large clinical trials in patients",
-            "Biosimilar manufacturing needs more quality tests and is sensitive to production change"
-          ]
-        },
-        {
-          "h": "Regulators",
-          "points": [
-            "WHO Expert Committee on Biological Standardisation has guidelines for biotherapeutic similarity"
-          ]
-        },
-        {
-          "h": "Dossier",
-          "points": [
-            "IND and NDA include animal pharmacology and toxicology, clinical data and prescribing information"
+            "Biosimilars: large, complex molecules; large clinical trials in patients"
           ]
         }
       ],
       "refs": [
-        "Sarkar p541-545",
-        "Sarkar p251-255"
+        "Sarkar p541-545"
       ],
       "pyq": [
         {
@@ -4749,7 +4384,7 @@
       "id": "p4-experimental-163",
       "type": "basic",
       "front": "How do biosimilar approval requirements differ from generics?",
-      "back": "Generics need bioequivalence studies in healthy volunteers. Biosimilars need large clinical trials in patients, because the molecules are complex and cannot be fully characterised.",
+      "back": "Generics need bioequivalence studies in healthy volunteers. Biosimilars need large clinical trials in patients, because the molecules are large and complex.",
       "refs": [
         "Sarkar p541-545"
       ],
@@ -4764,8 +4399,8 @@
     {
       "id": "p4-experimental-164",
       "type": "basic",
-      "front": "What does the owner's text say about drug dependence risk in CNS drugs?",
-      "back": "Recreational use of some CNS-acting drugs can lead to physical dependence, with large societal impact.",
+      "front": "Why is recreational use of some CNS-acting drugs a public-health concern?",
+      "back": "It can lead to physical dependence, with enormous societal impact.",
       "refs": [
         "GG14 PDF p324"
       ],
@@ -4818,30 +4453,26 @@
         {
           "h": "Aim",
           "points": [
-            "Predict efficacy and toxicity before first human exposure",
-            "Pharmacological profile tested in animals at each step of development"
+            "Predict efficacy and toxicity before first human exposure"
           ]
         },
         {
           "h": "Utility",
           "points": [
-            "Screening, mechanism, pharmacokinetics and toxicity studies in two species",
-            "Lead optimisation, preclinical development and IND filing follow the animal data"
+            "Screening, mechanism, pharmacokinetics and toxicity studies in two species"
           ]
         },
         {
           "h": "Limits",
           "points": [
             "Species differ; an effect in one species does not guarantee the human effect",
-            "Inbred strains give less variation but may hide unexpected effects",
-            "Man is a distinct species, so safe animal dose is not always safe in man"
+            "Inbred strains give less variation but may hide unexpected effects"
           ]
         }
       ],
       "refs": [
         "Sarkar p251-255",
-        "Ghosh FEP PDF p156",
-        "Ghosh FEP PDF p160"
+        "Ghosh FEP PDF p156"
       ],
       "pyq": [
         {
@@ -4865,26 +4496,20 @@
         {
           "h": "Diet-induced",
           "points": [
-            "High-fat diet fed to rats, with or without low-dose STZ, gives a metabolic state like type 2 diabetes"
+            "Nicotinamide plus STZ model gives a type 2-like state"
           ]
         },
         {
           "h": "Genetic",
           "points": [
-            "Ob/ob mouse and Zucker-derived Wistar fatty rats; hyperinsulinaemia develops after 16 weeks in the fatty rat"
-          ]
-        },
-        {
-          "h": "Caution",
-          "points": [
-            "Diet and genetic models differ in the cause of obesity"
+            "Ob/ob mouse and Zucker fatty rat models of obesity",
+            "Wistar fatty rat: hyperinsulinaemia and hypertension"
           ]
         }
       ],
       "refs": [
         "Sarkar p296-300",
-        "Sarkar p291-295",
-        "Sarkar p301-305"
+        "Sarkar p291-295"
       ],
       "pyq": [
         {
@@ -4933,20 +4558,20 @@
           "points": [
             "Electroshock (MES) and chemical (PTZ) tests in rodents for activity",
             "Genetic and kindling models to check efficacy against epilepsy types",
-            "Confirm with motor-impairment tests (rota-rod) to check side effects"
+            "Rota-rod to check motor impairment as a side effect"
           ]
         },
         {
           "h": "Toxicity and dose",
           "points": [
-            "Acute, subacute and chronic toxicity in a rodent and a non-rodent",
-            "First human dose from the NOAEL with a safety factor of 10"
+            "Acute, subacute and chronic toxicity studied in a rodent and a non-rodent",
+            "First human dose estimated from the NOAEL by conversion (about 1/50th of the rodent NOAEL)"
           ]
         },
         {
           "h": "Clinical",
           "points": [
-            "After the IND is filed, human studies proceed through clinical trial phases",
+            "Human studies proceed through clinical trial phases",
             "Animal findings guide the human dose and monitoring"
           ]
         }
@@ -4954,8 +4579,8 @@
       "refs": [
         "Sarkar p301-310",
         "Medhi PMECP PDF p200",
-        "Sarkar p211-215",
-        "Sarkar p251-255"
+        "Sarkar p206-210",
+        "Sarkar p36-40"
       ],
       "pyq": [
         {
@@ -4986,31 +4611,26 @@
         {
           "h": "Types",
           "points": [
-            "Protein-ligand docking to screen candidate molecules",
-            "Models of cellular behaviour and of disease (e.g. an in silico tuberculosis model)",
-            "Prediction of genotoxicity of chemicals"
+            "Protein-ligand docking to screen candidate molecules"
           ]
         },
         {
           "h": "Advantages",
           "points": [
-            "Speeds up discovery and reduces the need for costly laboratory work and trials",
+            "Speeds discovery and reduces the need for costly laboratory work and trials",
             "Can be used before any animal or human exposure"
           ]
         },
         {
           "h": "Disadvantages",
           "points": [
-            "Hits must be confirmed in the laboratory: about half the molecules in one docking study were active",
+            "Hits must be confirmed in the laboratory",
             "Depends on the quality of the underlying model and data"
           ]
         }
       ],
       "refs": [
-        "Sarkar p21-25",
-        "Medhi PMECP PDF p56",
-        "Medhi PMECP PDF p354",
-        "Golan PDF p954"
+        "Sarkar p21-25"
       ],
       "pyq": [
         {
@@ -5025,7 +4645,7 @@
       "id": "p4-experimental-171",
       "type": "basic",
       "front": "Give one example of an in silico docking study mentioned in the owner's text.",
-      "back": "Protein-ligand docking (EADock) found potential inhibitors of a cancer-associated enzyme; about half the predicted molecules were later shown active in the laboratory.",
+      "back": "Protein-ligand docking (EADock, 2010) identified potential inhibitors of a cancer-associated enzyme in silico; fifty percent of the molecules were later shown to be active in vitro.",
       "refs": [
         "Sarkar p21-25"
       ],
@@ -5076,7 +4696,7 @@
       "front": "Cell-line cytotoxicity test: what is measured?",
       "back": "Growth of actively dividing mammalian cells in microplate wells, with and without the test material; colour intensity tracks cell number.",
       "refs": [
-        "Ghosh FEP PDF p222"
+        "Ghosh FEP PDF p198"
       ],
       "pyq": [
         {
@@ -5098,7 +4718,7 @@
       "front": "Why run a normal cell line beside cancer cell lines?",
       "back": "To judge selectivity: whether the material hits cancer cells more than normal cells.",
       "refs": [
-        "Ghosh FEP PDF p222"
+        "Ghosh FEP PDF p198"
       ],
       "pyq": [
         {
@@ -5115,34 +4735,12 @@
       "level": 1
     },
     {
-      "id": "p4-experimental-176",
-      "type": "basic",
-      "front": "MTT and XTT assays: what is the principle?",
-      "back": "Mitochondria of viable cells reduce the dye to a coloured formazan read on a plate reader. XTT formazan dissolves in water; MTT needs a solubilising step.",
-      "refs": [
-        "Ghosh FEP PDF p223"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p4-experimental-toxicity",
-      "tags": [
-        "mechanism"
-      ],
-      "level": 1
-    },
-    {
       "id": "p4-experimental-177",
       "type": "basic",
       "front": "What is IC50 in cell-line toxicity?",
       "back": "The concentration of material that inhibits a biological or biochemical function by 50 per cent; found by cell counts or cytotoxicity readings.",
       "refs": [
-        "Ghosh FEP PDF p223"
+        "Ghosh FEP PDF p199"
       ],
       "pyq": [
         {
@@ -5164,7 +4762,7 @@
       "front": "How does trypan blue exclusion count living cells?",
       "back": "The dye enters only dead cells, so the unstained cells counted on a haemocytometer are viable.",
       "refs": [
-        "Ghosh FEP PDF p223"
+        "Ghosh FEP PDF p199"
       ],
       "pyq": [
         {
@@ -5186,7 +4784,7 @@
       "front": "Which tests tell apoptosis from necrosis in cell lines?",
       "back": "Fluorescence microscopy (acridine orange and ethidium bromide), confocal imaging with nuclear dyes, DNA fragmentation on agarose gel, and annexin V/propidium iodide flow cytometry.",
       "refs": [
-        "Ghosh FEP PDF p223-224"
+        "Ghosh FEP PDF p199-200"
       ],
       "pyq": [
         {
@@ -5238,7 +4836,7 @@
         }
       ],
       "refs": [
-        "Ghosh FEP PDF p222-224"
+        "Ghosh FEP PDF p198-200"
       ],
       "pyq": [
         {
@@ -5260,7 +4858,7 @@
       "front": "Name two drawbacks of cell-line toxicity assays.",
       "back": "Costly, sophisticated equipment under aseptic conditions; unreliable results for water-insoluble materials unless they dissolve in under 1 per cent DMSO.",
       "refs": [
-        "Ghosh FEP PDF p224"
+        "Ghosh FEP PDF p200"
       ],
       "pyq": [
         {
@@ -5396,7 +4994,7 @@
           "h": "Limits",
           "points": [
             "Lethal endpoint and animal numbers in classical designs",
-            "Single-dose data do not cover repeated-dose toxicity"
+            "Repeated-dose testing (minimum 28 days) is a separate study"
           ]
         }
       ],
@@ -5433,7 +5031,7 @@
           "h": "Aims",
           "points": [
             "Identify target organs and dose range",
-            "Guide the starting dose for later studies"
+            "Target organs and NOEL/NOAEL from low, medium and high doses"
           ]
         },
         {
@@ -5449,7 +5047,7 @@
           "h": "Limitations",
           "points": [
             "Classical LD50 is lethal and uses many animals",
-            "Acute data do not predict repeated-dose or chronic effects"
+            "Repeated-dose (minimum 28 days) and 90-day studies are separate"
           ]
         }
       ],
@@ -5518,7 +5116,7 @@
       "id": "p4-experimental-189",
       "type": "basic",
       "front": "Carcinogenicity study: when is it ended?",
-      "back": "If no tumours appear, it ends after about 18 months in mice and hamsters and 24 months in rats.",
+      "back": "Run over most of the animal's lifespan; if no tumours appear it ends after about 18 months in mice and hamsters and 24 months in rats.",
       "refs": [
         "Sarkar p256-260"
       ],
@@ -5540,7 +5138,7 @@
       "id": "p4-experimental-190",
       "type": "basic",
       "front": "Embryotoxicity study: when is the drug given and when is the foetus examined?",
-      "back": "Dosed from day 8 to 14 of pregnancy; caesarean section on day 21 to examine foetuses.",
+      "back": "Dosed from day 8 to 14 of pregnancy; caesarean section on day 21 to find embryolethal effects and malformations in the foetuses.",
       "refs": [
         "Sarkar p256-260"
       ],
@@ -5580,13 +5178,12 @@
         {
           "h": "Limits",
           "points": [
-            "Systems are bacteria, cells and rodents, so the results need interpretation in humans",
-            "Chromosomal findings depend on the test system"
+            "Dominant lethal assay: the mutation kills the fertilised egg or embryo",
+            "Genotoxicity data for anticancer drugs not required until a phase 2 trial is passed"
           ]
         }
       ],
       "refs": [
-        "Sarkar p251-255",
         "Sarkar p256-260"
       ],
       "pyq": [
@@ -5606,7 +5203,7 @@
     {
       "id": "p4-experimental-192",
       "type": "shortnote",
-      "front": "Short note: Specialised toxicity studies and regulatory requirement",
+      "front": "Short note: Specialised toxicity studies",
       "sections": [
         {
           "h": "Carcinogenicity",
@@ -5632,7 +5229,7 @@
         {
           "h": "Neurotoxicity",
           "points": [
-            "Rodent behaviour, histopathology and neurological function"
+            "Behavioural and histopathological neurotoxicity in adult rodents (neurological dysfunction, memory and learning)"
           ]
         }
       ],

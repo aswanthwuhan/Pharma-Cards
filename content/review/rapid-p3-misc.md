@@ -535,3 +535,26 @@ rf-p3-misc-0367 | corrected | KDT8 PDF p683 | stippled epiphyses not in books; f
 - rf-p3-misc-0568 deleted: calcipotriene for vitiligo is not in any owner book (GG14 ch75 lists it for psoriasis only).
 - Verified: Vi 60% at 3 years, Ty21a 3 capsules on alternate days with 3 years protection (KDT8 ch70); Thai regimen timing (KDT8 ch70); monobenzone 20% (KDT8 ch66).
 - No Prep or RR5 refs.
+
+## Recheck (all new cards, chunk 1/1)
+
+Rapid cards in chunk: 84. Checked against KDT8 ch66-70 and GG14 ch40/ch75. Result: 71 ok, 12 corrected, 1 deleted.
+
+| id | status | source / note |
+|---|---|---|
+| rf-p3-misc-0489 | corrected | refs were GG14 page numbers; now `GG14 ch40`. |
+| rf-p3-misc-0490 | corrected | refs format fixed to `GG14 ch40`. |
+| rf-p3-misc-0492 | corrected | answer was "PRP", not in the books; now type b capsular oligosaccharide conjugated to a protein carrier (KDT8 ch70). Refs KDT8 ch70, GG14 ch40. |
+| rf-p3-misc-0493 | corrected | refs format fixed to `GG14 ch40`. |
+| rf-p3-misc-0494 | corrected | refs format fixed to `GG14 ch40`; AS01B confirmed (GG14 ch40, 2017 approval). |
+| rf-p3-misc-0495 | corrected | refs format fixed to `GG14 ch40`; confirmed 2 doses at 50+. |
+| rf-p3-misc-0496 | corrected | refs format fixed to `GG14 ch40`. |
+| rf-p3-misc-0503 | corrected | removed "as cautery" (not in KDT8 ch66); now "applied carefully to the lesion as 80% w/w solution". |
+| rf-p3-misc-0507 | corrected | answer did not match KDT8 ch67 ideal-antiseptic list; now chemically stable, cheap, nonstaining, cidal (spores), broad-spectrum, brief exposure, spreads through organic films. |
+| rf-p3-misc-0526 | corrected | wrong drug: 50 to 100 mg/kg daily is the deferiprone dose (KDT8 ch68), not desferrioxamine. Q now "Deferiprone: dose". |
+| rf-p3-misc-0562 | corrected | "skin light-sensitive 8 to 12 h" changed to "8 hours or more" (KDT8 ch66 sensitisation). |
+| rf-p3-misc-0566 | deleted | azathioprine restoring vitiligo pigment with topical steroid is not in KDT8 ch66 or GG14 ch75. |
+| rf-p3-misc-0572 | corrected | wording now "3 doses on alternate days" (KDT8 ch70). |
+
+Other ids (71): checked as stated, including talc, starch, calamine, podophyll, chlorine 0.1 to 0.25 ppm, H2O2 10 volumes, vitamin A/E values, TAB, Vi 72% and 60%, cholera, BCG, HDCV, Thai regimen, meningococcal A and C 50 mcg, and the vitiligo PUVA numbers (GG14 ch75).
+Not verified in this chunk: none.

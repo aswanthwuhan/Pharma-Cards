@@ -562,19 +562,6 @@
       ]
     },
     {
-      "id": "rf-p1-biochemical-0060",
-      "subtopic": "p1-biochemical-chromatography",
-      "kind": "fact",
-      "q": "Normal-phase TLC: larger Rf means",
-      "a": "Less polar compound",
-      "refs": [
-        "Sarkar p396-400"
-      ],
-      "tags": [
-        "mechanism"
-      ]
-    },
-    {
       "id": "rf-p1-biochemical-0061",
       "subtopic": "p1-biochemical-chromatography",
       "kind": "fact",
@@ -1034,8 +1021,8 @@
       "id": "rf-p1-biochemical-0096",
       "subtopic": "p1-biochemical-doping",
       "kind": "fact",
-      "q": "Blood doping drug detected by modern assays",
-      "a": "Recombinant erythropoietin (epoetin)",
+      "q": "Recombinant hormone misused for blood doping",
+      "a": "Recombinant erythropoietin (epoetin alfa)",
       "refs": [
         "GG14 PDF p920"
       ],
@@ -1169,27 +1156,7 @@
       "q": "Diagnostic 131I dose range",
       "a": "25-100 microcurie",
       "refs": [
-        "KDT8 ch18"
-      ]
-    },
-    {
-      "id": "rf-p1-biochemical-0109",
-      "subtopic": "p1-biochemical-immunoassays",
-      "kind": "fact",
-      "q": "Radioisotope used for PET tracing",
-      "a": "11C",
-      "refs": [
-        "Medhi PMECP PDF p367"
-      ]
-    },
-    {
-      "id": "rf-p1-biochemical-0110",
-      "subtopic": "p1-biochemical-immunoassays",
-      "kind": "fact",
-      "q": "Radioisotope used for AMS microdose studies",
-      "a": "14C-labelled drug",
-      "refs": [
-        "Medhi PMECP PDF p367"
+        "Padmaja PDF p489"
       ]
     },
     {
@@ -1209,7 +1176,7 @@
       "q": "Enzyme that drives PCR",
       "a": "DNA polymerase",
       "refs": [
-        "Medhi PMECP PDF p102"
+        "Sarkar p406-410"
       ]
     },
     {
@@ -1243,36 +1210,6 @@
       ]
     },
     {
-      "id": "rf-p1-biochemical-0116",
-      "subtopic": "p1-biochemical-immunoassays",
-      "kind": "fact",
-      "q": "Cations in PCR buffer",
-      "a": "Mg2+ and Mn2+ (divalent); K+ (monovalent)",
-      "refs": [
-        "Medhi PMECP PDF p102"
-      ]
-    },
-    {
-      "id": "rf-p1-biochemical-0118",
-      "subtopic": "p1-biochemical-immunoassays",
-      "kind": "fact",
-      "q": "Gene tested for MRSA by PCR",
-      "a": "mecA",
-      "refs": [
-        "GG14 PDF p1151"
-      ]
-    },
-    {
-      "id": "rf-p1-biochemical-0119",
-      "subtopic": "p1-biochemical-immunoassays",
-      "kind": "fact",
-      "q": "Point-of-care PCR result time",
-      "a": "Under 2 h",
-      "refs": [
-        "GG14 PDF p1151"
-      ]
-    },
-    {
       "id": "rf-p1-biochemical-0120",
       "subtopic": "p1-biochemical-immunoassays",
       "kind": "fact",
@@ -1286,9 +1223,10 @@
       "id": "rf-p1-biochemical-0121",
       "subtopic": "p1-biochemical-immunoassays",
       "kind": "fact",
-      "q": "Gel and stain used to view PCR DNA",
+      "q": "Gel and stain used to view separated DNA fragments",
       "a": "Agarose gel with ethidium bromide",
       "refs": [
+        "Ghosh FEP PDF p193",
         "Ghosh FEP PDF p200"
       ]
     },
@@ -1375,7 +1313,7 @@
     {
       "id": "rf-p1-biochemical-0132",
       "subtopic": "p1-biochemical-drug-levels",
-      "kind": "class",
+      "kind": "fact",
       "q": "Biomarker definition",
       "a": "Objectively measured indicator of normal or pathogenic process, or drug response",
       "refs": [
@@ -1419,7 +1357,7 @@
       "q": "Premarketing surrogate endpoints: examples",
       "a": "Blood pressure, lipid levels, HbA1c, CD4 count",
       "refs": [
-        "GG14 PDF p166"
+        "GG14 ch8"
       ]
     },
     {
@@ -1429,7 +1367,7 @@
       "q": "Antiarrhythmics misleading surrogate",
       "a": "Flecainide and encainide: fewer VPDs, more mortality after MI (CAST)",
       "refs": [
-        "GG14 PDF p166"
+        "GG14 ch8"
       ]
     },
     {
@@ -1449,7 +1387,7 @@
       "q": "Genetic test before carbamazepine",
       "a": "HLA-B*1502",
       "refs": [
-        "GG14 PDF p71"
+        "GG14 ch3"
       ]
     },
     {
@@ -1459,7 +1397,7 @@
       "q": "Genetic test before rasburicase",
       "a": "G6PD deficiency",
       "refs": [
-        "GG14 PDF p71"
+        "GG14 ch3"
       ]
     },
     {
@@ -1469,7 +1407,7 @@
       "q": "Gene variants guiding warfarin dose",
       "a": "VKORC1 (AA variant) with CYP2C9",
       "refs": [
-        "GG14 PDF p71"
+        "GG14 ch3"
       ]
     },
     {
@@ -1479,7 +1417,7 @@
       "q": "Melanoma biomarker for vemurafenib",
       "a": "BRAF V600E mutation",
       "refs": [
-        "GG14 PDF p71"
+        "GG14 ch3"
       ]
     },
     {
@@ -1489,7 +1427,7 @@
       "q": "Biomarker for trastuzumab",
       "a": "HER2/neu overexpression",
       "refs": [
-        "GG14 PDF p71"
+        "GG14 ch3"
       ]
     },
     {
@@ -1499,7 +1437,7 @@
       "q": "Biomarker for imatinib",
       "a": "Philadelphia chromosome",
       "refs": [
-        "GG14 PDF p71"
+        "GG14 ch3"
       ]
     },
     {
@@ -1626,7 +1564,7 @@
       "id": "rf-p1-biochemical-0158",
       "subtopic": "p1-biochemical-chromatography",
       "kind": "fact",
-      "q": "Metabolic profiling: main use in new drug development",
+      "q": "Metabolic profiling use in new drug development",
       "a": "Toxicity assessment before clinical trials",
       "refs": [
         "Sarkar p146-150"

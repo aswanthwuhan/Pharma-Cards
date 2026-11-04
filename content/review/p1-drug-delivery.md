@@ -196,3 +196,29 @@ p1-drug-delivery-077 | new | Golan ch55
 - 068: removed "mainly liver and spleen" (not in owner books; Golan says reticuloendothelial system); added Padmaja PDF p30 ref for progestin IUCD.
 - Rapid 0171: KDT8 ch3 ref replaced by Padmaja PDF p30 (IUCD); stents stay on Golan ch55. KDT8 ch3 was not re-checked for this list.
 - Open: pyq entry on 068 uses year 0 (year not given in Q bank). Card 062-067 sit under the transdermal subtopic (no inhaled subtopic exists).
+
+## Recheck (all new cards, chunk 1/1)
+Checked 57 ids (28 study: 050-077; 29 rapid: rf-0143 to rf-0171) against the owner PDFs (KDT8, GG12/GG14, Katzung16, RangDale9, Golan, Padmaja, Bennett, Sarkar) via search.py and pdftotext. No PrepLadder refs. Validator clean.
+
+Study cards corrected:
+- p1-drug-delivery-052: removed "syringe or pen" point (not in books) and pH claim; pump insulin is fast-acting analogue (KDT8 PDF p306); refs KDT8 p300/p306.
+- p1-drug-delivery-053: removed Norplant "six capsules, up to 5 years" and pellet surface-area claim (not in books); rewritten from KDT8 PDF p30/p39/p60.
+- p1-drug-delivery-055: zidovudine now "activated in virus-infected cells" (Padmaja PDF p30); famciclovir and month-long depot claims removed; valaciclovir per KDT8 PDF p862; aspirin per Padmaja p30; bitolterol ester per Sarkar p46-50.
+- p1-drug-delivery-056: siRNA wording removed; GalNAc/ASGR per Rang p137; nab-paclitaxel per GG14 PDF p1384.
+- p1-drug-delivery-059: Norplant duration and conjunctival-sac site not in books; Mirena 5 years per Bennett PDF p667; Ocusert under the lid per Padmaja PDF p30.
+- p1-drug-delivery-060: microneedle claim removed (not in books); Ocusert site corrected to under the lid; refs added Padmaja p30, Bennett p667.
+
+Study cards deleted:
+- p1-drug-delivery-068: duplicate of 057 (both targeted-delivery essays); 057 kept as the broader card.
+- p1-drug-delivery-073: HER2 and E-selectin liposome targets not in owner books (KDT8 PDF p61 says only that antibody tagging is being tried).
+
+Rapid pairs corrected:
+- rf-p1-drug-delivery-0147: answer now "fast-acting insulin analogue" (KDT8 PDF p306).
+- rf-p1-drug-delivery-0149, 0152, 0158, 0171: refs moved to the page that supports the fact (Padmaja PDF p30; GG14 PDF p1384; GG12 PDF p1060; Padmaja PDF p513 for IUCD).
+
+Rapid pairs deleted:
+- rf-p1-drug-delivery-0165 (HER2 liposome target) and rf-p1-drug-delivery-0166 (E-selectin liposome target): not in owner books.
+
+Unverifiable, left as is (WEB refs, not on SOURCE-GAPS list): p1-drug-delivery-051 and rf-p1-drug-delivery-0151 (gastroretentive, WEB NCBI-PMC).
+
+Level minimums after deletions: targeted L1 7 / L2 9 / L3 3; all other subtopics unchanged.

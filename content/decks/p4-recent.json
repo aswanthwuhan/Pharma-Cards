@@ -50,7 +50,9 @@
       "front": "SGLT2 inhibitors: what do they block and where?",
       "back": "They block the SGLT2 transporter in the proximal tubule, so less filtered glucose (with Na+) is reabsorbed and more is lost in urine. Link to later cards: the same drugs also cut heart failure hospitalisation and slow kidney disease.",
       "refs": [
+        "GG14 ch29",
         "GG14 ch51",
+        "Katzung16 ch13",
         "Katzung16 ch41"
       ],
       "pyq": [],
@@ -68,7 +70,7 @@
       "back": "A prodrug whose active metabolite inhibits neprilysin, the enzyme that breaks down ANP and BNP. Blocking it keeps natriuretic peptide effects higher; it is paired with valsartan, an AT1 blocker.",
       "refs": [
         "GG14 ch33",
-        "Katzung16 ch13"
+        "Katzung16 ch17"
       ],
       "pyq": [],
       "status": "draft"
@@ -84,7 +86,8 @@
       "front": "Trimetazidine: what does it inhibit, and what does it not change?",
       "back": "It inhibits long-chain 3-ketoacyl-CoA thiolase (LC3-KAT), a fatty acid oxidation enzyme, shifting the heart toward glucose use. It does not change heart rate or blood pressure, so it is an add-on to usual antianginal therapy.",
       "refs": [
-        "KDT8 ch40"
+        "KDT8 ch40",
+        "GG14 ch31"
       ],
       "pyq": [],
       "status": "draft"
@@ -157,7 +160,7 @@
         "adr"
       ],
       "front": "Finerenone versus spironolactone: why is it called a newer MRA, and what is the shared risk?",
-      "back": "Finerenone is non-steroidal and binds androgen and progesterone receptors less than spironolactone. Both are MR antagonists, so hyperkalaemia remains the main risk, though it is lower with finerenone.",
+      "back": "A non-steroidal MR antagonist with very low affinity for androgen and progesterone receptors, unlike spironolactone. Hyperkalaemia is the principal risk of all MR antagonists, so it is contraindicated in patients with hyperkalaemia.",
       "refs": [
         "GG14 ch29",
         "Katzung16 ch15"
@@ -282,7 +285,7 @@
           "points": [
             "SGLT2 inhibitor: slows kidney disease progression and cuts heart failure hospitalisation",
             "Finerenone: for CKD with type 2 diabetes",
-            "Sacubitril-valsartan: superior to enalapril in HFrEF"
+            "Sacubitril-valsartan: superior to ACE inhibitors in heart failure"
           ]
         },
         {
@@ -299,7 +302,9 @@
         "GG14 ch33",
         "GG14 ch51",
         "Katzung16 ch13",
-        "Katzung16 ch15"
+        "Katzung16 ch15",
+        "Katzung16 ch17",
+        "Katzung16 ch41"
       ],
       "pyq": [],
       "status": "draft"
@@ -384,7 +389,7 @@
         "classification"
       ],
       "front": "Classify: GLP-1 receptor agonists",
-      "text": "{{Exenatide}}, {{liraglutide}}, {{dulaglutide}}, {{lixisenatide}} and {{semaglutide}} are GLP-1 receptor agonists; {{tirzepatide}} also acts on the GIP receptor.",
+      "text": "{{Exenatide}}, {{liraglutide}}, {{dulaglutide}}, {{lixisenatide}}, {{semaglutide}} and {{albiglutide}} are GLP-1 receptor agonists; {{tirzepatide}} also acts on the GIP receptor.",
       "refs": [
         "GG14 ch51",
         "Katzung16 ch41"
@@ -517,7 +522,7 @@
         "interactions"
       ],
       "front": "Bempedoic acid with ezetimibe or a statin: what is gained and what limit applies?",
-      "back": "Monotherapy lowers LDL-C by 15-25%, about 30% with ezetimibe (fixed combination exists), and more with a statin. With bempedoic acid, simvastatin is limited to 20 mg and rosuvastatin to 40 mg because of myopathy risk.",
+      "back": "Bempedoic acid adds LDL-C lowering on top of statins and ezetimibe (complementary mechanisms). With bempedoic acid, simvastatin is limited to 20 mg/day and rosuvastatin to 40 mg/day because of myopathy risk.",
       "refs": [
         "GG14 ch37",
         "Katzung16 ch35"
@@ -534,7 +539,7 @@
         "uses"
       ],
       "front": "Inclisiran versus bempedoic acid: compare route, dosing and adverse effects.",
-      "back": "Inclisiran is an injected siRNA given about twice yearly (effect over 180 days), with injection-site reactions and bronchitis. Bempedoic acid is a daily oral drug with hyperuricaemia/gout, tendon rupture and enzyme rises.",
+      "back": "Inclisiran is an injected siRNA given about every 6 months, with injection-site reactions and influenza-like symptoms. Bempedoic acid is an oral drug with hyperuricaemia/gout, tendon rupture, and raised CK, creatinine or transaminases.",
       "refs": [
         "GG14 ch37",
         "Katzung16 ch35"
@@ -715,7 +720,7 @@
         "mechanism"
       ],
       "front": "Esketamine: what is it, and how is it given?",
-      "back": "The S-enantiomer of ketamine, a high-affinity non-competitive NMDA receptor antagonist, given intranasally as an adjunct in treatment-resistant depression (approved 2019). Dissociation and abuse potential are key concerns.",
+      "back": "The S-enantiomer of ketamine, a potent non-competitive NMDA receptor antagonist, given intranasally as an adjunct for major depression (FDA approved 2019).",
       "refs": [
         "Katzung16 ch30",
         "GG14 ch18"
@@ -777,8 +782,7 @@
       "front": "Gepants versus CGRP monoclonal antibodies: compare.",
       "back": "Gepants are oral small-molecule receptor antagonists (ubrogepant, rimegepant acute; rimegepant, atogepant prevention); first-generation ones had liver toxicity. The antibodies (erenumab on the receptor; eptinezumab, fremanezumab, galcanezumab on the peptide) are injected and used for prevention.",
       "refs": [
-        "Katzung16 ch17",
-        "Katzung16 ch16"
+        "Katzung16 ch17"
       ],
       "pyq": [],
       "status": "draft"
@@ -793,7 +797,7 @@
         "adr"
       ],
       "front": "Esketamine versus brexanolone: compare the two rapid-acting antidepressants.",
-      "back": "Esketamine is intranasal, NMDA antagonist, for treatment-resistant depression, with dissociation. Brexanolone is a GABA-A neurosteroid given as a 60-hour IV infusion for postpartum depression,. Both act more rapidly than usual antidepressants.",
+      "back": "Esketamine is intranasal, an NMDA antagonist for major depression. Brexanolone is a GABA-A neurosteroid given as a 60-hour IV infusion for postpartum depression. Both act more rapidly than usual antidepressants.",
       "refs": [
         "Katzung16 ch30",
         "GG14 ch18"
@@ -947,7 +951,7 @@
         "mechanism"
       ],
       "front": "Cefiderocol: what makes it a siderophore cephalosporin?",
-      "back": "It is bound by bacterial iron transporters and pumped into the cell instead of diffusing through porins, then inhibits cell wall synthesis via PBPs. It is stable to all beta-lactamases, including metallo-beta-lactamases.",
+      "back": "It is bound by bacterial iron transporters and pumped into the cell instead of diffusing through porins, then inhibits cell wall synthesis via PBPs. It is stable to most beta-lactamases, but GG14 notes metallo-beta-lactamases can still degrade it.",
       "refs": [
         "Katzung16 ch43",
         "GG14 ch58"
@@ -966,7 +970,8 @@
       "front": "Baloxavir marboxil: what viral step does it block?",
       "back": "Its active form baloxavir acid inhibits the influenza cap-dependent endonuclease, blocking initiation of viral mRNA synthesis. It is active against influenza A and B.",
       "refs": [
-        "GG14 ch62"
+        "GG14 ch62",
+        "Katzung16 ch49"
       ],
       "pyq": [],
       "status": "draft"
@@ -977,10 +982,11 @@
       "subtopic": "p4-recent-anti-infectives",
       "level": 1,
       "tags": [
-        "mechanism"
+        "uses",
+        "contraindications"
       ],
-      "front": "Molnupiravir: which class and how does it act?",
-      "back": "A ribonucleoside prodrug (NHC) whose triphosphate is incorporated by the viral RNA-dependent RNA polymerase, causing lethal mutagenesis.",
+      "front": "Molnupiravir: what is it used for, and when is it contraindicated?",
+      "back": "Oral COVID-19 antiviral that reduces hospitalisation when started early. Contraindicated in pregnancy and lactation (animal developmental toxicity); should not be used under 18 years (bone and cartilage growth).",
       "refs": [
         "Katzung16 ch49"
       ],
@@ -1141,31 +1147,32 @@
         {
           "h": "Bedaquiline",
           "points": [
-            "Inhibits ATP synthase; QTc boxed warning; CYP3A4 interactions"
+            "Inhibits mycobacterial ATP synthase; QT prolongation risk; CYP3A4 metabolism"
           ]
         },
         {
           "h": "Pretomanid",
           "points": [
-            "Nitroimidazole prodrug activated by F420-dependent nitroreductase; blocks mycolic acid synthesis, releases NO in non-replicating bacilli"
+            "Nitroimidazole prodrug activated by F420-dependent nitroreductase; releases NO in non-replicating bacilli"
           ]
         },
         {
           "h": "BPaL regimen",
           "points": [
-            "Bedaquiline, pretomanid, linezolid for 6 months in XDR, pre-XDR or non-responsive MDR TB"
+            "Bedaquiline, pretomanid, linezolid for 6 months in XDR or treatment-nonresponsive MDR TB"
           ]
         },
         {
           "h": "Cautions",
           "points": [
-            "QT, liver enzymes, linezolid marrow suppression and neuropathy; avoid CYP3A4 inducers such as rifampicin"
+            "QT prolongation with bedaquiline; neuropathy and myelosuppression with linezolid"
           ]
         }
       ],
       "refs": [
         "GG14 ch65",
-        "Katzung16 ch47"
+        "Katzung16 ch47",
+        "KDT8 ch56"
       ],
       "pyq": [
         {
@@ -1219,9 +1226,10 @@
         "mechanism"
       ],
       "front": "Sotorasib: what is its target?",
-      "back": "The mutant KRAS G12C protein: an oral covalent inhibitor that bonds the cysteine found only in the mutant and locks KRAS in its inactive GDP-bound state.",
+      "back": "A covalent inhibitor that binds a cysteine in the mutant KRAS G12C protein, a mutation found in many tumours.",
       "refs": [
-        "GG14 ch71"
+        "GG14 ch1",
+        "Katzung16 ch2"
       ],
       "pyq": [],
       "status": "draft"
@@ -1235,9 +1243,9 @@
         "mechanism"
       ],
       "front": "CAR T-cell therapy: what is it?",
-      "back": "A patient's own T cells are collected and transduced to express a chimeric antigen receptor that joins antibody variable regions to T-cell signalling domains. Products target CD19 or BCMA.",
+      "back": "A patient's own T cells are collected and transduced to express a chimeric antigen receptor that joins antibody variable regions to T-cell signalling domains. Approved products (for example tisagenlecleucel, axicabtagene) target CD19.",
       "refs": [
-        "Katzung16 ch55",
+        "Katzung16 ch54",
         "GG14 ch72"
       ],
       "pyq": [],
@@ -1307,25 +1315,8 @@
       "front": "Ipilimumab versus anti-PD-1 antibodies: compare immune toxicity.",
       "back": "Ipilimumab (anti-CTLA-4) causes immune-related adverse events. Combining anti-PD-1 with anti-CTLA-4 increases how often they occur.",
       "refs": [
-        "GG14 ch72",
-        "Katzung16 ch55"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p4-recent-060",
-      "type": "basic",
-      "subtopic": "p4-recent-oncology-immunology",
-      "level": 2,
-      "tags": [
-        "adr"
-      ],
-      "front": "CAR T cytokine release syndrome: features and treatment?",
-      "back": "Fever, nausea, headache, tachycardia, hypotension and dyspnoea. Tocilizumab is used for severe CAR T cytokine release syndrome.",
-      "refs": [
-        "Katzung16 ch55",
-        "GG14 ch72"
+        "GG14 ch38",
+        "Katzung16 ch54"
       ],
       "pyq": [],
       "status": "draft"
@@ -1494,6 +1485,7 @@
       "front": "Cannabinoid receptors: which two types, and where are they found?",
       "back": "CB1 is high in the brain (CNS); CB2 is mainly on immune cells and peripheral tissues.",
       "refs": [
+        "GG14 ch16",
         "GG14 ch26"
       ],
       "pyq": [],
@@ -1508,9 +1500,10 @@
       "id": "p4-recent-062",
       "type": "basic",
       "front": "Name the two main endocannabinoids.",
-      "back": "Anandamide (AEA), a high-affinity but low-efficacy partial agonist; and 2-arachidonoyl glycerol (2-AG), a less potent but highly efficacious CB1 agonist.",
+      "back": "Anandamide (AEA) and 2-arachidonoyl glycerol (2-AG); 2-AG was the second to be discovered.",
       "refs": [
-        "GG14 ch26"
+        "GG14 ch16",
+        "Katzung16 ch63"
       ],
       "pyq": [],
       "status": "draft",
@@ -1524,7 +1517,7 @@
       "id": "p4-recent-063",
       "type": "basic",
       "front": "THC versus 2-AG at CB1: why does THC act as a weaker signal?",
-      "back": "THC is a low-efficacy agonist at CB1 and CB2, while 2-AG is more efficacious; so THC can blunt endocannabinoid signalling where receptor density is limited.",
+      "back": "THC is a partial agonist at CB1, so it can occlude activation by 2-AG, a full agonist.",
       "refs": [
         "GG14 ch26"
       ],
@@ -1591,7 +1584,8 @@
       "front": "Which anti-obesity drugs are approved as single agents in the USA?",
       "back": "Semaglutide, liraglutide, orlistat, phentermine and cellulose hydrogel. Combinations: phentermine plus topiramate; naltrexone plus bupropion. Lorcaserin was withdrawn in 2020.",
       "refs": [
-        "Katzung16 ch16"
+        "Katzung16 ch16",
+        "GG14 PDF p169"
       ],
       "pyq": [],
       "status": "draft",
@@ -1608,7 +1602,7 @@
       "back": "A CB1 inverse agonist developed for obesity; it reduces CB1 signalling.",
       "refs": [
         "GG14 ch26",
-        "Katzung16 ch16"
+        "Katzung16 PDF p635"
       ],
       "pyq": [],
       "status": "draft",
@@ -1621,11 +1615,11 @@
     {
       "id": "p4-recent-069",
       "type": "basic",
-      "front": "Rimonabant: why was it withdrawn, and why did it fail FDA approval?",
-      "back": "Caused weight loss, but its adverse depressive and neurological symptoms led to market withdrawal; it is not approved in the US.",
+      "front": "Rimonabant: why was it withdrawn?",
+      "back": "It caused weight loss but was withdrawn for toxicity (Katzung). GG14 links its anxiety and depression to central CB1 blockade.",
       "refs": [
-        "GG14 ch26",
-        "Sarkar p456-460"
+        "GG14 PDF p534",
+        "Katzung16 ch16"
       ],
       "pyq": [],
       "status": "draft",
@@ -1655,10 +1649,9 @@
       "id": "p4-recent-071",
       "type": "basic",
       "front": "Phentermine: class, use and key toxicity?",
-      "back": "An amphetamine-like CNS appetite suppressant; combined with topiramate it forms Qsymia (approved in the US in 2012).",
+      "back": "A sympathomimetic appetite suppressant; combined with topiramate as phentermine/topiramate for obesity. Key toxicity: raised blood pressure and heart rate, arrhythmias, insomnia and anxiety.",
       "refs": [
-        "Katzung16 ch16",
-        "RangDale9 ch33"
+        "Katzung16 ch16"
       ],
       "pyq": [],
       "status": "draft",
@@ -1677,21 +1670,21 @@
           "h": "Receptors",
           "points": [
             "CB1 in the brain, CB2 on immune cells",
-            "Endocannabinoids anandamide and 2-AG; THC is a weak agonist"
+            "Endocannabinoids anandamide and 2-AG; THC is a partial agonist"
           ]
         },
         {
           "h": "Appetite",
           "points": [
             "Hypothalamic feeding circuits; fasting raises endocannabinoid levels",
-            "Excess endocannabinoid activity promotes obesity"
+            "Excess peripheral endocannabinoid activity can harm metabolism"
           ]
         },
         {
           "h": "Blockade",
           "points": [
-            "CB1 blockade (rimonabant) cut weight modestly, mainly via energy expenditure",
-            "Withdrawn for anxiety, depression and suicide risk"
+            "CB1 blockade (rimonabant) cut weight mainly via energy expenditure",
+            "Withdrawn for anxiety and depression"
           ]
         },
         {
@@ -1705,8 +1698,7 @@
         {
           "h": "Outlook",
           "points": [
-            "Peripherally restricted CB1 antagonists in development",
-            "Combination drugs approved; lorcaserin withdrawn"
+            "Combination drugs approved; lorcaserin withdrawn in 2020"
           ]
         }
       ],
@@ -1765,7 +1757,7 @@
       "id": "p4-recent-075",
       "type": "basic",
       "front": "Digoxin and the gut: which organism and what effect?",
-      "back": "Eggerthella lenta (a specific strain) reduces the lactone ring of digoxin, so the drug is inactivated; its effect varies between people.",
+      "back": "Eggerthella lenta reduces the lactone ring of digoxin, inactivating the drug.",
       "refs": [
         "GG14 ch6"
       ],
@@ -1781,7 +1773,7 @@
       "id": "p4-recent-076",
       "type": "basic",
       "front": "Antibiotics and the gut microbiome: what happens?",
-      "back": "They reduce susceptible gut microbes and may permanently affect the microbiome of infants; they can also disturb the immune system.",
+      "back": "They reduce susceptible gut microbes and lower microbial diversity, which has been linked to poorer survival with checkpoint inhibitors.",
       "refs": [
         "GG14 ch6"
       ],
@@ -1814,7 +1806,7 @@
       "id": "p4-recent-078",
       "type": "basic",
       "front": "Gut bacteria and immune checkpoint inhibitor response in melanoma?",
-      "back": "Faecalibacterium abundance and high alpha diversity were linked to better response and longer progression-free survival; Bacteroidales abundance to shorter survival.",
+      "back": "Faecalibacterium was linked to longer progression-free survival; higher Bacteroidales abundance to shorter progression-free survival. High alpha diversity predicted response.",
       "refs": [
         "GG14 ch6"
       ],
@@ -1830,7 +1822,7 @@
       "id": "p4-recent-079",
       "type": "basic",
       "front": "Fusobacterium nucleatum: what is its clinical link?",
-      "back": "Associated with shorter survival in colorectal cancer and with recurrence after chemotherapy.",
+      "back": "Associated with shorter survival in colorectal cancer patients.",
       "refs": [
         "GG14 ch6"
       ],
@@ -1857,8 +1849,7 @@
           "h": "Mechanisms",
           "points": [
             "Direct drug metabolism (reduction, hydrolysis, deconjugation)",
-            "Indirect effect on CYPs, transporters and enterohepatic recycling",
-            "Effect on pharmacodynamics"
+            "Drugs such as PPIs and metformin alter gut taxa"
           ]
         },
         {
@@ -1873,8 +1864,7 @@
           "h": "Clinical relevance",
           "points": [
             "Variable efficacy and toxicity between patients",
-            "Antibiotics disturb the microbiome",
-            "Needs inclusion in precision medicine and in bioavailability (F)"
+            "Antibiotics reduce microbial diversity"
           ]
         }
       ],
@@ -1916,7 +1906,7 @@
       "id": "p4-recent-082",
       "type": "basic",
       "front": "What is virtual HTS?",
-      "back": "Docking of thousands or millions of library compounds into a protein's binding site; the top-scoring ones (tens to hundreds) are tested experimentally.",
+      "back": "Computational docking of large libraries into a protein's binding site; top-ranked compounds are then tested experimentally.",
       "refs": [
         "GG14 ch1"
       ],
@@ -1932,39 +1922,7 @@
       "id": "p4-recent-083",
       "type": "basic",
       "front": "AI in drug discovery: how are deep neural networks trained?",
-      "back": "On existing protein-small molecule binding data, DNA-encoded library results and protein structures, to predict binding and design ligands.",
-      "refs": [
-        "GG14 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "mechanism"
-      ],
-      "level": 2
-    },
-    {
-      "id": "p4-recent-084",
-      "type": "basic",
-      "front": "Besides binding, what can AI predict in drug discovery?",
-      "back": "Protein three-dimensional structures, molecular energies by conformation, and properties such as water solubility.",
-      "refs": [
-        "GG14 ch1"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "mechanism"
-      ],
-      "level": 2
-    },
-    {
-      "id": "p4-recent-085",
-      "type": "basic",
-      "front": "Limitation of docking-based virtual screening?",
-      "back": "Not all top-scoring compounds bind well; binders are only enriched relative to the library, so experimental testing is still needed.",
+      "back": "Deep neural networks are trained on large drug and protein datasets to predict binding and help design ligands.",
       "refs": [
         "GG14 ch1"
       ],
@@ -1991,28 +1949,26 @@
         {
           "h": "Techniques",
           "points": [
-            "Structure-based docking and virtual HTS",
-            "Deep neural networks trained on binding and structure data"
+            "Structure-based docking and virtual screening",
+            "Deep neural networks in drug design"
           ]
         },
         {
           "h": "Applications",
           "points": [
-            "Predicting protein-ligand binding and designing ligands",
-            "Predicting protein structure, energies and solubility"
+            "Predicting protein-ligand binding and designing ligands"
           ]
         },
         {
           "h": "Limitations",
           "points": [
-            "Docking enriches binders but does not confirm them",
-            "Experimental validation still required"
+            "Top-scoring computational hits still need experimental testing"
           ]
         },
         {
           "h": "Outlook",
           "points": [
-            "AI and machine learning expected to play a growing role"
+            "Computational methods complement experimental HTS"
           ]
         }
       ],
@@ -2035,23 +1991,6 @@
       "level": 3
     },
     {
-      "id": "p4-recent-087",
-      "type": "basic",
-      "front": "Which JAK inhibitor is approved for severe alopecia areata?",
-      "back": "Baricitinib: once-daily oral drug approved by the FDA in 2022, the first systemic therapy for severe alopecia areata in adults.",
-      "refs": [
-        "Katzung16 ch61"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p4-recent-oncology-immunology",
-      "tags": [
-        "newer-drugs",
-        "uses"
-      ],
-      "level": 1
-    },
-    {
       "id": "p4-recent-088",
       "type": "basic",
       "front": "Baricitinib: class?",
@@ -2071,10 +2010,9 @@
       "id": "p4-recent-089",
       "type": "basic",
       "front": "JAK inhibitors in alopecia areata: what is the evidence status?",
-      "back": "Baricitinib is approved; further JAK inhibitor trials in alopecia areata, lupus, Sjogren syndrome and inflammatory eye disease are ongoing.",
+      "back": "JAK inhibitor trials are ongoing in alopecia areata, lupus, Sjögren syndrome and inflammatory eye disease.",
       "refs": [
-        "GG14 ch39",
-        "Katzung16 ch61"
+        "GG14 ch39"
       ],
       "pyq": [],
       "status": "draft",
@@ -2088,9 +2026,10 @@
       "id": "p4-recent-090",
       "type": "basic",
       "front": "JAK inhibitors: main safety concern?",
-      "back": "Serious infections from immunosuppression and thrombosis; the boxed warning also flags cardiovascular events and certain cancers.",
+      "back": "Serious bacterial, fungal, viral and opportunistic infections; higher rates of thrombosis, cardiovascular death, MI and stroke; higher rate of certain cancers.",
       "refs": [
-        "GG14 PDF p809"
+        "GG14 PDF p809",
+        "Katzung16 ch36"
       ],
       "pyq": [],
       "status": "draft",
@@ -2120,9 +2059,10 @@
       "id": "p4-recent-092",
       "type": "basic",
       "front": "Finasteride in hair loss: class and status?",
-      "back": "A 5-alpha reductase inhibitor; effective in male pattern baldness, with response taking three months or more.",
+      "back": "A 5-alpha reductase inhibitor (blocks testosterone to DHT conversion); used for male pattern baldness.",
       "refs": [
-        "KDT8 ch21"
+        "KDT8 ch21",
+        "Katzung16 ch40"
       ],
       "pyq": [],
       "status": "draft",
@@ -2137,11 +2077,11 @@
       "id": "p4-recent-093",
       "type": "cloze",
       "front": "Classify the drugs used in hair loss.",
-      "text": "Topical potassium-channel opener: {{minoxidil}}; 5-alpha reductase inhibitor: {{finasteride}}; oral JAK inhibitor for alopecia areata: {{baricitinib}}.",
+      "text": "Topical potassium-channel opener: {{minoxidil}}; 5-alpha reductase inhibitor: {{finasteride}}; JAK inhibitor under trial for alopecia areata: {{baricitinib}}.",
       "refs": [
-        "Katzung16 ch11",
-        "Katzung16 ch61",
-        "KDT8 ch21"
+        "KDT8 PDF p626",
+        "KDT8 PDF p341",
+        "GG14 ch39"
       ],
       "pyq": [],
       "status": "draft",
@@ -2175,41 +2115,39 @@
         {
           "h": "Introduction",
           "points": [
-            "Hair loss; alopecia areata listed among autoimmune and inflammatory conditions treated with JAK inhibitors"
+            "Hair loss; JAK inhibitor trials in alopecia areata"
           ]
         },
         {
           "h": "Advances",
           "points": [
-            "Oral JAK inhibitor baricitinib, FDA approved 2022 for severe disease",
-            "JAK inhibitor trials ongoing in alopecia areata and other immune conditions"
+            "JAK inhibitor trials ongoing in alopecia areata, lupus, Sjögren syndrome and inflammatory eye disease"
           ]
         },
         {
           "h": "Risks",
           "points": [
-            "Infection risk from immunosuppression; anaemia and thrombocytopenia"
+            "Serious infections, thrombosis and cardiovascular events; higher rate of certain cancers"
           ]
         },
         {
           "h": "Older options",
           "points": [
-            "Topical minoxidil, slow and incomplete response",
-            "Finasteride is for male pattern baldness"
+            "Topical minoxidil 2%: slow (2 to 6 months) and incomplete response",
+            "Finasteride is approved for early male pattern baldness"
           ]
         },
         {
           "h": "Outlook",
           "points": [
-            "More JAK inhibitors under development"
+            "Trial results pending for JAK inhibitors in these conditions"
           ]
         }
       ],
       "refs": [
-        "Katzung16 ch61",
         "GG14 ch39",
-        "GG14 ch32",
-        "KDT8 ch21"
+        "KDT8 PDF p626",
+        "KDT8 PDF p341"
       ],
       "pyq": [
         {

@@ -245,3 +245,145 @@ Removed before finalising (not renumbered): six drug-level cards that duplicated
 - AEFI: Sarkar p101-105 reports 395 serious AEFIs in 2010 versus 55 in 2006; carded as reported.
 
 Cross-deck note: several regimen cards overlap in theme with p3-tb-leprosy, p3-antiparasitic and p3-antifungal-viral. All question wording in this deck is distinct (no exact duplicate q across those decks, checked); the overlap is thematic only.
+
+### Recheck (all new cards, chunk 1/3)
+
+Checked all 52 Rapid Fire cards in this chunk against KDT8 ch57, ch70 and GG14 ch40 (and Sarkar OCR where cited). 1 corrected, 0 deleted, 0 unverifiable.
+
+Corrected:
+
+- rf-p3-national-programmes-0185: question was "Relapse rate after MDT (up to)"; reworded to "Relapse rate after MDT" (answer "Below 1%" is KDT8 ch57 "< 1%"). Answer unchanged.
+
+Deleted: none.
+
+Grounding status (chunk 1/3):
+
+| id | ok / corrected / deleted | source |
+|---|---|---|
+| rf-p3-national-programmes-0175 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0176 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0177 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0178 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0179 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0180 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0181 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0182 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0183 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0184 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0185 | corrected | KDT8 ch57 |
+| rf-p3-national-programmes-0186 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0187 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0188 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0189 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0191 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0192 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0193 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0194 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0195 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0196 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0197 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0198 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0199 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0200 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0201 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0202 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0203 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0204 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0205 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0206 | ok | KDT8 ch57 |
+| rf-p3-national-programmes-0207 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0208 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0209 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0210 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0211 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0212 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0213 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0214 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0215 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0216 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0217 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0218 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0219 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0220 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0221 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0222 | ok | KDT8 ch70 |
+| rf-p3-national-programmes-0223 | ok | GG14 ch40 |
+| rf-p3-national-programmes-0224 | ok | GG14 ch40 |
+| rf-p3-national-programmes-0225 | ok | GG14 ch40 |
+| rf-p3-national-programmes-0226 | ok | GG14 ch40 |
+| rf-p3-national-programmes-0227 | ok | GG14 ch40 |
+
+### Recheck (all new cards, chunk 2/3)
+
+Chunk 2 of 3 of the rapid cards added since v0.5.5 (100 ids: rf-p3-national-programmes-0228 to 0368, with gaps where ids were never issued). Each card was re-read against its cited passage.
+
+| id | ok / corrected / deleted | source |
+|---|---|---|
+| rf-p3-national-programmes-0228, 0232 | ok | GG14 ch40 (PDF p830: MF59 adjuvant; "negative vaccination") |
+| rf-p3-national-programmes-0229 | corrected | answer restored to "OPV and nasal influenza vaccine sprays". GG14 ch40 (PDF p830) names both as needleless delivery already in use. The earlier note that nasal sprays are in no allowed book was wrong |
+| rf-p3-national-programmes-0233 to 0238, 0240 | ok | Padmaja PDF p683-684 (UIP birth doses, 6/10/14-week schedule, 9-12 month, 16-24 month, 5-6 year, Td; about 27,000 cold-chain points) |
+| rf-p3-national-programmes-0239 | ok | Sarkar p101-105 and p176-180 (AEFI surveillance started with UIP in 1985) |
+| rf-p3-national-programmes-0241 | ok | KDT8 ch56 (RNTCP launched 1997) |
+| rf-p3-national-programmes-0242 to 0251 | ok | Padmaja PDF p684 (2025 aim; ban on serology; NIKSHAY; incentives; INH for under-6 contacts; one category; 2+4 months; airborne control). 0251 also Katzung16 appendix 2 |
+| rf-p3-national-programmes-0252 to 0277, 0294 to 0298 | ok | KDT8 ch56 (MDR and new-case shares; bedaquiline and delamanid; RNTCP 2016 MDR, RR, XDR regimens, durations, dosing; contacts; INH and rifapentine preventive therapy; hepatitis rechallenge; corticosteroids; 3-6 month extension; 2016 previously treated regimen; DST methods) |
+| rf-p3-national-programmes-0299, 0300, 0310 to 0313 | ok | Padmaja PDF p685 (NLEP ASHA case finding and activities; NVBDCP three-pronged strategy and components) |
+| rf-p3-national-programmes-0301 | ok | Katzung16 appendix 2 (PDF p1291: Sparsh campaign against stigma) |
+| rf-p3-national-programmes-0302 to 0309 | ok | KDT8 ch57 (about 12 million before MDT; little over 0.2 million in 2015; 1.28 lakh (92.8%) treated and cured 2015-16, highlights box; HIV; WHO 1998 classes; USA 12/24 months; FDT-24 in 1994; mass-programme aim) |
+| rf-p3-national-programmes-0314 to 0361 | ok | KDT8 ch61 (2016 figures; SP failures 35-44%; CQ resistance 24-83%; PNG 1989; sites; relapse 8-30%; tafenoquine; primaquine 15 mg x 14 d and 0.75 mg/kg weekly; IPTp; mefloquine and doxycycline limits; pfcrt and pfmdr1; artesunate and quinine severe-malaria doses; ACT cure rates and approvals; partner half-life; IV artesunate advantages) |
+| rf-p3-national-programmes-0362 | ok | Katzung16 appendix 2 (PDF p1292: kala-azar in four states, sporadic cases in six other states and UTs) |
+| rf-p3-national-programmes-0363 to 0368 | ok | KDT8 ch62 (98-99% combinations; rescue with higher-dose amphotericin B; AmB-DOC 15 mg/kg total; L-AMB 3-5 mg/kg for 3-5 days; single-dose L-AMB 10 mg/kg; paromomycin 15 mg/kg/day i.m. for 21 days) |
+
+Deleted: none. Unverifiable (UNSOURCED or WEB refs): none in this chunk.
+Noted, not changed: rf-p3-national-programmes-0306. KDT8 ch57 prints the WHO 1998 MB class as "> 6 skin lesions", which leaves 6 unassigned. The card uses "6 or more", the wording of the NLEP 2009 box in the same chapter.
+Duplicates: none. rf-0241 and rf-0017 share the answer "1997" but ask different things (RNTCP launch vs guideline framing); both kept.
+Validator: check ok.
+
+## Recheck (all new cards, chunk 2/3)
+
+Checked the 120 rf- ids in chunk 2 of `.tmp/recheck.json` against their cited sources: KDT8 ch56, ch57, ch61, ch62 (pdftotext), Padmaja printed p660-663 (PDF p683-686), GG14 ch40 (PDF p816, p830), Katzung16 appendix 2 (PDF p1291-1292), Sarkar OCR p176-180.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-national-programmes-0228 to 0232 | ok | GG14 ch40 (MF59 in the 2016-17 influenza vaccine; OPV and nasal influenza sprays as needle-free; "negative vaccination" for autoimmunity) |
+| rf-p3-national-programmes-0233 to 0238 | ok | Padmaja p660-661 (UIP birth doses and 6/10/14-week, 9-12 month, 16-24 month, 5-6 year and Td schedules) |
+| rf-p3-national-programmes-0239 | corrected | Ref changed to Sarkar p176-180 (the 1985 AEFI start is on that range; p101-105 has only the definition). Answer unchanged |
+| rf-p3-national-programmes-0240 | ok | Padmaja p660 (close to 27,000 cold-chain points) |
+| rf-p3-national-programmes-0241 to 0277, 0294 to 0298 | ok | KDT8 ch56 and Padmaja p661-662 as in the earlier log (checked line by line, including the 3.3% and ~20% figures, which KDT8 ch56 gives as worldwide) |
+| rf-p3-national-programmes-0299, 0300, 0310 to 0313 | ok | Padmaja p662 |
+| rf-p3-national-programmes-0301 | ok | Katzung16 appendix 2 (PDF p1291) |
+| rf-p3-national-programmes-0302 to 0305, 0307 to 0309 | ok | KDT8 ch57 (highlights box; MDT section; HIV paragraph; USA regimen; FDT-24 in 1994; mass-programme aim) |
+| rf-p3-national-programmes-0306 | corrected | KDT8 ch57 gives the WHO 1998 MB class as "more than 6 skin lesions, or smear positive". Card changed from "6 or more" (NLEP 2009 wording) to match |
+| rf-p3-national-programmes-0314 to 0361 | ok | KDT8 ch61 (2016 figures; 24-83% CQ resistance in NE India; PNG 1989; Indian sites; 35-44% S/P failures; relapse 8-30%; primaquine doses; IPTp; doxycycline and mefloquine limits; pfcrt and pfmdr1; severe-malaria artesunate and quinine doses; ACT cure rates and approvals; partner half-life; IV artesunate advantages) |
+| rf-p3-national-programmes-0362 | ok | Katzung16 appendix 2 (PDF p1292: sporadic cases in six other states and UTs) |
+| rf-p3-national-programmes-0363 to 0368 | ok | KDT8 ch62 (98-99% combinations; rescue with higher-dose AMB; AMB-DOC 15 mg/kg; L-AMB 3-5 mg/kg for 3-5 days; single-dose L-AMB 10 mg/kg; paromomycin 15 mg/kg/day i.m. for 21 days) |
+
+Deleted: none.
+Unverifiable (UNSOURCED or WEB refs): none in this chunk.
+Duplicates: none in the chunk (checked q+a and q across the whole rapid file).
+Level and basic-card "why" fixes: not applicable to rapid cards (they have no level and no basic back); no study cards in this chunk.
+Validator: `node scripts/validate-content.mjs --check` reports "check ok".
+
+## Recheck (all new cards, chunk 3/3)
+
+Checked the 71 rf- ids in chunk 3 of `.tmp/recheck.json` against their cited sources: KDT8 ch60, ch62, ch63, ch70 (pdftotext), Padmaja printed p660-662 (PDF p683-685; UIP, immunisation schedule and NACP pages, checked on the page image for the cold-chain line), Sarkar OCR p101-105 and p106-110.
+
+| id | status | source |
+|---|---|---|
+| rf-p3-national-programmes-0369 to 0374 | ok | KDT8 ch62 (SSG 20 mg/kg for 30 days, only where sensitive; miltefosine 28 days; NVBDCP 100 mg/day above 25 kg; WHO 150 mg/day above 50 kg; over 95% cure in India; VL in HIV as a sign of AIDS) |
+| rf-p3-national-programmes-0375 to 0385 | ok | KDT8 ch63 (DEC 2 mg/kg TDS; microfilariae cleared in 7 days; 72-126 mg/kg total; no effect on elephantiasis; DEC 6 mg/kg with albendazole yearly; ivermectin 0.2 mg/kg; 5-6 years; doxycycline 100-200 mg/day for 4-6 weeks; DEC reaction and its management; 2-4 mg/kg TDS for tropical eosinophilia) |
+| rf-p3-national-programmes-0386 | ok | KDT8 ch60 (1.8 million new infections in 2016) |
+| rf-p3-national-programmes-0387 to 0389 | ok | Padmaja p662 (PDF p685: NACP sentinel surveillance to monitor trends; bridge population among high-risk groups; aim to minimise socio-economic impact). Refs already correct |
+| rf-p3-national-programmes-0392 to 0407, 0409 to 0423 | ok | KDT8 ch60 (lifelong ART; at least 3 drugs in 2 classes; 3-NRTI regimens not recommended; PI-sparing first line; preferred NRTIs; WHO 2016 first- and second-line regimens; NRTI backbones after failure; change all 3 drugs; efavirenz and nevirapine cross-resistance; combinations to avoid and reasons; failure and IRIS definitions; PEP timing, duration, regimens and nevirapine; PrEP regimen and 51%; NACO 2013 PMTCT, neonatal nevirapine 6 weeks, caesarean above 1000 copies/mL; birth-process transmission; dolutegravir dose doubled with rifampin or efavirenz) |
+| rf-p3-national-programmes-0408 | corrected | Fact unchanged: HIV-RNA not below 50 copies/mL by 6 months. KDT8 ch60 prints "copies/µL" in both places, but GG14 ch64 (PDF p1265) prints "<50 copies/mL", so GG14 ch64 is added to refs as the newer book |
+| rf-p3-national-programmes-0427 to 0429 | ok | Padmaja p660 (2.9 crore pregnant women; 2.67 crore newborns; more than 90 lakh sessions a year) |
+| rf-p3-national-programmes-0431 to 0434 | ok | KDT8 ch70 (pentavalent components; five infections; fewer injections; included in India's Essential Medicines List in 2015) |
+| rf-p3-national-programmes-0435 to 0440 | ok | Sarkar p101-105 (AEFI guidelines revised 2005, 2010, 2015; WHO vaccine vigilance definition; 395 serious AEFIs in 2010; intussusception from rotavirus vaccine led to removal from the US market). Sarkar p106-110 (five AEFI types; serious-AEFI definition) |
+| rf-p3-national-programmes-0441 to 0444 | ok | Padmaja p661 (hepatitis B birth dose within 24 hr; OPV-0 up to 15 days after birth; JE only in JE-endemic districts; PCV not in all states) |
+| rf-p3-national-programmes-0430 | deleted | "UIP cold chain temperature: +2 to +8 degrees Celsius". Padmaja p660 prints the cold-chain range as +20 degrees C to +80 degrees C (checked on the page image). No other owner book gives a UIP cold-chain range (KDT8 ch70, Katzung16, Sarkar and GG14 do not). GG14 gives +2 to +8 degrees C only for COVID-19 vaccine storage, which is a different context. The card cannot be grounded. Owner to decide whether the printed Padmaja range is a typo |
+
+Deleted: rf-p3-national-programmes-0430 (reason above).
+Corrected: rf-p3-national-programmes-0408 (refs only).
+Unverifiable (UNSOURCED or WEB refs): none in this chunk.
+Duplicates: none in the chunk (checked q+a and q across the whole rapid file; near matches such as 0427/0428 and 0401/0402 are different facts).
+Level and basic-card "why" fixes: not applicable to rapid cards (they have no level and no basic back); no study cards in this chunk.
+Count after recheck: 411 rapid cards in p3-national-programmes (412 before, 1 deleted).

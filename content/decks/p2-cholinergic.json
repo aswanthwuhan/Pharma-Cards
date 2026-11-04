@@ -180,7 +180,7 @@
         {
           "h": "Why not systemic",
           "points": [
-            "Rarely given systemically; its effects are brief and widespread"
+            "Rarely given systemically; cholinesterase hydrolyses it quickly, so action is brief"
           ]
         },
         {
@@ -198,7 +198,8 @@
       ],
       "refs": [
         "GG14 PDF p231",
-        "GG14 PDF p1483"
+        "GG14 PDF p1483",
+        "KDT8 ch7"
       ],
       "subtopic": "p2-cholinergic-ach-receptors",
       "tags": [
@@ -376,7 +377,7 @@
       "id": "p2-cholinergic-064",
       "type": "basic",
       "front": "Why are the choline esters short-acting even though they resist cholinesterase?",
-      "back": "Quaternary choline esters are cleared quickly by the kidney. Carbachol and bethanechol resist hydrolysis and last longer, but the choline esters overall are short-acting because of rapid renal elimination.",
+      "back": "Even though they resist cholinesterase hydrolysis (carbachol and bethanechol almost completely), the choline esters are short-acting because of rapid renal elimination.",
       "refs": [
         "GG14 PDF p230"
       ],
@@ -557,8 +558,8 @@
     {
       "id": "p2-cholinergic-072",
       "type": "basic",
-      "front": "Why is methacholine chosen over acetylcholine as an inhaled agent, and what is its key feature?",
-      "back": "Methacholine resists hydrolysis by cholinesterases and is more selective for muscarinic receptors, so it acts longer. Its muscarinic cardiovascular effects predominate over nicotinic actions.",
+      "front": "What is the key difference of methacholine from ACh?",
+      "back": "It is longer acting: its added methyl group resists cholinesterase hydrolysis. Its actions are muscarinic-predominant, with minor nicotinic effects.",
       "refs": [
         "GG14 PDF p230"
       ],
@@ -664,9 +665,10 @@
       "id": "p2-cholinergic-074",
       "type": "basic",
       "front": "What are the contraindications and cautions for anticholinesterase drugs?",
-      "back": "Contraindicated in sick sinus, AV conduction defects and hypotensive states, because their muscarinic action slows the heart and lowers BP. Use cautiously in peptic ulcer, hypertension, asthma, COPD and seizure disorders, which are worsened by raised ACh activity.",
+      "back": "Contraindicated in sick sinus, AV conduction defects and hypotensive states, because accumulated ACh causes bradycardia and fall in cardiac output. Use cautiously in peptic ulcer, hypertension, asthma, COPD and seizure disorders.",
       "refs": [
-        "KDT8 ch7"
+        "KDT8 ch7",
+        "GG14 PDF p246"
       ],
       "pyq": [],
       "status": "draft",
@@ -938,7 +940,8 @@
       ],
       "refs": [
         "GG14 PDF p230",
-        "GG14 PDF p231"
+        "GG14 PDF p231",
+        "KDT8 ch35"
       ],
       "subtopic": "p2-cholinergic-anticholinesterases",
       "tags": [
@@ -2191,31 +2194,13 @@
       "level": 2
     },
     {
-      "id": "p2-cholinergic-054",
-      "type": "basic",
-      "front": "Why are quaternary antimuscarinics preferred for inhaled COPD therapy?",
-      "back": "They are quaternary amines that do not cross the blood-brain barrier or readily cross membranes; inhaled absorption is inefficient, so systemic effects are fewer.",
-      "refs": [
-        "GG14 PDF p232",
-        "GG14 PDF p233"
-      ],
-      "subtopic": "p2-cholinergic-substitutes",
-      "tags": [
-        "uses",
-        "adr"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "level": 2
-    },
-    {
       "id": "p2-cholinergic-058",
       "type": "basic",
       "front": "Why do quaternary antimuscarinics such as ipratropium and tiotropium not cause CNS effects?",
       "back": "They are quaternary amines that do not cross the blood-brain barrier or readily cross membranes. Inhaled absorption is inefficient, so systemic effects are small.",
       "refs": [
-        "GG14 PDF p230",
-        "GG14 PDF p232"
+        "GG14 PDF p232",
+        "GG14 PDF p233"
       ],
       "subtopic": "p2-cholinergic-substitutes",
       "tags": [
@@ -2261,7 +2246,8 @@
       ],
       "refs": [
         "GG14 PDF p232",
-        "GG14 PDF p233"
+        "GG14 PDF p233",
+        "GG14 PDF p237"
       ],
       "subtopic": "p2-cholinergic-substitutes",
       "tags": [
@@ -2416,7 +2402,8 @@
         }
       ],
       "refs": [
-        "GG14 PDF p232"
+        "GG14 PDF p232",
+        "KDT8 ch8"
       ],
       "subtopic": "p2-cholinergic-substitutes",
       "tags": [
@@ -2656,485 +2643,488 @@
       "level": 3
     },
     {
-          "id": "p2-cholinergic-090",
-          "status": "draft",
-          "type": "basic",
-          "front": "What is Alzheimer's disease, and what is its cholinergic defect?",
-          "back": "A progressive neurodegenerative dementia of older people, with amyloid plaques and tau tangles. Brain cholinergic transmission is markedly deficient.",
-          "refs": [
-                "KDT8 ch35"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "mechanism",
-                "uses"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-090",
+      "status": "draft",
+      "type": "basic",
+      "front": "What is Alzheimer's disease, and what is its cholinergic defect?",
+      "back": "A progressive neurodegenerative dementia of older people, with amyloid plaques and tau tangles. Brain cholinergic transmission is markedly deficient.",
+      "refs": [
+        "KDT8 ch35"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-091",
-          "status": "draft",
-          "type": "basic",
-          "front": "Why is donepezil given once daily at bedtime?",
-          "back": "Its half-life is about 70 hours. Rivastigmine and galantamine have shorter half-lives and need twice-daily dosing.",
-          "refs": [
-                "KDT8 ch35"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "pk",
-                "dosing"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-091",
+      "status": "draft",
+      "type": "basic",
+      "front": "Why is donepezil given once daily at bedtime?",
+      "back": "Its half-life is about 70 hours. Rivastigmine and galantamine have shorter half-lives and need twice-daily dosing.",
+      "refs": [
+        "KDT8 ch35"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "pk",
+        "dosing"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-092",
-          "status": "draft",
-          "type": "basic",
-          "front": "How does memantine act in Alzheimer's disease?",
-          "back": "It blocks NMDA-type glutamate receptors in a use-dependent way, limiting glutamate excitotoxicity. It is not a cholinesterase inhibitor.",
-          "refs": [
-                "KDT8 ch35",
-                "GG14 ch21"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "mechanism"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-092",
+      "status": "draft",
+      "type": "basic",
+      "front": "How does memantine act in Alzheimer's disease?",
+      "back": "It blocks NMDA-type glutamate receptors in a use-dependent way, limiting glutamate excitotoxicity. It is not a cholinesterase inhibitor.",
+      "refs": [
+        "KDT8 ch35",
+        "GG14 ch21"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-093",
-          "status": "draft",
-          "type": "basic",
-          "front": "Why was tacrine withdrawn from Alzheimer's therapy?",
-          "back": "It was the first centrally acting anticholinesterase for AD, but caused hepatotoxicity (raised alanine aminotransferase), so its use fell away.",
-          "refs": [
-                "KDT8 ch35",
-                "GG14 ch21"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "adr"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-093",
+      "status": "draft",
+      "type": "basic",
+      "front": "Why was tacrine withdrawn from Alzheimer's therapy?",
+      "back": "It was the first centrally acting anticholinesterase for AD, but caused hepatotoxicity (raised alanine aminotransferase), so its use fell away.",
+      "refs": [
+        "KDT8 ch35",
+        "GG14 ch12"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "adr"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-094",
-          "status": "draft",
-          "type": "basic",
-          "front": "Compare donepezil, rivastigmine and galantamine in Alzheimer's disease.",
-          "back": "Donepezil: reversible, cerebroselective AChE inhibitor, once daily. Rivastigmine: lipophilic carbamate inhibiting AChE and BuChE, also available as a patch. Galantamine: natural alkaloid, selective for cerebral AChE, with some direct nicotinic agonism, twice daily. All three give similar modest benefit.",
-          "refs": [
-                "KDT8 ch35",
-                "GG14 ch21"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "uses",
-                "mechanism"
-          ],
-          "level": 2
+      "id": "p2-cholinergic-094",
+      "status": "draft",
+      "type": "basic",
+      "front": "Compare donepezil, rivastigmine and galantamine in Alzheimer's disease.",
+      "back": "Donepezil: reversible, cerebroselective AChE inhibitor, once daily. Rivastigmine: lipophilic carbamate inhibiting AChE and BuChE, also available as a patch. Galantamine: natural alkaloid, selective for cerebral AChE, with some direct nicotinic agonism, twice daily. All three give similar modest benefit.",
+      "refs": [
+        "KDT8 ch35",
+        "GG14 ch21"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "level": 2
     },
     {
-          "id": "p2-cholinergic-095",
-          "status": "draft",
-          "type": "basic",
-          "front": "What is the cholinergic hypothesis of Alzheimer's disease?",
-          "back": "Acetylcholine deficiency is critical to the symptoms. Support: the ACh deficit is selective, and central antagonists such as atropine can cause a confusional state resembling AD. AD also involves glutamate, 5HT and neuropeptide systems.",
-          "refs": [
-                "GG14 ch21",
-                "KDT8 ch35"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "mechanism"
-          ],
-          "level": 2
+      "id": "p2-cholinergic-095",
+      "status": "draft",
+      "type": "basic",
+      "front": "What is the cholinergic hypothesis of Alzheimer's disease?",
+      "back": "Acetylcholine deficiency is critical to the symptoms. Support: the ACh deficit is selective, and central antagonists such as atropine can cause a confusional state resembling AD. AD also involves glutamate, 5HT and neuropeptide systems.",
+      "refs": [
+        "GG14 ch21",
+        "KDT8 ch35"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
     },
     {
-          "id": "p2-cholinergic-096",
-          "status": "draft",
-          "type": "basic",
-          "front": "What are the main adverse effects of cholinesterase inhibitors in AD?",
-          "back": "GI upset (diarrhoea, nausea, anorexia), muscle pain or cramps, abnormal dreams, fatigue, insomnia and hallucinations. Use with caution in bradycardia or syncope.",
-          "refs": [
-                "GG14 ch21",
-                "KDT8 ch35"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "adr"
-          ],
-          "level": 2
+      "id": "p2-cholinergic-096",
+      "status": "draft",
+      "type": "basic",
+      "front": "What are the main adverse effects of cholinesterase inhibitors in AD?",
+      "back": "GI upset (diarrhoea, anorexia, nausea), muscle pain, weird dreams, fatigue, insomnia and hallucinations. GI effects are the main dose-limiting side effect; bradycardia and syncope are less common.",
+      "refs": [
+        "GG14 ch21",
+        "KDT8 ch35"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "adr"
+      ],
+      "level": 2
     },
     {
-          "id": "p2-cholinergic-097",
-          "status": "draft",
-          "type": "basic",
-          "front": "When is memantine used instead of a cholinesterase inhibitor in AD?",
-          "back": "Memantine is indicated for moderate-to-severe dementia, as evidence in earlier stages is weak. It may replace or supplement cholinesterase inhibitors, which are used in mild or moderate AD.",
-          "refs": [
-                "GG14 ch21",
-                "KDT8 ch35"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "uses"
-          ],
-          "level": 2
+      "id": "p2-cholinergic-097",
+      "status": "draft",
+      "type": "basic",
+      "front": "When is memantine used instead of a cholinesterase inhibitor in AD?",
+      "back": "Memantine is indicated for moderate-to-severe dementia, as evidence in earlier stages is weak. It may replace or supplement cholinesterase inhibitors, which are used in mild or moderate AD.",
+      "refs": [
+        "GG14 ch21",
+        "KDT8 ch35"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     },
     {
-          "id": "p2-cholinergic-098",
-          "status": "draft",
-          "type": "essay",
-          "front": "Essay: Role of cholinesterase activity in nervous and mental disorders",
-          "sections": [
-                {
-                      "h": "Enzymes",
-                      "points": [
-                            "AChE hydrolyses ACh at all cholinergic sites and inactivates it almost instantly",
-                            "BuChE (pseudocholinesterase) is mainly in plasma and metabolises ingested esters"
-                      ]
-                },
-                {
-                      "h": "Alzheimer's disease",
-                      "points": [
-                            "Progressive dementia with amyloid plaques and tau tangles",
-                            "Marked fall in brain ACh and loss of cholinergic neurones: the cholinergic hypothesis",
-                            "Confusion resembling AD follows central antagonists such as atropine"
-                      ]
-                },
-                {
-                      "h": "Central effects of cholinesterase inhibition",
-                      "points": [
-                            "Lipophilic anticholinesterases enter the brain and cause a generalised alerting response",
-                            "Higher doses cause excitement, confusion, disorientation, tremor, convulsions, then coma",
-                            "Physostigmine reverses atropine intoxication and anticholinergic delirium"
-                      ]
-                },
-                {
-                      "h": "Drugs",
-                      "points": [
-                            "Rivastigmine, donepezil and galantamine are the cerebroselective agents used in AD",
-                            "Tacrine was withdrawn for hepatotoxicity"
-                      ]
-                },
-                {
-                      "h": "Mental disorders",
-                      "points": [
-                            "Antipsychotics with strong antimuscarinic action (thioridazine highest) cause dry mouth and constipation",
-                            "Thioridazine has the highest anticholinergic propensity among antipsychotics"
-                      ]
-                }
-          ],
-          "refs": [
-                "KDT8 ch7",
-                "KDT8 ch35",
-                "GG14 ch21",
-                "GG14 ch12",
-                "KDT8 ch32"
-          ],
-          "pyq": [
-                {
-                      "university": "UHSR",
-                      "year": 2025,
-                      "marks": 10
-                }
-          ],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "mechanism",
-                "uses"
-          ],
-          "level": 3
+      "id": "p2-cholinergic-098",
+      "status": "draft",
+      "type": "essay",
+      "front": "Essay: Role of cholinesterase activity in nervous and mental disorders",
+      "sections": [
+        {
+          "h": "Enzymes",
+          "points": [
+            "AChE hydrolyses ACh at cholinergic sites, inactivating it rapidly",
+            "BuChE (pseudocholinesterase) is a second, nonspecific enzyme"
+          ]
+        },
+        {
+          "h": "Alzheimer's disease",
+          "points": [
+            "Progressive dementia with amyloid plaques and tau tangles",
+            "Marked fall in brain ACh and loss of cholinergic neurones: the cholinergic hypothesis",
+            "Confusion resembling AD follows central antagonists such as atropine"
+          ]
+        },
+        {
+          "h": "Central effects of cholinesterase inhibition",
+          "points": [
+            "Lipophilic anticholinesterases enter the brain and cause a generalised alerting response",
+            "Higher doses cause excitement, confusion, disorientation, tremor, convulsions, then coma",
+            "Physostigmine reverses atropine intoxication and anticholinergic delirium"
+          ]
+        },
+        {
+          "h": "Drugs",
+          "points": [
+            "Rivastigmine, donepezil and galantamine are the cerebroselective agents used in AD",
+            "Tacrine was withdrawn for hepatotoxicity"
+          ]
+        },
+        {
+          "h": "Mental disorders",
+          "points": [
+            "Antipsychotics with strong antimuscarinic action (thioridazine highest) cause dry mouth and constipation",
+            "Thioridazine has the highest anticholinergic propensity among antipsychotics"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch7",
+        "KDT8 ch35",
+        "GG14 ch21",
+        "GG14 ch12",
+        "KDT8 ch32",
+        "GG14 PDF p439"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 3
     },
     {
-          "id": "p2-cholinergic-099",
-          "status": "draft",
-          "type": "essay",
-          "front": "Essay: Neurotransmitter dysfunction in Alzheimer's disease; value and limitations of drugs",
-          "sections": [
-                {
-                      "h": "Neurotransmitter dysfunction",
-                      "points": [
-                            "Cholinergic deficit is the most striking defect: atrophy of subcortical cholinergic neurones",
-                            "Glutamate, 5HT and neuropeptide systems are also affected",
-                            "Amyloid and tau pathology drive neuronal damage"
-                      ]
-                },
-                {
-                      "h": "Cholinesterase inhibitors",
-                      "points": [
-                            "Rivastigmine, donepezil and galantamine augment cholinergic transmission",
-                            "Produce modest symptomatic benefit in about half of mild-to-moderate patients",
-                            "Slow decline for a time but do not prevent it; stop if no benefit in about 3 months"
-                      ]
-                },
-                {
-                      "h": "Memantine",
-                      "points": [
-                            "NMDA antagonist for moderate-to-severe AD, given alone or with a cholinesterase inhibitor",
-                            "Better tolerated than cholinesterase inhibitors"
-                      ]
-                },
-                {
-                      "h": "Limitations",
-                      "points": [
-                            "No disease modification; disease progression is not affected",
-                            "GI, muscle and sleep adverse effects; caution with bradycardia",
-                            "Tacrine hepatotoxicity; benefit is limited and short-lasting"
-                      ]
-                },
-                {
-                      "h": "Other approaches",
-                      "points": [
-                            "IV anti-amyloid antibodies clear plaques and are FDA approved (GG14)",
-                            "Used alongside symptomatic drugs"
-                      ]
-                }
-          ],
-          "refs": [
-                "KDT8 ch35",
-                "GG14 ch21"
-          ],
-          "pyq": [
-                {
-                      "university": "UHSR",
-                      "year": 2025,
-                      "marks": 10
-                }
-          ],
-          "subtopic": "p2-cholinergic-anticholinesterases",
-          "tags": [
-                "mechanism",
-                "uses",
-                "adr"
-          ],
-          "level": 3
+      "id": "p2-cholinergic-099",
+      "status": "draft",
+      "type": "essay",
+      "front": "Essay: Neurotransmitter dysfunction in Alzheimer's disease; value and limitations of drugs",
+      "sections": [
+        {
+          "h": "Neurotransmitter dysfunction",
+          "points": [
+            "Cholinergic deficit is the most striking defect: atrophy of subcortical cholinergic neurones",
+            "Glutamate, 5HT and neuropeptide systems are also affected",
+            "Amyloid and tau pathology drive neuronal damage"
+          ]
+        },
+        {
+          "h": "Cholinesterase inhibitors",
+          "points": [
+            "Rivastigmine, donepezil and galantamine augment cholinergic transmission",
+            "Produce modest symptomatic benefit in about half of mild-to-moderate patients",
+            "Slow decline for a time but do not prevent it; stop if no benefit in about 3 months"
+          ]
+        },
+        {
+          "h": "Memantine",
+          "points": [
+            "NMDA antagonist for moderate-to-severe AD, given alone or with a cholinesterase inhibitor",
+            "Better tolerated than cholinesterase inhibitors"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "GI, muscle and sleep adverse effects; bradycardia and syncope are less common (GG14)",
+            "GI, muscle and sleep adverse effects; caution with bradycardia",
+            "Tacrine hepatotoxicity; benefit is limited and short-lasting"
+          ]
+        },
+        {
+          "h": "Other approaches",
+          "points": [
+            "Anti-amyloid antibody aducanumab reduces plaques and is FDA approved; clinical efficacy uncertain (GG14)",
+            "Used alongside symptomatic drugs"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch35",
+        "GG14 ch21"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p2-cholinergic-anticholinesterases",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "level": 3
     },
     {
-          "id": "p2-cholinergic-100",
-          "status": "draft",
-          "type": "basic",
-          "front": "What is a spasmolytic (antispasmodic)?",
-          "back": "A drug that relieves spasm of smooth muscle (gut, bladder, biliary tract) or of skeletal muscle in spasticity. Gut antispasmodics include antimuscarinics such as atropine, glycopyrrolate and dicyclomine, plus non-anticholinergic drotaverine.",
-          "refs": [
-                "KDT8 ch8",
-                "GG14 ch13"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "classification"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-100",
+      "status": "draft",
+      "type": "basic",
+      "front": "What is a spasmolytic (antispasmodic)?",
+      "back": "A drug that relieves spasm of smooth muscle (gut, bladder, biliary tract) or of skeletal muscle in spasticity, easing colic and spasm pain. Gut antispasmodics include antimuscarinics such as atropine, glycopyrrolate and dicyclomine, plus non-anticholinergic drotaverine.",
+      "refs": [
+        "KDT8 ch8",
+        "GG14 ch11"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "classification"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-101",
-          "status": "draft",
-          "type": "basic",
-          "front": "Why is glycopyrrolate preferred when central effects must be avoided?",
-          "back": "It is a potent, rapidly acting antimuscarinic that lacks central effects, unlike atropine (CNS stimulation) and hyoscine (central depression).",
-          "refs": [
-                "KDT8 ch8"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "mechanism",
-                "adr"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-101",
+      "status": "draft",
+      "type": "basic",
+      "front": "Why is glycopyrrolate preferred when central effects must be avoided?",
+      "back": "It is a potent, rapidly acting antimuscarinic that lacks central effects, unlike atropine (CNS stimulation) and hyoscine (central depression).",
+      "refs": [
+        "KDT8 ch8"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-102",
-          "status": "draft",
-          "type": "basic",
-          "front": "What is dicyclomine's action on the gut?",
-          "back": "A weak muscarinic antagonist with a direct, nonspecific spasmolytic effect on GI smooth muscle. Occasionally used for diarrhoea-predominant IBS.",
-          "refs": [
-                "GG14 ch13"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "mechanism",
-                "uses"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-102",
+      "status": "draft",
+      "type": "basic",
+      "front": "What is dicyclomine's action on the gut?",
+      "back": "A weak muscarinic antagonist with a direct, nonspecific spasmolytic effect on GI smooth muscle. Occasionally used for diarrhoea-predominant IBS.",
+      "refs": [
+        "GG14 ch11"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-103",
-          "status": "draft",
-          "type": "basic",
-          "front": "Where does dantrolene act?",
-          "back": "On RyR1 calcium release channels of the skeletal muscle sarcoplasmic reticulum. It blocks the Ca2+ release that couples excitation to contraction, without affecting neuromuscular transmission.",
-          "refs": [
-                "KDT8 ch25"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "mechanism"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-103",
+      "status": "draft",
+      "type": "basic",
+      "front": "Where does dantrolene act?",
+      "back": "On RyR1 calcium release channels of the skeletal muscle sarcoplasmic reticulum. It blocks the Ca2+ release that couples excitation to contraction, without affecting neuromuscular transmission.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-104",
-          "status": "draft",
-          "type": "basic",
-          "front": "How does baclofen work?",
-          "back": "A selective GABA-B agonist that acts mainly in the spinal cord, decreasing transmitter release and depressing mono- and polysynaptic reflexes. It causes some weakness and is less sedating than diazepam.",
-          "refs": [
-                "KDT8 ch25"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "mechanism"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-104",
+      "status": "draft",
+      "type": "basic",
+      "front": "How does baclofen work?",
+      "back": "A selective GABA-B agonist that acts mainly in the spinal cord, decreasing transmitter release and depressing mono- and polysynaptic reflexes. It causes some weakness and is less sedating than diazepam.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-105",
-          "status": "draft",
-          "type": "basic",
-          "front": "How does botulinum toxin reduce muscle contraction?",
-          "back": "It causes long-lasting loss of cholinergic transmission by interfering with exocytotic release of ACh at the nerve ending. Localised injection treats focal spasms.",
-          "refs": [
-                "KDT8 ch7"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "mechanism",
-                "uses"
-          ],
-          "level": 1
+      "id": "p2-cholinergic-105",
+      "status": "draft",
+      "type": "basic",
+      "front": "How does botulinum toxin reduce muscle contraction?",
+      "back": "It causes long-lasting loss of cholinergic transmission by interfering with exocytotic release of ACh at the nerve ending. Localised injection treats focal spasms.",
+      "refs": [
+        "KDT8 ch7",
+        "GG14 PDF p256"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "mechanism",
+        "uses"
+      ],
+      "level": 1
     },
     {
-          "id": "p2-cholinergic-106",
-          "status": "draft",
-          "type": "basic",
-          "front": "Compare antimuscarinic and non-anticholinergic antispasmodics.",
-          "back": "Antimuscarinics (atropine methonitrate, clidinium, cimetropium, glycopyrrolate) block muscarinic receptors and so cause dry mouth and other antimuscarinic effects. Drotaverine is a non-anticholinergic smooth muscle antispasmodic, so it lacks these effects.",
-          "refs": [
-                "KDT8 ch8"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "mechanism",
-                "adr"
-          ],
-          "level": 2
+      "id": "p2-cholinergic-106",
+      "status": "draft",
+      "type": "basic",
+      "front": "Compare antimuscarinic and non-anticholinergic antispasmodics.",
+      "back": "Antimuscarinics (atropine methonitrate, clidinium, cimetropium, glycopyrrolate) block muscarinic receptors and so cause dry mouth and other antimuscarinic effects. Drotaverine is a non-anticholinergic smooth muscle antispasmodic, so it lacks these effects.",
+      "refs": [
+        "KDT8 ch8"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 2
     },
     {
-          "id": "p2-cholinergic-107",
-          "status": "draft",
-          "type": "basic",
-          "front": "Where is atropine least useful as an antispasmodic?",
-          "back": "In biliary colic and biliary spasm induced by opioids. In renal colic, parenteral opioids and NSAIDs relieve pain better; anticholinergics do not help infective diarrhoea.",
-          "refs": [
-                "KDT8 ch8"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "uses"
-          ],
-          "level": 2
+      "id": "p2-cholinergic-107",
+      "status": "draft",
+      "type": "basic",
+      "front": "Where is atropine least useful as an antispasmodic?",
+      "back": "In biliary colic and biliary spasm induced by opioids. In renal colic, parenteral opioids and NSAIDs relieve pain better; anticholinergics do not help infective diarrhoea.",
+      "refs": [
+        "KDT8 ch8"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
     },
     {
-          "id": "p2-cholinergic-108",
-          "status": "draft",
-          "type": "basic",
-          "front": "Which relaxant suits spinal spasticity, and why?",
-          "back": "Baclofen, for MS, ALS and spinal injury, because it is less sedative than diazepam. Dantrolene's weakness limits it to bedridden patients, and diazepam works through benzodiazepine receptors that enhance GABA transmission.",
-          "refs": [
-                "KDT8 ch25"
-          ],
-          "pyq": [],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "uses",
-                "adr"
-          ],
-          "level": 2
+      "id": "p2-cholinergic-108",
+      "status": "draft",
+      "type": "basic",
+      "front": "Which relaxant suits spinal spasticity, and why?",
+      "back": "Baclofen, for MS, ALS and spinal injury, because it is less sedative than diazepam. Dantrolene's weakness limits it to bedridden patients, and diazepam works through benzodiazepine receptors that enhance GABA transmission.",
+      "refs": [
+        "KDT8 ch25"
+      ],
+      "pyq": [],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "uses",
+        "adr"
+      ],
+      "level": 2
     },
     {
-          "id": "p2-cholinergic-109",
-          "status": "draft",
-          "type": "essay",
-          "front": "Essay: Spasmolytics",
-          "sections": [
-                {
-                      "h": "Definition and scope",
-                      "points": [
-                            "Drugs that relieve smooth or skeletal muscle spasm",
-                            "Smooth muscle: gut, biliary tract, ureter, bladder; skeletal muscle: spasticity and painful spasm"
-                      ]
-                },
-                {
-                      "h": "Antimuscarinic antispasmodics",
-                      "points": [
-                            "Atropine: intestinal and renal colic, nervous or drug-induced diarrhoea; not in infective diarrhoea",
-                            "Clidinium with benzodiazepine; cimetropium quaternary agent for IBS; dicyclomine; glycopyrrolate (no central effects)",
-                            "Adverse effects: dry mouth, blurred vision, urinary retention"
-                      ]
-                },
-                {
-                      "h": "Non-anticholinergic antispasmodic",
-                      "points": [
-                            "Drotaverine: smooth muscle antispasmodic without anticholinergic effects"
-                      ]
-                },
-                {
-                      "h": "Skeletal muscle relaxants",
-                      "points": [
-                            "Baclofen: GABA-B agonist, spinal, preferred in spasticity",
-                            "Diazepam: benzodiazepine, enhances GABA transmission, sedating",
-                            "Dantrolene: RyR1 blocker, muscle weakness limits use; drug of choice for malignant hyperthermia",
-                            "Botulinum toxin: blocks ACh release, focal spasms"
-                      ]
-                },
-                {
-                      "h": "Limitations",
-                      "points": [
-                            "Atropine less effective in biliary colic; not for infective diarrhoea",
-                            "Mephenesin obsolete (gastric irritation, thrombophlebitis)"
-                      ]
-                }
-          ],
-          "refs": [
-                "KDT8 ch8",
-                "KDT8 ch25",
-                "KDT8 ch7",
-                "GG14 ch13"
-          ],
-          "pyq": [
-                {
-                      "university": "Q bank",
-                      "year": 0,
-                      "marks": 10
-                }
-          ],
-          "subtopic": "p2-cholinergic-substitutes",
-          "tags": [
-                "mechanism",
-                "uses",
-                "adr"
-          ],
-          "level": 3
+      "id": "p2-cholinergic-109",
+      "status": "draft",
+      "type": "essay",
+      "front": "Essay: Spasmolytics",
+      "sections": [
+        {
+          "h": "Definition and scope",
+          "points": [
+            "Drugs that relieve smooth or skeletal muscle spasm",
+            "Smooth muscle: gut, biliary tract, ureter, bladder; skeletal muscle: spasticity and painful spasm"
+          ]
+        },
+        {
+          "h": "Antimuscarinic antispasmodics",
+          "points": [
+            "Atropine: intestinal and renal colic, nervous or drug-induced diarrhoea; not in infective diarrhoea",
+            "Clidinium with benzodiazepine; cimetropium quaternary agent for IBS; dicyclomine; glycopyrrolate (no central effects)",
+            "Adverse effects: dry mouth, blurred vision, urinary retention"
+          ]
+        },
+        {
+          "h": "Non-anticholinergic antispasmodic",
+          "points": [
+            "Drotaverine: smooth muscle antispasmodic without anticholinergic effects"
+          ]
+        },
+        {
+          "h": "Skeletal muscle relaxants",
+          "points": [
+            "Baclofen: GABA-B agonist, spinal, preferred in spasticity",
+            "Diazepam: benzodiazepine, enhances GABA transmission, sedating",
+            "Dantrolene: RyR1 blocker, muscle weakness limits use; drug of choice for malignant hyperthermia",
+            "Botulinum toxin: blocks ACh release, focal spasms"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "Atropine less effective in biliary colic; not for infective diarrhoea",
+            "Mephenesin not used clinically (gastric irritation, thrombophlebitis)"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch8",
+        "KDT8 ch25",
+        "KDT8 ch7",
+        "GG14 ch11",
+        "GG14 PDF p256"
+      ],
+      "pyq": [
+        {
+          "university": "Q bank",
+          "year": 0,
+          "marks": 10
+        }
+      ],
+      "subtopic": "p2-cholinergic-substitutes",
+      "tags": [
+        "mechanism",
+        "uses",
+        "adr"
+      ],
+      "level": 3
     },
     {
       "id": "p2-cholinergic-110",
@@ -3188,7 +3178,8 @@
         }
       ],
       "refs": [
-        "GG14 ch12"
+        "GG14 ch12",
+        "KDT8 ch7"
       ],
       "status": "draft",
       "subtopic": "p2-cholinergic-op-poisoning",
@@ -3230,14 +3221,14 @@
             "ATP: initial short phase of a biphasic vascular response (P2 receptors)",
             "VIP: slow, long-lasting response",
             "Nitric oxide: intermediate time course, between VIP and ACh",
-            "NPY: slower acting than noradrenaline; a peptide, so no active reuptake"
+            "NPY: slower acting than noradrenaline"
           ]
         }
       ],
       "refs": [
         "GG14 ch10",
-        "KDT8 ch7",
-        "KDT8 ch8"
+        "KDT8 ch6",
+        "KDT8 ch7"
       ],
       "pyq": [
         {

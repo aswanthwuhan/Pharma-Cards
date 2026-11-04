@@ -208,3 +208,113 @@ rf-pr-long-exercise-0114,0115,0116,0117,0119 | deleted | duplicate q of existing
 - Dog BP cards (0100-0109): PMC ref replaced with KDT8 PDF p159 and Ghosh PDF p121-122. Ocular refs gained Padmaja PDF p110, KDT8 PDF p164, KDT8 PDF p135, Medhi PMECP PDF p332.
 - Prep/RR5 grep: 0 hits after fix.
 - Not done: coverage audit and PYQ grep.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 30 Rapid cards (rf-0086 to rf-0113, rf-0118, rf-0120) against KDT8, GG14, Ghosh, Padmaja, Medhi, Sarkar and NMC curriculum. No deletions.
+
+id | result | source / reason
+--- | --- | ---
+rf-0086 | corrected | KDT8 PDF p141; Padmaja PDF p110 · atropine added as source
+rf-0087 | ok | KDT8 PDF p164
+rf-0088 | corrected | KDT8 PDF p131; GG14 PDF p198 · NMC-only ref replaced
+rf-0089 | corrected | GG14 PDF p233 · pilocarpine reverses atropine ocular effects
+rf-0090 | corrected | UNSOURCED · untreated-eye control not in owner books
+rf-0091 | ok | Medhi PMECP PDF p332
+rf-0092 | corrected | Medhi PMECP PDF p330; KDT8 PDF p141
+rf-0093 | corrected | KDT8 PDF p141, p164; Padmaja PDF p110
+rf-0094 | corrected | KDT8 PDF p131, p135; Ghosh PDF p122 (eserine)
+rf-0095 | corrected | UNSOURCED · Snellen 6 m not in allowed owner books (standard practical knowledge)
+rf-0096 | corrected | UNSOURCED · Jaeger chart, same
+rf-0097 | corrected | UNSOURCED · Ishihara, same
+rf-0098 | corrected | UNSOURCED · 6/6 acuity, same
+rf-0099 | corrected | KDT8 PDF p131, p182 · NMC-only ref replaced
+rf-0100 | ok | Ghosh PDF p121-122; KDT8 PDF p159
+rf-0101 | ok | Ghosh PDF p121-122
+rf-0102 | ok | Ghosh PDF p121
+rf-0103 | ok | Ghosh PDF p121-122; KDT8 PDF p159
+rf-0104 | ok | Ghosh PDF p122; KDT8 PDF p159, p170
+rf-0105 | ok | KDT8 PDF p159; Ghosh PDF p121
+rf-0106 | ok | Ghosh PDF p121
+rf-0107 | ok | KDT8 PDF p159
+rf-0108 | corrected | Ghosh PDF p122 · "brief" fall removed; abrupt fall with bradycardia at large dose
+rf-0109 | corrected | Ghosh PDF p122 · was UNSOURCED; now grounded (large doses fail, very high doses give pressor via nicotinic ganglia)
+rf-0110 | ok | Sarkar p201-205
+rf-0111 | ok | Sarkar p201-205
+rf-0112 | ok | Sarkar p201-205
+rf-0113 | corrected | KDT8 PDF p110; KDT8 ch6 · added page ref
+rf-0118 | ok | Sarkar p511-515
+rf-0120 | ok | Sarkar p511-515
+
+Unsourced (owner must verify), recheck: rf-0090, rf-0095, rf-0096, rf-0097, rf-0098.
+
+## Recheck (all new cards, chunk 1/1), second pass
+Checked 30 rf cards (0086-0113, 0118, 0120) against KDT8 PDF p131, p135, p141, p147, p159, p164, p182, GG14 PDF p198, p233, Padmaja PDF p110, p129, p139, p143, Ghosh PDF p121-122, Medhi PMECP PDF p330, p332, Sarkar p201-205, p511-515, NMC curriculum PDF p10. No deletions.
+
+id | result | source / reason
+--- | --- | ---
+rf-0086 | ok | KDT8 PDF p141; Padmaja PDF p110
+rf-0087 | ok | KDT8 PDF p164 (alpha1 mydriasis when cycloplegia not needed)
+rf-0088 | ok | KDT8 PDF p131; GG14 PDF p198
+rf-0089 | ok | GG14 PDF p233
+rf-0090 | unverifiable | UNSOURCED; control-eye rationale not in owner books
+rf-0091 | ok | Medhi PMECP PDF p332 (Schiotz tonometry, topical xylocaine)
+rf-0092 | ok | KDT8 PDF p141; Medhi PMECP PDF p330
+rf-0093 | corrected | Mydriatic class completed from Padmaja PDF p110, p143 (eucatropine, cyclopentolate, ephedrine, adrenaline added); "rabbit eye practical" dropped from q
+rf-0094 | corrected | Eserine = physostigmine (Padmaja PDF p139; GG14 PDF p240); Ghosh dropped (eserine there is an ACh-assay pretreatment, not a miotic class entry)
+rf-0095 | unverifiable | UNSOURCED (pr-* exception)
+rf-0096 | unverifiable | UNSOURCED (pr-* exception)
+rf-0097 | unverifiable | UNSOURCED (pr-* exception)
+rf-0098 | unverifiable | UNSOURCED (pr-* exception)
+rf-0099 | ok | KDT8 PDF p131, p182
+rf-0100 to 0103 | ok | Ghosh PDF p121-122; KDT8 PDF p159
+rf-0104 | ok | KDT8 PDF p159 (alpha blocker gives Dale vasomotor reversal)
+rf-0105 | ok | KDT8 PDF p159 (NA reflex bradycardia via vagus)
+rf-0106 | ok | Ghosh PDF p122 (atropine 1 mg/kg abolishes reflex bradycardia)
+rf-0107 | ok | KDT8 PDF p159
+rf-0108 | corrected | Ghosh PDF p122 · species and i.v. route not stated for ACh in the book; q now "anaesthetised animal"
+rf-0109 | corrected | Ghosh PDF p122 · back restated: 50 µg no response after 2 mg atropine; 2.5-5 mg raises BP via nicotinic ganglia
+rf-0110 | ok | Sarkar p201-205 (methodology is the most important part)
+rf-0111 | ok | Sarkar p201-205
+rf-0112 | ok | Sarkar p201-205 (balanced at baseline; eliminates selection bias)
+rf-0113 | ok | KDT8 PDF p110
+rf-0118 | ok | Sarkar p511-515 (STARD)
+rf-0120 | ok | Sarkar p511-515
+
+## Recheck (all new cards, chunk 1/1), pass 3
+Checked 30 rf cards (0086-0113, 0118, 0120) against KDT8 PDF p131, p135, p141, p147, p159, p164, p182; GG14 PDF p198, p233; Padmaja PDF p110, p139, p143; Ghosh PDF p121-122; Medhi PMECP PDF p247, p330, p332; Sarkar p201-205, p511-515. No deletions.
+
+id | result | source / reason
+--- | --- | ---
+rf-0086 | ok | KDT8 PDF p141; Padmaja PDF p110; NMC p10 (rabbit-eye mydriatics)
+rf-0087 | ok | KDT8 PDF p164; NMC p10
+rf-0088 | ok | KDT8 PDF p131; GG14 PDF p198
+rf-0089 | ok | GG14 PDF p233
+rf-0090 | corrected | Medhi PMECP PDF p247 (alternate eye is the control) · UNSOURCED ref dropped; control eye now sourced
+rf-0091 | corrected | Medhi PMECP PDF p332 (Schiotz, topical xylocaine) · NMC ref dropped (NMC does not mention tonometry)
+rf-0092 | ok | KDT8 PDF p141; Medhi PMECP PDF p330
+rf-0093 | ok | KDT8 PDF p147, p164; Padmaja PDF p110
+rf-0094 | ok | KDT8 PDF p131, p135; Padmaja PDF p139 (physostigmine = eserine, miotic)
+rf-0095 | unverifiable | UNSOURCED (pr-* exception); Snellen 6 m not found in allowed owner books
+rf-0096 | unverifiable | UNSOURCED (pr-* exception); Jaeger chart not found in allowed owner books
+rf-0097 | unverifiable | UNSOURCED (pr-* exception); Ishihara not found in allowed owner books
+rf-0098 | unverifiable | UNSOURCED (pr-* exception); 6/6 not found in allowed owner books
+rf-0099 | ok | KDT8 PDF p131, p182
+rf-0100 | corrected | Ghosh PDF p121-122; KDT8 PDF p159 · NMC ref dropped (NMC p10 does not support dog BP)
+rf-0101 | corrected | Ghosh PDF p121-122; KDT8 PDF p159 · NMC ref dropped
+rf-0102 | corrected | Ghosh PDF p121-122; KDT8 PDF p159 · NMC ref dropped
+rf-0103 | corrected | Ghosh PDF p121-122; KDT8 PDF p159 · NMC ref dropped
+rf-0104 | corrected | Ghosh PDF p121-122; KDT8 PDF p159 · NMC ref dropped
+rf-0105 | corrected | KDT8 PDF p159 (reflex bradycardia via vagus) · "baroreceptor" not stated in Ghosh or KDT8; answer reworded to vagal reflex · NMC ref dropped
+rf-0106 | corrected | Ghosh PDF p122 (atropine 1 mg/kg abolishes reflex bradycardia) · NMC ref dropped
+rf-0107 | corrected | KDT8 PDF p159 (isoprenaline: HR up, diastolic and mean BP down) · NMC ref dropped
+rf-0108 | ok | Ghosh PDF p122
+rf-0109 | ok | Ghosh PDF p122
+rf-0110 | ok | Sarkar p201-205 (methodology is the most important part)
+rf-0111 | ok | Sarkar p201-205
+rf-0112 | ok | Sarkar p201-205
+rf-0113 | ok | KDT8 PDF p110
+rf-0118 | ok | Sarkar p511-515 (STARD)
+rf-0120 | ok | Sarkar p511-515
+
+Totals: 30 checked, 16 ok, 10 corrected, 0 deleted, 4 unverifiable (UNSOURCED, pr-* exception).
+Owner note: NMC curriculum PDF p10 says dog experiments should use computer-assisted simulation. The dog BP rf cards (0100-0107) now cite Ghosh and KDT8 only; owner to decide whether to keep them.

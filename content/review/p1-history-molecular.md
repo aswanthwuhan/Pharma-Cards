@@ -133,3 +133,45 @@ Checker: all facts traced to the cited chapters. Ladder met in every subtopic. V
 
 Deleted (not grounded in owner books, rapid): none in deck.
 Open for owner: memantine ref (056, 065 therapy) cites GG14 ch21; the use-dependent wording is on KDT8 p532, chapter number not confirmed. PYQ tags on 056, 062, 065 come from the Q bank and were not checked. Validator: check ok.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: study 040-068 (ids 040-047, 054, 048-053, 055-068) and rapid rf 0228-0282 (chunk 1/1 from .tmp/recheck.json). Sources checked with search.py and pdftotext on RangDale9, GG14, GG12, KDT8, Katzung16, Padmaja. Not every rapid fact was re-opened; items not re-opened stay as previously checked.
+
+| id | status | source / reason |
+|---|---|---|
+| 040 | corrected | removed "first rational drug" label (not printed in the owner books found); Brunton 1857 inhalation for angina, GG14 p628 |
+| 041 | corrected | removed unsupported "GG14 sums this up as invented, not discovered" sentence |
+| 042 | corrected | removed "mandatory teratogenicity testing" and CDSCO authorising claim (not found); Harris-Kefauver 1962 GG14 p33/p164; Drugs and Cosmetics Act 1940 KDT8 p100, Padmaja p99 |
+| 043 | corrected | fluorouracil described wrongly as replacing uracil; now FdUMP inhibits thymidylate synthase (KDT8 p934, 5-FU ch64); ref KDT8 ch64 added |
+| 044 | corrected | removed Na+-K+ ATPase from ABC transporters (it is a P-type pump, not ABC); P-gp/MDR1 kept, KDT8 p36 |
+| 045 | ok | RangDale9 ch2 (not re-searched) |
+| 046 | ok | statin/HMG-CoA KDT8 p64; colchicine tubulin KDT8 p63/p247; ciclosporin immunophilin KDT8 p950 |
+| 047 | ok | RangDale9 ch3 G-protein table; pertussis-sensitive Go not re-searched |
+| 048 | ok | RangDale9 p39 (GTPase terminates signal, alpha-GDP reunites with beta-gamma) |
+| 049 | corrected | gabapentin insertion fact is on RangDale9 p30 (ch2); ch2 ref added |
+| 050 | ok | RangDale9 ch3 (not re-searched) |
+| 051 | ok | RangDale9 ch3 (veratridine/DDT, verified in earlier pass) |
+| 052 | corrected | gabapentin expression point is RangDale9 p30; ch2 ref added |
+| 053 | corrected | removed "more than 70" K+ subtype count (not found); TRPV1 capsaicin GG14 p83 |
+| 054 | corrected | removed unverified tetramer/trimer architecture sentence; pentamer nicotinic structure KDT8 p75/p129 |
+| 055 | ok | RangDale9 ch2 |
+| 056 | corrected | removed antiseizure valproate/phenytoin glutamate claim (not found in owner books); memantine use-dependence kept |
+| 057 | ok | GG14 p332 (glutamate plus glycine for NMDA) |
+| 058 | ok | GG14 ch16 |
+| 059 | corrected | removed "failure rates high" and "designed from COX-1/COX-2 differences" wording; COX-2 selectivity KDT8 p214 |
+| 060-061 | ok | KDT8 ch5 (lead), GG14 ch1 |
+| 062 | corrected | removed TEA (not found in owner books); patch clamp RangDale9 p35 |
+| 063 | corrected | added why (single-channel gating and conductance can be studied) |
+| 064 | corrected | added why (isolates ionic currents by voltage); squid axon RangDale9 ch4 (p66) |
+| 065 | ok | KDT8 ch38, GG14 p434 (70-80%), KDT8 p93 (MH) |
+| 066 | corrected | added why (neuronal death in stroke and neurodegeneration) |
+| 067 | ok | KDT8 ch4 (MH, SR release channel) |
+| 068 | corrected | added why (keeps cytosolic Ca2+ low) |
+| rf 0244 | corrected | removed unsupported year (1970) from question; Black and colleagues, RangDale9 p14 |
+| rf 0255 | corrected | glycine co-agonist ref changed from RangDale9 ch39 (not a valid chapter source) to GG14 ch16 (GG14 p332) |
+| rf 0228-0282 (others) | ok or spot-checked | earlier pass verified most; 0264 kept (KDT8 p105 prints 1941 as the penicillin discovery year, so the question wording follows the book); 0259 memantine GG14 p444; 0281-0282 GG14 ch21; 0237 dimercaprol KDT8 p975, infliximab KDT8 p245 |
+
+Deleted: none (no fact in the chunk was fully unsupported; the unsupported clauses were removed instead).
+Unverifiable (owner check): 045, 047 (pertussis Go), 050, 051 detail, 052 detail, 0240, 0275, 0251 not re-opened line-by-line.
+Ladder met: every subtopic >=3 L1, 2 L2, 1 L3. No duplicates found in chunk.

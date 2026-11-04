@@ -506,7 +506,7 @@
         {
           "h": "Subtypes",
           "points": [
-            "alpha-1 subunit: sedation, hypnosis, amnesia; alpha-2 and alpha-3: anxiolysis and muscle relaxation",
+            "alpha-1 subunit: sedation, hypnosis, amnesia; alpha-2: anxiolysis and muscle relaxation",
             "Zaleplon and zolpidem bind alpha-1 selectively: hypnotic without much anticonvulsant or relaxant effect"
           ]
         }
@@ -1285,7 +1285,7 @@
         "dosing"
       ],
       "front": "What are the key rules for starting and stopping antiseizure therapy?",
-      "back": "Start early with a single drug at low dose, raise gradually, and switch drugs by overlapping rather than abruptly. Combine drugs only after monotherapy fails, preferably with different mechanisms. Withdraw gradually (except for toxicity), since abrupt stoppage can precipitate status epilepticus.",
+      "back": "Start early with a single drug at low dose, raise gradually, and switch gradually, lowering the old drug as the new one is raised. Combine drugs only after monotherapy fails, preferably with different mechanisms. Withdraw gradually (except for toxicity), since abrupt stoppage can precipitate status epilepticus.",
       "refs": [
         "KDT8 ch30"
       ],
@@ -1917,7 +1917,7 @@
         {
           "h": "Lowers its absorption or levels",
           "points": [
-            "Sucralfate binds it in gut; carbamazepine and phenobarbitone induce its metabolism"
+            "Sucralfate binds it in gut; carbamazepine induces its metabolism (phenobarbitone effect unpredictable)"
           ]
         },
         {
@@ -3090,8 +3090,8 @@
         {
           "h": "Sodium channel and GABA",
           "points": [
-            "Lacosamide enhances slow inactivation of Na+ channels",
-            "Cenobamate: Na+ inactivation, block of persistent Na+ current and positive GABA-A modulation (GG14 ch20)",
+            "Lacosamide enhances Na+ channel inactivation",
+            "Cenobamate: enhances Na+ inactivation and may block persistent Na+ current (GG14 ch20)",
             "Tiagabine blocks GAT-1; vigabatrin inhibits GABA-transaminase (KDT8 ch30)"
           ]
         },
@@ -3189,8 +3189,7 @@
         {
           "h": "Mechanism",
           "points": [
-            "Noncompetitive AMPA antagonist; reduces fast excitatory signalling",
-            "Acts more on seizure spread than on initiation (GG14 ch20)"
+            "Noncompetitive AMPA antagonist; reduces fast excitatory signalling"
           ]
         },
         {
@@ -3209,9 +3208,7 @@
         {
           "h": "Interactions",
           "points": [
-            "Metabolised by hepatic CYP3A",
-            "Can lower levels of carbamazepine, clobazam, lamotrigine, valproate and contraceptive progestins",
-            "Can raise oxcarbazepine exposure"
+            "Metabolised by hepatic CYP3A"
           ]
         }
       ],
@@ -3255,9 +3252,8 @@
         {
           "h": "Kinetics and safety",
           "points": [
-            "Rapid absorption, half-life about 7-8 h",
-            "Dose 50 mg BD; dose reduction in hepatic impairment",
-            "Like levetiracetam, few interactions and mild effects (sedation, dizziness, GI upset)"
+            "Dose 50 mg BD, adjustable to 25 mg BD by response and tolerability (GG14 ch20)",
+            "Metabolised by CYP2C19 and 2C9; does not induce or inhibit CYP enzymes (GG14 ch20 table)"
           ]
         }
       ],
@@ -3289,8 +3285,7 @@
         {
           "h": "Mechanism",
           "points": [
-            "Enhances fast and slow Na+ channel inactivation; inhibits persistent Na+ current",
-            "Positive allosteric modulator of GABA-A (GG14 ch20)"
+            "Enhances fast and slow Na+ channel inactivation; may inhibit persistent Na+ current (GG14 ch20)"
           ]
         },
         {
@@ -3329,7 +3324,7 @@
         "interactions"
       ],
       "front": "What is cannabidiol used for in epilepsy?",
-      "back": "A plant-derived (phytocannabinoid) antiseizure drug approved in the US for seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex (age 1 year and older). Metabolised by liver and intestinal CYPs.",
+      "back": "A non-intoxicating plant-derived (phytocannabinoid) antiseizure drug approved in the US for seizures of Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex (age 1 year and older). Metabolised by liver and intestinal CYPs.",
       "refs": [
         "GG14 ch20"
       ],
@@ -3353,7 +3348,7 @@
         "uses"
       ],
       "front": "What is rufinamide and what is its main use?",
-      "back": "A triazole derivative, structurally unrelated to other antiseizure drugs. Adjunct for Lennox-Gastaut syndrome seizures, 4 years and older.",
+      "back": "A triazole derivative, structurally unrelated to other antiseizure drugs. Adjunct for Lennox-Gastaut syndrome seizures, 4 years and older. It is added to other drugs because it is approved only as adjunctive therapy.",
       "refs": [
         "GG14 ch20"
       ],
@@ -3378,7 +3373,7 @@
         "interactions"
       ],
       "front": "What is stiripentol and why does it need dose checks of companion drugs?",
-      "back": "An aromatic alcohol, structurally unrelated to other antiseizure drugs, used in Dravet syndrome with clobazam and valproate. It enhances GABA-A channel opening, and it strongly inhibits CYP3A4, 1A2 and 2C19, so companion drug levels can change.",
+      "back": "An aromatic alcohol, structurally unrelated to other antiseizure drugs, used in Dravet syndrome with clobazam and valproate. It is a GABA-A allosteric modulator and inhibits CYP1A2, 3A4, 2C19 and 2D6, so companion drug levels can change.",
       "refs": [
         "GG14 ch20"
       ],
@@ -3426,7 +3421,7 @@
         "adr"
       ],
       "front": "What is ezogabine (retigabine) and what warning applies to it?",
-      "back": "A potassium channel opener acting on KCNQ (Kv7) channels, stabilising the resting membrane potential. Warnings: retinal abnormalities and skin and lip pigmentation, which may be permanent.",
+      "back": "A potassium channel opener that enhances KCNQ (Kv7) currents. Warnings: retinal abnormalities and skin and lip pigmentation, which may be permanent.",
       "refs": [
         "GG14 ch20"
       ],
@@ -3439,57 +3434,6 @@
         }
       ],
       "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-111",
-      "type": "shortnote",
-      "subtopic": "p2-sedatives-aed-newer-antiseizure",
-      "level": 2,
-      "tags": [
-        "classification",
-        "uses",
-        "adr"
-      ],
-      "front": "Short note: Newer antiepileptics: choosing by age and safety",
-      "pyq": [
-        {
-          "university": "Q bank",
-          "year": 0,
-          "paper": "II",
-          "marks": 10
-        }
-      ],
-      "sections": [
-        {
-          "h": "Why newer drugs",
-          "points": [
-            "Introduced as second-line or add-on drugs for refractory partial seizures in some countries (KDT8 ch30)"
-          ]
-        },
-        {
-          "h": "Age and seizure fit",
-          "points": [
-            "Lacosamide: 17 years and older",
-            "Brivaracetam: 16 years and older",
-            "Perampanel: 12 years and older",
-            "Rufinamide: 4 years and older",
-            "Levetiracetam: used from age 4 years (GG14 ch20)"
-          ]
-        },
-        {
-          "h": "Safety flags",
-          "points": [
-            "Perampanel: psychiatric effects",
-            "Cenobamate: QT shortening, DRESS",
-            "Felbamate: aplastic anaemia, hepatitis",
-            "Ezogabine: retinal change, pigmentation"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30",
-        "GG14 ch20"
-      ]
     },
     {
       "id": "p2-sedatives-aed-112",
@@ -3567,7 +3511,7 @@
         "mechanism"
       ],
       "front": "What is tasimelteon used for?",
-      "back": "A selective MT1/MT2 melatonin receptor agonist used for non-24-hour sleep-wake disorder in totally blind patients. The FDA approval also covers non-blind users, though no trials were done in them.",
+      "back": "A selective MT1/MT2 melatonin receptor agonist (it fixes circadian timing), used for non-24-hour sleep-wake disorder in totally blind patients. The FDA approval also covers non-blind users, though no trials were done in them.",
       "refs": [
         "GG14 ch22"
       ],
@@ -3590,7 +3534,7 @@
         "mechanism"
       ],
       "front": "How is melatonin made in the pineal gland?",
-      "back": "From serotonin, by N-acetylation followed by O-methylation. It is secreted mainly at night.",
+      "back": "From serotonin, by N-acetylation followed by O-methylation. It is secreted mainly at night and entrains the sleep-wake cycle to the circadian rhythm.",
       "refs": [
         "GG14 ch15",
         "KDT8 ch29"
@@ -3615,7 +3559,7 @@
         "uses"
       ],
       "front": "What is cenobamate?",
-      "back": "A newer antiseizure drug for partial-onset seizures in adults, used as monotherapy or add-on. It acts by sodium channel effects and positive GABA-A modulation.",
+      "back": "A newer antiseizure drug for partial-onset seizures in adults, as monotherapy or add-on. It acts mainly through sodium channel effects and reduces focal seizures in a dose-dependent way.",
       "refs": [
         "GG14 ch20"
       ],
@@ -3685,9 +3629,10 @@
         "mechanism"
       ],
       "front": "How does GABA-B activation differ from GABA-A activation?",
-      "back": "GABA-A is a fast chloride channel. GABA-B is a metabotropic GPCR coupled to Gi and Gq; it opens K+ channels, reduces Ca2+ conductance and acts presynaptically to inhibit GABA release. Baclofen is a GABA-B agonist.",
+      "back": "GABA-A is a fast chloride channel. GABA-B is a metabotropic G-protein receptor: it opens K+ channels and closes presynaptic Ca2+ channels, so it slows the neurone and cuts transmitter release. Baclofen is a GABA-B agonist.",
       "refs": [
-        "GG14 ch16"
+        "GG14 ch16",
+        "Katzung16 PDF p411"
       ],
       "status": "draft"
     },
@@ -3714,7 +3659,7 @@
           "h": "Receptors",
           "points": [
             "GABA-A and glycine receptors: pentameric chloride channels, hyperpolarising and fast",
-            "GABA-B: metabotropic GPCR (Gi, Gq) with presynaptic autoreceptor function"
+            "GABA-B: metabotropic G-protein receptor; closes presynaptic Ca2+ channels and opens K+ channels"
           ]
         },
         {
@@ -3736,7 +3681,7 @@
           "h": "Drugs on GABA-B",
           "points": [
             "Baclofen: GABA-B agonist used as a skeletal muscle relaxant",
-            "GHB: GABA-B agonist, used in narcolepsy and recreationally"
+            "Sodium oxybate (GHB): acts on GABA-B and extrasynaptic GABA-A receptors; used for narcolepsy cataplexy (GG14 PDF p548)"
           ]
         },
         {
@@ -3751,78 +3696,6 @@
         "KDT8 ch27",
         "KDT8 ch35",
         "KDT8 ch29"
-      ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-sedatives-aed-121",
-      "type": "essay",
-      "level": 3,
-      "subtopic": "p2-sedatives-aed-benzodiazepine-pharmacology",
-      "tags": [
-        "mechanism",
-        "uses"
-      ],
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2018,
-          "marks": 10
-        }
-      ],
-      "front": "Essay: Inhibitory amino acid neurotransmitters in the CNS and drugs affecting them",
-      "sections": [
-        {
-          "h": "Introduction",
-          "points": [
-            "GABA and glycine are the main fast inhibitory amino acids",
-            "Both open chloride channels and hyperpolarise the neurone",
-            "Taurine and beta-alanine are minor members of the group"
-          ]
-        },
-        {
-          "h": "Receptors",
-          "points": [
-            "GABA-A: chloride-selective pentamer of alpha, beta and gamma subunits",
-            "GABA-B: metabotropic GPCR acting pre- and postsynaptically",
-            "Glycine receptor: chloride-selective pentamer in spinal cord and medulla"
-          ]
-        },
-        {
-          "h": "Drugs on GABA-A",
-          "points": [
-            "Benzodiazepines increase the frequency of channel opening",
-            "Barbiturates prolong opening and can open the channel directly",
-            "Flumazenil antagonises the benzodiazepine site"
-          ]
-        },
-        {
-          "h": "Drugs on GABA-B and GABA levels",
-          "points": [
-            "Baclofen and GHB: GABA-B agonists",
-            "Vigabatrin (GABA-transaminase inhibitor) and tiagabine (GAT-1 blocker) raise brain GABA"
-          ]
-        },
-        {
-          "h": "Drugs on glycine",
-          "points": [
-            "Strychnine blocks glycine inhibition and causes tonic-clonic convulsions",
-            "Barbiturates, propofol and inhalational anaesthetics augment glycine inhibition"
-          ]
-        },
-        {
-          "h": "Conclusion",
-          "points": [
-            "GABA-A drugs underpin sleep, anaesthesia and epilepsy therapy",
-            "Glycine-site drugs explain the convulsant and anaesthetic effects of strychnine and general anaesthetics"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch16",
-        "KDT8 ch27",
-        "KDT8 ch30",
-        "KDT8 ch35"
       ],
       "status": "draft"
     },

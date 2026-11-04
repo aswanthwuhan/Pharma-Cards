@@ -39,7 +39,7 @@
       "id": "p1-interactions-028",
       "type": "basic",
       "front": "Name the three categories of drug interaction.",
-      "back": "Pharmacokinetic (the concentration of the object drug at its site changes), pharmacodynamic (the response changes with concentration unchanged) and pharmaceutical (in-vitro incompatibility before administration). Knowing the category tells you whether to fix timing, dose or the combination itself.",
+      "back": "Pharmacokinetic: the concentration of the object drug at its site changes. Pharmacodynamic: the response changes although concentration is unchanged. Pharmaceutical: the drugs inactivate each other when mixed in vitro before administration.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -120,7 +120,7 @@
       "id": "p1-interactions-030",
       "type": "basic",
       "front": "Classify: tetracycline plus iron, probenecid plus penicillin, penicillin plus tetracycline, and penicillin with an aminoglycoside in one syringe.",
-      "back": "Tetracycline-iron: pharmacokinetic (absorption, chelation). Probenecid-penicillin: pharmacokinetic (excretion). Penicillin-tetracycline: pharmacodynamic (bactericidal antagonized by bacteriostatic). Penicillin-aminoglycoside in one syringe: pharmaceutical (inactivation).",
+      "back": "Tetracycline-iron: pharmacokinetic (absorption, insoluble complex in gut). Probenecid-penicillin: pharmacokinetic (excretion). Penicillin-tetracycline: pharmacodynamic (bactericidal antagonized by bacteriostatic). Penicillin-aminoglycoside in one syringe: pharmaceutical (inactivation).",
       "refs": [
         "KDT8 ch71"
       ],
@@ -181,26 +181,10 @@
       "level": 1
     },
     {
-      "id": "p1-interactions-033",
-      "type": "basic",
-      "front": "What is chelation in the gut and which drugs commonly show it?",
-      "back": "Binding of a drug to a metal ion in the lumen to form an insoluble complex that cannot be absorbed. Tetracyclines bind iron, calcium and antacid cations, so these should be taken apart from each other.",
-      "refs": [
-        "KDT8 ch71"
-      ],
-      "subtopic": "p1-interactions-absorption-binding",
-      "tags": [
-        "pk",
-        "interactions"
-      ],
-      "level": 1,
-      "status": "draft"
-    },
-    {
       "id": "p1-interactions-034",
       "type": "basic",
       "front": "What is enterohepatic recycling and why does it matter for interactions?",
-      "back": "A drug conjugated in the liver is excreted in bile, then deconjugated by gut bacteria and reabsorbed. Anything that reduces gut flora, such as ampicillin or tetracycline, cuts recycling and lowers levels of drugs like oral contraceptive steroids.",
+      "back": "A drug conjugated in the liver is excreted in bile, then deconjugated by gut bacteria and reabsorbed. Antibiotics such as ampicillin, tetracyclines or cotrimoxazole reduce gut flora, cut recycling and lower levels of drugs like oral contraceptive steroids.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -323,7 +307,7 @@
       "id": "p1-interactions-035",
       "type": "basic",
       "front": "Compare how iron and an antibiotic course can each make a drug fail, and say how management differs.",
-      "back": "Iron or antacids chelate tetracycline in the gut, a local, immediate absorption block fixed by separating doses by 2 to 3 hours. A broad-spectrum antibiotic depletes gut flora and breaks enterohepatic recycling of oral contraceptive steroids, a systemic effect that spacing cannot fix, so alternative contraception is advised.",
+      "back": "Iron or antacids chelate tetracycline in the gut, a local absorption block fixed by separating doses by 2 to 3 hours. A broad-spectrum antibiotic depletes gut flora and breaks enterohepatic recycling of oral contraceptive steroids, a systemic effect that spacing cannot fix, so alternative contraception is advised.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -499,7 +483,7 @@
       "id": "p1-interactions-037",
       "type": "basic",
       "front": "A patient stable on warfarin is started on rifampicin. What happens and why?",
-      "back": "Rifampicin induces hepatic microsomal enzymes, so warfarin is metabolised faster and its effect falls (INR drops), risking thrombosis. The change builds over 1 to 2 weeks and reverses over 1 to 3 weeks after stopping rifampicin, so the dose needs adjusting both ways.",
+      "back": "Rifampicin induces hepatic microsomal enzymes, so warfarin is metabolised faster and its effect is lost. Induction builds over 1 to 2 weeks and regresses over 1 to 3 weeks after stopping rifampicin, so monitor INR and adjust the dose both ways.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -578,22 +562,6 @@
       "level": 3
     },
     {
-      "id": "p1-interactions-038",
-      "type": "basic",
-      "front": "Contrast enzyme induction (e.g. failure of oral contraceptives) with inhibition (e.g. cimetidine) in outcome, onset and management.",
-      "back": "Inducers (rifampicin, phenytoin, carbamazepine, barbiturates) speed steroid metabolism so contraceptive levels fall; effect builds slowly over 1 to 2 weeks. Inhibitors (cimetidine, erythromycin, ketoconazole, ciprofloxacin) act quickly and raise levels of the object drug, most dangerously for saturation-kinetics or narrow-margin drugs. Management: avoid the pair or adjust dose with monitoring, and re-adjust when the interacting drug is stopped.",
-      "refs": [
-        "KDT8 ch71"
-      ],
-      "subtopic": "p1-interactions-metabolism-excretion",
-      "tags": [
-        "pk",
-        "interactions"
-      ],
-      "level": 3,
-      "status": "draft"
-    },
-    {
       "id": "p1-interactions-018",
       "type": "cloze",
       "front": "Pharmacodynamic pairs and their effect",
@@ -629,7 +597,7 @@
       "id": "p1-interactions-040",
       "type": "basic",
       "front": "Which drug combinations cause additive CNS depression?",
-      "back": "Benzodiazepines, sedating antihistamines, neuroleptics, opioids and alcohol in any combination. The result is sedation, respiratory depression and incoordination, so warn patients about driving and alcohol.",
+      "back": "Benzodiazepines, sedating antihistamines, neuroleptics, opioids and alcohol in any combination. The result is excessive sedation, respiratory depression and motor incoordination.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -755,7 +723,7 @@
       "id": "p1-interactions-042",
       "type": "basic",
       "front": "A hypertensive patient takes an ACE inhibitor and a diuretic and is given an NSAID for arthritis. Reason out the outcome.",
-      "back": "NSAIDs inhibit renal prostaglandin synthesis, which blunts the antihypertensive effect of ACE inhibitors and diuretics, so BP rises. Avoid the combination or monitor BP closely.",
+      "back": "NSAIDs inhibit renal prostaglandin synthesis, which blunts the antihypertensive effect of ACE inhibitors and diuretics, so BP rises. Avoid concurrent use.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -804,7 +772,7 @@
       "id": "p1-interactions-044",
       "type": "basic",
       "front": "Which drugs raise digoxin toxicity risk when combined?",
-      "back": "Quinidine (reduces tissue binding and P-gp clearance, nearly doubling levels), diuretics causing hypokalaemia, and propranolol (marked bradycardia). Monitor serum digoxin and K+.",
+      "back": "Quinidine (reduces tissue binding and P-gp clearance, nearly doubling levels), diuretics causing hypokalaemia (give a K+-sparing diuretic or K+ supplements), and propranolol (marked bradycardia in digitalized patients).",
       "refs": [
         "KDT8 ch71"
       ],
@@ -971,25 +939,10 @@
       "level": 1
     },
     {
-      "id": "p1-interactions-046",
-      "type": "basic",
-      "front": "Which drug groups should you always ask about before adding a new drug?",
-      "back": "Regular medication for chronic disease: antidiabetics, antihypertensives, anticoagulants, antiepileptics and oral contraceptives, since they control closely regulated functions.",
-      "refs": [
-        "KDT8 ch71"
-      ],
-      "subtopic": "p1-interactions-management",
-      "tags": [
-        "interactions"
-      ],
-      "level": 1,
-      "status": "draft"
-    },
-    {
       "id": "p1-interactions-047",
       "type": "basic",
       "front": "Give deliberate drug combinations that exploit an interaction and explain why each works.",
-      "back": "Sulfamethoxazole with trimethoprim: synergistic antibacterial pair. Adrenaline with lidocaine: prolongs local anaesthesia. Furosemide with amiloride: K+-sparing offsets potassium loss.",
+      "back": "Sulfamethoxazole with trimethoprim: synergistic antibacterial pair. Adrenaline added to lidocaine: complementary action in local anaesthesia. Furosemide with amiloride: K+-sparing action offsets potassium loss.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -1005,7 +958,7 @@
       "id": "p1-interactions-048",
       "type": "basic",
       "front": "Probenecid is added to penicillin deliberately, but a diuretic is added to a patient on lithium. How is each handled?",
-      "back": "Probenecid blocks penicillin secretion and prolongs its action, used on purpose (single-dose gonorrhoea therapy). Diuretics raise lithium levels via increased tubular reabsorption, so lithium level is monitored and the dose reduced, or the combination is avoided.",
+      "back": "Probenecid blocks tubular secretion of penicillin and prolongs its action; used on purpose in single-dose gonorrhoea treatment. Diuretics raise lithium by promoting tubular reabsorption; tetracyclines, ACE inhibitors and certain NSAIDs do similarly, and metronidazole or tinidazole reduce its excretion. Reduce the lithium dose and monitor its level, or avoid the combination.",
       "refs": [
         "KDT8 ch71"
       ],
@@ -1080,21 +1033,6 @@
       "level": 3
     },
     {
-      "id": "p1-interactions-049",
-      "type": "basic",
-      "front": "Which drugs raise lithium levels, and what should be done?",
-      "back": "Diuretics (mainly), tetracyclines, ACE inhibitors and certain NSAIDs promote tubular reabsorption of lithium; metronidazole and tinidazole decrease its excretion. Lithium has a narrow safety margin, so monitor its level and reduce the dose, or avoid the combination.",
-      "refs": [
-        "KDT8 ch71"
-      ],
-      "subtopic": "p1-interactions-clinical-pairs",
-      "tags": [
-        "interactions"
-      ],
-      "level": 2,
-      "status": "draft"
-    },
-    {
       "id": "p1-interactions-050",
       "type": "basic",
       "front": "Why is paracetamol more dangerous in a chronic alcoholic or a patient on enzyme inducers?",
@@ -1128,7 +1066,7 @@
       "id": "p1-interactions-052",
       "type": "basic",
       "front": "Which drugs reduce absorption of ketoconazole and of phenytoin, and by what mechanism?",
-      "back": "Ketoconazole needs gastric acid to dissolve, so H2 blockers and antacids lower its absorption. Sucralfate binds phenytoin in the gut lumen, so less is absorbed.",
+      "back": "Ketoconazole needs gastric acid to dissolve, so H2 blockers and proton pump inhibitors lower its absorption. Sucralfate binds phenytoin in the gut lumen, so less is absorbed.",
       "refs": [
         "KDT8 ch71"
       ],

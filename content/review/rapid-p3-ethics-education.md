@@ -115,7 +115,8 @@ Validator (--check): no errors mention p3-ethics-education.
 | rf-p3-ethics-education-0137 to 0141 | new | Sarkar p506-510; Sarkar p56-60 |
 | rf-p3-ethics-education-0142 to 0143 | new | Sarkar p86-90; KDT8 ch6 |
 | rf-p3-ethics-education-0144 to 0147 | new | KDT8 ch6 |
-| rf-p3-ethics-education-0148 to 0149 | new | GG14 ch8 |
+| rf-p3-ethics-education-0148 | deleted (recheck 1/2) | none (no owner book) |
+| rf-p3-ethics-education-0149 | new | GG14 ch8 |
 | rf-p3-ethics-education-0150 to 0156 | new | Sarkar p91-95; GG14 ch8 |
 | rf-p3-ethics-education-0157 to 0164 | new | Sarkar p226-230 |
 
@@ -135,3 +136,55 @@ Conflicts / book issues:
 - Katzung16 gives 7 GCP principles; Sarkar gives 13 ICH-GCP principles. Both retained as different documents.
 - Ethics-committee size differs by era and regulation: Schedule Y 7, ICH-GCP 5, Indian GCP 5-7 (maximum 12-15), NDCT 2019 7.
 - One candidate pair, NDCT's 4-year new-drug rule, duplicated existing 0152 and was not added; the ID was skipped.
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked the 62 rapid ids in chunk 1 (rf-0137 to rf-0198) against the owner books cited on each card.
+
+| id | result | reason |
+|---|---|---|
+| rf-p3-ethics-education-0148 | deleted | Disproportionality method is not in any owner book. |
+| rf-p3-ethics-education-0188 | corrected | "Qualified by education, training and experience" is not in Katzung16 appendix 2. Answer now "Designed and conducted by qualified individuals". |
+| rf-p3-ethics-education-0197 | corrected | "Children and mentally disabled" is not in Golan ch52 p958. Answer now "Safeguards for vulnerable populations". |
+
+Verified with no change: all other rapid ids in chunk 1. Validator clean.
+Unverifiable (UNSOURCED or WEB refs left as is): 0.
+
+## Recheck (all new cards, chunk 2/2)
+
+Checked the 116 rapid ids in chunk 2 (rf-0199 to rf-0315) against the owner books cited on each card: NDCT Rules 2019, Golan ch52, Medhi PMECP p122, Sarkar pp 156-160, 206-210, 241-250, KDT8 ch5, Harrison21 pp 46-47, 109-112, NMC MD Pharmacology curriculum pp 3-4, 19-22.
+
+| id | result | reason |
+|---|---|---|
+| rf-p3-ethics-education-0217 | corrected (question scope) | Sarkar p246-250 gives 7 days only for UNEXPECTED SAEs to the EC. Sarkar p156-160 requires all SAEs to the EC within 24 h. Question now says "unexpected SAE". Answer unchanged. |
+| rf-p3-ethics-education-0218 | corrected | Sarkar p156-160 counts 14 days from knowledge of the occurrence, and the duty is the sponsor's. Question now names the sponsor; answer now says "knowledge of the occurrence". |
+| rf-p3-ethics-education-0292 | corrected | "Gifts of value forbidden" is not in Harrison21 p112. The book says many academic medical centres have banned drug-company gifts (pens, notepads, meals). Answer rewritten to match. |
+
+Deleted: none. Every card in chunk 2 is supported by its cited owner book.
+
+Unverifiable (UNSOURCED or WEB refs left as is): 0.
+
+Other points found (outside chunk 2, not changed):
+- rf-p3-ethics-education-0161 duplicates rf-p3-ethics-education-0059 (same question: retention of trial documents, 5 years, Sarkar p226-230). Keep one; left for the chunk 1 owner.
+- No level or basic-card "why" fixes apply: rapid cards have no level field and no basic kind.
+
+Validator (--check): clean.
+
+## Recheck (all new cards, chunk 2/2) - second pass
+
+Re-checked the 116 rapid ids in chunk 2 (rf-0199 to rf-0315; rf-0221 is not in the file) against the owner books cited on each card: NDCT Rules 2019 pp 2-19; Golan ch52 p958; Medhi PMECP p122; Sarkar pp 156-160, 206-210, 241-245, 246-250; KDT8 ch5 p94-95; Harrison21 pp 46-47, 109-112; NMC MD Pharmacology curriculum pp 3-4, 19-22.
+
+| id | result | reason |
+|---|---|---|
+| rf-p3-ethics-education-0224 | ref corrected | Bioequivalence definition runs over NDCT p2-3; ref now "NDCT Rules 2019 p2-3". Answer unchanged. |
+| rf-p3-ethics-education-0276 | corrected (question) | "First step" is not in Harrison21 p109; the book says physicians promote shared decision-making by informing and educating patients. Question now "physicians promote it by". Answer unchanged. |
+| rf-p3-ethics-education-0278 | corrected (answer) | Harrison21 p109 says delaying treatment while surrogates are contacted would jeopardise life or health. It does not say no surrogate is available. Answer now says that. |
+| rf-p3-ethics-education-0286 | corrected (question) | "Required steps" is not in Harrison21 p112. The book lists what physicians and institutions do to show respect after an error. Question reworded to match. Answer unchanged. |
+
+Deleted: none. Every other card in chunk 2 matches its cited passage.
+Duplicates within chunk 2: none (0296-0299 share a question stem but ask different papers).
+Unverifiable (UNSOURCED or WEB refs left as is): 0.
+Level / basic-card fixes: not applicable (rapid cards have no level field and no basic kind).
+Study deck (content/decks/p3-ethics-education.json): no chunk 2 ids, not changed.
+
+Validator (--check): clean.

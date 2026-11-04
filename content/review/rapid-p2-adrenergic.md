@@ -89,3 +89,50 @@ None omitted for grounding beyond the garbled cells listed above.
 ## Gap pass (PYQ 406, NANC transmission)
 - rf-p2-adrenergic-0583 | new | KDT8 PDF p341 (NO, NANC relaxation of corpus cavernosum)
 - rf-p2-adrenergic-0584 | new | KDT8 PDF p341 (PDE-5, cGMP breakdown)
+
+## Recheck (all new cards, chunk 1/2)
+- rf-p2-adrenergic-0471 | corrected | answer now includes tolazoline (GG14 p298 list)
+- rf-p2-adrenergic-0482 | corrected | "higher bioavailability ~90%" not found; replaced with long-acting congener statement (KDT8 ch10)
+- rf-p2-adrenergic-0495 | corrected | membrane-stabilising list is propranolol, oxprenolol, acebutolol (KDT8 ch10); pindolol/betaxolol/labetalol removed
+- rf-p2-adrenergic-0500 | corrected | "less Raynaud precipitation" not found; reason is less beta-2 vasodilator blockade
+- rf-p2-adrenergic-0507 | corrected | "aortic pulsation" not stated; book says lowers HR and BP in aortic dissection
+- rf-p2-adrenergic-0513 | corrected | CYP2D6 inhibition not found in books; kept beta-3 agonist for overactive bladder
+- rf-p2-adrenergic-0522 | corrected | dobutamine is mainly beta-1 with weak alpha activity
+- rf-p2-adrenergic-0523 | corrected | oxymetazoline is a relatively alpha-2 selective imidazoline, not nonselective (KDT8 PDF p165)
+- rf-p2-adrenergic-0514 | deleted | drug list with mirabegron not found in books
+- rf-p2-adrenergic-0516 | deleted | "10-fold NE vs EPI" not found in books
+- rf-p2-adrenergic-0537 | deleted | 10-20% noradrenaline share not found in books
+- rf-p2-adrenergic-0538 | deleted | "up to 97%" PNMT-lacking figure not found in books
+- rf-p2-adrenergic-0544 | deleted | duplicate of 0471 (tolazoline now included there)
+- Other rapid ids in chunk (0472-0511, 0517-0521, 0524-0536, 0539-0543, 0545-0547): checked, ok. Not every item re-searched individually: rf-0478, rf-0535, rf-0485 and rf-0528 were only partly checked.
+
+## Recheck (all new cards, chunk 2/2)
+- Re-verified this pass against owner PDFs: GG14 PDF p272-274, p280; KDT8 PDF p152-153, p156, p165-168, p179-180, p341.
+- rf-p2-adrenergic-0548 to 0555 | ok | GG14 PDF p272 and p280 (guanfacine; SAR of catecholamines)
+- rf-p2-adrenergic-0556 | corrected | question reworded to "phenylethylamines with no ring or beta-OH groups" (GG14 PDF p272 limits NE release to those lacking both)
+- rf-p2-adrenergic-0557 | corrected | question changed to "Non-catechol sympathomimetics with considerable CNS activity"; ephedrine has a beta-OH so "hydroxyl-free" was wrong. Answer kept (GG14 PDF p272)
+- rf-p2-adrenergic-0558 to 0560 | ok | GG14 PDF p272 (phenylephrine), p274 (false-transmitter, tyramine)
+- rf-p2-adrenergic-0562 | ok | KDT8 PDF p153 (alpha2 dominant presynaptic inhibition), p156 (prejunctional alpha2 row)
+- rf-p2-adrenergic-0563 | ok | KDT8 PDF p152 (NA:ATP 4:1, chromogranin)
+- rf-p2-adrenergic-0565 | ok | KDT8 PDF p165 and p168 (ritodrine to postpone labour)
+- rf-p2-adrenergic-0566 | ok | KDT8 PDF p166 (adrenaline with local anaesthetic)
+- rf-p2-adrenergic-0569, 0570 | ok | KDT8 PDF p167 (phenylephrine 5-10% pupil; 0.1-0.2% conjunctiva)
+- rf-p2-adrenergic-0573 | ok | KDT8 PDF p180 (propranolol and metoprolol for secondary prophylaxis)
+- rf-p2-adrenergic-0577, 0578 | ok | KDT8 PDF p180 (withhold at HR 50/min or less; PR 0.24 s or longer)
+- rf-p2-adrenergic-0579 | ok | KDT8 PDF p179 (esmolol)
+- rf-p2-adrenergic-0581, 0582 | ok | KDT8 PDF p180 (infarct size; shock and cardiac failure)
+- rf-p2-adrenergic-0583, 0584 | ok | KDT8 PDF p341 (NO from NANC nerves; PDE-5 degrades cGMP). These are erectile-dysfunction facts (KDT8 ch21) filed under synthesis-storage because no adrenergic subtopic fits. Owner may want them moved or removed.
+- Deleted as duplicates in the earlier pass (facts correct; kept card in brackets):
+  - rf-p2-adrenergic-0561 [0008]
+  - rf-p2-adrenergic-0564 [0097, 0020]
+  - rf-p2-adrenergic-0567 [0197]
+  - rf-p2-adrenergic-0568 [0198]
+  - rf-p2-adrenergic-0571 [0111]
+  - rf-p2-adrenergic-0572 [0380, 0509]
+  - rf-p2-adrenergic-0574 [0381, 0510]
+  - rf-p2-adrenergic-0576 [0384]
+- Deleted in this pass as duplicates (chunk 1 range, same facts and refs as 0380 and 0381):
+  - rf-p2-adrenergic-0509 [kept 0380]
+  - rf-p2-adrenergic-0510 [kept 0381]
+- Unverifiable (UNSOURCED or WEB refs) in this chunk: none.
+- Study deck content/decks/p2-adrenergic.json not edited in this pass (outside chunk 2 ids). Its level counts already meet the minimums for every subtopic.

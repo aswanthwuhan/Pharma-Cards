@@ -234,3 +234,58 @@ rf-p2-toxicology-0908 | new | Katzung16 ch58
 rf-p2-toxicology-0909 | new | Katzung16 ch58
 rf-p2-toxicology-0910 | new | Katzung16 ch58
 rf-p2-toxicology-0911 | new | Katzung16 ch58
+
+## Recheck (all new cards, chunk 1/3)
+
+Checked 48 Rapid Fire cards (rf-p2-toxicology-0731 to 0778) against Katzung16 ch58 (and ch56 where cited). Result: 46 kept, 1 corrected, 1 deleted, 0 unverifiable.
+
+Corrected:
+- rf-p2-toxicology-0749: question rewritten. Katzung Table 58-2 lists drugs for which haemodialysis may be indicated, not serum-level monitoring; answer now lists all nine.
+
+Deleted:
+- rf-p2-toxicology-0766: esmolol infusion dose (25-50 mcg/kg/min) is not printed in the owner books (Katzung ch58 gives propranolol or esmolol for beta-mediated hypotension, no dose).
+
+## Recheck (all new cards, chunk 2/3)
+
+Checked all 120 Rapid Fire cards in chunk 2 (rf-p2-toxicology-0779 to 0901, as listed in .tmp/recheck.json). Sources: Katzung16 ch56, ch57, ch58; KDT8 ch6, ch14, ch68; GG14 ch1, ch5, ch9, ch24, ch70, ch76; Sarkar OCR p16-20. This pass replaces the earlier chunk 2/3 section for the same ids. Its corrections (0794, 0803, 0805, 0825, 0830, 0831, 0863, 0869, 0879) were re-read against the sources and still hold.
+
+Result: 110 kept, 10 corrected, 0 deleted, 0 unverifiable (no UNSOURCED or WEB refs in this chunk).
+
+Corrected:
+- rf-p2-toxicology-0801: the old question ("main danger") and answer overstated Katzung16 ch58. Question now asks for causes of death; answer lists the three causes the book gives (airway obstruction by flaccid tongue, aspiration of gastric contents, respiratory arrest).
+- rf-p2-toxicology-0808: wording now follows Katzung16 ch58 ("far more damaging than useful").
+- rf-p2-toxicology-0821: Katzung16 ch57 gives the minutes-to-hours timing from animal studies; answer now says so.
+- rf-p2-toxicology-0828: content supported by Katzung16 ch58 (longer metal half-life in an organ means less effective chelation), not ch57; ref corrected.
+- rf-p2-toxicology-0838: zinc and copper depletion is in Katzung16 ch57, not KDT8 ch68; refs now cite both.
+- rf-p2-toxicology-0867: definition reworded to GG14 ch76 wording (modulating hormone production and/or signalling).
+- rf-p2-toxicology-0868: GG14 ch76 names DDT, phthalates and bisphenol A as the EDC examples. Brominated flame retardants and PCBs are not on the cited pages and were removed.
+- rf-p2-toxicology-0875: Katzung16 ch56 says modified endocrine responses have been observed in reptiles and marine invertebrates; the "seen early" wording was not in the book, so the question was reworded.
+- rf-p2-toxicology-0884: the book's list of reducing agents includes iron (GG14 ch24); added.
+- rf-p2-toxicology-0891: NAPQI is not named in the KDT8 ch14 text checked; added GG14 ch5 (abbreviation list, N-acetyl-p-benzoquinone imine).
+
+Deleted: none.
+
+Notes: chunk 2 contains only Rapid Fire cards, so no study-deck cards were changed. Validator (node scripts/validate-content.mjs --check) is clean.
+
+## Recheck (all new cards, chunk 3/3)
+
+Checked the 10 Rapid Fire cards in chunk 3 (rf-p2-toxicology-0902 to 0911). Sources: Katzung16 ch58 (PDF p1112-1120, incl. the calcium channel blocker passage on p1120) and GG14 ch9 (PDF p174-177). Chunk 3 has no study-deck cards.
+
+Result: 1 kept as is, 1 corrected, 8 deleted (all duplicates), 0 unverifiable (no UNSOURCED or WEB refs in this chunk).
+
+Corrected:
+- rf-p2-toxicology-0911: ref was Katzung16 ch58. The definition of a poison is in GG14 ch9 (chapter introduction, PDF p174), so the ref is now GG14 ch9 and the answer is reworded.
+
+Deleted (duplicates of earlier cards with the same fact; the kept card was checked against the same passage):
+- rf-p2-toxicology-0902: duplicate of 0007 (large volume of distribution limits haemodialysis).
+- rf-p2-toxicology-0904: duplicate of 0291 (verapamil and diltiazem overdose pattern).
+- rf-p2-toxicology-0905: duplicate of 0292 (dihydropyridine overdose pattern).
+- rf-p2-toxicology-0906: duplicate of 0293 (loss of dihydropyridine selectivity in massive overdose).
+- rf-p2-toxicology-0907: duplicate of 0220 (IV calcium 2-10 g).
+- rf-p2-toxicology-0908: duplicate of 0296 (high-dose insulin 0.5-1 unit/kg/h).
+- rf-p2-toxicology-0909: duplicate of 0294 (whole bowel irrigation and charcoal).
+- rf-p2-toxicology-0910: duplicate of 0295 (other rescue options; lipid emulsion stays there as case reports).
+
+Kept as is: rf-p2-toxicology-0903 (Katzung16 ch58 p1117 lists molecular weight, water solubility, protein binding, endogenous clearance and distribution).
+
+Owner note: Katzung16 p1118 (antidote table) says "start with 15 mg/kg IV" for calcium in severe CCB overdose, while the p1120 text gives 2-10 g IV. The kept cards follow the p1120 text. Owner may want to check this.

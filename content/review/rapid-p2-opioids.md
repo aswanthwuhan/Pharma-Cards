@@ -89,3 +89,58 @@ Rapid pairs added for the gap-pass study cards. Columns: id | new | source.
 ## Checker pass (newest cards, 2026-11-03)
 - Corrected 0794: epidural 2 to 3 mg and intrathecal 0.2 mg listed separately (KDT8 PDF p518). Earlier merged answer was wrong.
 - Checked 0789-0817: ok otherwise. No Prep/RR5 refs.
+
+## Recheck (all new cards, chunk 1/3)
+- rf-p2-opioids-0614 to 0658 checked against KDT8 ch34 text and KDT8 PDF p235/p505/p517; GG14 PDF p480/p562.
+- Corrected: rf-p2-opioids-0654 (morphine action duration 4-6 h not found in the books; answer now "2 to 3 h").
+- Clonidine (0621, 0622) is supported by GG14 PDF p562 (already in refs). Nimesulide, duloxetine, pregabalin, dronabinol dosing and methadone rows verified.
+- No deletions. Ids kept.
+
+## Recheck (all new cards, chunk 2/3)
+- Checked 120 ids (rf-p2-opioids-0659 to 0792 from .tmp/recheck.json chunks[1]) against KDT8 ch28, ch34, ch35 (pdftotext raw text), GG14 PDF p432-444 and p470, RangDale9 PDF p549-552, Katzung16 PDF p1140, KDT8 PDF p429/p433/p511. No PrepLadder refs.
+- Corrected (5):
+  - rf-p2-opioids-0696: synthetic opioid list was missing tapentadol (KDT8 ch34 item 10); loperamide and diphenoxylate added (book calls them synthetic opioids in the diarrhoea section).
+  - rf-p2-opioids-0715: removed "shift-work disorder"; that indication is for armodafinil, not modafinil. Book: day-time sleepiness due to narcolepsy or sleep apnoea (KDT8 ch35).
+  - rf-p2-opioids-0734: cognition-enhancer list was incomplete; added piribedil, citicoline, ginkgo biloba (KDT8 ch35 items 6-8).
+  - rf-p2-opioids-0772: naltrexone answer (craving, drinking days, heavy relapse) is not in the book; now "helps prevent relapse; weakens alcohol reinforcement" (KDT8 ch28).
+  - rf-p2-opioids-0788: "oxidation to toxic acids" by ADH was imprecise; ADH is the first step and acids form after further oxidation (KDT8 ch28).
+- Deleted (4, duplicates of a kept card with the same fact):
+  - rf-p2-opioids-0717 (modafinil adverse effects) duplicates 0509.
+  - rf-p2-opioids-0722 (Dolopar caffeine 25 mg with paracetamol 500 mg) duplicates 0525.
+  - rf-p2-opioids-0747 (CNS areas most sensitive to alcohol) duplicates 0034.
+  - rf-p2-opioids-0774 (preferred withdrawal drugs: benzodiazepines) duplicates 0182.
+- Verified OK without change: 111 cards, including 0743 (KDT8 PDF p429: alcohol does not kill spores), 0762 (KDT8 PDF p433: thiamine 100 mg in 500 mL glucose), 0782-0785 (GG14 PDF p440/p444: aducanumab, MCI or mild dementia, amyloid confirmed, monthly IV, ARIA, MRI at 6-month intervals), 0786 (Katzung16 PDF p1140), 0790 (RangDale9 PDF p552: PAG stimulation gives analgesia), 0789 and 0791 (RangDale9 PDF p550, p549).
+- Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk).
+- Rapid cards have no level field, so the level and basic-why checks do not apply.
+- Validator --check: ok.
+
+## Recheck (all new cards, chunk 2/3), pass 2
+- Re-checked the 116 cards still present from .tmp/recheck.json chunks[1] (rf-p2-opioids-0659 to 0792). The 4 ids deleted in pass 1 (0717, 0722, 0747, 0774) stay deleted.
+- Sources: KDT8 ch28, ch34, ch35 (pdftotext), KDT8 ch69 (vitamins), GG14 ch21 (pdftotext), Katzung16 PDF p1140, RangDale9 ch43 PDF p549-552.
+- Corrected (3):
+  - rf-p2-opioids-0762: "100 mg in 500 mL glucose" was not printed. KDT8 gives 100 mg added to each vial of glucose solution infused (vitamins chapter, ch69). Refs changed from ch28 to ch69.
+  - rf-p2-opioids-0782: "first anti-amyloid antibody approved" was not printed. GG14 ch21 calls aducanumab the first disease-modifying therapy approved by FDA (2021, accelerated approval). Question reworded to match.
+  - rf-p2-opioids-0785: "MRI before and every 6 months" is not in GG14. Answer now gives ARIA-E and ARIA-H with MRI monitoring, as printed.
+- Deleted: none in this pass.
+- Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk).
+- Rapid cards have no level field, so the level and basic-why checks do not apply. No duplicates found in the chunk.
+- Validator --check: ok.
+
+## Recheck (all new cards, chunk 3/3)
+- Checked 20 ids (rf-p2-opioids-0793 to 0817 from .tmp/recheck.json chunks[2]) against KDT8 PDF p492/p514/p516-519/p532, KDT8 ch32/ch34/ch35, GG14 PDF p475/p480/p482/p484/p530/p533/p535/p552-553/p559/p433, Katzung16 PDF p604-605/p631/p1205, RangDale9 PDF p549. No PrepLadder refs.
+- Corrected (6):
+  - rf-p2-opioids-0793: NMDA in central sensitisation is not in RangDale9 ch43; Katzung16 PDF p605 states it. Refs changed to Katzung16 ch31.
+  - rf-p2-opioids-0799: KDT8 says peripheral tissues only; GG14 PDF p530 gives immune cells in periphery and brain. Refs now KDT8 ch32 and GG14 ch26.
+  - rf-p2-opioids-0803: "approved in the US" is not printed; GG14 PDF p533 says approved for Dravet, LGS and TSC. Question reworded.
+  - rf-p2-opioids-0804: refs add Katzung16 ch63 (PDF p1205: marketed in Europe, Canada and elsewhere; approved for MS spasticity).
+  - rf-p2-opioids-0814: "cumulates in tissue" overstated; KDT8 ch34 and GG14 ch23 say firm binding to tissue proteins. Question reworded; refs add GG14 ch23.
+  - rf-p2-opioids-0815: answer missed oxymorphone; GG14 ch23 (PDF p482) lists morphine, hydromorphone and oxymorphone for rectal use. Answer and question corrected.
+- Deleted (4):
+  - rf-p2-opioids-0808 (DSM-5 mild, moderate and severe grades): no severity grading in the owner books (GG14 PDF p552-553 checked, and no hit in KDT8, Katzung16 or RangDale9).
+  - rf-p2-opioids-0810 (benzodiazepines in alcohol detox): duplicate of 0182, which states the same fact.
+  - rf-p2-opioids-0816 (first anti-amyloid antibody approved): duplicate of 0782 (aducanumab, first approved; GG14 ch21).
+  - rf-p2-opioids-0817 (memantine added to an anti-ChE): duplicate of 0565 (memantine to replace or supplement anti-ChEs; KDT8 ch35).
+- Verified OK without change (10): 0794, 0797, 0798, 0800, 0801, 0802, 0809, 0811, 0812, 0813.
+- Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk).
+- Rapid cards have no level field, so the level and basic-why checks do not apply.
+- Validator --check: ok.

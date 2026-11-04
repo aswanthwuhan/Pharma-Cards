@@ -63,10 +63,9 @@
         "classification"
       ],
       "front": "Why do monoclonal antibody names end in -mab, and what does the syllable just before it tell you?",
-      "back": "The stem -mab marks a monoclonal antibody. The preceding syllable shows species origin: -omab mouse, -ximab chimeric, -zumab humanised, -umab fully human. Knowing this lets you predict immunogenicity: more mouse sequence means more risk of anti-drug antibodies.",
+      "back": "The stem -mab marks a monoclonal antibody. The infix before it shows origin: -momab mouse, -ximab chimeric, -zumab humanised, -umab human.",
       "refs": [
-        "GG14 ch72",
-        "RangDale9 ch5"
+        "GG14 ch38"
       ],
       "pyq": [],
       "status": "draft"
@@ -138,11 +137,10 @@
       "tags": [
         "pk"
       ],
-      "front": "Why do IgG-based biologics have a half-life of weeks, and why are they not cleared by CYP enzymes?",
-      "back": "FcRn recycles IgG and rescues it from lysosomal breakdown, so plasma half-life is long (rituximab about 22 days, GG14). Proteins are broken down by proteolysis in lysosomes rather than hepatic CYP metabolism; target-mediated uptake can add to clearance.",
+      "front": "How long does rituximab stay in plasma, and what does that mean for dosing?",
+      "back": "Half-life about 22 days, so it is given weekly for 4 weeks, then as maintenance every 3 to 6 months (GG14 ch72).",
       "refs": [
-        "Katzung16 ch4",
-        "Katzung16 ch55"
+        "GG14 ch72"
       ],
       "pyq": [],
       "status": "draft"
@@ -157,10 +155,10 @@
         "mechanism"
       ],
       "front": "Why does a chimeric antibody such as cetuximab still cause anti-drug antibodies, and how does humanisation help?",
-      "back": "Chimeric antibodies keep mouse variable regions, which the immune system can recognise as foreign (HAMA). Humanisation leaves only the CDRs murine, so antigenicity falls and half-life lengthens; fully human antibodies reduce it further.",
+      "back": "Chimeric antibodies keep mouse variable regions, which the immune system can recognise as foreign. Humanised antibodies keep only the mouse CDRs, so immunogenicity falls; fully human antibodies reduce it further.",
       "refs": [
-        "Katzung16 ch55",
-        "GG14 ch72"
+        "Sarkar p531-535",
+        "GG14 ch38"
       ],
       "pyq": [],
       "status": "draft"
@@ -391,9 +389,10 @@
         "uses"
       ],
       "front": "Why can an anti-PD-1 or anti-CTLA-4 antibody treat cancer, and what toxicity pattern follows?",
-      "back": "They block inhibitory T-cell checkpoints (CTLA-4, PD-1, or its ligand PD-L1), releasing antitumour T cells. Because the brake on T cells is lifted generally, cytokine release can occur.",
+      "back": "They block inhibitory T-cell checkpoints (CTLA-4, PD-1 or PD-L1), releasing antitumour T cells against the tumour.",
       "refs": [
-        "Katzung16 ch55"
+        "Katzung16 ch55",
+        "GG14 ch72"
       ],
       "pyq": [],
       "status": "draft"
@@ -478,8 +477,8 @@
       "tags": [
         "mechanism"
       ],
-      "front": "Compare how rituximab, a checkpoint inhibitor and blinatumomab each recruit the immune system against cancer, and which can cause cytokine release syndrome.",
-      "back": "Rituximab: Fc-mediated killing of CD20 cells by CDC and ADCC. Checkpoint inhibitors (ipilimumab, nivolumab, pembrolizumab, atezolizumab): free T cells by blocking CTLA-4, PD-1 or PD-L1. Blinatumomab (CD19 x CD3): links a T cell to the B-cell target. Checkpoint inhibitors and BiTEs are both listed as causes of CRS; BiTEs also need monitoring for neurological toxicity and infection.",
+      "front": "Compare how rituximab, checkpoint inhibitors and blinatumomab each recruit the immune system against cancer.",
+      "back": "Rituximab: Fc-mediated killing of CD20 cells by CDC and ADCC. Checkpoint inhibitors (ipilimumab, nivolumab, pembrolizumab, atezolizumab): free T cells by blocking CTLA-4, PD-1 or PD-L1. Blinatumomab (CD19 x CD3): links a T cell to the B-cell target.",
       "refs": [
         "Katzung16 ch55",
         "GG14 ch72"
@@ -588,7 +587,7 @@
         "mechanism"
       ],
       "front": "Complete: antibody-drug conjugate payloads",
-      "text": "Emtansine and MMAE are {{microtubule}} disruptors, whereas deruxtecan is a {{topoisomerase}} inhibitor; the payload is released inside the cell by {{proteolytic}} cleavage.",
+      "text": "Emtansine and MMAE are {{microtubule}} disruptors, whereas deruxtecan is a {{topoisomerase}} inhibitor; the payload is released inside the cell after the antibody is internalised.",
       "refs": [
         "Katzung16 ch55",
         "GG14 ch72"
@@ -621,7 +620,7 @@
       "tags": [
         "classification"
       ],
-      "front": "Which fusion proteins carry an IgG1 Fc, and what does each bind?",
+      "front": "Which fusion proteins carry an IgG Fc, and what does each bind?",
       "back": "Etanercept: two TNF p75 receptor domains, binds TNF-alpha and lymphotoxin. Abatacept and belatacept: CTLA-4 extracellular domain, bind CD80/86 and block CD28 co-stimulation.",
       "refs": [
         "Katzung16 ch55",
@@ -797,7 +796,7 @@
         {
           "h": "Examples of use",
           "points": [
-            "Brentuximab vedotin: CD30 lymphomas; trastuzumab emtansine: HER2 breast cancer after trastuzumab and a taxane; belatacept: kidney transplant"
+            "Brentuximab vedotin: CD30 lymphomas; trastuzumab emtansine: HER2 breast cancer; belatacept: kidney transplant"
           ]
         }
       ],
@@ -852,9 +851,8 @@
         "adr"
       ],
       "front": "Which premedication reduces rituximab infusion reactions?",
-      "back": "Antihistamines and corticosteroids given before the infusion (KDT8); a slow infusion rate also lessens reactions (GG14).",
+      "back": "Antihistamines before the infusion and a slower infusion rate; reactions are usually mild with pretreatment (GG14 ch72).",
       "refs": [
-        "KDT8 ch64",
         "GG14 ch72"
       ],
       "pyq": [],
@@ -869,7 +867,7 @@
         "adr"
       ],
       "front": "Which infections must be excluded or watched for with TNF-alpha blockers?",
-      "back": "Reactivation of latent tuberculosis, and recurrence of past infections. Screen for past infection before starting.",
+      "back": "Reactivation of latent tuberculosis and valley fever; patients taking TNF blockers should be monitored for past infection.",
       "refs": [
         "Katzung16 ch55"
       ],
@@ -948,9 +946,8 @@
         "interactions"
       ],
       "front": "A patient on rituximab develops jaundice and rising transaminases. What should you consider?",
-      "back": "Hepatitis B reactivation, a known risk of rituximab; PML from JC virus is a rare infection risk. Rituximab also causes hypogammaglobulinaemia.",
+      "back": "Hepatitis B reactivation, a known risk of rituximab; PML from JC virus is a rare infection risk (GG14 ch72).",
       "refs": [
-        "Katzung16 ch55",
         "GG14 ch72"
       ],
       "pyq": [],
@@ -1054,7 +1051,7 @@
         "classification"
       ],
       "front": "Why can a biosimilar not be approved like a small-molecule generic?",
-      "back": "A protein made in living cells cannot be shown identical to the reference product; small differences in glycosylation or conformation can change PK, PD and immunogenicity. So approval needs analytical, animal and clinical comparison.",
+      "back": "A protein made in living cells cannot be shown identical to the reference product; differences in glycosylation or conformation can change PK, PD and immunogenicity, so equivalence must be shown.",
       "refs": [
         "GG14 ch1"
       ],
@@ -1069,8 +1066,8 @@
       "tags": [
         "classification"
       ],
-      "front": "What standard must a biosimilar meet against its reference product?",
-      "back": "It must be highly similar, with no clinically meaningful differences in safety, purity and potency; minor differences in clinically inactive components are allowed.",
+      "front": "What must be shown for a biosimilar against its reference product?",
+      "back": "Therapeutic equivalence must be demonstrated rather than assumed, because glycosylation or conformation differences can change PK, PD and immunogenicity (GG14 ch1).",
       "refs": [
         "GG14 ch1"
       ],
@@ -1131,7 +1128,7 @@
         "uses"
       ],
       "front": "Name two insulin glargine products listed in Katzung besides Lantus.",
-      "back": "Basaglar and Rezvoglar (Lilly), and Semglee (Mylan), are listed beside Lantus and Toujeo as insulin glargine products.",
+      "back": "Basaglar and Rezvoglar, listed with Lantus and Toujeo as insulin glargine products.",
       "refs": [
         "Katzung16 ch41"
       ],
@@ -1163,13 +1160,13 @@
         {
           "h": "Pathway",
           "points": [
-            "Analytical, animal and one or more clinical studies; highly similar with no clinically meaningful difference"
+            "Equivalence to the reference product must be demonstrated"
           ]
         },
         {
           "h": "Example",
           "points": [
-            "Insulin glargine products such as Semglee (Mylan) and Rezvoglar (Lilly)"
+            "Insulin glargine products such as Basaglar and Rezvoglar"
           ]
         }
       ],
@@ -1321,24 +1318,7 @@
         "newer-drugs"
       ],
       "front": "Which vector gives permanent expression by integrating into host DNA, and what is its drawback?",
-      "back": "Retroviruses (including lentivirus) integrate and pass to daughter cells; the drawback is random insertion that can disrupt genes. Lentivirus is used to make CAR T cells.",
-      "refs": [
-        "RangDale9 ch5",
-        "Katzung16 ch55"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
-      "id": "p4-biologics-054",
-      "type": "basic",
-      "subtopic": "p4-biologics-newer-modalities",
-      "level": 1,
-      "tags": [
-        "newer-drugs"
-      ],
-      "front": "What do antisense oligonucleotides and siRNA have in common, and how do they differ?",
-      "back": "Both stop a protein being made by acting on mRNA. Antisense: short nucleotide chains that bind mRNA and promote RNase H breakdown. siRNA: double-stranded RNA that recruits RISC to degrade the matching mRNA.",
+      "back": "Retroviruses integrate into host DNA and pass to daughter cells; the drawback is random insertion that can disrupt genes.",
       "refs": [
         "RangDale9 ch5"
       ],
@@ -1422,10 +1402,9 @@
         "newer-drugs",
         "adr"
       ],
-      "front": "How are the main toxicities of CAR-T therapy managed?",
-      "back": "CRS: tocilizumab with or without corticosteroids. Neurotoxicity: supportive care. Prolonged hypogammaglobulinaemia: IGIV replacement.",
+      "front": "How is cytokine release syndrome from CAR-T therapy treated?",
+      "back": "Tocilizumab (GG14 ch72).",
       "refs": [
-        "Katzung16 ch55",
         "GG14 ch72"
       ],
       "pyq": [],
@@ -1495,8 +1474,7 @@
       "front": "What is granulocyte-macrophage colony-stimulating factor (GM-CSF)?",
       "back": "A haematopoietic cytokine that stimulates stem cells to differentiate into granulocytes (neutrophils, eosinophils, basophils) and monocytes. Recombinant sargramostim is used clinically to speed marrow recovery.",
       "refs": [
-        "GG14 ch39",
-        "GG14 ch45"
+        "GG14 ch39"
       ],
       "pyq": [],
       "status": "draft",
@@ -1557,8 +1535,7 @@
       "front": "What is an immunotoxin?",
       "back": "A targeting protein (an antibody fragment or a cytokine) coupled to a toxin, so the toxin reaches only cells carrying the target. Example: moxetumomab pasudotox-tdfk, an anti-CD22 Fv linked to a 38 kDa Pseudomonas toxin fragment.",
       "refs": [
-        "GG14 ch38",
-        "GG14 ch72"
+        "GG14 ch38"
       ],
       "pyq": [],
       "status": "draft",
@@ -1572,7 +1549,7 @@
       "id": "p4-biologics-062",
       "type": "basic",
       "front": "How does botulinum toxin block the neuromuscular junction?",
-      "back": "It binds cholinergic nerve endings, enters the cell and cleaves SNARE proteins (synaptobrevin), so ACh cannot be released into the synapse. The result is flaccid paralysis; the block lasts weeks to 3-4 months and recovery needs nerve sprouting.",
+      "back": "It binds cholinergic nerve endings, enters the cell and cleaves SNARE proteins (synaptobrevin), so ACh cannot be released. The result is flaccid paralysis; the block lasts several weeks to 3-4 months.",
       "refs": [
         "GG14 ch10",
         "GG14 ch13"
@@ -1603,18 +1580,14 @@
         {
           "h": "Botulinum toxins",
           "points": [
-            "Mechanism: cleave SNARE proteins, block ACh release, flaccid paralysis",
-            "Uses: cervical dystonia, blepharospasm, glabellar lines, axillary hyperhidrosis (onabotulinumtoxinA)",
-            "Spread of toxin effect can paralyse swallowing and respiration (life-threatening)",
-            "Numerous nonequivalent preparations, so they are not interchangeable"
+            "Mechanism: cleave SNARE proteins, block ACh release, flaccid paralysis"
           ]
         },
         {
           "h": "Immunotoxins and conjugates",
           "points": [
             "Moxetumomab pasudotox-tdfk: anti-CD22 Fv with Pseudomonas toxin fragment; refractory hairy cell leukaemia",
-            "Denileukin diftitox: named as an FDA-approved immunotoxin",
-            "Tagraxofusp-erzs: human IL-3 fusion protein with a toxin fragment (cytokine-cytotoxin conjugate)"
+            "Denileukin diftitox: named as an FDA-approved immunotoxin"
           ]
         }
       ],
@@ -1665,8 +1638,7 @@
       "front": "Daclizumab and basiliximab: target and effect?",
       "back": "Antibodies to the IL-2 receptor (CD25). They block IL-2 signalling, so activated T cells cannot proliferate. They modulate rather than deplete.",
       "refs": [
-        "GG14 ch39",
-        "KDT8 ch65"
+        "GG14 ch39"
       ]
     },
     {
@@ -1708,25 +1680,10 @@
         "mechanism"
       ],
       "front": "Why was muromonab-CD3 largely replaced in transplant practice, and what happens if it is stopped?",
-      "back": "It is a murine antibody, so anti-murine and anti-idiotypic antibodies can limit repeat use. Anaphylaxis, infections and neoplasms are risks. Stopping it can cause rebound rejection. It is no longer marketed in the US.",
+      "back": "It is a murine antibody. Anaphylaxis, usual infections and neoplasms are risks, and stopping it can cause rebound rejection. Cytokine release syndrome and severe pulmonary oedema led to it being no longer marketed.",
       "refs": [
         "GG12 ch35",
         "GG14 ch39"
-      ]
-    },
-    {
-      "id": "p4-biologics-069",
-      "type": "basic",
-      "subtopic": "p4-biologics-mechanisms",
-      "level": 2,
-      "tags": [
-        "mechanism"
-      ],
-      "front": "What is an anti-idiotypic antibody, and why is it relevant to IVIG?",
-      "back": "An antibody against the antigen-binding (idiotype) region of another antibody. IVIG may contain anti-idiotypes that neutralise pathogenic autoantibodies; this is one proposed mechanism.",
-      "refs": [
-        "Katzung16 ch55",
-        "GG12 ch35"
       ]
     },
     {
@@ -1764,7 +1721,6 @@
         {
           "h": "Limits",
           "points": [
-            "Murine antibodies provoke anti-murine responses",
             "Rebound rejection after stopping muromonab-CD3"
           ]
         }
@@ -1789,7 +1745,7 @@
         {
           "h": "Introduction",
           "points": [
-            "Antibody names show origin: -omab murine, -ximab chimeric, -zumab humanised, -umab human",
+            "Antibody names show origin: -momab murine, -ximab chimeric, -zumab humanised, -umab human",
             "Mechanisms: ligand or receptor blockade, cell depletion, ADCC and CDC"
           ]
         },
@@ -1797,8 +1753,7 @@
           "h": "Autoimmune disease",
           "points": [
             "TNF-alpha neutralisation with the chimeric antibody infliximab",
-            "CD20 B-cell depletion with rituximab",
-            "IVIG anti-idiotypic effects proposed in autoimmune disease"
+            "CD20 B-cell depletion with rituximab"
           ]
         },
         {
@@ -1832,67 +1787,6 @@
       ]
     },
     {
-      "id": "p4-biologics-072",
-      "type": "basic",
-      "subtopic": "p4-biologics-safety",
-      "level": 1,
-      "tags": [
-        "poisoning"
-      ],
-      "front": "What is occupational toxicology?",
-      "back": "The study of how chemicals in the workplace affect human health. It is separate from the preclinical toxicity testing of a new drug.",
-      "refs": [
-        "GG14 ch76",
-        "Katzung16 ch1"
-      ]
-    },
-    {
-      "id": "p4-biologics-073",
-      "type": "shortnote",
-      "subtopic": "p4-biologics-safety",
-      "level": 2,
-      "tags": [
-        "poisoning",
-        "adr"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "front": "Short note: Occupational versus preclinical toxicity",
-      "sections": [
-        {
-          "h": "Occupational toxicity",
-          "points": [
-            "Exposure of workers to chemicals in the workplace",
-            "Lead: mainly by inhaling dust and fumes",
-            "Highest risk in lead smelters and storage battery factories"
-          ]
-        },
-        {
-          "h": "Preclinical toxicity",
-          "points": [
-            "Done in animals before human trials",
-            "Planned, controlled dosing of a candidate drug"
-          ]
-        },
-        {
-          "h": "Key differences",
-          "points": [
-            "Occupational: uncontrolled, long-term exposure of workers",
-            "Preclinical: planned testing of a candidate drug before human exposure"
-          ]
-        }
-      ],
-      "refs": [
-        "GG14 ch76",
-        "Katzung16 ch1"
-      ]
-    },
-    {
       "id": "p4-biologics-075",
       "type": "shortnote",
       "subtopic": "p4-biologics-biosimilars",
@@ -1919,8 +1813,7 @@
         {
           "h": "Biosimilars",
           "points": [
-            "Biologics Price Competition and Innovation Act (2010) created an abbreviated pathway",
-            "Requires no clinically meaningful difference in safety, purity and potency from the reference product"
+            "Equivalence to the reference product must be demonstrated (GG14 ch1), not assumed"
           ]
         }
       ],

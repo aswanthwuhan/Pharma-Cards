@@ -231,3 +231,79 @@ Independent check of the writer's pass (2026-11-03). Verified against KDT8 ch11-
 | p2-autacoids-122 | ok, ref added | GG14 PDF p720 (ACT-333679, t1/2 10 to 14 h) |
 | p2-autacoids-125 | ok, ref added | GG14 PDF p724 (sotatercept, fasudil listed as future agents) |
 | p2-autacoids-115 to 126 (others) | ok, verified | GG14 PDF p713 (PH >20 mmHg), p716-724 |
+
+
+## Recheck (all new cards, chunk 1/3)
+
+Scope: the 64 study cards in chunk 1 (p2-autacoids-063 to 126, excluding ids already deleted). Each was checked against KDT8, GG14, Katzung16, Rang & Dale or Padmaja via search.py. Result: 24 ok, 38 corrected, 2 deleted. Levels, subtopic minimums (>=3 L1, 2 L2, 1 L3) and validator still pass.
+
+| id | status | source / change |
+|---|---|---|
+| p2-autacoids-063 | corrected | KDT8 PDF p553: removed eNOS/Ca2+-calmodulin, M3 and IPAH claims not in the book; ETA receptor wording removed |
+| p2-autacoids-064 | ok | KDT8 PDF p191, p193 |
+| p2-autacoids-065 | corrected | KDT8 PDF p193, p198: removed unsupported timing and parenteral-prochlorperazine claims; betahistine contraindications kept |
+| p2-autacoids-066 | corrected | KDT8 PDF p195, p198, p199: removed dystonia and pre-anaesthetic claims not in the book |
+| p2-autacoids-067 | ok | KDT8 PDF p196 |
+| p2-autacoids-068 | ok | KDT8 PDF p204; GG14 PDF p884 |
+| p2-autacoids-069 | ok | KDT8 PDF p189, p192, p199 |
+| p2-autacoids-070 | corrected | KDT8 PDF p204: cisapride removed (not in the cited text) |
+| p2-autacoids-071 | corrected | KDT8 PDF p200, p205: chlorpromazine and cinnarizine removed from the non-selective list |
+| p2-autacoids-072 | corrected | KDT8 PDF p568: erenumab is for prophylaxis, not "severe migraine"; ergot wording per GG14 PDF p312 |
+| p2-autacoids-073 | corrected | KDT8 PDF p501; GG14 PDF p312-313: receptor subtypes and loss of consciousness not in the book; features reworded |
+| p2-autacoids-074 | corrected | KDT8 PDF p207-208: domperidone removed from the mild step |
+| p2-autacoids-075 | corrected | GG14 PDF p312; Katzung16 PDF p317, p344: lasmiditan CV claim, ubrogepant and gepant adverse effects removed |
+| p2-autacoids-076 | corrected | KDT8 PDF p209 contraindication list; GG14 PDF p312 |
+| p2-autacoids-077 | corrected | KDT8 PDF p209: MAO-A metabolism claim removed |
+| p2-autacoids-078 | deleted | Half-lives for naratriptan (about 6 h) and frovatriptan (about 26 h) are not in any owner book checked (Katzung16 PDF p322 gives 2 to 6 h duration only) |
+| p2-autacoids-079 | corrected | KDT8 PDF p208, p530: oral bioavailability under 1% not in the book |
+| p2-autacoids-080 | corrected | KDT8 PDF p207: antiemetic-by-injection sentence removed |
+| p2-autacoids-081 | corrected | KDT8 appendix (p1010), KDT8 PDF p210: 160 mg dose, 70% response and timing removed |
+| p2-autacoids-082 | ok | KDT8 PDF p210 |
+| p2-autacoids-083 | corrected | KDT8 PDF p210; Padmaja PDF p171: Na+ channel claim removed |
+| p2-autacoids-084 | ok | KDT8 PDF p210 |
+| p2-autacoids-085 | corrected | KDT8 PDF p206, p371: uterotonic action is 5-HT2 plus alpha-adrenergic partial agonism |
+| p2-autacoids-086 | ok | KDT8 PDF p205 |
+| p2-autacoids-087 | corrected | KDT8 PDF p171, p205: miscarriage and hallucination claims removed |
+| p2-autacoids-088 | corrected | KDT8 PDF p214, p220, p262; GG14 PDF p908: unsupported clauses removed |
+| p2-autacoids-089 | corrected | KDT8 PDF p227: the book says the COX-LT mechanism is unproven; card now says so |
+| p2-autacoids-090 | corrected | KDT8 PDF p185, p218: conjunctival hyperaemia removed |
+| p2-autacoids-091 | corrected | KDT8 PDF p221-222; GG14 PDF p845: unsupported uses (claudication, oral ED agents, atony) removed |
+| p2-autacoids-092 | deleted | Claim that PGE2 may replace oxytocin in toxaemia or renal failure not found in the owner books checked |
+| p2-autacoids-093 | ok | KDT8 PDF p217 |
+| p2-autacoids-094 | ok | KDT8 PDF p222 |
+| p2-autacoids-095 | corrected | KDT8 PDF p222; GG14 PDF p720: platelet-harvest and infusion-route claims removed |
+| p2-autacoids-096 | corrected | GG14 PDF p720: half-life and bleeding claims were for other drugs, removed |
+| p2-autacoids-097 | corrected | GG14 PDF p721: "most patients" changed to "a majority of patients in the trials" |
+| p2-autacoids-098 | ok | KDT8 PDF p221 |
+| p2-autacoids-099 | ok | KDT8 PDF p217 |
+| p2-autacoids-100 | corrected | KDT8 PDF p222-223: essay sections rewritten to what the book states |
+| p2-autacoids-101 | ok | KDT8 PDF p202, p728 |
+| p2-autacoids-102 | ok | KDT8 PDF p204 |
+| p2-autacoids-103 | corrected | KDT8 PDF p196, p114: PAF and leukotriene claims removed; BBB wording per GG12 PDF p949 |
+| p2-autacoids-104 | ok | KDT8 PDF p189, p193; Satoskar PDF p516 |
+| p2-autacoids-105 | ok | GG14 PDF p881 |
+| p2-autacoids-106 | corrected | Katzung16 PDF p361, p370: PKA and anticoagulant wording replaced with the book's cAMP and proliferation effects |
+| p2-autacoids-107 | corrected | GG14 PDF p716: antiproliferative and PDE5-abundance wording removed |
+| p2-autacoids-108 | corrected | GG14 PDF p717, p719: 40-80 mg titration not in the book; 20 mg TID kept |
+| p2-autacoids-109 | corrected | KDT8 PDF p342: nitrate potentiation and BP fall; CYP3A claim removed |
+| p2-autacoids-110 | corrected | GG14 PDF p716: teratogenicity claim removed |
+| p2-autacoids-111 | corrected | GG14 PDF p717: contraindication and renal claims removed; nitrate co-use kept |
+| p2-autacoids-112 | corrected | GG14 PDF p714: smooth muscle proliferation claim removed |
+| p2-autacoids-113 | ok | GG14 PDF p722, p725 |
+| p2-autacoids-114 | corrected | GG14 PDF p722, p725: contraceptive interaction removed; hepatic impairment wording per p725 |
+| p2-autacoids-115 | ok | GG14 PDF p718 (10 ppm for 10 min, 30% PVR fall) |
+| p2-autacoids-116 | ok | GG14 PDF p722, p724 |
+| p2-autacoids-117 | ok | GG14 PDF p716 |
+| p2-autacoids-118 | corrected | GG14 PDF p718: NO2 and methaemoglobin thresholds not found; removed |
+| p2-autacoids-119 | ok | GG14 PDF p720, p724 |
+| p2-autacoids-120 | ok | GG14 PDF p720, p722 |
+| p2-autacoids-121 | corrected | GG14 PDF p720: "6 to 9 inhalations" not in the book; replaced with the book's four-times-daily, up to 12 breaths |
+| p2-autacoids-122 | ok | GG14 PDF p720 (ACT-333679, 10 to 14 h); GG14 PDF p845 |
+| p2-autacoids-123 | ok | GG14 PDF p722, p724 |
+| p2-autacoids-124 | corrected | GG14 PDF p714, p717: survival kept; imbalance and combination-therapy claims rewritten to the book's flowchart |
+| p2-autacoids-125 | ok | GG14 PDF p721, p724 |
+| p2-autacoids-126 | corrected | GG14 PDF p312, p321; KDT8 PDF p210, p568: lasmiditan CV claim removed |
+
+Rapid Fire cards from this chunk are logged in content/review/rapid-p2-autacoids.md (same section title).
+
+Unverifiable in this chunk: 0 (no UNSOURCED or WEB refs in chunk 1).

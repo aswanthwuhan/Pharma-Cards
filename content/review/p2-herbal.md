@@ -176,3 +176,21 @@ Ladder per subtopic: regulation 21/7/2, botanicals 9/4/3, purified 3/2/1, tradit
 | id | ok / corrected / deleted | source |
 |---|---|---|
 | p2-herbal-068 | corrected (death cap: penicillin or silibinin, not "with penicillin G") | Bennett PDF p152, GG12 PDF p250 |
+
+## Recheck (all new cards, chunk 1/1)
+Checked p2-herbal-059 to 068 against Katzung16 ch65 (p1226-1233), Padmaja PDF p754, Sarkar p11-15, Ghosh FEP PDF p149-150, Bennett PDF p152, NDCT PDF p5 and p23. No cards deleted. No level or basic-card fixes needed beyond 064. No duplicates found. No UNSOURCED or WEB refs in this chunk.
+
+| id | ok / corrected / deleted | reason and source |
+|---|---|---|
+| p2-herbal-059 | corrected | Garlic, ginkgo and ginseng advice reworded: ginkgo and ginseng should not be combined with antiplatelet or anticoagulant drugs, garlic only cautiously (Katzung16 p1226-1227; Padmaja PDF p754) |
+| p2-herbal-060 | corrected | Removed "distinct from Ayurvedic, Unani and Siddha" (not in Sarkar or NDCT). Removed "traditional medicines lack controlled trials" (not in sources). Trial line corrected to thirty working days, then deemed permission (NDCT PDF p23). Refs now Sarkar p11-15, NDCT PDF p5, p23 (Sarkar p6-10 is the index; p16-20 not used) |
+| p2-herbal-061 | corrected | Back: Katzung16 p1231 says it is unknown whether low CoQ10 causes statin myopathy; "theory not confirmed" was overstated |
+| p2-herbal-062 | ok | Katzung16 p1231-1233 |
+| p2-herbal-063 | corrected | Glucosamine functional gains take 1-2 months, not 12 months (Katzung16 p1232) |
+| p2-herbal-064 | corrected | Basic back had no why. Added: Padmaja names these four as promising in viral hepatitis (Padmaja PDF p754) |
+| p2-herbal-065 | ok | Ghosh FEP PDF p149-150 |
+| p2-herbal-066 | ok | Sarkar p11-15; Padmaja PDF p754 |
+| p2-herbal-067 | ok | Sarkar p11-15; Padmaja PDF p754 |
+| p2-herbal-068 | corrected | "Evidence is largely anecdotal" removed (not in Bennett PDF p152). Now: milk thistle not confirmed as antidote in humans (Katzung16 p1228) |
+
+Validator: node scripts/validate-content.mjs --check reports ok after these edits.

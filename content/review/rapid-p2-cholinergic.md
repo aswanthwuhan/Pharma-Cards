@@ -101,3 +101,51 @@ Checked rf-p2-cholinergic-0451 to 0473 against KDT8 ch7, ch8, ch25, ch35 and GG1
 | rf-p2-cholinergic-0484 to 0485 | new (MG symptomatic therapy, anticholinesterase list) | KDT8 ch7 |
 
 Lethal dose "about 1 g/kg" is printed in GG14 ch12 (drug facts table). Checked against the owner PDF text; all pairs are one-line facts.
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked 61 Rapid Fire cards added since v0.5.5 (rf-p2-cholinergic-0361 to 0421). All answers match GG14 p230–233, p1483 and p238, GG12 p252 and p1069, or Katzung16 p143, except as below. The study-deck chunk is logged in `p2-cholinergic.md`.
+
+| id | status | source | note |
+|---|---|---|---|
+| rf-p2-cholinergic-0361 | corrected | GG14 p233 | ref was p235; the four quaternary respiratory agents are listed on p233 |
+| rf-p2-cholinergic-0362 | deleted | — | duplicate of rf-p2-cholinergic-0417 (aclidinium hydrolysed in plasma) |
+
+Unverifiable (UNSOURCED or WEB): 0 in this chunk.
+
+## Recheck (all new cards, chunk 2/2)
+
+Checked 64 Rapid Fire cards added since v0.5.5 (rf-p2-cholinergic-0422 to 0485) against GG14 p230–233, p239–250, p439, p444, KDT8 ch7, ch8, ch25, ch35 and KDT8 p1007. Validator clean.
+
+| id | status | source | note |
+|---|---|---|---|
+| rf-p2-cholinergic-0424 | corrected | GG14 PDF p232 | removed "once daily due to long half-lives"; the book gives only the M3-preferring subtype |
+| rf-p2-cholinergic-0447 | deleted | — | duplicate of rf-p2-cholinergic-0122 (same five cautions) |
+| rf-p2-cholinergic-0454 | corrected | KDT8 ch7; KDT8 ch35 | added KDT8 ch7 (p135: natural alkaloid, weak nicotinic agonism) |
+| rf-p2-cholinergic-0458 | corrected | GG14 ch21; GG14 PDF p250 | "anorexia" is not in the cited passages; answer now lists diarrhoea, nausea, vomiting |
+| rf-p2-cholinergic-0461 | corrected | GG14 PDF p250 | q changed from "antidote" to "reverse central anticholinergic syndrome from overdose" (book wording); ref was ch12 page not confirming "antidote" |
+| rf-p2-cholinergic-0466 | corrected | KDT8 ch8 | ref was GG14 ch13; the direct spasmolytic and M1-selective facts are in KDT8 p145 |
+| rf-p2-cholinergic-0471 | corrected | KDT8 ch7; GG14 PDF p220 | "focal spasms" use is in GG14 p220 (ocular spasms, dystonias); KDT8 ch7 gives only the mechanism |
+| rf-p2-cholinergic-0480 | corrected | KDT8 ch7 | q reworded: the ATP phase is shown for guinea-pig vas deferens contraction (p125), not a vascular response |
+| rf-p2-cholinergic-0481 | corrected | KDT8 ch7 | ref was ch8; the postganglionic transmitter table is at KDT8 p121 (ch7) |
+| rf-p2-cholinergic-0484 | corrected | KDT8 ch7; KDT8 PDF p1007 | both cited: ch7 says the drugs have no effect on the basic disorder; p1007 says no drug is curative |
+| rf-p2-cholinergic-0485 | deleted | — | duplicate of rf-p2-cholinergic-0088 (same three drugs); 0088 kept |
+
+Second pass (this run, same chunk): re-checked every card against the cited text (KDT8 ch7, ch8, ch25, ch35, GG14 PDF p220-256). Changes:
+
+| id | status | source | note |
+|---|---|---|---|
+| rf-p2-cholinergic-0453 | corrected | KDT8 ch35 | ref was GG14 ch21 (not confirmed); rivastigmine AChE + BuChE carbamate is KDT8 ch35 |
+| rf-p2-cholinergic-0456 | corrected | KDT8 ch35 | ref was GG14 ch21 (not confirmed); memantine NMDA antagonist for moderate-to-severe AD is KDT8 ch35 |
+| rf-p2-cholinergic-0459 | corrected | KDT8 ch35 | ref was GG14 ch21 (not confirmed); "marked cholinergic deficiency" is KDT8 ch35 |
+| rf-p2-cholinergic-0460 | corrected | GG14 PDF p231 | q/a rewritten: no book says atropine causes an AD-like state; p231 says toxic atropine gives delirium and coma |
+| rf-p2-cholinergic-0476 | corrected | GG14 PDF p251 | ref narrowed to the page: lethal dose of malathion in mammals is 1 g/kg |
+| rf-p2-cholinergic-0477 | corrected | GG14 PDF p251 | ref narrowed to the page: malathion for pediculosis in permethrin resistance |
+
+Verified with no change: 0439-0443 (KDT8 ch8 Table 8.2), 0444 (KDT8 ch8 nicotine patch), 0445-0446, 0448-0450, 0462-0463, 0464-0470, 0472-0475, 0478-0483 (KDT8 ch7 p121/p125), 0451-0452, 0455, 0457, 0461.
+
+Ids 0447 and 0485 are not in the deck (already deleted above), so the chunk checked 62 live cards.
+
+Other cards in this chunk (47) match the cited passages with no change.
+
+Unverifiable (UNSOURCED or WEB): 0 in this chunk.

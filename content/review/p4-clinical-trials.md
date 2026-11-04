@@ -210,3 +210,56 @@ Not written (no owner-book source found):
 ## Checker pass (PYQ gap cards 103-124)
 - p4-clinical-trials-117: "more than 30 organisations" removed (not in allowed text); Sentinel ref now GG14 PDF p168-170.
 - p4-clinical-trials-118: year 1992 removed from Russell and Burch (not found in Sarkar p281-285).
+
+## Recheck (all new cards, chunk 1/3)
+
+Scope: 69 deck cards and 51 rapid cards from `.tmp/recheck.json` chunk 1 (deck ids 056-107 subset, rf-0013 to rf-0063). Sources: KDT8 ch5/ch6 (pdftotext), Sarkar OCR (p16-20 to p591-595), GG12/GG14, Katzung16, Bennett, Medhi PMECP, Padmaja, Harrison21, NDCT Rules 2019.
+
+Corrected (kept id):
+- 059: refs KDT8 ch4 changed to KDT8 ch5 (placebo and nocebo text is in ch5).
+- 067: removed "critics blamed the patient group" and "high-risk" (not in GG14 p34).
+- 069: removed inference sentence linking consent to autonomy and risk to non-maleficence.
+- 070: rewritten. CRO and CRA duties removed (not in books). Now IND/DCGI 90 working days, investigator undertaking, EC approval (Sarkar p251-255, p246-250, p226-230).
+- 071: removed "random allocation unknown" and "special handling" (not found). Kept investigational status, risks, right to decline (Katzung16 p32).
+- 073: added short why (KDT8 ch6 causality).
+- 074: "free medical management" removed (not found). Replaced with EC SOP for research injury and compensation (Sarkar p226-230).
+- 075: rewritten. "not used to any significant extent" definition not in books. Now the NDCT list (Sarkar p221-225) and phytopharmaceuticals (Sarkar p16-20); short why added.
+- 076: CLA changed to DCGI (Sarkar p221-225); "deemed approval" changed to "automatic approval".
+- 086: essay numbers cut to KDT8 100-500. Katzung "100-200" is not in Katzung16 (it is GG12 p104). Padmaja "100-300" not confirmed. Sarkar p251-255 gives 20-300 (conflict noted). Removed Katzung single-blind line and surrogate BP claim; Padmaja ref removed.
+- 087: "proof of concept" removed (not in KDT8 ch5 text); refs KDT8 ch5.
+- 090: Advantages and Challenges sections removed (not verified in Sarkar p591-595); Katzung ref removed.
+- 091: added Katzung16 PDF p30 for "cannot prove cause and effect".
+- 092: short why added (Bennett p40).
+- 095: internal conflict note removed. Registration sentences kept (Padmaja p94-95).
+- 096: rewritten. Placebo-only trials, sponsored CME and paid panels not found. Now GG14 PDF p36-37 (collaboration and conflict concern; promotion spend).
+- 097: rewritten. Harrison21 and "consortia" claims removed. Foundations and Orphan Drug Amendment kept (Katzung16 p31-34); GG14 p36-37; Sarkar p16-20.
+- 098: Limitations removed (Katzung claims not found). IRB claim now GG12 PDF p103. NDCT Rules p16-17 kept.
+- 100: children paragraph removed (no book passage). Beneficence and non-maleficence Harrison refs removed. Shared decision-making now Harrison21 PDF p64.
+- 101: "1 in 10,000" example removed (not in Katzung16). "No fixed duration" now GG14 PDF p33. "May be interventional" replaced with observational (Sarkar p221-225).
+- 102: owner-verify note removed; Katzung ref removed.
+- 105: unverified items removed (flushing unused drugs, incineration, green chemistry, monitoring protocol). Harms and control points kept.
+- 108: "Use early-trial data..." step removed (not verified). T1-T4 kept (Sarkar p21-25).
+- 110: "vitamins, minerals or lifestyle" removed (not verified).
+- 111, 112: NDCT Rules PDF p1 ref removed (not verified). Sarkar refs kept.
+- 114: "NDA is the full approval route" removed; "definitive" removed.
+- 119: "in vitro can mislead" bullet removed (not verified).
+- 123: three unverified bullets removed (treatment irrational; patient cost; CDSCO staff).
+- rf-p4-clinical-trials-0015: refs KDT8 ch5 changed to Katzung16 ch1 (volunteer-patient text for cancer and AIDS is in Katzung16 p32, not KDT8 ch5).
+- rf-p4-clinical-trials-0025: refs GG14 ch1 changed to KDT8 ch5.
+- rf-p4-clinical-trials-0051, 0052: refs KDT8 ch4 changed to KDT8 ch5.
+
+Deleted (duplicate of a kept shortnote or essay; the better version is kept):
+- p4-clinical-trials-082 (basic PSUR schedule); kept 102 (shortnote, same facts).
+- p4-clinical-trials-084 (basic CHIM); kept 085 (shortnote).
+- p4-clinical-trials-088 (basic 2 x 2 factorial); kept 089 (shortnote with Medhi example).
+- p4-clinical-trials-109 (basic prevention trial); kept 110 (shortnote).
+
+Verified without change: 056, 057, 058, 059 (text), 060, 061, 062, 063, 064, 065, 066, 068, 072, 077, 078, 079, 080, 081, 083, 085, 089, 093, 094, 099, 103, 104, 106, 107, 113, 115, 116, 117, 118, 120, 121, 122, 124; rf-0013 to rf-0014, 0016 to 0024, 0026 to 0050, 0053 to 0063.
+
+Open conflicts (kept, for owner):
+- Trial approval timelines: 076 uses 90 days (Sarkar p221-225, 2019 amendment); 112 uses 90 working days for the general IND decision (Sarkar p251-255).
+- Phase II size: KDT8 100-500 (kept) vs Sarkar p251-255 20-300.
+
+Unsourced cards (owner approved): none in this chunk. WEB refs: none in this chunk.
+Unverified residue (not re-checked line by line): 117 extra refs (Katzung16 App2, RangDale9 PDF p11); 093 "benefit-risk" and resource bullets.
+Validation: `node scripts/validate-content.mjs --check` passes.

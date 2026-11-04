@@ -110,3 +110,31 @@ Checker (PYQ gap pass): rapid 0596-0623 checked, 3 deleted, 1 reworded, 1 replac
 ## Gap pass: rapid check for past-exam questions 167 and 293 (writer)
 - No new rapid pairs. Synthesis facts already covered: rf-p3-endocrine-0147 (pendrin), 0148 (TPO with H2O2), 0149 (MIT/DIT), 0150 (coupling), 0151 (thyroglobulin), 0153-0154 (colloid, release), 0155 (daily secretion), 0156 (one-third conversion), 0159-0160 (D2, D1 and PTU), 0238-0239 (thioamide actions).
 - Prep/RR5 refs: none.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 60 rapid ids (0561-0623) against KDT8, GG14, Sarkar OCR, Ghosh and Medhi. Unverifiable (UNSOURCED/WEB): 0.
+
+Corrected:
+- rf-p3-endocrine-0566: "for about 10 days" removed (KDT8 ch18 gives 100-300 mg/day before thyroidectomy).
+- rf-p3-endocrine-0568: refs changed to KDT8 ch18 (was a PDF page ref).
+- rf-p3-endocrine-0573: refs changed to GG14 ch46 (monthly LAR form, GG14 p957).
+- rf-p3-endocrine-0578: question and answer narrowed to leuprolide 3.75 mg monthly i.m. depot (GG14 ch46).
+- rf-p3-endocrine-0600, 0601, 0603: refs changed to KDT8 ch18 (was KDT8 PDF p331, the corticosteroid chapter); 0603 answer no longer claims adrenal insufficiency coexists.
+- rf-p3-endocrine-0604: refs changed to Sarkar p291-295.
+- rf-p3-endocrine-0613: question reworded to the cohabitation test (Ghosh p150-151).
+- rf-p3-endocrine-0619: "ovarian tumour risk" removed (not in KDT8 ch22 text).
+
+Deleted (no support found in owner books):
+- 0561 total iodine figure; 0562 90-95% protein-bound T4 share; 0563 "15 times" binding ratio; 0564 levothyroxine titration interval; 0565 steady-state interval.
+- 0569 duplicate of 0568 with unverified repeat-dose rule.
+- 0572 octreotide ampoule strengths.
+- 0575, 0576 nafarelin doses; 0577 goserelin doses; 0579 GnRH agonist time-to-peak and 10-day down-regulation.
+- 0583 FSH/LH timing in male hypogonadism; 0584 6-12 month duration.
+- 0592 fluid after glucose 300 (5% glucose in half-normal saline).
+- 0595 CTZ mechanism (not in owner books; overlaps study card 075).
+- 0605 guinea-pig alloxan resistance (Medhi manual checked); 0606 GLUT2 entry of STZ (Ghosh checked).
+- 0609 retro-orbital 0.05 ml sampling; 0610 high-fat model read-outs.
+- 0611 Phase I definition and 0612 safety factor 10 (Medhi checked).
+- 0623 reproduction end-point list (non-standard PDF page ref, content not confirmed).
+
+Verified without change: 0568 (KDT8 p290 withdraw over 3 months), 0570, 0571, 0574, 0580-0582, 0585-0591, 0593-0594, 0596-0599, 0607-0608, 0614-0617, 0620, 0622.

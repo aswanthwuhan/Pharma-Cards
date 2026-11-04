@@ -164,3 +164,30 @@ Not covered here (outside p2-opioids scope, PYQ 56 items 2, 3, 4, 6, 8, 9, 10): 
 ## Checker pass (newest cards, 2026-11-03)
 - Corrected 136 and 137: intrathecal morphine is 0.2 mg, epidural 2 to 3 mg (KDT8 PDF p518). Old text gave 2 to 3 mg for both. Ref 136 moved to KDT8 PDF p518; urinary retention line removed (not found in owner books).
 - Checked 139, 124-127, 133-135, 138: ok. 0813 fentanyl 60 mg threshold ok (GG14 PDF p482).
+
+## Recheck (all new cards, chunk 1/3)
+Checked against KDT8 ch28/34/35 text, GG14 PDF p417/p480/p481/p526-535/p562, KDT8 PDF p235/p505/p517/p731. No deletions. Ids kept.
+- Corrected:
+  - 064: clonidine withdrawal relief is in GG14 PDF p562, not KDT8 ch34; high-dose naloxone claim for buprenorphine removed.
+  - 074: "contraindicated in epilepsy" and "not effective in severe pain" not in the books; seizure-threshold claim cited GG14 PDF p481.
+  - 076: morphine action 4-6 h, 24 h elimination and enterohepatic recycling not found; removed.
+  - 073: "little histamine release" for fentanyl not found; removed.
+  - 081: bicuculline and PTZ section not verified; removed (strychnine and picrotoxin kept, KDT8 ch35).
+  - 083: half-life 4-6 h not found; removed. 084: "children over 6 years" not found; removed.
+  - 085: cocaine-relapse claim not found; removed. 086: caffeine half-life 3-6 h not found; removed.
+  - 087: CBF-as-consequence-of-neuron-loss claim not found; removed.
+  - 090: memantine dose and 6-month review not found; removed.
+  - 097: aldehyde syndrome duration (1-4 h) and confusion/postural collapse not found; list replaced with KDT8 ch28 list.
+  - 102: "safer limits for women" not found; removed.
+  - 106: antiperspirant not found; removed.
+  - 111: acetaldehyde duration (1-4 h) removed.
+  - 113: "stop if no benefit after 3 months" not found; removed.
+  - 114: "leaving physiological learning signals" not found; removed.
+  - 119: CGRP claims not found; removed (substance P kept).
+  - 121: "microglia" not found; refs KDT8 ch32 (antipsychotics chapter) replaced by KDT8 PDF p492.
+  - 122: refs KDT8 ch32 replaced by GG14 ch26 (anandamide, GG14 PDF p526).
+  - 123, 125: CBD indications (Dravet, LGS, tuberous sclerosis) are in GG14 PDF p417, not GG14 ch26; ref added, KDT8 ch32 dropped from 125.
+  - 131: naltrexone hepatotoxicity at high dose not found; removed.
+- Key facts checked, ok (not every sentence of every card was traced; not yet checked in full: 066 "morphine substitute" wording, 068 euphoria and locus coeruleus wording, 070 nalorphine line, 078 sedative line, 091 adverse list, 128-130 DSM and neurobiology wording, rf-0633 to 0649 beyond the spot checks): 094, 095, 096, 099, 100, 101, 103, 104, 105, 107, 108, 110, 112, 115, 116, 117, 118, 120, 124, 126, 127, 128, 129, 130, 065 (refs kept), 066, 067, 068, 069, 070, 071, 072, 075, 077, 078, 079, 080, 082, 088, 089, 091, 092, 093.
+- Duplicates: 109 (disulfiram regimen) overlaps 097 but is the only L1 basic in its subtopic; kept to keep the minimums.
+- Unverifiable: none (no UNSOURCED or WEB refs in this chunk).

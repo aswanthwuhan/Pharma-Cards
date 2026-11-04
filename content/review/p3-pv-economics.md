@@ -218,3 +218,29 @@ Prep / RR5 refs in these cards: none.
 
 Not verified: PYQ year and university for the Q bank items (year 0 placeholder); the 071 interpretive link.
 Outside this pass, older cards still use the term "disproportionality": deck card (line 378 of the deck JSON, "Disproportionality analysis of report databases...") and rapid card at line 619 of the rapid JSON. Not edited here, since they predate this pass; owner to decide.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: 19 study cards (053-071) and 46 Rapid cards (rf-0271 to rf-0316). Each fact checked against the cited owner book or OCR file.
+
+Corrected study cards:
+- p3-pv-economics-055: removed "WHO scale" (not in KDT8 ch6 or Sarkar p91-95); PvPI step reworded to what Sarkar p91-95 says (regional centres do causality analysis, reports to NCC via VigiFlow).
+- p3-pv-economics-057: "disproportionality needs follow-up" replaced by GG14 ch8 p168 (quantitative signal detection needs no denominator); PEM bullet reworded to an observational cohort (KDT8 ch6, Bennett).
+- p3-pv-economics-058: removed invented "why" on central data collection.
+- p3-pv-economics-059: ref RangDale9 ch1 removed (content is GG14 ch8 only).
+- p3-pv-economics-061: "faster than manual review" not in GG14 ch8; reworded.
+- p3-pv-economics-062, 064, 066, 068, 070: back now teaches a short why, each from Sarkar (p106-110 immunisation errors preventable and low risk acceptance; p96-100 ultimate goal and severity/imputability meaning; p81-85 decision rule).
+- p3-pv-economics-065: "awareness" gap narrowed to the private sector (Sarkar p106-110).
+- p3-pv-economics-071: title changed from "Economic evaluation of pharmacovigilance" to "Pharmacoeconomic evaluation methods" (Sarkar p81-85 does not cover PV economics). Section on "fit with a PV programme" replaced by Rang & Dale p11 (regulators require economic analysis); CUA cost-of-illness claim removed; caution reworded to Sarkar p81-85.
+
+Deleted: none. No card lacked support in an owner book.
+
+Duplicates: none found inside the chunk.
+
+Verified ok without edit: 053, 054, 056, 060, 063, 067, 069; rf-0271 to rf-0316 (no edits needed; Sarkar p96-110, p176-180, p81-85, KDT8 ch6, GG14 ch8, Katzung16 p1278/p1281, RangDale9 p11).
+
+Unverifiable: none in this chunk (no UNSOURCED or WEB refs). PYQ entries not rechecked.
+
+Ladder: every subtopic keeps at least 3 L1, 2 L2 and 1 L3 study cards. Validator: check ok.
+
+Prep / RR5 refs in these cards: none.

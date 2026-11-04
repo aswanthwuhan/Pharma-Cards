@@ -97,3 +97,12 @@ Added rf-p2-ocular-0297 to 0310 for the new study cards 062-069.
 | rf-p2-ocular-0306 to 0310 | new | Medhi PMECP PDF p332, Medhi PMECP PDF p334 |
 
 Checker (PYQ gap pass): rf-0297-0310 verified. Fixed rf-0302 answer (OECD 405 not in books, now "Draize rabbit eye test"); rf-0305 ref now Ghosh PDF p182.
+
+## Recheck (all new cards, chunk 1/1)
+
+Checked 35 rapid cards (rf-p2-ocular-0276 to 0310) against KDT8, GG14, Sarkar, Medhi and Ghosh.
+
+- Corrected (8): 0281 (ref to GG14 ch74), 0282 (apraclonidine 0.5–1%), 0284 (second-line add-on), 0288 (timolol has no local anaesthetic activity), 0289 (betaxolol, levobunolol, carteolol, metipranolol), 0293 (acetazolamide 0.5 g i.v. then oral BD, KDT8 PDF p186), 0296 (dorzolamide stinging, burning, itching), 0304 (ICE test replaces HET-CAM, which is not in the books).
+- Deleted (3): rf-p2-ocular-0279 (travoprost 0.004%, not found), rf-p2-ocular-0280 (bimatoprost 0.03%, not found), rf-p2-ocular-0285 (brimonidine neuroprotection, not found).
+- Verified, unchanged: 0276, 0277, 0278, 0283, 0286, 0287, 0290, 0291, 0292, 0294, 0295, 0297–0310 (0300 "14 days" not re-found in the printed snippet; kept).
+- Unverifiable: 0 UNSOURCED or WEB refs in this chunk.

@@ -159,3 +159,11 @@ rf-p1-special-populations-0320 | new | KDT8 ch5
 | rf-p1-special-populations-0321 to 0342 | new (22 pairs) | KDT8 ch5; KDT8 ch6; KDT8 ch10; GG14 ch18; GG14 ch19; GG14 ch23 |
 
 Checker (PYQ gap pass): verified 0321-0342 against KDT8 p91-92, p111 and GG14 p367, p379, p393-394, p475. Wording fix on 0340 ("markedly" removed, not in source). Note: 0340 duplicates existing card (line 39, same answer, pregnancy-pk); left both for owner to merge. No deletions. Validator clean.
+
+## Recheck (all new cards, chunk 1/1)
+Scope: the 46 `rf-` cards in chunk 1/1 of `.tmp/recheck.json` (since v0.5.5). Each was checked against its cited source (KDT8 PDF p25/p29/p90 and ch5/ch6, Katzung16 ch59 Table 59-1/59-5 and p1132, GG14 p362/367/370/379/394/475, Sarkar p71-75 OCR).
+
+Corrected: none. Every fact matched its source.
+Note (kept, owner to check): rf-0309 (lithium milk concentration equal to serum, Katzung16 ch59 p1132) conflicts with Katzung16 ch29 p569 (one third to one half). The ch59 wording is kept. The study card 080 has the same note.
+Deleted: none.
+Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk).

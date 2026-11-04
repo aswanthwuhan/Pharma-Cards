@@ -303,3 +303,13 @@ rf-p1-pd-0264 | new | GG14 PDF p174
 - Corrected: rf-p1-pd-0272 answer now pioglitazone only (rosiglitazone withdrawn, KDT8 p314); rf-p1-pd-0291 rimonabant ref moved to GG14 p564; rf-p1-pd-0288 added GG14 p527.
 - Verified OK: 0274-0276, 0278-0282, 0284-0287, 0289-0290, 0292-0306, 0307-0312 (spot-checked against KDT8 p90-92, p314, p567, p700, p730; GG12 p354; GG14 p36, p100, p111, p316, p319, p342, p423, p532, p535; Katzung16 p630; RangDale9 p595; Satoskar p157; Medhi p170, p356).
 - Validator --check: ok. No Prep/RR5 refs.
+
+## Recheck (chunk 1/2 rapid cards, 2026-11-04)
+- Checked rf-p1-pd-0236 to rf-p1-pd-0310 against KDT8, GG12/GG14, Katzung16, RangDale9, Golan, Satoskar, Medhi.
+- Corrected: rf-p1-pd-0260 ref KDT8 PDF p497 replaced with Golan PDF p255 (autoreceptor desensitisation and delayed onset).
+- Deleted: rf-p1-pd-0282 ("cannabidiol: significant interaction with clobazam"). No owner book states it; GG14 lists clobazam only in interaction tables.
+- Verified OK: the rest of the chunk, including rf-0251 (GG14 p69 "tachyphylaxis and fade"), rf-0267 (KDT8 p79 levodopa), rf-0301 (Satoskar p157 microgram bioassay), rf-0293 (GG12 p1396 MIC).
+
+## Recheck (all new cards, chunk 2/2)
+- Checked rf-p1-pd-0311 and rf-p1-pd-0312 against GG14 PDF p319 (dopamine agonists: PD, RLS, hyperprolactinaemia; levodopa formulated with a decarboxylase inhibitor to block peripheral conversion): ok.
+- Corrected: none. Deleted: none.

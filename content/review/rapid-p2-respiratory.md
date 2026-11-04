@@ -99,3 +99,16 @@ No rapid cards added or changed. Existing pairs already cover the cough, antitus
 | 0344-0347 | ok | GG14 ch44 p913 (doxapram doses, COPD 2 h; almitrine hypoxia-only, neuropathy; acetazolamide acidosis) |
 | 0348 | ok | GG14 ch44 p912 (benzonatate, PABA metabolite) |
 | 0349 | ok | GG14 ch44 p912 (nebulised furosemide, evidence not convincing) |
+
+## Recheck (all new cards, chunk 1/1)
+
+Checked rf-0309 to rf-0349 against GG14 ch44 (Drug Facts table and text).
+
+| id | status | reason / source |
+|---|---|---|
+| 0320 | corrected | "HandiHaler capsule is 18 µg" is not printed in GG14 ch44 or KDT8 ch16; removed, refs now GG14 ch44. |
+| 0336 | corrected | "immediate-release" is not in the source; answer now "600 mg four times daily or 1200 mg twice daily" (GG14 ch44). |
+| 0339 | corrected | "IL-5 receptor alpha" not stated; now "Blocks the IL-5 receptor" (GG14 ch44). |
+| 0309-0319, 0321-0335, 0337, 0338, 0340-0349 | ok | GG14 ch44 Drug Facts table and text (doses, intervals, contraindications, mechanisms). |
+
+Deleted ids: none. Unverifiable ids in chunk: none.

@@ -205,7 +205,7 @@
       "id": "p2-nsaids-055",
       "type": "basic",
       "front": "What is salicylism and at what aspirin dose does it appear?",
-      "back": "Syndrome from anti-inflammatory doses (3 to 5 g/day): dizziness, tinnitus, vertigo, reversible hearing and vision impairment, excitement, hyperventilation and electrolyte imbalance. Tinnitus is the classic early warning that the dose is too high.",
+      "back": "Syndrome from anti-inflammatory doses (3 to 5 g/day): dizziness, tinnitus, vertigo, reversible hearing and vision impairment, excitement, hyperventilation and electrolyte imbalance.",
       "refs": [
         "KDT8 ch14"
       ],
@@ -1498,7 +1498,7 @@
       "id": "p2-nsaids-065",
       "type": "basic",
       "front": "Case: RA not controlled by methotrexate plus a TNF inhibitor. What next and what to avoid?",
-      "back": "Options are abatacept (blocks CD80/CD86 costimulation of T cells) or rituximab (B-cell depletion) with methotrexate; anakinra (IL-1 receptor antagonist) is rarely used. Never combine abatacept with a TNF antagonist (very high infection risk). Screen for TB beforehand since TNF blockade flares granulomatous infection.",
+      "back": "Options are abatacept (blocks CD80/CD86 costimulation of T cells) or rituximab (B-cell depletion) with methotrexate; anakinra (IL-1 receptor antagonist) is rarely used. Abatacept is not combined with a TNF antagonist because of greatly increased infection risk. Anti-TNF therapy raises susceptibility to TB and pneumocystis.",
       "refs": [
         "KDT8 ch15"
       ],
@@ -1913,7 +1913,7 @@
         {
           "h": "Cardiovascular",
           "points": [
-            "Low dose (75-150 mg/day) after MI and in unstable angina",
+            "Low dose (75-150 mg/day) after MI; in new-onset or worsening angina, 100-150 mg/day for 12 weeks can halve the infarction rate",
             "Reduces TIA and stroke; does not cut stroke risk after MI"
           ]
         },
@@ -2415,7 +2415,7 @@
       "id": "p2-nsaids-084",
       "type": "basic",
       "front": "Which injury and procedural uses are listed for ibuprofen and its congeners?",
-      "back": "Soft-tissue injury, fractures, vasectomy, tooth extraction, and post-operative and post-partum swelling and pain, where inflammation is less prominent than pain.",
+      "back": "Soft-tissue injury, fractures, vasectomy, tooth extraction, and post-operative and post-partum swelling and pain. They suppress swelling and inflammation in these settings.",
       "refs": [
         "KDT8 ch14"
       ],
@@ -2594,7 +2594,7 @@
       "id": "p2-nsaids-095",
       "type": "basic",
       "front": "Lesinurad: what kind of drug is it and how is it used?",
-      "back": "A newer uricosuric with a mechanism similar to probenecid. Approved as a treatment option alone or with a xanthine oxidase inhibitor.",
+      "back": "A newer uricosuric with a mechanism similar to probenecid, so it lowers urate by increasing its excretion. Approved as a treatment option alone or with a xanthine oxidase inhibitor.",
       "refs": [
         "KDT8 ch15"
       ],
@@ -2689,22 +2689,6 @@
       "level": 1
     },
     {
-      "id": "p2-nsaids-100",
-      "type": "cloze",
-      "front": "Probenecid: fill the blanks",
-      "text": "Probenecid blocks {{organic acid}} transport in the renal {{tubule}}, and so inhibits the reabsorption of urate by the transporter {{URAT-1}}.",
-      "refs": [
-        "KDT8 ch15"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "subtopic": "p2-nsaids-gout",
-      "tags": [
-        "mechanism"
-      ],
-      "level": 1
-    },
-    {
       "id": "p2-nsaids-101",
       "type": "cloze",
       "front": "Colchicine: fill the blanks",
@@ -2758,7 +2742,7 @@
       "id": "p2-nsaids-107",
       "type": "basic",
       "front": "What is thromboxane A2, and where is it made?",
-      "back": "A platelet-derived eicosanoid made by COX-1 that promotes platelet aggregation and vasoconstriction.",
+      "back": "A platelet-derived eicosanoid made by COX-1 that promotes platelet aggregation and vasoconstriction. Aspirin blocks its synthesis, which is why it prevents platelet clumping.",
       "refs": [
         "KDT8 ch13",
         "KDT8 ch14"
@@ -2788,7 +2772,7 @@
       "id": "p2-nsaids-109",
       "type": "basic",
       "front": "Why does aspirin’s antiplatelet effect outlast the drug itself?",
-      "back": "Aspirin acetylates platelet COX irreversibly, so TXA2 synthesis stays blocked. KDT8 says the antithrombotic effect lasts more than 3 days.",
+      "back": "Aspirin acetylates platelet COX irreversibly, so TXA2 synthesis stays blocked until new platelets are made. The antithrombotic effect lasts more than 3 days.",
       "refs": [
         "KDT8 ch13",
         "GG14 ch42"
@@ -2936,7 +2920,7 @@
       "id": "p2-nsaids-117",
       "type": "basic",
       "front": "Which factors set the cardiovascular risk of an NSAID?",
-      "back": "Dose, half-life, degree of COX-2 selectivity, potency and treatment duration. Use the lowest dose for the shortest period.",
+      "back": "Dose and the patient's underlying cardiovascular risk: celecoxib's MI and stroke risk relates to dose and underlying cardiovascular disease. Use the lowest effective dose for the shortest feasible time.",
       "refs": [
         "GG14 ch42"
       ],
@@ -3160,7 +3144,7 @@
         "mechanism"
       ],
       "front": "Why does an NSAID mainly block the second phase of carrageenan paw oedema?",
-      "back": "The first phase (to about 2 h) is due to histamine and serotonin. The second phase (up to about 5 h) is due to prostaglandins, proteases and lysosomal release from arachidonic acid metabolism, which COX inhibitors block.",
+      "back": "The first phase is due to histamine and serotonin. The second phase is due to prostaglandins, proteases and lysosomal enzymes, which COX inhibitors block, so NSAIDs act mainly on it.",
       "refs": [
         "Sarkar p336-340"
       ],

@@ -5,6 +5,13 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.8",
+    changes: [
+      "Cards fact-checked against the textbooks across all four papers: corrected details and exact page sources",
+      "More cards: now 5,044 study and 21,762 Rapid Fire",
+    ],
+  },
+  {
     version: "0.5.7",
     changes: [
       "Night mode cards are dim and easy on the eyes: dark card, soft off-white text, no glare",

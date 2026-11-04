@@ -224,3 +224,44 @@ Not verified: Glass rod and sponge implantation granulomas are named only (Sarka
 - p2-nsaids-133 | corrected | removed unsourced "Conclusion" section; refs to Sarkar p341-345 and Satoskar p287-288
 - p2-nsaids-134 | corrected | refs to Sarkar p341-345 for ulcer index
 - Verified ok: 120-124, 126, 128-131, 134 (Sarkar p336-345, Satoskar p287-288)
+
+## Recheck (all new cards, chunk 1/3)
+
+Scope: 120 ids from the post-v0.5.5 additions (81 study cards, 39 rapid cards rf-p2-nsaids-0528 to 0566). Each fact was checked against KDT8 ch13-15 (pdftotext), GG14 ch42 (PDF p835-872), Sarkar OCR p336-350 and Satoskar p287-288 (search.py).
+
+Summary: 71 study cards ok, 9 corrected, 1 deleted; 39 rapid cards ok (none changed); 0 unverifiable (no UNSOURCED or WEB refs in this chunk).
+
+id | result | reason
+---|---|---
+p2-nsaids-055 | corrected | removed "tinnitus is the classic early warning" (not in KDT8 ch14; tinnitus is only listed among salicylism features)
+p2-nsaids-065 | corrected | "never combine abatacept with TNF antagonist" kept as KDT8 ch15 wording; removed "screen for TB beforehand" (not printed); TNF infection risk kept
+p2-nsaids-070 | corrected | "unstable angina" not printed; replaced with KDT8 ch14 new-onset/worsening angina 100-150 mg/day for 12 weeks halves infarction rate
+p2-nsaids-084 | corrected | "inflammation less prominent than pain" is the RA/OA context, not the procedural uses; replaced with KDT8 ch14 "suppress swelling and inflammation"
+p2-nsaids-095 | corrected | added KDT8 ch15 link: mechanism similar to probenecid, so urate excretion rises
+p2-nsaids-107 | corrected | added why (aspirin blocks TXA2 synthesis, so platelet aggregation falls), KDT8 ch14
+p2-nsaids-109 | corrected | removed "KDT8 says" meta wording; antithrombotic effect >3 days is in KDT8 ch13 (p200) and the recovery is platelet turnover (ch14)
+p2-nsaids-117 | corrected | half-life, selectivity and potency were not in GG14 ch42; replaced with GG14 ch42 (dose, underlying CV risk, lowest dose shortest time)
+p2-nsaids-128 | corrected | removed hour cut-offs (2 h, 5 h) not printed in Sarkar p336-340; kept histamine/serotonin then PG/protease/lysosome phases
+p2-nsaids-100 | deleted | duplicate of p2-nsaids-066 (probenecid URAT-1 mechanism); 066 kept as the better card
+rf-p2-nsaids-0528 to 0566 | ok | checked against KDT8 ch14-15; none changed (0557 cites KDT8 ch15 and naproxen/piroxicam leucocyte action is in ch14 and ch15)
+
+Spot-checked as ok (no change): 053-064, 066-069, 071-077, 078-083, 085-088, 089-099, 101-106, 108, 110-116, 118-119, 120-134 (Sarkar p336-350, Satoskar p287-288).
+
+Subtopic level counts after the deletion: every subtopic still has at least 3 L1, 2 L2 and 1 L3 card. No study card was missing a level.
+
+## Recheck (all new cards, chunk 2/3)
+
+Scope: 120 rapid ids rf-p2-nsaids-0567 to rf-p2-nsaids-0687 (no 0592). Each card was checked against KDT8 ch13-15 (pdftotext), with GG14 ch42 (PDF p835-872) for the CV-hazard and diclofenac cards.
+
+Summary: 116 rapid cards kept (3 of them corrected in place); 1 deleted (duplicate); 0 unverifiable (no UNSOURCED or WEB refs in this chunk). Study cards: none in this chunk.
+
+id | result | reason
+---|---|---
+rf-p2-nsaids-0582 | corrected | answer missed two printed analgesic uses; added "joint pain, pulled muscle" (KDT8 ch14 aspirin Uses 1)
+rf-p2-nsaids-0677 | corrected ref | COX-1 platelet TXA2 wording is in KDT8 ch13 (ch13 platelet section); ref KDT8 ch14 -> KDT8 ch13
+rf-p2-nsaids-0680 | corrected ref | "coxibs reduce endothelial PGI2" is printed in KDT8 ch14 (selective COX-2 inhibitors and CV risk); ref GG14 ch42 -> KDT8 ch14
+rf-p2-nsaids-0684 | deleted | exact duplicate of rf-p2-nsaids-0264 (same subtopic, same answer); 0264 kept
+
+Checked and kept as printed (no change): 0567-0581, 0583-0591, 0593-0607, 0608-0676, 0678-0679, 0681-0683, 0685-0687. GG14 ch42 (PDF p835-872) confirms "vascular death" for COX-2 inhibitors and the diclofenac CV-risk statement (0686, 0687).
+
+Notes: 0653 keeps the printed transporter name (OATP) as it appears in KDT8 ch15; the rapid review log already records the URAT-1 family issue. 0677 and rf-p2-nsaids-0001 share the answer COX-1 but ask different things (constitutive vs platelet TXA2), so both are kept.

@@ -128,3 +128,32 @@ WEB refs kept (not in owner books): 0009-0013, 0020, 0023, 0024, 0029, 0030, 005
 | rf-pr-teaching-0060, 0061, 0062, 0063, 0064, 0065, 0066, 0068 | unverified | UNSOURCED - owner must verify (not in owner books) |
 
 No Prep or RR5 refs found in this file.
+
+## Recheck (all new cards, chunk 1/1)
+
+Checked 2026-11-04 against the NMC MD Pharmacology 2022 curriculum, PGMER 2023, and practical sources 02, 04, 06 (practical-sources). rf-pr-teaching-0068 was deleted in an earlier pass (duplicate of pr-teaching-049, reason logged there); the file ends at 0067.
+
+Corrected (refs added or answer completed):
+- rf-pr-teaching-0052, 0053: WEB micro-teaching ref added (stimulus variation and reinforcement named as skills).
+- rf-pr-teaching-0056: WEB Pendleton ref added (learner says what went well first).
+- rf-pr-teaching-0059: answer now matches source 04 (plan, teach, observe, feedback, re-plan, re-teach); WEB micro-teaching ref, UNSOURCED dropped.
+- rf-pr-teaching-0060: WEB micro-teaching ref added (set induction: gains attention, links to past experience).
+- rf-pr-teaching-0061: NMC competency A (predominant cognitive) ref added; UNSOURCED kept.
+- rf-pr-teaching-0063: WEB Pendleton ref added (feedback on observed attitudes, behaviour, knowledge). UNSOURCED kept.
+- rf-pr-teaching-0064, 0065: WEB OSPE validation ref added (reliability: consistent measurement; validity: measures what it is intended to). Reverse pairs of 0024 and 0023.
+
+Deleted: none.
+
+Verified, left as is: 0067 (NMC teaching-learning methods E, DOAP).
+
+Unverifiable (UNSOURCED only, no owner-book support): 0054 (ABCD), 0055 (action verb for recall), 0057 (MCQ key), 0058 (DOAP why), 0062 (vague objective), 0066 (MCQ stem).
+
+## Recheck (all new cards, chunk 1/1), second pass 2026-11-04
+
+Corrected (q reworded to the source 04 microteaching wording, answer unchanged):
+- rf-pr-teaching-0052: q now "changing speech pattern, interaction style or movement" (was voice, pace or aid; "aid" is not part of stimulus variation).
+- rf-pr-teaching-0053: q now "encouraging participation with positive verbal and nonverbal cues" (was acknowledging correct answers).
+
+Verified, left as is: 0056, 0059, 0060, 0061, 0063, 0064, 0065, 0067 (see pr-teaching review log, second pass 2026-11-04).
+
+Deleted: none. Unverifiable (UNSOURCED only): 0054, 0055, 0057, 0058, 0062, 0066.

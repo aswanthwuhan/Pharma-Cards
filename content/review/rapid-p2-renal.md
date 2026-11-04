@@ -52,3 +52,10 @@ Validator: `node scripts/validate-content.mjs --check` reports no p2-renal error
 Note: PYQ year for the Q bank entry is unknown (recorded as 0).
 
 Checker (PYQ gap pass), 2026-11-03: rf-p2-renal-0412 question reworded to "Diuretic added to i.v. saline in hypercalcaemia of malignancy" (KDT8 ch42 says furosemide is added after volume replacement, not that it is the diuretic of choice). Other 0410 to 0418 ok.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 2026-11-04 against KDT8 ch42 and ch43. Ids rf-p2-renal-0392 to 0418 (26 pairs; 0407 is not in this chunk).
+- ok: 0392, 0393, 0394, 0395, 0396, 0397, 0398, 0399, 0400, 0401, 0402, 0403, 0404, 0405, 0406, 0408, 0409, 0410, 0411, 0412, 0413, 0414, 0415, 0416, 0417, 0418 (KDT8 ch42 or ch43, text checked).
+- corrected: none. Deleted: none. Unverifiable (UNSOURCED or WEB): none.
+- Overlap with study cards kept on purpose (049, 070, 095): different formats, same facts.
+Validator: check ok.

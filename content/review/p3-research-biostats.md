@@ -286,3 +286,27 @@ Book conflicts / issues:
 - Medhi PMECP p147 uses small sample size as the trigger for Fisher's exact test, while Sarkar p381–385 uses expected cell frequency <5. The cards cite both and state "very small sample or low expected frequencies".
 - Harrison21 p535 calls sensitivity and specificity prevalence-independent but p67 notes this assumption is often incorrect in practice; the rapid card is worded "usually stated as independent".
 - No PrepLadder source was used. Every new ref was checked for the banned `RapidRev|RR5|Prep` patterns.
+
+## Recheck (all new cards, chunk 1/3)
+
+Scope: 119 study and rapid ids in chunk 1 (since v0.5.5). Each cited source was searched and the key fact compared; facts were not re-read line by line for every card.
+
+Corrected:
+- p3-research-biostats-084: ref corrected p287 -> p36 (definition text)
+- p3-research-biostats-081: removed unsupported claim that alpha 0.10 raises risk
+- p3-research-biostats-087: removed ideal-biomarker characteristics section (not found in cited books)
+- p3-research-biostats-093: removed unverified uses (digoxin assay, industrial QC)
+- p3-research-biostats-099: removed unsupported 'statisticians outnumbered' pitfall
+- p3-research-biostats-105: added Sarkar p211-215 for human-equivalent dose (p21-25 did not contain it)
+- p3-research-biostats-112: KDT8 ch5 not supporting; RangDale9 p118 states stratified randomisation
+- p3-research-biostats-113: KDT8 ch5 not supporting; RangDale9 p118
+- p3-research-biostats-114: added Medhi p256 (systematic error not removed by averaging)
+- p3-research-biostats-126: rewritten; small-sample rule not in cited books, kept only the supported limitation
+- p3-research-biostats-146: added Bennett p64 for N-of-1 support
+- Added missing level to 34 study cards (basic=1, cloze=1, shortnote=2, essay=3).
+Deleted:
+- p3-research-biostats-111: precision/accuracy definition not found in cited Medhi p153-154 (OCR/PDF search)
+- p3-research-biostats-119: margin-of-error arithmetic (1/sqrt n, 5.48, 18%) not found in cited Ghosh p222
+- p3-research-biostats-142: healthy volunteer effect not found in cited Harrison21 p535
+
+Unverifiable (UNSOURCED/WEB refs left in place): 0 in this chunk.

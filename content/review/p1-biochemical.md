@@ -186,3 +186,31 @@ Validator: check ok.
 | p1-biochemical-083 | new (L3 shortnote) | Sarkar p146-150; GG14 ch5 (UHSR 2025 III, METABOLIC PROFILING) |
 
 New ids 080-083 (4 cards). Deleted: 0. Status: all draft. Subtopics: omics essay placed under drug-levels and metabolic profiling under chromatography because the subtopics file has no omics subtopic.
+
+## Recheck (all new cards, chunk 1/2)
+Scope: the 52 study cards in `.tmp/recheck.json` chunk 1 (p1-biochemical), each opened against the cited owner PDF or OCR file. Chunk 2 is not covered here.
+
+Corrected (id: reason, source):
+- 031: removed unsupported "Nobel prize in 1977" claim; Satoskar PDF p159-160 supports the rest.
+- 032: removed unsupported "larger Rf = less polar" sentence; Rf formula is in Sarkar p396-400.
+- 036: removed "doping tests" use (not in cited source); GC-MS/LC-MS forensic and metabolomics uses kept (Sarkar p406-410).
+- 038: removed "doping / isotope-ratio" use bullet (not in Sarkar p406-410); MS ionisation methods and hyphenated forms verified.
+- 040: removed "confirm positives by chromatography-MS" (unsupported).
+- 046: removed irrelevant ref Sarkar p256-260 (genotoxicity page); TDM facts from KDT8 p58-59.
+- 048: removed "rapid breakdown in the body" (not in GG14 p1015 / GG12 p1228).
+- 051: "modern assays detect slight difference from native EPO" replaced with misuse for blood doping (GG14 p922).
+- 054: back expanded with a short why (half-life = time for activity to halve), KDT8 p291.
+- 057: diagnostic dose 25-100 microcurie is not in KDT8 ch18; added Padmaja PDF p489.
+- 058: removed microdose tracer, 14C AMS and 11C PET lines (not found in owner PDFs); Medhi PMECP p367 ref dropped; RIA/131I facts kept (KDT8 p291, GG14 p1448).
+- 061: buffer cations (Mg2+, Mn2+) not found in cited source; replaced with "cofactors the enzyme needs" (Sarkar p406-410); ref Medhi p102 dropped.
+- 063: rewritten (was unsupported mecA, rifampicin-PCR and 2 h / 2-3 week claims). Now MRSA PBP mechanism (KDT8 ch50, p779), MIC/disk tests, PCR and 16S primers (Sarkar p406-410). Id and level kept.
+- 064: removed unsupported resistance-gene PCR and limitations lines; infection diagnosis and 16S/metagenomics kept; refs now Sarkar p406-410, GG14 PDF p139, Ghosh FEP p200.
+- 068: removed "breakpoints are consensus values" (not stated in GG14 ch56 / KDT8 p758).
+- 079: added Bioequivalence & Statistics PDF p273 (QTc as safety biomarker).
+
+Deleted: none.
+
+Verified without change: 039, 033-037 (except above), 041-045, 047, 049-050, 052-053, 055-056, 059-062 (except above), 065-067, 069-076, 078, 080-083. Partly confirmed, kept: 042 (aminoglycosides cited via KDT8 p805 not ch3), 078 (CD4 and HbA1c examples), 080 (metastasis-linked protein example), 070 (bioassay wording).
+
+Rapid recheck entries: see content/review/rapid-p1-biochemical.md.
+Validator: check ok.

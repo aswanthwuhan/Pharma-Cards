@@ -237,3 +237,64 @@ New coverage by subtopic:
 - **protocol:** bias types, allocation concealment, blinding levels, double dummy, publication bias remedy, non-inferiority/superiority/equivalence, ITT vs per-protocol, N-of-1, pilot study, Latin square, replication.
 
 Conflict notes: see the study-deck expansion section above (kurtosis convention, one-way ANOVA wording, Fisher trigger, prevalence-independence caveat). No card was written from PrepLadder material; banned-ref scan clean.
+
+## Recheck (all new cards, chunk 1/3)
+
+Scope: 119 study and rapid ids in chunk 1 (since v0.5.5). Each cited source was searched and the key fact compared; facts were not re-read line by line for every card.
+
+Corrected:
+- rf-p3-research-biostats-0194: ref p356-360 -> p361-365 (scales)
+- rf-p3-research-biostats-0199: ref -> Bennett p76 (EQ-5D)
+Deleted:
+- rf-p3-research-biostats-0188: 'quadruple n halves SE' not found in cited Ghosh p215
+- rf-p3-research-biostats-0218: 'specific and sensitive' ideal biomarker not found in cited GG14 p1527
+
+Unverifiable: 0 in this chunk.
+
+## Recheck (all new cards, chunk 2/3)
+
+Scope: 120 rapid ids (rf-p3-research-biostats-0230 to 0360, chunk 2 of recheck.json). Each card was checked against its cited source: Sarkar OCR files, Medhi PMECP and Ghosh FEP PDF pages (search.py), KDT8 ch3/ch5 and RangDale9 ch8. The Medhi p148 ARR formula was rendered and read as an image.
+
+Corrected:
+- rf-p3-research-biostats-0233: list was headed "Sampling methods" and omitted unequal and minimisation; now "Randomisation methods" with all nine methods (Sarkar p196-200)
+- rf-p3-research-biostats-0252: ref p107 -> Ghosh FEP PDF p108 (non-competitive definition is on p108)
+- rf-p3-research-biostats-0263: precision was defined as reproducibility; Medhi defines precision as exactness of a calculated value (reproducibility is a separate term)
+- rf-p3-research-biostats-0265: added Sarkar p86-90, which carries the ADR definition (KDT8 ch5 gives only "adverse effect")
+- rf-p3-research-biostats-0282: "squared" removed; Medhi p141-142 says "mean of all deviation scores"
+- rf-p3-research-biostats-0292: ref p143 -> Medhi PMECP p142 (two-peak statement is on p142)
+- rf-p3-research-biostats-0306: the formula as printed in Medhi p148 is mislabelled and no owner book gives "control minus treated" in words; the card now states the definition the books give (Harrison21 PDF p70, Bennett PDF p68)
+- rf-p3-research-biostats-0340: dropped Sarkar p381-385 (it does not mention Fisher's exact test); Medhi p147 kept
+
+Deleted: none.
+
+Unverifiable: 0 in this chunk (no UNSOURCED or WEB refs in this chunk).
+
+## Recheck (all new cards, chunk 2/3)
+
+Scope: 120 rapid cards from `.tmp/recheck.json` chunk 2 (rf-p3-research-biostats-0230 to 0360, ids present in the file). Each card was checked against its cited source: Sarkar OCR (p086-090, p131-135, p156-160, p196-200, p286-290, p356-360, p376-380, p381-385, p386-390), Medhi PMECP PDF p139-148, p153-154, p351, Ghosh FEP PDF p104-110, p218-234, KDT8 PDF p40-41, RangDale9 PDF p118-122, p281, Harrison21 PDF p70 and Bennett PDF p68.
+
+Result: 120 checked, 119 ok, 1 corrected, 0 deleted, 0 unverifiable (no UNSOURCED or WEB refs in this chunk). No duplicates within the chunk. Level and basic-card fixes do not apply (rapid cards have no level or basic type).
+
+| id | status | reason |
+|---|---|---|
+| rf-p3-research-biostats-0321 | corrected | Old text "CAST: why stopped early" is not printed in the book. RangDale9 ch22 (p281) says flecainide and encainide unexpectedly increased sudden death from VF after MI despite suppressing ectopic beats. Card now states that finding; ref moved from ch8 to ch22. |
+
+Notes outside this chunk:
+- rf-p3-research-biostats-0001 and rf-p3-research-biostats-0194 are near-duplicates (scales of measurement). Not in chunk 2; left for the chunk that owns them.
+
+## Recheck (all new cards, chunk 3/3)
+
+Scope: 96 rapid cards from `.tmp/recheck.json` chunk 3 (ids rf-p3-research-biostats-0361 to 0461, the ids present in the file). Each card was checked against its cited source: Harrison21 PDF p65-67 and p534-535 (search.py), Ghosh FEP PDF p219-222, p231, p234-235, Medhi PMECP PDF p130, Sarkar OCR p0186-0190, p0191-0195, p0231-0235.
+
+Result: 96 checked, 92 ok, 4 corrected, 0 deleted, 0 unverifiable (no UNSOURCED or WEB refs in this chunk). No duplicate pairs within the chunk. Level and basic-card fixes do not apply (rapid cards have no level or basic type).
+
+| id | status | reason |
+|---|---|---|
+| rf-p3-research-biostats-0386 | corrected | Ref p67 -> p66. The "LR+ above 10 implies high specificity" sentence is on Harrison21 PDF p66. |
+| rf-p3-research-biostats-0393 | corrected | Ref p535 -> p534. The screening definition ("early detection ... in asymptomatic individuals") is on Harrison21 PDF p534. |
+| rf-p3-research-biostats-0426 | corrected | Q changed from "cause" to "how reduced". Sarkar Table 40.1 (p191-195) gives remedies for detection bias (standardised procedures, blinding); it does not state a cause. Answer now states the remedy. |
+| rf-p3-research-biostats-0427 | corrected | Same as 0426 for performance bias (standardised procedures, staff training, blinding), Sarkar p191-195. |
+
+Notes outside this chunk (not edited here):
+- rf-p3-research-biostats-0001 and rf-p3-research-biostats-0194 have identical answers (scales of measurement). Left for the chunk that owns them.
+- rf-p3-research-biostats-0165 and rf-p3-research-biostats-0166 have identical answers ("n rises four-fold"). Left for the chunk that owns them.

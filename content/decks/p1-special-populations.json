@@ -88,7 +88,7 @@
       "id": "p1-special-populations-075",
       "type": "basic",
       "front": "Salicylate is almost fully ionised, so why does it still cross the placenta readily?",
-      "back": "The small unionised fraction is highly lipid-soluble and crosses freely; as it leaves, more drug converts to that form. Ionisation alone does not stop transfer. Contrast succinylcholine and tubocurarine, which are highly ionised and cross slowly.",
+      "back": "The small unionised fraction is highly lipid-soluble and crosses freely. Ionisation alone does not stop transfer. Contrast succinylcholine and tubocurarine, which are highly ionised and cross slowly.",
       "refs": [
         "Katzung16 ch59"
       ],
@@ -181,7 +181,7 @@
         {
           "h": "Introduction",
           "points": [
-            "Placenta is not a strict barrier: any drug crosses to some extent",
+            "Placenta is not an absolute barrier: most drugs cross, and polar compounds cross in measurable amounts when the maternal-fetal gradient is high",
             "Maternal physiology also shifts kinetics (larger fluid volume, lower albumin, faster renal and hepatic clearance)"
           ]
         },
@@ -775,7 +775,7 @@
       "id": "p1-special-populations-091",
       "type": "basic",
       "front": "Why is the digoxin dose per kg higher in children, yet it accumulates in neonates?",
-      "back": "Toddlers and older children clear digoxin faster than adults, so the dose per kg is much higher. Neonates and young infants have slow elimination (digoxin half-life 60-70 h at 0-5 days vs 30-60 h in adults) because renal function is immature, so it accumulates.",
+      "back": "Toddlers clear digoxin faster than adults, so the dose per kg is much higher. Neonates eliminate it slowly (digoxin half-life 60-70 h in neonates vs 30-60 h in adults) because renal clearance is immature, so it accumulates.",
       "refs": [
         "Katzung16 ch59"
       ],
@@ -852,7 +852,7 @@
           "h": "Route and dosage form",
           "points": [
             "Oral drops are the preferred dosage form for infants and young children",
-            "Rectal route (suppository or retention enema) can be used with recurrent vomiting or unconsciousness; absorption is slower and less predictable, though diazepam solution and paracetamol suppository are dependably absorbed"
+            "Rectal route (suppository or retention enema) can be used with recurrent vomiting or unconsciousness; in general absorption is slower and less predictable, though diazepam solution and paracetamol suppository are dependably absorbed. In infants and young children rectal absorption is fast and predictable, which is why diazepam solution is given rectally for febrile seizures under 5 years"
           ]
         },
         {
@@ -866,6 +866,7 @@
         "KDT8 PDF p90",
         "KDT8 PDF p25",
         "KDT8 PDF p29",
+        "KDT8 PDF p91",
         "KDT8 PDF p113"
       ],
       "pyq": [
@@ -1151,60 +1152,6 @@
       "subtopic": "p1-special-populations-elderly",
       "tags": [
         "pk",
-        "dosing"
-      ],
-      "level": 3
-    },
-    {
-      "id": "p1-special-populations-087",
-      "type": "shortnote",
-      "front": "Short note: Pharmacological concerns in the elderly, including drugs that raise fall risk",
-      "sections": [
-        {
-          "h": "Orthostatic hypotension",
-          "points": [
-            "Postural fall in blood pressure is common; homeostatic reflexes are blunted with age",
-            "Chlorpromazine and older phenothiazines cause it through alpha-adrenoceptor blockade; antihypertensives worsen it"
-          ]
-        },
-        {
-          "h": "CNS effects",
-          "points": [
-            "More sensitive to sedative-hypnotics; opioids cause respiratory depression",
-            "Postural instability, giddiness and confusion",
-            "Benzodiazepine half-lives rise 50-150% from age 30 to 70; lorazepam and oxazepam less affected"
-          ]
-        },
-        {
-          "h": "Other drug effects",
-          "points": [
-            "Haloperidol: more extrapyramidal toxicity; disopyramide antimuscarinic, voiding problems",
-            "Reduced response to beta-agonists and antagonists"
-          ]
-        },
-        {
-          "h": "Prescribing safeguards",
-          "points": [
-            "Start low, titrate, wait three age-adjusted half-lives",
-            "Brown bag review to cut the drug count"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch5",
-        "Katzung16 ch60"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft",
-      "subtopic": "p1-special-populations-elderly",
-      "tags": [
-        "adr",
         "dosing"
       ],
       "level": 3
@@ -1949,8 +1896,7 @@
           "h": "Dose adjustment",
           "points": [
             "Loading dose unchanged (unless oedema); cut maintenance dose or lengthen interval",
-            "Dose rate as % of normal by creatinine clearance: 50-70 mL/min 70%, 30-50 50%, 10-30 30%, 5-10 20%",
-            "Changes usually halving or doubling; narrow-index drugs need more care"
+            "Dose rate as % of normal by creatinine clearance: 50-70 mL/min 70%, 30-50 50%, 10-30 30%, 5-10 20%"
           ]
         },
         {
@@ -2018,7 +1964,7 @@
       "id": "p1-special-populations-083",
       "type": "basic",
       "front": "Why do myasthenia gravis patients need special care with neuromuscular blockers?",
-      "back": "They are very sensitive to curare-type drugs because the neuromuscular reserve is already reduced, so small doses cause marked weakness.",
+      "back": "Myasthenic patients are very sensitive to curare-type drugs, and quinine aggravates their weakness.",
       "refs": [
         "KDT8 ch5"
       ],
@@ -2162,9 +2108,9 @@
       "id": "p1-special-populations-094",
       "type": "basic",
       "front": "What is orthostatic (postural) hypotension, and why does it matter in older patients?",
-      "back": "A fall in blood pressure on standing. Older patients have poor vasomotor tone and cannot offset it, and alpha-1 blocking drugs make it worse. The result is dizziness and falls.",
+      "back": "A fall in blood pressure on standing. Homeostatic reflexes are blunted with age, and symptomatic orthostatic hypotension becomes much more common, so older patients cannot compensate. Alpha-1 blocking drugs make it worse. The result is dizziness and falls.",
       "refs": [
-        "GG14 ch19",
+        "Katzung16 ch60",
         "KDT8 ch6"
       ],
       "pyq": [],
@@ -2179,7 +2125,7 @@
       "id": "p1-special-populations-095",
       "type": "basic",
       "front": "Which antihypertensive causes postural hypotension, and what injury can follow in an elderly patient?",
-      "back": "Prazosin (alpha-1 blocker). Postural hypotension is its main side effect and can cause a fall with fracture of the neck of femur in an elderly patient. Reducing the dose usually relieves it.",
+      "back": "Prazosin (alpha-1 blocker). Postural hypotension, mainly with the first dose or with dose increments, can cause a fall with fracture of the neck of femur in an elderly patient. Starting with a low dose at bedtime minimises it.",
       "refs": [
         "KDT8 ch6",
         "KDT8 ch10"
@@ -2237,7 +2183,8 @@
           "points": [
             "GFR about 75% of the young-adult value at 50 years and about 50% at 75",
             "Reduced hepatic microsomal activity and liver blood flow",
-            "Lower plasma albumin and slower absorption; cumulative toxicity with prolonged use"
+            "Lower plasma albumin and slower absorption; cumulative toxicity with prolonged use",
+            "Benzodiazepine and barbiturate half-lives rise 50-150% between ages 30 and 70; lorazepam and oxazepam less affected"
           ]
         },
         {
@@ -2268,7 +2215,7 @@
           "h": "Prevention",
           "points": [
             "Start low and titrate slowly; antipsychotic doses in older patients are often about 50% of the younger dose",
-            "Reduce the dose if postural hypotension appears; this usually relieves it",
+            "Postural hypotension is worst with the first dose and with dose increments: start low (prazosin at bedtime) and titrate slowly",
             "Review and cut drugs without a clear indication"
           ]
         }
@@ -2278,7 +2225,8 @@
         "KDT8 ch6",
         "KDT8 ch10",
         "GG14 ch18",
-        "GG14 ch19"
+        "GG14 ch19",
+        "Katzung16 ch60"
       ],
       "pyq": [
         {
@@ -2379,7 +2327,7 @@
       "id": "p1-special-populations-104",
       "type": "basic",
       "front": "What do the data show about sex differences in opioid analgesia?",
-      "back": "Females account for most chronic pain syndromes. Acute-pain studies report either no sex difference or greater sensitivity in females. Morphine analgesia increases progressively with age, though the degree of analgesia at a given dose is similar.",
+      "back": "Females account for most chronic pain syndromes. Acute-pain studies report either no sex difference or greater sensitivity in females. The duration of morphine analgesia increases progressively with age, though the degree of analgesia at a given dose is similar.",
       "refs": [
         "GG14 ch23"
       ],

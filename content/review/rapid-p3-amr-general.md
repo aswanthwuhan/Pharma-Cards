@@ -616,3 +616,27 @@ rf-p3-amr-general-0080 | regrounded | KDT8 ch51; Satoskar PDF p1077 | ciprofloxa
 
 ## Nosocomial and newer FQ gap pass (2026-11-03)
 Added rf-p3-amr-general-0609 to 0615 for nosocomial management: cefotaxime/ceftizoxime plus vancomycin (KDT8 PDF p792), amikacin reserve (KDT8 PDF p810), meropenem plus aminoglycoside for Pseudomonas (KDT8 PDF p793), FQ plus beta-lactam for high-risk nosocomial pneumonia (GG14 PDF p1162), linezolid for HAP (KDT8 PDF p818), quinupristin/dalfopristin reserve (KDT8 PDF p819), antipseudomonal cephalosporins (GG14 PDF p1177). Newer FQ facts (prulifloxacin, gemifloxacin dose, levofloxacin) already present in rapid deck; not duplicated. No Prep/RR5 refs.
+
+## Recheck (all new cards, chunk 1/2)
+Scope: 83 rapid cards rf-p3-amr-general-0513 to 0595 from chunk 1 of 2. Checked against KDT8 ch50-52, ch55, Katzung16 PDF p1288-1289 and GG14 ch58 (PDF p1178-1180) by pdftotext and search.py. Doses checked against the book text (e.g. cefprozil 250-500 mg BD, doripenem 500 mg over 1 h q8h, ampicillin 50-80 mg/kg/day).
+
+- Corrected rf-p3-amr-general-0583: answer "Vertical transfer: slow, lower grade" is not in any owner book. KDT8 ch50 describes multistep mutation where sensitivity decreases gradually in a stepwise manner (erythromycin, tetracyclines, chloramphenicol). Answer now says that.
+- Deleted: none.
+- Unverifiable (UNSOURCED or WEB): none in this chunk.
+- All other 82 rf cards in the chunk confirmed.
+
+## Recheck (all new cards, chunk 2/2)
+Scope: 20 rapid cards rf-p3-amr-general-0596 to 0615 from chunk 2 of 2. Checked against KDT8 ch50 (PDF p755), KDT8 ch51 (PDF p773), KDT8 ch52 (PDF p781, p788-792), KDT8 ch55 Table 55.1 (PDF p824), KDT8 PDF p793, p810, p818, p819, GG14 PDF p1162 and p1177, by pdftotext and search.py.
+
+- Corrected rf-p3-amr-general-0598: old q said "non-PPNG" gonorrhoea, but KDT8 PDF p792 and p824 give ceftriaxone 1 g i.m. as a single-dose option when penicillinase status is unknown. Q and A reworded to match; ref KDT8 PDF p792 added.
+- Corrected rf-p3-amr-general-0607: KDT8 PDF p824 Table 55.1 also lists clotrimazole 100 mg intravaginal nightly as a trichomoniasis option. Added to the list (classification cards must list every drug in the book).
+- Corrected rf-p3-amr-general-0615: old q ("empirical nosocomial cover") was not in GG14 PDF p1177, which only says cefepime and cefpirome are parenteral antipseudomonal cephalosporins. Q reworded to match the page; answer unchanged.
+- Confirmed without change: 0596, 0597, 0599 (Table 55.1 first choice: amoxicillin 3 g + probenecid 1 g, non-PPNG), 0600, 0601, 0602, 0603, 0604, 0605, 0606, 0608, 0609, 0610, 0611, 0612, 0613, 0614.
+- Deleted: none.
+- Unverifiable (UNSOURCED or WEB): none in this chunk.
+- No duplicates found in the chunk. No Prep/RR5 refs.
+
+Second pass on chunk 2/2 (this run): all 20 cards re-checked against KDT8 PDF p755, p771, p773, p792, p793, p810, p818, p819, p824 and GG14 PDF p1162, p1177.
+- Corrected rf-p3-amr-general-0601: dropped the "KDT8 ch52" ref. The ch52 text has no benzathine or procaine penicillin syphilis regimen; only KDT8 ch55 Table 55.1 (PDF p824) gives it.
+- Confirmed: 0596 to 0615 (0598 kept at ceftriaxone 1 g i.m., matching Table 55.1 and the p792 note that a higher dose is now recommended).
+- Deleted: none. Unverifiable: none. Duplicates: none within the chunk. No Prep/RR5 refs.

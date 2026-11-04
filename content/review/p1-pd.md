@@ -128,3 +128,16 @@ p1-pd-005 | corrected | level set to 1 (final)
 - Re-checked against KDT8 PDF p90-92, p567, p730; GG14 PDF p36, p100, p319, p423; Katzung16 PDF p630; RangDale9 PDF p595. All grounded.
 - p1-pd-078: removed "often sold as a 'legal high'" (not in the books); ecstasy as prototypic designer drug cited to Katzung16 p630.
 - Ladder minimums pass for all six subtopics. No Prep/RR5 refs. Validator clean.
+
+## Recheck (all new cards, chunk 1/2, 2026-11-04)
+- Checked: p1-pd-033 to p1-pd-078 (46 study cards) against KDT8, GG12/GG14, Katzung16, RangDale9, Golan, Satoskar, Medhi, Ghosh, search.py page text. Spot-checked key numbers and claims; all other facts matched.
+- Corrected:
+  - p1-pd-045: added Golan PDF p255 (autoreceptor desensitisation explains delayed antidepressant onset).
+  - p1-pd-047: ref GG14 PDF p69 replaced with GG14 PDF p473 (morphine tolerance by effect; p69 does not carry it).
+  - p1-pd-051, p1-pd-054: added a short why to the basic back.
+  - p1-pd-056, p1-pd-057: removed "significant interaction with clobazam" (no owner book states it; GG14 lists clobazam only in interaction tables). Nabilone line reworded to drop "licensed alongside dronabinol" (book wording differs by country).
+  - p1-pd-073: ref KDT8 PDF p295 (insulin bioassay page) replaced with Katzung16 PDF p305.
+- Deleted: none in study cards (all remaining facts found in an owner book).
+- Unverifiable (kept): none in this chunk beyond the items above.
+- Subtopic minimums: no study card removed, so unchanged.
+- Duplicates: none exact found in this chunk (overlapping essay/short-note pairs kept as separate formats).

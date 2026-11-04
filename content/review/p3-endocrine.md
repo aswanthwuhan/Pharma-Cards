@@ -170,3 +170,28 @@ Verified: 084-085, 088-093, 095, 096 dose/timing, 097 clomiphene ADRs (KDT8 PDF 
 - Q293 (Q bank, GnRH analogues and antagonists, anticancer adverse-effect prevention): GnRH content already covered by 011, 014, 065, 066, 068; antagonist and agonist lists match KDT8 PDF p279 and GG14 PDF p1006. The anticancer half is out of this topic and is covered in p3-cancer-immuno (rescue agents, cardioprotection, antiemetics). No card added here.
 - Noted: the thyroid synthesis steps (KDT8 PDF p281-282) are already in rapid cards rf-p3-endocrine-0147 to 0161, so no new rapid pairs were added.
 - Validator: `node scripts/validate-content.mjs --check` returned "check ok".
+
+## Recheck (all new cards, chunk 1/1)
+Checked 28 study ids (071-098) against KDT8 chapter PDFs, Sarkar OCR, Ghosh and GG14 text. Unverifiable (UNSOURCED/WEB): 0.
+
+| id | result | reason |
+|---|---|---|
+| p3-endocrine-067 | corrected | removed "relapse common on withdrawal" (not in KDT8 ch17) |
+| p3-endocrine-068 | corrected | removed male FSH/LH timing, PCOS pure-FSH, OHSS and precocious-puberty claims; kept KDT8 ch17 facts |
+| p3-endocrine-069 | corrected | secretion list limited to "rises during fasting" (KDT8 ch19); gut/acid claim removed |
+| p3-endocrine-070 | corrected | removed "about 10 days" course and unsupported acute-reaction list |
+| p3-endocrine-072 | corrected | removed reserpine clause |
+| p3-endocrine-074 | corrected | removed recurrence-on-stopping claim |
+| p3-endocrine-075 | corrected | front and back rewritten: nausea/vomiting, cabergoline causes less (KDT8 ch17); CTZ and alpha-blocking claims removed |
+| p3-endocrine-076 | corrected | back narrowed to pulsatile vs continuous exposure |
+| p3-endocrine-078 | corrected | AMPK wording aligned to KDT8 ch19 |
+| p3-endocrine-083 | corrected | removed bicarbonate and "300 mg/dl" glucose-addition claims |
+| p3-endocrine-088 | corrected | refs narrowed to Sarkar OCR; guinea-pig and Ghosh refs removed |
+| p3-endocrine-089 | corrected | redox/superoxide mechanism from Sarkar; guinea-pig claim removed |
+| p3-endocrine-090 | corrected | front and back changed to Sarkar beta-cell necrosis; GLUT2 claim removed |
+| p3-endocrine-091 | corrected | "scavenging free radicals" removed |
+| p3-endocrine-092 | corrected | removed 0.05 ml sampling, Zucker/read-out and dose-factor claims |
+| p3-endocrine-097 | corrected | non-standard KDT8 PDF page ref removed from refs |
+| p3-endocrine-098 | corrected | removed 100-fold gradient and "one-third of T4" statements |
+
+Deleted: none. Level and basic-why checks passed. No subtopic falls below the L1/L2/L3 minimums.

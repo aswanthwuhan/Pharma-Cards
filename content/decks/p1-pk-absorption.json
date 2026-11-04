@@ -1200,10 +1200,9 @@
       "id": "p1-pk-absorption-042",
       "type": "basic",
       "front": "Synthesis: how do pH differences between compartments (stomach, plasma, urine) decide where a weak acid or base accumulates, and how can this be used clinically?",
-      "back": "Unionised drug diffuses freely, but whichever side has the pH that ionises it holds it. A weak acid ionises more in alkaline fluid and is trapped there; a weak base ionises more in acid fluid. Alkalinising urine therefore speeds excretion of acidic drugs and acidifying it speeds excretion of basic drugs, because ionised drug cannot be reabsorbed across the tubule (e.g. alkalinisation raises phenobarbitone excretion).",
+      "back": "Unionised drug diffuses freely, but whichever side has the pH that ionises it holds it. A weak acid ionises more in alkaline fluid and is trapped there; a weak base ionises more in acid fluid. Ionised drug cannot diffuse back, so urine pH alters excretion: acidic drugs are excreted faster in alkaline urine, basic drugs in acidified urine.",
       "refs": [
-        "KDT8 ch2",
-        "KDT8 ch3"
+        "KDT8 ch2"
       ],
       "pyq": [],
       "status": "draft",
@@ -1218,9 +1217,10 @@
       "id": "p1-pk-absorption-043",
       "type": "basic",
       "front": "Compare primary and secondary active transport, with examples.",
-      "back": "Primary uses ATP directly (ABC transporters, e.g. P-gp, efflux only). Secondary (SLC transporters) uses the downhill movement of another solute, mostly Na+, as energy: symport (same direction, e.g. SGLT glucose uptake) or antiport (opposite direction, e.g. VMAT-2 exchanging with H+, blocked by reserpine). SLC carriers can move drugs in and out.",
+      "back": "Primary uses ATP directly (ABC transporters, e.g. P-gp, efflux only). Secondary (SLC transporters) uses the downhill movement of another solute, mostly Na+, as energy: symport (same direction, e.g. SGLT1 glucose uptake in the intestine) or antiport (opposite direction, e.g. Na+/Ca2+ exchanger). SLC carriers can move drugs in and out.",
       "refs": [
-        "KDT8 ch2"
+        "KDT8 ch2",
+        "GG14 ch4"
       ],
       "pyq": [],
       "status": "draft",
@@ -1284,7 +1284,7 @@
       "id": "p1-pk-absorption-047",
       "type": "basic",
       "front": "What is vectorial transport?",
-      "back": "Asymmetric movement of a drug across a polarised epithelial or endothelial layer: it is taken up at one membrane and pumped out at the opposite membrane.",
+      "back": "Asymmetric movement of a drug across a polarised epithelial or endothelial layer: it is taken up at one membrane and pumped out at the opposite membrane. Why it matters: this is how drugs pass from the gut lumen into blood and how the liver and kidney excrete them.",
       "refs": [
         "GG14 ch4"
       ],
@@ -1299,8 +1299,8 @@
     {
       "id": "p1-pk-absorption-048",
       "type": "basic",
-      "front": "Why does a lipophilic drug need only an efflux pump for vectorial transport, but a hydrophilic anion needs two transporters?",
-      "back": "Lipophilic drugs cross membranes easily, so one ABC efflux pump can set the direction. Hydrophilic organic anions and cations need an uptake transporter on one face and an efflux or passive transporter on the other. ABC pumps move solute one way only; SLC carriers can take up or export.",
+      "front": "In the liver, why does transcellular transport need an uptake and an efflux transporter together?",
+      "back": "Sinusoidal uptake transporters (OATP1B1, OATP1B3, OATP2B1) take the compound into the hepatocyte, and canalicular efflux transporters (MDR1, MRP2, BCRP) pump it into bile. The combination moves a wide range of compounds across the cell.",
       "refs": [
         "GG14 ch4"
       ],
@@ -1328,15 +1328,13 @@
           "h": "Transporters",
           "points": [
             "ABC: efflux only, ATP-driven",
-            "SLC: uptake or efflux",
-            "Lipophilic drugs: efflux pump alone suffices",
-            "Hydrophilic ions: uptake plus efflux pair"
+            "SLC: uptake or efflux"
           ]
         },
         {
           "h": "Sites",
           "points": [
-            "Intestine: absorption from lumen to blood; MDR1, MRP2, BCRP pump back into lumen",
+            "Intestine: absorption from lumen to blood; P-gp and MRP2 pump back into lumen",
             "Liver: OATP uptake from sinusoidal blood; canalicular efflux into bile",
             "Kidney: tubular secretion",
             "Brain capillaries and choroid plexus: efflux out of brain"
@@ -1351,7 +1349,8 @@
         }
       ],
       "refs": [
-        "GG14 ch4"
+        "GG14 ch4",
+        "KDT8 ch2"
       ],
       "pyq": [
         {
@@ -1372,7 +1371,7 @@
       "id": "p1-pk-absorption-050",
       "type": "basic",
       "front": "How much of body weight is fat in obese and in lean adults?",
-      "back": "Up to about 50% in obese individuals and about 10% in lean individuals.",
+      "back": "Up to about 50% in obese individuals and about 10% in lean individuals. Fat is therefore a reservoir for lipid-soluble drugs.",
       "refs": [
         "GG14 ch2"
       ],
@@ -1493,9 +1492,10 @@
       "id": "p1-pk-absorption-055",
       "type": "basic",
       "front": "What is first-pass metabolism?",
-      "back": "Metabolism of an orally absorbed drug in the intestinal wall and liver before it reaches the systemic circulation, so the oral dose absorbed is reduced.",
+      "back": "Metabolism of an orally absorbed drug in the intestinal wall and liver before it reaches the systemic circulation, so the oral dose absorbed is reduced. This is why bioavailability is below 100% for many oral drugs.",
       "refs": [
-        "KDT8 ch2"
+        "KDT8 ch2",
+        "GG14 ch2"
       ],
       "pyq": [],
       "status": "draft",

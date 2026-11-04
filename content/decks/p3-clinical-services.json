@@ -243,7 +243,9 @@
         "Sarkar p506-510",
         "Katzung16 ch66",
         "Katzung16 appendix 2",
-        "GG14 ch9"
+        "GG14 ch9",
+        "Padmaja PDF p96",
+        "Satoskar PDF p52"
       ],
       "status": "draft"
     },
@@ -1449,22 +1451,6 @@
       "status": "draft"
     },
     {
-      "id": "p3-clinical-services-062",
-      "type": "basic",
-      "subtopic": "p3-clinical-services-stewardship",
-      "level": 1,
-      "tags": [
-        "uses"
-      ],
-      "front": "What is an antibiotic 'time-out' in an antimicrobial stewardship programme?",
-      "back": "A planned reassessment about 48 hours after starting an antibiotic, when the picture is clearer, of whether it is still needed and whether the choice is right.",
-      "refs": [
-        "Katzung16 appendix 2"
-      ],
-      "pyq": [],
-      "status": "draft"
-    },
-    {
       "id": "p3-clinical-services-063",
       "type": "basic",
       "subtopic": "p3-clinical-services-med-errors",
@@ -1521,9 +1507,11 @@
         "mechanism"
       ],
       "front": "What is an R-factor, and how does it spread resistance?",
-      "back": "A plasmid carrying resistance genes. It passes between bacteria mainly by conjugation through a sex pilus; transduction (via bacteriophage) and transformation (uptake of released DNA) also spread it.",
+      "back": "A plasmid carrying resistance genes. It passes between bacteria mainly by conjugation through a sex pilus; transduction (via bacteriophage) also spreads it.",
       "refs": [
-        "Padmaja ch44"
+        "Padmaja PDF p557",
+        "Satoskar PDF p1104",
+        "GG12 PDF p1403"
       ],
       "pyq": [],
       "status": "draft"
@@ -1605,7 +1593,7 @@
           "h": "Adverse drug data",
           "points": [
             "Spontaneous reports screened for signals by disproportionality methods; no denominator needed",
-            "Case reports prove causality best when the event is rare, close in time to exposure, and the drug gives a large excess risk"
+            "Case reports best support causality when the event is rare, has few other risk factors, and has a close time link to exposure"
           ]
         },
         {
@@ -1753,7 +1741,7 @@
         }
       ],
       "refs": [
-        "Padmaja ch44",
+        "Padmaja PDF p557",
         "Katzung16 appendix 2"
       ],
       "pyq": [
@@ -1961,6 +1949,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-dtc-formulary",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-078"
     },
@@ -1975,6 +1964,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-dtc-formulary",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-079"
     },
@@ -1989,6 +1979,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-dtc-formulary",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-080"
     },
@@ -2003,6 +1994,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-dtc-formulary",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-081"
     },
@@ -2017,6 +2009,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-dtc-formulary",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-082"
     },
@@ -2031,6 +2024,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-dtc-formulary",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-083"
     },
@@ -2071,6 +2065,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-drug-info",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-084"
     },
@@ -2132,6 +2127,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-drug-info",
+      "level": 3,
       "status": "draft",
       "id": "p3-clinical-services-085"
     },
@@ -2147,6 +2143,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-drug-info",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-086"
     },
@@ -2161,6 +2158,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-drug-info",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-087"
     },
@@ -2175,6 +2173,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-drug-info",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-088"
     },
@@ -2189,6 +2188,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-drug-info",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-089"
     },
@@ -2203,6 +2203,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-drug-info",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-090"
     },
@@ -2217,6 +2218,7 @@
         "adr"
       ],
       "subtopic": "p3-clinical-services-med-errors",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-091"
     },
@@ -2231,6 +2233,7 @@
         "adr"
       ],
       "subtopic": "p3-clinical-services-med-errors",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-092"
     },
@@ -2245,6 +2248,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-med-errors",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-093"
     },
@@ -2253,12 +2257,13 @@
       "front": "Explain the 'Swiss cheese' model of medication error.",
       "back": "Each safeguard in the medication-use system is a slice with holes. A single error is usually caught by another check. An adverse event occurs only when holes in several safeguards line up and the error passes through all of them.",
       "refs": [
-        "GG12 ch4"
+        "GG12 PDF p106"
       ],
       "tags": [
         "adr"
       ],
       "subtopic": "p3-clinical-services-med-errors",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-094"
     },
@@ -2267,13 +2272,14 @@
       "front": "Distinguish passive from active prevention of medication error.",
       "back": "Passive prevention needs no change in the person's behaviour and is the most effective, for example child-resistant packaging, fewer tablets per bottle, or removing a harmful ingredient. Active prevention needs sustained behaviour change by the individual.",
       "refs": [
-        "GG12 ch4"
+        "GG12 PDF p106-107"
       ],
       "tags": [
         "adr",
         "poisoning"
       ],
       "subtopic": "p3-clinical-services-med-errors",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-095"
     },
@@ -2289,6 +2295,7 @@
         "adr"
       ],
       "subtopic": "p3-clinical-services-med-errors",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-096"
     },
@@ -2303,6 +2310,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-097"
     },
@@ -2317,6 +2325,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-098"
     },
@@ -2331,6 +2340,7 @@
         "adr"
       ],
       "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-099"
     },
@@ -2383,6 +2393,7 @@
         "dosing"
       ],
       "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 3,
       "status": "draft",
       "id": "p3-clinical-services-100"
     },
@@ -2398,6 +2409,7 @@
         "pk"
       ],
       "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-101"
     },
@@ -2451,6 +2463,7 @@
         "adr"
       ],
       "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-102"
     },
@@ -2465,6 +2478,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-polypharmacy",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-103"
     },
@@ -2479,6 +2493,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-stewardship",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-104"
     },
@@ -2516,6 +2531,7 @@
         "classification"
       ],
       "subtopic": "p3-clinical-services-stewardship",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-105"
     },
@@ -2530,6 +2546,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-stewardship",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-106"
     },
@@ -2545,6 +2562,7 @@
         "classification"
       ],
       "subtopic": "p3-clinical-services-stewardship",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-107"
     },
@@ -2559,6 +2577,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-stewardship",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-108"
     },
@@ -2604,6 +2623,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-stewardship",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-109"
     },
@@ -2620,6 +2640,7 @@
         "classification"
       ],
       "subtopic": "p3-clinical-services-stewardship",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-110"
     },
@@ -2667,6 +2688,7 @@
         "dosing"
       ],
       "subtopic": "p3-clinical-services-audit-counselling",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-111"
     },
@@ -2681,6 +2703,7 @@
         "dosing"
       ],
       "subtopic": "p3-clinical-services-audit-counselling",
+      "level": 1,
       "status": "draft",
       "id": "p3-clinical-services-112"
     },
@@ -2695,6 +2718,7 @@
         "uses"
       ],
       "subtopic": "p3-clinical-services-audit-counselling",
+      "level": 2,
       "status": "draft",
       "id": "p3-clinical-services-113"
     }

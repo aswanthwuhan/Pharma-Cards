@@ -199,3 +199,27 @@ Checker (PYQ gap pass): re-checked 099-111 against Katzung16 PDF p520-521 (TOF 2
 - 115, 116: confirmed as written.
 - Rapid deck: no change (rf-p2-anaesthetics-0407 to 0645 checked for the newest cards; no new pairs needed).
 - Validator: check ok.
+
+## Recheck (all new cards, chunk 1/2)
+Scope: 53 study ids and 67 rapid ids in `.tmp/recheck.json` chunks[0]. Sources: KDT8 ch25/26/27 (pdftotext, full read), Katzung16 via search.py (TOF, double-burst, sugammadex renal), GG14 via search.py (etomidate), Medhi PMECP printed pp.169-172, 228-230 via search.py --page.
+
+Deleted:
+- `p2-anaesthetics-078` (shortnote, dibucaine): duplicate of basic `064`, which keeps the same facts and stays at L1.
+
+Corrected:
+- `094`: removed the onset numbers (60-90 s, 1.0-0.6 mg/kg); not printed in the owner books located. Kept rapid onset and reversal points, which are in Katzung ch27 and KDT8.
+- `077`: tetracaine "avoid for bronchoscopy" replaced by the book fact (tracheobronchial spray absorbed fast, near i.v. levels, KDT8 ch26). Removed "minimal irritation" (not found). Removed the sulphonamide interaction (not in KDT8 ch26).
+- `079`: removed "additive MACs" example (not found). Kept the MAC 1.3/95%, 1.5 MAC, 2-3 MAC lethal and 0.4 MAC wake-up facts, which are in KDT8 p415 (ch27).
+- `100`: added a short why (manual detection of residual block when TOF is hard to judge), Katzung16 p521.
+- `102`: added a short why (the muscle responds to suxamethonium and tubocurarine), Medhi PMECP p171 (printed).
+- `113`: removed "induction apnoea of about 1 min" (not found in KDT8 ch27 text).
+
+Spot-checked, no change needed: 064, 065-076, 081-093, 095-099, 101, 103-112, 114-116, and rapid 0506-0541, 0543-0567, 0569-0575 (main facts traced to KDT8 ch25-27, Katzung, GG14 or Medhi; not every number re-read line by line).
+
+Rapid deleted:
+- `rf-p2-anaesthetics-0542`: duplicate of `0509` (same KDT8 list).
+- `rf-p2-anaesthetics-0568`: "PABA derivatives antagonise sulphonamides" not in KDT8 ch26.
+
+Unverifiable, not changed: none in this chunk (no UNSOURCED or WEB refs here).
+
+Not fully checked in this pass: 084 (isoflurane heart-rate and coronary wording), 085 (heated vaporiser), 086 (children open-drop), 083 (halothane sensitisation wording), and rapid 0536 (ester/amide metabolism wording). Left as written; a later pass should confirm them.

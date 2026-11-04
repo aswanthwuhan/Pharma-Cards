@@ -162,3 +162,72 @@ p4-recent-095 | new | Katzung16 ch61; GG14 ch39, ch32; KDT8 ch21 (essay, PYQ SRM
 - Corrected 091: removed unverified "OTC" and "women" claims; ref now KDT8 PDF p626.
 - Corrected 094: removed unverified "face, back, arms, legs", "probably potassium-channel", "shaving" claims; now hirsutism only, KDT8 PDF p626.
 - Deleted: none.
+
+## Recheck (all new cards, chunk 1/2)
+Scope: ids p4-recent-034 to p4-recent-095 (62 cards in chunk 1). Each card checked against owner-book text (search.py pages, OCR and pdftotext). Rapid Revision and Prep not used.
+Checked 62; corrected 22; deleted 4 (the 4 deletions date from the earlier pass in this chunk); ok 36; unverifiable 0 (no UNSOURCED or WEB refs in this chunk).
+
+| id | status | source / reason |
+|---|---|---|
+| p4-recent-034 | corrected | Refs: GG14 PDF p99, p589 (SGLT2 proximal tubule, CKD); Katzung16 PDF p243 (HF with or without T2D); refs widened to GG14 ch29 and Katzung16 ch13 |
+| p4-recent-035 | corrected | Refs: GG14 PDF p674 (prodrug, neprilysin, valsartan). Katzung sacubitril text is PDF p341 (ch17), not ch13 |
+| p4-recent-036 | ok | KDT8 PDF p612 (LC3-KAT, no HR/BP effect); GG14 PDF p638 (LC3-KAT). GG14 ch31 added to refs |
+| p4-recent-037 | ok | KDT8 PDF p613 (ivabradine funny current); KDT8 PDF p598 (ranolazine late Na+); GG14 PDF p641 |
+| p4-recent-038 | ok | GG14 PDF p588 (very low progesterone/androgen affinity); GG14 PDF p589 (hyperkalaemia principal MR risk, contraindicated); Katzung16 PDF p288 |
+| p4-recent-039 | corrected | Refs widened: euglycaemic DKA (Katzung16 PDF p817), finerenone CKD (GG14 PDF p601), angioedema (GG14 PDF p621), sacubitril (Katzung16 ch17) |
+| p4-recent-040 | ok | Katzung16 PDF p814 (GLP-1 degraded by DPP-4); GG14 PDF p1057 (DPP-4 resistant analogues) |
+| p4-recent-041 | corrected | GG14 PDF p1057 lists six FDA-approved GLP-1 RAs; albiglutide added to the cloze. Katzung16 PDF p814, p315 (tirzepatide) |
+| p4-recent-042 | ok | Katzung16 PDF p830 (sclerostin, osteoclast suppression) |
+| p4-recent-043 | ok | GG14 PDF p761 (ACL inhibitor); GG14 PDF p759 (inclisiran blocks PCSK9 synthesis; LDL receptor degradation) |
+| p4-recent-044 | ok | GG14 PDF p756 (complementary to statins); GG14 PDF p761 (simvastatin 20 mg/day, rosuvastatin 40 mg/day limits) |
+| p4-recent-045 | ok | GG14 PDF p760 (every 6 months, injection-site reactions); Katzung16 PDF p686 (flu-like symptoms); GG14 PDF p761 (bempedoic AEs) |
+| p4-recent-046 | corrected | Katzung16 PDF p577, p580 (esketamine adjunct for major depression, approved 2019); p495 (intranasal, S-enantiomer) |
+| p4-recent-047 | ok | Katzung16 PDF p348 (CGRP antagonists and antibodies); Katzung16 PDF p315 (trigeminal nerves release peptides); GG14 PDF p312 (potent vasodilator) |
+| p4-recent-048 | corrected | Refs trimmed to Katzung16 ch17 (gepant text is PDF p344, ch17). Acute and prevention drugs match p344 |
+| p4-recent-049 | ok | Katzung16 PDF p581 (brexanolone, 60-hour IV infusion, postpartum depression); Katzung16 PDF p580 (esketamine rapid action) |
+| p4-recent-050 | ok | Katzung16 PDF p907 (ATP synthase, diarylquinoline, MDR TB in combination); GG14 PDF p1288 |
+| p4-recent-051 | corrected | GG14 PDF p1174 notes metallo-beta-lactamases can degrade cefiderocol (newer book wins); stable-to-all claim replaced. Katzung16 PDF p859-860 (siderophore, iron transport, PBPs) |
+| p4-recent-052 | ok | GG14 PDF p1240 (cap-dependent endonuclease, A and B); Katzung16 PDF p954. Katzung16 ch49 added |
+| p4-recent-053 | corrected | Katzung16 PDF p952: pregnancy and lactation contraindicated; not to be used under 18 (bone and cartilage growth). Age limit worded as 'should not be used' |
+| p4-recent-054 | corrected | KDT8 PDF p833 (bedaquiline CYP3A4 metabolism) added as ref; GG14 PDF p1296 (QT, linezolid cautions); Katzung16 PDF p908 (BPaL XDR or treatment-nonresponsive MDR) |
+| p4-recent-055 | ok | GG14 PDF p143 (checkpoints CTLA-4, PD-1, see ch72); Katzung16 PDF p1048 |
+| p4-recent-056 | corrected | 'Oral' removed (no owner book supports oral route). GG14 PDF p26 (covalent bond to cysteine, KRAS G12C); Katzung16 PDF p51. Refs: GG14 ch1 and Katzung16 ch2 (GG14 ch71 has no sotorasib text) |
+| p4-recent-057 | corrected | Katzung16 PDF p1038-1039 (tisagenlecleucel, axicabtagene, CD19): refs point to Katzung16 ch54 (cancer chapter), not ch55. GG14 PDF p1448 |
+| p4-recent-058 | ok | GG14 PDF p76, p801 (JAK-STAT); Katzung16 PDF p44 |
+| p4-recent-059 | corrected | GG14 PDF p783 (combination raises immune-related AEs; ch38). Katzung16 PDF p1041 (nivolumab plus ipilimumab, ch54). Refs updated |
+| p4-recent-060 | deleted | Earlier pass: CAR T cytokine release syndrome features and tocilizumab use not found in owner books (only RA use of tocilizumab, Katzung16 PDF p707) |
+| p4-recent-061 | corrected | Refs: GG14 PDF p342 is chapter 16 (CB1 brain, CB2 immune cells). ch16 added alongside ch26 |
+| p4-recent-062 | corrected | 2-AG as second endocannabinoid: Katzung16 PDF p1203 (ch63). Refs: GG14 PDF p342 (ch16) and Katzung16 ch63 |
+| p4-recent-063 | ok | GG14 PDF p529 (THC partial agonist occludes 2-AG) |
+| p4-recent-064 | ok | GG14 PDF p524 (dronabinol, nabiximols, cannabidiol, nabilone); Katzung16 PDF p631 (nabiximols = THC plus CBD); Katzung16 PDF p465 (CBD Dravet) |
+| p4-recent-065 | ok | GG14 PDF p529 (hypothalamic eCB rise with fasting and fall after feeding; vagal afferents enhance food intake) |
+| p4-recent-066 | ok | Katzung16 PDF p315 (orlistat, GI lipase, reduces fat absorption) |
+| p4-recent-067 | ok | Katzung16 PDF p314-315 (approved single agents and combinations); GG14 PDF p169 (lorcaserin withdrawn 2020) |
+| p4-recent-068 | corrected | Katzung16 PDF p635 (rimonabant is a CB1 inverse agonist); GG14 ch26 retained. Refs: Katzung16 ch16 replaced by PDF p635 |
+| p4-recent-069 | corrected | Withdrawal reason corrected: Katzung16 PDF p315 gives cardiovascular and other toxicities; GG14 PDF p534 links anxiety and depression to central CB1 blockade. Card rewritten |
+| p4-recent-070 | ok | GG14 PDF p534 (sustained energy expenditure via CB1 on adipocytes, hepatocytes, muscle) |
+| p4-recent-071 | corrected | Key toxicity added from Katzung16 PDF p315 (raised BP and HR, arrhythmias, insomnia, anxiety) |
+| p4-recent-072 | corrected | Essay: 'Excess endocannabinoid activity promotes obesity' reworded to 'can harm metabolism' (GG14 PDF p529). Sections checked |
+| p4-recent-073 | ok | GG14 PDF p138-147 (pharmacomicrobiomics, drug metabolism by gut microbes) |
+| p4-recent-074 | ok | GG14 PDF p140 (hydrolysis, deconjugation); p141 (reduction) |
+| p4-recent-075 | ok | GG14 PDF p141 (Eggerthella lenta deactivates digoxin by reduction) |
+| p4-recent-076 | ok | GG14 PDF p142-143 (antibiotics reduce diversity; ICI survival) |
+| p4-recent-077 | ok | GG14 PDF p144 (PPIs alter gut taxa; metformin 86 strains, 48 pathways) |
+| p4-recent-078 | ok | GG14 PDF p143 (Faecalibacterium longer PFS; Bacteroidales shorter; alpha diversity predicts response) |
+| p4-recent-079 | ok | GG14 PDF p143 (Fusobacterium nucleatum, shorter survival in colorectal cancer) |
+| p4-recent-080 | ok | GG14 PDF p138-147 (short note bullets match pharmacomicrobiomics text) |
+| p4-recent-081 | ok | GG14 PDF p23 (robotic HTS, hundreds of thousands of compounds) |
+| p4-recent-082 | ok | GG14 PDF p30-31 (docking-based virtual HTS, top-scoring compounds tested) |
+| p4-recent-083 | ok | GG14 PDF p31 (methods may be trained on binding data collections to predict binding) |
+| p4-recent-084 | deleted | Earlier pass: AI claims (protein structure, energies, solubility) not supported by GG14 PDF p31 |
+| p4-recent-085 | deleted | Earlier pass: docking enrichment claim not found in books |
+| p4-recent-086 | corrected | 'Simulations too slow to replace HTS' replaced with 'top-scoring computational hits still need experimental testing' (GG14 PDF p31) |
+| p4-recent-087 | deleted | Earlier pass: baricitinib FDA approval for alopecia areata (2022) not in owner books; only trials named (GG14 PDF p802) |
+| p4-recent-088 | ok | GG14 PDF p801 (ruxolitinib and baricitinib among JAK1/JAK2 inhibitors) |
+| p4-recent-089 | ok | GG14 PDF p802 (trials in alopecia areata, lupus, Sjogren syndrome, inflammatory eye disease) |
+| p4-recent-090 | corrected | Refs: GG14 PDF p809 (infections, malignancy, boxed warning); Katzung16 PDF p701 (black-box VTE, DVT, PE, MACE) added as ch36 |
+| p4-recent-091 | ok | KDT8 PDF p626 (topical 2% minoxidil, male pattern baldness and alopecia areata) |
+| p4-recent-092 | corrected | 'Three months or more' response removed (not in books). Back now: 5-alpha reductase inhibitor, male pattern baldness (KDT8 PDF p340, p341). Katzung16 ch40 added (PDF p796) |
+| p4-recent-093 | ok | KDT8 PDF p626 (minoxidil K+ channel opener); KDT8 PDF p341 (finasteride); GG14 PDF p802 (baricitinib trial) |
+| p4-recent-094 | ok | KDT8 PDF p626 (hirsutism with oral minoxidil); GG14 PDF p658 |
+| p4-recent-095 | corrected | Essay: 'response takes 3 months or more' replaced with 'approved for early male pattern baldness' (Katzung16 PDF p796). Topical 2-6 month response kept (KDT8 PDF p626) |

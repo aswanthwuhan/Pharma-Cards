@@ -433,7 +433,8 @@
       "front": "What is a clinical trial, and what must be in place before it begins?",
       "back": "A prospective, ethical study in humans that compares groups treated in different ways to answer a precise question. Before it starts: approval by an independent ethics committee under Good Clinical Practice (ICH) and national (ICMR) guidelines, consistent with the Declaration of Helsinki, and written informed consent from every participant. The committee checks autonomy, beneficence, non-maleficence and justice.",
       "refs": [
-        "KDT8 ch5"
+        "KDT8 ch5",
+        "KDT8 PDF p107"
       ],
       "pyq": [
         {
@@ -1204,7 +1205,8 @@
       "front": "Why do newborns clear renally excreted drugs slowly?",
       "back": "Newborn GFR is low and tubular transport immature, so half-life of drugs excreted by filtration (gentamicin) or secretion (penicillin) is prolonged 3-5 times. GFR reaches adult rates by about 5 months and tubular secretion matures by about 7 months. Hepatic metabolism is also inadequate, and the blood-brain barrier is more permeable (kernicterus). Infant doses must be learned, not derived by formula.",
       "refs": [
-        "KDT8 ch5"
+        "KDT8 ch5",
+        "KDT8 ch2"
       ],
       "pyq": [
         {
@@ -1259,7 +1261,8 @@
       "front": "Which adverse effects are special to children?",
       "back": "Growing tissue is vulnerable: corticosteroids suppress growth; androgens cause early epiphyseal fusion and stunting; tetracyclines deposit in growing teeth, discolouring and deforming them; phenothiazines cause dystonic reactions more often. Solid dosage forms and metered inhalers are hard for young children, while rectal diazepam solution (fast, predictable absorption) controls febrile seizures under 5 years.",
       "refs": [
-        "KDT8 ch5"
+        "KDT8 ch5",
+        "KDT8 ch2"
       ],
       "pyq": [],
       "status": "draft",
@@ -1342,7 +1345,7 @@
       "id": "p1-drug-dev-050",
       "type": "basic",
       "front": "Why are adverse reactions commoner in the elderly, and how do you prescribe safely for them?",
-      "back": "Cause chain: lower GFR and hepatic clearance cause accumulation; lower albumin raises free drug; volume of distribution shifts (up for lipophilic, down for hydrophilic drugs); receptor responsiveness changes (digitalis poorly tolerated, adrenergic responses reduced); prostatism makes even mild anticholinergic action cause retention; polypharmacy multiplies interactions and brings postural instability, giddiness and confusion. Safe practice: reduce renally cleared doses, favour short half-life drugs, review the drug list and monitor.",
+      "back": "Cause chain: lower GFR and hepatic clearance cause accumulation; lower albumin raises free drug; volume of distribution shifts (up for lipophilic, down for hydrophilic drugs); receptor responsiveness changes (digitalis poorly tolerated, adrenergic responses reduced); prostatism makes even mild anticholinergic action cause retention; polypharmacy multiplies interactions and brings postural instability, giddiness and confusion. Safe practice: reduce renally cleared doses, review the drug list and monitor.",
       "refs": [
         "KDT8 ch5"
       ],
@@ -1405,7 +1408,7 @@
       "id": "p1-drug-dev-053",
       "type": "basic",
       "front": "Define pharmacogenetics, pharmacogenomics and SNP.",
-      "back": "Pharmacogenetics: study of the genetic basis of variable drug response and handling. Pharmacogenomics: use of genetic information to choose drug and dose for an individual (personalised medicine). SNP: single base-pair substitution found in more than 1% of a population; frequencies differ between ethnic groups. Most drugs show bell-shaped (Gaussian) variation, with specific genetic defects adding discontinuous variation.",
+      "back": "Pharmacogenetics: study of the genetic basis of variable drug response and handling. Pharmacogenomics: use of genetic information to choose drug and dose for an individual (personalised medicine). SNP: single base-pair substitution found in more than 1% of a population. Most drugs show bell-shaped (Gaussian) variation, with specific genetic defects adding discontinuous variation.",
       "refs": [
         "KDT8 ch5"
       ],
@@ -1605,9 +1608,10 @@
       "id": "p1-drug-dev-057",
       "type": "basic",
       "front": "One patient gets no pain relief from codeine and another develops marrow failure on azathioprine. Explain each.",
-      "back": "Codeine is a prodrug converted to morphine by CYP2D6; a poor metaboliser forms little morphine, so no analgesia (an ultrarapid metaboliser risks overdose). Azathioprine is cleared by TPMT; deficiency (or NUDT15 poor metaboliser status, commoner in East Asians) leaves toxic thiopurine levels and marrow toxicity. In both the gene alters drug handling, not receptor action, so genotype-guided drug choice or dose reduction is the remedy.",
+      "back": "Codeine is a prodrug converted to morphine by CYP2D6; a poor metaboliser forms little morphine, so no analgesia. Azathioprine is cleared by TPMT; deficiency (and NUDT15 variants, which also alter thiopurine metabolite levels) leaves toxic thiopurine levels and marrow toxicity. In both the gene alters drug handling, not receptor action, so genotype-guided drug choice or dose reduction is the remedy.",
       "refs": [
-        "KDT8 ch5"
+        "KDT8 ch5",
+        "GG14 ch7"
       ],
       "pyq": [],
       "status": "draft",
@@ -2218,7 +2222,7 @@
         }
       ],
       "refs": [
-        "Bennett p33-34",
+        "Bennett p49-50",
         "Medhi PMECP p22",
         "Medhi PMECP p133",
         "KDT8 ch5"
@@ -2266,8 +2270,7 @@
         {
           "h": "Clinical patch testing",
           "points": [
-            "Human patch test is acceptable only after the chemical is shown non-corrosive by an in vitro test and negative in in vitro mutagenicity tests",
-            "Patch testing is useful mainly for contact dermatitis and is unreliable for other allergies"
+            "Patch tests confirm non-irritancy in people, and are used only after the chemical passes the in vitro non-corrosion and mutagenicity screens"
           ]
         },
         {
@@ -2279,8 +2282,7 @@
       ],
       "refs": [
         "Ghosh FEP p182",
-        "Bennett p34",
-        "Medhi PMECP p133",
+        "Bennett p50",
         "KDT8 ch6"
       ],
       "pyq": [

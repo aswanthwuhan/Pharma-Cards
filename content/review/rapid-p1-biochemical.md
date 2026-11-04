@@ -109,3 +109,25 @@ Validator: check ok.
 ## PYQ gap pass (OMICS, metabolic profiling)
 Added rf-p1-biochemical-0147 to 0158 from Sarkar PDF p146-150 (proteome, metabolome, metabolomics approaches, detection, steps), GG14 ch1 PDF p24 (transcriptomics, proteomics) and GG14 ch5 (urine toxicity fingerprints). No deletions.
 Validator: check ok.
+
+## Recheck (all new cards, chunk 1/2)
+Corrected: rf-p1-biochemical-0096 (q/a reworded to blood doping with epoetin alfa, GG14 PDF p922); rf-p1-biochemical-0108 (ref changed to Padmaja PDF p489); rf-p1-biochemical-0112 (ref changed to Sarkar p406-410).
+Deleted (not supported in an owner book): rf-p1-biochemical-0060 (normal-phase Rf polarity), 0109 (11C PET), 0110 (14C AMS), 0116 (Mg2+/Mn2+ cations), 0118 (mecA gene, not in GG14 p1151), 0119 (point-of-care PCR under 2 h).
+Verified without change: 0052-0059, 0061-0075, 0076-0115 (except above), 0117 is absent from the file, 0120.
+Validator: check ok.
+
+## Recheck (all new cards, chunk 2/2)
+
+Corrected:
+- rf-p1-biochemical-0121: source is DNA fragmentation (apoptosis) on agarose gel with ethidium bromide, not PCR. q reworded to "separated DNA fragments"; refs now Ghosh FEP PDF p193 and p200.
+- rf-p1-biochemical-0158: "main use" overstated. q now "Metabolic profiling use in new drug development"; the book names toxicity assessment before trials.
+- rf-p1-biochemical-0132: kind changed from class to fact (single definition, no list).
+- rf-p1-biochemical-0136, 0137: refs changed to GG14 ch8 (postmarketing drug safety, PDF p165-166).
+- rf-p1-biochemical-0139 to 0144: refs changed to GG14 ch3 (pharmacodynamics, PDF p71). Facts unchanged.
+
+Deleted: none.
+
+Verified without change (Sarkar p146-150, KDT8 p758-759, GG14 ch56 PDF p1149-1151, GG14 ch1 PDF p24, GG14 ch4 PDF p118, GG14 ch5 PDF p136, GG14 PDF p71/p166, Bioequivalence & Statistics PDF p36/p287, Satoskar PDF p159, Ghosh FEP PDF p193/p200): rf-p1-biochemical-0122 to 0125, 0127, 0129 to 0131, 0133 to 0135, 0138, 0146 to 0157.
+
+Unverifiable (UNSOURCED or WEB refs): none in this chunk.
+Validator: check ok.

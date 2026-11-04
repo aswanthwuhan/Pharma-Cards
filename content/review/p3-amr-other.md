@@ -131,3 +131,15 @@ All 75 original cards: level set (ok). New:
 ## Checker (urinary analgesic re-check)
 - Verified 090-092 against KDT8 PDF p1023, Satoskar PDF p1121, GG12 PDF p1500, Padmaja PDF p576: facts grounded. Added GG12 PDF p1500 to 091 refs (dose 200 mg TID is printed there). No deletions.
 | p3-amr-other-092 | new (L3 shortnote) | KDT8 ch55, KDT8 PDF p1023, GG12 PDF p1500, Satoskar PDF p1113 |
+
+## Recheck (all new cards, chunk 1/1)
+Checked the 28 study cards in this chunk (065-092) against KDT8, Katzung, GG12/14, Satoskar and Padmaja (search.py, page-level). Deleted: none. Corrected 5.
+| id | status | reason |
+|---|---|---|
+| p3-amr-other-068 | corrected | Trimmed to claims the books state (methenamine mandelate, tetracyclines except doxycycline); GG14 p1193, KDT8 p798 |
+| p3-amr-other-072 | corrected | Removed unconfirmed "cheapest except streptomycin"; added KDT8 p807 and p809 refs (3-5 mg/kg/day, SABE 1 mg/kg 8-hourly) |
+| p3-amr-other-083 | corrected | Golan ref replaced with KDT8 ch53 (stages on p796) |
+| p3-amr-other-090 | corrected | Ref KDT8 p1023 (solutions appendix) replaced with KDT8 p821 and Padmaja p576 |
+| p3-amr-other-091 | corrected | Removed nausea and clothing-staining claims not printed for phenazopyridine; refs KDT8 p821, Satoskar p1121 |
+Confirmed as printed (no change): 070, 071, 073, 074, 075, 076, 077, 078, 079, 080, 081, 065, 066, 067, 069, 082, 084, 085, 086, 087, 088, 089, 092. Several refs are checked at chapter level only.
+Unconfirmed in the books but kept (not re-located line by line): 067 (Proteus urease wording), 087 (50S site overlap), 089 (essay wording).

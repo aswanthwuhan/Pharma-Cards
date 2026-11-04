@@ -247,3 +247,23 @@ Bennett & Brown Clin Pharmacol (PDF p23-42), Harrison 21 (PDF p289, p1059, p1194
 ### JSON check
 
 Both files parse with `node -e "JSON.parse(...)"`; no duplicate study fronts, rapid q's or ids; every new card has a valid subtopic, 1-3 valid tags (study) and non-empty refs. `validate-content.mjs` was not run, per instruction.
+
+## Recheck (all new cards, chunk 1/2)
+
+Scope: study cards 055-113 in chunk 1 of 2 (59 cards). Each card was checked against the cited owner book (PDF or OCR page).
+
+| id | status | source / reason |
+|---|---|---|
+| 059 | corrected | refs added: Padmaja PDF p96 (pharmacoeconomic types), Satoskar PDF p52 (formulary not regulatory) |
+| 066 | corrected | removed "uptake of released DNA" (not in books); transduction kept; refs Padmaja PDF p557, Satoskar PDF p1104 |
+| 068 | corrected | "prove causality" reworded to "best support causality" per GG14 PDF p168 |
+| 070 | corrected | refs Padmaja ch44 replaced by Padmaja PDF p557 |
+| 094 | corrected | refs GG12 PDF p106 (Swiss cheese model, Figure 4-7) |
+| 095 | corrected | refs GG12 PDF p106-107 |
+| 062 | deleted | duplicate of 057 (same 48-hour time-out question); 057 kept because it gives the why |
+| 078-099 | level set | 22 cards had no level; set to 1 basic recall, 2 applied, 3 essay/advanced |
+| all other chunk-1 study cards | ok | facts match the cited passage (Sarkar OCR, Medhi, Bennett, GG12, GG14, Harrison21, Katzung16, Padmaja, Satoskar) |
+
+Unverifiable in this chunk (UNSOURCED or WEB): 0.
+
+Subtopic ladder after recheck: every subtopic has at least 3 L1, 2 L2, 1 L3.

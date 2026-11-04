@@ -87,7 +87,7 @@ rf-p3-antifungal-viral-0101 | regrounded | KDT8 ch58; KDT8 PDF p859; GG14 PDF p1
 | rf-p3-antifungal-viral-0455 | new | GG14 ch40 |
 | rf-p3-antifungal-viral-0456 | new | GG14 ch40 |
 | rf-p3-antifungal-viral-0457 | new | GG14 ch40 |
-| rf-p3-antifungal-viral-0458 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0458 | new | KDT8 ch59 |
 | rf-p3-antifungal-viral-0459 | new | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0460 | new | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0461 | new | Katzung16 ch49 |
@@ -118,8 +118,8 @@ rf-p3-antifungal-viral-0101 | regrounded | KDT8 ch58; KDT8 PDF p859; GG14 PDF p1
 | rf-p3-antifungal-viral-0477 | new | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0478 | new | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0479 | new | Katzung16 ch49 |
-| rf-p3-antifungal-viral-0480 | new | GG14 ch63 |
-| rf-p3-antifungal-viral-0481 | new | GG14 ch63 |
+| rf-p3-antifungal-viral-0480 | new | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0481 | new | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0482 | new | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0483 | new | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0484 | new | Katzung16 ch49 |
@@ -136,3 +136,110 @@ rf-p3-antifungal-viral-0101 | regrounded | KDT8 ch58; KDT8 PDF p859; GG14 PDF p1
 - 0480, 0481: GG14 ref dropped; facts verified in Katzung16 ch49.
 - 0473, 0474: order matches KDT8 ch60 line for NACO 2013 second line. Still flagged for owner spot-check (garbled table).
 - Validate --check: ok.
+
+## Recheck (all new cards, chunk 2/2)
+
+Scope: rf-p3-antifungal-viral-0406 to 0491 (86 ids), checked against KDT8 ch58-60, GG14 ch40/61/62 and Katzung16 ch49 (pdftotext / search.py). Validator --check: ok.
+
+Corrected (text or refs changed, id kept):
+- 0416: refs KDT8 ch59 -> Katzung16 ch49 (pyrophosphate wording not in KDT8).
+- 0431-0450: refs KDT8 ch59 -> KDT8 ch60 (antiretroviral chapter; the content is in ch60).
+- 0442: answer "within months" -> "over months" (KDT8 ch60 wording).
+- 0468: answer trimmed; "severe-illness use still under study" is not in GG14 ch62 p1243.
+- 0480: question trimmed; "entry inhibitor" is not stated in Katzung16 ch49.
+- 0488: question trimmed; "investigational" is not stated in Katzung16 ch49.
+- 0462: answer "Over 99% of circulating viruses" was ambiguous (could read as susceptible); now "Over 99%" with question asking for the resistant share (Katzung16 ch49: ">99% resistance to the adamantanes among recent circulating influenza viruses").
+
+Re-verified in this pass (no change needed): 0469 (GG14 ch40 PDF p825: LAIV "persons 2 to 49 years"); 0465 (GG14 ch62: hemagglutinin variants cross-resistant to other NAIs); 0458 (KDT8 ch59: replication maximal in first 2 days of symptoms).
+
+Deleted: none. Duplicates in this chunk: none (checked questions and answers across the deck). Unverifiable (UNSOURCED or WEB refs): none in this chunk.
+Levels, basic-card why lines and subtopic minimums: not applicable (Rapid Fire deck has no levels; subtopic ids unchanged).
+
+| id | ok / corrected | source |
+|---|---|---|
+| rf-p3-antifungal-viral-0406 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0407 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0408 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0409 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0410 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0411 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0412 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0413 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0414 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0415 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0416 | corrected | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0417 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0418 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0419 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0420 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0421 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0422 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0423 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0424 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0425 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0426 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0427 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0428 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0429 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0430 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0431 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0432 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0433 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0434 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0435 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0436 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0437 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0438 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0439 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0440 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0441 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0442 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0443 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0444 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0445 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0446 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0447 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0448 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0449 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0450 | corrected | KDT8 ch60 |
+| rf-p3-antifungal-viral-0451 | ok | KDT8 ch58 |
+| rf-p3-antifungal-viral-0452 | ok | KDT8 ch60 |
+| rf-p3-antifungal-viral-0453 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0454 | ok | GG14 ch61 |
+| rf-p3-antifungal-viral-0455 | ok | GG14 ch40 |
+| rf-p3-antifungal-viral-0456 | ok | GG14 ch40 |
+| rf-p3-antifungal-viral-0457 | ok | GG14 ch40 |
+| rf-p3-antifungal-viral-0458 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0459 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0460 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0461 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0462 | corrected | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0463 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0464 | ok | GG14 ch62 |
+| rf-p3-antifungal-viral-0465 | ok | GG14 ch62 |
+| rf-p3-antifungal-viral-0466 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0467 | ok | KDT8 ch59 |
+| rf-p3-antifungal-viral-0468 | corrected | GG14 ch62 |
+| rf-p3-antifungal-viral-0469 | ok | GG14 ch40 |
+| rf-p3-antifungal-viral-0470 | ok | KDT8 ch60 |
+| rf-p3-antifungal-viral-0471 | ok | KDT8 ch60 |
+| rf-p3-antifungal-viral-0472 | ok | KDT8 ch60 |
+| rf-p3-antifungal-viral-0473 | ok | KDT8 ch60 |
+| rf-p3-antifungal-viral-0474 | ok | KDT8 ch60 |
+| rf-p3-antifungal-viral-0475 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0476 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0477 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0478 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0479 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0480 | corrected | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0481 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0482 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0483 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0484 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0485 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0486 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0487 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0488 | corrected | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0489 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0490 | ok | Katzung16 ch49 |
+| rf-p3-antifungal-viral-0491 | ok | Katzung16 ch49 |

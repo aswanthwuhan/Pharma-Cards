@@ -678,29 +678,29 @@
       "subtopic": "p4-experimental-bioassay",
       "kind": "fact",
       "q": "Two conditions for a valid parallel-line bioassay",
-      "a": "Parallel log-dose lines; similar maximal responses",
+      "a": "Linear log dose-response; parallel dose-response lines",
       "refs": [
-        "RangDale9 ch8"
+        "Ghosh FEP PDF p99"
       ]
     },
     {
       "id": "rf-p4-experimental-0067",
       "subtopic": "p4-experimental-bioassay",
       "kind": "fact",
-      "q": "Main problem in bioassay",
-      "a": "Biological variation",
+      "q": "Two sources of error in a bioassay",
+      "a": "Biological variation and methodological error",
       "refs": [
-        "RangDale9 ch8"
+        "Medhi PMECP PDF p62"
       ]
     },
     {
       "id": "rf-p4-experimental-0068",
       "subtopic": "p4-experimental-bioassay",
       "kind": "fact",
-      "q": "Ways to limit bioassay error",
-      "a": "Randomised dose order; observer blind to dose",
+      "q": "Ways to limit bioassay error (design)",
+      "a": "Random order of doses (or Latin square arrangement)",
       "refs": [
-        "RangDale9 ch8"
+        "Ghosh FEP PDF p99"
       ]
     },
     {
@@ -757,10 +757,10 @@
       "id": "rf-p4-experimental-0074",
       "subtopic": "p4-experimental-tissues",
       "kind": "fact",
-      "q": "Frog rectus response to repeated high-dose ACh",
-      "a": "Desensitisation (response attenuated after a high agonist dose, recovers with time)",
+      "q": "Effect of continued intense receptor stimulation",
+      "a": "Desensitisation or refractoriness: the receptor becomes less efficient at transducing the agonist response",
       "refs": [
-        "KDT8 ch4"
+        "KDT8 PDF p79"
       ]
     },
     {
@@ -842,7 +842,7 @@
       "a": "ED50",
       "refs": [
         "RangDale9 ch8",
-        "GG14 ch9"
+        "GG14 ch3"
       ]
     },
     {
@@ -894,7 +894,7 @@
       "q": "Minimal parallel-line bioassay design",
       "a": "2 + 2 (two doses of standard, two of unknown)",
       "refs": [
-        "RangDale9 ch8"
+        "Ghosh FEP PDF p99"
       ]
     },
     {
@@ -904,7 +904,7 @@
       "q": "Potency ratio in parallel-line assay is read from",
       "a": "Horizontal distance between log dose-response lines",
       "refs": [
-        "RangDale9 ch8"
+        "Ghosh FEP PDF p100"
       ]
     },
     {
@@ -934,19 +934,17 @@
       "q": "Test detecting mutations in bacteria",
       "a": "Ames test",
       "refs": [
-        "KDT8 ch5",
-        "Katzung16 ch1"
+        "Sarkar p256-260"
       ]
     },
     {
       "id": "rf-p4-experimental-0092",
       "subtopic": "p4-experimental-toxicity",
       "kind": "fact",
-      "q": "Mutagenicity tests in intact rodents",
-      "a": "Dominant lethal test; clastogenicity in mice",
+      "q": "Mutagenicity tests in whole rodents",
+      "a": "Dominant lethal assay; rodent chromosome assay",
       "refs": [
-        "KDT8 ch5",
-        "Katzung16 ch1"
+        "Sarkar p256-260"
       ]
     },
     {
@@ -1086,7 +1084,7 @@
       "subtopic": "p4-experimental-bioassay",
       "kind": "fact",
       "q": "Analysis of variance separates variation into",
-      "a": "Between groups (treatment) and within groups (error)",
+      "a": "Between-group variation (treatment effect) and error variation",
       "refs": [
         "Ghosh FEP PDF p220"
       ]
@@ -1098,7 +1096,7 @@
       "q": "Why coefficient of variation is used",
       "a": "Compares variability when means differ widely",
       "refs": [
-        "Ghosh FEP PDF p217"
+        "Ghosh FEP PDF p218"
       ]
     },
     {
@@ -1112,22 +1110,13 @@
       ]
     },
     {
-      "id": "rf-p4-experimental-0109",
-      "subtopic": "p4-experimental-bioassay",
-      "kind": "fact",
-      "q": "Parallel-line assay: 2+2 dose assay uses",
-      "a": "Two doses each of standard and unknown",
-      "refs": [
-        "Ghosh FEP PDF p99"
-      ]
-    },
-    {
       "id": "rf-p4-experimental-0110",
       "subtopic": "p4-experimental-tissues",
       "kind": "fact",
       "q": "Nicotinic ACh test tissue (frog)",
       "a": "Frog rectus abdominis",
       "refs": [
+        "Ghosh FEP PDF p36",
         "Ghosh FEP PDF p133"
       ]
     },
@@ -1215,8 +1204,8 @@
       "id": "rf-p4-experimental-0119",
       "subtopic": "p4-experimental-tissues",
       "kind": "fact",
-      "q": "Microsome-based in vitro drug interaction study",
-      "a": "Liver microsomes incubated with the drug",
+      "q": "In vitro liver-microsome study: what is incubated with the drug?",
+      "a": "Liver microsomes; metabolites are then identified (e.g. LC-MS)",
       "refs": [
         "Sarkar p286-290"
       ]
@@ -1518,7 +1507,7 @@
       "q": "Receptor blocked by typical antipsychotics",
       "a": "Dopamine D2",
       "refs": [
-        "Medhi PMECP PDF p213"
+        "Medhi PMECP PDF p213-214"
       ]
     },
     {
@@ -1528,7 +1517,7 @@
       "q": "Side effect predicted by catalepsy test",
       "a": "Extrapyramidal side effects",
       "refs": [
-        "Medhi PMECP PDF p214"
+        "Medhi PMECP PDF p213"
       ]
     },
     {
@@ -1678,7 +1667,7 @@
       "q": "Clinical diuretic test (healthy volunteers)",
       "a": "Saluretic, natriuretic, carbonic anhydrase inhibition",
       "refs": [
-        "Medhi PMECP PDF p15"
+        "Medhi PMECP PDF p319"
       ]
     },
     {
@@ -1775,8 +1764,8 @@
       "id": "rf-p4-experimental-0175",
       "subtopic": "p4-experimental-animal-models",
       "kind": "fact",
-      "q": "Nude rat defect",
-      "a": "Lacks normal thymus and mature T cells",
+      "q": "Nude mouse defect",
+      "a": "Hairless; lacks thymus gland",
       "refs": [
         "Medhi PMECP PDF p25"
       ]
@@ -1815,7 +1804,7 @@
       "id": "rf-p4-experimental-0179",
       "subtopic": "p4-experimental-animal-models",
       "kind": "fact",
-      "q": "Knock-in of human gene in mice produces",
+      "q": "Knock-in of human immunoglobulin gene sections into mice produces",
       "a": "Humanised antibodies",
       "refs": [
         "Sarkar p271-275"
@@ -1938,7 +1927,7 @@
       "q": "Generic approval needs",
       "a": "Bioequivalence studies in healthy volunteers",
       "refs": [
-        "Sarkar p541-545"
+        "Bioequivalence & Statistics PDF p44"
       ]
     },
     {
@@ -1955,7 +1944,7 @@
       "id": "rf-p4-experimental-0193",
       "subtopic": "p4-experimental-toxicity",
       "kind": "fact",
-      "q": "CNS drug long-term risk named in owner text",
+      "q": "Recreational use of CNS-acting drugs can lead to",
       "a": "Physical dependence (recreational use)",
       "refs": [
         "GG14 PDF p324"
@@ -1965,7 +1954,7 @@
       "id": "rf-p4-experimental-0194",
       "subtopic": "p4-experimental-toxicity",
       "kind": "fact",
-      "q": "Regulatory animal sections of IND/NDA",
+      "q": "IND application: preclinical section on animal data",
       "a": "Animal pharmacology and animal toxicology",
       "refs": [
         "Sarkar p251-255"
@@ -1978,7 +1967,7 @@
       "q": "Cell-line assay reading viable cells via mitochondrial reduction",
       "a": "MTT / XTT",
       "refs": [
-        "Ghosh FEP PDF p223"
+        "Ghosh FEP PDF p198"
       ]
     },
     {
@@ -1988,7 +1977,7 @@
       "q": "Dye that stains only dead cells (trypan blue exclusion)",
       "a": "Trypan blue",
       "refs": [
-        "Ghosh FEP PDF p223"
+        "Ghosh FEP PDF p199"
       ]
     },
     {
@@ -1998,7 +1987,7 @@
       "q": "Dyes used to tell apoptosis from necrosis by fluorescence microscopy",
       "a": "Acridine orange and ethidium bromide",
       "refs": [
-        "Ghosh FEP PDF p223-224"
+        "Ghosh FEP PDF p199"
       ]
     },
     {
@@ -2008,7 +1997,8 @@
       "q": "Concentration that halves a function in cell-line studies",
       "a": "IC50",
       "refs": [
-        "Ghosh FEP PDF p223"
+        "Ghosh FEP PDF p199",
+        "Ghosh FEP PDF p104"
       ]
     },
     {
@@ -2018,7 +2008,7 @@
       "q": "Solvent limit for water-insoluble test material in cell assays",
       "a": "Under 1 per cent DMSO",
       "refs": [
-        "Ghosh FEP PDF p224"
+        "Ghosh FEP PDF p200"
       ]
     },
     {

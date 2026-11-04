@@ -161,3 +161,16 @@ Validator `--check`: clean after edits.
 | 045 | ok | KDT8 p263 (ketotifen not a bronchodilator; sedation and dry mouth common) |
 
 Node check: all cards have level, refs, and subtopic minimums met (see deck check). Validator clean.
+
+## Recheck (all new cards, chunk 1/1)
+
+Checked: 035, 036, 037, 038, 039, 040, 041, 042, 043, 044, 045 (study); rf-0309 to rf-0349 (Rapid, see rapid log). Sources: GG14 ch44 (text and Drug Facts table), KDT8 ch16.
+
+| id | status | reason / source |
+|---|---|---|
+| 035 | corrected | "FDA 2020" year removed (GG14 ch44 says only "black-box warning"). "Add-on in asthma not controlled by ICS" and "no value in COPD" were not in the books; replaced with KDT8 ch16 (prophylaxis as alternative to inhaled glucocorticoids; not to terminate an episode). |
+| 036 | corrected | Roflumilast is used in mild asthma with neutrophilic inflammation (GG14 ch44), so "not asthma" removed; "weight loss" removed (GG14 ch44 lists diarrhoea, headache, nausea). |
+| 037 | corrected | "Start 100-200 µg twice daily" is not printed (KDT8 Table 16.2 gives per-day low/medium/high ranges); dose removed. "Reduce cytokines, eosinophils and lymphocytes" replaced with KDT8 ch16 wording (suppresses bronchial inflammation, hyperresponsiveness). |
+| 038, 039, 040, 041, 042, 043, 044, 045 | ok | KDT8 ch16 (HFA/spacer/nebuliser/DPI, 1-5 µm, 10%; asthma types; three mediator waves; aminophylline 85%, IV only; caffeine, 1-3 weeks; aminophylline not routine, SC/IM salbutamol; large-volume spacer; ketotifen). |
+
+Deleted ids: none. Unverifiable ids in chunk: none.

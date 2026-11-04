@@ -227,7 +227,7 @@
           "h": "Nature",
           "points": [
             "Physico-chemical test-tube assay based on antigen-antibody binding, not a bioassay in animals or tissue",
-            "Measures hormones and drugs in plasma; the technique was recognised by a Nobel prize in 1977"
+            "Measures hormones and drugs in plasma"
           ]
         },
         {
@@ -363,7 +363,7 @@
           "h": "Applications",
           "points": [
             "Gonadotropin and hCG tests, thyroid tests, digoxin levels, urine drug screens",
-            "Limits: cross-reactivity gives false positives, so confirm positives by chromatography-mass spectrometry"
+            "Limits: cross-reactivity gives false positives"
           ]
         }
       ],
@@ -702,7 +702,7 @@
       "level": 1,
       "type": "basic",
       "front": "What is the retention factor (Rf) in thin-layer chromatography?",
-      "back": "Distance travelled by a compound divided by the distance travelled by the solvent front. It is a fixed value for a compound under set conditions, so it helps identify spots. In normal-phase TLC the compound with the larger Rf is the less polar one, because it sticks less to the polar plate.",
+      "back": "Distance travelled by a compound divided by the distance travelled by the solvent front. It is a fixed value for a compound under set conditions, so it helps identify spots.",
       "tags": [
         "mechanism"
       ],
@@ -791,7 +791,7 @@
       "level": 2,
       "type": "basic",
       "front": "Why is a chromatograph coupled to a mass spectrometer (GC-MS, LC-MS)?",
-      "back": "The chromatograph separates the mixture and the mass spectrometer then fragments each fraction into a pattern that can be matched against a database. Compounds can be identified without knowing their retention times, and drugs or metabolites in biological samples can be quantified. This is why GC-MS and LC-MS are used for doping tests, forensic drug confirmation and metabolomics.",
+      "back": "The chromatograph separates the mixture and the mass spectrometer then fragments each fraction into a pattern that can be matched against a database. Compounds can be identified without knowing their retention times, and drugs or metabolites in biological samples can be quantified. This is why GC-MS and LC-MS are used for forensic drug confirmation and metabolomics.",
       "tags": [
         "mechanism",
         "uses"
@@ -903,8 +903,7 @@
           "h": "Uses",
           "points": [
             "Metabolomics, forensic confirmation of drug abuse, drug monitoring",
-            "Drug discovery, early phase ADME studies and metabolite screening",
-            "Detection of doping, e.g. androgens and isotope-ratio testing for exogenous testosterone"
+            "Drug discovery, early phase ADME studies and metabolite screening"
           ]
         }
       ],
@@ -1109,8 +1108,7 @@
     {
       "id": "p1-biochemical-046",
       "refs": [
-        "KDT8 ch3",
-        "Sarkar p256-260"
+        "KDT8 ch3"
       ],
       "pyq": [
         {
@@ -1227,7 +1225,7 @@
       "level": 1,
       "type": "basic",
       "front": "Why is tetrahydrogestrinone (THG) a problem for doping control?",
-      "back": "It is a potent androgen that appears to have been designed to escape antidoping laboratories, both through its novel structure and through rapid breakdown in the body, so routine tests for known androgens could miss it.",
+      "back": "It is a potent androgen that appears to have been designed to escape antidoping laboratories, both through its novel structure, so routine tests for known androgens could miss it.",
       "tags": [
         "newer-drugs"
       ],
@@ -1314,7 +1312,7 @@
             "Gas chromatography-mass spectrometry or immunoassay",
             "Androgens other than testosterone: GC-MS if still being taken",
             "Testosterone: raised T/E ratio, and 13C/12C isotope-ratio MS (low ratio means pharmaceutical)",
-            "Recombinant erythropoietin: modern assays detect its slight difference from the native protein (blood doping)"
+            "Recombinant erythropoietin: misused for blood doping (epoetin alfa)"
           ]
         },
         {
@@ -1334,7 +1332,7 @@
       "type": "basic",
       "level": 1,
       "front": "What is the physical half-life of 131I?",
-      "back": "About 8 days.",
+      "back": "About 8 days, the physical half-life of 131I, so its activity falls by half in that time.",
       "refs": [
         "KDT8 ch18"
       ],
@@ -1414,7 +1412,8 @@
         }
       ],
       "refs": [
-        "KDT8 ch18"
+        "KDT8 ch18",
+        "Padmaja PDF p489"
       ],
       "pyq": [
         {
@@ -1445,8 +1444,6 @@
         {
           "h": "Tracer studies",
           "points": [
-            "Radiolabelled drug given at microdose (100 microgram or 1/100 of active dose) and measured by accelerator mass spectrometry (AMS) or positron emission tomography (PET)",
-            "14C for AMS; 11C for PET",
             "Radiolabelled ligands isolate and characterise receptors (e.g. labelled alpha-bungarotoxin)"
           ]
         },
@@ -1482,7 +1479,6 @@
       "refs": [
         "KDT8 ch18",
         "KDT8 ch5",
-        "Medhi PMECP PDF p367",
         "Ghosh FEP PDF p38",
         "Satoskar Pharmacology PDF p159",
         "GG14 PDF p677",
@@ -1540,9 +1536,9 @@
       "type": "basic",
       "level": 1,
       "front": "Which enzyme and buffer ions does a PCR run need?",
-      "back": "DNA polymerase; buffer with divalent (Mg2+, Mn2+) and monovalent (K+) cations. Extension time depends on the polymerase chosen.",
+      "back": "DNA polymerase plus a buffer containing the cofactors the enzyme needs, with primers and dNTPs. Extension time depends on the polymerase chosen.",
       "refs": [
-        "Medhi PMECP PDF p102"
+        "Sarkar p406-410"
       ],
       "pyq": [],
       "status": "draft",
@@ -1571,37 +1567,33 @@
       "id": "p1-biochemical-063",
       "type": "shortnote",
       "level": 2,
-      "front": "Short note: PCR in antimicrobial resistance testing",
+      "front": "Short note: Antimicrobial resistance testing",
       "sections": [
         {
-          "h": "What",
+          "h": "Mechanism (MRSA)",
           "points": [
-            "Nucleic acid amplification of a target gene that carries a known resistance determinant"
+            "Penicillin-binding proteins are the targets of beta-lactams",
+            "MRSA carries an acquired PBP with very low affinity for penicillins"
           ]
         },
         {
-          "h": "Examples",
+          "h": "Testing",
           "points": [
-            "Rifampicin resistance in Mycobacterium tuberculosis",
-            "mecA gene for methicillin resistance in Staphylococcus aureus (MRSA), used for infection control"
+            "MIC and disk diffusion tests show susceptibility in vitro",
+            "Lowest concentration that prevents visible growth is the MIC"
           ]
         },
         {
-          "h": "Advantage",
+          "h": "Molecular tests",
           "points": [
-            "Point-of-care PCR gives a result in under 2 h, while culture needs 2-3 weeks and broth dilution a similar time"
-          ]
-        },
-        {
-          "h": "Role when culture fails",
-          "points": [
-            "Where bacteriology is unavailable or unobtainable, antigen/antibody tests or PCR can guide the choice of antimicrobial"
+            "PCR amplifies a specific DNA target so that it can be identified",
+            "16S rRNA primers identify species, e.g. gut bacteria"
           ]
         }
       ],
       "refs": [
-        "GG14 PDF p1151",
-        "KDT8 ch50"
+        "KDT8 ch50",
+        "Sarkar p406-410"
       ],
       "pyq": [
         {
@@ -1640,33 +1632,22 @@
         {
           "h": "Methodology",
           "points": [
-            "Template DNA, primers, DNA polymerase, buffer with Mg2+ and K+",
+            "Template DNA, primers, DNA polymerase, dNTPs and buffer with enzyme cofactors",
             "Thermal cycling; product checked by agarose gel electrophoresis and ethidium bromide staining"
           ]
         },
         {
           "h": "Applications",
           "points": [
-            "Identification of infecting organisms when culture is not possible (PCR listed among diagnostic tests)",
-            "Rapid detection of resistance genes (rifampicin resistance in TB; mecA in MRSA)",
+            "Diagnosis of infectious disease, detected earlier than by serology",
             "Gut microbiome studies: 16S rRNA gene primers; shotgun metagenomics: collect sample, extract DNA, sequence"
-          ]
-        },
-        {
-          "h": "Limitations",
-          "points": [
-            "Needs a highly skilled operator",
-            "Prone to contamination",
-            "Difficult to set up as a quantitative assay"
           ]
         }
       ],
       "refs": [
         "Medhi PMECP PDF p100",
-        "Medhi PMECP PDF p102",
-        "GG14 PDF p1151",
-        "KDT8 ch50",
-        "GG14 ch6",
+        "Sarkar p406-410",
+        "GG14 PDF p139",
         "Ghosh FEP PDF p200"
       ],
       "pyq": [
@@ -1736,7 +1717,7 @@
       "type": "basic",
       "level": 2,
       "front": "How is a MIC result used to classify an isolate?",
-      "back": "The isolate is susceptible if its MIC is at or below the clinical breakpoint for that drug-organism pair; breakpoints are consensus values.",
+      "back": "The isolate is susceptible if its MIC is at or below the clinical breakpoint for that drug-organism pair.",
       "refs": [
         "GG14 ch56"
       ],
@@ -2062,6 +2043,7 @@
       ],
       "refs": [
         "Bioequivalence & Statistics PDF p36",
+        "Bioequivalence & Statistics PDF p273",
         "Bioequivalence & Statistics PDF p287",
         "Bioequivalence & Statistics PDF p291",
         "Bioequivalence & Statistics PDF p294",

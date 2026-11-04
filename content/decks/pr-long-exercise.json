@@ -823,7 +823,7 @@
       "id": "pr-long-exercise-071",
       "type": "basic",
       "front": "Why is a protocol primary objective fixed before the study starts?",
-      "back": "Fixing it in advance stops the question, sample size and analysis from being bent to fit the results. The primary objective drives the design; secondary objectives are added after it.",
+      "back": "Objectives must be simple, specific and stated in advance, not after the research is done. The primary objective comes first; secondary objectives follow it.",
       "refs": [
         "Sarkar p201-205"
       ],
@@ -838,10 +838,12 @@
     {
       "id": "pr-long-exercise-072",
       "type": "basic",
-      "front": "Protocol exercise: what must the informed-consent part contain and why is it in the methodology?",
-      "back": "A patient information sheet in simple language plus a written consent form, because participation must be voluntary and understood. Both are part of the methodology, along with selection criteria and stopping rules.",
+      "front": "Protocol exercise: what must the informed-consent part contain?",
+      "back": "A patient information sheet and a written informed-consent form, with the consent process described. Participation must be voluntary and informed.",
       "refs": [
-        "Sarkar p201-205"
+        "Sarkar p201-205",
+        "Sarkar p241-245",
+        "NMC MD Pharmacology curriculum PDF p9"
       ],
       "pyq": [],
       "status": "draft",
@@ -916,9 +918,10 @@
       "id": "pr-long-exercise-073",
       "type": "basic",
       "front": "Scenario: you must test a new antihypertensive against standard therapy. Which protocol design choices do you state and why?",
-      "back": "Randomised, controlled design (equal baseline groups, no selection bias); blinding where possible; clear inclusion/exclusion and withdrawal criteria; one primary objective; adverse-event reporting and stopping rules; sample size and analysis plan written beforehand; ethics approval and consent.",
+      "back": "Randomised, controlled design (equal baseline groups, less selection bias); blinding where possible; clear inclusion, exclusion and withdrawal criteria; one primary objective; stopping rules; analysis plan written beforehand; ethics approval and informed consent.",
       "refs": [
-        "Sarkar p201-205"
+        "Sarkar p201-205",
+        "Sarkar p206-210"
       ],
       "pyq": [],
       "status": "draft",
@@ -965,7 +968,7 @@
       "id": "pr-long-exercise-074",
       "type": "basic",
       "front": "What is the purpose of a causality assessment of an adverse event?",
-      "back": "To decide how likely the suspected drug, rather than disease or another drug, caused the event. It guides whether to stop or continue the drug and how the report is graded.",
+      "back": "To decide how likely the suspected drug, rather than disease or another cause, produced the event. Graded as definite, probable, possible or doubtful using timing, previous knowledge, dechallenge and rechallenge.",
       "refs": [
         "KDT8 ch6"
       ],
@@ -1065,10 +1068,9 @@
       "id": "pr-long-exercise-075",
       "type": "basic",
       "front": "ADR case exercise: the patient developed a rash 5 days after a new drug and improved on stopping it. How do you reason to a causality grade?",
-      "back": "Check timing after the start, whether the event is known for the drug, effect of withdrawal (dechallenge), alternative causes such as other drugs or disease, and rechallenge if it was done. Improvement on stopping with no other cause favours probable or definite; unresolved alternatives lower it to possible or doubtful.",
+      "back": "Check timing after the start, whether the event is known for the drug, dechallenge (did it settle on stopping), alternative causes and rechallenge if done. Settling on withdrawal with no other cause favours probable; definite needs proof; unresolved alternatives make it possible; drug unlikely makes it doubtful.",
       "refs": [
-        "KDT8 ch6",
-        "KDT8 ch5"
+        "KDT8 ch6"
       ],
       "pyq": [],
       "status": "draft",
@@ -1146,7 +1148,7 @@
       "id": "pr-long-exercise-077",
       "type": "basic",
       "front": "Why does a CONSORT flow diagram help you appraise a trial?",
-      "back": "It shows how many participants were screened, randomised, followed up and analysed, so you can spot dropouts and attrition bias.",
+      "back": "It shows how many participants were enrolled, excluded, dropped out and analysed. Losses that are not analysed can under- or over-estimate the results, so you check them.",
       "refs": [
         "Sarkar p511-515"
       ],
@@ -1219,7 +1221,7 @@
       "id": "pr-long-exercise-078",
       "type": "basic",
       "front": "A trial reports P = 0.04 with a wide confidence interval reaching a clinically trivial effect. How do you judge it?",
-      "back": "Statistically significant but imprecise; the interval shows the true effect could be too small to matter. Weigh the effect size, precision, bias risk in the methods, and whether results change practice before accepting it.",
+      "back": "Statistically significant but imprecise: the confidence interval shows the true effect could be too small to matter. Judge effect size and precision, and check the methods for bias, before accepting it.",
       "refs": [
         "Sarkar p511-515",
         "Sarkar p506-510"
@@ -1318,7 +1320,8 @@
       "front": "Which muscle of the iris does a mydriatic or miotic act on, and which receptor drives each?",
       "back": "Sphincter pupillae (M3, parasympathetic) constricts the pupil; dilator pupillae (alpha-1, sympathetic) dilates it. Drugs work by blocking or stimulating these receptors.",
       "refs": [
-        "NMC MD Pharmacology 2022 curriculum (practical exam)"
+        "GG14 PDF p198",
+        "Padmaja PDF p110"
       ],
       "pyq": [],
       "status": "draft",
@@ -1458,9 +1461,9 @@
       "id": "pr-long-exercise-079",
       "type": "basic",
       "front": "Why is the untreated opposite eye kept as control in the rabbit eye practical?",
-      "back": "It gives a same-animal baseline for pupil size under identical light, so any difference after instillation is due to the drug.",
+      "back": "The other eye of the same rabbit is the control. It gives a same-animal baseline to compare pupil size with, avoiding individual variation.",
       "refs": [
-        "NMC MD Pharmacology 2022 curriculum (practical exam)"
+        "Medhi PMECP PDF p247"
       ],
       "pyq": [],
       "status": "draft",
@@ -1526,10 +1529,10 @@
     {
       "id": "pr-long-exercise-081",
       "type": "basic",
-      "front": "Rabbit eye: predict and explain the pupil after atropine followed by pilocarpine, and after physostigmine in an atropinised eye.",
-      "back": "Atropine blocks M3 so the pupil is dilated; pilocarpine then partly reverses it by competing at the receptor. Physostigmine raises acetylcholine but cannot overcome a full atropine block, so reversal is weak.",
+      "front": "Rabbit eye: predict the pupil after atropine, then after pilocarpine.",
+      "back": "Atropine blocks M3 so the pupil stays dilated; pilocarpine then reverses the mydriasis by acting on the same receptors.",
       "refs": [
-        "NMC MD Pharmacology 2022 curriculum (practical exam)"
+        "GG14 PDF p233"
       ],
       "pyq": [],
       "status": "draft",
@@ -1596,12 +1599,10 @@
     {
       "id": "pr-long-exercise-082",
       "type": "basic",
-      "front": "Why is the dog anaesthetised and a carotid artery cannulated in the BP practical?",
-      "back": "Anaesthesia keeps the animal still and pain-free; the cannula connects the artery to a transducer or manometer so MAP is recorded continuously.",
+      "front": "Why is the dog anaesthetised in the blood pressure practical?",
+      "back": "Autonomic drugs are tested on blood pressure in anaesthetised animals, so the dog is anaesthetised with a barbiturate and prepared for BP recording.",
       "refs": [
-        "Ghosh PDF p121-122",
-        "KDT8 PDF p159",
-        "NMC MD Pharmacology 2022 curriculum (practical exam)"
+        "Ghosh PDF p122"
       ],
       "pyq": [],
       "status": "draft",
@@ -1690,8 +1691,7 @@
       "back": "Blocking beta-2 removes the vasodilator (depressor) phase and blocking beta-1 removes the tachycardia, leaving mainly the alpha-1 pressor effect.",
       "refs": [
         "Ghosh PDF p121-122",
-        "KDT8 PDF p159",
-        "NMC MD Pharmacology 2022 curriculum (practical exam)"
+        "KDT8 PDF p159"
       ],
       "pyq": [],
       "status": "draft",
@@ -1762,8 +1762,7 @@
       "back": "After phentolamine, noradrenaline pressor effect is reduced, adrenaline reverses to a fall in MAP, and isoprenaline is unchanged because it acts on beta receptors. Heart-rate changes depend on the reflex and beta-1 action.",
       "refs": [
         "Ghosh PDF p121-122",
-        "KDT8 PDF p159",
-        "NMC MD Pharmacology 2022 curriculum (practical exam)"
+        "KDT8 PDF p159"
       ],
       "pyq": [],
       "status": "draft",

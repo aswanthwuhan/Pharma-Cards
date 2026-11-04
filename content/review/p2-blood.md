@@ -225,3 +225,41 @@ Validator (`node scripts/validate-content.mjs --check`): ok after these addition
 Open for owner: none from this pass.
 
 Checker pass (2026-11-03): p2-blood-012, -077 and -086 had no `level`. Set to 3 (shortnotes). Verified 130-134 against GG12 PDF p885 and Katzung16 ch34 p670-672, p704-715, KDT8 p978-979. The pyq tag on 134 (RGUHS 2024) was not re-checked against the Q bank.
+
+## Recheck (all new cards, chunk 1/3)
+
+Checked the 58 study cards in `.tmp/recheck.json` chunks[0] against KDT8 ch44-46 and ch64/68, GG14 ch36/ch45, GG12 p885, Katzung16 ch34 and Padmaja (search.py / pdftotext). Result: 29 ok, 28 corrected, 1 deleted, 0 unverifiable. Subtopic minimums still met (iron 13/13/4, vitamin K 9/7/1, heparins 5/9/1, DOACs 3/5/3, antiplatelets 5/4/2, fibrinolytics 8/5/5, statins 8/8/1, other hypolipidaemics 5/8/1). Validator clean.
+
+| id | status | reason and source |
+|---|---|---|
+| p2-blood-078 | corrected | "transcobalamin II" not printed; book says transcobalamin (KDT8 ch44) |
+| p2-blood-081 | corrected | removed unprinted "1 mg i.m. at birth" newborn point; dietary sources, omit-doses and emulsified i.v. points checked (KDT8 ch45) |
+| p2-blood-082 | corrected | acenocoumarol "acts within 2-3 days" not printed; half-life 8 h, active metabolite ~24 h, acts more rapidly (KDT8 ch45) |
+| p2-blood-085 | corrected | source is hog lung or pig intestine (KDT8 ch45 sources list); "ox lung" removed |
+| p2-blood-086 | corrected | LMWH 70-90% bioavailability not printed; UFH 20-30% and 4-6 h half-life kept (KDT8 ch45) |
+| p2-blood-088 | corrected | bivalirudin is specifically valued in HIT-risk patients; "no HIT risk" reworded (KDT8 ch45) |
+| p2-blood-090 | corrected | apixaban bioavailability 50% in GG14 (newer book) vs 85% in KDT8; GG14 wording used (GG14 ch36, KDT8 ch45) |
+| p2-blood-091 | corrected | edoxaban is contraindicated below CrCl 15 (not "not recommended"); CrCl >95 restriction is US-only; 60 mg dose reduced to 30 mg (GG14 ch36) |
+| p2-blood-092 | corrected | removed unprinted 5-7 day effect, 40 mg/day effect, claudication, cerebral haemorrhage and aspirin resistance; 75-150 mg TXA2 point and primary-prevention point kept (KDT8 ch45) |
+| p2-blood-093 | corrected | abciximab inhibition "12-24 h" replaced by 12 h infusion after PCI (KDT8 ch45) |
+| p2-blood-095 | corrected | ticlopidine neutropenia "about 1%" and prasugrel stroke/TIA contraindication not printed in KDT8 ch45 or GG14 ch36 (both removed) |
+| p2-blood-096 | corrected | removed PAI-2, "mainly from endothelium" and "PCI preferred after 3 h" (not printed) (KDT8 ch45) |
+| p2-blood-099 | corrected | LMW heparin (not heparin flush) is the cannula/shunt patency indication; antiplatelet shunt point reworded (KDT8 ch45) |
+| p2-blood-100 | corrected | myopathy belongs to EACA, not tranexamic acid (KDT8 ch45) |
+| p2-blood-101 | corrected | rosuvastatin 40 mg gives 53%; the 38% at 5 mg and the TG 25-35% claim are not printed; bedtime point removed (KDT8 ch46) |
+| p2-blood-102 | corrected | "continued indefinitely" section not printed, removed; endothelial NO and LDL oxidation not printed, reworded (KDT8 ch46) |
+| p2-blood-103 | corrected | simvastatin half-life, "peak LDL fall after 1-2 weeks" and bedtime dosing not printed, removed (KDT8 ch46) |
+| p2-blood-105 | corrected | removed apo A-I/A-II, bezafibrate dose reduction, fenofibrate "with meals", gemfibrozil pregnancy and anticoagulant claims (not printed); gemfibrozil 600 mg BD added (KDT8 ch46) |
+| p2-blood-106 | corrected | "liver damage the most serious risk" and "dyspepsia very common" not printed; flushing point now shows the printed low-dose mitigation (KDT8 ch46) |
+| p2-blood-108 | corrected | resin LDL 15-25% and TG claim, ezetimibe reversible hepatic dysfunction not printed; removed (KDT8 ch46) |
+| p2-blood-110 | corrected | high-intensity doses printed as atorvastatin 20-80 mg and rosuvastatin 10-40 mg (KDT8 ch46) |
+| p2-blood-117 | corrected | "works best on fresh thrombi" and "plasmin degrades clotting factors" not printed; removed; alteplase bleeding 0.5-5% added (KDT8 ch45) |
+| p2-blood-118 | corrected | vorapaxar "effect up to 4 weeks" and "added to aspirin or clopidogrel" not printed (GG14 ch36 p741-746); removed; rifampin interaction added |
+| p2-blood-121 | corrected | added why: slow glomerular excretion keeps plasma expansion for about 24 h (Padmaja p340) |
+| p2-blood-127 | corrected | sargramostim is not in KDT8; refs changed to Padmaja PDF p472 and Katzung16 PDF p650 (GM-CSF in chemotherapy neutropenia) |
+| p2-blood-128 | corrected | added why: shortens neutropenia (KDT8 ch64) |
+| p2-blood-129 | corrected | removed CD34 mobilisation, transplantation use and cancer epoetin claims (not printed); empty "Supportive measures" section removed |
+| p2-blood-131 | corrected | removed "plasma only where no recombinant form", single-vitamin-K caveat, off-label rFVIIa claims and antithrombin childbirth/concentrate claims; rFVIIa and antithrombin uses now as printed (Katzung16 ch34 p671, GG12 PDF p885 added to refs) |
+| p2-blood-133 | deleted | duplicate of p2-blood-134 (desferrioxamine and oral chelators, KDT8 ch68); p2-blood-134 kept as the fuller card |
+
+Checked and left as is: 077, 079, 080, 083, 084, 087, 089, 094, 097, 098, 104, 107, 109, 111-116, 119, 120, 122, 123, 124, 125, 126, 130, 132, 134. 

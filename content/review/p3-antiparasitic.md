@@ -187,3 +187,23 @@ Notes: RangDale9 p714 cites Fidock 2004 on compound screening only as a bibliogr
 | p3-antiparasitic-100 | ok ("phase I" printed in GG14) | GG14 PDF p1321 |
 | p3-antiparasitic-101 | ok | KDT8 ch61 (PDF p902) |
 Validator clean after edits.
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked against KDT8 ch61-63, Katzung16 ch52-53 and GG14 ch66. Corrections below; no deletions in this chunk; no unverifiable refs in this chunk.
+
+| id | status | reason and source |
+|---|---|---|
+| p3-antiparasitic-059 | corrected | "over 90% success" for fexinidazole is not in Katzung16 ch52; replaced with the book's "equivalent efficacy to eflornithine plus nifurtimox" |
+| p3-antiparasitic-060 | corrected | Pentamidine route given as "parenterally" (Katzung16 ch52); IM/IV not stated |
+| p3-antiparasitic-063 | corrected | TMP-SMX dose is 15 mg/kg/day trimethoprim with 75 mg/kg sulfamethoxazole (Katzung16 ch52), not 15-20 mg/kg |
+| p3-antiparasitic-069 | corrected | "miltefosine teratogenic" and "amphotericin B drug of choice in pregnancy" not in KDT8 ch62 or Katzung16 ch52; removed. HIV point kept (KDT8 ch62) |
+| p3-antiparasitic-076 | corrected | Quinine course is 3 days with doxycycline 7 days (Katzung16 ch52); pregnancy 2nd/3rd trimester is AS-SP ACT under NVBDCP (KDT8 ch61) |
+| p3-antiparasitic-077 | corrected | Removed Sahel amodiaquine+SP and "in Africa" (not in sources); removed folate-dose claim; SJS not linked to single-dose use; "not for vivax" changed to "not reliably effective in vivax" (Katzung16 ch52) |
+| p3-antiparasitic-092 | corrected | pfmdr1 effect stated for quinine only (KDT8 ch61) |
+| p3-antiparasitic-093 | corrected | Stop-on-haemolysis or anaemia (Katzung16 ch52); "dark urine" removed; refs added |
+| p3-antiparasitic-094 | corrected | Rebuilt: removed "no new antimalarial in 40 years" (not in GG14 ch66 or KDT8), duplicate bullets, "phase III" for pyronaridine (KDT8 ch61 says trials), "in development" for tafenoquine (approved 2018, Katzung16 ch52); GG14 ch66 for ganaplacide and artemisinin resistance |
+| p3-antiparasitic-096 | corrected | Removed "40 years" claim; refs narrowed to GG14 ch66 (RangDale9 ch55 not checked for this point) |
+| p3-antiparasitic-101 | corrected | ">98% response" and "GI upset and dizziness" not in KDT8 ch61; replaced with the book's comparison to artemether-lumefantrine and multidrug-resistant areas; tag "adr" removed |
+
+Checked and kept without change (examples): 061, 065 (microsporidiosis 20-30 days in the Katzung table; 2 weeks or longer in text), 066, 068, 070, 071, 072, 073, 074, 075, 079, 080-089, 090-091, 095, 097-100.

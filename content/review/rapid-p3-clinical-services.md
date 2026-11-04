@@ -155,3 +155,35 @@ New coverage includes: formulary types and escape clause; primary/secondary/tert
 Conflicts/nuances: none direct. Bennett's statement that age itself is insignificant for compliance coexists with Harrison's list of cognitive, hearing and vision barriers (the impairment is the barrier). Harrison's five-to-nine drug threshold and Sarkar's five-or-more threshold are both recorded. Antibiogram **use** is now sourced (Harrison 21); its preparation method remains a book gap.
 
 JSON check: parses; ids unique (0276-0428); every card has a valid subtopic and non-empty refs. `validate-content.mjs` not run, per instruction.
+
+## Recheck (all new cards, chunk 1/2)
+
+Scope: rapid cards rf-p3-clinical-services-0249 to 0309 in chunk 1 of 2 (61 cards). Each pair was checked against the cited owner book.
+
+| id | status | source / reason |
+|---|---|---|
+| rf-0252 | corrected | refs Padmaja ch44 replaced by Padmaja PDF p557 (conjugation is the most important mode) |
+| rf-0253 | corrected | refs Padmaja ch44 replaced by Padmaja PDF p557 (resistance mechanisms list) |
+| rf-0266 | corrected | answer changed to "Quantitative signal detection methods on spontaneous reports (no denominator needed)"; the term "disproportionality" is not in the owner books (GG14 PDF p168 wording) |
+| all other chunk-1 rapid cards | ok | facts match the cited passage (Medhi PMECP p136/p138, Bennett PDF p33/p34, GG12 PDF p818/p1911-1913, GG14 PDF p168/p424, Padmaja PDF p95-96, Satoskar PDF p52, Sarkar p76-80, Katzung16 appendix 2) |
+
+Deleted: none. Unverifiable in this chunk (UNSOURCED or WEB): 0.
+
+## Recheck (all new cards, chunk 2/2)
+
+Scope: rapid cards rf-p3-clinical-services-0310 to 0428 (119 cards). Each pair was checked against the cited owner book page (Padmaja PDF p95, p558; Satoskar PDF p48, p52-53; Bennett PDF p23, p34-38, p42; Harrison21 PDF p289, p1059, p1194, p1203-1204, p3791-3792; Davidson24 PDF p139; GG12 PDF p106, ch4).
+
+| id | status | source / reason |
+|---|---|---|
+| rf-0336 | corrected | answer reworded to "justify their prescriptions" (Bennett PDF p38 says their prescriptions, not each prescription) |
+| rf-0361 | corrected | list was partial; completed to all items in Harrison21 PDF p3791 care-transition review |
+| rf-0376 | corrected | qualifiers added: age and intelligence insignificant only "except at extremes" (Bennett PDF p37) |
+| rf-0404 | corrected | "hospital-acquired infection" replaced by ICU empirical therapy for MDR infection (Harrison21 PDF p1059 wording) |
+| rf-0422 | corrected | page ref p35 changed to p34 (text is in the "Warnings and consent" section of Bennett PDF p34) |
+| rf-0427 | deleted | duplicate of rf-0373 (same fact: about 5% non-presentation, up to 20% in the elderly, Bennett PDF p36) |
+| rf-0342 | corrected | answer "Is usually prevented" changed to "Is prevented by another check, so no adverse event results" (GG12 PDF p106, Figure 4-7 wording; "usually" is not in the book) |
+| all other chunk-2 rapid cards | ok | facts match the cited passage (re-verified in the second chunk-2 pass against the same pages) |
+
+Level and basic-card checks: not applicable (rapid cards have no level or back-why fields).
+Duplicates in this chunk: only rf-0427 (removed). No q equals a; no a over 15 words in this chunk.
+Unverifiable in this chunk (UNSOURCED or WEB): 0.

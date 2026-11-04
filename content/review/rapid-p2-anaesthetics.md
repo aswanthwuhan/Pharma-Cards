@@ -53,3 +53,28 @@ No rapid changes; audit found chapter facts already covered (623 cards).
 
 ## Gap pass: past-exam questions 191, 207, 572
 - Added rf-p2-anaesthetics-0632 to 0645 (14 pairs) for the TOF, double-burst, PTC, in vitro NMB preparations, and the LA screening readouts. Sources as cited per pair in the deck log rows 099-111.
+
+## Recheck (all new cards, chunk 2/2)
+Checked rf-p2-anaesthetics-0576 to 0645 (67 ids) against KDT8 ch27, Katzung16 ch27 and Medhi PMECP (pp. 169-172, 228-230). 63 ok, 4 corrected, 0 deleted, 0 web or unsourced.
+- rf-p2-anaesthetics-0637 corrected: the "large ACh release" mechanism is not printed in Katzung16 ch27; answer now "Posttetanic facilitation of transmission (during partial block)" (Katzung16 ch27).
+- rf-p2-anaesthetics-0639 corrected: Medhi p169-170 describes the rat phrenic nerve-diaphragm as an ACh bioassay, and says NMBs "may be used" in it; question reworded to match (Medhi PMECP p169-170).
+- rf-p2-anaesthetics-0641 ref narrowed: the rabbit corneal-reflex screen is Experiment 24A on p230, not p229-230 (Medhi PMECP p230).
+- rf-p2-anaesthetics-0642 corrected: procaine 1% is placed in the abdominal cavity to reach the sciatic nerve; the old answer said "on sciatic nerve" (Medhi PMECP p229).
+
+## Recheck (all new cards, chunk 2/2), second pass
+Checked the 67 ids in chunk 2/2 (rf-p2-anaesthetics-0576 to 0645) again against KDT8 ch27 (text read in full), Katzung16 ch27 (pdftotext of the chapter parts) and Medhi PMECP. Medhi citations use printed page numbers (PDF page = printed + 16): exp. 16D p169-170, 16E p171-172, 23A p228, 23B p229, 24A p230.
+Result: 58 ok, 1 corrected, 8 deleted (duplicates), 0 web or unsourced.
+
+- rf-p2-anaesthetics-0637 corrected: the previous pass said the ACh-release mechanism is not in Katzung16 ch27. That was wrong: Katzung16 ch27 says tetanic stimulation "releases a large quantity of acetylcholine" and is followed by posttetanic facilitation. Answer now: "Tetanus releases a large quantity of ACh: posttetanic facilitation (partial block)" (Katzung16 ch27).
+- Deleted as duplicates (the older partner kept; ids of other cards unchanged):
+  - rf-p2-anaesthetics-0580 (same as 0341: electrical silence above 2 MAC)
+  - rf-p2-anaesthetics-0585 (same as 0320: spinal cord, immobility)
+  - rf-p2-anaesthetics-0586 (same as 0319: cortex and hippocampus, amnesia)
+  - rf-p2-anaesthetics-0588 (same as 0322: GABA-A potentiators)
+  - rf-p2-anaesthetics-0597 (same as 0346: low blood solubility agents)
+  - rf-p2-anaesthetics-0627 (same as 0312: Simpson, chloroform, 1847)
+  - rf-p2-anaesthetics-0628 (same as 0314: halothane 1956)
+  - rf-p2-anaesthetics-0636 (same as 0013: fade)
+- Kept but flagged for the chunk 1 owner (outside this chunk, not edited): rf-p2-anaesthetics-0035 duplicates rf-p2-anaesthetics-0635, which is the better card (it states the tetanus-then-single-twitch method), so 0035 should be deleted. Also 0346 and 0322 use "list all" for lists that KDT8 ch27 gives as examples ("e.g.") or as "many" agents; reword them to examples.
+- Checked and left as written: 0576-0631 (KDT8 ch27 facts: MAC, plane signs, agent properties, dates); 0598 halothane metabolism "about 20%" (text gives ~20% and >20% in two places); 0632-0637 (Katzung16 ch27 monitoring definitions); 0638-0645 (Medhi exp. 16D/16E, 23A/23B, 24A; procedure and times match the printed text).
+- Study-deck fields (level, why-line) do not apply to rapid cards.

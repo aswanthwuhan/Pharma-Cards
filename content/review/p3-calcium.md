@@ -116,3 +116,31 @@ Question: "Outline the pathophysiology of osteoporosis. Discuss the therapeutic 
 | p3-calcium-083 | corrected (L3 essay): removed unsupported "BMD gains level off" claim; bisphosphonate and teriparatide 2-year points now cite GG14 ch52 (p1080-81) and KDT8 ch24 | GG14 ch52, KDT8 ch24 |
 
 Notes: sources read directly from GG14 14e ch52 (peak bone mass, remodelling cycle, type I/II/secondary, coupling). Subtopic: p3-calcium-bisphosphonates.
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked against KDT8 ch23, ch24, ch39, ch42, ch47, ch49; GG14 ch44, ch48, ch52 (and ch9 for cathartics); Katzung16 ch14; Bennett p502; Padmaja where cited.
+
+Corrected:
+- 030, 034: added GG14 ch52 ref (cinacalcet for primary hyperparathyroidism in patients who are not surgical candidates). KDT8 ch24 covers only secondary HPT.
+- 035: calcitonin route corrected to IM (KDT8 ch24 "4-8 IU/kg i.m. 6-12 hourly only for 2 days").
+- 059: "alfacalcidol needs liver hydroxylation" was wrong for severe liver disease. KDT8 ch24: liver activation "does not pose a problem even in severe liver disease".
+- 060: "tachyphylaxis within days" replaced by "refractoriness develops" (KDT8 ch24).
+- 062: added KDT8 ch42 (thiazides tend to raise Ca2+; use in hypercalciuric stones).
+- 063, 065, 066, 067, 074, 075: basic backs given a short why from the source (GG14 ch48, GG14 ch44, KDT8 ch39, KDT8 ch47/49, GG14 ch48).
+- 070: added Bennett p502 (potassium-sparing diuretics retain Mg2+).
+- 075: added KDT8 ch39 (hypokalaemia and hypomagnesaemia predispose to torsades).
+- 081: removed unsupported claim "osteoblasts respond poorly to calcitriol". Rewritten on resorption/formation coupling (KDT8 ch24, GG14 ch52).
+- 083: removed "teriparatide and abaloparatide are the only anabolic agents" (GG14 ch52 and Katzung16 also list romosozumab) and the unsupported calcitriol point and "bisphosphonates continue after teriparatide".
+
+Deleted (duplicates, better card kept):
+- 058: duplicate of 055 (severe hypercalcaemia: rapid IV saline first). 055 kept.
+- 068: duplicate of the "Action" section of 071 (osmotic water retention and Mg2+ releasing cholecystokinin). 071 kept.
+
+Verified, no change: 029, 031-033, 036-057 (excluding edits above), 061 (GG14 ch52, burosumab), 064, 069 (KDT8 ch49 "Mag. salts are contraindicated in renal insufficiency"), 071-073, 076-080, 082.
+
+Unverifiable: none in this chunk (no UNSOURCED or WEB refs).
+
+Flag for owner: the five magnesium subtopics (063-076) sit under p3-calcium-vitd because the subtopic list has no magnesium subtopic. The subtopics file was out of scope for this pass.
+
+Subtopic minimums after deletions: pth 5/5/2, vitd 12/16/2, calcitonin 5/2/1, bisphosphonates 7/13/2, hypercalcaemia 4/4/1 (L1/L2/L3). All meet the >=3/2/1 rule.

@@ -139,3 +139,28 @@ No PrepLadder refs. Validator clean for this topic.
 - 070, 071: checked against Sarkar p21-25 and p26-30. Aminoglycoside "active day period" and ceftriaxone night clearance confirmed in Sarkar p26-30.
 - RGUHS Sep 2025 pyq for 072 confirmed in the question bank.
 - Deleted: none.
+
+## Recheck (all new cards, chunk 1/1)
+Scope: 42 study cards added since v0.5.5 (031-072). Each fact checked against KDT8 ch3 (pdftotext / search.py), Katzung16 PDF p71, RangDale9, GG14 and Sarkar OCR p21-30. Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk).
+
+Corrected:
+- 032: CYP count and 70-80% share moved to RangDale9 PDF p139 (GG14 was not the source).
+- 034: refs add GG14 PDF p155 (CYP2D6 codeine efficacy/toxicity).
+- 036: PXR/CAR named via GG14 PDF p87.
+- 040: atazanavir/bilirubin claim removed (no owner book supports it); refs GG14 PDF p128-129.
+- 041: "3 months or more" removed (KDT8 p49 gives no figure; only "first few months").
+- 042: F formula removed (not printed); propranolol/lidocaine via KDT8 PDF p176.
+- 043: "largest contributor" and "protein binding does not hinder" removed (not printed); OAT/OCT kept.
+- 046: warfarin and theophylline removed from zero-order examples (not in KDT8 p56 or GG14 p49).
+- 048: revision formula replaced with the Katzung 20% rule (Katzung16 PDF p71); digoxin TDM via GG14 PDF p174.
+- 057: "most is swallowed" reason removed (not printed).
+- 064, 068: short why added (F/V/CL roles, from KDT8 p58-63).
+- 072: theophylline "no circadian variation" removed (not in GG14 PDF p903); ACE-inhibitor bedtime claim replaced with Sarkar non-dipper wording; Bennett and GG14 p903 refs dropped; RangDale9 PDF p517 kept (SCN).
+
+Deleted:
+- 058: duplicate of 044 (bile list, MW above 300).
+- 059: duplicate of 043 (net excretion equation, no why).
+- 060: duplicate of 043 (GFR and free drug filtration).
+
+Verified, no change: 031, 033, 035, 037, 038, 039, 044, 045, 047, 049, 050, 051, 052, 053, 054, 055, 056, 061, 062, 063, 065, 066, 067, 069, 070, 071.
+Rapid pairs: see rapid-p1-pk-elimination.md, Recheck section.

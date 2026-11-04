@@ -133,3 +133,18 @@ Q bank (paper III, 10 marks): "Newer drugs in tuberculosis."
 - Capreomycin dose: KDT8 gives 0.75 to 1.0 g/day i.m. (card 081); GG14 gives 1 g/day (rapid 0152). Both kept in their own cards; not reconciled.
 - Ethionamide dose not written (KDT and GG14 differ; see rapid log).
 - No excluded-source refs remain in these files.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 30 study cards from the recheck list against KDT8 ch56-57 text and GG14 ch65 (PDF pp. 1285-1304). Deleted: none. Unverifiable: none.
+
+| id | corrected / ok | source | reason |
+|---|---|---|---|
+| p3-tb-leprosy-056 | corrected | KDT8 ch56 | Added the why: isoniazid kept because the bacilli stay sensitive to it. |
+| p3-tb-leprosy-061 | corrected | KDT8 ch56 | Prophylaxis: added clarithromycin 500 mg BD (azithromycin 1200 mg weekly preferred) and rifabutin 300 mg/day as alternative. |
+| p3-tb-leprosy-068 | corrected | KDT8 ch56 | Hepatitis also requires all drugs stopped; the card said only rash with itching did. |
+| p3-tb-leprosy-079 | corrected | KDT8 ch56 | Removed "or to supplement them" (not in book); added the why (low efficacy or toxicity). |
+| p3-tb-leprosy-080 | corrected | KDT8 ch56 | Cloze now lists every second-line drug the book names: prothionamide, terizidone, rifabutin, rifapentine, bedaquiline added. |
+| p3-tb-leprosy-084 | corrected | KDT8 ch56 | Conclusion "at least 3 active drugs" replaced with the book's rule: MDR-TB needs at least 4 drugs certain to be effective. |
+| p3-tb-leprosy-055, 057, 058, 059, 060, 062, 063, 064, 065, 066, 067, 069, 070, 071, 072, 073, 074, 075, 076, 077, 078, 081, 082, 083 | ok | see refs | Facts match the cited text. Checked GG14 ch65 for 074-078 (MICs, Rv3547, Stover 2000, BPaL, pretomanid 100 patients, bedaquiline 50% vs 9%, M2, Group A-C). |
+
+Duplicates: none removed. 064 and 071 both give dapsone PK, but 064 is a wider shortnote (toxicity, other uses) and 071 is the basic PK card; 078 summarises 074-077 and keeps its wider scope. Level and subtopic counts unchanged (no deletions).

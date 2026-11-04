@@ -154,3 +154,23 @@ Questions covered: gapargs entries 36, 44, 86, 204, 291, 417, 594 (depression ph
 - Entry 164 (RGUHS Apr 2007, 10 marks, neurosteroids): already covered by p2-psych-063 (pyq tags present). No change.
 - Entry 31 (UHSR-style mixed paper, Aug 2020, 10 parts): psych parts are covered (second-generation antipsychotics: p2-psych-087; amantadine NMDA: p2-psych-009; ketamine: p2-psych-114). Not written: Alzheimer's drugs, arrhythmia, vasopressin, mAbs in RA, OP poisoning, PDE inhibitors. These belong to other topics; no psych card added. Memantine (KDT8 PDF p532) not added: no psych subtopic fits, and the dementia material belongs to another topic.
 - Validator: `node scripts/validate-content.mjs --check` returns check ok.
+
+## Recheck (all new cards, chunk 1/3)
+Checked against KDT8 ch31-33 (chapter text), GG14/GG12/Katzung16 via owner-book search, Satoskar and Rang & Dale. 120 ids: 75 study cards, 45 Rapid Fire cards (rapid ids are in `rapid-p2-psych.md`). Result: 66 study ok, 9 study corrected, 0 deleted, 0 unverifiable (no UNSOURCED or WEB refs in this chunk). All 45 rapid cards ok.
+
+Corrected (id | reason | fix):
+- p2-psych-064 | wording unclear in back | "Fluoxamine. SSRIs, particularly fluoxamine, are the drugs of choice..." (KDT8 ch33)
+- p2-psych-075 | "GI obstruction" caution and "cholinergic rebound" not in sources; GG14 PDF p385 is antipsychotic PK | urinary retention caution (KDT8 ch31); withdrawal symptoms cited to GG14 PDF p236
+- p2-psych-108 | propranolol "adjunct to benzodiazepines" not in source | KDT8 ch33: added as needed for situational phobias
+- p2-psych-109 | valproate called "first-line prophylactic"; source says effective prophylactic | reworded (KDT8 ch32)
+- p2-psych-117 | "pallidal inhibition lost" not the source mechanism | GG14 PDF p441: indirect pathway loss raises neocortical drive; juvenile rigidity kept
+- p2-psych-119 | "contraindicated with MAOIs or reserpine" not in sources | sentence removed (GG14 PDF p441 supports the rest)
+- p2-psych-121 | "CYP2D6 inhibitors raise exposure about threefold" and "contraindicated with MAOIs or reserpine" unsupported; "sedation" not in GG14 p441; chlorpromazine wording | trimmed to GG14 PDF p441, p371; KDT8 PDF p487 wording
+- p2-psych-122 | antidepressant onset "3 to 4 weeks" | "2 to 3 weeks or more" (KDT8 ch33); KDT8 ch33 added to refs
+- p2-psych-126 | "anaesthetics on NMDA (RangDale9 PDF p539)" and glutamate cite to RangDale9 p539 not supported (page is general anaesthetics, no NMDA) | ketamine on NMDA (GG14 PDF p367); RangDale9 ref removed
+
+Kept as is (checked, no change): 065-067, 068-074, 076-080, 081-101 (except above), 103-116 (except above), 118, 120, 123-125, 127-137, 063, 0514-0558 (rapid). Checked and supported: GG12 ch17 p485-486 for 130-137; GG14 p366/p367/p371/p373 for 112-115 and 122-124; Katzung16 p313 table 16-4 for 116 and 125.
+
+Overlap noted, not deleted (different question formats): 102 and 125 both cover serotonin syndrome; 130 essay and 131-137 basics share the same animal-test content; 115 and 063/rf-0514-0522 cover brexanolone.
+
+- Validator: `node scripts/validate-content.mjs --check` returns check ok after these edits.

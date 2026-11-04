@@ -333,3 +333,15 @@ No PrepLadder refs.
 - All 15 pairs checked against Sarkar p21-25, Sarkar p26-30, GG14 PDF p903. Pass.
 - 0286: ref changed to RangDale9 PDF p517 (SCN is not in Sarkar).
 - Deleted: none.
+
+## Recheck (all new cards, chunk 1/1)
+Scope: 28 rapid pairs added since v0.5.5 (0269-0296). Checked against Katzung16 PDF p71, KDT8 ch2/ch3 (PDF p41, p56-59, p1006), RangDale9 PDF p517, GG14 PDF p174, Sarkar p21-30. Unverifiable: 0.
+
+Corrected:
+- 0273: question reworded from "list all" to "examples" (the book gives examples, not a full class list).
+- 0280: answer "93.75%" removed (not printed); now "4 to 5 half-lives" (KDT8 p57).
+
+Deleted:
+- 0294: theophylline has no circadian variation. Not in GG14 PDF p903 or Sarkar; Sarkar only gives evening theophylline for nocturnal asthma.
+
+Verified, no change: 0269, 0270, 0271, 0272, 0274, 0275, 0276, 0277, 0278, 0279, 0281, 0282, 0283, 0284, 0285, 0286, 0287, 0288, 0289, 0290, 0291, 0292, 0293, 0295, 0296.

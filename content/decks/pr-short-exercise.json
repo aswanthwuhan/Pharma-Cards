@@ -294,9 +294,10 @@
       "id": "pr-short-exercise-047",
       "type": "basic",
       "front": "Why are fixed-dose combinations accepted in TB, HIV-AIDS and falciparum malaria but criticised in many other settings?",
-      "back": "In these diseases several drugs must be taken together to stop resistance, so one tablet improves adherence and prevents monotherapy. In other settings the patient may not need every component, and one dose cannot be changed without changing the other, so the combination is irrational.",
+      "back": "In TB, several drugs given together reduce resistance, and one combined tablet means no single drug is taken alone, which aids adherence. Elsewhere the patient may not need every component, and one dose cannot be changed without changing the other, so such a combination should not be prescribed.",
       "refs": [
-        "KDT8 ch5"
+        "KDT8 ch5",
+        "KDT8 ch56"
       ],
       "pyq": [],
       "status": "draft",
@@ -715,10 +716,10 @@
       "id": "pr-short-exercise-048",
       "type": "basic",
       "front": "Case: a small trial reports drug A lowers blood pressure more than drug B with p = 0.03. How do you interpret this?",
-      "back": "p below 0.05 means the difference is unlikely to be due to chance alone, so it is statistically significant; it does not say the effect is large or clinically useful. Check the test fits the data (unpaired t test for two independent means), the sample size, and the size of the difference before changing practice.",
+      "back": "p = 0.03 is below 0.05, so the null hypothesis of no difference is rejected at the 5% level: the difference is unlikely to be due to chance alone. Two separate groups call for the unpaired t test, and a small trial should be confirmed with a larger sample.",
       "refs": [
-        "Sarkar p376-380",
-        "UNSOURCED - owner must verify"
+        "Sarkar p371-375",
+        "Sarkar p376-380"
       ],
       "pyq": [],
       "status": "draft",
@@ -764,8 +765,9 @@
       "id": "pr-short-exercise-049",
       "type": "basic",
       "front": "Into which three broad mechanisms are drug interactions classified?",
-      "back": "Pharmaceutical (physical or chemical incompatibility outside the body), pharmacokinetic (one drug changes absorption, distribution, metabolism or excretion of another) and pharmacodynamic (drugs act on the same or related effect sites). Naming the class first tells you how to manage the pair.",
+      "back": "Pharmaceutical (chemical incompatibility in vitro, outside the body), pharmacokinetic (one drug changes absorption, distribution, metabolism or excretion of another) and pharmacodynamic (drugs act on the same or related effect sites). Pharmaceutical ones occur when drugs are mixed in the same syringe, e.g. thiopental and suxamethonium.",
       "refs": [
+        "RangDale9 ch12",
         "KDT8 ch71"
       ],
       "pyq": [],
@@ -817,27 +819,29 @@
         {
           "h": "Object and precipitant",
           "points": [
-            "Object drug warfarin (anticoagulant, narrow margin); precipitant an NSAID"
+            "Object drug warfarin (oral anticoagulant, highly protein bound); precipitant an NSAID (aspirin and other NSAIDs are listed as precipitants)"
           ]
         },
         {
           "h": "Mechanisms",
           "points": [
-            "Plasma protein displacement of warfarin (both highly bound)",
-            "Pharmacodynamic: NSAID impairs platelet function and damages gastric mucosa, so bleeding risk rises beyond the anticoagulant effect"
+            "Displacement: warfarin is highly protein bound and aspirin displaces it from plasma-protein binding sites",
+            "Pharmacodynamic: NSAID antiplatelet action and gastric mucosal damage add to warfarin-related bleeding"
           ]
         },
         {
           "h": "Management",
           "points": [
-            "Avoid the pair; choose a safer analgesic",
-            "If unavoidable, monitor INR and bleeding"
+            "Book advice for this pair: caution in concurrent use",
+            "Bleeding risk rises as INR exceeds 4, so monitor INR"
           ]
         }
       ],
       "refs": [
         "KDT8 ch71",
-        "UNSOURCED - owner must verify"
+        "KDT8 ch45",
+        "KDT8 ch14",
+        "KDT8 ch2"
       ],
       "pyq": [],
       "status": "draft",
@@ -957,32 +961,33 @@
         {
           "h": "Observation",
           "points": [
-            "Compare control and test curves: position (potency) and height (maximum)"
+            "Compare control and test curves: position (shift of the log dose-response curve) and height (maximal response)"
           ]
         },
         {
           "h": "Parallel right shift, same maximum",
           "points": [
-            "Competitive antagonist; surmountable by raising agonist dose"
+            "Competitive (equilibrium) antagonist; surmountable by a higher agonist dose"
           ]
         },
         {
           "h": "Right shift with fall in maximum",
           "points": [
-            "Noncompetitive (insurmountable) antagonism"
+            "Nonequilibrium (irreversible) antagonism when spare receptors are few",
+            "A flattened curve with suppressed maximum is noncompetitive (unsurmountable) antagonism"
           ]
         },
         {
           "h": "Other checks",
           "points": [
-            "Falling responses to repeated equal doses suggest tachyphylaxis, not antagonism",
-            "State the conclusion with the drug pair used"
+            "Falling response to repeated equal doses in quick succession is tachyphylaxis, not a curve shift",
+            "Continued receptor stimulation causes desensitization or refractoriness"
           ]
         }
       ],
       "refs": [
         "KDT8 ch4",
-        "UNSOURCED - owner must verify"
+        "KDT8 ch5"
       ],
       "pyq": [],
       "status": "draft",

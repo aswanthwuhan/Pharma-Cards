@@ -2488,19 +2488,6 @@
       ]
     },
     {
-      "id": "rf-p1-adr-0243",
-      "subtopic": "p1-adr-pharmacovigilance",
-      "kind": "fact",
-      "q": "Quantitative signal detection without a denominator",
-      "a": "Disproportionality: observed reports for drug vs number expected from whole database",
-      "refs": [
-        "GG14 ch8"
-      ],
-      "tags": [
-        "adr"
-      ]
-    },
-    {
       "id": "rf-p1-adr-0244",
       "subtopic": "p1-adr-pharmacovigilance",
       "kind": "fact",
@@ -2558,19 +2545,6 @@
       "kind": "fact",
       "q": "FDA Sentinel Initiative",
       "a": "Partnership using electronic health data of over 100 million people to test safety signals",
-      "refs": [
-        "GG14 ch8"
-      ],
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "rf-p1-adr-0249",
-      "subtopic": "p1-adr-pharmacovigilance",
-      "kind": "fact",
-      "q": "Signals tested by Sentinel (examples)",
-      "a": "Olmesartan and sprue-like enteropathy; rotavirus vaccine and intussusception",
       "refs": [
         "GG14 ch8"
       ],
@@ -2853,8 +2827,7 @@
       "q": "Why spontaneous reports cannot give true event frequency",
       "a": "Underreporting plus unknown number of exposed patients",
       "refs": [
-        "GG14 ch8",
-        "GG12 PDF p104"
+        "GG14 ch8"
       ],
       "tags": [
         "adr"
@@ -2864,8 +2837,8 @@
       "id": "rf-p1-adr-0272",
       "subtopic": "p1-adr-concepts",
       "kind": "fact",
-      "q": "Type B reaction from an individual peculiarity: other name",
-      "a": "Idiosyncrasy",
+      "q": "Other name for Type B (unpredictable) reactions",
+      "a": "Bizarre reactions; idiosyncrasy and allergy are the Type B examples",
       "refs": [
         "KDT8 ch6"
       ]
@@ -2890,8 +2863,7 @@
       "q": "Independent body that approves clinical trials on human subjects",
       "a": "Institutional review board / ethics committee",
       "refs": [
-        "KDT8 ch5",
-        "Katzung16 PDF p32"
+        "KDT8 ch5"
       ],
       "tags": [
         "classification"
@@ -2930,7 +2902,8 @@
       "q": "Antibiotic most prominently causing aplastic anaemia / agranulocytosis",
       "a": "Chloramphenicol",
       "refs": [
-        "KDT8 ch53"
+        "GG14 PDF p1208",
+        "KDT8 PDF p113"
       ],
       "tags": [
         "adr"
@@ -2979,10 +2952,10 @@
       "id": "rf-p1-adr-0281",
       "subtopic": "p1-adr-drug-induced-poisoning",
       "kind": "fact",
-      "q": "Drug class whose marrow depression is its most serious toxicity",
-      "a": "Anticancer (cytotoxic) drugs",
+      "q": "Alkylating anticancer drugs: dose-limiting toxicity",
+      "a": "Bone marrow toxicity (myelosuppression)",
       "refs": [
-        "KDT8 ch64"
+        "GG14 PDF p1366"
       ],
       "tags": [
         "adr"
@@ -3031,10 +3004,11 @@
       "id": "rf-p1-adr-0285",
       "subtopic": "p1-adr-drug-induced-poisoning",
       "kind": "fact",
-      "q": "Prophylactic pyridoxine dose with isoniazid (treatment dose)",
-      "a": "10 mg/day (100 mg/day to treat)",
+      "q": "Isoniazid neuropathy: pyridoxine dose for prophylaxis (and treatment)",
+      "a": "10 mg/day prophylaxis; 100 mg/day to treat",
       "refs": [
-        "KDT8 PDF p829"
+        "KDT8 PDF p829",
+        "KDT8 PDF p986"
       ],
       "tags": [
         "adr"
@@ -3074,58 +3048,6 @@
       "a": "High or repeated doses",
       "refs": [
         "KDT8 PDF p410"
-      ],
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "rf-p1-adr-0289",
-      "subtopic": "p1-adr-concepts",
-      "kind": "fact",
-      "q": "Dose-related, mostly preventable ADR type",
-      "a": "Type A (augmented / predictable) reactions",
-      "refs": [
-        "KDT8 PDF p109"
-      ],
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "rf-p1-adr-0290",
-      "subtopic": "p1-adr-concepts",
-      "kind": "fact",
-      "q": "Patient groups with more ADRs: multiple drugs and which age group",
-      "a": "Multiple drug therapy and the elderly",
-      "refs": [
-        "KDT8 PDF p109"
-      ],
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "rf-p1-adr-0291",
-      "subtopic": "p1-adr-pregnancy",
-      "kind": "fact",
-      "q": "Congenital defect that defined the thalidomide disaster",
-      "a": "Phocomelia (seal-like limbs)",
-      "refs": [
-        "KDT8 PDF p117"
-      ],
-      "tags": [
-        "adr"
-      ]
-    },
-    {
-      "id": "rf-p1-adr-0292",
-      "subtopic": "p1-adr-pregnancy",
-      "kind": "fact",
-      "q": "Original use of thalidomide",
-      "a": "Morning sickness in pregnancy",
-      "refs": [
-        "KDT8 PDF p117"
       ],
       "tags": [
         "adr"
@@ -3174,7 +3096,8 @@
         "KDT8 PDF p398",
         "KDT8 PDF p472",
         "KDT8 PDF p473",
-        "KDT8 PDF p483"
+        "KDT8 PDF p483",
+        "KDT8 PDF p164"
       ],
       "tags": [
         "adr"

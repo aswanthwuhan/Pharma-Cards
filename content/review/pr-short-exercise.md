@@ -207,3 +207,53 @@ Refs label fix: all "NMC MD Pharmacology 2022 curriculum (practical exam)" renam
 Forbidden-source grep (Prep / RR5 / RapidRev) in both deck files: no matches.
 Ladder check: every subtopic has at least 3 L1, 2 L2, 1 L3 (prescription 5/2/1, fdc 3/2/1, pk-calc 11/5/1, stats 3/2/1, interactions 3/2/1, tracing-cal 4/2/1).
 Gaps not added this pass: no new cards (budget). Open gaps: Schedule Y and NNT beyond what is cited; PYQ tags not reviewed.
+
+## Recheck (all new cards, chunk 1/1)
+Scope: pr-short-exercise-047 to 051 (5 study cards). Rapid ids 0079 to 0088 are logged in content/review/rapid-pr-short-exercise.md.
+
+id | result | source / note
+--- | --- | ---
+pr-short-exercise-047 | corrected | ref KDT8 ch5 -> KDT8 ch4 (FDC text sits before the CHAPTER 5 heading, p89); facts ok (single drug not given in TB/HIV/malaria; disadvantages; irrational combos)
+pr-short-exercise-048 | ok | Sarkar OCR p376-380 (unpaired t test, n1+n2-2 df); significance rule Sarkar p371-375; "does not show a large effect" still UNSOURCED
+pr-short-exercise-049 | corrected | removed unsourced "naming the class tells you how to manage" sentence; three classes: KDT8 ch71 (PK/PD, and outside-body interactions)
+pr-short-exercise-050 | ok | KDT8 ch71 (NSAIDs and oral anticoagulants highly bound; displacement); platelet/gastric mechanism and management still UNSOURCED
+pr-short-exercise-051 | corrected | "tachyphylaxis" replaced by "desensitization (receptor refractoriness)", the term KDT8 ch4 uses (p-ch4 desensitization section); competitive/noncompetitive shifts ok (KDT8 ch4 p80-88)
+
+Deleted: none. Unverifiable (UNSOURCED flagged, kept): 048 (part), 050 (part), 051 (part).
+Duplicates: 049 and rf-0079 overlap (both list the three interaction classes); kept both because the rapid card is a separate recall format. 047 and rf-0086 overlap (FDC rationale); kept both for the same reason.
+Level check: all five have level. Basic cards 047, 048, 049 carry a why.
+Subtopic counts unchanged (no deletions).
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: every new card added to pr-short-exercise since v0.5.5 (study ids 047-051; rapid ids in the rapid log). Each card was checked against the cited owner book text (pdftotext / search.py / OCR).
+
+Checked: 5. Corrected: 5. Deleted: 0. Unverifiable (UNSOURCED-only, left): 0.
+
+| id | status | change |
+|---|---|---|
+| pr-short-exercise-047 | corrected | FDC facts are in KDT8 ch5 (p89); TB resistance point in KDT8 ch56 (p836). Ref ch4 removed. Back reworded: 'irrational' replaced by 'should not be prescribed' (KDT8 ch5 p89 wording). |
+| pr-short-exercise-048 | corrected | Unpaired t test for two independent groups and small-sample advice are in Sarkar p376-380; P<0.05 meaning in Sarkar p371-375. Removed the unsupported 'effect may not be clinically useful' and 'check sample size and size of difference' advice; UNSOURCED marker removed. |
+| pr-short-exercise-049 | corrected | Three classes are in RangDale9 ch12 (p161: pharmaceutical 'third category'). Ref KDT8 ch71 kept for PK/PD and in-vitro examples (p999, p1004). Added the short why (pharmaceutical ones happen in the same syringe or bottle). |
+| pr-short-exercise-050 | corrected | Warfarin/NSAID row is KDT8 ch71 p1002 (row 21): bleeding from antiplatelet action and gastric damage; caution in concurrent use. Displacement from KDT8 ch71 p1000. Monitoring from KDT8 ch45 p682. The 'avoid the pair' advice was not in the book for this row and was removed; UNSOURCED marker removed. |
+| pr-short-exercise-051 | corrected | Competitive (parallel shift, same maximum) and noncompetitive (flattened, suppressed maximum) per KDT8 ch4 p85-86. Right shift with lower maximum is nonequilibrium antagonism in KDT8 ch4 p86, not noncompetitive. Tachyphylaxis from KDT8 ch5 p97. Removed the unsupported 'state the conclusion with the drug pair' point; UNSOURCED marker removed. |
+
+Not cited: Davidson24 (its owner status is unclear in the existing logs). The NNT formula is taken from Bennett & Brown instead.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: study ids 047-051 (every card added since v0.5.5 in this chunk). Each card re-checked against the cited owner text (pdftotext / search.py / Sarkar OCR).
+
+Checked: 5. Corrected: 2 (049, 050). Deleted: 0. Unverifiable (UNSOURCED or WEB only): 0.
+
+| id | status | source / change |
+|---|---|---|
+| pr-short-exercise-047 | ok | FDC rationale KDT8 ch5 p89; TB resistance prevention KDT8 ch56 p836 |
+| pr-short-exercise-048 | ok | P < 0.05 meaning Sarkar p371-375; unpaired t test for two groups and small-sample confirmation Sarkar p376-380 |
+| pr-short-exercise-049 | corrected | Removed "before absorption" (not in an owner book for interactions). Back now says chemical incompatibility in vitro (KDT8 ch71 p999; RangDale9 ch12 p161) and gives the thiopental/suxamethonium same-syringe example (KDT8 ch25 p394; RangDale9 ch12 p161). Refs kept. |
+| pr-short-exercise-050 | corrected | Displacement now cites aspirin displacing warfarin from plasma-protein sites (KDT8 ch14 p230), warfarin high binding (KDT8 ch2 p41). Replaced "watch for bleeding and monitor INR" with bleeding risk rising as INR exceeds 4 (KDT8 ch45 p682). Caution in concurrent use and antiplatelet/gastric bleeding: KDT8 ch71 p1002 (row 21). |
+| pr-short-exercise-051 | ok | Competitive parallel shift and noncompetitive flattening KDT8 ch4 p85-86; nonequilibrium right shift with lower maximum KDT8 ch4 p86; tachyphylaxis KDT8 ch5 p97; desensitization KDT8 ch4 p79 |
+
+Level and why check: all five have a level. Basic cards 047, 048 and 049 carry a short why. No deletions, so subtopic counts are unchanged.
+Duplicates: 047 and rf-0086, and 049 and rf-0079, state the same facts in the study and Rapid formats (kept, as before). rf-pr-short-exercise-0017 (FDCs prevent monotherapy in TB, HIV, malaria) overlaps rf-0086; 0017 is outside this chunk, so it is not changed here and is flagged for its own chunk.
+Note: this log already had earlier "Recheck (all new cards, chunk 1/1)" sections; this section is the current pass.

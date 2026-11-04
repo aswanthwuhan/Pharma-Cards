@@ -319,3 +319,49 @@ GG14 ch8 (PDF p164-170) read for postmarketing safety; KDT8 ch6 and PDF p97-98 f
 | id | new | source |
 |---|---|---|
 | rf-p1-adr-0295 | new | KDT8 PDF p150, p195, p244, p258, p323, p398, p472, p473, p483 |
+
+## Recheck (all new cards, chunk 1/2)
+Scope: 56 rapid cards in chunk 1 of 2 (rf-p1-adr-0221 to rf-p1-adr-0276, from .tmp/recheck.json). Checked against KDT8 ch5 and ch6 text, GG14 ch8 and ch9 text, KDT8 PDF p97, p98, p802, p557 (GG14).
+Result: 56 checked, 2 deleted, 3 corrected, 0 unverifiable.
+
+Corrected:
+- rf-p1-adr-0271: GG12 ref removed; GG14 ch8 supports the point alone.
+- rf-p1-adr-0272: the question and answer now give "Bizarre" (KDT8 ch6 names Type B as Unpredictable (Type B or Bizarre)); idiosyncrasy is a Type B example, not its name.
+- rf-p1-adr-0274: Katzung16 PDF p32 ref removed; KDT8 ch5 supports the ethics committee point.
+
+Deleted:
+- rf-p1-adr-0243: disproportionality signal method is not in GG14 ch8 or any checked owner book.
+- rf-p1-adr-0249: Sentinel examples (olmesartan, sprue-like enteropathy, rotavirus vaccine) are not in any owner book.
+
+Checked and kept: all other ids (0221-0242, 0244-0248, 0250-0270, 0273, 0275, 0276).
+Validator: clean.
+
+## Recheck (all new cards, chunk 2/2)
+Scope: 19 rapid ids in chunk 2 of 2 (rf-p1-adr-0277 to rf-p1-adr-0295, from .tmp/recheck.json). Each card re-read against its cited page text (search.py --page) in KDT8, GG14 and Katzung16.
+Result: 19 ids. 3 corrected (refs or wording). 4 deleted (duplicates). 12 kept as grounded. 0 unverifiable.
+
+Corrected:
+- rf-p1-adr-0277: ref "KDT8 ch53" replaced; GG14 PDF p1208 (aplastic anaemia about 70% of chloramphenicol blood dyscrasias) and KDT8 PDF p113 (nondose-related aplastic anaemia) cited.
+- rf-p1-adr-0281: was "Anticancer (cytotoxic) drugs" with main dose-limiting toxicity bone marrow depression. The books state this for alkylating agents (GG14 PDF p1366), not for the whole class. Now "Alkylating anticancer drugs: dose-limiting toxicity" → "Bone marrow toxicity (myelosuppression)", ref GG14 PDF p1366. Cladribine and doxorubicin pages dropped from the card.
+- rf-p1-adr-0285: question was garbled ("Prophylactic ... (treatment dose)"). Now "Isoniazid neuropathy: pyridoxine dose for prophylaxis (and treatment)" → "10 mg/day prophylaxis; 100 mg/day to treat". KDT8 PDF p829 (10 mg/day prophylactic; 100 mg/day treatment) and p986 (10-100 mg/day to prevent and treat) cited.
+
+Deleted (duplicates, keeping the existing better card):
+- rf-p1-adr-0289: duplicate of rf-p1-adr-0009 (Type A dose-related, mostly preventable).
+- rf-p1-adr-0290: duplicate of rf-p1-adr-0007 (multiple drug therapy and the elderly).
+- rf-p1-adr-0291: duplicate of rf-p1-adr-0142 (thalidomide phocomelia).
+- rf-p1-adr-0292: duplicate of rf-p1-adr-0138 (thalidomide original use, morning sickness).
+
+Checked and kept (facts confirmed on cited pages):
+- 0278 clozapine: KDT8 PDF p485 ("agranulocytosis is rare; more common with clozapine").
+- 0279 procainamide: KDT8 PDF p587 (agranulocytosis and aplastic anaemia rare).
+- 0280 dapsone: KDT8 PDF p843 (agranulocytosis rare; sulfone syndrome 4-6 weeks after start).
+- 0282 carbamazepine: KDT8 PDF p455 (agranulocytosis rare; mild leucopenia more common).
+- 0283 carbamazepine: KDT8 PDF p455 (sedation, vertigo, diplopia, ataxia; extended-release tablets avoid high peaks).
+- 0284 isoniazid: KDT8 PDF p829 (pyridoxine prevents neurotoxicity).
+- 0286 cycloserine: KDT8 PDF p832 (about half of recipients neuropsychiatric).
+- 0287 terizidone: KDT8 PDF p833 (believed less neurotoxic; lower incidence).
+- 0288 local anaesthetic: KDT8 PDF p410 (neurotoxicity when high/repeated doses given).
+- 0293 thalidomide uses: KDT8 PDF p848, p947 (ENL alternative to prednisolone; cancer cachexia; myeloma); GG14 PDF p1368 (melphalan with thalidomide in myeloma).
+- 0294 thalidomide: GG14 PDF p164 (over 10,000 children, 1957-61). GG14 p164 is the opening page of ch8, so "GG14 ch8" is correct.
+- 0295 insomnia list: each of the 11 drugs has insomnia in the cited KDT8 PDF page: nicotine replacement p150; tofacitinib p244; caffeine and theophylline p258; glucocorticoids p323; tizanidine p398; selegiline p472; amantadine p473; amisulpride p483; amphetamines p164; older H1 antihistamines p195.
+Validator: check ok.

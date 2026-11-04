@@ -102,3 +102,34 @@ Conflict flag (not edited): rf-p2-sedatives-aed-0183 says "at least 3 years" bef
 | 0590 | deleted | 1-3 month taper not found in Katzung16 ch24 |
 | 0591 | deleted | 4-month recurrence figure not found in source |
 Conflict still open: 0183 (3 years, KDT8 ch30 p462) vs 0589 (2 years, GG14 ch20 p424, newer). Owner to choose.
+
+## Recheck (all new cards, chunk 1/2)
+
+Scope: the 52 rapid ids in recheck chunk 1 (rf-p2-sedatives-aed-0416 to 0470, excluding 0441, 0443 and 0464, which are not in this chunk). Checked against KDT8 ch29 chapter PDF text.
+
+| id | corrected / deleted | reason | source |
+|---|---|---|---|
+| 0455 | corrected | answer "Alpha-2 and alpha-3" changed to "Alpha-2"; the chapter names alpha-2 for anxiolysis and muscle relaxation only | KDT8 ch29 |
+| 0416-0454, 0456-0470 | ok | every answer matched the chapter text (sleep stage shares, drug dates, barbiturate and BZD actions, half-lives, dialysis, dopamine, flurazepam/nitrazepam/lorazepam/temazepam/triazolam notes) | KDT8 ch29 |
+
+No deletions. No UNSOURCED or WEB refs in this chunk. No PrepLadder refs.
+
+## Recheck (all new cards, chunk 2/2)
+
+Scope: the 110 rapid ids in recheck chunk 2 (rf-p2-sedatives-aed-0471 to 0589, all rapid, no study cards). 108 remain; 0512 and 0547 were deleted. Each card re-checked against KDT8 ch27, ch29, ch30, ch35 (pdftotext) and GG14 ch3, ch15, ch16, ch20, ch22 (pdftotext and search.py).
+
+| id | corrected / deleted | reason | source |
+|---|---|---|---|
+| 0471 | corrected | answer now says theophylline "counters some" BZD actions (text says some actions are countered, not all) | KDT8 ch29 |
+| 0512 | deleted | duplicate of 0543 (same carbamazepine "not useful in diabetic/traumatic neuropathy" fact); 0543 kept because it is tagged | KDT8 ch30 |
+| 0544 | corrected | KDT8 ch30 names gabapentin as first line for diabetic neuropathy and PHN; pregabalin is only "particularly used", so the answer now reads "Gabapentin (pregabalin also used)" | KDT8 ch30 |
+| 0546 | corrected | wording aligned to the book: "two or more seizures" without recovery of consciousness | KDT8 ch30 |
+| 0547 | deleted | duplicate of 0505 (phenytoin precipitates in glucose; fosphenytoin is water soluble and can go in saline or glucose); 0505 kept | KDT8 ch30 |
+| 0548 | corrected | "stopped abruptly" is not in the book; the book says discontinuation carries a high risk of status epilepticus (stated in the pregnancy context), so the question was reworded to match | KDT8 ch30 |
+| 0583 | corrected | "main fast inhibitory transmitter" is not printed; the book says glycine is an inhibitory transmitter particularly in spinal cord and brainstem | GG14 ch16; KDT8 ch35 |
+| 0584 | corrected | the earlier note said barbiturates act on GABA-A, not glycine; that was wrong, because KDT8 ch27 also says glycine-channel action is augmented by barbiturates, propofol and inhalational agents. The card now asks for the most important target (GABA-A receptor chloride channel) and drops "(not glycine)" | KDT8 ch27 |
+| 0587 | corrected | removed "about 2 alpha, 2 beta, 1 gamma": stoichiometry is not printed in the owner books. Kept "alpha, beta and gamma subunits (pentamer)"; added GG14 ch3 (p83) as a ref | GG14 ch3; GG14 ch16 |
+
+Checked and kept as printed (no change): 0472-0474, 0476-0482, 0483-0484, 0485-0489, 0491-0494, 0496-0511, 0513-0523, 0525-0526, 0528-0529, 0531-0534, 0536-0543, 0545, 0549-0553, 0554-0558, 0559-0576 (perampanel, brivaracetam, cenobamate, rufinamide, stiripentol, felbamate, ezogabine, fenfluramine checked against GG14 ch20), 0577-0581 (tasimelteon GG14 ch22; melatonin synthesis GG14 ch15; melatonin supplements, ramelteon, suvorexant KDT8 ch29), 0582, 0585-0586 (GABA-B Gi/Go and Gq; baclofen and GHB as GABA-B agonists, GG14 ch16), 0589 (GG14 ch20 p424: taper if seizure free after 2 years).
+
+No UNSOURCED or WEB refs in this chunk. No PrepLadder refs. Study-card level/why checks do not apply (rapid cards have no level field). Remaining open conflict from the chunk 1 log still stands: study 0183 (3 years) vs rapid 0589 (2 years; GG14 is the newer book and says 2 years, KDT8 ch30 says 3 years); owner to choose.

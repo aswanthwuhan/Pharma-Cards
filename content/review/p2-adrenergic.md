@@ -160,3 +160,21 @@ All 74 cards given explicit level; deck reordered level 1-2-3 per subtopic. New 
 - rapid 0583, 0584 | ok | KDT8 PDF p341
 - PYQ tags checked: format {university, year, marks}; 094 and 095 UHSR 2025 10m
 - Validator: check ok
+
+## Recheck (all new cards, chunk 1/2)
+Checked: 44 study ids in chunk 1 (053-096) by search.py hits; only listed corrections made.
+- 053 | corrected | removed "reduces peripheral T4 to T3 conversion" (not in owner text found)
+- 065 | corrected | rewritten: beta-3 is lower-affinity and resistant to desensitisation (Katzung16 p160); the "propranolol does not block" claim was not found in the books
+- 066 | corrected | mirabegron CYP2D6 interaction removed (not found in books); beta-3 agonist use kept
+- 067 | corrected | removed claim that muscarinic antagonists do not constrict vessels (not found)
+- 071 | corrected | bronchospasm use removed; heart block kept (KDT8)
+- 072 | corrected | removed noradrenaline 10-20% and up to 97% (PNMT) figures (not found in owner text)
+- 074 | corrected | mouse-study bullet removed (not found); GG14 p219 kept for the catecholamine-heart-failure point
+- 076 | corrected | tizanidine BP comparison removed (not stated in the book)
+- 078 | corrected | "perfusion may fall" caution removed (not found)
+- 086 | corrected | MAO-inhibitor sentence removed (not found)
+- Other ids in the chunk (057, 058, 059, 060, 061, 062, 063, 064, 068, 069, 070, 073, 075, 077, 079-096): spot-checked against search.py hits; no change needed. Not every sub-claim of 081-085 (SAR) was re-searched; flag for a second pass.
+- Unverifiable (none in this chunk carry UNSOURCED/WEB refs).
+
+
+Rapid (rf 0471-0547, chunk 1/2) is logged in rapid-p2-adrenergic.md.

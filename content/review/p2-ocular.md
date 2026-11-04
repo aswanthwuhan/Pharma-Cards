@@ -150,3 +150,35 @@ Q [123] part a (glaucoma models): covered by 066-069 for provocative tests only.
 Q [123] part b (anti-emetic screening): not carded here. Outside p2-ocular subtopics. Sources found for the topic owner: Sarkar p306-310 (apomorphine-induced emesis in dog, 0.15 mg/kg), Medhi PMECP PDF p32 (pigeons preferred for antiemetic screening).
 
 Checker (PYQ gap pass): 062-069 re-verified against Sarkar p256-260, p286-290, Medhi PDF p332/p334, Ghosh PDF p182. Fixed: 064 and 065 dropped unsourced "OECD Guideline 405" and "do not remove animal testing"; 064/065 3T3 NRU now cites Ghosh PDF p182; 068 dropped unsourced Schiotz; 069 dropped unverified Bennett p416 acute-angle claim. Not re-verified: 065 Medhi PMECP p246 functional-check bullet. Levels and subtopic minimums met. Validator check ok.
+
+## Recheck (all new cards, chunk 1/1)
+
+Checked 25 study cards (p2-ocular-045 to 069) against allowed PDFs (KDT8, GG12/GG14, Sarkar, Medhi, Ghosh) via pdftotext and search.py.
+
+- Corrected (17): 045, 046, 047, 048, 049, 050, 051, 052, 054, 055, 056, 059, 060, 061, 062, 064, 065.
+  - 045: removed travoprost/bimatoprost strengths and unsupported latanoprost ester detail; kept latanoprost 0.005% evening (KDT8 PDF p185).
+  - 046: apraclonidine corrected to 0.5–1% (KDT8 PDF p184); removed unsupported brimonidine neuroprotection and allergic/follicular claims.
+  - 047: acetazolamide corrected to 0.5 g i.v. then oral BD; pilocarpine 1–4% q10 min; mannitol 20% and glycerine 50% enema kept (KDT8 PDF p186).
+  - 048: removed unsupported "30% fail" and miotic "blurred vision" claims; dorzolamide 2% BD-TDS and third-line pilocarpine kept (KDT8 PDF p185, p131).
+  - 049: removed unsupported accommodation claim; back now states timolol 20–35% fall (KDT8 PDF p183).
+  - 050: removed unsupported loteprednol, collagen shield and route claims.
+  - 051: removed unsupported atropine-under-5 and phenylephrine-fundoscopy claims; kept tropicamide and cyclopentolate facts (KDT8 PDF p146).
+  - 052: back now cites GG12 PDF p1807 for herpetic disciform steroid use; cataract risk removed.
+  - 054: trifluridine card rewritten from KDT8 PDF p861; acyclovir/ganciclovir toxicity claim removed.
+  - 055: rewritten as sulfacetamide (KDT8 ch51, p768); chloramphenicol and ciprofloxacin claims not found in books.
+  - 056: miltefosine/Acanthamoeba and steroid-timing claims removed; natamycin kept (GG14 PDF p1479).
+  - 059: removed unsupported cerebrovascular claim.
+  - 060: removed unsupported bevacizumab DME/CRVO claim.
+  - 061: amiodarone and topiramate kept (GG14 PDF p1487); removed chloroquine "6 years", tamoxifen cataract and chlorpromazine claims; vigabatrin reworded to bilateral vision loss (GG14 PDF p423).
+  - 062: removed unsupported iris scoring.
+  - 064: HET-CAM replaced by isolated chicken eye (ICE) test (Sarkar PDF p286-290).
+  - 065: HET-CAM replaced by ICE test; removed unverified Medhi PMECP p246 functional-check section.
+- Verified, unchanged (8): 053, 057, 058, 063, 066, 067, 068, 069. Note: 053 and 057 were only partly re-found in OCR; 063 "14 days" was not re-found in the printed snippet.
+- Deleted (0) from study deck: none. 055 was corrected rather than deleted to keep anti-infective minimums.
+- Levels: all 25 have a level. Subtopic minimums still met after edits (anti-infective: 3 L1, 2 L2, 1 L3).
+
+Rapid cards (rf-p2-ocular-0276 to 0310) rechecked: 7 corrected, 3 deleted, rest verified.
+- Corrected: 0281 (ref to GG14 ch74 strengths), 0282 (0.5–1%), 0284 (second-line add-on), 0288 (timolol has no local anaesthetic activity), 0289 (betaxolol, levobunolol, carteolol, metipranolol), 0293 (acetazolamide 0.5 g i.v. then oral BD), 0296 (dorzolamide stinging/burning/itching), 0304 (HET-CAM replaced by ICE test).
+- Deleted: rf-p2-ocular-0279 (travoprost strength, not in books), rf-p2-ocular-0280 (bimatoprost strength, not in books), rf-p2-ocular-0285 (brimonidine neuroprotection, not found).
+
+Unverifiable (no owner-book text found, card kept as-is): 0 UNSOURCED or WEB refs in this chunk. Validator: check ok.

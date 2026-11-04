@@ -279,3 +279,64 @@ Checker (PYQ gap pass), 2026-11-03: checked rf-p2-blood-0827 to 0857 against GG1
 | rf-p2-blood-0858 to rf-p2-blood-0867 | new (drotrecogin alfa, aprotinin, cryoprecipitate, four-factor PCC, rFVIIa, recombinant antithrombin). Checker 2026-11-03: rf-0865 reworded to "alternative to andexanet" and re-cited to Katzung16 ch34 (GG14 ch36 not verified) | GG12 PDF p885; Katzung16 ch34 |
 | rf-p2-blood-0868 to rf-p2-blood-0872 | new (transfusion siderosis chelators and their adverse effects) | KDT8 ch68 |
 Checked against the source text above; wording is paraphrased. Drotrecogin is marked as withdrawn (2011) per Katzung16, the newer book.
+
+## Recheck (all new cards, chunk 1/3)
+
+Checked the 62 Rapid Fire cards in `.tmp/recheck.json` chunks[0] against KDT8 ch44-46 (pdftotext and grep). Result: 56 ok, 5 corrected, 1 deleted, 0 unverifiable. Validator clean.
+
+| id | status | reason and source |
+|---|---|---|
+| rf-p2-blood-0659 | deleted | "fate of iron released from haemosiderin: not reutilised" is not printed in KDT8 ch44; the book says stored iron joins the common pool for erythropoiesis |
+| rf-p2-blood-0678 | corrected | the 100 mg i.v. over 10 min answer belonged to ferrous sucrose, not iron dextran; now "100 mg (max 200 mg) i.v. over about 5 minutes" (KDT8 ch44) |
+| rf-p2-blood-0689 | corrected | "rapid growth" replaced by "infancy", as printed (KDT8 ch44) |
+| rf-p2-blood-0705 | corrected | "may depress new bone formation" is not printed; the book says osteocalcin carboxylation is also inhibited (KDT8 ch45) |
+| rf-p2-blood-0711 | corrected | ethyl biscoumacetate "half-life 2 h" is not printed; the table gives duration 1-3 days (KDT8 ch45, Table 45.1) |
+| rf-p2-blood-0712 | corrected | DVT/PE treatment INR is 2-3; 3-3.5 is for recurrent thromboembolism, MI and prosthetic valves (KDT8 ch45 INR table) |
+
+Checked and left as is: all other ids in the chunk, including 0656, 0657, 0658, 0660-0669, 0670 (carbonyl iron is in the book's list), 0671-0677, 0679-0688, 0690 (1 mg/day in pregnancy is printed), 0691-0704, 0706-0710, 0713-0717.
+
+## Recheck (all new cards, chunk 2/3)
+
+Checked the 120 Rapid Fire cards in `.tmp/recheck.json` chunks[1] (rf-p2-blood-0718 to 0837) against KDT8 ch45-46 (pdftotext), GG14 ch36-37 (search.py pages), Padmaja PDF p339-341 and Katzung16 PDF p1282-1283. Result: 108 ok, 6 corrected, 6 deleted, 0 unverifiable (no UNSOURCED or WEB refs in this chunk). Re-verified in a second pass against the same sources; the second pass added one correction (0799). Validator run after the edits.
+
+| id | status | reason and source |
+|---|---|---|
+| rf-p2-blood-0732 | corrected | question said "caution" for liver disease; KDT8 ch45 lists chronic alcoholics, cirrhosis and renal failure under heparin contraindications (question rewritten) |
+| rf-p2-blood-0758 | corrected | "72 hours for all GP IIb/IIIa antagonists" is not printed; KDT8 ch45 gives eptifibatide 2 µg/kg/min for up to 72 h in unstable angina and 12–24 h after angioplasty; card now the angioplasty infusion |
+| rf-p2-blood-0769 | corrected | tranexamic acid renal caution is not printed; KDT8 ch45 says EACA should be used cautiously when renal function is impaired (ureteric obstruction by unlysed clots); card now EACA |
+| rf-p2-blood-0770 | corrected | tranexamic acid myopathy is not printed; KDT8 ch45 says myopathy occurs rarely with EACA; card now EACA |
+| rf-p2-blood-0836 | corrected | Katzung16 p1282 lists dextrans, human albumin, gelatin and hetastarch as colloids; gelatin had been removed in an earlier pass on the wrong basis |
+| rf-p2-blood-0799 | corrected | answer "About 50% or more" added "or more", which is not printed; KDT8 ch46 Table 46.6 gives 50% for high-intensity ACC/AHA; card now "50%" |
+| rf-p2-blood-0733 | deleted | duplicate of rf-p2-blood-0347 (protamine weak anticoagulant alone, KDT8 ch45) |
+| rf-p2-blood-0780 | deleted | duplicate of rf-p2-blood-0515 (type I very rare, KDT8 ch46) |
+| rf-p2-blood-0782 | deleted | duplicate of rf-p2-blood-0518 (type III rare, KDT8 ch46) |
+| rf-p2-blood-0783 | deleted | duplicate of rf-p2-blood-0520 (type V less common, KDT8 ch46) |
+| rf-p2-blood-0785 | deleted | duplicate of rf-p2-blood-0538 (pravastatin lowers fibrinogen, KDT8 ch46) |
+| rf-p2-blood-0815 | deleted | duplicate of rf-p2-blood-0612 (nicotinic acid lowers Lp(a), KDT8 ch46) |
+
+All other ids in the chunk were checked and left as is, including the statin LDL-CH percentages (Table 46.4), the NCEP lipid cut-offs (Table 46.5), the GG14 DOAC and inclisiran facts, and the Padmaja plasma expander facts.
+
+Source conflict left for owner review: rf-p2-blood-0827 (dextran 70, about 24 h) follows Padmaja PDF p340; Bennett PDF p428 gives a plasma-restoring effect of 5-6 h for dextran 70. The card is kept as cited; choose one figure if the owner prefers.
+
+Outside this chunk, not edited: rf-p2-blood-0424 says "infusion max 72 hours" for the GP IIb/IIIa class; KDT8 ch45 gives 72 h only for eptifibatide in unstable angina. Flag for the chunk 1 or 3 check.
+
+## Recheck (all new cards, chunk 3/3)
+
+Checked the 35 Rapid Fire cards in `.tmp/recheck.json` chunks[2] (rf-p2-blood-0838 to 0872) against KDT8 ch44, ch64 and ch68 (pdftotext), GG14 ch36 (PDF p736-739, 744-746) and ch45 (PDF p923-926, 935-937), Katzung16 ch34 (PDF p663-673) and GG12 PDF p885 (drotrecogin alfa). Result: 35 ok, 0 corrected, 0 deleted, 0 unverifiable (no UNSOURCED or WEB refs in this chunk). No duplicates in the file. Validator run after the check: clean.
+
+Nothing was changed in this chunk. Outside this chunk, not edited: rf-p2-blood-0424 says "infusion max 72 hours" for the GP IIb/IIIa class; KDT8 ch45 gives 72 h only for eptifibatide in unstable angina (flagged in chunk 2 log).
+
+## Recheck (all new cards, chunk 3/3), re-run
+
+Re-checked the 35 Rapid Fire cards in `.tmp/recheck.json` chunks[2] (rf-p2-blood-0838 to 0872) against GG14 ch36 (PDF p737-739), GG14 ch45 (PDF p803, 924, 936), KDT8 ch44 (PDF p670), KDT8 ch64 (PDF p947), KDT8 ch68 (PDF p975-978), Katzung16 ch34 (PDF p663-672) and GG12 PDF p885. Result: 31 ok, 0 corrected, 4 deleted, 0 unverifiable (no UNSOURCED or WEB refs in this chunk). Validator run after the edits: clean.
+
+Correction to the earlier chunk 3/3 entry above: it reported no duplicates in this chunk. Re-checking the whole file found four duplicates inside the chunk, now removed.
+
+| id | status | reason and source |
+|---|---|---|
+| rf-p2-blood-0847 | deleted | duplicate of rf-p2-blood-0278 (idarucizumab reverses dabigatran; GG14 ch36 p739) |
+| rf-p2-blood-0848 | deleted | duplicate of rf-p2-blood-0277 (andexanet alfa for rivaroxaban and apixaban; GG14 ch36 p739) |
+| rf-p2-blood-0850 | deleted | duplicate of rf-p2-blood-0212 (oral vitamin K1 2.5-5 mg when INR is 10 or more; GG14 ch36 p737) |
+| rf-p2-blood-0865 | deleted | duplicate of rf-p2-blood-0277 (four-factor PCC as the alternative to andexanet; Katzung16 p664 and GG14 ch36 p739) |
+
+Checked and left as is: all other ids in the chunk, including the GG14 DOAC facts (dabigatran 6% and 80%, rivaroxaban 80%, the P-gp interaction list, the 70% intracranial reduction), the warfarin pregnancy contraindication, filgrastim and sargramostim (KDT8 p947, GG14 p924), epoetin for cancer chemotherapy anaemia (KDT8 p670), drotrecogin alfa (GG12 p885, Katzung16 p672), aprotinin 2007 and drotrecogin 2011 withdrawals (Katzung16 p672), cryoprecipitate 300 mg fibrinogen (Katzung16 p671), recombinant FVIIa and antithrombin (Katzung16 p671), and the KDT8 ch68 chelator facts.

@@ -154,3 +154,33 @@ Rapid deck now 199 cards. Validator: "check ok".
 ## Checker pass (rapid 0159-0199)
 - rf-p4-clinical-trials-0181: year 1992 removed.
 - rf-p4-clinical-trials-0198: "more than 30 partner organisations" removed; ref now GG14 PDF p170.
+
+## Recheck (all new cards, chunk 1/3)
+
+- rf-p4-clinical-trials-0015 refs KDT8 ch5 to Katzung16 ch1; 0025 refs GG14 ch1 to KDT8 ch5; 0051 and 0052 refs KDT8 ch4 to KDT8 ch5. Full list in content/review/p4-clinical-trials.md.
+
+## Recheck (all new cards, chunk 2/3)
+
+Checked 120 cards (rf-p4-clinical-trials-0064 to 0183) against the owner books (KDT8 ch1/ch5/ch6, GG14 ch1, Katzung16 ch1, Bennett, Padmaja, Medhi, NDCT Rules 2019 and Sarkar OCR). Corrected 6, deleted 2, unverifiable 0 (no UNSOURCED or WEB refs in this chunk). Ok: 112. Rapid deck now 197 cards. Validator: "check ok".
+
+Corrected:
+- rf-p4-clinical-trials-0081: ref Sarkar p226-230 changed to Sarkar p246-250 (the Seventh Schedule formula is on p246-250).
+- rf-p4-clinical-trials-0090: ref Sarkar p221-225 changed to Sarkar p226-230 (6-monthly SUGAM report is item 9 on p226-230).
+- rf-p4-clinical-trials-0091: ref Sarkar p221-225 changed to Sarkar p226-230 (termination within 30 days is item 10 on p226-230).
+- rf-p4-clinical-trials-0115: answer "Controlled human infection model (CHIM)" changed to "Human challenge study" (the book does not use the CHIM term; it says human challenge studies).
+- rf-p4-clinical-trials-0117: question reworded to "human challenge studies" to match 0115.
+- rf-p4-clinical-trials-0174: answer "DCGI, within the CDSCO" changed to "Drugs Controller General of India (DCGI)" (CDSCO is not stated on the cited page).
+
+Deleted (duplicates, kept the originals):
+- rf-p4-clinical-trials-0154: duplicate of 0112 (PSUR every 6 months for first 2 years, Sarkar p221-225).
+- rf-p4-clinical-trials-0156: duplicate of 0113 (4 years in new-drug status, Sarkar p221-225).
+
+## Recheck (all new cards, chunk 3/3)
+
+Checked 16 cards (rf-p4-clinical-trials-0184 to 0199) against Sarkar OCR (p31-35, p46-50, p281-285, p386-390), Rang and Dale PDF p11, GG14 PDF p168-170 and Katzung16 Appendix 2 (PDF p1278-1282). Ok: 14. Corrected: 1. Deleted: 1. Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk). Rapid deck now 196 cards.
+
+Corrected:
+- rf-p4-clinical-trials-0193: question "first three of five" changed to "First three requirements of a brand-name NDA submission". The Sarkar NDA list has more than five items; Chemistry, manufacturing and controls are the first three.
+
+Deleted (duplicate, kept the better one):
+- rf-p4-clinical-trials-0195: "Pharmacoepidemiology studies drug effects at population level" duplicated rf-p4-clinical-trials-0134 (Katzung16 glossary, same definition, same answer). 0134 kept.

@@ -763,23 +763,23 @@
           "h": "Haemodialysis",
           "points": [
             "More efficient than peritoneal dialysis",
-            "Corrects fluid, electrolyte and acid-base; removes formic, oxalic and glycolic acids",
-            "Useful for carbamazepine, lithium, methanol, salicylate, theophylline, valproic acid"
+            "Corrects fluid, electrolyte and acid-base status; removes formic, oxalic and glycolic acids",
+            "Table 58-2 dialysable drugs: carbamazepine, ethylene glycol, lithium, methanol, metformin, phenobarbital, salicylate, theophylline, valproic acid"
           ]
         },
         {
           "h": "Other methods",
           "points": [
             "Peritoneal dialysis: inefficient for most drugs",
-            "Urinary alkalinisation: salicylate; acidification for phencyclidine and amphetamines",
-            "Forced diuresis: not recommended"
+            "Urinary alkalinisation: useful in salicylate overdose",
+            "Acidification raises excretion of phencyclidine and amphetamines but is not advised (rhabdomyolysis risk); forced diuresis not recommended"
           ]
         },
         {
           "h": "Repeated charcoal",
           "points": [
-            "Interrupts enterohepatic cycling and aids gut elimination",
-            "Used for carbamazepine, quinine, dapsone, salicylate"
+            "Gut dialysis: repeated oral charcoal may enhance elimination",
+            "Examples: carbamazepine, dapsone, phenobarbital; clinical benefit unproved"
           ]
         }
       ],
@@ -951,7 +951,7 @@
       "type": "basic",
       "subtopic": "p2-toxicology-antidotes",
       "front": "Pralidoxime: benefit in carbamate and organophosphate poisoning?",
-      "back": "No proven benefit in carbamate poisoning; uncertain benefit in established organophosphate poisoning.",
+      "back": "No proven benefit in carbamate poisoning; uncertain benefit in established organophosphate poisoning. Given early, it may restore cholinesterase activity, but studies conflict on clinical outcome.",
       "tags": [
         "poisoning"
       ],
@@ -2179,7 +2179,7 @@
       "type": "basic",
       "subtopic": "p2-toxicology-heavy-metals",
       "front": "Why must chelation start as early as possible after an acute metal exposure?",
-      "back": "Metal is still in accessible pools. Metal already in slowly exchanging tissue, such as long half-life stores, is removed less effectively.",
+      "back": "Chelator efficacy falls as the interval between metal entry and chelation increases, so treatment should not wait for oliguria or major systemic signs.",
       "tags": [
         "mechanism"
       ],
@@ -2220,7 +2220,7 @@
           "points": [
             "Efficacy falls as time from exposure increases",
             "Redistribution to other organs (dimercaprol)",
-            "Depletes zinc and copper (EDTA, succimer, penicillamine)"
+            "Essential zinc or copper may also be removed (EDTA; succimer)"
           ]
         }
       ],
@@ -2256,7 +2256,7 @@
       "id": "p2-toxicology-124",
       "type": "basic",
       "front": "Why is carbon monoxide dangerous even when inspired oxygen is normal?",
-      "back": "CO binds haemoglobin about 220 times more avidly than oxygen and also impairs release of O2 from the remaining haemoglobin, so tissues are starved while PO2 and pulse oximetry can look normal.",
+      "back": "CO binds haemoglobin about 220 times more avidly than oxygen and also impairs release of O2 from the remaining haemoglobin, so tissues are starved while pulse oximetry is unreliable.",
       "refs": [
         "Katzung16 ch56",
         "Katzung16 ch58"
@@ -2424,22 +2424,6 @@
       "level": 2
     },
     {
-      "id": "p2-toxicology-106",
-      "type": "basic",
-      "subtopic": "p2-toxicology-gases",
-      "front": "Why does cyanide cause lactic acidosis even when oxygen is available?",
-      "back": "Cyanide binds cytochrome oxidase in mitochondria, so cells cannot use oxygen. They switch to anaerobic metabolism and produce lactate.",
-      "tags": [
-        "mechanism"
-      ],
-      "refs": [
-        "Katzung16 ch58"
-      ],
-      "pyq": [],
-      "status": "draft",
-      "level": 2
-    },
-    {
       "id": "p2-toxicology-107",
       "type": "shortnote",
       "subtopic": "p2-toxicology-gases",
@@ -2524,7 +2508,7 @@
       "id": "p2-toxicology-127",
       "type": "basic",
       "front": "Compare carbon monoxide and cyanide: both block oxygen delivery or use, so how do mechanism, bedside clues and antidotes differ?",
-      "back": "CO: binds haemoglobin, reduces O2 carriage and release; pulse oximetry and PO2 misleading; treat with 100% (or hyperbaric) oxygen. Cyanide: binds cytochrome oxidase so O2 is not used; lactic acidosis with high venous O2; treat with hydroxocobalamin, or sodium nitrite (methaemoglobin traps cyanide) plus sodium thiosulfate (rhodanese forms thiocyanate). Both cause cellular hypoxia, a major route to death in poisoning.",
+      "back": "CO: binds haemoglobin, reduces O2 carriage and release; pulse oximetry is unreliable; treat with 100% (or hyperbaric) oxygen. Cyanide: binds cytochrome oxidase so O2 is not used; lactic acidosis with high venous O2; treat with hydroxocobalamin, or sodium nitrite (methaemoglobin traps cyanide) plus sodium thiosulfate (thiosulfate speeds conversion to thiocyanate). Both cause cellular hypoxia.",
       "refs": [
         "Katzung16 ch56",
         "Katzung16 ch58"
@@ -2973,7 +2957,7 @@
       "id": "p2-toxicology-129",
       "type": "basic",
       "front": "Compare organophosphate, carbamate, organochlorine and pyrethroid pesticide toxicity: mechanism, duration and treatment.",
-      "back": "Organophosphates and carbamates inhibit cholinesterase; carbamate binding is weaker and reverses within minutes to hours, OPs bind more lastingly (atropine plus pralidoxime for OP; pralidoxime has no proven benefit in carbamates). Organochlorines delay sodium channel inactivation giving CNS stimulation and convulsions, persist in fat, are endocrine disrupters and have no specific treatment. Pyrethroids are mainly irritant and allergic, treated symptomatically.",
+      "back": "Organophosphates and carbamates inhibit cholinesterase; carbamate binding is weaker and more reversible, while OPs bind more lastingly (atropine plus pralidoxime for OP; pralidoxime not recommended in carbamates). Organochlorines interfere with sodium channel inactivation, causing repetitive firing and convulsions; they persist, are stored in tissues and disrupt endocrine pathways. Pyrethroids are mainly irritant and allergic, treated symptomatically.",
       "refs": [
         "Katzung16 ch56",
         "Katzung16 ch58"
@@ -2991,7 +2975,7 @@
       "id": "p2-toxicology-130",
       "type": "basic",
       "front": "What is ecotoxicology?",
-      "back": "The study of how chemical pollutants harm populations, communities and ecosystems, and how those agents move through the environment. Traditional toxicology focuses on single organisms.",
+      "back": "The study of the deleterious impact of environmental chemicals on populations and communities of organisms within ecosystems.",
       "refs": [
         "Katzung16 ch56"
       ],
@@ -3007,7 +2991,7 @@
       "id": "p2-toxicology-131",
       "type": "basic",
       "front": "What are PPCPs in environmental toxicology?",
-      "back": "Pharmaceutical and personal care products. Together with industrial and chemical pollutants they are often non-degradable and survive stomach acid, so they persist and spread through excreta, water and the food chain.",
+      "back": "Pharmaceutical and personal care products (drugs, antibiotics, fragrances, cosmetics, sunscreens) found in water, soil and air. Their persistence in the environment causes diverse biological effects.",
       "refs": [
         "Sarkar p16-20"
       ],
@@ -3023,7 +3007,7 @@
       "id": "p2-toxicology-132",
       "type": "basic",
       "front": "Define bioaccumulation and biomagnification.",
-      "back": "Bioaccumulation: a persistent agent builds up in an organism's tissue (e.g. body fat) because it is released slowly. Biomagnification: its concentration rises at each step up the food chain, so animals near the top, including humans, carry the highest load.",
+      "back": "Bioaccumulation: a long-lasting contaminant builds up in an organism's tissues when intake exceeds its capacity to metabolize or excrete it. Biomagnification: its concentration rises at each step up the food chain, so top consumers carry the highest load.",
       "refs": [
         "Katzung16 ch56"
       ],
@@ -3071,18 +3055,17 @@
           "h": "Adverse effects",
           "points": [
             "Persistence and re-entry into water supplies and the food chain",
-            "Chronic toxicity and microbial resistance; disruption of microbial ecosystems",
-            "Endocrine disruption, growth inhibition, cytotoxicity, mutagenicity and teratogenicity in animals, plants and humans",
-            "Bioaccumulation in fat, then biomagnification up the food chain"
+            "Bioaccumulation in tissues, then biomagnification up the food chain",
+            "Endocrine disruption and toxicity reported in animals and humans"
           ]
         },
         {
           "h": "Preventive measures",
           "points": [
-            "Strict regulation of safe disposal of unused drugs",
-            "Controlled waste routes: incineration, landfill, immobilisation",
-            "Effluent control at manufacturing sites and monitoring after a drug is launched",
-            "Reduce exposure to persistent chemicals; risk assessment links exposure limits to laws"
+            "Rational drug use",
+            "Return of unused drugs through pharmaceutical-return programmes",
+            "Advanced effluent treatment in sewage and manufacturing plants",
+            "Ecopharmacovigilance and biodegradable products (Sarkar p21-25)"
           ]
         }
       ],
@@ -3092,43 +3075,6 @@
         "Sarkar p21-25",
         "GG14 ch76"
       ],
-      "status": "draft"
-    },
-    {
-      "id": "p2-toxicology-134",
-      "type": "shortnote",
-      "front": "Short note: Biomagnification of persistent pollutants",
-      "sections": [
-        {
-          "h": "What",
-          "points": [
-            "Rising concentration of a persistent agent at each higher trophic level"
-          ]
-        },
-        {
-          "h": "Why it happens",
-          "points": [
-            "Slow release from body fat keeps the agent in tissue",
-            "Persistent organochlorines accumulate in fat and are released over time"
-          ]
-        },
-        {
-          "h": "Public health",
-          "points": [
-            "Humans, near the top of the food chain, receive the highest exposure",
-            "Chronic effects reported include endocrine disruption and carcinogenesis"
-          ]
-        }
-      ],
-      "refs": [
-        "Katzung16 ch56"
-      ],
-      "pyq": [],
-      "subtopic": "p2-toxicology-pesticides",
-      "tags": [
-        "poisoning"
-      ],
-      "level": 2,
       "status": "draft"
     },
     {
@@ -3167,7 +3113,7 @@
       "id": "p2-toxicology-137",
       "type": "basic",
       "front": "Give examples of environmental EDCs.",
-      "back": "DDT and its metabolite DDE, PCBs, brominated flame retardants, phthalates, bisphenol A, and perfluoroalkyl substances (PFAS). Plant phytoestrogens and mycoestrogens also act on hormone pathways.",
+      "back": "DDT and its metabolite DDE, PCBs, brominated flame retardants, phthalates, bisphenol A, and perfluoroalkyl substances (PFAS).",
       "refs": [
         "GG14 ch76",
         "Katzung16 ch56"
@@ -3188,20 +3134,14 @@
         {
           "h": "Why it persists",
           "points": [
-            "Efficacy, low volatility and lipid solubility; slow degradation",
-            "Metabolite DDE persists in humans and in the food chain"
+            "Efficacy, low volatility, high lipid solubility, slow biotransformation and degradation",
+            "Metabolite DDE persists in humans and bioaccumulates in the food chain"
           ]
         },
         {
           "h": "Regulation",
           "points": [
             "Some EDCs have been banned, DDT among them"
-          ]
-        },
-        {
-          "h": "Current use",
-          "points": [
-            "Restricted use for domestic mosquito control in malaria areas of Africa"
           ]
         }
       ],
@@ -3221,7 +3161,7 @@
       "id": "p2-toxicology-139",
       "type": "basic",
       "front": "What reproductive effects are linked to bisphenol A?",
-      "back": "Men exposed to BPA show lower daily sperm production, sperm count and motility. Women of reproductive age with higher BPA show a shorter luteal phase. Associations with diabetes and thyroid dysfunction are correlational, and the studies are limited.",
+      "back": "Men exposed to BPA show lower daily sperm production, sperm count and motility. Women of reproductive age with higher BPA show a shorter luteal phase. Urinary BPA correlates with endocrine-related diseases such as type 2 diabetes.",
       "refs": [
         "GG14 ch76"
       ],
@@ -3284,17 +3224,15 @@
           "h": "Public health impact",
           "points": [
             "Reproductive effects, such as lower sperm quality and altered luteal phase",
-            "Effects on development, cognition and metabolism",
-            "Thyroid dysfunction; links to breast and reproductive cancers are suggested, not proven"
+            "Effects on development, cognitive function and metabolism",
+            "Animal studies: increased uterine weight and decreased fertility (DDT)"
           ]
         },
         {
           "h": "Strategies",
           "points": [
-            "Reduce exposure, as prudence dictates for endocrine-disrupting environmental chemicals",
-            "Ban persistent agents such as DDT; prioritise and screen chemicals",
-            "Use animal studies alongside in vitro assays, which are unreliable alone for regulation",
-            "Integrate epidemiology and toxicology in risk assessment to set safe exposure limits"
+            "Ban persistent agents such as DDT",
+            "Use animal studies alongside in vitro assays, which are unreliable alone for regulatory purposes"
           ]
         }
       ],
@@ -3387,7 +3325,7 @@
       "id": "p2-toxicology-146",
       "type": "basic",
       "front": "Why are animal studies still needed alongside in vitro assays?",
-      "back": "In vitro assays alone are unreliable for regulation, so animal studies are considered indispensable. Long-term whole-life rodent studies, under GLP, detect carcinogenicity.",
+      "back": "In vitro assays alone are unreliable for regulatory purposes, so animal studies are considered indispensable. Long-term whole-life rodent studies detect carcinogenicity.",
       "refs": [
         "Katzung16 ch56",
         "KDT8 ch6"
@@ -3443,7 +3381,7 @@
           "h": "Limits and role in regulation",
           "points": [
             "Unreliable alone for regulatory purposes",
-            "Animal studies, including long-term carcinogenicity tests under GLP, are indispensable"
+            "Animal studies, including long-term carcinogenicity tests, are indispensable"
           ]
         }
       ],
@@ -3459,7 +3397,7 @@
       "id": "p2-toxicology-148",
       "type": "basic",
       "front": "Which reactive oxygen species arise in toxicology, and what do they damage?",
-      "back": "Superoxide (O2-), produced in uncoupled CYP reactions, and hydroxyl radicals. They attack lipids, proteins and macromolecules, especially in biological membranes.",
+      "back": "Superoxide (O2-), hydroxyl radicals and singlet oxygen. They attack lipids, proteins and macromolecules, especially in biological membranes.",
       "refs": [
         "GG14 ch5",
         "GG14 ch24"
@@ -3552,7 +3490,7 @@
           "h": "Overdose",
           "points": [
             "Glucuronidation saturates, more NAPQI forms, hepatic glutathione is depleted",
-            "NAPQI then binds covalently to liver (and renal tubular) proteins"
+            "NAPQI then binds covalently to liver proteins"
           ]
         }
       ],
@@ -3679,12 +3617,12 @@
     {
       "id": "p2-toxicology-158",
       "type": "essay",
-      "front": "Short note: Toxicokinetics and toxicodynamics in drug overdose",
+      "front": "Essay: Toxicokinetics and toxicodynamics in drug overdose",
       "sections": [
         {
           "h": "What",
           "points": [
-            "Toxicokinetics: pharmacokinetics of a drug under toxic exposure; data mostly case reports and observational studies",
+            "Toxicokinetics: pharmacokinetics of a drug under toxic exposure",
             "Toxicodynamics: concentration-effect relation, including non-monotonic dose-response curves"
           ]
         },
@@ -3692,30 +3630,27 @@
           "h": "Absorption",
           "points": [
             "Modified-release forms and slow gastric emptying delay the peak",
-            "Large acetaminophen ingestions can give two peaks 12 to 42 h apart"
+            "Large acetaminophen ingestions can give two peaks"
           ]
         },
         {
           "h": "Distribution",
           "points": [
-            "Protein binding saturates, raising the free fraction",
-            "Acidosis lowers tricyclic protein binding and increases toxicity",
-            "Large volume of distribution: poorly removed by haemodialysis"
+            "Large volume of distribution: drug is in tissue, so little is accessible to haemodialysis"
           ]
         },
         {
           "h": "Metabolism and elimination",
           "points": [
-            "Saturated pathways become zero order (ethanol; phenytoin at high levels)",
-            "Shunting to toxic pathways: acetaminophen to NAPQI, glutathione depletion",
-            "Active metabolites can be more potent (tramadol to M1)"
+            "Saturated pathways become zero order (for example ethanol)",
+            "Shunting to toxic pathways: acetaminophen to NAPQI, glutathione depletion"
           ]
         },
         {
           "h": "Clinical use",
           "points": [
             "Time to peak sets the observation period",
-            "Kinetic data guide decontamination and choice of enhanced elimination"
+            "Kinetic data guide decontamination and enhanced elimination"
           ]
         }
       ],
@@ -3832,24 +3767,8 @@
     {
       "id": "p2-toxicology-164",
       "type": "essay",
-      "front": "Essay: Clinical toxicity, common agents and calcium channel blocker toxicity",
+      "front": "Essay: Calcium channel blocker toxicity: features and management",
       "sections": [
-        {
-          "h": "Definition",
-          "points": [
-            "Clinical toxicology studies undesired drug effects in humans and the effects and treatment of poisoning",
-            "A poison is any substance whose exposure causes a damaging physiological effect"
-          ]
-        },
-        {
-          "h": "Common agents",
-          "points": [
-            "Pharmaceuticals and illicit drugs",
-            "Plants and botanicals",
-            "Chemicals and pollutants",
-            "Calcium channel blockers cause serious toxicity with relatively small overdoses"
-          ]
-        },
         {
           "h": "Calcium channel blocker toxicity",
           "points": [

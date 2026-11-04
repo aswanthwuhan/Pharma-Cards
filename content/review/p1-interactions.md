@@ -96,3 +96,30 @@ Grounded against the owner's books per GROUNDING-RULES.md. Cards checked: 25 ori
 - 054, 055, 057-060: ok.
 - Validator: `node scripts/validate-content.mjs --check` reports check ok.
 - DIPS gap entry 377: still no owner-book source. Unchanged.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 33 cards (028-060) against KDT8 ch71 full text (Table 71.1 and the mechanism sections). All cite KDT8 ch71; no Prep/RR5/web refs; none unverifiable.
+
+Corrected (fact or wording fixed to the book):
+- 028: back's "why" sentence not in book; replaced with the book's definitions of PK, PD and pharmaceutical.
+- 030: removed "chelation" label (book says insoluble complexes).
+- 034: antibiotic list now as printed (ampicillin, tetracyclines, cotrimoxazole).
+- 035: removed "immediate" (not printed).
+- 037: removed "thrombosis" (not printed); kept INR monitoring and 1-2 wk / 1-3 wk timing.
+- 040: removed driving advice (not printed).
+- 042: "monitor BP" replaced with printed "avoid concurrent use".
+- 044: "monitor digoxin level" replaced with printed K+-sparing diuretic/K+ supplement advice.
+- 047: adrenaline-lidocaine "prolongs anaesthesia" replaced with printed "complementary action"; furosemide-amiloride reason as printed.
+- 048: lithium half now lists all printed precipitants (diuretics, tetracyclines, ACE inhibitors, NSAIDs; metronidazole/tinidazole reduce excretion); absorbs deleted 049.
+- 052: ketoconazole absorption reducers corrected to H2 blockers and proton pump inhibitors (antacids not printed for this).
+
+Deleted (duplicates; better card kept):
+- 033: chelation, duplicate of 004 (tetracycline-iron/calcium/antacid chelation).
+- 038: enzyme induction vs inhibition contrast, duplicate of 009 (onset/offset) and 011 (essay).
+- 046: regular-medication groups to ask about, duplicate of 057 (full list of regular-medication classes).
+- 049: lithium precipitants, duplicate of 048 (merged into 048 back).
+
+Notes:
+- 034 (enterohepatic recycling) overlaps 005 (outside this chunk, not edited). Left for the owner.
+- Level ladder after deletions: each subtopic has >=3 L1, >=2 L2, >=1 L3.
+- Validator: check ok.

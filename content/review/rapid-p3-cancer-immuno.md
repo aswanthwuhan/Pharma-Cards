@@ -1,4 +1,4 @@
-# Review: p3-cancer-immuno (Rapid Fire)
+| rf-p3-cancer-immuno-0487 | corrected | undefined || rf-p3-cancer-immuno-0486 | ok | undefined || rf-p3-cancer-immuno-0485 | corrected | undefined || rf-p3-cancer-immuno-0484 | ok | undefined || rf-p3-cancer-immuno-0483 | ok | undefined || rf-p3-cancer-immuno-0482 | ok | undefined || rf-p3-cancer-immuno-0481 | ok | undefined || rf-p3-cancer-immuno-0480 | ok | undefined || rf-p3-cancer-immuno-0479 | ok | undefined || rf-p3-cancer-immuno-0478 | corrected | undefined || rf-p3-cancer-immuno-0477 | ok | undefined || rf-p3-cancer-immuno-0476 | ok | undefined || rf-p3-cancer-immuno-0475 | ok | undefined || rf-p3-cancer-immuno-0474 | ok | undefined || rf-p3-cancer-immuno-0473 | corrected | undefined || rf-p3-cancer-immuno-0472 | ok | undefined || rf-p3-cancer-immuno-0471 | ok | undefined || rf-p3-cancer-immuno-0470 | ok | undefined || rf-p3-cancer-immuno-0469 | ok | undefined || rf-p3-cancer-immuno-0468 | ok | undefined || rf-p3-cancer-immuno-0467 | ok | undefined || rf-p3-cancer-immuno-0465 | ok | undefined || rf-p3-cancer-immuno-0464 | ok | undefined || rf-p3-cancer-immuno-0462 | ok | undefined || rf-p3-cancer-immuno-0461 | ok | undefined || rf-p3-cancer-immuno-0460 | ok | undefined || rf-p3-cancer-immuno-0459 | ok | undefined || rf-p3-cancer-immuno-0458 | ok | undefined || rf-p3-cancer-immuno-0457 | ok | undefined || rf-p3-cancer-immuno-0456 | ok | undefined || rf-p3-cancer-immuno-0455 | ok | undefined || rf-p3-cancer-immuno-0454 | ok | undefined || rf-p3-cancer-immuno-0453 | corrected | undefined || rf-p3-cancer-immuno-0452 | ok | undefined || rf-p3-cancer-immuno-0451 | ok | undefined || rf-p3-cancer-immuno-0450 | ok | undefined || rf-p3-cancer-immuno-0449 | ok | undefined || rf-p3-cancer-immuno-0448 | ok | undefined || rf-p3-cancer-immuno-0447 | ok | undefined || rf-p3-cancer-immuno-0446 | ok | undefined || rf-p3-cancer-immuno-0445 | ok | undefined || rf-p3-cancer-immuno-0444 | ok | undefined || rf-p3-cancer-immuno-0443 | ok | undefined || rf-p3-cancer-immuno-0442 | ok | undefined || rf-p3-cancer-immuno-0441 | ok | undefined || rf-p3-cancer-immuno-0440 | ok | undefined || rf-p3-cancer-immuno-0439 | ok | undefined || rf-p3-cancer-immuno-0438 | ok | undefined || rf-p3-cancer-immuno-0437 | ok | undefined || rf-p3-cancer-immuno-0436 | ok | undefined || rf-p3-cancer-immuno-0435 | ok | undefined || rf-p3-cancer-immuno-0434 | corrected | undefined || rf-p3-cancer-immuno-0433 | ok | undefined || rf-p3-cancer-immuno-0432 | ok | undefined || rf-p3-cancer-immuno-0487 | corrected | undefined || rf-p3-cancer-immuno-0486 | ok | undefined || rf-p3-cancer-immuno-0485 | corrected | undefined || rf-p3-cancer-immuno-0484 | ok | undefined || rf-p3-cancer-immuno-0483 | ok | undefined || rf-p3-cancer-immuno-0482 | ok | undefined || rf-p3-cancer-immuno-0481 | ok | undefined || rf-p3-cancer-immuno-0480 | ok | undefined || rf-p3-cancer-immuno-0479 | ok | undefined || rf-p3-cancer-immuno-0478 | corrected | undefined || rf-p3-cancer-immuno-0477 | ok | undefined || rf-p3-cancer-immuno-0476 | ok | undefined || rf-p3-cancer-immuno-0475 | ok | undefined || rf-p3-cancer-immuno-0474 | ok | undefined || rf-p3-cancer-immuno-0473 | corrected | undefined || rf-p3-cancer-immuno-0472 | ok | undefined || rf-p3-cancer-immuno-0471 | ok | undefined || rf-p3-cancer-immuno-0470 | ok | undefined || rf-p3-cancer-immuno-0469 | ok | undefined || rf-p3-cancer-immuno-0468 | ok | undefined || rf-p3-cancer-immuno-0467 | ok | undefined || rf-p3-cancer-immuno-0465 | ok | undefined || rf-p3-cancer-immuno-0464 | ok | undefined || rf-p3-cancer-immuno-0462 | ok | undefined || rf-p3-cancer-immuno-0461 | ok | undefined || rf-p3-cancer-immuno-0460 | ok | undefined || rf-p3-cancer-immuno-0459 | ok | undefined || rf-p3-cancer-immuno-0458 | ok | undefined || rf-p3-cancer-immuno-0457 | ok | undefined || rf-p3-cancer-immuno-0456 | ok | undefined || rf-p3-cancer-immuno-0455 | ok | undefined || rf-p3-cancer-immuno-0454 | ok | undefined || rf-p3-cancer-immuno-0453 | corrected | undefined || rf-p3-cancer-immuno-0452 | ok | undefined || rf-p3-cancer-immuno-0451 | ok | undefined || rf-p3-cancer-immuno-0450 | ok | undefined || rf-p3-cancer-immuno-0449 | ok | undefined || rf-p3-cancer-immuno-0448 | ok | undefined || rf-p3-cancer-immuno-0447 | ok | undefined || rf-p3-cancer-immuno-0446 | ok | undefined || rf-p3-cancer-immuno-0445 | ok | undefined || rf-p3-cancer-immuno-0444 | ok | undefined || rf-p3-cancer-immuno-0443 | ok | undefined || rf-p3-cancer-immuno-0442 | ok | undefined || rf-p3-cancer-immuno-0441 | ok | undefined || rf-p3-cancer-immuno-0440 | ok | undefined || rf-p3-cancer-immuno-0439 | ok | undefined || rf-p3-cancer-immuno-0438 | ok | undefined || rf-p3-cancer-immuno-0437 | ok | undefined || rf-p3-cancer-immuno-0436 | ok | undefined || rf-p3-cancer-immuno-0435 | ok | undefined || rf-p3-cancer-immuno-0434 | corrected | undefined || rf-p3-cancer-immuno-0433 | ok | undefined || rf-p3-cancer-immuno-0432 | ok | undefined |# Review: p3-cancer-immuno (Rapid Fire)
 
 Grounding pass under GROUNDING-RULES.md. Sources: KDT8 ch64-65 (topic refs), GG14 ch39, ch42, ch70, ch71, ch72, RR5 p46-50, Sarkar p476-480. Cards: 362 (class: 28). ok: 350, corrected: 12, deleted: 0.
 
@@ -485,3 +485,46 @@ Added 9 rapid pairs: rf-p3-cancer-immuno-0479 to 0487.
 
 ## Source re-check, rf 0479-0487
 - 0483 answer corrected: "psoriasis" changed to "psoriatic arthritis" (GG14 ch39 JAK indication list). Other 8 pairs verified against KDT8 ch64 and GG14 ch39/ch71/ch73.
+
+## Recheck (all new cards, chunk 1/2)
+Checked rf-p3-cancer-immuno-0383 to 0431 (49 pairs) against KDT8 ch64 and GG14 ch71 (IMiD and lenalidomide pairs 0428-0431). Deleted: 0. Unverifiable: 0.
+
+| id | status | reason / source |
+|---|---|---|
+| rf-p3-cancer-immuno-0391 | corrected | "Mesna 200 mg with each 1 g dose" is not printed; KDT8 ch64 gives the pack of 1 g ifosfamide with 3 x 200 mg mesna. Answer reworded |
+| rf-p3-cancer-immuno-0412 | corrected | question renamed "Pemetrexed: dose" (book names the drug; the old label was not book wording). Dose 500 mg/m2 every 3 weeks unchanged (KDT8 ch64) |
+
+All other pairs in the chunk match KDT8 ch64 or GG14 ch71 wording and figures.
+Validator: node scripts/validate-content.mjs --check clean.
+
+## Recheck (all new cards, chunk 2/2)
+Checked the 54 rapid pairs rf-p3-cancer-immuno-0432 to 0487 (0463 and 0466 are not in this chunk). Sources: GG14 ch71 (text and cross-references to ch73, ch39, ch47), KDT8 ch64 (PDF p941-947), KDT8 PDF p292-294, Sarkar OCR p531-535. Deleted: 0. Unverifiable: 0.
+
+| id | status | reason / source |
+|---|---|---|
+| rf-p3-cancer-immuno-0434 | corrected | Answer reworded: book gives no 10 to 30% figure; GG14 ch71 says sensory neuropathy is dose-limiting |
+| rf-p3-cancer-immuno-0453 | corrected | Answer corrected to the GG14 ch71 list (thrombocytopenia 28%, fatigue, peripheral neuropathy, neutropenia, anaemia, vomiting, diarrhoea). Dyspnoea and oedema are not in that list |
+| rf-p3-cancer-immuno-0473 | corrected | Question reworded to the book's term 'pathway-targeted anticancer drugs'; answer kept (small molecules and monoclonal antibodies) |
+| rf-p3-cancer-immuno-0478 | corrected | Ref changed: KDT8 PDF p292 states the delayed hypothyroidism hazard; GG14 ch47 not confirmed |
+| rf-p3-cancer-immuno-0485 | corrected | Refs added GG14 ch71 (ribociclib and abemaciclib with aromatase inhibitor or fulvestrant); ch73 also cited |
+| rf-p3-cancer-immuno-0487 | corrected | Answer list put in the book's order (phenytoin, rifampin, carbamazepine, enzalutamide, St John's wort) |
+
+All other pairs in the chunk match the cited book text. Duplicate check against the whole rapid file found none.
+Validator: node scripts/validate-content.mjs --check clean.
+
+Second pass (re-check this run): all 54 pairs re-read against the cited passages. No new card edits. Confirmed 0437 ref GG14 ch71 (morning sickness, PDF p1422); 0483 'psoriatic arthritis' is in GG14 ch39 p809 (tofacitinib, upadacitinib), so unchanged; 0467 'c-KIT' wording matches GG14 ch71 p1419. Validator: node scripts/validate-content.mjs --check clean.
+
+## Recheck (all new cards, chunk 2/2)
+Checked the 54 rapid pairs rf-p3-cancer-immuno-0432 to 0487 (0463 and 0466 are not in this chunk). Sources: GG14 ch71 (text and cross-references to ch73, ch39, ch47), KDT8 ch64 (PDF p941-947), KDT8 PDF p292-294, Sarkar OCR p531-535. Deleted: 0. Unverifiable: 0.
+
+| id | status | reason / source |
+|---|---|---|
+| rf-p3-cancer-immuno-0434 | corrected | Answer reworded: book gives no 10 to 30% figure; GG14 ch71 says sensory neuropathy is dose-limiting |
+| rf-p3-cancer-immuno-0453 | corrected | Answer corrected to the GG14 ch71 list (thrombocytopenia 28%, fatigue, peripheral neuropathy, neutropenia, anaemia, vomiting, diarrhoea). Dyspnoea and oedema are not in that list |
+| rf-p3-cancer-immuno-0473 | corrected | Question reworded to the book's term 'pathway-targeted anticancer drugs'; answer kept (small molecules and monoclonal antibodies) |
+| rf-p3-cancer-immuno-0478 | corrected | Ref changed: KDT8 PDF p292 states the delayed hypothyroidism hazard; GG14 ch47 not confirmed |
+| rf-p3-cancer-immuno-0485 | corrected | Refs added GG14 ch71 (ribociclib and abemaciclib with aromatase inhibitor or fulvestrant); ch73 also cited |
+| rf-p3-cancer-immuno-0487 | corrected | Answer list put in the book's order (phenytoin, rifampin, carbamazepine, enzalutamide, St John's wort) |
+
+All other pairs in the chunk match the cited book text. Duplicate check against the whole rapid file found none.
+Validator: node scripts/validate-content.mjs --check clean.

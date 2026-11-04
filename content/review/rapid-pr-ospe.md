@@ -151,3 +151,65 @@ Totals: re-grounded 12, new 12, still unsourced 6.
 | rf-pr-ospe-0059 | not verified | WEB PMC source; "about 5 minutes" not checked offline. Owner to check. |
 
 Deleted: none. Forbidden refs (Prep, RR5, RapidRev): none.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: rf-pr-ospe-0060 to 0078 (19 cards) re-read against OCR and PDF text. Deleted: none. Unverifiable (exact UNSOURCED-only or WEB refs): none in this chunk.
+
+| id | result | note |
+|---|---|---|
+| rf-pr-ospe-0060 | corrected | Sarkar p76-80 does not define the sources; ref now Padmaja PDF p95. |
+| rf-pr-ospe-0061 | corrected | Ref now Padmaja PDF p95; answer reworded to "analysed and compiled literature" (Medline, Index Medicus). |
+| rf-pr-ospe-0062 | corrected | Ref now Padmaja PDF p95; answer narrowed to drug compendia, as Padmaja states. |
+| rf-pr-ospe-0068 | corrected | Pickar p373 does not show the 1 in 10 dilution. Ref now Medhi PMECP PDF p40 (formula) plus UNSOURCED for the arithmetic. |
+| rf-pr-ospe-0069 | corrected | KDT8 not involved; ref now NMC PDF p22 (OSPE). |
+| rf-pr-ospe-0077 | corrected | Ref was KDT8 ch5; the statement (no other drug combined with corticosteroids in internal-use FDC) is in KDT8 ch20 (PDF p333). |
+| rf-pr-ospe-0063 | ok | Sarkar p201-205: abstract not more than 300 words. |
+| rf-pr-ospe-0064, 0065, 0066, 0067 | ok | Sarkar p81-85 (QALY); p421-425 (Beer-Lambert); p386-390 (ELISA); p396-400 (TLC). |
+| rf-pr-ospe-0070 to 0076, 0078 | ok | KDT8 ch5 (PDF p89, p99): FDC definition, sulfamethoxazole + trimethoprim (p84 and p89), six criteria (p98), TB/HIV/malaria, 344 banned, NLEM 2015 = 20, WHO 2017 = 25, polypharmacy 3-4 average, up to 10-12. |
+
+Level check: every card has a level. Duplicates: none within chunk.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: rf-pr-ospe-0060 to 0078 (19 cards) re-read against Padmaja, Sarkar, Medhi, NMC and KDT8 text (second pass). Deleted: none. Unverifiable (exact UNSOURCED-only or WEB refs): none.
+
+| id | result | note |
+|---|---|---|
+| rf-pr-ospe-0060 | ok | Padmaja PDF p95: primary source = journals and trial data. |
+| rf-pr-ospe-0061 | ok | Padmaja PDF p95: secondary = analysed, compiled, published (Medline, Index Medicus). |
+| rf-pr-ospe-0062 | ok | Padmaja PDF p95: tertiary = drug compendia. |
+| rf-pr-ospe-0063 | ok | Sarkar p201-205: abstract not more than 300 words, at most a page. |
+| rf-pr-ospe-0064 | ok | Sarkar p81-85: QALY as the CUA measure. |
+| rf-pr-ospe-0065 | ok | Sarkar p421-425: Beer-Lambert, absorbance proportional to concentration. |
+| rf-pr-ospe-0066 | corrected (refs) | Sarkar p391-395 added for the enzyme-labelled chromogenic signal; p386-390 kept for ELISA. |
+| rf-pr-ospe-0067 | ok | Sarkar p396-400: TLC spots on plate, identified afterwards, Rf calculated. |
+| rf-pr-ospe-0068 | ok | Medhi PMECP PDF p40 for the dilution formula; 1 mg/mL diluted 1 in 10 = 100 microgram/mL is arithmetic, kept under UNSOURCED. |
+| rf-pr-ospe-0069 | ok | NMC PDF p22: OSPE = Objective Structured Practical Examination. |
+| rf-pr-ospe-0070 | ok | KDT8 ch5 PDF p89: FDC definition. |
+| rf-pr-ospe-0071 | ok | KDT8 ch5 PDF p89: sulfamethoxazole + trimethoprim as synergistic. |
+| rf-pr-ospe-0072 | ok | KDT8 ch5 PDF p98: six criteria. |
+| rf-pr-ospe-0073 | ok | KDT8 ch5 PDF p89: single drug not to be given alone in TB, HIV-AIDS, falciparum malaria. |
+| rf-pr-ospe-0074 | ok | KDT8 ch5 PDF p89: 344 other irrational FDCs banned in India. |
+| rf-pr-ospe-0075 | ok | KDT8 ch5 PDF p89: NLEM (2015) has 20 FDCs. |
+| rf-pr-ospe-0076 | ok | KDT8 ch5 PDF p89: WHO 2017 list has 25 FDCs. |
+| rf-pr-ospe-0077 | corrected (refs) | KDT8 ch5 PDF p89 says corticosteroids should never be combined with other internal-use drugs; KDT8 ch20 PDF p333 (ban on such FDCs) added alongside. |
+| rf-pr-ospe-0078 | ok | KDT8 ch5 PDF p99: 3-4 drugs on average, some 10-12. |
+
+Level check: Rapid cards carry no level field (not required by format). Duplicates: none within chunk.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: rf-pr-ospe-0060 to 0078 (19 cards). This pass supersedes the earlier sections with the same title above. The earlier pass kept Sarkar p386-390 for ELISA; that range is the statistics chapter and is removed here.
+
+Corrected:
+- rf-pr-ospe-0066: refs now Sarkar p391-395 only (Sarkar p386-390 is statistics).
+
+Deleted:
+- rf-pr-ospe-0064 ("Outcome unit of cost-utility analysis => QALY"): duplicate of rf-pr-ospe-0035 ("Analysis with outcome in QALYs => Cost-utility"), the same pair reversed. 0035 kept.
+
+Checked ok, no change: 0060-0062 (Padmaja PDF p95); 0063 (Sarkar OCR p201-205: abstract not more than 300 words, one page); 0065 (Sarkar p421-425); 0067 (Sarkar p396-400); 0068 (Medhi PMECP PDF p40 formula; the 1 in 10 arithmetic is under UNSOURCED); 0069 (NMC PDF p22); 0070-0076 (KDT8 ch5 PDF p89 and p23: FDC definition, sulfamethoxazole + trimethoprim, six criteria on p98, three disease FDC rationale, 344 banned, NLEM 2015 = 20, WHO 2017 = 25); 0077 (KDT8 ch5 PDF p89 corticosteroid rule; KDT8 ch20 PDF p333 "combination ... with corticosteroids in fixed dose formulation for internal use is banned" supports the ch20 ref); 0078 (KDT8 ch5 PDF p99: 3-4 drugs average, some 10-12).
+
+Unverifiable: none (no WEB or UNSOURCED-only refs in this chunk). Hybrid: 0068 (book formula plus UNSOURCED arithmetic).
+
+Level check: Rapid cards carry no level field. Duplicates within the chunk: 0064 deleted (above).

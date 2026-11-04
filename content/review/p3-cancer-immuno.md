@@ -193,3 +193,19 @@ Re-read GG14 ch39, ch71, ch73 and KDT8 ch64 text. Changes:
 - 132 mechanism: "cyclin D amplification / p16INK4A" not found in GG14 text; replaced with the Rb mutation and loss-of-negative-regulator wording GG14 ch71 gives.
 - 125 essay: removed meta point "owner books searched print no other isotope therapy" (not a book fact).
 - Verified unchanged: 128 (KDT8 ch64 adjuvants, filgrastim and molgramostim timing, thalidomide), 130 (GG14 ch71/73 indications), 131 (itraconazole 87%, grapefruit, inducers), 132 (abemaciclib, ribociclib, trilaciclib).
+
+## Recheck (all new cards, chunk 1/2)
+Checked study ids 062-132 (71 cards) against KDT8 ch63, ch64, ch65, GG14 ch39, ch47, ch71, ch72, ch73, KDT8 PDF p243-244, p292, p921, GG14 PDF p87, Sarkar p531-535. Rapid ids rf-0383 to rf-0431 are logged in rapid-p3-cancer-immuno.md.
+Deleted: 0. Unverifiable (UNSOURCED or WEB): 0.
+
+| id | status | reason / source |
+|---|---|---|
+| p3-cancer-immuno-062 | corrected | "immunostimulants" is not printed in the books; concept point reworded to GG14 ch39 definition (immunomodulators target one molecular driver) |
+| p3-cancer-immuno-099 | corrected | indication incomplete; added first-line and relapse myeloma and relapsed/refractory MCL (GG14 ch71) |
+| p3-cancer-immuno-100 | corrected | adverse effects were the carfilzomib >20% list; replaced with bortezomib figures (thrombocytopenia 28%, fatigue 12%, neuropathy 12%, cardiac rare) (GG14 ch71) |
+| p3-cancer-immuno-103 | corrected | uses now include bortezomib first line and MCL (GG14 ch71) |
+| p3-cancer-immuno-114 | corrected | "with c-KIT mutation" is not in GG14 ch71; removed |
+| p3-cancer-immuno-116 | corrected | ramucirumab (VEGFR2) is in GG14 ch72; ref added |
+
+Verified unchanged (source checked, fact matches): 063-077, 078, 079 (CO-NH-CO signature, GG14 ch71), 080-090, 091-098, 101, 102, 104-113, 115, 117-132. Notes: 082 and 088 match GG14 ch71 neuropathy and leukopenia figures; 084 CLL 10 mg/day with allopurinol matches GG14 ch71; 123 palliative and higher dose with TSH matches KDT8 PDF p292; 121 sodium 131I in water orally matches KDT8 PDF p292.
+Validator: node scripts/validate-content.mjs --check clean.

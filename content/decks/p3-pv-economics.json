@@ -187,8 +187,8 @@
         {
           "h": "Scales and who does it",
           "points": [
-            "Naranjo algorithm and WHO scale for causality; modified Hartwig scale for severity",
-            "PvPI centres assess first; final assessment at the National Coordination Centre after upload to VigiFlow"
+            "Naranjo algorithm for causality; modified Hartwig scale for severity",
+            "Regional PvPI centres do the causality analysis; reports reach the NCC through VigiFlow"
           ]
         }
       ],
@@ -375,13 +375,13 @@
           "h": "Hypothesis-generating",
           "points": [
             "Spontaneous reports and case reports: cheap, whole population, rapid for rare dramatic events; under-reporting, no denominator",
-            "Disproportionality analysis of report databases needs no denominator but needs follow-up"
+            "Quantitative signal detection on the report database needs no denominator; it relies only on spontaneous reports"
           ]
         },
         {
           "h": "Hypothesis-testing",
           "points": [
-            "Prescription-event monitoring: cohort of patients on a new drug, GPs report events",
+            "Prescription-event monitoring: observational cohort of patients given a newly marketed drug",
             "Record linkage, cohort and case-control studies; FDA Sentinel network of data partners",
             "Targeted clinical investigations and postmarketing trials"
           ]
@@ -705,7 +705,7 @@
         "uses"
       ],
       "front": "What actions can a regulator take once pharmacovigilance data show a drug is unsafe?",
-      "back": "Change the label to restrict use or add warnings and precautions, or withdraw the drug; also circulate drug alerts, medical letters and advisories to doctors. Pharmacovigilance feeds these decisions, which is why its data are collected centrally.",
+      "back": "Change the label to restrict use or add warnings and precautions, or withdraw the drug; also circulate drug alerts, medical letters and advisories to doctors. Pharmacovigilance data feed these decisions.",
       "refs": [
         "KDT8 ch6"
       ],
@@ -1636,8 +1636,7 @@
         }
       ],
       "refs": [
-        "GG14 ch8",
-        "RangDale9 ch1"
+        "GG14 ch8"
       ],
       "status": "draft"
     },
@@ -1671,7 +1670,7 @@
           "h": "What",
           "points": [
             "Machine learning and natural language processing applied to large volumes of patient and report data",
-            "Aim: find possible safety signals faster than manual review"
+            "Aim: help detect possible safety signals in large volumes of data"
           ]
         },
         {
@@ -1716,7 +1715,7 @@
         "adr"
       ],
       "front": "What is AEFI and how does Sarkar group AEFIs?",
-      "back": "Adverse event following immunisation. Sarkar groups them into five categories: vaccine product-related reaction, vaccine quality defect-related reaction, immunisation error-related reaction, immunisation anxiety-related reaction and coincidental event.",
+      "back": "Adverse event following immunisation. Sarkar groups them into five categories: vaccine product-related reaction, vaccine quality defect-related reaction, immunisation error-related reaction, immunisation anxiety-related reaction and coincidental event. The grouping matters because immunisation-error reactions are preventable.",
       "refs": [
         "Sarkar p106-110"
       ],
@@ -1748,7 +1747,7 @@
         "adr"
       ],
       "front": "When is an AEFI classed as serious?",
-      "back": "When it causes death, needs hospitalisation, leaves persistent or significant disability or incapacity, or occurs as a cluster of two or more cases in one area.",
+      "back": "When it causes death, needs hospitalisation, leaves persistent or significant disability or incapacity, or occurs as a cluster of two or more cases in one area. Serious cases get intensive investigation because risk acceptance for vaccines is low.",
       "refs": [
         "Sarkar p106-110"
       ],
@@ -1797,7 +1796,7 @@
           "h": "Challenges",
           "points": [
             "Concomitant vaccines make causal attribution hard",
-            "Limited awareness of AEFI reporting among providers"
+            "Limited awareness of AEFI reporting in the private sector"
           ]
         }
       ],
@@ -1823,7 +1822,7 @@
         "adr"
       ],
       "front": "Define haemovigilance.",
-      "back": "A set of surveillance procedures covering the whole transfusion chain, from blood collection to follow-up of recipients. It collects information on undesirable effects of labile blood products and aims to prevent their recurrence.",
+      "back": "A set of surveillance procedures covering the whole transfusion chain, from blood collection to follow-up of recipients. It collects information on undesirable effects of labile blood products and aims to prevent their recurrence. Its ultimate goal is to improve the safety of blood transfusion.",
       "refs": [
         "Sarkar p96-100"
       ],
@@ -1855,7 +1854,7 @@
         "adr"
       ],
       "front": "What two scores grade a haemovigilance reaction?",
-      "back": "Severity (0 no sign to 4 death of the patient) and imputability (0 no relationship to 3 sure clinical and biological symptoms).",
+      "back": "Severity (0 no sign to 4 death of the patient) and imputability (0 no relationship to 3 sure clinical and biological symptoms). Severity says how bad the reaction was; imputability says how sure the link to transfusion is.",
       "refs": [
         "Sarkar p96-100"
       ],
@@ -1923,7 +1922,7 @@
         "uses"
       ],
       "front": "Write the benefit-cost ratio formula and its decision rule.",
-      "back": "BCR = present value of benefits divided by present value of costs. A ratio above 1 means the programme's benefits outweigh its costs.",
+      "back": "BCR = present value of benefits divided by present value of costs. A ratio above 1 means the programme's benefits outweigh its costs. Decision-makers prefer the alternative with the greatest benefit-cost ratio or net benefit.",
       "refs": [
         "Sarkar p81-85"
       ],
@@ -1938,7 +1937,7 @@
       "tags": [
         "uses"
       ],
-      "front": "Short note: Economic evaluation of pharmacovigilance",
+      "front": "Short note: Pharmacoeconomic evaluation methods",
       "sections": [
         {
           "h": "Concept",
@@ -1947,10 +1946,9 @@
           ]
         },
         {
-          "h": "Fit with a PV programme",
+          "h": "Regulators",
           "points": [
-            "A surveillance programme is a programme whose costs and benefits can be weighed in money terms",
-            "Benefits are the costs avoided, such as treatment costs prevented by catching harm early"
+            "Regulatory authorities increasingly require economic analysis, as well as evidence of individual benefit, when deciding on licensing"
           ]
         },
         {
@@ -1958,18 +1956,19 @@
           "points": [
             "CBA: BCR above 1 means the programme is of value",
             "CEA: ACER or ICER, cost per unit of clinical outcome",
-            "CUA: outcome in QALYs; cost-of-illness: direct and indirect costs"
+            "CUA: outcome measured in QALYs"
           ]
         },
         {
           "h": "Caution",
           "points": [
-            "Benefit-cost results depend on the money values assigned to benefits, so they need care when interpreting"
+            "Expressing health benefits in money is controversial, so CBA should not be used unless benefits can be expressed in money"
           ]
         }
       ],
       "refs": [
-        "Sarkar p81-85"
+        "Sarkar p81-85",
+        "RangDale9 PDF p11"
       ],
       "pyq": [
         {

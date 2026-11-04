@@ -149,3 +149,21 @@ Q415 magnesium, Q492/Q578 IBS, Q585 gut microbiome. Q bank / UHSR 2025 PYQ tags;
 
 
 Checker (PYQ gap pass): verified all 26 new study cards and 25 new rapid cards against KDT8, GG14 and Katzung PDFs. Corrected 7 study cards and deleted p3-git-089 (ramosetron IBS). Validator check ok.
+
+## Recheck (all new cards, chunk 1/1)
+Checked every id in chunk 1 (study ids p3-git-062 to p3-git-103, minus deleted/absent ids) against KDT8 ch47/ch49/ch23, GG14 ch6/ch44/ch54 and GG14 p1117-1127 via pdftotext and search.py. Most facts confirmed; no study card deleted.
+Corrected (wording or refs only, id kept):
+- p3-git-064: removed PGE2/cAMP and "mucus-bicarbonate matters most" claims not printed in the books; kept mucosal prostaglandin protection.
+- p3-git-066: removed H2 indications (aspiration pneumonia, urticaria) not found in the books; kept stress-ulcer i.v. use and bedtime-dose point (KDT8 ch47).
+- p3-git-079: refs narrowed to KDT8 ch49 (saline salts text verified there; GG14 ch54 not verified).
+- p3-git-084: replaced an unverified antispasmodic statement with the verified dicyclomine dose (GG14 ch54); removed unverified SSRI/CYP wording elsewhere in the note (see 103).
+- p3-git-086: contraindications now as printed (sphincter of Oddi spasm, pancreatitis, GG14 ch54); removed "acts locally".
+- p3-git-088: added why (minimally absorbed, acts in gut; KDT8 ch49); removed unverified C. difficile advice.
+- p3-git-090: removed "limit antimuscarinics to short-term use" (not in books).
+- p3-git-091: dose removed (mebeverine dose not printed in the owner books; GG14 ch54 gives class and mechanism only). Front reworded to match.
+- p3-git-096: removed "about 10%" (appears in GG12 p828 for Eubacterium lentum, not in the GG14 ch6 source cited).
+- p3-git-101: removed unverified safety/immunocompromised line.
+- p3-git-102: removed unverified vitamin and amino-acid claim; arginine-digoxin point kept (GG14 ch6).
+- p3-git-103: removed unverified CYP/phase II claim; diet line aligned with the card above.
+Deleted: none in the study deck.
+Unverifiable: none in chunk 1 (no UNSOURCED or WEB refs).

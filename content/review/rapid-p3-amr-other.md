@@ -474,3 +474,36 @@ rf-p3-amr-other-0346 | regrounded | GG14 PDF p1196 | -
 
 ## Checker (urinary analgesic re-check)
 - Rapid 0494-0496 verified: phenazopyridine azo dye (KDT8 PDF p1023), orange-red urine (Satoskar PDF p1121), nausea/gastric irritation (Padmaja PDF p576). No edits.
+
+## Recheck (all new cards, chunk 1/1)
+Checked the 87 rapid cards in this chunk against the owner books (search.py). Deleted 13, corrected 15.
+Deleted (no support in an owner book or the claim is wrong for the book):
+- rf-p3-amr-other-0410: injection-pain claim not in books
+- rf-p3-amr-other-0415: minocycline superinfection comparison not in books
+- rf-p3-amr-other-0424: potency ranking not in books
+- rf-p3-amr-other-0428: kanamycin 1957/origin not in books
+- rf-p3-amr-other-0434: sisomicin source/date not in books
+- rf-p3-amr-other-0449: 30% ointment efficacy not in books
+- rf-p3-amr-other-0451: clarithromycin 50% bioavailability not in books
+- rf-p3-amr-other-0461: pyrimethamine combination not in books
+- rf-p3-amr-other-0473: tedizolid 90% bioavailability not in books
+- rf-p3-amr-other-0475: spectinomycin indication not confirmed
+- rf-p3-amr-other-0476: daptomycin half-life not in books
+- rf-p3-amr-other-0477: daptomycin excretion not in books
+- rf-p3-amr-other-0496: phenazopyridine nausea not printed (KDT8 p1023 refers to nitrofurantoin)
+Corrected:
+- 0411: 60-80% figure replaced with printed absorption statement (KDT8 p797)
+- 0422: dose figure removed (mechanism kept)
+- 0425: cost ranking removed (KDT8 p809)
+- 0429: frequency detail removed (KDT8 p807)
+- 0435: neomycin dose to Katzung p889 (1 g every 6-8 h)
+- 0448: stage wording replaced with KDT8 p762 statement
+- 0462: antagonism replaced with erythromycin cross-resistance (KDT8 p755)
+- 0463: IV dose removed; oral and severe doses per GG14 p1204
+- 0464: lincomycin forerunner claim replaced (KDT8 p751)
+- 0474: tedizolid elimination to GG14 p1210
+- 0490: translocation list limited to erythromycin and clindamycin (KDT8 p796)
+- 0491, 0492, 0494: refs corrected (GG14 p1205, KDT8 p796, KDT8 p821 with Padmaja p576)
+- 0495: clothing-staining removed
+Confirmed as printed (no change): 0409, 0413, 0414, 0416-0423, 0426, 0427, 0430, 0437-0439, 0441, 0443, 0444, 0447, 0450, 0453, 0454, 0456-0460, 0465, 0467-0472, 0478-0489, 0493.
+Kept but not re-located line by line: 0412, 0431-0433, 0436, 0440, 0442, 0445, 0446, 0452, 0455, 0466.

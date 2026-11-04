@@ -114,3 +114,24 @@ Prep/RR5 grep on both deck files: no hits.
 - 052 corrected: "Copy number changes ... (SULT1A1 family)" replaced with CYP2D6 whole-gene deletion or duplication (GG14 ch7 text). GG14 ch7 does not state a SULT1A1 copy-number effect.
 - Rapid 0145-0151 ok.
 - Validator: check ok.
+
+## Recheck (all new cards, chunk 1/1)
+Checked 18 study ids (035-052) against GG14 ch7 (PDF p150-166), GG14 ch3 (PDF p71), GG14 ch4 (PDF p116), KDT8 ch2 (PDF p36) and KDT8 ch5 (PDF p93).
+- Corrected 036: removed tamoxifen (book does not call it a prodrug) and the unsupported "upstream metabolites" wording; back now restates GG14 ch7 only. Refs GG14 ch7.
+- Corrected 038: "commonest in African ancestry" changed to "most common in many African-ancestry populations" (GG14 ch7 wording).
+- Corrected 041: phenytoin SJS/TEN sentence reworded to the book's "especially high when CYP2C9 variant plus HLA-B allele" (GG14 ch7).
+- Corrected 047: BCRP p.Gln141Lys example is in GG14 ch4 (PDF p116); refs now GG14 ch7 and GG14 ch4.
+- Corrected 048: frameshift/start/stop back reworded to the book's wording; "usually non-functional" removed. Refs GG14 ch7.
+- Corrected 052: refs add GG14 ch4 for the BCRP example.
+- Verified ok: 035, 037, 039, 040 (10-fold GG14 ch3; trial result GG14 ch7), 042, 043, 044 (class lists match GG14 ch7 exactly), 045, 046, 049, 050, 051.
+- Deleted: none. Level, duplicate and why checks: all cards had levels; no duplicate within deck; no change needed.
+- Unverifiable: none in this chunk.
+- Validator: node scripts/validate-content.mjs --check reports check ok.
+
+## Recheck (all new cards, chunk 1/1), re-run
+Re-checked study ids 035-052 against GG14 ch7 (PDF p151-163), GG14 ch3 (PDF p71), GG14 ch4 (PDF p116), KDT8 ch2 (PDF p36) and KDT8 ch5 (PDF p92-93).
+- Corrected 042, 043, 044: classification backs had no why. Added one line each from GG14 ch7 (PDF p156, Table 7-2): CYP2D6 exposure and codeine; CYP2C9 clearance of S-warfarin and phenytoin; CYP2C19 activation of clopidogrel and inactivation of omeprazole. Lists unchanged.
+- Verified ok, no change: 035, 036, 037, 038, 039, 040 (10-fold GG14 ch3 PDF p71; warfarin trial results GG14 ch7 PDF p161), 041, 045, 046, 047, 048, 049, 050, 051, 052.
+- Deleted: none. Unverifiable: none in this chunk.
+- Level and duplicate checks: all cards have a level; no duplicate within the chunk.
+- Validator: node scripts/validate-content.mjs --check reports check ok.

@@ -177,3 +177,30 @@ All 84 study cards given explicit level (1/2/3); deck ordered by subtopic then l
 - Corrected rf-p3-steroids-0539: "3.75 to 7.5 mg" changed to "3.75 mg i.m. monthly" (GG14 ch46 gives 3.75 mg/month; 7.5 mg not found). Source line now KDT8 ch17 + GG14 ch46.
 - Verified OK: 101, 102 (KDT8 ch22 p362; ulipristal 120 h, Yuzpe 20-50% vs ~6%), 104, 105 (KDT8 p279 short-acting ganirelix/cetrorelix), 106.
 - Open: 101 mifepristone 600 mg is in Padmaja p513-514 but not KDT8 ch22; refs left as KDT8 ch22. Q bank pyq entries use year 0 (placeholder).
+
+## Recheck (all new cards, chunk 1/1)
+Scope: study ids p3-steroids-078 to 106 (29 cards) against KDT8 ch13/17/20/21/22, GG14 ch46/48, GG12 ch40, Katzung16 ch40, Ghosh FEP p87/136-137/150-151, Medhi PMECP p165/172.
+
+Corrected:
+- 078: methandienone added to the anabolic drug list (KDT8 ch21).
+- 081: "decanoate 100 mg every 3-4 weeks" moved to Sustanon 250, the product that contains it (KDT8 ch21).
+- 085: fludrocortisone has some glucocorticoid action; only DOCA is mineralocorticoid-only. Lung maturation is a steroid use, not a preferred-drug point (KDT8 ch20).
+- 087: why added (DES priming keeps the uterus quiet but sensitive, Ghosh FEP p87). Ref Ghosh FEP p87 added.
+- 088: ref Medhi PMECP p165 added (stilboestrol 0.1 mg/kg i.m.).
+- 093: relative contraindications limited to the book's list (diabetes, obesity, smoking). Rifampin advice now follows KDT8 ch22 (alternative method; 50 µg ethinylestradiol pill for other inducers).
+- 094: why added (routine rat test runs 12 weeks, covering the 9-week spermatogenesis cycle). Refs Ghosh FEP p150-151.
+- 097: heading "Non-hormonal" changed to "Nonsteroidal" (ormeloxifene is a SERM; the implant is hormonal). Ormeloxifene mechanism hedged to "probably" (KDT8 ch22). Levonorgestrel IUS stated as 52 mg, effective 5 years. Unsourced point on estrogen-unsuitable pills removed.
+- 098: "blocks implantation" changed to "probably acts by failure of implantation" (KDT8 ch22).
+- 103: recovery "up to about 2 months after stopping" restored to the back (KDT8 ch17 states it; the earlier pass removed it in error).
+
+Deleted: none. Every card in the chunk is supported after the corrections above.
+
+Verified, no change: 079, 080, 082, 083, 084, 086, 089, 090, 091, 092, 095, 096, 099, 100, 101 (mifepristone 600 mg and ulipristal 120 h both in KDT8 ch22), 102, 104, 105, 106.
+
+Duplicates: none exact. Overlapping study cards (101 Yuzpe section vs 102; 094 vs 095; 092 vs 096) are different card types and are kept.
+
+Unverifiable (WEB / UNSOURCED refs): none in this chunk.
+
+Page refs: Ghosh and Medhi refs use the PDF page numbers of the owner PDFs (as in search.py), which differ from printed page numbers.
+
+Subtopic ladder 3/2/1 still met everywhere (no deletions).

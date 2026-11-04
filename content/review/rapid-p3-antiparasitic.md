@@ -126,3 +126,27 @@ rf-p3-antiparasitic-0509 | corrected | Katzung16 PDF p1006 | dropped drug-of-cho
 - 0705 ok: GG12 PDF p1421 prints "recently completed phase III clinical trials" for artesunate-pyronaridine.
 - 0695-0704, 0706, 0707 checked against GG14 PDF p1321, RangDale9 PDF p711, KDT8 PDF p902-903: ok.
 - No Prep/RR5 refs. No deletions.
+
+## Recheck (all new cards, chunk 1/2)
+
+Checked against Katzung16 ch52-53 and KDT8 ch61-63. Three corrections, no deletions, no unverifiable refs in this chunk.
+
+| id | status | reason and source |
+|---|---|---|
+| rf-p3-antiparasitic-0563 | corrected | TMP-SMX: 15 mg/kg/day trimethoprim with 75 mg/kg sulfamethoxazole for 21 days (Katzung16 ch52), not 15-20 mg/kg |
+| rf-p3-antiparasitic-0580 | corrected | Route: deep IM or slow IV (Katzung16 ch52, KDT8 ch62); "IV preferred" was not in the sources |
+| rf-p3-antiparasitic-0590 | corrected | Katzung16 gives 2.5 mg/kg/day for 28 days for visceral disease; the cutaneous point is only that the trials were effective (Katzung16 ch52 references) |
+
+Checked and kept without change: 0518-0562, 0564-0579, 0581-0589, 0591-0594.
+
+## Recheck (all new cards, chunk 2/2)
+
+Checked against Katzung16 ch52-53, RangDale9 ch55 (PDF p703-711), GG14 ch66 (PDF p1321), GG12 PDF p1421, KDT8 ch61 (PDF p889-903). Three corrections, no deletions, no unverifiable refs in this chunk.
+
+| id | status | reason and source |
+|---|---|---|
+| rf-p3-antiparasitic-0605 | corrected | Dropped the "KDT8 in 2017 said awaiting approval" note: the year is not stated in the cited sources. Answer now gives the FDA 2018 approval and its uses (Katzung16 ch52) |
+| rf-p3-antiparasitic-0610 | corrected | The source says severe skin reactions are less common with single or intermittent SP dosing; the card now says so (Katzung16 ch52) |
+| rf-p3-antiparasitic-0707 | corrected | The >98% response rate is from clinical trials in India; the question now says so (KDT8 PDF p902) |
+
+Checked and kept without change: 0595-0604, 0606-0609, 0611-0704, 0705-0706, 0708.

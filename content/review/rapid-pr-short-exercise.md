@@ -158,3 +158,61 @@ Spot check of 25 rapid cards with numbers or FDC/Schedule Y content.
 Forbidden-source grep: no Prep, RR5 or RapidRev refs in either file.
 Validator: node scripts/validate-content.mjs --check reports "check ok" after edits.
 Not checked this pass: rapid cards without numbers (about 60 cards), rf-0061 wording against KDT8 ch5 Appendix 4.
+
+## Recheck (all new cards, chunk 1/1)
+id | result | source / note
+--- | --- | ---
+rf-pr-short-exercise-0079 | ok | KDT8 ch71 (pharmaceutical outside the body; PK; PD)
+rf-pr-short-exercise-0080 | ok | KDT8 ch71 (displacement of NSAID/anticoagulant); platelet and gastric part UNSOURCED
+rf-pr-short-exercise-0081 | ok | KDT8 ch4 (parallel shift = competitive)
+rf-pr-short-exercise-0082 | ok | KDT8 ch4 (flattened curve, maximum suppressed = noncompetitive)
+rf-pr-short-exercise-0083 | corrected | answer "Tachyphylaxis (tolerance)" -> "Desensitization (receptor refractoriness)"; ref KDT8 ch4 only
+rf-pr-short-exercise-0084 | corrected | ref Sarkar p376-380 -> Sarkar p371-375 (significance rule); still UNSOURCED for the rest
+rf-pr-short-exercise-0085 | ok | NNT = 1/ARR is not in the books checked; kept UNSOURCED
+rf-pr-short-exercise-0086 | corrected | added KDT8 ch56 (TB FDC, Table 56.2 text) and ch4 (single drug not given)
+rf-pr-short-exercise-0087 | corrected | removed chloroquine (no loading-dose statement found in owner books); answer digoxin, amiodarone; refs GG14 ch2 (digoxin loading box), GG12 ch29 (table 29-5)
+rf-pr-short-exercise-0088 | ok | KDT8 ch3 (loading dose for long t1/2 drugs, p58)
+
+Deleted: none. Unverifiable (UNSOURCED, kept): 0080 (part), 0084 (part), 0085.
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: every new card added to pr-short-exercise since v0.5.5 (rapid ids 0079-0088). Each was checked against the cited owner book text.
+
+Checked: 10. Corrected: 8. Deleted: 1 (0054, outside the chunk, duplicate of 0081). Unverifiable (UNSOURCED-only, left): 0.
+
+| id | status | change |
+|---|---|---|
+| rf-pr-short-exercise-0079 | corrected | Ref now RangDale9 ch12 (p161 names the three categories); KDT8 ch71 kept. |
+| rf-pr-short-exercise-0080 | corrected | Answer reworded to the book's two effects (antiplatelet and gastric damage; warfarin displacement, KDT8 ch71 p1000, p1002). UNSOURCED marker removed. |
+| rf-pr-short-exercise-0081 | ok | KDT8 ch4 p85-86. Kept as the more precise duplicate of 0054. |
+| rf-pr-short-exercise-0082 | corrected | Right shift with lowered maximum is nonequilibrium (irreversible) antagonism in KDT8 ch4 p86, not noncompetitive. |
+| rf-pr-short-exercise-0083 | corrected | Repeated equal doses in quick succession = tachyphylaxis (KDT8 ch5 p97); desensitization from continued stimulation (KDT8 ch4 p79). |
+| rf-pr-short-exercise-0084 | corrected | Sarkar p371-375 is the P<0.05 page. UNSOURCED marker removed. |
+| rf-pr-short-exercise-0085 | corrected | NNT is the inverse of ARR in Bennett & Brown Clin Pharmacol PDF p68. UNSOURCED-only marker replaced. |
+| rf-pr-short-exercise-0086 | corrected | FDC rationale is in KDT8 ch5 p89 and ch56 p836; ch4 removed. |
+| rf-pr-short-exercise-0087 | corrected | Digoxin and amiodarone loading doses are in GG14 ch34 (p702, p706) and GG12 ch29 (p860). GG14 ch2 removed (it does not name these drugs). |
+| rf-pr-short-exercise-0088 | ok | KDT8 ch3 p58 (loading dose attains target concentration rapidly; long t1/2 delay). |
+| rf-pr-short-exercise-0054 | deleted | Duplicate of 0081 (parallel right shift = competitive antagonism). 0081 is more precise. |
+
+## Recheck (all new cards, chunk 1/1)
+
+Scope: rapid ids rf-pr-short-exercise-0079 to 0088 (this chunk's rapid cards). Each card re-checked against the cited owner text (pdftotext / search.py / GG14, GG12, Bennett & Brown).
+
+Checked: 10. Corrected: 1 (0080). Deleted: 0. Unverifiable (UNSOURCED or WEB only): 0.
+
+| id | status | source / change |
+|---|---|---|
+| rf-pr-short-exercise-0079 | ok | Three classes (pharmaceutical, PK, PD): RangDale9 ch12 p161; KDT8 ch71 p999-1000 |
+| rf-pr-short-exercise-0080 | corrected | Warfarin displacement is by aspirin (KDT8 ch14 p230), so ref KDT8 ch14 added to KDT8 ch71 p1002 (antiplatelet and gastric bleeding). Answer unchanged. |
+| rf-pr-short-exercise-0081 | ok | Parallel shift, same maximum = competitive: KDT8 ch4 p85-86 |
+| rf-pr-short-exercise-0082 | ok | Right shift with lower maximum = nonequilibrium antagonism when spare receptors are few: KDT8 ch4 p86 |
+| rf-pr-short-exercise-0083 | ok | Repeated equal doses in quick succession = tachyphylaxis: KDT8 ch5 p97; desensitization KDT8 ch4 p79 |
+| rf-pr-short-exercise-0084 | ok | P < 0.05 meaning: Sarkar p371-375 |
+| rf-pr-short-exercise-0085 | ok | NNT is the inverse of absolute risk reduction: Bennett & Brown Clin Pharmacol PDF p68 |
+| rf-pr-short-exercise-0086 | ok | FDC rationale (prevent single-drug use and resistance, aid adherence): KDT8 ch5 p89; KDT8 ch56 p836 |
+| rf-pr-short-exercise-0087 | ok | Digoxin 0.6-1 mg loading dose: GG14 ch34 p706 (GG12 ch29 p863); amiodarone loading regimen with long t1/2: GG14 ch34 p702-704 (GG12 ch29 p860, p862) |
+| rf-pr-short-exercise-0088 | ok | Loading dose reaches target concentration quickly when t1/2 is long: KDT8 ch3 p58 |
+
+Duplicates: 0086 overlaps rf-pr-short-exercise-0017 (FDCs and monotherapy in TB, HIV, malaria). 0017 is outside this chunk; flagged for its own chunk, not changed here. 0079 and 0081 overlap study cards 049 and 051 (cross-format, kept).
+Validator: node scripts/validate-content.mjs --check reports "check ok" after these edits.
