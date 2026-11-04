@@ -26,7 +26,7 @@ export interface Settings {
 
 /** Home-screen icon choices. "original" = public/icons/icon-*.png; the rest live in public/icons/choices. */
 export const APP_ICONS: { id: string; label: string }[] = [
-  { id: "original", label: "Original" },
+  { id: "original", label: "Default (teal & coral)" },
   { id: "01-teal-coral", label: "Teal & coral" },
   { id: "02-indigo-amber", label: "Indigo & amber" },
   { id: "03-teal-amber", label: "Teal & amber" },

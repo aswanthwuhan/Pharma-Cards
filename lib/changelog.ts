@@ -5,6 +5,15 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.9",
+    changes: [
+      "New app icon: teal and coral pill on flashcards (replaces the blue P)",
+      "Every new card from the last releases re-checked against its source: about 950 corrected, unsupported ones removed",
+      "Cards for the last past-paper questions with no textbook source, marked for review",
+      "Now 5,091 study and 21,865 Rapid Fire cards",
+    ],
+  },
+  {
     version: "0.5.8",
     changes: [
       "Cards fact-checked against the textbooks across all four papers: corrected details and exact page sources",
