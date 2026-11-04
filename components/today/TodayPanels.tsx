@@ -13,7 +13,7 @@ const DEFAULT_SECONDS = 20;
 export function StatsStrip({ data }: { data?: TodayData }) {
   const none = !data || data.reviewsWeek === 0;
   return (
-    <section aria-label="Last 7 days" className="glass rounded-xl flex items-center gap-3 px-4 py-3">
+    <section aria-label="Last 7 days" className="sheet rounded-xl flex items-center gap-3 px-4 py-3">
       <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-well text-teal" aria-hidden>
         <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
           <path d="M3 12h4l2-6 4 12 2-6h6" />
@@ -68,7 +68,7 @@ export function DueHero({ data, needsDiagnostic }: { data?: TodayData; needsDiag
   const perCard = data?.avgSeconds ?? DEFAULT_SECONDS;
   const mins = Math.ceil((n * perCard) / 60);
   return (
-    <section aria-labelledby="due-hero" className="glass rounded-xl space-y-4 p-5">
+    <section aria-labelledby="due-hero" className="sheet rounded-xl space-y-4 p-5">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <p className="eyebrow">Today&apos;s queue</p>
@@ -114,7 +114,7 @@ export function DueTodayPanel({ data, needsDiagnostic }: { data?: TodayData; nee
     ["New cards", data?.newToday, false],
   ];
   return (
-    <section aria-labelledby="due-panel" className="glass rounded-xl space-y-4 p-5">
+    <section aria-labelledby="due-panel" className="sheet rounded-xl space-y-4 p-5">
       <div>
         <p id="due-panel" className="eyebrow">
           Cards due today
@@ -152,7 +152,7 @@ export function ExamCountdown({
   const total = data?.total ?? 0;
   const pct = total ? Math.round((seen / total) * 100) : 0;
   return (
-    <section aria-labelledby="countdown" className="glass rounded-xl space-y-4 p-5">
+    <section aria-labelledby="countdown" className="sheet rounded-xl space-y-4 p-5">
       <p id="countdown" className="eyebrow">
         Exam countdown
       </p>
@@ -199,7 +199,7 @@ export function AttentionList({ items }: { items?: AttentionItem[] }) {
   if (!items.length)
     return <p className="text-sm text-ink-soft">Nothing rated weak yet. Study a few cards and weak subtopics will show up here.</p>;
   return (
-    <ul className="glass rounded-xl divide-y divide-rule overflow-hidden">
+    <ul className="sheet rounded-xl divide-y divide-rule overflow-hidden">
       {items.map(({ m, s }) => (
         <li key={s.id}>
           <Link href={`/study?mode=topic&subtopic=${s.id}`} className="flex min-h-14 items-center justify-between gap-3 px-4 py-3 transition-colors hover:bg-teal-wash">
@@ -244,7 +244,7 @@ export function MoreWays() {
       <h2 id="more" className="font-serif text-xl">
         More ways to study
       </h2>
-      <ul className="glass rounded-xl divide-y divide-rule overflow-hidden">
+      <ul className="sheet rounded-xl divide-y divide-rule overflow-hidden">
         <ModeRow href="/study?mode=random&n=50" title="Grand random" desc="50 cards from every chapter, weighted towards your weaker topics" />
         <ModeRow href="/study?mode=rapid&dir=mixed" title="Rapid fire" desc="Quick two-way recall of facts and drug lists, forwards and reversed" />
         <ModeRow href="/browse" title="Custom mix" desc="Pick papers, topics, card types or PYQ-only cards" />

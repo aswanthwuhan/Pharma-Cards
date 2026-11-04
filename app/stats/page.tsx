@@ -45,7 +45,13 @@ export default function MasteryMap() {
   const studyCards = useStudyCards();
   const extras = useLiveQuery(
     async () => {
-      const [states, reviews, cards] = await Promise.all([db.cardStates.toArray(), db.reviews.toArray(), loadStudyCards()]);
+      // The inspector only shows a per-topic average, so a recent window is enough (same one-year cut as computeMastery).
+      const since = Date.now() - 365 * 86_400_000;
+      const [states, reviews, cards] = await Promise.all([
+        db.cardStates.toArray(),
+        db.reviews.where("at").aboveOrEqual(since).toArray(),
+        loadStudyCards(),
+      ]);
       // Study cards only: Rapid Fire (and its "~r" reverse ids) has its own progress.
       const ids = new Set(cards.filter((c) => !isRapid(c)).map((c) => c.id));
       const now = Date.now();
@@ -110,35 +116,40 @@ export default function MasteryMap() {
     return c;
   }, [rows]);
 
-  const passes = (r: Row) => {
-    if (filter === "nocards" && (r.m && r.m.cards > 0)) return false;
-    if (filter === "unassessed" && !(r.m && r.m.cards > 0 && r.m.score == null)) return false;
-    if (filter === "weak" || filter === "moderate" || filter === "strong") {
-      if (labelOf(r.m) !== filter) return false;
-    }
-    const q = query.trim().toLowerCase();
-    if (q) {
-      const hit =
-        r.topic.title.toLowerCase().includes(q) || r.topic.subtopics.some((s) => s.title.toLowerCase().includes(q));
-      if (!hit) return false;
-    }
-    return true;
-  };
+  const sections = useMemo(() => {
+    const passes = (r: Row) => {
+      if (filter === "nocards" && (r.m && r.m.cards > 0)) return false;
+      if (filter === "unassessed" && !(r.m && r.m.cards > 0 && r.m.score == null)) return false;
+      if (filter === "weak" || filter === "moderate" || filter === "strong") {
+        if (labelOf(r.m) !== filter) return false;
+      }
+      const q = query.trim().toLowerCase();
+      if (q) {
+        const hit =
+          r.topic.title.toLowerCase().includes(q) || r.topic.subtopics.some((s) => s.title.toLowerCase().includes(q));
+        if (!hit) return false;
+      }
+      return true;
+    };
 
-  const sections = PAPERS.filter((p) => paperId === "all" || p.id === paperId)
-    .map((paper) => {
-      const all = rows.filter((r) => r.paper.id === paper.id);
-      const shown = orderRows(all.filter(passes), sort);
-      return { paper, all, shown };
-    })
-    .filter((s) => s.shown.length > 0);
+    return PAPERS.filter((p) => paperId === "all" || p.id === paperId)
+      .map((paper) => {
+        const all = rows.filter((r) => r.paper.id === paper.id);
+        const shown = orderRows(all.filter(passes), sort);
+        return { paper, all, shown };
+      })
+      .filter((s) => s.shown.length > 0);
+  }, [rows, filter, paperId, query, sort]);
 
   const overall = weightedScore(rows.map((r) => r.m));
   const ratedCount = rows.filter((r) => r.m?.score != null).length;
   const selectedRow = rows.find((r) => r.topic.id === (selectedId ?? weakest(report?.topic, 1)[0]?.topicId)) ?? rows[0];
 
   const rankedRows = useMemo(() => orderRows(rows, "weakest"), [rows]);
-  const pickedCards: FlashCard[] = (studyCards ?? []).filter((c) => picks.has(c.topicId));
+  const pickedCards: FlashCard[] = useMemo(
+    () => (studyCards ?? []).filter((c) => picks.has(c.topicId)),
+    [studyCards, picks],
+  );
 
   const togglePick = (id: string) =>
     setPicks((cur) => {

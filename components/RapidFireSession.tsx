@@ -89,19 +89,30 @@ export function RapidFireSession({
     }
   }, [log]);
 
+  const skip = useCallback(() => {
+    if (!card) return;
+    setFlipped(false);
+    setCards((c) => [...c.slice(0, i), ...c.slice(i + 1), c[i]]);
+  }, [card, i]);
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement;
       if (el.closest?.("input, textarea, select, [contenteditable]")) return;
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") return void (e.preventDefault(), undoLast());
       if (done) return;
+      if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && e.key.toLowerCase() === "s") {
+        e.preventDefault();
+        skip();
+        return;
+      }
       if (e.code === "Space" || e.key === "Enter") {
         // Enter/Space on a focused control belongs to that control.
         if (el.closest?.("button, a, [role=radio]")) return;
         e.preventDefault();
         setFlipped((f) => !f);
       } else if (flipped && ["1", "2", "3", "4"].includes(e.key)) gradeCurrentCard(Number(e.key) as SwipeGrade);
-      else if (flipped && ARROW[e.key] && !(e.target as HTMLElement)?.closest?.("[role=radiogroup]")) {
+      else if (flipped && ARROW[e.key] && !el.closest?.("[data-card-scroller]") && !(e.target as HTMLElement)?.closest?.("[role=radiogroup]")) {
         // Arrows inside a radiogroup belong to the group (direction picker), not to grading.
         e.preventDefault();
         gradeCurrentCard(ARROW[e.key]);
@@ -109,7 +120,7 @@ export function RapidFireSession({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [flipped, undoLast, done]);
+  }, [flipped, undoLast, done, skip]);
 
   const knewCount = log.filter((l) => l.knew).length;
   const missed = log.filter((l) => !l.knew).map((l) => l.card);
@@ -120,7 +131,7 @@ export function RapidFireSession({
       <ProgressRing value={i} max={Math.max(1, cards.length)} />
       <div className="min-w-0 flex-1">
         <p className="eyebrow text-teal">Rapid fire</p>
-        <p className="font-serif text-base leading-snug">{title}</p>
+        <h1 className="font-serif text-base leading-snug">{title}</h1>
       </div>
       <Link href={fullCardsHref} role="switch" aria-checked="true" aria-label="Rapid fire mode on; switch to full cards" className="flex min-h-10 items-center gap-2 rounded-full border border-teal bg-teal-wash px-3 text-xs font-semibold text-teal">
         <span className="relative h-4 w-7 rounded-full bg-teal">
@@ -178,9 +189,9 @@ export function RapidFireSession({
         {header}
         <section className="card-surface">
           <p className="eyebrow">Rapid fire finished</p>
-          <h1 className="mt-2 font-serif text-4xl">
+          <h2 className="mt-2 font-serif text-4xl">
             {knewCount}/{log.length} <span className="text-ink-soft">known</span>
-          </h1>
+          </h2>
           <p className="mt-1 font-mono text-sm text-ink-soft">
             Best streak {best} · {Math.round((knewCount / Math.max(1, log.length)) * 100)}% recall
           </p>
@@ -244,10 +255,7 @@ export function RapidFireSession({
           next={cards[i + 1]}
           revealed={flipped}
           onFlip={() => setFlipped((f) => !f)}
-          onSkip={() => {
-            setFlipped(false);
-            setCards((c) => [...c.slice(0, i), ...c.slice(i + 1), c[i]]);
-          }}
+          onSkip={skip}
           onRate={grade}
           intervals={NO_INTERVALS}
           swipe={settings.swipe}
@@ -290,15 +298,18 @@ export function RapidFireSession({
         />
       </div>
 
-      <div className="flex h-9 shrink-0 items-center justify-center" role="status" aria-live="polite">
+      <div className="flex min-h-9 shrink-0 items-center justify-center gap-2" role="status" aria-live="polite">
         {log.length > 0 && (
           <span className="flex items-center gap-2 text-xs text-ink-soft">
             Last: <b style={{ color: log.at(-1)!.knew ? "var(--color-strong)" : "var(--color-weak)" }}>{log.at(-1)!.knew ? "Knew it" : "Didn't know"}</b>
-            <button onClick={undoLast} className="btn min-h-8 rounded-full bg-teal-wash px-3 text-xs text-teal">
+            <button onClick={undoLast} className="btn min-h-11 rounded-full bg-teal-wash px-3 text-xs text-teal">
               Undo
             </button>
           </span>
         )}
+        <button onClick={skip} className="btn-chip px-3 text-xs">
+          Skip
+        </button>
       </div>
 
       <div className="glass rounded-2xl p-2">

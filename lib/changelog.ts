@@ -5,6 +5,17 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.10",
+    changes: [
+      "Faster start: the card content loads on demand instead of up front on every screen",
+      "Screen readers can read the whole card, and long answers scroll with the arrow keys",
+      "New Skip button and S key: pass a card without marking it wrong",
+      "Skip to content link, bigger tap targets, and your phone's Reduce Motion setting is followed",
+      "A custom accent colour now also sets its hover and button text colours, with a contrast warning in Settings",
+      "Today and Mastery only switch to their wide layouts where the columns actually fit",
+    ],
+  },
+  {
     version: "0.5.9",
     changes: [
       "New app icon: teal and coral pill on flashcards (replaces the blue P)",

@@ -162,12 +162,16 @@ export function SwipeDeck({
     });
   }
 
-  // Grade buttons and keyboard trigger the same fly-out.
+  // Grade buttons and keyboard trigger the same fly-out. Registered once; the ref carries the latest commit.
+  const commitRef = useRef(commit);
   useEffect(() => {
-    const handler = (e: Event) => commit((e as CustomEvent<SwipeGrade>).detail);
+    commitRef.current = commit;
+  });
+  useEffect(() => {
+    const handler = (e: Event) => commitRef.current((e as CustomEvent<SwipeGrade>).detail);
     window.addEventListener("pharmacards:grade", handler);
     return () => window.removeEventListener("pharmacards:grade", handler);
-  });
+  }, []);
 
   function onPointerDown(e: React.PointerEvent) {
     if (leaving.current || gesture.current || (e.pointerType === "mouse" && e.button !== 0)) return;
@@ -254,6 +258,14 @@ export function SwipeDeck({
     if (g.axis === "y" && Math.abs(y.get()) < 4) coast(scrollVelocity(g.scrollSamples));
   }
 
+  /** The browser took the pointer (scroll/zoom/context menu): drop the gesture and settle back. */
+  function cancelGesture(e: React.PointerEvent) {
+    const g = gesture.current;
+    if (!g || e.pointerId !== g.id) return;
+    gesture.current = null;
+    if (g.axis) springBack();
+  }
+
   return (
     <LazyMotion features={domAnimation}>
       {/* Pointer handlers live on this plain div (not the motion element) so they always see current props. */}
@@ -264,7 +276,8 @@ export function SwipeDeck({
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
-        onPointerCancel={onPointerUp}
+        onPointerCancel={cancelGesture}
+        onLostPointerCapture={cancelGesture}
       >
         {/* next card peeking from behind */}
         {next && <m.div aria-hidden className="porcelain pointer-events-none absolute inset-0 origin-top" style={{ transform: peekTransform, opacity: peekOpacity }} />}
@@ -273,10 +286,7 @@ export function SwipeDeck({
           key={card.id}
           className={`porcelain absolute inset-0 flex flex-col overflow-hidden ${revealed ? "cursor-grab select-none active:cursor-grabbing" : "cursor-pointer"}`}
           style={{ x, y, rotate, touchAction: "none" }}
-          onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onFlip())}
-          role="button"
-          tabIndex={0}
-          aria-label={revealed ? "Flip back to the question" : "Show answer"}
+          aria-live="polite"
         >
           {/* Each side turns in on the Y axis when the card flips. */}
           <m.div
@@ -294,6 +304,10 @@ export function SwipeDeck({
           {/* Scrolls by mouse wheel natively; touch scrolling is driven by the gesture handler above. */}
           <div
             ref={scroller}
+            role="region"
+            aria-label="Answer"
+            tabIndex={0}
+            data-card-scroller
             className="min-h-0 flex-1 overflow-y-auto overscroll-contain"
             // Room below the answer so its last lines can scroll clear of the bottom swipe zone.
             style={{ touchAction: "none", paddingBottom: revealed && swipe && edge !== "top" ? band : 0 }}
@@ -303,6 +317,13 @@ export function SwipeDeck({
               {render ? render(revealed) : <MemoCard card={card} revealed={revealed} bare aside={aside} history={history} />}
             </div>
             {!revealed && <p className="pb-6 text-center font-mono text-xs text-porcelain-soft">Tap the card to see the answer</p>}
+          </div>
+
+          {/* Visible flip control: the card itself is not a fake button, so its text stays readable. */}
+          <div className="flex shrink-0 justify-center pt-1 pb-2">
+            <button type="button" onClick={onFlip} className="btn-chip">
+              {revealed ? "Flip back" : "Show answer"}
+            </button>
           </div>
           </m.div>
 
@@ -373,14 +394,14 @@ export function GradeDock({ intervals }: { intervals?: Record<number, string> })
           <button
             key={g}
             onClick={() => gradeCurrentCard(g)}
-            className="flex h-16 flex-col items-center justify-center gap-0.5 rounded-xl border transition-[transform,background-color] duration-100 active:scale-[0.97]"
+            className="flex min-h-16 flex-col items-center justify-center gap-0.5 rounded-xl border transition-[transform,background-color] duration-100 active:scale-[0.97]"
             style={{
               borderColor: `color-mix(in srgb, ${meta.color} 45%, transparent)`,
               background: `color-mix(in srgb, ${meta.color} 14%, var(--color-sheet))`,
             }}
           >
             {intervals?.[g] ? (
-              <span className="font-mono text-[11px]" style={{ color: meta.color }}>
+              <span className="font-mono text-[11px] text-ink">
                 {intervals[g]}
               </span>
             ) : null}

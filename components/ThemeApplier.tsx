@@ -3,6 +3,19 @@
 import { useEffect } from "react";
 import { CUSTOM_COLORS, DEFAULT_SETTINGS, appIconHref, useSettings, type CustomColor } from "@/lib/settings";
 
+/** Black or white, whichever reads better on the given hex colour. */
+function onColor(hex: string): string {
+  const m = /^#([0-9a-f]{6})$/i.exec(hex.trim());
+  if (!m) return "#ffffff";
+  const n = parseInt(m[1], 16);
+  const [r, g, b] = [n >> 16, (n >> 8) & 255, n & 255].map((v) => {
+    const c = v / 255;
+    return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  });
+  const lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  return (lum + 0.05) / 0.05 >= 1.05 / (lum + 0.05) ? "#000000" : "#ffffff";
+}
+
 /**
  * Applies the chosen mode, palette and motion setting to <html data-theme data-palette data-motion>.
  * "auto" follows the device's light/dark setting and updates live when it changes.
@@ -31,6 +44,17 @@ export function ThemeApplier() {
       for (const { cssVar } of Object.values(CUSTOM_COLORS)) {
         if (colors[cssVar]) root.style.setProperty(cssVar, colors[cssVar]);
         else root.style.removeProperty(cssVar);
+      }
+      // A custom accent also drives its hover / selected / on-accent colours.
+      const accent = colors["--color-teal"];
+      if (accent) {
+        root.style.setProperty("--color-teal-deep", `color-mix(in srgb, ${accent} 78%, black)`);
+        root.style.setProperty("--color-teal-wash", `color-mix(in srgb, ${accent} 18%, var(--color-paper))`);
+        root.style.setProperty("--color-on-teal", onColor(accent));
+      } else {
+        root.style.removeProperty("--color-teal-deep");
+        root.style.removeProperty("--color-teal-wash");
+        root.style.removeProperty("--color-on-teal");
       }
       // Browser chrome colour = the page background of the active palette.
       const bg = getComputedStyle(root).getPropertyValue("--color-paper").trim();

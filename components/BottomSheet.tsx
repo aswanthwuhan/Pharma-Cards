@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, LazyMotion, domAnimation, m } from "motion/react";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useDialogFocus } from "@/lib/useDialogFocus";
 import { useReduceMotion } from "@/lib/settings";
 
@@ -24,7 +24,28 @@ export function BottomSheet({
   const panel = useRef<HTMLDivElement>(null);
   // While the sheet is dragged, drop its backdrop blur: blur under a moving layer stutters on Android.
   const [dragging, setDragging] = useState(false);
+  // iOS keeps the layout viewport under the keyboard; lift the sheet above it so the note field stays visible.
+  const [keyboardInset, setKeyboardInset] = useState(0);
   useDialogFocus(open, panel, onClose);
+
+  useEffect(() => {
+    if (!open) {
+      setKeyboardInset(0);
+      return;
+    }
+    const vv = window.visualViewport;
+    if (!vv) return;
+    const update = () => {
+      setKeyboardInset(Math.max(0, window.innerHeight - vv.height - vv.offsetTop));
+    };
+    update();
+    vv.addEventListener("resize", update);
+    vv.addEventListener("scroll", update);
+    return () => {
+      vv.removeEventListener("resize", update);
+      vv.removeEventListener("scroll", update);
+    };
+  }, [open]);
 
   return (
     <LazyMotion features={domAnimation}>
@@ -46,7 +67,10 @@ export function BottomSheet({
               aria-label={title}
               tabIndex={-1}
               className="glass-strong relative max-h-[85dvh] w-full overflow-hidden rounded-t-2xl outline-none sm:max-w-lg sm:rounded-2xl"
-              style={dragging ? { backdropFilter: "none", WebkitBackdropFilter: "none" } : undefined}
+              style={{
+                marginBottom: keyboardInset,
+                ...(dragging ? { backdropFilter: "none", WebkitBackdropFilter: "none" } : {}),
+              }}
               initial={reduce ? { opacity: 0 } : { transform: "translateY(100%)" }}
               animate={reduce ? { opacity: 1 } : { transform: "translateY(0%)" }}
               exit={reduce ? { opacity: 0 } : { transform: "translateY(100%)" }}

@@ -35,7 +35,7 @@ export function TopicTile({
       onClick={onSelect}
       className={`relative flex h-full flex-col gap-3 overflow-hidden rounded-xl border p-4 text-left transition-colors hover:border-teal ${
         span ? "sm:col-span-2" : ""
-      } ${noCards ? "border-dashed border-rule bg-sheet opacity-60" : "border-rule bg-sheet"} ${selected ? "ring-2 ring-teal" : ""}`}
+      } ${noCards ? "border-dashed border-rule bg-sheet text-ink-soft" : "border-rule bg-sheet"} ${selected ? "ring-2 ring-teal" : ""}`}
     >
       <span className="absolute inset-x-0 top-0 h-1" style={{ background: color }} aria-hidden="true" />
 

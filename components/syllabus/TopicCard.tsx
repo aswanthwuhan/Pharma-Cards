@@ -30,7 +30,7 @@ export function TopicCard({ topic, cardCount, mastery, subtopicMastery, seen, du
 
   if (!cardCount) {
     return (
-      <li className="sheet px-4 py-4 opacity-50">
+      <li className="sheet border-dashed px-4 py-4 text-ink-soft">
         <p className="eyebrow min-w-0 truncate">0 cards{refs}</p>
         <p className="mt-1 font-serif text-lg leading-snug text-ink-soft">{topic.title}</p>
         <p className="mt-3 font-mono text-xs text-ink-soft">No cards yet</p>

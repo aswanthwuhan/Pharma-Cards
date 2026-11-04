@@ -79,6 +79,58 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
   const settings = useSettings();
   const intervals = previewIntervals(state, settings.retention);
 
+  // Notes save on a short debounce; the pending write is flushed on close, card change and unmount.
+  const [noteText, setNoteText] = useState(note?.text ?? "");
+  const noteSave = useRef<number | null>(null);
+  const notePending = useRef<{ id: string; text: string } | null>(null);
+  const noteDirty = useRef(false);
+
+  const flushNote = useCallback(() => {
+    if (noteSave.current !== null) {
+      window.clearTimeout(noteSave.current);
+      noteSave.current = null;
+    }
+    const p = notePending.current;
+    notePending.current = null;
+    if (!p) return;
+    if (p.text.trim()) db.notes.put({ cardId: p.id, text: p.text, updatedAt: Date.now() });
+    else db.notes.delete(p.id);
+  }, []);
+
+  const queueNote = useCallback(
+    (text: string) => {
+      setNoteText(text);
+      if (!card) return;
+      noteDirty.current = true;
+      notePending.current = { id: card.id, text };
+      if (noteSave.current !== null) window.clearTimeout(noteSave.current);
+      noteSave.current = window.setTimeout(() => {
+        noteSave.current = null;
+        const p = notePending.current;
+        notePending.current = null;
+        if (p) {
+          if (p.text.trim()) db.notes.put({ cardId: p.id, text: p.text, updatedAt: Date.now() });
+          else db.notes.delete(p.id);
+        }
+      }, 400);
+    },
+    [card],
+  );
+
+  // Load the stored note when it arrives; typing wins over later live-query updates.
+  useEffect(() => {
+    noteDirty.current = false;
+  }, [card?.id]);
+  useEffect(() => {
+    if (noteDirty.current) return;
+    if (note && card && note.cardId !== card.id) {
+      setNoteText("");
+      return;
+    }
+    setNoteText(note?.text ?? "");
+  }, [note, card?.id]);
+  useEffect(() => () => flushNote(), [card?.id, flushNote]);
+
   useEffect(() => {
     computeMastery().then(setBefore);
   }, []);
@@ -148,6 +200,12 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
     }
   }, [history]);
 
+  const skip = useCallback(() => {
+    if (!card) return;
+    setRevealed(false);
+    setCards((c) => [...c.slice(0, i), ...c.slice(i + 1), c[i]]);
+  }, [card, i]);
+
   // Keyboard: Space/Enter reveal; 1-4 or arrow keys grade; Ctrl/Cmd+Z undo.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -159,6 +217,11 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
         return;
       }
       if (done) return;
+      if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && e.key.toLowerCase() === "s") {
+        e.preventDefault();
+        skip();
+        return;
+      }
       // Enter/Space on a focused control is that control's (e.g. "End session" must follow its link).
       const activate = e.code === "Space" || e.key === "Enter";
       if (activate && el.closest?.("button, a, [role=radio]")) return;
@@ -166,14 +229,14 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
         e.preventDefault();
         setRevealed(true);
       } else if (revealed && ["1", "2", "3", "4"].includes(e.key)) gradeCurrentCard(Number(e.key) as SwipeGrade);
-      else if (revealed && ARROW[e.key]) {
+      else if (revealed && ARROW[e.key] && !el.closest?.("[data-card-scroller]")) {
         e.preventDefault();
         gradeCurrentCard(ARROW[e.key]);
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [revealed, undoLast, noteOpen, done]);
+  }, [revealed, undoLast, noteOpen, done, skip]);
 
   if (!cards.length)
     return (
@@ -227,6 +290,9 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
               Undo
             </button>
           )}
+          <button onClick={skip} className="btn min-h-11 border border-rule bg-sheet px-3 text-xs text-ink-soft">
+            Skip
+          </button>
           <button
             onClick={() => setNoteOpen(true)}
             className={`btn min-h-10 border bg-sheet px-3 text-xs ${note ? "border-moderate text-moderate" : "border-rule text-ink-soft"}`}
@@ -250,10 +316,7 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
           next={cards[i + 1]}
           revealed={revealed}
           onFlip={() => setRevealed((r) => !r)}
-          onSkip={() => {
-            setRevealed(false);
-            setCards((c) => [...c.slice(0, i), ...c.slice(i + 1), c[i]]);
-          }}
+          onSkip={skip}
           onRate={rate}
           intervals={intervals}
           swipe={settings.swipe}
@@ -267,11 +330,11 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
       </div>
 
       {/* status strip: last grade + undo, or the swipe hint. Fixed height, so it never covers the card or shifts layout. */}
-      <div className="flex h-9 shrink-0 items-center justify-center" role="status" aria-live="polite">
+      <div className="flex min-h-9 shrink-0 items-center justify-center" role="status" aria-live="polite">
         {toast !== null && history.length > 0 ? (
           <span className="glass flex items-center gap-2 rounded-full py-0.5 pr-0.5 pl-3 text-xs">
             Marked <b style={{ color: GRADE_META[toast].color }}>{GRADE_META[toast].label}</b>
-            <button onClick={undoLast} className="btn min-h-8 rounded-full bg-teal-wash px-3 text-xs text-teal">
+            <button onClick={undoLast} className="btn min-h-11 rounded-full bg-teal-wash px-3 text-xs text-teal">
               Undo
             </button>
           </span>
@@ -290,21 +353,17 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
         )}
       </div>
 
-      <BottomSheet open={noteOpen} onClose={() => setNoteOpen(false)} title="Your note">
+      <BottomSheet open={noteOpen} onClose={() => { flushNote(); setNoteOpen(false); }} title="Your note">
         <div className="space-y-3 px-5">
           <p className="text-sm text-ink-soft">A mnemonic or correction for this card. It saves as you type.</p>
           <textarea
             key={card.id}
             rows={5}
             autoFocus
-            defaultValue={note?.text ?? ""}
+            value={noteText}
             aria-label="Note for this card"
             className="w-full rounded-xl border border-rule bg-well p-3 text-ink"
-            onChange={(e) =>
-              e.target.value.trim()
-                ? db.notes.put({ cardId: card.id, text: e.target.value, updatedAt: Date.now() })
-                : db.notes.delete(card.id)
-            }
+            onChange={(e) => queueNote(e.target.value)}
           />
         </div>
       </BottomSheet>

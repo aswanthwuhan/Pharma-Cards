@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState, type KeyboardEvent } from "react";
+import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from "react";
 import { DraftInput, Panel, Row, Segmented, Toggle } from "@/components/settings/controls";
 import { DataPanel } from "@/components/settings/DataPanel";
 import { APP_ICONS, CUSTOM_COLORS, PALETTES, appIconHref, updateSetting, useSettings, type CustomColor, type Settings } from "@/lib/settings";
@@ -14,6 +14,27 @@ function daysUntil(iso: string) {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   return Math.round((target - today.getTime()) / 86_400_000);
+}
+
+/** WCAG relative luminance of a #rgb / #rrggbb colour, or null when unparseable. */
+function luminance(hex: string): number | null {
+  const m = /^#?([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(hex.trim());
+  if (!m) return null;
+  const h = m[1].length === 3 ? [...m[1]].map((c) => c + c).join("") : m[1];
+  const n = parseInt(h, 16);
+  const [r, g, b] = [n >> 16, (n >> 8) & 255, n & 255].map((v) => {
+    const c = v / 255;
+    return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  });
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+function contrastRatio(a: string, b: string): number | null {
+  const la = luminance(a);
+  const lb = luminance(b);
+  if (la === null || lb === null) return null;
+  const [hi, lo] = la > lb ? [la, lb] : [lb, la];
+  return (hi + 0.05) / (lo + 0.05);
 }
 
 /** Colour pickers over the palette. Each shows the effective colour (custom or palette) read from <html>. */
@@ -48,6 +69,20 @@ function CustomColors({ s }: { s: Settings }) {
     updateSetting("customColors", next);
   };
   const keys = Object.keys(CUSTOM_COLORS) as CustomColor[];
+  // The colour a picker is showing right now (unsaved drag preview first, then the applied theme).
+  const effectiveFor = (cssVar: string) => {
+    const key = keys.find((k) => CUSTOM_COLORS[k].cssVar === cssVar);
+    return (key && draft[key]) || effective[cssVar] || "";
+  };
+  const lowContrast = [
+    ["text on background", "--color-ink", "--color-paper"],
+    ["card text on card", "--color-porcelain-ink", "--color-porcelain"],
+  ]
+    .filter(([, fg, bg]) => {
+      const ratio = contrastRatio(effectiveFor(fg), effectiveFor(bg));
+      return ratio !== null && ratio < 4.5;
+    })
+    .map(([label]) => label);
   return (
     <div className="border-t border-rule px-4 py-4 sm:px-5">
       <div className="mb-3 flex items-start justify-between gap-4">
@@ -66,6 +101,11 @@ function CustomColors({ s }: { s: Settings }) {
           Reset all
         </button>
       </div>
+      {lowContrast.length > 0 && (
+        <p role="status" className="mb-3 rounded-lg border border-moderate/50 bg-moderate/10 px-3 py-2 text-sm text-moderate">
+          Low contrast ({lowContrast.join(", ")}): aim for 4.5:1 or more so text stays readable.
+        </p>
+      )}
       <ul className="grid gap-1 sm:grid-cols-2 sm:gap-x-6">
         {keys.map((k) => {
           const { cssVar, label } = CUSTOM_COLORS[k];
@@ -77,7 +117,7 @@ function CustomColors({ s }: { s: Settings }) {
                 aria-label={`${label} colour`}
                 value={/^#[0-9a-f]{6}$/i.test(value) ? value : "#000000"}
                 onChange={(e) => preview(k, e.target.value)}
-                className="h-9 w-11 shrink-0 cursor-pointer rounded-md border border-rule bg-transparent"
+                className="h-11 w-11 shrink-0 cursor-pointer rounded-md border border-rule bg-transparent"
               />
               <span className="flex-1 text-sm">
                 {label}
@@ -122,8 +162,18 @@ function onRadioKeyDown(e: KeyboardEvent<HTMLDivElement>) {
 export default function SettingsPage() {
   const s = useSettings();
   const cards = useAllCards();
-  const approved = cards?.filter((c) => c.status === "approved").length;
+  const approved = useMemo(() => cards?.filter((c) => c.status === "approved").length, [cards]);
   const retentionPct = Math.round(s.retention * 100);
+  // Palette previews follow what Auto actually shows, not just an explicit Day choice.
+  const [systemLight, setSystemLight] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia("(prefers-color-scheme: light)");
+    const sync = () => setSystemLight(mq.matches);
+    sync();
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
+  const dayPreview = s.theme === "light" || (s.theme === "auto" && systemLight);
 
   return (
     <div className="space-y-6">
@@ -349,7 +399,7 @@ export default function SettingsPage() {
               <div className="grid grid-cols-2 gap-2 sm:grid-cols-3" role="radiogroup" aria-label="Colour theme" onKeyDown={onRadioKeyDown}>
                 {PALETTES.map((p) => {
                   const on = s.palette === p.id;
-                  const sw = s.theme === "light" ? p.day : p.night;
+                  const sw = dayPreview ? p.day : p.night;
                   return (
                     <button
                       key={p.id}

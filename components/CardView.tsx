@@ -37,7 +37,7 @@ export function CardView({
   const body = (
     <div className="px-5 pt-5 pb-6 sm:px-7 sm:pt-6">
       <div className="flex flex-wrap items-center gap-2">
-        {aside && <span className="order-last ml-auto">{aside}</span>}
+        {aside && <span className="order-last ml-auto" aria-live="off">{aside}</span>}
         <span className="rounded-full px-2 py-0.5 font-mono text-[11px] font-semibold text-white" style={{ background: t.color }}>
           {t.label}
         </span>

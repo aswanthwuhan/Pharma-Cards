@@ -30,7 +30,7 @@ export const viewport: Viewport = {
   interactiveWidget: "resizes-content",
 };
 
-const THEME_SCRIPT = `try{var s=JSON.parse(localStorage.getItem("pharmacards:theme")||"{}"),t=s.theme||"dark",r=document.documentElement;r.dataset.theme=t==="auto"?(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"):t;r.dataset.palette=s.palette||"petrol";for(var k in s.colors||{})r.style.setProperty(k,s.colors[k]);if(s.appIcon&&s.appIcon!=="original")for(var n of["icon","apple-touch-icon"]){var l=document.querySelector('link[rel="'+n+'"]')||document.head.appendChild(Object.assign(document.createElement("link"),{rel:n}));l.href="${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/choices/"+s.appIcon+"-180.png"}}catch(e){}`;
+const THEME_SCRIPT = `try{var s=JSON.parse(localStorage.getItem("pharmacards:theme")||"{}"),t=s.theme||"dark",r=document.documentElement;r.dataset.theme=t==="auto"?(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"):t;r.dataset.palette=s.palette||"petrol";for(var k in s.colors||{})r.style.setProperty(k,s.colors[k]);var P={petrol:{dark:"#091a1d",light:"#ecfcff"},ocean:{dark:"#0a1424",light:"#eef5ff"},plum:{dark:"#160f1c",light:"#fbf5ff"},graphite:{dark:"#111214",light:"#f6f6f4"},sepia:{dark:"#1a1510",light:"#f7f1e3"}},q=P[r.dataset.palette]||P.petrol,paper=(s.colors&&s.colors["--color-paper"])||getComputedStyle(r).getPropertyValue("--color-paper").trim()||q[r.dataset.theme==="light"?"light":"dark"],mt=document.querySelector('meta[name="theme-color"]');if(mt)mt.setAttribute("content",paper);if(s.appIcon&&s.appIcon!=="original")for(var n of["icon","apple-touch-icon"]){var l=document.querySelector('link[rel="'+n+'"]')||document.head.appendChild(Object.assign(document.createElement("link"),{rel:n}));l.href="${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/choices/"+s.appIcon+"-180.png"}}catch(e){}`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -40,6 +40,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
       <body className="min-h-dvh">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:mx-3 focus:my-3 focus:rounded-full focus:bg-teal focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-on-teal"
+        >
+          Skip to content
+        </a>
         <ThemeApplier />
         <RegisterSW />
         <Nav />
@@ -48,7 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <UpdateCheck />
         {/* Phones: one column. Desktop: content beside the 16rem rail, up to 72rem wide. */}
         <div className="lg:pl-64">
-          <main className="mx-auto max-w-3xl px-5 pt-4 pb-[calc(6rem+env(safe-area-inset-bottom))] lg:max-w-6xl lg:px-10 lg:pt-8 lg:pb-12">
+          <main id="main" tabIndex={-1} className="mx-auto max-w-3xl px-5 pt-4 pb-[calc(6rem+env(safe-area-inset-bottom))] lg:max-w-6xl lg:px-10 lg:pt-8 lg:pb-12">
             <PageEnter>{children}</PageEnter>
           </main>
         </div>

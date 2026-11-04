@@ -130,7 +130,7 @@ export default function Syllabus() {
         <div
           role="group"
           aria-label="Filter by paper"
-          className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none] lg:mx-0 lg:flex-wrap lg:px-0 [&::-webkit-scrollbar]:hidden"
+          className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0 [&::-webkit-scrollbar]:hidden"
         >
           {[{ id: "all", label: "All papers" }, ...PAPERS.map((p) => ({ id: p.id, label: `${shortPaper(p.title)}: ${paperChipName(p.title)}` }))].map(
             (f) => (
@@ -139,7 +139,7 @@ export default function Syllabus() {
                 type="button"
                 aria-pressed={paper === f.id}
                 onClick={() => setPaper(f.id)}
-                className={`${paper === f.id ? "btn-chip-on" : "btn-chip"} shrink-0 !min-h-11 whitespace-nowrap`}
+                className={`${paper === f.id ? "btn-chip-on" : "btn-chip"} shrink-0 whitespace-nowrap`}
               >
                 {f.label}
               </button>

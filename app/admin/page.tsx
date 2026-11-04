@@ -1,7 +1,7 @@
 "use client";
 
 import { cardError } from "@/lib/cardCheck";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { CardView } from "@/components/CardView";
 import { db, patchOverride } from "@/lib/db";
 import { saveTextFile } from "@/components/settings/DataPanel";
@@ -25,15 +25,21 @@ export default function Admin() {
   const [subtopic, setSubtopic] = useState("");
   const [editing, setEditing] = useState<string | null>(null);
   const [msg, setMsg] = useState("");
+  const [limit, setLimit] = useState(50);
 
   const subtopics = topic ? (topicById.get(topic)?.subtopics ?? []) : [];
-  const list = (cards ?? []).filter(
-    (c) =>
-      !isRapid(c) && // CardView cannot render Rapid Fire pairs
-      (filter === "all" || c.status === filter) &&
-      (!topic || c.topicId === topic) &&
-      (!subtopic || c.subtopic === subtopic),
+  const list = useMemo(
+    () =>
+      (cards ?? []).filter(
+        (c) =>
+          !isRapid(c) && // CardView cannot render Rapid Fire pairs
+          (filter === "all" || c.status === filter) &&
+          (!topic || c.topicId === topic) &&
+          (!subtopic || c.subtopic === subtopic),
+      ),
+    [cards, filter, topic, subtopic],
   );
+  const shown = list.slice(0, limit);
   const total = cards?.length ?? 0;
   const approved = cards?.filter((c) => c.status === "approved").length ?? 0;
   const drafts = cards?.filter((c) => c.status === "draft").length ?? 0;
@@ -91,7 +97,7 @@ export default function Admin() {
 
         <div className="flex flex-wrap items-center gap-2">
           {(["draft", "approved", "all"] as const).map((f) => (
-            <button key={f} className={filter === f ? chipOn : chipOff} onClick={() => setFilter(f)}>
+            <button key={f} className={filter === f ? chipOn : chipOff} aria-pressed={filter === f} onClick={() => setFilter(f)}>
               {f === "draft" ? "Waiting for review" : f === "approved" ? "Approved" : "All cards"}
             </button>
           ))}
@@ -132,7 +138,7 @@ export default function Admin() {
         {filter === "draft" && list.length > 0 && (
           <button
             className="btn-ghost"
-            onClick={() => confirm(`Approve all ${Math.min(list.length, 50)} cards shown?`) && Promise.all(list.slice(0, 50).map((c) => patchOverride({ id: c.id, status: "approved" })))}
+            onClick={() => confirm(`Approve all ${shown.length} cards shown?`) && Promise.all(shown.map((c) => patchOverride({ id: c.id, status: "approved" })))}
           >
             Approve all on this page
           </button>
@@ -163,7 +169,7 @@ export default function Admin() {
         </div>
       </div>
 
-      {list.slice(0, 50).map((c) => {
+      {shown.map((c) => {
         if (editing === c.id) return <Editor key={c.id} card={c} onClose={() => setEditing(null)} />;
         const subTitle = c.subtopic ? subtopicById.get(c.subtopic)?.title : undefined;
         return (
@@ -197,7 +203,11 @@ export default function Admin() {
           </div>
         );
       })}
-      {list.length > 50 && <p className="text-sm text-ink-soft">Showing 50 of {list.length}. Filter by topic to see more.</p>}
+      {list.length > limit && (
+        <button className="btn-chip" onClick={() => setLimit((n) => n + 50)}>
+          Show more ({list.length - limit} remaining)
+        </button>
+      )}
       {cards && !list.length && <p className="text-sm text-ink-soft">No cards match these filters.</p>}
     </div>
   );
@@ -213,6 +223,7 @@ function Editor({ card, onClose }: { card: FlashCard; onClose: () => void }) {
         Edit as JSON. Add PYQ tags like <code className="font-mono">{'{"university":"RGUHS","year":2022,"marks":10}'}</code>
       </p>
       <textarea
+        aria-label="Card JSON"
         className="h-80 w-full rounded-xl border border-rule bg-well p-3 font-mono text-xs text-ink"
         value={json}
         onChange={(e) => setJson(e.target.value)}

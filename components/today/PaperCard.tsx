@@ -12,8 +12,8 @@ export function VerticalCapsule({ score, label, className = "" }: { score: numbe
     <span className={`relative block h-14 w-4 shrink-0 overflow-hidden rounded-full border border-rule bg-well ${className}`} aria-hidden>
       {score != null && (
         <span
-          className="absolute inset-x-0 bottom-0 transition-[height] duration-500"
-          style={{ height: `${Math.max(score, 6)}%`, background: LABEL_COLOR[label] }}
+          className="absolute inset-x-0 bottom-0 h-full origin-bottom transition-transform duration-500"
+          style={{ transform: `scaleY(${Math.max(score, 6) / 100})`, background: LABEL_COLOR[label] }}
         />
       )}
       {[25, 50, 75].map((p) => (
@@ -55,7 +55,7 @@ export function PaperCard({
 
   return (
     <div
-      className={`glass rounded-xl flex flex-col p-4 transition-colors lg:p-5 ${selected ? "" : "hover:border-teal"}`}
+      className={`sheet rounded-xl flex flex-col p-4 transition-colors lg:p-5 ${selected ? "" : "hover:border-teal"}`}
       style={selected ? { borderColor: "var(--color-teal)", background: "var(--color-teal-wash)" } : undefined}
     >
       <button

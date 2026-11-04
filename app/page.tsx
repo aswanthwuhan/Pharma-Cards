@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useSettings } from "@/lib/settings";
 import { startOfDay, useMastery, weakest } from "@/lib/store";
 import { PAPERS, subtopicById } from "@/lib/syllabus";
@@ -50,20 +50,27 @@ export default function Today() {
             ? "Exam today"
             : "Exam date has passed";
 
-  const summaries = new Map<string, PaperSummary>(PAPERS.map((p) => [p.id, summarisePaper(p, mastery?.topic)]));
+  const summaries = useMemo(
+    () => new Map<string, PaperSummary>(PAPERS.map((p) => [p.id, summarisePaper(p, mastery?.topic)])),
+    [mastery],
+  );
 
-  const weakTags = weakest(mastery?.tag, 4);
-  const weakSubs: AttentionItem[] | undefined = mastery
-    ? weakest(mastery.subtopic, 20)
-        .flatMap((m) => {
-          const s = subtopicById.get(m.topicId);
-          return s ? [{ m, s }] : [];
-        })
-        .slice(0, 5)
-    : undefined;
+  const weakTags = useMemo(() => weakest(mastery?.tag, 4), [mastery]);
+  const weakSubs = useMemo<AttentionItem[] | undefined>(
+    () =>
+      mastery
+        ? weakest(mastery.subtopic, 20)
+            .flatMap((m) => {
+              const s = subtopicById.get(m.topicId);
+              return s ? [{ m, s }] : [];
+            })
+            .slice(0, 5)
+        : undefined,
+    [mastery],
+  );
 
   const paperGrid = (
-    <section aria-labelledby="papers" className="space-y-3 lg:col-start-2 lg:row-start-2">
+    <section aria-labelledby="papers" className="space-y-3 xl:col-start-2 xl:row-start-2">
       <div className="flex items-baseline justify-between gap-2">
         <h2 id="papers" className="font-serif text-2xl">
           Syllabus papers and mastery
@@ -104,8 +111,8 @@ export default function Today() {
   );
 
   return (
-    <div className="space-y-6 pb-8 lg:grid lg:grid-cols-[17rem_minmax(0,1fr)_18rem] lg:items-start lg:gap-6 lg:space-y-0">
-      <header className="space-y-2 lg:col-span-3">
+    <div className="mx-auto max-w-3xl space-y-6 pb-8 xl:max-w-none xl:grid xl:grid-cols-[17rem_minmax(0,1fr)_18rem] xl:items-start xl:gap-6 xl:space-y-0">
+      <header className="space-y-2 xl:col-span-3">
         <p className="eyebrow">Today</p>
         <h1 className="font-serif text-4xl">Welcome back</h1>
         <div className="flex flex-wrap items-center gap-2 font-mono text-xs text-ink-soft">
@@ -125,7 +132,7 @@ export default function Today() {
       </header>
 
       {/* Mobile: stats, hero, then papers */}
-      <div className="space-y-4 lg:hidden">
+      <div className="space-y-4 xl:hidden">
         <StatsStrip data={data} />
         <DueHero data={data} needsDiagnostic={needsDiagnostic} />
       </div>
@@ -133,7 +140,7 @@ export default function Today() {
       {paperGrid}
 
       {/* Mobile: attention, weak question types, more ways */}
-      <div className="space-y-6 lg:hidden">
+      <div className="space-y-6 xl:hidden">
         <section aria-labelledby="attention" className="space-y-3">
           <h2 id="attention" className="font-serif text-2xl">
             Needs attention
@@ -145,7 +152,7 @@ export default function Today() {
       </div>
 
       {/* Desktop left: stats, countdown, trend, targeted practice */}
-      <aside className="hidden space-y-6 lg:col-start-1 lg:row-start-2 lg:block">
+      <aside className="hidden space-y-6 xl:col-start-1 xl:row-start-2 xl:block">
         <StatsStrip data={data} />
         <ExamCountdown examName={examName} examDate={examDate} daysLeft={daysLeft} data={data} />
         <SessionTrend points={data?.sessions} />
@@ -158,7 +165,7 @@ export default function Today() {
       </aside>
 
       {/* Desktop right: due breakdown, weak question types, more ways */}
-      <aside className="hidden space-y-6 lg:col-start-3 lg:row-start-2 lg:block">
+      <aside className="hidden space-y-6 xl:col-start-3 xl:row-start-2 xl:block">
         <DueTodayPanel data={data} needsDiagnostic={needsDiagnostic} />
         <WeakTypes tags={weakTags} />
         <MoreWays />

@@ -84,7 +84,7 @@ export const DEFAULT_SETTINGS: Settings = {
   swipeZoneVisible: false,
   haptics: true,
   theme: "dark",
-  motion: "full",
+  motion: "system",
   essayStyle: "ladder",
   palette: "petrol",
   appIcon: "original",

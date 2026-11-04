@@ -102,7 +102,7 @@ export function RankedTable({
       )}
 
       {/* Table header (desktop) */}
-      <div className="hidden grid-cols-[2rem_minmax(0,2.4fr)_minmax(0,1.3fr)_4.5rem_6.5rem_6rem_4.5rem_5rem] items-center gap-3 border-b border-rule px-5 py-2 font-mono text-[11px] uppercase tracking-[0.06em] text-ink-soft sm:grid">
+      <div className="hidden grid-cols-[2.75rem_minmax(0,2.4fr)_minmax(0,1.3fr)_4.5rem_6.5rem_6rem_4.5rem_5rem] items-center gap-3 border-b border-rule px-5 py-2 font-mono text-[11px] uppercase tracking-[0.06em] text-ink-soft lg:grid">
         <span />
         <span>Topic</span>
         <span>Paper</span>
@@ -122,9 +122,9 @@ export function RankedTable({
           return (
             <li
               key={r.topic.id}
-              className={`grid grid-cols-[2rem_minmax(0,1fr)_auto] items-center gap-3 px-4 py-3 sm:grid-cols-[2rem_minmax(0,2.4fr)_minmax(0,1.3fr)_4.5rem_6.5rem_6rem_4.5rem_5rem] sm:px-5 ${on ? "bg-teal-wash" : ""}`}
+              className={`grid grid-cols-[2.75rem_minmax(0,1fr)_auto] items-center gap-3 px-4 py-3 lg:grid-cols-[2.75rem_minmax(0,2.4fr)_minmax(0,1.3fr)_4.5rem_6.5rem_6rem_4.5rem_5rem] lg:px-5 ${on ? "bg-teal-wash" : ""}`}
             >
-              <label className="grid h-6 w-6 cursor-pointer place-items-center">
+              <label className="grid h-11 w-11 cursor-pointer place-items-center">
                 <input
                   type="checkbox"
                   className="h-4 w-4 accent-teal"
@@ -135,27 +135,27 @@ export function RankedTable({
               </label>
               <span className="min-w-0">
                 <span className="block truncate text-sm">{r.topic.title}</span>
-                <span className="mt-0.5 flex flex-wrap items-center gap-x-2 font-mono text-[11px] tabular-nums text-ink-soft sm:hidden">
+                <span className="mt-0.5 flex flex-wrap items-center gap-x-2 font-mono text-[11px] tabular-nums text-ink-soft lg:hidden">
                   <span style={{ color: labelColor(label) }}>{r.m?.score ?? "—"} / 100</span>
                   <span>{statusWord(r.m)}</span>
                   <span>{seenPct}% seen</span>
                   <span>{r.m?.cards ?? 0} cards</span>
                 </span>
               </span>
-              <span className="hidden truncate font-mono text-[11px] text-ink-soft sm:block">{PAPER_TAB[r.paper.id] ?? paperTitle(r.paper)}</span>
-              <span className="hidden font-mono text-sm tabular-nums sm:block" style={{ color: labelColor(label) }}>
+              <span className="hidden truncate font-mono text-[11px] text-ink-soft lg:block">{PAPER_TAB[r.paper.id] ?? paperTitle(r.paper)}</span>
+              <span className="hidden font-mono text-sm tabular-nums lg:block" style={{ color: labelColor(label) }}>
                 {r.m?.score ?? "—"} <span className="text-[11px] text-ink-soft">/ 100</span>
               </span>
-              <span className="hidden sm:block">
+              <span className="hidden lg:block">
                 <LabelChip label={label} />
               </span>
-              <span className="hidden items-center gap-2 sm:flex">
+              <span className="hidden items-center gap-2 lg:flex">
                 <span className="w-12">
                   <CoverageBar pct={seenPct} thin />
                 </span>
                 <span className="font-mono text-[11px] tabular-nums text-ink-soft">{seenPct}%</span>
               </span>
-              <span className="hidden text-right font-mono text-sm tabular-nums sm:block">{r.m?.cards ?? 0}</span>
+              <span className="hidden text-right font-mono text-sm tabular-nums lg:block">{r.m?.cards ?? 0}</span>
               <span className="text-right">
                 <button type="button" className="btn-ghost min-h-9 px-3 text-xs" onClick={() => onInspect(r.topic.id)}>
                   Inspect

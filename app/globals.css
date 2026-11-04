@@ -84,7 +84,7 @@
   -webkit-font-smoothing: antialiased;
 }
 :root[data-theme="light"] body {
-  background-image: radial-gradient(rgba(13, 59, 66, 0.05) 1px, transparent 1px);
+  background-image: radial-gradient(color-mix(in srgb, var(--color-ink) 5%, transparent) 1px, transparent 1px);
 }
 
 /* ---- Glass. Derived from the active palette's surface and ink with color-mix,
@@ -174,7 +174,7 @@ body::before {
 /* Faint, thin scrollbars: low-contrast thumb on a transparent track, no layout gutter. */
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(183, 245, 216, 0.12) transparent;
+  scrollbar-color: color-mix(in srgb, var(--color-ink-soft) 30%, transparent) transparent;
 }
 *::-webkit-scrollbar {
   width: 6px;
@@ -182,11 +182,11 @@ body::before {
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: rgba(183, 245, 216, 0.12);
+  background: color-mix(in srgb, var(--color-ink-soft) 30%, transparent);
   border-radius: 999px;
 }
 *::-webkit-scrollbar-thumb:hover {
-  background: rgba(183, 245, 216, 0.3);
+  background: color-mix(in srgb, var(--color-ink-soft) 50%, transparent);
 }
 
 html {
@@ -200,7 +200,7 @@ body {
   @apply bg-paper font-sans text-ink;
   -webkit-font-smoothing: antialiased;
   /* faint instrument dot grid */
-  background-image: radial-gradient(rgba(183, 245, 216, 0.035) 1px, transparent 1px);
+  background-image: radial-gradient(color-mix(in srgb, var(--color-ink) 6%, transparent) 1px, transparent 1px);
   background-size: 16px 16px;
 }
 
@@ -308,6 +308,16 @@ button,
   box-shadow: inset 0 1px 0 var(--glass-highlight), var(--glass-shadow);
 }
 
+/* Opted out of transparency: opaque panels, no blur. */
+@media (prefers-reduced-transparency: reduce) {
+  .glass,
+  .glass-strong {
+    background-color: var(--color-sheet);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
 /* small mono label, e.g. "PAPER II", "DUE NOW" */
 @utility eyebrow {
   @apply font-mono text-[11px] font-medium tracking-[0.06em] text-ink-soft uppercase;
@@ -327,13 +337,13 @@ button,
 }
 
 @utility btn-chip {
-  @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-rule px-3 text-sm text-ink-soft transition-[background-color,border-color,color,transform] duration-[120ms] hover:border-teal active:scale-[0.97];
+  @apply inline-flex min-h-11 items-center gap-1.5 rounded-full border border-rule px-3 text-sm text-ink-soft transition-[background-color,border-color,color,transform] duration-[120ms] hover:border-teal active:scale-[0.97];
   background-color: var(--glass-bg);
   transition-timing-function: var(--ease-out);
 }
 
 @utility btn-chip-on {
-  @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-teal bg-teal px-3 text-sm font-semibold text-on-teal transition-transform duration-[120ms] active:scale-[0.97];
+  @apply inline-flex min-h-11 items-center gap-1.5 rounded-full border border-teal bg-teal px-3 text-sm font-semibold text-on-teal transition-transform duration-[120ms] active:scale-[0.97];
   transition-timing-function: var(--ease-out);
 }
 

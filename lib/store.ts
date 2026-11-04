@@ -1,7 +1,6 @@
 "use client";
 
 import { useLiveQuery } from "dexie-react-hooks";
-import bundled from "@/content/all.json";
 import { cardError } from "./cardCheck";
 import { db, getSetting, setSetting, type CardState } from "./db";
 import { groupMastery, groupWeight, HYSTERESIS, LABEL_THRESHOLDS, labelFor, rollupMastery, type MasteryLabel, type TopicMastery } from "./mastery";
@@ -11,13 +10,19 @@ import { isOpen, levelOrder, reachedTop, unlockedLevels, type LevelSignal } from
 import { TOPICS } from "./syllabus";
 import { TAGS, type FlashCard, type Tag } from "./types";
 
-const BUNDLED = bundled as FlashCard[];
+let bundledCache: Promise<FlashCard[]> | null = null;
+
+/** The 10 MB deck is kept out of the initial JS chunk and loaded on first use. */
+function loadBundled(): Promise<FlashCard[]> {
+  if (!bundledCache) bundledCache = import("@/content/all.json").then((m) => m.default as FlashCard[]);
+  return bundledCache;
+}
 
 /** Bundled + imported cards with admin edits applied. */
 export async function loadAllCards(): Promise<FlashCard[]> {
-  const [custom, overrides] = await Promise.all([db.customCards.toArray(), db.overrides.toArray()]);
+  const [custom, overrides, bundled] = await Promise.all([db.customCards.toArray(), db.overrides.toArray(), loadBundled()]);
   const byId = new Map<string, FlashCard>();
-  for (const c of BUNDLED) byId.set(c.id, { ...c, status: c.status ?? "draft" });
+  for (const c of bundled) byId.set(c.id, { ...c, status: c.status ?? "draft" });
   // Imported cards and edits are skipped if they would leave a card that cannot render.
   for (const c of custom) if (!cardError(c)) byId.set(c.id, { ...c, status: c.status ?? "draft" });
   for (const o of overrides) {
@@ -73,8 +78,10 @@ export async function computeMastery(cards?: FlashCard[]): Promise<MasteryReport
 
   const subtopic = new Map<string, TopicMastery>();
   const topic = new Map<string, TopicMastery>();
+  const byTopic = new Map<string, FlashCard[]>();
+  for (const c of list) byTopic.set(c.topicId, [...(byTopic.get(c.topicId) ?? []), c]);
   for (const t of TOPICS) {
-    const inTopic = list.filter((c) => c.topicId === t.id);
+    const inTopic = byTopic.get(t.id) ?? [];
     if (!inTopic.length) continue;
     const children: TopicMastery[] = [];
     const bySub = new Map<string, FlashCard[]>();
@@ -103,7 +110,10 @@ export async function computeMastery(cards?: FlashCard[]): Promise<MasteryReport
   // Merge, so a partial list (e.g. one mode's cards) does not erase other groups' labels.
   const next: Record<string, MasteryLabel> = { ...memory };
   for (const m of [...topic.values(), ...subtopic.values(), ...tag.values()]) if (m.label !== "unassessed") next[m.topicId] = m.label;
-  if (JSON.stringify(next) !== JSON.stringify(memory)) setSetting("masteryLabels", next);
+  if (JSON.stringify(next) !== JSON.stringify(memory)) {
+    // Persist outside the live-query read: a write here would invalidate the query that produced it.
+    setTimeout(() => void setSetting("masteryLabels", next), 0);
+  }
   return { topic, subtopic, tag };
 }
 
