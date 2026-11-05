@@ -305,3 +305,23 @@ Notes outside this chunk (not edited here):
 |---|---|---|
 | rf-p3-research-biostats-0476 | new | Medhi PMECP p153-154 (accuracy depends on reproducibility) |
 | rf-p3-research-biostats-0477 | new | Medhi PMECP p153-154 (excellent data: precise and accurate) |
+
+## Thin-coverage gap: central tendency (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p3-research-biostats-0478 | new | Ghosh FEP PDF p212 (dose-response analysed on log dose, so GM is used) |
+| rf-p3-research-biostats-0479 | new | Ghosh FEP PDF p212 (median gives LD50/ED50/EC50) |
+| rf-p3-research-biostats-0480 | new | Bioequivalence & Statistics PDF p52 (90% CI of the ratio of geometric means, 0.80-1.25) |
+
+- Mean/median/mode definitions and the geometry of the GM were already covered (0012-0016, 0297); these three pairs add only the drug-research uses. Validator: check ok.
+
+## Fact-check recheck: three new biostatistics pairs (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p3-research-biostats-0478 | ok | Ghosh FEP PDF p212 (curves built and analysed on log dose; GM is the antilog of the mean of log EC50 values) |
+| rf-p3-research-biostats-0479 | ok | Ghosh FEP PDF p212 (median behind LD50, ED50 and EC50) |
+| rf-p3-research-biostats-0480 | ok | Bioequivalence & Statistics PDF p52 (log-transformed AUC and Cmax; 90% CI for the ratio of geometric means inside 0.80-1.25) |
+
+- Read on the page and confirmed; none starts "What is", each reverses cleanly, no duplicates of 0297 (GM definition) or the sample-size pairs. No Prep/RR5 refs. Validator: check ok.

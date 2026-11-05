@@ -78,3 +78,22 @@ Result: 58 ok, 1 corrected, 8 deleted (duplicates), 0 web or unsourced.
 - Kept but flagged for the chunk 1 owner (outside this chunk, not edited): rf-p2-anaesthetics-0035 duplicates rf-p2-anaesthetics-0635, which is the better card (it states the tetanus-then-single-twitch method), so 0035 should be deleted. Also 0346 and 0322 use "list all" for lists that KDT8 ch27 gives as examples ("e.g.") or as "many" agents; reword them to examples.
 - Checked and left as written: 0576-0631 (KDT8 ch27 facts: MAC, plane signs, agent properties, dates); 0598 halothane metabolism "about 20%" (text gives ~20% and >20% in two places); 0632-0637 (Katzung16 ch27 monitoring definitions); 0638-0645 (Medhi exp. 16D/16E, 23A/23B, 24A; procedure and times match the printed text).
 - Study-deck fields (level, why-line) do not apply to rapid cards.
+
+
+## Thin-coverage pass (cov-2 idx 230, 201)
+| id | status | source |
+|---|---|---|
+| rf-p2-anaesthetics-0646 | new | Katzung16 PDF p482, KDT8 PDF p421 |
+| rf-p2-anaesthetics-0647 | new | Katzung16 PDF p488, GG14 PDF p498 |
+| rf-p2-anaesthetics-0648 | new | GG14 PDF p495 |
+Added only for facts not already in the rapid deck (desflurane metabolism, compound A, remimazolam); the existing iso/des/sevo pairs (0383-0404, 0582, 0609-0614) were left alone.
+
+## Independent fact-check (0646-0648), 2026-11-05
+| id | status | source |
+|---|---|---|
+| rf-p2-anaesthetics-0646 | ok | Katzung16 PDF p482 (metabolism <0.05%), KDT8 PDF p421 (exhaled unchanged) |
+| rf-p2-anaesthetics-0647 | corrected | Katzung16 PDF p488, GG14 PDF p498 |
+| rf-p2-anaesthetics-0648 | ok | GG14 PDF p495 |
+
+- 0647 corrected: answer is now "Compound A; no renal impairment in large human studies". GG14 p498 records transient biochemical renal injury in volunteers, so the earlier "no human renal injury reported" was too absolute. Question unchanged.
+- 0646 and 0648 checked word by word on the cited pages; both pass. No q starts "What is"; subtopics valid; no Prep/RR5 refs; no deletions.

@@ -59,3 +59,21 @@ Checked 2026-11-04 against KDT8 ch42 and ch43. Ids rf-p2-renal-0392 to 0418 (26 
 - corrected: none. Deleted: none. Unverifiable (UNSOURCED or WEB): none.
 - Overlap with study cards kept on purpose (049, 070, 095): different formats, same facts.
 Validator: check ok.
+
+
+## Thin-coverage pass (cov-2 idx 253)
+| id | status | source |
+|---|---|---|
+| rf-p2-renal-0419 | new | GG14 PDF p589 |
+| rf-p2-renal-0420 | new | GG14 PDF p589 |
+| rf-p2-renal-0421 | new | GG14 PDF p590 |
+Added only for the SGLT2 facts, which were absent from the rapid deck; the CA inhibitor and mannitol pairs were already comprehensive (0237-0278).
+
+## Independent fact-check (0419-0421), 2026-11-05
+| id | status | source |
+|---|---|---|
+| rf-p2-renal-0419 | ok | GG14 PDF p589 (hybrid osmotic + proximal Na+ effect) |
+| rf-p2-renal-0420 | ok | GG14 PDF p589 (about 5% of total renal Na+ reabsorption) |
+| rf-p2-renal-0421 | ok | GG14 PDF p590 (sequential nephron blockade, diuretic resistance) |
+
+All three checked on the printed pages; q's are not "What is" forms, subtopics valid, no Prep/RR5 refs. No corrections, no deletions.

@@ -8,6 +8,7 @@ export const CHANGELOG: { version: string; changes: string[] }[] = [
     version: "0.5.14",
     changes: [
       "New cards for the last past-paper gaps: insulin resistance, chemical carcinogenesis, doping in sport, organ-on-a-chip, mitochondrial medicine, childhood asthma, nanomedicine, oligospermia, hyperpigmentation, clinical toxicity, problems in clinical trials and vasopeptidase inhibitors",
+      "Dedicated answers for questions that were only covered in pieces: cardiac potassium channels, newer antiarrhythmics, CYP450, adenylyl cyclase drugs, clearance at extremes of age, HAART, hepatitis C antivirals, estrogen uses, fluorinated and newer anaesthetics, proximal tubule drugs, cerebroactive drugs, central tendency, advances in leprosy",
       "Screening models for diuretics, antimalarials and lipid-lowering drugs (web-sourced drafts, awaiting review)",
       "Syllabus now shows the right open level for each subtopic after you pass the one below",
       "Long subtopic titles stay on two lines; Help page describes the real Rapid fire grades",

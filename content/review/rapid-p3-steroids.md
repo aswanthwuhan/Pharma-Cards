@@ -146,3 +146,25 @@ Scope: rf-p3-steroids-0541 to 0545.
 | rf-p3-steroids-0545 | corrected ref: "reversible on stopping" is Katzung, not KDT8 | KDT8 ch49 PDF p747, Katzung16 ch62 PDF p1189 |
 
 No copies, no Prep/RR5 refs, no "What is" questions. Deleted: none.
+
+
+## Added 2026-11-05: three pairs for the therapeutic-uses-of-estrogens answer
+
+| id | change | ref |
+|---|---|---|
+| rf-p3-steroids-0546 | added: topical estrogen preferred in senile vaginitis. HRT pairs (0248-0259) did not cover this | KDT8 ch22 PDF p350 |
+| rf-p3-steroids-0547 | added: cyclic estrogen from 12-13 years for delayed puberty, progestin later, continued to menopause | KDT8 ch22 PDF p350 |
+| rf-p3-steroids-0548 | added: estrogen helps acne by suppressing ovarian androgen through pituitary Gn inhibition | KDT8 ch22 PDF p350 |
+
+No copies, no Prep/RR5 refs, no "What is" questions. Deleted: none.
+
+
+## Recheck 2026-11-05 (independent fact-check, thin-coverage pass B)
+
+| id | status | source / note |
+|---|---|---|
+| rf-p3-steroids-0546 | corrected (refs) | "Should be preferred when this is the only aim" is p349; p350 only says a topical preparation is used more commonly. Refs widened to `KDT8 ch22 PDF p349-350`. |
+| rf-p3-steroids-0547 | ok | p350: 12-13 years, progestin added later, continued to about 50 years. |
+| rf-p3-steroids-0548 | ok | p350: ovarian androgen output suppressed through pituitary Gn release. |
+
+No "What is" stems, no Prep/RR5 refs. Deleted: none.

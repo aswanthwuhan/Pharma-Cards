@@ -223,3 +223,36 @@ Rapid deleted:
 Unverifiable, not changed: none in this chunk (no UNSOURCED or WEB refs here).
 
 Not fully checked in this pass: 084 (isoflurane heart-rate and coronary wording), 085 (heated vaporiser), 086 (children open-drop), 083 (halothane sensitisation wording), and rapid 0536 (ester/amide metabolism wording). Left as written; a later pass should confirm them.
+
+
+## Thin-coverage pass (cov-2 idx 230 "Fluorinated anesthetics", idx 201 "Newer anesthetic agents.")
+Both questions were covered only by scattered cards (230: 052, 050, 083, 085; 201: 052, 085, 073, 047, 115, 049), so one dedicated card was written for each.
+
+| id | status | source |
+|---|---|---|
+| p2-anaesthetics-117 | new (L2 shortnote, "Fluorinated anaesthetics", pyq RGUHS 2011, 10 marks) | KDT8 PDF p417, p420, p421; Katzung16 PDF p482, p486, p488; GG14 PDF p260, p496 |
+| p2-anaesthetics-118 | new (L2 shortnote, "Newer anaesthetic agents", pyq RGUHS 2011, 10 marks) | KDT8 PDF p394, p395, p407, p417, p420, p421, p425; GG14 PDF p495, p496; RangDale9 PDF p542 |
+
+- 117: group answer - members (isoflurane, desflurane, sevoflurane; enflurane gone), shared properties, the differences that decide the choice, and the printed fluoride points (sevoflurane about 3% metabolised with fluoride safe to kidney and liver; compound A nephrotoxic in rats only, no human renal injury; desflurane unchanged; CO with dry soda lime, worst with desflurane).
+- 118: organised as newer inhalational agents, newer IV agents (propofol, etomidate, remifentanil, dexmedetomidine), GG14's newest parenteral agents (remimazolam, fospropofol withdrawn in the US, MOC-etomidate and carboetomidate), newer relaxants and reversal (rocuronium, cisatracurium, sugammadex) and newer local anaesthetics (ropivacaine, levobupivacaine).
+- No L1 card added for either: every term used is already taught by an L1 card (052/057 for the agents and MAC, 047/048/049/061/115 for the IV agents, 006 for sugammadex, 073 for ropivacaine and levobupivacaine).
+- Nothing unsourced; no Prep/RR5/Sarkar refs. Validator: check ok.
+
+## Independent fact-check (thin-coverage cards 117, 118), 2026-11-05
+Every cited page was opened with `search.py --page` (KDT8 p394, p395, p407, p417, p418, p420, p421, p422, p423, p425; Katzung16 p482, p486, p488; GG14 p260, p495, p496; RangDale9 p542), and the pyq rows were matched against `content/pyq/questions.json`.
+
+| id | status | source |
+|---|---|---|
+| p2-anaesthetics-117 | corrected | KDT8 PDF p417, p418, p420, p421; Katzung16 PDF p482, p486, p488; GG14 PDF p260, p496 |
+| p2-anaesthetics-118 | corrected | KDT8 PDF p394, p395, p407, p417, p420, p421, p422, p423, p425; GG14 PDF p495, p496; RangDale9 PDF p542 |
+| p2-anaesthetics-119 | new (L1 basic, taught terms for 118) | GG14 PDF p495, p496 |
+
+Corrections:
+- 117: added `KDT8 PDF p418`. Table 27.1 on that page is where the isoflurane MAC 1.2%, sevoflurane 0.68 blood:gas and the agent irritancy ratings are printed; the card quoted them without citing the page.
+- 117: compound A point rewritten. GG14 p498 records transient biochemical renal injury in human volunteers and large studies with no rise in creatinine or BUN, so the old "no renal injury... has been reported in humans" over-claimed. Now: no rise in creatinine/BUN in large human studies, with the volunteer finding noted.
+- 117: ether-class and cardiovascular points reworded to get away from the books' phrasing ("cardiac output is relatively preserved", per Katzung16 p486). No fact changed; MAC 1.2 (KDT8 p418) and 1.4 (Katzung16 p482) both remain printed on cited pages.
+- 118: added `KDT8 PDF p422` and `KDT8 PDF p423`. Propofol superseding thiopentone, total IV anaesthesia supplemented by fentanyl, low postoperative nausea/vomiting and etomidate for poor cardiovascular reserve are printed on those pages, which the card had not cited.
+- 118: "antiemetic action" replaced by low postoperative nausea and vomiting (KDT8 p423, RangDale9 p542); the obsolete-agent sentence and the dexmedetomidine point were rewritten to avoid copying RangDale9 p542.
+- pyq: both tags are correct - RGUHS May 2011 paper II "Fluorinated anaesthetics" 10 marks (117) and RGUHS May 2011 paper IV "Newer anesthetic agents." 10 marks (118); neither is a year-0 row.
+- Levels unchanged for the two checked cards (L2 shortnote, as for the deck's other shortnotes); subtopic ladder still >= 3/2/1 everywhere. No deletions. Longest remaining book overlap is the six-name obsolete-agent list, which is the classification itself.
+- Added `p2-anaesthetics-119` (L1 basic, iv-premedication): the log above claimed every term in 118 was already taught by an L1 card, but remimazolam, fospropofol, MOC-etomidate and carboetomidate appeared nowhere else in the deck. The new L1 card defines all four from GG14 PDF p495 and p496 so the L2 card no longer uses untaught terms. Id appended after 118; nothing renumbered.

@@ -79,3 +79,27 @@ id | new | source
 rf-p2-arrhythmia-angina-htn-0725 to 0741 | new (phase-4, pacemaker, Na+/Ca2+ phase 0, conduction velocities, ERP recovery, -55 mV, vagal and sympathetic effects, slow- and fast-channel blockers, ERP/APD, latent pacemakers) | KDT8 p521-523 (Section 8 intro)
 
 Checker (PYQ gap pass) 2026-11-03: rapid 0725-0741 checked against KDT8 pp 521-523 (Section 8 intro; the EP passage is not in the ch39 PDF). Citation fixed from ch39. Deleted: none. Prep/RR5 refs: none. Validator --check: ok.
+
+## Thin-coverage PYQ cards (2026-11-05)
+
+id | new | source
+rf-p2-arrhythmia-angina-htn-0742 | new (phase-1 notch = Ito) | GG14 ch34; Katzung16 ch14
+rf-p2-arrhythmia-angina-htn-0743 | new (IKr is the hERG/Kv11.1 current blocked by most class III drugs) | Katzung16 ch14; GG14 ch34
+rf-p2-arrhythmia-angina-htn-0744 | new (IK1 holds the resting potential) | Katzung16 ch14; GG14 ch34
+rf-p2-arrhythmia-angina-htn-0745 | new (IKur = Kv1.5, atrial ultra-rapid delayed rectifier) | Katzung16 ch14; GG14 ch34
+rf-p2-arrhythmia-angina-htn-0746 | new (vernakalant: IV, recent-onset AF) | Katzung16 ch14
+rf-p2-arrhythmia-angina-htn-0747 | new (vernakalant: mild QT prolongation, no torsades) | Katzung16 ch14
+
+Thin-coverage pass 2026-11-05 (cov-1 idx 111, 170). No individual cardiac K+ current and no vernakalant pair existed in the deck before; the class III and dofetilide/ibutilide pairs (0052, 0184-0193, 0658-0661) were re-read and left unchanged. Deleted: none. Prep/RR5 refs: none. Validator --check: ok.
+
+## Fact-check pass, thin-coverage pairs (2026-11-05)
+
+id | corrected | source
+rf-p2-arrhythmia-angina-htn-0742 | refs page-precise (Ito notch GG14 p688; Kv4.2/4.3 and Kv1.4 Katzung p252) | GG14 ch34 PDF p688; Katzung16 ch14 PDF p252
+rf-p2-arrhythmia-angina-htn-0743 | refs page-precise; "most class III drugs prolong AP by blocking IKr" verified (GG14 ch34 p697) | Katzung16 ch14 PDF p252; GG14 ch34 PDF p688, p697
+rf-p2-arrhythmia-angina-htn-0744 | refs page-precise (IK1/Kir2.1 and resting potential) | Katzung16 ch14 PDF p252; GG14 ch34 PDF p687
+rf-p2-arrhythmia-angina-htn-0745 | refs page-precise (ultra-rapid atrial IKur, Kv1.5) | Katzung16 ch14 PDF p252, p254; GG14 ch34 PDF p688
+rf-p2-arrhythmia-angina-htn-0746 | corrected: "recent-onset" dropped (Katzung says rapid termination of AF, not recent-onset); ref page-precise | Katzung16 ch14 PDF p269
+rf-p2-arrhythmia-angina-htn-0747 | ref page-precise; mild QT prolongation and no torsades verified verbatim in substance | Katzung16 ch14 PDF p269
+
+Deleted: none. No q starts "What is"; all six are short reversible facts. Validator --check: ok.

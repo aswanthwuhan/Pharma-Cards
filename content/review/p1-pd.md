@@ -141,3 +141,28 @@ p1-pd-005 | corrected | level set to 1 (final)
 - Unverifiable (kept): none in this chunk beyond the items above.
 - Subtopic minimums: no study card removed, so unchanged.
 - Duplicates: none exact found in this chunk (overlapping essay/short-note pairs kept as separate formats).
+
+## Thin-coverage pass (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| p1-pd-079 | added (grounded) | KDT8 ch4, ch9, ch11, ch16 PDF p259-260, ch25, ch31, ch34, ch38 PDF p581, ch43 PDF p654; GG14 PDF p309; RangDale9 ch3 PDF p39-40; Padmaja PDF p754 |
+
+- Question (cov-2 idx 245, "Discuss the drugs modifying adenyl cyclase functions") was covered only by the scattered cards 010, 013 and 046. New short note p1-pd-079 answers it as asked: the two G-protein inputs (Gs up, Gi down), the Gs-coupled receptor agonists, the Gi-coupled receptor agonists, the direct modifiers (forskolin, cholera toxin, pertussis toxin) and the PDE route.
+- Page re-checks: RangDale9 ch3 PDF p39-40 (Table 3.3 G protein effectors; bidirectional control of adenylyl cyclase; 10 AC isoforms, some selective for Gs-alpha/Gi-alpha; forskolin; cholera toxin locks Gs on, pertussis toxin prevents trimer dissociation); Padmaja PDF p754 (forskolin from Coleus forskohlii, directly stimulates adenylate cyclase, inotrope); KDT8 ch4 (receptor-G couplers: M2, D2, alpha-2, GABA-B, opioid and cannabinoid via Gi/Go; beta, H2, 5-HT4-7, glucagon via Gs; PDE3/4 cAMP-selective); KDT8 ch9 (beta = Gs, alpha = Gq/Gi/Go; dobutamine beta-1, salbutamol and terbutaline beta-2, mirabegron beta-3); KDT8 ch11 (impromidine as H2-selective agonist); KDT8 ch16 PDF p259-260 (theophylline as weak non-selective PDE inhibitor, adenosine A1 blockade causing arrhythmias and seizures); KDT8 ch38 PDF p581 (milrinone, PDE3 selective; oral form raised mortality); KDT8 ch43 PDF p654 (all V2 actions through AC-cAMP); GG14 PDF p309 (5-HT4, 5-HT6, 5-HT7 raise cAMP; 5-HT1 lowers it); KDT8 ch25 (baclofen = GABA-B agonist), ch31 (D2 agonists), ch34 (opioid Gi/Go).
+- pyq: none. The row sits in the Q bank with year 0, so it is never tagged (THIN-BRIEF step 3).
+- No L1 card added: every term the answer uses (Gs, Gi, cAMP, PKA, PDE, second messenger) is already taught by 010, 013 and 046.
+- Nothing unsourced; no WEB or UNSOURCED refs. Subtopic p1-pd-signalling after the addition: L1 4, L2 9, L3 2.
+- Dropped while writing: fenoldopam (no owner book couples it to D1 clearly), cilostazol (PDE3 claim is in KDT8 PDF p614 but the point needed no second PDE3 drug), roflumilast (would add a fourth source for a single drug name).
+
+## Checker (thin-coverage card 079, 2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| p1-pd-079 | corrected | KDT8 PDF p71-72, p155-162, p190, p259-260, p274, p398, p511, p522, p581, p653-654; GG14 PDF p309, p342; RangDale9 PDF p39-40; Padmaja PDF p754 |
+
+- Refs made page-precise: the chapter-only refs (KDT8 ch4, ch9, ch11, ch25, ch31, ch34, ch43; RangDale9 ch3) were replaced by the pages that carry each fact: p71 (coupler table: M2, D2, alpha-2, GABA-B, 5-HT1 = Gi/Go; beta, H2, 5-HT4-7, glucagon = Gs), p72 (Table 4.1, direction of the cAMP change per receptor), p155-162 (beta1/beta2/beta3 selective agonists; adrenaline via Gs; alpha-2 lowers sympathetic outflow; low-dose dopamine, D1, renal/mesenteric cAMP), p190 (H2 = Gs, gastric acid, dimaprit and impromidine), p259-260 (theophylline weak non-subtype-selective PDE inhibitor; adenosine A1 blockade gives the arrhythmias and seizures), p274 (bromocriptine and cabergoline as dopaminergic agonists at the lactotrope D2 receptor), p398 (baclofen = selective GABA-B agonist), p511 (morphine = full agonist at the mu receptor), p522 (opioid receptor couples to Gi, cAMP falls), p581 (milrinone PDE3-selective; oral PDE3 raised mortality), p653-654 (desmopressin = selective V2 agonist; V2 acts through AC-cAMP and aquaporin-2).
+- Corrected content: "betazole" replaced with "dimaprit" (KDT8 p190 lists dimaprit and impromidine as the selective H2 agonists; betazole is not in KDT8). "Pramipexole" removed from the D2 list (KDT8 p470 gives it as a D2/D3 agonist; the cited pages give bromocriptine and cabergoline). The clinical bullet "receptor blockade works through the same switch... H2 blockers cut acid secretion" and the clause "D2 agonists suppress prolactin" were deleted: no cited page carries them and both restate earlier points.
+- Verified as printed: 10 AC isoforms (RangDale9 p40); Gs stimulates and Gi inhibits AC; cAMP is made continuously and destroyed by PDE to 5-AMP; forskolin (Coleus forskohlii, Mainmool) activates AC directly and is called an inotrope (Padmaja p754; RangDale9 p40 "used experimentally"); cholera toxin ADP-ribosylates Gs-alpha and blocks its GTPase, giving rice-water stools; pertussis toxin blocks Gi and Go by preventing trimer dissociation; 5-HT4/6/7 raise and 5-HT1 lowers cAMP; CB1/CB2 couple to Gi/Go (GG14 p342); V2 effects all run through AC-cAMP (KDT8 p654); beta-3 = mirabegron (p155).
+- Wording: no run of 8 or more words is shared with any cited page (checked programmatically against the page text of every ref).
+- Level 2, one valid tag, subtopic p1-pd-signalling; no pyq (the matching row is a year-0 Q bank item). Nothing deleted, so the subtopic ladder is unchanged: L1 4, L2 9, L3 2.

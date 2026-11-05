@@ -2925,6 +2925,202 @@
       ],
       "status": "draft",
       "level": 3
+    },
+    {
+      "id": "p3-antifungal-viral-115",
+      "type": "basic",
+      "level": 1,
+      "subtopic": "p3-antifungal-viral-hepatitis",
+      "front": "What does 'directly acting' mean for an antiviral drug?",
+      "back": "It hits a protein of the virus itself rather than a host cell function. In hepatitis C the directly acting antivirals (DAAs) block the non-structural proteins NS3/4A protease, NS5A or NS5B polymerase, which the virus needs to copy itself inside hepatocytes. Interferon works the other way round: it binds a surface receptor and acts through interferon-induced host proteins. That is why DAAs are given by mouth, are far better tolerated, and have replaced peginterferon, although ribavirin is still added in some patients.",
+      "refs": [
+        "KDT8 ch59 PDF p867-869",
+        "GG14 ch63 PDF p1253-1254"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ]
+    },
+    {
+      "id": "p3-antifungal-viral-116",
+      "type": "shortnote",
+      "level": 3,
+      "subtopic": "p3-antifungal-viral-hepatitis",
+      "front": "Short note: Directly acting antivirals in hepatitis C, by target class",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Drugs aimed at viral non-structural proteins that the hepatitis C virus needs for replication, rather than at host immunity",
+            "Given by mouth, and far better tolerated than interferon; peginterferon has been replaced by DAAs, though ribavirin is still added in some patients",
+            "Cure means a sustained virological response, now judged as no detectable HCV-RNA 12 weeks after stopping treatment (SVR12)"
+          ]
+        },
+        {
+          "h": "Class 1: NS5B polymerase inhibitors",
+          "points": [
+            "Sofosbuvir: uridine nucleotide prodrug, phosphorylated inside the hepatocyte and incorporated by the RNA polymerase, acting as a chain terminator",
+            "The polymerase region is conserved, so it covers genotypes 1 to 6; three or more resistance substitutions are needed before it fails, i.e. a high genetic barrier",
+            "Non-nucleoside NS5B inhibitors (allosteric, not at the active site) have a low barrier and are not used alone"
+          ]
+        },
+        {
+          "h": "Class 2: NS3/4A protease inhibitors",
+          "points": [
+            "Simeprevir, glecaprevir, grazoprevir and voxilaprevir",
+            "They stop cleavage of the viral polyprotein, so the replication complex is never assembled",
+            "Low genetic barrier; simeprevir covers mainly genotypes 1 and 4, while glecaprevir and voxilaprevir are pangenotypic; several are substrates of CYP3A4 and of P-glycoprotein or OATP1B, so interactions are common"
+          ]
+        },
+        {
+          "h": "Class 3: NS5A inhibitors",
+          "points": [
+            "Daclatasvir, ledipasvir, velpatasvir, pibrentasvir and elbasvir",
+            "NS5A is a multifunctional protein needed for RNA replication and for assembly of progeny virions",
+            "Potent but a low genetic barrier (one or two substitutions); NS5A resistance substitutions persist for years and give cross-resistance between members"
+          ]
+        },
+        {
+          "h": "Why they are always combined",
+          "points": [
+            "About a trillion virions are produced daily and the polymerase has no proofreading, so resistant variants already exist before treatment",
+            "Monotherapy selects them rapidly; a combination of two or three classes suppresses replication fully and protects each partner drug",
+            "Combined therapy cures about 95% of treated patients overall, and the course is only 8 to 12 weeks in most of them"
+          ]
+        },
+        {
+          "h": "Common regimens",
+          "points": [
+            "Pangenotypic: sofosbuvir + velpatasvir for 12 weeks; glecaprevir + pibrentasvir for 8 weeks in treatment-naive patients, including compensated cirrhosis",
+            "Genotype-directed: ledipasvir + sofosbuvir for genotypes 1, 4, 5 and 6; grazoprevir + elbasvir for genotype 1, for 12 weeks, or 16 weeks with ribavirin when baseline NS5A resistance substitutions are present",
+            "Retreatment after failure of an NS5A-containing regimen: sofosbuvir + velpatasvir + voxilaprevir for 12 weeks",
+            "Ribavirin is still added in decompensated cirrhosis and in some patients with genotype 3"
+          ]
+        },
+        {
+          "h": "Practical cautions",
+          "points": [
+            "Potent inducers such as rifampin, antiepileptics and efavirenz lower DAA levels and are avoided",
+            "Acid suppression reduces absorption of ledipasvir and velpatasvir",
+            "Protease-inhibitor combinations such as glecaprevir + pibrentasvir are contraindicated in decompensated cirrhosis, where they accumulate",
+            "Glecaprevir + pibrentasvir is a treatment of choice in renal impairment, since it is cleared mainly in bile"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch59 PDF p869-870",
+        "GG14 ch63 PDF p1253-1259"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2022,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "tags": [
+        "classification",
+        "mechanism",
+        "uses"
+      ]
+    },
+    {
+      "id": "p3-antifungal-viral-117",
+      "type": "essay",
+      "level": 3,
+      "subtopic": "p3-antifungal-viral-art-regimens",
+      "front": "Essay: Highly active antiretroviral therapy (HAART)",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "HAART means highly active antiretroviral therapy: several antiretroviral drugs of at least two classes given together, at least three in the initial regimen",
+            "Antiretroviral therapy, or ART, is the shorter name the books use for the same thing",
+            "Monotherapy is contraindicated, and single-class regimens are inferior"
+          ]
+        },
+        {
+          "h": "Rationale",
+          "points": [
+            "HIV reverse transcriptase is error prone, so every untreated patient already carries mutants resistant to individual drugs",
+            "Three-drug therapy rapidly kills over 99% of circulating virions, but virus survives in resting CD4 lymphocytes, so cure is not possible and treatment is lifelong",
+            "Only maximal, uninterrupted suppression keeps the resistant population from being selected; this is the same logic as combination therapy of tuberculosis"
+          ]
+        },
+        {
+          "h": "Aims",
+          "points": [
+            "Viral replication held down as far as possible: plasma HIV-RNA below 50 copies/mL, which should be reached within 24 weeks",
+            "Restoration of immunity, with CD4 count approaching normal within about 6 months",
+            "Fewer opportunistic infections, better quality of life, and prevention of transmission to sexual partners and to other people",
+            "Near-normal life expectancy if started early and adhered to"
+          ]
+        },
+        {
+          "h": "When to start",
+          "points": [
+            "All adults, adolescents, children and pregnant or breast-feeding women, as soon as HIV infection is confirmed, whatever the CD4 count, viral load or clinical stage",
+            "Continued for life, even after CD4 and viral load normalise"
+          ]
+        },
+        {
+          "h": "First-line regimen",
+          "points": [
+            "Two nucleoside/nucleotide reverse transcriptase inhibitors plus one non-nucleoside reverse transcriptase inhibitor, or plus an integrase inhibitor",
+            "Preferred: tenofovir + lamivudine (or emtricitabine) + efavirenz; efavirenz is preferred to nevirapine",
+            "Alternatives: zidovudine + lamivudine + efavirenz or nevirapine; tenofovir + lamivudine + dolutegravir",
+            "Protease inhibitor-containing regimens are kept for patients who have failed earlier regimens: efavirenz resistance extends to nevirapine, so the NNRTI class is practically used up for second line, where a boosted protease inhibitor is almost always needed",
+            "Three-NRTI regimens are inferior and are no longer recommended"
+          ]
+        },
+        {
+          "h": "Second-line regimen",
+          "points": [
+            "Two NRTIs plus one ritonavir-boosted protease inhibitor; the backbone is taken from drugs not used before, though lamivudine may be carried over because it keeps some residual activity",
+            "Preferred boosted protease inhibitors are atazanavir/r or lopinavir/r; darunavir/r is the alternative",
+            "The whole regimen is changed, never one drug, and overlapping resistance is avoided (efavirenz is not simply swapped for nevirapine)"
+          ]
+        },
+        {
+          "h": "Monitoring",
+          "points": [
+            "Plasma viral load and CD4 count are followed; resistance testing is done before starting and again if the viral load rises on therapy",
+            "Failure: HIV-RNA not below 50 copies/mL by 6 months, rebound after suppression, or clinical and CD4 deterioration",
+            "Adherence is the main determinant of durability; fixed-dose combinations and once-daily regimens help",
+            "Watch for immune reconstitution inflammatory syndrome, additive toxicities, and interactions with rifampicin, antitubercular and antifungal drugs",
+            "No dose reduction for toxicity: the offending drug or the whole regimen is replaced"
+          ]
+        },
+        {
+          "h": "Special situations",
+          "points": [
+            "Pregnancy is not a contraindication; zidovudine, lamivudine, tenofovir, emtricitabine, efavirenz, nevirapine and nelfinavir are considered relatively safe",
+            "The same drugs, used for a defined period, provide pre-exposure and post-exposure prophylaxis"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 ch60 PDF p878-882",
+        "GG14 ch64 PDF p1265",
+        "RangDale9 PDF p694"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "tags": [
+        "uses",
+        "classification",
+        "interactions"
+      ]
     }
   ]
 }

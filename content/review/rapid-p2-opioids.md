@@ -160,3 +160,32 @@ Validator: check ok.
 
 ## Independent review pass (2026-11-05)
 0816-0820 checked against RangDale9 ch59 PDF p751-753 and kept unchanged.
+
+## Cerebroactive drugs / Alzheimer disease rapid pairs (2026-11-05)
+Added for the thin-coverage question on cerebroactive drugs and Alzheimer disease; the existing rapid deck already covered every KDT8 ch35 fact, so these three are class-level facts from GG14 and Katzung16 only.
+
+| id | status | source |
+|---|---|---|
+| rf-p2-opioids-0821 | new | Katzung16 ch60 PDF p1140 |
+| rf-p2-opioids-0822 | new | GG14 ch21 PDF p439 |
+| rf-p2-opioids-0823 | new | GG14 ch21 PDF p439 |
+
+Validator: check ok.
+
+## Independent review pass: 0821-0823 (2026-11-05)
+
+All three traced again: Katzung16 ch60 PDF p1140 ("So-called cerebral vasodilators are not effective") and GG14 ch21 PDF p439 (three FDA-approved classes; cholinesterase inhibitors are first-line; donepezil, rivastigmine, galantamine). Two questions reworded for round-trip use and precision; no answer changed.
+
+| id | status | source |
+|---|---|---|
+| rf-p2-opioids-0821 | corrected | Katzung16 ch60 PDF p1140; question reworded to "So-called cerebral vasodilators in dementia: value" so the pair also works in reverse |
+| rf-p2-opioids-0822 | corrected | GG14 ch21 PDF p439; question now says FDA-approved, as the book states (it does not claim approval outside the US) |
+| rf-p2-opioids-0823 | ok | GG14 ch21 PDF p439 |
+
+Note for the lead: rf-p2-opioids-0816 and 0817 were deleted in the earlier duplicate pass and later re-created (now the WADA and clenbuterol doping pairs), so this log carries two contradictory rows for those ids; not my cards, left unchanged.
+
+## Id fix (lead, 2026-11-05)
+| id | status | source |
+|---|---|---|
+| rf-p2-opioids-0824 | renumbered from 0816 (doping WADA pair added 2026-11-05; 0816 was used before and deleted as a duplicate, ids are never reused) | RangDale9 ch59 |
+| rf-p2-opioids-0825 | renumbered from 0817 (doping clenbuterol pair added 2026-11-05; 0817 was used before and deleted) | RangDale9 ch59 |

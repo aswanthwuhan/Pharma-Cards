@@ -346,3 +346,23 @@ Deleted: none. Duplicates in this chunk: none (0331 is the only class card and l
 | rf-p3-antifungal-viral-0403 | ok | KDT8 ch59 (PDF p861-862) |
 | rf-p3-antifungal-viral-0404 | ok | KDT8 ch59 (PDF p861-862) |
 | rf-p3-antifungal-viral-0405 | ok | KDT8 ch59 (PDF p861-862) |
+
+
+## Added 2026-11-05: two pairs for the thin-coverage HAART and DAA questions
+
+| id | status | source |
+|---|---|---|
+| rf-p3-antifungal-viral-0496 | added: HAART expansion and minimum composition (3+ drugs, 2+ classes). Not previously in the deck | KDT8 ch60 PDF p879 |
+| rf-p3-antifungal-viral-0497 | added: interferon acts through host proteins, DAAs on viral non-structural proteins. Not previously in the deck | KDT8 ch59 PDF p868-869 |
+
+DAA drug-level facts (0197-0215) and ART regimen facts (0216-0282) already covered the rest, so no further pairs were added. Deleted: none.
+
+
+## Recheck 2026-11-05 (independent fact-check, thin-coverage pass B)
+
+| id | status | source / note |
+|---|---|---|
+| rf-p3-antifungal-viral-0496 | corrected (refs) | "3 or more drugs" is KDT8 p879, but "the 3 drugs should belong to at least 2 different classes" is p880. Refs widened to `KDT8 ch60 PDF p879-880`. Pair wording unchanged and reversible. |
+| rf-p3-antifungal-viral-0497 | corrected (refs) | The interferon-induced host proteins are on p867; DAAs on non-structural proteins on p869. Refs widened to `KDT8 ch59 PDF p867-869`. |
+
+No "What is" stems, no Prep/RR5 refs. Deleted: none.

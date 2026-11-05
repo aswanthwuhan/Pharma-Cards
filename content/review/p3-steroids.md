@@ -233,3 +233,32 @@ Rapid p3-steroids:
 - rf-p3-steroids-0545: corrected ref. "Reversible on stopping" is Katzung16 ch62 PDF p1189; KDT8 ch49 PDF p747 only reports the effect. The card now cites both, as this log's "new" row already said.
 
 Deleted: none. Invented fact found: one (tamoxifen as a clomiphene alternative), deleted from 108. `node scripts/validate-content.mjs --check`: check ok.
+
+## Added 2026-11-05: thin-coverage answer, "Therapeutic uses of estrogens" (RGUHS 2016 Nov-Oct, paper III, 10 marks)
+
+Scattered cover was 051 (HRT essay), 080 (estrogen preparations and doses) and 050 (oral contraceptive essay), plus p3-cancer-immuno-036 (estrogens in cancer, other topic, not edited). No card listed the therapeutic uses of estrogens as a set, which is how the question is asked.
+
+| id | status | source / note |
+|---|---|---|
+| p3-steroids-111 | added | L1 term card: why estrogen is not given unopposed (endometrial hyperplasia and carcinoma, 5-15 fold; progestin for the last 10-12 days). KDT8 ch22 PDF p348-350 |
+| p3-steroids-112 | added | L3 essay, answer card: HRT, contraception, senile vaginitis, delayed puberty, dysmenorrhoea, acne, dysfunctional uterine bleeding, carcinoma prostate, cautions. KDT8 ch22 PDF p348-351. pyq RGUHS 2016, 10 marks |
+
+Notes:
+- The uses are given in KDT8's own order (HRT first, then the six other uses, carcinoma of prostate last).
+- p3-cancer-immuno-036 was read for consistency but not edited (another worker's topic); the new card cites only KDT8 ch22.
+- Nothing deleted. Nothing unsourced.
+- Level ladder in p3-steroids-estrogen-progestin after additions: 4 L1, 4 L2, 2 L3.
+
+Rapid: see rapid-p3-steroids.md.
+
+
+## Recheck 2026-11-05 (independent fact-check, thin-coverage pass B)
+
+Scope: 111 and 112, the two cards added earlier today for "Therapeutic uses of estrogens". Each point read on KDT8 ch22 (PDF p345-351, p362-363).
+
+| id | status | source / note |
+|---|---|---|
+| p3-steroids-111 | ok | Every element is on the cited range: endometrial carcinoma 5-15 fold and the progestin for the last 10-12 days are both p348, "estrogen alone ... in hysterectomised women" p348, low-dose unopposed estrogen not raising the risk (Cochrane) p349. No change. |
+| p3-steroids-112 | corrected (refs, wording) | Refs `p348-351` covered neither the introduction (estrogen actions, p345) nor the two contraception points (combined-pill mechanism p363, Yuzpe vs progestin-only p362); now `KDT8 ch22 PDF p345-351` + `p362-363`. Copied phrasing rewritten: DUB "a progestin given cyclically is the rational and effective therapy", "growth hormone ... small dose of androgen may be added", "can accelerate the growth of existing breast cancer", "doubles the incidence of gallstones", and the prostate line. "proliferative phase" -> "endometrial proliferation in the preovulatory phase", which is how KDT8 puts it (p345: "proliferation of endometrium in the preovulatory phase"). pyq RGUHS 2016 10 marks "Therapeutic uses of estrogens" is an exact row in `content/pyq/questions.json`. |
+
+Not changed: order of uses still follows KDT8 (HRT first, then senile vaginitis, delayed puberty, dysmenorrhoea, acne, DUB, carcinoma prostate, cautions); tags `uses, adr, contraindications` are valid; level ladder in p3-steroids-estrogen-progestin 4 L1 / 4 L2 / 2 L3. Deleted: none.

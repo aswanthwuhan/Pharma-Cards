@@ -373,3 +373,32 @@ Verified the cards left by a stopped run (156, 157, rf-0476, rf-0477) against Me
 | rf-p3-research-biostats-0477 | corrected (question wording) | Medhi PMECP p153-154 |
 
 - Validator: check ok.
+
+## Thin-coverage gap: central tendency in drug research (2026-11-05)
+
+Gap question idx 122 (WBUHS 2020, Mar, paper III, 10 marks): "Describe the use of central tendencies (measures) in drug research." Scattered cover was only p3-research-biostats-002 (L1, which measures fit which scale) and -004 (L1, definitions), so one dedicated essay was written.
+
+| id | status | source |
+|---|---|---|
+| p3-research-biostats-158 | new (essay L3, pyq WBUHS 2020 10) | Sarkar p356-365, p361-365, p376-380, p381-385, p511-515; Ghosh FEP PDF p211-213; Medhi PMECP p139, p142; Bioequivalence & Statistics PDF p52; GG14 PDF p1552 |
+| p3-research-biostats-159 | new (basic L1, new term geometric mean) | Ghosh FEP PDF p212-213 |
+
+- Checked every point on the page: mean = sum/number, unbiased estimate of the population mean and less variable between samples (Ghosh p211); mean distorted by extremes, median at (N+1)/2 and used for LD50/ED50/EC50, GM = antilog of mean of logs, GM with 95% CL of EC50 (Ghosh p212); GM suits geometric progressions and cannot be used with zero or negative values, mode may not exist in small samples, harmonic mean in Dunnett's test, identical means with different spread (Ghosh p213).
+- Bioequivalence point: AUC and Cmax are log-normal and equivalence is judged on the 90% CI of the ratio of geometric means inside 0.80-1.25 (Bioequivalence & Statistics PDF p52); PK tables quote mean +/- SD or a geometric mean with 95% CI (GG14 PDF p1552).
+- Results-section pairing of mean with SD/SEM or median with IQR confirmed in Sarkar p511-515.
+- L1 added only for the one new key term (geometric mean); mean/median/mode are already taught by -002/-004 and rapid 0012-0016, so not duplicated.
+- Rapid: three pairs added for facts not in the rapid deck (why GM is used in dose-response work, the median behind LD50/ED50, the BE statistic behind 0.80-1.25).
+- Subtopic levels after the addition (descriptive): 12 L1, 8 L2, 3 L3. Validator: check ok. No Prep/RR5 refs.
+
+## Fact-check recheck: central-tendency essay and geometric-mean L1 (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| p3-research-biostats-158 | corrected | Ghosh FEP PDF p211-213; Sarkar p356-360, p361-365, p381-385, p511-515; Medhi PMECP p139, p142; Bioequivalence & Statistics PDF p52; GG14 PDF p1552 |
+| p3-research-biostats-159 | corrected | Ghosh FEP PDF p212-213 |
+
+- 158 re-checked point by point on the page: mean = sum/N, unbiased estimate of the population mean and less variable between samples (Ghosh p211); mean distorted by extremes, median at (N+1)/2 and behind LD50/ED50/EC50, GM = antilog of the mean of the logs, EC50 GM with its 95% CL (p212); GM for a geometric progression and unusable with zero or negative values, mode may not exist in small samples, harmonic mean in Dunnett's test, identical means with different spread (p213); nominal, ordinal and interval/ratio choice of average and the 1,2,3,4,10,000 example (Sarkar p356-360, p361-365, p381-385); results as mean with SD/error or median with IQR (p511-515); PK tables as mean +/- SD or geometric mean with 95% CI (GG14 PDF p1552); AUC and Cmax log-normal with the 90% CI inside 0.80-1.25 (Bioequivalence & Statistics PDF p52).
+- Corrected 158: the ref "Sarkar p356-365" is not an OCR file range (10 pages, and it overlapped p361-365), now "Sarkar p356-360"; the median point no longer repeats Ghosh's 8-word run ("by the number of items and not by"); the harmonic mean is now its own point (Ghosh p213) instead of being tacked onto the geometric mean; "skewed and never negative" replaced by the book's "log-normally distributed" for AUC/Cmax; the "basis for comparing the potency of new compounds" clause dropped because it is not on p212.
+- Corrected 159: the definition no longer repeats Ghosh's "Nth root of the product of N" run; the geometric-progression/exponential-law, zero-or-negative and less-widely-known points all confirmed on p212-213.
+- No deletion. Levels unchanged (158 essay L3, 159 basic L1), subtopics and tags valid, no Prep/RR5 refs. pyq WBUHS 2020 Mar paper III 10 marks matches content/pyq/questions.json (entry idx 67). Known overlap: 158 reuses the 1,2,3,4,10,000 example already on basic 004 (Sarkar p361-365); kept because the essay needs it.
+- Validator: check ok.

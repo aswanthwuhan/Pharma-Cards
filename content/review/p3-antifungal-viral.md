@@ -244,3 +244,44 @@ See content/pyq/NO-SOURCE.md. Draft, owner must verify.
 - 072, 075, 077, 081, 090, 093, 095-100 (KDT8 ch59-60): PI class list and boost rule, valacyclovir/famciclovir doses, ganciclovir-cidofovir-foscarnet resistance logic, acyclovir/oral PK, WHO 2016 immediate start, NACO 2013 second-line PI order (atazanavir/r first), failure criteria - verified.
 - 076, 089, 091, 092 (GG14 ch40/ch62, Katzung16 p954-955): drift/shift, >99% adamantane resistance, zanamivir HA/NA cross-resistance, baloxavir cation and pregnancy cautions - verified.
 - Rapid ids in this chunk (rf-...-0328 to -0405) are logged in rapid-p3-antifungal-viral.md.
+
+## Added 2026-11-05: thin-coverage answers (two past questions)
+
+Both questions were "covered" only by scattered cards, so one dedicated card was written for each, answered the way the question is put.
+
+**Q1 (idx 119) WBUHS 2022 May, paper II, "Directly acting anti-virals.", 10 marks.** Scattered cover was 042 (sofosbuvir), 043 (cloze classification) and 044 (essay on treatment of chronic hepatitis C); none answered the question as titled.
+
+**Q2 (idx 190) RGUHS 2020 June-July, paper III, "Highly Active Anti Retroviral Therapy (HAART)", 10 marks.** Scattered cover was 077 (regimen principles) and 099 (NACO guidelines and newer antiretrovirals); neither defined the term HAART or gave principles, regimens and monitoring together.
+
+| id | status | source / note |
+|---|---|---|
+| p3-antifungal-viral-115 | added | L1 term card: what "directly acting" means and how it differs from interferon. KDT8 ch59 PDF p868-869; GG14 ch63 |
+| p3-antifungal-viral-116 | added | L3 short note, DAA answer card by target class. KDT8 ch59 PDF p869-870 (NS5B/NS3/NS5A lists, mechanisms, P-gp and acid-suppressant interactions); GG14 ch63 PDF p1254-1259 (SVR12, genetic barriers, pangenotypic regimens, GLE/PIB 8 weeks, NS3 combinations contraindicated in decompensated cirrhosis). pyq WBUHS 2022, 10 marks |
+| p3-antifungal-viral-117 | added | L3 essay, HAART answer card: definition, rationale, aims, when to start, first- and second-line regimens, monitoring, special situations. KDT8 ch60 PDF p878-882; GG14 ch64 PDF p1265; RangDale9 PDF p694. pyq RGUHS 2020, 10 marks |
+
+Notes:
+- pyq kept also on 043 (cloze), which already carried WBUHS 2022, 10 marks; duplicates of the same paper row across cards are normal in this deck.
+- Content of the DAA cards 042/043/044 left unchanged; the new 116 is the exam-style answer, they remain the drug-level detail.
+- Nothing deleted. Nothing unsourced: every point in 115-117 was read on the cited book page.
+- Level ladder after additions: hepatitis 6/5/3, art-regimens 8/6/5 (L1/L2/L3).
+
+Rapid: see rapid-p3-antifungal-viral.md.
+
+
+## Recheck 2026-11-05 (independent fact-check, thin-coverage pass B)
+
+Scope: the three cards added earlier today for the two thin past questions - 115, 116, 117. Every point was read on the cited page (KDT8 ch59 PDF p867-870, KDT8 ch60 PDF p878-882, GG14 ch63 PDF p1253-1259, GG14 ch64 PDF p1265, RangDale9 PDF p694). Checked for chapter-only refs, facts not on the cited page, copied phrasing (no 7-word run survives), level fit, tags/subtopic, and both pyq rows against `content/pyq/questions.json`.
+
+| id | status | source / note |
+|---|---|---|
+| p3-antifungal-viral-115 | corrected (refs, wording) | The GG14 ref was chapter-only: now `GG14 ch63 PDF p1253-1254`. KDT8 range opened to p867, which is where the interferon JAK-STAT / interferon-induced-protein text sits. Dropped "all-oral, interferon-free": KDT8 p869 still allows PegIFN inside a DAA combination and GG14 p1253 only says pegIFN *use* has been replaced (ribavirin is still added), so the back now says that. |
+| p3-antifungal-viral-116 | corrected (refs, 3 points) | `GG14 ch63 PDF p1254-1259` missed p1253, which carries the SVR12 definition, "administered orally" and "pegIFN-alfa replaced by DAAs"; range widened to p1253-1259. Same reason for replacing "all oral and interferon-free". "several mutations needed for resistance" -> "three or more resistance substitutions" (GG14 p1254). "cure rates above 90% ... 8 to 24 weeks" -> "about 95% ... 8 to 12 weeks" (GG14 p1253; KDT8's 12-24 weeks is the older figure). Level left at 3: the brief lists shortnote under L3 and this card is class-by-class synthesis; hepatitis ladder after the pass 6 L1 / 5 L2 / 3 L3. |
+| p3-antifungal-viral-117 | corrected (wording) | Removed the "cART" abbreviation (not printed in KDT8, GG14 or RangDale); the card now gives ART as the short form (KDT8 p878). The PI point now carries the books' own reason (p881: efavirenz resistance covers nevirapine, so the NNRTI class is used up for second line, where a boosted PI is almost always needed) instead of the earlier inference about "keeping them for second line". Added the lamivudine carry-over exception (p881). Every other section verified on KDT8 p878-882; the tuberculosis analogy and the "all untreated patients already harbour resistant mutants" point are both printed on GG14 p1265, so they stay. |
+
+Not changed, and why:
+
+- Tags, subtopics and levels on all three are valid; the matching rapid pairs are `rf-p3-antifungal-viral-0496` and `-0497`.
+- pyq rows confirmed in `content/pyq/questions.json`: WBUHS 2022 May paper II 10 marks "Directly acting anti-virals." (116) and RGUHS 2020 10 marks "Highly Active Anti Retroviral Therapy (HAART)" (117).
+- Accepted overlap: 116 restates part of 044 (essay: treatment of chronic hepatitis C) and 117 part of 059/099 (first-line ART, NACO guidelines). Each answers a differently worded paper, so none was merged.
+- 044 and 059 are still cited by chapter only (`KDT8 ch59`, `KDT8 ch60`, `GG14 ch63`) - both are older cards outside this pass and were left untouched.
+- Deleted: none.

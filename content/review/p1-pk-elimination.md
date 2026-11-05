@@ -164,3 +164,29 @@ Deleted:
 
 Verified, no change: 031, 033, 035, 037, 038, 039, 044, 045, 047, 049, 050, 051, 052, 053, 054, 055, 056, 061, 062, 063, 065, 066, 067, 069, 070, 071.
 Rapid pairs: see rapid-p1-pk-elimination.md, Recheck section.
+
+## Thin-coverage pass (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| p1-pk-elimination-073 | added (grounded) | KDT8 ch3 (nomenclature, isoforms, Table 3.1 substrates/inhibitors/inducers, interactions); RangDale9 ch10 PDF p139-140 (57 CYPs, families 1-3 = 70-80%, 12 CYPs = 93% of reactions, 450 nm haem protein, induction/polymorphism); Katzung16 ch4 (liver P450 content shares, PXR/CAR/AhR induction) |
+
+- Both thin questions (cov-1 idx 131 "Discuss the current concept on Cytochrome P 450 enzymes", RGUHS 2009 20 marks; cov-1 idx 158 "CYP 450 system", RGUHS 2020 10 marks) are now answered by one essay, p1-pk-elimination-073: introduction and nature of the enzyme, nomenclature and classification, the major isoforms with their share, location and normal work, substrates, inducers (including the nuclear-receptor mechanism), inhibitors, and clinical relevance. The existing 015, 022, 028, 032 and 033 remain as the focused cards.
+- pyq: tagged RGUHS 2009 (20) and RGUHS 2020 (10); both rows carry non-zero years.
+- L1 not added: 032 (57 CYPs, families 1-3, microsomal site) and 033/022 (inhibitors and inducers) already teach the terms the essay uses.
+- Source conflict, owner to note: KDT8 ch3 says "more than 100 cytochrome P-450 isoenzymes ... have been identified", while RangDale9 ch10 PDF p139 states 57 human CYPs. The card states 57, following GROUNDING rule 4 (newest book wins). Both statements are about different things in part (identified isoenzymes historically vs human genes), so the owner may wish to keep both.
+- Nothing unsourced; no WEB or UNSOURCED refs. Subtopic p1-pk-elimination-cyp450 after the addition: L1 3, L2 3, L3 3.
+- Nomenclature homology thresholds (40%/55%) were deliberately left out: no owner book prints them.
+
+## Checker (thin-coverage card 073, 2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| p1-pk-elimination-073 | corrected | KDT8 PDF p46-51; RangDale9 PDF p139-140; Katzung16 PDF p75-76; GG14 PDF p125, p134 |
+
+- Refs made page-precise: KDT8 ch3 -> KDT8 PDF p46-51 (isoenzymes and Table 3.1 on p46-47, inhibition p49-50, induction and its consequences p50-51); Katzung16 ch4 -> Katzung16 PDF p75-76 (liver P450 content shares p75; PXR/CAR/AhR p75-76). Added GG14 PDF p125 (CYP2C9, CYP2C19 and CYP2D6 polymorphisms and ethnic differences, which the last clinical bullet needs) and GG14 PDF p134 (AHR -> CYP1A1/2; PXR -> CYP3A4).
+- Numbers re-checked one by one and all match the printed text: 57 human CYPs, families 1-3 mediate 70-80% of drug metabolism, 12 CYPs account for 93% (RangDale9 p139-140); 3A4/5 nearly 50% and 2D6 nearly 20% of drugs, 2C8/9 more than 15 drugs, 2C19 more than 12 drugs (KDT8 p46); total liver P450 content 3A4 30%, 2C9 20%, 1A2 15%, 2E1 10%, 2D6 5%, 2A6 4%, 2B6 1% (Katzung16 p75); 1A2/3A4/2D6/2C9/2C19 together about 60% (RangDale9 p140); 450 nm haem-CO complex; induction 2-4 fold, peak 4-14 days, return over 1-3 weeks (KDT8 p51).
+- Wording corrected after a verbatim check found long runs copied from KDT8 p50: the inducer sentence was re-written ("CYP3A is induced by phenobarbitone, phenytoin, carbamazepine, rifampin..." instead of the book's "Phenobarbitone and rifampin also induce CYP2D6 and CYP2C8/9. Carbamazepine and rifampin, in addition, induce...") and the common-inhibitor list was regrouped and re-ordered (azoles first, macrolides next, then the rest). No run of 8 or more words now matches any cited page.
+- pyq verified in content/pyq/questions.json: RGUHS 2009 October paper I, 20 marks ("Discuss the current concept on Cytochrome P 450 enzymes") and RGUHS 2020 November paper I, 10 marks ("CYP 450 system"). Both tags correct, no change.
+- Nothing deleted; no unsourced facts; level 3 essay, tags and subtopic valid. Subtopic p1-pk-elimination-cyp450 unchanged: L1 3, L2 3, L3 3.
+- Note for the owner (unchanged): KDT8 p46 says "more than 100" CYP isoenzymes have been identified while RangDale9 p139 says 57 human CYPs; the card states 57 and follows GROUNDING rule 4.

@@ -486,3 +486,21 @@ rf-p3-tb-leprosy-0471 | new | KDT8 ch57
 Checked 91 rapid cards (rf-p3-tb-leprosy-0402 to 0492, incl. the new GG14 ch65 block 0472-0490) against KDT8 ch56-57 text and GG14 ch65 (PDF pp. 1285-1304). Corrected: none. Deleted: none. Unverifiable: none.
 Year facts 0461-0463 (streptomycin 1947, isoniazid 1952, rifampin 1962) are in the KDT8 ch56 introduction. Dapsone, leprosy MDT, clofazimine and ethionamide (about 10 percent hepatotoxicity) rows match KDT8 ch57.
 Not in this chunk and not changed: rf-p3-tb-leprosy-0141 (ethionamide about 5 percent) still conflicts with KDT8 ch57 (about 10 percent). Owner to check.
+
+## Thin-coverage gap: advances in leprosy treatment (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p3-tb-leprosy-0493 | new | KDT8 ch57 (12-week four-drug regimen: rifampicin 600, sparfloxacin 200, clarithromycin 500, minocycline 100 mg daily) |
+| rf-p3-tb-leprosy-0494 | new | GG14 PDF p1301 (US multibacillary regimen 24 months with clofazimine 50 mg daily; paucibacillary 12 months) |
+
+- ROM, RMMx, FDT-12/FDT-6, relapse and reaction pairs were already in the deck (0343-0344, 0359-0372, 0374-0382), so only these two gaps were filled. Validator: check ok.
+
+## Fact-check recheck: two new leprosy pairs (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p3-tb-leprosy-0493 | ok | KDT8 ch57 (PDF p847): rifampicin 600 mg, sparfloxacin 200 mg, clarithromycin 500 mg and minocycline 100 mg daily for 12 weeks, equal to standard 12-month MDT in multibacillary cases |
+| rf-p3-tb-leprosy-0494 | ok | GG14 PDF p1301: US multibacillary course is the paucibacillary regimen plus clofazimine 50 mg daily for 24 months; US paucibacillary 12 months |
+
+- Both read on the page, reverse cleanly, no "What is" start, no duplicate of 0343/0344 (ROM/RMMx). Subtopic clofazimine matches where the ROM/RMMx pairs live. No Prep/RR5 refs. Validator: check ok.

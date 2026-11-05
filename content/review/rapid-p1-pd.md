@@ -313,3 +313,27 @@ rf-p1-pd-0264 | new | GG14 PDF p174
 ## Recheck (all new cards, chunk 2/2)
 - Checked rf-p1-pd-0311 and rf-p1-pd-0312 against GG14 PDF p319 (dopamine agonists: PD, RLS, hyperprolactinaemia; levodopa formulated with a decarboxylase inhibitor to block peripheral conversion): ok.
 - Corrected: none. Deleted: none.
+
+## Thin-coverage pass (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p1-pd-0313 | added | RangDale9 ch3 PDF p40; Padmaja PDF p754 |
+| rf-p1-pd-0314 | added | RangDale9 ch3 PDF p39-40 |
+| rf-p1-pd-0315 | added | RangDale9 ch3 PDF p39-40 |
+
+- Added with short note p1-pd-079. The three facts (direct adenylyl cyclase activator, cholera toxin locking Gs on, pertussis toxin preventing G protein dissociation) had no pair in the rapid deck; the Gs/Gi coupling pairs already existed, so nothing else was added.
+- pyq: none (the question is a year-0 Q bank row).
+
+## Checker (thin-coverage rapid cards 0313-0315, 2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p1-pd-0313 | ok | RangDale9 ch3 PDF p40; Padmaja PDF p754 |
+| rf-p1-pd-0314 | ok | RangDale9 ch3 PDF p39-40 |
+| rf-p1-pd-0315 | ok | RangDale9 ch3 PDF p39-40 |
+
+- 0313: RangDale9 p40 says adenylyl cyclase can be activated directly by forskolin, used experimentally; Padmaja p754 gives forskolin as the Coleus forskohlii (Mainmool) diterpene that stimulates adenylate cyclase directly and is an inotrope. Answer correct and short.
+- 0314: RangDale9 Table 3.3 p39 (Gs activated by cholera toxin, which blocks GTPase activity) and p40 (ADP ribosylation of the alpha subunit; cholera toxin acts only on Gs, persistent activation, rice-water stools). Correct.
+- 0315: RangDale9 Table 3.3 p39 and p40 (pertussis toxin specifically blocks Gi and Go by preventing dissociation of the G protein trimer). Correct.
+- All three are kind "fact", read both ways round, no "What is" prompt, refs page-precise, no Prep/RR5 refs, and no run of 8 or more words shared with the cited pages. No change needed; nothing deleted.

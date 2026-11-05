@@ -201,3 +201,23 @@ Rapid cards (`content/rapid/p2-arrhythmia-angina-htn.json`):
 
 Checked and kept as is: all other chunk cards (study 074-088, 093, 095-106, 111-120, 112-117; rapid 0679-0693, 0699-0724, 0737-0741 content).
 Validator --check: ok.
+
+## Thin-coverage PYQ cards (2026-11-05)
+
+id | new | source
+p2-arrhythmia-angina-htn-130 | new (L3 essay: normal cardiac rhythm EP + details of K+ channels + antiarrhythmics blocking K+ channels; pyq RGUHS 2009 May, 20 marks) | KDT8 ch39-40; Katzung16 ch14, ch12; GG14 ch34, ch51, ch32
+p2-arrhythmia-angina-htn-131 | new (L1: named cardiac K+ currents and the phase each shapes) | Katzung16 ch14; GG14 ch34, ch51
+p2-arrhythmia-angina-htn-132 | new (L2 shortnote: newer antiarrhythmics; pyq RGUHS 2025 Sep, 10 marks) | KDT8 ch39-40; Katzung16 ch14; GG14 ch34
+p2-arrhythmia-angina-htn-133 | new (L1: vernakalant currents, atrial selectivity, use) | Katzung16 ch14
+
+Thin-coverage pass 2026-11-05 (cov-1 idx 111, 170). Existing scattered cards 071, 020, 007, 128, 129 (idx 111) and 022, 031, 036 (idx 170) opened and re-read; no fact was found wrong, so none corrected. Deleted: none. Prep/RR5 refs: none. Validator --check: ok.
+
+## Fact-check pass, thin-coverage cards (2026-11-05)
+
+id | corrected | source
+p2-arrhythmia-angina-htn-130 | corrected: amiodarone channel list cut to what is printed (IKr at once, IKs on chronic use, inactivated Na+, Ca2+, non-competitive beta block); "metabolic sensors" replaced by ATP-sensitive Kir6.x/SUR wording; late-Na+ and epicardium wording rephrased; refractory-after-repolarisation point reworded to remove a copied 8-word run; refs made page-precise | KDT8 ch39 PDF p585-p592, ch40 PDF p611; Katzung16 ch14 PDF p252-p273, ch12 PDF p223; GG14 ch34 PDF p687-p709, ch32 PDF p651, ch51 PDF p1043
+p2-arrhythmia-angina-htn-131 | refs page-precise only; every fact (Ito/Kv4.2/4.3 and Kv1.4, IKur/Kv1.5, IKr/Kv11.1-KCNH2, IKs/Kv7.1-KCNE1, IK1/Kir2.1, IK,ACh/Kir3.1-3.4, KATP/Kir6.x-SUR) found printed | Katzung16 ch14 PDF p252, p254, p267, ch12 PDF p223; GG14 ch34 PDF p688, ch51 PDF p1043; KDT8 ch40 PDF p611
+p2-arrhythmia-angina-htn-132 | corrected: dofetilide conversion "about one third" to "about 30% of cases" (KDT8); vernakalant "recent-onset" dropped (that wording is ibutilide's; vernakalant entry says rapid termination); cardiovascular-effect line rephrased; refs page-precise (GG14 ch31 p641 added for phosphenes) | KDT8 ch39 PDF p585, p592; Katzung16 ch14 PDF p266, p267, p269; GG14 ch34 PDF p706, ch31 PDF p641
+p2-arrhythmia-angina-htn-133 | corrected: "recent-onset" and the copied Katzung phrase dropped; refs page-precise, KDT8 p592 added | Katzung16 ch14 PDF p269; KDT8 ch39 PDF p592
+
+Deleted: none. All 4 cards are 100% printed in the cited pages; no Prep/RR5 refs. pyq re-checked against content/pyq/questions.json: 130 = RGUHS 2009 May, 20 marks (essay row) matches the potassium-channel essay; 132 = RGUHS 2025 September, 10 marks (shortnote row) "Newer antiarrhythmic drugs". Levels unchanged and correct (130 essay L3, 132 shortnote L2, 131/133 basic L1). Longest verbatim run against the cited pages now 6 words. Subtopic p2-arrhythmia-angina-htn-antiarrhythmic-classes ladder: 18 L1 / 7 L2 / 5 L3. Validator --check: ok.

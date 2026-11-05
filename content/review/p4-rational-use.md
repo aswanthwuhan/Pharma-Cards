@@ -219,3 +219,15 @@ Still needs a human check:
 - 049: the book says CAST showed increased mortality against placebo; "suppressed arrhythmias" is a reading of the trial name.
 
 Validator: node scripts/validate-content.mjs --check ok (no errors naming p4-rational-use). Prep / RR5 / RapidRev refs: none in the chunk.
+
+## Recheck of the "therapeutic jungle" gap (2026-11-05)
+
+Gap question idx 145 (RGUHS 2007, Apr, paper IV, 10 marks): "Therapeutic jungle". Searched the whole owner-book set again, including the added library: no book prints the phrase (no hit for "therap* jungl" in kdt8, gg12, gg14, katzung16, rangdale9, sarkar, golan, padmaja, satoskar, shanbhag, bhandari, medhi, ghosh, bennett, bioeq; only unrelated "jungle" uses such as Upton Sinclair's novel in GG14 ch1). No dedicated card can be written on that term, and no existing card text can carry it.
+
+| id | status | source |
+|---|---|---|
+| p4-rational-use-079 | ok (no change) | Sarkar p56-60, GG14 ch1 |
+| p4-rational-use-080 | ok (no change) | Sarkar p56-60, Sarkar p46-50, GG14 ch1 |
+| p4-rational-use-082 | ok (no change) | Sarkar p56-60, GG14 ch1 |
+
+- The concept is already covered as the crowded drug market: L1 079, L2 short note 080 (carries the RGUHS 2007 10-mark tag) and essay 082, with rapid 0241-0247. Nothing added, nothing corrected.

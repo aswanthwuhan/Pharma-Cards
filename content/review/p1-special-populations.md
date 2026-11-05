@@ -219,3 +219,27 @@ Source conflict (kept, owner to note): 080 says lithium milk concentration equal
 
 Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk).
 Validator: `node scripts/validate-content.mjs --check` clean after edits.
+
+## Thin-coverage pass (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| p1-special-populations-108 | added (grounded) | KDT8 ch3 (clearance definition, CL = rate of elimination / plasma concentration, lower renal clearance at both extremes) and ch5 (neonatal GFR/tubular maturation, 3-5 fold half-lives, elderly GFR 75% at 50 y and 50% at 75 y, reduced microsomal activity and liver blood flow); Katzung16 ch59 (GFR 30-40% at birth, 50-60% by 3 weeks, adult by 6-12 months, preterm penicillin 17%, CYP and conjugation 50-70% of adult, glucuronidation by 3-4 years, Table 59-4 half-lives) and ch60 (kidney weight 80%, hepatic blood flow 55-60%, phase I vs phase II, Table 60-2 drug list, creatinine clearance in two thirds, Cockcroft-Gault, one third with no fall) |
+
+- cov-2 idx 212 "Clearance of drugs at extreme of age" was covered only by the scattered 015, 021 and 022. New short note p1-special-populations-108 contrasts the two extremes on renal clearance, hepatic clearance and the dosing consequence, in one answer.
+- pyq: none. The row sits in the Q bank with year 0, so it is never tagged (THIN-BRIEF step 3). The related RGUHS 2021 10-mark question stays on 021.
+- L1 not added: clearance is defined inside the card and the neonatal/elderly basics are already taught by 015 and 021.
+- Numbers from two books are both shown rather than merged, because they differ: KDT8 gives adult glomerular filtration by about 5 months and mature tubular secretion by about 7 months, Katzung16 gives adult values between 6 and 12 months. The card names the source of each.
+- Nothing unsourced; no WEB or UNSOURCED refs. Subtopic p1-special-populations-paediatric after the addition: L1 4, L2 5, L3 2.
+
+## Checker (thin-coverage card 108, 2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| p1-special-populations-108 | corrected | KDT8 PDF p54-55, p58, p91, p95; Katzung16 PDF p1129-1131, p1136-1137; RangDale9 PDF p150 |
+
+- Refs made page-precise: KDT8 ch3 -> p54-55 (tubular transport immature at birth; renal clearance falls after 50 and is lower after 75) plus p58 (loading dose depends on V, maintenance dose on CL) and p95 (renal-disease dosing); KDT8 ch5 -> p91 (neonate: half-lives 3-5 times longer, adult GFR by 5 months, tubular secretion by 7 months, gray baby syndrome, faster metabolism after the first year; elderly: GFR 75% at 50 y and 50% at 75 y, reduced microsomal activity and liver blood flow, higher oral bioavailability of high-extraction drugs). Katzung16 ch59 -> p1129-1131 (neonatal body water; CYP and conjugation 50-70%; glucuronidation by years 3-4; Table 59-4 half-lives; GFR 30-40% at birth, 50-60% by week 3, adult by 6-12 months; preterm penicillin 17%; toddler digoxin). Katzung16 ch60 -> p1136-1137 (Table 60-1 kidney weight 80%, hepatic blood flow 55-60%; phase I vs phase II; two thirds with falling CrCl; up to one third with no fall; Cockcroft-Gault x0.85; Table 60-2 drug list). Added RangDale9 PDF p150 for total clearance being the sum of organ clearances.
+- Numbers re-checked as printed and all correct: 30-40% GFR at birth (lower before 34 weeks), 50-60% at 3 weeks, adult at 6-12 months; phenobarbital 200 h at 0-5 days vs 64-140 h in adults; phenytoin 80 h at 0-2 days vs 12-18 h; preterm penicillin 17% of adult clearance per surface area; CYP/conjugation 50-70%; elderly GFR 75%/50%; kidney weight 80%; hepatic blood flow 55-60%.
+- Wording corrected after the verbatim check (8-9 word runs against Katzung16 p1130 and KDT8 p55): the neonatal GFR sentence, the 50-70% sentence and the "renal clearance is substantially lower" sentence were re-written. No run of 8 or more words now matches any cited page.
+- Nothing deleted; no unsourced facts; level 2 shortnote, tag "pk", subtopic p1-special-populations-paediatric. Subtopic unchanged: L1 4, L2 5, L3 2.
+- Note for the owner: the card compares neonate and elderly, so it spans two subtopics; it stays under paediatric as written, and the elderly facts are also carried by 094-098.

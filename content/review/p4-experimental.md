@@ -475,3 +475,4 @@ Corrections, web:
 Deleted: none. No card removed, so subtopic minimums are unchanged (p4-experimental-animal-models 44 L1 / 44 L2 / 6 L3).
 Wording: checked against the full text of all five articles; longest verbatim run in any of the 18 cards is under 8 words, so no copied sentences.
 Refs: all web refs are in the form "WEB <org> <title> <year> <url>". pyq tags unchanged (210: UHSR 2025 + RGUHS 2021 "evaluation of diuretics" rows, both year-known; 216: UHSR 2025 hypolipidaemic-screening part; no year-0 Q-bank row is tagged).
+| p4-experimental-205 | deleted (owner, 2026-11-05: WEB/UNSOURCED duplicate of book card p4-experimental-109, Ghosh FEP p148-149; any pyq tags moved to 109) | lead |

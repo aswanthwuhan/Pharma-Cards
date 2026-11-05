@@ -216,3 +216,26 @@ All facts of 140-145 traced to RangDale9 ch59 PDF p751-754, with GG14 PDF p922 (
 | p2-opioids-143 | corrected | two bullets carried verbatim RangDale9 runs ("not banned in most sports, where they actually impair performance" and "the most widely used group, along with anabolic steroids") and were reworded; facts unchanged (PDF p753) |
 
 140, 141, 142, 144, 145 confirmed without change. pyq tags verified: 143 UHSR 2025 paper I "DRUGS IN SPORT AND DOPING" 10; 145 RGUHS 2011 paper IV "Discuss in detail drug abuse by sportspersons" 20. No PrepLadder refs. Validator: check ok.
+
+## Thin-coverage gap: cerebroactive drugs and Alzheimer disease (2026-11-05)
+Past question (Q-bank paper 2, 2014-2024): "Describe briefly the cerebroactive drugs and their use in Alzheimer's disease", 10 marks. Previously covered only by scattered cards (091 piracetam, 054 cognition enhancers, 055 essay, 139 essay); no card answered it as a class. New dedicated shortnote 146 plus an L1 card for the class term; the scattered cards were left untouched.
+
+| id | status | source |
+|---|---|---|
+| p2-opioids-146 | new | KDT8 ch35 PDF p530-533; GG14 ch21 PDF p439; Katzung16 PDF p1140; RangDale9 PDF p490; Padmaja PDF p256; Satoskar PDF p396 |
+| p2-opioids-147 | new | KDT8 ch35 PDF p530; RangDale9 PDF p490 |
+
+pyq tag: none. The only row for this question is a Q-bank row with year 0 (content/pyq/questions.json idx 1597), which is never tagged.
+Not carded: nothing unsourced; every member named is printed in KDT8 ch35 or the library books cited. No PrepLadder sources.
+Validator: check ok.
+
+## Independent review pass: 146-147 (2026-11-05)
+
+Read every cited page again (KDT8 ch35 PDF p530-533; GG14 ch21 PDF p439-440, p444; Katzung16 PDF p1140; RangDale9 ch38 PDF p490; Padmaja PDF p256; Satoskar PDF p396). All drug lists, mechanisms, the 6-12 month gain, the 3-month stopping rule, the nootropics and the Padmaja/RangDale additions are printed where cited. Two GG14 page refs were missing: "low-affinity" is the p444 formulary label for memantine and aducanumab's approval with uncertain efficacy is printed on p440 and p444, not p439; both pages added. Copied wording: Satoskar's "the overall benefit of drug therapy is disappointing", KDT8's "there is little convincing evidence", "tried with doubtful results" and "claimed to improve memory, concentration" were all close to the book runs and were reworded. "Tacrine ... was withdrawn" is not printed (KDT8 says it went out of use) and was corrected. No pyq tag is right (only the year-0 Q-bank row). No PrepLadder refs.
+
+| id | status | source |
+|---|---|---|
+| p2-opioids-146 | corrected | KDT8 ch35 PDF p530-533; GG14 ch21 PDF p439, p440 (added), p444 (added); Katzung16 PDF p1140; RangDale9 ch38 PDF p490; Padmaja PDF p256; Satoskar PDF p396 |
+| p2-opioids-147 | ok | KDT8 ch35 PDF p530; RangDale9 ch38 PDF p490 |
+
+Validator: check ok.

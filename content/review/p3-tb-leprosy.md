@@ -148,3 +148,29 @@ Checked 30 study cards from the recheck list against KDT8 ch56-57 text and GG14 
 | p3-tb-leprosy-055, 057, 058, 059, 060, 062, 063, 064, 065, 066, 067, 069, 070, 071, 072, 073, 074, 075, 076, 077, 078, 081, 082, 083 | ok | see refs | Facts match the cited text. Checked GG14 ch65 for 074-078 (MICs, Rv3547, Stover 2000, BPaL, pretomanid 100 patients, bedaquiline 50% vs 9%, M2, Group A-C). |
 
 Duplicates: none removed. 064 and 071 both give dapsone PK, but 064 is a wider shortnote (toxicity, other uses) and 071 is the basic PK card; 078 summarises 074-077 and keeps its wider scope. Level and subtopic counts unchanged (no deletions).
+
+## Thin-coverage gap: advances in treatment of leprosy (2026-11-05)
+
+Gap question idx 140 (RGUHS 2006, Apr, paper III, 10 marks): "Advances in treatment of leprosy". Scattered cover was p3-tb-leprosy-045 (L1, other antileprotic agents), -073 (L3, alternatives when rifampicin fails) and p3-national-programmes-063 (another worker's topic, not edited), so one dedicated essay was written.
+
+| id | status | source |
+|---|---|---|
+| p3-tb-leprosy-085 | new (essay L3, pyq RGUHS 2006 10) | KDT8 ch57; GG14 ch65, PDF p1300-1301 |
+
+- Checked on the page: dapsone monotherapy and resistance since 1964 with up to 20 percent relapse, MDT introduced by WHO 1981 and under NLEP 1982 with its listed advantages and relapse under 1 percent (KDT8 ch57); FDT-24 endorsed by the WHO expert group 1994 and FDT-12 after the 1997 expert committee, mass programme FDT-12/FDT-6 versus up to 4 years for cure of an individual with BI above 4+, and the US daily-rifampicin regimens (KDT8 ch57; GG14 PDF p1301).
+- Newer drugs and alternative regimens: ofloxacin 400 mg daily, moxifloxacin most potent, ciprofloxacin weak, minocycline 100 mg daily with vertigo, clarithromycin 500 mg daily with synergy, sparfloxacin in the four-drug regimen, ethionamide reserve with about 10 percent hepatotoxicity, ROM, RMMx, the 12-week four-drug regimen, the clofazimine-plus-two-drug regimen and the clofazimine-refusal substitution (KDT8 ch57).
+- Reactions: clofazimine 200 mg daily for ENL except severe, prednisolone 40-60 mg for severe ENL tapered over 2-3 months, thalidomide 100-300 mg at bedtime in ENL but ineffective in reversal reaction, rifampicin withheld during ENL/reversal (KDT8 ch57; GG14 PDF p1301).
+- Persisters, relapse up to 15 years and retreating with the same MDT (KDT8 ch57); global prevalence down about 90 percent since 1985 with free MDT (GG14 PDF p1300).
+- Deliberately left out: single-dose rifampicin post-exposure prophylaxis, uniform 6-month MDT for all types and any vaccine claim, because no owner book states them. GG14 p1301 gives clofazimine 300 mg daily for MB while KDT8 ch57 gives 300 mg monthly supervised plus 50 mg daily, so no clofazimine dose was written into this essay.
+- No L1 card added: MDT, persisters, FDT and the newer drugs already have L1/L2 cards (051, 038, 045, 073 and rapid 0343-0372). Subtopic levels after the addition (mdt-reactions): 4 L1, 2 L2, 3 L3. Validator: check ok. No Prep/RR5 refs.
+
+## Fact-check recheck: advances in leprosy treatment essay (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| p3-tb-leprosy-085 | ok | KDT8 ch57 (PDF p842-848); GG14 ch65, PDF p1300-1301 |
+
+- Every point read on the page: dapsone sheet-anchor since the 1940s, resistance 1964 and up to 20% relapse on monotherapy, no monotherapy now (p842-843, p846); MDT with rifampicin, dapsone and clofazimine introduced by WHO 1981 and under NLEP 1982, its listed advantages, relapse under 1%, no rifampicin or clofazimine resistance (p846); FDT-24 and the WHO expert group 1994, FDT-12 versus FDT-24 with similar relapse over 3-5 years and the 1997 expert committee, 6-month PB (p846); mass-programme FDT-12/FDT-6 against up to 4 years for cure of an individual with BI above 4+, US daily rifampicin 12 months PB and 24 months MB (p847; GG14 PDF p1301 adds clofazimine 50 mg daily for the 24-month US MB course); ofloxacin 400 mg daily cidal, moxifloxacin most potent, ciprofloxacin weak, minocycline 100 mg daily and vertigo, clarithromycin 500 mg daily with minocycline synergy, sparfloxacin in the four-drug regimen, ethionamide reserve with about 10% hepatotoxicity (p844-845, p847); ROM, RMMx, the 12-week four-drug regimen, clofazimine plus two drugs then one drug, clofazimine-refusal substitution and the ban on ethionamide as substitute (p847-848); clofazimine 200 mg daily except severe ENL, prednisolone 40-60 mg tapered over 2-3 months, thalidomide 100-300 mg at bedtime in ENL but not reversal, rifampicin withheld in ENL and reversal (p848; GG14 PDF p1300-1301); persisters, relapse up to 15 years, retreatment with the same MDT, relapse commoner with BI above 4+ (p847); prevalence down about 90% since 1985 with free MDT (GG14 PDF p1300); India below 1 per 10,000 in Dec 2005 (p845, p848).
+- No correction, no deletion. Level 3 essay, subtopic and tags valid, no Prep/RR5 refs; pyq RGUHS 2006 Apr paper III 10 marks matches content/pyq/questions.json. Subtopic levels unchanged (mdt-reactions 4 L1, 2 L2, 3 L3).
+- Note for the owner: no L1 card defines "bacillary index"; KDT8 uses BI > 4+ without defining it, so it was left as used (gg14 ch65 gives the 14-day doubling time only).
+- Validator: check ok.

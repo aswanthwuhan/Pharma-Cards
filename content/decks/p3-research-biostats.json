@@ -4159,6 +4159,117 @@
         "classification"
       ],
       "level": 2
+    },
+    {
+      "id": "p3-research-biostats-158",
+      "type": "essay",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses",
+        "pk"
+      ],
+      "level": 3,
+      "front": "Essay: Use of measures of central tendency in drug research",
+      "sections": [
+        {
+          "h": "What central tendency is",
+          "points": [
+            "One summary value that stands for a whole set of readings and shows the point about which they cluster",
+            "Experimental data always show both central tendency and variability; the measures condense many animals, patients or readings into a single figure that can be compared"
+          ]
+        },
+        {
+          "h": "The measures",
+          "points": [
+            "Arithmetic mean: sum of the values divided by their number; typical of the whole set and less variable from sample to sample than single readings, so it is an unbiased estimate of the population mean",
+            "Median: middle value of the ordered data, at position (N+1)/2, and the mean of the middle pair when the count is even; an average of position, decided by how many items there are rather than by how large any one of them is",
+            "Mode: the most frequent value; needs a large enough number of readings to give a smooth distribution, and may not exist at all in a small sample",
+            "Geometric mean: antilog of the mean of the logarithms, so the readings are averaged on the log scale and then converted back",
+            "Harmonic mean: reciprocal of the mean of the reciprocals of the values; it is the mean used in Dunnett's test"
+          ]
+        },
+        {
+          "h": "Choice by scale of measurement",
+          "points": [
+            "Nominal data: the mode is the only measure available",
+            "Ordinal data: median or mode, because ranks cannot be added or subtracted, so no mean can be calculated",
+            "Interval and ratio data: any of the three measures can be used"
+          ]
+        },
+        {
+          "h": "Choice by shape of distribution",
+          "points": [
+            "Normal distribution: mean, median and mode coincide",
+            "Skewed data or outliers: the median represents the set better, e.g. 1, 2, 3, 4 and 10,000 give a mean of 2002 but a median of 3",
+            "Ghosh's influenza mortality series gives an arithmetic mean of 80 against a median of 7, and the median is the more representative figure",
+            "Log-normal quantities such as AUC and Cmax, which bioequivalence work treats as log-normally distributed, are summarised on the log scale, so the geometric mean is the appropriate average"
+          ]
+        },
+        {
+          "h": "Where drug research uses them",
+          "points": [
+            "Describing the study material and the effect: a group's weight, blood pressure or plasma glucose is reported as one mean with its spread, and arms are then compared by t test or ANOVA",
+            "Dose-response and toxicity work: the median underlies the median lethal dose and the median effective dose or concentration (LD50, ED50, EC50)",
+            "Pooling EC50 values from repeated experiments: convert to logs, take the mean log EC50 with its 95% confidence limits, then antilog to get the geometric mean and its limits",
+            "Bioequivalence: AUC and Cmax are log-transformed and equivalence is judged on the 90% confidence interval of the ratio of geometric means lying within 0.80 to 1.25",
+            "Reporting: results sections pair the mean with SD or SEM, or the median with interquartile range; pharmacokinetic tables quote mean ± SD or a geometric mean with 95% confidence interval",
+            "Because SD, SEM and confidence limits are built around the mean, the choice of central value also decides which statistical test can be applied"
+          ]
+        },
+        {
+          "h": "Limitations",
+          "points": [
+            "The mean is greatly distorted by extreme values; the median is less familiar and not amenable to statistical analysis; the geometric mean cannot be computed if any value is zero or negative",
+            "A central value alone is incomplete: three groups with identical means can differ widely in spread, so a measure of dispersion is always reported with it"
+          ]
+        },
+        {
+          "h": "Conclusion",
+          "points": [
+            "The measure is chosen to suit the scale and shape of the data, and it then fixes how results are summarised, compared and tested",
+            "In practice: median for dose-response work and skewed data, mean with SD for normally distributed endpoints, geometric mean for log-normal pharmacokinetic data"
+          ]
+        }
+      ],
+      "refs": [
+        "Sarkar p356-360",
+        "Sarkar p361-365",
+        "Sarkar p376-380",
+        "Sarkar p381-385",
+        "Sarkar p511-515",
+        "Ghosh FEP PDF p211",
+        "Ghosh FEP PDF p212",
+        "Ghosh FEP PDF p213",
+        "Medhi PMECP p139",
+        "Medhi PMECP p142",
+        "Bioequivalence & Statistics PDF p52",
+        "GG14 PDF p1552"
+      ],
+      "pyq": [
+        {
+          "university": "WBUHS",
+          "year": 2020,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p3-research-biostats-159",
+      "type": "basic",
+      "subtopic": "p3-research-biostats-descriptive",
+      "tags": [
+        "uses"
+      ],
+      "level": 1,
+      "front": "What is the geometric mean, and when is it the right average?",
+      "back": "Computed by multiplying the N values together and then taking the N-th root; the quicker route is to convert each value to a logarithm, average those logs and take the antilog. It is the appropriate average for a quantity that follows a geometric progression or an exponential law, such as growth. It cannot be calculated if any value is zero or negative, and it is less widely known and harder to compute than the arithmetic mean.",
+      "refs": [
+        "Ghosh FEP PDF p212",
+        "Ghosh FEP PDF p213"
+      ],
+      "pyq": [],
+      "status": "draft"
     }
   ]
 }

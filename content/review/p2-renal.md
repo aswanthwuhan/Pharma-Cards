@@ -133,3 +133,28 @@ Deleted: none. Corrected facts: none (text unchanged apart from the ref above). 
 Cross-format overlap kept on purpose: 049 vs rf-0392, 070 vs rf-0396/0397, 095 vs rf-0408/0418 (study cards and rapid pairs cover the same facts in different formats).
 Fixes: none needed for missing level (all study cards have level) or for basic "why" backs (every basic whose front asks why or how answers it).
 Level ladder: every subtopic has >=3 L1, >=2 L2, >=1 L3. Validator: check ok.
+
+
+## Thin-coverage pass (cov-2 idx 253 "Pharmacology of drugs acting on proximal renal tubules")
+Was covered only by 018, 070 and 023 (carbonic anhydrase inhibitor and mannitol cards); no card answered the segment as asked, and none mentioned SGLT2 inhibitors, which GG14 treats as proximal-tubule diuretics.
+
+| id | status | source |
+|---|---|---|
+| p2-renal-099 | new (L2 shortnote, "Pharmacology of drugs acting on the proximal renal tubule") | KDT8 PDF p635, p637, p646, p650; GG14 PDF p582, p583, p589, p590; Katzung16 PDF p283 |
+
+- pyq: no tag. The only matching row is a "Q bank" row with year 0, which is never tagged.
+- Content: what the segment reabsorbs (65-70% of filtered Na+, HCO3- through NHE3 and type II/IV carbonic anhydrase, organic ion secretion), then CA inhibitors, osmotic diuretics (mannitol's main site is the loop, stated as such), SGLT2 inhibitors (about 90% of filtered glucose, about 5% of renal Na+ reabsorption, hybrid osmotic plus proximal diuresis, sequential blockade with a loop diuretic), and why proximal agents alone are weak.
+- No L1 card added: SGLT2 is already taught at L1 in p4-recent-034, and the CA inhibitor and mannitol terms by 018/070/023 and rapid rf-p2-renal-0237 to 0278.
+- Nothing unsourced; no Prep/RR5/Sarkar refs. Validator: check ok.
+
+## Independent fact-check (thin-coverage card 099), 2026-11-05
+Every cited page was opened with `search.py --page` (KDT8 p635, p637, p646, p650, p651; GG14 p582, p583, p589, p590; Katzung16 p283).
+
+| id | status | source |
+|---|---|---|
+| p2-renal-099 | corrected | KDT8 PDF p635, p637, p646, p650, p651; GG14 PDF p582, p583, p589, p590; Katzung16 PDF p283 |
+
+- Added `KDT8 PDF p651`: "contraindicated in anuria and pulmonary oedema" is printed there (p650 only has the 20% natriuresis and mannitol mechanism).
+- Reworded the SGLT2 sentence to avoid copying GG14 p589 ("SGLT2 in the apical membrane of the proximal tubule"); facts unchanged.
+- Figures re-confirmed at cited pages: proximal 65-70% of filtered Na+ (KDT8 p637); acetazolamide maximal Na+ loss 5%, worst kaliuresis and self-limiting action (KDT8 p646; GG14 p582); mannitol maximal natriuresis 20% (KDT8 p650) with its main site the loop (GG14 p583); SGLT2 about 90% of filtered glucose and about 5% of renal Na+ reabsorption, hybrid osmotic/proximal diuresis (GG14 p589; 90% also Katzung16 p283); sequential nephron blockade with a loop diuretic (GG14 p590).
+- pyq left empty: the only matching row is a "Q bank" entry with year 0, which is never tagged. Level 2, tags valid, still no deletion.
