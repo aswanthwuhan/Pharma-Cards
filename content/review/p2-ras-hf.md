@@ -172,3 +172,34 @@ See content/pyq/NO-SOURCE.md. Draft, owner must verify.
 | rf-p2-ras-hf-0641 | new (owner-approved no-source) | WEB NCBI StatPearls Heart Failure and Ejection Fraction https://www.ncbi.nlm.nih.gov/books/NBK553115/ |
 | rf-p2-ras-hf-0642 | new (owner-approved no-source) | WEB PMC Four pillars of heart failure: contemporary pharmacological therapy for HFrEF https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7929859/ |
 | rf-p2-ras-hf-0643 | new (owner-approved no-source) | WEB NCBI StatPearls Heart Failure and Ejection Fraction https://www.ncbi.nlm.nih.gov/books/NBK553115/ |
+
+## Vasopeptidase pass (checker, 2026-11-05)
+
+Completed the unlogged cards left by a stopped run: study 100-102 and rapid rf-0644 to rf-0649. Sources read: GG14 ch33 page text (PDF p674, p681, p685), Katzung16 ch17 (PDF p341), KDT8 ch37 (PDF p566).
+
+Corrections
+- 100 (L3): refs made precise (GG14 PDF p674, p681; Katzung16 ch17); added the class members (omapatrilat, sampatrilat, fasidotrilat) and cough as an adverse effect; "not more effective than an ACE inhibitor" replaced by the printed finding of the 2002 prospective study; "so angioedema is not increased" softened to "may explain why".
+- 101 (L1): back rewritten to teach the why (angiotensin II down, ANP/BNP up, vasodilatation and natriuresis, bradykinin and substance P up); refs precise plus KDT8 PDF p566 for NEP = neprilysin.
+- 102 (L1): "not better than an ACE inhibitor" replaced by "showed no clear advantage" (Table 33-6: no clear benefit); refs precise; the drug is now named as a vasopeptidase inhibitor.
+- Rapid rf-0644: question reworded (no "first example", which no book states); rf-0645 answer adds cough; rf-0646 to rf-0649 refs made precise; rf-0648 answer now "no clear benefit over enalapril" (Table 33-6), refs GG14 PDF p681, p685.
+- New rapid rf-p2-ras-hf-0650 (kind class): vasopeptidase inhibitors - omapatrilat, sampatrilat, fasidotrilat in Katzung16's order.
+
+pyq
+- The only matching past question is "Vasopeptide inhibitors" (content/pyq/questions.json, university "Q bank", year 0, 10 marks, source "4 paper split q bank/paper 1 (2014-2024).pdf"). content/pyq/SOURCES.md says year-0 Q-bank rows are not tagged to cards, so no pyq tag was added to 100. If the owner wants the Q-bank placeholder, add {"university": "Q bank", "year": 0, "marks": 10}.
+
+Table
+| id | status | source |
+|---|---|---|
+| p2-ras-hf-100 | corrected (refs, class list, cough, 2002 wording) | GG14 PDF p674, p681; Katzung16 ch17 |
+| p2-ras-hf-101 | corrected (back rewritten, refs) | GG14 PDF p674, p681; KDT8 PDF p566 |
+| p2-ras-hf-102 | corrected (no clear benefit, refs) | GG14 PDF p674, p681; Katzung16 ch17 |
+| rf-p2-ras-hf-0644 | corrected (question, refs) | GG14 PDF p681; Katzung16 ch17 |
+| rf-p2-ras-hf-0645 | corrected (answer adds cough) | GG14 PDF p674; Katzung16 ch17 |
+| rf-p2-ras-hf-0646 | corrected (refs) | GG14 PDF p681; KDT8 PDF p566 |
+| rf-p2-ras-hf-0647 | ok (refs made precise) | GG14 PDF p674 |
+| rf-p2-ras-hf-0648 | corrected (answer, refs) | GG14 PDF p681, p685 |
+| rf-p2-ras-hf-0649 | ok (refs made precise) | GG14 PDF p674 |
+| rf-p2-ras-hf-0650 | new (class card) | Katzung16 ch17 |
+
+- Levels: 100 L3, 101 L1, 102 L1. endothelin-natriuretic still has 9 L1, 3 L2, 2 L3.
+- No Prep/RR5 refs. Validator: check ok.

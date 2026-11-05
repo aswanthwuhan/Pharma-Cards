@@ -257,3 +257,30 @@ rf-p4-recent-0123 | added | SGLT2 inhibitors used outside the USA: ipragliflozin
 Duplicates: none found in chunk 2 (JAK subclass cards 0086-0089 are kept with the full class card 0095; the SGLT2 class card 0028 is kept with 0094).
 Unverifiable (kept): none in chunk 2. No UNSOURCED or WEB refs.
 Validator: node scripts/validate-content.mjs --check: check ok.
+
+## Gap pass: organ-on-a-chip and mitochondrial medicine (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p4-recent-0129 | new | Golan PDF p954 |
+| rf-p4-recent-0130 | new | GG14 ch1 |
+| rf-p4-recent-0131 | new | Bennett PDF p47, GG14 ch1 |
+| rf-p4-recent-0132 | new | GG14 ch1 |
+| rf-p4-recent-0133 | new | Sarkar p516-520 |
+| rf-p4-recent-0134 | new | Harrison21 PDF p3710 |
+| rf-p4-recent-0135 | new | Harrison21 PDF p3710 |
+| rf-p4-recent-0136 | new | Harrison21 PDF p3694 |
+| rf-p4-recent-0137 | new | Harrison21 PDF p3719 |
+| rf-p4-recent-0138 | new | Harrison21 PDF p3720 |
+
+Subtopics: all ten are in the new `p4-recent-new-models-mitochondria`. No WEB or UNSOURCED refs.
+
+## Independent review pass (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p4-recent-0130 | corrected | ref "GG14 ch1" made precise as GG14 PDF p28 (the "clinical trials in a dish" passage) |
+| rf-p4-recent-0131 | corrected | ref "GG14 ch1" made precise as GG14 PDF p28 |
+| rf-p4-recent-0132 | corrected | ref "GG14 ch1" made precise as GG14 PDF p28 |
+
+0129, 0133-0138 checked against the cited pages and kept unchanged.

@@ -289,3 +289,27 @@ Deleted (duplicates of earlier cards with the same fact; the kept card was check
 Kept as is: rf-p2-toxicology-0903 (Katzung16 ch58 p1117 lists molecular weight, water solubility, protein binding, endogenous clearance and distribution).
 
 Owner note: Katzung16 p1118 (antidote table) says "start with 15 mg/kg IV" for calcium in severe CCB overdose, while the p1120 text gives 2-10 g IV. The kept cards follow the p1120 text. Owner may want to check this.
+
+## Added 2026-11-05: PYQ gap "Define clinical toxicity and enumerate the most common drugs and chemicals responsible in adults"
+
+| id | change | ref |
+|---|---|---|
+| rf-p2-toxicology-0912 | new class list: substances most often causing poisoning in adults | GG14 ch9 PDF p181 |
+| rf-p2-toxicology-0913 | new class list: substances most often causing poisoning in children up to 5 years | GG14 ch9 PDF p181 |
+| rf-p2-toxicology-0914 | new class list: substances causing the most poisoning deaths | GG14 ch9 PDF p181 |
+| rf-p2-toxicology-0915 | new: poison exposures per 100,000 population (2019) => 643 | GG14 ch9 PDF p181 |
+| rf-p2-toxicology-0916 | new: usual intent behind adult poisoning exposures => mostly intentional exposures or adverse reactions | GG14 ch9 PDF p181 |
+
+## Recheck 2026-11-05 (independent check, reviewer 2)
+
+Scope: rf-p2-toxicology-0912 to 0916 against GG14 ch9 PDF p181 (book p162).
+
+| id | change | ref |
+|---|---|---|
+| rf-p2-toxicology-0912 | ok: adult exposure list matches Table 9-5 in book order | GG14 ch9 PDF p181 |
+| rf-p2-toxicology-0913 | ok: paediatric <=5 years list matches Table 9-5 in book order | GG14 ch9 PDF p181 |
+| rf-p2-toxicology-0914 | ok: fatality list matches Table 9-6 in book order | GG14 ch9 PDF p181 |
+| rf-p2-toxicology-0915 | ok: 643 per 100,000 (2019 NPDS report) | GG14 ch9 PDF p181 |
+| rf-p2-toxicology-0916 | ok: adult exposures mostly intentional or adverse reactions | GG14 ch9 PDF p181 |
+
+No copies, no Prep/RR5 refs, no "What is" questions. Deleted: none.

@@ -184,3 +184,31 @@ See content/pyq/NO-SOURCE.md. Draft, owner must verify.
 | rf-p1-adr-0296 | new (owner-approved no-source) | UNSOURCED - owner must verify |
 | rf-p1-adr-0297 | new (owner-approved no-source) | UNSOURCED - owner must verify |
 | rf-p1-adr-0298 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+
+## Past-question gap: chemical carcinogenesis (2026-11-05)
+New subtopic `p1-adr-carcinogenesis` ("Chemical carcinogenesis"). PYQ covered: UHSR 2025 (paper IV) "CHEMICAL CARCINOGENESIS", 10 marks -> p1-adr-099; RGUHS 2024 (June, paper IV) "Carcinogenicity and Mutagenicity", 10 marks -> p1-adr-100; RGUHS 2006 (April, paper I) "Carcinogenicity", 10 marks -> p1-adr-101. Before this the deck had only the definitional sentences in p1-adr-055 and the classification list in p1-adr-020; initiation/promotion, genotoxic vs epigenetic and primary vs secondary carcinogens were not carded.
+
+| id | status | source |
+|---|---|---|
+| p1-adr-096 | new | GG14 ch76 PDF p1528; KDT8 ch6 PDF p118 |
+| p1-adr-097 | new | RangDale9 ch58 PDF p744; GG14 ch76 PDF p1528, p1529 |
+| p1-adr-098 | new | RangDale9 ch58 PDF p744; GG14 ch76 PDF p1528; GG14 PDF p125 |
+| p1-adr-099 | new | GG14 ch76 PDF p1528-1530; RangDale9 ch58 PDF p743, p744 |
+| p1-adr-100 | new | RangDale9 ch58 PDF p744; KDT8 ch6 PDF p118; KDT8 PDF p107; Katzung16 PDF p29 |
+| p1-adr-101 | new | KDT8 ch6 PDF p118, p929, p349; RangDale9 ch58 PDF p743, p744; GG14 ch76 PDF p1528, p1529 |
+
+No PrepLadder sources. Validator: check ok.
+
+## Independent review pass: chemical carcinogenesis cards (2026-11-05)
+
+Every fact of 096-101 was traced to the cited page. Corrections:
+
+| id | status | source |
+|---|---|---|
+| p1-adr-097 | corrected | RangDale9 phrasing ("increases the chance that a mutagen will cause cancer") rewritten in own words; fact unchanged (RangDale9 ch58 PDF p744) |
+| p1-adr-098 | corrected | benzo[a]pyrene sentence reworded (9-word verbatim run with GG14 ch76 PDF p1528) |
+| p1-adr-099 | corrected | "guanine O6 or N7" deleted: no cited page prints O6, so the adduct point now cites only what GG14 ch76 PDF p1528 says; "prevention in high-risk women" deleted as unprinted, now "driven by endogenous estrogen" (GG14 ch76 PDF p1530) |
+| p1-adr-100 | corrected | "two years in two species" replaced by whole-life chronic dosing (KDT8 PDF p107); CHO-cell bullet reworded (11-word verbatim run with RangDale9 ch58 PDF p744) |
+| p1-adr-101 | corrected | "guanine O6 or N7" deleted (not printed in any cited page); rest confirmed |
+
+Confirmed and kept: 096 (GG14 p1528; KDT8 p118 for the 10-40 year latency), IARC grades (GG14 p1528), 101 "most human cancers ... chemical carcinogens" (GG14 PDF p121), secondary malignancies after cytotoxics (KDT8 PDF p929), unopposed estrogen and endometrial carcinoma (KDT8 PDF p349), mutagenicity testing battery and its limits (RangDale9 ch58 PDF p744; Katzung16 PDF p29 safety table). pyq tags all match content/pyq/questions.json: 099 UHSR 2025 paper IV "CHEMICAL CARCINOGENESIS" 10; 100 RGUHS 2024 paper IV 10; 101 RGUHS 2006 paper I 10. Validator: check ok.

@@ -244,3 +244,44 @@ See content/pyq/NO-SOURCE.md. Draft, owner must verify.
 | rf-p4-recent-0126 | new (owner-approved no-source) | WEB PMC Conceptual expansion of photomedicine for spatiotemporal treatment methods 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC11959407/ |
 | rf-p4-recent-0127 | new (owner-approved no-source) | WEB PMC Conceptual expansion of photomedicine for spatiotemporal treatment methods 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC11959407/ |
 | rf-p4-recent-0128 | new (owner-approved no-source) | WEB PMC Taking phototherapeutics from concept to clinical launch 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8493544/ |
+
+## Gap pass: organ-on-a-chip and mitochondrial medicine (2026-11-05)
+
+Two UHSR 2025 (10-mark) questions had no card anywhere: "ORGAN ON A CHIP" and part c of a brief,
+"MITOCHONDRIAL MEDICINE". Neither fitted the five existing subtopics, so a sixth was added:
+`p4-recent-new-models-mitochondria` ("Organ-on-a-chip and mitochondrial medicine").
+Every fact is from an owner book (Golan, GG14, Bennett, Katzung16, Sarkar OCR, Harrison21). No WEB or
+UNSOURCED refs, so GROUNDING-RULES.md exceptions were not needed.
+
+| id | status | source |
+|---|---|---|
+| p4-recent-098 | new | Golan PDF p954 (in vitro method modelling a complex physiologic system); GG14 ch1 |
+| p4-recent-099 | new | Harrison21 PDF p3710 (dual genetic control, 37 mtDNA genes, 1400+ nuclear genes) |
+| p4-recent-100 | new | Harrison21 PDF p3694 (heteroplasmy), Harrison21 PDF p3714 (mutant-load threshold) |
+| p4-recent-101 | new (pyq UHSR 2025) | Golan PDF p954; GG14 ch1 (stem cell-derived organoids, 3D bioprinting, activity/DMPK/metabolism/toxicity); Bennett PDF p47 (organoids); Katzung16 PDF p29 (in vitro predictive value still limited); Sarkar p516-520 (3D hydrogels, cell-culture limits) |
+| p4-recent-102 | new (pyq UHSR 2025) | Harrison21 PDF p3710, p3694, p3714, p3717, p3719, p3720 |
+| p4-recent-103 | new (pyq UHSR 2025) | Harrison21 PDF p3719 (treatment, drugs to avoid, trial agents), p3720 (mitochondrial replacement, gene editing) |
+
+Caution for the owner (organ-on-a-chip): Golan PDF p954 is the only owner-book sentence that names
+organ-on-a-chip, and it only says such in vitro systems model complex physiologic systems better than
+cell-based assays. The rest of card 101 is the books' description of the same family of human-cell
+models (3D organoids, 3D bioprinting: GG14 ch1, Bennett PDF p47; 3D hydrogels: Sarkar p516-520) and
+the stated limits of in vitro predictive value (Katzung16 PDF p29). Nothing on chip design,
+microfluidics, organ combinations or regulatory acceptance is printed in the owner books, so none is
+carded. A fuller 10-mark answer needs a source PDF for the owner to add (then it can be re-grounded).
+
+Caution (mitochondrial medicine): the phrase "mitochondrial medicine" itself is not printed in any
+owner book; the cards use Harrison21 ch468 (mtDNA and heritable disease) for the field's content, and
+the title of the short note follows the question wording.
+
+## Independent review pass: new-models/mitochondria cards (2026-11-05)
+
+Every fact of p4-recent-098..103 was traced to the cited page. Corrections:
+
+| id | status | source |
+|---|---|---|
+| p4-recent-098 | corrected | closing sentence (unprinted "shift towards human cell-based models") rewritten from Golan PDF p954; ref "GG14 ch1" made precise as GG14 PDF p28 |
+| p4-recent-099 | corrected | ATP function reworded from Harrison21 PDF p3709 and that ref added (only p3710 was cited) |
+| p4-recent-102 | corrected | Harrison21 PDF p3709 added (complexes I-V, CoQ, cytochrome c and ATP are printed on p3709, not p3710); "Pearson marrow syndrome" corrected to "Pearson's syndrome" (p3710 Fig. 468-1) |
+
+Checked, no change: 100 (Harrison21 PDF p3694 for heteroplasmy; p3714 figure legend for the mutant-load threshold), 101 (Golan p954; GG14 PDF p28; Bennett PDF p47; Katzung16 PDF p29; Sarkar p516-520), 103 (Harrison21 PDF p3719, p3720). pyq tags verified against content/pyq/questions.json: 101 = UHSR 2025 paper III "ORGAN ON A CHIP" 10 marks; 102 and 103 = UHSR 2025 paper IV brief part c "MITOCHONDRIAL MEDICINE" 10 marks. No PrepLadder refs. Validator: check ok.

@@ -100,3 +100,21 @@ rf-p1-drug-delivery-0152 | new | RangDale9 ch9
 ## Gap PYQ rapid pairs (rf-0153 to rf-0171)
 rf-p1-drug-delivery-0153 to 0160 | new | GG14 ch44
 rf-p1-drug-delivery-0161 to 0171 | new | Golan ch55; Padmaja PDF p30/p698; KDT8 ch3
+
+## Gap fill 2026-11-05: rapid pairs for Nanomedicine
+
+| id | status | source |
+|---|---|---|
+| rf-p1-drug-delivery-0172 | new | Sarkar p551-555 |
+| rf-p1-drug-delivery-0173 | new | Sarkar p551-555 |
+| rf-p1-drug-delivery-0174 | new | Satoskar PDF p51 |
+
+## Independent recheck 2026-11-05: rapid 0172-0174
+
+| id | status | source |
+|---|---|---|
+| rf-p1-drug-delivery-0172 | ok | Sarkar p551-555 |
+| rf-p1-drug-delivery-0173 | ok | Sarkar p551-555 |
+| rf-p1-drug-delivery-0174 | ok | Satoskar PDF p51 |
+
+Notes: the "at least one dimension smaller than 100 nm or 0.1 µm" definition and "Carbon tubes are used to deliver cisplatin" are printed on Sarkar p551-555; "long term in vivo safety ... still to be confirmed" on Satoskar PDF p51. q/a short and reversible; no Prep/RR5 refs. Validator: check ok.

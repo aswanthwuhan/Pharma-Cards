@@ -558,3 +558,29 @@ Rapid cards in chunk: 84. Checked against KDT8 ch66-70 and GG14 ch40/ch75. Resul
 
 Other ids (71): checked as stated, including talc, starch, calamine, podophyll, chlorine 0.1 to 0.25 ppm, H2O2 10 volumes, vitamin A/E values, TAB, Vi 72% and 60%, cholera, BCG, HDCV, Thai regimen, meningococcal A and C 50 mcg, and the vitiligo PUVA numbers (GG14 ch75).
 Not verified in this chunk: none.
+
+## Added 2026-11-05: PYQ gap "Drugs used in the treatment of hyperpigmented patches"
+
+| id | change | ref |
+|---|---|---|
+| rf-p3-misc-0575 | new: Hydroquinone: over-the-counter and prescription strengths => 1.5-2% over the counter; 3-4% by prescription | GG14 ch75 PDF p1518 |
+| rf-p3-misc-0576 | new: Hydroquinone: two serious cutaneous adverse effects => Dermatitis and ochronosis | GG14 ch75 PDF p1518 |
+| rf-p3-misc-0577 | new: Prescription triple product for hyperpigmentation => Hydroquinone 4% + fluocinolone 0.01% + tretinoin 0.05% | GG14 ch75 PDF p1518 |
+| rf-p3-misc-0578 | new: Tranexamic acid in melasma: mechanism => Blocks plasminogen activation, so UV-induced melanogenesis and neovascularisation fall | GG14 ch75 PDF p1518 |
+| rf-p3-misc-0579 | new: Pigment that responds best to demelanising agents => Epidermal, hormonal or light-induced; dermal pigment responds poorly | GG14 ch75 PDF p1518 |
+
+Kojic acid and the Kligman formula are not printed in any owner book, so no card was made for them.
+
+## Recheck 2026-11-05 (independent check, reviewer 2)
+
+Scope: rf-p3-misc-0575 to 0579 against GG14 ch75 PDF p1518 ("Treatment of Hyperpigmentation").
+
+| id | change | ref |
+|---|---|---|
+| rf-p3-misc-0575 | ok: 1.5-2% over the counter, 3-4% by prescription | GG14 ch75 PDF p1518 |
+| rf-p3-misc-0576 | ok: dermatitis and ochronosis | GG14 ch75 PDF p1518 |
+| rf-p3-misc-0577 | ok: hydroquinone 4% + fluocinolone 0.01% + tretinoin 0.05% | GG14 ch75 PDF p1518 |
+| rf-p3-misc-0578 | ok: blocks plasminogen activation, so UV melanogenesis and neovascularisation fall | GG14 ch75 PDF p1518 |
+| rf-p3-misc-0579 | ok: epidermal, hormonal or light-induced pigment responds; dermal pigment poorly | GG14 ch75 PDF p1518 |
+
+No copies, no Prep/RR5 refs, no "What is" questions. Deleted: none.

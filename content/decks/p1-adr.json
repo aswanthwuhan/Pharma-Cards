@@ -2714,5 +2714,277 @@
       ],
       "level": 2
     }
+,
+  {
+    "id": "p1-adr-096",
+    "type": "basic",
+    "front": "What is chemical carcinogenesis, and what are its stages?",
+    "back": "It is the production of cancer by a chemical. In the classic model a tumour initiator causes gene mutations that let cells proliferate and escape apoptosis; a promoter, which does not itself alter genes, then changes signalling or the extracellular environment so the initiated cells survive, proliferate and invade; chromosome instability and further mutations follow (progression). The point to remember is the time scale: chemical carcinogenesis in humans usually takes 10 to 40 years to appear.",
+    "refs": [
+      "GG14 ch76 PDF p1528",
+      "KDT8 ch6 PDF p118"
+    ],
+    "pyq": [],
+    "status": "draft",
+    "subtopic": "p1-adr-carcinogenesis",
+    "tags": [
+      "mechanism"
+    ],
+    "level": 1
+  },
+  {
+    "id": "p1-adr-097",
+    "type": "basic",
+    "front": "Genotoxic and epigenetic carcinogens: how do they differ?",
+    "back": "A genotoxic carcinogen damages DNA, usually after metabolic activation to a reactive intermediate that forms DNA adducts or generates reactive oxygen species; if the damage is not repaired before replication, a mutation is fixed. An epigenetic (non-genotoxic) carcinogen is not itself mutagenic: it only makes cancer more likely in cells that another, DNA-damaging agent has already mutated, for example by driving proliferation or inflammation, or by methylating gene promoters so tumour suppressor genes are silenced. Most epigenetic carcinogens act as tumour promoters.",
+    "refs": [
+      "RangDale9 ch58 PDF p744",
+      "GG14 ch76 PDF p1528",
+      "GG14 ch76 PDF p1529"
+    ],
+    "pyq": [],
+    "status": "draft",
+    "subtopic": "p1-adr-carcinogenesis",
+    "tags": [
+      "mechanism",
+      "classification"
+    ],
+    "level": 1
+  },
+  {
+    "id": "p1-adr-098",
+    "type": "basic",
+    "front": "Primary, secondary and proximate carcinogen: what do the terms mean?",
+    "back": "A primary (direct) carcinogen causes mutations without needing metabolic conversion. A secondary carcinogen has first to be converted, usually by cytochrome P450, into a reactive metabolite, so the parent compound is called a procarcinogen and the nearer metabolite a proximate carcinogen. In tobacco smoke, benzo[a]pyrene is oxidized twice by CYPs: first to a 7,8-dihydrodiol, which is the proximate carcinogen, and then to a diol epoxide that binds DNA.",
+    "refs": [
+      "RangDale9 ch58 PDF p744",
+      "GG14 ch76 PDF p1528",
+      "GG14 PDF p125"
+    ],
+    "pyq": [],
+    "status": "draft",
+    "subtopic": "p1-adr-carcinogenesis",
+    "tags": [
+      "mechanism",
+      "classification"
+    ],
+    "level": 1
+  },
+  {
+    "id": "p1-adr-099",
+    "type": "shortnote",
+    "front": "Short note: Chemical carcinogenesis",
+    "sections": [
+      {
+        "h": "Classification",
+        "points": [
+          "IARC grades carcinogens: group 1 known human carcinogens, 2A probably carcinogenic, 2B possibly carcinogenic, 3 data lacking to suggest a role, 4 unlikely to be carcinogenic",
+          "Chemical carcinogenesis is multistage, and one chemical may act at more than one stage"
+        ]
+      },
+      {
+        "h": "Stages",
+        "points": [
+          "Initiation: an initiator mutates genes that govern proliferation and apoptosis",
+          "Promotion: a promoter alters signalling or the extracellular environment so initiated cells expand",
+          "Progression: chromosome instability and further mutations lead to invasion and metastasis"
+        ]
+      },
+      {
+        "h": "Genotoxic mechanism",
+        "points": [
+          "Metabolic activation yields a reactive intermediate; covalent DNA adducts then form",
+          "Reactive oxygen species and lipid peroxidation products also damage DNA",
+          "Unrepaired damage becomes a mutation in a proto-oncogene or tumour suppressor gene"
+        ]
+      },
+      {
+        "h": "Epigenetic mechanism",
+        "points": [
+          "Receptor-mediated proliferation: phorbol esters activate protein kinase C, estrogens activate estrogen receptor alpha",
+          "Chronic inflammation and compensatory proliferation, as with asbestos or chronic liver injury",
+          "CpG island methylation silences tumour suppressor genes; heavy metals hamper DNA repair"
+        ]
+      },
+      {
+        "h": "Complete carcinogens and cocarcinogens",
+        "points": [
+          "Benzo[a]pyrene and ultraviolet radiation can both initiate and promote",
+          "Ethanol is a cocarcinogen: it dissolves tobacco carcinogens and depletes glutathione"
+        ]
+      },
+      {
+        "h": "Prevention",
+        "points": [
+          "Avoid the exposure; chemoprevention can block initiation or promotion",
+          "Tamoxifen and raloxifene are approved to prevent breast cancer driven by endogenous estrogen",
+          "Celecoxib reduced colorectal cancer but increased cardiovascular deaths"
+        ]
+      }
+    ],
+    "refs": [
+      "GG14 ch76 PDF p1528",
+      "GG14 ch76 PDF p1529",
+      "GG14 ch76 PDF p1530",
+      "RangDale9 ch58 PDF p743",
+      "RangDale9 ch58 PDF p744"
+    ],
+    "pyq": [
+      {
+        "university": "UHSR",
+        "year": 2025,
+        "marks": 10
+      }
+    ],
+    "status": "draft",
+    "subtopic": "p1-adr-carcinogenesis",
+    "tags": [
+      "mechanism",
+      "adr"
+    ],
+    "level": 2
+  },
+  {
+    "id": "p1-adr-100",
+    "type": "shortnote",
+    "front": "Short note: Testing drugs for mutagenicity and carcinogenicity",
+    "sections": [
+      {
+        "h": "Why a battery of tests",
+        "points": [
+          "No single test is adequate, so in vitro and in vivo tests for gene mutation, chromosome damage and carcinogenicity are combined"
+        ]
+      },
+      {
+        "h": "Ames test",
+        "points": [
+          "Uses a Salmonella typhimurium mutant that cannot grow without histidine",
+          "The chemical is tested with a liver microsomal preparation that can generate reactive metabolites",
+          "Colony growth on histidine-free medium means back-mutation, i.e. the chemical is mutagenic",
+          "Rapid and inexpensive, but gives some false positives and false negatives"
+        ]
+      },
+      {
+        "h": "Other short-term tests",
+        "points": [
+          "Mutagenesis in mouse lymphoma cells",
+          "Chromosome damage and sister chromatid exchange assays in Chinese hamster ovary cells"
+        ]
+      },
+      {
+        "h": "Animal carcinogenicity",
+        "points": [
+          "Groups of animals are dosed chronically, often for the whole life of the animal",
+          "Animals are watched for tumours, so the test is slow and costly",
+          "Tumours arise spontaneously in controls and the result is often equivocal"
+        ]
+      },
+      {
+        "h": "Limits and consequence",
+        "points": [
+          "No test reliably detects epigenetic carcinogens; combination with a threshold dose of a genotoxic agent is being evaluated",
+          "A drug with mutagenic or carcinogenic potential is not marketed, or is withdrawn, unless it is needed for a life-threatening disease"
+        ]
+      }
+    ],
+    "refs": [
+      "RangDale9 ch58 PDF p744",
+      "KDT8 ch6 PDF p118",
+      "KDT8 PDF p107",
+      "Katzung16 PDF p29"
+    ],
+    "pyq": [
+      {
+        "university": "RGUHS",
+        "year": 2024,
+        "marks": 10
+      }
+    ],
+    "status": "draft",
+    "subtopic": "p1-adr-carcinogenesis",
+    "tags": [
+      "adr"
+    ],
+    "level": 2
+  },
+  {
+    "id": "p1-adr-101",
+    "type": "essay",
+    "front": "Essay: Carcinogenicity of drugs",
+    "sections": [
+      {
+        "h": "Definition and significance",
+        "points": [
+          "Carcinogenicity is the capacity of a drug to cause cancer",
+          "Latency is long, and most human cancers are attributed to chemical carcinogens",
+          "IARC grading runs from group 1 (known human carcinogen) to group 4 (unlikely to be carcinogenic)"
+        ]
+      },
+      {
+        "h": "Mechanisms",
+        "points": [
+          "Genotoxic: oxidation yields reactive intermediates that bind DNA covalently, forming adducts",
+          "Mutation of proto-oncogenes or of tumour suppressor genes follows",
+          "Epigenetic: promoters, hormones and chronic inflammation drive proliferation without mutating DNA"
+        ]
+      },
+      {
+        "h": "Drugs implicated",
+        "points": [
+          "Cytotoxic anticancer drugs: secondary leukaemias, lymphomas and histiocytic tumours appear years later",
+          "Immunosuppressants",
+          "Sex hormones: unopposed estrogen predisposes to endometrial carcinoma",
+          "Radioisotopes and tobacco"
+        ]
+      },
+      {
+        "h": "Other important chemical classes",
+        "points": [
+          "Genotoxic: nitrosamines, polycyclic aromatic hydrocarbons, aromatic amines, aflatoxin B1",
+          "Non-genotoxic: ethanol, phorbol esters, diethylstilbestrol, arsenic, asbestos, dioxins"
+        ]
+      },
+      {
+        "h": "Detection",
+        "points": [
+          "Ames test for mutagenicity, with a liver microsomal system for activation",
+          "Chronic animal studies for carcinogenicity",
+          "Neither reliably detects epigenetic carcinogens"
+        ]
+      },
+      {
+        "h": "Prevention",
+        "points": [
+          "Limit exposure and avoid unnecessary use of a potentially carcinogenic drug",
+          "Chemoprevention with tamoxifen or raloxifene for breast cancer",
+          "Hepatitis B and human papillomavirus vaccines prevent virus-driven cancers"
+        ]
+      }
+    ],
+    "refs": [
+      "KDT8 ch6 PDF p118",
+      "KDT8 PDF p929",
+      "KDT8 PDF p349",
+      "RangDale9 ch58 PDF p743",
+      "RangDale9 ch58 PDF p744",
+      "GG14 ch76 PDF p1528",
+      "GG14 ch76 PDF p1529",
+      "GG14 PDF p121"
+    ],
+    "pyq": [
+      {
+        "university": "RGUHS",
+        "year": 2006,
+        "marks": 10
+      }
+    ],
+    "status": "draft",
+    "subtopic": "p1-adr-carcinogenesis",
+    "tags": [
+      "adr",
+      "classification"
+    ],
+    "level": 3
+  }
   ]
 }

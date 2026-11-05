@@ -76,3 +76,21 @@ None triggered. No statement in the three chapters looked wrong on reading, so n
 - 0638: removed "about 20%" (not printed in the cited pages); answer now "superior to enalapril" (GG14 PDF p674). Ref corrected from GG14 ch30 to GG14 PDF p674.
 - 0639: ref corrected from GG14 ch30 to GG14 PDF p674 (sacubitril is in the HF chapter, ch33).
 - Validator: check ok.
+
+## Vasopeptidase pass (checker, 2026-11-05)
+
+Verified the unlogged rapid cards rf-0644 to rf-0649 against GG14 ch33 page text (PDF p674, p681, p685), Katzung16 ch17 (PDF p341) and KDT8 ch37 (PDF p566).
+
+| id | status | source |
+|---|---|---|
+| rf-p2-ras-hf-0644 | corrected, question reworded | GG14 PDF p681; Katzung16 ch17 |
+| rf-p2-ras-hf-0645 | corrected, answer adds cough | GG14 PDF p674; Katzung16 ch17 |
+| rf-p2-ras-hf-0646 | corrected, refs precise | GG14 PDF p681; KDT8 PDF p566 |
+| rf-p2-ras-hf-0647 | ok, refs precise | GG14 PDF p674 |
+| rf-p2-ras-hf-0648 | corrected, "no clear benefit over enalapril" (Table 33-6) | GG14 PDF p681, p685 |
+| rf-p2-ras-hf-0649 | ok, refs precise | GG14 PDF p674 |
+| rf-p2-ras-hf-0650 | new, kind class: omapatrilat, sampatrilat, fasidotrilat | Katzung16 ch17 |
+
+- rf-0648: OVERTURE is the trial named on GG14 PDF p685 (references); the 2002 year is on Table 33-6 (p681).
+- rf-0650 completes the class the PYQ asks for; the three drugs are in Katzung16's order.
+- No Prep/RR5 refs. Validator: check ok.

@@ -243,3 +243,106 @@ Levels, basic-card why lines and subtopic minimums: not applicable (Rapid Fire d
 | rf-p3-antifungal-viral-0489 | ok | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0490 | ok | Katzung16 ch49 |
 | rf-p3-antifungal-viral-0491 | ok | Katzung16 ch49 |
+
+## Recheck (all new cards, chunk 1/2)
+
+Scope: rf-p3-antifungal-viral-0328 to 0405 (78 ids), checked against KDT8 ch58-60 (PDF p850-883), GG14 ch40/ch62 and Katzung16 ch49 (PDF p922-956) with search.py page reads. Validator --check: ok, before and after.
+
+Corrected: none. Every pair re-read against the page it cites and no wording or ref needed changing.
+
+Verified as written (spot list of the numbers, since these are the ones that usually drift):
+- 0347/0348/0349: caspofungin t1/2 10 h, anidulafungin ~36 h (longest), micafungin 12-15 h (KDT8 PDF p853).
+- 0357: AMB test dose 1 mg i.v. over 20 min (KDT8 PDF p850).
+- 0358: L-AMB = 10% AMB in 60-80 nm unilamellar liposomes (KDT8 PDF p851).
+- 0365: nystatin vaginal tab 1 lakh U twice daily (KDT8 PDF p852).
+- 0369: griseofulvin 125-250 mg QID with meals (KDT8 PDF p853).
+- 0374/0375: clotrimazole 60-100% cure in 2-4 weeks; miconazole >90% (KDT8 PDF p854).
+- 0381-0383: fluconazole 100 mg/day 2 weeks (oropharyngeal), 150 mg weekly 4 weeks (tinea), 200-400 mg/day 4-12 weeks (disseminated/cryptococcal meningitis) (KDT8 PDF p856).
+- 0391: voriconazole 6 mg/kg 12-hourly x2 then 3-4 mg/kg 12-hourly (KDT8 PDF p857).
+- 0393/0394: terbinafine ~75% oral, <50% after first pass, <=5% through unbroken skin (KDT8 PDF p858).
+- 0397-0402: acyclovir ~20% oral, early-only benefit in encephalitis, 15 mg/kg/day x7 days in chickenpox, 400 mg QID x7 days for contact prophylaxis, topical useless in recurrent disease, 5% ointment 6 times daily x10 days in primary disease (KDT8 PDF p861-862).
+- 0403-0405: valacyclovir 55-70% by peptide transporters; 1.0 g BD x10 days first episode, 1.0 g BD x3-5 days recurrent (KDT8 PDF p862).
+
+Subtopics: unchanged; each id keeps an id from content/subtopics/p3-antifungal-viral.json. 0328-0342 art-drugs, 0343-0366 polyenes-echinocandins, 0367-0372 + 0374-0375 + 0393-0396 superficial, 0373 + 0376-0392 azoles, 0397-0405 herpes-cmv - all sensible for the fact.
+Deleted: none. Duplicates in this chunk: none (0331 is the only class card and lists all eight PIs in KDT8 order). Unverifiable refs: none (no UNSOURCED/WEB refs in this range).
+
+| id | ok / corrected | source |
+|---|---|---|
+| rf-p3-antifungal-viral-0328 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0329 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0330 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0331 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0332 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0333 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0334 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0335 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0336 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0337 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0338 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0339 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0340 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0341 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0342 | ok | KDT8 PDF p876-877 |
+| rf-p3-antifungal-viral-0343 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0344 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0345 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0346 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0347 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0348 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0349 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0350 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0351 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0352 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0353 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0354 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0355 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0356 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0357 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0358 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0359 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0360 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0361 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0362 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0363 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0364 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0365 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0366 | ok | KDT8 ch58 (PDF p850-853) |
+| rf-p3-antifungal-viral-0367 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0368 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0369 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0370 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0371 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0372 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0373 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0374 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0375 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0376 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0377 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0378 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0379 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0380 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0381 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0382 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0383 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0384 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0385 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0386 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0387 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0388 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0389 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0390 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0391 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0392 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0393 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0394 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0395 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0396 | ok | KDT8 ch58 (PDF p853-858) |
+| rf-p3-antifungal-viral-0397 | ok | KDT8 ch59 (PDF p861-862) |
+| rf-p3-antifungal-viral-0398 | ok | KDT8 ch59 (PDF p861-862) |
+| rf-p3-antifungal-viral-0399 | ok | KDT8 ch59 (PDF p861-862) |
+| rf-p3-antifungal-viral-0400 | ok | KDT8 ch59 (PDF p861-862) |
+| rf-p3-antifungal-viral-0401 | ok | KDT8 ch59 (PDF p861-862) |
+| rf-p3-antifungal-viral-0402 | ok | KDT8 ch59 (PDF p861-862) |
+| rf-p3-antifungal-viral-0403 | ok | KDT8 ch59 (PDF p861-862) |
+| rf-p3-antifungal-viral-0404 | ok | KDT8 ch59 (PDF p861-862) |
+| rf-p3-antifungal-viral-0405 | ok | KDT8 ch59 (PDF p861-862) |

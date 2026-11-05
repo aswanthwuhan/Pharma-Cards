@@ -2826,6 +2826,153 @@
         "uses"
       ],
       "level": 3
+    },
+    {
+      "id": "p3-endocrine-099",
+      "type": "essay",
+      "front": "Essay: Pathophysiology of insulin resistance and its emerging therapy",
+      "sections": [
+        {
+          "h": "Definition",
+          "points": [
+            "Insulin resistance is a subnormal response of liver, skeletal muscle and fat to insulin concentrations that are physiologically adequate",
+            "Sensitivity is measured by how much glucose is cleared for a set insulin dose or a set plasma insulin level",
+            "Relative resistance is integral to type 2 diabetes and precedes the overt disease"
+          ]
+        },
+        {
+          "h": "Tissue-level changes",
+          "points": [
+            "Muscle and fat: less glucose is transported from blood into the cells",
+            "Fat: lipolysis escapes insulin control, so free fatty acids pour out and worsen resistance in other tissues",
+            "Liver: insulin no longer suppresses glucose production, while its lipogenic action stays intact, so fat accumulates in the liver"
+          ]
+        },
+        {
+          "h": "Role of adipose tissue",
+          "points": [
+            "Obesity is the single most important factor; larger adipocytes carry fewer insulin receptors",
+            "Sensitivity varies inversely with the amount of intra-abdominal fat, and intracellular lipid or its products interfere with insulin signalling",
+            "Enlarged fat depots are infiltrated by macrophages and become chronically inflamed; adipocytokines (TNF-alpha, IL-6, resistin, retinol-binding protein 4) then cause resistance at distant sites"
+          ]
+        },
+        {
+          "h": "Cellular mechanism",
+          "points": [
+            "The chain is receptor tyrosine kinase, then IRS docking proteins, then PI3-kinase, ending in GLUT4 translocation; one or more of these steps is blunted",
+            "Abnormal serine and threonine phosphorylation of the receptor beta subunit or of IRS proteins desensitises signalling and functionally down-regulates the receptor",
+            "Receptor mutations (in number, binding, phosphorylation or trafficking) are known but rarely explain ordinary type 2 resistance; some hormones, glucocorticoids for example, lower receptor affinity"
+          ]
+        },
+        {
+          "h": "Secondary causes",
+          "points": [
+            "Ageing, sedentary life, pregnancy and oral contraceptives",
+            "Acromegaly, Cushing's syndrome, pheochromocytoma, lipoatrophic diabetes and insulin-neutralising antibodies",
+            "Acute: infection, trauma, surgery and emotional stress through counter-regulatory steroids; ketoacidosis, where ketone bodies and free fatty acids block glucose uptake"
+          ]
+        },
+        {
+          "h": "Consequences",
+          "points": [
+            "Insulin resistance is a major risk factor from which type 2 diabetes develops, and a falling functional beta-cell mass explains why therapy has to be escalated over the years",
+            "Dyslipidaemia, hepatic steatosis, hypertension and the rest of the metabolic syndrome",
+            "Chronically high insulin has itself been blamed for angiopathy"
+          ]
+        },
+        {
+          "h": "Established management",
+          "points": [
+            "Obesity is the strongest factor; physical training raises insulin sensitivity, and oral drugs sit on top of diet and exercise, not instead of them",
+            "Metformin lowers insulin resistance rather than raising insulin supply, and pioglitazone is chosen when resistance is prominent",
+            "Acute resistance: remove the precipitant and give high doses of regular insulin until control returns"
+          ]
+        },
+        {
+          "h": "Emerging therapies",
+          "points": [
+            "Multi-receptor peptides that combine GLP-1 agonism with glucagon or GIP receptor activation",
+            "Still under evaluation for type 2 diabetes: glucokinase activators, 11-beta-hydroxysteroid dehydrogenase-1 (11-beta-HSD1) inhibitors, GPR40 agonists and combined SGLT1/SGLT2 inhibitors",
+            "For type 1 diabetes: anti-CD3 antibodies at stage 2, calcium channel blockers aimed at TXNIP in recent-onset disease, and closed-loop sensor-pump systems"
+          ]
+        }
+      ],
+      "refs": [
+        "KDT8 PDF p294",
+        "KDT8 PDF p295",
+        "KDT8 PDF p306",
+        "KDT8 PDF p316",
+        "GG14 PDF p1048",
+        "GG14 PDF p1061",
+        "Katzung16 PDF p802",
+        "RangDale9 ch32 PDF p420"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "mechanism",
+        "newer-drugs",
+        "uses"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p3-endocrine-100",
+      "type": "basic",
+      "front": "What are insulin receptor substrates, and what do they do?",
+      "back": "Docking proteins such as IRS1 and IRS2 are the first substrates that the activated insulin receptor's tyrosine kinase phosphorylates. Their phosphotyrosines then bind and activate further kinases, most importantly PI3-kinase, and this cascade produces GLUT4 translocation along with the enzyme changes of insulin action.",
+      "refs": [
+        "KDT8 PDF p298",
+        "Katzung16 PDF p802"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p3-endocrine-101",
+      "type": "basic",
+      "front": "In ordinary type 2 diabetes, does insulin resistance lie in the receptor or beyond it?",
+      "back": "Beyond it. The defect sits in the steps between receptor tyrosine kinase activity and GLUT4 translocation, so the receptor can bind insulin yet the response stays weak. One accepted mechanism is abnormal phosphorylation of the receptor beta subunit or of the IRS proteins on serine and threonine residues, which desensitises signalling and functionally down-regulates the receptor. True receptor mutations occur but account for only rare, severe syndromes.",
+      "refs": [
+        "KDT8 PDF p306",
+        "Katzung16 PDF p802",
+        "GG14 PDF p1048"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p3-endocrine-102",
+      "type": "basic",
+      "front": "What are adipocytokines, and which ones cause insulin resistance?",
+      "back": "Signalling proteins released by adipocytes and by the immune cells found in enlarged fat depots. Tumour necrosis factor-alpha, interleukin-6, resistin and retinol-binding protein 4 act systemically and make other tissues resistant to insulin; insulin resistance in turn raises the risk of type 2 diabetes.",
+      "refs": [
+        "GG14 PDF p1048"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p3-endocrine-insulin",
+      "tags": [
+        "mechanism"
+      ],
+      "level": 1
     }
   ]
 }

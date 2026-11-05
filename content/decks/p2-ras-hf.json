@@ -2826,6 +2826,102 @@
         "uses",
         "newer-drugs"
       ]
+    },
+    {
+      "id": "p2-ras-hf-100",
+      "type": "shortnote",
+      "front": "Short note: Vasopeptidase (dual ACE and neprilysin) inhibitors",
+      "sections": [
+        {
+          "h": "Class",
+          "points": [
+            "A single molecule that blocks both ACE and neprilysin (neutral endopeptidase)",
+            "Members of the class: omapatrilat, sampatrilat and fasidotrilat",
+            "Omapatrilat is the one discussed in detail"
+          ]
+        },
+        {
+          "h": "Intended actions",
+          "points": [
+            "Less angiotensin II, because ACE is blocked",
+            "Natriuretic peptides (ANP, BNP) accumulate because neprilysin is blocked",
+            "Net effect: vasodilatation, diuresis and antihypertrophic action"
+          ]
+        },
+        {
+          "h": "Why it was not adopted",
+          "points": [
+            "The hope that it would work better than an ACE inhibitor in heart failure was not borne out in a prospective study (2002)",
+            "It causes angioedema and cough, put down to slower breakdown of bradykinin",
+            "Angioedema stopped its development and it was never approved for clinical use"
+          ]
+        },
+        {
+          "h": "Basis of angioedema",
+          "points": [
+            "Neprilysin degrades bradykinin and substance P, and ACE degrades them as well",
+            "Blocking both enzymes therefore raises these peptides more than blocking neprilysin alone"
+          ]
+        },
+        {
+          "h": "Successor",
+          "points": [
+            "Sacubitril-valsartan inhibits neprilysin (sacubitril) and blocks AT1 receptors (valsartan) but does not block ACE",
+            "Smaller rises in bradykinin and substance P may explain why angioedema is not increased",
+            "Superior to enalapril in a large head-to-head comparison"
+          ]
+        }
+      ],
+      "refs": [
+        "GG14 PDF p674",
+        "GG14 PDF p681",
+        "Katzung16 ch17"
+      ],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "level": 3
+    },
+    {
+      "id": "p2-ras-hf-101",
+      "type": "basic",
+      "front": "Vasopeptidase inhibitor: which two enzymes does it block?",
+      "back": "ACE and neprilysin (neutral endopeptidase). Blocking both lowers angiotensin II while natriuretic peptides build up, giving vasodilatation and natriuresis; bradykinin and substance P also build up, which is why angioedema stopped omapatrilat's development.",
+      "refs": [
+        "GG14 PDF p674",
+        "GG14 PDF p681",
+        "KDT8 PDF p566"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "mechanism",
+        "adr"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p2-ras-hf-102",
+      "type": "basic",
+      "front": "Omapatrilat: what it is and why its development stopped",
+      "back": "A vasopeptidase inhibitor, so it blocks both ACE and neprilysin. It lowers angiotensin II and raises ANP/BNP, but in heart failure it showed no clear advantage over an ACE inhibitor, and angioedema stopped its development, so it was never approved.",
+      "refs": [
+        "GG14 PDF p674",
+        "GG14 PDF p681",
+        "Katzung16 ch17"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p2-ras-hf-endothelin-natriuretic",
+      "tags": [
+        "newer-drugs",
+        "adr"
+      ],
+      "level": 1
     }
   ]
 }

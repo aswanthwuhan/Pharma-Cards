@@ -5,6 +5,15 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.14",
+    changes: [
+      "New cards for the last past-paper gaps: insulin resistance, chemical carcinogenesis, doping in sport, organ-on-a-chip, mitochondrial medicine, childhood asthma, nanomedicine, oligospermia, hyperpigmentation, clinical toxicity, problems in clinical trials and vasopeptidase inhibitors",
+      "Screening models for diuretics, antimalarials and lipid-lowering drugs (web-sourced drafts, awaiting review)",
+      "Syllabus now shows the right open level for each subtopic after you pass the one below",
+      "Long subtopic titles stay on two lines; Help page describes the real Rapid fire grades",
+    ],
+  },
+  {
     version: "0.5.13",
     changes: [
       "Every release now ships together: Windows and macOS installers, the Android APK, and the web app (PWA) on GitHub Pages",

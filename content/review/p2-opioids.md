@@ -191,3 +191,28 @@ Checked against KDT8 ch28/34/35 text, GG14 PDF p417/p480/p481/p526-535/p562, KDT
 - Key facts checked, ok (not every sentence of every card was traced; not yet checked in full: 066 "morphine substitute" wording, 068 euphoria and locus coeruleus wording, 070 nalorphine line, 078 sedative line, 091 adverse list, 128-130 DSM and neurobiology wording, rf-0633 to 0649 beyond the spot checks): 094, 095, 096, 099, 100, 101, 103, 104, 105, 107, 108, 110, 112, 115, 116, 117, 118, 120, 124, 126, 127, 128, 129, 130, 065 (refs kept), 066, 067, 068, 069, 070, 071, 072, 075, 077, 078, 079, 080, 082, 088, 089, 091, 092, 093.
 - Duplicates: 109 (disulfiram regimen) overlaps 097 but is the only L1 basic in its subtopic; kept to keep the minimums.
 - Unverifiable: none (no UNSOURCED or WEB refs in this chunk).
+
+## Past-question gap: drug abuse by sportspersons (2026-11-05)
+New subtopic `p2-opioids-doping` ("Drug abuse in sport (doping)"). PYQ covered: RGUHS 2011 (May, paper IV) "Discuss in detail drug abuse by sportspersons", 20 marks -> p2-opioids-145; UHSR 2025 (paper I) "DRUGS IN SPORT AND DOPING", 10 marks -> p2-opioids-143. Nothing in any deck listed the drug classes used in sport before this; p1-biochemical-048/049/051 cover doping *detection* only.
+
+| id | status | source |
+|---|---|---|
+| p2-opioids-140 | new | RangDale9 ch59 PDF p751, p752 |
+| p2-opioids-141 | new | RangDale9 ch59 PDF p752, p753 |
+| p2-opioids-142 | new | RangDale9 ch59 PDF p753; GG14 PDF p922; Katzung16 PDF p649 |
+| p2-opioids-143 | new | RangDale9 ch59 PDF p753, p754 |
+| p2-opioids-144 | new | RangDale9 ch59 PDF p752-754; GG14 PDF p1015 |
+| p2-opioids-145 | new | RangDale9 ch59 PDF p751-754; Katzung16 PDF p649 |
+
+Not used: KDT8 only mentions individual drugs (amphetamine, somatropin, androgen abuse) and has no doping section, so it is not cited here. No PrepLadder sources.
+Validator: check ok.
+
+## Independent review pass: doping cards (2026-11-05)
+
+All facts of 140-145 traced to RangDale9 ch59 PDF p751-754, with GG14 PDF p922 (epoetin misuse and athlete deaths), GG14 PDF p1015 (THG) and Katzung16 PDF p649 (blood doping). Corrections:
+
+| id | status | source |
+|---|---|---|
+| p2-opioids-143 | corrected | two bullets carried verbatim RangDale9 runs ("not banned in most sports, where they actually impair performance" and "the most widely used group, along with anabolic steroids") and were reworded; facts unchanged (PDF p753) |
+
+140, 141, 142, 144, 145 confirmed without change. pyq tags verified: 143 UHSR 2025 paper I "DRUGS IN SPORT AND DOPING" 10; 145 RGUHS 2011 paper IV "Discuss in detail drug abuse by sportspersons" 20. No PrepLadder refs. Validator: check ok.

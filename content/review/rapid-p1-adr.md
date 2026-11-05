@@ -365,3 +365,24 @@ Checked and kept (facts confirmed on cited pages):
 - 0294 thalidomide: GG14 PDF p164 (over 10,000 children, 1957-61). GG14 p164 is the opening page of ch8, so "GG14 ch8" is correct.
 - 0295 insomnia list: each of the 11 drugs has insomnia in the cited KDT8 PDF page: nicotine replacement p150; tofacitinib p244; caffeine and theophylline p258; glucocorticoids p323; tizanidine p398; selegiline p472; amantadine p473; amisulpride p483; amphetamines p164; older H1 antihistamines p195.
 Validator: check ok.
+
+## Chemical carcinogenesis rapid pairs (2026-11-05)
+New subtopic `p1-adr-carcinogenesis`.
+
+| id | status | source |
+|---|---|---|
+| rf-p1-adr-0299 | new | GG14 ch76 PDF p1528 |
+| rf-p1-adr-0300 | new | GG14 ch76 PDF p1528 |
+| rf-p1-adr-0301 | new | RangDale9 ch58 PDF p744 |
+| rf-p1-adr-0302 | new | RangDale9 ch58 PDF p744 |
+| rf-p1-adr-0303 | new | RangDale9 ch58 PDF p744 |
+
+Validator: check ok.
+
+## Independent review pass (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p1-adr-0301 | corrected | GG14 PDF p125 added for the term "procarcinogen" (the word is not printed on the RangDale9 page) |
+
+0299, 0300, 0302, 0303 checked against the cited pages and kept unchanged.

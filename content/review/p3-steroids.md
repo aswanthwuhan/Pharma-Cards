@@ -204,3 +204,32 @@ Unverifiable (WEB / UNSOURCED refs): none in this chunk.
 Page refs: Ghosh and Medhi refs use the PDF page numbers of the owner PDFs (as in search.py), which differ from printed page numbers.
 
 Subtopic ladder 3/2/1 still met everywhere (no deletions).
+
+## Added 2026-11-05: PYQ gap "Drug therapy of oligospermia" (Q bank, paper IV, 10 marks)
+
+Existing coverage checked first: p3-steroids-079 (clomiphene, including the male infertility dose) answered only that part; no card covered gonadotropins, androgens or the cause-based approach.
+
+| id | status | source / note |
+|---|---|---|
+| p3-steroids-107 | added | KDT8 ch17, KDT8 ch21; definition of oligozoospermia |
+| p3-steroids-108 | added | KDT8 ch17, KDT8 ch21, GG14 ch46 PDF p952 and p954, Katzung16 ch37; answer card, pyq Q bank paper IV 10 marks |
+| p3-steroids-109 | added | KDT8 ch21, Katzung16 ch40; why exogenous androgen cannot restore fertility |
+| p3-steroids-110 | added | KDT8 ch49, KDT8 ch21, Katzung16 ch40, Katzung16 ch62; drug causes of reversible oligospermia |
+
+## Recheck 2026-11-05 (independent check, reviewer 2)
+
+Scope: p3-steroids-107 to 110 and rf-p3-steroids-0541 to 0545. Each fact checked on the cited page (KDT8 PDF pages, GG14 ch46 PDF p952/p954, Katzung16 ch37 PDF p726, ch40 PDF p793/p797, ch62 PDF p1189).
+
+| id | status | source / note |
+|---|---|---|
+| p3-steroids-107 | corrected | Refs made page-precise (`KDT8 ch17 PDF p277`, `KDT8 ch21 PDF p339`). KDT8 uses the word but never defines oligozoospermia, so the plain definition is now grounded with `Davidson24 PDF p722` ("reduced sperm number ... may be a consequence of hypogonadism"). Tag changed uses to mechanism (the card explains how it arises). |
+| p3-steroids-108 | corrected | Removed the pyq tag (Q bank, paper IV, year 0): `content/pyq/SOURCES.md` keeps year-0 rows untagged and no dated paper in `questions.json` asks drug therapy of oligospermia (only the year-0 Q-bank row does). Deleted the point "Tamoxifen is used as an alternative to clomiphene" - no owner book prints tamoxifen for male infertility. Added the ref that was missing: the clomiphene male regimen (25 mg daily 24 days a month, 6 days rest, up to 6 months, low success) is in KDT8 ch22 PDF p351, not ch17/ch21. Rest of the card (hCG 1500-2000 IU thrice weekly, rFSH 150 IU, hMG 75-150 IU thrice weekly, 4-6 months in up to 90%, up to 2 years, gynaecomastia in up to a third, mesterolone, the 11-trial meta-analysis) confirmed on GG14 ch46 p954, Katzung16 ch37 p726 and KDT8 ch21 p337/p339. |
+| p3-steroids-109 | corrected (refs only) | Facts confirmed: KDT8 ch21 PDF p338 (high intratesticular testosterone is needed; androgens suppress Gn; moderate doses for weeks give oligozoospermia, prolonged use testicular atrophy) and Katzung16 ch40 PDF p793. Added Katzung16 ch37 PDF p726 for "androgens replace androgen effects, not spermatogenesis". |
+| p3-steroids-110 | corrected | Deleted the closing inference "because such cases reverse, the drug history is part of the work-up" - not printed in any cited page (only the reversibility is). Front shortened to "Which drugs cause oligospermia?" and tags trimmed to adr. Refs made page-precise. Sulfasalazine reversibility is Katzung16 ch62 PDF p1189, not KDT8. |
+
+Rapid p3-steroids:
+- rf-p3-steroids-0541, 0542, 0543: ok against GG14 ch46 PDF p954.
+- rf-p3-steroids-0544: ok; ref made page-precise (`Katzung16 ch37 PDF p726`, book p711).
+- rf-p3-steroids-0545: corrected ref. "Reversible on stopping" is Katzung16 ch62 PDF p1189; KDT8 ch49 PDF p747 only reports the effect. The card now cites both, as this log's "new" row already said.
+
+Deleted: none. Invented fact found: one (tamoxifen as a clomiphene alternative), deleted from 108. `node scripts/validate-content.mjs --check`: check ok.

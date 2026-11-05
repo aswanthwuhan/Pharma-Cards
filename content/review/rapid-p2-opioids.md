@@ -144,3 +144,19 @@ Rapid pairs added for the gap-pass study cards. Columns: id | new | source.
 - Unverifiable: 0 (no UNSOURCED or WEB refs in this chunk).
 - Rapid cards have no level field, so the level and basic-why checks do not apply.
 - Validator --check: ok.
+
+## Doping rapid pairs (2026-11-05)
+New subtopic `p2-opioids-doping`.
+
+| id | status | source |
+|---|---|---|
+| rf-p2-opioids-0816 | new | RangDale9 ch59 PDF p751 |
+| rf-p2-opioids-0817 | new | RangDale9 ch59 PDF p753 |
+| rf-p2-opioids-0818 | new | RangDale9 ch59 PDF p753 |
+| rf-p2-opioids-0819 | new | RangDale9 ch59 PDF p753 |
+| rf-p2-opioids-0820 | new | RangDale9 ch59 PDF p753 |
+
+Validator: check ok.
+
+## Independent review pass (2026-11-05)
+0816-0820 checked against RangDale9 ch59 PDF p751-753 and kept unchanged.

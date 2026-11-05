@@ -165,6 +165,16 @@
 | rf-p4-experimental-0192 | new | Sarkar p36-40 |
 | rf-p4-experimental-0193 | new | GG14 PDF p324 |
 | rf-p4-experimental-0194 | new | Sarkar p251-255 |
+| rf-p4-experimental-0245 | new (owner-approved no-source) | WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/ |
+| rf-p4-experimental-0246 | new (owner-approved no-source) | WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/ |
+| rf-p4-experimental-0247 | new (owner-approved no-source) | WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/ |
+| rf-p4-experimental-0248 | new (owner-approved no-source) | WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/ |
+| rf-p4-experimental-0249 | new (owner-approved no-source) | WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/ |
+| rf-p4-experimental-0250 | new (owner-approved no-source) | WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/ |
+| rf-p4-experimental-0251 | new (owner-approved no-source) | WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/ |
+| rf-p4-experimental-0252 | new (owner-approved no-source) | WEB PMC Alwahsh et al., Carboxamide derivatives in Triton WR-1339 induced hyperlipidemic rats, Lipids Health Dis 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12164116/ |
+| rf-p4-experimental-0253 | new (owner-approved no-source) | WEB PMC Khursheed et al., Salvadora persica in high-fat diet induced hyperlipidemic rats, Food Sci Nutr 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12961557/ |
+| rf-p4-experimental-0254 | new (owner-approved no-source) | WEB PMC Bekkouch et al., Zingiber officinale and Citrus limon juices in a Triton model, PLoS One 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12431240/ |
 
 ## PYQ gap pass (UHSR 2025)
 - Rapid pairs rf-p4-experimental-0195 to 0212 added for the new study cards (cell-line assays, acute toxicity methods, carcinogenicity and embryotoxicity timings, factorial groups, apomorphine emesis). Each refs the same owner book page as its study card.
@@ -223,3 +233,27 @@ Deleted: none.
 Checked, no change needed: 0166-0174, 0176-0178, 0180-0190, 0192, 0200-0212.
 
 Unverifiable (for owner): none. No UNSOURCED or WEB refs in this chunk.
+
+## Web-source check (2026-11-05): rf-p4-experimental-0245 to 0254, all web
+
+Every cited PMC page was fetched and each dose, timing, method and threshold traced to it. Cards stay `status: draft`.
+
+| id | status | source |
+|---|---|---|
+| rf-p4-experimental-0245 | ok (web) | WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/ |
+| rf-p4-experimental-0246 | ok (web) | WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/ |
+| rf-p4-experimental-0247 | ok (web) | WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/ |
+| rf-p4-experimental-0248 | ok (web) | WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/ |
+| rf-p4-experimental-0249 | ok (web) | WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/ |
+| rf-p4-experimental-0250 | ok (web) | WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/ |
+| rf-p4-experimental-0251 | ok (web) | WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/ |
+| rf-p4-experimental-0252 | corrected (web) | WEB PMC Alwahsh et al., Carboxamide derivatives in Triton WR-1339 induced hyperlipidemic rats, Lipids Health Dis 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12164116/ |
+| rf-p4-experimental-0253 | ok (web) | WEB PMC Khursheed et al., Salvadora persica in high-fat diet induced hyperlipidemic rats, Food Sci Nutr 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12961557/ |
+| rf-p4-experimental-0254 | ok (web) | WEB PMC Bekkouch et al., Hypolipidemic effects of Zingiber officinale and Citrus limon juices in a Triton model, PLoS One 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12431240/ |
+
+Corrections, web:
+- 0252: answer "Triton WR-1339 (tyloxapol)" changed to "Triton WR-1339 (nonionic detergent)"; the word tyloxapol is not in the cited article's text (it occurs only in a reference title in the Bekkouch paper). "Nonionic detergent" is how Bekkouch describes it.
+
+Checked and left unchanged: 0245 (Lipschitz test, rats in metabolic cages), 0246 (furosemide 5 mg/kg orally), 0247 (flame photometry for Na+/K+, argentometric titration for chloride), 0248 (5 ml of 0.9% NaCl per 100 g by gavage), 0249 (P. berghei ANKA), 0250 (Peters' four-day suppressive test, first dose 3 h after infection), 0251 (pLDH assay), 0253 (about 4 weeks of high-fat feeding, 28 days), 0254 (TC/HDL, LDL/HDL, TG/HDL and AIP all calculated in the Bekkouch paper).
+
+Deleted: none. No q starts "What is". No verbatim run of 8 words or more against the cited articles.

@@ -190,3 +190,29 @@ Other checks:
 ## Recheck (rapid cards, chunk 1/1)
 
 See `content/review/rapid-p3-misc.md` "Recheck (all new cards, chunk 1/1)": 84 rapid cards checked, 71 ok, 12 corrected, 1 deleted (rf-p3-misc-0566).
+
+## Added 2026-11-05: PYQ gap "Drugs used in the treatment of hyperpigmented patches" (Q bank, paper IV, 10 marks)
+
+Existing coverage checked first: p3-misc-012 (cloze on hydroquinone/monobenzone) and rapid rf-p3-misc-0084 to 0088 named the drugs but did not compare them, give strengths or cover the newer agents. Kojic acid and the Kligman formula appear in none of the owner books (searches return only reference lists), so they are not carded.
+
+| id | status | source / note |
+|---|---|---|
+| p3-misc-098 | added | KDT8 ch66, GG14 ch75 PDF p1518; answer card for the question, pyq Q bank paper IV 10 marks |
+| p3-misc-099 | added | GG14 ch75 PDF p1518, KDT8 ch66; over-the-counter vs prescription strengths |
+| p3-misc-100 | added | GG14 ch75 PDF p1518; tranexamic acid mechanism in melasma |
+| p3-misc-101 | added | GG14 ch75 PDF p1518; mequinol (not currently marketed) |
+
+## Recheck 2026-11-05 (independent check, reviewer 2)
+
+Scope: p3-misc-098 to 101 and rf-p3-misc-0575 to 0579. Every fact was checked on the cited page itself (KDT8 ch66 PDF p963 = book p952; GG14 ch75 PDF p1518 = book p1499).
+
+| id | status | source / note |
+|---|---|---|
+| p3-misc-098 | corrected | Removed the pyq tag (Q bank, paper IV, year 0). `content/pyq/SOURCES.md` keeps year-0 Q-bank rows untagged, and no dated paper in `questions.json` asks for the drugs of hyperpigmented patches (only the year-0 Q-bank row does). Refs made page-precise: `KDT8 ch66 PDF p963`. All facts confirmed, including hydroquinone 2-6% for months, the 4%/fluocinolone 0.01%/tretinoin 0.05% triple product, azelaic acid 10-20%, and the KDT8 vs GG14 split on monobenzone. |
+| p3-misc-099 | corrected | Refs made page-precise (`KDT8 ch66 PDF p963`). "Prolonged use brings dermatitis and ochronosis" changed to "dermatitis and ochronosis are the adverse effects to know": GG14 prints both effects but does not tie them to duration. |
+| p3-misc-100 | ok | GG14 ch75 PDF p1518 carries every point: UV induces keratinocyte plasminogen activator, plasmin/arachidonic acid/FGF raise melanogenesis, VEGF drives neovascularisation, tranexamic acid inhibits plasminogen activation, melasma use is off label, thromboembolic risk factors are screened before systemic use. |
+| p3-misc-101 | corrected | The back was a verbatim copy of GG14 ch75 PDF p1518 (29 consecutive words). Rewritten in own words; the facts (competitive tyrosinase inhibition, 2% prescription product with tretinoin 0.01% and vitamin C, no longer marketed) are unchanged and still printed there. |
+
+Rapid p3-misc: rf-p3-misc-0575 (1.5-2% OTC vs 3-4% prescription), 0576 (dermatitis, ochronosis), 0577 (triple product), 0578 (blocks plasminogen activation), 0579 (epidermal pigment responds, dermal does not) all verified word for fact against GG14 ch75 PDF p1518; no change.
+
+Deleted: none. Invented facts found: one (the tamoxifen line was in p3-steroids, see that log); in this topic only the copied sentence in 101 and the unprinted duration link in 099 needed correction. `node scripts/validate-content.mjs --check`: check ok.

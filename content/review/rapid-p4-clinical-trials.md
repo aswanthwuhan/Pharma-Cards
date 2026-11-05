@@ -132,7 +132,6 @@ Rapid deck now 114 cards. Validator: "check ok".
 ## PYQ gap batch (rf-0115 to rf-0158)
 - rf-p4-clinical-trials-0115 to 0158 | new pairs for cards 084-102 | Sarkar p176-180, Sarkar p591-595, Sarkar p221-225, KDT8 ch5, Katzung16 ch1, Bennett PDF p40/p56/p64, Padmaja PDF p94-95, Harrison21 PDF p1627, NDCT Rules 2019 PDF p16, Medhi PMECP p146, Katzung16 glossary PDF p1278
 
-
 ## PYQ gap pass (rf-0159 to rf-0199; 2026-11-03)
 
 Pairs added for the new study cards 103-124. Sources: same as the matching deck card (Sarkar OCR page ranges, NDCT Rules 2019 PDF p1, GG14 PDF p168-169, Katzung16 App2, Rang and Dale PDF p11).
@@ -184,3 +183,25 @@ Corrected:
 
 Deleted (duplicate, kept the better one):
 - rf-p4-clinical-trials-0195: "Pharmacoepidemiology studies drug effects at population level" duplicated rf-p4-clinical-trials-0134 (Katzung16 glossary, same definition, same answer). 0134 kept.
+
+## Gap fill 2026-11-05: rapid pairs for the problems of clinical evaluation
+
+Rapid Fire pairs for the problems/limitations half of the RGUHS May 2025 question and the terms its study cards use. No duplicates of existing pairs (0025, 0027 and 0124 still carry the phase-IV rare-ADR and total-development-cost facts).
+
+| id | status | source |
+|---|---|---|
+| rf-p4-clinical-trials-0210 | new | RangDale9 ch8 (PDF p119) |
+| rf-p4-clinical-trials-0211 | new | RangDale9 ch8 (PDF p119) |
+| rf-p4-clinical-trials-0212 | new | RangDale9 ch8 (PDF p118, footnote 8) |
+| rf-p4-clinical-trials-0213 | new | RangDale9 ch8 (PDF p119) |
+
+## Independent recheck 2026-11-05: rapid 0210-0213
+
+| id | status | source |
+|---|---|---|
+| rf-p4-clinical-trials-0210 | corrected | RangDale9 PDF p119 |
+| rf-p4-clinical-trials-0211 | corrected | RangDale9 PDF p119 |
+| rf-p4-clinical-trials-0212 | corrected | RangDale9 PDF p118 (footnote 8) |
+| rf-p4-clinical-trials-0213 | corrected | RangDale9 PDF p119 |
+
+Notes: refs were chapter-only ("RangDale9 ch8") on all four and are now page-precise. 0211: 42,000 patients, 623 treatment centres and US$130 million all printed on p119. 0212: question changed to "Groups whose consent is problematic in a trial" and answer to "Unconscious, demented or mentally ill patients; children too" — the book says the first three are unable to consent and that trials in children are problematic, not that children cannot consent. 0210: "chosen by strict" changed to "selected by specific eligibility criteria" (printed wording). 0213 facts unchanged (drop-out/missing data, serious adverse events). No duplicates, q/a short and reversible, no Prep/RR5. Validator: check ok.

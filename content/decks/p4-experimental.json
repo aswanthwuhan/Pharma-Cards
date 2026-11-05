@@ -3558,7 +3558,7 @@
     {
       "id": "p4-experimental-132",
       "type": "shortnote",
-      "front": "Short note: Screening for an antimalarial agent",
+      "front": "Short note: Artemisinin resistance and why artemisinins are given only as ACT",
       "level": 2,
       "subtopic": "p4-experimental-animal-models",
       "tags": [
@@ -3581,23 +3581,6 @@
       "refs": [
         "GG14 PDF p1312",
         "KDT8 PDF p898"
-      ],
-      "pyq": [
-        {
-          "university": "Q bank",
-          "year": 0,
-          "marks": 10
-        },
-        {
-          "university": "Q bank",
-          "year": 0,
-          "marks": 10
-        },
-        {
-          "university": "Q bank",
-          "year": 0,
-          "marks": 10
-        }
       ],
       "status": "draft"
     },
@@ -5859,6 +5842,286 @@
       "pyq": [],
       "status": "draft",
       "level": 2
+    },
+    {
+      "id": "p4-experimental-210",
+      "type": "shortnote",
+      "front": "Short note: Preclinical evaluation of a new diuretic",
+      "level": 2,
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "sections": [
+        {
+          "h": "Principle",
+          "points": [
+            "Single-dose in vivo screen: urine volume and urinary electrolytes after the test drug are compared with a control and with a diuretic standard run in parallel.",
+            "Furosemide is the standard because it is the prototype high-ceiling diuretic (KDT8 ch42); loop diuretics can excrete up to 25% of the filtered Na+ load, against about 5% for thiazides (GG14 ch29)."
+          ]
+        },
+        {
+          "h": "Animals and housing",
+          "points": [
+            "Healthy adult male Wistar rats of 180-200 g.",
+            "Food and water are withdrawn 5 hours before dosing.",
+            "Each rat is kept alone in a metabolic cage, so that all the urine passed can be collected and measured."
+          ]
+        },
+        {
+          "h": "Dosing",
+          "points": [
+            "Groups: a control group, furosemide 5 mg/kg, and three doses of the test compound (12.5, 25 and 50 mg/kg in the cited study).",
+            "All doses are given orally as a suspension in 0.5% w/v carboxymethyl cellulose.",
+            "A saline load of 5 ml/100 g of 0.9% NaCl by gavage provides enough urine flow for measurement."
+          ]
+        },
+        {
+          "h": "Measurements",
+          "points": [
+            "Urine is collected for 0-5 hours and then for 5-24 hours, and volume and pH are read immediately.",
+            "Sodium and potassium are estimated by flame photometry and chloride by argentometric titration.",
+            "Diuretic index and diuretic activity are then calculated against the control and the standard."
+          ]
+        },
+        {
+          "h": "Reading the result",
+          "points": [
+            "A diuretic index above 1 means more urine than the control; a diuretic activity below 1 means weaker than furosemide (cleistanthin A and B in the cited study).",
+            "The timing separates a slow compound, active only in the 5-24 hour sample, from a fast one like furosemide.",
+            "The electrolyte pattern shows whether the natriuresis is accompanied by loss of potassium."
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "The response was not dose dependent in the cited study, so it is the three-dose design that shows this; a single dose would not have.",
+            "Urine output per hour was too small to measure, so only the 0-5 h and 5-24 h blocks are compared and the onset of action cannot be timed.",
+            "No attempt was made to explain the mechanism of the diuresis."
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/",
+        "KDT8 ch42",
+        "GG14 ch29"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2021,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-211",
+      "type": "basic",
+      "front": "What is the Lipschitz test?",
+      "back": "The standard rat screen for diuretic activity: after a short fast the rat is kept in a metabolic cage, the drug is given orally with a saline load, and urine volume plus sodium, potassium and chloride excretion are compared with a control and with furosemide.",
+      "level": 1,
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-212",
+      "type": "basic",
+      "front": "What is a metabolic cage used for in a diuretic experiment?",
+      "back": "It houses one rat at a time, so all the urine passed in a set period after dosing (0-5 h, then 5-24 h) can be collected and measured.",
+      "level": 1,
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "WEB PMC Parasuraman & Raveendran, Diuretic effects of cleistanthin A and cleistanthin B in Wistar rats, J Young Pharm 2012 https://pmc.ncbi.nlm.nih.gov/articles/PMC3385220/"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-213",
+      "type": "shortnote",
+      "front": "Short note: Evaluation of a new antimalarial agent (in vitro and in vivo)",
+      "level": 2,
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "sections": [
+        {
+          "h": "In vitro: parasite culture",
+          "points": [
+            "P. falciparum is grown by the Trager-Jensen method in RPMI 1640 with a serum substitute, hypoxanthine, HEPES and gentamicin; a chloroquine-resistant K1 strain was used in the cited study.",
+            "Thin Giemsa-stained smears under oil immersion give the parasitaemia, and 5% sorbitol selects synchronised ring-stage parasites."
+          ]
+        },
+        {
+          "h": "In vitro: activity assay",
+          "points": [
+            "The compound is serially diluted (about 1.6-100 micrograms/ml) against synchronised parasites.",
+            "Viability is read with the parasite lactate dehydrogenase (pLDH) assay, and the IC50 comes from the dose-response curve."
+          ]
+        },
+        {
+          "h": "Selectivity",
+          "points": [
+            "The same compound is tested on a mammalian cell line by MTT to obtain a cytotoxic CC50 (Vero cells in the cited study).",
+            "Selectivity index = CC50 divided by antiparasitic IC50; the active extract in the example had an index of about 23."
+          ]
+        },
+        {
+          "h": "In vivo: infection",
+          "points": [
+            "Rodent malaria parasite: P. berghei ANKA in mice; donor blood is collected at 20-30% parasitaemia and diluted in saline.",
+            "Each mouse receives 1 x 10^7 parasitised erythrocytes in 0.2 ml intraperitoneally."
+          ]
+        },
+        {
+          "h": "In vivo: Peters' four-day suppressive test",
+          "points": [
+            "The drug is given orally at 3, 24, 48 and 72 hours after infection, with a vehicle group and chloroquine 25 mg/kg as controls.",
+            "A Giemsa smear on day 4 gives the parasitaemia, and percentage suppression = (control minus treated) / control x 100.",
+            "Suppression rises with dose in an active compound (42%, 71% and 77% at 200, 400 and 600 mg/kg in the cited study), and more than 50% suppression is read as moderate activity."
+          ]
+        },
+        {
+          "h": "Toxicity run alongside",
+          "points": [
+            "Separate acute oral toxicity study by OECD 425: one oral dose of 2000 mg/kg in mice, watched for 14 days.",
+            "Liver (ALT, AST, ALP) and kidney (BUN, creatinine) markers, plus liver and kidney histology, are checked for damage."
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-214",
+      "type": "basic",
+      "front": "What is Peters' four-day suppressive test?",
+      "back": "A rodent antimalarial screen: mice infected with P. berghei are dosed orally on four successive days from 3 hours after infection, and the day-4 Giemsa smear gives the percentage suppression of parasitaemia against untreated controls.",
+      "level": 1,
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses"
+      ],
+      "refs": [
+        "WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-215",
+      "type": "basic",
+      "front": "What does the pLDH assay measure in antimalarial screening?",
+      "back": "Parasite lactate dehydrogenase, an enzyme of living P. falciparum; the signal falls as parasites are killed, so it is used to read viability in vitro and to calculate an IC50.",
+      "level": 1,
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses",
+        "mechanism"
+      ],
+      "refs": [
+        "WEB PMC Phuwajaroanpong et al., In vitro and in vivo antiplasmodial activities and acute oral toxicity of Blumea balsamifera leaf extracts, Plants 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC13708541/"
+      ],
+      "pyq": [],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-216",
+      "type": "shortnote",
+      "front": "Short note: Screening methods for hypolipidaemic activity",
+      "level": 2,
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "uses",
+        "dosing"
+      ],
+      "sections": [
+        {
+          "h": "What is measured",
+          "points": [
+            "Serum total cholesterol, triglycerides, LDL-cholesterol and HDL-cholesterol.",
+            "The fractions move separately: in the Triton study every carboxamide derivative lowered triglycerides, but only one lowered total cholesterol.",
+            "Atherogenic ratios (TC/HDL, LDL/HDL, TG/HDL and the atherogenic index of plasma) summarise the effect on risk."
+          ]
+        },
+        {
+          "h": "Acute model: Triton WR-1339",
+          "points": [
+            "Triton WR-1339, a nonionic detergent, stops extrahepatic tissues from taking up circulating lipoproteins, so plasma lipids rise after a single dose (measured at 20 h in the rat study).",
+            "Groups: normal control, hyperlipidaemic control, a standard drug (fenofibrate in the rat study, atorvastatin 10 mg/kg in the mouse study) and each test compound at its chosen dose.",
+            "Blood is taken at 20-24 h and the lipid profile is measured on an automated analyser.",
+            "A single-dose model gives a fast answer on lipid lowering, not the effect of chronic treatment."
+          ]
+        },
+        {
+          "h": "Chronic model: high-fat diet",
+          "points": [
+            "Rats fed a high-fat diet for about 4 weeks become hyperlipidaemic; in the cited study the powder or extract was then given daily for 28 days.",
+            "At the end the animals are anaesthetised, blood is taken by cardiac puncture for the same lipid profile, and body weight, food and water intake and organ weights are recorded.",
+            "Liver and kidney markers (AST, ALT, creatinine, urea) are measured in the same animals."
+          ]
+        },
+        {
+          "h": "Interpretation",
+          "points": [
+            "Each fraction is compared with the hyperlipidaemic control and, where one is used, with the standard drug; dose-dependence is looked for.",
+            "TC/HDL, LDL/HDL, TG/HDL and the atherogenic index of plasma are followed alongside the fractions.",
+            "A lipid fall is read together with liver and kidney markers and organ weights, so that it is not confused with toxicity."
+          ]
+        }
+      ],
+      "refs": [
+        "WEB PMC Alwahsh et al., Carboxamide derivatives in Triton WR-1339 induced hyperlipidemic rats, Lipids Health Dis 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12164116/",
+        "WEB PMC Bekkouch et al., Hypolipidemic effects of Zingiber officinale and Citrus limon juices in a Triton model, PLoS One 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12431240/",
+        "WEB PMC Khursheed et al., Salvadora persica in high-fat diet induced hyperlipidemic rats, Food Sci Nutr 2026 https://pmc.ncbi.nlm.nih.gov/articles/PMC12961557/",
+        "KDT8 ch46"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "p4-experimental-217",
+      "type": "basic",
+      "front": "How does Triton WR-1339 raise plasma lipids?",
+      "back": "It blocks the uptake of circulating lipoproteins by extrahepatic tissues, so triglyceride-, cholesterol- and LDL-rich particles accumulate in plasma after a single dose; this is the basis of the acute hyperlipidaemia screen.",
+      "level": 1,
+      "subtopic": "p4-experimental-animal-models",
+      "tags": [
+        "mechanism"
+      ],
+      "refs": [
+        "WEB PMC Alwahsh et al., Carboxamide derivatives in Triton WR-1339 induced hyperlipidemic rats, Lipids Health Dis 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12164116/"
+      ],
+      "pyq": [],
+      "status": "draft"
     }
   ]
 }

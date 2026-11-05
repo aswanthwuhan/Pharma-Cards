@@ -5,7 +5,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "@/lib/db";
 import { MAX_LEVEL, unlockedLevels } from "@/lib/levels";
 import type { TopicMastery } from "@/lib/mastery";
-import { levelSignals, loadStudyCards } from "@/lib/store";
+import { isRapid, levelSignals, loadStudyCards } from "@/lib/store";
 import { topicById } from "@/lib/syllabus";
 import { MasteryPill } from "./MasteryPill";
 
@@ -27,7 +27,7 @@ export function SubtopicList({
   // Highest open difficulty level per subtopic, so the student sees what is unlocked next.
   const levels = useLiveQuery(
     async () => {
-      const cards = (await loadStudyCards()).filter((c) => c.topicId === topicId);
+      const cards = (await loadStudyCards()).filter((c) => c.topicId === topicId && !isRapid(c)); // same pool as buildQueue
       const states = await db.cardStates.toArray();
       return unlockedLevels(cards, levelSignals(states));
     },
@@ -47,7 +47,7 @@ export function SubtopicList({
             className="flex min-h-14 items-center justify-between gap-3 px-4 py-3 transition-colors hover:bg-teal-wash"
           >
             <span className="min-w-0">
-              <span className="line-clamp-2 block text-[15px] leading-snug">{s.title}</span>
+              <span className="line-clamp-2 text-[15px] leading-snug">{s.title}</span>
               <span className="font-mono text-[11px] text-ink-soft">
                 {s.m ? `${Math.round(s.m.coverage * s.m.cards)} of ${s.m.cards} cards seen` : "No cards yet"}
                 {` · level ${s.level} of ${MAX_LEVEL} open`}

@@ -138,3 +138,27 @@ Deleted (no support found in owner books):
 - 0623 reproduction end-point list (non-standard PDF page ref, content not confirmed).
 
 Verified without change: 0568 (KDT8 p290 withdraw over 3 months), 0570, 0571, 0574, 0580-0582, 0585-0591, 0593-0594, 0596-0599, 0607-0608, 0614-0617, 0620, 0622.
+
+## Gap pass: UHSR 2025 insulin resistance (worker)
+- rf-p3-endocrine-0624 | new | KDT8 ch19 (PDF p306): post-receptor defect
+- rf-p3-endocrine-0625 | new | GG14 ch51 (PDF p1048): proinsulin 10-20 percent in type 2
+- rf-p3-endocrine-0626 | new | GG14 ch51 (PDF p1048): adipocytokines, TNF-alpha, IL-6, resistin, RBP4
+- rf-p3-endocrine-0627 | new | Padmaja (PDF p533): resistance above 200 U/day, many accept 100
+- rf-p3-endocrine-0628 | new | GG14 ch51 (PDF p1061): investigational type 2 targets
+
+- Study cards for the same question: p3-endocrine-099 to 102.
+- No duplicates: the earlier insulin-resistance pairs (0395-0400) cover causes and acute management only.
+
+## Checker pass: rapid pairs 0624-0628 (independent review)
+Each pair opened on its cited page: 0624 KDT8 PDF p306, 0625 and 0626 GG14 PDF p1048, 0627 Padmaja PDF p533, 0628 GG14 PDF p1061 (Padmaja is an allowed owner-library book). No q starts "What is"; reversed reading works for all five; no Prep/RR5 refs; no duplicate q in the deck.
+
+| id | result | reason |
+|---|---|---|
+| rf-p3-endocrine-0624 | ok | KDT8 PDF p306: transducer mechanism faulty rather than the receptor itself, in most type 2 diabetics. |
+| rf-p3-endocrine-0625 | ok | GG14 PDF p1048: 2-4 percent in healthy subjects, 10-20 percent of measurable plasma insulin in type 2. |
+| rf-p3-endocrine-0626 | corrected | q reworded (was "list all" on a fact card); answer order and drugs match GG14 PDF p1048 (TNF-alpha, IL-6, resistin, RBP4). |
+| rf-p3-endocrine-0627 | ok | Padmaja PDF p533: resistance at >200 U/day, many accept >100 U/day. |
+| rf-p3-endocrine-0628 | corrected | q reworded (source name dropped from the question); answer matches GG14 PDF p1061. |
+
+- Deleted: none.
+- Validator: `node scripts/validate-content.mjs --check` -> check ok.

@@ -222,3 +222,29 @@ Rapid pairs deleted:
 Unverifiable, left as is (WEB refs, not on SOURCE-GAPS list): p1-drug-delivery-051 and rf-p1-drug-delivery-0151 (gastroretentive, WEB NCBI-PMC).
 
 Level minimums after deletions: targeted L1 7 / L2 9 / L3 3; all other subtopics unchanged.
+
+## Gap fill 2026-11-05: Nanomedicine short note (RGUHS May 2022)
+
+Past question (content/pyq/questions.json idx 1099, RGUHS May 2022, paper IV, 10 marks): "Nanomedicine". Related pairs: RGUHS May 2011 "Therapeutic applications of Nano technology", RGUHS Dec 2023 "Nanoparticles", UHSR 2025 "nanotechnology-based drug delivery and its potential applications".
+
+Checked first: 004 (novel delivery essay), 022 (GG14 newer approaches), 049 (liposomes), 056 (nanoparticles as carriers), 057 (targeted delivery essay). None defined nanomedicine, its 1-100 nm scale, the range of nanocarriers or the unresolved safety point, and a book defines all of these (Satoskar PDF p51), so a card was added rather than skipped.
+
+| id | status | source |
+|---|---|---|
+| p1-drug-delivery-078 | new | Satoskar PDF p51; Sarkar p551-555; Medhi PMECP p20; GG14 PDF p1384, p827, p929 |
+| p1-drug-delivery-079 | new | Sarkar p551-555; Satoskar PDF p51 |
+
+Notes: levels now targeted L1 8 / L2 10 / L3 3 (minimums met). pyq tags: 078 RGUHS 2022 + RGUHS 2011 + UHSR 2025; 079 RGUHS 2023. Both `status: draft`. Validator clean.
+
+## Independent recheck 2026-11-05: cards 078-079
+
+| id | status | source |
+|---|---|---|
+| p1-drug-delivery-078 | corrected | Satoskar PDF p51; Sarkar p551-555; Medhi PMECP p20; GG14 PDF p1384, p817, p929 |
+| p1-drug-delivery-079 | corrected | Sarkar p551-555; Satoskar PDF p51 |
+
+Notes:
+- 078: the ref "GG14 PDF p827" was the dengue/malaria/BCG vaccine page; the lipid-nanoparticle mRNA passage is GG14 PDF p817, so the ref was corrected. The "Approved examples" bullet was reworded to what the pages actually print: nab-paclitaxel for metastatic breast, pancreatic and non-small-cell lung cancer (p1384); mRNA vaccines packaged in lipid nanoparticles (p817); ferumoxytol as a carbohydrate-coated iron oxide nanoparticle for iron deficiency (p929). The 1-100 nm definition, the size/surface-area advantage, surface or core loading, intralesional/IV use, diagnostic use and the unresolved long-term safety point are all on Satoskar PDF p51; the nanocarrier types (polymeric nanoparticles, micelles, liposomes, dendrimers, fullerenes, carbon nanotubes, nanofoams, nanowires, quantum dots, hydrogels), solid/amorphous/crystalline state, polymer types and adsorption/entrapment protection are on Sarkar p551-555 and Medhi PMECP p20.
+- 079: the phrase "handled at cell level" (an inference, not printed) was removed; the rest is on the two cited pages.
+- pyq tags verified in content/pyq/questions.json: 078 RGUHS May 2022 idx 1099, RGUHS May 2011 idx 902, UHSR 2025 idx 2102; 079 RGUHS Dec 2023 idx 479. All 10 marks.
+- No verbatim run of 8 or more words against the cited pages. Levels and subtopic ladder unchanged. Validator: check ok.

@@ -132,7 +132,7 @@ export default function Syllabus() {
           aria-label="Filter by paper"
           className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0 [&::-webkit-scrollbar]:hidden"
         >
-          {[{ id: "all", label: "All papers" }, ...PAPERS.map((p) => ({ id: p.id, label: `${shortPaper(p.title)}: ${paperChipName(p.title)}` }))].map(
+          {[{ id: "all", label: "All papers" }, ...PAPERS.map((p) => ({ id: p.id, label: shortPaper(p.title) === paperChipName(p.title) ? shortPaper(p.title) : `${shortPaper(p.title)}: ${paperChipName(p.title)}` }))].map(
             (f) => (
               <button
                 key={f.id}

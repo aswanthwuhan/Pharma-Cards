@@ -163,3 +163,8 @@ Scope: 37 study cards from chunk 1 of 2 (ids 067-103 range listed in .tmp/rechec
 - Unverifiable (UNSOURCED or WEB): none in this chunk.
 - Level and duplicate check: all chunk cards have level; no duplicate fronts in the deck; each subtopic still >= 3 L1, 2 L2, 1 L3.
 - Note for chunk 2: rapid cards rf-p3-amr-general-0609 to 0615 (nosocomial gap pass) cite "FQ plus beta-lactam for high-risk nosocomial pneumonia (GG14 PDF p1162)". Same claim is unsupported in the owner books. Not in this chunk; flagged for chunk 2.
+
+## Gap check: inappropriate antibiotic use during COVID-19 (worker, no card written)
+- Question: UHSR 2025 paper I, "Inappropriate use of antibiotics during the COVID-19 pandemic" (10 marks). Already tagged on p3-clinical-services-070 (essay: inappropriate use of antibiotics and how stewardship controls it); the AMR/stewardship side of this deck is covered by 015, 077 and 090.
+- Pandemic-specific content: no owner book has a passage on antibiotic use during COVID-19. Searched KDT8, Katzung16, GG14, RangDale9, Padmaja, Sarkar and Satoskar for COVID/SARS-CoV-2 with antibiotic/misuse/stewardship terms; the only COVID-19 mentions are antiviral, vaccine, phage-therapy and immunosuppressant ones. GG14 PDF p145-146 mentions COVID-19 only for phage therapy; Katzung16 PDF p848 gives generic antibiotic misuse, not the pandemic setting, and p952-953 covers COVID antivirals.
+- The item is not listed in content/SOURCE-GAPS.md or content/pyq/NO-SOURCE.md, so the WEB and UNSOURCED exceptions do not apply. No card written; reported to the lead.

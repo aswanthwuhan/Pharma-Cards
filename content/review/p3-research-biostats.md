@@ -336,3 +336,40 @@ See content/pyq/NO-SOURCE.md. Draft, owner must verify.
 | rf-p3-research-biostats-0473 | new (owner-approved no-source) | WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/ |
 | rf-p3-research-biostats-0474 | new (owner-approved no-source) | WEB PMC Shah & Jawaid, The h-Index: An Indicator of Research and Publication Output, Pak J Med Sci 2023 https://pmc.ncbi.nlm.nih.gov/articles/PMC10025721/ |
 | rf-p3-research-biostats-0475 | new (owner-approved no-source) | Medhi PMECP p352 |
+
+## Past-question gap pass (2026-11-05)
+
+Gap question [12] (UHSR 2025, 10 marks): define and differentiate (a) adverse effect vs adverse event, (b) randomisation vs stratification, (c) precision vs accuracy.
+
+| part | existing cover | action |
+|---|---|---|
+| a. adverse effect vs adverse event | p3-research-biostats-110 (L1); rapid 0264-0265 | none, not duplicated |
+| b. randomisation vs stratification | p3-research-biostats-112, -113 (L1/L2); also p1-adr short note "Randomisation vs stratification" | none, not duplicated |
+| c. precision vs accuracy | rapid 0262-0263 only; study card 114 covers random vs systematic error, not the pair | added |
+
+| id | status | source |
+|---|---|---|
+| p3-research-biostats-156 | new (basic L1, pyq UHSR 2025 10) | Medhi PMECP p153-154 |
+| p3-research-biostats-157 | new (shortnote L2, pyq UHSR 2025 10) | Medhi PMECP p153-154; Medhi PMECP p140 |
+
+Year note: the question text ends in "2009" but content/pyq/questions.json records UHSR 2025; tag uses 2025.
+
+## Precision vs accuracy recheck (2026-11-05)
+
+Verified the cards left by a stopped run (156, 157, rf-0476, rf-0477) against Medhi PMECP page text.
+
+- Medhi PMECP PDF p153 (printed p137) defines Accuracy ("degree of trueness ... predominately depends on the reproducibility or repeatability of an experiment") and Precision ("degree of an exactness of a calculated value falling exactly within the range"; data are excellent if precise and accurate). PDF p154 carries Fig 12.2 A-D on how accuracy and precision relate. PDF p140 gives random error (imprecision) and systematic error (inaccurate or uncalibrated instruments).
+- Note for the owner: the earlier recheck deleted p3-research-biostats-111 because it reported this definition "not found" in Medhi p153-154. The definitions are there; the deletion reason was wrong. The id was not reused - 156 and 157 now carry the content.
+- Corrected 156: "narrow range" replaced by the printed idea (values falling within the same range).
+- Corrected 157: "values can be precise yet inaccurate, or the reverse" replaced by the printed Fig 12.2 point (readings agree with each other yet miss the true value); "Good data" replaced by the book's word "excellent".
+- Corrected rf-0477: question now matches the book's wording (data are excellent when precise and accurate).
+- pyq on 156 and 157 confirmed: UHSR 2025, 10 marks (content/pyq/questions.json index 2419, UHSR paper III, define and differentiate part c).
+
+| id | status | source |
+|---|---|---|
+| p3-research-biostats-156 | corrected (wording) | Medhi PMECP p153-154 |
+| p3-research-biostats-157 | corrected (Fig 12.2 relation) | Medhi PMECP p153-154, p140 |
+| rf-p3-research-biostats-0476 | ok | Medhi PMECP p153-154 |
+| rf-p3-research-biostats-0477 | corrected (question wording) | Medhi PMECP p153-154 |
+
+- Validator: check ok.

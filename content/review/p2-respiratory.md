@@ -186,3 +186,38 @@ See content/pyq/NO-SOURCE.md. Draft, owner must verify.
 | rf-p2-respiratory-0351 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |
 | rf-p2-respiratory-0352 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |
 | rf-p2-respiratory-0353 | new (owner-approved no-source) | WEB PMC Inhaled RNA Therapeutics for Obstructive Airway Diseases 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC7912103/ |
+
+## Childhood asthma gap (2026-11-05)
+
+Past question "Pharmacotherapy of childhood asthmatic disorder" (Q bank, paper IV, 10 marks) has **year 0** in `content/pyq/questions.json`, so no pyq object was attached. Existing asthma cards are adult-only (011, 015, 016, 017, 022, 038, 044), so nothing was duplicated; the new cards cover the preschool (<=5 years) and 6-11 years tracks that none of them describe.
+
+Source: `GINA-2026-Strategy-Report-WMS.pdf` in the owner's added library. Cited as `GINA 2026 PDF p<N>` per GROUNDING-RULES "Owner's added library". Printed page = PDF page - 1.
+
+| id | status | source |
+|---|---|---|
+| p2-respiratory-048 | added | GINA 2026 PDF p210 (steps 1-2, <=5 y), p211 (steps 3-4), p213 (device table by age), p106 (step 1, 6-11 y), p215 (acute attack in <=5 y) |
+| p2-respiratory-049 | added | GINA 2026 PDF p213 (tidal breathing, mask seal, skin cleaning), p204 (steroid rash with mask) |
+| p2-respiratory-050 | added | GINA 2026 PDF p210 (growth velocity, 0.7% adult height, dose dependence); GG14 ch44 (no significant growth suppression at <=400 mcg/day) |
+| p2-respiratory-051 | added | GINA 2026 PDF p103 (Box 4-10 initial treatment, 6-11 y), p107 (SABA-only not recommended; risk of asthma death) |
+
+Not carded: doses of ICS by brand/device band (GINA Box 4-2B, p77) and the MART dose table (Box 4-8, p90) - dosing detail, not exam-level for this question.
+
+## Independent fact-check pass: childhood asthma cards (2026-11-05)
+
+Cards 048-051 re-read line by line against the cited pages of `GINA-2026-Strategy-Report-WMS.pdf` (citations stay PDF page numbers; printed page = PDF page - 1) and against GG14 ch44 (book page + 19 = PDF page). No card was renumbered or deleted.
+
+| id | status | source |
+|---|---|---|
+| p2-respiratory-048 | corrected | GINA 2026 PDF p47, p78, p103, p106-109, p204, p210-213, p215-216 |
+| p2-respiratory-049 | corrected | GINA 2026 PDF p204, p213; GG14 PDF p897 |
+| p2-respiratory-050 | corrected | GINA 2026 PDF p204, p210; GG14 PDF p906 |
+| p2-respiratory-051 | corrected | GINA 2026 PDF p91, p106, p107 |
+
+What changed and why:
+- `p2-respiratory-048`: the step-4 preschool point wrongly called add-on LTRA "insufficient below 5 years"; p211-212 allows an LTRA on older-child data, and only add-on LAMA (p211), ICS-LABA below 4 years and MART below 5 years (p212) lack evidence - restated as p212 has it. "Theophylline not recommended" was in the preschool list, but GINA says this for 6-11 years (p107, p109), so it was moved there as a sixth point of that track, leaving the preschool "not recommended" point with the oral-bronchodilator ban (p210), the statement that an LTRA is weaker than daily ICS and the montelukast sleep/behaviour caution (p211). Step 1 now gives GINA's "no more than twice a week on average" (p210); step 3 adds the 2-3 month review, the diagnosis check and allergen/smoke exposure (p211). The home-treatment line was a 10-word verbatim run from p216 and said "within 4 hours" where GINA says "less than 4 hours" - both fixed. Two regimen lines reworded to stop 8-10 word runs from p103/p108 (no meaning changed).
+- Refs for 048: p106 alone carried no step 2-5 content, p213 alone carried no reliever content, and the yearly height (p204, p212), ICS side-effect (p47) and 12-year age split (p78) facts were on pages not cited, so the list is now page-precise.
+- `p2-respiratory-049`: the dry-powder/inspiratory-flow reason appears nowhere on p204 or p213; it is grounded in GG14 PDF p897 ("requires a minimum inspiratory flow; children younger than 7 years find it difficult"), which was added as a ref. Tags uses+pk changed to uses+dosing (device technique, not pharmacokinetics). Text otherwise unchanged (tidal breathing, 5-6 breaths, mask seal, valve movement, skin cleaning all on p213/p204).
+- `p2-respiratory-050`: chapter-only ref "GG14 ch44" replaced with "GG14 PDF p906", where "at doses of 400 mcg/day or less, there is no evidence of significant growth suppression" is printed; p204 added for the yearly height measurement. Back reworded - "growth velocity may be lower in the first 1-2 years" was a 9-word run from p204. The 0.7 percent, non-progressive, dose-dependent and poorly-controlled-asthma points are all on p210 and were kept.
+- `p2-respiratory-051`: p103 was the wrong page (Box 4-10 initial treatment; it does not call AIR the preferred Step 1). Refs now p91 (AIR definition), p106 (preferred Step 1, 6-11 years) and p107 (SABA-only risk of death and urgent care). Wording unchanged.
+
+Checked and left alone: p2-respiratory-048 growth section and device age bands (p210, Box 11-4 on p213), step 2 start criteria (p210), acute-attack facility management (p215), p2-respiratory-049 "under 4 years" (Box 11-4 gives face mask for 0-3 years), p2-respiratory-050's 400 mcg/day figure, p2-respiratory-051's AIR options (p106 lists as-needed ICS-formoterol or ICS+SABA).

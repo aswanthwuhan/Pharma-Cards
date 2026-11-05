@@ -164,7 +164,6 @@ Not written (no owner-book source found): Q43 preventive vs therapeutic trials; 
 
 Checker (PYQ gap pass): re-checked cards 084-102 (study) and rf-0115 to rf-0158 (Rapid) against the owner PDFs (Sarkar OCR, KDT8, Katzung 16e, Bennett, Padmaja, Medhi, Katzung ch1 PDF). Facts confirmed: CHIM and phase IIa (Sarkar p176-180); phase II 100-200 and 25% (Katzung p32); phase I 20-100 (Katzung p32); rare-effect 1 in 10,000 and no fixed phase IV duration (Katzung ch1); PSUR 6-monthly then yearly, 4-year new-drug status (Sarkar p221-225); CTRI bodies ICMR/DST/WHO (Padmaja p94); HRQoL four dimensions (Bennett p40); compensation not waivable (Bennett p56); 2x3 ANOVA (Medhi p146); factorial 2x2 (Bennett p64). Corrected: 082 (removed an ungrounded sentence on regulator oversight); 095 (replaced an internal note with a stated source conflict on registration). Deleted: none. Not verified: 100 (Harrison21 p109-110 text not extracted; Harrison is not in the GROUNDING-RULES source list). Validator: check ok.
 
-
 ## PYQ gap pass (Q-list entries 17, 21, 39, 65, 117, 171, 227, 232; 2026-11-03)
 
 New cards written from the owner's allowed books (Sarkar OCR and PDF, KDT8, Katzung16, Rang and Dale, NDCT Rules 2019, GG14). Each card cites the page range it was read from.
@@ -283,3 +282,30 @@ See content/pyq/NO-SOURCE.md. Draft, owner must verify.
 | rf-p4-clinical-trials-0207 | new (owner-approved no-source) | WEB PMC High-throughput screening of nanoparticles in drug delivery 2021 https://pmc.ncbi.nlm.nih.gov/articles/PMC8397474/ |
 | rf-p4-clinical-trials-0208 | new (owner-approved no-source) | UNSOURCED - owner must verify |
 | rf-p4-clinical-trials-0209 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+
+## Gap fill 2026-11-05: problems of clinical evaluation (RGUHS May 2025)
+
+Past question (content/pyq/questions.json idx 1165, RGUHS May 2025, paper IV, 10 marks): "Describe several phases of clinical evaluation of newly introduced drugs. What are the problems likely to be met with?" The phases half is already answered (002, 003, 004, 005, 053, p1-drug-dev-019); the problems half had no card. Preclinical limits (p4-experimental-028, p4-experimental-197) were deliberately not repeated; animal-to-human extrapolation is left to those cards.
+
+| id | status | source |
+|---|---|---|
+| p4-clinical-trials-129 | new | RangDale9 ch8 (PDF p118-119); KDT8 ch5 (PDF p101, p103, p108); GG14 ch8 (PDF p168); Bennett PDF p66 |
+| p4-clinical-trials-130 | new | RangDale9 ch8 (PDF p118) |
+| p4-clinical-trials-131 | new | RangDale9 ch8 (PDF p119); GG14 ch8 (PDF p168); Bennett PDF p64 |
+
+Notes: levels now phases L1 10 / L2 8 / L3 5, design L1 7 / L2 8 / L3 4 (minimums met). pyq tag only on 129 (RGUHS 2025, year known). All three stay `status: draft`. Validator clean.
+
+## Independent recheck 2026-11-05: cards 129-131
+
+| id | status | source |
+|---|---|---|
+| p4-clinical-trials-129 | corrected | RangDale9 PDF p118-119; KDT8 PDF p101, p108; GG14 PDF p168; Bennett PDF p66 |
+| p4-clinical-trials-130 | corrected | RangDale9 PDF p118; KDT8 PDF p101 |
+| p4-clinical-trials-131 | corrected | RangDale9 PDF p119; GG14 PDF p168; Bennett PDF p64 |
+
+Notes:
+- 129: the ALLHAT bullet had lost its figure and read "US\ million"; restored to "US$130 million" (RangDale9 PDF p119). The ethics bullet now follows the printed equipoise argument rather than the "once a proven treatment exists" gloss (RangDale9 PDF p118). Refs were chapter-only (RangDale9 ch8, KDT8 ch5, GG14 ch8) and are now page-precise. Every remaining bullet traced: exclusions and phase-IV detection of uncommon/idiosyncratic/long-term effects on KDT8 PDF p108; fixed dose/frequency/duration and bias on KDT8 PDF p101; cost, time, uncommon side effects on GG14 PDF p168; interim-analysis power loss and confirmatory trials at other centres on Bennett PDF p66.
+- 130: "dose, frequency and duration" trimmed to "the dose and how often it is given" — RangDale9 PDF p118 names dose and frequency only; the "separate dose-ranging trials" sentence is on KDT8 PDF p101, which was added as a second ref; RangDale ref made page-precise.
+- 131: refs made page-precise; sample/eligibility/generalisability and multicentre widening all printed (RangDale9 PDF p119, GG14 PDF p168, Bennett PDF p64).
+- pyq tag verified against content/pyq/questions.json idx 1165: RGUHS May 2025 paper IV, 10 marks, "Describe several phases of clinical evaluation of newly introduced drugs. What are the problems likely to be met with?".
+- No verbatim run of 8 or more words against the cited pages (script check). Levels and subtopic ladder unchanged. Validator: check ok.

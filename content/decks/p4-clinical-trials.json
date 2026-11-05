@@ -3751,6 +3751,106 @@
         }
       ],
       "status": "draft"
+    },
+    {
+      "id": "p4-clinical-trials-129",
+      "type": "shortnote",
+      "front": "Short note: Problems and limitations of clinical evaluation of a new drug",
+      "sections": [
+        {
+          "h": "Ethical and consent problems",
+          "points": [
+            "Randomly assigning patients to a treatment arm, or to no treatment at all, raises ethical concern; the trial is justified only by genuine clinical equipoise, i.e. real doubt about which arm is better",
+            "Some patients cannot consent at all: the unconscious, the demented and the mentally ill",
+            "Trials in children are particularly difficult for the same reason, yet without them childhood diseases have no proper evidence base"
+          ]
+        },
+        {
+          "h": "Problems from numbers and patient selection",
+          "points": [
+            "Only a few hundred to a few thousand patients are exposed before marketing, so uncommon or idiosyncratic reactions and effects of long-term use wait for phase IV",
+            "In small trials the two groups may be ill matched; stratification corrects this only while each stratum still holds enough patients",
+            "Eligibility criteria leave out children, the elderly, pregnant or lactating women and patients with renal or hepatic disease, so the result may not hold for the patients actually treated"
+          ]
+        },
+        {
+          "h": "Problems of design and conduct",
+          "points": [
+            "Keeping the bias of subjects and investigators out is the hardest part, and double blinding cannot always be arranged, e.g. with a dietary regimen, or a drug whose effects tell the patient what was given",
+            "Patients who drop out or miss follow-up can leave important outcomes unseen, serious adverse events among them",
+            "A trial too small to detect the real difference returns a false negative, and every interim look at the data costs statistical power and adds a chance of a false positive"
+          ]
+        },
+        {
+          "h": "Problems of cost and time",
+          "points": [
+            "Trials are costly, complicated and slow to finish, and a result may already be out of date by the time it appears",
+            "Example: ALLHAT (1994-2002) cost US$130 million and enrolled more than 42,000 patients at 623 centres"
+          ]
+        },
+        {
+          "h": "Problems of interpretation",
+          "points": [
+            "The protocol fixes one dose, frequency and duration, so the trial says nothing about whether a higher or lower dose would have done better, and no dose-response curve comes out of it",
+            "A single trial settles only the question it set out to answer; practice changes only after other investigators confirm the result at other centres"
+          ]
+        }
+      ],
+      "refs": [
+        "RangDale9 PDF p118-119",
+        "KDT8 PDF p101",
+        "KDT8 PDF p108",
+        "GG14 PDF p168",
+        "Bennett PDF p66"
+      ],
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-phases",
+      "tags": [
+        "uses"
+      ],
+      "level": 2
+    },
+    {
+      "id": "p4-clinical-trials-130",
+      "type": "basic",
+      "front": "What does a trial of one fixed dose-and-schedule regimen establish, and what does it leave unanswered?",
+      "back": "Only whether that particular regimen did better or worse than the comparator. Because the protocol fixes the dose and how often it is given, it cannot say whether a higher or a lower dose would have been better, and it tells nothing about potency or the shape of the dose-response curve, which a bioassay would give. Separate dose-ranging trials are needed for that.",
+      "refs": [
+        "RangDale9 PDF p118",
+        "KDT8 PDF p101"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "dosing"
+      ],
+      "level": 1
+    },
+    {
+      "id": "p4-clinical-trials-131",
+      "type": "basic",
+      "front": "What does generalisability of a trial result mean, and why does it often fall short?",
+      "back": "Whether the conclusion holds for the patients treated in ordinary practice, not only for the sample studied. The sample is drawn by specific eligibility criteria, so it may not represent the population it came from, and the findings may then not apply to routine practice. Recruiting at many centres widens the population and the clinical settings studied, which helps.",
+      "refs": [
+        "RangDale9 PDF p119",
+        "GG14 PDF p168",
+        "Bennett PDF p64"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "subtopic": "p4-clinical-trials-design",
+      "tags": [
+        "uses"
+      ],
+      "level": 1
     }
   ]
 }

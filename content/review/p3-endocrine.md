@@ -195,3 +195,31 @@ Checked 28 study ids (071-098) against KDT8 chapter PDFs, Sarkar OCR, Ghosh and 
 | p3-endocrine-098 | corrected | removed 100-fold gradient and "one-third of T4" statements |
 
 Deleted: none. Level and basic-why checks passed. No subtopic falls below the L1/L2/L3 minimums.
+
+## Gap pass: UHSR 2025 insulin resistance essay (worker)
+| id | new | source |
+|---|---|---|
+| p3-endocrine-099 | new essay L3, pyq UHSR 2025 10 marks | GG14 ch51 (PDF p1048, p1061), KDT8 ch19 (PDF p294, p295, p306, p316), Katzung16 ch41 (PDF p802), RangDale9 ch32 (PDF p420) |
+| p3-endocrine-100 | new basic L1: insulin receptor substrates | KDT8 ch19 (PDF p298), Katzung16 ch41 (PDF p802) |
+| p3-endocrine-101 | new basic L2: receptor versus post-receptor defect | KDT8 ch19 (PDF p306), Katzung16 ch41 (PDF p802), GG14 ch51 (PDF p1048) |
+| p3-endocrine-102 | new basic L1: adipocytokines | GG14 ch51 (PDF p1048) |
+
+- Question: UHSR 2025 paper IV, "Explain the pathophysiology of insulin resistance and discuss the role of emerging pharmacological therapies in its management" (10 marks). Card 052 already carried the definition and the clinical causes with the RGUHS 2010 tag, and no card anywhere named the emerging targets, so an essay plus the term cards were written; 052 was left unchanged.
+- Emerging-therapy section is taken from GG14's "Emerging Therapies for Diabetes" (PDF p1061): multi-receptor peptides, glucokinase activators, 11-beta-HSD1 inhibitors, GPR40 agonists, combined SGLT1/SGLT2 inhibitors, anti-CD3 at stage 2 type 1, TXNIP blockade, closed loop.
+- KDT8 "Insulin resistance" section (PDF p306) supplies the obesity/adipocyte-receptor and post-receptor transducer points and the acute-resistance management; KDT8 PDF p294 is the table that groups metformin and the TZDs under "overcome insulin resistance".
+- Rapid pairs added: rf-p3-endocrine-0624 to 0628 (logged in rapid-p3-endocrine.md).
+- Validator: `node scripts/validate-content.mjs --check` returned "check ok".
+
+## Checker pass: insulin-resistance cards 099-102 (independent review)
+Checked all four cards page by page against KDT8 PDF p294, p295, p298, p306, p316; GG14 PDF p1048, p1061; Katzung16 PDF p802; RangDale9 ch32 PDF p420. Pyq UHSR 2025 paper IV (10 marks) matches the question in content/pyq/questions.json. Tags and subtopic valid; insulin ladder unchanged (7 L1 / 6 L2 / 3 L3). No Prep/RR5 refs.
+
+| id | result | reason |
+|---|---|---|
+| p3-endocrine-099 | corrected | "Compensatory hyperinsulinaemia is followed by beta-cell insufficiency" is not printed on any cited page; replaced with GG14 PDF p1048 (resistance as risk factor, falling functional beta-cell mass explains escalating therapy). "Hyperinsulinaemia itself has been implicated in angiopathy" reworded (too close to KDT8 PDF p295). Definition of sensitivity reworded after GG14 PDF p1048. Management: "so lose weight" replaced by the printed diet/exercise and training statements (KDT8 PDF p316, GG14 PDF p1048); "the drugs used to overcome insulin resistance" narrowed to what metformin and pioglitazone do, because KDT8 PDF p294 files alpha-glucosidase inhibitors under the same heading too. |
+| p3-endocrine-100 | corrected | Removed "without this first phosphorylation step no downstream insulin effect follows" (inference, not printed); rest confirmed by Katzung16 PDF p802 (IRS are the first proteins phosphorylated) and KDT8 PDF p298. |
+| p3-endocrine-101 | corrected | Serine/threonine sentence rewritten in own words (Katzung16 PDF p802); level 2 kept: applied receptor-versus-post-receptor distinction, terms supplied by 100. |
+| p3-endocrine-102 | corrected | Last clause ("inflamed fat is part of the link") replaced with the printed GG14 PDF p1048 statements (systemic resistance; resistance as risk factor). |
+
+- Verbatim check: no run of 8+ consecutive words shared with the cited pages (longest shared run is the common phrase "insulin resistance is a major risk factor").
+- Deleted: none.
+- Validator: `node scripts/validate-content.mjs --check` -> check ok.

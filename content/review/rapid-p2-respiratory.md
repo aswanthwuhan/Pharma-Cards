@@ -112,3 +112,30 @@ Checked rf-0309 to rf-0349 against GG14 ch44 (Drug Facts table and text).
 | 0309-0319, 0321-0335, 0337, 0338, 0340-0349 | ok | GG14 ch44 Drug Facts table and text (doses, intervals, contraindications, mechanisms). |
 
 Deleted ids: none. Unverifiable ids in chunk: none.
+
+## Added: childhood asthma (2026-11-05)
+
+Gap from the paper IV question "Pharmacotherapy of childhood asthmatic disorder" (year 0 in `content/pyq/questions.json`). Rapid deck had no paediatric or preschool asthma cards; these use the owner's added library guideline `GINA-2026-Strategy-Report-WMS.pdf`, cited `GINA 2026 PDF p<N>`.
+
+| id | status | source | note |
+|---|---|---|---|
+| rf-p2-respiratory-0354 | added | GINA 2026 PDF p207 | Preschool reliever is SABA by pMDI with spacer/mask (unlike the 6-11 y AIR strategy). |
+| rf-p2-respiratory-0355 | added | GINA 2026 PDF p210 | Step 2 preferred option, <=5 y. |
+| rf-p2-respiratory-0356 | added | GINA 2026 PDF p213 | Box 11-4, 0-3 y device. |
+| rf-p2-respiratory-0357 | added | GINA 2026 PDF p107 | GINA does not recommend SABA-only at any age. |
+| rf-p2-respiratory-0358 | added | GINA 2026 PDF p210 | 0.7% adult height difference, not progressive. |
+
+## Independent fact-check pass (2026-11-05)
+
+rf-p2-respiratory-0354..0358 re-read against their cited pages of `GINA-2026-Strategy-Report-WMS.pdf` (PDF page numbers; printed page = PDF page - 1). No correction or deletion was needed.
+
+| id | status | source | note |
+|---|---|---|---|
+| rf-p2-respiratory-0354 | ok | GINA 2026 PDF p207 | p207: preschool reliever is SABA as needed, by pMDI with mouthpiece or face mask; p212 adds the valved spacer. |
+| rf-p2-respiratory-0355 | ok | GINA 2026 PDF p210 | p210 Step 2 heading: daily low-dose ICS plus as-needed SABA. |
+| rf-p2-respiratory-0356 | ok | GINA 2026 PDF p213 | Box 11-4: 0-3 years = pMDI plus dedicated spacer with face mask. |
+| rf-p2-respiratory-0357 | ok | GINA 2026 PDF p107 | p107: GINA does not recommend SABA-only treatment for children 6-11 years (or adults/adolescents). |
+| rf-p2-respiratory-0358 | ok | GINA 2026 PDF p210 | p210: not progressive or cumulative; the one long-term study showed 0.7% in adult height. |
+
+No question starts with "What is"; every pair reverses cleanly; all five are `kind: fact` (no class list involved).
+

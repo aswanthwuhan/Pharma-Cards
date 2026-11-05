@@ -122,3 +122,27 @@ Deleted: none.
 Verified, no change: all other cards in the chunk, including 0522 (LNg20 reduces dysmenorrhoea and menstrual blood loss and is used for endometrial hyperplasia, GG14 ch48 p996) and 0484 (letrozole 100% bioavailable, t1/2 about 40 h).
 
 Unverifiable (WEB / UNSOURCED refs): none in this chunk.
+
+## Added 2026-11-05: PYQ gap "Drug therapy of oligospermia"
+
+| id | change | ref |
+|---|---|---|
+| rf-p3-steroids-0541 | new: hCG dose that starts fertility treatment in hypogonadotropic hypogonadism => 1500-2000 IU three times a week | GG14 ch46 PDF p954 |
+| rf-p3-steroids-0542 | new: Added when hCG alone fails to start spermatogenesis => Recombinant FSH, about 150 IU | GG14 ch46 PDF p954 |
+| rf-p3-steroids-0543 | new: Commonest adverse effect of gonadotropin therapy in men => Gynaecomastia, in up to a third | GG14 ch46 PDF p954 |
+| rf-p3-steroids-0544 | new: Time for sperm to appear on hCG and hMG => 4-6 months in up to 90%, often subnormal counts | Katzung16 ch37 |
+| rf-p3-steroids-0545 | new: Sulfasalazine effect on sperm => Oligospermia and male infertility, reversible on stopping | KDT8 ch49, Katzung16 ch62 |
+
+## Recheck 2026-11-05 (independent check, reviewer 2)
+
+Scope: rf-p3-steroids-0541 to 0545.
+
+| id | change | ref |
+|---|---|---|
+| rf-p3-steroids-0541 | ok: 1500-2000 IU three times a week | GG14 ch46 PDF p954 |
+| rf-p3-steroids-0542 | ok: recombinant FSH, about 150 IU | GG14 ch46 PDF p954 |
+| rf-p3-steroids-0543 | ok: gynaecomastia in up to a third | GG14 ch46 PDF p954 |
+| rf-p3-steroids-0544 | ref made page-precise; "4-6 months in up to 90%, often subnormal" is Katzung p711 | Katzung16 ch37 PDF p726 |
+| rf-p3-steroids-0545 | corrected ref: "reversible on stopping" is Katzung, not KDT8 | KDT8 ch49 PDF p747, Katzung16 ch62 PDF p1189 |
+
+No copies, no Prep/RR5 refs, no "What is" questions. Deleted: none.

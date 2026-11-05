@@ -264,3 +264,29 @@ Deleted:
 - p2-toxicology-134: duplicate of p2-toxicology-132 (biomagnification). Pesticides subtopic still meets minimum levels.
 
 Level, why, duplicate checks: all chunk 1 cards have a level. Basic cards lacking a why were given one (105). Validator clean after edits.
+
+## Added 2026-11-05: PYQ gap "Define clinical toxicity, enumerate the most common drugs and chemicals responsible in adults" (UHSR 2025, paper IV, 10 marks)
+
+Existing coverage checked first: p2-toxicology-164 (essay, calcium channel blocker toxicity) already answers the CCB half of the same question; nothing in the deck defined clinical toxicology or listed the common poisons.
+
+| id | status | source / note |
+|---|---|---|
+| p2-toxicology-165 | added | GG14 ch9 PDF p174; definition of toxicology, poison and clinical toxicology |
+| p2-toxicology-166 | added | GG14 ch9 PDF p181 (Tables 9-4 to 9-6); answer card, pyq UHSR 2025 paper IV 10 marks |
+| p2-toxicology-167 | added | GG14 ch9 PDF p181; unintentional vs intentional poisoning scenarios |
+| p2-toxicology-168 | added | GG14 ch9 PDF p181; age distribution and reported exposure rate |
+
+## Recheck 2026-11-05 (independent check, reviewer 2)
+
+Scope: p2-toxicology-165 to 168 and rf-p2-toxicology-0912 to 0916, checked against GG14 ch9 PDF p174 (book p155) and p181 (book p162, Tables 9-4 to 9-7).
+
+| id | status | source / note |
+|---|---|---|
+| p2-toxicology-165 | corrected | Back contained a verbatim 13-word run from GG14 ch9 PDF p174 ("toxicology is the study of the adverse effects of substances on living organisms"). Rewritten in own words; all facts (poison = substance whose exposure gives a damaging physiological effect; clinical toxicology covers undesired drug-therapy effects and the effects and treatment of poisoning; drugs, illicit substances, plants and chemicals) are unchanged. |
+| p2-toxicology-166 | corrected | Definition section reworded to remove a 9-word verbatim run. The two drug lists (adults, children <=5 years) and the fatality list match Tables 9-5 and 9-6 in the book's order, and the 2019 figures (70,630 injury deaths, opioids in 70.6% of overdose deaths, 0.12% of reported cases fatal) are printed on the same page. pyq UHSR 2025 paper IV 10 marks matches the recorded question "Define clinical toxicity. Enumerate most common drugs and chemical responsible for clinical toxicity in adults ..." in `questions.json`; kept. |
+| p2-toxicology-167 | ok | Both columns of Table 9-4, in order. |
+| p2-toxicology-168 | corrected | "child-resistant packaging and safe storage are the main preventive measures" replaced with what the page and Table 9-7 actually state (access control: child-resistant packaging; poisons kept up, out of reach or locked). Rates (643/100,000, <6 years, adults 20-39, 0.12% fatal) confirmed. |
+
+Rapid p2-toxicology: rf-p2-toxicology-0912 (adult list, Table 9-5 order), 0913 (paediatric list, Table 9-5 order), 0914 (fatality list, Table 9-6 order), 0915 (643/100,000), 0916 (adult exposures mostly intentional or adverse reactions) all verified; no change.
+
+Deleted: none. Invented facts: none found in this topic (only copied or over-stated wording, corrected above). `node scripts/validate-content.mjs --check`: check ok.

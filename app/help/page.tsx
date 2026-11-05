@@ -108,8 +108,7 @@ export default function Help() {
       <Panel id="rapid" title="Rapid fire">
         <p className="text-sm">
           Two-way recall: the same fact seen from the other side. Tap or press <Kbd>Space</Kbd> to flip, then
-          answer <b>Knew it</b> or <b>Didn&apos;t know</b> — or use the same keys: <Kbd>1</Kbd> didn&apos;t
-          know, <Kbd>3</Kbd> knew it, <Kbd>S</Kbd> skip, <Kbd>U</Kbd> undo. At the end you get the cards you
+          grade it <b>Forgot</b>, <b>Hard</b>, <b>Good</b> or <b>Easy</b> (keys <Kbd>1</Kbd>–<Kbd>4</Kbd>, or swipe left, down, right, up); Hard, Good and Easy count as known. <Kbd>S</Kbd> skips, <Kbd>U</Kbd> undoes. At the end you get the cards you
           missed, ready to review.
         </p>
       </Panel>

@@ -1,6 +1,6 @@
 {
   "topicId": "p4-recent",
-  "source": "GG14, Katzung16, KDT8",
+  "source": "GG14, Katzung16, KDT8, Harrison21, Golan, Bennett, Sarkar",
   "cards": [
     {
       "id": "p4-recent-002",
@@ -2245,6 +2245,293 @@
       ],
       "status": "draft",
       "level": 2
+    },
+    {
+      "id": "p4-recent-098",
+      "type": "basic",
+      "front": "What is an organ-on-a-chip?",
+      "back": "An in vitro culture system built to reproduce a complex physiological system, that is the behaviour of a whole organ rather than one cell type, so that a compound's effects and safety can be predicted more accurately than with current cell-based assays. It is one of the in vitro safety-assessment methods being developed because current cell-based assays predict human responses imperfectly.",
+      "refs": [
+        "Golan PDF p954",
+        "GG14 PDF p28"
+      ],
+      "subtopic": "p4-recent-new-models-mitochondria",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p4-recent-099",
+      "type": "basic",
+      "front": "What is a mitochondrial disease?",
+      "back": "Illness caused by failure of oxidative phosphorylation in mitochondria, the organelles whose major function is to make ATP. The defect may lie in the 37 genes of mitochondrial DNA or in the 1400 or more nuclear genes that build and maintain the mitochondrion, so several inheritance patterns occur and many organ systems can be affected.",
+      "refs": [
+        "Harrison21 PDF p3709",
+        "Harrison21 PDF p3710"
+      ],
+      "subtopic": "p4-recent-new-models-mitochondria",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p4-recent-100",
+      "type": "basic",
+      "front": "What is heteroplasmy in mitochondrial disease?",
+      "back": "Each cell carries many copies of mitochondrial DNA, and heteroplasmy is the coexisting mixture of mutant and normal copies in a cell or tissue. The mutant share differs between tissues and drifts as cells divide, so disease appears only once the mutant load passes a threshold, and severity varies widely between carriers of the same mutation.",
+      "refs": [
+        "Harrison21 PDF p3694",
+        "Harrison21 PDF p3714"
+      ],
+      "subtopic": "p4-recent-new-models-mitochondria",
+      "tags": [
+        "mechanism"
+      ],
+      "pyq": [],
+      "status": "draft",
+      "level": 1
+    },
+    {
+      "id": "p4-recent-101",
+      "type": "shortnote",
+      "front": "Short note: Organ-on-a-chip",
+      "sections": [
+        {
+          "h": "What it is",
+          "points": [
+            "In vitro method that models a complex physiological system, not a single cell type",
+            "Aims to predict a compound's effects in humans better than standard cell-based assays"
+          ]
+        },
+        {
+          "h": "Why it is needed",
+          "points": [
+            "Standard cell culture and animal models predict human responses imperfectly",
+            "Cell and tissue culture and computer modelling are used more and more, but their predictive value is still limited"
+          ]
+        },
+        {
+          "h": "How it is built",
+          "points": [
+            "Cells of interest are made from human pluripotent stem cells",
+            "Grown as three-dimensional organoids, or assembled into artificial tissue architecture by three-dimensional bioprinting",
+            "Organoids mimic some of the features of a specific organ",
+            "Three-dimensional culture is supported in hydrogels: animal extracellular matrix extract, protein, peptide or polymer gels"
+          ]
+        },
+        {
+          "h": "What it is used for",
+          "points": [
+            "Testing compounds for activity",
+            "DMPK properties and compound metabolism",
+            "Toxicity, that is safety assessment of candidates"
+          ]
+        },
+        {
+          "h": "Advantages",
+          "points": [
+            "Recapitulates the properties of the tissue in vivo better than flat cell culture",
+            "Useful where a defined genetic change can be introduced to mimic disease"
+          ]
+        },
+        {
+          "h": "Limits",
+          "points": [
+            "Still an emerging technology: the constructs only promise to reproduce in vivo tissue",
+            "The predictive value of in vitro methods remains limited",
+            "Cell culture itself demands strict asepsis and costly facilities"
+          ]
+        }
+      ],
+      "refs": [
+        "Golan PDF p954",
+        "GG14 PDF p28",
+        "Bennett PDF p47",
+        "Katzung16 PDF p29",
+        "Sarkar p516-520"
+      ],
+      "subtopic": "p4-recent-new-models-mitochondria",
+      "tags": [
+        "mechanism",
+        "newer-drugs",
+        "uses"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p4-recent-102",
+      "type": "shortnote",
+      "front": "Short note: Mitochondrial medicine",
+      "sections": [
+        {
+          "h": "Scope",
+          "points": [
+            "Disorders of oxidative phosphorylation: respiratory chain complexes I to V, coenzyme Q10 and cytochrome c",
+            "Dual genetic control: 37 mitochondrial DNA genes plus over 1400 nuclear genes",
+            "Multisystem, because every tissue depends on mitochondrial ATP"
+          ]
+        },
+        {
+          "h": "Genetics",
+          "points": [
+            "mtDNA is maternally inherited; an affected father does not transmit it",
+            "Heteroplasmy plus a mutant-load threshold explains the variable severity",
+            "mtDNA replicates independently of cell division and needs polymerase gamma (POLG)"
+          ]
+        },
+        {
+          "h": "Clinical clues",
+          "points": [
+            "Brain and eye: seizures, myoclonus, ataxia, stroke-like episodes, migraine, optic atrophy, retinopathy",
+            "Muscle: weakness, fatigue, myopathy, external ophthalmoplegia",
+            "Heart: conduction defect, Wolff-Parkinson-White syndrome, cardiomyopathy",
+            "Also sensorineural deafness, diabetes, Fanconi syndrome, hepatopathy and Pearson's syndrome",
+            "Classic syndromes: MELAS, MERRF, LHON, Kearns-Sayre syndrome, CPEO"
+          ]
+        },
+        {
+          "h": "Investigation",
+          "points": [
+            "Blood lactate is neither sensitive nor specific; CSF lactate is more specific when the CNS is involved",
+            "GDF15 is sensitive and specific for mitochondrial myopathy",
+            "Molecular test: 95% of LHON is one of three mtDNA point mutations",
+            "Muscle biopsy: ragged red fibres and COX-deficient fibres"
+          ]
+        },
+        {
+          "h": "Treatment",
+          "points": [
+            "No curative drug; supportive care of epilepsy, diabetes, cardiac, hearing and eye problems",
+            "Cofactors and vitamins are widely used on little evidence: coenzyme Q10, riboflavin, carnitine, creatine, vitamin K3, vitamin C, vitamin E, idebenone",
+            "L-arginine or L-citrulline for stroke-like episodes in MELAS; folinic acid for low CSF folate"
+          ]
+        },
+        {
+          "h": "Avoid and prevent",
+          "points": [
+            "Avoid propofol, barbiturates and high-dose valproate; valproate is contraindicated with POLG mutations",
+            "No smoking or excess alcohol in LHON carriers; no aminoglycosides with the m.1555A>G mutation",
+            "Mitochondrial replacement therapy (spindle or pronuclear transfer) lowers the mutant load in the offspring",
+            "No FDA-approved therapy yet; trials of alpha-tocotrienol, elamipretide, REN-001 and ASP0367"
+          ]
+        }
+      ],
+      "refs": [
+        "Harrison21 PDF p3709",
+        "Harrison21 PDF p3710",
+        "Harrison21 PDF p3694",
+        "Harrison21 PDF p3714",
+        "Harrison21 PDF p3717",
+        "Harrison21 PDF p3719",
+        "Harrison21 PDF p3720"
+      ],
+      "subtopic": "p4-recent-new-models-mitochondria",
+      "tags": [
+        "mechanism",
+        "newer-drugs"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 2
+    },
+    {
+      "id": "p4-recent-103",
+      "type": "essay",
+      "front": "Essay: Drug treatment and prevention of mitochondrial disease",
+      "sections": [
+        {
+          "h": "Introduction",
+          "points": [
+            "No curative treatment exists for mitochondrial DNA disease; management is supportive",
+            "Any organ may be involved, so care is multidisciplinary"
+          ]
+        },
+        {
+          "h": "Supportive care",
+          "points": [
+            "Early diagnosis and treatment of epilepsy, diabetes, cardiac dysrhythmia, hearing loss, ptosis and cataract",
+            "Dietary measures and removal of toxic metabolites in selected disorders"
+          ]
+        },
+        {
+          "h": "Cofactors and antioxidants",
+          "points": [
+            "Artificial electron acceptors: vitamin K3, vitamin C, ubiquinone (coenzyme Q10)",
+            "Cofactors: riboflavin, carnitine, creatine",
+            "Radical scavengers: vitamin E, idebenone, selenium, copper",
+            "Evidence is largely anecdotal, so benefit is unproven"
+          ]
+        },
+        {
+          "h": "Drugs to avoid",
+          "points": [
+            "Propofol, barbiturates and high-dose valproate interfere with mitochondrial function",
+            "Valproate is especially contraindicated with POLG mutations that destabilise mtDNA",
+            "Smoking and alcohol precipitate visual loss in LHON; aminoglycosides cause deafness with m.1555A>G"
+          ]
+        },
+        {
+          "h": "Syndrome-specific therapy",
+          "points": [
+            "L-arginine, later L-citrulline, as vasodilators during and between the stroke-like episodes of MELAS",
+            "Folinic acid when CSF folate is deficient"
+          ]
+        },
+        {
+          "h": "Preventing transmission",
+          "points": [
+            "Aim to bring mutant heteroplasmy below the pathogenic threshold",
+            "Mitochondrial replacement therapy: maternal spindle transfer or pronuclear transfer",
+            "CRISPR or mitochondrial TALEN editing still lack gene delivery methods; prenatal diagnosis and preimplantation testing are unreliable because mutant load differs between tissues"
+          ]
+        },
+        {
+          "h": "Pipeline",
+          "points": [
+            "Alpha-tocotrienol (PTC-743) improved rating scales in an open-label study of children with Leigh syndrome",
+            "Elamipretide, REN-001 and ASP0367 are in trials for adult primary mitochondrial myopathy"
+          ]
+        }
+      ],
+      "refs": [
+        "Harrison21 PDF p3719",
+        "Harrison21 PDF p3720"
+      ],
+      "subtopic": "p4-recent-new-models-mitochondria",
+      "tags": [
+        "newer-drugs",
+        "contraindications"
+      ],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
+      "status": "draft",
+      "level": 3
     }
   ]
 }

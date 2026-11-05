@@ -179,3 +179,68 @@ See content/pyq/NO-SOURCE.md. Draft, owner must verify.
 | rf-p3-antifungal-viral-0493 | new (owner-approved no-source) | UNSOURCED - owner must verify |
 | rf-p3-antifungal-viral-0494 | new (owner-approved no-source) | UNSOURCED - owner must verify |
 | rf-p3-antifungal-viral-0495 | new (owner-approved no-source) | UNSOURCED - owner must verify |
+
+## Recheck pass 2026-11-05 (chunk 1 ids added since v0.5.5, 42 cards)
+
+`validate-content --check`: ok before and after. Every card re-opened against the cited pages; 5 cards fixed for content (073, 078, 083, 094, 105), 16 more given PDF page refs, 0 deletions. Level ladder unchanged (114 cards; every subtopic still has >= 3 L1, 2 L2, 1 L3).
+
+| id | status | source |
+|---|---|---|
+| p3-antifungal-viral-082 | ok | KDT8 ch58 |
+| p3-antifungal-viral-071 | ok | KDT8 ch58 (PDF p852-853) |
+| p3-antifungal-viral-074 | ok | KDT8 ch58 |
+| p3-antifungal-viral-073 | corrected | KDT8 ch58 |
+| p3-antifungal-viral-083 | corrected | KDT8 ch58 |
+| p3-antifungal-viral-080 | ok | KDT8 ch58 |
+| p3-antifungal-viral-075 | ok | KDT8 ch59 |
+| p3-antifungal-viral-081 | ok | KDT8 ch59 |
+| p3-antifungal-viral-076 | ok | KDT8 ch59 |
+| p3-antifungal-viral-079 | ok | KDT8 ch59 (PDF p866) |
+| p3-antifungal-viral-072 | ok | KDT8 ch60 (PDF p876-877) |
+| p3-antifungal-viral-078 | corrected | KDT8 ch60 (PDF p879) |
+| p3-antifungal-viral-077 | ok | KDT8 ch60 |
+| p3-antifungal-viral-084 | ok | KDT8 ch60 (PDF p880-881) |
+| p3-antifungal-viral-085 | corrected (refs) | Katzung16 ch49 (PDF p929, p931) |
+| p3-antifungal-viral-086 | ok | GG14 ch40 (PDF p825) |
+| p3-antifungal-viral-087 | ok | GG14 ch40 (PDF p825) |
+| p3-antifungal-viral-088 | corrected (refs) | KDT8 ch59; Katzung16 ch49 (PDF p955) |
+| p3-antifungal-viral-089 | corrected (refs) | KDT8 ch59; Katzung16 ch49 (PDF p954) |
+| p3-antifungal-viral-090 | ok | KDT8 ch59 (PDF p864) |
+| p3-antifungal-viral-091 | ok | GG14 ch62 (PDF p1240) |
+| p3-antifungal-viral-092 | corrected (refs) | Katzung16 ch49 (PDF p954-955) |
+| p3-antifungal-viral-093 | ok | KDT8 ch59 (PDF p864) |
+| p3-antifungal-viral-094 | corrected | KDT8 ch59; GG14 ch40, ch62; Katzung16 ch49 |
+| p3-antifungal-viral-095 | ok | KDT8 ch60 (PDF p881) |
+| p3-antifungal-viral-096 | ok | KDT8 ch60 (PDF p879) |
+| p3-antifungal-viral-097 | ok | KDT8 ch60 (PDF p880) |
+| p3-antifungal-viral-098 | ok | KDT8 ch60 (PDF p881) |
+| p3-antifungal-viral-099 | corrected (refs) | KDT8 ch60; Katzung16 ch49 (PDF p945) |
+| p3-antifungal-viral-100 | ok | KDT8 ch60 (PDF p881, NACO 2013 box) |
+| p3-antifungal-viral-101 | corrected (refs) | Katzung16 ch49 (PDF p945) |
+| p3-antifungal-viral-102 | corrected (refs) | Katzung16 ch49 (PDF p937, p946) |
+| p3-antifungal-viral-103 | corrected (refs) | Katzung16 ch49 (PDF p946-948) |
+| p3-antifungal-viral-104 | corrected (refs) | Katzung16 ch49 (PDF p946-947) |
+| p3-antifungal-viral-105 | corrected | Katzung16 ch49 (PDF p946, p948) |
+| p3-antifungal-viral-106 | corrected (refs) | Katzung16 ch49 (PDF p952) |
+| p3-antifungal-viral-107 | corrected (refs) | Katzung16 ch49 (PDF p952) |
+| p3-antifungal-viral-108 | corrected (refs) | Katzung16 ch49 (PDF p952) |
+| p3-antifungal-viral-109 | corrected (refs) | Katzung16 ch49 (PDF p953) |
+| p3-antifungal-viral-110 | corrected (refs) | Katzung16 ch49 (PDF p953) |
+| p3-antifungal-viral-111 | corrected (refs) | Katzung16 ch49 (PDF p952) |
+| p3-antifungal-viral-112 | corrected (refs) | Katzung16 ch49 (PDF p952-953) |
+
+### What changed
+
+- **073** (azoles, pk): dropped "Strong" from "Strong CYP3A4, CYP2C9 and CYP2C19 inhibitor". KDT8 p855 lists the three isoenzymes but does not grade the inhibition.
+- **078** (art-regimens, L1): was a duplicate of 096 (both asked when WHO 2016 starts ART). Rewritten to the duration fact the deck was missing: ART is life-long even after CD4 normalises or HIV-RNA becomes undetectable (KDT8 ch60, PDF p879). Tag dosing -> uses.
+- **083** (superficial, uses): "Local stinging is the only common effect" overstated KDT8 p854 ("local irritation with stinging and burning sensation occurs in some"). Now: stinging or burning in some patients; no systemic effects after topical use.
+- **094** (influenza essay): "viral replication is maximal in the first 2 days" -> "replication peaks in the first 2 to 3 days of illness". KDT8 says the first 2 days, Katzung16 p955 says 24-72 hours; the wording now fits both.
+- **105** (hepatitis, L3): removed "acute hepatitis B is managed supportively" - not in Katzung16 ch49 or GG14 ch63 (the earlier checker-pass note claiming it was verified is wrong). Replaced with the supported cccDNA context point (Katzung16 p946).
+- **085, 088, 089, 092, 099, 101-104, 106-112**: chapter-only Katzung16 refs now carry the PDF pages that were read (all listed in the table above).
+
+### Checked and left as they were
+
+- 071, 074, 080, 082 (polyenes/echinocandins, superficial): echinocandin t1/2s, micafungin not for aspergillosis, L-AMB liposome size and indications, nystatin local use, terbinafine vs griseofulvin nail cure 90% - all verified in KDT8 ch58 (PDF p850-858).
+- 072, 075, 077, 081, 090, 093, 095-100 (KDT8 ch59-60): PI class list and boost rule, valacyclovir/famciclovir doses, ganciclovir-cidofovir-foscarnet resistance logic, acyclovir/oral PK, WHO 2016 immediate start, NACO 2013 second-line PI order (atazanavir/r first), failure criteria - verified.
+- 076, 089, 091, 092 (GG14 ch40/ch62, Katzung16 p954-955): drift/shift, >99% adamantane resistance, zanamivir HA/NA cross-resistance, baloxavir cation and pregnancy cautions - verified.
+- Rapid ids in this chunk (rf-...-0328 to -0405) are logged in rapid-p3-antifungal-viral.md.

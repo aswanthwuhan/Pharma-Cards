@@ -298,3 +298,10 @@ Result: 96 checked, 92 ok, 4 corrected, 0 deleted, 0 unverifiable (no UNSOURCED 
 Notes outside this chunk (not edited here):
 - rf-p3-research-biostats-0001 and rf-p3-research-biostats-0194 have identical answers (scales of measurement). Left for the chunk that owns them.
 - rf-p3-research-biostats-0165 and rf-p3-research-biostats-0166 have identical answers ("n rises four-fold"). Left for the chunk that owns them.
+
+## Past-question gap pass (2026-11-05)
+
+| id | status | source |
+|---|---|---|
+| rf-p3-research-biostats-0476 | new | Medhi PMECP p153-154 (accuracy depends on reproducibility) |
+| rf-p3-research-biostats-0477 | new | Medhi PMECP p153-154 (excellent data: precise and accurate) |
