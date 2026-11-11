@@ -14,8 +14,17 @@ const newsreader = Newsreader({ subsets: ["latin"], variable: "--font-newsreader
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
 
 export const metadata: Metadata = {
-  title: "Pharmacards — MD Pharmacology revision",
-  description: "Spaced-repetition flashcards for MD Pharmacology theory exams",
+  title: "Pharmacards | MD Pharmacology Flashcards and Spaced Repetition",
+  metadataBase: new URL("https://aswanthwuhan.github.io/Pharma-Cards/"),
+  authors: [{ name: "Dr. Aswanth Krishnan", url: "https://github.com/aswanthwuhan" }],
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Pharmacards — MD Pharmacology Flashcards",
+    description: "Free offline flashcards with FSRS spaced repetition and Rapid Fire recall for MD Pharmacology theory revision.",
+    type: "website",
+    siteName: "Pharmacards",
+  },
+  description: "Free offline flashcards for MD Pharmacology theory revision, with FSRS spaced repetition, Rapid Fire recall and topic progress tracking.",
   manifest: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/manifest.webmanifest`,
   // iPhone/iPad: Safari "Add to Home Screen" opens full screen with this icon (iOS ignores manifest icons).
   appleWebApp: { capable: true, title: "Pharmacards", statusBarStyle: "black-translucent" },
