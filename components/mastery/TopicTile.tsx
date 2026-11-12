@@ -39,7 +39,7 @@ export function TopicTile({
     >
       <span className="absolute inset-x-0 top-0 h-1" style={{ background: color }} aria-hidden="true" />
 
-      <div className="flex items-start justify-between gap-3 pt-1">
+      <span className="flex items-start justify-between gap-3 pt-1">
         <span className="min-w-0 font-serif text-lg leading-snug">{topic.title}</span>
         <span className="shrink-0 whitespace-nowrap text-right">
           <span className="font-mono text-3xl tabular-nums" style={{ color }}>
@@ -47,34 +47,35 @@ export function TopicTile({
           </span>
           <span className="font-mono text-xs text-ink-soft">/100</span>
         </span>
-      </div>
+      </span>
 
-      <div className="flex flex-wrap items-center gap-2 font-mono text-[11px] tabular-nums text-ink-soft">
+      <span className="flex flex-wrap items-center gap-2 font-mono text-[11px] tabular-nums text-ink-soft">
         <LabelChip label={label} />
         {noCards ? (
           <span>No cards yet</span>
         ) : (
           <span>
-            {cards} cards{data.due > 0 ? ` · ${data.due} due` : ""}
+            {`${cards} card${cards === 1 ? "" : "s"}`}
+            {data.due > 0 ? ` · ${data.due} due` : ""}
           </span>
         )}
-      </div>
+      </span>
 
       {!noCards && rated && (
-        <div className="mt-auto space-y-1.5">
+        <span className="mt-auto block space-y-1.5">
           <SegmentBar {...data.seg} />
-          <div className="flex justify-between font-mono text-[11px] text-ink-soft">
+          <span className="flex justify-between font-mono text-[11px] text-ink-soft">
             <span>Subtopic breakdown</span>
             <span className="tabular-nums">{data.seenPct}% seen</span>
-          </div>
-        </div>
+          </span>
+        </span>
       )}
 
       {!noCards && !rated && (
-        <div className="mt-auto space-y-1.5">
-          <p className="text-xs italic text-ink-soft">Not enough answers yet</p>
+        <span className="mt-auto block space-y-1.5">
+          <span className="block text-xs italic text-ink-soft">Not enough answers yet</span>
           <CoverageBar pct={data.seenPct} thin />
-        </div>
+        </span>
       )}
     </button>
   );

@@ -13,25 +13,27 @@ self.addEventListener("install", (event) => {
     caches
       .open(CACHE_NAME)
       // "reload" bypasses the HTTP cache so every route's HTML matches the new build.
-      .then((cache) => cache.addAll(PRECACHE_URLS.map((u) => new Request(u, { cache: "reload" }))))
+      .then((cache) =>
+        cache
+          .addAll(PRECACHE_URLS.map((u) => new Request(u, { cache: "reload" })))
+          // The page's JS/CSS is fetched before this worker controls the page, so the fetch handler misses it; add it here.
+          .then(() => referencedStatic(cache))
+          .then((used) => (used ? Promise.allSettled([...used].map((u) => cache.add(u))) : undefined)),
+      )
       .then(() => self.skipWaiting()),
   );
 });
 
-/** Drop /_next/static entries that no precached page references (chunks from older builds). */
-async function pruneStatic() {
-  const cache = await caches.open(CACHE_NAME);
+/** Every /_next/static URL named by the cached route HTML (install caches them), or null if a route is missing from the cache. */
+async function referencedStatic(cache) {
   const used = new Set();
   for (const route of ROUTES) {
     const res = await cache.match(route);
-    if (!res) return; // shortcut: if a page is missing we cannot tell what is used, so prune nothing
-    for (const m of (await res.text()).matchAll(/\/_next\/static\/[^"'\s)\]]+/g)) used.add(BASE + m[0]);
+    if (!res) return null; // shortcut: if a page is missing we cannot tell what is used, so install caches no chunks
+    // The regex can capture a trailing backslash from escaped JSON in the HTML; strip it.
+    for (const m of (await res.text()).matchAll(/\/_next\/static\/[^"'\s)\]]+/g)) used.add(BASE + m[0].replace(/\\+$/, ""));
   }
-  // shortcut: lazily imported chunks not named in any page HTML are pruned too; they re-download online.
-  for (const req of await cache.keys()) {
-    const path = new URL(req.url).pathname;
-    if (path.startsWith(STATIC_PREFIX) && !used.has(path)) await cache.delete(req);
-  }
+  return used;
 }
 
 self.addEventListener("activate", (event) => {
@@ -43,9 +45,24 @@ self.addEventListener("activate", (event) => {
           keys.filter((key) => key.startsWith("pharmacards-") && key !== CACHE_NAME).map((key) => caches.delete(key)),
         ),
       )
-      .then(pruneStatic)
       .catch(() => {})
       .then(() => self.clients.claim()),
+  );
+});
+
+// RegisterSW.tsx posts the lazily loaded chunk URLs it saw; cache the ones this origin serves under STATIC_PREFIX.
+self.addEventListener("message", (event) => {
+  if (event.data?.type !== "cache-urls" || !Array.isArray(event.data.urls)) return;
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) =>
+      Promise.allSettled(
+        event.data.urls.map(async (u) => {
+          const url = new URL(u, self.location.origin);
+          if (url.origin !== self.location.origin || !url.pathname.startsWith(STATIC_PREFIX)) return;
+          if (!(await cache.match(url.href))) await cache.add(url.href);
+        }),
+      ),
+    ),
   );
 });
 

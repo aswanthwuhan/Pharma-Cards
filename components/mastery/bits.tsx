@@ -15,15 +15,6 @@ export function LabelChip({ label }: { label: MasteryLabel }) {
   );
 }
 
-/** Horizontal mastery bar. Width = score (0–100). */
-export function ScoreBar({ score, label }: { score: number | null; label: MasteryLabel }) {
-  return (
-    <span className="block h-2 overflow-hidden rounded-full bg-rule" role="img" aria-label={score == null ? "Not rated yet" : `${score} of 100`}>
-      <span className="block h-full rounded-full" style={{ width: `${score ?? 0}%`, background: labelColor(label) }} />
-    </span>
-  );
-}
-
 /** Thin "seen" coverage bar: share of the topic's cards seen at least once. Teal, not a mastery colour. */
 export function CoverageBar({ pct, thin = false }: { pct: number; thin?: boolean }) {
   return (

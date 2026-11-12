@@ -34,11 +34,11 @@ export function StatsStrip({ data }: { data?: TodayData }) {
   );
 }
 
-/** Start button, same wording on every layout. */
-export function StartButton({ n }: { n: number }) {
+/** Start button, same wording on every layout. The count is left out while loading (`n` undefined). */
+export function StartButton({ n }: { n?: number }) {
   return (
     <Link href="/study?mode=daily" className="btn-primary min-h-14 w-full text-base">
-      Start daily review ({n})
+      Start daily review{n === undefined ? "" : ` (${n})`}
     </Link>
   );
 }
@@ -64,22 +64,24 @@ export function ActionButtons({ needsDiagnostic, stacked = false }: { needsDiagn
 
 /** Mobile hero: due count, estimated time, two tiles, start button, secondary actions. */
 export function DueHero({ data, needsDiagnostic }: { data?: TodayData; needsDiagnostic: boolean }) {
-  const n = data?.queueTotal ?? 0;
+  const n = data?.queueTotal;
   const perCard = data?.avgSeconds ?? DEFAULT_SECONDS;
-  const mins = Math.ceil((n * perCard) / 60);
+  const mins = Math.ceil(((n ?? 0) * perCard) / 60);
   return (
     <section aria-labelledby="due-hero" className="sheet rounded-xl space-y-4 p-5">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <p className="eyebrow">Today&apos;s queue</p>
           <h2 id="due-hero" className="mt-1 flex flex-wrap items-baseline gap-x-2">
-            <span className="font-mono text-5xl font-semibold tabular-nums">{n}</span>
-            <span className="font-serif text-xl">cards due today</span>
+            <span className="font-mono text-5xl font-semibold tabular-nums">{n ?? "–"}</span>
+            <span className="font-serif text-xl">{n === 1 ? "card" : "cards"} in today&apos;s queue</span>
           </h2>
         </div>
-        <span className="shrink-0 rounded-full border border-rule bg-well px-3 py-1 font-mono text-xs tabular-nums text-ink-soft">
-          ~{mins} min
-        </span>
+        {data && (
+          <span className="shrink-0 rounded-full border border-rule bg-well px-3 py-1 font-mono text-xs tabular-nums text-ink-soft">
+            ~{mins} min
+          </span>
+        )}
       </div>
 
       <div className="grid grid-cols-2 gap-2">
@@ -107,7 +109,7 @@ function Tile({ value, label, bar }: { value?: number; label: string; bar: strin
 
 /** Desktop right column: overdue / due today / new breakdown, start, secondary actions. */
 export function DueTodayPanel({ data, needsDiagnostic }: { data?: TodayData; needsDiagnostic: boolean }) {
-  const n = data?.queueTotal ?? 0;
+  const n = data?.queueTotal;
   const rows: [string, number | undefined, boolean][] = [
     ["Overdue", data?.overdue, (data?.overdue ?? 0) > 0],
     ["Due today", data?.dueToday, false],
@@ -119,8 +121,8 @@ export function DueTodayPanel({ data, needsDiagnostic }: { data?: TodayData; nee
         <p id="due-panel" className="eyebrow">
           Cards due today
         </p>
-        <p className="mt-2 font-mono text-4xl font-semibold tabular-nums">{n}</p>
-        <p className="text-sm text-ink-soft">in today&apos;s queue</p>
+        <p className="mt-2 font-mono text-4xl font-semibold tabular-nums">{n ?? "–"}</p>
+        <p className="text-sm text-ink-soft">{n === 1 ? "card" : "cards"} in today&apos;s queue</p>
       </div>
       <dl className="divide-y divide-rule">
         {rows.map(([label, value, hot]) => (
@@ -159,6 +161,8 @@ export function ExamCountdown({
       {examDate && daysLeft !== null ? (
         daysLeft < 0 ? (
           <p className="text-sm text-ink-soft">The exam date has passed.</p>
+        ) : daysLeft === 0 ? (
+          <p className="font-serif text-2xl">Exam is today</p>
         ) : (
           <div>
             <p className="font-mono text-5xl font-semibold tabular-nums">{daysLeft}</p>

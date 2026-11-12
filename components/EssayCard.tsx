@@ -103,8 +103,12 @@ export function EssayLadder({ cardId, sections }: { cardId: string; sections: Se
   const [open, setOpen] = useState<Set<number>>(() => new Set());
   const saved = useLiveQuery(() => db.essayMarks.get(cardId), [cardId]);
   const marks = saved?.marks ?? {};
+  // Read the stored row inside the transaction, so two quick taps on different headings both survive.
   const setMark = (i: number, ok: boolean) =>
-    db.essayMarks.put({ cardId, marks: { ...marks, [i]: ok }, at: Date.now() });
+    db.transaction("rw", db.essayMarks, async () => {
+      const row = await db.essayMarks.get(cardId);
+      await db.essayMarks.put({ cardId, marks: { ...row?.marks, [i]: ok }, at: Date.now() });
+    });
   const nOk = Object.values(marks).filter((v) => v).length;
   const nMiss = Object.values(marks).filter((v) => !v).length;
   return (
@@ -162,7 +166,7 @@ export function EssayLadder({ cardId, sections }: { cardId: string; sections: Se
                         type="button"
                         aria-pressed={mark === ok}
                         onClick={stop(() => setMark(i, ok))}
-                        className="min-h-9 flex-1 rounded-full border px-3 font-mono text-xs"
+                        className="min-h-11 flex-1 rounded-full border px-3 font-mono text-xs"
                         style={{
                           borderColor: ok ? "var(--color-strong)" : "var(--color-weak)",
                           background: mark === ok ? `color-mix(in srgb, ${ok ? "var(--color-strong)" : "var(--color-weak)"} 18%, transparent)` : "transparent",

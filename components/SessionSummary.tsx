@@ -57,10 +57,11 @@ export function SessionSummary({
     .map((s) => ({ s, b: before?.subtopic.get(s), a: after?.subtopic.get(s) }))
     .filter((x) => x.a?.score != null)
     .map((x) => ({ ...x, delta: (x.a!.score ?? 0) - (x.b?.score ?? 0) }))
-    .sort((p, q) => Math.abs(q.delta) - Math.abs(p.delta));
+    // Subtopics with an earlier score come first: a real change beats a first rating.
+    .sort((p, q) => Number(q.b?.score != null) - Number(p.b?.score != null) || Math.abs(q.delta) - Math.abs(p.delta));
   const top = moves[0];
   const topSub = top ? subtopicById.get(top.s) : undefined;
-  const levelChanged = top && labelFor(top.b?.score ?? null) !== labelFor(top.a!.score);
+  const levelChanged = top && top.b?.score != null && labelFor(top.b.score) !== labelFor(top.a!.score);
 
   // Ring: circumference for r=30 is 188.5.
   const C = 188.5;
@@ -134,7 +135,7 @@ export function SessionSummary({
         <section className="flex min-h-[92px] flex-col justify-between rounded-xl bg-sheet p-4">
           <span className="eyebrow">Due by tomorrow</span>
           <div>
-            <div className="font-serif text-2xl">{dueTomorrow ?? "…"} cards</div>
+            <div className="font-serif text-2xl">{dueTomorrow ?? "…"} {dueTomorrow === 1 ? "card" : "cards"}</div>
             <span className="font-mono text-[11px] text-ink-soft">in your review queue</span>
           </div>
         </section>
@@ -188,8 +189,14 @@ export function SessionSummary({
           <div className="flex items-center justify-between font-mono text-[11px] text-ink-soft">
             <span>{moves.length} subtopic{moves.length === 1 ? "" : "s"} practised</span>
             <span className={top.delta >= 0 ? "text-teal" : "text-weak"}>
-              {top.delta >= 0 ? "+" : ""}
-              {top.delta} points
+              {top.b?.score == null ? (
+                "First rating"
+              ) : (
+                <>
+                  {top.delta >= 0 ? "+" : ""}
+                  {top.delta} points
+                </>
+              )}
             </span>
           </div>
         </section>
@@ -197,7 +204,7 @@ export function SessionSummary({
 
       <div className="mt-1 flex flex-col gap-1.5">
         <Link href="/study?mode=weak" className="btn-primary min-h-12 w-full rounded-xl font-mono tracking-wide">
-          Work on weak areas{weakCount ? ` (${Math.min(weakCount, 30)} cards)` : ""}
+          Work on weak areas{weakCount ? ` (${Math.min(weakCount, 30)} ${weakCount === 1 ? "card" : "cards"})` : ""}
         </Link>
         <Link href="/stats" className="btn min-h-11 w-full rounded-xl bg-sheet font-mono text-sm">
           View full report

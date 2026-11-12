@@ -3,6 +3,7 @@
 import { LazyMotion, domAnimation, m } from "motion/react";
 import { useReduceMotion, useSettings } from "@/lib/settings";
 import { EssayLadder, EssayRail } from "./EssayCard";
+import { useAnyApproved } from "@/lib/store";
 import { subtopicById, topicById } from "@/lib/syllabus";
 import type { FlashCard, Section } from "@/lib/types";
 
@@ -33,6 +34,7 @@ export function CardView({
 }) {
   const t = CARD_TYPE[card.type] ?? CARD_TYPE.basic;
   const { essayStyle } = useSettings();
+  const anyApproved = useAnyApproved();
   const sub = card.subtopic ? subtopicById.get(card.subtopic)?.title : undefined;
   const body = (
     <div className="px-5 pt-5 pb-6 sm:px-7 sm:pt-6">
@@ -47,7 +49,7 @@ export function CardView({
             {p.marks ? ` [${p.marks}M]` : ""}
           </span>
         ))}
-        {card.status === "draft" && (
+        {card.status === "draft" && anyApproved && (
           <span className="rounded-full border border-porcelain-rule px-2 py-0.5 font-mono text-[11px] text-porcelain-soft">Unreviewed draft</span>
         )}
       </div>

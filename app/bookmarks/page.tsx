@@ -4,15 +4,17 @@ import { useLiveQuery } from "dexie-react-hooks";
 import Link from "next/link";
 import { CardView } from "@/components/CardView";
 import { db } from "@/lib/db";
-import { useAllCards } from "@/lib/store";
+import { useAllCards, useStudyCards } from "@/lib/store";
 import { TOPICS } from "@/lib/syllabus";
 import type { FlashCard } from "@/lib/types";
 
 export default function Saved() {
   const cards = useAllCards();
+  const studyCards = useStudyCards();
   const bookmarks = useLiveQuery(() => db.bookmarks.orderBy("at").reverse().toArray(), []);
   const notes = useLiveQuery(() => db.notes.toArray(), []);
   const byId = new Map(cards?.map((c) => [c.id, c]));
+  const studyIds = new Set(studyCards?.map((c) => c.id));
   const noteBy = new Map(notes?.map((n) => [n.cardId, n.text]));
   const marked = new Set((bookmarks ?? []).map((b) => b.cardId));
   const ids = [...new Set([...(bookmarks ?? []).map((b) => b.cardId), ...(notes ?? []).map((n) => n.cardId)])];
@@ -22,9 +24,11 @@ export default function Saved() {
     topic: t,
     cards: ids.map((id) => byId.get(id)).filter((c): c is FlashCard => !!c && c.topicId === t.id),
   })).filter((g) => g.cards.length);
-  const savedCount = (bookmarks ?? []).filter((b) => byId.has(b.cardId)).length;
+  // Only bookmarks the study mode serves (drafts are hidden when "show drafts" is off).
+  const savedCount = (bookmarks ?? []).filter((b) => studyIds.has(b.cardId)).length;
   // Saved items whose card was removed from the content: count them out and let the user clear them.
   const orphans = cards ? ids.filter((id) => !byId.has(id)) : [];
+  const orphanHasNotes = orphans.some((id) => noteBy.has(id));
 
   return (
     <div className="space-y-6">
@@ -46,10 +50,11 @@ export default function Saved() {
           onClick={() => Promise.all([db.bookmarks.where("cardId").anyOf(orphans).delete(), db.notes.where("cardId").anyOf(orphans).delete()])}
         >
           Remove {orphans.length} saved item{orphans.length > 1 ? "s" : ""} for cards that no longer exist
+          {orphanHasNotes ? " and their notes" : ""}
         </button>
       )}
 
-      {bookmarks !== undefined && cards !== undefined && !groups.length && (
+      {bookmarks !== undefined && cards !== undefined && !groups.length && !orphans.length && (
         <div className="sheet p-6 text-center">
           <h2 className="font-serif text-xl font-semibold">Nothing saved yet</h2>
           <p className="mt-2 text-sm text-ink-soft">

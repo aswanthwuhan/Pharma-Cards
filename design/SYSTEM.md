@@ -23,7 +23,6 @@ Plain, short, sentence case, from the student's side: "Work on weak areas", "3 o
   - `LABEL_COLOR`, `LABEL_TEXT`.
 - `components/SubtopicList.tsx`: `<SubtopicList topicId mastery={report.subtopic} order="weakest" | "syllabus" />` gives tappable rows that start practice on one subtopic.
 - `components/BottomSheet.tsx`: `<BottomSheet open onClose title>…</BottomSheet>`.
-- `components/BlisterMap.tsx`: the signature syllabus pill map (topic pills filled by mastery).
 
 ## Data
 - `lib/store.ts`:

@@ -89,7 +89,7 @@ export function BottomSheet({
               </div>
               <div className="flex items-center justify-between px-5 pb-3">
                 <h2 className="font-serif text-xl">{title}</h2>
-                <button onClick={onClose} className="btn min-h-9 px-3 text-ink-soft hover:text-ink" aria-label="Close">
+                <button onClick={onClose} className="btn min-h-11 px-3 text-ink-soft hover:text-ink" aria-label="Close">
                   Close
                 </button>
               </div>

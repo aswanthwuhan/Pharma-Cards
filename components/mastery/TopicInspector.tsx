@@ -75,7 +75,7 @@ export function TopicInspector({
           <p className="eyebrow">Seen</p>
           <p className="mt-1 font-mono text-lg tabular-nums">{seenPct}%</p>
           <p className="font-mono text-[11px] text-ink-soft">
-            {cards ? `${seen} of ${cards} cards seen` : "No cards yet"}
+            {cards ? `${seen} of ${cards} card${cards === 1 ? "" : "s"} seen` : "No cards yet"}
           </p>
           <div className="mt-2">
             <CoverageBar pct={seenPct} thin />
@@ -114,7 +114,7 @@ export function TopicInspector({
                 <span className="min-w-0">
                   <span className="line-clamp-2 block text-sm leading-snug">{s.title}</span>
                   <span className="font-mono text-[11px] tabular-nums text-ink-soft">
-                    {sm?.score == null ? "Not rated" : `${sm.score}/100`} · {sm?.cards ?? 0} cards
+                    {sm?.score == null ? "Not rated" : `${sm.score}/100`} · {`${sm?.cards ?? 0} card${(sm?.cards ?? 0) === 1 ? "" : "s"}`}
                   </span>
                 </span>
                 <span className="flex shrink-0 items-center gap-2">

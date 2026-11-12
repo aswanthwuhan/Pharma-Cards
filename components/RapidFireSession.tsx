@@ -45,6 +45,11 @@ export function RapidFireSession({
   const dirRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const card = cards[i];
   const done = i >= cards.length;
+  // The card on screen now; a fly-out that finishes after a skip or undo must not grade a different card.
+  const currentId = useRef(card?.id);
+  useEffect(() => {
+    currentId.current = card?.id;
+  }, [card?.id]);
   // Streaks come from the log, so Undo and "drill missed" keep them right.
   let streak = 0;
   let best = 0;
@@ -61,7 +66,7 @@ export function RapidFireSession({
   // The deck flies the card out, then hands the grade here.
   const grade = useCallback(
     async (g: SwipeGrade) => {
-      if (!card || busy.current) return;
+      if (!card || busy.current || card.id !== currentId.current) return;
       busy.current = true;
       try {
         const undo = await recordReview(card, g as Grade, Date.now() - shownAt.current, "rapid");
@@ -99,10 +104,10 @@ export function RapidFireSession({
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement;
       if (el.closest?.("input, textarea, select, [contenteditable]")) return;
+      if (document.querySelector('[aria-modal="true"]')) return; // a dialog owns the keyboard
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") return void (e.preventDefault(), undoLast());
-      // Escape / U undo the last answer, unless a dialog is open (it owns Escape).
+      // Escape / U undo the last answer.
       if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && (e.key === "Escape" || e.key.toLowerCase() === "u")) {
-        if (document.querySelector('[aria-modal="true"]')) return;
         e.preventDefault();
         undoLast();
         return;
@@ -140,7 +145,7 @@ export function RapidFireSession({
         <p className="eyebrow text-teal">Rapid fire</p>
         <h1 className="font-serif text-base leading-snug">{title}</h1>
       </div>
-      <Link href={fullCardsHref} role="switch" aria-checked="true" aria-label="Rapid fire mode on; switch to full cards" className="flex min-h-10 items-center gap-2 rounded-full border border-teal bg-teal-wash px-3 text-xs font-semibold text-teal">
+      <Link href={fullCardsHref} aria-label="Rapid fire mode on; switch to full cards" className="flex min-h-10 items-center gap-2 rounded-full border border-teal bg-teal-wash px-3 text-xs font-semibold text-teal">
         <span className="relative h-4 w-7 rounded-full bg-teal">
           <span className="absolute top-0.5 right-0.5 h-3 w-3 rounded-full bg-on-teal" />
         </span>

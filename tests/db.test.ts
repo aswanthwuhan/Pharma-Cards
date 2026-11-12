@@ -1,7 +1,7 @@
 import "fake-indexeddb/auto";
 import { beforeEach, describe, expect, it } from "vitest";
 import bundled from "../content/all.json";
-import { db } from "../lib/db";
+import { db, importBackup } from "../lib/db";
 import { recordReview, undoReview } from "../lib/srs";
 import { buildQueue, computeMastery, isRapid } from "../lib/store";
 import type { FlashCard } from "../lib/types";
@@ -33,6 +33,36 @@ describe("undo", () => {
     await undoReview(u);
     expect(await db.cardStates.get(card.id)).toBeUndefined();
     expect(await db.reviews.count()).toBe(0);
+  });
+});
+
+describe("backup import", () => {
+  const DAY = 86_400_000;
+  // Backups are JSON, so round-trip the row the way an exported file would store it.
+  const asBackup = (row: unknown) => JSON.parse(JSON.stringify(row));
+
+  it("keeps a newer local schedule over an older backup, and takes a newer backup", async () => {
+    await recordReview(card, 3, 5000, "test");
+    const local = (await db.cardStates.get(card.id))!;
+    const reviewed = local.fsrs.last_review!.getTime();
+
+    const older = asBackup({ ...local, lastRating: 1, fsrs: { ...local.fsrs, last_review: new Date(reviewed - DAY) } });
+    await importBackup({ cardStates: [older] });
+    expect((await db.cardStates.get(card.id))!.lastRating).toBe(3);
+
+    await db.cardStates.put({ ...local, fsrs: { ...local.fsrs, last_review: new Date(reviewed - 2 * DAY) } });
+    const newer = asBackup({ ...local, lastRating: 1, fsrs: { ...local.fsrs, last_review: new Date(reviewed + DAY) } });
+    await importBackup({ cardStates: [newer] });
+    expect((await db.cardStates.get(card.id))!.lastRating).toBe(1);
+  });
+
+  it("keeps a newer local note over an older backup, and takes a newer backup note", async () => {
+    await db.notes.put({ cardId: card.id, text: "edited here", updatedAt: 2000 });
+    await importBackup({ notes: [asBackup({ cardId: card.id, text: "old", updatedAt: 1000 })] });
+    expect((await db.notes.get(card.id))!.text).toBe("edited here");
+
+    await importBackup({ notes: [asBackup({ cardId: card.id, text: "newer", updatedAt: 3000 })] });
+    expect((await db.notes.get(card.id))!.text).toBe("newer");
   });
 });
 

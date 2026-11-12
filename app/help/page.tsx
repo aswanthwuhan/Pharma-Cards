@@ -62,6 +62,10 @@ export default function Help() {
             Prefer buttons? The four grades sit under the card with the next interval on each one.
           </li>
           <li>
+            A card you mark <b>Forgot</b> comes back once more at the end of the same session, so you re-test it
+            before you stop. The diagnostic test does not repeat cards.
+          </li>
+          <li>
             <b>Notes</b>: the pencil button keeps a mnemonic or correction for that card; it saves as you type.
           </li>
         </ul>
@@ -94,14 +98,14 @@ export default function Help() {
           >
             undo the last grade; the card comes back
           </KeyRow>
-          <KeyRow keys={<><Kbd>←</Kbd> <span className="text-sm text-ink-soft">after grading right</span></>}>
-            the opposite direction on a fresh card also brings the previous card back
+          <KeyRow keys={<><Kbd>←</Kbd> <Kbd>→</Kbd> <span className="text-sm text-ink-soft">after any grade</span></>}>
+            press the opposite arrow on the next card to bring the previous card back
           </KeyRow>
           <KeyRow keys={<Kbd>S</Kbd>}>skip without grading</KeyRow>
         </div>
         <p className="pt-2 text-sm text-ink-soft">
           Arrows only grade a card that is already flipped, so on a fresh card they undo instead — turn the
-          card over first and they grade it.
+          card over first and they grade it. Shortcuts pause while a dialog is open.
         </p>
       </Panel>
 
@@ -160,8 +164,8 @@ export default function Help() {
         <ul className="space-y-2 text-sm">
           <li>
             <b>Settings → Appearance</b>: Day, Night or Auto, five palettes, and your own colours. A custom
-            accent sets its own hover, selected and button-text colours, and Settings warns you if a pair falls
-            below 4.5:1 contrast.
+            accent sets its own hover, selected and button-text colours, and Settings warns you if text or card
+            text falls below 4.5:1 against its background.
           </li>
           <li>
             <b>Motion</b>: follows your phone&apos;s Reduce Motion setting by default; you can force it on or off.

@@ -68,7 +68,7 @@ export function DataPanel() {
     }
     if (
       !window.confirm(
-        `Import ${total} records from "${file.name}"? Review history is merged (duplicates skipped). Schedules, notes, bookmarks, settings, card approvals/edits and imported cards with the same ID are replaced by the file's version. Everything else on this device is kept.`,
+        `Import ${total} records from "${file.name}"? Review history is merged (duplicates skipped). Schedules and notes are replaced unless this device changed them more recently. Bookmarks, settings, card approvals/edits and imported cards with the same ID are replaced by the file's version. Everything else on this device is kept.`,
       )
     ) {
       setStatus("Import cancelled.");
@@ -94,12 +94,16 @@ export function DataPanel() {
       "Reset study progress? This deletes every card's review schedule (cardStates), your review history (reviews) and your mastery snapshots (snapshots). Cards, approvals, notes and bookmarks are kept. This cannot be undone.",
     );
     if (!ok) return;
-    await db.transaction("rw", [db.cardStates, db.reviews, db.snapshots], async () => {
-      await db.cardStates.clear();
-      await db.reviews.clear();
-      await db.snapshots.clear();
-    });
-    setStatus("Study progress reset.");
+    try {
+      await db.transaction("rw", [db.cardStates, db.reviews, db.snapshots], async () => {
+        await db.cardStates.clear();
+        await db.reviews.clear();
+        await db.snapshots.clear();
+      });
+      setStatus("Study progress reset.");
+    } catch {
+      setStatus("Reset failed.");
+    }
   }
 
   return (
@@ -115,7 +119,7 @@ export function DataPanel() {
       />
       <Row
         title="Import progress"
-        description="Restore a backup file. Review history is merged; other records with the same ID are replaced."
+        description="Restore a backup file. Review history is merged. Schedules and notes are replaced unless this device changed them more recently."
         control={
           <label className="btn-ghost cursor-pointer focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-teal">
             Import progress

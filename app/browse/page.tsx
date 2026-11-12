@@ -87,7 +87,7 @@ export default function Syllabus() {
     });
 
   const mixPanel = (
-    <MixPanel cards={cards ?? []} countByTopic={countByTopic} mix={mix} onChange={patchMix} />
+    <MixPanel cards={cards ?? []} countByTopic={countByTopic} mix={mix} onChange={patchMix} loading={cards === undefined} />
   );
 
   return (
@@ -147,7 +147,7 @@ export default function Syllabus() {
           )}
         </div>
 
-        <OverviewPanel totalCards={cards?.length ?? 0} counts={subtopicCounts} />
+        <OverviewPanel totalCards={cards?.length} counts={subtopicCounts} />
 
         {/* papers and topic cards */}
         {visibleSections.length === 0 ? (
@@ -187,6 +187,7 @@ export default function Syllabus() {
                       open={openTopics.has(t.id)}
                       onToggle={() => toggleTopic(t.id)}
                       matched={tokens.length ? t.subtopics.filter((s) => matches(s.title, tokens)).map((s) => s.title) : []}
+                      loading={cards === undefined}
                     />
                   );
                 })}

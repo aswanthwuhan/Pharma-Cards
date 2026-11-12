@@ -211,11 +211,19 @@ export default function MasteryMap() {
             <MasteryRing score={overall} label={overallLabel} size={56} />
             <p className="font-mono text-sm text-ink-soft">
               Overall syllabus mastery{" "}
-              <span className="text-lg text-ink tabular-nums" style={{ color: overall == null ? undefined : labelColor(overallLabel) }}>
-                {overall ?? "—"}
-              </span>{" "}
-              / 100
-              <span className="block text-[11px]">{report === undefined ? "Loading…" : `From ${ratedCount} rated ${ratedCount === 1 ? "topic" : "topics"}`}</span>
+              <span className="whitespace-nowrap">
+                <span className="text-lg text-ink tabular-nums" style={{ color: overall == null ? undefined : labelColor(overallLabel) }}>
+                  {overall ?? "—"}
+                </span>{" "}
+                / 100
+              </span>
+              <span className="block text-[11px]">
+                {report === undefined
+                  ? "Loading…"
+                  : ratedCount > 0 && ratedCount * 4 < counts.all
+                    ? `Early estimate: ${ratedCount} of ${counts.all} topics rated`
+                    : `From ${ratedCount} rated ${ratedCount === 1 ? "topic" : "topics"}`}
+              </span>
             </p>
           </div>
         </div>

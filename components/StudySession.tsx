@@ -5,17 +5,14 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Grade } from "ts-fsrs";
 import { db } from "@/lib/db";
-import { labelFor } from "@/lib/mastery";
 import { previewIntervals, recordReview, undoReview, type ReviewUndo } from "@/lib/srs";
 import { computeMastery, type MasteryReport } from "@/lib/store";
-import { subtopicById, topicById } from "@/lib/syllabus";
 import type { SwipeGrade } from "@/lib/swipe";
 import type { FlashCard } from "@/lib/types";
 import { BottomSheet } from "./BottomSheet";
 import { NavBack } from "./NavBack";
 import { ProgressRing } from "./ProgressRing";
 import { SessionSummary } from "./SessionSummary";
-import { MasteryPill } from "./MasteryPill";
 import { GRADE_META, GradeDock, gradeCurrentCard, SwipeDeck } from "./SwipeDeck";
 import { useSettings } from "@/lib/settings";
 
@@ -28,6 +25,7 @@ interface Done {
   undo: ReviewUndo;
   grade: SwipeGrade;
   ms: number;
+  requeued?: boolean;
 }
 
 const GRADE_WORD: Record<number, string> = { 1: "Forgot", 2: "Hard", 3: "Good", 4: "Easy" };
@@ -66,6 +64,8 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
   const [after, setAfter] = useState<MasteryReport>();
   const started = useRef(Date.now());
   const busy = useRef(false);
+  // Cards already appended again after a "Forgot", so each comes back at most once per session.
+  const requeuedIds = useRef(new Set<string>());
   const snapshotId = useRef<number | undefined>(undefined);
   const card = cards[i];
   const done = i >= cards.length;
@@ -139,7 +139,15 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
 
   // One snapshot per session: an undo from the summary and a re-grade replace it instead of adding another.
   useEffect(() => {
-    if (!done || !cards.length) return;
+    if (!done) {
+      // Back on a card (undo from the summary): the stored snapshot would show pre-undo scores, so drop it.
+      if (snapshotId.current !== undefined) {
+        void db.snapshots.delete(snapshotId.current);
+        snapshotId.current = undefined;
+      }
+      return;
+    }
+    if (!cards.length) return;
     computeMastery().then(async (m) => {
       setAfter(m);
       const snap = { at: Date.now(), label: mode, scores: Object.fromEntries([...m.subtopic].map(([k, v]) => [k, v.score])) };
@@ -170,20 +178,28 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
     async (g: SwipeGrade) => {
       if (!card || busy.current || card.id !== currentId.current) return;
       busy.current = true;
+      // The grade buttons unmount after a grade; keep keyboard focus on the next card's flip button only if it was on a button.
+      const hadFocus = document.activeElement instanceof HTMLButtonElement;
       try {
-        const isNew = !state;
         const ms = Date.now() - started.current; // recordReview caps idle time
-        const undo = await recordReview(card, g as Grade, ms, isNew && mode === "daily" ? "daily-new" : mode);
-        setHistory((h) => [...h, { undo, grade: g, ms }]);
+        const undo = await recordReview(card, g as Grade, ms, mode);
+        // Re-testing a miss in the same sitting, so it is not left until another day.
+        const requeue = g === 1 && mode !== "diagnostic" && !requeuedIds.current.has(card.id);
+        if (requeue) {
+          requeuedIds.current.add(card.id);
+          setCards((c) => [...c, card]);
+        }
+        setHistory((h) => [...h, { undo, grade: g, ms, requeued: requeue }]);
         setToast(g);
         setRevealed(false);
         started.current = Date.now();
         setI((x) => x + 1);
+        if (hadFocus) requestAnimationFrame(() => document.querySelector<HTMLElement>("[data-flip]")?.focus({ preventScroll: true }));
       } finally {
         busy.current = false;
       }
     },
-    [card, state, mode],
+    [card, mode],
   );
 
   const undoLast = useCallback(async () => {
@@ -194,6 +210,15 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
       await undoReview(last.undo);
       setHistory((h) => h.slice(0, -1));
       setToast(null);
+      if (last.requeued) {
+        // Remove the appended copy (always past the current index) and allow a future re-queue.
+        const id = last.undo.cardId;
+        requeuedIds.current.delete(id);
+        setCards((c) => {
+          const k = c.map((x) => x.id).lastIndexOf(id);
+          return k < 0 ? c : [...c.slice(0, k), ...c.slice(k + 1)];
+        });
+      }
       setI((x) => x - 1);
       setRevealed(true);
       started.current = Date.now();
@@ -213,14 +238,14 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
     const onKey = (e: KeyboardEvent) => {
       const el = e.target as HTMLElement;
       if (noteOpen || el.closest?.("input, textarea, select, [contenteditable]")) return;
+      if (document.querySelector('[aria-modal="true"]')) return; // a dialog owns the keyboard
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") {
         e.preventDefault();
         undoLast();
         return;
       }
-      // Escape / U undo the last grade, unless a dialog is open (it owns Escape).
-      if (!e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && (e.key === "Escape" || e.key.toLowerCase() === "u")) {
-        if (document.querySelector('[aria-modal="true"]')) return;
+      // Escape / U undo the last grade (not on the summary screen).
+      if (!done && !e.repeat && !e.ctrlKey && !e.metaKey && !e.altKey && (e.key === "Escape" || e.key.toLowerCase() === "u")) {
         e.preventDefault();
         undoLast();
         return;
@@ -286,14 +311,12 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-end gap-1.5">
+        <div className="flex flex-wrap items-center justify-end gap-1.5">
           {rapidHref && (
             <Link
               href={rapidHref}
-              role="switch"
-              aria-checked="false"
               aria-label="Rapid fire mode off; switch to rapid fire"
-              className="mr-auto flex min-h-10 items-center gap-1.5 rounded-full border border-rule bg-sheet px-2.5 text-xs text-ink-soft"
+              className="mr-auto flex min-h-11 items-center gap-1.5 rounded-full border border-rule bg-sheet px-2.5 text-xs text-ink-soft"
             >
               <span className="relative h-4 w-7 rounded-full bg-rule">
                 <span className="absolute top-0.5 left-0.5 h-3 w-3 rounded-full bg-ink-soft" />
@@ -302,7 +325,7 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
             </Link>
           )}
           {history.length > 0 && (
-            <button onClick={undoLast} aria-label="Undo last answer" className="btn min-h-10 border border-rule bg-sheet px-3 text-xs text-ink-soft">
+            <button onClick={undoLast} aria-label="Undo last answer" className="btn min-h-11 border border-rule bg-sheet px-3 text-xs text-ink-soft">
               Undo
             </button>
           )}
@@ -311,14 +334,14 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
           </button>
           <button
             onClick={() => setNoteOpen(true)}
-            className={`btn min-h-10 border bg-sheet px-3 text-xs ${note ? "border-moderate text-moderate" : "border-rule text-ink-soft"}`}
+            className={`btn min-h-11 border bg-sheet px-3 text-xs ${note ? "border-moderate text-moderate" : "border-rule text-ink-soft"}`}
           >
             Note
           </button>
           <button
             aria-pressed={!!bookmarked}
             onClick={() => (bookmarked ? db.bookmarks.delete(card.id) : db.bookmarks.put({ cardId: card.id, at: Date.now() }))}
-            className={`btn min-h-10 border px-3 text-xs ${bookmarked ? "border-teal bg-teal-wash text-teal" : "border-rule bg-sheet text-ink-soft"}`}
+            className={`btn min-h-11 border px-3 text-xs ${bookmarked ? "border-teal bg-teal-wash text-teal" : "border-rule bg-sheet text-ink-soft"}`}
           >
             {bookmarked ? "Saved" : "Save"}
           </button>
@@ -327,7 +350,9 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
 
       {/* card stack */}
       <div className="relative mt-4 min-h-0 flex-1">
+        {/* key={i}: a re-queued "Forgot" card can be the next card itself, so the deck must remount per position. */}
         <SwipeDeck
+          key={i}
           card={card}
           next={cards[i + 1]}
           revealed={revealed}
@@ -355,7 +380,7 @@ export function StudySession({ cards: initial, mode, title, rapidHref }: { cards
             </button>
           </span>
         ) : revealed && settings.swipe ? (
-          <span className="font-mono text-[11px] text-ink-soft">Swipe ← Forgot · → Good · from the edge ↑ Easy ↓ Hard</span>
+          <span className="font-mono text-[11px] whitespace-nowrap text-ink-soft">← Forgot · → Good · edge ↑ Easy · ↓ Hard</span>
         ) : null}
       </div>
 

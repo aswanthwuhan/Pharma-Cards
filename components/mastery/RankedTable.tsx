@@ -60,7 +60,7 @@ export function RankedTable({
 
       {/* Selection bar */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-y border-rule bg-well px-4 py-3 sm:px-5">
-        <span className="font-mono text-xs tabular-nums text-ink-soft">{ids.length} topics selected</span>
+        <span className="font-mono text-xs tabular-nums text-ink-soft">{`${ids.length} topic${ids.length === 1 ? "" : "s"} selected`}</span>
         <div className="flex items-center gap-2">
           <button type="button" className="btn-ghost min-h-9 px-4" onClick={onClear} disabled={!ids.length}>
             Clear
@@ -90,11 +90,11 @@ export function RankedTable({
           </label>
           {canBuild ? (
             <Link href={href} className="btn-primary w-full">
-              Start mixed practice ({n} cards)
+              Start mixed practice ({n} card{n === 1 ? "" : "s"})
             </Link>
           ) : (
             <span aria-disabled="true" className="btn-primary w-full opacity-50">
-              Start mixed practice ({n} cards)
+              Start mixed practice ({n} card{n === 1 ? "" : "s"})
             </span>
           )}
           {count === 0 && <p className="text-xs text-ink-soft">No cards match these choices in the selected topics.</p>}
@@ -139,7 +139,7 @@ export function RankedTable({
                   <span style={{ color: labelColor(label) }}>{r.m?.score ?? "—"} / 100</span>
                   <span>{statusWord(r.m)}</span>
                   <span>{seenPct}% seen</span>
-                  <span>{r.m?.cards ?? 0} cards</span>
+                  <span>{`${r.m?.cards ?? 0} card${r.m?.cards === 1 ? "" : "s"}`}</span>
                 </span>
               </span>
               <span className="hidden truncate font-mono text-[11px] text-ink-soft lg:block">{PAPER_TAB[r.paper.id] ?? paperTitle(r.paper)}</span>

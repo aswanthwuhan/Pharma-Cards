@@ -862,8 +862,16 @@
       "front": "Short note: Non-benzodiazepine hypnotics",
       "sections": [
         {
+          "h": "Mechanism",
+          "points": [
+            "Structurally non-BZD but selective BZD-receptor agonists, with high affinity for the alpha1 subunit isoform",
+            "Give selective hypnotic and amnesic effect"
+          ]
+        },
+        {
           "h": "Zolpidem",
           "points": [
+            "Pronounced hypnotic effect",
             "Alpha-1 selective; shortens sleep latency and lengthens sleep",
             "Little effect on slow-wave sleep; little rebound or fading on nightly use",
             "Half-life about 2 hours; dose 5 to 10 mg at bedtime, lower in the elderly and liver disease",
@@ -902,9 +910,22 @@
       "subtopic": "p2-sedatives-aed-hypnotics",
       "tags": [
         "newer-drugs",
-        "pk"
+        "pk",
+        "uses"
       ],
-      "level": 2
+      "level": 2,
+      "pyq": [
+        {
+          "university": "RGUHS",
+          "year": 2022,
+          "marks": 10
+        },
+        {
+          "university": "RGUHS",
+          "year": 2010,
+          "marks": 10
+        }
+      ]
     },
     {
       "id": "p2-sedatives-aed-017",
@@ -948,54 +969,6 @@
       "tags": [
         "uses",
         "contraindications"
-      ],
-      "level": 2
-    },
-    {
-      "id": "p2-sedatives-aed-054",
-      "type": "shortnote",
-      "front": "Short note: Non-benzodiazepine hypnotics",
-      "sections": [
-        {
-          "h": "Examples",
-          "points": [
-            "Zolpidem and zaleplon"
-          ]
-        },
-        {
-          "h": "Action",
-          "points": [
-            "Structurally non-BZD but selective BZD-receptor agonists, with high affinity for the alpha1 subunit isoform",
-            "Give selective hypnotic and amnesic effect"
-          ]
-        },
-        {
-          "h": "Clinical",
-          "points": [
-            "Zolpidem: pronounced hypnotic effect; sleep latency is short",
-            "Used for insomnia"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch29"
-      ],
-      "subtopic": "p2-sedatives-aed-hypnotics",
-      "tags": [
-        "uses"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "RGUHS",
-          "year": 2022,
-          "marks": 10
-        },
-        {
-          "university": "RGUHS",
-          "year": 2010,
-          "marks": 10
-        }
       ],
       "level": 2
     },
@@ -1401,6 +1374,12 @@
       "front": "Short note: Drugs used in absence seizures",
       "sections": [
         {
+          "h": "Seizure type",
+          "points": [
+            "Absence (petit mal) seizures: prevalent in children, last about half a minute, momentary loss of consciousness only"
+          ]
+        },
+        {
           "h": "Drugs",
           "points": [
             "Sodium valproate: drug of choice, and more often used than ethosuximide",
@@ -1440,49 +1419,6 @@
           "university": "KNRUHS",
           "year": 2025,
           "marks": 10
-        }
-      ],
-      "tags": [
-        "classification",
-        "uses",
-        "adr"
-      ],
-      "subtopic": "p2-sedatives-aed-epilepsy-basics",
-      "status": "draft",
-      "level": 2
-    },
-    {
-      "id": "p2-sedatives-aed-053",
-      "type": "shortnote",
-      "front": "Short note: Drugs used in absence seizures",
-      "sections": [
-        {
-          "h": "Seizure type",
-          "points": [
-            "Absence (petit mal) seizures: prevalent in children, last about half a minute, momentary loss of consciousness only"
-          ]
-        },
-        {
-          "h": "Drug of choice",
-          "points": [
-            "Ethosuximide is clinically effective only in absence seizures",
-            "Mechanism: inhibits T-type Ca2+ channels in thalamic neurones (thalamocortical system)"
-          ]
-        }
-      ],
-      "refs": [
-        "KDT8 ch30"
-      ],
-      "subtopic": "p2-sedatives-aed-epilepsy-basics",
-      "tags": [
-        "mechanism"
-      ],
-      "status": "draft",
-      "pyq": [
-        {
-          "university": "KNRUHS",
-          "year": 2025,
-          "marks": 10
         },
         {
           "university": "RGUHS",
@@ -1490,6 +1426,13 @@
           "marks": 10
         }
       ],
+      "tags": [
+        "uses",
+        "mechanism",
+        "adr"
+      ],
+      "subtopic": "p2-sedatives-aed-epilepsy-basics",
+      "status": "draft",
       "level": 2
     },
     {

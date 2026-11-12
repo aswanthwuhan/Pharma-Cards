@@ -117,10 +117,23 @@ const num = (v: unknown) => typeof v === "number" && Number.isFinite(v);
 const time = (v: unknown) => (typeof v === "string" || typeof v === "number") && Number.isFinite(new Date(v).getTime());
 const obj = (v: unknown): v is Record<string, any> => !!v && typeof v === "object" && !Array.isArray(v);
 /** Known settings with a constrained value; other keys pass through. */
+const oneOf = (...opts: string[]) => (v: unknown) => opts.includes(v as string);
 const SETTING_OK: Record<string, (v: unknown) => boolean> = {
   examDate: (v) => v == null || v === "" || (typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v) && time(v)),
+  examName: (v) => typeof v === "string",
   newPerDay: (v) => Number.isInteger(v) && (v as number) >= 0 && (v as number) <= 500,
   retention: (v) => num(v) && (v as number) >= 0.8 && (v as number) <= 0.97,
+  swipeBand: (v) => num(v) && (v as number) >= 24 && (v as number) <= 400,
+  swipeEdge: oneOf("bottom", "top", "both"),
+  theme: oneOf("dark", "light", "auto"),
+  motion: oneOf("full", "system", "reduced"),
+  essayStyle: oneOf("ladder", "rail"),
+  palette: oneOf("petrol", "ocean", "plum", "graphite", "sepia"),
+  appIcon: (v) => typeof v === "string",
+  showDrafts: (v) => typeof v === "boolean",
+  swipe: (v) => typeof v === "boolean",
+  swipeZoneVisible: (v) => typeof v === "boolean",
+  haptics: (v) => typeof v === "boolean",
 };
 const FSRS_NUMS = ["stability", "difficulty", "scheduled_days", "reps", "lapses", "state"];
 
@@ -141,7 +154,7 @@ const VALID: Record<BackupTable, (r: any) => boolean> = {
 
 /**
  * Merge a backup into this device. Keyed rows (schedules, notes, bookmarks, settings, overrides,
- * custom cards) replace rows with the same key. History rows (reviews, snapshots) are appended with
+ * custom cards) replace rows with the same key, except a card schedule or note the device changed at or after the backup's, which is kept. History rows (reviews, snapshots) are appended with
  * fresh ids, so local history is never overwritten, and rows already present are skipped.
  */
 export async function importBackup(data: Record<string, unknown>): Promise<{ added: number; invalid: number; duplicates: number }> {
@@ -167,14 +180,31 @@ export async function importBackup(data: Record<string, unknown>): Promise<{ add
     });
 
   await db.transaction("rw", BACKUP_TABLES.map((t) => db.table(t)), async () => {
-    const states = good("cardStates").map((r) => ({
+    const incoming = good("cardStates").map((r) => ({
       ...r,
       fsrs: { ...r.fsrs, due: new Date(r.fsrs.due), last_review: r.fsrs.last_review == null ? undefined : new Date(r.fsrs.last_review) },
     }));
+    // Skip a backup schedule when this device's copy was reviewed at or after it (a missing last_review counts as 0).
+    const at = (d?: Date | null) => (d ? new Date(d).getTime() : 0);
+    const local = await db.cardStates.bulkGet(incoming.map((r) => r.cardId));
+    const states = incoming.filter((r, i) => {
+      const newer = !!local[i] && at(local[i]!.fsrs.last_review) >= at(r.fsrs.last_review);
+      if (newer) duplicates++;
+      return !newer;
+    });
+    // Skip a backup note when this device's note was edited at or after it (a missing updatedAt counts as 0).
+    const stamp = (n?: { updatedAt?: unknown }) => (n && num(n.updatedAt) ? (n.updatedAt as number) : 0);
+    const notes = good("notes");
+    const localNotes = await db.notes.bulkGet(notes.map((r) => r.cardId));
+    const keptNotes = notes.filter((r, i) => {
+      const newer = !!localNotes[i] && stamp(localNotes[i]) >= stamp(r);
+      if (newer) duplicates++;
+      return !newer;
+    });
     for (const [t, rows] of [
       ["cardStates", states],
       ["bookmarks", good("bookmarks")],
-      ["notes", good("notes")],
+      ["notes", keptNotes],
       ["settings", good("settings")],
       ["overrides", good("overrides")],
       ["customCards", good("customCards")],

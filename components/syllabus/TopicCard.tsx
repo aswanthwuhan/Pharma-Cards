@@ -19,10 +19,12 @@ interface Props {
   onToggle: () => void;
   /** Subtopic names that matched the active search. */
   matched: string[];
+  /** The card deck is still loading, so the count is not known yet. */
+  loading?: boolean;
 }
 
 /** One topic in the syllabus list: eyebrow, serif title, capsule meter, and a due/status column. */
-export function TopicCard({ topic, cardCount, mastery, subtopicMastery, seen, due, open, onToggle, matched }: Props) {
+export function TopicCard({ topic, cardCount, mastery, subtopicMastery, seen, due, open, onToggle, matched, loading = false }: Props) {
   const label = mastery?.label ?? "unassessed";
   const weak = label === "weak";
   const refs = (topic.nmc.length ? ` · NMC ${topic.nmc.join(", ")}` : "") + (topic.refs.length ? ` · ${topic.refs.join(", ")}` : "");
@@ -31,9 +33,12 @@ export function TopicCard({ topic, cardCount, mastery, subtopicMastery, seen, du
   if (!cardCount) {
     return (
       <li className="sheet border-dashed px-4 py-4 text-ink-soft">
-        <p className="eyebrow min-w-0 truncate">0 cards{refs}</p>
+        <p className="eyebrow min-w-0 truncate">
+          {loading ? "Loading…" : "0 cards"}
+          {refs}
+        </p>
         <p className="mt-1 font-serif text-lg leading-snug text-ink-soft">{topic.title}</p>
-        <p className="mt-3 font-mono text-xs text-ink-soft">No cards yet</p>
+        {!loading && <p className="mt-3 font-mono text-xs text-ink-soft">No cards yet</p>}
       </li>
     );
   }

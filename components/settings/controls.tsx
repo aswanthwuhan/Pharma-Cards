@@ -49,15 +49,16 @@ export function Row({ title, description, control }: { title: string; descriptio
 }
 
 /** Real switch: 44px hit area around a 48x28 track. */
-export function Toggle({ checked, onChange, label }: { checked: boolean; onChange: (v: boolean) => void; label: string }) {
+export function Toggle({ checked, onChange, label, disabled }: { checked: boolean; onChange: (v: boolean) => void; label: string; disabled?: boolean }) {
   return (
     <button
       type="button"
       role="switch"
       aria-checked={checked}
       aria-label={label}
+      disabled={disabled}
       onClick={() => onChange(!checked)}
-      className="flex min-h-11 min-w-14 shrink-0 items-center justify-center rounded-full"
+      className="flex min-h-11 min-w-14 shrink-0 items-center justify-center rounded-full disabled:opacity-40"
     >
       <span
         aria-hidden="true"
@@ -82,11 +83,13 @@ export function Segmented<T extends string>({
   value,
   options,
   onChange,
+  disabled,
 }: {
   label: string;
   value: T;
   options: { value: T; label: string }[];
   onChange: (v: T) => void;
+  disabled?: boolean;
 }) {
   const refs = useRef<(HTMLButtonElement | null)[]>([]);
   // Roving tabindex: only the selected option is in the Tab order (first one if none matches).
@@ -104,13 +107,14 @@ export function Segmented<T extends string>({
             type="button"
             role="radio"
             aria-checked={on}
+            disabled={disabled}
             tabIndex={on || (!anyOn && idx === 0) ? 0 : -1}
             onClick={() => onChange(o.value)}
             onKeyDown={(e) => {
               const n = radioKeyNav(e, idx, options.length, (i) => onChange(options[i].value));
               if (n !== null) refs.current[n]?.focus();
             }}
-            className={`min-h-11 rounded-full px-5 text-sm font-semibold transition-colors duration-150 ${
+            className={`min-h-11 rounded-full px-5 text-sm font-semibold transition-colors duration-150 disabled:opacity-40 ${
               on ? "bg-teal text-on-teal" : "text-ink-soft hover:text-ink"
             }`}
           >

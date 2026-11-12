@@ -64,6 +64,7 @@ for (const file of readdirSync(subDir).filter((f) => f.endsWith(".json")).sort()
 
 const ids = new Set();
 const cards = [];
+const frontsByTopic = new Map(); // topicId -> Map(normalised front -> first card id)
 for (const file of readdirSync(deckDir).filter((f) => f.endsWith(".json")).sort()) {
   const deck = readJson(join(deckDir, file));
   if (!deck) continue;
@@ -78,10 +79,17 @@ for (const file of readdirSync(deckDir).filter((f) => f.endsWith(".json")).sort(
     ids.add(c.id);
     if (!TYPES.has(c.type)) errors.push(`${where}: bad type ${c.type}`);
     if (blank(c.front)) errors.push(`${where}: missing front`);
+    // Same question twice in one topic confuses students; different topics may share a question.
+    const frontKey = blank(c.front) ? null : c.front.trim().toLowerCase();
+    const topicFronts = frontsByTopic.get(deck.topicId) ?? new Map();
+    frontsByTopic.set(deck.topicId, topicFronts);
+    if (frontKey && topicFronts.has(frontKey)) errors.push(`${where}: duplicate front, same as ${topicFronts.get(frontKey)}`);
+    else if (frontKey) topicFronts.set(frontKey, c.id);
     if (c.type === "basic" && blank(c.back)) errors.push(`${where}: basic needs back`);
-    if ((c.type === "shortnote" || c.type === "essay") && !c.sections?.length)
+    if ((c.type === "shortnote" || c.type === "essay") && !(Array.isArray(c.sections) && c.sections.length))
       errors.push(`${where}: ${c.type} needs sections`);
-    for (const sec of c.sections ?? []) if (!Array.isArray(sec?.points)) errors.push(`${where}: section "${sec?.h}" needs a points array`);
+    if (c.sections !== undefined && !Array.isArray(c.sections)) errors.push(`${where}: sections must be an array`);
+    for (const sec of Array.isArray(c.sections) ? c.sections : []) if (!Array.isArray(sec?.points)) errors.push(`${where}: section "${sec?.h}" needs a points array`);
     errors.push(...commonErrors(c, where));
     if (c.type === "cloze" && !/\{\{.+?\}\}/.test(c.text ?? "")) errors.push(`${where}: cloze needs {{blanks}}`);
     if (subIds.size && !subIds.has(c.subtopic)) errors.push(`${where}: unknown subtopic ${c.subtopic}`);

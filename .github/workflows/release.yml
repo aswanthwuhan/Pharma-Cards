@@ -28,6 +28,11 @@ jobs:
       - name: Tag matches package.json version
         if: startsWith(github.ref, 'refs/tags/v')
         run: test "${GITHUB_REF_NAME#v}" = "$(node -p "require('./package.json').version")"
+      - name: Changelog and Android version match the tag
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          grep -q "version: \"${GITHUB_REF_NAME#v}\"" lib/changelog.ts
+          grep -q "versionName \"${GITHUB_REF_NAME#v}\"" android/app/build.gradle
       - run: npm ci
       - run: npm test # pretest regenerates content/all.json
 

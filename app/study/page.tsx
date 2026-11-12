@@ -33,7 +33,7 @@ function Study() {
   const params = useSearchParams();
   const router = useRouter();
   const rawMode = params.get("mode") as StudyMode | null;
-  const mode: StudyMode = rawMode && rawMode in TITLES ? rawMode : "daily";
+  const mode: StudyMode = rawMode && Object.hasOwn(TITLES, rawMode) ? rawMode : "daily";
   const topic = params.get("topic");
   const subtopic = params.get("subtopic");
   const rawTag = params.get("tag") as Tag | null;
@@ -42,7 +42,8 @@ function Study() {
   const size = Number.isInteger(n) && n > 0 ? n : undefined;
   const types = params.get("types")?.split(",").filter(Boolean);
   const pyqOnly = params.get("pyq") === "1";
-  const direction = (params.get("dir") ?? "forward") as RapidDirection;
+  const rawDir = params.get("dir");
+  const direction: RapidDirection = rawDir === "reverse" || rawDir === "mixed" ? rawDir : "forward";
   const [cards, setCards] = useState<FlashCard[]>();
 
   useEffect(() => {

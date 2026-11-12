@@ -3,7 +3,7 @@
 import { useLiveQuery } from "dexie-react-hooks";
 import { cardError } from "./cardCheck";
 import { db, getSetting, setSetting, type CardState } from "./db";
-import { groupMastery, groupWeight, HYSTERESIS, LABEL_THRESHOLDS, labelFor, rollupMastery, type MasteryLabel, type TopicMastery } from "./mastery";
+import { groupMastery, groupWeight, HYSTERESIS, LABEL_THRESHOLDS, labelFor, rollupMastery, TARGET_MS_BY_TYPE, type MasteryLabel, type TopicMastery } from "./mastery";
 import { recallProbability } from "./srs";
 import { shuffle, stratifiedSample, weakPriority } from "./sampler";
 import { isOpen, levelOrder, reachedTop, unlockedLevels, type LevelSignal } from "./levels";
@@ -14,7 +14,9 @@ let bundledCache: Promise<FlashCard[]> | null = null;
 
 /** The 10 MB deck is kept out of the initial JS chunk and loaded on first use. */
 function loadBundled(): Promise<FlashCard[]> {
-  if (!bundledCache) bundledCache = import("@/content/all.json").then((m) => m.default as FlashCard[]);
+  // Normalised once here; callers share these objects, so they must not mutate them.
+  if (!bundledCache)
+    bundledCache = import("@/content/all.json").then((m) => (m.default as FlashCard[]).map((c) => ({ ...c, status: c.status ?? "draft" })));
   return bundledCache;
 }
 
@@ -22,7 +24,7 @@ function loadBundled(): Promise<FlashCard[]> {
 export async function loadAllCards(): Promise<FlashCard[]> {
   const [custom, overrides, bundled] = await Promise.all([db.customCards.toArray(), db.overrides.toArray(), loadBundled()]);
   const byId = new Map<string, FlashCard>();
-  for (const c of bundled) byId.set(c.id, { ...c, status: c.status ?? "draft" });
+  for (const c of bundled) byId.set(c.id, c);
   // Imported cards and edits are skipped if they would leave a card that cannot render.
   for (const c of custom) if (!cardError(c)) byId.set(c.id, { ...c, status: c.status ?? "draft" });
   for (const o of overrides) {
@@ -45,6 +47,25 @@ export function useAllCards() {
 
 export function useStudyCards() {
   return useLiveQuery(loadStudyCards, [], undefined);
+}
+
+let bundledApproved: Promise<boolean> | null = null;
+
+/** Whether any card has been approved yet. Cheap: skips the full merge that loadAllCards does. */
+export function useAnyApproved() {
+  return useLiveQuery(
+    async () => {
+      if (!bundledApproved) bundledApproved = loadBundled().then((xs) => xs.some((c) => c.status === "approved"));
+      if (await bundledApproved) return true;
+      const [o, c] = await Promise.all([
+        db.overrides.filter((r) => r.status === "approved").count(),
+        db.customCards.filter((r) => r.status === "approved").count(),
+      ]);
+      return o + c > 0;
+    },
+    [],
+    false,
+  );
 }
 
 /** Weak/strong at three levels: topic (rolled up from subtopics), subtopic, and question type. */
@@ -73,8 +94,12 @@ export async function computeMastery(cards?: FlashCard[]): Promise<MasteryReport
   // Last stored labels feed the hysteresis, so a group near a threshold keeps its label.
   const memory = await getSetting<Record<string, MasteryLabel>>("masteryLabels", {});
   const signal = new Map<string, LevelSignal>(states.map((s) => [s.cardId, { lastRating: s.lastRating, recall: recall.get(s.cardId) }]));
-  const group = (key: string, ids: string[]) =>
-    groupMastery(key, ids, ids.flatMap((id) => reviewsByCard.get(id) ?? []), recall, memory[key]);
+  const byId = new Map(list.map((c) => [c.id, c]));
+  const group = (key: string, ids: string[]) => {
+    const types = ids.map((id) => TARGET_MS_BY_TYPE[byId.get(id)?.type ?? ""] ?? 20_000);
+    const targetMs = types.reduce((a, b) => a + b, 0) / (types.length || 1);
+    return groupMastery(key, ids, ids.flatMap((id) => reviewsByCard.get(id) ?? []), recall, memory[key], targetMs);
+  };
 
   const subtopic = new Map<string, TopicMastery>();
   const topic = new Map<string, TopicMastery>();
@@ -107,10 +132,11 @@ export async function computeMastery(cards?: FlashCard[]): Promise<MasteryReport
     const ids = list.filter((c) => c.tags?.includes(tg)).map((c) => c.id);
     if (ids.length) tag.set(tg, group(tg, ids));
   }
-  // Merge, so a partial list (e.g. one mode's cards) does not erase other groups' labels.
+  // Merge, so a partial list does not erase other groups' labels.
   const next: Record<string, MasteryLabel> = { ...memory };
   for (const m of [...topic.values(), ...subtopic.values(), ...tag.values()]) if (m.label !== "unassessed") next[m.topicId] = m.label;
-  if (JSON.stringify(next) !== JSON.stringify(memory)) {
+  // Only a full-deck call (no `cards` argument) persists; a filtered session would store labels from partial data.
+  if (!cards && JSON.stringify(next) !== JSON.stringify(memory)) {
     // Persist outside the live-query read: a write here would invalidate the query that produced it.
     setTimeout(() => void setSetting("masteryLabels", next), 0);
   }
@@ -144,6 +170,17 @@ export interface QueueOptions {
   direction?: RapidDirection; // rapid mode only
 }
 
+/** Some questions exist in two topics with the same front; keep the first so a session never repeats one. */
+const uniqueFronts = (xs: FlashCard[]) => {
+  const seen = new Set<string>();
+  return xs.filter((c) => {
+    const k = c.front.trim().toLowerCase();
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+};
+
 /** Builds the card list for a study session. */
 export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
   if (opts.mode === "rapid") return buildRapidQueue(opts);
@@ -167,7 +204,7 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
     case "diagnostic":
       // Even spread over every subtopic, fresh cards first, so it measures the whole syllabus.
       return restore(
-        stratifiedSample(cards.map(bySubtopic), opts.size ?? 100, () => 1, Math.random, (c) => [
+        stratifiedSample(uniqueFronts(cards).map(bySubtopic), opts.size ?? 100, () => 1, Math.random, (c) => [
           ...shuffle(c.filter((x) => !states.has(x.id))),
           ...shuffle(c.filter((x) => states.has(x.id))),
         ]),
@@ -175,22 +212,23 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
 
     case "random": {
       const { subtopic } = await computeMastery(cards);
-      return restore(stratifiedSample(cards.map(bySubtopic), opts.size ?? 50, (s) => groupWeight(subtopic.get(s))));
+      return restore(stratifiedSample(uniqueFronts(cards).map(bySubtopic), opts.size ?? 50, (s) => groupWeight(subtopic.get(s))));
     }
 
     case "weak": {
+      const subKey = (c: FlashCard) => c.subtopic ?? `${c.topicId}-other`;
       const { subtopic } = await computeMastery(cards);
       const weakSubs = new Set(
         [...subtopic.values()].filter((m) => m.label === "weak" || m.label === "moderate").map((m) => m.topicId),
       );
-      const pool = cards.filter((c) => c.subtopic && weakSubs.has(c.subtopic));
+      const pool = uniqueFronts(cards.filter((c) => weakSubs.has(subKey(c))));
       if (!pool.length) return [];
       const scored = shuffle(pool).map((c) => {
         const s = states.get(c.id);
         return { c, p: weakPriority({ lastRating: s?.lastRating, recall: recallProbability(s, now) }) };
       });
       // Highest priority first; ties go to the weakest subtopic.
-      scored.sort((a, b) => b.p - a.p || (subtopic.get(a.c.subtopic!)?.score ?? 50) - (subtopic.get(b.c.subtopic!)?.score ?? 50));
+      scored.sort((a, b) => b.p - a.p || (subtopic.get(subKey(a.c))?.score ?? 50) - (subtopic.get(subKey(b.c))?.score ?? 50));
       // Rebuild foundations first: easier weak cards before the advanced ones.
       return levelOrder(shuffle(scored.slice(0, opts.size ?? 30).map((x) => x.c)));
     }
@@ -206,14 +244,17 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       const due = shuffle(cards.filter((c) => (states.get(c.id)?.due ?? Infinity) <= nowMs));
       const unseen = levelOrder(shuffle(cards.filter((c) => !states.has(c.id))));
       const rest = shuffle(cards.filter((c) => states.has(c.id) && states.get(c.id)!.due > nowMs));
-      return [...due, ...unseen, ...rest].slice(0, opts.size ?? cards.length);
+      return uniqueFronts([...due, ...unseen, ...rest]).slice(0, opts.size ?? cards.length);
     }
 
     case "daily":
     default: {
-      const due = cards
+      const dueAll = cards
         .filter((c) => (states.get(c.id)?.due ?? Infinity) <= now.getTime())
         .sort((a, b) => states.get(a.id)!.due - states.get(b.id)!.due);
+      const due = dueAll.slice(0, MAX_DUE_PER_SESSION);
+      // A backlog takes the whole session, so no new cards until it is caught up.
+      const backlog = dueAll.length > MAX_DUE_PER_SESSION;
       const reviewedToday = await db.reviews.where("at").aboveOrEqual(startOfDay()).toArray();
       const doneToday = new Set(reviewedToday.filter((r) => r.mode === "daily-new").map((r) => r.cardId));
       const newDoneToday = doneToday.size;
@@ -223,12 +264,12 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       // New cards only from levels the student has unlocked in each subtopic.
       const unlocked = unlockedLevels(cards, levelSignals([...states.values()], now));
       const fresh = stratifiedSample(
-        cards.filter((c) => !states.has(c.id) && isOpen(c, unlocked)).map(bySubtopic),
-        Math.max(0, newLimit - newDoneToday),
+        uniqueFronts(cards.filter((c) => !states.has(c.id) && isOpen(c, unlocked))).map(bySubtopic),
+        backlog ? 0 : Math.max(0, newLimit - newDoneToday),
         (s) => groupWeight(subtopic.get(s)),
       );
       // New cards run basic to advanced, so each session has a flow.
-      return [...due, ...levelOrder(restore(fresh))];
+      return uniqueFronts([...due, ...levelOrder(restore(fresh))]);
     }
   }
 }
@@ -246,6 +287,12 @@ export function startOfDay(d = new Date()) {
   return x.getTime();
 }
 
+/** Most new cards in one day; more than this is not learnable, so the planner runs behind instead. */
+export const MAX_NEW_PER_DAY = 100;
+
+/** Most due reviews in one session; a bigger backlog is caught up over later sessions. */
+export const MAX_DUE_PER_SESSION = 150;
+
 /** Exam planner: spread unseen cards over the days left, keeping the final 10 days for revision. */
 /** `seen` holds the ids that have a state; only those among `cards` count, so Rapid/`~r` states are ignored. */
 export async function dailyNewTarget(cards: FlashCard[], seen: { has(id: string): boolean }): Promise<number> {
@@ -258,7 +305,7 @@ export async function dailyNewTarget(cards: FlashCard[], seen: { has(id: string)
   if (!Number.isFinite(days)) return fallback; // malformed date
   // Revision window (or exam passed): fall back to the normal daily limit instead of 0 forever.
   if (days <= 0) return Math.min(fallback, unseen);
-  return Math.max(5, Math.ceil(unseen / days));
+  return Math.min(MAX_NEW_PER_DAY, Math.max(5, Math.ceil(unseen / days)));
 }
 
 

@@ -188,7 +188,12 @@ if (!gotLock) {
   });
 
   app.whenReady().then(() => {
-    Menu.setApplicationMenu(null);
+    // On macOS the Edit and App menus carry Cmd+C/V/X/A/Z and Cmd+Q, so keep them there.
+    if (process.platform === 'darwin') {
+      Menu.setApplicationMenu(Menu.buildFromTemplate([{ role: 'appMenu' }, { role: 'editMenu' }, { role: 'viewMenu' }, { role: 'windowMenu' }]));
+    } else {
+      Menu.setApplicationMenu(null);
+    }
 
     protocol.handle(SCHEME, async (request) => {
       const { pathname } = new URL(request.url);

@@ -41,6 +41,17 @@ describe("mastery", () => {
     expect(weightedAccuracy(improving)!).toBeGreaterThan(weightedAccuracy(declining)!);
   });
 
+  it("a big group remembers its older answers", () => {
+    const reviews = Array.from({ length: 60 }, (_, i) => rev(i < 30 ? 1 : 3, i));
+    expect(weightedAccuracy(reviews)!).toBeLessThan(0.65);
+  });
+
+  it("a longer target time does not penalise slow answers", () => {
+    const reviews = ids.map((_, i) => rev(3, i, 60_000));
+    const recall = new Map(ids.map((id) => [id, 0.8]));
+    expect(topicMastery("t", ids, reviews, recall, undefined, 60_000).score!).toBeGreaterThan(topicMastery("t", ids, reviews, recall).score!);
+  });
+
   it("thresholds", () => {
     expect(labelFor(80)).toBe("strong");
     expect(labelFor(60)).toBe("moderate");

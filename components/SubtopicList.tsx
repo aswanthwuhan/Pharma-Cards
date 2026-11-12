@@ -49,7 +49,7 @@ export function SubtopicList({
             <span className="min-w-0">
               <span className="line-clamp-2 text-[15px] leading-snug">{s.title}</span>
               <span className="font-mono text-[11px] text-ink-soft">
-                {s.m ? `${Math.round(s.m.coverage * s.m.cards)} of ${s.m.cards} cards seen` : "No cards yet"}
+                {s.m ? `${Math.round(s.m.coverage * s.m.cards)} of ${s.m.cards} card${s.m.cards === 1 ? "" : "s"} seen` : "No cards yet"}
                 {` · level ${s.level} of ${MAX_LEVEL} open`}
               </span>
             </span>

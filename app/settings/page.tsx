@@ -50,14 +50,14 @@ function CustomColors({ s }: { s: Settings }) {
     });
     return () => clearTimeout(id);
   }, [s.theme, s.palette, JSON.stringify(custom)]); // eslint-disable-line react-hooks/exhaustive-deps
-  const timer = useRef<ReturnType<typeof setTimeout>>(undefined);
+  const timers = useRef<Partial<Record<CustomColor, ReturnType<typeof setTimeout>>>>({});
   // dragging fires many input events: preview the colour at once, save once the drag pauses
   const [draft, setDraft] = useState<Partial<Record<CustomColor, string>>>({});
   const preview = (k: CustomColor, v: string) => {
     setDraft((d) => ({ ...d, [k]: v }));
     document.documentElement.style.setProperty(CUSTOM_COLORS[k].cssVar, v);
-    clearTimeout(timer.current);
-    timer.current = setTimeout(() => set(k, v), 250);
+    clearTimeout(timers.current[k]);
+    timers.current[k] = setTimeout(() => set(k, v), 250);
   };
   const set = (k: CustomColor, v?: string) => {
     const next = { ...custom };
@@ -214,8 +214,8 @@ export default function SettingsPage() {
                     aria-label="Exam date"
                     className="min-h-11 rounded-lg border border-rule bg-well px-3 font-mono text-ink"
                     value={s.examDate ?? ""}
-                    valid={(v) => /^\d{4}-\d{2}-\d{2}$/.test(v)}
-                    onCommit={(v) => updateSetting("examDate", v)}
+                    valid={(v) => v === "" || /^\d{4}-\d{2}-\d{2}$/.test(v)}
+                    onCommit={(v) => updateSetting("examDate", v || null)}
                   />
                   {s.examDate ? (
                     <>
@@ -334,13 +334,16 @@ export default function SettingsPage() {
                     { value: "both", label: "Both" },
                   ]}
                   onChange={(v) => updateSetting("swipeEdge", v)}
+                  disabled={!s.swipe}
                 />
               }
             />
             <Row
               title="Show swipe zone"
               description="Draw a dashed outline around the zone. Off keeps it invisible."
-              control={<Toggle label="Show swipe zone" checked={s.swipeZoneVisible} onChange={(v) => updateSetting("swipeZoneVisible", v)} />}
+              control={
+                <Toggle label="Show swipe zone" checked={s.swipeZoneVisible} onChange={(v) => updateSetting("swipeZoneVisible", v)} disabled={!s.swipe} />
+              }
             />
             <Row
               title="Haptic feedback"

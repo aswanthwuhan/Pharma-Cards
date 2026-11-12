@@ -5,6 +5,21 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.15",
+    changes: [
+      "A card you mark Forgot now comes back once at the end of the same session, so you re-test it before you stop",
+      "Works offline on the first launch after installing or updating the web app",
+      "Restoring a backup no longer overwrites newer progress or notes on this device",
+      "Today shows the same number of new cards the session gives you; the exam planner never asks for more than 100 new cards a day",
+      "The same question is no longer asked twice in one session; six duplicate cards merged",
+      "Mastery scores no longer mark you down for taking longer on short notes and essays",
+      "After a missed stretch, a daily session holds at most 150 reviews and no new cards until you catch up",
+      "The Unreviewed draft label is hidden until some cards have been reviewed and approved",
+      "macOS: copy, paste and undo work in notes again",
+      "Keyboard shortcuts pause while a dialog is open; bigger touch targets; small wording and loading-state fixes",
+    ],
+  },
+  {
     version: "0.5.14",
     changes: [
       "New cards for the last past-paper gaps: insulin resistance, chemical carcinogenesis, doping in sport, organ-on-a-chip, mitochondrial medicine, childhood asthma, nanomedicine, oligospermia, hyperpigmentation, clinical toxicity, problems in clinical trials and vasopeptidase inhibitors",

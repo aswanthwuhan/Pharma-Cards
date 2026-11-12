@@ -13,8 +13,8 @@ const NAMES: Record<OverviewLabel, string> = {
 };
 const ORDER: OverviewLabel[] = ["strong", "moderate", "weak", "unassessed"];
 
-/** Total cards, plus a segmented bar of subtopics by strength. */
-export function OverviewPanel({ totalCards, counts }: { totalCards: number; counts: OverviewCounts }) {
+/** Total cards, plus a segmented bar of subtopics by strength. `totalCards` is undefined while loading. */
+export function OverviewPanel({ totalCards, counts }: { totalCards?: number; counts: OverviewCounts }) {
   const subtopics = ORDER.reduce((sum, l) => sum + counts[l], 0);
   return (
     <section aria-labelledby="syllabus-overview" className="sheet space-y-5 p-5">
@@ -23,14 +23,16 @@ export function OverviewPanel({ totalCards, counts }: { totalCards: number; coun
           Overview
         </h2>
         <p className="flex items-baseline gap-2">
-          <span className="font-serif text-5xl leading-none tabular-nums">{totalCards}</span>
-          <span className="text-sm text-ink-soft">{totalCards === 1 ? "card" : "cards"} in the syllabus</span>
+          <span className="font-serif text-5xl leading-none tabular-nums">{totalCards ?? "–"}</span>
+          <span className="text-sm text-ink-soft">
+            {totalCards === undefined ? "Loading…" : `${totalCards === 1 ? "card" : "cards"} in the syllabus`}
+          </span>
         </p>
       </div>
 
       <div className="space-y-3">
         <p className="text-sm text-ink-soft">
-          <span className="font-mono tabular-nums text-ink">{subtopics}</span> subtopics, by how well you know them
+          <span className="font-mono tabular-nums text-ink">{subtopics}</span> {subtopics === 1 ? "subtopic" : "subtopics"}, by how well you know them
         </p>
         <div
           role="img"

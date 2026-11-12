@@ -33,7 +33,7 @@ export function UpdateCheck() {
           Update available
         </h2>
         <p className="mt-2 text-sm text-ink-soft">
-          Version {latest} is out; you have {APP_VERSION}. Download the new APK and install it over this one. Your progress is kept.
+          Version {latest} is out; you have {APP_VERSION}. Download the new version and install it over this one. Your progress is kept.
         </p>
         <div className="mt-6 flex justify-end gap-3">
           <button type="button" onClick={close} className="btn min-h-11 border border-rule bg-sheet px-4 text-sm text-ink-soft">

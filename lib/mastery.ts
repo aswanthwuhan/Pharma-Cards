@@ -18,11 +18,12 @@ export interface TopicMastery {
 }
 
 const RATING_VALUE: Record<number, number> = { 1: 0, 2: 0.5, 3: 0.85, 4: 1 };
-const DECAY = 0.85; // weight multiplier per older review
+const DECAY = 0.85; // weight multiplier per older review, per 10 distinct cards in the group (see weightedAccuracy)
 const PRIOR_MEAN = 0.5; // Bayesian prior: unknown topics start at 50%
 const PRIOR_WEIGHT = 3; // ...worth 3 reviews, so 2 lucky answers can't mark a topic "strong"
 const MIN_REVIEWS = 3;
 const TARGET_MS = 20_000; // a comfortable time per card
+export const TARGET_MS_BY_TYPE: Record<string, number> = { basic: 20_000, cloze: 20_000, rapid: 8_000, shortnote: 60_000, essay: 110_000 };
 
 export const LABEL_THRESHOLDS = { strong: 75, moderate: 50 };
 
@@ -39,14 +40,15 @@ export function labelFor(score: number | null, prev?: MasteryLabel): MasteryLabe
   return "weak";
 }
 
-/** Recency-weighted accuracy, shrunk toward the prior when there is little data. */
+/** Recency-weighted accuracy, shrunk toward the prior when there is little data. Bigger groups decay slower, so they remember more answers. */
 export function weightedAccuracy(reviews: ReviewEvent[]): number | null {
   if (!reviews.length) return null;
   const sorted = [...reviews].sort((a, b) => b.at - a.at); // newest first
+  const span = Math.max(10, new Set(reviews.map((r) => r.cardId)).size) / 10;
   let num = PRIOR_MEAN * PRIOR_WEIGHT;
   let den = PRIOR_WEIGHT;
   sorted.forEach((r, i) => {
-    const w = Math.pow(DECAY, i);
+    const w = Math.pow(DECAY, i / span);
     num += RATING_VALUE[r.rating] * w;
     den += w;
   });
@@ -65,6 +67,7 @@ function median(xs: number[]) {
  * @param reviews    the topic's review history
  * @param recall     cardId -> current FSRS recall probability (null = never seen)
  * @param prev       last stored label, for hysteresis
+ * @param targetMs   comfortable answer time for this group (long-answer types need more)
  */
 export function groupMastery(
   topicId: string,
@@ -72,6 +75,7 @@ export function groupMastery(
   reviews: ReviewEvent[],
   recall: Map<string, number | null>,
   prev?: MasteryLabel,
+  targetMs: number = TARGET_MS,
 ): TopicMastery {
   const seen = cardIds.filter((id) => recall.get(id) != null);
   const coverage = cardIds.length ? seen.length / cardIds.length : 0;
@@ -85,8 +89,8 @@ export function groupMastery(
 
   // Slow answers lower the score a little (up to 5 points); fast answers raise it a little.
   // Zero or missing timings (bad data) are ignored.
-  const med = median(reviews.map((r) => r.ms).filter((ms) => Number.isFinite(ms) && ms > 0)) ?? TARGET_MS;
-  const speedAdj = Math.max(-0.05, Math.min(0.05, ((TARGET_MS - med) / TARGET_MS) * 0.05));
+  const med = median(reviews.map((r) => r.ms).filter((ms) => Number.isFinite(ms) && ms > 0)) ?? targetMs;
+  const speedAdj = Math.max(-0.05, Math.min(0.05, ((targetMs - med) / targetMs) * 0.05));
 
   const raw = 0.55 * accuracy + 0.45 * (retention ?? accuracy) + speedAdj;
   const score = Math.round(Math.max(0, Math.min(1, raw)) * 100);

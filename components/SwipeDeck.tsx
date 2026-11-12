@@ -151,6 +151,7 @@ export function SwipeDeck({
 
   /** Coast a fast scroll flick to a stop, like native scrolling. */
   function coast(velocity: number) {
+    if (reduce) return;
     const el = scroller.current;
     if (!el || Math.abs(velocity) < 80) return;
     const start = el.scrollTop;
@@ -305,7 +306,7 @@ export function SwipeDeck({
           <div
             ref={scroller}
             role="region"
-            aria-label="Answer"
+            aria-label={revealed ? "Answer" : "Question"}
             tabIndex={0}
             data-card-scroller
             className="min-h-0 flex-1 overflow-y-auto overscroll-contain"
@@ -321,7 +322,7 @@ export function SwipeDeck({
 
           {/* Visible flip control: the card itself is not a fake button, so its text stays readable. */}
           <div className="flex shrink-0 justify-center pt-1 pb-2">
-            <button type="button" onClick={onFlip} className="btn-chip">
+            <button type="button" data-flip onClick={onFlip} className="btn-chip">
               {revealed ? "Flip back" : "Show answer"}
             </button>
           </div>

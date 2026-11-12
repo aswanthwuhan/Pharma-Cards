@@ -2,7 +2,8 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "@/lib/db";
-import { dailyNewTarget, isRapid, loadStudyCards, startOfDay } from "@/lib/store";
+import { isOpen, unlockedLevels } from "@/lib/levels";
+import { dailyNewTarget, isRapid, levelSignals, loadStudyCards, MAX_DUE_PER_SESSION, startOfDay } from "@/lib/store";
 import { MAX_ANSWER_MS } from "@/lib/srs";
 
 export interface SessionPoint {
@@ -15,8 +16,8 @@ export interface TodayData {
   dueTotal: number; // study cards due now (overdue + due today)
   overdue: number; // due before today started
   dueToday: number; // due since today started
-  newToday: number; // new cards still allowed today (dailyNewTarget minus done)
-  queueTotal: number; // what "Start daily review" will serve: due + new
+  newToday: number; // new cards still allowed today (dailyNewTarget minus done), 0 while the due backlog exceeds one session
+  queueTotal: number; // what "Start daily review" will serve: due (capped at MAX_DUE_PER_SESSION) + new
   avgSeconds: number | null; // mean time per answer, last 7 days
   accuracy: number | null; // share of answers rated Good or Easy, last 7 days, 0–1
   reviewsWeek: number;
@@ -52,10 +53,13 @@ export function useTodayData(): TodayData | undefined {
       const overdue = due.filter((s) => s.due < todayStart).length;
       const dueTotal = due.length;
 
-      const newLimit = await dailyNewTarget(cards, stateIds);
-      const newDone = new Set(weekReviews.filter((r) => r.at >= todayStart && r.mode === "daily-new").map((r) => r.cardId)).size;
-      const unseen = cards.filter((c) => !stateIds.has(c.id)).length;
-      const newToday = Math.min(Math.max(0, newLimit - newDone), unseen);
+      // Same three rules as the daily session in lib/store.ts buildQueue, so the count matches what it serves.
+      const doneToday = new Set(weekReviews.filter((r) => r.at >= todayStart && r.mode === "daily-new").map((r) => r.cardId));
+      const newLimit = await dailyNewTarget(cards, { has: (id) => stateIds.has(id) && !doneToday.has(id) });
+      const unlocked = unlockedLevels(cards, levelSignals(states, new Date(now)));
+      const openUnseen = cards.filter((c) => !stateIds.has(c.id) && isOpen(c, unlocked)).length;
+      // A due backlog larger than one session leaves no room for new cards (same rule as buildQueue).
+      const newToday = dueTotal > MAX_DUE_PER_SESSION ? 0 : Math.min(Math.max(0, newLimit - doneToday.size), openUnseen);
 
       const studyWeek = weekReviews.filter((r) => studyIds.has(r.cardId));
       const n = studyWeek.length;
@@ -73,7 +77,7 @@ export function useTodayData(): TodayData | undefined {
         overdue,
         dueToday: dueTotal - overdue,
         newToday,
-        queueTotal: dueTotal + newToday,
+        queueTotal: Math.min(dueTotal, MAX_DUE_PER_SESSION) + newToday,
         avgSeconds,
         accuracy,
         reviewsWeek: n,

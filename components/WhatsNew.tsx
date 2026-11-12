@@ -6,7 +6,10 @@ import { useDialogFocus } from "@/lib/useDialogFocus";
 
 const SEEN_KEY = "pharmacards:changelogSeen";
 
-/** Shows the change log once per version, on the first open after an update. */
+/**
+ * Shows the change log once per version, on the first open after an update.
+ * A brand-new install (no key yet) is only marked as seen, so first-time users are not shown it.
+ */
 export function WhatsNew() {
   const [entry, setEntry] = useState<(typeof CHANGELOG)[number]>();
   const panel = useRef<HTMLDivElement>(null);
@@ -14,6 +17,10 @@ export function WhatsNew() {
   useEffect(() => {
     const seen = localStorage.getItem(SEEN_KEY);
     if (seen === APP_VERSION) return;
+    if (seen === null) {
+      localStorage.setItem(SEEN_KEY, APP_VERSION);
+      return;
+    }
     const current = CHANGELOG.find((c) => c.version === APP_VERSION);
     if (current) setEntry(current);
     else localStorage.setItem(SEEN_KEY, APP_VERSION);

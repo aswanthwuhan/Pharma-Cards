@@ -198,7 +198,7 @@ export default function Admin() {
               <button className="btn-ghost" onClick={() => setEditing(c.id)}>
                 Edit
               </button>
-              <span className="font-mono text-[11px] text-ink-soft/70">{c.id}</span>
+              <span className="font-mono text-[11px] text-ink-soft">{c.id}</span>
             </div>
           </div>
         );

@@ -57,15 +57,19 @@ export function MixPanel({
   countByTopic,
   mix,
   onChange,
+  loading = false,
 }: {
   cards: FlashCard[];
   countByTopic: Map<string, number>;
   mix: MixState;
   onChange: (patch: Partial<MixState>) => void;
+  /** The deck is still loading; show placeholders instead of "No cards match". */
+  loading?: boolean;
 }) {
   const pool = mixPool(cards, mix);
   const n = pool.length;
   const picked = mix.topics.length;
+  const take = Math.min(mix.size, n);
 
   return (
     <div className="space-y-6">
@@ -197,23 +201,27 @@ export function MixPanel({
       <div className="space-y-3 rounded-xl border border-rule bg-well p-4">
         <p className="eyebrow">Matching cards</p>
         <p className="flex items-baseline gap-2">
-          <span className="font-mono text-3xl tabular-nums">{n}</span>
-          <span className="text-sm text-ink-soft">{n === 1 ? "card matches" : "cards match"} these choices</span>
+          <span className="font-mono text-3xl tabular-nums">{loading ? "–" : n}</span>
+          <span className="text-sm text-ink-soft">
+            {loading ? "Loading…" : `${n === 1 ? "card matches" : "cards match"} these choices`}
+          </span>
         </p>
-        <p className="text-xs text-ink-soft">
-          {n === 0
-            ? "Nothing matches yet. Untick a filter to widen the mix."
-            : n < mix.size
-              ? `Only ${n} match, so this session will be shorter than ${mix.size}.`
-              : `Your session will use ${mix.size} of them.`}
-        </p>
+        {!loading && (
+          <p className="text-xs text-ink-soft">
+            {n === 0
+              ? "Nothing matches yet. Untick a filter to widen the mix."
+              : n < mix.size
+                ? `Only ${n} match, so this session will be shorter than ${mix.size}.`
+                : `Your session will use ${mix.size} of them.`}
+          </p>
+        )}
         {n > 0 ? (
           <Link href={mixHref(mix)} className="btn-primary w-full">
-            Start {Math.min(mix.size, n)} cards
+            Start {take} {take === 1 ? "card" : "cards"}
           </Link>
         ) : (
           <button type="button" disabled className="btn-primary w-full">
-            No cards match these choices
+            {loading ? "Loading…" : "No cards match these choices"}
           </button>
         )}
       </div>

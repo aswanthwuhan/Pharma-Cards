@@ -967,11 +967,31 @@
             "Unregulated gene expression and side effects such as arthritis, dermatitis or cancer",
             "Animal welfare and ethical objections"
           ]
+        },
+        {
+          "h": "Production",
+          "points": [
+            "Gene construct introduced by DNA microinjection, embryonic stem cell mediated transfer or retrovirus",
+            "Germ-line chimeras are bred until homozygous transgenic animals are obtained"
+          ]
+        },
+        {
+          "h": "Knockout",
+          "points": [
+            "Mutant allele put into ES cells by homologous recombination; chimeras mated to get homozygous knockouts"
+          ]
+        },
+        {
+          "h": "Applications",
+          "points": [
+            "Knock-in of human immunoglobulin genes gives humanised antibodies"
+          ]
         }
       ],
       "refs": [
         "Sarkar p271-275",
-        "Sarkar p266-270"
+        "Sarkar p266-270",
+        "Ghosh FEP PDF p196"
       ],
       "pyq": [
         {
@@ -1028,7 +1048,8 @@
       "status": "draft",
       "subtopic": "p4-experimental-animal-models",
       "tags": [
-        "uses"
+        "uses",
+        "newer-drugs"
       ],
       "level": 2
     },
@@ -1249,17 +1270,38 @@
             "Part of the preclinical safety package with carcinogenicity testing",
             "Rare effects may still be missed for statistical reasons"
           ]
+        },
+        {
+          "h": "Aim",
+          "points": [
+            "Detect mutagenic and carcinogenic potential, since gene mutation can cause carcinogenesis"
+          ]
+        },
+        {
+          "h": "In vitro",
+          "points": [
+            "Bacterial reverse mutation (Ames) test using amino acid-dependent strains",
+            "Mammalian cells for gene mutation, clastogenicity and aneuploidy"
+          ]
         }
       ],
       "refs": [
         "KDT8 ch5",
-        "Katzung16 ch1"
+        "Katzung16 ch1",
+        "Sarkar p256-260"
       ],
-      "pyq": [],
+      "pyq": [
+        {
+          "university": "UHSR",
+          "year": 2025,
+          "marks": 10
+        }
+      ],
       "status": "draft",
       "subtopic": "p4-experimental-toxicity",
       "tags": [
-        "adr"
+        "adr",
+        "classification"
       ],
       "level": 2
     },
@@ -3834,49 +3876,6 @@
       "level": 1
     },
     {
-      "id": "p4-experimental-143",
-      "type": "shortnote",
-      "front": "Short note: Transgenic animals",
-      "level": 2,
-      "subtopic": "p4-experimental-animal-models",
-      "tags": [
-        "newer-drugs"
-      ],
-      "sections": [
-        {
-          "h": "Production",
-          "points": [
-            "Gene construct introduced by DNA microinjection, embryonic stem cell mediated transfer or retrovirus",
-            "Germ-line chimeras are bred until homozygous transgenic animals are obtained"
-          ]
-        },
-        {
-          "h": "Knockout",
-          "points": [
-            "Mutant allele put into ES cells by homologous recombination; chimeras mated to get homozygous knockouts"
-          ]
-        },
-        {
-          "h": "Applications",
-          "points": [
-            "Knock-in of human immunoglobulin genes gives humanised antibodies"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p271-275",
-        "Ghosh FEP PDF p196"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
-    },
-    {
       "id": "p4-experimental-144",
       "type": "basic",
       "front": "What are the main methods of making a transgenic animal?",
@@ -4068,42 +4067,6 @@
         "dosing"
       ],
       "level": 1
-    },
-    {
-      "id": "p4-experimental-153",
-      "type": "shortnote",
-      "front": "Short note: Genotoxicity testing",
-      "level": 2,
-      "subtopic": "p4-experimental-toxicity",
-      "tags": [
-        "classification"
-      ],
-      "sections": [
-        {
-          "h": "Aim",
-          "points": [
-            "Detect mutagenic and carcinogenic potential, since gene mutation can cause carcinogenesis"
-          ]
-        },
-        {
-          "h": "In vitro",
-          "points": [
-            "Bacterial reverse mutation (Ames) test using amino acid-dependent strains",
-            "Mammalian cells for gene mutation, clastogenicity and aneuploidy"
-          ]
-        }
-      ],
-      "refs": [
-        "Sarkar p256-260"
-      ],
-      "pyq": [
-        {
-          "university": "UHSR",
-          "year": 2025,
-          "marks": 10
-        }
-      ],
-      "status": "draft"
     },
     {
       "id": "p4-experimental-154",

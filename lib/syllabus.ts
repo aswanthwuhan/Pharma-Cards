@@ -82,53 +82,7 @@ export const PAPERS: Paper[] = [
   ]),
 ];
 
-/** NMC syllabus items (2022), numbered as in the official document. */
-export const NMC_ITEMS: Record<number, string> = {
-  1: "History of Pharmacology and medicine",
-  2: "Basic and molecular pharmacology",
-  3: "Drug receptors and Pharmacodynamics",
-  4: "Pharmacokinetics",
-  5: "Therapeutic Drug Monitoring",
-  6: "Drugs acting on synaptic and neuroeffector junctional sites",
-  7: "Autonomic pharmacology",
-  8: "Drugs acting on central nervous system",
-  9: "Drugs modifying renal functions",
-  10: "Drugs acting on cardiovascular system and hemostatic mechanisms",
-  11: "Reproductive Pharmacology",
-  12: "Agents affecting calcium homeostasis",
-  13: "Autacoids, analgesics, drugs for rheumatoid arthritis and gout",
-  14: "Drugs acting on Gastrointestinal system",
-  15: "Drugs affecting the respiratory system",
-  16: "Chemotherapy: general principles and antimicrobials",
-  17: "Chemotherapy of neoplastic disease",
-  18: "Drugs in autoimmune disorders and GVHD",
-  19: "Dermatological pharmacology",
-  20: "Ocular pharmacology",
-  21: "Use of drugs in special population",
-  22: "Immunomodulators",
-  23: "Drugs used in endocrine disorders",
-  24: "Drug delivery systems",
-  25: "Heavy metal poisoning",
-  26: "Non-metallic toxicants",
-  27: "Research methodology and biostatistics",
-  28: "Pharmacogenomics, pharmacovigilance, pharmacoeconomics, pharmacoepidemiology",
-  29: "OTC drugs, essential medicines, P-drug, generic and banned drugs",
-  30: "Rational use of drugs and rational prescribing",
-  31: "Dietary supplements and herbal medicines",
-  32: "Common poisonings",
-  33: "National programmes for infectious and vector-borne diseases",
-  34: "Professionalism and ethics",
-  35: "Clinical pharmacology",
-  36: "Drug development research and regulations",
-  37: "Pharmacometrics",
-  38: "General screening and evaluation of drugs",
-  39: "Experimentation (bioassay, animal experiments)",
-  40: "Biochemical pharmacology",
-  41: "Education",
-};
-
 export const TOPICS: Topic[] = PAPERS.flatMap((x) => x.topics);
 export const topicById = new Map(TOPICS.map((t) => [t.id, t]));
-export const paperById = new Map(PAPERS.map((x) => [x.id, x]));
 export const SUBTOPIC_LIST = TOPICS.flatMap((t) => t.subtopics.map((s) => ({ ...s, topicId: t.id })));
 export const subtopicById = new Map(SUBTOPIC_LIST.map((s) => [s.id, s]));
