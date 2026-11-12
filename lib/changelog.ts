@@ -5,6 +5,14 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.16",
+    changes: [
+      "Rapid fire: changing direction (Q to A, A to Q, Mixed) keeps your place and streak instead of restarting",
+      "Grand random and weak-area sessions bring in new cards level by level, the same as the daily review",
+      "Android home screen: the web app icon now fills its shape",
+    ],
+  },
+  {
     version: "0.5.15",
     changes: [
       "A card you mark Forgot now comes back once at the end of the same session, so you re-test it before you stop",

@@ -199,6 +199,11 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
     const byId = new Map(cards.map((c) => [c.id, c]));
     return xs.map((x) => byId.get(x.id)!);
   };
+  // New cards only from levels the student has unlocked in each subtopic.
+  const unlocked = unlockedLevels(cards, levelSignals([...states.values()], now));
+  // A hand-picked scope (topics, type, tag, past papers) is the student's own choice, so it is not gated; already-seen cards are never hidden.
+  const scoped = opts.topicIds?.length || opts.subtopicIds?.length || opts.types?.length || opts.pyqOnly || opts.tag;
+  const ladder = (xs: FlashCard[]) => (scoped ? xs : xs.filter((c) => states.has(c.id) || isOpen(c, unlocked)));
 
   switch (opts.mode) {
     case "diagnostic":
@@ -212,7 +217,7 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
 
     case "random": {
       const { subtopic } = await computeMastery(cards);
-      return restore(stratifiedSample(uniqueFronts(cards).map(bySubtopic), opts.size ?? 50, (s) => groupWeight(subtopic.get(s))));
+      return restore(stratifiedSample(uniqueFronts(ladder(cards)).map(bySubtopic), opts.size ?? 50, (s) => groupWeight(subtopic.get(s))));
     }
 
     case "weak": {
@@ -221,7 +226,7 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       const weakSubs = new Set(
         [...subtopic.values()].filter((m) => m.label === "weak" || m.label === "moderate").map((m) => m.topicId),
       );
-      const pool = uniqueFronts(cards.filter((c) => weakSubs.has(subKey(c))));
+      const pool = uniqueFronts(ladder(cards.filter((c) => weakSubs.has(subKey(c)))));
       if (!pool.length) return [];
       const scored = shuffle(pool).map((c) => {
         const s = states.get(c.id);
@@ -261,8 +266,6 @@ export async function buildQueue(opts: QueueOptions): Promise<FlashCard[]> {
       // Plan today's quota from the start-of-day count, so reopening a session does not shrink it.
       const newLimit = await dailyNewTarget(cards, { has: (id) => states.has(id) && !doneToday.has(id) });
       const { subtopic } = await computeMastery(cards);
-      // New cards only from levels the student has unlocked in each subtopic.
-      const unlocked = unlockedLevels(cards, levelSignals([...states.values()], now));
       const fresh = stratifiedSample(
         uniqueFronts(cards.filter((c) => !states.has(c.id) && isOpen(c, unlocked))).map(bySubtopic),
         backlog ? 0 : Math.max(0, newLimit - newDoneToday),
@@ -321,10 +324,7 @@ export async function buildRapidQueue(opts: QueueOptions): Promise<FlashCard[]> 
   if (opts.subtopicIds?.length) cards = cards.filter((c) => c.subtopic && opts.subtopicIds!.includes(c.subtopic));
   if (opts.tag) cards = cards.filter((c) => c.tags?.includes(opts.tag!));
   const dir = opts.direction ?? "forward";
-  const views = cards.map((c) => {
-    const reverse = dir === "reverse" || (dir === "mixed" && Math.random() < 0.5);
-    return reverse ? reversed(c) : c;
-  });
+  const views = cards.map((c) => rapidView(c, dir));
   const states = new Map((await db.cardStates.toArray()).map((s) => [s.cardId, s]));
   const now = Date.now();
   const due = shuffle(views.filter((v) => (states.get(v.id)?.due ?? Infinity) <= now));
@@ -335,4 +335,10 @@ export async function buildRapidQueue(opts: QueueOptions): Promise<FlashCard[]> 
 
 export function reversed(c: FlashCard): FlashCard {
   return { ...c, id: `${c.id}~r`, front: c.back ?? "", back: c.front };
+}
+
+/** One Rapid Fire card in the given direction, from either of its views. */
+export function rapidView(c: FlashCard, dir: RapidDirection): FlashCard {
+  const base = c.id.endsWith("~r") ? { ...c, id: c.id.slice(0, -2), front: c.back ?? "", back: c.front } : c;
+  return dir === "reverse" || (dir === "mixed" && Math.random() < 0.5) ? reversed(base) : base;
 }

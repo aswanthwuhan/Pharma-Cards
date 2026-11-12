@@ -44,6 +44,12 @@ function Study() {
   const pyqOnly = params.get("pyq") === "1";
   const rawDir = params.get("dir");
   const direction: RapidDirection = rawDir === "reverse" || rawDir === "mixed" ? rawDir : "forward";
+  // A direction change is handled inside RapidFireSession, so it does not rebuild the queue.
+  const scope = (() => {
+    const q = new URLSearchParams(params.toString());
+    q.delete("dir");
+    return q.toString();
+  })();
   const [cards, setCards] = useState<FlashCard[]>();
 
   useEffect(() => {
@@ -63,7 +69,7 @@ function Study() {
       live = false;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [params.toString()]);
+  }, [scope]);
 
   if (!cards) return <p className="py-10 text-center font-mono text-sm text-ink-soft">Building your session…</p>;
   const scopeTitle =

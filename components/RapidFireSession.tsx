@@ -6,7 +6,7 @@ import type { Grade } from "ts-fsrs";
 import type { SwipeGrade } from "@/lib/swipe";
 import { recordReview, undoReview, type ReviewUndo } from "@/lib/srs";
 import { useSettings } from "@/lib/settings";
-import type { RapidDirection } from "@/lib/store";
+import { rapidView, type RapidDirection } from "@/lib/store";
 import { subtopicById, topicById } from "@/lib/syllabus";
 import type { FlashCard } from "@/lib/types";
 import { GradeDock, gradeCurrentCard, SwipeDeck } from "./SwipeDeck";
@@ -43,6 +43,8 @@ export function RapidFireSession({
   const shownAt = useRef(Date.now());
   const busy = useRef(false);
   const dirRefs = useRef<(HTMLButtonElement | null)[]>([]);
+  const iRef = useRef(i);
+  const dirMounted = useRef(false);
   const card = cards[i];
   const done = i >= cards.length;
   // The card on screen now; a fly-out that finishes after a skip or undo must not grade a different card.
@@ -61,7 +63,15 @@ export function RapidFireSession({
   useEffect(() => setCards(initial), [initial]);
   useEffect(() => {
     shownAt.current = Date.now();
+    iRef.current = i;
   }, [i]);
+  // Changing direction re-faces only the cards not yet graded; position, log and streak stay.
+  // shortcut: the remaining cards keep their order rather than being re-sorted by what is due in the new direction; re-sort by due date if that order matters.
+  useEffect(() => {
+    if (!dirMounted.current) return void (dirMounted.current = true);
+    setFlipped(false);
+    setCards((cs) => cs.map((c, k) => (k < iRef.current ? c : rapidView(c, direction))));
+  }, [direction]);
 
   // The deck flies the card out, then hands the grade here.
   const grade = useCallback(

@@ -3,6 +3,7 @@ import { beforeEach, describe, expect, it } from "vitest";
 import bundled from "../content/all.json";
 import { createEmptyCard } from "ts-fsrs";
 import { db, setSetting } from "../lib/db";
+import { cardLevel } from "../lib/levels";
 import { buildQueue, dailyNewTarget, isRapid, MAX_DUE_PER_SESSION, MAX_NEW_PER_DAY } from "../lib/store";
 import type { FlashCard } from "../lib/types";
 
@@ -47,5 +48,11 @@ describe("study queue", () => {
     const q = await buildQueue({ mode: "daily" });
     expect(q.length).toBeLessThanOrEqual(MAX_DUE_PER_SESSION);
     expect(q.every((c) => due.has(c.id))).toBe(true);
+  });
+
+  it("serves only level 1 new cards in a random session when nothing is unlocked", async () => {
+    const q = await buildQueue({ mode: "random", size: 300 });
+    expect(q.length).toBeGreaterThan(0);
+    expect(q.every((c) => cardLevel(c) === 1)).toBe(true);
   });
 });

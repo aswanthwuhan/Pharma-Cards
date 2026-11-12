@@ -14,7 +14,8 @@ const nextConfig: NextConfig = {
   // Versions the service-worker cache per release (see public/sw.js).
   env: { NEXT_PUBLIC_APP_VERSION: pkg.version, NEXT_PUBLIC_BASE_PATH: basePath },
   // Let a phone on the same Wi-Fi (or Tailscale) load the dev server for testing.
-  allowedDevOrigins: ["192.168.1.4", "100.85.46.42"],
+  // The hosts come from DEV_ORIGINS in .env.local (comma separated).
+  allowedDevOrigins: (process.env.DEV_ORIGINS ?? "").split(",").map((s) => s.trim()).filter(Boolean),
 };
 
 export default nextConfig;
