@@ -128,7 +128,7 @@ const SETTING_OK: Record<string, (v: unknown) => boolean> = {
   theme: oneOf("dark", "light", "auto"),
   motion: oneOf("full", "system", "reduced"),
   essayStyle: oneOf("ladder", "rail"),
-  palette: oneOf("petrol", "ocean", "plum", "graphite", "sepia"),
+  palette: oneOf("petrol", "ocean", "plum", "graphite", "sepia", "bold"),
   appIcon: (v) => typeof v === "string",
   showDrafts: (v) => typeof v === "boolean",
   swipe: (v) => typeof v === "boolean",

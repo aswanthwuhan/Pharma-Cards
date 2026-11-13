@@ -163,7 +163,7 @@ export default function Help() {
       <Panel id="customise" title="Make it yours">
         <ul className="space-y-2 text-sm">
           <li>
-            <b>Settings → Appearance</b>: Day, Night or Auto, five palettes, and your own colours. A custom
+            <b>Settings → Appearance</b>: Day, Night or Auto, six colour themes, and your own colours. A custom
             accent sets its own hover, selected and button-text colours, and Settings warns you if text or card
             text falls below 4.5:1 against its background.
           </li>

@@ -395,6 +395,7 @@ export function GradeDock({ intervals }: { intervals?: Record<number, string> })
           <button
             key={g}
             onClick={() => gradeCurrentCard(g)}
+            data-grade={g}
             className="flex min-h-16 flex-col items-center justify-center gap-0.5 rounded-xl border transition-[transform,background-color] duration-100 active:scale-[0.97]"
             style={{
               borderColor: `color-mix(in srgb, ${meta.color} 45%, transparent)`,

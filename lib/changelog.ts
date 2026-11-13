@@ -5,6 +5,14 @@ export const APP_VERSION = pkg.version;
 /** Newest first. Add an entry for every release; the app shows the newest one once after an update. */
 export const CHANGELOG: { version: string; changes: string[] }[] = [
   {
+    version: "0.5.17",
+    changes: [
+      "New Bold colour theme: big type, colourful paper tiles and solid grade buttons, in Night and Day (Settings > Appearance)",
+      "Paper tiles in Bold show a weak / moderate / strong bar",
+      "Custom colours: Weak, Moderate and Strong can now be changed, plus the four paper tile colours in Bold",
+    ],
+  },
+  {
     version: "0.5.16",
     changes: [
       "Rapid fire: changing direction (Q to A, A to Q, Mixed) keeps your place and streak instead of restarting",

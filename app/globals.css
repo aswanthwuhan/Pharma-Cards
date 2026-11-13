@@ -43,9 +43,17 @@
   --color-strong: #34d399;
   --color-unseen: #2b4a50;
 
+  /* colour tiles (bold palette); defaults for every palette */
+  --color-tile-1: #ffd23f;
+  --color-tile-2: #5eead4;
+  --color-tile-3: #b9a5ff;
+  --color-tile-4: #6cc4ff;
+  --color-on-tile: #131313;
+
   --font-sans: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-newsreader), ui-serif, Georgia, serif;
   --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
 
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
@@ -169,6 +177,27 @@ body::before {
   --color-paper: #f7f1e3; --color-sheet: #fffaf0; --color-well: #efe6d2; --color-rule: #dfd2b5;
   --color-ink: #2e2213; --color-ink-soft: #6d5a3f;
   --color-teal: #7a4b12; --color-teal-deep: #5c380c; --color-teal-wash: #efe2c6; --color-on-teal: #ffffff; --color-unseen: #e8dcc2;
+}
+
+/* Bold palette: chunky, flat, high-contrast. Ink and surfaces are pure neutrals. */
+:root[data-theme="dark"][data-palette="bold"] {
+  --color-paper: #131313; --color-sheet: #1e1e1e; --color-well: #191919; --color-rule: #2e2e2e;
+  --color-ink: #f5f2ea; --color-ink-soft: #a3a09a;
+  --color-teal: #ff5a36; --color-teal-deep: #e8431f; --color-teal-wash: #3a1d15; --color-on-teal: #131313; --color-unseen: #333333;
+  --color-weak: #ff6b6b; --color-moderate: #ffd23f; --color-strong: #4ade80;
+  --color-porcelain: #ebe7db; --color-porcelain-2: #ddd8ca; --color-porcelain-ink: #131313; --color-porcelain-soft: #55524b;
+  --color-porcelain-rule: #cfc9b9; --color-porcelain-accent: #a8331a; --color-porcelain-accent-wash: #f6d9cf; --color-porcelain-accent-strong: #a83a1c;
+  --tile-ring: #f5f2ea;
+}
+:root[data-theme="light"][data-palette="bold"] {
+  --color-paper: #f5f2ea; --color-sheet: #ffffff; --color-well: #ebe7db; --color-rule: #ddd8ca;
+  --color-ink: #131313; --color-ink-soft: #55524b;
+  --color-teal: #c23814; --color-teal-deep: #c9340f; --color-teal-wash: #fbe0d7; --color-on-teal: #ffffff; --color-unseen: #ddd8ca;
+  --color-weak: #c92a2a; --color-moderate: #8a5a12; --color-strong: #167a4f;
+  --color-porcelain: #ffffff; --color-porcelain-2: #f1ede2; --color-porcelain-ink: #131313; --color-porcelain-soft: #55524b;
+  --color-porcelain-rule: #ddd8ca; --color-porcelain-accent: #b5391b; --color-porcelain-accent-wash: #fbe0d7; --color-porcelain-accent-strong: #c53a15;
+  --color-tile-1: #ffcf33; --color-tile-2: #4fd9c3; --color-tile-3: #ab95f5; --color-tile-4: #5cb8f5;
+  --tile-ring: #131313;
 }
 
 /* Faint, thin scrollbars: low-contrast thumb on a transparent track, no layout gutter. */
@@ -362,3 +391,149 @@ button,
 /* even line breaks: no one-word last lines (impeccable detector: straggler, unbalanced-heading) */
 h1, h2, h3 { text-wrap: balance; }
 p, li { text-wrap: pretty; }
+
+/* ---- Bold palette structural overrides. Unlayered, so they beat the @utility rules.
+   Everything is scoped to :root[data-palette="bold"] except the helper and stack-bar classes at the end. ---- */
+:root[data-palette="bold"] {
+  --font-sans: var(--font-dm), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-display);
+  --font-mono: var(--font-dm), ui-sans-serif, system-ui, sans-serif;
+}
+:root[data-palette="bold"] h1,
+:root[data-palette="bold"] h2,
+:root[data-palette="bold"] h3,
+:root[data-palette="bold"] .font-serif {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* flat: no dot grid, no ambient glow, solid panels with no blur, border or shadow */
+:root[data-palette="bold"] body {
+  background-image: none;
+}
+:root[data-palette="bold"] body::before {
+  display: none;
+}
+:root[data-palette="bold"] .glass,
+:root[data-palette="bold"] .glass-strong,
+:root[data-palette="bold"] .sheet,
+:root[data-palette="bold"] .card-surface {
+  background-color: var(--color-sheet);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 0;
+  box-shadow: none;
+}
+
+/* chunky shapes */
+:root[data-palette="bold"] .sheet,
+:root[data-palette="bold"] .card-surface,
+:root[data-palette="bold"] .glass.rounded-xl,
+:root[data-palette="bold"] .glass-strong.rounded-xl,
+:root[data-palette="bold"] .rounded-xl {
+  border-radius: 28px;
+}
+:root[data-palette="bold"] .rounded-2xl {
+  border-radius: 32px;
+}
+:root[data-palette="bold"] .rounded-lg {
+  border-radius: 18px;
+}
+:root[data-palette="bold"] .porcelain {
+  border-radius: 32px;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* type weights */
+:root[data-palette="bold"] .eyebrow {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+:root[data-palette="bold"] .btn,
+:root[data-palette="bold"] .btn-ghost,
+:root[data-palette="bold"] .btn-chip,
+:root[data-palette="bold"] .btn-chip-on {
+  font-weight: 700;
+}
+:root[data-palette="bold"] .btn-primary {
+  font-weight: 800;
+}
+:root[data-palette="bold"] .btn-ghost,
+:root[data-palette="bold"] .btn-chip {
+  background-color: var(--color-well);
+  border-color: transparent;
+}
+
+/* colour tiles: a solid colour block with dark text. Tokens are redefined locally so child utilities follow. */
+:root[data-palette="bold"] [data-tile] {
+  color: var(--color-on-tile);
+  border: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-radius: 28px;
+  --color-ink: var(--color-on-tile);
+  --color-ink-soft: color-mix(in srgb, var(--color-on-tile) 72%, transparent);
+  --color-rule: color-mix(in srgb, var(--color-on-tile) 22%, transparent);
+  --color-well: color-mix(in srgb, var(--color-on-tile) 12%, transparent);
+  --color-sheet: color-mix(in srgb, #ffffff 35%, transparent);
+  --color-teal: var(--color-on-tile);
+  --color-on-teal: #ffffff;
+  --color-teal-wash: color-mix(in srgb, var(--color-on-tile) 14%, transparent);
+  --color-unseen: color-mix(in srgb, var(--color-on-tile) 18%, transparent);
+}
+:root[data-palette="bold"] [data-tile="1"] { background-color: var(--color-tile-1) !important; } /* beats the inline selected style */
+:root[data-palette="bold"] [data-tile="2"] { background-color: var(--color-tile-2) !important; } /* beats the inline selected style */
+:root[data-palette="bold"] [data-tile="3"] { background-color: var(--color-tile-3) !important; } /* beats the inline selected style */
+:root[data-palette="bold"] [data-tile="4"] { background-color: var(--color-tile-4) !important; } /* beats the inline selected style */
+/* status colours darkened so labels and bars read on every tile colour (4.5:1 on lilac) */
+:root[data-palette="bold"] [data-tile] { --color-weak: #8f1414; --color-moderate: #5c3a00; --color-strong: #0b5230; }
+:root[data-palette="bold"] [data-tile][aria-pressed="true"],
+:root[data-palette="bold"] [data-tile][data-selected="true"] {
+  outline: 3px solid var(--tile-ring);
+  outline-offset: 2px;
+}
+
+/* focus ring in the accent colour */
+:root[data-palette="bold"] :focus-visible {
+  outline-color: var(--color-teal);
+}
+
+/* helpers: show bold-only markup, hide bold-hide markup under bold */
+.bold-only { display: none; }
+:root[data-palette="bold"] .bold-only { display: block; }
+:root[data-palette="bold"] .bold-hide { display: none; }
+
+/* stacked mastery bar */
+.stack-bar {
+  display: flex;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--color-unseen);
+}
+.stack-bar > i { display: block; height: 100%; }
+.stack-weak { background: var(--color-weak); }
+.stack-moderate { background: var(--color-moderate); }
+.stack-strong { background: var(--color-strong); }
+:root[data-palette="bold"] [data-tile] .stack-bar {
+  background: color-mix(in srgb, var(--color-on-tile) 18%, transparent);
+}
+:root[data-palette="bold"] [data-tile] .stack-bar > i + i { margin-left: 2px; }
+
+/* Bold: grade buttons are solid colour blocks. !important beats the inline tint the dock sets. */
+:root[data-palette="bold"] [data-grade] {
+  border-color: transparent !important;
+  border-radius: 22px;
+  --color-ink: var(--color-on-tile);
+  color: var(--color-on-tile);
+  font-weight: 800;
+}
+:root[data-palette="bold"] [data-grade] > [aria-hidden] { display: none; }
+:root[data-palette="bold"] [data-grade="1"] { background: var(--color-weak) !important; }
+:root[data-palette="bold"] [data-grade="2"] { background: var(--color-moderate) !important; }
+:root[data-palette="bold"] [data-grade="3"] { background: var(--color-strong) !important; }
+:root[data-palette="bold"] [data-grade="4"] { background: var(--color-tile-4) !important; }
+/* Day mode status colours are dark text colours; the buttons take the bright block colours instead. */
+:root[data-theme="light"][data-palette="bold"] [data-grade] { --color-weak: #ff6b6b; --color-moderate: #ffd23f; --color-strong: #4ade80; }

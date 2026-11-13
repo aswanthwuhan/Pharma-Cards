@@ -8,6 +8,7 @@ export interface PaperSummary {
   weakest: TopicMastery | null; // lowest rated topic
   weakestTitle: string | null;
   studyTopicId: string | null; // topic the "Study topic" button opens: weakest, else the biggest
+  mix: { weak: number; moderate: number; strong: number; unrated: number }; // card counts by band; sums to cards
 }
 
 /** Card-weighted mastery for one paper, plus its weakest rated topic. */
@@ -18,11 +19,15 @@ export function summarisePaper(paper: Paper, topics?: Map<string, TopicMastery>)
   let weakest: TopicMastery | null = null;
   let weakestTitle: string | null = null;
   let biggest: TopicMastery | null = null;
+  const mix = { weak: 0, moderate: 0, strong: 0, unrated: 0 };
 
   for (const t of paper.topics) {
     const m = topics?.get(t.id);
     if (!m) continue;
     cards += m.cards;
+    const band = labelFor(m.score);
+    if (band === "unassessed") mix.unrated += m.cards;
+    else mix[band] += m.cards;
     if (m.cards && (!biggest || m.cards > biggest.cards)) biggest = m;
     if (m.score === null) continue;
     rated += m.cards;
@@ -41,5 +46,6 @@ export function summarisePaper(paper: Paper, topics?: Map<string, TopicMastery>)
     weakest,
     weakestTitle,
     studyTopicId: (weakest ?? biggest)?.topicId ?? null,
+    mix,
   };
 }

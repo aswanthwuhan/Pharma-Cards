@@ -69,6 +69,7 @@ function CustomColors({ s }: { s: Settings }) {
     updateSetting("customColors", next);
   };
   const keys = Object.keys(CUSTOM_COLORS) as CustomColor[];
+  const shown = keys.filter((k) => s.palette === "bold" || !k.startsWith("tile")); // Paper tiles only show in Bold
   // The colour a picker is showing right now (unsaved drag preview first, then the applied theme).
   const effectiveFor = (cssVar: string) => {
     const key = keys.find((k) => CUSTOM_COLORS[k].cssVar === cssVar);
@@ -107,7 +108,7 @@ function CustomColors({ s }: { s: Settings }) {
         </p>
       )}
       <ul className="grid gap-1 sm:grid-cols-2 sm:gap-x-6">
-        {keys.map((k) => {
+        {shown.map((k) => {
           const { cssVar, label } = CUSTOM_COLORS[k];
           const value = draft[k] ?? custom[k] ?? effective[cssVar] ?? "";
           return (

@@ -56,12 +56,19 @@ export const CUSTOM_COLORS = {
   cardBg: { cssVar: "--color-porcelain", label: "Card background" },
   cardText: { cssVar: "--color-porcelain-ink", label: "Card text" },
   cardSoft: { cssVar: "--color-porcelain-soft", label: "Card secondary text" },
+  tile1: { cssVar: "--color-tile-1", label: "Paper I tile" },
+  tile2: { cssVar: "--color-tile-2", label: "Paper II tile" },
+  tile3: { cssVar: "--color-tile-3", label: "Paper III tile" },
+  tile4: { cssVar: "--color-tile-4", label: "Paper IV tile" },
+  weak: { cssVar: "--color-weak", label: "Weak / Forgot" },
+  moderate: { cssVar: "--color-moderate", label: "Moderate / Hard" },
+  strong: { cssVar: "--color-strong", label: "Strong / Good" },
 } as const;
 export type CustomColor = keyof typeof CUSTOM_COLORS;
 
 export type MotionSetting = "full" | "system" | "reduced";
 
-export type Palette = "petrol" | "ocean" | "plum" | "graphite" | "sepia";
+export type Palette = "petrol" | "ocean" | "plum" | "graphite" | "sepia" | "bold";
 
 /** Colour palettes. `swatch` = [background, panel, accent] for the picker preview in each mode. */
 export const PALETTES: { id: Palette; name: string; note: string; night: string[]; day: string[] }[] = [
@@ -70,6 +77,7 @@ export const PALETTES: { id: Palette; name: string; note: string; night: string[
   { id: "plum", name: "Plum", note: "Soft violet", night: ["#160f1c", "#22182b", "#e3c2ff"], day: ["#fbf5ff", "#ffffff", "#5b2a86"] },
   { id: "graphite", name: "Graphite", note: "Neutral, no tint", night: ["#111214", "#1b1d21", "#e6e8eb"], day: ["#f6f6f4", "#ffffff", "#1f2328"] },
   { id: "sepia", name: "Sepia", note: "Warm paper for long reading", night: ["#1a1510", "#261f17", "#f1d39c"], day: ["#f7f1e3", "#fffaf0", "#7a4b12"] },
+  { id: "bold", name: "Bold", note: "Chunky, colourful, big type", night: ["#131313", "#1e1e1e", "#ff5a36"], day: ["#f5f2ea", "#ffffff", "#e8431f"] },
 ];
 
 export const DEFAULT_SETTINGS: Settings = {

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { LABEL_COLOR, LABEL_TEXT } from "@/components/MasteryPill";
 import type { MasteryLabel } from "@/lib/mastery";
+import { PAPERS } from "@/lib/syllabus";
 import type { Paper } from "@/lib/types";
 import type { PaperSummary } from "./paperSummary";
 
@@ -52,9 +53,14 @@ export function PaperCard({
   const count = w ? w.cards : summary.cards;
   const tag = w ? LABEL_TEXT[w.label] : summary.cards ? "Not rated yet" : "No cards yet";
   const tagColor = w && w.label !== "unassessed" ? LABEL_COLOR[w.label] : "var(--color-ink-soft)";
+  const tile = (Math.max(0, PAPERS.findIndex((p) => p.id === paper.id)) % 4) + 1; // bold theme colour, 1–4
+  const { mix } = summary;
+  const share = (n: number) => `${summary.cards ? (n / summary.cards) * 100 : 0}%`;
 
   return (
     <div
+      data-tile={tile}
+      data-selected={selected}
       className={`sheet rounded-xl flex flex-col p-4 transition-colors lg:p-5 ${selected ? "" : "hover:border-teal"}`}
       style={selected ? { borderColor: "var(--color-teal)", background: "var(--color-teal-wash)" } : undefined}
     >
@@ -71,9 +77,21 @@ export function PaperCard({
             {summary.score != null ? `${summary.score}%` : "--%"}
           </span>
         </span>
+        {/* span, not div: this sits inside a button, which allows phrasing content only */}
+        <span className="bold-only mt-2 block">
+          <span
+            className="stack-bar"
+            role="img"
+            aria-label={`${mix.weak} weak, ${mix.moderate} moderate, ${mix.strong} strong, ${mix.unrated} not rated`}
+          >
+            <i className="stack-weak" style={{ width: share(mix.weak) }} />
+            <i className="stack-moderate" style={{ width: share(mix.moderate) }} />
+            <i className="stack-strong" style={{ width: share(mix.strong) }} />
+          </span>
+        </span>
         <span className="mt-1 hidden font-serif text-lg leading-snug lg:line-clamp-2 lg:block">{subject}</span>
         <span className="mt-4 flex flex-1 items-end gap-3">
-          <VerticalCapsule score={summary.score} label={summary.label} />
+          <VerticalCapsule score={summary.score} label={summary.label} className="bold-hide" />
           <span className="min-w-0">
             <span className="line-clamp-2 block text-sm font-semibold leading-snug">{name}</span>
             <span className="mt-1 block font-mono text-[11px] tabular-nums text-ink-soft">{count} cards</span>
